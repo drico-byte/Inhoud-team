@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------
+# Textbooks and anything derived from them never enter this repository.
+#
+# The copyright discipline is a property of the process, not the output, and the
+# git history is the evidence for it. A repository that has never contained a
+# textbook page cannot leak one, and that is provable years later in a way that
+# "we were careful" is not. These rules exist from the first commit for that
+# reason — do not relax them to make a one-off convenient.
+# ---------------------------------------------------------------------------
+
+# The profiler's input folder. The profiler is the only tool permitted to read a
+# textbook, and its input never gets committed.
+bronne/
+
+# Source documents of any kind
+*.pdf
+*.epub
+*.djvu
+
+# OCR intermediates. These now go to the scratch directory outside the repo, so
+# anything matching here is an accident — which is exactly what should be caught.
+*.tsv
+*.hocr
+*.png
+*.ppm
+*.pgm
+*.pbm
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.webp
+
+# ---------------------------------------------------------------------------
+# Local scratch and setup artifacts
+# ---------------------------------------------------------------------------
+
+# Claude Code discovers skills only under .claude/skills/. The canonical copy of
+# the standard lives at skills/wolkskool-inhoudstandaard/ and this is a junction
+# to it, created by bin/opstel.py. Committing it would duplicate every file.
+.claude/skills/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editors and OS furniture
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
