@@ -1,11 +1,16 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/versterking-van-materiaal/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:81f0e8f0fc4739f93657ae5061aafb51",
+  "konsep_hash": "sha256:1ab1b8bfcb72ac5a79e8222086bfc86a",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:81f0e8f0fc4739f93657ae5061aafb51"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "begrip": 1,
+    "watter pilaar dra die meeste": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -19,6 +24,59 @@
       "gebeurtenis": "hek",
       "verdict": "PASS",
       "woorde": 527,
+      "begroting": 504,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-24T21:16:20+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-24T21:16:20+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 37,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-24T21:16:20+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "begrip",
+        "watter pilaar dra die meeste"
+      ],
+      "tally": {
+        "begrip": 1,
+        "watter pilaar dra die meeste": 1
+      }
+    },
+    {
+      "wanneer": "2026-08-24T21:16:20+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Onder gewig knak 'n pilaar gewoonlik eerste op so 'n lyn in. — corrected: Vervang die meganisme met die korrekte een, en trek die laaste sin van die blok saam daarmee, want die twee sinne dra mekaar: 'Onder gewig buig die plat kante tussen die voue eerste uit en hou op om gewig te dra. Die gewig druk daarna net op die voulyne, en die pilaar sak in wanneer daardie lyne ook meegee. Die ronde pilaar het geen plat kant wat kan uitbuig nie, so sy hele kant help gewig dra tot heel op die einde.'",
+        "[feite] vierkantig: Met vier plat kante en vier hoeke, soos 'n vierk — corrected: 'Met vier ewe lang plat kante en vier regte hoeke, soos 'n vierkant.' Trek die blok 'Die pilaar met vier kante' hiermee saam: dit sê tans 'vier plat kante en vier regop hoeke', wat dieselfde gaping het, en die sin 'Van bo af lyk hy soos 'n vierkant' hang daarvan af dat die hoeke regte hoeke is. Noem die gelyke lengte en die regte hoeke ook daar."
+      ]
+    },
+    {
+      "wanneer": "2026-08-24T21:20:22+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1ab1b8bfcb72ac5a79e8222086bfc86a",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-08-24T21:20:22+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 552,
       "begroting": 504,
       "failures": []
     }

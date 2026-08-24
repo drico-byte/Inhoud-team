@@ -53,3 +53,28 @@ And when a checker prescribes a fix, remember it is reasoning from its own findi
 on 2026-08-21 a checker was right that something was wrong and its suggested fix would have introduced a
 new error — see [[wanneer-vra-en-wanneer-doen]] and Drico's own early instruction that a checker "needs
 reading rather than obeying".
+
+## And once ACROSS two lessons — 2026-08-24
+
+Term 2's lessons 14 and 15 ended up making opposite claims about folds. Lesson 14,
+after a fact-check correction, says the fold lines in a paper pillar are the
+**stiffest** part and give way last. Lesson 15 said there is nowhere a fold where the
+tube can buckle, which says a fold is the **weak** place.
+
+Both are defensible alone. A fold running lengthwise along a column is a stiffener; a
+crease across paper is a weak hinge. A nine-year-old cannot hold that distinction and
+should not have to.
+
+**Neither checker could see it. Each reads one lesson.** The coverage checker can open
+a sibling when told to — it opened lesson 14 to confirm the word *stut* was absent —
+but nothing checks two finished lessons against each other as a matter of course.
+
+Resolved by putting both lessons on the **same** mechanism: flat faces bulge outward
+and stop carrying, a round wall has none. Sourced, and the two lessons now reinforce
+each other.
+
+**How to apply.** When a fact check corrects a *mechanism* rather than a fact, ask
+which sibling lessons teach the same mechanism, and name them in the revision brief.
+The risk is highest inside one sub-topic, where lessons deliberately build on each
+other. Related: [[meting-dek-minder-as-die-lesse]].
+

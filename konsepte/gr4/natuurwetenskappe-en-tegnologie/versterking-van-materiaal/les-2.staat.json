@@ -4,8 +4,18 @@
   "konsep_hash": "sha256:65dd731c870a8fd0db3fadaf16dfc3f3",
   "hek": "PASS",
   "teruggestuur_vir": [],
-  "eskalasie": null,
-  "blok_faalrondtes": {},
+  "eskalasie": {
+    "soort": "mens_nodig",
+    "wanneer": "2026-08-24T21:22:08+00:00",
+    "rede": "feite returned MENS_NODIG — a writer handed a defect it cannot fix will invent one or strip the content"
+  },
+  "blok_faalrondtes": {
+    "nog 'n manier om papier sterk te maak": 1,
+    "ons noem so 'n buis 'n stut": 1,
+    "begrip": 1,
+    "die ente moet vashou": 1,
+    "hoekom die buis nie inmekaar sak nie": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -21,6 +31,102 @@
       "woorde": 495,
       "begroting": 504,
       "failures": []
+    },
+    {
+      "wanneer": "2026-08-24T21:21:58+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-24T21:21:58+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-24T21:21:58+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "begrip",
+        "die ente moet vashou",
+        "hoekom die buis nie inmekaar sak nie",
+        "nog 'n manier om papier sterk te maak",
+        "ons noem so 'n buis 'n stut"
+      ],
+      "tally": {
+        "begrip": 1,
+        "nog 'n manier om papier sterk te maak": 1,
+        "die ente moet vashou": 1,
+        "ons noem so 'n buis 'n stut": 1,
+        "hoekom die buis nie inmekaar sak nie": 1
+      }
+    },
+    {
+      "wanneer": "2026-08-24T21:21:58+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-08-24T21:22:08+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {
+        "begrip": 1,
+        "nog 'n manier om papier sterk te maak": 1,
+        "die ente moet vashou": 1,
+        "ons noem so 'n buis 'n stut": 1,
+        "hoekom die buis nie inmekaar sak nie": 1
+      }
+    },
+    {
+      "wanneer": "2026-08-24T21:22:08+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-24T21:22:08+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-24T21:22:08+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "begrip",
+        "die ente moet vashou",
+        "hoekom die buis nie inmekaar sak nie",
+        "nog 'n manier om papier sterk te maak",
+        "ons noem so 'n buis 'n stut"
+      ],
+      "tally": {
+        "nog 'n manier om papier sterk te maak": 1,
+        "ons noem so 'n buis 'n stut": 1,
+        "begrip": 1,
+        "die ente moet vashou": 1,
+        "hoekom die buis nie inmekaar sak nie": 1
+      }
+    },
+    {
+      "wanneer": "2026-08-24T21:22:08+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
     }
   ],
   "spek_hash": "sha256:fbacc62b1b9fc016882dbdd770380ce9",
