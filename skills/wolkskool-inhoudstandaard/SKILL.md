@@ -52,6 +52,46 @@ demonstrate side by side.
 Record provenance in every lesson's `herkoms` field (see schema below). Five
 lines now answers any question years later.
 
+## Where this text sits on the platform
+
+**A Wolkskool lesson is a video plus this text, running in parallel.** The video
+explains; the text is the same lesson in readable form. One video and one text per CAPS
+content heading, and they cover the same ground rather than dividing it.
+
+Two consequences that decide how the text is written:
+
+**The text stands alone.** A learner revising the night before a test does not rewatch a
+video, they read — so this text is the revision instrument, which is why the study budget
+is anchored to textbook parity rather than to something thinner. And a learner on a slow
+connection or a low-end device must be able to learn the whole concept from the text with
+no video and no images at all. That is not a nice-to-have in South Africa.
+
+**The video is made after the text, and uses the text as its guide.** The person making
+the video covers everything the text covers, and adds whatever else serves interest — a
+demonstration, an animation, a comparison. Two things follow, and both are the reason the
+video comes second: the text must never contain something the video misses, and the two
+must never disagree.
+
+So **the text is the floor, not the ceiling.** It carries the curriculum completely and
+correctly. The video carries the interest.
+
+Three consequences for how this text is written:
+
+**Everything in the text is a commitment the video must honour.** A block that does not
+need to be there is not merely page weight — it is a constraint on the person making the
+video. Write what the lesson requires and nothing more.
+
+**Correctness matters more than it would otherwise.** An error here does not stay here. It
+is spoken aloud in a video and reaches a learner twice.
+
+**The vivid comparison is the video's job, and the video does it better.** Showing a bean
+swell in wet soil or water push back on a hand is exactly what video is for. So the
+`eli10` layer is zero or one per lesson and **the default is none** — reserve it for a
+concept that genuinely cannot be stated concretely at all, and let the video supply the
+rest of the intuition. A learner who cannot load the video still learns the concept from
+plain concrete description, which is what standing alone requires; it does not require the
+text to be as vivid as film.
+
 ## What a Wolkskool lesson is
 
 A lesson maps to **one CAPS content bullet**, not to a textbook page or section.
@@ -65,7 +105,7 @@ the study budget:
 |---|---|---|
 | **Core** | Named in the CAPS document | Counts. Mandatory. |
 | **Aanvulling** | Not in CAPS, but needed for the concept to make sense or to serve the CAPS focus question | Counts. Max ~25% of study budget. Needs a written justification in the lesson spec. |
-| **Scaffolding** | ELI10 layer, retrieval questions, glossary entries | Does not count. Uncapped. |
+| **Scaffolding** | ELI10 layer, glossary entries | Does not count. Uncapped. |
 
 This is what resolves the apparent contradiction of "give more, but not more to
 study". Study text stays at textbook parity; scaffolding is free. A learner
@@ -93,8 +133,14 @@ in `references/lesspesifikasie.md`, worked example in
 Validate specs before writing:
 
 ```bash
-python3 scripts/spec_check.py spec.json
+python3 skills/wolkskool-inhoudstandaard/scripts/spec_check.py spec.json
 ```
+
+**Every path in this skill and its references is written from the repository
+root**, which is where agents and the runner actually work. Paths relative to this
+skill's own directory look shorter but resolve to nothing from where they are used,
+and an agent that cannot find the validator will either skip the check or invent
+one.
 
 ## The lesson JSON schema
 
@@ -125,8 +171,7 @@ Minimum shape:
     {"tipe": "studie", "kop": "Wat is 'n stoomskip?", "teks": "..."},
     {"tipe": "eli10",  "vir": "Wat is 'n stoomskip?", "teks": "..."},
     {"tipe": "lys",    "kop": "Wat het verander?", "items": ["...", "..."]},
-    {"tipe": "begrip", "term": "stoomketel", "teks": "..."},
-    {"tipe": "vraag",  "teks": "..."}
+    {"tipe": "begrip", "term": "stoomketel", "teks": "..."}
   ]
 }
 ```
@@ -198,6 +243,14 @@ sentences per item. "A klipper is a ship that sails very fast. It has three or
 more masts. Klippers move so fast we say they cut through the waves." Definitions
 in the glossary run 8–12 words.
 
+**Prefer the everyday word, and keep the house list.** `references/woordkeuse.md`
+records words to avoid and what to use instead. It exists because the gate measures
+how *long* a word is and never whether it is *known* — `oewer` and `ranke` are both
+five letters and two syllables and clear every threshold, and both had to be caught
+by a person reading the first lesson. Nothing in the pipeline can do that job, so the
+list is how a word gets fixed once rather than four hundred times. Add to it whenever
+review flags a word.
+
 **Every new subject term gets a `begrip` entry.** How many that is depends on the
 concept — two for a simple mechanism, six for a lesson where CAPS names five
 vessel types. Do not pad to hit a number.
@@ -219,11 +272,19 @@ a hand" is safe. "Electrons orbit the nucleus like planets round the sun" is a
 lie that takes years to undo. The fact checker verifies the *mapping*, not just
 the stated facts.
 
-**Retrieval questions ask for inference, not recall.** Three per lesson. The bar
-is set by real Grade 4 material: "Look at this photograph. Do you think she was
-rich or poor? How do you know?" — a nine-year-old reading evidence from a source.
-"What burns in the fire?" is a weaker question, though one recall question per
-lesson is fine as a confidence-builder.
+**Lessons carry no retrieval questions.** They used to end with three. Drico's
+layout team was told to ignore them, so they never reached a learner — the published
+page for the first Grade 4 science lesson contains no question marks at all — and
+they stopped being written on 2026-08-21. `vraag` remains a valid block type because
+four lessons already contain them; nothing new produces one.
+
+**What the questions used to carry, and now must live in the study text: evidence.**
+A question was sometimes the only place a lesson gave a learner something observable
+to reason from. One Grade 4 question set out dry yeast in warm sugar water going full
+of bubbles; the study text only said that yeast "wakes up". If a lesson asserts that
+something is alive, or hot, or moving, and the only proof was in a question, the proof
+now belongs in the study text. This is the one way removing the questions can quietly
+make a lesson worse, so it is worth checking for.
 
 **Every superlative gets verified or softened.** "Eerste", "oudste", "grootste"
 are the highest-risk factual category in a history lesson, because the phrasing
@@ -237,7 +298,7 @@ explanatory prose leaves the layout team nothing to work with. Do not specify
 
 **The study text must stand alone.** A learner who cannot load a visual — slow
 connection, low-end device, mobile data — must still be able to learn the concept
-and answer the questions from the text.
+from the text alone.
 
 ## Checker reports
 
@@ -246,7 +307,7 @@ contract. Schema in `references/nasienverslag.md`. Validate before acting on a
 report:
 
 ```bash
-python3 scripts/verdict_check.py report.json --les lesson.json --spek lesse_entry.json
+python3 skills/wolkskool-inhoudstandaard/scripts/verdict_check.py report.json --les lesson.json --spek lesse_entry.json
 ```
 
 It confirms the report is well formed and — the part that matters — that its verdict
@@ -266,8 +327,8 @@ either invent a fix or strip the content.
 ## Running the gate
 
 ```bash
-python3 scripts/gate.py lesson.json --grade 4 --budget 300 --log gate_log.jsonl
-python3 scripts/gate.py lesson.json --grade 11 --budget 700 --json
+python3 skills/wolkskool-inhoudstandaard/scripts/gate.py lesson.json --grade 4 --budget 300 --log gate_log.jsonl
+python3 skills/wolkskool-inhoudstandaard/scripts/gate.py lesson.json --grade 11 --budget 700 --json
 ```
 
 Exit 0 = pass, exit 1 = fail. Use the exit code as the loop branch. Setup and

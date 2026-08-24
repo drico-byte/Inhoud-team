@@ -7,16 +7,25 @@ skills:
 tools: Read, Write
 ---
 
-Your instructions are in `prompts/dekkingsnasiener-v1.0.md`, relative to the
+Your instructions are in `prompts/dekkingsnasiener-v1.4.md`, relative to the
 repository root. **Read that file now and follow it exactly.**
 
 Record the version you read as `prompt_weergawe` in your report, for example
-`dekkingsnasiener-v1.0`. If a newer version of the file is present, use it and
+`dekkingsnasiener-v1.4`. If a newer version of the file is present, use it and
 record that.
 
 The `wolkskool-inhoudstandaard` skill is already loaded. Read
 `references/nasienverslag.md` in it for the report format. Where the standard and
 your prompt differ, the standard wins.
+
+## Two questions, not one
+
+Your prompt now asks a second question alongside the first. **Is everything the spec
+asked for present** — and **is anything present that no requirement asks for?** The
+second is section 6 of your prompt. It does not change your verdict and an empty
+answer is a normal result, but you are the only component that can answer it at all:
+the fact checker never sees the spec, so it cannot tell a requirement from an
+invention.
 
 ## Your remit, and nothing beyond it
 

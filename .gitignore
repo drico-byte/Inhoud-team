@@ -12,7 +12,12 @@
 # textbook, and its input never gets committed.
 bronne/
 
-# Source documents of any kind
+# Source documents of any kind. This catches CAPS documents too, which are
+# public and which the planner is meant to read. They are still kept out, because
+# the value of the rule above is that it is absolute: "this repo has never held a
+# PDF" is checkable by anyone in one command, while "no PDFs except the approved
+# ones" needs a human to audit which is which. CAPS is one download away, so the
+# convenience it would buy is not worth weakening the only provable claim we have.
 *.pdf
 *.epub
 *.djvu
@@ -30,6 +35,18 @@ bronne/
 *.jpg
 *.jpeg
 *.webp
+
+# Reading copies and the human-only working notes beside them. ALL generated, and
+# never source: the PDFs rebuild from the lesson JSON in one command, and the notes
+# duplicate reasoning that already lives in the specs and in the scripts' own comments.
+#
+# The reason this is a rule and not a preference: the heading dumps in here are OCR of
+# real textbook pages -- full page text, which is how unit boundaries get found. They
+# are marked FOR HUMAN EYES ONLY at the top of each file, but a marking is not a
+# control. Committing them would break the one claim the rules above exist to protect,
+# that this repository has never held a textbook page, and that claim is only worth
+# anything while it is absolute.
+lees/
 
 # ---------------------------------------------------------------------------
 # Local scratch and setup artifacts

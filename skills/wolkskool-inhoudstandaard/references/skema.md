@@ -94,14 +94,23 @@ a short scannable point, not a sentence carrying clauses.
 Does not count toward the study budget. Any word over 10 characters in the study
 text that is not a proper noun should have one.
 
-### `vraag` — retrieval question
+### `vraag` — retrieval question. **LEGACY: no longer written.**
 
 | Field | Required | Notes |
 |---|---|---|
 | `teks` | yes | The question |
 
-Does not count toward the study budget. Three per lesson. Prefer inference over
-recall.
+Does not count toward the study budget.
+
+**Nothing produces this block any more.** Lessons ended with three retrieval
+questions until 2026-08-21. The layout team was told to ignore them, so they never
+reached a learner. The type stays valid and readable because four existing lessons
+contain them — tools must not reject those — but a writer produces none, and a
+checker never reports their absence.
+
+If you are wondering where the questions went in a lesson you are reading: the thing
+worth rescuing from them is **evidence**. A question was sometimes the only place a
+lesson gave something observable to reason from. That belongs in the study text now.
 
 ## Reserved for later
 

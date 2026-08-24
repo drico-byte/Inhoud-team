@@ -1,7 +1,15 @@
 # Checker report schema — field reference
 
 Schema version 1.0. Both checkers emit this shape so the orchestrator can branch
-on one contract instead of two. Validate with `scripts/verdict_check.py`.
+on one contract instead of two.
+
+**Validation is the orchestrator's job, not a checker's.** The validator is
+`skills/wolkskool-inhoudstandaard/scripts/verdict_check.py`, and it is run against
+every report before anything acts on it. Neither checker is granted a shell, on
+purpose: a checker that could run the validator would be tempted to edit its own
+findings until the validator was happy, which is the opposite of what a check is
+for. So write the report to the schema and stop — do not try to validate it, and do
+not report the inability to as a problem.
 
 ## Top-level fields
 

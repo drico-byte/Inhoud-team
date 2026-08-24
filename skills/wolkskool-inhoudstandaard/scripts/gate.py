@@ -297,13 +297,39 @@ def run(lesson, grade, budget):
             if item.count(',') >= 2:
                 warns.append(f"List '{head}' item {j} has {item.count(',')} commas — likely too much subordination for a list point")
 
+    # An intuition block must not outgrow the study block it explains. Measured need:
+    # with no cap, one such block reached 415 words against a 389-word lesson, because
+    # it sits outside the study budget and nothing pushed back. A warning rather than a
+    # failure, in keeping with the rule that only volume-against-budget and
+    # register-against-band are hard fails.
+    if len(eli10) > 1:
+        warns.append(f"{len(eli10)} eli10 blocks — the guide is zero or one per lesson, "
+                     f"for the single concept that cannot be stated concretely")
+    study_by_kop = {(b.get("kop") or "").strip():
+                    len(re.findall(r"[A-Za-zÀ-ÿ']+", b.get("teks", "")))
+                    for b in study}
+    for b in eli10:
+        ew = len(re.findall(r"[A-Za-zÀ-ÿ']+", b.get("teks", "")))
+        vir = (b.get("vir") or "").strip()
+        sw = study_by_kop.get(vir)
+        if sw and ew > sw:
+            warns.append(f"eli10 for '{vir[:34]}' is {ew} words against a {sw}-word study "
+                         f"block — an intuition layer should not outgrow what it explains")
+
     em = None
     if eli10:
         em = measure(" ".join(b.get("teks", "") for b in eli10))
         if em:
             check_register(em, ELI10, "ELI10 layer", fails, warns)
     else:
-        warns.append("No ELI10 layer present — intuition-first explanation is missing")
+        # NOT a warning. Zero intuition blocks is an accepted and common outcome: the
+        # guide is zero or one per lesson, and most lessons contain no genuinely
+        # abstract mechanism. This line used to read "intuition-first explanation is
+        # missing", which invited a writer to add a block purely to silence it — the
+        # exact behaviour the zero-or-one rule exists to stop. It is stated as a fact
+        # because a human reviewer wants to know, not because anything is wrong.
+        notes.append("No ELI10 layer — zero or one per lesson is the guide, and none is "
+                     "a normal outcome for a lesson with no abstract mechanism")
 
     # ELI10 blocks should name the concept they explain, so the layout can pair
     # them and the coverage checker can verify the flagged concepts are covered.
@@ -322,8 +348,11 @@ def run(lesson, grade, budget):
     if unglossed:
         warns.append(f"Long words in study text with no 'begrip' entry: {', '.join(unglossed[:8])}")
 
-    if not by_type.get("vraag"):
-        warns.append("No retrieval questions ('vraag') present")
+    # No check on 'vraag'. Lessons stopped carrying retrieval questions on 2026-08-21
+    # because the layout team was told to ignore them, so they never reached a learner.
+    # This used to warn on their ABSENCE, which would now fire on every lesson written.
+    # It does not warn on their PRESENCE either: four lessons predate the decision and
+    # their questions are legitimate content, not a defect to nag about.
 
     # --- spelling (warning only) ---
     all_text = " ".join(b.get("teks", "") for b in blocks)

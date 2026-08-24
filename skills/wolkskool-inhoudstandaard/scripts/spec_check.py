@@ -94,19 +94,58 @@ def check(spec):
     # sub-topic, divided evenly across its lessons.
     total_words = spec["onderwerp_woorde"]
     n = len(lesse)
-    expected = round(total_words / n)
-    for L in lesse:
-        if L["begroting"] != expected:
-            fails.append(f"Lesson {L['nommer']} ('{L['titel'][:30]}'): budget {L['begroting']} "
-                         f"but {total_words} words / {n} lessons = {expected}")
     total = sum(L["begroting"] for L in lesse)
+
+    # Two budget bases, declared by the spec. Added 2026-08-21.
+    #
+    # "gemete_volume" is the original and the default: measured textbook volume for
+    # the sub-topic, divided EVENLY across its lessons. Evenness is not a style
+    # preference there -- it is what dividing one measurement produces, so any
+    # departure means someone typed a number instead of deriving one.
+    #
+    # "vereistes" exists because that assumption breaks. CAPS sometimes names a
+    # topic and never specifies it: "Strukture van plante en diere" appears twice in
+    # the Gr 4-6 science document, with two different spellings, and carries no
+    # content section at all, while the term's assessment guidelines still require
+    # plant parts and animal parts. There is no measured volume to divide, so the
+    # budget comes from the number of things to be taught -- and then evenness is
+    # meaningless: nine requirements about plants and thirteen about animals do not
+    # want the same word count. Maths hits this too, where a textbook's word count
+    # measures the prose between the diagrams rather than the teaching.
+    #
+    # Under "vereistes" the sum is NOT compared to onderwerp_woorde, because that
+    # field is not the basis. Forcing the derived number into it to satisfy this
+    # check is what made an earlier run print "measured sub-topic volume 250" for a
+    # figure nobody measured -- a tool reporting an invention as a measurement.
+    basis = spec.get("begroting_basis", "gemete_volume")
+    if basis not in ("gemete_volume", "vereistes"):
+        fails.append(f"begroting_basis '{basis}' is not one of gemete_volume, vereistes")
+
+    if basis == "gemete_volume":
+        expected = round(total_words / n)
+        for L in lesse:
+            if L["begroting"] != expected:
+                fails.append(f"Lesson {L['nommer']} ('{L['titel'][:30]}'): budget {L['begroting']} "
+                             f"but {total_words} words / {n} lessons = {expected}")
+        # rounding can move the sum by at most one word per lesson
+        if abs(spec["totale_begroting"] - total_words) > n:
+            fails.append(f"totale_begroting {spec['totale_begroting']} differs from the measured "
+                         f"sub-topic volume {total_words} by more than rounding allows")
+    else:
+        if not (spec.get("begroting_basis_nota") or "").strip():
+            fails.append("begroting_basis is 'vereistes' but begroting_basis_nota is empty. A "
+                         "budget that is not a measurement has to say where it came from.")
+        for L in lesse:
+            if not (L.get("begrotingsnota") or "").strip():
+                fails.append(f"Lesson {L['nommer']}: begroting_basis is 'vereistes', so each "
+                             f"lesson needs a begrotingsnota saying how its number was derived")
+        notes.append(f"Budget basis is 'vereistes': {n} lessons summing to {total} words, derived "
+                     f"from requirement counts and NOT from measured volume. Even division is not "
+                     f"enforced and onderwerp_woorde is not treated as the anchor.")
+
     if total != spec["totale_begroting"]:
         fails.append(f"Lesson budgets sum to {total}, but totale_begroting is "
                      f"{spec['totale_begroting']}")
-    # rounding can move the sum by at most one word per lesson
-    if abs(spec["totale_begroting"] - total_words) > n:
-        fails.append(f"totale_begroting {spec['totale_begroting']} differs from the measured "
-                     f"sub-topic volume {total_words} by more than rounding allows")
 
     if "kaps_ure" in spec or any("ure" in L for L in lesse):
         notes.append("Hour fields present. They are informational only and are never used in "
@@ -185,6 +224,7 @@ def check(spec):
         "lessons": len(lesse),
         "total_budget": spec["totale_begroting"],
         "subtopic_words": spec["onderwerp_woorde"],
+        "budget_basis": spec.get("begroting_basis", "gemete_volume"),
         "failures": fails, "warnings": warns, "notes": notes,
     }
 
@@ -204,8 +244,15 @@ def main():
         print(f"\n{r['verdict']}  —  {r.get('subonderwerp','(unknown)')} "
               f"(Gr {r.get('graad','?')})")
         if r["verdict"] != "FAIL" or "lessons" in r:
-            print(f"\n  {r.get('lessons','?')} lessons, {r.get('total_budget','?')} words total "
-                  f"(measured sub-topic volume {r.get('subtopic_words','?')})")
+            # Never call a derived number a measurement. Under the "vereistes"
+            # basis onderwerp_woorde is not the anchor, so printing it as
+            # "measured" states something false about where the budget came from.
+            if r.get("budget_basis") == "vereistes":
+                herkoms = "derived from requirement counts, NOT measured"
+            else:
+                herkoms = f"measured sub-topic volume {r.get('subtopic_words','?')}"
+            print(f"\n  {r.get('lessons','?')} lessons, "
+                  f"{r.get('total_budget','?')} words total ({herkoms})")
         for x in r["failures"]:
             print(f"\n  FAIL  {x}")
         for x in r["warnings"]:

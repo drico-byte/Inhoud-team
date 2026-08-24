@@ -27,7 +27,7 @@ Once per subject-grade, before any lesson is written. **This is the only tool
 permitted to read a textbook.** It emits numbers; no prose is retained.
 
 ```bash
-python3 scripts/profiler.py book.pdf --caps caps_subtopics.json --out gr4-sw.json \
+python3 skills/wolkskool-inhoudstandaard/scripts/profiler.py book.pdf --caps caps_subtopics.json --out gr4-sw.json \
   --first 118 --last 148 --eindmerker "Onderwerp 4"
 ```
 
@@ -52,8 +52,8 @@ planner** — the planner must derive lesson structure from CAPS alone.
 ## Running the gate
 
 ```bash
-python3 scripts/gate.py lesson.json --grade 4 --budget 300 --log gate_log.jsonl
-python3 scripts/gate.py lesson.json --grade 11 --budget 700 --json
+python3 skills/wolkskool-inhoudstandaard/scripts/gate.py lesson.json --grade 4 --budget 300 --log gate_log.jsonl
+python3 skills/wolkskool-inhoudstandaard/scripts/gate.py lesson.json --grade 11 --budget 700 --json
 ```
 
 `--json` emits the full result for an orchestrator to parse. `--log` appends one
@@ -80,7 +80,7 @@ Exit 0 = pass, exit 1 = fail.
 - a `lys` item over 18 words, or with two or more commas
 - long words with no `begrip` entry
 - possible spelling errors
-- missing ELI10 layer or retrieval questions
+- an `eli10` block longer than the study block it explains, or more than one of them
 - an `eli10` block with no `vir`, or a `vir` that matches no study heading
 - suspiciously long single sentence — usually a missing full stop
 
@@ -118,7 +118,7 @@ one-idea-per-sentence instruction. Both are prompt fixes, not per-lesson fixes.
 ## The report validator
 
 ```bash
-python3 scripts/verdict_check.py report.json --les lesson.json --spek lesse_entry.json
+python3 skills/wolkskool-inhoudstandaard/scripts/verdict_check.py report.json --les lesson.json --spek lesse_entry.json
 ```
 
 Exit 0 = the report is sound. Exit 1 = malformed or self-contradictory. Note this

@@ -103,6 +103,12 @@ def hek_oorsig(rows, minimum):
         elif mr > 1.05:
             print("                       OVER-SUPPLYING — learners revise more than a")
             print("                       textbook asks. Tighten, do not add scaffolding.")
+            print("                       NOTE: this is the OPPOSITE of the documented")
+            print("                       prediction. The human reference sample stopped at")
+            print("                       0.67–0.83x budget, and the writer prompt is written")
+            print("                       to correct under-supply. If over-supply holds across")
+            print("                       lessons, that depth instruction is now overshooting")
+            print("                       and the prompt needs loosening, not strengthening.")
 
     def reeks(sleutel, naam, lo=None, hi=None, eenheid=""):
         vals = [(r["study"] or {}).get(sleutel) for r in rows]

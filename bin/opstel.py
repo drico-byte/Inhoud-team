@@ -10,11 +10,10 @@ It does four things and reports on a fifth:
 1. Creates the scratch directory. The profiler rasterises pages and writes
    hundreds of OCR temp files per run, and those must land outside the repository
    and outside any synced folder such as OneDrive.
-2. Creates bronne/ for textbook PDFs. It is gitignored, and stays that way.
+2. Creates bronne/ for textbook PDFs and kaps/dokumente/ for CAPS documents.
+   Both are gitignored, and stay that way.
 3. Links the content standard into .claude/skills/ so Claude Code discovers it.
    The canonical copy stays at skills/wolkskool-inhoudstandaard/.
-4. Confirms the approved-output folder exists. It lives outside this repository
-   on purpose: neither team owns it and neither reaches into the other's tree.
 5. Checks the prerequisites and tells you what, if anything, is missing.
 """
 import json
@@ -27,7 +26,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(REPO, "bin"))
 
 from paaie import (  # noqa: E402  (path setup must precede the import)
-    SKILL_NAME, goedgekeur_wortel, hunspell_pad, skrapruimte,
+    SKILL_NAME, hunspell_pad, skrapruimte,
 )
 
 OK, WARN, BAD = "  ok  ", " note ", " FAIL "
@@ -105,7 +104,12 @@ def main():
 
     make_dir(skrapruimte(), "scratch (OCR intermediates, never in the repo)")
     make_dir(os.path.join(REPO, "bronne"), "textbook input (gitignored)")
-    make_dir(goedgekeur_wortel(), "approved output (outside this repo)")
+    make_dir(os.path.join(REPO, "kaps", "dokumente"), "CAPS documents (gitignored)")
+    # One folder per phase. The names carry the grade range because the register
+    # bands in the standard are defined by grade, not by phase name, and the two
+    # vocabularies have to be readable against each other at a glance.
+    for fase in ("intersen-gr4-6", "senior-gr7-9", "fet-gr10-12"):
+        make_dir(os.path.join(REPO, "kaps", "dokumente", fase), f"CAPS: {fase}")
     ok_skill = link_skill()
 
     print("\nPrerequisites\n")

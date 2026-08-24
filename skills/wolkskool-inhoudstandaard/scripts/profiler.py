@@ -69,11 +69,26 @@ def syllables(w):
 
 
 def norm(s):
-    """Loose key for matching a page heading against a CAPS label."""
+    """Loose key for matching a page heading against a CAPS label.
+
+    Numbers are KEPT. Textbooks number their structural headings - "Eenheid 1",
+    "Eenheid 2" - and those are the most reliable boundary markers available,
+    because they are the publisher's own structure rather than a wording that has
+    to match CAPS. Stripping digits made every numbered heading reduce to the same
+    key, so they were mutually indistinguishable and the first one claimed them all.
+    A numeric token is kept whatever its length, since "1" is as distinctive as
+    "eenheid" is generic.
+    """
     s = re.sub(r"\([^)]*\)", " ", s.lower())
-    s = re.sub(r"[^a-zà-ÿ\s]", " ", s)
+    s = re.sub(r"[^a-zà-ÿ0-9\s]", " ", s)
     drop = {"die", "n", "en", "van", "of", "in", "op", "'n"}
-    return {w[:5] for w in s.split() if len(w) > 2 and w not in drop}
+    out = set()
+    for w in s.split():
+        if w.isdigit():
+            out.add(w)
+        elif len(w) > 2 and w not in drop:
+            out.add(w[:5])
+    return out
 
 
 def page_words(rows):
@@ -94,7 +109,17 @@ def ocr_page(pdf, n, dpi, workdir):
     if not pngs:
         return None
     png = pngs[0]
-    subprocess.run(["tesseract", png, png[:-4], "-l", "afr", "--psm", "3", "tsv"],
+    # --psm 1 is "automatic page segmentation WITH orientation and script
+    # detection", and the OSD half is not optional for real scanned books.
+    # Platinum Gr 4 NWT has pages 30-43 scanned upside down with no rotation
+    # flag in the PDF, so pdftoppm renders them inverted and there is nothing
+    # in the file to say so. Under --psm 3 those pages OCR into garbage that
+    # still looks like words -- "nodig" comes back as "Bipou" -- so the topic
+    # heading is never found AND the word count is wrong, with no error raised.
+    # A silently wrong volume figure is the worst failure this tool has, since
+    # every lesson budget downstream is derived from it. OSD costs a little
+    # speed per page and buys the difference between wrong and right.
+    subprocess.run(["tesseract", png, png[:-4], "-l", "afr", "--psm", "1", "tsv"],
                    check=True, capture_output=True)
     tsv = png[:-4] + ".tsv"
     rows = []
@@ -112,6 +137,29 @@ def ocr_page(pdf, n, dpi, workdir):
     for f in glob.glob(stem + "*"):
         os.remove(f)
     return rows
+
+
+def alle_reels(rows):
+    """Every text line on the page, tall or not, in reading order.
+
+    For the human mapping worksheet only. A publisher's unit tab and an index entry
+    are small type that heading detection never sees, and those are exactly the
+    markers a person needs to map CAPS labels onto page numbers. Never used for
+    matching - matching stays on headings, so a phrase in body text cannot claim a
+    section.
+    """
+    if not rows:
+        return []
+    reels, cur, last = [], [], None
+    for h, t, top in sorted(rows, key=lambda r: (r[2], r[0])):
+        if last is not None and abs(top - last) > max(8, h * 0.6):
+            reels.append(" ".join(cur))
+            cur = []
+        cur.append(t)
+        last = top
+    if cur:
+        reels.append(" ".join(cur))
+    return [r for r in reels if r.strip()]
 
 
 def headings(rows):
@@ -158,7 +206,45 @@ def headings(rows):
     return out
 
 
-def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None):
+def dump_headings(per_page_headings, path, per_page_lines=None):
+    """Write the headings found on each page, FOR A HUMAN ONLY.
+
+    CAPS and a publisher word the same section differently - CAPS says
+    "Nie-lewende dinge" where a book says "Dinge wat nie lewe nie" - so a label
+    that finds nothing needs mapping onto the book's own wording. Guessing at it
+    burns OCR passes and, worse, can settle on a boundary nobody verified, which
+    silently produces a wrong word volume and therefore a wrong budget.
+
+    The standard's rule is: send the human the page counts and volumes, and never
+    pass section headings to the planner. This file is the human half of that. It
+    is a worksheet for mapping CAPS labels onto page numbers, and the only thing
+    that should come back from it is a NUMBER.
+
+    It must not be read by the planner, the writer, or the orchestrator that writes
+    their prompts: a book's section structure is precisely what copyright protects
+    and precisely what the planner is kept away from. Page numbers carry none of it.
+    """
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("Headings the profiler found, per page. FOR HUMAN EYES ONLY.\n")
+        f.write("Do not paste this into an agent prompt. Send back page numbers.\n")
+        f.write("=" * 68 + "\n\n")
+        bronne = per_page_lines or per_page_headings
+        if per_page_lines:
+            f.write("Full page text, not only large headings: a unit tab or an"
+                    " index entry is small type that heading detection never"
+                    " sees." + chr(10) + chr(10))
+        for n in sorted(bronne):
+            hs = [h for h in bronne[n] if len(h.strip()) > 2]
+            if hs:
+                f.write(f"page {n}\n")
+                for h in dict.fromkeys(hs):
+                    f.write(f"    {h.strip()[:96]}\n")
+                f.write("\n")
+    return path
+
+
+def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None,
+            koppe_uit=None, koppe_alles=False):
     total = int(re.search(r"Pages:\s+(\d+)",
                 subprocess.run(["pdfinfo", pdf], capture_output=True, text=True).stdout).group(1))
     first = first or 1
@@ -169,6 +255,7 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None)
     starts = {}
     per_page = {}
     per_page_headings = {}
+    per_page_lines = {}
 
     work = tempfile.mkdtemp(prefix="prof-", dir=scratch_root(scratch))
     if verbose:
@@ -181,6 +268,7 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None)
             words = page_words(rows)
             per_page[n] = words
             per_page_headings[n] = headings(rows)
+            per_page_lines[n] = alle_reels(rows)
             # Match each heading line on its own. Joining all headings on a page
             # into one string was tried and rejected: it invents word combinations
             # that never appeared together and produces false section starts.
@@ -191,9 +279,23 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None)
                 for i, k in enumerate(keys):
                     if not k or i in starts:
                         continue
-                    # match when the heading carries most of the label's
-                    # distinctive words
-                    need = max(2, len(k) - 1)
+                    # Match when the heading carries most of the label's
+                    # distinctive words — but a SHORT label must match in full.
+                    #
+                    # Allowing one word to be missing breaks down when one label's
+                    # key set contains another's. "Lewende dinge" reduces to
+                    # {lewen, dinge} and "Nie-lewende dinge" to {nie, lewen, dinge},
+                    # so under the old rule the heading "Lewende dinge" satisfied
+                    # both and the shorter label always claimed the page first —
+                    # leaving the other with a zero-page range. Requiring every word
+                    # of a three-word-or-shorter label makes nested labels
+                    # distinguishable. Longer labels keep the tolerance, because they
+                    # wrap across lines and lose words to OCR.
+                    #
+                    # Tightening is the safe direction: a miss is reported under
+                    # nie_gevind and a human sees it, while a false match silently
+                    # produces wrong page ranges and therefore wrong budgets.
+                    need = len(k) if len(k) <= 3 else max(2, len(k) - 1)
                     if len(hk & k) >= need:
                         starts[i] = n
                         if verbose:
@@ -254,6 +356,10 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None)
 
     missing = [labels[i] for i in range(len(labels)) if i not in starts]
 
+    if koppe_uit:
+        dump_headings(per_page_headings, koppe_uit,
+                      per_page_lines if koppe_alles else None)
+
     return {
         "vak": caps["vak"], "graad": caps["graad"], "kwartaal": caps.get("kwartaal"),
         "kaps_onderwerp": caps["kaps_onderwerp"],
@@ -278,6 +384,15 @@ def main():
     ap.add_argument("--eindmerker", default=None,
                     help="heading that follows the topic, used to bound the final section")
     ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--koppe-uit", default=None, dest="koppe_uit",
+                    help="write the headings found on each page to this file, for a "
+                         "HUMAN to map CAPS labels onto page numbers. Never give this "
+                         "file to an agent: a book's section structure is what the "
+                         "planner must not see. Page numbers are safe; headings are not.")
+    ap.add_argument("--koppe-alles", action="store_true", dest="koppe_alles",
+                    help="with --koppe-uit, write every text line rather than "
+                         "only large headings. Needed to see unit tabs and index "
+                         "entries, which are small type. Human worksheet only.")
     ap.add_argument("--skrapruimte", default=None,
                     help="scratch directory for rasterised pages and OCR intermediates. "
                          "Overrides $WOLKSKOOL_SCRATCH. Default: " + DEFAULT_SCRATCH)
@@ -285,7 +400,7 @@ def main():
 
     caps = json.load(open(a.caps, encoding="utf-8"))
     cfg = profile(a.pdf, caps, a.dpi, a.first, a.last, not a.quiet, a.eindmerker,
-                  a.skrapruimte)
+                  a.skrapruimte, a.koppe_uit, a.koppe_alles)
     json.dump(cfg, open(a.out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 
     print(f"\nwritten: {a.out}")
@@ -301,6 +416,11 @@ def main():
         print("\nNOT FOUND — check the labels or widen the page range:")
         for m in cfg["nie_gevind"]:
             print(f"  {m}")
+        if not a.koppe_uit:
+            print("\nA label that finds nothing usually means the book words that section"
+                  " differently. Re-run with --koppe-uit <file> to get the headings per"
+                  " page, for a human to map onto page numbers. Do not give that"
+                  " file to an agent.")
 
 
 if __name__ == "__main__":

@@ -7,13 +7,13 @@ skills:
 tools: Read, Write, Bash
 ---
 
-Your instructions are in `prompts/beplanner-v1.0.md`, relative to the repository
+Your instructions are in `prompts/beplanner-v1.2.md`, relative to the repository
 root. **Read that file now and follow it exactly.**
 
 It is the versioned prompt, and the version is recorded downstream in every
 lesson's provenance. Working from memory of what a planner should do, instead of
-from the file, quietly breaks that record. If the file has been superseded by a
-`beplanner-v1.1.md`, use the newest version present and say which you used.
+from the file, quietly breaks that record. If a newer `beplanner-v1.x.md` is
+present, use the newest version and say which you used.
 
 The `wolkskool-inhoudstandaard` skill is already loaded. Where the standard and
 your prompt differ, the standard wins.

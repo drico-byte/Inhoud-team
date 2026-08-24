@@ -190,6 +190,7 @@ def lees_staat(pad, les_id):
         return P.lees_json(pad)
     return {"les": les_id, "skema_weergawe": P.SKEMA_WEERGAWE, "konsep_hash": None,
             "hek": None, "teruggestuur_vir": [], "eskalasie": None,
+            "blok_faalrondtes": {}, "eli10_voorkyk": None,
             "geskiedenis": []}
 
 
@@ -198,6 +199,52 @@ def teken_op(staat, staat_pad, gebeurtenis, **velde):
     staat["geskiedenis"].append(inskrywing)
     P.skryf_json(staat_pad, staat)
     P.voeg_jsonl(P.HARDLOOP_LOG, {"les": staat["les"], **inskrywing})
+
+
+def faalblokke(dekking, feite):
+    """Which blocks failed in this round, by name, from both reports.
+
+    Deliberately a set per round rather than a count of findings: three errors in
+    one block in one round is one round in which that block failed. What matters is
+    whether a block keeps failing across rounds, not how badly it failed once.
+    """
+    uit = set()
+    for i in (feite or {}).get("items", []):
+        if i.get("status") in ("weerspreek", "onseker"):
+            naam = _blok_naam(i.get("blok"))
+            if naam:
+                uit.add(naam)
+    for i in (dekking or {}).get("items", []):
+        if i.get("status") in ("gedeeltelik", "afwesig"):
+            # coverage evidence reads "Kop — one clause"; the block is the head of it
+            naam = _blok_naam(i.get("bewys") or i.get("verwysing"))
+            if naam:
+                uit.add(naam)
+    return uit
+
+
+def _blok_naam(rou):
+    s = str(rou or "").strip()
+    for skei in ("—", " - ", ":"):
+        if skei in s:
+            s = s.split(skei)[0].strip()
+            break
+    return s.lower()[:48]
+
+
+def blok_wat_bly_faal(staat):
+    """A block that has failed in REVISIE_MAKS separate rounds.
+
+    The lesson-level cap counts rounds; this counts rounds per block, and it is the
+    sharper signal. A lesson whose intuition block failed three rounds running was
+    telling us something after round two — not "revise again" but "decide whether
+    this content should exist at all", which is a question only a person can answer
+    and which no amount of rewording reaches.
+    """
+    for naam, n in (staat.get("blok_faalrondtes") or {}).items():
+        if n >= P.REVISIE_MAKS:
+            return naam, n
+    return None, 0
 
 
 def argiveer(bron, les_id, siklus, naam):
@@ -237,9 +284,18 @@ def hardloop_hek(les_pad, graad, begroting, uit):
     return code, r
 
 
-def keur_verslag(verslag_pad, les_pad, spek_inskrywing_pad, uit, naam):
-    """Validate a checker's own report before acting on it."""
-    args = [verslag_pad, "--les", les_pad, "--json"]
+def keur_verslag(verslag_pad, les_pad, spek_inskrywing_pad, uit, naam,
+                 volledig=True):
+    """Validate a checker's own report before acting on it.
+
+    volledig=False for a deliberately scoped report — the narrow intuition-block
+    pass. Passing the whole lesson there would warn that fourteen blocks went
+    unchecked, which is true and entirely beside the point: the report never claimed
+    to cover them. A warning that fires by design is a warning people learn to skip.
+    """
+    args = [verslag_pad, "--json"]
+    if volledig:
+        args += ["--les", les_pad]
     if spek_inskrywing_pad:
         args += ["--spek", spek_inskrywing_pad]
     code, out, err = loop("verdict_check.py", *args)
@@ -256,57 +312,67 @@ def keur_verslag(verslag_pad, les_pad, spek_inskrywing_pad, uit, naam):
 
 
 # ---------------------------------------------------------------- approval
-def keur_goed(les_pad, doel, les, uit, staat, staat_pad, nommer):
-    """Copy an approved draft across the boundary. Never editing in place, and
-    never without a person saying so out loud.
+def keur_goed(les_pad, les, uit, staat, staat_pad, nommer):
+    """Mark a finished draft approved, in place.
 
-    Prints its own report and returns (exit_code, status). The status carries the
-    _KLAAR suffix so the caller knows not to print again.
+    CHANGED 2026-08-21, twice, on Drico's instruction. It first stopped requiring a
+    person to type a confirmation, because every lesson is edited by hand downstream
+    and a second signature here gated nothing the later one does not. It then stopped
+    copying the lesson to a separate approved folder outside the repository, because
+    nothing ever read that folder -- it was empty from the day it was created, and
+    Drico feeds lessons to the layout team by hand.
+
+    A second copy would have been worse than none. Lessons are revised three or four
+    times after they would first have been "approved": the shelter lesson took four
+    rounds, the habitat pair three. A copy in a second place goes stale exactly as
+    Drico's hand-renamed PDFs did, and a stale copy that looks authoritative is the
+    failure mode we removed twice in one day.
+
+    So the draft folder is the only home a lesson has, and approval is a status on
+    the file rather than a location. What "finished" means is unchanged: this is only
+    reached when the gate passed and BOTH checker reports read GOEDGEKEUR.
     """
-    bestaan = os.path.exists(doel)
-    uit.head("HUMAN SIGN-OFF")
+    uit.head("APPROVAL (automatic, in place)")
     uit.say(f"  lesson    {les.get('titel')}  (Gr {les.get('graad')}, "
             f"{les.get('kaps_punt')})")
-    uit.say(f"  from      {P.rel(les_pad)}")
-    uit.say(f"  to        {doel}")
-    if bestaan:
-        uit.say("  NOTE      a lesson already exists there and will be REPLACED in full.")
-        uit.say("            Approved files are never edited in place; a correction goes")
-        uit.say("            back through the pipeline and is re-copied.")
-
-    if not sys.stdin.isatty():
-        uit.say()
-        uit.say("  Refused: approval needs a person at a terminal. Run this command")
-        uit.say("  yourself in an interactive shell and type the confirmation.")
-        uit.say("  An agent running this script cannot approve anything, which is")
-        uit.say("  the point — location carries the approval, and a person moves it.")
-        uit.say()
-        uit.say("STATUS: GEWEIER_NIE_INTERAKTIEF   (exit 3)")
-        print("\n".join(uit.lines))
-        return 3, "GEWEIER_KLAAR"
-
+    uit.say(f"  file      {P.rel(les_pad)}")
+    uit.say()
+    uit.say("  Approved automatically: the gate passed and both checkers reported")
+    uit.say("  GOEDGEKEUR. Editing happens by hand downstream, so this is the last")
+    uit.say("  step here rather than a decision waiting on a person.")
     print("\n".join(uit.lines))
-    verwag = f"les-{int(nommer)}"
-    try:
-        antwoord = input(f"\nType '{verwag}' to approve this lesson, "
-                         f"anything else to stop: ").strip()
-    except (EOFError, KeyboardInterrupt):
-        # No one there to answer. isatty() lies in some shells, so this is the
-        # guard that actually holds: nothing crosses the boundary unattended.
-        print("\n\nNo answer read from the terminal. Nothing was copied.")
-        print("Run this yourself in an interactive shell.\n")
-        return 3, "GEWEIER_KLAAR"
-    if antwoord != verwag:
-        print("\nNot approved. Nothing was copied.\n")
-        return 3, "GEWEIER_KLAAR"
 
-    P.skryf_json(doel, dict(les, status="goedgekeur"))
-    teken_op(staat, staat_pad, "goedgekeur", doel=doel,
-             konsep_hash=staat["konsep_hash"], vervang=bestaan)
-    print(f"\nApproved. Written to {doel}")
-    print("The HTML team reads that folder. Nothing here writes to it again")
-    print("unless this lesson is corrected and re-approved.\n")
+    goedgekeur = dict(les, status="goedgekeur")
+    P.skryf_json(les_pad, goedgekeur)
+    teken_op(staat, staat_pad, "goedgekeur", doel=les_pad,
+             konsep_hash=staat["konsep_hash"], vervang=False)
+    print(f"{"\n"}Approved in place: {P.rel(les_pad)}")
+
+    pdf = pdf_langs_les(goedgekeur, les_pad)
+    if pdf:
+        print(f"Readable copy:  {pdf}")
+    print()
     return 0, "GOEDGEKEUR_KLAAR"
+
+
+
+def pdf_langs_les(les, les_json_pad):
+    """Put a readable PDF beside an approved lesson, and never let it block approval.
+
+    The approval is the act that matters; the PDF is a convenience. A machine
+    without a browser, or a locked output file, must not turn a completed sign-off
+    into a failure — so this reports and moves on.
+    """
+    try:
+        import leeskopie
+        doel = les_json_pad[:-len(".json")] + ".pdf"
+        return leeskopie.maak_pdf(leeskopie.bou_html(les), doel)
+    except Exception as ex:                      # noqa: BLE001 — never block approval
+        print(f"\nThe lesson is approved. The readable PDF could not be made: "
+              f"{type(ex).__name__}: {str(ex)[:200]}")
+        print("Nothing is wrong with the lesson. Make the PDF later with "
+              "bin/leeskopie.py.")
+        return None
 
 
 # ---------------------------------------------------------------- overview
@@ -317,7 +383,8 @@ def oorsig(vak, graad, sub, spek, uit):
         les_pad = P.les_konsep(graad, vak, sub, n)
         staat = lees_staat(P.staat_pad(les_pad), "")
         waar = []
-        if os.path.exists(P.les_goedgekeur(graad, vak, sub, n)):
+        # The lesson is approved in place; there is no second copy to look for.
+        if (P.lees_json(les_pad).get("status") if os.path.exists(les_pad) else "") == "goedgekeur":
             waar.append("APPROVED")
         elif not os.path.exists(les_pad):
             waar.append("no draft")
@@ -388,11 +455,19 @@ def stap(a, uit):
         # resumed — it would re-escalate on the next run. The history keeps the
         # real count, so logoorsig.py still sees a lesson that needed three tries.
         verbruik = len(staat.get("teruggestuur_vir") or [])
+        ou_tally = dict(staat.get("blok_faalrondtes") or {})
         staat["eskalasie"] = None
         staat["teruggestuur_vir"] = []
-        teken_op(staat, staat_pad, "hervat_deur_mens", vorige_revisies=verbruik)
+        # The per-block tally resets with the revision budget, for the same reason:
+        # a block already at the limit would re-escalate on the next run and the
+        # lesson could never be resumed. The history keeps the real counts.
+        staat["blok_faalrondtes"] = {}
+        staat["eli10_voorkyk"] = None      # re-check the analogy on resume
+        teken_op(staat, staat_pad, "hervat_deur_mens", vorige_revisies=verbruik,
+                 vorige_blok_faalrondtes=ou_tally)
         uit.step("escalation cleared", "OK",
                  [f"{verbruik} earlier revision(s) recorded in the history",
+                  f"per-block tally cleared: {ou_tally or 'none'}",
                   f"a new cycle starts, {P.REVISIE_MAKS} revisions available"])
 
     # --- 1. the draft -------------------------------------------------------
@@ -418,7 +493,12 @@ def stap(a, uit):
     # --- 2. a new draft invalidates everything downstream -------------------
     if staat.get("konsep_hash") != h:
         siklus = len(staat.get("teruggestuur_vir") or []) + 1
+        # The eli10 pre-check report belongs in this list too. Leaving it out
+        # meant a revised draft was judged against the previous draft's
+        # analogy verdict, which is both wrong and sticky: a MENS_NODIG that
+        # had already been resolved kept re-firing.
         for naam, pad in (("hek", P.hek_verslag(les_pad)),
+                          ("eli10-voorkyk", P.newe(les_pad, "eli10")),
                           ("dekking", P.dekking_verslag(les_pad)),
                           ("feite", P.feite_verslag(les_pad))):
             if os.path.exists(pad):
@@ -486,6 +566,81 @@ def stap(a, uit):
                                 rede="gate FAIL", punte=hek["failures"],
                                 bron="gate.py", herhaal=True)
 
+    # --- 3b. the intuition layer, checked cheaply and first -----------------
+    # Six of the first eleven factual errors found by this pipeline were in the
+    # intuition block, and the writer cannot check its own analogy — it has no web
+    # access, by design. So the block gets one narrow pass before the full check,
+    # which takes minutes rather than the best part of half an hour. If the analogy
+    # is wrong, that is found now instead of after everything else has been verified.
+    eli10_pad = P.newe(les_pad, "eli10")
+    if [b for b in les.get("blokke", []) if b.get("tipe") == "eli10"]:
+        if staat.get("eli10_voorkyk") != h:
+            if not os.path.exists(eli10_pad):
+                uit.next_action(
+                    "wolkskool-feitenasiener (agent) — narrow pass",
+                    f"Check ONLY the eli10 block of lesson {a.les}: is the comparison "
+                    f"true, does the mapping hold, and where does a learner reasoning "
+                    f"further with it end up?",
+                    invoer=[P.rel(les_pad)],
+                    uitvoer=P.rel(eli10_pad),
+                    waarskuwing="Do NOT pass the spec. Do not check the rest of the "
+                                "lesson — the full pass comes after this one.")
+                return 10, "WAG_VIR_ELI10_VOORKYK"
+
+            sound, r = keur_verslag(eli10_pad, les_pad, None, uit, "eli10-voorkyk",
+                                    volledig=False)
+            argiveer(eli10_pad, les_id,
+                     len(staat.get("teruggestuur_vir") or []) + 1, "eli10-voorkyk")
+            # Recorded ONLY on a pass. Marking it done regardless meant that
+            # clearing an escalation without changing the draft skipped the
+            # pre-check entirely and let known contradictions through to the
+            # expensive full pass.
+            teken_op(staat, staat_pad, "eli10_voorkyk", verdict=r.get("verdict"),
+                     sound=sound, items=r.get("items"))
+            if not sound:
+                uit.head("MALFORMED PRE-CHECK")
+                uit.say(f"  {P.rel(eli10_pad)} cannot be acted on. Re-run it.")
+                return 4, "VERSLAG_ONGELDIG"
+            if r.get("verdict") == "MENS_NODIG":
+                # MENS_NODIG means the writer cannot fix it, whichever check raised
+                # it. Routing it back to the writer here contradicted the whole
+                # reason the verdict exists, and would have spent a revision cycle
+                # on something no rewording reaches.
+                staat["eskalasie"] = {
+                    "soort": "mens_nodig", "wanneer": nou(),
+                    "rede": "the eli10 pre-check returned MENS_NODIG - something a "
+                            "writer cannot resolve"}
+                teken_op(staat, staat_pad, "eskalasie", soort="mens_nodig",
+                         bron="eli10-voorkyk")
+                vr = P.lees_json(eli10_pad)
+                uit.head("MENS_NODIG from the eli10 pre-check")
+                uit.say(f"  {vr.get('opsomming')}")
+                for i in vr.get("items", []):
+                    if i.get("status") == "onseker":
+                        uit.say(f"    unsettled: {i.get('bewering','')[:80]}")
+                uit.say()
+                uit.say(f"  see  {P.rel(eli10_pad)}")
+                uit.say("  This exits the loop rather than spending a revision cycle.")
+                uit.say("  Deal with it, then re-run with --hervat.")
+                return 2, "MENS_NODIG"
+            if r.get("verdict") != "GOEDGEKEUR":
+                vr = P.lees_json(eli10_pad)
+                punte = [f"[eli10] {i.get('bewering','')[:60]} — "
+                         f"{i.get('regstelling') or 'unverifiable, see the report'}"
+                         for i in vr.get("items", [])
+                         if i.get("status") in ("weerspreek", "onseker")]
+                os.remove(eli10_pad)
+                uit.step("eli10 pre-check", r.get("verdict"),
+                         ["caught before the full check ran — the expensive pass is "
+                          "not spent on a draft that is about to change"])
+                return terug_na_skrywer(staat, staat_pad, h, uit, les_pad,
+                                        inskrywing_pad, rede="eli10 pre-check",
+                                        punte=punte, bron="eli10-voorkyk")
+            staat["eli10_voorkyk"] = h
+            P.skryf_json(staat_pad, staat)
+            uit.step("eli10 pre-check", "GOEDGEKEUR",
+                     ["the analogy holds; the full check can run"])
+
     # --- 4. the two checkers, in parallel ----------------------------------
     dekking_pad, feite_pad = P.dekking_verslag(les_pad), P.feite_verslag(les_pad)
     kort = [p for p in (dekking_pad, feite_pad) if not os.path.exists(p)]
@@ -525,6 +680,37 @@ def stap(a, uit):
             return 4, "VERSLAG_ONGELDIG"
         verdicts[naam] = r.get("verdict")
 
+    # --- 5b. which blocks failed, and which keep failing --------------------
+    gevaar = faalblokke(P.lees_json(dekking_pad), P.lees_json(feite_pad))
+    if gevaar:
+        tally = dict(staat.get("blok_faalrondtes") or {})
+        for naam in gevaar:
+            tally[naam] = tally.get(naam, 0) + 1
+        staat["blok_faalrondtes"] = tally
+        teken_op(staat, staat_pad, "blok_faalrondtes", blokke=sorted(gevaar),
+                 tally=tally)
+
+    herhaler, keer = blok_wat_bly_faal(staat)
+    nog_stukkend = any(v != "GOEDGEKEUR" for v in verdicts.values())
+    if herhaler and nog_stukkend:
+        staat["eskalasie"] = {
+            "soort": "blok_bly_faal", "wanneer": nou(),
+            "rede": f"the block '{herhaler}' has now failed in {keer} separate rounds"}
+        teken_op(staat, staat_pad, "eskalasie", soort="blok_bly_faal", blok=herhaler,
+                 rondtes=keer)
+        uit.head("ONE BLOCK KEEPS FAILING — a person should decide")
+        uit.say(f"  '{herhaler}' has come back in {keer} separate rounds.")
+        uit.say("  Each fix has been correct and each has left something else wrong,")
+        uit.say("  which is the signature of content that should not be there rather")
+        uit.say("  than content that is badly worded. The question is not how to fix")
+        uit.say("  it again — it is whether it needs to exist.")
+        uit.say()
+        uit.say(f"  see  {P.rel(P.dekking_verslag(les_pad))}")
+        uit.say(f"       {P.rel(P.feite_verslag(les_pad))}")
+        uit.say()
+        uit.say("  Deal with it, then re-run with --hervat.")
+        return 2, "BLOK_BLY_FAAL"
+
     # --- 6. route ----------------------------------------------------------
     if "MENS_NODIG" in verdicts.values():
         wie = [k for k, v in verdicts.items() if v == "MENS_NODIG"]
@@ -562,9 +748,9 @@ def stap(a, uit):
                                                if v == "HERSIEN"))
 
     # --- 7. clear, awaiting a person ---------------------------------------
-    doel = P.les_goedgekeur(graad, vak, sub, a.les)
     if a.keur_goed:
-        return keur_goed(les_pad, doel, les, uit, staat, staat_pad, a.les)
+        return keur_goed(les_pad, les, uit, staat, staat_pad, a.les)
+
 
     uit.head("CLEAR — waiting on human sign-off")
     uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound.")

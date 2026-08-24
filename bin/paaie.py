@@ -47,7 +47,6 @@ VERSLAE = os.path.join(LOGS, "verslae")
 
 # Outside the repository. Overridable so a second machine or a test run does not
 # have to match this one.
-GOEDGEKEUR_DEFAULT = os.path.join(os.path.dirname(REPO), "goedgekeur")
 SKRAPRUIMTE_DEFAULT = ("C:/temp/wolkskool-scratch" if os.name == "nt"
                        else "/tmp/wolkskool-scratch")
 
@@ -58,10 +57,6 @@ HUNSPELL_KANDIDATE = ["C:/hunspell/af_ZA", "/usr/share/hunspell/af_ZA"]
 
 REVISIE_MAKS = 2          # revision cycles before the human is asked
 BEGROTING_TOLERANSIE = 0.15
-
-
-def goedgekeur_wortel():
-    return os.environ.get("WOLKSKOOL_GOEDGEKEUR") or GOEDGEKEUR_DEFAULT
 
 
 def skrapruimte():
@@ -158,10 +153,6 @@ def staat_pad(les_pad):
 
 
 # ------------------------------------------------------------------ approved
-def les_goedgekeur(graad, vak, subonderwerp, nommer):
-    return os.path.join(goedgekeur_wortel(), kaps_pad(graad, vak, subonderwerp),
-                        f"les-{int(nommer)}.json")
-
 
 # ------------------------------------------------------------------ profiles
 def vind_profiel(vak, graad, subonderwerp=None):

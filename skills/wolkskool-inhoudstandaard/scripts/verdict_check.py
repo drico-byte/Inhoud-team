@@ -15,12 +15,34 @@ Exit 0 = report is sound. Exit 1 = report is malformed or self-contradictory.
 Note this validates the REPORT, not the lesson. A sound report can carry a
 HERSIEN verdict; that is a working pipeline, not an error.
 """
-import argparse, json, sys
+import argparse, json, re, sys
 
 VERDICTS = {"GOEDGEKEUR", "HERSIEN", "MENS_NODIG"}
 COVER_STATUS = {"teenwoordig", "gedeeltelik", "afwesig"}
 FACT_STATUS = {"bevestig", "weerspreek", "onseker"}
 COVER_TIPES = {"kern", "aanvulling", "eli10", "vraag", "fokus"}
+
+
+def _blok_sleutel(naam):
+    """Comparison key for a block label.
+
+    A fact checker naturally writes the block type into the label — 'begrip: vlot'
+    for a glossary entry, 'eli10: Hoekom sink...' for an intuition block — while the
+    lesson stores only 'vlot' and the heading. Comparing those raw produced a
+    "no claim checked from block 'vlot'" warning on every lesson, for glossary
+    entries that had in fact been checked. A warning that is always wrong is worse
+    than no warning: it teaches a reader to skip the warnings that matter.
+
+    So strip a leading block-type prefix, drop punctuation and case, and compare on
+    what is left. This only ever makes the match more forgiving, and the check it
+    serves is a warning rather than a failure, so a false negative here costs less
+    than the false positive it removes.
+    """
+    s = str(naam or "").strip()
+    s = re.sub(r"^\s*(studie|eli10|lys|begrip|vraag|blok)\s*[:\-—]\s*", "", s,
+               flags=re.I)
+    s = re.sub(r"[^\w\s]", " ", s.lower())
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def derive(report):
@@ -93,6 +115,26 @@ def check(report, lesson=None, spec=None):
             if i.get("status") == "weerspreek" and not i.get("regstelling"):
                 fails.append(f"Fact item {n}: marked 'weerspreek' with no 'regstelling'")
 
+    # --- the mirror question: content nothing asked for ---------------------
+    # Optional and advisory. It never fails a report and never moves the verdict:
+    # unrequested content is a decision for a person and for the orchestrator, which
+    # is the only component holding both the report and the spec. Validated only for
+    # shape, so a malformed entry cannot pass as an empty one.
+    if kind == "dekking":
+        oor = report.get("oortollig")
+        if oor is not None:
+            if not isinstance(oor, list):
+                fails.append("'oortollig' must be a list")
+            else:
+                for n, o in enumerate(oor, 1):
+                    if not isinstance(o, dict) or not o.get("inhoud"):
+                        fails.append(f"oortollig item {n}: needs at least 'inhoud'")
+                    elif not o.get("blok"):
+                        warns.append(f"oortollig item {n} does not name a block")
+                if oor:
+                    warns.append(f"{len(oor)} item(s) reported as serving no requirement "
+                                 f"— not a defect, but decide whether each stays or goes")
+
     # coverage of the required checks
     if kind == "dekking":
         tipes = {i.get("tipe") for i in items}
@@ -111,12 +153,13 @@ def check(report, lesson=None, spec=None):
         blocks = lesson.get("blokke", [])
         if kind == "feite":
             # every block carrying prose should appear among the checked claims
-            seen = {(i.get("blok") or "").strip() for i in items}
+            seen = {_blok_sleutel(i.get("blok")) for i in items}
+            seen.discard("")
             for b in blocks:
                 if b.get("tipe") in {"studie", "eli10", "lys", "begrip", "vraag"}:
-                    label = (b.get("kop") or b.get("vir") or b.get("term") or "").strip()
-                    if label and label not in seen:
-                        warns.append(f"No claim checked from block '{label[:34]}' — either it "
+                    rou = (b.get("kop") or b.get("vir") or b.get("term") or "").strip()
+                    if rou and _blok_sleutel(rou) not in seen:
+                        warns.append(f"No claim checked from block '{rou[:34]}' — either it "
                                      f"contains nothing checkable, or it was skipped")
             if len(items) < max(4, len(blocks) // 2):
                 warns.append(f"{len(items)} claims checked across {len(blocks)} blocks — low "

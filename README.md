@@ -60,7 +60,10 @@ dictionary installed — the gate reports a note and carries on.
 Once, before any lesson is written for that subject-grade. This is the only step
 that touches a textbook.
 
-1. Put the PDF in `bronne/` (gitignored, and it stays that way).
+1. Put the textbook in `bronne/` and the CAPS document in `kaps/dokumente/`.
+   Both are gitignored, and stay that way. The textbook is a rights boundary — only
+   the profiler may read it. CAPS is public and the planner is meant to read it; it is
+   kept out of git only to keep the no-PDF rule absolute and therefore checkable.
 2. Write the CAPS sub-topic labels into `kaps/`, in the shape of
    `skills/wolkskool-inhoudstandaard/assets/caps_subonderwerpe_voorbeeld.json`.
    The labels are yours: the profiler finds where each one starts in the book, so
@@ -173,6 +176,9 @@ prompts/                           the four versioned agent prompts
 bin/                               opstel.py (setup), hardloop.py (runner), logoorsig.py (logs)
 profiele/                          one profiler config per subject-grade
 kaps/                              CAPS sub-topic label files
+kaps/dokumente/<fase>/             the CAPS documents themselves, one folder per
+                                   phase: intersen-gr4-6, senior-gr7-9, fet-gr10-12.
+                                   gitignored.
 spesifikasies/konsep/              planner output
 spesifikasies/goedgekeur/          specs a human has accepted
 konsepte/                          drafts in flight, plus each one's gate result and reports

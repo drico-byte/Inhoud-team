@@ -7,9 +7,10 @@ against the same entry.
 This is the contract between three agents, so changes need all three reviewed
 together. A worked example is at `assets/voorbeeldspesifikasie.json`.
 
-Validate with `scripts/spec_check.py` before handing specs to a writer — it
-catches budget arithmetic errors, missing CAPS bullets and unjustified
-Aanvulling, all of which are cheaper to fix here than twenty lessons later.
+Validate with `skills/wolkskool-inhoudstandaard/scripts/spec_check.py` before
+handing specs to a writer — it catches budget arithmetic errors, missing CAPS
+bullets and unjustified Aanvulling, all of which are cheaper to fix here than
+twenty lessons later.
 
 ## Top-level fields
 
@@ -40,7 +41,7 @@ Aanvulling, all of which are cheaper to fix here than twenty lessons later.
 | `aanvulling` | array of objects | no | Each `{item, regverdiging}` |
 | `moeilike_konsepte` | array of strings | no | Concepts needing an ELI10 layer |
 | `termdig` | boolean | no | `true` when the bullet names many terms |
-| `fokusvraag_skakel` | string | yes | How this lesson serves the focus question |
+| `fokusvraag_skakel` | string | yes | This lesson's **contribution** to the focus question |
 
 ### `kern`
 
@@ -80,6 +81,29 @@ pressure produces movement" does. Flagging everything makes the flag meaningless
 Set `true` when a bullet introduces many new subject terms — typically because
 CAPS names several items. It tells the writer to expect five or six `begrip`
 entries rather than two, so the glossary load is planned rather than discovered.
+
+### `fokusvraag_skakel`
+
+**A lesson's contribution to the focus question, not the whole theme.** The
+sub-topic as a whole answers the CAPS focus question; each lesson delivers one
+part of that answer. State the part this lesson delivers, and state it as
+something a 250-word lesson can actually carry.
+
+This distinction was learned the expensive way. The focus question for "Vervoer op
+water" asks how transport changed people's lives, which includes travel *and*
+trade. A first spec asked lesson 1 — three vessel types in 257 words — to show
+both. The writer covered every `kern` item, wrote a lesson that passed the gate
+with no warnings, and the coverage checker still had to mark the focus item
+`gedeeltelik`, because the trade half was never reached. Nothing was wrong with
+the lesson. The spec had promised what the budget could not hold.
+
+So: divide the theme across the sub-topic the way the budget is divided. Trade
+belongs where the vessels are big enough to carry it. If a lesson's contribution
+cannot be stated in one sentence that its budget can deliver, the fault is in the
+split, not in the writer.
+
+The coverage checker verifies that the lesson delivered **its stated
+contribution** — not that it delivered the whole focus question.
 
 ## Budget arithmetic
 

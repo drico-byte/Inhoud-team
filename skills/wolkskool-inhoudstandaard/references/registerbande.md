@@ -90,8 +90,9 @@ pages is almost entirely a picture.
 
 Deriving a sub-topic's volume from the book-wide median therefore overstated it by
 16%, which would have inflated every water lesson. **Always measure the sub-topic's
-own page range** with `scripts/profiler.py`, and use the book-wide median only for
-setting register bands, where it is averaging over the whole book on purpose.
+own page range** with `skills/wolkskool-inhoudstandaard/scripts/profiler.py`, and
+use the book-wide median only for setting register bands, where it is averaging
+over the whole book on purpose.
 
 Measured for CAPS Gr 4 SW Kwartaal 3, "Vervoer oor tyd heen":
 
