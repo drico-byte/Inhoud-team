@@ -1,0 +1,23 @@
+- [Report in plain language](rapporteer-in-gewone-taal.md) — no paths, field names, script names, versions or measurement tables; but always state factual errors and their corrections plainly.
+- [Our text runs parallel to a video](teks-loop-parallel-met-n-video.md) — one of each per CAPS heading; the text stands alone as the revision instrument, and the analogy is mostly the video's job.
+- [When to ask and when to just do it](wanneer-vra-en-wanneer-doen.md) — apply unambiguous factual corrections; escalate trade-offs, curriculum decisions, and changes to the standard.
+- [Don't write content myself](moenie-self-inhoud-skryf-nie.md) — three errors in one block came from my own hand edits; route content changes through the writer.
+- [Cut anything uncertain, don't escalate it](onsekere-ekstras-word-gesnoei.md) — if it cannot be settled and cutting costs nothing real, cut it; that now covers word choices too.
+- [Don't sort by appearance](moenie-op-voorkoms-sorteer-nie.md) — three rounds lost to a visual bone-vs-pebble test that cannot exist; classify on provenance and capability.
+- [Lesson 2: five ships, four sentences each](les2-vyf-skepe-vier-sinne.md) — stays one lesson; splitting would thin every other lesson in the sub-topic.
+- [Germs are living: CAPS decided it](kieme-is-lewend-kaps-het-besluit.md) — keep the word kieme at Grade 4; never claim what EVERY germ does. Reviewable.
+- [Six fixes from lesson 1: done](ses-regstellings-voor-les-2.md) — what changed, and why lesson 1 is not a fair sample of what the current prompts produce.
+- [Budget size drives over/under-supply](skrywer-oorlewer-nie-onderlewer-nie.md) — small budgets overshoot ~1.1x, a 650-word one landed under; stop blaming the depth instruction.
+- [Profiler: land and air need --dpi 300](profiler-300dpi-land-en-lug.md) — the only existing config is the 150 dpi example; do not mix resolutions inside one topic.
+- [Non-living examples need a clean origin](nie-lewende-voorbeelde-sonder-lewensherkoms.md) — plastic fails the lesson's own sorting test; clay, stone and metal pass.
+- [Numbering the seven: resolved](nommer-die-sewe-geparkeer.md) — the HTML designer grouped them unprompted, so no format change is needed; check what downstream already infers before building structure.
+- [Contested classification: swap the example](betwiste-klassifikasie-ruil-die-voorbeeld.md) — no fact to settle, so don't pick a side and don't hedge; replace it with a clean example.
+- [No questions in lessons](geen-vrae-in-lesse-nie.md) — done across the standard, prompts and tooling; older lessons keep theirs, and evidence that lived in a question moves into the study text.
+- [Incomplete is fine, false contrast is not](kaps-se-lys-wen-oor-die-handboek-se-lys.md) — a short list may omit things, but not so that two lists in one lesson differ where they don't really.
+- [Afrikaans: wait for the specialists](afrikaans-wag-vir-spesialiste.md) — on hold; CAPS already fixes text lengths and demands in-context teaching, and we may write our own stories.
+- [Cross-check the term plan against CAPS](kruistoets-die-termynplan-teen-kaps.md) — all three parts of the document disagree; produce a coverage map before writing anything.
+- [Every lesson gets its own name](elke-les-kry-n-eie-naam.md) — the title is the learner's hero heading, never the CAPS label; and nothing checks a title the way it checks the text.
+- [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — Term 1 is 1-8, Term 2 starts at 9, ~30 total; the file name is his CAPS index, the title is the hero.
+- [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — seven times in one day; always ask what the fix disturbed, not whether the finding is gone.
+- [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
+- [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 planned and clean (9-16), plus the open goedgekeur question.

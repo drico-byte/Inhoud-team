@@ -5,7 +5,7 @@ something stops working.
 
     python bin/opstel.py
 
-It does four things and reports on a fifth:
+It does five things and reports on a sixth:
 
 1. Creates the scratch directory. The profiler rasterises pages and writes
    hundreds of OCR temp files per run, and those must land outside the repository
@@ -14,6 +14,8 @@ It does four things and reports on a fifth:
    Both are gitignored, and stay that way.
 3. Links the content standard into .claude/skills/ so Claude Code discovers it.
    The canonical copy stays at skills/wolkskool-inhoudstandaard/.
+4. Links Claude Code's memory folder to geheue/, so the project's notes are
+   versioned and backed up with the work they describe.
 5. Checks the prerequisites and tells you what, if anything, is missing.
 """
 import json
@@ -42,6 +44,20 @@ def make_dir(path, what):
     line(OK, f"{what}: {path}" + ("" if existed else "   (created)"))
 
 
+def make_junction(link, target):
+    """Point link at target without copying anything. Returns (made, error)."""
+    if os.name == "nt":
+        # A junction needs no administrator rights, unlike a symbolic link.
+        r = subprocess.run(["cmd", "/c", "mklink", "/J", link, target],
+                           capture_output=True, text=True)
+        return r.returncode == 0, (r.stderr or r.stdout).strip()
+    try:
+        os.symlink(target, link)
+        return True, ""
+    except OSError as e:
+        return False, str(e)
+
+
 def link_skill():
     """Make the standard discoverable to Claude Code without duplicating it.
 
@@ -67,19 +83,7 @@ def link_skill():
         except OSError:
             shutil.rmtree(link, ignore_errors=True)
 
-    if os.name == "nt":
-        # A junction needs no administrator rights, unlike a symbolic link.
-        r = subprocess.run(["cmd", "/c", "mklink", "/J", link, target],
-                           capture_output=True, text=True)
-        made = r.returncode == 0
-        err = (r.stderr or r.stdout).strip()
-    else:
-        try:
-            os.symlink(target, link)
-            made, err = True, ""
-        except OSError as e:
-            made, err = False, str(e)
-
+    made, err = make_junction(link, target)
     if made:
         line(OK, f"linked .claude/skills/{SKILL_NAME} -> skills/{SKILL_NAME}")
         return True
@@ -88,6 +92,50 @@ def link_skill():
     print("        four agents will run without it. Create the link by hand:")
     print(f'          mklink /J "{link}" "{target}"')
     return False
+
+
+def link_memory():
+    """Keep the project's memory notes in the repository, not in a user folder.
+
+    Claude Code reads and writes its memory at
+    .claude/projects/<project-path-as-a-name>/memory/, which is outside this
+    repository, is not backed up with the work it describes, and is orphaned the
+    moment the project directory is moved or renamed, because that folder's name
+    is derived from the path. The notes record decisions that are not recoverable
+    from the files -- why a word was rejected, which classification was contested,
+    what a term plan got wrong -- so they belong with the work.
+
+    The canonical copy therefore lives at geheue/ and the memory path is a
+    junction back to it, the same arrangement and for the same reason as the
+    skill above. Nothing is duplicated, so nothing can drift.
+    """
+    target = os.path.join(REPO, "geheue")
+    key = "C--" + REPO.replace(":", "-").replace(os.sep, "-").lstrip("-")
+    link = os.path.join(os.path.expanduser("~"), ".claude", "projects", key, "memory")
+
+    if not os.path.isdir(target):
+        line(WARN, "no geheue/ yet -- it appears the first time a note is written")
+        return True
+    if os.path.exists(os.path.join(link, "MEMORY.md")):
+        line(OK, "memory notes served from geheue/")
+        return True
+    if os.path.exists(link) or os.path.islink(link):
+        line(BAD, "a real memory folder already exists at that path")
+        print("        It holds notes this repository does not. Merge it into")
+        print(f"        geheue/ by hand first, then delete it:")
+        print(f"          {link}")
+        return False
+
+    os.makedirs(os.path.dirname(link), exist_ok=True)
+    made, err = make_junction(link, target)
+    if made:
+        line(OK, "linked the memory path -> geheue/")
+        return True
+    line(WARN, f"could not link the memory path  ({err})")
+    print("        Notes will still be written, but to a user folder outside")
+    print("        this repository, so they will not be backed up with it:")
+    print(f'          mklink /J "{link}" "{target}"')
+    return True
 
 
 def check_binary(name, what, needed_for):
@@ -111,6 +159,7 @@ def main():
     for fase in ("intersen-gr4-6", "senior-gr7-9", "fet-gr10-12"):
         make_dir(os.path.join(REPO, "kaps", "dokumente", fase), f"CAPS: {fase}")
     ok_skill = link_skill()
+    link_memory()
 
     print("\nPrerequisites\n")
     ok = True
