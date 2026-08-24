@@ -22,3 +22,4 @@
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
 - [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
 - [When the book covers fewer lessons than we write](meting-dek-minder-as-die-lesse.md) — don't divide the measurement evenly; it robs the lessons the book does cover.
+- [Specs are never fact-checked](spesifikasies-word-nooit-nagegaan.md) — a false mechanism in a spec plants itself in every lesson and survives every revision.
