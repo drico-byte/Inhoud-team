@@ -16,8 +16,16 @@ one that did not.
 Leave out file paths, field names in backticks, script names, exit codes, prompt
 version numbers, and tables of measurements. They belong in the files and logs.
 
-One exception that always stays: when something is factually wrong in a lesson, say
-plainly what was wrong and what the correct version is. That is the part most needed.
+Two exceptions that always stay.
+
+**A factual error in a lesson** — say plainly what was wrong and what the correct
+version is. That is the part most needed.
+
+**A term's per-lesson word counts** — when presenting a term plan, list the estimated
+length of every lesson, and say which came from measuring the book and which from
+CAPS. He asked for this on Term 2 and again for Term 3: "show the estimated word
+count for each lesson". It is not plumbing to him, it is the shape of the term. A
+short list per lesson, not a table of pages and medians.
 
 Decision questions look like: "The lesson says a reed boat sinks after many months.
 Sources disagree — some say two weeks, some say a year. Should I remove the

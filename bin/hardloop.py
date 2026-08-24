@@ -752,12 +752,17 @@ def stap(a, uit):
         return keur_goed(les_pad, les, uit, staat, staat_pad, a.les)
 
 
-    uit.head("CLEAR — waiting on human sign-off")
+    uit.head("CLEAR — waiting on sign-off")
     uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound.")
     uit.say(f"  draft     {P.rel(les_pad)}")
-    uit.say(f"  would go  {doel}")
     uit.say()
-    uit.say("  Nothing crosses that boundary without you. Read the draft, then:")
+    # This block used to name the file the draft would be COPIED to on approval.
+    # When the approved-output folder was removed, that variable went with it and
+    # this line kept referring to it -- a NameError on the one path a finished
+    # lesson always takes. Nothing caught it because every run so far passed
+    # --keur-goed and returned before reaching here.
+    uit.say("  Approval marks this draft approved where it is. No second copy is")
+    uit.say("  made, so nothing downstream can go stale. Read it, then:")
     uit.say(f"    python bin/hardloop.py --vak \"{vak}\" --graad {graad} "
             f"--subonderwerp \"{sub}\" --les {a.les} --keur-goed")
     return 10, "WAG_VIR_MENS"
@@ -820,8 +825,8 @@ def main():
     ap.add_argument("--les", type=int, default=None,
                     help="lesson number within the sub-topic; omit for an overview")
     ap.add_argument("--keur-goed", action="store_true", dest="keur_goed",
-                    help="copy a cleared draft to goedgekeur/. Needs a person at a "
-                         "terminal to confirm; it cannot be done non-interactively.")
+                    help="mark a cleared draft approved, in place. No second copy "
+                         "is made and nothing is typed to confirm.")
     ap.add_argument("--hervat", action="store_true",
                     help="clear an escalation and start a new cycle (a human action)")
     ap.add_argument("--json", action="store_true", dest="json_mode",

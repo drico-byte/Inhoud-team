@@ -283,7 +283,13 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None,
     for item in caps["subonderwerpe"]:
         if isinstance(item, dict):
             labels.append(item["naam"])
-            if item.get("bladsye"):
+            # Presence of the key is the signal, not whether it has entries. An
+            # empty list is a real answer — this book does not cover this
+            # sub-topic — and must not fall through to heading hunting, which
+            # would then report it as a mapping that failed. Grade 4 Term 3 has
+            # one: the book teaches air and wind where CAPS asks for energy
+            # transfer, so there is genuinely nothing to measure.
+            if "bladsye" in item:
                 explicit[item["naam"]] = [(int(a), int(b)) for a, b in item["bladsye"]]
         else:
             labels.append(item)
@@ -456,6 +462,9 @@ def main():
     print(f"\nwritten: {a.out}")
     print(f"median words per page: {cfg['woorde_per_bladsy_mediaan']}")
     for label, v in cfg["subonderwerpe"].items():
+        if v.get("handmatig_afgebaken") and not v["bladsye"]:
+            print(f"  {label[:44]:46} not covered by this book — no pages to measure")
+            continue
         merk = " (mapped by hand)" if v.get("handmatig_afgebaken") else ""
         print(f"  {label[:44]:46} p{v['eerste_bladsy']}-{v['laaste_bladsy']}  "
               f"{v['bladsye']:2} pages  {v['woorde']:5} words{merk}")

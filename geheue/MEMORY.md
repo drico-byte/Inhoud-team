@@ -20,4 +20,5 @@
 - [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — Term 1 is 1-8, Term 2 starts at 9, ~30 total; the file name is his CAPS index, the title is the hero.
 - [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — seven times in one day; always ask what the fix disturbed, not whether the finding is gone.
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
-- [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 planned and clean (9-16), plus the open goedgekeur question.
+- [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
+- [When the book covers fewer lessons than we write](meting-dek-minder-as-die-lesse.md) — don't divide the measurement evenly; it robs the lessons the book does cover.
