@@ -23,6 +23,19 @@ caps_subtopics.json:
                         "Vervoer op water", "Vervoer in die lug"]
     }
 
+  A sub-topic may instead give its pages outright, for a book that does not word
+  its sections the way CAPS does, or to keep content off the measurement:
+
+      "subonderwerpe": [
+        "Materiaal om ons",
+        {"naam": "Vaste stowwe", "bladsye": [[61, 63], [66, 79]],
+         "nota": "p64-65 is metals and non-metals, which is Grade 5 content"}
+      ]
+
+  Take those page numbers from --koppe-uit. Mapped sub-topics are marked in the
+  output, because a boundary a human chose and one the tool found are not equally
+  trustworthy and nothing else would show the difference.
+
 OUTPUT: a profiler config consumed by the planner and the gate — per sub-topic
 page counts and word volumes, plus register statistics for the grade band.
 
@@ -250,8 +263,32 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None,
     first = first or 1
     last = min(last or total, total)
 
-    labels = caps["subonderwerpe"]
-    keys = [norm(x) for x in labels]
+    # A sub-topic is either a plain label, which is hunted for by heading, or an
+    # object carrying the pages a human already identified:
+    #
+    #     {"naam": "Vaste stowwe", "bladsye": [[61, 63], [66, 79]], "nota": "..."}
+    #
+    # Heading hunting assumes the book words its sections roughly the way CAPS
+    # does. That holds often enough to be worth automating, and fails completely
+    # when it fails: the Grade 4 science book runs Term 2 in a different order
+    # from CAPS and shares not one section title with it, so three of four labels
+    # either missed or matched the wrong chapter. There is no partial credit
+    # here — a wrong range silently produces a wrong budget.
+    #
+    # The headings dump exists so a human can do that mapping by eye. This is
+    # where the answer comes back in. Several ranges per sub-topic are allowed,
+    # so content the grade must not be taught can be cut out of the measurement
+    # rather than quietly buying space in a lesson.
+    labels, explicit = [], {}
+    for item in caps["subonderwerpe"]:
+        if isinstance(item, dict):
+            labels.append(item["naam"])
+            if item.get("bladsye"):
+                explicit[item["naam"]] = [(int(a), int(b)) for a, b in item["bladsye"]]
+        else:
+            labels.append(item)
+    # An empty key set never matches, so mapped sub-topics skip heading hunting.
+    keys = [set() if x in explicit else norm(x) for x in labels]
     starts = {}
     per_page = {}
     per_page_headings = {}
@@ -322,7 +359,7 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None,
                     break
 
     found = sorted(starts.items(), key=lambda kv: kv[1])
-    ranges, unbounded = {}, None
+    ranges, unbounded = dict(explicit), None
     for j, (i, start) in enumerate(found):
         if j + 1 < len(found):
             end = found[j + 1][1] - 1
@@ -330,18 +367,30 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None,
             end = end_page
             if not end_marker:
                 unbounded = labels[i]
-        ranges[labels[i]] = (start, end)
+        ranges[labels[i]] = [(start, end)]
 
     # --- volumes ---
     counts = [len(w) for w in per_page.values() if len(w) > 20]
     wpp = st.median(counts) if counts else 0
     subs = {}
-    for label, (a, b) in ranges.items():
-        pages = b - a + 1
-        words = sum(len(per_page.get(p, [])) for p in range(a, b + 1))
-        subs[label] = {"eerste_bladsy": a, "laaste_bladsy": b, "bladsye": pages,
+    for label, reekse in ranges.items():
+        blaaie = sorted({p for a, b in reekse for p in range(a, b + 1)})
+        pages = len(blaaie)
+        words = sum(len(per_page.get(p, [])) for p in blaaie)
+        subs[label] = {"eerste_bladsy": min(blaaie) if blaaie else 0,
+                       "laaste_bladsy": max(blaaie) if blaaie else 0,
+                       "bladsye": pages,
                        "woorde": words,
                        "woorde_per_bladsy": round(words / pages) if pages else 0}
+        if label in explicit:
+            # Say so in the output. A number a human chose the boundaries for and
+            # a number the tool found are not equally trustworthy, and whoever
+            # reads this file later cannot tell them apart otherwise.
+            subs[label]["bladsy_reekse"] = [[a, b] for a, b in reekse]
+            subs[label]["handmatig_afgebaken"] = True
+            leeg = [p for p in blaaie if p not in per_page]
+            if leeg:
+                subs[label]["bladsye_sonder_teks"] = leeg
 
     # --- register statistics over the profiled range ---
     allw = [w for ws in per_page.values() for w in ws]
@@ -354,7 +403,8 @@ def profile(pdf, caps, dpi, first, last, verbose, end_marker=None, scratch=None,
                "pct_3plus_sillabes": round(100 * sum(1 for s in sylls if s >= 3) / len(sylls), 1),
                "pct_woorde_oor_10_letters": round(100 * sum(1 for w in allw if len(w) > 10) / len(allw), 1)}
 
-    missing = [labels[i] for i in range(len(labels)) if i not in starts]
+    missing = [labels[i] for i in range(len(labels))
+               if i not in starts and labels[i] not in explicit]
 
     if koppe_uit:
         dump_headings(per_page_headings, koppe_uit,
@@ -406,8 +456,12 @@ def main():
     print(f"\nwritten: {a.out}")
     print(f"median words per page: {cfg['woorde_per_bladsy_mediaan']}")
     for label, v in cfg["subonderwerpe"].items():
+        merk = " (mapped by hand)" if v.get("handmatig_afgebaken") else ""
         print(f"  {label[:44]:46} p{v['eerste_bladsy']}-{v['laaste_bladsy']}  "
-              f"{v['bladsye']:2} pages  {v['woorde']:5} words")
+              f"{v['bladsye']:2} pages  {v['woorde']:5} words{merk}")
+        if v.get("bladsye_sonder_teks"):
+            print(f"      no text read on: {v['bladsye_sonder_teks']}  "
+                  f"— outside --first/--last, or a full-page image")
     if cfg.get("onbegrens"):
         print(f"\nWARNING: '{cfg['onbegrens']}' has no end marker, so it absorbed every page "
               f"up to --last. Its page count and volume are NOT reliable. Pass --eindmerker "
