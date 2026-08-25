@@ -39,3 +39,28 @@ is not.
 
 **How to apply:** assume he knows the project, not the plumbing. Never explain how
 it was built unless asked. Related: [[skrywer-oorlewer-nie-onderlewer-nie]]
+
+## 2026-08-25: report only what needs him
+
+Drico, mid-session, while a long pipeline run was producing a message per step:
+"I want to preserve the context window as much as possible. From now on, only output
+messages for me to read if there are issues that need me and if there are suggestions
+for a new ruling."
+
+**So: work silently. Surface only two things.**
+
+1. **An issue that needs his decision** — a trade-off, a curriculum call, a departure
+   from CAPS, something blocked.
+2. **A proposed ruling** — a pattern worth making standing policy.
+
+Everything else — gate results, checker verdicts, revisions sent, approvals, commits,
+findings I can act on myself — happens without narration. It still gets recorded in the
+specs, the notes and the commit messages, so nothing is lost; it just does not spend his
+context.
+
+**Why this is not a licence to go quiet on problems.** The plain-language rule above
+still holds for whatever *does* get reported, and a factual error in a lesson still gets
+stated plainly. The change is about volume of routine progress reporting, not about
+hiding what went wrong. A post-completion report at the end of a run is still expected —
+he asked for one on 2026-08-24 and called for it to be "short but powerful".
+
