@@ -53,22 +53,40 @@ that look like nothing else we have seen.
   of error. Also: CAPS writes "ledemaatbene is stutte", and **bene is forbidden for
   animals** in our house style.
 
-## Term 3 — "Energie en Verandering" — CROSS-CHECKED, lessons 18 to 24, nothing written
+## Term 3 — "Energie en Verandering" — SCOPED, lessons 18 to 25, nothing written
 
-Drico's plan of 2026-08-24, checked against all three parts of CAPS. Content tables and
-overview agree at 10 weeks across four sub-topics. His seven labels are CAPS's own content
-headings, in CAPS's order.
+Cross-checked against all three parts of CAPS; content tables and overview agree at 10
+weeks over four sub-topics. Measured, mapped by hand, and **budgeted with Drico on
+2026-08-24/25**.
 
-**CAPS has eight content headings; he has seven lessons.** *Energie en klank* carries three
-and he merged the last two, "Maak geluide" and "Geraasbesoedeling". Kept, because loudness
-is a genuine bridge and the merge balances the term. **But noise pollution is the assessed
-half** — sources at home, school, community, and how to protect your ears — and is the half
-that will get squeezed. Write the brief so it leads. Pitch is a loose thread either way.
+18 Energie vir lewe (500) · 19 Energie van die Son (450) · 20 Energie (575) ·
+21 Inset en uitset van energie (575) · 22 Beweging en musiekinstrumente (750) ·
+23 Vibrasies en klank (540) · 24 Maak geluide (540) · 25 Geraasbesoedeling (540)
 
-His note on lesson 21 (solar panels, wind turbines, a water wheel) is good and ties back to
-the Sun lesson, but CAPS's assessed wording says *various machines and devices* and its own
-examples are household ones. Use his three **alongside** everyday appliances, not instead.
+4470 words over eight lessons, averaging 559 — almost exactly Term 2's 562.
 
-Out of scope, same ruling as before: design, make and evaluate a musical instrument.
+**The book covers the sound half well and the energy half barely at all.** It teaches
+air and wind instead — sailboats, windmills, turbines — and the word *wind* appears
+three times in the whole Grade 4-6 CAPS, never as Grade 4 content. So 18, 19 and 20 are
+sized from CAPS. See [[meting-dek-minder-as-die-lesse]].
 
+**Two decisions, both recorded in the curriculum file with their reasoning:**
 
+- **Lesson 22 budgeted at 750 against a measured 942.** Splitting was considered and
+  rejected for a reason worth keeping: **lesson 22 is already the second half of a
+  split** — lesson 21 teaches input and output for machines, and 22 applies it to
+  instruments. A further split would repeat 21 or trespass on 23's vibrations. And the
+  942 is the term's weakest measurement, from pages scattered through the book's sound
+  chapter and divided between two sub-topics by eye.
+- **The sound pair unmerged into three lessons.** Drico's plan merged "Maak geluide"
+  with "Geraasbesoedeling", giving one lesson two CAPS headings and two consecutive
+  806-word lessons. Three lessons of ~540 fixes the reading load AND gives noise
+  pollution its own lesson — it is the assessed half and was the half that would have
+  been squeezed.
+
+**Still flagged into planning:** lesson 21 should use Drico's solar panels, wind
+turbines and water wheel ALONGSIDE everyday appliances, since CAPS's assessed wording
+says "various machines and devices". Out of scope, same ruling as before: design, make
+and evaluate a musical instrument.
+
+**The year now runs to 25 lessons through three terms, so about 32 with Term 4.**
