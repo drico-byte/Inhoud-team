@@ -61,3 +61,19 @@ Two things that make this worse than it sounds:
   fixing, so dump every hit with its path and decide per hit rather than replacing
   blind.
 
+## After editing an approved spec, run the runner before launching any agent
+
+The spec an agent reads is not the approved file. The runner extracts a per-lesson entry
+into the lesson's own folder, and agents read that copy. It refreshes on every runner
+invocation — but if you edit the approved spec and launch a writer without running the
+runner in between, the writer reads the **previous** entry.
+
+That happened on 2026-08-25. The comparison block in Term 2 lesson 10 had been removed
+from the approved spec, and the writer opened an entry that still demanded it. It wrote
+to the brief instead and flagged the mismatch, which is the right behaviour and is the
+only reason it was noticed.
+
+**Sequence: edit the approved spec → run `bin/hardloop.py` for each affected lesson →
+then launch the agent.** The runner also gates any draft it finds, so expect that as a
+side effect on lessons already written.
+
