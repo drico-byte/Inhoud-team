@@ -54,7 +54,25 @@ def vergelyk(gids):
 
     botsings = {t: v for t, v in saam.items()
                 if len(v) > 1 and len(set(v.values())) > 1}
+
+    # A difference a person has looked at and accepted stays out of the report.
+    # Two known cases would otherwise print on every run, and the whole value of
+    # this check is that a real drift stands out rather than blending into a list
+    # of ones already ruled on.
+    for t in aanvaar_vir(os.path.basename(gids)):
+        botsings.pop(t, None)
     return lesse, saam, botsings
+
+
+def aanvaar_vir(subonderwerp):
+    """Terms accepted as legitimately worded differently in this sub-topic."""
+    pad = os.path.join(REPO, "kaps", "aanvaarde-woordelysverskille.json")
+    try:
+        data = json.load(open(pad, encoding="utf-8"))
+    except (OSError, ValueError):
+        return set()
+    return {x["term"] for x in data.get("aanvaar", [])
+            if x.get("subonderwerp") == subonderwerp}
 
 
 def main():
