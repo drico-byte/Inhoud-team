@@ -4,230 +4,283 @@
   "prompt_weergawe": "feitenasiener-v1.1",
   "les": "Van plat vel tot sterk buis",
   "kaps_punt": "ons kan die papier in lang, dun buise (stutte) rol",
-  "verdict": "HERSIEN",
+  "verdict": "MENS_NODIG",
   "items": [
     {
       "bewering": "Jy weet al dat 'n vel papier sterk word wanneer jy sy vorm verander.",
       "blok": "Nog 'n manier om papier sterk te maak",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Papier het byna geen druksterkte nie omdat dit buig (knik); deur die materiaal te krom of te vou word die druksterkte in daardie rigting verhoog sonder dat die materiaal self verander. MadSci Network antwoord oor papierbrûe, https://www.madsci.org/posts/archives/2003-06/1055103369.Eg.r.html ; DiscoverE, Strong Paper Structure, https://discovere.org/engineering-activities/strong-paper-structure/"
+      "bron": "DiscoverE, 'Strong Paper Structure' (https://discovere.org/engineering-activities/strong-paper-structure/): 'n vel koerantpapier weeg 'n gram of twee, maar opgerol help dit 'n boek van etlike ponde dra. SA Gr 4-materiaal stel dit net so: papier word versterk deur dit te vou of tot 'n buis te rol.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Vou was die een manier en rol is die ander manier.",
+      "bewering": "Die eerste manier maak 'n kort, wye pilaar.",
       "blok": "Nog 'n manier om papier sterk te maak",
       "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Kruistoets teen die vorige les in dieselfde subonderwerp (les-1.json, blok 'Die ronde pilaar'), wat uitdruklik sê: 'Rol die vel in 'n ronde buis sonder om een enkele vou te maak.' Die leerder het dus reeds gerol, nie net gevou nie. Die DBE se Jaarlikse Onderrigplan Gr 4 NWT beskryf albei bulletjies naas mekaar, https://www.education.gov.za/LinkClick.aspx?fileticket=pVKaNQYTY8E%3D&tabid=3207&portalid=0&mid=10739",
-      "regstelling": "Moenie die verskil as vou teenoor rol stel nie, want die vorige les se ronde pilaar is ook gerol. Stel dit as 'n verskil in vorm: 'Daardie pilare was kort en wyd. Hierdie keer rol jy die vel styf op tot 'n lang, dun buis.'"
+      "bron": "A4 is 210 x 297 mm (ISO 216, https://en.wikipedia.org/wiki/A4). Les 1 laat die leerder een vel oprol 'tot die twee ente mekaar raak', dus is die pilaar se omtrek 210 mm of 297 mm en sy hoogte die ander maat. Omtrek = pi x deursnee (https://www.mathsisfun.com/geometry/circle.html), dus is die pilaar 21 cm hoog en 9,5 cm wyd, of 29,7 cm hoog en 6,7 cm wyd. In albei gevalle is hy twee tot vier keer hoer as wat hy wyd is, en omtrent so lank soos hierdie les se buis, wat uit dieselfde vel gerol word.",
+      "regstelling": "Laat die lengte-teenstelling val en hou die dikte-teenstelling, wat wel waar is: 'Die eerste manier maak 'n wye pilaar met 'n wand van net een laag papier. Hierdie keer rol jy die vel styf op tot 'n dun buis met baie lae.' Die pilaar mag nie 'kort' genoem word nie, want hy is hoer as wat hy wyd is.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die eerste manier ... (die volgorde-aanspraak in 'Die eerste manier maak 'n kort, wye pilaar.')",
+      "blok": "Nog 'n manier om papier sterk te maak",
+      "status": "bevestig",
+      "bron": "Les 1 van hierdie subonderwerp ('n Vel papier wat 'n boek dra, konsepte/gr4/natuurwetenskappe-en-tegnologie/versterking-van-materiaal/les-1.json) leer die hol pilaar. Die buis is dus wel die tweede manier wat die leerder ontmoet; 'eerste' dui hier volgorde in die reeks aan en nie 'n historiese eerste nie.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Hierdie keer rol jy die vel op tot 'n lang, dun buis.",
+      "blok": "Nog 'n manier om papier sterk te maak",
+      "status": "bevestig",
+      "bron": "Die KABV-punt self praat van lang, dun buise (stutte). Bou-aktiwiteite bevestig die praktyk: 'n vel wat vanaf 'n hoek om 'n dun potlood gerol word, gee 'n langer, stywer rol (I'm the Chef Too, 'Creative Newspaper STEM Challenge Ideas': https://www.imthecheftoo.com/blogs/stem-for-kids/creative-newspaper-stem-challenge-ideas-for-kids).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die buis is omtrent so dun soos 'n potlood en hy is lank.",
       "blok": "Nog 'n manier om papier sterk te maak",
       "status": "bevestig",
-      "tipe": "getal",
-      "bron": "Volg uit die les se eie metode (om die vel om 'n potlood te draai); 'n standaardpotlood is ongeveer 7-8 mm dik, en 'n vel wat styf daarom gerol is, gee 'n buis van ongeveer daardie dikte. Bevestig teen die algemene beskrywing van gerolde papierbuise by DiscoverE, https://discovere.org/engineering-activities/strong-paper-structure/"
+      "bron": "'n Gewone seskantige potlood is 7 tot 8 mm deur (bv. https://writersneed.com/what-is-the-diameter-of-a-pencil/). Die buis word om die potlood gerol, dus is hy effens dikker as die potlood, en 'omtrent' dek dit. Die vergelyking dra net dikte oor: die les self stel later dat 'n stokkie solied is en die papierstut 'n buis is, sodat die leerder nie kan aflei die stut is binne vol nie.",
+      "tipe": "analogie"
     },
     {
-      "bewering": "Jy verander net sy vorm en jy voeg niks by wat die papier self sterker maak nie. Die kleefband hou net die buis toegerol.",
+      "bewering": "Jy verander net sy vorm en jy voeg niks by wat die papier self sterker maak nie.",
       "blok": "Nog 'n manier om papier sterk te maak",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "DiscoverE: 'Strength is created by rolling paper into cylinders' - die sterkte kom van die vorm, nie van 'n verandering aan die papier nie, https://discovere.org/engineering-activities/strong-paper-structure/ ; die kleefband seël bloot die naat, https://www.madsci.org/posts/archives/2003-06/1055103369.Eg.r.html"
+      "bron": "O. Brewster, 'Buckling of Slender Paper Columns', Universiteit van Manchester (Understanding and Using Structural Concepts): die krag wat 'n kolom kan dra hang af van die deursnee se buigstyfheid (EI) en die lengte, dit wil se van vorm en afmetings, nie van 'n verandering in die materiaal nie. https://www.mub.eps.manchester.ac.uk/wp-content/uploads/sites/86/2021/10/Bucking-of-Slender-Paper-Columns.pdf",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Plak die los kant met kleefband vas, anders draai die buis weer oop.",
+      "bewering": "Die kleefband hou net die buis toegerol.",
+      "blok": "Nog 'n manier om papier sterk te maak",
+      "status": "bevestig",
+      "bron": "Bou-aktiwiteite gebruik die band presies so: klein stukkies plakband hou die rol toe sodat hy nie weer oopdraai nie (I'm the Chef Too, soos hierbo; DiscoverE, 'Strong Paper Structure').",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Begin met 'n dun stokkie of 'n potlood op die hoek van die vel.",
       "blok": "Hoe jy die buis rol",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Papier veer elasties terug na 'n rol; die standaardmetode is om die hele naat toe te plak. DiscoverE, Strong Paper Structure, https://discovere.org/engineering-activities/strong-paper-structure/"
+      "bron": "I'm the Chef Too, 'Creative Newspaper STEM Challenge Ideas': begin by 'n hoek eerder as by 'n sy vir 'n langer, stywer rol, en gebruik 'n dun potlood of stokkie in die middel om die rol egalig te hou.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Styf gerol beteken baie lae papier wat vas teen mekaar druk. 'n Los gerolde buis het lug tussen sy lae en hy kreukel maklik.",
+      "bewering": "Plak die los rand met kleefband vas, anders draai die buis weer oop.",
       "blok": "Hoe jy die buis rol",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Styf gerolde buise is die sterk vorm omdat die gewig oor die hele papier versprei; kolomsterkte van 'n papierbuis hang af van die aantal lae (laminations). Inventors of Tomorrow, Building with Newspaper Tubes, https://inventorsoftomorrow.com/2021/11/25/building-with-newspaper-tubes/ ; Urbanik, Column Compression Strength of Tubular Packaging Forms, USDA Forest Products Laboratory, https://www.fpl.fs.usda.gov/documnts/pdf2006/fpl_2006_urbanik001.pdf"
+      "bron": "Selfde bron: die rol word met plakband vasgesit 'to prevent the roll from unfurling'.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Hoekom die buis nie inmekaar sak nie (blokopskrif)",
-      "blok": "Hoekom die buis nie inmekaar sak nie",
-      "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Absolute stelling wat die les self twee blokke later weerspreek: 'Jy kan verbasend hard druk voordat die stut onder jou hand padgee.' Papierbuise swig wel onder genoeg druk - dit is presies wat kolomdruktoetse op papierbuise meet, https://www.fpl.fs.usda.gov/documnts/pdf2006/fpl_2006_urbanik001.pdf ; en in die klaskamerdemonstrasie word gewigte bygevoeg tot die papierkolom ineenstort, https://discovere.org/engineering-activities/strong-paper-structure/",
-      "regstelling": "Maak die opskrif relatief in plaas van absoluut, bv. 'Hoekom die buis meer dra as die plat vel' of 'Hoekom die buis nie so maklik inmekaar sak nie'."
-    },
-    {
-      "bewering": "Die plat vel was oral net een dun laag papier dik. Die kant van die buis is nou baie lae papier dik.",
-      "blok": "Hoekom die buis nie inmekaar sak nie",
+      "bewering": "Trek die stokkie uit en die buis bly staan.",
+      "blok": "Hoe jy die buis rol",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "'n Vel wat styf om 'n potlood gerol word, gee 'n wand van etlike lae; kolomsterkte van papierbuise word uitdruklik aan die aantal lae gekoppel. Urbanik, USDA Forest Products Laboratory, https://www.fpl.fs.usda.gov/documnts/pdf2006/fpl_2006_urbanik001.pdf"
+      "bron": "Die stokkie is in hierdie aktiwiteite net 'n leier vir die rol; die vasgeplakte buis hou sy vorm daarsonder (I'm the Chef Too, soos hierbo).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Styf gerol beteken baie lae papier wat vas teen mekaar druk.",
+      "blok": "Hoe jy die buis rol",
+      "status": "bevestig",
+      "bron": "DiscoverE onderskei uitdruklik 'n 'tightly rolled tube' van 'n 'loosely rolled' een. Reken na: 'n buis van omtrent 1 cm deur het 'n omtrek van sowat 3 cm, dus gee 'n vel van 21 tot 36 cm ongeveer agt tot twaalf lae.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "'n Los gerolde buis het lug tussen sy lae en hy kreukel maklik.",
+      "blok": "Hoe jy die buis rol",
+      "status": "bevestig",
+      "bron": "DiscoverE, 'Strong Paper Structure': buise wat 'wrinkled, loose, or dented' is, vaar swak in 'n struktuur.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Hoekom die buis meer hou as die plat vel (die aanspraak in die opskrif)",
+      "blok": "Hoekom die buis meer hou as die plat vel",
+      "status": "bevestig",
+      "bron": "DiscoverE: opgerolde koerantpapier van 'n gram of twee help 'n boek van etlike ponde dra. Manchester (Brewster): 'n lang, dun lid wat op sy ente gelaai word, swik sywaarts uit; 'n plat vel op sy rand is die uiterste geval daarvan en dra so te se niks.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die plat vel was oral net een dun laag papier dik.",
+      "blok": "Hoekom die buis meer hou as die plat vel",
+      "status": "bevestig",
+      "bron": "Volg uit die voorwerp self: 'n ongevoude vel is oral een laag. Stem ook ooreen met les 1, waar dieselfde vel plat getoets word.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die kant van die buis is nou baie lae papier dik.",
+      "blok": "Hoekom die buis meer hou as die plat vel",
+      "status": "bevestig",
+      "bron": "Selfde natelling as hierbo: 'n styf gerolde buis van sowat 1 cm deursnee uit een vel gee ongeveer agt tot twaalf lae (DiscoverE se onderskeid tussen styf en los gerol).",
+      "tipe": "getal"
     },
     {
       "bewering": "'n Styf gerolde buis het dus 'n stewige wand in plaas van 'n slap een.",
-      "blok": "Hoekom die buis nie inmekaar sak nie",
+      "blok": "Hoekom die buis meer hou as die plat vel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Inventors of Tomorrow: styf gerolde buise is sterk, en die dun, plat dele is die slap dele, https://inventorsoftomorrow.com/2021/11/25/building-with-newspaper-tubes/"
+      "bron": "Manchester (Brewster): die swikkrag is eweredig aan die buigstyfheid van die deursnee, wat met 'n dikker wand styg. DiscoverE stel dieselfde saak prakties: los, gekreukelde buise vaar swak.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die buis se kant is ook die hele pad om gebuig.",
-      "blok": "Hoekom die buis nie inmekaar sak nie",
+      "blok": "Hoekom die buis meer hou as die plat vel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Meetkundige beskrywing van 'n silinder; stem ooreen met DiscoverE se stelling dat silinders die spanning eweredig deur die hele vorm versprei, https://discovere.org/engineering-activities/strong-paper-structure/"
+      "bron": "Meetkundig waar van 'n silinder; stem ooreen met les 1 se ronde pilaar ('Die kant van hierdie pilaar is die hele pad om gebuig').",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Wanneer daar op sy twee ente gedruk word, is daar geen plat kant wat kan uitbuig nie.",
-      "blok": "Hoekom die buis nie inmekaar sak nie",
-      "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Die rigting is nie waar nie. 'n Plat paneel onder druk knik in halfgolwe wat afwisselend na binne en na buite buig - Structville, Buckling of Thin Plates: 'These waves alternate between bending inward and outward', https://structville.com/2022/05/buckling-of-thin-plates.html ; en die ronde wand self, wanneer hy wel swig, vorm hoofsaaklik na binne gedrukte diamantvormige duike (Yoshimura-patroon) - Royal Society Proceedings A, On the role of localizations in buckling of axially compressed cylinders, https://pmc.ncbi.nlm.nih.gov/articles/PMC6501652/ . Dieselfde beswaar wat 'uitbuig' uit les 1 laat val het, geld hier: die woord ken 'n rigting toe wat die verskynsel nie het nie.",
-      "regstelling": "Gebruik dieselfde woord as les 1: 'Wanneer daar op sy twee ente gedruk word, is daar geen plat kant wat kan meegee nie.' Haal 'uitbuig' ook uit die woordelys. Pas op dat die sin nie impliseer dat die buis glad nie kan swig nie - hy swig wel, net later."
+      "bewering": "Wanneer daar op sy twee ente gedruk word, is daar geen plat kant wat kan meegee nie.",
+      "blok": "Hoekom die buis meer hou as die plat vel",
+      "status": "bevestig",
+      "bron": "Woordkeuse: 'meegee' word in Afrikaanse woordeboeke juis vir hierdie betekenis gegee, naamlik 'om te faal en ineen te stort' / to give way, to yield (Supertaal-woordeboekinskrywing, https://gesellig.co.za/t/45196-meegee/). Die woord ken geen rigting toe nie, wat hier reg is. Die stelling self is waar van 'n silinder, wat geen plat paneel het wat kan inswik nie; dieselfde redenasie staan in les 1 oor die ronde pilaar.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Sy hele ronde kant help die gewig dra.",
-      "blok": "Hoekom die buis nie inmekaar sak nie",
+      "blok": "Hoekom die buis meer hou as die plat vel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "DiscoverE: silinders is sterk omdat hulle spanning eweredig deur die hele vorm versprei, https://discovere.org/engineering-activities/strong-paper-structure/ ; Inventors of Tomorrow: die gewig druk op elke deel van die papier en nie net op een plek nie, https://inventorsoftomorrow.com/2021/11/25/building-with-newspaper-tubes/"
+      "bron": "DiscoverE: silinders 'disperse stress evenly throughout their entire shape', en 'n styf gerolde buis is sterk omdat hy die gewig oor elke deel van die papier versprei en nie net op een plek nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Hou die plat vel regop op sy kant en druk net so van bo af. Hy buig dadelik na een kant toe.",
-      "blok": "Hoekom die buis nie inmekaar sak nie",
+      "bewering": "Hou nou nog 'n plat vel regop op sy rand en druk net so van bo af. Hy buig dadelik na een kant toe.",
+      "blok": "Hoekom die buis meer hou as die plat vel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Fisies korrek en 'n billike vergelyking: albei toetse druk dieselfde papier in sy lengte saam en net die vorm verskil. 'n Enkele vel wat op sy rand saamgedruk word, knik onmiddellik sywaarts na een kant - papier het feitlik geen druksterkte nie en swig deur knik, https://www.madsci.org/posts/archives/2003-06/1055103369.Eg.r.html ; knik van 'n dun plaat onder randdruk, Structville, https://structville.com/2022/05/buckling-of-thin-plates.html . Stem ook ooreen met dieselfde waarneming in les 1 ('Los jou hand en die vel buig dadelik om na een kant toe')."
-    },
-    {
-      "bewering": "Hou die plat vel regop op sy kant en druk net so van bo af.",
-      "blok": "Hoekom die buis nie inmekaar sak nie",
-      "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Interne kruistoets teen die vorige blok, 'Hoe jy die buis rol': daardie vel is reeds om die stokkie gedraai en met kleefband vasgeplak. Die leerder het op hierdie punt nie meer 'n plat vel nie, so die opdrag kan nie uitgevoer word soos dit staan nie.",
-      "regstelling": "Verwys na 'n tweede vel, bv. 'Hou nog 'n plat vel regop op sy rand en druk net so van bo af.' (Gebruik ook 'rand' eerder as 'kant' hier - sien die opmerking oor 'kant' in die opsomming.)"
+      "bron": "Manchester (Brewster): 'n lang, dun lid onder toenemende aslas 'will deflect laterally (sideways)'. 'n Vel op sy rand is uiters slank om sy swak as en swik dadelik. Les 1 beskryf dieselfde waarneming.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Sulke lang, dun buise van papier word stutte genoem.",
       "blok": "Ons noem so 'n buis 'n stut",
       "status": "bevestig",
-      "tipe": "naam",
-      "bron": "DBE se 2026 Jaarlikse Onderrigplan Gr 4 NWT, Kwartaal 2: 'rolling paper into long thin tubes (struts)', https://www.education.gov.za/LinkClick.aspx?fileticket=pVKaNQYTY8E%3D&tabid=3207&portalid=0&mid=10739 ; Afrikaans 'stut' = strut/prop/brace, https://www.wordhippo.com/what-is/the-meaning-of/afrikaans-word-a8bbe09f7f59133cac55a6ccd2d0388e4c6ea144.html"
+      "bron": "Die KABV-punt self gebruik die woord ('lang, dun buise (stutte)'), en SA Graad 4-NWT-materiaal noem opgerolde papierbuise stutte (o.a. Thunderbolt Kids Gr 4, Materie en Materiale, 'Versterking van materiale' / 'Strong frame structures').",
+      "tipe": "naam"
     },
     {
       "bewering": "'n Stut is 'n lang, dun stuk wat gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
       "blok": "Ons noem so 'n buis 'n stut",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Standaarddefinisie van 'n stut as drukelement: 'a member that works in pure compression; when load pushes on both ends of a strut, the strut pushes back equally on both sides'. Weston Public Schools, Structural Members: Struts and Ties, https://westonk12engineering.org/structures/handouts/StructuresHandoutStructureMem.pdf ; Wikipedia, Compression member, https://en.wikipedia.org/wiki/Compression_member"
+      "bron": "Ingenieursbronne: 'n stut is 'n konstruksielid wat drukkrag in sy lengterigting weerstaan en is deurgaans slank (https://en.wikipedia.org/wiki/Compression_member; https://www.kreo.net/glossary/strut). Die deel waarop drukkrag werk, heet 'n stut, teenoor 'n tie wat trekkrag dra.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die gewig druk by die een ent in en loop tot by die ander ent.",
       "blok": "Ons noem so 'n buis 'n stut",
       "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Die beeld van gewig wat by die een ent inloop en by die ander uitkom, is die gewone lasbaan-model ('load path') en die karteering hou: die krag word deur die lid oorgedra na wat dit ondersteun, en verdwyn nie in die lid nie. Weston Public Schools, Struts and Ties, https://westonk12engineering.org/structures/handouts/StructuresHandoutStructureMem.pdf ; SDC Verifier, Axial Load and Axial Force Explained, https://sdcverifier.com/structural-engineering-101/structural-engineering-101-what-is-axial-load-and-axial-force/"
+      "bron": "Dieselfde bronne: 'n druklid dra sy las aksiaal, van die een ent na die ander, en gee dit by die verbinding af.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Nie elke stut in die wêreld is 'n buis van papier nie. 'n Dun stokkie of 'n houtpen is ook 'n stut, en hulle is solied binne-in. Die naam sê wat die stuk doen en nie hoe hy binne lyk nie.",
+      "bewering": "Nie elke stut in die wereld is 'n buis van papier nie. 'n Dun stokkie of 'n houtpen is ook 'n stut, en hulle is solied binne-in.",
       "blok": "Ons noem so 'n buis 'n stut",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Korrek: 'strut' is 'n funksionele naam vir enige drukelement, hol of solied, en in enige rigting - 'the more general term for any compression member that can be oriented at any angle'. EngineerFix, What Are Struts in Construction, https://engineerfix.com/what-are-struts-in-construction-and-how-do-they-work/ ; Wikipedia, Compression member, https://en.wikipedia.org/wiki/Compression_member"
+      "bron": "Stutte word van hout, staal of ander sterk materiaal gemaak (https://engineerfix.com/what-are-struts-in-construction-and-how-do-they-work/). SA Graad 4-materiaal noem selfs die pypbene in ledemate stutte, dus soliede stukke tel ook.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Jy kan verbasend hard druk voordat die stut onder jou hand padgee. So 'n stut dra baie gewig vir iets wat so lig is.",
+      "bewering": "Die naam se wat die stuk doen en nie hoe hy binne lyk nie.",
+      "blok": "Ons noem so 'n buis 'n stut",
+      "status": "bevestig",
+      "bron": "Die definisie in die ingenieursbronne is funksioneel: 'n lid heet 'n stut omdat drukkrag daarop werk, ongeag vorm of materiaal (https://en.wikipedia.org/wiki/Compression_member).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Jy kan verbasend hard druk voordat die stut onder jou hand padgee. So 'n stut dra baie gewig vir iets wat so lig is. (die kragaanspraak)",
       "blok": "Wat 'n stut kan dra",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "DiscoverE: ''n Stuk koerantpapier weeg net 'n gram of twee, en tog kan dit opgerol help om 'n boek van etlike ponde te dra', https://discovere.org/engineering-activities/strong-paper-structure/ ; papierbuise dra in aksiale druk werklik groot laste, https://www.fpl.fs.usda.gov/documnts/pdf2006/fpl_2006_urbanik001.pdf"
+      "bron": "DiscoverE: 'n gram of twee koerantpapier hou opgerol 'n boek van etlike ponde. Manchester (Brewster) se dun papierkolomme was net een vel dik en het steeds 'n glas met water gedra; 'n styf gerolde stut met baie lae dra meer as dit.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Hou nou dieselfde stut se twee ente vas en druk van die sy af teen sy middel.",
+      "bewering": "'padgee' as beskrywing van 'n stut wat onder druk ingee ('voordat die stut onder jou hand padgee'; 'om hom op sy ente te laat padgee')",
+      "blok": "Wat 'n stut kan dra",
+      "status": "onseker",
+      "bron": "Woordeboekinskrywings gee 'padgee' as 'om uit ander se pad te kom; opsy staan' en 'om weg te gaan of weg te vlug' (https://gesellig.co.za/mv/msg/56782/152311/), en die gebruiksvoorbeelde wat ek in Afrikaanse nuusmateriaal kon vind, is mense wat vinnig padgee. Vir die betekenis 'ineenstort onder druk' gee dieselfde woordeboek 'meegee' ('om te faal en ineen te stort'), wat die les self in die vorige blok gebruik. Ek kon egter geen Suid-Afrikaanse bron vind wat die spreektaalgebruik van 'padgee' vir iets wat swik of breek bevestig of uitsluit nie, en dit is juis plaaslike taalgebruik waaroor ek nie op internasionale afleiding mag besluit nie. 'n Mens moet kies: as 'padgee' hier bedoel is soos 'meegee', staan daar twee woorde vir dieselfde gebeurtenis in een les, en die veiligste keuse is om deurgaans 'meegee' te gebruik.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Neem nou 'n tweede stut wat nog heel is.",
       "blok": "Wat 'n stut kan dra",
       "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Interne kruistoets binne dieselfde blok: die vorige sinne het die stut reeds tot by 'padgee' gedruk, en papier kreukel permanent wanneer dit knik. 'Dieselfde stut' is dan 'n beskadigde stut, en die vergelyking wat daarop volg ('veel minder krag') meet nie meer net die rigting van die druk nie. Die les se eie susterles hou 'n hele blok vir hierdie soort billike-toets-voorwaarde ('n Billike toets tussen die drie).",
-      "regstelling": "Gebruik 'n tweede, onbeskadigde stut vir die sytoets, of stel die eerste toets so dat die stut nie padgee nie. Bv. 'Neem nou 'n tweede stut wat nog heel is. Hou sy twee ente vas en druk van die sy af teen sy middel.'"
+      "bron": "Die les self: die enigste stut wat gerol word, is die een in 'Hoe jy die buis rol'. Die tweede vel wat in 'Hoekom die buis meer hou as die plat vel' bygebring word, word plat regop gehou en nooit opgerol nie. Op hierdie punt het die leerder dus een stut, en daardie een het pas onder sy hand ingegee.",
+      "regstelling": "Se waar die tweede stut vandaan kom voordat die sytoets gevra word, bv. 'Rol nou die tweede vel op dieselfde manier tot 'n stut. Hou sy twee ente vas en druk van die sy af teen sy middel.' So bly die telling reg: twee velle, twee stutte, en niks word veronderstel wat die leerder nie gemaak het nie.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Hy buig baie makliker onder hierdie druk. Dit kos veel minder krag as om hom op sy ente te laat padgee.",
       "blok": "Wat 'n stut kan dra",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Korrek, en dit bly korrek met albei ente vasgehou: 'n slank dunwandige buis se buigweerstand teen 'n dwarslas in die middel is 'n orde kleiner as sy aksiale drukvermoë, want die dwarslas wek 'n buigmoment en plaaslike knik in die wand. SDC Verifier, Axial Load and Axial Force Explained, https://sdcverifier.com/structural-engineering-101/structural-engineering-101-what-is-axial-load-and-axial-force/ ; Engineering Library, Beam-Columns, https://engineeringlibrary.org/reference/beam-columns-air-force-stress-manual"
+      "bron": "Nature Scitable, 'Lesson 9: Structural Hazards' (https://www.nature.com/scitable/topicpage/lesson-9-structural-hazards-8705178/): smal konstruksiestukke soos strooitjies is die sterkste wanneer hulle in hul lengte gerek of gedruk word, en die swakste wanneer hulle moet buig of skuif, of wanneer die las deur verbindings loop.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die gewig moet dus in die lengte van die stut loop.",
       "blok": "Wat 'n stut kan dra",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "'n Stut is per definisie 'n lid wat sy las aksiaal dra; 'n las loodreg op die as bring buiging mee en die lid swig veel vroeër. SDC Verifier, https://sdcverifier.com/structural-engineering-101/structural-engineering-101-what-is-axial-load-and-axial-force/ ; Weston Public Schools, Struts and Ties, https://westonk12engineering.org/structures/handouts/StructuresHandoutStructureMem.pdf"
-    },
-    {
-      "bewering": "Wanneer jy 'n struktuur bou, moet elke stut se twee ente stewig vashou waar hulle aansluit.",
-      "blok": "Die ente moet vashou",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Verbindings moet die kragte tussen lede oordra en die lasbaan voltooi; 'n swak verbinding laat die struktuur swig al is die lede self sterk. Robson Forensic, Understanding Causation in Structural Collapse Cases, https://www.robsonforensic.com/articles/structural-collapse-forensic-expert ; Fire Engineering, Construction Concerns: Truss Failure, https://www.fireengineering.com/fire-safety/construction-concerns-truss-failure/"
-    },
-    {
-      "bewering": "Druk net die heel punt van die buis plat tussen jou vingers. Die res van die buis bly rond en dra die gewig.",
-      "blok": "Die ente moet vashou",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Platgedrukte buisente is 'n gewone verbindingsdetail, en die platdruk raak net die kort stukkie waar die plooilyne vorm; die res van die buis behou sy ronde deursnee. Eng-Tips, Flattened Tube - Resulting Strength, https://www.eng-tips.com/threads/flattened-tube-resulting-strength-finite-element-analysis-fea.352054/ ; Inventors of Tomorrow, Building with Newspaper Tubes, https://inventorsoftomorrow.com/2021/11/25/building-with-newspaper-tubes/"
-    },
-    {
-      "bewering": "Daardie plat stukkie is 'n goeie plek waar kleefband kan vashou. 'n Splitpen kan ook deur die plat stukkie steek en hom vashou.",
-      "blok": "Die ente moet vashou",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Inventors of Tomorrow oor koerantbuise: die plat ente is maklik om aan mekaar vas te kram of te heg, https://inventorsoftomorrow.com/2021/11/25/building-with-newspaper-tubes/ ; splitpenne (paper fasteners) word juis deur 'n gaatjie gesteek en die twee bene word oopgebuig om twee stukke vas te hou, https://en.wikipedia.org/wiki/Brass_fastener"
-    },
-    {
-      "bewering": "'n Ent wat los sit, kan wegskuif wanneer die gewig skeef op hom druk. Dan sak die struktuur in, al is die stut self nog sterk.",
-      "blok": "Die swak plek in 'n struktuur",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "''n Swak ontwerpte las kan swig al is die lede wat daaraan verbind is heeltemal groot genoeg', en lede se kraglyne wat nie in een punt ontmoet nie wek ongewenste buiging. Robson Forensic, https://www.robsonforensic.com/articles/structural-collapse-forensic-expert ; Fire Engineering, Truss Failure, https://www.fireengineering.com/fire-safety/construction-concerns-truss-failure/"
-    },
-    {
-      "bewering": "Die swak plek is dikwels nie die stut self nie. Dit is gewoonlik daardie plat punt en die plek waar sy ent vashou.",
-      "blok": "Die swak plek in 'n struktuur",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Behoorlik versag met 'dikwels' en 'gewoonlik', en so gestel is dit korrek: 'the break is always produced by the union, which is the weakest point' - Deployable tubular bar structures with laterally confined flattened ends, ScienceDirect, https://www.sciencedirect.com/science/article/pii/S2352012423008020 (dieselfde studie meet die platgedrukte ent op 55% van die onafgeplatte staaf se sterkte); 'most truss failures are the result of broken connections', https://www.fireengineering.com/fire-safety/construction-concerns-truss-failure/ ; die platdruk vorm plastiese plooilyne in die wand, https://www.eng-tips.com/threads/flattened-tube-resulting-strength-finite-element-analysis-fea.352054/"
+      "bron": "Selfde bron, plus die ingenieursdefinisie van 'n stut as lid wat sy las aksiaal dra (https://en.wikipedia.org/wiki/Compression_member).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "'n Mens bou 'n sterk struktuur deur baie sulke stutte saam te gebruik.",
-      "blok": "Die swak plek in 'n struktuur",
+      "blok": "Baie stutte maak 'n struktuur",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "DBE se Jaarlikse Onderrigplan Gr 4 NWT: stutte word saamgevoeg om 'n sterk raam te maak (dakkappe, brûe, krane, pilone), https://www.education.gov.za/LinkClick.aspx?fileticket=pVKaNQYTY8E%3D&tabid=3207&portalid=0&mid=10739 ; Weston Public Schools, Struts and Ties, https://westonk12engineering.org/structures/handouts/StructuresHandoutStructureMem.pdf"
+      "bron": "Raamstrukture bestaan uit stutte wat saam 'n geraamte vorm; SA Graad 4-materiaal noem dakkappe, brue, hyskrane en kragmaste as voorbeelde.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Wanneer jy so bou, moet elke stut se twee ente stewig vashou waar hulle aansluit. 'n Ent wat los bly, skuif weg wanneer die gewig skeef op hom druk. Dan sak die struktuur in, al is die stut self nog sterk.",
+      "blok": "Baie stutte maak 'n struktuur",
+      "status": "bevestig",
+      "bron": "Kappe faal oorwegend by die verbindings: 'Most truss failures are the result of broken connections', en 'n verbinding wat losraak, maak die kap onstabiel (Penn State AE-ondersoek na kapfalings, https://www.engr.psu.edu/ae/thesis/failures/MKP/failures/failures.wikispaces.com/Wood_Truss_Failures.html; Fire Engineering, 'Construction Concerns: Truss Failure'). Scitable stel dit ook: die swakste plek is waar die las deur verbindings loop.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Druk net die heel punt van 'n stut plat tussen jou vingers. Die res van die buis bly rond en dra die gewig.",
+      "blok": "Hoe jy 'n ent vasmaak",
+      "status": "bevestig",
+      "bron": "Dit is die standaardmetode in bou-aktiwiteite met koerantbuise: die ente van twee buise word plat gedruk om hulle aanmekaar te sit, terwyl die res van die buis rond bly (I'm the Chef Too, 'Creative Newspaper STEM Challenge Ideas'; Inventors of Tomorrow, 'Building with Newspaper Tubes').",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Daardie plat stukkie is 'n goeie plek waar kleefband kan vashou.",
+      "blok": "Hoe jy 'n ent vasmaak",
+      "status": "bevestig",
+      "bron": "Selfde bronne: die plat ente word met plakband of krammetjies vasgesit.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Splitpen kan ook deur die plat stukkie steek en hom vashou.",
+      "blok": "Hoe jy 'n ent vasmaak",
+      "status": "bevestig",
+      "bron": "Splitpenne (paper fasteners) word deur die papier gesteek en die twee bene word agter oopgevou om die stukke vas te hou; in SA in elke skryfbehoeftewinkel te kry (Waltons, https://www.waltons.co.za/office-supplies/clips-and-fasteners/paper-fastener-13mm-brass-no2-box-100; MCS Office National, https://mcsofficesupplies.co.za/Split-Pins).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die swak plek in 'n struktuur is dikwels nie die stut self nie. Dit is gewoonlik daardie plat punt en die plek waar sy ent vashou.",
+      "blok": "Hoe jy 'n ent vasmaak",
+      "status": "bevestig",
+      "bron": "Kapfalings kom oorwegend by verbindings voor (Penn State AE; Fire Engineering, soos hierbo), en Scitable stel dieselfde vir smal lede. Die les hou dit ook behoorlik saggies met 'dikwels' en 'gewoonlik'.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "stut: 'n Lang, dun stuk wat gewig dra wanneer daar op sy twee ente gedruk word.",
       "blok": "begrip: stut",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Stem ooreen met die ingenieursdefinisie van 'n drukelement. Wikipedia, Compression member, https://en.wikipedia.org/wiki/Compression_member ; Weston Public Schools, Struts and Ties, https://westonk12engineering.org/structures/handouts/StructuresHandoutStructureMem.pdf"
+      "bron": "Stem ooreen met die ingenieursdefinisie van 'n druklid wat sy las in sy lengterigting dra en deurgaans slank is (https://en.wikipedia.org/wiki/Compression_member; https://www.kreo.net/glossary/strut), en met die woordgebruik in die KABV-punt.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "splitpen: 'n Klein pennetjie van metaal wat twee stukke aan mekaar vashou.",
       "blok": "begrip: splitpen",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Suid-Afrikaanse skryfbehoefte-handelaars verkoop dit as 'split pins / paper fasteners' van geelkoper: MCS Office National, https://mcsofficesupplies.co.za/Split-Pins ; Croxley SA, https://croxley.co.za/product/croxley-19mm-paper-fasteners-pack-of-100s/ ; die fastener is van sagte metaal en die twee bene word oopgebuig om die stukke vas te hou, https://en.wikipedia.org/wiki/Brass_fastener"
+      "bron": "Splitpenne word van geelkoper (dus metaal) gemaak en word gebruik om velle of stukke aan mekaar vas te hou (Waltons en MCS Office National, soos hierbo; https://en.wikipedia.org/wiki/Brass_fastener).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "struktuur: Iets wat gebou of gevorm is, sy vorm hou, en gewig dra of iets beskerm.",
       "blok": "begrip: struktuur",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Aanvaarbaar vir Graad 4: 'n struktuur dra 'n las of beskerm iets, en die les se 'gewig ... of iets beskerm' dek albei bene. DBE Jaarlikse Onderrigplan Gr 4 NWT (strukture wat 'n las dra), https://www.education.gov.za/LinkClick.aspx?fileticket=pVKaNQYTY8E%3D&tabid=3207&portalid=0&mid=10739 . Let wel: les 1 se begrip 'struktuur' sê nog ''n las dra of iets beskerm' - die twee lesse definieer nou dieselfde term met verskillende woorde."
+      "bron": "Stem ooreen met die tegnologie-definisie wat in SA skoolmateriaal gebruik word: 'n struktuur hou dinge, beskerm dinge, ondersteun dinge en oorspan dinge, en sterkte is die vermoe om sy vorm te hou sonder om in te sak. Ook woordeliks dieselfde as die definisie in les 1 van hierdie subonderwerp.",
+      "tipe": "algemeen"
     }
   ],
-  "opsomming": "Die nuwe plat-vel-waarneming is fisies waar en 'n billike vergelyking met die buis, maar 'uitbuig' moet ook hier val (buiging is nie na buite nie), en vyf ander stellings moet reg kom: die vou/rol-terugverwysing, die blokopskrif wat sê die buis sak nie in nie, die plat vel wat 'n blok vroeër reeds opgerol is, en die 'dieselfde stut' wat reeds padgegee het voor die sytoets; niks was onbeslisbaar nie."
+  "opsomming": "Die wetenskap oor stutte, verbindings en waarom die buis meer hou as die plat vel hou deurgaans, maar twee van die vorige regstellings het skade agtergelaat: les 1 se pilaar word 'kort en wyd' genoem terwyl 'n vel wat opgerol word 'n pilaar gee wat twee tot vier keer hoer as wyd en omtrent so lank soos hierdie les se buis is, en die sytoets vra nou vir 'n tweede stut wat die leerder nerens gerol het nie; daarby moet 'n mens besluit oor die woord 'padgee', wat woordeboeke as 'uit die pad gaan' gee terwyl die les se eie 'meegee' juis 'ineenstort' beteken."
 }

@@ -41,3 +41,23 @@ the change in the file, then let the lesson stand. Related:
 **Open design question for Drico:** should specs go through the fact checker before
 approval? It would be slower and it would have saved this whole cycle. Raised in the
 morning report of 2026-08-25; not yet decided.
+
+## And when you correct a spec, sweep it — do not patch one place
+
+On 2026-08-25 the same stale wording was reported by the coverage checker on three
+consecutive rounds, because each time I fixed the occurrence it named and missed its
+twin elsewhere in the file. A spec repeats itself by design — the same idea appears in a
+core point, in the focus-question link, and in a fact-risk note — so a single-site fix
+almost always leaves a live copy behind, and the next revision brief reinstates the
+fault from it.
+
+Two things that make this worse than it sounds:
+
+- **Search for split forms, not just the word.** Searching `uitbuig` found nothing in
+  the one place that mattered, because the text read `buig ... uit`. That single miss
+  cost another full round.
+- **Separate prescriptions from bans.** A fact-risk note that says "never write X"
+  legitimately contains X, and so do the change-notes. Only prescriptive text needs
+  fixing, so dump every hit with its path and decide per hit rather than replacing
+  blind.
+
