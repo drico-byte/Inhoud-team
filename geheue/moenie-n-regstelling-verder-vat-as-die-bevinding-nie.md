@@ -26,3 +26,20 @@ the slogan. Before writing any "always" or "general" into a specification, name 
 cases where it does not hold — if I can't name them, I don't understand the rule
 well enough to prescribe it. Related: [[n-regstelling-ontwrig-sy-bure]], and the
 standing habit of describing the problem rather than prescribing the words.
+
+**It happened twice more on the same rule.** After narrowing it, I wrote that size
+does not matter for hard-or-soft — true of hardness, false of softness, because the
+lesson's own test needs the cloth folded thick. And the old closing "always compare
+equally sized pieces" in the weight block now contradicted the bounded version in
+the opening block: correcting a rule in one place turns its unbounded twin
+elsewhere into a contradiction.
+
+The thing I kept collapsing was two different questions. Does the **property**
+depend on the size of the piece — no, for hardness and absorbency. Does the **test**
+have enough material to work — yes, a thin layer on a table reads as hard because
+you feel the table through it. Both true, and a single sentence carrying both is
+wrong every time. The specification now states them as separate halves with the
+cases named.
+
+Three rounds on one rule. The tell I missed twice: I was editing the rule's wording
+instead of asking what the rule actually is.

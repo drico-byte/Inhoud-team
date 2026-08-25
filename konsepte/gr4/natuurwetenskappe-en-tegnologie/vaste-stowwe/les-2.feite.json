@@ -4,7 +4,487 @@
   "prompt_weergawe": "feitenasiener-v1.1",
   "les": "Wat jou hande van 'n materiaal kan uitvind",
   "kaps_punt": "onverwerkte en verwerkte materiale het spesifieke eienskappe. Hierdie eienskappe kan hard of sag, styf of buigbare, sterk of swak, lig of swaar, waterdig of absorberende wees",
-  "verdict": "MENS_NODIG",
-  "items": [],
-  "opsomming": "WERK IN UITVOERING - nog nie klaar nie."
+  "verdict": "HERSIEN",
+  "items": [
+    {
+      "bewering": "'n Eienskap is iets wat 'n materiaal is, of iemand dit toets of nie.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "'n Fisiese eienskap is 'n kenmerk van die stof self; intensiewe eienskappe soos hardheid en digtheid hoort aan die materiaal en verander nie omdat iemand meet of nie. sciencenotes.org/intensive-extensive-properties/ en ck12.org (hardheid as intensiewe eienskap)."
+    },
+    {
+      "bewering": "Droë hout is hard en dit bly hard al vat niemand daaraan nie.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Janka-hardheid meet die krag om 'n staalbal in droë hout in te dryf (honderde tot duisende newton); die waarde is 'n eienskap van die houtsoort en nie van die stuk nie. en.wikipedia.org/wiki/Janka_hardness_test en wood-database.com/wood-articles/janka-hardness/."
+    },
+    {
+      "bewering": "Jou hande is een manier om 'n eienskap uit te vind.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Elke handproef in die les is die handweergawe van 'n werklike laboratoriumproef: indruk vir hardheid (web.calce.umd.edu/TSFA/Hardness_ad_.htm), buig vir styfheid (sciencedirect.com/topics/engineering/bending-stiffness), trek en skeur vir sterkte (smithers.com, Tear Strength) en 'n druppel vir absorpsie (dropletlab.com/industry-standards/aatcc-tm-79/)."
+    },
+    {
+      "bewering": "Vat aan 'n stuk materiaal en druk met jou duim daarop.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Duimdruk is 'n indrukproef en indrukweerstand is presies hoe hardheid gedefinieer word. web.calce.umd.edu/TSFA/Hardness_ad_.htm. Een kind kan dit met twee hande doen (stuk in een hand, duim van die ander)."
+    },
+    {
+      "bewering": "Buig 'n ander stuk en kyk of dit sy eie vorm hou.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Buig is die standaardproef vir styfheid teenoor buigbaarheid; styfheid is weerstand teen vervorming. sciencedirect.com/topics/engineering/bending-stiffness en waykenrm.com/blogs/strength-vs-stiffness-vs-hardness/. Een kind, twee hande."
+    },
+    {
+      "bewering": "Skeur aan 'n derde stuk en kyk of dit heel bly.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Skeurweerstand is 'n erkende sterktemaat (Elmendorf-proef vir papier, tekstiel, leer en film). smithers.com (Tear Strength, paper testing physical properties) en sdlatlas.com/products/elmendorf-tearing-tester. Die les stuur 'n aparte, derde stuk hierheen, dus vernietig die proef niks wat later weer nodig is nie."
+    },
+    {
+      "bewering": "Tel twee ewe groot stukke op en voel watter een swaarder is.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Massa is 'n ekstensiewe eienskap (hang van hoeveelheid af) en digtheid intensief, daarom moet die twee stukke ewe groot wees voordat gewig iets oor die materiaal sê. sciencenotes.org/intensive-extensive-properties/. Die sin noem die groottevoorwaarde self."
+    },
+    {
+      "bewering": "Laat 'n druppel water op nog 'n stuk val en kyk of dit intrek.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dit is die standaard druppel-absorpsieproef: AATCC TM79 laat een druppel op die materiaal val en meet hoe lank dit neem om in te trek. dropletlab.com/industry-standards/aatcc-tm-79/ en manufacturingsolutionscenter.org/absorbency-testing.html."
+    },
+    {
+      "bewering": "Vergelyk stukke van dieselfde grootte wanneer jy optel, buig of trek.",
+      "blok": "Wat 'n eienskap is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Al drie is werklik grootte-afhanklik: massa skaal met volume (sciencenotes.org/intensive-extensive-properties/); buigstyfheid skaal met dikte tot die derde mag, I = bh^3/12 (en.wikipedia.org/wiki/Flexural_rigidity, sciencedirect.com/topics/engineering/bending-stiffness); breekkrag skaal met dwarssnitoppervlak (us.misumi-ec.com/blog/wire-rope-strength-chart/). Die beperking tot optel, buig en trek is korrek gestel."
+    },
+    {
+      "bewering": "Die wol op 'n skaap se lyf is sag onder jou hand.",
+      "blok": "Albei soorte materiaal het eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wolveseldeursnee bepaal die aanvoeling; merinovesel (ongeveer 17 tot 24 mikron) buig maklik teen die vel en voel sag, terwyl growwe vesel bo ongeveer 25 tot 30 mikron prikkel. woolmark.com/fibre/soft-merino-wool/ en woolmark.com/fibre/what-is-the-wool-fibre/."
+    },
+    {
+      "bewering": "Wol is onverwerkte materiaal en dit het sy eie eienskappe. Mense het die wol verander en daarom is lap verwerkte materiaal.",
+      "blok": "Albei soorte materiaal het eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Rouwol soos dit van die skaap kom is die grondstof; was, kaard, spin en weef is die menslike stappe wat lap maak. museum.wales/wool/about/the-process/ en woolmark.com/industry/product-development/wool-processing/."
+    },
+    {
+      "bewering": "Mense weef lap van daardie wol en die lap het ook eienskappe.",
+      "blok": "Albei soorte materiaal het eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die volle ketting is skeer, was, kaard, spin en dan weef; die les laat spin uit, maar die stelling dat mense lap van wol weef is korrek. museum.wales/wool/about/the-process/."
+    },
+    {
+      "bewering": "Hout, wol en klei kom net so uit die natuur.",
+      "blok": "Albei soorte materiaal het eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Hout kom van bome, wol van skape en klei uit die grond; al drie is natuurlike grondstowwe wat nie deur mense saamgestel is nie. museum.wales/wool/about/the-process/ en greenspec.co.uk/building-design/unfired-clay-bricks/."
+    },
+    {
+      "bewering": "Mense bak klei in 'n baie warm oond en dan is dit 'n baksteen.",
+      "blok": "Albei soorte materiaal het eienskappe",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Rou bakstene word in 'n oond by ongeveer 900 tot 1150 grade Celsius gebak. breathelife2030.org/wp-content/uploads/2016/09/12.pdf (Introduction to Brick Kilns) en sciencedirect.com/topics/engineering/clay-brickwork."
+    },
+    {
+      "bewering": "Daardie baksteen is verwerkte materiaal en nie meer natuurlike klei nie.",
+      "blok": "Albei soorte materiaal het eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Bak is 'n onomkeerbare verandering (vitrifikasie): die kleiminerale breek af en nuwe kristal- en glasfases vorm, sodat die gebakte materiaal nie weer klei kan word nie. thepotterywheel.com/what-happens-to-clay-when-it-is-fired/ en sciencedirect.com/topics/engineering/clay-brickwork."
+    },
+    {
+      "bewering": "Glas, papier, leer en lap is materiaal wat deur mense gemaak is.",
+      "blok": "Albei soorte materiaal het eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Glas word van sand, soda en kalk by 1500 tot 1600 grade gesmelt (scienceabc.com/innovation/how-is-glass-made); leer word van diervelle gelooi (conservation-wiki.com/wiki/BPG_Animal_Skin_and_Leather); papier word van houtpulp gemaak (nature.com/articles/s41598-022-05514-2); lap word van gare geweef (museum.wales/wool/about/the-process/). Die twee lyste in hierdie blok oorvleuel nie en bots dus nie."
+    },
+    {
+      "bewering": "Hard materiaal gee nie mee wanneer jy met jou duim daarop druk nie.",
+      "blok": "Hard of sag",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Hardheid word gedefinieer as weerstand teen indrukking deur 'n ander voorwerp. web.calce.umd.edu/TSFA/Hardness_ad_.htm en waykenrm.com/blogs/strength-vs-stiffness-vs-hardness/."
+    },
+    {
+      "bewering": "Druk op 'n droë stuk hout en jy maak geen duik daarin nie.",
+      "blok": "Hard of sag",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Duimdruk versprei ongeveer 50 N oor 'n paar vierkante sentimeter, dus minder as 0,2 MPa, terwyl selfs sagte den se drukvastheid dwars op die draad in die orde van megapascals is. wood-database.com/wood-articles/janka-hardness/ en en.wikipedia.org/wiki/Janka_hardness_test. Let wel: 'n vingernael kan sagte den merk (familyhandyman.com/article/what-is-the-janka-wood-hardness-scale/), maar die les skryf deurgaans die duim voor, nie die nael nie."
+    },
+    {
+      "bewering": "'n Gebakte baksteen gee ook nie onder jou duim mee nie.",
+      "blok": "Hard of sag",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Gebakte klei is 'n keramiek: hard en bros, met 'n hoë elastisiteitsmodulus en geen meegee onder handdruk nie. unsw.edu.au (School of Materials Science, Ceramics: Properties) en morgantechnicalceramics.com/en-gb/ceramics-101/mechanical-properties-of-ceramics/stiffness/."
+    },
+    {
+      "bewering": "Sag materiaal gee mee sodra jy met jou duim daarop druk.",
+      "blok": "Hard of sag",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die keersy van indrukweerstand: 'n sagte, saamdrukbare materiaal vervorm onder lae druk, en dit is wat saamdrukproewe as 'saamdrukbaarheid' meet. sciencedirect.com/topics/engineering/fabric-softness."
+    },
+    {
+      "bewering": "Druk jou hand in 'n bondel wol en die wol gee dadelik pad.",
+      "blok": "Hard of sag",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Saamdrukbaarheid van 'n wolbondel is presies wat saamdrukproewe meet (dikteverskil onder toenemende druk); lugtige vesels gee die grootste saamdrukbaarheid. sciencedirect.com/topics/engineering/fabric-softness. Let wel: hierdie proef gebruik die hand terwyl elke ander hard-of-sag-proef in die les die duim gebruik; die hand versprei die krag oor 'n groter area, dus bly die waarneming geldig."
+    },
+    {
+      "bewering": "Vou 'n katoenlap tot 'n dik bondel op die tafel. Druk met jou duim daarop en die dik lap gee mee.",
+      "blok": "Hard of sag",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vars nagegaan. Die proef werk nou soos beskryf en stem ooreen met werklike sagtheidstoetse: lae lap word op mekaar gestapel, op 'n harde aambeeld geplaas en 'n drukvoet meet die dikteverskil onder las. sciencedirect.com/topics/engineering/fabric-softness (saamdrukbaarheid, TMAX, gestapelde lae). Die dik bondel en die tafel is albei nodig, want 'n dun monster op 'n harde ondergrond lees hard af (aambeeldeffek): emcotest.com/en/the-world-of-hardness-testing/hardness-know-how/applications-tips/general-tips/rockwell-method-minimum-specimen-thickness/ en gearsolutions.com/features/common-pitfalls-in-hardness-testing/. Een kind kan vou en druk, die tafel word as die stilstaande vlak genoem, en die les beweer nie meer dat lap en wol ewe maklik meegee nie (wol is inderdaad lugtiger en meer saamdrukbaar)."
+    },
+    {
+      "bewering": "By hard of sag maak die grootte niks saak nie.",
+      "blok": "Hard of sag",
+      "status": "weerspreek",
+      "tipe": "superlatief",
+      "bron": "Hardheid as materiaaleienskap is inderdaad intensief en hang nie van die grootte van die stuk af nie (sciencenotes.org/intensive-extensive-properties/, ck12.org). Maar as onvoorwaardelike reël oor hard OF sag is dit vals, en die les se eie proef twee sinne vroeër weerspreek dit: die lap moet eers tot 'n DIK bondel gevou word voordat die duim die meegee kan voel. 'n Te dun monster op 'n harde ondergrond lees hard af, want die vervorming loop in die ondergrond vas (aambeeldeffek; vuisreël: monsterdikte minstens tien keer die indrukdiepte). emcotest.com/en/the-world-of-hardness-testing/hardness-know-how/applications-tips/general-tips/rockwell-method-minimum-specimen-thickness/, sciencedirect.com/science/article/pii/S2351978915010720 en sciencedirect.com/topics/engineering/fabric-softness (saamdrukking word as dikteverskil gemeet, dus gee 'n dikker bondel meer sigbare meegee).",
+      "regstelling": "Beperk die stelling tot die materiaal se hardheid en behou die diktevoorwaarde vir sagte materiaal, byvoorbeeld: 'Hoe hard 'n materiaal is, hang nie van die grootte van die stuk af nie. 'n Klein stukkie droë hout is net so hard as 'n groot plank. By sagte materiaal soos lap moet die stuk wel dik genoeg wees voordat jy die meegee kan voel, en daarom vou jy die lap tot 'n dik bondel.'"
+    },
+    {
+      "bewering": "'n Klein stukkie droë hout is net so hard as 'n groot plank.",
+      "blok": "Hard of sag",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Hardheid is 'n intensiewe eienskap: 'n klein hoeveelheid van 'n stof het dieselfde hardheid as 'n groot hoeveelheid. sciencenotes.org/intensive-extensive-properties/ en ck12.org (hardheid is nie 'n ekstensiewe eienskap nie). Janka-waardes word per houtsoort gegee, nie per stukgrootte nie: en.wikipedia.org/wiki/Janka_hardness_test."
+    },
+    {
+      "bewering": "Styf materiaal hou sy eie vorm en buig nie onder jou hande nie.",
+      "blok": "Styf of buigbaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Styfheid is weerstand teen vervorming: hoe hoër die styfheid, hoe meer krag is nodig om die vorm te verander. waykenrm.com/blogs/strength-vs-stiffness-vs-hardness/ en rapiddirect.com/blog/stiffness-of-material/."
+    },
+    {
+      "bewering": "Hou 'n dik stuk droë hout aan albei kante vas en buig dit. Die hout bly reguit en gee nie mee nie.",
+      "blok": "Styf of buigbaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Buigstyfheid is EI en I skaal met dikte tot die derde mag, dus is 'n dik stuk hout met die hand prakties onbuigbaar. en.wikipedia.org/wiki/Flexural_rigidity en sciencedirect.com/topics/engineering/bending-stiffness. Die woord 'dik' staan in dieselfde sin, dus word die groottevoorwaarde genoem. Een kind, twee hande."
+    },
+    {
+      "bewering": "'n Keramiekbord is ook styf en hy hou sy eie plat vorm.",
+      "blok": "Styf of buigbaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Keramiek se elastisiteitsmodulus is gewoonlik hoër as dié van metale, dus baie styf en sonder sigbare vervorming. unsw.edu.au (Ceramics: Properties) en morgantechnicalceramics.com/en-gb/ceramics-101/mechanical-properties-of-ceramics/stiffness/."
+    },
+    {
+      "bewering": "Buigbaar materiaal gaan krom onder jou hande sonder dat dit breek.",
+      "blok": "Styf of buigbaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Materiaal met lae styfheid en hoë rekbaarheid vervorm sonder om te breek; leer se rek by breek is meer as 30 persent. testextextile.com/tensile-strength-of-leather-standards-and-testing/ en blog.cambridgecoaching.com/whats-the-difference-between-stiff-strong-and-tough."
+    },
+    {
+      "bewering": "Buig 'n leerriem in 'n boog en die riem volg sommer jou hande.",
+      "blok": "Styf of buigbaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Leer is 'n dun, soepel veselnetwerk met lae buigstyfheid en groot rek voor breek. testextextile.com/tensile-strength-of-leather-standards-and-testing/. Een kind, twee hande; die riem bly heel en is dus nog beskikbaar vir die trekproef later in die les."
+    },
+    {
+      "bewering": "'n Dun plastieksak buig net so maklik in jou vuis.",
+      "blok": "Styf of buigbaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Buigstyfheid skaal met dikte tot die derde mag, dus het 'n film van 'n paar honderdstes van 'n millimeter byna geen buigweerstand nie. en.wikipedia.org/wiki/Flexural_rigidity."
+    },
+    {
+      "bewering": "'n Dik stuk van dieselfde plastiek buig nie so maklik soos die sak nie. Daardie stuk is bloot dikker en die dikte maak die verskil.",
+      "blok": "Styf of buigbaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vars nagegaan (nie oorgedra nie), want dit dra die grootte-reël: I = bh^3/12, dus gee dubbel die dikte agt keer die buigstyfheid by dieselfde materiaal. en.wikipedia.org/wiki/Flexural_rigidity en sciencedirect.com/topics/engineering/bending-stiffness ('styfheid hang van die materiaal én die vorm af'). Die sin sê self dat dit dieselfde plastiek is."
+    },
+    {
+      "bewering": "Sterk materiaal hou heel wanneer jy daaraan trek of daaraan skeur.",
+      "blok": "Sterk of swak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Sterkte is die spanning wat 'n materiaal kan dra voordat dit permanent vervorm of breek. waykenrm.com/blogs/strength-vs-stiffness-vs-hardness/ en rapiddirect.com/blog/stiffness-of-material/. Die definisie noem albei instrumente (trek en skeur) wat die blok daarna gebruik."
+    },
+    {
+      "bewering": "Vat 'n leerriem aan albei punte en trek met al jou krag. Die riem bly heel en jy kry hom nie stukkend nie.",
+      "blok": "Sterk of swak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Leer se treksterkte is ongeveer 8 tot 25 MPa (party bronne tot 50 MPa); 'n riem van ongeveer 30 mm breed en 3 mm dik het dus 'n breekkrag in die orde van 800 tot 2000 N, ver bo wat 'n kind kan trek. testextextile.com/tensile-strength-of-leather-standards-and-testing/ en researchgate.net (Tensile Properties of Leather Samples, ASTM D2208). Een kind, twee hande."
+    },
+    {
+      "bewering": "Skeur 'n bladsy papier van die rand af en dit gaan maklik in twee.",
+      "blok": "Sterk of swak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Papier is 'n dun sellulose-veselvel met lae skeurweerstand (in millinewton gemeet), en 'n skeur wat by die rand begin, plant maklik voort. smithers.com (Tear Strength, paper testing physical properties) en nature.com/articles/s41598-022-05514-2. Die bladsy word vernietig, maar papier word nêrens anders in die les gebruik nie."
+    },
+    {
+      "bewering": "Droë hout is ook sterk en jy skeur dit nie met jou hande nie.",
+      "blok": "Sterk of swak",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "Die stelling is waar vir 'n gewone dik stuk, maar nie vir hout in die algemeen nie: breekkrag skaal met dwarssnitoppervlak, dus breek 'n dun houtstrokie, roomyslepel of vuurhoutjie sommer in die hand. us.misumi-ec.com/blog/wire-rope-strength-chart/ (breekkrag eweredig aan dwarssnit) en sciencedirect.com/topics/engineering/bending-stiffness. Die les self eis 'stukke van dieselfde grootte wanneer jy optel, buig of trek', en die buurblok skryf noukeurig ''n dik stuk droë hout'; hierdie sin het daardie helfte van die voorwaarde verloor.",
+      "regstelling": "Skryf die diktevoorwaarde terug in dieselfde sin, soos die styfblok dit doen: ''n Dik stuk droë hout is ook sterk en jy skeur dit nie met jou hande nie.'"
+    },
+    {
+      "bewering": "Styf en sterk is nie dieselfde eienskap nie.",
+      "blok": "Sterk of swak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Sterkte en styfheid is nie direk verwant nie: 'n materiaal kan styf wees sonder om sterk te wees en omgekeerd. waykenrm.com/blogs/strength-vs-stiffness-vs-hardness/ en blog.cambridgecoaching.com/whats-the-difference-between-stiff-strong-and-tough."
+    },
+    {
+      "bewering": "Glas is styf en tog kan dit breek wanneer 'n bal daarteen slaan.",
+      "blok": "Sterk of swak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vars nagegaan. Glas is styf (Young-modulus ongeveer 70 GPa) maar bros: dit vervorm nie noemenswaardig nie en breek skielik. lehigh.edu/imi/teched/GlassProp/Slides/GlassProp_Lecture12_Mecholsky.pdf en unsw.edu.au (Ceramics: Properties). Dit is 'n illustrasie, nie 'n proef wat 'n kind moet doen nie, en dit bots nie met die laaste blok se glasruit nie."
+    },
+    {
+      "bewering": "'n Leerriem buig maklik en tog hou hy al jou krag uit.",
+      "blok": "Sterk of swak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Leer het lae buigstyfheid maar 'n treksterkte van ongeveer 8 tot 25 MPa met meer as 30 persent rek voor breek, dus buigbaar en sterk tegelyk. testextextile.com/tensile-strength-of-leather-standards-and-testing/."
+    },
+    {
+      "bewering": "Lig en swaar vertel jou hoe swaar 'n stuk materiaal in jou hand voel.",
+      "blok": "Lig of swaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Korrek gestel as 'n gewaarwording van gewig, en die blok koppel dit onmiddellik aan ewe groot stukke, wat die stap na digtheid geldig maak. sciencenotes.org/intensive-extensive-properties/ (massa ekstensief, digtheid intensief)."
+    },
+    {
+      "bewering": "Vat 'n blok hout in een hand en 'n ewe groot baksteen in die ander.",
+      "blok": "Lig of swaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Uitvoerbaar vir een kind met twee hande: die Suid-Afrikaanse standaardbaksteen (222 x 106 x 73 mm) weeg tussen ongeveer 2,4 kg en 3,5 kg. claybricksa.co.za/content/how-many-types-clay-brick-are-there (Klei-Baksteenvereniging van Suider-Afrika). Die groottevoorwaarde 'ewe groot' staan in dieselfde sin."
+    },
+    {
+      "bewering": "Die baksteen trek jou hand af en die hout voel lig daarnaas.",
+      "blok": "Lig of swaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Gebakte klei se digtheid is ongeveer 1500 tot 2000 kg/m3 teenoor den se ongeveer 350 tot 600 kg/m3, dus is die baksteen by dieselfde grootte drie tot vier keer swaarder. civiltoday.com/civil-engineering-materials/brick/156-density-of-brick en wood-database.com."
+    },
+    {
+      "bewering": "Hout is dus ligter as gebakte klei van dieselfde grootte.",
+      "blok": "Lig of swaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Geld selfs vir die swaarste houtsoorte: swart ysterhout ongeveer 1355 kg/m3 en pokhout 1230 tot 1370 kg/m3, steeds onder gebakte klei se 1500 tot 2000 kg/m3. wood-database.com/black-ironwood/ en civiltoday.com/civil-engineering-materials/brick/156-density-of-brick. Die algemene stelling hou dus."
+    },
+    {
+      "bewering": "Hard beteken nie swaar nie en daardie blok hout wys dit. Die hout is hard onder jou duim en tog voel dit lig.",
+      "blok": "Lig of swaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vars nagegaan in sy nuwe posisie aan die einde van die lig-of-swaar-blok. Hardheid (indrukweerstand) en digtheid is twee afsonderlike eienskappe, en die voorbeeld is geldig omdat dieselfde blok hout in albei proewe gebruik word en die duim deurgaans die hardheidsinstrument is. sciencenotes.org/intensive-extensive-properties/ en waykenrm.com/blogs/strength-vs-stiffness-vs-hardness/. Die hout is heel na die vroeëre druk-, buig- en skeurproewe."
+    },
+    {
+      "bewering": "'n Groot plank hout is swaarder as 'n klein stukkie gebakte klei.",
+      "blok": "Lig of swaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Massa is ekstensief: 'n plank van selfs 0,02 m3 den weeg ongeveer 10 kg teenoor 'n klein stukkie baksteen van 'n paar honderd gram. sciencenotes.org/intensive-extensive-properties/ en civiltoday.com/civil-engineering-materials/brick/156-density-of-brick."
+    },
+    {
+      "bewering": "Daardie plank is bloot groter en hy vertel jou niks oor die materiaal nie.",
+      "blok": "Lig of swaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Korrek: 'n gewigsvergelyking tussen stukke van verskillende grootte sê niks oor digtheid nie, want massa hang van die hoeveelheid af. sciencenotes.org/intensive-extensive-properties/."
+    },
+    {
+      "bewering": "Vergelyk dus altyd stukke wat ewe groot is.",
+      "blok": "Lig of swaar",
+      "status": "weerspreek",
+      "tipe": "superlatief",
+      "bron": "Die 'altyd' is onbeperk en die les weerspreek dit self twee keer: 'By hard of sag maak die grootte niks saak nie' en ''n Klein lappie suig net so goed in as 'n groot lap'. Fisies is dit ook nie waar nie: hardheid en absorpsie is intensiewe eienskappe (sciencenotes.org/intensive-extensive-properties/, ck12.org, dropletlab.com/industry-standards/aatcc-tm-79/), terwyl slegs optel, buig en trek grootte-afhanklik is (en.wikipedia.org/wiki/Flexural_rigidity, us.misumi-ec.com/blog/wire-rope-strength-chart/). Die inleidingsblok stel dieselfde reël wél korrek beperk.",
+      "regstelling": "Bind die reël aan die proef waaroor die blok handel: 'Vergelyk dus altyd stukke wat ewe groot is wanneer jy hulle optel.'"
+    },
+    {
+      "bewering": "Waterdig materiaal laat nie water na die ander kant deur nie.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Ooreenstemmend met die standaarddefinisie van waterdigtheid as ondeurlaatbaarheid vir water. pmc.ncbi.nlm.nih.gov/articles/PMC11479018/ (Water Repellent Coating in Textile, Paper and Bioplastic Polymers)."
+    },
+    {
+      "bewering": "Laat 'n druppel water op 'n plastiekemmer val. Die druppel loop by die buitekant af en die emmer word daar nat.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Poliëtileen en polipropileen, waarvan emmers gemaak word, is van nature hidrofobies, dus vorm die druppel 'n bolletjie en loop af sonder om in te trek. sciencedirect.com/topics/engineering/repellent-fabric en pmc.ncbi.nlm.nih.gov/articles/PMC11479018/. Een kind kan dit doen; die emmer staan stil."
+    },
+    {
+      "bewering": "Wat binne die emmer is, bly droog en dit is wat waterdig beteken.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die plastiekwand is ondeurlaatbaar, dus bly die binnekant droog al is die buitekant nat. pmc.ncbi.nlm.nih.gov/articles/PMC11479018/."
+    },
+    {
+      "bewering": "'n Glasbottel hou water op dieselfde manier binne.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Soda-kalkglas is nie-poreus en die kalk verseker juis dat die glas nie in water oplos nie. scienceabc.com/innovation/how-is-glass-made en wakefieldequipment.com/how-is-glass-made/."
+    },
+    {
+      "bewering": "Absorberend materiaal trek water by homself in en hou dit vas.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Absorpsie is die opname en vashou van vloeistof deur die materiaal self. sciencedirect.com/topics/engineering/absorbency en manufacturingsolutionscenter.org/absorbency-testing.html."
+    },
+    {
+      "bewering": "Laat 'n druppel op 'n katoenlap val en die lap suig hom in.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Katoen is hidrofilies; gewone katoenlap se waterabsorpsie word op ongeveer 108 persent van sy droë massa gemeet, en in die AATCC TM79-druppelproef verdwyn die druppel in sekondes. sciencedirect.com/topics/engineering/repellent-fabric en dropletlab.com/industry-standards/aatcc-tm-79/. Die lap is nog heel na die vou-en-druk-proef vroeër in die les, en die druppel is deurgaans dieselfde instrument vir hierdie eienskap."
+    },
+    {
+      "bewering": "'n Klein lappie suig net so goed in as 'n groot lap.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vars nagegaan. Albei maatstawwe van absorpsie is grootte-onafhanklik: die AATCC TM79-druppelproef meet die tyd wat een druppel neem om in te trek (dropletlab.com/industry-standards/aatcc-tm-79/), en absorpsie word andersins as persentasie van die droë massa uitgedruk (theconstructor.org/practical-guide/water-absorption-test-on-bricks/2796/, sciencedirect.com/topics/engineering/absorbency). Wat wél met grootte skaal, is die totale hoeveelheid water wat 'n lap kan hou; die sin praat egter van hoe goed die druppel intrek, nie van hoeveel water die lap kan opneem nie, en die druppelproef in dieselfde blok hou daardie betekenis vas."
+    },
+    {
+      "bewering": "Ongebakte klei suig water in en word sag daarvan.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Kleiminerale is higroskopies, absorbeer water vinnig, en ongebakte klei of modderstene versag en verloor sterkte wanneer hulle nat word. greenspec.co.uk/building-design/unfired-clay-bricks/ en en.wikipedia.org/wiki/Mudbrick."
+    },
+    {
+      "bewering": "'n Gebakte baksteen suig water ook in en tog bly hy hard.",
+      "blok": "Waterdig of absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vars nagegaan. Gebakte bakstene is poreus en absorbeer water (standaardtoets: eersteklas nie meer as 15 persent van die droë massa nie, tweedeklas 20 persent), maar na die bak is die baksteen hard en versag dit nie in water nie. theconstructor.org/practical-guide/water-absorption-test-on-bricks/2796/ en endeavourcentre.org (Fired clay brick: 'the clay brick is hard and will not soften when it reacts with water')."
+    },
+    {
+      "bewering": "Een materiaal het gewoonlik verskeie van hierdie eienskappe gelyk.",
+      "blok": "Een materiaal met verskeie eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Elke materiaal het gelyktydig 'n waarde vir hardheid, styfheid, sterkte, digtheid en waterabsorpsie; dit is presies hoe materiaaleienskappe getabelleer word. waykenrm.com/blogs/strength-vs-stiffness-vs-hardness/ en unsw.edu.au (Ceramics: Properties). Die woord 'gewoonlik' maak die stelling nie te sterk nie."
+    },
+    {
+      "bewering": "Die glas is hard en dit gee nie onder jou duim mee nie.",
+      "blok": "Een materiaal met verskeie eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vensterglas is hard en bros en vervorm nie onder handdruk nie. lehigh.edu/imi/teched/GlassProp/Slides/GlassProp_Lecture12_Mecholsky.pdf en unsw.edu.au (Ceramics: Properties). Dieselfde duim-instrument as die res van die les."
+    },
+    {
+      "bewering": "Die glas is styf en die glasruit hou sy eie plat vorm.",
+      "blok": "Een materiaal met verskeie eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Glas se Young-modulus is ongeveer 70 GPa, dus baie styf. lehigh.edu/imi/teched/GlassProp/Slides/GlassProp_Lecture12_Mecholsky.pdf."
+    },
+    {
+      "bewering": "Die glas is waterdig en die reën loop aan die buitekant af.",
+      "blok": "Een materiaal met verskeie eienskappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Soda-kalkglas is nie-poreus en los nie in water op nie, dus loop reën aan die buitekant af. scienceabc.com/innovation/how-is-glass-made. Die blok noem glas hard, styf en waterdig, nie sterk nie, dus bots dit nie met die vroeëre stelling dat glas kan breek nie."
+    },
+    {
+      "bewering": "eienskap: Hoe 'n materiaal is, byvoorbeeld hard, buigbaar of waterdig.",
+      "blok": "begrip: eienskap",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Stem ooreen met die standaardomskrywing van 'n fisiese eienskap as 'n kenmerk van die stof self. sciencenotes.org/intensive-extensive-properties/."
+    },
+    {
+      "bewering": "styf: Materiaal wat sy vorm hou en nie maklik buig nie.",
+      "blok": "begrip: styf",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Styfheid is weerstand teen vervorming. waykenrm.com/blogs/strength-vs-stiffness-vs-hardness/ en rapiddirect.com/blog/stiffness-of-material/. Die definisie hou styf en sterk korrek uitmekaar."
+    },
+    {
+      "bewering": "buigbaar: Materiaal wat krom gaan onder jou hande sonder om te breek.",
+      "blok": "begrip: buigbaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Buigbaarheid is vervorming sonder breuk, teenoor bros materiaal wat sonder merkbare vervorming breek. blog.cambridgecoaching.com/whats-the-difference-between-stiff-strong-and-tough en unsw.edu.au (Ceramics: Properties)."
+    },
+    {
+      "bewering": "waterdig: Materiaal wat nie water deurlaat nie en die ander kant droog hou.",
+      "blok": "begrip: waterdig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Ooreenstemmend met waterdigtheid as ondeurlaatbaarheid vir water. pmc.ncbi.nlm.nih.gov/articles/PMC11479018/."
+    },
+    {
+      "bewering": "absorberend: Materiaal wat water by homself intrek en dan nat word.",
+      "blok": "begrip: absorberend",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Ooreenstemmend met absorpsie as opname en behoud van vloeistof deur die materiaal. sciencedirect.com/topics/engineering/absorbency."
+    },
+    {
+      "bewering": "onverwerkte materiaal: Materiaal wat mense net so in die natuur kry.",
+      "blok": "begrip: onverwerkte materiaal",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Stem ooreen met die gangbare onderskeid tussen natuurlike grondstowwe en verwerkte materiaal. museum.wales/wool/about/the-process/ en greenspec.co.uk/building-design/unfired-clay-bricks/."
+    },
+    {
+      "bewering": "verwerkte materiaal: Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "blok": "begrip: verwerkte materiaal",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Bak verander klei se eienskappe onomkeerbaar en looi verander vel in leer; die definisie beskryf dit korrek. thepotterywheel.com/what-happens-to-clay-when-it-is-fired/ en conservation-wiki.com/wiki/BPG_Animal_Skin_and_Leather."
+    },
+    {
+      "bewering": "Oortreffende trappe: die les bevat geen 'eerste', 'oudste', 'grootste', 'vinnigste' of 'enigste' nie; die naaste is die absolute reëls 'By hard of sag maak die grootte niks saak nie' en 'Vergelyk dus altyd stukke wat ewe groot is'.",
+      "blok": "hele les",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Woord-vir-woord deurlees van al agt studieblokke en sewe begripblokke. Al die vergelykings is trappe van vergelyking ('ligter', 'swaarder', 'dikker', 'net so hard as'), nie oortreffende trappe nie. Die twee absolute reëls is hierbo afsonderlik as 'weerspreek' aangemeld."
+    },
+    {
+      "bewering": "Analogieë: die les bevat geen eli10-blok en geen uitgewerkte analogie nie.",
+      "blok": "hele les",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Deurlees van al 15 blokke. Die enigste vergelykings is direkte gelyksoortige vergelykings van dieselfde eienskap ('net so hard as 'n groot plank', 'buig nie so maklik soos die sak nie'), wat as eienskapsvergelykings nagegaan is en nie as beeldspraak nie. Daar is dus geen analogie-afbeelding wat 'n leerder verder verkeerd kan lei nie."
+    }
+  ],
+  "opsomming": "Die herskryfde sagtheidsproef op die katoenlap werk nou soos beskryf en die ewe-groot-reël is fisies korrek waar sy beperk gestel word, maar drie stellings is te algemeen: 'By hard of sag maak die grootte niks saak nie' (die les se eie lap moet eers 'n DIK bondel wees voordat die duim meegee voel), 'Vergelyk dus altyd stukke wat ewe groot is' (weerspreek die les se eie twee uitsonderings) en 'Droë hout is ook sterk en jy skeur dit nie met jou hande nie' (het die woord 'dik' verloor wat die buurblok wel het)."
 }
