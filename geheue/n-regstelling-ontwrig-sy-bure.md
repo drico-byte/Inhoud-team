@@ -95,3 +95,10 @@ Grade 4 NWT paths, for reference:
 And when the writer could not do it, the coverage checker can — it reads whatever paths
 it is given. Hand the cross-check downstream rather than losing it.
 
+**Give the report path too.** Twice on 2026-08-25 a coverage checker had no output path
+in its brief and chose one — `.../nasien/les-1-dekking.json` once and
+`.../verslae/les-1-dekking.json` once. The runner reads only
+`<lesson-dir>/les-N.dekking.json`, so both had to be moved by hand before the verdict
+could be read. Every checker brief needs the output path spelled out, the same as the
+inputs.
+
