@@ -26,4 +26,5 @@
 - [Practical work: we teach the thinking](praktiese-werk-ons-leer-die-denke.md) — the theory a making task tests is ours; the making is not, and interactivity is the layout team's bonus.
 - [Tell the story, don't explain it](vertel-die-storie-moenie-dit-verklaar-nie.md) — cultural stories get told, not dissected; ~100 words each, and the count is set by what is verifiable.
 - [Before stopping, say what is running](voor-jy-stop-se-wat-loop.md) — report how close each agent is first; never kill a long fact check without asking.
-- [A report does not exist because the agent says so](n-verslag-bestaan-nie-omdat-die-agent-so-se.md) — verify the file landed, and copy the runner's own printed paths instead of typing them.
+- [A report does not exist because the agent says so](n-verslag-bestaan-nie-omdat-die-agent-so-se.md) — copy the runner's own printed paths instead of typing them; a missing report is not proof the checker misplaced it.
+- [State that never got saved](staat-wat-nie-gestoor-word-nie.md) — the runner deleted every coverage report forever; when a step demands work already done, check the fingerprint, and suspect the harness before the agents.

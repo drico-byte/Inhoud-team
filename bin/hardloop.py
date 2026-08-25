@@ -530,7 +530,16 @@ def stap(a, uit):
         os.remove(P.dekking_verslag(les_pad))
         uit.step("coverage report", "STALE",
                  ["the spec entry changed — coverage must be checked again"])
-    staat["spek_hash"] = spek_h
+    if staat.get("spek_hash") != spek_h:
+        # Assigning this was never enough. `staat` reaches disk only through
+        # teken_op, and a run that ends at WAG_VIR_NASIENERS records no event —
+        # which is exactly the run that gets here. So the new hash was forgotten
+        # every time, the next run saw the same mismatch, and it deleted the
+        # coverage report the checker had just written. A lesson whose spec had
+        # ever been edited could therefore never be approved: two full checker
+        # runs went into one lesson before the loop showed itself. Persist it.
+        staat["spek_hash"] = spek_h
+        P.skryf_json(staat_pad, staat)
 
     if les.get("herkoms", {}).get("handboek_gesien") is not False:
         raise Refuse(
