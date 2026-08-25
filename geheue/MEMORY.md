@@ -28,3 +28,5 @@
 - [Before stopping, say what is running](voor-jy-stop-se-wat-loop.md) — report how close each agent is first; never kill a long fact check without asking.
 - [A report does not exist because the agent says so](n-verslag-bestaan-nie-omdat-die-agent-so-se.md) — copy the runner's own printed paths instead of typing them; a missing report is not proof the checker misplaced it.
 - [State that never got saved](staat-wat-nie-gestoor-word-nie.md) — the runner deleted every coverage report forever; when a step demands work already done, check the fingerprint, and suspect the harness before the agents.
+- [Ask the whole subject, not three lessons](vra-die-hele-vak-nie-drie-lesse-nie.md) — I called content new after checking a shortlist; two delivered lessons already taught it.
+- [Don't take a fix further than the finding](moenie-n-regstelling-verder-vat-as-die-bevinding-nie.md) — I turned a two-pair rule into a general one; it isn't, and the lesson broke it a block later.

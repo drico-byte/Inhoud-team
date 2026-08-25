@@ -1,0 +1,302 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 4,
+  "kwartaal": 3,
+  "kaps_onderwerp": "Energie en Verandering",
+  "kaps_onderwerp_nota": "KABV se Graad 4 Kwartaal 3 kennisafdeling dra twee opskrifte: 'NATUURWETENSKAPPE: ENERGIE EN VERANDERING' en 'TEGNOLOGIE: STELSELS EN BEHEER'. Hierdie subonderwerp val heeltemal onder die eerste een: daar is niks in sy twee inhoudspunte wat 'n stelsel of beheer raak nie. Ons hou 'Energie en Verandering' as die etiket, dieselfde as kaps/gr4-nwt-kw3.json.",
+  "kaps_subonderwerp": "Energie en Energie-oordrag",
+  "kaps_ure": 8,
+  "kaps_ure_nota": "Slegs inligting. Kontakure word nooit in begrotingsrekenkunde gebruik nie, en niks in hierdie spesifikasie is uit hierdie getal afgelei nie. Die 2 weke (8 uur) staan in KABV teenoor hierdie subonderwerp se twee inhoudspunte saam.",
+  "kaps_ure_waarskuwing": "Die uur-toekenning is hier besonder verleidelik, want die meting is 0 en 'n mens wat 'n getal soek, gryp na die enigste getal wat KABV gee. 8 uur teen enige woorde-per-uur-koers maak hierdie twee lesse 'n paar keer te groot. 'n Groot deel van die toekenning is boonop klaswerk wat 'n teks nie kan doen nie: dinge identifiseer, en 'n energieketting teken met pyle daarop.",
+  "kaps_setfoute": {
+    "nota": "Twee setfoute in die KABV-dokument self, deur Drico uitgewys en hier aangeteken eerder as stilweg regemaak. Albei is in hierdie spesifikasie reggestel; die kaps_punt-aanhalings hieronder dra die regstelling, nie die setfout nie.",
+    "foute": [
+      "KABV druk 'ons gebruik e nergie vir alles wat ons doen' met 'n spasie binne die woord energie. Reg: 'energie'.",
+      "KABV druk 'leweprossse' in die eerste voorgestelde aktiwiteit. Reg: 'lewensprosesse'. Dit is die staande KABV-term, en dit is in hierdie bewaarplek onafhanklik bevestig: Termyn 1 se eerste subonderwerp noem die sewe by die naam, en 'lewensprosesse' het reeds twee goedgekeurde begrip-inskrywings in gelewerde Graad 4-lesse."
+    ]
+  },
+  "fokusvraag": "Waarvoor gebruik lewende dinge energie, en langs watter pad kom daardie energie by hulle uit?",
+  "fokusvraag_nota": "Deur die beplanner gestel, want KABV Natuurwetenskappe en Tegnologie stel nie 'n fokusvraag soos Sosiale Wetenskappe nie. Dieselfde besluit as Kwartaal 1 en Kwartaal 2. Die vraag is doelbewus klein en op kennis gerig, en dit verdeel skoon oor die twee lesse langs die naat wat KABV self trek: les 18 lewer die 'waarvoor', plus die feit dat die energie in ons kos van die son kom; les 19 lewer die 'pad' as 'n ketting in volgorde, met rigting. Geen les word gevra om albei helftes te dra nie.",
+  "profiel_konfig": "gr4-nwt-kw3-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "GEMEET, en die meting is 0. Die profiler se inskrywing vir hierdie subonderwerp is 0 bladsye en 0 woorde. Die handboek se Kwartaal 3 is 'n lug-en-wind-hoofstuk plus 'n klank-hoofstuk; energie vir lewe en die energie-/voedselketting kom in nie een van hulle voor. Hierdie 0 is dus nie 'n klein getal wat gedeel kan word nie, dit is die afwesigheid van 'n anker. Dit staan hier as herkoms sodat 'n leser kan sien dat daar gemeet is en wat gevind is. Dit is NIE die basis vir die begroting nie - sien begroting_basis_nota.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "0 gedeel deur 2 is geen begroting nie, dus is die basis 'vereistes'. Pariteit met die kwartaal se ander lesse is oorweeg en verwerp: die ander drie subonderwerpe se getalle kom uit hulle EIE gemete bladsye, en om 574 of 540 hierheen te dra sou 'n getal wees wat oor niks gemeet is nie. Die begroting kom dus uit die aantal dinge om te leer, teen 'n woorde-per-vereiste-koers wat uit ONS EIE gelewerde Graad 4-lesse kom (daardie lesse loop tussen ongeveer 31 en 97 woorde per kern-inskrywing, na gelang van of die inskrywing 'n naam met een detail is of 'n meganisme). Les 18: ses kern-inskrywings teen gemiddeld 70 woorde = 420, plus 40 vir die een aanvulling = 460. Les 19: sewe kern-inskrywings teen gemiddeld 71 woorde = 500, geen aanvulling. Elke les se eie afleiding staan in sy begrotingsnota. Ewe verdeling geld hier nie en word nie afgedwing nie: les 19 is die GROTER les hoewel dit een inhoudspunt teen les 18 se drie dra, omdat les 19 die hele geassesseerde uitkoms dra - die ketting in volgorde, met rigting - en omdat die rigting die enkele deel is wat die maklikste verkeerd land en dus die grootste enkele aandeel kry. Die totaal van 960 IS NIE 'N METING NIE en mag nerens as een aangehaal word nie.",
+  "totale_begroting": 960,
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument (Natuurwetenskappe en Tegnologie Graad 4-6: die Graad 4 Termyn 3 inhoudstabel en die kwartaal se assesseringsriglyne), soos woordeliks aan die beplanner gegee, plus die profiler se getalle uit gr4-nwt-kw3-profiel.json en die begrotingsbesluite in kaps/gr4-nwt-kw3.json. Ook nagegaan, omdat hierdie lesse daarop bou en dit nie mag weerspreek nie: die goedgekeurde spesifikasies en die gelewerde lesse van Termyn 1 ('Lewende en nie-lewende dinge' les 1 en 2, 'Strukture van plante en diere' les 1, 'Wat plante nodig het om te groei' les 1), die goedgekeurde spesifikasie 'Sterk raamstrukture' as die vorm-presedent vir 'n vereistes-begroting, kaps/lesindeks/gr4-natuurwetenskappe-en-tegnologie.json vir die jaar se lesnommers, en kaps/aanvaarde-woordelysverskille.json. Dit is alles ons eie inhoud.",
+    "handboek_nota": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset of beskrywing van 'n handboek se indeling het enige deel van hierdie beplanning ingelig. Die bewaarplek bevat wel uitgetrekte brontekste onder 'lees/'; daardie leers is nie oopgemaak nie en mag nie deur die skrywer oopgemaak word nie. Die profielkonfigurasie en die kaps-leer se bladsykaart is vir die GETALLE alleen gebruik; hulle notas beskryf die bron se eie afdelingsvolgorde en is doelbewus nie as struktuurleiding gelees nie. Die verdeling in twee lesse kom van KABV se twee inhoudspunte. Vir hierdie subonderwerp is die punt boonop leeg: die bron dek dit glad nie, dus was daar niks om per ongeluk na te volg nie.",
+    "register_steekproef_kwartaal_3": "Die profiler se steekproef oor hierdie kwartaal se bronbladsye: 6 778 woorde, 1.50 sillabes per woord, 11.0% woorde van 3+ sillabes, 4.5% woorde oor 10 letters. Slegs herkoms. Ons skryf na die Graad 4-6-band, nie na die bron toe nie - sien registerbesluit."
+  },
+  "verdeling_nota": {
+    "besluit": "Twee lesse, een per KABV-inhoudspunt. Dit is die verstekreel en dit hou hier. Die twee lesse is Drico se lesnommers 18 en 19; die nommers loop deurlopend deur die jaar en nie per kwartaal nie.",
+    "hoekom_nie_vier_lesse_nie": "KABV se eerste inhoudspunt ('Energie vir lewe') dra drie bullets en die tweede ('Energie van die Son') dra een. Vier lesse is oorweeg en verwerp. Die skeurreel vra vier of meer WERKLIK aparte items; punt 1 se drie bullets is nie drie items nie, hulle is drie trappe van een bewering ('ons gebruik energie' -> 'ons kry dit uit kos' -> 'daardie kos se energie kom van die son'). 'n Skeur sou die bewering in die middel afkap, en die derde trap sou 'n eie les kry wat regs teenaan les 19 staan, wat presies dieselfde grond as 'n volgorde uitle. Geen saamvoegreel is toegepas nie.",
+    "die_naat_tussen_18_en_19": "Hierdie is die plek waar hierdie twee lesse of mekaar herhaal of 'n gat laat, en die reels hieronder is nie styl nie, hulle is die verdeling self.",
+    "reels": [
+      "Les 18 lewer die FEIT: die energie in ons kos het van die son gekom, en dit het daar ingekom omdat 'n plant se blare met die son se lig kos maak. Een of twee sinne, en dan is dit klaar.",
+      "Les 18 gebruik die woorde 'energieketting' en 'voedselketting' NIE. Dit le geen volgorde uit nie, dit gebruik geen pyl nie, en dit bou geen tweede diereskakel in nie. Dit mag in een sin se dat 'n dier wat 'n plant eet daardie energie ook kry, want KABV se derde bullet se 'vir hulself en vir diere en mense'.",
+      "Les 19 lewer die VOLGORDE: dieselfde feit uitgele as 'n ketting met 'n naam, 'n orde en 'n rigting, uitgebrei met die dier-eet-dier-skakel en die mens-skakel, en met volledige kettings wat heel gesien kan word.",
+      "Les 19 roep les 18 in hoogstens een kort sin terug. Die begroting het nie ruimte vir meer nie, en meer sou les 19 'n hersiening maak in plaas van die volgende tree.",
+      "Nie een van die twee lesse mag 'energie' anders omskryf as die ander nie. Sien woordelysplan."
+    ]
+  },
+  "assessering": {
+    "geassesseerde_riglyn": "Aan toon hoe die energie opeenvolgend deur die energie-/voedselketting van die Son oorgedra word deur middel van voedsel wat deur plante gemaak word vir diere/menslike gebruik",
+    "les": 19,
+    "nota": "Die HELE geassesseerde riglyn val op les 19, en niks daarvan val op les 18 nie. Dit stem met die kwartaal se eie assesseringskruistoets in kaps/gr4-nwt-kw3.json ooreen. Les 18 is inhoud wat geleer word en nie geassesseer word nie - dit maak dit nie minder belangrik nie, en dit is uitdruklik NIE 'n rede om les 18 kleiner te maak nie.",
+    "wat_die_riglyn_van_les_19_afdwing": [
+      "'opeenvolgend' en 'ketting': die orde moet as 'n orde staan, nie as vier losstaande feite nie.",
+      "'van die Son': die ketting begin by die son. 'n Ketting wat by die plant begin, mis die geassesseerde punt.",
+      "'deur middel van voedsel wat deur plante gemaak word': die plant se kos is die voertuig waarmee die energie aanbeweeg, en dit moet so staan.",
+      "'vir diere/menslike gebruik': die ketting moet by 'n dier EN by 'n mens uitkom, nie net by een van die twee nie."
+    ]
+  },
+  "bou_op_termyn_1": {
+    "nota": "Termyn 1 se lesse 1 tot 8 is goedgekeur, geskryf en by die uitlegspan. Hierdie twee lesse moet daarop BOU, dit nie oorvertel nie, en dit onder geen omstandighede weerspreek nie. 'n Botsingstoets loop oor die hele vak (bin/woordelys_bots.py) en sal 'n afwykende bewoording optel.",
+    "reeds_goedgekeur_hergebruik_woord_vir_woord": {
+      "lewensprosesse": "Die sewe dinge wat saam wys dat 'n plant of 'n dier lewe.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "asemhaling": "Om lug te gebruik om krag uit jou kos te kry."
+    },
+    "reel_1": "Gebruik hierdie drie omskrywings soos hulle staan. Skryf geen mededingende omskrywing nie, ook nie 'n beter geformuleerde een nie. 'lewensprosesse' het reeds TWEE goedgekeurde weergawes (les 1 en les 2), en daardie verskil is deur 'n mens aanvaar en in kaps/aanvaarde-woordelysverskille.json aangeteken. 'n Derde weergawe is nie 'n aanvaarde verskil nie en sal as 'n botsing gerapporteer word.",
+    "regstelling_die_kosmaak_is_nie_nuut_nie": {
+      "wat_aan_die_beplanner_gese_is": "Dat Termyn 1 se les 'Hoe 'n plant begin en groei' se 'n plant het lig nodig om te groei en om sterk te bly, maar nooit se dat 'n plant kos maak nie, en dat die kosmaak dus NUUT is hier.",
+      "wat_die_bewaarplek_wys": "Die eerste helfte is reg: 'Hoe 'n plant begin en groei' (Drico se lesnommer 5) se niks van kos maak nie. Die gevolgtrekking is verkeerd. Twee ANDER goedgekeurde, gelewerde Termyn 1-lesse se dit al, en 'n derde goedgekeurde begrip-inskrywing dra dit ook: les 1 'Hoe weet jy iets lewe?' skryf \"'n Groen plant maak sy eie kos in sy blare met sonlig\"; les 3 'Die dele van 'n plant' skryf 'Die blare van 'n plant maak met sonlig kos vir die hele plant'; en die goedgekeurde begrip 'voeding' is 'Om kos te kry of kos te maak vir jou liggaam', waarvan die 'kos maak'-helfte juis vir plante daar is.",
+      "gevolg_vir_hierdie_beplanning": "Die kosmaak is NIE nuut nie en word nie as nuut geleer nie. Les 18 roep dit in een sin terug en bou daarop. Dit is by die bron regemaak: die kern-inskrywing self se dit, en dit staan ook in les 18 se feiterisiko, sodat niks van leesorde afhang nie. Twee dinge sou anders gebeur het: die les sou goedgekeurde inhoud herhaal en begroting daaraan spandeer, en 'n nuwe formulering langs die twee bestaandes sou 'n botsing wees.",
+      "wat_werklik_nuut_is": "Drie dinge, en hulle is die punt van hierdie subonderwerp. Eerste: die woord ENERGIE, wat nog nerens in die vak omskryf is nie. Tweede: dat die son se energie IN daardie kos gebere word en so by 'n dier en 'n mens uitkom - Termyn 1 het gese die plant maak kos met sonlig, maar nooit dat die son se energie daarin aanbeweeg nie. Derde: die KETTING as 'n volgorde met 'n rigting, wat les 19 se hele werk is."
+    },
+    "wat_nie_weerspreek_mag_word_nie": [
+      "Termyn 1 se 'Byna elke lewende ding gebruik lug om krag uit sy kos te kry'. Let op die 'Byna'. Dit is 'n geverifieerde versagting en dit staan in die goedgekeurde les. Les 18 mag nie 'elke lewende ding' skryf waar Termyn 1 'byna elke' geskryf het nie.",
+      "Termyn 1 se 'Die wortels suig water uit die grond na die res van die plant'. Dit is reg en dit is die hoek waaraan les 18 se grond-regstelling vashaak: die grond gee die plant WATER, en dit is nie kos nie.",
+      "Termyn 1 se \"'n Plant het lig nodig om te groei en om sterk te bly\", met die donker-kas-waarneming (blare klein en bleek, stam lank en swak). Les 18 mag dit terugroep, maar sien feiterisiko: daardie waarneming wys dat 'n plant lig NODIG het, dit is nie die bewys dat die plant kos maak nie."
+    ]
+  },
+  "naat_krag_word_energie": {
+    "nota": "Dit is die enkele belangrikste besluit in hierdie spesifikasie, en dit is die naat wat oopgaan as niemand dit beplan nie. Dieselfde idee met twee name in dieselfde jaar lees vir 'n kind soos twee verskillende dinge.",
+    "wat_termyn_1_gese_het": "Die goedgekeurde begrip 'asemhaling' is 'Om lug te gebruik om krag uit jou kos te kry', en die goedgekeurde studieteks se 'Byna elke lewende ding gebruik lug om krag uit sy kos te kry'. Termyn 1 het dus reeds gese 'n dier kry KRAG uit sy kos, en dit het dit KRAG genoem, nie energie nie.",
+    "besluit": "Les 18 knoop daaraan vas met een sin wat die KRAG UIT JOU KOS by die naam noem: daardie krag se naam is energie. Die sin praat oor DAARDIE EEN DING, nie oor die woord 'krag' nie. Die goedgekeurde asemhaling-inskrywing bly woord vir woord soos dit is en word in les 18 hergebruik, sodat 'n leerder wat terugblaai dieselfde woorde sien.",
+    "hoekom_nie_wyer_nie": "'krag' is nie beskikbaar as 'n sinoniem vir 'energie' nie, want ons eie goedgekeurde lesse gebruik dit al vir twee ander dinge: die begrip 'swaartekrag' is 'Die krag wat alles na die aarde toe aftrek' (les 11), en twee lesse gebruik 'krag' vir moeite ('trek met al jou krag', 'Dit kos veel minder krag'). In die wetenskap is krag boonop 'n ander grootheid as energie, en 'n Graad 4-les wat hulle gelykstel, plant 'n fout wat Graad 6 en verder moet uithaal. Die sin noem dus die DING sy naam en nie die WOORD 'n sinoniem nie.",
+    "verbode_formulerings": [
+      "'krag beteken energie'",
+      "'krag is 'n ander woord vir energie'",
+      "'energie is dieselfde as krag'",
+      "enige sin wat die woord 'krag' oral in die les met 'energie' vervang, of wat 'swaartekrag' hierheen sleep"
+    ],
+    "gevolg_vir_les_19": "Les 19 raak hierdie naat nie. Dit gebruik 'energie' deurgaans en bring 'krag' glad nie in nie."
+  },
+  "woordelysplan": {
+    "nota": "Wat elke les se begrip-inskrywings moet wees, en watter bewoording vas is. Die botsingstoets loop oor die hele vak, dus is 'hergebruik' hier 'n opdrag en nie 'n voorstel nie.",
+    "hergebruik_woord_vir_woord": [
+      "lewensprosesse - 'Die sewe dinge wat saam wys dat 'n plant of 'n dier lewe.' (les 18)",
+      "voeding - 'Om kos te kry of kos te maak vir jou liggaam.' (les 18)",
+      "asemhaling - 'Om lug te gebruik om krag uit jou kos te kry.' (les 18)"
+    ],
+    "nuut_energie": {
+      "term": "energie",
+      "waar": "Les 18. Dit is die eerste keer dat hierdie term enige plek in die vak omskryf word.",
+      "wie_skryf_dit": "Die skrywer. Die beplanner skryf nie hierdie bewoording nie.",
+      "vereistes_waaraan_die_bewoording_moet_voldoen": [
+        "Dit moet die res van die kwartaal dra, nie net kos nie. Lesse 20 tot 25 gebruik dieselfde woord vir gestoorde bronne, vir masjiene se inset en uitset, vir beweging en vir klank. 'n Omskrywing wat energie aan kos vasmaak, breek by les 21.",
+        "Dit mag nie 'energie' met 'krag' gelykstel nie. Sien naat_krag_word_energie.",
+        "Dit mag nie 'energie' as 'n ding of 'n stof beskryf wat jy kan sien, optel of oopmaak nie.",
+        "8 tot 12 woorde, soos die res van die vak se inskrywings."
+      ],
+      "waarskuwing_by_goedkeuring": "Hierdie een inskrywing is die enigste ding in hierdie spesifikasie wat sewe latere lesse bind. Dit verdien 'n doelbewuste blik by goedkeuring, nie 'n vlugtige een nie. Wat hier goedgekeur word, is die bewoording wat lesse 20 tot 25 moet hergebruik."
+    },
+    "nuut_energieketting": {
+      "term": "energieketting",
+      "waar": "Les 19.",
+      "instruksie": "EEN inskrywing, vir 'energieketting'. Die studieteks se dat 'voedselketting' KABV se ander naam vir dieselfde ding is; skryf nie 'n tweede, identiese inskrywing nie. Sit ALBEI woorde in die woordelys sodat die hek nie een van hulle as 'n spelfout aanmeld nie.",
+      "wat_dit_nie_mag_se_nie": "Nie 'n ketting van diere wat mekaar eet nie. Dit begin by die son, en die son is nie 'n dier nie en is nie kos nie."
+    },
+    "energie_in_les_19": "Les 19 hergebruik les 18 se energie-inskrywing woord vir woord. Dit skryf geen tweede omskrywing nie, ook nie 'n beter een nie."
+  },
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "pct_woorde_oor_10_letters_maks": 3.0
+    },
+    "die_werklike_risiko_hier": "Dit is nie die lang woorde nie, dit is die woord 'energie' self. 'energie' is drie sillabes en dit is die sentrale term van albei lesse, dus tel elke voorkoms teen die 13%-perk vir woorde van 3+ sillabes. Twintig voorkomste in 'n les van 460 woorde is op sy eie al 4.3%, en dan is daar nog elke ander drielettergreepwoord in die les. Dit is die maat wat hier gaan breek, nie die letterlengte nie.",
+    "instruksies": [
+      "'energie' is onvermybaar en word nie vermy nie. Noem dit waar dit genoem moet word, en gebruik daarna 'dit' of 'daardie energie' in lopende sinne in plaas van die woord weer.",
+      "Hou ANDER woorde van drie of meer sillabes doelbewus laag, want 'energie' eet die ruimte. Vermy 'verskillende' (4 sillabes, 12 letters) waar 'anders' werk - dieselfde reel as Kwartaal 1 en 2.",
+      "'energieketting' (14 letters, 5 sillabes) en 'voedselketting' (14 letters, 4 sillabes) is les 19 se onvermybare lang woorde. Noem elkeen een of twee keer waar dit genoem moet word, en gebruik daarna net 'ketting' in lopende sinne.",
+      "'lewensprosesse' (14 letters, 5 sillabes) is Termyn 1 se goedgekeurde term en moet gedra word. Noem dit een of twee keer in les 18, nie meer nie.",
+      "Vermy 'opeenvolgend' (12 letters, 4 sillabes). Dit is KABV se assesseringswoord, nie 'n Graad 4-woord nie. Skryf 'een na die ander' of 'in hierdie orde'.",
+      "'oorgedra' en 'oordrag' is KABV se woorde en 'n mens mag hulle een of twee keer noem, maar die gewone werkwoorde se dit beter en korter: die energie GAAN van die son na die plant, die plant GEE dit aan die dier deur sy kos. Moenie die betekenis verloor nie - dit is 'n aangee, nie 'n verdwyn nie.",
+      "Skryf 'kos', nie 'voedsel', in lopende sinne. 'kos' is die woord wat 'n negejarige het en dit is die woord wat vier goedgekeurde Termyn 1-lesse gebruik. 'voedsel' is KABV se woord en mag een keer genoem word as die skrywer dit nodig het.",
+      "Skryf 'die son' met 'n klein s in die studieteks. KABV skryf 'die Son' met 'n hoofletter, maar vier goedgekeurde Graad 4-lesse van ons skryf dit reeds klein ('Die son se hitte', 'sy lig van die son', 'in die warm son'). Die hoofletter bly net binne die aangehaalde kaps_punt en die KABV-etiket."
+    ],
+    "lang_woord_ruimte": "Die perk is 3% van die studieteks. By 460 woorde is dit ongeveer 13 voorkomste van 'n woord oor 10 letters, by 500 ongeveer 15. Les 19 se twee kettingwoorde eet daarvan, dus is die reel om 'ketting' alleen te gebruik nie 'n verfyning nie."
+  },
+  "woordkeuse": {
+    "nota": "Die hek meet hoe lank 'n woord is en nooit of dit geken word nie, dus doen niks in die pyplyn hierdie lys se werk nie.",
+    "kort_woorde_wat_verklaar_moet_word": [
+      "energie (7 letters) - die sentrale term van die hele kwartaal en 'n woord wat 'n negejarige gehoor het sonder om te weet wat dit is. Kry 'n begrip-inskrywing, sonder uitsondering. Sien woordelysplan."
+    ],
+    "verbode_woorde": [
+      {
+        "woord": "fotosintese",
+        "reel": "Kom nie voor nie. Dit is nie Graad 4 KABV-inhoud nie, dit is 11 letters en 4 sillabes, en dit verklaar op hierdie vlak niks. KABV vra een ding: dat plante die son se energie gebruik om kos te maak."
+      },
+      {
+        "woord": "produsent / verbruiker",
+        "reel": "Kom nie voor nie. Nie in hierdie KABV-punt nie, en die woorde beteken vir 'n Graad 4 iets uit 'n winkel."
+      },
+      {
+        "woord": "planteter / vleiseter / omnivoor / roofdier / prooi",
+        "reel": "Kom nie voor nie. Nie in hierdie KABV-punt nie. Die ketting werk sonder hulle: 'n dier wat die plant eet, en 'n dier wat daardie dier eet."
+      },
+      {
+        "woord": "voedselweb",
+        "reel": "Kom nie voor nie, en dit is nie 'n sinoniem vir 'n ketting nie. KABV vra 'n volgorde. 'n Web is 'n ander idee en 'n later graad."
+      },
+      {
+        "woord": "chlorofil / koolstofdioksied / suiker / suurstof",
+        "reel": "Kom nie voor nie. Dit is die meganisme wat KABV hier nie vra nie, en elkeen is 'n lang woord wat niks by 'n Graad 4 se begrip voeg nie."
+      },
+      {
+        "woord": "kilojoule / kalorie",
+        "reel": "Kom nie voor nie. Om energie te meet is nie hierdie punt nie."
+      },
+      {
+        "woord": "verskillende",
+        "reel": "Moenie gebruik waar 'anders' of 'nie dieselfde nie' werk nie. Staande huisreel."
+      },
+      {
+        "woord": "heet (= word genoem)",
+        "reel": "Staande huisreel: 'n negejarige lees dit as warm. Skryf 'ons noem dit'."
+      }
+    ],
+    "woorde_wat_dra_en_nie_gesnoei_mag_word_nie": [
+      "'Byna' in Termyn 1 se 'Byna elke lewende ding gebruik lug om krag uit sy kos te kry.' Dit is geverifieer en dit bly.",
+      "'in ons kos' in 'die energie IN ONS KOS kom van die son'. Sonder daardie drie woorde word dit 'alle energie kom van die son', wat nie waar is nie. Sien feiterisiko.",
+      "'sy eie' in \"'n plant maak sy eie kos\". Dit is wat die plant van 'n dier onderskei, en dit is die woord wat die grond-wanbegrip keer."
+    ]
+  },
+  "geen_vrae": {
+    "reel": "Geen les dra vrae nie. Geen blok van die tipe 'vraag'.",
+    "waar_die_bewys_nou_moet_staan": [
+      "Les 18: dat 'n mens sonder kos min energie het. Die waarneembare ding - jy is lam en sleg as jy nog nie geeet het nie, en na kos kan jy weer speel - is die BEWYS vir die les se sentrale stelling en dit moet in die studieteks staan, nie in 'n vraag nie.",
+      "Les 19: dat die orde regtig 'n orde is. Die waarneembare ding is dat gras groei waar die son op die veld skyn, en dat 'n koei daardie gras vreet. Dit hoort in die studieteks."
+    ]
+  },
+  "praktiese_werk": {
+    "reel": "Ons leer die DENKE wat die maaktaak toets, nie die maak nie.",
+    "aktiwiteit_1": "'identifiseer dinge wat mense en diere doen wat energie vereis'. Die identifiseer is klaswerk. Die KENNIS - watter dinge energie vereis, en dat die lewensprosesse self daaronder val - is ons werk en is les 18 se kern.",
+    "aktiwiteit_2": "'teken en skryf oor hoe energie van die Son oorgedra word ... gebruik pyle om die rigting aan te wys'. Die teken is klaswerk, en die interaktiwiteit is die uitlegspan se bonus. Die DENKE is heeltemal ons werk en is les 19 se kern: wat in 'n ketting hoort, in watter orde, en watter kant toe die pyl wys. Die dekkingsnasiener moet die teken-opdrag NIE as ontbrekend aanteken nie.",
+    "die_teks_moet_alleen_staan": "Die rigting is geassesseerde inhoud, dus mag dit nooit van 'n prent afhang nie. Die teks moet die orde in woorde se EN moet se wat 'n pyl tussen twee skakels beteken. 'n Leerder op 'n stadige lyn wat geen beeld laai nie, moet die ketting en sy rigting uit die teks alleen ken. Moenie voorskryf HOE dit uitgele word nie - dit is die HTML-span se besluit."
+  },
+  "buite_bestek": [
+    "Die meganisme van hoe 'n plant kos maak: chlorofil, koolstofdioksied, water in, suiker en suurstof uit. KABV Graad 4 vra een ding - dat plante die son se energie gebruik om kos te maak - en niks meer.",
+    "Gestoorde energiebronne: kos as 'n bron langs hout, steenkool, olieprodukte en natuurlike gas. Dit is die volgende subonderwerp, 'Energie om ons' (Drico se les 20), en dit moet daar bly.",
+    "Inset en uitset van energie in masjiene en toestelle. Dit is les 21 en dit is daardie les se geassesseerde punt.",
+    "Energie en beweging, en energie en klank. Lesse 22 tot 25.",
+    "Voedselwebbe, energiepiramides, ontbinders, en die kringloop van stof. Later grade. KABV vra hier 'n ketting: 'n volgorde in een rigting.",
+    "Hoeveel energie by elke skakel oorbly of verlore gaan. Nie Graad 4-inhoud nie en op hierdie vlak nie veilig te stel nie.",
+    "Gesonde eetgewoontes, kosgroepe, en hoe die liggaam kos verteer. Nie hierdie KABV-punt nie.",
+    "Die son as 'n hemelliggaam: hoe groot dit is, hoe warm, hoe ver. Dit is Aarde en Ruimte, nie hierdie punt nie. Die son kom hier net in as die begin van die ketting."
+  ],
+  "lesse": [
+    {
+      "nommer": 1,
+      "lesindeks_nommer": 18,
+      "lesindeks_etiket": "Energie vir lewe",
+      "titel": "Alles wat jy doen, kos energie",
+      "titel_nota": "Werktitel, en dit is die LEERDER se opskrif, nie KABV se etiket nie. KABV se etiket 'Energie vir lewe' is die leernaam se indeks en mag nie die titel word nie. Die skrywer mag hierdie titel verbeter; niks in die pyplyn toets 'n titel, dus is dit 'n mens se blik wat dit moet goedkeur.",
+      "kaps_punt": "Energie vir lewe: ons gebruik energie vir alles wat ons doen; ons kry energie uit voedsel; energie in ons voedsel kom van die Son (plante gebruik die energie van die Son om voedsel te maak vir hulself en vir diere en mense)",
+      "kaps_punt_nota": "Drie bullets onder een KABV-inhoudspunt, hier as een aangehaal. Die setfout 'e nergie' in KABV se eerste bullet is reggestel; sien kaps_setfoute.",
+      "begroting": 460,
+      "begrotingsnota": "460 woorde, AFGELEI uit die vereistes en NIE gemeet nie - die bron dek hierdie inhoud glad nie. Die afleiding, inskrywing vir inskrywing: wat energie is, plus dat alles wat ons doen dit kos, ongeveer 70; dat energie die lewensprosesse aan die gang hou, ongeveer 60; die dinge wat mense en diere doen wat energie verg, ongeveer 70; dat ons ons energie uit ons kos kry, saam met die sin wat Termyn 1 se 'krag' sy naam gee, ongeveer 80 (die grootste enkele aandeel van hierdie les, omdat dit die naat is); dat daardie energie van die son kom en in die plant se kos gebere is, ongeveer 90; hoe dit by ons en by diere uitkom, naamlik deur te eet, ongeveer 50. Dit is 420 vir ses kern-inskrywings, gemiddeld 70 elk, wat binne die 31-tot-97 loop wat ons eie gelewerde Graad 4-lesse per kern-inskrywing haal. Plus 40 vir die een aanvulling (die grond gee water, nie kos) = 460. Dit is MINDER as les 19 se 500, hoewel hierdie les drie bullets teen een dra: die drie bullets is drie trappe van een bewering en hulle deel hul agtergrond, terwyl les 19 die geassesseerde rigting dra. Die hek meet net die totaal teen 460, dus 391 tot 529. Die hek se stukkiegids is 30 tot 110 woorde per studieblok en 3 tot 10 blokke, dus is vier tot ses studieblokke plus moontlik een lysblok die natuurlike vorm.",
+      "kern": [
+        "Wat energie is, en dat alles wat 'n mens doen dit kos. Dit is KABV se eerste bullet en dit is die les se ingang. 'energie' kry 'n begrip-inskrywing, en dit is die eerste keer dat die term enige plek in hierdie vak omskryf word - sien woordelysplan vir wat die bewoording moet dra.",
+        "Dat energie die lewensprosesse aan die gang hou, ook wanneer 'n mens stilsit. KABV se eerste aktiwiteit noem juis 'lewensprosesse te onderhou'. Gebruik Termyn 1 se goedgekeurde term en sy goedgekeurde omskrywing, en noem 'n paar van die sewe wat sonder ophou aangaan - asemhaling, groei, uitskeiding. Hierdie is die skakel wat 'n leerder se hele Termyn 1 aan hierdie les vasmaak, en 'n Graad 4 verwag dit nie: energie is nie net vir hardloop nie, dit is ook vir stilsit.",
+        "Die dinge wat mense en diere doen wat energie verg. KABV se aktiwiteit vra uitdruklik mense EN diere, en 'ander aksies uit te voer' langs die lewensprosesse. Loop en hardloop en speel en dra en praat en leer by 'n mens; hardloop, vlieg, grawe, swem en kos soek by 'n dier. Hierdie inskrywing is die natuurlike plek vir 'n lysblok.",
+        "Dat ons ons energie uit ons kos kry, en dit is KABV se tweede bullet. Hier hoort die BEWYS in die studieteks, want dit is waar dit vroeer in 'n vraag sou gelewe het: 'n mens wat nog nie geeet het nie, is lam en sleg, en na kos kan sy weer speel. HIER hoort ook die een sin wat Termyn 1 se naat toemaak: die krag wat jou lyf uit jou kos kry, se naam is energie. Die goedgekeurde asemhaling-inskrywing ('Om lug te gebruik om krag uit jou kos te kry') word woord vir woord hergebruik en NIE herskryf nie. Sien naat_krag_word_energie vir wat hierdie sin nie mag se nie.",
+        "Dat die energie in ons kos van die son kom, en dat dit daar ingekom het omdat 'n plant se blare met die son se lig kos maak - en dat die energie so in daardie kos gebere is. Dit is KABV se derde bullet. LET OP: die kosmaak self is NIE nuut nie. Twee goedgekeurde Termyn 1-lesse se dit al (\"'n Groen plant maak sy eie kos in sy blare met sonlig\"; 'Die blare van 'n plant maak met sonlig kos vir die hele plant'). Roep dit in een sin terug en leer dit nie as nuut nie. Wat WEL nuut is en wat hierdie inskrywing moet lewer, is die gebere energie: dat die son se energie in die plant se kos beland en daar wag. Termyn 1 se woord 'gebere' is bekende grond vir die leerder - 'Byna elke saad het sy eie kos binne-in gebere'.",
+        "Hoe daardie energie by ons en by diere uitkom: deur te eet. 'n Plant maak sy kos vir homself; 'n dier of 'n mens kry daardie kos deur die plant te eet. Hou dit hier kort en by EEN skakel. Die volgorde, die naam 'ketting' en die pyle is les 19 se werk - sien verdeling_nota se naatreels."
+      ],
+      "aanvulling": [
+        {
+          "item": "Dat die grond die plant water gee en nie kos nie",
+          "regverdiging": "Die les se sentrale bewering - dat die energie in ons kos van die son kom - misluk sonder hierdie een reel, want dit loop reguit in die bekendste wanbegrip in hierdie hele onderwerp in: dat 'n plant sy kos uit die grond kry. 'n Leerder wat dit glo, hoor 'die plant maak kos met die son se lig' en pas dit langs sy eie model in, in plaas van in die plek daarvan. Die konsep is dus onvolledig sonder dit, en dit is nie kleur nie. Dit haak boonop aan iets vas wat die leerder al weet en wat reg is: Termyn 1 se 'Die wortels suig water uit die grond na die res van die plant'. Die regstelling is 'n toevoeging van EEN woord aan wat sy al ken - die grond gee water, en water is nie kos nie."
+        }
+      ],
+      "aanvulling_nota": "Een aanvulling, ongeveer 40 woorde teen 'n toelating van 115 (25% van 460), dus ver binne die perk. Alles anders in hierdie les is kern. Die sin wat Termyn 1 se 'krag' sy naam gee, is NIE aanvulling nie: KABV se tweede bullet is 'ons kry energie uit voedsel', en 'n les kan daardie bullet nie aan hierdie leerder lewer sonder om te se dat dit dieselfde ding is as die krag wat sy in Termyn 1 leer ken het nie - dit sou die bullet aan iemand anders se leerder lewer. Wat 'lewensprosesse' beteken, is ook nie aanvulling nie: KABV se eie aktiwiteit noem die woord, en die omskrywing is klaar goedgekeur. Geen persoon en geen deurbraak regverdig hier 'n aanvulling.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "Doelbewus leeg, en dit is 'n besluit en nie 'n weglating nie. Die toets is nie 'is dit moeilik' nie, maar 'is daar enige manier om dit konkreet te stel wat 'n negejarige kan sien'. Vir elke idee in hierdie les is daar. Dat alles wat jy doen energie kos: jy is lam as jy nie geeet het nie. Dat 'n plant sy eie kos in sy blare met lig maak: dit staan al so, konkreet, in twee goedgekeurde Termyn 1-lesse. Dat die energie in die kos gebere is: 'gebere' is Termyn 1 se eie woord vir die kos binne-in 'n saad. Boonop is 'n analogie hier 'n RISIKO eerder as 'n hulp: elke bekende beeld vir energie-oordrag ('kos is soos 'n battery', 'energie word oorgeskink soos water') maak energie 'n stof wat jy kan optel, en dit is presies die wanbegrip wat later grade moet uithaal. Die vergelyking is die video se werk en die video doen dit beter. Die valideerder gaan waarsku dat geen les 'n moeilike konsep aanmeld nie; die waarskuwing is verwag en word aanvaar.",
+      "termdig": false,
+      "termdig_nota": "Nie termdig nie, maar die glossariumlas is nie nul nie en moet beplan word: EEN nuwe term ('energie') plus DRIE bestaandes wat woord vir woord hergebruik word ('lewensprosesse', 'voeding', 'asemhaling'). Verwag dus ongeveer vier begrip-inskrywings, waarvan drie se bewoording vas is. Moenie tot 'n getal opvul nie. 'kos' kry geen inskrywing nie - dit is 'n woord wat elke negejarige het.",
+      "feiterisiko": [
+        "Moenie skryf dat 'n plant sy kos uit die grond kry nie. Dit is die bekendste wanbegrip in hierdie onderwerp en dit maak die hele les se punt ongedaan. Die plant maak sy eie kos in sy blare met die son se lig.",
+        "Moenie skryf dat die grond die plant NIKS gee nie. Die wortels suig wel water uit die grond, en dit staan so in 'n goedgekeurde Termyn 1-les. Wat die grond nie gee nie, is kos. Moenie 'minerale' inbring nie: dit is nie Graad 4 KABV-inhoud hier nie en dit kos 'n lang woord; die dradende deel van die regstelling is 'nie kos nie'.",
+        "Moenie 'krag beteken energie' of 'krag is 'n ander woord vir energie' skryf nie. Ons eie goedgekeurde lesse gebruik 'krag' al vir die trek van swaartekrag en vir moeite, en in die wetenskap is krag 'n ander grootheid. Se net die smal, ware ding: die krag wat jou lyf uit jou kos kry, se naam is energie. Sien naat_krag_word_energie.",
+        "Moenie die goedgekeurde asemhaling-inskrywing herskryf nie. Woord vir woord: 'Om lug te gebruik om krag uit jou kos te kry.' 'n Mededingende bewoording word deur die vakwye botsingstoets opgetel.",
+        "Moenie skryf dat 'n plant kos maak OM diere en mense te voed nie. KABV se eie woorde ('om voedsel te maak vir hulself en vir diere en mense') lees soos 'n doel, en 'n doel by 'n plant is onwaar. Die plant maak sy kos vir homself; 'n dier of 'n mens kry daardie kos deur die plant te eet.",
+        "Moenie skryf dat ALLE energie van die son kom nie. Die bewering wat hou, gaan oor die energie IN ONS KOS. Die drie woorde 'in ons kos' dra die sin en mag nie vir plainheid gesnoei word nie.",
+        "Moenie skryf dat ons energie uit water kry nie. Water gee geen energie nie. Ons kry energie uit kos.",
+        "Moenie skryf dat 'n plant die son of die lig EET nie, en moenie die son kos noem nie. 'n Plant maak kos; dit eet nie.",
+        "Moenie Termyn 1 se donker-kas-waarneming (blare klein en bleek, stam lank en swak) as die bewys aanbied dat 'n plant kos maak nie. Daardie waarneming wys dat 'n plant lig NODIG het. Dit mag as terugroep gebruik word, nie as bewys nie.",
+        "Moenie 'elke lewende ding' skryf waar Termyn 1 'byna elke lewende ding' geskryf het nie. Daardie versagting is geverifieer en dit staan in 'n goedgekeurde les.",
+        "Moenie 'fotosintese' gebruik nie, en moenie die meganisme verduidelik nie. Sien woordkeuse en buite_bestek.",
+        "Moenie hierdie les 'n ketting laat uitle nie. Dit is nie 'n feitefout nie, dit is 'n verdelingsfout, en dit maak les 19 'n herhaling. Sien verdeling_nota."
+      ],
+      "fokusvraag_skakel": "Lewer die 'waarvoor' van die fokusvraag: dat energie alles betaal wat 'n mens of 'n dier doen, ook die lewensprosesse wat sonder ophou aangaan, en dat ons dit uit ons kos kry. Dit lewer ook die EERSTE TREE van die 'pad'-helfte, en net daardie tree: dat die energie in ons kos van die son kom omdat 'n plant se blare daarmee kos maak. Die pad as 'n volgorde, met 'n naam en 'n rigting, is les 19 se werk en word hier nie belowe nie."
+    },
+    {
+      "nommer": 2,
+      "lesindeks_nommer": 19,
+      "lesindeks_etiket": "Energie van die Son",
+      "titel": "Van die son tot op jou bord",
+      "titel_nota": "Werktitel, en dit is die LEERDER se opskrif, nie KABV se etiket nie. Dit is gekies omdat dit die les se twee dradende dinge in vier woorde dra: waar die ketting begin en waar dit eindig, en dus ook watter kant toe dit loop. Die skrywer mag dit verbeter; niks in die pyplyn toets 'n titel.",
+      "kaps_punt": "Energie van die Son: energie word oorgedra van die Son, na plante, na diere in 'n volgorde wat bekend is as 'n energie-/voedselketting",
+      "begroting": 500,
+      "begrotingsnota": "500 woorde, AFGELEI uit die vereistes en NIE gemeet nie - die bron dek hierdie inhoud glad nie. Die afleiding, inskrywing vir inskrywing: wat 'n energieketting is, met KABV se twee name daarvoor, ongeveer 55; dat die son altyd die eerste skakel is en hoekom, ongeveer 55; die plantskakel, wat die energie opvang en dit in sy kos bere, ongeveer 80; die diereskakel, insluitend die dier wat 'n ander dier eet, ongeveer 70; die mensskakel, ongeveer 60; die RIGTING, wat die pyl beteken en hoekom die ketting net een kant toe gelees word, ongeveer 100; en twee of drie volledige kettings in volgorde uitgeskryf, ongeveer 80. Dit is 500 vir sewe kern-inskrywings, gemiddeld 71 elk, binne die 31-tot-97 loop wat ons eie gelewerde Graad 4-lesse per kern-inskrywing haal. Geen aanvulling. Dit is MEER as les 18 se 460 hoewel dit een KABV-bullet teen les 18 se drie dra, en dit is die punt van 'n vereistes-begroting: hierdie les dra die HELE geassesseerde uitkoms, en die rigting alleen kry die grootste enkele aandeel van enige inskrywing in hierdie subonderwerp, omdat dit die ding is wat die maklikste agterstevoor land. Die hek meet net die totaal teen 500, dus 425 tot 575. Die hek se stukkiegids is 30 tot 110 woorde per studieblok en 3 tot 10 blokke, dus is vyf tot sewe studieblokke plus een lysblok vir die uitgeskrewe kettings die natuurlike vorm; 'n lysinskrywing mag hoogstens 28 woorde wees, wat vir 'n ketting ruim is.",
+      "kern": [
+        "Wat 'n energieketting is: 'n volgorde wat wys hoe die son se energie van die een lewende ding na die volgende aanbeweeg. KABV gee dit TWEE name - energieketting en voedselketting - en hulle is een ding, nie twee nie. Een begrip-inskrywing, vir 'energieketting'; sien woordelysplan.",
+        "Dat die son altyd die EERSTE skakel is, en hoekom. Die geassesseerde riglyn se 'van die Son', dus is 'n ketting wat by die plant begin, nie die punt nie. Die rede is konkreet en moet gegee word: 'n plant kan nie kos maak sonder lig nie, dus is daar niks voor die son om die ketting mee te begin nie.",
+        "Die PLANTSKAKEL: die plant se blare vang die son se lig op en maak kos, en die son se energie is daarna in daardie kos gebere. Hierdie inskrywing dra 'n fyn onderskeid wat die les se hele wetenskaplike inhoud is: die plant maak die KOS, dit maak nie die ENERGIE nie. Die energie kom van die son en die plant gee dit net 'n plek om te wag.",
+        "Die DIERESKAKEL: 'n dier kry daardie energie deur die plant te eet, en 'n volgende dier kan dit kry deur daardie dier te eet. Dit is waar die ketting langer word as les 18 se een tree, en dit is nuwe grond. Hou die twee soorte skakel duidelik uitmekaar sonder 'planteter' en 'vleiseter' - sien woordkeuse.",
+        "Die MENSSKAKEL: 'n mens is self 'n skakel. KABV vra 'vir diere/menslike gebruik', dus moet die ketting by 'n dier EN by 'n mens uitkom. Wys albei vorms: reg na 'n plant wanneer ons 'n plant se kos eet, en na 'n dier wanneer ons kos eet wat van 'n dier kom.",
+        "Die RIGTING, en dit is die grootste enkele inskrywing in hierdie subonderwerp. Die pyl wys die kant waarheen die energie beweeg: van die ding wat GEEET WORD na die ding wat EET. Die ketting word net een kant toe gelees, van die son af weg, en nooit terug nie. Die teks moet SE wat 'n pyl tussen twee skakels beteken, want die rigting is geassesseerde inhoud en mag nooit van 'n prent afhang nie.",
+        "Twee of drie VOLLEDIGE kettings, in volgorde uitgeskryf, sodat die orde heel gesien word en nie uit los feite afgelei hoef te word nie. Ten minste een moet by 'n dier eindig en ten minste een by 'n mens. Elke ketting moet skakel vir skakel nagegaan word - sien verifikasie_vereis. Hier hoort ook die BEWYS in die studieteks, want dit is waar dit vroeer in 'n vraag sou gelewe het: gras groei waar die son op die veld skyn, en 'n koei vreet daardie gras."
+      ],
+      "aanvulling": [],
+      "aanvulling_nota": "Geen. Alles in hierdie les is kern, en dit is nie 'n toevallige uitkoms nie: die KABV-bullet is kort maar die geassesseerde riglyn spel presies uit wat gelewer moet word, en elke kern-inskrywing hierbo trek uit die een of die ander. Die rigting en die pyl lyk soos 'n toevoeging en is dit nie - KABV se tweede aktiwiteit se 'gebruik pyle om die rigting waarin die energie van die Son oorgedra word aan te wys', dus is dit KABV se eie inhoud. Dat die plant nie die energie MAAK nie, is ook nie aanvulling nie: KABV se woord is 'oorgedra', en 'n les kan nie 'oorgedra' lewer as dit die plant die energie laat maak nie. Geen persoon en geen deurbraak regverdig hier 'n aanvulling.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "Doelbewus leeg. Hierdie les is die konkreetste in die subonderwerp: 'n orde van dinge wat 'n leerder kan sien - die son, gras, 'n koei, 'n mens - en 'n rigting daardeur. 'n Volgorde met 'n rigting is presies die soort ding wat sonder 'n analogie gestel kan word, en KABV se eie aktiwiteit vra dat dit GETEKEN word, wat wys hoe direk sienbaar dit is. 'n Analogie sou hier boonop die een fout kan plant wat hierdie les moet keer: elke ketting-beeld ('n tou, 'n emmer wat aangegee word, 'n ry mense) maak van energie 'n voorwerp wat oorhandig word, en 'n leerder wat dit glo, sal die pyl agterstevoor trek sodra die voorwerp 'n eter kry. Die vergelyking is die video se werk. Die valideerder gaan waarsku dat geen les 'n moeilike konsep aanmeld nie; die waarskuwing is verwag en word aanvaar.",
+      "termdig": false,
+      "termdig_nota": "Nie termdig nie. Verwag ongeveer twee begrip-inskrywings: die nuwe 'energieketting', en 'energie' wat woord vir woord uit les 18 hergebruik word. Sit BEIDE 'energieketting' en 'voedselketting' in die woordelys, en ook die plant- en dierename wat in die uitgeskrewe kettings gebruik word, sodat die hek hulle nie as spelfoute aanmeld nie. Moenie tot 'n getal opvul nie.",
+      "verifikasie_vereis": {
+        "nota": "Klein maar nie oorslaanbaar nie. Hierdie les skryf volledige kettings uit, en 'n ketting is 'n ry bewerings oor wat wat eet. Een verkeerde skakel maak die hele voorbeeld onwaar, en 'n voorbeeld is juis wat 'n leerder onthou.",
+        "wie": "Die feitenasiener, voordat hierdie les na 'n mens gaan.",
+        "wat": [
+          "Elke ketting, skakel vir skakel: eet die genoemde dier werklik die genoemde plant, en eet die tweede dier werklik die eerste? 'Die son -> gras -> 'n koei -> 'n mens' is veilig. 'n Dier wat by daardie plant ingesit is omdat dit lekker klink, is nie.",
+          "Enige ketting wat by 'n mens eindig deur melk of eiers. Melk en eiers is nie die dier self nie. As die les hulle gebruik, moet dit reg staan: die energie kom uit die dier se kos deur die dier na die melk of die eier, en die mens het nie die dier geeet nie.",
+          "Dat elke ketting in die les by die son begin en nie by die plant nie."
+        ],
+        "reel_by_twyfel": "'n Ketting wat nie skakel vir skakel bevestig kan word nie, word vervang deur een wat kan, nie gehedge nie. Skryf die les so dat die uitruil van enige een ketting dit nie breek nie: die kettings staan in hul eie blok, en die les se ruggraat (die orde en die rigting) staan sonder 'n enkele voorbeeld.",
+        "wat_nie_geverifieer_hoef_te_word_nie": "Dat energie van die son na plante na diere oorgedra word in 'n volgorde wat 'n energie-/voedselketting genoem word. Dit is KABV se eie stelling en dit is die les se kern."
+      },
+      "feiterisiko": [
+        "DIE PYL SE RIGTING. Die pyl wys van die ding wat geeet word na die ding wat eet, want dit is die kant waarheen die energie beweeg. 'n Pyl van die eter na sy kos is die algemeenste fout in hierdie hele onderwerp, en die rigting is deel van die geassesseerde uitkoms. 'n Ketting sonder rigting is nie die punt nie.",
+        "Die ketting begin by die SON, nie by die plant nie. Die geassesseerde riglyn se 'van die Son'.",
+        "Moenie skryf dat die plant die energie MAAK nie. Die plant maak die KOS; die energie kom van die son en word in daardie kos gebere. Dit is die fynste punt in die les en dit is die een wat die maklikste verkeerd geskryf word terwyl dit reg klink.",
+        "Moenie die son kos noem nie, en moenie skryf dat die plant die son of die lig eet nie.",
+        "Moenie 'produsent', 'verbruiker', 'planteter', 'vleiseter', 'roofdier', 'prooi' of 'voedselweb' gebruik nie. Nie een is Graad 4 KABV-inhoud in hierdie punt nie, en 'n web is 'n ANDER idee as 'n ketting - KABV vra 'n volgorde.",
+        "Moenie 'n ketting laat terugloop of laat tak nie. Dit loop een kant toe. Kringlope en ontbinders is later grade.",
+        "Moenie skryf hoeveel energie by elke skakel oorbly of verlore gaan nie, en moenie 'n getal daarvoor gee nie. Nie Graad 4-inhoud nie.",
+        "Moenie skryf dat die energie 'opgebruik en weg' is nie, en ook nie dat ALLES van die een na die volgende oorgaan nie. Se wat KABV se: dit word van die een na die volgende aangegee.",
+        "Moenie skryf dat 'n mens (of enige dier) aan die 'bokant' of aan die 'einde' van elke ketting staan nie. 'n Ketting eindig waar hierdie les dit stop, nie in die natuur nie.",
+        "Moenie 'energieketting' en 'voedselketting' as twee verskillende dinge aanbied nie. Dit is KABV se twee name vir een ding.",
+        "Moenie 'energie' hier van nuuts af omskryf nie. Hergebruik les 18 se inskrywing woord vir woord.",
+        "Moenie die rigting net in 'n prent laat leef nie. Die teks moet in woorde se watter kant toe dit loop en wat 'n pyl beteken, want 'n leerder wat geen beeld laai nie, word op hierdie punt geassesseer."
+      ],
+      "fokusvraag_skakel": "Lewer die 'langs watter pad'-helfte van die fokusvraag: die pad self, as 'n ketting in volgorde van die son deur 'n plant na 'n dier en na 'n mens, en watter kant langs daardie pad die energie beweeg. Die 'waarvoor gebruik lewende dinge energie' is in les 18 gelewer en word hier in hoogstens een sin teruggeroep."
+    }
+  ]
+}
