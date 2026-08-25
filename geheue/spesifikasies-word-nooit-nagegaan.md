@@ -77,3 +77,36 @@ only reason it was noticed.
 then launch the agent.** The runner also gates any draft it finds, so expect that as a
 side effect on lessons already written.
 
+## The fact-risk list is the spec's correction layer — but correct at source anyway
+
+A coverage checker made the useful observation that a stale `kern` point beside a
+fact-risk note that overrides it is not simply a bug: **the risk list is by design the
+spec's own correction layer.** It does the same thing for the strut definition as for
+the triangle test. Read that way, the writer following the risk list over the core
+point is the system working.
+
+The problem is narrower than "the spec is broken": it is that the correction only
+reaches a writer who reads all the way down. Three writers did; that is reading order,
+not a safeguard.
+
+**So do both.** Keep the risk note — it carries the reasoning and the sources, which a
+corrected core point cannot. And also fix the core point, the coverage measure and the
+depth limit at source, so nothing depends on reading order. The note becomes the record
+of why, and the prescription becomes correct on its own.
+
+## Never edit a spec between a coverage approval and the approval step
+
+Three times on 2026-08-25 a coverage check came back approved, mentioned a stale spec
+phrase as a note for later, and I fixed it straight away — which regenerates the
+per-lesson entry, invalidates the report that just approved, and sends the lesson back
+to `WAG_VIR_NASIENERS`. Each time it cost a full coverage re-run for a change the
+lesson already complied with.
+
+**The order is: coverage approves → approve the lesson → then fix the spec nit.** The
+nit is by definition not blocking, or the checker would have failed the lesson for it.
+Record it, approve, then tidy.
+
+The one exception is a spec error the checker *escalates on* — there the spec must be
+fixed first, because the lesson cannot be approved against a prescription that is
+wrong. Tell those apart by the verdict, not by how serious the note sounds.
+
