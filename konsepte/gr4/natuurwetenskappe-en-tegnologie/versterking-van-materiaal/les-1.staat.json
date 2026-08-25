@@ -1,10 +1,11 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/versterking-van-materiaal/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:b21ca5777687ddd75468b7ee1a9ebb0f",
+  "konsep_hash": "sha256:0259e3454782de84baf271956e978e51",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:81f0e8f0fc4739f93657ae5061aafb51"
+    "sha256:81f0e8f0fc4739f93657ae5061aafb51",
+    "sha256:63f812b02ddc9266f9d615d4b6a305ad"
   ],
   "eskalasie": null,
   "blok_faalrondtes": {
@@ -135,9 +136,86 @@
       "woorde": 573,
       "begroting": 504,
       "failures": []
+    },
+    {
+      "wanneer": "2026-08-25T07:29:21+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fad5882a673b87fa8a350e7196f0956a",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-08-25T07:29:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 572,
+      "begroting": 504,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-25T07:33:24+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:63f812b02ddc9266f9d615d4b6a305ad",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-08-25T07:33:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 585,
+      "begroting": 504,
+      "failures": [
+        "Study text 585 words, above budget ceiling 580 (target 504) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-08-25T07:33:24+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text 585 words, above budget ceiling 580 (target 504) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-08-25T07:37:32+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0259e3454782de84baf271956e978e51",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-08-25T07:37:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 568,
+      "begroting": 504,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-25T07:50:13+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-25T07:50:13+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 44,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-25T07:50:13+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\DricoSnyman\\dev\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\versterking-van-materiaal\\les-1.json",
+      "konsep_hash": "sha256:0259e3454782de84baf271956e978e51",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:d151d6a53844b35725da8c30fcf39048",
+  "spek_hash": "sha256:813afc0ab71ac6253b1ae498b0d1def8",
   "hek_konteks": {
     "graad": 4,
     "begroting": 504

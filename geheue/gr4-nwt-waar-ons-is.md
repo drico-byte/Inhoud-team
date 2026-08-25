@@ -28,6 +28,19 @@ anything written so far, so it splits on CAPS's own seam — folding, then rolli
 also gives the word **stut** its own lesson before the frame-structure lesson leans on it.
 Everything after shifts by one: Term 3 starts at 18, and the year runs to about 31.
 
+**14 and 15 are DONE and approved** — "'n Vel papier wat 'n boek dra" (568) and
+"Van plat vel tot sterk buis" (575). Both took five to six revision rounds, far more
+than any Term 1 lesson, and the reasons are recorded in
+[[n-regstelling-ontwrig-sy-bure]] and [[spesifikasies-word-nooit-nagegaan]]: the two
+lessons share a mechanism, and most of the later findings came from my own revision
+briefs rather than from the drafts.
+
+Two non-faults left for the downstream human pass, both flagged by checkers and both
+deliberately not fixed: "Sy vel" in lesson 14 reads for four words as *his skin*
+before "as die plat vel" resolves it, and one "sy" in the mechanism block means a
+cornered pillar where an earlier "hy" in the same block meant the round one. Both
+checked out as unambiguous; neither is worth another cycle.
+
 9 Vaste stowwe, vloeistowwe en gasse (690) · 10 Verandering van die toestand (690) ·
 11 Die watersiklus (~400) · 12 Onverwerkte en verwerkte materiaal (716) ·
 13 Eienskappe van materiaal (716) · 14 Versterk: vou (505) · 15 Versterk: rol, stutte (505) ·
