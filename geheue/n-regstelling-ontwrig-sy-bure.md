@@ -78,3 +78,20 @@ which sibling lessons teach the same mechanism, and name them in the revision br
 The risk is highest inside one sub-topic, where lessons deliberately build on each
 other. Related: [[meting-dek-minder-as-die-lesse]].
 
+## Give sibling lessons by PATH, not by name — a writer cannot browse
+
+2026-08-25, Term 2 lesson 16. The brief told the writer to build on lesson 15 and on
+Term 1's lesson 8, naming both. It could find neither: the writer agent has Read and
+Write but no shell, so it cannot list a directory to find a file it was not handed. It
+searched, failed, said so, and wrote the lesson from the brief alone — which is the
+right behaviour, and the only reason the gap was visible.
+
+**So whenever a brief asks for continuity with another lesson, paste the path.** The
+same applies to a checker asked to cross-check a sibling.
+
+Grade 4 NWT paths, for reference:
+`konsepte/gr4/natuurwetenskappe-en-tegnologie/<subonderwerp-slug>/les-N.json`
+
+And when the writer could not do it, the coverage checker can — it reads whatever paths
+it is given. Hand the cross-check downstream rather than losing it.
+
