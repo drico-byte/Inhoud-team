@@ -110,7 +110,14 @@ def link_memory():
     skill above. Nothing is duplicated, so nothing can drift.
     """
     target = os.path.join(REPO, "geheue")
-    key = "C--" + REPO.replace(":", "-").replace(os.sep, "-").lstrip("-")
+    # Claude Code names the folder after the path: the drive colon and every
+    # separator become a dash, and so does every space. "C:\Users\x" therefore
+    # gives "C--Users-x" on its own -- prepending "C--" as this line used to do
+    # produced "C--C--Users-x", a folder Claude Code never reads, and the working
+    # junction had to be made by hand. The space rule matters now that the repo
+    # lives under a directory whose name contains one.
+    key = (REPO.replace(":", "-").replace(os.sep, "-").replace(" ", "-")
+               .lstrip("-"))
     link = os.path.join(os.path.expanduser("~"), ".claude", "projects", key, "memory")
 
     if not os.path.isdir(target):
