@@ -130,7 +130,7 @@ class Uitvoer:
 
 
 # ---------------------------------------------------------------- preflight
-def eis_profiel(vak, graad, sub):
+def eis_profiel(vak, graad, sub, basis=None):
     pad, cfg = P.vind_profiel(vak, graad, sub)
     if pad is None:
         raise Refuse(
@@ -140,7 +140,19 @@ def eis_profiel(vak, graad, sub):
             "numbers only. See README, 'Profiling a new subject-grade'.")
     vol = P.onderwerp_woorde(cfg, sub)
     if not vol or not vol.get("woorde"):
-        raise Refuse(f"profiler config {P.rel(pad)} records no word volume for '{sub}'")
+        # A zero measurement is a real answer, not a missing one: the book simply
+        # does not cover this sub-topic. That is exactly the case the "vereistes"
+        # budget basis exists for, and the spec carries the budget instead. Refusing
+        # here made every such sub-topic unrunnable — the first one to arrive could
+        # not be written at all, though its spec was approved and validated.
+        if basis == "vereistes":
+            return pad, cfg, dict(vol or {}, woorde=0, bladsye=0, geen_meting=True)
+        raise Refuse(
+            f"profiler config {P.rel(pad)} records no word volume for '{sub}'",
+            "If the book genuinely does not cover this sub-topic, that is a valid",
+            "answer and the spec's budget basis must be 'vereistes', which makes the",
+            "spec's own budgets the authority. This refusal is for a measurement that",
+            "is missing rather than zero.")
     return pad, cfg, vol
 
 
@@ -414,10 +426,19 @@ def oorsig(vak, graad, sub, spek, uit):
 def stap(a, uit):
     vak, graad, sub = a.vak, a.graad, a.subonderwerp
 
-    profiel_pad, profiel, vol = eis_profiel(vak, graad, sub)
+    # The spec's budget basis decides whether a zero measurement is fatal, so read
+    # it before judging the profiler config. Only the basis is taken this early; the
+    # spec is still validated properly by eis_spek below.
+    basis = P.lees_json(P.spek_goedgekeur(graad, vak, sub)).get("begroting_basis") \
+        if os.path.exists(P.spek_goedgekeur(graad, vak, sub)) else None
+
+    profiel_pad, profiel, vol = eis_profiel(vak, graad, sub, basis)
     uit.step("profiler config", "OK",
              [f"{P.rel(profiel_pad)}",
-              f"'{sub}': {vol['woorde']} measured words over {vol['bladsye']} pages"])
+              (f"'{sub}': the book does not cover this sub-topic — 0 measured words. "
+               f"Budgets come from the spec under the 'vereistes' basis."
+               if vol.get("geen_meting")
+               else f"'{sub}': {vol['woorde']} measured words over {vol['bladsye']} pages")])
 
     spek_pad, spek = eis_spek(vak, graad, sub, uit)
     uit.step("approved spec", "OK", [P.rel(spek_pad)])
