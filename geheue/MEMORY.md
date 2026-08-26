@@ -30,3 +30,4 @@
 - [State that never got saved](staat-wat-nie-gestoor-word-nie.md) — the runner deleted every coverage report forever; when a step demands work already done, check the fingerprint, and suspect the harness before the agents.
 - [Ask the whole subject, not three lessons](vra-die-hele-vak-nie-drie-lesse-nie.md) — I called content new after checking a shortlist; two delivered lessons already taught it.
 - [Don't take a fix further than the finding](moenie-n-regstelling-verder-vat-as-die-bevinding-nie.md) — I turned a two-pair rule into a general one; it isn't, and the lesson broke it a block later.
+- [Energy as stuff is allowed as a picture](energie-as-stof-mag-as-beeld.md) — never say it IS a liquid or a solid; and the mapping still has to be checked even when the image is permitted.
