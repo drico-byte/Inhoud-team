@@ -34,3 +34,4 @@
 - [Explain, don't just cover](verklaar-moenie-net-dek-nie.md) — a block can meet every requirement and teach nothing; the shape that lands first time costs no extra words.
 - [A script that parses is not a script that works](n-skrip-wat-parse-is-nie-n-skrip-wat-werk-nie.md) — six bugs, none visible to a syntax check; run it end to end before shipping it.
 - [Untouchable words for the language checker](onaantasbare-woorde-vir-die-taalnasiener.md) - the Afrikaans check happens outside this pipeline; a ruling not written into the protected-words file gets quietly undone.
+- [A clean check is only as wide as its scope](n-skoon-toets-is-so-wyd-soos-sy-omvang.md) — I called drift zero across the subject after comparing one pair; a real sweep found eight drifted terms.

@@ -129,6 +129,40 @@ It reports words against budget, mean sentence length against the band, and the
 most frequent failure. A pattern there is a prompt fix; only a one-off is a lesson
 fix.
 
+## Checks that span lessons
+
+The gate reads one lesson. The coverage checker reads one lesson against one spec
+entry. Neither can see a fault that only exists *between* files, and the most
+common one is a term that two lessons define differently — each lesson correct on
+its own, the pair teaching two things.
+
+```bash
+python bin/woordelysdrif.py --vak "Natuurwetenskappe en Tegnologie" --graad 4
+```
+
+It reads every lesson draft in the tree and reports any glossary term defined more
+than one way, with each wording's lessons, their status and their place in the
+year. It exits 1 when it finds drift, so it can gate a commit. Run it before
+claiming a subject is consistent — and quote the lesson count it prints, because
+a sweep that read three files looks exactly like a sweep that found nothing.
+
+When drift is real, one wording wins and the losers are rewritten **through the
+writer**, at their source in the spec as well as in the draft. A third wording
+makes it worse.
+
+The other cross-lesson tool prepares a lesson for the outside language checker:
+
+```bash
+python bin/taalnasien.py --vak "Natuurwetenskappe en Tegnologie" --graad 4     --subonderwerp "Vaste stowwe" --les 2
+```
+
+It prints the instruction, then the words that checker may not change — the
+hand-recorded rulings in `kaps/beskermde-woorde.json` filtered to those that
+actually appear, plus every glossary entry this lesson shares with another, found
+by reading the other lessons rather than by trusting a list — and then the lesson.
+Each protected word reads like ordinary Afrikaans that could be improved, which is
+exactly why the reason travels with it.
+
 ## The four human approval points
 
 1. **The profiler's output.** Read the page counts and volumes before budgeting
@@ -181,7 +215,8 @@ they are gitignored.
 skills/wolkskool-inhoudstandaard/   the standard: SKILL.md, scripts, references, assets
 prompts/                           the four versioned agent prompts
 .claude/agents/                     the four agents, each pointing at its prompt
-bin/                               opstel.py (setup), hardloop.py (runner), logoorsig.py (logs)
+bin/                               opstel.py (setup), hardloop.py (runner), logoorsig.py (logs),
+                                   woordelysdrif.py and taalnasien.py (across lessons)
 profiele/                          one profiler config per subject-grade
 kaps/                              CAPS sub-topic label files
 kaps/dokumente/<fase>/             the CAPS documents themselves, one folder per

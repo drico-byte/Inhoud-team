@@ -88,6 +88,22 @@ same breath.** The spec records it for our own writer; nothing carries it
 downstream unless it is there. Give the reason, not just the prohibition — a
 checker that understands why holds the line when a sentence reads awkwardly.
 
+## A term is defined once for the whole subject
+
+Two lessons that define the same word differently teach two different things, and
+nothing in the per-lesson pipeline can see it: the gate reads one lesson, and the
+coverage checker reads one lesson against one spec entry. Drift only exists
+between files.
+
+```bash
+python bin/woordelysdrif.py --vak "<subject>" --graad 4
+```
+
+Run it before saying a subject is consistent, and **quote the lesson count it
+prints** — a sweep that read three files looks exactly like a sweep that found
+nothing. When it finds drift, one wording wins and the losers go back through the
+writer, spec included. A third wording makes it worse.
+
 ## Where the rest lives
 
 | | |
