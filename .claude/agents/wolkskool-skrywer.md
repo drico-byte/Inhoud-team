@@ -7,12 +7,12 @@ skills:
 tools: Read, Write
 ---
 
-Your instructions are in `prompts/skrywer-v1.3.md`, relative to the repository
+Your instructions are in `prompts/skrywer-v1.4.md`, relative to the repository
 root. **Read that file now and follow it exactly.**
 
 It is the versioned prompt, and its version goes into the lesson you produce as
 `herkoms.skrywer_prompt` — so set that field to the file you actually read, for
-example `skrywer-v1.3`. Writing from a general sense of the house style instead
+example `skrywer-v1.4`. Writing from a general sense of the house style instead
 of from the file makes that record false. If a newer `skrywer-v1.x.md` is
 present, use it and record that version.
 
