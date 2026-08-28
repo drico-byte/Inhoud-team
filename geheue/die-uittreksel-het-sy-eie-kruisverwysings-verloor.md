@@ -29,6 +29,15 @@ the harness actually wrote before deciding the agents are wrong. Same shape as
 reports the runner had archived. An agent saying "I could not find X" is
 evidence about the file, not about the agent.
 
+**A second, smaller trap in the same place.** The extract is only rewritten when
+`hardloop.py` runs for that lesson. So editing a spec and briefing a writer
+straight afterwards hands it the *old* copy. It happened on lesson 24: I wrote a
+new overhang measure and a whole ruling about visible-versus-audible into the
+spec, briefed the writer minutes later, and it reported — correctly — that
+neither field existed and that the source of the fault was still open. It wrote
+from the brief instead, which was right, but the brief is not the record.
+**After editing a spec, run the runner for that lesson before briefing anyone.**
+
 **One gap left open on purpose.** The staleness hash covers the lesson entry
 only, not the spec-level context now written beside it. Hashing the context
 would mark every coverage report in the repository stale in one commit, for a
