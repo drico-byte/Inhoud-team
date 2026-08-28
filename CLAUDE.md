@@ -66,6 +66,28 @@ Fix a finding **at its source in the spec**, not only in the draft, or the next
 revision reinstates it. When a decision changes what a lesson says, the spec has
 to move in the same breath.
 
+## The Afrikaans check happens outside this pipeline
+
+A separate tool checks grammar, idiom and direct-translation errors, and it is
+better at Afrikaans than we are. It will also **undo our decisions unless it is
+told not to** — every protected word reads like ordinary Afrikaans that could be
+improved, which is exactly why it needs protecting. `energie` where `krag`
+sounds more natural. `die meeste` where `byna elke` is smoother. `ungquphantsi`,
+which looks like a typo.
+
+```bash
+python bin/taalnasien.py --vak "<subject>" --graad 4 --subonderwerp "<sub-topic>" --les 1
+```
+
+That builds the block to paste in: the instruction, the protected words with the
+reason for each, then the lesson. Glossary entries shared between lessons are
+protected automatically, by reading the other lessons.
+
+**When a ruling settles a word, write it into `kaps/beskermde-woorde.json` in the
+same breath.** The spec records it for our own writer; nothing carries it
+downstream unless it is there. Give the reason, not just the prohibition — a
+checker that understands why holds the line when a sentence reads awkwardly.
+
 ## Where the rest lives
 
 | | |
