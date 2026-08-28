@@ -25,6 +25,20 @@ almost always goes wrong instead is narrowing the SUBJECT — from machines in
 general to this one hairdryer — which is a different edit that happens to make
 the sentence true by making it say nothing.
 
+**And it runs in both directions.** Restoring the general half brought two of
+the absolutes straight back with it: "at most machines the sound is the part
+**nobody** wants". The trap is that "most machines" narrows the *machines*, not
+the *people*, so the sentence reads hedged while still carrying an absolute — and
+the block's own example contradicts it, because hairdryer noise is used on
+purpose to settle babies. Reach and strength are independent properties of a
+sentence, and a fix that only attends to one of them keeps trading the fault back
+and forth. Lesson 22 spent four writer passes on this.
+
+One thing would have shortened it: the specification's own wording was already
+safe on both counts ("the *useless* part"), and the writer paraphrased past it
+into something stronger. When restoring a general half, take the spec's words
+rather than re-deriving them — that is what a prescribed wording is for.
+
 **How to apply:** when sending an over-claim back, say which word is doing the
 over-claiming and say that the general reach must survive. Name the requirement
 the sentence carries, so the writer can see what would be lost. Then, on the
