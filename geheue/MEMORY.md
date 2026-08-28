@@ -39,3 +39,4 @@
 - [Don't run the runner over a working writer](moenie-die-hardloper-oor-n-werkende-skrywer-laat-loop-nie.md) — it gated a draft mid-revision; archived reports are recoverable from the log tree.
 - [The textbook comes through the search results too](die-handboek-kom-ook-deur-die-soekresultate.md) — the fact checker declined a Grade 4 PDF on its own; nothing had told it to, and now the prompt does.
 - [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — three of four fixed over-claims stopped being claims; narrow the quantifier, never the subject.
+- [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went over unprotected.

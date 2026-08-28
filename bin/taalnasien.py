@@ -48,11 +48,25 @@ def lees_json(pad):
 
 
 def lesteks(les):
-    """Every word a language checker would read, block by block."""
+    """Every word a language checker would read, block by block.
+
+    A `lys` block keeps its lines in `items` and carries no `teks` at all. This
+    read only `teks`, so every list block in every lesson -- seventeen of them in
+    Gr 4 NWT alone -- was dropped silently from what the checker is sent. Two
+    things followed, and the second is the worse: that Afrikaans was never
+    checked, and `beskermde_woorde` decides what to protect by asking whether a
+    word appears in this output, so a protected wording living only in a list
+    went over unprotected. The one that surfaced it carries a whole assessed
+    requirement -- noise at home, at school, in the community.
+    """
     dele = []
     for b in les.get("blokke", []):
         kop = (b.get("kop") or b.get("term") or b.get("vir") or "").strip()
         teks = (b.get("teks") or "").strip()
+        items = [i.strip() for i in (b.get("items") or []) if str(i).strip()]
+        if items:
+            gelys = "\n".join(f"  - {i}" for i in items)
+            teks = f"{teks}\n{gelys}" if teks else gelys
         if kop and teks:
             dele.append(f"[{b.get('tipe')}] {kop}\n{teks}")
         elif teks:
