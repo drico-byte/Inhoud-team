@@ -40,6 +40,35 @@ function Refresh-Path {
 
 function Have($name) { [bool](Get-Command $name -ErrorAction SilentlyContinue) }
 
+# An installer writes PATH after winget returns, so a tool can be on disk and
+# still invisible to this shell even after re-reading the registry. Rather than
+# send the person away to open a new window, look where it actually landed and
+# put that folder on PATH for the rest of this run.
+function Install-WithWinget($id, $label) {
+    $log = & winget install --id $id --silent --accept-package-agreements --accept-source-agreements 2>&1 | Out-String
+    return $log
+}
+
+function Show-InstallLog($log) {
+    if (-not $log) { return }
+    $lines = ($log -split "`r?`n" | Where-Object { $_.Trim() }) | Select-Object -Last 6
+    foreach ($l in $lines) { Write-Host "          $($l.Trim())" -ForegroundColor DarkGray }
+}
+
+function Add-ToolToPath($exe, $candidates) {
+    if (Have $exe) { return $true }
+    Refresh-Path
+    if (Have $exe) { return $true }
+    foreach ($c in $candidates) {
+        foreach ($hit in (Get-Item $c -ErrorAction SilentlyContinue)) {
+            $dir = Split-Path $hit.FullName -Parent
+            $env:Path = "$dir;$env:Path"
+            if (Have $exe) { return $true }
+        }
+    }
+    return (Have $exe)
+}
+
 # --- 0. where are we --------------------------------------------------------
 
 Say-Head 'Wolkskool content pipeline - setup'
@@ -107,7 +136,7 @@ $Py = Find-Python
 
 if (-not $Py) {
     Say-Do 'installing Python'
-    winget install --id Python.Python.3.12 --silent --accept-package-agreements --accept-source-agreements | Out-Null
+    $log = Install-WithWinget 'Python.Python.3.12'
     Refresh-Path
     $Py = Find-Python
 }
@@ -150,20 +179,33 @@ if (Have 'tesseract') {
     Say-Ok "tesseract: $((Get-Command tesseract).Source)"
 } else {
     Say-Do 'installing Tesseract (this one takes a minute)'
-    winget install --id UB-Mannheim.TesseractOCR --silent --accept-package-agreements --accept-source-agreements | Out-Null
-    Refresh-Path
-    if (Have 'tesseract') { Say-Ok "tesseract: $((Get-Command tesseract).Source)" }
-    else { Say-Bad 'Tesseract installed but is not on PATH - reopen PowerShell and run this again' }
+    $log = Install-WithWinget 'UB-Mannheim.TesseractOCR'
+    $found = Add-ToolToPath 'tesseract' @(
+        (Join-Path $env:ProgramFiles 'Tesseract-OCR\tesseract.exe'),
+        (Join-Path ${env:ProgramFiles(x86)} 'Tesseract-OCR\tesseract.exe'),
+        (Join-Path $env:LOCALAPPDATA 'Programs\Tesseract-OCR\tesseract.exe')
+    )
+    if ($found) { Say-Ok "tesseract: $((Get-Command tesseract).Source)" }
+    else {
+        Say-Bad 'Tesseract could not be installed or found'
+        Show-InstallLog $log
+    }
 }
 
 if ((Have 'pdftoppm') -and (Have 'pdfinfo')) {
     Say-Ok "poppler: $((Get-Command pdftoppm).Source)"
 } else {
     Say-Do 'installing Poppler'
-    winget install --id oschwartz10612.Poppler --silent --accept-package-agreements --accept-source-agreements | Out-Null
-    Refresh-Path
-    if ((Have 'pdftoppm') -and (Have 'pdfinfo')) { Say-Ok 'poppler installed' }
-    else { Say-Bad 'Poppler installed but pdftoppm/pdfinfo are not on PATH - reopen PowerShell and run this again' }
+    $log = Install-WithWinget 'oschwartz10612.Poppler'
+    $found = Add-ToolToPath 'pdftoppm' @(
+        (Join-Path $env:LOCALAPPDATA 'Microsoft\WinGet\Packages\oschwartz10612.Poppler*\poppler-*\Library\bin\pdftoppm.exe'),
+        (Join-Path $env:ProgramFiles 'poppler*\Library\bin\pdftoppm.exe')
+    )
+    if ($found -and (Have 'pdfinfo')) { Say-Ok "poppler: $((Get-Command pdftoppm).Source)" }
+    else {
+        Say-Bad 'Poppler could not be installed or found'
+        Show-InstallLog $log
+    }
 }
 
 # --- 4. Tesseract language data --------------------------------------------
