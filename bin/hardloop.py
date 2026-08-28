@@ -188,6 +188,26 @@ def eis_spek(vak, graad, sub, uit):
     return goed, P.lees_json(goed)
 
 
+def met_spek_konteks(spek, inskrywing):
+    """The lesson entry, plus the spec-level fields it refers to by bare name.
+
+    A lesson entry says things like "see buite_bestek" and "use the wordings in
+    gedeelde_omskrywings". Those live on the spec, not on the entry, and the
+    entry was written out alone -- so every one of those cross-references
+    pointed at nothing. A writer hit this on lesson 23 and said so; the two
+    glossary entries it had to invent both came out different from the wordings
+    three later lessons were going to share, which is the exact fault the
+    shared-wording field exists to prevent.
+
+    The entry's own keys win, so a lesson may still narrow anything.
+    """
+    saam = {k: v for k, v in spek.items() if k != "lesse"}
+    saam.update(inskrywing)
+    saam["_spek_vlak_velde"] = sorted(k for k in spek if k != "lesse"
+                                      and k not in inskrywing)
+    return saam
+
+
 def eis_les_inskrywing(spek, nommer):
     for L in spek.get("lesse", []):
         if int(L.get("nommer", -1)) == int(nommer):
@@ -447,7 +467,8 @@ def stap(a, uit):
         oorsig(vak, graad, sub, spek, uit)
         return 0, "OORSIG"
 
-    inskrywing = eis_les_inskrywing(spek, a.les)
+    les_inskrywing = eis_les_inskrywing(spek, a.les)
+    inskrywing = met_spek_konteks(spek, les_inskrywing)
     begroting = inskrywing["begroting"]
     les_id = P.kaps_pad(graad, vak, sub).replace(os.sep, "/") + f"/les-{a.les}"
 
@@ -536,7 +557,17 @@ def stap(a, uit):
     # budget, coverage depends on the whole spec entry, and the fact check depends
     # on neither. Re-running a web-heavy fact check for a budget edit is waste.
     hek_konteks = {"graad": int(graad), "begroting": int(begroting)}
-    spek_h = konsep_hash(inskrywing)
+    # The LESSON entry, not the entry plus the spec-level context that is written
+    # out beside it. Two reasons, and the second is a known gap.
+    #
+    #   * The context was added to the written file long after these lessons were
+    #     checked. Hashing it would mark every coverage report in the repository
+    #     stale in one commit, for a file that gained fields rather than changed
+    #     requirements -- noise that reads exactly like signal.
+    #   * The gap: a real edit to a spec-level field (buite_bestek, say) does not
+    #     invalidate anything. It never did. Closing it means re-checking every
+    #     delivered lesson once, which is a cost decision, not a code decision.
+    spek_h = konsep_hash(les_inskrywing)
     siklus_nou = len(staat.get("teruggestuur_vir") or []) + 1
 
     if staat.get("hek") is not None and staat.get("hek_konteks") != hek_konteks:
