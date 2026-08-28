@@ -32,3 +32,4 @@
 - [Don't take a fix further than the finding](moenie-n-regstelling-verder-vat-as-die-bevinding-nie.md) — I turned a two-pair rule into a general one; it isn't, and the lesson broke it a block later.
 - [Energy as stuff is allowed as a picture](energie-as-stof-mag-as-beeld.md) — never say it IS a liquid or a solid; and the mapping still has to be checked even when the image is permitted.
 - [Explain, don't just cover](verklaar-moenie-net-dek-nie.md) — a block can meet every requirement and teach nothing; the shape that lands first time costs no extra words.
+- [A script that parses is not a script that works](n-skrip-wat-parse-is-nie-n-skrip-wat-werk-nie.md) — six bugs, none visible to a syntax check; run it end to end before shipping it.
