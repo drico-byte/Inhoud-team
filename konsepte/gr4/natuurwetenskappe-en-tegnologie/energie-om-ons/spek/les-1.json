@@ -1,4 +1,102 @@
 {
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 4,
+  "kwartaal": 3,
+  "kaps_onderwerp": "Energie en Verandering",
+  "kaps_onderwerp_nota": "KABV se Graad 4 Kwartaal 3 kennisafdeling dra twee opskrifte bo dieselfde tabel: 'NATUURWETENSKAPPE: ENERGIE EN VERANDERING' en 'TEGNOLOGIE: STELSELS EN BEHEER'. Hierdie subonderwerp le oor albei: die helfte oor energie om ons en gestoorde bronne is natuurwetenskap, en die helfte oor inset en uitset van masjiene is stelsels-en-beheer. Die etiket hierbo is die een wat die taak en die profiler se konfig gebruik, en niks in hierdie spesifikasie word daaruit afgelei nie.",
+  "kaps_subonderwerp": "Energie om ons",
+  "kaps_inhoudsopskrifte": [
+    "Energie",
+    "Inset en uitset van energie"
+  ],
+  "kaps_ure": 8.75,
+  "kaps_ure_nota": "KABV se eie inskrywing by hierdie ry is '2 1/2 weke (8 3/4 uur)'. Die beplanningstaak het '2 weke (8 uur)' gese; die KABV-dokument self (Natuurwetenskappe en Tegnologie Graad 4-6, bladsy 23 van die dokument) se 2 1/2 weke en 8 3/4 uur. Die getal hierbo is die dokument se getal. Dit maak geen verskil aan enigiets in hierdie spesifikasie nie, want kontakure kom in geen berekening voor nie: hulle se hoe lank 'n onderwyser aan 'n onderwerp bestee, nie hoeveel 'n leerder lees nie. Slegs herkoms.",
+  "fokusvraag": "Waar kom die energie vandaan wat ons masjiene en toestelle laat werk, en wat kry ons daaruit?",
+  "fokusvraag_nota": "Deur die beplanner gestel. KABV Natuurwetenskappe en Tegnologie stel nie fokusvrae soos Sosiale Wetenskappe nie. Die vraag is uit KABV se eie twee inhoudsopskrifte gebou en dit is doelbewus in twee helftes gesny wat by die twee lesse pas: 'waar kom die energie vandaan' is les 20 (energie om ons, bronne wat energie stoor, oordrag na waar dit nodig is) en 'wat kry ons daaruit' is les 21 (inset en uitset). Die vraag vra niks oor ontwerp of maak nie, want daardie werk val buite hierdie teks.",
+  "profiel_konfig": "gr4-nwt-kw3-profiel.json",
+  "onderwerp_woorde": 1148,
+  "onderwerp_woorde_nota": "Gemeet, nie geskat nie: 5 bladsye, 1148 woorde, 230 woorde per bladsy. Dit loop bo die bron se mediaan van 215,5 woorde per bladsy. Die bladsye is met die hand afgebaken (--dpi 300) omdat die handboek se Kwartaal 3 in 'n ander orde as KABV loop. Die gemete bladsye dek windenergie en masjiene wat bewegende lug gebruik. Dit dien die inset-en-uitset-helfte; die gestoorde-bronne-helfte (voedsel, hout, steenkool, olieprodukte, natuurlike gas) kom nie in die bron voor nie. Sien 'begrotingsoordeel'.",
+  "totale_begroting": 1148,
+  "begroting_basis": "gemete_volume",
+  "begroting_basis_nota": "1148 gemete woorde gelyk oor twee lesse: 574 elk (round(1148/2) = 574), totaal 1148. Die verdeling en die basis is deur Drico op 2026-08-25 besluit VOOR beplanning, en die rede staan in kaps/gr4-nwt-kw3.json onder 'begroting_besluite'. Die verdeling is gelyk omdat dit is wat die deling van een meting oplewer; geen les word swaarder gemaak omdat sy inhoud belangriker lyk nie.",
+  "begrotingsoordeel": {
+    "vraag": "Die meting dek die inset-en-uitset-helfte en NIE die gestoorde-bronne-helfte nie. Dra 574 woorde les 20 se tweede inhoudspunt (voedsel, hout, steenkool, olieprodukte, natuurlike gas) sonder dat die meting dit steun?",
+    "antwoord": "Ja, dit dra, en die getal word nie verander nie. Die rekenkunde staan hier sodat 'n mens dit kan nagaan in plaas van om dit te glo. Les 20 dra sewe kern-inskrywings teen 574 woorde, ongeveer 82 woorde elk. Dit is dieselfde digtheid as 'Versterking van materiaal' les 1, wat sewe inskrywings teen 504 woorde gedra het en die hek sonder waarskuwing geslaag het. Die vyf bronne is die plek waar dit sou breek, en dit breek nie, op een voorwaarde: hulle word as EEN groep met een meganisme onderrig (hout, steenkool, olieprodukte en gas brand; voedsel word deur 'n lewende ding gebruik) plus 'n kompakte lys, en NIE as vyf aparte behandelings van drie sinne elk nie. Vyf aparte behandelings sou ongeveer 220 woorde vra en dan het die inhoudspunt oor oordrag niks oor nie. Die groepbehandeling vra ongeveer 110 en die naam van elke bron staan nog daar. Die volle toedeling per blok staan by elke les onder 'toedeling', en dit tel presies tot 574.",
+    "wat_ek_NIE_gedoen_het_nie": "Ek het die getal nie stilweg groter gemaak om die leemte in die meting te vergoed nie. As my oordeel andersom was, sou hierdie veld dit gese het en die saak sou na Drico gegaan het.",
+    "waar_die_leemte_wel_bepalend_is": "Nie in die getal nie, maar in die inhoud. Die bron se bladsye handel oor wind en bewegende lug, en wind is NIE Graad 4 KABV-inhoud nie (sien kaps/gr4-nwt-kw3.json se 'kartering_nota'). Die enigste ding wat uit daardie bladsye kom, is die getal 1148. Wind, windenergie en windmeulens staan uitdruklik in 'buite_bestek'."
+  },
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument (Natuurwetenskappe en Tegnologie Graad 4-6, Graad 4 Termyn 3 inhoudstabel: die subonderwerp 'Energie om ons' met sy twee inhoudsopskrifte en vyf strepies, die voetnoot by 'olie produkte', die voorgestelde aktiwiteite, die gereedskaplys, die voorafgaande subonderwerp 'Energie en Energie-oordrag', die daaropvolgende subonderwerpe 'Beweging en Energie in 'n stelsel' en 'Energie en klank', en die kwartaal se assesseringsriglyne), die profiler se getalle uit gr4-nwt-kw3-profiel.json, Drico se begrotingsbesluite in kaps/gr4-nwt-kw3.json, sy lesindeks in kaps/lesindeks, en twee reeds goedgekeurde spesifikasies (Vaste stowwe en Versterking van materiaal) waarteen hierdie een nie mag bots nie.",
+    "bronne_nota": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset of beskrywing van 'n handboek se indeling het enige deel van hierdie beplanning ingelig. Die repository bevat die handboek self onder bronne/ en teksuittreksels elders; niks daarvan is oopgemaak nie en die skrywer mag dit ook nie oopmaak nie. Die enigste ding wat uit daardie boek na hierdie spesifikasie toe kom, is die getal 1148 en die bladsytelling waaruit dit kom."
+  },
+  "verdeling_nota": "Twee lesse, en die getal is deur 'n mens besluit en aan die beplanner gegee. Dit is nie 'n beplannerskeur nie: KABV se subonderwerp dra TWEE inhoudsopskrifte, 'Energie' (drie strepies) en 'Inset en uitset van energie' (twee strepies), en die twee lesse val presies op daardie naat. Die skeurreel (vier of meer genoemde items) is nie ter sprake nie. Die naat is ook die een wat die assessering vra: die kwartaal se assesseringsriglyn wat hierdie subonderwerp raak, 'verduidelik die inset en uitset van energie in verskeie masjiene en toestelle', val heeltemal binne les 21, wat beteken les 21 hoef nie sy woorde met die bronne-inhoud te deel nie.",
+  "besluite": [
+    "BESLUIT: die woorde 'inset' en 'uitset' kom NERENS in hierdie les voor nie, ook nie in die woordelys of 'n begrip-inskrywing nie. Les 21 voer hulle in en gee hulle 'n eie tuiste, en die assesseringsriglyn hang aan hulle. 'n Term wat halfpad deur hierdie les as blote woordeskat opdaag, verloor daardie tuiste. Waar hierdie les moet se dat die energie by die masjien AANKOM, skryf dit dat die energie aankom.",
+    "BESLUIT: die vier dinge uit KABV se eerste strepie word in KABV se orde genoem (beweging, hitte, lig, klank) en die les rangskik hulle nie. Daar is geen orde van belangrikheid nie en enige rangorde sou 'n bewering wees wat niemand gemaak het nie."
+  ],
+  "buite_bestek": [
+    "WIND, WINDENERGIE EN WINDMEULENS. Die gemete bladsye handel hieroor en dit is die een plek waar die bron se indeling in hierdie lesse kon insypel. Wind is nie Graad 4 KABV-inhoud nie: die woord kom drie keer in die hele Graad 4-6 KABV-dokument voor en nooit as Graad 4-inhoud nie. Les 21 mag se dat 'n waaier se uitset bewegende lug is, want die waaier staan in KABV se eie lys. Dit mag nie wind verduidelik nie, nie se waar wind vandaan kom nie, en geen windmeul of windturbine noem nie.",
+    "HOE STEENKOOL, RU-OLIE EN NATUURLIKE GAS ONTSTAAN HET. Nie in KABV Graad 4 nie, en die goedgekeurde spesifikasie vir 'Vaste stowwe' (jaarles 12) het dit reeds uitdruklik buite bestek gestel, met die rede dat dit 'n tydskaal vra wat 'n Graad 4-les nie kan dra nie. Les 20 se WAAR hulle vandaan kom (uit die grond, uit die see se bodem) en niks oor hoe hulle gevorm het. Sien ook les 20 se 'feiterisiko' oor die Son.",
+    "DIE ENERGIE-/VOEDSELKETTING MET PYLE EN RIGTING. Dit is jaarles 19 ('Energie van die Son') se inhoud en die kwartaal se eerste assesseringsriglyn. Les 20 mag EEN sin se dat die energie in kos en in hout van die Son kom; dit mag geen ketting teken, geen pyle gebruik en geen volgorde Son-plant-dier onderrig nie.",
+    "HOE ONS ENERGIE UIT KOS KRY, EN SPYSVERTERING. Dit is jaarles 18 ('Energie vir lewe') se inhoud.",
+    "MUSIEKINSTRUMENTE AS STELSELS, INSLUITEND DIE DROM. Jaarles 22. Sien 'besluite'.",
+    "VIBRASIES, HOE KLANK BEWEEG, TOONHOOGTE, VOLUME EN GERAASBESOEDELING. Jaarlesse 23 tot 25. Les 20 mag se dat klank een van die dinge is waaraan 'n mens energie herken, en dat dit van iets kom wat bewe. Dit mag nie se hoe klank deur lug of ander materiaal beweeg nie.",
+    "DOELTREFFENDHEID AS 'N ONDERWERP, EN ENIGE PERSENTASIE OF GETAL OOR HOEVEEL ENERGIE IETS GEBRUIK OF LEWER. Les 21 moet se dat die inset en die nuttige uitset nie ewe veel is nie, want KABV se eie woord is 'nuttig'. Dit mag nie doeltreffendheid onderrig, meet of benoem nie.",
+    "HERNUBARE EN NIE-HERNUBARE BRONNE, ENERGIEBESPARING, BESOEDELING EN BEURTKRAG. Nie een staan in hierdie subonderwerp se strepies nie, en al vier is groot genoeg om die begroting op te eet.",
+    "ELEKTRIESE VEILIGHEID AS 'N ONDERWERP. Een waarskuwing binne 'n waarneming is wel nodig en verpligtend (moenie 'n warm gloeilamp of 'n warm strykyster aanraak nie), maar veiligheid is nie 'n afdeling van hierdie lesse nie.",
+    "ONTWERP EN MAAK. KABV se voorgestelde aktiwiteite hier is 'gebruik prente' en 'beskryf', nie maak nie, dus is daar niks om uit te sluit behalwe die algemene reel: die denke wat 'n maaktaak toets is ons werk, die maak is nie.",
+    "Die dekkingsnasiener moet niks hiervan as ontbrekend aanteken nie."
+  ],
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "pct_woorde_oor_10_letters_gids": 3.0,
+      "woorde_per_sin": "11,0 tot 14,5",
+      "kommas_per_sin_maks": 0.35
+    },
+    "bron_steekproef_kwartaal_3": {
+      "woorde_gemeet": 6778,
+      "sillabes_per_woord": 1.5,
+      "pct_3plus_sillabes": 11.0,
+      "pct_woorde_oor_10_letters": 4.5,
+      "nota": "Die profiler se steekproef oor die hele geleesde bladsyreeks van Kwartaal 3, nie 'n meting van hierdie subonderwerp se eie bladsye nie. Anders as Kwartaal 2 loop hierdie kwartaal se bron BINNE die band op sillabes en op lang woorde per sillabe-maatstaf; net die lang-woord-gids (4,5% teen 'n gids van 3,0%) loop bo."
+    },
+    "bevinding": "Die gevaar hier is nie die bron nie, dit is ons eie kernwoord. 'Energie' is drie sillabes en dit is die woord waaroor die hele subonderwerp gaan, dus staan dit onvermydelik baie kere in 574 woorde. Daarby: elektrisiteit (13 letters, 5 sillabes), olieprodukte (12 letters, 4 sillabes), vliegtuigbrandstof (18 letters), natuurlike (10 letters, 4 sillabes), masjiene (3 sillabes), toestelle (3 sillabes), beweging (3 sillabes), gestoorde (3 sillabes), oorgedra (3 sillabes). Die 13%-perk op drie-plus-sillabewoorde is ongeveer 75 voorkomste in 574 woorde; 'energie' alleen kan 20 tot 25 daarvan wees. Die res van die sin moet dus kort wees, en 'energie' mag nie in samestellings groei nie.",
+    "besluit": "Die terme word gedra, met woordelys-steun buite die begroting, en die lopende sinne gebruik die kort weergawe of die konkrete ding.",
+    "register_instruksies": [
+      "Skryf 'energie', want dit is KABV se woord en daar is geen plaasvervanger nie. Maar bou GEEN samestelling daarmee nie: skryf 'bron', nie 'energiebron'; 'inset', nie 'energie-inset'; 'die energie wat ingaan', nie 'insetenergie'. Elke samestelling is 'n langer woord EN 'n nuwe term.",
+      "Skryf die konkrete ding waar dit die konkrete ding is: hitte, lig, klank, beweging, kos, hout, 'n battery, 'n prop. Skryf 'energie' waar die idee energie is. Twee 'energie' in een sin is een te veel.",
+      "'Elektrisiteit' hoogstens twee keer per les, met 'n begrip-inskrywing. Elders die konkrete ding: die prop in die muur, die draad, die battery.",
+      "MOENIE 'krag' as 'n ander woord vir energie of vir elektrisiteit gebruik nie. In die wetenskap beteken 'krag' 'n stoot of trek, en die leerder kry daardie betekenis later; twee betekenisse vir een woord in dieselfde vak is 'n gereserveerde-woord-probleem, nie 'n taalsmaak nie. Dit sluit 'kragstasie' NIE uit nie: dit is die eienaam van die plek en 'n mens ken nie 'n ander een nie.",
+      "MOENIE 'vliegtuigbrandstof' skryf nie (18 letters). Skryf 'die brandstof wat vliegtuie gebruik'. Dieselfde inhoud, geen lang woord, en dit verg geen begrip-inskrywing nie.",
+      "Skryf 'ru-olie', nooit 'olie' alleen, waar die stof uit die grond bedoel word. Sonneblomolie, olyfolie en enjinolie is almal olie. Hierdie reel kom uit die goedgekeurde spesifikasie van jaarles 12 en die twee lesse moet ooreenstem.",
+      "Skryf 'masjiene en toestelle'. 'Toerusting' een keer, as KABV se ander woord.",
+      "Skryf 'kos' in lopende sinne en 'voedsel' waar KABV se lys aangehaal word.",
+      "Skryf 'warm word' en 'warm', nie 'verhit' nie. Skryf 'brand', nie 'verbrand' of 'verbranding' nie.",
+      "Skryf 'wat ingaan' en 'wat uitkom' langs 'inset' en 'uitset', ten minste die eerste keer. Die twee terme is KABV se woorde en hulle bly, maar hulle is albei net vier en vyf letters lank en niks help 'n leerder soos die gewone woorde langs hulle."
+    ]
+  },
+  "gedeelde_omskrywings": {
+    "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+    "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+    "nota": "ALBEI IS NA DIE LESNASIEN REGGEMAAK, en albei was hier verkeerd terwyl die lesse reg was. 'energie' het hier 'n eie bewoording gedra wat van les 18 s'n verskil - en les 18 se weergawe is die een wat drie lesse reeds gebruik en wat lesse 21 tot 25 gaan erf, dus was hierdie inskrywing die een wat sou dryf. 'elektrisiteit' het dit 'n SOORT energie gemaak ('energie wat deur drade gedra word'), wat die fout is wat les 20 gehad het en wat op drie ander plekke in hierdie dokument al reggemaak is. Hierdie was die vyfde plek en dit is gemis omdat die term die SLEUTEL is en nie in die teks staan nie - 'n soektog deur die waardes vind dit nooit."
+  },
+  "gedeelde_omskrywings_nota": "Albei lesse gebruik albei woorde en albei moet hulle omskryf, want elke les moet alleen kan staan as hersieningsinstrument. Hulle mag dit egter nie VERSKILLEND omskryf nie. Let op wat die omskrywing van 'energie' NIE se nie: dit se nie energie is 'n ding, 'n stof of 'n hoeveelheid iets nie. Dit is doelbewus. Sien 'gedeelde_feiterisikos'.",
+  "gedeelde_feiterisikos": [
+    "GELD VIR ALBEI LESSE, EN DIT IS DIE BELANGRIKSTE INSKRYWING IN HIERDIE SPESIFIKASIE. Energie is nie 'n STOF nie. Beweging, hitte, lig en klank is dinge wat gebeur waar energie werk doen; hulle is nie potjies vol energie nie. Wat WEL mag: KABV se eie woorde 'gestoor' en 'oorgedra' is reg en bly. Wat NIE mag nie: enige vergelyking of beeld wat energie of hitte 'n vloeistof, 'n gas, 'n bal, 'n poeier, 'n stapel goed of iets wat 'n mens kan intap, uitgooi, opskep of aangee maak. Hierdie projek het al 'n hele blok gesny omdat twee verskillende analogiee vir hitte by presies hierdie naat gebreek het. Skryf eerder wat 'n mens sien: die pot word warm, die lamp skyn, die wiel draai.\n\nOPGEDATEER NA DRICO SE UITSPRAAK: DRICO SE UITSPRAAK (2026-08-26): energie MAG as iets wat beweeg en gebere word, geskets word. Dit is hoe 'n negejarige die idee vasvat, en dit maak die boekhou reg uit, want energie is werklik behoue. Die grens is die IDENTITEITSGRENS: 'beweeg soos', 'vloei soos', 'word gebere soos' is toegelaat; 'energie IS 'n vloeistof' of 'hitte IS 'n vloeistof' is verbode. 'n Beeld hoef nie as 'n uitsondering geregverdig te word nie. MAAR die afbeelding moet steeds bewering vir bewering nagegaan word: die bal-analogie wat vroeer in hierdie projek gebreek het, het gebreek omdat dit die kouer ding met NIKS laat begin het, en dit is 'n afbeeldingsfout wat die uitspraak nie regmaak nie. Die eerste helfte van hierdie inskrywing bly onveranderd en bly die belangrikste ding in hierdie spesifikasie: energie is nie 'n stof nie, en beweging, hitte, lig en klank is nie potjies vol energie nie. Wat verander het, is dat 'n VERGELYKING nie meer verbode is nie - net die identiteitsbewering.",
+    "GELD VIR ALBEI LESSE. Niks MAAK energie nie. Nie 'n kragstasie nie, nie 'n masjien nie, nie 'n battery nie, nie die Son nie in die sin wat hierdie lesse nodig het. Hulle stoor dit, dra dit oor, of verander dit van een soort na 'n ander. 'Die kragstasie maak elektrisiteit' is aanvaarbaar, want dit is wat die plek doen en dit is hoe 'n mens praat. 'Die kragstasie maak energie' is nie.",
+    "GELD VIR ALBEI LESSE. Energie raak nie weg nie. 'n Bron kan LEEG raak (die battery is pap, die hout is uitgebrand) en dit is reg om so te se. Moenie skryf dat energie verdwyn, verlore raak, vernietig word of doodloop nie. Waar 'n les moet se dat energie iewers heen is waar ons dit nie nodig het nie, skryf dat dit MEESTAL as hitte weggegaan het - 'meestal', nie 'net' nie, want 'n haardroer se geraas is klank en nie hitte nie, en hierdie spesifikasie noem daardie geraas self.",
+    "GELD VIR ALBEI LESSE. Geen getalle en geen persentasies oor hoeveel energie iets gebruik, stoor of lewer nie. Enige getal wat hier geskryf word, hang af van die spesifieke masjien, en dit sal 'n raaiskoot wees.",
+    "GELD VIR ALBEI LESSE. Skryf 'ru-olie' vir die stof uit die grond, en moenie 'diep in die grond' by STEENKOOL skryf nie. Ru-olie word diep opgepomp; Suid-Afrikaanse steenkool le dikwels vlak en ongeveer die helfte kom uit groot oop groewe. Die goedgekeurde spesifikasie van jaarles 12 dra hierdie regstelling reeds en die twee mag nie bots nie.",
+    "GELD VIR ALBEI LESSE, WAAR 'N LEERDER GEVRA WORD OM IETS TE SIEN OF TE VOEL. Drie eise, en hulle geld elke waarneming in hierdie twee lesse. (1) Een kind moet dit met twee hande kan doen, sonder hulp, sonder 'n tweede persoon en sonder iets wat nie in 'n gewone huis is nie. (2) Die teks moet se wat DIESELFDE bly. 'n Waarneming waar meer as een ding verander, wys niks. (3) As die vergelyking van GROOTTE of HOEVEELHEID afhang, moet dit in DIESELFDE SIN staan as die vergelyking self, nie 'n sin vroeer nie. Hierdie projek se foute konsentreer in demonstrasies; die twee waarnemings in hierdie subonderwerp is doelbewus die eenvoudigste wat die inhoud toelaat.",
+    "GELD VIR ALBEI LESSE. Geen vrae nie. Geen blok van die tipe 'vraag', en geen vraagteken wat 'n leerder iets vra nie. Waar 'n bewys nodig is, staan die bewys in die studieteks as iets wat 'n mens sien, voel of hoor."
+  ],
+  "skryfnota": "Vier dinge kan hierdie twee lesse laat misluk, en al vier word vooraf hanteer. Die eerste is die woord 'energie' wat 'n stof word: elke keer as 'n sin klink of energie ingetap, uitgegooi of aangegee word soos water, is dit die fout. Skryf wat 'n mens sien. Die tweede is die versoeking om les 21 se inset en uitset ewe veel te maak: 'n gloeilamp gee lig, maar die meeste van wat ingaan kom as hitte uit, en 'n haardroer se geraas is nie hoekom 'n mens hom koop nie. Die derde is die grens met die bure: les 19 se ketting, les 22 se drom en les 23 se vibrasies is nie hierdie lesse se werk nie, en elkeen is een sin ver. Die vierde is die bron se wind: dit staan in die meting en dit staan nie in KABV nie, dus staan dit nie in die lesse nie. Wat oorbly is konkrete werk: hout wat brand, 'n battery in 'n flitslig, 'n strykyster wat warm word, 'n fiets wat ry.",
+  "goedkeuring": "Nog geen. Hierdie is 'n konsep. 'n Mens lees dit en skuif dit na spesifikasies/goedgekeur; die beplanner keur nie sy eie werk goed nie.",
   "nommer": 1,
   "jaarnommer": 20,
   "jaarnommer_nota": "Drico se lesnommer vir die jaar, uit kaps/lesindeks. Sy KABV-etiket is 'Energie'. Die etiket is die leernaam se KABV-indeks en dit is NIE die les se titel nie.",
@@ -83,9 +181,35 @@
     "MOENIE SE KLANK IS 'N BEWEGING VAN LUG, of verduidelik hoe klank beweeg nie. Klank is hier net een van die vier dinge waaraan 'n mens energie herken. Dat dit van iets kom wat bewe, mag in een halwe sin staan. Vibrasies is jaarles 23 se werk."
   ],
   "fokusvraag_skakel": "Lewer die eerste helfte van die antwoord: WAAR die energie is. Dat 'n mens energie nie sien nie maar wel sien wat dit doen (beweging, hitte, lig, klank), dat baie energie gestoor wag in KABV se vyf bronne, en dat dit oorgedra kan word van die bron tot waar dit nodig is. Hierdie les praat NIE oor wat 'n masjien met die energie doen nie: die woorde 'inset' en 'uitset' kom nie in hierdie les voor nie, en 574 woorde kan nie albei helftes dra nie. Dit is les 21 se deel.",
-  "besluite": [
-    "BESLUIT: die woorde 'inset' en 'uitset' kom NERENS in hierdie les voor nie, ook nie in die woordelys of 'n begrip-inskrywing nie. Les 21 voer hulle in en gee hulle 'n eie tuiste, en die assesseringsriglyn hang aan hulle. 'n Term wat halfpad deur hierdie les as blote woordeskat opdaag, verloor daardie tuiste. Waar hierdie les moet se dat die energie by die masjien AANKOM, skryf dit dat die energie aankom.",
-    "BESLUIT: die vier dinge uit KABV se eerste strepie word in KABV se orde genoem (beweging, hitte, lig, klank) en die les rangskik hulle nie. Daar is geen orde van belangrikheid nie en enige rangorde sou 'n bewering wees wat niemand gemaak het nie."
-  ],
-  "kaps_lesindeks_etiket": "Energie"
+  "kaps_lesindeks_etiket": "Energie",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "begrotingsoordeel",
+    "buite_bestek",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "gedeelde_feiterisikos",
+    "gedeelde_omskrywings",
+    "gedeelde_omskrywings_nota",
+    "goedkeuring",
+    "graad",
+    "herkoms",
+    "kaps_inhoudsopskrifte",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "registerbesluit",
+    "skema_weergawe",
+    "skryfnota",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota"
+  ]
 }

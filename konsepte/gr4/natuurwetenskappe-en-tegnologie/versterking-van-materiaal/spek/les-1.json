@@ -1,4 +1,75 @@
 {
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 4,
+  "kwartaal": 2,
+  "kaps_onderwerp": "Materie en Materiale",
+  "kaps_onderwerp_nota": "KABV se Graad 4 Kwartaal 2 kennisafdeling dra twee opskrifte bo dieselfde tabel: 'NATUURWETENSKAPPE: MATERIE EN MATERIALE' en 'TEGNOLOGIE: STRUKTURE'. Hierdie subonderwerp is struktuurwerk — materiaal word versterk om 'n sterk struktuur te bou — en val inhoudelik onder die tweede opskrif. Die etiket hierbo is die een wat die taak en die profiler se konfig gebruik, en niks in hierdie spesifikasie word daaruit afgelei nie.",
+  "kaps_subonderwerp": "Versterking van materiaal",
+  "kaps_inhoudsopskrif": "Maniere om materiaal te versterk",
+  "kaps_ure": 7,
+  "kaps_ure_nota": "Twee weke, sewe uur. Slegs herkoms. Kontakure word nooit in begrotingsrekenkunde gebruik nie: hulle sê hoe lank 'n onderwyser aan 'n onderwerp bestee, nie hoeveel 'n leerder lees nie. Die begroting kom van gemete handboekvolume.",
+  "fokusvraag": "Hoe maak 'n mens 'n swak materiaal soos papier sterk genoeg om gewig te dra?",
+  "fokusvraag_nota": "Deur die beplanner gestel. KABV Natuurwetenskappe en Tegnologie stel nie fokusvrae soos Sosiale Wetenskappe nie. Die vraag is doelbewus klein en op kennis gerig, en dit is direk uit KABV se eie inhoudsopskrif gebou: 'daar is verskillende maniere om materiaal te versterk (soos papier) om 'n sterk struktuur te bou'. Dit vra niks oor ontwerp, maak of toets as praktiese werk nie, want daardie werk val buite hierdie teks.",
+  "profiel_konfig": "gr4-nwt-kw2-profiel.json",
+  "onderwerp_woorde": 1009,
+  "onderwerp_woorde_nota": "Gemeet, nie geskat nie: bladsye 80 tot 81 en 85 tot 87, vyf onderrigbladsye, 1009 woorde, 202 woorde per bladsy. Dit loop bo die bron se mediaan van 184 woorde per bladsy. Die bladsye is met die hand afgebaken omdat die handboek Kwartaal 2 in 'n ander volgorde as KABV loop; slegs onderrig- en ondersoekbladsye tel.",
+  "totale_begroting": 1008,
+  "begroting_basis": "gemete_volume",
+  "begroting_basis_nota": "1009 gemete woorde gelyk oor twee lesse: 504 elk (round(1009/2) = 504), totaal 1008. Die een woord verskil is afronding. Die verdeling is gelyk omdat dit is wat die deling van een meting oplewer; geen les word swaarder gemaak omdat sy inhoud belangriker lyk nie.",
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument (Natuurwetenskappe en Tegnologie Graad 4-6, Graad 4 Termyn 2 inhoudstabel: die subonderwerp 'Versterking van materiaal', die daaropvolgende subonderwerp 'Sterk raamstrukture', die kwartaal se voorgestelde aktiwiteite, die gereedskaplys en die assesseringsriglyne) en die profiler se getalle uit gr4-nwt-kw2-profiel.json. Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset of beskrywing van 'n handboek se indeling het enige deel van hierdie beplanning ingelig.",
+    "bronne_nota": "Die repository bevat teksuittreksels uit die Kwartaal 2-handboek (koppe sowel as volteks). Hulle is nie oopgemaak nie en mag ook nie deur die skrywer oopgemaak word nie. Die enigste ding wat uit daardie boek na hierdie spesifikasie toe kom, is die getal 1009 en die bladsytelling waaruit dit kom."
+  },
+  "verdeling_nota": "Twee lesse, en die getal is deur 'n mens besluit en aan die beplanner gegee. Die skeurreël se drempel (vier of meer genoemde items) is nie gehaal nie, dus is dit nie 'n beplannerskeur nie en die reël is nie hier toegepas nie. Die verdeling volg KABV se eie twee tegnieke onder een inhoudsopskrif: vou en rol. Twee redes staan daaragter. Die eerste is grootte: 1009 woorde as een les sou 'n derde langer wees as die langste les wat die pyplyn nog gemaak het, en 504 per les laat elke tegniek ruim genoeg plek om behoorlik onderrig te word. Die tweede is die woord 'stut'. Dit word in les 2 ingevoer en nêrens in les 1 nie, want die volgende subonderwerp ('Sterk raamstrukture') gaan oor stutte wat in driehoeke verbind word, en daardie les werk net as die leerder reeds weet wat 'n stut is. Les 2 gee die woord 'n eie tuiste in plaas daarvan dat dit halfpad deur 'n ander les as blote woordeskat opdaag.",
+  "buite_bestek": [
+    "Die praktiese take in KABV se assesseringsriglyne: 'demonstreer maniere om materiale te versterk' en 'demonstreer maniere om papierstutte te maak en te heg'. Albei is doen-take. Dieselfde besluit as Kwartaal 1 se ontwerptaak: 'n teks kan nie 'n leerder leer om iets te maak nie; daardie werk gebeur in die klas en, op hierdie platform, langs die teks. Die kennis onderliggend aan albei is wel binne bestek en staan in die kern-lyste hieronder.",
+    "Die ondersoek as aktiwiteit: 'ondersoek watter vorm van die pilaar die sterkste is (die meeste gewig kan dra). Teken 'n staafgrafiek van die resultate.' Die les lei niemand deur 'n ondersoek nie en vra geen staafgrafiek nie. Wat die ondersoek uitwys — dat die drie vorms nie ewe sterk is nie, en watter een gewoonlik die meeste dra — is wel kern, en dit staan in les 1.",
+    "Die rol van stutte anderkant hierdie subonderwerp: hoe stutte in driehoekige vorms verbind word, en KABV se lys strukture daarby (dakkappe, brûe, hyskrane, kragmaste, geraamtes). Dit is die volgende subonderwerp, 'Sterk raamstrukture', en dit is jaarles 16 se werk. Les 2 mag sê dat 'n mens baie stutte saam gebruik om 'n struktuur te bou; dit mag nie sê hoe nie.",
+    "Inheemse strukture. Dit is jaarles 17 se werk.",
+    "Die dekkingsnasiener moet niks hiervan as ontbrekend aanteken nie."
+  ],
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "pct_woorde_oor_10_letters_gids": 3.0
+    },
+    "bron_steekproef_kwartaal_2": {
+      "woorde_gemeet": 6826,
+      "sillabes_per_woord": 1.62,
+      "pct_3plus_sillabes": 15.7,
+      "pct_woorde_oor_10_letters": 3.9,
+      "nota": "Dit is die profiler se steekproef oor die hele geleesde bladsyreeks van Kwartaal 2, nie 'n meting van hierdie subonderwerp se eie bladsye nie. Dit sê dus dat die kwartaal se bronmateriaal as geheel bo die band loop waarvoor ons skryf, en niks fyner as dit nie."
+    },
+    "bevinding": "Die bron loop op albei mate buite die band: 1,62 teen 'n perk van 1,52, en 15,7% teen 'n perk van 13%. Hierdie subonderwerp se eie woordeskat trek in dieselfde rigting, en die lang woorde is voorspelbaar: verskillende (12 letters), papierstutte (12), vierkantige (11), driehoekige (11), versterking (11), materiaal (9 letters, vier sillabes), struktuur (9). By 504 woorde is die hek se lang-woord ruimte ongeveer 15 voorkomste per les. Dit is genoeg vir die terme wat KABV self voorskryf, en vir niks anders nie.",
+    "besluit": "Die terme word gedra, met woordelys-steun, en die lopende sinne gebruik die kort weergawe. Die goeie nuus is dat hierdie subonderwerp se twee kernwoorde kort is: 'vou' en 'rol' is elk een sillabe, en 'stut' is vier letters en een sillabe. Die register val nie op die konsepte nie; dit val op die byvoeglike naamwoorde.",
+    "register_instruksies": [
+      "Skryf 'papier' waar die ding papier is. 'Materiaal' is nege letters en vier sillabes en is KABV se algemene woord; noem dit waar die idee algemeen is (dat 'n mens materiaal versterk) en skryf daarna 'papier' waar die les oor papier gaan.",
+      "Noem 'driehoekig' en 'vierkantig' elk een keer as die naam van die vorm, en skryf daarna 'die pilaar met drie kante' en 'die pilaar met vier kante'. Daardie frases is korter in sillabes, en hulle is presies wat 'n negejarige voor hom sien.",
+      "Vermy 'verskillende' waar 'ander' of 'nie dieselfde nie' werk. Die woord is twaalf letters en vier sillabes en staan drie keer in KABV se eie punt; daardie drie voorkomste alleen sou die lang-woord ruimte opeet.",
+      "Skryf 'gewig', nooit 'las' nie. 'Las' beteken in Afrikaans sowel 'n vrag as 'n voeg, en hierdie subonderwerp praat oor albei dinge.",
+      "Skryf 'regop' en 'plat', nie 'vertikaal' en 'horisontaal' nie.",
+      "Skryf 'sak inmekaar', 'knak' of 'buig' vir wat 'n swak pilaar doen. Vermy 'faal', 'swig' en 'kollaps'.",
+      "'Styf' (styf gerol) is die woord vir 'n vas gerolde buis, en dit is 'n woord wat 'n negejarige het.",
+      "Moenie 'silinder' gebruik nie. KABV se woord hier is 'rond', en 'silinder' hoort in die Wiskunde-les oor 3-D voorwerpe.",
+      "Skryf samestellings as een woord in ons eie teks: papierstut, papierbuis. KABV se eie spelling in hierdie tabel is nie 'n spelmodel nie.",
+      "Skryf 'hoekrand' of 'regop rand', nooit 'hoeklyn' nie. In Suid-Afrikaanse skoolwiskunde beteken 'hoeklyn' 'n DIAGONAAL — 'n lyn tussen twee teenoorgestelde hoeke van 'n vorm. Die lyn waar twee vlakke van 'n soliede vorm bymekaarkom, is 'n rand."
+    ]
+  },
+  "skryfnota": "Drie dinge kan hierdie twee lesse laat misluk, en al drie word vooraf hanteer. Die eerste is die woord 'stut': hy hoort net in les 2, en les 1 skryf 'n gerolde buis waar hy 'n gerolde buis moet noem. Die tweede is die vergelyking tussen die twee tegnieke: moenie skryf dat die een die ander klop nie, want dit is nie vasgestel nie en KABV vra dit nie — elke tegniek word teen die plat vel gemeet. Die derde is die grens met die volgende subonderwerp: driehoeke, dakkappe, brûe, hyskrane en kragmaste is jaarles 16 se inhoud, en les 2 mag net sê dat baie stutte saam 'n struktuur maak. Wat oorbly, is konkrete werk: papier wat vou, papier wat rol, en gewig wat van bo af kom.",
+  "goedkeuring": "Nog geen. Hierdie is 'n konsep. 'n Mens lees dit en skuif dit na spesifikasies/goedgekeur; die beplanner keur nie sy eie werk goed nie.",
+  "wysiging_na_goedkeuring": "2026-08-25. Twee regstellings aan hierdie spesifikasie NA goedkeuring, albei deur nasieners op die les uitgewys. (1) Die meganisme in les 1 se laaste kern-inskrywing was agterstevoor: dit het gese 'n vou is die plek waar 'n pilaar eerste inknak. Die teenoorgestelde is waar — die plat kante tussen die voue buig eerste uit en die voulyne gee laaste mee. Die feitenasiener het dit in die les gevang en die dekkingsnasiener het uitgewys dat die les nou reg is en die spesifikasie verkeerd, sodat 'n hersiening die fout net sou terugsit. (2) Die 'niks word bygevoeg nie'-inskrywing het gom verbied terwyl 'n ander inskrywing die naat laat vasplak. LES HIERUIT: spesifikasies word nooit feitegekontroleer nie. Net lesse word. 'n Vals meganisme in 'n spesifikasie plant homself in elke les wat daaruit kom, en oorleef elke hersiening daarvan. (3) 2026-08-25: dieselfde verkeerde meganisme is OOK in les 2 se inskrywing gevind, op twee plekke — die kern-punt oor waarom die buis nie inmekaar sak nie, en die fokusvraag-skakel. Dit bevestig die punt hierbo: die fout plant homself in elke les uit een spesifikasie. (4) Een gedeelde omskrywing van 'struktuur' vir albei lesse. (5) 2026-08-25: my eie regstelling onder (1) het TWEE nuwe foute ingebring, wat die feitenasiener op die hersiene les gevang het. Ek het geskryf 'die plat kante tussen die voue' en 'die gewig druk net op die voulyne'. Albei is verkeerd omdat 'n gevoude pilaar ook 'n naat het: die driehoekige een het twee voue plus 'n naat, nie drie voue nie. Dit is die agtste en negende keer in hierdie projek dat 'n regstelling 'n fout elders aan die gang gesit het, en die eerste keer dat dit in 'n SPESIFIKASIE gebeur het. (6) 2026-08-25: les 2 se rede was te absoluut gestel en is aan druk in die lengte gebind, want die les wys self 'n sydruk wat die stut laat buig. (7) 2026-08-25: drie verdere regstellings aan hierdie spesifikasie, almal deur die dekkingsnasiener op die tweede hersiening uitgewys. Die plat-vel- vereiste het nog 'vou dadelik dubbel' gese, wat onder hierdie spesifikasie se eie skerper omskrywing van 'n vou nie 'n vou is nie. Die groot idee en die meganisme het oor die kleefband gebots. En die vierkantige pilaar se blok is agtergelaat toe die driehoekige een se rekenkunde verander het. (8) 2026-08-25: die fokusvraag-skakel van les 2 het die onbeperkte rede behou nadat die kern-punt aan druk in die lengte gebind is — 'n hersiening sou die absolute stelling teruggesit het. En 'las' is oral deur 'gewig' vervang: ek het 'las' in die gedeelde omskrywing ingebring teen hierdie spesifikasie se eie registervoorskrif in. (9) 2026-08-25: 'dubbeldik' uit die naat-feiterisiko gehaal. Die les se nie meer hoe die kante bymekaarkom nie, dus is die dikte nie meer bekend nie — en dit was juis daardie besonderheid wat die billike toets onbillik gemaak het. (10) 2026-08-25: 'hoeklyn' oral vervang deur 'hoekrand'. Ek het die woord in 'n hersieningsopdrag ingebring sonder om te weet dat dit in SA skoolwiskunde 'n diagonaal beteken. Derde woordkeusefout van my hand vanaand, na 'las' en die naat se 'dubbeldik'. (11) 'Buig uit' se rigting is verkeerd en is as feiterisiko aangeteken. (12) 2026-08-25: die potlood-vergelyking in les 2 is uitdruklik behou en die rede is aangeteken, want dit is twee keer deur verskillende nasieners opgehaal. (13) 2026-08-25: die vierkant-fout het TERUGGEKOM in die studieteks nadat ek die skrywer gevra het om die frase vir plek uit te haal en gese het die woordelys dra dit. Dit was verkeerd: 'n woordelysinskrywing red nie 'n studieteks wat 'n vals reel leer nie. Nou as feiterisiko vasgele, saam met die 'versterk'-omskrywing wat teen die les se eie groot idee ingaan. (14) 2026-08-25: twee gedeelde feiterisikos bygevoeg. 'Uitbuig' is in albei lesse verkeerd omdat dit 'n rigting toeken wat nie waar is nie. En 'n nuwe fouttipe is twee keer in les 2 gevind: 'n proef wat 'n voorwerp gebruik wat op daardie punt nie meer bestaan of nie meer heel is nie. (15) 2026-08-25: vier verouderde plekke in les 2 se inskrywing reggemaak, almal deur die dekkingsnasiener uitgewys met die regte waarskuwing dat 'n volgende hersieningsopdrag die ou foute sou terugsit. 'Uitbuig' het in die kern-punte EN in die fokusvraag-skakel oorleef — ek het daardie skakel aan druk in die lengte gebind maar die verbode woord binne-in laat staan. Die stut-punt het nog 'dieselfde stut' gese, presies wat die kontinuiteitsreel verbied. En die vou-teenoor-rol-teenstelling is vals. (16) 2026-08-25: drie feiterisikos by les 1 bygevoeg. Twee van die drie foute kom uit MY opdragte: ek het die vierkant-reel in die studieteks laat sit (waar dit as 'ewe bree kante' geskryf is) en ek het die lang sin laat opbreek (wat dit absoluter gemaak het as die oorspronklike). (17) 2026-08-25: drie feiterisikos by les 2. Twee kom weer uit my eie bewoording — 'kort en wyd teenoor lank en dun' (die pilaar is nie kort nie) en 'n tweede heel stut wat ek laat vra het sonder dat iets hom maak. (18) 2026-08-25: 'n VOLLEDIGE deursoek van die spesifikasie vir elke verouderde term, in plaas van die geteikende vervangings wat ek tot nou gedoen het. Elke keer het ek een plek regemaak en sy tweeling gemis, en die dekkingsnasiener het dit drie rondtes agtereenvolgens uitgewys. Ses voorskriftelike plekke reggemaak: 'uitbuig' in les 1 se kern, 'las' in 'n feiterisiko, 'kort en wyd' in les 2 se eerste kern, 'padgee' en 'dieselfde stut' in les 2 se vyfde kern, die pilaar-teenoor-stut kontras, en die sydruk-risiko. Die res van die treffers is verbode wat die term aanhaal, of wysigingsnotas, en hulle bly. (19) 2026-08-25: die wand-vergelyking wat ek in (17) laat inbring het, het die rede omgeruil — die les het die aantal lae as die oorsaak gegee en die ronde vorm as bykomstig. Dit is agterstevoor, en dit weerspreek die les se eie openingsin, wat 'n pilaar met een laag as sterk beskryf. (20) 2026-08-25: die sewende kern-punt van les 1 het al drie verbode formulerings behou. My deursoek in (18) het dit gemis omdat ek 'uitbuig' as EEN woord gesoek het en die teks 'buig ... uit' gesplete gebruik. Ook bygevoeg: die gevolgtrekking dat die hoekrande die stewigste deel is, moet UITDRUKLIK staan. Die twee versagtings is feitelik nodig maar hulle maak die kontras sagter, en die dekkingsnasiener het uitgewys dat die gevolgtrekking daardeur net implisiet geword het. (21) 2026-08-25: die plat-vel-waarneming in les 2 is uitdruklik behou en die rede aangeteken. Die dekkingsnasiener het dit as ongevraagd gemerk; dit is die bewys vir die blok se rede en die feitenasiener het dit self gevra. (22) 2026-08-25: vier feiterisikos by les 1. Die eerste is weer myne — ek het 'n omskrywing van 'n regte hoek gevra en die woord 'regop' het ingekom, wat in Afrikaans OPSTAANDE beteken en wat hierdie les self ses keer so gebruik. Die derde is ook myne: ek het elke vormblok by 'n nuwe vel laat begin en daarmee die 'dieselfde papier'-sin sonder grond gelaat.",
+  "gedeelde_omskrywings": {
+    "struktuur": "Iets wat gebou of gevorm is, sy vorm hou, en gewig dra of iets beskerm."
+  },
+  "gedeelde_omskrywings_nota": "Albei lesse gebruik hierdie woord en albei omskryf dit, want elke les moet alleen kan staan as hersieningsinstrument. Hulle mag dit egter nie VERSKILLEND omskryf nie, en dit het gebeur: les 1 het 'iets wat gebou of gevorm is en sy vorm hou' gehad, les 2 'iets wat sy vorm hou en 'n las dra... soos 'n been of 'n dop'. Die feitenasiener was reg dat 'gebou' alleen te nou is; die dekkingsnasiener was reg dat 'n been aan die volgende subonderwerp behoort. Hierdie weergawe los albei op sonder om 'n gereserveerde voorbeeld te noem. 2026-08-25: 'las' is deur 'gewig' vervang. Ek het 'las' hier ingebring sonder om te sien dat hierdie spesifikasie se eie registervoorskrif dit verbied en 'gewig' vereis. Die voorskrif is ouer en is reg vir 'n nege-jarige. Albei lesse dra nou 'las' en albei moet dit uitruil.",
+  "gedeelde_feiterisikos": [
+    "GELD VIR ALBEI LESSE. Moenie 'uitbuig' skryf nie, in geen les nie. Die woord ken 'n RIGTING toe wat nie waar is nie: 'n plat paneel onder druk knik in golwe wat afwisselend na binne en na buite buig, en 'n ronde wand wat swig, duik hoofsaaklik NA BINNE in. 'Meegee' ken geen rigting toe nie en is die woord vir albei lesse.",
+    "GELD VIR ALBEI LESSE. Fisiese kontinuiteit: gaan na of die voorwerp wat 'n proef gebruik, op daardie punt in die les nog BESTAAN en nog HEEL is. Twee keer het dit misgeloop — 'n plat vel is as vergelyking gebruik nadat dieselfde vel 'n blok vroeer opgerol en vasgeplak is, en 'n sytoets is op 'dieselfde stut' gedoen nadat die vorige blok daardie stut tot swigting gedruk het. Papier kreukel blywend wanneer dit knik. Gebruik 'n tweede, heel voorwerp en se dit."
+  ],
   "nommer": 1,
   "jaarnommer": 14,
   "jaarnommer_nota": "Drico se lesnommer vir die jaar, uit kaps/lesindeks. Sy KABV-etiket is 'Maniere om materiaal te versterk (vou)'. Dit is nie die les se titel nie.",
@@ -76,5 +147,35 @@
   "fokusvraag_skakel": "Lewer die eerste helfte van die antwoord: dat 'n mens papier sterk maak deur sy vorm te verander en nie deur iets by te voeg nie. Plat papier dra byna niks; dieselfde vel gevou tot 'n hol pilaar dra verbasend baie. Daarby die drie vorms wat KABV noem — rond, drie kante, vier kante — en dat hulle nie ewe sterk is nie, met die ronde pilaar wat gewoonlik die meeste dra. Hierdie les lewer niks van die rolwerk nie en gebruik die woord 'stut' glad nie; dit is les 2 se deel, en 504 woorde kan nie albei dra nie.",
   "besluite": [
     "BESLUIT 2026-08-25: die blokopskrif bly KABV se bewoording ('Om materiaal te versterk'), al se die les self dat die papier nie sterker geword het nie. Dit is nie 'n botsing nie: 'n opskrif NOEM 'n onderwerp, dit maak nie 'n bewering nie. Die fisika bly in die teks, waar dit hoort — vou verander die VORM se styfheid, nie die papier se sterkte nie. KABV self praat los van 'papier is sterker as dit gevou word', en ons volg KABV se etiket sonder om sy losheid oor te neem. Aangeteken sodat volgende rondtes dit nie weer oopmaak nie."
+  ],
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "buite_bestek",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "gedeelde_feiterisikos",
+    "gedeelde_omskrywings",
+    "gedeelde_omskrywings_nota",
+    "goedkeuring",
+    "graad",
+    "herkoms",
+    "kaps_inhoudsopskrif",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "registerbesluit",
+    "skema_weergawe",
+    "skryfnota",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota",
+    "wysiging_na_goedkeuring"
   ]
 }

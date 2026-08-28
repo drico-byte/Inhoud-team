@@ -108,7 +108,8 @@ Exit codes:
 
 | | |
 |---|---|
-| 0 | nothing outstanding, or the approval completed |
+| 0 | nothing outstanding: the approval completed, or the draft already carries
+      `status: goedgekeur` and needs nothing further |
 | 10 | waiting on an agent or on a person; the next action is printed |
 | 1 | gate FAIL — back to the writer, with numbers |
 | 2 | `MENS_NODIG` — a checker escalated |
@@ -128,6 +129,24 @@ python bin/logoorsig.py
 It reports words against budget, mean sentence length against the band, and the
 most frequent failure. A pattern there is a prompt fix; only a one-off is a lesson
 fix.
+
+### After editing a spec, refresh the extracts
+
+The runner writes the per-lesson spec extract an agent reads, but only when it
+runs for that lesson. So editing a spec and briefing a writer straight afterwards
+hands it the *old* copy, and the agent reports — correctly — that the fix is not
+there. Running the runner instead has a side effect you may not want: a changed
+spec entry retires that lesson's coverage report.
+
+```bash
+python bin/vernuwe-uittreksels.py
+```
+
+It rewrites every extract from the approved specs and does nothing else — no
+gate, no staleness, no archiving, no state. `--wat-sou-verander` says what is out
+of date and writes nothing. Lessons nobody has started are skipped: there is
+nothing to go stale, and writing one early would put a spec entry on disk for a
+draft that does not exist.
 
 ## Checks that span lessons
 
@@ -216,7 +235,8 @@ skills/wolkskool-inhoudstandaard/   the standard: SKILL.md, scripts, references,
 prompts/                           the four versioned agent prompts
 .claude/agents/                     the four agents, each pointing at its prompt
 bin/                               opstel.py (setup), hardloop.py (runner), logoorsig.py (logs),
-                                   woordelysdrif.py and taalnasien.py (across lessons)
+                                   woordelysdrif.py and taalnasien.py (across lessons),
+                                   vernuwe-uittreksels.py (after a spec edit)
 profiele/                          one profiler config per subject-grade
 kaps/                              CAPS sub-topic label files
 kaps/dokumente/<fase>/             the CAPS documents themselves, one folder per

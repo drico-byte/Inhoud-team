@@ -823,6 +823,23 @@ def stap(a, uit):
         return keur_goed(les_pad, les, uit, staat, staat_pad, a.les)
 
 
+    if les.get("status") == "goedgekeur":
+        # The draft on disk already carries the approval stamp, and its hash
+        # matches what the reports judged. Saying "waiting on sign-off" here is
+        # wrong in the way that matters most for this script: it is the one
+        # thing a person is told never to second-guess, so a false "not done
+        # yet" is taken at face value. It reads that way whenever a lesson is
+        # re-examined after approval — restoring an archived report, or a spec
+        # note — which is exactly when someone is already unsure.
+        uit.head("DONE — approved in place")
+        uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound,")
+        uit.say("  and this draft already carries status: goedgekeur.")
+        uit.say(f"  draft     {P.rel(les_pad)}")
+        uit.say()
+        uit.say("  The HTML team reads this file. Nothing further is needed here.")
+        uit.say("  Re-running --keur-goed is harmless but changes nothing.")
+        return 0, "KLAAR"
+
     uit.head("CLEAR — waiting on sign-off")
     uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound.")
     uit.say(f"  draft     {P.rel(les_pad)}")
