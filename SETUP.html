@@ -224,17 +224,18 @@
       <div class="qs">
         <div class="dot">2</div>
         <div class="qb">
-          <b>Double-click the installer</b>
-          <div class="bigfile">install.bat</div>
-          <p>In the folder you just cloned. It asks for administrator rights, then installs everything and checks its own work. Safe to run as many times as you like.</p>
+          <b>Drop the two document folders in from SharePoint</b>
+          <p>The textbooks and curriculum PDFs are deliberately not in git, so they are the one thing the installer cannot fetch. Drag <code class="inline">bronne</code> into the repository root, and <code class="inline">dokumente</code> into the <code class="inline">kaps</code> folder that is already there.</p>
         </div>
       </div>
 
       <div class="qs">
         <div class="dot">3</div>
         <div class="qb">
-          <b>Copy the documents from SharePoint, then run it once more</b>
-          <p>The textbooks and curriculum PDFs are deliberately not in git, so they are the one thing the installer cannot fetch. It will tell you exactly which folders are empty.</p>
+          <b>Double-click the installer</b>
+          <div class="bigfile">install.bat</div>
+          <p>It asks for administrator rights, installs everything, links what Claude Code needs, checks the documents arrived, and proves the pipeline runs. One pass, and it lists anything still wrong.</p>
+          <p>Safe to run again as often as you like — it skips whatever already worked, so it is also the thing to run whenever something later stops working.</p>
         </div>
       </div>
 
@@ -272,7 +273,7 @@
         <div><span><code>kaps/dokumente/senior-gr7-9/</code></span><b>9 files</b></div>
         <div><span><code>kaps/dokumente/fet-gr10-12/</code></span><b>17 files</b></div>
       </div>
-      <p>Both parent folders already exist once the installer has run, so you are dropping files in rather than building paths.</p>
+      <p><code class="inline">kaps</code> is already there after the clone, so <code class="inline">dokumente</code> drops straight into it. <code class="inline">bronne</code> does not exist yet - drag the whole folder in and Windows creates it.</p>
       <div class="note">
         <strong>If they came from OneDrive, let them finish downloading</strong>
         <p>Synced files can be placeholders that only download when opened. If the installer reports fewer files than expected, that is usually all it is — wait, then run it again.</p>
