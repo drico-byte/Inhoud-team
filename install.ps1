@@ -9,7 +9,10 @@
     re-run after fixing one problem does not reinstall the things that worked.
 #>
 
-$ErrorActionPreference = 'Stop'
+# NOT 'Stop'. In PowerShell 5.1 a native command writing to stderr becomes a
+# terminating error, so probing for a missing module would kill the script.
+# Every step below checks $LASTEXITCODE explicitly instead.
+$ErrorActionPreference = 'Continue'
 $script:Problems = @()
 
 # --- output -----------------------------------------------------------------
@@ -58,43 +61,83 @@ if (-not (Have 'winget')) {
 }
 
 # --- 1. Python --------------------------------------------------------------
+# Windows 11 ships a stub python.exe in WindowsApps whose only job is to
+# advertise the Microsoft Store. It exists, so "is there a python command" says
+# yes, and then every call prints "Python was not found". So Python is proved by
+# running it, never by the command existing.
+
+function Test-PythonExe($exe) {
+    if (-not $exe) { return $false }
+    try {
+        $out = & $exe -c "import sys; sys.stdout.write('okpy')" 2>&1
+        return ($LASTEXITCODE -eq 0 -and "$out" -match 'okpy')
+    } catch { return $false }
+}
+
+function Find-Python {
+    foreach ($c in 'python', 'py') {
+        $cmd = Get-Command $c -ErrorAction SilentlyContinue
+        if (-not $cmd) { continue }
+        if ($cmd.Source -like '*\WindowsApps\*') { continue }   # the store stub
+        if (Test-PythonExe $cmd.Source) { return $cmd.Source }
+    }
+    # PATH can be stale or shadowed by the stub, so look where it actually lands.
+    $roots = @(
+        (Join-Path $env:LOCALAPPDATA 'Programs\Python'),
+        (Join-Path $env:LOCALAPPDATA 'Python'),
+        (Join-Path $env:ProgramFiles 'Python312'),
+        (Join-Path $env:ProgramFiles 'Python311'),
+        (Join-Path $env:ProgramFiles 'Python310')
+    )
+    foreach ($r in $roots) {
+        if (-not (Test-Path $r)) { continue }
+        $exe = Join-Path $r 'python.exe'
+        if ((Test-Path $exe) -and (Test-PythonExe $exe)) { return $exe }
+        foreach ($d in (Get-ChildItem $r -Directory -ErrorAction SilentlyContinue | Sort-Object Name -Descending)) {
+            $exe = Join-Path $d.FullName 'python.exe'
+            if ((Test-Path $exe) -and (Test-PythonExe $exe)) { return $exe }
+        }
+    }
+    return $null
+}
 
 Say-Head '1. Python'
 
-if (-not (Have 'python')) {
-    if (Have 'py') {
-        Say-Ok 'Python present through the py launcher'
-        $Py = 'py'
-    } else {
-        Say-Do 'installing Python'
-        winget install --id Python.Python.3.12 --silent --accept-package-agreements --accept-source-agreements | Out-Null
-        Refresh-Path
-        if (Have 'python')   { $Py = 'python' }
-        elseif (Have 'py')   { $Py = 'py' }
-        else {
-            Say-Bad 'Python installed but is still not on PATH - close this window, open a new one, and run this script again'
-            Write-Host ''
-            exit 1
-        }
-        Say-Ok "installed Python ($(& $Py --version 2>&1))"
-    }
-} else {
-    $Py = 'python'
-    Say-Ok "Python $(& $Py --version 2>&1)"
+$Py = Find-Python
+
+if (-not $Py) {
+    Say-Do 'installing Python'
+    winget install --id Python.Python.3.12 --silent --accept-package-agreements --accept-source-agreements | Out-Null
+    Refresh-Path
+    $Py = Find-Python
 }
+
+if (-not $Py) {
+    Say-Bad 'Python is still not usable'
+    Write-Host ''
+    Write-Host '        Almost always the Microsoft Store alias. Turn it off:' -ForegroundColor Yellow
+    Write-Host '          Settings > Apps > Advanced app settings > App execution aliases'
+    Write-Host '          switch OFF python.exe and python3.exe'
+    Write-Host ''
+    Write-Host '        Then close this window, open a new one, and run install.bat again.'
+    Write-Host ''
+    exit 1
+}
+
+Say-Ok "Python: $Py  ($(& $Py --version 2>&1))"
 
 # --- 2. Python packages -----------------------------------------------------
 
 Say-Head '2. Python packages'
 
 foreach ($mod in 'pyphen', 'spylls') {
-    & $Py -c "import $mod" 2>$null
+    $null = & $Py -c "import $mod" 2>&1
     if ($LASTEXITCODE -eq 0) {
         Say-Ok "$mod"
     } else {
         Say-Do "installing $mod"
-        & $Py -m pip install --quiet --disable-pip-version-check $mod
-        & $Py -c "import $mod" 2>$null
+        $null = & $Py -m pip install --quiet --disable-pip-version-check $mod 2>&1
+        $null = & $Py -c "import $mod" 2>&1
         if ($LASTEXITCODE -eq 0) { Say-Ok "$mod" } else { Say-Bad "could not install $mod" }
     }
 }
@@ -225,3 +268,7 @@ if ($script:Problems.Count -eq 0) {
     Write-Host '  Fix those and run this again - it skips whatever already worked.'
 }
 Write-Host ''
+
+# Say plainly whether this worked. Without it the script inherits whatever exit
+# code the last program happened to set, and reports failure after succeeding.
+if ($script:Problems.Count -eq 0) { exit 0 } else { exit 1 }
