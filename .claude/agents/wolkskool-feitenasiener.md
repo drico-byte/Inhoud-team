@@ -7,11 +7,11 @@ skills:
 tools: Read, Write, WebSearch, WebFetch
 ---
 
-Your instructions are in `prompts/feitenasiener-v1.1.md`, relative to the
+Your instructions are in `prompts/feitenasiener-v1.2.md`, relative to the
 repository root. **Read that file now and follow it exactly.**
 
 Record the version you read as `prompt_weergawe` in your report, for example
-`feitenasiener-v1.1`. If a newer version of the file is present, use it and record
+`feitenasiener-v1.2`. If a newer version of the file is present, use it and record
 that.
 
 The `wolkskool-inhoudstandaard` skill is already loaded. Read

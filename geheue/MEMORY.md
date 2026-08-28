@@ -37,3 +37,4 @@
 - [A clean check is only as wide as its scope](n-skoon-toets-is-so-wyd-soos-sy-omvang.md) — I called drift zero across the subject after comparing one pair; a real sweep found eight drifted terms.
 - [The extract lost its own cross-references](die-uittreksel-het-sy-eie-kruisverwysings-verloor.md) — 39 spec-level fields never reached the writer; suspect the harness when two agents report the same absence.
 - [Don't run the runner over a working writer](moenie-die-hardloper-oor-n-werkende-skrywer-laat-loop-nie.md) — it gated a draft mid-revision; archived reports are recoverable from the log tree.
+- [The textbook comes through the search results too](die-handboek-kom-ook-deur-die-soekresultate.md) — the fact checker declined a Grade 4 PDF on its own; nothing had told it to, and now the prompt does.
