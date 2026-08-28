@@ -154,18 +154,26 @@ python bin/hardloop.py --vak "Sosiale Wetenskappe" --graad 4 --subonderwerp "Ver
 
 ## The boundary with the HTML team
 
-Point the HTML pipeline at:
+A lesson is approved **in place**. There is no second copy and no export folder,
+which is the point: nothing downstream can go stale, because there is only ever
+one file.
+
+Point the HTML pipeline at the drafts tree, read-only, and take every file whose
+`status` is `goedgekeur`:
 
 ```
-C:\Users\DricoSnyman\dev\goedgekeur\
+konsepte/<graad>/<vak>/<subonderwerp>/les-<n>.json
 ```
 
-Read-only, and it reads whole files — `goedgekeur/gr4/sosiale-wetenskappe/vervoer-op-water/les-3.json`,
-where the path states the CAPS location. Every file there has
-`status: "goedgekeur"` and `skema_weergawe: "1.0"`; the schema version is the
-contract between the two pipelines, so a bump gets told to them. Nothing in
-`goedgekeur/` is ever edited in place — a correction goes back to `konsepte/`,
-through the pipeline again, and is re-copied whole.
+The path states the CAPS location. `skema_weergawe` is the contract between the
+two pipelines, so a bump gets told to them. Nothing there is ever edited by hand
+downstream - a correction goes back through the pipeline and the same file is
+rewritten.
+
+`bin/leeskopie.py` also writes a human-readable PDF per approved lesson to
+`lees/<graad>/<vak>/<jaarnommer>_<KABV-etiket>.pdf`, numbered by its place in the
+year. Those are for reading and reviewing, not for the pipeline to consume, and
+they are gitignored.
 
 ## Layout
 
