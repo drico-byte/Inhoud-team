@@ -578,10 +578,20 @@ def stap(a, uit):
             argiveer(P.hek_verslag(les_pad), les_id, siklus_nou, "hek-verouderd")
 
     if staat.get("spek_hash") not in (None, spek_h) and os.path.exists(P.dekking_verslag(les_pad)):
-        argiveer(P.dekking_verslag(les_pad), les_id, siklus_nou, "dekking-verouderd")
+        waar = argiveer(P.dekking_verslag(les_pad), les_id, siklus_nou, "dekking-verouderd")
         os.remove(P.dekking_verslag(les_pad))
+        # Name the copy. A coverage checker often ends by asking for a spec fix
+        # it cannot make itself, and making that fix is what lands here -- so the
+        # run that retires a report is frequently the run that acts on it. When
+        # the edit changed no requirement, the judgment still stands and copying
+        # this file back is right; when it did, re-check. Either way that is a
+        # person's call, and it cannot be made without the path.
         uit.step("coverage report", "STALE",
-                 ["the spec entry changed — coverage must be checked again"])
+                 ["the spec entry changed — coverage must be checked again",
+                  f"archived to {P.rel(waar)}",
+                  "if the edit changed no requirement (a note, a corrected",
+                  "reason, a field the checker itself asked for), copy that",
+                  "file back instead of re-running the checker"])
     if staat.get("spek_hash") != spek_h:
         # Assigning this was never enough. `staat` reaches disk only through
         # teken_op, and a run that ends at WAG_VIR_NASIENERS records no event —
