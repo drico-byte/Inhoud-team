@@ -23,6 +23,12 @@ Two sources of protection, and they work differently:
     across lessons must stay identical, and a language checker improving one
     copy silently breaks the pair.
 
+    Reading the other lessons is not enough on its own: the FIRST lesson to use
+    a shared term has no other lesson to be found in, and would go to the
+    checker unprotected -- the one moment the wording is easiest to lose,
+    because nothing yet disagrees with it. So the approved specs are read too,
+    for a term whose wording they prescribe.
+
 USAGE
     python bin/taalnasien.py --vak "Natuurwetenskappe en Tegnologie" --graad 4 \
         --subonderwerp "Vaste stowwe" --les 2
@@ -107,6 +113,43 @@ def gedeelde_verklarings(les, les_pad):
     return [(t, myne[t], sorted(waar)) for t, waar in sorted(elders.items())]
 
 
+def voorgeskrewe_omskrywings(les):
+    """Wordings an approved spec prescribes for a term this lesson defines.
+
+    The point is the lesson that gets there first. `gedeelde_verklarings` finds
+    a shared definition by reading the other lessons; before the second lesson
+    exists there is nothing to find, and the wording is unprotected exactly when
+    it is newest.
+    """
+    myne = {b["term"]: b.get("teks", "")
+            for b in les.get("blokke", []) if b.get("tipe") == "begrip"}
+    if not myne:
+        return []
+
+    uit = {}
+    wortel = os.path.join(REPO, "spesifikasies", "goedgekeur")
+    for gids, _, lers in os.walk(wortel):
+        for naam in lers:
+            if not naam.endswith(".json") or naam.endswith(".feite.json"):
+                continue
+            try:
+                spek = lees_json(os.path.join(gids, naam))
+            except Exception:
+                continue
+            for inskrywing in spek.get("lesse", []):
+                vb = inskrywing.get("verwagte_begrippe") or {}
+                for term, teks in (vb.get("voorgeskrewe_omskrywings") or {}).items():
+                    # A placeholder rather than a wording: some entries say the
+                    # definition may only be written once a verification passes.
+                    if term in myne and teks.strip().endswith(".") and len(teks.split()) <= 20:
+                        uit.setdefault(term, set()).add(teks)
+
+    # Only worth printing where the lesson really carries that wording, and only
+    # where the spec is not itself of two minds.
+    return [(t, sorted(v)[0]) for t, v in sorted(uit.items())
+            if len(v) == 1 and myne[t] == sorted(v)[0]]
+
+
 OPDRAG = """Jy doen 'n TAALNASIEN op 'n Afrikaanse Graad 4-les. Jou werk is grammatika,
 idioom en direkte-vertaling-foute. Die inhoud, die feite en die struktuur is
 klaar nagegaan deur ander nasieners en is nie jou werk nie.
@@ -139,8 +182,11 @@ def bou(les_pad):
 
     woorde = beskermde_woorde(les, sub_gids)
     gedeel = gedeelde_verklarings(les, les_pad)
+    gedeel_terme = {t for t, _, _ in gedeel}
+    voorgeskryf = [(t, teks) for t, teks in voorgeskrewe_omskrywings(les)
+                   if t not in gedeel_terme]
 
-    if woorde or gedeel:
+    if woorde or gedeel or voorgeskryf:
         reels.append("")
         reels.append("BESKERM - moenie hierdie verander nie")
         reels.append("-" * 72)
@@ -159,6 +205,13 @@ def bou(les_pad):
         reels.append(f"  Waarom: dieselfde verklaring staan ook in {', '.join(waar)}. "
                      f"'n Verbetering aan een van hulle breek die paar, en 'n toets "
                      f"oor die hele vak sal dit vlag.")
+
+    for term, teks in voorgeskryf:
+        reels.append("")
+        reels.append(f'  HOU WOORD VIR WOORD:  {term} - "{teks}"')
+        reels.append("  Waarom: 'n goedgekeurde spesifikasie skryf hierdie bewoording voor, en "
+                     "later lesse gaan dieselfde woorde gebruik. Hierdie les is net die eerste "
+                     "een wat daar kom.")
 
     reels.append("")
     reels.append("=" * 72)
