@@ -1,0 +1,419 @@
+<title>Wolkskool Setup Runbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<style>
+  :root {
+    --paper:      #F5F7F6;
+    --card:       #FFFFFF;
+    --ink:        #14181A;
+    --ink-soft:   #556065;
+    --ink-faint:  #838E92;
+    --rule:       #DBE2E0;
+    --accent:     #0F5F5C;
+    --accent-2:   #10817C;
+    --accent-bg:  #E7F1F0;
+    --warn:       #8A5A16;
+    --warn-bg:    #FBF4E7;
+    --term-bg:    #10201F;
+    --term-ink:   #D6E6E3;
+
+    --display: "Archivo", "Segoe UI", system-ui, sans-serif;
+    --body:    "Source Sans 3", -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono:    "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:     #101414;
+      --card:      #171D1D;
+      --ink:       #E7EDEB;
+      --ink-soft:  #A3AFAD;
+      --ink-faint: #74807E;
+      --rule:      #262F2F;
+      --accent:    #5FC9C2;
+      --accent-2:  #7FDBD4;
+      --accent-bg: #122624;
+      --warn:      #D9AE5F;
+      --warn-bg:   #241E12;
+      --term-bg:   #0A1413;
+      --term-ink:  #CFE3E0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:     #101414;
+    --card:      #171D1D;
+    --ink:       #E7EDEB;
+    --ink-soft:  #A3AFAD;
+    --ink-faint: #74807E;
+    --rule:      #262F2F;
+    --accent:    #5FC9C2;
+    --accent-2:  #7FDBD4;
+    --accent-bg: #122624;
+    --warn:      #D9AE5F;
+    --warn-bg:   #241E12;
+    --term-bg:   #0A1413;
+    --term-ink:  #CFE3E0;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.75rem;
+  }
+
+  header { display: flex; flex-direction: column; gap: 0.9rem; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(2rem, 5.5vw, 2.85rem);
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .standfirst { font-size: 1.1rem; color: var(--ink-soft); margin: 0; max-width: 36rem; }
+
+  .before {
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 4px 4px 0;
+    background: var(--card);
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .before strong { font-family: var(--display); font-weight: 600; font-size: 0.98rem; }
+  .before p { margin: 0; font-size: 0.95rem; color: var(--ink-soft); }
+
+  /* ---------- steps ---------- */
+
+  .step { display: grid; grid-template-columns: 3rem 1fr; gap: 0 1.1rem; align-items: start; }
+
+  .num {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 1.45rem;
+    line-height: 1.25;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    padding-top: 0.05rem;
+  }
+
+  .step-body { display: flex; flex-direction: column; gap: 0.85rem; min-width: 0; }
+
+  h2 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: -0.015em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .step p { margin: 0; color: var(--ink-soft); }
+  .step p.lead { color: var(--ink); }
+  .step p + p { margin-top: -0.2rem; }
+
+  /* ---------- terminal blocks ---------- */
+
+  .cmd {
+    position: relative;
+    background: var(--term-bg);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .cmd pre {
+    margin: 0;
+    padding: 0.85rem 4.6rem 0.85rem 1rem;
+    overflow-x: auto;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    line-height: 1.7;
+    color: var(--term-ink);
+    tab-size: 2;
+  }
+
+  .cmd pre .p { color: #5B8A86; user-select: none; }
+
+  .copy {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #8FB3AF;
+    background: transparent;
+    border: 1px solid #2E4644;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
+  .copy:hover { color: #D6E6E3; border-color: #4C6B68; }
+  .copy:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+  .copy[data-done="1"] { color: #7FDBD4; border-color: #7FDBD4; }
+
+  /* ---------- lists and tables ---------- */
+
+  ul.plain { margin: 0; padding-left: 1.15rem; color: var(--ink-soft); }
+  ul.plain li { margin-bottom: 0.3rem; }
+  ul.plain b { color: var(--ink); font-weight: 600; }
+
+  .files {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--card);
+  }
+  .files div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.65rem 0.95rem;
+    font-size: 0.93rem;
+  }
+  .files div + div { border-top: 1px solid var(--rule); }
+  .files code {
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    color: var(--accent);
+    background: var(--accent-bg);
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+  }
+  .files b { font-family: var(--mono); font-variant-numeric: tabular-nums; font-weight: 500; }
+  .files span { color: var(--ink-faint); font-size: 0.85rem; }
+
+  .note {
+    border-left: 3px solid var(--warn);
+    background: var(--warn-bg);
+    border-radius: 0 4px 4px 0;
+    padding: 0.85rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .note strong { font-family: var(--display); font-weight: 600; font-size: 0.95rem; color: var(--warn); }
+  .note p { font-size: 0.93rem; margin: 0; color: var(--ink-soft); }
+
+  .ok {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-bg);
+    border-radius: 0 4px 4px 0;
+    padding: 0.85rem 1.1rem;
+  }
+  .ok p { margin: 0; font-size: 0.93rem; color: var(--ink-soft); }
+  .ok strong { color: var(--accent); font-family: var(--display); font-weight: 600; }
+
+  code.inline {
+    font-family: var(--mono);
+    font-size: 0.85em;
+    background: var(--accent-bg);
+    color: var(--accent);
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+  }
+
+  hr.sep { border: 0; border-top: 1px solid var(--rule); margin: 0; }
+
+  footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 1.4rem;
+    font-size: 0.92rem;
+    color: var(--ink-faint);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+  @media (max-width: 36rem) {
+    .step { grid-template-columns: 1fr; gap: 0.5rem; }
+    .num { text-align: left; font-size: 1.1rem; }
+    .files div { flex-direction: column; gap: 0.2rem; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Wolkskool &middot; inhoudspyplyn</div>
+    <h1>Setting up on a new machine</h1>
+    <p class="standfirst">Everything needed to go from a fresh clone to a working pipeline. Roughly twenty minutes, most of it waiting for installers.</p>
+  </header>
+
+  <div class="before">
+    <strong>Two things the repository does not contain</strong>
+    <p>Textbooks and curriculum PDFs are deliberately kept out of git and must be copied across by hand — step 4. Nothing can be profiled without them.</p>
+  </div>
+
+  <div class="step">
+    <div class="num">1</div>
+    <div class="step-body">
+      <h2>Clone the repository</h2>
+      <p class="lead">It is private, so sign in first if this machine has never authenticated.</p>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> gh auth login</pre><button class="copy" type="button">Copy</button></div>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> git clone https://github.com/drico-byte/Inhoud-team.git</pre><button class="copy" type="button">Copy</button></div>
+      <p>Clone it wherever you keep work. Avoid a OneDrive-synced folder — the pipeline writes constantly and sync will fight it.</p>
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <div class="step">
+    <div class="num">2</div>
+    <div class="step-body">
+      <h2>Install what the pipeline needs</h2>
+      <p class="lead">Four things, and two of them are not Python packages.</p>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> pip install pyphen spylls</pre><button class="copy" type="button">Copy</button></div>
+      <p><b>Tesseract</b> does the OCR, and it needs the Afrikaans and orientation language data — tick <code class="inline">afr</code> and <code class="inline">osd</code> during installation, they are not included by default.</p>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> winget install UB-Mannheim.TesseractOCR</pre><button class="copy" type="button">Copy</button></div>
+      <p><b>Poppler</b> turns PDF pages into images for the OCR.</p>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> winget install oschwartz10612.Poppler</pre><button class="copy" type="button">Copy</button></div>
+      <p>If either package name has changed, find it with <code class="inline">winget search tesseract</code> or <code class="inline">winget search poppler</code>. Both must end up on <code class="inline">PATH</code> — the next step checks and will tell you if they are not.</p>
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <div class="step">
+    <div class="num">3</div>
+    <div class="step-body">
+      <h2>Run the setup script</h2>
+      <p class="lead">This is the step that makes the clone into a working project, and it is easy to skip because nothing obviously fails without it.</p>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> cd Inhoud-team; python bin\opstel.py</pre><button class="copy" type="button">Copy</button></div>
+      <p>It links the content standard into <code class="inline">.claude/skills/</code> so Claude Code can discover it, links the project's memory notes to where Claude reads memory, creates the folders for the source documents, and reports anything missing.</p>
+      <div class="note">
+        <strong>Why it cannot be skipped</strong>
+        <p>The standard lives in <code class="inline">skills/</code> and clones fine, but the link that makes it <em>discoverable</em> is deliberately not in git — it is a machine-specific path. Without this step Claude works without the standard and without any of the project's accumulated rulings, and the output looks plausible while ignoring every one of them.</p>
+      </div>
+      <p>Run it again whenever something stops working, and after ever moving the folder.</p>
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <div class="step">
+    <div class="num">4</div>
+    <div class="step-body">
+      <h2>Copy the source documents across</h2>
+      <p class="lead">Two folders, by hand, from a stick or a share. The folder names and structure matter — the profiler is pointed at paths inside them.</p>
+      <div class="files">
+        <div><span><code>bronne/Intersen/</code> &nbsp; textbook PDFs</span><b>17 files</b></div>
+        <div><span><code>kaps/dokumente/intersen-gr4-6/</code></span><b>5 files</b></div>
+        <div><span><code>kaps/dokumente/senior-gr7-9/</code></span><b>9 files</b></div>
+        <div><span><code>kaps/dokumente/fet-gr10-12/</code></span><b>17 files</b></div>
+      </div>
+      <p>Both parent folders already exist — step 3 created them empty — so you are dropping files in, not building paths.</p>
+      <p>Check the counts when you are done:</p>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> (Get-ChildItem bronne -Recurse -File).Count
+<span class="p">PS&gt;</span> (Get-ChildItem kaps\dokumente -Recurse -File).Count</pre><button class="copy" type="button">Copy</button></div>
+      <p>You want <b>17</b> and <b>31</b>.</p>
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <div class="step">
+    <div class="num">5</div>
+    <div class="step-body">
+      <h2>Confirm it all works</h2>
+      <p class="lead">Run the setup script once more. Every line should read <code class="inline">ok</code>.</p>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> python bin\opstel.py</pre><button class="copy" type="button">Copy</button></div>
+      <div class="ok">
+        <p><strong>The one line that may not say ok, and that is fine:</strong> the Afrikaans spelling dictionary. Spelling is a warning-level check, so the gate runs normally without it and simply notes that spelling was not checked.</p>
+      </div>
+      <p>Then ask the pipeline where a finished lesson stands. It should report that the lesson is approved rather than erroring:</p>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> python bin\hardloop.py --vak "Natuurwetenskappe en Tegnologie" --graad 4 --subonderwerp "Sterk raamstrukture" --les 1</pre><button class="copy" type="button">Copy</button></div>
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <div class="step">
+    <div class="num">6</div>
+    <div class="step-body">
+      <h2>Before writing anything</h2>
+      <p class="lead">Two rules that are not obvious from the code and are expensive to learn by breaking.</p>
+      <ul class="plain">
+        <li><b>Only the profiler may read a textbook.</b> It emits numbers — page counts, word volumes, register statistics. The planner and the writer see the curriculum plus those numbers, and refuse a textbook however the offer is framed. This is what makes the work independently created, and the git history is the evidence.</li>
+        <li><b>The runner names the next step.</b> Run <code class="inline">bin\hardloop.py</code> for a lesson and it tells you which agent to launch, with the exact input and output paths. Copy those paths into the brief rather than typing them, and check afterwards that the report actually landed.</li>
+      </ul>
+      <p><code class="inline">CLAUDE.md</code> carries these for Claude itself and loads automatically. <code class="inline">README.md</code> has the full explanation — the pipeline order, the four human approval points, and the boundary with the layout team.</p>
+    </div>
+  </div>
+
+  <footer>
+    <div>Scratch files for the OCR are written outside the repository, by default to <code class="inline">C:\temp\wolkskool-scratch</code>. Keep them off OneDrive and out of the repo; override with the <code class="inline">WOLKSKOOL_SCRATCH</code> environment variable.</div>
+    <div>If a step fails, paste what it printed to Claude rather than guessing — the setup script's output names the exact problem.</div>
+  </footer>
+
+</div>
+
+<script>
+  document.querySelectorAll(".copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var pre = btn.parentElement.querySelector("pre").cloneNode(true);
+      pre.querySelectorAll(".p").forEach(function (p) { p.remove(); });
+      var text = pre.textContent.split("\n").map(function (l) { return l.trim(); })
+                    .filter(function (l) { return l.length; }).join("\n");
+      var done = function () {
+        btn.textContent = "Copied";
+        btn.setAttribute("data-done", "1");
+        window.setTimeout(function () {
+          btn.textContent = "Copy";
+          btn.removeAttribute("data-done");
+        }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { fallback(text, done); });
+      } else { fallback(text, done); }
+    });
+  });
+
+  function fallback(text, done) {
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand("copy"); done(); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+</script>
