@@ -299,7 +299,11 @@
     <div class="step-body">
       <h2>Install what the pipeline needs</h2>
       <p class="lead">Four things, and two of them are not Python packages.</p>
-      <div class="cmd"><pre><span class="p">PS&gt;</span> pip install pyphen spylls</pre><button class="copy" type="button">Copy</button></div>
+      <div class="cmd"><pre><span class="p">PS&gt;</span> python -m pip install pyphen spylls</pre><button class="copy" type="button">Copy</button></div>
+      <div class="note">
+        <strong>If PowerShell says <code class="inline">pip</code> or <code class="inline">python</code> is not recognised</strong>
+        <p>Python is installed but not on <code class="inline">PATH</code>, which is the usual Windows default. The <code class="inline">python -m pip</code> form above avoids it. If <code class="inline">python</code> itself is not recognised, try the launcher: <code class="inline">py -m pip install pyphen spylls</code>. If neither works, Python is genuinely not installed — run <code class="inline">winget install Python.Python.3.12</code>, then close and reopen PowerShell so the new <code class="inline">PATH</code> takes effect.</p>
+      </div>
       <p><b>Tesseract</b> does the OCR, and it needs the Afrikaans and orientation language data — tick <code class="inline">afr</code> and <code class="inline">osd</code> during installation, they are not included by default.</p>
       <div class="cmd"><pre><span class="p">PS&gt;</span> winget install UB-Mannheim.TesseractOCR</pre><button class="copy" type="button">Copy</button></div>
       <p><b>Poppler</b> turns PDF pages into images for the OCR.</p>
