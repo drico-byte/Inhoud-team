@@ -41,3 +41,4 @@
 - [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — three of four fixed over-claims stopped being claims; narrow the quantifier, never the subject.
 - [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went over unprotected.
 - [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — two unchecked measurements and one false claim in one day; a spec is read as settled.
+- [A claim about Afrikaans usage is not a requirement](n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie.md) — a whole block rested on "sit dit hoër"; Afrikaans says "harder", and the English problem had been imported.

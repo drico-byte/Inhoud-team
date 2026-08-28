@@ -4,8 +4,14 @@
   "konsep_hash": "sha256:81f536636e05f0e38768ff74ae647438",
   "hek": "PASS",
   "teruggestuur_vir": [],
-  "eskalasie": null,
-  "blok_faalrondtes": {},
+  "eskalasie": {
+    "soort": "mens_nodig",
+    "wanneer": "2026-08-28T21:15:59+00:00",
+    "rede": "feite returned MENS_NODIG — a writer handed a defect it cannot fix will invent one or strip the content"
+  },
+  "blok_faalrondtes": {
+    "sit dit hoër beteken maak dit harder": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -77,6 +83,40 @@
       "woorde": 599,
       "begroting": 538,
       "failures": []
+    },
+    {
+      "wanneer": "2026-08-28T21:15:59+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-28T21:15:59+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 26,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-28T21:15:59+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "sit dit hoër beteken maak dit harder"
+      ],
+      "tally": {
+        "sit dit hoër beteken maak dit harder": 1
+      }
+    },
+    {
+      "wanneer": "2026-08-28T21:15:59+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
     }
   ],
   "spek_hash": "sha256:6ceb61ff9f5044d08aa9e85ac55e501d",
