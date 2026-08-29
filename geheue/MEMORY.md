@@ -42,3 +42,4 @@
 - [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went over unprotected.
 - [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — two unchecked measurements and one false claim in one day; a spec is read as settled.
 - [A claim about Afrikaans usage is not a requirement](n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie.md) — a whole block rested on "sit dit hoër"; Afrikaans says "harder", and the English problem had been imported.
+- [My searches miss, and then I believe them](my-soektogte-mis-en-dan-glo-ek-hulle.md) — three empty results reported as findings in one day; the third nearly became a false accusation.
