@@ -202,6 +202,25 @@ def met_spek_konteks(spek, inskrywing):
     The entry's own keys win, so a lesson may still narrow anything.
     """
     saam = {k: v for k, v in spek.items() if k != "lesse"}
+
+    # The subject's agreed glossary wordings, injected rather than copied into
+    # each spec. Three of these terms cross sub-topics, so no single spec can own
+    # them, and a copy in eight specs is eight things to keep in step. Injecting
+    # means a writer and a coverage checker always read the current list.
+    kanon = os.path.join(P.REPO, "kaps", "gedeelde-omskrywings.json")
+    if os.path.exists(kanon):
+        try:
+            k = P.lees_json(kanon)
+            if (P.slug(k.get("vak", "")) == P.slug(spek.get("vak", ""))
+                    and int(k.get("graad", -1)) == int(spek.get("graad", -2))):
+                saam["vak_gedeelde_omskrywings"] = {
+                    "nota": k.get("nota"),
+                    "terme": {t: v.get("omskrywing")
+                              for t, v in (k.get("terme") or {}).items()},
+                }
+        except (OSError, ValueError, TypeError):
+            pass
+
     saam.update(inskrywing)
     saam["_spek_vlak_velde"] = sorted(k for k in spek if k != "lesse"
                                       and k not in inskrywing)
