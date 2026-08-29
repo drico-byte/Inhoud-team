@@ -122,6 +122,17 @@ def versamel(wortel, jare):
     return terme, gelees
 
 
+def romp(teks):
+    """The part of a definition before its examples.
+
+    Drico ruled on 28 August 2026 that the examples after `soos` may differ per
+    lesson -- lesson 9 gives wood, water and air because it teaches the three
+    states, lesson 14 gives paper, wood and clay because it folds paper, and both
+    are that lesson's own material. What must match is the sentence itself.
+    """
+    return re.split(r",?\s+soos\s+", teks, maxsplit=1)[0].rstrip(" .,")
+
+
 def ooreengekome():
     """The one wording per term that the subject has settled on.
 
@@ -160,19 +171,33 @@ def main():
 
     terme, gelees = versamel(wortel, jaarnommers())
     gedeel = {t: d for t, d in terme.items() if sum(len(v) for v in d.values()) > 1}
-    drif = {t: d for t, d in gedeel.items() if len(d) > 1}
+    besluite_vroeg = ooreengekome()
+    def eenders(term, a_, b_):
+        if besluite_vroeg.get(term, {}).get("voorbeelde_mag_verskil"):
+            return romp(a_) == romp(b_)
+        return a_ == b_
+
+    drif = {}
+    for t, d in gedeel.items():
+        vorme = list(d)
+        if any(not eenders(t, vorme[0], v) for v in vorme[1:]):
+            drif[t] = d
 
     # A settled wording turns "these two disagree" into "this one is wrong", which
     # is a different and more useful thing to be told: without it the report says
     # a term drifts and leaves the reader to work out which copy to trust, and
     # that is the step where a third wording gets invented.
-    besluite = ooreengekome()
+    besluite = besluite_vroeg
     teen_besluit = {}
     for term, inskrywing in besluite.items():
         reg = inskrywing.get("omskrywing")
         if not reg or term not in terme:
             continue
-        verkeerd = {teks: waar for teks, waar in terme[term].items() if teks != reg}
+        if inskrywing.get("voorbeelde_mag_verskil"):
+            verkeerd = {teks: waar for teks, waar in terme[term].items()
+                        if romp(teks) != romp(reg)}
+        else:
+            verkeerd = {teks: waar for teks, waar in terme[term].items() if teks != reg}
         if verkeerd:
             teen_besluit[term] = (reg, verkeerd)
 
@@ -202,6 +227,28 @@ def main():
         print("  Dit is nie 'n skoon toets nie; daar was net niks om te toets nie.")
         return 0
 
+    # A term whose wording is still undecided is not a clean result, and it will
+    # not show as drift once the lessons happen to agree on a wording that was
+    # itself rejected -- which is exactly what happened to `geraamte`: both
+    # candidates were wrong, one lesson was moved onto the other, and the sweep
+    # went quiet. A clean report that hides an open decision is the failure this
+    # whole file exists to prevent.
+    oop = {t: v for t, v in besluite.items()
+           if not v.get("omskrywing") and t in terme}
+    if oop:
+        print(f"BESLISSING NOG OOP ({len(oop)}):")
+        print()
+        for term in sorted(oop):
+            print(f"  {term}")
+            for teks, waar in sorted(terme[term].items()):
+                for _, status, jaar in sorted(waar, key=lambda w: (w[2] or 10**6,)):
+                    merk = "afgelewer" if status == "goedgekeur" else (status or "?")
+                    print(f'     les {jaar or "?"} ({merk}) "{teks}"')
+            rede = oop[term].get("WAG_OP_DRICO") or ""
+            if rede:
+                print(f"     -> {rede[:150]}...")
+            print()
+
     if teen_besluit:
         print(f"TEEN 'N BESLISTE BEWOORDING ({len(teen_besluit)}):")
         print()
@@ -216,10 +263,13 @@ def main():
             print()
 
     if not drif:
-        if not teen_besluit:
+        if not teen_besluit and not oop:
             print(f"  Geen drif. Al {len(gedeel)} gedeelde terme is woord vir woord")
             print(f"  dieselfde oor die {gelees} lesse wat gelees is.")
             return 0
+        if not teen_besluit:
+            print(f"Geen les weerspreek 'n ander nie, maar {len(oop)} bewoording(s) is nog nie besluit nie.")
+            return 1
         print("Geen les weerspreek 'n ander nie; die bogenoemde weerspreek 'n beslissing.")
         return 1
 
