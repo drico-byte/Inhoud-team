@@ -57,6 +57,25 @@ def jaarnommers():
     that is usually the whole argument about which one should win.
     """
     uit = {}
+
+    # The lesson index first. Specs written before the year-numbering ruling have
+    # no jaarnommer at all, and those are most of Terms 1 and 2 -- exactly the
+    # lessons a drift report is about. Without this the report says "les ?" for
+    # the ones it is asking someone to go and fix.
+    for naam in sorted(os.listdir(os.path.join(REPO, "kaps", "lesindeks"))
+                       if os.path.isdir(os.path.join(REPO, "kaps", "lesindeks")) else []):
+        if not naam.endswith(".json"):
+            continue
+        try:
+            with open(os.path.join(REPO, "kaps", "lesindeks", naam), encoding="utf-8") as fh:
+                idx = json.load(fh)
+        except (OSError, ValueError):
+            continue
+        vak = slug(idx.get("vak") or "")
+        for e in idx.get("lesse", []):
+            if e.get("subonderwerp") and e.get("les") and e.get("nommer"):
+                uit[(vak, slug(e["subonderwerp"]), int(e["les"]))] = e["nommer"]
+
     for gids, _, lers in os.walk(os.path.join(REPO, "spesifikasies")):
         for naam in lers:
             if not naam.endswith(".json") or naam.endswith(".feite.json"):
@@ -103,6 +122,24 @@ def versamel(wortel, jare):
     return terme, gelees
 
 
+def ooreengekome():
+    """The one wording per term that the subject has settled on.
+
+    Kept for the whole subject rather than per specification, because three of
+    these terms cross sub-topics -- `materiaal` appears in lessons 8, 9 and 14,
+    which are three different specifications -- and a field in one of them cannot
+    state a rule about the subject.
+    """
+    pad = os.path.join(REPO, "kaps", "gedeelde-omskrywings.json")
+    if not os.path.exists(pad):
+        return {}
+    try:
+        with open(pad, encoding="utf-8") as fh:
+            return json.load(fh).get("terme", {})
+    except (OSError, ValueError):
+        return {}
+
+
 def main():
     ap = argparse.ArgumentParser(
         description="Find glossary terms defined more than one way")
@@ -124,6 +161,20 @@ def main():
     terme, gelees = versamel(wortel, jaarnommers())
     gedeel = {t: d for t, d in terme.items() if sum(len(v) for v in d.values()) > 1}
     drif = {t: d for t, d in gedeel.items() if len(d) > 1}
+
+    # A settled wording turns "these two disagree" into "this one is wrong", which
+    # is a different and more useful thing to be told: without it the report says
+    # a term drifts and leaves the reader to work out which copy to trust, and
+    # that is the step where a third wording gets invented.
+    besluite = ooreengekome()
+    teen_besluit = {}
+    for term, inskrywing in besluite.items():
+        reg = inskrywing.get("omskrywing")
+        if not reg or term not in terme:
+            continue
+        verkeerd = {teks: waar for teks, waar in terme[term].items() if teks != reg}
+        if verkeerd:
+            teen_besluit[term] = (reg, verkeerd)
 
     if a.as_json:
         json.dump({
@@ -151,10 +202,26 @@ def main():
         print("  Dit is nie 'n skoon toets nie; daar was net niks om te toets nie.")
         return 0
 
+    if teen_besluit:
+        print(f"TEEN 'N BESLISTE BEWOORDING ({len(teen_besluit)}):")
+        print()
+        for term in sorted(teen_besluit):
+            reg, verkeerd = teen_besluit[term]
+            print(f"  {term}")
+            print(f'     REG:  "{reg}"')
+            for teks, waar in sorted(verkeerd.items()):
+                for pad_, status, jaar in sorted(waar, key=lambda w: (w[2] or 10**6, w[0])):
+                    merk = "afgelewer" if status == "goedgekeur" else (status or "?")
+                    print(f'     nie:  les {jaar or "?"} ({merk}) "{teks}"')
+            print()
+
     if not drif:
-        print(f"  Geen drif. Al {len(gedeel)} gedeelde terme is woord vir woord")
-        print(f"  dieselfde oor die {gelees} lesse wat gelees is.")
-        return 0
+        if not teen_besluit:
+            print(f"  Geen drif. Al {len(gedeel)} gedeelde terme is woord vir woord")
+            print(f"  dieselfde oor die {gelees} lesse wat gelees is.")
+            return 0
+        print("Geen les weerspreek 'n ander nie; die bogenoemde weerspreek 'n beslissing.")
+        return 1
 
     for term in sorted(drif):
         print(f"DRIF: {term}")
@@ -170,7 +237,12 @@ def main():
         print()
 
     print(f"{len(drif)} van die {len(gedeel)} gedeelde terme dryf uiteen.")
-    print("Een bewoording moet wen. 'n Derde bewoording maak dit erger.")
+    if besluite:
+        beslis = sum(1 for t in drif if t in besluite)
+        print(f"{beslis} daarvan het reeds 'n besliste bewoording (sien kaps/gedeelde-omskrywings.json);")
+        print("vir die res moet een bewoording wen. 'n Derde bewoording maak dit erger.")
+    else:
+        print("Een bewoording moet wen. 'n Derde bewoording maak dit erger.")
     return 1
 
 
