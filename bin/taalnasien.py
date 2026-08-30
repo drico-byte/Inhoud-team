@@ -127,6 +127,31 @@ def gedeelde_verklarings(les, les_pad):
     return [(t, myne[t], sorted(waar)) for t, waar in sorted(elders.items())]
 
 
+def spek_beskermde_woorde(les_pad):
+    """The rulings the lesson's OWN specification records.
+
+    kaps/beskermde-woorde.json holds decisions that span sub-topics. Each spec
+    also keeps its own, and those never reached the language checker: lesson 25
+    went over with one protected word listed while its plan records ten -- volume
+    against the Maths sense, hoog/laag tied to pitch alone, the wording that must
+    be used about people who do not hear. Every one of them reads like ordinary
+    Afrikaans a fluent checker would improve.
+    """
+    pad = os.path.join(os.path.dirname(les_pad), "spek",
+                       os.path.basename(les_pad))
+    if not os.path.exists(pad):
+        return []
+    try:
+        spek = lees_json(pad)
+    except Exception:
+        return []
+    uit = []
+    for inskrywing in (spek.get("beskermde_woorde") or []):
+        if inskrywing.get("hou"):
+            uit.append(inskrywing)
+    return uit
+
+
 def voorgeskrewe_omskrywings(les):
     """Wordings an approved spec prescribes for a term this lesson defines.
 
@@ -194,7 +219,7 @@ def bou(les_pad):
     reels.append(f"LES: {les.get('titel')}   ({les.get('vak')}, Graad {les.get('graad')})")
     reels.append("=" * 72)
 
-    woorde = beskermde_woorde(les, sub_gids)
+    woorde = beskermde_woorde(les, sub_gids) + spek_beskermde_woorde(les_pad)
     gedeel = gedeelde_verklarings(les, les_pad)
     gedeel_terme = {t for t, _, _ in gedeel}
     voorgeskryf = [(t, teks) for t, teks in voorgeskrewe_omskrywings(les)
