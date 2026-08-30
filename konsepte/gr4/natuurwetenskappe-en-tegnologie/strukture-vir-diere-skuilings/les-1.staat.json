@@ -1,11 +1,17 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/strukture-vir-diere-skuilings/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:39a0602b3686b8eb39716e199a7ceb60",
+  "konsep_hash": "sha256:201ca0d23ba83f006e191d020a3d3abe",
   "hek": "PASS",
   "teruggestuur_vir": [],
-  "eskalasie": null,
-  "blok_faalrondtes": {},
+  "eskalasie": {
+    "soort": "mens_nodig",
+    "wanneer": "2026-08-30T15:10:52+00:00",
+    "rede": "feite returned MENS_NODIG — a writer handed a defect it cannot fix will invent one or strip the content"
+  },
+  "blok_faalrondtes": {
+    "neste en perdebynesse": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -49,6 +55,54 @@
       "woorde": 732,
       "begroting": 683,
       "failures": []
+    },
+    {
+      "wanneer": "2026-08-30T14:58:07+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:201ca0d23ba83f006e191d020a3d3abe",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-08-30T14:58:07+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 729,
+      "begroting": 683,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-30T15:10:52+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 18,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-30T15:10:52+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-08-30T15:10:52+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "neste en perdebynesse"
+      ],
+      "tally": {
+        "neste en perdebynesse": 1
+      }
+    },
+    {
+      "wanneer": "2026-08-30T15:10:52+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
     }
   ],
   "spek_hash": "sha256:bb4694e079c8976cb74906abcab8c284",
