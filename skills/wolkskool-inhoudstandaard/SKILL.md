@@ -92,11 +92,73 @@ rest of the intuition. A learner who cannot load the video still learns the conc
 plain concrete description, which is what standing alone requires; it does not require the
 text to be as vivid as film.
 
+
+### When the video was made first
+
+Grade 4 Sosiale Wetenskappe reverses the order above. Those videos were made before
+any text existed and will not be remade, so everything in this subsection applies
+only where a video already exists.
+
+**The text still comes from CAPS.** A video script is not a source for content and
+not a source for structure. Letting it be either would put a video maker's coverage
+decisions where the curriculum's belong, and the video was not built against the CAPS
+bullets one at a time.
+
+What a script *is* good for is three things, and they are worth a great deal:
+
+- **the same word for the same thing.** A video that says *boggel* and a text that
+  says *bult* teaches a nine-year-old two words for one idea. Terminology drift
+  between media is the same failure as drift between lessons, and worse: a lesson can
+  be fixed and a video cannot.
+- **the same example.** A different example for the same point splits the picture the
+  learner is building.
+- **what the video already carried well**, so the text does not spend budget building
+  a second version of it.
+
+And one thing it is dangerous for: **a video script has been through no fact
+checker.** Where a script makes a claim that is false, the text must not repeat it.
+Repeating it would launder an error through a checked pipeline into something that
+looks verified.
+
+**A script reaches the pipeline as a distilled seam, never raw.** Whoever runs the
+pipeline reads the script, checks its claims, and writes a `video_naat` object into
+the lesson's spec entry: the words the video used, what it covered, and every claim
+the text must not repeat together with the reason it is false. The planner and the
+writer read that object. **The fact checker never does**, for the same reason it
+never reads the spec — a checker who knows the video said something reads the lesson
+charitably.
+
+**The video's lesson division wins, not the CAPS bullet division.** Drico, 31 August
+2026: where a video merges two CAPS bullets into one lesson, the text merges them too.
+His reason is the whole argument — these videos were made by a teacher out of how she
+actually teaches the topic, so the seams carry information a bullet list does not.
+
+This does **not** loosen coverage. Every CAPS bullet is still covered in full and every
+item CAPS names explicitly is still mandatory. Only the division changes: coverage comes
+from CAPS, the seams come from the teacher.
+
+**A merged lesson gets one lesson's budget, not two.** The sub-topic's measured volume is
+divided evenly by the new, smaller lesson count — Drico: *"We treat it as one lesson,
+therefore the volume should be suitable for one lesson as well."* So merging does not buy
+length; it spends it. Expect the merged lesson to be the tight one in its sub-topic, and
+plan for that rather than discovering it in a revision: divide its budget by its item
+count before writing, and treat the three-sentence pattern as the ceiling.
+
+**Where the video is wrong, route around it.** Do not repeat the claim, and do not
+correct it in the text either. A learner who watches and then reads should not be
+handed two stories; they should simply not meet the false one a second time. Then
+tell the person who owns the video, because what to do about the video is a decision
+about the video and not about the text.
+
 ## What a Wolkskool lesson is
 
 A lesson maps to **one CAPS content bullet**, not to a textbook page or section.
 CAPS bullets are the unit the curriculum actually specifies, and using them keeps
 lesson boundaries independent of any publisher's chapter design.
+
+One exception, and only one: where a video was made before the text and merged two
+bullets, the text follows the video's division. See "When the video was made first"
+above. Coverage still comes from CAPS; only the seams move.
 
 Content divides into three tiers. The tier determines whether it counts against
 the study budget:

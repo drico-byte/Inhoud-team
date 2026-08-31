@@ -139,8 +139,8 @@ lesson by lesson.**
    and do the usual back-and-forth until it is settled.
 2. **Draft every lesson in the subject-year before completing any of them.** Then
    find the terms that appear in more than one lesson, fact-check the competing
-   wordings, and decide once which wins. Record it in
-   `kaps/gedeelde-omskrywings.json`.
+   wordings, and decide once which wins. Record it in that subject's
+   agreed-wordings file under `kaps/`.
 3. **Only then run the rest of the pipeline** per lesson — gate, checkers,
    approval.
 
@@ -201,12 +201,21 @@ every lesson was dropped from what the checker received.
 
 ### One agreed wording per term, for the whole subject
 
-`kaps/gedeelde-omskrywings.json` holds the decision for every term that appears
-in more than one lesson: the wording, which lessons carry it, and why that one
-won. It lives at subject level rather than in the specifications because some
+One file per subject-grade under `kaps/` holds the decision for every term that
+appears in more than one lesson: the wording, which lessons carry it, and why that
+one won. It lives at subject level rather than in the specifications because some
 terms cross sub-topics — `materiaal` sits in three different specs — and a field
-in one of them cannot state a rule about the subject. `hardloop.py` injects it
-into every spec extract, so nothing has to be copied and nothing goes stale.
+in one of them cannot state a rule about the subject. `hardloop.py` injects the
+right file into every spec extract, so nothing has to be copied and nothing goes
+stale.
+
+The file is matched on its own `vak` and `graad`, never on its name — Natuurwetenskappe
+wrote `gedeelde-omskrywings.json` before a second subject existed, and Sosiale
+Wetenskappe writes `gedeelde-omskrywings-sosiale-wetenskappe-gr4.json`. Give a new
+subject its own file, with an empty `terme`, before its first lesson is drafted:
+`woordelysdrif.py` then names the list it loaded, and says loudly when it loaded
+none, because a sweep with no decision list prints exactly like a sweep that agreed
+with everything.
 
 Two rulings govern it:
 

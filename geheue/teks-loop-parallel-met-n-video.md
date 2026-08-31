@@ -1,6 +1,6 @@
 ---
 name: teks-loop-parallel-met-n-video
-description: A Wolkskool lesson is a video plus our text in parallel — one of each per CAPS heading. The text stands alone as the revision instrument.
+description: A Wolkskool lesson is a video plus our text in parallel — one of each per CAPS heading. The text stands alone as the revision instrument. Gr 4 Sosiale Wetenskappe is the exception: its videos were made first.
 metadata:
   type: project
 ---
@@ -45,3 +45,37 @@ should follow CAPS. Here all three already agree.
 
 **The drift gap largely closes** once videos are generated from the text, since one derives
 from the other. It stays open for videos made before that changeover. Related: [[moenie-op-voorkoms-sorteer-nie]]
+
+## The exception: Gr 4 Sosiale Wetenskappe was made the other way round
+
+Drico, 31 August 2026: the Grade 4 SW videos were made **before** any text, and will
+not be remade — "we have no choice since the videos took a lot of time to create".
+So for that subject everything above about the video following the text is inverted,
+and the guarantees it buys are gone: the text can no longer be the floor the video
+honours, because the video is already finished.
+
+**What does not change:** the lesson still comes from CAPS. A video script is not a
+source for content and not a source for structure. Drico said it first and
+unprompted — "the script doesnt become the text content. We still do what we always
+do, we just have an extra guide now."
+
+**What the script is genuinely worth**, in order: the same word for the same thing
+(drift between a video and a text is the drift problem with no repair path); the same
+example, so the learner builds one picture; and knowing what the video already
+carried well, so the text does not rebuild it.
+
+**The danger it carries:** a script has been through no fact checker. The first one
+read had two false claims in four lines — that a donkey cannot walk far without food
+and water (a donkey tolerates thirst *better* than a horse, ~20 l/day against 40–60
+for a working horse in heat) and that donkeys are stubborn (a myth; it is
+self-preservation in a prey animal). Repeating either would have laundered an error
+through a checked pipeline into something that looks verified.
+
+**So a script enters as a distilled `video_naat` object in the spec, never raw** —
+the words used, what was covered, and every claim the text must not repeat with the
+reason. The planner and writer read it; the fact checker never does, for the same
+reason it never reads the spec. **Where the video is wrong, route around it**: do not
+repeat it and do not correct it either, or a learner who watches and then reads gets
+two stories. Then tell Drico, because the video is his call.
+
+Written into `skills/wolkskool-inhoudstandaard/SKILL.md` and `CLAUDE.md` the same day.

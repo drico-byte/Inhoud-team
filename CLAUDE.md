@@ -111,6 +111,45 @@ The improvements that hurt most did not come from writers — they came from fac
 checks, which run *after* drafting. One asked whether crude oil is always thick
 and dark; it is not, and that correction reached a delivered lesson months late.
 
+## Sosiale Wetenskappe: the video was made first
+
+Everywhere else the video is made after the text and follows it. **Grade 4 Sosiale
+Wetenskappe is the other way round** — those videos exist already and will not be
+remade — so for that subject a video script is an extra input, and the rules for it
+are narrow.
+
+The lesson still comes from CAPS. A script is **not** a source for content and not a
+source for structure; letting it be either hands a video maker's coverage decisions
+the job the curriculum has. What it is genuinely worth is that the text uses the same
+word for the same thing, uses the same example, and does not spend budget rebuilding
+something the video already carried. Terminology drift between a video and a text is
+the same failure as drift between two lessons, and worse, because the video cannot be
+fixed.
+
+**A script has been through no fact checker.** Distil it — do not paste it. Whoever
+runs the pipeline reads the script, checks its claims, and writes a `video_naat`
+object into the lesson's spec entry: the words the video used, what it covered, and
+every claim the text must not repeat with the reason it is false. The planner and the
+writer read that object; **the fact checker never does**, for the same reason it never
+reads the spec.
+
+**The video's lesson division wins.** Where a video merges two CAPS bullets into one
+lesson, the text merges them too — the videos were made by a teacher out of how she
+actually teaches the topic, and that is information a bullet list does not carry.
+Coverage does not loosen: every bullet is still covered and every item CAPS names is
+still mandatory. Only the seams move. And a merged lesson gets **one** lesson's budget,
+not two — the measured volume divided by the new, smaller lesson count — so merging
+spends length rather than buying it, and the merged lesson is the tight one.
+
+**Where the video is wrong, route around it** — do not repeat the claim and do not
+correct it either, or a learner who watches and then reads gets two stories. Then say
+so, because what to do about the video is Drico's call, not the text's.
+
+The first one already found two: the Grade 4 transport video says a donkey cannot walk
+far without food and water (a donkey tolerates thirst *better* than a horse and drinks
+about half as much) and that donkeys can be stubborn (a myth — it is a self-preservation
+instinct in a prey animal).
+
 ## A term is defined once for the whole subject
 
 Two lessons that define the same word differently teach two different things, and
@@ -118,11 +157,18 @@ nothing in the per-lesson pipeline can see it: the gate reads one lesson, and th
 coverage checker reads one lesson against one spec entry. Drift only exists
 between files.
 
-**`kaps/gedeelde-omskrywings.json` holds one agreed wording per term**, for the
-whole subject rather than per specification — some terms cross sub-topics, and a
-field in one spec cannot state a rule about the subject. `hardloop.py` injects it
-into every spec extract, so a writer and a coverage checker always read the
-current list without anyone copying it anywhere.
+**One agreed wording per term, in one file per subject-grade under `kaps/`**, for
+the whole subject rather than per specification — some terms cross sub-topics, and
+a field in one spec cannot state a rule about the subject. `hardloop.py` injects
+the right file into every spec extract, so a writer and a coverage checker always
+read the current list without anyone copying it anywhere.
+
+The file is found by its own `vak` and `graad`, not by its name: Natuurwetenskappe
+wrote `gedeelde-omskrywings.json` before there was a second subject, and Sosiale
+Wetenskappe writes `gedeelde-omskrywings-sosiale-wetenskappe-gr4.json`. **A new
+subject needs its own file before its first lesson is drafted** — with an empty
+`terme`, which is honest — or the sweep will report that it loaded no decision
+list at all, which is the answer you want rather than a quiet clean bill.
 
 ```bash
 python bin/woordelysdrif.py --vak "<subject>" --graad 4
@@ -132,7 +178,13 @@ Run it before saying a subject is consistent, and **quote the lesson count it
 prints** — a sweep that read three files looks exactly like a sweep that found
 nothing. It also reports a term whose wording is still *undecided*, because
 lessons that happen to agree on a rejected wording look exactly like lessons that
-are right.
+are right, and it names the decision list it loaded, because loading none at all
+prints the same as agreeing with everything.
+
+That count was wrong until 31 August 2026: a spec extract is named `spek/les-3.json`,
+the same name as the draft, so the sweep counted both and reported exactly double.
+The comparison was never affected — an extract holds no glossary — but the number
+is the whole point of printing it.
 
 **Two rulings, both Drico's:**
 
@@ -144,7 +196,7 @@ are right.
   covers everything, and a learner looking a word up in two lessons must get one
   answer. Always choose the best wording, not the newest.
 
-When a wording changes, fix it in `kaps/gedeelde-omskrywings.json`, refresh the
+When a wording changes, fix it in that subject's agreed-wordings file, refresh the
 extracts, and route every lesson through the writer. A third wording makes it
 worse than leaving it alone.
 
