@@ -60,35 +60,74 @@ def lesteks(rou):
     return skoon(s)
 
 
-def repo_lesse():
-    idx = json.load(open(os.path.join(REPO, "kaps", "lesindeks",
-                                      "gr4-natuurwetenskappe-en-tegnologie.json"),
-                         encoding="utf-8"))
+def lesindeks_pad(vak, graad):
+    return os.path.join(REPO, "kaps", "lesindeks", f"gr{int(graad)}-{slug(vak)}.json")
+
+
+def repo_lesse(vak, graad):
+    """Year number -> the repository's copy of that lesson.
+
+    Keyed on the subject's lesson index, because the built HTML file names carry
+    the year number and a draft on disk carries only its number within its
+    sub-topic. Without the index there is no mapping at all -- and this used to be
+    hardcoded to Natuurwetenskappe, so pointing it at another subject's HTML would
+    have compared those pages against Natuurwetenskappe's wordings and reported
+    them clean.
+    """
+    pad = lesindeks_pad(vak, graad)
+    if not os.path.exists(pad):
+        sys.exit(f"there is no lesson index at {os.path.relpath(pad, REPO)}, so the "
+                 f"built pages cannot be matched to lessons. Without it this tool "
+                 f"would report every page clean because it found nothing to compare.")
+    idx = json.load(open(pad, encoding="utf-8"))
     uit = {}
     for e in idx["lesse"]:
-        p = os.path.join(REPO, "konsepte", "gr4", "natuurwetenskappe-en-tegnologie",
+        p = os.path.join(REPO, "konsepte", f"gr{int(graad)}", slug(vak),
                          slug(e["subonderwerp"]), f"les-{e['les']}.json")
         if os.path.exists(p):
             uit[e["nommer"]] = json.load(open(p, encoding="utf-8"))
     return uit
 
 
+def ooreengekome(vak, graad):
+    """The subject's agreed wordings, found on the file's own vak/graad."""
+    gids = os.path.join(REPO, "kaps")
+    for naam in sorted(os.listdir(gids)):
+        if not (naam.startswith("gedeelde-omskrywings") and naam.endswith(".json")):
+            continue
+        try:
+            d = json.load(open(os.path.join(gids, naam), encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if slug(d.get("vak") or "") == slug(vak) and int(d.get("graad", -1)) == int(graad):
+            return d.get("terme") or {}, naam
+    return {}, None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--html", required=True)
+    ap.add_argument("--vak", default="Natuurwetenskappe en Tegnologie")
+    ap.add_argument("--graad", type=int, default=4)
     ap.add_argument("--json", action="store_true", dest="as_json")
     a = ap.parse_args()
 
-    kanon = json.load(open(os.path.join(REPO, "kaps", "gedeelde-omskrywings.json"),
-                           encoding="utf-8"))["terme"]
+    kanon, kanon_naam = ooreengekome(a.vak, a.graad)
+    if not kanon_naam:
+        sys.exit(f"no agreed-wordings file for {a.vak} Gr {a.graad} in kaps/. "
+                 f"Create one (an empty `terme` is fine) before checking built pages, "
+                 f"or this tool checks the shared definitions of nothing.")
     beskerm = json.load(open(os.path.join(REPO, "kaps", "beskermde-woorde.json"),
                              encoding="utf-8"))
-    repo = repo_lesse()
+    repo = repo_lesse(a.vak, a.graad)
 
     lers = {}
     for naam in os.listdir(a.html):
         m = re.match(r"(\d+)_", naam)
-        if m and naam.lower().endswith(".html"):
+        # Lesson numbers start at 1. A `0_` file is an errata sheet dropped in the
+        # same folder for the layout team, and reading it as a lesson reports the
+        # protected words it QUOTES as words the built pages got wrong.
+        if m and int(m.group(1)) > 0 and naam.lower().endswith(".html"):
             lers[int(m.group(1))] = os.path.join(a.html, naam)
 
     bevindings = {}
@@ -132,8 +171,7 @@ def main():
                     weg.append((hou, verbode, hou.lower() in teks.lower()))
         sub = None
         if r:
-            for e in json.load(open(os.path.join(REPO, "kaps", "lesindeks",
-                                                 "gr4-natuurwetenskappe-en-tegnologie.json"),
+            for e in json.load(open(lesindeks_pad(a.vak, a.graad),
                                     encoding="utf-8"))["lesse"]:
                 if e["nommer"] == n:
                     sub = slug(e["subonderwerp"])
@@ -151,7 +189,8 @@ def main():
         json.dump(bevindings, sys.stdout, ensure_ascii=False, indent=2)
         return 0
 
-    print(f"HTML nagegaan: {len(lers)} lesse")
+    print(f"HTML nagegaan: {len(lers)} lesse  ({a.vak}, Graad {a.graad})")
+    print(f"ooreengekome bewoordings uit {kanon_naam}: {len(kanon)} terme")
     print("=" * 62)
     for n in sorted(bevindings):
         b = bevindings[n]

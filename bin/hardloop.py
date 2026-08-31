@@ -207,19 +207,16 @@ def met_spek_konteks(spek, inskrywing):
     # each spec. Three of these terms cross sub-topics, so no single spec can own
     # them, and a copy in eight specs is eight things to keep in step. Injecting
     # means a writer and a coverage checker always read the current list.
-    kanon = os.path.join(P.REPO, "kaps", "gedeelde-omskrywings.json")
-    if os.path.exists(kanon):
-        try:
-            k = P.lees_json(kanon)
-            if (P.slug(k.get("vak", "")) == P.slug(spek.get("vak", ""))
-                    and int(k.get("graad", -1)) == int(spek.get("graad", -2))):
-                saam["vak_gedeelde_omskrywings"] = {
-                    "nota": k.get("nota"),
-                    "terme": {t: v.get("omskrywing")
-                              for t, v in (k.get("terme") or {}).items()},
-                }
-        except (OSError, ValueError, TypeError):
-            pass
+    try:
+        k = P.gedeelde_omskrywings(spek.get("vak", ""), spek.get("graad", -2))
+    except (TypeError, ValueError):
+        k = {}
+    if k:
+        saam["vak_gedeelde_omskrywings"] = {
+            "nota": k.get("nota"),
+            "terme": {t: v.get("omskrywing")
+                      for t, v in (k.get("terme") or {}).items()},
+        }
 
     saam.update(inskrywing)
     saam["_spek_vlak_velde"] = sorted(k for k in spek if k != "lesse"

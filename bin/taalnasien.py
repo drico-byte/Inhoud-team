@@ -176,7 +176,16 @@ def voorgeskrewe_omskrywings(les):
             except Exception:
                 continue
             for inskrywing in spek.get("lesse", []):
-                vb = inskrywing.get("verwagte_begrippe") or {}
+                # `verwagte_begrippe` comes in two shapes. Natuurwetenskappe writes an
+                # object carrying `voorgeskrewe_omskrywings`; Sosiale Wetenskappe writes
+                # a bare list of the terms the lesson is expected to define, and no
+                # wordings at all. Assuming the object shape crashed this whole tool on
+                # the first Sosiale Wetenskappe lesson -- and it crashes at the LAST
+                # step, after the lesson has passed everything, which is the worst place
+                # to find out.
+                vb = inskrywing.get("verwagte_begrippe")
+                if not isinstance(vb, dict):
+                    continue
                 for term, teks in (vb.get("voorgeskrewe_omskrywings") or {}).items():
                     # A placeholder rather than a wording: some entries say the
                     # definition may only be written once a verification passes.

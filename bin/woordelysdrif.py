@@ -42,8 +42,19 @@ def slug(s):
 
 
 def lesse(wortel):
-    """Every lesson draft under a root, in path order."""
+    """Every lesson draft under a root, in path order.
+
+    A spec extract is named `spek/les-3.json` -- the same file name as the draft
+    it belongs to -- so walking for `les-<n>.json` picked up both and the count
+    this tool prints came out at exactly double: 50 where 25 lessons existed.
+    The comparison itself was unharmed, because an extract carries no `blokke`
+    and contributed no wording to it. The number was the damage. This tool
+    prints that number precisely so a reader knows how wide the claim is, and a
+    doubled scope is the same lie as a narrow sweep reported as a clean one.
+    """
     for gids, _, lers in os.walk(wortel):
+        if os.path.basename(gids) == "spek":
+            continue
         for naam in sorted(lers):
             if LES_NAAM.fullmatch(naam):
                 yield os.path.join(gids, naam)
@@ -133,22 +144,40 @@ def romp(teks):
     return re.split(r",?\s+soos\s+", teks, maxsplit=1)[0].rstrip(" .,")
 
 
-def ooreengekome():
-    """The one wording per term that the subject has settled on.
+def ooreengekome(vak=None, graad=None):
+    """The one wording per term that a subject has settled on.
 
     Kept for the whole subject rather than per specification, because three of
     these terms cross sub-topics -- `materiaal` appears in lessons 8, 9 and 14,
     which are three different specifications -- and a field in one of them cannot
     state a rule about the subject.
+
+    One file per subject-grade, matched on its own `vak` and `graad` rather than
+    on its name: Natuurwetenskappe wrote kaps/gedeelde-omskrywings.json before
+    there was a second subject, so the name says nothing about whose wordings are
+    inside.
+
+    Returns the terms AND which files were read. A sweep that loaded no decision
+    list at all prints exactly like a sweep against a list that agreed with every
+    lesson, and that is the same failure the lesson count exists to prevent.
     """
-    pad = os.path.join(REPO, "kaps", "gedeelde-omskrywings.json")
-    if not os.path.exists(pad):
-        return {}
-    try:
-        with open(pad, encoding="utf-8") as fh:
-            return json.load(fh).get("terme", {})
-    except (OSError, ValueError):
-        return {}
+    terme, bronne = {}, []
+    gids = os.path.join(REPO, "kaps")
+    for naam in sorted(os.listdir(gids) if os.path.isdir(gids) else []):
+        if not (naam.startswith("gedeelde-omskrywings") and naam.endswith(".json")):
+            continue
+        try:
+            with open(os.path.join(gids, naam), encoding="utf-8") as fh:
+                d = json.load(fh)
+        except (OSError, ValueError):
+            continue
+        if vak and slug(d.get("vak") or "") != slug(vak):
+            continue
+        if graad and int(d.get("graad", -1)) != int(graad):
+            continue
+        bronne.append(f"{d.get('vak')} Gr {d.get('graad')} ({naam})")
+        terme.update(d.get("terme") or {})
+    return terme, bronne
 
 
 def main():
@@ -171,7 +200,7 @@ def main():
 
     terme, gelees = versamel(wortel, jaarnommers())
     gedeel = {t: d for t, d in terme.items() if sum(len(v) for v in d.values()) > 1}
-    besluite_vroeg = ooreengekome()
+    besluite_vroeg, besluit_bronne = ooreengekome(a.vak, a.graad)
     def eenders(term, a_, b_):
         if besluite_vroeg.get(term, {}).get("voorbeelde_mag_verskil"):
             return romp(a_) == romp(b_)
@@ -218,6 +247,12 @@ def main():
     print("-" * len(kop))
     print(f"  {gelees} lesse gelees, {len(terme)} terme, "
           f"{len(gedeel)} daarvan in meer as een les")
+    if besluit_bronne:
+        print(f"  besliste bewoordings gelees uit: {'; '.join(besluit_bronne)}")
+    else:
+        print("  GEEN besliste-bewoordingslys gelaai nie - hierdie sweep kan net "
+              "lesse teen mekaar toets,")
+        print("  nie teen 'n beslissing nie.")
     print()
 
     if not gedeel:
@@ -289,7 +324,8 @@ def main():
     print(f"{len(drif)} van die {len(gedeel)} gedeelde terme dryf uiteen.")
     if besluite:
         beslis = sum(1 for t in drif if t in besluite)
-        print(f"{beslis} daarvan het reeds 'n besliste bewoording (sien kaps/gedeelde-omskrywings.json);")
+        print(f"{beslis} daarvan het reeds 'n besliste bewoording "
+              f"(sien {'; '.join(besluit_bronne)});")
         print("vir die res moet een bewoording wen. 'n Derde bewoording maak dit erger.")
     else:
         print("Een bewoording moet wen. 'n Derde bewoording maak dit erger.")
