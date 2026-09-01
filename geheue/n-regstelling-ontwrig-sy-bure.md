@@ -102,3 +102,24 @@ in its brief and chose one — `.../nasien/les-1-dekking.json` once and
 could be read. Every checker brief needs the output path spelled out, the same as the
 inputs.
 
+
+## The neighbour that keeps getting forgotten: the heading
+
+Gr 4 NWT Term 4, 2026-08-28, three times in one sitting. Each time a correction landed in
+the sentence and left the **block heading** carrying the wording that had just been proved
+false:
+
+- *Wat is die Maan?* — the sentence became "our nearest large neighbour"; the heading still
+  read "the nearest thing to us in space".
+- *Waarvan die Aarde gemaak is* — the sentence limited rock to the outer part; the heading
+  still read "the Earth is a big ball of rock".
+- Same lesson, second round: caught only because a checker looking at a different block
+  noticed it in passing.
+
+**Why it is always the heading.** It is not part of the sentence being edited, so it falls
+outside the writer's attention — and it is the most prominent line in the block, so it is
+the version a learner actually remembers.
+
+**What to do.** Every revision brief that corrects a claim must also ask for a sweep of the
+headings, glossary entries and word list against the corrected wording. Asking "what did
+this disturb" is not enough on its own; name the headings specifically.
