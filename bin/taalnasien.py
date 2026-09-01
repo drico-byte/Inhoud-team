@@ -228,7 +228,19 @@ def bou(les_pad):
     reels.append(f"LES: {les.get('titel')}   ({les.get('vak')}, Graad {les.get('graad')})")
     reels.append("=" * 72)
 
-    woorde = beskermde_woorde(les, sub_gids) + spek_beskermde_woorde(les_pad)
+    # Both sources are read on purpose, and after a ruling is settled the SAME
+    # word is in both: CLAUDE.md requires a decision to be written into
+    # kaps/beskermde-woorde.json, and the spec keeps its own copy with the
+    # reasoning. Concatenating them printed every settled word twice, which
+    # invites a checker to wonder which of the two entries is the real one.
+    # First occurrence wins, so the repository-wide entry leads.
+    woorde, gesien = [], set()
+    for w in beskermde_woorde(les, sub_gids) + spek_beskermde_woorde(les_pad):
+        sleutel = w["hou"].strip().lower()
+        if sleutel in gesien:
+            continue
+        gesien.add(sleutel)
+        woorde.append(w)
     gedeel = gedeelde_verklarings(les, les_pad)
     gedeel_terme = {t for t, _, _ in gedeel}
     voorgeskryf = [(t, teks) for t, teks in voorgeskrewe_omskrywings(les)
