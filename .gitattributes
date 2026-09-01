@@ -1,0 +1,13 @@
+# The memory index is an append-only list: one line per memory note, and both
+# machines add lines to the end of it. Git's default merge sees two sets of
+# additions at the same place and stops with conflict markers, which is how
+# "<<<<<<< Updated upstream" ended up committed into the index twice.
+#
+# 'union' tells git to keep BOTH sides instead of asking. For an append-only
+# list that is always the right answer: two notes were written, both should be
+# listed, and the order between them does not matter. Duplicate lines are the
+# only failure mode, and they are visible and harmless.
+#
+# This applies to the index only. The notes themselves are ordinary files and a
+# real conflict in one of those should still stop and ask a person.
+geheue/MEMORY.md merge=union
