@@ -108,7 +108,8 @@ Exit codes:
 
 | | |
 |---|---|
-| 0 | nothing outstanding, or the approval completed |
+| 0 | nothing outstanding: the approval completed, or the draft already carries
+      `status: goedgekeur` and needs nothing further |
 | 10 | waiting on an agent or on a person; the next action is printed |
 | 1 | gate FAIL — back to the writer, with numbers |
 | 2 | `MENS_NODIG` — a checker escalated |
@@ -128,6 +129,151 @@ python bin/logoorsig.py
 It reports words against budget, mean sentence length against the band, and the
 most frequent failure. A pattern there is a prompt fix; only a one-off is a lesson
 fix.
+
+## The order for a whole subject-year
+
+**Decided 30 August 2026, after a subject was written the other way and repaired
+lesson by lesson.**
+
+1. **Agree the year's structure first** — every lesson, its budget, its register —
+   and do the usual back-and-forth until it is settled.
+2. **Draft every lesson in the subject-year before completing any of them.** Then
+   find the terms that appear in more than one lesson, fact-check the competing
+   wordings, and decide once which wins. Record it in that subject's
+   agreed-wordings file under `kaps/`.
+3. **Only then run the rest of the pipeline** per lesson — gate, checkers,
+   approval.
+
+Step 2 is the whole point. The drafts *reveal* which terms repeat, rather than a
+planner predicting it, and reconciling them costs nothing while nothing is
+delivered. Done afterwards, every fix becomes a correction sheet for a team that
+has already built the pages.
+
+Fact-check the shared definitions there too, not merely reconcile them. The
+corrections that arrived latest did not come from writers; they came from fact
+checks, which run after drafting.
+
+## Checks that span lessons
+
+The gate reads one lesson. The coverage checker reads one lesson against one spec
+entry. Neither can see a fault that only exists *between* files, and the most
+common one is a term that two lessons define differently — each lesson correct on
+its own, the pair teaching two things.
+
+```bash
+python bin/woordelysdrif.py --vak "Natuurwetenskappe en Tegnologie" --graad 4
+```
+
+It reads every lesson draft in the tree and reports any glossary term defined more
+than one way, with each wording's lessons, their status and their place in the
+year. It exits 1 when it finds drift, so it can gate a commit. Run it before
+claiming a subject is consistent — and quote the lesson count it prints, because
+a sweep that read three files looks exactly like a sweep that found nothing.
+
+When drift is real, one wording wins and the losers are rewritten **through the
+writer**, at their source in the spec as well as in the draft. A third wording
+makes it worse.
+
+The other cross-lesson tool prepares a lesson for the outside language checker:
+
+```bash
+python bin/taalnasien.py --vak "Natuurwetenskappe en Tegnologie" --graad 4     --subonderwerp "Vaste stowwe" --les 2
+```
+
+It prints the instruction, then the words that checker may not change, then the
+lesson. Protection comes from four places, and it took losing three of them to
+learn that:
+
+* the hand-recorded rulings in `kaps/beskermde-woorde.json`, filtered to the ones
+  whose words really appear;
+* **the lesson's own specification `beskermde_woorde`** — these never reached the
+  checker at all until 30 August 2026, and one lesson was about to go over with
+  one protected word listed where its plan records ten;
+* every glossary entry this lesson shares with another, found by reading the
+  other lessons rather than by trusting a list;
+* the wording an approved spec prescribes, which is the only protection the
+  *first* lesson to use a shared term can have.
+
+Each protected word reads like ordinary Afrikaans that could be improved, which is
+exactly why the reason travels with it. Note also that a `lys` block keeps its
+lines in `items` and has no `teks`: until that was fixed, every list block in
+every lesson was dropped from what the checker received.
+
+### One agreed wording per term, for the whole subject
+
+One file per subject-grade under `kaps/` holds the decision for every term that
+appears in more than one lesson: the wording, which lessons carry it, and why that
+one won. It lives at subject level rather than in the specifications because some
+terms cross sub-topics — `materiaal` sits in three different specs — and a field
+in one of them cannot state a rule about the subject. `hardloop.py` injects the
+right file into every spec extract, so nothing has to be copied and nothing goes
+stale.
+
+The file is matched on its own `vak` and `graad`, never on its name — Natuurwetenskappe
+wrote `gedeelde-omskrywings.json` before a second subject existed, and Sosiale
+Wetenskappe writes `gedeelde-omskrywings-sosiale-wetenskappe-gr4.json`. Give a new
+subject its own file, with an empty `terme`, before its first lesson is drafted:
+`woordelysdrif.py` then names the list it loaded, and says loudly when it loaded
+none, because a sweep with no decision list prints exactly like a sweep that agreed
+with everything.
+
+Two rulings govern it:
+
+* **Examples after `soos` may differ per lesson.** Only the sentence itself must
+  match. A lesson about states of matter gives wood, water and air; a lesson that
+  folds paper gives paper, wood and clay.
+* **A definition may not get richer through the year.** The end-year exam covers
+  everything, so a learner looking a word up in two lessons must get one answer.
+  Pick the best wording, not the newest, and settle it during drafting.
+
+`bin/woordelysdrif.py` checks every lesson against it, and reports a term whose
+wording is still *undecided* separately from one that drifts — lessons that
+happen to agree on a rejected wording look exactly like lessons that are right.
+
+### Checking lessons that have already been built
+
+The outside language check happens after the fact check and before the HTML
+build, so the built lessons and this repository diverge, and the built ones are
+what learners read.
+
+```bash
+python bin/htmlnasien.py --html "<folder of built lessons>"
+```
+
+It reads the built pages and reports three things: shared definitions that do not
+match the agreed wording, definitions the language checker changed on its own,
+and protected words it reverted. It handles both builders' markup, which differ.
+
+**Judge the protected-word hits by hand.** `krag` is correct where it means force
+and `lug` where it means air; the tool flags the word, not the sense. And where
+the language checker's version is better and the term is not shared, the
+repository adopts *its* wording rather than the reverse.
+
+```bash
+python bin/wat-het-verander.py --sedert <commit> --lesse 1-5
+```
+
+That reports what changed per lesson in sentences rather than JSON — which
+glossary entries moved and from what to what — because a team holding built
+lessons needs a correction sheet, not a patch.
+
+### After editing a spec, refresh the extracts
+
+The runner writes the per-lesson spec extract an agent reads, but only when it
+runs for that lesson. So editing a spec and briefing a writer straight afterwards
+hands it the *old* copy, and the agent reports — correctly — that the fix is not
+there. Running the runner instead has a side effect you may not want: a changed
+spec entry retires that lesson's coverage report.
+
+```bash
+python bin/vernuwe-uittreksels.py
+```
+
+It rewrites every extract from the approved specs and does nothing else — no
+gate, no staleness, no archiving, no state. `--wat-sou-verander` says what is out
+of date and writes nothing. Lessons nobody has started are skipped: there is
+nothing to go stale, and writing one early would put a spec entry on disk for a
+draft that does not exist.
 
 ## The four human approval points
 
@@ -181,9 +327,13 @@ they are gitignored.
 skills/wolkskool-inhoudstandaard/   the standard: SKILL.md, scripts, references, assets
 prompts/                           the four versioned agent prompts
 .claude/agents/                     the four agents, each pointing at its prompt
-bin/                               opstel.py (setup), hardloop.py (runner), logoorsig.py (logs)
+bin/                               opstel.py (setup), hardloop.py (runner), logoorsig.py (logs),
+                                   woordelysdrif.py and taalnasien.py (across lessons),
+                                   vernuwe-uittreksels.py (after a spec edit),
+                                   htmlnasien.py and wat-het-verander.py (built lessons)
 profiele/                          one profiler config per subject-grade
-kaps/                              CAPS sub-topic label files
+kaps/                              CAPS sub-topic label files, the agreed shared
+                                   definitions, and the protected-word rulings
 kaps/dokumente/<fase>/             the CAPS documents themselves, one folder per
                                    phase: intersen-gr4-6, senior-gr7-9, fet-gr10-12.
                                    gitignored.

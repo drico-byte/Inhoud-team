@@ -188,6 +188,42 @@ def eis_spek(vak, graad, sub, uit):
     return goed, P.lees_json(goed)
 
 
+def met_spek_konteks(spek, inskrywing):
+    """The lesson entry, plus the spec-level fields it refers to by bare name.
+
+    A lesson entry says things like "see buite_bestek" and "use the wordings in
+    gedeelde_omskrywings". Those live on the spec, not on the entry, and the
+    entry was written out alone -- so every one of those cross-references
+    pointed at nothing. A writer hit this on lesson 23 and said so; the two
+    glossary entries it had to invent both came out different from the wordings
+    three later lessons were going to share, which is the exact fault the
+    shared-wording field exists to prevent.
+
+    The entry's own keys win, so a lesson may still narrow anything.
+    """
+    saam = {k: v for k, v in spek.items() if k != "lesse"}
+
+    # The subject's agreed glossary wordings, injected rather than copied into
+    # each spec. Three of these terms cross sub-topics, so no single spec can own
+    # them, and a copy in eight specs is eight things to keep in step. Injecting
+    # means a writer and a coverage checker always read the current list.
+    try:
+        k = P.gedeelde_omskrywings(spek.get("vak", ""), spek.get("graad", -2))
+    except (TypeError, ValueError):
+        k = {}
+    if k:
+        saam["vak_gedeelde_omskrywings"] = {
+            "nota": k.get("nota"),
+            "terme": {t: v.get("omskrywing")
+                      for t, v in (k.get("terme") or {}).items()},
+        }
+
+    saam.update(inskrywing)
+    saam["_spek_vlak_velde"] = sorted(k for k in spek if k != "lesse"
+                                      and k not in inskrywing)
+    return saam
+
+
 def eis_les_inskrywing(spek, nommer):
     for L in spek.get("lesse", []):
         if int(L.get("nommer", -1)) == int(nommer):
@@ -447,7 +483,8 @@ def stap(a, uit):
         oorsig(vak, graad, sub, spek, uit)
         return 0, "OORSIG"
 
-    inskrywing = eis_les_inskrywing(spek, a.les)
+    les_inskrywing = eis_les_inskrywing(spek, a.les)
+    inskrywing = met_spek_konteks(spek, les_inskrywing)
     begroting = inskrywing["begroting"]
     les_id = P.kaps_pad(graad, vak, sub).replace(os.sep, "/") + f"/les-{a.les}"
 
@@ -536,7 +573,17 @@ def stap(a, uit):
     # budget, coverage depends on the whole spec entry, and the fact check depends
     # on neither. Re-running a web-heavy fact check for a budget edit is waste.
     hek_konteks = {"graad": int(graad), "begroting": int(begroting)}
-    spek_h = konsep_hash(inskrywing)
+    # The LESSON entry, not the entry plus the spec-level context that is written
+    # out beside it. Two reasons, and the second is a known gap.
+    #
+    #   * The context was added to the written file long after these lessons were
+    #     checked. Hashing it would mark every coverage report in the repository
+    #     stale in one commit, for a file that gained fields rather than changed
+    #     requirements -- noise that reads exactly like signal.
+    #   * The gap: a real edit to a spec-level field (buite_bestek, say) does not
+    #     invalidate anything. It never did. Closing it means re-checking every
+    #     delivered lesson once, which is a cost decision, not a code decision.
+    spek_h = konsep_hash(les_inskrywing)
     siklus_nou = len(staat.get("teruggestuur_vir") or []) + 1
 
     if staat.get("hek") is not None and staat.get("hek_konteks") != hek_konteks:
@@ -547,10 +594,20 @@ def stap(a, uit):
             argiveer(P.hek_verslag(les_pad), les_id, siklus_nou, "hek-verouderd")
 
     if staat.get("spek_hash") not in (None, spek_h) and os.path.exists(P.dekking_verslag(les_pad)):
-        argiveer(P.dekking_verslag(les_pad), les_id, siklus_nou, "dekking-verouderd")
+        waar = argiveer(P.dekking_verslag(les_pad), les_id, siklus_nou, "dekking-verouderd")
         os.remove(P.dekking_verslag(les_pad))
+        # Name the copy. A coverage checker often ends by asking for a spec fix
+        # it cannot make itself, and making that fix is what lands here -- so the
+        # run that retires a report is frequently the run that acts on it. When
+        # the edit changed no requirement, the judgment still stands and copying
+        # this file back is right; when it did, re-check. Either way that is a
+        # person's call, and it cannot be made without the path.
         uit.step("coverage report", "STALE",
-                 ["the spec entry changed — coverage must be checked again"])
+                 ["the spec entry changed — coverage must be checked again",
+                  f"archived to {P.rel(waar)}",
+                  "if the edit changed no requirement (a note, a corrected",
+                  "reason, a field the checker itself asked for), copy that",
+                  "file back instead of re-running the checker"])
     if staat.get("spek_hash") != spek_h:
         # Assigning this was never enough. `staat` reaches disk only through
         # teken_op, and a run that ends at WAG_VIR_NASIENERS records no event —
@@ -781,6 +838,23 @@ def stap(a, uit):
     if a.keur_goed:
         return keur_goed(les_pad, les, uit, staat, staat_pad, a.les)
 
+
+    if les.get("status") == "goedgekeur":
+        # The draft on disk already carries the approval stamp, and its hash
+        # matches what the reports judged. Saying "waiting on sign-off" here is
+        # wrong in the way that matters most for this script: it is the one
+        # thing a person is told never to second-guess, so a false "not done
+        # yet" is taken at face value. It reads that way whenever a lesson is
+        # re-examined after approval — restoring an archived report, or a spec
+        # note — which is exactly when someone is already unsure.
+        uit.head("DONE — approved in place")
+        uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound,")
+        uit.say("  and this draft already carries status: goedgekeur.")
+        uit.say(f"  draft     {P.rel(les_pad)}")
+        uit.say()
+        uit.say("  The HTML team reads this file. Nothing further is needed here.")
+        uit.say("  Re-running --keur-goed is harmless but changes nothing.")
+        return 0, "KLAAR"
 
     uit.head("CLEAR — waiting on sign-off")
     uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound.")

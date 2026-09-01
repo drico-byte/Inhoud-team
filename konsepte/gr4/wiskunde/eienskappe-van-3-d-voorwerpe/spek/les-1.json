@@ -1,4 +1,93 @@
 {
+  "skema_weergawe": "1.0",
+  "vak": "Wiskunde",
+  "graad": 4,
+  "kwartaal": 2,
+  "kaps_onderwerp": "Ruimte en Vorm (Meetkunde)",
+  "kaps_subonderwerp": "Eienskappe van 3-D voorwerpe",
+  "kaps_ure": 5,
+  "kaps_ure_nota": "Slegs inligting. Kontakure word nooit in begrotingsrekenkunde gebruik nie. Die vyf ure hou boonop modelbou en skriftelike oefeninge in, wat 'n teks nie doen nie.",
+  "fokusvraag": "Watter 3-D voorwerpe moet 'n graad 4-leerder kan benoem, en hoe weet jy watter een jy voor jou het?",
+  "fokusvraag_nota": "Deur die beplanner gestel. KABV Wiskunde stel nie 'n fokusvraag soos Sosiale Wetenskappe nie. Die vraag is uit KABV se eie twee kolomme gebou: 'Voorwerpe wat leerders moet ken en benoem' en 'Eienskappe wat gebruik word om voorwerpe te herken, beskryf, sorteer en vergelyk'. Dit is die vraag vir die HELE eenheid, dus vir al vier of vyf lesse saam, nie vir hierdie een les nie.",
+  "profiel_konfig": "gr4-wisk-kw2-profiel.json",
+  "onderwerp_woorde": 250,
+  "onderwerp_woorde_waarskuwing": "LEES HIERDIE VELD VOOR JY DIE GETAL GEBRUIK. Die 250 is NIE 'n meting nie. spec_check.py druk hierdie veld as 'measured sub-topic volume' en daardie etiket is vir hierdie vak verkeerd. Die veld hou die getal wat hierdie spesifikasie se begroting dra, en die basis is 'vereistes', nie handboekvolume nie. Die werklike meting staan onaangeraak in 'gemete_handboekvolume' hieronder. Moenie die 250 as 'n handboekgetal aanhaal nie, en moenie die begroting uit die gemete volume herlei nie.",
+  "gemete_handboekvolume": {
+    "woorde": 549,
+    "bladsye": 6,
+    "woorde_per_bladsy": 92,
+    "wat_dit_dek": "Die HELE KABV-eenheid, dus ook die sfeer, die silinder, die keel, die sortering plat teenoor geboe en die woord vlakke, wat alles by die ander lesse hoort. Nie hierdie een les nie.",
+    "hoekom_dit_nie_die_begroting_is_nie": "Handboek-woordpariteit is die verkeerde maatstaf vir wiskunde, en dit is die eerste vak waar die reel breek eerder as buig. 'n Wiskundehandboek onderrig deur diagramme, uitgewerkte voorbeelde en genommerde oefeninge; die woorde is die bindweefsel tussen hulle. Hierdie boek loop teen 92 woorde per bladsy teenoor die graad 4 wetenskapboek se 185, nie omdat dit die helfte onderrig nie, maar omdat die helfte van sy onderrig nie woorde is nie. 549 woorde oor vyf lesse gee ongeveer 110 woorde per les, wat die prosa rondom die wiskunde meet eerder as die wiskunde self."
+  },
+  "begroting_basis": "vereistes",
+  "begroting_basis_bron": "Die profiler se konfig stel self 'begroting_basis': 'vereistes' vir hierdie vak.",
+  "begroting_afleiding": {
+    "reken": "5 vereiste items x ongeveer 50 woorde = 250 woorde.",
+    "tempo_herkoms": "Die woorde-per-item tempo waarop die wetenskaplesse gaan le: 8 tot 17 kern-items oor 370 tot 735 woorde, dus ongeveer 43 tot 46 woorde per item.",
+    "vyf_items": "Die vyf uitkomste in die skepper se eie 'Wat gaan jy leer?'-lys, wat hierdie les se omvang is.",
+    "hektoleransie": "Die hek se plus-minus 15% sit die vloer op 212 woorde en die plafon op 287.",
+    "status": "Dit is 'n VERANDERING VAN BEGROTINGSBASIS vir 'n hele vak, wat normaalweg Drico se besluit is. Dit loop hier as 'n gestelde aanname vir een toetsles, met sy medewete. Dit is nie vir wiskunde in die algemeen beslis nie.",
+    "gereedskapsknoop": "spec_check.py kan hierdie basis nie uitdruk nie. Die skrif faal hard as 'begroting' nie gelyk is aan onderwerp_woorde gedeel deur die getal lesse nie, en weer as totale_begroting meer as afrondingsverskil van onderwerp_woorde af le. Met een les in die leer is die enigste manier om 'n PASS te kry om onderwerp_woorde op 250 te stel. Die meting is dus in 'n eie veld met 'n eie naam bewaar sodat niks verlore gaan nie, en die waarskuwingsveld hierbo se presies wat die 250 is en nie is nie. Die skrif se reel bly reg vir elke ander vak; dit het net nie 'n plek vir 'n vereiste-gedrewe begroting nie."
+  },
+  "totale_begroting": 250,
+  "spesifikasie_bestek": {
+    "wat_hier_beplan_is": "Een les: les 1 van ongeveer vyf in hierdie KABV-eenheid.",
+    "hoekom_nie_al_vyf_nie": "Elke les se omvang kom uit een van die skepper se video's, en net les 1 se video-inhoud is verskaf. Die ander vier se omvang is onbekend, en 'n verdeling wat op raaiwerk gebou is, sou in elke les daarna vassit.",
+    "moenie_hieruit_aflei_nie": "Hierdie leer is nie 'n vyf-lesverdeling van die eenheid nie. Wie die res beplan, moet die grense hieronder in 'buite_bestek' teen die ander video's toets en nie aanvaar hulle is reg nie."
+  },
+  "video_kom_eerste": {
+    "wat_omgekeer_is": "By elke vorige les is die teks eerste geskryf en moes 'n later video dit eer. Hier is die graad 4-6 wiskundevideo's in 2026 hermaak VOOR enige teks bestaan het. Die video kan nie verander nie, dus moet die teks by die video pas.",
+    "wat_die_teks_se_werk_is": "Nie 'n tweede verduideliking nie. Die video is die verduideliking. Hierdie teks is die SKANBARE vorm van dieselfde inhoud: 'n leerder kan nie 'n video soek vir een definisie nie, en kan nie die aand voor 'n toets een reel daarin gaan haal nie. Definisies om op te soek, en die reel een keer, gewoon gestel. Niks nuuts word geleer nie.",
+    "hoe_die_standaard_se_reel_hier_werk": "Die standaard se reel is dat die teks nooit iets mag bevat wat die video mis nie. Met die orde omgekeer beteken dieselfde reel dat die teks niks buite die video se omvang mag byvoeg nie. Die toets is in 'kern_bron_kaart' hieronder uitgevoer: elke kern- en aanvulling-item wys terug na een van die skepper se vyf uitkomste, en daar is niks buiten hulle nie.",
+    "die_een_plek_waar_afwyking_veilig_is": "Alledaagse voorbeelde. As die video ander voorwerpe wys as die teks, kan die voorbeeld geruil word sonder dat die inhoud verander. Dit is die enigste plek waar 'n verskil tussen teks en video niks kos nie."
+  },
+  "buite_bestek": [
+    "Sfere. KABV noem hulle in hierdie eenheid, maar hulle hoort by 'n ander les. Nie 'n gaping nie.",
+    "Silinders en keels. Ook KABV, ook 'n ander les.",
+    "Die sortering van voorwerpe volgens plat teenoor geboe oppervlaktes. 'n Ander les.",
+    "Die woord 'vlakke' as die term vir 'n 3-D voorwerp se plat kante, en die volledige beskrywing van voorwerpe volgens die 2-D vorms wat hulle plat kante maak. Daardie term en daardie werk hoort by 'n ander les. Hierdie les gebruik net 'basis', wat KABV se eie woord is ('piramiedes: met vierkantige basis'), en beskryf die ander plat kante gewoon sonder om 'vlakke' in te voer.",
+    "Die graad 3-na-graad 4 naamverandering as inhoud ('in graad 3 is van bokse gepraat'). Dit is onderwyserriglyn. Die alledaagse boks bly wel die voorbeeld, want KABV self gee 'n melkkarton as die voorbeeld van 'n reghoekige prisma; die graad-vergelyking self hoort nie in die teks nie.",
+    "Die maak van 3-D modelle met uitgeknipte veelhoeke. KABV lys dit as 'n aanvullende aktiwiteit. 'n Teks kan dit nie doen nie.",
+    "Die interpretasie van tekeninge van 3-D voorwerpe as vaardigheidswerk, en die skriftelike oefeninge. KABV se onderrigriglyne, nie teksinhoud nie.",
+    "Rede, en dit is 'n besluit en nie 'n weglating nie: die 3-D inhoud is oor vier of vyf smal video's versprei, en hierdie les se omvang is een van hulle. Die dekkingsnasiener moet nie die items hierbo as ontbrekend aanteken nie."
+  ],
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "woorde_per_sin": "11,0 tot 14,5",
+      "kommas_per_sin_maks": 0.35,
+      "pct_woorde_oor_10_letters_riglyn": 3.0
+    },
+    "bron_hierdie_subonderwerp": {
+      "woorde_gemeet": 549,
+      "sillabes_per_woord": 1.67,
+      "pct_3plus_sillabes": 18.0
+    },
+    "bevinding": "Die bronbladsye le op albei mate buite die band waarvoor ons skryf: 1,67 teen 'n perk van 1,52, en 18,0% teen 'n perk van 13%. Dit is die tweede gemete onderwerp wat so le; die eerste was die graad 4 Tegnologie-skuilings.",
+    "oorsaak": "Onvermydelike woordeskat, en KABV gebruik dit self: dimensioneel (12 letters, 4 sillabes), reghoekige (10 letters, 4 sillabes), piramiede (4 sillabes), gebaseerde (4 sillabes), eienskappe (4 sillabes). KABV se eie verduidelikende nota gebruik boonop 'Driedimensionele voorwerpe'.",
+    "rekenkunde_by_250_woorde": {
+      "sillabe_toelating": "1,52 x 250 = 380 sillabes vir die hele studieteks.",
+      "formule": "Dieselfde reken as die skuilingsles: 1,44 plus (4 min 1,44) x k / 250 moet onder 1,52 bly, waar 1,44 die pyplyn se gewone graad 4 Afrikaanse tempo is en k die getal vier-sillabe voorkomste is. Dit gee k van hoogstens 7,8.",
+      "vergelyking_met_die_skuilingsles": "Dieselfde formule by 683 woorde gee k van hoogstens 21, en daardie les het ongeveer 15 gebruik en op 1,30 gemeet. By 250 woorde is die ruimte ongeveer 'n derde daarvan. Die skuilingsles se gemak is hier nie beskikbaar nie.",
+      "waar_die_agt_heengaan": "dimensioneel 1, gebaseerde 1 (in die volle KABV-naam, wat een keer genoem word), reghoekige 2, piramide of piramides 4. Dit is die agt. Daar is nul ruimte vir 'n enkele vermybare vier-sillabe woord.",
+      "drie_plus_sillabes": "13% van 250 is 32 woorde, en die hek se toleransie maak dit hard eers bo ongeveer 34. Mik op 28 of minder, dus ongeveer 11%. Die onvermydelike lys tel so: piramide 4, reghoekige 2, dimensioneel 1, gebaseerde 1, basisse 2 tot 3, voorwerpe 4 tot 5, driehoeke 2, dimensies 1, plus 'n paar gewone woorde soos dieselfde. Dit kom op ongeveer 25 uit.",
+      "lang_woorde": "Die riglyn is 3% van die woorde langer as 10 letters, dus ongeveer 7 voorkomste, en dit is net 'n waarskuwing. In hierdie onderwerp is slegs dimensioneel (12), vierkantige (11) en driedimensioneel (16) langer as 10 letters; reghoekige en eienskappe is presies 10 en tel nie. Die bindende beperking hier is dus sillabes, nie letters nie.",
+      "wat_3D_teen_die_meting_kos": "Die hek lees net letters, dus lees dit 3D en 2D as die een-sillabe woord D. KABV se eie 3-D benaming is dus goedkoop teen die maat en mag vry gebruik word waar dit natuurlik val. Die plan hang nie daarvan af nie: moenie vermeldings byvoeg om die gemiddeld te druk nie, want herhaling is sy eie fout."
+    },
+    "besluit": "termdig: true, op die getalle. Sien 'termdig_nota' in die les hieronder.",
+    "hoekom_nie_die_terme_vermy_nie": "Reghoekige prisma en vierkant-gebaseerde piramiede is KABV se eie name in die kolom 'Voorwerpe wat leerders moet ken en benoem', en die kwartaal se assessering noem 3-D voorwerpe uitdruklik. 'n Leerder wat die woorde nie het nie, kan nie 'n vraag antwoord wat die woorde gebruik nie. Die woorde moet dus gedra word; die enigste keuse is waar. Die woordelys is steierwerk en tel nie teen die begroting nie, dus is dit die goedkoop plek."
+  },
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument (Wiskunde Graad 4-6, Graad 4 Kwartaal 2, onderwerp 3.2, en die kwartaal se assesseringsreel), die profiler se getalle, en die skepper se eie lesteks vir hierdie video. Die lesteks is Wolkskool se eie materiaal, nie 'n handboek nie.",
+    "geen_handboek": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitvoer of beskrywing van 'n handboek se indeling het enige deel van hierdie beplanning ingelig. Die profiler se 549 woorde is 'n getal, nie inhoud nie."
+  },
+  "skryfnota": "Drie dinge is hier ongewoon, en al drie kan die les stil laat misluk. Eerste, die orde is omgekeer: die video bestaan reeds en kan nie verander nie, dus is hierdie teks nie 'n tweede verduideliking nie maar die skanbare vorm van dieselfde inhoud. Niks nuuts word geleer nie. Die toets vir 'te veel' is 'kern_bron_kaart': as iets nie na een van die skepper se vyf uitkomste teruglei nie, hoort dit nie hier nie. Tweede, register: die vier-sillabe ruimte is ongeveer agt voorkomste in die hele les en hulle is reeds toegeken. Spandeer hulle op dimensioneel, gebaseerde, reghoekige en piramide, en op niks anders nie. Derde, die prisma-strik: 'n kubus is 'n prisma, en die maklikste verkeerde definisie is een wat hom uitsluit. Die presiese eise staan in 'verpligte_stellings'. Die getal basisse skei prisma van piramide; die basis se vorm gee net die naam.",
+  "goedkeuring_nota": "Konsep. 'n Mens keur dit goed deur dit te skuif, nie deur 'n veld wat 'n agent kan stel nie. Twee dinge het 'n mens se oog nodig voor dit skuif: die begrotingsbasis (vereistes in plaas van gemete volume, vir 'n hele vak) en die grens tussen hierdie les se 'basis se vorm' en 'n ander les se 'vlakke'.",
+  "goedkeuring": "Deur die orkestreerder goedgekeur op 2026-08-21, nie deur 'n mens nie, op Drico se staande opdrag vir hierdie toetslopie. Die begrotingsbasis (250 uit die aantal dinge om te leer, nie uit gemete handboekvolume nie) is 'n gestelde aanname vir hierdie een toetsles en is NIE vir Wiskunde in die algemeen besleg nie.",
+  "begroting_basis_nota": "Nie uit gemete handboekvolume nie. 'n Wiskundehandboek onderrig deur diagramme, uitgewerkte voorbeelde en genommerde oefeninge; die woorde is die bindweefsel tussen hulle. Hierdie boek loop op 92 woorde per bladsy teenoor die Graad 4-wetenskapboek se 185 — nie omdat dit die helfte onderrig nie, maar omdat die helfte van sy onderrig nie woorde is nie. Die gemete 549 woorde vir die hele eenheid, gedeel deur die skepper se vier of vyf video's, gee ongeveer 110 — 'n maat van die prosa róndom die wiskunde, nie van die wiskunde nie. Die begroting kom dus uit die aantal dinge om te leer: vyf uitkomste teen ongeveer 50 woorde elk = 250. Drico is hiervan ingelig; dit is 'n gestelde aanname vir hierdie toetsles en is nie vir Wiskunde in die algemeen besleg nie.",
   "nommer": 1,
   "titel": "3D-voorwerpe: prismas en piramides",
   "kaps_punt": "Voorwerpe wat leerders moet ken en benoem: reghoekige prismas; vierkant-gebaseerde piramiedes",
@@ -120,7 +209,33 @@
     "melkkarton"
   ],
   "fokusvraag_skakel": "Hierdie les lewer een deel van die antwoord op 'hoe weet jy watter een jy voor jou het': dat 'n 3D-voorwerp ruimte opneem en nie 'n plat 2D-vorm is nie, en dat 'n prisma twee basisse van dieselfde vorm en grootte het waar 'n piramide net een het. Die sfeer, die silinder, die keel en die sortering plat teenoor geboe is die ander lesse se deel van dieselfde antwoord, en hierdie les moet nie gemeet word aan wat hulle dra nie.",
-  "kaps_onderwerp": "Ruimte en Vorm (Meetkunde)",
-  "kaps_subonderwerp": "Eienskappe van 3-D voorwerpe",
-  "fokusvraag": "Watter 3-D voorwerpe moet 'n graad 4-leerder kan benoem, en hoe weet jy watter een jy voor jou het?"
+  "_spek_vlak_velde": [
+    "begroting_afleiding",
+    "begroting_basis",
+    "begroting_basis_bron",
+    "begroting_basis_nota",
+    "buite_bestek",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "gemete_handboekvolume",
+    "goedkeuring",
+    "goedkeuring_nota",
+    "graad",
+    "herkoms",
+    "kaps_onderwerp",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal",
+    "onderwerp_woorde",
+    "onderwerp_woorde_waarskuwing",
+    "profiel_konfig",
+    "registerbesluit",
+    "skema_weergawe",
+    "skryfnota",
+    "spesifikasie_bestek",
+    "totale_begroting",
+    "vak",
+    "video_kom_eerste"
+  ]
 }

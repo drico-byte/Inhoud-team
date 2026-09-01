@@ -217,6 +217,41 @@ def onderwerp_woorde(cfg, subonderwerp):
     return None
 
 
+# ------------------------------------------------------------- agreed wordings
+def gedeelde_omskrywings_pad(vak, graad):
+    """The agreed-wordings file for one subject-grade, or None.
+
+    One file per subject-grade under kaps/, matched on the file's own `vak` and
+    `graad` rather than on its name -- the same way a profiler config is matched,
+    and for the same reason. Natuurwetenskappe wrote
+    kaps/gedeelde-omskrywings.json before there was a second subject, so the name
+    proves nothing about whose wordings are inside. A lookup that silently hands
+    back another subject's list is worse than one that hands back nothing: the
+    writer would read wordings for terms this subject never agreed, and a
+    coverage checker would hold the draft to them.
+    """
+    for p_ in sorted(glob.glob(os.path.join(KAPS, "gedeelde-omskrywings*.json"))):
+        try:
+            d = lees_json(p_)
+        except (OSError, ValueError):
+            continue
+        if (slug(d.get("vak", "")) == slug(vak)
+                and int(d.get("graad", -1)) == int(graad)):
+            return p_
+    return None
+
+
+def gedeelde_omskrywings(vak, graad):
+    """The whole agreed-wordings file for a subject-grade, {} when there is none."""
+    p_ = gedeelde_omskrywings_pad(vak, graad)
+    if not p_:
+        return {}
+    try:
+        return lees_json(p_)
+    except (OSError, ValueError):
+        return {}
+
+
 # ------------------------------------------------------------------ io helpers
 def lees_json(path):
     with open(path, encoding="utf-8") as f:

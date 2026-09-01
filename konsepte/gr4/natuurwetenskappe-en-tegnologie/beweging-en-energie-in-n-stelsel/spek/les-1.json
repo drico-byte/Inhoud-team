@@ -1,0 +1,449 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 4,
+  "kwartaal": 3,
+  "kaps_onderwerp": "Energie en Verandering",
+  "kaps_onderwerp_nota": "KABV se Graad 4 Kwartaal 3 kennisafdeling dra twee opskrifte bo dieselfde tabel: 'NATUURWETENSKAPPE: ENERGIE EN VERANDERING' en 'TEGNOLOGIE: STELSELS EN BEHEER'. Hierdie subonderwerp le sterker op die tegnologie-helfte as enige ander een in die kwartaal: KABV se eie inhoudstrepie sit die woord 'stelsels' tussen hakies agter 'musiekinstrumente'. Die etiket hierbo is die een wat die taak en die profiler se konfig gebruik, en niks in hierdie spesifikasie word daaruit afgelei nie.",
+  "kaps_subonderwerp": "Beweging en Energie in 'n stelsel",
+  "kaps_inhoudsopskrifte": [
+    "Beweging en musiekinstrumente"
+  ],
+  "kaps_ure": 8.75,
+  "kaps_ure_nota": "KABV se eie inskrywing by hierdie ry is '2 1/2 weke (8 3/4 uur)'. Die beplanningstaak het '2 weke (8 uur)' gese; die KABV-dokument self (Natuurwetenskappe en Tegnologie Graad 4-6, Graad 4 Termyn 3, die ry 'Beweging en Energie in `n stelsel') se 2 1/2 weke en 8 3/4 uur. Dieselfde verskil het by 'Energie om ons' opgeduik en die dokument se getal is albei kere geneem. NIKS word hieruit afgelei nie: kontakure se hoe lank 'n onderwyser aan 'n onderwerp bestee, nie hoeveel 'n leerder lees nie. Slegs herkoms.",
+  "fokusvraag": "Wat gaan in 'n musiekinstrument in, watter deel beweeg daarbinne, en wat kom uit?",
+  "fokusvraag_nota": "Deur die beplanner gestel. KABV Natuurwetenskappe en Tegnologie stel nie fokusvrae soos Sosiale Wetenskappe nie. Die vraag se drie bene is presies KABV se drie inhoudstrepies, in hulle eie volgorde: die bewegingsenergie-inset, die dele wat beweeg of vibreer, en klank as die vernaamste uitset. Die subonderwerp het een les, dus dra daardie een les die hele vraag - en die vraag is daarom klein gesny sodat 750 woorde dit werklik kan lewer. Wat die vraag doelbewus NIE vra nie: hoe die bewing die klank maak, hoe die klank by 'n oor uitkom, hoe hard of hoe hoog dit is, en hoe 'n mens 'n instrument bou. Die eerste drie is jaarlesse 23 tot 25; die laaste een is nie ons werk nie.",
+  "profiel_konfig": "gr4-nwt-kw3-profiel.json",
+  "onderwerp_woorde": 942,
+  "onderwerp_woorde_nota": "Gemeet, nie geskat nie: 5 bladsye oor drie los reekse (121, 123-124, 130-131), 942 woorde, 188 woorde per bladsy. Dit loop onder die bron se mediaan van 215,5. Die bladsye is met die hand afgebaken (--dpi 300). Hierdie getal is die SWAKSTE van die kwartaal se vier metings en dit is nie die begroting nie - sien 'begroting_basis_nota'. Die enigste ding wat uit daardie boek na hierdie spesifikasie toe kom, is die getal 942 en die bladsytelling waaruit dit kom.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "750 woorde vir een les. DIE GETAL IS NIE 'N METING NIE en mag nerens as een aangehaal word nie. Dit is deur Drico op 2026-08-25 goedgekeur, VOOR beplanning, en sy rede staan woordeliks in kaps/gr4-nwt-kw3.json onder 'begroting_besluite'. Kortliks: die meting van 942 is die swakste van hierdie kwartaal se vier, want hierdie subonderwerp se bladsye le verspreid deur die boek se klankhoofstuk (121, 123-124, 130-131) en is met die oog tussen twee KABV-subonderwerpe verdeel; 'n grens wat met die oog getrek is, is nie 'n meting waarop 'n begroting kan rus nie. Die 750 is dus 'n afgeskaalde meting: 942 is die boonste grens van wat hierdie subonderwerp se bladsye kon wees, en 750 is wat oorbly as die deel wat waarskynlik by 'Energie en klank' hoort, nie hierheen toegeken word nie. Die vereistes dra die getal daarna: sewe kern-inskrywings teen gemiddeld 107 woorde elk. Die volle toedeling per blok staan by die les onder 'toedeling' en dit tel presies tot 750.",
+  "begroting_basis_keuse": {
+    "wat_die_taak_gevra_het": "Die beplanningstaak het gese die basis is 'gemete_volume' met 'n opgetekende afwyking.",
+    "wat_gedoen_is": "Die basis staan as 'vereistes'. Die begroting 750 en die meting 942 staan albei onveranderd in die lêer.",
+    "hoekom": "Die valideerder ken net twee basisse. Onder 'gemete_volume' eis dit dat elke les se begroting presies round(onderwerp_woorde / lesse) is - hier round(942/1) = 942 - en dat totale_begroting binne afrondingsafstand van onderwerp_woorde le. 750 teen 942 druip albei toetse. Daar was drie moontlike uitweë en twee daarvan is verkeerd. (1) Verander die begroting na 942: dit oorskryf 'n mens se besluit wat voor beplanning geneem is, en dit is nie die beplanner se besluit om te maak nie. (2) Skryf 750 in onderwerp_woorde in: dan druk die valideerder 'measured sub-topic volume 750' vir 'n getal wat niemand gemeet het nie. Die skrip se eie kommentaar noem presies daardie stap as die fout wat die 'vereistes'-basis laat ontstaan het. (3) Verklaar die basis as 'vereistes', wat in die skrip beteken 'onderwerp_woorde is NIE die anker nie, en die spesifikasie moet skriftelik se waar die getal vandaan kom'. Dit is presies wat hier waar is, dus is dit gekies.",
+    "waar_die_etiket_swak_pas": "Eerlik gestel: 'vereistes' beteken in die skrip 'afgelei uit die aantal dinge om te leer'. Die 750 is eerder 'n AFGESKAALDE METING wat 'n mens goedgekeur het, en die vereistes dra dit daarna. Die valideerder sal dit as 'derived from requirement counts, NOT measured' druk. Die tweede helfte daarvan is waar en dit is die helfte wat saak maak; die eerste helfte is onpresies. Dieselfde onpresiesheid staan reeds in die goedgekeurde 'Energie en Energie-oordrag', waar die meting 0 was.",
+    "vir_die_mens_wat_dit_goedkeur": "As hierdie geval weer voorkom - en dit sal, want twee van hierdie kwartaal se vier subonderwerpe pas nie in 'gemete_volume' nie - is die skoon oplossing 'n derde basis in spec_check.py, iets soos 'gemete_volume_aangepas', wat die meting EN die afwyking EN die rede afdwing sonder om enigeen van die twee getalle te verdraai. Dit is 'n verandering aan die standaard en dit is nie die beplanner se besluit nie."
+  },
+  "totale_begroting": 750,
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument (Natuurwetenskappe en Tegnologie Graad 4-6, Graad 4 Termyn 3 inhoudstabel: die ry 'Beweging en Energie in `n stelsel' met sy inhoudsopskrif 'Beweging en musiekinstrumente' en drie strepies, die twee voorgestelde aktiwiteite, die gereedskaplys, die voorafgaande subonderwerp 'Energie om ons', die daaropvolgende subonderwerp 'Energie en klank' met sy strepies, en die kwartaal se vier assesseringsriglyne), die profiler se getalle uit gr4-nwt-kw3-profiel.json, Drico se begrotingsbesluite in kaps/gr4-nwt-kw3.json, sy lesindeks in kaps/lesindeks/gr4-natuurwetenskappe-en-tegnologie.json, en die konsepspesifikasie vir 'Energie om ons' (jaarlesse 20 en 21) waarteen hierdie een nie mag bots nie.",
+    "bronne_nota": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset of beskrywing van 'n handboek se indeling het enige deel van hierdie beplanning ingelig. Die repository bevat die handboek self onder bronne/; dit is nie oopgemaak nie en die skrywer mag dit ook nie oopmaak nie. Die enigste dinge wat uit daardie boek kom, is die getal 942 en die bladsytelling waaruit dit kom.",
+    "buurspesifikasie_status": "Die 'Energie om ons'-spesifikasie is nog 'n KONSEP en jaarlesse 20 en 21 is nog nie geskryf nie. Waar hierdie spesifikasie na daardie een verwys (die drom, die naat by inset en uitset, die omskrywing van 'energie'), verwys dit na 'n lêer wat nog kan verander. As die twee later verskil, wen die een wat eerste goedgekeur is."
+  },
+  "verdeling_nota": "EEN LES, en dit is 'n mens se besluit wat voor beplanning geneem is, nie 'n beplannerskeur nie. KABV se subonderwerp dra EEN inhoudsopskrif ('Beweging en musiekinstrumente') met drie strepies, en die drie strepies is drie trappe van een bewering: iets gaan in, 'n deel beweeg, klank kom uit. Hulle is nie drie onderwerpe nie. Die skeurreel uit beplanner-v1.2 (vier of meer werklik verskillende genoemde items) is nie ter sprake nie: die enigste plek waar KABV hier iets opnoem, is sy voorbeeldlys van instrumente, en dit staan met die woord 'soos' in die aktiwiteitskolom. Verdeling is oorweeg en verwerp, en die rede is dat daar geen derde naat is nie: die naat voor hierdie les is les 21 se inset en uitset, en die naat na hierdie les is les 23 se vibrasies. 'n Snit binne-in hierdie les sou of les 21 herhaal of op les 23 inbreek.",
+  "naat_met_les_21": {
+    "waar_dit_le": "Les 21 (jaarnommer 21, 'Inset en uitset van energie') leer wat 'n inset en 'n uitset by 'n masjien of toestel is, en dit doen dit met sewe van KABV se agt voorbeelde. HIERDIE LES pas presies daardie idee op een soort masjien toe: die musiekinstrument. Die naat is dus 'n TOEPASSING, nie 'n herhaling nie.",
+    "wat_hierdie_les_MAG_aanraak": "Die woorde 'inset' en 'uitset' word hier gebruik en elkeen kry 'n kort begrip-inskrywing, want elke les moet alleen kan staan as hersieningsinstrument. Dit kos hoogstens een sin in die lopende teks. Die verwysing na 'n radio in die moet_oplos-blok is 'n tweede raakpunt en dit is doelbewus: die radio is een van KABV se eie sewe toestelle in les 21.",
+    "wat_hierdie_les_NIE_mag_doen_nie": "Moenie inset en uitset van voor af verduidelik nie. Moenie 'n tweede lys toestelle gee nie (geen ketel, stoof, flitslig, strykyster, waaier, haardroer, motor of fiets). Moenie herhaal dat 'n masjien niks uit sy eie doen nie as 'n afdeling - hierdie les se opening gebruik daardie idee in twee sinne op EEN voorwerp, die stil kitaar, en gaan dan verder.",
+    "die_omgekeerde_naat": "Les 21 dek KABV se agt voorbeeldtoestelle minus die drom. Die drom is HIERDIE les s'n en die rede staan onder 'besluite'. Die dekkingsnasiener van les 21 moet die drom nie as ontbrekend aanteken nie, en die dekkingsnasiener van HIERDIE les moet die ander sewe toestelle nie hier verwag nie."
+  },
+  "naat_met_les_23": {
+    "hoekom_dit_die_belangrikste_grens_in_hierdie_leer_is": "Sonder 'n uitdruklike lyn skryf hierdie les jaarles 23 vooruit, want die woord 'vibreer' staan in KABV se eie tweede strepie HIER, en die hele meganisme staan in KABV se strepies DAAR. Die grens is nie 'n smaakkwessie nie: KABV self plaas 'musiekinstrumente maak geluide deur vibrasies' onder 'Energie en klank', nie hier nie.",
+    "MAG_in_hierdie_les": [
+      "Dat baie instrumente 'n deel het wat kan beweeg of vibreer. Dit is KABV se tweede strepie, woordeliks.",
+      "Watter deel dit by elke instrument is: die snaar, die vel, die lug binne-in die pyp, die saadjies in die ratel.",
+      "Dat die klank van daardie bewegende deel af kom. Dit is IDENTIFIKASIE en dit is nodig om die stelsel se uitset by sy binnewerk aan te sluit.",
+      "Dat die deel vry moet wees om te beweeg, en dat jy skaars 'n klank kry as jy dit vashou. Dit is 'n WAARNEMING.",
+      "Die woord 'vibreer' EEN keer, as KABV se woord, met 'n begrip-inskrywing, sodat les 23 dit kan optel."
+    ],
+    "MAG_NIE_in_hierdie_les": [
+      "HOE die bewing die klank maak. Geen woord oor die lug wat gestoot word, geen golf, geen 'die bewing druk teen die lug'.",
+      "Dat die klank UITWAARTS beweeg vanaf die deel wat vibreer. Dit is KABV se eie tweede strepie by les 23.",
+      "Dat vibrasies deur materiale soos lug, water, plastiek, metaal en hout beweeg. KABV se derde strepie by les 23.",
+      "Dat 'n mens vibrasies kan voel of hoor, as 'n onderrigpunt. KABV se vierde strepie by les 23. Die rekkie-waarneming in hierdie les is 'n SIEN-waarneming, nie 'n voelwaarneming nie, en dit moet so bly.",
+      "Hoe 'n oor werk, of enige deel van 'n oor.",
+      "Hard en sag (volume) en hoog en laag (toonhoogte). Dit is jaarles 24. Dit sluit uitdruklik in: moenie se dat harder klop 'n harder klank gee nie, en moenie se dat 'n stywer snaar of 'n korter pyp 'n hoer klank gee nie.",
+      "Die woord 'vibrasie' as selfstandige naamwoord in lopende teks. Dit is les 23 se term."
+    ],
+    "die_toets_vir_die_skrywer": "Elke sin oor die bewegende deel moet 'n sin wees wat 'n mens KAN SIEN of kan aflei uit die stelsel se vorm. Sodra 'n sin verduidelik waarom of hoe die bewing 'n klank word, is dit les 23 se sin."
+  },
+  "assessering": {
+    "riglyn": "ontwerp, maak en evalueer 'n musiekinstrument",
+    "waar_dit_staan": "KABV Graad 4 Termyn 3, Assesseringriglyne, derde punt. Dit is die enigste geassesseerde punt wat hierdie subonderwerp raak, en die kwartaal se kruistoets in kaps/gr4-nwt-kw3.json ken dit aan jaarles 22 toe.",
+    "wat_ons_leer": "Die denke wat daardie taak toets, en dit is presies hierdie les se inhoud. 'n Leerder wat 'n instrument moet ontwerp, moet drie dinge verstaan: dat hy iets moet he om beweging in te sit (blaas, klop of pluk), dat daar 'n deel moet wees wat kan beweeg, en dat daardie deel VRY moet wees om te beweeg anders kry hy nie 'n klank nie. Al drie is KABV se eie strepies en al drie staan in 'kern'. Daar is dus GEEN ekstra inhoud nodig om die assessering te dien nie, en niks in hierdie les bestaan omdat 'n assessering dit vra nie.",
+    "wat_ons_NIE_leer_nie": "Die maak self. Geen stap-vir-stap bou-instruksies, geen materiaallys, geen mates, geen meet-en-aanteken-prosedure, geen staafgrafiek, geen evalueringsrubriek en geen 'probeer dit self'-opdrag. 'n Teks kan nie 'n kind deur 'n maaktaak vat nie en dit is nie ons werk nie.",
+    "vir_die_dekkingsnasiener": "Die maakhelfte van hierdie riglyn moet NIE as ontbrekend aangeteken word nie."
+  },
+  "praktiese_werk": "KABV se tweede voorgestelde aktiwiteit hier ('ondersoek, ontwerp, maak en evaluering `n musiekinstrument') is die grootste maaktaak in die hele kwartaal, en dit is die een plek waar hierdie les die maklikste in 'n knutselblad kan verander. Die reel staan in 'assessering': ons leer die teorie wat die taak toets, nie die maak nie. Interaktiwiteit is die uitlegspan se bonus en nie ons gaping om te vul nie - moenie die les oplaai in 'n poging om daarvoor te vergoed nie. KABV se EERSTE voorgestelde aktiwiteit ('lees oor of kyk na inheemse musiekinstrumente en hoe hulle werk') is 'n ander saak: 'lees oor' is presies wat hierdie teks is, dus word daardie aktiwiteit werklik gelewer, en dit is hoekom 'n inheemse instrument 'n kern-inskrywing kry.",
+  "geen_vrae": "Geen blok van die tipe 'vraag', en geen vraagteken wat 'n leerder iets vra. Waar 'n bewys nodig is, staan die bewys in die studieteks as iets wat 'n mens sien. In hierdie les is daardie bewys die rekkie-waarneming, en dit staan uitdruklik in 'kern' en in 'demonstrasie_eise' sodat dit nie in 'n vraag beland nie. Die moet_oplos-blok is 'n ANTWOORD op 'n vraag wat die leerder self al het; dit word as gewone studieteks geskryf en nie as 'n vraag aan die leerder nie.",
+  "besluite": [
+    "BESLUIT: vier instrumente, en hulle is KABV se eie vier uit sy voorgestelde aktiwiteit (kitaar, ratel, drom, panfluit/fluit). Die keuse is nie willekeurig nie: die kitaar dra 'pluk', die drom dra 'klop', die panfluit dra 'blaas', en die ratel is die vierde geval wat wys dat 'n beweegdeel ook los goed binne-in kan wees. Moenie 'n vyfde instrument byvoeg nie - elke ekstra een is 'n naam wat woorde kos en niks nuuts leer nie.",
+    "BESLUIT: die panfluit is die blaasvoorbeeld, nie 'n horing of 'n trompet nie. By 'n horing bewe die speler se lippe, wat 'n derde geval is; by 'n panfluit is dit skoon die lug binne-in. Die les kan die punt met een geval maak en dit moet die skoonste een wees.",
+    "BESLUIT: die omskrywing van 'stelsel' kom in blok 7 en nie in blok 1 nie. Dit is 'n bewuste toepassing van skrywer-v1.4 se 'put the definition where it is earned': die woord is 'n opsomming van iets wat die leerder al gesien het, nie iets om te memoriseer voordat dit iets beteken nie. Die dekkingsnasiener moet die omskrywing dus laat in die les soek, nie vroeg nie.",
+    "BESLUIT: die twee verrassings staan hardop en elkeen kry sy eie sin. Die eerste is dat dit by 'n blaasinstrument die lug binne-in is wat bewe. Die tweede is dat klank by die meeste masjiene juis die onnuttige deel is (les 21 se haardroer) en by 'n instrument die hele punt. Albei is werklik verrassend en albei kom uit die inhoud self, nie uitgedink nie."
+  ],
+  "buite_bestek": [
+    "HOE 'N BEWENDE DEEL 'N KLANK MAAK, EN HOE KLANK BEWEEG. Jaarles 23. Sien 'naat_met_les_23' vir die presiese lyn.",
+    "VOLUME (HARD EN SAG) EN TOONHOOGTE (HOOG EN LAAG). Jaarles 24. Dit sluit in: hoe hard jy klop, hoe styf 'n snaar gespan is, en hoe lank of kort 'n pyp is.",
+    "GERAASBESOEDELING EN OORBESKERMING. Jaarles 25.",
+    "DIE MENSLIKE OOR EN SY DELE. Jaarles 23 se voorgestelde aktiwiteit.",
+    "HOE 'N INSTRUMENT SE HOL BOKS OF SY GAT DIE KLANK HARDER MAAK. Dit is versterking van klank, dit staan in geen Graad 4 KABV-strepie nie, en dit is in werklikheid volume. Die kitaar se gat en die kalbas op die uhadi mag GENOEM word as dele van die instrument; die les mag nie se wat hulle aan die klank doen nie.",
+    "INSTRUMENTFAMILIES AS 'N INDELING (snaarinstrumente, blaasinstrumente, slaginstrumente). KABV vra dit nie en dit is 'n tweede klassifikasiestelsel bo-op die inset-uitset-idee wat die les werklik leer. Die woord 'blaasinstrument' mag een keer as 'n gewone beskrywing staan; dit mag nie 'n kategorie wees wat die les onderrig nie.",
+    "MUSIEKNOTE, RITME, MELODIE, TOONLEERS, MUSIEKSTYLE, ORKESTE EN BANDS.",
+    "DIE GESKIEDENIS VAN MUSIEKINSTRUMENTE: wie hulle uitgevind het, hoe oud hulle is, waar hulle die eerste keer gemaak is. Geen datum en geen ouderdom.",
+    "ELEKTRONIESE INSTRUMENTE EN LUIDSPREKERS AS 'N ONDERWERP. Die radio word EEN keer genoem, in die moet_oplos-blok, en die les mag nie verduidelik hoe 'n luidspreker werk nie.",
+    "BOU-INSTRUKSIES, MATERIAALLYSTE, MATES, MEET-EN-AANTEKEN, STAAFGRAFIEKE EN EVALUERINGSRUBRIEKE. Sien 'assessering'.",
+    "MUSIEK AS KULTUUR, DANS EN SEREMONIES, behalwe die een sin wat die inheemse instrument in sy plek stel.",
+    "WIND EN WINDENERGIE. Dieselfde uitsluiting as by lesse 20 en 21. NAGETEL in die werklike KABV-dokument op 2026-08-27: die woord 'wind' kom presies drie keer in die hele Graad 4-6 KABV voor - een keer by verwering onder GRAAD 5 TERMYN 4, en twee keer by windkragopwekkers in die afdeling oor die koste van elektrisiteit, wat Graad 6 is. Nooit as Graad 4-inhoud nie. LET OP: 'n KONSEPweergawe van die kurrikulum op die departement se webwerf dra wel 'Air and wind' as Graad 4-inhoud. Dit is nie die dokument waaruit hierdie projek werk nie. Hierdie les praat oor jou asem wat oor 'n pyp blaas, nie oor wind nie.",
+    "DOELTREFFENDHEID, EN ENIGE GETAL OF PERSENTASIE OOR HOEVEEL VAN DIE BEWEGING KLANK WORD. Dieselfde reel as les 21.",
+    "Die dekkingsnasiener moet niks hiervan as ontbrekend aanteken nie."
+  ],
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "pct_woorde_oor_10_letters_gids": 3.0,
+      "woorde_per_sin": "11,0 tot 14,5",
+      "kommas_per_sin_maks": 0.35
+    },
+    "bron_steekproef_kwartaal_3": {
+      "woorde_gemeet": 6778,
+      "sillabes_per_woord": 1.5,
+      "pct_3plus_sillabes": 11.0,
+      "pct_woorde_oor_10_letters": 4.5,
+      "nota": "Die profiler se steekproef oor die hele geleesde bladsyreeks van Kwartaal 3, nie 'n meting van hierdie subonderwerp se eie bladsye nie."
+    },
+    "bevinding": "Hierdie les het die swaarste sillabelas van die kwartaal en die rede is een woord: 'instrument' is drie sillabes en 'musiekinstrument' is vyf, en dit is die woord waaroor die hele les gaan. In 750 woorde is die 13%-perk op drie-plus-sillabewoorde ongeveer 97 voorkomste. 'Instrument' alleen kan 20 tot 25 daarvan wees, en dan kom 'energie' (3), 'beweging' (3), 'bewegingsenergie' (6), 'musiekinstrumente' (6) en 'blaasinstrument' (4) nog by. Die lang-woord-gids (3,0% oor tien letters) is hier feitlik onhaalbaar as 'musiekinstrument' (16 letters) en 'bewegingsenergie' (16 letters) meer as 'n paar keer voorkom. Die oplossing is nie korter sinne nie - die vloer van 11,0 woorde per sin staan - maar om die instrument by sy EIE naam te noem.",
+    "besluit": "Die terme word gedra, met woordelys-steun buite die begroting, en die lopende sinne noem waar moontlik die konkrete instrument in plaas van die kategorie.",
+    "register_instruksies": [
+      "Skryf 'musiekinstrument' EEN keer, in die eerste blok, en daarna 'instrument'. Beter nog: noem die ding by sy naam - die kitaar, die drom, die panfluit, die ratel. Elke keer wat 'n instrument se naam die kategorie vervang, val 'n lang woord weg en word die sin konkreet.",
+      "Skryf 'bewegingsenergie' EEN keer, waar KABV se woord genoem word, met 'n begrip-inskrywing. Daarna 'beweging' of 'jou eie beweging'. Dit volg dieselfde reel wat lesse 20 en 21 dra: bou GEEN samestelling met 'energie' nie. Skryf 'die beweging wat ingaan', nie 'insetenergie'.",
+      "Skryf 'beweeg' (twee sillabes) eerder as 'beweging' (drie) waar 'n werkwoord die werk kan doen: 'die snaar beweeg' in plaas van 'die snaar se beweging'.",
+      "MOENIE 'krag' as 'n ander woord vir energie gebruik nie. Hierdie les is die gevaarlikste plek in die kwartaal daarvoor, want 'klop met krag' en 'spierkrag' lees albei natuurlik. In die wetenskap is 'krag' 'n stoot of trek en die leerder kry daardie betekenis later. Sien kaps/beskermde-woorde.json.",
+      "Skryf 'bewe' in lopende sinne vir wat die snaar en die vel doen. Noem 'vibreer' EEN keer as KABV se woord, met 'n begrip-inskrywing, sodat les 23 dit kan optel. Moenie 'vibrasie' as selfstandige naamwoord skryf nie - dit is les 23 se term.",
+      "Skryf 'klank' waar dit die uitset is, want dit is KABV se woord in die strepie en dit is een sillabe. 'Geluid' mag in gewone spraak staan ('jy hoor 'n geluid'), maar die uitset heet 'klank'.",
+      "Skryf 'blaasinstrument' hoogstens een keer (15 letters). Skryf elders 'n panfluit, 'n fluit, of die pyp.",
+      "Skryf 'inset' en 'uitset' met 'wat ingaan' en 'wat uitkom' langs hulle die eerste keer, presies soos les 21 dit doen. Albei terme is kort en niks help 'n leerder soos die gewone woorde langs hulle.",
+      "MOENIE 'resoneer', 'resonansie', 'akoesties', 'membraan', 'lugkolom' of 'amplitude' skryf nie. Skryf 'die vel' en 'die lug binne-in die pyp'.",
+      "MOENIE 'produseer' skryf nie (KABV se woord in die strepie). Skryf 'maak' of 'gee'."
+    ]
+  },
+  "gedeelde_omskrywings_met_les_21": {
+    "nota": "Hierdie les moet alleen kan staan as hersieningsinstrument, dus omskryf dit 'inset' en 'uitset' weer. Dit mag hulle egter nie ANDERS omskryf as les 21 nie. **LES 21 IS GESKRYF EN GOEDGEKEUR**, en die bewoordings hierbo is nou woord vir woord die van die afgelewerde les 21 - hierdie veld se eie reel ('as les 21 reeds geskryf en goedgekeur is, gebruik les 21 se weergawe woordeliks') beslis dit, en 'n voorskrif wat van 'n afgelewerde les verskil, is nie 'n voorskrif nie, dit is drif.",
+    "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+    "energie_nota": "Woordeliks uit die 'Energie om ons'-spesifikasie se 'gedeelde_omskrywings'. Let op wat dit NIE se nie: dit se nie energie is 'n ding, 'n stof of 'n hoeveelheid iets nie.",
+    "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+    "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+    "nota_na_nasien": "ALBEI OMSKRYWINGS IS NA DIE SPESIFIKASIE-NASIEN VERANDER, en albei word woordeliks met les 21 gedeel, dus is die regstelling daar ook gedoen. 'uitset' het gelees 'wat by 'n masjien uitkom, EN WAT ONS DAARUIT WIL HE'. 'n Uitset is wat uitkom, gewens of nie - die eng weergawe breek KABV se eie woord 'vernaamste' (wat ander uitsette veronderstel) en breek hierdie les se punt dat 'n haardroer se geraas die deel is wat niemand wil he nie. 'inset' het gelees 'die energie wat JY in iets insit'. Die radio se inset kom uit die muur of 'n battery, dus moes 'n leerder wat die omskrywing toepas aflei dat 'n radio geen inset het nie, en dan val die hele radio-antwoord om. 'energie' is ook reggemaak: dit het gelees 'Dit wat nodig is om iets te laat gebeur of beweeg.', 'n eie bewoording wat van les 18 s'n verskil. Les 18 se weergawe is die goedgekeurde een, drie lesse gebruik dit al, en lesse 21 tot 25 erf dit. Dieselfde fout het in les 21 se spesifikasie gestaan en is daar ook reggemaak. LATER REGGEMAAK: my eerste regstelling het die omskrywing tereg VERBREED (gewens of nie) maar die woord 'energie' laat wegval, wat 'n tweede fout is - sonder dit tel die rook uit 'n motor ook as 'n uitset, en dit pas nie by 'inset' nie. Albei helftes moet staan: AL DIE ENERGIE wat uitkom, gewens of nie.",
+    "nota_teenstrydigheid_reggemaak": "28 Augustus 2026. Hierdie veld en verwagte_begrippe.voorgeskrewe_omskrywings het VERSKILLENDE bewoordings vir 'inset' en 'uitset' gedra. Die dekkingsnasiener het dit gevind en dit reg na 'n mens toe gestuur eerder as na die skrywer, wat die regte keuse was: 'n skrywer kan nie tussen twee goedgekeurde velde kies nie. Vir 'uitset' was die verskil een woord ('dit' teenoor 'hy'). Vir 'inset' was dit werklik: 'by iets ingaan' teenoor 'by 'n masjien ingaan'. DIE NASIENER SE EEN FEITEFOUT: sy verslag se les 21 bestaan nog nie. Dit bestaan wel en dit is afgelewer - dit is 'Energie om ons' les 2, jaarles 21 - en dit dra die eng bewoording. Die nasiener kon dit nie weet nie; hy lees een les en een spek-inskrywing en kan nie in ander lesse kyk nie. DIE INHOUDELIKE PUNT AGTER SY BESWAAR STAAN EGTER: die verbreding is aangebring sodat 'n radio wat krag uit die muur trek, steeds 'n inset het. Die eng bewoording doen dit ook - 'n radio IS 'n masjien. Wat oorbly is of 'n musiekinstrument 'n masjien is, en hierdie les trek daardie brug self en hardop: 'Net soos enige ander masjien het 'n instrument eers 'n inset nodig.'"
+  },
+  "beskermde_woorde_voorstel": {
+    "nota": "Woordkeuses wat hierdie spesifikasie vasmaak. Hulle hoort in kaps/beskermde-woorde.json onder 'per_subonderwerp' by die sleutel 'beweging-en-energie-in-n-stelsel', sodat die taalnasiener hulle nie ongedaan maak nie. Die beplanner skryf NIE self in daardie lêer nie.",
+    "inskrywings": [
+      {
+        "hou": "klop",
+        "nie": [
+          "slaan",
+          "kap",
+          "moker"
+        ],
+        "rede": "KABV se eie woord in die strepie ('soos blaas, klop en pluk'), en dit is die woord waarom die drom hierheen gestuur is in plaas van na les 21. 'Slaan' lees natuurliker in Afrikaans en dit dra 'n geweldbetekenis wat 'klop' nie het nie. Die drie woorde blaas/klop/pluk vorm boonop een stel wat as stel herken moet word."
+      },
+      {
+        "hou": "pluk",
+        "nie": [
+          "tokkel",
+          "trek",
+          "ruk",
+          "speel"
+        ],
+        "rede": "KABV se eie woord, en dit is die enigste rede wat nodig is. LET OP: 'n vroeere weergawe van hierdie inskrywing het gese 'tokkel' beteken 'oor die snare stryk'. Dit is verkeerd - 'n Suid-Afrikaanse woordeboek gee dit as 'om 'n snaarinstrument te bespeel', met 'to pluck' as ekwivalent. Die reel bly, die motivering nie. 'Trek' laat dit klink of die snaar aanhoudend getrek word."
+      },
+      {
+        "hou": "blaas",
+        "nie": [
+          "waai",
+          "asem"
+        ],
+        "rede": "KABV se eie woord, en dit is die derde lid van dieselfde stel. 'Waai' bring wind in, wat nie Graad 4-inhoud is nie."
+      },
+      {
+        "hou": "stelsel",
+        "nie": [
+          "sisteem"
+        ],
+        "rede": "KABV skryf 'musiekinstrumente (stelsels)' en die hele tegnologie-strand heet 'Stelsels en Beheer'. 'Sisteem' is 'n anglisisme wat 'n nasiener as 'n verbetering kan invoeg."
+      },
+      {
+        "hou": "klank",
+        "nie": [
+          "geluid",
+          "sound"
+        ],
+        "rede": "Waar dit die UITSET is. KABV se strepie lees 'produseer klank as die vernaamste uitset energie', en jaarlesse 23 tot 25 bou almal op 'klank'. 'Geluid' mag in gewone spraak bly ('jy hoor 'n geluid'), maar nie waar die uitset benoem word nie."
+      },
+      {
+        "hou": "energie",
+        "nie": [
+          "krag",
+          "sterkte"
+        ],
+        "rede": "Reeds 'n algemene inskrywing in kaps/beskermde-woorde.json; dit word hier herhaal omdat hierdie les die gevaarlikste plek daarvoor is. 'Klop met krag', 'spierkrag' en 'trekkrag' lees almal natuurlik en almal ruil energie vir krag om."
+      },
+      {
+        "hou": "baie musiekinstrumente",
+        "nie": [
+          "alle musiekinstrumente",
+          "elke musiekinstrument",
+          "musiekinstrumente"
+        ],
+        "rede": "KABV skryf self 'baie' in twee van sy drie strepies, en die rede is werklik: 'n elektroniese klawerbord se inset is elektrisiteit, nie beweging nie. 'n Nasiener wat 'baie' as vaag ervaar en dit wegvat, maak van 'n korrekte sin 'n valse een."
+      },
+      {
+        "hou": "die lug binne-in die pyp",
+        "nie": [
+          "die pyp bewe",
+          "die fluit bewe",
+          "die deel wat jy blaas bewe"
+        ],
+        "rede": "Die feitelike kern van hierdie les. By 'n panfluit en 'n fluit is dit die lug binne-in wat bewe, nie die pyp self nie. Enige verkorting na 'die pyp bewe' is 'n feitefout, en dit is presies die verkorting wat 'n nasiener as 'n stylverbetering sal maak."
+      },
+      {
+        "hou": "bewe",
+        "nie": [
+          "vibreer oral",
+          "sidder",
+          "tril"
+        ],
+        "rede": "'Bewe' is die alledaagse woord en dit dra die lopende teks. 'Vibreer' staan EEN keer as KABV se woord met 'n begrip-inskrywing en moet daardie een keer oorleef, want jaarles 23 tel die term daar op. 'n Nasiener wat die een na die ander normaliseer, breek een van die twee."
+      },
+      {
+        "hou": "uhadi",
+        "nie": [
+          "uhadie",
+          "ugubhu"
+        ],
+        "rede": "VOORWAARDELIK: hierdie inskrywing geld net as die verifikasie in 'verifikasie_vereis' slaag. 'n Naam in isiXhosa lyk vir 'n taalnasiener na 'n tikfout en dit is presies die geval waar 'n nasiener 'n verifikasie ongedaan maak. Die Zoeloe-boog dra 'n ANDER naam en die twee mag nie omgeruil word nie. Die instrument mag ook nie 'n kitaar genoem word nie."
+      }
+    ]
+  },
+  "skryfnota": "Vyf dinge kan hierdie les laat misluk. Die eerste is dat dit 'n LYS INSTRUMENTE word in plaas van die inset-uitset-idee: KABV se woord is 'stelsels' en die les se ruggraat is in-werk-uit, met die instrumente as die voorbeelde wat dit dra. Die tweede is die blaasinstrument: by 'n panfluit bewe die LUG binne-in, nie die pyp nie, en 'die deel wat jy blaas bewe' is 'n maklike sin om te skryf en dit is verkeerd. Die derde is dat die les op les 23 inbreek - sodra 'n sin verduidelik HOE die bewing 'n klank word, is dit die volgende les se sin. Die vierde is 'vernaamste' wat na 'enigste' dryf: klank is die uitset waarvoor die instrument gemaak is, en dit is nie al wat gebeur nie. Die vyfde is die inheemse instrument: 'n naam wat nie geverifieer is nie, hoort nie in die les nie. Wat oorbly is konkrete werk: 'n stil kitaar, 'n rekkie om 'n blik, 'n drom se vel, en die lug in 'n panfluit se pyp.",
+  "goedkeuring": "Nog geen. Hierdie is 'n konsep. 'n Mens lees dit en skuif dit na spesifikasies/goedgekeur; die beplanner keur nie sy eie werk goed nie.",
+  "vak_gedeelde_omskrywings": {
+    "nota": "Een bewoording per term, vir die hele vak. BESLIS DEUR DRICO op 28 Augustus 2026: 'woorde wat in meer as een woordelys verskyn, moet identies wees.' Identies beteken identies - die voorbeelde na 'soos' inkluis, en 'n omskrywing mag ook nie ryker word soos die jaar vorder nie. 'n Leerder slaan 'n woord agter in een les na en dan agter in 'n ander; sy moet dieselfde sin kry. VERFYNING, 28 Augustus 2026: Drico het beslis dat VOORBEELDE NA 'soos' WEL PER LES MAG VERSKIL. Wat identies moet wees, is die sin self - die romp. 'materiaal' is dus nie meer drif nie: lesse 9 en 14 deel die romp en elkeen se voorbeelde is sy eie les se materiaal. Net 'n ANDER ROMP is drif.",
+    "terme": {
+      "asemhaling": "Om suurstof uit die lug te gebruik om energie uit jou kos te kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "geraamte": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou.",
+      "habitat": "Die plek waar 'n plant of 'n dier lewe.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "kondenseer": "Wanneer 'n gas afkoel en weer in 'n vloeistof verander.",
+      "lewensprosesse": "Die sewe dinge wat saam wys dat iets lewe.",
+      "materiaal": "Die goed waarvan iets gemaak is",
+      "onverwerkte materiaal": "Materiaal wat mense net so in die natuur kry.",
+      "raamstruktuur": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "ru-olie": "Meestal 'n dik donker vloeistof wat onder die grond opgepomp word.",
+      "smelt": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "struktuur": "Iets wat gebou of gevorm is, sy vorm hou en gewig dra of iets beskerm.",
+      "stut": "'n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
+      "trommelvlies": "'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+      "verdamp": "Wanneer 'n vloeistof in 'n gas verander. Dit gebeur vinniger wanneer die vloeistof warmer is.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "vries": "Wanneer 'n vloeistof afkoel en in 'n vaste stof verander.",
+      "waterdamp": "Water in die vorm van 'n gas wat niemand kan sien nie."
+    }
+  },
+  "nommer": 1,
+  "jaarnommer": 22,
+  "jaarnommer_nota": "Drico se lesnommer vir die jaar, uit kaps/lesindeks/gr4-natuurwetenskappe-en-tegnologie.json. Die nommers loop deurlopend deur die jaar. Sy KABV-etiket is 'Beweging en musiekinstrumente'. Die etiket is die lêernaam se KABV-indeks en dit is NIE die les se titel nie.",
+  "kaps_lesindeks_etiket": "Beweging en musiekinstrumente",
+  "titel": "Blaas, klop en pluk",
+  "titel_nota": "Werktitel, en die skrywer mag hom verbeter. Hy is die leerder se hero-opskrif, nie die KABV-etiket nie. Hy volg die patroon wat Drico gehou het ('Vlotte, kano's en rietbote'): hy noem die konkrete dinge waaroor die les gaan, in drie woorde wat 'n negejarige besit, en hy is spesifiek genoeg dat hy geen ander les kan opskryf nie. Hy maak GEEN feitelike bewering nie, wat belangrik is omdat niks 'n titel nagaan soos die studieteks nagegaan word nie. Wat hy NIE mag word nie: enige titel wat belowe om te verduidelik hoe klank gemaak word (dit is les 23 s'n), enige titel met 'n telling van instrumente of soorte, en enige titel wat 'n maakprojek belowe.",
+  "kaps_punt": "baie musiekinstrumente (stelsels) gebruik bewegings energie insette (soos blaas, klop en pluk) om hulle te laat werk",
+  "kaps_punte": [
+    "baie musiekinstrumente (stelsels) gebruik bewegings energie insette (soos blaas, klop en pluk) om hulle te laat werk",
+    "baie musiekinstrumente het dele wat kan beweeg of vibreer",
+    "musiekinstrumente produseer klank as die vernaamste uitset energie"
+  ],
+  "kaps_punt_nota": "KABV se inhoudsopskrif 'Beweging en musiekinstrumente' dra al drie strepies hierbo en al drie is hierdie les se werk. Hulle is drie trappe van een bewering en die les se blokorde volg hulle. Die twee voorgestelde aktiwiteite is 'lees oor of kyk na inheemse musiekinstrumente en hoe hulle werk' en 'ondersoek, ontwerp, maak en evaluering `n musiekinstrument (soos `n kitaar, ratel, drom, blaasinstrument soos panfluit, fluite) wat gebruik maak van bewegingsenergie om geluide te maak'. Die eerste word gelewer (sien 'praktiese_werk'); van die tweede word die TEORIE gelewer en nie die maak nie (sien 'assessering'). Die vier instrumente wat KABV daar noem - kitaar, ratel, drom, panfluit/fluit - is die vier wat hierdie les gebruik, en dit is nie toevallig nie: hulle dek presies KABV se drie insette plus 'n vierde geval wat die idee toets.",
+  "begroting": 750,
+  "begrotingsnota": "750 woorde. DIT IS NIE 'N METING NIE: die meting is 942 en Drico het 750 goedgekeur op 2026-08-25, voor beplanning; sien 'begroting_basis_nota'. Die vereistes dra die getal: sewe kern-inskrywings teen gemiddeld 107 woorde elk. Dit is aan die ruim kant van wat ons eie gelewerde Graad 4-lesse per kern-inskrywing haal (ongeveer 31 tot 97), en dit is met opset: drie van die sewe inskrywings is meganismes of waarnemings eerder as name met een detail. Die hek meet die totaal teen 750, dus 638 tot 863. Die volle toedeling staan onder 'toedeling' en dit tel presies tot 750. Die risiko hier is OORMAAT, nie tekort nie: die versoeking is om nog instrumente by te voeg, en elke ekstra instrument is 'n naam wat woorde kos en niks nuuts leer nie.",
+  "toedeling": {
+    "nota": "Rigtinggewend vir die skrywer, nie 'n gemete begroting nie. Die hek meet net die les se totaal teen 750 woorde (638 tot 863). Die getalle tel tot 750. Die ORDE is deel van die voorskrif: elke blok het die een voor hom nodig, en die omskrywing van 'stelsel' kom eers nadat die leerder die hele vorm gesien het. Agt studieblokke plus een lysblok pas binne die hek se stukkiegids (3 tot 10 studieblokke, 30 tot 110 woorde elk).",
+    "1_die_stil_kitaar": 75,
+    "2_blaas_klop_en_pluk": 100,
+    "3_binne_in_beweeg_n_deel": 105,
+    "4_lys_wat_jy_doen_en_wat_beweeg": 50,
+    "5_die_deel_moet_vry_wees_om_te_beweeg": 100,
+    "6_klank_is_die_uitset": 105,
+    "7_dit_is_n_stelsel": 70,
+    "8_maar_n_radio_maak_ook_klank": 70,
+    "9_die_uhadi": 75
+  },
+  "kern": [
+    "'N INSTRUMENT DOEN NIKS UIT SY EIE NIE, EN DIT IS DIE INGANG NA DIE HELE LES. Begin by iets wat 'n negejarige al aanvaar: 'n kitaar wat op 'n bed le, maak geen klank nie, en 'n drom in die hoek is stil. Niks gebeur totdat iemand iets doen nie. Noem dan wat daardie 'iets doen' is: dit is 'n BEWEGING, en dit is die instrument se inset. Skakel in EEN sin terug na les 21 (net soos enige ander masjien 'n inset nodig het) en gaan dadelik verder - moenie inset en uitset van voor af verduidelik nie. Skryf 'musiekinstrument' hier die een keer, en daarna 'instrument'.",
+    "KABV SE DRIE MANIERE: BLAAS, KLOP EN PLUK, EN AL DRIE IS JOU EIE BEWEGING. Al drie woorde is KABV s'n en al drie moet by die naam voorkom. Een voorbeeld elk: jy blaas oor 'n panfluit se pype, jy klop 'n drom, jy pluk 'n kitaar se snaar. Se dan die ding wat die drie saambind en wat die hele strepie dra: al drie is dinge wat JOU liggaam doen, en dit is jou eie beweging wat ingaan. Noem 'bewegingsenergie' hier EEN keer as KABV se woord, met 'n begrip-inskrywing, en gebruik daarna 'beweging'. Skryf 'baie instrumente', nie 'alle instrumente' - KABV skryf self 'baie', en die rede is werklik: 'n elektroniese klawerbord se inset is elektrisiteit.",
+    "BINNE-IN BEWEEG 'N DEEL, EN DIT IS NIE ALTYD DIE DEEL WAT JY AANRAAK NIE. Dit is KABV se tweede strepie en dit is die plek waar die les die werklik verrassende ding hardop moet se. By die kitaar beweeg die snaar wat jy gepluk het, en by die drom beweeg die vel waarop jy geklop het - albei kere is die deel wat beweeg die deel wat jy aangeraak het. By 'n panfluit is dit ANDERS: jy blaas oor die bokant van 'n pyp, en dit is die LUG BINNE-IN die pyp wat bewe, nie die pyp self nie. Se dit uitdruklik en se dit as die verrassing, want dit is die een ding in hierdie les wat 'n leerder nie sou raai nie. Noem 'vibreer' hier EEN keer as KABV se woord vir hierdie vinnige heen-en-weer beweeg, met 'n begrip-inskrywing.",
+    "DIE KOMPAKTE LYS: WAT JY DOEN, EN WATTER DEEL BEWEEG. 'n LYSBLOK met vier reels, een per instrument, want dieselfde twee soorte inligting herhaal vier keer en 'n lys hou dit leesbaar. Die vier is KABV se eie vier uit sy voorgestelde aktiwiteit: die kitaar (jy pluk - die snaar beweeg), die drom (jy klop - die vel beweeg), die panfluit (jy blaas - die lug binne-in die pyp bewe), en die ratel (jy skud - die saadjies binne-in klop teen die wand). Die ratel is doelbewus laaste: sy beweegdeel is los goed binne-in, wat wys dat 'n beweegdeel nie 'n snaar of 'n vel hoef te wees nie. Hou elke reel kort genoeg vir 'n lysitem - die hek laat 'n kort skanderbare punt toe, nie 'n sin met bysinne nie.",
+    "DIE DEEL MOET VRY WEES OM TE BEWEEG, EN DIT IS DIE LES SE BEWYS. Dit hoort in die STUDIETEKS, nie in 'n vraag nie. Span 'n rekkie om 'n leë blik en pluk dit: jy sien die rekkie so vinnig heen en weer beweeg dat dit vaag lyk, en jy hoor 'n klank. Sit nou een vinger op dieselfde rekkie op dieselfde blik en pluk dit presies dieselfde: die rekkie beweeg skaars en jy hoor byna niks. Die eendersheid moet in DIESELFDE SIN as die vergelyking staan, want die vergelyking hang af van hoe hard jy pluk. Se dan wat dit beteken en hou dit by die stelsel: as die deel nie kan beweeg nie, kry jy nie die uitset nie. Dit is ook presies wat 'n leerder moet weet as hy self 'n instrument sou ontwerp. ABSOLUTE-NOTA, 28 Augustus 2026: die slotreel van hierdie blok is 'as die deel nie vry kan beweeg nie, kry jy BYNA GEEN uitset nie' - nie 'geen uitset' nie. Die waarneming self meet 'byna niks' en demping verswak eerder as om uit te skakel. Die algemene reel bly so wyd as wat hy is; net die gevolg pas by die bewys. Hoe wyd 'n bewering reik en hoe sterk hy gestel is, is twee onafhanklike dinge, en hierdie les het vier skryfrondtes gekos deur hulle vir mekaar te ruil.",
+    "KLANK IS DIE UITSET, EN DIT IS DIE VERNAAMSTE UITSET, NIE DIE ENIGSTE DING WAT GEBEUR NIE. Dit is KABV se derde strepie. Se eers die positiewe helfte: klank is wat by die instrument uitkom en dit is die uitset waarvoor die instrument gemaak is. Se dan die helfte wat 'vernaamste' vra: nie alles wat jy insit, kom as klank terug nie. Moenie 'n lys ander uitsette uitdink nie - een eerlike sin is die hele vereiste, en enige tweede bewering hier is 'n bewering wat die les nie kan steun nie. Hierdie blok dra ook die naat terug na les 21, en dit is die tweede verrassing in die les: by die meeste masjiene is die klank juis die deel wat niemand wil he nie ('n haardroer se geraas), en by 'n instrument is die klank die HELE punt.",
+    "NOU HET JY DIE HELE VORM, EN DIT IS WAT KABV 'N STELSEL NOEM. Die omskrywing kom hier en nie vroeer nie, want hier is dit verdien: die leerder het al gesien wat ingaan, wat binne beweeg en wat uitkom. Vat dit in daardie drie trappe saam en noem dan die woord, met 'n begrip-inskrywing. Se ook, in een sin, wat dit beteken vir 'n leerder wat self 'n instrument sou ontwerp: hy het iets nodig om beweging in te sit, 'n deel wat vry kan beweeg, en 'n klank wat hy kan hoor. Moenie verder gaan nie - geen bou-instruksie, geen materiaallys, geen mates.",
+    "EEN INHEEMSE INSTRUMENT BY DIE NAAM, HELT LAASTE, NA DIE STELSEL-IDEE KLAAR IS. KABV se eerste voorgestelde aktiwiteit vra dat leerders oor inheemse musiekinstrumente LEES, en hierdie blok is wat dit lewer. Dit hoort laaste, in sy eie blok, sodat dit as 'n GEVAL van die patroon lees en nie as versiering nie. Die uhadi: 'n Xhosa-instrument, 'n boog met een snaar en 'n hol kalbas; die snaar word geklop en die snaar is die deel wat beweeg; die inset kom uit iemand se eie beweging. Sien verifikasie_vereis - dit het geslaag - en die lys onder moenie_beweer_nie. AANGETEKEN 28 AUGUSTUS 2026: hierdie vereiste het ontbreek. Die spesifikasie het die uhadi op dertien plekke genoem, 'n verifikasie daarvoor geeis, woorde daarvoor toegeken en 'n begrip-inskrywing daarvoor voorgeskryf - en dit NERENS as 'n kernvereiste gestel nie. Die dekkingsnasiener het dit gevind: sonder 'n vereiste kan 'n latere dekkingsnasien die blok as 'ongevraagd' afsny en KABV se aktiwiteit saam met hom verloor."
+  ],
+  "aanvulling": [],
+  "aanvulling_nota": "Geen. Drie inskrywings lyk soos aanvulling en is dit nie. (1) Die inheemse instrument: KABV se eerste voorgestelde aktiwiteit by hierdie subonderwerp is 'lees oor of kyk na inheemse musiekinstrumente en hoe hulle werk', dus staan dit in die KABV-dokument en dit is Kern, nie aanvulling nie. Dieselfde hantering is by les 21 gebruik vir die toestellys uit die aktiwiteitskolom. (2) Die rekkie-waarneming: dit is die bewys onder KABV se tweede strepie ('dele wat kan beweeg of vibreer'), en die standaard vereis nou dat bewys in die studieteks staan en nie in 'n vraag nie. Dit is dus wat die strepie minimaal vereis. (3) Die radio-blok: dit is 'n moet_oplos-inskrywing en nie inhoud wat KABV nie vra nie; sien 'moet_oplos_nota'. Daar is hier geen persoon en geen deurbraak wat 'n aanvulling-inskrywing regverdig nie.",
+  "moeilike_konsepte": [],
+  "moeilike_konsepte_nota": "Doelbewus leeg. Die enigste kandidaat is die lug wat binne-in 'n pyp bewe, en dit is die een idee in die les wat 'n mens nie kan sien nie. Dit kan egter konkreet gestel word, en die konkrete stelling IS die inhoud: jy blaas oor die bokant van die pyp, en dit is die lug binne-in die pyp wat bewe, nie die pyp self nie. 'n Eli10-blok sou daardie sin in korter woorde herhaal, wat daardie laag se algemeenste faling is. Erger nog: elke beeld wat ek vir 'n bewende lugkolom kan bedink, dryf of na les 23 se meganisme (hoe die bewing die klank maak) of na les 24 se toonhoogte (kort pyp, hoe klank), en albei is buite bestek. Analogiee is boonop 'n feiterisiko en die feitenasiener toets die AFBEELDING, nie net die bewering nie. Die aanskoulike vergelyking is die video se werk. LET OP: dit is 'n KEUSE en nie 'n verbod nie - Drico se uitspraak van 2026-08-26 laat toe dat energie as iets wat beweeg en gebere word, geskets word, solank die IDENTITEITSGRENS staan ('beweeg soos' mag, 'energie IS 'n vloeistof' mag nie).",
+  "termdig": true,
+  "termdig_nota": "Vyf tot sewe begrip-inskrywings. Die les lyk term-dig omdat KABV vier instrumente noem, maar 'n kitaar, 'n drom, 'n ratel en 'n panfluit is alledaagse woorde wat 'n negejarige besit, en 'n snaar en 'n vel ook. MOENIE hulle begrip-inskrywings gee nie: dit sou die woordelys opvul met woorde wat niemand hoef op te soek nie en dit sou die terme wat wel nuut is, wegsteek. Die werklik nuwe terme is 'stelsel', 'bewegingsenergie' en 'vibreer', plus 'inset' en 'uitset' wat uit les 21 herhaal word omdat elke les alleen moet kan staan. VERWAG DIT: die hek waarsku oor woorde van meer as tien letters sonder 'n inskrywing, en dit sal oor 'musiekinstrument' (16 letters) en moontlik 'blaasinstrument' (15) waarsku. Albei waarskuwings is verwag en albei is reg om te laat staan - dit is alledaagse woorde, en die hek se lengtetoets is 'n plaasvervanger vir die werklike reel, nie die reel self nie.",
+  "verwagte_begrippe": {
+    "nota": "Vyf tot sewe inskrywings. 'Energie', 'inset' en 'uitset' gebruik die spesifikasie se 'gedeelde_omskrywings_met_les_21' woordeliks, want les 21 omskryf hulle ook en hulle mag nie verskil nie. Omskrywings loop 8 tot 12 woorde. REGSTELLING 28 Augustus 2026: hierdie nota het 'energie' as 'n gedeelde omskrywing genoem sonder om dit in enige lys van inskrywings te sit, en die telling van vier tot ses het dit boonop onmoontlik gemaak. Die skrywer het dit gelaat en gese die goedgekeurde bewoording oorleef binne-in die omskrywing van 'bewegingsenergie'; dit is nie so nie, en die les gebruik 'energie' vier keer sonder om dit te verklaar. Lesse 18, 19, 20 en 21 dra almal die inskrywing, om dieselfde rede waarom hierdie spesifikasie 'inset' en 'uitset' laat herhaal: elke les moet alleen kan staan.",
+    "onvermydelik": [
+      "energie",
+      "stelsel",
+      "bewegingsenergie",
+      "inset",
+      "uitset"
+    ],
+    "waarskynlik": [
+      "vibreer",
+      "uhadi"
+    ],
+    "moet_NIE": [
+      "kitaar",
+      "drom",
+      "ratel",
+      "panfluit",
+      "fluit",
+      "snaar",
+      "vel",
+      "klank",
+      "musiekinstrument",
+      "blaasinstrument"
+    ],
+    "voorgeskrewe_omskrywings": {
+      "stelsel": "'n Klomp dele wat saamwerk om een ding te doen.",
+      "bewegingsenergie": "Die energie van iets wat beweeg, soos jou hand wat klop.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "uhadi": "Die verifikasie het geslaag - sien verifikasie_vereis.uitslag. Die omskrywing word uit wat bevestig is geskryf: 'n Xhosa-instrument, 'n boog met een snaar en 'n hol kalbas.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk."
+    },
+    "reel": "Elke woord van meer as tien letters wat in die studieteks bly, is 'n hek-waarskuwing werd; die WERKLIKE reel is dat elke nuwe vakterm 'n inskrywing kry, kort of lank. 'Stelsel' is sewe letters en het een nodig; 'musiekinstrument' is sestien en het nie een nodig nie."
+  },
+  "verifikasie_vereis": {
+    "nota": "Hierdie blok is die belangrikste enkele risiko in hierdie spesifikasie. KABV noem inheemse musiekinstrumente in sy aktiwiteitskolom maar noem NIE EEN by die naam nie, dus is die naam hieronder MY voorstel en nie KABV s'n nie. Dit maak dit erger, nie beter nie: in Kwartaal 2 het KABV self vier huisname verskaf en drie daarvan was verkeerd, en 'n naam sonder enige dokumentgesag agter hom moet minstens dieselfde toets deurstaan.",
+    "wie": "Die feitenasiener, voordat hierdie les geskryf word - nie daarna nie. As die naam eers in 'n konsep staan, is dit moeilik om hom skoon te verwyder.",
+    "waarteen": "Bronne BUITE KABV, en meer as een, onafhanklik van mekaar. 'n Bron wat self by 'n skoolhandleiding, 'n opsommingswebwerf of 'n werkkaart geleen het, tel nie as onafhanklik nie.",
+    "vier_afsonderlike_vrae": [
+      "Bestaan die naam, en is dit so gespel?",
+      "Is dit isiXhosa, en hoort die instrument by die Xhosa-mense? 'n Regte naam by die verkeerde volk is die ernstiger van die twee foute.",
+      "Hoe word dit gespeel? Die les beweer dat die snaar met 'n dun stokkie GEKLOP word. As dit in werklikheid gepluk of gestryk word, val die instrument uit hierdie les se klop-been uit en die hele blok moet herskryf word.",
+      "Wat is die dele? Die les beweer 'n boog met een snaar en 'n hol kalbas. Elke deel wat genoem word, moet bevestig word."
+    ],
+    "name": [
+      {
+        "naam": "uhadi",
+        "voorgestelde_toeskrywing": "Xhosa (isiXhosa)",
+        "voorgestelde_bewering_in_die_les": "Die uhadi is 'n Xhosa-instrument. Dit is 'n boog met een snaar en 'n hol kalbas. Jy klop die snaar met 'n dun stokkie, en die snaar is die deel wat beweeg.",
+        "kontroleer": "Al vier vrae hierbo. Kontroleer spesifiek of die snaar geklop word en nie gepluk of met 'n strykstok gestryk word nie, want die hele rede waarom hierdie instrument gekies is, is dat dit KABV se woord 'klop' op iets anders as 'n drom wys. Kontroleer ook of 'kalbas' die regte woord is vir wat aan die boog vas is.",
+        "moenie_verwar_nie": "Daar is 'n verwante Zoeloe-boog met 'n ANDER naam. Moenie die twee omruil nie en moenie die Zoeloe-naam in hierdie les invoer nie - dit sou 'n tweede naam wees wat 'n tweede verifikasie vra, en die les het nie ruimte daarvoor nie.",
+        "moenie_beweer_nie": [
+          "Geen superlatief: nie 'die oudste', 'die eerste', 'die bekendste' of 'die eenvoudigste' nie.",
+          "Geen datum, geen eeu, geen ouderdom.",
+          "Nie dat dit 'n soort kitaar is nie.",
+          "Nie wat die kalbas aan die klank doen nie - dit is versterking van klank en dit is buite bestek."
+        ]
+      }
+    ],
+    "as_die_verifikasie_druip": "Dan noem die les GEEN instrument by die naam nie. Die blok bly staan en behou sy 75 woorde, maar dra net die algemene punt, wat sonder 'n naam waar bly: mense hier maak al lank instrumente van wat om hulle is - hout, gras, vel, 'n hol kalbas - en al daardie instrumente werk op dieselfde manier as die kitaar en die drom in hierdie les, want iemand moet nog steeds blaas, klop of pluk, en 'n deel moet nog steeds beweeg. Skryf ook in daardie geval geen datum, geen ouderdom en geen volk se naam nie.",
+    "as_die_verifikasie_slaag": "Dan word 'uhadi' 'n beskermde woord; sien 'beskermde_woorde_voorstel'. Skryf die bevestigde bewering by hierdie veld in, met sy bronne, sodat die volgende hersiening dit nie weer bevraagteken nie.",
+    "uitslag": {
+      "wanneer": "2026-08-28",
+      "wie": "Die feitenasiener, op die geskrewe konsep. LET OP DIE ORDE: hierdie blok vra dat die verifikasie VOOR die skryf gebeur, juis omdat 'n naam wat eers in 'n konsep staan, moeilik skoon te verwyder is. Dit het nie so gebeur nie - die naam is geskryf en daarna nagegaan. Dit het geslaag, dus het dit niks gekos nie, maar die orde was verkeerd en die risiko was eg.",
+      "slaag": true,
+      "bronne": [
+        "Music In Africa",
+        "Noordwes-Universiteit se musiekdepartement",
+        "Indigenous African Music Transcription Project",
+        "Bow Music Foundation"
+      ],
+      "antwoorde": {
+        "bestaan_die_naam_en_die_spelling": "Ja, 'uhadi', so gespel.",
+        "isixhosa_en_die_regte_volk": "Ja. Xhosa-instrument, isiXhosa-naam.",
+        "hoe_dit_gespeel_word": "GEKLOP, nie gepluk of gestryk nie - die been waarop hierdie instrument gekies is, hou. Die klopper is 'n dun stingel gras of riet, nie 'n houtstokkie nie: die grasklopper heet uMqungu en word dikwels uit die dakstrooi getrek, en ander bronne noem 'n rietstokkie. Die les se 'gras of riet' dek presies daardie spektrum en is nader aan die bronne as hierdie blok se eie voorgestelde 'dun stokkie'.",
+        "die_dele": "Ja: 'n boog met een snaar, en 'n uitgeholde kalbas. 'kalbas' is die regte woord."
+      },
+      "wat_die_les_NIE_beweer_nie": "Die les beweer nerens dat die instrument nie gestryk word nie, en maak geen bewering oor wat die kalbas aan die klank doen nie. Albei was plekke waar 'n skrywer maklik verder as die bronne sou gegaan het, en albei het gehou.",
+      "gevolg": "Die voorwaardes wat aan hierdie verifikasie gehang het, is nou vervul: die begrip-inskrywing vir 'uhadi' mag geskryf word, en die voorwaardelike inskrywing in beskermde_woorde_voorstel geld."
+    }
+  },
+  "demonstrasie_eise": {
+    "waarneming": "'n Rekkie wat om 'n leë blik gespan is. Pluk dit een keer en kyk; sit dan een vinger op dieselfde rekkie en pluk dit presies dieselfde.",
+    "een_kind_twee_hande": "Ja. Een blik, een rekkie, twee hande, geen hulp en geen tweede persoon. Die blik staan op die tafel, die een hand se vinger rus op die rekkie en die ander hand pluk. As 'n blik nie beskikbaar is nie, werk 'n leë boks of 'n dik boek net so goed - noem hoogstens EEN alternatief, nie 'n lys nie.",
+    "wat_bly_dieselfde": "Dieselfde blik, dieselfde rekkie, en dieselfde pluk. Al drie moet genoem word, en net EEN ding verander, naamlik of daar 'n vinger op die rekkie is.",
+    "grootte_of_hoeveelheid": "Ja, en dit is die strengste eis hier. Die vergelyking hang af van HOE HARD jy pluk, wat 'n hoeveelheid is, dus moet 'dieselfde pluk' in DIESELFDE SIN as die vergelyking staan. Moenie 'dieselfde rekkie' 'n sin vroeer se en dan in die volgende sin vergelyk nie.",
+    "wat_dit_wys": "Twee dinge in een waarneming, en albei is nodig: (1) daar is werklik 'n deel wat beweeg, en jy kan dit SIEN, en (2) daardie deel moet vry wees om te beweeg, anders kry jy byna geen uitset nie. REGSTELLING 28 AUGUSTUS 2026: hierdie veld het 'kry jy nie die uitset nie' gese. Demping VERSWAK, dit skakel nie uit nie - 'n gedempte snaar gee 'n dowwe klank, nie stilte nie - en die waarneming self meet 'byna niks' onder presies dieselfde voorwaarde. Die absolute vorm het die blok se eie bewys weerspreek. Die feitenasiener het dit gevind en die dekkingsnasiener het opgemerk dat die spek dit op DRIE plekke absoluut stel, sodat 'n volgende hersiening dit uit die spek sou herinstel. Al drie is reggemaak.",
+    "wat_dit_NIE_mag_wys_nie": "Dit mag nie gebruik word om te se dat die BEWING die klank MAAK nie. Dit is les 23 se sin. Die veilige vorm is die waarneming self plus die stelselsin: as die deel nie vry kan beweeg nie, kry jy byna geen uitset nie. Dit mag ook nie gebruik word om hard teenoor sag te leer nie (les 24), en die woorde 'volume' en 'toonhoogte' kom nerens in hierdie les voor nie. REGSTELLING 28 AUGUSTUS 2026: hierdie veld het 'kry jy nie die uitset nie' gese. Demping VERSWAK, dit skakel nie uit nie - 'n gedempte snaar gee 'n dowwe klank, nie stilte nie - en die waarneming self meet 'byna niks' onder presies dieselfde voorwaarde. Die absolute vorm het die blok se eie bewys weerspreek. Die feitenasiener het dit gevind en die dekkingsnasiener het opgemerk dat die spek dit op DRIE plekke absoluut stel, sodat 'n volgende hersiening dit uit die spek sou herinstel. Al drie is reggemaak.",
+    "voel_teenoor_sien": "Hierdie is 'n SIEN-waarneming en dit moet so bly. 'Voel die rekkie bewe' is KABV se eie strepie by jaarles 23 ('ons kan vibrasies voel of hoor') en dit hoort daar.",
+    "veiligheid": "Niks. Daar is geen hitte, geen elektrisiteit en niks skerps nie, en die les moet nie 'n veiligheidsnota byvoeg nie - veiligheid is nie 'n afdeling van hierdie les nie.",
+    "fisiese_kontinuiteit": "Moenie 'n tweede rekkie, 'n dunner rekkie of 'n stywer rekkie invoer nie. Dit verander twee dinge tegelyk en dit dryf boonop na toonhoogte, wat buite bestek is."
+  },
+  "moet_oplos": [
+    "'n Radio maak ook klank, en jy hoef nie te blaas, te klop of te pluk nie - jy druk net 'n knoppie. Hoekom is 'n instrument dan anders? Die leerder kom met hierdie teenvraag by die les aan, en by les 21 het sy die radio boonop pas as een van KABV se toestelle gesien (elektrisiteit of batterye in, klank uit). Die antwoord is die INSET en niks anders nie: die radio se inset kom uit die muur of uit 'n battery, en 'n instrument se inset kom uit jou eie beweging. Daarom moet jy weer blaas, weer klop of weer pluk elke keer as jy nog 'n klank wil he, en die radio speel aan solank hy sy inset kry."
+  ],
+  "moet_oplos_nota": "Hierdie blok se inhoud staan in geen KABV-strepie nie en 'n dekkingsnasiener wat net teen 'kern' toets, sal dit as OORTOLLIG aanteken. Dit is nie oortollig nie en dit is nie aanvulling nie: skrywer-v1.4 se afdeling 'Explaining, not just covering' vra dat 'n les die verwarring antwoord waarmee die leerder al aankom, en 'n vereistelys wat uit KABV se strepies gebou is, bevat nooit 'n kind se teenvraag nie. Sonder hierdie veld word die blok elke rondte weer gevlag en uiteindelik as opvulling gesnoei, en dan bly die les se hele eerste strepie ('bewegings energie insette') 'n bewering wat die leerder se eie ervaring weerspreek. Die blok is ook die goedkoopste naat terug na les 21 wat die les het. LET OP die feiterisiko-inskrywing daaroor: die verskil is die INSET, nie of daar 'n bewegende deel is nie.",
+  "feiterisiko": [
+    "DIE BLAASINSTRUMENT IS DIE GROOTSTE ENKELE RISIKO IN HIERDIE LES. By 'n panfluit en 'n fluit bewe die LUG BINNE-IN die pyp, nie die pyp nie. Enige sin van die vorm 'die deel wat jy blaas, bewe' of 'die pyp bewe' is verkeerd, en dit is 'n baie maklike sin om te skryf omdat dit by die kitaar en die drom wel so werk. Die veilige vorm: jy blaas oor die bokant van die pyp, en die lug binne-in die pyp bewe.",
+    "MOENIE 'N RIET BY DIE PANFLUIT OF DIE FLUIT INBRING NIE. Hulle het nie een nie. 'n Riet is 'n derde geval (by 'n klarinet of 'n saxofoon) en die les het dit nie nodig nie.",
+    "MOENIE DIE BEWERING NA 'N HORING, 'N TROMPET OF 'N VUVUZELA UITBREI NIE. Daar bewe die SPELER SE LIPPE, wat weer 'n ander geval is. Hou by die panfluit en die fluit, wat KABV self noem.",
+    "MOENIE DIE LUG WAT BY DIE PYP UITKOM, DIE KLANK NOEM NIE. 'Die lug kom by die ander kant uit en dit is die klank' is verkeerd, en dit is ook les 23 se gebied.",
+    "'VERNAAMSTE' BETEKEN NIE 'ENIGSTE' NIE. KABV se woord is 'vernaamste'. Die les mag NIE se dat al die beweging wat jy insit, klank word nie. Dit mag ook nie 'n lys ander uitsette uitdink om die punt te maak nie - een eerlike sin ('nie alles wat jy insit, kom as klank terug nie') is die hele vereiste. Geen getal, geen persentasie, geen doeltreffendheid; dieselfde reel as les 21.",
+    "DIE RADIO HET OOK 'N DEEL WAT BEWEEG. Die verskil tussen 'n radio en 'n instrument is die INSET, nie die teenwoordigheid van 'n bewegende deel nie. Enige sin van die vorm 'n radio maak klank sonder dat iets beweeg, is vals. Dit is presies die soort valse teenstelling wat 'n leerder twee lyste gee wat verskil waar hulle nie werklik verskil nie.",
+    "MOENIE 'ALLE INSTRUMENTE' SKRYF NIE. KABV skryf self 'baie musiekinstrumente' in twee van sy drie strepies. 'n Elektroniese klawerbord se inset is elektrisiteit en nie beweging nie, dus is 'elke instrument werk met beweging' vals. Skryf 'baie' of 'die meeste'. Die les hoef elektroniese instrumente nie te bespreek nie; dit mag net nie hulle bestaan weerspreek nie.",
+    "DIE RATEL SE BEWEGENDE DEEL IS DIE LOS GOED BINNE-IN, wat teen die wand klop. Moenie se die ratel se dop bewe soos 'n drom se vel nie, en moenie se 'n ratel het geen bewegende deel nie.",
+    "DIE DROM SE BEWEGENDE DEEL IS DIE VEL, nie die drom nie. Die vel is styf gespan. MOENIE by hoe styf uitkom nie: stywer teenoor slapper is toonhoogte en dit is jaarles 24.",
+    "MOENIE SE DAT HARDER KLOP OF HARDER PLUK 'N HARDER KLANK GEE NIE. Dit is volume en dit is jaarles 24. Dit is 'n maklike sin om by die rekkie-waarneming in te laat gly.",
+    "MOENIE VERDUIDELIK WAT DIE KITAAR SE GAT OF DIE UHADI SE KALBAS AAN DIE KLANK DOEN NIE. Dit is versterking van klank en dit staan in geen Graad 4 KABV-strepie nie. Die dele mag by die naam genoem word as dele van die instrument.",
+    "MOENIE SE HOE DIE BEWING 'N KLANK WORD NIE, en moenie se dat die klank uitwaarts van die bewende deel af beweeg nie. Albei is KABV se eie strepies by jaarles 23. Sien 'naat_met_les_23' vir presies wat mag en wat nie.",
+    "ENERGIE IS NIE 'N STOF NIE. Beweging en klank is dinge wat gebeur waar energie werk doen; hulle is nie potjies vol energie nie. KABV se eie woorde 'inset', 'uitset' en 'oorgedra' is reg en bly. 'n VERGELYKING is toegelaat (Drico, 2026-08-26: 'beweeg soos', 'word gebere soos'), maar 'n IDENTITEITSBEWERING nie ('energie IS 'n vloeistof'). As 'n beeld gebruik word, moet die afbeelding deel vir deel klop.",
+    "MOENIE 'KRAG' AS 'N ANDER WOORD VIR ENERGIE GEBRUIK NIE. Hierdie les is die gevaarlikste plek in die kwartaal daarvoor. Sien 'register_instruksies' en kaps/beskermde-woorde.json.",
+    "GEEN SUPERLATIEF. Nie 'die eerste instrument wat mense gemaak het', nie 'die oudste', nie 'die eenvoudigste instrument' nie. Hierdie is die hoogste-risiko kategorie en niks in hierdie les het 'n superlatief nodig nie.",
+    "GEEN NAAM VAN 'N INHEEMSE INSTRUMENT SONDER VERIFIKASIE. Sien 'verifikasie_vereis'. Dit sluit in: geen tweede naam wat die skrywer self byvoeg, en geen volk se naam by 'n instrument sonder dieselfde toets.",
+    "VIBREER SE OMSKRYWING IS DIE VAN LESSE 23 TOT 25, NIE 'N EIE EEN NIE: 'Om baie vinnig heen en weer te beweeg.' Die vorige bewoording hier ('...so vinnig dat jy dit skaars sien') bots met 'n opgetekende reel in die goedgekeurde spesifikasie van 'Energie en klank': sodra 'n klank hoorbaar is, SIEN 'n mens die vibrasie nie meer nie. Hierdie les is die eerste van vier wat die woord gebruik, en al vier moet dieselfde se. Dit staan in kaps/beskermde-woorde.json en nie net hier nie: die outomatiese beskerming in taalnasien.py vind 'n gedeelde omskrywing deur die ANDER lesse te lees, en lesse 23 tot 25 bestaan nog nie, dus sou hierdie een ongedek na die taalnasiener toe gegaan het."
+  ],
+  "fokusvraag_skakel": "Hierdie subonderwerp het een les, dus dra hierdie les die hele vraag - en die vraag is klein genoeg gesny dat 750 woorde dit werklik kan lewer. WAT INGAAN: jou eie beweging, en KABV se drie maniere om dit in te gee (blaas, klop, pluk). WATTER DEEL BEWEEG: die snaar, die vel, die los goed in 'n ratel, en die lug binne-in 'n blaaspyp - en die deel moet vry wees om te beweeg. WAT UITKOM: klank, as die uitset waarvoor die instrument gemaak is, en nie as die enigste ding wat gebeur nie. Die les sluit die drie trappe saam onder KABV se eie woord, 'n stelsel. Wat hierdie les NIE belowe nie: hoe die bewing die klank maak, hoe die klank by 'n oor uitkom, hoe hard of hoe hoog die klank is, en hoe 'n mens 'n instrument bou. Die dekkingsnasiener moet die les teen hierdie sin toets en teen niks wyer nie.",
+  "_spek_vlak_velde": [
+    "assessering",
+    "begroting_basis",
+    "begroting_basis_keuse",
+    "begroting_basis_nota",
+    "beskermde_woorde_voorstel",
+    "buite_bestek",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "gedeelde_omskrywings_met_les_21",
+    "geen_vrae",
+    "goedkeuring",
+    "graad",
+    "herkoms",
+    "kaps_inhoudsopskrifte",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal",
+    "naat_met_les_21",
+    "naat_met_les_23",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "praktiese_werk",
+    "profiel_konfig",
+    "registerbesluit",
+    "skema_weergawe",
+    "skryfnota",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota"
+  ]
+}

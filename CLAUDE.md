@@ -88,6 +88,146 @@ same breath.** The spec records it for our own writer; nothing carries it
 downstream unless it is there. Give the reason, not just the prohibition — a
 checker that understands why holds the line when a sentence reads awkwardly.
 
+## Write the whole year before finishing any of it
+
+**Drico's process, decided 30 August 2026, after a subject was written the other
+way and had to be repaired lesson by lesson.**
+
+1. Agree the whole year's structure first — every lesson, its budget, its
+   register — and do the usual back-and-forth until it is settled.
+2. **Draft every lesson in the subject-year before completing any of them.** Then
+   find the terms that appear in more than one lesson and decide, once, which
+   wording wins.
+3. Only then run the rest of the pipeline — gate, checkers, approval — lesson by
+   lesson.
+
+The point of step 2 is that the drafts *reveal* which terms repeat, rather than a
+planner predicting it, and reconciling them costs nothing while nothing is
+delivered. Do it afterwards and every fix is a correction sheet for the layout
+team.
+
+**Fact-check the shared definitions as part of step 2**, not just reconcile them.
+The improvements that hurt most did not come from writers — they came from fact
+checks, which run *after* drafting. One asked whether crude oil is always thick
+and dark; it is not, and that correction reached a delivered lesson months late.
+
+## Sosiale Wetenskappe: the video was made first
+
+Everywhere else the video is made after the text and follows it. **Grade 4 Sosiale
+Wetenskappe is the other way round** — those videos exist already and will not be
+remade — so for that subject a video script is an extra input, and the rules for it
+are narrow.
+
+The lesson still comes from CAPS. A script is **not** a source for content and not a
+source for structure; letting it be either hands a video maker's coverage decisions
+the job the curriculum has. What it is genuinely worth is that the text uses the same
+word for the same thing, uses the same example, and does not spend budget rebuilding
+something the video already carried. Terminology drift between a video and a text is
+the same failure as drift between two lessons, and worse, because the video cannot be
+fixed.
+
+**A script has been through no fact checker.** Distil it — do not paste it. Whoever
+runs the pipeline reads the script, checks its claims, and writes a `video_naat`
+object into the lesson's spec entry: the words the video used, what it covered, and
+every claim the text must not repeat with the reason it is false. The planner and the
+writer read that object; **the fact checker never does**, for the same reason it never
+reads the spec.
+
+**The video's lesson division wins.** Where a video merges two CAPS bullets into one
+lesson, the text merges them too — the videos were made by a teacher out of how she
+actually teaches the topic, and that is information a bullet list does not carry.
+Coverage does not loosen: every bullet is still covered and every item CAPS names is
+still mandatory. Only the seams move. And a merged lesson gets **one** lesson's budget,
+not two — the measured volume divided by the new, smaller lesson count — so merging
+spends length rather than buying it, and the merged lesson is the tight one.
+
+**Where the video is wrong, route around it** — do not repeat the claim and do not
+correct it either, or a learner who watches and then reads gets two stories. Then say
+so, because what to do about the video is Drico's call, not the text's.
+
+The first one already found two: the Grade 4 transport video says a donkey cannot walk
+far without food and water (a donkey tolerates thirst *better* than a horse and drinks
+about half as much) and that donkeys can be stubborn (a myth — it is a self-preservation
+instinct in a prey animal).
+
+## A term is defined once for the whole subject
+
+Two lessons that define the same word differently teach two different things, and
+nothing in the per-lesson pipeline can see it: the gate reads one lesson, and the
+coverage checker reads one lesson against one spec entry. Drift only exists
+between files.
+
+**One agreed wording per term, in one file per subject-grade under `kaps/`**, for
+the whole subject rather than per specification — some terms cross sub-topics, and
+a field in one spec cannot state a rule about the subject. `hardloop.py` injects
+the right file into every spec extract, so a writer and a coverage checker always
+read the current list without anyone copying it anywhere.
+
+The file is found by its own `vak` and `graad`, not by its name: Natuurwetenskappe
+wrote `gedeelde-omskrywings.json` before there was a second subject, and Sosiale
+Wetenskappe writes `gedeelde-omskrywings-sosiale-wetenskappe-gr4.json`. **A new
+subject needs its own file before its first lesson is drafted** — with an empty
+`terme`, which is honest — or the sweep will report that it loaded no decision
+list at all, which is the answer you want rather than a quiet clean bill.
+
+```bash
+python bin/woordelysdrif.py --vak "<subject>" --graad 4
+```
+
+Run it before saying a subject is consistent, and **quote the lesson count it
+prints** — a sweep that read three files looks exactly like a sweep that found
+nothing. It also reports a term whose wording is still *undecided*, because
+lessons that happen to agree on a rejected wording look exactly like lessons that
+are right, and it names the decision list it loaded, because loading none at all
+prints the same as agreeing with everything.
+
+That count was wrong until 31 August 2026: a spec extract is named `spek/les-3.json`,
+the same name as the draft, so the sweep counted both and reported exactly double.
+The comparison was never affected — an extract holds no glossary — but the number
+is the whole point of printing it.
+
+**Two rulings, both Drico's:**
+
+* **Examples after `soos` may differ per lesson.** What must be identical is the
+  sentence itself. Lesson 9 gives wood, water and air because it teaches the three
+  states; lesson 14 gives paper, wood and clay because it folds paper. Both are
+  right.
+* **A definition may not get richer as the year goes on.** The end-year exam
+  covers everything, and a learner looking a word up in two lessons must get one
+  answer. Always choose the best wording, not the newest.
+
+When a wording changes, fix it in that subject's agreed-wordings file, refresh the
+extracts, and route every lesson through the writer. A third wording makes it
+worse than leaving it alone.
+
+```bash
+python bin/vernuwe-uittreksels.py
+```
+
+**Run that after editing any spec and before briefing any agent.** The extract an
+agent reads is rewritten only by a runner call, so an edit made and briefed a
+minute later hands the agent the old copy — it will then report, correctly, that
+your fix is not there.
+
+## The language checker edits after the fact checker, and nothing re-checks it
+
+This is a real hole, not a caution. The order is: fact check, then the outside
+language check, then HTML. A language "improvement" that changes a claim is seen
+by nobody.
+
+```bash
+python bin/htmlnasien.py --html "<folder of built lessons>"
+```
+
+Run it over built lessons to compare them against the repository and the agreed
+wordings. It reports three things: shared definitions that do not match,
+definitions the language checker changed on its own, and protected words it
+reverted. **Check the protected-word hits by hand** — `krag` is right when it
+means force, and `lug` is right when it means air.
+
+Where the checker's version is better and the term is not shared, **the
+repository adopts it**, not the other way round.
+
 ## Where the rest lives
 
 | | |

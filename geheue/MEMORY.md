@@ -38,3 +38,15 @@
 - [Auto sign-off is the last step](outo-goedkeuring-is-die-laaste-stap.md) — sign a cleared lesson off in the same breath as the run that cleared it; escalations still stop.
 - [Checkers pull opposite ways on caveats](nasieners-trek-teenoorgesteld-oor-voorbehoude.md) — the fact checker demands a qualifier, coverage flags it as unrequested; keep it, and don't send it back.
 - [Term 4 budgets come from requirements](kw4-begroting-uit-vereistes.md) — the book's Term 4 could not be bounded, so ~430 a lesson from the year's own per-lesson volume; the 11 568-word profile was rejected.
+- [Untouchable words for the language checker](onaantasbare-woorde-vir-die-taalnasiener.md) - the Afrikaans check happens outside this pipeline; a ruling not written into the protected-words file gets quietly undone.
+- [A clean check is only as wide as its scope](n-skoon-toets-is-so-wyd-soos-sy-omvang.md) — I called drift zero across the subject after comparing one pair; a real sweep found eight drifted terms.
+- [The extract lost its own cross-references](die-uittreksel-het-sy-eie-kruisverwysings-verloor.md) — 39 spec-level fields never reached the writer; suspect the harness when two agents report the same absence.
+- [Don't run the runner over a working writer](moenie-die-hardloper-oor-n-werkende-skrywer-laat-loop-nie.md) — it gated a draft mid-revision; archived reports are recoverable from the log tree.
+- [The textbook comes through the search results too](die-handboek-kom-ook-deur-die-soekresultate.md) — the fact checker declined a Grade 4 PDF on its own; nothing had told it to, and now the prompt does.
+- [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — three of four fixed over-claims stopped being claims; narrow the quantifier, never the subject.
+- [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went over unprotected.
+- [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — two unchecked measurements and one false claim in one day; a spec is read as settled.
+- [A claim about Afrikaans usage is not a requirement](n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie.md) — a whole block rested on "sit dit hoër"; Afrikaans says "harder", and the English problem had been imported.
+- [My searches miss, and then I believe them](my-soektogte-mis-en-dan-glo-ek-hulle.md) — three empty results reported as findings in one day; the third nearly became a false accusation.
+- [The video's lesson division wins](video-se-lesverdeling-wen.md) — where a video came first and merged two CAPS bullets, the text merges too; a merged lesson gets one lesson's budget, not two.
+- [A spec says the same thing in two fields](n-spek-se-dieselfde-ding-in-twee-velde.md) — a source fix must sweep every field that repeats the claim, not just the one the finding named.

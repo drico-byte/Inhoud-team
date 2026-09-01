@@ -1,0 +1,244 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 4,
+  "kwartaal": 3,
+  "kaps_onderwerp": "Energie en Verandering",
+  "kaps_onderwerp_nota": "KABV se Graad 4 Kwartaal 3 kennisafdeling dra twee opskrifte bo dieselfde tabel: 'NATUURWETENSKAPPE: ENERGIE EN VERANDERING' en 'TEGNOLOGIE: STELSELS EN BEHEER'. Hierdie subonderwerp le oor albei: die helfte oor energie om ons en gestoorde bronne is natuurwetenskap, en die helfte oor inset en uitset van masjiene is stelsels-en-beheer. Die etiket hierbo is die een wat die taak en die profiler se konfig gebruik, en niks in hierdie spesifikasie word daaruit afgelei nie.",
+  "kaps_subonderwerp": "Energie om ons",
+  "kaps_inhoudsopskrifte": [
+    "Energie",
+    "Inset en uitset van energie"
+  ],
+  "kaps_ure": 8.75,
+  "kaps_ure_nota": "KABV se eie inskrywing by hierdie ry is '2 1/2 weke (8 3/4 uur)'. Die beplanningstaak het '2 weke (8 uur)' gese; die KABV-dokument self (Natuurwetenskappe en Tegnologie Graad 4-6, bladsy 23 van die dokument) se 2 1/2 weke en 8 3/4 uur. Die getal hierbo is die dokument se getal. Dit maak geen verskil aan enigiets in hierdie spesifikasie nie, want kontakure kom in geen berekening voor nie: hulle se hoe lank 'n onderwyser aan 'n onderwerp bestee, nie hoeveel 'n leerder lees nie. Slegs herkoms.",
+  "fokusvraag": "Waar kom die energie vandaan wat ons masjiene en toestelle laat werk, en wat kry ons daaruit?",
+  "fokusvraag_nota": "Deur die beplanner gestel. KABV Natuurwetenskappe en Tegnologie stel nie fokusvrae soos Sosiale Wetenskappe nie. Die vraag is uit KABV se eie twee inhoudsopskrifte gebou en dit is doelbewus in twee helftes gesny wat by die twee lesse pas: 'waar kom die energie vandaan' is les 20 (energie om ons, bronne wat energie stoor, oordrag na waar dit nodig is) en 'wat kry ons daaruit' is les 21 (inset en uitset). Die vraag vra niks oor ontwerp of maak nie, want daardie werk val buite hierdie teks.",
+  "profiel_konfig": "gr4-nwt-kw3-profiel.json",
+  "onderwerp_woorde": 1148,
+  "onderwerp_woorde_nota": "Gemeet, nie geskat nie: 5 bladsye, 1148 woorde, 230 woorde per bladsy. Dit loop bo die bron se mediaan van 215,5 woorde per bladsy. Die bladsye is met die hand afgebaken (--dpi 300) omdat die handboek se Kwartaal 3 in 'n ander orde as KABV loop. Die gemete bladsye dek windenergie en masjiene wat bewegende lug gebruik. Dit dien die inset-en-uitset-helfte; die gestoorde-bronne-helfte (voedsel, hout, steenkool, olieprodukte, natuurlike gas) kom nie in die bron voor nie. Sien 'begrotingsoordeel'.",
+  "totale_begroting": 1148,
+  "begroting_basis": "gemete_volume",
+  "begroting_basis_nota": "1148 gemete woorde gelyk oor twee lesse: 574 elk (round(1148/2) = 574), totaal 1148. Die verdeling en die basis is deur Drico op 2026-08-25 besluit VOOR beplanning, en die rede staan in kaps/gr4-nwt-kw3.json onder 'begroting_besluite'. Die verdeling is gelyk omdat dit is wat die deling van een meting oplewer; geen les word swaarder gemaak omdat sy inhoud belangriker lyk nie.",
+  "begrotingsoordeel": {
+    "vraag": "Die meting dek die inset-en-uitset-helfte en NIE die gestoorde-bronne-helfte nie. Dra 574 woorde les 20 se tweede inhoudspunt (voedsel, hout, steenkool, olieprodukte, natuurlike gas) sonder dat die meting dit steun?",
+    "antwoord": "Ja, dit dra, en die getal word nie verander nie. Die rekenkunde staan hier sodat 'n mens dit kan nagaan in plaas van om dit te glo. Les 20 dra sewe kern-inskrywings teen 574 woorde, ongeveer 82 woorde elk. Dit is dieselfde digtheid as 'Versterking van materiaal' les 1, wat sewe inskrywings teen 504 woorde gedra het en die hek sonder waarskuwing geslaag het. Die vyf bronne is die plek waar dit sou breek, en dit breek nie, op een voorwaarde: hulle word as EEN groep met een meganisme onderrig (hout, steenkool, olieprodukte en gas brand; voedsel word deur 'n lewende ding gebruik) plus 'n kompakte lys, en NIE as vyf aparte behandelings van drie sinne elk nie. Vyf aparte behandelings sou ongeveer 220 woorde vra en dan het die inhoudspunt oor oordrag niks oor nie. Die groepbehandeling vra ongeveer 110 en die naam van elke bron staan nog daar. Die volle toedeling per blok staan by elke les onder 'toedeling', en dit tel presies tot 574.",
+    "wat_ek_NIE_gedoen_het_nie": "Ek het die getal nie stilweg groter gemaak om die leemte in die meting te vergoed nie. As my oordeel andersom was, sou hierdie veld dit gese het en die saak sou na Drico gegaan het.",
+    "waar_die_leemte_wel_bepalend_is": "Nie in die getal nie, maar in die inhoud. Die bron se bladsye handel oor wind en bewegende lug, en wind is NIE Graad 4 KABV-inhoud nie (sien kaps/gr4-nwt-kw3.json se 'kartering_nota'). Die enigste ding wat uit daardie bladsye kom, is die getal 1148. Wind, windenergie en windmeulens staan uitdruklik in 'buite_bestek'."
+  },
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument (Natuurwetenskappe en Tegnologie Graad 4-6, Graad 4 Termyn 3 inhoudstabel: die subonderwerp 'Energie om ons' met sy twee inhoudsopskrifte en vyf strepies, die voetnoot by 'olie produkte', die voorgestelde aktiwiteite, die gereedskaplys, die voorafgaande subonderwerp 'Energie en Energie-oordrag', die daaropvolgende subonderwerpe 'Beweging en Energie in 'n stelsel' en 'Energie en klank', en die kwartaal se assesseringsriglyne), die profiler se getalle uit gr4-nwt-kw3-profiel.json, Drico se begrotingsbesluite in kaps/gr4-nwt-kw3.json, sy lesindeks in kaps/lesindeks, en twee reeds goedgekeurde spesifikasies (Vaste stowwe en Versterking van materiaal) waarteen hierdie een nie mag bots nie.",
+    "bronne_nota": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset of beskrywing van 'n handboek se indeling het enige deel van hierdie beplanning ingelig. Die repository bevat die handboek self onder bronne/ en teksuittreksels elders; niks daarvan is oopgemaak nie en die skrywer mag dit ook nie oopmaak nie. Die enigste ding wat uit daardie boek na hierdie spesifikasie toe kom, is die getal 1148 en die bladsytelling waaruit dit kom."
+  },
+  "verdeling_nota": "Twee lesse, en die getal is deur 'n mens besluit en aan die beplanner gegee. Dit is nie 'n beplannerskeur nie: KABV se subonderwerp dra TWEE inhoudsopskrifte, 'Energie' (drie strepies) en 'Inset en uitset van energie' (twee strepies), en die twee lesse val presies op daardie naat. Die skeurreel (vier of meer genoemde items) is nie ter sprake nie. Die naat is ook die een wat die assessering vra: die kwartaal se assesseringsriglyn wat hierdie subonderwerp raak, 'verduidelik die inset en uitset van energie in verskeie masjiene en toestelle', val heeltemal binne les 21, wat beteken les 21 hoef nie sy woorde met die bronne-inhoud te deel nie.",
+  "besluite": [
+    "BESLUIT: sewe toestelle, nie agt nie, en die drom is die een wat uitbly. Sien die spesifikasie se 'besluite' vir die volle rede.",
+    "BESLUIT: die twee toestelle wat 'n voller behandeling kry, is die strykyster en die fiets, en die keuse is nie willekeurig nie. Die een prop in en die ander een nie, dus wys die paar die punt wat 'n leerder die maklikste mis: 'n inset is nie altyd elektrisiteit nie. AL SEWE toestelle staan in die kompakte lys met hulle inset en uitset genoem - ook die strykyster en die fiets, wat dus twee keer voorkom: een reel in die lys, en die meganisme in die blok daarna. (Hierdie reel het voorheen 'die ander vyf' gese, wat lees asof die twee uit die lys bly. Die kern-inskrywing eis sewe reels en die assessering vra elke toestel se inset en uitset, dus sou 'n latere hersiening wat hierdie reel volg twee toestelle uitstroop en die assessering stilweg breek.), wat is wat die assessering vra.",
+    "BESLUIT: hierdie les noem die vier dinge uit les 20 (beweging, hitte, lig, klank) weer, as die vorms wat 'n uitset aanneem. Dit is nie herhaling nie, dit is die naat tussen die twee lesse, en dit is die een plek waar 'n leerder wat les 20 gelees het, iets terugkry."
+  ],
+  "buite_bestek": [
+    "WIND, WINDENERGIE EN WINDMEULENS. Die gemete bladsye handel hieroor en dit is die een plek waar die bron se indeling in hierdie lesse kon insypel. Wind is nie Graad 4 KABV-inhoud nie: die woord kom drie keer in die hele Graad 4-6 KABV-dokument voor en nooit as Graad 4-inhoud nie. Les 21 mag se dat 'n waaier se uitset bewegende lug is, want die waaier staan in KABV se eie lys. Dit mag nie wind verduidelik nie, nie se waar wind vandaan kom nie, en geen windmeul of windturbine noem nie.",
+    "HOE STEENKOOL, RU-OLIE EN NATUURLIKE GAS ONTSTAAN HET. Nie in KABV Graad 4 nie, en die goedgekeurde spesifikasie vir 'Vaste stowwe' (jaarles 12) het dit reeds uitdruklik buite bestek gestel, met die rede dat dit 'n tydskaal vra wat 'n Graad 4-les nie kan dra nie. Les 20 se WAAR hulle vandaan kom (uit die grond, uit die see se bodem) en niks oor hoe hulle gevorm het. Sien ook les 20 se 'feiterisiko' oor die Son.",
+    "DIE ENERGIE-/VOEDSELKETTING MET PYLE EN RIGTING. Dit is jaarles 19 ('Energie van die Son') se inhoud en die kwartaal se eerste assesseringsriglyn. Les 20 mag EEN sin se dat die energie in kos en in hout van die Son kom; dit mag geen ketting teken, geen pyle gebruik en geen volgorde Son-plant-dier onderrig nie.",
+    "HOE ONS ENERGIE UIT KOS KRY, EN SPYSVERTERING. Dit is jaarles 18 ('Energie vir lewe') se inhoud.",
+    "MUSIEKINSTRUMENTE AS STELSELS, INSLUITEND DIE DROM. Jaarles 22. Sien 'besluite'.",
+    "VIBRASIES, HOE KLANK BEWEEG, TOONHOOGTE, VOLUME EN GERAASBESOEDELING. Jaarlesse 23 tot 25. Les 20 mag se dat klank een van die dinge is waaraan 'n mens energie herken, en dat dit van iets kom wat bewe. Dit mag nie se hoe klank deur lug of ander materiaal beweeg nie.",
+    "DOELTREFFENDHEID AS 'N ONDERWERP, EN ENIGE PERSENTASIE OF GETAL OOR HOEVEEL ENERGIE IETS GEBRUIK OF LEWER. Les 21 moet se dat die inset en die nuttige uitset nie ewe veel is nie, want KABV se eie woord is 'nuttig'. Dit mag nie doeltreffendheid onderrig, meet of benoem nie.",
+    "HERNUBARE EN NIE-HERNUBARE BRONNE, ENERGIEBESPARING, BESOEDELING EN BEURTKRAG. Nie een staan in hierdie subonderwerp se strepies nie, en al vier is groot genoeg om die begroting op te eet.",
+    "ELEKTRIESE VEILIGHEID AS 'N ONDERWERP. Een waarskuwing binne 'n waarneming is wel nodig en verpligtend (moenie 'n warm gloeilamp of 'n warm strykyster aanraak nie), maar veiligheid is nie 'n afdeling van hierdie lesse nie.",
+    "ONTWERP EN MAAK. KABV se voorgestelde aktiwiteite hier is 'gebruik prente' en 'beskryf', nie maak nie, dus is daar niks om uit te sluit behalwe die algemene reel: die denke wat 'n maaktaak toets is ons werk, die maak is nie.",
+    "Die dekkingsnasiener moet niks hiervan as ontbrekend aanteken nie."
+  ],
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "pct_woorde_oor_10_letters_gids": 3.0,
+      "woorde_per_sin": "11,0 tot 14,5",
+      "kommas_per_sin_maks": 0.35
+    },
+    "bron_steekproef_kwartaal_3": {
+      "woorde_gemeet": 6778,
+      "sillabes_per_woord": 1.5,
+      "pct_3plus_sillabes": 11.0,
+      "pct_woorde_oor_10_letters": 4.5,
+      "nota": "Die profiler se steekproef oor die hele geleesde bladsyreeks van Kwartaal 3, nie 'n meting van hierdie subonderwerp se eie bladsye nie. Anders as Kwartaal 2 loop hierdie kwartaal se bron BINNE die band op sillabes en op lang woorde per sillabe-maatstaf; net die lang-woord-gids (4,5% teen 'n gids van 3,0%) loop bo."
+    },
+    "bevinding": "Die gevaar hier is nie die bron nie, dit is ons eie kernwoord. 'Energie' is drie sillabes en dit is die woord waaroor die hele subonderwerp gaan, dus staan dit onvermydelik baie kere in 574 woorde. Daarby: elektrisiteit (13 letters, 5 sillabes), olieprodukte (12 letters, 4 sillabes), vliegtuigbrandstof (18 letters), natuurlike (10 letters, 4 sillabes), masjiene (3 sillabes), toestelle (3 sillabes), beweging (3 sillabes), gestoorde (3 sillabes), oorgedra (3 sillabes). Die 13%-perk op drie-plus-sillabewoorde is ongeveer 75 voorkomste in 574 woorde; 'energie' alleen kan 20 tot 25 daarvan wees. Die res van die sin moet dus kort wees, en 'energie' mag nie in samestellings groei nie.",
+    "besluit": "Die terme word gedra, met woordelys-steun buite die begroting, en die lopende sinne gebruik die kort weergawe of die konkrete ding.",
+    "register_instruksies": [
+      "Skryf 'energie', want dit is KABV se woord en daar is geen plaasvervanger nie. Maar bou GEEN samestelling daarmee nie: skryf 'bron', nie 'energiebron'; 'inset', nie 'energie-inset'; 'die energie wat ingaan', nie 'insetenergie'. Elke samestelling is 'n langer woord EN 'n nuwe term.",
+      "Skryf die konkrete ding waar dit die konkrete ding is: hitte, lig, klank, beweging, kos, hout, 'n battery, 'n prop. Skryf 'energie' waar die idee energie is. Twee 'energie' in een sin is een te veel.",
+      "'Elektrisiteit' hoogstens twee keer per les, met 'n begrip-inskrywing. Elders die konkrete ding: die prop in die muur, die draad, die battery.",
+      "MOENIE 'krag' as 'n ander woord vir energie of vir elektrisiteit gebruik nie. In die wetenskap beteken 'krag' 'n stoot of trek, en die leerder kry daardie betekenis later; twee betekenisse vir een woord in dieselfde vak is 'n gereserveerde-woord-probleem, nie 'n taalsmaak nie. Dit sluit 'kragstasie' NIE uit nie: dit is die eienaam van die plek en 'n mens ken nie 'n ander een nie.",
+      "MOENIE 'vliegtuigbrandstof' skryf nie (18 letters). Skryf 'die brandstof wat vliegtuie gebruik'. Dieselfde inhoud, geen lang woord, en dit verg geen begrip-inskrywing nie.",
+      "Skryf 'ru-olie', nooit 'olie' alleen, waar die stof uit die grond bedoel word. Sonneblomolie, olyfolie en enjinolie is almal olie. Hierdie reel kom uit die goedgekeurde spesifikasie van jaarles 12 en die twee lesse moet ooreenstem.",
+      "Skryf 'masjiene en toestelle'. 'Toerusting' een keer, as KABV se ander woord.",
+      "Skryf 'kos' in lopende sinne en 'voedsel' waar KABV se lys aangehaal word.",
+      "Skryf 'warm word' en 'warm', nie 'verhit' nie. Skryf 'brand', nie 'verbrand' of 'verbranding' nie.",
+      "Skryf 'wat ingaan' en 'wat uitkom' langs 'inset' en 'uitset', ten minste die eerste keer. Die twee terme is KABV se woorde en hulle bly, maar hulle is albei net vier en vyf letters lank en niks help 'n leerder soos die gewone woorde langs hulle."
+    ]
+  },
+  "gedeelde_omskrywings": {
+    "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+    "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+    "nota": "ALBEI IS NA DIE LESNASIEN REGGEMAAK, en albei was hier verkeerd terwyl die lesse reg was. 'energie' het hier 'n eie bewoording gedra wat van les 18 s'n verskil - en les 18 se weergawe is die een wat drie lesse reeds gebruik en wat lesse 21 tot 25 gaan erf, dus was hierdie inskrywing die een wat sou dryf. 'elektrisiteit' het dit 'n SOORT energie gemaak ('energie wat deur drade gedra word'), wat die fout is wat les 20 gehad het en wat op drie ander plekke in hierdie dokument al reggemaak is. Hierdie was die vyfde plek en dit is gemis omdat die term die SLEUTEL is en nie in die teks staan nie - 'n soektog deur die waardes vind dit nooit."
+  },
+  "gedeelde_omskrywings_nota": "Albei lesse gebruik albei woorde en albei moet hulle omskryf, want elke les moet alleen kan staan as hersieningsinstrument. Hulle mag dit egter nie VERSKILLEND omskryf nie. Let op wat die omskrywing van 'energie' NIE se nie: dit se nie energie is 'n ding, 'n stof of 'n hoeveelheid iets nie. Dit is doelbewus. Sien 'gedeelde_feiterisikos'.",
+  "gedeelde_feiterisikos": [
+    "GELD VIR ALBEI LESSE, EN DIT IS DIE BELANGRIKSTE INSKRYWING IN HIERDIE SPESIFIKASIE. Energie is nie 'n STOF nie. Beweging, hitte, lig en klank is dinge wat gebeur waar energie werk doen; hulle is nie potjies vol energie nie. Wat WEL mag: KABV se eie woorde 'gestoor' en 'oorgedra' is reg en bly. Wat NIE mag nie: enige vergelyking of beeld wat energie of hitte 'n vloeistof, 'n gas, 'n bal, 'n poeier, 'n stapel goed of iets wat 'n mens kan intap, uitgooi, opskep of aangee maak. Hierdie projek het al 'n hele blok gesny omdat twee verskillende analogiee vir hitte by presies hierdie naat gebreek het. Skryf eerder wat 'n mens sien: die pot word warm, die lamp skyn, die wiel draai.\n\nOPGEDATEER NA DRICO SE UITSPRAAK: DRICO SE UITSPRAAK (2026-08-26): energie MAG as iets wat beweeg en gebere word, geskets word. Dit is hoe 'n negejarige die idee vasvat, en dit maak die boekhou reg uit, want energie is werklik behoue. Die grens is die IDENTITEITSGRENS: 'beweeg soos', 'vloei soos', 'word gebere soos' is toegelaat; 'energie IS 'n vloeistof' of 'hitte IS 'n vloeistof' is verbode. 'n Beeld hoef nie as 'n uitsondering geregverdig te word nie. MAAR die afbeelding moet steeds bewering vir bewering nagegaan word: die bal-analogie wat vroeer in hierdie projek gebreek het, het gebreek omdat dit die kouer ding met NIKS laat begin het, en dit is 'n afbeeldingsfout wat die uitspraak nie regmaak nie. Die eerste helfte van hierdie inskrywing bly onveranderd en bly die belangrikste ding in hierdie spesifikasie: energie is nie 'n stof nie, en beweging, hitte, lig en klank is nie potjies vol energie nie. Wat verander het, is dat 'n VERGELYKING nie meer verbode is nie - net die identiteitsbewering.",
+    "GELD VIR ALBEI LESSE. Niks MAAK energie nie. Nie 'n kragstasie nie, nie 'n masjien nie, nie 'n battery nie, nie die Son nie in die sin wat hierdie lesse nodig het. Hulle stoor dit, dra dit oor, of verander dit van een soort na 'n ander. 'Die kragstasie maak elektrisiteit' is aanvaarbaar, want dit is wat die plek doen en dit is hoe 'n mens praat. 'Die kragstasie maak energie' is nie.",
+    "GELD VIR ALBEI LESSE. Energie raak nie weg nie. 'n Bron kan LEEG raak (die battery is pap, die hout is uitgebrand) en dit is reg om so te se. Moenie skryf dat energie verdwyn, verlore raak, vernietig word of doodloop nie. Waar 'n les moet se dat energie iewers heen is waar ons dit nie nodig het nie, skryf dat dit MEESTAL as hitte weggegaan het - 'meestal', nie 'net' nie, want 'n haardroer se geraas is klank en nie hitte nie, en hierdie spesifikasie noem daardie geraas self.",
+    "GELD VIR ALBEI LESSE. Geen getalle en geen persentasies oor hoeveel energie iets gebruik, stoor of lewer nie. Enige getal wat hier geskryf word, hang af van die spesifieke masjien, en dit sal 'n raaiskoot wees.",
+    "GELD VIR ALBEI LESSE. Skryf 'ru-olie' vir die stof uit die grond, en moenie 'diep in die grond' by STEENKOOL skryf nie. Ru-olie word diep opgepomp; Suid-Afrikaanse steenkool le dikwels vlak en ongeveer die helfte kom uit groot oop groewe. Die goedgekeurde spesifikasie van jaarles 12 dra hierdie regstelling reeds en die twee mag nie bots nie.",
+    "GELD VIR ALBEI LESSE, WAAR 'N LEERDER GEVRA WORD OM IETS TE SIEN OF TE VOEL. Drie eise, en hulle geld elke waarneming in hierdie twee lesse. (1) Een kind moet dit met twee hande kan doen, sonder hulp, sonder 'n tweede persoon en sonder iets wat nie in 'n gewone huis is nie. (2) Die teks moet se wat DIESELFDE bly. 'n Waarneming waar meer as een ding verander, wys niks. (3) As die vergelyking van GROOTTE of HOEVEELHEID afhang, moet dit in DIESELFDE SIN staan as die vergelyking self, nie 'n sin vroeer nie. Hierdie projek se foute konsentreer in demonstrasies; die twee waarnemings in hierdie subonderwerp is doelbewus die eenvoudigste wat die inhoud toelaat.",
+    "GELD VIR ALBEI LESSE. Geen vrae nie. Geen blok van die tipe 'vraag', en geen vraagteken wat 'n leerder iets vra nie. Waar 'n bewys nodig is, staan die bewys in die studieteks as iets wat 'n mens sien, voel of hoor."
+  ],
+  "skryfnota": "Vier dinge kan hierdie twee lesse laat misluk, en al vier word vooraf hanteer. Die eerste is die woord 'energie' wat 'n stof word: elke keer as 'n sin klink of energie ingetap, uitgegooi of aangegee word soos water, is dit die fout. Skryf wat 'n mens sien. Die tweede is die versoeking om les 21 se inset en uitset ewe veel te maak: 'n gloeilamp gee lig, maar die meeste van wat ingaan kom as hitte uit, en 'n haardroer se geraas is nie hoekom 'n mens hom koop nie. Die derde is die grens met die bure: les 19 se ketting, les 22 se drom en les 23 se vibrasies is nie hierdie lesse se werk nie, en elkeen is een sin ver. Die vierde is die bron se wind: dit staan in die meting en dit staan nie in KABV nie, dus staan dit nie in die lesse nie. Wat oorbly is konkrete werk: hout wat brand, 'n battery in 'n flitslig, 'n strykyster wat warm word, 'n fiets wat ry.",
+  "goedkeuring": "Nog geen. Hierdie is 'n konsep. 'n Mens lees dit en skuif dit na spesifikasies/goedgekeur; die beplanner keur nie sy eie werk goed nie.",
+  "vak_gedeelde_omskrywings": {
+    "nota": "Een bewoording per term, vir die hele vak. BESLIS DEUR DRICO op 28 Augustus 2026: 'woorde wat in meer as een woordelys verskyn, moet identies wees.' Identies beteken identies - die voorbeelde na 'soos' inkluis, en 'n omskrywing mag ook nie ryker word soos die jaar vorder nie. 'n Leerder slaan 'n woord agter in een les na en dan agter in 'n ander; sy moet dieselfde sin kry. VERFYNING, 28 Augustus 2026: Drico het beslis dat VOORBEELDE NA 'soos' WEL PER LES MAG VERSKIL. Wat identies moet wees, is die sin self - die romp. 'materiaal' is dus nie meer drif nie: lesse 9 en 14 deel die romp en elkeen se voorbeelde is sy eie les se materiaal. Net 'n ANDER ROMP is drif.",
+    "terme": {
+      "asemhaling": "Om suurstof uit die lug te gebruik om energie uit jou kos te kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "geraamte": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou.",
+      "habitat": "Die plek waar 'n plant of 'n dier lewe.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "kondenseer": "Wanneer 'n gas afkoel en weer in 'n vloeistof verander.",
+      "lewensprosesse": "Die sewe dinge wat saam wys dat iets lewe.",
+      "materiaal": "Die goed waarvan iets gemaak is",
+      "onverwerkte materiaal": "Materiaal wat mense net so in die natuur kry.",
+      "raamstruktuur": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "ru-olie": "Meestal 'n dik donker vloeistof wat onder die grond opgepomp word.",
+      "smelt": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "struktuur": "Iets wat gebou of gevorm is, sy vorm hou en gewig dra of iets beskerm.",
+      "stut": "'n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
+      "trommelvlies": "'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+      "verdamp": "Wanneer 'n vloeistof in 'n gas verander. Dit gebeur vinniger wanneer die vloeistof warmer is.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "vries": "Wanneer 'n vloeistof afkoel en in 'n vaste stof verander.",
+      "waterdamp": "Water in die vorm van 'n gas wat niemand kan sien nie."
+    }
+  },
+  "nommer": 2,
+  "jaarnommer": 21,
+  "jaarnommer_nota": "Drico se lesnommer vir die jaar, uit kaps/lesindeks. Sy KABV-etiket is 'Inset en uitset van energie'. Die etiket is die leernaam se KABV-indeks en dit is NIE die les se titel nie.",
+  "titel": "Wat gaan in, en wat kom uit",
+  "titel_nota": "Werktitel, en die skrywer mag hom verbeter. Hy is die leerder se hero-opskrif, nie die KABV-etiket nie. Hy se die les se hele idee in sewe kort woorde en hy gebruik nie een van die twee terme wat die les moet leer, wat beteken 'n leerder verstaan die opskrif voor hy die les gelees het.",
+  "kaps_punt": "masjiene en toerusting benodig energie insette om hulle te laat werk",
+  "kaps_punte": [
+    "masjiene en toerusting benodig energie insette om hulle te laat werk",
+    "masjiene en toerusting verskaf energie uitsette (werk) wat vir ons nuttig is"
+  ],
+  "kaps_punt_nota": "KABV se inhoudsopskrif 'Inset en uitset van energie' dra albei strepies hierbo en albei is hierdie les se werk. Die voorgestelde aktiwiteit daarby is 'beskryf die inset en uitset van energie van 'n seleksie masjiene en toestelle soos 'n ketel, stoof, flitslig, radio, strykyster, waaier/haardroer, 'n motor/fiets, drom'. Die kwartaal se assesseringsriglyn wat hierdie subonderwerp raak, 'verduidelik die inset en uitset van energie in verskeie masjiene en toestelle', val heeltemal binne hierdie les. Die woord 'seleksie' en die woord 'soos' maak die lys 'n voorbeeldlys en nie 'n verpligte lys nie; die assessering se woord is 'verskeie'. Hierdie les dek sewe van die agt. Die drom gaan na jaarles 22; sien die spesifikasie se 'besluite'.",
+  "begroting": 574,
+  "begrotingsnota": "574 woorde: 1148 gemete woorde gedeel deur twee lesse. Ses kern-inskrywings teen ongeveer 96 woorde elk. Hierdie les is die een wat die meting werklik dek (die gemete bladsye handel oor masjiene wat bewegende lug gebruik), en dit is ook die een wat die kwartaal se assesseringsriglyn dra, dus is 574 hier ruim eerder as knap. Die risiko is oormaat: die versoeking is om al agt toestelle volledig uit te werk, of om by die waaier oor wind te begin praat. Die ruimte is daarom vooraf toegeken; sien 'toedeling'.",
+  "toedeling": {
+    "nota": "Rigtinggewend vir die skrywer, nie 'n gemete begroting nie. Die hek meet net die les se totaal teen 574 woorde (488 tot 660). Die getalle tel tot 574.",
+    "wat_n_inset_is": 90,
+    "wat_n_uitset_is": 90,
+    "die_flitslig_wys_albei": 85,
+    "die_lys_van_toestelle": 95,
+    "twee_naderby_die_strykyster_en_die_fiets": 105,
+    "nie_alles_wat_ingaan_kom_uit_as_die_deel_wat_ons_wil_he": 109
+  },
+  "kern": [
+    "WAT 'N INSET IS. 'n Masjien of toestel doen niks uit sy eie nie. Energie moet eers ingaan, en dit is die inset. Skryf 'inset' met 'wat ingaan' langs dit, ten minste die eerste keer. Noem maniere waarop die energie by 'n toestel kan kom - 'maniere', nie 'die vier maniere' nie: 'n sonwaterverwarmer is 'n gewone Suid-Afrikaanse huishoudelike toestel met nie een van hulle nie, elk met een voorbeeld: deur die prop in die muur, uit 'n battery, uit brandstof, of uit 'n mens wat stoot, draai of blaas. KABV se strepie se 'masjiene en toerusting'; noem 'toerusting' hier een keer as KABV se ander woord en gebruik daarna 'masjiene en toestelle'.",
+    "WAT 'N UITSET IS. 'n Uitset is AL DIE ENERGIE wat by die masjien uitkom - gewens of nie. Die woord 'energie' mag nie wegval nie: sonder dit tel die rook uit 'n motor en die kos uit 'n stoof ook as uitsette, en dit pas ook nie by 'inset', wat wel 'die energie wat ingaan' se. KABV se eie frase is 'energie uitsette'. Die NUTTIGE uitset is die deel wat ons wou he: die werk. Hou die twee uitmekaar, want die eng weergawe ('n uitset is wat uitkom EN wat ons wil he) breek hierdie les se eie punt dat 'n haardroer se geraas die deel is wat niemand wil he nie - onder daardie omskrywing is die geraas glad nie 'n uitset nie. KABV se frase 'energie uitsette (werk) wat vir ons nuttig is' benoem die NUTTIGE uitset, nie uitset in die algemeen nie. Dit is KABV se eie woorde, 'energie uitsette (werk) wat vir ons nuttig is', en die woord 'nuttig' is die belangrike een, want hy se dat 'n mens 'n masjien vir EEN ding kies. Wys dat elkeen van HIERDIE toestelle se uitset EEN OF MEER van dieselfde vier dinge uit les 20 is - nie 'een van' nie. Die haardroer gee twee (warm lug en bewegende lug) en die gloeilamp gee lig en hitte, en hierdie les se dit self. 'Een van' laat die les homself 'n paar blokke later weerspreek (gebonde aan hierdie sewe, nie as 'n algemene reel nie - 'n batterylaaier se uitset is nie een van die vier nie): beweging, hitte, lig of klank. Dit is die skakel wat die twee lesse een maak: les 20 se hoe 'n mens energie herken, en hier is dit weer, aan die ander kant van 'n masjien.",
+    "GEEN INSET, GEEN UITSET, EN DIE FLITSLIG WYS DIT. Haal die batterye uit 'n flitslig en druk die knoppie: niks gebeur. Sit dieselfde batterye terug in dieselfde flitslig met dieselfde liggie en druk weer: dit skyn. Dit is die les se bewys en dit hoort in die STUDIETEKS, nie in 'n vraag nie. Wat dieselfde bly, moet in dieselfde sin as die vergelyking staan: dieselfde flitslig, dieselfde liggie, dieselfde batterye, net in of uit. Se ook wat dit beteken: die energie was in die batterye gestoor, en die liggie skyn eers wanneer dit by hom kom.",
+    "KABV SE TOESTELLE, ELK MET SY INSET EN SY UITSET GENOEM. Dit is die inskrywing waarop die assessering staan ('verduidelik die inset en uitset van energie in verskeie masjiene en toestelle'), dus moet dit VERSKEIE wees en nie twee nie. Sewe: die ketel (elektrisiteit in, hitte wat die water warm maak uit - NIE 'warm water uit' nie: warm water is stof en nie energie, en die omskrywing van uitset beperk dit tot energie. Volg die stoof se vorm, wat die energie noem en dan die gevolg), die stoof (elektrisiteit of gas in, hitte wat kos gaarmaak uit), die flitslig (battery in, lig uit), die radio (elektrisiteit of batterye in, klank uit), die strykyster (elektrisiteit in, hitte uit), die waaier of haardroer (elektrisiteit in, bewegende lug uit, en by die haardroer ook warm lug), en die motor of fiets (brandstof in en beweging uit; by die fiets die ryer self in en beweging uit). Hierdie inskrywing hoort in 'n kompakte lys, een reel per toestel, want dieselfde twee woorde herhaal sewe keer en 'n lys hou dit leesbaar. Die drom is jaarles 22 se werk en kom hier nie voor nie.",
+    "TWEE VAN NADER: DIE STRYKYSTER EN DIE FIETS. Die twee is doelbewus gekies omdat hulle insette nie dieselfde soort ding is nie. Die strykyster kry sy energie deur 'n draad uit die muur, en sy uitset is hitte, en die hitte maak die vesels los sodat die gewig van die swaar yster hulle plat druk - hitte alleen kry nie kreukels uit nie, want 'n hemp in 'n warm kamer bly gekreukel. Die fiets kry sy energie van die ryer, wat die pedale stoot, en die ryer se energie kom uit sy kos; sy uitset is beweging. Die punt om uitdruklik te se: 'n inset is nie altyd elektrisiteit nie, en 'n masjien wat niks inprop nie het steeds 'n inset.",
+    "NIE ALLES WAT INGAAN, KOM UIT AS DIE DEEL WAT ONS WIL HE NIE. KABV se woord 'nuttig' vra hierdie punt, want 'nuttig' beteken daar is uitsette wat nie nuttig is nie. Twee voorbeelde, en albei is waarneembaar sonder om iets aan te raak: 'n gloeilamp gee lig, maar hy word warm, en die MEESTE van wat by hom ingaan kom as hitte uit; 'n haardroer se harde geraas is nie hoekom 'n mens hom koop nie. Se ook dat die energie nie wegraak nie: dit gaan meestal weg as hitte, waar ons dit nie nodig het nie. Hierdie les leer NIE doeltreffendheid nie, gebruik geen getal of persentasie nie, en mag nie die teenoorgestelde impliseer nie, naamlik dat alles wat ingaan as die nuttige deel uitkom."
+  ],
+  "aanvulling": [],
+  "aanvulling_nota": "Geen. Twee inskrywings lyk soos aanvulling en is dit nie. Die eerste is dat inset en nuttige uitset nie ewe veel is nie: KABV se eie woord is 'nuttig', en 'n mens kan nie 'n punt dek wie se sleutelwoord 'nuttig' is sonder om te se waarteen 'nuttig' staan nie. Dit is dus wat die punt minimaal vereis, nie ekstra inhoud nie. Die tweede is die flitslig-waarneming: dit is die bewys onder die eerste strepie ('benodig energie insette om hulle te laat werk'), en die standaard vereis nou dat bewys in die studieteks staan en nie in 'n vraag nie. Daar is hier geen persoon en geen deurbraak wat 'n aanvulling-inskrywing regverdig nie.",
+  "moeilike_konsepte": [],
+  "moeilike_konsepte_nota": "Doelbewus leeg, en hier is dit die maklikste besluit in die spesifikasie. Inset en uitset is die konkreetste idee in die hele kwartaal: 'n mens wys na die prop en na die lig. Elke kandidaat kan konkreet gestel word. Dat 'n toestel niks doen sonder 'n inset: die flitslig sonder batterye. Dat 'n inset nie altyd elektrisiteit is nie: die fiets. Dat nie alles wat ingaan as die nuttige deel uitkom nie: die gloeilamp wat warm word en die haardroer wat raas. 'n Eli10-blok hier sou die studieteks in korter woorde herhaal, wat daardie laag se algemeenste faling is. Die aanskoulike vergelyking is die video se werk.\n\nDRICO SE UITSPRAAK (2026-08-26): energie MAG as iets wat beweeg en gebere word, geskets word. Dit is hoe 'n negejarige die idee vasvat, en dit maak die boekhou reg uit, want energie is werklik behoue. Die grens is die IDENTITEITSGRENS: 'beweeg soos', 'vloei soos', 'word gebere soos' is toegelaat; 'energie IS 'n vloeistof' of 'hitte IS 'n vloeistof' is verbode. 'n Beeld hoef nie as 'n uitsondering geregverdig te word nie. MAAR die afbeelding moet steeds bewering vir bewering nagegaan word: die bal-analogie wat vroeer in hierdie projek gebreek het, het gebreek omdat dit die kouer ding met NIKS laat begin het, en dit is 'n afbeeldingsfout wat die uitspraak nie regmaak nie. Hierdie les se leeg-besluit is dus 'n KEUSE en nie 'n verbod nie; sien 'besluite'.",
+  "termdig": false,
+  "termdig_nota": "Drie tot vier begrip-inskrywings, nie vyf of ses nie, en dit is 'n besluit eerder as 'n gebrek. KABV noem agt toestelle en dit lyk soos 'n term-digte les, maar 'n ketel, 'n stoof, 'n radio en 'n strykyster is alledaagse woorde wat 'n negejarige besit. MOENIE hulle begrip-inskrywings gee nie: dit sou die woordelys opvul met woorde wat niemand hoef op te soek nie en dit sou die twee terme wat wel nuut is, wegsteek. Die nuwe terme is inset, uitset en (uit die gedeelde lys) energie en elektrisiteit.",
+  "verwagte_begrippe": {
+    "nota": "Ongeveer drie tot vier inskrywings. 'Energie' en 'elektrisiteit' gebruik die spesifikasie se 'gedeelde_omskrywings' woordeliks, want albei lesse omskryf hulle en hulle mag nie verskil nie.",
+    "onvermydelik": [
+      "inset",
+      "uitset",
+      "energie"
+    ],
+    "waarskynlik": [
+      "elektrisiteit",
+      "brandstof"
+    ],
+    "moet_NIE": [
+      "ketel",
+      "stoof",
+      "radio",
+      "strykyster",
+      "waaier",
+      "haardroer",
+      "fiets",
+      "motor"
+    ],
+    "reel": "Elke woord van meer as tien letters wat in die studieteks bly, het 'n begrip-inskrywing nodig. 'Strykyster' is presies tien en het nie een nodig nie; 'elektrisiteit' is dertien en het."
+  },
+  "demonstrasie_eise": {
+    "waarneming": "Die flitslig sonder batterye teenoor dieselfde flitslig met dieselfde batterye terug in.",
+    "een_kind_twee_hande": "Ja. Een flitslig, twee hande, geen hulp. Die flitslig staan ook in KABV se eie lys toestelle, dus is dit nie 'n nuwe voorwerp wat die les moet invoer nie.",
+    "wat_bly_dieselfde": "Moet in die teks staan, en die eis is hier strenger as gewoonlik omdat dit 'n VERGELYKING is: dieselfde flitslig, dieselfde liggie, dieselfde batterye, en net een ding verander, naamlik of die batterye in of uit is.",
+    "grootte_of_hoeveelheid": "Die vergelyking hang nie van grootte of hoeveelheid af nie (dit is in teenoor uit), maar dit hang van EENDERSHEID af, en daardie eendersheid moet in DIESELFDE SIN as die vergelyking staan. Moenie 'dieselfde flitslig' 'n sin vroeer se en dan in die volgende sin vergelyk nie.",
+    "fisiese_kontinuiteit": "Die batterye is nie pap nie en die flitslig is nie gebreek nie. Die les moet nie 'n pap battery en 'n uitgehaalde battery in dieselfde asem gebruik nie: 'n pap battery is 'n LEE bron (les 20 se punt) en 'n uitgehaalde battery is GEEN inset (hierdie les se punt). Die twee lyk dieselfde vir 'n leerder en hulle is nie.",
+    "veiligheid": "Niks aan die flitslig. By die gloeilamp en die strykyster: die les mag NIE 'n leerder vra om 'n warm gloeilamp of 'n warm strykyster aan te raak nie. Skryf dit as 'n waarneming ('n gloeilamp wat aan was, is te warm om aan te raak), nie as 'n proef nie."
+  },
+  "feiterisiko": [
+    "DIE TWEEDE GROOT EEN VAN HIERDIE SUBONDERWERP: inset en uitset is nie ewe veel nie. 'n Gloeilamp se nuttige uitset is lig, maar die meeste van sy inset kom as hitte uit. Die les hoef doeltreffendheid nie te leer nie, maar dit mag NIE die teenoorgestelde impliseer nie. Enige sin van die vorm 'die energie wat ingaan, kom uit as lig' is die fout, en dit is 'n maklike sin om te skryf.",
+    "GLOEILAMP, NIE 'N LED OF 'N SPAARLAMP NIE. Die 'meeste kom as hitte uit'-bewering geld die gloeilamp met sy draadjie wat gloei, en die woord 'gloeilamp' se dit presies. Moenie die bewering by naam na 'n LED-lamp of 'n spaarlamp uitbrei nie: die syfers daar is anders en die les gee in elk geval geen syfer.",
+    "MOENIE SE 'N WAAIER MAAK DIE LUG KOUER NIE. Dit doen dit nie; 'n waaier maak die lug 'n baie klein bietjie warmer. Die bewegende lug laat JOU koeler VOEL. Die veilige vorm: 'die waaier se uitset is bewegende lug, en bewegende lug laat jou koeler voel'. Hierdie een is 'n gunsteling om verkeerd te skryf.",
+    "MOENIE SE ALLE MOTORS GEBRUIK BRANDSTOF NIE. Party motors ry op 'n battery. Skryf 'die meeste motors', of skryf petrol of diesel by die naam en laat die algemene bewering weg.",
+    "'N STOOF KAN ELEKTRIES OF GAS WEES. Noem albei, of se by die naam watter een die les bedoel. 'n Leerder wie se huis op gas kook, moet nie lees dat 'n stoof elektrisiteit gebruik nie.",
+    "MOENIE ELEKTRISITEIT 'N BRON NOEM NIE. Les 20 noem KABV se vyf gestoorde bronne. Elektrisiteit is hoe die energie by die toestel KOM, nie waar dit gestoor is nie. 'n Battery is wel 'n store. As hierdie les elektrisiteit as 'n sesde bron aanbied, kry 'n leerder twee lyste wat verskil waar hulle nie werklik verskil nie.",
+    "MOENIE SE 'N MASJIEN MAAK ENERGIE NIE, en moenie se die energie word opgebruik, verdwyn of raak verlore nie. Die deel wat ons nie wou he nie, gaan meestal as hitte weg. 'n Battery kan LEEG raak en dit is reg om so te se.",
+    "DIE RADIO: elektrisiteit of batterye in, klank uit. Moenie die radiosein as 'n inset noem nie. Dit is nie wat die toestel laat WERK nie, en dit open golwe, wat nerens in Graad 4 KABV staan nie.",
+    "DIE FIETS SE INSET IS DIE RYER. Skryf dat die ryer die pedale stoot en dat sy energie uit sy kos kom. Moenie se 'n fiets het geen inset nie, en moenie by die woord 'krag' uitkom nie ('spierkrag' inbegrepe); sien 'register_instruksies'.",
+    "DIE HAARDROER HET TWEE NUTTIGE UITSETTE, nie een nie: warm lug EN bewegende lug, en 'n mens wil albei he. Die geraas is die deel wat nie nuttig is nie. Moenie die geraas en die hitte in een hopie 'onnuttig' gooi nie, want die hitte is juis hoekom 'n mens 'n haardroer koop.",
+    "DIE WAAIER MAG GENOEM WORD, WIND MAG NIE. 'Bewegende lug' is die uitset. Moenie wind verduidelik, se waar wind vandaan kom of 'n windmeul of windturbine noem nie. Wind is nie Graad 4 KABV-inhoud nie, en dit is presies wat die gemete handboekbladsye dek.",
+    "DIE DROM KOM NIE HIER VOOR NIE. KABV noem hom in die voorbeeldlys, en jaarles 22 gaan presies oor musiekinstrumente as stelsels met bewegingsenergie-insette (KABV se eie woord daar is 'klop'). Sien die spesifikasie se 'besluite'. Die dekkingsnasiener moet hom nie as ontbrekend aanteken nie.",
+    "MOENIE DIE KETEL SE UITSET 'STOOM' NOEM NIE, EN OOK NIE 'WARM WATER' NIE. Die nuttige uitset is die HITTE, en die warm water is die gevolg daarvan - warm water is stof en nie energie, en dit is boonop nie een van die vier dinge (beweging, hitte, lig, klank) wat hierdie les se elke toestel teruggee nie. Die stoom is wat 'n mens sien wanneer dit klaar is; die stoom is wat 'n mens sien wanneer dit klaar is. 'n Ketel wat vir sy stoom gebruik word, is 'n ander masjien en 'n ander les."
+  ],
+  "fokusvraag_skakel": "Lewer die tweede helfte van die antwoord: WAT ONS DAARUIT KRY. Dat 'n masjien of toestel eers energie moet inkry voor dit werk (die inset), dat dit vir ons iets nuttigs teruggee (die uitset), watter twee dinge dit is vir sewe van die toestelle wat KABV noem, en dat nie alles wat ingaan as die nuttige deel uitkom nie. Hierdie les praat NIE oor waar die energie voor die prop was of hoe dit daar gekom het nie: dit is les 20 se deel, en 574 woorde kan nie albei helftes dra nie.",
+  "kaps_lesindeks_etiket": "Inset en uitset van energie",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "begrotingsoordeel",
+    "buite_bestek",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "gedeelde_feiterisikos",
+    "gedeelde_omskrywings",
+    "gedeelde_omskrywings_nota",
+    "goedkeuring",
+    "graad",
+    "herkoms",
+    "kaps_inhoudsopskrifte",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "registerbesluit",
+    "skema_weergawe",
+    "skryfnota",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota"
+  ]
+}
