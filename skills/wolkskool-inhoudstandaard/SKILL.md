@@ -150,6 +150,38 @@ handed two stories; they should simply not meet the false one a second time. The
 tell the person who owns the video, because what to do about the video is a decision
 about the video and not about the text.
 
+### When the lesson is a text to be read
+
+Some CAPS content is not an explanation of a concept but a text the learner reads.
+Life Skills asks for it directly: *"Weeklikse lees deur leerders: lees vir genot"*
+appears under **every** Grade 4 PSW topic, with the subject of each read named, so
+half that subject's lessons are readings rather than explanations. An Afrikaans
+Huistaal cycle is built around a core text the same way.
+
+**A `leesstuk` block carries a lesson's volume in place of `studie` blocks.** It
+counts against the budget and is measured against the same register band, because a
+learner reads it the same way and the band's floor guards against the same collapse
+into fragments. The gate fails a lesson that has neither.
+
+**It is exempt from the chunking guidance only** — the 3–10 block count and the
+30–110 words per block. Those exist for explanation broken one idea at a time. A
+story is one continuous piece, and measuring it in chunks measures it as the wrong
+kind of thing.
+
+Three things do **not** change, and they are the ones a writer will assume have:
+
+- **Everything in it is checked.** A reading is not a free space. Its claims are
+  verified exactly as anywhere else.
+- **Where it retells something belonging to a culture, the attribution is checked**
+  against sources outside any textbook, and a detail two published sources disagree
+  about is cut rather than kept. The story belongs to the people who tell it.
+- **The register floor still applies.** Writing "simply" for a young reader
+  collapses into fragments just as fast in a story as in an explanation.
+
+Some readings have no video. Where that is so, the text is not merely the floor —
+it is everything, and the argument for standing alone is stronger rather than
+weaker.
+
 ## What a Wolkskool lesson is
 
 A lesson maps to **one CAPS content bullet**, not to a textbook page or section.
