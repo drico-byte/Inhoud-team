@@ -51,3 +51,4 @@
 - [The video's lesson division wins](video-se-lesverdeling-wen.md) — where a video came first and merged two CAPS bullets, the text merges too; a merged lesson gets one lesson's budget, not two.
 - [A spec says the same thing in two fields](n-spek-se-dieselfde-ding-in-twee-velde.md) — a source fix must sweep every field that repeats the claim, not just the one the finding named.
 - [The spec and the lesson name the same field differently](die-spek-en-die-les-noem-dieselfde-veld-anders.md) — a spec's kaps_onderwerp is the topic, a lesson's is the sub-topic; nothing checks it.
+- [A lesson with a number in it goes stale](n-les-met-n-nommer-in-verouder.md) — Childline 116, checked 2 Sep 2026; re-verify at every reprint, because nothing re-checks after approval.
