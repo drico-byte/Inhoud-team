@@ -53,3 +53,5 @@
 - [The spec and the lesson name the same field differently](die-spek-en-die-les-noem-dieselfde-veld-anders.md) — a spec's kaps_onderwerp is the topic, a lesson's is the sub-topic; nothing checks it.
 - [A lesson with a number in it goes stale](n-les-met-n-nommer-in-verouder.md) — Childline 116, checked 2 Sep 2026; re-verify at every reprint, because nothing re-checks after approval.
 - [The agreed wording can itself be wrong](die-ooreengekome-bewoording-kan-self-verkeerd-wees.md) — reconciling makes two lessons agree, not right; fact-check the agreed wording after reconciling, and sweep the prose that leaned on it.
+- [Run the whole process, up to sign-off](loop-die-hele-proses-tot-by-goedkeuring.md) — drafted is not a deliverable; carry it through checks, repair, sign-off and PDF export without being asked.
+- [Do not ask the runner about a checked lesson](moenie-die-hardloper-vra-oor-n-nagesiende-les-nie.md) — it archives finished reports as outdated and demands the checks again; the copies are in the log tree.
