@@ -33,3 +33,33 @@ the thing works rather than that it is present, and never discard the output of
 a command whose failure you will have to diagnose later. Same shape as
 [[n-verslag-bestaan-nie-omdat-die-agent-so-se]]: there I believed a report that
 did not exist, here I believed code that had never run.
+
+## A success test that a stale file can pass
+
+2026-09-03. Drico noticed that every reading lesson's PDF showed a raw JSON dump
+where the story should be: *Onbekende bloktipe "leesstuk"*. Two separate bugs, and
+the second is the one worth remembering.
+
+**One:** `leesstuk` was added to the schema and the renderer was never taught it.
+Fourteen lessons, all of them Life Skills, and the whole point of those lessons is
+the reading. Straightforward omission — when a block type is added, every consumer
+of the schema has to learn it, not just the gate.
+
+**Two, and this is the trap:** the renderer decided a PDF had been produced by
+asking whether the output file now existed and was over 800 bytes. **A leftover
+from an earlier run passes that test without the browser writing anything.** So a
+failed render reported success and silently shipped the previous version.
+
+That is how the first bug survived a full re-export. I fixed the renderer, re-ran
+the export, swept every PDF — and eleven were still broken, with no error anywhere.
+Every reading lesson had quietly kept its stale file while the tool printed its
+name as though it had been written.
+
+**The shape to watch for: a success check that an unchanged world already
+satisfies.** "The file is there" is not "I wrote the file". Clear the target first,
+or compare a timestamp, so that doing nothing cannot look like doing the work.
+
+**And when a fix does not take effect, check whether the output was written at
+all before re-reading your own change.** I re-read the edit twice and went looking
+for a second renderer, when the answer was that the file on disk was from an hour
+earlier. `find -mmin` answered in one command what code-reading did not.

@@ -84,6 +84,14 @@ li { margin-bottom: 5px; }
                  color: #4a5b70; margin-bottom: 5px; }
 .eli10 p { font-size: 11.5pt; margin-bottom: 6px; }
 
+/* A reading is the object of study, not an explanation of one. The label says so
+   without changing how the prose itself is set. */
+.etiket-lees { font-family: "Segoe UI", Arial, sans-serif; font-size: 8pt;
+               font-weight: 600; letter-spacing: .09em; text-transform: uppercase;
+               color: #6b6152; background: #f2efe8; border: 1px solid #e0d9cb;
+               border-radius: 3px; padding: 2px 7px; vertical-align: middle;
+               margin-left: 8px; white-space: nowrap; }
+
 .groep { margin-top: 30px; padding-top: 14px; border-top: 1px solid #ddd;
          page-break-inside: avoid; }
 .groep h2 { margin-top: 0; }
@@ -227,7 +235,8 @@ def bou_html(les, verslae=None):
     # the heading they point at rather than leaving them where they fall.
     eli_vir = {}
     los_eli = []
-    koppe = {(b.get("kop") or "").strip() for b in blokke if b.get("tipe") == "studie"}
+    koppe = {(b.get("kop") or "").strip() for b in blokke
+             if b.get("tipe") in ("studie", "leesstuk")}
     for b in blokke:
         if b.get("tipe") != "eli10":
             continue
@@ -248,9 +257,16 @@ def bou_html(les, verslae=None):
         t = b.get("tipe")
         if t == "eli10":
             continue
-        elif t == "studie":
+        elif t in ("studie", "leesstuk"):
+            # A leesstuk is the text a learner reads rather than an explanation of
+            # one, but on the page it is still a heading and its prose. It carries a
+            # label so a reader can tell the two apart at a glance.
             kop = (b.get("kop") or "").strip()
-            lyf.append(f"<h2>{e(kop)}</h2>{paragrawe(b.get('teks'))}")
+            if t == "leesstuk":
+                lyf.append(f'<h2>{e(kop)} <span class="etiket-lees">Leesstuk</span></h2>')
+            else:
+                lyf.append(f"<h2>{e(kop)}</h2>")
+            lyf.append(paragrawe(b.get("teks")))
             for eb in eli_vir.get(kop, []):
                 lyf.append(eli_blok(eb))
         elif t == "lys":
@@ -325,6 +341,18 @@ def maak_pdf(html_teks, uit_pdf):
             f"No Edge or Chrome found, so no PDF could be made.\n"
             f"The readable HTML is at {tmp_html}\n"
             f"Open it in any browser and print to PDF.")
+
+    # Clear the target first. The success test below is "a PDF is now there", and a
+    # leftover from an earlier run passes that test without the browser writing a
+    # thing — so a failed render used to report success and quietly ship the previous
+    # version. That is how a renderer bug survived a full re-export: every reading
+    # lesson kept its stale PDF and nothing said so.
+    if os.path.exists(uit_pdf):
+        try:
+            os.remove(uit_pdf)
+        except OSError as ex:
+            raise SystemExit(f"Could not clear the old PDF at {uit_pdf}: {ex}\n"
+                             f"Close it if it is open, then run again.")
 
     probeer = []
     for i, blaaier in enumerate(keuses):
