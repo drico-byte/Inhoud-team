@@ -55,3 +55,5 @@
 - [The agreed wording can itself be wrong](die-ooreengekome-bewoording-kan-self-verkeerd-wees.md) — reconciling makes two lessons agree, not right; fact-check the agreed wording after reconciling, and sweep the prose that leaned on it.
 - [Run the whole process, up to sign-off](loop-die-hele-proses-tot-by-goedkeuring.md) — drafted is not a deliverable; carry it through checks, repair, sign-off and PDF export without being asked.
 - [Do not ask the runner about a checked lesson](moenie-die-hardloper-vra-oor-n-nagesiende-les-nie.md) — it archives finished reports as outdated and demands the checks again; the copies are in the log tree.
+- [Every sentence true, the picture false](elke-sin-waar-die-prentjie-vals.md) — a comparison can teach something false through what it leaves unsaid; three clean checks missed it, the narrow ELI10 pre-check found it.
+- [An omission changes its neighbours](n-weglating-verander-sy-bure.md) — cutting a sentence made two survivors adjacent and created a claim neither made alone; and a two-part spec note can be marked met by half of itself.

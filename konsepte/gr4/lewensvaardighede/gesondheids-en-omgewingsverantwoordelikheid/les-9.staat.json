@@ -1,12 +1,12 @@
 {
   "les": "gr4/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-9",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:93241ed632029ff3ecd5fd02ca34f784",
+  "konsep_hash": "sha256:153aa7ee64fc32c7bc994dd786e2cffd",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
-  "eli10_voorkyk": null,
+  "eli10_voorkyk": "sha256:153aa7ee64fc32c7bc994dd786e2cffd",
   "geskiedenis": [
     {
       "wanneer": "2026-09-03T05:45:54+00:00",
@@ -63,9 +63,53 @@
       "woorde": 479,
       "begroting": 450,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-03T07:26:11+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:153aa7ee64fc32c7bc994dd786e2cffd",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-03T07:26:11+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 479,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-03T07:34:54+00:00",
+      "gebeurtenis": "eli10_voorkyk",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 15
+    },
+    {
+      "wanneer": "2026-09-03T07:34:54+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-03T07:34:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 50,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-03T07:34:54+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-9.json",
+      "konsep_hash": "sha256:153aa7ee64fc32c7bc994dd786e2cffd",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:1605e04ab1451450f163289b908fab51",
+  "spek_hash": "sha256:51e62599115785aeb56a4f0ec1e69740",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
