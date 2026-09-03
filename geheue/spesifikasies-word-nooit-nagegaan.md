@@ -110,3 +110,52 @@ The one exception is a spec error the checker *escalates on* — there the spec 
 fixed first, because the lesson cannot be approved against a prescription that is
 wrong. Tell those apart by the verdict, not by how serious the note sounds.
 
+
+## The safeguard you write to fix a finding is itself an unchecked mechanism
+
+2026-09-03, Grade 4 Lewensvaardighede, the HIV lesson. A fact check found the
+analogy ending in an inevitable outcome. I fixed it at source, as this note says
+to — and the condition I wrote into the spec said, in as many words: *someone
+puts the posts back, and that is what the medicine does.*
+
+That is not what treatment does. Antiretrovirals stop the virus copying itself so
+that **no more posts are taken out**; the body then rebuilds its own. The writer
+implemented my instruction faithfully and the next fact check found it.
+
+**A remedy is a mechanism claim, and nothing fact-checks it.** Worse than an
+ordinary stale field, because of how it is written: mine was capitalised, numbered
+"VYFDE VOORWAARDE", and carried its own reasoning and a WHO citation for the half
+that *was* right. It read as settled. A writer has no way to tell a researched
+condition from an invented one.
+
+Two specific costs, both of which a nine-year-old would have absorbed:
+
+- **An endless race.** One agent removing, another replacing, week after week, is
+  read as *the medicine only buys time* — the single worst belief to leave with a
+  child who has to take it every day.
+- **A passive body.** Strangers dismantled and patched the child's fence while the
+  child watched, when the rebuilding is the body's own work.
+
+**So: when you write a fix into a spec, check the fix.** Cite the source in the
+field itself, the way a fact checker would have to. If you cannot cite it, say in
+the field that it is unverified, so the next reader knows which half is which.
+
+Related: [[die-ooreengekome-bewoording-kan-self-verkeerd-wees]] — reconciling makes
+two lessons agree, not right. Same shape: the authority you write to settle a
+question inherits none of the checking that a lesson gets.
+
+## A checker's "a person must decide" can be a false choice
+
+The same round, the checker asked whether a Grade 4 lesson should carry the fact
+that 10-40% of people starting treatment with a low CD4 count never reach a normal
+one, and framed it as a choice between frightening a child who has HIV and telling
+them something untrue.
+
+Both horns were real and it was right to escalate rather than guess. But there was
+a third option it had not considered: **state the mechanism truthfully and promise
+nothing.** "The medicine stops posts being taken out and the garden builds back"
+is true, is hopeful, and nowhere requires that every post returns. The statistic
+stays out; so does the promise.
+
+Before escalating a checker's dilemma, look for the option that makes the dilemma
+disappear. Often it is *claim neither*, which is also [[onsekere-ekstras-word-gesnoei]].

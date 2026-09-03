@@ -22,7 +22,7 @@
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
 - [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
 - [When the book covers fewer lessons than we write](meting-dek-minder-as-die-lesse.md) — don't divide the measurement evenly; it robs the lessons the book does cover.
-- [Specs are never fact-checked](spesifikasies-word-nooit-nagegaan.md) — a false mechanism in a spec plants itself in every lesson and survives every revision.
+- [Specs are never fact-checked](spesifikasies-word-nooit-nagegaan.md) — a false mechanism in a spec plants itself in every lesson; and the safeguard you write to fix a finding is itself an unchecked mechanism.
 - [Practical work: we teach the thinking](praktiese-werk-ons-leer-die-denke.md) — the theory a making task tests is ours; the making is not, and interactivity is the layout team's bonus.
 - [Tell the story, don't explain it](vertel-die-storie-moenie-dit-verklaar-nie.md) — cultural stories get told, not dissected; ~100 words each, and the count is set by what is verifiable.
 - [Before stopping, say what is running](voor-jy-stop-se-wat-loop.md) — report how close each agent is first; never kill a long fact check without asking.
