@@ -132,6 +132,27 @@ class Uitvoer:
 # ---------------------------------------------------------------- preflight
 def eis_profiel(vak, graad, sub, basis=None):
     pad, cfg = P.vind_profiel(vak, graad, sub)
+
+    if pad is None and basis == "vereistes":
+        # A requirement-based budget does not need THIS SUB-TOPIC to have been
+        # measured, because the measurement is not its basis. The subject-grade
+        # config is still wanted, since the register band is read from it.
+        #
+        # The branch below already handled a measurement of zero. It never ran,
+        # because a sub-topic missing from the config entirely fails one step
+        # earlier and this refusal fired instead. The cost was real: 'Strukture van
+        # plante en diere' has an approved, validated spec and two lessons that
+        # could not be gated at all, and Gr 4 Sosiale Wetenskappe Kwartaal 1 -- five
+        # introductory lessons the textbook does not cover -- would have hit the
+        # same wall on its first run.
+        pad2, cfg2 = P.vind_profiel(vak, graad)
+        if pad2 is not None:
+            return pad2, cfg2, {"woorde": 0, "bladsye": 0, "geen_meting": True,
+                                "nie_gemeet_nota":
+                                    f"'{sub}' is not measured in {P.rel(pad2)}. The spec declares "
+                                    f"begroting_basis 'vereistes', so its own budgets are the "
+                                    f"authority and no volume is derived here."}
+
     if pad is None:
         raise Refuse(
             f"no profiler config for {vak} Gr {graad} / '{sub}' — {cfg}",
