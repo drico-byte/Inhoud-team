@@ -29,3 +29,21 @@ more than one of them. Fix them in the same breath, then refresh the extracts.
 Related: [[n-regstelling-ontwrig-sy-bure]] (that one is about what a fix BREAKS; this one is
 about what it MISSES), [[spesifikasies-word-nooit-nagegaan]],
 [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]]
+
+## It happened again on 2 September 2026, twice in one session
+
+Both times I fixed the field the finding named and missed the others.
+
+* **MIV is a virus.** I amended six per-lesson fields and missed a *sub-topic-level*
+  word-choice rule that banned the word `virus` outright. My sweep only walked
+  the lesson entries. The writer found it.
+* **Conflict is between two or more people.** I fixed the `kern` item; the
+  wording survived in the sub-topic's `regverdiging` and `fokusvraag_skakel`.
+  The coverage checker found it and said plainly it could be planted back by a
+  later revision.
+
+**How to apply, concretely:** do not sweep by reading the lesson entry. Walk the
+**whole spec file** — every nested string, sub-topic fields included — with a
+regex for the wrong phrase, and confirm the count reaches zero before moving on.
+Where a correction note quotes the old wording to explain the change, that one
+match is expected and is the only one allowed to remain.

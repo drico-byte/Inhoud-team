@@ -1,0 +1,180 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 4,
+  "kwartaal": 4,
+  "kaps_onderwerp": "Planeet Aarde en die Ruimte",
+  "kaps_onderwerp_nota": "KABV se Graad 4 Kwartaal 4 kennisafdeling dra twee opskrifte: 'NATUURWETENSKAPPE: PLANEET AARDE EN DIE RUIMTE' en 'TEGNOLOGIE: STELSELS EN BEHEER'. Hierdie subonderwerp val inhoudelik onder die tweede een — KABV se eie woord in die punt is 'stelsel'. Ons hou tog die eerste etiket, want dit is die een waaronder KABV hierdie hele kwartaal se werk oplys, en dit is die etiket wat die taak en die profiler se konfig gebruik. Niks in hierdie spesifikasie word uit die etiket afgelei nie.",
+  "kaps_subonderwerp": "Vuurpylstelsels",
+  "kaps_inhoudsopskrif": "Vuurpylmodel",
+  "kaps_ure": 7,
+  "kaps_ure_nota": "Slegs inligting. Kontakure kom nooit in begrotingsrekenkunde voor nie. KABV se '2 weke (7 uur)' staan teenoor hierdie subonderwerp.",
+  "kaps_ure_waarskuwing": "Hierdie toekenning is die gevaarlikste in die hele jaar om na woorde om te reken. Byna al sewe uur is maak-, meet- en evalueerwerk met ballonne, strooitjies en vislyn. Wie ure na woorde omreken, maak hierdie les 'n paar keer te groot en vul die ruimte met werk wat 'n teks nie kan doen nie. Sien buite_bestek.",
+  "kaps_teks_nota": "KABV se Afrikaanse teks lees \"'n vuurpyl beweeg deur middle van uitlaatgasse wat aan sy agterkant uitgestoot word\". 'middle' is 'n setfout vir 'middel'. Moenie dit oorskryf nie. Dieselfde soort ding as die 'gemaak van die rots'-vertaalfout wat in kaps/gr4-nwt-kw4.json aangeteken is.",
+  "fokusvraag": "Hoekom gebruik mense vuurpyle om in die ruimte in te gaan, en wat laat 'n vuurpyl beweeg?",
+  "fokusvraag_nota": "Deur die beplanner gestel, want KABV Natuurwetenskappe en Tegnologie stel nie 'n fokusvraag soos Sosiale Wetenskappe nie. Dieselfde besluit as Kwartaal 1, 2 en 3. Die vraag is DOELBEWUS klein, want hierdie subonderwerp het net een les en daardie een les moet die hele vraag alleen dra. Twee helftes, elkeen so groot as wat 430 woorde kan lewer: waarvoor, en hoe.",
+  "profiel_konfig": "gr4-nwt-kw4-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "DIE 0 IS NIE 'N METING VAN NUL INHOUD NIE. Die profiler kon hierdie subonderwerp se bladsye nie afbaken nie, dus bestaan daar geen meting om te deel nie. Die rede staan in kaps/gr4-nwt-kw4.json se kartering_nota: opskrifpassing kon net twee grense in die hele boek herhaalbaar vind, drie lopies het drie verskillende antwoorde gegee, en die vorige profiel se 59 bladsye en 11 568 woorde vir hierdie kwartaal is verwerp omdat die laaste afdeling sonder eindmerker tot bl. 200 deurgeloop en die agterwerk ingesluit het. Niemand het die bladsye met die hand gekarteer nie. LET OOK OP: die profiel merk hierdie subonderwerp as 'handmatig_afgebaken': true. Dit is 'n meganiese gevolg van 'n eksplisiete reeks in die konfig en beteken NIE dat 'n mens dit afgebaken het nie. Hierdie veld is NIE die anker vir die begroting nie — sien begroting_basis_nota. Wanneer iemand die bladsye wel karteer, meet teen 300 dpi en hersien hierdie spesifikasie se begroting.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "Daar is geen gemete volume vir enige Kwartaal 4-subonderwerp nie, dus is daar niks om te deel nie en is 'gemete_volume' onbruikbaar. Die anker is in plaas daarvan die boek se EIE volume per les oor die drie kwartale wat wel behoorlik gekarteer is: 10 405 woorde oor 24 lesse, wat ongeveer 430 woorde per les gee. Drico het 400 tot 500 woorde per les goedgekeur. Hierdie subonderwerp het EEN les en dit kry 430, die anker self, omdat sy vragtelling presies op daardie gemiddelde uitkom: drie KABV-inhoudspunte plus die twee stukke denke wat die drie praktiese assesseringsitems toets, is vyf onderrigeise teen ongeveer 85 tot 90 woorde elk. Die getal is dus afgelei uit die aantal dinge wat geleer moet word, en NIE uit hoe belangrik die beplanner die les ag nie, en ook nie uit KABV se sewe kontakure nie. Die totaal van 430 is nie 'n meting nie en mag nerens as een aangehaal word nie. Gelyke verdeling is hier betekenisloos: daar is net een les.",
+  "totale_begroting": 430,
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument (Natuurwetenskappe en Tegnologie Graad 4-6, PDF-bladsye 32-35: die Graad 4 Termyn 4 inhoudstabel vir 'Vuurpylstelsels / Vuurpylmodel', die voorgestelde aktiwiteite, die gereedskaplys, die voorafgaande subonderwerp 'Die Maan' en die kwartaal se assesseringsriglyne), die profiler se getalle uit profiele/gr4-nwt-kw4-profiel.json, en Drico se opgetekende beplanningsnotas en assesseringskruistoets in kaps/gr4-nwt-kw4.json. Ook nagegaan vir botsings: kaps/lesindeks/gr4-natuurwetenskappe-en-tegnologie.json en die Kwartaal 3-spesifikasies, omdat die woord 'stelsel' vroeer in die jaar voorkom. Dit is ons eie inhoud.",
+    "handboek_nota": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset, foto of beskrywing van 'n handboek se indeling het enige deel van hierdie beplanning ingelig, en niks daarvan is aangebied nie. Die enigste handboekafgeleide getalle wat normaalweg hier sou voorkom, is die profiler se bladsy- en woordtellings, en vir hierdie subonderwerp bestaan selfs daardie nie. Die skrywer sien ook geen handboek nie."
+  },
+  "verdeling_nota": "EEN les, vasgestel deur Drico se termynplan, en dit word nie verander nie. KABV se inhoudskolom dra hier een opskrif ('Vuurpylmodel') met drie punte wat almal dieselfde ding beskryf: waarvoor 'n vuurpyl gebruik word, wat dit is, en hoe dit beweeg. Geen skeurreel is naastenby van toepassing nie — die drie punte is een idee — en daar is niks om mee saam te voeg nie. Dit is die laaste les van die subonderwerp en van die jaar.",
+  "lesindeks_nota": "kaps/lesindeks/gr4-natuurwetenskappe-en-tegnologie.json loop tans tot nommer 25 (die einde van Kwartaal 3). Kwartaal 4 se inskrywings is nog nie bygevoeg nie, dus staan hierdie les se jaarnommer nie vas nie en word geen nommer hier geraai nie. Dit is die LAASTE les van die jaar en dit volg op die Maan-lesse. Drico vul die nommer en sy KABV-etiket ('Vuurpylmodel') in wanneer hy Kwartaal 4 by die indeks voeg.",
+  "assesseringskonteks": {
+    "nota": "Al drie hierdie subonderwerp se assesseringsitems is prakties: 'maak 'n model van 'n ballonvuurpyl, en toets dit', 'teken afstande aan en vergelyk die afstande gereis deur verskillende ballonvuurpyle', en 'evalueer die ballonvuurpyle'. Dit is die enigste les in die jaar waar ons niks van die geassesseerde werk self lewer nie.",
+    "beslissing": "Drico, 2026-08-25: dit maak die les NIE dunner nie en dit stel hom nie buite bestek nie. Die inhoud bly kennis, en die praktiese taak toets 'n begrip wat ons s'n is om te leer. Ons leer die DENKE agter die taak: hoekom gas wat agtertoe uitgestoot word die vuurpyl vorentoe stoot, en wat een ballonvuurpyl verder laat gaan as 'n ander. Wat ons nie doen nie, is 'n leerder deur die maak van die ding stap.",
+    "gevolg_vir_die_dekkingsnasiener": "Die drie praktiese items mag NIE as ontbrekende dekking aangeteken word nie. Meet die les teen kern en fokusvraag_skakel hieronder, en teen niks wyer nie."
+  },
+  "buite_bestek": [
+    "Die maaktaak self: 'heg 'n ballon met 'n strooitjie waardeur vislyn getrek is en span dit styf tussen twee punte'. Stap-vir-stap maakinstruksies hoort nie in hierdie teks nie. Die maak gebeur in 'n klaskamer, nie op hierdie platform nie.",
+    "Die meet- en aantekenwerk: 'meet hoe ver dit beweeg langs die vislyn op' en 'teken staafgrafieke'. Die DENKE agter die vergelyking is wel kern (sien kern 5 en 6); die prosedure, die aantekenblad en die staafgrafiek is dit nie.",
+    "Hoe die uitleg-span dit interaktief maak. Dit is hulle besluit en hulle bonus, nie 'n gat wat hierdie teks moet volmaak nie. Moenie die les opvul met plaasvervangende 'probeer dit self'-teks nie, en moenie na 'n aktiwiteit verwys wat die teks self nie dra nie.",
+    "Swaartekrag, en hoe vinnig 'n vuurpyl moet beweeg om van die Aarde af weg te kom. Nie Graad 4-inhoud nie en nie in KABV se punt nie.",
+    "Trappe van 'n vuurpyl wat afval, hoe 'n vuurpyl gestuur of bestuur word, watter soorte brandstof gebruik word, en die geskiedenis van vuurpyle. Niks daarvan staan in KABV se punt nie.",
+    "Die Maan se eie kenmerke en die fases van die Maan. Dit is die vorige subonderwerp se werk. Die Maan mag hier as bestemming genoem word, en verder niks."
+  ],
+  "geen_vrae": "Geen les dra vrae nie. Dit raak hierdie les direk: die ballon wat losgelaat word en wegskiet, is die BEWYS vir die les se sentrale stelling, en dit moet in die studieteks staan waar dit teen die begroting tel — nie in 'n vraag nie en nie in 'n opdrag om iets te probeer nie.",
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "pct_woorde_oor_10_letters_maks": 3.0
+    },
+    "lang_woord_ruimte": "Die perk is 3% van die studieteks. By 430 woorde is dit ongeveer 13 voorkomste, en hierdie les se onvermybare terme is almal lank: 'vuurpylstelsel' (14 letters), 'ballonvuurpyl' (13), 'uitlaatgasse' (12). Noem elkeen een of twee keer waar dit genoem moet word, en gebruik daarna die kort vorm: 'die vuurpyl', 'die ballon', 'die gas'.",
+    "nota": "Daar is vir hierdie kwartaal geen bronsteekproef per subonderwerp nie. Die profiel se boekwye registersteekproef (12 497 woorde: 1.49 sillabes per woord, 11.4% drie-plus-sillabewoorde) loop binne die band, maar dit is die hele boek en nie hierdie afdeling nie. Die band beweeg in elk geval nie."
+  },
+  "woordkeuse": {
+    "nota": "Hierdie les se moeilikste woorde is nie almal lank nie, en die hek meet net lengte. Elke woord hier is een wat 'n negejarige moet raai as dit nie verklaar word nie.",
+    "instruksies": [
+      "'voertuig' is KABV se woord en 'n negejarige lees dit as 'n motor. Moenie dit kaal laat staan nie. Se plain wat 'n vuurpyl die ruimte instuur: 'n ruimtetuig met mense in, of 'n masjien wat sy werk daar bo doen.",
+      "'stelsel' (7 letters) is KABV se eie woord en dus verpligtend, maar dit is 'n tegniese woord met 'n alledaagse klank. Kry 'n begrip-inskrywing, sonder uitsondering.",
+      "'brandstof' (9 letters) kry 'n begrip-inskrywing. 'n Leerder ken die woord van 'n petrolstasie en moet dit hier kan lees as die ding wat brand om die gas te maak.",
+      "'uitlaatgasse' kry 'n begrip-inskrywing, en gebruik daarna net 'die gas'.",
+      "'satelliet' is toegelaat as EEN bysin met 'n begrip-inskrywing. Dit is nie verpligtend nie; laat dit eerder uit as dit die begroting druk.",
+      "MOENIE 'aksie en reaksie', 'reaksiekrag', 'stukrag' of 'voortstuwing' gebruik nie. Nie een is 'n Graad 4-woord nie en nie een is nodig nie. Die woord vir wat gebeur, is 'stoot'.",
+      "Skryf 'die ruimte', nie 'die buitenste ruim' nie."
+    ]
+  },
+  "bou_op_die_res_van_die_jaar": {
+    "stelsel": "Die woord 'stelsel' kom vroeer in die jaar voor: jaarles 22 se subonderwerp is 'Beweging en Energie in 'n stelsel', en KABV se eie punt daar lees 'baie musiekinstrumente (stelsels) gebruik bewegings energie insette'. Op die dag van hierdie beplanning is nog geen les geskryf wat 'stelsel' as 'n begrip omskryf nie. REEL: kyk voor die skryf of daardie les dit intussen omskryf het. Indien wel, gebruik daardie omskrywing soos dit staan en skryf geen mededingende een nie, ook nie 'n beter geformuleerde een nie. Indien nie, omskryf dit hier soos KABV dit bedoel: los dele wat saamwerk om een werk te doen.",
+    "die_dun_laag_lug": "Die subonderwerp 'Die planeet Aarde' dra die punt 'daar is 'n dun laag van lug rondom die Aarde'. Dit is die haak waaraan 'die ruimte' hier hang. Bring dit in hoogstens een sin terug en herhaal dit nie verder nie.",
+    "die_maan": "Die vorige subonderwerp het die Maan behandel. Hier is die Maan net 'n bestemming. Moenie sy kenmerke of sy fases oorvertel nie."
+  },
+  "vak_gedeelde_omskrywings": {
+    "nota": "Een bewoording per term, vir die hele vak. BESLIS DEUR DRICO op 28 Augustus 2026: 'woorde wat in meer as een woordelys verskyn, moet identies wees.' Identies beteken identies - die voorbeelde na 'soos' inkluis, en 'n omskrywing mag ook nie ryker word soos die jaar vorder nie. 'n Leerder slaan 'n woord agter in een les na en dan agter in 'n ander; sy moet dieselfde sin kry. VERFYNING, 28 Augustus 2026: Drico het beslis dat VOORBEELDE NA 'soos' WEL PER LES MAG VERSKIL. Wat identies moet wees, is die sin self - die romp. 'materiaal' is dus nie meer drif nie: lesse 9 en 14 deel die romp en elkeen se voorbeelde is sy eie les se materiaal. Net 'n ANDER ROMP is drif.",
+    "terme": {
+      "asemhaling": "Om suurstof uit die lug te gebruik om energie uit jou kos te kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "geraamte": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou.",
+      "habitat": "Die plek waar 'n plant of 'n dier lewe.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "kondenseer": "Wanneer 'n gas afkoel en weer in 'n vloeistof verander.",
+      "lewensprosesse": "Die sewe dinge wat saam wys dat iets lewe.",
+      "materiaal": "Die goed waarvan iets gemaak is",
+      "onverwerkte materiaal": "Materiaal wat mense net so in die natuur kry.",
+      "raamstruktuur": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "ru-olie": "Meestal 'n dik donker vloeistof wat onder die grond opgepomp word.",
+      "smelt": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "struktuur": "Iets wat gebou of gevorm is, sy vorm hou en gewig dra of iets beskerm.",
+      "stut": "'n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
+      "trommelvlies": "'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+      "verdamp": "Wanneer 'n vloeistof in 'n gas verander. Dit gebeur vinniger wanneer die vloeistof warmer is.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "vries": "Wanneer 'n vloeistof afkoel en in 'n vaste stof verander.",
+      "waterdamp": "Water in die vorm van 'n gas wat niemand kan sien nie.",
+      "kieme": "Baie klein lewende dinge wat 'n mens siek kan maak."
+    }
+  },
+  "nommer": 1,
+  "titel": "Wat stoot 'n vuurpyl vorentoe?",
+  "titel_nota": "Werktitel. Dit is die leerder se opskrif en die skrywer mag dit verbeter. Dit is DOELBEWUS nie KABV se etiket ('Vuurpylmodel') nie. Reels wat op die titel geld en wat niks in die pyplyn nagaan nie: geen superlatief ('die eerste', 'die grootste'), geen belofte van 'n aktiwiteit of van iets om te maak, en die titel mag nie 'n ballonvuurpyl 'n vuurpyl noem nie.",
+  "kaps_punt": "Vuurpylmodel — mense maak gebruik van vuurpyle om in die ruimte in te gaan en na die Maan te reis; 'n vuurpyl is 'n stelsel wat gebruik word om voertuie in die ruimte in te stuur; 'n vuurpyl beweeg deur middel van uitlaatgasse wat aan sy agterkant uitgestoot word",
+  "kaps_punt_nota": "KABV se drie punte onder die opskrif 'Vuurpylmodel', hier in een string saamgevat omdat hierdie een les al drie dra. Die derde staan by KABV as 'n subpunt onder die tweede.",
+  "begroting": 430,
+  "begrotingsnota": "430 woorde, afgelei uit wat hierdie les moet leer en nie uit 'n meting nie — daar is geen meting vir Kwartaal 4 nie (sien begroting_basis_nota). Vyf onderrigeise: die drie KABV-inhoudspunte, plus die twee stukke denke wat die drie praktiese assesseringsitems toets. Teen ongeveer 85 tot 90 woorde elk gee dit 430, wat presies die boek se eie gemiddelde per les is oor die drie kwartale wat wel gekarteer is (10 405 woorde oor 24 lesse), en dit val binne die 400 tot 500 wat Drico goedgekeur het. Verdeling: waarvoor mense vuurpyle gebruik, met die 1969-reis, ongeveer 70; wat 'n vuurpyl is en wat dit dra, ongeveer 80; brandstof, gas en die opening agter, ongeveer 80; hoekom die gas agtertoe die vuurpyl vorentoe stoot, met die ballon as die waarneembare bewys, ongeveer 110 en die swaarste blok in die les; wat een ballonvuurpyl verder laat gaan en hoe 'n mens hulle regverdig vergelyk, ongeveer 90. Die hek meet net die totaal teen 430 (366 tot 495).",
+  "kern": [
+    "Waarvoor mense vuurpyle gebruik: om in die ruimte in te gaan en om na die Maan te reis. Dit is KABV se eerste punt en dit is die les se rede om te bestaan, dus begin hier by iets wat die leerder al gehoor het en nie by 'n definisie nie. Se plain wat 'die ruimte' hier beteken: bo-op die dun laag lug wat om die Aarde le, waar daar geen lug meer is nie. Een sin, en dit haak aan die subonderwerp 'Die planeet Aarde' se punt oor daardie dun laag.",
+    "Wat 'n vuurpyl is: 'n STELSEL wat gebruik word om voertuie die ruimte in te stuur. 'stelsel' is KABV se eie woord, dus is dit kern en nie 'n keuse nie. Verklaar dit soos KABV dit bedoel — los dele wat saamwerk om een werk te doen — en wys dit aan die ding self: die brandstof wat saamgedra word, die enjin en die opening agter, en bo-op die ding wat vervoer word. Se ook plain wat 'voertuie' hier is, want 'n negejarige lees dit as 'n motor: 'n ruimtetuig met mense in, of 'n masjien wat sy werk in die ruimte doen. Sien bou_op_die_res_van_die_jaar oor die woord 'stelsel'.",
+    "Hoe 'n vuurpyl beweeg: brandstof brand binne-in die vuurpyl en maak baie warm gas, en die gas stroom by die opening aan die agterkant uit. Dit is KABV se derde punt. Skryf dit as 'n ketting waarin elke stap die een voor hom nodig het — brandstof brand, gas ontstaan, gas gaan agtertoe uit, die vuurpyl gaan vorentoe — want 'n leerder wat die ketting mis, sit met 'n stelling in plaas van 'n verklaring.",
+    "DIE SENTRALE IDEE, en die denke wat die maaktaak toets: hoekom gas wat agtertoe uitgestoot word, die vuurpyl VORENTOE laat beweeg. Die stelling: die vuurpyl stoot die gas agtertoe, en terselfdertyd stoot die gas net so hard terug teen die vuurpyl, vorentoe. Twee stote, ewe hard, in teenoorgestelde rigtings, en hulle gebeur saam en nie na mekaar nie. Die WAARNEEMBARE BEWYS moet in die studieteks staan en nie afgelei of in 'n opdrag weggesteek word nie: 'n ballon wat opgeblaas en dan losgelaat word, skiet weg terwyl die lug agter by die opening uitkom. Dit is nie 'n analogie nie — dit is dieselfde ding, en die leerder het dit al self gesien.",
+    "Die denke agter die vergelyking: wat een ballonvuurpyl verder laat gaan as 'n ander. Gee die REDE by elke ding en moenie 'n lys reels aflewer nie. Meer lug in die ballon beteken meer gas om uit te stoot, dus hou die stoot langer aan. Iets swaars wat aan die ballon vas is, beteken dieselfde stoot moet meer gewig aan die gang kry, dus kom dit minder ver. 'n Lyn wat styf en reguit gespan is, laat dit verder loop as een wat hang, want teen 'n lyn wat hang moet dit teen 'n hellinkie op en dit skuur meer. Elkeen is 'n rede, nie 'n waarborg nie — sien feiterisiko.",
+    "Hoe 'n mens twee ballonvuurpyle regverdig met mekaar vergelyk: verander net EEN ding op 'n slag en hou al die res dieselfde, anders weet jy nie watter ding die verskil gemaak het nie. Dit is die denke agter 'teken afstande aan en vergelyk' en agter 'evalueer die ballonvuurpyle'. Hou dit by die redenasie: geen meetmetode, geen aantekenblad en geen staafgrafiek nie. Sien buite_bestek."
+  ],
+  "aanvulling": [
+    {
+      "item": "Die eerste reis met mense na die Maan, in 1969 — een of twee sinne",
+      "regverdiging": "KABV se eie punt beweer dat mense 'na die Maan reis'. Sonder 'n oomblik waarop dit gebeur het, hang die bewering in die lug, en 'n negejarige lees dit maklik as iets wat vandag gereeld gebeur. KABV noem self mense en oomblikke waar 'n gebeurtenis 'n deurbraak anker ('Wright broers en die uitvinding van die eerste vliegtuig'), dus volg hierdie een KABV se eie benadering eerder as om daarvan af te wyk. Hou dit klein: dat mense al op die Maan was, dat die eerste keer in 1969 was, en dat dit 'n baie groot vuurpyl gekos het. Die skrywer mag Apollo 11 by die naam noem; dit is nie verpligtend nie. Sien feiterisiko 5 en 6 vir wat NIE geskryf mag word nie."
+    }
+  ],
+  "aanvulling_nota": "Een inskrywing, ongeveer 40 van 430 woorde, wat sowat 9% is en ruim binne die kwart-perk val. Niks anders is bygevoeg nie. Die verklaring van 'stelsel' en van 'brandstof' is kern en nie aanvulling nie: KABV se punt gebruik die woord 'stelsel' self, en 'n punt wat se 'n vuurpyl beweeg deur uitlaatgasse kan nie gedek word sonder om te se waar die gas vandaan kom nie. Die stootpaar is ook kern: KABV se punt maak die bewering dat die vuurpyl beweeg omdat gas agtertoe uitgestoot word, en 'n les wat die bewering maak sonder die rede het die punt genoem en nie gedek nie.",
+  "moeilike_konsepte": [
+    "Hoekom gas wat agtertoe uitgestoot word, die vuurpyl vorentoe laat beweeg"
+  ],
+  "moeilike_konsepte_nota": "Een, en dit is die enigste een. Die toets is nie of 'n konsep moeilik is nie, maar of daar enige manier is om dit konkreet te stel, en hier is daar nie: die ballon wat wegskiet is die WAARNEMING (en dit staan in die studieteks, kern 4), maar hoekom die uitgaande gas 'n stoot terug gee, is nerens sigbaar nie. Dit is dieselfde soort geval as die standaard se eie voorbeeld, hoe stoomdruk in beweging verander. Die res van hierdie les — waarvoor 'n vuurpyl gebruik word, wat dit dra, wat brandstof doen, wat een ballon verder laat gaan — is alles konkreet stelbaar en word nie gevlag nie.",
+  "eli10_mapping": {
+    "nota": "Analogiee is die hoogste feiterisiko in enige les, en die nasiener toets die AFBEELDING en nie net die feite nie. Hierdie een is voorgeskryf as 'n grens, nie as 'n sin nie — die skrywer kies die bewoording.",
+    "veilig": "Twee kinders op rolskaatse of skaatsplanke wat teen mekaar stoot: albei rol weg, in teenoorgestelde rigtings, van een stoot af. Of: iemand wat stil op 'n skaatsplank sit en iets swaars van hom af weggooi, en self die ander kant toe rol. Albei beeld die regte ding af — die vuurpyl is die een, die gas is die ander, en die stoot word deur albei gevoel.",
+    "verbode": [
+      "Enige beeld waarin die vuurpyl teen die lug, teen die grond of teen 'n muur stoot om vorentoe te kom. Dit is presies die verkeerde prentjie wat hierdie les moet keer, want 'n vuurpyl werk juis waar daar geen lug is nie.",
+      "Die ballon. Die ballon staan reeds in die studieteks as die regte ding self, nie as 'n vergelyking nie. Om hom hier te herhaal, maak van die eli10-blok 'n herskrywing van die studieteks in korter woorde, wat daardie laag se algemeenste faling is.",
+      "'n Tuinslang of 'n brandslang wat 'n mens agteruit stoot, tensy dit as 'n stoot tussen die water en die slang gestel word en nie as 'n stoot teen die lug nie."
+    ]
+  },
+  "termdig": true,
+  "termdig_nota": "Die les dra 'vuurpyl', 'stelsel', 'brandstof', 'uitlaatgasse' en 'ballonvuurpyl' in 430 woorde, met 'satelliet' as 'n opsionele sesde. Verwag ongeveer vier tot vyf begrip-inskrywings. Moenie opvul om by 'n getal te kom nie, en moenie een uitlaat wat 'n negejarige moet raai nie.",
+  "feiterisiko": [
+    "'n Vuurpyl stoot NIE teen die lug of teen die grond nie. Dit is die algemeenste verkeerde prentjie oor vuurpyle en dit is presies verkeerd: 'n vuurpyl werk juis waar daar geen lug is nie. Skryf dat die vuurpyl en die gas teen MEKAAR stoot.",
+    "Die gas van 'n regte vuurpyl is nie 'gewone lug' nie — dit ontstaan wanneer die brandstof brand. Die ballonvuurpyl se lug is wel gewone lug wat ingeblaas en saamgedruk is, en niks brand daar nie. Moenie die twee bymekaarskryf asof dit dieselfde stof is nie.",
+    "'n Ballonvuurpyl IS nie 'n vuurpyl nie. Skryf dat dit op dieselfde manier beweeg en dieselfde idee wys. Dit dra geen brandstof nie en niks brand daarin nie.",
+    "Moenie skryf dat 'n groter ballon altyd verder gaan nie, of dat 'n nouer strooitjie altyd beter is nie. Elke ding in kern 5 is 'n rede, nie 'n waarborg nie, en 'n regte toets kan die teenoorgestelde antwoord gee. Skryf 'meer lug gee 'n stoot wat langer aanhou', nie ''n groter ballon wen' nie.",
+    "Moenie skryf dat mense vandag of gereeld na die Maan reis nie. Moenie ook die teenoorgestelde beweer nie — 'niemand was sedertdien weer daar nie' is die soort stelling wat nagegaan moet word en wat niks aan die les byvoeg nie. Se net dat mense al daar was, en wanneer die eerste keer was.",
+    "Die reis na die Maan was NIE die eerste keer dat mense in die ruimte was nie; mense was jare voor 1969 al in die ruimte. Moenie 'die eerste keer dat mense die ruimte in is' skryf waar 'die eerste keer dat mense op die Maan geland het' bedoel word nie. Superlatiewe is die hoogste-risiko kategorie in enige les.",
+    "Moenie 'n getal gee vir hoe ver die ruimte is, hoe vinnig 'n vuurpyl gaan, hoe hoog dit kom of hoeveel brandstof dit brand nie, tensy dit nagegaan is. KABV se punt vra geen getal nie, en 'n verkeerde een koop niks.",
+    "'n Stelsel is nie net 'baie dele' nie. Die punt is dele wat SAAMWERK om een werk te doen. 'n Omskrywing wat net 'baie dele' se, maak van enige hoop goed 'n stelsel.",
+    "Moenie skryf dat die gas die vuurpyl 'optel' of 'dra' nie, en ook nie dat die vuurpyl 'op sy gas ry' nie. Die gas gaan weg; wat agterbly, is die stoot."
+  ],
+  "fokusvraag_skakel": "Lewer albei helftes van die fokusvraag, want hierdie subonderwerp het net een les: waarvoor mense vuurpyle gebruik (om die ruimte in te gaan en na die Maan te reis), en wat 'n vuurpyl laat beweeg (dit stoot gas agtertoe uit, en die gas stoot net so hard terug, vorentoe). Die vraag is juis so klein gehou omdat 430 woorde hom alleen moet dra; niks oor die maak, meet of evalueer van 'n model word hier belowe nie.",
+  "_spek_vlak_velde": [
+    "assesseringskonteks",
+    "begroting_basis",
+    "begroting_basis_nota",
+    "bou_op_die_res_van_die_jaar",
+    "buite_bestek",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "geen_vrae",
+    "graad",
+    "herkoms",
+    "kaps_inhoudsopskrif",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_teks_nota",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kaps_ure_waarskuwing",
+    "kwartaal",
+    "lesindeks_nota",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "registerbesluit",
+    "skema_weergawe",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota",
+    "woordkeuse"
+  ]
+}

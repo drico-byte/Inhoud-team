@@ -102,3 +102,51 @@ in its brief and chose one — `.../nasien/les-1-dekking.json` once and
 could be read. Every checker brief needs the output path spelled out, the same as the
 inputs.
 
+
+## The neighbour that keeps getting forgotten: the heading
+
+Gr 4 NWT Term 4, 2026-08-28, three times in one sitting. Each time a correction landed in
+the sentence and left the **block heading** carrying the wording that had just been proved
+false:
+
+- *Wat is die Maan?* — the sentence became "our nearest large neighbour"; the heading still
+  read "the nearest thing to us in space".
+- *Waarvan die Aarde gemaak is* — the sentence limited rock to the outer part; the heading
+  still read "the Earth is a big ball of rock".
+- Same lesson, second round: caught only because a checker looking at a different block
+  noticed it in passing.
+
+**Why it is always the heading.** It is not part of the sentence being edited, so it falls
+outside the writer's attention — and it is the most prominent line in the block, so it is
+the version a learner actually remembers.
+
+**What to do.** Every revision brief that corrects a claim must also ask for a sweep of the
+headings, glossary entries and word list against the corrected wording. Asking "what did
+this disturb" is not enough on its own; name the headings specifically.
+
+## The cleanest example yet: a corrected state left an old action behind
+
+2026-09-03, the Grade 4 water-safety story. A fact check found the drowning boy's
+eyes looking straight at the girl who saw him; drowning eyes are closed or glassy
+and unfocused, and the line undid the story's whole purpose. Fixed: he does not
+look back, his eyes are open and focused on nothing.
+
+The next check found what that took with it. Four sentences later, **"Neo se hande
+het om die hout toegevou en hy het vasgehou."** A person in the drowning response
+cannot perform a deliberate grasp — that is the textbook distinction between a
+swimmer in distress, who can take a line and help with their own rescue, and a
+drowning person, who cannot. While he still looked back at Marika he was
+responsive and the grasp fitted. Making him unresponsive was right, and it
+orphaned the grasp.
+
+**The shape to look for: a fix that changes a character's or a system's STATE, with
+an ACTION elsewhere that only the old state permitted.** The two sentences never
+mention each other and no keyword links them. Searching for the words you changed
+would not have found it.
+
+Worse, the leftover taught the opposite of the lesson's own point — that a drowning
+child will take the stick you hold out. That is exactly the expectation that makes
+a rescuer decide the child must be fine, or go in when the reach fails.
+
+So when a correction changes what someone can do, **re-read every later action they
+perform**, not just the sentences near the edit.

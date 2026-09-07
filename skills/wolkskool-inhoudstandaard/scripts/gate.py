@@ -242,9 +242,18 @@ def run(lesson, grade, budget):
     study = by_type.get("studie", [])
     lists = by_type.get("lys", [])
     eli10 = by_type.get("eli10", [])
+    # A 'leesstuk' is a continuous text the learner READS, not an explanation of a
+    # concept — CAPS's "lees vir genot" in Life Skills, and the core text an Afrikaans
+    # Huistaal cycle is built around. It carries the lesson's volume exactly as study
+    # text does and is measured for register the same way, because a learner reads it
+    # the same way. What it is exempt from is the chunking guidance below, which
+    # assumes explanation broken into one idea per block: a story is one continuous
+    # piece and cutting it into 30-110 word chunks would be measuring it as the wrong
+    # kind of thing.
+    reading = by_type.get("leesstuk", [])
 
-    if not study:
-        fails.append("No blocks of tipe 'studie' found — nothing to measure against the volume budget")
+    if not study and not reading:
+        fails.append("No blocks of tipe 'studie' or 'leesstuk' found — nothing to measure against the volume budget")
         return {"verdict": "FAIL", "titel": lesson.get("titel"), "graad": grade,
                 "vak": lesson.get("vak"), "budget": budget,
                 "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -252,25 +261,32 @@ def run(lesson, grade, budget):
                 "block_counts": {k: len(v) for k, v in by_type.items()},
                 "misspelled": [], "failures": fails, "warnings": warns, "notes": notes}
 
-    # --- volume (study text only) ---
+    # --- volume (study text and reading text) ---
     # 'lys' blocks are bullet/numbered lists. Their items are not sentences, so
     # measuring them as prose distorts mean sentence length. They COUNT toward
     # the volume budget but are EXCLUDED from register statistics.
-    study_text = " ".join(b.get("teks", "") for b in study)
+    study_text = " ".join(b.get("teks", "") for b in study + reading)
     sm = measure(study_text)
     list_words = sum(len(re.findall(r"[A-Za-zÀ-ÿ']+", " ".join(b.get("items", []))))
                      for b in lists)
     if list_words:
         sm["words"] += list_words
         sm["list_words"] = list_words
+    # Name the thing being measured after what actually carries the lesson, so a
+    # reading lesson's failure does not talk about study text it never had.
+    label = "Reading text" if reading and not study else "Study text"
     lo, hi = budget * (1 - BUDGET_TOLERANCE), budget * (1 + BUDGET_TOLERANCE)
     if sm["words"] < lo:
-        fails.append(f"Study text {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
+        fails.append(f"{label} {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
     elif sm["words"] > hi:
-        fails.append(f"Study text {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
+        fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
 
     # --- chunking ---
-    if not (BLOCKS_MIN <= len(study) <= BLOCKS_MAX):
+    # Only explanatory lessons are chunked. A lesson whose volume is carried by a
+    # reading piece has no study blocks to count, and warning that it has zero would
+    # fire on every reading lesson ever written — which is how a guide turns into
+    # noise a writer learns to ignore.
+    if study and not (BLOCKS_MIN <= len(study) <= BLOCKS_MAX):
         warns.append(f"{len(study)} study blocks, outside the {BLOCKS_MIN}–{BLOCKS_MAX} comprehension guide — check the content is chunked one idea at a time")
     for i, b in enumerate(study, 1):
         w = len(re.findall(r"[A-Za-zÀ-ÿ']+", b.get("teks", "")))
@@ -280,7 +296,10 @@ def run(lesson, grade, budget):
             warns.append(f"Study block {i} ('{b.get('kop','—')[:32]}') {w} words (guide {BLOCK_WORDS_MIN}–{BLOCK_WORDS_MAX}) — will overflow its section")
 
     # --- register ---
-    check_register(sm, band, "Study text", fails, warns)
+    # A reading piece is held to the same band as study text. A learner reads both
+    # the same way, and the band's floor exists to stop writing collapsing into
+    # fragments, which a story can do as easily as an explanation.
+    check_register(sm, band, label, fails, warns)
 
     # List items are excluded from prose register statistics, which would
     # otherwise let a writer park difficult prose in a 'lys' block and escape
@@ -346,7 +365,7 @@ def run(lesson, grade, budget):
     unglossed = [w for w in sm["long_words"]
                  if w.lower() not in glossed and not w[:1].isupper()]
     if unglossed:
-        warns.append(f"Long words in study text with no 'begrip' entry: {', '.join(unglossed[:8])}")
+        warns.append(f"Long words in {label.lower()} with no 'begrip' entry: {', '.join(unglossed[:8])}")
 
     # No check on 'vraag'. Lessons stopped carrying retrieval questions on 2026-08-21
     # because the layout team was told to ignore them, so they never reached a learner.
@@ -413,7 +432,11 @@ def main():
         print(f"\n{r['verdict']}  —  {r.get('titel') or '(untitled)'}  (Gr {r['graad']}, budget {r['budget']})")
         s = r.get("study")
         if s:
-            print(f"\n  study text   {s['words']} words / {s['sentences']} sentences")
+            # The JSON key stays 'study' — the runner and verdict_check read it — but
+            # the printed label follows what the lesson actually carries.
+            counts = r.get("block_counts") or {}
+            shown = "reading text" if counts.get("leesstuk") and not counts.get("studie") else "study text"
+            print(f"\n  {shown:<12} {s['words']} words / {s['sentences']} sentences")
             print(f"               {s['mean_sentence_len']} words per sentence, {s['mean_syllables']} syllables per word, {s['pct_polysyllabic']}% polysyllabic")
         if r["eli10"]:
             e = r["eli10"]

@@ -84,6 +84,33 @@ excluding lists from the register check would let a writer park difficult
 subordinated prose in a `lys` block and escape the band entirely. A list item is
 a short scannable point, not a sentence carrying clauses.
 
+### `leesstuk` — a text the learner reads
+
+| Field | Required | Notes |
+|---|---|---|
+| `kop` | yes | Heading |
+| `teks` | yes | One continuous text |
+
+**The object of study rather than an explanation of one.** CAPS asks for this
+directly in Life Skills — *"Weeklikse lees deur leerders: lees vir genot"* appears
+under every Grade 4 PSW topic, with the subject of each read named — and an
+Afrikaans Huistaal cycle is built around a core text the same way.
+
+**A lesson may carry its volume in `leesstuk` blocks instead of `studie` blocks.**
+The gate fails a lesson that has neither. A reading counts toward the budget and is
+measured against the same register band, because a learner reads it the same way and
+the band's floor guards against the same collapse into fragments.
+
+**It is exempt from the chunking guidance only.** The 3–10 block count and the
+30–110 words per block exist for explanation broken one idea at a time; a story is
+one continuous piece, and measuring it in chunks measures it as the wrong kind of
+thing.
+
+Everything else still applies. It is not a free space: the factual claims in a
+reading are checked exactly as anywhere else, and where a reading retells something
+that belongs to a culture, the attribution is checked against sources outside any
+textbook.
+
 ### `begrip` — glossary entry
 
 | Field | Required | Notes |

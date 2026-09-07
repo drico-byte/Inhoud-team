@@ -22,7 +22,7 @@
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
 - [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
 - [When the book covers fewer lessons than we write](meting-dek-minder-as-die-lesse.md) — don't divide the measurement evenly; it robs the lessons the book does cover.
-- [Specs are never fact-checked](spesifikasies-word-nooit-nagegaan.md) — a false mechanism in a spec plants itself in every lesson and survives every revision.
+- [Specs are never fact-checked](spesifikasies-word-nooit-nagegaan.md) — a false mechanism in a spec plants itself in every lesson; and the safeguard you write to fix a finding is itself an unchecked mechanism.
 - [Practical work: we teach the thinking](praktiese-werk-ons-leer-die-denke.md) — the theory a making task tests is ours; the making is not, and interactivity is the layout team's bonus.
 - [Tell the story, don't explain it](vertel-die-storie-moenie-dit-verklaar-nie.md) — cultural stories get told, not dissected; ~100 words each, and the count is set by what is verifiable.
 - [Before stopping, say what is running](voor-jy-stop-se-wat-loop.md) — report how close each agent is first; never kill a long fact check without asking.
@@ -33,7 +33,11 @@
 - [Energy as stuff is allowed as a picture](energie-as-stof-mag-as-beeld.md) — never say it IS a liquid or a solid; and the mapping still has to be checked even when the image is permitted.
 - [Explain, don't just cover](verklaar-moenie-net-dek-nie.md) — a block can meet every requirement and teach nothing; the shape that lands first time costs no extra words.
 - [A script that parses is not a script that works](n-skrip-wat-parse-is-nie-n-skrip-wat-werk-nie.md) — six bugs, none visible to a syntax check; run it end to end before shipping it.
-- [Untouchable words for the language checker](onaantasbare-woorde-vir-die-taalnasiener.md) - the Afrikaans check happens outside this pipeline; a ruling not written into the protected-words file gets quietly undone.
+- [Untouchable words for the language checker](onaantasbare-woorde-vir-die-taalnasiener.md) — the Afrikaans check happens outside this pipeline; a ruling not written into the protected-words file gets quietly undone.
+- [A human moderates every lesson](mens-modereer-elke-les.md) — readability is the moderator's job, truth is the pipeline's; don't build automated readability checks.
+- [Auto sign-off is the last step](outo-goedkeuring-is-die-laaste-stap.md) — sign a cleared lesson off in the same breath as the run that cleared it; escalations still stop.
+- [Checkers pull opposite ways on caveats](nasieners-trek-teenoorgesteld-oor-voorbehoude.md) — the fact checker demands a qualifier, coverage flags it as unrequested; keep it, and don't send it back.
+- [Term 4 budgets come from requirements](kw4-begroting-uit-vereistes.md) — the book's Term 4 could not be bounded, so ~430 a lesson from the year's own per-lesson volume; the 11 568-word profile was rejected.
 - [A clean check is only as wide as its scope](n-skoon-toets-is-so-wyd-soos-sy-omvang.md) — I called drift zero across the subject after comparing one pair; a real sweep found eight drifted terms.
 - [The extract lost its own cross-references](die-uittreksel-het-sy-eie-kruisverwysings-verloor.md) — 39 spec-level fields never reached the writer; suspect the harness when two agents report the same absence.
 - [Don't run the runner over a working writer](moenie-die-hardloper-oor-n-werkende-skrywer-laat-loop-nie.md) — it gated a draft mid-revision; archived reports are recoverable from the log tree.
@@ -45,4 +49,12 @@
 - [My searches miss, and then I believe them](my-soektogte-mis-en-dan-glo-ek-hulle.md) — three empty results reported as findings in one day; the third nearly became a false accusation.
 - [The video's lesson division wins](video-se-lesverdeling-wen.md) — where a video came first and merged two CAPS bullets, the text merges too; a merged lesson gets one lesson's budget, not two.
 - [A spec says the same thing in two fields](n-spek-se-dieselfde-ding-in-twee-velde.md) — a source fix must sweep every field that repeats the claim, not just the one the finding named.
+- [The spec and the lesson name the same field differently](die-spek-en-die-les-noem-dieselfde-veld-anders.md) — a spec's kaps_onderwerp is the topic, a lesson's is the sub-topic; nothing checks it.
+- [A lesson with a number in it goes stale](n-les-met-n-nommer-in-verouder.md) — Childline 116, checked 2 Sep 2026; re-verify at every reprint, because nothing re-checks after approval.
+- [The agreed wording can itself be wrong](die-ooreengekome-bewoording-kan-self-verkeerd-wees.md) — reconciling makes two lessons agree, not right; fact-check the agreed wording after reconciling, and sweep the prose that leaned on it.
+- [Run the whole process, up to sign-off](loop-die-hele-proses-tot-by-goedkeuring.md) — drafted is not a deliverable; carry it through checks, repair, sign-off and PDF export without being asked.
+- [Do not ask the runner about a checked lesson](moenie-die-hardloper-vra-oor-n-nagesiende-les-nie.md) — it archives finished reports as outdated and demands the checks again; the copies are in the log tree.
+- [Every sentence true, the picture false](elke-sin-waar-die-prentjie-vals.md) — a comparison can teach something false through what it leaves unsaid; three clean checks missed it, the narrow ELI10 pre-check found it.
+- [An omission changes its neighbours](n-weglating-verander-sy-bure.md) — cutting a sentence made two survivors adjacent and created a claim neither made alone; and a two-part spec note can be marked met by half of itself.
+- [A glossary entry is read alone](n-begrip-word-alleen-gelees.md) — three times in one day an entry was true only inside its own block; read it with the rest of the lesson deleted and ask what else it fits.
 - [The teacher knows what matters beyond CAPS](die-onderwyser-weet-wat-buite-kaps-saak-maak.md) — when our rules and her judgement disagree, look for the part of CAPS our rule never read; and Gr 4 SW is a deliberate exception to the whole process.
