@@ -1,0 +1,809 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Sosiale Wetenskappe",
+  "graad": 4,
+  "kwartaal": 4,
+  "dissipline": "Geskiedenis",
+  "kaps_onderwerp": "Kommunikasie oor tyd heen",
+  "kaps_subonderwerp": "Kommunikasie oor tyd heen",
+  "kaps_subonderwerp_nota": "Anders as Kwartaal 3 se 'Vervoer oor tyd heen', wat in drie subonderwerpe (grond, water, lug) verdeel is, verdeel hierdie onderwerp NIE in subonderwerpe nie. KABV gee twee inhoudsopskrifte onder een onderwerp, en hierdie een spesifikasie dek albei. Daarom is kaps_onderwerp en kaps_subonderwerp dieselfde string. LET OP vir die skrywer: 'n les se eie kaps_onderwerp-veld dra die SUBonderwerp, wat hier dus ook 'Kommunikasie oor tyd heen' is.",
+  "kaps_ure": 15,
+  "kaps_ure_nota": "Slegs herkoms, woordeliks uit die KABV-dokument (bladsy 37): 'Een kwartaal/15 uur', met 3 uur vir die oudste vorms, 9 uur vir die moderne vorms en 3 uur vir hersiening en assessering. NIKS in hierdie spesifikasie word daaruit afgelei nie. Kontakure se hoe lank 'n onderwyser aan 'n onderwerp bestee; hulle se niks oor hoeveel teks 'n leerder lees nie, want lestyd hou ook gesprek, teken en groepwerk in.",
+  "kaps_inhoudsopskrifte": {
+    "nota": "Woordeliks uit die KABV-dokument, Graad 4 Geskiedenis Kwartaal 4, bladsy 37, deur hierdie beplanner self teen die PDF nagegaan (nie uit 'n ekstraksie alleen nie).",
+    "Die oudste vorms van menslike kommunikasie - 3 uur": [
+      "Taal, simbole, liedere, kuns en dans",
+      "San-jagter-versamelaars (die eerste mense in Suider-Afrika) as 'n voorbeeld"
+    ],
+    "Verandering in die moderne vorms van kommunikasie - 9 uur": [
+      "Posstelsel",
+      "Radio",
+      "Die vroee tikmasjiene voor elektrisiteit",
+      "Telegraaf",
+      "Telefoon",
+      "Kamera",
+      "Televisie",
+      "Rekenaar",
+      "Internet",
+      "Selfoon"
+    ],
+    "Hersiening, assessering (formeel en informeel) en terugvoering - 3 uur": [
+      "Leerders moet gereeld lees en skryf.",
+      "Bewyse van die leerder se werk, insluitend die assessering, moet in die leerder se notaboek gehou word."
+    ],
+    "strepietelling": "TWAALF inhoudstrepies in totaal (2 + 10). Elf lesse dek al twaalf: les 1 vat die eerste twee saam, les 10 vat Rekenaar en Internet saam, en die res is een les per strepie. Les 2 (antieke skryfstelsels) dek geen strepie nie en is aanvulling.",
+    "let_op_spelling": "KABV se eie spelling word hierbo behou, insluitend 'vroee tikmasjiene' (die dokument skryf 'vroee' met 'n deelteken). Die inhoudstabel skryf 'Posstelsel' as een woord."
+  },
+  "kaps_afdeling_2_nota": "DIT IS NIE OPSIONEEL IN HIERDIE VAK NIE. Die inhoudstabel se eie opskrifreel lees: 'Die inhoud moet met die historiese doelwitte en vaardighede asook die gepaardgaande konsepte soos aangedui in Afdeling 2, geintegreer word', en Afdeling 2.4.3 se dit is 'van kritieke belang dat hierdie doelwitte en vaardighede vir elke inhoudsonderwerp gevolg behoort te word'. Afdeling 2.4.4 se VYF konsepte is: historiese bronne en getuienis, multi-perspektief benadering, oorsaak en gevolg, verandering en kontinuiteit, en tyd en chronologie. Elke les hieronder dra 'n historiese_konsepte-veld wat se watter van die vyf daardie les lewer. VERANDERING EN KONTINUITEIT is die konsep wat hierdie hele onderwerp dra, want die fokusvraag vra albei helftes daarvan.",
+  "fokusvraag": "Hoe kommunikasie met verloop van tyd verander het, en hoeveel vorme van kommunikasie dieselfde gebly het.",
+  "fokusvraag_nota": "TWEE HELFTES, en die tweede val maklik weg. Die eerste helfte (wat verander het) skryf homself, want elke les dra 'n nuwe uitvinding. Die tweede helfte (wat DIESELFDE gebly het) is die een wat 'n dekkingsnasiener oor elf lesse heen sal mis as niemand dit verdeel nie. Dit is daarom doelbewus oor vier lesse versprei: les 1 (al vyf die oudste vorms word vandag nog gebruik), les 3 (die posstelsel bestaan nog en die idee bly dieselfde), les 5 (QWERTY sit vandag nog op elke rekenaar se toetsbord) en les 11 (die boodskap moet steeds by iemand uitkom). Geen enkele les dra die hele tema nie.",
+  "profiel_konfig": "GEEN. Daar bestaan geen profielkonfigurasie vir Graad 4 Sosiale Wetenskappe Kwartaal 4 nie, en daar is nie een nodig nie - sien begroting_basis_nota.",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "NUL, MET OPSET, EN DIT IS EERLIKER AS 'n GETAL. Niemand het 'n handboek vir hierdie kwartaal gemeet nie, daar is geen bladsyreeks en geen profiel nie. 'n Getal hier sou 'n uitvinding as 'n meting aanbied, wat presies die fout is wat 'n vorige loop 'gemete subonderwerp-volume 250' laat druk het vir 'n syfer wat niemand gemeet het nie. Die begroting kom uit vereistes; sien begroting_basis_nota. Die valideerder gebruik hierdie veld nie onder die 'vereistes'-basis nie.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "DRICO SE BESLUIT VAN 7 SEPTEMBER 2026, direk gestel: 'Lets keep to the 400 each rule. We can make rekenaar + internet 450, since its merged. Also we can make selfoon + social media 450 since it has a supplement part. Video 2/lesson 2 can be shorter than the rest since its supplement. Maybe 250 words?' Dit is NIE 'n meting gedeel nie, en daarom is 'gemete_volume' die verkeerde basis. Die rekenkunde wat wel gedoen is: agt lesse teen 400 = 3200, plus les 2 teen 250, plus twee saamgevoegde lesse teen 450 = 900. Totaal 4350. Die Graad 4-band is 350 tot 450, dus le agt lesse binne die band, le twee lesse presies op die plafon (geen plafonuitsondering nodig) en le een les (les 2, teen 250) onder die vloer met 'n opgetekende vloeruitsondering. Dieselfde basis as die susterspesifikasies vervoer-op-water (800) en vervoer-in-die-lug (1200).",
+  "totale_begroting": 4350,
+  "verdeling_nota": "ELF LESSE, DEUR 'n MENS BESLIS, en die verdeling kom van die video af en nie van die strepielys af nie. Dit geld net vir Graad 4 Sosiale Wetenskappe: die videos vir hierdie vak is EERSTE gemaak en word nie herskryf nie, dus wen die video se lesverdeling. Twee plekke waar die video en die strepielys verskil: (1) LES 1 vat KABV se TWEE strepies onder 'Die oudste vorms van menslike kommunikasie' in een les saam - die vyf vorms EN die San as die voorbeeld - want die onderwyser leer hulle saam, en die vyf vorms sonder 'n volk om hulle aan te wys, is 'n lys sonder inhoud; (2) LES 10 vat die strepies 'Rekenaar' en 'Internet' saam. In albei gevalle bly DEKKING onaangeraak: al twaalf strepies word volledig gedek en al vyf vorms wat KABV by naam noem, bly verpligtend. Net die nate skuif. 'n SAAMGEVOEGDE LES KRY EEN LES SE BEGROTING, nie twee nie - samevoeging bestee lengte, dit koop dit nie - dus is les 10 die knapste les in die onderwerp en is les 1 die tweede knapste. Een les kom by wat GEEN strepie het nie: les 2 (antieke skryfstelsels) is 'n hele les aanvulling met 'n opgetekende regverdiging.",
+  "lesindeks_nota": "Die nommers 1 tot 11 hieronder is die posisie binne hierdie onderwerp, soos die skema vereis, en hulle stem toevallig ooreen met die video_naat-sleutels '1' tot '11', want die skrif se lesnommers loop ook 1 tot 11 vir hierdie kwartaal. Die JAARNOMMERING is 'n aparte ding en is nie hier beslis nie; moenie die nommers hieronder as jaarnommers lees nie.",
+  "assessering_nota": "KABV Afdeling 4.4 (bladsy 51, Graad 4): Kwartaal 4 se Geskiedenis-assessering is 'Toets/Eksamen', en die Einde van Jaar-eksamen tel 25% terwyl deurlopende assessering 75% tel. Twee gevolge wat werklik saak maak: (1) hierdie kwartaal se werk word geeksamineer, dus moet die teks op sy eie as hersieningsinstrument kan staan; (2) die eindeksamen dek die HELE jaar, wat die rede is waarom 'n omskrywing wat 'n vroeer kwartaal reeds vasgestel het, hier nie ryker mag word nie.",
+  "skryfnota": "DRIE DINGE KAN HIERDIE ELF LESSE LAAT MISLUK. (1) 'n Les wat net BESKRYF hoe 'n masjien werk, is 'n tegnologieles met 'n geskiedenisetiket. Elke les moet se wat VERANDER het en wat DIESELFDE gebly het - dit is die fokusvraag se twee helftes en dit is KABV se konsep 'verandering en kontinuiteit'. (2) GETALLE. Hierdie kwartaal is vol datums, en die video se naat merk die meeste daarvan as NOG NIE NAGEGAAN NIE. Skryf geen getal wat nie nagegaan is nie: waar die naat 'n dekade gee, skryf die dekade; waar dit 'n jaartal gee wat nie nagegaan is nie, skryf die gebeurtenis sonder die jaartal en laat die feitenasiener dit besleg. Die uitsonderings staan by naam in elke les se feiterisiko. (3) UITVINDERS. 'eerste', 'oudste' en 'uitgevind' is die gevaarlikste woordklas in 'n geskiedenisles, want die bewoording oral aanlyn is losser as die waarheid. Vier plekke in hierdie kwartaal het 'n versigtige vorm wat reeds nagegaan is en wat NIE 'verbeter' mag word nie - sien beskermde_woorde_nota.",
+  "video_naat_nota": "AL ELF video_naat-objekte se 'moenie_hierdie_bewerings_herhaal_nie' IS LEEG, en dit beteken NIE dat daar niks is om rondom te ry nie. Hierdie skrif is die feitelik sorgvuldigste van die vier: die pypllynoperateur het geen valse bewering gevind wat die teks moet vermy nie, maar wel bewerings wat BESKERM moet word en twee plekke waar die skrif 'n betwiste of los saak aanraak. Daardie waarskuwings sit in elke naat se 'let_op'-veld en is na die les se 'feiterisiko' oorgedra, want 'n skrywer wat net die veld lees wat vir hierdie doel bestaan, sou dit leeg vind en die saak beslis. Die twee is: LES 5 se QWERTY-verklaring (betwis - moenie 'n rede vir die herrangskikking skryf nie) en LES 7 se 'ongeveer veertig jaar' (los - moenie 'n getal skryf nie). DIE FEITENASIENER LEES HIERDIE OBJEKTE NOOIT, net soos hy die spesifikasie nooit lees nie.",
+  "woordkeuse_nota": "Twee inskrywings uit skills/wolkskool-inhoudstandaard/references/woordkeuse.md raak hierdie onderwerp. (1) Vermy 'heet' in die sin van 'word genoem' - dit sal hier maklik insluip ('die kode heet morsekode'); skryf 'ons noem dit' of noem die ding net. (2) 'bene' bly vir bene en 'pote' vir 'n dier se pote - raak net les 3 se posduiwe as hulle ooit beskryf word. EEN WAARSKUWING OOR DIE ALGEMENE ENERGIE-TEENOOR-KRAG-REEL: sy byt hier NIE. Waar les 10 of les 11 se 'n rekenaar of 'n foon is KRAGTIGER, gaan dit oor rekenkrag en nie oor 'n newton of 'n joule nie, en 'krag' is daar die regte woord.",
+  "beskermde_woorde_nota": "DAAR IS NOG GEEN INSKRYWING VIR HIERDIE ONDERWERP IN kaps/beskermde-woorde.json NIE, en hierdie beplanner skryf nie een nie - dit is Drico se beslissing. VIER KANDIDATE, en elkeen lees soos gewone Afrikaans wat 'n taalnasiener sal wil verbeter, wat presies is waarom hulle beskerming nodig het: (1) LES 6 se SOS-verklaring - SOS is NIE 'n afkorting nie en beteken nie 'Save Our Souls' of 'Save Our Ship' nie; dit is gekies omdat dit maklik is om te stuur en te herken. (2) LES 4 se sin oor 1943 - 'sommige van Tesla se idees was vroeer as Marconi s'n' is die akkurate vorm; 'die hof het beslis Tesla het die radio uitgevind' is 'n oordrywing. (3) LES 7 se woord GEPATENTEER, nooit 'uitgevind'. (4) LES 9 se 'televisie is nie deur een persoon uitgevind nie'. Al vier is reeds nagegaan en al vier is die vorm wat die meeste skoolmateriaal verkeerd kry. As Drico hulle vasstel, hoort hulle in beskermde-woorde.json MET DIE REDE, want 'n nasiener wat die rede verstaan, hou die lyn.",
+  "gedeelde_omskrywings_nota": "GEEN BEWOORDING WORD HIER VOORGESKRYF, met opset. Lees kaps/gedeelde-omskrywings-sosiale-wetenskappe-gr4.json - bin/hardloop.py spuit dit in elke uittreksel in, dus lees die skrywer en die dekkingsnasiener altyd die huidige lys. TWEE TERME IS DAAR REEDS BESLIS EN BIND DIE HELE VAK: 'artefak' en 'geskiedenis'. MOENIE HULLE HIER UIT NASKRYF NIE, en moenie 'n ryker weergawe skryf nie - 'geskiedenis' is boonop op 7 September 2026 deur Drico heropen omdat die vasgestelde bewoording met die Kwartaal 1-video bots, dus is die leer die enigste betroubare plek. Albei kan hier opduik: 'artefak' by les 1 se rotskuns en les 2 se kleitablette, 'geskiedenis' by les 2 en les 8. TERME WAT OOR LESSE HEEN LOOP EN NOG NIE BESLIS IS NIE, hier genoem sodat die versoeningsveeg hulle kry en nie sodat 'n beplanner hulle nou kies nie: 'kommunikasie' (al elf lesse), 'sein' (lesse 4, 6 en 7), 'boodskap' (byna elke les), 'netwerk' (lesse 10 en 11), 'draadloos' (lesse 4 en 11) en 'bron' (les 1, les 8 en die hele Kwartaal 1). Elke les lys sy terme in verwagte_begrippe met die bewoording ONGESTEL. Die bewoording word EEN keer beslis nadat al die lesse in konsep is, en dan word elke les deur die skrywer geroeteer.",
+  "geen_vrae": "Geen vraag-blokke in enige van hierdie elf lesse. Waar 'n bewys vroeer in 'n vraag sou geleef het, staan dit in die studieteks self - byvoorbeeld les 8 se ou foto's waarop mense ernstig lyk omdat hulle minute lank stil moes sit.",
+  "buite_bestek": [
+    "Die drie uur se hersiening en assessering wat KABV se inhoudstabel noem. Dit is die onderwyser se tyd, nie ons inhoud nie.",
+    "Enige verklaring van HOEKOM die QWERTY-toetsbord herrangskik is. Sien les 5 se feiterisiko - dit is betwis en die teks besleg dit nie.",
+    "Bill Gates en Microsoft. Sien les 10 se aanvulling_nota: dit is 'n beplande snoei uit die knapste les in die onderwerp, en Drico kan dit omkeer.",
+    "Die 1839-'selfie' (Robert Cornelius). Nagegaan en reg, maar gesnoei uit les 8 se begroting; die woord 'selfie' is boonop anachronisties vir 1839.",
+    "Die name van sosiale-media-platforms en hulle stigtingsjare. Ongegaan, en 'n les met 'n getal in verouder - sien les 11 se feiterisiko."
+  ],
+  "herkoms": {
+    "kaps_dokument": "KABV Gr 4-6 Sosiale Wetenskappe, Geskiedenis Graad 4, Kwartaal 4, Onderwerp 'Kommunikasie oor tyd heen', bladsy 37; plus Afdeling 2.4.3 en 2.4.4 (bladsye 10-11) en Afdeling 4.4 (bladsy 51). Deur hierdie beplanner self in kaps/dokumente/intersen-gr4-6/07_Sosiale_Wetenskappe_Graad_4-6_KABV.pdf gelees.",
+    "profiel_konfig": "GEEN - sien begroting_basis_nota.",
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "videoskrif_gesien": false,
+    "nota": "Die beplanner het GEEN handboek gesien nie en GEEN videoskrif gesien nie. Die elf video_naat-objekte is deur die pyplynoperateur uit die skrifte gedistilleer en woordeliks hierheen gekopieer; hulle is 'n terminologie- en foutnaat, nie 'n bron vir inhoud en nie 'n bron vir struktuur nie. Die kern kom uit KABV. Die lesverdeling kom uit die video, wat 'n opgetekende uitsondering vir hierdie vak is."
+  },
+  "lesse": [
+    {
+      "nommer": 1,
+      "titel": "Voor enigiemand geskryf het",
+      "titel_nota": "Nie die KABV-etiket nie. Die titel se die les se boog: mense het volledig gekommunikeer voordat daar 'n enkele geskrewe letter was. Dit maak ook die brug na les 2. Die skrywer mag dit verbeter - 'n titel is 'n heldeopskrif.",
+      "kaps_punt": "Die oudste vorms van menslike kommunikasie: Taal, simbole, liedere, kuns en dans; San-jagter-versamelaars (die eerste mense in Suider-Afrika) as 'n voorbeeld",
+      "kaps_punt_nota": "TWEE KABV-STREPIES IN EEN LES, en dit is die video se verdeling. Die vyf vorms is 'n lys; die San is die voorbeeld waardeur KABV wil he die lys moet geleer word. Hulle apart onderrig sou 'n lys sonder inhoud en 'n volk sonder 'n punt lewer.",
+      "begroting": 400,
+      "begrotingsnota": "400 is Drico se getal vir die kwartaal (sien begroting_basis_nota), nie 'n meting gedeel nie. HIERDIE LES SE REKENKUNDE IS VOORAF GEDOEN, want dit is die tweede knapste les in die onderwerp: twee strepies in een les se begroting. Sewe kern-punte teen 400 is sowat 57 woorde elk. Die plan: San-inleiding 50, taal 55, simbole 50, liedere 45, kuns 60, dans 55, en die kontinuiteitsluiting 40 - saam sowat 355, met sowat 45 woorde speling. DIE WOORDELYS DOEN DIE OMSKRYF: sewe tot agt begrip-inskrywings is steierwerk en tel nie teen die begroting nie, dus doen die studieteks die NOEM en die ONDERSKEI. Die studieteks moet steeds op sy eie staan.",
+      "kern": [
+        "WIE DIE SAN IS: van die eerste mense in Suider-Afrika, jagter-versamelaars wat nomadies geleef het - hulle het rondgetrek agter water en kos aan. Skryf 'van die eerste', nooit 'die eerste', selfs al gebruik KABV se strepie die korter vorm.",
+        "TAAL: die San se tale dra unieke klikklanke. Met taal het hulle stories vertel, gevare aangekondig en kennis van geslag tot geslag oorgedra - kennis wat nerens neergeskryf was nie, want daar was nog geen skrif nie.",
+        "SIMBOLE: 'n simbool is iets wat vir iets anders staan. Skulpe was nie net versiering nie: die styl van 'n halssnoer kon wys aan watter familie of groep iemand behoort, dus kon 'n mens iets van iemand aflees sonder dat een woord gepraat word.",
+        "LIEDERE: sang was deel van hoe die groep bymekaargekom het en hoe stories en kennis oorgedra is. HIERDIE ITEM VAL GEWOONLIK UIT 'n SAN-LES EN MAG NIE - KABV noem liedere by naam. Hou die bewering by wat 'n bron kan steun en moenie 'n besonderheid oor 'n spesifieke lied byvoeg nie; sien feiterisiko.",
+        "DANS: die San het spesiale danse uitgevoer, en 'n sjamaan het deur die dans probeer kommunikeer - soms om reen te vra, soms vir genesing. Dans is hier 'n VORM VAN KOMMUNIKASIE en nie bloot 'n gebruik nie; dit is waarom KABV dit in hierdie lys plaas. HIERDIE ITEM VAL SAAM MET LIEDERE GEWOONLIK UIT.",
+        "KUNS: rotskuns is die bekendste manier - groot diere, jagtonele en seremonies is op klip geskilder. Die skilderye was destyds boodskappe, en vandag help hulle ons om die San se storie te verstaan, want hulle is vir ons 'n bron oor mense wat niks neergeskryf het nie.",
+        "WAT DIESELFDE GEBLY HET (die fokusvraag se tweede helfte, en hierdie les se aandeel daarin): al vyf hierdie vorms word vandag nog gebruik - ons praat, ons gebruik simbole, ons sing, ons maak kuns en ons dans. Die vorms het nie weggeval nie; daar het net masjiene bygekom."
+      ],
+      "aanvulling": [],
+      "aanvulling_nota": "Geen, en dit is 'n beplande snoei. Twee strepies se ses verpligte dele plus die kontinuiteitsluiting vul die 400; enige aanvulling sou 'n item verdring wat KABV by naam noem, en 'n genoemde item is nie teen 'n woordtelling onderhandelbaar nie.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "Geen, en dit is die normale antwoord. Die toets is nie of die konsep moeilik is nie, maar of daar enige manier is om dit konkreet te se. 'n Halssnoer wat wys aan watter groep jy behoort, 'n skildery op 'n rots en 'n dans is alles konkreet en sigbaar.",
+      "termdig": true,
+      "verwagte_begrippe": [
+        "kommunikasie",
+        "San",
+        "jagter-versamelaars",
+        "nomadies",
+        "simbool",
+        "rotskuns",
+        "sjamaan",
+        "klikklanke"
+      ],
+      "verwagte_begrippe_nota": "Agt inskrywings; die woordelys is waar hierdie les se las gedra word. GEEN BEWOORDING WORD HIER VOORGESKRYF - sien gedeelde_omskrywings_nota. 'kommunikasie' loop deur al elf lesse en 'n bewoording daarvoor word EEN keer beslis, nie hier nie.",
+      "feiterisiko": [
+        "'DIE EERSTE MENSE': KABV se strepie skryf 'die eerste mense in Suider-Afrika'. Skryf 'van die eerste mense'. Die absolute vorm is nie wat bronne steun nie, en 'eerste' is die gevaarlikste woordklas in 'n geskiedenisles.",
+        "DIE LANDSLEUSE: die video se Suid-Afrika se leuse kom uit 'n San-taal. NOG NIE NAGEGAAN NIE. Skryf dit slegs as die feitenasiener dit bevestig; dit is nie 'n KABV-vereiste nie en die les verloor niks daarsonder nie.",
+        "DIE SKEPPER SE NAAM: die video noem 'n skepper genaamd /Kaggen. Die naam EN die rol is NOG NIE NAGEGAAN NIE, en die San is nie een groep met een oortuiging nie. Skryf die dans sonder om 'n naam te noem, tensy die feitenasiener die naam en die rol bevestig.",
+        "LIEDERE: moenie 'n spesifieke lied, 'n spesifieke geleentheid of 'n meganisme beskryf wat nie nagegaan is nie. Die verpligte deel is dat liedere 'n vorm van kommunikasie was; die besonderhede is nie verpligtend nie.",
+        "MOENIE DIE SAN IN DIE VERLEDE TOESLUIT NIE. Skryf nie of impliseer nie dat die San verdwyn het of dat niemand meer so leef nie. Die les gaan oor hoe hulle gekommunikeer het, in die verlede tyd, sonder 'n bewering oor vandag."
+      ],
+      "historiese_konsepte": [
+        "Historiese bronne en getuienis (Afd. 2.4.4): rotskuns is 'n bron waaruit ons oor mense leer wat niks geskryf het nie.",
+        "Verandering en kontinuiteit (Afd. 2.4.4): al vyf die oudste vorms is vandag nog in gebruik."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van 'Kommunikasie oor tyd', Les 1: die San. HIERDIE LES DEK ALBEI KABV-STREPIES onder 'Die oudste vorms van menslike kommunikasie'.",
+        "woorde_wat_die_video_gebruik": [
+          "kommunikeer",
+          "nomadies",
+          "jagter-versamelaars",
+          "simbole",
+          "rotskuns",
+          "sjamaan",
+          "klikklanke"
+        ],
+        "wat_die_video_dek": [
+          "Die San was van die eerste mense wat in Suid-Afrika gewoon het; hulle was NOMADIES (het rondgetrek agter water en kos aan) en jagter-versamelaars.",
+          "Hulle het AL VYF dinge gebruik wat KABV noem: taal, simbole, liedere, dans en kuns - die video noem hulle in een sin, plus skulpe.",
+          "TAAL: die San se taal het unieke klikklanke, en Suid-Afrika se landsleuse kom uit 'n San-taal; met taal het hulle stories vertel, gevare aangekondig en kennis van geslag tot geslag oorgedra.",
+          "SIMBOLE: skulpe was nie net versiering nie - die styl van 'n halssnoer kon wys aan watter familie of groep jy behoort.",
+          "DANS: die San het in 'n skepper genaamd /Kaggen geglo, en 'n sjamaan het spesiale danse uitgevoer om met hom te kommunikeer - soms om reen te vra, soms vir genesing.",
+          "KUNS: rotskuns is die bekendste manier - groot diere, jagtonele, seremonies. Die skilderye was boodskappe, en vandag help hulle ons hul storie verstaan."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "DIE HELE KABV-KERN VAN HIERDIE AFDELING SIT IN HIERDIE EEN LES. Maak seker AL VYF dinge kom deur - taal, simbole, liedere, kuns EN dans. Liedere en dans is die twee wat gewoonlik uit 'n San-les val. NOG NIE NAGEGAAN NIE: die landsleuse se herkoms, /Kaggen se naam en rol, en of 'die eerste mense in Suid-Afrika' die vorm is wat 'n bron sal steun."
+      },
+      "fokusvraag_skakel": "Lewer die vertrekpunt van die hele antwoord: hoe mense gekommunikeer het voordat daar enige skrif of masjien was, en dat daardie vyf vorms vandag nog gebruik word.",
+      "fokusvraag_skakel_nota": "Hierdie les dra die KONTINUITEITSHELFTE se eerste en sterkste stuk, want dit is die enigste les waar 'wat dieselfde gebly het' oor duisende jare strek. Dit dra GEEN deel van die veranderingshelfte oor masjiene nie - dit is lesse 3 tot 11 se werk. Die dekkingsnasiener hou die konsep aan hierdie sin en aan niks wyer nie."
+    },
+    {
+      "nommer": 2,
+      "titel": "Merke wat bly staan",
+      "kaps_punt": "Geen inhoudstrepie. KABV noem antieke skryfstelsels nerens in hierdie onderwerp nie. Hierdie hele les is aanvulling, en dit sluit aan by die strepie 'Taal, simbole' onder 'Die oudste vorms van menslike kommunikasie' en by KABV Afdeling 2.4.4 se konsep 'Historiese bronne en getuienis'.",
+      "begroting": 250,
+      "begrotingsnota": "250 is Drico se getal van 7 September 2026 vir hierdie een les: 'Video 2/lesson 2 can be shorter than the rest since its supplement. Maybe 250 words?' Dit is nie 'n meting gedeel nie. Die rekenkunde: vyf kern-punte teen 250 is 50 woorde elk. Die plan: aanleiding 45, wigskrif 50, hierogliewe 50, alfabet 45, slot 35 - saam sowat 225, met sowat 25 woorde speling. TWEE SINNE PER SKRYFSTELSEL, nie drie nie; die woordelys doen die omskryf.",
+      "vloer_uitsondering": "Onder die Graad 4-vloer van 350, teen 250, deur Drico se beslissing van 7 September 2026. DIE REDE IS DIE INHOUD SE STATUS EN NIE 'n GEBREK AAN STOF NIE: hierdie is die enigste les in die kwartaal wat GEEN KABV-strepie dek nie - dit is 'n hele les aanvulling - en 'n les wat niks verpligs dra nie, mag nie ewe veel van 'n leerder se hersieningstyd eis as 'n les wat 'n verpligte strepie dra nie. Om dit tot 350 op te blaas sou dit vul met kleur ten koste van die tien lesse wat wel strepies dek, en dit sou die aanvullingsaandeel van die onderwerp sonder rede laat groei. Die 250 hou die aanvulling op 5,7% van die onderwerp se 4350 woorde.",
+      "kern": [
+        "DIE AANLEIDING: mense het minder nomadies geword en begin boer, dorpe het ontstaan en handel het begin. Toe kom die probleem wat die hele les dra - hoe hou jy rekord van wat iemand skuld, van graan en van wette, en hoe bewaar jy jou geskiedenis as 'n mens dit net kan onthou en vertel?",
+        "MESOPOTAMIE, WIGSKRIF: klein wigvormige merke wat met 'n rietstokkie in nat klei gedruk is. Dit is gebruik om handel te bestuur, wette neer te skryf en stories te bewaar.",
+        "EGIPTE, HIEROGLIEWE: prentjies waar elke prentjie 'n woord of 'n klank voorstel, geskryf op tempelmure en in grafte. Daaruit leer ons van farao's, van godsdiens en van die daaglikse lewe.",
+        "GRIEKELAND, 'n ALFABET: letters wat klanke voorstel, en ons skryf vandag nog met 'n alfabet wat op dieselfde manier werk. SKRYF DIT IN HIERDIE VERSIGTIGE VORM: moenie beweer dat ons alfabet uit die Griekse een kom of daardeur geinspireer is nie - sien feiterisiko.",
+        "DIE SLOT, EN DIT IS DIE LES SE PUNT: antieke en moderne skryfstelsels lyk heeltemal verskillend, maar hulle doen dieselfde werk - hulle bewaar inligting, dra stories oor en keer dat die verlede verdwyn."
+      ],
+      "aanvulling": [
+        {
+          "item": "Die hele les: antieke skryfstelsels (wigskrif, hierogliewe en die Griekse alfabet) as die stap tussen die oudste vorms van kommunikasie en die moderne vorms.",
+          "regverdiging": "KABV noem antieke skryfstelsels nerens in hierdie onderwerp nie, dus is dit aanvulling en dit moet as aanvulling geld. Die regverdiging staan op drie bene. EEN: sonder hierdie les spring die onderwerp van rotskuns direk na die posstelsel, en dan het die leerder nooit ontmoet HOE 'n boodskap in die eerste plek neergeskryf kon word nie - die posstelsel dra 'n brief, en die brief moes eers moontlik word. Die vraag 'wat het verander?' het dus 'n gat presies waar die grootste verandering in die hele onderwerp le. TWEE: KABV se eie strepie 'Taal, simbole' reik hierheen, want 'n skryfstelsel is presies simbole wat vir taal staan; hierdie les brei daardie strepie uit eerder as om iets nuuts in te bring. DRIE: KABV Afdeling 2.4.4 se eerste konsep is 'historiese bronne en getuienis' en die inhoudstabel beveel dat Afdeling 2 by elke inhoudsonderwerp geintegreer word - geskrewe bronne begin hier, en die hele vak rus op bronne. DIE PRYS WORD BETAAL EN NIE WEGGESTEEK NIE: die les kry 250 woorde in plaas van 400, en dit dra geen deel van enige verpligte strepie nie, dus verloor geen KABV-item hier lengte nie."
+        }
+      ],
+      "aanvulling_nota": "'n HELE LES VAN AANVULLING, en dit moet met die oe oop gelees word. Die 25%-perk PER LES word hier bewustelik oorskry, want 'n hele les kan nie 'n kwart van homself wees nie. Die perk word oor die ONDERWERP gehou: 250 van 4350 is 5,7%, en saam met les 11 se sosiale-media-helfte (sowat 112 woorde) is die onderwerp se totale aanvulling sowat 8,3% - ruim binne 25%. Die ander prys is dat lesse 1 en 3 tot 11 die verpligte las dra: geen KABV-strepie en geen deel van 'n strepie word slegs hier gelewer nie.",
+      "moeilike_konsepte": [],
+      "termdig": true,
+      "verwagte_begrippe": [
+        "wigskrif",
+        "kleitablet",
+        "hierogliewe",
+        "alfabet",
+        "skryfstelsel"
+      ],
+      "verwagte_begrippe_nota": "Vyf inskrywings. Die woordelys dra hierdie les, want 250 woorde studieteks kan drie skryfstelsels noem en onderskei maar nie ook omskryf nie. GEEN BEWOORDING WORD HIER VOORGESKRYF.",
+      "feiterisiko": [
+        "DIE ALFABET SE HERKOMS IS DIE HOOFRISIKO. Die video se ons moderne alfabet is deur die Griekse een 'geinspireer'. NOG NIE NAGEGAAN NIE, en die pad is in elk geval nie direk nie - die Latynse alfabet stam via Etrurie af. SKRYF GEEN AFSTAMMING NIE. Die veilige en volledig ware vorm: die Grieke het 'n alfabet gebruik waarin letters klanke voorstel, en ons alfabet werk vandag nog so.",
+        "MOENIE 'n SKOON OPEENVOLGING BEWEER NIE. Wigskrif, hierogliewe en die Griekse alfabet het nie netjies na mekaar gevolg nie en hulle het tydperke gedeel. Skryf hulle as drie plekke se antwoorde op dieselfde probleem, nie as drie trappe nie.",
+        "'DIE EERSTE SKRIF': moenie enige van die drie 'die eerste skrif ter wereld' noem nie.",
+        "DATUMS: die video gee geen jaartal en die les het nie een nodig nie. Skryf geen jaartal en geen 'x duisend jaar gelede' wat nie nagegaan is nie.",
+        "HIEROGLIEWE: 'elke prentjie stel 'n woord of 'n klank voor' is die video se vorm en dit is die versigtige een. Moenie dit vereenvoudig tot 'elke prentjie is 'n woord' nie."
+      ],
+      "historiese_konsepte": [
+        "Historiese bronne en getuienis (Afd. 2.4.4): geskrewe bronne begin hier, en die les se slot se presies waarom bronne bestaan.",
+        "Oorsaak en gevolg (Afd. 2.4.4): boerdery en handel het die behoefte aan rekords geskep, en skrif was die gevolg."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 2: antieke skryfstelsels. HIERDIE HELE LES IS AANVULLING - KABV noem antieke skryfstelsels nerens in hierdie onderwerp nie. Begroting 250, laer as die res, juis daarom.",
+        "woorde_wat_die_video_gebruik": [
+          "wigskrif",
+          "kleitablette",
+          "hierogliewe",
+          "alfabet"
+        ],
+        "wat_die_video_dek": [
+          "Die aanleiding: mense het minder nomadies geword en begin boer; dorpe het ontstaan; handel het begin. Toe kom die probleem - hoe hou jy rekord van skuld, graan en wette, en hoe bewaar jy jou geskiedenis?",
+          "MESOPOTAMIE, WIGSKRIF: klein wigvormige merke met 'n rietstokkie in nat klei gedruk, gebruik om handel te bestuur, wette neer te skryf en stories te bewaar.",
+          "EGIPTE, HIEROGLIEWE: prentjies waar elke prentjie 'n woord of klank voorstel, geskryf op tempelmure en grafte; daaruit leer ons van farao's, godsdienste en die daaglikse lewe.",
+          "GRIEKE, 'n ALFABET: letters wat klanke voorstel, en ons moderne alfabet is daardeur geinspireer.",
+          "Die slot: antieke en moderne skryfstelsels lyk verskillend maar het dieselfde doel - inligting bewaar, stories oordra, keer dat die verlede verdwyn."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "AANVULLING MET 'n GOEIE REGVERDIGING: KABV se 'Taal, simbole' in die oudste-vorms-afdeling reik hierheen, en hierdie les lei natuurlik na die posstelsel en die tikmasjien. Maar dit IS aanvulling en het 'n opgetekende regverdiging nodig. NOG NIE NAGEGAAN NIE: al drie stelsels se besonderhede, en veral of die moderne alfabet 'geinspireer' deur die Griekse een die regte vorm is (die Latynse alfabet stam via Etrurie af)."
+      },
+      "fokusvraag_skakel": "Lewer die stap waar 'n boodskap vir die eerste keer bewaar kon word: van onthou en vertel na neerskryf, sodat 'n boodskap ook oor TYD en nie net oor afstand kon reis nie.",
+      "fokusvraag_skakel_nota": "Klein en presies gestel, want 250 woorde koop min. Hierdie les dra niks van die afstandshelfte nie - dit is les 3 se werk - en niks oor moderne masjiene nie."
+    },
+    {
+      "nommer": 3,
+      "titel": "'n Brief op reis",
+      "kaps_punt": "Posstelsel",
+      "begroting": 400,
+      "begrotingsnota": "400 is Drico se kwartaalgetal, nie 'n meting gedeel nie. Sewe kern-punte teen 400 is sowat 57 woorde elk. Die plan: die probleem 35, posklippe 60, perde 35, posduiwe 45, hoe dit verbeter het 65, waarom dit saak maak 90, kontinuiteitsluiting 40 - saam sowat 370. Die 'waarom dit saak maak'-punt kry doelbewus die meeste woorde, want dit is die enigste plek in die onderwerp waar 'n leerder ontmoet hoe nuus voor die radio versprei het.",
+      "kern": [
+        "DIE PROBLEEM: voor 'n posstelsel kon 'n boodskap net so vinnig reis as wat 'n mens dit kon dra. Die brief van les 2 se skryfstelsels moes nou 'n pad kry.",
+        "POSKLIPPE, EN DIT IS DIE SUID-AFRIKAANSE ANKER: seevaarders het briewe onder sogenaamde posklippe gelos en gehoop 'n ander skip sou dit kry en verder neem. Dit is 'n stelsel wat op geluk staatgemaak het, en dit is presies wat later verander het.",
+        "PERDE: ruiters het dae lank gereis om 'n enkele brief af te lewer.",
+        "POSDUIWE: in sommige lande is duiwe gebruik, want hulle kon hul pad huis toe vind oor lang afstande. Stadig, soms gevaarlik, maar dit het gewerk. Hou die kwantifiseerder 'in sommige lande' - sien feiterisiko.",
+        "HOE DIT VERBETER HET: poskantore is gebou, seels is ingevoer en posbusse is opgerig, sodat 'n mens 'n brief kon stuur sonder om self 'n draer te vind. Treine het pos vinniger vervoer, en later vragmotors en vliegtuie.",
+        "WAAROM DIT SAAK MAAK, EN DIT IS DIE LES SE STERKSTE PUNT: voor radio, televisie en die internet het mense van belangrike gebeure gehoor DEUR briewe, deur koerante wat per pos versprei is en deur amptelike kennisgewings. Die pos het gehelp om nuwe wette bekend te maak, verkiesings aan te kondig, gebeure te rapporteer en families te verbind. Sonder hierdie punt is die les 'n les oor briewe; met dit is dit 'n les oor hoe 'n hele land iets te wete gekom het.",
+        "WAT DIESELFDE GEBLY HET (hierdie les se aandeel in die fokusvraag se tweede helfte): die posstelsel bestaan vandag nog en werk saam met moderne tegnologie. Die idee het nooit verander nie - 'n boodskap moet by iemand uitkom."
+      ],
+      "aanvulling": [],
+      "aanvulling_nota": "Geen. Die strepie is breed en die sewe kern-punte is wat 'n posstelsel-les minimaal vereis; daar is geen persoon wat hierdie deurbraak anker soos Benz die motor anker nie.",
+      "moeilike_konsepte": [],
+      "termdig": true,
+      "verwagte_begrippe": [
+        "posstelsel",
+        "posklip",
+        "posduif",
+        "poskantoor",
+        "seel",
+        "posbus"
+      ],
+      "verwagte_begrippe_nota": "Ses inskrywings. 'seel' het 'n omskrywing nodig wat se wat dit DOEN (dit wys die pos is betaal) en nie net wat dit is nie, anders leer die blok niks.",
+      "feiterisiko": [
+        "POSKLIPPE IS NOG NIE NAGEGAAN NIE. Dit is 'n werklike Suid-Afrikaanse ding by Mosselbaai, maar die besonderhede moet nagegaan word - wie, wanneer, en of 'posklip' die regte naam is. Skryf die praktyk sonder 'n datum, 'n naam of 'n getal totdat die feitenasiener dit besleg.",
+        "POSDUIWE: 'in sommige lande' is die video se kwantifiseerder en dit is NOG NIE NAGEGAAN NIE. Moenie dit na 'oral' of 'in die meeste lande' verbreed nie, en moenie dit tot een land vernou nie. 'n Versagting mag die kwantifiseerder vernou, nooit die onderwerp nie.",
+        "MOENIE 'n SKOON OPEENVOLGING BEWEER NIE: posklippe, perde, duiwe, treine, vragmotors en vliegtuie het mekaar nie netjies opgevolg nie en sommige het langs mekaar bestaan.",
+        "DATUMS EN GETALLE: skryf geen jaartal vir die eerste poskantoor, die eerste seel of enigiets anders in hierdie les nie. Niks daarvan is nagegaan nie.",
+        "MOENIE SE DIE POS IS DOOD NIE. Die kontinuiteitspunt is dat dit nog bestaan; 'n bewering dat niemand meer briewe stuur nie, is 'n bewering en dit is nie nagegaan nie."
+      ],
+      "historiese_konsepte": [
+        "Verandering en kontinuiteit (Afd. 2.4.4): die draer verander van 'n skip se geluk na 'n stelsel, maar die doel bly dieselfde.",
+        "Oorsaak en gevolg (Afd. 2.4.4): 'n betroubare pos het veroorsaak dat wette, verkiesings en nuus 'n hele land kon bereik."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 3: die posstelsel. KABV-strepie.",
+        "woorde_wat_die_video_gebruik": [
+          "posstelsel",
+          "posklippe",
+          "posduiwe",
+          "poskantore",
+          "seels",
+          "posbusse"
+        ],
+        "wat_die_video_dek": [
+          "POSKLIPPE, en dit is 'n Suid-Afrikaanse anker: seevaarders het briewe onder sogenaamde posklippe gelos en gehoop 'n ander skip sou dit kry en verder neem.",
+          "Perde: ruiters het dae lank gereis om 'n enkele brief af te lewer.",
+          "Posduiwe, in sommige lande - hulle kon hul pad huis toe vind oor lang afstande. Stadig, soms gevaarlik, maar dit het gewerk.",
+          "Hoe dit verbeter het: poskantore gebou, seels ingevoer, posbusse opgerig; treine het pos vinniger vervoer, later vragmotors en vliegtuie.",
+          "WAAROM DIT SAAK MAAK, en dit is die les se sterkste punt: voor radio, televisie en internet het mense van belangrike gebeure gehoor DEUR briewe, deur koerante wat per pos versprei is, en deur amptelike kennisgewings. Die pos het gehelp om nuwe wette bekend te maak, verkiesings aan te kondig, gebeure te rapporteer en families te verbind.",
+          "Vandag werk die posstelsel saam met moderne tegnologie; die idee bly dieselfde - 'n boodskap moet by iemand uitkom."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "NOG NIE NAGEGAAN NIE: die posklippe (dit is 'n werklike Suid-Afrikaanse ding by Mosselbaai, maar die besonderhede moet nagegaan word), en of posduiwe 'in sommige lande' die regte kwantifiseerder is."
+      },
+      "fokusvraag_skakel": "Lewer die eerste helfte van die afstandsantwoord: hoe 'n geskrewe boodskap 'n betroubare pad na 'n ander mens gekry het, en hoe 'n land daardeur van sy eie nuus gehoor het.",
+      "fokusvraag_skakel_nota": "Die SPOED-helfte le by lesse 4 en 6, met opset - hierdie les se boodskappe neem dae. Om ook spoed te belowe, sou belowe wat die begroting nie kan koop nie."
+    },
+    {
+      "nommer": 4,
+      "titel": "Stemme deur die lug",
+      "kaps_punt": "Radio",
+      "begroting": 400,
+      "begrotingsnota": "400 is Drico se kwartaalgetal. Vyf kern-punte plus twee aanvullingsitems. Die plan: wat verander het 35, hoe dit werk 55, hoekom dit gewild was 75, wat dit verander het 60, die eli10-blok tel NIE teen die begroting nie (steierwerk), Marconi 60 en die 1943-sin 40. Saam sowat 325 studiewoorde, met sowat 75 speling. DIE AANVULLING IS 100 VAN DIE 400, presies op die 25%-perk: Marconi 60 en Tesla 40. Dit is die perk en nie 'n teiken nie - as die skrywer minder gebruik, is dit beter.",
+      "kern": [
+        "WAT DIE RADIO VERANDER HET: tot hier moes 'n boodskap 'n draer he - 'n mens, 'n perd, 'n duif of 'n draad. Die radio stuur 'n boodskap deur die lug, sonder enige draad.",
+        "HOE DIT WERK: 'n radio stuur radiogolwe deur die lug, en die golwe dra klank - stemme, musiek en geluide. Aan die ander kant verander 'n radio-ontvanger die golwe weer in klank.",
+        "HOEKOM DIT SO GEWILD GEWORD HET, en dit is die belangrikste punt van die les: die radio kon DUISENDE mense op dieselfde tyd bereik, oor groot afstande, en selfs mense in afgelee gebiede kon belangrike nuus hoor. Dit is die eerste keer in hierdie onderwerp dat een boodskap baie mense gelyk bereik.",
+        "WAT DIT IN HUISE VERANDER HET: gesinne het om die radio bymekaargekom vir nuus, musiek, sportuitslae en dramas. Die radio het 'n plek in die huis gehad soos 'n meubelstuk.",
+        "WAT DIESELFDE GEBLY HET: ons luister vandag nog radio - in motors, op selfone en op die internet - net nie meer om 'n groot kas in die sitkamer nie."
+      ],
+      "aanvulling": [
+        {
+          "item": "Guglielmo Marconi: hy het in die 1890's suksesvolle radioseine begin stuur, en die vroee sein was nie musiek of 'n stem nie, net 'n eenvoudige sein - genoeg om te bewys dat 'n boodskap deur die lug kan reis. Later ook radiogolwe oor die Atlantiese Oseaan, en 'n Nobelprys vir Fisika vir sy werk met radiogolwe.",
+          "regverdiging": "KABV noem geen persoon by die strepie 'Radio' nie, dus is dit aanvulling. Die regverdiging is konsekwentheid met KABV se EIE benadering: KABV noem 'Wright broers en die uitvinding van die eerste vliegtuig' waar 'n persoon 'n deurbraak anker, en hierdie projek het dieselfde patroon reeds by George Stephenson en Karl Benz in die vervoeronderwerp toegepas. Sonder die oomblik waarop iemand BEWYS het dat 'n sein deur die lug kan reis, is 'n radioles net 'n beskrywing van 'n apparaat en dra dit geen 'wanneer' en geen 'hoe het ons dit geweet' nie - en Afdeling 2.4.4 se konsep 'tyd en chronologie' vereis presies dit."
+        },
+        {
+          "item": "Dat groot uitvindings dikwels gebeur wanneer baie slim mense saam en tegelyk aan dieselfde probleem dink: in 1943 het die Amerikaanse Hooggeregshof erken dat sommige van Tesla se idees vroeer as Marconi s'n was.",
+          "regverdiging": "Ook aanvulling, en die regverdiging is nie kleur nie maar KABV Afdeling 2.4.4 se konsep 'multi-perspektief benadering' saam met 'historiese bronne en getuienis': die vraag wie iets uitgevind het, word beantwoord uit bronne en die antwoord is dikwels nie een naam nie. Sonder hierdie punt leer die les die teenoorgestelde van wat die konsep vra, naamlik dat een man die radio gemaak het. Dit is boonop die enigste plek in die hele kwartaal waar die leerder ontmoet dat 'n uitvinding betwis kan word, en dit maak les 7 se 'gepatenteer' en les 9 se 'nie deur een persoon uitgevind nie' verstaanbaar in plaas van vreemd. DIE BEWOORDING IS DIE HELE WAARDE - sien feiterisiko."
+        }
+      ],
+      "aanvulling_nota": "Twee items teen sowat 100 woorde in 'n 400-woord-les: presies die 25%-perk. Hulle is nie los stukke nie - die tweede korrigeer wat die eerste alleen sou impliseer. As lengte druk, kort die MARCONI-item (die Nobelprys en die Atlantiese oorsteek kan albei val); die 1943-sin is een sin en moet bly soos hy is.",
+      "moeilike_konsepte": [
+        "Hoe 'n boodskap deur die lug kan reis sonder enige draad"
+      ],
+      "moeilike_konsepte_nota": "DIE ENIGSTE ELI10-BLOK IN DIE HELE ONDERWERP, en dit is met opset een. Elke ander les kan konkreet gestel word - 'n brief in 'n sak, 'n metaalstrokie wat teen 'n lint slaan, 'n membraan wat bewe, 'n kabel onder die see. Hierdie een kan nie: daar is niks om te sien, niks om aan te raak en geen draad om te volg nie, en 'n leerder wat nie 'n beeld daarvoor kry nie, hou 'radiogolwe' as 'n woord sonder inhoud. LET OP: die analogie self is 'n feiterisiko en die feitenasiener toets die AFBEELDING en nie net die sinne nie - sien feiterisiko.",
+      "termdig": false,
+      "verwagte_begrippe": [
+        "radiogolwe",
+        "draadloos",
+        "sein"
+      ],
+      "verwagte_begrippe_nota": "Drie inskrywings. 'sein' loop ook deur lesse 6 en 7, dus is dit 'n term wat die versoeningsveeg moet vasstel - sien gedeelde_omskrywings_nota.",
+      "feiterisiko": [
+        "BESKERM HIERDIE SIN, MOENIE DIT 'VERBETER' NIE: 'In 1943 het die Amerikaanse Hooggeregshof erken dat sommige van Tesla se idees vroeer as Marconi s'n was.' DIT IS DIE AKKURATE VORM en dit is reeds nagegaan. Die algemene weergawe - 'die Hooggeregshof het beslis Tesla het die radio uitgevind' - is 'n OORDRYWING: die saak van 1943 het oor patentvoorrang gegaan in 'n eis van Marconi se maatskappy teen die Amerikaanse regering, en die hof het vroeere werk, insluitend Tesla se werk, erken. 'n Latere leser sal hierdie sin as 'n fout wil regstel. Dit is nie een nie.",
+        "MOENIE SE MARCONI HET DIE RADIO UITGEVIND NIE. Skryf dat hy suksesvolle radioseine gestuur het en bewys het dat 'n boodskap deur die lug kan reis.",
+        "DATUMS: 1895, 1901, die 1903-boodskap tussen Roosevelt en Edward VII, en die Nobelprys se jaar is ALMAL NOG NIE NAGEGAAN NIE. Skryf 'in die 1890's' soos die video, en skryf enige ander gebeurtenis sonder 'n jaartal totdat die feitenasiener dit besleg. 1943 is die uitsondering: daardie een is nagegaan.",
+        "DIE ELI10-ANALOGIE: die feitenasiener toets die AFBEELDING. Rimpelinge wat oor water uitkring is 'n aanvaarbare beeld vir 'n golf wat sonder 'n draer uitgaan; 'n beeld wat impliseer dat die lug soos water self na buite BEWEEG of dat 'n mens die golf kan sien, is dit nie. Radiogolwe het boonop geen lug nodig nie, dus mag die analogie nie leer dat die lug die golf dra soos water 'n boot dra nie. Kies 'n beeld wat net UITKRING en GELYK BEREIK oordra.",
+        "MOENIE 'n GETAL VIR LUISTERAARS SKRYF NIE. 'duisende mense op dieselfde tyd' is die video se vorm en is veilig; enige spesifieke getal is nie nagegaan nie."
+      ],
+      "historiese_konsepte": [
+        "Multi-perspektief benadering (Afd. 2.4.4): wie 'n uitvinding gemaak het, kan uit meer as een gesigspunt gesien word.",
+        "Oorsaak en gevolg (Afd. 2.4.4): een boodskap wat duisende gelyk bereik, het verander hoe 'n land nuus ontvang."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 4: die radio. KABV-strepie. HIERDIE LES SE TESLA-SIN IS SORGVULDIG GESTEL EN MOET BESKERM WORD.",
+        "woorde_wat_die_video_gebruik": [
+          "radiogolwe",
+          "draadloos",
+          "sein"
+        ],
+        "wat_die_video_dek": [
+          "Marconi het in die 1890's suksesvolle radioseine begin stuur; in 1895 'n draadlose sein - nie musiek of 'n stem nie, net 'n eenvoudige sein, maar genoeg om te bewys boodskappe kan deur die lug reis. Hy het later die Nobelprys vir Fisika vir sy werk met radiogolwe ontvang.",
+          "1901: die eerste radiogolwe oor die Atlantiese Oseaan. 1903: 'n radioboodskap tussen president Theodore Roosevelt en koning Edward VII.",
+          "HOE DIT WERK: 'n radio stuur radiogolwe deur die lug, en die golwe dra klank - stemme, musiek en geluide. Geen drade, geen perde, geen posduiwe nie.",
+          "Die radio se gewildheid: dit kon duisende mense op dieselfde tyd bereik, oor groot afstande, en selfs mense in afgelee gebiede kon belangrike nuus hoor. Gesinne het om die radio bymekaargekom vir nuus, musiek, sportuitslae en dramas.",
+          "Vandag pas 'n radio in jou sak, en ons luister in motors, op selfone en op die internet."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "BESKERM HIERDIE SIN, MOENIE DIT 'VERBETER' NIE. Die video se: 'In 1943 het die Amerikaanse Hooggeregshof erken dat SOMMIGE VAN TESLA SE IDEES VROEER as Marconi s'n was.' Dit is die AKKURATE vorm. Die algemene weergawe - 'die Hooggeregshof het beslis Tesla het die radio uitgevind' - is 'n oordrywing: die saak van 1943 het oor patentvoorrang gegaan in 'n eis van Marconi se maatskappy teen die Amerikaanse regering, en die hof het vroeere werk insluitend Tesla se werk erken. Die video kry dit reg waar die meeste skoolmateriaal dit verkeerd kry. Sy raamwerk daarby - 'groot uitvindings gebeur dikwels wanneer baie slim mense saam dink' - is ook die regte les en is die moeite werd om te hou. NOG NIE NAGEGAAN NIE: 1895, 1901, die 1903-boodskap en die Nobelprys se jaar."
+      },
+      "fokusvraag_skakel": "Lewer die oomblik waar 'n boodskap sy draer verloor: hoe klank sonder drade deur die lug begin reis het, en hoe een boodskap daardeur baie mense op dieselfde tyd kon bereik.",
+      "fokusvraag_skakel_nota": "Die 'baie mense gelyk'-idee begin HIER en word in les 9 (televisie) en les 11 (sosiale media) verder gedra. Hierdie les hoef dit nie tot by vandag te vat nie."
+    },
+    {
+      "nommer": 5,
+      "titel": "Letters wat slaan",
+      "kaps_punt": "Die vroee tikmasjiene voor elektrisiteit",
+      "kaps_punt_nota": "KABV se 'voor elektrisiteit' is nie 'n bysin nie - dit is die strepie se punt. Die les moet 'n MEGANIESE masjien beskryf: iets wat werk omdat 'n vinger 'n metaalstrokie laat slaan, sonder enige krag uit 'n prop.",
+      "begroting": 400,
+      "begrotingsnota": "400 is Drico se kwartaalgetal. Vyf kern-punte plus een aanvullingsitem. Die plan: voor die tikmasjien 45, hoe dit meganies werk 75, die toetsborduitleg 55, wat dit in kantore verander het 50, koolpapier 70, Sholes 55 - saam sowat 350. Die aanvulling is 55 van die 400, ruim binne die 100 wat die 25%-perk toelaat.",
+      "kern": [
+        "VOOR DIE TIKMASJIEN moes alles met die hand geskryf word. Daar was geen drukker en geen manier om 'n fout uit te vee nie: 'n fout het beteken jy begin van voor af.",
+        "HOE DIT WERK, EN DIT IS KABV SE PUNT - GEEN ELEKTRISITEIT: elke sleutel is aan 'n metaalstrokie met 'n letter op vas. Wanneer jy die sleutel druk, slaan die metaalstrokie teen 'n ink-lint en druk die letter op die papier. Die vinger se stoot is die enigste krag in die hele masjien.",
+        "DIE TOETSBORD: die letters was aanvanklik in alfabetiese volgorde en is later anders gerangskik. Die eerste ses letters links bo is Q, W, E, R, T en Y. MOENIE 'n REDE VIR DIE HERRANGSKIKKING GEE NIE - sien feiterisiko.",
+        "WAT DIT IN KANTORE VERANDER HET: dokumente is vinniger geskryf, werk was netjieser, en inligting was duideliker om te lees as handskrif. Dit het ook nuwe werk geskep vir mense wat kon tik.",
+        "KOOLPAPIER, EN DIT IS DIE LES SE VERRASSING: 'n dun vel met 'n inklaag aan een kant. Sit dit tussen twee velle papier, en wanneer die tikmasjien se letter deur die boonste vel druk, druk die koolpapier se ink af op die onderste vel - en jy het 'n kopie. Dit is die eerste keer in hierdie onderwerp dat een boodskap twee keer bestaan sonder dat iemand dit oorskryf.",
+        "WAT DIESELFDE GEBLY HET (hierdie les se aandeel in die fokusvraag se tweede helfte): daardie QWERTY-uitleg sit vandag nog op elke rekenaar en op die skerm van elke slimfoon. Dit is die duidelikste stuk kontinuiteit in die hele onderwerp - 'n leerder kan dit nou-nou self gaan kyk."
+      ],
+      "aanvulling": [
+        {
+          "item": "Christopher Sholes, wat in die 1870's aan 'n masjien gewerk het wat letters op papier kon slaan.",
+          "regverdiging": "KABV noem geen persoon by hierdie strepie nie, dus is dit aanvulling. Dieselfde regverdiging as by Marconi, Stephenson en Benz: KABV noem self 'n persoon waar 'n persoon 'n deurbraak anker, en 'n geskiedenisles sonder 'n 'wanneer' lewer nie Afdeling 2.4.4 se konsep 'tyd en chronologie' nie. Die dekade is boonop wat die strepie se 'voor elektrisiteit' in tyd plaas. HOU DIE VERSIGTIGE WERKWOORD: hy het aan die masjien gewerk of dit help ontwikkel, nie 'die tikmasjien uitgevind' nie."
+        }
+      ],
+      "aanvulling_nota": "Een item, sowat 55 woorde. As lengte druk, val die dekade voor die naam val.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "Geen. 'n Vinger druk, 'n metaalstrokie slaan, ink druk op papier - dit is heeltemal konkreet, en 'n eli10-blok sou net 'n herhaling in korter woorde wees.",
+      "termdig": true,
+      "verwagte_begrippe": [
+        "tikmasjien",
+        "ink-lint",
+        "toetsbord",
+        "QWERTY",
+        "koolpapier"
+      ],
+      "verwagte_begrippe_nota": "Vyf inskrywings. 'koolpapier' en 'ink-lint' is albei woorde wat 'n negejarige vandag nog nooit gesien het nie en albei het 'n omskrywing nodig, nie net 'n vermelding nie.",
+      "feiterisiko": [
+        "DIE QWERTY-VERKLARING IS BETWIS EN DIE TEKS BESLEG DIT NIE. Die gewone weergawe is dat die letters herrangskik is omdat die metaalstrokies vasgeslaan het wanneer mense vinnig tik; dit is meganies aanneemlik, maar navorsers voer aan dat die masjien se meganika nie die uitleg bepaal het nie en dat telegraafoperateurs 'n groter invloed was. SKRYF DUS DIE FEIT SONDER DIE REDE: die letters was eers alfabeties en is later anders gerangskik. LET WEL, EN DIT IS BELANGRIK: die WERKLIKE mite is dat QWERTY ontwerp is om tipiste te VERTRAAG. Moenie daardie weergawe inbring nie, selfs nie om dit te weerle nie.",
+        "SHOLES: moenie 'uitgevind' skryf nie. Die versigtige vorm is dat hy aan die masjien gewerk het of dit help ontwikkel het. Die 1870's is die video se dekade en is NOG NIE NAGEGAAN NIE - laat die feitenasiener dit besleg, en skryf geen presiese jaartal nie.",
+        "'DIE EERSTE TIKMASJIEN': moenie die masjien die eerste ooit noem nie. Meer as een masjien om letters te druk het bestaan.",
+        "MOENIE SE DIE TIKMASJIEN IS HEELTEMAL VERDWYN NIE, en moenie beweer dat elke kantoor een gehad het nie. Albei is bewerings wat nie nagegaan is nie.",
+        "KOOLPAPIER: die meganisme hierbo is soos die video dit stel. Moenie 'n chemiese verduideliking byvoeg nie - dit sou 'n meganisme wees wat niemand nagegaan het nie."
+      ],
+      "historiese_konsepte": [
+        "Verandering en kontinuiteit (Afd. 2.4.4): die masjien is weg, maar sy toetsborduitleg is nog by ons.",
+        "Oorsaak en gevolg (Afd. 2.4.4): vinniger en netjieser dokumente het kantoorwerk self verander."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 5: die tikmasjien. KABV se strepie is 'Die vroee tikmasjiene VOOR ELEKTRISITEIT', dus is die meganiese aard die punt.",
+        "woorde_wat_die_video_gebruik": [
+          "tikmasjien",
+          "ink-lint",
+          "QWERTY",
+          "toetsbord",
+          "koolpapier"
+        ],
+        "wat_die_video_dek": [
+          "Voor die tikmasjien moes alles met die hand geskryf word: geen drukkers, geen 'undo', en 'n fout het beteken jy begin van voor af.",
+          "Christopher Sholes het in die 1870's 'n masjien ontwerp wat letters op papier kon SLAAN: elke sleutel het 'n metaalstrook met 'n letter gehad, en wanneer jy druk, slaan die metaal teen die ink-lint en druk die letter op papier.",
+          "Die letters was aanvanklik in alfabetiese volgorde, en is later anders gerangskik; die eerste ses links bo is Q W E R T Y, en ons gebruik daardie uitleg vandag nog op rekenaars.",
+          "Wat dit in kantore verander het: dokumente vinniger geskryf, werk netjieser, inligting duideliker.",
+          "KOOLPAPIER: 'n dun vel met 'n inklaag aan een kant; tussen twee velle gesit, druk die tikmasjien se letters deur die boonste vel en die koolpapier se ink druk af op die onderste - en jy kry 'n kopie."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "DIE QWERTY-VERKLARING IS BETWIS - NAGEGAAN, MAAR NIE BESLEG NIE. Die video se die letters is herrangskik omdat die metaalstrokies vasgeslaan het wanneer mense vinnig tik. Dit is die standaard-weergawe en meganies aanneemlik (langs mekaar liggende letterarms het wel gebots), MAAR navorsers aan die Kyoto-universiteit voer aan dat die masjien se meganika nie die uitleg bepaal het nie en dat TELEGRAAF-OPERATEURS wat morsekode transkribeer 'n groter invloed was. Die skrywer moet dit NIE besleg nie: laat die feitenasiener bepaal, en moenie 'n meganisme skryf wat nie nagegaan is nie. LET WEL, IN HAAR GUNS: die WERKLIKE mite is dat QWERTY ontwerp is om tipiste te VERTRAAG, en haar skrip se dit NIE. Moenie daardie weergawe inbring nie."
+      },
+      "fokusvraag_skakel": "Lewer die verandering in hoe 'n boodskap GEMAAK word eerder as hoe dit reis: van handskrif na 'n meganiese masjien, en van een kopie na twee - met 'n uitleg wat vandag nog dieselfde is.",
+      "fokusvraag_skakel_nota": "Hierdie les is die enigste een in die onderwerp wat NIE oor afstand of spoed gaan nie, en dit is reg so. Moenie die skrywer vra om ook 'n afstandspunt te lewer nie."
+    },
+    {
+      "nommer": 6,
+      "titel": "Kolletjies en strepies",
+      "kaps_punt": "Telegraaf",
+      "begroting": 400,
+      "begrotingsnota": "400 is Drico se kwartaalgetal. Ses kern-punte plus twee aanvullingsitems. Die plan: voor die telegraaf 30, hoe dit werk 60, morsekode 45, die eerste amptelike boodskap 35, wat dit verander het 70, kontinuiteit 30, Morse 40 en SOS 50 - saam sowat 360. DIE AANVULLING IS 90 VAN DIE 400, binne die 100 wat die 25%-perk toelaat.",
+      "kern": [
+        "VOOR DIE TELEGRAAF moes briewe per perd of per skip gaan, en mense het dae, weke en soms maande gewag. Les 3 se posstelsel het gewerk, maar dit was so vinnig soos 'n perd.",
+        "HOE DIT WERK: die sender druk 'n sleutel, elektrisiteit beweeg deur 'n draad, en die ontvanger hoor 'n klik. Die klik-klanke word in letters vertaal. Daar moes TWEE masjiene wees, een aan elke kant, met 'n draad tussen hulle - dus kon 'n telegraaf net stuur waar iemand eers 'n draad gespan het.",
+        "MORSEKODE: kort seine (kolletjies) en lang seine (strepies), en elke letter het sy eie patroon. S is drie kolletjies en O is drie strepies.",
+        "DIE EERSTE AMPTELIKE TELEGRAAFBOODSKAP is van Washington D.C. na Baltimore gestuur en het minute geneem in plaas van dae. Skryf die gebeurtenis; die jaartal en die presiese woorde is nog nie nagegaan nie - sien feiterisiko.",
+        "WAT DIT VERANDER HET: nuus het vinnig versprei, regerings kon vinniger besluit, besighede kon vinniger handel dryf en spoorwee kon veiliger werk. Teen die laat 1800's was daar selfs telegraafkabels onder die see - dieselfde idee wat les 10 se internet vandag gebruik.",
+        "WAT DIESELFDE GEBLY HET: kort en lang seine word vandag nog herken, en morsekode se bekendste boodskap is nog steeds SOS."
+      ],
+      "aanvulling": [
+        {
+          "item": "Samuel Morse, wat in die 1830's die telegraaf help ontwikkel het en gewys het dat elektrisiteit deur drade gestuur kan word om boodskappe oor groot afstande te dra.",
+          "regverdiging": "KABV noem geen persoon by hierdie strepie nie, dus is dit aanvulling, met dieselfde regverdiging as by Marconi en Sholes: KABV noem self 'n persoon waar 'n persoon 'n deurbraak anker, en die kode dra sy naam, dus is die naam in elk geval nodig om 'morsekode' te kan verstaan. HOU DIE WERKWOORD 'HELP ONTWIKKEL' - dit is die versigtige vorm en die telegraaf het meer as een ontwikkelaar gehad."
+        },
+        {
+          "item": "Dat SOS nie 'n afkorting is nie: baie mense dink dit beteken 'Save Our Souls' of 'Save Our Ship', maar dit is gekies omdat dit maklik is om te stuur en te herken - drie kolletjies, drie strepies, drie kolletjies.",
+          "regverdiging": "KABV noem SOS nie, dus is dit aanvulling. Die regverdiging is nie kleur nie maar KABV Afdeling 2.4.3 se doelwit 'Besluit of inligting vertrou kan word': hier kry 'n negejarige die enigste plek in die kwartaal waar hy 'n ding wat almal weet naas die bewyse sien, en hulle stem nie ooreen nie. Dit is ook die enigste stuk morsekode wat 'n leerder buite die klas sal teekom, dus is dit die brug tussen 'n ou masjien en sy eie wereld. SONDER DIE MITE-HELFTE WERK DIT NIE - 'SOS is gekies omdat dit maklik is om te stuur' alleen leer niks, want die leerder het nooit die ander weergawe gehoor nie."
+        }
+      ],
+      "aanvulling_nota": "Twee items teen sowat 90 woorde in 'n 400-woord-les. As lengte druk, kort Morse; die SOS-item is een blokkie en moet heel bly, want die helfte daarvan sonder die ander helfte leer niks.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "Geen. 'n Sleutel wat gedruk word, 'n klik aan die ander kant, en kolletjies en strepies op papier is heeltemal konkreet - dit is die mees sigbare meganisme in die hele kwartaal.",
+      "termdig": true,
+      "verwagte_begrippe": [
+        "telegraaf",
+        "morsekode",
+        "sein",
+        "operateur"
+      ],
+      "verwagte_begrippe_nota": "Vier inskrywings. 'sein' loop ook deur lesse 4 en 7 - sien gedeelde_omskrywings_nota; geen bewoording word hier voorgeskryf.",
+      "feiterisiko": [
+        "BESKERM DIE SOS-VERKLARING EN MOENIE DIT 'REGSTEL' NIE. SOS is NIE 'n afkorting nie en beteken nie 'Save Our Souls' of 'Save Our Ship' nie; dit is gekies omdat dit maklik is om te stuur en te herken. DIT IS REEDS NAGEGAAN EN DIT IS KORREK. Die video breek die mite eerder as om dit te herhaal, en die meeste skoolmateriaal kry dit verkeerd - 'n latere leser sal die 'regstelling' na 'Save Our Souls' wil aanbring. Dit sou 'n fout wees.",
+        "MORSE: 'help ontwikkel' is die versigtige vorm en dit moet bly. Moenie 'Morse het die telegraaf uitgevind' skryf nie. Die 1830's is die video se dekade en is nog nie nagegaan nie.",
+        "DIE 1844-DATUM EN DIE PRESIESE WOORDE van die eerste amptelike boodskap ('What hath God wrought?') is NOG NIE NAGEGAAN NIE. Skryf die gebeurtenis - Washington D.C. na Baltimore, in minute - sonder die jaartal en sonder die aanhaling, tensy die feitenasiener albei bevestig. LET OP: les 7 se naat gebruik 1844 en 1876 in 'n berekening, dus moet die feitenasiener hierdie twee jaartalle vir albei lesse tegelyk besleg.",
+        "TWEE GETALLE WAT WEL NAGEGAAN IS EN REG IS, as die skrywer 'n spoed wil noem: 'n goed opgeleide operateur teen sowat 40 woorde per minuut, en die wereldrekord van 75,2 woorde per minuut deur Ted R. McElroy. Albei is opsioneel; die begroting dra hoogstens een.",
+        "MOENIE SE MORSEKODE WORD NIE MEER GEBRUIK NIE, en moenie se dit word nog algemeen gebruik nie. Nie een van die twee is nagegaan nie. Die veilige kontinuiteitspunt is dat SOS nog herken word."
+      ],
+      "historiese_konsepte": [
+        "Historiese bronne en getuienis (Afd. 2.4.4): die SOS-punt wys dat 'n bekende storie en die bewyse kan verskil.",
+        "Oorsaak en gevolg (Afd. 2.4.4): 'n boodskap in minute in plaas van dae het regering, handel en spoorwee verander."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 6: die telegraaf. KABV-strepie. HIERDIE LES SE SOS-VERKLARING IS 'n MITE-BREKER EN MOET BESKERM WORD.",
+        "woorde_wat_die_video_gebruik": [
+          "telegraaf",
+          "morsekode",
+          "kolletjies",
+          "strepies",
+          "operateur"
+        ],
+        "wat_die_video_dek": [
+          "Voor die telegraaf moes briewe per perd of skip gaan en mense het dae, weke, soms maande gewag.",
+          "Samuel Morse het in die 1830's die telegraaf HELP ONTWIKKEL - let op 'help', wat die versigtige vorm is - en gewys dat elektrisiteit deur drade gestuur kan word om boodskappe oor groot afstande te dra.",
+          "1844: die eerste amptelike telegraafboodskap, 'What hath God wrought?' ('Wat het God verrig?'), van Washington D.C. na Baltimore, in minute.",
+          "HOE DIT WERK: die sender druk 'n sleutel, elektrisiteit beweeg deur 'n draad, die ontvanger hoor 'n klik, en die klik-klanke word in letters vertaal. Daar moes TWEE masjiene wees, een by elke kant, met drade tussen hulle.",
+          "MORSEKODE: kort seine (kolletjies) en lang seine (strepies), elke letter 'n unieke patroon. A = .- , B = -... , S = ... , O = ---",
+          "Wat dit verander het: nuus vinnig versprei, regerings vinniger besluit, besighede vinniger handel, spoorwee veiliger, en selfs geld oor afstande gestuur - vandaar die uitdrukking om geld te 'wire'. Teen die laat 1800's was daar telegraafkabels onder die see."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "BESKERM DIE SOS-VERKLARING. Die video se: baie mense dink SOS beteken 'Save Our Souls' of 'Save Our Ship', MAAR dit is oorspronklik gekies omdat dit maklik is om te stuur en te herken - drie kolletjies, drie strepies, drie kolletjies. DIT IS KORREK. SOS is nie 'n afkorting nie, en die video breek die mite eerder as om dit te herhaal. Moenie dit 'regstel' na 'Save Our Souls' nie. Twee getalle wat NAGEGAAN IS EN REG IS: 'n goed opgeleide operateur teen sowat 40 woorde per minuut, en die wereldrekord van 75.2 woorde per minuut deur Ted R. McElroy. NOG NIE NAGEGAAN NIE: die 1844-datum en die presiese woorde van die boodskap."
+      },
+      "fokusvraag_skakel": "Lewer die SPOED-antwoord: hoe elektrisiteit deur 'n draad 'n boodskap in minute laat aankom het waar dit vantevore dae geneem het - en wat 'n land daarmee kon doen.",
+      "fokusvraag_skakel_nota": "Hierdie les dra spoed; les 3 dra bereik en betroubaarheid; les 7 dra die stem self. Nie een dra al drie nie."
+    },
+    {
+      "nommer": 7,
+      "titel": "Jou stem loop deur 'n draad",
+      "kaps_punt": "Telefoon",
+      "begroting": 400,
+      "begrotingsnota": "400 is Drico se kwartaalgetal. Vyf kern-punte plus een aanvullingsitem. Die plan: wat die telefoon bygevoeg het 45, hoe dit werk 75, wat dit verander het 65, die vroee telefoon en die operateur 60, die pad tot by die slimfoon 45, Bell 60 - saam sowat 350. Die aanvulling is 60 van die 400, binne die 100 wat die 25%-perk toelaat.",
+      "kern": [
+        "WAT DIE TELEFOON BYGEVOEG HET: die telegraaf kon 'n boodskap stuur, maar iemand moes dit eers in kode omsit en aan die ander kant weer uitlees. Die telefoon dra die STEM self, en albei mense kan gelyk praat en luister. Dit is die eerste keer in hierdie onderwerp dat kommunikasie 'n GESPREK word.",
+        "HOE DIT WERK: jou stem maak klankgolwe; die klank laat 'n dun membraan bewe; die bewegings word in elektriese seine verander; die seine beweeg deur die draad; en aan die ander kant word dit weer klank. Hou die ketting heel - 'n leerder wat een skakel mis, hou 'n stem wat op 'n draad klim.",
+        "WAT DIT VERANDER HET: mense kon dadelik met mekaar praat in plaas van te wag; besighede kon vinniger werk; 'n dokter kon 'n noodboodskap ontvang; en families ver van mekaar kon mekaar HOOR en nie net lees nie.",
+        "DIE VROEE TELEFOON WAS NIE SOOS ONS S'N NIE: die eerste telefone het nie 'n lui-klokkie gehad nie, en 'n mens kon nie self 'n nommer kies nie - 'n operateur by 'n telefoonsentrale moes die twee lyne met die hand verbind. Elke gesprek het dus deur 'n derde mens gegaan.",
+        "DIE PAD DAARNA: telefoonpale en lyne tussen dorpe, toe vaste telefone met 'n draaiknop, toe drukknoppies, en toe selfone. Hierdie sin maak les 11 moontlik en moet nie meer as 'n sin wees nie."
+      ],
+      "aanvulling": [
+        {
+          "item": "Alexander Graham Bell, wat in 1876 die eerste werkende telefoon GEPATENTEER het, en dat hy eintlik probeer het om die telegraaf te verbeter toe hy daarop afgekom het.",
+          "regverdiging": "KABV noem geen persoon by hierdie strepie nie, dus is dit aanvulling, met dieselfde regverdiging as by Marconi, Morse en Sholes. Die tweede helfte - dat hy aan die TELEGRAAF gewerk het - is nie kleur nie: dit is die enigste plek waar 'n leerder sien dat les 6 en les 7 dieselfde storie is, en dit lewer KABV Afdeling 2.4.4 se konsep 'oorsaak en gevolg' binne die onderwerp self. DIE WOORD 'GEPATENTEER' IS DIE HELE WAARDE - sien feiterisiko."
+        }
+      ],
+      "aanvulling_nota": "Een item, sowat 60 woorde. As lengte druk, val die telegraaf-verband voor die naam en die woord 'gepatenteer' val.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "Geen, al klink die ketting abstrak. Elke skakel kan konkreet gestel word: 'n dun vel wat bewe soos 'n trom se vel, 'n draad, en klank aan die ander kant. Die enigste werklik onsigbare stap in die kwartaal is les 4 se draadlose golf, en daardie een het die eli10-blok.",
+      "termdig": true,
+      "verwagte_begrippe": [
+        "telefoon",
+        "membraan",
+        "telefoonsentrale",
+        "operateur"
+      ],
+      "verwagte_begrippe_nota": "Vier inskrywings. 'operateur' verskyn ook in les 6 maar met 'n ander werk (die een tik kode, die ander verbind lyne) - die omskrywing moet werk vir albei of die versoeningsveeg sal dit optel. Sien gedeelde_omskrywings_nota.",
+      "feiterisiko": [
+        "BESKERM DIE WOORD 'GEPATENTEER' EN MOENIE DIT NA 'UITGEVIND' VERANDER NIE. Wie die telefoon uitgevind het, is betwis - Meucci en Gray het albei aansprake - en 'Bell het die eerste werkende telefoon gepatenteer' is die vorm wat staan. Dit lees soos 'n moeilike woord wat 'n taalnasiener sal wil vereenvoudig; dit is die presiese woord.",
+        "MOENIE 'ONGEVEER VEERTIG JAAR' TUSSEN DIE TELEGRAAF EN DIE TELEFOON SKRYF NIE. Die video se dit en dit is LOS: Morse se eerste boodskap was 1844 en Bell se patent 1876, wat 32 jaar is. Skryf die verband sonder 'n getal, of met die getal wat die feitenasiener bevestig.",
+        "1876 is die video se jaartal vir die patent en dit moet saam met les 6 se 1844 deur die feitenasiener bevestig word.",
+        "DIE EERSTE WOORDE OOR 'n TELEFOON ('Mr Watson, come here, I want to see you') is NOG NIE NAGEGAAN NIE en is boonop Engels in 'n Afrikaanse les. Laat dit uit tensy die feitenasiener dit bevestig; die les verloor niks daarsonder nie.",
+        "MOENIE DIE MEMBRAAN 'n MEGANISME GEE WAT NIE NAGEGAAN IS NIE. Die ketting hierbo is soos die video dit stel. Moenie byvoeg hoe die bewegings in elektriese seine verander word nie - daardie stap is werklik ingewikkeld en enige kort verduideliking daarvan sou 'n onnagegane meganisme wees."
+      ],
+      "historiese_konsepte": [
+        "Oorsaak en gevolg (Afd. 2.4.4): die telegraaf het die telefoon veroorsaak, want Bell het aan die een gewerk toe hy die ander gekry het.",
+        "Multi-perspektief benadering (Afd. 2.4.4): meer as een mens het aanspraak op die telefoon gemaak, en 'n patent is nie dieselfde ding as 'n uitvinding nie."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 7: die telefoon. KABV-strepie. Die video gebruik 'GEPATENTEER', wat die versigtige woord is - beskerm dit.",
+        "woorde_wat_die_video_gebruik": [
+          "gepatenteer",
+          "membraan",
+          "vibrasies",
+          "telefoonsentrale",
+          "operateur"
+        ],
+        "wat_die_video_dek": [
+          "1876: na jare van eksperimenteer het Alexander Graham Bell die eerste werkende telefoon GEPATENTEER, en gewys dat klank self deur elektriese drade kan reis.",
+          "Die eerste woorde oor 'n telefoon: 'Mr Watson, come here, I want to see you.'",
+          "Bell het eintlik probeer om die TELEGRAAF te verbeter; sonder Morse se uitvinding sou die telefoon dalk langer geneem het om te verskyn.",
+          "HOE DIT WERK: jou stem maak klankgolwe; die klank laat 'n dun membraan vibreer; die vibrasies word in elektriese seine verander; die seine beweeg deur drade; aan die ander kant word dit weer klank.",
+          "Wat dit verander het: onmiddellike gesprek, besighede vinniger, dokters kon noodboodskappe ontvang, gesinne ver van mekaar kon mekaar hoor.",
+          "Bell was 'n onderwyser vir dowe mense en was gefassineer deur hoe klank werk. Die eerste telefone het nie 'n lui-klokkie gehad nie, en mense moes deur 'n operateur verbind word. Later: telefoonpale, lyne tussen dorpe, telefoonsentrales, en die pad van vaste lyne met draaiknoppe na drukknoppies na selfone na slimfone."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "BESKERM DIE WOORD 'GEPATENTEER'. Wie die telefoon 'uitgevind' het, is betwis - Meucci en Gray het albei aansprake - en 'Bell het die eerste werkende telefoon GEPATENTEER' is die vorm wat staan. Moenie dit na 'uitgevind' verander nie. EEN LOSSE GETAL, nagegaan: die video se 'ongeveer veertig jaar voor Bell se uitvinding' is langafstandboodskappe met die telegraaf gestuur - maar Morse se eerste boodskap was 1844 en Bell se patent 1876, wat 32 jaar is. 'Ongeveer veertig' is los; skryf dit sonder 'n getal of met die regte een. NOG NIE NAGEGAAN NIE: die presiese woorde aan Watson."
+      },
+      "fokusvraag_skakel": "Lewer die stap van boodskap na GESPREK: hoe die stem self oor 'n draad kon reis sodat twee mense ver van mekaar met mekaar kon praat in plaas van vir mekaar te skryf.",
+      "fokusvraag_skakel_nota": "Nie die 'altyd en oral'-helfte nie - dit is les 11 se werk. Hierdie les se telefoon sit vas aan 'n muur en gaan deur 'n operateur, en dit is 'n deel van die punt."
+    },
+    {
+      "nommer": 8,
+      "titel": "Die oomblik wat bly",
+      "kaps_punt": "Kamera",
+      "begroting": 400,
+      "begrotingsnota": "400 is Drico se kwartaalgetal. Vyf kern-punte plus twee aanvullingsitems. Die plan: wat 'n kamera doen 40, die eerste kameras 70, filmrol 60, digitale kameras 55, wat dit verander het 60, Eastman 50 en die agt uur 40 - saam sowat 375. DIE AANVULLING IS 90 VAN DIE 400, binne die 100 wat die 25%-perk toelaat.",
+      "kern": [
+        "WAT 'n KAMERA DOEN, en dit is hoekom 'n kamera in 'n kommunikasie-onderwerp hoort: dit maak 'n boodskap wat 'n mens SIEN in plaas van hoor of lees, en dit hou vas hoe iets werklik gelyk het. Al die vorige lesse dra woorde; hierdie een dra 'n beeld.",
+        "DIE EERSTE KAMERAS was groot, swaar en moeilik om rond te dra, en hulle is op 'n driepoot geplaas. Mense moes baie stil sit, soms 'n paar minute lank - en dit is waarom mense op ou foto's so ernstig lyk. Hierdie is die les se bewys-in-die-teks: die leerder kan self 'n ou foto gaan kyk en dit sien.",
+        "FILM: 'n filmrol is in die kamera gesit, elke foto is op die film vasgele, en wanneer die rol vol was, moes dit ontwikkel word. 'n Mens moes dus WAG om jou eie foto's te sien, en jy het nie geweet of hulle geluk het nie.",
+        "DIGITALE KAMERAS het in die 1990's gewild geword: 'n mens kon 'n foto dadelik sien, dit uitvee en honderde neem sonder om film te koop. Vandag dra die meeste mense 'n kamera in hul selfoon - wat les 11 se punt vooruitwys.",
+        "WAT DIE KAMERA VERANDER HET: oorloe is vasgele, geskiedenis is gedokumenteer, wetenskaplikes kan die natuur bestudeer, en families bewaar herinneringe. 'n Foto het 'n BRON geword waaruit 'n mens later oor die verlede kan uitvind - dieselfde werk wat les 1 se rotskuns doen."
+      ],
+      "aanvulling": [
+        {
+          "item": "George Eastman, wat fotografie makliker gemaak het met 'n kleiner kamera wat gewone mense self kon gebruik, en wat dit Kodak genoem het.",
+          "regverdiging": "KABV noem geen persoon by hierdie strepie nie, dus is dit aanvulling, met dieselfde regverdiging as by Marconi, Morse, Sholes en Bell. Dit dra boonop die stap wat die hele les se boog moontlik maak: sonder die oomblik waarop 'n kamera klein en bekostigbaar genoeg word vir 'n gewone mens, verklaar niks hoe ons van 'n driepoot na 'n foon in 'n sak gekom het nie."
+        },
+        {
+          "item": "Dat die eerste foto ooit sowat AGT UUR geneem het om vas te le.",
+          "regverdiging": "Aanvulling, en dit is die enigste getal in die hele kwartaal wat reeds nagegaan is en reg is (Niepce, 'n bitumen-bedekte plaat). Die regverdiging is dat dit die skerpste kontras in die hele onderwerp lewer - agt uur teenoor die oomblik waarin 'n leerder vandag 'n foto neem - en 'n kontras is presies wat KABV Afdeling 2.4.4 se konsep 'verandering en kontinuiteit' vra. Sonder dit bly 'n paar minute stil sit die enigste vergelyking, en 'n paar minute is nie vir 'n negejarige merkwaardig nie."
+        }
+      ],
+      "aanvulling_nota": "Twee items teen sowat 90 woorde. 'n DERDE IS OORWEEG EN GESNOEI: die 1839-'selfie' (Robert Cornelius) is nagegaan en reg, maar dit is kleur naas die agt uur, en die woord 'selfie' is anachronisties. Moenie dit terugsit nie - sien buite_bestek.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "Geen. Die les vra nerens hoe 'n beeld op film beland nie, en dit moet ook nie - sien feiterisiko.",
+      "termdig": true,
+      "verwagte_begrippe": [
+        "kamera",
+        "driepoot",
+        "filmrol",
+        "ontwikkel",
+        "digitale kamera"
+      ],
+      "verwagte_begrippe_nota": "Vyf inskrywings. 'ontwikkel' is die moeilikste een, want die woord beteken in gewone Afrikaans iets heeltemal anders; die omskrywing moet die fotografiese betekenis gee en dit moet op sy eie leesbaar wees.",
+      "feiterisiko": [
+        "DIE AGT UUR IS NAGEGAAN EN REG - moenie dit 'regstel' nie. Die eerste foto ooit (Niepce, 'n bitumen-bedekte plaat) het sowat agt uur geneem om vas te le. Skryf 'sowat agt uur' en skryf geen jaartal daarby nie, want 1826/27 self is nie deur hierdie spesifikasie bevestig nie.",
+        "MOENIE DIE KODAK-NAAM SE STORIE SKRYF NIE. Die video se Eastman het gese die letter K klink sterk, en daarom begin en eindig Kodak met 'n K. NOG NIE NAGEGAAN NIE. Noem die naam Kodak; laat die verklaring uit.",
+        "MOENIE 'n GETAL VIR FOTO'S PER JAAR SKRYF NIE. Die video se 'triljoene foto's per jaar wereldwyd'. Nie nagegaan nie, en 'n les met 'n getal in verouder in elk geval.",
+        "MOENIE VERDUIDELIK HOE 'n BEELD OP FILM BELAND NIE. Die chemie is werklik ingewikkeld en enige kort weergawe daarvan sou 'n meganisme wees wat niemand nagegaan het nie. Die les het dit ook nie nodig: die punt is die WAG, nie die chemie nie.",
+        "EASTMAN: skryf dat hy fotografie makliker gemaak het, nie dat hy die kamera of die film uitgevind het nie.",
+        "'DIE EERSTE KAMERAS': skryf 'die vroee kameras' of 'die eerste kameras' oor die algemeen, nooit 'die heel eerste kamera' met 'n naam of 'n datum nie."
+      ],
+      "historiese_konsepte": [
+        "Historiese bronne en getuienis (Afd. 2.4.4): 'n foto is 'n bron, presies soos les 1 se rotskuns.",
+        "Verandering en kontinuiteit (Afd. 2.4.4): agt uur teenoor 'n oomblik, en tog is dit dieselfde ding - 'n beeld wat bly."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 8: die kamera. KABV-strepie. Hierdie les se twee 'Het jy geweet'-feite is NAGEGAAN en REG.",
+        "woorde_wat_die_video_gebruik": [
+          "driepoot",
+          "filmrol",
+          "ontwikkel",
+          "digitale kameras"
+        ],
+        "wat_die_video_dek": [
+          "'n Kamera vang oomblikke vas, vries tyd en help ons onthou.",
+          "Die eerste kameras was groot, swaar, moeilik om rond te dra en op 'n driepoot geplaas; mense moes baie stil sit, soms 'n paar minute - daarom lyk mense in ou foto's so ernstig.",
+          "George Eastman het fotografie makliker gemaak met 'n kleiner kamera wat gewone mense self kon gebruik. Hy het dit KODAK genoem en gese die letter K klink sterk - daarom begin en eindig Kodak met 'n K.",
+          "FILM: 'n filmrol is in die kamera geplaas, elke foto is op die film vasgele, en wanneer dit vol was moes dit ontwikkel word - jy moes wag om jou foto's te sien.",
+          "In die 1990's het digitale kameras gewild geword: foto's dadelik sien, uitvee, en honderde neem sonder film. Vandag dra die meeste mense 'n kamera in hul selfoon.",
+          "Wat die kamera verander het: oorloe vasgele, geskiedenis gedokumenteer, wetenskaplikes bestudeer die natuur, families bewaar herinneringe."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "TWEE FEITE NAGEGAAN EN REG - moenie hulle 'regstel' nie. Die eerste foto ooit het sowat AGT UUR geneem om vas te le (Niepce, 1826/27, 'n bitumen-bedekte plaat). En die eerste 'selfie' is in 1839 geneem (Robert Cornelius van Philadelphia, wat 10 tot 15 minute stil moes sit). NOG NIE NAGEGAAN NIE: Eastman se K-verhaal, en die video se 'triljoene foto's per jaar wereldwyd'. Skryf geen getal wat nie nagegaan is nie."
+      },
+      "fokusvraag_skakel": "Lewer die deel van die antwoord waar kommunikasie 'n BEELD word: hoe 'n oomblik vasgele en later weer gesien kon word, en hoe die wag van ure af tot niks gekrimp het.",
+      "fokusvraag_skakel_nota": "Hierdie les dra nie afstand nie - 'n foto het steeds die pos of later die internet nodig gehad om iewers te kom. Dit dra die BEELD en die WAG."
+    },
+    {
+      "nommer": 9,
+      "titel": "Die wereld in die sitkamer",
+      "kaps_punt": "Televisie",
+      "begroting": 400,
+      "begrotingsnota": "400 is Drico se kwartaalgetal. Ses kern-punte teen sowat 60 woorde elk, en geen aanvulling nie. Die plan: nie een uitvinder nie 45, die woord 55, die eerste televisies 60, 1976 in Suid-Afrika 55, wat dit verander het 85, balans 70 - saam sowat 370. Die '1976'-punt kry sy eie plek omdat dit die sterkste plaaslike feit in die hele kwartaal is.",
+      "kern": [
+        "TELEVISIE IS NIE DEUR EEN PERSOON UITGEVIND NIE - baie mense het oor jare gehelp om dit te ontwikkel. Dit is die versigtige vorm, dit is nagegaan, en dit is die punt waarmee die les BEGIN eerder as 'n naam. MOENIE 'n UITVINDER BENOEM NIE - sien feiterisiko.",
+        "DIE WOORD SELF: TELE beteken ver en VISIE beteken sien, dus beteken televisie 'om ver te sien'. Dit is 'n woord wat 'n leerder vandag ken en nog nooit uitmekaar gehaal het nie.",
+        "DIE EERSTE TELEVISIES was groot bokse met klein skerms, en alles was swart-en-wit. Daar was geen afstandbeheer nie, dus moes 'n mens opstaan om die kanaal te verander. Kleurtelevisie het baie later gekom.",
+        "IN SUID-AFRIKA HET TELEVISIE EERS IN 1976 BEGIN. Dit is nagegaan en dit is die sterkste plaaslike anker in die hele onderwerp: die leerder se eie grootouers was reeds volwasse voordat daar hier 'n televisie was.",
+        "WAT DIT VERANDER HET: mense kon groot oomblikke REGSTREEKS sien in plaas van later daarvan te hoor. In 1969 het mense wereldwyd gekyk hoe die eerste mens op die maan land, en sport en verkiesingsuitslae word vandag nog regstreeks uitgesaai. Voor televisie moes mense op die radio LUISTER of dit in 'n koerant LEES; nou kon hulle dit self SIEN.",
+        "BALANS, en die les moet albei kante gee: voordele is vinnige nuus, opvoedkundige programme en die wereld in jou sitkamer; uitdagings is minder gesinstyd, minder buitespel en programme wat nie altyd geskik is nie. Dit is die eerste keer in die onderwerp dat 'n nuwe manier van kommunikeer 'n prys het, en dit berei les 11 voor."
+      ],
+      "aanvulling": [],
+      "aanvulling_nota": "Geen, en dit is met opset. Die strepie is breed en die ses kern-punte is wat 'n televisieles minimaal vereis. Daar is hier ook geen persoon om te noem nie - die versigtige feit is juis dat daar nie een is nie - dus geld die Marconi-patroon hier NIE, en 'n naam sou die les se eerste punt weerspreek.",
+      "moeilike_konsepte": [],
+      "termdig": false,
+      "verwagte_begrippe": [
+        "televisie",
+        "regstreeks",
+        "uitsaai",
+        "kleurtelevisie"
+      ],
+      "verwagte_begrippe_nota": "Vier inskrywings. 'regstreeks' dra die hele les se punt en moet 'n eie inskrywing kry, nie net 'n vermelding nie.",
+      "feiterisiko": [
+        "TWEE DINGE IS NAGEGAAN EN REG - moenie hulle 'regstel' nie: (a) dat televisie NIE deur een persoon uitgevind is nie, en (b) dat Suid-Afrikaanse televisie in 1976 begin het.",
+        "MOENIE 'n UITVINDER BENOEM NIE. Die versoeking is Baird of Farnsworth. Die video vermy dit doelbewus en tereg, en 'n naam sou die les se eie eerste sin weerspreek.",
+        "MOENIE 'n GETAL VIR KYKERS BY DIE MAANLANDING SKRYF NIE. Die video se 'miljoene' en dit is nie nagegaan nie. Skryf 'mense wereldwyd' of laat die hoeveelheid uit.",
+        "1969 vir die maanlanding is wyd bekend, maar dit is nie deur hierdie spesifikasie bevestig nie - die feitenasiener moet dit bevestig soos enige ander jaartal.",
+        "MOENIE 'n MEGANISME VIR TELEVISIE SKRYF NIE. Hoe 'n beeld uitgesaai en op 'n skerm gebou word, is nie nagegaan nie en die strepie vra dit nie. Die les gaan oor wat televisie VIR MENSE gedoen het.",
+        "DIE BALANS-PUNT: skryf die uitdagings as dinge wat mense opgemerk het, nie as bewese gevolge nie. 'Minder buitespel' en 'minder gesinstyd' is nie nagegaan nie en 'n oorsaaklike bewering daaroor sou 'n bewering wees wat niemand getoets het nie."
+      ],
+      "historiese_konsepte": [
+        "Tyd en chronologie (Afd. 2.4.4): 1976 gee die leerder 'n vaste punt in Suid-Afrika se eie tydlyn.",
+        "Verandering en kontinuiteit (Afd. 2.4.4): van hoor en lees na SIEN, terwyl die nuus self dieselfde nuus bly."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 9: die televisie. KABV-strepie. Die video se openingsbeeld is die TV as 'n familielid wat altyd praat - dit is haar raamwerk.",
+        "woorde_wat_die_video_gebruik": [
+          "televisie",
+          "regstreeks",
+          "uitgesaai",
+          "kleurtelevisie"
+        ],
+        "wat_die_video_dek": [
+          "TELEVISIE IS NIE DEUR EEN PERSOON UITGEVIND NIE - baie mense het oor jare gehelp om dit te ontwikkel. Dit is die versigtige vorm en dit staan reg.",
+          "Die woord: TELE beteken ver en VISIE beteken sien, dus 'om ver te sien'.",
+          "Die eerste eksperimente was in die vroee 1900's; die eerste televisies was groot bokse met klein skerms en alles was swart-en-wit. Geen afstandbeheer nie. Kleurtelevisie het baie later gekom.",
+          "IN SUID-AFRIKA HET TELEVISIE EERS IN 1976 BEGIN.",
+          "Wat dit verander het: mense kon groot oomblikke REGSTREEKS sien - in 1969 het miljoene gekyk hoe die eerste mens op die maan land; sport en verkiesingsuitslae word regstreeks uitgesaai. Voor televisie moes mense op die radio luister of in koerante lees; nou kon hulle dit self sien.",
+          "Voordele: vinnige nuus, opvoedkundige programme, die wereld in jou sitkamer. Uitdagings: minder gesinstyd, minder buitespel, programme wat nie altyd geskik is nie. Die video se sleutelwoord is BALANS."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "TWEE DINGE NAGEGAAN EN REG: dat televisie nie deur een persoon uitgevind is nie, en dat Suid-Afrikaanse televisie in 1976 begin het. Die 1976-anker is die sterkste plaaslike feit in die hele kwartaal en behoort in die teks te wees. Moenie 'n uitvinder benoem nie - die versoeking is Baird of Farnsworth, en die video vermy dit doelbewus en tereg. NOG NIE NAGEGAAN NIE: 'miljoene' vir die maanlanding se kykers."
+      },
+      "fokusvraag_skakel": "Lewer die stap van hoor en lees na SIEN: hoe mense 'n gebeurtenis regstreeks kon volg terwyl dit gebeur, en dat Suid-Afrika daardie stap eers in 1976 gedoen het.",
+      "fokusvraag_skakel_nota": "Die 'baie mense gelyk'-idee kom uit les 4 en word hier verdiep, nie oorgedoen nie. Die skrywer hoef nie die radio se argument te herhaal nie."
+    },
+    {
+      "nommer": 10,
+      "titel": "Van 'n vol kamer tot 'n wereldnetwerk",
+      "kaps_punt": "Twee strepies onder 'Verandering in die moderne vorms van kommunikasie': Rekenaar, Internet",
+      "kaps_punt_nota": "TWEE KABV-STREPIES IN EEN LES, en dit is die video se verdeling. Albei bly volledig verpligtend; net die naat skuif.",
+      "begroting": 450,
+      "begrotingsnota": "450 is Drico se getal vir hierdie saamgevoegde les: 'We can make rekenaar + internet 450, since its merged.' DIT IS DIE KNAPSTE LES IN DIE HELE ONDERWERP en die rekenkunde is VOORAF gedoen, want 'n saamgevoegde les kry een les se begroting en nie twee nie - samevoeging bestee lengte, dit koop dit nie. TWEE STREPIES DEEL 450, dus sowat 225 elk. Die plan: rekenaarhelfte - die eerste rekenaars 55, hulle het klein geword 45, waarvoor ons hulle gebruik 60 (saam 160); internethelfte - wat die internet is en die kabels onder die see 75, hoe dit ontstaan het en e-pos 70, wat dit verander het 65 (saam 210); plus 'n aanloop van sowat 30. Totaal sowat 400, met 50 speling teen 450. TWEE SINNE PER PUNT, nie drie nie - die drie-sin-patroon is hier die PLAFON en nie die vloer nie. Die woordelys dra die omskryf.",
+      "kern": [
+        "DIE EERSTE REKENAARS was reusagtig - hulle het hele kamers vol gestaan, en net universiteite en regerings kon hulle gebruik. 'n Gewone mens sou nooit een gesien het nie.",
+        "TOE HET REKENAARS KLEINER, VINNIGER EN MAKLIKER GEWORD om te gebruik, en gewone mense kon hulle ook kry. Dit is die verandering wat die hele res van die les moontlik maak.",
+        "WAARVOOR REKENAARS VANDAG GEBRUIK WORD: kommunikasie, skoolwerk en navorsing, dokumente, ontwerp en kuns, bankdienste en besighede. Hulle staan in hospitale, banke, winkels, skole en laboratoriums - dus is 'n rekenaar nie 'n ding op 'n lessenaar nie, dit is oral.",
+        "DIE INTERNET is 'n wereldwye netwerk wat rekenaars met mekaar verbind. Dit stuur inligting oor lande en oseane heen, en dit werk met KABELS ONDER DIE SEE - dieselfde soort pad as les 6 se telegraafkabels onder die see, en die einde van die storie wat les 3 se posklippe begin het. Hierdie verband is die les se beste sin en moet nie wegval nie.",
+        "HOE DIT ONTSTAAN HET: wetenskaplikes het rekenaars aan mekaar begin koppel, en later kon gewone mense die internet ook gebruik. E-POS is elektroniese pos - die naam self se dat dit les 3 se pos is, net sonder die wag - en 'n soekmasjien help 'n mens om inligting te vind. Skryf die dekades nie, tensy die feitenasiener hulle bevestig - sien feiterisiko.",
+        "WAT DIT VERANDER HET: onderwys, besighede en kommunikasie het verander, nuwe soorte werk het ontstaan, mense koop en verkoop wereldwyd, en kennis is binne sekondes beskikbaar. Dit is die eerste keer in die onderwerp dat 'n mens self kan SOEK in plaas van te wag dat iemand iets stuur."
+      ],
+      "aanvulling": [],
+      "aanvulling_nota": "GEEN, EN DIT IS 'n BEPLANDE SNOEI WAT DRICO KAN OMKEER. Die video noem Bill Gates, wat as tiener met rekenaars gewerk het en later Microsoft gestig het. KABV noem geen persoon by hierdie twee strepies nie, dus sou hy aanvulling wees. HY IS UITGELAAT om drie redes: (1) hierdie is die knapste les in die onderwerp - twee verpligte strepies deel 450 woorde - en enige aanvulling verdring 'n verpligte item; (2) hy anker nie 'n meganiese deurbraak soos Benz die motor of Marconi die radiosein nie, dus is die Marconi-patroon se regverdiging hier swakker; (3) die video het hom reeds goed gedra, en een van die drie dinge waarvoor 'n videoskrif werklik nuttig is, is om die teks te keer om te herbou wat die video klaar dra. AS DRICO HOM TERUGSIT: die enigste toelaatbare vorm is dat hy Microsoft GESTIG het, nooit dat hy die rekenaar uitgevind het nie, en dan moet 'n verpligte item se woorde na hom toe skuif en nie bygevoeg word nie.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "Geen. 'n Kabel onder die see is die mees konkrete beeld in die hele kwartaal, en dit is presies waarom die internethelfte om daardie kabel gebou is.",
+      "termdig": true,
+      "verwagte_begrippe": [
+        "rekenaar",
+        "internet",
+        "netwerk",
+        "e-pos",
+        "soekmasjien"
+      ],
+      "verwagte_begrippe_nota": "Vyf inskrywings, en die woordelys dra hierdie les se las omdat die studieteks twee strepies in 450 woorde moet noem en onderskei sonder om ook te omskryf. 'netwerk' loop ook deur les 11 - sien gedeelde_omskrywings_nota.",
+      "feiterisiko": [
+        "DEKADES: die video se wetenskaplikes het in die 1960's rekenaars begin koppel en gewone mense kon dit teen die 1990's gebruik. ALBEI IS NOG NIE NAGEGAAN NIE. Skryf die volgorde sonder dekades - eers wetenskaplikes, later gewone mense - tensy die feitenasiener hulle bevestig.",
+        "MOENIE SE 'n SELFOON IS KRAGTIGER AS DIE EERSTE REKENAARS NIE. Die video se dit, dit is nie nagegaan nie, en dieselfde soort bewering duik in les 11 weer op. As dit gebruik word, moet die feitenasiener dit vir ALBEI lesse tegelyk besleg.",
+        "MOENIE GETALLE OOR DIE INTERNET SKRYF NIE: 'miljarde webbladsye' en 'Google verwerk miljarde soektogte elke dag' is albei ongegaan, en 'n les met 'n getal in verouder.",
+        "MOENIE 'n UITVINDER VIR DIE REKENAAR OF DIE INTERNET BENOEM NIE. Albei het baie ontwikkelaars gehad, en 'n naam hier sou dieselfde fout wees wat les 9 se eerste sin uitdruklik vermy.",
+        "DIE KABELS ONDER DIE SEE is die video se punt en dit is die les se beste beeld, maar moenie 'n getal, 'n lengte of 'n roete daarby skryf nie.",
+        "MOENIE SE DIE INTERNET WERK DRAADLOOS NIE. Die punt is juis die teenoorgestelde - die kabel - en 'draadloos' hoort by les 4 en les 11."
+      ],
+      "historiese_konsepte": [
+        "Verandering en kontinuiteit (Afd. 2.4.4): 'n kabel onder die see dra vandag nog boodskappe, presies soos in les 6.",
+        "Oorsaak en gevolg (Afd. 2.4.4): rekenaars wat klein en bekostigbaar word, het veroorsaak dat 'n wereldwye netwerk vir gewone mense sin maak."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 10: die rekenaar EN die internet. HIERDIE LES DEK TWEE KABV-STREPIES (Rekenaar en Internet), en kry daarom 450 in plaas van 400.",
+        "woorde_wat_die_video_gebruik": [
+          "rekenaar",
+          "internet",
+          "netwerk",
+          "soekmasjien",
+          "e-pos"
+        ],
+        "wat_die_video_dek": [
+          "Die eerste rekenaars was reusagtig - hulle het hele kamers vol gestaan, en net universiteite en regerings kon hulle gebruik.",
+          "Toe kom die rekenaar-REVOLUSIE (die video omskryf dit as 'n groot verandering): rekenaars het kleiner, vinniger, slimmer en makliker geword om te gebruik, en gewone mense kon hulle ook gebruik. Vandag is 'n selfoon kragtiger as daardie eerste rekenaars.",
+          "Bill Gates het as tiener met rekenaars gewerk, was mal daaroor om programme te skryf, en het later Microsoft gestig - die maatskappy wat programme soos Windows ontwikkel het.",
+          "Waarvoor rekenaars vandag gebruik word: kommunikasie, skoolwerk en navorsing, speletjies, dokumente, ontwerp en kuns, bankdienste en besighede. Hulle is in hospitale, banke, winkels, skole en laboratoriums.",
+          "DIE INTERNET is 'n wereldwye netwerk wat rekenaars met mekaar verbind; dit stuur inligting oor lande en oseane, en dit werk met KABELS ONDER DIE SEE - wat by die posklippe van les 3 aansluit.",
+          "In die 1960's het wetenskaplikes begin om rekenaars aan mekaar te koppel; teen die 1990's kon gewone mense die internet ook gebruik. E-pos is elektroniese pos, en soekmasjiene help jou inligting vind.",
+          "Wat dit verander het: onderwys, besighede en kommunikasie; nuwe werksgeleenthede; mense wat wereldwyd koop en verkoop; kennis vinnig beskikbaar."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "DIE VIDEO SE BILL GATES-SIN IS VERSIGTIG: dit se hy het Microsoft GESTIG, nie dat hy die rekenaar uitgevind het nie. Hou daardie vorm. Hy is ook AANVULLING - KABV noem geen persoon by hierdie strepie nie - dus het hy 'n regverdiging nodig, of hy val weg. NOG NIE NAGEGAAN NIE: die 1960's en 1990's, 'Google verwerk miljarde soektogte elke dag', 'miljarde webbladsye', en of 'n selfoon werklik kragtiger is as die eerste rekenaars. Skryf geen getal wat nie nagegaan is nie."
+      },
+      "fokusvraag_skakel": "Lewer die stap waar kommunikasie 'n NETWERK word: hoe rekenaars van hele kamers tot in gewone huise gekrimp het, en hoe hulle aan mekaar gekoppel is sodat inligting oor die hele wereld kon loop.",
+      "fokusvraag_skakel_nota": "Hierdie les dra NIE die 'in jou hand'-helfte nie - dit is les 11 se werk - en nie die veiligheidsvraag nie. Met twee verpligte strepies in 450 woorde sou enige wyer belofte belowe wat die begroting nie kan koop nie, wat presies die fout is wat 'n vorige subonderwerp 'n hersieningsiklus gekos het."
+    },
+    {
+      "nommer": 11,
+      "titel": "Alles in een hand",
+      "kaps_punt": "Selfoon",
+      "begroting": 450,
+      "begrotingsnota": "450 is Drico se getal vir hierdie les: 'Also we can make selfoon + social media 450 since it has a supplement part.' DIE 450 IS NIE EWEREDIG VERDEEL NIE en dit mag nie wees nie: die SELFOON-strepie is verpligtend en sosiale media is aanvulling. Die verpligte helfte kry sowat 338 en die aanvulling hoogstens 112, wat presies die 25%-perk van 450 is. Die plan: die eerste selfone 70, die 1990's en 2000's 65, slimfone vandag 90, waarmee 'n selfoon help 75 (saam sowat 300 verplig, met speling); sosiale media 60 en die veiligheidsraad 50 (saam 110). 'n LES WAT MEESTAL OOR SOSIALE MEDIA GAAN, DEK NIE SY STREPIE NIE - dit is die maklikste manier om hierdie les te laat misluk.",
+      "kern": [
+        "DIE EERSTE SELFONE was groot en swaar, min mense het een gehad, hulle kon net oproepe maak, en die battery het vinnig pap geraak. Dit is 'n telefoon uit les 7 wat van sy draad losgekom het, en verder niks.",
+        "TOE HET HULLE KLEINER GEWORD: 'n mens kon sms'e stuur, party het speletjies gehad en sommige kon eenvoudige foto's neem. Die foon begin hier dinge doen wat nie 'praat' is nie.",
+        "VANDAG SE SLIMFONE dra alles wat die vorige agt lesse elk 'n eie masjien voor nodig gehad het: 'n kamera (les 8), radio (les 4), televisie (les 9), 'n rekenaar met die internet (les 10) en 'n telefoon (les 7), plus apps, musiek, speletjies en video-oproepe. HIERDIE PUNT IS DIE ONDERWERP SE SLOT en moet die duidelikste sin in die les wees.",
+        "WAARMEE 'n SELFOON MENSE HELP: vinnig met familie en vriende praat, hulp kry in 'n noodgeval, inligting opsoek, skoolwerk doen en herinneringe vasvang.",
+        "WAT DIESELFDE GEBLY HET, en dit is die laaste sin van die hele onderwerp: van 'n San-dans tot 'n boodskap op 'n skerm bly die doel dieselfde - een mens wil iets by 'n ander mens uitkry. Net die spoed, die afstand en die hoeveelheid mense het verander."
+      ],
+      "aanvulling": [
+        {
+          "item": "Sosiale media: mense maak aanlynprofiele en gebruik hulle om familie oorsee te kontak, nuus onmiddellik te sien, ervarings te deel en besighede te bou - met uitdagings soos privaatheid, aanlynboelies, onwaar inligting en te veel skermtyd.",
+          "regverdiging": "KABV se strepie is 'Selfoon' en noem sosiale media nie, dus is dit aanvulling. Die regverdiging is die onvolledigheidstoets: 'n Graad 4-les oor die selfoon van vandag wat nooit se waarvoor mense hom werklik gebruik nie, beskryf 'n apparaat en nie 'n vorm van kommunikasie nie - en die onderwerp se hele vraag is hoe kommunikasie verander het. Dit is boonop die enigste plek in die onderwerp waar 'n leerder ontmoet dat hy self 'n SENDER kan wees en nie net 'n ontvanger nie, wat die grootste enkele verandering in die hele storie is."
+        },
+        {
+          "item": "Die veiligheidsraad vir 'n aanlynprofiel: moenie persoonlike inligting deel nie, wees respekvol, dink voor jy iets plaas, en vra toestemming voordat jy iemand anders se foto deel.",
+          "regverdiging": "Ook aanvulling, en dit is die maklikste deel van hierdie les om te regverdig. KABV Afdeling 2.4.1 se dat die studie van Geskiedenis burgerskap binne 'n demokrasie ondersteun deur burgerlike verantwoordelikheid aan te moedig en huidige sosiale kwessies te verhoog, en Afdeling 2.4.3 vra dat 'n leerder kan besluit of inligting vertrou kan word - 'onwaar inligting' aanlyn is presies daardie vaardigheid in 'n negejarige se eie lewe. Sonder hierdie item leer die vorige item 'n kind wat sosiale media KAN doen en niks oor wat hy self moet doen nie."
+        }
+      ],
+      "aanvulling_nota": "Twee items, saam hoogstens 112 woorde van die 450 - presies die 25%-perk en nie 'n woord meer nie. DIE GEVAAR IS DIE OMGEKEERDE VAN GEWOONLIK: hierdie aanvulling is die interessantste deel van die les vir 'n skrywer en vir 'n leser, dus sal dit vanself groei en die verpligte SELFOON-strepie verdring. As lengte druk, kort die uitdagingslys in die eerste item; die veiligheidsraad bly heel, want dit is die deel met die sterkste regverdiging.",
+      "moeilike_konsepte": [],
+      "termdig": true,
+      "verwagte_begrippe": [
+        "selfoon",
+        "slimfoon",
+        "sms",
+        "app",
+        "sosiale media",
+        "aanlynprofiel"
+      ],
+      "verwagte_begrippe_nota": "Ses inskrywings. 'sosiale media' en 'aanlynprofiel' moet omskryf word sonder om 'n platform te noem - sien feiterisiko.",
+      "feiterisiko": [
+        "MOENIE 'n PLATFORM SE NAAM OF STIGTINGSJAAR SKRYF NIE. Facebook 2004, Twitter 2006, WhatsApp 2009 en Instagram 2010 is almal ongegaan, en 'n platform se naam laat 'n les boonop verouder terwyl niks dit weer nagaan nie.",
+        "MOENIE 'MEER AS DIE HELFTE VAN DIE WERELD GEBRUIK SOSIALE MEDIA' SKRYF NIE. Nie nagegaan nie, en dit is 'n getal wat elke jaar verander.",
+        "MOENIE 'AMPER 1 KILOGRAM' VIR DIE EERSTE SELFONE SKRYF NIE. Nie nagegaan nie. 'Groot en swaar' dra die punt sonder 'n getal.",
+        "MOENIE SE 'n SLIMFOON IS KRAGTIGER AS DIE REKENAARS WAT MENSE NA DIE MAAN GESTUUR HET NIE. Dit word wyd aangehaal en is waarskynlik waar, maar dit is nie nagegaan nie. Dieselfde soort bewering staan in les 10 se feiterisiko en die feitenasiener moet albei tegelyk besleg.",
+        "DEKADES: die 1970's en 80's vir die eerste selfone en die 1990's en vroee 2000's vir kleiner fone is die video se vorm en is nog nie nagegaan nie. Skryf die volgorde en laat die dekades weg tensy die feitenasiener hulle bevestig.",
+        "DIE UITDAGINGS: skryf hulle sonder om te dreig en sonder 'n oorsaaklike bewering. 'Gevoelens van depressie as gevolg van konstante vergelyking' is 'n gesondheidsbewering oor kinders, is nie nagegaan nie, en hoort NIE in 'n Graad 4-teks in hierdie vorm nie. Die veilige vorm is dat mense ongelukkig kan voel wanneer hulle hulself heeltyd met ander vergelyk.",
+        "MOENIE 'n NOODNOMMER SKRYF NIE. 'Hulp kry in 'n noodgeval' is genoeg; 'n nommer in 'n les verouder en niks gaan dit na nadat die les goedgekeur is nie."
+      ],
+      "historiese_konsepte": [
+        "Verandering en kontinuiteit (Afd. 2.4.4): die slimfoon dra al die vorige lesse se masjiene, en tog is die doel nog presies die San se doel.",
+        "Oorsaak en gevolg (Afd. 2.4.4): wanneer elke mens 'n sender word, verander wie besluit wat nuus is - met voordele en met 'n prys."
+      ],
+      "video_naat": {
+        "bestaan": true,
+        "nota": "Distillaat van Les 11: die selfoon EN sosiale media. KABV se strepie is SELFOON; die sosiale-media-helfte is AANVULLING. Kry 450 in plaas van 400.",
+        "woorde_wat_die_video_gebruik": [
+          "selfoon",
+          "slimfoon",
+          "sms",
+          "apps",
+          "sosiale media",
+          "aanlynprofiel"
+        ],
+        "wat_die_video_dek": [
+          "Die eerste selfone van die 1970's en 80's was groot en swaar - amper 1 kilogram; min mense het een gehad, dit kon net oproepe maak, en die battery het vinnig pap geraak.",
+          "In die 1990's en vroee 2000's het selfone kleiner geword, kon jy sms'e stuur, het party speletjies gehad en kon sommige eenvoudige foto's neem.",
+          "Vandag se slimfone: groot skerms, internettoegang, goeie kameras, video-oproepe, apps, musiek, TV, speletjies en sosiale media.",
+          "Wat selfone help doen: vinnig met familie en vriende praat, hulp in noodgevalle kry, inligting opsoek, skoolwerk doen, herinneringe vasvang.",
+          "SOSIALE MEDIA: in die vroee 2000's het mense begin om aanlynprofiele te maak. Dit help mense om familie oorsee te kontak, nuus onmiddellik te sien, ervarings te deel en besighede te bou.",
+          "Uitdagings, en die video noem hulle sonder om te dreig: privaatheidskwessies, aanlynboelies, onwaar inligting, te veel skermtyd, en gevoelens van depressie as gevolg van konstante vergelyking.",
+          "Die video se veiligheidsraad vir 'n aanlynprofiel: moenie persoonlike inligting deel nie, wees respekvol, dink voor jy iets plaas, en vra toestemming voor jy iemand se foto deel."
+        ],
+        "moenie_hierdie_bewerings_herhaal_nie": [],
+        "let_op": "DIE SOSIALE-MEDIA-HELFTE IS AANVULLING en kompeteer met die verpligte SELFOON-strepie. Weeg dit: 'n les wat meestal oor sosiale media gaan, dek nie sy strepie nie. Die veiligheidsraad is die sterkste deel van die aanvulling en die maklikste om te regverdig. NOG NIE NAGEGAAN NIE: die platform-jare (Facebook 2004, Twitter 2006, WhatsApp 2009, Instagram 2010), 'meer as die helfte van die wereld gebruik sosiale media', 'amper 1 kilogram' vir die eerste selfone, en 'jou slimfoon is kragtiger as die rekenaars wat mense na die maan gestuur het'. Daardie laaste een is wyd aangehaal en waarskynlik waar, maar dit is nie nagegaan nie. Skryf geen getal wat nie nagegaan is nie, en let op die staande reel dat 'n les met 'n getal in verouder."
+      },
+      "fokusvraag_skakel": "Sluit die hele antwoord af: hoe alles wat die vorige lesse elk 'n eie masjien voor nodig gehad het, in een hand beland het - en dat die doel van kommunikasie deur die hele storie dieselfde gebly het.",
+      "fokusvraag_skakel_nota": "Hierdie les is die enigste een wat 'n SLOTBELOFTE dra, en dit kan dit dra omdat dit die laaste les is en omdat lesse 1 tot 10 elk hul eie deel klaar gelewer het. Dit moet nie die vorige lesse se argumente herhaal nie - 'n opsommende sin is genoeg."
+    }
+  ],
+  "goedkeuring": "NOG NIE GOEDGEKEUR NIE. Hierdie leer staan in spesifikasies/konsep/. 'n Mens moet dit lees en na spesifikasies/goedgekeur/ skuif voordat enige les geskryf word; die beplanner skryf nooit daarheen nie en keur nooit sy eie werk goed nie."
+}
