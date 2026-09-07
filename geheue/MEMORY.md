@@ -58,3 +58,5 @@
 - [An omission changes its neighbours](n-weglating-verander-sy-bure.md) — cutting a sentence made two survivors adjacent and created a claim neither made alone; and a two-part spec note can be marked met by half of itself.
 - [A glossary entry is read alone](n-begrip-word-alleen-gelees.md) — three times in one day an entry was true only inside its own block; read it with the rest of the lesson deleted and ask what else it fits.
 - [The teacher knows what matters beyond CAPS](die-onderwyser-weet-wat-buite-kaps-saak-maak.md) — when our rules and her judgement disagree, look for the part of CAPS our rule never read; and Gr 4 SW is a deliberate exception to the whole process.
+- [A spec too bulky to be written](n-spek-so-lywig-dat-dit-nie-geskryf-kan-word-nie.md) — 49KB of notes broke a planner's file write and cost 27 minutes; a note earns its place by changing what a writer does.
+- [Kern can contradict feiterisiko](kern-en-feiterisiko-weerspreek-mekaar.md) — and kern wins, because coverage tests against it; three writers caught this in one day.

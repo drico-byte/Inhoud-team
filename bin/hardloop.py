@@ -480,8 +480,43 @@ def oorsig(vak, graad, sub, spek, uit):
 
 
 # ---------------------------------------------------------------- the walk
+def eis_vars_standaard(uit):
+    """Refuse if the standard the AGENTS load is not the standard we edit.
+
+    Claude Code loads a project skill only from .claude/skills/<name>/, while the
+    canonical standard is versioned at skills/<name>/. bin/opstel.py joins them
+    with a directory junction, so normally they are one thing.
+
+    When they are not, nothing shows it. On 7 September 2026 the linked copy had
+    become a real directory and was a full day behind: no Grade 4 budget band, no
+    floor exception, no Sosiale Wetenskappe exception. Four planners in a row
+    loaded it. Two noticed and said so in their reports; the specs came out right
+    only because their briefs happened to repeat the new rules. The setup script
+    said "ok" throughout, because it only checked that a SKILL.md existed there.
+
+    This is checked here because the runner is what gets run before an agent is
+    launched, which is exactly when a stale standard does its damage.
+    """
+    kanon = os.path.join(P.REPO, "skills", P.SKILL_NAME)
+    gelaai = os.path.join(P.REPO, ".claude", "skills", P.SKILL_NAME)
+    if not os.path.isdir(gelaai):
+        raise Refuse(
+            f"the standard is not discoverable at .claude/skills/{P.SKILL_NAME}",
+            "Agents load it only from there, so they would run without it.",
+            "Run: python bin/opstel.py")
+    if os.path.realpath(gelaai) != os.path.realpath(kanon):
+        raise Refuse(
+            f".claude/skills/{P.SKILL_NAME} is a separate copy, not a link to "
+            f"skills/{P.SKILL_NAME}",
+            "The agents read that copy and you edit the other one, so every change",
+            "to the standard is invisible to them until it is relinked.",
+            "Run: python bin/opstel.py")
+
+
 def stap(a, uit):
     vak, graad, sub = a.vak, a.graad, a.subonderwerp
+
+    eis_vars_standaard(uit)
 
     # The spec's budget basis decides whether a zero measurement is fatal, so read
     # it before judging the profiler config. Only the basis is taken this early; the
@@ -492,8 +527,11 @@ def stap(a, uit):
     profiel_pad, profiel, vol = eis_profiel(vak, graad, sub, basis)
     uit.step("profiler config", "OK",
              [f"{P.rel(profiel_pad)}",
-              (f"'{sub}': the book does not cover this sub-topic — 0 measured words. "
-               f"Budgets come from the spec under the 'vereistes' basis."
+              (f"'{sub}': NOT measured in this config — 0 words. Budgets come from the spec "
+               f"under the 'vereistes' basis, and this config's name is NOT this "
+               f"sub-topic's budget provenance. Three writers in a row refused to record "
+               f"it as such, correctly: a Kwartaal 3 config named in a Kwartaal 1 lesson's "
+               f"herkoms would be a false record. Use what the spec's profiel_konfig says."
                if vol.get("geen_meting")
                else f"'{sub}': {vol['woorde']} measured words over {vol['bladsye']} pages")])
 
