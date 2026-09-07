@@ -1,0 +1,59 @@
+{
+  "les": "gr4/sosiale-wetenskappe/vervoer-op-water/les-1",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:8bb74c85d97c3a00870a299e9c0f2654",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:826f6f7b56b71d4fd21955915aba1ab2"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-07T15:56:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:826f6f7b56b71d4fd21955915aba1ab2",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-07T15:56:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 291,
+      "begroting": 400,
+      "failures": [
+        "Study text 291 words, below budget floor 340 (target 400) — under-supplying relative to the textbook"
+      ]
+    },
+    {
+      "wanneer": "2026-09-07T15:56:50+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 291 words, below budget floor 340 (target 400) — under-supplying relative to the textbook"
+      ]
+    },
+    {
+      "wanneer": "2026-09-07T16:10:37+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8bb74c85d97c3a00870a299e9c0f2654",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-07T16:10:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 396,
+      "begroting": 400,
+      "failures": []
+    }
+  ],
+  "spek_hash": "sha256:4002415d68a8751198c770f2537f5997",
+  "hek_konteks": {
+    "graad": 4,
+    "begroting": 400
+  }
+}
