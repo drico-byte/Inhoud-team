@@ -4,59 +4,99 @@
   "prompt_weergawe": "feitenasiener-v1.2",
   "les": "Stoom trek die trein",
   "kaps_punt": "die stoomenjin en die trein",
-  "verdict": "MENS_NODIG",
+  "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "Dink aan 'n ketel met water wat op die stoof kook.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "bewering": "Dink aan 'n pot water wat op die stoof kook.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, Kettle (https://en.wikipedia.org/wiki/Kettle): 'n stoofketel is 'n metaalhouer met 'n plat bodem wat water op 'n stoofplaat verhit, met 'n handvatsel, 'n tuit en 'n deksel. Glosbe af-en woordeboek (https://glosbe.com/af/en/ketel) bevestig dat die Afrikaanse 'ketel' juis 'n ketel is wat op 'n stoof staan. Die voorwerp en die woord is albei korrek."
+      "bron": "Kokende water op 'n stoof maak stoom, en die stoom versamel onder die deksel. Basiese kookpunt-fisika, bevestig deur die bespreking van drukopbou onder 'n potdeksel by https://www.quora.com/Does-putting-a-lid-on-a-pot-of-water-food-increase-the-pressure-in-the-pot-by-more-than-point-1-atmospheric-pressure-Having-an-argument-with-a-friend-that-the-pressure-increase-by-just-putting-a-lid-on-a-pot-is en https://able2know.org/topic/160972-1",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Die stoom binne-in soek plek en stoot van onder af teen die deksel.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "bewering": "Die stoom stoot van onder af teen die deksel en lig dit.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "University of Illinois Physics Van (https://van.physics.illinois.edu/ask/listing/30776) en Miura Boiler tegniese vraestel (https://miuraboiler.com/wp-content/uploads/2019/03/Why-Build-an-Ultra-Low-Water-Content-On-Demand-Steam-Boiler.pdf): water sit ongeveer 1 600 keer uit wanneer dit by atmosferiese druk in stoom verander, en die stoom druk daarom teen die houer. Die stoom is onder die deksel, dus druk dit opwaarts daarteen. Die beeld 'soek plek' is 'n prentjie, maar sy feitelike kern (stoom neem baie meer plek op en druk daarom) is korrek."
+      "bron": "Kragbalans op 'n los deksel: die druk onder die deksel kan hoogstens atmosferiese druk plus die deksel se gewig gedeel deur sy oppervlak wees; wanneer die stoomdruk die deksel se gewig plus wrywing oorskry, lig die deksel. Sien https://able2know.org/topic/160972-1 en https://www.quora.com/Does-putting-a-lid-on-a-pot-of-water-food-increase-the-pressure-in-the-pot-by-more-than-point-1-atmospheric-pressure-Having-an-argument-with-a-friend-that-the-pressure-increase-by-just-putting-a-lid-on-a-pot-is",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Jy kan sien hoe die deksel 'n bietjie lig en weer sak.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
-      "status": "onseker",
-      "tipe": "algemeen",
-      "bron": "Bronne trek twee kante toe. Vir 'n POT (geen tuit, deksel wat bo-op rus) is die waarneming goed gevestig: stoomdruk bou onder die deksel op, lig dit, stoom ontsnap, druk val, deksel sak. Maar Wikipedia, Kettle (https://en.wikipedia.org/wiki/Kettle) beskryf dat 'n stoofKETEL 'n tuit het en dat die stoom deur die tuit ontsnap, dikwels deur 'n fluitjie - die tuit, nie die deksel nie, is die ontwerpte uitgang. Die Watt-ketelverhaal beskryf wel 'n ketel se deksel wat deur stoom beweeg (D.P. Miller, 'True Myths: James Watt's Kettle', History of Science 42, 2004, https://journals.sagepub.com/doi/10.1177/007327530404200304), maar daardie verhaal is self gedeeltelik legende. Ek kon dus nie vasstel of 'n leerder wat na 'n ketel op 'n stoof kyk die deksel werklik sal sien lig en sak nie. Ek kon dit ook nie met 'n Suid-Afrikaanse bron oor huishoudings vasmaak nie: die een syfer wat ek gekry het (99% van huishoudings gebruik 'n ketel, UCT-verslag oor huishoudelike elektrisiteitsverbruik) kom uit 'n studie oor ELEKTRIESE verbruik en onderskei nie stoofketel van elektriese ketel nie, en die dokument self kon ek nie oopmaak nie. 'n Elektriese ketel se deksel lig glad nie. 'n Mens moet besluit of die waarneming behou, na 'n pot verskuif, of laat vaar word - ek raai nie."
-    },
-    {
-      "bewering": "In 'n stoomenjin staan die suier waar die deksel by die ketel staan.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
-      "status": "weerspreek",
-      "tipe": "analogie",
-      "bron": "Britain's Steam Railway Encyclopedia, How a Steam Locomotive Works (https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works): die silinders is afsonderlike eenhede wat deur stoompype aan die ketel gekoppel is, nie deel van die ketel nie. Trains Magazine, How steam locomotives work (https://www.trains.com/trn/train-basics/abcs-of-railroading/how-a-steam-locomotive-works/): stoom versamel in die stoomkoepel en gaan deur die reguleerder na die kleppe wat dit in die silinders toelaat. Model Engineering Website, Steam piston rings (https://modelengineeringwebsite.com/Steam_piston_rings.html): suierringe bestaan juis om te keer dat stoom by die suier verbylek, want sulke lekkasie is verlore krag.",
-      "regstelling": "Die suier staan nie waar die deksel staan nie, en hy doen ook nie die deksel se werk nie. Die deksel is 'n LOS deksel wat lig sodat stoom kan uitkom; die suier sit in 'n TOE silinder wat die stoom vashou en wat die stoom deur pype bereik - presies wat die les se eie studieblok se: 'Sterk pype lei die stoom na 'n noue silinder met 'n suier daarin.' Die eli10 weerspreek dus die blok wat dit verduidelik. Se eerder dat die suier die deel is waarteen die stoom stoot, soos die stoom teen die deksel stoot, maar dat die suier in 'n toe silinder sit wat die stoom nie laat wegkom nie. Waarsku die skrywer om NIE ook die rigting te verander nie: vroee lokomotiewe het werklik regop silinders gehad (Locomotion No. 1 van 1825 het twee vertikale silinders gehad, en Rocket s'n was 35 grade skuins voordat silinders later naby horisontaal gekom het - https://en.wikipedia.org/wiki/Stephenson%27s_Rocket), so die opwaartse stoot in die prentjie is nie 'n fout nie en moet nie 'reggemaak' word nie."
-    },
-    {
-      "bewering": "Die stoom stoot teen die suier en die suier gly weg.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "bewering": "In 'n stoomenjin is die suier die deel waarteen die stoom stoot.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Trains Magazine, How steam locomotives work (https://www.trains.com/trn/train-basics/abcs-of-railroading/how-a-steam-locomotive-works/): die wesenlike werking van enige stoomenjin is stoom onder druk wat 'n silinder-en-suier binnegaan en teen die suier stoot terwyl dit uitsit. Britain's Steam Railway Encyclopedia (https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works): die stoom dryf die suier heen en weer, en 'n kruiskop hou die beweging reguit."
+      "bron": "Wikipedia, Steam engine: \"The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder.\" https://en.wikipedia.org/wiki/Steam_engine ; ook https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works",
+      "tipe": "analogie"
     },
     {
-      "bewering": "Hier hou die prentjie op: die deksel sak van sy eie gewig terug.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
-      "status": "weerspreek",
-      "tipe": "analogie",
-      "bron": "Explain That Stuff, How do steam engines work (https://www.explainthatstuff.com/steamengines.html) gebruik dieselfde ketelvergelyking en noem juis die ANDER verskil as die belangrike een: 'It's a bit like a giant kettle sitting on top of a coal fire... But instead of blowing off uselessly into the air, like the steam from a kettle, the steam is captured and used to power a machine.' Miura Boiler (https://miuraboiler.com/wp-content/uploads/2019/03/Why-Build-an-Ultra-Low-Water-Content-On-Demand-Steam-Boiler.pdf) stel dieselfde beginsel: 'n stoomenjin steun op stoom wat in 'n STERK houer vasgehou word. Model Engineering Website, Steam piston rings (https://modelengineeringwebsite.com/Steam_piston_rings.html): stoom wat by die suier verbyglip is verlore krag, nie die werking nie.",
-      "regstelling": "Die verskil wat hier genoem word is self waar - die deksel sak wel van sy eie gewig, en die suier word wel deur nuwe stoom teruggestoot - maar dit is nie die plek waar die prentjie ophou nie, en deur dit as DIE grens te noem, verklaar die blok stilweg dat die res van die vergelyking hou. Dit is juis die deel wat nie hou nie. Die deksel lig omdat die stoom by hom VERBYKOM: die lig-en-sak is 'n ontsnapping, die stoom waai weg, en niks word gedryf nie - die deksel kom presies terug waar hy was. 'n Stoomenjin werk andersom: die stoom word agter die suier VASGEHOU en stoot hom die hele lengte van die silinder af, en die gebruikte stoom gaan eers aan die einde van die slag deur 'n klep uit. 'n Leerder wat verder redeneer met die prentjie soos dit nou staan, kom by 'n stoomenjin uit wat werk deurdat stoom uitgelaat word, wat die teenoorgestelde is van hoe dit werk. Noem hierdie verskil eerste - die ketel laat sy stoom loop, die enjin hou syne vas en gebruik dit - en hou dan die bestaande sin oor die terugstoot."
-    },
-    {
-      "bewering": "Nuwe stoom aan die suier se ander kant stoot hom terug.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "bewering": "Die karteering self: die deksel en die suier word gelykgestel in ROL (die deel waarteen die stoom stoot), nie in posisie nie.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Britain's Steam Railway Encyclopedia (https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works): lokomotiefsilinders is dubbelwerkend - stoom word om die beurt by elke ent van die silinder ingelaat, sodat die suier op die heenslag sowel as die terugslag gestoot word. Trains Magazine (https://www.trains.com/trn/train-basics/abcs-of-railroading/how-a-steam-locomotive-works/) bevestig dieselfde, en Wikipedia, Slide valve (https://en.wikipedia.org/wiki/Slide_valve) beskryf hoe die klep stoom aan die een kant inlaat terwyl die ander kant uitlaat. Hierdie sin is korrek en is die sterkste deel van die blok."
+      "bron": "Die rol hou by elke las. In albei gevalle is daar 'n gas onder druk aan een kant van 'n beweegbare deel, en die deel beweeg omdat die gas daarteen stoot. Die suier is inderdaad die bewegende deel waarteen stoom werk (https://en.wikipedia.org/wiki/Steam_engine), en die deksel is die bewegende deel waarteen stoom in 'n pot werk (https://able2know.org/topic/160972-1). Die blok maak geen posisie-aanspraak (\"waar die deksel is\") wat vals sou wees nie.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Hier hou die prentjie op: die stoom glip by die deksel uit en is weg.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "'n Gewone potdeksel seël nie: sodra dit effens lig, ontsnap stoom, val die druk, en sak die deksel terug. Daarom bestaan drukkokers met afsonderlike seëls en kleppe as 'n aparte toestel (https://patents.justia.com/patent/4733795). Sien ook https://able2know.org/topic/160972-1",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Enjin hou sy stoom agter die suier vas.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "Die silinder is 'n geslote kamer en die suier word met suierringe teen die silinderwand geseël, sodat die stoom nie by die suier verby ontsnap nie. Wikipedia, Piston ring: 'n metaalring aan die buitekant van die suier wat die kamer seël (https://en.wikipedia.org/wiki/Piston_ring); https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die stoom stoot die suier die hele lengte van die silinder af.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "Wikipedia, Cutoff (steam engine): die inlaatklep sluit gewoonlik vroeg in die slag, maar \"steam trapped in the cylinder expands adiabatically\" en gaan voort om die suier vir die res van die slag te stoot en werk te doen (https://en.wikipedia.org/wiki/Cutoff_(steam_engine)). Die stoom stoot dus wel die hele slag lank; net die INSTROMING hou vroeër op. Die les se \"die stoom\" verwys terug na die vasgehoue stoom van die vorige sin, en dié lesing is korrek.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Eers aan die einde laat die enjin die stoom uit.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "Die vier klepgebeurtenisse is toelating, afsnyding, vrylating en sluiting; vrylating (\"release\") is waar die klep die uitlaatpoort oopmaak nadat die stoom uitgesit het, teen die einde van die slag. https://advanced-steam.org/5at/modern-steam/principles-of-modern-steam/enhanced-valve-events/ ; https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works . (In presiese praktyk begin vrylating 'n kortjie voor die doodpunt; \"aan die einde\" is korrek op hierdie vlak.)",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Die deksel sak ook net van sy eie gewig terug.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "Niks stoot die deksel af nie; die enigste terugstellende krag is swaartekrag op die deksel. Die druk onder die deksel word juis begrens deur die deksel se gewig gedeel deur sy oppervlak. https://able2know.org/topic/160972-1 ; https://www.quora.com/Does-putting-a-lid-on-a-pot-of-water-food-increase-the-pressure-in-the-pot-by-more-than-point-1-atmospheric-pressure-Having-an-argument-with-a-friend-that-the-pressure-increase-by-just-putting-a-lid-on-a-pot-is",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Nuwe stoom stoot die suier van die ander kant terug.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "Lokomotiefsilinders is dubbelwerkend: \"steam is admitted to each end of the cylinder in turn, so the piston is pushed on both the forward and the return stroke, with no wasted movement\" (https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works). Ook Wikipedia, Steam engine en Slide valve (https://en.wikipedia.org/wiki/Slide_valve).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Waarheen 'n leerder kom wat verder redeneer: kan hy nog by 'n enjin uitkom wat werk deur stoom te laat ONTSNAP?",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "Nee. Die beperking noem die ontsnap-teenoor-vashou-verskil EERSTE (\"die stoom glip by die deksel uit en is weg\" / \"'n Enjin hou sy stoom agter die suier vas\"), en die blok gee daarna die korrekte oorsaaklike volgorde: vashou, dan die hele lengte af stoot, en EERS DAARNA uitlaat. Die werk word dus uitdruklik aan die stoot toegeskryf en nie aan die uitlaat nie, en die terugslag word aan NUWE stoom toegeskryf, nie aan ontsnapping nie. Dit stem ooreen met die werklike siklus (toelating, uitsetting, vrylating): https://advanced-steam.org/5at/modern-steam/principles-of-modern-steam/enhanced-valve-events/ en https://en.wikipedia.org/wiki/Steam_engine",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Die beperking sertifiseer nie wat voor dit staan nie: die eerste verskil wat genoem word is die sentrale een (ontsnap teenoor vashou), en die terugslag-verskil kom tweede.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "Nagegaan teen die blok se eie volgorde en teen die werklike meganisme. Albei genoemde verskille is waar en die belangrikste een staan voor: die stoom word vasgehou (suierringe seël die silinder, https://en.wikipedia.org/wiki/Piston_ring) en die terugslag kom van stoom aan die ander kant (dubbelwerkend, https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works).",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Die vergelyking stel nie die pot aan die silinder gelyk nie, en beweer dus nie dat die water binne die silinder kook nie.",
+      "blok": "eli10 vir \"Wat 'n stoomenjin is\"",
+      "status": "bevestig",
+      "bron": "Die blok noem die silinder as 'n aparte ding waarin die suier 'n hele lengte ver loop, en praat van \"nuwe stoom\" wat inkom, wat 'n toevoer van elders veronderstel. In 'n werklike stoomenjin is die ketel en die silinder afsonderlik en die stoom word deur pype aangevoer (https://en.wikipedia.org/wiki/Steam_engine ; https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works). Die blok maak geen houer-gelykstelling wat dit sou weerspreek nie.",
+      "tipe": "analogie"
     }
   ],
-  "opsomming": "Die ketelprentjie faal op sy belangrikste skarnier: die suier word by die deksel se plek gestel terwyl die deksel juis die los deel is wat stoom LAAT ONTSNAP en die suier in 'n toe silinder sit wat stoom VASHOU, en omdat die blok 'hier hou die prentjie op' by 'n ander, kleiner verskil plaas, word hierdie valse deel stilweg goedgekeur en kan 'n leerder aflei dat 'n stoomenjin werk deur stoom uit te laat; daarby kon ek nie vasstel of 'n leerder 'n ketel (teenoor 'n pot) se deksel werklik sien lig en sak nie, wat 'n mens se besluit verg."
+  "opsomming": "Al nege sinne van die eli10-blok is korrek en die karteering hou by elke las: die pot-beeld word nou in rol gestel eerder as in posisie, en die beperking noem die ontsnap-teenoor-vashou-verskil eerste, sodat 'n leerder wat verder redeneer by die regte prentjie uitkom (vashou, stoot, dan uitlaat, en 'n terugslag deur nuwe stoom) en nie meer by 'n enjin wat werk deur stoom te laat ontsnap nie."
 }

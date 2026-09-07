@@ -49,6 +49,7 @@
 - [My searches miss, and then I believe them](my-soektogte-mis-en-dan-glo-ek-hulle.md) — three empty results reported as findings in one day; the third nearly became a false accusation.
 - [The video's lesson division wins](video-se-lesverdeling-wen.md) — where a video came first and merged two CAPS bullets, the text merges too; a merged lesson gets one lesson's budget, not two.
 - [A spec says the same thing in two fields](n-spek-se-dieselfde-ding-in-twee-velde.md) — a source fix must sweep every field that repeats the claim, not just the one the finding named.
+- [A caution must cover every sibling](n-waarskuwing-moet-elke-broer-dek.md) — the spec warned off the video’s sail simplification for two ships and then required it for the third; check every item in a parallel list, and check no requirement demands what a caution forbids.
 - [The spec and the lesson name the same field differently](die-spek-en-die-les-noem-dieselfde-veld-anders.md) — a spec's kaps_onderwerp is the topic, a lesson's is the sub-topic; nothing checks it.
 - [A lesson with a number in it goes stale](n-les-met-n-nommer-in-verouder.md) — Childline 116, checked 2 Sep 2026; re-verify at every reprint, because nothing re-checks after approval.
 - [The agreed wording can itself be wrong](die-ooreengekome-bewoording-kan-self-verkeerd-wees.md) — reconciling makes two lessons agree, not right; fact-check the agreed wording after reconciling, and sweep the prose that leaned on it.
