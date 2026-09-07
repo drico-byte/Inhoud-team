@@ -1,5 +1,22 @@
 # Register bands and calibration
 
+## Lesson budget band — separate from register
+
+| Grade | Floor | Ceiling |
+|---|---|---|
+| 4 | 350 | 450 |
+
+Decided by Drico on 7 September 2026, after measuring the delivered Grade 4 lessons:
+they ran **169 to 811 study words**, seventeen of twenty-five over 450. Register and
+budget are different things — this table is about how much a lesson holds, the ones
+below are about how it reads. Full reasoning in `SKILL.md` under Volume budget.
+
+Measured at the same time, and worth keeping: **a built page runs about 1.6x the study
+budget.** Across the 25 built Gr 4 lessons the page is 62.6% study text, 8.0% glossary,
+5.6% block headings, 0.7% title — 77.3% ours — and 22.7% builder furniture. So a
+450-word budget renders as roughly a 700-word page. Anyone judging length by looking at
+a built lesson is reading a number 60% larger than the one the gate enforces.
+
 ## Current bands
 
 | Grades | Words/sentence | Syllables/word | 3+ syllables | Status |
