@@ -61,4 +61,5 @@
 - [The teacher knows what matters beyond CAPS](die-onderwyser-weet-wat-buite-kaps-saak-maak.md) — when our rules and her judgement disagree, look for the part of CAPS our rule never read; and Gr 4 SW is a deliberate exception to the whole process.
 - [A spec too bulky to be written](n-spek-so-lywig-dat-dit-nie-geskryf-kan-word-nie.md) — 49KB of notes broke a planner's file write and cost 27 minutes; a note earns its place by changing what a writer does.
 - [Kern can contradict feiterisiko](kern-en-feiterisiko-weerspreek-mekaar.md) — and kern wins, because coverage tests against it; three writers caught this in one day.
+- [A fact-risk note is not a correction](n-feiterisiko-is-nie-n-regstelling-nie.md) — amend the field that ORDERED the error, not just append a warning; coverage tests against kern, so a half-fix fails a correct draft and the next revision reinstates the fault.
 - [Simplify the method, not the provenance](vereenvoudig-die-metode-nie-die-herkoms-nie.md) — at Grade 4, compressing HOW we know is right; saying the information lives in the wrong object is not.
