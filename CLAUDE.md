@@ -111,12 +111,25 @@ The improvements that hurt most did not come from writers — they came from fac
 checks, which run *after* drafting. One asked whether crude oil is always thick
 and dark; it is not, and that correction reached a delivered lesson months late.
 
-## Sosiale Wetenskappe: the video was made first
+## Sosiale Wetenskappe runs a different process
 
-Everywhere else the video is made after the text and follows it. **Grade 4 Sosiale
-Wetenskappe is the other way round** — those videos exist already and will not be
-remade — so for that subject a video script is an extra input, and the rules for it
-are narrow.
+**Drico, 7 September 2026: treat this whole subject as an exception to what we have been
+doing.** The six departures are listed together under "Gr 4 Sosiale Wetenskappe runs a
+different process" in the content standard — read that before planning anything in this
+subject, and **add to that list rather than patching another rule**.
+
+The one that causes the rest: everywhere else the video is made after the text and
+follows it. **Grade 4 Sosiale Wetenskappe is the other way round** — those videos exist
+already and will not be remade — so a video script is an extra input, and the rules for
+it are narrow.
+
+The one most easily got wrong: **coverage comes from CAPS's skills and concepts section
+as well as its content table.** Kwartaal 1's content list is one item while the teacher
+teaches five lessons' worth, and read against the content table alone three of them
+would be supplement at 60% against a 25% cap. Her judgement is evidence — *"they know
+whats important beyond the caps points"* — so look for the part of CAPS our rule never
+read before concluding she is wrong. A lesson serving neither the content table nor the
+skills section is still supplement, still capped.
 
 The lesson still comes from CAPS. A script is **not** a source for content and not a
 source for structure; letting it be either hands a video maker's coverage decisions

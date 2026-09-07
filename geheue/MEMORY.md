@@ -45,3 +45,4 @@
 - [My searches miss, and then I believe them](my-soektogte-mis-en-dan-glo-ek-hulle.md) — three empty results reported as findings in one day; the third nearly became a false accusation.
 - [The video's lesson division wins](video-se-lesverdeling-wen.md) — where a video came first and merged two CAPS bullets, the text merges too; a merged lesson gets one lesson's budget, not two.
 - [A spec says the same thing in two fields](n-spek-se-dieselfde-ding-in-twee-velde.md) — a source fix must sweep every field that repeats the claim, not just the one the finding named.
+- [The teacher knows what matters beyond CAPS](die-onderwyser-weet-wat-buite-kaps-saak-maak.md) — when our rules and her judgement disagree, look for the part of CAPS our rule never read; and Gr 4 SW is a deliberate exception to the whole process.
