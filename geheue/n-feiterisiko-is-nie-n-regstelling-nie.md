@@ -102,3 +102,30 @@ explicitly as replaced. A dated note that says "write X" is still a note that sa
 write X.
 
 The tell: any imperative verb in the part of the field that is meant to be history.
+
+## I have now made this mistake four times in one day, after writing this note
+
+Recorded plainly because the pattern matters more than the instances. This note was
+written in the morning of 8 September 2026. By that evening I had repeated the same
+half-fix on the pigeon requirement, the digital-camera requirement, the San tense
+requirements and the television balance requirement. Each time a writer or a
+coverage checker caught it, not me.
+
+**The mechanism is the script, not the intention.** Every one of those fixes was
+made by a small Python script that appended a `feiterisiko` entry. Appending to a
+list is one line; finding and amending the requirement that ordered the error means
+reading the `kern` list, identifying the right item, and asserting a substring. So
+the cheap action and the correct action are different actions, and under time
+pressure the cheap one wins — reliably, even with the rule written down.
+
+**So the fix is procedural, not a matter of remembering.** In the same script that
+appends a `feiterisiko`, **print the lesson's `kern` items**. Not to satisfy a rule
+— to make it impossible to finish the script without having looked at the field
+that gives the order. A rule I have broken four times in a day is not a rule I can
+rely on holding the fifth time; a script that shows me the requirement is.
+
+The corollary, learned the same day: when the requirement *is* amended, the
+amendment goes in its **opening line** (see above), and the reasoning left below it
+must not be phrased as an instruction (see above). All three failures are the same
+failure seen from different angles — the field that gives the order is the field
+that must change.
