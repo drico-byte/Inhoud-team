@@ -101,3 +101,62 @@ Visual Arts Term 1 lacks the "this is compulsory" sentence that Terms 2-4 carry,
 and lacks the "questions to strengthen observation" bullet the other three have.
 It reads like the first term was set before the pattern settled. Recorded so it is
 not mistaken for something we dropped.
+
+## RULING 3, Drico, 8 September 2026: how the three identical hours differ
+
+**Verified before deciding**, because the whole ruling rests on it: the Onderwerp 4
+blocks for Terms 1, 2 and 3 are **byte-identical**, and Term 4 keeps only the
+terminology bullet. Compared literally, not by eye.
+
+Three identical text lessons are pointless — a learner revising reads the same page
+three times — so each lesson covers the whole bullet with a **different centre of
+gravity**:
+
+- **Term 1** — the foundation. What a percussion instrument is, and the four
+  questions CAPS names for sorting instruments into families: what it looks like,
+  what it is called, how it makes its sound, whether it sounds high or low. A small
+  set of clear African instruments.
+- **Term 2** — how the sound is made carries the weight: struck, shaken, scraped.
+  More instruments, and the listening moves to what an instrument *does* to a piece.
+- **Term 3** — pitch does the work: why one drum sounds lower than another, high and
+  low across a family.
+- **Term 4** — no instrument content at all; how to describe a performance you
+  watched.
+
+**Nothing is invented and every lesson still covers the CAPS bullet in full.** What
+changes is emphasis. CAPS says do it three times and is silent on how to vary it, so
+**this is our design choice and must be recorded as ours, not as the curriculum's.**
+
+### An inference I made and had to narrow — do not restore it
+
+I first proposed differentiating the lessons by each term's **Sleutelterme** list,
+since those are genuinely different every term. That is half right and would have
+gone wrong.
+
+**The key-term lists cover the WHOLE term — all four topics.** Term 1's includes
+*opwarming*, *ontspanning*, *ruggraat*: warm-up words, not words for discussing a
+performance. Taking a list wholesale drags stretching vocabulary into a listening
+lesson. Only the part of each list that describes **what you see and hear** is
+usable.
+
+### The real differentiator, which is stronger and is CAPS' own
+
+The bullet says *"eie en ander se optredes"* — the learners' **own** performances.
+What they have performed differs completely by term: rhythmic patterns and action
+songs in Term 1; soundscapes and call-and-response in Term 2; a drama built from a
+stimulus, with characters, in Term 3; tableaux and a drama with conflict in Term 4.
+
+So "discuss your own and others' performances" is about a different thing each term
+**by construction**, and the vocabulary follows from that rather than the reverse.
+That is the anchor; the key terms are a consequence.
+
+## These hours are never the formally assessed task
+
+From the assessment section: the Performing Arts assessment task is drawn from
+**Onderwerp 2 or 3**, and the Visual Arts one is a creative task. Neither comes from
+the theory hours.
+
+So this content **supports the practical work rather than being examined itself**.
+Worth knowing in two ways: it lowers the stakes on the emphasis split above, and it
+means a learner meets this material in class rather than in a test — so the text has
+to be the thing they can go back to, since nothing else will make them revisit it.
