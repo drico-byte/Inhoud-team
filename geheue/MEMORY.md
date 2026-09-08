@@ -18,6 +18,7 @@
 - [Cross-check the term plan against CAPS](kruistoets-die-termynplan-teen-kaps.md) — all three parts of the document disagree; produce a coverage map before writing anything.
 - [Every lesson gets its own name](elke-les-kry-n-eie-naam.md) — the title is the learner's hero heading, never the CAPS label; and nothing checks a title the way it checks the text.
 - [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — Term 1 is 1-8, Term 2 starts at 9, ~30 total; the file name is his CAPS index, the title is the hero.
+- [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — the boiler's size fault came back as the cylinder's length; write down the false CONCLUSION, not the false words, and never close a mechanism finding on a keyword sweep.
 - [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — seven times in one day; always ask what the fix disturbed, not whether the finding is gone.
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
 - [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
