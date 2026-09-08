@@ -3,6 +3,7 @@
   "status": "gated",
   "titel": "Hoog en laag in dieselfde familie",
   "graad": 4,
+  "kwartaal": 3,
   "vak": "Lewensvaardighede",
   "kaps_onderwerp": "Uitvoerende Kunste",
   "kaps_punt": "Onderwerp 4 - Waardeer en nadenke, Kwartaal 3. Die uitdrukkingskwaliteite van slaginstrumente in ŉ Afrika-musiekstuk. Klassifiseer verskeie instrumente as deel van ŉ familie of groep in terme van voorkoms, benoeming, hoe die klank voortgebring word en die toonhoogte klassifikasie (hoog-laag). Eie en ander se optredes en prosesse deur die gebruik van eenvoudige skeppende kunsterminologie.",
@@ -24,6 +25,8 @@
     "marimba",
     "ngoma",
     "hosho",
+    "kokonratels",
+    "riwwe",
     "VhaVenda",
     "kalbas",
     "kalbasratel",
@@ -42,7 +45,7 @@
     "profiel_konfig": "gr4-lv-skeppende-kunste-profiel.json",
     "skrywer_prompt": "skrywer-v1.4",
     "handboek_gesien": false,
-    "nota": "Geen handboek, bladsy, skandering of transkripsie is gesien of gebruik nie. Bronne: die goedgekeurde spesifikasie-inskrywing en eie kennis. Instrumentname en die staaf-fisika volg die spesifikasie se instrumente_beslissing, instrumente_strikke en feiterisiko-inskrywings. Geen eli10-blok nie, volgens die opgetekende besluit van 8 September 2026. Hersiening 8 September 2026: die ooreengekome bewoordings vir ngoma en hosho is woord vir woord uit kaps/gedeelde-omskrywings-lewensvaardighede-gr4.json oorgeneem, en die sin oor die timbila-familie is herskryf sodat dit nie meer se die instrumente maak almal op dieselfde manier klank nie. Dit stem nou ooreen met die reggemaakte 'familie'-bewoording, wat se dat 'n familie volgens die manier van klankmaak gegroepeer word."
+    "nota": "Geen handboek, bladsy, skandering of transkripsie is gesien of gebruik nie. Bronne: die goedgekeurde spesifikasie-inskrywing en eie kennis. Instrumentname en die staaf-fisika volg die spesifikasie se instrumente_beslissing, instrumente_strikke en feiterisiko-inskrywings. Geen eli10-blok nie, volgens die opgetekende besluit van 8 September 2026. Hersiening 8 September 2026: die ooreengekome bewoordings vir ngoma en hosho is woord vir woord uit kaps/gedeelde-omskrywings-lewensvaardighede-gr4.json oorgeneem, en die sin oor die timbila-familie is herskryf sodat dit nie meer se die instrumente maak almal op dieselfde manier klank nie. Dit stem nou ooreen met die reggemaakte 'familie'-bewoording, wat se dat 'n familie volgens die manier van klankmaak gegroepeer word. Tweede hersiening 8 September 2026, vyf punte uit twee nasienverslae: 'gewoonlik' is by die sin oor die groot vel gevoeg sodat dit nie 'n absolute reel is nie en nie meer met sy eie buursinne bots nie; 'karakter' sluit nou ook 'n dier in; die hosho word as 'n skerp, hoe KLANK gesorteer en nie meer as 'n toonhoogte nie, want 'n ratel het geen bepaalde noot nie; die kokonratels en die geskraapte bottel is by die hoog-tot-laag-lys gevoeg met dieselfde versigtigheid; en die kwartaal-veld is bygevoeg."
   },
   "blokke": [
     {
@@ -53,7 +56,7 @@
     {
       "tipe": "studie",
       "kop": "Hoekom die een trom laer klink as die ander",
-      "teks": "By 'n trom is dit die vel wat vibreer en die klank maak. 'n Groot vel oor 'n wye opening vibreer stadiger as 'n klein vel. Daarom klink 'n groot trom gewoonlik laer as 'n klein een. Maar die grootte van die vel is nie die hele antwoord nie. Die maker kan dieselfde vel stywer of slapper oor die trom trek. 'n Stywer vel klink hoër en 'n slapper vel klink laer."
+      "teks": "By 'n trom is dit die vel wat vibreer en die klank maak. 'n Groot vel oor 'n wye opening vibreer gewoonlik stadiger as 'n klein vel. Daarom klink 'n groot trom gewoonlik laer as 'n klein een. Maar die grootte van die vel is nie die hele antwoord nie. Die maker kan dieselfde vel stywer of slapper oor die trom trek. 'n Stywer vel klink hoër en 'n slapper vel klink laer."
     },
     {
       "tipe": "studie",
@@ -70,7 +73,9 @@
       "kop": "Waar elke instrument sit",
       "items": [
         "Die ngoma se beesvel span oor 'n wye opening en hoort laag.",
-        "Die hosho se klein sade ritsel en hoort hoog.",
+        "Die hosho se klein sade ritsel skerp en hoog.",
+        "Die kokonratels se klank is hoog en kort.",
+        "Die geskraapte bottel se riwwe klink grof en hoog.",
         "Die timbila dra hoog en laag binne een instrument.",
         "Tromme wat ewe styf gespan is, loop van klein na groot en van hoog na laag."
       ]
@@ -123,7 +128,7 @@
     {
       "tipe": "begrip",
       "term": "karakter",
-      "teks": "Die mens wat 'n speler in 'n drama voorstel."
+      "teks": "Die mens of dier wat 'n speler in 'n drama voorstel."
     },
     {
       "tipe": "begrip",
