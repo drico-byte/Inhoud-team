@@ -4,69 +4,78 @@
   "prompt_weergawe": "dekkingsnasiener-v1.4",
   "les": "Stemme deur die lug",
   "kaps_punt": "Radio",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "MENS_NODIG",
+  "spesifikasie_probleem": "DRIE VELDE IN DIE SPEK DRA NOG DIE FOUTE WAT DIE KONSEP REEDS REGGESTEL HET, en 'n skrywer kan dit nie self regmaak nie. (1) kern[0] lui steeds 'tot hier moes 'n boodskap 'n draer he'. Die konsep skryf tereg 'Baie boodskappe tot hier...', maar kern[0] is nie saam met kern[1] gewysig nie, en dekking toets teen kern - dus sal die volgende hersiening die absolute vorm terugbring. (2) fokusvraag_skakel lui steeds 'hoe klank sonder drade deur die lug begin reis het'. Dit is dieselfde bewering wat kern[1] op 8 September reggestel het (die golwe dra nie klank nie, hulle dra 'n patroon); die regstelling het net een van die twee velde gevat. (3) video_naat.moenie_hierdie_bewerings_herhaal_nie is leeg terwyl kern[1] self se 'Die video dra dieselfde bewering'. Dit is presies die veld wat bestaan om 'n skrywer van die video se klankbewering weg te hou, en die waarskuwing leef nou net as 'n aangehegte nota binne kern[1]. AKSIE VIR 'n MENS: wysig kern[0] na die 'baie boodskappe'-vorm, wysig fokusvraag_skakel sodat dit die boodskap en nie die klank nie deur die lug laat reis, en skryf die video se klank-bewering in moenie_hierdie_bewerings_herhaal_nie in met sy rede. Loop daarna bin/vernuwe-uittreksels.py. Die konsep self is op al drie punte reg en moet nie hiervoor teruggestuur word nie.",
   "items": [
     {
       "tipe": "kern",
       "verwysing": "WAT DIE RADIO VERANDER HET: tot hier moes 'n boodskap 'n draer he - 'n mens, 'n perd, 'n duif of 'n draad. Die radio stuur 'n boodskap deur die lug, sonder enige draad.",
       "status": "teenwoordig",
-      "bewys": "Wat die radio verander het - mens, perd, posduif en draad as draer, en die radio maak die draer heeltemal onnodig"
+      "bewys": "Wat die radio verander het — mens, perd, posduif en draad as draers, en die radio maak die draer onnodig"
     },
     {
       "tipe": "kern",
-      "verwysing": "HOE DIT WERK: 'n radio stuur radiogolwe deur die lug, en die golwe dra klank - stemme, musiek en geluide. Aan die ander kant verander 'n radio-ontvanger die golwe weer in klank.",
+      "verwysing": "HOE DIT WERK (soos reggestel 8 September 2026): 'n radio stuur radiogolwe deur die lug; die golwe is nie klank nie maar dra 'n patroon, en die ontvangstel maak dit weer klank.",
       "status": "teenwoordig",
-      "bewys": "Hoe 'n radio werk - golwe dra stemme, musiek en geluide, en die radio aan die ander kant maak daarvan weer klank"
+      "bewys": "Hoe 'n radio werk — golwe is nie klank nie, hulle dra 'n patroon wat die radio in jou huis weer klank maak"
     },
     {
       "tipe": "kern",
-      "verwysing": "HOEKOM DIT SO GEWILD GEWORD HET ... die radio kon DUISENDE mense op dieselfde tyd bereik, oor groot afstande, en selfs mense in afgelee gebiede kon belangrike nuus hoor.",
+      "verwysing": "HOEKOM DIT SO GEWILD GEWORD HET: die radio kon DUISENDE mense op dieselfde tyd bereik, oor groot afstande, en selfs mense in afgelee gebiede kon belangrike nuus hoor.",
       "status": "teenwoordig",
-      "bewys": "Duisende mense op dieselfde tyd - een stem voor een mikrofoon, duisende hoor gelyk, oor groot afstande, ook mense ver van 'n dorp"
+      "bewys": "Duisende mense op dieselfde tyd — een mikrofoon, duisende hoorders, groot afstande, mense ver van 'n dorp"
     },
     {
       "tipe": "kern",
       "verwysing": "WAT DIT IN HUISE VERANDER HET: gesinne het om die radio bymekaargekom vir nuus, musiek, sportuitslae en dramas. Die radio het 'n plek in die huis gehad soos 'n meubelstuk.",
       "status": "teenwoordig",
-      "bewys": "Die radio in die huis - groot kas soos 'n meubelstuk, die gesin saans daarom, nuus, musiek, sportuitslae en dramas"
+      "bewys": "Die radio in die huis — groot kas soos 'n meubelstuk, gesin saans saam vir nuus, musiek, sportuitslae en dramas"
     },
     {
       "tipe": "kern",
       "verwysing": "WAT DIESELFDE GEBLY HET: ons luister vandag nog radio - in motors, op selfone en op die internet - net nie meer om 'n groot kas in die sitkamer nie.",
       "status": "teenwoordig",
-      "bewys": "Wat dieselfde gebly het - radio in motors, op selfone en op die internet; net die kas in die sitkamer is weg"
+      "bewys": "Wat dieselfde gebly het — radio in motors, op selfone en op die internet; net die kas is weg"
     },
     {
       "tipe": "aanvulling",
-      "verwysing": "Guglielmo Marconi: hy het in die 1890's suksesvolle radioseine begin stuur ... net 'n eenvoudige sein - genoeg om te bewys dat 'n boodskap deur die lug kan reis. Later ook radiogolwe oor die Atlantiese Oseaan, en 'n Nobelprys vir Fisika.",
-      "status": "teenwoordig",
-      "bewys": "Marconi stuur seine deur die lug - 1890's, eenvoudige sein as bewys, later oor die Atlantiese Oseaan; die Nobelprys val weg, wat die spesifikasie self as die eerste snoei toelaat"
+      "verwysing": "Guglielmo Marconi: in die 1890's suksesvolle radioseine, die vroee sein nie musiek of 'n stem nie, genoeg om te bewys dat 'n boodskap deur die lug kan reis; later radiogolwe oor die Atlantiese Oseaan, en 'n Nobelprys vir Fisika vir sy werk met radiogolwe.",
+      "status": "gedeeltelik",
+      "bewys": "Marconi stuur seine deur die lug — 1890's, eenvoudige sein, bewys deur die lug, Atlantiese oorsteek; die Nobelprys ontbreek",
+      "aksie": "Vervang die sin \"'n Radioboodskap het tussen 'n president en 'n koning gereis\" in die blok 'Marconi stuur seine deur die lug' met die Nobelprys: skryf dat Marconi die Nobelprys vir Fisika vir sy werk met radiogolwe ontvang het, SONDER 'n jaartal, want die spek se feiterisiko merk die Nobelprys se jaar as nog nie nagegaan nie. Die spek se aanvulling_nota laat wel toe dat die Nobelprys val 'as lengte druk', maar hier het lengte nie die plek opgeeis nie - 'n sin wat geen vereiste vra nie het dit opgeeis, en die ruil kos niks. Die res van die Marconi-item bly soos dit is en die item het nie in biografie afgedwaal nie."
     },
     {
       "tipe": "aanvulling",
       "verwysing": "Dat groot uitvindings dikwels gebeur wanneer baie slim mense saam en tegelyk aan dieselfde probleem dink: in 1943 het die Amerikaanse Hooggeregshof erken dat sommige van Tesla se idees vroeer as Marconi s'n was.",
       "status": "teenwoordig",
-      "bewys": "Wie het die radio gemaak? - die raamwerk staan eerste, daarna die 1943-sin in presies sy beskermde vorm, en dan dat meer as een mens gehelp het"
+      "bewys": "Wie het die radio gemaak? — die beskermde 1943-sin woordeliks, met die 'baie slim mense tegelyk'-raamwerk voor dit"
     },
     {
       "tipe": "eli10",
       "verwysing": "Hoe 'n boodskap deur die lug kan reis sonder enige draad",
       "status": "teenwoordig",
-      "bewys": "eli10 vir 'Hoe 'n radio werk' - klippie in 'n stil dam, ringe kring uit, 'n blaartjie wip net op en af; 'n vergelyking wat sonder die studieteks staan"
+      "bewys": "Hoe 'n radio werk (eli10) — klippie in 'n dam, ringe kring uit, en die blaartjie wip net op en af"
+    },
+    {
+      "tipe": "begrip",
+      "verwysing": "Vakgedeelde omskrywing, beslis 8 September 2026: 'sein' = \"'n Teken wat 'n boodskap oor 'n afstand dra.\" Die spek se gedeelde_omskrywings_nota se uitdruklik: 'Les 4 moet nou by die besliste een aansluit.'",
+      "status": "gedeeltelik",
+      "bewys": "sein (begrip) — die term is omskryf, maar in die bewoording wat die versoeningsveeg verwerp het",
+      "aksie": "Vervang die sein-inskrywing se teks woord vir woord met die besliste bewoording: \"'n Teken wat 'n boodskap oor 'n afstand dra.\" Die huidige teks - \"'n Teken wat uitgestuur word sodat iemand dit kan opvang\" - is by naam die weergawe wat die versoeningsveeg oor die jaar se 30 lesse op 8 September verwerp het, omdat dit uitsending beskryf en ongemaklik pas op les 6 se sein wat deur 'n draad loop. Niks anders in die les hoef te verander nie; die woord 'sein' in die Marconi-blok bly staan."
     },
     {
       "tipe": "fokus",
       "verwysing": "Lewer die oomblik waar 'n boodskap sy draer verloor: hoe klank sonder drade deur die lug begin reis het, en hoe een boodskap daardeur baie mense op dieselfde tyd kon bereik.",
       "status": "teenwoordig",
-      "bewys": "Wat die radio verander het en Duisende mense op dieselfde tyd - die draer val weg, en een stem bereik duisende gelyk"
+      "bewys": "Wat die radio verander het + Duisende mense op dieselfde tyd — die draer val weg, en een stem bereik duisende gelyk"
     }
   ],
   "oortollig": [
     {
-      "inhoud": "'n Radioboodskap het tussen 'n president en 'n koning gereis.",
+      "inhoud": "\"'n Radioboodskap het tussen 'n president en 'n koning gereis.\"",
       "blok": "Marconi stuur seine deur die lug",
-      "waarom": "Geen kernpunt en geen aanvullingsitem vra dit; dit kom uit die video se naat, en dit gebruik aanvullingswoorde op die 25%-perk terwyl die Nobelprys, wat wel gevra is, uitgeval het."
+      "waarom": "Geen kern-punt, geen aanvullingsitem en geen gemerkte konsep vra dit. Dit staan wel in video_naat.wat_die_video_dek (die 1903-boodskap tussen Roosevelt en Edward VII), maar die standaard se die naat is nie 'n bron vir inhoud nie. Dit is die klassieke terloopse sin binne 'n andersins vereiste passasie, en dit vul juis die plek waar die spek se eie aanvullingsitem die Nobelprys vra."
     }
   ],
-  "opsomming": "Al vyf kernpunte, albei aanvullingsitems, die enigste intuisieblok en die les se deel van die fokusvraag is volledig gedek; die enigste waarneming is een sin oor 'n president en 'n koning wat niks vra nie."
+  "opsomming": "Al vyf kern-punte, die 1943-Tesla-item, die eli10-blok en die fokusskakel is gedek, maar die Nobelprys ontbreek terwyl 'n onversoekte sin oor 'n president en 'n koning sy plek in dieselfde blok vul, die sein-inskrywing dra nog die bewoording wat die versoeningsveeg verwerp het, en drie spesifikasievelde - kern[0], fokusvraag_skakel en die lee moenie_hierdie_bewerings_herhaal_nie - beveel steeds die foute wat die konsep reeds reggestel het, dus moet 'n mens eers die spek regmaak sodat die volgende hersiening hulle nie terugbring nie."
 }
