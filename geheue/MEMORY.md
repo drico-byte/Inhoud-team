@@ -58,3 +58,4 @@
 - [Every sentence true, the picture false](elke-sin-waar-die-prentjie-vals.md) — a comparison can teach something false through what it leaves unsaid; three clean checks missed it, the narrow ELI10 pre-check found it.
 - [An omission changes its neighbours](n-weglating-verander-sy-bure.md) — cutting a sentence made two survivors adjacent and created a claim neither made alone; and a two-part spec note can be marked met by half of itself.
 - [A glossary entry is read alone](n-begrip-word-alleen-gelees.md) — three times in one day an entry was true only inside its own block; read it with the rest of the lesson deleted and ask what else it fits.
+- [Gr 4 Creative Arts: the theory hours](skeppende-kunste-gr4-teorie-ure.md) — 8 hours of 60, divided by term on Drico's ruling; the term-by-term plan beats the overview where they clash, the overview fills the gaps where the plan is silent.
