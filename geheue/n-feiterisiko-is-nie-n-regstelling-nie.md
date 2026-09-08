@@ -82,3 +82,23 @@ until the requirement was fixed. That writer was right to refuse.
 **The tell:** you are appending a dated correction to a field you are not otherwise
 editing. If the field's first sentence still gives the old order, you have written
 a comment, not a correction.
+
+## The reasoning below a requirement can itself read as a live order
+
+Same day, again. Having moved the prohibition into the closing requirement's opening
+line, I left its history below — and a coverage checker found that the history contained
+a sentence in the **imperative**: *write that the San long ago made paintings on rock
+that still speak to us.* That was the wording which had replaced an earlier error, and it
+had since been superseded twice. The field now held two orders for the same sentence that
+could not both be obeyed.
+
+Everything else retrospective in that field was clearly marked as past, or quoted as the
+old guidance. This one clause was not, so it read as current.
+
+**So the rule has a second half.** Putting the correction in the opening line is
+necessary but not sufficient: **the reasoning you leave below it must not be phrased as
+an instruction.** Record what changed in the past tense, or bracket the old order
+explicitly as replaced. A dated note that says "write X" is still a note that says
+write X.
+
+The tell: any imperative verb in the part of the field that is meant to be history.
