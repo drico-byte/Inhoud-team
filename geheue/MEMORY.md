@@ -42,6 +42,7 @@
 - [The extract lost its own cross-references](die-uittreksel-het-sy-eie-kruisverwysings-verloor.md) — 39 spec-level fields never reached the writer; suspect the harness when two agents report the same absence.
 - [Don't run the runner over a working writer](moenie-die-hardloper-oor-n-werkende-skrywer-laat-loop-nie.md) — it gated a draft mid-revision; archived reports are recoverable from the log tree.
 - [The textbook comes through the search results too](die-handboek-kom-ook-deur-die-soekresultate.md) — the fact checker declined a Grade 4 PDF on its own; nothing had told it to, and now the prompt does.
+- [The provenance note leaks the spec to the fact checker](die-herkoms-nota-lek-die-spek-na-die-feitenasiener.md) — the checker never gets the spec, but a writer records the requirements inside the lesson file, and the checker reads that; not yet decided how to close it.
 - [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — three of four fixed over-claims stopped being claims; narrow the quantifier, never the subject.
 - [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went over unprotected.
 - [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — two unchecked measurements and one false claim in one day; a spec is read as settled.
