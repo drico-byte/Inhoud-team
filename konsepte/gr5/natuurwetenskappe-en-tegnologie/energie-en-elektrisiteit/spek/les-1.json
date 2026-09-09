@@ -1,0 +1,247 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 5,
+  "kwartaal": 3,
+  "kaps_onderwerp": "Energie en Verandering (Tegnologie: Stelsels en Beheer)",
+  "kaps_onderwerp_nota": "KABV se Graad 5 Termyn 3-bladsy dra twee reels in die kop: 'KENNISAFDELING: NATUURWETENSKAPPE: ENERGIE EN VERANDRING' en 'TEGNOLOGIE: STELSELS EN BEHEER'. Albei geld hier: KABV noem 'n stroombaan uitdruklik 'n STELSEL. LET OP VIR DIE SKRYWER: in die LESLEER self is 'kaps_onderwerp' die SUBONDERWERP, dus 'Energie en elektrisiteit', nie hierdie reel nie. Die spek en die les noem daardie veld verskillend en niks toets dit nie.",
+  "kaps_subonderwerp": "Energie en elektrisiteit",
+  "kaps_ure": 10.5,
+  "kaps_ure_nota": "Slegs inligting. KABV gee 3 weke (10 en 'n half uur). NIKS hier is daaruit afgelei nie, en kontakure is nooit 'n begrotingsbasis nie. Hierdie subonderwerp wys dit duidelik: 'n groot deel van daardie ure is die praktiese werk wat KABV self voorskryf, naamlik 'n sel, drade en 'n gloeilamp verbind en die spoor van die kragstasie af teken. Daardie ure lewer geen leesstof nie.",
+  "kaps_bron": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, gedrukte bladsy 40 (PDF-bladsy 45) vir die inhoud, die aktiwiteitskolom, die hulpbronkolom en die voetnoot, en gedrukte bladsy 41 (PDF-bladsy 46) vir Termyn 3 se assesseringsriglyne. Die PDF loop vyf bladsye voor die gedrukte nommers. Die buurbladsy (PDF-bladsy 44, 'Gestoorde energie in brandstof') is gelees om die grens te plaas, nie om inhoud te haal nie.",
+  "fokusvraag": "Hoe kom die energie wat ons elke dag gebruik by ons uit, en hoe bly ons veilig langs die pad waarlangs dit kom?",
+  "fokusvraag_nota": "Deur die beplanner gestel, nie aangehaal nie. KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag soos Sosiale Wetenskappe nie. Hierdie een is uit KABV se eie woorde gebou: 'oordra na waar dit benodig word', 'na ons huise en terug na die kragstasie', en 'veiligheidsmaatreels wat geneem moet word wanneer elektrisiteit gebruik word'. Die vraag se drie dele val presies op die drie lesse.",
+  "fokusvraag_optelling": "Les 1 gee die klein antwoord: in 'n flitslig le die energie reg daar in die sel, en 'n stroombaan dra dit die kort entjie tot by die lampie. Les 2 gee die groot antwoord: vir 'n huis kom die energie van ver af, uit 'n kragstasie se bron, langs 'n pad heen EN terug. Les 3 gee die veilig-helfte: dieselfde pad kan deur 'n mens loop, en dit is waar elke veiligheidsreel vandaan kom. Geen les word gevra om die hele vraag te dra nie.",
+  "profiel_konfig": "profiele/gr5-nwt-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "0 beteken hier ONGEMEET, nie 'die boek dek dit nie'. Geen graad 5-handboek is geprofileer nie, en dit is 'n besluit en nie 'n agterstand nie. Onder die vereistes-basis is hierdie veld nie die anker nie en niks word daaruit afgelei nie. Moenie 'n getal hier intik om dit te laat lyk of daar gemeet is nie.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "Elke les kry sy eie getal uit die hoeveelheid inhoud wat dit werklik dra, nie uit 'n meting wat eweredig gedeel is nie. Twee redes, albei Drico se bevindings van 9 September 2026. EERSTENS is daar niks om te deel nie, en dit is doelbewus: profiler.py tel ELKE woord op 'n bladsy, ook aktiwiteitsblokkies, vraagpanele, byskrifte en opskrifte, en ons lesse bevat niks daarvan nie. TWEEDENS is lesse werklik verskillende lengtes: hy het met die hand 'n les van 140 woorde en een van 525 in dieselfde graad 5-boek getel. Hierdie subonderwerp is 'n skoon voorbeeld. KABV gee les 1 twee inhoudspunte, les 2 drie inhoudspunte PLUS 'n spoor van sewe benoemde plekke wat die assessering afsonderlik eis, en les 3 een enkele reel wat 'n hele lys moet word. Eweredige verdeling sou les 2 knyp en les 1 opblaas, en opblaas is waar versinde bewerings vandaan kom. Al drie getalle val binne die graad 5-band 300-550, dus is geen vloer- of plafon-uitsondering nodig nie.",
+  "totale_begroting": 1330,
+  "totale_begroting_nota": "420 + 480 + 430. Dit is die som van drie afgeleide getalle, nie 'n meting nie, en dit is geen pariteitsanker teenoor enige handboek nie.",
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument self, direk gelees (Graad 5 Termyn 3-inhoudstabel op PDF-bladsy 45 met die voetnoot, die aktiwiteits- en hulpbronkolomme, en die termyn se assesseringsriglyne op PDF-bladsy 46; PDF-bladsy 44 gelees om die grens teenoor 'Gestoorde energie in brandstof' te plaas). Verder: die opdrag se lesverdeling van Drico, profiele/gr5-nwt-profiel.json, kaps/gedeelde-omskrywings.json (graad 4 se lys, om botsings op te spoor), die AFGELEWERDE graad 4-lesse 'Energie om ons' les 1 en les 2 en 'Beweging en energie in 'n stelsel' les 1 saam met hulle spek-uittreksels (slegs hulle begrip-inskrywings, hulle feiterisiko's en hulle registerbesluite, om weerspreking te vermy), kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json, kaps/beskermde-woorde.json en die inhoudstandaard se woordkeuselys. GEEN handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitvoer of beskrywing van 'n handboek se indeling het enige deel van hierdie spesifikasie geraak. Geen graad 5-handboek is geprofileer nie, dus was daar ook geen meting om te lees nie.",
+    "goedkeuringstatus": "KONSEP. 'n Mens skuif dit na spesifikasies/goedgekeur/ voordat enigiets geskryf word."
+  },
+  "verdeling_nota": {
+    "besluit": "Drie lesse, een per KABV-inhoudsopskrif: 'Selle en batterye', 'Hoofstroom elektrisiteit' en 'Veiligheid met elektrisiteit'. Dit is reeds besluit en in die opdrag gegee. MOENIE dit herlei of regmaak nie.",
+    "les_3_bly_alleen": "BESLIS DEUR DRICO, 9 September 2026. KABV gee les 3 EEN reel, geen aktiwiteit en geen eie assesseringsreel nie, wat dit laat lyk of dit by les 2 kan inskuif. Dit kan nie. Anders as die brandveiligheidspunt in die buursubonderwerp, wat saamgevoeg is omdat dit net herhaal dat vuur gevaarlik is, vra hierdie een 'n LYS wat ons moet verskaf: nat hande, oorlaaide proppe, beskadigde drade, goed wat in sokke gedruk word, en wegbly van substasies en kragmaste. Dit is 'n egte les en waarskynlik die onmiddellik nuttigste een in die termyn. Sy begroting weerspieel wat dit werklik dra, nie KABV se enkele reel nie.",
+    "jaarplek": "Les 1, 2 en 3 hier is les 18, 19 en 20 van 29 vir die graad 5-jaar. Die nommer-veld is die volgorde binne hierdie subonderwerp, soos die skema vereis; jaarnommer hou die jaarnommer.",
+    "volgorde": "Die volgorde is nie omruilbaar nie. Les 1 bou die IDEE van 'n volledige pad op iets wat 'n leerder in 'n hand kan hou. Les 2 gebruik daardie idee vir 'n pad van kilometers ver, en KABV se 'terug na die kragstasie' is presies dieselfde idee. Les 3 gebruik dit weer: 'n mens kan self deel van die pad word. Een idee dra al drie lesse, en dit is hoekom nie een van hulle bloot 'n lys is nie."
+  },
+  "graad_4_oordrag": {
+    "hoekom_hierdie_afdeling": "kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json is doelbewus byna leeg (drie terme): graad 5 se terme word NA al 29 konsepte besluit. MOENIE daardie leer hier vul nie. Graad 4 se lys bind graad 5 nie en word nie gekopieer nie, maar 'n graad 5-leerder het graad 4 by ons deurloop, en hierdie subonderwerp is die naaste botsing in die hele jaar: graad 4 se lesse 20 en 21 het elektrisiteit, die kragstasie en die flitslig se batterye reeds gehad. Die uittreksel spuit graad 4 se ooreengekome lys in as 'vorige_graad_omskrywings', maar die REELS hieronder kom uit AFGELEWERDE lesse en hulle spekke en word nerens ingespuit nie. Hulle staan dus hier woord vir woord.",
+    "bewoordings_wat_woord_vir_woord_gebruik_word": [
+      {
+        "term": "energie",
+        "bewoording": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+        "status": "Graad 4 se ooreengekome bewoording EN 'n beskermde bewoording in kaps/beskermde-woorde.json. Die graad 5-konsepte wat reeds geskryf is, gebruik dit woord vir woord. Doen dieselfde. Moenie dit uitbrei nie."
+      },
+      {
+        "term": "elektrisiteit",
+        "bewoording": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+        "status": "Graad 4 se ooreengekome bewoording. Gebruik dit woord vir woord. LET OP WAT DIT SE: elektrisiteit is die MANIER, nie 'n soort energie en nie 'n bron nie. Graad 4 het presies daardie fout vyf keer gehad en vyf keer reggemaak; 'energie wat deur drade gedra word' is die verkeerde vorm. Hierdie subonderwerp is die maklikste plek in die hele vak om dit weer te maak."
+      },
+      {
+        "term": "inset",
+        "bewoording": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+        "status": "Graad 4 se ooreengekome bewoording. Slegs gebruik as die woord werklik nodig is; dan woord vir woord."
+      },
+      {
+        "term": "uitset",
+        "bewoording": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+        "status": "Graad 4 se ooreengekome bewoording. Slegs gebruik as die woord werklik nodig is; dan woord vir woord."
+      },
+      {
+        "term": "stelsel",
+        "bewoording": "'n Klomp dele wat saamwerk om een ding te doen.",
+        "status": "NIE in die ooreengekome lys nie, maar dit staan in die AFGELEWERDE graad 4-les 'Blaas, klop en pluk'. KABV noem 'n stroombaan uitdruklik 'n STELSEL, dus is die woord hier onvermydelik. Gebruik graad 4 se sin woord vir woord as die woord 'n begrip-inskrywing kry."
+      },
+      {
+        "term": "bron",
+        "bewoording": "Iets wat energie gestoor hou tot iemand dit nodig kry.",
+        "status": "NIE in die ooreengekome lys nie, maar dit staan in die afgelewerde graad 4-les 'Hoe jy weet energie is daar'. KABV se les 2 se ''n kragstasie het 'n bron van energie nodig', dus is die woord hier verplig. Gebruik graad 4 se sin woord vir woord."
+      },
+      {
+        "term": "gestoor",
+        "bewoording": "Iets wat vasgehou word en wag tot iemand dit gebruik.",
+        "status": "Afgelewerde graad 4-bewoording. Gebruik dit as die woord 'n inskrywing kry. Let op: 'gebere' is 'n BESKERMDE woord vir Termyn 1 se saadles en is NIE hier ter sake nie. Moenie die twee woorde omruil nie."
+      },
+      {
+        "term": "steenkool",
+        "bewoording": "'n Harde swart klip uit die grond wat baie warm brand.",
+        "status": "Afgelewerde graad 4-bewoording. Les 2 mag dit woord vir woord gebruik."
+      }
+    ],
+    "die_egte_botsing_battery": "GRAAD 4 NOEM DIE FLITSLIG SE SELLE 'BATTERYE'. Die afgelewerde sin is 'Haal die twee batterye uit 'n flitslig en druk die knoppie'. Streng gesproke is dit twee SELLE. Graad 4 word NIE verander nie en word NIE verkeerd genoem nie. Sien les 1 se kern vir presies hoe les 1 die twee woorde hanteer. Die enigste ding wat hier verbode is, is 'n sin wat die alledaagse woord verkeerd maak.",
+    "graad_4_reels_wat_nie_weerspreek_mag_word_nie": [
+      "NIKS MAAK ENERGIE NIE. Nie 'n kragstasie nie, nie 'n sel nie, nie 'n masjien nie. Dinge STOOR energie, DRA dit oor, of VERANDER dit van een soort na 'n ander. Graad 4 se spek stel die grens presies: 'Die kragstasie maak elektrisiteit' is aanvaarbaar, want dit is wat die plek doen en dit is hoe 'n mens praat; 'Die kragstasie maak energie' is nie. Moenie ook skryf dat die stasie 'elektrisiteit UIT die energie maak' nie, want dit lees vir 'n kind soos energie wat in elektrisiteit verander.",
+      "ELEKTRISITEIT IS NIE 'N BRON NIE. 'n Sel of 'n battery is wel 'n store en mag so genoem word. Elektrisiteit is hoe die energie by die toestel KOM.",
+      "'KRAG' MAG NOOIT 'ENERGIE' OF 'ELEKTRISITEIT' BETEKEN NIE. 'energie' is 'n beskermde woord met 'krag' as die verbode vervanging: in die wetenskap is 'n krag 'n stoot of trek. DIT SLUIT 'kragstasie', 'kragmas' EN 'kernkrag' NIE UIT NIE: dit is die name van die dinge en 'n mens ken geen ander nie. Hierdie onderskeid staan hier omdat die buite-taalnasiener die beskermde-woordelys sien en nie hierdie spek nie.",
+      "'HITTE', NIE 'WARMTE' NIE, waar die teks energie bedoel wat beweeg. Beskermde woord. Al drie lesse raak dit: die gloeilamp word warm, die oorlaaide prop word warm, die kragstasie se steenkool gee hitte. Skryf 'hitte' waar dit die energie is. 'warmte' as die TOESTAND van warm wees is elders reg en kom in hierdie subonderwerp waarskynlik glad nie voor nie.",
+      "'N GLOEILAMP SE UITSET IS NIE NET LIG NIE. Die afgelewerde graad 4-les se uitdruklik dat die meeste van 'n gloeilamp se inset as hitte uitkom. Les 1 mag dus nie skryf dat al die energie lig word nie; se dat die lampie skyn en ook warm word.",
+      "NOOIT 'ALLE' ELEKTRISITEIT KOM VAN STEENKOOL NIE. Graad 4 se veilige vorm is 'die meeste van Suid-Afrika se elektrisiteit' of 'baie van ons elektrisiteit', en GEEN persentasie nie. Les 2 hou by daardie vorm.",
+      "'KOOLSTOFDIOKSIED', NOOIT 'KOOLSUURGAS' NIE, as die woord enigsins voorkom. Beskermde woord vir alle grade. Hierdie subonderwerp het dit waarskynlik nie nodig nie, want wat verbranding vrystel, is die buursubonderwerp se werk."
+    ]
+  },
+  "diepte_grens": {
+    "wat_binne_n_sel_gebeur": "KABV se woorde is 'energie kan gestoor word in die selle of battery'. Dit is die volle diepte. Se dat die energie in die goed binne-in die sel gestoor le en dat 'n sel later pap raak omdat daardie gestoorde energie opraak. GEEN chemie, geen sure, geen name van stowwe, geen plus- en minuspole as teorie, geen spanning en geen volt.",
+    "wat_binne_n_kragstasie_gebeur": "Hoogstens EEN kort ketting: die steenkool brand, die hitte kook water tot stoom, die stoom laat 'n masjien draai, en daardie masjien laat die elektrisiteit deur die drade loop. Dit is die aanvulling in les 2 en dit gaan nie verder nie. GEEN turbine of generator by die naam, geen magnete, geen koeltorings, geen getalle, geen name van kragstasies.",
+    "hoe_elektrisiteit_werk": "Geen elektrone, geen stroom as 'n gemete ding, geen ampere, geen volt, geen geleiers en isoleerders as 'n teoriepaar. Die lesse werk deurgaans met die PAD: die drade loop van die sel na die lamp en terug, en 'n pad wat erens oop is, werk nie. Dit is presies wat KABV vra en dit is alles wat 'n graad 5 nodig het.",
+    "wisselstroom": "Kom nerens voor nie. Moenie probeer verduidelik dat huishoudelike elektrisiteit heen en weer wissel nie. KABV se eie beeld, 'n baan na ons huise EN TERUG, is die vlak wat gevra word.",
+    "brandstof_as_onderwerp": "Wat brandstof is, wat 'n vuur nodig het om te brand, en wat 'n mens by 'n brand doen, is die BUURSUBONDERWERP se werk ('Gestoorde energie in brandstof', KABV se vorige bladsy). Les 2 se net dat die stasie steenkool brand en wat met die hitte gebeur. Les 3 hanteer 'n oorlaaide prop wat warm word en 'n brand kan begin; dit is elektriese veiligheid, dit bly by die prop, en dit word nie 'n brandveiligheidsles nie."
+  },
+  "buite_bestek": [
+    "HERNUBARE EN NIE-HERNUBARE BRONNE, ENERGIEBESPARING, BESOEDELING, KLIMAAT EN BEURTKRAG. Nie een staan in hierdie subonderwerp se strepies nie, en elkeen is groot genoeg om 'n hele begroting op te eet. Dieselfde reel het in graad 4 gegeld en dit hou hier.",
+    "SONPANELE EN WINDTURBINES. KABV se voetnoot noem net hidro-elektriese en kernkragstasies as die ander soorte. Les 2 noem daardie twee en stop. 'n Derde en vierde soort byvoeg is die begin van 'n energiebronne-les wat KABV nie hier vra nie.",
+    "DIE NAAM VAN 'N SPESIFIEKE KRAGSTASIE. Dit koop niks vir die konsep, dit kos woorde, en dit is 'n bewering wat oor jare kan verouder: stasies gaan uit bedryf en nuwes kom by. Beskryf die soort, moenie een benoem nie.",
+    "SKAKELAARS EN 'N STROOMBAAN WAT AAN- EN AFGESIT WORD. KABV se hulpbronkolom gee net 'selle (battery), stukke elektriese draad, gloeilamp': drie dele, geen skakelaar. Les 1 wys 'n oop pad met 'n draad wat LOS is, nie met 'n skakelaar nie.",
+    "KABV SE AKTIWITEITSKOLOM AS 'N OPDRAG. 'Verbinding van 'n sel, drade, en 'n gloeilamp' en 'teken en beskryf die spoor' is klaswerk vir die onderwyser en die uitlegspan. Die KENNIS wat hulle dra, naamlik watter drie dele 'n eenvoudige stroombaan het en watter sewe plekke die spoor van die kragstasie af aandoen, is wel Kern, staan in die kernlyste, en word deur die termyn se assessering afsonderlik geeis. Die teks vra niemand om iets te doen nie; dit beskryf.",
+    "ONWETTIGE VERBINDINGS AS ONDERWERP. Les 3 se reel oor 'n draad wat laag hang of op die grond le, dek die gevaar sonder om 'n bewering oor mense of gemeenskappe te maak. Moenie die onderwerp benoem nie: dit is nie in KABV nie, dit is nie nagegaan nie, en dit sit skuld in 'n veiligheidsles waar net die reel hoort."
+  ],
+  "registerwaarskuwing": "HIERDIE SUBONDERWERP SE KERNWOORDE IS DIE LANGSTE IN DIE JAAR: elektrisiteit (13 letters, 5 lettergrepe), elektrisiteitskassie (6 lettergrepe), kragstasie (3), substasie (3), stroombaan (3), gloeilamp (3), veiligheid (3), batterye (3), gestoorde (3), oorgedra (3), energie (3). Die graad 4-6 band laat hoogstens 13% woorde met drie of meer lettergrepe toe; by 480 woorde is dit ongeveer 62 vir die HELE les, en 'elektrisiteit' plus 'kragstasie' alleen kan dit opeet. TEL DIE VOORKOMSTE VOORDAT JY SKRYF, nie daarna nie. Graad 4 se besluit hou hier, aangepas: noem 'elektrisiteit' waar dit werklik nodig is en gebruik daarna die KONKRETE ding, naamlik die draad, die prop, die sok, die lampie, die pad. Noem 'elektrisiteitskassie' EEN keer met sy begrip-inskrywing en skryf daarna 'die kassie'. Kies deurgaans die kort alledaagse woord: 'sok' eerder as 'muursok' na die eerste keer, 'draad' eerder as 'elektriese draad', 'warm word' eerder as 'verhit'. Onthou dat 'n LYSBLOK ook teen die register tel.",
+  "geen_vrae": "Geen 'vraag'-blokke. Lesse dra sedert 2026-08-21 geen onthoudvrae nie. Die gevolg wat hier tel: die BEWYS moet in die studieteks self staan. Les 1 se bewys dat energie in 'n sel gestoor le, is 'n pap sel en 'n nuwe sel in dieselfde flitslig; les 1 se bewys dat die pad volledig moet wees, is 'n draad wat losgemaak word. Skryf albei as beskrywing, nie as 'n opdrag aan die leerder nie.",
+  "teks_kom_eerste": "Soos by al die wetenskaplesse word hierdie teks EERS geskryf en die video daarna daarvolgens gemaak. Dit is nie die graad 4 Sosiale Wetenskappe-uitsondering nie en daar is geen video_naat nie. Die teks is dus die vloer en nie die plafon nie: elke blok is 'n verpligting wat die video moet eer, wat 'n verdere rede is om niks by te sit wat nie 'n vereiste dra nie.",
+  "gedeelde_omskrywings_nota": "MOENIE kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json vul nie. Dit hou drie terme (geraamte, gewrig, buigbaar) wat met opset vroeg beslis is; die res van graad 5 se lys word NA al 29 konsepte gevul, omdat die konsepte self wys watter terme herhaal. Die terme wat hierdie drie lesse waarskynlik gaan deel, naamlik sel, battery, stroombaan en kragstasie, word in daardie versoeningsronde beslis. Wat NOU bindend is, is die graad 4-bewoordings hierbo, en hulle is bindend omdat 'n leerder hulle klaar gelees het.",
+  "beslissings_vir_drico": [
+    "GEEN NOODNOMMER IN LES 3, en dit is 'n keuse wat 'n mens kan omkeer. Die les se 'roep dadelik 'n grootmens' en gee GEEN telefoonnommer nie. Rede: 'n les met 'n nommer in verouder, en niks toets weer na goedkeuring nie. Die afgelewerde Lewensvaardighede-les met Childline se 116 moet by elke herdruk van voor af nagegaan word, en daardie nommer het in 2020 verander. 'n Elektriese noodnommer is boonop nie een nasionale nommer nie: dit verskil per munisipaliteit en per verskaffer. As Drico 'n nommer wil he, is dit sy besluit en dit moet by elke herdruk nagegaan word. VRA HOM.",
+    "OF 'N GRAAD 5-OMSKRYWING RYKER MAG WEES AS GRAAD 4 S'N is elders as onbeslis gemerk. Dit raak hierdie subonderwerp NIE: al vier terme wat graad 4 hier omskryf (energie, elektrisiteit, inset, uitset) word woord vir woord oorgeneem, sonder uitbreiding. Hier ter inligting, nie as 'n versoek nie."
+  ],
+  "vak_gedeelde_omskrywings": {
+    "nota": null,
+    "terme": {
+      "geraamte": "Die dele wat 'n dier se lyf ophou en sy sagte dele beskerm.",
+      "gewrig": "Die plek waar twee of meer bene bymekaar kom.",
+      "buigbaar": "Materiaal wat in dun drade getrek kan word sonder om te breek.",
+      "inset": "Die energie wat ingaan voordat iets kan werk of gebeur.",
+      "uitset": "Al die energie wat uitkom wanneer iets werk of gebeur.",
+      "stelsel": "Dele wat saamwerk om een werk te doen."
+    }
+  },
+  "vorige_graad_omskrywings": {
+    "graad": 4,
+    "hoe_om_dit_te_lees": "Hierdie is Graad 4 se ooreengekome bewoordings, wat REEDS AFGELEWER is. Hulle BIND hierdie graad NIE. Hulle is hier sodat jy 'n botsing kan RAAKSIEN: 'n leerder in Graad 5 het Graad 4 deurloop, en twee omskrywings van een woord leer twee verskillende dinge. Waar jou graad se eie lys (hierbo) 'n term het, WEN daardie een altyd. Waar dit stilbly en jy gaan van hierdie bewoording verskil, se dit in die spek sodat 'n mens kan beslis - moenie stilweg 'n tweede betekenis skep nie.",
+    "terme": {
+      "asemhaling": "Om suurstof uit die lug te gebruik om energie uit jou kos te kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "geraamte": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou.",
+      "habitat": "Die plek waar 'n plant of 'n dier lewe.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "kondenseer": "Wanneer 'n gas afkoel en weer in 'n vloeistof verander.",
+      "lewensprosesse": "Die sewe dinge wat saam wys dat iets lewe.",
+      "materiaal": "Die goed waarvan iets gemaak is",
+      "onverwerkte materiaal": "Materiaal wat mense net so in die natuur kry.",
+      "raamstruktuur": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "ru-olie": "Meestal 'n dik donker vloeistof wat onder die grond opgepomp word.",
+      "smelt": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "struktuur": "Iets wat gebou of gevorm is, sy vorm hou en gewig dra of iets beskerm.",
+      "stut": "'n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
+      "trommelvlies": "'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+      "verdamp": "Wanneer 'n vloeistof in 'n gas verander. Dit gebeur vinniger wanneer die vloeistof warmer is.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "vries": "Wanneer 'n vloeistof afkoel en in 'n vaste stof verander.",
+      "waterdamp": "Water in die vorm van 'n gas wat niemand kan sien nie.",
+      "kieme": "Baie klein lewende dinge wat 'n mens siek kan maak."
+    }
+  },
+  "nommer": 1,
+  "jaarnommer": 18,
+  "jaarnommer_nota": "Les 18 van 29 vir die graad 5-jaar. Lesnommers loop deurlopend deur die jaar, nie per kwartaal nie. Uit die opdrag se jaarplan; daar is nog geen kaps/lesindeks-leer vir graad 5 nie.",
+  "titel": "Van die sel tot by die lampie",
+  "titel_nota": "Werktitel en 'n leerderopskrif, nie KABV se etiket nie. KABV se opskrif is 'Selle en batterye' en dit is 'n indeksnaam. Hierdie titel dra die les se eintlike vorm: die energie le in die sel, en 'n volledige pad bring dit tot by die lampie. Die skrywer mag dit verbeter solank dit die les se eie naam bly.",
+  "kaps_opskrif": "Selle en batterye",
+  "kaps_punt": "energie kan gestoor word in die selle of battery van 'n flitslig; 'n stroombaan is 'n stelsel wat elektriese energie oordra na waar dit benodig word",
+  "kaps_punte": [
+    "energie kan gestoor word in die selle of battery van 'n flitslig",
+    "'n stroombaan is 'n stelsel wat elektriese energie oordra na waar dit benodig word"
+  ],
+  "kaps_aktiwiteit": "KABV se aktiwiteitskolom: 'verbinding van 'n sel, drade, en 'n gloeilamp om 'n eenvoudige stroombaan te maak'. Die hulpbronkolom gee dieselfde drie dele: 'selle (battery), stukke elektriese draad, gloeilamp'. Dit is 'n klaskameraktiwiteit, maar dit BENOEM die drie dele, en die assessering hieronder eis hulle.",
+  "kaps_assessering": "Termyn 3 se riglyn: 'teken en benoem die komponente van 'n eenvoudige stroombaan korrek'. Die dele moet dus by die naam in die teks staan, elkeen met wat hy doen, want die leerder moet hulle kan benoem.",
+  "begroting": 420,
+  "begrotingsnota": "420 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Die hek meet teen 420 met plus-minus 15%, dus 357 tot 483. Dit val binne die graad 5-band 300-550, dus is geen uitsondering nodig nie. Ses vereistes, ongelyk van gewig: (A) die energie le gestoor in die sel, met die pap-sel-bewys, ongeveer 55; (B) sel teenoor battery, met die alledaagse woord wat regbly, ongeveer 70, en dit is duur omdat 'n kort weergawe die kind se eie woord verkeerd maak; (C) die drie dele van 'n eenvoudige stroombaan, elk benoem en met sy werk, ongeveer 95, die duurste, want die assessering eis dat 'n leerder hulle kan benoem; (D) wat die stroombaan DOEN, en dat by die lampie lig sowel as hitte uitkom, ongeveer 75; (E) die pad moet 'n volledige kring wees, met die los draad as bewys, ongeveer 65; (F) 'n sel raak pap omdat die gestoorde energie opraak, ongeveer 60. Totaal ongeveer 420. Dit is 60 minder as les 2 omdat KABV hier twee inhoudspunte gee teenoor drie plus 'n spoor van sewe benoemde plekke.",
+  "begrotingsplan": {
+    "blokplan": "Ongeveer vyf tot ses studieblokke: A as die openingsblok, B alleen, C as een blok oor die drie dele (moontlik met 'n lysblok), D en E saam of apart, en F as 'n kort slotblok. Die hek se stukkiegids is 3 tot 10 blokke van 30 tot 110 woorde.",
+    "wat_420_woorde_nie_koop_nie": "Geen tweede voorbeeld van 'n stroombaan nie. Geen skakelaar nie. Geen tweede lamp of tweede sel nie. Geen eli10-blok nie. Geen opsomming nie. Geen verduideliking van wat binne-in die sel gebeur nie."
+  },
+  "kern": [
+    "DIE ENERGIE LE GESTOOR IN DIE SEL. KABV se eie woorde: 'energie kan gestoor word in die selle of battery van 'n flitslig'. Skryf dit so en nie anders nie. Die bewys hoort in die studieteks: 'n flitslig met 'n pap sel skyn nie, dieselfde flitslig met 'n nuwe sel skyn helder, en aan die flitslig self het niks verander nie. Dit sluit direk aan by die afgelewerde graad 4-les, wat presies daardie bewys gebruik.",
+    "SEL EN BATTERY IS NIE DIESELFDE DING NIE, EN DIE KIND SE WOORD BLY REG. Dit is die woordbeslissing van hierdie les en dit moet UITDRUKLIK in die teks staan, nie stilweg reggemaak word nie. Die vorm: een so 'n stukkie is 'n SEL; wanneer twee of meer selle saamwerk, noem ons dit 'n BATTERY, en die flitslig met twee stukkies is dus 'n battery; en by die huis en in die winkel noem mense een sel ook 'n battery, en so praat die meeste mense. MOENIE skryf dat dit verkeerd is om een sel 'n battery te noem nie. Ons eie woord, waar dit op presiesheid aankom, is 'sel', en dit is ook KABV se woord ('die selle of battery'). Die afgelewerde graad 4-les se 'twee batterye' uit 'n flitslig; daardie les word nie verander nie en word nie hier teengespreek nie.",
+    "DIE DRIE DELE VAN 'N EENVOUDIGE STROOMBAAN, ELK BY DIE NAAM MET WAT HY DOEN: die SEL (waar die energie gestoor le), die DRADE (die pad waarlangs die energie loop) en die GLOEILAMP (waar die energie nodig is en waar iets gebeur). Dit is KABV se eie drie dele, uit sy hulpbronkolom, en die termyn se assessering eis dat 'n leerder hulle kan benoem en teken. Twee drade, nie een nie: die een loop van die een kant van die sel na die lampie, en die ander van die lampie terug na die ander kant van die sel.",
+    "WAT DIE STROOMBAAN DOEN. KABV: ''n stroombaan is 'n stelsel wat elektriese energie oordra na waar dit benodig word'. Skryf dit in daardie vorm: die dele werk saam om die sel se gestoorde energie tot by die lampie te bring, waar dit nodig is. By die lampie kom LIG uit, en die lampie word ook warm, dus is hitte deel van wat uitkom. MOENIE skryf dat al die energie lig word nie; die afgelewerde graad 4-les se uitdruklik dat die meeste van 'n gloeilamp se inset as hitte uitkom. Die woord 'stelsel' is KABV s'n; as dit 'n begrip-inskrywing kry, gebruik graad 4 se bewoording woord vir woord.",
+    "DIE PAD MOET 'N VOLLEDIGE KRING WEES. Die drade loop van die sel na die lampie EN terug na die sel, sodat die pad 'n kring vorm. Maak een draad los en die lampie gaan dood hoewel niks anders verander het nie; sit hom terug en die lampie skyn weer. Hierdie sin is die spil van die hele subonderwerp: les 2 se 'na ons huise en terug' is dieselfde idee op 'n groot skaal, en les 3 se hele veiligheidslys kom daaruit. Gebruik 'n LOS DRAAD as die oop plek, nie 'n skakelaar nie.",
+    "'N SEL RAAK PAP. Die gestoorde energie raak op, en dan skyn die lampie nie meer nie. Dit is die keersy van punt A en dit maak 'gestoor' konkreet. Se dat 'n mens 'n nuwe sel insit, nie dat 'n mens die sel 'vol maak' nie."
+  ],
+  "feiterisiko": [
+    {
+      "risiko": "Elektrisiteit wat in die sel gestoor word.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n sel 'n houertjie vol elektrisiteit is wat leegloop.",
+      "hoekom_dit_saak_maak": "ENERGIE word gestoor; die sel laat die elektrisiteit deur die drade loop. KABV se eie woorde is reg ('energie kan gestoor word in die selle of battery') en die ooreengekome bewoording van 'elektrisiteit' se dit ook: dit is die MANIER waarop energie loop, nie 'n ding wat erens le nie. Skryf nooit 'die elektrisiteit in die battery' nie."
+    },
+    {
+      "risiko": "Die sel wat energie maak.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n sel energie skep terwyl hy werk.",
+      "hoekom_dit_saak_maak": "Niks maak energie nie; dit is graad 4 se reel wat vir albei sy energielesse gegeld het. 'n Sel stoor energie en dra dit oor. 'Die sel laat die lampie skyn' is reg; 'die sel maak energie' is nie."
+    },
+    {
+      "risiko": "'n Sel wat verkeerd om ingesit word.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n gloeilamp nie werk as die sel omgedraai word nie.",
+      "hoekom_dit_saak_maak": "'n Gewone gloeilamp brand net so goed met die sel omgedraai. Dit lyk soos 'n netjiese ekstra reel en dit is vals. Se niks oor watter kant toe die sel moet wys nie; die les het dit ook nie nodig nie."
+    },
+    {
+      "risiko": "Die kring wat as 'n rondte van 'stof' geskets word.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat iets uit die sel uitloop, deur die lampie opgebruik word, en minder terugkom.",
+      "hoekom_dit_saak_maak": "Dit is die klassieke wanbegrip en dit hou jare. Bly by die PAD: die pad moet volledig wees, en waar die pad oop is, gebeur niks. Drico se uitspraak van 2026-08-26 laat toe dat energie as iets wat beweeg en gestoor word GESKETS word ('beweeg soos', 'word gestoor soos'), maar die identiteitsgrens hou: energie IS nie 'n stof of 'n vloeistof nie."
+    },
+    {
+      "risiko": "Twee selle in 'n flitslig wat as 'n meting aangebied word.",
+      "valse_gevolgtrekking_om_te_vermy": "Enige bewering oor hoeveel helderder twee selle as een is.",
+      "hoekom_dit_saak_maak": "Dit is 'n meting, nie 'n waarneming nie, en dit is nie in KABV nie. Se dat twee selle saamwerk en stop daar."
+    }
+  ],
+  "aanvulling": [],
+  "aanvulling_nota": "Geen. Alles hier staan in KABV se inhoudskolom, sy aktiwiteitskolom of sy hulpbronkolom, of dit word deur die termyn se assesseringsriglyn geeis. Die enigste kandidaat was die sel-teenoor-battery-onderskeid, en dit is nie aanvulling nie: KABV skryf self 'die selle of battery' en 'selle (battery)', dus sit die twee woorde langs mekaar in die dokument sonder dat dit hulle skei. Om dit ONOPGELOS te laat sou die les 'n woord laat gebruik wat hy nie verklaar nie.",
+  "moeilike_konsepte": [],
+  "moeilike_konsepte_nota": "Doelbewus geen. Die toets is nie of iets moeilik is nie, maar of daar enige konkrete manier is om dit te stel. Elke kandidaat hier het een: dat energie gestoor le, met 'n pap sel en 'n nuwe sel in dieselfde flitslig; dat die pad volledig moet wees, met 'n draad wat losgemaak word; wat 'n stroombaan doen, met die lampie wat skyn. Dit is konkrete beskrywing en dit hoort in die studieteks waar dit teen die begroting tel. Daarby is die een plek wat 'n analogie SOU vra, naamlik hoe elektrisiteit deur 'n draad beweeg, presies die plek waar analogiee vals raak: die waterpypbeeld maak elektrisiteit 'n stof. Die aanskoulike vergelyking is die video se werk en die video word na hierdie teks gemaak. Die spesifikasie-nasiener sal waarsku dat geen konsep in hierdie subonderwerp gevlag is nie; hierdie nota en die twee ander lesse s'n is die antwoord op daardie waarskuwing.",
+  "termdig": true,
+  "termdig_nota": "Verwag vier tot ses begrip-inskrywings: sel, battery, stroombaan, gloeilamp, en uit die vorige graad se lys 'energie' en 'elektrisiteit' woord vir woord. 'stelsel' kry graad 4 se bewoording as dit ingesluit word. MOENIE opvul tot 'n getal nie, en moenie 'n woord uitlaat wat 'n tienjarige moet raai nie. LET OP: 'n begrip-inskrywing word ALLEEN gelees, dus moet 'sel' se inskrywing waar wees sonder die blok waarin dit staan.",
+  "fokusvraag_skakel": "Wys die klein antwoord: in 'n flitslig le die energie reg daar in die sel, en 'n volledige stroombaan bring dit tot by die lampie waar dit nodig is.",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "beslissings_vir_drico",
+    "buite_bestek",
+    "diepte_grens",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "fokusvraag_optelling",
+    "gedeelde_omskrywings_nota",
+    "geen_vrae",
+    "graad",
+    "graad_4_oordrag",
+    "herkoms",
+    "kaps_bron",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "registerwaarskuwing",
+    "skema_weergawe",
+    "teks_kom_eerste",
+    "totale_begroting",
+    "totale_begroting_nota",
+    "vak",
+    "verdeling_nota"
+  ]
+}

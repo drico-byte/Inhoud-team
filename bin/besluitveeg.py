@@ -37,7 +37,9 @@ BEVEL = re.compile(
     r"hangende|onbeslis|nog nie beslis|nog oop|"       # an unsettled marker
     r"vir drico om|beslissings_vir_drico|"             # parked for a person
     r"intussen|voorlopig|veilige roete|"               # an interim route
-    r"geen (?:begrip|inskrywing|woordelys)",           # the specific omission order
+    r"geen (?:begrip|inskrywing|woordelys)|"          # the specific omission order
+    r"woord vir woord|woordeliks|"                    # an order to copy a wording
+    r"gebruik graad \d|neem graad \d",               # an order to follow another grade
     re.I)
 
 # Words that say the field has ALREADY been brought up to date.
