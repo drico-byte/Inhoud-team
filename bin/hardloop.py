@@ -163,10 +163,16 @@ class Uitvoer:
 
 
 # ---------------------------------------------------------------- preflight
+# Distinct from None, which means "a spec exists but declares no budget basis".
+# Not a real basis value: spec_check.py allows only "gemete_volume" and
+# "vereistes", so this can never collide with one a spec declares.
+GEEN_SPEK = "geen-goedgekeurde-spek"
+
+
 def eis_profiel(vak, graad, sub, basis=None):
     pad, cfg = P.vind_profiel(vak, graad, sub)
 
-    if pad is None and basis == "vereistes":
+    if pad is None and basis in ("vereistes", GEEN_SPEK):
         # A requirement-based budget does not need THIS SUB-TOPIC to have been
         # measured, because the measurement is not its basis. The subject-grade
         # config is still wanted, since the register band is read from it.
@@ -199,7 +205,15 @@ def eis_profiel(vak, graad, sub, basis=None):
         # budget basis exists for, and the spec carries the budget instead. Refusing
         # here made every such sub-topic unrunnable — the first one to arrive could
         # not be written at all, though its spec was approved and validated.
-        if basis == "vereistes":
+        if basis in ("vereistes", GEEN_SPEK):
+            # GEEN_SPEK: there is no approved spec at all yet, so the basis is not
+            # merely unknown -- it is unknowable, and refusing here answers a question
+            # nobody can act on. The step immediately below names the planner, which is
+            # what the person actually needs to be told. Before this, a subject whose
+            # first sub-topic had no measurement could never reach that message: the
+            # runner refused at the volume check and said "the spec's budget basis must
+            # be 'vereistes'" about a spec that did not exist. Gr 5 Natuurwetenskappe
+            # hit it on its very first call, 9 September 2026.
             return pad, cfg, dict(vol or {}, woorde=0, bladsye=0, geen_meting=True)
         raise Refuse(
             f"profiler config {P.rel(pad)} records no word volume for '{sub}'",
@@ -271,6 +285,48 @@ def met_spek_konteks(spek, inskrywing):
             "terme": {t: v.get("omskrywing")
                       for t, v in (k.get("terme") or {}).items()},
         }
+
+    # THE PREVIOUS GRADE'S LIST, READ-ONLY. Drico's decision, 9 September 2026.
+    #
+    # The list above is found by vak AND graad, so a Grade 5 writer never saw Grade
+    # 4's wordings at all -- and a learner meeting a Grade 5 lesson has just done
+    # Grade 4. Nothing downstream would have caught a contradiction either: the drift
+    # sweep also runs per subject-grade, so it compares Grade 5 against Grade 5.
+    #
+    # It held together only because every Gr 5 planner was TOLD to go and read Grade
+    # 4's file and quote it into the spec. That is a property of the briefing, not of
+    # the pipeline, and the first spec written without that instruction would have
+    # lost it silently. A Gr 5 planner found the gap and said so.
+    #
+    # It is deliberately NOT merged into the list above. These wordings do not bind
+    # this grade -- the cross-grade rule lets a later grade widen where the curriculum
+    # widens, and Drico has ruled one term (buigbaar) to a different sense outright.
+    # Merging them would quietly make the earlier grade authoritative, which is the
+    # opposite of the rule.
+    try:
+        graad = int(spek.get("graad", -2))
+    except (TypeError, ValueError):
+        graad = -2
+    if graad > 4:
+        try:
+            vorige = P.gedeelde_omskrywings(spek.get("vak", ""), graad - 1)
+        except (TypeError, ValueError):
+            vorige = {}
+        if vorige and (vorige.get("terme") or {}):
+            saam["vorige_graad_omskrywings"] = {
+                "graad": graad - 1,
+                "hoe_om_dit_te_lees": (
+                    f"Hierdie is Graad {graad - 1} se ooreengekome bewoordings, wat REEDS "
+                    f"AFGELEWER is. Hulle BIND hierdie graad NIE. Hulle is hier sodat jy "
+                    f"'n botsing kan RAAKSIEN: 'n leerder in Graad {graad} het Graad "
+                    f"{graad - 1} deurloop, en twee omskrywings van een woord leer twee "
+                    f"verskillende dinge. Waar jou graad se eie lys (hierbo) 'n term het, "
+                    f"WEN daardie een altyd. Waar dit stilbly en jy gaan van hierdie "
+                    f"bewoording verskil, se dit in die spek sodat 'n mens kan beslis - "
+                    f"moenie stilweg 'n tweede betekenis skep nie."),
+                "terme": {t: v.get("omskrywing")
+                          for t, v in (vorige.get("terme") or {}).items()},
+            }
 
     saam.update(inskrywing)
     saam["_spek_vlak_velde"] = sorted(k for k in spek if k != "lesse"
@@ -555,7 +611,7 @@ def stap(a, uit):
     # it before judging the profiler config. Only the basis is taken this early; the
     # spec is still validated properly by eis_spek below.
     basis = P.lees_json(P.spek_goedgekeur(graad, vak, sub)).get("begroting_basis") \
-        if os.path.exists(P.spek_goedgekeur(graad, vak, sub)) else None
+        if os.path.exists(P.spek_goedgekeur(graad, vak, sub)) else GEEN_SPEK
 
     profiel_pad, profiel, vol = eis_profiel(vak, graad, sub, basis)
     uit.step("profiler config", "OK",

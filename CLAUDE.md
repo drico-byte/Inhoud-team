@@ -216,7 +216,7 @@ the same name as the draft, so the sweep counted both and reported exactly doubl
 The comparison was never affected — an extract holds no glossary — but the number
 is the whole point of printing it.
 
-**Two rulings, both Drico's:**
+**Three rulings, all Drico's:**
 
 * **Examples after `soos` may differ per lesson.** What must be identical is the
   sentence itself. Lesson 9 gives wood, water and air because it teaches the three
@@ -225,6 +225,22 @@ is the whole point of printing it.
 * **A definition may not get richer as the year goes on.** The end-year exam
   covers everything, and a learner looking a word up in two lessons must get one
   answer. Always choose the best wording, not the newest.
+* **A definition MAY widen across grades, when the curriculum widens.** Decided
+  9 September 2026. The rule above is bounded by the exam that makes it necessary,
+  and that exam covers one year — so it governs within a grade and says nothing
+  between grades. Grade 4 defines `geraamte` as the frame inside an animal with a
+  backbone; CAPS Grade 5 calls a crab's shell a skeleton, so Grade 5 widens the
+  wording and Grade 4 stays as delivered.
+
+  **The failure this prevents is not cross-grade drift — it is drift inside one
+  grade, arriving through two planners who are each locally right.** One Grade 5
+  sub-topic covers vertebrates only, where the narrow Grade 4 wording fits
+  perfectly; the next has to call a crab's shell a skeleton. Both planners reused
+  or rejected the Grade 4 wording correctly *for their own sub-topic*, and shipping
+  both would have put two definitions of one word inside Grade 5. Nothing in the
+  per-lesson pipeline can see that, and the sweep only runs after drafting — so
+  **when two sub-topics in one grade use a term with different scope, settle it
+  before drafting, not at reconciliation.**
 
 When a wording changes, fix it in that subject's agreed-wordings file, refresh the
 extracts, and route every lesson through the writer. A third wording makes it

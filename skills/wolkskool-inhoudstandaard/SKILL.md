@@ -351,7 +351,13 @@ Anchored on measured volume, never guessed, and then clamped into the grade's ba
 | Grade | Floor | Ceiling | Status |
 |---|---|---|---|
 | 4 | **350** | **450** | decided by Drico, 7 September 2026 |
+| 5 | **300** | **550** | decided by Drico, 9 September 2026 |
 | others | — | — | unbanded until decided the same way |
+
+**Grade 5's band is wider than Grade 4's on purpose, and Grade 5 budgets are not
+divided evenly.** Both come from what Drico found counting a Grade 5 textbook by
+hand, and the second one changes how a Grade 5 spec is written — see
+"Grade 5: requirement-based, not measured" below.
 
 **Why a band, when the budget is supposed to be a measurement.** The measurement was
 honest and the result was incoherent from a learner's seat. The delivered Gr 4
@@ -393,6 +399,37 @@ now on.
 **The band governs both budget bases.** Applying it only to measured budgets left the
 requirement-based specs outside it — and those are the ones where a number is most
 easily typed rather than derived.
+
+### Grade 5: requirement-based, not measured
+
+**Grade 5 specs declare `begroting_basis: "vereistes"`.** A measured basis divides one
+number evenly and then fails any lesson that differs from the average — which is
+exactly the uniformity the wide band exists to break. Under `vereistes` each lesson
+states its own number with a `begrotingsnota` saying where it came from, and the band
+still governs it.
+
+**Why, in two findings of Drico's, 9 September 2026.**
+
+*Lessons are genuinely different lengths.* He counted a 140-word lesson and a 525-word
+one in the same Grade 5 book. Forcing a short one up to a uniform figure makes the
+writer pad, and padding is where invented claims come from — most of the false
+mechanisms caught this year sat in text produced to reach a number.
+
+*The measurement itself is inflated.* `profiler.py` counts **every word on the page**:
+activity boxes, question panels, captions, headings. Our lessons contain none of those
+— activities are the layout team's — so a budget derived that way asks for a whole
+page's words as pure prose. This is true of every subject measured so far. The
+delivered Grade 4 budgets stand by Drico's ruling, but nothing new is built on that
+basis, and teaching the profiler to skip activity blocks is outstanding work.
+
+**The floor is 300, not 140,** even though the book goes lower. A thin textbook page is
+usually one where a photograph does half the teaching; our text is what a learner
+revises from alone, so it has to carry what the picture carried.
+
+**CAPS contact hours are still not a budget basis** — the rule at the top of this
+section holds. Grade 5 shows why plainly: CAPS gives frame-and-shell structures 8¾
+hours, more than almost anything else in Term 1, and nearly all of it is building a
+model skeleton. Its text is short.
 
 ### The arithmetic
 

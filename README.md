@@ -217,7 +217,7 @@ subject its own file, with an empty `terme`, before its first lesson is drafted:
 none, because a sweep with no decision list prints exactly like a sweep that agreed
 with everything.
 
-Two rulings govern it:
+Three rulings govern it:
 
 * **Examples after `soos` may differ per lesson.** Only the sentence itself must
   match. A lesson about states of matter gives wood, water and air; a lesson that
@@ -225,6 +225,14 @@ Two rulings govern it:
 * **A definition may not get richer through the year.** The end-year exam covers
   everything, so a learner looking a word up in two lessons must get one answer.
   Pick the best wording, not the newest, and settle it during drafting.
+* **A definition may widen across grades, when the curriculum widens.** The rule
+  above is bounded by the exam that motivates it, and that exam covers one year.
+  Where a later grade applies a word more broadly than an earlier one — CAPS
+  Grade 5 calls a crab's shell a skeleton, Grade 4 tied the word to animals with a
+  backbone — the later grade widens and the earlier stays as delivered. Settle it
+  **before** drafting when two sub-topics in the same grade use the term with
+  different scope: two planners can each be right for their own sub-topic and
+  still leave two definitions inside one grade.
 
 `bin/woordelysdrif.py` checks every lesson against it, and reports a term whose
 wording is still *undecided* separately from one that drifts — lessons that
