@@ -198,3 +198,36 @@ no research needed. Read the neighbours before writing the fix, not after.
 The honest contrast for that lesson turned out to be **sinking versus staying up** —
 a glider must lose height continuously, a powered machine can drive itself forward —
 which needs no claim about wind at all.
+
+## The lesson's own provenance note is unchecked too, and writers trust it
+
+8-9 September 2026. The photography lesson's provenance note misdescribed its own text
+**three times** in two days:
+
+* It said the "see it immediately" sentence "stays general" — the block opened with a
+  decade marker, so everything under it read as the 1990s.
+* It said that sentence was "already in the present tense about today's cameras and
+  therefore safe" — it had no time marker at all, and **present tense alone is not a
+  time marker**. "A camera captures one moment" reads as a claim about cameras, not
+  about now.
+* It ended by saying the status should be `konsep` after the gate had already passed
+  the revision, so the note and the status field contradicted each other — and the
+  field is what tools read.
+
+**Why this belongs with the spec problem.** A `herkoms.nota` is written to survive to the
+next revision, and it does its job — several corrections this quarter were saved because
+a writer wrote down why something was cut. But it is a **claim about the text**, made by
+the same pass that wrote the text, and nothing ever checks it against the text. It is the
+spec problem one level down: an unchecked artefact that the next reader treats as
+settled.
+
+**How to apply.** When a note says the text does X, **read the text**. Do not carry the
+note's description into a brief — quote the sentence instead. And when a fact check or a
+coverage pass contradicts a note, the note is the thing that was wrong until proven
+otherwise, because the checkers read the text and the note only claims to.
+
+The related trap, from the same lesson on the same day: a *requirement* can be phrased so
+that it reads as prescribed prose. A coverage checker caught "a photo is the FIRST way
+that captures a moment as it really looked" sitting in a field whose own fact-risk note
+forbids "first" claims — it was meant as the narrowed contrast, not as text to write.
+State what a field **requires**, not how the sentence should read.
