@@ -165,6 +165,27 @@ class Uitvoer:
 # ---------------------------------------------------------------- preflight
 def eis_profiel(vak, graad, sub, basis=None):
     pad, cfg = P.vind_profiel(vak, graad, sub)
+
+    if pad is None and basis == "vereistes":
+        # A requirement-based budget does not need THIS SUB-TOPIC to have been
+        # measured, because the measurement is not its basis. The subject-grade
+        # config is still wanted, since the register band is read from it.
+        #
+        # The branch below already handled a measurement of zero. It never ran,
+        # because a sub-topic missing from the config entirely fails one step
+        # earlier and this refusal fired instead. The cost was real: 'Strukture van
+        # plante en diere' has an approved, validated spec and two lessons that
+        # could not be gated at all, and Gr 4 Sosiale Wetenskappe Kwartaal 1 -- five
+        # introductory lessons the textbook does not cover -- would have hit the
+        # same wall on its first run.
+        pad2, cfg2 = P.vind_profiel(vak, graad)
+        if pad2 is not None:
+            return pad2, cfg2, {"woorde": 0, "bladsye": 0, "geen_meting": True,
+                                "nie_gemeet_nota":
+                                    f"'{sub}' is not measured in {P.rel(pad2)}. The spec declares "
+                                    f"begroting_basis 'vereistes', so its own budgets are the "
+                                    f"authority and no volume is derived here."}
+
     if pad is None:
         raise Refuse(
             f"no profiler config for {vak} Gr {graad} / '{sub}' — {cfg}",
@@ -492,8 +513,43 @@ def oorsig(vak, graad, sub, spek, uit):
 
 
 # ---------------------------------------------------------------- the walk
+def eis_vars_standaard(uit):
+    """Refuse if the standard the AGENTS load is not the standard we edit.
+
+    Claude Code loads a project skill only from .claude/skills/<name>/, while the
+    canonical standard is versioned at skills/<name>/. bin/opstel.py joins them
+    with a directory junction, so normally they are one thing.
+
+    When they are not, nothing shows it. On 7 September 2026 the linked copy had
+    become a real directory and was a full day behind: no Grade 4 budget band, no
+    floor exception, no Sosiale Wetenskappe exception. Four planners in a row
+    loaded it. Two noticed and said so in their reports; the specs came out right
+    only because their briefs happened to repeat the new rules. The setup script
+    said "ok" throughout, because it only checked that a SKILL.md existed there.
+
+    This is checked here because the runner is what gets run before an agent is
+    launched, which is exactly when a stale standard does its damage.
+    """
+    kanon = os.path.join(P.REPO, "skills", P.SKILL_NAME)
+    gelaai = os.path.join(P.REPO, ".claude", "skills", P.SKILL_NAME)
+    if not os.path.isdir(gelaai):
+        raise Refuse(
+            f"the standard is not discoverable at .claude/skills/{P.SKILL_NAME}",
+            "Agents load it only from there, so they would run without it.",
+            "Run: python bin/opstel.py")
+    if os.path.realpath(gelaai) != os.path.realpath(kanon):
+        raise Refuse(
+            f".claude/skills/{P.SKILL_NAME} is a separate copy, not a link to "
+            f"skills/{P.SKILL_NAME}",
+            "The agents read that copy and you edit the other one, so every change",
+            "to the standard is invisible to them until it is relinked.",
+            "Run: python bin/opstel.py")
+
+
 def stap(a, uit):
     vak, graad, sub = a.vak, a.graad, a.subonderwerp
+
+    eis_vars_standaard(uit)
 
     # The spec's budget basis decides whether a zero measurement is fatal, so read
     # it before judging the profiler config. Only the basis is taken this early; the
@@ -504,8 +560,11 @@ def stap(a, uit):
     profiel_pad, profiel, vol = eis_profiel(vak, graad, sub, basis)
     uit.step("profiler config", "OK",
              [f"{P.rel(profiel_pad)}",
-              (f"'{sub}': the book does not cover this sub-topic — 0 measured words. "
-               f"Budgets come from the spec under the 'vereistes' basis."
+              (f"'{sub}': NOT measured in this config — 0 words. Budgets come from the spec "
+               f"under the 'vereistes' basis, and this config's name is NOT this "
+               f"sub-topic's budget provenance. Three writers in a row refused to record "
+               f"it as such, correctly: a Kwartaal 3 config named in a Kwartaal 1 lesson's "
+               f"herkoms would be a false record. Use what the spec's profiel_konfig says."
                if vol.get("geen_meting")
                else f"'{sub}': {vol['woorde']} measured words over {vol['bladsye']} pages")])
 
@@ -701,10 +760,12 @@ def stap(a, uit):
                     f"Check ONLY the eli10 block of lesson {a.les}: is the comparison "
                     f"true, does the mapping hold, and where does a learner reasoning "
                     f"further with it end up?",
-                    invoer=[P.rel(les_pad)],
+                    invoer=[P.rel(P.skryf_feitekopie(les_pad))],
                     uitvoer=P.rel(eli10_pad),
                     waarskuwing="Do NOT pass the spec. Do not check the rest of the "
-                                "lesson — the full pass comes after this one.")
+                                "lesson — the full pass comes after this one. The "
+                                "draft handed over is the copy without its provenance "
+                                "note; the lesson content is complete.")
                 return 10, "WAG_VIR_ELI10_VOORKYK"
 
             sound, r = keur_verslag(eli10_pad, les_pad, None, uit, "eli10-voorkyk",
@@ -778,10 +839,15 @@ def stap(a, uit):
             uit.next_action(
                 "wolkskool-feitenasiener (agent)",
                 f"Verify every checkable claim in lesson {a.les} against sources.",
-                invoer=[P.rel(les_pad)],
+                invoer=[P.rel(P.skryf_feitekopie(les_pad))],
                 uitvoer=P.rel(feite_pad),
                 waarskuwing="Do NOT pass the spec, and do not let it read "
-                            "spesifikasies/. It must judge what the lesson says.")
+                            "spesifikasies/. It must judge what the lesson says. "
+                            "The draft handed over is the copy without its "
+                            "provenance note — that note carries the spec's "
+                            "requirements and the writer's intent, which is the "
+                            "same thing the spec is withheld for. No lesson "
+                            "content is removed.")
         return 10, "WAG_VIR_NASIENERS"
 
     # --- 5. validate the reports themselves --------------------------------

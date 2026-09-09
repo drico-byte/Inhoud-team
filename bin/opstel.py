@@ -73,14 +73,34 @@ def link_skill():
         return False
 
     os.makedirs(os.path.dirname(link), exist_ok=True)
-    if os.path.exists(os.path.join(link, "SKILL.md")):
-        line(OK, f"skill discoverable at .claude/skills/{SKILL_NAME}")
-        return True
+
+    # Check that it is really the SAME directory, not merely that a SKILL.md
+    # exists there. This test used to be `if SKILL.md exists: ok`, and that is how
+    # a junction quietly became a second copy: once any real directory sat at the
+    # link path, the script reported "ok" forever and never noticed the two
+    # diverging. On 7 September 2026 the copy was missing a whole day's changes --
+    # the Grade 4 budget band, the floor exception, and the entire Sosiale
+    # Wetenskappe exception -- and four planner agents in a row loaded the stale
+    # standard. Two of them noticed and said so; the specs came out right only
+    # because their briefs happened to carry the new rules explicitly.
+    if os.path.exists(link):
+        if os.path.realpath(link) == os.path.realpath(target):
+            line(OK, f"skill discoverable at .claude/skills/{SKILL_NAME}")
+            return True
+        line(WARN, f".claude/skills/{SKILL_NAME} is a SEPARATE COPY, not a link to "
+                   f"skills/{SKILL_NAME} — replacing it")
+        print("        Agents load the copy under .claude/skills/, so a copy that")
+        print("        drifts means they read a standard nobody is editing.")
     if os.path.exists(link) or os.path.islink(link):
-        line(WARN, f"removing a stale .claude/skills/{SKILL_NAME}")
         try:
+            # os.rmdir removes a junction without touching what it points at.
+            # shutil.rmtree on a junction can follow it and delete the real
+            # standard, so it is only ever the fallback for a real directory.
             os.rmdir(link)
         except OSError:
+            if os.path.realpath(link) == os.path.realpath(target):
+                line(BAD, "refusing to delete the standard itself")
+                return False
             shutil.rmtree(link, ignore_errors=True)
 
     made, err = make_junction(link, target)

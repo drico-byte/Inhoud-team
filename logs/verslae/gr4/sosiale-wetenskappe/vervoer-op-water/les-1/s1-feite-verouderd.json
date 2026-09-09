@@ -1,263 +1,371 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.0",
-  "les": "Vlotte, kano's en rietbote",
-  "kaps_punt": "Vlotte, kano's en rietbote",
-  "verdict": "MENS_NODIG",
-  "opsomming": "Die meeste feite oor vlotte, kano's en rietbote hou, maar die eli10-vergelyking leer 'n verkeerde meganisme ('die opstoot word te swak'), sewe verdere stellings is te absoluut of feitelik verkeerd, en die tydskaal 'na baie maande' in vraag 2 kon nie vasgestel word nie omdat bronne wesenlik verskil (twee weke tot 'n jaar) — 'n mens moet daaroor besluit voordat die skrywer die res regstel.",
+  "prompt_weergawe": "feitenasiener-v1.2",
+  "les": "Van spaan tot seil",
+  "kaps_punt": "Vlotte, kano's en rietbote; Sommige van die eerste seilskepe: Chinese junks, Arabiese dau(skip), karvele ligte skip, Britse hoë skepe, klipperboot",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "'n Breë rivier of 'n diep meer het lank gelede mense se pad gestop.",
-      "blok": "Hoekom mense bote nodig gehad het",
+      "bewering": "'n Breë rivier of 'n diep meer het lank gelede mense se pad gestop. Jy kon nie met kos en swaar goed na die ander kant loop nie.",
+      "blok": "Water was 'n hindernis",
       "status": "bevestig",
-      "bron": "Encyclopedia.com, 'Rafts and Rafting' (https://www.encyclopedia.com/history/dictionaries-thesauruses-pictures-and-press-releases/rafts-and-rafting): rafts served as water transport from prehistoric times and were used by early humans 'for crossing water barriers'. Die raamwerk van water as 'n hindernis wat vaartuie vereis, is standaard.",
+      "bron": "Wikipedia 'River crossing' (riviere as natuurlike versperring vir beweging); Oklahoma Historical Society, 'Ferries and Fords' (https://www.okhistory.org/publications/enc/entry?entry=FE014) - riviere was 'n versperring vir reis en vrag totdat pontte, dryfbote en brûe gekom het.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Niemand kon met swaar vragte deur diep water na die ander oewer loop nie.",
-      "blok": "Hoekom mense bote nodig gehad het",
+      "bewering": "'n Boot verander daardie water van 'n hindernis in 'n pad.",
+      "blok": "Water was 'n hindernis",
       "status": "bevestig",
-      "bron": "Dieselfde Encyclopedia.com-inskrywing plus Wikipedia, 'Boat' (https://en.wikipedia.org/wiki/Boats): vaartuie ontstaan juis omdat water wat te diep is om deur te loop, vervoer oor die water vereis.",
+      "bron": "Oklahoma Historical Society, 'Ferries and Fords'; Clark County History, 'Crossing the Columbia River' (riviere was terselfdertyd versperring en vervoerweg). Die beeld se afbeelding hou: dieselfde water wat te voet 'n keerwal was, word met 'n vaartuig 'n roete. Niks in die vergelyking lei 'n leerder na 'n valse gevolgtrekking nie.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Vlotte, kano's en rietbote is van die oudste bote wat ons ken.",
+      "blok": "Water was 'n hindernis",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Ancient maritime history' (die vroegste vaartuie was vlotte; die eerste bote word aanvaar as uitgekapte kano's); Wikipedia 'Pesse canoe' (oudste bekende boot, 8040-7510 v.C.); Wikipedia 'Reed boat' (oudste rietbootoorblyfsels, ~7000 jaar, Koeweit). Die versagting 'wat ons ken' is die korrekte vorm hier, want vlotte laat feitlik geen argeologiese spoor nie.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Hulle het geen enjin en geen brandstof gehad nie.",
+      "blok": "Water was 'n hindernis",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Ancient maritime history'; enjins op water begin eers met die stoomboot in die laat 18de eeu, duisende jare ná hierdie vaartuie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die visse in die middel van 'n groot meer was ook buite bereik.",
-      "blok": "Hoekom mense bote nodig gehad het",
-      "status": "bevestig",
-      "bron": "Encyclopedia.com, 'Rafts and Rafting': 'Early rafts served as fishing platforms, allowed transportation across bodies of water...'. Vroeë vaartuie is uitdruklik vir visvang in oop water gebruik.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Mense het toe bote gebou van die goed wat naby gegroei het.",
-      "blok": "Hoekom mense bote nodig gehad het",
-      "status": "bevestig",
-      "bron": "Encyclopedia.com, 'Rafts and Rafting' (bamboe, boomstompe en riete, plaaslik beskikbaar) en Wikipedia, 'Reed boat' (https://en.wikipedia.org/wiki/Reed_boat): papirus is 'widely cultivated along the Nile River and Delta', totora groei om die Titicacameer. Materiaalkeuse volg oral die plaaslike plantegroei.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "'n Vlot is 'n plat boot wat van stompe of bondels riete gemaak is.",
-      "blok": "Wat is 'n vlot?",
-      "status": "bevestig",
-      "bron": "Encyclopedia.com, 'Rafts and Rafting': 'The raft, the simplest type of watercraft, was first constructed by lashing together several logs or reeds...'. Stem ooreen met Wikipedia, 'Timber rafting' (https://en.wikipedia.org/wiki/Timber_rafting).",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Mense het die stompe styf langs mekaar met tou of takke vasgebind.",
-      "blok": "Wat is 'n vlot?",
+      "bewering": "Mense moes hulle self laat beweeg, elkeen op sy eie manier.",
+      "blok": "Water was 'n hindernis",
       "status": "weerspreek",
-      "bron": "Encyclopedia.com, 'Rafts and Rafting': stompe of riete is vasgebind 'with vines or animal hide', en elders 'tied together with vines or palm fibers'. Geen bron noem takke as bindmateriaal; 'n styf tak kan nie knoop nie, dis juis die buigsame rank, plantveselgaring of velriem wat gebruik word. 'Takke' (branches) is nie dieselfde as 'ranke' (vines) nie.",
-      "regstelling": "Mense het die stompe styf langs mekaar vasgebind met tou van plantvesels, met taai ranke of met rieme van diervel.",
+      "bron": "Wikipedia 'Timber rafting' (vlotte is met die stroom afgedryf; die stroom doen die werk en die spane/lang stokke stuur net); Wikipedia 'Pre-Columbian rafts' en Bradshaw Foundation, 'Balsa Raft in Aboriginal Navigation of Peru & Ecuador' (balsavlotte het maste en katoenseile gedra en met die wind gevaar); Wikipedia 'H3 (Kuwait)' en 'Reed boat' (rietbote met maste en seile). Die les weerspreek dit ook self twee blokke later met 'laat die stroom hom dra' en 'Rietbote het van die vroegste seile gedra'.",
+      "regstelling": "Die oudste bote het geen enjin gehad nie, en elkeen het op sy eie manier beweeg: met 'n spaan, met 'n lang stok of op die rivier se stroom, en later met die wind in 'n seil. Die algemene stelling dat mense hulle self moes laat beweeg, moet val - net die krag-per-boot bly staan, nie 'mense' as die enigste krag nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Jy stoot die vlot met 'n lang paal teen die grond onder die water.",
-      "blok": "Wat is 'n vlot?",
+      "bewering": "'n Vlot is 'n plat boot van boomstompe of planke wat styf saamgebind is.",
+      "blok": "Vlot, kano en rietboot",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Timber rafting' (stompe met houtpenne en toue saamgebind); Merriam-Webster 'raft' (plat struktuur vir vervoer op water). Let wel: 'n vlot is streng gesproke 'n plat struktuur sonder 'n romp eerder as 'n boot, maar naslaanwerke reken vlotte self by die 'oudste soorte bote', so 'plat boot' is nie 'n foutiewe stelling nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Mense stoot hom met 'n lang stok of laat die stroom hom dra.",
+      "blok": "Vlot, kano en rietboot",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Setting pole' en 'Timber rafting' (vlotte is met lang stokke gestoot en gestuur, en met die stroom afgedryf; groot spane aan bak en agter het as roere gedien).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Hy dra vrag betroubaar, maar hy is stadig.",
+      "blok": "Vlot, kano en rietboot",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Pre-Columbian rafts' en Bradshaw Foundation (balsavlotte het 10-30 ton vrag gedra, sommige meer, op gereelde handelsroetes van honderde kilometer); Wikipedia 'Timber rafting' (vlotte het teen ongeveer 5 km/h gedryf - stadiger as roei of vaar). Die vroeëre beperking tot kort afstande is tereg weg: balsavlotte het seereise van ses tot agt weke gedoen.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Kano is 'n smal boot wat 'n mens met 'n spaan aandryf.",
+      "blok": "Vlot, kano en rietboot",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Canoe' ('a lightweight narrow watercraft ... propelled by ... paddlers ... using paddles'); Merriam-Webster 'canoe'. Die omskrywing is korrek en breed - dit sluit 'n kajak ook in, wat naslaanwerke self by die kanofamilie reken, so dit is nie 'n fout nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die oudste kano's is uit een boomstomp uitgekap, maar ander is van boombas gemaak.",
+      "blok": "Vlot, kano en rietboot",
       "status": "weerspreek",
-      "bron": "Wikipedia, 'Setting pole' (https://en.wikipedia.org/wiki/Setting_pole) en 'Punt (boat)' (https://en.wikipedia.org/wiki/Punt_(boat)): stootpale werk waar die water vlak genoeg is om die bodem te bereik; waar dit te diep is vir 'n paal, word peddels, roeispane, seile of die stroom self gebruik. Die stelling is dus waar vir vlak water maar word hier as die enigste manier aangebied, direk nadat die les gesê het mense moes juis 'n diep meer en 'n breë rivier oorsteek — waar 'n paal nie die bodem haal nie.",
-      "regstelling": "In vlak water stoot jy die vlot met 'n lang paal teen die bodem. Waar die water te diep is vir 'n paal, gebruik jy 'n peddel of 'n roeispaan, of laat jy die stroom die vlot saamdra.",
+      "bron": "Wikipedia 'Pesse canoe' (oudste bekende boot, 'n uitgekapte stomp) en 'Dufuna canoe' (tweede oudste, ~6250 v.C.); Wikipedia 'Ancient maritime history' (die eerste bote word 'aanvaar' as uitgekapte kano's); Wikipedia 'Canoe' en Encyclopedia.com 'Canoe' (kano's is ook van bas en van velle oor 'n houtraam gebou). Bas- en velkano's vergaan sonder spoor, so watter kano's werklik die oudste was, kan nie vasgestel word nie - net watter oudste kano's gevind is.",
+      "regstelling": "Die oudste kano's wat ons ken, is uit een boomstomp uitgekap. Die les gebruik hierdie versagting reeds korrek in die eerste blok ('van die oudste bote wat ons ken') en dit hoort ook hier. Die tweede helfte bly staan, en velle oor 'n houtraam is 'n derde egte boumanier as die sin dit kan dra.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Hy is ligter en vinniger as 'n vlot, en die spaan stuur hom maklik.",
+      "blok": "Vlot, kano en rietboot",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Canoe' (kano's is lig genoeg dat een of twee mense hulle kan dra - 'n stompvlot kan niemand dra nie); PaddlingLight, 'Average Canoe Paddling Speed' (~5-6 km/h volgehou) teenoor Wikipedia 'Timber rafting' (~5 km/h met die stroom, of net die stroom se spoed as hy dryf); Wikipedia 'Canoe paddle strokes' (die spaan word ook vir stuurhale gebruik).",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die vlot lê laag en die water loop gereeld oor jou voete.",
-      "blok": "Wat is 'n vlot?",
+      "bewering": "'n Rietboot word van gras en riet gemaak wat in dik bondels vasgebind is.",
+      "blok": "Vlot, kano en rietboot",
       "status": "bevestig",
-      "bron": "Wikipedia, 'Freeboard (nautical)' (https://en.wikipedia.org/wiki/Freeboard_(nautical)): lae vryboord maak 'n vaartuig kwesbaar om water oor die dek te kry. 'n Stompvlot dryf per definisie met minimale vryboord, dus loop water oor die dek.",
+      "bron": "Wikipedia 'Reed boat' (gebou van riete soos papirus, totora en tule, in bondels saamgebind); Penn Museum, Expedition, 'Reed Boats and Experimental Archaeology on Lake Titicaca' (bondels totora met tou vasgebind).",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Kano is 'n lang smal boot met 'n skerp punt aan elke kant.",
-      "blok": "Wat is 'n kano?",
+      "bewering": "Hy is lig en hy dryf goed.",
+      "blok": "Vlot, kano en rietboot",
       "status": "bevestig",
-      "bron": "Britannica Dictionary, 'canoe' (https://www.britannica.com/dictionary/canoe): 'a long narrow boat that is pointed at both ends and that is moved by a paddle with one blade'. Britannica, 'Canoeing' (https://www.britannica.com/sports/canoeing) herhaal 'pointed at both ends'.",
+      "bron": "Yachting Monthly, 'Thor Heyerdahl: Sailing like an Egyptian' (papirus se blywende dryfvermoë); Wikipedia 'Reed boat'. Die perk - riete suig water in en die romp sak ná lang tye op see - is 'n beperking wat die les nie oorskry nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Party kano's is uit een groot boomstam uitgehol met byle en vuur.",
-      "blok": "Wat is 'n kano?",
+      "bewering": "Rietbote het van die vroegste seile gedra wat ons ken.",
+      "blok": "Vlot, kano en rietboot",
       "status": "bevestig",
-      "bron": "Wikipedia, 'Dugout canoe' (https://en.wikipedia.org/wiki/Dugout_canoe): 'Before the appearance of metal tools, dugouts were hollowed out using controlled fires. The burnt wood was then removed using an adze.' Pennsylvania Historic Preservation (https://pahistoricpreservation.com/experimental-archaeology-the-historical-and-museum-commission-building-dugout-canoe/) en The North Carolina Arboretum (https://www.ncarboretum.org/2017/01/26/making-dugout-canoe/) beskryf die siklus van beheerde vuur plus klipgereedskap, en noem uitdruklik dat 'axes and adzes had to be hafted onto a wooden handle'. Byl en herminkel kom albei in die gereedskapstel voor, so 'byle en vuur' hou vir graad 4.",
+      "bron": "Wikipedia 'H3 (Kuwait)' - 'n geverfde skerf van ~5300-4900 v.C. wat 'n rietbondelboot met twee maste wys, en wat as die oudste bewys vir mas en seil geld; Carter, 'Boat remains and maritime trade in the Persian Gulf during the sixth and fifth millennia BC' (Antiquity) en die As-Sabiyah-opgrawingsverslae; Wikipedia 'Reed boat' (papirus is vir tou en seile gebruik). Die versagting 'wat ons ken' is nodig en teenwoordig, want die oudste bewys is 'n uitgelegde skerf en nie 'n bewaarde seil nie.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "'n Seil is 'n groot stuk sterk doek wat aan 'n mas hang.",
+      "blok": "Die seil vang die wind",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Sail' ('n spanstruktuur van doek of ander membraanmateriaal wat windkrag gebruik om 'n vaartuig aan te dryf); Britannica 'sailcloth' (vlas, later katoen en seildoek). Die vroegste seile was soms geweefde rietmatte of velle, maar 'sterk doek' is die algemene en woordeboekgetroue omskrywing.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Jy dryf 'n kano aan met 'n peddel wat jy deur die water trek.",
-      "blok": "Wat is 'n kano?",
+      "bewering": "Die wind van agter stoot teen die doek en die skip beweeg vorentoe.",
+      "blok": "Die seil vang die wind",
       "status": "bevestig",
-      "bron": "Britannica Dictionary, 'canoe' en Britannica, 'Canoeing': 'propelled by one or more paddles (not oars), with paddlers facing the bow'. Die peddel word deur die water getrek, nie op 'n dol gedraai nie.",
+      "bron": "Physics Today, 'The physics of sailing' (met die wind agter werk die seil as 'n stomp liggaam op drukweerstand: die drukverhoging aan die windkant is groter as die drukverlaging aan die lykant, dus 'n stoot); Invicta Labs, 'Sail Aerodynamics'. Albei helftes van die meganisme is dus reg gesplits - hier stoot dit werklik.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Kano gly vinnig en stil en is maklik om te stuur.",
-      "blok": "Wat is 'n kano?",
+      "bewering": "Spierkrag was nie meer die enigste krag wat 'n boot laat beweeg nie.",
+      "blok": "Die seil vang die wind",
+      "status": "weerspreek",
+      "bron": "Wikipedia 'Timber rafting' (die rivier se stroom het vlotte en vrag beweeg lank voor enige seil); Wikipedia 'Setting pole'. Die sin veronderstel dat spierkrag vóór die seil die enigste krag was, en dit is nie so nie - die stroom het van die begin af bote gedra, soos hierdie les self twee blokke vroeër sê.",
+      "regstelling": "Ná die seil kon die wind 'n skip ook laat beweeg, en nie net spierkrag en die rivier se stroom nie. Vernou die kwantifiseerder ('nie net spierkrag en die stroom nie'), maar hou die bewering dat die seil 'n nuwe krag bygevoeg het - dit is die punt van die blok en dit is waar.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Die spane kon rus en skepe kon verder oor die water reis as tevore.",
+      "blok": "Die seil vang die wind",
       "status": "bevestig",
-      "bron": "Paddling Magazine, 'Elements of Canoe Design' (https://paddlingmag.com/boats/canoes/boats-elements-of-canoe-design/) en Clipper Canoes, 'Canoe Design' (https://www.clippercanoes.com/pages/canoe-design): 'n lang, smal romp stoot minder water weg, ry hoër en het minder wrywing, dus vinniger; smaller rompe is minder stabiel maar meer manoeuvreerbaar. Vergelykings van vlot teenoor kano (https://www.flatbottomboatworld.com/raft-vs-canoe/) stel dit so: 'Canoes are faster and easier to maneuver'. Peddelaandrywing is ook geruisloos in vergelyking met stootpale.",
+      "bron": "Encyclopedia.com, 'Development of Seagoing Vessels in the Ancient World' (die seil het langafstandhandel en verkenning moontlik gemaak); Ward, 'The Earliest Sailboats in Egypt and Their Influence on the Development of Trade, Seafaring in the Red Sea, and State Development'; The Past, 'The development and construction of watercraft' (voor die seil was roei/spaan die hoofaandrywing).",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Rietboot is van droë riete gemaak wat in dik bondels vasgebind is.",
-      "blok": "Wat is 'n rietboot?",
+      "bewering": "Die skip hoef nie net te vaar waarheen die wind waai nie. Mense kon die seil draai en skuins teen die wind opseil.",
+      "blok": "Skuins teen die wind",
       "status": "bevestig",
-      "bron": "Wikipedia, 'Reed boat' (https://en.wikipedia.org/wiki/Reed_boat) en 'Totora (plant)' (https://en.wikipedia.org/wiki/Totora_(plant)): riete word gesny, gedroog (totora ongeveer 'n maand) en dan in bondels ('amaros') met plantveseltou vasgebind. Vir Egiptiese papirus beskryf die tegniekstudie 'Model of Papyrus Boat Based on studies of ancient Egyptian technique' (https://www.academia.edu/36778336/) dieselfde volgorde: oes, droog, bondel, vasbind, met 'n dik middelbondel wat na die punte taps. VisitCalifornia se beskrywing van tule-rietbote (https://www.visitcalifornia.com/experience/native-american-boatmaking-traditions/) noem die lug in die droë stingels as die bron van dryfvermoë.",
+      "bron": "MIT 2.972, 'How a Sail Boat Sails Into the Wind'; American Sailing, 'Understanding Lift' (skepe vaar skuins teen die wind op deur die seile teen die skynbare wind te stel). 'Skuins' is die noodsaaklike beperking en dit staan daar - reguit teen die wind in kan geen seilskip vaar nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die bondels vorm 'n boot met 'n hoë punt voor en agter.",
-      "blok": "Wat is 'n rietboot?",
+      "bewering": "Dan bol die seil soos 'n boog.",
+      "blok": "Skuins teen die wind",
       "status": "bevestig",
-      "bron": "Metropolitan Museum of Art, Heilbrunn Timeline, 'Papyrus in Ancient Egypt' (https://www.metmuseum.org/toah/hd/papy/hd_papy.htm) en die museum se papirusbootmodelle: 'ends raised to a point, the middle area flat'. Die tegniekstudie op academia.edu beskryf die romp as 'a slight crescent' met opgeswaaide punte voor en agter.",
+      "bron": "American Sailing, 'Understanding Lift' ('once filled, the sail takes on the shape of an aerofoil'); Physics Today, 'The physics of sailing'. Die vergelyking se afbeelding hou: dit vergelyk net vorm met vorm (die geboë seil met 'n boog), en 'n leerder wat verder daarmee redeneer, kom by 'n geboë vlak uit - wat presies reg is.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Die wind stoot nie meer van agter teen die doek nie.",
+      "blok": "Skuins teen die wind",
+      "status": "bevestig",
+      "bron": "Physics Today, 'The physics of sailing' (hoe verder die boot in die wind draai, hoe meer verskuif die krag van drukstoot na drukverlaging aan die lykant; vir 'n boot wat byna in die wind vaar, oorheers die suigkant heeltemal). Die sin ontken net die stoot 'van agter', wat korrek is.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Mense in Egipte het lank gelede met sulke bote op die Nyl gevaar.",
-      "blok": "Wat is 'n rietboot?",
+      "bewering": "Die lug vloei om die boog en trek die skip vorentoe.",
+      "blok": "Skuins teen die wind",
       "status": "bevestig",
-      "bron": "Metropolitan Museum of Art, 'Papyrus in Ancient Egypt': 'Skiffs made by binding the long stalks together were used from the Predynastic era on for local transport and hunting.' The Mariners' Museum & Park, 'Egyptian Ships' (https://exploration.marinersmuseum.org/watercraft/egyptian-ships/): 'The first ships were built with papyrus reeds.' Wikipedia, 'Reed boat': Egiptiese bote uit papirus wat langs die Nyl en in die Delta gekweek is. (Papirus is streng gesproke 'n zegge, nie 'n riet nie, maar 'rietboot'/'reed boat' is die gevestigde naam in albei tale.)",
+      "bron": "American Sailing, 'Understanding Lift' (die lug om die geboë seil beweeg vinniger aan die lykant, die laer druk daar trek die seil - en die boot - vorentoe); Physics Today, 'The physics of sailing'; MIT 2.972. Die vloei word dus akkuraat benoem en nie net aanneemlik vertel nie. Let daarop dat die les die romp/kiel se sywaartse weerstand nie noem nie, wat in die fisika die sywaartse deel van die lig wegneem en die voorwaartse deel oorhou; niks wat die les sê, is egter valse fisika.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Mense moes die skip steeds self beheer en na die weer kyk.",
+      "blok": "Skuins teen die wind",
+      "status": "bevestig",
+      "bron": "Physics Today, 'The physics of sailing' (die seil moet vir elke windhoek gestel word); Wikipedia 'Junk rig' (seile is vinnig gestryk wanneer die weer sleg word).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Mense in baie lande het hulle eie seilskepe gebou.",
+      "blok": "Seilskepe oor die wêreld heen",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Junk (ship)' (China), Africa Geographic, 'The rich history of Zanzibar's dhows' (Arabië, Oos-Afrika, Indië), World History Encyclopedia 'Caravel' (Portugal), Wikipedia 'Clipper' (Amerikaanse en Britse werwe).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Party skepe is vir handel gebou en party om vinnig te vaar.",
+      "blok": "Seilskepe oor die wêreld heen",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Junk (ship)' en Africa Geographic (jonke en daus as vragdraers); Wikipedia 'Clipper' ('a sailing vessel designed for speed, a priority that takes precedence over cargo-carrying capacity').",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Hierdie vyf skepe is oor honderde jare lank gebruik.",
+      "blok": "Seilskepe oor die wêreld heen",
+      "status": "weerspreek",
+      "bron": "Wikipedia 'Clipper' (die klippertydperk se hoogbloei was 1843-1869 en is deur die Panamaspoorweg (1855) en die Suezkanaal (1869) beëindig); Transport Geography, 'Early European Sailships' en World History Encyclopedia 'Caravel' (karvele van ongeveer 1450 tot laat in die 16de eeu); Wikipedia 'Junk (ship)' en Africa Geographic (jonke en daus eeue lank, die dau tot vandag).",
+      "regstelling": "Die skepe kom uit verskillende tye: die jonk en die dau is eeue lank gebruik, die karveel omtrent honderd en vyftig jaar, en die klipperboot net 'n paar dekades in die 1800's. As die bedoeling was dat die vyf name oor 'n tydperk van honderde jare heen strek, moet die sin dit sê - so gestel, lees dit asof elke skip honderde jare lank gebruik is, en vir die klipperboot is dit nie waar nie.",
+      "tipe": "datum"
+    },
+    {
+      "bewering": "Chinese jonk: 'n seilskip wat China eeue lank vir handel gebruik het.",
+      "blok": "Vyf seilskepe",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Junk (ship)'; Columbia University, Asia for Educators, 'Song Dynasty China: Outside Trade' (Chinese skepe oorheers seehandel van die Song-tyd af, met seehandel wat vir die eerste keer landhandel oortref).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Jonke wissel van klein rivierbote tot groot seeskepe.",
+      "blok": "Vyf seilskepe",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Junk (ship)' ('the term applies to many types of small coastal or river ships ... but also going up in size up to large ocean-going vessels'; riviervlotbodems sonder kiel teenoor seegaande jonke met geboë romp). Die skrapping van 'groot' is korrek: dit is juis die wisselwydte wat waar is.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Dun latte hou sy seile plat.",
+      "blok": "Vyf seilskepe",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Junk rig' ('the full-length battens of the junk sail keep the sail flatter than ideal in all wind conditions'); Wikipedia 'Sail batten' (latte is lang, dun stroke, tradisioneel van hout of bamboes). Dit is die egte onderskeidende kenmerk van die jonk se seiltuig.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Arabiese dau: 'n seilskip van die ou handelsroetes tussen Arabië, Afrika en Indië.",
+      "blok": "Vyf seilskepe",
+      "status": "bevestig",
+      "bron": "Africa Geographic, 'The rich history of Zanzibar's dhows' (daus tussen die Swahilikus, die Arabiese Halfeiland en Indië op die moesonwinde); Byzantine Emporia, 'The Monsoon Trade System'. Dat geen seilvorm genoem word nie, is die veilige keuse: museums en algemene naslaanwerke sê latynseil/driehoekig, terwyl die vakliteratuur oor Arabiese vaartuie 'n vierhoekige 'settee' beskryf.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Handelaars het daarmee vrag van hawe tot hawe gedra.",
+      "blok": "Vyf seilskepe",
+      "status": "bevestig",
+      "bron": "Africa Geographic (ivoor, hout, goud, gedroogde vis en perels heen en weer met die moesons); Byzantine Emporia, 'The Monsoon Trade System' (Indiese Oseaan-handel is in etappes van hawe tot hawe gevaar eerder as in een oorsteek).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Karveel: 'n klein, ligte en vinnige seilskip.",
+      "blok": "Vyf seilskepe",
+      "status": "bevestig",
+      "bron": "World History Encyclopedia, 'Caravel' ('small, highly manoeuvrable'; 50-160 ton; 'fast, manoeuvrable, and only needing a small crew'); EBSCO Research Starters, 'Caravel (ship)' (12-23 m lank).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Mense het daarmee lang reise oor die oop see gevaar.",
+      "blok": "Vyf seilskepe",
+      "status": "bevestig",
+      "bron": "World History Encyclopedia, 'Caravel' (deur die Portugese ontwikkel om die Wes-Afrikaanse kus en die Atlantiese Oseaan te verken, en die stapelvaartuig van die verkenningstydperk in die 15de en 16de eeu).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Hoë skepe: groot seilskepe met baie hoë maste kry hierdie naam.",
+      "blok": "Vyf seilskepe",
+      "status": "weerspreek",
+      "bron": "History.com, 'What is a Tall Ship?' - die naam is geen formele vaarterm nie, dit is 'n versamelnaam vir tradisioneel getakelde seilvaartuie uit die seiltydperk, en sulke skepe word 'distinguished by their mast and sail arrangements rather than height or size' onderskei; Wikipedia 'Tall ship' ('a large, traditionally rigged sailing vessel'; Sail Training International klassifiseer op takelwerk en lengte, nie mashoogte nie); Sail Training International, 'History' en History.com (die Britse pers het die naam in 1956 met die wedvaart van Torbay na Lissabon gewild gemaak, vermoedelik uit Masefield se gedig van 1902).",
+      "regstelling": "Die naam kom nie van hoë maste nie. 'Hoë skepe' is 'n versamelnaam vir groot seilskepe met die ou soort seiltuig - volskepe, barke, brikke en skoeners - en dit is die takelwerk, nie die mashoogte, wat die naam verdien. Dieselfde regstelling geld die begrip-inskrywing 'hoë skepe', wat dieselfde maat gebruik; herstel albei in een keer.",
       "tipe": "naam"
     },
     {
-      "bewering": "Die riete suig water in en die boot word na 'n tyd swaar.",
-      "blok": "Wat is 'n rietboot?",
+      "bewering": "Hulle kon baie seil dra en baie wind vang.",
+      "blok": "Vyf seilskepe",
       "status": "bevestig",
-      "bron": "Wikipedia, 'Reed boat' en die verslae oor Thor Heyerdahl se Ra-ekspedisies (https://bajanthings.com/the-ra-expeditions-thor-heyerdahl/): 'the Ra began taking on water, the reeds waterlogged, and the boat started to sink'. Papirusvlotte 'lose shape as they become waterlogged'. Die meganisme (riete neem water op, boot word swaar) is goed gedokumenteer; net die tydskaal is onseker — sien die aparte item oor vraag 2.",
+      "bron": "Wikipedia 'Iron-hulled sailing ship' (die grootste vragseilskepe met drie tot vyf maste en vierkantseile); Wikipedia 'Clipper' (sulke skepe was 'greatly over-canvassed').",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Water stoot altyd op teen enigiets wat jy daarin druk.",
-      "blok": "Hoekom sink 'n swaar boot nie?",
+      "bewering": "Brittanje het baie van hulle gevaar.",
+      "blok": "Vyf seilskepe",
       "status": "bevestig",
-      "bron": "Physics LibreTexts, 'Archimedes' Principle and Buoyancy' (https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/14%3A_Fluid_Mechanics/14.06%3A_Archimedes_Principle_and_Buoyancy) en af.wikipedia, 'Archimedes se wet' (https://af.wikipedia.org/wiki/Archimedes_se_wet). Die opwaartse krag werk op enige voorwerp wat in 'n vloeistof gedompel is, ook op voorwerpe wat sink. Die absolute 'altyd' hou hier.",
-      "tipe": "superlatief"
-    },
-    {
-      "bewering": "Hout en droë riete is lig en die water stoot hulle maklik op.",
-      "blok": "Hoekom sink 'n swaar boot nie?",
-      "status": "bevestig",
-      "bron": "Digtheidsdata vir hout (https://densitycalculator.net/density-of/wood): die meeste houtsoorte het 'n relatiewe digtheid van ongeveer 0,3-0,9, dus minder as water, en dryf. VisitCalifornia oor tule-riete: 'the stalks' spongey interior is filled with air pockets that enhance buoyancy'. (Let wel: 'n handjievol swaar houtsoorte — ebbehout, lignum vitae, knoppiesdoring — is digter as water en sink. Dit raak nie die les se stelling oor boubout en riete nie, maar 'n mens wat later 'sink hout ooit?' vra, moet dit weet.)",
+      "bron": "Tenold, 'The Starting Point: A Small Country, but a Major Maritime Nation' (Springer) - teen die einde van die 19de eeu het Brittanje ongeveer die helfte van die wêreld se see-vervoervermoë beheer; Wikipedia 'Merchant Navy (United Kingdom)'; Royal Museums Greenwich, 'Cutty Sark' (Britse skepe soos die Cutty Sark van 1869). Hierdie feit staan nou langs die naam eerder as in die naam, wat reg is - die naam self is nie Brits nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Breë bodem laat die boot se gewig oor baie water rus.",
-      "blok": "Hoekom sink 'n swaar boot nie?",
-      "status": "bevestig",
-      "bron": "Lippert, 'Types of Boat Hulls' (https://www.lippert.com/blog/types-of-boat-hulls) en Flat Bottom Boat World (https://www.flatbottomboatworld.com/what-is-a-flat-bottom-boat/): 'The wide, flat hull distributes weight across maximum surface area, creating minimal draft.' 'n Breë plat bodem verplaas die nodige water op 'n vlak diepgang, wat presies is wat die les sê.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Te veel vrag laat die vlot diep sak en die water loop oor.",
-      "blok": "Hoekom sink 'n swaar boot nie?",
-      "status": "bevestig",
-      "bron": "Wikipedia, 'Freeboard (nautical)': 'Reduced freeboard from heavy loading... can increase the chance of green water on deck and downflooding.' Oorlading verminder vryboord tot water oor die dek loop.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Wat hierdie eerste bote nie kon doen nie (blokkop)",
-      "blok": "Wat hierdie eerste bote nie kon doen nie",
-      "status": "bevestig",
-      "bron": "Wikipedia, 'Dugout canoe': 'Dugouts are the oldest boat type archaeologists have found, dating back about 8,000 years.' Wikipedia, 'Pesse canoe' (https://en.wikipedia.org/wiki/Pesse_canoe): die oudste bekende boot, 'n uitgeholde stam, C14-gedateer 8040-7510 v.C. Encyclopedia.com, 'Rafts and Rafting': die vlot is 'the simplest type of watercraft' en is van voorhistoriese tye af gebruik. Vlotte, uitgeholde kano's en rietbote is dus wel die vroegste bootsoorte wat ons ken. Presiese vorm as 'n mens dit wil verskerp: 'die vroegste bekende bote' — geen boot ouer as ongeveer 8000 v.C. het oorleef nie, en vlotte en rietbote word afgelei eerder as opgegrawe.",
-      "tipe": "superlatief"
-    },
-    {
-      "bewering": "'n Vlot is swaar om te stuur.",
-      "blok": "Wat hierdie eerste bote nie kon doen nie",
-      "status": "bevestig",
-      "bron": "Ropes and Poles, 'Moving your raft around' (https://ropesandpoles.blogspot.com/2006/03/moving-your-raft-around.html): 'The flat bottom of a raft offers no lateral resistance to motion, so even though a rudder can change the direction the moving raft is pointed, the raft continues going in the same direction but sideways.' Vergelyking van vlot en kano (https://www.flatbottomboatworld.com/raft-vs-canoe/): 'Canoes are... easier to maneuver than rafts.'",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "'n Kano hou net 'n klein vrag.",
-      "blok": "Wat hierdie eerste bote nie kon doen nie",
+      "bewering": "Die lys 'Vyf seilskepe' stel 'hoë skepe' as die vyfde soort skip naas die klipperboot ('Hierdie vyf skepe').",
+      "blok": "Vyf seilskepe",
       "status": "weerspreek",
-      "bron": "Soundings, 'The Haida Canoe and the Vikings of the Pacific Northwest' (https://soundingsonline.com/news/the-haida-canoe-and-the-vikings-of-the-pacific-northwest/) en Canoes of the Pacific Northwest Coast (https://www.tota.world/article/513/): die grootste uitgeholde kano's, uit een stam gekap, kon 100 krygers en hulle toerusting hou, met 'n kapasiteit van tot 5 ton; 'n tipiese 30-voet kano hou 2 tot 3 ton. Die les behandel juis kano's wat uit een groot boomstam uitgehol is — presies die soort wat baie groot geword het. As absolute stelling is 'net 'n klein vrag' dus verkeerd; as vergelyking met 'n vlot van dieselfde lengte is dit reg.",
-      "regstelling": "'n Smal kano hou minder vrag as 'n breë vlot van dieselfde lengte. (Groot kano's uit een reusagtige stam kon wel etlike ton dra, so vermy 'net 'n klein vrag' as 'n reël.)",
-      "tipe": "superlatief"
+      "bron": "History.com, 'What is a Tall Ship?' en Wikipedia 'Tall ship' ('n versamelnaam, nie 'n skeepsoort nie); Royal Museums Greenwich, 'Cutty Sark' en Wikipedia 'Cutty Sark' (die Cutty Sark is 'n klipper én word 'n hoë skip genoem). 'n Klipperboot is self 'n hoë skip, so die twee items in dieselfde lys is nie twee soorte naas mekaar nie - die een sluit die ander in.",
+      "regstelling": "Elke sin in die lys kan waar wees en die prentjie steeds vals: vyf name naas mekaar leer 'n leerder vyf verskillende soorte skepe, terwyl 'hoë skepe' 'n versamelnaam is waaronder die klipperboot self val. Die lys mag die vyf KABV-name hou, maar dit moet duidelik wees dat vier soorte skepe is en een 'n versamelnaam, en die raamsin moet ophou om hulle as vyf skepe te tel.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Nie een was veilig op die oop see nie.",
-      "blok": "Wat hierdie eerste bote nie kon doen nie",
+      "bewering": "Klipperboot: 'n baie vinnige seilskip met drie of meer maste.",
+      "blok": "Vyf seilskepe",
       "status": "weerspreek",
-      "bron": "Rietbote: die H3-terrein by As-Sabiyah, Koeweit lewer die oudste bekende seevarende bootoorblyfsels op — bitumenplate met rietbondel- en toudrukke plus seepokke, ongeveer 5500-5300 v.C. (Carter, 'Boat remains and maritime trade in the Persian Gulf during the sixth and fifth millennia BC', https://www.academia.edu/173149/). Wikipedia, 'Reed boat' noem dieselfde vonds as 'the oldest known seagoing reed boat', 7000 jaar oud. Heyerdahl se papirusboot Ra II het in 1970 in 57 dae 3 270 seemyl oor die Atlantiese Oseaan gevaar (https://bajanthings.com/the-ra-expeditions-thor-heyerdahl/). Kano's: Polinesiërs het die oop Stille Oseaan met uitlegger- en dubbelrompkano's van 15-27 m bevaar en eilande daarmee bevolk (World History Encyclopedia, 'Polynesian Navigation & Settlement of the Pacific', https://www.worldhistory.org/article/1586/; Wikipedia, 'Dugout canoe': dugouts 'fitted with outriggers for increased stability in the ocean, and were once used for long-distance travel'). Die absolute 'nie een' is dus feitelik verkeerd.",
-      "regstelling": "Eenvoudige vlotte, kano's en rietbote is hoofsaaklik op riviere en mere gebruik, want op die oop see was hulle gevaarlik. Later het mense kano's met uitleggers en rietbote met 'n teerlaag gebou wat wel oor die oop see kon vaar.",
-      "tipe": "superlatief"
-    },
-    {
-      "bewering": "Druk 'n leë plastiekbottel onder die water in 'n bad. ... Los die bottel en dit skiet dadelik na die oppervlak.",
-      "blok": "eli10: Hoekom sink 'n swaar boot nie?",
-      "status": "weerspreek",
-      "bron": "Physics LibreTexts, 'Archimedes' Principle and Buoyancy': die opwaartse krag hang af van die gewig van die verplaasde water. 'n Toe, luggevulde bottel verplaas water baie swaarder as sy eie gewig en styg vinnig. 'n Oop leë bottel wat onder water gedruk word, loop egter vol water; sy digtheid word dan omtrent dié van water en dit styg nie na die oppervlak nie. Die les sê net 'leë plastiekbottel' en die proefie werk dan nie soos beskryf as die kind die prop af los nie.",
-      "regstelling": "Draai die prop styf op 'n leë plastiekbottel. Druk die toe bottel onder die water in 'n bad. Los dit en dit skiet na die oppervlak. (Sonder die prop loop die bottel vol water en bly onder.)",
-      "tipe": "analogie"
-    },
-    {
-      "bewering": "Dieselfde opstoot van die water hou 'n swaar vlot van hout bo.",
-      "blok": "eli10: Hoekom sink 'n swaar boot nie?",
-      "status": "weerspreek",
-      "bron": "Physics LibreTexts, 'Archimedes' Principle and Buoyancy' en af.wikipedia, 'Archimedes se wet'. Die krag is inderdaad dieselfde krag, maar die kartering is verkeerd. Die bottel bly bo omdát daar lug binne-in toegesluit is; 'n houtvlot bly bo omdat die hout self ligter is as water (relatiewe digtheid ongeveer 0,3-0,9, https://densitycalculator.net/density-of/wood). 'n Nege-jarige wat verder dink met hierdie vergelyking kom by 'goed dryf omdat daar lug in is' uit, en dan behoort 'n soliede stomp sonder lug binne-in te sink — die teenoorgestelde van wat die les wil sê. Tweede kartingsfout: die bottel word met die hand onder gehou en die opstoot voel soos 'n veerkragtige terugstoot wat ontstaan omdat jy druk. 'n Vlot lê in ewewig op die oppervlak; niks druk dit onder nie. Dit lei die leerder na die idee dat die opstoot 'n reaksie op jou druk is wat opgebruik kan word — presies die dwaalbegrip wat die laaste sin van die blok dan uitspel.",
-      "regstelling": "Kies 'n vergelyking wat op gewig berus eerder as op toegeslote lug, byvoorbeeld: 'n Droë stuk hout in 'n bad bly bo. Druk dit onder met jou hand en jy voel die water terugstoot. Los dit en dit kom weer op, want die hout self is ligter as die water wat dit wegstoot. Hou die bottel as vergelyking slegs vir die gevoel van die terugstoot, en sê dan uitdruklik dat hout nie lug binne-in nodig het om te dryf nie.",
-      "tipe": "analogie"
-    },
-    {
-      "bewering": "Sit jy te veel klippe op die vlot dan word die opstoot te swak.",
-      "blok": "eli10: Hoekom sink 'n swaar boot nie?",
-      "status": "weerspreek",
-      "bron": "Physics LibreTexts, 'Archimedes' Principle and Buoyancy' en Pearson Physics, 'Buoyancy & Buoyant Force' (https://www.pearson.com/channels/physics/learn/patrick/fluid-mechanics/buoyancy): die opwaartse krag word bepaal deur die gewig van die verplaasde water, nie deur die vrag nie. Sit jy vrag by, sak die vlot dieper, verplaas dit meer water en word die opstoot juis groter, tot dit die nuwe gewig weer balanseer. Die opstoot word nooit swakker nie. Die vlot sink eers wanneer die totale gewig meer is as die water wat die vlot se hele volume kan verplaas, of wanneer die water oor die dek begin loop. Soos geskryf, weerspreek hierdie sin ook die les se eie studiesin 'Water stoot altyd op'.",
-      "regstelling": "Sit jy meer klippe op die vlot, sak die vlot dieper en die water stoot juis harder op. Die vlot sink net wanneer sy hele gewig meer word as die water wat die vlot kan wegstoot, en dan loop die water bo-oor.",
-      "tipe": "analogie"
-    },
-    {
-      "bewering": "vlot: 'n Plat boot van stompe of bondels riete wat saamgebind is.",
-      "blok": "begrip: vlot",
-      "status": "bevestig",
-      "bron": "Encyclopedia.com, 'Rafts and Rafting': 'lashing together several logs or reeds'. Die definisie is akkuraat vir die historiese vlot wat die les behandel.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "kano: 'n Lang smal boot wat met 'n peddel aangedryf word.",
-      "blok": "begrip: kano",
-      "status": "bevestig",
-      "bron": "Britannica Dictionary, 'canoe': 'a long narrow boat that is pointed at both ends and that is moved by a paddle with one blade'. Die definisie stem woord vir woord op die kern ooreen.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "rietboot: 'n Boot van droë riete wat styf in bondels vasgebind is.",
-      "blok": "begrip: rietboot",
-      "status": "bevestig",
-      "bron": "Wikipedia, 'Reed boat' en 'Totora (plant)' (riete word gedroog en in bondels met plantveseltou vasgebind); die academia.edu-studie oor Egiptiese papirusboottegniek beskryf dieselfde bondel-en-bind-metode.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "peddel: 'n Plat stok waarmee jy die water agtertoe stoot.",
-      "blok": "begrip: peddel",
-      "status": "bevestig",
-      "bron": "Britannica Dictionary, 'canoe' ('a paddle with one blade') en Britannica, 'Canoeing'. Die peddel is 'n steel met 'n plat blad, en die vaartuig beweeg vorentoe deurdat die blad water agtertoe stoot. Die funksionele definisie is korrek; 'plat stok' beskryf die blad eerder as die hele peddel, maar dit is 'n vereenvoudiging en nie 'n onwaarheid nie.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "opstoot: Die krag waarmee water opdruk teen alles wat daarin lê.",
-      "blok": "begrip: opstoot",
-      "status": "bevestig",
-      "bron": "Physics LibreTexts, 'Archimedes' Principle and Buoyancy' en af.wikipedia, 'Archimedes se wet': die opwaartse krag werk op elke voorwerp wat in 'n vloeistof gedompel is, ook op voorwerpe wat sink. Die definisie is fisies akkuraat. Terminologienota vir die mens en die skrywer (nie 'n feitefout nie): die gevestigde Afrikaanse wetenskapterme is 'opwaartse krag', 'archimedeskrag' en 'dryfvermoë'; 'opstoot' kom nie in af.wikipedia se artikel voor nie en het in algemene Afrikaans ander betekenisse (opborrel van maaginhoud, hou in boks). As 'opstoot' 'n doelbewuste graad 4-omgangswoord is, is dit verdedigbaar, maar dit sal nie by 'n latere wetenskapsles inskakel nie.",
-      "tipe": "naam"
-    },
-    {
-      "bewering": "Jy moet 'n swaar sak mielies oor 'n breë rivier kry. Kies jy 'n vlot of 'n kano? Gee 'n rede.",
-      "blok": "vraag 1",
-      "status": "bevestig",
-      "bron": "Die vooronderstelling — dat 'n vlot die beter keuse vir 'n swaar, lywige vrag is — hou. Vlot teenoor kano (https://www.flatbottomboatworld.com/raft-vs-canoe/): 'Rafts are more stable and can carry more weight, making them ideal for carrying gear'; Lippert, 'Types of Boat Hulls': die breë plat romp versprei gewig oor die grootste oppervlak. Die vraag is dus antwoordbaar uit die les se eie teks.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Hoekom sal 'n rietboot na baie maande in die water begin sink?",
-      "blok": "vraag 2",
-      "status": "onseker",
-      "bron": "Die meganisme is vas, die tydskaal 'baie maande' nie. Bronne verskil wesenlik. Soutwater: kenners het voor die Ra-ekspedisies voorspel papirus sou binne minder as twee weke deurweek raak; Ra I het ná ongeveer agt weke water ingeneem en begin sink, Ra II het 57 dae gehou (https://bajanthings.com/the-ra-expeditions-thor-heyerdahl/; https://www.history.com/this-day-in-history/may-17/heyerdahl-sails-papyrus-boat). Varswater: papirus was 'freely available to replace a worn-out craft after a few months when it became waterlogged', terwyl 'n ander weergawe sê papirusvlotte 'rarely last more than a year' (The Past, 'The development and construction of watercraft', https://the-past.com/feature/the-development-and-construction-of-watercraft/ — die bladsy self blokkeer direkte toegang, slegs deur soekuittreksels gelees); totora-bote wat heeltemal uit riet gebou is, het 'one year at most' gehou (https://en.wikipedia.org/wiki/Totora_(plant)). Die reeks strek dus van twee weke tot 'n jaar, afhangend van sout of vars water en van bouwyse, en die gesaghebbende bron (Landström, Ships of the Pharaohs, 1970) kon ek nie self inspekteer nie. 'Baie maande' is nie weerlê nie, maar dit is ook nie vasgestel nie, en dit is die enigste getalagtige bewering in die les.",
+      "bron": "Wikipedia 'Clipper' - '\"Clipper\" does not refer to a specific sailplan; clippers may be schooners, brigs, brigantines, etc., as well as full-rigged ships', en die kenmerk is 'designed for speed, a priority that takes precedence over cargo-carrying capacity'; Wikipedia 'Baltimore Clipper' (die naam word 'most commonly applied to two-masted schooners and brigantines'). Britannica beskryf drie hoë maste as die uiteindelike, bekendste vorm, nie as die maatstaf nie. Geen museum- of naslaanbron omskryf 'n klipper op sy mastal nie.",
+      "regstelling": "Wat 'n klipperboot 'n klipperboot maak, is dat hy vir spoed gebou is: 'n lang, smal romp met skerp punte en buitengewoon baie seil. Die bekendste klipperbote het drie hoë maste gehad, maar party (soos die Baltimore-klippers) het net twee gehad, so 'drie of meer maste' mag nie die onderskeidende kenmerk wees nie - hoogstens 'meestal drie hoë maste'. Dieselfde regstelling geld die begrip-inskrywing 'klipperboot'.",
       "tipe": "getal"
     },
     {
-      "bewering": "Waarmee dryf jy 'n kano deur die water aan?",
-      "blok": "vraag 3",
+      "bewering": "Dit is gebou om vrag gou oor lang afstande te bring.",
+      "blok": "Vyf seilskepe",
       "status": "bevestig",
-      "bron": "Britannica Dictionary, 'canoe' en Britannica, 'Canoeing': 'n kano word met 'n peddel aangedryf. Die verwagte antwoord (peddel) is korrek en word deur die studieblok en die begripblok gedek.",
+      "bron": "Wikipedia 'Clipper' (klippers is gebruik vir vrag wat waardevol of bederfbaar was, soos tee en sy, en vir passasiers na die goudstormlope; die 1843-oplewing kom uit die vraag na vinniger tee uit China); Royal Museums Greenwich, 'Cutty Sark' (gebou om tee uit China en wol uit Australië so vinnig as moontlik te bring).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "vlot: 'n Plat boot van boomstompe of planke wat saamgebind is.",
+      "blok": "begrip: vlot",
+      "status": "bevestig",
+      "bron": "Merriam-Webster 'raft'; Wikipedia 'Timber rafting'. Alleen gelees pas dit op 'n vlot en op niks anders in die les nie; dit sou ook op 'n stompvlot van riete pas, maar die rietboot se eie inskrywing noem sy materiaal, so die twee bots nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "kano: 'n Smal boot wat 'n mens met 'n spaan aandryf.",
+      "blok": "begrip: kano",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Canoe'; Merriam-Webster 'canoe'. Alleen gelees pas dit ook op 'n kajak, en dit is nie 'n fout nie - naslaanwerke reken die kajak by dieselfde familie. Die woord 'lig', wat in die studieteks staan, sou die inskrywing skerper maak, maar sy afwesigheid maak niks onwaar nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "rietboot: 'n Boot van gras en riet wat in bondels vasgebind is.",
+      "blok": "begrip: rietboot",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Reed boat'; Penn Museum, Expedition, 'Reed Boats and Experimental Archaeology on Lake Titicaca'. Alleen gelees pas dit op 'n rietboot en op 'n rietvlot, wat naslaanwerke self as naby familie hanteer.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "spaan: 'n Plat stok waarmee jy die water agtertoe stoot.",
+      "blok": "begrip: spaan",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Canoe paddle strokes' en CK-12, 'Newton's third law' (jy stoot die water agtertoe en die water stoot die spaan - en die boot - vorentoe). Alleen gelees pas dit ook op 'n roeispaan, wat aan die boot vas is; niks daarvan is onwaar nie en die meganika is reg.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "seil: 'n Groot doek aan 'n mas wat die wind vang.",
+      "blok": "begrip: seil",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Sail'; Vocabulary.com 'sail' ('the big piece of cloth attached to a mast that propels a sailboat ... by catching the wind'). Alleen gelees kan 'n groot doek aan 'n mas ook 'n vlag wees; dat dit die wind 'vang' hou dit egter by die seil, want 'n vlag doen niks met die wind wat hy vang nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Chinese jonk: 'n Chinese seilskip met seile wat dun latte plat hou.",
+      "blok": "begrip: Chinese jonk",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Junk rig' en 'Sail batten'. Alleen gelees pas dit op 'n jonk; ander vaartuie gebruik ook latte, maar die woord 'Chinese' hou dit vas.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Arabiese dau: 'n Arabiese seilskip van die ou handelsroetes oor die see.",
+      "blok": "begrip: Arabiese dau",
+      "status": "bevestig",
+      "bron": "Africa Geographic, 'The rich history of Zanzibar's dhows' (die dau het sy oorsprong op die Arabiese Halfeiland en het die Indiese Oseaan se handel eeue lank oorheers). Alleen gelees is die inskrywing waar maar breed - dit noem nie die streke wat die lysinskrywing wel noem nie, en dit pas op enige dau-tipe (baghlah, sambuk), wat almal daus is. Geen valse stelling nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "karveel: 'n Klein, ligte en vinnige seilskip vir lang reise oor die see.",
+      "blok": "begrip: karveel",
+      "status": "bevestig",
+      "bron": "World History Encyclopedia, 'Caravel'; EBSCO Research Starters, 'Caravel (ship)'. Alleen gelees sou dit ook op ander klein, vinnige seilskepe pas, maar dit stel niks onwaar nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "hoë skepe: Die naam vir groot seilskepe met hoë maste wat baie seil dra.",
+      "blok": "begrip: hoë skepe",
+      "status": "weerspreek",
+      "bron": "History.com, 'What is a Tall Ship?' (onderskei op mas- en seiltuigreëling 'rather than height or size'); Wikipedia 'Tall ship' ('large, traditionally rigged'). Alleen gelees is die probleem erger as in die lys: hierdie inskrywing pas woord vir woord op die klipperboot twee inskrywings later (groot, hoë maste, baie seil), en op enige groot moderne seiljag met 'n baie hoë mas, wat nie 'n hoë skip is nie.",
+      "regstelling": "Omskryf die naam op die ou soort seiltuig, nie op mashoogte nie: 'hoë skepe' is die versamelnaam vir groot seilskepe met tradisionele seiltuig. Die inskrywing moet ook nie op die klipperboot pas nie, of dit moet sê dat 'n klipperboot self een van hulle is.",
+      "tipe": "naam"
+    },
+    {
+      "bewering": "klipperboot: 'n Baie vinnige seilskip met drie of meer maste.",
+      "blok": "begrip: klipperboot",
+      "status": "weerspreek",
+      "bron": "Wikipedia 'Clipper' ('does not refer to a specific sailplan'); Wikipedia 'Baltimore Clipper' (twee maste). Alleen gelees pas hierdie inskrywing net so goed op 'n barkskip, 'n volskip of 'n windjammer, en op die les se eie 'hoë skepe'-inskrywing.",
+      "regstelling": "Onderskei die klipperboot op waarvoor hy gebou is - spoed, met 'n lang smal romp en baie seil - eerder as op sy mastal. As die maste in die inskrywing bly, moet dit 'meestal drie hoë maste' wees.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "Herkomsnota: 'van die drie is dit net die kano wat werklik met 'n spaan aangedryf is'.",
+      "blok": "herkoms.nota",
+      "status": "weerspreek",
+      "bron": "Wikipedia 'Reed boat' en Penn Museum, Expedition, 'Reed Boats and Experimental Archaeology on Lake Titicaca' (rietbote word tradisioneel met menskrag of wind aangedryf, en spaanwerk met enkel- of dubbelbladspane is die algemeenste manier); The Past, 'The development and construction of watercraft' (voor die seil was spaanwerk die hoofaandrywing van Egiptiese vaartuie, papirusbote inbegrepe); Bradshaw Foundation (balsavlotte het maste en seile gedra). Die nota se rede is dus self nie heeltemal waar nie, en dit is die rede wat die raamsin gevorm het.",
+      "regstelling": "Rietbote is ook met spane aangedryf, en vlotte is ook met stokke gestoot en met seile gevaar. Die egte onderskeid is nie wie gespaan het nie, maar dat elke soort boot op sy eie manier beweeg het - spaan, stok, stroom of wind - en die raamsin in die eerste blok moet dít sê. 'n Herkomsnota word as vasgestel gelees, so hierdie rede moet reggestel word waar dit staan, en nie net in die les nie.",
       "tipe": "algemeen"
     }
-  ]
+  ],
+  "opsomming": "Die nuwe seilmeganisme (stoot van agter, trek om die geboë seil) is akkuraat, en die dau, die jonk, die vlot en die kano se hersiene bewoording hou steek - maar nege dinge is verkeerd: die raamsin en die 'enigste krag'-sin sê nog altwee dat mense die oudste bote self moes laat beweeg terwyl die stroom en die wind dit ook gedoen het, 'hoë skepe' word op hoë maste in plaas van ou seiltuig omskryf (in die lys én in die begrip) en as 'n vyfde skeepsoort naas die klipperboot getel terwyl 'n klipper self 'n hoë skip is, die klipperboot word op 'drie of meer maste' omskryf in plaas van op spoed (Baltimore-klippers het twee gehad), 'die oudste kano's' mis die 'wat ons ken' wat die eerste blok reeds korrek gebruik, die vyf skepe is nie elkeen honderde jare lank gebruik nie (die klipper net 'n paar dekades), en die herkomsnota se rede dat net die kano gespaan is, is self nie waar nie."
 }

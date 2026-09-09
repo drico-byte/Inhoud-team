@@ -131,6 +131,54 @@ def spek_inskrywing(graad, vak, subonderwerp, nommer):
                         f"les-{int(nommer)}.json")
 
 
+def feitekopie(les_pad):
+    """The copy of a draft the fact checker is given: the lesson without its
+    provenance note.
+
+    The spek/ layout above keeps the specification away from the fact checker,
+    but the draft itself carries the intent. Writers record their reasoning in
+    herkoms.nota — why a sentence was cut, what a requirement asked for, what
+    was deliberately left out — and they are right to: it is how a decision
+    survives to the next revision, and several corrections have been saved by it.
+
+    But the fact checker is handed the draft, so it reads that reasoning, and the
+    charitable-reading risk arrives through the back door. It gets worse with
+    every revision, because each pass appends its own reasoning — so the
+    most-corrected lessons, the ones that most need an honest check, leak most.
+    Two fact checkers raised it unprompted; one said it read the note before it
+    could avoid it.
+
+    Drico's decision, 9 September 2026: strip it here rather than ask writers not
+    to write it. The runner already decides what each checker sees, and this is
+    the same decision.
+    """
+    return os.path.join(os.path.dirname(les_pad), "feite-kopie",
+                        os.path.basename(les_pad))
+
+
+def skryf_feitekopie(les_pad):
+    """Write the fact checker's copy and return its path.
+
+    Regenerated on every call, because the draft moves. The marker left behind
+    is deliberate: without it a checker meets a lesson with no note and reports
+    that something dropped it, which one did before this existed. The marker
+    says a note was withheld and says nothing about what it contained.
+    """
+    les = lees_json(les_pad)
+    h = les.get("herkoms")
+    if isinstance(h, dict) and "nota" in h:
+        h = dict(h)
+        del h["nota"]
+        h["nota_weerhou"] = ("Die herkoms-nota is uit hierdie kopie weerhou. Dit dra die skrywer se "
+                             "redenasie en die spesifikasie se vereistes, en die feitenasiener moet "
+                             "beoordeel wat die les SE, nie wat dit bedoel het nie. Niks is uit die "
+                             "lesinhoud verwyder nie.")
+        les = dict(les, herkoms=h)
+    pad = feitekopie(les_pad)
+    skryf_json(pad, les)
+    return pad
+
+
 def newe(les_pad, agtervoegsel):
     """A sibling artifact of a draft: les-3.json -> les-3.<agtervoegsel>.json"""
     return les_pad[:-len(".json")] + f".{agtervoegsel}.json"

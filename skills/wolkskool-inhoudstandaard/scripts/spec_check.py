@@ -16,6 +16,24 @@ not how much text a learner reads. Budgets come from measured textbook volume.
 """
 import argparse, json, re, sys
 
+# Per-grade lesson budget band. DECIDED BY DRICO, 7 September 2026: Grade 4 caps at
+# 450 study words with a floor of 350.
+#
+# Why a band exists at all, when the budget is supposed to be a measurement. The
+# measurement was honest and the result was incoherent from a learner's seat: the
+# delivered Gr 4 Natuurwetenskappe lessons run from 169 study words to 811, because
+# textbook volume per sub-topic divided by lesson count is arithmetic and nobody
+# chose the spread. Seventeen of twenty-five exceeded 450. A learner meeting a
+# 169-word lesson one day and an 811-word one the next is the failure the band
+# prevents, and the floor matters more than the ceiling.
+#
+# Grade 4 is also the first year learners write exams, which is Drico's own reason
+# for the ceiling: the amount a nine-year-old is expected to study is small.
+#
+# Only Grade 4 is banded. The other grades stay unbanded until someone decides them
+# the same way, rather than inheriting a number that was reasoned about Grade 4.
+LESBAND = {4: (350, 450)}
+
 AANVULLING_MAX_FRACTION = 0.25
 # Aanvulling is capped by budget share, but a spec states items, not words. Two
 # items in a 300-word lesson is already a quarter of it in practice, so the
@@ -122,15 +140,45 @@ def check(spec):
         fails.append(f"begroting_basis '{basis}' is not one of gemete_volume, vereistes")
 
     if basis == "gemete_volume":
-        expected = round(total_words / n)
+        rou = round(total_words / n)
+        # An exempted spec is judged by the rule that applied when it was written,
+        # so the band must not clamp its expected budget either. Reporting the band
+        # as notes while still failing the arithmetic would make the exemption
+        # useless -- which it was, until habitatte-van-diere failed with the
+        # exemption in place and every band check already downgraded.
+        band = None if (spec.get("band_vrygestel") or "").strip() else LESBAND.get(int(spec["graad"]))
+        if band:
+            vloer, plafon = band
+            expected = max(vloer, min(plafon, rou))
+        else:
+            vloer = plafon = None
+            expected = rou
+        geklem = expected != rou
+
         for L in lesse:
-            if L["begroting"] != expected:
-                fails.append(f"Lesson {L['nommer']} ('{L['titel'][:30]}'): budget {L['begroting']} "
-                             f"but {total_words} words / {n} lessons = {expected}")
-        # rounding can move the sum by at most one word per lesson
-        if abs(spec["totale_begroting"] - total_words) > n:
-            fails.append(f"totale_begroting {spec['totale_begroting']} differs from the measured "
-                         f"sub-topic volume {total_words} by more than rounding allows")
+            b = L["begroting"]
+            if plafon and b > plafon:
+                continue          # the ceiling is enforced below, for every basis
+            if b != expected:
+                verduidelik = (f"{total_words} words / {n} lessons = {rou}, clamped to {expected} "
+                               f"by the Gr {spec['graad']} band {vloer}-{plafon}") if geklem else                               f"{total_words} words / {n} lessons = {expected}"
+                fails.append(f"Lesson {L['nommer']} ('{L['titel'][:30]}'): budget {b} "
+                             f"but {verduidelik}")
+
+        if geklem:
+            # Parity with the measurement is deliberately broken here, so checking it
+            # would fail every banded spec. Say so out loud instead: a reader who
+            # sees a total that is not the measured volume must be told it was chosen.
+            rigting = "up to the floor" if expected > rou else "down to the ceiling"
+            notes.append(
+                f"Budgets are CLAMPED {rigting}: {total_words} measured / {n} lessons = {rou} "
+                f"per lesson, set to {expected} by the Gr {spec['graad']} band {vloer}-{plafon}. "
+                f"totale_begroting is therefore NOT the measured volume, on purpose.")
+        else:
+            # rounding can move the sum by at most one word per lesson
+            if abs(spec["totale_begroting"] - total_words) > n:
+                fails.append(f"totale_begroting {spec['totale_begroting']} differs from the measured "
+                             f"sub-topic volume {total_words} by more than rounding allows")
     else:
         if not (spec.get("begroting_basis_nota") or "").strip():
             fails.append("begroting_basis is 'vereistes' but begroting_basis_nota is empty. A "
@@ -152,10 +200,55 @@ def check(spec):
                      "budget arithmetic.")
 
     # a budget too small to teach anything is a planning error, not a style choice
+    # The band governs BOTH bases. Applying it only to gemete_volume left the
+    # requirement-based specs -- the ones with no measurement to divide, which is
+    # exactly where a number is most easily typed rather than derived -- outside the
+    # only rule that constrains them.
+    band_hier = LESBAND.get(int(spec["graad"]))
+    vrygestel = (spec.get("band_vrygestel") or "").strip()
     for L in lesse:
-        if L["begroting"] < 120:
-            warns.append(f"Lesson {L['nommer']}: budget {L['begroting']} is very small — "
+        b = L["begroting"]
+        if band_hier and b < band_hier[0]:
+            # The floor has an exception too, and it needs one for the same reason the
+            # ceiling does: sometimes the curriculum, not the arithmetic, decides.
+            # Gr 4 Geskiedenis Kwartaal 1 is five introductory videos about what
+            # history is and what a source is, and CAPS gives 7 of that term's 15
+            # hours to a project rather than to content. Drico, 7 September 2026:
+            # "Lets make term one 200 words, and treat it purly as an exception ...
+            # there really is not that much to say here." Inflating those lessons to
+            # 350 would pad them, which is the failure the floor exists to prevent
+            # pointing the other way.
+            if (L.get("vloer_uitsondering") or "").strip():
+                notes.append(f"Lesson {L['nommer']} is under the {band_hier[0]}-word floor at "
+                             f"{b}, with a stated exception.")
+            else:
+                boodskap = (f"Lesson {L['nommer']}: budget {b} is below the Gr {spec['graad']} "
+                            f"floor of {band_hier[0]} with no vloer_uitsondering. The floor is "
+                            f"the half of the band that matters most — a 169-word lesson is a "
+                            f"worse failure than an 811-word one. Merge with an adjacent bullet, "
+                            f"raise it to the floor, or say in writing why this content is "
+                            f"genuinely thinner than a Grade 4 lesson should be.")
+                (notes if vrygestel else fails).append(boodskap)
+        elif band_hier and b > band_hier[1]:
+            # A CAPS bullet that names items explicitly makes every one of them
+            # mandatory, and that is not negotiable against a word count. Transport
+            # water lesson 6 owes rafts, canoes and reed boats PLUS the five ships
+            # CAPS names by name PLUS how a sail works. Such a lesson may go over the
+            # ceiling, but it has to say so in writing rather than quietly.
+            if (L.get("plafon_uitsondering") or "").strip():
+                notes.append(f"Lesson {L['nommer']} is over the {band_hier[1]}-word ceiling at "
+                             f"{b}, with a stated exception.")
+            else:
+                boodskap = (f"Lesson {L['nommer']} ('{L['titel'][:30]}'): budget {b} exceeds the "
+                            f"Gr {spec['graad']} ceiling of {band_hier[1]} with no "
+                            f"plafon_uitsondering. Only a bullet that names mandatory items "
+                            f"explicitly may go over, and it must say which items force it.")
+                (notes if vrygestel else fails).append(boodskap)
+        elif b < 120:
+            warns.append(f"Lesson {L['nommer']}: budget {b} is very small — "
                          f"consider merging with an adjacent bullet")
+    if vrygestel:
+        notes.append(f"BAND EXEMPT: {vrygestel}")
 
     # --- CAPS named items must all be covered ---
     for L in lesse:

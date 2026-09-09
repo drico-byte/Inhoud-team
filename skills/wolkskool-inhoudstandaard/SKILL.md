@@ -93,6 +93,44 @@ plain concrete description, which is what standing alone requires; it does not r
 text to be as vivid as film.
 
 
+### Gr 4 Sosiale Wetenskappe runs a different process
+
+**Drico, 7 September 2026: "this whole SW inhoud we are creating is going to be a
+different process, and we must treat it as an exception to what we have been doing the
+whole time."** Everything below is that exception, gathered in one place rather than
+scattered as caveats on rules it does not follow. It applies to Grade 4 Sosiale
+Wetenskappe and to nothing else, until someone decides otherwise for another subject.
+
+Six departures, and the first causes the rest:
+
+| Normal process | Sosiale Wetenskappe |
+|---|---|
+| Text first, video follows it | **Video already exists** and will not be remade |
+| One lesson per CAPS bullet | **The video's division wins** — where it merged two bullets, the text merges too |
+| Coverage comes from the CAPS content table | **Also from CAPS's skills and concepts section**, because the teacher taught beyond the content list |
+| Budget is measured textbook volume | **Mostly requirement-based** — the book does not cover most of this subject |
+| Grade 4 budgets sit in the 350–450 band | **Kwartaal 1 sits at 200**, by decision |
+| Every CAPS bullet is covered | **The local-area anchor is dropped**, by decision |
+
+**Why the teacher's judgement is allowed to extend coverage, which is the one that
+matters most.** CAPS lists content in one place and the historical aims, skills and
+concepts in another, and says following the second is critical for every content
+topic. Kwartaal 1's content list is essentially one item — four ways to find out about
+the past — while the teacher's five videos also teach what history is, how to place
+events in time, and why any of it matters. Read against the content list alone, three
+of five lessons are supplement at 60% against a 25% cap, and the plan fails. Read
+against the whole document, they are CAPS delivery.
+
+Drico's reason for taking the second reading is the principle worth keeping:
+**"That's the power of having a teacher in the mix... They know whats important beyond
+the caps points."** A rule that would have deleted good teaching to satisfy a cap was a
+rule written before anyone had read all of CAPS.
+
+**This does not loosen anything.** Every CAPS content bullet is still covered and every
+item CAPS names explicitly is still mandatory. A lesson that serves neither the content
+table nor Section 2 is still supplement, still needs a justification, and still counts
+against the 25%.
+
 ### When the video was made first
 
 Grade 4 Sosiale Wetenskappe reverses the order above. Those videos were made before
@@ -306,11 +344,61 @@ layer's value there is entirely the *analogy*, not the simpler wording.
 
 ## Volume budget
 
-Anchored on measured volume, never guessed:
+Anchored on measured volume, never guessed, and then clamped into the grade's band:
+
+### The band
+
+| Grade | Floor | Ceiling | Status |
+|---|---|---|---|
+| 4 | **350** | **450** | decided by Drico, 7 September 2026 |
+| others | — | — | unbanded until decided the same way |
+
+**Why a band, when the budget is supposed to be a measurement.** The measurement was
+honest and the result was incoherent from a learner's seat. The delivered Gr 4
+Natuurwetenskappe lessons run from **169 study words to 811**, because textbook volume
+per sub-topic divided by lesson count is arithmetic and nobody chose the spread.
+Seventeen of twenty-five exceeded 450. A learner meeting a 169-word lesson one day and
+an 811-word one the next is the failure this prevents.
+
+**The floor matters more than the ceiling.** A 169-word lesson cannot be the revision
+instrument the whole architecture rests on. Where the measurement lands below the
+floor, the honest answer is usually to merge with an adjacent bullet rather than to
+inflate.
+
+Grade 4 is also the first year learners write exams, which is Drico's own reason for
+the ceiling: what a nine-year-old is expected to study is small.
+
+**One exception to the ceiling, and it must be written down.** Where a CAPS bullet
+names items explicitly, every named item is mandatory and that is not negotiable
+against a word count — transport water lesson 6 owes rafts, canoes and reed boats
+*plus* the five ships CAPS names *plus* how a sail works. Such a lesson may exceed the
+ceiling if its spec entry carries `plafon_uitsondering` saying which items force it.
+The validator fails a spec that goes over without one.
+
+**The floor has an exception too, and it needs one for the same reason.** Sometimes the
+curriculum decides, not the arithmetic. Gr 4 Geskiedenis Kwartaal 1 is five
+introductory videos about what history is and what a source is, and CAPS gives 7 of
+that term's 15 hours to a project rather than to content — Drico set those lessons at
+200 words with a 250 maximum, calling it purely an exception. Inflating them to 350
+would pad them, which is the floor's own failure pointing the other way. A lesson under
+the floor needs `vloer_uitsondering` saying why the content is genuinely thinner than a
+Grade 4 lesson should be.
+
+**A clamped budget breaks parity with the measurement on purpose**, so
+`totale_begroting` is then not the measured volume and the validator says so in a note
+rather than failing. Specs written before the band carry `band_vrygestel` with a
+reason: their lessons were already built, and the band governs what is planned from
+now on.
+
+**The band governs both budget bases.** Applying it only to measured budgets left the
+requirement-based specs outside it — and those are the ones where a number is most
+easily typed rather than derived.
+
+### The arithmetic
 
 ```
 onderwerp_woorde = pages_for_subtopic x words_per_page    (from the profiler)
-lesson_budget    = round(onderwerp_woorde / lesson_count)
+lesson_budget    = clamp(round(onderwerp_woorde / lesson_count), floor, ceiling)
 ```
 
 **CAPS contact hours are deliberately not used.** They tell a teacher how long to

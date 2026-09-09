@@ -54,9 +54,25 @@ all."*
 
 | Sub-topic | Measured | Lessons | Budget each |
 |---|---|---|---|
-| Vervoer op land | 2 321 | **5** (bullets 2+3 merged) | 464 |
-| Vervoer op water | 1 001 | **2** (1+2 merged, 3+4 merged) | 500 |
-| Vervoer in die lug | 835 | **3** (no merges) | 278 |
+| Vervoer op land | 2 321 | **5** (bullets 2+3 merged) | **450** — measured 464, clamped by the Gr 4 ceiling |
+| Vervoer op water | 1 001 | **2** (1+2 merged, 3+4 merged) | **400** |
+| Vervoer in die lug | 835 | **3** (no merges) | **400** |
+
+**Budgets settled 7 September 2026.** Drico set 400 a lesson for this term and then chose
+to leave land on its measured 450: *"Lets go with the second option, land keeps 450."*
+The reasoning is that land is the only one of the three sub-topics whose measurement is
+trustworthy, 450 sits inside the band, and lesson 1 is already written at 497 study
+words — which passes against 450 (range 382-517) and would **fail** against 400 (range
+340-460). Dropping land to 400 would have cost a revision cycle and two fresh checker
+runs on a lesson that had just cleared 55 of 55 claims.
+
+Air *rises* from 278 to 400, which is an improvement: 278 rested on a page count that
+does not fit its CAPS hours, and 400 is at least a decision rather than a bad
+measurement.
+
+**Coverage verified the same day**: her ten lessons cover **all thirteen** CAPS bullets,
+with the three merges doing the work and nothing uncovered. Only the case study sits
+outside, and it is dropped.
 
 Ten lessons against ten videos. Two things to know about those numbers.
 
@@ -119,3 +135,65 @@ Video 7 spends a large share of its length on the Titanic. The content standard 
 the Titanic specifically as failing the Aanvulling test — "a dramatic shipwreck story
 is colour, not mechanism". That is fine in a video, which carries the interest. **The
 text must not follow it there.**
+
+## Gr 4 Geskiedenis, Kwartaal 2 — "Leer van leiers"
+
+`gr4-sw-gesk-leiers.txt`. **Four lessons, not the three the file's headings suggest.**
+Corrected by Drico on 7 September 2026.
+
+The file carries three `Les` headings, and the third is titled *"Nelson Mandela"* but
+opens on Martin Luther King Jr. and runs him for 460 words before Mandela starts. There
+are really four scripts; the file simply has one heading missing.
+
+| Lesson | Script lines | Words | CAPS |
+|---|---|---|---|
+| 1 · 'n Inleiding tot leiers | 5–61 | 339 | the eight named qualities |
+| 2 · Mahatma Gandhi | 62–140 | 517 | named in the CAPS focus sentence |
+| 3 · Martin Luther King Jr. | 141–192 | 460 | CAPS's *permitted addition* — a leader of the teacher's choice who contributed to democracy and human rights |
+| 4 · Nelson Mandela | **193–265** | 433 | named in the CAPS focus sentence |
+
+**Lesson 4 begins at the line** *"Ons kan nie oor leiers praat sonder om hierdie man te
+noem nie."* — Drico's own marker for the seam. The heading for it is missing from the
+document, not the content.
+
+### Lesson 3's video is not made yet, and it changes almost nothing
+
+The King script is written; the video has not been shot. Drico, 7 September 2026:
+*"the fact that the video's doesnt exist yet is actually not a problem, since your
+working with the script anyway."* He is right, and an earlier note here said otherwise.
+**The seam is distilled from the script, not from the video**, so this lesson is planned
+and written exactly like the other three and it gets a `video_naat` like them.
+
+One real difference, and it is an advantage: a false claim found in the King script can
+still be **fixed in the video**, because the video does not exist yet. Everywhere else in
+this subject a script error has to be routed around, since the video is already made.
+So report anything the fact check finds here to Drico as something he can still change,
+rather than as something the text has to avoid.
+
+### The qualities gap in lesson 1
+
+CAPS names eight qualities and her lesson 1 carries **four** of them — listens to
+people, works with a team, has courage, is brave. Missing: *is a servant of the people
+and works for the benefit of others*, *is committed to his or her convictions*, *is
+committed to others*, and *is willing to sacrifice something for others*.
+
+She adds six CAPS does not name: respect, honesty, fairness, responsibility, integrity
+and calm.
+
+So the writer's job in lesson 1 is to put CAPS's four missing ones back, not to add
+more. At 400 words there will not be room for many of her six on top of that. The four
+missing qualities do appear across the story lessons — Gandhi holding to non-violence to
+the end is commitment to convictions, and Mandela's 27 years and the script's own phrase
+*"Gandhi se opofferings"* are the willingness to sacrifice — so the term reaches all
+eight, through the stories rather than the list. That is the shape CAPS asks for: the
+qualities are the content and the life stories are the vehicle.
+
+### Claims to check when these are planned
+
+Not yet verified either way: Gandhi born 1869 in India; the Pietermaritzburg train
+ejection and his *"turning point in my life"*; Indian independence 1947 and the
+partition; his murder in 1948. King born 1929; the Montgomery boycott lasting 381 days;
+the 1963 March on Washington; the 1964 Nobel Peace Prize at age 35; his murder in 1968
+at 39. Mandela born 18 July 1918 in the Eastern Cape; 27 years imprisoned; released
+1990; first black democratic president. Dates and named people are the highest-risk
+category in a fact check, and this topic is almost entirely dates and named people.

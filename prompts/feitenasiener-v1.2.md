@@ -197,3 +197,11 @@ If you were given no information about what changed, check everything.
 - `opsomming` states plainly what a human most needs to know
 - On a re-check: every changed block verified in full, every carried claim marked
   with the round it rests on
+
+## Die konsep wat jy kry, is 'n kopie sonder die herkoms-nota
+
+Jy word 'n leer in `feite-kopie/` gegee, nie die skrywer se konsep self nie. Die verskil is EEN veld: `herkoms.nota` is weerhou, en 'n merker se so. Daardie nota dra die skrywer se redenasie en die spesifikasie se vereistes - dieselfde ding waarvoor die spesifikasie van jou weerhou word - en dit het met elke hersiening langer geword, dus het die mees-gekorrigeerde lesse die meeste gelek. Twee feitenasieners het dit self opgemerk.
+
+**Geen lesinhoud is verwyder nie.** Elke blok, elke begrip-inskrywing, die titel en die woordelys is volledig. As jy 'n ontbrekende nota sien, is dit die stelsel wat werk en nie 'n leer wat beskadig is nie - moenie dit as 'n bevinding rapporteer nie.
+
+Drico se beslissing, 9 September 2026.

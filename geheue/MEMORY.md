@@ -18,14 +18,18 @@
 - [Cross-check the term plan against CAPS](kruistoets-die-termynplan-teen-kaps.md) — all three parts of the document disagree; produce a coverage map before writing anything.
 - [Every lesson gets its own name](elke-les-kry-n-eie-naam.md) — the title is the learner's hero heading, never the CAPS label; and nothing checks a title the way it checks the text.
 - [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — Term 1 is 1-8, Term 2 starts at 9, ~30 total; the file name is his CAPS index, the title is the hero.
+- [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — the boiler's size fault came back as the cylinder's length; write down the false CONCLUSION, not the false words, and never close a mechanism finding on a keyword sweep.
 - [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — seven times in one day; always ask what the fix disturbed, not whether the finding is gone.
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
+- [Gr 4 SW: where we are](gr4-sw-waar-ons-is.md) — Kwartaal 4 nearly through its checks; Kwartaal 1-3 is 19 lessons with 30 checks outstanding and one signed off; leer-van-leiers and plaaslike-geskiedenis have nothing current and are where to start.
 - [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
 - [When the book covers fewer lessons than we write](meting-dek-minder-as-die-lesse.md) — don't divide the measurement evenly; it robs the lessons the book does cover.
+- [The reference example is never fact-checked](die-verwysingsles-word-nooit-nagegaan.md) — every writer in every subject reads it and nothing checks it; two false mechanisms found in it in one day, each already copied outward.
 - [Specs are never fact-checked](spesifikasies-word-nooit-nagegaan.md) — a false mechanism in a spec plants itself in every lesson; and the safeguard you write to fix a finding is itself an unchecked mechanism.
 - [Practical work: we teach the thinking](praktiese-werk-ons-leer-die-denke.md) — the theory a making task tests is ours; the making is not, and interactivity is the layout team's bonus.
 - [Tell the story, don't explain it](vertel-die-storie-moenie-dit-verklaar-nie.md) — cultural stories get told, not dissected; ~100 words each, and the count is set by what is verifiable.
 - [Before stopping, say what is running](voor-jy-stop-se-wat-loop.md) — report how close each agent is first; never kill a long fact check without asking.
+- [A report in the log tree can be stale](n-verslag-in-die-logboom-kan-verouderd-wees.md) — it snapshots the draft as it was when the check ran, and an escalation shows as current because it was never closed; seven of nine briefed items were already fixed.
 - [A report does not exist because the agent says so](n-verslag-bestaan-nie-omdat-die-agent-so-se.md) — copy the runner's own printed paths instead of typing them; a missing report is not proof the checker misplaced it.
 - [State that never got saved](staat-wat-nie-gestoor-word-nie.md) — the runner deleted every coverage report forever; when a step demands work already done, check the fingerprint, and suspect the harness before the agents.
 - [Ask the whole subject, not three lessons](vra-die-hele-vak-nie-drie-lesse-nie.md) — I called content new after checking a shortlist; two delivered lessons already taught it.
@@ -38,11 +42,11 @@
 - [Auto sign-off is the last step](outo-goedkeuring-is-die-laaste-stap.md) — sign a cleared lesson off in the same breath as the run that cleared it; escalations still stop.
 - [Checkers pull opposite ways on caveats](nasieners-trek-teenoorgesteld-oor-voorbehoude.md) — the fact checker demands a qualifier, coverage flags it as unrequested; keep it, and don't send it back.
 - [Term 4 budgets come from requirements](kw4-begroting-uit-vereistes.md) — the book's Term 4 could not be bounded, so ~430 a lesson from the year's own per-lesson volume; the 11 568-word profile was rejected.
-- [Untouchable words for the language checker](onaantasbare-woorde-vir-die-taalnasiener.md) - the Afrikaans check happens outside this pipeline; a ruling not written into the protected-words file gets quietly undone.
 - [A clean check is only as wide as its scope](n-skoon-toets-is-so-wyd-soos-sy-omvang.md) — I called drift zero across the subject after comparing one pair; a real sweep found eight drifted terms.
 - [The extract lost its own cross-references](die-uittreksel-het-sy-eie-kruisverwysings-verloor.md) — 39 spec-level fields never reached the writer; suspect the harness when two agents report the same absence.
 - [Don't run the runner over a working writer](moenie-die-hardloper-oor-n-werkende-skrywer-laat-loop-nie.md) — it gated a draft mid-revision; archived reports are recoverable from the log tree.
 - [The textbook comes through the search results too](die-handboek-kom-ook-deur-die-soekresultate.md) — the fact checker declined a Grade 4 PDF on its own; nothing had told it to, and now the prompt does.
+- [The provenance note leaks the spec to the fact checker](die-herkoms-nota-lek-die-spek-na-die-feitenasiener.md) — the checker never gets the spec, but a writer records the requirements inside the lesson file, and the checker reads that; not yet decided how to close it.
 - [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — three of four fixed over-claims stopped being claims; narrow the quantifier, never the subject.
 - [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went over unprotected.
 - [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — two unchecked measurements and one false claim in one day; a spec is read as settled.
@@ -50,6 +54,7 @@
 - [My searches miss, and then I believe them](my-soektogte-mis-en-dan-glo-ek-hulle.md) — three empty results reported as findings in one day; the third nearly became a false accusation.
 - [The video's lesson division wins](video-se-lesverdeling-wen.md) — where a video came first and merged two CAPS bullets, the text merges too; a merged lesson gets one lesson's budget, not two.
 - [A spec says the same thing in two fields](n-spek-se-dieselfde-ding-in-twee-velde.md) — a source fix must sweep every field that repeats the claim, not just the one the finding named.
+- [A caution must cover every sibling](n-waarskuwing-moet-elke-broer-dek.md) — the spec warned off the video’s sail simplification for two ships and then required it for the third; check every item in a parallel list, and check no requirement demands what a caution forbids.
 - [The spec and the lesson name the same field differently](die-spek-en-die-les-noem-dieselfde-veld-anders.md) — a spec's kaps_onderwerp is the topic, a lesson's is the sub-topic; nothing checks it.
 - [A lesson with a number in it goes stale](n-les-met-n-nommer-in-verouder.md) — Childline 116, checked 2 Sep 2026; re-verify at every reprint, because nothing re-checks after approval.
 - [The agreed wording can itself be wrong](die-ooreengekome-bewoording-kan-self-verkeerd-wees.md) — reconciling makes two lessons agree, not right; fact-check the agreed wording after reconciling, and sweep the prose that leaned on it.
@@ -61,3 +66,9 @@
 - [Gr 4 Creative Arts: the theory hours](skeppende-kunste-gr4-teorie-ure.md) — 8 hours of 60, divided by term; the term-by-term plan beats the overview where they clash; and the three identical appreciation hours differ by emphasis, which is our design choice and not CAPS.
 - [Repetition across subjects is good](herhaling-oor-vakke-heen-is-goed.md) — do not narrow a lesson to avoid saying what another subject says; only the agreed wording and non-contradiction bind.
 - [lees/ is an outbox, not an archive](lees-is-n-uitbak-nie-n-argief-nie.md) — Drico moves PDFs out to the language check and the HTML team; a gap there is normal, and the real copy lives beside the lesson.
+- [The teacher knows what matters beyond CAPS](die-onderwyser-weet-wat-buite-kaps-saak-maak.md) — when our rules and her judgement disagree, look for the part of CAPS our rule never read; and Gr 4 SW is a deliberate exception to the whole process.
+- [A spec too bulky to be written](n-spek-so-lywig-dat-dit-nie-geskryf-kan-word-nie.md) — 49KB of notes broke a planner's file write and cost 27 minutes; a note earns its place by changing what a writer does.
+- [Kern can contradict feiterisiko](kern-en-feiterisiko-weerspreek-mekaar.md) — and kern wins, because coverage tests against it; three writers caught this in one day.
+- [A replacement that doesn't match must fail loudly](n-ruil-wat-nie-pas-nie-moet-hard-faal.md) — three scripted spec edits did nothing and reported success in one day; assert every swap, and re-read the field, not the script's summary.
+- [A fact-risk note is not a correction](n-feiterisiko-is-nie-n-regstelling-nie.md) — amend the OPENING LINE of the field that ordered the error - an appended correction is read as commentary and skimmed; coverage tests against kern, so a half-fix fails a correct draft and the next revision reinstates the fault.
+- [Simplify the method, not the provenance](vereenvoudig-die-metode-nie-die-herkoms-nie.md) — at Grade 4, compressing HOW we know is right; saying the information lives in the wrong object is not.
