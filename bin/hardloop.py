@@ -727,10 +727,12 @@ def stap(a, uit):
                     f"Check ONLY the eli10 block of lesson {a.les}: is the comparison "
                     f"true, does the mapping hold, and where does a learner reasoning "
                     f"further with it end up?",
-                    invoer=[P.rel(les_pad)],
+                    invoer=[P.rel(P.skryf_feitekopie(les_pad))],
                     uitvoer=P.rel(eli10_pad),
                     waarskuwing="Do NOT pass the spec. Do not check the rest of the "
-                                "lesson — the full pass comes after this one.")
+                                "lesson — the full pass comes after this one. The "
+                                "draft handed over is the copy without its provenance "
+                                "note; the lesson content is complete.")
                 return 10, "WAG_VIR_ELI10_VOORKYK"
 
             sound, r = keur_verslag(eli10_pad, les_pad, None, uit, "eli10-voorkyk",
@@ -804,10 +806,15 @@ def stap(a, uit):
             uit.next_action(
                 "wolkskool-feitenasiener (agent)",
                 f"Verify every checkable claim in lesson {a.les} against sources.",
-                invoer=[P.rel(les_pad)],
+                invoer=[P.rel(P.skryf_feitekopie(les_pad))],
                 uitvoer=P.rel(feite_pad),
                 waarskuwing="Do NOT pass the spec, and do not let it read "
-                            "spesifikasies/. It must judge what the lesson says.")
+                            "spesifikasies/. It must judge what the lesson says. "
+                            "The draft handed over is the copy without its "
+                            "provenance note — that note carries the spec's "
+                            "requirements and the writer's intent, which is the "
+                            "same thing the spec is withheld for. No lesson "
+                            "content is removed.")
         return 10, "WAG_VIR_NASIENERS"
 
     # --- 5. validate the reports themselves --------------------------------

@@ -54,6 +54,23 @@ in parallel, never the same one) → approval.
 Coverage needs the spec. **The fact checker must never see it**, or it reads the
 lesson charitably.
 
+**The draft carries the intent too, so the runner strips it.** Writers record their
+reasoning in the draft's provenance note — why a sentence was cut, what a requirement
+asked for, what was deliberately left out — and they should: it is how a decision
+survives to the next revision, and several corrections have been saved by it. But the
+fact checker is handed the draft, so it read that reasoning, and the charitable-reading
+risk arrived through the back door. It grew with every revision, because each pass
+appends more — so the most-corrected lessons, the ones that most need an honest check,
+leaked the most. Two fact checkers raised it unprompted.
+
+`hardloop.py` now hands the fact checker a copy of the draft with that note removed and
+nothing else changed, in a `feite-kopie/` directory that is gitignored and regenerated
+on every run. Writers keep their full notes, coverage still sees everything, and only
+the fact checker gets the lesson alone. **Drico's decision, 9 September 2026.**
+
+Do not instead ask writers to leave requirements out of their notes. That was tried, it
+did not hold, and it asks them to lose the thing the note exists for.
+
 ## Never write lesson content by hand
 
 Route every content change through the writer agent, including single words.
