@@ -129,3 +129,47 @@ amendment goes in its **opening line** (see above), and the reasoning left below
 must not be phrased as an instruction (see above). All three failures are the same
 failure seen from different angles — the field that gives the order is the field
 that must change.
+
+## Eight times in two days, and three of them I built by appending
+
+9 September 2026. The count is worth writing down because it is the strongest
+evidence in this repository for one rule.
+
+Requirements that ordered an error their own note forbade: the pigeon, the digital
+camera, the San tenses, the television balance point, the photography closing
+sentence, the traction claim (in **three** fields), the ships' propulsion frame, and
+the broadcasting entry (twice).
+
+**Three of those I created myself, by adding a later note instead of amending the
+one that gives the order.** Each time I changed a decision, wrote a fresh note
+recording the new ruling, and left the old note standing as a live instruction:
+
+* the broadcasting entry, twice — first prescribing a radio-or-television signal,
+  then prescribing "anyone who has such a device", each of which I had already
+  overruled;
+* the rock-art duration, prescribing a positive statement of duration after I had
+  ruled the duration out entirely.
+
+A writer caught every one.
+
+**Why appending feels safe and is not.** Adding a note preserves the record, which
+is a real virtue — the reasoning and the sources have to survive. But a
+specification field is read as an *instruction*, and a reader who takes the first
+coherent instruction has taken the old one. The record and the order are different
+jobs, and only one of them can go first.
+
+**So: the order goes in the opening, the record goes below it, and the record must
+not be phrased as an instruction.** When a decision changes, the opening line
+changes in the same edit. If the history is worth keeping — it usually is — it goes
+under a marker that says plainly it has been superseded, quoting the old wording so
+nobody restores it by accident.
+
+The diagnostic that settles it: **the one Kwartaal 4 lesson that needed only two
+rounds is the one whose correction went into the requirement's opening line.** Every
+lesson that took three or four rounds had its correction appended. That is not a
+coincidence about difficulty — early writing was not an easier lesson than the
+others.
+
+Related: [[n-ruil-wat-nie-pas-nie-moet-hard-faal]] (print the fields and act on the
+whole print), [[n-spek-se-dieselfde-ding-in-twee-velde]] (one claim can sit in three
+fields — it did), [[n-verslag-in-die-logboom-kan-verouderd-wees]].
