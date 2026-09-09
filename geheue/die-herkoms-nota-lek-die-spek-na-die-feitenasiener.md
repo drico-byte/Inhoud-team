@@ -54,3 +54,34 @@ quoting of requirements to the spec, which is where a coverage checker will read
 Related: [[spesifikasies-word-nooit-nagegaan]], [[n-feiterisiko-is-nie-n-regstelling-nie]],
 [[die-textbook-kom-ook-deur-die-soekresultate]] — the same shape as that one: a boundary
 we thought was closed, leaking through a route nobody designed.
+
+## It is getting worse, and a second checker has now raised it unprompted
+
+9 September 2026. A second fact checker raised the leak on its own, in the same terms as
+the first, and added the thing that changes the picture:
+
+> The provenance note inside the lesson now carries several pages of the specification's
+> reasoning, including what a core requirement asks for. I read it before I could avoid
+> it. It did not change my findings — the rock-art finding is one the note explicitly
+> argues against — **but it is getting longer with each revision.**
+
+That last clause is why this should not keep being deferred. Every revision adds its
+reasoning to the note, so the leak **grows monotonically** with the number of times a
+lesson is corrected — and the lessons most in need of an honest fact check are exactly
+the ones that have been revised most. The mechanism gets worse precisely where it matters
+most.
+
+Two further observations from the same day, both arguing the same way:
+
+* The Kwartaal 4 lessons carry notes of around 8KB. **Ten of the nineteen Kwartaal 1-3
+  lessons have no note at all** — so the pipeline is currently inconsistent about whether
+  a fact checker sees the spec's intent, and nobody chose that.
+* The interim instruction in this note ("do not write spec requirements verbatim into a
+  provenance note") is not holding. Writers record requirements because it is how a
+  decision survives, and telling them not to is asking them to lose the thing the note
+  exists for. The instruction was the wrong shape.
+
+**Still Drico's call**, and still option 2 — have the runner strip the note from the copy
+the fact checker gets. It is the only option that lets writers keep recording their
+reasoning in full, which they should, while giving the checker the lesson alone. The
+runner already decides what each checker sees.
