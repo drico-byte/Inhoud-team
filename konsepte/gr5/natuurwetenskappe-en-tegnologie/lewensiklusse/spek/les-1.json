@@ -1,0 +1,196 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 5,
+  "kwartaal": 1,
+  "kaps_onderwerp": "Lewe en Lewende Dinge",
+  "kaps_onderwerp_nota": "KABV se Graad 5 Termyn 1 tabel dra twee kennisafdelings in een kop: 'NATUURWETENSKAPPE: LEWE EN LEWENDE DINGE' en 'TEGNOLOGIE: STRUKTURE'. Hierdie subonderwerp val heeltemal onder die eerste een. Niks hierin is Tegnologie nie: daar is geen model om te bou en geen struktuur om te ontleed nie. Die Tegnologie-helfte van die kwartaal sit by 'Geraamtes as strukture'.",
+  "kaps_subonderwerp": "Lewensiklusse",
+  "kaps_inhoudskop": "Groei en ontwikkeling",
+  "kaps_bladsy": "PDF-bladsy 39 van kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf (gedrukte bladsy 34). Die PDF loop vyf voor die gedrukte nommers.",
+  "kaps_weke": 2,
+  "kaps_ure": 7,
+  "kaps_ure_nota": "Slegs herkoms. Niks in hierdie spesifikasie is uit die weke of die ure afgelei nie. Kontakure se hoe lank 'n onderwyser aan 'n onderwerp spandeer, nie hoeveel teks 'n leerder lees nie: die 7 uur hou ook die ordening van foto's, die tekeninge en die klasgesprek in.",
+  "fokusvraag": "Hoe groei en ontwikkel 'n plant en 'n dier van hulle eerste stadium af tot waar hulle self die volgende geslag voortbring?",
+  "fokusvraag_nota": "Deur die beplanner gestel, nie aangehaal nie. KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag soos Sosiale Wetenskappe nie. Die vraag kom uit twee plekke in KABV self: die inhoudskop 'Groei en ontwikkeling' en die kwartaal se assesseringsriglyn 'toon die fases en prosesse in die lewensiklus van 'n plant en 'n dier aan'. Daardie riglyn is die rede waarom die vraag albei helftes noem - 'n plant EN 'n dier - en waarom nie een van die twee weggelaat mag word nie.",
+  "profiel_konfig": "gr5-nwt-profiel.json",
+  "profiel_konfig_nota": "Die konfigurasie dra GEEN meting nie. Dit is met die hand geskryf sodat hardloop.py die subonderwerpe kan opspoor, en elke veld vir 'Lewensiklusse' staan op 0, wat daar ONGEMEET beteken. Dit is 'n besluit, nie 'n agterstand nie. Die konfigurasie is hier gebruik vir die subonderwerp se naam en vir die registerbesluit, nie vir 'n getal nie.",
+  "onderwerp_woorde": 530,
+  "onderwerp_woorde_nota": "DIT IS NIE 'N METING NIE. Geen handboek is vir Graad 5 geprofileer nie. Die veld is verpligtend in skema 1.0 en moet 'n getal dra, dus staan die enigste les se begroting hier. Moenie dit as gemete handboekvolume aanhaal of iets daaruit herlei nie; spec_check.py behandel dit onder die 'vereistes'-basis ook nie as die anker nie.",
+  "totale_begroting": 530,
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "Die begroting kom uit die aantal dinge wat KABV hier vereis, nie uit gemete handboekvolume nie, en dit is die basis vir die hele Graad 5-jaar. Twee redes, albei Drico se bevindings van 9 September 2026. (1) Lesse is werklik verskillende lengtes: hy het 'n les van 140 woorde en een van 525 in dieselfde Graad 5-handboek getel. 'n Gemete basis deel EEN getal eweredig en laat enige les faal wat van die gemiddeld verskil, wat juis die eenvormigheid is wat die wye band 300-550 moet breek. (2) Die meting self is opgeblaas: profiler.py tel elke woord op 'n bladsy - aktiwiteitsblokkies, vraagpanele, byskrifte, opskrifte - en ons lesse bevat niks daarvan nie (aktiwiteite behoort aan die uitlegspan), dus sou so 'n begroting 'n hele bladsy se woorde as suiwer prosa vra. Geen Graad 5-handboek is dus geprofileer nie, en dit is 'n besluit. Kontakure is ook nie 'n basis nie; die 7 uur hierbo dra niks by nie. Hierdie subonderwerp is boonop een enkele les, dus is daar niks om eweredig te verdeel nie: die getal in 'begrotingsnota' by die les is 'n optelling van wat gese moet word.",
+  "verdeling_nota": "EEN les. Die verdeling is nie hier afgelei nie: Drico het die hele Graad 5-splitsing beslis en die orkestreerder het dit teen KABV nagegaan. KABV se tabel gee hierdie subonderwerp een inhoudskop, 'Groei en ontwikkeling', met vyf bulletpunte wat almal een saak dien - die lewensiklus - en 'n aktiwiteitskolom wat die plant- en diersiklus langs mekaar vra. Die skeurreel van beplanner-v1.2 stap 2 is nagegaan en gee dieselfde antwoord: 'n skeur langs die naat plant/dier sou twee lesse maak wat elkeen die helfte van een assesseringsriglyn dra, en die riglyn vra hulle uitdruklik saam ('die lewensiklus van 'n plant EN 'n dier'). Die les is dus termdig en nie geskeur nie. Jaarnommer 9 van 29, die laaste les van Termyn 1; lesnommers loop deur die jaar, nie per kwartaal nie.",
+  "gedeelde_omskrywings": {
+    "lys_vir_hierdie_vak_graad": "kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json",
+    "status": "Doelbewus leeg, en dit bly leeg. Terme word ooreengekom nadat al 29 lesse geskryf is, want die konsepte wys self watter terme herhaal. Hierdie spesifikasie voorspel niks daarheen nie.",
+    "graad_4_oorvleueling": "Graad 4 se lys (kaps/gedeelde-omskrywings.json, 25 terme) bind Graad 5 nie - dit word op vak EN graad opgesoek - maar 'n Graad 5-leerder het Graad 4 deurloop. Een botsing bestaan werklik hier, en dit verander wat die skrywer doen: 'lewensprosesse' is in Graad 4 ooreengekom as 'Die sewe dinge wat saam wys dat iets lewe' (lesse 1, 2 en 18). KABV gebruik in HIERDIE punt die woord 'prosesse' vir iets heeltemal anders - ontkieming, bestuiwing, paring, die verspreiding van saad. Die les mag daardie siklusprosesse dus NOOIT 'lewensprosesse' noem nie. Gebruik KABV se eie woord, 'prosesse', of 'die prosesse in die lewensiklus'. Geen ander Graad 4-term raak hierdie les nie."
+  },
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument self (06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf), deur die beplanner gelees: die volledige Graad 5 Termyn 1 inhoudstabel oor PDF-bladsye 36-39 met sy assesseringsriglyne, wat die inhoudskolom, die aktiwiteitskolom en die notas van hierdie subonderwerp insluit. Verder die profielkonfigurasie gr5-nwt-profiel.json (wat geen meting dra nie), die Graad 4-lys van ooreengekome bewoordings vir die oorvleuelingstoets, en die opdrag se lesverdeling wat van Drico kom.",
+    "geen_handboek": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitvoer, foto of beskrywing van 'n handboek se indeling het enige deel van hierdie verdeling of hierdie inhoud ingelig, en niks is aangebied nie. Geen Graad 5-handboek is geprofileer nie, dus bestaan daar nie eens 'n getal wat 'n handboek se indeling kon weerspieel nie.",
+    "geen_vrae": "Lesse dra nie onthouvrae nie. Geen 'vraag'-blok. Waar 'n bewering bewys nodig het, staan die bewys in die studieteks: hier is dit die stadiums wat 'n leerder self op 'n foto of in 'n tuin kan uitken."
+  },
+  "grense": {
+    "hoekom_hierdie_afdeling_bestaan": "Hierdie punt raak aan vier ander onderwerpe - Graad 4 se lewende dinge, Graad 5 se voedselkettings en dieregeraamtes in dieselfde kwartaal, en Graad 6 se fotosintese - en aan een onderwerp (voortplanting) waar 'n bietjie te ver 'n groot probleem is. Al die grense hieronder kom uit KABV self.",
+    "buite_bestek": [
+      "GEDAANTEVERWISSELING. KABV vra hier uitdruklik 'n GEWERWELDE dier, en sy drie stadiumname is baba, jong dier en volwassene. 'n Skoenlapper of 'n kewer se siklus is die algemeenste keuse in enige boek en is hier verkeerd: dit is 'n ongewerwelde dier, en KABV noem die insek se stadiums nerens in hierdie punt nie. Moenie die woorde metamorfose of gedaanteverwisseling gebruik nie en moenie 'n larwe of 'n papie noem nie.",
+      "FOTOSINTESE, en die woord self. KABV plaas dit in Graad 6 Termyn 1. Die plant se siklus word hier as stadiums en prosesse vertel; hoe die blaar kos maak, hoort nie hier nie.",
+      "DIE SEWE LEWENSPROSESSE. Dit is Graad 4 se onderwerp 'Lewende en nie-lewende dinge' en dit is al geskryf. Groei en voortplanting is twee van daardie sewe, dus is die versoeking regtig daar. Hierdie les onderrig hulle nie as 'n lys nie en gebruik nie die woord lewensprosesse nie.",
+      "VOORTPLANTING VERDER AS KABV. KABV se hele eis is: een geslag gee deur voortplanting aanleiding tot die volgende, plus die name paring en die produksie van eiers en babas. Niks verder nie - geen bevrugting, geen geslagsdele of geslagselle, geen dragtye, geen paringsgedrag of hofmakery, geen menslike voortplanting.",
+      "WAT 'N PLANT NODIG HET OM TE GROEI, as behandeling. KABV noem 'ontkiem' as 'n proses in die siklus, dus word gese DAT die saad ontkiem en wat dan gebeur. Een kort bysin oor water en warmte is toegelaat; 'n behandeling van die kondisies vir groei is 'n ander onderwerp.",
+      "ERFLIKHEID. Waarom 'n kleintjie soos sy ouers lyk, staan nerens in hierdie punt nie en is 'n later graad se werk.",
+      "HABITATTE EN VOEDSELKETTINGS. Twee ander subonderwerpe van dieselfde kwartaal. Wat 'n dier eet en waar hy woon, is nie hierdie les se werk nie, selfs waar dit natuurlik voel om dit by die kleintjies te noem.",
+      "DIEREGERAAMTES. Ook dieselfde kwartaal. 'Gewerwelde dier' word hier as die soort dier gebruik wat KABV vra; die les onderrig nie weer wat 'n geraamte is of watter bene daarin sit nie."
+    ]
+  },
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "woorde_per_sin": "11,0 tot 14,5",
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "kommas_per_sin_maks": 0.35,
+      "pct_woorde_oor_10_letters_riglyn": 3.0
+    },
+    "geen_eie_steekproef": "Die profielkonfigurasie meet niks vir Graad 5 nie en se dit self: die 4-6 band is EEN ry en is gemeet (uit 'n Graad 4-handboek), dus geld dit hier sonder om iets by te voeg. Of Graad 5 anders BEHOORT te lees as Graad 4, is 'n oop vraag vir Drico en nie 'n gaping in hierdie spesifikasie nie.",
+    "die_las": "Hierdie is die termdigste les van die kwartaal. Die onvermydelike lang woorde is lewensiklus (11 letters, 4 sillabes), lewensiklusse (13), voortplanting (13, 4), bestuiwing (10, 3), ontkieming (10, 3), gewerwelde (10, 4), volwassene (10, 4). Die kort terme is goedkoop: saad (4), saailing (8, 2), blom (4), vrug (4), paring (6, 2), stuifmeel (9, 2), baba (4), wyfie (5, 2), mannetjie (9, 3).",
+    "die_rekenkunde": "By 530 woorde is die riglyn vir woorde oor tien letters ongeveer 16 voorkomste. Lewensiklus alleen sal ses tot agt keer voorkom, want dit is die les se hele saak, en voortplanting twee tot drie keer. Dit laat min ruimte vir enigiets anders oor.",
+    "doen": [
+      "Skryf 'verspreiding van saad', wat KABV se eie frase is, en NIE 'saadverspreiding' nie. Die samestelling is 16 letters en 5 sillabes en kos meer as die drie kort woorde saam.",
+      "Noem 'lewensiklus' waar dit genoem moet word, en gebruik daarna 'die siklus' in die lopende sinne. Dit is 'n verkorting van dieselfde term, nie 'n tweede woord daarvoor nie.",
+      "Hou die sinne rondom 'n lang term kort en alledaags. Die sillabegemiddeld word deur die bure gered, nie deur die term nie."
+    ],
+    "moenie": [
+      "Moenie 'kringloop', 'lewenskring' of enige ander woord vir dieselfde ding invoer nie, ook nie in die titel nie. Een woord vir een ding: KABV s'n is lewensiklus.",
+      "Moenie 'gewerweldes' as selfstandige naamwoord gebruik nie. Skryf 'gewerwelde dier', of daarna 'die dier'.",
+      "Moenie 'ontwikkelingstadiums', 'voortplantingsproses' of enige ander samestelling bou waar twee kort woorde werk nie."
+    ],
+    "begrippe": "Ongeveer sewe tot nege inskrywings: lewensiklus, saailing, ontkieming, bestuiwing, stuifmeel, volwasse, paring, voortplanting, gewerwelde dier. Dit is 'n riglyn en nie 'n teiken nie. Woordelys-inskrywings is steierwerk en tel nie teen die begroting nie, dus is dit die goedkoop plek om die terme te dra."
+  },
+  "vak_gedeelde_omskrywings": {
+    "nota": null,
+    "terme": {
+      "geraamte": "Die dele wat 'n dier se lyf ophou en sy sagte dele beskerm.",
+      "gewrig": "Die plek waar twee of meer bene bymekaar kom.",
+      "buigbaar": "Materiaal wat in dun drade getrek kan word sonder om te breek."
+    }
+  },
+  "vorige_graad_omskrywings": {
+    "graad": 4,
+    "hoe_om_dit_te_lees": "Hierdie is Graad 4 se ooreengekome bewoordings, wat REEDS AFGELEWER is. Hulle BIND hierdie graad NIE. Hulle is hier sodat jy 'n botsing kan RAAKSIEN: 'n leerder in Graad 5 het Graad 4 deurloop, en twee omskrywings van een woord leer twee verskillende dinge. Waar jou graad se eie lys (hierbo) 'n term het, WEN daardie een altyd. Waar dit stilbly en jy gaan van hierdie bewoording verskil, se dit in die spek sodat 'n mens kan beslis - moenie stilweg 'n tweede betekenis skep nie.",
+    "terme": {
+      "asemhaling": "Om suurstof uit die lug te gebruik om energie uit jou kos te kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "geraamte": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou.",
+      "habitat": "Die plek waar 'n plant of 'n dier lewe.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "kondenseer": "Wanneer 'n gas afkoel en weer in 'n vloeistof verander.",
+      "lewensprosesse": "Die sewe dinge wat saam wys dat iets lewe.",
+      "materiaal": "Die goed waarvan iets gemaak is",
+      "onverwerkte materiaal": "Materiaal wat mense net so in die natuur kry.",
+      "raamstruktuur": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "ru-olie": "Meestal 'n dik donker vloeistof wat onder die grond opgepomp word.",
+      "smelt": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "struktuur": "Iets wat gebou of gevorm is, sy vorm hou en gewig dra of iets beskerm.",
+      "stut": "'n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
+      "trommelvlies": "'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+      "verdamp": "Wanneer 'n vloeistof in 'n gas verander. Dit gebeur vinniger wanneer die vloeistof warmer is.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "vries": "Wanneer 'n vloeistof afkoel en in 'n vaste stof verander.",
+      "waterdamp": "Water in die vorm van 'n gas wat niemand kan sien nie.",
+      "kieme": "Baie klein lewende dinge wat 'n mens siek kan maak."
+    }
+  },
+  "nommer": 1,
+  "jaarnommer": 9,
+  "jaarnommer_nota": "Les 9 van 29 vir die jaar, en die laaste les van Termyn 1. Lesnommers loop deur die hele jaar, nie per kwartaal nie. Sy KABV-etiket is 'Groei en ontwikkeling'; dit is nie die les se titel nie.",
+  "titel": "Elke lewe begin weer van voor af",
+  "titel_nota": "Werktitel. Die skrywer gee die les sy eie naam - die leerder se opskrif, nie die KABV-etiket nie. Die titel is gekies omdat dit die een ding se wat 'n siklus van 'n ry stadiums onderskei: dit maak toe en begin weer. Die skrywer mag dit verbeter, maar mag NIE 'n tweede woord vir lewensiklus in die titel invoer nie (geen 'kringloop', geen 'lewenskring'), en die titel mag nie 'n bewering maak wat die les nie dra nie.",
+  "kaps_punt": "Groei en ontwikkeling: plante en diere groei en ontwikkel regdeur hulle lewens; 'n lewensiklus beskryf die fases en prosesse wat plaasvind as 'n plant of dier groei en ontwikkel; 'n lewensiklus beskryf hoe een geslag van 'n plant of dier aanleiding gee tot die volgende generasie deur voortplanting; dood kan op enige stadium van die lewensiklus plaasvind; baie diere sorg vir hul kleintjies sodat hulle kan groei en ontwikkel",
+  "kaps_punt_nota": "Die vyf bulletpunte hierbo is die inhoudskolom, aangehaal soos hulle staan. Twee ander plekke in KABV bind hierdie les net so hard en staan nie in daardie kolom nie. (1) Die AKTIWITEITSKOLOM dra die stadiumname en die prosesname, en dit is die enigste plek waar KABV hulle noem: vir 'n plant 'saad, saailinge, volwasse plant, blomplant, vrugvorming plant' met die prosesse 'ontkiem, groei, volwasse wording, blom, bestuiwing en die verspreiding van saad', en vir 'n gewerwelde dier 'baba, jong dier, volwassenes (manlik en vroulik)' met die prosesse 'groei, volwasse wording, paring, die produksie van eiers en babas'. (2) Die kwartaal se ASSESSERINGSRIGLYN vra dat 'n leerder 'die fases en prosesse in die lewensiklus van 'n plant en 'n dier aan[toon]'. 'n Lesing van die inhoudskolom alleen sou albei siklusse opsioneel maak; hulle is verpligtend, en al hierdie name is die vereiste woordeskat.",
+  "begroting": 530,
+  "begrotingsnota": "530 woorde, opgetel uit wat gese moet word, nie uit 'n meting nie en nie uit die 7 kontakure nie. Die optelling: die opening (dat groei en ontwikkeling regdeur die lewe loop, plus wat 'n lewensiklus is) 65; die plantsiklus 185, naamlik vyf stadiums teen ongeveer 25 woorde elk plus bestuiwing 30 en die verspreiding van saad 30, want daardie twee prosesse moet verduidelik word en die ander vier ry saam met die stadiums; die diersiklus 130, naamlik drie stadiums teen ongeveer 25 elk plus paring 25 en die eiers-of-babas 30; die siklus wat toemaak na die volgende geslag 40; die dood op enige stadium 35; die sorg vir kleintjies 50; verbindende sinne 25. Dit is die hoogste getal in die kwartaal en dit is die punt: hierdie een les dra TWEE verpligte siklusse, elk met sy eie stel name, terwyl sy bure een saak elk dra. LET WEL dat lesse in Graad 5 doelbewus nie almal ewe lank is nie. Die plafon is nagegaan: 530 le 20 woorde binne die Graad 5-plafon van 550, dus is geen plafon_uitsondering nodig nie en is nie een geskryf nie. Die hek meet die les teen 530 met plus-minus 15%, dus 451 tot 610. Die hek se stukkiegids is 3 tot 10 blokke en 30 tot 110 woorde per blok, dus is ses tot agt studieblokke die natuurlike vorm: opening, drie tot vier oor die plant, twee oor die dier, en dan die dood en die sorg.",
+  "kern": [
+    "Dat plante en diere regdeur hulle lewe groei en ontwikkel, en nie net in die begin nie. Die twee woorde beteken nie dieselfde nie en die les moet die verskil wys: groei is groter word, ontwikkel is verander sodat die liggaam nuwe dinge kan doen.",
+    "Wat 'n lewensiklus is: dit beskryf die stadiums waardeur 'n plant of 'n dier gaan en die prosesse wat by elke stadium plaasvind terwyl hy groei en ontwikkel. KABV se woord in die inhoudskolom is 'fases'; 'stadiums' is die woord wat sy eie aktiwiteitskolom gebruik en is die verstaanbaarder een. Moenie hierdie siklusprosesse 'lewensprosesse' noem nie - sien 'gedeelde_omskrywings' op die boonste vlak.",
+    "Die stadiums van 'n plant se lewensiklus, elkeen by KABV se eie naam en elkeen verpligtend: die SAAD, die SAAILING, die VOLWASSE PLANT, die PLANT MET BLOMME, en die PLANT WAT VRUGTE DRA. Die les volg doelbewus 'n plant wat blomme dra, want dit is die soort plant wat hierdie vyf stadiums het en KABV se name beskryf dit. Se dus een keer dat nie elke plant blomme en vrugte het nie, sodat die les nerens beweer dat elke plant hierdie vyf stadiums deurloop nie.",
+    "Die prosesse in die plant se siklus, by KABV se eie name en almal verpligtend: ONTKIEMING, GROEI, VOLWASSE WORDING, BLOM, BESTUIWING en die VERSPREIDING VAN SAAD. Vier daarvan ry saam met die stadiums en kos net hulle naam op die regte plek. Twee moet kortliks verduidelik word, want 'n leerder kan hulle nie uit die naam aflei nie: bestuiwing (stuifmeel wat van een blom af by 'n ander een kom) en die verspreiding van saad (hoe die saad van die moederplant af wegkom na 'n plek waar dit kan groei).",
+    "Die stadiums van 'n gewerwelde dier se lewensiklus, by KABV se eie name en almal verpligtend: die BABA, die JONG DIER, en die VOLWASSENE, wat 'n mannetjie of 'n wyfie is. KABV skryf 'volwassenes (manlik en vroulik)' uitdruklik, dus is die mannetjie-en-wyfie deel van hierdie item en nie 'n ekstra nie.",
+    "Die prosesse in die dier se siklus, by KABV se eie name en almal verpligtend: GROEI, VOLWASSE WORDING, PARING, en die PRODUKSIE VAN EIERS EN BABAS. KABV noem albei uitkomste, dus moet die les se dat sommige gewerwelde diere eiers le en dat by ander die kleintjies lewend gebore word. Paring word by die naam genoem as die ding wat 'n mannetjie en 'n wyfie saam doen sodat daar kleintjies kan kom, en verder gaan die les nie; sien 'grense'.",
+    "Dat die siklus toemaak: een geslag gee aanleiding tot die volgende geslag, en daarom begin die siklus weer van voor af. DIE WOORD IS 'reproduseer', NIE 'voortplanting' NIE. Graad 4 se afgelewerde les 'Lewende en nie-lewende dinge' gebruik 'reproduseer' vier keer en gee dit 'n woordelysinskrywing ('Om nuwe lewende dinge van jou eie soort te maak'); 'voortplanting' kom nerens in afgelewerde Graad 4-werk voor nie. KABV gebruik 'voortplanting' op hierdie bladsy, maar 'n derde woord vir dieselfde ding is erger as enige van die twee. Nagegaan 9 September 2026. DEKKING WORD TEEN DIE IDEE GETOETS, NIE TEEN KABV SE WOORD NIE: 'n konsep wat die saak volledig stel sonder om 'voortplanting' te gebruik, het hierdie item GEDEK. Dit moet vir albei siklusse geld.",
+    "Dat die dood op ENIGE stadium van die lewensiklus kan plaasvind, en nie net aan die einde nie. KABV noem dit uitdruklik as een van die vyf bulletpunte, dus is dit verpligtend en word dit nie stilweg weggelaat omdat dit ongemaklik is vir 'n tienjarige nie. Stel dit reguit, kalm en kort, met konkrete voorbeelde uit die les se eie siklusse (nie elke saad ontkiem nie; 'n saailing kan opgevreet word; 'n jong dier haal nie altyd volwassenheid nie), en bly daarby staan sonder om verder daaroor uit te wei.",
+    "Dat BAIE diere vir hulle kleintjies sorg sodat hulle kan groei en ontwikkel, met een of twee konkrete voorbeelde van wat daardie sorg is (kos aandra, warm hou, beskerm, leer). Die woord BAIE is KABV s'n en dra die item: dit is nie alle diere nie."
+  ],
+  "kern_nota": "Nege inskrywings vir 530 woorde, ongeveer 59 elk - maar hulle is nie ewe swaar nie. Inskrywings 3 tot 6 dra saam agtien name wat KABV self noem, en elke een van daardie name is verpligtend. Die dekkingsnasiener moet elke naam apart soek. 'n Naam wat as 'n stadium of 'n proses in 'n sin voorkom ('uit die saad kom 'n saailing') tel as gedek; 'n naam wat net in die woordelys staan, tel nie.",
+  "dieptegrens": {
+    "reel": "Noem elke stadium en elke proses, en se wat by elkeen gebeur. Verduidelik nie die meganisme daaragter nie.",
+    "die_plant": "Die saad ontkiem - se dat dit gebeur en wat daarna kom, nie hoe 'n saad van binne werk nie. Dat die blare met sonlig kos vir die plant maak, is nie eens nodig hier; as dit genoem word, is dit een sin en die woord fotosintese kom nie voor nie.",
+    "die_dier": "Paring is die naam van wat 'n mannetjie en 'n wyfie saam doen sodat daar kleintjies kan kom. Dit is die hele diepte. Wat daarna binne die liggaam gebeur, is nie hierdie graad se werk nie.",
+    "verbode": [
+      "die woorde fotosintese, metamorfose en gedaanteverwisseling",
+      "bevrugting, geslagselle, geslagsdele, dragtyd, broeityd as proses",
+      "'n larwe of 'n papie, of enige insek se siklus as die dier se siklus",
+      "erflikheid, of waarom 'n kleintjie soos sy ouers lyk"
+    ]
+  },
+  "verpligte_heging": {
+    "wat": "Drie plekke waar 'n plat sin die les onwaar maak, en al drie kos minder as tien woorde om reg te stel.",
+    "die_plant": "Nie elke plant het blomme, vrugte en sade nie - 'n varing en 'n mos het nie een van die drie nie. Die les volg 'n plant wat blomme dra en moet dit een keer se. Die valse kontras om te vermy: die vyf stadiums plat stel asof elke plant hulle deurloop, en dan elders 'sommige plante' skryf.",
+    "die_dier": "Sommige gewerwelde diere le eiers en by ander word die kleintjies lewend gebore. Moenie een van die twee as die reel stel en die ander as die uitsondering nie, want KABV noem albei uitkomste in dieselfde asem ('die produksie van eiers en babas').",
+    "die_sorg": "BAIE diere sorg vir hulle kleintjies. Nie alle diere nie. Dit is KABV se eie woord en dit is ook waar: baie visse en baie reptiele sorg glad nie. Die sin mag nooit 'diere sorg vir hulle kleintjies' word nie - sonder die kwantifiseerder is dit 'n bewering oor almal.",
+    "hoe_om_te_heg": "Vernou die kwantifiseerder, nooit die onderwerp nie. 'Baie diere sorg vir hulle kleintjies' is die regstelling; 'diere sorg soms vir hulle kleintjies' is 'n ander en swakker sin, en 'n sin wat ophou om enigiets te beweer is nie 'n regstelling nie."
+  },
+  "feiterisiko": [
+    "Elke naam wat KABV noem, is verpligtend, en 'n naam wat weggelaat word omdat die sin sonder hom vloei, is 'n dekkingsfout. Agtien name: saad, saailing, volwasse plant, plant met blomme, plant wat vrugte dra, ontkieming, groei, volwasse wording, blom, bestuiwing, verspreiding van saad, baba, jong dier, volwassene (mannetjie en wyfie), groei, volwasse wording, paring, produksie van eiers en babas.",
+    "Bestuiwing word nie net deur bye gedoen nie. Wind, voels, vlermuise en ander insekte bestuif ook, en baie plante word deur wind bestuif. Skryf nie 'blomme word deur bye bestuif' nie; noem 'n by as 'n voorbeeld en laat die sin oop.",
+    "Die verspreiding van saad gebeur ook op meer as een manier - wind, water, diere wat die vrug eet, die plant wat sy peule oopklap. Een of twee voorbeelde is genoeg; moenie een manier as die manier stel nie.",
+    "'n Saailing is nie 'n klein volwasse plant nie; dit is die jong plant wat pas uit die saad gekom het. Die omskrywing moet alleen kan staan - 'n woordelysinskrywing word gelees met die res van die les weggevat, en moet dan nog steeds net op 'n saailing pas.",
+    "Die dier moet 'n GEWERWELDE dier wees; KABV skryf dit uitdruklik. Kies een waarvan die stadiums op KABV se drie name pas (baba, jong dier, volwassene). 'n Padda is 'n gewerwelde dier, maar sy stadiums dra hulle eie name en pas nie op KABV se drie nie, dus kos hy woorde en trek hy die les na gedaanteverwisseling toe.",
+    "Moenie 'n bewering oor alle soogdiere, alle voels of alle diere van 'n klas maak nie. Byvoorbeeld: nie alle soogdiere baar lewende kleintjies nie - die eierlaende mierevreter en die eendbekdier le eiers. Praat oor die dier wat die les noem, of heg met 'baie' of 'die meeste'.",
+    "Die volwassene as mannetjie of wyfie is KABV se stelling en is reg vir die gewerwelde diere wat hierdie les noem. Hou dit by die diere wat die les noem; moenie dit as 'n reel oor alle lewende dinge stel nie, want dit is nie een nie.",
+    "Groei en ontwikkeling is nie sinonieme nie, en die eerste kern-inskrywing hang daarvan af. As die les die twee woorde deurmekaar gebruik, dek dit die eerste bulletpunt nie.",
+    "Die dood-item moet die woord 'enige' dra. 'Alles gaan eendag dood' is 'n ander stelling en dek KABV se punt nie: die punt is dat dit op enige STADIUM kan gebeur, ook by die saad en by die baba."
+  ],
+  "aanvulling": [],
+  "aanvulling_nota": "Leeg, en dit is 'n besluit. Alles wat hierdie les vra, staan in KABV - in die inhoudskolom, in die aktiwiteitskolom of in die kwartaal se assesseringsriglyn. Die keuse van 'n voorbeeldplant en 'n voorbeelddier is nie aanvulling nie: KABV vra 'n plant en 'n gewerwelde dier sonder om te se watter, dus is die voorbeeld die voertuig vir 'n kern-item en nie inhoud daarbo nie. Daar is hier geen persoon, geen deurbraak en geen kleur wat 'n aanvulling-inskrywing sou regverdig nie, en die begroting het ook geen ruimte daarvoor nie.",
+  "moeilike_konsepte": [],
+  "moeilike_konsepte_nota": "Doelbewus leeg. Die toets is nie of 'n konsep moeilik is nie, maar of daar enige manier is om dit konkreet te stel wat 'n tienjarige kan sien. Elke ding in hierdie les kan gesien word: 'n saad wat oopbars, 'n saailing met sy eerste blaartjies, 'n blom wat 'n vrug word, stuifmeel aan 'n by se lyf, 'n voel wat kos vir sy kuikens aandra. Die siklus wat toemaak is die abstrakste ding hier, en dit word konkreet gestel deur die saad in die vrug: dieselfde soort saad waarmee die les begin het. 'n Eli10-blok sou die studieteks in korter woorde herhaal, wat daardie laag se algemeenste faling is, en die video wat na hierdie teks gemaak word, is presies die plek vir die tydsverloop wat 'n teks nie kan wys nie. Die spesifikasie-nasiener sal waarsku dat geen konsep gevlag is nie; hierdie nota is die antwoord op daardie waarskuwing.",
+  "termdig": true,
+  "termdig_nota": "Waar, en dit is die termdigste les van die kwartaal. KABV noem agtien name in een punt, waarvan ongeveer nege regte vakterme is wat 'n tienjarige nie besit nie. Sien 'registerbesluit' vir die syfers en vir die woorde om te vermy. Die woordelys is die goedkoop plek om die las te dra, want dit tel nie teen die begroting nie.",
+  "fokusvraag_skakel": "Lewer die hele fokusvraag, want die subonderwerp is een les: die plant se siklus van saad tot saad, die gewerwelde dier se siklus van baba tot volwassene wat self kleintjies het, en die feit dat elke siklus deur voortplanting toemaak. Die vraag is doelbewus so eng gestel as wat hierdie een les kan dra - dit vra hoe 'n plant en 'n dier groei en ontwikkel tot by die volgende geslag, en nie waarom lewe op Aarde voortgaan of hoe spesies verander nie. Die dekkingsnasiener moet die konsep teen hierdie sin toets en teen niks wyer nie.",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "gedeelde_omskrywings",
+    "graad",
+    "grense",
+    "herkoms",
+    "kaps_bladsy",
+    "kaps_inhoudskop",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kaps_weke",
+    "kwartaal",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "profiel_konfig_nota",
+    "registerbesluit",
+    "skema_weergawe",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota"
+  ]
+}

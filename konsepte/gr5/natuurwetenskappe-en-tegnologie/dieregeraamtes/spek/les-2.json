@@ -1,0 +1,171 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 5,
+  "kwartaal": 1,
+  "kaps_onderwerp": "Lewe en Lewende Dinge (Tegnologie: Strukture)",
+  "kaps_subonderwerp": "Dieregeraamtes",
+  "kaps_weke": 1.5,
+  "kaps_ure": 5.25,
+  "kaps_ure_nota": "Slegs herkoms. Niks in hierdie spesifikasie is uit die weke of die ure afgelei nie. Kontakure se hoe lank 'n onderwyser aan 'n onderwerp spandeer, nie hoeveel teks 'n leerder lees nie; die tyd hier hou boonop KABV se soek-na-voorbeelde-aktiwiteit en sy beskryf-aktiwiteit in.",
+  "fokusvraag": "Waaruit bestaan 'n werweldier se geraamte, en hoe laat dit hom beweeg?",
+  "fokusvraag_nota": "Deur die beplanner gestel, nie aangehaal nie. KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag soos Sosiale Wetenskappe nie. Die vraag kom uit die subonderwerp se twee eie inhoudsopskrifte (Geraamtes van werweldiere en Beweging) saam met die kwartaal se assesseringsriglyn: identifiseer en beskryf verskillende bene en hul funksies in 'n gewerwelde skelet. Die vraag het twee helftes en elke les dra presies een.",
+  "profiel_konfig": "gr5-nwt-profiel.json",
+  "profiel_konfig_nota": "Die konfigurasie is met die hand geskryf sodat hardloop.py die subonderwerpe kan opspoor. Dit dra GEEN meting nie: elke veld vir Dieregeraamtes staan op 0, en 0 beteken daar ONGEMEET, nie dat die boek dit nie dek nie. Daar is dus ook geen register-steekproef uit 'n graad 5-bron nie.",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "0 beteken ONGEMEET. Geen graad 5-handboek is geprofileer nie, en dit is 'n besluit, nie 'n agterstand nie. Die veld is verpligtend in skema 1.0, dus staan die eerlike getal hier met hierdie nota daarby. Onder die vereistes-basis is hierdie veld nie die anker nie en word dit nie met die som van die begrotings vergelyk nie; 'n som wat hier ingeskryf word, sou 'n afgeleide getal as 'n meting laat lees.",
+  "totale_begroting": 830,
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "Nie uit gemete handboekvolume nie, en nie uit KABV se 5 1/4 kontakure nie. Twee redes, albei Drico se bevindings van 9 September 2026. (1) Daar is niks om te verdeel nie: geen graad 5-handboek is geprofileer nie. (2) Selfs as een geprofileer was, is die getal opgeblaas - profiler.py tel ELKE woord op 'n bladsy, insluitend aktiwiteitsblokkies, vraagpanele, byskrifte en opskrifte. Ons lesse bevat niks daarvan nie, want aktiwiteite behoort aan die uitlegspan, dus vra 'n begroting wat so afgelei is vir 'n hele bladsy se woorde as suiwer prosa. Drico het 'n graad 5-handboek met die hand nagetel en 'n les van 140 woorde en een van 525 in dieselfde boek gekry. Lesse is dus werklik verskillende lengtes, en 'n gemete basis deel een getal EWEREDIG en laat enige les wat van die gemiddeld verskil faal - juis die eendersheid wat die wye graad 5-band van 300 tot 550 bestaan om te breek. Elke les kry dus sy eie getal uit die aantal dinge wat dit moet leer, met 'n begrotingsnota by elkeen. Hier: les 4 het tien kern-vereistes en vyf benoemde liggaamsdele elk met sy eie taak; les 5 het vyf vereistes en KABV sluit sy twee diepste besonderhede uitdruklik uit. Die vloer bly 300 en nie 140 nie, want 'n dun handboekbladsy is gewoonlik een waar 'n foto die helfte van die onderrig doen, en ons teks is wat 'n leerder alleen mee hersien.",
+  "lesnommer_nota": "Die veld nommer hieronder is die volgorde BINNE hierdie subonderwerp (1 en 2), want die validator vereis 1..n in volgorde. Drico se lesnommers loop deurlopend deur die graad 5-jaar van 29 lesse en staan in jaarnommer: hierdie twee is les 4 en les 5 van die jaar.",
+  "verdeling_nota": "Twee lesse, een per KABV-inhoudsopskrif binne die subonderwerp: Geraamtes van werweldiere en Beweging. Die verdeling is deur Drico beslis en teen KABV nagegaan voordat hierdie spesifikasie geskryf is; die beplanner het dit nie herlei nie. Dit val toevallig presies saam met beplanner-v1.2 se verstekreel van een les per KABV-punt, en geen skeur- of saamvoegreel is toegepas nie. Die naat tussen die twee is skoon: les 4 se WATTER bene daar is en WAARVOOR hulle is, insluitend KABV se eie skouerblaaie, arms, bene, heupbene - vir beweging, wat KABV self onder die geraamte-punt sit; les 5 se HOE die beweging gebeur, met spiere en gewrigte.",
+  "verhouding_tot_beplanner_prompt": "beplanner-v1.2 se stap 3 se: begroting = round(onderwerp_woorde / lesson_count), eweredig verdeel. Die inhoudstandaard se afdeling Grade 5: requirement-based, not measured oorheers dit vir graad 5, en die standaard wen waar die twee verskil. Stap 3 van die prompt is dus doelbewus nie gevolg nie. Alles anders in die prompt is gevolg.",
+  "grense": {
+    "hoekom_hierdie_afdeling_bestaan": "Hierdie subonderwerp het 'n buurman voor hom en 'n buurman na hom wat albei oor byna dieselfde woorde gaan, en KABV sit self 'n uitsluiting in 'n voetnoot. Sonder hierdie afdeling betaal les 4 twee keer vir inhoud wat elders hoort.",
+    "wat_les_3_reeds_gedoen_het": "Les 3 (subonderwerp Plante en diere op die Aarde, KABV se Diersoorte-punt) dek diere met en sonder bene, dus die werweldier-teenoor-ongewerwelde-verdeling. Les 4 mag daarop staatmaak maar herhaal dit nie as iets nuuts nie: een verwysende sin is genoeg, en die begroting is nie daarvoor gegee nie.",
+    "wat_na_geraamtes_as_strukture_toe_gaan": "Die volgende subonderwerp, Geraamtes as strukture (2 1/2 weke), behandel die skelet AS raamstruktuur, ongewerwelde geraamtes as dopstrukture soos die krap s'n, en die bou van 'n model-skelet. Les 4 skryf KABV se sin dat bene hard is en 'n sterk raamstruktuur vorm, en los dit daar. Geen behandeling van raamstrukture teenoor dopstrukture, geen terugverwysing na graad 4 se materiale-werk, geen modelbou.",
+    "wat_kaps_uitdruklik_uitsluit": "KABV se derde voetnoot op hierdie bladsy: in hierdie graad is die besonderhede oor hoe die spiere geheg is, en die struktuur van gewrigte, nie nodig nie. Les 5 spandeer dus GEEN begroting aan senings, aan hoe 'n spier aan 'n been vasgemaak is, aan spierpare, of aan soorte gewrigte soos skarnier- of koeel-en-potjiegewrigte nie. Dit is nie 'n versagting nie - dit is KABV wat die diepte vir hierdie graad stel.",
+    "wat_hier_nie_verduidelik_word_nie": "Les 4 noem die brein, die rugmurg, die longe en die hart as die organe wat beskerm word. Dit is al: wat elkeen van hulle DOEN, is nie hierdie subonderwerp se werk nie en word nie verduidelik nie."
+  },
+  "graad_4_naat": {
+    "hoekom": "kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json bestaan en is DOELBEWUS leeg - graad 5 se terme word beslis nadat al 29 lesse geskryf is, want dan wys die konsepte self watter terme herhaal in plaas dat 'n beplanner dit voorspel. Moet dit nie nou vul nie. Maar graad 4 het sy eie lys van 25 terme in kaps/gedeelde-omskrywings.json, en 'n graad 5-leerder het graad 4 gedoen. Waar 'n term in albei voorkom, staan dit hier eerder as dat graad 5 graad 4 stilweg weerspreek.",
+    "geraamte": {
+      "graad_4_bewoording": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou. [VERVANG VIR GRAAD 5 - MOENIE HIERDIE BEWOORDING GEBRUIK NIE. Graad 5 se ooreengekome bewoording is \"Die dele wat 'n dier se lyf ophou en sy sagte dele beskerm.\" Drico, 9 September 2026. Hierdie reel staan hier net as GESKIEDENIS, sodat 'n mens sien wat verander het en hoekom.]",
+      "beslis": "Deur Drico, 30 Augustus 2026, nadat 'n feitenasien ALBEI vorige bewoordings verwerp het. Die woord harde is uit, want 'n haai se hele geraamte is kraakbeen. Die frase met 'n ruggraat is by, want 'n eksoskelet IS 'n geraamte.",
+      "wat_les_4_moet_doen": "BESLIS DEUR DRICO, 9 September 2026. Graad 5 se ooreengekome bewoording vir 'geraamte' is: \"Die dele wat 'n dier se lyf ophou en sy sagte dele beskerm.\" Dit staan in kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json en geld vir ELKE Graad 5-les wat die woord gebruik. Graad 4 bly soos afgelewer; die woord 'harde' mag nie terugkom nie. Les 4 gebruik hierdie bewoording vir sy begrip-inskrywing, NIE Graad 4 s'n nie. Die take wat Graad 5 byvoeg - watter been wat beskerm, en die bene wat vir beweging is - hoort steeds in die STUDIETEKS en nie in 'n ryker omskrywing nie.",
+      "let_op": "Graad 4 se bewoording is doelbewus tot werweldiere beperk sodat dit die eksoskelet nie verkeerd uitsluit nie. Graad 5 se volgende subonderwerp gaan wel oor dopstrukture soos die krap s'n; die uitbreiding hoort DAAR en nie hier nie."
+    },
+    "raamstruktuur": {
+      "graad_4_bewoording": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "wat_les_4_moet_doen": "As les 4 'n begrip-inskrywing vir raamstruktuur gee, gebruik hierdie bewoording woord vir woord. Moenie 'n nuwe een skryf nie."
+    },
+    "risiko": "Hierdie is nie 'n inskrywing in 'n gedeelde-omskrywings-lys nie, en niks in die per-les-pyplyn kan graad 4 teen graad 5 vergelyk nie. Dit staan hier sodat die skrywer dit lees."
+  },
+  "woordkeuse": {
+    "bene_teenoor_pote": "Die staande huisreel in skills/wolkskool-inhoudstandaard/references/woordkeuse.md, Drico se reel: vir 'n DIER se ledemate skryf ons pote, nooit bene nie, want bene beteken albei en hierdie les se in dieselfde asem dat 'n ruggraat uit klein bene bestaan. KABV SELF kry dit hier verkeerd: die inhoudspunt skryf skouerblaaie, arms, bene, heupbene waar dit ledemate bedoel. Moenie dit oorneem nie. Skryf ledemate, of die arms en die pote, of ledemaatbene waar dit werklik oor die bene binne-in die ledemaat gaan. Hou bene vir been.",
+    "ruggraat": "Skryf ruggraat. KABV se tabel druk 'rugraat' op hierdie bladsy; dit is 'n setfout. BEVESTIG DEUR DRICO, 9 September 2026: Graad 4 se afgelewerde lesse skryf 'ruggraat' 46 keer en KABV se spelling geen keer nie.",
+    "werweldier": "Skryf 'gewerwelde diere' en 'ongewerwelde diere'. BESLIS 9 September 2026 op PRESEDENT, nie op smaak nie: Graad 4 se afgelewerde lesse gebruik hierdie vorme 26 keer en 'werweldier' geen enkele keer nie. KABV se Graad 5-tabel druk albei vorme op dieselfde bladsy, dus bind die dokument ons nie.\n\nDie beplanner het 'werweldier' aanbeveel; dit is oorheers, want dit sou afgelewerde werk weerspreek.\n\nDie gewone frase 'dier met 'n ruggraat' bly toegelaat en word aangemoedig - dit is gewone taal, nie 'n tweede TERM nie. Albei staan nou in kaps/beskermde-woorde.json, want 'werweldier' lees vlotter en 'n taalnasiener sal dit wil invoer.",
+    "suurstof_teenoor_lug": "Beskermde woord op die algemene lys: waar dit oor asemhaling gaan, is dit suurstof en nie lug nie. Hierdie twee lesse noem die longe net as 'n orgaan wat beskerm word en verduidelik nie asemhaling nie, dus behoort dit nie op te kom nie - maar as die skrywer daarheen gly, geld die reel.",
+    "kaps_aanhalings_bly_kaps_s_n": "LET WEL OOR DIE KABV-AANHALINGS: die velde kaps_punt en kaps_punte haal KABV WOORDELIKS aan en bly onaangeraak, ook waar KABV 'werweldiere' skryf. 'n Verkeerde aanhaling van KABV om ons eie woordkeuse netjies te maak, is 'n erger fout as die ongelykheid wat dit sou oplos. Die skrywer se PROSA gebruik 'gewerwelde diere'; die aanhaling bly KABV s'n."
+  },
+  "feiterisiko": {
+    "nota": "Spesifikasies word self nooit deur die feitenasiener gelees nie, dus is elke bewering hieronder 'n risiko wat ONGETOETS in 'n les kan beland. Hulle staan hier as waarskuwings oor wat nie geskryf mag word nie, nie as feite om oor te skryf nie. Waar kern en hierdie afdeling sou bots, wen kern, want die dekkingsnasiener toets teen kern - daarom is elke versagting hieronder reeds IN die betrokke kern-inskrywing ingeskryf en nie net hier nie.",
+    "nie_elke_werweldier_se_geraamte_is_van_been_nie": "Dat bene hard is, is KABV se sin, en dit is 'n bewering oor BENE. Dit mag nooit word dat elke werweldier se geraamte uit harde bene bestaan nie: 'n haai het geen been nie, sy hele geraamte is kraakbeen. Dit is presies waarom graad 4 se goedgekeurde omskrywing die woord harde laat val het. Vernou die hoeveelheidswoord, nie die onderwerp nie.",
+    "die_gordel_helfte_van_kaps_se_voetnoot": "KABV se voetnoot se: nie alle diere het skouer en heupgordels of ledemate nie, soos vis en slange. Die LEDEMAAT-helfte is veilig en staan in kern: 'n slang het geen pote nie en 'n vis het vinne in plaas van pote. Die GORDEL-helfte word doelbewus nie beweer nie, want beenvisse het wel 'n skouer- en 'n heupgordel wat hul vinne dra. Die les moet dus NIE skryf dat 'n vis geen skouergordel het nie. Die vereiste word volledig gedra deur die ledemaat-helfte, en dit is die veiliger een.",
+    "ribbes_is_nie_universeel_nie": "Moenie skryf dat ELKE werweldier ribbes het nie. Volwasse paddas het nie egte ribbes nie, en KABV se eie aktiwiteitslys noem paddas as een van die diere om na te kyk. Stel dit van die diere wat gewys word, of gebruik die meeste.",
+    "nie_elke_gewrig_beweeg_nie": "Dat 'n gewrig die plek is waar twee bene bymekaar kom, is waar van almal. Maar dat elke gewrig die bene laat beweeg, is nie waar nie: die naatgewrigte van die skedel beweeg feitlik nie, en les 4 noem die skedel by die naam. Kern 4 van les 5 se daarom by baie van hierdie gewrigte. Moenie dit na by elke gewrig vereenvoudig nie.",
+    "die_analogie_in_les_5": "Die eli10 se KOPPELING word nagegaan en nie net sy feite nie. 'n Spier TREK en kan nie stoot nie, dus moet die vergelyking iets wees wat ook net kan trek: 'n tou werk; 'n veer of 'n rekkie nie, want die stoot 'n been terug en dit is die verkeerde prentjie. Die vergelyking mag ook nie na spierpare of na hoe 'n spier vasgemaak is dryf nie, want KABV sluit dit uit."
+  },
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "woorde_per_sin": "11,0 tot 14,5",
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "kommas_per_sin_maks": 0.35
+    },
+    "geen_eie_steekproef": "Daar is geen graad 5-meting nie, dus geen steekproef om teen te kalibreer. Die 4-6-band geld ongewysig. Die vloer van 11,0 woorde per sin is die kant om op te let: hierdie subonderwerp is 'n lys benoemde dele met kort take, en presies daardie vorm val maklik in fragmente uiteen.",
+    "termdruk": "Les 4 dra baie nuwe woorde: skedel, rugwerwel, rugmurg, ribbes, ledemate, skouerblad, heupbeen, gewrig, geraamte, werweldier. Sillabes per woord en die persentasie woorde van drie of meer sillabes sal hier druk kry. Begrip-inskrywings tel nie teen die begroting nie en is die regte plek om daardie lading te dra."
+  },
+  "skryfnota": "Twee dinge maak hierdie subonderwerp anders as wat sy lengte laat lyk. Die eerste is dat KABV dit BAIE presies voorskryf: vyf benoemde liggaamsdele, elkeen met sy eie taak, plus twee voetnote wat se wat NIE geskryf moet word nie. Elke benoemde deel is verpligtend en die twee voetnote is nie voorstelle nie. Die tweede is dat feitlik elke sin in les 4 'n bewering oor 'n hele groep diere is, en dit is waar die foute saamdrom: 'n stelling wat waar is van 'n hond en van 'n mens, is dikwels vals van 'n haai, 'n padda of 'n slang. Sien feiterisiko. Onthou ook: moenie net dek nie, verklaar. 'n Blok wat die skedel noem en se dit beskerm die brein, het gedek; 'n blok wat se die skedel is 'n harde bak rondom die brein sodat 'n stamp nie by die brein uitkom nie, het verklaar - en dit kos nie meer woorde nie.",
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "KABV self (kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf), deur die beplanner gelees: die Graad 5 Termyn 1-inhoudstabel op PDF-bladsye 36 tot 39, gedrukte bladsye 31 tot 34, waarvan PDF-bladsy 37 hierdie subonderwerp met sy twee voetnote dra en PDF-bladsy 39 die kwartaal se assesseringsriglyne. Verder die profielkonfigurasie gr5-nwt-profiel.json, wat geen meting dra nie; die goedgekeurde graad 4-lys van gedeelde omskrywings; die huis se woordkeuselys; en die beskermde-woorde-lys.",
+    "geen_handboek": "Geen handboek is gesien, aangebied of gebruik. Geen graad 5-handboek is geprofileer nie, dus bestaan daar ook geen afgeleide getal uit een nie.",
+    "beplan_op": "2026-09-09"
+  },
+  "vak_gedeelde_omskrywings": {
+    "nota": null,
+    "terme": {
+      "geraamte": "Die dele wat 'n dier se lyf ophou en sy sagte dele beskerm.",
+      "gewrig": "Die plek waar twee of meer bene bymekaar kom.",
+      "buigbaar": "Materiaal wat in dun drade getrek kan word sonder om te breek."
+    }
+  },
+  "vorige_graad_omskrywings": {
+    "graad": 4,
+    "hoe_om_dit_te_lees": "Hierdie is Graad 4 se ooreengekome bewoordings, wat REEDS AFGELEWER is. Hulle BIND hierdie graad NIE. Hulle is hier sodat jy 'n botsing kan RAAKSIEN: 'n leerder in Graad 5 het Graad 4 deurloop, en twee omskrywings van een woord leer twee verskillende dinge. Waar jou graad se eie lys (hierbo) 'n term het, WEN daardie een altyd. Waar dit stilbly en jy gaan van hierdie bewoording verskil, se dit in die spek sodat 'n mens kan beslis - moenie stilweg 'n tweede betekenis skep nie.",
+    "terme": {
+      "asemhaling": "Om suurstof uit die lug te gebruik om energie uit jou kos te kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "geraamte": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou.",
+      "habitat": "Die plek waar 'n plant of 'n dier lewe.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "kondenseer": "Wanneer 'n gas afkoel en weer in 'n vloeistof verander.",
+      "lewensprosesse": "Die sewe dinge wat saam wys dat iets lewe.",
+      "materiaal": "Die goed waarvan iets gemaak is",
+      "onverwerkte materiaal": "Materiaal wat mense net so in die natuur kry.",
+      "raamstruktuur": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "ru-olie": "Meestal 'n dik donker vloeistof wat onder die grond opgepomp word.",
+      "smelt": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "struktuur": "Iets wat gebou of gevorm is, sy vorm hou en gewig dra of iets beskerm.",
+      "stut": "'n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
+      "trommelvlies": "'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+      "verdamp": "Wanneer 'n vloeistof in 'n gas verander. Dit gebeur vinniger wanneer die vloeistof warmer is.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "vries": "Wanneer 'n vloeistof afkoel en in 'n vaste stof verander.",
+      "waterdamp": "Water in die vorm van 'n gas wat niemand kan sien nie.",
+      "kieme": "Baie klein lewende dinge wat 'n mens siek kan maak."
+    }
+  },
+  "nommer": 2,
+  "jaarnommer": 5,
+  "jaarnommer_nota": "Les 5 van die graad 5-jaar se 29 lesse, en die tweede en laaste van hierdie subonderwerp.",
+  "titel": "Spiere trek, gewrigte buig",
+  "titel_nota": "Werktitel en 'n heldeopskrif. Dit noem die les se twee dele en se in vier woorde wat die les leer. Die skrywer mag dit verbeter; Beweging is KABV se etiket en nie 'n titel nie.",
+  "kaps_punt": "Beweging: gewerwelde diere kan beweeg, want daar is spiere wat vasgeheg is aan die skelet, gewrigte tussen die bene",
+  "kaps_punt_nota": "KABV se hele inhoudsblok vir hierdie opskrif, met sy twee onderpunte, in een reel. Die aktiwiteitskolom bind ook: beskryf hoe ander gewerwelde diere beweeg (insluitende mense). Let op KABV se derde voetnoot, wat aan hierdie punt vasgehaak is: die besonderhede oor hoe die spiere geheg is en die struktuur van gewrigte is op hierdie graad NIE nodig nie.",
+  "begroting": 330,
+  "begrotingsnota": "330 woorde vir vyf kern-vereistes, ongeveer 66 woorde elk. Hierdie les is doelbewus die korter van die twee, en dit is nie 'n oordeel oor sy belangrikheid nie: KABV gee dit twee inhoudsreels teenoor les 4 se drie met vier onderpunte, en sluit dan met 'n voetnoot uitdruklik die twee diepste besonderhede uit, naamlik hoe die spiere geheg is en die struktuur van gewrigte. Daar is op hierdie graad eenvoudig minder om te se. Die vyfde vereiste, die dierevoorbeelde, dra meer as sy deel van die woorde omdat dit vyf diere is. 330 le bo die graad 5-vloer van 300, dus is geen vloer_uitsondering nodig nie. Hek: 281 tot 380. Nie uit gemete volume nie en nie uit die kontakure nie - KABV se 5 1/4 uur vir die subonderwerp is grootliks soek- en beskryf-aktiwiteite.",
+  "kern": [
+    "Dat 'n gewerwelde dier kan beweeg omdat daar spiere is wat aan die skelet vasgeheg is.",
+    "Dat 'n spier trek aan die been waaraan dit vas is, en dat die been dan beweeg. Hou dit by trek: 'n spier kan trek en nie stoot nie. Een of twee sinne, nie meer nie - hoe die spier vasgemaak is, is deur KABV uitgesluit.",
+    "Dat daar gewrigte tussen die bene is, en dat 'n gewrig die plek is waar twee bene bymekaar kom.",
+    "Dat die bene by baie van hierdie gewrigte teen mekaar kan beweeg, en dat 'n raam sonder sulke gewrigte styf sou bly hoe hard die spiere ook al trek. Die punt is dat die twee saamwerk: spiere alleen of gewrigte alleen gee geen beweging nie. Die woorde by baie van hierdie gewrigte is 'n regstelling en nie 'n verskansing nie - sien feiterisiko.",
+    "Dat verskillende gewerwelde diere op verskillende maniere beweeg met dieselfde stelsel van skelet, spiere en gewrigte: 'n mens loop, 'n voel vlieg, 'n vis swem, 'n padda spring, en 'n slang gly sonder pote. KABV se aktiwiteit vra uitdruklik dat ander gewerwelde diere se beweging beskryf word, mense ingesluit. Die slang hoort hier omdat hy les 4 se ledemate-voetnoot terugbring: geen pote, en tog beweging."
+  ],
+  "aanvulling": [],
+  "aanvulling_nota": "Geen. Hierdie les is klein en KABV se voetnoot sny presies weg wat 'n mens versoek sou wees om by te sit. Die enigste ding wat nie in KABV se twee reels staan nie en tog gese word, is dat 'n spier TREK - en dit is nie aanvulling nie, dit is die minimum wat die sin spiere wat vasgeheg is aan die skelet as verklaring laat werk. Sonder dit dek die les die punt sonder om dit te verklaar.",
+  "moeilike_konsepte": [
+    "Hoe 'n spier wat net kan trek 'n hele dier laat beweeg"
+  ],
+  "moeilike_konsepte_nota": "Een, en dit is die enigste een in die subonderwerp. Dit slaag die toets: 'n mens kan 'n skedel wys en 'n ribbebeen wys, maar niemand kan 'n spier sien trek nie, en die stap van iets trek van binne af na die dier loop het geen konkrete stelling nie. Die eli10 se vergelyking moet iets wees wat OOK net kan trek. Sien feiterisiko vir wat nie mag nie.",
+  "termdig": false,
+  "termdig_nota": "Vals. Drie nuwe woorde: spier, gewrig, en weer uit les 4 die skelet. Twee tot drie begrip-inskrywings is genoeg, en gewrig is die een wat werklik gedra moet word.",
+  "fokusvraag_skakel": "Dra die tweede helfte van die vraag: dat dieselfde geraamte kan beweeg omdat spiere aan die bene vasgeheg is en daar gewrigte tussen die bene sit.",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "feiterisiko",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "graad",
+    "graad_4_naat",
+    "grense",
+    "herkoms",
+    "kaps_onderwerp",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kaps_weke",
+    "kwartaal",
+    "lesnommer_nota",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "profiel_konfig_nota",
+    "registerbesluit",
+    "skema_weergawe",
+    "skryfnota",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota",
+    "verhouding_tot_beplanner_prompt",
+    "woordkeuse"
+  ]
+}

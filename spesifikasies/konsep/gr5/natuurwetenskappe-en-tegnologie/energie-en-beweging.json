@@ -1,0 +1,220 @@
+{
+ "skema_weergawe": "1.0",
+ "vak": "Natuurwetenskappe en Tegnologie",
+ "graad": 5,
+ "kwartaal": 3,
+
+ "kaps_onderwerp": "Energie en Verandering",
+ "kaps_onderwerp_nota": "KABV se Graad 5 Termyn 3-bladsye dra twee kennisafdelings in hulle kop: 'NATUURWETENSKAPPE: ENERGIE EN VERANDRING' en 'TEGNOLOGIE: STELSELS EN BEHEER'. Hierdie subonderwerp val onder die eerste. Die stelsel-helfte van die kop hoort by die subonderwerp wat hierna kom, 'Stelsels om dinge te beweeg' (wiele en asse), en NIE hier nie.",
+ "kaps_subonderwerp": "Energie en beweging",
+ "kaps_subonderwerp_nota": "KABV se eie inskrywing in die 'Onderwerp'-kolom. Dit dra EEN inhoudsopskrif, 'Rekkies en vere', met drie punte daaronder.",
+
+ "lesveld_nota": "Vir die skrywer: in hierdie SPESIFIKASIE is kaps_onderwerp die kennisafdeling en kaps_subonderwerp die onderwerp. In die LES self is kaps_onderwerp die subonderwerp - dus 'Energie en beweging' - en kaps_punt die KABV-punt. Niks toets hierdie verskil nie, en dit is al voorheen verkeerd geskryf.",
+
+ "kaps_ure": 3.5,
+ "kaps_ure_nota": "Slegs inligting. KABV gee 1 week (3½ ure), en dit is die KLEINSTE toekenning in die hele Graad 5-jaar. NIKS in hierdie spesifikasie is daaruit afgelei nie, in geen rigting nie. Kontakure is nooit 'n begrotingsbasis nie, en dit sny albei kante toe: 3½ ure maak die les nie klein nie, net soos 8¾ uur die metaal-les nie groot gemaak het nie. Dat hierdie les klein is, kom uit sy INHOUD, wat in die begrotingsnota afgetel word.",
+
+ "kaps_bron": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, gedrukte bladsy 41 (PDF-bladsy 46) vir die inhoud, die aktiwiteitskolom, die voetnoot en Termyn 3 se assesseringsriglyne, wat almal op daardie een bladsy staan. Gedrukte bladsye 39 en 40 (PDF-bladsye 44 en 45) is gelees om die grense na hierdie termyn se twee vorige subonderwerpe te plaas. Die PDF loop vyf bladsye voor die gedrukte nommers.",
+
+ "fokusvraag": "Hoe kry ons beweging uit 'n rekkie of 'n veer, en waar was daardie energie voordat ons laat los het?",
+ "fokusvraag_nota": "Deur die beplanner gestel, nie aangehaal nie. KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag soos Sosiale Wetenskappe nie. Hierdie een is uit KABV se drie eie punte gebou - maak beweeg, stoor, vrylaat - en uit die assesseringsriglyn wat vra dat 'n leerder 'die uitset energie (beweging) van 'n uitgestrekte rekkie of saamgedrukte veer' kan beskryf.",
+ "fokusvraag_grootte": "HIERDIE SUBONDERWERP IS EEN LES, dus dra een les die hele vraag. Dit is die geval waarteen beplanner-v1.2 waarsku, en die antwoord is nie om die les meer te laat dra nie maar om die VRAAG klein te stel. Die vraag gaan oor twee voorwerpe (rekkie, veer), drie handelinge (uitrek, verdraai, saamdruk) en drie benoemde toestelle. Dit vra NIE wat energie is nie, nie waar energie vandaan kom nie, en nie hoe ander stelsels beweeg nie.",
+
+ "profiel_konfig": "gr5-nwt-profiel.json",
+ "onderwerp_woorde": 0,
+ "onderwerp_woorde_nota": "0 beteken hier ONGEMEET, nie 'die boek dek dit nie'. Geen Graad 5-handboek is geprofileer nie, en dit is 'n besluit en nie 'n agterstand nie. Onder die 'vereistes'-basis is hierdie veld nie die anker nie en niks word daaruit afgelei nie. Moenie 'n getal hier intik om dit te laat lyk of daar gemeet is nie.",
+
+ "begroting_basis": "vereistes",
+ "begroting_basis_nota": "Die les se getal kom uit die hoeveelheid inhoud wat dit werklik dra, nie uit 'n meting nie. Geen Graad 5-handboek is geprofileer nie: profiler.py tel ELKE woord op 'n bladsy - aktiwiteitsblokkies, vraagpanele, byskrifte, opskrifte - en ons lesse bevat niks daarvan nie, want aktiwiteite behoort aan die uitlegspan. Drico het op 9 September 2026 self met die hand nagetel dat lesse in dieselfde Graad 5-boek van 140 tot 525 woorde wissel, dus sou 'n gelyke verdeling ook die verkeerde antwoord gewees het. Elke les stel dus sy eie getal, met 'n begrotingsnota wat die aftelling wys, en die Graad 5-band 300-550 bly daaroor geld. Kontakure speel geen rol nie.",
+
+ "totale_begroting": 375,
+ "totale_begroting_nota": "Een les van 375 woorde. Dit is 'n afgeleide getal, nie 'n meting nie, en dit is nie 'n pariteitsanker teenoor enige handboek nie. Dit is die kleinste Graad 5-natuurwetenskaples wat tot dusver beplan is op een na (les 5 se 330), en dit hoort so: die subonderwerp dra een inhoudsopskrif met drie punte wat saam een ketting is.",
+
+ "herkoms": {
+  "beplanner_prompt": "beplanner-v1.2",
+  "handboek_gesien": false,
+  "bronne": "Die KABV-dokument self, direk gelees (Graad 5 Termyn 3-inhoudstabel, PDF-bladsy 46, met sy aktiwiteitskolom, sy voetnoot en die kwartaal se assesseringsriglyne; PDF-bladsye 44 en 45 om die grense te plaas). Verder: die opdrag se lesverdeling van Drico, profiele/gr5-nwt-profiel.json, kaps/gedeelde-omskrywings.json (Graad 4), kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json, kaps/beskermde-woorde.json, skills/wolkskool-inhoudstandaard/references/woordkeuse.md, en die afgelewerde Graad 4-les 'Blaas, klop en pluk' vir die bestaande bewoordings van energie, inset, uitset en bewegingsenergie. GEEN handboek, geen bladsybeeld, geen videoskrif."
+ },
+
+ "verdeling_nota": {
+  "besluit": "EEN les uit een KABV-inhoudsopskrif met drie punte. Dit is Drico se besluit en dit is teen KABV nagegaan voordat hierdie spesifikasie geskryf is.",
+  "hoekom_dit_hou": "Die drie punte is nie drie onderwerpe nie - hulle is EEN ketting wat een keer geleer word: jy doen iets aan die rekkie, die energie word daarin gestoor, jy laat los en jy kry beweging. Punt twee is sinneloos sonder punt een en punt drie is sinneloos sonder punt twee. 'n Splitsing sou drie lesse gee wat elkeen die ander twee moet oorvertel om enigsins te leer.",
+  "geen_video_eerste": "Hierdie is NIE die Graad 4 Sosiale Wetenskappe-uitsondering nie. Daar is geen video_naat nie, geen videoskrif is 'n bron nie, en die teks word eers geskryf en die video daarna daarvolgens gemaak."
+ },
+
+ "graad_4_oordrag": {
+  "hoekom_hierdie_afdeling": "kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json dra DRIE terme (geraamte, gewrig, buigbaar), met opset, en word eers na al 29 konsepte gevul. MOENIE dit hier vul nie. Graad 4 se lys bind Graad 5 nie - dit word op vak EN graad opgesoek - maar 'n Graad 5-leerder het Graad 4 by ons deurloop, dus word botsings hier gemerk eerder as stilweg geskep.",
+  "energie": "Graad 4 se ooreengekome bewoording (lesse 18-22) is 'Wat nodig is om iets te laat gebeur, beweeg of werk.' Dit staan ook in kaps/beskermde-woorde.json. As hierdie les 'n begrip vir 'energie' skryf, is dit daardie sin WOORD VIR WOORD. Skryf nie 'n ryker een nie.",
+  "inset_en_uitset": "Graad 4: inset is 'Die energie wat by 'n masjien ingaan voordat hy kan werk.' en uitset is 'Al die energie wat by 'n masjien uitkom wanneer hy werk.' KABV se assesseringsriglyn vir hierdie les gebruik self die woord 'uitset energie'. Waar die les een van die twee woorde gebruik, mag dit nie iets anders beteken as hierdie sinne nie.",
+  "bewegingsenergie": "Graad 4-les 21 het dit reeds afgelewer as 'Die energie van iets wat beweeg, soos jou hand wat klop.' Dit staan NIE in enige ooreengekome-bewoordingslys nie, want dit kom in net een Graad 4-les voor. Die ROMP - 'Die energie van iets wat beweeg' - bly identies; die voorbeeld na 'soos' mag per les verskil (Drico, 28 Augustus 2026), en hierdie les se eie voorbeeld hoort by 'n rekkie of 'n veer te wees.",
+  "die_rekkie_is_nie_nuut_nie": "Graad 4-les 21 gebruik 'n rekkie om 'n blik as 'n KLANKBRON: pluk hom, hy vibreer, jy hoor iets. Daardie les maak geen bewering oor gestoorde energie nie, dus is daar geen weerspreking nie. Hierdie les gebruik dieselfde alledaagse voorwerp vir 'n ANDER eienskap, en dit hoef klank nie te herhaal of te vermy nie."
+ },
+
+ "terminologiebotsing_rek": {
+  "waarom_dit_hier_staan": "Twee betekenisse van dieselfde stam sit in dieselfde Graad 5-jaar, en die een is al beslis met die ander as rede.",
+  "wat_beslis_is": "Drico, 9 September 2026: Graad 5 gebruik 'buigbaar' vir die eienskap dat metaal in dun drade getrek kan word (Termyn 2, les 10, KABV se eie woord). 'rekbaar' is verwerp, en EEN van die redes wat aan hom gestel is, is juis hierdie les: hier beteken 'rek' en 'rekkie' die rubber-ding, en 'n uitgerekte rekkie SPRING TERUG, wat 'n getrekte draad nie doen nie.",
+  "wat_hierdie_les_dus_moet_doen": "Die versigtigheid loop nou die ander kant toe. Hierdie les mag nie sy kant van die betekenis na die metaal-kant laat lek nie.",
+  "reels": [
+   "Die WERKWOORD 'rek' en die selfstandige naamwoorde 'rek' en 'rekkie' is reg en word verwag. Dit is KABV se eie woorde.",
+   "'rekbaar' word NIE in hierdie les gebruik nie. Dit is die woord wat vir metaal verwerp is en dit hoort nêrens in Graad 5 nie.",
+   "'buigbaar' en 'buigsaam' word NIE in hierdie les gebruik nie. 'buigbaar' dra in Graad 5 die metaal-betekenis (in dun drade getrek). Waar die les moet sê dat iets buig, gebruik die gewone werkwoord ('dit buig', 'dit gee mee').",
+   "DIE LES BENOEM DIE EIENSKAP GLAD NIE. Geen naamwoord of byvoeglike naamwoord vir die terugspring-eienskap - nie 'rekbaar', nie 'elasties', nie 'veerkragtig' nie. KABV vra dit nêrens nie, en die les leer die GEDRAG in gewone woorde: 'hy spring terug na sy ou vorm'. Dit is die goedkoopste manier om die botsing heeltemal te vermy.",
+   "Moenie na die metaal-les verwys nie. 'n Verwysing bring presies die twee betekenisse langs mekaar wat ons uitmekaar wil hou.",
+   "Geen beeld van 'n rekkie wat 'in 'n dun draad getrek' word nie."
+  ]
+ },
+
+ "woordkeuse": {
+  "veer_is_n_homoniem": "'veer' beteken in Afrikaans ook 'n voël se veer, en dit is die betekenis wat 'n elfjarige eerste sal kry. Die les moet die betekenis by die EERSTE gebruik aan 'n konkrete voorwerp vasmaak - die veer binne-in 'n balpuntpen werk - eerder as om die verwarring in 'n bysin te probeer regstel. 'n Begrip-inskrywing vir 'veer' is verpligtend.",
+  "rekkie_nie_elastiek": "Skryf 'rekkie' vir die voorwerp en 'rek' vir die materiaal, soos KABV self. Nie 'elastiek' nie, en nie 'rubberband' nie.",
+  "stoor_nie_gebere": "Skryf 'stoor' en 'gestoor' vir energie, soos KABV ('stoor ons energie daarin') en soos hierdie termyn se vorige subonderwerp ('Gestoorde energie in brandstof'). Let op: kaps/beskermde-woorde.json beskerm 'gebêre' teen 'gestoor' - MAAR dit is 'n Graad 4-inskrywing vir die kos binne-in 'n saad, 'n ander konteks en 'n ander graad. Dit raak energie nie.",
+  "bewegingsenergie_een_woord": "Een woord, soos die afgelewerde Graad 4-les dit skryf. KABV se eie setwerk skryf 'bewegings energie' los; ons haal dit so aan in kaps_punte en skryf dit self vas.",
+  "energie_nie_krag": "kaps/beskermde-woorde.json: 'energie', nie 'krag' nie. Dit is 'n regte gevaar juis in hierdie les, want 'die krag in die rekkie' klink vir 'n Afrikaanse oor volkome natuurlik. In die wetenskap is krag 'n krag en energie is energie.",
+  "hitte_nie_warmte": "As die les hitte enigsins noem (dit behoort nie), is die woord 'hitte'. Kom nie by 'koolstofdioksied' of enige verbrandingswoord nie - dit is die vorige subonderwerp s'n."
+ },
+
+ "diepte_grens": {
+  "geen_vakterme_vir_die_twee_soorte_energie": "BUITE BESTEK: 'potensiële energie' en 'kinetiese energie'. KABV se eie woorde is 'gestoorde energie' en 'bewegings energie', en dit is presies waar die vlak lê.",
+  "geen_meting": "BUITE BESTEK: joule, newton, enige formule, enige getal oor hoeveel energie gestoor word, enige bewering oor hoe ver of hoe hoog iets gaan.",
+  "geen_materiaalkunde": "BUITE BESTEK: waaruit rubber bestaan, wat binne-in die rubber gebeur wanneer dit rek, staal in 'n veer, molekules of kettings van enige aard.",
+  "geen_boekhouding_van_energie": "BUITE BESTEK: die wet van energiebehoud, en enige bewering oor hoeveel van die energie weer uitkom. Die les sê dat jy beweging kry; dit sê nie dat ALLES weer uitkom nie en ook nie dat iets verlore gaan nie.",
+  "geen_wrywing_of_lugweerstand": "BUITE BESTEK. Dit is nie hierdie les se werk nie en dit sal die begroting opeet."
+ },
+
+ "buite_bestek": [
+  "Die woord 'stelsel' en die stelsel-idee. Dit behoort aan die volgende subonderwerp, 'Stelsels om dinge te beweeg' (wiele en asse), en Graad 4-les 21 het dit reeds gedra. Die les mag dit noem as dit natuurlik val, maar mag dit nie leer nie.",
+  "Brandstof, verbranding, hitte en lig as uitsette. Dit is hierdie termyn se VORIGE subonderwerp ('Gestoorde energie in brandstof'). Hoogstens EEN sin wat daaraan terugroep, en daardie sin moet op sy eie staan, want daardie lesse is nog nie geskryf nie.",
+  "Elektrisiteit, selle en batterye - die ander vorige subonderwerp van hierdie termyn.",
+  "Wiele, asse en voertuie - die volgende subonderwerp.",
+  "Enige maak-opdrag. Aktiwiteite behoort aan die uitlegspan, en KABV se eie aktiwiteit hier is 'BESKRYF hoe dinge werk', wat teks is en nie 'n maaktaak nie."
+ ],
+
+ "geen_vrae": "Geen 'vraag'-blokke. Lesse dra sedert 2026-08-21 geen onthoudvrae nie. Die gevolg wat hier tel: waar 'n vraag vroeër die enigste plek was waar 'n les vir 'n leerder iets waarneembaars gegee het, hoort daardie bewys nou in die studieteks. In hierdie les is die waarneembare bewys drie dinge, en al drie hoort in die teks: die uitgerekte rekkie wat die hele tyd teen jou vingers terugtrek, die rekkie wat wegskiet wanneer jy laat los, en die veer in 'n balpuntpen wat teen jou vinger terugstoot wanneer jy hom plat druk.",
+
+ "registerwaarskuwing": {
+  "probleem": "Die Graad 4-6 band laat hoogstens 13% woorde met drie of meer lettergrepe toe. By 375 woorde is dit ongeveer 48 sulke woorde vir die HELE les. Hierdie les se eie kernwoorde is lank en herhaal onvermydelik: energie (3), bewegingsenergie (7), gestoorde (3), saamgeperste (4), saamgedruk (3), uitgerek (3), rekaangedrewe (5), vliegtuie (3), katapult (3), balpuntpen (3), propeller (3).",
+  "wat_die_skrywer_moet_doen": "Tel vooraf, nie agterna nie. 'bewegingsenergie' alleen kan die les klop as dit sewe keer staan. Noem elke lang woord een keer duidelik en gebruik daarna die kort vorm of 'dit'. Die res van die les is kort woorde - rek, rekkie, veer, trek, druk, draai, los, spring, klip, boks, pen - dus is dit haalbaar, maar net doelbewus.",
+  "res_van_die_band": "11,0 tot 14,5 woorde per sin en hoogstens 0,35 kommas per sin. Een idee per sin.",
+  "hek_faal_hierop": "Register en volume is die twee HARDE falings by die hek. Alles anders waarsku net."
+ },
+
+ "teks_kom_eerste": "Soos by al die wetenskaplesse word hierdie teks EERS geskryf en die video daarna daarvolgens gemaak. Die teks is dus die vloer en nie die plafon nie: elke blok is 'n verpligting wat die video moet eer. Dit is ook deel van die rede waarom hierdie les geen eli10-blok kry nie - sien moeilike_konsepte_nota by die les.",
+
+ "vir_drico": [
+  {
+   "saak": "Die drie toestelle (kettie/katapult, rekaangedrewe vliegtuig, Jack-in-'n-box) is as KERN hanteer, hoewel KABV hulle in die AKTIWITEITE-kolom noem en nie in die inhoudskolom nie.",
+   "wat_die_beplanner_gedoen_het": "Hulle ingesluit. Drie redes: KABV noem hulle by die naam met die woord 'insluitend'; die aktiwiteit self is 'BESKRYF hoe dinge werk', wat teks is en nie 'n maaktaak nie; en die inhoudskolom alleen gee drie abstrakte sinne sonder 'n enkele voorwerp, wat die standaard se eis dat inhoud voorstelbaar moet wees, nie kan haal nie.",
+   "wat_dit_kos": "Ongeveer 105 van die 375 woorde. Sonder hulle is die les ongeveer 270 woorde en dan het dit 'n vloer_uitsondering nodig.",
+   "vraag": "Is dit reg om KABV se aktiwiteitskolom as kern te lees waar die aktiwiteit 'n BESKRYF-taak is? Dit is die eerste keer dat ons dit doen, en dit sal weer opduik."
+  },
+  {
+   "saak": "Beskerming van hierdie les se woorde teen die Afrikaanse taalnasien.",
+   "wat_die_beplanner_gedoen_het": "Niks aan kaps/beskermde-woorde.json verander nie - die woorde is nog nie gekies nie, want die les is nog nie geskryf nie.",
+   "risiko": "kaps/beskermde-woorde.json beskerm tans 'buigbaar' teen 'rekbaar' vir les 10. bin/taalnasien.py filtreer die lys tot woorde wat WERKLIK in 'n les voorkom, dus beskerm daardie inskrywing hierdie les glad nie. 'n Taalnasiener wat 'die rekkie spring terug na sy ou vorm' na 'die rekkie is rekbaar' gladstryk, bring presies die botsing terug wat op 9 September uitgesorteer is.",
+   "voorstel": "Nadat die les geskryf is, 'n inskrywing byvoeg wat die les se eie bewoording vir die terugspring-gedrag hou en 'rekbaar', 'elasties' en 'veerkragtig' uitsluit, met die rede."
+  },
+  {
+   "saak": "'bewegingsenergie' oor grade heen.",
+   "wat_die_beplanner_gedoen_het": "Die Graad 4-romp behou en dit NIE in kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json geskryf nie - daardie lys hou drie terme met opset en word na al 29 konsepte gevul.",
+   "vraag": "Geen besluit nou nodig nie. Dit is 'n inskrywing wat in die versoeningsronde ná die 29 konsepte ingaan, saam met 'energie'."
+  }
+ ],
+
+ "lesse": [
+  {
+   "nommer": 1,
+   "jaarnommer": 21,
+   "jaarnommer_nota": "Les 21 van 29 vir die Graad 5-jaar. Lesnommers loop deurlopend deur die jaar, nie per kwartaal nie. Uit Drico se jaarplan; daar is nog geen kaps/lesindeks-lêer vir Graad 5 nie, dus is die opdrag self die herkoms. Die 'nommer'-veld is die volgorde binne hierdie subonderwerp, soos die skema vereis.",
+
+   "titel": "Rek dit en laat los",
+   "titel_nota": "Werktitel en 'n leerderopskrif, nie KABV se etiket nie. KABV se etiket is 'Rekkies en vere', 'n indeksnaam. Hierdie titel dra die les se twee helftes - jy sit iets in, jy kry iets uit - in vier kort woorde, en dit gebruik KABV se eie werkwoord. Die skrywer mag dit verbeter solank dit die les se eie naam bly en nie die KABV-etiket word nie.",
+
+   "kaps_opskrif": "Rekkies en vere",
+   "kaps_punt": "Rekkies en vere - ons kan dinge maak beweeg met behulp van uitgerek of verdraai rek en saamgeperste vere; wanneer ons rek uitrek of draai of 'n veer saamdruk, stoor ons energie daarin; wanneer ons die rek of veer vrylaat kry ons bewegings energie",
+   "kaps_punte": [
+    "ons kan dinge maak beweeg met behulp van uitgerek of verdraai rek en saamgeperste vere",
+    "wanneer ons rek uitrek of draai of 'n veer saamdruk, stoor ons energie daarin",
+    "wanneer ons die rek of veer vrylaat kry ons bewegings energie"
+   ],
+   "kaps_punte_nota": "Woordeliks uit KABV, insluitend die ongewone woordorde van die eerste punt en die los skryfwyse van 'bewegings energie'. Ons haal aan soos dit staan en skryf dit self vas.",
+   "kaps_aktiwiteit": "beskryf hoe dinge werk wat uitgerekte rekkies en saamgeperste vere gebruik om dit te beweeg, insluitend 'n kettie/katapult *, rekaangedrewe vliegtuie, 'Jack-in-'n-box'",
+   "kaps_voetnoot": "* 'n Kettie/katapult kan baie gevaarlik wees - Onderwyser demonstrasie",
+   "kaps_assessering": "Termyn 3 se riglyne (PDF-bladsy 46) toets sewe dinge; EEN daarvan behoort aan hierdie les: 'beskryf die uitset energie (beweging) van 'n uitgestrekte rekkie of saamgedrukte veer'. Let op wat dit vra: 'n BESKRYF-taak, en dit gebruik self die woord 'uitset'. Die les moet dus reguit sê wat by 'n uitgerekte rekkie en by 'n saamgedrukte veer uitkom, in woorde wat 'n leerder kan naskryf.",
+
+   "begroting": 375,
+   "begrotingsnota": "375 woorde, afgetel uit die nege kern-items en nie uit 'n meting nie. Ses konsep-items teen ongeveer 45 woorde elk is 270, plus drie toestelbeskrywings teen ongeveer 35 woorde elk is 105. Saam 375. Die hek meet teen 375 met plus-minus 15%, dus 319 tot 431. Dit val binne die Graad 5-band 300-550, dus is geen vloer- of plafon-uitsondering nodig nie. WAT DIT NIE IS NIE: dit is nie uit KABV se 3½ ure afgelei nie, en dit is ook nie na die res van Termyn 3 se lesse toe opgeblaas nie. Sonder KABV se drie benoemde toestelle sou die getal ongeveer 270 wees en dan sou 'n vloer_uitsondering nodig gewees het; mét hulle staan dit eerlik bo die vloer.",
+   "begrotingsplan": {
+    "blokplan": "Ongeveer vyf studieblokke plus een lysblok. Die hek se stukkiegids is 3 tot 10 blokke van 30 tot 110 woorde. Voorgestelde vorm: een blok wat die rekkie en die veer en KABV se drie handelinge saam neerlê; een blok vir die stoor, met die terugtrek-teen-jou-vingers as die bewys in dieselfde blok; een blok vir die vrylaat en die bewegingsenergie; een kort blok wat die twee grense saam dra (nie alles spring terug nie, en saamdruk is nie die veer se enigste geval nie); en een lysblok vir die drie toestelle, elk twee tot drie sinne.",
+    "waar_om_te_sny_as_dit_oorloop": "Sny aan die toestelbeskrywings voordat jy aan die meganisme sny. KABV se drie punte is die les; die toestelle is waar die les land."
+   },
+
+   "kern": [
+    "Dat 'n rekkie en 'n veer twee alledaagse dinge is waarmee ons iets kan laat beweeg, en dat ons drie dinge aan hulle doen om dit te kry: 'n rekkie uitrek, 'n rekkie verdraai, en 'n veer saamdruk. Al drie werkwoorde is KABV s'n en al drie moet in die les staan.",
+    "Dat 'veer' hier die soort veer beteken wat in 'n voorwerp sit en nie 'n voël se veer nie. Die betekenis word by die eerste gebruik aan 'n konkrete voorwerp vasgemaak - die veer binne-in 'n balpuntpen is 'n voorbeeld wat 'n elfjarige self kan gaan druk.",
+    "Dat die uitrek, verdraai of saamdruk energie in die rekkie of die veer STOOR - KABV se eie sin. Die energie kom van die persoon wat trek of druk: jou eie hand doen die werk voordat daar enigiets in die rekkie gestoor is.",
+    "Dat die gestoorde energie daar BLY solank jy die rekkie uitgerek hou, al lyk dit of niks gebeur nie. Die waarneembare bewys hoort in dieselfde asem: 'n uitgerekte rekkie trek die hele tyd teen jou vingers terug, en 'n slap rekkie doen dit nie.",
+    "Dat ons bewegingsenergie kry wanneer ons die rekkie of die veer vrylaat - KABV se derde punt. Twee dinge, nie een nie: die rekkie of die veer self skiet weg of spring terug, EN dit kan iets anders ook laat beweeg.",
+    "Dat 'n rekkie na sy ou vorm terugspring wanneer jy hom laat los, solank jy hom nie te ver rek nie. Die algemene reël bly staan; net die 'altyd' val weg. Rek 'n rekkie te ver en hy breek, of hy bly slap en spring nie meer so goed terug nie.",
+    "Dat saamdruk nie die veer se enigste geval is nie: sommige vere stoor energie wanneer 'n mens hulle saamdruk en ander wanneer 'n mens hulle uitrek. Ten minste een alledaagse voorbeeld van elke soort. KABV noem net saamgeperste vere, dus is dit die les se werk om nie te laat lyk of dit die enigste soort is nie.",
+    "Dat 'n kettie of katapult so werk: die rek word teruggetrek en dus uitgerek, en wanneer dit losgelaat word trek dit terug na sy vorm en gooi die klip weg. KABV merk dit as baie gevaarlik en as 'n ONDERWYSERDEMONSTRASIE, dus sê die teks dat dit iets is wat 'n onderwyser wys - en die beskrywing bly 'n beskrywing, nooit 'n opdrag om een te maak of te gebruik nie.",
+    "Dat 'n rekaangedrewe vliegtuig die VERDRAAI-geval is: die rek word oor en oor gedraai, die gedraaide rek stoor die energie, en wanneer dit afdraai laat dit die propeller draai. En dat 'n Jack-in-'n-box die SAAMDRUK-geval is: die veer word plat gedruk wanneer die deksel toegemaak word, die knip hou hom so, en wanneer die knip loslaat stoot die veer die figuur uit."
+   ],
+   "kern_nota": "Nege inskrywings vir 375 woorde. Die dekkingsnasiener toets teen HIERDIE lys, dus is elke inskrywing so bewoord dat dit die REGTE bewering bestel - die feiterisiko's hieronder herhaal net waarom en stel niks reg nie. LET OP WAAR ITEMS 8 EN 9 VANDAAN KOM: uit KABV se aktiwiteitskolom, nie uit die inhoudskolom nie. Hulle is as kern hanteer omdat KABV hulle by die naam noem met die woord 'insluitend', omdat die aktiwiteit self 'beskryf hoe dinge werk' is, en omdat die inhoudskolom alleen geen enkele voorwerp gee waaraan 'n leerder die idee kan vashou nie. Sien vir_drico. Die laaste inskrywing dra twee toestelle saam omdat hulle mekaar se helftes is (verdraai en saamdruk); die skrywer mag al drie in een lysblok hanteer.",
+
+   "aanvulling": [],
+   "aanvulling_nota": "Geen. Niks slaag die toets nie - die les dra reeds meer as wat KABV se drie sinne alleen dra, en enigiets verder sou 'n benoemde KABV-item verdring. Wat aanvulling LYK maar dit nie is nie: die terugtrek-teen-jou-vingers-bewys (dit is die studieteks se verpligting sedert lesse geen vrae meer dra nie) en die uitgerekte veer (dit is daar om 'n oorbewering te keer, nie om iets by te sit nie).",
+
+   "moeilike_konsepte": [],
+   "moeilike_konsepte_nota": "GEEN eli10-blok, en dit is 'n besluit en nie 'n oorsig nie. Die toets is nie 'is dit moeilik' nie maar 'is daar enige konkrete manier om dit te stel wat 'n elfjarige kan sien'. Vir die enigste kandidaat - waar die energie is terwyl die uitgerekte rekkie stil lê - is daar wel: die rekkie trek die hele tyd teen jou vingers, en die leerder kan dit self voel. Twee dinge versterk dit. EERSTENS het die leerder gestoorde energie reeds in hierdie termyn se vorige subonderwerp (brandstof) ontmoet, dus is dit nie nuwe abstrakte grond nie. TWEEDENS is 'n vergelyking vir energie presies die hoogste-risiko-analogie wat ons het, want dit is die plek waar energie 'n vloeistof word - sien die eerste feiterisiko hieronder. Die video, wat ná hierdie teks gemaak word, wys die kettie en die vliegtuig, en die aanskoulikheid is sy werk. Die dekkingsnasiener moet dus GEEN eli10-blok verwag nie. Die valideerder waarsku dat geen les 'n moeilike konsep vlag nie; die waarskuwing is verwag en hierdie nota is die antwoord daarop.",
+
+   "termdig": true,
+   "termdig_nota": "Vyf tot sewe begrip-inskrywings verwag. Verwagte inskrywings: veer (VERPLIGTEND - die homoniem), rekkie, gestoorde energie, bewegingsenergie (Graad 4 se romp), kettie, en propeller as die les die woord gebruik. 'energie' kry net een as die les dit werklik nodig het, en dan Graad 4 se sin woord vir woord. Moenie tot 'n getal opvul nie - 'n term kry 'n inskrywing omdat hy nuut is, nie omdat hy lank is nie.",
+
+   "feiterisiko": [
+    {
+     "risiko": "Energie as 'n stof.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat energie 'n vloeistof of 'n dingetjie is wat binne-in die rekkie sit.",
+     "veilige_vorm": "Die BEELD is toegelaat en hoef nie geregverdig te word nie - Drico se beslissing. 'Die rekkie hou die energie vas', 'die energie word daarin gestoor' en KABV se eie 'stoor ons energie daarin' is almal reg. Wat nooit mag nie, is die identiteitsin: energie IS nie 'n vloeistof nie en IS nie 'n voorwerp nie. Vermy ook hoeveelheidsbeelde wat die stof-kant oorsteek - 'die rekkie is vol energie', 'die energie loop uit'. DIT GELD BY ELKE PLEK IN DIE LES waar energie gestoor of vrygelaat word: die rekkie, die veer, en al drie die toestelle."
+    },
+    {
+     "risiko": "'Alles wat jy uitrek spring terug.'",
+     "valse_gevolgtrekking_om_te_vermy": "Dat uitrek altyd en oral terugspring beteken.",
+     "veilige_vorm": "Vernou die KWANTIFISEERDER, nie die onderwerp nie. 'n Rekkie spring terug SOLANK JY HOM NIE TE VER REK NIE - die algemene reël oor rekkies bly staan. Moenie dit regmaak deur van 'rekkies' na 'hierdie een rekkie' te gaan nie: dan is die sin waar en sê hy niks meer nie. As die les 'n voorbeeld wil gee van iets wat glad nie terugspring nie, hou dit by die VORM ('dit bly lank en dun') en nie by 'niks gebeur nie'."
+    },
+    {
+     "risiko": "KABV se sin noem net SAAMGEPERSTE vere.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat 'n veer net energie stoor as dit saamgedruk word.",
+     "veilige_vorm": "'Sommige vere ... ander vere ...'. Let op dat die teenoorgestelde oorbewering ewe vals is: moenie skryf dat ELKE veer albei kante toe werk nie. Baie vere is vir net een van die twee gemaak."
+    },
+    {
+     "risiko": "Die kettie/katapult.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat 'n kind een kan maak of gebruik.",
+     "veilige_vorm": "KABV se eie voetnoot: baie gevaarlik, onderwyserdemonstrasie. Die teks BESKRYF hoe dit werk - dit is 'n kern-item en mag nie weggelaat word nie - maar noem geen materiale, geen bou-stappe en geen mikpunt nie, en sê dat 'n onderwyser dit wys. 'n Beskrywing is nie 'n opdrag nie; moenie die item uitsny in 'n poging om die waarskuwing te gehoorsaam nie."
+    },
+    {
+     "risiko": "'Al die energie wat jy insit, kom weer uit.'",
+     "valse_gevolgtrekking_om_te_vermy": "Dat die rekkie presies teruggee wat hy gekry het.",
+     "veilige_vorm": "Sê dat jy beweging kry. Moenie kwantifiseer nie - nie 'alles kom weer uit' nie en ook nie 'iets gaan verlore' nie. Albei is buite hierdie les se bestek en albei is maklik verkeerd."
+    },
+    {
+     "risiko": "Die rekaangedrewe vliegtuig.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat die rek die vliegtuig stoot.",
+     "veilige_vorm": "Die gedraaide rek draai die PROPELLER, en die propeller trek die vliegtuig vorentoe. Moenie sê hoe ver of hoe lank so 'n vliegtuig vlieg nie."
+    },
+    {
+     "risiko": "Die Jack-in-'n-box.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat elke speelding wat uitspring 'n veer binne-in het.",
+     "veilige_vorm": "Beskryf die soort met 'n veer binne-in, wat KABV se voorbeeld is. Moenie 'n bewering oor alle sulke speelgoed maak nie."
+    },
+    {
+     "risiko": "Die woorde 'inset' en 'uitset'.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat hulle hier iets anders beteken as in Graad 4 of as by die brandstof-subonderwerp.",
+     "veilige_vorm": "Graad 4 se afgelewerde sinne bly geld: inset is die energie wat by 'n masjien ingaan voordat hy kan werk, uitset is al die energie wat by hom uitkom wanneer hy werk. KABV se assesseringsriglyn gebruik 'uitset energie (beweging)' vir juis hierdie les, dus is die woord welkom - maar dan met daardie betekenis."
+    }
+   ],
+
+   "fokusvraag_skakel": "Lewer die hele vraag, want die subonderwerp is een les: die leerder sien wat 'n mens aan 'n rekkie of 'n veer doen, waar daardie energie bly terwyl niks gebeur nie, en watter beweging uitkom wanneer jy laat los - en dan wys drie alledaagse dinge dat dieselfde ketting elke keer werk.",
+   "fokusvraag_skakel_nota": "Beplanner-v1.2 waarsku daarteen om een les die hele tema te laat dra, en die waarskuwing is hier erken eerder as oortree: die VRAAG is klein gestel (twee voorwerpe, drie handelinge, drie benoemde toestelle) sodat 375 woorde dit kan lewer. Die dekkingsnasiener hou die konsep aan hierdie sin en aan niks wyer nie."
+  }
+ ]
+}
