@@ -231,3 +231,24 @@ that it reads as prescribed prose. A coverage checker caught "a photo is the FIR
 that captures a moment as it really looked" sitting in a field whose own fact-risk note
 forbids "first" claims — it was meant as the narrowed contrast, not as text to write.
 State what a field **requires**, not how the sentence should read.
+
+### The status field looks like it lies, and it does not — the gate moves it between passes
+
+Two writers in a row have reported that the status field "was recorded as fixed without
+being fixed": their own previous note said it had been set back to draft, and they opened
+the file to find `gated`. Neither was wrong about what it saw, and there is no bug. The
+sequence is:
+
+1. the writer sets the status to draft and records that in its note;
+2. **the gate runs and passes, and sets the status to gated**;
+3. the next writer opens the file, sees `gated` beside a note saying draft, and reasonably
+   concludes the note was false.
+
+So it is a benign race between the writer and the gate, not a broken field — and it will
+recur every time a lesson is revised and gated between two writer passes, which is most
+of them. **Do not send anyone to chase it.** Say in the brief that the gate has run since
+the note was written, if it has.
+
+The writers' general lesson stands and is worth keeping separately from this: *a note
+saying a field was changed is not evidence that it was; re-reading the field is the only
+evidence.* That is true, and it is why both of them checked.
