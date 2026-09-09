@@ -1,0 +1,79 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.2",
+  "les": "Skepe wat nie wind nodig het nie",
+  "kaps_punt": "Die eerste stoomskepe; Moderne vorms van vervoer van water",
+  "verdict": "HERSIEN",
+  "items": [
+    {
+      "bewering": "'n Pot se deksel rammel elke keer as die stoom by die rand uitkom.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die meganisme is korrek en in die regte orde: stoomdruk bou op onder die deksel, lig dit, die stoom ontsnap by die rand, die druk val en die deksel sak terug, en die siklus herhaal solank die water kook. Nagegaan teen Wikipedia 'Steam digester' (Papin se 1679-vat: 'a closed vessel with a tightly fitting lid that confines steam', en die deksel word deur die stoom gelig) en teen Chemistry LibreTexts 13.10 'Vapor Pressure Curves' vir die druk-en-kook-verband. Een noot vir 'n mens, nie 'n bevinding nie: die rammel vra 'n los deksel. 'n Swaar of geventileerde deksel kan stoom by die rand deurlaat sonder om te rammel, so 'elke keer' is die enigste woord in die sin wat wyer is as die fisika. Die beeld self is waar en algemeen bekend, en ek stel nie voor dat dit versag word nie."
+    },
+    {
+      "bewering": "'n Skip se ketel laat die stoom nie in die lug uitkom nie.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "As absolute stelling is dit onwaar. SOLAS Kapittel II-1 vereis dat elke stoomketel en elke onbevuurde stoomopwekker van 'not less than 2 safety valves' voorsien word, gestel op sowat 3% bo werkdruk, en daardie ventiele blaas die oortollige stoom in die atmosfeer uit (Marine Insight, 'Understanding Boiler Safety on Ships - Common Risks And Safety Features'; Maritime Education, 'Safety Valves of the Marine Boilers'). 'n Ketel wat stoom werklik nooit kan uitlaat nie, is presies die toestand wat ketels laat bars: Papin het sy veiligheidsventiel juis bygevoeg nadat vroeë toe drukvate ontplof het (Wikipedia, 'Steam digester': 'Later designs implemented a steam release valve to keep the machine from exploding'), en steamlocomotive.com se 'Steam Pressure Safety Valves' stel dit direk - 'without a safety valve, a steam boiler could explode unless operated with great care'. Die stoom se ontsnapping is ook hoorbaar en sigbaar: dieselfde bron beskryf die afblaas as baie hard en as verkwisting van brandstof.",
+      "regstelling": "Die minimale regstelling is om die absolute vorm te laat val en te sê wat die ketel wel doen: die ketel is sterk en toe, en die stoom kan net op een plek uit - deur die pype na die enjin. Dit hou die kontras met die pot (waar die stoom net by die rand wegwaai) sonder om te beweer dat die stoom nooit in die lug beland nie. Die veiligheidsventiel hoef nie in 'n eli10-blok verklaar te word nie; wat moet verdwyn, is die aanspraak dat daar geen uitweg is nie."
+    },
+    {
+      "bewering": "Daarom stoot dit baie harder as jou pot se stoom.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Die grootte-vergelyking self hou, en met ruim marge. 'n Pot met 'n los deksel bly in wese by atmosferiese druk (ongeveer 1 atmosfeer) - die dekseleffek is klein tensy die vat werklik geseël is, wat 'n drukkoker doen en 'n kastrol nie (Chemistry LibreTexts 13.10 'Vapor Pressure Curves'). Skeepsketels loop baie hoër: die vroegste seeketels 4-6 psi, en Royal Navy-stoomvaartuie tot 1840 op sowat 4 psi (Shipping Wonders of the World, 'Early Marine Boilers'); later 100-220 psi, met die Titanic se Scotch-ketels op 215 psi, sowat 14,6 atmosfeer (Wikipedia, 'Scotch marine boiler'). Selfs die swakste vroeë ketel is dus 'n orde of twee sterker as 'n pot se deksel. 'Baie harder' is waar; dit is net die oorsaak wat die volgende item aanspreek."
+    },
+    {
+      "bewering": "'n Skip se ketel laat die stoom nie in die lug uitkom nie. Daarom stoot dit baie harder as jou pot se stoom.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "Die feit is waar, die oorsaak is verkeerd, en die oorsaak is die deel wat 'n leerder onthou. Druk in 'n toe vat styg omdat hitte aanhou bygevoeg word aan water in 'n vat wat sterk genoeg is om dit te hou: die volume is vas, dus lig verdere hitte die druk en die temperatuur saam (LearnChemE, 'Heating water in a closed vessel'; ScienceDirect Topics, 'Superheated Steam'). Toemaak alleen lewer geen krag nie - dit is die vuur wat aanhou brand plus 'n vat wat sterk gebou is (gekorrugeerde vuurherde en stutte, Wikipedia 'Scotch marine boiler'). Verder: die stoot wat die skip beweeg, kom nie van stoom wat ingehou word nie, maar van stoom wat in een gekose rigting uitgelaat word - deur pype na die silinder, waar dit teen die suier werk en daarna uitgelaat of gekondenseer word (Wikipedia, 'Marine steam engine'; Wikipedia, 'Cutoff (steam engine)': die stoom lewer arbeid deur uit te sit en uitgelaat te word). Die vroegste stoomskepe wys dit die skerpste: hulle ketels het net 4-6 psi gedra en die krag het grootliks uit die vakuum van gekondenseerde stoom gekom, nie uit ingehoue stoom nie (Shipping Wonders of the World, 'Early Marine Boilers'). Let ook op dat 'stoot' hier geen voorwerp het: in die pot stoot die stoom die deksel, maar op die skip stoot dit volgens hierdie sin niks nie, en die naaste ding wat oorbly om teen te stoot, is die ketel se eie wande.",
+      "regstelling": "Skryf die oorsaak by die regte ding. Die stoom stoot harder omdat die vuur aanhou brand en die water in 'n sterk ketel aanhou kook - nie omdat die stoom toegemaak is nie. En dit stoot die skip vorentoe omdat dit deur pype na die enjin gelei word waar dit teen 'n deel kan stoot. Die woord 'Daarom' mag nie die toemaak-sin as rede opneem nie, en die stoot moet 'n voorwerp kry: dit stoot 'n deel in die enjin, nie die ketel nie."
+    },
+    {
+      "bewering": "'n Pot se deksel rammel elke keer as die stoom by die rand uitkom. 'n Skip se ketel laat die stoom nie in die lug uitkom nie. Daarom stoot dit baie harder as jou pot se stoom.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "Hierdie item is die gevolgtrekking, nie die woorde nie, want dit is die gevolgtrekking wat in 'n ander gedaante kan terugkom. Die drie sinne saam bou 'n reel: die pot laat stoom uit en stoot swak; die ketel laat stoom nie uit nie en stoot hard; dus hoe digter jy iets toemaak, hoe harder stoot die stoom. Een stap verder is dit vals en gevaarlik. In die huis: hou jou pot se deksel vas of maak dit heeltemal toe en die stoom sal harder stoot. Dit is verkeerd - 'n geblokkeerde stoomuitlaat op 'n drukkoker laat die druk onbeheerd styg tot die vat swig, en 'n geblokkeerde ventiel is een van die standaard oorsake van drukkoker-ongelukke en brandwonde. Op die skip of die lokomotief: 'n ketel wat digter toe is, gee meer krag. Dit is die presiese fout wat ketels laat ontplof het - veiligheidsventiele is in die vroee spoorwegdae vasgebind 'to achieve a little more power out of the engine', en die Best Friend of Charleston het op 17 Junie 1831 ontplof nadat 'n bemanningslid die ventiel vasgebind het (steamlocomotive.com, 'Steam Pressure Safety Valves'; Engineering Wiki, 'Boiler explosion'). Papin se eie antwoord op 'n toe vat was om 'n ventiel by te sit, nie om dit digter te maak nie (Wikipedia, 'Steam digester'). Die blok se sin 2 sluit juis die enigste feit uit wat hierdie stap sou keer, naamlik dat 'n ketel stoom uitlaat wanneer die druk te hoog word.",
+      "regstelling": "Die vals gevolgtrekking wat nie mag oorbly nie: 'digter toemaak gee meer stoot.' Die blok moet die harder stoot aan die aanhoudende vuur en die sterk ketel toeskryf, en aan die feit dat die stoom na een plek gelei word waar dit werk kan doen. Sodra die vergelyking se rede die krag van 'sterk gebou en aanhou kook' kom, wys dieselfde een-stap-verder die regte kant uit: 'n gewone pot is nie sterk gebou nie, dus kan 'n pot nooit 'n ketel wees nie. Moenie die pot-beeld weggooi nie; die rede daaragter moet verander."
+    },
+    {
+      "bewering": "'n Pot se deksel rammel elke keer as die stoom by die rand uitkom. [...] Daar stoot die stoom 'n deel heen en weer.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "Karteringsgaping: die deksel is die enigste ding wat in die bekende prentjie beweeg, en dit kry geen teenhanger op die skip nie. Die pot word na sin 3 laat val, en sinne 4-6 is 'n gewone meganisme-beskrywing sonder enige bekende ding daarnaas. Twee dinge op die skip pas by 'n deksel wat lig en weer sak, en die blok sny albei af. Die een is die suier: dit word letterlik heen en weer gestoot, presies soos 'n deksel wat op en af gaan, en dit is die verband wat Papin self gemaak het - deur die ventiel se ritmiese op-en-af te sien, het hy die suier-en-silinder-enjin bedink (Wikipedia, 'Steam digester'; Britannica se Papin-inskrywing, saamgevat uit soekresultate: 'Observing that the enclosed steam in his cooker tended to raise the lid, Papin conceived of the use of steam to drive a piston in a cylinder'). Die ander is die veiligheidsventiel, wat by 'n gestelde druk lig, stoom uitlaat en weer toeval - 'n deksel in alles behalwe naam - en sin 2 ontken dit uitdruklik. Die gevolg is dat die stoom se stoot in die pot deur die ontsnapping veroorsaak word, terwyl die blok se skip glad nie laat ontsnap nie, en dan drie sinne later 'n deel onverklaard laat beweeg. Die skarnier van die analogie is dus omgekeer.",
+      "regstelling": "Bind die deksel aan die deel wat die stoom in die enjin stoot. 'n Deksel wat lig en weer sak, is wat die suier doen: dit word heen en weer gestoot. Die 'deel' in sin 5 moet by die bekende beeld uitkom in plaas daarvan dat die deksel niks op die skip is nie. As die deksel geen teenhanger kan kry nie, is die vergelyking beter af sonder die deksel, want 'n bekende beeld wat op niks afloop, laat 'n leerder self 'n teenhanger kies - en die naaste een is die ketel wat self stoot."
+    },
+    {
+      "bewering": "Die stoom kom deur pype by die enjin uit, 'n aparte masjien.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Korrek, en dit is die sin wat 'n algemene wanbegrip regstel. 'n Skeepsketel is 'n toe drukvat wat stoom maak; die stoom word deur pype na 'n aparte enjinkamer gelei. Wikipedia 'Fire room': die vuurkamer of ketelkamer is die ruimte waar water gekook is, en die stoom is na 'n aparte enjinkamer oorgedra, dikwels onmiddellik agter. Wikipedia 'Engine room': die enjinkamer huis die vaartuig se aandrywer. Firgelli, 'Marine Boiler Mechanism Explained' en Global Boiler Services, 'Understanding ship boilers': hoedrukstoom uit die ketel word na die enjinkamer gepyp om die aandryfenjins of turbines te dryf. Die ketel en die enjin is dus werklik twee masjiene."
+    },
+    {
+      "bewering": "Daar stoot die stoom 'n deel heen en weer.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Korrek vir 'n suierstoomenjin: die suier beweeg heen en weer in die silinder, en in 'n dubbelwerkende enjin word stoom afwisselend teen albei kante van die suier toegelaat, sodat dit in beide rigtings gestoot word (Wikipedia, 'Marine steam engine': 'steam is applied to both sides of the piston'; Wikipedia, 'Cutoff (steam engine)' vir die uitsit-en-uitlaat-siklus). Die woord 'deel' laat die suier ongenoem, wat vir 'n eli10-blok verdedigbaar is; die beweging self is reg beskryf."
+    },
+    {
+      "bewering": "'n Stang maak daarvan 'n draai.",
+      "blok": "eli10: Hoe die stoomskip werk",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "Dit gee die werk aan die verkeerde deel. 'n Stang wat heen en weer beweeg, kan uit sigself geen draai maak nie; die omskakeling word deur die kruk of krukas gedoen, en die dryfstang dra die beweging daarheen. Die bronne stel dit as 'n paar, nooit as die stang alleen: die dryfstang verbind die suier aan die kruk of krukas, en saam vorm hulle die meganisme wat heen-en-weer-beweging in draaibeweging omskakel; die krukas is die deel wat die lineere suierbeweging na rotasie oorsit (Wikipedia, 'Crankshaft'-materiaal en tegniese opsommings uit die soek; Wikipedia, 'Marine steam engine' beskryf die ketting as suierstang na 'n dwarskop, en van daar 'n dryfstang na sy eie krukas). Die punt wat 'n leerder mis, is juis die enigste moeilike stap in die hele meganisme: hoe word heen-en-weer rond-en-rond.",
+      "regstelling": "Noem die stap wat die draai maak: die stang is nie in die middel van die wiel vas nie maar aan die kant daarvan, en daardie afgeskuifde punt is wat heen-en-weer in rond-en-rond verander. Dit hoef nie die woord krukas te gebruik nie, maar die stang mag nie die draai op sy eie maak nie. Dit is 'n byvoeging, nie 'n snoei nie: die bestaande sin bly staan met die vaspunt bygevoeg."
+    }
+  ],
+  "opsomming": "Net die eli10-blok is nagegaan: die pot-en-ketel-vergelyking is self waar en die grootte-verskil hou, maar die blok skryf die harder stoot aan die toemaak toe, en 'n leerder wat een stap verder dink, kom uit by 'digter toemaak gee meer stoot' - die presiese gevolgtrekking waarmee veiligheidsventiele vasgebind is en ketels ontplof het; daarby is die deksel, die enigste ding wat in die bekende beeld beweeg, aan niks op die skip verbind nie, en die laaste sin gee die draai-werk aan die stang in plaas van aan die kruk."
+}
