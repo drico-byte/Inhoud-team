@@ -47,6 +47,39 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paaie as P  # noqa: E402
 
 
+def _stroom_kan_afrikaans_druk():
+    """Make stdout and stderr able to carry Afrikaans, whatever the console is.
+
+    Windows consoles default to a legacy codepage — cp1252 here — which cannot
+    encode U+0149, the Afrikaans n-with-apostrophe. That character is in the CAPS
+    text of most Life Skills lessons, so printing an ordinary approval raised
+    UnicodeEncodeError and the runner died *after* writing the approval and the
+    PDF. A completed sign-off looked like a crash, which is the worst way for
+    this to fail: the operator's next move is to re-run or to assume the lesson
+    was rejected.
+
+    UTF-8 first, so the text is right on any modern terminal. If the stream will
+    not take it, fall back to replacing the unencodable characters rather than
+    raising — a lesson title with a "?" in it is a blemish; losing the approval
+    message is a bug. Never let output formatting decide whether work counts as
+    done.
+    """
+    for stroom in (sys.stdout, sys.stderr):
+        herstel = getattr(stroom, "reconfigure", None)
+        if herstel is None:          # not a regular text stream (piped, wrapped)
+            continue
+        try:
+            herstel(encoding="utf-8")
+        except (ValueError, OSError):
+            try:
+                herstel(errors="replace")
+            except (ValueError, OSError):
+                pass
+
+
+_stroom_kan_afrikaans_druk()
+
+
 # ---------------------------------------------------------------- small helpers
 def nou():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")

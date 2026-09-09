@@ -31,6 +31,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paaie as P  # noqa: E402
@@ -452,6 +453,78 @@ def een(pad):
     return uit
 
 
+def verifieer(paaie, begin):
+    """Prove the export matches the approved lessons. Returns a list of problems.
+
+    WHY THIS EXISTS. The export folder is gitignored, so nothing versions it and
+    nothing notices a loss: a PDF that was never made and one that vanished look
+    identical, and both look identical to one that is three weeks stale. On
+    2026-09-09 the folder held 37 Life Skills PDFs and later held 8, and because
+    the run had been checked by counting rather than by verifying, the gap was
+    found by accident. A count is not a check.
+
+    So this asks the only question that matters for the deliverable: does every
+    APPROVED lesson have a file that this run actually wrote?
+
+    Three failures, and the middle one is the quiet one:
+
+      missing    an approved lesson has no file at all
+      stale      the file predates this run, so nothing was written for it now --
+                 this is what a silently failed render looks like
+      collision  two lessons resolve to one output name, so one overwrote the
+                 other and a lesson is gone with no error anywhere. The naming
+                 code already carries a comment about having done exactly this
+                 once, which is reason enough to test for it rather than trust it.
+
+    Drafts are exported too but only approved lessons are held to this: a draft
+    is working material, and the folder that goes to the language checker is not.
+    """
+    probleme = []
+    verwag = {}
+
+    for p in paaie:
+        try:
+            les = P.lees_json(p)
+        except Exception as e:                       # unreadable is its own answer
+            probleme.append(f"could not read {P.rel(p)}: {e}")
+            continue
+        uit = uitvoer_pad(les, p)
+        verwag.setdefault(uit, []).append((p, (les.get("status") or "").lower()))
+
+    for uit, bronne in sorted(verwag.items()):
+        if len(bronne) > 1:
+            noem = ", ".join(P.rel(b) for b, _ in bronne)
+            probleme.append(f"COLLISION  {len(bronne)} lessons share one output name\n"
+                            f"             {P.rel(uit)}\n"
+                            f"             {noem}\n"
+                            f"             Only the last one survives; the rest are lost.")
+
+    goedgekeur = [(uit, b) for uit, bronne in verwag.items()
+                  for b, s in bronne if s == "goedgekeur"]
+    for uit, bron in sorted(goedgekeur):
+        if not os.path.exists(uit):
+            probleme.append(f"MISSING    {P.rel(bron)}\n             expected {P.rel(uit)}")
+        elif os.path.getsize(uit) < 4096:
+            probleme.append(f"EMPTY      {P.rel(uit)} is {os.path.getsize(uit)} bytes")
+        elif os.path.getmtime(uit) < begin:
+            probleme.append(f"STALE      {P.rel(uit)}\n"
+                            f"             left over from an earlier run; nothing was "
+                            f"written for {P.rel(bron)} now")
+
+    # Count the approved lessons that are actually sound rather than subtracting
+    # problems from the total: a collision is one problem naming several lessons,
+    # so subtraction would report a number that is not the number of good files.
+    slegte_bronne = {ln.split()[-1] for pr in probleme for ln in pr.splitlines()
+                     if ln.strip().startswith(("MISSING", "EMPTY", "STALE"))}
+    goed = sum(1 for uit, _ in goedgekeur
+               if os.path.exists(uit) and os.path.getsize(uit) >= 4096
+               and os.path.getmtime(uit) >= begin)
+    print(f"  approved lessons: {len(goedgekeur)}   "
+          f"files written by this run: {goed}   "
+          f"problems: {len(probleme)}")
+    return probleme
+
+
 def main():
     ap = argparse.ArgumentParser(description="Make a readable PDF of a lesson")
     ap.add_argument("lesson", nargs="?", help="path to a lesson JSON")
@@ -480,13 +553,39 @@ def main():
     if not paaie:
         print("\nNo lessons found.\n")
         return 1
+
+    # A second's grace: a file written in the same second the run starts can carry
+    # an mtime a hair below it on some filesystems, and a false stale report would
+    # train people to ignore the check.
+    begin = time.time() - 1
+
     print()
+    gedoen = []
     for p in paaie:
         if not os.path.exists(p):
             print(f"  missing: {P.rel(p)}")
             continue
         een(p)
+        gedoen.append(p)
     print()
+
+    if not a.alles:
+        return 0
+
+    # --alles is the one that builds the deliverable, so it is the one that has to
+    # prove it built it. A single-lesson run is a person looking at one thing.
+    probleme = verifieer(gedoen, begin)
+    if probleme:
+        print()
+        print("  THE EXPORT DOES NOT MATCH THE APPROVED LESSONS")
+        print("  " + "-" * 44)
+        for pr in probleme:
+            print(f"  {pr}")
+        print()
+        print("  Do not send this folder anywhere until these are resolved.")
+        print()
+        return 1
+    print("  Every approved lesson has a file written by this run.\n")
     return 0
 
 

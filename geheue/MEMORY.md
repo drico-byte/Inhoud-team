@@ -60,3 +60,4 @@
 - [A glossary entry is read alone](n-begrip-word-alleen-gelees.md) — three times in one day an entry was true only inside its own block; read it with the rest of the lesson deleted and ask what else it fits.
 - [Gr 4 Creative Arts: the theory hours](skeppende-kunste-gr4-teorie-ure.md) — 8 hours of 60, divided by term; the term-by-term plan beats the overview where they clash; and the three identical appreciation hours differ by emphasis, which is our design choice and not CAPS.
 - [Repetition across subjects is good](herhaling-oor-vakke-heen-is-goed.md) — do not narrow a lesson to avoid saying what another subject says; only the agreed wording and non-contradiction bind.
+- [lees/ is an outbox, not an archive](lees-is-n-uitbak-nie-n-argief-nie.md) — Drico moves PDFs out to the language check and the HTML team; a gap there is normal, and the real copy lives beside the lesson.
