@@ -47,3 +47,34 @@ Related: [[n-skrip-wat-parse-is-nie-n-skrip-wat-werk-nie]] (the same lesson abou
 code that runs without working), [[n-feiterisiko-is-nie-n-regstelling-nie]] and
 [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]] — both about the spec being
 trusted as settled, which is what makes a false repair expensive.
+
+## A loose search condition is the same bug wearing a match
+
+9 September 2026. I had already recorded that a non-matching replace must fail loudly.
+Then I wrote a loop that searched for a field containing `"enjin"` **and** `"dier"`,
+took the **first** hit, and stamped a dated correction on it. The claim I was fixing
+lived one field further down. The field I stamped said something else entirely — and
+something **correct**: that one engine can pull a load no team of animals could move
+on an ordinary road.
+
+So the assertion protected me from nothing. The search matched, the write succeeded,
+the script reported success, and a correct requirement now carried a correction it did
+not need while the false one carried nothing. Worse than the silent no-op, because the
+note *reads* as authoritative wherever it lands.
+
+**The rule has a second half:** assert on an **exact string from the claim you are
+fixing**, never on a combination of words that could co-occur elsewhere. And never
+`break` on the first hit — count the matches and assert the count is what you expected.
+If two fields match, that is information (see
+[[n-spek-se-dieselfde-ding-in-twee-velde]]), not a reason to take one and stop.
+
+**The cheap guard that would have caught it:** the printing discipline from
+[[n-feiterisiko-is-nie-n-regstelling-nie]] *did* print all seven requirements in the
+same run. The false claim was visible in `kern[4]` in my own output. I read the print
+as a formality rather than as the thing to check, which is the failure mode a
+discipline acquires once it starts working. **Read the print before trusting the
+match**, not after.
+
+Three misplacements now, all from loose matching: a regex that left the old opening in
+place, a blanket replace that rewrote the caution quoting the phrase as forbidden, and
+this one.
