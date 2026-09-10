@@ -330,9 +330,19 @@ def main():
 
     print(f"{len(drif)} van die {len(gedeel)} gedeelde terme dryf uiteen.")
     if besluite:
-        beslis = sum(1 for t in drif if t in besluite)
+        # Membership is not settlement. An entry may be OPENED in the agreed list --
+        # given a name, a note and three routes -- with its 'omskrywing' still empty,
+        # precisely to record that nobody has chosen yet. Counting those as settled
+        # told the reader the opposite of the truth the entry was written to record,
+        # and it did so the same hour the first such entry was added.
+        beslis = sum(1 for t in drif if (besluite.get(t) or {}).get("omskrywing"))
+        oop_maar_gemerk = sum(1 for t in drif
+                              if t in besluite and not (besluite.get(t) or {}).get("omskrywing"))
         print(f"{beslis} daarvan het reeds 'n besliste bewoording "
               f"(sien {'; '.join(besluit_bronne)});")
+        if oop_maar_gemerk:
+            print(f"{oop_maar_gemerk} staan in daardie lys met 'n LEE bewoording - opgeteken as oop, "
+                  f"nie beslis nie.")
         print("vir die res moet een bewoording wen. 'n Derde bewoording maak dit erger.")
     else:
         print("Een bewoording moet wen. 'n Derde bewoording maak dit erger.")
