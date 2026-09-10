@@ -83,3 +83,4 @@
 - [Three ways to fix a claim](drie-maniere-om-n-bewering-reg-te-maak.md) — Drico: we NEVER keep a false claim; narrow the quantifier, cut it, or teach the mechanism, in that order of preference.
 - [When CAPS itself is wrong](wanneer-kaps-self-verkeerd-is.md) — seven errors found so far; ride with CAPS on a NAME, correct it on a MECHANISM the learner will reason with.
 - [Gr 5 NWT: where we are](gr5-nwt-waar-ons-is.md) — 29 lessons drafted and gating in band, ~130 errors fixed, checks converging; run the drift sweep after every wording change.
+- [Bones placed the way they lie in a human](mensgesentreerde-orientasie.md) — three times in one sub-topic, in a lesson whose own examples are a dog and a lizard; state the position neutrally, and never narrow the animal instead.
