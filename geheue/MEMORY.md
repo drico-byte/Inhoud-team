@@ -84,3 +84,4 @@
 - [When CAPS itself is wrong](wanneer-kaps-self-verkeerd-is.md) — seven errors found so far; ride with CAPS on a NAME, correct it on a MECHANISM the learner will reason with.
 - [Gr 5 NWT: where we are](gr5-nwt-waar-ons-is.md) — 29 lessons drafted and gating in band, ~130 errors fixed, checks converging; run the drift sweep after every wording change.
 - [Bones placed the way they lie in a human](mensgesentreerde-orientasie.md) — three times in one sub-topic, in a lesson whose own examples are a dog and a lizard; state the position neutrally, and never narrow the animal instead.
+- [The provenance note grows into its own blocker](die-herkoms-nota-groei-tot-sy-eie-blokkasie.md) — 55 KB on one line stopped a writer dead; split it with bin/herkomsargief.py, and never fix it by asking writers to record less.
