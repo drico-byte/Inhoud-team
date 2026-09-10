@@ -80,3 +80,6 @@
 - [My correction in the spec was itself the next error](my-regstelling-in-die-spek-was-self-die-volgende-fout.md) — I prescribed the fix instead of describing the fault, and it built a new false picture at the same spot within hours.
 - [A corrected field can still carry another fault](n-reggemaakte-veld-kan-nog-n-ander-fout-dra.md) — my sweeps skipped every field already marked REGGEMAAK, exempting exactly the fields most likely to be wrong; sweep on the claim, and assert nothing live survives.
 - [Recording a finding at source is not fixing it](n-bevinding-by-die-bron-opteken-is-nie-dit-regmaak-nie.md) — I wrote two contradicted claims into the spec as guards, felt done, and left the draft still saying the false thing; fix at source AND dispatch, in the same breath.
+- [Three ways to fix a claim](drie-maniere-om-n-bewering-reg-te-maak.md) — Drico: we NEVER keep a false claim; narrow the quantifier, cut it, or teach the mechanism, in that order of preference.
+- [When CAPS itself is wrong](wanneer-kaps-self-verkeerd-is.md) — seven errors found so far; ride with CAPS on a NAME, correct it on a MECHANISM the learner will reason with.
+- [Gr 5 NWT: where we are](gr5-nwt-waar-ons-is.md) — 29 lessons drafted and gating in band, ~130 errors fixed, checks converging; run the drift sweep after every wording change.
