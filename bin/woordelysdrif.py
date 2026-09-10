@@ -51,9 +51,16 @@ def lesse(wortel):
     and contributed no wording to it. The number was the damage. This tool
     prints that number precisely so a reader knows how wide the claim is, and a
     doubled scope is the same lie as a narrow sweep reported as a clean one.
+
+    IT HAPPENED AGAIN, 10 September 2026, in a new costume. `feite-kopie/les-3.json`
+    is the copy handed to the fact checker with the provenance note stripped, added
+    on 9 September -- same file name again, so the sweep read 42 where 29 lessons
+    existed. The exclusion is now a LIST rather than one name, because the next
+    directory that mirrors these file names will do this a third time.
     """
+    HERHALINGS = ("spek", "feite-kopie")   # both hold files named les-<n>.json
     for gids, _, lers in os.walk(wortel):
-        if os.path.basename(gids) == "spek":
+        if os.path.basename(gids) in HERHALINGS:
             continue
         for naam in sorted(lers):
             if LES_NAAM.fullmatch(naam):
