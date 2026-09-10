@@ -1,9 +1,11 @@
 {
   "les": "gr5/natuurwetenskappe-en-tegnologie/energie-en-elektrisiteit/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:ef62bbe66e6803a8e0681a0133df31d0",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:166a1afd378e3358a6b9127da661bd87",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:166a1afd378e3358a6b9127da661bd87"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -35,9 +37,35 @@
       "woorde": 451,
       "begroting": 430,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-10T16:09:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:166a1afd378e3358a6b9127da661bd87",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-10T16:09:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 507,
+      "begroting": 430,
+      "failures": [
+        "Study text 507 words, above budget ceiling 494 (target 430) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-10T16:09:03+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 507 words, above budget ceiling 494 (target 430) — learners will revise the textbook instead"
+      ]
     }
   ],
-  "spek_hash": "sha256:ea72c92e62a76f807f8876fc936c8fb0",
+  "spek_hash": "sha256:6e7d3863325a02341c661ed183f35bc3",
   "hek_konteks": {
     "graad": 5,
     "begroting": 430
