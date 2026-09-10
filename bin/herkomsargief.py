@@ -50,6 +50,9 @@ DREMPEL = 18000
 # How much of the tail stays in the draft. Two or three rounds, in practice.
 HOU = 6000
 
+# Stamped into the archive so a reader can see when each batch was moved.
+DATUM = "10 September 2026"
+
 WYSER = ("\n\n[HERKOMS-ARGIEF. Die ouer rondes van hierdie nota staan woordeliks in %s, "
          "langs die les. Niks is weggegooi nie. Die nota is geskuif omdat sy %d karakters "
          "op een reel bereik het en toe nie meer deur 'n skrywer gelees kon word nie - "
@@ -104,24 +107,52 @@ def verwerk(pad, hou, drempel, skryf):
     if not skryf:
         return (pad, len(nota), geskuif, "%d -> %d chars" % (len(nota), len(nuut)))
 
+    # An archive may already exist, because a split note goes on growing: the next
+    # writer appends a new round to what stayed in the draft, and a second run finds
+    # it over the threshold again. Overwriting the archive with the CURRENT note
+    # would then throw away every round the first run moved out -- the tool would
+    # destroy exactly what it exists to protect, and only on the lessons revised
+    # most often. So append, and verify BOTH halves survive.
+    vorige = ""
+    if os.path.exists(argief):
+        with io.open(argief, encoding="utf-8") as f:
+            vorige = f.read()
+
     # The archive is written and verified BEFORE the draft loses anything.
     with io.open(argief, "w", encoding="utf-8") as f:
-        f.write("# Herkoms-nota, volledig\n\n"
-                "Hierdie leer dra die HELE nota soos sy op %s gestaan het, woordeliks.\n"
-                "Die les self hou die openingsparagraaf en die jongste rondes.\n\n---\n\n"
-                % "10 September 2026")
+        if vorige:
+            f.write(vorige.rstrip("\n"))
+            f.write("\n\n---\n\n## Verdere rondes, geskuif op %s\n\n" % DATUM)
+        else:
+            f.write("# Herkoms-nota, volledig\n\n"
+                    "Hierdie leer dra die HELE nota woordeliks, oudste rondes eerste.\n"
+                    "Die les self hou die openingsparagraaf en die jongste rondes.\n"
+                    "Elke keer wat die nota weer te groot word, word die nuwe rondes hier AANGEHEG;\n"
+                    "niks word ooit vervang nie.\n\n---\n\n## Geskuif op %s\n\n" % DATUM)
         f.write(nota)
         f.write("\n")
     with io.open(argief, encoding="utf-8") as f:
         terug = f.read()
-    if nota not in terug:
-        sys.exit("ABORTED: %s does not contain the note verbatim. The draft was not touched."
-                 % argief)
+    if nota not in terug or (vorige and vorige.rstrip("\n") not in terug):
+        sys.exit("ABORTED: %s lost something. The draft was not touched." % argief)
 
     d["herkoms"]["nota"] = nuut
     with io.open(pad, "w", encoding="utf-8") as f:
         f.write(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
-    return (pad, len(nota), geskuif, "%d -> %d chars, archive %s" % (len(nota), len(nuut), os.path.basename(argief)))
+    boodskap = "%d -> %d chars, archive %s" % (len(nota), len(nuut), os.path.basename(argief))
+    if len(nuut) > drempel:
+        # Paragraphs are kept whole -- the opening one always, and the tail down to
+        # --hou -- so a note built of very few, very large sections cannot be brought
+        # under the threshold at all. Name the largest kept section, because that is
+        # the thing that has to be broken up. A run that reports success and leaves
+        # the note unreadable sends the next writer into the same wall and makes it
+        # look like the tool's fault rather than the note's shape.
+        grootste = max([len(eerste)] + [len(p) for p in stert])
+        boodskap += ("  -- STILL OVER %d: kept in whole sections, the largest of which is %d "
+                     "chars. Nothing was lost, but a writer may still not be able to read this "
+                     "note. Break that section up, or re-run with a smaller --hou."
+                     % (drempel, grootste))
+    return (pad, len(nota), geskuif, boodskap)
 
 
 def main():
