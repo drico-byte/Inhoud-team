@@ -1,292 +1,323 @@
 {
- "skema_weergawe": "1.0",
- "vak": "Natuurwetenskappe en Tegnologie",
- "graad": 5,
- "kwartaal": 2,
- "kaps_onderwerp": "Materie en Materiale",
- "kaps_onderwerp_nota": "KABV se Graad 5 Termyn 2-bladsye dra twee kennisafdelings in dieselfde kop: 'NATUURWETENSKAPPE: MATERIE EN MATERIALE' en 'TEGNOLOGIE: VERWERKING'. Anders as by die meeste subonderwerpe val hierdie een onder ALBEI helftes gelyk: die verwerking self is die tegnologie-helfte en die eienskappe is die wetenskap-helfte. Niks hier is 'n aparte tegnologie-taak nie.",
- "kaps_subonderwerp": "Verwerkte materiale",
- "kaps_subonderwerp_nota": "KABV dra hierdie subonderwerp oor TWEE afsonderlike rye in die onderwerpkolom, albei met presies dieselfde naam 'Verwerkte materiale': een ry van 3 1/2 weke op gedrukte bladsy 37 met die inhoudsopskrif 'Kombinasie van materiale', en een ry van 2 weke op gedrukte bladsy 38 met TWEE inhoudsopskrifte, 'Eienskappe en gebruike' en 'Tradisionele verwerking'. Saam is dit drie inhoudsopskrifte onder een subonderwerpnaam, en dit is waar die drie lesse vandaan kom. Wie net die eerste ry lees, mis twee derdes van die subonderwerp.",
- "kaps_ure": 19.25,
- "kaps_ure_nota": "Slegs inligting, en hier is dit die gevaarlikste veld in die spesifikasie. KABV gee 3 1/2 weke (12 1/4 uur) plus 2 weke (7 uur) = 19 1/4 uur, die grootste toekenning van enige subonderwerp in graad 5. NIKS in hierdie spesifikasie is daaruit afgelei nie. Kontakure is nooit 'n begrotingsbasis nie, en hier is die rede met die blote oog sigbaar: byna al daardie ure is praktiese werk - gips aanmaak, beton meng, deeg kook, jellie stol, klei vorm, plantvesel vleg. Daardie ure is die onderwyser se ure, nie leeswerk nie.",
- "kaps_bron": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, gedrukte bladsye 37 en 38 (PDF-bladsye 42 en 43) vir die inhoud, en gedrukte bladsy 38 (PDF-bladsy 43) vir Termyn 2 se assesseringsriglyne. Die PDF loop vyf bladsye voor die gedrukte nommers.",
- "fokusvraag": "Wat gebeur wanneer mense materiale meng en verwerk, en waarom maak die nuwe materiaal se eienskappe dit vir ons nuttig?",
- "fokusvraag_nota": "Deur die beplanner gestel, nie aangehaal nie. KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag soos Sosiale Wetenskappe nie. Hierdie een is uit KABV se drie eie inhoudsopskrifte gebou en uit die twee assesseringsriglyne wat hierdie subonderwerp raak.",
- "fokusvraag_optelling": "Les 1 lewer die eerste helfte - wat gebeur wanneer mense materiale meng, aan die hand van KABV se ses voorbeelde, en dat die nuwe ding se eienskappe KAN verskil van die dinge waarmee begin is. Les 2 lewer die tweede helfte - watter spesiale eienskappe die sewe materiale wat KABV noem het, en hoe elke eienskap 'n gebruik by die huis, die skool of in die gemeenskap moontlik maak. Les 3 dra albei helftes na buite: mense in Afrika kies al honderde jare klei, gras en riet juis vir wat daardie materiale kan doen. GEEN les dra die vraag alleen nie.",
- "profiel_konfig": "gr5-nwt-profiel.json",
- "onderwerp_woorde": 0,
- "onderwerp_woorde_nota": "0 beteken hier ONGEMEET, nie 'die boek dek dit nie'. Geen graad 5-handboek is geprofileer nie, en dit is 'n besluit en nie 'n agterstand nie: profiler.py tel elke woord op 'n bladsy, aktiwiteitsblokkies en byskrifte ingesluit, en ons lesse bevat niks daarvan nie. Onder die 'vereistes'-basis is hierdie veld nie die anker nie en niks hieronder is daaruit bereken nie.",
- "begroting_basis": "vereistes",
- "begroting_basis_nota": "Elke les kry sy eie getal uit die hoeveelheid KABV-inhoud wat dit werklik dra, en nie uit 'n meting wat eweredig gedeel is nie. Drico se twee bevindings van 9 September 2026 geld: lesse in 'n graad 5-boek is werklik verskillende lengtes (hy het een van 140 woorde en een van 525 in dieselfde boek getel), en 'n gemete begroting is opgeblaas omdat die profiler aktiwiteitsblokkies saamtel. Die drie getalle hier verskil van mekaar met opset. Hulle is uit KABV se eie getelde items afgelei: ses verpligte kombinasie-voorbeelde plus 'n aparte konseptuele punt in les 1, sewe genoemde materiale plus ses eienskapwoorde in les 2, ses genoemde produkte uit twee materiaalfamilies in les 3. Die graad 5-band 300-550 geld en al drie val binne-in dit, dus is geen vloer- of plafonuitsondering nodig nie. KONTAKURE IS NERENS GEBRUIK NIE.",
- "totale_begroting": 1320,
- "totale_begroting_nota": "520 + 440 + 360. Die som van drie afgeleide getalle, nie 'n meting nie, en dit is geen pariteitsanker teenoor enige handboek nie.",
- "herkoms": {
-  "beplanner_prompt": "beplanner-v1.2",
-  "handboek_gesien": false,
-  "datum": "2026-09-09",
-  "bronne": "Die KABV-dokument self, direk gelees (Graad 5 Termyn 2, PDF-bladsye 42 en 43, plus bladsy 41 om die vorige subonderwerp se grens te ken); kaps/gedeelde-omskrywings.json (graad 4 se ooreengekome bewoordings); kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json; kaps/beskermde-woorde.json; en die afgelewerde graad 4-spesifikasie spesifikasies/goedgekeur/gr4/natuurwetenskappe-en-tegnologie/vaste-stowwe.json, om te weet wat graad 4 reeds gelewer het. Geen handboek, geen bladsybeeld, geen ander uitgewer se lesindeling.",
-  "verdeling_besluit_deur": "Reeds beslis voordat hierdie spesifikasie geskryf is: drie lesse, een per KABV-inhoudsopskrif. Die beplanner het dit nie afgelei nie."
- },
- "verdeling_nota": "Drie lesse, een per KABV-inhoudsopskrif: 'Kombinasie van materiale', 'Eienskappe en gebruike', 'Tradisionele verwerking'. Dit is lesse 13, 14 en 15 van die 29 vir die graad 5-jaar en die laaste drie van Termyn 2; binne hierdie spesifikasie word hulle 1, 2 en 3 genommer, soos die konvensie vereis. Let op dat KABV se 3 1/2 weke aan les 1 alleen behoort en die 2 weke aan lesse 2 en 3 saam - presies die verkeerde kant om vir enigiemand wat lengte uit ure wil aflei, want les 1 se ure is byna heeltemal praktiese werk.",
- "praktiese_werk_nota": "Die maak behoort aan die onderwyser en aan die uitlegspan; die TEORIE wat die maak toets, is ons s'n. KABV se eie voetnoot by les 1 se die leerder hoef nie al ses voorbeelde uit te voer nie maar moet ten minste twee ERVAAR - dit gaan oor uitvoer, nie oor weet nie, dus bly al ses in die teks terwyl geen enkele een 'n resep word nie. Geen les gee stap-vir-stap instruksies, hoeveelhede, tye of temperature, en geen les vra 'n leerder om iets te maak nie. Wat die teks wel dra, is wat 'n mens sien voor en na, en waarom die nuwe eienskappe die ding nuttig maak.",
- "graad_4_botsings": {
-  "hoekom_hierdie_afdeling": "Hierdie subonderwerp is die plek waar graad 4 se materiaalwoordeskat die maklikste weerspreek word. Graad 4 se 'Vaste stowwe' (lesse 12 en 13, afgelewer) het onverwerkte en verwerkte materiaal, die woord 'eienskap' en vyf eienskapspare geleer, en vyf van graad 5 se sewe genoemde materiale kom uit daardie les. Elke botsing hieronder word AANGEMELD, nie stilweg herbewoord nie. Graad 4 se lys (kaps/gedeelde-omskrywings.json) word op vak EN graad opgesoek en word deur niks hier geraak nie; graad 4 bly soos afgelewer.",
-  "botsings": [
-   {
-    "term": "verwerkte materiaal",
-    "graad_4_bewoording": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
-    "waar_dit_bots": "Graad 4 se bewoording stel 'ander eienskappe' as die MAATSTAF vir verwerking, en graad 4 se eie kern se onvoorwaardelik 'die nuwe materiaal het ander eienskappe as die materiaal waarmee hulle begin het'. KABV se graad 5-sin is swakker: 'die eienskappe van die nuwe materiaal/produkte KAN verskil van die eienskappe van die materiaal waarmee ons begin het'. 'n Skrywer wat graad 4 se sin oordra, skryf 'verskil altyd' waar KABV 'kan verskil' se; 'n skrywer wat KABV se sin as omskrywing gebruik, verswak graad 4 se maatstaf.",
-    "wat_die_skrywer_doen": "Albei bly staan, elk in sy eie rol. WAAR DIE TERM OMSKRYF WORD (die begrip-inskrywing): woord vir woord graad 4 se bewoording, 'Materiaal wat mense verander het sodat dit ander eienskappe kry.' Die frases 'sodat dit ander eienskappe kry' en 'ander eienskappe' staan boonop in kaps/beskermde-woorde.json en mag nie herskryf word nie. IN DIE STUDIETEKS, waar die les oor die uitkoms van een spesifieke mengsel praat: KABV se 'kan', en dan konkreet - watter eienskappe verander het en watter dieselfde gebly het. Die twee sinne is versoenbaar sodra die tweede oor eienskappe EEN VIR EEN praat: jellie is nog nat en nog soet, maar dit hou nou sy vorm.",
-    "vir_drico": "Dit is die beplanner se leeswerk en nie 'n opgetekende beslissing nie. Wil jy dit anders he, is die keuse: graad 5 gebruik graad 4 se bewoording ongewysig (die stand hier), of graad 5 kry sy eie inskrywing wat KABV se 'kan' dra - wat 'n omskrywing oor grade heen SWAKKER sou maak, en die reel van 9 September 2026 laat verbreding oor grade heen toe maar se niks oor verswakking nie."
-   },
-   {
-    "term": "eienskap",
-    "graad_4_bewoording": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
-    "waar_dit_bots": "Die romp bots nie - graad 4 se bewoording dra met opset GEEN voorbeelde nie, juis sodat dit nie 'n eienskaplys oor 'n grens dra nie, dus pas dit hier ongewysig. Die botsing is die LYS. Graad 4 het vyf pare geleer (hard/sag, styf/buigbaar, sterk/swak, lig/swaar, waterdig/absorberend). KABV graad 5 noem vier woorde plus kleur en tekstuur: sterk, duursaam, waterdig, brandbestand, interessante kleure en teksture. Twee oorvleuel (sterk, waterdig), vier is nuut. 'n Les wat graad 5 se ses as DIE lys aanbied, stel 'n vals kontras met wat die leerder verlede jaar geleer het.",
-    "wat_die_skrywer_doen": "Gebruik graad 4 se bewoording ongewysig as die term omskryf word. Bied graad 5 se woorde as BYKOMENDE eienskappe aan, nie as 'n vervanging of 'n volledige lys nie. Onvolledig is reg; 'n vals kontras is nie.",
-    "vir_drico": "Geen beslissing nodig tensy jy 'n aparte graad 5-inskrywing wil he."
-   },
-   {
-    "term": "onverwerkte materiaal",
-    "graad_4_bewoording": "Materiaal wat mense net so in die natuur kry.",
-    "waar_dit_bots": "Les 1 se ses voorbeelde begin met gipspoeier, sement, meel, jelliepoeier, nat klei en strooi. Die woord 'begin' verlei 'n skrywer om al ses beginmateriale 'onverwerkte materiaal' te noem, en dan is dit vals: sement, gips, meel en jelliepoeier is self reeds verwerk. Graad 4 het sand, klei, steenkool, olie, hout, plantvesel, wol en vel as die onverwerktes benoem - sand, gruis, klei en strooi pas daarby, die res nie.",
-    "wat_die_skrywer_doen": "Skryf 'die materiaal waarmee ons begin' waar die herkoms nie ter sprake is nie, en gebruik 'onverwerkte materiaal' slegs waar dit werklik so uit die natuur kom. Hierdie subonderwerp hoef nie 'n enkele materiaal as onverwerk te klassifiseer nie.",
-    "vir_drico": "Geen beslissing nodig."
-   },
-   {
-    "term": "materiaal",
-    "graad_4_bewoording": "Die goed waarvan iets gemaak is",
-    "waar_dit_bots": "KABV skryf hier deurgaans 'materiaal/produkte' en maak self nie die onderskeid nie. Gips is 'n materiaal; 'n kleibaksteen en 'n jellie is produkte. 'n Skrywer wat 'materiaal' oorspan om ook 'n klaargemaakte voorwerp te dek, herskryf graad 4 se romp sonder om dit te bedoel. Voorbeelde na 'soos' mag per les verskil; die romp mag nie.",
-    "wat_die_skrywer_doen": "Graad 4 se romp bly woord vir woord. Waar 'n klaargemaakte ding bedoel word, gebruik 'n gewone woord daarvoor (baksteen, pot, mat), nie 'materiaal' nie.",
-    "vir_drico": "Geen beslissing nodig."
-   }
-  ]
- },
- "gedeelde_omskrywings_nota": "kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json dra EEN term (geraamte) en dit is met opset so: graad 5 se lys word gevul nadat al 29 konsepte geskryf is, want die konsepte wys self watter terme herhaal. Hierdie spesifikasie voeg NIKS daarby nie en die skrywer ook nie. Waar 'n term uit graad 4 se lys hier voorkom, geld graad 4 se bewoording woord vir woord - sien graad_4_botsings hierbo.",
- "beskermde_woorde_nota": "Reeds in kaps/beskermde-woorde.json en hier van toepassing: 'sodat dit ander eienskappe kry' en 'ander eienskappe' (die maatstaf vir verwerkte materiaal, uit graad 4 se subonderwerp 'vaste-stowwe') mag nie na 'anders lyk en voel' terugdryf nie - voorkoms is die GEVOLG van verwerking, nie die maatstaf nie. Verder: waar koolstofdioksied ooit genoem word, is dit koolstofdioksied en nooit koolsuurgas nie. Enige nuwe beslissing oor 'n woord in hierdie drie lesse moet in dieselfde asem in daardie leer geskryf word, anders draai die taalnasiener dit stil terug.",
- "buite_bestek": [
-  "Die praktiese take self. KABV se aktiwiteitkolom vra dat leerders materiale verwerk, 'n voorwerp uit klei modelleer, en voorbeelde van geweefde plantvesel vind. Die teks gee geen resep, hoeveelheid, tyd of temperatuur nie en vra niemand om iets te maak nie.",
-  "Die aanbieding-projek ('doen 'n aanbieding van die bevindinge deur middel van skryf, teken en foto's [Dit kan gebruik word as 'n moontlike projek]'). Dit is 'n assesseringstaak, nie leesinhoud nie.",
-  "Metale, magnete en roes. Drie van Termyn 2 se vyf assesseringsriglyne gaan daaroor en hulle staan op dieselfde bladsy as hierdie subonderwerp - maar hulle behoort aan die vorige subonderwerpe 'Metale en nie-metale' en 'Gebruik van metale'. KABV se eie aktiwiteit hier se uitdruklik 'nie-metaal materiale'. Die dekkingsnasiener moet die afwesigheid van metale hier NIE as 'n gaping aanteken nie.",
-  "Die onderskeid tussen omkeerbare en onomkeerbare verandering, en tussen fisiese en chemiese verandering. KABV vra dit nerens in hierdie subonderwerp nie, en die ses voorbeelde is nie almal dieselfde soort verandering nie.",
-  "Die herkoms van glas, keramiek, plastiek, verf en tekstiele uit onverwerkte materiaal. Dit is graad 4 se afgelewerde les 12 en dit word nie oorgedoen nie; les 2 begin by die eienskappe.",
-  "Fotosintese, energie en enige ander kennisafdeling. Hierdie subonderwerp is heeltemal Materie en Materiale."
- ],
- "geen_vrae": "Geen 'vraag'-blokke. Lesse dra sedert 2026-08-21 geen onthoudvrae nie. Die gevolg wat hier tel: die bewys wat vroeer in 'n vraag kon sit - wat 'n mens SIEN voor en na die meng - moet in die studieteks self staan, want dit is die enigste waarneembare ding wat hierdie lesse aan 'n leerder gee.",
- "teks_kom_eerste": "Soos by al die wetenskaplesse word hierdie teks EERS geskryf en die video daarna daarvolgens gemaak. Dit is nie die graad 4 Sosiale Wetenskappe-uitsondering nie: daar is geen video_naat, geen bestaande draaiboek en geen video wat die lesverdeling bepaal nie.",
- "lesse": [
-  {
-   "nommer": 1,
-   "jaarnommer": 13,
-   "jaarnommer_nota": "Les 13 van 29 vir die graad 5-jaar, en die eerste van Termyn 2 se laaste drie. Lesnommers loop deurlopend deur die jaar, nie per kwartaal nie. Die 'nommer'-veld hierbo is die posisie binne hierdie subonderwerp, soos die skema vereis.",
-   "titel": "Meng twee dinge en kry iets nuuts",
-   "titel_nota": "Werktitel en 'n leerderopskrif, nie KABV se etiket nie. KABV se opskrif is 'Kombinasie van materiale' en dit is die indeksnaam. Die skrywer mag die titel verbeter; niks in die pyplyn toets 'n titel nie.",
-   "kaps_opskrif": "Kombinasie van materiale",
-   "kaps_punt": "materiale kan verwerk word om nuwe materiaal/produkte te maak soos: vermenging en verharding (soos gips of Polyfilla en water om gips te maak), vermenging en verharding (soos sand, gruis, sement en water om beton te maak), vermenging (soos meel en water om 'n taai pasta te maak wat as gom gebruik kan word), meng en kook (soos die maak van deeg), meng en verkoel (soos jellie poeier en water om jellie te maak), vermenging, droog en/of bak (soos nat klei en strooi om klei bakstene te maak)",
-   "kaps_punte": [
-    "materiale kan verwerk word om nuwe materiaal/produkte te maak soos:",
-    "-- vermenging en verharding (soos gips of Polyfilla en water om gips te maak)",
-    "-- vermenging en verharding (soos sand, gruis, sement en water om beton te maak)",
-    "-- vermenging (soos meel en water om 'n taai pasta te maak wat as gom gebruik kan word)",
-    "-- meng en kook (soos die maak van deeg)",
-    "-- meng en verkoel (soos jellie poeier en water om jellie te maak)",
-    "-- vermenging, droog en/of bak (soos nat klei en strooi om klei bakstene te maak)",
-    "die eienskappe van die nuwe materiaal/produkte kan verskil van die eienskappe van die materiaal waarmee ons begin het"
-   ],
-   "kaps_punte_nota": "Woordeliks uit KABV, insluitend 'jellie poeier' en 'klei bakstene' wat KABV los skryf; ons teks skryf hulle as jelliepoeier en kleibakstene, wat gewone Afrikaans is. Die laaste inskrywing is 'n APARTE bulletjie in KABV en nie een van die ses nie - dit is die konseptuele helfte van hierdie les.",
-   "kaps_voetnoot": "* Leerling moet nie al hierdie voorbeelde uitvoer nie, maar moet ten minste twee van hulle ervaar.",
-   "kaps_voetnoot_nota": "Die voetnoot gaan oor UITVOER en ERVAAR - die praktiese werk - en nie oor watter voorbeelde 'n leerder moet ken nie. Dit verklein dus NIE die ses tot twee in die teks nie. Al ses word genoem, want KABV noem al ses by die naam, en genoemde items is verpligtend.",
-   "kaps_assessering": "Termyn 2 se riglyn wat hierdie les toets: 'prosesseer geselekteerde materiale deur die vermenging en beskryf hul eienskappe voor en na vermenging'. Let op 'voor en na' - dit is waarom ten minste twee van die ses 'n regte voor-en-na vergelyking moet kry en nie net 'n benoeming nie.",
-   "begroting": 520,
-   "begrotingsnota": "520 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Dit is die langste van die drie omdat dit die meeste verpligte items dra: ses genoemde kombinasie-voorbeelde plus 'n aparte konseptuele KABV-punt. Die verdeling waarop die getal rus: ongeveer 60 woorde vir die openingsidee (mense meng materiale om iets nuuts te maak), ongeveer 55 woorde per voorbeeld vir ses voorbeelde (330), ongeveer 90 woorde vir die 'eienskappe kan verskil'-punt met twee regte voor-en-na vergelykings, en ongeveer 40 woorde om af te sluit. Die hek meet teen 520 met plus-minus 15%, dus 442 tot 598. NIKS hiervan kom uit KABV se 12 1/4 uur nie; daardie ure is byna heeltemal praktiese werk. Die 520 val binne die graad 5-band 300-550, dus is geen plafonuitsondering nodig nie.",
-   "kern": [
-    "Dat mense twee of meer materiale MENG om 'n nuwe materiaal of 'n nuwe produk te maak, en dat die nuwe ding sy eie naam kry: gips, beton, gom, deeg, jellie, 'n baksteen. Dit is die sin waaruit die hele les hang en dit moet vroeg staan. Wat met die EIENSKAPPE gebeur, word hier nog nie beweer nie - dit staan in die laaste kern-inskrywing en dra KABV se woord 'kan'.",
-    "Vermenging en verharding, voorbeeld een - GIPS: gipspoeier word met water gemeng en die pap word hard. Wat ingaan is 'n los poeier en 'n vloeistof; wat uitkom is een stywe stuk wat sy vorm hou. Die les mag NIE se dit word hard omdat die water uitdroog nie, en hoef geen rede te gee nie.",
-    "Vermenging en verharding, voorbeeld twee - BETON: sand, gruis, sement en water word gemeng en dit verhard. Al vier bestanddele word genoem, want KABV noem al vier. Sement is self reeds 'n verwerkte materiaal; moenie dit 'n onverwerkte materiaal noem nie. Ook hier geen verklaring vir die verharding nie.",
-    "Die gomvoorbeeld: meel en water word gemeng, en die MENG ALLEEN maak reeds 'n taai gom wat papier aan mekaar plak. Skryf dit so.\n\nMOENIE SE DAT NIKS VERHIT OF VERKOEL WORD NIE, en moenie se meng is 'GENOEG' nie. REGGEMAAK 9 September 2026 na 'n feitenasien. Tegniese bronne se hitte is juis wat meelgom laat plak, omdat rou styselkorrels skaars swel in koue water; kunsvlytbronne gee resepte sonder kook en se dit werk, maar swakker. Die saak is dus NIE beslis nie, en die vorige weergawe van hierdie veld het die les gedwing om 'n kant te kies wat moontlik vals is.\n\nDIE VEILIGE VORM SE NET WAT WAAR IS WATTER KANT DIT OOK AL VAL: die meng op sy eie maak reeds gom. Dit beweer nie hitte voeg niks by nie, en vereis ook nie hitte nie. Dekking word teen HIERDIE bewoording getoets.",
-    "Meng en kook - DEEG: meel, water en die ander bestanddele word tot deeg gemeng en die deeg word gebak. Die twee stappe bly uit mekaar: die meng gee die deeg, die hitte gee die brood. Rys, gis en enige verklaring vir die rys bly heeltemal buite hierdie les.",
-    "Meng en verkoel - JELLIE: jelliepoeier word in warm water geroer en die mengsel word koud gemaak, waarna die vloeistof 'n bewerige vaste ding is wat sy vorm hou wanneer 'n mens dit uit die bakkie keer. Hierdie een is die duidelikste voor-en-na van die ses en verdien om een van die twee volledige vergelykings te wees.",
-    "Vermenging, droog en/of bak - KLEIBAKSTENE: nat klei en strooi word gemeng, in 'n vorm gedruk, en dan droog gemaak en/of gebak. KABV se eie 'en/of' moet oorleef: party bakstene word net in die son droog gemaak, party word in 'n vuur of oond gebak, en die les mag nie een van die twee as die enigste manier aanbied nie. Die strooi loop deur die nat klei en hou dit bymekaar sodat die baksteen minder kraak terwyl dit droog word - dit is die enigste werk wat aan die strooi toegeken word.",
-    "KABV se tweede bulletjie, en die konseptuele helfte van die les: dat die eienskappe van die nuwe materiaal of produk KAN verskil van die eienskappe van die materiaal waarmee begin is. Die woord is KAN en nie ALTYD nie, en die manier om dit reg te skryf is eienskap vir eienskap: by ten minste twee van die ses voorbeelde word gese wat verander het EN wat dieselfde gebly het. Jellie is byvoorbeeld nog steeds nat en nog steeds soet; wat nuut is, is dat dit sy eie vorm hou.",
-    "Dat 'n mens die dinge wat gemeng is nie weer van mekaar kan SKEI nie: die meel kom nie weer uit die deeg nie en die sement kom nie weer uit die beton nie. Dit gaan oor SKEI en oor niks anders nie. Dit mag NOOIT geskryf word as 'die verandering kan nie teruggedraai word nie' nie, want dit is vals vir jellie, wat weer sag word as dit warm staan. Stel dit per voorbeeld, nooit as 'n reel oor al ses nie."
-   ],
-   "feiterisiko": [
-    {
-     "risiko": "Om te skryf dat beton of gips hard word omdat die water uitdroog.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat verharding dieselfde ding as droog word is, en dat nat beton hard sal word bloot deur dit in die son te sit. Dit is die algemeenste verkeerde meganisme oor sement wat daar is.",
-     "wat_om_te_doen": "Beskryf net wat 'n mens sien - dit begin as 'n dik pap en eindig hard - en gee geen rede nie. KABV vra geen meganisme nie, en die regte rede (die water word deel van die nuwe vaste stof) is nie graad 5-werk nie."
-    },
-    {
-     "risiko": "Om KABV se 'kan verskil' as 'verskil altyd' of 'alles verskil' te skryf, of om graad 4 se maatstaf vir verwerkte materiaal as die stelling oor hierdie ses uitkomste te gebruik.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat elke eienskap van die nuwe ding anders is as die van die begin-materiale.",
-     "wat_om_te_doen": "Vernou die kwantifiseerder, nie die onderwerp nie. Die stelling bly oor die nuwe materiaal se eienskappe; dit word net eienskap vir eienskap gemaak, met wat verander het en wat gebly het."
-    },
-    {
-     "risiko": "Om al ses voorbeelde onder een groeperende woord te vat, soos 'chemiese verandering', of om te se al ses kan nooit teruggedraai word nie.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat jellie wat gestol het en brood wat gebak is dieselfde soort verandering ondergaan het. Jellie word weer sag as dit warm word; gebakte brood word nooit weer meel en water nie.",
-     "wat_om_te_doen": "KABV vra hierdie onderskeid nerens nie. Beskryf per voorbeeld wat gebeur en hoe die gevolg is, en gebruik geen woord wat al ses as een soort verandering saamvat nie."
-    },
-    {
-     "risiko": "Om die beginmateriale 'onverwerkte materiaal' te noem omdat hulle die begin is.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat sement, gips, meel of jelliepoeier so uit die natuur gekry word. Graad 4 se afgelewerde omskrywing is 'Materiaal wat mense net so in die natuur kry' - sand, gruis, klei en strooi pas daarby, die ander vier nie.",
-     "wat_om_te_doen": "Skryf 'die materiaal waarmee ons begin'. Hierdie les hoef niks as onverwerk te klassifiseer nie."
-    },
-    {
-     "risiko": "Om 'n groter werking aan die strooi in die kleibaksteen toe te ken as wat nagegaan is.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat strooi 'n kleibaksteen so sterk soos klip of so sterk soos 'n gebakte baksteen maak.",
-     "wat_om_te_doen": "Hou by die enigste toegelate stelling, wat in kern staan: die strooi loop deur die nat klei en hou dit bymekaar sodat die baksteen minder kraak terwyl dit droog word."
-    },
-    {
-     "risiko": "Om te verklaar waarom deeg rys.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat elke deeg rys, of dat rys deel van KABV se punt is. KABV noem net 'meng en kook (soos die maak van deeg)'.",
-     "wat_om_te_doen": "Laat rys en gis heeltemal uit. Sou koolstofdioksied ooit nodig word, is dit koolstofdioksied en nooit koolsuurgas nie."
-    },
-    {
-     "risiko": "Om Polyfilla as die naam van die materiaal te gebruik.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat die materiaal Polyfilla heet. Dit is 'n handelsnaam wat KABV as voorbeeld gee.",
-     "wat_om_te_doen": "Die materiaal is gips. Die handelsnaam is nie nodig nie en die les hoef dit nie te noem nie."
-    }
-   ],
-   "aanvulling": [],
-   "aanvulling_nota": "Geen. KABV noem ses voorbeelde plus 'n konseptuele punt by die naam en dit vul 520 woorde ruim. Niks hier is onvolledig of betekenisloos sonder 'n byvoeging nie, en 'n sewende voorbeeld sou die ses wat KABV wel noem, dunner maak.",
-   "moeilike_konsepte": [],
-   "moeilike_konsepte_nota": "GEEN eli10-blok, en dit is 'n keuse. Die toets is nie of iets moeilik is nie, maar of daar enige konkrete manier is om dit te se wat 'n elfjarige kan sien. Hier is alles konkreet: 'n los poeier en water in, een harde stuk uit. Die vergelyking wat 'n mens hier sou wou maak, is presies wat die video en die klaskamer se praktiese werk self doen.",
-   "termdig": true,
-   "termdig_nota": "Verwag ongeveer vyf of ses begrip-inskrywings. Kandidate: gips, beton, sement, gruis, deeg en verhard. 'verwerkte materiaal' kry graad 4 se bewoording woord vir woord as dit ingesluit word. Moenie tot 'n getal opvul nie - 'n woord wat 'n graad 5-leerder ken (meel, water, klei) kry geen inskrywing nie.",
-   "fokusvraag_skakel": "Lewer die eerste helfte van die antwoord: wat gebeur wanneer mense materiale meng, deur KABV se ses maniere te wys, en dat die nuwe ding se eienskappe KAN verskil van die van die materiaal waarmee begin is. Hierdie les dra nie die 'waarom is dit nuttig'-helfte nie; dit is les 2 se werk."
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 5,
+  "kwartaal": 2,
+  "kaps_onderwerp": "Materie en Materiale",
+  "kaps_onderwerp_nota": "KABV se Graad 5 Termyn 2-bladsye dra twee kennisafdelings in dieselfde kop: 'NATUURWETENSKAPPE: MATERIE EN MATERIALE' en 'TEGNOLOGIE: VERWERKING'. Anders as by die meeste subonderwerpe val hierdie een onder ALBEI helftes gelyk: die verwerking self is die tegnologie-helfte en die eienskappe is die wetenskap-helfte. Niks hier is 'n aparte tegnologie-taak nie.",
+  "kaps_subonderwerp": "Verwerkte materiale",
+  "kaps_subonderwerp_nota": "KABV dra hierdie subonderwerp oor TWEE afsonderlike rye in die onderwerpkolom, albei met presies dieselfde naam 'Verwerkte materiale': een ry van 3 1/2 weke op gedrukte bladsy 37 met die inhoudsopskrif 'Kombinasie van materiale', en een ry van 2 weke op gedrukte bladsy 38 met TWEE inhoudsopskrifte, 'Eienskappe en gebruike' en 'Tradisionele verwerking'. Saam is dit drie inhoudsopskrifte onder een subonderwerpnaam, en dit is waar die drie lesse vandaan kom. Wie net die eerste ry lees, mis twee derdes van die subonderwerp.",
+  "kaps_ure": 19.25,
+  "kaps_ure_nota": "Slegs inligting, en hier is dit die gevaarlikste veld in die spesifikasie. KABV gee 3 1/2 weke (12 1/4 uur) plus 2 weke (7 uur) = 19 1/4 uur, die grootste toekenning van enige subonderwerp in graad 5. NIKS in hierdie spesifikasie is daaruit afgelei nie. Kontakure is nooit 'n begrotingsbasis nie, en hier is die rede met die blote oog sigbaar: byna al daardie ure is praktiese werk - gips aanmaak, beton meng, deeg kook, jellie stol, klei vorm, plantvesel vleg. Daardie ure is die onderwyser se ure, nie leeswerk nie.",
+  "kaps_bron": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, gedrukte bladsye 37 en 38 (PDF-bladsye 42 en 43) vir die inhoud, en gedrukte bladsy 38 (PDF-bladsy 43) vir Termyn 2 se assesseringsriglyne. Die PDF loop vyf bladsye voor die gedrukte nommers.",
+  "fokusvraag": "Wat gebeur wanneer mense materiale meng en verwerk, en waarom maak die nuwe materiaal se eienskappe dit vir ons nuttig?",
+  "fokusvraag_nota": "Deur die beplanner gestel, nie aangehaal nie. KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag soos Sosiale Wetenskappe nie. Hierdie een is uit KABV se drie eie inhoudsopskrifte gebou en uit die twee assesseringsriglyne wat hierdie subonderwerp raak.",
+  "fokusvraag_optelling": "Les 1 lewer die eerste helfte - wat gebeur wanneer mense materiale meng, aan die hand van KABV se ses voorbeelde, en dat die nuwe ding se eienskappe KAN verskil van die dinge waarmee begin is. Les 2 lewer die tweede helfte - watter spesiale eienskappe die sewe materiale wat KABV noem het, en hoe elke eienskap 'n gebruik by die huis, die skool of in die gemeenskap moontlik maak. Les 3 dra albei helftes na buite: mense in Afrika kies al honderde jare klei, gras en riet juis vir wat daardie materiale kan doen. GEEN les dra die vraag alleen nie.",
+  "profiel_konfig": "gr5-nwt-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "0 beteken hier ONGEMEET, nie 'die boek dek dit nie'. Geen graad 5-handboek is geprofileer nie, en dit is 'n besluit en nie 'n agterstand nie: profiler.py tel elke woord op 'n bladsy, aktiwiteitsblokkies en byskrifte ingesluit, en ons lesse bevat niks daarvan nie. Onder die 'vereistes'-basis is hierdie veld nie die anker nie en niks hieronder is daaruit bereken nie.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "Elke les kry sy eie getal uit die hoeveelheid KABV-inhoud wat dit werklik dra, en nie uit 'n meting wat eweredig gedeel is nie. Drico se twee bevindings van 9 September 2026 geld: lesse in 'n graad 5-boek is werklik verskillende lengtes (hy het een van 140 woorde en een van 525 in dieselfde boek getel), en 'n gemete begroting is opgeblaas omdat die profiler aktiwiteitsblokkies saamtel. Die drie getalle hier verskil van mekaar met opset. Hulle is uit KABV se eie getelde items afgelei: ses verpligte kombinasie-voorbeelde plus 'n aparte konseptuele punt in les 1, sewe genoemde materiale plus ses eienskapwoorde in les 2, ses genoemde produkte uit twee materiaalfamilies in les 3. Die graad 5-band 300-550 geld en al drie val binne-in dit, dus is geen vloer- of plafonuitsondering nodig nie. KONTAKURE IS NERENS GEBRUIK NIE.",
+  "totale_begroting": 1320,
+  "totale_begroting_nota": "520 + 440 + 360. Die som van drie afgeleide getalle, nie 'n meting nie, en dit is geen pariteitsanker teenoor enige handboek nie.",
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "datum": "2026-09-09",
+    "bronne": "Die KABV-dokument self, direk gelees (Graad 5 Termyn 2, PDF-bladsye 42 en 43, plus bladsy 41 om die vorige subonderwerp se grens te ken); kaps/gedeelde-omskrywings.json (graad 4 se ooreengekome bewoordings); kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json; kaps/beskermde-woorde.json; en die afgelewerde graad 4-spesifikasie spesifikasies/goedgekeur/gr4/natuurwetenskappe-en-tegnologie/vaste-stowwe.json, om te weet wat graad 4 reeds gelewer het. Geen handboek, geen bladsybeeld, geen ander uitgewer se lesindeling.",
+    "verdeling_besluit_deur": "Reeds beslis voordat hierdie spesifikasie geskryf is: drie lesse, een per KABV-inhoudsopskrif. Die beplanner het dit nie afgelei nie."
   },
-  {
-   "nommer": 2,
-   "jaarnommer": 14,
-   "jaarnommer_nota": "Les 14 van 29 vir die graad 5-jaar. Lesnommers loop deurlopend deur die jaar; die 'nommer'-veld hierbo is die posisie binne hierdie subonderwerp.",
-   "titel": "Elke materiaal het sy eie werk",
-   "titel_nota": "Werktitel en 'n leerderopskrif. KABV se opskrif 'Eienskappe en gebruike' is die indeksnaam, nie die titel nie.",
-   "kaps_opskrif": "Eienskappe en gebruike",
-   "kaps_punt": "materiaal soos gips, beton, tekstiele, keramiek en glas, plastiek en verf, het hul eie spesiale eienskappe",
-   "kaps_punte": [
-    "materiaal soos gips, beton, tekstiele, keramiek en glas, plastiek en verf, het hul eie spesiale eienskappe",
-    "verwerkte materiale is nuttig as gevolg van hulle spesiale eienskappe. Hulle kan sterk, duursame, waterdigte, brandbestand wees, en kom voor in interessante kleure en teksture"
-   ],
-   "kaps_punte_nota": "Woordeliks uit KABV. Die tweede sin dra KABV se eie 'kan', en dit is die woord waaraan hierdie les hang. Let ook op die opsetlike parallel: die vorige subonderwerp se KABV-sin lees 'metale is nuttig as gevolg van hulle spesiale eienskappe'. Hierdie een is dieselfde sin vir nie-metale, en die les mag die vorm gerus dieselfde hou.",
-   "kaps_aktiwiteit": "'vind voorbeelde van verskillende nie-metaal materiale wat by die huis, skool en in die gemeenskap gebruik word en verduidelik die eienskappe wat dit nuttig maak'. Die woord NIE-METAAL is die skoonste grensmerker in die hele subonderwerp.",
-   "kaps_assessering": "Termyn 2 se riglyn wat hierdie les toets: 'beskryf die bruikbaarheid van verskillende materiale by die huis, skool of gemeenskap'. Die drie plekke is nie versiering nie; hulle is die assessering se eie woorde.",
-   "begroting": 440,
-   "begrotingsnota": "440 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Dit is korter as les 1 al noem KABV hier sewe materiale teenoor ses voorbeelde, en die rede is dat vyf van die sewe (tekstiele, keramiek, glas, plastiek, verf) reeds in graad 4 se afgelewerde les 12 as verwerkte materiaal met hulle herkoms behandel is, en die ander twee (gips, beton) pas in les 13 gemaak is. Geen van die sewe hoef dus voorgestel te word nie; elkeen kos net sy eienskap en sy gebruik. Die verdeling: ongeveer 50 woorde vir die openingsidee (eienskap eers, gebruik daarna), ongeveer 210 woorde vir die sewe materiale in vier groepe, ongeveer 120 woorde vir KABV se eie eienskapwoorde elk aan 'n materiaal gekoppel, en ongeveer 60 woorde vir die huis, die skool en die gemeenskap. Die hek meet teen 440 met plus-minus 15%, dus 374 tot 506. Binne die graad 5-band 300-550.",
-   "kern": [
-    "Die skarnier van die les, en dit moet eerste staan: elke verwerkte materiaal het sy EIE spesiale eienskappe, en dit is daardie eienskappe wat bepaal waarvoor mense dit gebruik. Eienskap eers, gebruik daarna - elke materiaal hieronder volg dieselfde volgorde.",
-    "GIPS en BETON, die twee wat les 13 pas gemaak het. Gips gaan sag en glad aan en word hard, dus vul dit gate en maak 'n muur glad. Beton is sterk onder gewig, hou baie jare lank en brand nie, dus word vloere, paaie en mure daarvan gemaak. Albei word by die naam genoem, want KABV noem albei.",
-    "KERAMIEK en GLAS. Keramiek is hard, hou sy vorm, roes nie en kan warm kos vat, dus word borde, koppies en potte daarvan gemaak. Glas is hard, waterdig en 'n mens kan deur dit sien, dus word vensters en bottels daarvan gemaak. MOENIE se glas is die enigste materiaal hier waardeur 'n mens kan sien nie - baie plastiek is ook deursigtig, en hierdie les gee self plastiekbottels.",
-    "TEKSTIELE. Tekstiel is buigsaam en sag, kan geweef word, hou warm en kom in enige kleur en tekstuur. Dit is die materiaal wat KABV se 'interessante kleure en teksture' die duidelikste dra, en dit word gebruik vir klere, komberse, gordyne en sakke.",
-    "PLASTIEK en VERF. Plastiek is lig, waterdig, roes nie en kan in baie vorms gegiet word, dus word emmers, bottels, stoele en speelgoed daarvan gemaak. Verf is anders as die ander ses en dit moet gese word: 'n mens maak nie iets UIT verf nie. Verf gaan as 'n vloeistof op iets anders en word 'n dun harde laag wat kleur gee en die ding daaronder beskerm.",
-    "KABV se eie eienskapwoorde, al ses: sterk, duursaam, waterdig, brandbestand, en interessante kleure en teksture. Elkeen moet in die les voorkom EN aan 'n materiaal gekoppel wees waarvoor dit werklik waar is - brandbestand hoort by beton of keramiek, nooit by plastiek of tekstiel nie. KABV se sin is 'HULLE KAN ... wees', dus is dit nooit 'n stelling oor alle verwerkte materiale gelyk nie.",
-    "Voorbeelde by die HUIS, by die SKOOL en in die GEMEENSKAP. Al drie plekke moet voorkom, want KABV se aktiwiteit en Termyn 2 se assesseringsriglyn noem albei presies daardie drie. Een of twee materiale per plek is genoeg; die punt is dat 'n leerder dieselfde materiaal om haar herken.",
-    "Dat hierdie les net oor NIE-METAAL materiale gaan. Dit volg uit KABV se eie INHOUDSKOLOM, wat gips, beton, tekstiele, keramiek, glas, plastiek en verf noem - almal nie-metale. DRICO SE BESLISSING, 9 September 2026: KABV se AKTIWITEITSKOLOM is NIE 'n bron van vereistes nie. 'Dit is glad nie ons doel nie.' Die inhoudskolom en die kwartaal se assesseringsriglyne bind; die aktiwiteitskolom nie. Items wat net daar genoem word, is HOOGSTENS voorbeelde wat die skrywer self kan kies, en hulle tel as AANVULLING met sy gewone perk, nie as kern nie. Metale, magnete en roes behoort aan die vorige subonderwerpe en kom hier nie voor nie, al staan hulle in dieselfde assesseringsblok op dieselfde bladsy."
-   ],
-   "feiterisiko": [
-    {
-     "risiko": "Om KABV se vier eienskapwoorde as 'n bewering oor alle verwerkte materiale te skryf.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat elke verwerkte materiaal sterk, duursaam, waterdig en brandbestand is. Die meeste plastiek brand, tekstiel brand, glas breek maklik, en gewone gips word sag as dit nat word.",
-     "wat_om_te_doen": "Hou KABV se 'kan' en koppel elke woord aan 'n materiaal waarvoor dit waar is. Vernou die kwantifiseerder, nie die onderwerp nie."
-    },
-    {
-     "risiko": "Om te se keramiek is waterdig.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat elke kleipot water hou. Ongeglasuurde erdewerk laat water stadig deur - dit is juis waarom water in so 'n pot koel bly.",
-     "wat_om_te_doen": "Laat 'waterdig' by glas en plastiek staan, waar dit sonder voorbehoud waar is. Keramiek se eienskappe hier is hard, vormvas, roes nie en vat warm kos."
-    },
-    {
-     "risiko": "Om glas 'sterk' te noem sonder meer.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat glas nie maklik breek nie.",
-     "wat_om_te_doen": "Glas se eienskappe hier is hard, deursigtig en waterdig. Word sterkte tog genoem, moet die brosheid in dieselfde asem staan."
-    },
-    {
-     "risiko": "Om verf soos die ander ses materiale te behandel.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat 'n mens 'n voorwerp uit verf maak.",
-     "wat_om_te_doen": "Verf werk op iets anders. Sy eienskap is dat dit as vloeistof aangesit word en 'n dun harde laag word wat kleur gee en beskerm."
-    },
-    {
-     "risiko": "Om graad 5 se ses eienskapwoorde as DIE lys van eienskappe aan te bied.",
-     "valse_gevolgtrekking_om_te_vermy": "REGGEMAAK 10 September 2026 NA 'N FEITENASIEN: 'vyf ANDER pare' is VALS. KABV Graad 4 noem self 'sterk of swak' EN 'waterdig of absorberend' onder sy eienskappe, dus is twee van die vyf glad nie 'ander' nie. Net DUURSAAM, BRANDBESTAND en die interessante kleure en teksture is werklik nuut in Graad 5.\nHierdie bewoording is presies wat die 'vanjaar teenoor verlede jaar'-raamwerk in die konsep veroorsaak het. Die botsingsnota hoer op in HIERDIE SELFDE spek stel die oorvleueling reeds korrek - die twee helftes van die dokument het mekaar weerspreek.\nDIE VIER-ITEM-LYS BLY: dit is wat KABV Graad 5 noem. Net die 'nuut vanjaar'-raamwerk val weg; moenie beweer WATTER woorde nuut is nie.\n\nOORSPRONKLIKE TEKS HIERONDER, as rekord:\nDat 'n materiaal se eienskappe net hierdie ses is. Graad 4 het vyf ANDER pare geleer (hard/sag, styf/buigbaar, sterk/swak, lig/swaar, waterdig/absorberend), en twee lyste wat teenoor mekaar staan waar hulle nie werklik verskil nie, is 'n vals kontras.",
-     "wat_om_te_doen": "Bied hulle as bykomende eienskappe aan, nie as 'n volledige lys nie. Onvolledig is reg; 'n vals kontras is nie."
-    },
-    {
-     "risiko": "Om 'n materiaal se gebruik as die enigste gebruik aan te bied.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat vensters net van glas is, of dat beton die enigste ding is waarvan 'n vloer gemaak word.",
-     "wat_om_te_doen": "Skryf 'word gebruik vir', nie 'is die materiaal vir' nie. Geen oortreffende trap sonder nagaan nie."
-    }
-   ],
-   "aanvulling": [],
-   "aanvulling_nota": "Geen. KABV noem sewe materiale en ses eienskapwoorde by die naam, en die assesseringsriglyn voeg die huis, die skool en die gemeenskap by. Dit is meer as genoeg vir 440 woorde en niks is onvolledig sonder 'n byvoeging nie.",
-   "moeilike_konsepte": [],
-   "moeilike_konsepte_nota": "GEEN eli10-blok. Elke idee hier is met die hande vasvatbaar: hard, waterdig, buigsaam, deursigtig. Daar is geen abstrakte meganisme in hierdie les nie, en 'n vergelykingsblok sou net die studieteks in korter woorde herhaal - presies die mislukking waarteen die standaard waarsku.",
-   "termdig": false,
-   "termdig_nota": "Verwag ongeveer twee of drie begrip-inskrywings. KABV noem sewe materiale, maar vyf daarvan is reeds graad 4-terme en 'n graad 5-leerder ken glas, plastiek en verf as woorde. Werklike kandidate: keramiek, tekstiel, duursaam en brandbestand. 'eienskap' kry graad 4 se bewoording woord vir woord as dit ingesluit word.",
-   "fokusvraag_skakel": "Lewer die tweede helfte van die antwoord: waarom die nuwe materiaal se eienskappe dit nuttig maak, deur KABV se sewe genoemde materiale elk aan 'n eienskap en 'n gebruik te koppel, en deur te wys waar 'n leerder hulle by die huis, by die skool en in die gemeenskap kry."
+  "verdeling_nota": "Drie lesse, een per KABV-inhoudsopskrif: 'Kombinasie van materiale', 'Eienskappe en gebruike', 'Tradisionele verwerking'. Dit is lesse 13, 14 en 15 van die 29 vir die graad 5-jaar en die laaste drie van Termyn 2; binne hierdie spesifikasie word hulle 1, 2 en 3 genommer, soos die konvensie vereis. Let op dat KABV se 3 1/2 weke aan les 1 alleen behoort en die 2 weke aan lesse 2 en 3 saam - presies die verkeerde kant om vir enigiemand wat lengte uit ure wil aflei, want les 1 se ure is byna heeltemal praktiese werk.",
+  "praktiese_werk_nota": "Die maak behoort aan die onderwyser en aan die uitlegspan; die TEORIE wat die maak toets, is ons s'n. KABV se eie voetnoot by les 1 se die leerder hoef nie al ses voorbeelde uit te voer nie maar moet ten minste twee ERVAAR - dit gaan oor uitvoer, nie oor weet nie, dus bly al ses in die teks terwyl geen enkele een 'n resep word nie. Geen les gee stap-vir-stap instruksies, hoeveelhede, tye of temperature, en geen les vra 'n leerder om iets te maak nie. Wat die teks wel dra, is wat 'n mens sien voor en na, en waarom die nuwe eienskappe die ding nuttig maak.",
+  "graad_4_botsings": {
+    "hoekom_hierdie_afdeling": "Hierdie subonderwerp is die plek waar graad 4 se materiaalwoordeskat die maklikste weerspreek word. Graad 4 se 'Vaste stowwe' (lesse 12 en 13, afgelewer) het onverwerkte en verwerkte materiaal, die woord 'eienskap' en vyf eienskapspare geleer, en vyf van graad 5 se sewe genoemde materiale kom uit daardie les. Elke botsing hieronder word AANGEMELD, nie stilweg herbewoord nie. Graad 4 se lys (kaps/gedeelde-omskrywings.json) word op vak EN graad opgesoek en word deur niks hier geraak nie; graad 4 bly soos afgelewer.",
+    "botsings": [
+      {
+        "term": "verwerkte materiaal",
+        "graad_4_bewoording": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+        "waar_dit_bots": "Graad 4 se bewoording stel 'ander eienskappe' as die MAATSTAF vir verwerking, en graad 4 se eie kern se onvoorwaardelik 'die nuwe materiaal het ander eienskappe as die materiaal waarmee hulle begin het'. KABV se graad 5-sin is swakker: 'die eienskappe van die nuwe materiaal/produkte KAN verskil van die eienskappe van die materiaal waarmee ons begin het'. 'n Skrywer wat graad 4 se sin oordra, skryf 'verskil altyd' waar KABV 'kan verskil' se; 'n skrywer wat KABV se sin as omskrywing gebruik, verswak graad 4 se maatstaf.",
+        "wat_die_skrywer_doen": "Albei bly staan, elk in sy eie rol. WAAR DIE TERM OMSKRYF WORD (die begrip-inskrywing): woord vir woord graad 4 se bewoording, 'Materiaal wat mense verander het sodat dit ander eienskappe kry.' Die frases 'sodat dit ander eienskappe kry' en 'ander eienskappe' staan boonop in kaps/beskermde-woorde.json en mag nie herskryf word nie. IN DIE STUDIETEKS, waar die les oor die uitkoms van een spesifieke mengsel praat: KABV se 'kan', en dan konkreet - watter eienskappe verander het en watter dieselfde gebly het. Die twee sinne is versoenbaar sodra die tweede oor eienskappe EEN VIR EEN praat: jellie is nog nat en nog soet, maar dit hou nou sy vorm.",
+        "vir_drico": "Dit is die beplanner se leeswerk en nie 'n opgetekende beslissing nie. Wil jy dit anders he, is die keuse: graad 5 gebruik graad 4 se bewoording ongewysig (die stand hier), of graad 5 kry sy eie inskrywing wat KABV se 'kan' dra - wat 'n omskrywing oor grade heen SWAKKER sou maak, en die reel van 9 September 2026 laat verbreding oor grade heen toe maar se niks oor verswakking nie."
+      },
+      {
+        "term": "eienskap",
+        "graad_4_bewoording": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+        "waar_dit_bots": "Die romp bots nie - graad 4 se bewoording dra met opset GEEN voorbeelde nie, juis sodat dit nie 'n eienskaplys oor 'n grens dra nie, dus pas dit hier ongewysig. Die botsing is die LYS. Graad 4 het vyf pare geleer (hard/sag, styf/buigbaar, sterk/swak, lig/swaar, waterdig/absorberend). KABV graad 5 noem vier woorde plus kleur en tekstuur: sterk, duursaam, waterdig, brandbestand, interessante kleure en teksture. Twee oorvleuel (sterk, waterdig), vier is nuut. 'n Les wat graad 5 se ses as DIE lys aanbied, stel 'n vals kontras met wat die leerder verlede jaar geleer het.",
+        "wat_die_skrywer_doen": "Gebruik graad 4 se bewoording ongewysig as die term omskryf word. Bied graad 5 se woorde as BYKOMENDE eienskappe aan, nie as 'n vervanging of 'n volledige lys nie. Onvolledig is reg; 'n vals kontras is nie.",
+        "vir_drico": "Geen beslissing nodig tensy jy 'n aparte graad 5-inskrywing wil he."
+      },
+      {
+        "term": "onverwerkte materiaal",
+        "graad_4_bewoording": "Materiaal wat mense net so in die natuur kry.",
+        "waar_dit_bots": "Les 1 se ses voorbeelde begin met gipspoeier, sement, meel, jelliepoeier, nat klei en strooi. Die woord 'begin' verlei 'n skrywer om al ses beginmateriale 'onverwerkte materiaal' te noem, en dan is dit vals: sement, gips, meel en jelliepoeier is self reeds verwerk. Graad 4 het sand, klei, steenkool, olie, hout, plantvesel, wol en vel as die onverwerktes benoem - sand, gruis, klei en strooi pas daarby, die res nie.",
+        "wat_die_skrywer_doen": "Skryf 'die materiaal waarmee ons begin' waar die herkoms nie ter sprake is nie, en gebruik 'onverwerkte materiaal' slegs waar dit werklik so uit die natuur kom. Hierdie subonderwerp hoef nie 'n enkele materiaal as onverwerk te klassifiseer nie.",
+        "vir_drico": "Geen beslissing nodig."
+      },
+      {
+        "term": "materiaal",
+        "graad_4_bewoording": "Die goed waarvan iets gemaak is",
+        "waar_dit_bots": "KABV skryf hier deurgaans 'materiaal/produkte' en maak self nie die onderskeid nie. Gips is 'n materiaal; 'n kleibaksteen en 'n jellie is produkte. 'n Skrywer wat 'materiaal' oorspan om ook 'n klaargemaakte voorwerp te dek, herskryf graad 4 se romp sonder om dit te bedoel. Voorbeelde na 'soos' mag per les verskil; die romp mag nie.",
+        "wat_die_skrywer_doen": "Graad 4 se romp bly woord vir woord. Waar 'n klaargemaakte ding bedoel word, gebruik 'n gewone woord daarvoor (baksteen, pot, mat), nie 'materiaal' nie.",
+        "vir_drico": "Geen beslissing nodig."
+      }
+    ]
   },
-  {
-   "nommer": 3,
-   "jaarnommer": 15,
-   "jaarnommer_nota": "Les 15 van 29 vir die graad 5-jaar, en die laaste les van Termyn 2. Lesnommers loop deurlopend deur die jaar; die 'nommer'-veld hierbo is die posisie binne hierdie subonderwerp.",
-   "titel": "Wat klei, gras en riet kan word",
-   "titel_nota": "Werktitel en 'n leerderopskrif. KABV se opskrif 'Tradisionele verwerking' is die indeksnaam, nie die titel nie.",
-   "kaps_opskrif": "Tradisionele verwerking",
-   "kaps_punt": "in Afrika het mense vir honderde jare materiale verwerk, soos: kleipotte en bakstene, mandjies, hoede, matte, grasdakke gemaak van plantmateriaal soos grasse en riete",
-   "kaps_punte": [
-    "in Afrika het mense vir honderde jare materiale verwerk, soos:",
-    "-- kleipotte en bakstene",
-    "-- mandjies, hoede, matte, grasdakke gemaak van plantmateriaal soos grasse en riete"
-   ],
-   "kaps_punte_nota": "Woordeliks uit KABV. Ses genoemde produkte (kleipot, baksteen, mandjie, hoed, mat, grasdak) uit twee materiaalfamilies (klei, en plantmateriaal soos grasse en riete). Al ses is verpligtend, en albei plantbronne word by die naam genoem.",
-   "kaps_aktiwiteit": "'maak 'n voorwerp van klei (modellering)' en 'vind voorbeelde van voorwerpe wat uit plantvesel gemaak is (deur dit te weef en te stik)'. Albei is klaskamerwerk en nie teks nie.",
-   "begroting": 360,
-   "begrotingsnota": "360 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Dit is die kortste van die drie omdat KABV hier EEN inhoudsbulletjie gee teenoor twee in les 1 en twee in les 2, en omdat die klei-helfte op graad 4 se afgelewerde klei-na-keramiek werk kan staan sonder om dit oor te doen. Die verdeling: ongeveer 60 woorde vir wat tradisionele verwerking is en dat dit vandag nog gebeur, ongeveer 100 woorde vir kleipotte en bakstene, ongeveer 130 woorde vir mandjies, hoede, matte en grasdakke uit gras en riet, en ongeveer 70 woorde vir die skakel terug na eienskappe. Die hek meet teen 360 met plus-minus 15%, dus 306 tot 414. Binne die graad 5-band 300-550, dus is geen vloeruitsondering nodig nie. NIKS hiervan kom uit KABV se ure nie.",
-   "kern": [
-    "Wat 'tradisionele verwerking' hier beteken, en dit moet eerste staan: mense in Afrika verwerk al honderde jare materiale met hulle hande en met eenvoudige gereedskap. Hulle doen dit VANDAG NOG - die les mag nie heeltemal in die verlede tyd staan nie, en minstens een sin moet in die hede wees.",
-    "KLEIPOTTE EN BAKSTENE. Nat klei word met die hand in vorm gemaak, laat droog word, en dan in 'n vuur hard gebak. Party bakstene word net in die son droog gemaak en nie gebak nie; die les mag nie een van die twee as die enigste manier aanbied nie. Klei is een van die materiale wat graad 4 al as onverwerkte materiaal geleer het, dus hoef die herkoms nie oorgedoen te word nie.",
-    "MANDJIES, HOEDE, MATTE EN GRASDAKKE. Al vier word by die naam genoem, want KABV noem al vier, en albei plantbronne word genoem: grasse en riete.",
-    "Hoe plantmateriaal verwerk word: die gras of riet word gesny, laat droog word, en dan gevleg of geweef.\n\nREGGEMAAK 10 September 2026 NA 'N FEITENASIEN. Die vorige weergawe het gese 'hier word niks gemeng en niks verhit nie'. DIT IS TE WYD EN VALS: Zulu- en Botswana-vlegwerk KOOK kleurstof uit bas en wortels en week die stroke daarin, en ilalablare word self gekook voordat hulle gesplyt word. Meng en verhit IS deel van hierdie werk.\n\nVERNOU DIE STAP, NIE DIE ONDERWERP NIE: dit is die VLEG EN WEEF SELF waarby niks gemeng of verhit word nie. Die skoon verskil met les 1 bly staan - daar is die verwerking die meng; hier is dit die dryf, buig en vleg.",
-    "Waarom 'n grasdak die reen afhou: die gras of riet word in dik lae bo-oor mekaar gepak en skuins gele, sodat die water aan die buitekant van die lae afloop. Dit is die een plek in hierdie les waar 'n meganisme werklik verklaar word, en dit is die verskil tussen 'n les en 'n lys.",
-    "Die skakel terug na les 14, en dit is wat hierdie les 'n les maak: elke keer is die materiaal gekies vir 'n eienskap. Klei is sag genoeg om met die hand te vorm en word hard as dit gebak word; gras en riet is lank, buigsaam en sterk genoeg om te vleg. Die eienskap kom eerste en die gebruik volg daaruit - presies dieselfde vorm as les 14."
-   ],
-   "feiterisiko": [
+  "gedeelde_omskrywings_nota": "kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json dra EEN term (geraamte) en dit is met opset so: graad 5 se lys word gevul nadat al 29 konsepte geskryf is, want die konsepte wys self watter terme herhaal. Hierdie spesifikasie voeg NIKS daarby nie en die skrywer ook nie. Waar 'n term uit graad 4 se lys hier voorkom, geld graad 4 se bewoording woord vir woord - sien graad_4_botsings hierbo.",
+  "beskermde_woorde_nota": "Reeds in kaps/beskermde-woorde.json en hier van toepassing: 'sodat dit ander eienskappe kry' en 'ander eienskappe' (die maatstaf vir verwerkte materiaal, uit graad 4 se subonderwerp 'vaste-stowwe') mag nie na 'anders lyk en voel' terugdryf nie - voorkoms is die GEVOLG van verwerking, nie die maatstaf nie. Verder: waar koolstofdioksied ooit genoem word, is dit koolstofdioksied en nooit koolsuurgas nie. Enige nuwe beslissing oor 'n woord in hierdie drie lesse moet in dieselfde asem in daardie leer geskryf word, anders draai die taalnasiener dit stil terug.",
+  "buite_bestek": [
+    "Die praktiese take self. KABV se aktiwiteitkolom vra dat leerders materiale verwerk, 'n voorwerp uit klei modelleer, en voorbeelde van geweefde plantvesel vind. Die teks gee geen resep, hoeveelheid, tyd of temperatuur nie en vra niemand om iets te maak nie.",
+    "Die aanbieding-projek ('doen 'n aanbieding van die bevindinge deur middel van skryf, teken en foto's [Dit kan gebruik word as 'n moontlike projek]'). Dit is 'n assesseringstaak, nie leesinhoud nie.",
+    "Metale, magnete en roes. Drie van Termyn 2 se vyf assesseringsriglyne gaan daaroor en hulle staan op dieselfde bladsy as hierdie subonderwerp - maar hulle behoort aan die vorige subonderwerpe 'Metale en nie-metale' en 'Gebruik van metale'. KABV se eie aktiwiteit hier se uitdruklik 'nie-metaal materiale'. Die dekkingsnasiener moet die afwesigheid van metale hier NIE as 'n gaping aanteken nie.",
+    "Die onderskeid tussen omkeerbare en onomkeerbare verandering, en tussen fisiese en chemiese verandering. KABV vra dit nerens in hierdie subonderwerp nie, en die ses voorbeelde is nie almal dieselfde soort verandering nie.",
+    "Die herkoms van glas, keramiek, plastiek, verf en tekstiele uit onverwerkte materiaal. Dit is graad 4 se afgelewerde les 12 en dit word nie oorgedoen nie; les 2 begin by die eienskappe.",
+    "Fotosintese, energie en enige ander kennisafdeling. Hierdie subonderwerp is heeltemal Materie en Materiale."
+  ],
+  "geen_vrae": "Geen 'vraag'-blokke. Lesse dra sedert 2026-08-21 geen onthoudvrae nie. Die gevolg wat hier tel: die bewys wat vroeer in 'n vraag kon sit - wat 'n mens SIEN voor en na die meng - moet in die studieteks self staan, want dit is die enigste waarneembare ding wat hierdie lesse aan 'n leerder gee.",
+  "teks_kom_eerste": "Soos by al die wetenskaplesse word hierdie teks EERS geskryf en die video daarna daarvolgens gemaak. Dit is nie die graad 4 Sosiale Wetenskappe-uitsondering nie: daar is geen video_naat, geen bestaande draaiboek en geen video wat die lesverdeling bepaal nie.",
+  "lesse": [
     {
-     "risiko": "Om 'n praktyk aan 'n genoemde volk, taalgroep of streek toe te skryf.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat 'n bepaalde groep hierdie ding maak, uitgevind het of die enigste is wat dit doen. KABV se net 'in Afrika het mense'.",
-     "wat_om_te_doen": "Bly by KABV se eie bewoording. Geen volksnaam, geen streek, geen 'die eerste', tensy dit teen 'n bron buite enige handboek nagegaan is - en hierdie les het geen sodanige bron nie."
+      "nommer": 1,
+      "jaarnommer": 13,
+      "jaarnommer_nota": "Les 13 van 29 vir die graad 5-jaar, en die eerste van Termyn 2 se laaste drie. Lesnommers loop deurlopend deur die jaar, nie per kwartaal nie. Die 'nommer'-veld hierbo is die posisie binne hierdie subonderwerp, soos die skema vereis.",
+      "titel": "Meng twee dinge en kry iets nuuts",
+      "titel_nota": "Werktitel en 'n leerderopskrif, nie KABV se etiket nie. KABV se opskrif is 'Kombinasie van materiale' en dit is die indeksnaam. Die skrywer mag die titel verbeter; niks in die pyplyn toets 'n titel nie.",
+      "kaps_opskrif": "Kombinasie van materiale",
+      "kaps_punt": "materiale kan verwerk word om nuwe materiaal/produkte te maak soos: vermenging en verharding (soos gips of Polyfilla en water om gips te maak), vermenging en verharding (soos sand, gruis, sement en water om beton te maak), vermenging (soos meel en water om 'n taai pasta te maak wat as gom gebruik kan word), meng en kook (soos die maak van deeg), meng en verkoel (soos jellie poeier en water om jellie te maak), vermenging, droog en/of bak (soos nat klei en strooi om klei bakstene te maak)",
+      "kaps_punte": [
+        "materiale kan verwerk word om nuwe materiaal/produkte te maak soos:",
+        "-- vermenging en verharding (soos gips of Polyfilla en water om gips te maak)",
+        "-- vermenging en verharding (soos sand, gruis, sement en water om beton te maak)",
+        "-- vermenging (soos meel en water om 'n taai pasta te maak wat as gom gebruik kan word)",
+        "-- meng en kook (soos die maak van deeg)",
+        "-- meng en verkoel (soos jellie poeier en water om jellie te maak)",
+        "-- vermenging, droog en/of bak (soos nat klei en strooi om klei bakstene te maak)",
+        "die eienskappe van die nuwe materiaal/produkte kan verskil van die eienskappe van die materiaal waarmee ons begin het"
+      ],
+      "kaps_punte_nota": "Woordeliks uit KABV, insluitend 'jellie poeier' en 'klei bakstene' wat KABV los skryf; ons teks skryf hulle as jelliepoeier en kleibakstene, wat gewone Afrikaans is. Die laaste inskrywing is 'n APARTE bulletjie in KABV en nie een van die ses nie - dit is die konseptuele helfte van hierdie les.",
+      "kaps_voetnoot": "* Leerling moet nie al hierdie voorbeelde uitvoer nie, maar moet ten minste twee van hulle ervaar.",
+      "kaps_voetnoot_nota": "Die voetnoot gaan oor UITVOER en ERVAAR - die praktiese werk - en nie oor watter voorbeelde 'n leerder moet ken nie. Dit verklein dus NIE die ses tot twee in die teks nie. Al ses word genoem, want KABV noem al ses by die naam, en genoemde items is verpligtend.",
+      "kaps_assessering": "Termyn 2 se riglyn wat hierdie les toets: 'prosesseer geselekteerde materiale deur die vermenging en beskryf hul eienskappe voor en na vermenging'. Let op 'voor en na' - dit is waarom ten minste twee van die ses 'n regte voor-en-na vergelyking moet kry en nie net 'n benoeming nie.",
+      "begroting": 520,
+      "begrotingsnota": "520 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Dit is die langste van die drie omdat dit die meeste verpligte items dra: ses genoemde kombinasie-voorbeelde plus 'n aparte konseptuele KABV-punt. Die verdeling waarop die getal rus: ongeveer 60 woorde vir die openingsidee (mense meng materiale om iets nuuts te maak), ongeveer 55 woorde per voorbeeld vir ses voorbeelde (330), ongeveer 90 woorde vir die 'eienskappe kan verskil'-punt met twee regte voor-en-na vergelykings, en ongeveer 40 woorde om af te sluit. Die hek meet teen 520 met plus-minus 15%, dus 442 tot 598. NIKS hiervan kom uit KABV se 12 1/4 uur nie; daardie ure is byna heeltemal praktiese werk. Die 520 val binne die graad 5-band 300-550, dus is geen plafonuitsondering nodig nie.",
+      "kern": [
+        "Dat mense twee of meer materiale MENG om 'n nuwe materiaal of 'n nuwe produk te maak, en dat die nuwe ding sy eie naam kry: gips, beton, gom, deeg, jellie, 'n baksteen. Dit is die sin waaruit die hele les hang en dit moet vroeg staan. Wat met die EIENSKAPPE gebeur, word hier nog nie beweer nie - dit staan in die laaste kern-inskrywing en dra KABV se woord 'kan'.",
+        "Vermenging en verharding, voorbeeld een - GIPS: gipspoeier word met water gemeng en die pap word hard. Wat ingaan is 'n los poeier en 'n vloeistof; wat uitkom is een stywe stuk wat sy vorm hou. Die les mag NIE se dit word hard omdat die water uitdroog nie, en hoef geen rede te gee nie.",
+        "Vermenging en verharding, voorbeeld twee - BETON: sand, gruis, sement en water word gemeng en dit verhard. Al vier bestanddele word genoem, want KABV noem al vier. Sement is self reeds 'n verwerkte materiaal; moenie dit 'n onverwerkte materiaal noem nie. Ook hier geen verklaring vir die verharding nie.",
+        "Die gomvoorbeeld: meel en water word gemeng, en die MENG ALLEEN maak reeds 'n taai gom wat papier aan mekaar plak. Skryf dit so.\n\nMOENIE SE DAT NIKS VERHIT OF VERKOEL WORD NIE, en moenie se meng is 'GENOEG' nie. REGGEMAAK 9 September 2026 na 'n feitenasien. Tegniese bronne se hitte is juis wat meelgom laat plak, omdat rou styselkorrels skaars swel in koue water; kunsvlytbronne gee resepte sonder kook en se dit werk, maar swakker. Die saak is dus NIE beslis nie, en die vorige weergawe van hierdie veld het die les gedwing om 'n kant te kies wat moontlik vals is.\n\nDIE VEILIGE VORM SE NET WAT WAAR IS WATTER KANT DIT OOK AL VAL: die meng op sy eie maak reeds gom. Dit beweer nie hitte voeg niks by nie, en vereis ook nie hitte nie. Dekking word teen HIERDIE bewoording getoets.",
+        "Meng en kook - DEEG: meel, water en die ander bestanddele word tot deeg gemeng en die deeg word gebak. Die twee stappe bly uit mekaar: die meng gee die deeg, die hitte gee die brood. Rys, gis en enige verklaring vir die rys bly heeltemal buite hierdie les.",
+        "Meng en verkoel - JELLIE: jelliepoeier word in warm water geroer en die mengsel word koud gemaak, waarna die vloeistof 'n bewerige vaste ding is wat sy vorm hou wanneer 'n mens dit uit die bakkie keer. Hierdie een is die duidelikste voor-en-na van die ses en verdien om een van die twee volledige vergelykings te wees.",
+        "Vermenging, droog en/of bak - KLEIBAKSTENE: nat klei en strooi word gemeng, in 'n vorm gedruk, en dan droog gemaak en/of gebak. KABV se eie 'en/of' moet oorleef: party bakstene word net in die son droog gemaak, party word in 'n vuur of oond gebak, en die les mag nie een van die twee as die enigste manier aanbied nie. Die strooi loop deur die nat klei en hou dit bymekaar sodat die baksteen minder kraak terwyl dit droog word - dit is die enigste werk wat aan die strooi toegeken word.",
+        "KABV se tweede bulletjie, en die konseptuele helfte van die les: dat die eienskappe van die nuwe materiaal of produk KAN verskil van die eienskappe van die materiaal waarmee begin is. Die woord is KAN en nie ALTYD nie, en die manier om dit reg te skryf is eienskap vir eienskap: by ten minste twee van die ses voorbeelde word gese wat verander het EN wat dieselfde gebly het. Jellie is byvoorbeeld nog steeds nat en nog steeds soet; wat nuut is, is dat dit sy eie vorm hou.",
+        "Dat 'n mens die dinge wat gemeng is nie weer van mekaar kan SKEI nie: die meel kom nie weer uit die deeg nie en die sement kom nie weer uit die beton nie. Dit gaan oor SKEI en oor niks anders nie. Dit mag NOOIT geskryf word as 'die verandering kan nie teruggedraai word nie' nie, want dit is vals vir jellie, wat weer sag word as dit warm staan. Stel dit per voorbeeld, nooit as 'n reel oor al ses nie."
+      ],
+      "feiterisiko": [
+        {
+          "risiko": "Om te skryf dat beton of gips hard word omdat die water uitdroog.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat verharding dieselfde ding as droog word is, en dat nat beton hard sal word bloot deur dit in die son te sit. Dit is die algemeenste verkeerde meganisme oor sement wat daar is.",
+          "wat_om_te_doen": "Beskryf net wat 'n mens sien - dit begin as 'n dik pap en eindig hard - en gee geen rede nie. KABV vra geen meganisme nie, en die regte rede (die water word deel van die nuwe vaste stof) is nie graad 5-werk nie."
+        },
+        {
+          "risiko": "Om KABV se 'kan verskil' as 'verskil altyd' of 'alles verskil' te skryf, of om graad 4 se maatstaf vir verwerkte materiaal as die stelling oor hierdie ses uitkomste te gebruik.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat elke eienskap van die nuwe ding anders is as die van die begin-materiale.",
+          "wat_om_te_doen": "Vernou die kwantifiseerder, nie die onderwerp nie. Die stelling bly oor die nuwe materiaal se eienskappe; dit word net eienskap vir eienskap gemaak, met wat verander het en wat gebly het."
+        },
+        {
+          "risiko": "Om al ses voorbeelde onder een groeperende woord te vat, soos 'chemiese verandering', of om te se al ses kan nooit teruggedraai word nie.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat jellie wat gestol het en brood wat gebak is dieselfde soort verandering ondergaan het. Jellie word weer sag as dit warm word; gebakte brood word nooit weer meel en water nie.",
+          "wat_om_te_doen": "KABV vra hierdie onderskeid nerens nie. Beskryf per voorbeeld wat gebeur en hoe die gevolg is, en gebruik geen woord wat al ses as een soort verandering saamvat nie."
+        },
+        {
+          "risiko": "Om die beginmateriale 'onverwerkte materiaal' te noem omdat hulle die begin is.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat sement, gips, meel of jelliepoeier so uit die natuur gekry word. Graad 4 se afgelewerde omskrywing is 'Materiaal wat mense net so in die natuur kry' - sand, gruis, klei en strooi pas daarby, die ander vier nie.",
+          "wat_om_te_doen": "Skryf 'die materiaal waarmee ons begin'. Hierdie les hoef niks as onverwerk te klassifiseer nie."
+        },
+        {
+          "risiko": "Om 'n groter werking aan die strooi in die kleibaksteen toe te ken as wat nagegaan is.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat strooi 'n kleibaksteen so sterk soos klip of so sterk soos 'n gebakte baksteen maak.",
+          "wat_om_te_doen": "Hou by die enigste toegelate stelling, wat in kern staan: die strooi loop deur die nat klei en hou dit bymekaar sodat die baksteen minder kraak terwyl dit droog word."
+        },
+        {
+          "risiko": "Om te verklaar waarom deeg rys.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat elke deeg rys, of dat rys deel van KABV se punt is. KABV noem net 'meng en kook (soos die maak van deeg)'.",
+          "wat_om_te_doen": "Laat rys en gis heeltemal uit. Sou koolstofdioksied ooit nodig word, is dit koolstofdioksied en nooit koolsuurgas nie."
+        },
+        {
+          "risiko": "Om Polyfilla as die naam van die materiaal te gebruik.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat die materiaal Polyfilla heet. Dit is 'n handelsnaam wat KABV as voorbeeld gee.",
+          "wat_om_te_doen": "Die materiaal is gips. Die handelsnaam is nie nodig nie en die les hoef dit nie te noem nie."
+        },
+        {
+          "risiko": "Die volgorde van die gipsmengsel. BYGEVOEG 10 September 2026.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat 'n mens water by gipspoeier roer.",
+          "hoekom_dit_saak_maak": "Dit is andersom. Elke menggids se die POEIER gaan in die WATER, deur 'n sif gestrooi; water op gipspoeier gooi, waarborg klonte. Die gips STOL wel, dus is die wetenskap reg - dit is die METODE wat verkeerd om beskryf is."
+        },
+        {
+          "risiko": "Hoeveel water 'n meelpasta vat. BYGEVOEG 10 September 2026.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat 'n bietjie water by meel 'n pasta gee.",
+          "hoekom_dit_saak_maak": "'n Meelpasta vat omtrent net soveel water as meel, of meer (resepte loop van gelyke dele tot een deel meel op twee dele water). Brooddeeg vat juis MINDER water as meel, omtrent 60 persent. 'n Bietjie water gee dus 'n klont deeg, nie 'n pasta nie - en in hierdie les is die hoeveelheid water die ENIGSTE ding wat die gom van die deeg twee blokke later onderskei."
+        },
+        {
+          "risiko": "Die begrip-inskrywing 'gips', alleen gelees. BYGEVOEG 10 September 2026.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat gips 'n wit poeier IS.",
+          "hoekom_dit_saak_maak": "Gips is eintlik die harde mineraalvorm; die wit poeier is gebrande gips. Die les self noem die gestolde produk 'die harde gips', wat sy eie omskrywing uitsluit. En die sin soos dit staan, pas Polyfilla, muurvuller of wit sement net so goed. Die inskrywing moet ALBEI toestande dek."
+        },
+        {
+          "risiko": "Die begrip-inskrywing 'sement', alleen gelees. BYGEVOEG 10 September 2026.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat sement 'n deel van beton is.",
+          "hoekom_dit_saak_maak": "Sement is 'n bindmiddel wat net so veel in messelklei, pleister en voegsel gebruik word. Hierdie les OPEN op 'n baksteenmuur, en daardie bakstene le in messelklei, nie in beton nie - dus sluit die inskrywing juis die eerste gebruik uit wat 'n leerder sien. Maak beton die VOORBEELD, nie die omskrywing nie."
+        },
+        {
+          "risiko": "Die begrip-inskrywing 'gruis', alleen gelees. BYGEVOEG 10 September 2026.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat gruis die klippies in beton is.",
+          "hoekom_dit_saak_maak": "Dieselfde fout: gruis omskryf aan sy rol in beton. Gruis is los klippies wat ook vir paaie, opritte en dreinering gebruik word. 'n Leerder sou 'n gruispad nie uit hierdie inskrywing herken nie."
+        },
+        {
+          "risiko": "Die jellie se watertemperatuur. BESLIS DEUR DIE ORKESTREERDER, 10 September 2026. BYGEVOEG 10 September 2026.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat warm water AL die korrels laat verdwyn.",
+          "hoekom_dit_saak_maak": "Die Suid-Afrikaanse pakkie se kookwater; die gelatienliteratuur gee 40 grade as minimum en 50 tot 60 as genoeg. 'Warm water' in Afrikaans dek albei, dus kon 'n feitenasiener die sin NIE vals noem nie - maar dit kon ook nie bevestig dat blote warm water al die korrels van 'n SA-pakkie oplos nie.",
+          "wat_om_te_skryf": "BESLIS: hou 'warm water' en laat die absolute 'AL die korrels' val. Twee redes. Die onbeslisbare deel is die woordjie 'al', nie die temperatuur nie, en ons staande reel versag 'n onbewese absolute. En 'kookwater' sou kookwater in 'n graad 5-les se instruksie inbring, wat hierdie les nie nodig het nie. Die skrywer kies die bewoording."
+        }
+      ],
+      "aanvulling": [],
+      "aanvulling_nota": "Geen. KABV noem ses voorbeelde plus 'n konseptuele punt by die naam en dit vul 520 woorde ruim. Niks hier is onvolledig of betekenisloos sonder 'n byvoeging nie, en 'n sewende voorbeeld sou die ses wat KABV wel noem, dunner maak.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "GEEN eli10-blok, en dit is 'n keuse. Die toets is nie of iets moeilik is nie, maar of daar enige konkrete manier is om dit te se wat 'n elfjarige kan sien. Hier is alles konkreet: 'n los poeier en water in, een harde stuk uit. Die vergelyking wat 'n mens hier sou wou maak, is presies wat die video en die klaskamer se praktiese werk self doen.",
+      "termdig": true,
+      "termdig_nota": "Verwag ongeveer vyf of ses begrip-inskrywings. Kandidate: gips, beton, sement, gruis, deeg en verhard. 'verwerkte materiaal' kry graad 4 se bewoording woord vir woord as dit ingesluit word. Moenie tot 'n getal opvul nie - 'n woord wat 'n graad 5-leerder ken (meel, water, klei) kry geen inskrywing nie.",
+      "fokusvraag_skakel": "Lewer die eerste helfte van die antwoord: wat gebeur wanneer mense materiale meng, deur KABV se ses maniere te wys, en dat die nuwe ding se eienskappe KAN verskil van die van die materiaal waarmee begin is. Hierdie les dra nie die 'waarom is dit nuttig'-helfte nie; dit is les 2 se werk."
     },
     {
-     "risiko": "Om die hele les in die verlede tyd te skryf.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat hierdie ambagte opgehou het. Elke sin kan waar wees en die prentjie tog vals - mense maak vandag nog kleipotte, mandjies, matte en grasdakke.",
-     "wat_om_te_doen": "Minstens een sin dra die hede, en die res mag nie daarmee bots nie."
+      "nommer": 2,
+      "jaarnommer": 14,
+      "jaarnommer_nota": "Les 14 van 29 vir die graad 5-jaar. Lesnommers loop deurlopend deur die jaar; die 'nommer'-veld hierbo is die posisie binne hierdie subonderwerp.",
+      "titel": "Elke materiaal het sy eie werk",
+      "titel_nota": "Werktitel en 'n leerderopskrif. KABV se opskrif 'Eienskappe en gebruike' is die indeksnaam, nie die titel nie.",
+      "kaps_opskrif": "Eienskappe en gebruike",
+      "kaps_punt": "materiaal soos gips, beton, tekstiele, keramiek en glas, plastiek en verf, het hul eie spesiale eienskappe",
+      "kaps_punte": [
+        "materiaal soos gips, beton, tekstiele, keramiek en glas, plastiek en verf, het hul eie spesiale eienskappe",
+        "verwerkte materiale is nuttig as gevolg van hulle spesiale eienskappe. Hulle kan sterk, duursame, waterdigte, brandbestand wees, en kom voor in interessante kleure en teksture"
+      ],
+      "kaps_punte_nota": "Woordeliks uit KABV. Die tweede sin dra KABV se eie 'kan', en dit is die woord waaraan hierdie les hang. Let ook op die opsetlike parallel: die vorige subonderwerp se KABV-sin lees 'metale is nuttig as gevolg van hulle spesiale eienskappe'. Hierdie een is dieselfde sin vir nie-metale, en die les mag die vorm gerus dieselfde hou.",
+      "kaps_aktiwiteit": "'vind voorbeelde van verskillende nie-metaal materiale wat by die huis, skool en in die gemeenskap gebruik word en verduidelik die eienskappe wat dit nuttig maak'. Die woord NIE-METAAL is die skoonste grensmerker in die hele subonderwerp.",
+      "kaps_assessering": "Termyn 2 se riglyn wat hierdie les toets: 'beskryf die bruikbaarheid van verskillende materiale by die huis, skool of gemeenskap'. Die drie plekke is nie versiering nie; hulle is die assessering se eie woorde.",
+      "begroting": 440,
+      "begrotingsnota": "440 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Dit is korter as les 1 al noem KABV hier sewe materiale teenoor ses voorbeelde, en die rede is dat vyf van die sewe (tekstiele, keramiek, glas, plastiek, verf) reeds in graad 4 se afgelewerde les 12 as verwerkte materiaal met hulle herkoms behandel is, en die ander twee (gips, beton) pas in les 13 gemaak is. Geen van die sewe hoef dus voorgestel te word nie; elkeen kos net sy eienskap en sy gebruik. Die verdeling: ongeveer 50 woorde vir die openingsidee (eienskap eers, gebruik daarna), ongeveer 210 woorde vir die sewe materiale in vier groepe, ongeveer 120 woorde vir KABV se eie eienskapwoorde elk aan 'n materiaal gekoppel, en ongeveer 60 woorde vir die huis, die skool en die gemeenskap. Die hek meet teen 440 met plus-minus 15%, dus 374 tot 506. Binne die graad 5-band 300-550.",
+      "kern": [
+        "Die skarnier van die les, en dit moet eerste staan: elke verwerkte materiaal het sy EIE spesiale eienskappe, en dit is daardie eienskappe wat bepaal waarvoor mense dit gebruik. Eienskap eers, gebruik daarna - elke materiaal hieronder volg dieselfde volgorde.",
+        "GIPS en BETON, die twee wat les 13 pas gemaak het. Gips gaan sag en glad aan en word hard, dus vul dit gate en maak 'n muur glad. Beton is sterk onder gewig, hou baie jare lank en brand nie, dus word vloere, paaie en mure daarvan gemaak. Albei word by die naam genoem, want KABV noem albei.",
+        "KERAMIEK en GLAS. Keramiek is hard, hou sy vorm, roes nie en kan warm kos vat, dus word borde, koppies en potte daarvan gemaak. Glas is hard, waterdig en 'n mens kan deur dit sien, dus word vensters en bottels daarvan gemaak. MOENIE se glas is die enigste materiaal hier waardeur 'n mens kan sien nie - baie plastiek is ook deursigtig, en hierdie les gee self plastiekbottels.",
+        "TEKSTIELE. Tekstiel is buigsaam en sag, kan geweef word, hou warm en kom in enige kleur en tekstuur. Dit is die materiaal wat KABV se 'interessante kleure en teksture' die duidelikste dra, en dit word gebruik vir klere, komberse, gordyne en sakke.",
+        "PLASTIEK en VERF. Plastiek is lig, waterdig, roes nie en kan in baie vorms gegiet word, dus word emmers, bottels, stoele en speelgoed daarvan gemaak. Verf is anders as die ander ses en dit moet gese word: 'n mens maak nie iets UIT verf nie. Verf gaan as 'n vloeistof op iets anders en word 'n dun harde laag wat kleur gee en die ding daaronder beskerm.",
+        "KABV se eie eienskapwoorde, al ses: sterk, duursaam, waterdig, brandbestand, en interessante kleure en teksture. Elkeen moet in die les voorkom EN aan 'n materiaal gekoppel wees waarvoor dit werklik waar is - brandbestand hoort by beton of keramiek, nooit by plastiek of tekstiel nie. KABV se sin is 'HULLE KAN ... wees', dus is dit nooit 'n stelling oor alle verwerkte materiale gelyk nie.",
+        "Voorbeelde by die HUIS, by die SKOOL en in die GEMEENSKAP. Al drie plekke moet voorkom, want KABV se aktiwiteit en Termyn 2 se assesseringsriglyn noem albei presies daardie drie. Een of twee materiale per plek is genoeg; die punt is dat 'n leerder dieselfde materiaal om haar herken.",
+        "Dat hierdie les net oor NIE-METAAL materiale gaan. Dit volg uit KABV se eie INHOUDSKOLOM, wat gips, beton, tekstiele, keramiek, glas, plastiek en verf noem - almal nie-metale. DRICO SE BESLISSING, 9 September 2026: KABV se AKTIWITEITSKOLOM is NIE 'n bron van vereistes nie. 'Dit is glad nie ons doel nie.' Die inhoudskolom en die kwartaal se assesseringsriglyne bind; die aktiwiteitskolom nie. Items wat net daar genoem word, is HOOGSTENS voorbeelde wat die skrywer self kan kies, en hulle tel as AANVULLING met sy gewone perk, nie as kern nie. Metale, magnete en roes behoort aan die vorige subonderwerpe en kom hier nie voor nie, al staan hulle in dieselfde assesseringsblok op dieselfde bladsy."
+      ],
+      "feiterisiko": [
+        {
+          "risiko": "Om KABV se vier eienskapwoorde as 'n bewering oor alle verwerkte materiale te skryf.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat elke verwerkte materiaal sterk, duursaam, waterdig en brandbestand is. Die meeste plastiek brand, tekstiel brand, glas breek maklik, en gewone gips word sag as dit nat word.",
+          "wat_om_te_doen": "Hou KABV se 'kan' en koppel elke woord aan 'n materiaal waarvoor dit waar is. Vernou die kwantifiseerder, nie die onderwerp nie."
+        },
+        {
+          "risiko": "Om te se keramiek is waterdig.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat elke kleipot water hou. Ongeglasuurde erdewerk laat water stadig deur - dit is juis waarom water in so 'n pot koel bly.",
+          "wat_om_te_doen": "Laat 'waterdig' by glas en plastiek staan, waar dit sonder voorbehoud waar is. Keramiek se eienskappe hier is hard, vormvas, roes nie en vat warm kos."
+        },
+        {
+          "risiko": "Om glas 'sterk' te noem sonder meer.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat glas nie maklik breek nie.",
+          "wat_om_te_doen": "Glas se eienskappe hier is hard, deursigtig en waterdig. Word sterkte tog genoem, moet die brosheid in dieselfde asem staan."
+        },
+        {
+          "risiko": "Om verf soos die ander ses materiale te behandel.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat 'n mens 'n voorwerp uit verf maak.",
+          "wat_om_te_doen": "Verf werk op iets anders. Sy eienskap is dat dit as vloeistof aangesit word en 'n dun harde laag word wat kleur gee en beskerm."
+        },
+        {
+          "risiko": "Om graad 5 se ses eienskapwoorde as DIE lys van eienskappe aan te bied.",
+          "valse_gevolgtrekking_om_te_vermy": "REGGEMAAK 10 September 2026 NA 'N FEITENASIEN: 'vyf ANDER pare' is VALS. KABV Graad 4 noem self 'sterk of swak' EN 'waterdig of absorberend' onder sy eienskappe, dus is twee van die vyf glad nie 'ander' nie. Net DUURSAAM, BRANDBESTAND en die interessante kleure en teksture is werklik nuut in Graad 5.\nHierdie bewoording is presies wat die 'vanjaar teenoor verlede jaar'-raamwerk in die konsep veroorsaak het. Die botsingsnota hoer op in HIERDIE SELFDE spek stel die oorvleueling reeds korrek - die twee helftes van die dokument het mekaar weerspreek.\nDIE VIER-ITEM-LYS BLY: dit is wat KABV Graad 5 noem. Net die 'nuut vanjaar'-raamwerk val weg; moenie beweer WATTER woorde nuut is nie.\n\nOORSPRONKLIKE TEKS HIERONDER, as rekord:\nDat 'n materiaal se eienskappe net hierdie ses is. Graad 4 het vyf ANDER pare geleer (hard/sag, styf/buigbaar, sterk/swak, lig/swaar, waterdig/absorberend), en twee lyste wat teenoor mekaar staan waar hulle nie werklik verskil nie, is 'n vals kontras.",
+          "wat_om_te_doen": "Bied hulle as bykomende eienskappe aan, nie as 'n volledige lys nie. Onvolledig is reg; 'n vals kontras is nie."
+        },
+        {
+          "risiko": "Om 'n materiaal se gebruik as die enigste gebruik aan te bied.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat vensters net van glas is, of dat beton die enigste ding is waarvan 'n vloer gemaak word.",
+          "wat_om_te_doen": "Skryf 'word gebruik vir', nie 'is die materiaal vir' nie. Geen oortreffende trap sonder nagaan nie."
+        }
+      ],
+      "aanvulling": [],
+      "aanvulling_nota": "Geen. KABV noem sewe materiale en ses eienskapwoorde by die naam, en die assesseringsriglyn voeg die huis, die skool en die gemeenskap by. Dit is meer as genoeg vir 440 woorde en niks is onvolledig sonder 'n byvoeging nie.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "GEEN eli10-blok. Elke idee hier is met die hande vasvatbaar: hard, waterdig, buigsaam, deursigtig. Daar is geen abstrakte meganisme in hierdie les nie, en 'n vergelykingsblok sou net die studieteks in korter woorde herhaal - presies die mislukking waarteen die standaard waarsku.",
+      "termdig": false,
+      "termdig_nota": "Verwag ongeveer twee of drie begrip-inskrywings. KABV noem sewe materiale, maar vyf daarvan is reeds graad 4-terme en 'n graad 5-leerder ken glas, plastiek en verf as woorde. Werklike kandidate: keramiek, tekstiel, duursaam en brandbestand. 'eienskap' kry graad 4 se bewoording woord vir woord as dit ingesluit word.",
+      "fokusvraag_skakel": "Lewer die tweede helfte van die antwoord: waarom die nuwe materiaal se eienskappe dit nuttig maak, deur KABV se sewe genoemde materiale elk aan 'n eienskap en 'n gebruik te koppel, en deur te wys waar 'n leerder hulle by die huis, by die skool en in die gemeenskap kry."
     },
     {
-     "risiko": "Om tradisionele verwerking as swakker, eenvoudiger of as 'n vroee weergawe van 'n fabriek voor te stel.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat 'n handgemaakte pot of mat minder werd is as 'n gekoopte een, of dat die metode 'n stap op pad na 'n masjien is.",
-     "wat_om_te_doen": "Beskryf wat gemaak word en waarvoor dit gebruik word. KABV vra geen vergelyking met fabrieke nie."
-    },
-    {
-     "risiko": "Om KABV se 'honderde jare' op te gradeer.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat dit duisende jare is, of dat 'n bepaalde eeu of datum genoem kan word.",
-     "wat_om_te_doen": "Skryf honderde jare, soos KABV."
-    },
-    {
-     "risiko": "Om te se 'n grasdak is waterdig.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat gras of riet self water uithou soos 'n plastiekseil. Die dak werk deur die dik lae en die skuinste, nie deurdat die halms waterdig is nie.",
-     "wat_om_te_doen": "Skryf wat in kern staan: die lae en die skuinste laat die water aan die buitekant afloop."
-    },
-    {
-     "risiko": "Om te se tradisionele kleipotte word in 'n oond gebak of geglasuur.",
-     "valse_gevolgtrekking_om_te_vermy": "Dat die metode dieselfde is as die fabrieksmetode wat les 2 se keramiek maak.",
-     "wat_om_te_doen": "Skryf 'in 'n vuur gebak'. Glasuur word nie genoem nie."
+      "nommer": 3,
+      "jaarnommer": 15,
+      "jaarnommer_nota": "Les 15 van 29 vir die graad 5-jaar, en die laaste les van Termyn 2. Lesnommers loop deurlopend deur die jaar; die 'nommer'-veld hierbo is die posisie binne hierdie subonderwerp.",
+      "titel": "Wat klei, gras en riet kan word",
+      "titel_nota": "Werktitel en 'n leerderopskrif. KABV se opskrif 'Tradisionele verwerking' is die indeksnaam, nie die titel nie.",
+      "kaps_opskrif": "Tradisionele verwerking",
+      "kaps_punt": "in Afrika het mense vir honderde jare materiale verwerk, soos: kleipotte en bakstene, mandjies, hoede, matte, grasdakke gemaak van plantmateriaal soos grasse en riete",
+      "kaps_punte": [
+        "in Afrika het mense vir honderde jare materiale verwerk, soos:",
+        "-- kleipotte en bakstene",
+        "-- mandjies, hoede, matte, grasdakke gemaak van plantmateriaal soos grasse en riete"
+      ],
+      "kaps_punte_nota": "Woordeliks uit KABV. Ses genoemde produkte (kleipot, baksteen, mandjie, hoed, mat, grasdak) uit twee materiaalfamilies (klei, en plantmateriaal soos grasse en riete). Al ses is verpligtend, en albei plantbronne word by die naam genoem.",
+      "kaps_aktiwiteit": "'maak 'n voorwerp van klei (modellering)' en 'vind voorbeelde van voorwerpe wat uit plantvesel gemaak is (deur dit te weef en te stik)'. Albei is klaskamerwerk en nie teks nie.",
+      "begroting": 360,
+      "begrotingsnota": "360 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Dit is die kortste van die drie omdat KABV hier EEN inhoudsbulletjie gee teenoor twee in les 1 en twee in les 2, en omdat die klei-helfte op graad 4 se afgelewerde klei-na-keramiek werk kan staan sonder om dit oor te doen. Die verdeling: ongeveer 60 woorde vir wat tradisionele verwerking is en dat dit vandag nog gebeur, ongeveer 100 woorde vir kleipotte en bakstene, ongeveer 130 woorde vir mandjies, hoede, matte en grasdakke uit gras en riet, en ongeveer 70 woorde vir die skakel terug na eienskappe. Die hek meet teen 360 met plus-minus 15%, dus 306 tot 414. Binne die graad 5-band 300-550, dus is geen vloeruitsondering nodig nie. NIKS hiervan kom uit KABV se ure nie.",
+      "kern": [
+        "Wat 'tradisionele verwerking' hier beteken, en dit moet eerste staan: mense in Afrika verwerk al honderde jare materiale met hulle hande en met eenvoudige gereedskap. Hulle doen dit VANDAG NOG - die les mag nie heeltemal in die verlede tyd staan nie, en minstens een sin moet in die hede wees.",
+        "KLEIPOTTE EN BAKSTENE. Nat klei word met die hand in vorm gemaak, laat droog word, en dan in 'n vuur hard gebak. Party bakstene word net in die son droog gemaak en nie gebak nie; die les mag nie een van die twee as die enigste manier aanbied nie. Klei is een van die materiale wat graad 4 al as onverwerkte materiaal geleer het, dus hoef die herkoms nie oorgedoen te word nie.",
+        "MANDJIES, HOEDE, MATTE EN GRASDAKKE. Al vier word by die naam genoem, want KABV noem al vier, en albei plantbronne word genoem: grasse en riete.",
+        "Hoe plantmateriaal verwerk word: die gras of riet word gesny, laat droog word, en dan gevleg of geweef.\n\nREGGEMAAK 10 September 2026 NA 'N FEITENASIEN. Die vorige weergawe het gese 'hier word niks gemeng en niks verhit nie'. DIT IS TE WYD EN VALS: Zulu- en Botswana-vlegwerk KOOK kleurstof uit bas en wortels en week die stroke daarin, en ilalablare word self gekook voordat hulle gesplyt word. Meng en verhit IS deel van hierdie werk.\n\nVERNOU DIE STAP, NIE DIE ONDERWERP NIE: dit is die VLEG EN WEEF SELF waarby niks gemeng of verhit word nie. Die skoon verskil met les 1 bly staan - daar is die verwerking die meng; hier is dit die dryf, buig en vleg.",
+        "Waarom 'n grasdak die reen afhou: die gras of riet word in dik lae bo-oor mekaar gepak en skuins gele, sodat die water aan die buitekant van die lae afloop. Dit is die een plek in hierdie les waar 'n meganisme werklik verklaar word, en dit is die verskil tussen 'n les en 'n lys.",
+        "Die skakel terug na les 14, en dit is wat hierdie les 'n les maak: elke keer is die materiaal gekies vir 'n eienskap. Klei is sag genoeg om met die hand te vorm en word hard as dit gebak word; gras en riet is lank, buigsaam en sterk genoeg om te vleg. Die eienskap kom eerste en die gebruik volg daaruit - presies dieselfde vorm as les 14."
+      ],
+      "feiterisiko": [
+        {
+          "risiko": "Om 'n praktyk aan 'n genoemde volk, taalgroep of streek toe te skryf.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat 'n bepaalde groep hierdie ding maak, uitgevind het of die enigste is wat dit doen. KABV se net 'in Afrika het mense'.",
+          "wat_om_te_doen": "Bly by KABV se eie bewoording. Geen volksnaam, geen streek, geen 'die eerste', tensy dit teen 'n bron buite enige handboek nagegaan is - en hierdie les het geen sodanige bron nie."
+        },
+        {
+          "risiko": "Om die hele les in die verlede tyd te skryf.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat hierdie ambagte opgehou het. Elke sin kan waar wees en die prentjie tog vals - mense maak vandag nog kleipotte, mandjies, matte en grasdakke.",
+          "wat_om_te_doen": "Minstens een sin dra die hede, en die res mag nie daarmee bots nie."
+        },
+        {
+          "risiko": "Om tradisionele verwerking as swakker, eenvoudiger of as 'n vroee weergawe van 'n fabriek voor te stel.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat 'n handgemaakte pot of mat minder werd is as 'n gekoopte een, of dat die metode 'n stap op pad na 'n masjien is.",
+          "wat_om_te_doen": "Beskryf wat gemaak word en waarvoor dit gebruik word. KABV vra geen vergelyking met fabrieke nie."
+        },
+        {
+          "risiko": "Om KABV se 'honderde jare' op te gradeer.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat dit duisende jare is, of dat 'n bepaalde eeu of datum genoem kan word.",
+          "wat_om_te_doen": "Skryf honderde jare, soos KABV."
+        },
+        {
+          "risiko": "Om te se 'n grasdak is waterdig.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat gras of riet self water uithou soos 'n plastiekseil. Die dak werk deur die dik lae en die skuinste, nie deurdat die halms waterdig is nie.",
+          "wat_om_te_doen": "Skryf wat in kern staan: die lae en die skuinste laat die water aan die buitekant afloop."
+        },
+        {
+          "risiko": "Om te se tradisionele kleipotte word in 'n oond gebak of geglasuur.",
+          "valse_gevolgtrekking_om_te_vermy": "Dat die metode dieselfde is as die fabrieksmetode wat les 2 se keramiek maak.",
+          "wat_om_te_doen": "Skryf 'in 'n vuur gebak'. Glasuur word nie genoem nie."
+        }
+      ],
+      "aanvulling": [],
+      "aanvulling_nota": "Geen. KABV noem ses produkte en twee plantbronne by die naam, en die skakel terug na eienskappe is die verklaring van KABV se eie inhoud en nie 'n byvoeging nie. 'n Sewende voorbeeld of 'n genoemde groep sou hier nie net begroting kos nie, maar ook 'n bewering invoer wat niks kan nagaan nie.",
+      "moeilike_konsepte": [],
+      "moeilike_konsepte_nota": "GEEN eli10-blok, en dit is die derde nul in hierdie subonderwerp. Dit is 'n keuse en nie 'n oorsig nie: die standaard se die verstek is geen, en die toets is of daar enige konkrete manier is om die idee te stel. Hier is alles konkreet - klei wat gevorm word, halms wat gevleg word, lae wat water laat afloop. Die enigste kandidaat was die grasdak, en die kern-inskrywing daaroor stel dit reeds konkreet.",
+      "termdig": false,
+      "termdig_nota": "KABV noem ses items, wat gewoonlik termdig true beteken, en dit is HIER met opset false. Die ses is alledaagse voorwerpe (mandjie, hoed, mat, dak, pot, baksteen) en nie nuwe vakterme nie; 'n graad 5-leerder ken hulle almal. Werklike kandidate vir 'n begrip-inskrywing: riet, vleg of weef, en plantvesel. Verwag twee of drie, en moenie tot ses opvul nie. Die valideerder waarsku hieroor - die waarskuwing is gesien en die antwoord staan hier.",
+      "fokusvraag_skakel": "Dra albei helftes van die vraag na buite die klaskamer: mense in Afrika verwerk al honderde jare klei, gras en riet, en hulle kies elke keer die materiaal vir wat sy eienskappe kan doen - dieselfde eienskap-eerste-gebruik-daarna vorm as les 2, nou in dinge wat 'n leerder om haar sien."
     }
-   ],
-   "aanvulling": [],
-   "aanvulling_nota": "Geen. KABV noem ses produkte en twee plantbronne by die naam, en die skakel terug na eienskappe is die verklaring van KABV se eie inhoud en nie 'n byvoeging nie. 'n Sewende voorbeeld of 'n genoemde groep sou hier nie net begroting kos nie, maar ook 'n bewering invoer wat niks kan nagaan nie.",
-   "moeilike_konsepte": [],
-   "moeilike_konsepte_nota": "GEEN eli10-blok, en dit is die derde nul in hierdie subonderwerp. Dit is 'n keuse en nie 'n oorsig nie: die standaard se die verstek is geen, en die toets is of daar enige konkrete manier is om die idee te stel. Hier is alles konkreet - klei wat gevorm word, halms wat gevleg word, lae wat water laat afloop. Die enigste kandidaat was die grasdak, en die kern-inskrywing daaroor stel dit reeds konkreet.",
-   "termdig": false,
-   "termdig_nota": "KABV noem ses items, wat gewoonlik termdig true beteken, en dit is HIER met opset false. Die ses is alledaagse voorwerpe (mandjie, hoed, mat, dak, pot, baksteen) en nie nuwe vakterme nie; 'n graad 5-leerder ken hulle almal. Werklike kandidate vir 'n begrip-inskrywing: riet, vleg of weef, en plantvesel. Verwag twee of drie, en moenie tot ses opvul nie. Die valideerder waarsku hieroor - die waarskuwing is gesien en die antwoord staan hier.",
-   "fokusvraag_skakel": "Dra albei helftes van die vraag na buite die klaskamer: mense in Afrika verwerk al honderde jare klei, gras en riet, en hulle kies elke keer die materiaal vir wat sy eienskappe kan doen - dieselfde eienskap-eerste-gebruik-daarna vorm as les 2, nou in dinge wat 'n leerder om haar sien."
-  }
- ],
- "verwerkte_materiaal_botsing_beslis": "GEEN BOTSING NIE - NAGEGAAN EN GESLUIT 9 September 2026, geen beslissing van Drico nodig nie.\n\nDie beplanner het gevra of Graad 4 se bewoording sterker is as wat KABV by Graad 5 beweer, en of 'n omskrywing in 'n later graad SWAKKER mag word. Die twee stellings is egter nie dieselfde SOORT stelling nie:\n\n  GRAAD 4 (omskrywing): 'Materiaal wat mense verander het sodat dit ander eienskappe kry.' Die woord 'sodat' maak die veranderde eienskappe die TOETS waarmee 'n mens iets verwerk noem. Dit is 'n definisie.\n\n  KABV GRAAD 5 (bewering): die eienskappe van die nuwe materiaal KAN verskil van die materiaal waarmee ons begin het. Dit is 'n uitspraak oor wat kombinasie oplewer.\n\n'n Definisie en 'n uitspraak oor uitkomste kan langs mekaar staan sonder om mekaar te weerspreek. Graad 4 se afgelewerde sin ('Die nuwe materiaal het ander eienskappe as die materiaal waarmee hulle begin het') geld sy eie les se voorbeelde en is daar waar.\n\nDIE BEPLANNER SE OPLOSSING BLY DUS SOOS DIT IS: Graad 4 se sin woordeliks waar die term omskryf word, en KABV se 'kan' in die lopende teks, eienskap vir eienskap gestel. Niks verander nie.\n\nMOENIE DIT WEER OOPMAAK NIE. Die vraag of 'n omskrywing oor grade heen mag VERNOU bly onbeantwoord, want hierdie geval vra dit nie."
+  ],
+  "verwerkte_materiaal_botsing_beslis": "GEEN BOTSING NIE - NAGEGAAN EN GESLUIT 9 September 2026, geen beslissing van Drico nodig nie.\n\nDie beplanner het gevra of Graad 4 se bewoording sterker is as wat KABV by Graad 5 beweer, en of 'n omskrywing in 'n later graad SWAKKER mag word. Die twee stellings is egter nie dieselfde SOORT stelling nie:\n\n  GRAAD 4 (omskrywing): 'Materiaal wat mense verander het sodat dit ander eienskappe kry.' Die woord 'sodat' maak die veranderde eienskappe die TOETS waarmee 'n mens iets verwerk noem. Dit is 'n definisie.\n\n  KABV GRAAD 5 (bewering): die eienskappe van die nuwe materiaal KAN verskil van die materiaal waarmee ons begin het. Dit is 'n uitspraak oor wat kombinasie oplewer.\n\n'n Definisie en 'n uitspraak oor uitkomste kan langs mekaar staan sonder om mekaar te weerspreek. Graad 4 se afgelewerde sin ('Die nuwe materiaal het ander eienskappe as die materiaal waarmee hulle begin het') geld sy eie les se voorbeelde en is daar waar.\n\nDIE BEPLANNER SE OPLOSSING BLY DUS SOOS DIT IS: Graad 4 se sin woordeliks waar die term omskryf word, en KABV se 'kan' in die lopende teks, eienskap vir eienskap gestel. Niks verander nie.\n\nMOENIE DIT WEER OOPMAAK NIE. Die vraag of 'n omskrywing oor grade heen mag VERNOU bly onbeantwoord, want hierdie geval vra dit nie."
 }
