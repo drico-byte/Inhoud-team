@@ -86,12 +86,25 @@ def nou():
 
 
 def konsep_hash(les):
-    """Content hash of a draft, ignoring `status`.
+    """Content hash of a draft, ignoring `status` and the provenance note.
 
     `status` is stamped by this runner as the lesson moves konsep -> gated, and a
     stamp must not make the gate result and the checker reports look stale.
+
+    `herkoms.nota` is excluded for the same reason, added 10 September 2026. The
+    note is the writer's record of its reasoning, never lesson content: no
+    requirement is met by it, no checker quotes it as a claim, and the fact checker
+    is handed a copy with it removed. Moving older rounds of it out to the archive
+    beside the lesson -- which bin/herkomsargief.py must do, because a note that
+    reaches 55 KB on one line stops a writer dead -- changed nothing a reader of
+    the lesson can see, and threw away three sound reports in one afternoon. A
+    revision that changes what the lesson SAYS always changes the blocks too, so
+    nothing real can hide here.
     """
     body = {k: v for k, v in les.items() if k != "status"}
+    herkoms = body.get("herkoms")
+    if isinstance(herkoms, dict) and "nota" in herkoms:
+        body["herkoms"] = {k: v for k, v in herkoms.items() if k != "nota"}
     blob = json.dumps(body, ensure_ascii=False, sort_keys=True).encode("utf-8")
     return "sha256:" + hashlib.sha256(blob).hexdigest()[:32]
 
