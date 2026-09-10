@@ -37,6 +37,9 @@ import sys
 GEMERK = ("REGGEMAAK", "HERSKRYF", "BYGEVOEG", "UITGEBREI", "LET WEL",
           "GEMERK", "GEOPEN", "HERBEVESTIG", "VERSKUIF", "OORTREFDE")
 
+# How far into a field the dated correction paragraph is taken to run.
+KOP_VENSTER = 900
+
 # A field may instead say inline that it is holding the old wording on purpose.
 INLYN = re.compile(r"VERVANG VIR GRAAD|MOENIE HIERDIE BEWOORDING|REKORD, NIE 'N BESTELLING|"
                    r"as GESKIEDENIS|as rekord|OORTREFDE TEKS", re.I)
@@ -80,8 +83,13 @@ def velde(node, pad=""):
 
 
 def normaliseer(s):
+    """Case is dropped on purpose. A spec quotes a wording inside its own sentence
+    -- "teen Graad 4 se eie omskrywing ('los dele wat ...')" -- so the first letter
+    is lower-cased, and a case-sensitive match walks straight past it. That is how
+    this script's first version reported a clean file while a core requirement was
+    still quoting a replaced wording as the description to test against."""
     s = s.replace("’", "'").replace("‘", "'")
-    return re.sub(r"\s+", " ", s).strip()
+    return re.sub(r"\s+", " ", s).strip().lower()
 
 
 def main():
@@ -111,7 +119,12 @@ def main():
         nuwe_sin = normaliseer(str(e.get("omskrywing") or ""))
         ou_sin = normaliseer(str((oud.get(term) or {}).get("omskrywing") or ""))
         if nuwe_sin and ou_sin and nuwe_sin != ou_sin:
-            vervang[term] = ou_sin
+            # Match without the closing full stop. An agreed wording is stored as a
+            # finished sentence, but a spec quotes it INSIDE its own sentence -- "teen
+            # Graad 4 se eie omskrywing ('los dele wat ... tussen hulle')" -- and drops
+            # the stop before the closing quote. Keeping it made this script report a
+            # clean file twice while a core requirement still ordered the old wording.
+            vervang[term] = ou_sin.rstrip(". ")
 
     if not vervang:
         print("\nNo term in this grade replaces a Grade %d wording. Nothing to sweep."
@@ -128,7 +141,7 @@ def main():
         sys.exit("No approved specs at spesifikasies/goedgekeur/gr%d/%s/" % (a.graad, vakgids))
     print("%d approved spec(s) read\n" % len(spekke))
 
-    lewend = gemerk = inlyn_gemerk = 0
+    lewend = gemerk = inlyn_gemerk = ander = 0
     for spek in spekke:
         naam = os.path.basename(spek)
         try:
@@ -142,7 +155,20 @@ def main():
                 if ou_sin not in n:
                     continue
                 if teks.lstrip().startswith(GEMERK):
-                    gemerk += 1
+                    # A dated correction is scoped to the fault it NAMES, not to the
+                    # field it sits in. A long field usually holds several claims, and
+                    # exempting the whole field on the strength of one marker skips
+                    # precisely the fields most likely to still be wrong. This script's
+                    # first version did that and missed a core requirement that still
+                    # quoted a replaced wording, in a field corrected that morning for
+                    # something else entirely. So: only count it as handled if the
+                    # correction paragraph actually mentions this term.
+                    if term.lower() in teks[:KOP_VENSTER].lower():
+                        gemerk += 1
+                    else:
+                        ander += 1
+                        print("  MARKED FOR SOMETHING ELSE  %-22s %-40s [%s]"
+                              % (naam[:22], pad[:40], term))
                 elif INLYN.search(teks):
                     # The marker is not always at the opening line. Several fields
                     # record the previous grade's wording deliberately and say so
