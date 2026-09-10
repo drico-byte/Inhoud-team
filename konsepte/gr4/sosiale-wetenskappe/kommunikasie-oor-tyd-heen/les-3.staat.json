@@ -1,9 +1,11 @@
 {
   "les": "gr4/sosiale-wetenskappe/kommunikasie-oor-tyd-heen/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:aae28626075ec5c8ab99aa96650febd8",
+  "konsep_hash": "sha256:18630bb20d3415ed424197e05a70be57",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:89a6f14e3e0bd91286669d8db54ca7ba"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -49,9 +51,49 @@
       "woorde": 449,
       "begroting": 400,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-09T11:01:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:89a6f14e3e0bd91286669d8db54ca7ba",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-09T11:01:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 475,
+      "begroting": 400,
+      "failures": [
+        "Study text 475 words, above budget ceiling 460 (target 400) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-09T11:01:38+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 475 words, above budget ceiling 460 (target 400) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-09T11:06:03+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:18630bb20d3415ed424197e05a70be57",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-09T11:06:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 454,
+      "begroting": 400,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:cc2b2b8703505a0b886da43183b8983a",
+  "spek_hash": "sha256:ed7bd5777d49c5a76090a0ca28d7e979",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400

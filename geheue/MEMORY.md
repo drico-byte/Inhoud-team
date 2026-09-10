@@ -29,6 +29,7 @@
 - [Practical work: we teach the thinking](praktiese-werk-ons-leer-die-denke.md) — the theory a making task tests is ours; the making is not, and interactivity is the layout team's bonus.
 - [Tell the story, don't explain it](vertel-die-storie-moenie-dit-verklaar-nie.md) — cultural stories get told, not dissected; ~100 words each, and the count is set by what is verifiable.
 - [Before stopping, say what is running](voor-jy-stop-se-wat-loop.md) — report how close each agent is first; never kill a long fact check without asking.
+- [An agent killed mid-task leaves content without its record](n-agent-wat-halfpad-sterf-laat-die-inhoud-sonder-sy-rekord.md) — it writes the lesson and its note in separate steps; diff the report's quoted sentences against the draft, never the note.
 - [A report in the log tree can be stale](n-verslag-in-die-logboom-kan-verouderd-wees.md) — it snapshots the draft as it was when the check ran, and an escalation shows as current because it was never closed; seven of nine briefed items were already fixed.
 - [A report does not exist because the agent says so](n-verslag-bestaan-nie-omdat-die-agent-so-se.md) — copy the runner's own printed paths instead of typing them; a missing report is not proof the checker misplaced it.
 - [State that never got saved](staat-wat-nie-gestoor-word-nie.md) — the runner deleted every coverage report forever; when a step demands work already done, check the fingerprint, and suspect the harness before the agents.
@@ -74,3 +75,5 @@
 - [Simplify the method, not the provenance](vereenvoudig-die-metode-nie-die-herkoms-nie.md) — at Grade 4, compressing HOW we know is right; saying the information lives in the wrong object is not.
 - [A definition may widen across grades](n-omskrywing-mag-oor-grade-heen-verbreed.md) — Drico's ruling; the no-richer rule is bounded by the one-year exam, so Grade 5 widened geraamte and Grade 4 stayed as delivered.
 - [Two planners, both locally right](twee-beplanners-albei-plaaslik-reg.md) — opposite answers for one term in one grade; scope differences between sub-topics must be settled BEFORE drafting, not at reconciliation.
+- [I wrote my correction on top of its refutation](ek-skryf-my-regstelling-bo-op-sy-weerlegging.md) — the evidence against my ruling was one line up in the same field; read the field you are writing into.
+- [A patch inside a sentence breaks the field as prose](n-laslap-binne-n-sin-breek-die-veld-as-prosa.md) — an assert proves the match, not that the result is a sentence; replace whole sentences, and rewrite a field once it has three patches.
