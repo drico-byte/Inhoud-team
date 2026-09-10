@@ -77,3 +77,4 @@
 - [Two planners, both locally right](twee-beplanners-albei-plaaslik-reg.md) — opposite answers for one term in one grade; scope differences between sub-topics must be settled BEFORE drafting, not at reconciliation.
 - [I wrote my correction on top of its refutation](ek-skryf-my-regstelling-bo-op-sy-weerlegging.md) — the evidence against my ruling was one line up in the same field; read the field you are writing into.
 - [A patch inside a sentence breaks the field as prose](n-laslap-binne-n-sin-breek-die-veld-as-prosa.md) — an assert proves the match, not that the result is a sentence; replace whole sentences, and rewrite a field once it has three patches.
+- [My correction in the spec was itself the next error](my-regstelling-in-die-spek-was-self-die-volgende-fout.md) — I prescribed the fix instead of describing the fault, and it built a new false picture at the same spot within hours.
