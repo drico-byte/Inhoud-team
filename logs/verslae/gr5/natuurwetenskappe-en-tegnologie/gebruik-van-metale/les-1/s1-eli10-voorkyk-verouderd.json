@@ -4,79 +4,64 @@
   "prompt_weergawe": "feitenasiener-v1.2",
   "les": "Hoekom ons metaal kies",
   "kaps_punt": "metale is nuttig as gevolg van hulle spesiale eienskappe - metale gelei hitte; sommige metale is magneties, en 'n paar is nie; net yster roes (sommige metale vlek en word dof); metale word gebruik vir die maak dinge soos munte, draad, juwele, meubels, geboue en brûe, motors, kombuisgereedskap, dakke",
-  "verdict": "HERSIEN",
+  "verdict": "GOEDGEKEUR",
   "items": [
+    {
+      "bewering": "In 'n warm pot beweeg die hitte vinnig deur die metaallepel na jou hand.",
+      "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die sin noem nou uitdruklik 'die metaallepel' en nie meer 'die lepel' nie, so dit maak geen bewering oor lepels in die algemeen nie. Die beperkte bewering is korrek: vlekvrye staal ~16 W/m.K teenoor hardehout ~0,08 W/m.K, dus dra 'n metaallepel hitte ongeveer 200 keer vinniger as 'n houtlepel (thermtest.com, 'Thermal Conductivity Will Make You a Better Cook'; tec-science.com, 'Human thermal response', wat staal 50,2 W/m.K teenoor hout ten hoogste 0,12 W/m.K gee). Kookbronne bevestig die alledaagse waarneming dat 'n staallepel in warm kos vinnig te warm word om vas te hou terwyl 'n houtlepel koel bly (metercube.com, 'Wooden vs Steel Spoons')."
+    },
+    {
+      "bewering": "Die sin laat nie 'n gaping oor die houtlepel binne die blok nie: 'So beweeg hitte vinnig uit jou hand na 'n metaallepel en stadig na 'n houtlepel.'",
+      "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Nagegaan teen die blok self: die tweede sin stel albei lepels teenoor mekaar (metaal vinnig, hout stadig), en daardie stelling bly staan. Die slotsin wat nou net die metaallepel noem, weerspreek dit nie en verswyg niks nie - hout se stadige gedrag is reeds gestel, en die fisika bly konsekwent in albei rigtings, want lae geleidingsvermoë vertraag hitte ewe veel na binne as na buite (tec-science.com, 'Human thermal response'). 'n Leerder wat verder redeneer, kom by 'hout dra hitte stadig, in albei rigtings' uit, wat waar is."
+    },
     {
       "bewering": "Water sak dadelik in droë sand weg en baie stadig in harde grond.",
       "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Minnesota Stormwater Manual, ontwerp-infiltrasietempo's per grondtipe (sand 0,45 duim/uur teenoor klei en silt-klei 0,06 duim/uur; 'if a soil is compacted, reduce the soil infiltration rate by one level') - https://stormwater.pca.state.mn.us/index.php/Design_infiltration_rates ; UNL Water (University of Nebraska-Lincoln), 'Improving Soil Structure for Increased Infiltration': water loop eerder af as wat dit in harde, saamgepakte grond insak, en poeling is 'n teken van kompaksie - https://water.unl.edu/article/lawns-gardens-landscapes/improving-soil-structure-increased-infiltration-and-water-holding/ . Albei kante van die vergelyking is dus 'n tempo, en die tempoverskil is groot (ongeveer 7-8x) en in die rigting wat die les beweer. Gewone droë sand neem water vinnig op; die enigste uitsondering wat opgekom het, is behandelde hidrofobiese sand, wat 'n laboratoriumproduk is en nie die alledaagse geval nie."
+      "bron": "USDA NRCS, 'Inherent Factors Affecting Soil Infiltration' en 'Infiltration' (nrcs.usda.gov): sanderige grond het 'n bestendige infiltrasietempo van meer as 0,8 duim per uur, klei 0,04-0,2 duim per uur, en 'n saamgeperste laag naby die oppervlak beperk die intrede van water en lei dikwels tot poeling op die oppervlak. Water beweeg vinniger deur die groot poriës van sand as deur die klein poriës van klei."
+    },
+    {
+      "bewering": "Die vergelyking self: water in droë sand teenoor harde grond, en hitte in 'n metaallepel teenoor 'n houtlepel.",
+      "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Die afbeelding is 'tempo van beweging deur 'n materiaal', en albei kante is met bronne bevestig: infiltrasietempo sand teenoor saamgeperste grond (USDA NRCS) en geleidingsvermoë metaal teenoor hout (tec-science.com; thermtest.com). Die plek waar so 'n beeld sou kon breek - water val net een rigting, hitte beweeg albei rigtings - word binne die blok self toegemaak deur die sin 'Dit gebeur net wanneer die lepel kouer as jou hand is' en deur die slotsin wat die omgekeerde geval (warm pot na jou hand) uitdruklik gee. 'n Leerder wat verder redeneer, word dus nie by 'hitte beweeg net een rigting' gelaat nie."
     },
     {
       "bewering": "So beweeg hitte vinnig uit jou hand na 'n metaallepel en stadig na 'n houtlepel.",
       "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "tec-science, 'Why does metal feel colder than wood (human thermal response)?': 'Metals have a significantly higher thermal conductivity than wood ... metals can transfer more heat per unit time than wood' - https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ . Getalle: metale ongeveer 50-400 W/(m·K), hout ongeveer 0,1-0,2 W/(m·K) (Ansys Innovation Courses, 'Thermal Conductivity of Materials' - https://innovationspace.ansys.com/courses/courses/learn-physics-structural-mechanics-heat-transfer-copy/lessons/lesson-2-thermal-conductivity-of-materials-2/ ). Die rigting is ook reg: die hitte beweeg UIT die hand, nie koue IN die hand nie."
-    },
-    {
-      "bewering": "Die afbeelding self: water-in-sand teenoor water-in-harde-grond as beeld vir hitte wat vinnig teenoor stadig uit die hand beweeg.",
-      "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
-      "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Die afbeelding is getoets teen tec-science ( https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ ) en Thermtest, 'Touch Metal, Touch Wood': 'Touching an object with high effusivity, like metal, will make the temperature of your skin drop close to the object's temperature, while touching an object with low effusivity, like wood, will have little effect on your skin' - https://thermtest.com/thermal-resources/thermal-conductivity-experiments/touch-metal-touch-wood . Die afbeelding dra 'n TEMPO aan albei kante ('dadelik' teenoor 'baie stadig') en dit karteer op 'n tempo aan albei kante ('vinnig' na metaal, 'stadig' na hout). Dit verklaar dus nie meer bloot hoekom enigiets kouer hitte wegneem nie - dit skei die metaallepel van die houtlepel presies waar die les hulle skei. Die vroeere fout van 'geen tempo nie' is toe."
-    },
-    {
-      "bewering": "Uitbreiding wat 'n leerder sal maak: sand raak vol. Getoets teen 'Water sak dadelik in droë sand weg' saam met 'Dit gebeur net wanneer die lepel kouer as jou hand is.'",
-      "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
-      "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Getoets teen die termiese-ewewig-verduideliking by tec-science ( https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ ) en die rigtingreel by OpenStax Physics 11.2, 'Heat, Specific Heat, and Heat Transfer' - https://openstax.org/books/physics/pages/11-2-heat-specific-heat-and-heat-transfer . 'n Leerder wat die sand laat volraak, kom uit by 'die water hou op insak' en dus by 'die lepel hou op koud voel'. Dit is wat werklik gebeur: 'n metaallepel wat lank genoeg vasgehou word, warm op tot by die hand se temperatuur en voel dan nie meer koud nie. Die uitbreiding lewer dus die REGTE voorspelling, en die blok gee die regte rede afsonderlik in sy derde sin, want die vloei hou op wanneer die lepel nie meer kouer is nie. Albei paaie eindig op dieselfde regte plek, wat die toets is wat 'n afbeelding moet slaag."
-    },
-    {
-      "bewering": "Uitbreiding wat 'n leerder sal maak: water bly op harde grond staan. Getoets teen 'baie stadig in harde grond' saam met 'stadig na 'n houtlepel'.",
-      "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
-      "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Royal Society of Chemistry / tec-science se verduideliking, soos aangehaal in soekresultate en op https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ : 'heat flows from your hand to the wood and warms the wooden surface, but because this heat is not conducted away quickly, the surface of the wood soon becomes as warm as your hand, so little or no additional heat leaves the hand.' Die uitbreiding karteer opvallend goed: die water wat op die harde grond bly staan, is die hitte wat by die kontakoppervlak van die hout bly en daardie oppervlak warm maak - en dit is juis hoekom hout minder koud voel. Die uitbreiding lei 'n leerder na 'n ware gevolgtrekking, nie 'n valse een nie."
+      "bron": "tec-science.com, 'Why does metal feel colder than wood (human thermal response)?': staal 50,2 W/m.K teenoor hout se hoogstens 0,12 W/m.K, dus dra staal hitte ongeveer 500 keer vinniger uit jou vingers as hout. Institute for Future Intelligence (intofuture.org, 'Why do Metals Feel Colder than Wood?') stem saam."
     },
     {
       "bewering": "Dit gebeur net wanneer die lepel kouer as jou hand is.",
       "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Uitsluitingsbewering ('net'), daarom in hierdie kategorie nagegaan. Bevestig teen die tweede hoofwet soos gestel in OpenStax Physics 11.2 - https://openstax.org/books/physics/pages/11-2-heat-specific-heat-and-heat-transfer - en UW-Madison Chemistry 103/104, 'Direction of Heat Flow' - https://wisc.pb.unizin.org/minimisgenchem/chapter/system-vs-surroundings-and-direction-of-heat-flow-m6q2/ . Netto hitte vloei spontaan slegs van warmer na kouer, dus verlaat hitte die hand slegs terwyl die lepel kouer is. Dit is ook die sin wat die ou fout toemaak: die rede vir die gevoel is nou die TEMPERATUURVERSKIL, nie 'n voorraad hitte in die hand nie."
+      "tipe": "algemeen",
+      "bron": "tec-science.com, 'Human thermal response': 'we feel objects as cold when the heat flow is directed away from our skin... In these cases the temperature of the objects we touch is lower than the temperature of our skin.' Die onderliggende reël is die tweede hoofwet: hitte vloei spontaan van warm na koud en nooit vanself andersom nie (NASA Glenn, 'Second Law of Thermodynamics'; Physics LibreTexts 14.3)."
     },
     {
       "bewering": "Jou lyf hou jou hand heeltyd warm.",
       "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Absolute kwantifiseerder ('heeltyd'), daarom in hierdie kategorie nagegaan. Bevestig teen ScienceDirect Topics, 'Skin Blood Flow' - https://www.sciencedirect.com/topics/immunology-and-microbiology/skin-blood-flow - waar velbloedvloei die hand se veltemperatuur deurlopend by ongeveer 32-34 grade C hou by 'n neutrale kamertemperatuur van 24-25 grade C, en teen Thermtest se stelling dat 'the metal is removing heat from your hand faster than your body heat can replace it' - https://thermtest.com/thermal-resources/thermal-conductivity-experiments/touch-metal-touch-wood . Die sin is waar en, belangriker, dit doen die REGTE werk: dit se dat die hand WARM BLY (temperatuur), nie dat die lyf 'n voorraad aanvul nie. Dit is die verskil met die vorige weergawe wat afgekeur is. Die rede vir die gevoel bly die sin voor dit, naamlik dat die lepel kouer is; hierdie sin verduidelik net hoekom die hand die warmer een bly. Die voorraad-idee is dus weg."
+      "tipe": "algemeen",
+      "bron": "NCBI Bookshelf, 'Physiology, Thermal Regulation' (StatPearls) en NCBI 'Physiology of Cold Exposure': kernhitte word deur bloedvloei na die veloppervlak vervoer, en die liggaam vul so voortdurend die hitte aan wat by die vel verlore gaan. Die stelling is die alledaagse vorm daarvan en is korrek in die konteks van 'n hand wat aan 'n voorwerp raak - die hitte wat wegbeweeg, word aanhoudend vervang, wat juis is hoekom die koue gevoel voortduur."
     },
     {
       "bewering": "Hoe vinniger die hitte weggaan, hoe kouer voel die lepel.",
       "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "tec-science: 'our skin does not react directly to temperatures, but to heat flows' en ons ervaar 'objects as cold when the heat flow is directed away from our skin' - https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ ; Thermtest oor effusiwiteit - https://thermtest.com/thermal-resources/thermal-conductivity-experiments/touch-metal-touch-wood . Dit is die presiese sin wat die vroeere 'geen tempo nie'-fout toemaak, want dit maak die GEVOEL 'n funksie van die tempo en nie van die voorwerp se temperatuur nie."
-    },
-    {
-      "bewering": "In 'n warm pot beweeg die hitte vinnig deur die lepel na jou hand.",
-      "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
-      "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Ansys Innovation Courses, 'Thermal Conductivity of Materials' (hout ongeveer 0,1-0,2 W/(m·K) teenoor metale 50-400 W/(m·K)) - https://innovationspace.ansys.com/courses/courses/learn-physics-structural-mechanics-heat-transfer-copy/lessons/lesson-2-thermal-conductivity-of-materials-2/ ; American Physical Society, 'Getting Warmer/Getting Colder' - https://www.aps.org/learning-resources/getting-warmer-colder . Die probleem is nie die fisika van die bedoelde bewering nie, maar watter lepel 'die lepel' hier is. Die blok gebruik 'die lepel' in die drie sinne net voor hierdie een as 'n ALGEMENE verwysing wat albei lepels dek ('Dit gebeur net wanneer die lepel kouer as jou hand is', 'hoe kouer voel die lepel'), en die naaste lepel wat by die naam genoem is, is 'n houtlepel. Gelees op daardie manier se die sin dat hitte vinnig deur enige lepel - ook 'n houtlepel - in 'n warm pot na jou hand beweeg. Dit is vals: hout gelei ongeveer duisend keer stadiger as metaal, en dit weerspreek ook die les se eie eerste blok, wat se 'Hitte beweeg nie so maklik deur hout en plastiek nie' en dat 'n houthandvatsel 'koel genoeg bly om vas te hou'. Die risiko is nie teoreties nie: 'n warm pot is juis waar 'n leerder 'n HOUTLEPEL sien staan.",
-      "regstelling": "Noem die metaallepel by die naam in hierdie sin, sodat 'die lepel' nie die algemene verwysing van die vorige drie sinne oorneem nie - byvoorbeeld 'In 'n warm pot beweeg die hitte vinnig deur die metaallepel na jou hand.' Niks anders in die blok hoef te verander nie; die afbeelding en die res van die redenasie bly soos hulle is."
-    },
-    {
-      "bewering": "Kontrole oor die hele blok: laat enige sin hitte optree soos 'n stof wat uitloop, lek of opraak?",
-      "blok": "eli10 vir 'Hoekom 'n metaallepel kouer voel'",
-      "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Nagegaan teen die rigting- en ewewigsreels by OpenStax Physics 11.2 - https://openstax.org/books/physics/pages/11-2-heat-specific-heat-and-heat-transfer - en die verduideliking by tec-science - https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ . Geen sin se dat hitte water IS, dat die hand 'n hoeveelheid hitte bevat, dat dit opraak, of dat die lyf iets aanvul nie. Die water is uitdruklik 'n vergelyking ('So beweeg hitte...'), en die rede vir die vloei word in woorde gegee as die temperatuurverskil. Die vloeitaal wat oorbly ('beweeg', 'weggaan') is die standaard fisikataal vir hitte."
+      "bron": "tec-science.com, 'Human thermal response': 'If a lot of heat flows away from our skin in a short time (large outgoing heat flow), we perceive this as very cold.' Die vel meet dus die tempo van hittevloei, nie die voorwerp se temperatuur nie."
     }
   ],
-  "opsomming": "Die sand-afbeelding is gesond: dit dra 'n tempo aan albei kante, dit karteer op vinnige teenoor stadige hitteverlies, die voorraad-idee is weg en die rede is nou die temperatuurverskil - albei die ou foute is toe, en die twee ooglopende uitbreidings (sand wat volraak, water wat op harde grond bly staan) lei 'n leerder na WARE gevolgtrekkings; die enigste fout is een sin, die laaste, waar 'die lepel' na drie algemene gebruike nie meer die metaallepel aandui nie en die sin dus lees asof hitte ook vinnig deur 'n houtlepel in 'n warm pot beweeg, wat vals is en die les se eie eerste blok weerspreek - 'n regstelling van een woord. Hierdie was 'n nou kontrole: slegs die eli10-blok is nagegaan, en niks vals is in die ander blokke opgemerk nie."
+  "opsomming": "Die regstelling is deug: die slotsin noem nou die metaallepel en maak geen bewering meer oor lepels in die algemeen nie, en dit ontwrig niks langsaan nie - die houtlepel se stadige gedrag bly in die tweede sin gestel, die temperatuurverskil-reël en die sin oor die lyf wat die hand warm hou pas steeds daarby, en die sand-teenoor-harde-grond-vergelyking se afbeelding hou. Elke sin in die blok is vars teen bronne nagegaan eerder as oorgedra, want die vorige verslag was nie beskikbaar nie; die blok bevat geen superlatiewe nie, en die res van die les is buite hierdie omvang gelaat."
 }
