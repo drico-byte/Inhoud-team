@@ -4,7 +4,11 @@
   "konsep_hash": "sha256:b930be7628216ae6c68ff8bfdd1b68eb",
   "hek": "PASS",
   "teruggestuur_vir": [],
-  "eskalasie": null,
+  "eskalasie": {
+    "soort": "mens_nodig",
+    "wanneer": "2026-09-11T08:35:58+00:00",
+    "rede": "the eli10 pre-check returned MENS_NODIG - something a writer cannot resolve"
+  },
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
   "geskiedenis": [
@@ -77,9 +81,22 @@
       "woorde": 461,
       "begroting": 430,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-11T08:35:58+00:00",
+      "gebeurtenis": "eli10_voorkyk",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 10
+    },
+    {
+      "wanneer": "2026-09-11T08:35:58+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "bron": "eli10-voorkyk"
     }
   ],
-  "spek_hash": "sha256:1e109fe1e3dd83f7878af662ae4abac5",
+  "spek_hash": "sha256:9faf5bc110ed83583fbccc57b60406e0",
   "hek_konteks": {
     "graad": 5,
     "begroting": 430

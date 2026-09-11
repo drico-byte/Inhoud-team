@@ -4,236 +4,228 @@
   "prompt_weergawe": "feitenasiener-v1.2",
   "les": "Moenie deel van die pad word nie",
   "kaps_punt": "veiligheidsmaatreels wat geneem moet word wanneer elektrisiteit gebruik word",
-  "verdict": "MENS_NODIG",
+  "verdict": "HERSIEN",
   "items": [
+    {
+      "bewering": "Moenie deel van die pad word nie (titel) saam met 'Die gevaar is dat 'n mens self 'n stuk van daardie pad word' - die les se deurlopende beeld van 'n stroombaan as 'n pad waarvan 'n mens 'n stuk kan word.",
+      "blok": "Hoe 'n mens deel van die pad word",
+      "status": "bevestig",
+      "bron": "Mapping getoets teen All About Circuits, 'Shock Current Path' (https://www.allaboutcircuits.com/textbook/direct-current/chpt-3/shock-current-path/) en Electrical Technology, 'Will I Get an Electric Shock If I Touch the Ground Wire?' (https://www.electricaltechnology.org/2024/03/touching-ground-wire-shock.html). Die beeld hou: die liggaam word letterlik 'n geleidende segment van 'n voltooide stroombaan, en die beeld beweer niks oor rigting, spoed of 'opgebruik' van elektrisiteit wat later reggestel moet word nie. Die een plek waar die pad-beeld WEL kan misvoer, is waar die les later impliseer dat elektrisiteit in 'n mens agterbly - sien die item oor 'As iemand geskok word'.",
+      "tipe": "analogie"
+    },
     {
       "bewering": "Elektrisiteit loop net waar daar 'n volledige pad is.",
       "blok": "Hoe 'n mens deel van die pad word",
       "status": "bevestig",
-      "bron": "Ohio State University Extension, 'Electrical Shock' (Ohioline AEX-79020): 'Electrical shock happens when part of the body completes a circuit between conductors of different voltages or between an electrical source and a ground.' https://ohioline.osu.edu/factsheet/aex-79020 ; All About Circuits, 'Shock Current Path'. Die stelling self is korrek.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Elektrisiteit loop net waar daar 'n volledige pad is. In les 1 het daardie pad deur 'n draad na die lampie en terug geloop. Die gevaar is dat 'n mens self 'n stuk van daardie pad word.",
-      "blok": "Hoe 'n mens deel van die pad word",
-      "status": "weerspreek",
-      "bron": "Ohio State University Extension, Ohioline AEX-79020: 'You don't necessarily need to touch two conductors - contact with an energized source and a ground path completes the circuit'; die aarde word beskryf as 'a physical connection to the earth, which is zero volts' en dien as die terugpad. https://ohioline.osu.edu/factsheet/aex-79020 ; All About Circuits, 'Shock Current Path', https://www.allaboutcircuits.com/textbook/direct-current/chpt-3/shock-current-path/",
-      "regstelling": "Die stelling is waar, maar die enigste prentjie van 'n 'volledige pad' wat die les gee, is die tweedraad-lus van les 1 (draad -> lampie -> terug). 'n Leerder wat een tree verder redeneer, kom by: 'die draad wat op die grond le is net een draad, dus is die pad nie volledig nie, dus is dit veilig om dit een keer te vat.' Dit is presies die gevaarlike gevolgtrekking, en die les weerspreek dit nerens nie. Die blok moet die grond as die ander helfte van die pad byvoeg, byvoorbeeld: die pad hoef nie deur twee drade te loop nie - as jy op die grond staan en aan een lewendige draad raak, loop die elektrisiteit deur jou lyf en deur die grond terug, en dan is die pad volledig. Sonder daardie sin ondergrawe blok 1 die reels in 'n Draad wat hang of le.",
-      "tipe": "analogie"
+      "bron": "All About Circuits, 'Shock Current Path' (https://www.allaboutcircuits.com/textbook/direct-current/chpt-3/shock-current-path/): stroom vloei slegs waar 'n volledige stroombaan gevorm word. Die absolute 'net' is hier korrek vir 'n volgehoue stroom, en die les ondermyn dit nie, want dit wys onmiddellik dat die grond die pad kan voltooi.",
+      "tipe": "superlatief"
     },
     {
       "bewering": "In les 1 het daardie pad deur 'n draad na die lampie en terug geloop.",
       "blok": "Hoe 'n mens deel van die pad word",
-      "status": "onseker",
-      "tipe": "algemeen",
-      "bron": "Nie vasgestel nie. Ek het net hierdie les ontvang, nie les 1 nie, dus kan ek nie bevestig dat les 1 wel 'n stroombaan met 'n draad en 'n lampie gebruik nie. 'n Mens wat les 1 oophet, besleg dit in sekondes. Die verwysing is korrek as wereldfeit (stroombane loop deur 'n draad na 'n lampie en terug); slegs die kruisverwysing is onbevestig."
+      "status": "bevestig",
+      "bron": "Die fisika is korrek: 'n eenvoudige stroombaan se pad loop vanaf die sel deur 'n draad na die lampie en deur 'n tweede pad terug na die sel - All About Circuits, 'Shock Current Path'. Let wel: ek is net hierdie les gegee, dus kon ek nie nagaan of les 1 se stroombaan inderdaad so beskryf is nie; die verwysing self is nie 'n bewering oor die wereld nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Maar 'n pad hoef nie deur twee drade te loop nie. Jy staan op die grond en raak aan een draad. Dan kan die elektrisiteit deur jou lyf en deur die grond terug loop. Die grond is die ander helfte van die pad.",
+      "blok": "Hoe 'n mens deel van die pad word",
+      "status": "bevestig",
+      "bron": "Electrical Technology (https://www.electricaltechnology.org/2024/03/touching-ground-wire-shock.html) en All About Circuits, 'Shock Current Path': in 'n stelsel waar die neutraal aan aarde verbind is - soos die Suid-Afrikaanse verspreidingsnetwerk - voltooi 'n mens wat op die grond staan en 'n lewende geleier aanraak die stroombaan deur sy liggaam en die aarde terug na die bron. Die meganisme is presies reg gestel.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Elektrisiteit loop deur metaal, deur nat goed en ook deur 'n mens se lyf.",
       "blok": "Hoe 'n mens deel van die pad word",
       "status": "bevestig",
-      "bron": "Metale gelei almal. Vir 'nat goed': suiwer/gedistilleerde water is 'n swak geleier, maar dit is die opgeloste soute en minerale wat gelei, en kraanwater, badwater, sweet en reenwater bevat almal daardie ione - ScienceInsights, 'What Makes Water Conductive? It's Not the Water Itself', https://scienceinsights.org/what-makes-water-conductive-its-not-the-water-itself/ . Selfs by gedistilleerde water maak die soute op die vel dit dadelik geleidend. Vir die menslike lyf: Ohioline AEX-79020, https://ohioline.osu.edu/factsheet/aex-79020 . Die sin is dus waar van elke nat ding wat 'n kind teekom; die noukeurige weergawe is dat die water se inhoud gelei en nie die water self nie, wat op Graad 5 nie 'n fout is nie.",
+      "bron": "Illinois Country Living, 'Know how to identify and help an electric shock victim' (https://icl.coop/know-how-to-identify-and-help-an-electric-shock-victim/): 'Human beings are good conductors of electricity.' Water met opgeloste soute gelei ook - EHS/ECMag, 'Caution: Wet Conditions' (https://www.ecmag.com/magazine/articles/article-detail/caution--wet-conditions---moisture-demands-heightened-awareness-of-electrical-hazards-on-the-job-site).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Ons noem dit 'n skok, en 'n skok kan jou baie erg beseer.",
       "blok": "Hoe 'n mens deel van die pad word",
       "status": "bevestig",
-      "bron": "Mayo Clinic, 'Electrical shock: First aid', https://www.mayoclinic.org/first-aid/first-aid-electrical-shock/basics/art-20056695 ; Ohioline AEX-79020 (beserings, brandwonde en die dood as moontlike uitkomste). Die kwantifiseerder 'kan' is korrek gestel.",
+      "bron": "Britannica, 'Electrical shock' (https://www.britannica.com/science/electrical-shock) en ScienceDirect Topics, 'Electric Shock' (https://www.sciencedirect.com/topics/medicine-and-dentistry/electric-shock): besering veroorsaak deur stroom wat deur die liggaam gaan, wisselend van 'n onaangename skok tot dodelik. Die les se 'kan jou baie erg beseer' is korrek gekwalifiseer en oordryf nie.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Nat vel laat elektrisiteit baie makliker deur as droe vel.",
       "blok": "Nat hande en nat plekke",
       "status": "bevestig",
-      "bron": "Ohioline AEX-79020: 'Wet skin has little or no resistance to electrical current flow and increases the danger of electrical shock or burns', https://ohioline.osu.edu/factsheet/aex-79020 ; eCampusOntario, 'Electrical Safety: The Human Body': droe vel ongeveer 1 000-100 000 ohm, nat of beskadigde vel val na ongeveer 1 000 ohm, https://ecampusontario.pressbooks.pub/btec315biomedicalinstrumenttroubleshooting/chapter/chapter-2-electrical-safety/",
+      "bron": "OSHAcademy 115, 'Electrical Safety for Employees' (https://www.oshacademy.com/courses/training/115-electrical-safety-employee-basic/115-1-4.php) en eCampusOntario, 'Electrical Safety: The Human Body' (https://ecampusontario.pressbooks.pub/btec315biomedicalinstrumenttroubleshooting/chapter/chapter-2-electrical-safety/): droe vel se weerstand is 100 000 ohm of meer, nat vel kan tot ongeveer 1 000 ohm daal, wat die stroom by dieselfde spanning met 'n faktor van sowat honderd verhoog. 'Baie makliker' is 'n understatement eerder as 'n oordrywing.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Water uit die bad of die kraan en sweet aan jou hande doen dieselfde.",
       "blok": "Nat hande en nat plekke",
       "status": "bevestig",
-      "bron": "Sweet bevat soute wat as ione in oplossing gaan en die vel se weerstand laat val; kraan- en badwater bevat opgeloste soute en minerale. eCampusOntario, hoofstuk 2 (Electrical Safety), https://ecampusontario.pressbooks.pub/btec315biomedicalinstrumenttroubleshooting/chapter/chapter-2-electrical-safety/ ; ScienceInsights oor waterse geleiding, https://scienceinsights.org/what-makes-water-conductive-its-not-the-water-itself/",
+      "bron": "eCampusOntario, 'Electrical Safety: The Human Body': 'When wet, salts go into ion form, lowering the resistance significantly.' Kraan- en badwater bevat opgeloste minerale en sweet is sout, dus gelei albei - anders as suiwer gedistilleerde water, wat nie in hierdie les genoem word nie en dus nie 'n probleem skep nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Moenie 'n prop, 'n sok of 'n skakelaar met nat hande aanraak nie. Droog eers jou hande af.",
+      "bewering": "Moenie 'n prop, 'n sok, 'n skakelaar of 'n toestel met nat hande aanraak nie. Droog eers jou hande af.",
       "blok": "Nat hande en nat plekke",
       "status": "bevestig",
-      "bron": "ElectriCall, 'Electricity and Water: Tips for Electrical Safety in Wet Environments': moenie elektriese toestelle met nat hande hanteer nie, https://electricall.co/electricity-and-water-tips-for-electrical-safety-in-wet-environments/ ; ESFI, Home Safety: gronleklek-beskerming word juis vereis waar water en elektrisiteit kan meng, https://www.esfi.org/home-safety/ . Die 'moenie' is sonder uitsondering korrek gestel.",
+      "bron": "Eskom, 'Safety at home' (https://www.eskom.co.za/distribution/customer-service/energy-saving-smart-energy/safety-at-home/): 'Never touch electrical appliances with wet hands.' Suid-Afrikaanse bron, soos vereis vir plaaslike praktyk.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Gebruik nooit 'n toestel wat inprop naby 'n bad of 'n wasbak nie.",
       "blok": "Nat hande en nat plekke",
       "status": "bevestig",
-      "bron": "ElectriCall en Schneider Electric se huisveiligheidsriglyne: moenie haardroers, skeerapparate of ander toestelle naby water gebruik nie, en 'n toestel wat ingeprop is, bly 'n skokgevaar as dit in water val selfs wanneer dit afgeskakel is. https://electricall.co/electricity-and-water-tips-for-electrical-safety-in-wet-environments/ ; https://blog.se.com/homes/2024/11/21/how-to-use-electricity-safety-tips-for-homeowners/ . Ek het geen erkende uitsondering op hierdie 'nooit' gevind nie, en die les noem self ook nie een nie.",
+      "bron": "Eskom, 'Safety at home': 'Do not use electrical appliances in the bathroom' en 'Keep water in and around the home away from any electrical appliances and any wall sockets.'",
       "tipe": "algemeen"
     },
     {
       "bewering": "'n Emmer water op die vloer langs jou is net so gevaarlik.",
       "blok": "Nat hande en nat plekke",
-      "status": "onseker",
-      "tipe": "algemeen",
-      "bron": "Die onderliggende gevaar is goed gedokumenteer - staande water en nat vloere is 'n erkende skokgevaar (Ohioline AEX-79020 waarsku teen klam en nat plekke, https://ohioline.osu.edu/factsheet/aex-79020). Wat ek nie kon besleg nie, is die gelykstelling 'net so gevaarlik'. Geen bron vergelyk die risiko van 'n emmer water langs jou met die van 'n vol bad of wasbak nie, en die twee is nie duidelik ewe gevaarlik nie. Die oordrywing leun na versigtigheid toe en is dus nie 'n gevaar vir 'n leerder nie, maar dit is 'n vergelyking wat ek nie kan staaf nie. 'n Mens moet besluit of dit bly of na iets soos 'is ook gevaarlik' verander."
+      "status": "bevestig",
+      "bron": "ECMag, 'Caution: Wet Conditions' en CDC, 'What to Do to Protect Yourself From Electrical Hazards' (https://cdc.gov/natural-disasters/response/what-to-do-protect-yourself-from-electrical-hazards.html): staande water naby 'n toestel of sok kan self onder spanning kom, en 'n nat vloer verlaag die weerstand tussen 'n mens en die aarde. Die onderliggende gevaar is bevestig. Die presiese gelykstelling ('net so gevaarlik' as 'n toestel by 'n bad) is 'n veiligheidsoordeel eerder as 'n gemete vergelyking, maar dit oordryf nie die gevaar nie en lei 'n leerder nie verkeerd nie.",
+      "tipe": "superlatief"
     },
     {
-      "bewering": "Steek nooit te veel proppe in een sok of in een veelprop nie. Wanneer te veel toestelle op een sok werk, trek hulle saam meer as wat die draad kan dra. Die draad en die prop word dan warm, en dit kan 'n brand begin.",
+      "bewering": "Steek nooit te veel proppe in een sok of in een veelprop nie.",
       "blok": "Te veel proppe in een sok",
       "status": "bevestig",
-      "bron": "International Fire and Safety Journal, 'Dangers of Overloading Electrical Sockets': die oormaat stroom maak hitte in die drade, prop en sok, wat isolasie kan smelt en 'n brand kan begin, https://internationalfireandsafetyjournal.com/overloading-electrical-sockets/ ; Fire Industry Association, https://www.fia.uk.com/news/pull-the-plug-on-fire-risks-stopping-socket-overload-before-it-starts.html ; SABS, 'Adaptors pose a danger to consumers' (SANS 164-0; waarskuwings teen aanmekaargekoppelde adapters juis weens oorlading), https://www.sabs.co.za/adaptors-pose-a-danger-to-consumers . Die meganisme is korrek en die les stel dit as lading en nie bloot as getal proppe nie.",
+      "bron": "Eskom, 'Safety at home': 'When you have limited plug points and connect multiple appliances... to one plug, you are overloading the plug, which is highly dangerous. The single plug has a limited power supply and will have to supply more current than it is rated for.' Ook SABS se waarskuwing oor adapters (verwys in https://www.sabs.co.za/adaptors-pose-a-danger-to-consumers).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die draad en die prop word dan warm, en dit kan 'n brand begin.",
+      "blok": "Te veel proppe in een sok",
+      "status": "bevestig",
+      "bron": "Fire Industry Association, 'Pull the Plug on Fire Risks: Stopping Socket Overload' (https://www.fia.uk.com/news/pull-the-plug-on-fire-risks-stopping-socket-overload-before-it-starts.html) en MyBroadband oor goedkoop verlengkabels wat in Suid-Afrika smelt en brand (https://mybroadband.co.za/news/energy/657257-cheap-extension-cables-from-online-stores-in-south-africa-melting-and-catching-fire.html): oorlading laat die bedrading en die adapter oorverhit, wat brand veroorsaak. Die REDE wat die les gee, is die regte rede.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Hierdie gevaar is hitte en nie 'n skok nie.",
       "blok": "Te veel proppe in een sok",
       "status": "bevestig",
-      "bron": "Die oorladingsgevaar is termies: hitte, gesmelte isolasie en brand (IFSJ, https://internationalfireandsafetyjournal.com/overloading-electrical-sockets/ ; FIA). Die skokgevaar wat later uit beskadigde isolasie kan ontstaan, word deur die les self elders gedek (die reel oor 'n sok wat swart gebrand lyk), dus skep hierdie sin nie 'n gaping nie.",
-      "tipe": "algemeen"
+      "bron": "FIA (bo) en PERL Electrical, 'Hazards of Overloading Multiplugs' (https://perlelectrical.co.nz/the-hazards-of-overloading-multiplugs/): die gevaar van oorlading self is oorverhitting en brand, nie skok nie. Die uitsluitende vorm is geldig vir hierdie gevaar, en die les weerspreek homself nie later nie, want die verbrande sok word in die lysblok as 'n afsonderlike waarskuwing hanteer.",
+      "tipe": "superlatief"
     },
     {
-      "bewering": "Druk nooit 'n vinger, 'n spyker of 'n draadjie in 'n sok of 'n verlengsnoer se gaatjies nie.",
+      "bewering": "Druk nooit 'n vinger, 'n spyker of 'n draadjie in 'n sok of 'n verlengsnoer se gaatjies nie. / Daardie gaatjies is vir 'n prop en vir niks anders nie.",
       "blok": "Reels by proppe, sokke en drade",
       "status": "bevestig",
-      "bron": "StaySafe.org, 'Childproofing Electrical Outlets and Cords': kinders moet nooit 'n vinger of enige voorwerp in 'n sok druk nie, en die grootste risiko is juis metaalvoorwerpe soos vurke of skuifspelde, https://staysafe.org/family-safety/childproofing-electrical-outlets-and-cords/ ; NFPA-syfers oor beserings uit sokke word in dieselfde bronne aangehaal.",
+      "bron": "Eskom, 'Safety at home': 'Do not stick fingers into plug sockets' en die aanbeveling van veiligheidsdoppies vir sokke waar klein kinders is. Ook Safe Electricity, 'Talk About Electrical Safety with Your Children' (https://safeelectricity.org/safety-tips/talk-about-electrical-safety-with-your-children/).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Trek 'n prop altyd by die prop self uit en nooit aan die draad nie.",
       "blok": "Reels by proppe, sokke en drade",
       "status": "bevestig",
-      "bron": "Lawrence Berkeley National Laboratory EHS, 'Be Alert to Shock Hazards When Unplugging Power Cords': hou net die geisoleerde deel van die prop vas, trek reguit uit, moenie aan die draad pluk nie, https://ehs.lbl.gov/2024/09/09/be-alert-to-shock-hazards-when-unplugging-power-cords/ ; US Office of Congressional Workplace Rights, 'Damaged Power Cords', https://www.ocwr.gov/publications/fast-facts/damaged-power-cords-know-your-electrical-supply-cord/",
+      "bron": "Interpower, 'Safety Sense with Cords' (https://blog.interpower.com/infopower/safety-sense-with-cords): 'Take hold of the plug - not the cable - and pull it straight out.' Ook LBL EHS, 'Be Alert to Shock Hazards When Unplugging Power Cords' (https://ehs.lbl.gov/2024/09/09/be-alert-to-shock-hazards-when-unplugging-power-cords/).",
       "tipe": "algemeen"
     },
     {
       "bewering": "'n Ruk aan die draad breek dit waar dit in die prop vassit.",
       "blok": "Reels by proppe, sokke en drade",
       "status": "weerspreek",
-      "bron": "Lawrence Berkeley National Laboratory EHS: pluk aan die draad 'can cause the wire cord to be pulled away from the plug body and damage the wires, blades, or their attachment, possibly exposing live wires', https://ehs.lbl.gov/2024/09/09/be-alert-to-shock-hazards-when-unplugging-power-cords/ ; OSHA, 'Electrical - Flexible Cords': spanning kan draadjies onder die klemskroewe los laat kom, https://www.osha.gov/electrical/hazards/flexible-cords",
-      "regstelling": "Die meganisme is reg maar die kwantifiseerder is te sterk: die bronne se pluk aan die draad KAN die draad by die prop beskadig, nie dat een ruk dit breek nie. 'n Leerder wat een keer aan 'n draad pluk en niks sien breek nie, leer om die reel te wantrou. Voorgestelde weergawe: \"'n Ruk aan die draad kan dit beskadig waar dit in die prop vassit, en dan kan die kaal drade binne-in blootgestel word.\" Vernou die kwantifiseerder ('breek' word 'kan beskadig'), nie die onderwerp nie.",
+      "bron": "Interpower, 'Safety Sense with Cords': 'Yanking by the cable can damage conductors internally or separate the jacket from the plug body by damaging the bend relief.' EngineerFix, 'What Is Power Cord Strain Relief' (https://engineerfix.com/what-is-power-cord-strain-relief-and-why-is-it-important/): die skade is tipies inwendig en kumulatief - die isolasie skuur, kraak en breek weg oor tyd en ontbloot die geleiers. Die PLEK wat die les noem, is reg; die sekerheid is sterker as wat die bronne dra. Een ruk breek die draad nie noodwendig nie, en die skade is boonop gewoonlik binne-in en onsigbaar, wat juis gevaarliker is as 'n sigbare breuk. 'n Leerder wat een keer ruk en niks sien gebeur nie, kan aflei dat die reel nie waar is nie.",
+      "regstelling": "Stel die skade eerder as die breuk, sonder om die reel sagter te maak: 'n ruk aan die draad beskadig dit waar dit in die prop vassit, en daardie skade is dikwels binne-in die draad waar 'n mens dit nie kan sien nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Moenie 'n draad met 'n kaal plek of 'n prop wat gekraak is, gebruik nie.",
+      "bewering": "Moenie 'n draad met 'n kaal plek of 'n prop wat gekraak is, gebruik nie. / 'n Draad wat gerafel is, word ook nie gebruik nie.",
       "blok": "Reels by proppe, sokke en drade",
       "status": "bevestig",
-      "bron": "ESFI, Extension Cord Safety Tips: 'Never use a cord that feels hot or is damaged in any way. Touching even a single exposed strand can give you an electric shock or burn', https://www.esfi.org/extension-cord-safety-tips/ ; OCWR, Damaged Power Cords, https://www.ocwr.gov/publications/fast-facts/damaged-power-cords-know-your-electrical-supply-cord/",
+      "bron": "Eskom, 'Safety at home': 'Do not use frayed cords - replace worn and frayed cords on appliances immediately.'",
       "tipe": "algemeen"
     },
     {
       "bewering": "Moenie so 'n draad self met kleefband regmaak nie, maar wys dit vir 'n grootmens.",
       "blok": "Reels by proppe, sokke en drade",
       "status": "bevestig",
-      "bron": "ESFI, Extension Cord Safety Tips: 'Never try to repair a damaged extension cord with electrical tape; replace it', https://www.esfi.org/extension-cord-safety-tips/ . Isolasieband is nie vir die hitte van 'n stroomdraende draad gegradeer nie en kan smelt en brand.",
+      "bron": "OSHA Training Toolbox Talk, 'Don't Use Electrical Tape to Repair / Splice Cords' (https://oshatraining.com/wp-content/uploads/OSHA_Training_Toolbox_Talk_-_Do_Not_Use_Electrical_Tape_on_Cords.pdf) en OSHA se eie standaardinterpretasie van 16 Desember 1998 oor kleefband op verlengsnoere (https://www.osha.gov/laws-regs/standardinterpretations/1998-12-16): kleefband het nie dieselfde eienskappe as die oorspronklike isolasie nie en verberg boonop die skade sodat dit nie gemonitor kan word nie. Die rede agter die verbod is dus ook regverdigbaar.",
       "tipe": "algemeen"
     },
     {
       "bewering": "'n Sok wat swart gebrand lyk of warm voel, word nie gebruik nie.",
       "blok": "Reels by proppe, sokke en drade",
       "status": "bevestig",
-      "bron": "ESFI, Home Safety: flikkerende ligte, 'n brandreuk, verkleurde skakelaars en warm sokke is tekens van 'n ernstige bedradingsprobleem, https://www.esfi.org/home-safety/",
+      "bron": "Hoffmann Brothers, 'What Burn Marks Around Outlets Indicate' (https://www.hoffmannbros.com/hurricane-consequences/burn-marks-from-electrical-issues): swart merke is roet van hitte of vlamboog binne-in die sok, en 'n sok wat warm voel dui op inwendige vlamboog of 'n slegte verbinding; hou dadelik op om dit te gebruik. Ook Burnshield (SA), 'Safety With Electrical Outlets' (https://www.burnshield.com/safety-with-electrical-outlets/).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die elektrisiteit in die kragstasie se groot drade stoot baie harder as in 'n huis.",
       "blok": "Kragmaste en substasies",
       "status": "bevestig",
-      "bron": "Eskom se transmissielyne loop teen 132 kV, 275 kV, 400 kV en 765 kV, terwyl 'n huis se enkelfase-toevoer 230 V is (400 V driefase by die minisub). Eskom, 'Electric and magnetic fields of power lines' (TD-0001, Mei 2022), https://www.eskom.co.za/wp-content/uploads/2022/06/TD-0001-Electric-and-magnetic-fields-of-power-lines-Rev-1.pdf ; National Transmission Company of South Africa (netwerkspanningsvlakke). 'Stoot harder' as beeld vir spanning is die gangbare skoolbeeld en hou hier.",
-      "tipe": "getal"
-    },
-    {
-      "bewering": "Baie substasies staan agter 'n hoe heining met waarskuwingsborde daarop.",
-      "blok": "Kragmaste en substasies",
-      "status": "bevestig",
-      "bron": "Eskom, Electricity safety tips (publieke veiligheid): substasies is omhein en gemerk, en die publiek word gewaarsku om nie in te gaan nie, https://www.eskom.co.za/about-eskom/about-electricity/public-safety/ . Die kwantifiseerder 'baie' (nie 'alle') is korrek gekies - sommige minisubs in strate staan in 'n geslote kas eerder as agter 'n heining.",
+      "bron": "Eskom se transmissiestelsel werk op 132 kV, 275 kV, 400 kV en 765 kV (Eskom, 'Transmission and Distribution of Electricity', TD-0003, en CIGRE, 'South African Power System', https://www.cigre.org/userfiles/files/Community/NC/South_Africa_The_Electric_Power_System.pdf), terwyl 'n Suid-Afrikaanse huis 230 V kry (Sinalda, 'Voltage in South Africa', https://www.sinalda.com/world-voltages/africa/voltage-south-africa/). 'Baie harder' is ver binne die waarheid - dit is honderde tot duisende kere.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Klim nooit oor so 'n heining nie, en klim nooit op 'n kragmas nie.",
+      "bewering": "Baie substasies staan agter 'n hoe heining met waarskuwingsborde daarop. Lees daardie borde en doen wat hulle se. Klim nooit oor so 'n heining nie, en klim nooit op 'n kragmas nie.",
       "blok": "Kragmaste en substasies",
       "status": "bevestig",
-      "bron": "Eskom, Electricity safety tips: 'Do not enter electrical sub-stations - the voltage is extremely high and very dangerous' en 'never climb onto electric pylons' / 'never allow children to climb electric poles', https://www.eskom.co.za/about-eskom/about-electricity/public-safety/ en https://www.eskom.co.za/distribution/customer-service/public-safety/",
+      "bron": "Garland Power & Light, 'Electric Safety Tips' (https://www.gpltexas.org/outage-center/electric-safety/electric-safety-tips): 'If you see a warning sign that says DANGER - HIGH VOLTAGE posted on a fence around an electrical power substation, stay away' en 'Never climb a utility pole or tower.' Ook Safe Electricity, 'Teach Children Outdoor Electrical Safety' (https://safeelectricity.org/safety-tips/teach-children-outdoor-electrical-safety/). Die hedging met 'baie substasies' eerder as 'alle' is korrek, want nie elke substasie in 'n woonbuurt lyk so nie.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Laat ook nooit 'n vlieer naby oorhoofse drade op nie.",
       "blok": "Kragmaste en substasies",
       "status": "bevestig",
-      "bron": "Eskom, Electricity safety tips: leer kinders om nie vlieers naby kraglyne op te laat nie, https://www.eskom.co.za/about-eskom/about-electricity/public-safety/ ; ESFI, Power Lines Safety Tips: moenie vlieers, ballonne of afstandbeheerde vliegtuie naby kraglyne gebruik nie, https://www.esfi.org/power-lines-safety-tips/",
+      "bron": "Garland Power & Light, 'Electric Safety Tips': 'Keep kites away from overhead power lines or other electrical equipment, such as substations... electricity can travel down kite strings or wires.' Ook Unitil, 'Overhead Power Lines' (https://unitil.com/safety-preparedness/electric-safety/overhead-power-lines).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Jy kan nie sien of daar elektrisiteit deur daardie draad loop nie. 'n Draad wat doodstil le, lyk net soos enige ander draad.",
       "blok": "'n Draad wat hang of le",
       "status": "bevestig",
-      "bron": "ESFI, Power Lines Safety Tips: 'You cannot tell whether or not a power line is energized just by looking at it', https://www.esfi.org/power-lines-safety-tips/ ; Eskom, 'Stay away from low-hanging power lines': selfs waar 'n paal geval het, is die lyne heel waarskynlik steeds lewendig, https://www.eskom.co.za/stay-away-from-low-hanging-power-lines/",
+      "bron": "Eskom, 'Stay away from low-hanging power lines' (https://www.eskom.co.za/stay-away-from-low-hanging-power-lines/): 'Although a pole has fallen over, it is very likely that the lines are still live so they must never be touched', en Southside Electric Cooperative, 'Powerline Safety' (https://www.sec.coop/safety-reliability/powerline-safety/): 'Even if they are not sparking or humming, fallen power lines can kill you.' Die les se rede - dat 'n mens dit nie kan sien nie - is presies die rede wat die owerhede gee.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Raak hom nooit aan nie en bly ver van hom af.",
+      "bewering": "Raak hom nooit aan nie en bly ver van hom af. Moenie hom met 'n stok of met enigiets anders wegstoot nie.",
       "blok": "'n Draad wat hang of le",
       "status": "bevestig",
-      "bron": "ESFI, Power Lines Safety Tips: bly minstens 10 voet (ongeveer 3 m) van die draad af, en die grond tot 35 voet (ongeveer 10 m) daarvandaan kan self onder spanning wees, https://www.esfi.org/power-lines-safety-tips/ ; Eskom, Stay away from low-hanging power lines: 'fallen power lines can kill you if you touch it or even the ground nearby', https://www.eskom.co.za/stay-away-from-low-hanging-power-lines/ . Die les se 'bly ver van hom af' is korrek en dek ook die grond rondom; dit gee net nie 'n afstand nie, wat 'n keuse eerder as 'n fout is.",
+      "bron": "Eskom, 'Stay away from low-hanging power lines': 'Do not try to move the line - rather avoid any power line when it is hanging low or touching the ground.' Die opdrag om ver weg te bly is ook belangrik en korrek, want die grond naby 'n gevalle lyn kan self onder spanning wees (Southside Electric Cooperative: '...if you touch it or even the ground nearby'). Die les se verbod op 'n stok is reg - die ou raad oor 'n droe stok geld nie by verspreidingsspannings nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Moenie hom met 'n stok of met enigiets anders wegstoot nie.",
-      "blok": "'n Draad wat hang of le",
+      "bewering": "Se dadelik vir 'n grootmens sodat iemand hulp kan roep. / Jou werk is om hulp te gaan haal en nie om self te help nie.",
+      "blok": "As iemand geskok word",
       "status": "bevestig",
-      "bron": "ESFI, Power Lines Safety Tips: moenie probeer om 'n geval de lyn of iets wat daaraan raak met 'n besem of stok te skuif nie - selfs hout of lap gelei elektrisiteit as dit net effens nat is, https://www.esfi.org/power-lines-safety-tips/ ; Eskom: 'Do not try to move the line', https://www.eskom.co.za/stay-away-from-low-hanging-power-lines/ . Belangrik dat die les hier nie die algemene noodhulpraad ('skuif die bron met 'n droe houtvoorwerp weg') vir 'n kind herhaal nie - dit geld nie by 'n kraglyn nie.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Se dadelik vir 'n grootmens sodat iemand hulp kan roep.",
-      "blok": "'n Draad wat hang of le",
-      "status": "bevestig",
-      "bron": "Eskom, 'Eskom urges South Africans to report unsafe connections': beweeg weg, waarsku ander en rapporteer die gevaar dadelik, https://www.eskom.co.za/eskom-urges-south-africans-to-report-unsafe-connections-and-help-save-lives/ ; ESFI: bel noodhulp eerder as om self te probeer red, https://www.esfi.org/power-lines-safety-tips/",
+      "bron": "Safe Electricity, 'Teach Children Outdoor Electrical Safety': kinders se enigste taak is om weg te bly en dadelik 'n grootmens te se, en 'if someone is in contact with the power line, do not attempt to rescue them because you could become a victim as well.' Vir 'n graad 5-leerder is dit die korrekte raad, en dit stem ooreen met Eskom se oproep om gevare aan te meld eerder as om self in te gryp.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Soms kry iemand 'n skok en die elektrisiteit loop steeds deur hom. Moenie aan hom raak nie, want dan loop dit ook deur jou.",
       "blok": "As iemand geskok word",
-      "status": "bevestig",
-      "bron": "Mayo Clinic, 'Electrical shock: First aid': 'Don't touch the injured person if he or she is still in contact with the electrical current', https://www.mayoclinic.org/first-aid/first-aid-electrical-shock/basics/art-20056695 ; ESFI, Power Lines Safety Tips: 'Do not touch the person. You could become the next victim. Call for help', https://www.esfi.org/power-lines-safety-tips/",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Jou werk is om hulp te gaan haal en nie om self te help nie.",
-      "blok": "As iemand geskok word",
-      "status": "bevestig",
-      "bron": "ESFI en Mayo Clinic stel albei dat 'n omstander wat nie die krag veilig kan afskakel nie, moet wegbly en noodhulp ontbied eerder as om te probeer red; vir 'n kind is dit die enigste veilige weergawe. https://www.esfi.org/power-lines-safety-tips/ ; https://www.mayoclinic.org/first-aid/first-aid-electrical-shock/basics/art-20056695",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "elektrisiteit: Die manier waarop energie oorgedra word, soos deur die drade van 'n stroombaan.",
-      "blok": "begrip: elektrisiteit",
       "status": "weerspreek",
-      "bron": "Britannica Kids, 'electricity': elektrisiteit is 'n vorm van energie wat uit die vloei van elektriese lading kom, https://kids.britannica.com/kids/article/electricity/353091 ; US Energy Information Administration, Science of Electricity: elektrisiteit is die beweging van elektrone, https://www.eia.gov/kids/energy-sources/electricity/science-of-electricity.php ; Explain That Stuff, 'Electricity': 'electricity' en 'electrical energy' is nie dieselfde ding nie, https://www.explainthatstuff.com/electricity.html",
-      "regstelling": "Gelees met die res van die les weggevat, se die inskrywing net 'die manier waarop energie oorgedra word'. Dit pas ewe goed op hitte, lig, klank en 'n stoot met 'n hand - en met 'die' voorop, se dit dat elektrisiteit DIE manier is waarop energie oorgedra word, wat vals is, want energie word ook deur verhitting, deur lig en deur beweging oorgedra. Die enigste ding wat elektrisiteit onderskei, sit in die 'soos'-voorbeeld, en 'n voorbeeld na 'soos' is nie die omskrywing nie. Voorgestelde weergawe: 'Een manier waarop energie oorgedra word, naamlik deur 'n stroom wat deur die drade van 'n stroombaan loop.' Let daarop dat hierdie term waarskynlik met les 1 en les 2 gedeel word - die bewoording moet in die gedeelde-omskrywings-lys reggemaak word en nie net hier nie, anders kom die ou weergawe met die volgende hersiening terug.",
+      "bron": "St John Ambulance, 'Electric Shock First Aid' (https://www.sja.org.uk/first-aid-advice/electrocution/): 'Do not touch the casualty if they're still in contact with the electrical source' - en sodra die kontak verbreek is, 'perform a primary survey and treat any injuries'. Cleveland Clinic, 'Electric Shock: How To Handle Electrical Injuries' (https://my.clevelandclinic.org/health/diseases/electric-shock-injury) stel dieselfde voorwaarde. LEAF Electrical Safety, 'Electrical Safety Myths' (https://leafelectricalsafety.com/blog/electrical-safety-myths) noem dit uitdruklik 'n mite dat 'n geskokte persoon 'n lading behou. Die WAARSKUWING is reg, maar die REDE soos dit hier staan, laat die enigste voorwaarde uit wat dit waar maak: die elektrisiteit loop net steeds deur die persoon solank hy nog aan die lewende draad of toestel raak. Soos die sin nou lees, is die oorsaak die skok self, en die prentjie wat 'n leerder oorhou, is dat elektrisiteit in 'n mens agterbly nadat hy geskok is. Dit is vals, en dit is juis die oortuiging wat mense laat huiwer om 'n slagoffer te help wat lankal van die bron af weg is.",
+      "regstelling": "Noem die voorwaarde in dieselfde sin as die waarskuwing: elektrisiteit loop net steeds deur die persoon solank hy nog aan die draad of die toestel vashou, en dan loop dit ook deur jou as jy hom aanraak. Maak ook duidelik dat 'n mens nie elektrisiteit in sy lyf hou nadat hy van die draad af weg is nie. Die opdrag self - moenie aanraak nie, gaan haal 'n grootmens - bly onveranderd.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "skok: Wanneer elektrisiteit deur 'n mens se lyf loop.",
+      "bewering": "begrip 'elektrisiteit': Een manier waarop energie oorgedra word, soos deur die drade van 'n stroombaan.",
+      "blok": "begrip: elektrisiteit",
+      "status": "bevestig",
+      "bron": "Alleen gelees, sonder die res van die les. Die raamwerk is die korrekte een: elektrisiteit is 'n manier waarop energie oorgedra word eerder as 'n vorm van energie self - OpenSciEd, 'Unit 4.2 Energy Transfer: Electricity' (https://openscied.org/instructional-materials/4-2-electricity/) en The Science Teacher, 'Energy' (https://thescienceteacher.co.uk/energy/). Wat anders pas by die woorde alleen? 'Een manier waarop energie oorgedra word' pas ook op hitte, lig en klank, maar die bysin 'soos deur die drade van 'n stroombaan' anker dit ondubbelsinnig. Die omskrywing se niks oor bewegende lading nie, wat by graad 5 'n weglating is eerder as 'n fout.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "begrip 'skok': Wanneer elektrisiteit deur 'n mens se lyf loop.",
       "blok": "begrip: skok",
       "status": "bevestig",
-      "bron": "Ohio State University Extension, Ohioline AEX-79020: 'n elektriese skok gebeur wanneer 'n deel van die liggaam 'n stroombaan voltooi en stroom deur die liggaam loop, https://ohioline.osu.edu/factsheet/aex-79020 ; Mayo Clinic, Electrical shock: First aid, https://www.mayoclinic.org/first-aid/first-aid-electrical-shock/basics/art-20056695 . Alleen gelees hou die sin: dit pas op niks anders in hierdie vak nie. Dit sluit wel 'n dier uit wat 'n skok kry, en dit se nie dat 'n skok kan doodmaak nie, maar albei is keuses eerder as foute.",
+      "bron": "Alleen gelees. Stem ooreen met Britannica, 'Electrical shock' en ScienceDirect Topics, 'Electric Shock': 'injury caused by the passage of electrical current through the body'. Wat anders pas? Die woorde pas ook op 'n onskadelike statiese knak en op 'n dier eerder as 'n mens, maar geen van die twee lei 'n leerder na iets vals nie, en die les se eie teks ('kan jou baie erg beseer') dra die erns. Die inskrywing is nie van die res van die les afhanklik om waar te wees nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "veelprop: 'n Prop met meer as een sok in, vir verskeie toestelle.",
+      "bewering": "begrip 'veelprop': 'n Prop met meer as een sok in, vir verskeie toestelle.",
       "blok": "begrip: veelprop",
       "status": "bevestig",
-      "bron": "SABS, 'Adaptors pose a danger to consumers' (SANS 164-0 dek proppe, sokke en adapters, en die adapters wat hier bedoel word is juis 'n prop met verskeie sokke daarin), https://www.sabs.co.za/adaptors-pose-a-danger-to-consumers ; Fire Industry Association oor meervoudige adapters en verlengstroke, https://www.fia.uk.com/news/pull-the-plug-on-fire-risks-stopping-socket-overload-before-it-starts.html . Alleen gelees is die sin akkuraat vir wat in Suid-Afrika 'n veelprop genoem word.",
+      "bron": "Alleen gelees. Stem ooreen met hoe 'n multiprop/veelprop in Suid-Afrika beskryf word - 'n adapter wat in die muursok gaan en meer as een sok bied: Future Light, 'Essential Guide to Multi-Plug Adapters for South African Sockets' (https://www.futurelight.co.za/blogs/news/multi-plug-adapters-for-south-african-sockets) en SABS, 'Adaptors pose a danger to consumers' (https://www.sabs.co.za/adaptors-pose-a-danger-to-consumers). Wat anders pas by die woorde alleen? 'n Verlengsnoer met verskeie sokke kom naby, maar die woord 'prop' sluit dit uit, en die les self hanteer 'verlengsnoer' apart. Plaaslike gebruik nagegaan teen Suid-Afrikaanse bronne, nie afgelei uit internasionale materiaal nie.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "substasie: Die plek waar die groot drade se elektrisiteit minder hard begin stoot vir die strate.",
+      "bewering": "begrip 'substasie': 'n Plek waar die groot drade se elektrisiteit minder hard begin stoot vir die strate.",
       "blok": "begrip: substasie",
       "status": "weerspreek",
-      "bron": "OSHA, Illustrated Glossary: Substations - substasies verhoog sowel as verlaag spanning; 'n step-up-transmissiesubstasie by 'n kragstasie verhoog die spanning vir transmissie, https://www.osha.gov/etools/electric-power/illustrated-glossary/sub-station ; ScienceDirect Topics, 'Distribution Substation': substasies 'perform the function of stepping up and down the voltages', https://www.sciencedirect.com/topics/engineering/distribution-substation",
-      "regstelling": "Alleen gelees omskryf die inskrywing die woord 'substasie' vir die hele vak, en soos dit staan is dit net waar van 'n verspreidingsubstasie. By 'n kragstasie doen 'n substasie die teenoorgestelde - dit stoot die elektrisiteit juis harder vir die lang pad - en sommige substasies skakel net drade oor sonder om die spanning te verander. Die kleinste regstelling is om die kwantifiseerder te vernou en nie die onderwerp nie: \"'n Plek waar die groot drade se elektrisiteit minder hard begin stoot voordat dit na die strate gaan.\" Soos by elektrisiteit: as hierdie term met les 1 of 2 gedeel word, moet die gedeelde bewoording saam verander.",
+      "bron": "Alleen gelees, met die res van die les weggevat. So gelees se die inskrywing dat 'n substasie die plek is waar die stoot verminder word. Bronne weerspreek dit as 'n omskrywing van die woord: National Grid, 'What is a substation?' (https://www.nationalgrid.com/stories/energy-explained/what-is-a-substation) - die spanning word in 'n substasie 'stepped up or down'; Repsol, 'What is an electrical substation' (https://www.repsol.com/en/energy-move-forward/energy/electrical-substation/index.cshtml) - 'transforms voltage from high to low levels or vice versa'; OSHA se eTool-woordelys oor substasies (https://www.osha.gov/etools/electric-power/illustrated-glossary/sub-station) - 'n opstap-substasie by 'n kragstasie verhoog die spanning vir transmissie, en sommige substasies skakel net. In Suid-Afrika geld albei rigtings: die opstap-substasie by 'n kragstasie en die afstap-substasie voor die 11 kV/22 kV-lyne (Eskom, 'Transmission and Distribution of Electricity', TD-0003). Die inskrywing is dus waar van die substasie in 'n straat, maar vals as die betekenis van die woord - en 'n begrip word alleen gelees.",
+      "regstelling": "Verbreed die inskrywing tot wat 'n substasie is eerder as wat een soort doen: 'n plek met groot toestelle wat die elektrisiteit se stoot verander - by die kragstasie word die stoot sterker gemaak vir die lang pad, en naby die strate en huise word dit weer swakker gemaak. Die veiligheidsboodskap in die studieblok bly net soos dit is.",
       "tipe": "algemeen"
     }
   ],
-  "opsomming": "Die veiligheidsreels self is stuk vir stuk korrek en strook met Eskom, ESFI en Mayo Clinic, maar die les se sentrale beeld leer 'n leerder dat 'n pad twee drade nodig het, wat presies die gevolgtrekking gee dat 'n enkele draad op die grond veilig is om te vat; daarby is die omskrywings van elektrisiteit en substasie te wyd gestel, een kwantifiseerder ('n ruk breek die draad) is te sterk, en twee dinge kon ek nie besleg nie."
+  "opsomming": "Die veiligheidsraad in hierdie les is deurgaans korrek en die redes daaragter is byna oral die regte redes, maar drie dinge moet terug na die skrywer: die blok oor iemand wat geskok word gee 'n rede wat die voorwaarde weglaat - elektrisiteit loop net steeds deur die persoon solank hy nog aan die draad of toestel raak - en soos dit staan, leer dit die vals idee dat elektrisiteit in 'n geskokte mens agterbly; die begrip 'substasie' omskryf net die soort wat die stoot verminder, terwyl substasies dit ook verhoog; en 'n ruk aan 'n draad beskadig dit (dikwels onsigbaar, binne-in) eerder as dat dit dit breek."
 }
