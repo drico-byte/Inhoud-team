@@ -51,11 +51,19 @@ OPDRAGVELDE = ("kern", "aanvulling", "fokusvraag_skakel", "historiese_konsepte",
                "video_naat", "verwagte_begrippe", "titel", "moeilike_konsepte")
 
 
+# Lesse noem historiese datums - 13 November 1956, 20 April 1964 - en die is GEEN
+# regstellingsdatums nie. Tel net datums uit die tydperk waarin hierdie bewaarplek
+# werk, anders laat 'n hofuitspraak uit 1956 'n veld onlangs gewysig lyk.
+VROEGSTE_WERKJAAR = 2025
+
+
 def datums(node):
-    """Elke datum enige plek in 'n stuk van die boom."""
+    """Elke REGSTELLINGSDATUM enige plek in 'n stuk van die boom."""
     gevind = []
     if isinstance(node, str):
         for dag, maand, jaar in DATUM.findall(node):
+            if int(jaar) < VROEGSTE_WERKJAAR:
+                continue
             try:
                 gevind.append(datetime.date(int(jaar), MAANDE[maand.lower()], int(dag)))
             except ValueError:
