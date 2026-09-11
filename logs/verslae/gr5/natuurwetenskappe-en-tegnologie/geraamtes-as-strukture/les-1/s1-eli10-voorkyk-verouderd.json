@@ -4,92 +4,61 @@
   "prompt_weergawe": "feitenasiener-v1.2",
   "les": "Raam binne, dop buite",
   "kaps_punt": "Raam en dopstrukture: 'n gewerwelde skelet is 'n raamstruktuur (verwys ook na die graad 4 Materie en Materiale); sommige ongewerwelde geraamtes is dop strukture soos die van 'n krap",
-  "verdict": "MENS_NODIG",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "Druk met jou hand teen die ronde sykant van 'n leë emmer. Die emmer hou sy vorm onder jou hand ...",
-      "blok": "eli10: 'n Dop as struktuur",
-      "status": "onseker",
-      "tipe": "analogie",
-      "bron": "APR Design Guide, HDPE Rigid - Natural (plasticsrecycling.org/apr-design-hub/apr-design-guide/hdpe-rigid-natural/) oor verstywingsribbes en wanddikte in emmers; Laird Plastics, HDPE Guide: Properties, Uses & Applications (lairdplastics.com/resources/hdpe-guide-properties-uses-applications-2025-update/) oor HDPE se buigmodulus en viskoëlastiese gedrag. Geen bron gevind wat 'n hand se druk teen 'n huishoudelike emmer se sywand meet nie.",
-      "notas": "DIE VORIGE BEVINDING IS NIE OPGELOS NIE. Die vraag was of 'n dun plastiekemmer se BODEM onder 'n kind se hand hou; die druk het na die geboë sykant geskuif, en dieselfde vraag geld daar - moontlik erger. 'n Emmer se sywand is die plek waar 'n dun emmer die maklikste ingee: die bodem is gewoonlik dikker en dikwels verstyf of verdiep, en die sywand is presies waar vervaardigers ribbes moet byvoeg om vervorming te keer. HDPE is boonop viskoëlasties en 'n dunwand-emmer sonder ribbes buig en duik onder handdruk. Of dit hou, hang af van WATTER emmer - 'n dik of geribde emmer hou, 'n dun 5-liter huishoudelike een dalk nie. Dit is 'n keuse van demonstrasievoorwerp, nie iets wat 'n skrywer kan uitredeneer nie, en dit hoort by 'n mens."
-    },
-    {
-      "bewering": "... al is hy binne-in leeg.",
-      "blok": "eli10: 'n Dop as struktuur",
+      "bewering": "Sit 'n paar boeke bo-op 'n leë blikkie wat regop staan.",
+      "blok": "eli10 (vir: 'n Dop as struktuur)",
       "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "ArcelorMittal Constructalia, Introduction to shell structures (constructalia.arcelormittal.com/en/sica-steel-academy/design-with-steel/plates-and-shells/introduction-to-shell-structures): 'n dop weerstaan las deur die in-vlak gedrag van sy oppervlak, sonder 'n binneraamwerk.",
-      "notas": "Hierdie helfte van die afbeelding werk. Dat die emmer sy vorm hou met niks binne-in nie, is presies die eienskap wat 'n dopstruktuur van 'n raamstruktuur skei, en dit is korrek gestel."
+      "tipe": "algemeen",
+      "bron": "Die demonstrasie werk, en dit hang NIE van watter blikkie af nie. Gemete: 'n leë, ongedrukte aluminiumblikkie met 'n 95 µm wand het in laboratoriumtoetse 1031 ± 24 N (omtrent 105 kg) in die lengterigting gedra voor hy inmekaargeval het — A Numerical and Experimental Analysis of the Mechanical Behavior of the Aluminum Beverage Can during Axial Load Force Testing, https://pmc.ncbi.nlm.nih.gov/articles/PMC10574569/ . 'n Paar boeke is omtrent 2-4 kg (20-40 N), dus 25-50 keer minder as wat die swakste algemene blikkie dra; 'n staal kosblikkie se wand is dikker en sterker nog. Twee dinge bepaal wel die uitkoms, en nie een van hulle is die soort blikkie nie: die blikkie moet regop en onbeskadig wees (die dieselfde bron noem dat duike en ander vormfoute die swiglas laat val), en die boeke moet plat en gebalanseerd bo-op lê. Die praktiese risiko in 'n klaskamer is omval, nie inmekaarstort nie. Dit is nie die plastiekemmer se geval nie: die marge hier is 'n orde van grootte, nie 'n randgeval nie."
     },
     {
-      "bewering": "Die ronde vorm sprei jou druk deur die hele wand tot by die rand.",
-      "blok": "eli10: 'n Dop as struktuur",
+      "bewering": "Die blikkie se dun wand hou daardie boeke maklik op.",
+      "blok": "eli10 (vir: 'n Dop as struktuur)",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die wand is werklik dun: 'n aluminium drankblikkie se romp is na vervaardiging omtrent 100 µm (0,004 duim) op sy dunste — https://www.thefabricator.com/thefabricator/article/metalsmaterials/sheet-aluminum-alloys-for-cans-and-cars . Die las loop deur daardie wand na die tafel toe, en swigting van die wand is presies die faalmeganisme wat in die aslas-toetse gemeet word (PMC10574569, hierbo). 'Maklik' is geregverdig by 'n paar boeke."
+    },
+    {
+      "bewering": "Daar is niks binne-in die blikkie wat sy wand ophou nie.",
+      "blok": "eli10 (vir: 'n Dop as struktuur)",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "'n Oop, leë blikkie het geen inwendige lid nie; sy enigste verstywing is sy eie vorm (die koepelbodem en die ingetrekte bokant), wat deel van die dop self is. Dit is presies die ingenieurs-omskrywing van 'n dop-/monocoque-struktuur: laste word deur die buitenste vel gedra, en dit word herken aan die AFWESIGHEID van 'n lasdraende binneraam — https://en.wikipedia.org/wiki/Monocoque ."
+    },
+    {
+      "bewering": "'n Krap se dop oor sy rug is net so 'n ronde wand.",
+      "blok": "eli10 (vir: 'n Dop as struktuur)",
       "status": "weerspreek",
       "tipe": "analogie",
-      "bron": "ArcelorMittal Constructalia, Introduction to shell structures: doppe 'are very efficient in resisting distributed loads but are prone to difficulties with concentrated loads' en 'concentrated loads introduce significant local bending stresses'. Wiley, Membrane Theory of Shells of Revolution, hoofstukuittreksel (catalogimages.wiley.com/images/db/pdf/9781119259282.excerpt.pdf): 'the membrane forces by themselves cannot resist local concentrated loads. Bending moments are needed to resist such loads.' Science World, Unsqueezable Egg (scienceworld.ca/resource/unsqueezable-egg/) en Harvard Natural Sciences Lecture Demonstrations, Egg Shell Strength (sciencedemonstrations.fas.harvard.edu/presentations/egg-shell-strength).",
-      "regstelling": "'n Dop sprei 'n las wat OOR SY HELE OPPERVLAK versprei is; 'n stoot met een hand op een plek is 'n gekonsentreerde las, en daardie soort las word hoofsaaklik plaaslik weerstaan waar die hand druk - dit word nie deur die hele wand tot by die rand versprei nie. Die eier wys dit: 'n eier hou onder 'n hand wat hom rondom toeknyp en breek onder 'n lepel wat op een plek druk. Die blok vra die leerder om die eenpunt-druk te doen en vertel hom dan die dop doen die verspreiding wat dit juis nie by daardie las doen nie.",
-      "notas": "Dit is nie 'n klein oordrywing nie: die sin verklaar 'n meganisme, en die leerder sal daarmee verder redeneer. Die verspreiding is die eintlike ding wat 'n dop doen, maar net onder 'n versprede las - die demonstrasie kies die een las waarvoor dit nie geld nie."
+      "bron": "Die rugdop (karapaks) is 'die deel van die harde eksoskelet, of dop, wat die kop en borsstuk van skaaldiere bedek' — NHM Crustacea-woordelys, https://research.nhm.org/glossary/define.html?termID=107 . Dit is 'n geboë skild BO-OOR die lyf, se vorm wissel boonop per spesie (rond by sommige strandkrappe, ovaal, breed-uitgerek by swemkrappe, driehoekig by spinnekrappe). Die blikkie se wand is 'n regop geslote silinder wat die las in sy lengte na die tafel toe dra. Die twee is albei dopstrukture, maar hulle is nie dieselfde vorm nie en hulle word nie in dieselfde rigting belas nie, en 'net so' beweer juis dieselfde.",
+      "regstelling": "Vergelyk die blikkie met die krap se HELE harde buitekant, nie met die rugplaat alleen nie: 'n Krap se harde buitekant is net so 'n dun wand om sy lyf. Die rugdop self is 'n geboë skild oor die lyf; dit is nie 'n regop wand waarop die gewig van bo af na die grond toe druk nie."
     },
     {
-      "bewering": "'n Krap se dop dra sy gewig net so, in sy ronde buitekant.",
-      "blok": "eli10: 'n Dop as struktuur",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Britannica, Arthropod: Form and function (britannica.com/animal/arthropod/Form-and-function) oor die eksoskelet se steunfunksie; Lander University, Callinectes sapidus - Blue Crab (lanwebs.lander.edu/faculty/rsfox/invertebrates/callinectes.html) oor die geboë karapaks wat die liggaam dorsaal en lateraal omsluit.",
-      "notas": "Die lasweg is korrek: die krap se gewig word in die geboë kutikulawand gedra en nie in enigiets binne-in nie. 'Ronde' is 'n redelike vereenvoudiging - 'n krap se karapaks is geboë en koepelagtig, al is dit platter as 'n emmer se sywand."
-    },
-    {
-      "bewering": "Maar die dop is nie een hele stuk soos die emmer nie.",
-      "blok": "eli10: 'n Dop as struktuur",
-      "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Lander University, Callinectes sapidus - Blue Crab (lanwebs.lander.edu/faculty/rsfox/invertebrates/callinectes.html): 'A large carapace extends posteriorly from the head and is fused dorsally with all eight thoracic segments.' Natural History Museum Crustacea Glossary, 'cephalothorax' (research.nhm.org/glossary/define.html?termID=150): kop en toraks versmelt onder een groot skildagtige karapaks.",
-      "regstelling": "Die krap se liggaamsdop - die groot geboë karapaks oor sy rug, wat 'n leerder voor hom sien wanneer hy aan 'n krap dink - IS wel een aaneenlopende, saamgesmelte stuk, net soos die emmer. Wat uit aparte harde plate met sagte membrane tussenin bestaan, is die stert wat onder die lyf ingevou is, en die pote en knypers.",
-      "notas": "Die herstel het die regte ding probeer doen op die verkeerde plek. Deur die gewrigte te erken, ontken die sin nou die een eienskap wat die emmer-vergelyking laat werk, en dit ontken dit van die presiese deel waar dit waar is. Die gewrigte hoort by die pote, nie by die liggaamsdop nie."
-    },
-    {
-      "bewering": "Dit is harde plate met sagte plekke tussen hulle.",
-      "blok": "eli10: 'n Dop as struktuur",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Britannica, Arthropod: Form and function: geledingde eksoskelet, harde streke geskei deur buigsame verbindings. Royal Society, Interface Focus 14(2) 20230075, Structural diversity of crustacean exoskeletons and its implications for biomimetics (royalsocietypublishing.org/rsfs/article/14/2/20230075/89426/): die verharde streke is in plate en buisvormige ledemaatsegmente verdeel, verbind deur die dun, buigsame artrodiale membraan.",
-      "notas": "Waar as 'n stelling oor die eksoskelet as geheel. Sien die twee analogie-items hieronder vir wat hierdie sin die leerder toelaat om af te lei."
-    },
-    {
-      "bewering": "Daar buig sy pote wanneer hy loop.",
-      "blok": "eli10: 'n Dop as struktuur",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Royal Society, Interface Focus 14(2) 20230075: die artrodiale membraan is die buigsame kutikulastreek wat 'n gewrig se beweging moontlik maak; Britannica, Arthropod: Form and function: buigsaamheid word verkry deur veelvuldige gelede in die ledemaatstelsel, wat loop moontlik maak.",
-      "notas": "Feitelik korrek."
-    },
-    {
-      "bewering": "Die gewig bly in die harde plate self.",
-      "blok": "eli10: 'n Dop as struktuur",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Royal Society, Interface Focus 14(2) 20230075: die kutikula se argitektuur verskil oor die gewrigsvlak, sy lasdraende rand en die verbindende artrodiale membraan, sodat die verharde dele die meganiese spanning dra en die membraan die beweging toelaat.",
-      "notas": "Feitelik korrek: die las loop deur die verharde kutikula, nie deur die sagte membrane nie. Dit is egter nie die onderskeiding wat dit veronderstel is om te maak - sien die volgende item."
-    },
-    {
-      "bewering": "Maar die dop is nie een hele stuk soos die emmer nie. Dit is harde plate met sagte plekke tussen hulle. Daar buig sy pote wanneer hy loop. Die gewig bly in die harde plate self.",
-      "blok": "eli10: 'n Dop as struktuur",
+      "bewering": "Sy gewig word in daardie wand gedra en nie binne-in nie.",
+      "blok": "eli10 (vir: 'n Dop as struktuur)",
       "status": "weerspreek",
       "tipe": "analogie",
-      "bron": "Getoets teen die les se eie omskrywings in dieselfde leer (begrip 'raamstruktuur' en die blok 'Hoekom 'n geraamte 'n raamstruktuur is'), en teen ArcelorMittal Constructalia, Introduction to shell structures, oor wat 'n dop van 'n raamwerk onderskei.",
-      "regstelling": "Die lasweg-sin keer NIE die raam-gevolgtrekking nie, want sy inhoud geld net so goed vir 'n raam: in 'n gewerwelde dier se raam bly die gewig ook in die harde dele - die bene - en nie in die gewrigte nie. Die sin is waar van albei strukture en kan hulle dus nie uitmekaar hou nie. Wat 'n krap 'n dop en nie 'n raam maak nie, is dat elke harde deel self 'n geboë wand OM die ruimte binne is, en dat daar geen oop raamwerk binne-in die lyf is wat die las dra nie.",
-      "notas": "DIT IS DIE GEVRAAGDE TOETS, EN DIE BLOK SLAAG DIT NIE. Die les se eie raamtoets in die blok 'Hoekom 'n geraamte 'n raamstruktuur is' het vier stappe: (1) nie een stuk nie, (2) dele wat stewig aanmekaar vas is, (3) wat saam gewig dra, (4) met oop plekke tussen hulle. Die eli10 gee die leerder nou (1) uitdruklik, (2) uitdruklik, en (3) deur 'plate' in die meervoud te sê. Net (4) ontbreek, en die verskil tussen 'sagte plekke' en 'oop plekke' word nêrens as die onderskeiding uitgewys nie - 'n leerder moet self raai dat sag nie oop beteken nie. Drie uit vier stappe van die les se eie toets pas, en die enigste wag wat aangestel is om dit te keer, weeg ewe swaar aan albei kante."
+      "bron": "Die eerste helfte is reg oor die eksoskelet as geheel: 'n hol steunstruktuur (die eksoskelet) dra die gewig van die geleedpotige se lyf — Understanding Evolution, Universiteit van Kalifornië Berkeley, https://evolution.berkeley.edu/the-arthropod-story/an-evolutionary-constraint-small-size/exoskeleton-strength-the-physics-of-failure/exoskeleton-strength-totally-tubular/ . Daardie stelling word egter oor die POOT as hol buis gemaak, en dit is die dactyl (die laaste pootlid) wat die grond raak wanneer die krap loop — https://www.fiddlercrab.info/morphology/Limbs_Walking_Legs.html . Geen bron wat ek gevind het, se die rugdop dra die dier se gewig grond toe nie; die karapaks word deurgaans as beskermende bedekking beskryf (NHM-woordelys hierbo). Nagegaan en aanvaar as vereenvoudiging: 'n krap het wel inwaartse voue van dieselfde dop (apodeme, saam die endofragmale skelet) wat styfheid gee en spiere anker — SC DNR Glossary of Terms for Decapods, https://www.dnr.sc.gov/marine/sertc/Glossary.pdf . Dit is dop wat na binne gevou is en nie 'n aparte geraamte binne-in nie, so 'nie binne-in nie' bly reg vir graad 5.",
+      "regstelling": "Sy gewig word in sy harde buitekant gedra en nie deur iets binne-in nie. Waar die krap loop, kom sy gewig deur sy pote op die grond uit, en daardie pote is self hol buise van dieselfde harde buitekant; die rugdop hou sy vorm en beskerm hom."
     },
     {
-      "bewering": "Daar buig sy pote wanneer hy loop. Die gewig bly in die harde plate self.",
-      "blok": "eli10: 'n Dop as struktuur",
+      "bewering": "Die blok as geheel, getoets teen die les se eie vierstap-toets vir 'n raamstruktuur ('dele wat stewig aanmekaar vas is en saam gewig dra, met oop plekke tussen hulle'): 'n Krap se dop oor sy rug is net so 'n ronde wand. Sy gewig word in daardie wand gedra en nie binne-in nie.",
+      "blok": "eli10 (vir: 'n Dop as struktuur), gelees teen 'Hoekom 'n geraamte 'n raamstruktuur is'",
       "status": "weerspreek",
       "tipe": "analogie",
-      "bron": "Britannica, Arthropod: Form and function: 'For a given quantity of skeletal material, a hollow tubular structure is stronger than a solid rod'; Royal Society, Interface Focus 14(2) 20230075: verharde streke as plate EN buisvormige ledemaatsegmente. Getoets teen die les se eie begrip 'stut' in dieselfde leer.",
-      "regstelling": "'n Krap se pootsegment is 'n hol buis harde kutikula wat van sy twee ente af gelaai word - dit pas die les se eie omskrywing van 'n stut woord vir woord ('n lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word). Wat waar is en wel onderskei: die las in daardie poot word in die WAND van die hol buis self gedra, en daar is niks binne-in die poot wat hom ophou nie - die poot is self 'n dop.",
-      "notas": "Tweede, aparte roete na dieselfde valse gevolgtrekking, en 'n skrywer wat die vorige item regmaak kan hierdie een laat staan. Die blok noem die pote wat by gewrigte buig, sê dan die gewig bly in die harde dele, en die leerder het 'n stel gelede stutte - wat 'n raam is. Albei sinne is elk vir sigself waar; dis die prentjie wat hulle saam bou wat vals is."
+      "bron": "'n Leerder wat 'n KRAP teen daardie vier stappe toets, kom by RAAMSTRUKTUUR uit, nie by dop nie. Elke krappoot bestaan uit sewe lede (coxa, basis, ischium, merus, carpus, manus, dactyl) wat by skarniergewrigte aanmekaar sit — https://www.fiddlercrab.info/morphology/Limbs_Walking_Legs.html ; die lede word in die biomeganika-literatuur beskryf as 'segments that are essentially thin shells connected by rotation joints' — Survey of biomechanical aspects of arthropod terrestrialisation, https://www.sciencedirect.com/science/article/abs/pii/S1467803920301067 ; die pote dra saam die dier se gewig (Berkeley, hierbo); en daar is sigbare oop plekke tussen die tien ledemate. Al vier stappe word dus deur 'n krap geslaag. Die rede waarom 'n krap nogtans 'n DOPstruktuur is, is dat die harde buitekant self die las dra — oor die lyf en rondom elke poot — en dat daar geen lasdraende raam binne-in is nie (monocoque: herkenbaar aan die afwesigheid van 'n lasdraende binneraam, https://en.wikipedia.org/wiki/Monocoque ; geleedpotiges het nie 'n uitgebreide inwendige lasverspreidingsnetwerk nie, https://pubmed.ncbi.nlm.nih.gov/20478397/ ). Presies daardie onderskeid gee die nuwe blok net vir die rugplaat, en dit is nie een van die vier stappe nie — so die leerder het niks in die hand om die raam-antwoord mee uit te skakel nie.",
+      "regstelling": "Die vergelyking moet uitkom by die deel van die krap wat die vierstap-toets vang, naamlik sy pote: die krap se pote is hol buise van dieselfde harde buitekant, so die sterkte sit oral in die buitenste vel en nêrens in aparte stywe dele binne-in die dier nie. Die eli10 (of die vierstap-beskrywing) moet die leerder daardie onderskeid gee — 'waar sit die sterkte, in die buitenste vel of in dele binne-in?' — anders lei die toets soos hy staan by 'n krap na 'raamstruktuur'."
+    },
+    {
+      "bewering": "(Implisiet in die nuwe blok) die blikkie se dun wand dra die boeke as 'n lang, dun, stywe deel waarop van sy twee ente af gedruk word.",
+      "blok": "eli10 (vir: 'n Dop as struktuur), gelees teen 'Strukture en stutte', 'Die bene is die stutte' en die begrip 'stut'",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "Dit is wat die nuwe blok by sy bure ontwrig. Die les se eie begrip lui: 'n stut is ''n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word', en die les koppel stutte aan rame ('Baie strukture staan op stutte'; 'die stutte van die raam is bene'; 'Die been word dus van sy twee ente af gedruk en werk as 'n stut'). Die blikkie se wand pas daardie omskrywing woord vir woord: dun, styf, en van bo en onder af gedruk. Die voorbeeld wat DOP moet leer, kan dus as 'n struktuur op 'n stut gelees word. Wat die blok nie se nie, is waar die krag werklik vandaan kom: dit is die GESLOTE, geboë vel — dunwandige silindriese doppe soos blikkies het 'n buitengewone sterkte-tot-gewig-verhouding juis as doppe, en swigting van die geboë wand is die faalmeganisme (https://arxiv.org/pdf/2412.01057 ; PMC10574569, hierbo). 'n Plat strook van dieselfde 0,1 mm aluminium vou onder byna niks.",
+      "regstelling": "Se waarom die dun wand dit kan doen: dit is 'n geslote, ronde wand, en die sterkte sit in die geboë vel self — nie in 'n lang dun deel wat onder 'n gewig staan nie. Sonder daardie sinsnede voldoen die blikkie se wand aan hierdie les se eie omskrywing van 'n stut, wat die leerder terugstuur na raam-taal by die een voorbeeld wat dop moet leer."
     }
   ],
-  "opsomming": "Slegs die eli10-blok is nagegaan (geen superlatiewe daarin nie): die krap-herstel se feite is korrek maar dit keer nie die raam-gevolgtrekking nie, want 'die gewig bly in die harde plate self' is net so waar van 'n raam se bene, en die sin ontken boonop dat die karapaks een aaneenlopende stuk is, wat dit wel is; die emmer-herstel is nie opgelos nie, want 'n handdruk op die geboë sykant is 'n gekonsentreerde las, wat 'n dop juis NIE deur sy hele wand versprei nie."
+  "opsomming": "Slegs die eli10-blok is nagegaan. Die blikkie-demonstrasie self is skoon en robuust — 'n leë blikkie dra 'n paar boeke met omtrent 'n 25-voudige marge, en dit hang nie van die soort blikkie af nie, net daarvan dat hy regop, onbeskadig en gebalanseerd gelaai is — maar die krap-helfte van die vergelyking krimp die krap tot sy rugplaat, en daaruit volg drie foute: die rugdop is 'n geboë skild en nie 'n regop wand nie, die krap se gewig kom deur sy pote op die grond uit en nie deur die rugdop nie, en 'n leerder wat 'n hele krap teen hierdie les se eie vierstap-toets vir 'n raamstruktuur hou, kom by RAAMSTRUKTUUR uit (tien ledemate, sewe lede elk, skarniergewrigte, sigbare oop plekke) omdat die onderskeid wat die blok bied — niks binne-in wat die wand ophou nie — nie een van die vier stappe is nie; daarby pas die blikkie se dun wand woord vir woord by die les se eie begrip 'stut', wat die dop-voorbeeld na raam-taal terugstuur. Moenie dit met vier laslappe probeer regmaak nie: die blok moet om die krap se hele harde buitekant (lyf plus die hol buise van sy pote) herbou word, en as die vierstap-beskrywing van 'n raamstruktuur 'n gedeelde bewoording is, is die keuse of daardie onderskeid daarin of in die eli10 hoort 'n mens se besluit en nie 'n skrywer s'n nie."
 }
