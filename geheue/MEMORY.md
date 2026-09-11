@@ -86,3 +86,4 @@
 - [Bones placed the way they lie in a human](mensgesentreerde-orientasie.md) — three times in one sub-topic, in a lesson whose own examples are a dog and a lizard; state the position neutrally, and never narrow the animal instead.
 - [The provenance note grows into its own blocker](die-herkoms-nota-groei-tot-sy-eie-blokkasie.md) — 55 KB on one line stopped a writer dead; split it with bin/herkomsargief.py, and never fix it by asking writers to record less.
 - [The fact checker reads a stale draft](die-feitenasiener-lees-n-verouderde-konsep.md) — its stripped copy is only rewritten by a runner call, so two of four findings were about text corrected the evening before; the refresh script now covers it.
+- [The marker buries the order](die-merker-begrawe-die-bestelling.md) — set one line too high, a record marker leaves a spec field ordering nothing, and coverage cannot object; restate the order above it and say what the marker covers.
