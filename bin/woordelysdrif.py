@@ -51,9 +51,19 @@ def lesse(wortel):
     and contributed no wording to it. The number was the damage. This tool
     prints that number precisely so a reader knows how wide the claim is, and a
     doubled scope is the same lie as a narrow sweep reported as a clean one.
+
+    `feite-kopie/les-3.json` is the same fault in a different costume, and a
+    worse one. That directory was added later to hand the fact checker a draft
+    without its provenance note, so unlike an extract it DOES carry `blokke` --
+    it is the lesson, minus one field. It therefore corrupted the comparison
+    and not merely the count: the runner regenerates it, so a lesson revised
+    since its last runner call has a copy of its own OLD glossary sitting
+    beside it, and this tool reported the lesson as drifting against itself.
+    One such phantom was reported on 16 September 2026. Skip any directory
+    whose files are copies of lessons rather than lessons.
     """
     for gids, _, lers in os.walk(wortel):
-        if os.path.basename(gids) == "spek":
+        if os.path.basename(gids) in ("spek", "feite-kopie"):
             continue
         for naam in sorted(lers):
             if LES_NAAM.fullmatch(naam):
