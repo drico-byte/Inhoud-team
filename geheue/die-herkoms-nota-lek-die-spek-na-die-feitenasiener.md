@@ -85,3 +85,37 @@ Two further observations from the same day, both arguing the same way:
 the fact checker gets. It is the only option that lets writers keep recording their
 reasoning in full, which they should, while giving the checker the lesson alone. The
 runner already decides what each checker sees.
+
+## Decided, built — and then it leaked for a week under other names
+
+Drico chose option 2 on 9 September 2026 and the runner has stripped the note since.
+**It strips `herkoms.nota`, by name.** On 16 September a fact checker on Kwartaal 1
+lesson 5 raised the leak again, in the same words as the first two:
+
+> The copy withholds the provenance note, as it should. But there is another note
+> beside it that came through, and that one quotes the specification's requirements
+> directly — which core point asks for what, and a warning out of the spec's own risk
+> notes, in capitals. I read it before I realised what it was.
+
+Writers had invented **twelve** names for the same field: `nota`, `hersieningsnota`,
+`hersiening_nota` through `hersiening_nota_6`, `nota_eli10`, `nota_feite`, `besluite`,
+`kaps_punt_woordeliks`, `kaps_punt_nota`. The strip caught one. Four lessons were
+leaking, one of them through six notes at once.
+
+**The lesson is about the shape of the rule, not the bug.** A list of what to remove
+loses to every name invented after it is written, and nothing fails loudly when it
+does — the copy still gets made, the checker still runs, and the leak is invisible
+exactly the way a charitable reading is. The strip is now an **allowlist**: the CAPS
+document, the profiler config, the writer prompt, and the two "did you look at it"
+records. Everything else under `herkoms` goes, and the marker says how many fields
+were withheld rather than implying there was one.
+
+**How to apply:** when a boundary is enforced by naming what may not cross it, assume
+it has already been crossed under another name, and go and count. Ask the question the
+other way round — what is this checker *entitled* to see? Same family as
+[[n-regstelde-fout-kom-in-n-ander-gedaante-terug]] and
+[[n-skoon-toets-is-so-wyd-soos-sy-omvang]], where a second directory of copies walked
+past a sweep that skipped the first one by name.
+
+Three fact checkers have now raised this unprompted, each one on its own initiative.
+That is the strongest signal this project produces, and it has been right every time.
