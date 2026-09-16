@@ -1,0 +1,61 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "dekking",
+  "prompt_weergawe": "dekkingsnasiener-v1.4",
+  "les": "Die speurder van die verlede",
+  "kaps_punt": "Geen inhoudstrepie. Hierdie les lewer KABV Afdeling 2.4.4 se konsep 'Historiese bronne en getuienis' en die 2.4.3-doelwit 'Die vind van 'n verskeidenheid soorte inligting oor die verlede', wat die inhoudstabel se opdrag oor Afdeling 2 vir elke inhoudsonderwerp vereis.",
+  "verdict": "MENS_NODIG",
+  "spesifikasie_probleem": "Die spesifikasie beveel op vier plekke steeds die ou naam. Die opening van kern[4] dra die herdoop van 16 September 2026 ('VANAF 16 SEPTEMBER 2026 - VOORWERPBRONNE'), maar die aangehegte REGSTELLING van 7 September onderaan dieselfde veld gee nog die opdrag: 'Skryf dus: ... VIER VAN DAARDIE GROEPE is visueel, mondeling, argeologies en geskrewe.' Dieselfde opdragsin staan woord vir woord ook in fokusvraag_skakel, in verdeling_nota en in historiese_konsepte.per_les['2']. Die konsep volg die opening en is reg; die gevaar is die volgende rondte. Dekking toets teen kern, dus sal 'n volgende dekkingsnasiener 'n korrekte konsep faal, en 'n volgende skrywer sal 'argeologies' herinstel - presies die foutvorm wat hierdie spek se eie geen_vrae-veld al twee keer aangeteken het ('Hierdie veld het die ou vorm bly beveel nadat kern[3] reeds verander het'). AKSIE VIR 'N MENS, nie vir die skrywer nie: vervang 'argeologies' met die vasgelegde naam in die 'Skryf dus'-sin van kern[4], fokusvraag_skakel, verdeling_nota en historiese_konsepte.per_les['2'], en laat die kwantifiseerder-regstelling ('vier van daardie groepe') onaangeraak, want dit is die deel wat daardie paragraaf bedoel was om te dra. video_naat se 'argeologiese' bly staan waar dit die VIDEO se eie woord aanteken - dit is 'n rekord en die herdoop is 'n doelbewuste afwyking van die video - maar die 'Skryf dus'-sin binne wat_die_video_dek is 'n opdrag en hoort saam gevee. Geen konsepverandering word hierdeur gevra nie.",
+  "items": [
+    {
+      "tipe": "kern",
+      "verwysing": "Wat geskiedenis is: Die studie van die verlede: alles wat ons vanuit bronne daaroor kan uitvind. (bindend en woord vir woord, Drico 7 September 2026)",
+      "status": "teenwoordig",
+      "bewys": "Wat geskiedenis is - die besliste sin staan woord vir woord, met die video se frase eerste en die 'vanuit bronne'-helfte daarop"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Wat 'n geskiedkundige doen: uitvind hoe mense vroeer geleef het, wat die belangrike gebeurtenisse was, en hoekom dinge gebeur het.",
+      "status": "teenwoordig",
+      "bewys": "Wat geskiedenis is - al drie: hoe mense vroeer geleef het, watter gebeurtenisse belangrik was, hoekom dinge gebeur het; begrip 'geskiedkundige' herhaal die uitwerk-uit-leidrade helfte"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Dat 'n mens nie na die verlede kan teruggaan en kyk nie. Ons werk met wat MENSE AGTERGELAAT HET, en daaruit word uitgewerk wat gebeur het. (KABV 2.4.4: geskiedenis is nie die verlede self nie)",
+      "status": "teenwoordig",
+      "bewys": "Die verlede is verby - 'ons kan dit nie weer gaan bekyk nie', dinge wat agterbly, 'uit sulke dinge werk ons uit'; Wat geskiedenis is - 'Dit is nie die verlede self nie'"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Dat 'n leidraad iets is wat oorgebly het en wat 'n vraag oor die verlede help antwoord.",
+      "status": "teenwoordig",
+      "bewys": "Wat 'n leidraad is - 'iets uit die verlede wat oorgebly het' plus 'help ons om 'n vraag oor lank gelede te antwoord'; begrip 'leidraad' dra dieselfde twee helftes"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Dat daar vier soorte leidrade is - visuele, mondelinge, geskrewe en (VANAF 16 SEPTEMBER 2026) VOORWERPBRONNE - by die naam genoem, in een sin. Les 2 pak elkeen uit; hierdie les gaan nie een van hulle in nie. Met die kwantifiseerder vernou: die leidrade word in groepe ingedeel en VIER VAN DAARDIE GROEPE is die vier.",
+      "status": "teenwoordig",
+      "bewys": "Wat 'n leidraad is - al vier by die naam in EEN sin: 'Vier van daardie groepe is visuele, mondelinge en geskrewe leidrade, en voorwerpbronne.'; die vorige sin dra die vernoude kwantifiseerder ('Ons deel die leidrade in verskillende groepe in') en geen soort word ingegaan nie"
+    },
+    {
+      "tipe": "aanvulling",
+      "verwysing": "Die vergelyking tussen 'n speurder en 'n geskiedkundige: 'n speurder soek leidrade, gebruik bewyse en probeer uitvind wat regtig gebeur het - drie dinge wat 'n geskiedkundige ook doen. Plus die bygewerkte eis van 8 September 2026: eindig op 'n ANTWOORD WAT UITGEWERK WORD, gevolg deur die sin dat TWEE GESKIEDKUNDIGES DIESELFDE LEIDRADE ANDERS KAN LEES.",
+      "status": "teenwoordig",
+      "bewys": "Soos 'n speurder - al drie ooreenkomste, die speurder wat self nie daar was nie, die geskiedkundige wat 'n antwoord UITWERK, en 'Twee geskiedkundiges kan dieselfde leidrade anders lees'; geen drywing na speurderverhaal of biografie nie"
+    },
+    {
+      "tipe": "eli10",
+      "verwysing": "moeilike_konsepte is leeg. Spek: 'AL VYF LESSE FLAG NIKS, en dit is opsetlik... die speurder wat nie by die gebeurtenis was nie (les 1)... Dit is juis waarom hierdie les geen eli10-blok nodig het nie.'",
+      "status": "teenwoordig",
+      "bewys": "Geen eli10-blok in die les, wat ooreenstem met die leë lys; die konkrete stelling sit in Soos 'n speurder"
+    },
+    {
+      "tipe": "fokus",
+      "verwysing": "fokusvraag_skakel: Hierdie les lewer die deel wat se dat die vraag hoegenaamd 'n antwoord het: ons vind uit uit dinge wat agtergebly het, en iemand moet hulle uitwerk soos 'n speurder. Die vier soorte leidrade word net genoem; hulle inhoud is les 2 se werk.",
+      "status": "teenwoordig",
+      "bewys": "Die verlede is verby (dinge wat agterbly) saam met Soos 'n speurder (iemand wat hulle uitwerk); die vier soorte word net genoem en nie ingegaan nie. Die plaaslike helfte is deur Drico se beslissing buite bestek en word nie gesoek nie"
+    }
+  ],
+  "oortollig": [],
+  "opsomming": "Die herrangskikking het niks gekos nie - al vier soorte staan steeds by die naam in een sin, die kwantifiseerder bly vernou en geen soort word ingegaan nie - en elke kern-, aanvullings- en fokusvereiste is gedek met niks onaangevraagd in die les nie; die enigste rede vir 'n mens is die spesifikasie self, wat op vier plekke nog beveel om die ou naam 'argeologies' te skryf en wat die herdoop by die volgende hersiening sal terugdraai."
+}
