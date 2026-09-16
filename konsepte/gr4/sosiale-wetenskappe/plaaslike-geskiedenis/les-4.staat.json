@@ -1,9 +1,11 @@
 {
   "les": "gr4/sosiale-wetenskappe/plaaslike-geskiedenis/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:2b2ba6fed727b4609c31559e2dcf3d47",
+  "konsep_hash": "sha256:de17f0e79a9edc96614faaaab48d0f55",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:521fe4b500f521b2a140c61e82ccb824"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -91,9 +93,72 @@
       "woorde": 224,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-16T07:03:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:521fe4b500f521b2a140c61e82ccb824",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-16T07:03:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 230,
+      "begroting": 200,
+      "failures": [
+        "Study text 230 words, above budget ceiling 230 (target 200) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-16T07:03:38+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 230 words, above budget ceiling 230 (target 200) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-16T07:12:13+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:de17f0e79a9edc96614faaaab48d0f55",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-16T07:12:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 212,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-16T07:27:33+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-16T07:27:33+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-16T07:27:33+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\plaaslike-geskiedenis\\les-4.json",
+      "konsep_hash": "sha256:de17f0e79a9edc96614faaaab48d0f55",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:4daa608849a22fc46bb8a570a8d6d603",
+  "spek_hash": "sha256:a46fbcbbf407b6721fc7cc06d86e3117",
   "hek_konteks": {
     "graad": 4,
     "begroting": 200
