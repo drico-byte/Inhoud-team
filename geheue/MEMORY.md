@@ -76,3 +76,4 @@
 - [I wrote my correction on top of its refutation](ek-skryf-my-regstelling-bo-op-sy-weerlegging.md) — the evidence against my ruling was one line up in the same field; read the field you are writing into.
 - [A patch inside a sentence breaks the field as prose](n-laslap-binne-n-sin-breek-die-veld-as-prosa.md) — an assert proves the match, not that the result is a sentence; replace whole sentences, and rewrite a field once it has three patches.
 - [A withdrawn decision keeps standing in capitals](n-teruggetrekte-beslissing-bly-in-hoofletters-staan.md) — when a ruling is reversed, sweep for the old RULING, not the old error; the late-corrections checker is blind to it.
+- [The corrected instruction keeps standing in the field](die-korrigeerde-opdrag-bly-in-die-veld-staan.md) — nine times in one day; amend the ordering field's opening line FIRST, then sweep the old form's words, then run the checker.
