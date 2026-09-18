@@ -173,3 +173,25 @@ others.
 Related: [[n-ruil-wat-nie-pas-nie-moet-hard-faal]] (print the fields and act on the
 whole print), [[n-spek-se-dieselfde-ding-in-twee-velde]] (one claim can sit in three
 fields — it did), [[n-verslag-in-die-logboom-kan-verouderd-wees]].
+
+## An unmarked tail costs re-reports, not just reinstatements
+
+10 September 2026, Gr 5 NWT. The opening-line rule held all day — but three fields
+whose openings were correctly amended still had their **old text sitting below,
+unlabelled**. Every one of them was reported again, by someone doing their job right:
+
+* a coverage checker escalated the fossil-type requirement, because the rejected
+  wording was still in the tail while two sibling fields said plainly that theirs was
+  kept only as a record;
+* a writer refused to move on from the metals lesson, reporting that the kitchen
+  requirement "still orders the absolute form" — it did not, the correction was at the
+  top, and the unmarked tail was what it saw;
+* the fossil sorting rule was re-raised twice for the same reason.
+
+**So the record marker is not tidiness, it is the difference between a field that has
+been fixed and a field that reads as self-contradicting.** A reader who meets a
+correction and then an unlabelled old order cannot tell which is live, and the safe
+thing for them to do is report it — which costs a round every time. Marking the tail
+`[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE]` ends it.
+
+The tell: you amended an opening line today and did not touch anything below it.

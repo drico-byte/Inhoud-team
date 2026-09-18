@@ -5,9 +5,15 @@
 | Grade | Floor | Ceiling |
 |---|---|---|
 | 4 | 350 | 450 |
+| 5 | 300 | 550 |
 
-Decided by Drico on 7 September 2026, after measuring the delivered Grade 4 lessons:
-they ran **169 to 811 study words**, seventeen of twenty-five over 450. Register and
+Grade 4 decided by Drico on 7 September 2026, after measuring the delivered Grade 4
+lessons: they ran **169 to 811 study words**, seventeen of twenty-five over 450.
+
+Grade 5 decided by Drico on 9 September 2026, from his own hand count of a Grade 5
+textbook — a 140-word lesson and a 525-word one in the same book. It is wider on
+purpose, and Grade 5 budgets are set per lesson rather than divided evenly, because the
+profiler's page measurement counts activity boxes our lessons never contain. Register and
 budget are different things — this table is about how much a lesson holds, the ones
 below are about how it reads. Full reasoning in `SKILL.md` under Volume budget.
 

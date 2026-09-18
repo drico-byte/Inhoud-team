@@ -52,6 +52,12 @@ def lesse(wortel):
     prints that number precisely so a reader knows how wide the claim is, and a
     doubled scope is the same lie as a narrow sweep reported as a clean one.
 
+    IT HAPPENED AGAIN, 10 September 2026, in a new costume. `feite-kopie/les-3.json`
+    is the copy handed to the fact checker with the provenance note stripped, added
+    on 9 September -- same file name again, so the sweep read 42 where 29 lessons
+    existed. The exclusion is now a LIST rather than one name, because the next
+    directory that mirrors these file names will do this a third time.
+
     `feite-kopie/les-3.json` is the same fault in a different costume, and a
     worse one. That directory was added later to hand the fact checker a draft
     without its provenance note, so unlike an extract it DOES carry `blokke` --
@@ -62,8 +68,9 @@ def lesse(wortel):
     One such phantom was reported on 16 September 2026. Skip any directory
     whose files are copies of lessons rather than lessons.
     """
+    HERHALINGS = ("spek", "feite-kopie")   # both hold files named les-<n>.json
     for gids, _, lers in os.walk(wortel):
-        if os.path.basename(gids) in ("spek", "feite-kopie"):
+        if os.path.basename(gids) in HERHALINGS:
             continue
         for naam in sorted(lers):
             if LES_NAAM.fullmatch(naam):
@@ -333,9 +340,19 @@ def main():
 
     print(f"{len(drif)} van die {len(gedeel)} gedeelde terme dryf uiteen.")
     if besluite:
-        beslis = sum(1 for t in drif if t in besluite)
+        # Membership is not settlement. An entry may be OPENED in the agreed list --
+        # given a name, a note and three routes -- with its 'omskrywing' still empty,
+        # precisely to record that nobody has chosen yet. Counting those as settled
+        # told the reader the opposite of the truth the entry was written to record,
+        # and it did so the same hour the first such entry was added.
+        beslis = sum(1 for t in drif if (besluite.get(t) or {}).get("omskrywing"))
+        oop_maar_gemerk = sum(1 for t in drif
+                              if t in besluite and not (besluite.get(t) or {}).get("omskrywing"))
         print(f"{beslis} daarvan het reeds 'n besliste bewoording "
               f"(sien {'; '.join(besluit_bronne)});")
+        if oop_maar_gemerk:
+            print(f"{oop_maar_gemerk} staan in daardie lys met 'n LEE bewoording - opgeteken as oop, "
+                  f"nie beslis nie.")
         print("vir die res moet een bewoording wen. 'n Derde bewoording maak dit erger.")
     else:
         print("Een bewoording moet wen. 'n Derde bewoording maak dit erger.")

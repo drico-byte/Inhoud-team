@@ -1,0 +1,123 @@
+{
+  "les": "gr5/natuurwetenskappe-en-tegnologie/energie-en-elektrisiteit/les-3",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:77aede54c1f47f2b191584d262fb251a",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:166a1afd378e3358a6b9127da661bd87"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-10T12:35:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:32d168aca42fd59578a99e7e3091a1f7",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-10T12:35:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 451,
+      "begroting": 430,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-10T15:43:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ef62bbe66e6803a8e0681a0133df31d0",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-10T15:43:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 451,
+      "begroting": 430,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-10T16:09:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:166a1afd378e3358a6b9127da661bd87",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-10T16:09:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 507,
+      "begroting": 430,
+      "failures": [
+        "Study text 507 words, above budget ceiling 494 (target 430) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-10T16:09:03+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 507 words, above budget ceiling 494 (target 430) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-10T16:17:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 507,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-10T17:55:17+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a208090f71b3e01fc705d414e70c9f60",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-10T17:55:17+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 507,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-11T08:40:20+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:410d5e11f56be1772cbcda4f4559a197",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-11T08:40:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 546,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-11T09:10:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:77aede54c1f47f2b191584d262fb251a",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-11T09:10:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 550,
+      "begroting": 500,
+      "failures": []
+    }
+  ],
+  "spek_hash": "sha256:4af693a9ba45c059e90e4f1f4a178ac9",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 500
+  }
+}
