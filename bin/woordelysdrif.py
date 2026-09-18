@@ -223,8 +223,16 @@ def main():
             return romp(a_) == romp(b_)
         return a_ == b_
 
+    # A term marked `twee_betekenisse` is one word with two meanings that must NOT
+    # be made to agree ('as': a wheel's axle, and the Earth's axis, which is a line
+    # that does not exist). Drico confirmed on 18 September 2026 that each lesson
+    # keeps its own. Reporting it as drift every run invites someone to "fix" it.
+    twee = sorted(t for t, v in besluite_vroeg.items()
+                  if v.get("twee_betekenisse") and t in gedeel)
     drif = {}
     for t, d in gedeel.items():
+        if t in twee:
+            continue
         vorme = list(d)
         if any(not eenders(t, vorme[0], v) for v in vorme[1:]):
             drif[t] = d
@@ -286,7 +294,7 @@ def main():
     # went quiet. A clean report that hides an open decision is the failure this
     # whole file exists to prevent.
     oop = {t: v for t, v in besluite.items()
-           if not v.get("omskrywing") and t in terme}
+           if not v.get("omskrywing") and not v.get("twee_betekenisse") and t in terme}
     if oop:
         print(f"BESLISSING NOG OOP ({len(oop)}):")
         print()
@@ -339,6 +347,8 @@ def main():
         print()
 
     print(f"{len(drif)} van die {len(gedeel)} gedeelde terme dryf uiteen.")
+    if twee:
+        print(f"{len(twee)} met opset twee betekenisse, nie as drif getel nie: {', '.join(twee)}")
     if besluite:
         # Membership is not settlement. An entry may be OPENED in the agreed list --
         # given a name, a note and three routes -- with its 'omskrywing' still empty,
