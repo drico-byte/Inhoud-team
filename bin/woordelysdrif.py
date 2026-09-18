@@ -324,8 +324,10 @@ def main():
 
     if not drif:
         if not teen_besluit and not oop:
-            print(f"  Geen drif. Al {len(gedeel)} gedeelde terme is woord vir woord")
+            print(f"  Geen drif. Al {len(gedeel) - len(twee)} gedeelde terme is woord vir woord")
             print(f"  dieselfde oor die {gelees} lesse wat gelees is.")
+            if twee:
+                print(f"  {len(twee)} met opset twee betekenisse, nie vergelyk nie: {', '.join(twee)}")
             return 0
         if not teen_besluit:
             print(f"Geen les weerspreek 'n ander nie, maar {len(oop)} bewoording(s) is nog nie besluit nie.")
