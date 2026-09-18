@@ -65,3 +65,29 @@ correction of "whites-only", which is why it survived two sweeps.
 Related: [[n-regstelde-fout-kom-in-n-ander-gedaante-terug]] says to write down the
 false CONCLUSION rather than the false words. Same lesson, one level up: when
 sweeping, search for the conclusion too.
+
+## The half-amendment: the twelfth was a field I had already fixed that day
+
+18 September 2026, twelfth instance. A requirement's opening line ordered two things:
+that he "did not give up **or become full of hate**" and that he "**learned** to
+forgive". A fact check killed the second. I amended the line — and changed only that
+half.
+
+So the line went on ordering the first claim, which a decision the same day forbade,
+and it now also contradicted its own closing bracket, which said the quality is
+carried by a choice and by deeds rather than by an inner process. A coverage checker
+caught it and correctly refused to send a correct draft back to a writer.
+
+**The trap is that the field looks done.** It carries today's date and a dated
+correction, so it reads as already swept — by me most of all, because I remember
+editing it. A field I amended this morning is not a field that is correct.
+
+**So add to the sequence:** when you amend an ordering line, **re-read the whole line
+afterwards as if someone else wrote it**, and check every claim it still makes against
+every ruling in force — not only the claim the finding named. A line that orders three
+things needs all three checked, and the one you just fixed is the one you will skip.
+
+The same round also found the **video seam** carrying both rejected claims in one
+sentence, which is where both had come from. When a claim is wrong, ask where the
+writer got it: if a video seam records it, the forbidden-claims list is the fix, not
+another pass over the lesson.
