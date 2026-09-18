@@ -48,7 +48,7 @@
 - [Don't run the runner over a working writer](moenie-die-hardloper-oor-n-werkende-skrywer-laat-loop-nie.md) — it gated a draft mid-revision; archived reports are recoverable from the log tree.
 - [The textbook comes through the search results too](die-handboek-kom-ook-deur-die-soekresultate.md) — the fact checker declined a Grade 4 PDF on its own; nothing had told it to, and now the prompt does.
 - [The provenance note leaks the spec to the fact checker](die-herkoms-nota-lek-die-spek-na-die-feitenasiener.md) — the checker never gets the spec, but a writer records the requirements inside the lesson file, and the checker reads that; not yet decided how to close it.
-- [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — three of four fixed over-claims stopped being claims; narrow the quantifier, never the subject.
+- [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — three of four fixed over-claims stopped being claims; narrow the quantifier, never the subject — and if a fix can be written by putting "not" in front of the old sentence, it is the opposite error.
 - [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went over unprotected.
 - [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — two unchecked measurements and one false claim in one day; a spec is read as settled.
 - [A claim about Afrikaans usage is not a requirement](n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie.md) — a whole block rested on "sit dit hoër"; Afrikaans says "harder", and the English problem had been imported.
@@ -91,3 +91,5 @@
 - [Don't put the intent in a fact brief](moenie-die-bedoeling-in-die-feitebrief-se-nie.md) — I told the eli10 checker why 'buite om' was chosen; name what to test, never why the text is right.
 - [Frame vs shell is form](raam-teenoor-dop-is-vorm.md) — separate struts vs one load-bearing wall; I gave Drico inside/outside, which is endo vs exo and failed on ribcage and tortoise.
 - [Only what needs my eyes](net-wat-my-oe-nodig-het.md) — chat only for questions, decisions or real milestones; short; no running status.
+- [A withdrawn decision keeps standing in capitals](n-teruggetrekte-beslissing-bly-in-hoofletters-staan.md) — when a ruling is reversed, sweep for the old RULING, not the old error; the late-corrections checker is blind to it.
+- [The corrected instruction keeps standing in the field](die-korrigeerde-opdrag-bly-in-die-veld-staan.md) — nine times in one day; amend the ordering field's opening line FIRST, then sweep the old form's words, then run the checker.

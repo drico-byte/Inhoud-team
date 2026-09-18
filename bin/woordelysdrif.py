@@ -57,6 +57,16 @@ def lesse(wortel):
     on 9 September -- same file name again, so the sweep read 42 where 29 lessons
     existed. The exclusion is now a LIST rather than one name, because the next
     directory that mirrors these file names will do this a third time.
+
+    `feite-kopie/les-3.json` is the same fault in a different costume, and a
+    worse one. That directory was added later to hand the fact checker a draft
+    without its provenance note, so unlike an extract it DOES carry `blokke` --
+    it is the lesson, minus one field. It therefore corrupted the comparison
+    and not merely the count: the runner regenerates it, so a lesson revised
+    since its last runner call has a copy of its own OLD glossary sitting
+    beside it, and this tool reported the lesson as drifting against itself.
+    One such phantom was reported on 16 September 2026. Skip any directory
+    whose files are copies of lessons rather than lessons.
     """
     HERHALINGS = ("spek", "feite-kopie")   # both hold files named les-<n>.json
     for gids, _, lers in os.walk(wortel):

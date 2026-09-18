@@ -1,8 +1,11 @@
 ---
 name: n-versagting-vat-die-algemene-helfte-saam
-description: Fixing an over-claim by narrowing its subject silently deletes the general half of the point, so the claim stops being wrong and stops being a claim. Narrow the quantifier, not the subject.
-metadata:
+description: "Fixing an over-claim by narrowing its subject silently deletes the general half of the point, so the claim stops being wrong and stops being a claim. Narrow the quantifier, not the subject."
+metadata: 
+  node_type: memory
   type: feedback
+  originSessionId: f21c597a-2944-4014-bf02-c866813c3fa2
+  modified: 2026-09-11T11:35:19.828Z
 ---
 
 The fact checker found four absolutes in lesson 22 and the writer softened all
@@ -47,3 +50,34 @@ next coverage round, ask the question from the other side — what did the
 [[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]]; this is the specific,
 predictable case of both, and it is worth catching in the brief rather than in a
 third round.
+
+## The third form: the correction swings to the opposite assertion
+
+11 September 2026, Gr 4 SW. Twice in one day a fix for an over-claim landed on
+the **negation** of the over-claim, which was equally false.
+
+* A word was wrongly described as coined by one man. I instructed that it is
+  **not new** — and the draft came back saying it is "*also* an old word", like
+  the ancient word beside it. But the name genuinely was made new, in South
+  Africa, between 1906 and 1908, out of old roots. That item has now been wrong
+  in three successive ways, each fix producing the next.
+* A lesson had implied a clean succession, each transport replacing the last. The
+  fix asserted that **nothing was ever displaced** — and things were: steam
+  traction, and the ox wagon as freight. One word repaired it: *not every* new
+  kind displaced the old ones.
+
+**The shape.** An over-claim and its negation are both claims, and the true
+statement almost always sits at a **quantifier between them**, not at either
+pole. "All X" is false; so is "no X"; the answer is "most X" or "some X". When a
+checker says a sentence is false, it is reporting where the sentence is wrong —
+not proposing its opposite.
+
+**The diagnostic, and it is cheap.** *If the correction can be written by putting
+"not" in front of the old sentence, it is probably the opposite error.* Stop and
+ask what quantity is actually true. Both of today's cases fail that test on
+sight: "it is not new", "nothing was displaced".
+
+**Where this bites hardest is in my own briefs.** The satyagraha one was my
+instruction, not a writer's invention — I passed on the checker's "this is false"
+as if it were "write the opposite". A brief should say what is true, with its
+quantifier, rather than only what is wrong.

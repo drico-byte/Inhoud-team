@@ -52,6 +52,42 @@ demonstrate side by side.
 Record provenance in every lesson's `herkoms` field (see schema below). Five
 lines now answers any question years later.
 
+### The provenance note REPLACES itself on every revision
+
+`herkoms.nota` carries the writer's reasoning: why a sentence was cut, what a
+requirement asked for, which wordings were rejected and why. It earns its place —
+several corrections have been saved because a later reviser could read why an
+earlier one did something.
+
+**But it must be rewritten on each revision, never appended to.** Writers were
+appending, and on 18 September 2026 one lesson's note reached 56 200 characters
+against 1 994 characters of lesson — **28 times the size of the thing it
+documents** — on a single line, so the file could not be read in one pass and
+that line could not be read at all inside a tool's limit. A coverage checker
+reported working around it. Seven lessons across three sub-topics were over
+20 000 characters. **Drico's decision, 18 September 2026: each revision replaces
+the previous note.**
+
+The failure matters because it grows with every round, so the most-corrected
+lessons — the ones whose record is most worth having — end up with the least
+readable one.
+
+**What survives a rewrite, always:**
+
+* every **dated ruling** and every **withdrawal** of one, in one line each. These
+  are what stop a later revision reinstating a fixed fault, and they are the
+  reason the note exists.
+* what must **not** be changed and why, where that is not obvious from the spec.
+* anything a checker confirmed and warned against "tidying".
+
+**What does not survive:** the working reasoning of revisions already closed —
+which wordings were considered and rejected, arithmetic, what was checked and
+found fine. That belongs to the round that did it, and the report in the log tree
+already holds it.
+
+A rewritten note should read as the lesson's current standing record, not as a
+diary. If it is longer than the lesson, it is too long.
+
 ## Where this text sits on the platform
 
 **A Wolkskool lesson is a video plus this text, running in parallel.** The video

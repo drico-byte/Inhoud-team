@@ -131,6 +131,12 @@ def spek_inskrywing(graad, vak, subonderwerp, nommer):
                         f"les-{int(nommer)}.json")
 
 
+# What a fact checker may see of a draft's provenance. Everything else under
+# `herkoms` is withheld. See skryf_feitekopie -- this is an allowlist on purpose.
+HERKOMS_BEHOU = ("kaps_dokument", "skrywer_prompt", "handboek_gesien",
+                 "videoskrif_gesien")
+
+
 def feitekopie(les_pad):
     """The copy of a draft the fact checker is given: the lesson without its
     provenance note.
@@ -151,6 +157,35 @@ def feitekopie(les_pad):
     Drico's decision, 9 September 2026: strip it here rather than ask writers not
     to write it. The runner already decides what each checker sees, and this is
     the same decision.
+
+    16 September 2026: that decision stripped one key by name, `herkoms.nota`,
+    and writers also write `herkoms.hersieningsnota`, which does the identical
+    job -- it quotes the requirement a revision served, in capitals, along with
+    warnings lifted from the specification's own risk notes. It went straight
+    through for a week. A fact checker read one and said so, exactly as two did
+    about the original leak.
+
+    So this no longer names the fields it removes. It names the ones a checker
+    may keep and drops everything else under `herkoms`. A list of what to remove
+    loses to every field name invented after it was written; a list of what to
+    keep does not.
+
+    18 September 2026: the leak turned up again, inside a field the allowlist
+    KEEPS. `profiel_konfig` is meant to name a measurement config. Writers had
+    been writing their own reasoning into it -- which config the brief named,
+    what the SPECIFICATION says about the budget basis, who decided a number and
+    when. Twelve lessons across four subjects, and a fact checker read one and
+    said so, which is now the fourth checker to raise this unprompted.
+
+    So `profiel_konfig` is out. Asking the allowlist question properly -- what is
+    this checker ENTITLED to see? -- answers it: a fact checker verifies claims
+    against outside sources and has no use for budget provenance at all. What
+    remains names the curriculum document, the writer prompt and the two "did you
+    look at it" records, and none of those is a place a writer reasons.
+
+    The lesson generalises: an allowlist is only as good as the assumption that
+    each kept field holds an identifier rather than prose. Check that the fields
+    you keep cannot carry a sentence.
     """
     return os.path.join(os.path.dirname(les_pad), "feite-kopie",
                         os.path.basename(les_pad))
@@ -166,14 +201,16 @@ def skryf_feitekopie(les_pad):
     """
     les = lees_json(les_pad)
     h = les.get("herkoms")
-    if isinstance(h, dict) and "nota" in h:
-        h = dict(h)
-        del h["nota"]
-        h["nota_weerhou"] = ("Die herkoms-nota is uit hierdie kopie weerhou. Dit dra die skrywer se "
-                             "redenasie en die spesifikasie se vereistes, en die feitenasiener moet "
-                             "beoordeel wat die les SE, nie wat dit bedoel het nie. Niks is uit die "
-                             "lesinhoud verwyder nie.")
-        les = dict(les, herkoms=h)
+    if isinstance(h, dict):
+        weg = [k for k in h if k not in HERKOMS_BEHOU]
+        if weg:
+            h = {k: v for k, v in h.items() if k in HERKOMS_BEHOU}
+            h["nota_weerhou"] = (
+                "Die skrywer se notas is uit hierdie kopie weerhou (%d veld(e)). Hulle dra sy "
+                "redenasie en die spesifikasie se vereistes, en die feitenasiener moet beoordeel "
+                "wat die les SE, nie wat dit bedoel het nie. Niks is uit die lesinhoud verwyder "
+                "nie." % len(weg))
+            les = dict(les, herkoms=h)
     pad = feitekopie(les_pad)
     skryf_json(pad, les)
     return pad
