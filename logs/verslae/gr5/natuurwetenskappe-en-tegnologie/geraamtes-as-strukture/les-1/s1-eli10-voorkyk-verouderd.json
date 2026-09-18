@@ -4,82 +4,89 @@
   "prompt_weergawe": "feitenasiener-v1.2",
   "les": "Raam binne, dop buite",
   "kaps_punt": "Raam en dopstrukture: 'n gewerwelde skelet is 'n raamstruktuur (verwys ook na die graad 4 Materie en Materiale); sommige ongewerwelde geraamtes is dop strukture soos die van 'n krap",
-  "verdict": "MENS_NODIG",
+  "verdict": "HERSIEN",
+  "omvang": "Nou nasiening: SLEGS die eli10-blok (vir: 'n Dop as struktuur) is nagegaan, soos opdrag. Die studieblokke en begrip-inskrywings is NIE nagegaan nie en die volle nasiening moet hulle nog doen; die voltooidheidswaarskuwings van verdict_check oor ongekontroleerde blokke is dus verwag. Een fout in die studieblok waarvoor die eli10 geskryf is, is raakgesien en word as item 10 aangemeld (nie as volle nasiening van daardie blok nie). Die eli10-blok bevat geen oortreffende trap nie, daarom is daar geen item van tipe superlatief nie. Prosesnota: die opdragbrief het die skrywer se bedoeling met 'buite om' (dat dit die ribbekas moet uitsluit) aan my oorgedra. Ek het die blok beoordeel op wat dit se, nie op daardie bedoeling nie.",
   "items": [
     {
-      "bewering": "Sit 'n paar boeke bo-op 'n leë blikkie. Sy dun wand loop rond om die leë ruimte en hou hulle maklik op.",
-      "blok": "eli10 vir ''n Dop as struktuur' — die blikkie hou die boeke op",
+      "bewering": "'n Leë blikkie se dun wand hou 'n paar boeke op.",
+      "blok": "eli10: 'n Dop as struktuur",
       "status": "bevestig",
-      "tipe": "getal",
-      "bron": "OORGEDRA uit ronde 4 op uitdruklike opdrag; nie in hierdie ronde weer nagegaan nie. Ronde 4 het dit gevestig op ongeveer 1031 N draagvermoë teenoor 20-40 N vir 'n paar boeke, en dat dit nie van die soort blikkie afhang nie. Ek het wel terloops 'n onafhanklike bevestiging van die orde van grootte gesien: Manchester se 'Seeing and Touching Structural Concepts' (epsassets.manchester.ac.uk/structural-concepts/Statics/buckling/buckling_mod4.php) wys twee leë blikkies wat 'n staande persoon van 65 kg dra.",
-      "opmerking": "Die Manchester-bron voeg een randgeval by wat die leerder nie raak nie: by iets soos 65 kg is die blikkie naby sy kritieke las en knak by die geringste gewigsverskuiwing. By 'n paar boeke is daar 'n ruim marge."
+      "tipe": "algemeen",
+      "bron": "COMSOL Blog, 'Buckling, When Structures Suddenly Collapse' (https://www.comsol.com/blogs/buckling-structures-suddenly-collapse): 'n leë koeldrankblikkie met 'n wand van ongeveer 0,1 mm dra 'n volwasse persoon wat bo-op staan, solank dit perfek silindries bly en die las van bo af kom. 'n Paar boeke is ver onder daardie las.",
+      "nota": "Waar net onder twee voorwaardes wat die blok nie noem nie, en wat by die beeld pas: die blikkie moet regop staan (las op die end) en mag nie 'n duik he nie. Die bron se ook dat 'n ligte druk teen die sykant dit laat ineenstort. Dit is nie 'n fout nie. Die video sal dit wel moet respekteer as dit gedemonstreer word."
+    },
+    {
+      "bewering": "Die blikkie as beeld vir 'n dopstruktuur: 'n dun wand wat sy eie vorm hou en die gewig dra, met niks binne-in wat dit ophou nie.",
+      "blok": "eli10: 'n Dop as struktuur",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Petrova & Zheleva-Martins Viana (2022), 'Shells as a Universal Structural Type in Nature and Design', IntechOpen (https://www.intechopen.com/chapters/83586): 'n dop is 'n struktuurtipe wat krag deur sy oppervlak versprei. Dieselfde bron noem skaaldiere se dop as natuurlike voorbeeld. COMSOL (hierbo): die sterkte kom van die vorm van die dun wand.",
+      "nota": "Die afbeelding hou vir wat die blikkie moet wys: die gewig word in die wand self gedra. Twee plekke waar 'n leerder verder kan redeneer, en nie een lei na iets vals nie: (a) die blikkie is leeg en die krap nie. Die blok se self die sagte dele sit binne, so dit word reggestel. (b) Die blikkie is een stuk sonder gewrigte. Die blok noem self die krap se gewrigte. Swakheid (nie 'n feitefout nie): die blok verbind die blikkie nerens uitdruklik met die krap nie. Die leerder moet self die sprong maak van 'blik dra boeke' na 'krap se dop dra die krap'."
+    },
+    {
+      "bewering": "Voel aan jou arm: die sagte spier sit buite om die harde been.",
+      "blok": "eli10: 'n Dop as struktuur",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "Kenhub, 'Radius and ulna' (https://www.kenhub.com/en/library/anatomy/the-radius-and-the-ulna) en AO Surgery Reference, 'Approach to the ulna' (https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/forearm-shaft/approach/approach-to-the-ulna): die elmboog se agterrand is oor die hele lengte van die voorarm direk onder die vel voelbaar, van die elmboogpunt tot by die knoppie by die pols. Die elmboogpunt (olekranon) le reg onder die vel. By die bo-arm le spier wel rondom die been.",
+      "regstelling": "Die voel-opdrag stuur die kind reg na die plekke waar dit nie waar is nie. Die maklikste been om aan jou arm te voel, is die elmboogpunt en die rif agter op die voorarm, en daar is net vel oor die been, geen spier nie. 'n Kind wat daar voel, vind hard been 'buite' en kan dink sy elmboog is soos 'n krap. Die ware stelling is: sagte dele (spier en vel) sit buite om die harde been, en oral is daar ten minste vel oor die been. Laat die sin die vel insluit, of beperk dit tot die bo-arm. Die vel is ook wat die sorteerreel by die ribbekas en die skedel laat werk (sien item 8)."
+    },
+    {
+      "bewering": "By 'n krap is dit andersom, selfs in sy pote.",
+      "blok": "eli10: 'n Dop as struktuur",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Wikipedia, 'Arthropod exoskeleton' (https://en.wikipedia.org/wiki/Arthropod_exoskeleton): spiere heg aan die binnekant van die eksoskelet vas of aan apodeme (voue van die dop na binne). Cooper, 'Tension reception of a skeletal muscle in a crab leg', University of Kentucky (https://web.as.uky.edu/biology/faculty/cooper/Bio450-AS300/TensionCrab%20leg/crab%20tension.pdf): in die krap se poot strek die spiervesels binne-in die dop en heg aan die binnekant daarvan.",
+      "nota": "Die 'andersom' is presies reg: by die arm heg spier aan die buitekant van die been, by die krap heg spier aan die binnekant van die dop. 'Selfs in sy pote' is ook reg: die poot is 'n harde buis met spier binne-in."
+    },
+    {
+      "bewering": "Sy pote het ook gewrigte",
+      "blok": "eli10: 'n Dop as struktuur",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Natural History Museum of Los Angeles County, Crustacea Glossary, 'Arthrodial membrane' (https://research.nhm.org/glossary/define.html?term=Arthrodial+membrane): 'Tough flexible cuticle occurring between skeletal elements and allowing relative movement' (Warner 1977). Wikipedia, 'Arthropod exoskeleton' (hierbo)."
+    },
+    {
+      "bewering": "Sy pote het ook gewrigte en oop plekke tussen hulle.",
+      "blok": "eli10: 'n Dop as struktuur",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "NHM Crustacea Glossary (hierbo). Royal Society Interface Focus, 'Structural diversity of crustacean exoskeletons and its implications for biomimetics' (https://royalsocietypublishing.org/doi/10.1098/rsfs.2023.0075) en die soekopsomming daarvan: ook waar twee dele van 'n skaaldier se skelet by 'n beweegbare gewrig aanmekaar sit, is die kutikula tussen hulle aaneenlopend. By die gewrig word dit dun, buigsaam en minder verkalk (die artrodiale membraan).",
+      "regstelling": "'hulle' kan na die pote of na die gewrigte verwys. Lees dit as oop plekke tussen die pote, dan is dit waar. Lees dit as oop plekke by die gewrigte, dan is dit vals. En die woord 'ook' stuur die leerder na die tweede lesing, want dit trek 'n parallel met die raam se oop plekke tussen die bene. By 'n krap se gewrig is die dop nooit oop nie. Die harde dele word daar deur 'n dun, buigsame deel van dieselfde dop verbind, en die sagte dele binne bly oral toe. Maak duidelik dat die oop plekke tussen die pote is. As die gewrig genoem word, se dat die dop daar dun en buigsaam word maar nie oopgaan nie. Dit keer ook dat die blok lyk of dit se die krap is oral hard. Die blok beweer nie tans dat die krap oral hard voel nie (sien item 7)."
+    },
+    {
+      "bewering": "Sy harde dele sit buite om sy sagte dele.",
+      "blok": "eli10: 'n Dop as struktuur",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, 'Arthropod exoskeleton' (hierbo): die kutikula bedek die dier en die spiere le binne-in. Meyers et al., 'Structure and mechanical properties of crab exoskeletons', UCSD (https://meyersgroup.ucsd.edu/papers/journals/Meyers%20303.pdf): die krap se eksoskelet is 'n sterk verkalkte buitelaag van chitien en proteien.",
+      "nota": "Oor die vraag of die blok se 'n krap voel oral hard: nee. Die sin se waar die harde dele sit, nie dat die buitekant oral hard is nie. By die gewrigte is die buitekant buigsame membraan (item 6), en dit maak hierdie sin nie vals nie. Die risiko sit in item 6 se 'oop plekke', nie hier nie."
+    },
+    {
+      "bewering": "Sy harde dele sit buite om sy sagte dele. Daarom is sy geraamte tog 'n dop. (as sorteerreel, teenoor 'die sagte spier sit buite om die harde been')",
+      "blok": "eli10: 'n Dop as struktuur",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "StatPearls, 'Anatomy, Thorax, Wall' (https://www.ncbi.nlm.nih.gov/books/NBK535414/): die ribbekas beskerm die hart en longe, en spiere, fassie en vel bedek die bene. Kenhub/Cleveland Clinic oor die tussenribspiere (https://my.clevelandclinic.org/health/body/intercostal-muscles). StatPearls, 'Anatomy, Head and Neck, Scalp' (https://www.ncbi.nlm.nih.gov/books/NBK551565/): die skedel om die brein word deur die kopvel bedek. Petrova & Viana 2022 (hierbo): skedels, skilpaddoppe, kewers se vlerkdoppe en slakke se huisies is almal dopstrukture.",
+      "regstelling": "Die rede wat die blok gee ('Daarom') geld nie net vir die krap nie. Ribbes sit ook buite om die sagte hart en longe, en die skedel sit buite om die sagte brein. 'n Graad 5-leerder wat die reel so gebruik, sorteer die ribbekas as 'n dop, en die studieteks het die ribbekas pas as deel van die raam genoem. Dit is vals: die ribbekas het oop plekke tussen die ribbes en is deel van 'n raam. Wat 'n krap werklik van die ribbekas onderskei, is dat sy harde dop self die buitekant van sy lyf is. Daar le geen vel of spier oor nie en sy spiere heg binne-in daaraan vas. Oor elke been van 'n mens, ook die ribbes, die skedel en die elmboog, le ten minste vel. Laat die sorteersin daardie verskil noem. Moenie staatmaak op die frase 'buite om' om dit te dra nie, want die sin soos geskryf is ook letterlik waar van ribbes om die longe. Oor of 'buite om' in Afrikaans 'heel buite' beteken, le ek geen uitspraak af nie. Die punt staan hoe die frase ook al gelees word.",
+      "nota": "Die volgende gevalle wat 'n kind self sou toets, met die reel soos die regstelling dit stel (die harde deel is self die buitekant van die lyf): KEWER: dop, reg. Insekte het 'n eksoskelet met spiere wat binne-in vasheg (Wikipedia, Arthropod exoskeleton). SLAK: dop, reg. 'n Slak se huisie is 'n kalkagtige eksoskelet wat die sagte dele omsluit (Wikipedia, 'Mollusc shell', https://en.wikipedia.org/wiki/Mollusc_shell). Die voet en kop steek wel uit wanneer dit beweeg, maar die blok beweer niks wat dit vals maak nie. SKEDEL: soos die blok nou lees, dop. Met die regstelling: raam, want kopvel le oor dit. Strukturele bronne noem die skedel self wel 'n dopvorm (Petrova & Viana), so 'die skedel is dopvormig' is nie vals nie, maar 'n mens se geraamte is steeds 'n raam. VINGERNAEL: die reel vuur nie, want 'n nael sit nie om die vingerpunt nie en is keratien van die vel, nie been of geraamte nie (Wikipedia, 'Nail (anatomy)', https://en.wikipedia.org/wiki/Nail_(anatomy); Cleveland Clinic). Ongetoetste geval, geen vals stelling in die blok nie. SKILPAD: die reel se dop, en dit is waar. Die dop word gevorm uit die ruggraat en ribbes, wat met beenplate saamgegroei het, en is buite met harde keratienskubbe bedek (Wikipedia, 'Turtle shell', https://en.wikipedia.org/wiki/Turtle_shell). Die eli10-blok beweer niks wat dit vals maak nie. Maar die skilpad is 'n gewerwelde dier waarvan 'n deel van die geraamte 'n dop is, en dit bots met die studieteks se algemene stelling dat 'n gewerwelde dier se geraamte 'n raamstruktuur is. Dit is buite hierdie nou nasiening. Die volle nasiening moet besluit of daardie stelling 'n 'meeste' nodig het, of dat CAPS se bewoording hier genoeg is."
+    },
+    {
+      "bewering": "Daarom is sy geraamte tog 'n dop.",
+      "blok": "eli10: 'n Dop as struktuur",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Petrova & Viana 2022, IntechOpen (hierbo): skaaldiere se eksoskelet is 'n natuurlike dopstruktuur. Wikipedia, 'Arthropod exoskeleton' (hierbo).",
+      "nota": "Die gevolgtrekking self is waar. Die fout sit in die rede wat daarvoor gegee word (item 8), en in 'tog', wat op item 6 se dubbelsinnige 'oop plekke' leun."
     },
     {
       "bewering": "Daar is niks binne-in wat hom ophou nie.",
-      "blok": "'n Dop as struktuur (buurblok, nie die eli10 nie)",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "OORGEDRA uit ronde 4 op uitdruklike opdrag; nie in hierdie ronde weer nagegaan nie."
-    },
-    {
-      "bewering": "Sy dun wand loop rond om die leë ruimte en hou hulle maklik op. 'n Plat strokie van dieselfde metaal knak onder byna niks.",
-      "blok": "eli10 vir ''n Dop as struktuur' — die meganisme: rond en toe teenoor plat",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Nuut nagegaan in hierdie ronde, want die meganisme is nuut. 'Critical circumferential wavelength of elastic buckling of longitudinal compressed thin-walled cylindrical shells', Scientific Reports (nature.com/articles/s41598-023-43696-5 en PMC10550935): 'n dunwandige silinder se knikgedrag word deur 'n geslote omtreksmodus bepaal, wat hom wesenlik anders as 'n plat plaat of strook maak; 'n slanke plat strook volg gewone Euler-knik en beswyk teen 'n lae las. NASA SP-8007, 'Buckling of Thin-Walled Circular Cylinders' (shellbuckling.com/papers/classicNASAReports/NASA-SP-8007-2020Rev2FINAL.pdf). Die dieselfde-materiaal-vergelyking word ook direk gedemonstreer: Liberty Science Center, 'Super Strong Shapes' (lsc.org/news-and-social/news/super-strong-shapes) en DiscoverE, 'Strong Paper Structure' (discovere.org/engineering-activities/strong-paper-structure/) — een plat vel papier stort in onder 'n handboek, dieselfde vel opgerol tot 'n silinder dra dit.",
-      "opmerking": "Die direkte demonstrasies gebruik papier, nie metaal nie. Die meganisme is identies en die skulpknik-literatuur dek die algemene geval, dus is die bewering soos gestel korrek. Die woord 'toemaak' in die verduideliking is ook reg: dit is juis die geslote omtrek wat die verskil maak, nie net die kromming nie."
-    },
-    {
-      "bewering": "'n Krap se harde buitekant is so 'n wand, ook om elke poot.",
-      "blok": "eli10 vir ''n Dop as struktuur' — die anatomiese helfte",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "University of California Museum of Paleontology / Understanding Evolution, 'Exoskeleton strength: Totally tubular' (evolution.berkeley.edu/the-arthropod-story/an-evolutionary-constraint-small-size/exoskeleton-strength-the-physics-of-failure/exoskeleton-strength-totally-tubular/): ''n enkele deel van 'n geleedpotige se poot is baie soos 'n buis wat 'n gewig ophou — 'n hol steunstruktuur (die eksoskelet) dra die gewig van die dier se lyf.' Journal of Experimental Biology 221:jeb185421, 'Aquatic versus terrestrial crab skeletal support' (journals.biologists.com/jeb/article/221/21/jeb185421/33872): die krap se pootlede is buisvormig en die merus van die stappote is ongeveer 2,5 mm dik. Britannica, 'Arthropod: Form and function' (britannica.com/animal/arthropod/Form-and-function).",
-      "opmerking": "Die anatomie is reg: elke pootlid is 'n hol buis van harde kutikula en die las loop in daardie wand. Die strukturele gevolgtrekking wat die sin daaruit trek, is 'n aparte saak — sien die volgende item."
-    },
-    {
-      "bewering": "'n Krap se harde buitekant is so 'n wand, ook om elke poot.",
-      "blok": "eli10 vir ''n Dop as struktuur' — die strukturele klassifikasie van die pote",
-      "status": "onseker",
-      "tipe": "analogie",
-      "bron": "Twee stelle betroubare bronne gebruik teenoorgestelde woordeskat vir presies hierdie geval. Vir die RUGDOP is 'dop' gevestig: 'Nature's Load-Bearing Design Principles and Their Application in Engineering: A Review', Biomimetics 9(9):545 (mdpi.com/2313-7673/9/9/545, PMC11430629) noem kewerkarapakse uitdruklik dunskaalstrukture ('thin-shell structures'). Vir die POTE gebruik die meganika-literatuur raamwerkwoordeskat: JEB 221:jeb185421 ontleed die pootlid met balkmeganika — buigstyfheid EI, die tweede moment van area, plaaslike knik — dit wil sê as 'n buisvormige BALK, wat 'n raamlid is wat toevallig hol is. Ek kon geen betroubare bron vind wat besleg of 'n geleede, veeldelige pootreeks in die tegnologie-sin 'n dopstruktuur of 'n raamstruktuur van hol lede is nie. Die enigste bronne wat dit plat uitspreek, is skoolonderrigblaaie van die soort wat ek nie mag vertrou nie.",
-      "opmerking": "Dit is die sin wat hierdie ronde bygekom het, en dit is nie op feite besleg nie. 'n Mens moet besluit of die pote as deel van die dop aangebied mag word. Die keuse beslis of hierdie blok help of skade doen, want dit is presies die pote wat die leerder in die volgende item na RAAM toe stuur."
-    },
-    {
-      "bewering": "Sy gewig loop in daardie wand en nie deur dele binne-in nie.",
-      "blok": "eli10 vir ''n Dop as struktuur' — die lasbaan",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Understanding Evolution (Berkeley), soos hierbo: die hol eksoskelet dra die liggaamsgewig. OpenStax/Lumen Biology, 'Types of Skeletal Systems' (courses.lumenlearning.com/wm-biology2/chapter/types-of-skeletal-systems/): 'n eksoskelet is 'n harde omhulsel op die oppervlak van die organisme wat die lyf ondersteun, met die spiere aan die binnekant vasgeheg.",
-      "opmerking": "Een nuanse wat 'n mens moet ken, maar wat die bewering nie omkeer nie: tienpotiges het wel 'n endofragmale skelet — inwaartse kutikulaplooie (apodeme) binne die borsstuk (Treatise on Invertebrate Paleontology, Part R, Illustrated Glossary of the Decapoda, journals.ku.edu/treatiseonline/article/download/24702/21942). Dit is hoofsaaklik spieraanhegting en is gewoonlik swak verkalk; dit hou nie die dier op nie. Die lasbaan soos die les dit stel, is korrek."
-    },
-    {
-      "bewering": "'n Krap se harde buitekant is so 'n wand, ook om elke poot. Sy gewig loop in daardie wand en nie deur dele binne-in nie. [getoets teen die begrip 'raamstruktuur': 'Dele wat stewig aanmekaar vas is en saam gewig dra, met oop plekke tussen hulle.']",
-      "blok": "eli10 vir ''n Dop as struktuur' — die vierstaptoets",
-      "status": "weerspreek",
-      "tipe": "analogie",
-      "bron": "Britannica, 'Arthropod: Form and function' (britannica.com/animal/arthropod/Form-and-function): die eksoskelet bestaan uit plate of liggaamsgevormde segmente met smal, buigsame lasse wat beweging toelaat — die vergelyking wat die bron self trek, is 'n ridder se harnas. 'Arthrodial membrane', Natural History Museum of Los Angeles County, Crustacea Glossary (research.nhm.org/glossary/define.html?term=Arthrodial+membrane): taai buigsame kutikula tussen skeletdele wat beweging toelaat. 'n Krap se poot bestaan uit sewe afsonderlike lede (coxa, basis, ischium, merus, carpus, propodus, dactylus) wat by gewrigte aanmekaar sit — Vidal-Gadea et al., 'Muscular anatomy of the legs of the forward walking crab, Libinia emarginata' (Illinois State University, about.illinoisstate.edu).",
-      "regstelling": "Die blok bring die leerder steeds by RAAM uit, en die nuwe woorde 'ook om elke poot' maak dit erger in plaas van beter. Loop die les se eie vier stappe met 'n krap, soos die blok hom nou teken: (1) los dele — ja, 'n krap se harde buitekant is nie een stuk nie, dit is die rugdop plus sewe lede per poot; (2) stewig aanmekaar vas — ja, by gewrigte, presies die woorde wat die les vir bene gebruik; (3) saam gewig dra — ja, die blok sê dit self; (4) oop plekke tussen hulle — ja, 'n mens kyk tussen 'n krap se pote deur, net soos die les se eie blok 'Wat die raam vir die dier doen' die leerder leer om tussen die lang bene van 'n poot deur te kyk. Al vier stappe antwoord JA. Die enigste onderskeid wat die blok aanbied — dat die gewig in die wand loop en nie deur dele binne-in nie — is nie een van die vier stappe nie, dus toets die leerder dit nooit. Die fout is nie in die blikkie nie: die fout is dat die les se onderskeidingstoets tussen raam en dop nie die ding vra wat werklik onderskei nie. Wat 'n dopstruktuur volgens die ingenieursbronne onderskei, is dat die materiaal 'n toe wand om die sagte binneste vorm, teenoor 'n raam waar die materiaal in lang dun lede sit en die ruimte tussen hulle net oop is. Daardie onderskeid moet in die toets self staan voordat enige herskrywing van hierdie eli10 iets kan uitrig.",
-      "opmerking": "Dit is die vyfde ronde op hierdie blok en die vierde keer dat die leerder by RAAM uitkom. Die rede dat elke herskrywing misluk, is dat die defek nie in die blok sit nie — sien die laaste twee items."
-    },
-    {
-      "bewering": "'n Krap se harde buitekant is so 'n wand, ook om elke poot. [gelees saam met die begrip 'stut': ''n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.']",
-      "blok": "eli10 vir ''n Dop as struktuur' — wat die nuwe woorde by die bure ontwrig het",
-      "status": "weerspreek",
-      "tipe": "analogie",
-      "bron": "Journal of Experimental Biology 221:jeb185421 (journals.biologists.com/jeb/article/221/21/jeb185421/33872): 'krappe se pootlede word aan buig-, druk- en wringkragte onderwerp'. Understanding Evolution (Berkeley), soos hierbo, merk uitdruklik op dat 'n geleedpotige se pote eenkant toe staan eerder as reguit onder die lyf.",
-      "regstelling": "Die vorige ronde het die blikkie se dun wand teen die les se eie omskrywing van 'n STUT laat vasloop. Daardie fout is nie weg nie — dit het net van klere verwissel. Deur die wand nou uitdruklik 'om elke poot' te laat loop, word 'n krap se poot self lank, dun, styf en van sy twee ente af gedruk wanneer die krap staan, wat woord vir woord die les se begrip 'stut' is. En die les se blok 'Die bene is die stutte' leer die leerder dat stutte juis is waarvan 'n raam gemaak is. Die nuwe sin gee dus die raamlesing 'n tweede, sterker pad. Twee dinge moet gebeur: die eli10 moet ophou om die pote as losstaande lang dun dele te teken, en die 'stut'-omskrywing moet ophou om enigiets te dek wat 'n hol dop-lid ook is. Terloops, die feit self is ook nie heeltemal reg nie: 'n krap se pote staan eenkant toe, nie soos pilare onder die lyf nie, dus word 'n pootlid hoofsaaklik gebuig eerder as reguit van sy twee ente af gedruk — die blikkie-onder-boeke-prentjie pas nie netjies op 'n krap se poot nie.",
-      "opmerking": "Hierdie is die 'n regstelling ontwrig sy bure'-patroon in sy suiwerste vorm: die regstelling van ronde 4 het presies een fout reggemaak en dieselfde fout 'n blok verder weer opgebou."
-    },
-    {
-      "bewering": "raamstruktuur: 'Dele wat stewig aanmekaar vas is en saam gewig dra, met oop plekke tussen hulle.'",
-      "blok": "begrip 'raamstruktuur' (buurblok — nagegaan omdat die eli10 se toets daarop rus)",
+      "blok": "'n Dop as struktuur",
       "status": "weerspreek",
       "tipe": "algemeen",
-      "bron": "Die ingenieursomskrywing maak die slanke lid deel van die definisie: 'n raamstruktuur bestaan uit 'n netwerk van onderling verbonde balke en kolomme wat die las dra, teenoor 'n dopstruktuur wat sy vorm hou en laste dra sonder 'n raam of soliede massa binne-in, deur 'n dun, gevormde buitelaag — Wikipedia, 'Shell (structure)' (en.wikipedia.org/wiki/Shell_(structure)) en die oorsig 'Shells (Structures)' (sciencedirect.com/topics/engineering/shells-structures); Biomimetics 9(9):545 (mdpi.com/2313-7673/9/9/545) vir dun skulpe in die natuur.",
-      "regstelling": "Soos dit staan, laat hierdie omskrywing 'n krap deur: 'n harde omhulsel van baie dele wat by gewrigte aanmekaar sit, saam gewig dra en oop ruimtes tussen hulle het, voldoen aan al vier woorde. Die eienskap wat regtig onderskei — dat 'n raam se dele lang dun lede is en dat die materiaal nie 'n toe wand om die binneste vorm nie — ontbreek. Solank dit ontbreek, kan geen herskrywing van die eli10 die leerder by DOP uitbring nie, want die toets waarteen hy die krap meet, spreek hom vry. Dit is werk by die bron, nie in hierdie blok nie: die omskrywing moet die slanke lid noem, en die 'dopstruktuur'-omskrywing moet in dieselfde asem sê dat die materiaal 'n toe wand om die sagte binneste vorm.",
-      "opmerking": "Ek het hierdie buurblok net nagegaan omdat die opdrag se derde toets uitdruklik daarop rus. Dit is my antwoord op die vraag hoekom vyf rondes op een blok niks opgelewer het nie."
+      "bron": "Opgemerk buite die opdrag, in die studieblok waarvoor hierdie eli10 geskryf is. Een soektog, nie 'n volle nasiening nie. Samevatting van 'Autapomorphies of the endophragmal system in trichodactylid freshwater crabs' (ResearchGate, https://www.researchgate.net/publication/10873301): 'In brachyuran crustaceans the endophragmal skeleton is the main support structure of the locomotory complex. Its origin is cuticular...' Wikipedia, 'Arthropod exoskeleton': die binnekant van die eksoskelet vou na binne en vorm apodeme waaraan spiere vasheg.",
+      "regstelling": "'n Krap het wel harde dele binne-in wat stut: voue van sy eie dop wat na binne groei, die endofragmale skelet. Dit is die hoofstut vir die pote se spiere. Hulle is deel van dieselfde dop, so 'die gewig word in die dop self gedra' bly waar. 'Niks binne-in' is die oordrywing. Vernou dit, byvoorbeeld 'daar is geen raam van bene binne-in nie', eerder as om die stelling te sny. Die volle nasiening moet dit bevestig en ook kyk na die studieteks se 'Jy kan tussen die ribbes van 'n ribbekas deurkyk'. By 'n lewende dier is die spasies tussen die ribbes met tussenribspiere gevul (StatPearls, Thorax Wall), so dit geld net vir 'n skoon geraamte."
     }
   ],
-  "opsomming": "Die feite in die nuwe blok is reg — die blikkie se ronde toe wand teenoor 'n plat strokie klop, 'n krap se pote is wel hol buise wat die las in hulle wand dra, en niks binne-in dra die gewig nie — maar die blok bring die leerder steeds by RAAM uit eerder as by DOP, en die nuwe woorde 'ook om elke poot' maak dit erger omdat 'n krap se poot nou woord vir woord die les se eie omskrywing van 'n stut pas; die werklike defek sit in die les se omskrywing van 'n raamstruktuur, wat 'n krap deurlaat, en boonop is dit nie uit betroubare bronne besleg of 'n geleede poot hoegenaamd as deel van 'n dop aangebied mag word nie, dus moet 'n mens hierdie een besleg voordat 'n sesde herskrywing beproef word."
+  "opsomming": "Die vergelyking self is waar: die krap se spiere sit binne sy dop, ook in sy pote, en 'n leë blikkie dra wel boeke. Maar die sorteerreel soos die blok dit stel ('harde dele buite om sagte dele, daarom 'n dop') is ook waar van die ribbekas om die longe en die skedel om die brein, en sorteer die ribbekas dus verkeerd as 'n dop. Die voel-aan-jou-arm-opdrag lei na die elmboog, waar net vel oor die been le. 'oop plekke' by die krap se pote kan gelees word as gate in die dop by die gewrigte, terwyl die dop daar aaneenlopend en net buigsaam is. Al drie word reggemaak deur te se dat die krap se harde dop self sy buitekant is, sonder vel of spier daaroor, terwyl oor 'n mens se bene altyd ten minste vel le."
 }

@@ -1,9 +1,11 @@
 {
   "les": "gr5/natuurwetenskappe-en-tegnologie/voedselkettings/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:4c2acfa5875d5b38014c180dfb904612",
+  "konsep_hash": "sha256:a34fb64092dd20e6c58f7bbdd7044b33",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:3439dc30c0566eac81f5b3f4a6fcc200"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": "sha256:4c2acfa5875d5b38014c180dfb904612",
@@ -140,9 +142,49 @@
       "verdict": "GOEDGEKEUR",
       "sound": true,
       "items": 8
+    },
+    {
+      "wanneer": "2026-09-18T08:31:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3439dc30c0566eac81f5b3f4a6fcc200",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-18T08:31:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 438,
+      "begroting": 380,
+      "failures": [
+        "Study text 438 words, above budget ceiling 437 (target 380) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T08:31:58+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 438 words, above budget ceiling 437 (target 380) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T08:33:45+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a34fb64092dd20e6c58f7bbdd7044b33",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-18T08:33:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 436,
+      "begroting": 380,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:4ba6762d6775c5a36b23396e2ac41014",
+  "spek_hash": "sha256:e947bf5070c330ca993b1559c34e4432",
   "hek_konteks": {
     "graad": 5,
     "begroting": 380
