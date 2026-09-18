@@ -1,10 +1,11 @@
 {
   "les": "gr4/sosiale-wetenskappe/plaaslike-geskiedenis/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:f57c6317b3b71ca1eb7fa72156f7b37c",
+  "konsep_hash": "sha256:28dc2b25663c67b15cd095536be9286a",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:79b3ac746c4e73d4a59e1f1d168dc1fb"
+    "sha256:79b3ac746c4e73d4a59e1f1d168dc1fb",
+    "sha256:ea5a4e53a15914f04386ec6daf2c53ac"
   ],
   "eskalasie": null,
   "blok_faalrondtes": {},
@@ -251,9 +252,49 @@
       "woorde": 299,
       "begroting": 265,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T05:41:27+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ea5a4e53a15914f04386ec6daf2c53ac",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-18T05:41:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 305,
+      "begroting": 265,
+      "failures": [
+        "Study text 305 words, above budget ceiling 305 (target 265) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T05:41:28+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text 305 words, above budget ceiling 305 (target 265) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T05:48:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:28dc2b25663c67b15cd095536be9286a",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-09-18T05:48:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 304,
+      "begroting": 265,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:96d9f8db3eb1b8c76d5cc2a8b579d8af",
+  "spek_hash": "sha256:0b6d41949d03993dc063f10c0c80acce",
   "hek_konteks": {
     "graad": 4,
     "begroting": 265
