@@ -119,3 +119,27 @@ past a sweep that skipped the first one by name.
 
 Three fact checkers have now raised this unprompted, each one on its own initiative.
 That is the strongest signal this project produces, and it has been right every time.
+
+## And then it leaked through a field the allowlist keeps
+
+18 September 2026. The allowlist held against new note names, as designed. The leak
+came back anyway, through `profiel_konfig` — a field on the KEEP list, because it is
+supposed to name a measurement config.
+
+Writers had been writing sentences into it: which config the brief named, what the
+**specification** says about the budget basis, who decided a number and when. Twelve
+lessons across four subjects. A fact checker on Kwartaal 1 lesson 4 read one and said
+so — the fourth checker to raise this unprompted, each on its own initiative.
+
+`profiel_konfig` is now off the list. Asking the allowlist question properly answers
+it: a fact checker verifies claims against outside sources and has **no use for budget
+provenance at all**.
+
+**The general lesson, which is not the same as the last one.** An allowlist is only as
+good as the assumption that each kept field holds an *identifier* rather than prose.
+Names were the previous failure; field *types* are this one. When you keep a field,
+check it cannot carry a sentence — and if it can, either drop it or ask what the
+reader is entitled to see rather than what the field is nominally for.
+
+Four checkers, four costumes: the note itself, eleven other note names, and now a
+field nobody thought of as a note at all.
