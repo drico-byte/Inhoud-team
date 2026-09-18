@@ -40,3 +40,28 @@ the work and the *field* feels like bookkeeping.
 escalates anyway, or a writer says "the spec's core item still orders the old form".
 Both happened today. When a *writer* catches your bookkeeping, the bookkeeping is the
 problem.
+
+## Step 3 is harder than it reads: grep the CLAIM, not the wording
+
+The tenth instance, an hour after writing this note, slipped the sweep the note
+prescribes. I had withdrawn every wording I could remember using for a claim —
+"only for white people", "kept for white people", "in practice", "reserved" — and a
+checker found an eleventh entry saying first class was **"whites-only by railway
+practice rather than by law"**. Same claim, none of my words.
+
+**So step 3 is not "grep the old form's actual words".** It is:
+
+1. Write down the CLAIM in one sentence, as a proposition — *"that section had a
+   status"* — not as a phrasing.
+2. Grep for the claim's **subject matter** (here: `eersteklas`, `wit`, `blank`,
+   `reserveer`, `praktyk`), not for sentences you wrote.
+3. Read every hit and ask whether it asserts the proposition. Expect at least one
+   paraphrase you would not have predicted.
+
+A paraphrase is the dangerous kind, because it reads as new information rather than
+as the thing you already withdrew — "whites-only **by practice**" even looks like a
+correction of "whites-only", which is why it survived two sweeps.
+
+Related: [[n-regstelde-fout-kom-in-n-ander-gedaante-terug]] says to write down the
+false CONCLUSION rather than the false words. Same lesson, one level up: when
+sweeping, search for the conclusion too.
