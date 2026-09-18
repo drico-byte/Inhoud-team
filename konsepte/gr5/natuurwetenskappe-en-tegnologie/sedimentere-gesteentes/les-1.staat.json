@@ -1,9 +1,11 @@
 {
   "les": "gr5/natuurwetenskappe-en-tegnologie/sedimentere-gesteentes/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:72f4808d6e5e34337a6c21b10f51b607",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:5a5e62963fd397e6c006ccd20398b1f4",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:5a5e62963fd397e6c006ccd20398b1f4"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": "sha256:cb0e8c3f199268531267864dd8ba15ac",
@@ -161,9 +163,35 @@
       "woorde": 515,
       "begroting": 450,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:09:57+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5a5e62963fd397e6c006ccd20398b1f4",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-18T08:09:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 518,
+      "begroting": 450,
+      "failures": [
+        "Study text 518 words, above budget ceiling 518 (target 450) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T08:09:58+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 518 words, above budget ceiling 518 (target 450) — learners will revise the textbook instead"
+      ]
     }
   ],
-  "spek_hash": "sha256:1b8138667d716718db0aee05ab9e28c1",
+  "spek_hash": "sha256:1163918fde5386b72c5069b47936a4ea",
   "hek_konteks": {
     "graad": 5,
     "begroting": 450

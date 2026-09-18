@@ -1,9 +1,11 @@
 {
   "les": "gr5/natuurwetenskappe-en-tegnologie/geraamtes-as-strukture/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:ee7df13049ab9a5208d97dabe70ad6e5",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:b6c0c6db0158e6ac74799ce1ae365e2b",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:b6c0c6db0158e6ac74799ce1ae365e2b"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -124,9 +126,35 @@
       "woorde": 461,
       "begroting": 430,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:09:19+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b6c0c6db0158e6ac74799ce1ae365e2b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-18T08:09:20+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 460,
+      "begroting": 430,
+      "failures": [
+        "ELI10 layer: 0.4 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T08:09:20+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "ELI10 layer: 0.4 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
     }
   ],
-  "spek_hash": "sha256:c215023369a410f0a106d4830b4fcbfc",
+  "spek_hash": "sha256:fa2e7fcac62f30ccbd9075620d3e9ff9",
   "hek_konteks": {
     "graad": 5,
     "begroting": 430
