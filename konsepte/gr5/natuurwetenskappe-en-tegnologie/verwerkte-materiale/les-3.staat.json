@@ -1,9 +1,11 @@
 {
   "les": "gr5/natuurwetenskappe-en-tegnologie/verwerkte-materiale/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:8b9941b97f2b19d322bd18034e04567c",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:8943902b9e1d97d43f6b31cf667b0163",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:8943902b9e1d97d43f6b31cf667b0163"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -93,9 +95,35 @@
       "sound": true,
       "items": 39,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:23:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8943902b9e1d97d43f6b31cf667b0163",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-18T08:23:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 435,
+      "begroting": 360,
+      "failures": [
+        "Study text 435 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T08:23:34+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 435 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead"
+      ]
     }
   ],
-  "spek_hash": "sha256:ddd1d225cb86bb0c47b1a852ef9dc81d",
+  "spek_hash": "sha256:f541ea85317745e838bf92487dd4edbd",
   "hek_konteks": {
     "graad": 5,
     "begroting": 360
