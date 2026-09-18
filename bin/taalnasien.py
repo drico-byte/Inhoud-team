@@ -146,8 +146,18 @@ def spek_beskermde_woorde(les_pad):
     except Exception:
         return []
     uit = []
-    for inskrywing in (spek.get("beskermde_woorde") or []):
-        if inskrywing.get("hou"):
+    rou = spek.get("beskermde_woorde") or []
+    # Some planners wrote the field as {word: reason} instead of a list of
+    # {hou, nie, rede}. Iterating that dict gave bare strings and crashed, so the
+    # fuel lessons' protected words (hitte, never warmte) could not reach the
+    # language checker at all. Found 18 September 2026 building the Gr 5 batch.
+    if isinstance(rou, dict):
+        rou = [{"hou": k, "rede": v if isinstance(v, str) else json.dumps(v, ensure_ascii=False)}
+               for k, v in rou.items()]
+    for inskrywing in rou:
+        if isinstance(inskrywing, str):
+            inskrywing = {"hou": inskrywing}
+        if isinstance(inskrywing, dict) and inskrywing.get("hou"):
             uit.append(inskrywing)
     return uit
 
@@ -252,12 +262,12 @@ def bou(les_pad):
         reels.append("-" * 72)
 
     for w in woorde:
-        nie = ", ".join(w["nie"])
+        nie = ", ".join(w.get("nie") or [])
         reels.append("")
         reels.append(f"  HOU:  {w['hou']}")
         if nie:
             reels.append(f"  NIE:  {nie}")
-        reels.append(f"  Waarom: {w['rede']}")
+        reels.append(f"  Waarom: {w.get('rede') or ''}")
 
     for term, teks, waar in gedeel:
         reels.append("")
