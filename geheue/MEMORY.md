@@ -88,3 +88,6 @@
 - [The fact checker reads a stale draft](die-feitenasiener-lees-n-verouderde-konsep.md) — its stripped copy is only rewritten by a runner call, so two of four findings were about text corrected the evening before; the refresh script now covers it.
 - [The marker buries the order](die-merker-begrawe-die-bestelling.md) — set one line too high, a record marker leaves a spec field ordering nothing, and coverage cannot object; restate the order above it and say what the marker covers.
 - [Sweep the claim across every spec](vee-die-bewering-oor-al-die-spesifikasies.md) — a claim refuted in one sub-topic was alive in another that nothing connects to it; and a cosmetic spec edit costs a finished coverage check a re-run.
+- [Don't put the intent in a fact brief](moenie-die-bedoeling-in-die-feitebrief-se-nie.md) — I told the eli10 checker why 'buite om' was chosen; name what to test, never why the text is right.
+- [Frame vs shell is form](raam-teenoor-dop-is-vorm.md) — separate struts vs one load-bearing wall; I gave Drico inside/outside, which is endo vs exo and failed on ribcage and tortoise.
+- [Only what needs my eyes](net-wat-my-oe-nodig-het.md) — chat only for questions, decisions or real milestones; short; no running status.
