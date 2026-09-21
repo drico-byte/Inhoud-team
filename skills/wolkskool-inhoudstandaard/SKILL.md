@@ -351,6 +351,7 @@ Anchored on measured volume, never guessed, and then clamped into the grade's ba
 | Grade | Floor | Ceiling | Status |
 |---|---|---|---|
 | 4 | **350** | **450** | decided by Drico, 7 September 2026 |
+| 5 | **400** | **500** | decided by Lampies, 16 September 2026 — teaching lessons and reading pieces alike |
 | others | — | — | unbanded until decided the same way |
 
 **Why a band, when the budget is supposed to be a measurement.** The measurement was

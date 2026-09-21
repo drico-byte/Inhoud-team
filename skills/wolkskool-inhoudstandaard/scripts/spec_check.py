@@ -30,9 +30,12 @@ import argparse, json, re, sys
 # Grade 4 is also the first year learners write exams, which is Drico's own reason
 # for the ceiling: the amount a nine-year-old is expected to study is small.
 #
-# Only Grade 4 is banded. The other grades stay unbanded until someone decides them
-# the same way, rather than inheriting a number that was reasoned about Grade 4.
-LESBAND = {4: (350, 450)}
+# Grade 5 is banded at 400-500, decided by Lampies on 16 September 2026 ("since it's
+# grade 5"), for teaching lessons and reading pieces alike.
+#
+# The other grades stay unbanded until someone decides them the same way, rather than
+# inheriting a number that was reasoned about another grade.
+LESBAND = {4: (350, 450), 5: (400, 500)}
 
 AANVULLING_MAX_FRACTION = 0.25
 # Aanvulling is capped by budget share, but a spec states items, not words. Two

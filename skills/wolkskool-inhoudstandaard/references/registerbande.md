@@ -5,6 +5,7 @@
 | Grade | Floor | Ceiling |
 |---|---|---|
 | 4 | 350 | 450 |
+| 5 | 400 | 500 |
 
 Decided by Drico on 7 September 2026, after measuring the delivered Grade 4 lessons:
 they ran **169 to 811 study words**, seventeen of twenty-five over 450. Register and

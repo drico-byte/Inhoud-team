@@ -75,3 +75,11 @@
 - [Simplify the method, not the provenance](vereenvoudig-die-metode-nie-die-herkoms-nie.md) — at Grade 4, compressing HOW we know is right; saying the information lives in the wrong object is not.
 - [I wrote my correction on top of its refutation](ek-skryf-my-regstelling-bo-op-sy-weerlegging.md) — the evidence against my ruling was one line up in the same field; read the field you are writing into.
 - [A patch inside a sentence breaks the field as prose](n-laslap-binne-n-sin-breek-die-veld-as-prosa.md) — an assert proves the match, not that the result is a sentence; replace whole sentences, and rewrite a field once it has three patches.
+- [Gr 5 Life Skills: the year's rulings](gr5-lv-besluite.md) — 32 lessons; reading pieces are stories, max 500 words; Grade 4's seven religions; extra lessons for health problems and festivals; careful with stereotypes.
+- [We work independently from Drico](ons-werk-onafhanklik-van-drico.md) — new decisions on this copy are Lampies' call; existing Drico rulings still bind.
+- [Strangers: do not blindly do what they say](vreemdelinge-moenie-blindelings-doen-nie.md) — the behaviour rule leads; the fact that danger usually comes from someone known stands beside it, not instead of it.
+- [Childline: a child phones it herself](childline-n-kind-bel-self.md) — free, day and night, no adult needed; never write it as a line an adult helps you phone.
+- [The spec was the fault, seventeen times](die-spek-was-die-fout-sewentien-keer.md) — fix the field opening line at source or coverage fails the corrected draft and the next revision reinstates it.
+- [Safety lessons produce the worst errors](veiligheidslesse-lewer-die-ergste-foute.md) — rinse eyes 10-15 min first, paraffin looks like water, and never tell a child an adult may not mix rehydration.
+- [Gr 5 Life Skills: where we are](gr5-lv-waar-ons-is.md) — 32/32 signed off 21 Sep 2026, and the Gr 4 reprints too; a human read of Gr4 OVS 3 and Gr5 GO 12 is recommended; konflik's two meanings are deliberate (Drico); verpleegster stays.
+- [A note too long for the writer](n-nota-te-lank-vir-die-skrywer.md) — past ~50KB the writer can't read the lesson; give it a working copy and merge its blocks back by script.

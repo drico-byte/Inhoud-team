@@ -51,9 +51,13 @@ def lesse(wortel):
     and contributed no wording to it. The number was the damage. This tool
     prints that number precisely so a reader knows how wide the claim is, and a
     doubled scope is the same lie as a narrow sweep reported as a clean one.
+
+    The fact checker's `feite-kopie/` did it again on 21 September 2026: 64
+    where 32 lessons existed. That copy DOES carry `blokke`, so every drifted
+    wording was listed twice as well. Both directories are skipped.
     """
     for gids, _, lers in os.walk(wortel):
-        if os.path.basename(gids) == "spek":
+        if os.path.basename(gids) in ("spek", "feite-kopie"):
             continue
         for naam in sorted(lers):
             if LES_NAAM.fullmatch(naam):

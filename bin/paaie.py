@@ -166,14 +166,25 @@ def skryf_feitekopie(les_pad):
     """
     les = lees_json(les_pad)
     h = les.get("herkoms")
-    if isinstance(h, dict) and "nota" in h:
-        h = dict(h)
-        del h["nota"]
-        h["nota_weerhou"] = ("Die herkoms-nota is uit hierdie kopie weerhou. Dit dra die skrywer se "
-                             "redenasie en die spesifikasie se vereistes, en die feitenasiener moet "
-                             "beoordeel wat die les SE, nie wat dit bedoel het nie. Niks is uit die "
-                             "lesinhoud verwyder nie.")
-        les = dict(les, herkoms=h)
+    if isinstance(h, dict):
+        # A WHITELIST, NOT A BLACKLIST. This stripped only herkoms["nota"] by name
+        # until 19 September 2026, when a fact checker reported that it had read the
+        # writer's full revision reasoning anyway: revisions record theirs in
+        # herkoms["hersiening_nota"], which no rule named, so every revised lesson
+        # leaked - and a revised lesson is exactly the one whose check must be honest.
+        # Naming fields to remove loses to the next field name a writer invents, so
+        # only these provenance facts survive into the copy; anything else is withheld.
+        behou = ("kaps_dokument", "kaps_punt", "kaps_besluitleer", "profiel_konfig",
+                 "skrywer_prompt", "beplanner_prompt", "skema_weergawe", "handboek_gesien",
+                 "handboek_nota")
+        weerhou = sorted(k for k in h if k not in behou)
+        if weerhou:
+            h = {k: v for k, v in h.items() if k in behou}
+            h["nota_weerhou"] = ("Die skrywer se notas is uit hierdie kopie weerhou. Hulle dra sy "
+                                 "redenasie en die spesifikasie se vereistes, en die feitenasiener moet "
+                                 "beoordeel wat die les SE, nie wat dit bedoel het nie. Niks is uit die "
+                                 "lesinhoud verwyder nie.")
+            les = dict(les, herkoms=h)
     pad = feitekopie(les_pad)
     skryf_json(pad, les)
     return pad
