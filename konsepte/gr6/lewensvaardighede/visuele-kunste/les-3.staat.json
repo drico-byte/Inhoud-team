@@ -1,0 +1,126 @@
+{
+  "les": "gr6/lewensvaardighede/visuele-kunste/les-3",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:beef5f74f9279ff783fa74e2a315dd77",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:8a11b9975b8e50eec4b20522f8d7d0dd"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-22T11:11:27+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2bfa78325a9fb5172ee83aa048bdc7f6",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-22T11:11:27+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 435,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T11:19:07+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8a11b9975b8e50eec4b20522f8d7d0dd",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-22T11:19:07+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 453,
+      "begroting": 380,
+      "failures": [
+        "Study text 453 words, above budget ceiling 437 (target 380) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T11:19:07+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 453 words, above budget ceiling 437 (target 380) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T11:20:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f244f9350f8ce592f3a16f867bcf43af",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-22T11:20:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 427,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T11:25:45+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:beef5f74f9279ff783fa74e2a315dd77",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-22T11:25:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 427,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T11:29:07+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T11:29:07+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 27,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T11:29:07+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T11:29:08+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 27,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T11:29:08+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\visuele-kunste\\les-3.json",
+      "konsep_hash": "sha256:beef5f74f9279ff783fa74e2a315dd77",
+      "vervang": false
+    }
+  ],
+  "spek_hash": "sha256:ea8f36cf977b020ce8f7b9ea7e8d9caf",
+  "hek_konteks": {
+    "graad": 6,
+    "begroting": 380
+  }
+}

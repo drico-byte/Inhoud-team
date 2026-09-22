@@ -107,3 +107,5 @@
 - [Gr 5 Creative Arts](gr5-skeppende-kunste.md) — 8 lessons 22 Sep 2026; Grade 5 corrected four Grade 4 wordings; Grade 4 reprint question open.
 - [PDFs are checked on creation](pdf-word-by-skepping-nagegaan.md) — Drico: never text over text; overlap and raw-code boxes now refuse the PDF; 14 broken Life Skills copies were rebuilt.
 - [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — 25/26 signed off 22 Sep 2026; lesson 25 waits on Drico (28 days vs 27.3); planet/oxygen wordings changed after fact checks.
+- [Creative Arts: content only](skeppende-kunste-net-inhoud.md) — Grades 4-6: theory hours only, practical work not in the lessons for now.
+- [Gr 6 Creative Arts](gr6-skeppende-kunste.md) — 8/8 signed off 22 Sep 2026; straalvormige balans; vorm/patroon for Gr 4-5 still to raise with Lampies.

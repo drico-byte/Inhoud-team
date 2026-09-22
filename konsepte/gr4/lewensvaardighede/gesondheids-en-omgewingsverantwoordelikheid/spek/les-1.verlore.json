@@ -1,0 +1,237 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Lewensvaardighede",
+  "graad": 4,
+  "kwartaal": 3,
+  "kwartaal_nota": "Hierdie onderwerp loop oor TWEE kwartale. KABV plaas 'Gevare in en om water' (les 1 en les 2 hier) heel laaste in Kwartaal 3, en die res van die onderwerp - verkeer, higiene, omgewing, MIV en VIGS - in Kwartaal 4. Die skema laat net een heelgetal toe, dus staan 4 hier omdat agt van die tien lesse daar val. Elke les dra sy eie 'kwartaal'-veld met die regte kwartaal. Moenie lesse 1 en 2 as Kwartaal 4-werk hanteer nie: hulle word in Kwartaal 3 onderrig en die Kwartaal 3-assessering sluit hulle in.",
+  "kaps_onderwerp": "Persoonlike en Sosiale Welsyn",
+  "kaps_subonderwerp": "Gesondheids- en omgewingsverantwoordelikheid",
+  "kaps_ure": 15,
+  "kaps_ure_nota": "Slegs inligting. Kontakure word nooit in begrotingsrekenkunde gebruik nie, en hier nog minder as elders: KABV se ure vir hierdie onderwerp is grootliks vir gesprek, rolspel, plakkate, 'n boom wat geplant word en 'n projek. Die 15 uur is die som van vyf KABV-toekennings: 3 uur vir gevare in en om water (Kwartaal 3), en dan 1 en 'n half uur vir verkeersreels, 3 uur vir higiene en eetgewoontes, 4 en 'n half uur vir omgewingsbewaring en 3 uur vir MIV en VIGS (Kwartaal 4). LET OP hoe sleg ure met woorde ooreenstem hier: omgewingsbewaring kry drie keer soveel tyd as verkeersreels, maar albei is een les van 450 woorde. Wie ure na woorde omreken, kry 'n heeltemal ander plan.",
+  "fokusvraag": "Hoe hou ek myself veilig en gesond, en hoe sorg ek vir die plek waarin ek woon?",
+  "fokusvraag_nota": "Deur die beplanner gestel. KABV Lewensvaardighede stel nie fokusvrae soos Sosiale Wetenskappe nie; die vraag is 'n beplanningsinstrument sodat elke les 'n toetsbare deel dra en geen les die hele tema hoef te dra nie. Die vraag is doelbewus in twee helftes gestel wat presies op die onderwerp se eie naam val: 'gesondheid' en 'omgewing'. Die vyf inhoudslesse dra elk een deel (water, pad, higiene en eet, omgewing, MIV en VIGS) en elke leesstuk dra dieselfde deel as die inhoudsles voor hom, maar as 'n teks wat gelees word eerder as 'n verduideliking. Geen les dra meer as sy eie deel nie.",
+  "profiel_konfig": "gr4-lv-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "DIE NUL IS NIE 'N METING NIE, EN DIT IS OOK NIE 'N GAPING NIE. Dit is 'n besluit. profiele/gr4-lv-profiel.json teken uitdruklik geen volumemeting vir enige PSW-subonderwerp aan nie: 'bladsye' is leeg, 'woorde' is nul en 'handmatig_afgebaken' is 'n meganiese gevolg van 'n lee reeks, nie 'n aanduiding dat iemand bladsye gekarteer het nie. Die enigste syfer in daardie leer wat op die bron rus, is die registersteekproef, en die word hieronder gebruik. Moenie hierdie nul deel nie, moenie dit as 'n gemete volume aanhaal nie, en moenie dit as die anker behandel nie - sien begroting_basis_nota.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "450 woorde vir ELKE les, inhoudslesse sowel as leesstukke, altesaam 4 500. Drico het die getal op 1 September 2026 vasgestel nadat hy die geboude NWT-bladsye gelees het; hy het 350 oorweeg en na 450 teruggekeer. Dit is dus 'n vereistes-basis en nie 'n handboekmeting nie: daar is vir hierdie vak geen gemete volume nie, dus is 'gemete_volume' onbruikbaar en sou gelyke verdeling van 'n nul betekenisloos wees. Die 4 500 is NIE 'n meting nie en moet nerens as een aangehaal word nie. LET WEL dat gelykheid hier NIE uit rekenkunde kom nie maar uit Drico se besluit: hy het een getal vir die hele vak gekies (met die godsdiensles as die enigste uitsondering, en die val nie onder hierdie onderwerp nie). Die getal word nie hier heropen nie, ook nie waar 'n les swaarder gelaai is as 'n ander nie - les 7 dra vier KABV-subpunte in dieselfde 450 woorde as les 3 se drie, en die regstelling daarvoor is enger bestek, nie meer woorde nie. Die hek meet elke les teen 450 met die gewone toleransie van 15 persent, dus 383 tot 518.",
+  "totale_begroting": 4500,
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument Lewensvaardighede Graad 4-6 (PDF-bladsye 22 tot 25, wat die Graad 4 PSW-jaarplan is; hierdie onderwerp se inhoud staan op PDF-bladsy 24 vir Kwartaal 3 se water-afdeling en op PDF-bladsy 25 vir die hele Kwartaal 4), die beslissingsleer kaps/gr4-lv-psw.json in sy geheel, die reeds beslisde bewoording in kaps/gedeelde-omskrywings.json, en die profiler se getalle in profiele/gr4-lv-profiel.json. Uit die profiel is net die registersteekproef bruikbaar; daar is geen volumemeting nie en dit is 'n besluit.",
+    "handboek_nota": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset, bladsybeeld of beskrywing van 'n handboek se eie indeling het enige deel van hierdie beplanning ingelig, en niks van die aard is aangebied nie. Die profiel dra geen bladsyreekse vir hierdie subonderwerp nie, dus was daar ook geen afdelingsvolgorde wat per ongeluk as struktuurleiding kon dien nie. Die verdeling in tien lesse kom van KABV se eie vyf inhoudsopskrifte met hulle vyf voorgeskrewe leesstukke, en van Drico se jaarplan van 1 September 2026.",
+    "vorige_vak_nota": "Hierdie is die eerste Lewensvaardighede-spesifikasie in die pyplyn. Twee dinge kom uit 'n ander vak en word nie hier oorgedoen nie: die woord 'kieme' se omskrywing (sien gedeelde_omskrywings hieronder) en die beslissing dat kieme by Graad 4 lewend is (geheue/kieme-is-lewend-kaps-het-besluit.md)."
+  },
+  "verdeling_nota": "Tien lesse: vyf inhoudslesse en vyf leesstukke, afwisselend, in KABV se eie volgorde. Dit is nie 'n keuse nie en dit word nie hier heroorweeg nie. KABV dra vyf inhoudsopskrifte onder hierdie onderwerp (gevare in en om water; verkeersreels; persoonlike en huishoudelike higiene saam met kinders se eetgewoontes; omgewingsbewaring en persoonlike gesondheid; MIV en VIGS), en onder ELKE een staan 'Weeklikse lees deur leerders: lees vir genot' met die onderwerp van daardie lees by die naam genoem. Die leesstukke is dus verpligte KABV-inhoud en nie 'n toevoeging nie. Geen skeur- of saamvoegreel is toegepas nie, met een uitsondering wat KABV self maak: les 5 dra TWEE KABV-items (higiene en eetgewoontes) omdat KABV hulle onder een opskrif met een tydtoekenning plaas en die eetgewoontes uitdruklik aan tand- en mondhigiene bind. Sien kaps/gr4-lv-psw.json, 'les_23_kombineer_twee'.",
+  "leesstukke_nota": "DIE HELFTE VAN HIERDIE LESSE IS LEESSTUKKE EN HULLE WORD ANDERS GESKRYF. 'n Leesstuk-les dra sy volume in blokke van tipe 'leesstuk': een aaneenlopende teks wat die leerder LEES, nie 'n verduideliking van 'n begrip nie. Sien die inhoudstandaard, 'When the lesson is a text to be read', en references/skema.md se leesstuk-afdeling. Wat NIE geld nie: geen eli10-blok, geen verpligte woordelys, en die chunking-riglyn (3 tot 10 blokke, 30 tot 110 woorde elk) geld nie, want 'n aaneenlopende teks in stukke meet, meet dit as die verkeerde soort ding. Wat WEL geld, presies soos oral: die begroting van 450 woorde, die registerband vir Graad 4 tot 6 (ook die VLOER daarvan - 'n storie val net so vinnig in brokstukke as 'n verduideliking), en die feitekontrole. 'n Leesstuk is nie 'n vrye ruimte nie: elke bewering daarin word nagegaan soos enige ander. Elke les hieronder dra 'n 'lessoort'-veld en dit is die eerste ding wat 'n skrywer moet lees.",
+  "lesnommer_nota": "Die nommers 1 tot 10 in hierdie leer is die volgorde BINNE die onderwerp, soos die skema vra. Drico se lesindeks loop deur die hele jaar (29 lesse in PSW Graad 4). LET OP 'N VERSKIL WAT HY MOET NAGAAN: 'n telling uit KABV se eie tabelle gee Kwartaal 1 se ses lesse (1 tot 6), Kwartaal 2 se agt (7 tot 14, met afknouery op 11, wat met kaps/gr4-lv-psw.json ooreenstem), Kwartaal 3 se sewe (15 tot 21, waarvan die godsdiens-inhoud in twee verdeel) en Kwartaal 4 se agt (22 tot 29). Dit gee 29 in totaal, wat klop, maar dit plaas die higiene-les op 24 en die MIV-les op 28, terwyl kaps/gr4-lv-psw.json hulle 'les 23' en 'les 27' noem. Die verskil is presies een les en dit lyk na 'n telverskil oor die godsdiensles se leesstuk. Daarom word geen lesindeks_nommer hier aangeteken nie; Drico vul dit uit sy termynplan in.",
+  "gedeelde_omskrywings": {
+    "nota": "kaps/gedeelde-omskrywings-lewensvaardighede-gr4.json is nog leeg en dit is volgens plan: die gedeelde terme vir hierdie vak word eers vasgestel wanneer al die lesse in konsep is. Wat hier volg, is die EEN term wat reeds elders beslis is en wat hierdie onderwerp gaan gebruik.",
+    "kieme": {
+      "omskrywing": "Baie klein lewende dinge wat 'n mens siek kan maak.",
+      "reel": "WOORD VIR WOORD SO, sonder 'n enkele verandering, in elke woordelys in hierdie onderwerp wat die term dra. Dit is nie 'n voorstel nie. Die omskrywing is in Natuurwetenskappe Graad 4 beslis, dit staan so in 'n reeds afgelewerde les, en 'n tweede vak mag dit nie anders stel nie: 'n leerder wat die woord in Natuurwetenskappe en weer in Lewensvaardighede naslaan, moet een antwoord kry. Moenie dit 'ryker' maak nie en moenie dit 'beter' formuleer nie.",
+      "waar_dit_gebruik_word": "Les 5 in die eerste plek - KABV se eie woorde daar is 'Areas in die huis waar kieme uitbroei'. Les 7 en les 9 raak dit ook aan.",
+      "kieme_is_lewend": "Beslis op 2026-08-19 en dit word by Graad 4 NIE heropen nie: kieme is lewende dinge wat te klein is om te sien, want KABV instrueer dit self ('Maak seker dat leerders verstaan dat kieme ook lewendig is maar te klein is om met die blote oog te sien'). 'n Feitenasiener wat die virus-vraag oopmaak, kry hierdie inskrywing as antwoord. TWEE dinge volg daaruit: (1) moenie na 'bakteriee' of 'mikrobes' oorskakel nie - 'kieme' is die vak se woord en dit staan in kaps/beskermde-woorde.json; (2) moenie 'n UNIVERSELE bewering oor kieme maak nie. 'Baie kieme groei vinnig waar dit warm en nat is' is waar; 'elke kiem doen dit' is nie. UITSONDERING, BESLIS DEUR DRICO OP 2 SEPTEMBER 2026: dit geld vir kieme in die algemeen, maar NIE vir MIV nie. MIV word 'n VIRUS genoem, nie 'n kiem nie, want die feitetoets het bevind die biologie steun nie dat 'n virus lewend is nie - en die kieme-omskrywing se kieme is lewend. Kieme bly onveranderd reg in les 5, les 6 en les 7, en in les 9 se sinne oor kieme in die algemeen."
+    }
+  },
+  "registerbesluit": {
+    "band_graad_4_tot_6": {
+      "woorde_per_sin": "11,0 tot 14,5",
+      "sillabes_per_woord_maks": 1.52,
+      "pct_3plus_sillabes_maks": 13.0,
+      "pct_woorde_oor_10_letters_riglyn": 3.0
+    },
+    "bron_steekproef": {
+      "woorde_gemeet": 8904,
+      "sillabes_per_woord": 1.5,
+      "pct_3plus_sillabes": 11.5,
+      "pct_woorde_oor_10_letters": 4.4
+    },
+    "bevinding": "Die bron loop op sillabes en op lang woorde per sillabe BINNE die band, maar sy lang woorde is 4,4 persent teenoor die hek se riglyn van 3,0. Dit is nie 'n bron wat swaar skryf nie - dit is die vak se eie woordeskat. 'verantwoordelikheid', 'veiligheidsmaatreels', 'omgewingsbewaring', 'verkeersreels', 'padgebruikers', 'besoedeling', 'stortingsterreine' en 'eetgewoontes' is almal KABV se eie woorde en almal oor tien letters. Die hek waarsku daaroor eerder as om te faal, maar die waarskuwing gaan by elke les in hierdie onderwerp kom as niemand daarvoor beplan nie. Die plan is die woordkeuse-lys hieronder: noem KABV se lang woord EEN keer waar dit genoem moet word, en skryf daarna die kort weergawe.",
+    "instruksies": [
+      "Skryf 'reels wat jou veilig hou' waar KABV 'verantwoordelike veiligheidsmaatreels' skryf. Die KABV-frase is 19 en 20 letters en verklaar niks.",
+      "Skryf 'mense wat die pad gebruik' of eenvoudig 'jy' waar KABV 'padgebruikers' skryf (13 letters). Noem 'verkeersreels' een keer as die naam van die ding en skryf daarna 'die reels op die pad'.",
+      "Skryf 'wat en hoe kinders eet' waar KABV 'eetgewoontes' skryf (12 letters). Noem KABV se woord hoogstens een keer.",
+      "Skryf 'gaatjies in die tande', nooit 'tandbederf' (10) of 'tandkaries' nie.",
+      "'besoedeling' is KABV se eie woord en bly, maar gebruik dit spaarsaam: 'vuil lug, vuil water en vuil grond' se dieselfde ding in kort woorde en is boonop konkreet.",
+      "'onwettige stortingsterreine' is KABV se eie term. Noem dit een keer en skryf daarna 'plekke waar mense vullis gooi waar dit nie hoort nie'.",
+      "MOENIE 'immuunstelsel' skryf nie (13 letters, en dit verklaar niks vir 'n negejarige). Skryf 'die liggaam se afweer teen siekte'.",
+      "MOENIE die letters MIV en VIGS uitskryf nie. Die volle name is 'n paar van die langste woorde in Afrikaans, hulle leer niks vir 'n negejarige en KABV self gebruik net die letters.",
+      "'higiene' self is kort genoeg (7 letters) en is KABV se woord. Hou dit, met 'n begrip-inskrywing.",
+      "Onthou die VLOER van die band, ook in die leesstukke. Die verleiding by 'n veiligheidsles is om in kort bevele te verval ('Moenie hardloop nie. Kyk regs. Kyk links.'). Dit val onder 11 woorde per sin en dit lees soos 'n plakkaat, nie soos 'n les nie. Een idee per sin, in 'n volledige sin."
+    ]
+  },
+  "woordkeuse": {
+    "nota": "Die gevaarlikste woorde in hierdie onderwerp is kort en die hek sal nie een van hulle sien nie. Die hek meet hoe lank 'n woord is, nooit of 'n negejarige dit ken nie.",
+    "kort_woorde_wat_verklaar_moet_word": [
+      "stroom (6 letters) - die water wat in 'n rivier trek. Byna seker onbekend as 'n gevaar. Begrip-inskrywing in les 1.",
+      "vlak (4) en diep - klink bekend, maar 'vlak water is ook gevaarlik' is die hele punt van les 1 se huis-gedeelte en moet uitgeskryf word.",
+      "sebrapad (8) - baie kinders ken die strepe sonder die naam. Begrip-inskrywing in les 3.",
+      "passasier (9) - KABV se eie woord ('passasiersgedrag'). Begrip-inskrywing in les 3.",
+      "plaak (5) - as die skrywer dit gebruik, kry dit 'n begrip-inskrywing: die sagte kleefstof wat op tande vorm. Anders skryf net 'die kleefstof op jou tande'.",
+      "vadoek (6) - die kombuislap. Dit is een van KABV se 'areas waar kieme uitbroei' en die woord verskil van huis tot huis; beskryf dit langs die naam.",
+      "kompos (6) - begrip-inskrywing in les 7 as dit gebruik word.",
+      "MIV en VIGS - vier letters elk en die twee moeilikste 'woorde' in die hele onderwerp. Albei kry 'n begrip-inskrywing in les 9, en die twee inskrywings moet van mekaar VERSKIL: hulle is nie dieselfde ding nie."
+    ],
+    "vermy_of_vervang": [
+      {
+        "woord": "robot",
+        "reel": "Skryf 'verkeerslig'. 'robot' is wydverspreide Suid-Afrikaanse Afrikaans en die huisreel se kies die alledaagse woord, maar dit is streeksgebonde en 'n Graad 4-leser elders ken dit dalk nie. Die les mag EEN keer se dat baie mense dit 'n robot noem. Sien taalnasien_kandidate."
+      },
+      {
+        "woord": "verdrink",
+        "reel": "Die woord is nodig en bly. Wat NIE mag nie, is 'n beskrywing van hoe 'n mens verdrink of van 'n kind wat sterf. Sien les 1 se feiterisiko."
+      },
+      {
+        "woord": "vuil, smerig, morsig (vir mense)",
+        "reel": "Hierdie woorde beskryf water, lug, grond en oppervlakke. Hulle beskryf NOOIT 'n kind, 'n gesin of 'n huis nie. Baie leerders het nie 'n kraan in die huis, 'n toilet binne of 'n vullisdiens nie, en 'n higieneles wat klink of skoonheid 'n keuse is, gee daardie kind 'n boodskap wat KABV nie vra nie."
+      },
+      {
+        "woord": "MIV-lyer, slagoffer, besmette persoon, 'skoon' of 'vuil' bloed",
+        "reel": "VERBODE, sonder uitsondering. Skryf 'mense wat met MIV leef'. Sien les 9 en les 10 se feiterisiko - dit is die helfte van wat daardie lesse moet bereik."
+      },
+      {
+        "woord": "virus (nie meer vermy nie - sien reel)",
+        "reel": "HERROEP OP 2 SEPTEMBER 2026 DEUR DRICO. Die ou reel was: moenie 'virus' langs 'kieme' invoer nie, MIV word 'n kiem genoem. Dit geld NIE meer nie. MIV IS 'N VIRUS en les 9 en les 10 se dit so, met 'n eie begrip-inskrywing wat doelbewus NIE 'lewende' se nie. Rede: die vak se kieme-omskrywing se kieme is lewende dingetjies, en die biologie steun nie dat 'n virus lewend is nie. 'kieme' bly die regte woord oral waar dit oor kieme in die algemeen gaan - moenie 'n algehele soek-en-vervang doen nie."
+      },
+      {
+        "woord": "gestremd, normaal, gesonde mense (as teenoorgestelde van mense met MIV)",
+        "reel": "Nie 'n kontras wat hierdie les trek nie. Mense wat met MIV leef en hulle medisyne kry, is gesonde mense."
+      }
+    ]
+  },
+  "taalnasien_kandidate": {
+    "nota": "Woorde in hierdie onderwerp waar 'n beslissing stilweg ongedaan gemaak sal word deur die Afrikaanse taalnasiener, wat buite hierdie pyplyn loop. Die beplanner skryf nie aan kaps/beskermde-woorde.json nie; hierdie lys is vir Drico om te bevestig en dan in daardie leer te sit, met die rede by elkeen.",
+    "woorde": [
+      "kieme - staan reeds in kaps/beskermde-woorde.json en mag nie 'bakteriee' of 'mikrobes' word nie.",
+      "MIV en VIGS - mag nie uitgeskryf, vertaal of na 'HIV' en 'AIDS' verander word nie. KABV gebruik die Afrikaanse letters.",
+      "verkeerslig - 'n nasiener wat Suid-Afrikaanse Afrikaans natuurlik wil laat lees, sal dit dalk na 'robot' verander. Die keuse hier is doelbewus.",
+      "mense wat met MIV leef - 'n nasiener kan dit na 'MIV-lyers' of 'MIV-positiewe mense' verkort omdat dit gladder lees. Dit is presies wat nie mag nie.",
+      "higiene - moet nie 'higieniese gewoontes' of 'sindelikheid' word nie; dit is KABV se eie woord."
+    ]
+  },
+  "geen_vrae": "Geen les in hierdie onderwerp dra vrae nie, ook nie 'n leesstuk nie. Waar 'n vraag vroeer die BEWYS vir 'n bewering sou gedra het, staan daardie bewys nou in die studieteks. Dit raak les 1 die meeste: die bewys dat water gevaarlik is, is nie 'n waarskuwing nie maar die waarneembare feit dat 'n mens onder water nie kan roep nie en dat 'n klein kind in water so vlak soos 'n emmer kan verdrink.",
+  "buite_bestek": [
+    "Enige praktiese aktiwiteit self: die plakkaat, die rolspel, die boom wat geplant word, die skoonmaakveldtog, die klasbespreking en die projek. Die KENNIS wat hulle veronderstel, is kern; die doen daarvan gebeur in die klas en langs die teks. Die dekkingsnasiener moet die doen NIE as ontbrekend aanteken nie.",
+    "Noodhulp en hersteltegniek bly buite bestek: geen les mag 'n kind leer hoe om asemhaling te herstel, hoe om 'n wond te behandel of hoe om 'n beseerde mens te beweeg nie. REGGEMAAK 2026-09-03. Die ou reel het OOK gese geen les mag 'n kind leer hoe om iemand uit water te haal nie, en dat die enigste roete deur al vyf inhoudslesse is om 'n grootmens te roep. DAARDIE HELFTE WAS VERKEERD, en 'n feitetoets het dit uitgewys. Reik-gooi-moenie-gaan is juis wat kinders geleer word: die Rooi Kruis se kinderreeks leer dit, en die NSRI se WaterWise-program leer Suid-Afrikaanse kinders spesifiek om 'n stok, 'n tou en 'n bottel saam te dra vir presies hierdie doel. WAT WEL GELD: 'n kind gaan NOOIT self in die water nie, roep eers 'n grootmens, en reik of gooi van droe grond af. Dit is nie reddingstegniek nie - dit is die reel wat keer dat die kind die tweede slagoffer word, en die navorsing dra dit: 86 redders het tussen 1992 en 2007 in Australie verdrink, en in 93% van daardie voorvalle het die kind oorleef. Hierdie regstelling is 'n herinnering dat 'n spesifikasie self nooit nagegaan word nie - sien geheue/spesifikasies-word-nooit-nagegaan.md.",
+    "Statistiek. Geen getal oor hoeveel kinders verdrink, hoeveel mense in ongelukke sterf, hoeveel mense met MIV leef, of hoeveel vullis 'n stad maak. Nie een van hulle is deur KABV gevra en almal is duur om na te gaan en gou verouderd.",
+    "Die wet as die wet. Waar 'n reel ook 'n wet is (sitplekgordels, kindersitplekke, swembadheinings, valhelms), skryf die VEILIGE gedrag en nie 'die wet se' nie, tensy dit geverifieer is. 'n Verkeerde regsbewering in 'n Graad 4-boek is 'n duur fout en KABV vra nerens die reg nie.",
+    "Seksuele oordrag van MIV, oordrag van moeder na baba, en borsvoeding. KABV bind Graad 4 se MIV-inhoud uitdruklik aan BLOED ('basiese feite wat bloedbestuur insluit'). Dit is 'n leerplangrens en nie 'n feitegrens nie - sien les 9 se kern 5 vir die een sin wat die les eerlik hou sonder om die grens oor te steek.",
+    "Toetsing vir MIV, medisyne se name, hoe die medisyne werk, en enige beskrywing van hoe 'n mens met VIGS lyk. Die laaste een is die wortel van stigma en boonop onwaar.",
+    "Dwelms, alkohol en rook. Nie in hierdie onderwerp se KABV-inhoud by Graad 4 nie, ook nie as 'n terloopse sin by die gesondheidslesse nie.",
+    "Klimaatsverandering as 'n onderwerp. KABV se punt is besoedeling en die omgewing waarin die kind woon. 'n Les wat by die aarde se klimaat uitkom, het sy eie 450 woorde opgeeet en die kind se eie straat nooit bereik nie."
+  ],
+  "sensitiewe_inhoud": {
+    "nota": "Drie van hierdie tien lesse raak aan iets waar 'n kind in die klas self die geval kan wees. Dit is nie 'n rede om die inhoud te versag nie; dit is 'n rede om dit presies te skryf.",
+    "reels": [
+      "MIV (les 9 en les 10): daar sit waarskynlik 'n leerder in die klas wat met MIV leef of wat 'n ouer of 'n broer of suster het wat daarmee leef. Elke sin word geskryf asof sy dit lees, want sy lees dit.",
+      "Higiene (les 5): skryf so dat 'n kind sonder 'n kraan, sonder 'n binnetoilet of sonder 'n eie tandeborsel die les kan doen. 'Was jou hande met seep en water' werk met 'n beker water; 'maak die kraan toe terwyl jy seep' veronderstel 'n kraan.",
+      "Omgewing (les 7): onwettige stortingsterreine en vullis in die straat is nie 'n fout wat arm mense maak nie. Skryf oor die plek en die gevaar, nooit oor watter soort mense daar woon nie.",
+      "Water (les 1) en verkeer (les 3): party leerders het al iemand in 'n ongeluk of in water verloor. Die les mag nie 'n dood beskryf of naspeel nie."
+    ]
+  },
+  "skryfnota": "Vier dinge kan hierdie tien lesse laat misluk en al vier is vooraf hanteerbaar. EERSTENS die soort les: die helfte hiervan is leesstukke, en 'n skrywer wat 'n leesstuk soos 'n inhoudsles skryf, lewer 'n tweede verduideliking met 'n storie-titel. Lees 'lessoort' voordat enigiets anders gelees word. TWEEDENS die kant van die pad: Suid-Afrika ry links, dus kyk 'n voetganger EERSTE na regs, loop hy waar daar geen sypaadjie is nie aan die REGTERKANT teen die verkeer in, en ry 'n fietsryer aan die LINKERKANT saam met die verkeer. Die meeste bronne op die internet is vir regsryende lande geskryf en dit is die maklikste ernstige fout in hierdie hele onderwerp om te maak. DERDENS die helfte wat stigma keer: KABV se 'Hoe MIV nie oorgedra kan word nie' is nie 'n byvoegsel by die oordrag-punt nie, dit is die punt wat die les die moeite werd maak. Dit het sy eie kern-inskrywing in les 9 en sy eie plek in les 10, en niemand snoei dit later omdat die begroting druk nie. VIERDENS die suiker: die meganisme is kieme op die tande wat suur maak uit die suiker, en die suur wat aan die tand vreet. 'Suiker vreet gate in jou tande' is die maklike sin en dit is verkeerd. Hierdie onderwerp is boonop die feitelikste in die hele vak - water, verkeer, higiene en MIV is alles teen bronne toetsbaar - dus gaan die feitenasiener hier werklike werk he, en elke les se feiterisiko is vir hom geskryf sowel as vir die skrywer.",
+  "lessoort_nota": "INHOUDSLES. Studieblokke, 'n woordelys, geen vrae. Nie 'n leesstuk nie.",
+  "vak_gedeelde_omskrywings": {
+    "nota": "Een bewoording per term, vir die hele vak en die hele graadjaar. Dieselfde twee beslissings as Natuurwetenskappe en Sosiale Wetenskappe geld hier (Drico, 28 Augustus 2026): (1) 'n term wat in meer as een woordelys verskyn, moet WOORD VIR WOORD identies wees, want die eindeksamen dek alles en 'n leerder wat 'n woord in twee lesse naslaan, moet een antwoord kry; (2) die VOORBEELDE NA 'soos' mag wel per les verskil - wat identies moet wees, is die romp van die sin. 'n Omskrywing mag ook nie ryker word soos die jaar vorder nie: kies altyd die beste bewoording, nie die nuutste nie.",
+    "terme": {
+      "kieme": "Baie klein lewende dinge wat 'n mens siek kan maak.",
+      "afknouery": "Aspris seermaak wat oor en oor gebeur, deur 'n ander kind of 'n groep kinders met meer mag.",
+      "tempel": "'n Gebou waar Hindoes, Boeddhiste en mense van party ander gelowe aanbid.",
+      "toonhoogte": "Hoe hoog of hoe laag 'n klank is.",
+      "volume": "Hoe hard of hoe sag 'n klank is.",
+      "slaginstrument": "'n Instrument wat klank maak as jy dit slaan, skud of skraap.",
+      "familie": "'n Groep instrumente wat saamgegroepeer word volgens die manier waarop hulle klank maak.",
+      "ngoma": "Die grootste en diepste trom wat die VhaVenda gebruik, met beesvel oor uitgeholde hout.",
+      "hosho": "'n Kalbasratel van Zimbabwe met sade binne, in pare geskud.",
+      "gebare": "Bewegings van die hande, kop of arms wat iets sê.",
+      "kunselemente": "Die dele waaruit 'n prent gemaak is, soos lyn, vorm en kleur.",
+      "ontwerpbeginsel": "'n Manier waarop die dele van 'n prent saamgesit word.",
+      "lyn": "'n Rand of merk wat jou oog van punt tot punt lei.",
+      "vorm": "Die plat area wat 'n lyn omsluit wanneer dit toemaak.",
+      "tekstuur": "Hoe 'n oppervlak lyk asof dit sou voel as jy dit aanraak.",
+      "kontras": "'n Duidelike verskil tussen twee dinge wat langs mekaar staan.",
+      "verhouding": "Hoe groot een deel van 'n ding is in vergelyking met die res daarvan.",
+      "kleurwiel": "'n Ronde rangskikking waarin kunstenaars die kleure in volgorde plaas.",
+      "verwante kleure": "Verskillende kleure wat langs mekaar op die kleurwiel lê.",
+      "sekondêre kleur": "'n Kleur wat jy uit twee primêre verfkleure in gelyke dele meng.",
+      "primêre kleure": "Die drie verfkleure - rooi, geel en blou - waarmee kunstenaars begin as hulle ander kleure meng.",
+      "konflik": null,
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "medisyne": "'n Middel wat help om siekte of pyn te behandel, of om te keer dat 'n mens siek word.",
+      "voorouers": "Die mense in jou familie van wie jy afstam en wat reeds oorlede is, soos 'n ouma of oupa wat al gesterf het.",
+      "impepho": "'n Geurige plant wat mense brand om hul voorouers nader te roep en met hulle te praat.",
+      "middel": "Iets anders as kos en water wat jy sluk, drink, inasem, aan jou vel smeer of ingespuit kry, en wat verander hoe jou liggaam of verstand werk, soos pille, alkohol of sigarette."
+    }
+  },
+  "nommer": 1,
+  "lessoort": "inhoudsles",
+  "titel": "Stil water sê nie hoe diep dit is nie",
+  "titel_nota": "Skrywer se titel, aanvaar 2026-09-02. Beplanner se \"Water lyk stil, maar dit is nie veilig nie\" was n beskrywing van die inhoud; hierdie een is die leerder se opskrif.",
+  "kaps_punt": "Gevare in en om water: by die huis en openbare swembaddens asook in riviere en damme: Verantwoordelike veiligheidsmaatreels in en om water.",
+  "kaps_punt_subpunte": [
+    "gevare by die huis",
+    "gevare by openbare swembaddens",
+    "gevare in riviere en damme",
+    "verantwoordelike veiligheidsmaatreels in en om water"
+  ],
+  "begroting": 450,
+  "begrotingsnota": "450 woorde, uit die vereistes-basis (Drico, 1 September 2026) en nie uit 'n meting nie. Verdeling: die drie plekke wat KABV noem, ongeveer 70 elk (huis, openbare swembad, rivier en dam), dus 210; wat verdrinking werklik is, ongeveer 70, en dit is die swaarste enkele blok want dit dra die bewys vir die hele les; die veiligheidsreels, ongeveer 110; wat om te doen as iemand in die moeilikheid is, ongeveer 60. Ses kern-inskrywings in 450 woorde is ongeveer 75 elk, wat ruim is vir 'n les sonder 'n enkele meganisme.",
+  "kern": [
+    "Gevare BY DIE HUIS, en dit is die deel wat 'n kind die minste verwag: die swembad op die werf, die bad, 'n emmer water, 'n wasbak, 'n watertenk of 'n JoJo-tenk, 'n dam of 'n sloot op die werf, en 'n plas water na reen. Die punt wat hier gemaak moet word, is dat vlak water gevaarlik is: 'n klein kind kan in water verdrink wat nie eers tot by sy knieë kom nie.",
+    "Gevare BY 'N OPENBARE SWEMBAD: die rand is nat en glad, dit is vol mense, die diep kant lyk van bo af nie diep nie, duik waar dit vlak is breek nekke, en stoei of iemand indruk is die manier waarop 'n speletjie 'n ongeluk word.",
+    "Gevare IN RIVIERE EN DAMME, en hoekom hulle van 'n swembad verskil: 'n mens kan nie die bodem sien nie, die bodem is ongelyk en glad en val skielik weg, die water is kouer as wat dit lyk, 'n stroom trek 'n mens saam sonder dat dit van die kant af lyk of daar iets beweeg, die kante is glibberig van gras en modder, en na reen is die water hoer en vinniger. Gee 'stroom' 'n begrip-inskrywing.",
+    "WAT VERDRINKING WERKLIK IS, en hierdie blok dra die bewys vir die hele les. 'n Mens onder water kan nie roep nie, want om te roep het lug nodig. Iemand wat in die moeilikheid is, lyk dikwels asof hy regop in die water staan en niks se nie. Dit gebeur ook vinnig. Daarom werk 'ek sal hoor as iets verkeerd gaan' nie, en daarom is die reels hieronder nie oordrewe nie. LEES DIE FEITERISIKO VOORDAT HIERDIE BLOK GESKRYF WORD.",
+    "DIE REELS WAT JOU VEILIG HOU, wat KABV se 'verantwoordelike veiligheidsmaatreels' is: swem nooit alleen nie en swem net waar 'n grootmens kyk; by 'n openbare swembad, swem waar die badmeester kan sien; loop by die rand, moenie hardloop nie; klim uit die water as jy koud of moeg word; leer swem; dra 'n reddingsbaadjie in 'n boot; hou die hek van 'n swembad se heining toe; gooi 'n emmer leeg as jy klaar is; en moenie in 'n rivier of dam swem waar jy nie weet wat onder is nie. Gee 'reddingsbaadjie' 'n begrip-inskrywing en skryf daarna 'die baadjie'.",
+    "WAT OM TE DOEN AS IEMAND IN DIE WATER IN DIE MOEILIKHEID IS: roep hard vir 'n grootmens, dit is die eerste ding en die belangrikste ding. Moenie self inspring nie - twee mense in die moeilikheid is erger as een. Gee iets aan wat lank is om vas te hou, of gooi iets wat dryf, en bly self op droe grond."
+  ],
+  "aanvulling": [],
+  "moeilike_konsepte": [],
+  "moeilike_konsepte_nota": "Doelbewus leeg, en dit is die normale antwoord. Daar is geen meganisme in hierdie les nie. Alles hier is konkreet stelbaar vir 'n negejarige: 'n emmer water, 'n gladde rand, 'n bodem wat wegval, iemand wat nie kan roep nie. 'n Eli10-blok sou die studieteks in korter woorde herhaal, wat daardie laag se algemeenste faling is.",
+  "termdig": false,
+  "termdig_nota": "Nie termdig nie. Reken op ongeveer drie begrip-inskrywings: stroom, badmeester en reddingsbaadjie. Moenie opvul om by 'n getal te kom nie.",
+  "feiterisiko": [
+    "DIE STIL VERDRINKING IS DIE HOOGSTE RISIKO IN HIERDIE LES EN OOK DIE BELANGRIKSTE INHOUD. Die algemene beeld - iemand wat swaai, spartel en roep - is die filmweergawe en dit is nie hoe dit gewoonlik lyk nie. Skryf dat 'n mens onder water nie kan roep nie en dat iemand in die moeilikheid dikwels stil is en regop in die water lyk. Skryf 'dikwels' en nie 'altyd' nie: dit hang van die geval af, en 'n absolute bewering hier sal deur die feitenasiener verwerp word.",
+    "Vlak water: 'n klein kind kan in baie vlak water verdrink, ook in 'n bad of 'n emmer. Dit is goed gedokumenteer en dit moet ingaan. Moenie 'n presiese diepte in sentimeters skryf tensy dit geverifieer is nie, en moenie 'n tydsduur in sekondes skryf nie.",
+    "'Reik of gooi, moenie gaan nie' is die geverifieerde reel en dit moet so in die les staan. Geen sin mag 'n kind aanmoedig om in te spring, te swem na iemand toe, of iemand uit te trek nie.",
+    "MOENIE die mite skryf dat 'n mens 'n halfuur na kos moet wag voor jy swem nie. Dit is nie gestaaf nie en dit vervang 'n regte reel met 'n verkeerde een.",
+    "MOENIE skryf dat armbandjies, 'n binneband, 'n opblaasspeelding of 'n swembroekie met dryfmiddels 'n kind veilig hou nie. Hulle is speelgoed. 'n Reddingsbaadjie is die ding wat vir die doel gemaak is.",
+    "MOENIE skryf dat 'n heining om 'n swembad deur die wet vereis word nie, en moenie 'n hoogte of 'n maat gee nie. Skryf wat die heining DOEN: dit hou 'n klein kind uit die water wanneer niemand kyk nie.",
+    "MOENIE skryf dat 'n mens 'n stroom kan sien nie, en moenie 'n leerder leer hoe om uit 'n stroom te swem nie. Die reel op hierdie vlak is om nie in te gaan nie.",
+    "MOENIE skryf dat iemand wat kan swem, veilig is nie. Kan swem is 'n hulp, nie 'n waarborg nie, en dit is presies die sin waaruit oorgerustheid groei.",
+    "Geen getal, geen statistiek, en geen beskrywing van 'n kind wat sterf.",
+    "MOENIE noodhulp, mond-tot-mond of borsdrukking noem nie. Dit is buite bestek vir die hele onderwerp."
+  ],
+  "fokusvraag_skakel": "Lewer die water-deel van 'hoe hou ek myself veilig': waar water gevaarlik is by die huis, by 'n openbare swembad en in riviere en damme, hoekom 'n mens dit dikwels nie hoor of sien gebeur nie, en watter reels 'n kind self kan nakom. Dit vra niks oor die pad, oor higiene of oor die omgewing nie.",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "buite_bestek",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "gedeelde_omskrywings",
+    "geen_vrae",
+    "graad",
+    "herkoms",
+    "kaps_onderwerp",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal_nota",
+    "leesstukke_nota",
+    "lesnommer_nota",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "registerbesluit",
+    "sensitiewe_inhoud",
+    "skema_weergawe",
+    "skryfnota",
+    "taalnasien_kandidate",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota",
+    "woordkeuse"
+  ]
+}

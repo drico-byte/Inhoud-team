@@ -1,0 +1,38 @@
+{
+  "verdict": "FAIL",
+  "titel": "Lofdig en kinderteater",
+  "graad": 6,
+  "vak": "Lewensvaardighede",
+  "budget": 480,
+  "checked_at": "2026-09-22T11:12:14+00:00",
+  "study": {
+    "words": 508,
+    "sentences": 40,
+    "mean_sentence_len": 11.6,
+    "median_sentence_len": 12.0,
+    "longest_sentence": 21,
+    "mean_syllables": 1.53,
+    "pct_polysyllabic": 14.4,
+    "pct_long_words": 2.6,
+    "commas_per_sentence": 0.25,
+    "list_words": 42
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 7,
+    "lys": 1,
+    "begrip": 8
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text: 3+ syllable words 14.4% above maximum 13.0%"
+  ],
+  "warnings": [
+    "Study text: syllables per word 1.53 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Long words in study text with no 'begrip' entry: belangrikste, byvoorbeeld, geleenthede, gemeenskappe, gradeplegtighede, onderstreep, volksverhaal"
+  ],
+  "notes": [
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}
