@@ -143,3 +143,22 @@ reader is entitled to see rather than what the field is nominally for.
 
 Four checkers, four costumes: the note itself, eleven other note names, and now a
 field nobody thought of as a note at all.
+
+**22 September 2026: the same leak, through a third field — and this one was not the
+writer's.** The stripping is aimed at `herkoms`, because that is where writers put
+their reasoning. But `goedkeuring` is written at SIGN-OFF, not by the writer, so it was
+never in scope. Its `nota` narrates every earlier round — what was found, what was
+decided, which specification fields carried a claim — and `nasiens` hands over the
+previous verdicts, which is direct pressure to read charitably. A fact checker read one
+and said so, which is the third time a checker has reported this leak through a field
+nobody had looked at.
+
+Closed: the copy now keeps only `datum` and `deur`, and the withheld-marker says
+previous VERDICTS were withheld too, not only notes.
+
+**The lesson under the lesson: the rule was written against a FIELD NAME and the leak
+is a PROPERTY.** Anything in the draft that says what the lesson was trying to do, or
+what anyone previously concluded about it, is the thing being kept out — wherever it
+lives and whoever wrote it. Each time this has recurred, it was a new field doing the
+same job. When adding anything narrative to a draft, ask whether the fact checker may
+see it.
