@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
-  modified: 2026-09-22T08:41:30.367Z
+  modified: 2026-09-22T09:29:35.185Z
 ---
 
 22 September 2026. Grade 6 Natuurwetenskappe en Tegnologie division agreed with
@@ -28,7 +28,15 @@ CAPS errors to correct at planning (mechanisms, not names): moons do NOT give of
 their own light (lesson 30); liquid particles described like a solid's (10); the
 Moon's spin called an "omwenteling" (33+34).
 
-**NEXT STEPS (not started as of 22 Sep 2026, nothing running):**
+**LATER 22 Sep 2026:** steps 1-5 below are DONE. Profile and shared list written (97 terms,
+Gr4/5 carried, planners' proposals reconciled; Drico accepted six widenings: suurstof,
+koolstofdioksied, vaste stof, vloeistof, gas, long 'planeet'). 19 specs approved by me on
+Drico's say-so. Drico: Moon periods "ongeveer 28 dae" as CAPS (not 27 1/3). Protected words
+added: robot-as-machine exception, rotasie/rewolusie never 'omwenteling'. Writers launched for
+lessons 1-20; 21-26 queued (20-agent concurrency cap). Writer brief:
+scratchpad gr6-skrywer-brief.md. Budgets at ceiling: 3, 6, 15, 16, 19, 22, 25, 26.
+
+**ORIGINAL NEXT STEPS (22 Sep 2026):**
 1. Create `kaps/gedeelde-omskrywings-natuurwetenskappe-gr6.json` (vak + graad 6, empty
    `terme`) BEFORE any drafting, or the drift sweep reports no decision list.
 2. Hand-write `profiele/gr6-nwt-profiel.json` like the Gr 5 one (no textbook measured;
