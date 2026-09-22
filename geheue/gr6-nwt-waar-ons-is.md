@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
-  modified: 2026-09-22T09:29:35.185Z
+  modified: 2026-09-22T09:42:24.001Z
 ---
 
 22 September 2026. Grade 6 Natuurwetenskappe en Tegnologie division agreed with
@@ -35,6 +35,15 @@ Drico's say-so. Drico: Moon periods "ongeveer 28 dae" as CAPS (not 27 1/3). Prot
 added: robot-as-machine exception, rotasie/rewolusie never 'omwenteling'. Writers launched for
 lessons 1-20; 21-26 queued (20-agent concurrency cap). Writer brief:
 scratchpad gr6-skrywer-brief.md. Budgets at ceiling: 3, 6, 15, 16, 19, 22, 25, 26.
+
+**LATER STILL, 22 Sep:** all 26 drafted; glossary fact-checked (hernubaar misleading - fixed;
+versadigde oplossing, biodiversiteit, fossielbrandstof narrowed; voedingstof, uitsakking,
+teleskoop changed after drafting). Most first drafts failed the gate on commas/sentence (Gr 4-6
+register max 0.35) - Grade 6 writers subordinate more; style revisions fixed all. The gate's
+own ceiling is budget x1.15, so it passes lessons over Drico's 550: check `study.words` in
+les-N.hek.json yourself. Seven over 550 sent to trim (4,6,9,11,15,16,26); 11 and 26 may need a
+split question for Drico. Checkers started on 1,2,3,5,8,10. Scratch briefs: gr6-hek-brief,
+gr6-plafon-brief, gr6-woordelys-brief; runner helper hek6.py.
 
 **ORIGINAL NEXT STEPS (22 Sep 2026):**
 1. Create `kaps/gedeelde-omskrywings-natuurwetenskappe-gr6.json` (vak + graad 6, empty

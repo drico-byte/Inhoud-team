@@ -1,0 +1,252 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.2",
+  "les": "Koper binne, plastiek buite",
+  "kaps_punt": "Geleiers - elektrisiteit kan deur sekere materiale vloei en dit word geleiers genoem; die meeste metale, veral koper, gelei elektrisiteit. Nie-geleiers - sommige materiaal gelei nie elektrisiteit nie en word nie-geleiers genoem; die meeste nie-metale, soos plastiek, gelei nie elektrisiteit nie; identifisering waar elektriese nie-geleiers gebruik word soos in plastiek geisoleerde drade, rubber handskoene wat deur elektrisiens gebruik word, glas en keramiek isolators wat op kraglyne gebruik word",
+  "verdict": "HERSIEN",
+  "items": [
+    {
+      "bewering": "In baie drade, soos die draad van 'n lamp, lê blink koper binne en plastiek buite. Die koper is daar omdat elektrisiteit maklik daardeur loop.",
+      "blok": "Koper laat elektrisiteit deur",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Copper conductor' (koper is die standaardgeleier in bedrading, PVC-isolasie om); copper.org Design Guide - Electrical and Thermal Conductivity",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Ons noem 'n materiaal wat elektrisiteit deurlaat 'n geleier.",
+      "blok": "Koper laat elektrisiteit deur",
+      "status": "bevestig",
+      "bron": "Britannica 'Metallic conduction'; Chemistry LibreTexts 8.10 Metallic Bonding",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Alle metale is geleiers, maar party gelei baie beter as ander.",
+      "blok": "Koper laat elektrisiteit deur",
+      "status": "bevestig",
+      "bron": "Chemistry LibreTexts 8.10 Metallic Bonding en Britannica 'Metallic conduction' (metaalbinding met vry elektrone in alle metale; geleidingsvermoë wissel sterk, bv. koper 100% IACS teenoor koolstofstaal ~3% IACS)",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Baie drade in huise en toestelle is van koper omdat koper baie goed gelei.",
+      "blok": "Koper laat elektrisiteit deur",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Copper conductor'; copper.org Design Guide (koper is die IACS-maatstaf, 100%)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Staal is ook 'n geleier wat baie swakker as koper gelei.",
+      "blok": "Koper laat elektrisiteit deur",
+      "status": "bevestig",
+      "bron": "ResearchGate-tabel oor koolstofstaal: ~3,18% IACS; viox.com: 304-vlekvrye staal 'n paar persent van koper",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "Die plastiek om die koper laat feitlik geen elektrisiteit deur nie. So 'n materiaal noem ons 'n nie-geleier.",
+      "blok": "Plastiek hou dit tegen",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Copper conductor' (PVC-isolasie); ScienceDirect 'Overhead Line Conductor' (isolasie teenoor kaal geleier)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die meeste nie-metale is nie-geleiers, soos plastiek, rubber, glas en keramiek.",
+      "blok": "Plastiek hou dit tegen",
+      "status": "bevestig",
+      "bron": "BBC Science Focus 'Why does graphite conduct electricity?' (grafiet is die bekende nie-metaal-uitsondering, wat 'die meeste' eerder as 'alle' regverdig); Wikipedia 'Overhead power line' (glas-, keramiek- en polimeer-isolators)",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Keramiek is die harde gebakte klei van teëls, borde en baie koppies.",
+      "blok": "Plastiek hou dit tegen",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Ceramic' en Science Learning Hub 'What are ceramics?' (hard, gevorm en by hoë temperatuur gebak uit 'n nie-metaalmateriaal soos klei; teëls, borde, porselein). Nota: tegniese keramiek word nie altyd uit klei gemaak nie, maar die alledaagse voorbeelde en porselein-isolators is kleigebaseer.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Water is ook 'n nie-metaal, maar kraanwater laat wel elektrisiteit deur.",
+      "blok": "Plastiek hou dit tegen",
+      "status": "bevestig",
+      "bron": "Atlas Scientific 'What Is The Conductivity Of Distilled Water?'; scienceabc.com (suiwer water gelei swak, kraanwater gelei weens opgeloste ione)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Geleiers: metaalskuifspelde, spykers, metaaldraad, staalwol en munte. Almal is van metaal.",
+      "blok": "Die twee groepe",
+      "status": "bevestig",
+      "bron": "SA Mint 'Manufacturing of Coins' en Wikipedia 'Coins of the South African rand' (SA munte is plaatstaal met koper-, brons- of nikkellaag, of nikkel-geplateerde koper - almal metaal); metaalbinding soos hierbo",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Nie-geleiers: plastiek, glas, keramiek, karton, papier, hout, rubber en kryt. Almal is nie-metale.",
+      "blok": "Die twee groepe",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Ceramic'; Wikipedia 'Overhead power line' (glas en keramiek as isolators); homework.study.com oor kryt (kalsiumkarbonaat, isolator) - laasgenoemde bron is swak, maar kryt as ioniese vaste stof wat droog nie gelei nie is standaard",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Hout, papier en karton is net nie-geleiers wanneer hulle droog is. Nat hout laat elektrisiteit deur, en daarom is 'n stok nie veilig by 'n kragdraad nie.",
+      "blok": "Die twee groepe",
+      "status": "weerspreek",
+      "bron": "Texas Department of Insurance 'Power line safety tips' ('Trees conduct electricity'); ESFI 'Power Lines Safety Tips' (moenie 'n afgevalle kraglyn met 'n besem of stok probeer skuif nie; hout kan gelei as dit selfs effens nat is); veiligheidsbronne oor boomsnoei: 'electricity doesn't care if a branch is alive or dead, wet or dry'; Eskom openbare veiligheid: moenie lang voorwerpe onder kraglyne dra nie",
+      "regstelling": "Elke afsonderlike stelling is by lae spanning waar, maar die 'daarom' leer 'n gevaarlike omgekeerde les: dat 'n DROË stok veilig by 'n kragdraad sou wees. Dit is vals. Die baie sterk elektrisiteit in kraglyne kan ook deur hout gaan wat droog lyk, want hout hou altyd 'n bietjie vog en vuil op sy oppervlak. Die veiligheidsgevolg moet sê dat GEEN stok, nat of droog, veilig by 'n kragdraad is nie, sonder om die veiligheid van droë hout aan die droogheid te koppel.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Vir die toets sit 'n mens die materiaal in 'n gaping in 'n eenvoudige stroombaan met 'n sel en 'n lampie. Brand die lampie, dan het die materiaal die kring voltooi en is dit 'n geleier. Bly die lampie donker, dan laat die materiaal nie genoeg elektrisiteit deur om die lampie te laat brand nie.",
+      "blok": "Die lampie-toets",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Continuity tester' (battery-en-lamp-toetser wys 'n volledige pad met lae weerstand; 'n donker lamp beteken te min stroom, nie noodwendig geen stroom nie)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die toets wys net wat aan die drade raak. 'n Skuifspeld met 'n laag plastiek of verf om kan die lampie donker hou. Die metaal binne die laag is tog 'n geleier.",
+      "blok": "Die lampie-toets",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Continuity tester' (die toets meet die kontakpad); plastiek en verf is isolerende lae soos hierbo bevestig",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Kraanwater en badwater laat elektrisiteit deur en so ook damwater en sweet. Daar is stowwe in die water opgelos en dit laat die elektrisiteit deur.",
+      "blok": "Water en jou lyf",
+      "status": "bevestig",
+      "bron": "Atlas Scientific (gedistilleerde teenoor kraanwater); scienceabc.com (opgeloste ione soos natrium, kalsium, magnesium dra die stroom)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Jou lyf gelei ook en nat vel laat dit baie makliker deur as droë vel.",
+      "blok": "Water en jou lyf",
+      "status": "bevestig",
+      "bron": "LibreTexts Workforce 3.4 'Ohm's Law (again)' (Kuphaldt): droë vel honderde kilo-ohm, nat vel so laag as ~1 000 ohm; Physics Van, University of Illinois",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Tog kan die lampie by kraanwater of 'n vinger donker bly of net flou gloei. Dit is omdat 'n sel baie swak stoot.",
+      "blok": "Water en jou lyf",
+      "status": "weerspreek",
+      "bron": "Wikipedia 'Continuity tester' en LibreTexts Workforce 3.4 (stroom hang af van die stoot EN van hoe swak die materiaal gelei: kraanwater en vel het baie hoër weerstand as metaal, en 'n sel se lae spanning is dan te min)",
+      "regstelling": "Die sin gee die sel as die enigste oorsaak. Maar dieselfde swak sel laat die lampie helder brand deur 'n skuifspeld, net 'n paar sinne vroeër - 'n leerder wat dit naspeur, sien die verklaring breek. Die oorsaak is twee dinge saam: kraanwater en jou vel gelei baie swakker as metaal, EN 'n sel stoot te swak om genoeg elektrisiteit deur so 'n swak geleier te stuur. Die kontras met die muursok (wat baie harder stoot) bly dan waar en werk steeds.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Muursok stoot baie harder as 'n sel. Dit kan genoeg elektrisiteit deur nat vel en jou lyf stuur om jou erg te beseer.",
+      "blok": "Water en jou lyf",
+      "status": "bevestig",
+      "bron": "LibreTexts Workforce 3.4 (by 120 V: nat vel ~120 mA, genoeg vir ventrikulêre fibrillasie); SA netspanning 230 V teenoor 'n sel van 1,5 V",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "'n Donker lampie beteken dus nie dat 'n materiaal veilig is naby 'n sok nie.",
+      "blok": "Water en jou lyf",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Continuity tester' (lae-spanningtoetser kan swak geleiers mis); LibreTexts Workforce 3.4",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die koper binne is die geleier wat die elektrisiteit na die lamp dra. Die plastiek buite is 'n nie-geleier. Dit hou die elektrisiteit weg van die hand wat die draad vashou. Ons sê so 'n draad is geïsoleer.",
+      "blok": "Geïsoleerde drade",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Copper conductor'; npcelectric.com oor geïsoleerde teenoor kaal geleiers",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die plastiek beskerm egter nie meer nie as dit gebars of stukkend of nat is.",
+      "blok": "Geïsoleerde drade",
+      "status": "weerspreek",
+      "bron": "Eskom 'Electricity safety tips' (beskadigde, gesnyde of gebreekte kabels moet deur 'n elektrisiën reggemaak word) bevestig die 'gebars of stukkend'-deel; maar onbeskadigde PVC-isolasie bly 'n isolator as dit nat word - dompelpompkabels met PVC-isolasie werk permanent onder water (apar.com 'Submersible cables'; Pro Wire and Cable 'What is Submersible Well Pump Wire?'). Die gevaar van nat drade is dat water by 'n bars, 'n las of die prop by die metaal uitkom (OSHA-riglyn oor nat verbinders, aangehaal op elektroda.com).",
+      "regstelling": "'Gebars of stukkend' is reg en moet bly. 'Nat' is as absolute stelling vals: nat plastiek hou nie op om 'n nie-geleier te wees nie. Vernou die kwantor, moenie die veiligheidsboodskap laat val nie - bv. dat 'n nat draad of prop nie veilig is om aan te raak nie omdat water deur 'n bars of by die prop by die koper kan uitkom. Maak nie 'n stelling dat nat plastiek self elektrisiteit deurlaat nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Elektrisiën se werk is om elektriese drade aan te lê en reg te maak.",
+      "blok": "Handskoene en kraglyne",
+      "status": "bevestig",
+      "bron": "Eskom 'Electricity safety tips' (beskadigde kabels moet deur 'n opgeleide elektrisiën reggemaak word)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Elektrisiëns dra spesiale rubberhandskoene wat vir elektriese werk gemaak en getoets is. Die rubber keer dat elektrisiteit deur hulle hande en lyf loop.",
+      "blok": "Handskoene en kraglyne",
+      "status": "bevestig",
+      "bron": "Ansell 'Rubber Insulated Gloves FAQ'; wearetower.com 'ASTM D120'; workwearsolutions.net oor ASTM D120 en IEC 60903 (isolerende rubberhandskoene in klasse 00-4, getoets by vervaardiging en elke 6-12 maande hertoets)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Gewone kombuishandskoen is nie vir hierdie werk gemaak nie.",
+      "blok": "Handskoene en kraglyne",
+      "status": "bevestig",
+      "bron": "novax-intl.com 'Insulating Gloves Electrical Work' (net handskoene wat volgens ASTM D120 of IEC 60903 vervaardig en getoets is, tel as elektriese isolerende PPE)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die drade van baie kraglyne is kaal metaal sonder plastiek om.",
+      "blok": "Handskoene en kraglyne",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Overhead power line' (kaal aluminium- of staalversterkte aluminiumgeleiers; die lug is die isolator); Eland Cables 'Overhead Line' (AAC, AAAC, ACSR)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Hulle hang aan isolators waarvan baie van glas of keramiek is.",
+      "blok": "Handskoene en kraglyne",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Overhead power line' (glas-, keramiek- of polimeer-isolators; 'baie' laat tereg ruimte vir polimeer)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die isolator hou die draad aan die paal of mas vas. Dit keer dat die elektrisiteit deur die paal of mas na die grond loop.",
+      "blok": "Handskoene en kraglyne",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Overhead power line' (geleiers word via isolators aan torings of houtpale geheg); Alterga 'Overhead line components - basic information'",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "geleier: 'n Materiaal wat elektrisiteit deurlaat, soos koper of staal.",
+      "blok": "geleier",
+      "status": "bevestig",
+      "bron": "Britannica 'Metallic conduction'; staal ~3% IACS maar steeds 'n geleier (ResearchGate-tabel)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "nie-geleier: 'n Materiaal wat feitlik geen elektrisiteit deurlaat nie, soos plastiek of rubber.",
+      "blok": "nie-geleier",
+      "status": "bevestig",
+      "bron": "Ansell 'Rubber Insulated Gloves FAQ' (rubber as isolator); Wikipedia 'Copper conductor' (plastiekisolasie)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "isolator: 'n Stuk nie-geleier wat keer dat elektrisiteit loop waar dit nie moet nie.",
+      "blok": "isolator",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Overhead power line' (isolators skei die geleier van die struktuur)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "nie-metaal: Materiaal wat nie metaal is nie, soos kryt, klip, hout of plastiek.",
+      "blok": "nie-metaal",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Ceramic' (nie-metaal-anorganiese materiale); die les gebruik 'nie-metaal' in die materiaalsin wat die KABV-punt self gebruik, nie in die sin van 'n chemiese element nie - so gelees is dit akkuraat",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "keramiek: Harde materiaal van klei wat in 'n baie warm oond gebak is.",
+      "blok": "keramiek",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Ceramic'; explainthatstuff.com 'Ceramics' (klei, gevorm en in 'n oond by hoë temperatuur gebak)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "elektrisiën: Iemand wie se werk dit is om elektriese drade aan te lê en reg te maak.",
+      "blok": "elektrisiën",
+      "status": "bevestig",
+      "bron": "Eskom 'Electricity safety tips' (opgeleide elektrisiën maak kabels reg)",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "geïsoleer: Toegedraai in 'n nie-geleier, soos 'n koperdraad met plastiek om.",
+      "blok": "geïsoleer",
+      "status": "bevestig",
+      "bron": "npcelectric.com 'Overhead Insulated Cable vs. Bare Conductor'; Wikipedia 'Copper conductor'",
+      "tipe": "algemeen"
+    }
+  ],
+  "opsomming": "Drie veiligheidsverwante foute moet reggestel word: die stok-sin leer by implikasie dat 'n droë stok veilig by 'n kragdraad is (dit is nie), 'nat' plastiek word as absoluut onbeskermend voorgestel terwyl net water by 'n bars of prop die gevaar is, en die donker lampie by kraanwater word net aan die swak sel toegeskryf terwyl dieselfde sel deur 'n skuifspeld wel brand - die res van die les is bevestig."
+}
