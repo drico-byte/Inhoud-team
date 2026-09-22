@@ -1,0 +1,264 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 5,
+  "kwartaal": 2,
+  "kaps_onderwerp": "Materie en Materiale (Tegnologie: Verwerking)",
+  "kaps_onderwerp_nota": "KABV se Graad 5 Termyn 2-bladsye dra twee reels in die kop: 'KENNISAFDELING: NATUURWETENSKAPPE: MATERIE EN MATERIALE' en 'TEGNOLOGIE: VERWERKING'. Albei lesse hier val onder die eerste. Die verwerkingshelfte word op dieselfde bladsye deur die buursubonderwerp 'Verwerkte materiale' gedra, waar leerders materiale meng en verhard. Niks in hierdie spesifikasie is verwerkingsinhoud nie.",
+  "kaps_subonderwerp": "Metale en nie-metale",
+  "kaps_ure": 7,
+  "kaps_ure_nota": "Slegs inligting. KABV gee 2 weke (7 uur) vir hierdie subonderwerp. NIKS hier is daaruit afgelei nie, en kontakure is nooit 'n begrotingsbasis nie. Hierdie subonderwerp wys dit besonder duidelik: die 7 uur is grotendeels praktiese werk - voorwerpe toets, vergelyk en opteken, en ou dowwe metaal weer blink maak. Daardie ure produseer geen leesstof nie.",
+  "kaps_bron": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, gedrukte bladsy 35 (PDF-bladsy 40) vir die inhoud en albei voetnote, en gedrukte bladsy 38 (PDF-bladsy 43) vir Termyn 2 se assesseringsriglyne. Die PDF loop vyf bladsye voor die gedrukte nommers. Die aangrensende Graad 5-tabelle (PDF-bladsye 41 en 42) is gelees om die grense te plaas, nie om inhoud te haal nie.",
+  "fokusvraag": "Hoekom kies mense metaal vir sommige dinge en 'n ander soort materiaal vir ander dinge?",
+  "fokusvraag_nota": "Deur die beplanner gestel, nie aangehaal nie. KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag soos Sosiale Wetenskappe nie. Hierdie een is uit KABV se eie woorde gebou: albei inhoudsopskrifte begin met 'word gebruik om dinge te maak, want hulle het sekere eienskappe', en die kwartaal se assesseringsriglyn vra dat 'n leerder 'eienskappe kan vergelyk van 'n paar metaal en 'n paar nie-metaal voorwerpe'. Die vraag se twee helftes val presies op die twee lesse.",
+  "fokusvraag_optelling": "REGGEMAAK, 11 September 2026: 'N EIENSKAP DWING NIE 'N GEBRUIK AF NIE. Hierdie veld se nog dat die verskil BEPAAL waarvoor mense elke soort gebruik. Eienskappe SIF die kandidate; prys en beskikbaarheid maak die res van die keuse, en daarom is die meeste mure baksteen en nie klip nie, al pas klip se eienskappe net so goed. Kern 4 is reeds so reggemaak; hierdie veld het agtergebly, en dekking toets teen hierdie veld - dus sou 'n skrywer wat dit lees die vals bewering teruggesit het.\n\nALLES HIERONDER BLY GELD, met 'bepaal' vervang deur 'help mense besluit'.\n\nLes 1 lewer die metaalhelfte: watter eienskappe metaal het, en hoe elke eienskap by 'n ding pas wat van metaal gemaak word. Les 2 lewer die nie-metaalhelfte plus die vergelyking: hoe 'n vaste nie-metaal anders is, en waarom daardie verskil bepaal wat mense waarmee maak. Geen les word gevra om albei helftes te dra nie, en die vergelyking sit doelbewus in les 2, waar die leerder albei stelle eienskappe klaar het.",
+  "profiel_konfig": "profiele/gr5-nwt-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "0 beteken hier ONGEMEET, nie 'die boek dek dit nie'. Geen graad 5-handboek is geprofileer nie, en dit is 'n besluit en nie 'n agterstand nie. Onder die 'vereistes'-basis is hierdie veld nie die anker nie en niks word daaruit afgelei nie. Moenie 'n getal hier intik om dit te laat lyk of daar gemeet is nie.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "Elke les kry sy eie getal uit die hoeveelheid KABV-inhoud wat dit werklik dra, nie uit 'n meting wat eweredig gedeel is nie. Twee redes, albei Drico se bevindings van 9 September 2026. EERSTENS is daar niks om te deel nie, en dit is doelbewus: profiler.py tel ELKE woord op 'n bladsy - aktiwiteitsblokkies, vraagpanele, byskrifte, opskrifte - en ons lesse bevat niks daarvan nie, want aktiwiteite behoort aan die uitlegspan. TWEEDENS is lesse werklik verskillende lengtes: hy het met die hand nagetel en 'n les van 140 woorde en een van 525 in dieselfde graad 5-boek gekry. Hierdie subonderwerp is 'n skoon voorbeeld daarvan. KABV gee les 1 VYF eienskappe plus 'n gebruikstelling plus die mynreel; les 2 kry TWEE eienskappe plus 'n gebruikstelling plus die vergelyking. Eweredige verdeling sou les 2 laat opblaas het om 'n gemiddeld te haal, en opblaas is waar versinde bewerings vandaan kom. Albei getalle val binne die graad 5-band 300-550, dus is geen vloer- of plafon-uitsondering nodig nie.",
+  "totale_begroting": 830,
+  "totale_begroting_nota": "480 + 350. Dit is die som van twee afgeleide getalle, nie 'n meting nie, en dit is geen pariteitsanker teenoor enige handboek nie.",
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument self, direk gelees (Graad 5 Termyn 2-inhoudstabel op PDF-bladsy 40 met albei voetnote, die kwartaal se assesseringsriglyne op PDF-bladsy 43, en die aangrensende Graad 5-tabelle op PDF-bladsye 41 en 42 om die grense te plaas). Verder: die opdrag se lesverdeling van Drico, profiele/gr5-nwt-profiel.json, kaps/gedeelde-omskrywings.json (graad 4 se lys, slegs om botsings op te spoor), die afgelewerde graad 4-lesse van 'Vaste stowwe' (slegs hulle begrip-inskrywings en eienskapsbewerings, om weerspreking te vermy), kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json, kaps/beskermde-woorde.json en die inhoudstandaard se woordkeuselys. GEEN handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitvoer of beskrywing van 'n handboek se indeling het enige deel van hierdie spesifikasie geraak. Geen graad 5-handboek is geprofileer nie, dus was daar ook geen meting om te lees nie.",
+    "goedkeuringstatus": "KONSEP. 'n Mens skuif dit na spesifikasies/goedgekeur/ voordat enigiets geskryf word."
+  },
+  "verdeling_nota": {
+    "besluit": "Twee lesse, een per KABV-inhoudsopskrif: 'Eienskappe van metale' en 'Eienskappe van nie-metale'. Dit is reeds besluit en in die opdrag gegee. MOENIE dit herlei of 'regmaak' nie.",
+    "hoekom_dit_werk": "Die twee opskrifte staan afsonderlik in KABV se inhoudskolom en dra twee verskillende stelle eienskappe. Die naat val presies waar KABV self van metale na nie-metale oorskakel.",
+    "jaarplek": "Les 1 en les 2 hier is les 10 en les 11 van 29 vir die graad 5-jaar. Die 'nommer'-veld is die volgorde binne hierdie subonderwerp, soos die skema vereis; 'jaarnommer' hou die jaarnommer."
+  },
+  "graad_4_oordrag": {
+    "hoekom_hierdie_afdeling": "REGGEMAAK, 10 September 2026: hierdie veld se die graad 5-lys is leeg, of byna leeg, of mag nie gevul word nie. Alles daarvan is verby. Al 29 konsepte is geskryf, die versoeningsronde is gedoen, en kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json dra nou 19 besliste terme plus twee wat uitdruklik as OOP opgeteken is. Waar 'n term MET 'n bewoording in daardie leer staan, geld GRAAD 5 s'n woord vir woord, ook waar dit graad 4 s'n vervang. Waar 'n term daar staan met 'nog_nie_beslis': true en 'n leeg bewoording, is dit 'n opgetekende oop vraag en nie 'n bestelling nie - hou wat die les reeds het. Waar 'n term glad nie daar staan nie, geld graad 4 s'n. Die hardloper spuit die huidige leer in elke uittreksel in, dus lees die skrywer altyd die regte lys; moenie een hier oorskryf nie.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE.]\n\nkaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json is doelbewus byna leeg (net 'geraamte'): graad 5 se terme word NA al 29 konsepte besluit. Graad 4 se lys bind graad 5 NIE en word nie hierheen gekopieer nie, maar 'n graad 5-leerder het graad 4 by ons deurloop. Botsings word dus hier gemerk eerder as stilweg geskep. Graad 4 se lys word nie in hierdie uittreksel ingespuit nie, dus staan die bewoordings hieronder woord vir woord.",
+    "terme_wat_in_albei_grade_voorkom": [
+      {
+        "term": "eienskap",
+        "graad_4_bewoording": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken. [REKORD, NIE 'N BESTELLING NIE - graad 5 het sy eie wyer bewoording; sien die gedeelde lys.]",
+        "botsing": "GEEN. Gebruik dit woord vir woord as die term 'n begrip-inskrywing kry.",
+        "hoekom_dit_veilig_is": "Hierdie bewoording dra GEEN voorbeelde nie, en dit is presies waarom dit in graad 4 gekies is. 'n Bewoording met voorbeelde sou graad 4 se eie eienskapslys (hard, buigbaar, waterdig) in graad 5 se woordelys indra en 'n dieptegrens deur die woordelys laat oorsteek."
+      },
+      {
+        "term": "materiaal",
+        "graad_4_bewoording": "Die goed waarvan iets gemaak is",
+        "botsing": "GEEN. Die ROMP is identies en verpligtend. Voorbeelde na 'soos' mag per les verskil (Drico se beslissing), dus mag graad 5 'soos metaal, kryt of klip' gee."
+      },
+      {
+        "term": "smelt",
+        "graad_4_bewoording": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+        "botsing": "GEEN. Gebruik dit woord vir woord in les 1. Moenie 'by hoe temperature' by die omskrywing self insit nie - dit is 'n bewering oor metale en nie deel van wat die woord beteken nie, en dit sou die omskrywing vals maak vir ys."
+      },
+      {
+        "term": "buigbaar",
+        "graad_4_bewoording": "Materiaal wat krom gaan onder jou hande sonder om te breek.",
+        "botsing": "JA, EN DIT IS DIE ENIGSTE EGTE BOTSING. Hierdie bewoording staan in die AFGELEWERDE graad 4-les 'Wat jou hande van 'n materiaal kan uitvind' (Vaste stowwe). Dit is nie in die ooreengekome-lys nie, dus bind dit ons nie formeel nie - maar 'n graad 5-leerder het die woord met daardie betekenis gelees. KABV se Graad 5-teks gebruik dieselfde woord vir 'n ANDER eienskap: '(buigbaar)' gloss daar 'in dun drade gemaak word sonder om te breek', dit wil se rekbaarheid en nie buiging nie.",
+        "wat_die_skrywer_intussen_doen": "VERVAL - die besluit is geneem. BESLIS DEUR DRICO, 9 September 2026: Graad 5 gebruik KABV se woord 'buigbaar' vir die eienskap dat metaal in dun drade getrek kan word. Bewoording: \"Materiaal wat in dun drade getrek kan word sonder om te breek.\" Dit staan in kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json en in kaps/beskermde-woorde.json.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\nLes 1 GEE WEL 'n begrip-inskrywing vir 'buigbaar', met Graad 5 se bewoording, NIE Graad 4 s'n nie. Die vorige instruksie (moenie herdefinieer nie, skryf net 'n waarneembare sin) het gegeld solank die saak onbeslis was.\n\nWAT WEL VERPLIGTEND BLY, juis omdat die betekenisse verskil:\n  1. Klei - of enige ander buigsame nie-metaal - mag NIE 'n voorbeeld van 'buigbaar' in Graad 5 wees nie. Graad 4 se les gebruik juis klei.\n  2. Die woord word altyd saam met die draadbeeld ingelei, sodat die betekenis by die eerste ontmoeting vasstaan.\n  3. 'smeebaar' bly 'n APARTE eienskap daarnaas, soos KABV se eie sin dit stel.\n  4. Nooit 'rekbaar' nie.",
+        "graad_5_woord_wat_wel_werk": "'smeebaar' bots met niks en is KABV se eie woord vir die vorm-helfte."
+      }
+    ],
+    "graad_4_bewerings_wat_nie_weerspreek_mag_word_nie": [
+      "hard: die afgelewerde graad 4-les toets hardheid met die DUIM - 'Hard materiaal gee nie mee wanneer jy met jou duim daarop druk nie.' Graad 5 moet dieselfde sin van hardheid gebruik. 'duim' (nie 'duimnael' of 'vingernael' nie) is 'n BESKERMDE WOORD vir die subonderwerp 'vaste-stowwe'; as graad 5 die duimtoets weer gebruik, hou 'duim'.",
+      "REGGEMAAK, 10 September 2026: hierdie sin is te eng vir graad 5. Sterkte is weerstand teen BREEK ONDER 'N LAS, en 'n las kan 'n STOOT wees - beton is sterk onder druk en swak onder trek. Soos graad 4 se sin staan, sluit dit juis die dra-betekenis uit wat KABV self in dieselfde graad se struktuur-onderwerp gebruik. Hardheid bly 'n plaaslike duik of kras; die twee eienskappe bly APART. Graad 4 bly soos afgelewer; graad 5 mag hier verbreed. Sien kern 4.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\nsterk: graad 4 se sin is 'Sterk materiaal hou heel wanneer jy daaraan trek of daaraan skeur.' Graad 5 moet sterkte in daardie sin gebruik.",
+      "hard en sterk is NIE dieselfde eienskap nie. Die afgelewerde graad 4-les se dit uitdruklik ('Styf en sterk is nie dieselfde eienskap nie') en bou 'n hele blok daarop. KABV gee albei woorde in een lys vir metale, wat dit maklik maak om hulle in een sin saam te gooi. Moenie."
+    ]
+  },
+  "diepte_grens": {
+    "myn": "KABV se eie voetnoot by die mynpunt: 'Hoe en waar die metale gemyn word, word in Sosiale Wetenskappe gedek.' NOEM dat metaal uit die Aarde kom en STOP. Geen soorte myne, geen diepte, geen plekke, geen Suid-Afrikaanse minerale, geen mynwerkers, geen geskiedenis, geen omgewingsgevolge.",
+    "nie_metale": "KABV se eie voetnoot by die nie-metaalpunt: 'Daar is baie verskillende nie-metale en hulle het 'n verskeidenheid van verskillende eienskappe. Hier is die fokus slegs op twee van die mees algemene eienskappe.' Bou GEEN algemene teorie van nie-metale nie. Geen elemente, geen periodieke tabel, geen atome, geen gasse, geen lys van nie-metale. Twee eienskappe van VASTE nie-metale, en dit is die volle diepte.",
+    "roes_en_vlek": "REGGEMAAK, 10 September 2026: die glans kom NIE met 'n lap of met vryf terug nie. Aanslag is 'n chemiese laag wat aan die oppervlak gebind is; dit kom af met SKUUR, met 'n chemiese dip of elektrochemies. Bestel 'skuur', of wys eerder 'n vars gesnyde kant. En 'skoon' alleen is nie die reel nie - die oppervlak moet ook GLAD wees. Roes, vlek, hittegeleiding en magnetisme is die BUURSUBONDERWERP se werk ('Gebruik van metale', KABV se volgende bladsy). Les 1 kom baie naby daaraan wanneer dit se ou metaal word dof - dit is presies waar KABV se 'sommige metale vlek en word dof' wag. Bly by die WAARNEEMBARE: 'n skoon oppervlak blink, 'n ou een is dof, skuur bring die glans terug. Geen verduideliking van WAAROM metaal dof word nie - dit is die buursubonderwerp se werk. LET WEL, 10 September 2026: dit verbied NIE die sin dat 'n dun dowwe lagie oor blink metaal le nie. Daardie sin se wat daar le, nie waarom dit daar kom, en les 2 se kern bestel hom - sonder hom word die skuurtoets 'n metaal-teenoor-nie-metaal-toets, en klip en glas word ook blink gepolys.",
+    "gebruike": "'Gebruike van metale' (munte, draad, juwele, meubels, geboue en brue, motors, kombuisgereedskap, dakke) is ook die buursubonderwerp se inhoudsopskrif. Les 1 mag die voorwerpe noem wat KABV in HIERDIE subonderwerp se hulpbronkolom lys - koperdraad, munte, spykers, potte, messe en vurke - as die rede waarom 'n eienskap saak maak. Dit bou nie 'n les oor gebruike nie.",
+    "verwerking": "Glas, beton, gips, keramiek, tekstiele en plastiek behoort aan 'Verwerkte materiale', twee bladsye verder. Sand mag as 'n nie-metaal voorwerp genoem word (KABV doen dit self), maar nie as die begin van 'n glasstorie nie."
+  },
+  "buite_bestek": [
+    "Wat 'n metaal in die chemie IS. KABV gee geen omskrywing nie en vra ook nie een nie. Die les ken metaal aan sy GROEP eienskappe uit, en dit is wat KABV vra.",
+    "Verwerkte en onverwerkte materiaal as terme. Graad 4 het hulle klaar omskryf, en die mynsin lok hulle uit ('klip uit die grond' klink na onverwerkte materiaal). Moenie die terme hier inbring nie; hulle hoort by die buursubonderwerp.",
+    "Steenkool as brandstof. Dit is Termyn 3 se 'Gestoorde energie in brandstof'. Steenkool is hier net 'n nie-metaal voorwerp wat KABV noem.",
+    "KABV se aktiwiteitskolom as inhoud. 'Ondersoek, vergelyk en die opteken van die eienskappe' en 'Ondersoek maniere om ou en dowwe metaal voorwerpe weer blink te maak' is klaswerk vir die onderwyser. Die KENNIS wat hulle dra - dat 'n skoon oppervlak blink en dat glans teruggeskuur kan word, en dat die twee stelle voorwerpe teenoor mekaar gestel word - is wel Kern en staan in die kernlyste. Die teks vra niemand om iets te doen nie."
+  ],
+  "registerwaarskuwing": "Hierdie subonderwerp se eie vakwoorde is lank: eienskap en eienskappe (4 lettergrepe), materiaal (4), temperature (4), nie-metaal (3), smeebaar (3), buigbaar (3), koperdraad (3), oppervlak (3). Die graad 4-6 band laat hoogstens 13% woorde met drie of meer lettergrepe toe - by 480 woorde is dit ongeveer 62 vir die HELE les, en 'eienskap' alleen kan dit opeet. Tel die voorkomste voordat jy skryf, nie daarna nie. Noem 'eienskap' waar dit die eerste keer nodig is en gebruik daarna die eienskap se eie kort woord: blink, hard, sterk. Kies deurgaans die kort alledaagse woord - 'warm' eerder as 'verhit', en 'stuk' eerder as 'voorwerp' waar KABV se woord nie ter sake is nie.",
+  "geen_vrae": "Geen 'vraag'-blokke. Lesse dra sedert 2026-08-21 geen onthoudvrae nie. Die gevolg wat hier tel: KABV se hele subonderwerp is prakties, en die WAARNEEMBARE bewys - wat jou duim voel, wat breek, wat blink word as jy dit skuur - moet in die studieteks self staan en nie in 'n opdrag aan die leerder nie. Skryf dit as beskrywing, nie as instruksie nie.",
+  "teks_kom_eerste": "Soos by al die wetenskaplesse word hierdie teks EERS geskryf en die video daarna daarvolgens gemaak. Dit is nie die graad 4 Sosiale Wetenskappe-uitsondering nie en daar is geen video_naat nie. Die teks is dus die vloer en nie die plafon nie: elke blok is 'n verpligting wat die video moet eer, wat 'n verdere rede is om niks by te sit wat nie 'n vereiste dra nie.",
+  "beslissings_vir_drico": [
+    "BESLIS - NIE MEER OOP NIE. BESLIS DEUR DRICO, 9 September 2026: Graad 5 gebruik KABV se woord 'buigbaar' vir die eienskap dat metaal in dun drade getrek kan word. Bewoording: \"Materiaal wat in dun drade getrek kan word sonder om te breek.\" Dit staan in kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json en in kaps/beskermde-woorde.json.\n\nDie risiko is aan Drico gestel voordat hy beslis het, met Graad 4 se klei-voorbeeld by die naam genoem, en met 'rekbaar' as die alternatief. Hy het KABV se woord gekies. 'rekbaar' is boonop uitgesluit omdat dit met 'rek' en 'rekkie' in Kwartaal 3 bots, waar 'n uitgerekte rek TERUGSPRING - wat 'n getrekte draad nie doen nie.\n\nPRESEDENT: dit is nie 'n VERBREDING oor grade heen nie (wat die reel van 9 September toelaat) maar 'n VERSKUIWING - 'n ander eienskap onder dieselfde woord. Dit rus op Drico se uitdruklike keuse, nie op 'n afleiding uit die reel nie."
+  ],
+  "reeds_beskermde_woorde": "REEDS BESKERM - MOENIE WEER AANMELD NIE, 11 September 2026. Nasieners lees nie kaps/beskermde-woorde.json nie, dus meld hulle korrek aan dat 'n beslissing dalk deur die taalnasien ongedaan gemaak kan word. Vir hierdie subonderwerp is dit reeds gedoen:\n  * 'koolstofdioksied' - beslis deur Drico op 9 September 2026 vir ALLE grade, en dit staan in die beskermde-woorde-leer saam met 'koolsuurgas', 'CO2' en 'kooldioksied' as die vorme wat nie mag inkruip nie. KABV self gebruik albei woorde in een paragraaf, dus los die dokument dit nie op nie.\n  * 'hitte' teenoor 'warmte' - ook reeds daar, en NIE as 'n blanko verbod nie: 'hitte' is die energie wat beweeg, 'warmte' is die toestand van warm wees, en albei is reg op hulle eie plek.\n\nAs 'n nasiener een van hierdie twee weer opper, is die antwoord 'reeds gedoen' en nie 'n nuwe rondte nie. Wat WEL nog oop is, word elders in hierdie spek by die naam genoem.",
+  "vak_gedeelde_omskrywings": {
+    "nota": null,
+    "terme": {
+      "geraamte": "Die stewige dele wat 'n dier se lyf ophou en sy sagte dele beskerm.",
+      "gewrig": "Die plek waar twee of meer stewige dele van 'n geraamte bymekaar kom.",
+      "buigbaar": "Materiaal wat in dun drade getrek kan word sonder om te breek.",
+      "inset": "Die energie wat ingaan om iets te laat werk of gebeur.",
+      "uitset": "Al die energie wat uitkom wanneer iets werk of gebeur.",
+      "stelsel": "Dele wat saamwerk om een werk te doen.",
+      "as": null,
+      "oppervlak": "Die buitekant van iets.",
+      "_herkoms": "Natuurwetenskappe en Tegnologie",
+      "substasie": "'n Plek met groot toestelle wat die elektrisiteit se stoot of pad verander.",
+      "korrel": "'n Baie klein stukkie van 'n vaste stof.",
+      "stuifmeel": "Die fyn korreltjies uit 'n blom se manlike deel of 'n manlike keël, wat sade help maak.",
+      "steenkool": "'n Harde swart klip uit die grond wat baie warm brand.",
+      "bogrond": "Die boonste laag grond waarin die meeste plante hulle wortels het.",
+      "brandstof": "Iets wat kan brand en dan sy gestoorde energie afgee.",
+      "gewerwelde diere": "Diere wat 'n ruggraat binne-in hulle lyf het.",
+      "ongewerwelde diere": "Diere wat geen ruggraat in hulle lyf het nie.",
+      "elektrisiteit": "Een manier waarop energie oorgedra word, soos deur die drade van 'n stroombaan.",
+      "raamstruktuur": "Dele wat stewig aanmekaar vas is en saam gewig dra, met oop plekke tussen hulle.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is. Jy ken 'n materiaal aan sy eienskappe saam uit.",
+      "sement": "Stof wat saam met water tussen los stukkies kom en daar hard word. Dit bind hulle aanmekaar tot een vaste stuk, soos in beton.",
+      "spoorfossiel": "'n Fossiel van 'n teken wat 'n plant of dier agtergelaat het, nie van 'n deel van sy lyf nie."
+    }
+  },
+  "vorige_graad_omskrywings": {
+    "graad": 4,
+    "hoe_om_dit_te_lees": "Hierdie is Graad 4 se ooreengekome bewoordings, wat REEDS AFGELEWER is. Hulle BIND hierdie graad NIE. Hulle is hier sodat jy 'n botsing kan RAAKSIEN: 'n leerder in Graad 5 het Graad 4 deurloop, en twee omskrywings van een woord leer twee verskillende dinge. Waar jou graad se eie lys (hierbo) 'n term het, WEN daardie een altyd. Waar dit stilbly en jy gaan van hierdie bewoording verskil, se dit in die spek sodat 'n mens kan beslis - moenie stilweg 'n tweede betekenis skep nie.",
+    "terme": {
+      "asemhaling": "Om suurstof uit die lug te gebruik om energie uit jou kos te kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "geraamte": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou.",
+      "habitat": "Die plek waar 'n plant of 'n dier lewe.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "kondenseer": "Wanneer 'n gas afkoel en weer in 'n vloeistof verander.",
+      "lewensprosesse": "Die sewe dinge wat saam wys dat iets lewe.",
+      "materiaal": "Die goed waarvan iets gemaak is",
+      "onverwerkte materiaal": "Materiaal wat mense net so in die natuur kry.",
+      "raamstruktuur": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "ru-olie": "Meestal 'n dik donker vloeistof wat onder die grond opgepomp word.",
+      "smelt": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "struktuur": "Iets wat gebou of gevorm is, sy vorm hou en gewig dra of iets beskerm.",
+      "stut": "'n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
+      "trommelvlies": "'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+      "verdamp": "Wanneer 'n vloeistof in 'n gas verander. Dit gebeur vinniger wanneer die vloeistof warmer is.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "vries": "Wanneer 'n vloeistof afkoel en in 'n vaste stof verander.",
+      "waterdamp": "Water in die vorm van 'n gas wat niemand kan sien nie.",
+      "kieme": "Baie klein lewende dinge wat 'n mens siek kan maak."
+    }
+  },
+  "nommer": 1,
+  "jaarnommer": 10,
+  "jaarnommer_nota": "Les 10 van 29 vir die graad 5-jaar. Lesnommers loop deurlopend deur die jaar, nie per kwartaal nie. Uit die opdrag se jaarplan; daar is nog geen kaps/lesindeks-leer vir graad 5 nie.",
+  "titel": "Waaraan jy metaal uitken",
+  "titel_nota": "Werktitel en 'n leerderopskrif, nie KABV se etiket nie. KABV se opskrif is 'Eienskappe van metale' en dit is 'n indeksnaam. Die titel eggo doelbewus die ooreengekome bewoording van 'eienskap' ('waaraan jy dit uitken') en dra die hele les, want die les is presies die vyf dinge waaraan 'n mens metaal uitken. Die skrywer mag dit verbeter solank dit die les se eie naam bly.",
+  "kaps_opskrif": "Eienskappe van metale",
+  "kaps_punt": "'n paar eienskappe van metale is: blink, hard, sterk, kan gevorm word (smeebaar) en in dun drade gemaak word sonder om te breek (buigbaar), smelt by hoe temperature",
+  "kaps_punte": [
+    "metale word gebruik om dinge te maak, want hulle het sekere eienskappe",
+    "'n paar eienskappe van metale is: -- blink -- hard -- sterk -- kan gevorm word, (smeebaar) en in dun drade gemaak word sonder om te breek (buigbaar) -- smelt by hoe temperature",
+    "metale word uit die Aarde gemyn *"
+  ],
+  "kaps_punte_nota": "Woordeliks uit KABV se inhoudskolom, insluitend die * wat na die mynvoetnoot wys. Let op KABV se eie woorde: ''n paar eienskappe', nie 'die eienskappe' nie. Die dokument bied dus self 'n onvolledige lys aan, en dit is deel van waarom die kwantifiseerders hieronder nie opsioneel is nie.",
+  "kaps_voetnoot": "* 'Hoe en waar die metale gemyn word, word in Sosiale Wetenskappe gedek.'",
+  "kaps_aktiwiteit": "KABV se aktiwiteitskolom: 'Ondersoek, vergelyk en die opteken van die eienskappe van 'n metaal voorwerpe (soos koperdraad, munte, spykers, potte, messe en vurke) en 'n paar nie-metaal voorwerpe (soos 'n stukkie kryt, 'n klip, 'n hopie sand, 'n stuk steenkool)' en 'Ondersoek maniere om ou en dowwe metaal voorwerpe weer blink te maak.' Die tweede een is die rede waarom die blink-vereiste hieronder so streng gestel is.",
+  "kaps_assessering": "Termyn 2 se riglyn: 'eienskappe kan vergelyk van 'n paar metaal en 'n paar nie-metaal voorwerpe'. Hierdie les lewer die metaalkant van daardie vergelyking; les 2 doen die vergelyking self.",
+  "begroting": 480,
+  "begrotingsnota": "REGGEMAAK, 10 September 2026: die glans kom NIE met 'n lap of met vryf terug nie. Aanslag is 'n chemiese laag wat aan die oppervlak gebind is; dit kom af met SKUUR, met 'n chemiese dip of elektrochemies. Bestel 'skuur', of wys eerder 'n vars gesnyde kant. En 'skoon' alleen is nie die reel nie - die oppervlak moet ook GLAD wees. 480 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Die hek meet teen 480 met plus-minus 15%, dus 408 tot 552. Dit val binne die graad 5-band 300-550, dus is geen uitsondering nodig nie. Agt vereistes, ongelyk van gewig: (A) mense kies metaal omdat dit hierdie eienskappe saam het, ongeveer 45; (B) blink, met die dof-word en die terugskuur wat KABV se eie aktiwiteit vereis, ongeveer 85 - die duurste een, want dit is die een wat 'n les die maklikste vals kry; (C) hard, met sy kwantifiseerder, ongeveer 65; (D) sterk, met sy kwantifiseerder en die grens teenoor hard, ongeveer 60; (E) smeebaar, ongeveer 55; (F) in dun drade sonder om te breek, ongeveer 55; (G) smelt eers by baie hoe temperature, met die relatiwiteit, ongeveer 75; (H) metaal kom uit die Aarde, ongeveer 40. Totaal ongeveer 480. Dit is 130 meer as les 2 omdat KABV hier VYF eienskappe gee teenoor twee, en elke eienskap 'n naam, 'n waarneembare beskrywing en 'n voorwerp nodig het.",
+  "begrotingsplan": {
+    "blokplan": "Ongeveer ses tot sewe studieblokke: A as die openingsblok, B alleen, C en D saam of apart, E en F saam in een blok oor vorm gee, G alleen, en H as 'n kort slotblok. Die hek se stukkiegids is 3 tot 10 blokke van 30 tot 110 woorde.",
+    "wat_480_woorde_nie_koop_nie": "Geen tweede voorbeeld per eienskap nie. Geen sagte metaal by die naam nie (sien die kernitems). Geen opsomming aan die einde nie. Geen eli10-blok nie. Geen aanvulling nie. Geen syfer vir 'n smeltpunt tensy dit nagegaan is nie."
+  },
+  "kern": [
+    "Dat mense metaal kies om dinge mee te maak juis omdat metaal hierdie eienskappe SAAM het - dit is die les se raam en dit is KABV se eerste inhoudspunt. Koppel elke eienskap hieronder aan een ding uit KABV se eie lys: koperdraad, munte, spykers, potte, messe en vurke.",
+    "REGGEMAAK, 10 September 2026: twee dinge hieronder is deur 'n feitekontrole weerspreek.\n(1) 'n Mens kan die glans NIE met 'n lap terugvryf nie. Aanslag is 'n chemiese laag wat aan die oppervlak gebind is, nie los vuil nie; dit kom af met skuur, met 'n chemiese dip of elektrochemies, en 'n munt wat jare lank gele het, kom nie met 'n lap terug nie. Die LESPUNT oorleef - die glans le onder die laag - maar die handeling moet skuur of vyl of skraap wees, of wys eerder 'n vars gesnyde kant.\n(2) 'SKOON' alleen is nie die reel nie: die oppervlak moet ook GLAD wees. Aluminiumfoelie se blink en dowwe kante is dieselfde skoon aluminium, en 'n skoon gietysterpot is dof. Dit is die blok se SLOTREEL, dus lees 'n leerder dit as die toets.\nLET OOK OP: die rede waarom hierdie vereiste so streng gestel is, was KABV se AKTIWITEITSKOLOM ('maak ou dowwe metaal weer blink'), en Drico het op 9 September 2026 beslis dat daardie kolom nie bind nie. Die dof-word en die glans daaronder bly die moeite werd; die verpligting om 'n manier te wys om dit terug te kry, bestaan nie meer.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\nBlink is 'n eienskap van 'n SKOON metaaloppervlak. Skryf dit so: 'n skoon stuk metaal blink, dieselfde stuk word met tyd dof, en 'n mens kan die glans terugvryf. Moenie sonder meer skryf dat metale blink is nie - KABV se eie aktiwiteit laat leerders ou dowwe metaal weer blink maak, dus sou die les sy eie aktiwiteit weerspreek. Bly by wat 'n mens sien; waarom metaal dof word, hoort by die volgende subonderwerp.",
+    "MY EIE FOUT, AANGETEKEN 11 September 2026. Die weerlegde slytbewering het NIE uit die skrywer gekom nie - sy het uit HIERDIE VELD gekom. My regstelling van vanoggend het self geskryf 'en die mes se skerp kant bly lank skerp', die skrywer het dit getrou oorgeneem, en 'n feitenasien het dit dieselfde middag weerle: 'n lem se punt is 'n paar mikron breed en 'n mes in gewone huisgebruik moet elke een tot ses maande geslyp word. Ek het 'n bewering voorgeskryf in plaas van 'n fout beskryf, en dit is presies die manier waarop hierdie projek se ergste foute ontstaan. Daardie klousule is nou uit die veld gehaal, nie net onder 'n merker gesit nie, sodat geen volgende hersiening haar as 'n bestelling kan lees.\n   WAT BLY: hardheid word gekoppel aan 'n duik of 'n kras op een plek, en die vormbehoud onder druk leef in die STERK-blok. Die les is op 11 September 2026 goedgekeur met daardie sin GESNY en niks in sy plek nie - 'n dekkingsnasien het bevestig dat die blok niks verloor.\n\nREGGEMAAK, 11 September 2026, na 'n TWEEDE feitenasien, en dit is die vorige regstelling se eie nuwe sin wat oorvra. Die nuwe gevolgtrekking - hard, DUS kry 'n mes en 'n vurk nie maklik 'n duik of 'n kras nie - is bevestig en is naby aan die omskrywing van hardheid self; sy bly. Die TWEEDE sin wat saam bygekom het, ''n mes se skerp kant slyt ook nie gou weg nie', is plat gestel sonder vergelyking en is so nie waar nie: 'n lem se punt is 'n paar mikron breed en verloor met elke sny 'n bietjie metaal; 'n mes in gewone huisgebruik moet elke een tot ses maande geslyp word, en goedkoop vlekvrye kombuismesse word gouer stomp. Die MEGANISME daaragter is gesond - slytweerstand styg saam met hardheid - net die onverskansde vorm is vals.\n   TWEE PAAIE, EN DIE SKRYWER KIES: vernou dit (metaal se kant hou VEEL LANGER as een van hout of plastiek, maar dit word stomp en moet geslyp word), OF sny die sin heeltemal - die duik-en-kras-sin dra die hardheidspunt reeds en die blok verloor niks.\n   LET OP BY DIE BUURMAN: die STERK-blok se teenstelling gebruik nou byna dieselfde woorde as die nuwe hardheidsin ('n duik of 'n kras). Dit is geen fout nie, maar kyk dat die twee blokke nie soos 'n herhaling lees nie.\n\nALLES HIERONDER BLY GELD.\n\nREGGEMAAK, 11 September 2026, na 'n feitenasien: DIE 'DAAROM' HANG AAN DIE VERKEERDE EIENSKAP. Die konsep skryf 'die meeste metale is hard en DAAROM hou 'n mes en 'n vurk hulle vorm'. Die kwantifiseerder is reg; die gevolgtrekking is nie. Hardheid is weerstand teen 'n duik of 'n kras op EEN PLEK; dat 'n hele voorwerp sy vorm hou wanneer daar aan getrek of op gedruk word, is sterkte en styfheid. Die les weerle homself twee blokke later woordeliks: 'Hard gaan oor 'n duik of 'n kras op een plek. Sterk gaan oor die hele stuk wat breek of heel bly.' Koppel hardheid aan wat dit werklik verklaar - 'n mes en 'n vurk kry nie maklik 'n duik of 'n kras nie - en laat die vormbehoud onder druk oor aan die STERK-blok, waar die les dit self plaas.\n\nALLES HIERONDER BLY GELD.\n\nDie MEESTE metale is hard. Die kwantifiseerder is verpligtend. Vernou die KWANTIFISEERDER en nooit die onderwerp nie: 'die meeste metale is hard' is reg, 'metaal is hard aan die buitekant' is 'n ander en valse bewering. Gebruik graad 4 se sin van hardheid - dit gee nie mee wanneer jy met jou duim daarop druk nie. MOENIE 'n sagte metaal by die naam noem nie: dit koop niks, dit kos woorde, en dit voeg nog 'n bewering by om na te gaan. Die kwantifiseerder doen die werk.",
+    "REGGEMAAK, 10 September 2026: die grens tussen HARD en STERK is NIE stoot teenoor trek nie, en 'n feitekontrole het die konsep se twee sinne daaroor weerspreek. Hardheid is weerstand teen 'n PLAASLIKE duik of kras; sterkte is weerstand teen breek onder 'n las - en 'n las kan 'n stoot wees: beton is sterk onder druk en swak onder trek. Soos dit gestel was, sluit dit juis die dra-betekenis van 'sterk' uit wat KABV in dieselfde graad se struktuur-onderwerp gebruik. Die twee eienskappe BLY apart - dit was reg - maar die onderskeid moet plaaslike duik teenoor breek onder las wees. Albei sinne in die konsep dra die fout, dus moet albei saam reggemaak word.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\nDie MEESTE metale is sterk, met dieselfde verpligte kwantifiseerder en dieselfde reel oor wat vernou word. Gebruik graad 4 se sin van sterkte - dit hou heel wanneer jy daaraan trek. Hou hard en sterk APART: hulle is nie dieselfde eienskap nie, en die afgelewerde graad 4-les bou 'n hele blok op daardie onderskeid. KABV lys albei woorde langs mekaar, wat dit maklik maak om hulle in een sin saam te gooi.",
+    "Smeebaar: metaal kan gevorm word. Skryf dit waarneembaar - 'n stuk metaal word in 'n nuwe vorm geslaan of gedruk en dit breek nie, dit bly een stuk. Dit is waarom 'n pot 'n pot se vorm kan kry.",
+    "Metaal kan in dun drade gemaak word sonder om te breek, en koperdraad is KABV se eie voorbeeld daarvan. DIE WOORD HIERVOOR IS 'buigbaar', EN DIT KRY 'N BEGRIP-INSKRYWING: \"Materiaal wat in dun drade getrek kan word sonder om te breek.\" BESLIS DEUR DRICO, 9 September 2026: Graad 5 gebruik KABV se woord 'buigbaar' vir die eienskap dat metaal in dun drade getrek kan word. Bewoording: \"Materiaal wat in dun drade getrek kan word sonder om te breek.\" Dit staan in kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json en in kaps/beskermde-woorde.json. Lei die woord altyd met die draadbeeld in. Klei mag nie 'n voorbeeld wees nie, en 'smeebaar' bly 'n aparte eienskap. Nooit 'rekbaar' nie. (Die vorige weergawe van hierdie item het die teenoorgestelde beveel, uit die tyd voor die beslissing.)",
+    "REGGEMAAK, 10 September 2026: 'of 'n stoof se plaat' MOET UIT. Dit is vals - 'n elektriese plaat wat rooi gloei is ongeveer 700 grade, bo aluminium se smeltpunt van 660, en 'n gasvlam loop naby 1950. Vra NET die vergelyking met kookwater, wat waar is. Die egte rede waarom 'n mens elke dag in 'n metaalpot kan kook, is die water wat die pot naby kookpunt hou, en die konsep se dit reeds. Ek het hierdie regstelling eers net by die feiterisiko geskryf en NIE hier nie, en 'n dekkingsnasiener het uitgewys dat dekking teen KERN toets - dus sou die volgende rondte die stoofvergelyking as ontbrekend rapporteer en die vals bewering terugsit.\n\nLET WEL, 10 September 2026: NET die stoofvergelyking is teruggetrek. Alles anders hieronder GELD STEEDS en is verpligtend - die 'MEESTE metale'-kwantifiseerder, die omkeer teenoor alledaagse hitte, en die reel dat 'smelt' graad 4 se bewoording woord vir woord kry. Die etiket hieronder het die hele res as verby gemerk, wat 'n volgende skrywer sou laat dink hy mag hulle laat val.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\nTEKS HIERONDER, met NET die stoofklousule oortref: Die MEESTE metale smelt eers by baie hoe temperature - baie warmer as kookwater of 'n stoof se plaat. Die kwantifiseerder is verpligtend, want hoog is relatief en sommige metale smelt selfs in warm water. Die nuttige punt vir 'n leerder is die keersy: in alledaagse hitte bly metaal vas, en dit is waarom 'n pot van metaal op 'n stoof kan staan. Gebruik graad 4 se ooreengekome bewoording van 'smelt' woord vir woord as die woord 'n begrip-inskrywing kry.",
+    "Metale kom uit die Aarde. Een of twee sinne: mense grawe klip uit die grond wat metaal in het, en haal die metaal daaruit. Dan STOP - KABV se voetnoot gee hoe en waar aan Sosiale Wetenskappe. Die halwe sin oor die klip is nie 'n ekstra nie: sonder dit lees 'gemyn' asof 'n mens 'n klaargemaakte metaalpot uit die grond grawe."
+  ],
+  "feiterisiko": [
+    {
+      "risiko": "Blink as 'n onvoorwaardelike eienskap van metale.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat metaal altyd blink, en dus dat 'n dowwe stuk metaal nie metaal is nie.",
+      "hoekom_dit_saak_maak": "KABV se eie aktiwiteit is om ou dowwe metaal weer blink te maak. 'n Les wat se metale is blink, weerspreek die klaskamerwerk wat langs hom loop."
+    },
+    {
+      "risiko": "Hard en sterk sonder kwantifiseerder.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat elke metaal hard is en elke metaal sterk is. Lood en natrium is sag.",
+      "hoekom_dit_saak_maak": "KABV self skryf ''n paar eienskappe van metale', nie 'die eienskappe' nie. Let op die versagtingsvalstrik: vernou die kwantifiseerder ('die meeste metale is hard'), moenie die onderwerp vernou nie ('metaal is hard aan die buitekant'), en moenie die bewering in 'n nie-bewering verander nie ('metaal kan hard wees')."
+    },
+    {
+      "risiko": "Smelt by hoe temperature as 'n absolute reel.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat geen metaal by 'n lae temperatuur smelt nie. Sommige metale smelt in warm water, en een is by kamertemperatuur klaar vloeibaar.",
+      "hoekom_dit_saak_maak": "REGGEMAAK, 10 September 2026: 'warmer as 'n stoof' is VALS en hierdie veld het dit bestel. 'n Elektriese plaat wat rooi gloei is ongeveer 700 grade, bo aluminium se smeltpunt van 660; 'n gasvlam loop naby 1950 grade. Die egte rede waarom 'n mens elke dag kan kook, is die water wat die pot naby kookpunt hou - en die konsep se eie voorafgaande sinne se dit reeds. Die relatiwiteit bly nodig; kies iets waar dit waar is. Die sin wat hierop volg ('Daarom kan 'n mens elke dag...') hang hieraan en moet saam nagegaan word.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\n'Hoog' is relatief tot iets, en die les moet se relatief tot WAT - warmer as kookwater, warmer as 'n stoof."
+    },
+    {
+      "risiko": "Glans as 'n toets vir metaal.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat iets wat blink metaal is. Glas, water en 'n nat klip blink ook.",
+      "hoekom_dit_saak_maak": "Die les stel vyf eienskappe langs mekaar. Elke sin kan waar wees en die prentjie steeds vals, as die leerder wegloop met een eienskap as die toets. Die eienskappe werk SAAM, en dit is die openingsblok se werk."
+    },
+    {
+      "risiko": "Die begrip-inskrywing vir 'myn', ALLEEN gelees. BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n steenkoolmyn of 'n diamantmyn nie 'n myn is nie.",
+      "hoekom_dit_saak_maak": "'Om klip met METAAL in uit die grond te grawe' maak metaal 'n VOORWAARDE. Myne haal ook steenkool, diamante, kalksteen en klipsout uit. Maak metaal die VOORBEELD, nie die voorwaarde nie. Die studieblok oor metaal wat uit die Aarde kom, is reg en hoef nie te verander nie."
+    },
+    {
+      "risiko": "Die leerder se eie kombuis. BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat die potte en die messe en die vurke ALMAL van metaal is.",
+      "hoekom_dit_saak_maak": "Dit staan een sin nadat die les die leerder gevra het om te gaan kyk, dus toets sy eie oe dit dadelik. Glas-, erdewerk- en kleikookgoed is alledaags, en 'n mes se hef is gewoonlik plastiek of hout. Vernou die kwantifiseerder, nie die onderwerp nie."
+    },
+    {
+      "risiko": "'buigbaar'. TER INLIGTING, 10 September 2026 - GEEN AKSIE NODIG.",
+      "valse_gevolgtrekking_om_te_vermy": "Geen.",
+      "hoekom_dit_saak_maak": "'n Feitenasiener het dit as 'n oop vraag opgestel: KABV se Afrikaanse teks gebruik 'buigbaar' vir rekbaar, terwyl gewone Afrikaans dit vir buigsaam gebruik. DRICO HET DIT REEDS BESLIS op 9 September 2026 - 'ons doen buigbaar' - en die ooreengekome bewoording ('Materiaal wat in dun drade getrek kan word sonder om te breek') staan op die vaklys en in kaps/beskermde-woorde.json. Niks verander nie."
+    },
+    {
+      "risiko": "BYGEVOEG, 10 September 2026, uit 'n feitenasien: die pot wat 'omtrent so warm soos kookwater en nie warmer nie' is.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat die pot nie warmer as die water word nie. Water kook net teen 'n oppervlak wat 10 tot 30 grade warmer is as die water self; gemete panbodems met kookwater binne loop 102 tot 125 grade. As die pot nie warmer was nie, sou geen hitte in hom invloei nie.",
+      "hoekom_dit_saak_maak": "Die meganisme wat die blok leer is reg en bly: die pot bly honderde grade onder waar die metaal sou smelt. Vernou net die bewering - 'n bietjie warmer as kookwater - eerder as om te ontken dat hy warmer word."
+    },
+    {
+      "risiko": "BYGEVOEG, 10 September 2026, uit 'n feitenasien: die blokopskrif 'Blink hoort by 'n skoon stuk metaal'.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat skoon genoeg is om blink te wees. Aluminiumfoelie se dowwe kant is presies dieselfde skoon aluminium as die blink kant; dit is dof omdat dit nooit teen die gepoleerde rollers gekom het nie.",
+      "hoekom_dit_saak_maak": "Die blok se eie laaste sin het die voorwaarde reg - skoon EN glad. Die opskrif dra net die helfte. Verander die OPSKRIF; die teks is reg en word nie aangeraak nie."
+    }
+  ],
+  "aanvulling": [],
+  "aanvulling_nota": "Geen. Alles hier staan in KABV se inhoudskolom, sy voetnoot of sy hulpbronkolom. Die enigste kandidaat was die halwe sin dat metaal uit klip gehaal word, en dit is nie aanvulling nie: dit is wat KABV se eie woord 'gemyn' beteken, en sonder dit is die sin misleidend.",
+  "moeilike_konsepte": [],
+  "moeilike_konsepte_nota": "Doelbewus geen. Die toets is nie of iets moeilik is nie, maar of daar enige konkrete manier is om dit te stel. Al vyf eienskappe is direk met die hande waarneembaar - druk, trek, kyk, warm maak - dus is die konkrete stelling self die verduideliking, en 'n vergelyking sou net herhaal wat die studieteks klaar konkreet se. Die standaard se eie verstek is geen.",
+  "termdig": true,
+  "termdig_nota": "REGGEMAAK, 10 September 2026: hierdie veld het gese 'eienskap' kry graad 4 se bewoording as dit ingesluit word. 'n Feitenasien het gewys dat daardie sin - 'Iets wat 'n materiaal doen of is, en waaraan jy dit uitken' - ALLEEN GELEES se dat EEN eienskap 'n materiaal uitken. Hierdie les se eie openingsblok ontken dit uitdruklik, en dit is presies die wanbegrip waarteen die hele les gebou is. Die eerste helfte is reg en bly; die uitken-helfte moet meervoud word, sodat dit die eienskappe SAAM is wat help. Die skrywer kies die bewoording. Graad 4 bly soos afgelewer.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\nKABV noem vyf eienskappe by die naam, en 'smeebaar' plus die drade-eienskap is nuut vir 'n graad 5. Verwag vier tot ses begrip-inskrywings. 'metaal' is NIE een van hulle - REGGEMAAK, 10 September 2026: hierdie veld het dit verwag terwyl buite_bestek se eerste inskrywing se KABV gee geen omskrywing van 'n metaal nie en vra ook nie een nie. Die twee velde het mekaar weerspreek en buite_bestek wen, want die les ken metaal aan sy GROEP eienskappe uit en 'n inskrywing sou 'n omskrywing moet gee wat nie bestaan nie. Verwag dus: smeebaar, smelt (graad 4 se bewoording woord vir woord) en die eienskapswoorde wat nie in graad 4 omskryf is nie. 'eienskap' self kry die GRAAD 5-bewoording woord vir woord as dit ingesluit word: \"Iets wat 'n materiaal doen of is. Jy ken 'n materiaal aan sy eienskappe saam uit.\" Dit staan in kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json en bind drie graad 5-lesse. Moenie tot 'n getal opvul nie.",
+  "fokusvraag_skakel": "Wys watter eienskappe metaal het, en hoe elkeen daarvan pas by 'n ding wat mense van metaal maak - draad, munte, spykers en potte.",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "beslissings_vir_drico",
+    "buite_bestek",
+    "diepte_grens",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "fokusvraag_optelling",
+    "geen_vrae",
+    "graad",
+    "graad_4_oordrag",
+    "herkoms",
+    "kaps_bron",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "reeds_beskermde_woorde",
+    "registerwaarskuwing",
+    "skema_weergawe",
+    "teks_kom_eerste",
+    "totale_begroting",
+    "totale_begroting_nota",
+    "vak",
+    "verdeling_nota"
+  ],
+  "_afgelei_stempel": "sha256:8172aafe4e88dff3ea07ea5422916bc4"
+}

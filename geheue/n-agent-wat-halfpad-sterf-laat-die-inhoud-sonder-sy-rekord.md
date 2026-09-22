@@ -46,6 +46,14 @@ sentences after it are its evidence, and it said so plainly instead of letting i
 verified. That is the behaviour to want: an unverified claim flagged rather than
 inherited.
 
+**A second way it goes wrong: the file itself is cut off.** 18 September 2026. A writer
+stopped by a false safety flag left the frame-structures draft at **867 bytes**, cut off
+mid-string, a minute after the last commit. The next writer misread it as "one very long
+line my reader cannot see" and asked for a reformat. Nothing in the pipeline parses a
+draft until the gate runs. **After any agent dies, parse every draft it could have
+touched** (`json.load`) before briefing anyone. If one fails, restore it from git; the
+last commit is the good copy.
+
 Related: [[voor-jy-stop-se-wat-loop]], [[n-verslag-bestaan-nie-omdat-die-agent-so-se]],
 [[spesifikasies-word-nooit-nagegaan]] (its later section on the note being an unchecked
 claim about the text).

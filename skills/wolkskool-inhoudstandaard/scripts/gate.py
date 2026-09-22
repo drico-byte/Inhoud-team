@@ -147,6 +147,15 @@ ELI10 = {"sent_min": 9.0, "sent_max": 13.5, "syl_max": 1.50, "poly_max": 11.0}
 BLOCK_WORDS_MIN, BLOCK_WORDS_MAX = 30, 110
 BLOCKS_MIN, BLOCKS_MAX = 3, 10
 BUDGET_TOLERANCE = 0.15
+
+# Per-lesson word band per grade, mirroring spec_check.py's LESBAND. spec_check
+# holds the BUDGET to this band; nothing held the MEASURED draft to it, and the
+# two can part company: a budget at the top of the band plus the +15% tolerance
+# allows a draft well over the ceiling. A 530-word budget passed a 605-word
+# Grade 5 draft on 10 September 2026, 55 words above Drico's ceiling, silently.
+# It warns rather than fails: the band is Drico's planning range from his own
+# count of real lessons, and delivered lessons predate it.
+LESBAND = {4: (350, 450), 5: (300, 550)}
 COMMA_MAX = 0.35
 # List items are checked on their own terms rather than as prose.
 LIST_ITEM_GUIDE, LIST_ITEM_MAX = 18, 28
@@ -280,6 +289,11 @@ def run(lesson, grade, budget):
         fails.append(f"{label} {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
     elif sm["words"] > hi:
         fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
+    # NB: not named 'band' — that name holds the REGISTER band and is read below.
+    lesband = LESBAND.get(grade)
+    if lesband and sm["words"] > lesband[1]:
+        warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson band ceiling {lesband[1]} "
+                     f"— the budget ({budget}) plus tolerance allows it, but the band does not")
 
     # --- chunking ---
     # Only explanatory lessons are chunked. A lesson whose volume is carried by a

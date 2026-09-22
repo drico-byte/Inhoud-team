@@ -1,65 +1,43 @@
 ---
 name: gr4-sw-waar-ons-is
-description: "Gr 4 Sosiale Wetenskappe as at 9 September 2026, end of day: Term 4 in its final rounds with three signed off; all five Terms 1-3 sub-topics now open, and one curriculum decision blocking a category name across five lessons."
-metadata: 
-  node_type: memory
+description: Gr 4 Sosiale Wetenskappe — Kwartaal 1 (plaaslike geskiedenis) is four of five signed off with lesson 3 in its last fact check; the other three sub-topics still carry unbriefed findings.
+metadata:
   type: project
-  originSessionId: f21c597a-2944-4014-bf02-c866813c3fa2
-  modified: 2026-09-09T11:44:00.561Z
 ---
 
-State as at **9 September 2026, end of the working day**, counted from the report
-files on disk rather than by asking the runner — the runner archives finished
-reports as outdated and demands the checks again
-([[moenie-die-hardloper-vra-oor-n-nagesiende-les-nie]]).
+**Kwartaal 1, plaaslike geskiedenis — five lessons, essentially done (18 September 2026).**
+Lessons 1, 2, 4 and 5 are signed off with PDFs. Lesson 3 is gated and coverage-approved,
+waiting only on its fact check.
 
-## Kwartaal 4 — `kommunikasie-oor-tyd-heen`, 11 lessons
+What that quarter cost, because it is the reference for the rest of the subject:
 
-Signed off: lessons **2, 6 and 7**. Lesson 5 (the typewriter) and lesson 1 (the
-San) are in their next round. Lessons 3, 10 and 11 carry live fact findings.
-Lessons 4, 8 and 9 need their final rounds.
+* **Budgets moved twice.** Drico set 200 a lesson on 7 September as a deliberate exception
+  under the Grade 4 floor. Lesson 3 went 200 → 250 → 265 and lesson 2 went 200 → 230 → 240,
+  each rise named in a budget note against the specific correction it paid for. Lessons 1, 4
+  and 5 stayed at 200. Term 1 budgets 1105 words against the 1000 first set.
+* **The fourth kind of source was renamed** from *argeologiese bronne* to **voorwerpbronne**,
+  after four independent fact checks arrived at it without ever seeing the spec. The
+  deciding argument: this is *local* history, and the objects a nine-year-old can pick up —
+  a grandmother's pot, an old school badge, a coin — are object sources and almost never
+  archaeological ones. Archaeology is a discipline, not a kind of source. This is the
+  subject's **first deliberate divergence from a video**, recorded as one in every video
+  seam. *Argeoloog* survives as the person who digs up the old ones.
+* **The word itself is still open.** Two checkers found *voorwerpbronne* in no source;
+  *materiële bronne* is attested. Its protected-words entry now ASKS the outside Afrikaans
+  check rather than forbidding change. If it comes back against, the replacement goes
+  through all three lessons and the agreed-wordings file together.
+* **Zero glossary drift** across the subject, measured for the first time against a correct
+  scope — see [[n-skoon-toets-is-so-wyd-soos-sy-omvang]].
 
-Lesson 11's ~27-word overrun is **approved** — Drico's words, *"27 over ceiling
-is okay"*. Do not trim it.
+**The other three sub-topics still have outstanding work**, all of it recorded in their
+specs and none of it briefed:
 
-## Kwartaal 1-3 — 19 lessons, and all five sub-topics are now open
+* **leer-van-leiers** — les 1's *eienskap* entry needs a fourth fix; les 2, 3 and 4 have
+  findings recorded from 11 September that never reached a writer.
+* **kommunikasie-oor-tyd-heen** — the post lesson (les 3) has two findings and three words
+  of headroom; les 4 (radio) has five live findings that never reached a writer; les 1, 8,
+  9, 10, 11 outstanding.
+* **vervoer** (water, land, lug) — water les 1/2 and lug les 1/2/3 outstanding.
 
-| Sub-topic | Lessons | Note |
-|---|---|---|
-| `leer-van-leiers` | 4 | lesson 1 coverage approved; all four have checkers out |
-| `plaaslike-geskiedenis` | 5 | lesson 1 signed off; 2 revising; 3-5 opening |
-| `vervoer-op-water` | 2 | lesson 1's draft clean and its spec swept; lesson 2 at its narrow ELI10 pre-check |
-| `vervoer-op-land` | 5 | lessons 3 and 5 partly checked; 1, 2 and 4 outstanding |
-| `vervoer-in-die-lug` | 3 | lesson 1 opening; 2 and 3 have coverage, facts outstanding |
-
-## What still owes a decision, not a check
-
-* **Is the fourth source type "argeologiese bronne" or the broader "voorwerpe"?**
-  The curriculum bullet says *inligting vanaf voorwerpe*; "archaeological
-  sources" is the teaching convention layered on it, and it is also the video's
-  word. Defined narrowly (*things people left behind long ago*) the type cannot
-  carry the present-day question, which the curriculum puts it under. Dropping
-  the present-or-past split works under either choice and is what
-  `plaaslike-geskiedenis` lesson 2 is being revised to do — but renaming would
-  touch five lessons, the shared wordings and the video. **Drico's call.**
-* **Does the San lesson's hand-sign material get its own requirement?** The
-  danger-warning claim was cut for having no documented basis in words. Hand
-  signs *are* documented, and are used because speech frightens game.
-* **A deliberate fact check of the reference example.** Four boiler wordings and
-  a false piston definition were found in it by accident, in the one file every
-  writer in every subject copies from — see
-  [[die-verwysingsles-word-nooit-nagegaan]]. The highest-leverage check
-  available.
-* **Do the two history sub-topics genuinely need no ELI10 block?** Every lesson
-  in both flags no difficult concept, and the gate warns about it each time.
-
-The provenance-note leak is **closed**: the runner now hands the fact checker a
-copy with the note stripped. Drico's decision, 9 September 2026 — see
-[[die-herkoms-nota-lek-die-spek-na-die-feitenasiener]].
-
-## After the checks, in order
-
-Sign-off and PDF export per lesson, then the Afrikaans check (outside this
-pipeline, and it will undo decisions not written into the protected-words file —
-see [[onaantasbare-woorde-vir-die-taalnasiener]]), then the HTML build and the
-HTML check.
+`bin/laat-regstellings.py` names 20 lessons across the subject where a fact-risk note is
+newer than the field that ordered the error. That list is the cheapest place to start.

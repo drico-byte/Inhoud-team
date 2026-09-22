@@ -1,0 +1,331 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "graad": 5,
+  "kwartaal": 1,
+  "kaps_onderwerp": "Lewe en Lewende Dinge",
+  "kaps_onderwerp_nota": "KABV se Graad 5 Termyn 1-bladsy dra twee kennisafdelings in sy kop: 'NATUURWETENSKAPPE: LEWE EN LEWENDE DINGE' en 'TEGNOLOGIE: STRUKTURE'. Hierdie subonderwerp val heeltemal onder die eerste. Die tegnologie-helfte van die kop hoort by die buurman op dieselfde bladsy, 'Geraamtes as strukture', waar leerders 'n model van 'n geraamte bou. Niks in hierdie spesifikasie is tegnologie-inhoud nie.",
+  "kaps_subonderwerp": "Voedselkettings",
+  "kaps_subonderwerp_nota": "Dit is KABV se eie inskrywing in die 'Onderwerp'-kolom. Let op die botsing wat maklik verwarring skep: die subonderwerp heet 'Voedselkettings', maar sy enigste inhoudsopskrif heet 'Voedsel en eetgewoontes' en dra veel meer as net kettings.",
+  "kaps_ure": 5.25,
+  "kaps_ure_nota": "Slegs inligting. KABV gee 1 1/2 week (5 1/4 uur) vir hierdie subonderwerp. NIKS in hierdie spesifikasie is daaruit afgelei nie, en kontakure is nooit 'n begrotingsbasis nie: klastyd hou bespreking, tekenwerk en die orden-die-prente-aktiwiteit in, nie net lees nie.",
+  "kaps_bron": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, gedrukte bladsy 33 (PDF-bladsy 38) vir die inhoud, en gedrukte bladsy 34 (PDF-bladsy 39) vir Termyn 1 se assesseringsriglyne. Die PDF loop vyf bladsye voor die gedrukte nommers.",
+  "fokusvraag": "Waar kom die kos vandaan wat 'n dier eet, en hoe hang plante en diere deur kos aan mekaar vas?",
+  "fokusvraag_nota": "Deur die beplanner gestel, nie aangehaal nie. KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag soos Sosiale Wetenskappe nie. Hierdie een is uit KABV se eie materiaal gebou: die inhoudsopskrif 'Voedsel en eetgewoontes', die onderwerpnaam 'Voedselkettings', en die kwartaal se assesseringsriglyn 'toon die skakels en verhoudings aan in verskillende voedselkettings'. Die twee helftes val presies op die twee lesse.",
+  "fokusvraag_optelling": "Les 7 lewer die eerste helfte: plante maak hul eie kos, diere kan dit nie, en elke dier se kos kom uiteindelik by 'n plant uit. Les 8 lewer die tweede helfte: die voedselketting is die vorm waarin daardie verhouding staan, met 'n vaste volgorde en energie wat daarlangs loop. Geen les word gevra om albei helftes te dra nie.",
+  "profiel_konfig": "gr5-nwt-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "0 beteken hier ONGEMEET, nie 'die boek dek dit nie'. Geen graad 5-handboek is geprofileer nie, en dit is 'n besluit en nie 'n agterstand nie. Onder die 'vereistes'-basis is hierdie veld nie die anker nie en niks word daaruit afgelei nie. Moenie 'n getal hier intik om dit te laat lyk of daar gemeet is nie.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "Elke les kry sy eie getal uit die hoeveelheid KABV-inhoud wat dit werklik dra, en nie uit 'n meting wat eweredig gedeel is nie. Twee redes, albei Drico se bevindings van 9 September 2026. EERSTENS is daar niks om te deel nie, en dit is doelbewus: profiler.py tel ELKE woord op 'n bladsy - aktiwiteitsblokkies, vraagpanele, byskrifte, opskrifte - en ons lesse bevat niks daarvan nie, want aktiwiteite behoort aan die uitlegspan. 'n Begroting wat so afgelei is, vra dus 'n hele bladsy se woorde as suiwer prosa. TWEEDENS is lesse werklik verskillende lengtes: hy het met die hand nagetel en 'n les van 140 woorde en een van 525 in dieselfde graad 5-boek gekry. Eweredige verdeling sou juis daardie verskil doodmaak, en 'n les wat opgeblaas word om 'n getal te haal, is waar versinde meganismes vandaan kom. Die graad 5-band 300-550 geld nog steeds vir albei lesse, en albei val binne die band sonder uitsondering. Kontakure is nie gebruik nie.",
+  "totale_begroting": 815,
+  "totale_begroting_nota": "435 + 380. Dit is die som van twee afgeleide getalle, nie 'n meting nie, en dit is nie 'n pariteitsanker teenoor enige handboek nie.",
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "Die KABV-dokument self, direk gelees (Graad 5 Termyn 1-inhoudstabel, PDF-bladsy 38, met sy voetnote, plus die kwartaal se assesseringsriglyne op PDF-bladsy 39, en die aangrensende Graad 5-tabelle om die grense te plaas). Verder: die opdrag se lesverdeling van Drico, profiele/gr5-nwt-profiel.json, kaps/gedeelde-omskrywings.json (graad 4 se lys, slegs om botsings op te spoor), kaps/beskermde-woorde.json en die inhoudstandaard se woordkeuselys. GEEN handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitvoer of beskrywing van 'n handboek se indeling het enige deel van hierdie spesifikasie geraak. Geen handboek is vir graad 5 geprofileer nie, dus was daar ook nie 'n meting om te lees nie.",
+    "goedkeuringstatus": "KONSEP. Nog nie deur 'n mens goedgekeur nie. 'n Mens skuif dit na spesifikasies/goedgekeur/ voordat enige les geskryf word; die beplanner keur nie sy eie werk goed nie."
+  },
+  "verdeling_nota": {
+    "besluit": "Twee lesse uit een KABV-inhoudsopskrif. Dit is Drico se eie besluit - sy nota op die jaarplan lees 'Ek verdeel die Voedsel en eetgewoontes op caps in twee lesse' - en dit is teen die KABV-dokument bevestig. MOENIE dit herlei of 'regmaak' nie.",
+    "hoekom_dit_werk": "KABV se enkele opskrif 'Voedsel en eetgewoontes' dra vyf inhoudspunte wat oor twee heeltemal verskillende idees strek: hoe kos gemaak en geeet word, en hoe die kos-verhoudings in 'n ketting staan. Die naat val tussen KABV se derde en vierde punt, waar die dokument self van eetgewoontes na kettings oorskakel.",
+    "naat": "Les 7 gaan oor EET (wie maak kos, wie soek kos, watter soort eter is wat). Les 8 gaan oor die KETTING (die vorm, die volgorde, en die energie wat daarlangs loop).",
+    "uniek_in_die_graad": "Dit is die enigste plek in graad 5 waar ons lestal KABV se opskriftal oorskry. Oral elders bly dit een les per opskrif. As iemand later 'n patroon hier soek, is daar nie een nie - dit is 'n enkele beslissing oor 'n enkele oorvol opskrif.",
+    "dekking_verloor_niks": "Al vyf KABV-inhoudspunte word volledig gedek, en elke item wat KABV by die naam noem (die sewe lewensprosesse, herbivore, karnivore, omnivore, die drie skakels van die ketting) staan in een van die twee kern-lyste."
+  },
+  "co2_besluit": {
+    "wat_kaps_doen": "KABV gebruik TWEE woorde vir dieselfde gas in dieselfde paragraaf: 'koolstofdioksied uit die lug' in die eerste helfte van die sin, en 'Plante gebruik koolsuurgas uit die lug' in die tweede. Albei is aangehaal in les 7 se kaps_punte, want ons haal KABV aan soos dit staan.",
+    "ons_keuse": "koolstofdioksied",
+    "hoekom": "Drie redes, in volgorde van gewig. (1) Dit is reeds ons woord: 'koolstofdioksied' kom in graad 4 se goedgekeurde materiaal voor, ook in 'n afgelewerde les se woordelys, en 'koolsuurgas' kom nerens in die hele bewaarplek voor nie. 'n Graad 5-leerder het graad 4 by ons deurloop, dus sou 'koolsuurgas' 'n tweede woord vir een ding oor grade heen skep. (2) Dit is die vakwoord wat in graad 7 tot 12 uitsluitlik gebruik word, en dit koppel reguit aan CO2. (3) 'koolsuurgas' is die ouer alledaagse woord en dra 'n bykomende betekenis - die gas in koeldrank - wat 'n leerder 'n verkeerde prentjie kan gee.",
+    "wat_dit_kos": "Register. 'koolstofdioksied' is ses lettergrepe en sestien letters; dit tel teen die perk van 13% woorde met drie of meer lettergrepe en trek die hek se waarskuwing oor woorde langer as tien letters. Sien 'registerwaarskuwing' hieronder: die woord se voorkomste moet getel word, nie vryelik gebruik word nie.",
+    "reikwydte": "Hierdie keuse moet oor al 29 graad 5-lesse hou, nie net oor hierdie twee nie.",
+    "vir_drico": "GEMERK AS SY BESLUIT OM TE MAAK. Die beplanner het gekies omdat 'n spesifikasie nie twee woorde vir een gas kan aangee nie, maar dit is 'n vakwoordbesluit vir die hele graad en Drico mag dit self wil neem. As hy dit bevestig, hoort dit in kaps/beskermde-woorde.json met die rede daarby, anders draai die taalnasiener dit buite hierdie pyplyn om terug na 'koolsuurgas' - juis omdat 'koolsuurgas' vir 'n Afrikaanse oor natuurliker lees. Die beplanner het NIE self in daardie leer geskryf nie, want die besluit is nog nie geneem nie."
+  },
+  "graad_4_oordrag": {
+    "hoekom_hierdie_afdeling": "REGGEMAAK, 10 September 2026: hierdie veld se die graad 5-lys is leeg, of byna leeg, of mag nie gevul word nie. Alles daarvan is verby. Al 29 konsepte is geskryf, die versoeningsronde is gedoen, en kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json dra nou 19 besliste terme plus twee wat uitdruklik as OOP opgeteken is. Waar 'n term MET 'n bewoording in daardie leer staan, geld GRAAD 5 s'n woord vir woord, ook waar dit graad 4 s'n vervang. Waar 'n term daar staan met 'nog_nie_beslis': true en 'n leeg bewoording, is dit 'n opgetekende oop vraag en nie 'n bestelling nie - hou wat die les reeds het. Waar 'n term glad nie daar staan nie, geld graad 4 s'n. Die hardloper spuit die huidige leer in elke uittreksel in, dus lees die skrywer altyd die regte lys; moenie een hier oorskryf nie.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE.]\n\nkaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json is doelbewus leeg: graad 5 se terme word na al 29 konsepte besluit, nie nou voorspel nie. Graad 4 se lys (kaps/gedeelde-omskrywings.json, 25 terme) bind graad 5 NIE, maar 'n graad 5-leerder het graad 4 deurloop, dus word botsings hier gemerk eerder as stilweg geskep.",
+    "terme_wat_in_albei_grade_voorkom": [
+      {
+        "term": "lewensprosesse",
+        "graad_4_bewoording": "Die sewe dinge wat saam wys dat iets lewe.",
+        "wat_hier_gebeur": "Les 7 roep dit op, dit leer dit nie oor nie. Graad 4 het al sewe elk 'n eie blok en 'n eie begrip-inskrywing gegee.",
+        "botsing_om_te_vermy": "REGGEMAAK, 10 September 2026: 'lewensprosesse' word NIE meer woord vir woord uit graad 4 oorgeneem nie. Graad 5 se sin se nou 'wat GEWOONLIK saam wys dat iets lewe'. Die rede is 'n feitekontrole: die ou sin impliseer dat elke lewende ding al sewe prosesse verrig, en 'n muil plant nooit voort nie en lewe. Die SEWE self verander nie - die telling is 'n onderrigkonvensie en is nie die probleem nie. DRICO SE STAANDE BESLISSING GELD: maak dit beter vir graad 5 en laat graad 4 presies soos afgelewer. Hierdie een woord is die enigste verskil.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\nGEEN nuwe of RYKER omskrywing van 'lewensprosesse' in graad 5 nie - net die een woord hierbo. As die woord 'n begrip-inskrywing kry, is dit graad 4 s'n MET 'gewoonlik' bygevoeg, en niks anders verander nie. [REGGEMAAK, 10 September 2026: hierdie paragraaf het graad 4 se sin WOORD VIR WOORD bestel, wat presies die versagting hierbo weer sou uithaal.]\n\nVIR DRICO, deur die skrywer opgemerk eerder as besleg: of graad 4 se AFGELEWERDE inskrywing dieselfde versagting moet kry. Die staande beslissing se graad 4 bly soos afgelewer, dus is die antwoord waarskynlik nee - maar 'n leerder wat die twee grade se woordelyste langs mekaar lees, sien een sin met 'gewoonlik' en een sonder."
+      },
+      {
+        "term": "die name van die sewe prosesse",
+        "graad_4_bewoording": "voeding, groei, reproduseer, asemhaling, uitskeiding, sintuie, beweging",
+        "wat_hier_gebeur": "KABV se graad 5-punt noem hulle anders: 'om te beweeg, te eet, te groei, sintuie, uitskeiding, asemhaal en voortplanting'. Dieselfde sewe, twee ander woorde: KABV se 'eet' teenoor ons 'voeding', en KABV se 'voortplanting' teenoor ons 'reproduseer'.",
+        "besluit": "Gebruik GRAAD 4 SE NAME (voeding en reproduseer), want 'n leerder het hulle so geleer en het begrip-inskrywings daarvoor. Noem KABV se 'voortplanting' glad nie; 'n derde woord maak dit erger as om dit uit te los. Dit is 'n bewoordingskeuse, nie 'n dekkingsverskil nie - al sewe word gedek.",
+        "beslegte_frase": "'al sewe die lewensprosesse' is 'n opgetekende, beslegte frase (sien woordkeuse.md). Moenie dit 'regmaak' na 'al sewe lewensprosesse' nie."
+      },
+      {
+        "term": "energie",
+        "graad_4_bewoording": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+        "wat_hier_gebeur": "Les 8 se hele tweede helfte hang hieraan. Die graad 4-omskrywing pas presies en word nie uitgebrei nie.",
+        "beskermde_woord": "'energie' is in kaps/beskermde-woorde.json en mag nooit 'krag' word nie."
+      },
+      {
+        "term": "asemhaling en suurstof",
+        "graad_4_bewoording": "asemhaling: 'Om suurstof uit die lug te gebruik om energie uit jou kos te kry.'",
+        "botsing_om_te_vermy": "SIEN feiterisiko in les 7. Dit is die gevaarlikste oordrag in hierdie subonderwerp: as les 7 skryf dat 'n plant koolstofdioksied INASEM en suurstof UITASEM, weerspreek dit graad 4 se eie omskrywing van asemhaling reguit.",
+        "beskermde_woord": "'suurstof' is beskerm en mag nie 'lug' word waar dit oor asemhaling of energie uit kos gaan nie."
+      },
+      {
+        "term": "voeding",
+        "graad_4_bewoording": "Om kos te kry of kos te maak vir jou liggaam.",
+        "wat_hier_gebeur": "Hierdie omskrywing dra albei helftes van les 7 se eerste idee - die plant wat kos MAAK en die dier wat kos KRY - reeds in homself. Gebruik dit soos dit is; moenie dit oorskryf nie."
+      }
+    ],
+    "moenie_die_lee_lys_vul_nie": "Skryf niks in kaps/gedeelde-omskrywings-natuurwetenskappe-gr5.json nie. Terme word bygevoeg nadat al 29 lesse gekonsipieer is, wanneer die konsepte self wys watter terme herhaal."
+  },
+  "diepte_grens": {
+    "fotosintese": "KABV se eie voetnoot: die proses staan bekend as 'fotosintese' en 'Geen verdere besonderhede word in hierdie graad vereis nie, die leerders sal dit in meer besonderhede in hoer grade doen'. NOEM die woord, gee dit 'n begrip-inskrywing, en STOP daar. Geen chlorofil, geen blaargroen, geen glukose of suiker of stysel, geen vergelyking, geen chloroplaste, geen huidmondjies by die naam, geen dag-teenoor-nag. Die drie bestanddele (water, koolstofdioksied, sonlig), die produk (kos vir die plant) en die vrystelling (suurstof) is die volle diepte, want KABV noem hulle self.",
+    "kettinglengte": "KABV se eie aktiwiteit begrens dit: 'orden foto's of getekende prente van plante en diere in die voedselkettings (tot vier organismes)'. Ons bou GEEN ketting langer as vier organismes nie. As 'n langer ketting ooit nodig lyk, moet dit eers gese word en nie stilweg gebou word nie.\n\nLET WEL, BYGEVOEG 9 September 2026: die grens van VIER organismes kom uit KABV se AKTIWITEITSKOLOM, en Drico het beslis dat daardie kolom nie bind nie. Die inhoudskolom se ketting is plant, dan die dier wat die plant vreet, dan die dier wat daardie dier eet. Vier is dus 'n RIGLYN wat die skrywer mag volg, nie 'n vereiste nie. Die afgelewerde konsep gebruik dit reeds en dit is nie verkeerd nie.",
+    "voedselwebbe": "BUITE BESTEK. KABV noem geen web, geen produsent, geen verbruiker en geen ontbinder in graad 5 nie. Dit is later werk. Moenie dit invoer om die ketting 'vollediger' te maak nie.",
+    "getalle": "Geen persentasies oor hoeveel energie by elke skakel oorbly nie. Die tienpersent-reel is nie graad 5-werk nie en is boonop 'n growwe gemiddelde wat maklik as 'n feit gelees word."
+  },
+  "registerwaarskuwing": {
+    "probleem": "Hierdie subonderwerp se eie vakwoorde is byna almal lank. koolstofdioksied (6 lettergrepe), fotosintese (4), lewensprosesse (4), voedselketting (4), herbivoor, karnivoor, omnivoor, energie, uitskeiding, asemhaling (elk 3). Die graad 4-6 band laat hoogstens 13% woorde met drie of meer lettergrepe toe. By 435 woorde is dit ongeveer 57 sulke woorde vir die HELE les, en die vakwoorde alleen kan dit opeet.",
+    "wat_die_skrywer_moet_doen": "Tel die voorkomste voordat jy skryf, nie daarna nie. Noem elke lang vakwoord waar dit die eerste keer nodig is, en gebruik daarna die kort verwysing ('hierdie gas', 'die ketting', 'die drie soorte eters'). Kies die kort alledaagse woord in die res van die sin: 'soos' eerder as 'byvoorbeeld', 'kos' eerder as 'voedsel' waar KABV se woord nie ter sake is nie.",
+    "wat_nie_gedoen_mag_word_nie": "Moenie 'n vakwoord vermy wat KABV noem om die telling te haal nie. herbivoor, karnivoor, omnivoor en fotosintese is verpligtend. Die register word elders gewen, nie deur dekking te laat val nie."
+  },
+  "buite_bestek": [
+    "KABV se aktiwiteit 'orden foto's of getekende prente van plante en diere in die voedselkettings'. 'n Teks kan nie prente laat orden nie; dit staan in die aktiwiteitskolom. Die KENNIS wat die aktiwiteit toets - die volgorde van 'n ketting en die verhouding tussen die skakels - is wel Kern en staan in les 8.",
+    "Die model-bou-werk en die raam-en-dopstrukture van die aangrensende subonderwerp 'Geraamtes as strukture'. Dieselfde bladsy, ander onderwerp.",
+    "Pyle in 'n kettingdiagram en watter kant hulle wys. Ons teks dra geen diagram nie; die volgorde word in woorde gese. Die uitlegspan besluit oor die tekening."
+  ],
+  "geen_vrae": "Geen 'vraag'-blokke. Lesse dra sedert 2026-08-21 geen onthoudvrae nie. Die gevolg wat hier tel: waar 'n vraag vroeer die enigste plek was waar 'n les vir 'n leerder iets waarneembaars gegee het, hoort daardie bewys nou in die studieteks. In hierdie twee lesse is die waarneembare inhoud die konkrete geval - watter dier wat eet, en watter ketting waar loop.",
+  "teks_kom_eerste": "Soos by al die wetenskaplesse word hierdie teks EERS geskryf en die video daarna daarvolgens gemaak. Dit is nie die graad 4 Sosiale Wetenskappe-uitsondering nie en daar is geen video_naat nie. Die teks is dus die vloer en nie die plafon nie: elke blok is 'n verpligting wat die video moet eer, wat 'n verdere rede is om niks by te sit wat nie 'n vereiste dra nie.",
+  "reeds_beskermde_woorde": "REEDS BESKERM - MOENIE WEER AANMELD NIE, 11 September 2026. Nasieners lees nie kaps/beskermde-woorde.json nie, dus meld hulle korrek aan dat 'n beslissing dalk deur die taalnasien ongedaan gemaak kan word. Vir hierdie subonderwerp is dit reeds gedoen:\n  * 'koolstofdioksied' - beslis deur Drico op 9 September 2026 vir ALLE grade, en dit staan in die beskermde-woorde-leer saam met 'koolsuurgas', 'CO2' en 'kooldioksied' as die vorme wat nie mag inkruip nie. KABV self gebruik albei woorde in een paragraaf, dus los die dokument dit nie op nie.\n  * 'hitte' teenoor 'warmte' - ook reeds daar, en NIE as 'n blanko verbod nie: 'hitte' is die energie wat beweeg, 'warmte' is die toestand van warm wees, en albei is reg op hulle eie plek.\n\nAs 'n nasiener een van hierdie twee weer opper, is die antwoord 'reeds gedoen' en nie 'n nuwe rondte nie. Wat WEL nog oop is, word elders in hierdie spek by die naam genoem.",
+  "vak_gedeelde_omskrywings": {
+    "nota": null,
+    "terme": {
+      "geraamte": "Die stewige dele wat 'n dier se lyf ophou en sy sagte dele beskerm.",
+      "gewrig": "Die plek waar twee of meer stewige dele van 'n geraamte bymekaar kom.",
+      "buigbaar": "Materiaal wat in dun drade getrek kan word sonder om te breek.",
+      "inset": "Die energie wat ingaan om iets te laat werk of gebeur.",
+      "uitset": "Al die energie wat uitkom wanneer iets werk of gebeur.",
+      "stelsel": "Dele wat saamwerk om een werk te doen.",
+      "as": null,
+      "oppervlak": "Die buitekant van iets.",
+      "_herkoms": "Natuurwetenskappe en Tegnologie",
+      "substasie": "'n Plek met groot toestelle wat die elektrisiteit se stoot of pad verander.",
+      "korrel": "'n Baie klein stukkie van 'n vaste stof.",
+      "stuifmeel": "Die fyn korreltjies uit 'n blom se manlike deel of 'n manlike keël, wat sade help maak.",
+      "steenkool": "'n Harde swart klip uit die grond wat baie warm brand.",
+      "bogrond": "Die boonste laag grond waarin die meeste plante hulle wortels het.",
+      "brandstof": "Iets wat kan brand en dan sy gestoorde energie afgee.",
+      "gewerwelde diere": "Diere wat 'n ruggraat binne-in hulle lyf het.",
+      "ongewerwelde diere": "Diere wat geen ruggraat in hulle lyf het nie.",
+      "elektrisiteit": "Een manier waarop energie oorgedra word, soos deur die drade van 'n stroombaan.",
+      "raamstruktuur": "Dele wat stewig aanmekaar vas is en saam gewig dra, met oop plekke tussen hulle.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is. Jy ken 'n materiaal aan sy eienskappe saam uit.",
+      "sement": "Stof wat saam met water tussen los stukkies kom en daar hard word. Dit bind hulle aanmekaar tot een vaste stuk, soos in beton.",
+      "spoorfossiel": "'n Fossiel van 'n teken wat 'n plant of dier agtergelaat het, nie van 'n deel van sy lyf nie."
+    }
+  },
+  "vorige_graad_omskrywings": {
+    "graad": 4,
+    "hoe_om_dit_te_lees": "Hierdie is Graad 4 se ooreengekome bewoordings, wat REEDS AFGELEWER is. Hulle BIND hierdie graad NIE. Hulle is hier sodat jy 'n botsing kan RAAKSIEN: 'n leerder in Graad 5 het Graad 4 deurloop, en twee omskrywings van een woord leer twee verskillende dinge. Waar jou graad se eie lys (hierbo) 'n term het, WEN daardie een altyd. Waar dit stilbly en jy gaan van hierdie bewoording verskil, se dit in die spek sodat 'n mens kan beslis - moenie stilweg 'n tweede betekenis skep nie.",
+    "terme": {
+      "asemhaling": "Om suurstof uit die lug te gebruik om energie uit jou kos te kry.",
+      "eienskap": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "elektrisiteit": "Die manier waarop energie deur drade loop tot waar dit nodig is.",
+      "energie": "Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "geraamte": "Die raam binne-in die lyf van 'n dier met 'n ruggraat, wat hom ophou.",
+      "habitat": "Die plek waar 'n plant of 'n dier lewe.",
+      "inset": "Die energie wat by 'n masjien ingaan voordat hy kan werk.",
+      "kondenseer": "Wanneer 'n gas afkoel en weer in 'n vloeistof verander.",
+      "lewensprosesse": "Die sewe dinge wat saam wys dat iets lewe.",
+      "materiaal": "Die goed waarvan iets gemaak is",
+      "onverwerkte materiaal": "Materiaal wat mense net so in die natuur kry.",
+      "raamstruktuur": "Los dele wat aanmekaar sit met oop plekke tussen hulle.",
+      "ru-olie": "Meestal 'n dik donker vloeistof wat onder die grond opgepomp word.",
+      "smelt": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "struktuur": "Iets wat gebou of gevorm is, sy vorm hou en gewig dra of iets beskerm.",
+      "stut": "'n Lang, dun, stywe deel wat 'n gewig dra wanneer daar van sy twee ente af op hom gedruk word.",
+      "trommelvlies": "'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
+      "uitset": "Al die energie wat by 'n masjien uitkom wanneer hy werk.",
+      "verdamp": "Wanneer 'n vloeistof in 'n gas verander. Dit gebeur vinniger wanneer die vloeistof warmer is.",
+      "verwerkte materiaal": "Materiaal wat mense verander het sodat dit ander eienskappe kry.",
+      "vibreer": "Om baie vinnig heen en weer te beweeg.",
+      "voeding": "Om kos te kry of kos te maak vir jou liggaam.",
+      "vries": "Wanneer 'n vloeistof afkoel en in 'n vaste stof verander.",
+      "waterdamp": "Water in die vorm van 'n gas wat niemand kan sien nie.",
+      "kieme": "Baie klein lewende dinge wat 'n mens siek kan maak."
+    }
+  },
+  "nommer": 1,
+  "jaarnommer": 7,
+  "jaarnommer_nota": "Les 7 van 29 vir die graad 5-jaar. Lesnommers loop deurlopend deur die jaar, nie per kwartaal nie. Uit Drico se jaarplan; daar is nog geen kaps/lesindeks-leer vir graad 5 nie, dus is die opdrag self die herkoms. Die 'nommer'-veld hierbo is die volgorde binne hierdie subonderwerp, soos die skema vereis.",
+  "titel": "Plante maak kos, diere soek kos",
+  "titel_nota": "Werktitel en 'n leerderopskrif, nie KABV se etiket nie. KABV se opskrif is 'Voedsel en eetgewoontes' en dit is 'n indeksnaam, nie 'n titel nie. Die skrywer mag dit verbeter solank dit die les se eie naam bly.",
+  "kaps_opskrif": "Voedsel en eetgewoontes",
+  "kaps_punt": "groen plante maak hul eie voedsel en bou hulle takke en stingels deur water, koolstofdioksied uit die lug, en die energie van sonlig; plante gebruik koolsuurgas uit die lug en stel suurstof aan die lug vry; diere het voedsel nodig om hul lewensprosesse uit te voer (om te beweeg, te eet, te groei, sintuie, uitskeiding, asemhaal en voortplanting); alle diere is afhanklik van plante as hulle primere bron van voedsel (herbivore, karnivore en omnivore)",
+  "kaps_punte": [
+    "groen plante maak hul eie voedsel ** en bou hulle takke en stingels deur water, koolstofdioksied uit die lug, en die energie van sonlig. Plante gebruik koolsuurgas uit die lug en stel suurstof aan die lug vry",
+    "diere het voedsel nodig om hul lewensprosesse uit te voer (om te beweeg, te eet, te groei, sintuie, uitskeiding, asemhaal en voortplanting)",
+    "alle diere is afhanklik van plante as hulle primere bron van voedsel (herbivore, karnivore en omnivore)"
+  ],
+  "kaps_punte_nota": "Woordeliks uit KABV, insluitend die ** wat na die fotosintese-voetnoot wys en insluitend die twee verskillende woorde vir dieselfde gas. Geen dubbelpunt is bygevoeg nie, want KABV se punte het nie een nie.",
+  "kaps_voetnoot": "** 'Hierdie is 'n belangrike proses wat bekend staan as fotosintese. Geen verdere besonderhede word in hierdie graad vereis nie, die leerders sal dit in meer besonderhede in hoer grade doen'.",
+  "kaps_assessering": "Termyn 1 se riglyne toets 'n begrip van plante en diere en hulle inter-afhanklikheid. Die afhanklikheid wat hierdie les dra, is die kos-afhanklikheid.",
+  "begroting": 435,
+  "begrotingsnota": "435 woorde, afgelei uit die inhoud self en nie uit 'n meting nie. Die hek meet teen 435 met plus-minus 15%, dus 370 tot 500. Dit val binne die graad 5-band 300-550, dus is geen vloer- of plafon-uitsondering nodig nie. Sewe vereistes, ongelyk van gewig: (A) wat 'n groen plant doen en waarmee, plus die naam fotosintese, ongeveer 110; (B) die suurstof wat vrykom, ongeveer 35; (C) diere kan nie self kos maak nie en het kos nodig vir al sewe die lewensprosesse, ongeveer 80; (D) elke dier se kos kom uiteindelik by 'n plant uit, direk of indirek, ongeveer 75; (E) herbivoor, karnivoor en omnivoor teen ongeveer 45 elk, saam 135. Totaal ongeveer 435.",
+  "begrotingsplan": {
+    "hoekom_meer_as_les_8": "Hierdie les dra sewe afsonderlike vereistes teenoor les 8 se vyf, en drie daarvan (die drie soorte eters) het elk 'n eie naam, 'n eie omskrywing en 'n eie voorbeeld nodig. Dit is presies die verskil wat 'n eweredige verdeling sou weggevee het.",
+    "blokplan": "Ongeveer ses studieblokke: A as een of twee blokke, B by A in of alleen, C een blok, D een blok, en die drie eters as een blok of as drie kort blokke. Die hek se stukkiegids is 3 tot 10 blokke van 30 tot 110 woorde.",
+    "wat_435_woorde_nie_koop_nie": "Geen tweede voorbeeld per soort eter nie. Geen opsomming aan die einde nie. Geen eli10-blok nie (sien moeilike_konsepte). Geen woord oor hoe fotosintese werk nie. Geen aanvulling nie."
+  },
+  "kern": [
+    "REGGEMAAK, 11 September 2026: hierdie item bestel die ONVERSKANSTE vorm - dat GEEN dier dit kan doen nie. 'n Feitenasien het dit weerspreek: koraalpoliepe kry tot 90% van hulle energie uit fotosintese deur alge in hulle weefsel, salamander-embrio's kry vasgelegde koolstof uit alge binne hulle selle, en Elysia-seenaakslakke hou gesteelde chloroplaste maande lank aan die werk. Bestel 'BYNA geen dier', dieselfde verskansing wat kern-item 7 gister om presies dieselfde rede gekry het. Dekking toets teen KERN, dus sou hierdie veld die reggemaakte konsep laat faal het en die volgende rondte die vals sin teruggeskryf het.\n\nDat 'n groen plant sy eie kos maak en dat BYNA geen dier dit kan doen nie - dit is die verskil waarop die hele les staan.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE.]\n\nDat 'n groen plant sy eie kos maak en dat geen dier dit kan doen nie - dit is die verskil waarop die hele les staan",
+    "Dat die plant drie dinge daarvoor nodig het: water, koolstofdioksied uit die lug, en die energie van sonlig",
+    "Dat die plant hierdie kos gebruik om te lewe en om sy eie dele, soos sy takke en stingels, te bou",
+    "Dat hierdie proses fotosintese genoem word - net die naam, en niks verder oor hoe dit werk nie",
+    "Dat die plant suurstof aan die lug vrystel wanneer dit sy kos maak",
+    "Dat 'n dier kos nodig het om al sewe die lewensprosesse uit te voer, en dat hierdie sewe uit graad 4 opgeroep en nie oorgeleer word nie",
+    "REGGEMAAK, 10 September 2026: 'ELKE dier' word 'BYNA ELKE dier'. By diepsee-warmwaterbronne rus hele dieregemeenskappe op chemosintetiese bakteriee en geen plant nie. Die feiterisiko in hierdie einste les het dit reeds gevra en hierdie reel het agtergebly - en DEKKING toets teen KERN, dus sou die volgende rondte 'n korrekte konsep laat faal en die vals bewering terugskryf. Die res van die sin bly onveranderd.\n\n[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE. Die geldende bestelling staan in die opening van hierdie veld. Merker outomaties bygevoeg 10 September 2026, nadat drie velde met 'n reggemaakte opening en 'n ONgemerkte stert elk weer aangemeld is - deur 'n skrywer of 'n nasiener wat nie kon sien watter helfte lewend is nie.]\n\nDat byna elke dier se kos uiteindelik by 'n plant begin: 'n plant-eter kry dit direk van die plant af, en 'n vleiseter kry dit indirek, want die dier wat hy vreet, het plante geeet",
+    "Herbivoor: 'n dier wat net plante eet, met een verifieerbare voorbeeld",
+    "Karnivoor: 'n dier wat net ander diere eet, met een verifieerbare voorbeeld",
+    "Omnivoor: 'n dier wat plante sowel as ander diere eet, met een verifieerbare voorbeeld"
+  ],
+  "feiterisiko": [
+    {
+      "risiko": "Om die plant se gaswisseling as asemhaling te skryf.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n plant koolstofdioksied inasem en suurstof uitasem, en dat dit die plant se asemhaling is.",
+      "hoekom_dit_saak_maak": "Graad 4 se eie begrip-inskrywing lees: asemhaling is 'om suurstof uit die lug te gebruik om energie uit jou kos te kry'. 'n Plant doen dit ook, en juis andersom as wat die valse sin se. Skryf die opname en die vrystelling as deel van KOSMAAK, nie as asemhaling nie."
+    },
+    {
+      "risiko": "Om die suurstof-vrystelling van die kosmaak los te maak.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n plant altyd en heeltyd suurstof afgee.",
+      "hoekom_dit_saak_maak": "Die vrystelling hoort by die kosmaak, en die kosmaak het sonlig nodig. Koppel die twee in dieselfde sin. Moenie dag en nag verduidelik nie - dit is buite die diepte-grens - maar moenie 'altyd' skryf nie."
+    },
+    {
+      "risiko": "KABV se woord 'alle' by 'alle diere is afhanklik van plante'.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n vleiseter self plante nodig het om te eet, of dat 'n leeu gras vreet.",
+      "hoekom_dit_saak_maak": "Die afhanklikheid is eg, maar vir 'n vleiseter is dit INDIREK. Die kern-inskrywing hierbo stel dit reeds so, en die kern is wat die dekkingsnasiener toets. Vernou die skakel (direk of indirek), nie die onderwerp nie: moenie 'diere' na 'party diere' verklein nie."
+    },
+    {
+      "risiko": "Om te skryf dat 'n plant sy kos uit die grond kry.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat grond of kunsmis die plant se kos is.",
+      "hoekom_dit_saak_maak": "Dit is die algemeenste wanbegrip oor hierdie punt, en dit weerspreek KABV se eie lys van drie bestanddele. Die veiligste roete is om die grond glad nie te noem nie, eerder as om die wanbegrip te noem en dan reg te stel."
+    },
+    {
+      "risiko": "Die voorbeelde by die drie soorte eters.",
+      "valse_gevolgtrekking_om_te_vermy": "'n Dier by die verkeerde soort in te deel omdat dit so bekend staan.",
+      "hoekom_dit_saak_maak": "Vermy diere met 'n betwiste of gemengde dieet: jakkals, hoender, muis en erdvark word almal algemeen verkeerd ingedeel. Voorgestelde veilige keuses, wat die feitenasiener nogtans moet bevestig: herbivoor - koei, olifant of springbok; karnivoor - leeu of uil; omnivoor - mens of vark. Kies EEN per soort; die begroting koop nie 'n tweede nie. Waar 'n klassifikasie betwis is, ruil die voorbeeld uit eerder as om 'n kant te kies of te huiwer."
+    },
+    {
+      "risiko": "Die woord 'bene' vir 'n dier se ledemate.",
+      "valse_gevolgtrekking_om_te_vermy": "Geen feitefout nie, maar 'n botsing: hierdie kwartaal se buurles gaan oor geraamtes en beentjies.",
+      "hoekom_dit_saak_maak": "Huisreel uit woordkeuse.md: vir 'n dier skryf ons altyd 'pote'. Hou 'bene' net waar die onderwerp werklik been is."
+    },
+    {
+      "risiko": "LIG, NIE DIE SON NIE. Moenie skryf dat 'n plant sonder die SON nie kos kan maak nie. Fotosintese het LIG nodig; plante onder groeilampe maak kos heeltemal reg. Die sin stel andersins 'n noodsaaklikheid wat vals is.",
+      "veilige_vorm": "Se dit oor lig. Die blok mag steeds sonlig noem as die plant se GEWONE bron - dit is waar en nuttig.",
+      "gevind": "Feitenasien, 10 September 2026, na aflewering van die eerste konsep."
+    },
+    {
+      "risiko": "DIE SPRINGBOK IS NIE 'n SUIWER GRASVRETER NIE. Hy is 'n GEMENGDE vreter: hy wei gras na reen en blaai in die droe seisoen aan karoobossies, blare en blomme, en hy vreet nie die hele dag deur nie.",
+      "veilige_vorm": "Se hy vreet gras EN ook die blare van bossies. Albei kom van plante af, dus bly die volgende sin ('kry sy kos reguit van 'n plant af') net so staan, en die leeu-stap bly heeltemal heel.",
+      "gevind": "Feitenasien, 10 September 2026. LET WEL: hierdie spek noem die springbok steeds by die veilige herbivoor-voorbeelde; hy is bruikbaar, maar net met hierdie bewoording."
+    },
+    {
+      "risiko": "Die sonlig-regstelling het EEN plek uit VIER getref. BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n plant SONLIG nodig het om kos te maak.",
+      "hoekom_dit_saak_maak": "Die studiesin is reggemaak na 'sonder LIG kan 'n plant nie sy kos maak nie', maar die begrip-inskrywing se nog 'die manier waarop 'n groen plant MET SONLIG sy eie kos maak' - dieselfde bewering in omskrywingsvorm, en dit is die een wat 'n leerder opsoek. Fotosintese hang van LIG af, nie van die son nie: plante groei en fotosintetiseer volledig onder LED-kweeklampe. Die les se nou 'sonlig' op drie plekke en 'lig' op een; gaan al vier na. Die sin 'die energie van sonlig wat op die blare val' is REG en bly - dit beskryf wat buite werklik gebeur en stel geen vereiste nie."
+    },
+    {
+      "risiko": "'Die hele dag lank' - TWEE KEER, by die koei en by die bok. BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n herbivoor sonder ophou vreet.",
+      "hoekom_dit_saak_maak": "Beeste vreet 6 tot 10 uur per dag en le 8 tot 12 uur en herkou. 'n Springbok vreet vroegoggend en laatmiddag en rus deur die hitte van die dag in die skaduwee. ALBEI moet saam beweeg, anders dra die les twee stories oor hoe lank 'n dier vreet. Let op: 'n susterles is vandag vir presies dieselfde frase reggemaak - dit is die derde keer, en dit is die moeite werd om raak te sien voordat dit weer geskryf word.",
+      "wat_om_te_skryf": "Vernou net die kwantifiseerder: 'baie ure van die dag'."
+    },
+    {
+      "risiko": "'ELKE dier se kos begin by 'n plant.' BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat geen dier se kos elders begin nie.",
+      "hoekom_dit_saak_maak": "By diepsee-warmwaterbronne rus hele dieregemeenskappe op chemosintetiese bakteriee en geen plant nie. Dit is naby KABV se eie bewoording, dus is dit die moeite werd om te se hoekom ons dit nogtans vernou: DRICO SE REEL, 10 September 2026 - 'we NEVER keep a false claim' - en die goedkoopste van die drie regmaakroetes is hier beskikbaar. 'Byna elke' kos een woord en geen nuwe woordeskat nie. Vernou die kwantifiseerder, hou die onderwerp."
+    },
+    {
+      "risiko": "''n Dier kan nie soos 'n plant kos uit SONLIG EN WATER maak nie.' BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n plant kos uit net twee dinge maak.",
+      "hoekom_dit_saak_maak": "Elke woord is waar, maar dit is die les se ENIGSTE opsomming van waaruit 'n plant kos maak, en dit laat koolstofdioksied uit - die bestanddeel wat omtrent 95 persent van die plant se droe massa verskaf. Twee blokke vroeer se die les DRIE dinge; hier se dit twee, dus weerspreek die les homself. 'lug, water en lig' maak dit reg sonder 'n nuwe woord - die les gebruik 'lug' reeds."
+    },
+    {
+      "risiko": "'Tog word daardie boom ELKE JAAR hoer.' BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n boom sy hele lewe lank hoer word.",
+      "hoekom_dit_saak_maak": "Hoogtegroei vertraag en hou prakties op by 'n volwasse boom, al kom daar elke jaar hout by. Lae erns, en die res van die sin ('elke jaar groter... meer hout en takke') dra die punt reeds beter as die hoogte."
+    },
+    {
+      "risiko": "Die begrip-inskrywing 'karnivoor: 'n Dier wat net ander diere eet EN NIE PLANTE NIE.' BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat 'n dier wat ooit iets plantaardigs eet, nie 'n karnivoor is nie.",
+      "hoekom_dit_saak_maak": "Bronne verskil oor die strengheid - National Geographic omskryf 'n karnivoor as 'n dier wat HOOFSAAKLIK vleis eet. Die tweede helfte laat val, verwyder die risiko en breek nie die drierigting-sortering wat KABV vra nie. Goedkoop, dus doen dit."
+    },
+    {
+      "risiko": "'lewensprosesse: Die sewe dinge wat SAAM wys dat iets lewe.' BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat elke lewende ding al sewe doen.",
+      "hoekom_dit_saak_maak": "Die sewe-lys stem presies met die standaardlys ooreen en die TELLING is 'n onderrigkonvensie (universiteitsbronne gee vyf of agt) - dit is nie die probleem nie. 'saam wys dat iets lewe' impliseer dat elke lewende ding al sewe verrig, en 'n muil plant nooit voort nie en lewe. Versag die 'saam'; moenie die sewe verander nie."
+    },
+    {
+      "risiko": "'sintuie' as die naam van 'n lewensproses. GEEN AKSIE - KABV SE EIE WOORD. BYGEVOEG 10 September 2026.",
+      "valse_gevolgtrekking_om_te_vermy": "Geen.",
+      "hoekom_dit_saak_maak": "Die proses is SENSITIWITEIT - reageer op wat om jou gebeur - en 'sintuie' noem organe. Maar dit is KABV se eie Afrikaanse woord, en dieselfde patroon geld as by 'buigbaar': ons ry saam met KABV se naam. Hier opgeteken sodat 'n volgende nasiener dit nie weer opper nie."
+    },
+    {
+      "risiko": "BYGEVOEG, 11 September 2026, uit 'n feitenasien: dieselfde oorbewering staan DRIE keer onverskans - 'geen dier kan sy eie kos op hierdie manier maak nie', ''n dier kan nie soos 'n plant sy eie kos uit die lug, water en lig maak nie', en 'elke dier moet daarom kos eet om aan die lewe te bly'.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat geen dier ooit sy eie kos maak nie. Koraalpoliepe kry tot 90% van hulle energie uit fotosintese deur alge in hulle weefsel; gevlekte salamander-embrio's kry vasgelegde koolstof uit alge binne hulle selle; Elysia-seenaakslakke hou gesteelde chloroplaste maande lank aan die werk en bind self CO2. En diepsee-reusebuiswurms het geen mond, derm of anus nie en eet nooit - hulle leef heeltemal van chemosintetiese bakteriee wat hulle huisves.",
+      "hoekom_dit_saak_maak": "DIE LES SE EIE HEDGE STAAN TWEE BLOKKE LATER: 'BYNA elke dier se kos begin by 'n plant' - presies dieselfde soort bewering, korrek verskans, en verskans juis vanwee daardie diepsee-diere. Die skrywer ken die skuif; sy is net nie op die ander drie plekke toegepas nie.\n\nVERNOU DIE KWANTIFISEERDER, NOOIT DIE ONDERWERP NIE. Maar LET WEL, en dit is 'n skryfoordeel en nie 'n feitebeslissing nie: drie 'byna's in een kort les maak dit pap. Dit mag beter wees om EEN van die drie te herraam eerder as om al drie te versag.\n\n'N EERLIKE TEENARGUMENT, opgeteken eerder as weggesteek: in elke bekende geval LEEN die dier die masjinerie (chloroplaste of hele alge) eerder as om dit self te bou, en die voedingswaarde van die seenaakslak se fotosintese word steeds gedebatteer. Maar 'n graad 5-leerder kan daardie onderskeid nie uit die sin lees soos sy staan nie."
+    },
+    {
+      "risiko": "BYGEVOEG, 11 September 2026: die begrip-inskrywing vir FOTOSINTESE, alleen gelees.",
+      "valse_gevolgtrekking_om_te_vermy": "Niks vals nie - sy is ONVOLLEDIG. Sy noem net die lig en laat water en koolstofdioksied uit, wat die studieteks wel gee. 'n Leerder wat net die woordelys lees, dink lig is die hele resep.",
+      "hoekom_dit_saak_maak": "Dit is die staande toets: 'n inskrywing word ALLEEN gelees. Twee woorde meer maak haar heel, en begrip-inskrywings tel nie teen die begroting nie. Die skrywer besluit of dit hier die moeite werd is; dit is nie 'n weerspreking nie."
+    },
+    {
+      "risiko": "BYGEVOEG, 11 September 2026, uit 'n feitenasien - EN DIE FOUT IS DEUR 'N REGSTELLING GESKEP, met my eie opdrag as die oorsaak. MOENIE 'uit lug, water en LIG' skryf nie.\n\nLig verskaf die ENERGIE; net die lug se koolstofdioksied en die water word die kos. In Afrikaans merk 'uit' die materiaal waarvan iets gemaak is, dus leer albei sinne dat lig 'n bestanddeel is. Die Smithsonian, National Geographic en Britannica skei die twee rolle, en ongeveer 95% van 'n boom se droe massa kom uit atmosferiese koolstofdioksied.\n\nDIE LES SE EIE BLOK HET DIT AL REG: 'die energie van sonlig'. Die begrip-inskrywing het presies daardie woord verloor toe sy 'voltooi' is, en die nuwe opsomsin in die dierblok het dieselfde vorm gekry. ALBEI PLEKKE MOET SAAM VERANDER - om een reg te maak laat die ander as sy bewys staan.\n\nDIT WEEG HIER SWAARDER AS GEWOONLIK, want die volgende blok vra die leerder om te aanvaar dat die boom sy takke en stingels UIT daardie kos bou.\n\nMY AANDEEL, opgeteken sodat die volgende opdrag dit nie herhaal nie: my brief het gese die inskrywing 'noem net die lig en laat water en koolstofdioksied uit', wat al drie as bestanddele aanbied. Die skrywer het geskryf wat gevra is.",
+      "valse_gevolgtrekking_om_te_vermy": "Dat lig 'n bestanddeel van die plant se kos is.",
+      "hoekom_dit_saak_maak": "BYGEVOEG, 11 September 2026, uit 'n feitenasien - EN DIE FOUT IS DEUR 'N REGSTELLING GESKEP, met my eie opdrag as die oorsaak. MOENIE 'uit lug, water en LIG' skryf nie.\n\nLig verskaf die ENERGIE; net die lug se koolstofdioksied en die water word die kos. In Afrikaans merk 'uit' die materiaal waarvan iets gemaak is, dus leer albei sinne dat lig 'n bestanddeel is. Die Smithsonian, National Geographic en Britannica skei die twee rolle, en ongeveer 95% van 'n boom se droe massa kom uit atmosferiese koolstofdioksied.\n\nDIE LES SE EIE BLOK HET DIT AL REG: 'die energie van sonlig'. Die begrip-inskrywing het presies daardie woord verloor toe sy 'voltooi' is, en die nuwe opsomsin in die dierblok het dieselfde vorm gekry. ALBEI PLEKKE MOET SAAM VERANDER - om een reg te maak laat die ander as sy bewys staan.\n\nDIT WEEG HIER SWAARDER AS GEWOONLIK, want die volgende blok vra die leerder om te aanvaar dat die boom sy takke en stingels UIT daardie kos bou.\n\nMY AANDEEL, opgeteken sodat die volgende opdrag dit nie herhaal nie: my brief het gese die inskrywing 'noem net die lig en laat water en koolstofdioksied uit', wat al drie as bestanddele aanbied. Die skrywer het geskryf wat gevra is."
+    }
+  ],
+  "aanvulling": [],
+  "aanvulling_nota": "Geen. KABV se drie punte vul die begroting presies, en niks hier is onvolledig of betekenisloos sonder 'n byvoeging nie. 'n Aanvulling sou 'n vereiste se woorde moes opeet.",
+  "moeilike_konsepte": [],
+  "moeilike_konsepte_nota": "GEEN eli10-blok, en dit is 'n keuse en nie 'n oorsig nie. Die toets is nie of iets moeilik is nie, maar of daar enige konkrete manier is om dit te stel. Elke idee hier het een: 'n plant maak sy eie kos en 'n dier moet dit gaan soek; 'n leeu vreet die bok en die bok het gras gevreet. Die aanskoulike deel - 'n blaar in die son - is die video se werk, en die video kom na hierdie teks. 'n Eli10 oor fotosintese sou boonop reguit teen die diepte-grens stamp, want elke beeld daarvan verduidelik die meganisme wat KABV uitsluit.",
+  "termdig": true,
+  "termdig_nota": "Verwag ongeveer vyf of ses begrip-inskrywings: fotosintese, koolstofdioksied, suurstof (as dit nie uit graad 4 dra nie), herbivoor, karnivoor, omnivoor. Elke inskrywing van 8 tot 12 woorde. Onthou dat 'n begrip-inskrywing ALLEEN gelees word: dit moet waar wees met die res van die les weggedink.",
+  "fokusvraag_skakel": "Wys waar kos vandaan kom: die groen plant maak dit self, elke dier moet dit gaan soek, en of 'n dier nou plante of ander diere eet, sy kos begin by 'n plant.",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "buite_bestek",
+    "co2_besluit",
+    "diepte_grens",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "fokusvraag_optelling",
+    "geen_vrae",
+    "graad",
+    "graad_4_oordrag",
+    "herkoms",
+    "kaps_bron",
+    "kaps_onderwerp",
+    "kaps_onderwerp_nota",
+    "kaps_subonderwerp",
+    "kaps_subonderwerp_nota",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "kwartaal",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "reeds_beskermde_woorde",
+    "registerwaarskuwing",
+    "skema_weergawe",
+    "teks_kom_eerste",
+    "totale_begroting",
+    "totale_begroting_nota",
+    "vak",
+    "verdeling_nota"
+  ],
+  "_afgelei_stempel": "sha256:a2c2f72129966be7a5a767bff3530083"
+}

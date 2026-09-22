@@ -52,12 +52,25 @@ def lesse(wortel):
     prints that number precisely so a reader knows how wide the claim is, and a
     doubled scope is the same lie as a narrow sweep reported as a clean one.
 
-    The fact checker's `feite-kopie/` did it again on 21 September 2026: 64
-    where 32 lessons existed. That copy DOES carry `blokke`, so every drifted
-    wording was listed twice as well. Both directories are skipped.
+    IT HAPPENED AGAIN, 10 September 2026, in a new costume. `feite-kopie/les-3.json`
+    is the copy handed to the fact checker with the provenance note stripped, added
+    on 9 September -- same file name again, so the sweep read 42 where 29 lessons
+    existed. The exclusion is now a LIST rather than one name, because the next
+    directory that mirrors these file names will do this a third time.
+
+    `feite-kopie/les-3.json` is the same fault in a different costume, and a
+    worse one. That directory was added later to hand the fact checker a draft
+    without its provenance note, so unlike an extract it DOES carry `blokke` --
+    it is the lesson, minus one field. It therefore corrupted the comparison
+    and not merely the count: the runner regenerates it, so a lesson revised
+    since its last runner call has a copy of its own OLD glossary sitting
+    beside it, and this tool reported the lesson as drifting against itself.
+    One such phantom was reported on 16 September 2026. Skip any directory
+    whose files are copies of lessons rather than lessons.
     """
+    HERHALINGS = ("spek", "feite-kopie")   # both hold files named les-<n>.json
     for gids, _, lers in os.walk(wortel):
-        if os.path.basename(gids) in ("spek", "feite-kopie"):
+        if os.path.basename(gids) in HERHALINGS:
             continue
         for naam in sorted(lers):
             if LES_NAAM.fullmatch(naam):
@@ -210,8 +223,16 @@ def main():
             return romp(a_) == romp(b_)
         return a_ == b_
 
+    # A term marked `twee_betekenisse` is one word with two meanings that must NOT
+    # be made to agree ('as': a wheel's axle, and the Earth's axis, which is a line
+    # that does not exist). Drico confirmed on 18 September 2026 that each lesson
+    # keeps its own. Reporting it as drift every run invites someone to "fix" it.
+    twee = sorted(t for t, v in besluite_vroeg.items()
+                  if v.get("twee_betekenisse") and t in gedeel)
     drif = {}
     for t, d in gedeel.items():
+        if t in twee:
+            continue
         vorme = list(d)
         if any(not eenders(t, vorme[0], v) for v in vorme[1:]):
             drif[t] = d
@@ -273,7 +294,7 @@ def main():
     # went quiet. A clean report that hides an open decision is the failure this
     # whole file exists to prevent.
     oop = {t: v for t, v in besluite.items()
-           if not v.get("omskrywing") and t in terme}
+           if not v.get("omskrywing") and not v.get("twee_betekenisse") and t in terme}
     if oop:
         print(f"BESLISSING NOG OOP ({len(oop)}):")
         print()
@@ -303,8 +324,10 @@ def main():
 
     if not drif:
         if not teen_besluit and not oop:
-            print(f"  Geen drif. Al {len(gedeel)} gedeelde terme is woord vir woord")
+            print(f"  Geen drif. Al {len(gedeel) - len(twee)} gedeelde terme is woord vir woord")
             print(f"  dieselfde oor die {gelees} lesse wat gelees is.")
+            if twee:
+                print(f"  {len(twee)} met opset twee betekenisse, nie vergelyk nie: {', '.join(twee)}")
             return 0
         if not teen_besluit:
             print(f"Geen les weerspreek 'n ander nie, maar {len(oop)} bewoording(s) is nog nie besluit nie.")
@@ -326,10 +349,22 @@ def main():
         print()
 
     print(f"{len(drif)} van die {len(gedeel)} gedeelde terme dryf uiteen.")
+    if twee:
+        print(f"{len(twee)} met opset twee betekenisse, nie as drif getel nie: {', '.join(twee)}")
     if besluite:
-        beslis = sum(1 for t in drif if t in besluite)
+        # Membership is not settlement. An entry may be OPENED in the agreed list --
+        # given a name, a note and three routes -- with its 'omskrywing' still empty,
+        # precisely to record that nobody has chosen yet. Counting those as settled
+        # told the reader the opposite of the truth the entry was written to record,
+        # and it did so the same hour the first such entry was added.
+        beslis = sum(1 for t in drif if (besluite.get(t) or {}).get("omskrywing"))
+        oop_maar_gemerk = sum(1 for t in drif
+                              if t in besluite and not (besluite.get(t) or {}).get("omskrywing"))
         print(f"{beslis} daarvan het reeds 'n besliste bewoording "
               f"(sien {'; '.join(besluit_bronne)});")
+        if oop_maar_gemerk:
+            print(f"{oop_maar_gemerk} staan in daardie lys met 'n LEE bewoording - opgeteken as oop, "
+                  f"nie beslis nie.")
         print("vir die res moet een bewoording wen. 'n Derde bewoording maak dit erger.")
     else:
         print("Een bewoording moet wen. 'n Derde bewoording maak dit erger.")

@@ -30,13 +30,37 @@ import argparse, json, re, sys
 # Grade 4 is also the first year learners write exams, which is Drico's own reason
 # for the ceiling: the amount a nine-year-old is expected to study is small.
 #
-# Grade 5 is banded at 400-500, decided by Lampies on 16 September 2026 ("since it's
-# grade 5"), for teaching lessons and reading pieces alike. Grade 6 is banded at
-# 450-550, decided by Lampies on 21 September 2026: one step up from Grade 5.
+# GRADE 5 IS BANDED 300-550. DECIDED BY DRICO, 9 September 2026, and it is a wider
+# band than Grade 4's on purpose, for two reasons he found by hand.
 #
-# The other grades stay unbanded until someone decides them the same way, rather than
+# First, lesson length genuinely varies. He counted a 140-word lesson and a 525-word
+# one in the same Grade 5 book. A narrow band would force the short ones to pad, and
+# padding is where invented claims come from -- most of the false mechanisms caught
+# this year sat in text a writer had to produce to reach a number.
+#
+# Second, the measurement that sets a budget is inflated. profiler.py counts EVERY
+# word on a page: activity boxes, question panels, captions, headings. Our lessons
+# contain none of those -- activities belong to the layout team -- so we have been
+# asking for a page's worth of words as pure prose. That is true of every subject
+# measured so far, Grade 4 included; the delivered Grade 4 budgets stand, by his
+# ruling, but nothing new should be built on the same basis.
+#
+# CONSEQUENCE FOR GRADE 5 SPECS: begroting_basis must be "vereistes", not
+# "gemete_volume". A measured basis divides one number EVENLY and fails any lesson
+# that differs from the average, which is exactly the uniformity this band exists to
+# break. Under "vereistes" each lesson states its own number and a begrotingsnota
+# saying where it came from -- and the band below still governs both bases.
+#
+# The floor is 300 rather than 140. A thin textbook page is usually one where a
+# photograph does half the teaching, and our text is what a learner revises from
+# alone, so it carries what the picture carried.
+#
+# GRADE 6 IS BANDED 450-550, decided by Lampies on 21 September 2026: one step up
+# from Grade 5's usual lesson, teaching lessons and reading pieces alike.
+#
+# Grades 7-12 stay unbanded until someone decides them the same way, rather than
 # inheriting a number that was reasoned about another grade.
-LESBAND = {4: (350, 450), 5: (400, 500), 6: (450, 550)}
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550)}
 
 AANVULLING_MAX_FRACTION = 0.25
 # Aanvulling is capped by budget share, but a spec states items, not words. Two
@@ -76,8 +100,55 @@ def norm(s):
     return {w[:5] for w in s.split() if w and w not in drop and len(w) > 2}
 
 
+# Spec fields that are read as prose. A planner that writes one as an object or a
+# list used to crash the validator with AttributeError instead of failing cleanly --
+# and a crash is the worst outcome here, because the runner reads this script's
+# verdict to decide whether a spec may be used at all. Found 9 September 2026 by the
+# Gr 5 Voedselkettings planner, which wrote a begrotingsnota as an object because the
+# Grade 4 house style writes those notes that way. The path only became reachable
+# with Grade 5: it runs solely under the "vereistes" budget basis.
+#
+# Coercing silently would be worse than crashing. An object note would read as an
+# EMPTY note, and the planner would be told its note is missing while it is sitting
+# right there in the wrong shape.
+# CHECK ONLY WHAT IS ACTUALLY READ. The two budget-note fields are read solely under
+# the "vereistes" basis; the other three are read for every spec. Checking the notes
+# unconditionally failed two DELIVERED and previously valid Grade 4 specs
+# (habitatte-van-diere, vaste-stowwe) whose begrotingsnota is an object in the Grade 4
+# house style -- valid there precisely because a measured-volume spec never reads it.
+# A validator must not invent a rule for a field its own logic ignores.
+PROSA_ALTYD_SPEK = ("band_vrygestel",)
+PROSA_ALTYD_LES = ("vloer_uitsondering", "plafon_uitsondering")
+PROSA_VEREISTES_SPEK = ("begroting_basis_nota",)
+PROSA_VEREISTES_LES = ("begrotingsnota",)
+
+
+def _prosa_velde_is_teks(spec, fails):
+    """Fail by name on a prose field that is not text, so nothing downstream strips it."""
+    vereistes = spec.get("begroting_basis") == "vereistes"
+
+    def keur(houer, veld, waar):
+        w = houer.get(veld)
+        if w is None or isinstance(w, str):
+            return
+        houer[veld] = ""          # neutralise so the checks below cannot crash
+        fails.append(
+            f"{waar}'{veld}' is a {type(w).__name__}, but it is read as text. Write it as "
+            f"one string. If it holds a breakdown, put the breakdown in a separate field "
+            f"and keep this one prose — an object here would otherwise be read as an "
+            f"empty note and reported as missing.")
+
+    for veld in PROSA_ALTYD_SPEK + (PROSA_VEREISTES_SPEK if vereistes else ()):
+        keur(spec, veld, "")
+    for L in (spec.get("lesse") or []):
+        if isinstance(L, dict):
+            for veld in PROSA_ALTYD_LES + (PROSA_VEREISTES_LES if vereistes else ()):
+                keur(L, veld, f"Lesson {L.get('nommer', '?')}: ")
+
+
 def check(spec):
     fails, warns, notes = [], [], []
+    _prosa_velde_is_teks(spec, fails)
 
     for f in REQUIRED_TOP:
         if f not in spec:

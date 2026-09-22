@@ -28,3 +28,30 @@ different definitions of it in two already-delivered lessons.
 sweep over every lesson file in the subject and say how many files it read. Same
 failure as [[vra-die-hele-vak-nie-drie-lesse-nie]], one step further along: there
 the shortlist was in the search, here it was in the sentence describing it.
+
+## The scope can also be wrong in the tool, and wider is not safer
+
+16 September 2026. The sweep itself was reading each lesson twice. It already
+skips `spek/` — spec extracts share the draft's file name, and that bug is
+written up in the function's own docstring. A `feite-kopie/` directory was added
+later, for a good and unrelated reason, and nothing went back to the tools that
+walk that tree.
+
+**Why this one was worse than the documented bug.** An extract carries no
+`blokke`, so it only inflated the count. A fact-checker copy *is* the lesson
+minus one field, so it fed wording into the comparison. The runner regenerates
+it, so a lesson revised since its last runner call sits next to a copy of its own
+old glossary — and the tool reports the lesson as drifting **against itself**. I
+was handed one such phantom and nearly went and "fixed" it.
+
+The printed numbers were wrong in both directions at once: 51 lessons and 119
+shared terms became 30 lessons and 7. Every earlier "this subject is consistent"
+was measured against that.
+
+**How to apply:** when you add a directory of derived copies, go and look at
+every tool that walks the tree — the copy is indistinguishable from the original
+by file name, which is the whole reason the first version of this bug existed.
+And when a sweep reports drift between a lesson and something in a sibling
+directory, check that the sibling is not a copy of that same lesson before
+briefing anyone. Same family as
+[[n-regstelde-fout-kom-in-n-ander-gedaante-terug]].

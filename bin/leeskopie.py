@@ -328,6 +328,43 @@ def blaaiers():
     return gevind
 
 
+def kontroleer_pdf(uit_pdf):
+    """Refuse a PDF a reader would see as broken, and say so loudly.
+
+    Drico, 18 September 2026: text must never be printed over other text. Two
+    things are checked on the finished file: (1) words whose boxes overlap on the
+    page, and (2) the renderer's own "unknown block type" box, which put raw code
+    where a story should be in 14 Grade 4 Life Skills copies that nobody opened.
+    A bad file is renamed to *.STUKKEND.pdf so it cannot be mistaken for a good one.
+    """
+    try:
+        import pymupdf
+    except ImportError:
+        print("  (PDF check skipped: pymupdf is not installed)")
+        return
+    doc = pymupdf.open(uit_pdf)
+    probleme = []
+    for pn, page in enumerate(doc):
+        if "Onbekende bloktipe" in page.get_text():
+            probleme.append(f"page {pn + 1}: a block could not be rendered (raw code shown)")
+        woorde = [(pymupdf.Rect(w[:4]), w[4]) for w in page.get_text("words")]
+        for i in range(len(woorde)):
+            a, ta = woorde[i]
+            for b, tb in woorde[i + 1:i + 400]:
+                x = a & b
+                if not x.is_empty and x.width > 1.5 and x.height > 0.5 * min(a.height, b.height):
+                    probleme.append(f"page {pn + 1}: '{ta}' overlaps '{tb}'")
+                    break
+            if len(probleme) > 5:
+                break
+    doc.close()
+    if probleme:
+        stukkend = uit_pdf[:-4] + ".STUKKEND.pdf"
+        os.replace(uit_pdf, stukkend)
+        raise SystemExit("The PDF came out wrong and was NOT kept:\n  " +
+                         "\n  ".join(probleme[:6]) + f"\nInspect: {stukkend}")
+
+
 def maak_pdf(html_teks, uit_pdf):
     keuses = blaaiers()
     werk = os.path.join(P.skrapruimte(), "leeskopie")
@@ -371,6 +408,7 @@ def maak_pdf(html_teks, uit_pdf):
             except (OSError, subprocess.TimeoutExpired) as ex:
                 fout = str(ex)[:200]
             if os.path.exists(uit_pdf) and os.path.getsize(uit_pdf) > 800:
+                kontroleer_pdf(uit_pdf)
                 return uit_pdf
             probeer.append(f"  {os.path.basename(blaaier)} {kop}: {fout or 'no output'}")
 

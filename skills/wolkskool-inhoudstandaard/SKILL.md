@@ -52,6 +52,42 @@ demonstrate side by side.
 Record provenance in every lesson's `herkoms` field (see schema below). Five
 lines now answers any question years later.
 
+### The provenance note REPLACES itself on every revision
+
+`herkoms.nota` carries the writer's reasoning: why a sentence was cut, what a
+requirement asked for, which wordings were rejected and why. It earns its place —
+several corrections have been saved because a later reviser could read why an
+earlier one did something.
+
+**But it must be rewritten on each revision, never appended to.** Writers were
+appending, and on 18 September 2026 one lesson's note reached 56 200 characters
+against 1 994 characters of lesson — **28 times the size of the thing it
+documents** — on a single line, so the file could not be read in one pass and
+that line could not be read at all inside a tool's limit. A coverage checker
+reported working around it. Seven lessons across three sub-topics were over
+20 000 characters. **Drico's decision, 18 September 2026: each revision replaces
+the previous note.**
+
+The failure matters because it grows with every round, so the most-corrected
+lessons — the ones whose record is most worth having — end up with the least
+readable one.
+
+**What survives a rewrite, always:**
+
+* every **dated ruling** and every **withdrawal** of one, in one line each. These
+  are what stop a later revision reinstating a fixed fault, and they are the
+  reason the note exists.
+* what must **not** be changed and why, where that is not obvious from the spec.
+* anything a checker confirmed and warned against "tidying".
+
+**What does not survive:** the working reasoning of revisions already closed —
+which wordings were considered and rejected, arithmetic, what was checked and
+found fine. That belongs to the round that did it, and the report in the log tree
+already holds it.
+
+A rewritten note should read as the lesson's current standing record, not as a
+diary. If it is longer than the lesson, it is too long.
+
 ## Where this text sits on the platform
 
 **A Wolkskool lesson is a video plus this text, running in parallel.** The video
@@ -351,9 +387,14 @@ Anchored on measured volume, never guessed, and then clamped into the grade's ba
 | Grade | Floor | Ceiling | Status |
 |---|---|---|---|
 | 4 | **350** | **450** | decided by Drico, 7 September 2026 |
-| 5 | **400** | **500** | decided by Lampies, 16 September 2026 — teaching lessons and reading pieces alike |
+| 5 | **300** | **550** | decided by Drico, 9 September 2026 |
 | 6 | **450** | **550** | decided by Lampies, 21 September 2026 — one step up from Grade 5, teaching lessons and reading pieces alike |
 | others | — | — | unbanded until decided the same way |
+
+**Grade 5's band is wider than Grade 4's on purpose, and Grade 5 budgets are not
+divided evenly.** Both come from what Drico found counting a Grade 5 textbook by
+hand, and the second one changes how a Grade 5 spec is written — see
+"Grade 5: requirement-based, not measured" below.
 
 **Why a band, when the budget is supposed to be a measurement.** The measurement was
 honest and the result was incoherent from a learner's seat. The delivered Gr 4
@@ -395,6 +436,37 @@ now on.
 **The band governs both budget bases.** Applying it only to measured budgets left the
 requirement-based specs outside it — and those are the ones where a number is most
 easily typed rather than derived.
+
+### Grade 5: requirement-based, not measured
+
+**Grade 5 specs declare `begroting_basis: "vereistes"`.** A measured basis divides one
+number evenly and then fails any lesson that differs from the average — which is
+exactly the uniformity the wide band exists to break. Under `vereistes` each lesson
+states its own number with a `begrotingsnota` saying where it came from, and the band
+still governs it.
+
+**Why, in two findings of Drico's, 9 September 2026.**
+
+*Lessons are genuinely different lengths.* He counted a 140-word lesson and a 525-word
+one in the same Grade 5 book. Forcing a short one up to a uniform figure makes the
+writer pad, and padding is where invented claims come from — most of the false
+mechanisms caught this year sat in text produced to reach a number.
+
+*The measurement itself is inflated.* `profiler.py` counts **every word on the page**:
+activity boxes, question panels, captions, headings. Our lessons contain none of those
+— activities are the layout team's — so a budget derived that way asks for a whole
+page's words as pure prose. This is true of every subject measured so far. The
+delivered Grade 4 budgets stand by Drico's ruling, but nothing new is built on that
+basis, and teaching the profiler to skip activity blocks is outstanding work.
+
+**The floor is 300, not 140,** even though the book goes lower. A thin textbook page is
+usually one where a photograph does half the teaching; our text is what a learner
+revises from alone, so it has to carry what the picture carried.
+
+**CAPS contact hours are still not a budget basis** — the rule at the top of this
+section holds. Grade 5 shows why plainly: CAPS gives frame-and-shell structures 8¾
+hours, more than almost anything else in Term 1, and nearly all of it is building a
+model skeleton. Its text is short.
 
 ### The arithmetic
 

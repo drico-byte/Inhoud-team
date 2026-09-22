@@ -1,17 +1,14 @@
 {
   "les": "gr4/sosiale-wetenskappe/plaaslike-geskiedenis/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:4334389a0e66888c2007fe1c85b46d63",
+  "konsep_hash": "sha256:a0f5c4b63ce1a9ead887aa136d9ec620",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:2e66626e8bdad0a01c6f44c7fe8ba92d",
-    "sha256:ba593bd7b656cf17d612d15acd360360"
+    "sha256:79b3ac746c4e73d4a59e1f1d168dc1fb",
+    "sha256:ea5a4e53a15914f04386ec6daf2c53ac"
   ],
   "eskalasie": null,
-  "blok_faalrondtes": {
-    "leidrade uit papiere en stories": 1,
-    "nie een leidraad alleen nie": 1
-  },
+  "blok_faalrondtes": {},
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -136,11 +133,274 @@
       "woorde": 226,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-16T07:28:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:79b3ac746c4e73d4a59e1f1d168dc1fb",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-09-16T07:28:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 260,
+      "begroting": 200,
+      "failures": [
+        "Study text 260 words, above budget ceiling 230 (target 200) — learners will revise the textbook instead",
+        "Study text: 3+ syllable words 14.2% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-09-16T07:28:34+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 3,
+      "punte": [
+        "Study text 260 words, above budget ceiling 230 (target 200) — learners will revise the textbook instead",
+        "Study text: 3+ syllable words 14.2% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-09-16T07:28:34+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "revisielimiet",
+      "siklusse": 3
+    },
+    {
+      "wanneer": "2026-09-16T08:50:10+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 3,
+      "vorige_blok_faalrondtes": {
+        "leidrade uit papiere en stories": 1,
+        "nie een leidraad alleen nie": 1
+      }
+    },
+    {
+      "wanneer": "2026-09-16T08:50:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 260,
+      "begroting": 250,
+      "failures": [
+        "Study text: 3+ syllable words 14.2% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-09-16T08:50:10+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 3+ syllable words 14.2% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-09-16T09:05:47+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3295a8f9278cba8c8225a0d6afb8105d",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-16T09:05:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 285,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-16T09:33:06+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:65fbf17bc3c89438a82c9076d56cc49a",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-16T09:33:06+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 287,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-16T12:10:42+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1ce27b7f6a775527e9be54df9945ed84",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-16T12:10:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 299,
+      "begroting": 265,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-16T13:35:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f57c6317b3b71ca1eb7fa72156f7b37c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-16T13:35:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 299,
+      "begroting": 265,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T05:41:27+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ea5a4e53a15914f04386ec6daf2c53ac",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-18T05:41:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 305,
+      "begroting": 265,
+      "failures": [
+        "Study text 305 words, above budget ceiling 305 (target 265) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T05:41:28+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text 305 words, above budget ceiling 305 (target 265) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-18T05:48:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:28dc2b25663c67b15cd095536be9286a",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-09-18T05:48:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 304,
+      "begroting": 265,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T06:18:53+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c73e9c30ce550a6c599f76fdd0308105",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-09-18T06:18:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 304,
+      "begroting": 265,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:21:42+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:335b40cafd40e0ad05d8bf480ecaef8e",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-09-18T08:21:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 304,
+      "begroting": 265,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:41:43+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:41:43+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:41:43+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:41:44+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T08:41:44+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\plaaslike-geskiedenis\\les-3.json",
+      "konsep_hash": "sha256:335b40cafd40e0ad05d8bf480ecaef8e",
+      "vervang": false
+    },
+    {
+      "wanneer": "2026-09-18T08:55:32+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a0f5c4b63ce1a9ead887aa136d9ec620",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-09-18T08:55:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 304,
+      "begroting": 265,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T09:18:17+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 5,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T09:18:17+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-18T09:18:17+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\plaaslike-geskiedenis\\les-3.json",
+      "konsep_hash": "sha256:a0f5c4b63ce1a9ead887aa136d9ec620",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:f6c94cccb584bb095e05d835561569a2",
+  "spek_hash": "sha256:92f29d10be189975ced7164cbdd7b863",
   "hek_konteks": {
     "graad": 4,
-    "begroting": 200
+    "begroting": 265
   }
 }
