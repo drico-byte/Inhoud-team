@@ -1,67 +1,33 @@
 ---
 name: gr6-nwt-waar-ons-is
-description: "Grade 6 NST started 22 Sep 2026: 26-lesson division agreed with Drico, band 450-550 (short lessons may go below with a recorded exception); next is specs per sub-topic."
+description: "Grade 6 NST: 25 of 26 lessons signed off 22 Sep 2026 and pushed; lesson 25 (Moon) waits on Drico to confirm 'ongeveer 28 dae' against a MENS_NODIG fact check."
 metadata: 
   node_type: memory
   type: project
   originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
-  modified: 2026-09-22T09:42:24.001Z
+  modified: 2026-09-22T10:37:35.942Z
 ---
 
-22 September 2026. Grade 6 Natuurwetenskappe en Tegnologie division agreed with
-Drico: **26 lessons** (7 · 8 · 6 · 5), kept in `kaps/lesindeks/gr6-nwt-lesverdeling.csv`
-and as the "Finaal" sheet of his `Les verdelings\Intersen NW Graad 6 konsep.xlsx`.
-Built from CAPS printed pages 47-64 only (PDF 52-69); no textbook.
+22 September 2026. Grade 6 Natuurwetenskappe en Tegnologie: **26 lessons** (division in
+`kaps/lesindeks/gr6-nwt-lesverdeling.csv`), band 450-550 (ceiling is hard; short lessons 2, 14,
+23 below by exception). 19 specs approved by me on Drico's say-so. Drift sweep: 26 lessons, 43
+shared terms, no drift ('as' two meanings on purpose).
 
-**Band 450-550** (Drico, 22 Sep 2026, the same as Grade 6 Life Skills). His concern
-is the CEILING: over 550 means an effective split, not a trim. A lesson short for a
-real reason (lesson 30, maybe 2 and 18) may go below 450 with a `vloer_uitsondering`
-in its spec. The band table is now per subject (LESBAND_VAK) in gate.py and
-spec_check.py, because Lampies had set Gr 6 LV's band the day before.
+**25 of 26 signed off and delivered.** Lesson 25 (Die beweging van die Maan) has coverage
+GOEDGEKEUR but fact check MENS_NODIG on one point only: "ongeveer 28 dae" vs the real 27.3.
+Drico chose "28 days, as CAPS" on 22 Sep (with "ongeveer" added by me). keur-goed-na-handnasien
+refuses a MENS_NODIG report, and hand-editing the verdict makes it VERSLAG_ONGELDIG - do not do
+that again. Needs Drico: confirm, then re-run the fact check or sign off another way.
 
-Drico's calls: merges 5+6, 7+8, 12+15, 13+14, 20+21, 22+23, 26+27, 31+32, 33+34,
-35+36+37. **Lesson 30 (the Moon) stays its own, deliberately very short lesson.**
-Lessons 2 and 18 are thin but kept. Lesson 3 (food groups) and 25 (coal + power
-station) may split if the draft passes 550.
+Drico's rulings this day: six widened wordings accepted; Moon periods follow CAPS.
+Later changes to accepted wordings (fact checks forced them; tell Drico): 'planeet' long
+wording was false (Neptune/Pluto) -> now "... en swaar genoeg is om in beheer van sy eie pad te
+wees"; 'suurstof' "die meeste lewende dinge" -> "mense, diere en plante"; 'koolstofdioksied'
+"asemhaal" -> "tydens asemhaling". karnivoor/herbivoor now "hoofsaaklik" in Gr 6 - Grade 5's
+delivered "net" wording is unchanged and is Drico's call.
 
-CAPS errors to correct at planning (mechanisms, not names): moons do NOT give off
-their own light (lesson 30); liquid particles described like a solid's (10); the
-Moon's spin called an "omwenteling" (33+34).
-
-**LATER 22 Sep 2026:** steps 1-5 below are DONE. Profile and shared list written (97 terms,
-Gr4/5 carried, planners' proposals reconciled; Drico accepted six widenings: suurstof,
-koolstofdioksied, vaste stof, vloeistof, gas, long 'planeet'). 19 specs approved by me on
-Drico's say-so. Drico: Moon periods "ongeveer 28 dae" as CAPS (not 27 1/3). Protected words
-added: robot-as-machine exception, rotasie/rewolusie never 'omwenteling'. Writers launched for
-lessons 1-20; 21-26 queued (20-agent concurrency cap). Writer brief:
-scratchpad gr6-skrywer-brief.md. Budgets at ceiling: 3, 6, 15, 16, 19, 22, 25, 26.
-
-**LATER STILL, 22 Sep:** all 26 drafted; glossary fact-checked (hernubaar misleading - fixed;
-versadigde oplossing, biodiversiteit, fossielbrandstof narrowed; voedingstof, uitsakking,
-teleskoop changed after drafting). Most first drafts failed the gate on commas/sentence (Gr 4-6
-register max 0.35) - Grade 6 writers subordinate more; style revisions fixed all. The gate's
-own ceiling is budget x1.15, so it passes lessons over Drico's 550: check `study.words` in
-les-N.hek.json yourself. Seven over 550 sent to trim (4,6,9,11,15,16,26); 11 and 26 may need a
-split question for Drico. Checkers started on 1,2,3,5,8,10. Scratch briefs: gr6-hek-brief,
-gr6-plafon-brief, gr6-woordelys-brief; runner helper hek6.py.
-
-**ORIGINAL NEXT STEPS (22 Sep 2026):**
-1. Create `kaps/gedeelde-omskrywings-natuurwetenskappe-gr6.json` (vak + graad 6, empty
-   `terme`) BEFORE any drafting, or the drift sweep reports no decision list.
-2. Hand-write `profiele/gr6-nwt-profiel.json` like the Gr 5 one (no textbook measured;
-   `begroting_basis: vereistes`), listing the sub-topics so hardloop.py finds them.
-   CAPS pages for the bron note: printed 47-64, PDF 52-69.
-3. Sweep the Grade 5 agreed wordings for terms Grade 6 reuses and decide scope first.
-4. Run wolkskool-beplanner once per sub-topic (about 18: Fotosintese, Voedingstowwe,
-   Voedselverwerking, Ekostelsels en voedselwebbe, Vaste stowwe/vloeistowwe/gasse,
-   Mengsels, Oplossings as spesiale mengsels, Oplossing (tempo), Mengsels en water
-   hulpbronne, Skoon water, Elektriese stroombane, Geleiers en nie-geleiers, Stelsels
-   om 'n probleem op te los, Hoofstroom elektrisiteit, Die Sonnestelsel, Bewegings van
-   die Aarde, Die beweging van die Maan, Stelsels vir die ruimte). Pass each planner the
-   lesson split from the CSV, the band, the CAPS errors, and the lesson-30 exception.
-5. Drico approves specs by moving them; then draft ALL 26 before finishing any.
-Brief agents in plain English (Afrikaans briefs tripped false safety flags on 18 Sep).
-
-Before drafting: settle every term Grade 6 shares with Grade 5 (voedselketting,
-stroombaan, sel, kragstasie, steenkool, fossielbrandstof, as) — see
-[[twee-beplanners-albei-plaaslik-reg]] and [[n-omskrywing-mag-oor-grade-heen-verbreed]].
+Lessons learnt: first drafts failed the gate on commas (Gr 4-6 max 0.35/sentence); the gate's
+own ceiling is budget x1.15, so check `study.words` against 550 yourself. Fact checks found
+~40 real overclaims; about a third came from the SPEC, and twice from MY OWN spec rewrites
+(Mercury "also small", gas planets "mostly gas") - see [[my-regstelling-in-die-spek-was-self-die-volgende-fout]].
+The session's web-search quota ran out mid-way; checkers fell back to direct page fetches.
