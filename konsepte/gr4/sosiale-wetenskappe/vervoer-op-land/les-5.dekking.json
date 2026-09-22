@@ -1,0 +1,67 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "dekking",
+  "prompt_weergawe": "dekkingsnasiener-v1.4",
+  "les": "Hoe ons vandag reis en vragte vervoer",
+  "kaps_punt": "algemene vorms van vervoer van mense en goedere op grond vandag",
+  "verdict": "MENS_NODIG",
+  "items": [
+    {
+      "tipe": "kern",
+      "verwysing": "Hoe MENSE vandag op land reis: te voet, met die fiets, met die minibus-taxi, met busse, met treine en met motors.",
+      "status": "teenwoordig",
+      "bewys": "Hoe mense vandag op land reis - al ses: te voet, fiets, minibus-taxi, bus, trein in party groot stede, kar"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Hoe GOEDERE vandag oor land beweeg: vragmotors op die paaie, en goederetreine op die spore.",
+      "status": "teenwoordig",
+      "bewys": "Hoe goedere oor land beweeg - vragmotors dag en nag op die paaie, goederetreine met swaar vragte op die spore"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Hoekom mense verskillende vervoer kies: wat dit kos, hoe ver hulle moet gaan, en wat hulle moet saamdra. DIE DRIE STAAN NAAS MEKAAR EN MAG NIE GERANGSKIK WORD NIE",
+      "status": "teenwoordig",
+      "bewys": "Hoekom mense nie dieselfde kies nie - koste, afstand en vrag in drie newegeskikte sinne sonder ordinaal of 'veral', en die slotsin 'Mense op dieselfde pad het dus nie almal dieselfde nodig nie'"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "WAT DIESELFDE GEBLY HET uit elke vroeere les: mense loop steeds, fietse en treine ry steeds, en op party plekke trek diere nog karretjies. Die nuwe vorms het die oues nie almal weggevat nie.",
+      "status": "teenwoordig",
+      "bewys": "Wat van vroeer oorgebly het - 'Nie elke nuwe soort vervoer...' plus loop, fiets, treine en diere op party plekke"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "WAT VANDAG ANDERS IS: die meeste mense kan verder en vinniger reis as die mense in enige van die vorige lesse, en goedere in 'n winkel kom van plekke waarheen niemand self sou stap nie.",
+      "status": "teenwoordig",
+      "bewys": "Wat vandag anders is - 'die meeste mense... verder en vinniger' en winkelgoedere 'van plekke ver buite jou dorp'"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "DIE VOLGORDE waarin hierdie vorms van vervoer gekom het, van diere tot vandag, sodat 'n leerder die vyf lesse in tyd kan plaas. DIE SAAMRY-ITEM MOET SE WATTER SOORTE DIT BEDOEL",
+      "status": "teenwoordig",
+      "bewys": "Van te voet tot vandag - loop, diere, stoomenjin, fiets, kar, en die slotitem noem fiets, kar, trein, loop en diere sonder die stoomenjin"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "historiese_konsepte, Multi-perspektief benadering: \"Vandag se weergawe van dieselfde konsep as les 4: koste, afstand en vrag maak dieselfde rit 'n ander keuse vir twee verskillende mense.\"",
+      "status": "gedeeltelik",
+      "bewys": "Hoekom mense nie dieselfde kies nie - die drie oorwegings en drie mense wat verskillend kies is daar; 'dieselfde rit' as een rit met twee keuses is nie daar nie",
+      "aksie": "NIE 'n SKRYWERSTAAK NIE, EN DIE KONSEP MAG NIE VERANDER WORD NIE - die draft is reg en kern-item 3 wen. Hierdie veld het die bronregstelling van vandag nie saam gekry nie: kern-item 3 is reggemaak, maar les 5 se historiese_konsepte-inskrywing 'Multi-perspektief benadering' beveel nog woordeliks die teruggetrekte vorm, en presies dieselfde twee foute kleef aan haar - sy laat die kwantifiseerder val, en sy rus op drie voorbeelde wat DRIE VERSKILLENDE RITTE is, dus wys hulle nooit een rit met twee keuses nie. Maak dit by die bron reg in spesifikasies/goedgekeur/, nooit in spek/, en vervang die hele 'hoe'-sin eerder as om 'n regstellingsnota agteraan te heg - 'n aangehegte nota word as kommentaar gelees en die volgende hersiening stel die ou vorm weer in. Die vervanging moet die multi-perspektief-konsep beskryf soos die les hom werklik dra (mense op EEN pad met verskillende behoeftes), en die presiese bewoording is 'n mens se keuse, nie 'n voorgeskrewe sin nie. Loop daarna bin/vernuwe-uittreksels.py, want die uittreksel wat 'n skrywer lees, dra nog die ou vorm."
+    },
+    {
+      "tipe": "fokus",
+      "verwysing": "Wys hoe mense en goedere vandag op land beweeg, en watter van die ouer vorms van vervoer steeds saam met die nuwes gebruik word.",
+      "status": "teenwoordig",
+      "bewys": "Hoe mense vandag op land reis en Hoe goedere oor land beweeg vir die beweging; Wat van vroeer oorgebly het en Van te voet tot vandag se slotitem vir die ouer vorms wat saamloop"
+    }
+  ],
+  "oortollig": [
+    {
+      "inhoud": "'n Mens se werk hoef ook nie meer naby sy huis te wees nie.",
+      "blok": "Wat vandag anders is",
+      "waarom": "Kern-item 5 noem twee veranderinge - verder en vinniger reis, en goedere van ver - en hierdie derde bewering, oor waar mense woon en werk, staan in geen kern-item, in geen aanvulling (die lys is leeg) en nie in fokusvraag_skakel nie."
+    }
+  ],
+  "opsomming": "Al ses kern-items en die fokusvraagskakel is volledig gedek en die nuwe slotsin lewer die reggemaakte vereiste met koste, afstand en vrag steeds sonder rangorde langs mekaar; die enigste oop saak is die spek self, want les 5 se historiese_konsepte-inskrywing 'Multi-perspektief benadering' beveel nog woordeliks die teruggetrekte 'dieselfde rit'-vorm en moet by die bron reggemaak word eerder as in die konsep."
+}
