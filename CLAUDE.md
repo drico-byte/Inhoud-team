@@ -301,6 +301,18 @@ means force, and `lug` is right when it means air.
 Where the checker's version is better and the term is not shared, **the
 repository adopts it**, not the other way round.
 
+## Finished lessons go to `Voltooide lesse/`
+
+**Lampies, 22 September 2026.** Every approved lesson's PDF is also delivered to
+`Voltooide lesse/Graad N/<Vak>/<Subonderwerp>/Les NN - <titel>.pdf`. Sign-off does
+this automatically (`hardloop.py` and `keur-goed-na-handnasien.py` both print a
+`Delivered:` line). The PDF beside the lesson stays the pipeline's copy. To backfill
+or refresh:
+
+```bash
+python bin/voltooide_lesse.py --vak "<subject>" --graad 5 --graad 6
+```
+
 ## Where the rest lives
 
 | | |

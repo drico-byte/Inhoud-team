@@ -1,0 +1,195 @@
+{
+  "skema_weergawe": "1.0",
+  "vak": "Lewensvaardighede",
+  "graad": 6,
+  "kwartaal": 4,
+  "kaps_onderwerp": "Persoonlike en Sosiale Welsyn",
+  "kaps_subonderwerp": "Gesondheids- en omgewingsverantwoordelikheid",
+  "kaps_ure": 12,
+  "kaps_ure_nota": "Slegs inligting; niks word daaruit afgelei nie. 1,5 uur noodhulp + 4,5 uur voedselhigiëne + 4,5 uur oordraagbare siektes + 1,5 uur MIV en VIGS. Die jaarplan se toets vir 'n uitsondering is KABV se ure, en dit is die rede waarom die noodhulp-voorstel in les 1 NIE op 'n uitsondering steun nie: daardie blok het die minste ure van die vier.",
+  "fokusvraag": "Wat doen ek wanneer iemand seerkry, hoe keer ek dat siekte deur kos en van mens tot mens versprei, en hoe sorg ons vir mense wat siek is?",
+  "fokusvraag_nota": "Deur die beplanner gestel; KABV Lewensvaardighede gee nie fokusvrae nie. Vier dele, een per KABV-blok: seerkry (lesse 1-2), kos (3-4), oordraagbare siektes (5-6), sorg sonder vrees vir mense met MIV en VIGS (7-8). Elke leesstuk dra dieselfde deel as die inhoudsles voor hom.",
+  "profiel_konfig": "gr6-lv-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "Die nul is 'n besluit, nie 'n meting of 'n gaping nie: die handboek is vir Graad 6 PSW nooit gelees of gemeet nie (profiele/gr6-lv-profiel.json). Moenie dit as volume aanhaal nie.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "550 woorde vir ELKE les, inhoudslesse en leesstukke gelyk: 8 x 550 = 4 400. Lampies, 21 September 2026, met die Graad 6-band van 450-550. Nie uit 'n handboekmeting nie. Geen uitsondering is ingebou nie; waar 'n les knap pas, se sy begrotingsnota so, en uitsonderings word NA die beplanning aan Lampies voorgele. Die hek meet teen 550 met 15% toleransie; die skrywer mik op 550 en nie op die boonste kant van die toleransie nie.",
+  "totale_begroting": 4475,
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "KABV Lewensvaardighede Graad 4-6 (kaps/dokumente/intersen-gr4-6/04_Lewensvaardighede_Graad_4-6_KABV.pdf), Graad 6 PSW Kwartaal 4, gedrukte bladsy 28 (PDF-bladsy 33); kaps/gr6-lv-psw.json en al sy beplanningsnotas; profiele/gr6-lv-profiel.json (geen meting, met opset); kaps/gedeelde-omskrywings-lewensvaardighede-gr6.json. Die goedgekeurde Graad 5-spesifikasie vir hierdie subonderwerp is as VORM gelees, en sy feiterisiko's as lesse oor foute; sy inhoud is nie oorgeneem nie.",
+    "handboek_nota": "Geen handboekbladsy, skandering, transkripsie, OCR-uitset of beskrywing van 'n handboek se indeling het enige deel hiervan ingelig, en niks van die aard is aangebied nie. Die indeling in agt lesse kom van KABV se vier blokke, elk met sy voorgeskrewe lees."
+  },
+  "verdeling_nota": "AGT LESSE, in KABV se volgorde: elke blok gee 'n inhoudsles en dan sy leesstuk (kaps/gr6-lv-psw.json, 'struktuur'). Geen skeur- of saamvoegreel is toegepas nie. Die lesnommers 1-8 is die volgorde binne hierdie subonderwerp; Lampies se jaarnommers word nie hier geraai nie.",
+  "leesstukke_is_stories": "Lesse 2, 4, 6 en 8 is STORIES (Lampies, 21 September 2026). KABV vra 'interpreteer/verduidelik en vertel wat aangeleer is': die storie laat 'n karakter iets uit die inhoudsles DOEN en VERDUIDELIK, sodat die leerder kan oorvertel wat sy gedoen het en hoekom. 'n Leesstuk is nie die inhoudsles in minder woorde nie, en dit is nie 'n tweede draer van verpligte inhoud nie: elke KABV-item word in die inhoudsles self gedek. Een plek, een voorval, 'n duidelike volgorde, 'n goeie einde; die grootmens is nooit die skurk nie; name uit meer as een Suid-Afrikaanse taal.",
+  "gedeelde_omskrywings": {
+    "nota": "Die ooreengekome bewoordings word deur bin/hardloop.py in elke uittreksel ingespuit; kopieer hulle WOORD VIR WOORD uit daardie lys en skryf geen nuwe een nie. Hier staan net watter les watter term waarskynlik gebruik.",
+    "terme_per_les": {
+      "kliniek": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "medisyne": [
+        5,
+        7
+      ],
+      "kieme": [
+        3,
+        5
+      ],
+      "virus": [
+        5,
+        7
+      ],
+      "simptoom": [
+        3,
+        5
+      ],
+      "miv": [
+        7
+      ],
+      "vigs": [
+        7
+      ],
+      "maatskaplike werker": [
+        7
+      ]
+    },
+    "simptoom_dek_tekens": "KABV se 'tekens en simptome' is TWEE dinge (Lampies, 21 September 2026, na die feitetoets): 'n simptoom is wat die siek mens self voel (die ooreengekome omskrywing); 'n teken is wat ander kan sien of meet, soos 'n uitslag, swelling of koors. Waar die les albei noem, gebruik albei woorde reg; 'teken' mag 'n eie begrip kry.",
+    "nuwe_terme": "Nuwe terme wat hierdie subonderwerp waarskynlik invoer, elk met 'n begrip-inskrywing wat alleen gelees kan word: noodhulp, brandwond, skroeiwond, kneusing, verstikking, angel (les 1); bederf (les 3; 'vervaldatum' weggelaat, 21 September 2026); oordraagbaar, swam (les 5); mite (les 7). As 'n term in meer as een les voorkom, kry dit een bewoording, en dit gaan in die gedeelde lys sodra die konsepte dit wys."
+  },
+  "graad_4_en_5_wat_reeds_geleer_is": [
+    "Graad 5 het huishoudelike vergiftiging en vuur volledig gedek: moenie laat opgooi nie, wys die houer, spoel oë en vel dadelik met baie skoon lopende water, die vuur-reaksie. Les 1 herhaal dit NIE in besonderhede nie en mag dit NIE weerspreek nie.",
+    "Graad 5 het TB gedek (deur die lug, nie deur 'n beker nie; hoes van twee weke of langer; nie elke hoes is TB nie; medisyne word klaar gedrink) en diarree (uitdroging, bly drink, die kliniek se drankie, geen resep). Lesse 3 en 5 stem daarmee ooreen: sien konsepte/gr5/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-7.json en les-8.json.",
+    "Graad 4 het MIV se bloed-roete en die lys van gewone dinge waardeur MIV NIE oorgaan nie gedek; Graad 5 het stigma gedek. Les 7 bou daarop en doen nie stigma oor nie."
+  ],
+  "registerbesluit": [
+    "Noem KABV se lang woorde een keer en skryf daarna kort: 'voedselhigiëne' een keer, daarna 'kos veilig hanteer'; 'voorkomingstrategieë' nooit in die lesteks nie - skryf 'hoe jy dit keer'; 'tuberkulose' een keer, daarna TB.",
+    "KABV gebruik 'noodhulp' in die inhoudsblok en 'eerstehulp' in die leesopdrag. Die les gebruik 'noodhulp' deurgaans en noem 'eerstehulp' NIE as tweede naam nie (21 September 2026: taalgidse verwerp dit)."
+  ],
+  "taalnasien_kandidate": {
+    "nota": "Vir Lampies om te bevestig en in kaps/beskermde-woorde.json te sit, met die rede. Die beplanner skryf nie daaraan nie.",
+    "woorde": [
+      "pampoentjies - KABV se woord vir die siekte (Engels 'mumps'). Lyk vir 'n nasiener soos klein pampoene; mag nie verander word nie.",
+      "atleetvoet - KABV se woord. Mag nie deurgaans 'voetswam' word nie; die les mag 'voetswam' een keer as ander naam noem.",
+      "noodhulp - die les se woord; mag nie deurgaans 'eerstehulp' word nie.",
+      "mense wat met MIV leef - mag nie na 'MIV-lyers' of 'besmette mense' verkort word nie.",
+      "MIV en VIGS - Afrikaanse letters; nooit HIV/AIDS nie, en nooit 'MIV/VIGS' as een ding nie.",
+      "kieme en virus - beslis: kieme is lewend, en 'n virus word nie kieme genoem nie.",
+      "diarree - nie 'buikloop' of 'maagwerkings' nie."
+    ]
+  },
+  "buite_bestek": [
+    "GEEN MEDISYNENAAM EN GEEN DOSIS in enige les nie, ook nie 'n soort medisyne by die naam nie (geen pynpil, ontsmettingsmiddel, salf of room by die naam). Behandeling beteken altyd: roep 'n grootmens, dan kliniek toe.",
+    "GEEN TELEFOONNOMMER in enige les nie, ook nie 'n gifinligtingslyn of noodnommer nie. Die grootmens bel.",
+    "GEEN REDDINGSTEGNIEK wat oefening vra: geen asemhaling herstel of hartdruk, geen rugslae of maagdruk by verstikking, geen spalk, geen beweeg van 'n beseerde mens. Sien les 1 se besluit_vir_lampies.",
+    "GEEN HUISMIDDEL op 'n wond of brandwond (botter, olie, tandepasta, eierwit, ys) - behalwe as 'n MOENIE.",
+    "GEEN REHIDRASIERESEP (lepels sout of suiker), ook nie as 'n bron dit gee nie; maar ook NIE die bewering dat 'n grootmens dit nie by die huis mag aanmeng nie (Graad 5 se regstelling).",
+    "GEEN STATISTIEK en geen oortreffende trap sonder bevestiging, in geen les nie.",
+    "GEEN WERKLIKE kliniek, hospitaal, organisasie, veldtog, webwerf of handelsmerk by die naam.",
+    "MIV-TOETSING en hoe MIV-medisyne werk; latente TB; die verskil tussen 'n bakterie en 'n virus."
+  ],
+  "sensitiewe_inhoud": [
+    "Daar sit waarskynlik 'n leerder in die klas wat met MIV leef of vir iemand sorg wat siek is. Elke sin in lesse 7 en 8 word geskryf asof sy dit lees. Niemand word 'n waarskuwingsvoorbeeld nie.",
+    "Sorg vir 'n siek mens is die GROOTMENS se verantwoordelikheid. 'n Kind help; 'n kind word nooit die een wat die sorg dra nie.",
+    "Kos en geld: nie elke huis het 'n yskas nie. Les 3 gee 'n veilige roete vir albei, en skryf nooit oor 'n soort gesin nie.",
+    "Siekte: die siek mens is 'n gewone mens. Die les praat oor die siekte, nooit oor 'n mens as 'n gevaar nie."
+  ],
+  "moeilike_konsepte_besluit": "Geen les flag 'n moeilike konsep nie, en dit is 'n besluit. Alles hier is sigbaar: 'n wond, 'n brandwond onder die kraan, bederfde kos, 'n hoes, 'n uitslag, iemand wat langs 'n siek mens sit. Die spek-toetser se waarskuwing hieroor is verwag.",
+  "dekkingsnasiener_nota": "Toets elke les teen sy eie kern en fokusvraag_skakel. 'n Leesstuk word NIE teen die KABV-inhoudslys getoets nie, en dat les 2 net een noodhulpsituasie dra, is die ontwerp. Praktiese dinge (die noodhulpkissie, rolspel, plakkaat) gebeur in die klas en is nie ontbrekend nie.",
+  "vak_gedeelde_omskrywings": {
+    "nota": "Een bewoording per term, vir die hele vak en die hele graadjaar. Dieselfde reels as Graad 4 en 5: 'n term in meer as een woordelys is WOORD VIR WOORD identies; die voorbeelde na 'soos' mag verskil; 'n omskrywing word nie ryker soos die jaar vorder nie. GRAAD 5 EERSTE: hierdie leerders het Graad 4 en 5 Lewensvaardighede gelees. Die terme hieronder is Graad 5 se ooreengekome en feitgetoetste bewoordings, oorgeneem op 21 September 2026; 'n Graad 6-les wat so 'n term gebruik, kopieer dit woord vir woord en skryf nie 'n nuwe een nie.",
+    "terme": {
+      "afknouery": "Aspris seermaak wat oor en oor gebeur, deur 'n ander kind of 'n groep kinders met meer mag.",
+      "kieme": "Baie klein lewende dinge wat 'n mens siek kan maak.",
+      "medisyne": "'n Middel wat help om siekte of pyn te behandel, of om te keer dat 'n mens siek word.",
+      "middel": "Iets anders as kos en water wat jy sluk, drink, inasem, aan jou vel smeer of ingespuit kry, en wat verander hoe jou liggaam of verstand werk, soos pille, alkohol of sigarette.",
+      "simptoom": "Iets wat 'n mens self voel omdat hy siek is, soos pyn, moegheid of 'n seer keel.",
+      "virus": "'n Baie klein ding wat net binne-in 'n liggaam skade kan doen.",
+      "miv": "'n Virus in die bloed wat die liggaam se afweer swakker maak.",
+      "vigs": "Wanneer MIV die liggaam se afweer teen siekte baie swak gemaak het.",
+      "stereotipe": "'n Vaste prentjie oor 'n hele groep mense, asof almal dieselfde is.",
+      "diskriminasie": "Om iemand anders en slegter te behandel oor die groep waaraan hy behoort.",
+      "childline": "'n Diens wat kinders kan bel wanneer hulle hulp nodig het.",
+      "maatskaplike werker": "Iemand wat opgelei is om mense te help met probleme in hulle lewe, ook kinders en gesinne.",
+      "kliniek": "'n Plek in die gemeenskap waar mense gesondheidsorg kry, of hulle siek is of gesond.",
+      "fees": "'n Dag of 'n tyd wat mense saam onthou en saam vier.",
+      "gebruik": "Iets wat 'n groep mense oor en oor op dieselfde manier doen.",
+      "voorouers": "Die mense in jou familie van wie jy afstam en wat reeds oorlede is, soos 'n ouma of oupa wat al gesterf het.",
+      "impepho": "'n Geurige plant wat mense brand om hul voorouers nader te roep en met hulle te praat.",
+      "tempel": "'n Gebou waar Hindoes, Boeddhiste en mense van party ander gelowe aanbid.",
+      "konflik": "Wanneer twee of meer mense of groepe verskil en dit skeef loop.",
+      "kindermishandeling": "Wanneer 'n grootmens of 'n ander kind 'n kind aspris skade doen.",
+      "seksisme": "Om iemand anders en slegter te behandel of met woorde af te kraak omdat hy 'n seun of 'n man, of sy 'n meisie of 'n vrou is.",
+      "teken": "Iets wat 'n siekte aan 'n mens verander en wat ander kan sien of meet, soos 'n uitslag of koors."
+    }
+  },
+  "nommer": 3,
+  "lessoort": "inhoudsles",
+  "lessoort_nota": "INHOUDSLES. Studieblokke, 'n woordelys, geen vrae.",
+  "titel": "Van die winkel tot op jou bord",
+  "titel_nota": "Werktitel; die skrywer mag dit verbeter.",
+  "kaps_punt": "Voedselhigiëne: Veilige en skadelike bestanddele; Voedselvoorbereiding; Voedselberging; Siektes wat deur voedsel oorgedra kan word.",
+  "kaps_punt_subpunte": [
+    "Veilige en skadelike bestanddele",
+    "Voedselvoorbereiding",
+    "Voedselberging",
+    "Siektes wat deur voedsel oorgedra kan word"
+  ],
+  "begroting": 550,
+  "begrotingsnota": "550 woorde. Vier KABV-subpunte van ongeveer 120 woorde elk, plus 'n kort inleiding oor wat voedselhigiëne is. Pas gemaklik; die risiko is om 'n vyfde onderwerp (gesonde eetgewoontes, Graad 5) in te trek.",
+  "kern": [
+    "WAT VOEDSELHIGIËNE IS: kos so koop, voorberei en bêre dat kieme en bederf nie by die mens uitkom nie. Een keer die KABV-woord; daarna 'kos veilig hanteer'.",
+    "VEILIGE EN SKADELIKE BESTANDDELE - hier gelees as kos wat veilig of onveilig is om te eet, NIE as voeding of bymiddels nie: vars teenoor bederf (reuk, slym, skimmel); rou vleis, hoender en eiers kan kieme dra tot hulle deurgaar is; vrugte en groente word gewas; blikkies wat geswel is of lek, word nie oopgemaak nie; die datum op die etiket.",
+    "VOEDSELVOORBEREIDING: was hande met seep en water voor jy kos hanteer en nadat jy rou vleis hanteer het; hou rou vleis en kos wat klaar is apart, ook die snyplank en mes; maak vleis en hoender deur gaar; gebruik skoon water.",
+    "VOEDSELBERGING: kos wat maklik bederf, word koel gehou - in 'n yskas as daar een is; gaar kos staan nie langer as twee uur buite nie, en op 'n baie warm dag nie langer as een uur nie (WHO en die Departement van Gesondheid; USDA vir warm dae, feitetoets 21 September 2026); kos word toegemaak teen vlieë; droë kos in toe houers weg van muise en insekte; gif en skoonmaakgoed nooit by kos of in 'n kosbottel nie (Graad 5, een klousule). Waar daar geen yskas is nie: maak net soveel as wat julle gaan eet, en eet dit terwyl dit nog vars en warm is. Gaar kos wat oorbly, word nie tot die volgende dag sonder 'n yskas gehou nie. Maak kos toe teen vlieë (spek-feitetoets, 21 September 2026).",
+    "SIEKTES WAT DEUR KOS OORGEDRA WORD: voedselvergiftiging en diarree, met hulle tekens en simptome - maagkrampe, opgooi, diarree en soms koors, SAAM genoem as 'tekens en simptome' en nie een vir een geëtiketteer nie (bronne verskil oor opgooi en diarree; Lampies se reël, 21 September 2026). 'n Simptoom is wat die siek mens self voel; 'n teken is wat ander kan sien of meet (Lampies, 21 September 2026). 'n Groot gevaar is dat die liggaam te veel water verloor (nie 'die' gevaar nie - party voedselvergiftiging, soos listeriose of botulisme, kan op ander maniere doodmaak; feitetoets 21 September 2026). Roep 'n grootmens; bly drink; die kliniek help. Stem ooreen met Graad 5 se diarree-inhoud en weerspreek dit nie."
+  ],
+  "aanvulling": [],
+  "moeilike_konsepte": [],
+  "termdig": true,
+  "termdig_nota": "Termdig: voedselhigiëne, bederf, moontlik voedselvergiftiging. ('vervaldatum' is weggelaat: dit beskryf 'best before' verkeerd.) 'kieme', 'simptoom' en 'kliniek' uit die gedeelde lys, woord vir woord.",
+  "feiterisiko": [
+    "'SKADELIKE BESTANDDELE' IS 'N INTERPRETASIE: die spek lees dit as onveilige kos, nie as bymiddels, suiker of sout nie. As die feitetoets 'n ander gewone lesing in Suid-Afrikaanse KABV-materiaal vind, se dit - moenie die les uitbrei nie.",
+    "GESWELDE BLIKKIE: gaan na dat 'n geswelde of lekkende blikkie nie oopgemaak of geproe word nie. Geen siektenaam (botulisme). Gaan na of 'n geduikte blikkie ook genoem moet word; as bronne verskil, bly dit uit.",
+    "SKIMMEL: moenie skryf dat 'n mens die skimmel kan afsny en die res eet nie. Gaan na; die veilige vorm is dat skimmelrige kos weggegooi word.",
+    "HOE LANK GAAR KOS BUITE MAG STAAN: bronne gee 'n getal uur (dikwels twee, korter in hitte). Gebruik 'n getal net as die feitetoets dit bevestig; anders 'nie ure lank nie'.",
+    "DIE DATUM OP DIE ETIKET: Suid-Afrikaanse etikette is volgens wet in Engels, dus noem die les die Engelse woorde soos op die etiket, 'Use by' en 'Best before', en verduidelik elkeen in Afrikaans (feitetoets en besluit 21 September 2026; 'gebruik voor' kon nie as etiketwoord bevestig word nie). Moenie se dat alle kos na enige datum onveilig is nie - dit is vals vir 'beste voor'.",
+    "EIERS: 'kan kieme dra', nie dat elke eier dit doen nie.",
+    "DIARREE: 'dikwels kieme', nooit 'altyd' (Graad 5). Bly drink; geen rehidrasieresep; moenie se dat dit nie by die huis aangemeng mag word nie.",
+    "VOEDSELVERGIFTIGING: gaan na dat die tekens en simptome reg is en wanneer dit begin. Geen uitbreking, handelsmerk of statistiek by die naam nie.",
+    "HANDEWAS: geen persentasie; geen oortreffende trap ('die beste manier')."
+  ],
+  "fokusvraag_skakel": "Lewer die kos-helfte van die tweede deel van die fokusvraag: hoe 'n leerder keer dat kos iemand siek maak, deur die keuse van kos, die voorbereiding en die bêre, en wat gebeur as dit tog gebeur.",
+  "_spek_vlak_velde": [
+    "begroting_basis",
+    "begroting_basis_nota",
+    "buite_bestek",
+    "dekkingsnasiener_nota",
+    "fokusvraag",
+    "fokusvraag_nota",
+    "gedeelde_omskrywings",
+    "graad",
+    "graad_4_en_5_wat_reeds_geleer_is",
+    "herkoms",
+    "kaps_onderwerp",
+    "kaps_subonderwerp",
+    "kaps_ure",
+    "kaps_ure_nota",
+    "leesstukke_is_stories",
+    "moeilike_konsepte_besluit",
+    "onderwerp_woorde",
+    "onderwerp_woorde_nota",
+    "profiel_konfig",
+    "registerbesluit",
+    "sensitiewe_inhoud",
+    "skema_weergawe",
+    "taalnasien_kandidate",
+    "totale_begroting",
+    "vak",
+    "verdeling_nota"
+  ]
+}

@@ -352,6 +352,7 @@ Anchored on measured volume, never guessed, and then clamped into the grade's ba
 |---|---|---|---|
 | 4 | **350** | **450** | decided by Drico, 7 September 2026 |
 | 5 | **400** | **500** | decided by Lampies, 16 September 2026 — teaching lessons and reading pieces alike |
+| 6 | **450** | **550** | decided by Lampies, 21 September 2026 — one step up from Grade 5, teaching lessons and reading pieces alike |
 | others | — | — | unbanded until decided the same way |
 
 **Why a band, when the budget is supposed to be a measurement.** The measurement was

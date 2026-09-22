@@ -1,0 +1,82 @@
+{
+  "les": "gr6/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-1",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:39ad55cf475b7c4947deef2600d0e6b8",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:82ba2b54e6446329633e529a115ca695"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-21T13:53:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:82ba2b54e6446329633e529a115ca695",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-21T13:53:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 743,
+      "begroting": 625,
+      "failures": [
+        "Study text 743 words, above budget ceiling 719 (target 625) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-21T13:53:41+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 743 words, above budget ceiling 719 (target 625) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-21T15:31:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:39ad55cf475b7c4947deef2600d0e6b8",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-21T15:31:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 698,
+      "begroting": 625,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-21T15:31:37+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-21T15:31:38+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 52,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-21T15:31:38+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-1.json",
+      "konsep_hash": "sha256:39ad55cf475b7c4947deef2600d0e6b8",
+      "vervang": false
+    }
+  ],
+  "spek_hash": "sha256:d5856b420e3edae8c19bc98a24712dea",
+  "hek_konteks": {
+    "graad": 6,
+    "begroting": 625
+  }
+}

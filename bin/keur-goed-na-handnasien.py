@@ -79,9 +79,10 @@ def main():
     goedgekeur = [reel for reel in r.stdout.splitlines() if "Approved in place" in reel]
     if goedgekeur:
         print(goedgekeur[0])
-        pdf = [reel for reel in r.stdout.splitlines() if "Readable copy" in reel]
-        if pdf:
-            print(pdf[0])
+        for merk in ("Readable copy", "Delivered", "could not be copied"):
+            reels = [reel for reel in r.stdout.splitlines() if merk in reel]
+            if reels:
+                print(reels[0])
         shutil.rmtree(stash, ignore_errors=True)
         return 0
     print("The runner did not sign it off. The reports are back beside the draft, and a "

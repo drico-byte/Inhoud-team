@@ -468,7 +468,18 @@ def pdf_langs_les(les, les_json_pad):
     try:
         import leeskopie
         doel = les_json_pad[:-len(".json")] + ".pdf"
-        return leeskopie.maak_pdf(leeskopie.bou_html(les), doel)
+        pdf = leeskopie.maak_pdf(leeskopie.bou_html(les), doel)
+        # Lampies, 22 September 2026: every approved lesson is also delivered,
+        # sorted by grade, subject and sub-topic, into 'Voltooide lesse'.
+        try:
+            import voltooide_lesse
+            afgelewer = voltooide_lesse.kopieer(les, les_json_pad, pdf or doel)
+            if afgelewer:
+                print(f"Delivered:      {P.rel(afgelewer)}")
+        except Exception as ex:                  # noqa: BLE001 — never block approval
+            print(f"\nThe lesson is approved, but could not be copied to "
+                  f"'Voltooide lesse': {type(ex).__name__}: {str(ex)[:200]}")
+        return pdf
     except Exception as ex:                      # noqa: BLE001 — never block approval
         print(f"\nThe lesson is approved. The readable PDF could not be made: "
               f"{type(ex).__name__}: {str(ex)[:200]}")

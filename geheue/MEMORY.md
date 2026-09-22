@@ -83,3 +83,6 @@
 - [Safety lessons produce the worst errors](veiligheidslesse-lewer-die-ergste-foute.md) — rinse eyes 10-15 min first, paraffin looks like water, and never tell a child an adult may not mix rehydration.
 - [Gr 5 Life Skills: where we are](gr5-lv-waar-ons-is.md) — 32/32 signed off 21 Sep 2026, and the Gr 4 reprints too; a human read of Gr4 OVS 3 and Gr5 GO 12 is recommended; konflik's two meanings are deliberate (Drico); verpleegster stays.
 - [A note too long for the writer](n-nota-te-lank-vir-die-skrywer.md) — past ~50KB the writer can't read the lesson; give it a working copy and merge its blocks back by script.
+- [Gr 6 Life Skills: the year's rulings](gr6-lv-besluite.md) — 32 lessons, 550 words (450-550), reading pieces are stories, risky specs fact-checked before writing; first aid is the expected exception.
+- [Gr 6 Life Skills: where we are](gr6-lv-waar-ons-is.md) — 32/32 signed off 21 Sep 2026; which lessons to read first; sign/symptom change re-signed Gr 5 GO 7 and 8.
+- [Finished lessons go to Voltooide lesse](voltooide-lesse-uitvoer.md) — automatic at sign-off since 22 Sep 2026, sorted Graad/Vak/Subonderwerp; Gr 5 and 6 Life Skills backfilled.
