@@ -3,7 +3,7 @@
  "graad": 6,
  "nota": "Een bewoording per term, vir die hele vak en die hele graadjaar. Dieselfde reëls as Graad 4 en 5: 'n term in meer as een woordelys is WOORD VIR WOORD identies; die voorbeelde na 'soos' mag verskil; 'n omskrywing word nie ryker soos die jaar vorder nie. 'n Omskrywing MAG oor grade heen verbreed waar KABV verbreed (Drico, 9 September 2026) - maar dit is dan 'n besluit wat hier aangeteken word, nie iets wat een beplanner op sy eie doen nie.",
  "hoe_dit_gebruik_word": "bin/hardloop.py spuit hierdie lys in elke spesifikasie-uittreksel in; bin/woordelysdrif.py toets die lesse daarteen. Die lys word gevind op sy eie 'vak' en 'graad', nie op sy lêernaam nie.",
- "status": "Opgestel 22 September 2026 voor die eerste Graad 6-les. Die terme hieronder is Graad 4 en 5 se afgetekende bewoordings; 'lesse' bly leeg totdat Graad 6-lesse hulle gebruik.",
+ "status": "22 September 2026: Graad 4 en 5 se bewoordings oorgedra; die 19 beplanners se voorstelle versoen. Waar 'n spesifikasie se 'voorgestelde_bewoordings' van hierdie lys verskil, WEN HIERDIE LYS. Ses terme wag op Drico (sien WAG_OP_DRICO).",
  "omvang_vooraf": {
   "nota": "Terme wat in MEER AS EEN Graad 6-subonderwerp gaan voorkom, of wat Graad 6 wyer moet maak as vroeër. Hulle bewoording is NOG NIE BESLIS NIE. Elke beplanner stel 'n bewoording voor in sy spek; die voorstelle word vergelyk en een gekies VOOR enige les geskryf word.",
   "verbreed_waarskynlik": {
@@ -31,10 +31,14 @@
    "nota": "Oorgeneem uit 'n afgetekende Graad 5-les (22 September 2026). Graad 6 kopieer dit woord vir woord, tensy KABV Graad 6 die begrip werklik wyer maak; dan stel die beplanner 'n verbreding voor en Drico besluit."
   },
   "koolstofdioksied": {
-   "omskrywing": "'n Gas in die lug wat plante gebruik om kos te maak.",
-   "lesse": [],
-   "stem_reeds_ooreen": true,
-   "nota": "Oorgeneem uit 'n afgetekende Graad 5-les (22 September 2026). Graad 6 kopieer dit woord vir woord, tensy KABV Graad 6 die begrip werklik wyer maak; dan stel die beplanner 'n verbreding voor en Drico besluit."
+   "omskrywing": null,
+   "lesse": [
+    1,
+    2
+   ],
+   "stem_reeds_ooreen": false,
+   "voorstel": "'n Gas in die lug wat plante gebruik om kos te maak. Lewende dinge gee dit af wanneer hulle asemhaal.",
+   "WAG_OP_DRICO": "Verbreding van 'n oorgedraagde bewoording (of 'n ongewoon lang een). Aanbeveel: \"'n Gas in die lug wat plante gebruik om kos te maak. Lewende dinge gee dit af wanneer hulle asemhaal.\" Graad 5 se sin bly; een sin bygevoeg. 'Lewende dinge', nie 'mense en diere' nie: plante haal ook asem."
   },
   "stroombaan": {
    "omskrywing": "Die hele kring waarlangs elektrisiteit loop en energie bring tot waar dit nodig is.",
@@ -196,10 +200,703 @@
   "as": {
    "omskrywing": null,
    "twee_betekenisse": true,
-   "lesse": [],
+   "lesse": [
+    24,
+    26
+   ],
    "stem_reeds_ooreen": false,
    "beslis_deur": "Drico, 18 September 2026 (Graad 5), hier oorgedra",
    "nota": "TWEE BETEKENISSE MET OPSET, soos in Graad 5. Die les oor die Aarde se rotasie (31+32) bedoel 'n LYN WAT NIE BESTAAN NIE: \"Die Aarde se as is 'n lyn wat deur die middel van die Aarde loop. Die Aarde draai om daardie lyn. Niemand kan dit sien of aanraak nie.\" Die les oor Maan- en Mars-voertuie (35+36+37, KABV 'wiele en asse') bedoel 'n egte stang: \"Die stang deur 'n wiel se middel waarop of waarmee die wiel draai.\" Elke les hou sy eie betekenis. Die ruimte-les noem nooit 'n wiel of 'n stang nie, ook nie om dit te ontken nie."
+  },
+  "kieme": {
+   "omskrywing": "Baie klein lewende dinge wat 'n mens siek kan maak.",
+   "lesse": [
+    5,
+    13,
+    14,
+    15
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Graad 4 se ooreengekome bewoording, woord vir woord (ook Lewensvaardighede)."
+  },
+  "asemhaling": {
+   "omskrywing": "Om suurstof te gebruik om energie uit jou kos te kry.",
+   "lesse": [
+    1,
+    2
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Graad 4 se sin sonder 'uit die lug', wat vir visse vals is. Dit is 'n vernouing van 'n vals deel, nie 'n verryking nie."
+  },
+  "vibreer": {
+   "omskrywing": "Om baie vinnig heen en weer te beweeg.",
+   "lesse": [
+    8
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Graad 4 se ooreengekome en beskermde bewoording, woord vir woord."
+  },
+  "herbivoor": {
+   "omskrywing": "'n Dier wat net plante eet, soos gras, blare of vrugte.",
+   "lesse": [
+    6,
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Graad 5 se afgetekende bewoording, woord vir woord.",
+   "voorbeelde_mag_verskil": true
+  },
+  "karnivoor": {
+   "omskrywing": "'n Dier wat net ander diere eet.",
+   "lesse": [
+    6,
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Graad 5 se afgetekende bewoording, woord vir woord.",
+   "voorbeelde_mag_verskil": true
+  },
+  "omnivoor": {
+   "omskrywing": "'n Dier wat plante sowel as ander diere eet.",
+   "lesse": [
+    6,
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Graad 5 se afgetekende bewoording, woord vir woord.",
+   "voorbeelde_mag_verskil": true
+  },
+  "substasie": {
+   "omskrywing": "'n Plek met groot toestelle wat die elektrisiteit se stoot of pad verander.",
+   "lesse": [
+    19,
+    20,
+    21
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Graad 5 se ooreengekome bewoording, woord vir woord."
+  },
+  "nie-metaal": {
+   "omskrywing": "Materiaal wat nie metaal is nie, soos kryt, klip, hout of plastiek.",
+   "lesse": [
+    17
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Graad 5 se afgetekende bewoording.",
+   "voorbeelde_mag_verskil": true
+  },
+  "deeltjie": {
+   "omskrywing": "Een van die piepklein stukkies waaruit alle materie bestaan. Dit is te klein om selfs met 'n vergrootglas te sien.",
+   "lesse": [
+    8,
+    10,
+    11,
+    12
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Twee voorstelle (lesse 8 en 12). Les 8 se raam met les 12 se sterker, toetsbare tweede sin. 'Boustene' laat val: 'n beeld in 'n omskrywing word as meganisme gelees."
+  },
+  "filtreer": {
+   "omskrywing": "Om 'n mengsel deur 'n filter te laat loop. Die vloeistof gaan deur, en vaste stukkies wat te groot is vir die gaatjies bly agter.",
+   "lesse": [
+    9,
+    11,
+    15
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Les 9 se voorstel. Dit bly waar vir les 11 (opgeloste stof gaan deur) en les 15 (gefiltreerde water is nie noodwendig veilig nie). Voorbeelde van filters (papier, lap, sand) hoort in die teks."
+  },
+  "geleier": {
+   "omskrywing": "'n Materiaal wat elektrisiteit deurlaat, soos koper of staal.",
+   "lesse": [
+    16,
+    17,
+    18
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Les 17 besit die term. Sonder 'maklik', sodat water nog as geleier tel.",
+   "voorbeelde_mag_verskil": true
+  },
+  "mikro-organisme": {
+   "omskrywing": "'n Lewende ding wat so klein is dat 'n mens dit net deur 'n mikroskoop kan sien.",
+   "lesse": [
+    5,
+    6,
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Twee byna gelyke voorstelle; 'n mens' kies. Nie dieselfde as 'kieme' nie. Paddastoele is ontbinders wat jy kan sien, dus mag les 7 nie se elke ontbinder is 'n mikro-organisme nie."
+  },
+  "oplosbaar": {
+   "omskrywing": "Iets wat in water kan oplos, soos suiker en sout.",
+   "lesse": [
+    10,
+    11,
+    13
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Lesse 10-11 besit die term; onderwerp bygevoeg sodat dit 'n sin is.",
+   "voorbeelde_mag_verskil": true
+  },
+  "onoplosbaar": {
+   "omskrywing": "Iets wat nie in water oplos nie, soos sand.",
+   "lesse": [
+    10,
+    11,
+    13
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Lesse 10-11 besit die term. 'Jy kan dit nog sien' weggelaat: vlapoeier en kerriepoeier kleur die water.",
+   "voorbeelde_mag_verskil": true
+  },
+  "oplos": {
+   "omskrywing": "Wanneer die deeltjies van 'n stof losraak en tussen die deeltjies van 'n vloeistof meng, sodat jy geen korrels meer kan sien nie.",
+   "lesse": [
+    10,
+    11,
+    12
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Twee voorstelle (lesse 10-11 en 12). Een bewoording vir die jaar; die deeltjieprent kom in les 8, voor albei. 'Meng' eerder as 'in die ruimtes versprei': geen vaste gapings wat vol raak nie. 'Geen korrels' eerder as 'niks': 'n oplossing kan gekleur wees."
+  },
+  "oorgiet": {
+   "omskrywing": "Om die vloeistof bo-op versigtig af te gooi sodat wat onder lê, in die houer agterbly.",
+   "lesse": [
+    9,
+    15
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Les 9 se voorstel."
+  },
+  "sif": {
+   "omskrywing": "Iets met gaatjies wat kleiner stukke deurlaat en groter stukke terughou.",
+   "lesse": [
+    9,
+    15
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Les 9 se voorstel (die ding); les 15 mag die werkwoord in die teks gebruik."
+  },
+  "uitsakking": {
+   "omskrywing": "Wanneer vaste stukkies in 'n vloeistof stadig na die bodem sak en daar bly lê.",
+   "lesse": [
+    9,
+    11,
+    15
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "KABV gebruik 'uitsakking' in twee rye en 'afsakking' in een. Ry met KABV op 'n NAAM: die meerderheid wen, en les 9 gebruik ook 'uitsak'."
+  },
+  "rotasie": {
+   "omskrywing": "Die beweging wanneer iets om sy eie as draai. Een volle draai is een rotasie.",
+   "lesse": [
+    24,
+    25
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Lesse 24 en 25 se voorstelle, les 25 se vorm vir albei."
+  },
+  "rewolusie": {
+   "omskrywing": "Die beweging wanneer iets langs sy wentelbaan om 'n ander ding reis. Een volle reis is een rewolusie.",
+   "lesse": [
+    24,
+    25
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Lesse 24 en 25 se voorstelle, les 25 se vorm vir albei."
+  },
+  "skakelaar": {
+   "omskrywing": "'n Deel van 'n stroombaan wat die pad van die elektrisiteit kan breek en weer heel kan maak.",
+   "lesse": [
+    16,
+    18
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Les 18 se voorstel: vermy 'oop/toe', want 'oop' beteken in 'n stroombaan AF, die teenoorgestelde van 'n oop kraan."
+  },
+  "voedingstof": {
+   "omskrywing": "'n Stof wat 'n lewende ding nodig het om energie te kry, te groei of gesond te bly.",
+   "lesse": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Vier voorstelle. Lesse 3-5 bedoel stowwe in kos; les 7 bedoel wat ontbinders aan die grond teruggee, vir plante. Een bewoording wat albei dek: 'lewende ding' eerder as 'liggaam', en 'of' eerder as 'en', want plantvoedingstowwe in die grond gee nie energie nie."
+  },
+  "asteroïde": {
+   "omskrywing": "'n Stuk rots of metaal wat om die Son beweeg en baie kleiner as 'n planeet is.",
+   "lesse": [
+    22
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "dwergplaneet": {
+   "omskrywing": "'n Ronde wêreld wat op sy eie om die Son beweeg, maar geen planeet nie.",
+   "lesse": [
+    22
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "maan": {
+   "omskrywing": "'n Wêreld wat om 'n groter wêreld, soos 'n planeet, beweeg en saam met hom om die Son reis.",
+   "lesse": [
+    22,
+    23,
+    25
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "ster": {
+   "omskrywing": "'n Baie groot bal warm gas wat sy eie lig maak.",
+   "lesse": [
+    22,
+    23
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "weerkaats": {
+   "omskrywing": "Wanneer lig op iets val en daarvan af terugbons.",
+   "lesse": [
+    23
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "sonnestelsel": {
+   "omskrywing": "Die Son saam met alles wat om hom beweeg.",
+   "lesse": [
+    22
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "materie": {
+   "omskrywing": "Alles wat plek inneem, of dit 'n vaste stof, 'n vloeistof of 'n gas is.",
+   "lesse": [
+    8
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "mengsel": {
+   "omskrywing": "Twee of meer verskillende stowwe of materiale wat saam gemeng is.",
+   "lesse": [
+    9,
+    10,
+    11
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "oplossing": {
+   "omskrywing": "'n Mengsel waarin een stof in 'n vloeistof opgelos het. Dit lyk oral dieselfde.",
+   "lesse": [
+    10,
+    11,
+    12
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "opgeloste stof": {
+   "omskrywing": "Die stof wat in 'n vloeistof opgelos het, soos die sout in soutwater.",
+   "lesse": [
+    11
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "oplosmiddel": {
+   "omskrywing": "Die vloeistof waarin 'n stof oplos, soos die water in soutwater.",
+   "lesse": [
+    11
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "versadigde oplossing": {
+   "omskrywing": "'n Oplossing waarin daardie hoeveelheid water niks meer van die stof kan oplos nie.",
+   "lesse": [
+    11
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "tempo van oplossing": {
+   "omskrywing": "Hoe vinnig 'n stof oplos. Jy meet dit aan die tyd wat dit neem om heeltemal op te los.",
+   "lesse": [
+    12
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "regverdige toets": {
+   "omskrywing": "'n Toets waarin jy net een ding verander en al die ander dinge dieselfde hou.",
+   "lesse": [
+    12
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "ekostelsel": {
+   "omskrywing": "'n Gebied waar lewende dinge van mekaar en van die nie-lewende dinge om hulle afhang.",
+   "lesse": [
+    6,
+    7,
+    14
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "produsent": {
+   "omskrywing": "'n Lewende ding wat sy eie kos maak, soos 'n plant.",
+   "lesse": [
+    6,
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "verbruiker": {
+   "omskrywing": "'n Lewende ding wat sy kos kry deur plante of diere te eet.",
+   "lesse": [
+    6,
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "ontbinder": {
+   "omskrywing": "'n Lewende ding wat dooie plante en diere afbreek en voedingstowwe na die grond teruggee.",
+   "lesse": [
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "biodiversiteit": {
+   "omskrywing": "Die verskeidenheid soorte lewende dinge, saam met al die plekke waar hulle lewe.",
+   "lesse": [
+    6
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "vleiland": {
+   "omskrywing": "Land wat lank nat is of onder vlak water lê, met plante wat in nat grond groei, soos riete.",
+   "lesse": [
+    6,
+    14
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "besoedeling": {
+   "omskrywing": "Stowwe of kieme wat in water, lug of grond beland en skade doen.",
+   "lesse": [
+    13,
+    14,
+    15
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "oop stroombaan": {
+   "omskrywing": "'n Stroombaan met 'n gaping in sy pad, sodat elektrisiteit nie kan loop nie.",
+   "lesse": [
+    16
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "geslote stroombaan": {
+   "omskrywing": "'n Stroombaan waarvan die pad heeltemal toe is, sodat elektrisiteit kan loop.",
+   "lesse": [
+    16
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "stroombaandiagram": {
+   "omskrywing": "'n Tekening van 'n stroombaan wat vir elke deel 'n vaste simbool gebruik.",
+   "lesse": [
+    16
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "toestel": {
+   "omskrywing": "Iets wat die energie wat elektrisiteit bring, gebruik om lig, klank, beweging of hitte te gee.",
+   "lesse": [
+    16,
+    18
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "gloeilamp": {
+   "omskrywing": "'n Lampie met 'n dun draadjie binne wat gloei en lig gee.",
+   "lesse": [
+    16,
+    18
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "motor": {
+   "omskrywing": "'n Toestel in 'n stroombaan wat die energie gebruik om iets te laat draai.",
+   "lesse": [
+    16,
+    18
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "sirene": {
+   "omskrywing": "'n Toestel in 'n stroombaan wat die energie gebruik om 'n harde klank te maak.",
+   "lesse": [
+    16,
+    18
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "nie-geleier": {
+   "omskrywing": "'n Materiaal wat feitlik geen elektrisiteit deurlaat nie, soos plastiek of rubber.",
+   "lesse": [
+    17
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "isolator": {
+   "omskrywing": "'n Stuk nie-geleier wat keer dat elektrisiteit loop waar dit nie moet nie.",
+   "lesse": [
+    17
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "fossielbrandstof": {
+   "omskrywing": "'n Brandstof wat oor miljoene jare in die Aarde se kors gevorm het uit die reste van plante en diere wat lank gelede dood is.",
+   "lesse": [
+    19,
+    21
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "hernubaar": {
+   "omskrywing": "Wat die natuur vinnig genoeg weer aanvul, sodat dit nie opraak wanneer ons dit gebruik nie.",
+   "lesse": [
+    19,
+    21
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "nie-hernubaar": {
+   "omskrywing": "Wat nie vinnig genoeg weer aangevul word nie, sodat dit eendag kan opraak as ons dit aanhou gebruik.",
+   "lesse": [
+    19,
+    21
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "turbine": {
+   "omskrywing": "'n Masjien met lemme wat draai wanneer stoom, water of wind daarteen stoot.",
+   "lesse": [
+    19,
+    21
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "kragopwekker": {
+   "omskrywing": "'n Masjien wat elektrisiteit maak wanneer iets hom laat draai.",
+   "lesse": [
+    19,
+    21
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "sonpaneel": {
+   "omskrywing": "'n Plat paneel wat elektrisiteit maak solank sonlig daarop val.",
+   "lesse": [
+    21
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "glukose": {
+   "omskrywing": "'n Soort suiker wat 'n groen plant tydens fotosintese maak.",
+   "lesse": [
+    1,
+    3
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "stysel": {
+   "omskrywing": "'n Stof wat 'n plant uit glukose maak om kos in sy dele te stoor. Dit smaak nie soet nie.",
+   "lesse": [
+    1,
+    3
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "dieet": {
+   "omskrywing": "Die kos en drank wat iemand gewoonlik elke dag eet en drink.",
+   "lesse": [
+    4
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "verwerkte voedsel": {
+   "omskrywing": "Kos wat mense verander het voordat ons dit eet, soos deur dit te kook, te droog of iets by te voeg.",
+   "lesse": [
+    3,
+    5
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie.",
+   "voorbeelde_mag_verskil": true
+  },
+  "teleskoop": {
+   "omskrywing": "'n Toestel wat meer lig of ander strale uit die ruimte opvang as wat ons oë kan.",
+   "lesse": [
+    26
+   ],
+   "stem_reeds_ooreen": false,
+   "beslis_deur": "Versoen uit die beplanners se voorstelle, 22 September 2026",
+   "nota": "Een beplanner se voorstel; nou vasgemaak sodat 'n tweede les nie 'n eie een skep nie."
+  },
+  "suurstof": {
+   "omskrywing": null,
+   "lesse": [
+    1,
+    2,
+    6,
+    7
+   ],
+   "stem_reeds_ooreen": false,
+   "voorstel": "'n Gas wat plante afgee wanneer hulle kos maak, en wat die meeste lewende dinge vir asemhaling gebruik.",
+   "WAG_OP_DRICO": "Verbreding van 'n oorgedraagde bewoording (of 'n ongewoon lang een). Aanbeveel: \"'n Gas wat plante afgee wanneer hulle kos maak, en wat die meeste lewende dinge vir asemhaling gebruik.\" Graad 5: 'Die gas in die lug wat 'n vuur gebruik om te brand.' Te nou vir Graad 6. 'In die lug' weggelaat: visse haal dit uit water."
+  },
+  "vaste stof": {
+   "omskrywing": null,
+   "lesse": [
+    8,
+    10,
+    11
+   ],
+   "stem_reeds_ooreen": false,
+   "voorstel": "Materie wat sy eie vorm hou, want elke deeltjie bly op sy eie vaste plek.",
+   "WAG_OP_DRICO": "Verbreding van 'n oorgedraagde bewoording (of 'n ongewoon lang een). Aanbeveel: \"Materie wat sy eie vorm hou, want elke deeltjie bly op sy eie vaste plek.\" Graad 4 beskryf net eienskappe; Graad 6 voeg die deeltjie-rede by."
+  },
+  "vloeistof": {
+   "omskrywing": null,
+   "lesse": [
+    8,
+    10,
+    11,
+    12
+   ],
+   "stem_reeds_ooreen": false,
+   "voorstel": "Materie wat vloei, want sy deeltjies is naby aan mekaar maar beweeg verby mekaar.",
+   "WAG_OP_DRICO": "Verbreding van 'n oorgedraagde bewoording (of 'n ongewoon lang een). Aanbeveel: \"Materie wat vloei, want sy deeltjies is naby aan mekaar maar beweeg verby mekaar.\" Soos 'vaste stof'. Dit dra ook die regstelling van KABV se fout."
+  },
+  "gas": {
+   "omskrywing": null,
+   "lesse": [
+    8
+   ],
+   "stem_reeds_ooreen": false,
+   "voorstel": "Materie wat versprei en 'n houer vul, want sy deeltjies is ver uitmekaar en beweeg vrylik.",
+   "WAG_OP_DRICO": "Verbreding van 'n oorgedraagde bewoording (of 'n ongewoon lang een). Aanbeveel: \"Materie wat versprei en 'n houer vul, want sy deeltjies is ver uitmekaar en beweeg vrylik.\" Graad 4 het twee bewoordings; hierdie een vervang albei vir Graad 6."
+  },
+  "planeet": {
+   "omskrywing": null,
+   "lesse": [
+    22,
+    23,
+    24
+   ],
+   "stem_reeds_ooreen": false,
+   "voorstel": "'n Groot ronde wêreld wat op sy eie om 'n ster beweeg, en geen ander groot wêreld beweeg op sy eie op sy pad nie.",
+   "WAG_OP_DRICO": "Verbreding van 'n oorgedraagde bewoording (of 'n ongewoon lang een). Aanbeveel: \"'n Groot ronde wêreld wat op sy eie om 'n ster beweeg, en geen ander groot wêreld beweeg op sy eie op sy pad nie.\" 22 woorde, ver bo die gewone lengte. Die beplanner se rede: elke korter weergawe laat Pluto in of sluit die Aarde uit wanneer die inskrywing alleen gelees word. Alternatief: Graad 4 se kort sin, met die toets net in die teks."
   }
  }
 }
