@@ -150,3 +150,41 @@ a rescuer decide the child must be fine, or go in when the reach fails.
 
 So when a correction changes what someone can do, **re-read every later action they
 perform**, not just the sentences near the edit.
+
+## The sharpest form yet: I CLEARED the neighbour inside the fix that broke it
+
+2026-09-22, Gr 4 SW, the locomotive lesson. A fact check found the study text
+putting the engine's fire **under** the boiler. I corrected it at source — the fire
+burns in a firebox that is part of the boiler, water around and above it — and in
+the same note I wrote, in capitals, **"DIE eli10-BLOK IS AL REG"**, quoting its
+closing sentence as proof.
+
+It was right. It stopped being right the moment my own fix landed.
+
+The intuition block opens by asking the child to picture a pot boiling **on the
+stove**, and then holds pot and boiler side by side for six sentences without ever
+breaking the correspondence for the heat source. While the study text also had the
+fire underneath, the two blocks agreed and the stove was invisible. Once the study
+text moved the fire inside, the stove was the only remaining answer to "where does
+the fire burn" — and it is the wrong one. A targeted re-check of that block alone
+found it; three ordinary checks had not.
+
+**The shape: a clearance written at the moment of a fix is measured against the text
+as it was BEFORE the fix.** It reads as settled afterwards — mine was in capitals,
+with a quotation and a date — so the next reviser meets it as a closed question and
+does not re-test it. That is worse than saying nothing, because a false guard also
+shelters the fault (see [[my-regstelling-in-die-spek-was-self-die-volgende-fout]] and
+[[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]]).
+
+**How to apply.** Never certify a neighbouring block in the same note that changes
+its neighbour. If the fix makes you want to write "X is already right", that is
+exactly the block to re-check *after* the fix lands — the impulse is the signal. And
+when withdrawing such a line, withdraw the RULING and not only the error:
+[[n-teruggetrekte-beslissing-bly-in-hoofletters-staan]].
+
+**The second lesson, same day, same subject.** Once a mechanism is corrected in one
+lesson, the other lessons that teach it need the *time* checked too, not only the
+mechanism. The steamship lesson had the corrected internally-fired picture and then
+named exactly one early ship — Fulton's 1807 boat, which was externally fired and
+burned wood. Every sentence true, and the picture a child builds false. See
+[[elke-sin-waar-die-prentjie-vals]].
