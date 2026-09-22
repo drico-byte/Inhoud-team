@@ -1,0 +1,66 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "dekking",
+  "prompt_weergawe": "dekkingsnasiener-v1.4",
+  "les": "Van 'n fietswinkel tot in die lug",
+  "kaps_punt": "Wright broers en die uitvinding van die eerste vliegtuig",
+  "verdict": "MENS_NODIG",
+  "items": [
+    {
+      "tipe": "kern",
+      "verwysing": "kern[0]: Wie Wilbur en Orville Wright was: twee Amerikaanse broers wat 'n FIETSWINKEL besit het waar hulle fietse herstel, verhuur, verkoop en later self gebou het, en wat voels dopgehou het om te sien hoe 'n vlerk buig en draai.",
+      "status": "teenwoordig",
+      "bewys": "Twee broers en hul winkel - eie fietswinkel in Amerika, herstel/verhuur/verkoop/later self gebou, voels dopgehou en gesien hoe vlerke buig en draai"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "kern[1]: Wat 'n sweeftuig is - 'n vliegtuig sonder 'n enjin, wat deur die lug gly en stadig sak - en dat dit hulle eerste poging was, EN DAT HULLE BEHEER DAAROP OPGELOS HET; die sak is teenoor die LUG OM HOM, en waar die lug self styg bly hy bo of klim.",
+      "status": "teenwoordig",
+      "bewys": "Hul eerste poging was 'n sweeftuig - eerste vliegtuig, sonder enjin, gly stadig al laer deur die lug om hom, teen 'n heuwel bly hy bo of klim, en beheer op die sweeftuie geleer; begrip 'sweeftuig' dra dieselfde"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "kern[2]: Waarom 'n enjin die verskil gemaak het: 'n sweeftuig SAK TEENOOR DIE LUG OM HOM en moet dus 'n duin of 'n heuwel he om van af te begin, terwyl 'n vliegtuig met 'n enjin homself vorentoe kan AANDRYF en dus in die lug kan BLY in plaas van om af te gly; die enjin-helfte se verwysing moet vas wees aan die HOOGTE wat opraak.",
+      "status": "teenwoordig",
+      "bewys": "Wat 'n enjin verander het - albei helftes staan: 'sak deur die lug om hom', 'moet dus eers hoog kom', 'die broers het daarvoor 'n duin of 'n heuwel gebruik'; en 'homself vorentoe stoot in plaas van om af te gly' met die slot vasgemaak aan 'sodra daardie hoogte op was'"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "kern[3]: Wat BEHEER is, en dat hulle dit EERSTE opgelos het: vlieg is nie net opstyg nie, dit is ook rigting hou, en op hul sweeftuig van 1902 kon die vlieenier die neus self in die draai laat wys; 'n vlug wat van 'n duin af begin, eindig by die grond; skryf '26 sekondes in 1902'.",
+      "status": "teenwoordig",
+      "bewys": "Vlieg is meer as net opstyg - nie net opstyg nie, draai en reguit hou, vlieenier besluit waarheen die neus wys, honderde vlugte 'voordat daar 'n enjin was', '26 sekondes' aan 1902 gebind, en die vlug begin by 'n sandduin en eindig by die grond"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "kern[4]: 17 Desember 1903: die eerste suksesvolle vlug van 'n vliegtuig MET 'n ENJIN wat 'n mens kon beheer, en dat die langste vlug daardie dag minder as 'n minuut was; 'met 'n enjin' moet BINNE die superlatief sit.",
+      "status": "teenwoordig",
+      "bewys": "17 Desember 1903 - 'die eerste suksesvolle vlug van 'n vliegtuig met 'n enjin wat 'n mens kon beheer', en 'minder as 'n minuut lank'"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "kern[5]: Dat vliegtuie daarna vinnig verbeter het: sterker enjins, beter beheer, langer in die lug, hoer en verder.",
+      "status": "teenwoordig",
+      "bewys": "Na die eerste vlug - sterker enjins, beter beheer, langer in die lug, hoer klim en verder vlieg as die een van 1903; geen 'groter' vorm nie"
+    },
+    {
+      "tipe": "fokus",
+      "verwysing": "fokusvraag_skakel: Wys hoe BEHEER en 'n ENJIN saam vlieg moontlik gemaak het ... Met 'n enjin kon die masjien homself vorentoe dryf, sodat die vlug nie by die grond hoef te eindig soos die broers se glyvlugte van 'n duin af nie.",
+      "status": "gedeeltelik",
+      "bewys": "Vlieg is meer as net opstyg (beheer, en eerste) + Wat 'n enjin verander het (masjien dryf homself) + 17 Desember 1903 (die twee saam in een vlug); die slotklousule 'nie by die grond hoef te eindig nie' staan doelbewus nie in die les nie",
+      "aksie": "MOENIE DIE KONSEP VERANDER NIE - die spek is die fout. fokusvraag_skakel beveel steeds die vorm wat kern[2] se openingsreel op 22 September 2026 as vals verbied het ('n vlug met 'n enjin hoef nie by die grond te eindig nie; elke vlug eindig met 'n landing). Ses velde dra daardie vorm nog en moet SAAM by die bron reggemaak word in spesifikasies/goedgekeur/ (nie in spek/ nie), gevolg deur bin/vernuwe-uittreksels.py: (1) fokusvraag_skakel se OPENINGSREEL - 'sodat die vlug nie by die grond hoef te eindig soos die broers se glyvlugte van 'n duin af nie'; (2) fokusvraag_skakel se sin 'DIE ENIGSTE VEILIGE TEENSTELLING IS WAAR DIE VLUG EINDIG ... sy vlug hoef nie daar te eindig nie'; (3) skryfnota[1] - ''n enjin dryf die masjien self vorentoe, sodat die vlug nie soos 'n sweeftuig s'n by die grond hoef te eindig nie' (spek-vlak, en die eerste ding wat 'n skrywer lees); (4) kern[1] se hakie 'DIE KONTRAS OORLEEF DIE VERNOUING HEELTEMAL ... en met 'n enjin hoef 'n vlug nie by die grond te eindig nie'; (5) dieselfde sin in kern[2] se eie hakie, direk onder die reel wat dit verbied; (6) kern[3] se hakie 'met 'n enjin hoef die vlug nie by die grond te eindig nie'. Vervang elkeen met die temporele vorm wat kern[2] se openingsreel vereis en wat die konsep reeds dra: die broers se glyvlugte was verby sodra die beginhoogte op was, en 'n vlug met 'n enjin hoef nie dan te eindig nie. Skryf die vervanging as 'n hele sin, nie as 'n laslap binne 'n sin nie, en laat die glyvlug-helfte (duin as beginpunt) staan."
+    }
+  ],
+  "oortollig": [
+    {
+      "inhoud": "Daarna het hulle self vlerke gebou wat 'n hele masjien kon dra.",
+      "blok": "Twee broers en hul winkel",
+      "waarom": "kern[0] eindig by die voelwaarneming (hoe 'n vlerk buig en draai) en kern[1] begin by die sweeftuig; geen vereiste vra 'n bewering oor wat hul vlerke kon dra nie, en dit is 'n toetsbare bewering wat 'n feitenasien sal moet besleg."
+    },
+    {
+      "inhoud": "Al hoe meer mense het vliegtuie gebou en het self leer vlieg.",
+      "blok": "Na die eerste vlug",
+      "waarom": "kern[5] noem vyf verbeterings - sterker enjins, beter beheer, langer in die lug, hoer en verder - en die verspreiding van vlieg na meer mense is nie een daarvan nie."
+    }
+  ],
+  "opsomming": "Al ses kern-items is volledig gedek en kern[2] se teenstelling dra nog albei helftes na die temporele herskrywing, maar die spek weerspreek homself: ses velde - fokusvraag_skakel twee keer, skryfnota[1], en die hakies in kern[1], kern[2] en kern[3] - beveel nog die vorm ''n vlug met 'n enjin hoef nie by die grond te eindig nie' wat kern[2] se openingsreel op 22 September 2026 as vals verbied het, dus is die konsep reg en moet 'n mens die spek by die bron regmaak voordat 'n volgende hersiening die fout terugsit."
+}
