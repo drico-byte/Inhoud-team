@@ -91,3 +91,29 @@ The same round also found the **video seam** carrying both rejected claims in on
 sentence, which is where both had come from. When a claim is wrong, ask where the
 writer got it: if a video seam records it, the forbidden-claims list is the fix, not
 another pass over the lesson.
+
+## Two more shapes, from the transport sub-topics
+
+22 September 2026. Sweeping three sub-topics turned up two variants worth naming, both
+of which had survived every earlier pass.
+
+**A field that marks something "checked and correct" stops it ever being checked.** The
+air-transport spec said the whole 1783 balloon material was verified. That marker is why
+nobody tested the video's claim that the three animals *landed safely* — sources do not
+agree they landed unharmed. The field carrying the marker records, two lines below, its
+own rule that *a note saying something was checked gets read as settled and prevents the
+one step that would catch it*. It caught itself. **Never mark a block as checked; mark
+the specific claims, and say what was not tested.**
+
+**A field can order the writer to KEEP content you have just removed.** After a
+comparison was deleted for serving no requirement, a fact-risk note still read "HOU die
+vergelyking ... verander NET die rangskikking". That is the mechanism that reinstates
+deleted content on the next pass, and it is invisible because the field looks like a
+correction rather than an order. **When you delete something, sweep for fields that
+require it, not just for fields that describe it.**
+
+Also from that sweep: a fact-risk note forbidding an explanation "because no requirement
+asks for it" while the requirement *did* ask for it — a live contradiction between two
+standing orders. A writer cannot choose, which is why the checker escalated instead of
+sending the draft back. **A contradiction between two spec fields is always a person's to
+resolve; never brief a writer around it.**
