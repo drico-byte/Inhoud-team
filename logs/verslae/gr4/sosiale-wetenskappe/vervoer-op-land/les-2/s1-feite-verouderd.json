@@ -4,296 +4,333 @@
   "prompt_weergawe": "feitenasiener-v1.2",
   "les": "Van die wa tot die fiets",
   "kaps_punt": "karre, waens en koetse + die fiets",
-  "verdict": "HERSIEN",
+  "verdict": "MENS_NODIG",
   "items": [
     {
-      "bewering": "Sit dieselfde sak op 'n voertuig met wiele en trek weer. Die wiele rol en die sak skuur nie meer oor die grond nie.",
+      "bewering": "Sleep 'n swaar sak oor die grond en jy voel hoe hy skuur.",
       "blok": "Wat 'n wiel doen",
       "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Rolwrywing is aansienlik kleiner as glywrywing omdat die wiel roteer in plaas van gly, en die kontakvlak en vervorming kleiner is (CK-12 Foundation, 'Why is rolling friction less than sliding friction?'; Wikipedia, 'Rolling resistance' / 'Sliding (motion)'). Die karteringsvraag is nagegaan: die sak self skuur inderdaad nie meer nie, en die teks beweer nêrens dat daar glad geen wrywing meer is nie (die as- en rolweerstand van die voertuig bly), dus lei die vergelyking 'n leerder nie na 'n wiel wat wrywing uitwis nie."
+      "bron": "Wikipedia (en), Wheel: 'A wheeled vehicle requires much less work to move than simply dragging the same weight' - sleep van 'n 100 kg voorwerp oor 10 m verg ~4 905 J teenoor ~123 J op vier wiele. https://en.wikipedia.org/wiki/Wheel",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Sit dieselfde sak op wiele en trek weer. Nou rol die wiele en die sak skuur nie.",
+      "blok": "Wat 'n wiel doen",
+      "status": "bevestig",
+      "bron": "Wikipedia (en), Wheel: die wrywingsarbeid skuif na die laers toe in plaas van na die oppervlak waaroor beweeg word. Die sak self raak nie meer aan die grond nie, dus is die absolute 'skuur nie' hier waar. https://en.wikipedia.org/wiki/Wheel",
+      "tipe": "algemeen"
     },
     {
       "bewering": "So kan 'n dier 'n baie swaarder vrag trek as wat hy kan dra.",
       "blok": "Wat 'n wiel doen",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Drawermae: 'n perd of muil dra veilig ongeveer 20% van sy liggaamsgewig (University of Minnesota Extension, 'Guidelines for weight-carrying capacity of horses'; Wikipedia, 'Pack animal' oor die Amerikaanse leër se 20%-maksimum), terwyl 'n gesonde trekperd op wiele ongeveer sy eie gewig tot dubbel daarvan kan trek en op goeie paaie veel meer (Wikipedia, 'Draft horse'; rolweerstandskoëffisiënt van 0,02-0,05 op 'n goeie pad). Die verhouding trek-teenoor-dra is dus 'n orde van grootte, wat 'baie swaarder' regverdig."
+      "bron": "Dravermoë: Wikipedia (en), Pack animal - die VSA-weermag stel 'n maksimum van 20% van liggaamsgewig vir muile, dus omtrent 91 kg op die rug. https://en.wikipedia.org/wiki/Pack_animal | Trekvermoë: Wikipedia (af), Ossewa - 'n kakebeenwa kon tot 1 800 kg vervoer. https://af.wikipedia.org/wiki/Ossewa",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die grond moet wel redelik gelyk wees vir die wiele.",
       "blok": "Wat 'n wiel doen",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Britannica, 'Pack animal': pakdiere word juis gebruik in terrein waar wielvoertuie sukkel - kamele in woestyne, perde en muile in bergagtige terrein. Wikipedia, 'History of horse-drawn transport': koetse en poskoetse se langafstandreise het uitgebrei saam met beter padoppervlakke (macadam)."
+      "bron": "Wikipedia (en), Wheel: 'A wheel can also offer advantages when traversing irregular surfaces if its radius is sufficiently large relative to the irregularities' - die voordeel hang dus van die oppervlak af. Wikipedia (en), Pack animal: waenvervoer met perde en osse het pakdiere verdring namate paaie verbeter het, terwyl pakdiere in ruwe terrein gebly het. https://en.wikipedia.org/wiki/Pack_animal",
+      "tipe": "algemeen"
     },
     {
       "bewering": "'n Karretjie is 'n klein voertuig met twee wiele wat diere agter hulle aantrek.",
       "blok": "Die karretjie en die wa",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Cart': 'A cart is a two-wheeled vehicle designed for transport... pulled by humans or draught animals such as horses, donkeys, mules and oxen'; die artikel merk op dat die woord dikwels lóós vir vierwielvoertuie gebruik word, maar noem daardie gebruik verkeerd. Suid-Afrikaans spesifiek: Hanekom (ATNESA/SANAT), 'Donkey cart axles and harnessing material development in South Africa' - 'In South Africa, the term wagon is applied to vehicles having 4 wheels... while two-wheel vehicles are referred to as carts', en die meeste SA donkiekarretjies word op 'n enkele afgedankte motoragteras gebou (dus twee wiele). Afrikaanse Wikipedia, 'Rytuig': 'n kar is tipies 'n tweewielvoertuig. Die Kaapse kar, 'n uniek Suid-Afrikaanse tweewielvoertuig, staan in die James Hall Museum of Transport."
+      "bron": "Wikipedia (en), Cart: 'A cart is a two-wheeled vehicle designed for transport... It can be pulled by humans or draught animals such as horses, donkeys, mules and oxen.' https://en.wikipedia.org/wiki/Cart",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Dikwels trek twee perde of selfs ses donkies so 'n karretjie saam. ... Voor 'n donkiewa trek 'n span van vier tot agt donkies.",
+      "blok": "Die karretjie en die wa",
+      "status": "weerspreek",
+      "bron": "Wikipedia (en), Cart: die karretjie is die ligter voertuig 'designed to be pulled by one or a few animals', 'more suited to smaller loads and shorter distances'; die inspanpatrone wat beskryf word is een dier tussen disselbome of 'n paar met een disselboom. https://en.wikipedia.org/wiki/Cart | Wikipedia (en), Wagon: 'a heavy four-wheeled vehicle pulled by draft animals' vir swaarder vragte. https://en.wikipedia.org/wiki/Wagon | Wikipedia (af), Ossewa: 'n wa se span dra 'n vrag van tot 1 800 kg. https://af.wikipedia.org/wiki/Ossewa",
+      "regstelling": "Die twee getalreekse oorvleuel: die klein tweewiel-karretjie kry 'ses donkies' en die groter vierwiel-wa 'vier tot agt donkies'. 'n Negejarige wat vra watter voertuig deur meer diere getrek word, kan uit hierdie blok aflei dat die karretjie soveel of meer diere voor hom het as die wa - presies die teenoorgestelde van wat dieselfde blok oor grootte en vrag leer, en die teenoorgestelde van die karretjie se eie woordelys-inskrywing ('ligte vragte'). Die aantal diere moet saam met die voertuig se vrag styg. Gee die karretjie sy gewone geval - een of twee diere, wat die les tans nooit noem nie - sodat die karretjie se grootste span kleiner bly as die wa se kleinste span, bv. 'Gewoonlik trek een of twee donkies 'n karretjie.' Moenie die fout andersom regmaak deur die wa se span op te stoot nie.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Dikwels trek twee perde of selfs ses donkies so 'n karretjie saam.",
       "blok": "Die karretjie en die wa",
-      "status": "bevestig",
-      "tipe": "getal",
-      "bron": "Twee perde: Wikipedia, 'Cape cart' - 'a two-wheeled four-seater carriage drawn by two horses and formerly used in South Africa'; James Hall Museum of Transport hou Kaapse karre as tweewielrytuie wat spesiaal vir Suid-Afrikaanse paaie aangepas is. Ses donkies: GroundUp, 'Donkey carts stand idle as tourism dies in Cederberg village' - die Heuningvlei-karretjies dra drie mense op 'n slag en word gewoonlik deur ongeveer ses donkies getrek. Hanekom (SA-donkievervoer) gee een tot vier donkies vir gewone karretjies, wat 'selfs ses' as boonste punt korrek merk. Let wel vir die mens wat lees: internasionaal trek meestal één dier 'n tweewielkarretjie (Wikipedia, 'Cape cart': 'Unlike most two-wheeled carriages...'), dus is 'dikwels' hier op Suid-Afrikaanse praktyk gegrond, wat vir hierdie les die regte toets is."
+      "status": "onseker",
+      "bron": "Geen Suid-Afrikaanse bron vir ses donkies voor 'n tweewiel-karretjie gevind nie. Wikipedia (af), Dierevervoer bevestig wel donkiekarre in Suid-Afrika (die Karretjiemense van die Karoo, omgewing Colesberg) maar gee geen inspangetalle nie. https://af.wikipedia.org/wiki/Dierevervoer | Wikipedia (en), Cart beskryf net inspanning van een dier of 'n paar. https://en.wikipedia.org/wiki/Cart",
+      "tipe": "getal"
     },
     {
       "bewering": "'n Wa is die groter voertuig met vier wiele en dra meestal swaar vragte.",
       "blok": "Die karretjie en die wa",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Die vergelykende bewering ('die groter') is nagegaan: Wikipedia, 'Wagon' - 'a heavy four-wheeled vehicle pulled by draft animals... Wagons are immediately distinguished from carts (which have two wheels)'; Afrikaanse Wikipedia, 'Wa' - meestal vierwielig; Hanekom (ATNESA) vir Suid-Afrikaanse gebruik: vier wiele = wa, twee wiele = karretjie. Die les bevat geen ander superlatief nie (geen 'eerste', 'oudste', 'grootste', 'vinnigste' of 'enigste')."
+      "bron": "Wikipedia (en), Wagon: 'a heavy four-wheeled vehicle pulled by draft animals... used for transporting goods, commodities, agricultural materials, supplies and sometimes people'; waens word onderskei van karre, wat twee wiele het. https://en.wikipedia.org/wiki/Wagon",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Voor 'n wa trek gewoonlik meer as een dier.",
+      "bewering": "Voor 'n donkiewa trek 'n span van vier tot agt donkies.",
+      "blok": "Die karretjie en die wa",
+      "status": "onseker",
+      "bron": "Geen Suid-Afrikaanse bron met inspangetalle vir donkiewaens gevind nie. Wikipedia (af), Dierevervoer noem donkiewaens in Suid-Afrika (Karretjiemense) sonder getalle; die Engelse en Afrikaanse Ossewa-artikels gee spanne net vir osse. Hierdie is plaaslike gebruik, dus word dit nie op internasionale afleiding besleg nie. https://af.wikipedia.org/wiki/Dierevervoer",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "Die Suid-Afrikaanse voorbeeld is die ossewa",
       "blok": "Die karretjie en die wa",
       "status": "weerspreek",
-      "tipe": "getal",
-      "bron": "Wikipedia, 'Wagon': waens word getrek deur 'a single animal, a pair, or larger teams'. Suid-Afrikaanse syfers: Afrikaanse Wikipedia, 'Ossewa' - 'n span het gewoonlik uit 10 tot 12 osse bestaan en 16 vir die swaarder transportwaens; Hanekom se SA-donkiedata - vierwielwaens word deur vier tot agt donkies getrek teenoor een tot vier vir 'n gewone karretjie.",
-      "regstelling": "Die sin is op sigself waar, maar hy is die enigste plek waar die wa se trekdiere getel word, en hy staan twee sinne ná 'twee perde of selfs ses donkies' by die karretjie. Die blok as geheel leer dus die teenoorgestelde van die waarheid: 'n leerder tel ses vir die karretjie teenoor 'meer as een' vir die wa. In werklikheid trek 'n wa vir dieselfde soort dier minstens soveel en gewoonlik méér diere as 'n karretjie - SA donkiewaens vier tot agt donkies, en 'n ossewa se span 10 tot 16 osse. Die wa se span moet net so konkreet wees as die karretjie s'n, sodat die getalle nie die verkeerde kant toe wys nie. Dit is die buurskade van die vorige regstelling: die diergetalle het na die karretjie geskuif en die wa het net die vae helfte oorgehou."
+      "bron": "Wikipedia (af), Ossewa bevestig die ossewa se Suid-Afrikaanse plek, maar ander diergetrekte voertuie was net so Suid-Afrikaans: Wikipedia (af), Dierevervoer noem donkiewaens wat die Karretjiemense al byna 'n eeu lank gebruik, en Wikipedia (af), Poskoets beskryf koetse wat met tien perde of muile in Suider-Afrika gery het. https://af.wikipedia.org/wiki/Poskoets",
+      "regstelling": "'Die bekendste Suid-Afrikaanse voorbeeld is die ossewa, met 'n span van tien tot sestien osse.' Die bepaalde lidwoord maak dit 'n eksklusiewe bewering, en die sin staan reg langs die donkiewa - wat self 'n Suid-Afrikaanse voertuig is - sodat die leerder aflei die donkiewa hoort iewers anders.",
+      "tipe": "superlatief"
     },
     {
-      "bewering": "Die wa wat 'n span osse in Suid-Afrika trek noem ons 'n ossewa.",
+      "bewering": "met 'n span van tien tot sestien osse",
       "blok": "Die karretjie en die wa",
       "status": "bevestig",
-      "tipe": "naam",
-      "bron": "Afrikaanse Wikipedia, 'Ossewa': 'n vierwielwa wat deur 'n span osse in jukpare getrek word, in Suid-Afrika in gebruik van die 17de eeu af; Wikipedia, 'Ox-wagon'. Die James Hall Museum of Transport stel ossewaens saam met Kaapse karre en poskoetse uit."
+      "bron": "Wikipedia (af), Ossewa: 'Tien tot 16 osse is in jukpare gebruik om die wa te trek' (kakebeenwa); die latere transportwa se span was 10 tot 12, en 16 vir die swaarder wa. https://af.wikipedia.org/wiki/Ossewa | Wikipedia (en), Ox-wagon: 'The ox-wagon could be pulled by 12-16 oxen.' https://en.wikipedia.org/wiki/Ox-wagon",
+      "tipe": "getal"
     },
     {
-      "bewering": "Mense het ook per wa gereis en 'n gesin kon saam met hulle goed ry.",
+      "bewering": "Mense het ook per wa gereis en 'n gesin kon met hulle goed saamry.",
       "blok": "Die karretjie en die wa",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Afrikaanse Wikipedia, 'Ossewa' en Afrikanergeskiedenis, 'Die ossewa': tydens die Groot Trek het gesinne hul ossewaens gelaai en die binneland in getrek; die wa was die boer se vervoer, slaapplek, kombuis en skuiling. Wikipedia, 'Wagon': waens vervoer goedere 'and sometimes people'."
+      "bron": "Wikipedia (af), Ossewa: 'die Voortrekkergesin moes sy hele huishouding met hom saamneem', met huisraad soos beddens en klere op die wa. https://af.wikipedia.org/wiki/Ossewa",
+      "tipe": "algemeen"
     },
     {
       "bewering": "'n Koets was 'n toe voertuig wat perde getrek het.",
       "blok": "Die koets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Britannica, 'Coach (horse-drawn vehicle)' en Wikipedia, 'Coach (carriage)': 'n groot, toe (enclosed) vierwielrytuig met 'n vaste dak, getrek deur twee of meer perde. Afrikaanse Wikipedia, 'Rytuig': 'n koets is 'n vierwielrytuig, toe of gedeeltelik toe, deur perde getrek. (Kontekstuele nuanse vir die mens: Suid-Afrikaanse poskoetse het later ook muile gebruik toe perdesiekte perde skaars gemaak het - dit weerspreek nie die omskrywing nie.)"
+      "bron": "Wikipedia (en), Stagecoach: 'The stagecoach was a closed four-wheeled vehicle drawn by horses or hard-going mules.' https://en.wikipedia.org/wiki/Stagecoach",
+      "tipe": "algemeen"
     },
     {
       "bewering": "'n Wa is meestal vir swaar vragte gebou en 'n koets meestal vir mense.",
       "blok": "Die koets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Wagon': waens word onderskei van ligter vierwielvoertuie wat hoofsaaklik mense dra, soos rytuie; 'Coach (carriage)': koetse is passasiersvoertuie met gemak en styl in gedagte. Afrikaanse Wikipedia, 'Rytuig': die wa is 'n swaar vragvoertuig, die koets persoonlike vervoer."
+      "bron": "Wikipedia (en), Wagon (goedere en vragte) teenoor Stagecoach: 'a four-wheeled public transport coach used to carry paying passengers and light packages'. Die 'meestal' aan albei kante is korrek gekwalifiseer - waens het ook mense gedra en koetse ook pos en bagasie.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Party koetse het mense op 'n vaste roete van dorp tot dorp gedra.",
       "blok": "Die koets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Stagecoach' en 'Stage station': 'n poskoets/reiskoets het betalende passasiers op vaste roetes tussen dorpe vervoer, met stilhouplekke (stages). Afrikaanse Wikipedia, 'Poskoets': vaste roetes soos Wellington-Beaufort-Wes-Kimberley (Red Star Line) en Port Elizabeth-Bloemfontein."
+      "bron": "Wikipedia (en), Stagecoach: 'It was regularly used as a public conveyance on an established route usually to a regular schedule.' Wikipedia (af), Poskoets noem vaste roetes tussen dorpe soos Kimberley, Bloemfontein en Durban. https://af.wikipedia.org/wiki/Poskoets",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die koets wat ook die pos gedra het, noem ons 'n poskoets.",
       "blok": "Die koets",
       "status": "bevestig",
-      "tipe": "naam",
-      "bron": "Afrikaanse Wikipedia, 'Poskoets': ''n Poskoets is 'n koets wat gebruik word om pos af te lewer', met die pos in 'n veilige boks agterop en passasiers wat teen 'n hoë tarief kon saamry. Weeklikse posdiens per poskoets in die Kaap vanaf 1834."
+      "bron": "Wikipedia (af), Poskoets: 'n koets wat gebruik is om pos af te lewer, met die pos in 'n geslote kis agterop; dieselfde koets het ook passasiers vervoer. https://af.wikipedia.org/wiki/Poskoets",
+      "tipe": "naam"
     },
     {
-      "bewering": "Op 'n lang roete is moeë perde langs die pad vir vars perde uitgeruil.",
+      "bewering": "Op 'n lang roete is moeë perde langs die pad vir vars perde uitgeruil. So kon die koets aanhou ry.",
       "blok": "Die koets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Afrikaanse Wikipedia, 'Poskoets': 'na elke ±30 km is vars perde ingespan'. Wikipedia, 'Stage station': aflosstasies het perde elke 10 tot 15 myl verruil sodat koetse spoed kon hou sonder om die diere uit te put."
-    },
-    {
-      "bewering": "So kon die koets aanhou ry sonder om te wag.",
-      "blok": "Die koets",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Stagecoach' / 'Stage station': die aflosstelsel was juis ontwerp sodat die koets nie hoef te wag vir uitgeputte perde om te rus nie en gevolglik veel vinniger as ander voertuie kon reis. (Passasiers het wel kort by stasies gestop om te eet; die sin gaan oor die perde se rus, nie oor nooit stilhou nie.)"
+      "bron": "Wikipedia (en), Stagecoach: 'Spent horses were replaced with fresh horses at stage stations, posts, or relays.' Wikipedia (af), Poskoets: vars perde is omtrent elke 30 km ingespan en daar is dag en nag gereis. https://af.wikipedia.org/wiki/Poskoets",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Meer goedere kon in een keer na 'n mark of 'n dorp gaan.",
       "blok": "Wat die wiele verander het",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Wagon' en 'History of horse-drawn transport': dierwaens en -karretjies is wyd gebruik om landbouprodukte en handelsware te vervoer. Die kwantitatiewe rede is dieselfde as by die eerste blok: 'n dier trek op wiele 'n veelvoud van wat hy kan dra (UMN Extension oor draermassa; Wikipedia, 'Draft horse')."
+      "bron": "Wikipedia (en), Pack animal: 'Hauling of goods in wagons with horses and oxen gradually displaced the use of packhorses... by the sixteenth century.' Die skaalverskil is groot: ~91 kg op 'n pakdier se rug teenoor tot 1 800 kg op 'n kakebeenwa (Wikipedia (af), Ossewa).",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Meer mense kon saam in een voertuig reis.",
+      "bewering": "Meer mense kon in een voertuig reis.",
       "blok": "Wat die wiele verander het",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Afrikaanse Wikipedia, 'Poskoets': tien mense het binne gesit en ongeveer agt bo-op die dak - teenoor een ruiter per perd. Wikipedia, 'Stagecoach': openbare koetse het betalende passasiers saam vervoer."
+      "bron": "Wikipedia (af), Poskoets: gewoonlik kon 10 mense binne sit en omtrent 8 meer bo-op die dak ry. https://af.wikipedia.org/wiki/Poskoets",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Meer mense kon koop en verkoop wat hulle nie self gemaak het nie.",
       "blok": "Wat die wiele verander het",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Standaard ekonomiese geskiedenis: die omvang van die mark word deur vervoerkoste bepaal, en goedkoper vervoer brei die mark uit en maak spesialisasie moontlik (Adam Smith se 'division of labour is limited by the extent of the market'; Econlib, 'Division of Labor'; AdamSmithWorks oor markgrense). Wikipedia, 'History of horse-drawn transport' koppel wielvoertuie aan handel en migrasie."
+      "bron": "Wikipedia (en), Pack animal: waenvervoer het pakdiere vir goederevervoer verdring namate paaie verbeter het, wat groter vragte na markte toe moontlik gemaak het; Wikipedia (en), Wagon beskryf waens as vervoer van 'goods, commodities, agricultural materials, supplies'. Die bewering is algemeen gestel en word nie oorspan nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Die voertuig was nuut en die dier voor die voertuig was dieselfde.",
+      "bewering": "Die voertuig was nuut en die dier voor hom was dieselfde.",
       "blok": "Wat dieselfde gebly het",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'History of horse-drawn transport': tot die koms van die stoom- en verbrandingsenjin het alle landvervoer op dierekrag berus; die wiel en die voertuig het ontwikkel, die trekkrag nie."
+      "bron": "Wikipedia (en), Wagon en Stagecoach: beide bly deur trekdiere (perde, muile, osse) getrek; die wiel het die voertuig verander en nie die kragbron nie. https://en.wikipedia.org/wiki/Wagon",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die reis het nog net so vinnig gegaan as wat die dier kon trek.",
       "blok": "Wat dieselfde gebly het",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Stage station': 'the coach traveled only as far as a team could pull at a useful pace' - die diere se tempo en uithouvermoë het die reisspoed bepaal, wat juis die rede vir aflosstasies was."
+      "bron": "Wikipedia (af), Poskoets: die tipiese spoed was omtrent 10 km/h, selfs met vars perde elke 30 km - die aflos het die reis langer laat aanhou, nie vinniger laat gaan nie. https://af.wikipedia.org/wiki/Poskoets",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Iemand moes die dier nog voer en water gee en laat rus.",
+      "bewering": "Iemand moes die dier nog voer, water gee en laat rus.",
       "blok": "Wat dieselfde gebly het",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Stage station' en 'Stagecoach': aflosstasies het bestaan om diere te voer, water te gee en te laat herstel; Britannica, 'Pack animal' oor die versorging van trekdiere."
+      "bron": "Wikipedia (en), Donkey: donkies benodig sout- en mineraalaanvullings en 'access to clean, fresh water'. https://en.wikipedia.org/wiki/Donkey | Wikipedia (af), Poskoets: moeë perde moes uitgeruil word omdat hulle nie kon aanhou nie.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "'n Fiets het ook wiele en daar is geen dier voor nie.",
       "blok": "Die fiets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Bicycle' / 'Safety bicycle': 'n fiets is 'n mensgedrewe tweewielvoertuig - die ryer lewer self die krag."
+      "bron": "Wikipedia (en), Bicycle: 'n fiets is 'n menskrag-aangedrewe, pedaalgedrewe voertuig met twee wiele. https://en.wikipedia.org/wiki/Bicycle",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die ryer sit op die fiets en trap met sy voete.",
+      "blok": "Die fiets",
+      "status": "bevestig",
+      "bron": "Wikipedia (en), Bicycle: die ryer sit op die saal en dryf die fiets met die pedale aan. https://en.wikipedia.org/wiki/Bicycle",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die pedale draai die ketting en die ketting draai die agterwiel.",
       "blok": "Die fiets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Safety bicycle': 'two wheels of identical - or nearly identical - size, and a chain-driven rear wheel'; 'The pedals powered the rear wheel'. Die vereenvoudiging laat die kettingwiel/kruk ongenoem, maar sê niks valsers nie: die pedale dryf via die kettingwiel die ketting, en die ketting dryf die agterwiel."
+      "bron": "Wikipedia (en), Bicycle chain: 'A bicycle chain is a roller chain that transfers power from the pedals to the drive-wheel of a bicycle, thus propelling it.' Op 'n gewone fiets is die dryfwiel die agterwiel. https://en.wikipedia.org/wiki/Bicycle_chain",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Fiets vreet nie en hy hoef nie 'n stal te hê nie.",
+      "bewering": "'n Fiets vreet nie en hoef nie 'n stal te hê nie.",
       "blok": "Geen dier om te voer nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Triviaal waar en tog nagegaan: 'n fiets is 'n masjien sonder voedingsbehoefte, teenoor 'n trekdier wat daagliks gevoer, gewater en gehuisves moet word (Britannica, 'Pack animal'; National Geographic, 'How bicycles transformed our world' oor die fiets se laer onderhoudslas as 'n perd)."
+      "bron": "Wikipedia (en), Bicycle: 'n fiets is 'n meganiese, menskrag-aangedrewe voertuig; dit het geen voer of stalling nodig soos 'n trekdier nie. https://en.wikipedia.org/wiki/Bicycle",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "So kon 'n gewone mens verder kom as wat hy kon loop.",
+      "bewering": "Hy staan stil en niemand hoef hom te versorg nie.",
+      "blok": "Geen dier om te voer nie",
+      "status": "weerspreek",
+      "bron": "Wikipedia (en), Bicycle chain: 'Chains should be regularly cleaned and lubricated, and should be cleaned before lubrication'; kettings verslyt en moet vervang word (1 000 km onder swaar toestande teenoor meer as 6 000 km met goeie versorging). https://en.wikipedia.org/wiki/Bicycle_chain | Wikipedia (en), Bicycle: rieme word juis verkoop omdat hulle 'require little maintenance' in vergelyking met kettings. https://en.wikipedia.org/wiki/Bicycle",
+      "regstelling": "Vernou die absolute woord in plaas daarvan om die kontras te laat val: 'Hy staan stil en niemand hoef hom te voer of water te gee nie.' Soos dit nou staan, se die sin 'n fiets het glad geen versorging nodig nie, en dit is nie waar nie - die ketting wat hierdie selfde les 'n blok vroeër verduidelik, moet skoongemaak en gesmeer word, en bande en remme moet nagegaan word.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "So kon 'n gewone mens ry wanneer hy wou en verder kom as wat hy kon loop.",
       "blok": "Geen dier om te voer nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "National Geographic, 'How bicycles transformed world' en Futurity/Wikipedia, 'History of cycling': in die 1890's het die veiligheidsfiets gewone werkersmense vir die eerste keer hul eie vervoer gegee en die afstande wat hulle kon aflê dramaties vergroot; Britse gemeenterekords toon meer huwelike tussen dorpe in die fietsbloeityd."
+      "bron": "Wikipedia (en), Bicycle: 'The bicycle's invention has had an enormous effect on society', dit het persoonlike mobiliteit vir gewone mense moontlik gemaak, en fietsry verg baie minder energie as loop oor dieselfde afstand. https://en.wikipedia.org/wiki/Bicycle",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Party vroeë fietse het 'n baie groot voorwiel gehad met die pedale reguit daaraan.",
+      "bewering": "Party vroeë fietse het 'n baie groot voorwiel gehad met die pedale reguit daaraan en geen ketting nie.",
       "blok": "Vroeë fietse en fietse van vandag",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Penny-farthing': reusagtige voorwiel (ongeveer 48-60 duim) met die pedale direk aan die vooras, sonder ketting; oorheersend van ongeveer 1872 tot 1885. Die inperking 'party' is korrek - vroeë fietse sluit ook die velosipeed/'boneshaker' met twee kleiner wiele in."
+      "bron": "Wikipedia (en), Penny-farthing: 'the cranks and pedals are fixed directly to the hub' - geen ketting nie; die voorwiel kon tot 60 duim (~1,5 m) wees teenoor 'n agterwiel van 18-20 duim. Die woord 'party' is korrek: nie alle vroeë fietse was so nie. https://en.wikipedia.org/wiki/Penny-farthing",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Daar was geen ketting nie en so 'n hoë fiets was moeilik om te ry.",
+      "bewering": "So 'n hoë fiets was moeilik om te ry.",
       "blok": "Vroeë fietse en fietse van vandag",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Penny-farthing' en 'Safety bicycle': direkte aandrywing sonder ketting, hoë swaartepunt bo die vooras, swak remwerking, moeilik om op en af te klim, en die berugte 'header' oor die stuur. Die veiligheidsfiets se ryer se voete kon die grond bereik; die hoë fiets s'n nie."
+      "bron": "Wikipedia (en), Penny-farthing: die ryer het hoog en byna bo-oor die vooras gesit, en kon 'precipitated head-first over the front wheel' word wanneer die wiel iets tref. https://en.wikipedia.org/wiki/Penny-farthing",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die fiets van vandag het twee wiele van dieselfde grootte en 'n ketting.",
       "blok": "Vroeë fietse en fietse van vandag",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Safety bicycle': 'two wheels of identical - or nearly identical - size, and a chain-driven rear wheel' - die vorm wat sedert die 1890's die standaardfiets is."
+      "bron": "Wikipedia (en), Bicycle: 'The basic shape and configuration of a typical upright or safety bicycle, has changed little since the first chain-driven model was developed around 1885.' Riem- en asaandrywing bestaan wel, maar is 'n klein minderheid en maak nie die algemene stelling vals nie. https://en.wikipedia.org/wiki/Bicycle",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Ons weet dit uit ou foto's en uit fietse wat in museums bewaar is.",
       "blok": "Vroeë fietse en fietse van vandag",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Die herkomsbewering is nagegaan en die inligting lê werklik in daardie voorwerpe: fotografie was algemeen in die hoëfiets se tyd (1870's-1880's), en hoëfietse word in museums bewaar - die James Hall Museum of Transport in Johannesburg stel 'penny-farthings, tandems, tricycles' uit, en die Sauk County Historical Society bewaar 'n penny-farthing."
+      "bron": "Science Museum Group-versameling: 'Rudge ordinary or penny farthing bicycle' (1884) en die 'Ordinary Bicycle, or Penny Farthing Owned and Ridden by James Moore' (1872) word as voorwerpe bewaar. https://collection.sciencemuseumgroup.org.uk/search?q=penny-farthing | Die hoëwiel-era (1870's-1880's) val ruim ná die ontstaan van fotografie, dus bestaan tydgenootlike foto's ook.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "'n Fiets dra 'n veel ligter vrag as 'n wa vol sakke.",
       "blok": "Wat 'n fiets nie kan doen nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Wagon' (swaar vragvoertuig, tonne se vrag agter 'n span diere) teenoor 'Bicycle' (draagvermoë beperk tot die ryer plus 'n klein las). Die orde van grootte word deur die trekperd se trekvermoë (twee ton of meer) teenoor 'n fiets se bagasierak bevestig."
+      "bron": "Wikipedia (af), Ossewa: 'n kakebeenwa kon tot 1 800 kg vervoer (gemiddeld ~1 100 kg), teenoor 'n fiets wat net die ryer en 'n klein vrag dra. https://af.wikipedia.org/wiki/Ossewa",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Vir 'n swaar vrag oor 'n lang pad het mense steeds ander vervoer nodig gehad.",
+      "bewering": "Oor 'n baie lang pad word die ryer se eie bene moeg.",
       "blok": "Wat 'n fiets nie kan doen nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'History of horse-drawn transport': dierwaens (en later spoorweë) het swaar vrag oor lang afstande bly vervoer lank ná die fiets se opkoms in die 1890's; Afrikaanse Wikipedia, 'Poswese (geskiedenis)' oor die oorgang van poskoets na spoorweg."
+      "bron": "Wikipedia (en), Bicycle: 'n fiets is menskrag-aangedrewe, dus kom die krag uit die ryer se eie spiere. https://en.wikipedia.org/wiki/Bicycle",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Mense het dus steeds ander vervoer nodig gehad.",
+      "blok": "Wat 'n fiets nie kan doen nie",
+      "status": "bevestig",
+      "bron": "Volg uit die twee voorafgaande bewerings wat afsonderlik bevestig is (beperkte vrag, menskrag); waens, koetse en later spoor en motors het naas die fiets bly bestaan. Wikipedia (af), Poskoets: koetsdienste het eers met die spoorwegontwikkeling verdwyn. https://af.wikipedia.org/wiki/Poskoets",
+      "tipe": "algemeen"
     },
     {
       "bewering": "En tog ry party mense vandag nog fiets werk toe en skool toe.",
       "blok": "Wat 'n fiets nie kan doen nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Suid-Afrikaanse bron, soos vereis vir 'n bewering oor plaaslike daaglikse lewe: Qhubeka (Johannesburg, gestig 2005) het ongeveer 110 000 fietse aan skoolkinders en werkers in Suid-Afrika versprei sodat hulle skool en werk kan bereik (Wikipedia, 'Qhubeka'; Bicycles Change Lives; Bicycle South). StatsSA-syfers wat Qhubeka aanhaal, toon miljoene leerders wat te voet skool toe gaan, waarvan 'n deel nou fiets ry."
+      "bron": "Qhubeka Charity NPC (Johannesburg, Suid-Afrika): 'People earn bicycles through our programmes, improving their access to schools, clinics and jobs', met 'n begunstigde wat se die fiets help haar om skool toe te gaan. https://qhubeka.org/ - 'n Suid-Afrikaanse bron vir 'n bewering oor plaaslike gebruik.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Klein voertuig met twee wiele wat diere trek en ligte vragte of 'n paar mense dra.",
+      "bewering": "karretjie: 'n Klein voertuig met twee wiele wat diere trek en ligte vragte of 'n paar mense dra.",
       "blok": "begrip: karretjie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Wikipedia, 'Cart' (tweewielvoertuig, deur trekdiere getrek); Hanekom (ATNESA) vir SA-gebruik (twee wiele = karretjie, vier = wa); Wikipedia, 'Cape cart' (tweewiel-viersitplekkarretjie vir passasiers en pos); GroundUp oor Cederberg-karretjies wat drie mense dra. 'Ligte vragte' is korrek relatief tot 'n wa - SA donkiekarretjies vervoer water, mielies en hout, nie tonnevragte nie."
+      "bron": "Wikipedia (en), Cart: twee wiele, ligter, 'more suited to smaller loads and shorter distances', en dit vervoer ook soms mense. Alleen gelees is die inskrywing korrek - maar let op dat dit teen die studieblok se 'ses donkies' skuur; sien die bevinding oor die karretjie-teenoor-wa-vergelyking. https://en.wikipedia.org/wiki/Cart",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Groot voertuig met vier wiele wat diere trek en meestal swaar vragte dra.",
+      "bewering": "wa: 'n Groot voertuig met vier wiele wat diere trek en meestal swaar vragte dra.",
       "blok": "begrip: wa",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Wikipedia, 'Wagon' - 'a heavy four-wheeled vehicle pulled by draft animals... for transporting goods'; Afrikaanse Wikipedia, 'Wa'; Hanekom (ATNESA) vir SA-gebruik. (Die woord 'wa' dek in gewone Afrikaans ook 'n sleepwa of kruiwa, maar die inskrywing beweer nie uitsluitlikheid nie.)"
+      "bron": "Wikipedia (en), Wagon: 'a heavy four-wheeled vehicle pulled by draft animals'. Alleen gelees korrek; 'meestal' laat ruimte vir waens wat mense gedra het. https://en.wikipedia.org/wiki/Wagon",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Toe voertuig wat perde trek en wat mense vervoer.",
+      "bewering": "koets: 'n Toe voertuig wat perde trek en wat mense vervoer.",
       "blok": "begrip: koets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Britannica, 'Coach' en Wikipedia, 'Coach (carriage)' - toe passasiersrytuig deur perde getrek; Afrikaanse Wikipedia, 'Rytuig'."
+      "bron": "Wikipedia (en), Stagecoach: 'a closed four-wheeled vehicle drawn by horses or hard-going mules', vir betalende passasiers. Alleen gelees korrek; dit sluit nie uit dat 'n koets ook pos gedra het nie. https://en.wikipedia.org/wiki/Stagecoach",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Koets wat op 'n vaste roete die pos tussen dorpe dra.",
+      "bewering": "poskoets: 'n Koets wat op 'n vaste roete die pos tussen dorpe dra.",
       "blok": "begrip: poskoets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Afrikaanse Wikipedia, 'Poskoets' - 'n koets wat pos aflewer, op vaste roetes tussen Kaapstad, Wellington, Beaufort-Wes, Kimberley, Bloemfontein en verder."
+      "bron": "Wikipedia (af), Poskoets: koets wat pos afgelewer het op gevestigde roetes tussen dorpe in Suider-Afrika. Alleen gelees korrek; dat dit ook passasiers gedra het, word nie ontken nie. https://af.wikipedia.org/wiki/Poskoets",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Wa wat deur 'n span osse getrek word.",
+      "bewering": "ossewa: 'n Wa wat deur 'n span osse getrek word.",
       "blok": "begrip: ossewa",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Afrikaanse Wikipedia, 'Ossewa'; Wikipedia, 'Ox-wagon'."
+      "bron": "Wikipedia (af), Ossewa: osse in jukpare voor die wa ingespan. Alleen gelees korrek en pas op geen ander voertuig in die les nie. https://af.wikipedia.org/wiki/Ossewa",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Groep diere wat saam voor een voertuig trek.",
+      "bewering": "span: 'n Groep diere wat saam voor een voertuig trek.",
       "blok": "begrip: span",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Afrikaanse Wikipedia, 'Ossewa' - 'n span het uit 10 tot 16 osse in jukpare bestaan wat saam die wa trek; Wikipedia, 'Wagon' oor 'teams'. (Die woord 'span' word in Afrikaans ook vir ander groepe gebruik, maar die inskrywing beweer nie uitsluitlikheid nie.)"
+      "bron": "Wikipedia (af), Ossewa: 'Tien tot 16 osse is in jukpare gebruik om die wa te trek' - 'n span is juis die groep diere voor een voertuig. Alleen gelees korrek. https://af.wikipedia.org/wiki/Ossewa",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Voertuig met twee wiele wat die ryer self aandryf.",
+      "bewering": "fiets: 'n Voertuig met twee wiele wat die ryer self aandryf.",
       "blok": "begrip: fiets",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Wikipedia, 'Bicycle' / 'Safety bicycle' - 'n mensgedrewe tweewielvoertuig wat die ryer self aandryf. (Die inskrywing noem nie die pedale as onderskeidende deel nie, wat 'n volledigheidsaak vir die skrywer is eerder as 'n feitefout; niks in die sin is onwaar nie.)"
+      "bron": "Wikipedia (en), Bicycle: menskrag-aangedrewe voertuig met twee wiele. Alleen gelees is die inskrywing waar, maar dit noem nie die pedale nie, sodat dit net so goed op 'n step pas - geen feitefout nie, wel iets wat die skrywer met een woord kan toemaak. https://en.wikipedia.org/wiki/Bicycle",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Die twee dele waarop die ryer se voete druk en draai.",
+      "bewering": "pedale: Die twee dele waarop die ryer se voete druk en draai.",
       "blok": "begrip: pedale",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Wikipedia, 'Bicycle pedal' - die twee pedale waarop die ryer se voete rus en waarmee hy die krukke in die rondte dryf."
+      "bron": "Wikipedia (en), Bicycle: 'n fiets word met twee pedale aangedryf wat saam met die kranse in 'n sirkel draai. Alleen gelees korrek. https://en.wikipedia.org/wiki/Bicycle",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Die ry skakels wat die pedale aan die agterwiel verbind.",
+      "bewering": "ketting: Die ry skakels wat die pedale aan die agterwiel verbind.",
       "blok": "begrip: ketting",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Alleen gelees en steeds akkuraat: Wikipedia, 'Bicycle chain' / 'Safety bicycle' - 'n ketting van skakels wat die krag van die pedale (via die kettingwiel) na die agterwiel oordra."
+      "bron": "Wikipedia (en), Bicycle chain: 'a roller chain that transfers power from the pedals to the drive-wheel' - 'n ketting van skakels. Alleen gelees korrek. https://en.wikipedia.org/wiki/Bicycle_chain",
+      "tipe": "algemeen"
     }
   ],
-  "opsomming": "Al die feite in die les klop, insluitend die nuwe onderskeid tussen karretjie en wa (twee wiele teenoor vier wiele is die standaardomskrywing en ook uitdruklik Suid-Afrikaanse gebruik), maar die regstelling het 'n buurskade gelaat: die karretjie kry nou konkrete diergetalle ('twee perde of selfs ses donkies') terwyl die wa net 'gewoonlik meer as een dier' oorhou, sodat die blok as geheel voorstel dat 'n karretjie meer diere trek as 'n wa - die omgekeerde van die waarheid, want 'n donkiewa vat vier tot agt donkies en 'n ossewa se span 10 tot 16 osse."
+  "opsomming": "Volledige hernasien van voor af (niks uit 'n vorige ronde oorgedra nie): die karretjie-teenoor-wa-vergelyking dra steeds 'n vals prentjie - die klein tweewiel-karretjie kry tot ses donkies teenoor die groter wa se vier tot agt, sodat 'n negejarige kan aflei die kleiner voertuig word deur ewe veel of meer diere getrek - en die twee donkiegetalle self kon in geen Suid-Afrikaanse bron bevestig word nie, wat 'n mens se oordeel verg; daarby oorskry 'Die Suid-Afrikaanse voorbeeld is die ossewa' sy bewyse (die donkiewa in die vorige sin is net so Suid-Afrikaans) en is 'niemand hoef hom te versorg nie' oor 'n fiets vals, want die ketting wat die les self verduidelik moet gereeld skoongemaak en gesmeer word."
 }
