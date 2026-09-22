@@ -28,3 +28,21 @@ why, plus what must survive. Do not write the replacement sentence. Where a chec
 offers wording, pass it on labelled as a suggestion, never as the requirement — and
 say what the checker could not see. See also [[n-regstelling-ontwrig-sy-bure]] and
 [[n-feiterisiko-is-nie-n-regstelling-nie]].
+
+**22 September 2026: three more, in one day, and one of them hid behind its own note.**
+Writing "radio light passes a wall because it is the WEAKEST light" into a spec (false
+— gamma rays are the most energetic and go straight through). Writing the Hindenburg
+fire's location in as settled when it is a reconstruction no inquiry established.
+And the one worth the note: taking "a glider loses height all the time" out of a
+spec-level writing note and putting **"so the flight need not end at the ground"** in
+its place — also false, because every flight ends in a landing.
+
+That last one survived a sweep that caught its six siblings, because **the dated bracket
+sitting under it records the EARLIER repair.** A check for "is there a correction note
+near this line?" reads as covered. The line was installed BY a correction and then
+sheltered by that correction's own note.
+
+**So: after a sweep, the fields I edited earlier are not safer than the rest — they are
+the likeliest place for the next instance, because my own wording is there and I read
+it as already handled.** Sweep them too, on the claim, and do not let a nearby dated
+note stand in for reading the sentence.
