@@ -19,7 +19,7 @@ Grade 5 deliberately departs from delivered Grade 4 wordings:
 - konflik (drama): "wat die karakters probeer oplos", not "moet opgelos word".
 - verhouding has two meanings in Grade 5 on purpose (OVS relationship vs VK proportion).
 
-**Grade 4 reprint DONE 22 Sep 2026 (Lampies said yes):** six Grade 4 arts lessons re-signed (VK 1, 3, 4; UK 2, 3, 4). The fresh fact checks found more old faults, all fixed. **sekondêre kleur** is now 'Oranje, groen of pers: 'n kleur wat jy uit twee primêre verfkleure kan meng.' in both grades: the equal-parts rule was false, but it had kept out red-orange, so the three colours are named. tekstuur and gebare were widened in Grade 4 too; timbila is a plural; rattles and the scraper have no fixed pitch. Still open: vorm and patroon across Grades 4-6 (see [[gr6-skeppende-kunste]]).
+**Grade 4 reprint DONE 22 Sep 2026 (Lampies said yes):** six Grade 4 arts lessons re-signed (VK 1, 3, 4; UK 2, 3, 4). The fresh fact checks found more old faults, all fixed. **sekondêre kleur** is now 'Oranje, groen of pers: 'n kleur wat jy uit twee primêre verfkleure kan meng.' in both grades: the equal-parts rule was false, but it had kept out red-orange, so the three colours are named. tekstuur and gebare were widened in Grade 4 too; timbila is a plural; rattles and the scraper have no fixed pitch. vorm and patroon then also corrected across Grades 4-6 the same day (see [[gr6-skeppende-kunste]]).
 
 **Why:** three errors this round came from my own spec corrections (ballet dancers "make no sound", recorder edge "binne-in", makers as a closed list) - see [[my-regstelling-in-die-spek-was-self-die-volgende-fout]].
 

@@ -26,4 +26,4 @@ Grade 6 Lewensvaardighede Skeppende Kunste, built and signed off (8/8) on 22 Sep
 
 **How to apply:** reuse these wordings in later arts work.
 
-**Open question for Lampies** (not yet asked): Grade 4's agreed "vorm" (a flat area a line encloses) is too narrow, and "patroon" wrongly calls the shape the pattern. Both sit in delivered Grade 4 and 5 lessons. Grade 6 VK 3 carries no vorm entry for now. See [[gr5-skeppende-kunste]].
+**vorm/patroon RESOLVED 22 Sep 2026 (Lampies: ja):** vorm = "'n Plat area binne 'n rand. 'n Lyn of 'n ander kleur kan daardie rand maak."; patroon = "'n Gereelde orde waarin iets oor en oor herhaal word, soos ..." (examples may differ). Same in Grades 4-6; six Gr 4-5 Visual Arts lessons reprinted. Also: whether two separate things are proportion or scale is DISPUTED (CAPS Gr 4 mobile example) - use one thing and its parts, never label the other either way. See [[gr5-skeppende-kunste]].
