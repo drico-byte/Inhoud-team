@@ -104,5 +104,6 @@
 - [Only what needs my eyes](net-wat-my-oe-nodig-het.md) — chat only for questions, decisions or real milestones; short; no running status.
 - [A withdrawn decision keeps standing in capitals](n-teruggetrekte-beslissing-bly-in-hoofletters-staan.md) — when a ruling is reversed, sweep for the old RULING, not the old error; the late-corrections checker is blind to it.
 - [The corrected instruction keeps standing in the field](die-korrigeerde-opdrag-bly-in-die-veld-staan.md) — nine times in one day; amend the ordering field's opening line FIRST, then sweep the old form's words, then run the checker.
+- [Gr 5 Creative Arts](gr5-skeppende-kunste.md) — 8 lessons 22 Sep 2026; Grade 5 corrected four Grade 4 wordings; Grade 4 reprint question open.
 - [PDFs are checked on creation](pdf-word-by-skepping-nagegaan.md) — Drico: never text over text; overlap and raw-code boxes now refuse the PDF; 14 broken Life Skills copies were rebuilt.
 - [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — 25/26 signed off 22 Sep 2026; lesson 25 waits on Drico (28 days vs 27.3); planet/oxygen wordings changed after fact checks.

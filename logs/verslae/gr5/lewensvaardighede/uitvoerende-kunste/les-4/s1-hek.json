@@ -1,0 +1,37 @@
+{
+  "verdict": "FAIL",
+  "titel": "Kyk 'n drama met oop oë",
+  "graad": 5,
+  "vak": "Lewensvaardighede",
+  "budget": 380,
+  "checked_at": "2026-09-22T09:01:42+00:00",
+  "study": {
+    "words": 512,
+    "sentences": 40,
+    "mean_sentence_len": 12.8,
+    "median_sentence_len": 12.5,
+    "longest_sentence": 22,
+    "mean_syllables": 1.43,
+    "pct_polysyllabic": 8.2,
+    "pct_long_words": 0.8,
+    "commas_per_sentence": 0.4
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 5,
+    "begrip": 10
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text 512 words, above budget ceiling 437 (target 380) — learners will revise the textbook instead",
+    "Study text: 0.4 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
+  "warnings": [
+    "Study block 1 ('Die oomblikke waarop die storie ') 126 words (guide 30–110) — will overflow its section",
+    "Long words in study text with no 'begrip' entry: hoofmomente, klankeffekte"
+  ],
+  "notes": [
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}
