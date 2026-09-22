@@ -105,4 +105,4 @@
 - [A withdrawn decision keeps standing in capitals](n-teruggetrekte-beslissing-bly-in-hoofletters-staan.md) — when a ruling is reversed, sweep for the old RULING, not the old error; the late-corrections checker is blind to it.
 - [The corrected instruction keeps standing in the field](die-korrigeerde-opdrag-bly-in-die-veld-staan.md) — nine times in one day; amend the ordering field's opening line FIRST, then sweep the old form's words, then run the checker.
 - [PDFs are checked on creation](pdf-word-by-skepping-nagegaan.md) — Drico: never text over text; overlap and raw-code boxes now refuse the PDF; 14 broken Life Skills copies were rebuilt.
-- [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — 26-lesson division agreed 22 Sep 2026, band 300-550; lesson 30 deliberately short; CAPS errors listed.
+- [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — 26-lesson division agreed 22 Sep 2026, band 450-550 (short lessons may go below by exception); lesson 30 deliberately short; CAPS errors listed.
