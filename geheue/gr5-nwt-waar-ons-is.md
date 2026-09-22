@@ -1,41 +1,30 @@
 ---
 name: gr5-nwt-waar-ons-is
-description: "Grade 5 NWT at the end of 10 September 2026 — 29 lessons drafted and gating, checks converging, five open threads."
+description: "Grade 5 NWT: all 29 lessons signed off on 18 September 2026, pushed; one known open shared term ('as': Earth's axis vs wheel axle)."
 metadata: 
   node_type: memory
   type: project
   originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
-  modified: 2026-09-10T18:09:54.264Z
+  modified: 2026-09-18T14:24:51.875Z
 ---
 
-All 29 Grade 5 Natuurwetenskappe en Tegnologie lessons are drafted, gating clean
-and inside Drico's 300–550 band. Around 130 real errors were found and fixed on
-10 September 2026 across roughly 65 checker runs, and about 20 lessons were
-repaired, most of them twice.
+**18 September 2026: all 29 Grade 5 Natuurwetenskappe en Tegnologie lessons are
+signed off** (both checks passed on the current text), committed and pushed.
 
-**The counter looks worse than the work.** Only one or two lessons have BOTH
-checks approved on their current text, because every repair invalidates the check
-before it. They are re-check-pending, not unchecked. It is converging: second and
-third passes come back with two or three findings instead of seven, and the
-findings shrink from mechanisms to quantifiers (metals 7 → 3 → 1; one came back
-with zero). Roughly 50 checker runs remained.
+Rulings by Drico that day which later work must respect (all recorded at spec
+field openings and, where a word is at stake, in the protected-words file):
+- `gewrig` = "Die plek waar twee of meer stewige dele van 'n geraamte bymekaar kom."
+- `verwerkte materiaal` back to Grade 4's sentence (changed so it gets new properties).
+- `sement` example is "soos in beton" in both lessons that carry it.
+- `spoorfossiel` = a sign left by a PLANT OR ANIMAL.
+- Life cycles: stage and process names are REQUIRED (exception to the activity-column rule); `ontwikkel` = the body changes as it gets older.
+- Fuel: `inset energie` follows CAPS = the heat that lights the fuel; almost all output was stored in the fuel.
+- Frame vs shell is decided by how it is BUILT (see [[raam-teenoor-dop-is-vorm]]).
 
-**Threads that were still open:**
+**Open:** the drift sweep still shows one shared term, `as`, whose agreed wording is
+empty on purpose — Earth's axis (die-planeet-aarde) and a wheel's axle
+(stelsels-om-dinge-te-beweeg) are different senses of one word. Undecided.
 
-* Four writers running on Drico's four rulings of that day — the slate clause, the
-  electricity return path, the coin-to-nail-and-wire swap, and the pollen sweep.
-* `as` deliberately carries two senses (the Earth's axis; a wheel's shaft) and the
-  drift sweep will always report it.
-* Three terms drift only by their examples after *soos*, which a standing ruling
-  allows. That is the expected floor, not a defect.
-* Lesson 13's closing block now ends on shaping, which that block never
-  demonstrates — left for a moderator rather than papered over.
-* The `stelsel` wording, read alone, implies every system's parts do a job, while
-  the same learners meet *sonnestelsel*. Recorded for Drico, not raised again.
-
-**The one thing to carry forward.** The dominant failure was not wrong facts — it
-was fixes that did not sweep. See
-[[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]] and
-[[n-bevinding-by-die-bron-opteken-is-nie-dit-regmaak-nie]]. Run
-`bin/woordelysdrif.py` after EVERY wording change, not at the end of a session;
-it is what caught two sweeps I had dropped.
+**What slowed it:** false safety flags on the writer model twice truncated a lesson
+file mid-save (see [[n-agent-wat-halfpad-sterf-laat-die-inhoud-sonder-sy-rekord]]);
+plainer English briefs got through.
