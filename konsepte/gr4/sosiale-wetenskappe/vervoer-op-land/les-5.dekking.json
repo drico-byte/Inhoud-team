@@ -4,7 +4,7 @@
   "prompt_weergawe": "dekkingsnasiener-v1.4",
   "les": "Hoe ons vandag reis en vragte vervoer",
   "kaps_punt": "algemene vorms van vervoer van mense en goedere op grond vandag",
-  "verdict": "MENS_NODIG",
+  "verdict": "GOEDGEKEUR",
   "items": [
     {
       "tipe": "kern",
@@ -20,7 +20,7 @@
     },
     {
       "tipe": "kern",
-      "verwysing": "Hoekom mense verskillende vervoer kies: wat dit kos, hoe ver hulle moet gaan, en wat hulle moet saamdra. DIE DRIE STAAN NAAS MEKAAR EN MAG NIE GERANGSKIK WORD NIE",
+      "verwysing": "Hoekom mense verskillende vervoer kies: wat dit kos, hoe ver hulle moet gaan, en wat hulle moet saamdra. DIE DRIE STAAN NAAS MEKAAR EN MAG NIE GERANGSKIK WORD NIE ... Mense op dieselfde pad het nie almal dieselfde nodig nie.",
       "status": "teenwoordig",
       "bewys": "Hoekom mense nie dieselfde kies nie - koste, afstand en vrag in drie newegeskikte sinne sonder ordinaal of 'veral', en die slotsin 'Mense op dieselfde pad het dus nie almal dieselfde nodig nie'"
     },
@@ -44,10 +44,21 @@
     },
     {
       "tipe": "kern",
-      "verwysing": "historiese_konsepte, Multi-perspektief benadering: \"Vandag se weergawe van dieselfde konsep as les 4: koste, afstand en vrag maak dieselfde rit 'n ander keuse vir twee verskillende mense.\"",
-      "status": "gedeeltelik",
-      "bewys": "Hoekom mense nie dieselfde kies nie - die drie oorwegings en drie mense wat verskillend kies is daar; 'dieselfde rit' as een rit met twee keuses is nie daar nie",
-      "aksie": "NIE 'n SKRYWERSTAAK NIE, EN DIE KONSEP MAG NIE VERANDER WORD NIE - die draft is reg en kern-item 3 wen. Hierdie veld het die bronregstelling van vandag nie saam gekry nie: kern-item 3 is reggemaak, maar les 5 se historiese_konsepte-inskrywing 'Multi-perspektief benadering' beveel nog woordeliks die teruggetrekte vorm, en presies dieselfde twee foute kleef aan haar - sy laat die kwantifiseerder val, en sy rus op drie voorbeelde wat DRIE VERSKILLENDE RITTE is, dus wys hulle nooit een rit met twee keuses nie. Maak dit by die bron reg in spesifikasies/goedgekeur/, nooit in spek/, en vervang die hele 'hoe'-sin eerder as om 'n regstellingsnota agteraan te heg - 'n aangehegte nota word as kommentaar gelees en die volgende hersiening stel die ou vorm weer in. Die vervanging moet die multi-perspektief-konsep beskryf soos die les hom werklik dra (mense op EEN pad met verskillende behoeftes), en die presiese bewoording is 'n mens se keuse, nie 'n voorgeskrewe sin nie. Loop daarna bin/vernuwe-uittreksels.py, want die uittreksel wat 'n skrywer lees, dra nog die ou vorm."
+      "verwysing": "historiese_konsepte, Tyd en chronologie: \"Hierdie les sit die volgorde van die hele subonderwerp neer, van diere tot vandag.\"",
+      "status": "teenwoordig",
+      "bewys": "Van te voet tot vandag - ses items in orde met Eers, Daarna, Later en Vandag as die tydwoorde"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "historiese_konsepte, Verandering en kontinuiteit: \"loop, fietse, treine en diere is nog steeds hier, naas die nuwes.\"",
+      "status": "teenwoordig",
+      "bewys": "Wat van vroeer oorgebly het vir al vier wat bly; Wat vandag anders is vir die veranderingshelfte"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "historiese_konsepte, Multi-perspektief benadering: \"koste, afstand en vrag beteken mense op dieselfde pad het nie almal dieselfde nodig nie.\"",
+      "status": "teenwoordig",
+      "bewys": "Hoekom mense nie dieselfde kies nie - drie oorwegings, drie mense op een pad, en die slotsin wat woordeliks by die reggemaakte veld pas"
     },
     {
       "tipe": "fokus",
@@ -60,8 +71,8 @@
     {
       "inhoud": "'n Mens se werk hoef ook nie meer naby sy huis te wees nie.",
       "blok": "Wat vandag anders is",
-      "waarom": "Kern-item 5 noem twee veranderinge - verder en vinniger reis, en goedere van ver - en hierdie derde bewering, oor waar mense woon en werk, staan in geen kern-item, in geen aanvulling (die lys is leeg) en nie in fokusvraag_skakel nie."
+      "waarom": "Kern-item 5 noem twee veranderinge - verder en vinniger reis, en goedere van ver - en hierdie derde bewering, oor waar mense woon en werk, staan in geen kern-item, in geen aanvulling (die lys is leeg), in geen historiese_konsepte-inskrywing en nie in fokusvraag_skakel nie. Ongewysig sedert die vorige slag; nie 'n gebrek nie."
     }
   ],
-  "opsomming": "Al ses kern-items en die fokusvraagskakel is volledig gedek en die nuwe slotsin lewer die reggemaakte vereiste met koste, afstand en vrag steeds sonder rangorde langs mekaar; die enigste oop saak is die spek self, want les 5 se historiese_konsepte-inskrywing 'Multi-perspektief benadering' beveel nog woordeliks die teruggetrekte 'dieselfde rit'-vorm en moet by die bron reggemaak word eerder as in die konsep."
+  "opsomming": "Die hele inskrywing is van voor af nagegaan: al ses kern-items, al drie historiese_konsepte-inskrywings en die fokusvraagskakel is volledig gedek, en GEEN veld beveel meer 'n teruggetrekte vorm nie - kern-item 3 en historiese_konsepte 'Multi-perspektief benadering' lui albei nou 'mense op dieselfde pad het nie almal dieselfde nodig nie', met die ou 'dieselfde rit'-vorm slegs as aanhaling binne gedateerde rekord-hakies, en elke ander gedateerde regstelling in die spek (die rangorde, 'byna alles op die rakke', 'tot by die winkel self', 'die meeste kinders kom te voet', die seldsame fiets, 'In party groot stede', 'op party plekke' by die diere, die stoomenjin uit die saamry-item, 'nie elke nuwe soort' en 'karretjie' teenoor 'kar') word deur die konsep in sy huidige vorm nagekom."
 }
