@@ -1,0 +1,125 @@
+{
+  "les": "gr5/lewensvaardighede/visuele-kunste/les-4",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:a041065c74fc04c5742276888b70c7e1",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:45389295412fd829502476bec9f0768e",
+    "sha256:0ff674beb9b88be44849b038a30eedc3"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-22T09:01:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:45389295412fd829502476bec9f0768e",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-22T09:01:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 452,
+      "begroting": 360,
+      "failures": [
+        "Study text 452 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead",
+        "Study text: 0.53 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T09:01:55+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 452 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead",
+        "Study text: 0.53 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T09:03:54+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0ff674beb9b88be44849b038a30eedc3",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-22T09:03:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 420,
+      "begroting": 360,
+      "failures": [
+        "Study text 420 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T09:03:54+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text 420 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T09:05:08+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:810f9e883d16b74e318935ebcc335acb",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-09-22T09:05:09+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 387,
+      "begroting": 360,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T09:15:54+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a041065c74fc04c5742276888b70c7e1",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-09-22T09:15:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 390,
+      "begroting": 360,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T09:15:57+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T09:15:58+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T09:15:58+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\visuele-kunste\\les-4.json",
+      "konsep_hash": "sha256:a041065c74fc04c5742276888b70c7e1",
+      "vervang": false
+    }
+  ],
+  "spek_hash": "sha256:d92a3b728594095e656d824f1c6de993",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 360
+  }
+}

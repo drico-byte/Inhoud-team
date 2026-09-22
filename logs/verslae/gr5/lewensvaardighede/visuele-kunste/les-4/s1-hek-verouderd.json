@@ -1,0 +1,37 @@
+{
+  "verdict": "FAIL",
+  "titel": "Vlerke van vere en vlerke van metaal",
+  "graad": 5,
+  "vak": "Lewensvaardighede",
+  "budget": 360,
+  "checked_at": "2026-09-22T09:01:55+00:00",
+  "study": {
+    "words": 452,
+    "sentences": 40,
+    "mean_sentence_len": 11.3,
+    "median_sentence_len": 11.0,
+    "longest_sentence": 18,
+    "mean_syllables": 1.38,
+    "pct_polysyllabic": 6.0,
+    "pct_long_words": 0.9,
+    "commas_per_sentence": 0.53
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 5,
+    "begrip": 8
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text 452 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead",
+    "Study text: 0.53 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
+  "warnings": [
+    "Study block 2 ('Die kunselemente een laaste keer') 121 words (guide 30–110) — will overflow its section",
+    "Long words in study text with no 'begrip' entry: skoenlapper, vergelyking, verskillende"
+  ],
+  "notes": [
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

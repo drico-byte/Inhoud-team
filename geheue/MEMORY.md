@@ -104,3 +104,4 @@
 - [Only what needs my eyes](net-wat-my-oe-nodig-het.md) — chat only for questions, decisions or real milestones; short; no running status.
 - [A withdrawn decision keeps standing in capitals](n-teruggetrekte-beslissing-bly-in-hoofletters-staan.md) — when a ruling is reversed, sweep for the old RULING, not the old error; the late-corrections checker is blind to it.
 - [The corrected instruction keeps standing in the field](die-korrigeerde-opdrag-bly-in-die-veld-staan.md) — nine times in one day; amend the ordering field's opening line FIRST, then sweep the old form's words, then run the checker.
+- [Gr 5 Creative Arts](gr5-skeppende-kunste.md) — 8 lessons 22 Sep 2026; Grade 5 corrected four Grade 4 wordings; Grade 4 reprint question open.

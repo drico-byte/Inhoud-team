@@ -1,0 +1,38 @@
+{
+  "verdict": "FAIL",
+  "titel": "Kwaito en klassieke musiek",
+  "graad": 5,
+  "vak": "Lewensvaardighede",
+  "budget": 400,
+  "checked_at": "2026-09-22T09:01:58+00:00",
+  "study": {
+    "words": 428,
+    "sentences": 26,
+    "mean_sentence_len": 13.1,
+    "median_sentence_len": 14.0,
+    "longest_sentence": 18,
+    "mean_syllables": 1.53,
+    "pct_polysyllabic": 10.4,
+    "pct_long_words": 2.3,
+    "commas_per_sentence": 0.54,
+    "list_words": 81
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 4,
+    "lys": 1,
+    "begrip": 16
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text: 0.54 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
+  "warnings": [
+    "Study text: syllables per word 1.53 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Long words in study text with no 'begrip' entry: elektroniese, gekomponeer, instrumente, verskillende"
+  ],
+  "notes": [
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "verdict": "FAIL",
+  "titel": "Skubbe, strepe en vlerke",
+  "graad": 5,
+  "vak": "Lewensvaardighede",
+  "budget": 360,
+  "checked_at": "2026-09-22T09:01:54+00:00",
+  "study": {
+    "words": 418,
+    "sentences": 34,
+    "mean_sentence_len": 12.3,
+    "median_sentence_len": 12.0,
+    "longest_sentence": 19,
+    "mean_syllables": 1.35,
+    "pct_polysyllabic": 6.7,
+    "pct_long_words": 2.2,
+    "commas_per_sentence": 0.53
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 6,
+    "begrip": 5
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text 418 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead",
+    "Study text: 0.53 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
+  "warnings": [
+    "Long words in study text with no 'begrip' entry: komplementêre, liewenheersbesie, skoenlapper, skoenlappers, verkleurmannetjie"
+  ],
+  "notes": [
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

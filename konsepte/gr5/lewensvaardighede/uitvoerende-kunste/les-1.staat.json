@@ -1,0 +1,96 @@
+{
+  "les": "gr5/lewensvaardighede/uitvoerende-kunste/les-1",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:f901d34b997c16b2ea0468b8e33c1d54",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:d1b14a2db32078fdcafb19731a30a3e3"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-22T09:01:56+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d1b14a2db32078fdcafb19731a30a3e3",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-22T09:01:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 444,
+      "begroting": 420,
+      "failures": [
+        "Study text: 0.46 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T09:01:56+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 0.46 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T09:03:59+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:872f55418d9b4a90f338cdc48a20f1fa",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-22T09:04:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 445,
+      "begroting": 420,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T09:40:44+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f901d34b997c16b2ea0468b8e33c1d54",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-22T09:40:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 481,
+      "begroting": 420,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T09:40:47+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T09:40:47+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 41,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-22T09:40:47+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\uitvoerende-kunste\\les-1.json",
+      "konsep_hash": "sha256:f901d34b997c16b2ea0468b8e33c1d54",
+      "vervang": false
+    }
+  ],
+  "spek_hash": "sha256:fad946bbcd9e56a884b6174aa21dd1ee",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 420
+  }
+}
