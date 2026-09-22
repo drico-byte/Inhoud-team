@@ -55,9 +55,12 @@ import argparse, json, re, sys
 # photograph does half the teaching, and our text is what a learner revises from
 # alone, so it carries what the picture carried.
 #
-# Grades 6-12 stay unbanded until someone decides them the same way, rather than
+# Grades 7-12 stay unbanded until someone decides them the same way, rather than
 # inheriting a number that was reasoned about another grade.
-LESBAND = {4: (350, 450), 5: (300, 550)}
+# GRADE 6 IS BANDED 300-550, DECIDED BY DRICO, 22 September 2026, the same band
+# as Grade 5. Under 300 is an exception to be looked at, not padded; over 550
+# asks for an effective split, not a trim that drops content.
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (300, 550)}
 
 AANVULLING_MAX_FRACTION = 0.25
 # Aanvulling is capped by budget share, but a spec states items, not words. Two

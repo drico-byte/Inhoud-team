@@ -155,7 +155,10 @@ BUDGET_TOLERANCE = 0.15
 # Grade 5 draft on 10 September 2026, 55 words above Drico's ceiling, silently.
 # It warns rather than fails: the band is Drico's planning range from his own
 # count of real lessons, and delivered lessons predate it.
-LESBAND = {4: (350, 450), 5: (300, 550)}
+# GRADE 6 IS BANDED 300-550, DECIDED BY DRICO, 22 September 2026, the same band
+# as Grade 5. Under 300 is an exception to be looked at, not padded; over 550
+# asks for an effective split, not a trim that drops content.
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (300, 550)}
 COMMA_MAX = 0.35
 # List items are checked on their own terms rather than as prose.
 LIST_ITEM_GUIDE, LIST_ITEM_MAX = 18, 28
