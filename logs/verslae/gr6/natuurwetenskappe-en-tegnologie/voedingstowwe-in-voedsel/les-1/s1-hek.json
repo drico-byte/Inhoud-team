@@ -1,0 +1,37 @@
+{
+  "verdict": "FAIL",
+  "titel": "Wat in jou kos is en wat dit vir jou doen",
+  "graad": 6,
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "budget": 550,
+  "checked_at": "2026-09-22T09:35:55+00:00",
+  "study": {
+    "words": 539,
+    "sentences": 51,
+    "mean_sentence_len": 10.6,
+    "median_sentence_len": 11,
+    "longest_sentence": 19,
+    "mean_syllables": 1.45,
+    "pct_polysyllabic": 10.2,
+    "pct_long_words": 4.6,
+    "commas_per_sentence": 0.39
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 9,
+    "begrip": 12
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text: 0.39 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
+  "warnings": [
+    "Study text: mean sentence length 10.6 below band minimum 11.0 — sentences are choppier than the grade expects  [marginal — within tolerance, not blocking]",
+    "Study text: 4.6% of words exceed 10 characters (guide 3.0%)",
+    "Long words in study text with no 'begrip' entry: geurmiddels, kamertemperatuur, koolhidrate, liggaamsvet, preserveermiddels, verskillende, voedingstowwe, voedselgroepe"
+  ],
+  "notes": [
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

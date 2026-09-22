@@ -1,0 +1,47 @@
+{
+  "les": "gr6/natuurwetenskappe-en-tegnologie/vaste-stowwe-vloeistowwe-en-gasse/les-1",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:c723845312ed52f0386f82cf5b6fb3c5",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:c723845312ed52f0386f82cf5b6fb3c5"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-22T09:34:31+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c723845312ed52f0386f82cf5b6fb3c5",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-22T09:34:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 589,
+      "begroting": 500,
+      "failures": [
+        "Study text 589 words, above budget ceiling 575 (target 500) — learners will revise the textbook instead",
+        "Study text: 0.67 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-22T09:34:31+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 589 words, above budget ceiling 575 (target 500) — learners will revise the textbook instead",
+        "Study text: 0.67 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    }
+  ],
+  "spek_hash": "sha256:25c31a484cd8642013330bad7238f091",
+  "hek_konteks": {
+    "graad": 6,
+    "begroting": 500
+  }
+}
