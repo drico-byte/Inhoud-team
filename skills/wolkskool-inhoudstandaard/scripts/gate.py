@@ -311,8 +311,11 @@ def run(lesson, grade, budget):
     # NB: not named 'band' — that name holds the REGISTER band and is read below.
     lesband = LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
     if lesband and sm["words"] > lesband[1]:
-        warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson band ceiling {lesband[1]} "
-                     f"— the budget ({budget}) plus tolerance allows it, but the band does not")
+        warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson ceiling {lesband[1]} "
+                     f"— a person must cut it to {lesband[1]} or fewer. The budget ({budget}) plus "
+                     f"tolerance allows {hi:.0f}, and that is the gap Drico closed on 22 September 2026: "
+                     f"the ceiling holds the MEASURED lesson, not only the budget. Never drop a "
+                     f"requirement to reach it — if it cannot be done, say so and stop.")
 
     # --- chunking ---
     # Only explanatory lessons are chunked. A lesson whose volume is carried by a
