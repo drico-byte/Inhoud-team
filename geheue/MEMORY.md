@@ -109,3 +109,4 @@
 - [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — 25/26 signed off 22 Sep 2026; lesson 25 waits on Drico (28 days vs 27.3); planet/oxygen wordings changed after fact checks.
 - [Creative Arts: content only](skeppende-kunste-net-inhoud.md) — Grades 4-6: theory hours only, practical work not in the lessons for now.
 - [Gr 6 Creative Arts](gr6-skeppende-kunste.md) — 8/8 signed off 22 Sep 2026; straalvormige balans; vorm/patroon for Gr 4-5 still to raise with Lampies.
+- [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — all 26 signed off 22 Sep 2026; Moon 'amper 28 dae'; open: Gr 5 karnivoor/herbivoor 'net' awaits Drico.

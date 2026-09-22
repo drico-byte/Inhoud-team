@@ -4,198 +4,211 @@
   "prompt_weergawe": "feitenasiener-v1.2",
   "les": "Die Maan draai en wentel",
   "kaps_punt": "Die Maan se rotasie en rewolusie (albei ongeveer 28 dae); saam wentel die Aarde en die Maan om die Son",
-  "verdict": "HERSIEN",
+  "verdict": "MENS_NODIG",
   "items": [
     {
       "bewering": "Die Aarde draai om sy eie as en reis terselfdertyd om die Son.",
       "blok": "Twee bewegings met twee name",
       "status": "bevestig",
-      "bron": "NASA Science, Facts About Earth (science.nasa.gov/earth/facts/)",
+      "bron": "NASA Science, Moon Facts (science.nasa.gov/moon/facts): Earth rotates on its axis as it orbits the Sun.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Ons noem die Maan se draai om sy eie as rotasie. Ons noem sy reis in sy wentelbaan om die Aarde rewolusie.",
+      "bewering": "Die Maan se as is 'n lyn deur sy middel waarom hy draai. Ons noem die Maan se draai om sy eie as rotasie. Ons noem sy reis in sy wentelbaan om die Aarde rewolusie.",
       "blok": "Twee bewegings met twee name",
       "status": "bevestig",
-      "bron": "NASA Science, Top Moon Questions (science.nasa.gov/moon/top-moon-questions/) uses 'rotate on its axis' and 'complete a revolution' in exactly these senses",
+      "bron": "NASA Science, Moon Facts: the Moon rotates (spins) and orbits Earth; rotation = spin on an axis, revolution = orbit, standard usage.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Albei bewegings gaan heeltyd aan en nie een hou ooit op nie.",
+      "bewering": "Albei bewegings gaan heeltyd aan en hou nooit op nie.",
       "blok": "Twee bewegings met twee name",
       "status": "bevestig",
-      "bron": "NASA Science, Top Moon Questions: the Moon rotates continuously in synchronous rotation while orbiting",
+      "bron": "NASA Science, Moon Facts: the Moon continuously orbits Earth and rotates at the same rate (synchronous rotation).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Een volle rotasie van die Maan neem ongeveer 28 dae. Een volle rewolusie om die Aarde neem ook ongeveer 28 dae.",
       "blok": "Twee bewegings met twee name",
-      "status": "bevestig",
-      "bron": "NASA Science, Top Moon Questions: 27.3 days to complete a revolution; rotation period equals orbital period (Wikipedia, Orbit of the Moon: sidereal rotation 27.3 days). 'Ongeveer 28' is a loose rounding of 27.3 (nearest whole number is 27), but it is the figure in the lesson's own CAPS bullet, is marked as approximate, and leaves the lesson's later comparison with 29.5 days true. Accepted as an approximation; a person may prefer 'ongeveer 27 dae'.",
-      "tipe": "getal"
+      "status": "onseker",
+      "tipe": "getal",
+      "bron": "Die feit self is nie onseker nie: NASA NSSDC Moon Fact Sheet (nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html) gee sideriese rotasie 655,72 uur (27,3 dae) en sideriese omwentelingstyd 27,3217 dae; NASA Moon Facts se 'about 27 days'. Die naaste heel getal is 27, nie 28 nie. Die les se syfer volg die KABV-punt (wat 28 se), en 'ongeveer' dek die afronding redelik (2,5% te hoog), so dit is 'n besluit vir 'n mens of die KABV-syfer behou word of na 'ongeveer 27 dae' verander - nie iets wat 'n skrywer kan regmaak nie. Die gevolgtrekking verderaan (fases van 29,5 dae is 'n bietjie langer as een rewolusie) bly waar met albei syfers. As hierdie syfer reeds deur 'n mens beslis is, kan dit aanvaar word."
     },
     {
-      "bewering": "Jy sien elke keer dieselfde donker kolle op die Maan. Baie mense dink daarom dat die Maan glad nie draai nie.",
+      "bewering": "Jy sien elke keer dieselfde donker kolle op die Maan. ... Daarom wys dieselfde kant van die Maan heeltyd na die Aarde.",
       "blok": "Hoekom ons altyd dieselfde kant sien",
       "status": "bevestig",
-      "bron": "Space.com, 'Does the moon rotate?' and BBC Sky at Night, 'Why we always see the same side of the Moon' - both address the common belief that the Moon does not rotate",
+      "bron": "NASA Science, Moon Facts: 'The Moon is rotating at the same rate that it revolves around Earth (called synchronous rotation), so the same hemisphere faces Earth all the time.' (Libration laat oor tyd sowat 59% sien, maar 'dieselfde kant' is die korrekte hoofbewering.)",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Hy draai een keer om sy as in dieselfde tyd as wat hy een keer om die Aarde wentel. Hy draai ook in dieselfde rigting as wat hy wentel. Daarom wys dieselfde kant van die Maan heeltyd na die Aarde.",
+      "bewering": "Baie mense dink daarom dat die Maan glad nie draai nie. Tog draai die Maan wel om sy eie as.",
       "blok": "Hoekom ons altyd dieselfde kant sien",
       "status": "bevestig",
-      "bron": "NASA Science, Top Moon Questions ('The time it takes for the Moon to rotate once on its axis is equal to the time it takes for the Moon to orbit once around Earth... the same side always faces our planet'); NASA 'The Moon's Rotation' resource (synchronous rotation, prograde). Libration shows slightly more than half over time; 'heeltyd dieselfde kant' is the standard simplification.",
+      "bron": "Space.com 'Does the moon rotate?' behandel dit as 'n algemene wanopvatting; NASA Moon Facts bevestig dat die Maan roteer.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Stoel-model: loop om die stoel met jou gesig heeltyd na die stoel; die stoel sien net jou gesig; teen die tyd dat jy terug is, het jou gesig na elke muur gewys; jy het dus self een keer heeltemal omgedraai.",
+      "bewering": "Hy draai een keer om sy as in dieselfde tyd as wat hy een keer om die Aarde wentel.",
+      "blok": "Hoekom ons altyd dieselfde kant sien",
+      "status": "bevestig",
+      "bron": "NASA Science, Moon Facts; NASA Tidal Locking (science.nasa.gov/moon/tidal-locking): rotasie- en omwentelingstyd is gelyk.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Hy draai ook in dieselfde rigting as wat hy wentel.",
+      "blok": "Hoekom ons altyd dieselfde kant sien",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Retrograde and prograde motion' en ScienceDirect 'Lunar rotation': die Maan se rotasie en omwenteling is albei prograde (antikloksgewys gesien van bo die noordpool).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Loop in 'n sirkel om die stoel en hou jou gesig heeltyd na die stoel. Die stoel sien net jou gesig en nooit jou rug nie. Teen die tyd dat jy terug is, het jou gesig na elke muur gewys. Jy het dus self een keer omgedraai.",
       "blok": "Loop om 'n stoel",
       "status": "bevestig",
-      "bron": "NASA 'The Moon's Rotation' resource and BBC Sky at Night use the same walk-around demonstration. Mapping checked: chair = Earth, walker = Moon, face = near side; walking once round while facing the centre is one full turn on one's own axis in the same direction as the circuit. Mapping holds, and the lesson itself flags where it breaks (the chair stands still, the Earth does not).",
+      "bron": "NASA 'The Moon's Rotation' (science.nasa.gov/resource/the-moons-rotation) en die standaard kinestetiese demonstrasie (California Academy of Sciences, Kinesthetic Astronomy). Afbeelding gekontroleer: stoel = Aarde, jy = Maan, gesig = naby kant; een omloop terwyl jy die stoel in die gesig hou is een volle draai relatief tot die kamer. Die afbeelding hou; die blok 'Saam om die Son' se uitdruklik dat die Aarde nie stilstaan nie, so die stilstaande stoel lei nie tot 'n wanopvatting nie.",
       "tipe": "analogie"
     },
     {
-      "bewering": "As die Maan glad nie om sy eie as gedraai het nie, sou ons in een reis om die Aarde al sy kante sien. Ons sien altyd dieselfde kant en daarom weet ons dat die Maan wel draai.",
+      "bewering": "Loop nou weer om die stoel, maar hou jou gesig heeltyd na dieselfde muur. Dan draai jy glad nie, en die stoel sien later ook jou rug. As die Maan glad nie om sy eie as gedraai het nie, sou ons in een reis om die Aarde al sy kante sien.",
       "blok": "As die Maan nie gedraai het nie",
       "status": "bevestig",
-      "bron": "NASA Science, Top Moon Questions: without synchronous rotation 'we would see different parts of the Moon throughout the month'. The face-one-wall walk maps correctly to a non-rotating body.",
+      "bron": "NASA Tidal Locking en NASA 'The Moon's Rotation': 'n nie-roterende Maan sou al sy kante aan die Aarde wys in een omloop. Afbeelding (gesig na een muur = geen rotasie) is korrek.",
       "tipe": "analogie"
+    },
+    {
+      "bewering": "Ons sien altyd dieselfde kant en daarom weet ons dat die Maan wel draai.",
+      "blok": "As die Maan nie gedraai het nie",
+      "status": "bevestig",
+      "bron": "NASA Science, Moon Facts (sinchrone rotasie) - die redenasie volg geldig uit die twee demonstrasies.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die Maan wentel om die Aarde, en die twee reis saam een keer per jaar om die Son. Die Maan bly op daardie reis by die Aarde.",
       "blok": "Saam om die Son",
       "status": "bevestig",
-      "bron": "Wikipedia, Orbit of the Moon (Earth-Moon system orbits the Sun once a year; the Moon stays bound to Earth); NASA Science Moon pages",
+      "bron": "NASA Science, Moon Facts: 'Earth is moving as well - rotating on its axis as it orbits the Sun'; die Aarde se omloop is een jaar.",
       "tipe": "algemeen"
     },
     {
       "bewering": "In Graad 4 het jy geleer dat die Maan se fases elke 29 en 'n half dae herhaal.",
       "blok": "Saam om die Son",
       "status": "bevestig",
-      "bron": "Synodic month 29.5 days: NASA Science, Top Moon Questions ('29.5 days to change from new moon to new moon'). Grade 4 cross-reference: the delivered Wolkskool Grade 4 lesson 'Hoekom lyk die Maan elke aand anders' (konsepte/gr4/natuurwetenskappe-en-tegnologie/die-maan/les-2.json) states 'Die hele patroon van vorms herhaal homself elke 29 en 'n half dae', and its CAPS bullet says the same.",
+      "bron": "DBE Annual Teaching Plan 2023/24 NST Gr 4, Kwartaal 4, 'The Moon: Phases of the Moon' (education.gov.za); NASA NSSDC sinodiese periode 29,53 dae.",
       "tipe": "getal"
     },
     {
       "bewering": "Dit is 'n bietjie langer as een rewolusie om die Aarde. Intussen het die Aarde en die Maan saam 'n stuk om die Son gereis. Die Maan moet dus nog 'n entjie verder wentel voordat ons hom weer in dieselfde vorm sien.",
       "blok": "Saam om die Son",
       "status": "bevestig",
-      "bron": "Wikipedia, Lunar month; UNL NAAP 'Sidereal vs. Synodic': the synodic month (29.5 d) exceeds the sidereal month (27.3 d) because the Earth-Moon system advances around the Sun, so the Moon needs about 2.2 more days to return to the same Sun-Earth-Moon alignment. Mechanism correct.",
+      "bron": "NAAP/University of Nebraska-Lincoln 'Sidereal vs. Synodic'; Wikipedia 'Lunar month': na een sideriese maand moet die Maan 'n bietjie verder wentel omdat die Aarde-Maan-stelsel om die Son beweeg het; sinodies 29,53 teenoor sideries 27,32 dae.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die Son is 'n ster, die Aarde is 'n planeet en die Maan is die Aarde se maan. Al drie het amper die vorm van 'n ronde bal.",
       "blok": "Die Son, die Aarde en die Maan: vorm, stof en grootte",
       "status": "bevestig",
-      "bron": "NASA Space Place, All About the Sun; NASA Science Earth and Moon facts pages",
+      "bron": "NASA Space Place 'How does our Sun compare with other stars?'; NASA Moon Facts (Maan effens afgeplat maar byna rond).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die Son is 'n bal van baie warm gas.",
       "blok": "Die Son, die Aarde en die Maan: vorm, stof en grootte",
       "status": "bevestig",
-      "bron": "NASA Space Place, All About the Sun ('a hot, glowing ball of gas'); strictly plasma, but 'hot gas' is NASA's own wording for children",
+      "bron": "UCAR Center for Science Education 'Meet the Sun': 'a hot ball of hydrogen and helium' (tegnies plasma; 'warm gas' is die aanvaarde vereenvoudiging).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die Aarde is van rots en metaal, met water op sy oppervlak en lug om hom.",
       "blok": "Die Son, die Aarde en die Maan: vorm, stof en grootte",
       "status": "bevestig",
-      "bron": "NASA Science, Facts About Earth (rocky mantle and crust; iron-nickel core; oceans; atmosphere)",
+      "bron": "NASA Earth facts: rotsagtige planeet met yster-nikkelkern, oseane en atmosfeer.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die Maan is van rots, sonder lug en sonder vloeibare water op sy oppervlak.",
+      "bewering": "Die Maan is meestal van rots met 'n klein kern van metaal, sonder lug en sonder vloeibare water op sy oppervlak.",
       "blok": "Die Son, die Aarde en die Maan: vorm, stof en grootte",
-      "status": "weerspreek",
-      "bron": "NASA Science, Moon Facts: the Moon has a solid iron-rich inner core surrounded by a liquid iron shell. 'Sonder lug' (only a very thin exosphere) and 'sonder vloeibare water op sy oppervlak' (ice in shadowed polar craters, no liquid) are sound. The fault is the contrast: directly after 'Die Aarde is van rots en metaal', the sentence 'Die Maan is van rots' tells a learner the Moon has no metal, which is false. The Moon's metal core is small, so the difference is one of degree, not kind.",
-      "regstelling": "Narrow the quantifier rather than drop the contrast: 'Die Maan is meestal van rots, met net 'n klein kern van metaal' (or 'Die Maan is amper net van rots'), keeping 'sonder lug en sonder vloeibare water op sy oppervlak' as it stands.",
+      "status": "bevestig",
+      "bron": "NASA Moon Facts: ysterryke kern (binnekern 240 km radius, vloeibare ysterdop 90 km) - sowat 20% van die radius, klein; eksosfeer 'very thin and tenuous ... not breathable' (so 'sonder lug' is 'n aanvaarbare vereenvoudiging); water slegs as ys in permanent skaduryke kraters en as hidrasie, geen vloeibare water nie.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die Son is verreweg die grootste en meer as honderd keer so breed soos die Aarde.",
       "blok": "Die Son, die Aarde en die Maan: vorm, stof en grootte",
       "status": "bevestig",
-      "bron": "NASA Space Place, All About the Sun and National Geographic Education, Sun: the Sun's diameter is about 109 times Earth's. 'Verreweg die grootste' of the three is plainly true.",
+      "bron": "NASA Space Place / NASA Sun facts: deursnee 1 392 000 km, 109 keer so breed soos die Aarde.",
       "tipe": "superlatief"
     },
     {
       "bewering": "Die Aarde is amper vier keer so breed soos die Maan.",
       "blok": "Die Son, die Aarde en die Maan: vorm, stof en grootte",
       "status": "bevestig",
-      "bron": "NASA Science, Earth facts (diameter about 12 742 km) and Moon Facts (radius 1 740 km, diameter about 3 475 km; 'less than a third of the width of Earth'): ratio 3.67, fairly 'amper vier'",
+      "bron": "NASA NSSDC Moon Fact Sheet: Maan-ewenaarsradius 1 738,1 km, Aarde 6 378,1 km - verhouding 3,67.",
       "tipe": "getal"
     },
     {
       "bewering": "Die Son is in die middel van die Sonnestelsel, en die planete wentel om hom. Die Aarde is een van daardie planete, en die Maan wentel om die Aarde.",
       "blok": "Die Son, die Aarde en die Maan: beweging en lig",
       "status": "bevestig",
-      "bron": "NASA Space Place, All About the Sun; NASA Science Earth facts",
+      "bron": "NASA Space Place / UCAR: die Son is in die middel van ons sonnestelsel; IAU 2006-resolusie: planete wentel om die Son.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Soos elke ster maak die Son sy eie lig.",
+      "bewering": "Soos elke ster maak die Son sy eie lig. Die Aarde en die Maan skyn nie self soos die Son nie. Ons sien die Maan omdat die Son se lig op hom val en na ons terugbons.",
       "blok": "Die Son, die Aarde en die Maan: beweging en lig",
       "status": "bevestig",
-      "bron": "NASA Space Place, All About the Sun (a star is a hot, glowing ball of gas producing its own light)",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Die Aarde en die Maan skyn nie self soos die Son nie. Ons sien die Maan omdat die Son se lig op hom val en na ons terugbons.",
-      "blok": "Die Son, die Aarde en die Maan: beweging en lig",
-      "status": "bevestig",
-      "bron": "NASA Science, Moon Phases ('The Moon doesn't create its own light... light from the Sun is reflecting off of its surface'); NASA StarChild, Moon Glow",
+      "bron": "NASA Moon Facts (fases ontstaan uit veranderende sonverligting); UCAR 'Meet the Sun': sterre straal hul eie lig uit; maanlig is weerkaatste sonlig.",
       "tipe": "algemeen"
     },
     {
       "bewering": "rotasie: Die beweging wanneer iets om sy eie as draai. Een volle draai is een rotasie.",
       "blok": "rotasie",
       "status": "bevestig",
-      "bron": "NASA Science, Top Moon Questions (rotate on its axis); standard astronomical usage",
+      "bron": "NASA Moon Facts ('rotates or spins'); standaard astronomiese gebruik.",
       "tipe": "algemeen"
     },
     {
       "bewering": "rewolusie: Die beweging wanneer iets langs sy wentelbaan om 'n ander ding reis. Een volle reis is een rewolusie.",
       "blok": "rewolusie",
       "status": "bevestig",
-      "bron": "NASA Science, Top Moon Questions ('27.3 days to complete a revolution'); standard usage",
+      "bron": "NASA Moon Facts ('revolves around Earth'); standaard astronomiese gebruik.",
       "tipe": "algemeen"
     },
     {
       "bewering": "wentelbaan: Die pad waarlangs een ding in die ruimte oor en oor om 'n ander ding beweeg.",
       "blok": "wentelbaan",
       "status": "bevestig",
-      "bron": "Wikipedia, Orbit of the Moon; standard definition of an orbit as a repeating path around another body",
+      "bron": "NASA Space Place 'What is an orbit?': 'an orbit is a regular, repeating path that one object in space takes around another one'.",
       "tipe": "algemeen"
     },
     {
       "bewering": "maan: 'n Wêreld wat om 'n groter wêreld, soos 'n planeet, beweeg en saam met hom om die Son reis.",
       "blok": "maan",
       "status": "bevestig",
-      "bron": "NASA Science Moon pages (natural satellite); read alone it fits moons of planets and of dwarf planets in our Solar System ('soos' leaves room), and does not fit planets or artificial satellites",
+      "bron": "NASA Science 'Moons' oorsig: mane (natuurlike satelliete) wentel om planete, dwergplanete en asteroiedes, wat om die Son wentel. Alleen gelees hou dit: die groter wêreld is nie beperk tot planete nie ('soos'), en alle bevestigde mane is in die Sonnestelsel.",
       "tipe": "algemeen"
     },
     {
       "bewering": "ster: 'n Baie groot bal warm gas wat sy eie lig maak.",
       "blok": "ster",
       "status": "bevestig",
-      "bron": "NASA Space Place, All About the Sun ('A star is a hot, glowing ball of gas')",
+      "bron": "UCAR 'Meet the Sun' / NASA Space Place: sterre is groot balle warm gas (waterstof en helium) wat hul eie lig uitstraal.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "planeet: 'n Groot ronde wêreld wat op sy eie om 'n ster beweeg, en geen ander groot wêreld beweeg op sy eie op sy pad nie.",
+      "bewering": "planeet: 'n Groot ronde wêreld wat op sy eie om 'n ster beweeg en swaar genoeg is om in beheer van sy eie pad te wees.",
       "blok": "planeet",
       "status": "bevestig",
-      "bron": "IAU 2006 definition (Wikipedia, IAU definition of planet; Clearing the neighbourhood): orbits the Sun, nearly round, and has cleared its neighbourhood of comparable bodies other than its satellites or bodies under its gravitational control. 'Op sy eie' maps those exceptions acceptably (Pluto crosses Neptune's path but is held in resonance by Neptune); widening to 'om 'n ster' matches exoplanet usage.",
+      "bron": "IAU 2006-resolusie B5 (Wikipedia 'Definition of planet'): wentel om die Son, massa genoeg vir byna ronde vorm, en het sy wentelbaan skoongemaak ('in beheer van sy eie pad'). 'Op sy eie' sluit mane korrek uit; 'om 'n ster' pas by die IAU-werksdefinisie vir eksoplanete.",
       "tipe": "algemeen"
     },
     {
       "bewering": "sonnestelsel: Die Son saam met alles wat om hom beweeg.",
       "blok": "sonnestelsel",
       "status": "bevestig",
-      "bron": "NASA Science Solar System overview (the Sun and everything bound to and orbiting it)",
+      "bron": "NASA Science 'Our Solar System': die Son en alles wat deur sy swaartekrag daaraan gebind is en om hom wentel.",
       "tipe": "algemeen"
     }
   ],
-  "opsomming": "One fix: 'Die Maan is van rots', set directly after 'Die Aarde is van rots en metaal', implies the Moon has no metal, but it has a small iron core, so narrow it to 'meestal van rots'; everything else checks out, including the chair model and the 29.5-day mechanism, and a person may want to note that 'ongeveer 28 dae' rounds the true 27.3 days upward (it is CAPS's figure)."
+  "opsomming": "Alles in die les is waar, behalwe dat 'n mens moet besluit oor die syfer 'ongeveer 28 dae' vir die Maan se rotasie en rewolusie: die werklike tyd is 27,3 dae (naaste heel getal 27), maar die les volg KABV se 28 - as dit reeds beslis is, kan die les deurgaan."
 }
