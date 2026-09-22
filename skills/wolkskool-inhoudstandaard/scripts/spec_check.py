@@ -59,15 +59,17 @@ import argparse, json, re, sys
 # about different subjects and the table used to be per grade only.
 #   * Lewensvaardighede: 450-550, decided by Lampies on 21 September 2026 -- one
 #     step up from Grade 5's usual lesson, teaching lessons and reading pieces alike.
-#   * Natuurwetenskappe en Tegnologie: 300-550, decided by Drico on 22 September
-#     2026, the same band as Grade 5 NST. Under 300 is an exception to look at, not
-#     pad; over 550 asks for an effective split, not a trim that drops content.
+#   * Natuurwetenskappe en Tegnologie: the same 450-550, confirmed by Drico on
+#     22 September 2026. His concern is the CEILING: over 550 asks for an effective
+#     split, not a trim that drops content. A lesson that is short for a real reason
+#     (Gr 6 NST lesson 30, the Moon) may sit below 450 with a vloer_uitsondering in
+#     its spec saying why.
 # LESBAND is the per-grade default; LESBAND_VAK overrides it for one subject.
 #
 # Grades 7-12 stay unbanded until someone decides them the same way, rather than
 # inheriting a number that was reasoned about another grade.
 LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550)}
-LESBAND_VAK = {(6, "natuurwetenskappe-en-tegnologie"): (300, 550)}
+LESBAND_VAK = {}
 
 
 def lesband_vir(graad, vak=None):
