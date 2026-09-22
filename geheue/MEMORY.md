@@ -110,3 +110,4 @@
 - [Creative Arts: content only](skeppende-kunste-net-inhoud.md) — Grades 4-6: theory hours only, practical work not in the lessons for now.
 - [Gr 6 Creative Arts](gr6-skeppende-kunste.md) — 8/8 signed off 22 Sep 2026; straalvormige balans; vorm/patroon for Gr 4-5 still to raise with Lampies.
 - [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — all 26 signed off 22 Sep 2026; Moon 'amper 28 dae'; open: Gr 5 karnivoor/herbivoor 'net' awaits Drico.
+- [An agent reported failed may have finished](n-agent-wat-faal-kan-sy-werk-klaar-he.md) — four of fourteen killed agents had written complete files; measure before re-running, and don't test against the provenance note.
