@@ -1,0 +1,286 @@
+{
+ "skema_weergawe": "1.0",
+ "vak": "Natuurwetenskappe en Tegnologie",
+ "graad": 6,
+ "kwartaal": 3,
+ "kaps_onderwerp": "Energie en Verandering (Tegnologie: Stelsels en Beheer)",
+ "kaps_subonderwerp": "Hoofstroom elektrisiteit",
+ "les_veld_nota": "In die LES se eie JSON is 'kaps_onderwerp' die SUBONDERWERP: skryf 'Hoofstroom elektrisiteit'. Die spek en die les noem dieselfde veld verskillend en niks toets dit nie.",
+ "kaps_ure": 10.5,
+ "kaps_ure_nota": "Slegs inligting. KABV gee 3 weke (10 1/2 uur). NIKS hier is daaruit afgelei nie.",
+ "kaps_bron": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, gedrukte bladsy 59 (PDF-bladsy 64) vir die inhoud, aktiwiteite, hulpbronne en twee voetnote; gedrukte bladsy 60 (PDF-bladsy 65) vir Termyn 3 se assesseringsriglyne.",
+ "fokusvraag": "Waar kom die energie in ons hoofstroom oorspronklik vandaan, wat kos dit om elektrisiteit te gebruik en hoe gebruik ons dit spaarsaam en veilig, en hoe kan mense elektrisiteit opwek op maniere wat nie opraak nie?",
+ "fokusvraag_nota": "Deur die beplanner gestel. KABV Natuurwetenskappe en Tegnologie gee geen fokusvraag nie; hierdie een is gebou uit die vier inhoudsopskrifte en die termyn se assesseringsriglyne.",
+ "fokusvraag_optelling": "Jaarles 19 lewer die eerste deel: die energie kom uit steenkool, in die steenkool uit plante en uiteindelik die Son, en dit raak op. Jaarles 20 lewer die middel: elektrisiteit kos geld en steenkool, ons kan minder gebruik, en 'n onwettige verbinding is gevaarlik. Jaarles 21 lewer die laaste deel: son, wind en water as maniere wat nie opraak nie. Geen les dra die hele vraag nie.",
+ "profiel_konfig": "gr6-nwt-profiel.json",
+ "onderwerp_woorde": 0,
+ "onderwerp_woorde_nota": "0 beteken ONGEMEET, nie 'die boek dek dit nie'. Geen graad 6-handboek is geprofileer nie; dit is 'n besluit. Moenie 'n getal hier intik nie.",
+ "begroting_basis": "vereistes",
+ "begroting_basis_nota": "Elke les kry sy eie getal uit die KABV-inhoud wat dit dra, binne die graad 6-band 450-550 (Drico, 22 September 2026). Niks is uit 'n meting of uit kontakure afgelei nie. Die plafon is wat saak maak: oor 550 vra 'n effektiewe verdeling, nie 'n snoei nie.",
+ "totale_begroting": 1540,
+ "totale_begroting_nota": "550 + 520 + 470. Die som van drie afgeleide getalle, nie 'n meting nie.",
+ "herkoms": {
+  "beplanner_prompt": "beplanner-v1.2",
+  "datum": "2026-09-22",
+  "handboek_gesien": false,
+  "bronne": "Die KABV-dokument self (PDF-bladsye 64 en 65, en die aangrensende Termyn 3-bladsye om grense te plaas). Verder: kaps/lesindeks/gr6-nwt-lesverdeling.csv, profiele/gr6-nwt-profiel.json, kaps/gedeelde-omskrywings-natuurwetenskappe-gr6.json en -gr5.json, kaps/beskermde-woorde.json, die goedgekeurde graad 5-spesifikasies 'Energie en elektrisiteit' en 'Gestoorde energie in brandstof', die graad 4-spek 'Energie om ons', en die teks en begrip-inskrywings van die graad 5-les 'Die lang pad wat 'n kring moet wees', om nie te herhaal of te weerspreek nie. GEEN handboek, handboekbladsy, skandering, transkripsie of beskrywing van 'n handboek se indeling. Geen video_naat nie.",
+  "goedkeuringstatus": "KONSEP. 'n Mens skuif dit na spesifikasies/goedgekeur/ voordat enigiets geskryf word."
+ },
+ "verdeling_nota": "Drie lesse volgens die ooreengekome lesverdeling (Drico, 22 September 2026), finaal: jaarles 19 = KABV-ry 25, jaarles 20 = rye 26 en 27 saamgevoeg (EEN les, een begroting), jaarles 21 = ry 28. Drico se reeling: onwettige konneksies staan AAN DIE EINDE van jaarles 20. Jaarles 19 is swaar en staan presies op die plafon; sien daardie les se 'verdeling_as_dit_oorloop' vir waar 'n effektiewe verdeling sou val. Drico besluit.",
+ "graad_4_en_5_oordrag": "Wat die leerder REEDS het, en wat dus as brug gebruik word en nie as nuwe inhoud oorvertel word nie. Graad 4: energie is in steenkool, olieprodukte en natuurlike gas gestoor, en die kragstasie stuur energie deur drade na huise. Graad 5: brandstof hou gestoorde energie; die meeste van Suid-Afrika se elektrisiteit kom van stasies wat steenkool brand; die steenkool brand, die hitte kook water tot stoom, die stoom laat 'n MASJIEN (sonder naam) draai en dit laat elektrisiteit deur die drade loop; party stasies gebruik vallende water by 'n dam, en daar is kernkrag; die pad oor kragmaste en 'n substasie na 'n huis, en dat die pad 'n kring is wat terugloop na waar dit vandaan kom (NIE na die kragstasie nie); elektriese veiligheid, ook dat 'n draad wat laag hang of op die grond le nooit aangeraak word nie. NUUT in graad 6: fossielbrandstof as groep, hoe steenkool vorm, dat sy energie van die Son kom, turbine en kragopwekker by die naam, nie-hernubaar, koste en besparing, onwettige verbindings, en sonpanele en windturbines. Graad 4 en 5 het die vorming van steenkool en die Son as oorsprong uitdruklik buite bestek gehou; hier word dit vir die eerste keer onderrig.",
+ "kaps_foute": [
+  {
+   "wat_kaps_se": "Aktiwiteitskolom en voetnoot **: 'sonpanele (fotogalvaniese batterye)' en 'Sonpanele (die gebied van fotogalvaniese batterye)'.",
+   "fout": "'n Sonpaneel is NIE 'n battery nie. Dit stoor geen energie nie; dit maak net elektrisiteit solank lig daarop val. Die gedeelde bewoording vir 'battery' is selle wat hulle GESTOORDE energie afgee, dus sou 'n leerder uit KABV se woord aflei dat 'n sonpaneel energie hou en snags werk.",
+   "wat_ons_doen": "Hou die NAAM 'sonpaneel'. Gebruik nooit 'battery' of 'fotogalvaniese battery' vir 'n sonpaneel nie, en moenie die fout aankondig nie; jaarles 21 stel die ware meganisme (elektrisiteit net solank sonlig daarop val). 'n Battery wat saam met panele gebruik word, is 'n APARTE ding en word nie genoem nie."
+  }
+ ],
+ "gedeelde_terme_binne_hierdie_subonderwerp": "turbine en kragopwekker (19, 21), fossielbrandstof en nie-hernubaar (19, 21), hernubaar (21, moontlik 20), sonkragwaterverwarmer en sonpaneel (20, 21), steenkool, kragstasie, elektrisiteit en energie (almal). Elkeen woord vir woord dieselfde in elke les wat dit dra: die gedeelde leer waar die term daar staan, anders die bewoording wat uit voorgestelde_bewoordings gekies word.",
+ "beskermde_woorde": "'energie', nooit 'krag', wanneer energie bedoel word - ook waar KABV se aktiwiteit 'hoeveel krag hulle nodig het' se. 'kragstasie', 'kragopwekker', 'kragmas', 'kernkrag' en 'sonkragwaterverwarmer' is NAME en bly. Moenie 'windkrag' of 'sonkrag' as woord vir die energie self gebruik nie. 'hitte' vir energie wat van warm na koud beweeg (staan reeds in kaps/beskermde-woorde.json).",
+ "buite_bestek": [
+  "Hoe 'n kragopwekker binne werk (magnete, spoele), koeltorings, en die name van spesifieke kragstasies of van Eskom: dit koop niks en verouder.",
+  "Watt, kilowatt en kilowatt-uur as eenhede of berekeninge, en enige prys of tarief (KABV se eie nota; pryse verouder).",
+  "Beurtkrag, klimaatsverandering en lugbesoedeling as onderwerp. Nie in KABV se punte nie, en elkeen eet 'n begroting op.",
+  "Kernkrag in jaarles 21. Dit is nie hernubaar nie; die maklikste manier om die verwarring te keer is om dit daar nie te noem nie.",
+  "Biomassa, getye en aardwarmte. KABV noem son, wind en water.",
+  "Wie onwettige verbindings maak, waar, of wie daarvoor betaal. KABV vra net die gevaar; 'n bewering oor mense of gemeenskappe sit skuld in 'n veiligheidsles en kan 'n leerder se eie huis beskaam.",
+  "KABV se aktiwiteitskolom as 'n opdrag (teken, ondersoek etikette, doen navorsing). Die KENNIS wat die assessering daaruit vra, is Kern en staan in die lesse."
+ ],
+ "registerwaarskuwing": "Die lang woorde is onvermydelik: elektrisiteit, fossielbrandstof, kragopwekker, infrastruktuur, sonkragwaterverwarmer, nie-hernubaar. Die band laat hoogstens 13% woorde met drie of meer lettergrepe toe. Noem die lang term waar dit nodig is en gebruik daarna die kort konkrete woord (die steenkool, die masjien, die paneel, die drade). Tel dit voor jy skryf.",
+ "geen_vrae": "Geen 'vraag'-blokke. Die waarneembare bewys hoort in die studieteks: die ketel se getal teenoor die radio s'n, 'n lig wat die hele nag brand, die sonpaneel wat snags niks maak.",
+ "teks_kom_eerste": "Soos by al die wetenskaplesse kom die teks eerste en die video volg dit. Geen video_naat nie. Elke blok is 'n verpligting wat die video moet eer.",
+ "lesse": [
+  {
+   "nommer": 1,
+   "jaarnommer": 19,
+   "titel": "Van ou moerasplante tot by jou TV",
+   "titel_nota": "Werktitel vir die leerder, nie KABV se etiket ('Fossielbrandstowwe en elektrisiteit') nie. Die skrywer mag dit verbeter solank dit albei helftes dra: waar steenkool vandaan kom, en hoe dit elektrisiteit word.",
+   "kaps_opskrif": "Fossielbrandstowwe en elektrisiteit",
+   "kaps_punt": "fossielbrandstowwe word in die Aarde se kors gevorm van dooie plante en diere reeds vir miljoene jare; steenkool, olie en natuurlike gas is fossielbrandstowwe; in Suid-Afrika word steenkool hoofsaaklik gebruik as 'n brandstof in kragstasies; steenkool word gevorm uit reste van plante wat hulle energie oorspronklik van die Son gekry het; in 'n kragstasie word steenkool gebruik om water te kook, die stoom draai 'n turbine wat 'n kragopwekker draai en sodoende elektrisiteit opwek; fossielbrandstowwe is nie-hernubare hulpbronne",
+   "kaps_assessering": "Termyn 3 se riglyne: 'beskryf die pad vanaf elektriese energie toestelle, soos jou TV-stel, na die steenkool-aangedrewe kragstasie en terug na die oorspronklike bron, die Son' en 'verduidelik hoe fossielbrandstowwe soos steenkool gevorm word'. Daarom is albei Kern.",
+   "begroting": 550,
+   "begrotingsnota": "550, op die plafon, afgelei uit die inhoud. Ses KABV-punte plus twee assesseringsriglyne. Verdeling: brug en steenkool in kragstasies ~50; fossielbrandstowwe en die drie name ~70; hoe steenkool vorm ~120; die Son se energie in die steenkool ~70; die kragstasie-ketting met turbine en kragopwekker ~90 (kort, want graad 5 het die ketting reeds gegee); die pad van die TV terug na die Son ~80; nie-hernubaar ~60. Totaal ~540. Dit pas net omdat die ketting 'n herhaling met twee nuwe name is. As die konsep nie elke kern-item binne 550 kan dra nie, moenie snoei nie: meld dit, en die verdeling hieronder geld.",
+   "verdeling_as_dit_oorloop": "Die effektiewe naat: (A) 'Hoe steenkool ontstaan' - fossielbrandstowwe en die drie name, hoe steenkool vorm, die Son se energie in die plante, nie-hernubaar (~320 woorde); (B) 'Van steenkool tot by jou TV' - steenkool in Suid-Afrika se kragstasies, turbine en kragopwekker, die pad van die TV terug na die Son (~220, met 'n kort herhaling van A se Son-skakel). Albei helftes sou onder 450 val en 'n vloer_uitsondering of dieper inhoud nodig he. Daarom beplan ek EEN les. Drico besluit.",
+   "kern": [
+    "Brug, hoogstens twee sinne: die leerder weet uit graad 5 dat die meeste van Suid-Afrika se elektrisiteit van kragstasies kom wat steenkool brand. Hierdie les vra waar die steenkool, en die energie daarin, vandaan kom. Moenie graad 5 se pad van die stasie na die huis oorvertel nie.",
+    "KABV se punt oor Suid-Afrika: steenkool word hier hoofsaaklik as brandstof in kragstasies gebruik. Skryf dit as 'die meeste steenkool wat Suid-Afrika self gebruik, word in kragstasies gebrand' of gelykwaardig. Geen persentasie. Nooit 'alle' elektrisiteit of 'alle' steenkool nie.",
+    "GEWYSIG 22 September 2026: 'lewende dinge', nie 'plante en diere' nie - die meeste olie en gas kom van piepklein seelewe. Steenkool bly uit plante. Wat 'n fossielbrandstof is: 'n brandstof wat oor miljoene jare in die Aarde se kors gevorm het uit die reste van lewende dinge wat lank gelede dood is. Al drie KABV-voorbeelde by die naam: steenkool, olie en natuurlike gas, met hoogstens een bekende gebruik elk.",
+    "Hoe steenkool vorm, in volgorde, want die assessering vra dat die leerder dit verduidelik: (a) baie lank gelede het baie plante in nat, moerasagtige gebiede gegroei; (b) toe hulle doodgaan, het hulle in die water en modder beland, waar te min lug was om hulle heeltemal te laat verrot; (c) lae sand en modder het oor hulle kom le en hulle begrawe; (d) oor miljoene jare het die gewig van die lae daarbo en die hitte in die kors die plantreste saamgedruk en stadig in steenkool verander. Die rede by (b) is verpligtend: dit is waarom die plante nie net weggeraak het nie.",
+    "Waar steenkool se energie oorspronklik vandaan kom: die plante het met die energie van sonlig hulle eie kos gemaak (fotosintese - as die woord gebruik word, die gedeelde bewoording woord vir woord) en daardie energie was in hulle gestoor. 'n Deel van daardie gestoorde energie is nou in die steenkool. Wanneer 'n kragstasie steenkool brand, kom energie vry wat oorspronklik van die Son af gekom het.",
+    "Die kragstasie-ketting met KABV se twee name: die steenkool brand; die hitte kook water tot stoom; die stoom stoot teen die lemme van 'n turbine en laat dit draai; die turbine draai 'n kragopwekker; die kragopwekker maak die elektrisiteit wat deur die drade na huise loop. Graad 5 het die ketting met 'n naamlose 'masjien' gegee; hierdie les gee die masjien sy twee dele se name. Stop by die kragopwekker.",
+    "Die pad van die TV terug na die Son, want die assessering vra dit by die naam: die TV kry sy energie deur die drade van die kragstasie; die kragopwekker is deur die turbine gedraai; die turbine deur stoom; die stoom se hitte kom uit brandende steenkool; die steenkool se energie was in plante van lank gelede; en die plante het dit van die Son gekry. DIT IS DIE PAD VAN DIE ENERGIE, TERUGGEVOLG - NIE 'N PAD WAARLANGS ELEKTRISITEIT LOOP NIE. Graad 5 het reggemaak dat elektrisiteit terug na die kragstasie loop (Drico, 10 September 2026); hierdie les mag dit nie in 'n ander gedaante terugbring nie. 'n Lysblok met een reel per skakel werk hier goed.",
+    "Fossielbrandstowwe is nie-hernubare hulpbronne: hulle vorm oor miljoene jare, baie stadiger as wat mense hulle opbrand, dus word wat ons verbrand nie betyds vervang nie en hulle kan eendag opraak. 'Hulpbron' in een bysin: iets uit die natuur wat mense gebruik. Dit berei jaarles 21 voor; moenie hier al oor hernubare maniere praat nie."
+   ],
+   "feiterisiko": [
+    {
+     "risiko": "Steenkool uit dooie diere, of fossielbrandstof uit dinosourusse.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat steenkool uit diere of dinosourusse gevorm het.",
+     "hoekom_dit_saak_maak": "Steenkool is uit plante. KABV se 'plante en diere' beskryf die groep: olie en gas is hoofsaaklik uit baie klein lewende dinge in die see. As die teks olie en gas se oorsprong noem, is dit dit; nooit dinosourusse nie."
+    },
+    {
+     "risiko": "Die ketting van die TV na die Son.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat elektrisiteit van die TV terugloop na die kragstasie of na die Son.",
+     "hoekom_dit_saak_maak": "Dit is die energie se oorsprong, teruggevolg. Graad 5 het die 'terug na die kragstasie'-bewering op Drico se bevel reggemaak (10 September 2026). Skryf 'die TV se energie kom van...' en nooit 'die elektrisiteit loop terug na...' nie."
+    },
+    {
+     "risiko": "Sonlig wat in die steenkool gevang is.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat steenkool lig of sonlig bevat, of dat AL die plante se energie in die steenkool oorgebly het.",
+     "hoekom_dit_saak_maak": "Die plante het met die ENERGIE van lig kos gemaak en dit as gestoorde energie gehou. 'n Deel daarvan is in die steenkool. Moenie 'gevangde sonlig' skryf nie."
+    },
+    {
+     "risiko": "Die kragstasie of kragopwekker wat energie maak.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat 'n kragopwekker energie skep.",
+     "hoekom_dit_saak_maak": "Graad 4 en 5 se reel: 'maak elektrisiteit' is reg, 'maak energie' nie. Moenie ook skryf dat die energie 'in elektrisiteit verander' nie."
+    },
+    {
+     "risiko": "Nie-hernubaar as 'word nooit weer gemaak nie'.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat steenkool nie meer vorm nie, of 'n datum waarop dit opraak.",
+     "hoekom_dit_saak_maak": "Dit vorm steeds, net oor miljoene jare. Die punt is dat dit baie stadiger vorm as wat ons dit gebruik. Geen jaartal of 'oor soveel jaar' nie."
+    },
+    {
+     "risiko": "Steenkool diep onder die grond.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat steenkool altyd diep ondergronds uitgehaal word.",
+     "hoekom_dit_saak_maak": "Graad 4 se reel: meer as die helfte van Suid-Afrika se steenkool kom uit vlak oopgroefmyne. Se 'uit die grond', nie 'diep' nie."
+    },
+    {
+     "risiko": "Die tydskaal.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat druk of hitte plante vinnig in steenkool verander, of 'n spesifieke ouderdom.",
+     "hoekom_dit_saak_maak": "KABV se 'miljoene jare' is reg en genoeg. Geen getal nie."
+    }
+   ],
+   "aanvulling": [],
+   "aanvulling_nota": "Geen. Die rede waarom die plante nie verrot het nie, is deel van 'hoe steenkool vorm', wat die assessering by die naam vra, dus Kern.",
+   "moeilike_konsepte": [],
+   "moeilike_konsepte_nota": "Doelbewus geen. Elke idee is 'n konkrete volgorde wat 'n mens kan teken: plante, water en modder, lae, steenkool; en die ketting van die TV terug na die Son. Die les is ook op die plafon.",
+   "termdig": true,
+   "termdig_nota": "Verwag ses tot agt begrip-inskrywings: fossielbrandstof, kors, turbine, kragopwekker, nie-hernubaar, en moontlik hulpbron en fotosintese. steenkool, brandstof, kragstasie, elektrisiteit en gestoorde energie volg die gedeelde leer woord vir woord. 'bron' kry GEEN inskrywing nie (sien voorgestelde_bewoordings).",
+   "fokusvraag_skakel": "Wys waar die energie in ons hoofstroom oorspronklik vandaan kom: uit steenkool wat oor miljoene jare uit plante gevorm het, wat die energie van die Son gekry het, en dat dit nie-hernubaar is."
+  },
+  {
+   "nommer": 2,
+   "jaarnommer": 20,
+   "titel": "Wat elektrisiteit kos, en waar dit onveilig word",
+   "titel_nota": "Werktitel. Dra albei KABV-opskrifte, want albei is die les. Die skrywer mag dit verbeter, maar die titel mag niemand blameer nie.",
+   "kaps_opskrif": "Koste van elektrisiteit; Onwettige konneksies",
+   "kaps_opskrif_nota": "TWEE KABV-opskrifte, EEN les en een begroting (Drico, 22 September 2026). Onwettige konneksies staan AAN DIE EINDE van die les (Drico).",
+   "kaps_punt": "elektrisiteit is duur omdat: dit infrastruktuur vereis, insluitende steenkoolmyne, vervoer, kragstasies, kabels, substasies, bedrading; sommige elektriese toestelle vereis meer elektrisiteit as ander (verhittings toestelle gebruik die meeste); hoe meer elektrisiteit ons gebruik, hoe meer betaal ons en hoe meer steenkool word gebruik; ons kan energie bespaar op baie maniere, insluitend die gebruik van energiebesparende gloeilampe en sonkrag waterverwarmers; onwettige elektriese verbindings is 'n gevaar vir mense, want hulle is dikwels onveilig",
+   "kaps_voetnoot": "* 'Leerders in hierdie graad hoef nie te weet hoe watt (W), kilo Watts (kW) en die kilo Watt uur (kW.h) gemeet en bereken word nie.' ** 'Sonpanele ... is verskillend van sonkragwaterverwarmers.'",
+   "kaps_assessering": "Termyn 3 se riglyn: 'bepaal watter toestelle gebruik meer energie en verduidelik waarom dit so is'. Die WAAROM is dus Kern.",
+   "begroting": 520,
+   "begrotingsnota": "520, afgelei uit die inhoud. 'n Saamgevoegde les kry een les se begroting. Verdeling: infrastruktuur met ses benoemde dele ~110; toestelle wat meer gebruik, met die waarom ~100; meer gebruik, meer betaal, meer steenkool, en hoe lank iets aan is ~60; besparing met KABV se twee voorbeelde en een of twee alledaagse maniere ~110; onwettige verbindings, laaste ~110. Totaal ~490-520.",
+   "kern": [
+    "Eerste rede waarom elektrisiteit duur is: dit vra baie infrastruktuur, en elke deel moet gebou, bedryf en onderhou word. Al ses KABV-dele by die naam, verkieslik in die volgorde van die pad: steenkoolmyne, vervoer van die steenkool, kragstasies, kabels, substasies en bedrading in die geboue. 'Infrastruktuur' in een sin verduidelik (al die geboue, masjiene en drade wat nodig is om elektrisiteit te maak en te stuur).",
+    "Tweede rede: sommige toestelle gebruik meer elektrisiteit as ander, en toestelle wat hitte maak (soos 'n ketel, geiser, stoof of verwarmer) gebruik die meeste terwyl hulle aan is. VERDUIDELIK WAAROM, want die assessering vra dit: om iets warm te maak, veral water, vra baie energie, baie meer as om lig of klank te maak. Konkrete bewys in die studieteks: 'n toestel se etiket wys hoeveel elektrisiteit dit nodig het, en 'n ketel se getal is baie keer groter as 'n klein radio s'n. Geen eenhede, getalle of berekeninge nie.",
+    "Hoe meer elektrisiteit ons gebruik, hoe meer betaal ons, en omdat die meeste van Suid-Afrika se elektrisiteit van steenkool kom, hoe meer steenkool moet die kragstasies brand. Hoeveel 'n toestel altesaam gebruik, hang af van hoeveel dit vra terwyl dit aan is EN hoe lank dit aan is: 'n geiser maak hitte en is lank aan, en 'n lig wat die hele nag brand, gebruik meer as een wat afgeskakel word.",
+    "Ons kan energie bespaar op baie maniere. KABV se twee by die naam, elk met sy rede: (a) energiebesparende gloeilampe gee dieselfde lig met baie minder elektrisiteit, want minder van die energie gaan as hitte weg; (b) 'n sonkragwaterverwarmer maak water warm met die Son se hitte, sodat die elektriese geiser minder hoef te doen. Plus een of twee maniere wat 'n leerder self kan doen, soos ligte en toestelle afskakel wanneer niemand dit gebruik nie, of net soveel water kook as wat nodig is.",
+    "LAASTE IN DIE LES (Drico). Onwettige verbindings: wat dit is - drade wat sonder toestemming van die elektrisiteitsverskaffer aan kraglyne gekoppel is. Waarom dit dikwels onveilig is: die drade is dikwels onveilig gemaak en slordig neergele, party le dwarsoor paadjies waar mense loop, en dikwels is daar niks wat die elektrisiteit afskakel as iets verkeerd loop nie. Dit kan mense doodskok, ook kinders wat nooit daaraan gewerk het nie, en dit kan brande begin. Die reel vir die leerder is graad 5 se reel: moenie aanraak nie, bly ver weg en se vir 'n grootmens. (Herskryf 22 September 2026 na feitenasien: 'kaal', 'in water', 'hang laag' en 'n ander se toevoer' kon nie gestaaf word nie en is gesny - moenie terugsit nie.)"
+   ],
+   "feiterisiko": [
+    {
+     "risiko": "Hittetoestelle 'gebruik die meeste'.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat 'n ketel elke maand meer kos as enigiets anders in die huis, of dat hoe lank iets aan is, nie saak maak nie.",
+     "hoekom_dit_saak_maak": "KABV se punt is waar oor hoeveel 'n toestel VRA terwyl dit aan is. Die rekening hang ook af van hoe lank. Die geiser is die veilige voorbeeld: dit maak hitte EN is lank aan."
+    },
+    {
+     "risiko": "Energie 'bespaar'.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat 'n besparende gloeilamp geen hitte gee nie, of dat energie opgebruik en vernietig word.",
+     "hoekom_dit_saak_maak": "Hou KABV se woord 'bespaar', maar die meganisme is 'minder elektrisiteit vir dieselfde lig'. Die gloeilamp word minder warm, nie koud nie."
+    },
+    {
+     "risiko": "Sonkragwaterverwarmer en sonpaneel ineengeloop.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat 'n sonkragwaterverwarmer elektrisiteit maak, of dat dit nooit elektrisiteit gebruik nie.",
+     "hoekom_dit_saak_maak": "KABV se eie voetnoot skei hulle. Die verwarmer gebruik die Son se hitte om water warm te maak; party het 'n elektriese element as rugsteun. Hierdie les maak geen bewering oor sonpanele nie."
+    },
+    {
+     "risiko": "Vervoer van steenkool.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat alle steenkool per trok of trein na die stasie gaan.",
+     "hoekom_dit_saak_maak": "Party stasies staan langs hulle myn en kry die steenkool met lang vervoerbande. Se 'vervoer' of noem meer as een manier; moenie een die enigste maak nie."
+    },
+    {
+     "risiko": "Onwettige verbindings: skuld, en 'n metode om nader te kom.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat 'n bepaalde soort mense of plek dit doen, dat dit 'altyd' onveilig is, of dat 'n mens 'n draad met iets droogs kan wegskuif.",
+     "hoekom_dit_saak_maak": "KABV se kwantifiseerder is 'dikwels' - hou dit. Geen bewering oor wie, waar of hoekom nie. Graad 5 se ernstigste veiligheidsreel: niks in die les mag 'n kind 'n manier gee om nader te kom nie."
+    },
+    {
+     "risiko": "Getalle en pryse.",
+     "valse_gevolgtrekking_om_te_vermy": "Enige prys, tarief, wattgetal of persentasie.",
+     "hoekom_dit_saak_maak": "KABV se nota sluit die eenhede uit, en pryse verouder sonder dat iets die les weer nagaan."
+    }
+   ],
+   "aanvulling": [],
+   "aanvulling_nota": "Geen. Die 'hoe lank dit aan is'-punt is die meganisme agter KABV se eie 'hoe meer ons gebruik, hoe meer betaal ons' en keer 'n valse gevolgtrekking. Die alledaagse besparingsmaniere vul KABV se 'baie maniere, insluitend' in. Wat 'n onwettige verbinding IS, is nodig om die gevaar te verstaan.",
+   "moeilike_konsepte": [],
+   "moeilike_konsepte_nota": "Doelbewus geen. Alles is konkreet: die ketel teenoor die radio, die lig wat die hele nag brand, die draad op die grond.",
+   "termdig": true,
+   "termdig_nota": "KABV noem ses infrastruktuurdele. Verwag vier tot ses begrip-inskrywings: infrastruktuur, substasie (graad 5 se bewoording woord vir woord), energiebesparende gloeilamp, sonkragwaterverwarmer, onwettige verbinding. Gewone woorde (myn, kabel, ketel) kry geen inskrywing nie.",
+   "fokusvraag_skakel": "Wys wat dit kos om elektrisiteit te gebruik - geld en steenkool - hoe ons minder kan gebruik, en waarom 'n onwettige verbinding 'n gevaar vir mense is."
+  },
+  {
+   "nommer": 3,
+   "jaarnommer": 21,
+   "titel": "Elektrisiteit uit son, wind en water",
+   "titel_nota": "Werktitel vir die leerder, nie KABV se etiket nie. Die skrywer mag dit verbeter.",
+   "kaps_opskrif": "Hernubare maniere om elektrisiteit op te wek",
+   "kaps_punt": "mense is op soek na volhoubare maniere om elektrisiteit te genereer",
+   "kaps_punt_nota": "EEN breed gestelde strepie. Die beplanner besluit wat die konsep minstens vra: 'volhoubare maniere' is sinloos sonder die maniere self. KABV se aktiwiteits- en hulpbronkolom noem dieselfde drie (wind, sonpanele, hidro-elektries); hulle staaf die keuse maar is nie die bron van die vereiste nie (Drico, 9 September 2026: die aktiwiteitskolom skep nie vereistes nie).",
+   "begroting": 470,
+   "begrotingsnota": "470, afgelei uit die inhoud. Verdeling: waarom mense soek en wat volhoubaar beteken ~70; hernubaar ~50; wind ~80; water ~70 (graad 5 het die dam-stasie al genoem); son, met die onderskeid van 'n sonkragwaterverwarmer ~90; die beperkings (aanvulling) ~60. Totaal ~420-470.",
+   "kern": [
+    "Waarom mense soek: jaarles 19 het gewys dat fossielbrandstowwe nie-hernubaar is en kan opraak. Daarom soek mense volhoubare maniere om elektrisiteit op te wek: maniere wat baie lank kan aanhou sonder dat die bron opraak. KABV se woord 'volhoubaar' by die naam, met 'n begrip.",
+    "GEWYSIG 22 September 2026 (feitenasien van die woordelys): hernubare bronne raak nie op NIE solank ons hulle nie vinniger gebruik as wat die natuur hulle aanvul nie; hout, vis en grondwater raak wel op as mense dit te vinnig gebruik. Moenie se hulle raak nooit op nie. Hernubaar teenoor nie-hernubaar: son, wind en vloeiende water word deur die natuur weer aangevul en raak nie op nie solank ons dit nie vinniger gebruik as wat die natuur dit aanvul nie. Stel dit kort teenoor jaarles 19 se steenkool.",
+    "Wind: wind stoot teen die lemme van 'n windturbine en laat dit draai, en die turbine draai 'n kragopwekker. Wys dat dit dieselfde turbine-en-kragopwekker is as in jaarles 19, net sonder vuur, steenkool of stoom.",
+    "Water: by 'n hidro-elektriese kragstasie stroom water van hoog af - dikwels uit 'n dam - en stoot teen 'n turbine wat 'n kragopwekker draai. Graad 5 het hierdie stasie al kortliks genoem; bou daarop en gee KABV se naam 'hidro-elektries'.",
+    "Son: 'n sonpaneel maak elektrisiteit solank sonlig daarop val - geen turbine, geen kragopwekker, niks wat draai of brand nie. Dit is die een wat anders werk, en die leerder moet dit so hoor. Se in een sin dat 'n sonpaneel iets anders is as jaarles 20 se sonkragwaterverwarmer: die een maak elektrisiteit, die ander maak water warm (KABV se voetnoot). Moenie 'n sonpaneel 'n battery noem nie (sien kaps_foute)."
+   ],
+   "feiterisiko": [
+    {
+     "risiko": "Sonpaneel as battery (KABV se woord).",
+     "valse_gevolgtrekking_om_te_vermy": "Dat 'n sonpaneel energie stoor en snags werk.",
+     "hoekom_dit_saak_maak": "Dit maak net elektrisiteit terwyl lig daarop val. Sien kaps_foute. Batterye wat by panele gebruik word, is apart en word nie genoem nie."
+    },
+    {
+     "risiko": "Kernkrag tussen die hernubares.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat kernkrag hernubaar is.",
+     "hoekom_dit_saak_maak": "Uraan word uit die grond gemyn en raak op. Graad 5 het kernkrag langs die dam-stasie genoem, dus is die verwarring naby. Hierdie les noem kernkrag nie."
+    },
+    {
+     "risiko": "Hernubaar as gratis of volmaak.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat elektrisiteit uit son en wind niks kos nie, of altyd beskikbaar is.",
+     "hoekom_dit_saak_maak": "Die son en die wind kos niks, maar panele en turbines kos geld om te bou. En hulle werk nie altyd nie (sien aanvulling)."
+    },
+    {
+     "risiko": "Elke hidro-stasie by 'n dam.",
+     "valse_gevolgtrekking_om_te_vermy": "Dat hidro-elektries altyd 'n dam vra.",
+     "hoekom_dit_saak_maak": "Party gebruik 'n rivier se vloei sonder 'n groot dam. Skryf 'dikwels uit 'n dam'."
+    },
+    {
+     "risiko": "Suid-Afrika se aandeel.",
+     "valse_gevolgtrekking_om_te_vermy": "Enige bewering oor hoeveel van Suid-Afrika se elektrisiteit al uit son, wind of water kom, of name van spesifieke plase of stasies.",
+     "hoekom_dit_saak_maak": "Die syfers verander elke jaar en niks gaan 'n les weer na nie. Graad 5 se reel: beskryf die soort, moenie een benoem nie."
+    }
+   ],
+   "aanvulling": [
+    {
+     "item": "Elke hernubare manier het 'n beperking, in een sin elk: 'n sonpaneel maak snags niks en minder as dit bewolk is; 'n windturbine staan stil as die wind nie waai nie; 'n hidro-stasie het genoeg water nodig, en in droe jare is daar minder.",
+     "regverdiging": "KABV se 'mense is op SOEK na' is sinloos as die hernubare maniere volmaak is: dan sou niemand meer soek nie en sou niemand meer steenkool brand nie. Die beperkings is waarom die soektog aanhou, en hulle keer die valse gevolgtrekking dat hernubaar altyd beskikbaar is. Ongeveer 60 woorde van 470, binne die kwart."
+    }
+   ],
+   "moeilike_konsepte": [],
+   "moeilike_konsepte_nota": "Doelbewus geen. Die wind teen die lemme en die water teen die turbine is konkreet en sigbaar. Die sonpaneel se binnekant word nie verduidelik nie; 'elektrisiteit solank lig daarop val' is 'n konkrete, waarneembare stelling.",
+   "termdig": true,
+   "termdig_nota": "Verwag vyf tot sewe begrip-inskrywings: volhoubaar, hernubaar, windturbine of turbine, kragopwekker, hidro-elektries, sonpaneel. turbine, kragopwekker, hernubaar en nie-hernubaar woord vir woord soos in jaarles 19.",
+   "fokusvraag_skakel": "Wys hoe mense elektrisiteit kan opwek op maniere wat nie opraak nie - met die wind, vloeiende water en sonlig - en waarom die soektog nog aangaan."
+  }
+ ],
+ "voorgestelde_bewoordings_status": "OORTREF 22 September 2026: hierdie voorstelle is versoen en die gekose bewoordings staan in kaps/gedeelde-omskrywings-natuurwetenskappe-gr6.json. Waar hulle verskil, WEN DIE GEDEELDE LYS. Gebruik die veld hieronder net om te sien waarom 'n term oorweeg is.",
+ "voorgestelde_bewoordings": {
+  "fossielbrandstof": {
+   "omskrywing": "[OORTREF 22 September 2026: sien die gedeelde lys] 'n Brandstof wat oor miljoene jare in die Aarde se kors gevorm het uit die reste van plante en diere wat lank gelede dood is.",
+   "rede": "In omvang_vooraf (rye 25, 28). Volg KABV se woorde. Alleen gelees sluit dit hout uit (vorm nie oor miljoene jare nie) en pas dit op steenkool, olie en gas. 'plante en diere' beskryf die GROEP; steenkool self is net uit plante, en die les se dit."
+  },
+  "hernubaar": {
+   "omskrywing": "[OORTREF 22 September 2026: sien die gedeelde lys] Wat die natuur vinnig genoeg weer aanvul, sodat dit nie opraak wanneer ons dit gebruik nie.",
+   "rede": "In omvang_vooraf. Pas op son, wind en rivierwater; vorm 'n paar met 'nie-hernubaar'."
+  },
+  "nie-hernubaar": {
+   "omskrywing": "Wat nie vinnig genoeg weer aangevul word nie, sodat dit eendag kan opraak as ons dit aanhou gebruik.",
+   "rede": "Nie 'word nooit weer gemaak nie': steenkool vorm steeds, net oor miljoene jare. Die vorm dek ook uraan, wat glad nie aangevul word nie."
+  },
+  "turbine": {
+   "omskrywing": "'n Masjien met lemme wat draai wanneer stoom, water of wind daarteen stoot.",
+   "rede": "Jaarlesse 19 en 21. Graad 5 het dit 'n masjien sonder naam genoem; KABV graad 6 noem dit."
+  },
+  "kragopwekker": {
+   "omskrywing": "'n Masjien wat elektrisiteit maak wanneer iets hom laat draai.",
+   "rede": "Jaarlesse 19 en 21. 'maak elektrisiteit', nooit 'maak energie' (graad 4 en 5 se reel). Sluit 'n sonpaneel reg uit, want daar draai niks nie."
+  },
+  "sonkragwaterverwarmer": {
+   "omskrywing": "'n Toestel wat die Son se hitte gebruik om water warm te maak.",
+   "rede": "Jaarles 20, en jaarles 21 onderskei dit van 'n sonpaneel (KABV se voetnoot). Nie 'sonder elektrisiteit' nie: party het 'n elektriese element as rugsteun."
+  },
+  "sonpaneel": {
+   "omskrywing": "'n Plat paneel wat elektrisiteit maak solank sonlig daarop val.",
+   "rede": "Jaarles 21. 'solank' dra die ware meganisme teen KABV se 'battery' in."
+  },
+  "volhoubaar": {
+   "omskrywing": "Op 'n manier wat baie lank kan aanhou sonder dat dit opraak.",
+   "rede": "KABV se woord in jaarles 21. Voorgestel sodat ander graad 6-subonderwerpe (waterhulpbronne) dieselfde sin kan gebruik as hulle dit nodig kry."
+  },
+  "substasie": {
+   "omskrywing": "'n Plek met groot toestelle wat die elektrisiteit se stoot of pad verander.",
+   "rede": "NIE in die graad 6-leer nie, maar KABV noem dit in jaarles 20. Dra graad 5 se afgetekende bewoording woord vir woord oor."
+  },
+  "kors": {
+   "omskrywing": "Die buitenste laag rots wat om die hele Aarde loop.",
+   "rede": "KABV se 'Aarde se kors' in jaarles 19. Graad 5 se afgelewerde les-bewoording, woord vir woord; dit staan in geen leer nie."
+  },
+  "steenkool (oorgedra)": {
+   "omskrywing": "'n Harde swart klip uit die grond wat baie warm brand.",
+   "rede": "GEEN verandering voorgestel. Die oorgedraagde bewoording bly waar in graad 6. Die vorming uit plante hoort in die studieteks en in 'fossielbrandstof', nie in hierdie inskrywing nie. As Drico dit tog wil verbreed: \"'n Harde swart klip uit die grond wat oor miljoene jare uit plante gevorm het en baie warm brand.\""
+  },
+  "bron (geen inskrywing)": {
+   "omskrywing": null,
+   "rede": "Graad 5 se les-bewoording ('Dit waaruit 'n kragstasie die energie kry waarmee dit werk') is aan 'n kragstasie gebind, terwyl KABV in jaarles 19 die Son 'die oorspronklike bron' noem. Voorstel: gee 'bron' in graad 6 GEEN begrip-inskrywing nie en skryf 'waar die energie oorspronklik vandaan kom'."
+  }
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "skema_weergawe": "1.0",
+ "vak": "Natuurwetenskappe en Tegnologie",
+ "graad": 6,
+ "kwartaal": 4,
+ "kaps_onderwerp": "Planeet Aarde en die Ruimte",
+ "kaps_subonderwerp": "Die Sonnestelsel",
+ "kaps_ure": 8.75,
+ "kaps_ure_nota": "Slegs inligting. KABV gee 2 1/2 weke (8 3/4 uur). Niks hier is daaruit afgelei nie; die meeste van daardie tyd is modelbou, lees oor planete en tekenwerk, wat aan die onderwyser en die uitlegspan behoort.",
+ "kaps_bron": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, PDF-bladsy 66 (gedruk 61), KABV-inhoudsrye 29 'Die Son, planeete en asteroïdes' en 30 'Maan', met die drie voetnote; Termyn 4-assesseringsriglyne op PDF-bladsy 69 (gedruk 64).",
+ "fokusvraag": "Wat beweeg om ons Son, hoe verskil hierdie dinge van mekaar, en hoekom kan ons die Maan sien as dit nie self lig maak nie?",
+ "fokusvraag_nota": "Deur die beplanner gestel; KABV Natuurwetenskappe en Tegnologie stel geen fokusvraag nie. Gebou uit die assesseringsriglyn 'beskryf voorwerpe in ons Sonnestelsel (planete, Maan, die Son, asteroïdes)'. Les 22 dra die eerste twee dele, les 23 die derde.",
+ "profiel_konfig": "gr6-nwt-profiel.json",
+ "onderwerp_woorde": 0,
+ "onderwerp_woorde_nota": "0 beteken ONGEMEET. Geen Graad 6-handboek is geprofileer nie; onder die 'vereistes'-basis word niks hieruit afgelei nie.",
+ "begroting_basis": "vereistes",
+ "begroting_basis_nota": "Elke les kry sy eie getal uit die KABV-inhoud wat dit dra, binne die Graad 6-band 450-550 (Drico, 22 September 2026). Les 22 dra die hele Sonnestelsel en staan op die plafon. Les 23 is doelbewus baie kort (Drico se beslissing) en dra 'n vloer_uitsondering. Kontakure is nie gebruik nie.",
+ "totale_begroting": 800,
+ "totale_begroting_nota": "550 + 250.",
+ "herkoms": {
+  "kaps_dokument": "kaps/dokumente/intersen-gr4-6/06_Natuurwetenskappe_en_Tegnologie_Graad_4-6_KABV.pdf, PDF-bladsye 66 en 69 (gedruk 61 en 64). PDF-bladsye 67-68 (gedruk 62-63) is gelees om te sien wat jaarlesse 24 en 25 dra.",
+  "profiel_konfig": "gr6-nwt-profiel.json (dra geen meting nie)",
+  "lesverdeling": "kaps/lesindeks/gr6-nwt-lesverdeling.csv, jaarlesse 22 en 23",
+  "beplanner_prompt": "beplanner-v1.2",
+  "vak_gedeelde_omskrywings": "kaps/gedeelde-omskrywings-natuurwetenskappe-gr6.json",
+  "vorige_grade_gelees": "spesifikasies/goedgekeur/gr4/natuurwetenskappe-en-tegnologie/ (die-planeet-aarde, die-son, die-aarde-en-die-son, die-maan) en hul afgelewerde woordelyste; kaps/beskermde-woorde.json.",
+  "handboek_gesien": false
+ },
+ "vorige_grade": {
+  "graad_4_het_reeds_geleer": "Die Son is 'n ster in die middel van die Sonnestelsel; agt planete in volgorde; Pluto is nou 'n dwergplaneet; die planeettoets ('op 'n planeet se pad loop geen ander groot wêreld op sy eie nie; 'n maan reis saam met sy planeet'); die Aarde se wentelbaan en 'n jaar; die Maan is 'n bal rots sonder lug, kleiner as die Aarde; kraters; die Maan maak nie sy eie lig nie; die fases.",
+  "hoe_om_daarop_te_bou": "Roep terug in een sin en gaan dan verder. Moenie die nege-planete-storie, die fases of die Maan se lugloosheid weer leer nie. NUUT vir Graad 6: rotsagtige teenoor gasplanete, groottes, mane per planeet, dwergplanete as 'n soort, die asteroïdegordel, verskillende wentel-tye, die woord 'weerkaats', die Maan se hitte, en ligte en donker gebiede.",
+  "graad_5": "Graad 5 het geen ruimte-inhoud nie."
+ },
+ "woordgebruik": "Gebruik 'wentel om' of 'beweeg om' vir die reis om die Son of om 'n planeet. Moenie 'draai' daarvoor gebruik nie: jaarlesse 24 en 25 gebruik 'draai' vir rotasie en moet die twee bewegings uitmekaar hou. Hoofletters soos KABV: Son, Maan (ons s'n), Aarde; 'n ander planeet se maan en die meervoud 'mane' met 'n kleinletter.",
+ "buite_bestek": "Swaartekrag (KABV Graad 6 vra dit nie); Saturnus se ringe (as dit tog genoem word: al vier gasplanete het ringe, nie net Saturnus nie); komete; hoe kraters ontstaan; die fases en die Maan se wentel- en draaitye (Graad 4 en jaarles 25); teleskope en ruimtetuie (jaarles 26); presiese afstande, groottes en maangetalle (KABV se eie voetnote).",
+ "geen_vrae": "Geen vrae in die lesse nie. Die model van die Sonnestelsel en die inligtingsoek oor planete is praktiese werk vir die onderwyser en uitlegspan; ons teks gee die kennis wat so 'n model toets: volgorde, soort en relatiewe grootte.",
+ "lesse": [
+  {
+   "nommer": 1,
+   "jaarnommer": 22,
+   "titel": "Die Son se agt planete en hul bure",
+   "titel_nota": "Die leerder se opskrif, nie KABV se etiket nie. Die skrywer mag dit verbeter.",
+   "kaps_punt": "Die Son, planeete en asteroïdes - die Son ('n ster) is in die middel van ons Sonnestelsel; daar is agt planeete (Mercurius, Venus, Aarde, Mars, Jupiter, Saturnus, Uranus en Neptunus), dwergplaneete (soos Pluto) en die asteroïde-gordel in 'n baan om die Son; elke planeet het sy eie -- kenmerke, grootte, baan en posisie met betrekking tot die Son, samestelling (rotsagtig en gas planeete) en mane (sommige het geen mane); die planeete en Asteroïdes neem verskillende tye om om die Son te wentel",
+   "kaps_assessering": "Beskryf voorwerpe in ons Sonnestelsel (planete, Maan, die Son, asteroïdes).",
+   "begroting": 550,
+   "begrotingsnota": "Agt kern-inskrywings teen ongeveer 65 woorde elk, plus 'n lys van agt name wat min woorde kos. Dit is die volste les in die kwartaal: KABV noem agt planete, dwergplanete, die gordel, en vyf eienskappe per planeet. Dit pas op die plafon omdat KABV se voetnoot getalle uitdruklik NIE vereis nie, dus word elke eienskap as 'n vergelyking gegee en nie as syfers nie. Geen verdeling aanbeveel nie. As 'n konsep nie onder 550 kan kom sonder om 'n kern-item te laat val nie, gaan dit na Drico toe as 'n verdelingsvraag en word nie gesnoei nie.",
+   "kern": [
+    "Die Son is 'n ster in die middel van die Sonnestelsel, en alles in die Sonnestelsel wentel om die Son. Graad 4 het dit geleer: roep terug in hoogstens twee sinne, en gebruik die omskrywings van 'ster' en 'Sonnestelsel' uit voorgestelde_bewoordings.",
+    "Die agt planete, by name en in volgorde vanaf die Son, as 'n lys-blok: Mercurius, Venus, Aarde, Mars, Jupiter, Saturnus, Uranus, Neptunus. Een sin dat elke planeet sy eie wentelbaan het; gebruik die gedeelde omskrywing van 'wentelbaan' woord vir woord.",
+    "(Herskryf 22 September 2026 na feitenasien.) Rotsagtige planete teenoor gasplanete (KABV se samestelling). Die vier naaste aan die Son (Mercurius tot Mars) is rotsagtig: hulle het 'n harde oppervlak van rots. Die vier verder weg (Jupiter tot Neptunus) is gasplanete (KABV se naam bly): al vier het 'n baie dik buitenste laag gas en geen harde oppervlak om op te staan nie. As die les die twee pare onderskei, doen dit volgens WAARVAN hulle gemaak is: Jupiter en Saturnus meestal van waterstof en helium (soos die Son), Uranus en Neptunus meer van water en ander stowwe. NIE gas teenoor vloeistof nie - diep binne Jupiter en Saturnus word die waterstof ook tot 'n vloeistof saamgedruk (derde feitenasien 22 September 2026). Moenie se al vier bestaan meestal uit gas nie.",
+    "Grootte, as vergelyking en sonder syfers: Jupiter is die grootste planeet en Mercurius die kleinste; elke gasplaneet is baie groter as enige rotsagtige planeet; die Aarde is die grootste van die rotsagtige planete; die Son is baie groter as al die planete.",
+    "Posisie en wentel-tyd (KABV se laaste punt): hoe verder 'n planeet van die Son af is, hoe langer is sy pad en hoe langer neem dit om een keer om die Son te wentel. Die Aarde neem een jaar. Hoogstens twee voorbeelde aan die twee punte, altyd met 'omtrent' of 'meer as': Mercurius omtrent drie maande, Neptunus meer as 160 van ons jare. KABV se voetnoot: getalle word nie gememoriseer nie.",
+    "Temperatuur as kenmerk, in hoogstens twee sinne: die planete ver van die Son af is baie koud. Maar Venus, nie Mercurius nie, is die warmste planeet, want sy dik lug hou die hitte vas. Dit keer die valse gevolgtrekking 'hoe nader aan die Son, hoe warmer' wat leerders anders self maak.",
+    "Mane: 'n maan wentel om 'n planeet (gebruik die voorgestelde omskrywing van 'maan'). Mercurius en Venus het geen mane nie; die Aarde het een; die gasplanete het elkeen baie mane, en wetenskaplikes vind nog steeds nuwes. GEEN ander getal nie.",
+    "(Herskryf 22 September 2026 na feitenasien.) Dwergplanete en die asteroidegordel. 'n Dwergplaneet soos Pluto is rond en wentel op sy eie om die Son, maar is te lig om in beheer van sy eie pad te wees: baie klein ys-wereldjies beweeg steeds in sy deel van die ruimte. 'n Planeet is swaar genoeg om sy pad skoon te hou of ander groot dinge daar in toom te hou. Die toets is swaar genoeg wees, nie 'n bepaalde grootte nie. Moenie Mercurius as 'klein soos Pluto' voorstel nie: Mercurius is die kleinste planeet, maar omtrent twee keer so breed en 25 keer so swaar as Pluto (tweede feitenasien 22 September 2026). Moenie Neptunus se pad as die rede gee nie. Asteroides is stukke rots en metaal, baie kleiner as 'n planeet, wat ook om die Son wentel. Die meeste is in die asteroidegordel tussen Mars en Jupiter, wat die rotsagtige planete van die gasplanete skei. Daardie asteroides neem langer as Mars en korter as Jupiter om die Son te wentel."
+   ],
+   "feiterisiko": [
+    "(Herskryf 22 September 2026 na feitenasien.) PLANEETGETAL: agt. Pluto is sedert 2006 'n dwergplaneet. Die rede is dat Pluto te lig is om in beheer van sy eie pad te wees - nie 'n vaste grootte-grens nie - maar moenie Mercurius en Pluto as ewe klein voorstel nie; Mercurius is baie groter en swaarder, en nie dat Neptunus se pad Pluto s'n kruis nie (dan sou Neptunus ook uitval). Pluto en Neptunus kom nooit naby mekaar nie; moenie se hulle kan bots nie.",
+    "MAANGETALLE verander met nuwe ontdekkings (KABV se eie voetnoot). Net drie getalle is veilig: Mercurius 0, Venus 0, Aarde 1. Moenie sê watter planeet die meeste mane het nie en moenie 'n getal vir 'n gasplaneet gee nie.",
+    "(Herskryf 22 September 2026 na feitenasien.) GASPLANETE: moenie se hulle is 'net gas' nie, en moenie Jupiter en Saturnus 'gas' teenoor Uranus en Neptunus 'vloeistof' stel nie - al vier word binne vloeistof. Uranus en Neptunus is binne meestal 'n warm digte vloeistof. Wat van al vier waar is: 'n baie dik buitenste laag gas en geen harde oppervlak nie. Moenie 'ysreuse' invoer nie; ry met KABV se naam 'gasplanete'.",
+    "ASTEROÏDEGORDEL: tussen Mars en Jupiter. Moenie sê ALLE asteroïdes is in die gordel nie ('die meeste'). Moenie die gordel as 'n digte muur van rotse beskryf nie: dit is meestal leë ruimte en die rotse is ver uit mekaar. Moenie sê dit is die oorblyfsels van 'n ontplofte planeet nie.",
+    "DWERGPLANETE: moenie sê Pluto is die enigste dwergplaneet nie, en moenie sê hulle is almal verder as Neptunus nie. Pluto se pad lê meestal verder as Neptunus s'n, maar gaan vir 'n deel binne Neptunus s'n in; as 'n posisie gegee word, gebruik 'meestal' of sê net 'ver buite'.",
+    "TEMPERATUUR: Venus is die warmste planeet, nie Mercurius nie. Moenie 'hoe nader aan die Son, hoe warmer' as reël stel nie.",
+    "WENTEL-TYD: 'hoe verder, hoe langer' is waar vir al agt planete. Mercurius omtrent 88 dae (dus 'omtrent drie maande', nie 'presies' nie); Neptunus omtrent 165 jaar.",
+    "LEWE: as dit hoegenaamd genoem word, 'die enigste planeet waar ons weet daar is lewe', nooit 'die enigste planeet met lewe' nie.",
+    "Moenie 'draai' vir wentel gebruik nie (sien woordgebruik); jaarlesse 24 en 25 skei rotasie en wentel."
+   ],
+   "aanvulling": [],
+   "moeilike_konsepte": [],
+   "moeilike_konsepte_nota": "Geen. Alles hier kan konkreet gestel word: 'n volgorde, 'n vergelyking van grootte, 'n langer pad wat langer neem. Die video dra die aanskoulikheid.",
+   "termdig": true,
+   "termdig_nota": "Beplan vir ses tot agt begrip-inskrywings uit: Sonnestelsel, planeet, wentelbaan (gedeel, woord vir woord), gasplaneet, rotsagtige planeet, maan, dwergplaneet, asteroïde, asteroïdegordel. Die gedeelde en voorgestelde bewoordings word woord vir woord gebruik sodra hulle besluit is.",
+   "fokusvraag_skakel": "Lewer die eerste twee dele: wat om die Son wentel (agt planete, hul mane, dwergplanete soos Pluto en die asteroïdes in hul gordel), en hoe die planete van mekaar verskil in soort, grootte, posisie, temperatuur, mane en wentel-tyd."
+  },
+  {
+   "nommer": 2,
+   "jaarnommer": 23,
+   "titel": "Die Maan skyn met die Son se lig",
+   "titel_nota": "Die opskrif dra die les se regstelling. Die skrywer mag dit verbeter, maar nie na 'Maan' terugval nie.",
+   "kaps_punt": "Maan - mane, insluitend ons Maan gee hulle eie hitte en lig af; ons Maan kan gesien word vanaf die Aarde, omdat die lig van die Son op sy oppervlak skyn; op die Maan kan ons kraters sien, ligter gebiede wat berge is, en donkerder areas wat plat vlaktes is",
+   "kaps_punt_nota": "KABV-FOUT IN DIE EERSTE PUNT, EN DIE LES STEL DIE MEGANISME REG: mane gee NIE hulle eie lig af nie; ons sien hulle omdat hulle die Son se lig weerkaats. KABV se eie tweede punt weerspreek die eerste. Die 'hitte'-helfte is dieselfde fout: die Maan se oppervlak word deur die Son warm gemaak. Die les leer die regte meganisme en noem of haal nie die fout aan nie.",
+   "kaps_assessering": "Beskryf voorwerpe in ons Sonnestelsel (Maan); identifiseer die essensiële verskille tussen die Aarde, Son en die Maan (jaarles 25 se tabel vra 'vermoë om lig te produseer').",
+   "begroting": 250,
+   "begrotingsnota": "Vier kern-inskrywings teen ongeveer 60 woorde elk. Klein, want Graad 4 het die Maan se oppervlak, sy lugloosheid, kraters en dat hy nie self lig maak nie, reeds geleer; KABV se drie punte voeg hier net die meganisme, die hitte en die ligte en donker gebiede by.",
+   "vloer_uitsondering": "Drico se beslissing, 22 September 2026: 'n doelbewus baie kort les met die minimum woorde. KABV-ry 30 het drie kort punte, waarvan Graad 4 die meeste reeds geleer het. Opblaas tot 450 sou vulsel wees, en vulsel is waar versinde bewerings vandaan kom.",
+   "kern": [
+    "REGSTELLING VAN KABV, EERSTE: 'n maan maak nie sy eie lig nie. Die Son is 'n ster en maak self lig; ons Maan en die mane van ander planete word net gesien omdat die Son se lig op hulle val en daarvan af terugbons. Die woord daarvoor is 'weerkaats' (begrip-inskrywing). Graad 4 het gesê die Maan maak nie sy eie lig nie: roep dit terug en voeg die woord en die reël vir alle mane by. Moenie KABV se fout noem of aanhaal nie.",
+    "Hoekom ons die Maan van die Aarde af sien: sonlig val op die Maan se oppervlak en word na ons oë toe weerkaats. Maak dit konkreet met 'n alledaagse voorbeeld van iets wat nie self skyn nie maar gesien word omdat lig daarop val (soos 'n muur in 'n flitslig se lig), sonder om die Maan 'n spieël te noem. Hoogstens een bysin oor die fases; Graad 4 het hulle geleer.",
+    "REGSTELLING VAN KABV, TWEEDE: die Maan se hitte kom ook van die Son af. Die kant waarop die Son skyn, word baie warm, en die kant in die donker word baie koud. Hou dit by ons Maan; sê niks oor ander mane se hitte nie.",
+    "Wat ons op die Maan kan sien: kraters (gebruik Graad 4 se afgelewerde omskrywing van 'krater' woord vir woord: 'n Ronde holte in die grond met 'n rand rondom.), ligter gebiede wat berge is, en donkerder gebiede wat plat vlaktes is. Met die blote oog sien 'n mens die ligte en donker kolle; met 'n verkyker sien 'n mens baie kraters."
+   ],
+   "feiterisiko": [
+    "Die les se reël is: ons sien 'n maan omdat dit die Son se lig weerkaats, en 'n maan skyn nie soos 'n ster nie. Moenie dit uitbrei na 'geen maan gee ooit enige lig of hitte af nie': party mane het warm binnekante (Jupiter se maan Io het vulkane). Moenie oor ander mane se hitte skryf nie.",
+    "Die Maan is nie 'n spieël nie en is nie wit nie: sy oppervlak is donkergrys rots wat net 'n klein deel van die sonlig terugstuur, en lyk helder omdat die lug rondom swart is. Moenie sê die Maan 'weerkaats al die lig' of 'is baie blink' nie.",
+    "Die donker vlaktes is droog; daar is geen water in nie. Moenie hulle 'seë' noem nie.",
+    "Moenie 'die donker kant van die Maan' vir die agterkant gebruik nie; die agterkant kry ook sonlig. 'Die kant in die donker' beteken net die helfte waarop die Son op daardie oomblik nie skyn nie.",
+    "Die Maan se hitte: se net dat die sonkant baie warm en die donker kant baie koud word; geen getalle nodig nie. (Herskryf 22 September 2026 na feitenasien.) 'Warmer as kookwater' net waar die Son hoog staan, en 'kouer as 'n vrieskas by die huis' - NIE 'enige vrieskas' nie (laboratoriumvrieskaste is kouer as die Maan se nag by sy middel).",
+    "Geen wentel- of draaitye, en geen verduideliking van die fases nie (Graad 4 en jaarles 25)."
+   ],
+   "aanvulling": [],
+   "moeilike_konsepte": [],
+   "moeilike_konsepte_nota": "Geen. Weerkaatsing is konkreet: 'n muur in 'n flitslig se lig.",
+   "termdig": false,
+   "termdig_nota": "Twee of drie begrip-inskrywings: 'weerkaats', 'maan' (woord vir woord soos in jaarles 22), 'krater' (Graad 4 se afgelewerde bewoording). 'ster' mag herhaal word as die les dit nodig het, woord vir woord.",
+   "fokusvraag_skakel": "Lewer die derde deel: 'n maan maak nie self lig nie, dus sien ons die Maan net omdat dit die Son se lig weerkaats, en in daardie lig sien ons sy kraters, ligte berge en donker vlaktes."
+  }
+ ],
+ "voorgestelde_bewoordings_status": "OORTREF 22 September 2026: hierdie voorstelle is versoen en die gekose bewoordings staan in kaps/gedeelde-omskrywings-natuurwetenskappe-gr6.json. Waar hulle verskil, WEN DIE GEDEELDE LYS. Gebruik die veld hieronder net om te sien waarom 'n term oorweeg is.",
+ "voorgestelde_bewoordings": {
+  "planeet": {
+   "omskrywing": "'n Groot ronde wêreld wat op sy eie om 'n ster beweeg, en geen ander groot wêreld beweeg op sy eie op sy pad nie.",
+   "rede": "Graad 4 het twee bewoordings gehad ('loop'/'beweeg'); 'beweeg' pas by die gedeelde 'wentelbaan'. Graad 4 se woordelys-inskrywing laat Pluto deur (Pluto is groot, rond en beweeg op sy eie om die Son); die toets wat Pluto uithou, het net in die studieteks gestaan. Graad 6 KABV stel planete en dwergplanete langs mekaar, en 'n inskrywing word alleen gelees, dus kom die toets in die omskrywing self. Dit is dieselfde toets wat Graad 4 geleer het, met die beskermde woorde 'groot' en 'op sy eie'. Die tweede 'op sy eie' is nodig: sonder dit val die Aarde self die toets, want die Maan is 'n groot wêreld op die Aarde se pad. Dit is 22 woorde, ver bo die gewone 8-12; elke korter vorm wat getoets is, laat Pluto of die Aarde verkeerd deur. Oorweeg dit as 'n rede om Graad 4 se korter bewoording te hou en die toets in die studieteks te laat, soos Graad 4 gedoen het."
+  },
+  "dwergplaneet": {
+   "omskrywing": "'n Ronde wêreld wat op sy eie om die Son beweeg, maar geen planeet nie.",
+   "rede": "Graad 4 se afgelewerde bewoording, net 'loop' na 'beweeg' (soos die gedeelde 'wentelbaan'). 'n Positiewe vorm ('deel sy pad met ander wêrelde') is probeer en verwerp: alleen gelees pas dit ook die Aarde, wie se pad deur asteroïdes gekruis word. Die onderskeid staan in 'planeet'."
+  },
+  "Sonnestelsel": {
+   "omskrywing": "Die Son saam met alles wat om hom beweeg.",
+   "rede": "Graad 4 se afgelewerde bewoording, net met 'Son' in 'n hoofletter soos KABV Graad 6 dit skryf. Dieselfde betekenis."
+  },
+  "ster": {
+   "omskrywing": "'n Baie groot bal warm gas wat sy eie lig maak.",
+   "rede": "Graad 4 het twee bewoordings gehad. 'sy eie lig maak' is die helfte wat jaarles 23 se regstelling dra (die Son maak lig, 'n maan nie), en jaarles 25 se tabel vergelyk juis die 'vermoë om lig te produseer'."
+  },
+  "maan": {
+   "omskrywing": "'n Wêreld wat om 'n groter wêreld, soos 'n planeet, beweeg en saam met hom om die Son reis.",
+   "rede": "Nuut, en in jaarlesse 22, 23 en 25. 'Soos 'n planeet' omdat dwergplanete en asteroïdes ook mane het. 'Saam met hom om die Son' hou 'n planeet self uit die omskrywing en stem ooreen met Graad 4 se ''n maan reis saam met sy planeet'."
+  },
+  "weerkaats": {
+   "omskrywing": "Wanneer lig op iets val en daarvan af terugbons.",
+   "rede": "Nuut in jaarles 23; jaarles 26 (teleskope met spieëls) sal dit waarskynlik ook gebruik."
+  },
+  "asteroïde": {
+   "omskrywing": "'n Stuk rots of metaal wat om die Son beweeg en baie kleiner as 'n planeet is.",
+   "rede": "Nuut. 'rots of metaal' omdat party asteroïdes meestal metaal is."
+  }
+ }
+}

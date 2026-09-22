@@ -93,7 +93,7 @@
 - [Recording a finding at source is not fixing it](n-bevinding-by-die-bron-opteken-is-nie-dit-regmaak-nie.md) — I wrote two contradicted claims into the spec as guards, felt done, and left the draft still saying the false thing; fix at source AND dispatch, in the same breath.
 - [Three ways to fix a claim](drie-maniere-om-n-bewering-reg-te-maak.md) — Drico: we NEVER keep a false claim; narrow the quantifier, cut it, or teach the mechanism, in that order of preference.
 - [When CAPS itself is wrong](wanneer-kaps-self-verkeerd-is.md) — seven errors found so far; ride with CAPS on a NAME, correct it on a MECHANISM the learner will reason with.
-- [Gr 5 NWT: where we are](gr5-nwt-waar-ons-is.md) — 29 lessons drafted and gating in band, ~130 errors fixed, checks converging; run the drift sweep after every wording change.
+- [Gr 5 NWT: where we are](gr5-nwt-waar-ons-is.md) — all 29 signed off 18 Sep 2026 and pushed; Drico's rulings of that day listed; one open shared term ('as').
 - [Bones placed the way they lie in a human](mensgesentreerde-orientasie.md) — three times in one sub-topic, in a lesson whose own examples are a dog and a lizard; state the position neutrally, and never narrow the animal instead.
 - [The provenance note grows into its own blocker](die-herkoms-nota-groei-tot-sy-eie-blokkasie.md) — 55 KB on one line stopped a writer dead; split it with bin/herkomsargief.py, and never fix it by asking writers to record less.
 - [The fact checker reads a stale draft](die-feitenasiener-lees-n-verouderde-konsep.md) — its stripped copy is only rewritten by a runner call, so two of four findings were about text corrected the evening before; the refresh script now covers it.
@@ -105,3 +105,5 @@
 - [A withdrawn decision keeps standing in capitals](n-teruggetrekte-beslissing-bly-in-hoofletters-staan.md) — when a ruling is reversed, sweep for the old RULING, not the old error; the late-corrections checker is blind to it.
 - [The corrected instruction keeps standing in the field](die-korrigeerde-opdrag-bly-in-die-veld-staan.md) — nine times in one day; amend the ordering field's opening line FIRST, then sweep the old form's words, then run the checker.
 - [Gr 5 Creative Arts](gr5-skeppende-kunste.md) — 8 lessons 22 Sep 2026; Grade 5 corrected four Grade 4 wordings; Grade 4 reprint question open.
+- [PDFs are checked on creation](pdf-word-by-skepping-nagegaan.md) — Drico: never text over text; overlap and raw-code boxes now refuse the PDF; 14 broken Life Skills copies were rebuilt.
+- [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — 25/26 signed off 22 Sep 2026; lesson 25 waits on Drico (28 days vs 27.3); planet/oxygen wordings changed after fact checks.

@@ -1,0 +1,186 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.2",
+  "les": "Wat elektrisiteit kos, en waar dit onveilig word",
+  "kaps_punt": "elektrisiteit is duur omdat: dit infrastruktuur vereis, insluitende steenkoolmyne, vervoer, kragstasies, kabels, substasies, bedrading; sommige elektriese toestelle vereis meer elektrisiteit as ander (verhittings toestelle gebruik die meeste); hoe meer elektrisiteit ons gebruik, hoe meer betaal ons en hoe meer steenkool word gebruik; ons kan energie bespaar op baie maniere, insluitend die gebruik van energiebesparende gloeilampe en sonkrag waterverwarmers; onwettige elektriese verbindings is 'n gevaar vir mense, want hulle is dikwels onveilig",
+  "verdict": "MENS_NODIG",
+  "items": [
+    {
+      "bewering": "Treine, trokke of lang vervoerbande bring die steenkool na die kragstasies.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Medupi Power Station (5,4 km oorlandse vervoerband van Grootegeluk-myn); Wikipedia, Majuba Power Station (steenkool per spoor en per pad met trokke)."
+    },
+    {
+      "bewering": "Daar brand die steenkool en groot masjiene maak elektrisiteit.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Electricity sector in South Africa ('Most of this electricity is produced using coal'); vereenvoudiging van ketel-turbine-generator is aanvaarbaar vir Gr 6."
+    },
+    {
+      "bewering": "Dik kabels hang meestal aan hoë kragmaste en dra die elektrisiteit ver oor die land na substasies.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Electric power transmission ('Power is usually transmitted through overhead power lines'; transmissie eindig by substasies wat die spanning verlaag)."
+    },
+    {
+      "bewering": "Al hierdie geboue, masjiene en drade noem ons infrastruktuur. ... Dit alles kos baie geld en is die eerste rede waarom elektrisiteit duur is.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Infrastructure (sluit elektriese netwerke en paaie in). 'Eerste rede' is 'n lysvolgorde, nie 'n rangorde-bewering nie."
+    },
+    {
+      "bewering": "Dit vra baie energie om iets warm te maak, veral water. Dit vra baie meer energie as om lig of klank te maak.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Specific heat capacity ('Liquid water has one of the highest specific heat capacities among common substances'); ketel 2-3 kW (Wikipedia, Electric kettle) teenoor 'n klein batteryradio (Wikipedia, Transistor radio: loop op 'n klein 9 V-battery)."
+    },
+    {
+      "bewering": "Daarom vra toestelle wat hitte maak die meeste elektrisiteit terwyl hulle aan is. Die ketel en die stoof ... Die verwarmer en die geiser vir badwater is ook sulke toestelle.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Wikipedia, Electric kettle (2-3 kW); Wikipedia, Water heating (tipiese geiser-element 4,5 kW); Eskom elektrisiteitbesparingswenke (ruimteverwarmers tot 17% van die aandpiek). Hou as algemene stelling oor huistoestelle; dit is ook CAPS se eie bewoording. Die bewoording 'terwyl hulle aan is' (tempo, nie totaal nie) is die korrekte versie."
+    },
+    {
+      "bewering": "Die meeste toestelle het 'n etiket wat wys hoeveel elektrisiteit hulle nodig het. Die getal op 'n ketel is baie keer groter as dié op 'n klein radio.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Wikipedia, Nameplate (naamplate gee eienskappe soos drywing); ketel 2-3 kW (Wikipedia, Electric kettle) teenoor 'n batterygedrewe klein radio van enkele watt (Wikipedia, Transistor radio)."
+    },
+    {
+      "bewering": "Die meeste van Suid-Afrika se elektrisiteit kom van kragstasies wat steenkool brand. Hoe meer ons gebruik, hoe meer steenkool moet daardie kragstasies dus brand.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Electricity sector in South Africa (steenkool 58% van opwekking in 2025; 'Most of this electricity is produced using coal'). 'Die meeste' hou; moenie 'n spesifieke persentasie byvoeg nie, want dit daal volgens die IRP."
+    },
+    {
+      "bewering": "Twee dinge bepaal hoeveel 'n toestel altesaam gebruik. Die een is hoeveel dit vra terwyl dit aan is en die ander is hoe lank dit aan is. ... 'n Lig wat die hele nag brand, gebruik meer as dieselfde lig wat jy afskakel wanneer jy gaan slaap.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Energie = drywing x tyd (Wikipedia, Electric kettle en Water heating gee drywing in kW; verbruik word in kWh gemeet). Eskom elektrisiteitbesparingswenke: skakel onnodige ligte af."
+    },
+    {
+      "bewering": "'n Geiser maak hitte en staan boonop dikwels ure lank aan.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Water heating (4,5 kW-element; hitte ontsnap deur die tenkwand en die element skakel weer aan om die water warm te hou). Nota: die element skakel met 'n termostaat aan en af, so 'aan' beteken hier 'aangeskakel', nie 'trek aanhoudend krag' nie; vir Gr 6 aanvaarbaar."
+    },
+    {
+      "bewering": "'n Ou gloeilamp word baie warm, want 'n groot deel van sy energie gaan as hitte weg. 'n Energiebesparende gloeilamp word minder warm en gee dieselfde lig met baie minder elektrisiteit.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Incandescent light bulb (minder as 5% word sigbare lig, die res meestal hitte; 16 lm/W teenoor CFL 60 en LED 100 lm/W). Eskom energiebesparingswenke: vervang gloeilampe met CFL's en LED's."
+    },
+    {
+      "bewering": "'n Ander manier is 'n sonkragwaterverwarmer op die dak. Dit maak die water warm met die Son se hitte. Dan hoef die elektriese geiser minder te doen.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Solar water heating ('A Sun-facing collector heats a working fluid'; stelsels het tipies 'n elektriese rugsteunelement wat net aanskakel as die water te koud is). Die sin 'hoef minder te doen' pas presies by die rugsteun-opset."
+    },
+    {
+      "bewering": "Skakel ligte en toestelle af wanneer niemand hulle gebruik nie. Kook net soveel water in die ketel as wat jy nodig het.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom, Electricity saving tips (eskom.co.za/distribution/customer-service/energy-saving-smart-energy/electricity-saving-tips/): 'Boil enough water only for the number of cups...'; 'switch off unnecessary lights'."
+    },
+    {
+      "bewering": "Soms word drade sonder toestemming van die verskaffer van elektrisiteit aan kraglyne gekoppel. ... So 'n draad noem ons 'n onwettige verbinding.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom, Public safety (eskom.co.za/distribution/customer-service/public-safety/): 'An electricity connection is considered illegal when it is made to the Eskom network without Eskom's permission.'"
+    },
+    {
+      "bewering": "Soms word hulle aan iemand anders se toevoer gekoppel. (ook begrip: '... of aan iemand anders se toevoer gekoppel is')",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "onseker",
+      "tipe": "algemeen",
+      "bron": "Geen bron gevind wat dit uitdruklik noem nie. Eskom se definisie praat net van 'n koppeling aan die Eskom-netwerk sonder toestemming. Waarskynlik korrek (munisipale verordeninge verbied die uitbreiding of deurverkoop van 'n toevoer sonder toestemming), maar ek kon nie 'n Suid-Afrikaanse bron bereik nie - die sessie se soekkwota was uitgeput. 'n Mens moet dit teen 'n munisipale of Eskom-bron bevestig, of die sin sny (die res van die blok staan sonder dit)."
+    },
+    {
+      "bewering": "Sulke drade is dikwels kaal of swak toegedraai. Party lê op die grond of in water en ander hang laag oor paadjies.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "onseker",
+      "tipe": "algemeen",
+      "bron": "Gedeeltelik gestaaf: Eskom, Public safety - 'usually unsafely constructed', 'carelessly laid (and totally unsafe) cables', 'These connections lie across pathways and walkways'. Nie gestaaf nie: 'kaal', 'in water' en 'hang laag'. Hierdie besonderhede is waarskynlik waar, maar geen bron wat ek kon bereik noem hulle nie (soekkwota uitgeput). Veilige vorm wat die bron wel dra: drade is dikwels swak en onveilig gemaak, en party lê oor paadjies waar enigiemand daaraan kan raak."
+    },
+    {
+      "bewering": "Dikwels is daar ook niks wat die elektrisiteit afskakel as iets verkeerd loop nie.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom, Public safety: 'such connections are usually unsafely constructed and don't have the required electrical protection.'"
+    },
+    {
+      "bewering": "So 'n draad kan iemand doodskok wat net daaraan raak, ook 'n kind wat niks daarmee te doen gehad het nie. Dit kan ook brande begin.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom, Public safety: 'it is often children who are electrocuted when they unwittingly touch carelessly laid ... cables'. Brande: Eskom, Electricity theft and vandalism ('... cause damage to homes if a fire should break out'); Wikipedia, Electricity theft ('It can cause severe electric shock or fire outbreak')."
+    },
+    {
+      "bewering": "Moenie so 'n draad aanraak nie. Bly ver weg en sê dadelik vir 'n grootmens.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom, Public safety: leer kinders oor onwettige verbindings en rapporteer dit eerder as om dit te hanteer."
+    },
+    {
+      "bewering": "infrastruktuur: Al die geboue, masjiene, paaie en drade wat nodig is om dienste soos elektrisiteit te lewer.",
+      "blok": "infrastruktuur",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Infrastructure ('physical structures such as roads, railways, ... electrical grids')."
+    },
+    {
+      "bewering": "substasie: 'n Plek met groot toestelle wat die elektrisiteit se stoot of pad verander.",
+      "blok": "substasie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Electrical substation ('transform voltage from high to low, or the reverse'; 'connecting and disconnecting of transmission lines'). 'Stoot' vir spanning en 'pad' vir skakeling karteer korrek."
+    },
+    {
+      "bewering": "toestel: Iets wat die energie wat elektrisiteit bring, gebruik om lig, klank, beweging of hitte te gee.",
+      "blok": "toestel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Electric kettle (hitte), Incandescent light bulb (lig en hitte): elektriese toestelle skakel elektriese energie om na lig, klank, beweging of hitte. Aanvaarbaar as definisie van 'n elektriese toestel in hierdie konteks."
+    },
+    {
+      "bewering": "energiebesparende gloeilamp: 'n Lamp wat dieselfde lig gee met baie minder elektrisiteit as 'n ou gloeilamp.",
+      "blok": "energiebesparende gloeilamp",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Incandescent light bulb (16 lm/W teenoor CFL 60 en LED 100 lm/W)."
+    },
+    {
+      "bewering": "sonkragwaterverwarmer: 'n Stelsel wat die Son se hitte gebruik om water warm te maak.",
+      "blok": "sonkragwaterverwarmer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, Solar water heating."
+    },
+    {
+      "bewering": "onwettige verbinding: 'n Draad wat sonder toestemming aan kraglyne ... gekoppel is.",
+      "blok": "onwettige verbinding",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom, Public safety (koppeling sonder Eskom se toestemming). Die 'iemand anders se toevoer'-helfte deel die onseker-item hierbo in die studieblok."
+    }
+  ],
+  "opsomming": "Al die meganismes, die superlatief oor verhittingstoestelle en die steenkool-aandeel hou, maar twee besonderhede in die blok oor onwettige verbindings kon nie gestaaf word nie (drade wat 'kaal', 'in water' of 'laag' hang, en koppeling aan 'iemand anders se toevoer') omdat die soekkwota uitgeput was - 'n mens moet dit bevestig of die besonderhede sny."
+}
