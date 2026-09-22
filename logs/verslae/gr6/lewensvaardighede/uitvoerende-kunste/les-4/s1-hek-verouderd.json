@@ -1,0 +1,37 @@
+{
+  "verdict": "FAIL",
+  "titel": "Patrone in 'n seremonie",
+  "graad": 6,
+  "vak": "Lewensvaardighede",
+  "budget": 400,
+  "checked_at": "2026-09-22T11:12:27+00:00",
+  "study": {
+    "words": 475,
+    "sentences": 43,
+    "mean_sentence_len": 11.0,
+    "median_sentence_len": 11,
+    "longest_sentence": 17,
+    "mean_syllables": 1.56,
+    "pct_polysyllabic": 13.5,
+    "pct_long_words": 2.3,
+    "commas_per_sentence": 0.19
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 7,
+    "begrip": 6
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text 475 words, above budget ceiling 460 (target 400) — learners will revise the textbook instead"
+  ],
+  "warnings": [
+    "Study text: syllables per word 1.56 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Study text: 3+ syllable words 13.5% above maximum 13.0%  [marginal — within tolerance, not blocking]",
+    "Long words in study text with no 'begrip' entry: byvoorbeeld, geleentheid, gradeplegtighede, hoofoomblik, prysuitdeling, verjaardagpartytjies"
+  ],
+  "notes": [
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

@@ -195,3 +195,19 @@ thing for them to do is report it — which costs a round every time. Marking th
 `[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE]` ends it.
 
 The tell: you amended an opening line today and did not touch anything below it.
+
+**22 September 2026: I did this at least five times in one day while holding this note.**
+Every one was caught by a coverage checker, never by my own sweeps — because I sweep
+for the old WORDING and the kern field usually phrases the same order differently.
+
+A sub-shape worth naming, because it is invisible to a wording sweep. When I write the
+correction into a kern field as a dated record, **the record itself can keep granting
+permission**. The airship field read "DIE DERDE SIN IS OP SIGSELF REG en mag bly ...
+die amptelike ondersoek het die brandende mengsel TUSSEN die gasselle en die bedekking
+geplaas" — that is a record sentence that also licenses the exact claim a later check
+withdrew. The words "reg", "mag bly" and a cited source read as an instruction however
+far down the field they sit.
+
+**So: after correcting a kern field, re-read the whole field as a writer would and ask
+what it PERMITS, not only what it orders.** A permission is an order to the next
+reviser looking for room.

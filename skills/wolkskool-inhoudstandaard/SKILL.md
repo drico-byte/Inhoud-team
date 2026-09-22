@@ -411,6 +411,23 @@ inflate.
 Grade 4 is also the first year learners write exams, which is Drico's own reason for
 the ceiling: what a nine-year-old is expected to study is small.
 
+**The ceiling holds the MEASURED lesson too, not only the budget — decided by Drico,
+22 September 2026.** The band clamps the budget, and the gate then allows the budget plus
+15%, so a 450-word budget passes at 517. Twelve delivered or near-delivered Gr 4 Sosiale
+Wetenskappe lessons sat between 452 and 497 that way, every one of them inside its own
+budget and tolerance. Put to Drico with the cost stated — six already had PDFs out, and two
+had to lose 47 and 42 words from text a coverage checker had found nothing surplus in — he
+chose to cut all twelve rather than let the ceiling mean two different things. **A Grade 4
+lesson's study text is held at 450 words or fewer.**
+
+The gate was NOT changed to fail on it: it reports the overrun as a warning and a person
+acts on it, because a hard failure would reach every Grade 4 subject and that was not the
+decision. What the gate's warning may no longer do is call 450 a *budget* band while
+measuring a *lesson* — the two are now the same number on purpose, and the warning says so.
+
+**Cutting to the ceiling never drops a requirement.** Where a lesson cannot reach 450
+without losing one, that is a person's call and not a writer's: say so and stop.
+
 **One exception to the ceiling, and it must be written down.** Where a CAPS bullet
 names items explicitly, every named item is mandatory and that is not negotiable
 against a word count — transport water lesson 6 owes rafts, canoes and reed boats

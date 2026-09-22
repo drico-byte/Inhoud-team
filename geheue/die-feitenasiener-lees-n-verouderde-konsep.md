@@ -36,3 +36,14 @@ list and refused to write a third wording. Related:
 [[n-verslag-in-die-logboom-kan-verouderd-wees]],
 [[die-uittreksel-het-sy-eie-kruisverwysings-verloor]],
 [[die-ooreengekome-bewoording-kan-self-verkeerd-wees]].
+
+**22 September 2026: eighteen of thirty-one copies in one subject were behind.** One
+whole fact check had to be thrown away — both its findings were about sentences
+corrected hours earlier, and the writer sent to "fix" them correctly refused and
+changed no text. A refresh script exists (`bin/feitekopie.py --alles`) and CLAUDE.md
+says to run it before briefing any fact checker outside the runner; I briefed eleven
+fact checkers by hand that day and ran it once, near the end. **Run it immediately
+before each hand-briefed fact check, not once per session** — every writer round that
+lands between the refresh and the brief puts another copy behind. And if a check is
+already running when the refresh reports its copy was stale, message that agent to
+re-read rather than letting the report land.
