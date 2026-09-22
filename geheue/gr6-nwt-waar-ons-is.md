@@ -1,6 +1,6 @@
 ---
 name: gr6-nwt-waar-ons-is
-description: "Grade 6 NST: 25 of 26 lessons signed off 22 Sep 2026 and pushed; lesson 25 (Moon) waits on Drico to confirm 'ongeveer 28 dae' against a MENS_NODIG fact check."
+description: "Grade 6 NST: all 26 lessons signed off 22 Sep 2026 and pushed; Moon periods 'amper 28 dae' (Drico). Open: Grade 5 karnivoor/herbivoor 'net' vs 'hoofsaaklik' awaits Drico."
 metadata: 
   node_type: memory
   type: project
@@ -13,7 +13,7 @@ metadata:
 23 below by exception). 19 specs approved by me on Drico's say-so. Drift sweep: 26 lessons, 43
 shared terms, no drift ('as' two meanings on purpose).
 
-**25 of 26 signed off and delivered.** Lesson 25 (Die beweging van die Maan) has coverage
+**ALL 26 signed off and delivered (22 Sep 2026).** Lesson 25 resolved: Drico kept 28, worded 'amper 28 dae' (27.3 is almost 28; 'ongeveer' rounded wrong), then it passed. Earlier note, kept for the lesson learnt: Lesson 25 (Die beweging van die Maan) has coverage
 GOEDGEKEUR but fact check MENS_NODIG on one point only: "ongeveer 28 dae" vs the real 27.3.
 Drico chose "28 days, as CAPS" on 22 Sep (with "ongeveer" added by me). keur-goed-na-handnasien
 refuses a MENS_NODIG report, and hand-editing the verdict makes it VERSLAG_ONGELDIG - do not do
