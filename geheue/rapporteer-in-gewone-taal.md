@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 8f79bbfb-d2d6-48c5-804a-7410b16958f5
-  modified: 2026-08-19T06:05:32.188Z
+  modified: 2026-09-16T13:35:34.088Z
 ---
 
 Report only: what I did, in plain sentences; what went wrong and what it means for
@@ -63,4 +63,14 @@ still holds for whatever *does* get reported, and a factual error in a lesson st
 stated plainly. The change is about volume of routine progress reporting, not about
 hiding what went wrong. A post-completion report at the end of a run is still expected —
 he asked for one on 2026-08-24 and called for it to be "short but powerful".
+
+## 2026-09-16: Lampies wants the same, shorter still
+
+Lampies (who now runs this copy, see [[ons-werk-onafhanklik-van-drico]]): "from now on keep
+the text sweet and short, no jargon." Said right after a long seven-point feedback message.
+
+**How to apply:** every rule above applies to Lampies too. Lead with the answer, keep only
+what needs a decision or is a real problem, a few short lines rather than numbered essays.
+No pipeline terms like "spec", "gate", "coverage checker" unless Lampies uses them first —
+say "the lesson plan", "the checks".
 

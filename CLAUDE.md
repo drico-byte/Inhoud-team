@@ -71,6 +71,36 @@ the fact checker gets the lesson alone. **Drico's decision, 9 September 2026.**
 Do not instead ask writers to leave requirements out of their notes. That was tried, it
 did not hold, and it asks them to lose the thing the note exists for.
 
+**"Regenerated on every run" means every run of the runner, and a repair cycle does not
+use the runner.** `hardloop.py` archives a finished report and demands the check again,
+so a second pass over already-checked lessons gets briefed by hand — and then nothing
+rewrites the copy. It goes stale silently and costs in both directions: the checker
+reports faults that were already repaired, and it gives a clean verdict to text nobody
+read. On 19 September 2026 thirty of thirty-two Grade 5 Lewensvaardighede copies were
+behind their drafts and a whole round of fact checks had to be thrown away; two of three
+findings on one lesson were its own corrections, read back.
+
+```bash
+python bin/feitekopie.py --alles konsepte/gr5/lewensvaardighede
+```
+
+**Run that before briefing any fact checker outside the runner.** It prints how many
+copies were behind, which is the number worth seeing — a run that reports none is the
+only one that makes the checks that follow it mean anything.
+
+**The same gap bites at sign-off.** The runner remembers the draft it last saw by
+its hash, so after a hand-briefed repair cycle its first call — even `--keur-goed` —
+decides the fresh reports belong to an older draft, archives them as `-verouderd` and
+demands the checks again. On 21 September 2026 four clean lessons lost their reports
+that way in one command. Sign off a hand-checked lesson with:
+
+```bash
+python bin/keur-goed-na-handnasien.py --vak "<subject>" --graad 5 --subonderwerp "<sub-topic>" --les 2
+```
+
+It refuses unless both reports say GOEDGEKEUR and are newer than the draft, stashes
+them before the runner is called, puts them back, and then signs off.
+
 ## Never write lesson content by hand
 
 Route every content change through the writer agent, including single words.
@@ -255,6 +285,19 @@ agent reads is rewritten only by a runner call, so an edit made and briefed a
 minute later hands the agent the old copy — it will then report, correctly, that
 your fix is not there.
 
+**And fix the spec in `spesifikasies/goedgekeur/`, never in `spek/`.** A writer that
+finds the requirement itself at fault will often fix it — correctly, and for the right
+reason — in the only spec file it was given a path to, which is the extract. That edit
+is deleted by the next refresh without a word, and the refresh is the very next thing
+anyone runs. On 19 September 2026 a Grade 4 impepho correction was lost exactly this
+way, minutes after it was made. When a writer reports fixing the spec, check which file
+it wrote to and port it to the approved spec yourself.
+
+One trap when porting it: a correction note usually **quotes the wording it replaces**,
+so a check that the old wording is gone from the whole field fails on the note's own
+quotation. Assert against the requirement sentence — the text before the dated note —
+not the field.
+
 ## The language checker edits after the fact checker, and nothing re-checks it
 
 This is a real hole, not a caution. The order is: fact check, then the outside
@@ -273,6 +316,18 @@ means force, and `lug` is right when it means air.
 
 Where the checker's version is better and the term is not shared, **the
 repository adopts it**, not the other way round.
+
+## Finished lessons go to `Voltooide lesse/`
+
+**Lampies, 22 September 2026.** Every approved lesson's PDF is also delivered to
+`Voltooide lesse/Graad N/<Vak>/<Subonderwerp>/Les NN - <titel>.pdf`. Sign-off does
+this automatically (`hardloop.py` and `keur-goed-na-handnasien.py` both print a
+`Delivered:` line). The PDF beside the lesson stays the pipeline's copy. To backfill
+or refresh:
+
+```bash
+python bin/voltooide_lesse.py --vak "<subject>" --graad 5 --graad 6
+```
 
 ## Where the rest lives
 

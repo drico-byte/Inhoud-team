@@ -155,10 +155,17 @@ BUDGET_TOLERANCE = 0.15
 # Grade 5 draft on 10 September 2026, 55 words above Drico's ceiling, silently.
 # It warns rather than fails: the band is Drico's planning range from his own
 # count of real lessons, and delivered lessons predate it.
-# GRADE 6 IS BANDED 300-550, DECIDED BY DRICO, 22 September 2026, the same band
-# as Grade 5. Under 300 is an exception to be looked at, not padded; over 550
-# asks for an effective split, not a trim that drops content.
-LESBAND = {4: (350, 450), 5: (300, 550), 6: (300, 550)}
+# GRADE 6 IS BANDED PER SUBJECT, because two rulings were made on the same day
+# about different subjects and the table used to be per grade only.
+#   * Lewensvaardighede: 450-550, decided by Lampies on 21 September 2026 -- one
+#     step up from Grade 5's usual lesson, teaching lessons and reading pieces alike.
+#   * Natuurwetenskappe en Tegnologie: 300-550, decided by Drico on 22 September
+#     2026, the same band as Grade 5 NST. Under 300 is an exception to look at, not
+#     pad; over 550 asks for an effective split, not a trim that drops content.
+# LESBAND is the per-grade default; LESBAND_VAK overrides it for one subject.
+#
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550)}
+LESBAND_VAK = {(6, "natuurwetenskappe-en-tegnologie"): (300, 550)}
 COMMA_MAX = 0.35
 # List items are checked on their own terms rather than as prose.
 LIST_ITEM_GUIDE, LIST_ITEM_MAX = 18, 28
@@ -169,6 +176,13 @@ LIST_ITEM_GUIDE, LIST_ITEM_MAX = 18, 28
 TOLERANCE = 0.06
 LONGWORD_PCT_MAX = 3.0
 LONGWORD_CHARS = 10
+
+
+def _vak_slug(vak):
+    import unicodedata
+    s = unicodedata.normalize("NFKD", vak or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
 def band_for(grade):
@@ -293,7 +307,7 @@ def run(lesson, grade, budget):
     elif sm["words"] > hi:
         fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
     # NB: not named 'band' — that name holds the REGISTER band and is read below.
-    lesband = LESBAND.get(grade)
+    lesband = LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
     if lesband and sm["words"] > lesband[1]:
         warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson band ceiling {lesband[1]} "
                      f"— the budget ({budget}) plus tolerance allows it, but the band does not")

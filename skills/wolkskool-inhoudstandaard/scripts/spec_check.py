@@ -55,12 +55,27 @@ import argparse, json, re, sys
 # photograph does half the teaching, and our text is what a learner revises from
 # alone, so it carries what the picture carried.
 #
+# GRADE 6 IS BANDED PER SUBJECT, because two rulings were made on the same day
+# about different subjects and the table used to be per grade only.
+#   * Lewensvaardighede: 450-550, decided by Lampies on 21 September 2026 -- one
+#     step up from Grade 5's usual lesson, teaching lessons and reading pieces alike.
+#   * Natuurwetenskappe en Tegnologie: 300-550, decided by Drico on 22 September
+#     2026, the same band as Grade 5 NST. Under 300 is an exception to look at, not
+#     pad; over 550 asks for an effective split, not a trim that drops content.
+# LESBAND is the per-grade default; LESBAND_VAK overrides it for one subject.
+#
 # Grades 7-12 stay unbanded until someone decides them the same way, rather than
 # inheriting a number that was reasoned about another grade.
-# GRADE 6 IS BANDED 300-550, DECIDED BY DRICO, 22 September 2026, the same band
-# as Grade 5. Under 300 is an exception to be looked at, not padded; over 550
-# asks for an effective split, not a trim that drops content.
-LESBAND = {4: (350, 450), 5: (300, 550), 6: (300, 550)}
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550)}
+LESBAND_VAK = {(6, "natuurwetenskappe-en-tegnologie"): (300, 550)}
+
+
+def lesband_vir(graad, vak=None):
+    import unicodedata
+    s = unicodedata.normalize("NFKD", vak or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+    return LESBAND_VAK.get((int(graad), s), LESBAND.get(int(graad)))
 
 AANVULLING_MAX_FRACTION = 0.25
 # Aanvulling is capped by budget share, but a spec states items, not words. Two
@@ -221,7 +236,7 @@ def check(spec):
         # as notes while still failing the arithmetic would make the exemption
         # useless -- which it was, until habitatte-van-diere failed with the
         # exemption in place and every band check already downgraded.
-        band = None if (spec.get("band_vrygestel") or "").strip() else LESBAND.get(int(spec["graad"]))
+        band = None if (spec.get("band_vrygestel") or "").strip() else lesband_vir(spec["graad"], spec.get("vak"))
         if band:
             vloer, plafon = band
             expected = max(vloer, min(plafon, rou))
@@ -279,7 +294,7 @@ def check(spec):
     # requirement-based specs -- the ones with no measurement to divide, which is
     # exactly where a number is most easily typed rather than derived -- outside the
     # only rule that constrains them.
-    band_hier = LESBAND.get(int(spec["graad"]))
+    band_hier = lesband_vir(spec["graad"], spec.get("vak"))
     vrygestel = (spec.get("band_vrygestel") or "").strip()
     for L in lesse:
         b = L["begroting"]
