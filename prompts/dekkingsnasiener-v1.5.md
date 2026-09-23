@@ -64,6 +64,18 @@ Same three statuses. Also check it stayed within its justification — if the sp
 justified Robert Fulton as the moment steam power was proven on water, and the
 lesson has drifted into biography, say so.
 
+### When the defect is in the spec, set `spesifikasie_probleem: true`
+
+Spell it exactly that way, at the top level of the report. `verdict_check.derive()`
+reads that one key and nothing else. If every item is `teenwoordig` and the key is
+missing or misspelled, your `MENS_NODIG` derives as `GOEDGEKEUR`, fails validation,
+and the runner never acts on it — silently, because an unknown key is not read. A
+checker lost an escalation this way on 23 September 2026 using `spek_probleem`.
+
+Use it when the lesson is right and the specification is not: a stale order, two
+fields contradicting each other, a withdrawn ruling still reading as live. Name the
+exact fields in `opsomming`.
+
 ### 3. `eli10` blocks — ABOLISHED, never report one as missing
 
 **Drico, 23 September 2026: a lesson may not contain an `eli10` block.** Do not check for
