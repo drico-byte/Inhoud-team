@@ -4,64 +4,72 @@
   "prompt_weergawe": "feitenasiener-v1.2",
   "les": "Stoom trek die trein",
   "kaps_punt": "die stoomenjin en die trein",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "Dink aan 'n pot water wat op die stoof kook. Die stoom lig die deksel op en glip daaronder uit.",
-      "blok": "eli10: Wat 'n stoomenjin is",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Druk = krag / oppervlak: 'n deksel van sowat 200 g oor sowat 300 cm2 lig by minder as 0,1% van lugdruk (dus onder 0,02 psi bo lugdruk), want een atmosfeer is sowat 1 034 g/cm2. 'n Pot of ketel is nie 'n drukvat nie: dit is ongeseeld en die water kook by heersende lugdruk terwyl die stoom uitgaan (https://www.explainthatstuff.com/how-electric-kettles-work.html; berekening bevestig teen https://hypertextbook.com/facts/2008/IslamSoliman.shtml). Die alledaagse waarneming - deksel lig, stoom glip daaronder uit - is korrek en die pot se stoom bly in praktyk by lugdruk, wat presies is wat die blok se vergelyking nodig het."
-    },
-    {
-      "bewering": "'n Enjin se ketel is toe en sy wande is sterk.",
-      "blok": "eli10: Wat 'n stoomenjin is",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Boiler ('A boiler is a closed vessel in which fluid (generally water) is heated') en https://en.wikipedia.org/wiki/Steam_locomotive (vuurkas, ketelvat, rookkas; 'maximum working pressure is limited by spring-loaded safety valves'). Wandsterkte: National Board of Boiler and Pressure Vessel Inspectors, https://www.nationalboard.org/index.aspx?pageID=164&ID=218 - geklinkte silindriese ketelkoerse van laekoolstofstaal, plate van 3/8 tot 9/16 duim, en honderde skroefstutte in die vuurkas 'to prevent their bulging under the enormous pressure'; vgl. 49 CFR 230 (https://www.ecfr.gov/current/title-49/subtitle-B/chapter-II/part-230/subpart-B), waar die toelaatbare spanning op 'n kwart van die treksterkte beperk word. 'Toe' is die standaardbeskrywing van 'n ketel en is waar teenoor 'n deksel wat lig; let daarop dat 'n ketel nie absoluut geseel is nie - stoom gaan onder beheer deur die reguleerder uit en die veiligheidsventiel lig by die werksdruk. Binne hierdie blok se kontras (deksel wat lig teenoor niks wat kan wegglip nie) is die stelling korrek."
-    },
-    {
-      "bewering": "Die stoom druk daarom baie harder as in die pot.",
-      "blok": "eli10: Wat 'n stoomenjin is",
-      "status": "bevestig",
-      "tipe": "getal",
-      "bron": "Lokomotiefketels: 200-250 psi in die latere stoomjare, vroeer sowat 80-120 psi, en 300 psi en meer op sekere masjiene (https://en.wikipedia.org/wiki/High-pressure_steam_locomotive; https://www.trains.com/trn/train-basics/abcs-of-railroading/how-a-steam-locomotive-works/). Drukkoker: sowat 15 psi bo lugdruk, wat die kookpunt na 121 grC lig (https://en.wikipedia.org/wiki/Pressure_cooker). Pot met deksel: onder 0,02 psi bo lugdruk (sien item 1). Die verskil is dus duisende male op meterdruk en steeds sowat 15 maal op absolute druk, so 'baie harder' is stewig gevestig en oorskat niks. Meganisme: in 'n geseelde vat kan die stoom nie ontsnap nie, en solank hitte toegevoer word styg druk en temperatuur saam (https://en.wikipedia.org/wiki/Pressure_cooker; Exploratorium, https://www.exploratorium.edu/food/pressure-cooking). Twee aantekeninge, nie foute nie: (a) die eintlike oorsaak is voortgesette verhitting saam met inperking - toe wande en sterk wande laat die druk toe eerder as dat hulle dit maak - en die blok stel vuur in beide helftes teenwoordig (stoof; 'die vuur ... bly agter by die ketel'), so die 'daarom' is 'n samepersing van die meganisme en nie 'n verdraaiing daarvan nie; (b) die stelling is suiwer 'n drukstelling - geen lengte, grootte, afstand of duur word aangebied nie."
-    },
-    {
-      "bewering": "Sterk pype lei die stoom na 'n aparte silinder toe.",
-      "blok": "eli10: Wat 'n stoomenjin is",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Steam_locomotive: stoom versamel bo die water in die koepel by die reguleerderventiel, en 'the steam then either travels directly along and down a steam pipe to the engine unit or may first pass into the wet header of a superheater', waarna dit deur stoompype na die stoomkaste langs die silinders gaan. Die silinders is aparte eenhede op die raam en nie deel van die ketel nie: 'The steam generated in the boiler flows down into a cylinder just ahead of the wheels' (https://www.explainthatstuff.com/steamengines.html). Die pype dra ketelstoom en moet dus vir werksdruk gebou wees (ketelpype en toebehore val onder dieselfde drukvatvoorskrifte, 49 CFR 230 Subpart B). 'Aparte' is hier 'n plekstelling en dra geen oorsaaklike gewig nie."
-    },
-    {
-      "bewering": "Die suier is die deel waarteen die stoom stoot.",
-      "blok": "eli10: Wat 'n stoomenjin is",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Steam_locomotive: 'n skuifventiel in die stoomkas 'distributes the steam via ports that connect the steam chest to the ends of the cylinder space', en 'the cylinders are double-acting, with steam admitted to each side of the piston in turn'. Ook https://www.explainthatstuff.com/steamengines.html ('pushing a tight-fitting plunger, the piston, back and forth') en Britannica Kids, https://kids.britannica.com/kids/article/steam-engine/390260 (die stoom brei uit en stoot teen 'n suier). Aantekening oor rigting: die blok maak geen bewering oor rigting, slaglengte of duur nie - dit se net waarteen die stoom stoot - so niks hierin impliseer 'n eenrigtingsuier nie. Die heen-en-weer beweging staan in die aangrensende studieblokke ('van die een kant na die ander', 'Die suier beweeg heen en weer') en is korrek, want die silinders is dubbelwerkend."
+      "bewering": "KARTERING van die hele vergelyking teen die nuwe studieteks: 'Dink aan 'n pot water wat op die stoof kook' ... ''n Enjin se ketel is toe en sy wande is sterk' ... 'Die vuur en die water bly agter by die ketel.'",
+      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "status": "weerspreek",
+      "bron": "Nagegaan as kartering, nie as los sinne nie. Die meganika: National Board of Boiler and Pressure Vessel Inspectors, 'Construction and Inspection Procedure for Steam Locomotive and Fire Tube Boilers' (https://www.nationalboard.org/index.aspx?pageID=164&ID=218) - 'n lokomotiefketel het 'a stayed internal firebox at the rear' en 'All sides of the internal firebox, except the bottom where the grate is, are covered by water'. Wikipedia 'Firebox (steam engine)' (https://en.wikipedia.org/wiki/Firebox_(steam_engine)): die vuurkas is 'an integral part' van die ketel en is deur water omring behalwe onder, waar die roosters is. Wikipedia 'Fire-tube boiler' (https://en.wikipedia.org/wiki/Fire-tube_boiler): 'n lokomotiefketel bestaan uit 'n dubbelwandige vuurkas, die silindriese ketelvat met pype, en die rookkas. Die klassifikasie self is die kern: 'n ketel waarvan die vuurherd BINNE die ketelomhulsel sit, heet 'n binnegestookte ketel, en lokomotiefketels is presies dit; 'n ketel waarvan die vuur BUITE en gewoonlik ONDER die omhulsel sit, heet 'n buitegestookte ketel (Wikipedia 'Flued boiler', https://en.wikipedia.org/wiki/Flued_boiler, oor Newcomen se hooimietketel met 'a voluminous coal fire... on a grate beneath' en Watt se wamotorketel wat van onder af verhit is; dieselfde indeling in die ingenieurswese-module van ACS College of Engineering, https://www.acsce.edu.in/acsce/wp-content/uploads/2020/03/18EME15-25-Module-2.pdf). WAAR DIT BREEK: 'n pot wat OP DIE STOOF kook, is die buitegestookte rangskikking - die hittebron sit onder en buite die water. Die studieteks leer nou uitdruklik die binnegestookte rangskikking: die vuur brand in 'n vuurkas BINNE die ketel, met die water rondom en bo hom. Die blok stel die pot en die ketel oor sewe sinne in korrespondensie ('n Enjin se ketel is toe... harder as in die pot) en breek daardie korrespondensie nerens vir die hittebron nie. Die stoof word boonop uitdruklik genoem, dus is die vuur se plek nie iets wat die vergelyking stilswyend oorslaan nie - dit is in die beeld teenwoordig en op die verkeerde plek. EEN TREE VERDER: 'n leerder wat vra waar die enjin se vuur brand en die pot-beeld vashou, kom uit by die vuur onder die ketel - presies die beeld wat die nuwe openingsin verwyder het. Die slotsin keer dit nie: 'by die ketel' sluit 'onder die ketel' in, want die stoof is ook by die pot. Die vuurkas, wat nou die studieblok se belangrikste nuwe voorwerp is, kom in die vergelyking glad nie voor nie, dus staan die leerder met vuur + water + toe ketel en geen boks om hulle te skei nie. Dit is nie 'n onbelangrike verskil tussen die twee domeine nie: die vuur se plek is deel van wat hierdie blok leer, en dit is die punt wat pas reggemaak is.",
+      "regstelling": "Die vergelyking moet die enjin se hittebron dra soos die studieteks dit nou leer - die vuur brand in sy vuurkas binne die ketel, met die water rondom en bo hom - en die pot-en-deksel-beeld moet uitdruklik net vir die toe houer en die hoer druk dien, nie vir waar die vuur sit nie. Die slotsin se eintlike punt, dat net die stoom na die silinder toe beweeg terwyl die vuur en die water by die ketel agterbly, is waar en moet bly. LET WEL: 'onder' is vals vir 'n lokomotief en mag nie teruggebring word nie; die regstelling is om die vuur se plek positief by te voeg, nie om die bestaande slotsin te verander nie.",
+      "tipe": "analogie"
     },
     {
       "bewering": "Die vuur en die water bly agter by die ketel.",
-      "blok": "eli10: Wat 'n stoomenjin is",
+      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Steam_locomotive: die ketel bestaan uit vuurkas, ketelvat en rookkas; die vuur brand op die rooster in die vuurkas, water omring die vuurkas om oorverhitting te keer, en die watervlak in die vat word op 'n peilglas gehou. Net stoom word weggelei (sien item 4). Op 'n lokomotief is die vuurkas agter en die silinders voor, so 'agter' is ook letterlik reg. Twee dinge wat die stelling nie omkeer nie: die reserwewater ry in die tender of systenks, maar die water wat kook bly in die ketel; en uitlaatstoom word by die skoorsteen uitgeblaas om die vuur te trek, wat stoom naby die vuur bring maar geen vuur of water na die silinder."
+      "bron": "Vars nagegaan, want sy verwysing het verander. National Board (https://www.nationalboard.org/index.aspx?pageID=164&ID=218): die vuurkas is 'n binneste kas agter in die ketel, aan alle kante behalwe onder deur water bedek, en die verbrandingsgasse gaan deur die pype na die rookkas en skoorsteen - die vuur self beweeg dus nerens heen nie. Wikipedia 'Firebox (steam engine)': die vuurkas is deel van die ketel. Die water bly in die ketel; net die stoom gaan deur die pype na die silinder. Albei helftes van die sin is dus waar, en 'agter' is boonop letterlik reg, want die vuurkas sit agter aan die ketel. Die vorige nasien se uitspraak dat hierdie vorm reg is en nie na 'onder' verander mag word nie, staan na die verandering nog sterker: met die vuur binne die ketel sou 'onder' nou pertinent vals wees. Die sin dra egter net 'by', nie 'binne' nie - sien die karteringsbevinding hierbo.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Die hele vergelyking: 'n kokende pot met 'n deksel wat lig, teenoor 'n enjin se toe ketel met sterk wande waar die stoom 'baie harder' druk, met sterk pype na 'n aparte silinder, die suier as die deel waarteen gestoot word, en die vuur en water wat by die ketel agterbly.",
-      "blok": "eli10: Wat 'n stoomenjin is",
+      "bewering": "'n Enjin se ketel is toe en sy wande is sterk.",
+      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
       "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Kartering nagegaan teen die bronne in items 1-6. Wat die kartering nou se, en dit hou: pot en ketel is beide verhitte vate met kokende water; die pot se liggende deksel staan teenoor die feit dat niks by die ketel kan wegglip nie; en die enigste verskil wat aangebied word, is druk. Die drie plekstellings maak die ou meetkundefout onmoontlik: die suier word as 'n nuwe deel in 'n aparte vat ingevoer, so die pot word nie tegelyk ketel en silinder nie; en die vuur en die water word eksplisiet by die ketel geplaas, so die vuur kom nie onder die silinder nie. Geen vorm-, grootte- of duurrede is in die plek van die drukrede ingesluip nie: die enigste beskrywende woorde is 'toe', 'sterk' (wande en pype) en 'aparte', en nie een van hulle dra 'n oorsaaklike las wat druk moet dra nie. Let op dat 'n gewone gewilde bron die hoer druk juis aan 'n 'smaller, much stronger boiler' toeskryf (https://www.explainthatstuff.com/steamengines.html) - die grootte-taal wat hierdie blok vermy. Twee plekke waarheen 'n leerder wat verder redeneer nog kan gaan, en nie een is 'n valse stelling in die teks nie: (a) 'toe' en tog 'sterk pype lei die stoom weg' - die blok gee nie die oplossing dat die uitgang 'n beheerde pad is waarlangs die stoom werk doen nie, en 'n leerder wat besluit die ketel is dan nie regtig toe nie, verloor die rede vir die harder druk; (b) die pot se stoot eindig in ontsnapping, en die blok se dat niks oor waar die stoom heen gaan na dit die suier gestoot het nie, so 'n leerder wat 'onder die deksel uit' na 'by die suier verby' oordra, sien 'n lekkende suier - die blok nooi dit nie uit nie, want die deksel word nie op die suier gekarteer nie, en die begrip 'suier' se dat dit die silinder styf toemaak. Beide is opmerkings vir 'n mens, nie bevindings teen die teks nie."
+      "bron": "Vars nagegaan, want die vuur sit nou binne die ketel en 'toe' moes daarteen getoets word. National Board (https://www.nationalboard.org/index.aspx?pageID=164&ID=218): die ketel hou water en stoom onder versadigingsdruk, met stutboute en 'n kroonplaat wat die druk dra - 'n toe drukhouer met sterk wande. Die vuur se lug- en rookpad is 'n APARTE pad wat nie die stoomruimte oopmaak nie: lug kom onder deur die rooster en die asbak se klappe en by die vuurdeur in, en die gasse gaan deur die pype na die rookkas en die skoorsteen uit (Wikipedia 'Firebox (steam engine)', https://en.wikipedia.org/wiki/Firebox_(steam_engine)). 'Toe' in die sin van 'hou die stoom vas' bly dus waar met die vuur binne. Vir 'n mens wat hierna kyk: die les verduidelik nerens hoe die vuur binne 'n toe ketel lug kry nie, maar dit is 'n gaping en nie 'n onwaarheid nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "ketel: Die sterk houer waarin water gekook word om stoom onder hoe druk te maak.",
-      "blok": "begrip: ketel",
+      "bewering": "vuurkas: Die kas binne die ketel waarin die enjin se vuur brand.",
+      "blok": "begrip: vuurkas",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Akkuraat teenoor die standaardomskrywing: 'n ketel is 'n toe vat waarin water deur hitte in stoom onder druk verander (https://en.wikipedia.org/wiki/Boiler; Britannica, https://www.britannica.com/technology/boiler - 'n toestel wat 'n vloeistof in damp omskep, met vuurherd, hitteoppervlakke en 'n ruimte waar stoom vorm). 'Sterk' en 'hoe druk' is waar van die ketel wat hierdie les bedoel: geklinkte staalplate met honderde stutte, en 200-250 psi (sien item 2 en 3). Alleen gelees sluit dit nou wel uit wat die vorige twee bewoordings nie kon nie: 'n pot met 'n deksel en 'n kombuisketel is beide ongeseeld en blaas by lugdruk uit, so in nie een word water gekook 'om stoom onder hoe druk te maak' nie. Wat dit steeds ook pas: 'n drukkoker (geseelde vat, sowat 15 psi, water gekook om stoom onder druk te maak - https://en.wikipedia.org/wiki/Pressure_cooker) en 'n stoomsteriliseerder of outoklaaf (Britannica: 'a strong, pressurized, steam-heated vessel', https://www.britannica.com/technology/autoclave). Beide is egte sterk toe vate wat stoom onder druk maak, so 'n leerder wat hulle insluit, hou die regte meganisme; die onderskeid wat ontbreek, is dat 'n ketel se stoom weggelei word om werk te doen, en dit is doelbewus uitgelaat. In die ander rigting is die inskrywing nouer as die woord self: laedrukketels bestaan ('the fluid does not necessarily boil'; vuurpypketels het 'very low-pressure steam, often hardly above that of the atmosphere' geberg - https://en.wikipedia.org/wiki/Boiler), en Afrikaans se 'ketel' benoem ook 'n verwarmingsketel en 'n gewone kombuisketel (https://en.wiktionary.org/wiki/ketel). Nog die insluiting van 'n drukkoker nog die vernouing leer verkeerde fisika op graad 4-vlak. Een nuanse nagegaan en skoon: 'hoedrukstoomlokomotief' is in spoorwegtegniek 'n vakterm vir bo sowat 350 psi, maar dit beskryf 'n klas lokomotief en nie of die stoom onder hoe druk is nie - 200 psi is hoe druk teen enige alledaagse maatstaf."
+      "bron": "Alleen gelees, met die res van die les weggedink. National Board (https://www.nationalboard.org/index.aspx?pageID=164&ID=218): 'a stayed internal firebox at the rear' van die ketel, aan alle kante behalwe die roosterbodem deur water bedek. Wikipedia 'Fire-tube boiler' (https://en.wikipedia.org/wiki/Fire-tube_boiler): 'n lokomotiefketel se drie hoofdele is 'n dubbelwandige vuurkas, die ketelvat en die rookkas - die binneste vuurkas sit binne die buitenste omhulsel met 'n waterruimte tussenin. Die Afrikaanse woord is reg: Wikipedia (af) 'Stoomlokomotief' (https://af.wikipedia.org/wiki/Stoomlokomotief) benoem deel 1 van die lokomotief as die vuurkas. WAT DIT ALLEEN NOG PAS: enige binnegestookte ketel - lokomotief, trekker, stoomboot se Skotse ketel - en in almal sit die vuurkas binne die ketel, dus is die inskrywing nie net binne hierdie les waar nie. Vroee enjins met 'n hooimiet- of wamotorketel het die vuur ONDER die ketel gehad, maar sulke ketels het glad nie 'n vuurkas nie, dus weerspreek hulle die omskrywing nie. Een presiesheid wat die inskrywing nie mislei nie: die kas se bodem is oop na die rooster en die asbak toe, dus is dit nie 'n heeltemal toe kas nie - die inskrywing beweer dit ook nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "ANKERTOETS (vraag 1): wys enige deel van die vergelyking na iets wat nie meer in die studieteks staan nie?",
+      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "status": "bevestig",
+      "bron": "Elke verwysing een vir een teen die nuwe studieblok 'Wat 'n stoomenjin is' getoets. 'toe ketel' en 'sterk wande' -> 'Die ketel is 'n toe houer en hou al daardie stoom vas' en 'druk hard teen die wande van die ketel'. 'sterk pype ... aparte silinder' -> 'Sterk pype lei die stoom na 'n noue silinder met 'n suier daarin'. 'die suier is die deel waarteen die stoom stoot' -> 'Daar stoot die stoom die suier van die een kant na die ander'. 'die vuur' -> ''n vuur in 'n vuurkas binne die ketel'. 'die water' -> 'die water rondom en bo die kas kook'. Niks in die blok hang los nie; die twee vervangde sinne het geen verwysing weggeneem nie. Die probleem le nie by 'n ontbrekende anker nie maar by die rigting van een anker - sien die karteringsbevinding.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Dink aan 'n pot water wat op die stoof kook. Die stoom lig die deksel op en glip daaronder uit.",
+      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit die vorige ronde se nasien van hierdie blok - nie weer gesoek nie. Die feitelike stelling oor die pot en die deksel is daar bevestig en die nuwe studiesinne raak dit nie: 'n kokende pot se stoom lig wel die deksel en ontsnap daaronder. Die stoof se POSISIE in dieselfde sin is wel deur die verandering geraak en word in die karteringsbevinding hierbo hanteer.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die stoom druk daarom baie harder as in die pot.",
+      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit die vorige ronde - nie weer gesoek nie. Die nuwe studiesinne het niks hieraan gedoen nie: die studieteks se dra-sin ('Die ketel is 'n toe houer... Die stoom druk daarom hard teen die wande van die ketel') staan onveranderd, dus rus die vergelyking nog op dieselfde stelling as toe dit bevestig is.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Sterk pype lei die stoom na 'n aparte silinder toe.",
+      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit die vorige ronde - nie weer gesoek nie. Nagegaan is net of sy anker nog staan: die studieteks se 'Sterk pype lei die stoom na 'n noue silinder met 'n suier daarin' is onveranderd.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die suier is die deel waarteen die stoom stoot.",
+      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit die vorige ronde - nie weer gesoek nie. Sy anker staan nog: 'Daar stoot die stoom die suier van die een kant na die ander' in die studieblok.",
+      "tipe": "algemeen"
     }
   ],
-  "opsomming": "Slegs die eli10-blok en die begrip 'ketel' is nagegaan, en al agt bewerings is bevestig: die enigste verskil wat die vergelyking nou aanbied is 'n harder druk (pot onder 0,02 psi teenoor 'n lokomotiefketel se 200-250 psi), die meetkunde is reg (ketel toe, silinder apart, suier daarin, vuur en water by die ketel), geen nuwe vorm- of duurrede het ingesluip nie, niks impliseer 'n eenrigtingsuier nie, en die 'ketel'-omskrywing is akkuraat en sluit nou 'n pot met 'n deksel en 'n kombuisketel uit, maar pas alleen gelees steeds ook op 'n drukkoker en 'n stoomsteriliseerder."
+  "opsomming": "Elke sin in die eli10-blok is waar en elke verwysing staan nog in die studieteks, maar die vergelyking self plaas die enjin se vuur nou verkeerd: 'n pot op die stoof word van onder af verhit, terwyl die studieteks die vuur binne 'n vuurkas in die ketel plaas, en 'n leerder wat een tree verder redeneer, kom by 'n vuur onder die ketel uit - presies die beeld wat die nuwe openingsin verwyder het. Die slotsin 'die vuur en die water bly agter by die ketel' is nog steeds korrek en moet NIE na 'onder' verander word nie; wat kortkom, is dat die vergelyking die vuur se plek positief dra, want 'by' sluit 'onder' in en die vuurkas kom in die blok glad nie voor nie. Die nuwe vuurkas-begrip is alleen gelees waar."
 }

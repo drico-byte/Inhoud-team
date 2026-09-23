@@ -39,7 +39,7 @@ twenty lessons later.
 | `begroting` | integer | yes | `round(onderwerp_woorde / lesson_count)` |
 | `kern` | array of strings | yes | Core content items, drawn from the CAPS bullet |
 | `aanvulling` | array of objects | no | Each `{item, regverdiging}` |
-| `moeilike_konsepte` | array of strings | no | Concepts needing an ELI10 layer |
+| `moeilike_konsepte` | array of strings | no | Concepts needing the plainest, most concrete study text (the ELI10 layer they once ordered was abolished 23 Sep 2026) |
 | `termdig` | boolean | no | `true` when the bullet names many terms |
 | `fokusvraag_skakel` | string | yes | This lesson's **contribution** to the focus question |
 
@@ -69,9 +69,10 @@ cap the writer will justify anything as educational.
 
 ### `moeilike_konsepte`
 
-Concepts where a learner needs intuition before formal explanation. The writer
-produces one `eli10` block per entry, and the coverage checker verifies each one
-exists.
+Concepts where a learner needs intuition before formal explanation. **The writer does
+NOT produce an `eli10` block — that block was abolished on 23 September 2026 and the gate
+fails any lesson carrying one.** A flagged entry now means: this concept needs the plainest,
+most concrete wording the study text can carry.
 
 Be selective. "Vlotte is plat bote van hout" needs no intuition layer. "How steam
 pressure produces movement" does. Flagging everything makes the flag meaningless.

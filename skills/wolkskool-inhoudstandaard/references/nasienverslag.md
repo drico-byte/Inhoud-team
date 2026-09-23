@@ -44,11 +44,37 @@ invent a fix or strip the content, and both outcomes are worse than asking a hum
 Revision loops cap at two cycles; `MENS_NODIG` is how you exit early rather than
 burning both.
 
+## `spesifikasie_probleem` — coverage checker, top level
+
+| Field | Required | Notes |
+|---|---|---|
+| `spesifikasie_probleem` | when the defect is in the spec | `true` when the lesson is correct but a spec field is wrong — a stale order, two fields contradicting each other, a withdrawn ruling still reading as live. Put the detail in `opsomming`. |
+
+**Spell it exactly.** `verdict_check.derive()` reads this one key and nothing else:
+a coverage report with every item `teenwoordig` and a misspelled key derives as
+`GOEDGEKEUR`, so a `MENS_NODIG` you wrote is thrown away and the runner never acts
+on it. A checker hit this on 23 September 2026 using `spek_probleem`; the escalation
+it had correctly found reached a person only by another route. There is no warning
+when this happens, because an unknown key is simply not read.
+
+## `spesifikasie_probleem` — coverage checker, top level
+
+| Field | Required | Notes |
+|---|---|---|
+| `spesifikasie_probleem` | when the defect is in the spec | `true` when the lesson is correct but a spec field is wrong — a stale order, two fields contradicting each other, a withdrawn ruling still reading as live. Detail goes in `opsomming`. |
+
+**Spell it exactly.** `verdict_check.derive()` reads this one key and nothing else. A
+coverage report with every item `teenwoordig` and a misspelled key derives as
+`GOEDGEKEUR`, so a `MENS_NODIG` you wrote is discarded and the runner never acts on
+it — silently, because an unknown key is simply not read. A checker hit this on
+23 September 2026 using `spek_probleem`; the escalation it had correctly found
+reached a person only by another route.
+
 ## `items` — coverage checker
 
 | Field | Required | Notes |
 |---|---|---|
-| `tipe` | yes | `kern` \| `aanvulling` \| `eli10` \| `vraag` \| `fokus` |
+| `tipe` | yes | `kern` \| `aanvulling` \| `vraag` \| `fokus` (`eli10` was abolished 23 September 2026) |
 | `verwysing` | yes | The spec item being checked, quoted |
 | `status` | yes | `teenwoordig` \| `gedeeltelik` \| `afwesig` |
 | `bewys` | yes | Which block covers it, by `kop`. Empty if absent. |

@@ -45,7 +45,7 @@ Every block has `tipe`. Other fields depend on it.
 
 | Field | Required | Notes |
 |---|---|---|
-| `kop` | yes | Heading. Must be unique within the lesson — `eli10` blocks reference it. |
+| `kop` | yes | Heading. Must be unique within the lesson. |
 | `teks` | yes | Prose. Sentences ending in `.`, `!`, or `?`. |
 
 **Counts toward the study budget. Measured against the grade's register band.**
@@ -54,18 +54,17 @@ Guide: 30–110 words per block, 3–10 blocks per lesson. These are comprehensi
 guides, not layout requirements — the HTML layout adapts to the content, so chunk
 on conceptual seams. Warnings only.
 
-### `eli10` — the intuition layer
+### `eli10` — ABOLISHED, 23 September 2026
 
-| Field | Required | Notes |
-|---|---|---|
-| `vir` | yes | Must exactly match the `kop` of the `studie` block it explains |
-| `teks` | yes | Must contain a concrete comparison, not a paraphrase |
+**Drico abolished this block type. A lesson may not contain one and the gate fails any
+lesson that does.** It is documented here only so that a reader meeting one in an old file
+knows what it was: an intuition layer carrying a concrete comparison, keyed by `vir` to the
+`studie` block it explained, sitting outside the study budget.
 
-**Does not count toward the study budget. Measured against the flat ELI10 band.**
-
-`vir` lets the layout team place the intuition beside its concept rather than
-collecting them at the end, and lets the coverage checker confirm that the
-concepts the planner flagged as difficult are the ones actually covered.
+Every lesson that had one has had it removed and **nothing of it was moved into the study
+text**. That was checked first: of the 27 requirements that cited a block as coverage
+evidence, every one was also carried by a study block. Specs that still ask for one are
+stale — see their `eli10_afgeskaf` field.
 
 ### `lys` — bullet or numbered list
 
@@ -166,8 +165,8 @@ The schema is the contract. Design it as a handoff, not a conversation.
   for human approval, and corrections are applied **to the source JSON**, never to
   the rendered HTML — otherwise source and page drift apart and the JSON stops
   being the truth.
-- `eli10` blocks need visual distinction on the page. If a learner cannot tell at
-  a glance which text is intuition and which is revision material, the whole
-  study-volume discipline collapses at the point of use: they revise everything,
-  and the over-supply problem returns. This is the one layout requirement the
+- (Withdrawn 23 September 2026 with the `eli10` block itself. It read: `eli10` blocks
+  need visual distinction on the page, because if a learner cannot tell at a glance
+  which text is intuition and which is revision material, the whole study-volume
+  discipline collapses at the point of use. This was the one layout requirement the
   content architecture genuinely depends on.

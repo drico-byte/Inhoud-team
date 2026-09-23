@@ -120,13 +120,32 @@ video. Write what the lesson requires and nothing more.
 **Correctness matters more than it would otherwise.** An error here does not stay here. It
 is spoken aloud in a video and reaches a learner twice.
 
-**The vivid comparison is the video's job, and the video does it better.** Showing a bean
-swell in wet soil or water push back on a hand is exactly what video is for. So the
-`eli10` layer is zero or one per lesson and **the default is none** — reserve it for a
-concept that genuinely cannot be stated concretely at all, and let the video supply the
-rest of the intuition. A learner who cannot load the video still learns the concept from
-plain concrete description, which is what standing alone requires; it does not require the
-text to be as vivid as film.
+**THE `eli10` BLOCK IS ABOLISHED — Drico, 23 September 2026. A lesson may not contain one,
+and the gate fails any lesson that does.** No writer writes one, no planner asks for one,
+no checker reports a missing one. **Any spec field that still asks for an `eli10` block is
+withdrawn by this rule**, whatever it says and however emphatically it says it — the specs
+were written while the block existed and the sweep of them lags this decision. A spec field
+ordering one is a stale instruction, not a requirement; do not obey it, and say in your
+report that you found it.
+
+The evidence behind the ruling, because the reasoning is what makes it safe to apply: all
+seventeen lessons that carried a block were checked against their own coverage reports
+first. Twenty-seven requirements cited the block in their evidence, and **every one of them
+was also carried by a study block. Not one requirement lived only inside a block.** The
+case that looked strongest for keeping them — the sound lesson, where a child must be
+stopped from thinking something flies from the drum to her ear — turned out to have a study
+block titled *"Niks vlieg van die trom af na jou toe nie"* already carrying the whole
+mechanism. The block restated it with a row of children. Nothing moves into the study text
+when a block is removed; the study text is left word for word as it is.
+
+Two further things weighed in it. A block was scaffolding, so it never counted against the
+budget and nothing ever forced a fact check on it — and three of the worst errors this
+pipeline has produced were inside one: the fire under the boiler, the pot on the stove, and
+the wall that stops what it soaks up. And the vivid comparison is the video's job anyway,
+and the video does it better. Showing a bean swell in wet soil or water push back on a hand
+is exactly what video is for. A learner who cannot load the video still learns the concept
+from plain concrete description, which is what standing alone requires; it does not require
+the text to be as vivid as film.
 
 
 ### Gr 4 Sosiale Wetenskappe runs a different process

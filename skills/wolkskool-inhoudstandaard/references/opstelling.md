@@ -80,8 +80,7 @@ Exit 0 = pass, exit 1 = fail.
 - a `lys` item over 18 words, or with two or more commas
 - long words with no `begrip` entry
 - possible spelling errors
-- an `eli10` block longer than the study block it explains, or more than one of them
-- an `eli10` block with no `vir`, or a `vir` that matches no study heading
+- **any `eli10` block at all — a hard FAIL since 23 September 2026, when Drico abolished the block.** Delete it and change nothing else; its content does not move into the study text
 - suspiciously long single sentence — usually a missing full stop
 
 ## Reading the log

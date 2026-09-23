@@ -136,6 +136,11 @@ def spek_inskrywing(graad, vak, subonderwerp, nommer):
 HERKOMS_BEHOU = ("kaps_dokument", "skrywer_prompt", "handboek_gesien",
                  "videoskrif_gesien")
 
+# Of the sign-off block, only what identifies the approval. `nota` narrates every
+# earlier round and `nasiens` carries the previous verdicts; both are exactly what
+# the fact checker must not have. Added 22 September 2026.
+GOEDKEURING_BEHOU = ("datum", "deur")
+
 
 def feitekopie(les_pad):
     """The copy of a draft the fact checker is given: the lesson without its
@@ -200,17 +205,42 @@ def skryf_feitekopie(les_pad):
     says a note was withheld and says nothing about what it contained.
     """
     les = lees_json(les_pad)
+    weg = 0
     h = les.get("herkoms")
     if isinstance(h, dict):
-        weg = [k for k in h if k not in HERKOMS_BEHOU]
-        if weg:
+        uit = [k for k in h if k not in HERKOMS_BEHOU]
+        if uit:
+            weg += len(uit)
             h = {k: v for k, v in h.items() if k in HERKOMS_BEHOU}
-            h["nota_weerhou"] = (
-                "Die skrywer se notas is uit hierdie kopie weerhou (%d veld(e)). Hulle dra sy "
-                "redenasie en die spesifikasie se vereistes, en die feitenasiener moet beoordeel "
-                "wat die les SE, nie wat dit bedoel het nie. Niks is uit die lesinhoud verwyder "
-                "nie." % len(weg))
             les = dict(les, herkoms=h)
+
+    # 22 September 2026: the same leak, through a field nobody had looked at.
+    # `goedkeuring` is written at sign-off, not by the writer, so it survived a
+    # rule aimed at herkoms. Its `nota` is a narrative of every earlier round --
+    # what was found, what was decided, which specification fields carried a
+    # claim -- and `nasiens` hands over the previous verdicts, which is direct
+    # pressure to read charitably. A fact checker read one and said so, which is
+    # the third time a checker has reported this leak through a new field.
+    #
+    # Keep only what identifies the approval. The date and the approver tell a
+    # checker nothing about what the lesson is supposed to mean.
+    g = les.get("goedkeuring")
+    if isinstance(g, dict):
+        uit = [k for k in g if k not in GOEDKEURING_BEHOU]
+        if uit:
+            weg += len(uit)
+            les = dict(les, goedkeuring={k: v for k, v in g.items()
+                                         if k in GOEDKEURING_BEHOU})
+
+    if weg:
+        h2 = dict(les.get("herkoms") or {})
+        h2["nota_weerhou"] = (
+            "Notas en vorige uitslae is uit hierdie kopie weerhou (%d veld(e)). Hulle dra die "
+            "skrywer se redenasie, die spesifikasie se vereistes en vorige nasieners se "
+            "uitslae, en die feitenasiener moet beoordeel wat die les SE, nie wat dit bedoel "
+            "het nie en nie wat al voorheen goedgekeur is nie. Niks is uit die lesinhoud "
+            "verwyder nie." % weg)
+        les = dict(les, herkoms=h2)
     pad = feitekopie(les_pad)
     skryf_json(pad, les)
     return pad

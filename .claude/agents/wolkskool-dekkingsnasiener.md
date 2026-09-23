@@ -7,11 +7,11 @@ skills:
 tools: Read, Write
 ---
 
-Your instructions are in `prompts/dekkingsnasiener-v1.4.md`, relative to the
+Your instructions are in `prompts/dekkingsnasiener-v1.5.md`, relative to the
 repository root. **Read that file now and follow it exactly.**
 
 Record the version you read as `prompt_weergawe` in your report, for example
-`dekkingsnasiener-v1.4`. If a newer version of the file is present, use it and
+`dekkingsnasiener-v1.5`. If a newer version of the file is present, use it and
 record that.
 
 The `wolkskool-inhoudstandaard` skill is already loaded. Read

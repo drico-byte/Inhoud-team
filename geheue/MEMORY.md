@@ -21,7 +21,7 @@
 - [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — the boiler's size fault came back as the cylinder's length; write down the false CONCLUSION, not the false words, and never close a mechanism finding on a keyword sweep.
 - [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — seven times in one day; always ask what the fix disturbed, not whether the finding is gone.
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
-- [Gr 4 SW: where we are](gr4-sw-waar-ons-is.md) — Kwartaal 4 nearly through its checks; Kwartaal 1-3 is 19 lessons with 30 checks outstanding and one signed off; leer-van-leiers and plaaslike-geskiedenis have nothing current and are where to start.
+- [Gr 4 SW: where we are](gr4-sw-waar-ons-is.md) — 16 of 30 signed off 22 Sep 2026; Drico's ceiling ruling (450 holds the MEASURED lesson) and the two closed questions.
 - [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
 - [When the book covers fewer lessons than we write](meting-dek-minder-as-die-lesse.md) — don't divide the measurement evenly; it robs the lessons the book does cover.
 - [The reference example is never fact-checked](die-verwysingsles-word-nooit-nagegaan.md) — every writer in every subject reads it and nothing checks it; two false mechanisms found in it in one day, each already copied outward.
@@ -111,3 +111,7 @@
 - [Gr 6 Creative Arts](gr6-skeppende-kunste.md) — 8/8 signed off 22 Sep 2026; straalvormige balans; vorm/patroon corrected in Gr 4-6; proportion-vs-scale is disputed.
 - [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — all 26 signed off 22 Sep 2026; Moon 'amper 28 dae'; open: Gr 5 karnivoor/herbivoor 'net' awaits Drico.
 - [An agent reported failed may have finished](n-agent-wat-faal-kan-sy-werk-klaar-he.md) — four of fourteen killed agents had written complete files; measure before re-running, and don't test against the provenance note.
+- [Lessons always go to lees/](lesse-gaan-altyd-na-lees.md) — Drico's outbox; copy every approved PDF there with its protected-words page, without being asked.
+- [The ELI10 block is abolished](eli10-blok-is-afgeskaf.md) — Drico 23 Sep 2026; nothing moves into the study text, the gate hard-fails one, and 60 specs still ordered it.
+- [The reading copy sent out our internal notes](die-leeskopie-het-ons-interne-notas-uitgestuur.md) — approved lessons carried the review appendix to the language checker and the HTML team; 56 PDFs still have it.
+- [Three PCs work in parallel](drie-rekenaars-werk-parallel.md) — open lessons outside my subject are probably someone else's; report what is left in MY work, and a repo-wide sweep reaches into their files.

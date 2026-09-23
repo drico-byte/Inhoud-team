@@ -357,9 +357,19 @@ def run(lesson, grade, budget):
     # it sits outside the study budget and nothing pushed back. A warning rather than a
     # failure, in keeping with the rule that only volume-against-budget and
     # register-against-band are hard fails.
-    if len(eli10) > 1:
-        warns.append(f"{len(eli10)} eli10 blocks — the guide is zero or one per lesson, "
-                     f"for the single concept that cannot be stated concretely")
+    # ABOLISHED — Drico, 23 September 2026. A lesson may not carry one at all, so this
+    # is a hard fail rather than a warning. It is the backstop that makes the spec sweep
+    # survivable: 60 specs still asked for a block when the decision was taken, and a
+    # writer obeying one of those stale instructions gets bounced here instead of
+    # shipping. Removing a block never moves its content into the study text, and never
+    # drops a requirement — of the 27 requirements that cited a block as evidence, every
+    # one was also carried by a study block.
+    if eli10:
+        fails.append(f"{len(eli10)} eli10 block(s) — the eli10 block was abolished by Drico on "
+                     f"23 September 2026 and a lesson may not contain one. Delete it and change "
+                     f"nothing else: its content does not move into the study text. If a spec "
+                     f"field told you to write it, that field is stale — say so in your report "
+                     f"rather than obeying it.")
     study_by_kop = {(b.get("kop") or "").strip():
                     len(re.findall(r"[A-Za-zÀ-ÿ']+", b.get("teks", "")))
                     for b in study}
