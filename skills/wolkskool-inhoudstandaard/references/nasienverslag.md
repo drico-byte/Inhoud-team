@@ -48,7 +48,7 @@ burning both.
 
 | Field | Required | Notes |
 |---|---|---|
-| `tipe` | yes | `kern` \| `aanvulling` \| `eli10` \| `vraag` \| `fokus` |
+| `tipe` | yes | `kern` \| `aanvulling` \| `vraag` \| `fokus` (`eli10` was abolished 23 September 2026) |
 | `verwysing` | yes | The spec item being checked, quoted |
 | `status` | yes | `teenwoordig` \| `gedeeltelik` \| `afwesig` |
 | `bewys` | yes | Which block covers it, by `kop`. Empty if absent. |

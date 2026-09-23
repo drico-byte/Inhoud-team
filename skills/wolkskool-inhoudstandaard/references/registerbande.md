@@ -31,7 +31,7 @@ a built lesson is reading a number 60% larger than the one the gate enforces.
 | 4–6 | 11.0–14.5 | ≤1.52 | ≤13% | **MEASURED** |
 | 7–9 | 13.0–17.5 | ≤1.62 | ≤17% | ESTIMATE |
 | 10–12 | 15.0–21.5 | ≤1.72 | ≤22% | ESTIMATE |
-| ELI10, all grades | 9.0–13.5 | ≤1.50 | ≤11% | Derived |
+| ~~ELI10, all grades~~ | ~~9.0–13.5~~ | ~~≤1.50~~ | ~~≤11%~~ | Withdrawn 23 Sep 2026 — the block was abolished, so nothing is measured against this band |
 
 Applies to `studie` and `lys` blocks (register measured on `studie` only).
 Additional limits at every grade: commas ≤0.35 per sentence, words over 10

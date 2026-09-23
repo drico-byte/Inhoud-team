@@ -89,5 +89,6 @@ quantities at once and compare them.
 **If a sentence needs the reader to hold two abstract things at once, split it or
 make it concrete.** The plain version — "As die vrag te swaar word, kan die water die
 vlot nie meer hou nie" — is the same length and says the same thing in the language
-the block already uses. The precise formulation belongs in the `eli10` layer, where
-the mechanism is actually built up, and not in study text where it arrives cold.
+the block already uses. The precise formulation does not belong in the lesson at
+all — it arrives cold in study text, and the `eli10` layer that used to take it was
+abolished on 23 September 2026. Say the plain version, or leave the precision to the video.
