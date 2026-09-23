@@ -485,7 +485,14 @@ def een(pad):
     les = P.lees_json(pad)
     uit = uitvoer_pad(les, pad)
     os.makedirs(os.path.dirname(uit), exist_ok=True)
-    verslae = verslae_langs(pad)
+    # The appendix is for a person weighing a draft, never for a reader of an
+    # approved lesson. This function used to attach it whenever the report files
+    # happened to sit beside the lesson, so approved lessons went out to the
+    # language checker and the HTML team carrying our own review notes - including,
+    # on 23 September 2026, notes describing an eli10 block that had just been
+    # deleted. The docstring above verslae_langs said all along that it should be
+    # absent for an approved lesson; it simply was not implemented.
+    verslae = {} if les.get("status") == "goedgekeur" else verslae_langs(pad)
     maak_pdf(bou_html(les, verslae), uit)
     print(f"  {les.get('titel','(sonder titel)')[:46]:48} {P.rel(uit)}")
     return uit
