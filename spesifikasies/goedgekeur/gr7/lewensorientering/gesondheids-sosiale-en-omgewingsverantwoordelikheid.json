@@ -1,619 +1,620 @@
 {
- "skema_weergawe": "1.0",
- "vak": "Lewensoriëntering",
- "graad": 7,
- "kwartaal": 3,
- "kwartaal_nota": "Die subonderwerp loop oor TWEE kwartale: KABV gee dit drie blokke - Kwartaal 3 weke 1-4 (dwelmmisbruik), Kwartaal 3 weke 5-7 (omgewingsgesondheid) en Kwartaal 4 weke 3-5 (algemene siektes). Die boonste veld dra die kwartaal waarin die subonderwerp begin; elke les dra sy eie 'kwartaal'.",
- "kaps_onderwerp": "Lewensoriëntering (KABV Graad 7-9)",
- "kaps_subonderwerp": "Gesondheids-, sosiale en omgewingsverantwoordelikheid",
- "veldname_nota": "In die Senior Fase is KABV se 'onderwerp' presies hierdie vlak: Gesondheids-, sosiale en omgewingsverantwoordelikheid is een van die vyf onderwerpe van die vak, nie 'n subonderwerp onder 'n groter onderwerp nie. Die spek se kaps_subonderwerp dra daarom daardie naam woord vir woord, sodat dit by profiele/gr7-lo-profiel.json se sleutel pas. In die LESSE self moet kaps_onderwerp 'Gesondheids-, sosiale en omgewingsverantwoordelikheid' wees en kaps_punt die KABV-punt - die spek en die les noem hierdie velde histories verskillend, en niks toets dit nie.",
- "kaps_ure": 10,
- "kaps_ure_nota": "Slegs inligting; niks word daaruit afgelei nie. 4 uur dwelmmisbruik (Kw 3, weke 1-4) + 3 uur omgewingsgesondheid (Kw 3, weke 5-7) + 3 uur algemene siektes (Kw 4, weke 3-5). Die lesverdeling en elke begroting kom uit die INHOUD van die blokke, nooit uit hierdie getalle nie.",
- "fokusvraag": "Hoe sorg ek vir my eie gesondheid, vir die mense om my en vir die plek waar ons woon - wanneer middels, 'n ongesonde omgewing of 'n siekte dit moeilik maak?",
- "fokusvraag_nota": "Deur die beplanner gestel; KABV Lewensoriëntering Graad 7-9 gee geen fokusvrae nie. Dit is saamgestel uit KABV se eie doelstelling 4 ('leerders te lei om ingeligte en verantwoordelike besluite te neem aangaande hul gesondheid, omgewing...') en uit die drie blokke se inhoud. Drie dele, een per blok: middels (lesse 1-5), die omgewing (lesse 6-8), siekte (lesse 9-13). Geen les dra die hele vraag nie.",
- "profiel_konfig": "gr7-lo-profiel.json",
- "onderwerp_woorde": 0,
- "onderwerp_woorde_nota": "Die nul is 'n FEIT, nie 'n gaping nie: daar bestaan geen Graad 7-9 handboek in hierdie bewaarplek nie, niks is gemeet nie, en die beplanner het geen handboek gesien nie. Moenie hierdie nul as volume aanhaal nie.",
- "begroting_basis": "vereistes",
- "begroting_basis_nota": "Elke les se begroting kom uit sy eie inhoud, binne die Graad 7-band van 350-700 woorde (Lampies, 23 September 2026: 'die aantal woorde moet deur die inhoud bepaal word, moet nie oortollig van aard wees nie'). Geen meting bestaan om te deel nie, en gelyke verdeling sou hier 'n opinie wees wat soos 'n meting lyk. Die dertien begrotings loop van 450 tot 650 en tel 7 100. Elke les se begrotingsnota gee die grof verdeling oor sy kern-items; waar 'n les knap pas, sê sy nota so. Geen les vra 'n vloer- of plafon-uitsondering nie.",
- "totale_begroting": 7130,
- "herkoms": {
-  "beplanner_prompt": "beplanner-v1.2",
-  "handboek_gesien": false,
-  "bronne": "KABV Lewensoriëntering Graad 7-9 (Afrikaans), jaarlikse onderrigplan Graad 7 en die oorsig met die onderwerpbeskrywings, soos aan die beplanner gegee; kaps/gr7-lo.json en al sy besluite; profiele/gr7-lo-profiel.json (geen meting, met opset); kaps/gedeelde-omskrywings-lewensvaardighede-gr6.json vir die bewoordings wat hierdie leerders reeds het; kaps/gedeelde-omskrywings-lewensorientering-gr7.json (leeg). Die goedgekeurde Graad 6-spesifikasie vir Gesondheids- en omgewingsverantwoordelikheid is as VORM gelees - watter velde 'n spek dra en hoe fyn 'n kern-item gestel word - en nie as inhoud nie.",
-  "handboek_nota": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset of beskrywing van enige boek se indeling het enige deel hiervan ingelig, en niks van die aard is aangebied nie. Vir Graad 7-9 bestaan daar boonop geen gemete bron nie. Die dertien lesse kom uit KABV se drie blokke en hul subpunte."
- },
- "verdeling_nota": "BEVESTIG (Lampies, 23 September 2026): die dertien lesse bly staan - die inhoud bepaal die getal. DERTIEN LESSE, in KABV se eie volgorde. Die blok se SUBPUNTE is die leseenheid, want dit is die fynste ding wat KABV in die Senior Fase spesifiseer. Blok 1 (dwelmmisbruik, 4 uur) het vyf subpunte en word lesse 1-5, een per subpunt. Blok 2 (omgewingsgesondheid, 3 uur) het drie subpunte en word lesse 6-8. Blok 3 (algemene siektes, 3 uur) het vier subpunte, maar die eerste daarvan noem SEWE siektes by die naam en elkeen is verpligtend; dit word oor twee lesse verdeel (9 en 10) op die naat oordraagbaar teenoor nie-oordraagbaar, sodat elke siekte ongeveer honderd woorde kry eerder as sewentig, en sodat vetsug en anoreksie die versigtige hantering kry wat hulle verg. Die ander drie subpunte word lesse 11, 12 en 13. OORWEEG EN VERWERP: al sewe siektes in een les van 700 woorde met 'n plafon_uitsondering - dit druk 'n les teen die plafon vas terwyl sewe items verpligtend is, en dit is presies waar 'n skrywer oorskiet of verdun. Geen ander skeur- of saamvoegreël is toegepas nie. Die nommers 1-13 is die volgorde BINNE hierdie subonderwerp; jaarnommers word nie hier geraai nie, want die ander drie Graad 7-onderwerpe se lesse loop tussenin.",
- "gedeelde_omskrywings": {
-  "nota": "kaps/gedeelde-omskrywings-lewensorientering-gr7.json is nog leeg. Hierdie leerders kom uit Graad 6 Lewensvaardighede: waar 'n term daar 'n ooreengekome, feitgetoetste bewoording het, word dit WOORD VIR WOORD oorgeneem en geen nuwe een geskryf nie. Die voorbeelde na 'soos' mag per les verskil. LET WEL: bin/woordelysdrif.py vind 'n lys op sy eie 'vak' en 'graad', so die Graad 6-lys (vak 'Lewensvaardighede') word NIE outomaties teen hierdie Graad 7-lesse getoets nie - die oorname moet met die hand in die Graad 7-lys beland sodra die eerste les die term gebruik.",
-  "neem_woord_vir_woord_oor_uit_graad_6": {
-   "middel": [
-    1,
-    3,
-    4,
-    5,
-    11
-   ],
-   "medisyne": [
-    1,
-    9,
-    12,
-    13
-   ],
-   "simptoom": [
-    2,
-    9,
-    10
-   ],
-   "teken": [
-    2,
-    9,
-    10,
-    13
-   ],
-   "kliniek": [
-    5,
-    9,
-    12,
-    13
-   ],
-   "maatskaplike werker": [
-    5,
-    12
-   ],
-   "vigs": [
-    9,
-    13
-   ],
-   "kieme": [
-    9
-   ],
-   "virus": [
-    9
-   ],
-   "afknouery": [
-    3
-   ],
-   "stereotipe": [
-    10,
-    13
-   ],
-   "diskriminasie": [
-    13
-   ]
+  "skema_weergawe": "1.0",
+  "eli10_afgeskaf": "AFGESKAF DEUR DRICO, 23 SEPTEMBER 2026: HIERDIE SPESIFIKASIE SE VELDE WAT 'n eli10-BLOK VRA, IS TERUGGETREK. 'n Les mag nie meer 'n eli10-blok (die aanskoulike intuisieblok) he nie, en die hek FAAL enige les wat een dra. Hierdie veld wen oor elke ander veld in hierdie spesifikasie, hoe nadruklik ook al gestel en waar ook al dit staan - in 'n kern-item, in moeilike_konsepte, in 'n feiterisiko, in 'n eie eli10-veld, of in 'n gedateerde rekord. Daardie velde is geskryf toe die blok nog bestaan het en is nie een vir een uitgehaal nie; hulle is verouderde opdragte, nie vereistes nie. SKRYWER: moenie een skryf nie, en se in jou nota watter veld jou gevra het. DEKKINGSNASIENER: moenie 'n ontbrekende blok as 'n gaping rapporteer nie; rapporteer eerder die veld wat hom nog vra. BEPLANNER: moenie een bestel nie. WAT DIE BESLISSING DRA: al sewentien lesse wat 'n blok gedra het, is eers teen hulle eie dekkingsverslae getoets. Sewe-en-twintig vereistes het die blok as bewys aangehaal en ELKE EEN daarvan word ook deur 'n studieblok gedra - geen enkele vereiste het net binne 'n blok gewoon nie. NIKS SKUIF NA DIE STUDIETEKS WANNEER 'n BLOK UITGEHAAL WORD NIE; die studieteks bly woord vir woord soos hy is. Die sterkste geval vir behoud - die klankles, waar 'n kind gekeer moet word om te dink iets vlieg van die trom af na haar oor - het 'n studieblok met presies daardie titel gehad wat die hele meganisme reeds dra. Sien ook die inhoudstandaard. GRAAD 7 LO, 23 September 2026: hierdie vier spesifikasies is beplan voordat die beslissing hierdie kopie bereik het, dus is die veld hier bygevoeg sonder dat die ou opdragte een vir een uitgehaal is - presies soos by die ander spesifikasies. Die gesondheidsplan bestel steeds 'n eli10 vir drie lesse (verslawing, bloedsuiker, risiko teenoor oorsaak) en twee van sy feiterisiko-velde vra dat die eli10 se vergelyking nagegaan word; al vyf is verouderde opdragte. Wat die vergelykings betref: daardie waarskuwings bly geldig vir enige BEELD in die studieteks - die insulien-as-sleutel-beeld en die brein-se-skakelaar-beeld moet steeds in hul mapping klop as die studieteks hulle gebruik.",
+  "vak": "Lewensoriëntering",
+  "graad": 7,
+  "kwartaal": 3,
+  "kwartaal_nota": "Die subonderwerp loop oor TWEE kwartale: KABV gee dit drie blokke - Kwartaal 3 weke 1-4 (dwelmmisbruik), Kwartaal 3 weke 5-7 (omgewingsgesondheid) en Kwartaal 4 weke 3-5 (algemene siektes). Die boonste veld dra die kwartaal waarin die subonderwerp begin; elke les dra sy eie 'kwartaal'.",
+  "kaps_onderwerp": "Lewensoriëntering (KABV Graad 7-9)",
+  "kaps_subonderwerp": "Gesondheids-, sosiale en omgewingsverantwoordelikheid",
+  "veldname_nota": "In die Senior Fase is KABV se 'onderwerp' presies hierdie vlak: Gesondheids-, sosiale en omgewingsverantwoordelikheid is een van die vyf onderwerpe van die vak, nie 'n subonderwerp onder 'n groter onderwerp nie. Die spek se kaps_subonderwerp dra daarom daardie naam woord vir woord, sodat dit by profiele/gr7-lo-profiel.json se sleutel pas. In die LESSE self moet kaps_onderwerp 'Gesondheids-, sosiale en omgewingsverantwoordelikheid' wees en kaps_punt die KABV-punt - die spek en die les noem hierdie velde histories verskillend, en niks toets dit nie.",
+  "kaps_ure": 10,
+  "kaps_ure_nota": "Slegs inligting; niks word daaruit afgelei nie. 4 uur dwelmmisbruik (Kw 3, weke 1-4) + 3 uur omgewingsgesondheid (Kw 3, weke 5-7) + 3 uur algemene siektes (Kw 4, weke 3-5). Die lesverdeling en elke begroting kom uit die INHOUD van die blokke, nooit uit hierdie getalle nie.",
+  "fokusvraag": "Hoe sorg ek vir my eie gesondheid, vir die mense om my en vir die plek waar ons woon - wanneer middels, 'n ongesonde omgewing of 'n siekte dit moeilik maak?",
+  "fokusvraag_nota": "Deur die beplanner gestel; KABV Lewensoriëntering Graad 7-9 gee geen fokusvrae nie. Dit is saamgestel uit KABV se eie doelstelling 4 ('leerders te lei om ingeligte en verantwoordelike besluite te neem aangaande hul gesondheid, omgewing...') en uit die drie blokke se inhoud. Drie dele, een per blok: middels (lesse 1-5), die omgewing (lesse 6-8), siekte (lesse 9-13). Geen les dra die hele vraag nie.",
+  "profiel_konfig": "gr7-lo-profiel.json",
+  "onderwerp_woorde": 0,
+  "onderwerp_woorde_nota": "Die nul is 'n FEIT, nie 'n gaping nie: daar bestaan geen Graad 7-9 handboek in hierdie bewaarplek nie, niks is gemeet nie, en die beplanner het geen handboek gesien nie. Moenie hierdie nul as volume aanhaal nie.",
+  "begroting_basis": "vereistes",
+  "begroting_basis_nota": "Elke les se begroting kom uit sy eie inhoud, binne die Graad 7-band van 350-700 woorde (Lampies, 23 September 2026: 'die aantal woorde moet deur die inhoud bepaal word, moet nie oortollig van aard wees nie'). Geen meting bestaan om te deel nie, en gelyke verdeling sou hier 'n opinie wees wat soos 'n meting lyk. Die dertien begrotings loop van 450 tot 650 en tel 7 100. Elke les se begrotingsnota gee die grof verdeling oor sy kern-items; waar 'n les knap pas, sê sy nota so. Geen les vra 'n vloer- of plafon-uitsondering nie.",
+  "totale_begroting": 7130,
+  "herkoms": {
+    "beplanner_prompt": "beplanner-v1.2",
+    "handboek_gesien": false,
+    "bronne": "KABV Lewensoriëntering Graad 7-9 (Afrikaans), jaarlikse onderrigplan Graad 7 en die oorsig met die onderwerpbeskrywings, soos aan die beplanner gegee; kaps/gr7-lo.json en al sy besluite; profiele/gr7-lo-profiel.json (geen meting, met opset); kaps/gedeelde-omskrywings-lewensvaardighede-gr6.json vir die bewoordings wat hierdie leerders reeds het; kaps/gedeelde-omskrywings-lewensorientering-gr7.json (leeg). Die goedgekeurde Graad 6-spesifikasie vir Gesondheids- en omgewingsverantwoordelikheid is as VORM gelees - watter velde 'n spek dra en hoe fyn 'n kern-item gestel word - en nie as inhoud nie.",
+    "handboek_nota": "Geen handboekbladsy, skandering, skermskoot, transkripsie, OCR-uitset of beskrywing van enige boek se indeling het enige deel hiervan ingelig, en niks van die aard is aangebied nie. Vir Graad 7-9 bestaan daar boonop geen gemete bron nie. Die dertien lesse kom uit KABV se drie blokke en hul subpunte."
   },
-  "oor_grade_heen": "BESLIS (Lampies, 23 September 2026): TWEE terme VERBREED in Graad 7 - 'miv' en 'childline'. Hulle volledige bewoordings staan in verbreed_in_graad_7 hieronder, en hulle word NIE meer woord vir woord uit Graad 6 oorgeneem nie. Graad 4-6 bly presies soos afgelewer. Die reel waaronder dit gebeur: 'n omskrywing mag oor grade heen verbreed wanneer die kurrikulum verbreed (Drico, 9 September 2026). Al die ander terme in die lys hierbo word onveranderd oorgeneem, en 'n Graad 7-les mag NIE 'n Graad 6-bewoording verryk bloot omdat sy eie blok dieper gaan nie.",
-  "kruis_subonderwerp": "DRIE TERME BEHOORT AAN 'N ANDER GRAAD 7-SUBONDERWERP en moet VOOR die eerste konsep tussen die twee spesifikasies besleg word, nie by versoening nie: 'groepsdruk' en 'selfgelding/selfversekerdheid' kom uit Selfontwikkeling in die samelewing, Kwartaal 1 weke 6-8 (lesse 3, 4 en 5 hier leun daarop en herbou dit NIE), en 'selfbeeld' kom uit Kwartaal 1 weke 1-2 (lesse 3 en 4 gebruik dit). 'dwelm' en 'dwelmmisbruik' loop andersom: hierdie subonderwerp omskryf hulle, en die Kwartaal 1-groepsdrukles noem 'dwelmgebruik' - daardie les erf hierdie bewoording.",
-  "nuwe_terme": "Terme wat hierdie subonderwerp invoer, elk met 'n begrip-inskrywing wat ALLEEN gelees kan word (lees dit met die res van die les weggedink en vra waarop dit nog pas): dwelm, dwelmmisbruik, verslawing (les 1); intrapersoonlik, interpersoonlik, risikofaktor (les 3); beskermende faktor (les 4); vroeë bespeuring, berader (les 5); omgewingsgesondheid, sanitasie, besoedeling, plaag (les 6); herwinning (les 7); aksieplan (les 8); oordraagbaar, bakterie, tuberkulose/TB (les 9); nie-oordraagbaar, suikersiekte, insulien, epilepsie, epileptiese aanval, vetsug, anoreksie (les 10); chronies, behandeling (les 12); ondersteuningsgroep, stigma (les 13). Elkeen wat in meer as een les voorkom, kry EEN bewoording en gaan in kaps/gedeelde-omskrywings-lewensorientering-gr7.json sodra die konsepte wys wie dit gebruik.",
-  "let_op_oordraagbaar": "'oordraagbaar' staan NIE in die Graad 6-lys nie, maar Graad 6 Lewensvaardighede se les oor oordraagbare siektes voer dit in en is afgelewer. Lees daardie les se begrip-inskrywing voordat les 9 s'n geskryf word, en hou dieselfde bewoording tensy die Graad 7-inhoud dit werklik verbreed. Die drifsweep kan dit nie sien nie, want dit is 'n ander vak.",
-  "verbreed_in_graad_7": {
-   "nota": "ALBEI TERME IS KLAAR (23 September 2026) en geen verdere voorskryf-feitetoets word op hulle gedoen nie. Childline was skoon op sy TWEEDE leesalleen-toets; MIV op sy DERDE, na drie regstellings - alle vogte, toe teenwoordigheid teenoor oordrag, toe die ontbrekende toegangsvoorwaarde. Albei gaan nou in kaps/gedeelde-omskrywings-lewensorientering-gr7.json, en 'n les kopieer hulle woord vir woord. Elke term se eie velde se wat nie ongedaan gemaak mag word nie en watter beperking aanvaar is. Dieselfde toets geld nog vir die NUWE terme wat hierdie subonderwerp invoer (sien nuwe_terme) - net nie meer vir hierdie twee nie.",
-   "miv": {
-    "graad_7": "'n Virus wat van mens tot mens gaan wanneer bloed of sekere ander liggaamsvogte binne-in 'n ander mens se liggaam kom - nie deur speeksel, sweet of trane nie - en wat sonder behandeling die liggaam se afweer teen siekte swakker maak.",
-    "graad_4_tot_6": "'n Virus in die bloed wat die liggaam se afweer swakker maak.",
-    "wat_verbreed_het": "Vier dinge is by: 'sekere ander liggaamsvogte' (nie ALLE nie); die TOEGANGSVOORWAARDE 'wanneer ... binne-in 'n ander mens se liggaam kom'; die uitdruklike 'nie deur speeksel, sweet of trane nie'; en 'sonder behandeling'. 'afweer' is ook 'afweer teen siekte'. Die bewoording praat deurgaans van OORDRAG, nie van waar die virus TEENWOORDIG is nie.",
-    "rede": "DRIE KEER REGGEMAAK, EN DIE DERDE REGSTELLING IS DIE TOEGANGSVOORWAARDE (derde leesalleen-feitetoets, 23 September 2026): 'van mens tot mens gaan' se nie HOE die vog by die ander mens moet uitkom nie. Alleen gelees verklaar die sin speeksel, sweet en trane veilig en laat bloed heeltemal onbegrens - sodat 'n leerder wat 'n maat met 'n bloedneus help, geen antwoord uit die inskrywing kry nie, en die vorm van die sin hom na die verkeerde antwoord stoot. Dit is die stigmakant, en dit is presies wat Graad 4, 5 en 6 met hul lys gewone dinge toegemaak het. Die vog moet BINNE-IN die ander mens se liggaam kom; die res van die toegangsfeit - gewone kontak dra dit nie oor nie, en die virus hou nie lank buite die liggaam nie - dra les 9 se kern, want 'n woordelysinskrywing kan dit nie alles dra en kort bly nie. DIE TWEEDE REGSTELLING BLY: die uitsluiting gaan oor OORDRAG en nie oor TEENWOORDIGHEID nie. MIV IS in speeksel en in trane gevind, in uiters klein hoeveelhede; wat waar is, is dat dit NIE DEUR hulle oorgedra word nie, en die CDC en Stanford stel albei helftes so. DIE EERSTE REGSTELLING BLY OOK: 'sekere' bly, want 'bloed en ander liggaamsvogte' beteken alleen gelees ALLE vogte. Die vogte wat WEL oordra, is bloed, semen, voorvog, rektale vog, vaginale vog en borsmelk - dit staan hier vir die skrywer en die nasiener, en geen les lys hulle vir 'n Graad 7-leerder nie. 'sonder behandeling' is by omdat les 9 se eie kern se dat medisyne 'n mens met MIV gesond hou. Waarom Graad 7 hoegenaamd verbreed: KABV Graad 7 onderrig MIV en VIGS as een van die gewone siektes, en die Graad 4-6-bewoording ('in die bloed') laat ander vogte uit. Die Kwartaal 1-beplanner wys na hierdie blok en besleg nie 'n tweede bewoording nie.",
-    "lesse": [
-     9,
-     11,
-     13
-    ],
-    "bekende_tekortkoming": "'die liggaam se afweer teen siekte swakker maak' pas ook op masels, TB, wanvoeding en chemoterapie, want dit se nie dat MIV die afweerselle SELF aanval nie. Dit is uit die afgelewerde Graad 4-6-bewoording geerf, dit is opgeteken, en dit word HIER NIE verder verbreed nie (tweede leesalleen-feitetoets, 23 September 2026). Moenie dit 'regmaak' sonder 'n besluit wat Graad 4-6 saam raak nie.",
-    "woordkeuse_speeksel": "SPEEKSEL, nie 'spoeg' nie, in hierdie spek en in elke les wat daaruit kom (beslis 23 September 2026 op bewyse, nie smaak nie). Rede: hierdie leerders kom uit Graad 6 Lewensvaardighede, en die enigste AFGELEWERDE lesteks wat die woord in hierdie betekenis gebruik, is Graad 6 les 5 oor pampoentjies - daar staan 'speeksel'. Geen afgelewerde les gebruik 'spoeg' vir mondvog nie; die enigste treffer is 'n kraan wat water uitspoeg. Een woord oor twee grade weeg swaarder as die gewoner woord, en die twee lesse praat oor dieselfde soort feit.",
-    "status": "KLAAR - skoon op sy derde leesalleen-feitetoets, 23 September 2026. Geen verdere voorskryf-toets nie. Die bewoording is vas: kopieer dit woord vir woord en skryf geen nuwe een nie. Dit gaan in kaps/gedeelde-omskrywings-lewensorientering-gr7.json.",
-    "moenie_ongedaan_maak_nie": "'DEUR', NIE 'IN' NIE. Die derde toets het uitgesonder dat 'deur' die herskryf oorleef het, sodat ronde 1 se fout nie teruggekom het nie: die bewering dat die virus nie in speeksel TEENWOORDIG is nie, is VALS - MIV is in speeksel en trane gevind, in uiters klein hoeveelhede, en wat waar is, is dat dit nie DAARDEUR oordra nie. Enigeen wat 'deur' na 'in' verander, herstel 'n fout wat drie toetse gekos het. Net so bly die toegangsvoorwaarde ('binne-in 'n ander mens se liggaam kom') en die woord 'sekere' staan.",
-    "aanvaarde_beperking": "AANVAAR EN NIE HEROPEN NIE (23 September 2026): die inskrywing se nie uitdruklik dat die vog van iemand MET die virus moet kom nie. 'van mens tot mens gaan' impliseer dit, maar 'n kind wat onder spanning lees, kan dit as 'bloed binne-in die liggaam = MIV' hoor. Dit is te klein om 'n sin wat so na aan reg is, weer oop te maak; die LESTEKS dra dit waar dit saak maak - sien les 9 se kern."
-   },
-   "childline": {
-    "graad_7": "'n Diens wat 'n kind self kan bel wanneer sy hulp nodig het - gratis, dag en nag, en sy hoef nie vir 'n grootmens te vra om te bel nie.",
-    "graad_4_tot_6": "'n Diens wat kinders kan bel wanneer hulle hulp nodig het.",
-    "wat_verbreed_het": "drie feite is by: 'n kind bel SELF, dit is GRATIS, en dit is DAG EN NAG oop.",
-    "rede": "REGGEMAAK NA DIE EERSTE FEITETOETS EN DAARNA SKOON DEUR DIE TWEEDE (tweede leesalleen-feitetoets, 23 September 2026). Die eerste regstelling bly: 'sonder dat 'n grootmens help' stel 'n afwesige VEREISTE as 'n afwesige TOESTEMMING, en 'n dertienjarige lees dit as 'doen dit sonder om 'n grootmens te se' - wat teen les 5 se eie kern indruis, waar sy juis met 'n volwassene praat wat sy vertrou. Die vorm 'sy hoef nie te vra nie' is bevestig as die regte een. WAT WAARVANDAAN KOM, sodat niemand later 'n aanhaling aanhaal wat nie bestaan nie: 'gratis' en 'dag en nag' staan albei op childlinesa.org.za; die derde feit is 'n AFLEIDING UIT 'N AFWESIGHEID - die werf se wie mag bel (kinders tot 18, en volwassenes wat oor 'n kind bekommerd is) en stel geen voorwaarde oor toestemming nie. GRENS: 'dag en nag' geld vir die TELEFOONLYN en nie vir die aanlynklets nie, wat net weeksdae loop - die oomblik dat 'n les die klets noem, hou 'dag en nag' op om waar te wees. GEEN NOMMER, in geen les nie.",
-    "lesse": [
-     5,
-     12
-    ],
-    "status": "KLAAR - skoon op sy tweede leesalleen-feitetoets, 23 September 2026. Geen verdere voorskryf-toets nie. Die bewoording is vas: kopieer dit woord vir woord en skryf geen nuwe een nie. Dit gaan in kaps/gedeelde-omskrywings-lewensorientering-gr7.json."
-   }
-  }
- },
- "wat_reeds_geleer_is": [
-  "Graad 5 en 6 Lewensvaardighede het TB gedek (deur die lug, nie deur 'n beker nie; 'n hoes van twee weke of langer; nie elke hoes is TB nie; die medisyne word klaar gedrink). Les 9 stem daarmee ooreen en doen dit NIE oor nie.",
-  "Graad 4, 5 en 6 het MIV en VIGS gedek: die bloedroete, die lys gewone dinge waardeur MIV NIE oorgaan nie, stigma, mites en waarhede, en in Graad 6 al drie roetes in een gewone sin (bloed, ma na baba, en seks sonder 'n kondoom). Les 9 herhaal nie die mites-les nie; dit stel MIV en VIGS as twee van KABV se sewe gewone siektes en gaan aan na behandeling en saamleef.",
-  "Graad 5 en 6 het 'middel' omskryf en gebruik. Les 1 bou op daardie bewoording en begin nie van voor af nie.",
-  "Graad 6 het kieme teenoor virus vasgestel (kieme is lewend; 'n virus word nooit kieme genoem nie) en het die verskil tussen 'n bakterie en 'n virus doelbewus BUITE bestek gehou. Les 9 mag die woord 'bakterie' invoer omdat TB s'n een is, maar verduidelik steeds nie die verskil nie."
- ],
- "registerbesluit": [
-  "Graad 7-9 se registerband (13,0-17,5 woorde per sin) is 'n SKATTING en nie uit werklike teks gemeet nie - die hek sê dit self by hierdie grade. Skryf vir 'n dertienjarige en laat die hek die getalle doen; moenie sinne oprek om 'n band te haal nie.",
-  "Noem KABV se lang woorde EEN keer en skryf daarna gewoon: 'omgewingsgesondheid' bly staan (dit is die konsep wat KABV omskryf), maar 'voorkomingsmaatreëls' word 'hoe 'n mens dit keer', 'probleemoplossingsvaardighede' word nooit in die lesteks geskryf nie, en 'tuberkulose' word een keer genoem en daarna TB.",
-  "'intrapersoonlik' en 'interpersoonlik' is KABV se eie woorde en bly staan, elk met 'n begrip-inskrywing; die lopende teks gebruik daarna 'binne die mens self' en 'tussen mense'.",
-  "Skryf 'n mens wat 'n middel gebruik, nooit as 'n SOORT mens nie: 'iemand wat dwelms gebruik', nooit 'n dwelmslaaf of 'n verslaafde as etiket vir 'n mens nie. Net so by siekte: 'n mens met suikersiekte, nooit 'n suikersiekte-lyer nie."
- ],
- "sensitiewe_inhoud": [
-  "DWELMMISBRUIK IS DIE RISKANTSTE BLOK IN HIERDIE SUBONDERWERP. Drie reëls geld in lesse 1 tot 5 en word nie afgewater nie: geen skrikbewering; geen resep, hoeveelheid of manier van gebruik; en geen gemeenskap, buurt, skool, taalgroep, kultuur of inkomstegroep word as die probleem genoem nie.",
-  "Daar sit waarskynlik 'n leerder in die klas wat by iemand woon wat gebruik, wat self al gebruik het, of wat met een van hierdie siektes leef. Elke sin word geskryf asof sy dit lees. Niemand word 'n waarskuwingsvoorbeeld nie.",
-  "Skryf oor die GEDRAG en die SIEKTE, nooit oor 'n soort mens nie. 'n Mens wat dwelms gebruik, is 'n mens; 'n mens met MIV, epilepsie of vetsug is 'n mens.",
-  "VETSUG EN ANOREKSIE (les 10) raak aan hoe 'n dertienjarige na sy eie lyf kyk. Geen gewig, geen BMI, geen getal, geen metode om gewig te verloor, en geen sin wat 'n liggaam beoordeel. Die les praat oor gesondheid.",
-  "ARMOEDE kom in drie lesse voor (6, 11, 12) en staan elke keer as iets wat 'n mens se keuses kleiner maak, nooit as 'n gebrek by mense met min geld nie.",
-  "Sorg vir 'n siek of verslaafde mens is die VOLWASSENE se verantwoordelikheid. 'n Kind help; 'n kind dra dit nooit, en 'n kind wat wel dra, mag self hulp vra."
- ],
- "buite_bestek": [
-  "GEEN HOEVEELHEID, MENGSEL, MANIER VAN GEBRUIK OF STRAATNAAM vir enige middel, in geen les nie - ook nie as 'n waarskuwing nie.",
-  "GEEN TELEFOONNOMMER in enige les nie, ook nie 'n nood- of hulplynnommer nie. 'n Nommer verouder en niks gaan dit na sodra 'n les goedgekeur is nie.",
-  "GEEN WERKLIKE ORGANISASIE, REHABILITASIESENTRUM, KLINIEK, HOSPITAAL, SKOOL, VELDTOG, WEBTUISTE OF HANDELSMERK BY DIE NAAM nie, met presies EEN uitsondering wat beslis is: Childline mag in lesse 5 en 12 by die naam genoem word (Lampies, 23 September 2026), met die Graad 7-bewoording en SONDER 'n nommer. TERUGGETREK op 23 September 2026, sodat dit nie weer opkom nie: 'n tweede uitsondering wat les 13 sou toelaat om sy noodhulpriglyne by die naam te noem, is ingeskryf en dieselfde dag teruggetrek. Die riglyne wat ons volg, staan in die spek - nie voor die leerder nie.",
-  "GEEN MEDISYNE BY DIE NAAM EN GEEN DOSIS, in geen les nie.",
-  "GEEN WERKLIKE PLEK: geen dorp, buurt, township, plaas of provinsie as die toneel van 'n probleem nie.",
-  "GEEN STATISTIEK, PERSENTASIE OF OORTREFFENDE TRAP sonder 'n Suid-Afrikaanse bron, in geen les nie.",
-  "BUITE HIERDIE SUBONDERWERP SE INHOUD: die verskil tussen 'n bakterie en 'n virus (Graad 6 het dit buite bestek gehou); hoe MIV-medisyne werk; MIV-toetsing; seksuele gedrag (Graad 7 Kwartaal 1 en Graad 9 se werk); die volledige mites-en-waarhede-les oor MIV (Graad 6); en enige noodhulp behalwe die epileptiese aanval in les 13.",
-  "GEEN VRAE IN DIE LESTEKS NIE, in geen les nie. Waar 'n vraag die natuurlike vorm sou wees ('wat ruik jy in die oggend'), word dit 'n stelling."
- ],
- "moeilike_konsepte_besluit": "Drie van dertien lesse flag 'n moeilike konsep, en die res flag niks - dit is 'n besluit. Die drie is: verslawing (les 1), hoe die liggaam die bloedsuiker regeer (les 10), en die verskil tussen 'n risikofaktor en 'n oorsaak (les 11). Al drie is abstrak: 'n mens kan nie na een van hulle kyk nie. Alles anders in hierdie subonderwerp is sigbaar of konkreet - 'n teken by 'n mens, afval in 'n straat, 'n aksieplan, 'n kuur wat klaar gedrink word - en 'n eli10 daaroor sou net die studieteks in korter woorde herhaal. LET WEL: die risikofaktor-idee kom die EERSTE keer in les 3 voor en word daar in gewone prosa gestel; die eli10 staan in les 11, waar KABV se eie bewoording die vals prentjie maak. Dit is met opset nie twee eli10-blokke nie.",
- "dekkingsnasiener_nota": "Toets elke les teen sy EIE kern en sy eie fokusvraag_skakel, nie teen die hele blok nie. Drie dinge is ontwerp en nie gapings nie: (1) KABV se sewe siektes staan oor lesse 9 en 10 saam, so nie een van die twee dek die hele lys; (2) les 2 stop by die opmerk en les 5 dra die optrede, sodat die twee nie oorvleuel nie; (3) groepsdruk, selfgelding en selfbeeld word in lesse 3 en 4 genoem en NIE onderrig nie, want hulle behoort aan die Kwartaal 1-subonderwerp. Praktiese werk - 'n skoonmaakdag, 'n rolspel, 'n plakkaat, 'n projek - gebeur in die klas en ontbreek nie in die les nie: hierdie lesse leer die DENKE agter daardie werk.",
- "taalnasien_kandidate": {
-  "nota": "Vir Lampies om te bevestig en in kaps/beskermde-woorde.json te sit, met die rede daarby. Die beplanner skryf nie aan daardie lêer nie.",
-  "woorde": [
-   "middel - die ooreengekome woord vir 'n stof wat die liggaam of verstand verander; 'n taalnasiener sal dit maklik na 'stof' of 'dwelm' verander en dan is die omskrywing stukkend.",
-   "intrapersoonlik en interpersoonlik - KABV se eie woorde; mag nie 'binne jouself' en 'tussen mense' word nie, al lees dit gladder.",
-   "omgewingsgesondheid - KABV se konsep; mag nie 'gesonde omgewing' word nie, want dit beteken iets anders.",
-   "tekens en simptome - albei woorde saam, met hul afsonderlike ooreengekome betekenisse; mag nie tot een woord verkort word nie.",
-   "MIV en VIGS - Afrikaanse letters; nooit HIV/AIDS nie, en nooit 'MIV/VIGS' as een ding nie.",
-   "mense wat met MIV leef - mag nie na 'MIV-lyers' of 'besmette mense' verkort word nie.",
-   "suikersiekte - KABV se woord; mag nie deurgaans 'diabetes' word nie.",
-   "vetsug en anoreksie - KABV se woorde; mag nie na 'oorgewig' of 'eetversteuring' verskuif word nie, want dit is nie dieselfde ding nie.",
-   "epileptiese aanval - mag nie 'stuiptrekking' of 'toeval' word nie.",
-   "vroeë bespeuring - KABV se woorde vir die subpunt; die lopende teks mag gewoner skryf, maar die term self bly.",
-   "Childline - die naam bly presies so; mag nie vertaal, verafrikaans of 'die kinderhulplyn' word nie, en die woorde 'gratis' en 'dag en nag' mag nie uitgehaal word nie (Lampies, 23 September 2026).",
-   "'binne-in 'n ander mens se liggaam kom', 'sekere ander liggaamsvogte' en 'nie DEUR speeksel, sweet of trane nie' - al drie is dele van die Graad 7-bewoording van MIV. Nie een mag uitgehaal of ingekort word nie: 'sekere' mag nie wegval nie, 'deur' mag nie 'in' word nie (die virus IS in speeksel, maar dra nie daardeur oor nie), en die 'binne-in ... kom'-deel mag nie afgekort word tot 'aanraak' of 'in kontak kom' nie - dit is juis die voorwaarde wat 'n bloedneus veilig maak.",
-   "sy hoef nie vir 'n grootmens te vra om te bel nie - Childline se Graad 7-bewoording; mag nie 'sonder 'n grootmens' word nie, want dit se iets anders.",
-   "speeksel - nie 'spoeg' nie. Graad 6 se afgelewerde les oor pampoentjies gebruik 'speeksel', en een woord oor twee grade weeg swaarder as die gewoner woord. 'n Taalnasiener sal 'spoeg' natuurliker vind; dit mag nie verander word nie."
+  "verdeling_nota": "BEVESTIG (Lampies, 23 September 2026): die dertien lesse bly staan - die inhoud bepaal die getal. DERTIEN LESSE, in KABV se eie volgorde. Die blok se SUBPUNTE is die leseenheid, want dit is die fynste ding wat KABV in die Senior Fase spesifiseer. Blok 1 (dwelmmisbruik, 4 uur) het vyf subpunte en word lesse 1-5, een per subpunt. Blok 2 (omgewingsgesondheid, 3 uur) het drie subpunte en word lesse 6-8. Blok 3 (algemene siektes, 3 uur) het vier subpunte, maar die eerste daarvan noem SEWE siektes by die naam en elkeen is verpligtend; dit word oor twee lesse verdeel (9 en 10) op die naat oordraagbaar teenoor nie-oordraagbaar, sodat elke siekte ongeveer honderd woorde kry eerder as sewentig, en sodat vetsug en anoreksie die versigtige hantering kry wat hulle verg. Die ander drie subpunte word lesse 11, 12 en 13. OORWEEG EN VERWERP: al sewe siektes in een les van 700 woorde met 'n plafon_uitsondering - dit druk 'n les teen die plafon vas terwyl sewe items verpligtend is, en dit is presies waar 'n skrywer oorskiet of verdun. Geen ander skeur- of saamvoegreël is toegepas nie. Die nommers 1-13 is die volgorde BINNE hierdie subonderwerp; jaarnommers word nie hier geraai nie, want die ander drie Graad 7-onderwerpe se lesse loop tussenin.",
+  "gedeelde_omskrywings": {
+    "nota": "kaps/gedeelde-omskrywings-lewensorientering-gr7.json is nog leeg. Hierdie leerders kom uit Graad 6 Lewensvaardighede: waar 'n term daar 'n ooreengekome, feitgetoetste bewoording het, word dit WOORD VIR WOORD oorgeneem en geen nuwe een geskryf nie. Die voorbeelde na 'soos' mag per les verskil. LET WEL: bin/woordelysdrif.py vind 'n lys op sy eie 'vak' en 'graad', so die Graad 6-lys (vak 'Lewensvaardighede') word NIE outomaties teen hierdie Graad 7-lesse getoets nie - die oorname moet met die hand in die Graad 7-lys beland sodra die eerste les die term gebruik.",
+    "neem_woord_vir_woord_oor_uit_graad_6": {
+      "middel": [
+        1,
+        3,
+        4,
+        5,
+        11
+      ],
+      "medisyne": [
+        1,
+        9,
+        12,
+        13
+      ],
+      "simptoom": [
+        2,
+        9,
+        10
+      ],
+      "teken": [
+        2,
+        9,
+        10,
+        13
+      ],
+      "kliniek": [
+        5,
+        9,
+        12,
+        13
+      ],
+      "maatskaplike werker": [
+        5,
+        12
+      ],
+      "vigs": [
+        9,
+        13
+      ],
+      "kieme": [
+        9
+      ],
+      "virus": [
+        9
+      ],
+      "afknouery": [
+        3
+      ],
+      "stereotipe": [
+        10,
+        13
+      ],
+      "diskriminasie": [
+        13
+      ]
+    },
+    "oor_grade_heen": "BESLIS (Lampies, 23 September 2026): TWEE terme VERBREED in Graad 7 - 'miv' en 'childline'. Hulle volledige bewoordings staan in verbreed_in_graad_7 hieronder, en hulle word NIE meer woord vir woord uit Graad 6 oorgeneem nie. Graad 4-6 bly presies soos afgelewer. Die reel waaronder dit gebeur: 'n omskrywing mag oor grade heen verbreed wanneer die kurrikulum verbreed (Drico, 9 September 2026). Al die ander terme in die lys hierbo word onveranderd oorgeneem, en 'n Graad 7-les mag NIE 'n Graad 6-bewoording verryk bloot omdat sy eie blok dieper gaan nie.",
+    "kruis_subonderwerp": "DRIE TERME BEHOORT AAN 'N ANDER GRAAD 7-SUBONDERWERP en moet VOOR die eerste konsep tussen die twee spesifikasies besleg word, nie by versoening nie: 'groepsdruk' en 'selfgelding/selfversekerdheid' kom uit Selfontwikkeling in die samelewing, Kwartaal 1 weke 6-8 (lesse 3, 4 en 5 hier leun daarop en herbou dit NIE), en 'selfbeeld' kom uit Kwartaal 1 weke 1-2 (lesse 3 en 4 gebruik dit). 'dwelm' en 'dwelmmisbruik' loop andersom: hierdie subonderwerp omskryf hulle, en die Kwartaal 1-groepsdrukles noem 'dwelmgebruik' - daardie les erf hierdie bewoording.",
+    "nuwe_terme": "Terme wat hierdie subonderwerp invoer, elk met 'n begrip-inskrywing wat ALLEEN gelees kan word (lees dit met die res van die les weggedink en vra waarop dit nog pas): dwelm, dwelmmisbruik, verslawing (les 1); intrapersoonlik, interpersoonlik, risikofaktor (les 3); beskermende faktor (les 4); vroeë bespeuring, berader (les 5); omgewingsgesondheid, sanitasie, besoedeling, plaag (les 6); herwinning (les 7); aksieplan (les 8); oordraagbaar, bakterie, tuberkulose/TB (les 9); nie-oordraagbaar, suikersiekte, insulien, epilepsie, epileptiese aanval, vetsug, anoreksie (les 10); chronies, behandeling (les 12); ondersteuningsgroep, stigma (les 13). Elkeen wat in meer as een les voorkom, kry EEN bewoording en gaan in kaps/gedeelde-omskrywings-lewensorientering-gr7.json sodra die konsepte wys wie dit gebruik.",
+    "let_op_oordraagbaar": "'oordraagbaar' staan NIE in die Graad 6-lys nie, maar Graad 6 Lewensvaardighede se les oor oordraagbare siektes voer dit in en is afgelewer. Lees daardie les se begrip-inskrywing voordat les 9 s'n geskryf word, en hou dieselfde bewoording tensy die Graad 7-inhoud dit werklik verbreed. Die drifsweep kan dit nie sien nie, want dit is 'n ander vak.",
+    "verbreed_in_graad_7": {
+      "nota": "ALBEI TERME IS KLAAR (23 September 2026) en geen verdere voorskryf-feitetoets word op hulle gedoen nie. Childline was skoon op sy TWEEDE leesalleen-toets; MIV op sy DERDE, na drie regstellings - alle vogte, toe teenwoordigheid teenoor oordrag, toe die ontbrekende toegangsvoorwaarde. Albei gaan nou in kaps/gedeelde-omskrywings-lewensorientering-gr7.json, en 'n les kopieer hulle woord vir woord. Elke term se eie velde se wat nie ongedaan gemaak mag word nie en watter beperking aanvaar is. Dieselfde toets geld nog vir die NUWE terme wat hierdie subonderwerp invoer (sien nuwe_terme) - net nie meer vir hierdie twee nie.",
+      "miv": {
+        "graad_7": "'n Virus wat van mens tot mens gaan wanneer bloed of sekere ander liggaamsvogte binne-in 'n ander mens se liggaam kom - nie deur speeksel, sweet of trane nie - en wat sonder behandeling die liggaam se afweer teen siekte swakker maak.",
+        "graad_4_tot_6": "'n Virus in die bloed wat die liggaam se afweer swakker maak.",
+        "wat_verbreed_het": "Vier dinge is by: 'sekere ander liggaamsvogte' (nie ALLE nie); die TOEGANGSVOORWAARDE 'wanneer ... binne-in 'n ander mens se liggaam kom'; die uitdruklike 'nie deur speeksel, sweet of trane nie'; en 'sonder behandeling'. 'afweer' is ook 'afweer teen siekte'. Die bewoording praat deurgaans van OORDRAG, nie van waar die virus TEENWOORDIG is nie.",
+        "rede": "DRIE KEER REGGEMAAK, EN DIE DERDE REGSTELLING IS DIE TOEGANGSVOORWAARDE (derde leesalleen-feitetoets, 23 September 2026): 'van mens tot mens gaan' se nie HOE die vog by die ander mens moet uitkom nie. Alleen gelees verklaar die sin speeksel, sweet en trane veilig en laat bloed heeltemal onbegrens - sodat 'n leerder wat 'n maat met 'n bloedneus help, geen antwoord uit die inskrywing kry nie, en die vorm van die sin hom na die verkeerde antwoord stoot. Dit is die stigmakant, en dit is presies wat Graad 4, 5 en 6 met hul lys gewone dinge toegemaak het. Die vog moet BINNE-IN die ander mens se liggaam kom; die res van die toegangsfeit - gewone kontak dra dit nie oor nie, en die virus hou nie lank buite die liggaam nie - dra les 9 se kern, want 'n woordelysinskrywing kan dit nie alles dra en kort bly nie. DIE TWEEDE REGSTELLING BLY: die uitsluiting gaan oor OORDRAG en nie oor TEENWOORDIGHEID nie. MIV IS in speeksel en in trane gevind, in uiters klein hoeveelhede; wat waar is, is dat dit NIE DEUR hulle oorgedra word nie, en die CDC en Stanford stel albei helftes so. DIE EERSTE REGSTELLING BLY OOK: 'sekere' bly, want 'bloed en ander liggaamsvogte' beteken alleen gelees ALLE vogte. Die vogte wat WEL oordra, is bloed, semen, voorvog, rektale vog, vaginale vog en borsmelk - dit staan hier vir die skrywer en die nasiener, en geen les lys hulle vir 'n Graad 7-leerder nie. 'sonder behandeling' is by omdat les 9 se eie kern se dat medisyne 'n mens met MIV gesond hou. Waarom Graad 7 hoegenaamd verbreed: KABV Graad 7 onderrig MIV en VIGS as een van die gewone siektes, en die Graad 4-6-bewoording ('in die bloed') laat ander vogte uit. Die Kwartaal 1-beplanner wys na hierdie blok en besleg nie 'n tweede bewoording nie.",
+        "lesse": [
+          9,
+          11,
+          13
+        ],
+        "bekende_tekortkoming": "'die liggaam se afweer teen siekte swakker maak' pas ook op masels, TB, wanvoeding en chemoterapie, want dit se nie dat MIV die afweerselle SELF aanval nie. Dit is uit die afgelewerde Graad 4-6-bewoording geerf, dit is opgeteken, en dit word HIER NIE verder verbreed nie (tweede leesalleen-feitetoets, 23 September 2026). Moenie dit 'regmaak' sonder 'n besluit wat Graad 4-6 saam raak nie.",
+        "woordkeuse_speeksel": "SPEEKSEL, nie 'spoeg' nie, in hierdie spek en in elke les wat daaruit kom (beslis 23 September 2026 op bewyse, nie smaak nie). Rede: hierdie leerders kom uit Graad 6 Lewensvaardighede, en die enigste AFGELEWERDE lesteks wat die woord in hierdie betekenis gebruik, is Graad 6 les 5 oor pampoentjies - daar staan 'speeksel'. Geen afgelewerde les gebruik 'spoeg' vir mondvog nie; die enigste treffer is 'n kraan wat water uitspoeg. Een woord oor twee grade weeg swaarder as die gewoner woord, en die twee lesse praat oor dieselfde soort feit.",
+        "status": "KLAAR - skoon op sy derde leesalleen-feitetoets, 23 September 2026. Geen verdere voorskryf-toets nie. Die bewoording is vas: kopieer dit woord vir woord en skryf geen nuwe een nie. Dit gaan in kaps/gedeelde-omskrywings-lewensorientering-gr7.json.",
+        "moenie_ongedaan_maak_nie": "'DEUR', NIE 'IN' NIE. Die derde toets het uitgesonder dat 'deur' die herskryf oorleef het, sodat ronde 1 se fout nie teruggekom het nie: die bewering dat die virus nie in speeksel TEENWOORDIG is nie, is VALS - MIV is in speeksel en trane gevind, in uiters klein hoeveelhede, en wat waar is, is dat dit nie DAARDEUR oordra nie. Enigeen wat 'deur' na 'in' verander, herstel 'n fout wat drie toetse gekos het. Net so bly die toegangsvoorwaarde ('binne-in 'n ander mens se liggaam kom') en die woord 'sekere' staan.",
+        "aanvaarde_beperking": "AANVAAR EN NIE HEROPEN NIE (23 September 2026): die inskrywing se nie uitdruklik dat die vog van iemand MET die virus moet kom nie. 'van mens tot mens gaan' impliseer dit, maar 'n kind wat onder spanning lees, kan dit as 'bloed binne-in die liggaam = MIV' hoor. Dit is te klein om 'n sin wat so na aan reg is, weer oop te maak; die LESTEKS dra dit waar dit saak maak - sien les 9 se kern."
+      },
+      "childline": {
+        "graad_7": "'n Diens wat 'n kind self kan bel wanneer sy hulp nodig het - gratis, dag en nag, en sy hoef nie vir 'n grootmens te vra om te bel nie.",
+        "graad_4_tot_6": "'n Diens wat kinders kan bel wanneer hulle hulp nodig het.",
+        "wat_verbreed_het": "drie feite is by: 'n kind bel SELF, dit is GRATIS, en dit is DAG EN NAG oop.",
+        "rede": "REGGEMAAK NA DIE EERSTE FEITETOETS EN DAARNA SKOON DEUR DIE TWEEDE (tweede leesalleen-feitetoets, 23 September 2026). Die eerste regstelling bly: 'sonder dat 'n grootmens help' stel 'n afwesige VEREISTE as 'n afwesige TOESTEMMING, en 'n dertienjarige lees dit as 'doen dit sonder om 'n grootmens te se' - wat teen les 5 se eie kern indruis, waar sy juis met 'n volwassene praat wat sy vertrou. Die vorm 'sy hoef nie te vra nie' is bevestig as die regte een. WAT WAARVANDAAN KOM, sodat niemand later 'n aanhaling aanhaal wat nie bestaan nie: 'gratis' en 'dag en nag' staan albei op childlinesa.org.za; die derde feit is 'n AFLEIDING UIT 'N AFWESIGHEID - die werf se wie mag bel (kinders tot 18, en volwassenes wat oor 'n kind bekommerd is) en stel geen voorwaarde oor toestemming nie. GRENS: 'dag en nag' geld vir die TELEFOONLYN en nie vir die aanlynklets nie, wat net weeksdae loop - die oomblik dat 'n les die klets noem, hou 'dag en nag' op om waar te wees. GEEN NOMMER, in geen les nie.",
+        "lesse": [
+          5,
+          12
+        ],
+        "status": "KLAAR - skoon op sy tweede leesalleen-feitetoets, 23 September 2026. Geen verdere voorskryf-toets nie. Die bewoording is vas: kopieer dit woord vir woord en skryf geen nuwe een nie. Dit gaan in kaps/gedeelde-omskrywings-lewensorientering-gr7.json."
+      }
+    }
+  },
+  "wat_reeds_geleer_is": [
+    "Graad 5 en 6 Lewensvaardighede het TB gedek (deur die lug, nie deur 'n beker nie; 'n hoes van twee weke of langer; nie elke hoes is TB nie; die medisyne word klaar gedrink). Les 9 stem daarmee ooreen en doen dit NIE oor nie.",
+    "Graad 4, 5 en 6 het MIV en VIGS gedek: die bloedroete, die lys gewone dinge waardeur MIV NIE oorgaan nie, stigma, mites en waarhede, en in Graad 6 al drie roetes in een gewone sin (bloed, ma na baba, en seks sonder 'n kondoom). Les 9 herhaal nie die mites-les nie; dit stel MIV en VIGS as twee van KABV se sewe gewone siektes en gaan aan na behandeling en saamleef.",
+    "Graad 5 en 6 het 'middel' omskryf en gebruik. Les 1 bou op daardie bewoording en begin nie van voor af nie.",
+    "Graad 6 het kieme teenoor virus vasgestel (kieme is lewend; 'n virus word nooit kieme genoem nie) en het die verskil tussen 'n bakterie en 'n virus doelbewus BUITE bestek gehou. Les 9 mag die woord 'bakterie' invoer omdat TB s'n een is, maar verduidelik steeds nie die verskil nie."
+  ],
+  "registerbesluit": [
+    "Graad 7-9 se registerband (13,0-17,5 woorde per sin) is 'n SKATTING en nie uit werklike teks gemeet nie - die hek sê dit self by hierdie grade. Skryf vir 'n dertienjarige en laat die hek die getalle doen; moenie sinne oprek om 'n band te haal nie.",
+    "Noem KABV se lang woorde EEN keer en skryf daarna gewoon: 'omgewingsgesondheid' bly staan (dit is die konsep wat KABV omskryf), maar 'voorkomingsmaatreëls' word 'hoe 'n mens dit keer', 'probleemoplossingsvaardighede' word nooit in die lesteks geskryf nie, en 'tuberkulose' word een keer genoem en daarna TB.",
+    "'intrapersoonlik' en 'interpersoonlik' is KABV se eie woorde en bly staan, elk met 'n begrip-inskrywing; die lopende teks gebruik daarna 'binne die mens self' en 'tussen mense'.",
+    "Skryf 'n mens wat 'n middel gebruik, nooit as 'n SOORT mens nie: 'iemand wat dwelms gebruik', nooit 'n dwelmslaaf of 'n verslaafde as etiket vir 'n mens nie. Net so by siekte: 'n mens met suikersiekte, nooit 'n suikersiekte-lyer nie."
+  ],
+  "sensitiewe_inhoud": [
+    "DWELMMISBRUIK IS DIE RISKANTSTE BLOK IN HIERDIE SUBONDERWERP. Drie reëls geld in lesse 1 tot 5 en word nie afgewater nie: geen skrikbewering; geen resep, hoeveelheid of manier van gebruik; en geen gemeenskap, buurt, skool, taalgroep, kultuur of inkomstegroep word as die probleem genoem nie.",
+    "Daar sit waarskynlik 'n leerder in die klas wat by iemand woon wat gebruik, wat self al gebruik het, of wat met een van hierdie siektes leef. Elke sin word geskryf asof sy dit lees. Niemand word 'n waarskuwingsvoorbeeld nie.",
+    "Skryf oor die GEDRAG en die SIEKTE, nooit oor 'n soort mens nie. 'n Mens wat dwelms gebruik, is 'n mens; 'n mens met MIV, epilepsie of vetsug is 'n mens.",
+    "VETSUG EN ANOREKSIE (les 10) raak aan hoe 'n dertienjarige na sy eie lyf kyk. Geen gewig, geen BMI, geen getal, geen metode om gewig te verloor, en geen sin wat 'n liggaam beoordeel. Die les praat oor gesondheid.",
+    "ARMOEDE kom in drie lesse voor (6, 11, 12) en staan elke keer as iets wat 'n mens se keuses kleiner maak, nooit as 'n gebrek by mense met min geld nie.",
+    "Sorg vir 'n siek of verslaafde mens is die VOLWASSENE se verantwoordelikheid. 'n Kind help; 'n kind dra dit nooit, en 'n kind wat wel dra, mag self hulp vra."
+  ],
+  "buite_bestek": [
+    "GEEN HOEVEELHEID, MENGSEL, MANIER VAN GEBRUIK OF STRAATNAAM vir enige middel, in geen les nie - ook nie as 'n waarskuwing nie.",
+    "GEEN TELEFOONNOMMER in enige les nie, ook nie 'n nood- of hulplynnommer nie. 'n Nommer verouder en niks gaan dit na sodra 'n les goedgekeur is nie.",
+    "GEEN WERKLIKE ORGANISASIE, REHABILITASIESENTRUM, KLINIEK, HOSPITAAL, SKOOL, VELDTOG, WEBTUISTE OF HANDELSMERK BY DIE NAAM nie, met presies EEN uitsondering wat beslis is: Childline mag in lesse 5 en 12 by die naam genoem word (Lampies, 23 September 2026), met die Graad 7-bewoording en SONDER 'n nommer. TERUGGETREK op 23 September 2026, sodat dit nie weer opkom nie: 'n tweede uitsondering wat les 13 sou toelaat om sy noodhulpriglyne by die naam te noem, is ingeskryf en dieselfde dag teruggetrek. Die riglyne wat ons volg, staan in die spek - nie voor die leerder nie.",
+    "GEEN MEDISYNE BY DIE NAAM EN GEEN DOSIS, in geen les nie.",
+    "GEEN WERKLIKE PLEK: geen dorp, buurt, township, plaas of provinsie as die toneel van 'n probleem nie.",
+    "GEEN STATISTIEK, PERSENTASIE OF OORTREFFENDE TRAP sonder 'n Suid-Afrikaanse bron, in geen les nie.",
+    "BUITE HIERDIE SUBONDERWERP SE INHOUD: die verskil tussen 'n bakterie en 'n virus (Graad 6 het dit buite bestek gehou); hoe MIV-medisyne werk; MIV-toetsing; seksuele gedrag (Graad 7 Kwartaal 1 en Graad 9 se werk); die volledige mites-en-waarhede-les oor MIV (Graad 6); en enige noodhulp behalwe die epileptiese aanval in les 13.",
+    "GEEN VRAE IN DIE LESTEKS NIE, in geen les nie. Waar 'n vraag die natuurlike vorm sou wees ('wat ruik jy in die oggend'), word dit 'n stelling."
+  ],
+  "moeilike_konsepte_besluit": "Drie van dertien lesse flag 'n moeilike konsep, en die res flag niks - dit is 'n besluit. Die drie is: verslawing (les 1), hoe die liggaam die bloedsuiker regeer (les 10), en die verskil tussen 'n risikofaktor en 'n oorsaak (les 11). Al drie is abstrak: 'n mens kan nie na een van hulle kyk nie. Alles anders in hierdie subonderwerp is sigbaar of konkreet - 'n teken by 'n mens, afval in 'n straat, 'n aksieplan, 'n kuur wat klaar gedrink word - en 'n eli10 daaroor sou net die studieteks in korter woorde herhaal. LET WEL: die risikofaktor-idee kom die EERSTE keer in les 3 voor en word daar in gewone prosa gestel; die eli10 staan in les 11, waar KABV se eie bewoording die vals prentjie maak. Dit is met opset nie twee eli10-blokke nie.",
+  "dekkingsnasiener_nota": "Toets elke les teen sy EIE kern en sy eie fokusvraag_skakel, nie teen die hele blok nie. Drie dinge is ontwerp en nie gapings nie: (1) KABV se sewe siektes staan oor lesse 9 en 10 saam, so nie een van die twee dek die hele lys; (2) les 2 stop by die opmerk en les 5 dra die optrede, sodat die twee nie oorvleuel nie; (3) groepsdruk, selfgelding en selfbeeld word in lesse 3 en 4 genoem en NIE onderrig nie, want hulle behoort aan die Kwartaal 1-subonderwerp. Praktiese werk - 'n skoonmaakdag, 'n rolspel, 'n plakkaat, 'n projek - gebeur in die klas en ontbreek nie in die les nie: hierdie lesse leer die DENKE agter daardie werk.",
+  "taalnasien_kandidate": {
+    "nota": "Vir Lampies om te bevestig en in kaps/beskermde-woorde.json te sit, met die rede daarby. Die beplanner skryf nie aan daardie lêer nie.",
+    "woorde": [
+      "middel - die ooreengekome woord vir 'n stof wat die liggaam of verstand verander; 'n taalnasiener sal dit maklik na 'stof' of 'dwelm' verander en dan is die omskrywing stukkend.",
+      "intrapersoonlik en interpersoonlik - KABV se eie woorde; mag nie 'binne jouself' en 'tussen mense' word nie, al lees dit gladder.",
+      "omgewingsgesondheid - KABV se konsep; mag nie 'gesonde omgewing' word nie, want dit beteken iets anders.",
+      "tekens en simptome - albei woorde saam, met hul afsonderlike ooreengekome betekenisse; mag nie tot een woord verkort word nie.",
+      "MIV en VIGS - Afrikaanse letters; nooit HIV/AIDS nie, en nooit 'MIV/VIGS' as een ding nie.",
+      "mense wat met MIV leef - mag nie na 'MIV-lyers' of 'besmette mense' verkort word nie.",
+      "suikersiekte - KABV se woord; mag nie deurgaans 'diabetes' word nie.",
+      "vetsug en anoreksie - KABV se woorde; mag nie na 'oorgewig' of 'eetversteuring' verskuif word nie, want dit is nie dieselfde ding nie.",
+      "epileptiese aanval - mag nie 'stuiptrekking' of 'toeval' word nie.",
+      "vroeë bespeuring - KABV se woorde vir die subpunt; die lopende teks mag gewoner skryf, maar die term self bly.",
+      "Childline - die naam bly presies so; mag nie vertaal, verafrikaans of 'die kinderhulplyn' word nie, en die woorde 'gratis' en 'dag en nag' mag nie uitgehaal word nie (Lampies, 23 September 2026).",
+      "'binne-in 'n ander mens se liggaam kom', 'sekere ander liggaamsvogte' en 'nie DEUR speeksel, sweet of trane nie' - al drie is dele van die Graad 7-bewoording van MIV. Nie een mag uitgehaal of ingekort word nie: 'sekere' mag nie wegval nie, 'deur' mag nie 'in' word nie (die virus IS in speeksel, maar dra nie daardeur oor nie), en die 'binne-in ... kom'-deel mag nie afgekort word tot 'aanraak' of 'in kontak kom' nie - dit is juis die voorwaarde wat 'n bloedneus veilig maak.",
+      "sy hoef nie vir 'n grootmens te vra om te bel nie - Childline se Graad 7-bewoording; mag nie 'sonder 'n grootmens' word nie, want dit se iets anders.",
+      "speeksel - nie 'spoeg' nie. Graad 6 se afgelewerde les oor pampoentjies gebruik 'speeksel', en een woord oor twee grade weeg swaarder as die gewoner woord. 'n Taalnasiener sal 'spoeg' natuurliker vind; dit mag nie verander word nie."
+    ]
+  },
+  "lesse": [
+    {
+      "nommer": 1,
+      "kwartaal": 3,
+      "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
+      "titel": "Wanneer 'n middel skade begin doen",
+      "titel_nota": "Werktitel. Noem die oomblik waarop gebruik misbruik word, nie die KABV-etiket nie. Die skrywer mag dit verbeter.",
+      "kaps_punt": "Dwelmmisbruik: Soorte/vorms van dwelmmisbruik",
+      "begroting": 600,
+      "begrotingsnota": "600 woorde. Rigverdeling: wat 'n middel is en wat 'n dwelm is ongeveer 70; wat MISBRUIK beteken, teenoor die regte gebruik van medisyne, ongeveer 90; die vier soorte middels ongeveer 240 (ongeveer 60 elk); die drie vorms van gebruik ongeveer 110; verslawing ongeveer 90. Dit is die langste les van die blok omdat dit die hele blok se woordeskat dra; die ander vier lesse gebruik dit en herhaal dit nie.",
+      "termdig": true,
+      "termdig_nota": "Verwag vyf of ses begrip-inskrywings: middel (oorgeneem), dwelm, dwelmmisbruik, verslawing, en die name wat die les werklik gebruik. Moenie 'n woordelys van middelname bou nie.",
+      "kern": [
+        "Wat 'n middel is: gebruik die ooreengekome bewoording WOORD VIR WOORD uit die gedeelde lys. Die voorbeelde na 'soos' mag by hierdie les pas.",
+        "Wat 'n dwelm is en hoe dit van 'n middel verskil, in een gewone sin - KABV gebruik albei woorde en 'n leerder moet weet dat elke dwelm 'n middel is, maar nie elke middel 'n dwelm nie.",
+        "WAT MISBRUIK BETEKEN, en dit is die spil van die les: 'n middel gebruik op 'n manier waarvoor dit nie bedoel is nie, of deur iemand vir wie dit nie bedoel is nie, of in 'n hoeveelheid wat skade doen. Stel dit langs die REGTE gebruik: medisyne wat 'n dokter of 'n kliniek gee, presies soos voorgeskryf, is nie misbruik nie.",
+        "BESLIS (Lampies, 23 September 2026) EN VERNOU NA DIE FEITETOETS VAN DIE SPESIFIKASIE, 23 SEPTEMBER 2026: die les NOEM alkohol, tabak en e-sigarette by die naam en noem GEEN onwettige middel by die naam nie - MAAR die les koppel GEEN OUDERDOMSWET aan e-sigarette nie, en skryf ook nie die teenoorgestelde nie. Die SOORTE middels wat misbruik word, in vier groepe en nie as 'n lys name nie: (a) alkohol en tabak, wat vir volwassenes wettig is maar nie vir kinders nie; (b) e-sigarette, wat saam hier staan omdat kinders hulle teekom en omdat hulle skade doen, en waaroor die les niks se oor wat die wet daarmee doen nie; (c) medisyne wat verkeerd gebruik word - iemand anders s'n, meer as wat voorgeskryf is, of medisyne wat sonder 'n voorskrif gekoop word; (d) gewone huishoudelike goed wat ingeasem word, sonder om te se watter goed of hoe; (e) middels wat onwettig is om te verkoop, te gee of te besit - hierdie groep bly SONDER 'n naam. By (e) staan die een ding wat wel vir elke sulke middel waar is: dit is onwettig om dit aan 'n kind te gee of te verkoop.",
+        "Die VORMS van dwelmmisbruik as 'n patroon oor tyd: iemand probeer dit een of twee keer; iemand gebruik gereeld; iemand kan nie meer ophou nie. Sê uitdruklik dat die stap van die een na die ander nie vir elke mens dieselfde verloop nie en dat niemand vooruit weet vir wie dit vinnig gaan nie.",
+        "Verslawing (aanvulling): DIE OMSKRYWING DRAAI OM AANHOU GEBRUIK AL DOEN DIT SKADE, en al wil die mens ophou (feitetoets van die spesifikasie, 23 September 2026). Moenie siek word wanneer 'n mens ophou, deel van die omskrywing maak nie: by party middels gebeur dit skaars, en 'n omskrywing wat dit vereis, laat juis daardie middels uit. Stel dit as iets wat met enige mens kan gebeur en nie as 'n swakheid nie.",
+        "WAT DIE LES NIE DOEN NIE, en dit is deel van die inhoud: geen hoeveelhede, geen manier van gebruik, geen mengsels, geen straatname, en geen plek, skool, buurt of groep mense word as die gebruikers genoem nie."
+      ],
+      "aanvulling": [
+        {
+          "item": "Verslawing as begrip",
+          "regverdiging": "KABV se subpunt noem die soorte en vorms van misbruik, maar nie verslawing by die naam nie. Sonder dit is die derde vorm - iemand wat nie kan ophou nie - net 'n etiket sonder 'n meganisme, en die hele blok se res verloor sy rede: vroeë bespeuring (les 5) bestaan juis omdat gebruik in afhanklikheid kan oorgaan, en beskermende faktore (les 4) verminder juis daardie kans. KABV noem verslawing self in die Graad 8- en 9-inhoud, so die begrip in Graad 7 invoer volg KABV se eie lyn."
+        }
+      ],
+      "moeilike_konsepte": [
+        "Hoe 'n middel 'n mens se liggaam en brein laat aanhou soek na nog, al wil hy ophou"
+      ],
+      "feiterisiko": [
+        "GAAN ELKE BEWERING OOR WAT 'N MIDDEL AAN DIE LIGGAAM DOEN NA VOORDAT DIT GESKRYF WORD, teen 'n Suid-Afrikaanse of hoofstroom-gesondheidsbron. Nie een van die kern-items is deur die beplanner geverifieer nie.",
+        "GEEN SKRIKBEWERING NIE. Moenie skryf dat een keer gebruik 'n mens verslaaf maak, dat elke mens wat gebruik verslaaf raak, of dat 'n middel altyd tot 'n ander middel lei ('die deurgangsdwelm') - die laaste een is omstrede en word nie gestel nie. Skryf wat bronne werklik steun, met 'kan' en 'maak die kans groter'.",
+        "DIE WETTIGE OUDERDOMME IS NAGEGAAN (feitetoets van die spesifikasie, 23 September 2026) EN STAAN SO: alkohol (Drankwet 59 van 2003) en tabak (Wet op Beheer van Tabakprodukte 83 van 1993) is reg en mag geskryf word. E-SIGARETTE HET IN SUID-AFRIKA GEEN OUDERDOMSWET NIE: die meeste bevat geen tabak nie, sodat die Tabakwet hulle nie dek nie, en die ouderdomsreel staan in wetsontwerp B33-2022, wat in September 2026 nog in komitee was. Skryf dus NIE dat 'n kind nie e-sigarette mag koop of he nie - en skryf ook nie dat hy wel mag nie. Die les se net dat hulle skade doen.",
+        "MOENIE SKRYF DAT 'N LEERDER NIE DAGGA MAG HE NIE, en noem dagga glad nie by die naam nie (Lampies, 23 September 2026). Die rede staan hier sodat niemand dit later 'verbeter' nie: privaat gebruik deur volwassenes is in Suid-Afrika gedekriminaliseer, sodat ''n mens mag nie dagga he nie' vals is soos dit staan. Wat die les wel se - en wat nagegaan word voordat dit geskryf word - is dat dit onwettig is om so 'n middel aan 'n kind te gee of te verkoop.",
+        "'VERSLAWING' SE OMSKRYWING WORD ALLEEN GELEES NAGEGAAN, en sy spil is AANHOU GEBRUIK TEN SPYTE VAN SKADE - nie onttrekking nie (feitetoets van die spesifikasie, 23 September 2026). 'n Bewoording soos 'wanneer jou liggaam iets nodig het' pas ook op kos, water en slaap; 'n bewoording wat siek word by ophou vereis, laat middels uit waar dit skaars gebeur. Die omskrywing moet die middel, die aanhou gebruik en die skade dra.",
+        "DIE ELI10 SE VERGELYKING WORD SELF NAGEGAAN, nie net sy feite nie. 'n Beeld soos 'die brein se skakelaar bly aan' of 'die brein leer dat dit die middel nodig het' moet in die mapping klop; 'n vergelyking wat die brein soos 'n masjien met 'n stukkende knoppie stel, leer iets vals wat jare hou."
+      ],
+      "fokusvraag_skakel": "Lewer die eerste deel van die middel-antwoord: 'n leerder kan sê wanneer die gebruik van 'n middel misbruik word, en watter soorte middels dit raak."
+    },
+    {
+      "nommer": 2,
+      "kwartaal": 3,
+      "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
+      "titel": "Wat by 'n mens verander",
+      "titel_nota": "Werktitel. Die les gaan oor verandering wat opgemerk word, nie oor 'n kontrolelys nie.",
+      "kaps_punt": "Dwelmmisbruik: Simptome van dwelmmisbruik",
+      "begroting": 500,
+      "begrotingsnota": "500 woorde. Rigverdeling: die verskil tussen 'n teken en 'n simptoom, en wat dit hier beteken, ongeveer 70; veranderinge aan die liggaam ongeveer 110; veranderinge in gedrag, by die skool en in verhoudings ongeveer 150; wat die mens self voel ongeveer 80; die waarskuwing dat geen enkele teken bewys lewer nie, ongeveer 90. Die les bly korter as les 1 omdat dit die woordeskat van les 1 erf.",
+      "termdig": false,
+      "kern": [
+        "GEBRUIK 'TEKENS EN SIMPTOME' SAAM, volgens die ooreengekome reël: 'n simptoom is wat die mens self voel, 'n teken is wat ander kan sien, hoor of meet. KABV skryf net 'simptome', maar byna alles wat 'n leerder aan 'n ANDER mens opmerk, is 'n teken. Albei woorde word reg gebruik en albei kry hul ooreengekome bewoording.",
+        "Veranderinge aan die liggaam wat ander kan sien: slaap wat omkeer, eetlus wat verander, min energie, oë, reuk, en bewegings of spraak wat anders is. Hou dit kort en algemeen.",
+        "Veranderinge in gedrag, by die skool en in verhoudings: punte wat val, klasse wat gemis word, belangstelling wat verdwyn in dinge wat vroeër lekker was, geheimhouding, geld of goed wat verdwyn, 'n skielike nuwe vriendekring, humeur wat op en af gaan, wegkruip van die gesin.",
+        "Wat die mens SELF voel (die eintlike simptome): 'n sterk begeerte na die middel; by PARTY middels, naar of siek voel sonder dit (die kwantifiseerder bly staan - by ander middels gebeur dit skaars, sien les 1 se verslawing-item); skuldig voel; en ontdek dat ophou moeiliker is as wat hy gedink het.",
+        "DIE BELANGRIKSTE DEEL VAN DIE LES: nie een van hierdie tekens bewys op sy eie iets nie. Dieselfde veranderinge kom van puberteit, spanning, te min slaap, verlies, afknouery, 'n siekte of 'n moeilike tyd by die huis. 'n Leerder diagnoseer nie 'n vriend, 'n klasmaat of 'n familielid nie, en noem niemand op grond van 'n lys nie.",
+        "Dat verskillende middels verskillende tekens gee, en dat party mense lank baie min wys - dit is juis waarom 'n mens nie op tekens alleen kan staatmaak nie.",
+        "Die les eindig by die opmerk, nie by die optrede nie: wat 'n mens met 'n bekommernis doen, staan in les 5. Sê dit so, sodat die twee lesse nie oorvleuel nie."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "GAAN ELKE TEKEN EN ELKE SIMPTOOM NA voordat dit geskryf word; los enigeen uit wat nie deur 'n gesondheidsbron gesteun word nie. 'n Enkele verkeerde teken in hierdie les laat 'n kind 'n ander kind verkeerd etiketteer.",
+        "MOENIE 'N TEKEN AAN 'N SPESIFIEKE MIDDEL KOPPEL NIE (die soort 'rooi oë beteken dagga'). Dit is onbetroubaar en dit maak die les 'n opsporingsgids.",
+        "DIE 'GEEN ENKELE TEKEN BEWYS IETS'-SIN MOET IN DIE LES SELF STAAN, nie net in hierdie nota nie, en dit moet by ELKE groep tekens hou. 'n Weglating hier verander die bure: 'n lys sonder daardie sin lees soos 'n kontrolelys.",
+        "'SIMPTOOM' EN 'TEKEN' WORD ALLEEN GELEES NAGEGAAN teen die ooreengekome bewoordings; moenie iets wat ander kan sien 'n simptoom noem nie."
+      ],
+      "fokusvraag_skakel": "Lewer die deel wat sê hoe 'n mens raaksien dat iets verkeerd is - by homself of by iemand anders - sonder om 'n gevolgtrekking te maak wat hy nie kan maak nie."
+    },
+    {
+      "nommer": 3,
+      "kwartaal": 3,
+      "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
+      "titel": "Hoekom iemand die eerste keer ja sê",
+      "titel_nota": "Werktitel. Noem die oomblik wat die les verklaar.",
+      "kaps_punt": "Dwelmmisbruik: Persoonlike faktore wat bydra tot dwelmmisbruik: interpersoonlik en intrapersoonlik",
+      "begroting": 550,
+      "begrotingsnota": "550 woorde. Rigverdeling: wat 'n faktor is en wat die twee woorde beteken ongeveer 90; intrapersoonlike faktore ongeveer 170; interpersoonlike faktore ongeveer 190; die eerlike raam (faktore is nie oorsake nie, en niemand kry die skuld nie) ongeveer 100.",
+      "termdig": false,
+      "termdig_nota": "Drie begrip-inskrywings: intrapersoonlik, interpersoonlik, risikofaktor. 'groepsdruk' kry NIE 'n nuwe bewoording hier nie - dit kom uit die Kwartaal 1-subonderwerp.",
+      "kern": [
+        "Wat 'intrapersoonlik' en 'interpersoonlik' beteken, in gewone woorde: binne die mens self, en tussen die mens en ander mense. Albei is KABV se eie woorde en bly staan.",
+        "Intrapersoonlike faktore: nuuskierigheid; 'n swak selfbeeld; spanning, hartseer of woede wat iemand wil wegdruk; verveling; om ouer of dapperder te wil lyk; nie weet wat 'n middel doen nie; en 'n swaar tyd soos 'n verlies of mishandeling.",
+        "Interpersoonlike faktore: vriende wat gebruik; groepsdruk; iemand in die huis wat gebruik; die begeerte om in te pas of nie uitgelaat te word nie; hoe maklik dit is om aan 'n middel te kom; en beelde in advertensies, musiek en sosiale media wat laat lyk asof almal dit doen.",
+        "GROEPSDRUK WORD GENOEM EN NIE HERBOU NIE: die Kwartaal 1-blok oor groepsdruk is hierdie leerders se eie les daaroor, en hierdie les gebruik daardie term se ooreengekome bewoording en gaan aan.",
+        "DIE EERLIKE RAAM, en dit is die deel wat die les waar maak: hierdie dinge maak die kans groter; hulle veroorsaak dit nie. Twee mense in dieselfde huis, dieselfde straat en dieselfde klas kies verskillend, en 'n mens met baie van hierdie faktore is nie op pad daarheen nie.",
+        "NIEMAND KRY DIE SKULD NIE, allerminste 'n kind wat in 'n moeilike huis woon. Die les noem NOOIT 'n werklike plek, 'n buurt, 'n skool, 'n taalgroep, 'n kultuur of mense met min geld as die plek waar dit gebeur nie - dit gebeur in elke soort huis en elke soort dorp."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "GAAN ELKE FAKTOR NA teen 'n bron wat werklik oor risikofaktore vir middelgebruik by tieners skryf, en laat enigeen uit wat nie gesteun word nie.",
+        "MOENIE 'N FAKTOR AS 'N OORSAAK SKRYF NIE. 'Kinders wie se ouers drink, gebruik dwelms' is vals; 'dit maak die kans groter' is wat bronne steun. Hierdie fout is maklik om per ongeluk te maak wanneer 'n sin ingekort word.",
+        "GEEN GROEP MENSE WORD DIE PROBLEEM NIE, ook nie deur 'n voorbeeld nie. 'n Enkele sin oor 'sekere gemeenskappe' maak die hele les 'n stereotipe, en 'stereotipe' se ooreengekome bewoording sê presies waarom.",
+        "GEEN STATISTIEK EN GEEN OORTREFFENDE TRAP ('die meeste tieners', 'die grootste rede') sonder 'n bron wat dit vir Suid-Afrika steun."
+      ],
+      "fokusvraag_skakel": "Lewer die deel wat verklaar waarom mense by middels betrokke raak, sodat 'n leerder die volgende les se beskermende faktore as die ander kant van dieselfde lys kan lees."
+    },
+    {
+      "nommer": 4,
+      "kwartaal": 3,
+      "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
+      "titel": "Wat die kans kleiner maak",
+      "titel_nota": "Werktitel. Sê presies wat 'n beskermende faktor doen, en nie meer nie.",
+      "kaps_punt": "Dwelmmisbruik: Beskermende faktore wat die moontlikheid van dwelmmisbruik verminder",
+      "begroting": 450,
+      "begrotingsnota": "450 woorde, die kortste les van die blok. Rigverdeling: wat 'n beskermende faktor is ongeveer 60; in die mens self ongeveer 120; tussen mense ongeveer 120; in die skool en die gemeenskap ongeveer 90; die eerlike grens ongeveer 60. Dit is kort omdat die lys die spieëlbeeld van les 3 is en die les nie weer verklaar wat les 3 verklaar het nie.",
+      "termdig": false,
+      "kern": [
+        "Wat 'n beskermende faktor is: iets wat die kans op dwelmmisbruik kleiner maak. Stel dit uitdruklik as die ander kant van les 3 se faktore.",
+        "In die mens self: weet wat 'n middel werklik doen; iets hê om na toe te werk; iets wees waarin jy goed is, soos sport, musiek, 'n geloofsgroep of 'n werkie; kan 'nee' sê sonder om 'n vriend te verloor; en iets kan doen met moeilike gevoelens behalwe wegdruk.",
+        "Tussen mense: ten minste een volwassene wat jy vertrou en met wie jy praat; 'n huis waar oop gepraat word en waar die reëls duidelik is; vriende wat nie gebruik nie; en mense wat merk wanneer dit met jou sleg gaan.",
+        "In die skool en die gemeenskap: om iewers te behoort; 'n veilige plek om die middag te wees; sportklubs, jeuggroepe en skoolprogramme; en 'n kliniek naby genoeg om te gebruik. Beskryf SOORTE plekke en dienste, nooit 'n werklike organisasie by die naam nie.",
+        "DIE EERLIKE GRENS: hierdie dinge maak die kans kleiner, hulle maak dit nie onmoontlik nie. En 'n leerder wat min van hulle het, is nie verlore nie - die les wys watter van hulle 'n leerder self kan bou, en dat om een vertroude volwassene te kies, die een is wat die meeste mense self kan doen.",
+        "Selfgelding en die vaardigheid om 'nee' te sê, word GENOEM en nie hier onderrig nie: dit is die Kwartaal 1-blok se werk, en die les leun daarop met daardie blok se woorde."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "GAAN ELKE BESKERMENDE FAKTOR NA teen 'n bron wat oor beskermende faktore vir tieners skryf; die lys mag nie 'n lys goeie raad wees wat soos navorsing lyk nie.",
+        "MOENIE SKRYF DAT ENIGE FAKTOR DWELMMISBRUIK KEER NIE. 'Kinders wat sport speel, gebruik nie dwelms nie' is vals. Die hele les se werkwoord is 'maak die kans kleiner'.",
+        "MOENIE DIE OMGEKEERDE LAAT ONTSTAAN NIE: 'n les wat sê dat 'n sterk gesin beskerm, mag nie lees asof 'n kind sonder dit gedoem is nie. Die twee sinne moet langs mekaar staan, want 'n weglating maak die bure 'n bewering."
+      ],
+      "fokusvraag_skakel": "Lewer die deel wat sê wat 'n leerder self kan bou sodat die kans op dwelmmisbruik kleiner word."
+    },
+    {
+      "nommer": 5,
+      "kwartaal": 3,
+      "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
+      "titel": "Hoe vroeër, hoe beter",
+      "titel_nota": "Werktitel; dit is KABV se 'vroeë bespeuring' in die leerder se eie woorde.",
+      "kaps_punt": "Dwelmmisbruik: Voorkomingsmaatreëls: vroeë bespeuring",
+      "begroting": 500,
+      "begrotingsnota": "500 woorde. Rigverdeling: wat voorkoming op drie punte beteken ongeveer 80; wat vroeë bespeuring is en wie dit raaksien ongeveer 90; waarom vroeg saak maak ongeveer 80; wat 'n leerder met 'n bekommernis doen ongeveer 120; die soorte hulp ongeveer 130.",
+      "termdig": false,
+      "termdig_nota": "Twee nuwe begrippe: vroeë bespeuring en berader. 'kliniek', 'maatskaplike werker' en 'childline' kom woord vir woord uit die gedeelde lys.",
+      "kern": [
+        "Wat voorkoming op drie punte beteken: voordat iemand begin; kort nadat iemand begin het; en wanneer dit reeds 'n probleem is. KABV se subpunt is die tweede een, en die les sê waarom juis daardie punt sy eie naam het.",
+        "Wat vroeë bespeuring is: dat iemand dit vroeg agterkom - die mens self, 'n vriend, iemand in die huis, 'n onderwyser of 'n verpleegster.",
+        "WAAROM VROEG SAAK MAAK: hoe vroeër iemand hulp kry, hoe minder skade aan gesondheid, skoolwerk en verhoudings, en hoe makliker is dit om te stop. Hierdie sin is die hele rede vir die les en moet teen 'n bron bevestig word.",
+        "WAT 'N LEERDER DOEN met 'n bekommernis oor homself of oor iemand anders: praat met 'n volwassene wat hy vertrou; dit is nie verklik nie; moenie dit alleen probeer oplos nie; moenie iemand alleen konfronteer of sy goed deursoek nie; en bly self by die skool en by die mense wat hom help.",
+        "CHILDLINE WORD BY DIE NAAM GENOEM (Lampies, 23 September 2026), met die Graad 7-bewoording, SONDER 'n nommer, en met die derde feit in die vorm wat die feitetoets van die spesifikasie, 23 September 2026 vereis: 'n kind HOEF NIE vir 'n grootmens te vra om te bel nie. Dit beteken NIE dat sy dit sonder 'n grootmens moet doen nie - hierdie les se eie kern se juis dat sy met 'n volwassene praat wat sy vertrou, en die twee sinne moet langs mekaar staan. DIE SOORTE HULP (aanvulling), as soorte en nie as 'n gids nie: die kliniek of 'n dokter; 'n onderwyser of die skool se berader; 'n maatskaplike werker; 'n berader met wie 'n mens praat; Childline, wat 'n kind self kan bel, gratis en dag en nag; 'n groep waar mense wat gebruik het mekaar help; en 'n program waar iemand wat verslaaf is, behandeling kry. Se dat hulp werk en dat mense wel ophou.",
+        "GEEN SKAAMTE: hulp vra is nie swakheid nie, en 'n mens wat terugval, begin nie weer van voor af nie. Sê dit sonder om te belowe dat dit maklik is."
+      ],
+      "aanvulling": [
+        {
+          "item": "Waar en by wie 'n mens hulp kry (die soorte hulp)",
+          "regverdiging": "KABV se subpunt in hierdie blok stop by 'vroeë bespeuring' en noem nie hulp nie, maar bespeuring bestaan slegs omdat dit tot hulp lei: 'n les wat by die raaksien stop, leer 'n leerder om iets te sien en niks daarmee te doen nie. KABV noem 'Waar om hulp te vind' self as 'n subpunt van die Kwartaal 1-groepsdrukblok, wat dwelmgebruik uitdruklik insluit, so om dit hier in te bring volg KABV se eie patroon eerder as om daarvan af te wyk. Dit bly ongeveer 130 van 500 woorde, binne die kwart."
+        }
+      ],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "GEEN TELEFOONNOMMER IN DIE LES NIE, ook nie 'n noodnommer of 'n hulplyn se nommer nie. 'n Nommer verouder en niks gaan dit na sodra 'n les goedgekeur is nie - Childline se nommer is presies hoe hierdie fout die vorige keer ingekom het.",
+        "GEEN WERKLIKE ORGANISASIE, VELDTOG, REHABILITASIESENTRUM OF WEBTUISTE BY DIE NAAM NIE, met presies EEN uitsondering wat beslis is: Childline (Lampies, 23 September 2026), met die Graad 7-bewoording en sonder 'n nommer. Die drie feite in daardie bewoording - dat 'n kind self bel, dat dit gratis is, en dat dit dag en nag oop is - word saam met die bewoording self nagegaan voordat die les geskryf word.",
+        "GAAN DIE 'HOE VROEËR, HOE BETER'-BEWERING NA. Dit is die les se spil en dit word algemeen gestel; skryf dit in die vorm wat bronne werklik steun en nie as 'n belofte nie.",
+        "MOENIE BEHANDELING BESKRYF NIE: geen medisyne by die naam, geen dosis, geen ontgiftingstappe, geen duur van 'n program. Die les sê watter SOORT hulp bestaan, nie hoe dit werk nie.",
+        "MOENIE BELOWE DAT 'N VOLWASSENE ALTYD REG GAAN REAGEER NIE. Die veilige vorm is dat 'n leerder aanhou soek totdat iemand luister, en die les noem meer as een soort volwassene juis daarom."
+      ],
+      "fokusvraag_skakel": "Lewer die laaste deel van die middel-antwoord: wat 'n leerder doen sodra hy iets agterkom, en watter soorte hulp bestaan."
+    },
+    {
+      "nommer": 6,
+      "kwartaal": 3,
+      "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 5-7 (3 uur): Konsep: omgewingsgesondheid.",
+      "titel": "Die gesondheid van die plek waar jy woon",
+      "titel_nota": "Werktitel. Dit stel die konsep in die leerder se eie omgewing, nie as 'n definisie nie.",
+      "kaps_punt": "Konsep: omgewingsgesondheid: Plaaslike omgewingsgesondheidsprobleme",
+      "begroting": 600,
+      "begrotingsnota": "600 woorde. Rigverdeling: wat omgewingsgesondheid is ongeveer 90; die twee rigtings (die plek werk op die mens, die mens werk op die plek) ongeveer 70; die plaaslike probleme ongeveer 330, met ongeveer 45 elk vir sewe soorte probleme, elkeen met wat dit aan gesondheid doen; hoe 'n mens die probleme in sy eie omgewing raaksien ongeveer 110. Dit is die langste les van die blok omdat dit die konsep EN die probleemlys dra; lesse 7 en 8 gebruik albei.",
+      "termdig": true,
+      "termdig_nota": "Verwag vier of vyf begrip-inskrywings: omgewingsgesondheid, sanitasie, besoedeling, plaag, en wat die les verder werklik gebruik.",
+      "kern": [
+        "WAT OMGEWINGSGESONDHEID IS, as die konsep wat die hele blok dra: die deel van 'n mens se gesondheid wat kom uit die plek rondom hom - die water, die lug, die kos, die afval, die huis en die geraas - en die werk om daardie plek so te hou dat dit mense gesond hou.",
+        "Dat dit twee rigtings het: die plek werk op die mens se gesondheid, en wat mense doen, werk op die plek. Dit is die skarnier waarop lesse 7 en 8 draai.",
+        "PLAASLIKE PROBLEME, elkeen met wat dit aan gesondheid doen en nie net as 'n naam nie: afval wat nie weggery word nie en onwettige storting; drinkwater wat nie veilig is nie; swak sanitasie en riool wat loop; vuil lug binne die huis (rook van 'n vuur, 'n paraffienstoof, sigarette) en buite (verkeer, brande, fabrieke); staande water waar muskiete broei; plae soos rotte en vlieë; en geraas, oorvol huise en chemikalieë wat verkeerd weggegooi word.",
+        "DIE REËL WAT DIE LES WAAR HOU: hierdie probleme kom in baie soorte plekke voor - op plase, in dorpe, in stede, in ryk en arm buurte - en die les noem NOOIT 'n werklike plek, buurt of groep mense as die probleem nie. Waar geld 'n rol speel, staan dit as iets wat die keuses kleiner maak, nooit as 'n gebrek by die mense nie.",
+        "HOE 'N MENS DIT IN SY EIE OMGEWING RAAKSIEN, want dit is wat 'plaaslik' beteken: kyk, ruik, hoor en vra. Gee die soort vrae wat 'n mens vir homself beantwoord - waar kom ons water vandaan, waarheen gaan ons afval, wat ruik 'n mens in die oggend - as stellings in die lopende teks, want die les dra geen vrae nie."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "GAAN DIE OMSKRYWING VAN OMGEWINGSGESONDHEID NA teen 'n gesondheidsowerheid se eie omskrywing; die les se hele blok hang daaraan, en 'n omskrywing wat alleen gelees ook 'natuurbewaring' beteken, is verkeerd - omgewingsgesondheid gaan oor MENSE se gesondheid.",
+        "GAAN ELKE KOPPELING TUSSEN 'N PROBLEEM EN 'N SIEKTE NA. Dit is waar hierdie les die maklikste iets vals leer: nie elke staande water gee malaria nie (malaria kom in Suid-Afrika net in sekere streke voor), en diarree, cholera en wurms moet elk aan die regte oorsaak gekoppel word.",
+        "GEEN STATISTIEK, GEEN PERSENTASIE EN GEEN OORTREFFENDE TRAP sonder 'n bron wat dit vir Suid-Afrika steun.",
+        "NAGAAN WIE WAARVOOR VERANTWOORDELIK IS voordat dit geskryf word (munisipaliteit, provinsie, huiseienaar). Les 7 leun hierop, en 'n verkeerde toedeling stuur 'n leerder na die verkeerde deur."
+      ],
+      "fokusvraag_skakel": "Lewer die eerste deel van die omgewingsantwoord: 'n leerder kan sê wat omgewingsgesondheid is en watter probleme in sy eie omgewing mense siek maak."
+    },
+    {
+      "nommer": 7,
+      "kwartaal": 3,
+      "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 5-7 (3 uur): Konsep: omgewingsgesondheid.",
+      "titel": "Een mens, 'n straat, 'n gemeenskap",
+      "titel_nota": "Werktitel. Die drie skale is die les se eie vorm.",
+      "kaps_punt": "Gemeenskaps- en individuele projekte en strategieë om omgewingsgesondheidsprobleme te voorkom en te hanteer",
+      "begroting": 500,
+      "begrotingsnota": "500 woorde. Rigverdeling: voorkom teenoor hanteer ongeveer 70; wat een mens doen ongeveer 130; wat 'n gemeenskap saam doen ongeveer 150; wie waarvoor verantwoordelik is en wat 'n mens aanmeld ongeveer 90; wat 'n projek laat hou eerder as doodloop ongeveer 60.",
+      "termdig": false,
+      "termdig_nota": "Een of twee nuwe begrippe: herwinning, en moontlik 'munisipaliteit' as die les dit gebruik.",
+      "kern": [
+        "Die verskil tussen VOORKOM en HANTEER: keer dat die probleem ontstaan, teenoor iets doen aan 'n probleem wat reeds daar is. Sê dat die meeste planne albei nodig het, want dit is wat les 8 se aksieplan moet dra.",
+        "WAT EEN MENS SELF DOEN: afval skei en herwin; niks in die straat of in 'n sloot gooi nie; water spaar en 'n lekplek laat regmaak; staande water uitgooi; hande was; herbruik eerder as weggooi; krag spaar; en die huis se rook verminder deur te lug.",
+        "WAT 'N GEMEENSKAP SAAM DOEN: 'n skoonmaakdag; 'n herwinningspunt; 'n gemeenskapstuin; 'n omgewingsklub by die skool; 'n groep wat onwettige storting aanmeld; en bome plant. Beskryf SOORTE projekte, nooit 'n werklike organisasie, veldtog of plek by die naam nie.",
+        "WIE WAARVOOR VERANTWOORDELIK IS: wat die munisipaliteit moet doen (afval wegry, water, riool), wat die skool doen, en wat 'n huishouding self doen - en hoe 'n mens 'n probleem aanmeld in plaas van dit self te hanteer. Dit is die deel wat 'n leerder werklik kan gebruik.",
+        "WAT 'N PROJEK LAAT HOU: meer as een mens; toestemming; veiligheid (niemand vat afval sonder handskoene nie, niemand klim in water of op 'n stortingsterrein nie); en iets wat aangaan nadat die dag verby is.",
+        "DIE LES LEER DIE DENKE, NIE DIE DOEN NIE: dit verduidelik hoe sulke projekte werk en waarom hulle werk. Dit gee nie 'n opdrag om 'n projek te doen nie, en dit is nie 'n aktiwiteit nie."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "GAAN NA WAT WERKLIK HERWIN KAN WORD voordat 'n lys geskryf word; dit verskil per plek en per soort plastiek, en 'n verkeerde lys is die soort fout wat 'n leerder self in die praktyk teëkom.",
+        "GAAN DIE VERANTWOORDELIKHEDE NA (munisipaliteit teenoor provinsie teenoor huiseienaar) en skryf hulle in die vorm wat vir die meeste Suid-Afrikaanse plekke geld.",
+        "GEEN VEILIGHEIDSINSTRUKSIE SONDER NAGAAN NIE. Die les stuur 'n kind nie na afval, water of 'n vuur toe nie; die veilige vorm is dat 'n volwassene betrokke is.",
+        "MOENIE BELOWE DAT 'N PROJEK DIE PROBLEEM OPLOS NIE. 'n Skoonmaakdag maak 'n plek skoon; dit verander nie die rede waarom die afval daar was nie, en die les moet albei kan sê."
+      ],
+      "fokusvraag_skakel": "Lewer die deel wat wys wat mense - een mens en 'n gemeenskap saam - aan omgewingsgesondheidsprobleme doen."
+    },
+    {
+      "nommer": 8,
+      "kwartaal": 3,
+      "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 5-7 (3 uur): Konsep: omgewingsgesondheid.",
+      "titel": "Van 'n probleem na 'n plan",
+      "titel_nota": "Werktitel. Dit noem die beweging wat die les leer.",
+      "kaps_punt": "Probleemoplossingsvaardighede: 'n aksieplan om omgewingsgesondheidsprobleme aan te spreek en om omgewingsvriendelike keuses en optredes te formuleer",
+      "begroting": 550,
+      "begrotingsnota": "550 woorde. Rigverdeling: wat 'n aksieplan is ongeveer 60; die agt stappe ongeveer 300 (ongeveer 38 elk, elkeen met die stap self en wat dit in die deurlopende voorbeeld beteken); wat 'n omgewingsvriendelike keuse is en hoe 'n mens een weeg ongeveer 120; waarom 'n plan wat te groot is, misluk ongeveer 70. Knap: as die stappe langer word, sny die deurlopende voorbeeld terug tot een sin per stap, nie die stappe self nie.",
+      "termdig": false,
+      "termdig_nota": "Een nuwe begrip: aksieplan. Die stappe self kry nie elk 'n begrip nie.",
+      "kern": [
+        "Wat 'n aksieplan is: 'n plan wat sê wat gedoen word, deur wie, wanneer en met watter hulp - en hoe 'n mens agterna weet of dit gewerk het.",
+        "DIE STAPPE, in volgorde en elkeen verklaar: (1) noem die probleem presies, nie 'die omgewing is vuil' nie; (2) vind uit wat waar is - kyk self, vra mense, vra by die skool of die munisipaliteit; (3) vra wie geraak word en hoe; (4) dink aan meer as een moontlike oplossing; (5) weeg elke oplossing: wat dit kos, wie dit gaan doen, of dit veilig is, en of dit toegelaat word; (6) kies een en skryf wie doen wat, wanneer; (7) doen dit; (8) kyk terug - het dit gewerk, wat sou jy anders doen.",
+        "EEN DEURLOPENDE VOORBEELD dra al agt stappe, sodat die stappe konkreet is en nie 'n lys woorde nie. Die skrywer kies die voorbeeld uit les 6 se probleme; dit mag nie 'n werklike plek wees nie.",
+        "WAT 'N OMGEWINGSVRIENDELIKE KEUSE IS: 'n keuse wat minder skade doen aan die plek en aan die mense daar. Gee die maatstawwe waarmee 'n mens twee keuses teen mekaar weeg - gebruik dit minder water of krag, maak dit minder afval, hou dit aan nadat die dag verby is, is dit veilig, kan almal dit bekostig.",
+        "DAT 'N PLAN WAT TE GROOT IS, MISLUK: kies iets klein genoeg om klaar te maak, en 'n klein plan wat werk, is meer werd as 'n groot plan wat nie gebeur nie.",
+        "Die les leer die DENKE agter 'n plan. Dit skryf nie 'n projek voor nie en dit is nie 'n aktiwiteit nie; die klaskamerwerk is die onderwyser en die uitlegspan se deel."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "GAAN DIE DEURLOPENDE VOORBEELD SE FEITE NA, nie net die stappe nie: as die voorbeeld sê wat 'n munisipaliteit doen of hoe lank iets neem, is dit 'n bewering.",
+        "GEEN VEILIGHEIDSTAP WORD GERAAI NIE. As die plan iets fisies raak (afval, water, rook), moet die veiligheidsin nagegaan wees en moet 'n volwassene daarin wees.",
+        "MOENIE 'N STAP WEGLAAT OMDAT DIE LES LANK WORD NIE: stap 2 (vind uit wat waar is) en stap 8 (kyk terug) is presies die twee wat sneuwel, en sonder hulle is dit nie meer probleemoplossing nie."
+      ],
+      "fokusvraag_skakel": "Lewer die laaste deel van die omgewingsantwoord: hoe 'n leerder van 'n probleem wat hy raaksien, by 'n plan kom wat werklik iets verander."
+    },
+    {
+      "nommer": 9,
+      "kwartaal": 4,
+      "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
+      "titel": "Siektes wat van mens tot mens gaan",
+      "titel_nota": "Werktitel. Noem wat hierdie twee siektes van die volgende les s'n onderskei.",
+      "kaps_punt": "Algemene siektes: tuberkulose, MIV en VIGS",
+      "kaps_punt_nota": "Die volledige KABV-punt lui: 'Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS'. Al sewe is by die naam genoem en dus verpligtend. Hulle word oor lesse 9 en 10 verdeel op die naat oordraagbaar teenoor nie-oordraagbaar; saam dek die twee lesse die volle lys. Die spek-toetser gaan hieroor waarsku by elke les - dit is verwag en dit is die verdeling, nie 'n gaping nie.",
+      "begroting": 500,
+      "begrotingsnota": "500 woorde. Rigverdeling: wat oordraagbaar beteken ongeveer 60; TB ongeveer 190 (wat dit is, hoe dit oorgaan en hoe nie, tekens en simptome, dat dit genees kan word); MIV en VIGS ongeveer 190 (wat hulle is, hoe MIV oorgaan en hoe nie, wat behandeling doen); en ongeveer 60 wat sê wat hierdie twee gemeen het. Dit bly by 500 omdat Graad 5 en 6 albei siektes reeds gedek het: hierdie les stel hulle een keer en herhaal nie die mites-les of die voorkomingsles nie.",
+      "termdig": true,
+      "termdig_nota": "Verwag vier of vyf begrippe: oordraagbaar, tuberkulose (TB), bakterie, en die oorgenome bewoordings vir miv en vigs. 'kieme' en 'virus' kom woord vir woord uit die gedeelde lys.",
+      "kern": [
+        "Wat 'oordraagbaar' beteken: 'n siekte wat van een mens na 'n ander kan gaan. Lees eers Graad 6 Lewensvaardighede se begrip-inskrywing en hou dieselfde bewoording as die inhoud nie werklik verbreed het nie.",
+        "TUBERKULOSE (TB): SKRYF 'TB KAN GENEES WORD' EN NOOIT 'TB word genees as die mens die kuur klaar drink' NIE (feitetoets van die spesifikasie, 23 September 2026): party soorte TB genees nie altyd nie, en die voorwaardelike vorm gee die pasient die skuld wanneer dit nie werk nie - wat les 11 se eie reel verbied. Verder: wat TB is en watter deel van die liggaam dit meestal tref; hoe dit van mens tot mens gaan en hoe dit NIE gaan nie (nie deur 'n beker, 'n hand of kos nie); die tekens en simptome wat 'n mens laat kliniek toe gaan; en dat die kuur klaar gemaak word omdat dit die beste kans gee, nie omdat dit 'n waarborg is nie.",
+        "MIV EN VIGS: GRAAD 7 GEBRUIK DIE VERBREEDE MIV-BEWOORDING (Lampies, 23 September 2026) en NIE Graad 4-6 s'n nie - sien gedeelde_omskrywings/verbreed_in_graad_7. 'vigs' bly woord vir woord soos Graad 4-6 dit het. DIE LES DRA DIE DEEL VAN DIE TOEGANGSFEIT WAT DIE WOORDELYSINSKRYWING NIE KAN DRA NIE (derde leesalleen-feitetoets, 23 September 2026): se hoe MIV oorgaan, en maak in daardie sin duidelik dat die vog van iemand kom WAT DIE VIRUS HET - die woordelysinskrywing impliseer dit net, en 'n kind wat onder spanning lees, kan anders hoor dat bloed op sigself MIV beteken (aanvaarde beperking van die inskrywing, 23 September 2026). Se dan in een gewone sin dat gewone kontak dit NIE oordra nie - saamsit, druk, dieselfde beker, dieselfde toilet, 'n hoes - en dat die virus nie lank buite die liggaam hou nie. Daardie sin is wat 'n leerder antwoord wat 'n maat met 'n bloedneus help, en dit is die stigmakant van hierdie les. Se ook dat medisyne 'n mens met MIV gesond hou. Nooit 'n bewering dat elke mens met MIV VIGS kry nie.",
+        "Wat die twee gemeen het en waarom hulle in een les staan: albei gaan van mens tot mens, albei word met medisyne behandel wat elke dag geneem word, en by albei is stigma EEN van die dinge wat mense keer om hulp te kry - nie die enigste een nie (feitetoets van die spesifikasie, 23 September 2026): geld, vervoer, afstand, kliniekure en vrees is net so werklik, en lesse 11 en 12 noem hulle self. Dit is die brug na les 13.",
+        "WAT DIE LES NIE OORDOEN NIE: die mites-en-waarhede-les oor MIV (Graad 6) en die volledige voorkomingsles oor TB (Graad 5). Dit noem hulle en gaan aan. 'n Dekkingsnasiener moet weet dat dit 'n besluit is."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "ELKE TB-, MIV- EN VIGS-BEWERING WORD NAGEGAAN VOORDAT DIT GESKRYF WORD, teen 'n Suid-Afrikaanse of hoofstroom-gesondheidsbron. Nie een van die kern-items is deur die beplanner geverifieer nie.",
+        "GAAN DIE AFGELEWERDE GRAAD 5- EN 6-LESSE NA voordat 'n TB- of MIV-sin geskryf word: hierdie leerders het daardie bewoordings gelees, en 'n Graad 7-les wat dit anders stel, gee twee antwoorde op een vraag.",
+        "KIEME TEENOOR VIRUS (beslis 2 September 2026): kieme is lewend; 'n virus word NOOIT kieme genoem nie. MIV is 'n virus. TB se oorsaak is 'n bakterie - die woord mag gebruik word, maar die verskil tussen 'n bakterie en 'n virus word NIE verduidelik nie (Graad 6 het dit buite bestek gehou).",
+        "DIE MIV-BEWOORDING IS KLAAR EN WORD NIE WEER GETOETS NIE (skoon op sy derde leesalleen-feitetoets, 23 September 2026): “'n Virus wat van mens tot mens gaan wanneer bloed of sekere ander liggaamsvogte binne-in 'n ander mens se liggaam kom - nie deur speeksel, sweet of trane nie - en wat sonder behandeling die liggaam se afweer teen siekte swakker maak.” Kopieer dit woord vir woord in lesse 9, 11 en 13; Graad 4-6 bly soos afgelewer. MOENIE 'DEUR' NA 'IN' VERANDER NIE - dit is die woord wat die eerste fout weghou. VIER vorms mag nie terugkom nie: die ou vorm wat MIV net in die bloed plaas; die vorm wat ALLE ander liggaamsvogte insluit; die vorm wat se die virus KOM NIE VOOR in speeksel, sweet of trane nie (hy is wel daar in klein hoeveelhede, maar dra nie daardeur oor nie); en die vorm sonder 'n toegangsvoorwaarde, wat bloed onbegrens laat.",
+        "GEEN MEDISYNE BY DIE NAAM, GEEN DOSIS, GEEN DUUR VAN 'N KUUR sonder bevestiging. Die veilige vorm is dat die kuur klaar gemaak word omdat dit die beste kans gee; die vorm wat NIE gebruik mag word nie, is enigeen wat genesing aan die pasient se voltooiing van die kuur koppel.",
+        "MOENIE 'N MENS MET 'N SIEKTE AS 'N GEVAAR STEL NIE. Die les praat oor die siekte, nooit oor 'n mens as 'n risiko nie."
+      ],
+      "fokusvraag_skakel": "Lewer die eerste deel van die siekte-antwoord: wat die twee gewone siektes is wat van mens tot mens gaan, en dat albei behandel kan word."
+    },
+    {
+      "nommer": 10,
+      "kwartaal": 4,
+      "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
+      "titel": "Siektes wat jy nie kan aansteek nie",
+      "titel_nota": "Werktitel. Die naam sê die ding wat hierdie vier siektes bymekaar hou.",
+      "kaps_punt": "Algemene siektes: suikersiekte, epilepsie, vetsug, anoreksie",
+      "kaps_punt_nota": "Die volledige KABV-punt lui: 'Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS'. Al sewe is by die naam genoem en dus verpligtend. Hulle word oor lesse 9 en 10 verdeel op die naat oordraagbaar teenoor nie-oordraagbaar; saam dek die twee lesse die volle lys. Die spek-toetser gaan hieroor waarsku by elke les - dit is verwag en dit is die verdeling, nie 'n gaping nie.",
+      "begroting": 650,
+      "begrotingsnota": "650 woorde, die langste les van die subonderwerp. Rigverdeling: wat nie-oordraagbaar beteken ongeveer 50; suikersiekte ongeveer 170; epilepsie ongeveer 160; vetsug ongeveer 135; anoreksie ongeveer 135 - saam 650. Vier siektes wat almal nuut is vir hierdie leerders, en twee van hulle (vetsug en anoreksie) vra sinne wat versigtig geskryf moet word - 'n korter begroting sou dit koop deur die versigtigheid te sny, en dit is presies die verkeerde ding om te sny.",
+      "termdig": true,
+      "termdig_nota": "Verwag ses of sewe begrippe: nie-oordraagbaar, suikersiekte, insulien, epilepsie, epileptiese aanval, vetsug, anoreksie. Elkeen moet ALLEEN gelees klop.",
+      "kern": [
+        "Wat 'nie-oordraagbaar' beteken: 'n mens kan dit nie by 'n ander mens kry nie. Sê dit uitdruklik, want dit is wat hierdie vier siektes van les 9 s'n onderskei - en dit is die eerste stap teen die stigma wat by al vier voorkom.",
+        "SUIKERSIEKTE: dat die liggaam die suiker in die bloed nie op die regte vlak kan hou nie, en watter rol insulien daarin speel; dat daar meer as een soort is en dat die een soort NIE deur eetgewoontes veroorsaak word nie; die tekens en simptome wat 'n mens laat kliniek toe gaan; en dat 'n mens daarmee kan leef en werk.",
+        "EPILEPSIE: dat die brein se seine vir 'n kort ruk deurmekaar raak en dat dit 'n aanval veroorsaak; dat 'n aanval nie altyd val-en-skud is nie; dat dit NIE oordraagbaar is nie en NIE 'n geestesiekte is nie; en dat medisyne dit by die meeste mense beheer. DIE SKULD-SIN BLY, DIE OORSAAK-SIN GAAN WEG (feitetoets van die spesifikasie, 23 September 2026): skryf dat niemand die skuld kry vir sy epilepsie nie, en NOOIT dat 'n mens dit nie kry deur iets wat hy gedoen het nie - epilepsie volg dikwels op 'n kopbesering, 'n beroerte of 'n infeksie, sodat daardie sin weerle kan word. Wat 'n mens doen wanneer iemand 'n aanval kry, staan in les 13.",
+        "VETSUG: stel dit as 'n gesondheidstoestand waarby 'n liggaam soveel ekstra vet dra dat dit 'n RISIKO VIR sy gesondheid inhou - nie dat dit sy gesondheid reeds skaad nie (feitetoets van die spesifikasie, 23 September 2026; dit is ook die WGO se eie vorm). Noem die baie dinge wat daartoe bydra - watter kos beskikbaar en bekostigbaar is, hoeveel veilige plek daar is om te beweeg, geld, gene, slaap en party medisyne. GEEN GETALLE: geen gewig, geen BMI, geen ouderdomsgrens. Die les praat oor gesondheid, nooit oor hoe iemand lyk nie, en nooit oor 'n klasmaat se lyf nie.",
+        "ANOREKSIE: stel dit as 'n ernstige siekte van eet en van die manier waarop 'n mens sy eie liggaam sien - iemand eet veel te min en is baie bang om gewig op te tel, selfs wanneer hy reeds te maer is. Dit tref seuns sowel as meisies; dit is nie 'n keuse, nie ydelheid en nie 'n dieet nie; dit maak 'n mens werklik siek; en BAIE MENSE WORD GESOND, VERAL WANNEER HULP VROEG KOM - hierdie vorm en geen sterker een nie (feitetoets van die spesifikasie, 23 September 2026): 'mense word gesond met behandeling' is 'n belofte wat die bewyse nie steun nie. GEEN GETALLE, GEEN METODES: moenie beskryf wat iemand doen om gewig te verloor nie.",
+        "DIE SLOTREËL VAN DIE LES, en dit geld vir al vier: 'n mens met een van hierdie siektes is 'n gewone mens. Niemand se liggaam, ete of aanval word in die klas bespreek nie."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [
+        "Hoe die liggaam die suiker in die bloed op die regte vlak hou, en wat insulien daarmee te doen het"
+      ],
+      "feiterisiko": [
+        "ELKE BEWERING OOR AL VIER SIEKTES WORD NAGEGAAN VOORDAT DIT GESKRYF WORD, teen 'n Suid-Afrikaanse of hoofstroom-gesondheidsbron. Nie een van die kern-items is deur die beplanner geverifieer nie.",
+        "SUIKERSIEKTE WORD NIE DEUR SUIKER EET VEROORSAAK NIE - dit is die bekendste vals bewering oor hierdie siekte, en les 11 (waar KABV slegte eetgewoontes as 'n oorsaak noem) maak dit makliker om per ongeluk te skryf. Gaan na wat werklik oor tipe 1 en tipe 2 geld en skryf albei so dat die een nie die ander se verhaal kry nie.",
+        "DIE ELI10 SE VERGELYKING OOR INSULIEN WORD SELF NAGEGAAN, nie net sy feite nie. Die gewone beeld ('insulien is die sleutel wat die suiker by die sel inlaat') moet in die mapping klop; 'n vergelyking wat suggereer dat insulien die suiker wegvat of opgebruik, is vals.",
+        "EPILEPSIE: gaan na dat nie elke aanval val-en-skud is nie, en moenie 'n oorsaak gee wat nie gesteun word nie. Moenie mites herhaal om hulle reg te stel nie (die les noem nie besetenheid of toorkuns nie) - stel wat waar is en laat die vals verhaal ongenoem.",
+        "VETSUG IS DEUR 'N GESONDHEIDSOWERHEID 'N SIEKTE GENOEM (feitetoets van die spesifikasie, 23 September 2026: die WGO doen dit), sodat KABV se plasing onder 'algemene siektes' staan en die vraag nie weer oopgemaak word nie. Skryf dit as vet wat 'n RISIKO VIR gesondheid inhou, nooit as vet wat gesondheid reeds skaad nie. Moenie skryf dat dit bloot van te veel eet en te min beweeg kom nie, en moenie 'n kind se gewig as 'n keuse stel nie.",
+        "ANOREKSIE: moenie gedrag beskryf wat nagedoen kan word nie, en moenie getalle gee nie. Gaan na dat die les dit as 'n siekte stel wat behandel word, en nie as 'n fase of 'n dieet nie. As 'n bron en KABV verskil oor die naam (anoreksie, anorexia nervosa, eetversteuring), volg KABV se woord en noem die ander een een keer.",
+        "GEEN STATISTIEK EN GEEN OORTREFFENDE TRAP ('die algemeenste siekte onder tieners') sonder 'n Suid-Afrikaanse bron."
+      ],
+      "fokusvraag_skakel": "Lewer die deel wat wys dat die gewoonste siektes nie almal aansteeklik is nie, en wat elk van hierdie vier werklik is."
+    },
+    {
+      "nommer": 11,
+      "kwartaal": 4,
+      "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
+      "titel": "Waar siekte vandaan kom, en waar dit nie vandaan kom nie",
+      "titel_nota": "Werktitel. Die tweede helfte van die titel is die les se eintlike werk.",
+      "kaps_punt": "Oorsake van siektes: sosiale, ekonomiese en omgewingsfaktore insluitend die gebruik van alkohol en tabak, slegte eetgewoontes en tekort aan oefening",
+      "begroting": 550,
+      "begrotingsnota": "550 woorde. Rigverdeling: die verskil tussen 'n risikofaktor en 'n oorsaak ongeveer 90; sosiale faktore ongeveer 90; ekonomiese faktore ongeveer 90; omgewingsfaktore ongeveer 90; alkohol en tabak ongeveer 80; eetgewoontes en oefening ongeveer 70; en die slot oor skuld ongeveer 40.",
+      "termdig": false,
+      "termdig_nota": "'risikofaktor' se begrip kom uit les 3 en word nie hier herskryf nie.",
+      "kern": [
+        "DIE LES BEGIN BY DIE VERSKIL TUSSEN 'N RISIKOFAKTOR EN 'N OORSAAK, en gebruik daarna deurgaans 'maak die kans groter'. Dit is nie 'n versiering nie: KABV se punt noem hierdie faktore 'oorsake' vir 'n lys wat epilepsie, tipe 1-suikersiekte en anoreksie insluit, wat nie een van hulle veroorsaak word deur alkohol, tabak, eetgewoontes of te min beweging nie. 'n Les wat KABV se woord net so oorneem, leer iets wat vals is. DIE REGSTELLING WORD POSITIEF GESTEL - geen siekte op die lys het 'n enkele oorsaak nie - en nooit as 'n lys van drie uitsonderings nie, want 'n lys van drie se vir die leerder dat die ander vier wel die mens se eie doen is.",
+        "SOSIALE FAKTORE: wat die mense rondom 'n mens doen; groepsdruk; spanning en geweld; en die stigma wat mense keer om hulp te gaan soek of medisyne te gaan haal. GEEN VERWYSING NA MIV-TOETSING NIE (feitetoets van die spesifikasie, 23 September 2026): toetsing is vir hierdie subonderwerp buite bestek, en 'n vereiste mag nie vra wat 'n waarskuwing verbied nie.",
+        "EKONOMIESE FAKTORE: geld bepaal watter kos in die huis is, of 'n mens by 'n kliniek kan uitkom, of 'n mens van die werk af kan wegbly, en hoe 'n mens woon. Stel dit as iets wat KEUSES KLEINER MAAK, nooit as 'n gebrek by mense met min geld nie.",
+        "OMGEWINGSFAKTORE, en dit haak by lesse 6 tot 8 in: lug, water, sanitasie, rook binne die huis, en huise waar baie mense naby mekaar woon (wat TB makliker laat versprei).",
+        "ALKOHOL EN TABAK, wat KABV uitdruklik noem: waarmee elkeen in verband gebring word, elke koppeling nagegaan, en elkeen gestel as iets wat die kans groter maak.",
+        "SLEGTE EETGEWOONTES EN TE MIN BEWEGING, wat KABV ook uitdruklik noem: waarmee hulle in verband gebring word, elke koppeling apart nagegaan. DIE UITSONDERING WORD POSITIEF GESTEL EN NOOIT AS 'N LYS VAN DRIE SIEKTES NIE (feitetoets van die spesifikasie, 23 September 2026): geen siekte op KABV se lys het 'n enkele oorsaak nie - elkeen kom uit baie dinge saam, soos gene, wat in die brein en die liggaam gebeur, watter kos beskikbaar en bekostigbaar is, en die plek waar 'n mens woon. Hierdie faktore maak die kans op SOMMIGE siektes groter en het met ANDER niks te doen nie. 'n Lys van drie siektes wat nie so veroorsaak word nie, se vir die leerder dat die ander vier wel so veroorsaak word, en dit weerspreek les 10 se eie hantering van vetsug, wat self se dat baie dinge daartoe bydra.",
+        "DIE SLOT: 'n mens gee nooit 'n siek mens die skuld vir sy siekte nie, en baie van hierdie faktore lê buite 'n mens se eie beheer."
+      ],
+      "aanvulling": [
+        {
+          "item": "Die onderskeid tussen 'n risikofaktor en 'n oorsaak, uitdruklik gestel",
+          "regverdiging": "KABV noem hierdie faktore 'oorsake van siektes' vir 'n siektelys waarvan verskeie nie so ontstaan nie. Sonder die onderskeid is die les nie onvolledig nie - dit is vals, en dit leer 'n leerder om 'n siek mens die skuld te gee. Die onderskeid word positief gestel (geen siekte op die lys het 'n enkele oorsaak nie), nie as 'n lys uitsonderings nie. Dit is dieselfde soort regstelling wat die span reeds elders op KABV toegepas het: ry saam met KABV op 'n NAAM, maar maak dit reg waar 'n meganisme die leerder verkeerd laat redeneer."
+        }
+      ],
+      "moeilike_konsepte": [
+        "Die verskil tussen iets wat die kans op 'n siekte groter maak, en iets wat die siekte veroorsaak"
+      ],
+      "feiterisiko": [
+        "GAAN ELKE KOPPELING TUSSEN 'N FAKTOR EN 'N SIEKTE AFSONDERLIK NA voordat dit geskryf word. Hierdie les bestaan uit koppelings, en 'n koppeling wat te sterk gestel is, is 'n vals bewering al is elke woord daarin waar.",
+        "DIE PRENTJIE KAN VALS WEES AL IS ELKE SIN WAAR: 'n les wat leefstylfaktore langs 'n siektelys stel, laat 'n leerder aflei dat al sewe siektes van leefstyl kom. Die uitdruklike 'nie hierdie drie nie'-sin is die enigste ding wat dit keer, en dit moet in die lesteks self staan.",
+        "MOENIE 'N OORSAAK VIR EPILEPSIE GEE WAT NIE GESTEUN WORD NIE, en moenie anoreksie aan 'n ouer of 'n gesin toeskryf nie.",
+        "ARMOEDE WORD 'N FAKTOR GENOEM, NOOIT 'N SKULD NIE, en geen buurt, dorp, kultuur of taalgroep word as die plek van siekte genoem nie.",
+        "GEEN STATISTIEK, GEEN PERSENTASIE EN GEEN OORTREFFENDE TRAP sonder 'n bron wat dit vir Suid-Afrika steun."
+      ],
+      "fokusvraag_skakel": "Lewer die deel wat verklaar waarom mense siek word - en, net so belangrik, waarom 'n siekte nie 'n mens se skuld is nie."
+    },
+    {
+      "nommer": 12,
+      "kwartaal": 4,
+      "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
+      "titel": "Behandeling, sorg en die mense wat help",
+      "titel_nota": "Werktitel. Die drie woorde is drie verskillende dinge, en dit is wat die les leer.",
+      "kaps_punt": "Keuses ten opsigte van behandeling, versorging en ondersteuning; Beskikbare hulpbronne vir gesondheidsinligting en -dienste",
+      "begroting": 600,
+      "begrotingsnota": "600 woorde. Rigverdeling: die drie woorde uitmekaar gehaal ongeveer 110; watter keuses 'n mens het en watter veilig is ongeveer 150; wie help en wat elkeen doen ongeveer 150; waar betroubare inligting vandaan kom en hoe 'n mens dit beoordeel ongeveer 130; wie se verantwoordelikheid sorg is ongeveer 60.",
+      "termdig": false,
+      "termdig_nota": "Twee of drie begrippe: behandeling, chronies, en moontlik 'gemeenskapsgesondheidswerker'. 'kliniek', 'medisyne', 'maatskaplike werker' en 'childline' kom uit die gedeelde lys.",
+      "kern": [
+        "BEHANDELING, VERSORGING EN ONDERSTEUNING IS DRIE DINGE, en die les haal hulle uitmekaar: behandeling is wat die kliniek of die dokter doen en die medisyne wat geneem word; versorging is die daaglikse sorg - kos, rus, skoon wees, by die afsprake uitkom; ondersteuning is die mense wat luister, help en bystaan.",
+        "WATTER KEUSES 'N MENS HET EN WATTER VEILIG IS: gaan vroeg kliniek of dokter toe eerder as om te wag; vra vrae totdat jy verstaan; neem die medisyne soos die kliniek se en hou nie self op nie (net TB het 'n kuur wat klaar gemaak word - sien les 13); gaan terug vir afsprake. DIE REEL OOR ANDER MIDDELS DEK BYVOEG, NIE NET OPHOU OF VERVANG NIE (feitetoets van die spesifikasie, 23 September 2026), want byvoeg is die gewone geval: baie huise gebruik ook huismiddels of tradisionele medisyne, en die veilige reel is dat 'n mens die kliniek VERTEL van alles wat hy ook neem, en niks wat voorgeskryf is, stop of vervang sonder om met die kliniek te praat nie. Die rede staan hier sodat niemand die sin inkort nie: party plantmiddels verander hoe sterk 'n voorgeskrewe medisyne in die liggaam werk, en dit is juis die BYGEVOEGDE een wat dit doen. Die bewoording word nagegaan voordat dit geskryf word, en geen plant of middel word by die naam genoem nie.",
+        "WIE HELP EN WAT ELKEEN DOEN: die kliniek, 'n dokter, 'n verpleegster, 'n gemeenskapsgesondheidswerker, 'n maatskaplike werker, 'n berader, 'n ondersteuningsgroep, Childline en die skool. Beskryf SOORTE dienste, nooit 'n werklike hospitaal, kliniek of organisasie by die naam nie - CHILDLINE IS DIE ENIGSTE NAAM WAT TOEGELAAT IS (Lampies, 23 September 2026), met die verbreede Graad 7-bewoording en sonder 'n nommer.",
+        "WAAR BETROUBARE INLIGTING VANDAAN KOM, en dit is die Graad 7-vaardigheid in hierdie les: die kliniek self, 'n dokter of verpleegster, die skool, die biblioteek, en gesondheidsdienste se eie materiaal. Gee die maatstawwe waarmee 'n mens inligting weeg - wie het dit geskryf, kom dit van 'n gesondheidsdiens, probeer dit iets verkoop, hoe oud is dit - en dat 'n mens by die kliniek nagaan wat hy iewers gelees het.",
+        "DAT SORG VIR 'N SIEK MENS DIE VOLWASSENES SE VERANTWOORDELIKHEID IS. 'n Kind help; 'n kind dra nooit die sorg nie, en 'n kind wat wel sorg, mag self hulp vra.",
+        "Dat baie van hierdie siektes CHRONIES is: hulle gaan nie oor nie, maar hulle word behandel - en dit is waarom die volgende les oor saamleef gaan."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "GEEN MEDISYNE BY DIE NAAM EN GEEN DOSIS in hierdie les nie, ook nie 'n soort medisyne by die naam nie.",
+        "GEEN TELEFOONNOMMER, ook nie 'n noodnommer, 'n hulplyn s'n of Childline s'n nie. Childline mag by die naam genoem word (Lampies, 23 September 2026) en sy nommer nooit: 'n nommer verouder en niks gaan dit na sodra 'n les goedgekeur is nie. Les 5 dra presies dieselfde reel.",
+        "DIE TRADISIONELE-MEDISYNE-SIN IS DIE RISIKOSIN VAN HIERDIE LES: dit mag nie 'n hele praktyk afkraak nie en dit mag nie 'n leerder laat dink dat dit veilig is om voorgeskrewe medisyne te vervang nie. Gaan die bewoording na teen 'n Suid-Afrikaanse gesondheidsbron voordat dit geskryf word.",
+        "MOENIE BELOWE WAT DIE DIENS GAAN DOEN NIE ('die kliniek gee gratis medisyne vir almal'). Skryf wat 'n mens kan VRA, nie wat hy sal kry nie, tensy dit bevestig is.",
+        "GAAN NA WATTER DIENSTE WERKLIK BESTAAN EN VIR WIE, voordat 'n soort diens genoem word - 'n gemeenskapsgesondheidswerker en 'n skoolberader is nie oral dieselfde nie.",
+        "MOENIE 'N SIEKTE 'N GENESING TOESKRYF WAT DIT NIE HET NIE, en let op die presiese vorm (feitetoets van die spesifikasie, 23 September 2026): TB KAN genees word - nie 'TB word genees' nie, en nooit met 'n voorwaarde oor wat die pasient gedoen het nie. MIV word behandel en nie genees nie. Die woorde mag nie verwissel nie."
+      ],
+      "fokusvraag_skakel": "Lewer die deel wat sê wat 'n mens met 'n siekte doen: watter hulp bestaan, watter keuses veilig is, en waar betroubare inligting vandaan kom."
+    },
+    {
+      "nommer": 13,
+      "kwartaal": 4,
+      "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
+      "titel": "Om met 'n siekte te leef",
+      "titel_nota": "Werktitel. KABV se 'saamleef' in gewone woorde.",
+      "kaps_punt": "Strategieë om met tuberkulose, suikersiekte, epilepsie, MIV en VIGS saam te leef",
+      "kaps_punt_nota": "KABV noem hier VYF van die sewe siektes: vetsug en anoreksie staan nie in hierdie subpunt nie. Die les volg KABV en dek die vyf; dat die ander twee nie hier is nie, is KABV se verdeling en nie 'n gaping nie.",
+      "begroting": 580,
+      "begrotingsnota": "580 woorde - 30 MEER as die vorige 550, om die drie bygevoegde aanval-stappe te dra (Lampies, 23 September 2026). Rigverdeling: wat saamleef beteken ongeveer 50; die strategiee wat vir al vyf geld ongeveer 180; wat by elke siekte anders is ongeveer 160 (ongeveer 40 elk vir TB, suikersiekte, epilepsie, MIV); die AGT goedgekeurde stappe by 'n epileptiese aanval ongeveer 120; stigma en wie wat weet ongeveer 70 - saam 580. WAAR DIE WOORDE VANDAAN KOM: al 30 uit 'n hoer begroting. Die 5 wat eers uit die algemene strategiee geleen is, is TERUGGESIT (23 September 2026) toe die sin wat die riglyne by die naam sou noem, uit die les geval het; die strategiee staan weer op 180, want hulle is self KABV-inhoud vir vyf siektes. Knap: die aanval-deel mag nie gesny word om plek te maak nie.",
+      "termdig": false,
+      "termdig_nota": "Twee begrippe: ondersteuningsgroep en stigma. 'stereotipe' en 'diskriminasie' kom woord vir woord uit die gedeelde lys as die les hulle gebruik.",
+      "kern": [
+        "Wat saamleef beteken: die siekte bly deel van die lewe, en die mens gaan aan met skool, werk, sport en vriende.",
+        "STRATEGIEE WAT VIR AL VYF GELD - MET EEN DING WAT NIE VIR AL VYF GELD NIE (feitetoets van die spesifikasie, 23 September 2026): net TB het 'n KUUR wat klaar gemaak word. Medisyne vir suikersiekte, epilepsie en MIV word aanhoudend geneem, en om by enigeen daarvan self op te hou, is op sy eie manier gevaarlik. Die les mag 'maak die kuur klaar' NOOIT oor al vyf trek nie. Wat wel vir al vyf geld: neem die medisyne presies soos die kliniek se en hou nie self op nie; gaan terug vir afsprake; ken jou eie tekens en wat jy doen wanneer hulle kom; vertel ten minste een mens wat kan help; eet, slaap en beweeg soos die kliniek aanraai; en vra hulp wanneer dit swaar gaan.",
+        "WAT BY ELKEEN ANDERS IS, kort en nagegaan: TB - die kuur word klaar gemaak omdat dit die beste kans op genesing gee, en die eerste tyd is daar maatreels wat ander beskerm; suikersiekte - gereelde etes, die medisyne of insulien, en om die tekens van te hoog en te laag te ken; epilepsie - die medisyne elke dag, genoeg slaap, en dat die mense om hom weet wat om te doen; MIV - die medisyne elke dag, en wat dit vir sy gesondheid beteken.",
+        "WAT 'N MENS DOEN WANNEER IEMAND 'N EPILEPTIESE AANVAL KRY - GOEDGEKEUR EN UITGEBREI NA AGT STAPPE (Lampies, 23 September 2026), in hierdie volgorde, en geen ander noodhulp daarby nie: vat die gevaarlike goed uit die pad; sit iets sags onder sy kop; SIT NIKS IN SY MOND NIE; HOU HOM NIE VAS NIE; draai hom op sy sy sodra die aanval verby is; bly by hom totdat hy heeltemal wakker is; GEE HOM NIKS OM TE EET OF TE DRINK VOORDAT HY HEELTEMAL WAKKER IS NIE; en roep 'n volwassene. Waarom die drie nuwes ingaan, sodat niemand hulle weer uitsny nie: elke gesaghebbende lys dra al drie, nie een verg oefening, die kussing onder die kop keer die algemeenste besering, en 'niks in sy mond nie' lees soos 'n reel oor VOORWERPE - die ding wat 'n kind werklik gaan doen, is om agterna 'n glas water te bring. DIE SYLEGGING BLY NA DIE AANVAL en word nie na 'tydens' verskuif nie (Lampies, 23 September 2026). DIE LES NOEM GEEN NOODHULPORGANISASIE EN GEEN RIGLYN BY DIE NAAM NIE (teruggetrek op 23 September 2026): dit gee net die agt stappe. Watter riglyne ons volg, staan in hierdie spek se feiterisiko, vir die skrywer en die nasiener. Geen tydgrens. Elke stap word teen daardie riglyne nagegaan voordat dit geskryf word.",
+        "STIGMA: mense met hierdie siektes word soms sleg behandel, en dit hou mense weg van hulp. Sê wat 'n klasmaat anders kan doen, en dat 'n mens self kies wie hy vertel - niemand hoef sy siekte bekend te maak nie.",
+        "DAT 'N KIND NOOIT ALLEEN VERANTWOORDELIK IS vir 'n ander mens se medisyne of sorg nie. 'n Kind help; 'n volwassene dra dit."
+      ],
+      "aanvulling": [],
+      "moeilike_konsepte": [],
+      "feiterisiko": [
+        "ELKE STAP VAN DIE AANVAL-NOODHULP WORD NAGEGAAN TEEN DIE BRITSE EPILEPSY SOCIETY EN DIE ROOI KRUIS SE RIGLYNE, VOORDAT DIT GESKRYF WORD - daardie twee name staan hier vir die SKRYWER EN DIE NASIENER, en hulle kom nooit in die lesteks nie. Die spek se lys is die BEWERINGS, nie die bevestiging nie. Veiligheidslesse lewer die ergste foute, en hierdie een is die enigste in die subonderwerp waar 'n leerder op die les se woorde sal optree.",
+        "DIE SYLEGGING IS BESLIS EN WORD NIE 'REGGEMAAK' NIE (Lampies, 23 September 2026): hierdie les volg die riglyne wat die mens NA die aanval op sy sy draai - die Britse Epilepsy Society en die Rooi Kruis - en nie die riglyne wat dit TYDENS die aanval doen (die Amerikaanse CDC en die Epilepsy Foundation) nie. Die bronne verskil werklik, en die keuse is die eenvoudiger instruksie vir 'n kind. DIE LES SELF NOEM GEEN VAN HIERDIE NAME NIE; hierdie inskrywing is waar die besluit beskerm word. 'n Nasiener wat die Amerikaanse kant aanhaal, het nie 'n fout gevind nie, en die antwoord staan hier in die leer.",
+        "DIE DRIE MOENIES MOET IN DIE LES STAAN (Lampies, 23 September 2026): niks in sy mond nie; moenie die mens vashou nie; en niks om te eet of te drink voordat hy heeltemal wakker is nie. Die derde een is nuut en is die een wat 'n kind self sou doen - 'n glas water bring - terwyl die eerste twee die gewone mites is.",
+        "GEEN TYDGRENS EN GEEN GETAL BY DIE AANVAL NIE (Lampies, 23 September 2026): die goedgekeurde AGT stappe bevat nie een, en 'n getal wat nie in daardie stappe staan nie, word nie ingeskryf nie. Die stap wat die plek van 'n tydgrens inneem, is 'roep 'n volwassene'. 'Heeltemal wakker' is ook nie 'n tydmaat nie en word nie in minute omgeskryf nie.",
+        "ELKE SIEKTESPESIFIEKE STRATEGIE WORD NAGEGAAN; moenie die een siekte se roetine op 'n ander toepas nie.",
+        "GEEN MEDISYNE BY DIE NAAM, GEEN DOSIS, GEEN TELEFOONNOMMER.",
+        "MOENIE BELOWE DAT MEDISYNE ALTYD WERK NIE ('epilepsie word met medisyne beheer' is nie waar vir elke mens nie) en moenie skryf dat 'n mens met MIV of suikersiekte presies dieselfde lewe het as enigiemand anders nie - skryf wat bronne steun.",
+        "DIE STIGMA-DEEL MAG NIE 'N SIEK MENS TOT 'N VOORBEELD MAAK NIE. Elke sin word geskryf asof 'n leerder wat met een van hierdie siektes leef, dit lees."
+      ],
+      "fokusvraag_skakel": "Lewer die laaste deel van die siekte-antwoord: hoe 'n mens met 'n langdurige siekte aangaan met die lewe, en wat 'n klasmaat kan doen.",
+      "besluit_geneem": "GOEDGEKEUR (Lampies, 23 September 2026), in twee stappe: eers vyf stappe, en daarna UITGEBREI NA AGT nadat die feitetoets gewys het dat elke gesaghebbende lys ook die kussing onder die kop, die bly-tot-hy-wakker-is en die niks-om-te-eet-of-te-drink dra. Nie een van die agt verg oefening en die meeste is MOENIES. Die sylegging bly NA die aanval, waar die bronne verskil en die eenvoudiger instruksie vir 'n kind gekies is; die riglyne wat ons volg (die Britse Epilepsy Society en die Rooi Kruis) staan in die spek en nooit in die lesteks nie. Geen ander noodhulp word in hierdie subonderwerp geleer nie. Graad 6 se uitsluiting van reddingstegnieke ('geen tegniek wat oefening vra') bly staan en word hierdeur nie omvergegooi nie."
+    }
+  ],
+  "besluite_geneem": [
+    {
+      "punt": 1,
+      "beslis": "MIV VERBREED IN GRAAD 7.",
+      "deur": "Lampies, 23 September 2026",
+      "wat_dit_beteken": "Lesse 9, 11 en 13 gebruik die Graad 7-bewoording (gedeelde_omskrywings/verbreed_in_graad_7). Graad 4-6 bly soos afgelewer. Die Kwartaal 1-beplanner wys na hierdie blok en besleg nie 'n tweede bewoording nie. DRIE voorstelle is deur leesalleen-toetse verwerp: die eerste ('bloed en ander liggaamsvogte') omdat dit ALLE vogte beteken; die tweede omdat dit gese het die virus kom nie in speeksel, sweet of trane VOOR nie, waar die ware bewering oor OORDRAG gaan; en die derde omdat dit geen toegangsvoorwaarde gestel het nie, sodat bloed alleen gelees onbegrens bly. Die vierde vorm is SKOON op die derde leesalleen-toets en die term is gesluit: geen verdere voorskryf-toets nie, en die bewoording word woord vir woord gekopieer."
+    },
+    {
+      "punt": 2,
+      "beslis": "ALKOHOL, TABAK EN E-SIGARETTE WORD BY DIE NAAM GENOEM; GEEN ONWETTIGE MIDDEL WORD GENOEM NIE; EN GEEN OUDERDOMSWET WORD AAN E-SIGARETTE GEKOPPEL NIE.",
+      "deur": "Lampies, 23 September 2026",
+      "wat_dit_beteken": "Les 1 se laaste groep bly 'middels wat onwettig is om te verkoop, te gee of te besit', sonder 'n naam, en dra die punt dat dit onwettig is om so 'n middel aan 'n kind te gee of te verkoop. Geen les skryf dat 'n leerder nie dagga mag he nie - dit is vals soos dit staan (Wet op Kannabis vir Privaat Doeleindes 7 van 2024). VERNOU deur die feitetoets van die spesifikasie, 23 September 2026: e-sigarette bly by die naam en bly as skadelik gestel, maar geen les se dat die wet hulle vir kinders verbied nie, want daardie wet bestaan nie."
+    },
+    {
+      "punt": 3,
+      "beslis": "DIE EPILEPSIE-STAPPE IS GOEDGEKEUR: AGT STAPPE, EN DIE SYLEGGING BLY NA DIE AANVAL.",
+      "deur": "Lampies, 23 September 2026",
+      "wat_dit_beteken": "Les 13 dra agt stappe: gevaarlike goed uit die pad; iets sags onder die kop; niks in die mond; moenie vashou nie; op die sy draai sodra dit verby is; bly totdat hy heeltemal wakker is; niks om te eet of te drink voor hy wakker is; roep 'n volwassene. Geen ander noodhulp en geen tydgrens. Die sylegging bly NA die aanval: die bronne verskil (die Britse Epilepsy Society en die Rooi Kruis se na, die Amerikaanse CDC en die Epilepsy Foundation se tydens), en die eenvoudiger instruksie vir 'n kind is gekies. Daardie name staan in die SPEK en nooit in die lesteks nie: die les gee net die agt stappe, en die besluit word in die spek beskerm sodat 'n latere nasiener wat die Amerikaanse kant aanhaal, uit die leer geantwoord kan word. Die begroting gaan van 550 na 580."
+    },
+    {
+      "punt": 4,
+      "beslis": "CHILDLINE WORD IN LESSE 5 EN 12 BY DIE NAAM GENOEM, SONDER 'N NOMMER.",
+      "deur": "Lampies, 23 September 2026",
+      "wat_dit_beteken": "Graad 7 verbreed die Graad 6-bewoording om drie nagegane feite te dra: 'n kind bel self, dit is gratis, en dit is dag en nag oop. Die derde feit word gestel as 'sy hoef nie vir 'n grootmens te vra om te bel nie' - die feitetoets van die spesifikasie, 23 September 2026 het die vorige vorm verwerp omdat 'n kind dit as 'moenie 'n grootmens se nie' lees. Geen nommer, en geen ander organisasie by die naam nie."
+    },
+    {
+      "punt": 5,
+      "beslis": "DERTIEN LESSE BLY STAAN.",
+      "deur": "Lampies, 23 September 2026",
+      "wat_dit_beteken": "Die inhoud bepaal die getal lesse en elke begroting. Die voorgestelde samevoeging van lesse 4 en 5 is NIE gedoen nie."
+    }
   ]
- },
- "lesse": [
-  {
-   "nommer": 1,
-   "kwartaal": 3,
-   "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
-   "titel": "Wanneer 'n middel skade begin doen",
-   "titel_nota": "Werktitel. Noem die oomblik waarop gebruik misbruik word, nie die KABV-etiket nie. Die skrywer mag dit verbeter.",
-   "kaps_punt": "Dwelmmisbruik: Soorte/vorms van dwelmmisbruik",
-   "begroting": 600,
-   "begrotingsnota": "600 woorde. Rigverdeling: wat 'n middel is en wat 'n dwelm is ongeveer 70; wat MISBRUIK beteken, teenoor die regte gebruik van medisyne, ongeveer 90; die vier soorte middels ongeveer 240 (ongeveer 60 elk); die drie vorms van gebruik ongeveer 110; verslawing ongeveer 90. Dit is die langste les van die blok omdat dit die hele blok se woordeskat dra; die ander vier lesse gebruik dit en herhaal dit nie.",
-   "termdig": true,
-   "termdig_nota": "Verwag vyf of ses begrip-inskrywings: middel (oorgeneem), dwelm, dwelmmisbruik, verslawing, en die name wat die les werklik gebruik. Moenie 'n woordelys van middelname bou nie.",
-   "kern": [
-    "Wat 'n middel is: gebruik die ooreengekome bewoording WOORD VIR WOORD uit die gedeelde lys. Die voorbeelde na 'soos' mag by hierdie les pas.",
-    "Wat 'n dwelm is en hoe dit van 'n middel verskil, in een gewone sin - KABV gebruik albei woorde en 'n leerder moet weet dat elke dwelm 'n middel is, maar nie elke middel 'n dwelm nie.",
-    "WAT MISBRUIK BETEKEN, en dit is die spil van die les: 'n middel gebruik op 'n manier waarvoor dit nie bedoel is nie, of deur iemand vir wie dit nie bedoel is nie, of in 'n hoeveelheid wat skade doen. Stel dit langs die REGTE gebruik: medisyne wat 'n dokter of 'n kliniek gee, presies soos voorgeskryf, is nie misbruik nie.",
-    "BESLIS (Lampies, 23 September 2026) EN VERNOU NA DIE FEITETOETS VAN DIE SPESIFIKASIE, 23 SEPTEMBER 2026: die les NOEM alkohol, tabak en e-sigarette by die naam en noem GEEN onwettige middel by die naam nie - MAAR die les koppel GEEN OUDERDOMSWET aan e-sigarette nie, en skryf ook nie die teenoorgestelde nie. Die SOORTE middels wat misbruik word, in vier groepe en nie as 'n lys name nie: (a) alkohol en tabak, wat vir volwassenes wettig is maar nie vir kinders nie; (b) e-sigarette, wat saam hier staan omdat kinders hulle teekom en omdat hulle skade doen, en waaroor die les niks se oor wat die wet daarmee doen nie; (c) medisyne wat verkeerd gebruik word - iemand anders s'n, meer as wat voorgeskryf is, of medisyne wat sonder 'n voorskrif gekoop word; (d) gewone huishoudelike goed wat ingeasem word, sonder om te se watter goed of hoe; (e) middels wat onwettig is om te verkoop, te gee of te besit - hierdie groep bly SONDER 'n naam. By (e) staan die een ding wat wel vir elke sulke middel waar is: dit is onwettig om dit aan 'n kind te gee of te verkoop.",
-    "Die VORMS van dwelmmisbruik as 'n patroon oor tyd: iemand probeer dit een of twee keer; iemand gebruik gereeld; iemand kan nie meer ophou nie. Sê uitdruklik dat die stap van die een na die ander nie vir elke mens dieselfde verloop nie en dat niemand vooruit weet vir wie dit vinnig gaan nie.",
-    "Verslawing (aanvulling): DIE OMSKRYWING DRAAI OM AANHOU GEBRUIK AL DOEN DIT SKADE, en al wil die mens ophou (feitetoets van die spesifikasie, 23 September 2026). Moenie siek word wanneer 'n mens ophou, deel van die omskrywing maak nie: by party middels gebeur dit skaars, en 'n omskrywing wat dit vereis, laat juis daardie middels uit. Stel dit as iets wat met enige mens kan gebeur en nie as 'n swakheid nie.",
-    "WAT DIE LES NIE DOEN NIE, en dit is deel van die inhoud: geen hoeveelhede, geen manier van gebruik, geen mengsels, geen straatname, en geen plek, skool, buurt of groep mense word as die gebruikers genoem nie."
-   ],
-   "aanvulling": [
-    {
-     "item": "Verslawing as begrip",
-     "regverdiging": "KABV se subpunt noem die soorte en vorms van misbruik, maar nie verslawing by die naam nie. Sonder dit is die derde vorm - iemand wat nie kan ophou nie - net 'n etiket sonder 'n meganisme, en die hele blok se res verloor sy rede: vroeë bespeuring (les 5) bestaan juis omdat gebruik in afhanklikheid kan oorgaan, en beskermende faktore (les 4) verminder juis daardie kans. KABV noem verslawing self in die Graad 8- en 9-inhoud, so die begrip in Graad 7 invoer volg KABV se eie lyn."
-    }
-   ],
-   "moeilike_konsepte": [
-    "Hoe 'n middel 'n mens se liggaam en brein laat aanhou soek na nog, al wil hy ophou"
-   ],
-   "feiterisiko": [
-    "GAAN ELKE BEWERING OOR WAT 'N MIDDEL AAN DIE LIGGAAM DOEN NA VOORDAT DIT GESKRYF WORD, teen 'n Suid-Afrikaanse of hoofstroom-gesondheidsbron. Nie een van die kern-items is deur die beplanner geverifieer nie.",
-    "GEEN SKRIKBEWERING NIE. Moenie skryf dat een keer gebruik 'n mens verslaaf maak, dat elke mens wat gebruik verslaaf raak, of dat 'n middel altyd tot 'n ander middel lei ('die deurgangsdwelm') - die laaste een is omstrede en word nie gestel nie. Skryf wat bronne werklik steun, met 'kan' en 'maak die kans groter'.",
-    "DIE WETTIGE OUDERDOMME IS NAGEGAAN (feitetoets van die spesifikasie, 23 September 2026) EN STAAN SO: alkohol (Drankwet 59 van 2003) en tabak (Wet op Beheer van Tabakprodukte 83 van 1993) is reg en mag geskryf word. E-SIGARETTE HET IN SUID-AFRIKA GEEN OUDERDOMSWET NIE: die meeste bevat geen tabak nie, sodat die Tabakwet hulle nie dek nie, en die ouderdomsreel staan in wetsontwerp B33-2022, wat in September 2026 nog in komitee was. Skryf dus NIE dat 'n kind nie e-sigarette mag koop of he nie - en skryf ook nie dat hy wel mag nie. Die les se net dat hulle skade doen.",
-    "MOENIE SKRYF DAT 'N LEERDER NIE DAGGA MAG HE NIE, en noem dagga glad nie by die naam nie (Lampies, 23 September 2026). Die rede staan hier sodat niemand dit later 'verbeter' nie: privaat gebruik deur volwassenes is in Suid-Afrika gedekriminaliseer, sodat ''n mens mag nie dagga he nie' vals is soos dit staan. Wat die les wel se - en wat nagegaan word voordat dit geskryf word - is dat dit onwettig is om so 'n middel aan 'n kind te gee of te verkoop.",
-    "'VERSLAWING' SE OMSKRYWING WORD ALLEEN GELEES NAGEGAAN, en sy spil is AANHOU GEBRUIK TEN SPYTE VAN SKADE - nie onttrekking nie (feitetoets van die spesifikasie, 23 September 2026). 'n Bewoording soos 'wanneer jou liggaam iets nodig het' pas ook op kos, water en slaap; 'n bewoording wat siek word by ophou vereis, laat middels uit waar dit skaars gebeur. Die omskrywing moet die middel, die aanhou gebruik en die skade dra.",
-    "DIE ELI10 SE VERGELYKING WORD SELF NAGEGAAN, nie net sy feite nie. 'n Beeld soos 'die brein se skakelaar bly aan' of 'die brein leer dat dit die middel nodig het' moet in die mapping klop; 'n vergelyking wat die brein soos 'n masjien met 'n stukkende knoppie stel, leer iets vals wat jare hou."
-   ],
-   "fokusvraag_skakel": "Lewer die eerste deel van die middel-antwoord: 'n leerder kan sê wanneer die gebruik van 'n middel misbruik word, en watter soorte middels dit raak."
-  },
-  {
-   "nommer": 2,
-   "kwartaal": 3,
-   "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
-   "titel": "Wat by 'n mens verander",
-   "titel_nota": "Werktitel. Die les gaan oor verandering wat opgemerk word, nie oor 'n kontrolelys nie.",
-   "kaps_punt": "Dwelmmisbruik: Simptome van dwelmmisbruik",
-   "begroting": 500,
-   "begrotingsnota": "500 woorde. Rigverdeling: die verskil tussen 'n teken en 'n simptoom, en wat dit hier beteken, ongeveer 70; veranderinge aan die liggaam ongeveer 110; veranderinge in gedrag, by die skool en in verhoudings ongeveer 150; wat die mens self voel ongeveer 80; die waarskuwing dat geen enkele teken bewys lewer nie, ongeveer 90. Die les bly korter as les 1 omdat dit die woordeskat van les 1 erf.",
-   "termdig": false,
-   "kern": [
-    "GEBRUIK 'TEKENS EN SIMPTOME' SAAM, volgens die ooreengekome reël: 'n simptoom is wat die mens self voel, 'n teken is wat ander kan sien, hoor of meet. KABV skryf net 'simptome', maar byna alles wat 'n leerder aan 'n ANDER mens opmerk, is 'n teken. Albei woorde word reg gebruik en albei kry hul ooreengekome bewoording.",
-    "Veranderinge aan die liggaam wat ander kan sien: slaap wat omkeer, eetlus wat verander, min energie, oë, reuk, en bewegings of spraak wat anders is. Hou dit kort en algemeen.",
-    "Veranderinge in gedrag, by die skool en in verhoudings: punte wat val, klasse wat gemis word, belangstelling wat verdwyn in dinge wat vroeër lekker was, geheimhouding, geld of goed wat verdwyn, 'n skielike nuwe vriendekring, humeur wat op en af gaan, wegkruip van die gesin.",
-    "Wat die mens SELF voel (die eintlike simptome): 'n sterk begeerte na die middel; by PARTY middels, naar of siek voel sonder dit (die kwantifiseerder bly staan - by ander middels gebeur dit skaars, sien les 1 se verslawing-item); skuldig voel; en ontdek dat ophou moeiliker is as wat hy gedink het.",
-    "DIE BELANGRIKSTE DEEL VAN DIE LES: nie een van hierdie tekens bewys op sy eie iets nie. Dieselfde veranderinge kom van puberteit, spanning, te min slaap, verlies, afknouery, 'n siekte of 'n moeilike tyd by die huis. 'n Leerder diagnoseer nie 'n vriend, 'n klasmaat of 'n familielid nie, en noem niemand op grond van 'n lys nie.",
-    "Dat verskillende middels verskillende tekens gee, en dat party mense lank baie min wys - dit is juis waarom 'n mens nie op tekens alleen kan staatmaak nie.",
-    "Die les eindig by die opmerk, nie by die optrede nie: wat 'n mens met 'n bekommernis doen, staan in les 5. Sê dit so, sodat die twee lesse nie oorvleuel nie."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "GAAN ELKE TEKEN EN ELKE SIMPTOOM NA voordat dit geskryf word; los enigeen uit wat nie deur 'n gesondheidsbron gesteun word nie. 'n Enkele verkeerde teken in hierdie les laat 'n kind 'n ander kind verkeerd etiketteer.",
-    "MOENIE 'N TEKEN AAN 'N SPESIFIEKE MIDDEL KOPPEL NIE (die soort 'rooi oë beteken dagga'). Dit is onbetroubaar en dit maak die les 'n opsporingsgids.",
-    "DIE 'GEEN ENKELE TEKEN BEWYS IETS'-SIN MOET IN DIE LES SELF STAAN, nie net in hierdie nota nie, en dit moet by ELKE groep tekens hou. 'n Weglating hier verander die bure: 'n lys sonder daardie sin lees soos 'n kontrolelys.",
-    "'SIMPTOOM' EN 'TEKEN' WORD ALLEEN GELEES NAGEGAAN teen die ooreengekome bewoordings; moenie iets wat ander kan sien 'n simptoom noem nie."
-   ],
-   "fokusvraag_skakel": "Lewer die deel wat sê hoe 'n mens raaksien dat iets verkeerd is - by homself of by iemand anders - sonder om 'n gevolgtrekking te maak wat hy nie kan maak nie."
-  },
-  {
-   "nommer": 3,
-   "kwartaal": 3,
-   "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
-   "titel": "Hoekom iemand die eerste keer ja sê",
-   "titel_nota": "Werktitel. Noem die oomblik wat die les verklaar.",
-   "kaps_punt": "Dwelmmisbruik: Persoonlike faktore wat bydra tot dwelmmisbruik: interpersoonlik en intrapersoonlik",
-   "begroting": 550,
-   "begrotingsnota": "550 woorde. Rigverdeling: wat 'n faktor is en wat die twee woorde beteken ongeveer 90; intrapersoonlike faktore ongeveer 170; interpersoonlike faktore ongeveer 190; die eerlike raam (faktore is nie oorsake nie, en niemand kry die skuld nie) ongeveer 100.",
-   "termdig": false,
-   "termdig_nota": "Drie begrip-inskrywings: intrapersoonlik, interpersoonlik, risikofaktor. 'groepsdruk' kry NIE 'n nuwe bewoording hier nie - dit kom uit die Kwartaal 1-subonderwerp.",
-   "kern": [
-    "Wat 'intrapersoonlik' en 'interpersoonlik' beteken, in gewone woorde: binne die mens self, en tussen die mens en ander mense. Albei is KABV se eie woorde en bly staan.",
-    "Intrapersoonlike faktore: nuuskierigheid; 'n swak selfbeeld; spanning, hartseer of woede wat iemand wil wegdruk; verveling; om ouer of dapperder te wil lyk; nie weet wat 'n middel doen nie; en 'n swaar tyd soos 'n verlies of mishandeling.",
-    "Interpersoonlike faktore: vriende wat gebruik; groepsdruk; iemand in die huis wat gebruik; die begeerte om in te pas of nie uitgelaat te word nie; hoe maklik dit is om aan 'n middel te kom; en beelde in advertensies, musiek en sosiale media wat laat lyk asof almal dit doen.",
-    "GROEPSDRUK WORD GENOEM EN NIE HERBOU NIE: die Kwartaal 1-blok oor groepsdruk is hierdie leerders se eie les daaroor, en hierdie les gebruik daardie term se ooreengekome bewoording en gaan aan.",
-    "DIE EERLIKE RAAM, en dit is die deel wat die les waar maak: hierdie dinge maak die kans groter; hulle veroorsaak dit nie. Twee mense in dieselfde huis, dieselfde straat en dieselfde klas kies verskillend, en 'n mens met baie van hierdie faktore is nie op pad daarheen nie.",
-    "NIEMAND KRY DIE SKULD NIE, allerminste 'n kind wat in 'n moeilike huis woon. Die les noem NOOIT 'n werklike plek, 'n buurt, 'n skool, 'n taalgroep, 'n kultuur of mense met min geld as die plek waar dit gebeur nie - dit gebeur in elke soort huis en elke soort dorp."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "GAAN ELKE FAKTOR NA teen 'n bron wat werklik oor risikofaktore vir middelgebruik by tieners skryf, en laat enigeen uit wat nie gesteun word nie.",
-    "MOENIE 'N FAKTOR AS 'N OORSAAK SKRYF NIE. 'Kinders wie se ouers drink, gebruik dwelms' is vals; 'dit maak die kans groter' is wat bronne steun. Hierdie fout is maklik om per ongeluk te maak wanneer 'n sin ingekort word.",
-    "GEEN GROEP MENSE WORD DIE PROBLEEM NIE, ook nie deur 'n voorbeeld nie. 'n Enkele sin oor 'sekere gemeenskappe' maak die hele les 'n stereotipe, en 'stereotipe' se ooreengekome bewoording sê presies waarom.",
-    "GEEN STATISTIEK EN GEEN OORTREFFENDE TRAP ('die meeste tieners', 'die grootste rede') sonder 'n bron wat dit vir Suid-Afrika steun."
-   ],
-   "fokusvraag_skakel": "Lewer die deel wat verklaar waarom mense by middels betrokke raak, sodat 'n leerder die volgende les se beskermende faktore as die ander kant van dieselfde lys kan lees."
-  },
-  {
-   "nommer": 4,
-   "kwartaal": 3,
-   "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
-   "titel": "Wat die kans kleiner maak",
-   "titel_nota": "Werktitel. Sê presies wat 'n beskermende faktor doen, en nie meer nie.",
-   "kaps_punt": "Dwelmmisbruik: Beskermende faktore wat die moontlikheid van dwelmmisbruik verminder",
-   "begroting": 450,
-   "begrotingsnota": "450 woorde, die kortste les van die blok. Rigverdeling: wat 'n beskermende faktor is ongeveer 60; in die mens self ongeveer 120; tussen mense ongeveer 120; in die skool en die gemeenskap ongeveer 90; die eerlike grens ongeveer 60. Dit is kort omdat die lys die spieëlbeeld van les 3 is en die les nie weer verklaar wat les 3 verklaar het nie.",
-   "termdig": false,
-   "kern": [
-    "Wat 'n beskermende faktor is: iets wat die kans op dwelmmisbruik kleiner maak. Stel dit uitdruklik as die ander kant van les 3 se faktore.",
-    "In die mens self: weet wat 'n middel werklik doen; iets hê om na toe te werk; iets wees waarin jy goed is, soos sport, musiek, 'n geloofsgroep of 'n werkie; kan 'nee' sê sonder om 'n vriend te verloor; en iets kan doen met moeilike gevoelens behalwe wegdruk.",
-    "Tussen mense: ten minste een volwassene wat jy vertrou en met wie jy praat; 'n huis waar oop gepraat word en waar die reëls duidelik is; vriende wat nie gebruik nie; en mense wat merk wanneer dit met jou sleg gaan.",
-    "In die skool en die gemeenskap: om iewers te behoort; 'n veilige plek om die middag te wees; sportklubs, jeuggroepe en skoolprogramme; en 'n kliniek naby genoeg om te gebruik. Beskryf SOORTE plekke en dienste, nooit 'n werklike organisasie by die naam nie.",
-    "DIE EERLIKE GRENS: hierdie dinge maak die kans kleiner, hulle maak dit nie onmoontlik nie. En 'n leerder wat min van hulle het, is nie verlore nie - die les wys watter van hulle 'n leerder self kan bou, en dat om een vertroude volwassene te kies, die een is wat die meeste mense self kan doen.",
-    "Selfgelding en die vaardigheid om 'nee' te sê, word GENOEM en nie hier onderrig nie: dit is die Kwartaal 1-blok se werk, en die les leun daarop met daardie blok se woorde."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "GAAN ELKE BESKERMENDE FAKTOR NA teen 'n bron wat oor beskermende faktore vir tieners skryf; die lys mag nie 'n lys goeie raad wees wat soos navorsing lyk nie.",
-    "MOENIE SKRYF DAT ENIGE FAKTOR DWELMMISBRUIK KEER NIE. 'Kinders wat sport speel, gebruik nie dwelms nie' is vals. Die hele les se werkwoord is 'maak die kans kleiner'.",
-    "MOENIE DIE OMGEKEERDE LAAT ONTSTAAN NIE: 'n les wat sê dat 'n sterk gesin beskerm, mag nie lees asof 'n kind sonder dit gedoem is nie. Die twee sinne moet langs mekaar staan, want 'n weglating maak die bure 'n bewering."
-   ],
-   "fokusvraag_skakel": "Lewer die deel wat sê wat 'n leerder self kan bou sodat die kans op dwelmmisbruik kleiner word."
-  },
-  {
-   "nommer": 5,
-   "kwartaal": 3,
-   "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 1-4 (4 uur): Dwelmmisbruik.",
-   "titel": "Hoe vroeër, hoe beter",
-   "titel_nota": "Werktitel; dit is KABV se 'vroeë bespeuring' in die leerder se eie woorde.",
-   "kaps_punt": "Dwelmmisbruik: Voorkomingsmaatreëls: vroeë bespeuring",
-   "begroting": 500,
-   "begrotingsnota": "500 woorde. Rigverdeling: wat voorkoming op drie punte beteken ongeveer 80; wat vroeë bespeuring is en wie dit raaksien ongeveer 90; waarom vroeg saak maak ongeveer 80; wat 'n leerder met 'n bekommernis doen ongeveer 120; die soorte hulp ongeveer 130.",
-   "termdig": false,
-   "termdig_nota": "Twee nuwe begrippe: vroeë bespeuring en berader. 'kliniek', 'maatskaplike werker' en 'childline' kom woord vir woord uit die gedeelde lys.",
-   "kern": [
-    "Wat voorkoming op drie punte beteken: voordat iemand begin; kort nadat iemand begin het; en wanneer dit reeds 'n probleem is. KABV se subpunt is die tweede een, en die les sê waarom juis daardie punt sy eie naam het.",
-    "Wat vroeë bespeuring is: dat iemand dit vroeg agterkom - die mens self, 'n vriend, iemand in die huis, 'n onderwyser of 'n verpleegster.",
-    "WAAROM VROEG SAAK MAAK: hoe vroeër iemand hulp kry, hoe minder skade aan gesondheid, skoolwerk en verhoudings, en hoe makliker is dit om te stop. Hierdie sin is die hele rede vir die les en moet teen 'n bron bevestig word.",
-    "WAT 'N LEERDER DOEN met 'n bekommernis oor homself of oor iemand anders: praat met 'n volwassene wat hy vertrou; dit is nie verklik nie; moenie dit alleen probeer oplos nie; moenie iemand alleen konfronteer of sy goed deursoek nie; en bly self by die skool en by die mense wat hom help.",
-    "CHILDLINE WORD BY DIE NAAM GENOEM (Lampies, 23 September 2026), met die Graad 7-bewoording, SONDER 'n nommer, en met die derde feit in die vorm wat die feitetoets van die spesifikasie, 23 September 2026 vereis: 'n kind HOEF NIE vir 'n grootmens te vra om te bel nie. Dit beteken NIE dat sy dit sonder 'n grootmens moet doen nie - hierdie les se eie kern se juis dat sy met 'n volwassene praat wat sy vertrou, en die twee sinne moet langs mekaar staan. DIE SOORTE HULP (aanvulling), as soorte en nie as 'n gids nie: die kliniek of 'n dokter; 'n onderwyser of die skool se berader; 'n maatskaplike werker; 'n berader met wie 'n mens praat; Childline, wat 'n kind self kan bel, gratis en dag en nag; 'n groep waar mense wat gebruik het mekaar help; en 'n program waar iemand wat verslaaf is, behandeling kry. Se dat hulp werk en dat mense wel ophou.",
-    "GEEN SKAAMTE: hulp vra is nie swakheid nie, en 'n mens wat terugval, begin nie weer van voor af nie. Sê dit sonder om te belowe dat dit maklik is."
-   ],
-   "aanvulling": [
-    {
-     "item": "Waar en by wie 'n mens hulp kry (die soorte hulp)",
-     "regverdiging": "KABV se subpunt in hierdie blok stop by 'vroeë bespeuring' en noem nie hulp nie, maar bespeuring bestaan slegs omdat dit tot hulp lei: 'n les wat by die raaksien stop, leer 'n leerder om iets te sien en niks daarmee te doen nie. KABV noem 'Waar om hulp te vind' self as 'n subpunt van die Kwartaal 1-groepsdrukblok, wat dwelmgebruik uitdruklik insluit, so om dit hier in te bring volg KABV se eie patroon eerder as om daarvan af te wyk. Dit bly ongeveer 130 van 500 woorde, binne die kwart."
-    }
-   ],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "GEEN TELEFOONNOMMER IN DIE LES NIE, ook nie 'n noodnommer of 'n hulplyn se nommer nie. 'n Nommer verouder en niks gaan dit na sodra 'n les goedgekeur is nie - Childline se nommer is presies hoe hierdie fout die vorige keer ingekom het.",
-    "GEEN WERKLIKE ORGANISASIE, VELDTOG, REHABILITASIESENTRUM OF WEBTUISTE BY DIE NAAM NIE, met presies EEN uitsondering wat beslis is: Childline (Lampies, 23 September 2026), met die Graad 7-bewoording en sonder 'n nommer. Die drie feite in daardie bewoording - dat 'n kind self bel, dat dit gratis is, en dat dit dag en nag oop is - word saam met die bewoording self nagegaan voordat die les geskryf word.",
-    "GAAN DIE 'HOE VROEËR, HOE BETER'-BEWERING NA. Dit is die les se spil en dit word algemeen gestel; skryf dit in die vorm wat bronne werklik steun en nie as 'n belofte nie.",
-    "MOENIE BEHANDELING BESKRYF NIE: geen medisyne by die naam, geen dosis, geen ontgiftingstappe, geen duur van 'n program. Die les sê watter SOORT hulp bestaan, nie hoe dit werk nie.",
-    "MOENIE BELOWE DAT 'N VOLWASSENE ALTYD REG GAAN REAGEER NIE. Die veilige vorm is dat 'n leerder aanhou soek totdat iemand luister, en die les noem meer as een soort volwassene juis daarom."
-   ],
-   "fokusvraag_skakel": "Lewer die laaste deel van die middel-antwoord: wat 'n leerder doen sodra hy iets agterkom, en watter soorte hulp bestaan."
-  },
-  {
-   "nommer": 6,
-   "kwartaal": 3,
-   "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 5-7 (3 uur): Konsep: omgewingsgesondheid.",
-   "titel": "Die gesondheid van die plek waar jy woon",
-   "titel_nota": "Werktitel. Dit stel die konsep in die leerder se eie omgewing, nie as 'n definisie nie.",
-   "kaps_punt": "Konsep: omgewingsgesondheid: Plaaslike omgewingsgesondheidsprobleme",
-   "begroting": 600,
-   "begrotingsnota": "600 woorde. Rigverdeling: wat omgewingsgesondheid is ongeveer 90; die twee rigtings (die plek werk op die mens, die mens werk op die plek) ongeveer 70; die plaaslike probleme ongeveer 330, met ongeveer 45 elk vir sewe soorte probleme, elkeen met wat dit aan gesondheid doen; hoe 'n mens die probleme in sy eie omgewing raaksien ongeveer 110. Dit is die langste les van die blok omdat dit die konsep EN die probleemlys dra; lesse 7 en 8 gebruik albei.",
-   "termdig": true,
-   "termdig_nota": "Verwag vier of vyf begrip-inskrywings: omgewingsgesondheid, sanitasie, besoedeling, plaag, en wat die les verder werklik gebruik.",
-   "kern": [
-    "WAT OMGEWINGSGESONDHEID IS, as die konsep wat die hele blok dra: die deel van 'n mens se gesondheid wat kom uit die plek rondom hom - die water, die lug, die kos, die afval, die huis en die geraas - en die werk om daardie plek so te hou dat dit mense gesond hou.",
-    "Dat dit twee rigtings het: die plek werk op die mens se gesondheid, en wat mense doen, werk op die plek. Dit is die skarnier waarop lesse 7 en 8 draai.",
-    "PLAASLIKE PROBLEME, elkeen met wat dit aan gesondheid doen en nie net as 'n naam nie: afval wat nie weggery word nie en onwettige storting; drinkwater wat nie veilig is nie; swak sanitasie en riool wat loop; vuil lug binne die huis (rook van 'n vuur, 'n paraffienstoof, sigarette) en buite (verkeer, brande, fabrieke); staande water waar muskiete broei; plae soos rotte en vlieë; en geraas, oorvol huise en chemikalieë wat verkeerd weggegooi word.",
-    "DIE REËL WAT DIE LES WAAR HOU: hierdie probleme kom in baie soorte plekke voor - op plase, in dorpe, in stede, in ryk en arm buurte - en die les noem NOOIT 'n werklike plek, buurt of groep mense as die probleem nie. Waar geld 'n rol speel, staan dit as iets wat die keuses kleiner maak, nooit as 'n gebrek by die mense nie.",
-    "HOE 'N MENS DIT IN SY EIE OMGEWING RAAKSIEN, want dit is wat 'plaaslik' beteken: kyk, ruik, hoor en vra. Gee die soort vrae wat 'n mens vir homself beantwoord - waar kom ons water vandaan, waarheen gaan ons afval, wat ruik 'n mens in die oggend - as stellings in die lopende teks, want die les dra geen vrae nie."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "GAAN DIE OMSKRYWING VAN OMGEWINGSGESONDHEID NA teen 'n gesondheidsowerheid se eie omskrywing; die les se hele blok hang daaraan, en 'n omskrywing wat alleen gelees ook 'natuurbewaring' beteken, is verkeerd - omgewingsgesondheid gaan oor MENSE se gesondheid.",
-    "GAAN ELKE KOPPELING TUSSEN 'N PROBLEEM EN 'N SIEKTE NA. Dit is waar hierdie les die maklikste iets vals leer: nie elke staande water gee malaria nie (malaria kom in Suid-Afrika net in sekere streke voor), en diarree, cholera en wurms moet elk aan die regte oorsaak gekoppel word.",
-    "GEEN STATISTIEK, GEEN PERSENTASIE EN GEEN OORTREFFENDE TRAP sonder 'n bron wat dit vir Suid-Afrika steun.",
-    "NAGAAN WIE WAARVOOR VERANTWOORDELIK IS voordat dit geskryf word (munisipaliteit, provinsie, huiseienaar). Les 7 leun hierop, en 'n verkeerde toedeling stuur 'n leerder na die verkeerde deur."
-   ],
-   "fokusvraag_skakel": "Lewer die eerste deel van die omgewingsantwoord: 'n leerder kan sê wat omgewingsgesondheid is en watter probleme in sy eie omgewing mense siek maak."
-  },
-  {
-   "nommer": 7,
-   "kwartaal": 3,
-   "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 5-7 (3 uur): Konsep: omgewingsgesondheid.",
-   "titel": "Een mens, 'n straat, 'n gemeenskap",
-   "titel_nota": "Werktitel. Die drie skale is die les se eie vorm.",
-   "kaps_punt": "Gemeenskaps- en individuele projekte en strategieë om omgewingsgesondheidsprobleme te voorkom en te hanteer",
-   "begroting": 500,
-   "begrotingsnota": "500 woorde. Rigverdeling: voorkom teenoor hanteer ongeveer 70; wat een mens doen ongeveer 130; wat 'n gemeenskap saam doen ongeveer 150; wie waarvoor verantwoordelik is en wat 'n mens aanmeld ongeveer 90; wat 'n projek laat hou eerder as doodloop ongeveer 60.",
-   "termdig": false,
-   "termdig_nota": "Een of twee nuwe begrippe: herwinning, en moontlik 'munisipaliteit' as die les dit gebruik.",
-   "kern": [
-    "Die verskil tussen VOORKOM en HANTEER: keer dat die probleem ontstaan, teenoor iets doen aan 'n probleem wat reeds daar is. Sê dat die meeste planne albei nodig het, want dit is wat les 8 se aksieplan moet dra.",
-    "WAT EEN MENS SELF DOEN: afval skei en herwin; niks in die straat of in 'n sloot gooi nie; water spaar en 'n lekplek laat regmaak; staande water uitgooi; hande was; herbruik eerder as weggooi; krag spaar; en die huis se rook verminder deur te lug.",
-    "WAT 'N GEMEENSKAP SAAM DOEN: 'n skoonmaakdag; 'n herwinningspunt; 'n gemeenskapstuin; 'n omgewingsklub by die skool; 'n groep wat onwettige storting aanmeld; en bome plant. Beskryf SOORTE projekte, nooit 'n werklike organisasie, veldtog of plek by die naam nie.",
-    "WIE WAARVOOR VERANTWOORDELIK IS: wat die munisipaliteit moet doen (afval wegry, water, riool), wat die skool doen, en wat 'n huishouding self doen - en hoe 'n mens 'n probleem aanmeld in plaas van dit self te hanteer. Dit is die deel wat 'n leerder werklik kan gebruik.",
-    "WAT 'N PROJEK LAAT HOU: meer as een mens; toestemming; veiligheid (niemand vat afval sonder handskoene nie, niemand klim in water of op 'n stortingsterrein nie); en iets wat aangaan nadat die dag verby is.",
-    "DIE LES LEER DIE DENKE, NIE DIE DOEN NIE: dit verduidelik hoe sulke projekte werk en waarom hulle werk. Dit gee nie 'n opdrag om 'n projek te doen nie, en dit is nie 'n aktiwiteit nie."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "GAAN NA WAT WERKLIK HERWIN KAN WORD voordat 'n lys geskryf word; dit verskil per plek en per soort plastiek, en 'n verkeerde lys is die soort fout wat 'n leerder self in die praktyk teëkom.",
-    "GAAN DIE VERANTWOORDELIKHEDE NA (munisipaliteit teenoor provinsie teenoor huiseienaar) en skryf hulle in die vorm wat vir die meeste Suid-Afrikaanse plekke geld.",
-    "GEEN VEILIGHEIDSINSTRUKSIE SONDER NAGAAN NIE. Die les stuur 'n kind nie na afval, water of 'n vuur toe nie; die veilige vorm is dat 'n volwassene betrokke is.",
-    "MOENIE BELOWE DAT 'N PROJEK DIE PROBLEEM OPLOS NIE. 'n Skoonmaakdag maak 'n plek skoon; dit verander nie die rede waarom die afval daar was nie, en die les moet albei kan sê."
-   ],
-   "fokusvraag_skakel": "Lewer die deel wat wys wat mense - een mens en 'n gemeenskap saam - aan omgewingsgesondheidsprobleme doen."
-  },
-  {
-   "nommer": 8,
-   "kwartaal": 3,
-   "kaps_blok": "KABV Graad 7, Kwartaal 3, weke 5-7 (3 uur): Konsep: omgewingsgesondheid.",
-   "titel": "Van 'n probleem na 'n plan",
-   "titel_nota": "Werktitel. Dit noem die beweging wat die les leer.",
-   "kaps_punt": "Probleemoplossingsvaardighede: 'n aksieplan om omgewingsgesondheidsprobleme aan te spreek en om omgewingsvriendelike keuses en optredes te formuleer",
-   "begroting": 550,
-   "begrotingsnota": "550 woorde. Rigverdeling: wat 'n aksieplan is ongeveer 60; die agt stappe ongeveer 300 (ongeveer 38 elk, elkeen met die stap self en wat dit in die deurlopende voorbeeld beteken); wat 'n omgewingsvriendelike keuse is en hoe 'n mens een weeg ongeveer 120; waarom 'n plan wat te groot is, misluk ongeveer 70. Knap: as die stappe langer word, sny die deurlopende voorbeeld terug tot een sin per stap, nie die stappe self nie.",
-   "termdig": false,
-   "termdig_nota": "Een nuwe begrip: aksieplan. Die stappe self kry nie elk 'n begrip nie.",
-   "kern": [
-    "Wat 'n aksieplan is: 'n plan wat sê wat gedoen word, deur wie, wanneer en met watter hulp - en hoe 'n mens agterna weet of dit gewerk het.",
-    "DIE STAPPE, in volgorde en elkeen verklaar: (1) noem die probleem presies, nie 'die omgewing is vuil' nie; (2) vind uit wat waar is - kyk self, vra mense, vra by die skool of die munisipaliteit; (3) vra wie geraak word en hoe; (4) dink aan meer as een moontlike oplossing; (5) weeg elke oplossing: wat dit kos, wie dit gaan doen, of dit veilig is, en of dit toegelaat word; (6) kies een en skryf wie doen wat, wanneer; (7) doen dit; (8) kyk terug - het dit gewerk, wat sou jy anders doen.",
-    "EEN DEURLOPENDE VOORBEELD dra al agt stappe, sodat die stappe konkreet is en nie 'n lys woorde nie. Die skrywer kies die voorbeeld uit les 6 se probleme; dit mag nie 'n werklike plek wees nie.",
-    "WAT 'N OMGEWINGSVRIENDELIKE KEUSE IS: 'n keuse wat minder skade doen aan die plek en aan die mense daar. Gee die maatstawwe waarmee 'n mens twee keuses teen mekaar weeg - gebruik dit minder water of krag, maak dit minder afval, hou dit aan nadat die dag verby is, is dit veilig, kan almal dit bekostig.",
-    "DAT 'N PLAN WAT TE GROOT IS, MISLUK: kies iets klein genoeg om klaar te maak, en 'n klein plan wat werk, is meer werd as 'n groot plan wat nie gebeur nie.",
-    "Die les leer die DENKE agter 'n plan. Dit skryf nie 'n projek voor nie en dit is nie 'n aktiwiteit nie; die klaskamerwerk is die onderwyser en die uitlegspan se deel."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "GAAN DIE DEURLOPENDE VOORBEELD SE FEITE NA, nie net die stappe nie: as die voorbeeld sê wat 'n munisipaliteit doen of hoe lank iets neem, is dit 'n bewering.",
-    "GEEN VEILIGHEIDSTAP WORD GERAAI NIE. As die plan iets fisies raak (afval, water, rook), moet die veiligheidsin nagegaan wees en moet 'n volwassene daarin wees.",
-    "MOENIE 'N STAP WEGLAAT OMDAT DIE LES LANK WORD NIE: stap 2 (vind uit wat waar is) en stap 8 (kyk terug) is presies die twee wat sneuwel, en sonder hulle is dit nie meer probleemoplossing nie."
-   ],
-   "fokusvraag_skakel": "Lewer die laaste deel van die omgewingsantwoord: hoe 'n leerder van 'n probleem wat hy raaksien, by 'n plan kom wat werklik iets verander."
-  },
-  {
-   "nommer": 9,
-   "kwartaal": 4,
-   "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
-   "titel": "Siektes wat van mens tot mens gaan",
-   "titel_nota": "Werktitel. Noem wat hierdie twee siektes van die volgende les s'n onderskei.",
-   "kaps_punt": "Algemene siektes: tuberkulose, MIV en VIGS",
-   "kaps_punt_nota": "Die volledige KABV-punt lui: 'Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS'. Al sewe is by die naam genoem en dus verpligtend. Hulle word oor lesse 9 en 10 verdeel op die naat oordraagbaar teenoor nie-oordraagbaar; saam dek die twee lesse die volle lys. Die spek-toetser gaan hieroor waarsku by elke les - dit is verwag en dit is die verdeling, nie 'n gaping nie.",
-   "begroting": 500,
-   "begrotingsnota": "500 woorde. Rigverdeling: wat oordraagbaar beteken ongeveer 60; TB ongeveer 190 (wat dit is, hoe dit oorgaan en hoe nie, tekens en simptome, dat dit genees kan word); MIV en VIGS ongeveer 190 (wat hulle is, hoe MIV oorgaan en hoe nie, wat behandeling doen); en ongeveer 60 wat sê wat hierdie twee gemeen het. Dit bly by 500 omdat Graad 5 en 6 albei siektes reeds gedek het: hierdie les stel hulle een keer en herhaal nie die mites-les of die voorkomingsles nie.",
-   "termdig": true,
-   "termdig_nota": "Verwag vier of vyf begrippe: oordraagbaar, tuberkulose (TB), bakterie, en die oorgenome bewoordings vir miv en vigs. 'kieme' en 'virus' kom woord vir woord uit die gedeelde lys.",
-   "kern": [
-    "Wat 'oordraagbaar' beteken: 'n siekte wat van een mens na 'n ander kan gaan. Lees eers Graad 6 Lewensvaardighede se begrip-inskrywing en hou dieselfde bewoording as die inhoud nie werklik verbreed het nie.",
-    "TUBERKULOSE (TB): SKRYF 'TB KAN GENEES WORD' EN NOOIT 'TB word genees as die mens die kuur klaar drink' NIE (feitetoets van die spesifikasie, 23 September 2026): party soorte TB genees nie altyd nie, en die voorwaardelike vorm gee die pasient die skuld wanneer dit nie werk nie - wat les 11 se eie reel verbied. Verder: wat TB is en watter deel van die liggaam dit meestal tref; hoe dit van mens tot mens gaan en hoe dit NIE gaan nie (nie deur 'n beker, 'n hand of kos nie); die tekens en simptome wat 'n mens laat kliniek toe gaan; en dat die kuur klaar gemaak word omdat dit die beste kans gee, nie omdat dit 'n waarborg is nie.",
-    "MIV EN VIGS: GRAAD 7 GEBRUIK DIE VERBREEDE MIV-BEWOORDING (Lampies, 23 September 2026) en NIE Graad 4-6 s'n nie - sien gedeelde_omskrywings/verbreed_in_graad_7. 'vigs' bly woord vir woord soos Graad 4-6 dit het. DIE LES DRA DIE DEEL VAN DIE TOEGANGSFEIT WAT DIE WOORDELYSINSKRYWING NIE KAN DRA NIE (derde leesalleen-feitetoets, 23 September 2026): se hoe MIV oorgaan, en maak in daardie sin duidelik dat die vog van iemand kom WAT DIE VIRUS HET - die woordelysinskrywing impliseer dit net, en 'n kind wat onder spanning lees, kan anders hoor dat bloed op sigself MIV beteken (aanvaarde beperking van die inskrywing, 23 September 2026). Se dan in een gewone sin dat gewone kontak dit NIE oordra nie - saamsit, druk, dieselfde beker, dieselfde toilet, 'n hoes - en dat die virus nie lank buite die liggaam hou nie. Daardie sin is wat 'n leerder antwoord wat 'n maat met 'n bloedneus help, en dit is die stigmakant van hierdie les. Se ook dat medisyne 'n mens met MIV gesond hou. Nooit 'n bewering dat elke mens met MIV VIGS kry nie.",
-    "Wat die twee gemeen het en waarom hulle in een les staan: albei gaan van mens tot mens, albei word met medisyne behandel wat elke dag geneem word, en by albei is stigma EEN van die dinge wat mense keer om hulp te kry - nie die enigste een nie (feitetoets van die spesifikasie, 23 September 2026): geld, vervoer, afstand, kliniekure en vrees is net so werklik, en lesse 11 en 12 noem hulle self. Dit is die brug na les 13.",
-    "WAT DIE LES NIE OORDOEN NIE: die mites-en-waarhede-les oor MIV (Graad 6) en die volledige voorkomingsles oor TB (Graad 5). Dit noem hulle en gaan aan. 'n Dekkingsnasiener moet weet dat dit 'n besluit is."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "ELKE TB-, MIV- EN VIGS-BEWERING WORD NAGEGAAN VOORDAT DIT GESKRYF WORD, teen 'n Suid-Afrikaanse of hoofstroom-gesondheidsbron. Nie een van die kern-items is deur die beplanner geverifieer nie.",
-    "GAAN DIE AFGELEWERDE GRAAD 5- EN 6-LESSE NA voordat 'n TB- of MIV-sin geskryf word: hierdie leerders het daardie bewoordings gelees, en 'n Graad 7-les wat dit anders stel, gee twee antwoorde op een vraag.",
-    "KIEME TEENOOR VIRUS (beslis 2 September 2026): kieme is lewend; 'n virus word NOOIT kieme genoem nie. MIV is 'n virus. TB se oorsaak is 'n bakterie - die woord mag gebruik word, maar die verskil tussen 'n bakterie en 'n virus word NIE verduidelik nie (Graad 6 het dit buite bestek gehou).",
-    "DIE MIV-BEWOORDING IS KLAAR EN WORD NIE WEER GETOETS NIE (skoon op sy derde leesalleen-feitetoets, 23 September 2026): “'n Virus wat van mens tot mens gaan wanneer bloed of sekere ander liggaamsvogte binne-in 'n ander mens se liggaam kom - nie deur speeksel, sweet of trane nie - en wat sonder behandeling die liggaam se afweer teen siekte swakker maak.” Kopieer dit woord vir woord in lesse 9, 11 en 13; Graad 4-6 bly soos afgelewer. MOENIE 'DEUR' NA 'IN' VERANDER NIE - dit is die woord wat die eerste fout weghou. VIER vorms mag nie terugkom nie: die ou vorm wat MIV net in die bloed plaas; die vorm wat ALLE ander liggaamsvogte insluit; die vorm wat se die virus KOM NIE VOOR in speeksel, sweet of trane nie (hy is wel daar in klein hoeveelhede, maar dra nie daardeur oor nie); en die vorm sonder 'n toegangsvoorwaarde, wat bloed onbegrens laat.",
-    "GEEN MEDISYNE BY DIE NAAM, GEEN DOSIS, GEEN DUUR VAN 'N KUUR sonder bevestiging. Die veilige vorm is dat die kuur klaar gemaak word omdat dit die beste kans gee; die vorm wat NIE gebruik mag word nie, is enigeen wat genesing aan die pasient se voltooiing van die kuur koppel.",
-    "MOENIE 'N MENS MET 'N SIEKTE AS 'N GEVAAR STEL NIE. Die les praat oor die siekte, nooit oor 'n mens as 'n risiko nie."
-   ],
-   "fokusvraag_skakel": "Lewer die eerste deel van die siekte-antwoord: wat die twee gewone siektes is wat van mens tot mens gaan, en dat albei behandel kan word."
-  },
-  {
-   "nommer": 10,
-   "kwartaal": 4,
-   "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
-   "titel": "Siektes wat jy nie kan aansteek nie",
-   "titel_nota": "Werktitel. Die naam sê die ding wat hierdie vier siektes bymekaar hou.",
-   "kaps_punt": "Algemene siektes: suikersiekte, epilepsie, vetsug, anoreksie",
-   "kaps_punt_nota": "Die volledige KABV-punt lui: 'Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS'. Al sewe is by die naam genoem en dus verpligtend. Hulle word oor lesse 9 en 10 verdeel op die naat oordraagbaar teenoor nie-oordraagbaar; saam dek die twee lesse die volle lys. Die spek-toetser gaan hieroor waarsku by elke les - dit is verwag en dit is die verdeling, nie 'n gaping nie.",
-   "begroting": 650,
-   "begrotingsnota": "650 woorde, die langste les van die subonderwerp. Rigverdeling: wat nie-oordraagbaar beteken ongeveer 50; suikersiekte ongeveer 170; epilepsie ongeveer 160; vetsug ongeveer 135; anoreksie ongeveer 135 - saam 650. Vier siektes wat almal nuut is vir hierdie leerders, en twee van hulle (vetsug en anoreksie) vra sinne wat versigtig geskryf moet word - 'n korter begroting sou dit koop deur die versigtigheid te sny, en dit is presies die verkeerde ding om te sny.",
-   "termdig": true,
-   "termdig_nota": "Verwag ses of sewe begrippe: nie-oordraagbaar, suikersiekte, insulien, epilepsie, epileptiese aanval, vetsug, anoreksie. Elkeen moet ALLEEN gelees klop.",
-   "kern": [
-    "Wat 'nie-oordraagbaar' beteken: 'n mens kan dit nie by 'n ander mens kry nie. Sê dit uitdruklik, want dit is wat hierdie vier siektes van les 9 s'n onderskei - en dit is die eerste stap teen die stigma wat by al vier voorkom.",
-    "SUIKERSIEKTE: dat die liggaam die suiker in die bloed nie op die regte vlak kan hou nie, en watter rol insulien daarin speel; dat daar meer as een soort is en dat die een soort NIE deur eetgewoontes veroorsaak word nie; die tekens en simptome wat 'n mens laat kliniek toe gaan; en dat 'n mens daarmee kan leef en werk.",
-    "EPILEPSIE: dat die brein se seine vir 'n kort ruk deurmekaar raak en dat dit 'n aanval veroorsaak; dat 'n aanval nie altyd val-en-skud is nie; dat dit NIE oordraagbaar is nie en NIE 'n geestesiekte is nie; en dat medisyne dit by die meeste mense beheer. DIE SKULD-SIN BLY, DIE OORSAAK-SIN GAAN WEG (feitetoets van die spesifikasie, 23 September 2026): skryf dat niemand die skuld kry vir sy epilepsie nie, en NOOIT dat 'n mens dit nie kry deur iets wat hy gedoen het nie - epilepsie volg dikwels op 'n kopbesering, 'n beroerte of 'n infeksie, sodat daardie sin weerle kan word. Wat 'n mens doen wanneer iemand 'n aanval kry, staan in les 13.",
-    "VETSUG: stel dit as 'n gesondheidstoestand waarby 'n liggaam soveel ekstra vet dra dat dit 'n RISIKO VIR sy gesondheid inhou - nie dat dit sy gesondheid reeds skaad nie (feitetoets van die spesifikasie, 23 September 2026; dit is ook die WGO se eie vorm). Noem die baie dinge wat daartoe bydra - watter kos beskikbaar en bekostigbaar is, hoeveel veilige plek daar is om te beweeg, geld, gene, slaap en party medisyne. GEEN GETALLE: geen gewig, geen BMI, geen ouderdomsgrens. Die les praat oor gesondheid, nooit oor hoe iemand lyk nie, en nooit oor 'n klasmaat se lyf nie.",
-    "ANOREKSIE: stel dit as 'n ernstige siekte van eet en van die manier waarop 'n mens sy eie liggaam sien - iemand eet veel te min en is baie bang om gewig op te tel, selfs wanneer hy reeds te maer is. Dit tref seuns sowel as meisies; dit is nie 'n keuse, nie ydelheid en nie 'n dieet nie; dit maak 'n mens werklik siek; en BAIE MENSE WORD GESOND, VERAL WANNEER HULP VROEG KOM - hierdie vorm en geen sterker een nie (feitetoets van die spesifikasie, 23 September 2026): 'mense word gesond met behandeling' is 'n belofte wat die bewyse nie steun nie. GEEN GETALLE, GEEN METODES: moenie beskryf wat iemand doen om gewig te verloor nie.",
-    "DIE SLOTREËL VAN DIE LES, en dit geld vir al vier: 'n mens met een van hierdie siektes is 'n gewone mens. Niemand se liggaam, ete of aanval word in die klas bespreek nie."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [
-    "Hoe die liggaam die suiker in die bloed op die regte vlak hou, en wat insulien daarmee te doen het"
-   ],
-   "feiterisiko": [
-    "ELKE BEWERING OOR AL VIER SIEKTES WORD NAGEGAAN VOORDAT DIT GESKRYF WORD, teen 'n Suid-Afrikaanse of hoofstroom-gesondheidsbron. Nie een van die kern-items is deur die beplanner geverifieer nie.",
-    "SUIKERSIEKTE WORD NIE DEUR SUIKER EET VEROORSAAK NIE - dit is die bekendste vals bewering oor hierdie siekte, en les 11 (waar KABV slegte eetgewoontes as 'n oorsaak noem) maak dit makliker om per ongeluk te skryf. Gaan na wat werklik oor tipe 1 en tipe 2 geld en skryf albei so dat die een nie die ander se verhaal kry nie.",
-    "DIE ELI10 SE VERGELYKING OOR INSULIEN WORD SELF NAGEGAAN, nie net sy feite nie. Die gewone beeld ('insulien is die sleutel wat die suiker by die sel inlaat') moet in die mapping klop; 'n vergelyking wat suggereer dat insulien die suiker wegvat of opgebruik, is vals.",
-    "EPILEPSIE: gaan na dat nie elke aanval val-en-skud is nie, en moenie 'n oorsaak gee wat nie gesteun word nie. Moenie mites herhaal om hulle reg te stel nie (die les noem nie besetenheid of toorkuns nie) - stel wat waar is en laat die vals verhaal ongenoem.",
-    "VETSUG IS DEUR 'N GESONDHEIDSOWERHEID 'N SIEKTE GENOEM (feitetoets van die spesifikasie, 23 September 2026: die WGO doen dit), sodat KABV se plasing onder 'algemene siektes' staan en die vraag nie weer oopgemaak word nie. Skryf dit as vet wat 'n RISIKO VIR gesondheid inhou, nooit as vet wat gesondheid reeds skaad nie. Moenie skryf dat dit bloot van te veel eet en te min beweeg kom nie, en moenie 'n kind se gewig as 'n keuse stel nie.",
-    "ANOREKSIE: moenie gedrag beskryf wat nagedoen kan word nie, en moenie getalle gee nie. Gaan na dat die les dit as 'n siekte stel wat behandel word, en nie as 'n fase of 'n dieet nie. As 'n bron en KABV verskil oor die naam (anoreksie, anorexia nervosa, eetversteuring), volg KABV se woord en noem die ander een een keer.",
-    "GEEN STATISTIEK EN GEEN OORTREFFENDE TRAP ('die algemeenste siekte onder tieners') sonder 'n Suid-Afrikaanse bron."
-   ],
-   "fokusvraag_skakel": "Lewer die deel wat wys dat die gewoonste siektes nie almal aansteeklik is nie, en wat elk van hierdie vier werklik is."
-  },
-  {
-   "nommer": 11,
-   "kwartaal": 4,
-   "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
-   "titel": "Waar siekte vandaan kom, en waar dit nie vandaan kom nie",
-   "titel_nota": "Werktitel. Die tweede helfte van die titel is die les se eintlike werk.",
-   "kaps_punt": "Oorsake van siektes: sosiale, ekonomiese en omgewingsfaktore insluitend die gebruik van alkohol en tabak, slegte eetgewoontes en tekort aan oefening",
-   "begroting": 550,
-   "begrotingsnota": "550 woorde. Rigverdeling: die verskil tussen 'n risikofaktor en 'n oorsaak ongeveer 90; sosiale faktore ongeveer 90; ekonomiese faktore ongeveer 90; omgewingsfaktore ongeveer 90; alkohol en tabak ongeveer 80; eetgewoontes en oefening ongeveer 70; en die slot oor skuld ongeveer 40.",
-   "termdig": false,
-   "termdig_nota": "'risikofaktor' se begrip kom uit les 3 en word nie hier herskryf nie.",
-   "kern": [
-    "DIE LES BEGIN BY DIE VERSKIL TUSSEN 'N RISIKOFAKTOR EN 'N OORSAAK, en gebruik daarna deurgaans 'maak die kans groter'. Dit is nie 'n versiering nie: KABV se punt noem hierdie faktore 'oorsake' vir 'n lys wat epilepsie, tipe 1-suikersiekte en anoreksie insluit, wat nie een van hulle veroorsaak word deur alkohol, tabak, eetgewoontes of te min beweging nie. 'n Les wat KABV se woord net so oorneem, leer iets wat vals is. DIE REGSTELLING WORD POSITIEF GESTEL - geen siekte op die lys het 'n enkele oorsaak nie - en nooit as 'n lys van drie uitsonderings nie, want 'n lys van drie se vir die leerder dat die ander vier wel die mens se eie doen is.",
-    "SOSIALE FAKTORE: wat die mense rondom 'n mens doen; groepsdruk; spanning en geweld; en die stigma wat mense keer om hulp te gaan soek of medisyne te gaan haal. GEEN VERWYSING NA MIV-TOETSING NIE (feitetoets van die spesifikasie, 23 September 2026): toetsing is vir hierdie subonderwerp buite bestek, en 'n vereiste mag nie vra wat 'n waarskuwing verbied nie.",
-    "EKONOMIESE FAKTORE: geld bepaal watter kos in die huis is, of 'n mens by 'n kliniek kan uitkom, of 'n mens van die werk af kan wegbly, en hoe 'n mens woon. Stel dit as iets wat KEUSES KLEINER MAAK, nooit as 'n gebrek by mense met min geld nie.",
-    "OMGEWINGSFAKTORE, en dit haak by lesse 6 tot 8 in: lug, water, sanitasie, rook binne die huis, en huise waar baie mense naby mekaar woon (wat TB makliker laat versprei).",
-    "ALKOHOL EN TABAK, wat KABV uitdruklik noem: waarmee elkeen in verband gebring word, elke koppeling nagegaan, en elkeen gestel as iets wat die kans groter maak.",
-    "SLEGTE EETGEWOONTES EN TE MIN BEWEGING, wat KABV ook uitdruklik noem: waarmee hulle in verband gebring word, elke koppeling apart nagegaan. DIE UITSONDERING WORD POSITIEF GESTEL EN NOOIT AS 'N LYS VAN DRIE SIEKTES NIE (feitetoets van die spesifikasie, 23 September 2026): geen siekte op KABV se lys het 'n enkele oorsaak nie - elkeen kom uit baie dinge saam, soos gene, wat in die brein en die liggaam gebeur, watter kos beskikbaar en bekostigbaar is, en die plek waar 'n mens woon. Hierdie faktore maak die kans op SOMMIGE siektes groter en het met ANDER niks te doen nie. 'n Lys van drie siektes wat nie so veroorsaak word nie, se vir die leerder dat die ander vier wel so veroorsaak word, en dit weerspreek les 10 se eie hantering van vetsug, wat self se dat baie dinge daartoe bydra.",
-    "DIE SLOT: 'n mens gee nooit 'n siek mens die skuld vir sy siekte nie, en baie van hierdie faktore lê buite 'n mens se eie beheer."
-   ],
-   "aanvulling": [
-    {
-     "item": "Die onderskeid tussen 'n risikofaktor en 'n oorsaak, uitdruklik gestel",
-     "regverdiging": "KABV noem hierdie faktore 'oorsake van siektes' vir 'n siektelys waarvan verskeie nie so ontstaan nie. Sonder die onderskeid is die les nie onvolledig nie - dit is vals, en dit leer 'n leerder om 'n siek mens die skuld te gee. Die onderskeid word positief gestel (geen siekte op die lys het 'n enkele oorsaak nie), nie as 'n lys uitsonderings nie. Dit is dieselfde soort regstelling wat die span reeds elders op KABV toegepas het: ry saam met KABV op 'n NAAM, maar maak dit reg waar 'n meganisme die leerder verkeerd laat redeneer."
-    }
-   ],
-   "moeilike_konsepte": [
-    "Die verskil tussen iets wat die kans op 'n siekte groter maak, en iets wat die siekte veroorsaak"
-   ],
-   "feiterisiko": [
-    "GAAN ELKE KOPPELING TUSSEN 'N FAKTOR EN 'N SIEKTE AFSONDERLIK NA voordat dit geskryf word. Hierdie les bestaan uit koppelings, en 'n koppeling wat te sterk gestel is, is 'n vals bewering al is elke woord daarin waar.",
-    "DIE PRENTJIE KAN VALS WEES AL IS ELKE SIN WAAR: 'n les wat leefstylfaktore langs 'n siektelys stel, laat 'n leerder aflei dat al sewe siektes van leefstyl kom. Die uitdruklike 'nie hierdie drie nie'-sin is die enigste ding wat dit keer, en dit moet in die lesteks self staan.",
-    "MOENIE 'N OORSAAK VIR EPILEPSIE GEE WAT NIE GESTEUN WORD NIE, en moenie anoreksie aan 'n ouer of 'n gesin toeskryf nie.",
-    "ARMOEDE WORD 'N FAKTOR GENOEM, NOOIT 'N SKULD NIE, en geen buurt, dorp, kultuur of taalgroep word as die plek van siekte genoem nie.",
-    "GEEN STATISTIEK, GEEN PERSENTASIE EN GEEN OORTREFFENDE TRAP sonder 'n bron wat dit vir Suid-Afrika steun."
-   ],
-   "fokusvraag_skakel": "Lewer die deel wat verklaar waarom mense siek word - en, net so belangrik, waarom 'n siekte nie 'n mens se skuld is nie."
-  },
-  {
-   "nommer": 12,
-   "kwartaal": 4,
-   "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
-   "titel": "Behandeling, sorg en die mense wat help",
-   "titel_nota": "Werktitel. Die drie woorde is drie verskillende dinge, en dit is wat die les leer.",
-   "kaps_punt": "Keuses ten opsigte van behandeling, versorging en ondersteuning; Beskikbare hulpbronne vir gesondheidsinligting en -dienste",
-   "begroting": 600,
-   "begrotingsnota": "600 woorde. Rigverdeling: die drie woorde uitmekaar gehaal ongeveer 110; watter keuses 'n mens het en watter veilig is ongeveer 150; wie help en wat elkeen doen ongeveer 150; waar betroubare inligting vandaan kom en hoe 'n mens dit beoordeel ongeveer 130; wie se verantwoordelikheid sorg is ongeveer 60.",
-   "termdig": false,
-   "termdig_nota": "Twee of drie begrippe: behandeling, chronies, en moontlik 'gemeenskapsgesondheidswerker'. 'kliniek', 'medisyne', 'maatskaplike werker' en 'childline' kom uit die gedeelde lys.",
-   "kern": [
-    "BEHANDELING, VERSORGING EN ONDERSTEUNING IS DRIE DINGE, en die les haal hulle uitmekaar: behandeling is wat die kliniek of die dokter doen en die medisyne wat geneem word; versorging is die daaglikse sorg - kos, rus, skoon wees, by die afsprake uitkom; ondersteuning is die mense wat luister, help en bystaan.",
-    "WATTER KEUSES 'N MENS HET EN WATTER VEILIG IS: gaan vroeg kliniek of dokter toe eerder as om te wag; vra vrae totdat jy verstaan; neem die medisyne soos die kliniek se en hou nie self op nie (net TB het 'n kuur wat klaar gemaak word - sien les 13); gaan terug vir afsprake. DIE REEL OOR ANDER MIDDELS DEK BYVOEG, NIE NET OPHOU OF VERVANG NIE (feitetoets van die spesifikasie, 23 September 2026), want byvoeg is die gewone geval: baie huise gebruik ook huismiddels of tradisionele medisyne, en die veilige reel is dat 'n mens die kliniek VERTEL van alles wat hy ook neem, en niks wat voorgeskryf is, stop of vervang sonder om met die kliniek te praat nie. Die rede staan hier sodat niemand die sin inkort nie: party plantmiddels verander hoe sterk 'n voorgeskrewe medisyne in die liggaam werk, en dit is juis die BYGEVOEGDE een wat dit doen. Die bewoording word nagegaan voordat dit geskryf word, en geen plant of middel word by die naam genoem nie.",
-    "WIE HELP EN WAT ELKEEN DOEN: die kliniek, 'n dokter, 'n verpleegster, 'n gemeenskapsgesondheidswerker, 'n maatskaplike werker, 'n berader, 'n ondersteuningsgroep, Childline en die skool. Beskryf SOORTE dienste, nooit 'n werklike hospitaal, kliniek of organisasie by die naam nie - CHILDLINE IS DIE ENIGSTE NAAM WAT TOEGELAAT IS (Lampies, 23 September 2026), met die verbreede Graad 7-bewoording en sonder 'n nommer.",
-    "WAAR BETROUBARE INLIGTING VANDAAN KOM, en dit is die Graad 7-vaardigheid in hierdie les: die kliniek self, 'n dokter of verpleegster, die skool, die biblioteek, en gesondheidsdienste se eie materiaal. Gee die maatstawwe waarmee 'n mens inligting weeg - wie het dit geskryf, kom dit van 'n gesondheidsdiens, probeer dit iets verkoop, hoe oud is dit - en dat 'n mens by die kliniek nagaan wat hy iewers gelees het.",
-    "DAT SORG VIR 'N SIEK MENS DIE VOLWASSENES SE VERANTWOORDELIKHEID IS. 'n Kind help; 'n kind dra nooit die sorg nie, en 'n kind wat wel sorg, mag self hulp vra.",
-    "Dat baie van hierdie siektes CHRONIES is: hulle gaan nie oor nie, maar hulle word behandel - en dit is waarom die volgende les oor saamleef gaan."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "GEEN MEDISYNE BY DIE NAAM EN GEEN DOSIS in hierdie les nie, ook nie 'n soort medisyne by die naam nie.",
-    "GEEN TELEFOONNOMMER, ook nie 'n noodnommer, 'n hulplyn s'n of Childline s'n nie. Childline mag by die naam genoem word (Lampies, 23 September 2026) en sy nommer nooit: 'n nommer verouder en niks gaan dit na sodra 'n les goedgekeur is nie. Les 5 dra presies dieselfde reel.",
-    "DIE TRADISIONELE-MEDISYNE-SIN IS DIE RISIKOSIN VAN HIERDIE LES: dit mag nie 'n hele praktyk afkraak nie en dit mag nie 'n leerder laat dink dat dit veilig is om voorgeskrewe medisyne te vervang nie. Gaan die bewoording na teen 'n Suid-Afrikaanse gesondheidsbron voordat dit geskryf word.",
-    "MOENIE BELOWE WAT DIE DIENS GAAN DOEN NIE ('die kliniek gee gratis medisyne vir almal'). Skryf wat 'n mens kan VRA, nie wat hy sal kry nie, tensy dit bevestig is.",
-    "GAAN NA WATTER DIENSTE WERKLIK BESTAAN EN VIR WIE, voordat 'n soort diens genoem word - 'n gemeenskapsgesondheidswerker en 'n skoolberader is nie oral dieselfde nie.",
-    "MOENIE 'N SIEKTE 'N GENESING TOESKRYF WAT DIT NIE HET NIE, en let op die presiese vorm (feitetoets van die spesifikasie, 23 September 2026): TB KAN genees word - nie 'TB word genees' nie, en nooit met 'n voorwaarde oor wat die pasient gedoen het nie. MIV word behandel en nie genees nie. Die woorde mag nie verwissel nie."
-   ],
-   "fokusvraag_skakel": "Lewer die deel wat sê wat 'n mens met 'n siekte doen: watter hulp bestaan, watter keuses veilig is, en waar betroubare inligting vandaan kom."
-  },
-  {
-   "nommer": 13,
-   "kwartaal": 4,
-   "kaps_blok": "KABV Graad 7, Kwartaal 4, weke 3-5 (3 uur): Algemene siektes: tuberkulose, suikersiekte, epilepsie, vetsug, anoreksie, MIV en VIGS.",
-   "titel": "Om met 'n siekte te leef",
-   "titel_nota": "Werktitel. KABV se 'saamleef' in gewone woorde.",
-   "kaps_punt": "Strategieë om met tuberkulose, suikersiekte, epilepsie, MIV en VIGS saam te leef",
-   "kaps_punt_nota": "KABV noem hier VYF van die sewe siektes: vetsug en anoreksie staan nie in hierdie subpunt nie. Die les volg KABV en dek die vyf; dat die ander twee nie hier is nie, is KABV se verdeling en nie 'n gaping nie.",
-   "begroting": 580,
-   "begrotingsnota": "580 woorde - 30 MEER as die vorige 550, om die drie bygevoegde aanval-stappe te dra (Lampies, 23 September 2026). Rigverdeling: wat saamleef beteken ongeveer 50; die strategiee wat vir al vyf geld ongeveer 180; wat by elke siekte anders is ongeveer 160 (ongeveer 40 elk vir TB, suikersiekte, epilepsie, MIV); die AGT goedgekeurde stappe by 'n epileptiese aanval ongeveer 120; stigma en wie wat weet ongeveer 70 - saam 580. WAAR DIE WOORDE VANDAAN KOM: al 30 uit 'n hoer begroting. Die 5 wat eers uit die algemene strategiee geleen is, is TERUGGESIT (23 September 2026) toe die sin wat die riglyne by die naam sou noem, uit die les geval het; die strategiee staan weer op 180, want hulle is self KABV-inhoud vir vyf siektes. Knap: die aanval-deel mag nie gesny word om plek te maak nie.",
-   "termdig": false,
-   "termdig_nota": "Twee begrippe: ondersteuningsgroep en stigma. 'stereotipe' en 'diskriminasie' kom woord vir woord uit die gedeelde lys as die les hulle gebruik.",
-   "kern": [
-    "Wat saamleef beteken: die siekte bly deel van die lewe, en die mens gaan aan met skool, werk, sport en vriende.",
-    "STRATEGIEE WAT VIR AL VYF GELD - MET EEN DING WAT NIE VIR AL VYF GELD NIE (feitetoets van die spesifikasie, 23 September 2026): net TB het 'n KUUR wat klaar gemaak word. Medisyne vir suikersiekte, epilepsie en MIV word aanhoudend geneem, en om by enigeen daarvan self op te hou, is op sy eie manier gevaarlik. Die les mag 'maak die kuur klaar' NOOIT oor al vyf trek nie. Wat wel vir al vyf geld: neem die medisyne presies soos die kliniek se en hou nie self op nie; gaan terug vir afsprake; ken jou eie tekens en wat jy doen wanneer hulle kom; vertel ten minste een mens wat kan help; eet, slaap en beweeg soos die kliniek aanraai; en vra hulp wanneer dit swaar gaan.",
-    "WAT BY ELKEEN ANDERS IS, kort en nagegaan: TB - die kuur word klaar gemaak omdat dit die beste kans op genesing gee, en die eerste tyd is daar maatreels wat ander beskerm; suikersiekte - gereelde etes, die medisyne of insulien, en om die tekens van te hoog en te laag te ken; epilepsie - die medisyne elke dag, genoeg slaap, en dat die mense om hom weet wat om te doen; MIV - die medisyne elke dag, en wat dit vir sy gesondheid beteken.",
-    "WAT 'N MENS DOEN WANNEER IEMAND 'N EPILEPTIESE AANVAL KRY - GOEDGEKEUR EN UITGEBREI NA AGT STAPPE (Lampies, 23 September 2026), in hierdie volgorde, en geen ander noodhulp daarby nie: vat die gevaarlike goed uit die pad; sit iets sags onder sy kop; SIT NIKS IN SY MOND NIE; HOU HOM NIE VAS NIE; draai hom op sy sy sodra die aanval verby is; bly by hom totdat hy heeltemal wakker is; GEE HOM NIKS OM TE EET OF TE DRINK VOORDAT HY HEELTEMAL WAKKER IS NIE; en roep 'n volwassene. Waarom die drie nuwes ingaan, sodat niemand hulle weer uitsny nie: elke gesaghebbende lys dra al drie, nie een verg oefening, die kussing onder die kop keer die algemeenste besering, en 'niks in sy mond nie' lees soos 'n reel oor VOORWERPE - die ding wat 'n kind werklik gaan doen, is om agterna 'n glas water te bring. DIE SYLEGGING BLY NA DIE AANVAL en word nie na 'tydens' verskuif nie (Lampies, 23 September 2026). DIE LES NOEM GEEN NOODHULPORGANISASIE EN GEEN RIGLYN BY DIE NAAM NIE (teruggetrek op 23 September 2026): dit gee net die agt stappe. Watter riglyne ons volg, staan in hierdie spek se feiterisiko, vir die skrywer en die nasiener. Geen tydgrens. Elke stap word teen daardie riglyne nagegaan voordat dit geskryf word.",
-    "STIGMA: mense met hierdie siektes word soms sleg behandel, en dit hou mense weg van hulp. Sê wat 'n klasmaat anders kan doen, en dat 'n mens self kies wie hy vertel - niemand hoef sy siekte bekend te maak nie.",
-    "DAT 'N KIND NOOIT ALLEEN VERANTWOORDELIK IS vir 'n ander mens se medisyne of sorg nie. 'n Kind help; 'n volwassene dra dit."
-   ],
-   "aanvulling": [],
-   "moeilike_konsepte": [],
-   "feiterisiko": [
-    "ELKE STAP VAN DIE AANVAL-NOODHULP WORD NAGEGAAN TEEN DIE BRITSE EPILEPSY SOCIETY EN DIE ROOI KRUIS SE RIGLYNE, VOORDAT DIT GESKRYF WORD - daardie twee name staan hier vir die SKRYWER EN DIE NASIENER, en hulle kom nooit in die lesteks nie. Die spek se lys is die BEWERINGS, nie die bevestiging nie. Veiligheidslesse lewer die ergste foute, en hierdie een is die enigste in die subonderwerp waar 'n leerder op die les se woorde sal optree.",
-    "DIE SYLEGGING IS BESLIS EN WORD NIE 'REGGEMAAK' NIE (Lampies, 23 September 2026): hierdie les volg die riglyne wat die mens NA die aanval op sy sy draai - die Britse Epilepsy Society en die Rooi Kruis - en nie die riglyne wat dit TYDENS die aanval doen (die Amerikaanse CDC en die Epilepsy Foundation) nie. Die bronne verskil werklik, en die keuse is die eenvoudiger instruksie vir 'n kind. DIE LES SELF NOEM GEEN VAN HIERDIE NAME NIE; hierdie inskrywing is waar die besluit beskerm word. 'n Nasiener wat die Amerikaanse kant aanhaal, het nie 'n fout gevind nie, en die antwoord staan hier in die leer.",
-    "DIE DRIE MOENIES MOET IN DIE LES STAAN (Lampies, 23 September 2026): niks in sy mond nie; moenie die mens vashou nie; en niks om te eet of te drink voordat hy heeltemal wakker is nie. Die derde een is nuut en is die een wat 'n kind self sou doen - 'n glas water bring - terwyl die eerste twee die gewone mites is.",
-    "GEEN TYDGRENS EN GEEN GETAL BY DIE AANVAL NIE (Lampies, 23 September 2026): die goedgekeurde AGT stappe bevat nie een, en 'n getal wat nie in daardie stappe staan nie, word nie ingeskryf nie. Die stap wat die plek van 'n tydgrens inneem, is 'roep 'n volwassene'. 'Heeltemal wakker' is ook nie 'n tydmaat nie en word nie in minute omgeskryf nie.",
-    "ELKE SIEKTESPESIFIEKE STRATEGIE WORD NAGEGAAN; moenie die een siekte se roetine op 'n ander toepas nie.",
-    "GEEN MEDISYNE BY DIE NAAM, GEEN DOSIS, GEEN TELEFOONNOMMER.",
-    "MOENIE BELOWE DAT MEDISYNE ALTYD WERK NIE ('epilepsie word met medisyne beheer' is nie waar vir elke mens nie) en moenie skryf dat 'n mens met MIV of suikersiekte presies dieselfde lewe het as enigiemand anders nie - skryf wat bronne steun.",
-    "DIE STIGMA-DEEL MAG NIE 'N SIEK MENS TOT 'N VOORBEELD MAAK NIE. Elke sin word geskryf asof 'n leerder wat met een van hierdie siektes leef, dit lees."
-   ],
-   "fokusvraag_skakel": "Lewer die laaste deel van die siekte-antwoord: hoe 'n mens met 'n langdurige siekte aangaan met die lewe, en wat 'n klasmaat kan doen.",
-   "besluit_geneem": "GOEDGEKEUR (Lampies, 23 September 2026), in twee stappe: eers vyf stappe, en daarna UITGEBREI NA AGT nadat die feitetoets gewys het dat elke gesaghebbende lys ook die kussing onder die kop, die bly-tot-hy-wakker-is en die niks-om-te-eet-of-te-drink dra. Nie een van die agt verg oefening en die meeste is MOENIES. Die sylegging bly NA die aanval, waar die bronne verskil en die eenvoudiger instruksie vir 'n kind gekies is; die riglyne wat ons volg (die Britse Epilepsy Society en die Rooi Kruis) staan in die spek en nooit in die lesteks nie. Geen ander noodhulp word in hierdie subonderwerp geleer nie. Graad 6 se uitsluiting van reddingstegnieke ('geen tegniek wat oefening vra') bly staan en word hierdeur nie omvergegooi nie."
-  }
- ],
- "besluite_geneem": [
-  {
-   "punt": 1,
-   "beslis": "MIV VERBREED IN GRAAD 7.",
-   "deur": "Lampies, 23 September 2026",
-   "wat_dit_beteken": "Lesse 9, 11 en 13 gebruik die Graad 7-bewoording (gedeelde_omskrywings/verbreed_in_graad_7). Graad 4-6 bly soos afgelewer. Die Kwartaal 1-beplanner wys na hierdie blok en besleg nie 'n tweede bewoording nie. DRIE voorstelle is deur leesalleen-toetse verwerp: die eerste ('bloed en ander liggaamsvogte') omdat dit ALLE vogte beteken; die tweede omdat dit gese het die virus kom nie in speeksel, sweet of trane VOOR nie, waar die ware bewering oor OORDRAG gaan; en die derde omdat dit geen toegangsvoorwaarde gestel het nie, sodat bloed alleen gelees onbegrens bly. Die vierde vorm is SKOON op die derde leesalleen-toets en die term is gesluit: geen verdere voorskryf-toets nie, en die bewoording word woord vir woord gekopieer."
-  },
-  {
-   "punt": 2,
-   "beslis": "ALKOHOL, TABAK EN E-SIGARETTE WORD BY DIE NAAM GENOEM; GEEN ONWETTIGE MIDDEL WORD GENOEM NIE; EN GEEN OUDERDOMSWET WORD AAN E-SIGARETTE GEKOPPEL NIE.",
-   "deur": "Lampies, 23 September 2026",
-   "wat_dit_beteken": "Les 1 se laaste groep bly 'middels wat onwettig is om te verkoop, te gee of te besit', sonder 'n naam, en dra die punt dat dit onwettig is om so 'n middel aan 'n kind te gee of te verkoop. Geen les skryf dat 'n leerder nie dagga mag he nie - dit is vals soos dit staan (Wet op Kannabis vir Privaat Doeleindes 7 van 2024). VERNOU deur die feitetoets van die spesifikasie, 23 September 2026: e-sigarette bly by die naam en bly as skadelik gestel, maar geen les se dat die wet hulle vir kinders verbied nie, want daardie wet bestaan nie."
-  },
-  {
-   "punt": 3,
-   "beslis": "DIE EPILEPSIE-STAPPE IS GOEDGEKEUR: AGT STAPPE, EN DIE SYLEGGING BLY NA DIE AANVAL.",
-   "deur": "Lampies, 23 September 2026",
-   "wat_dit_beteken": "Les 13 dra agt stappe: gevaarlike goed uit die pad; iets sags onder die kop; niks in die mond; moenie vashou nie; op die sy draai sodra dit verby is; bly totdat hy heeltemal wakker is; niks om te eet of te drink voor hy wakker is; roep 'n volwassene. Geen ander noodhulp en geen tydgrens. Die sylegging bly NA die aanval: die bronne verskil (die Britse Epilepsy Society en die Rooi Kruis se na, die Amerikaanse CDC en die Epilepsy Foundation se tydens), en die eenvoudiger instruksie vir 'n kind is gekies. Daardie name staan in die SPEK en nooit in die lesteks nie: die les gee net die agt stappe, en die besluit word in die spek beskerm sodat 'n latere nasiener wat die Amerikaanse kant aanhaal, uit die leer geantwoord kan word. Die begroting gaan van 550 na 580."
-  },
-  {
-   "punt": 4,
-   "beslis": "CHILDLINE WORD IN LESSE 5 EN 12 BY DIE NAAM GENOEM, SONDER 'N NOMMER.",
-   "deur": "Lampies, 23 September 2026",
-   "wat_dit_beteken": "Graad 7 verbreed die Graad 6-bewoording om drie nagegane feite te dra: 'n kind bel self, dit is gratis, en dit is dag en nag oop. Die derde feit word gestel as 'sy hoef nie vir 'n grootmens te vra om te bel nie' - die feitetoets van die spesifikasie, 23 September 2026 het die vorige vorm verwerp omdat 'n kind dit as 'moenie 'n grootmens se nie' lees. Geen nommer, en geen ander organisasie by die naam nie."
-  },
-  {
-   "punt": 5,
-   "beslis": "DERTIEN LESSE BLY STAAN.",
-   "deur": "Lampies, 23 September 2026",
-   "wat_dit_beteken": "Die inhoud bepaal die getal lesse en elke begroting. Die voorgestelde samevoeging van lesse 4 en 5 is NIE gedoen nie."
-  }
- ]
 }
