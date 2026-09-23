@@ -70,3 +70,28 @@ are. **Geography has not been started at all** — no scripts, no lesson split, 
 He will hand the scripts over, and they need splitting per lesson the way the transport ones
 are, because [[video-se-lesverdeling-wen]].
 
+## KLAAR — 30 van 30, 23 September 2026
+
+Alle dertig Graad 4 Geskiedenis-lesse is goedgekeur, met PDF's afgelewer. Die
+drifveeg lees **30 lesse, 168 terme, 8 gedeeld, geen drif**, en laai die vak se eie
+besliste-bewoordingslys.
+
+**Wat oorbly vir hierdie vak: Graad 4 GEOGRAFIE, en dit is nog glad nie begin nie** —
+geen skrifte, geen lesverdeling, geen KABV-kaart. Drico gee die skrifte aan; hulle moet
+per les verdeel word soos die vervoerskrifte, want [[video-se-lesverdeling-wen]].
+
+**Drico se beslissings van 23 September:** Geskiedenis se nommers loop 1-30 PER
+DISSIPLINE (Geografie begin weer by 1); `wentelbaan` mag tussen die Maan-les en die
+Aarde-les verskil omdat elkeen lesspesifiek is; twee lesse mag bo die 450-plafon loop —
+kommunikasie les 11 op 475 en vervoer-op-land les 3 op 463, albei omdat egte
+regstellings woorde gekos het wat 'n les op sy limiet nie gehad het nie en dekking
+bevestig het daar is niks onaangevraag om te sny nie; die radioles heet nou 'Stemme
+sonder drade'; 'cruiseskip' kom een keer tussen hakies by 'passasierskip'; die
+kas-radio-sin bly algemeen en word nie na Suid-Afrika vernou nie; en die horing-sin bly
+algemeen sonder 'n volk se naam.
+
+**Die duurste patroon van die dag, sewe keer:** 'n regstelling in een veld geskryf
+terwyl 'n ANDER veld die ou vorm bly bestel. Sien
+[[die-korrigeerde-opdrag-bly-in-die-veld-staan]]. Die nasieners se lees-van-onder-af
+het elke een gevang.
+
