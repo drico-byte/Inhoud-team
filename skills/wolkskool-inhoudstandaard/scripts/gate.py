@@ -166,7 +166,11 @@ BUDGET_TOLERANCE = 0.15
 #     its spec saying why.
 # LESBAND is the per-grade default; LESBAND_VAK overrides it for one subject.
 #
-LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550)}
+# Grades 7-9 added 23 September 2026 with spec_check.py's band, which had it and
+# this file did not: a 719-word Grade 7 draft passed silently against Lampies'
+# 350-700. The two tables have to move together or the ceiling holds only the
+# budget, which is the exact hole the comment above describes.
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550), 7: (350, 700), 8: (350, 700), 9: (350, 700)}
 LESBAND_VAK = {}
 COMMA_MAX = 0.35
 # List items are checked on their own terms rather than as prose.

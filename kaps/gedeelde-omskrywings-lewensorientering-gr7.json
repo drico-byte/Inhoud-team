@@ -1,21 +1,219 @@
 {
   "vak": "Lewensoriëntering",
   "graad": 7,
-  "nota": "Een bewoording per term, vir die hele vak en die hele graadjaar. Dieselfde reels as die ander vakke: (1) 'n term wat in meer as een woordelys verskyn, moet WOORD VIR WOORD identies wees; (2) die VOORBEELDE NA 'soos' mag per les verskil. 'n Omskrywing mag nie ryker word soos die jaar vorder nie, maar mag oor grade heen verbreed as die kurrikulum verbreed.",
+  "nota": "Een bewoording per term, vir die hele vak en die hele graadjaar. Dieselfde reels as die ander vakke: (1) 'n term wat in meer as een woordelys verskyn, moet WOORD VIR WOORD identies wees; (2) die VOORBEELDE NA 'soos' mag per les verskil. 'n Omskrywing mag nie ryker word soos die jaar vorder nie, maar mag oor grade heen verbreed as die kurrikulum verbreed. Tien inskrywings is op 23 September 2026 na 'n alleen-lees-feitetoets aangepas (nege bewoordings herskryf, een grens aangeteken); 'n les wat nog 'n ouer vorm dra, moet deur die skrywer loop (sien 'status').",
   "hoe_dit_gebruik_word": "bin/hardloop.py spuit hierdie lys in elke spesifikasie-uittreksel in; bin/woordelysdrif.py toets die lesse daarteen. Die lys word gevind op sy eie 'vak' en 'graad', nie op sy leernaam nie.",
-  "status": "Eerste twee terme ingeskryf 23 September 2026, voor die eerste Graad 7-les. Albei is VERBREDINGS van afgelewerde Graad 4-6 bewoordings, elk met sy rede by die term. LET WEL: hierdie leerders kom uit Graad 6 Lewensvaardighede - waar 'n term daar reeds 'n ooreengekome bewoording het (kaps/gedeelde-omskrywings-lewensvaardighede-gr6.json), word dit oorgeneem tensy die kurrikulum verbreed. Terme uit die vier Graad 7-subonderwerpe word bygevoeg wanneer die konsepte bestaan en die gedeelde woorde versoen word.",
+  "status": "AGTTIEN TERME, versoen op 23 September 2026 nadat al 45 Graad 7-konsepte gedraf is (13 + 9 + 14 + 9 lesse oor die vier subonderwerpe; sien 'lesetikette'). Die eerste twee terme (MIV en Childline) is voor die eerste les ingeskryf as VERBREDINGS van afgelewerde Graad 4-6-bewoordings, elk met sy rede by die term; die ander sestien kom uit die versoening van die konsepte. LET WEL: hierdie leerders kom uit Graad 6 Lewensvaardighede - waar 'n term daar reeds 'n ooreengekome bewoording het (kaps/gedeelde-omskrywings-lewensvaardighede-gr6.json), word dit oorgeneem tensy die kurrikulum verbreed. ALLEEN-LEES-FEITETOETS, 23 September 2026: elke bewoording is ALLEEN nagegaan, sonder sy les om hom. Nege is herskryf - simptoom, voedingswaarde, belangstelling, munisipaliteit, loopbaanveld, geskrif, mondelinge tradisie, versorger en ondersteuningsgroep. Potensiaal het ook 'n bevinding gehad en is NIE herskryf nie: die bevinding is as 'n aanvaarde grens gesluit (Lampies se beslissing, beskermde woord, afgelewerde Graad 6-bewoording). Vier is ONVERANDER afgelewer met hulle grense by die term aangeteken: hormoon, werkgewer, geloofsgemeenskap en berader. Vier is nie geraak nie: MIV, Childline, vertroue en vermoe. WAT HIERNA MOET GEBEUR: elke les in 'lesse' en 'ook_in_die_prosa' by 'n herskryfde term dra nog 'n ouer bewoording en moet deur die SKRYWER loop - geen bewoording word met die hand in 'n les verander nie. Twee bewoordings verskil nou van afgelewerde laer grade en 'n MENS moet daaroor beslis: simptoom (Graad 5 en 6) en belangstelling (Graad 6). Albei grade bly intussen soos afgelewer.",
   "terme": {
     "MIV": {
       "omskrywing": "'n Virus wat van mens tot mens gaan wanneer bloed of sekere ander liggaamsvogte binne-in 'n ander mens se liggaam kom - nie deur speeksel, sweet of trane nie - en wat sonder behandeling die liggaam se afweer teen siekte swakker maak.",
-      "lesse": [],
+      "lesse": [
+        "Gesondheid 9",
+        "Gesondheid 11",
+        "Gesondheid 13"
+      ],
       "stem_reeds_ooreen": true,
-      "nota": "VERBREED in Graad 7, 23 September 2026. Graad 4-6 se bewoording ('n virus in die bloed) bly soos afgelewer; Graad 7 verbreed omdat KABV Graad 7 MIV en VIGS as siektes leer en 'bloed' ander liggaamsvogte uitlaat. Drie ronde se alleen-lees-toetse het drie vorms verwerp: net bloed; alle liggaamsvogte (alleen gelees beteken dit ook speeksel, sweet en trane, wat drie jaar se werk ongedaan maak); en 'kom nie voor in speeksel nie', wat VALS is - die virus IS in klein hoeveelhede daar, maar dra nie so oor nie. Daarom 'DEUR', nooit 'IN'. Die vierde verwerpte vorm het geen ingangsvoorwaarde gehad nie en het bloed onbegrens gelaat: die kind wat 'n maat met 'n bloedneus help, kry dan geen antwoord nie. 'Binne-in ... kom' is daardie voorwaarde en mag nie tot 'aanraak' of 'in kontak kom' verkort word nie. BEKENDE GRENS, aanvaar: die inskrywing se 'afweer swakker maak' onderskei MIV nie van masels, TB of wanvoeding nie (geerf uit Graad 4-6, nie hier verbreed nie), en die inskrywing se dat die vog van iemand met die virus moet kom, word deur die lesteks gedra, nie deur die inskrywing nie."
+      "nota": "VERBREED in Graad 7, 23 September 2026. Graad 4-6 se bewoording ('n virus in die bloed) bly soos afgelewer; Graad 7 verbreed omdat KABV Graad 7 MIV en VIGS as siektes leer en 'bloed' ander liggaamsvogte uitlaat. Drie ronde se alleen-lees-toetse het drie vorms verwerp: net bloed; alle liggaamsvogte (alleen gelees beteken dit ook speeksel, sweet en trane, wat drie jaar se werk ongedaan maak); en 'kom nie voor in speeksel nie', wat VALS is - die virus IS in klein hoeveelhede daar, maar dra nie so oor nie. Daarom 'DEUR', nooit 'IN'. Die vierde verwerpte vorm het geen ingangsvoorwaarde gehad nie en het bloed onbegrens gelaat: die kind wat 'n maat met 'n bloedneus help, kry dan geen antwoord nie. 'Binne-in ... kom' is daardie voorwaarde en mag nie tot 'aanraak' of 'in kontak kom' verkort word nie. BEKENDE GRENS, aanvaar: die inskrywing se 'afweer swakker maak' onderskei MIV nie van masels, TB of wanvoeding nie (geerf uit Graad 4-6, nie hier verbreed nie), en die inskrywing se dat die vog van iemand met die virus moet kom, word deur die lesteks gedra, nie deur die inskrywing nie.",
+      "ook_in_die_prosa": [
+        "Gesondheid 12",
+        "Selfontwikkeling 10"
+      ]
     },
     "Childline": {
-      "omskrywing": "Childline is gratis, dit werk dag en nag, en 'n kind hoef nie vir 'n grootmens te vra om te bel nie.",
-      "lesse": [],
+      "omskrywing": "'n Diens wat 'n kind self kan bel wanneer sy hulp nodig het - gratis, dag en nag, en sy hoef nie vir 'n grootmens te vra om te bel nie.",
+      "lesse": [
+        "Gesondheid 5",
+        "Gesondheid 12",
+        "Grondwetlike regte 7",
+        "Selfontwikkeling 12"
+      ],
       "stem_reeds_ooreen": true,
-      "nota": "VERBREED in Graad 7, 23 September 2026, op Lampies se staande beslissing dat 'n kind Childline self bel. Graad 6 bly soos afgelewer. GEEN TELEFOONNOMMER in enige les: 'n nommer verouder en niks toets dit na goedkeuring nie. Wat op childlinesa.org.za AANGEHAAL is: gratis vanaf alle netwerke, en 24 uur per dag. Wat AFGELEI is: dat sy nie toestemming nodig het nie - die werf se dat kinders tot 18 mag bel en stel geen voorwaarde nie, maar se dit nerens met soveel woorde nie. Skryf dit as 'sy hoef nie te vra nie', NOOIT as 'sonder 'n grootmens' - die tweede lees vir 'n kind soos 'moenie vir 'n grootmens se nie', en dit staan reg langs die les se eie opdrag om met 'n vertroude volwassene te praat. GRENS: 'dag en nag' geld vir die TELEFOONLYN, nie vir die aanlyn geselsdiens nie, wat net weeksdae werk - dit hou op waar is sodra 'n les die geselsdiens noem."
+      "nota": "VERSOEN 23 September 2026: vier lesse het dit gedra, in twee vorms. Die korter vorm ('Childline is gratis, dit werk dag en nag...') dra al drie feite maar se nie WAT Childline is nie, en 'n begrip-inskrywing word alleen gelees. Hierdie vorm wen. VERBREED in Graad 7, 23 September 2026, op Lampies se staande beslissing dat 'n kind Childline self bel. Graad 6 bly soos afgelewer. GEEN TELEFOONNOMMER in enige les: 'n nommer verouder en niks toets dit na goedkeuring nie. Wat op childlinesa.org.za AANGEHAAL is: gratis vanaf alle netwerke, en 24 uur per dag. Wat AFGELEI is: dat sy nie toestemming nodig het nie - die werf se dat kinders tot 18 mag bel en stel geen voorwaarde nie, maar se dit nerens met soveel woorde nie. Skryf dit as 'sy hoef nie te vra nie', NOOIT as 'sonder 'n grootmens' - die tweede lees vir 'n kind soos 'moenie vir 'n grootmens se nie', en dit staan reg langs die les se eie opdrag om met 'n vertroude volwassene te praat. GRENS: 'dag en nag' geld vir die TELEFOONLYN, nie vir die aanlyn geselsdiens nie, wat net weeksdae werk - dit hou op waar is sodra 'n les die geselsdiens noem."
+    },
+    "belangstelling": {
+      "omskrywing": "Iets wat jou aandag trek: jy doen dit graag of jy wil meer daarvan weet, of jy dit nou al kan doen of nie.",
+      "lesse": [
+        "Selfontwikkeling 2",
+        "Wereld van werk 3"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "OORGENEEM uit die afgelewerde Graad 6-les (OVS 3), 23 September 2026. Twee Graad 7-lesse het elk 'n eie weergawe geskryf; nie een verbreed iets nie, dus wen die bewoording wat die kind reeds ken. Staan saam met VERMOE en POTENSIAAL - die drie moet mekaar, alleen gelees, nie oorvleuel nie. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets. Die ou vorm ('Iets wat jy graag doen of waarvan jy meer wil weet') sak met sy eerste helfte binne-in VERMOE ('Iets wat jy reeds kan doen, soos luister, kook of sing'): iets wat jy graag DOEN, is iets wat jy reeds KAN doen, en SING is vermoe se eie voorbeeld terwyl 'n kind dit presies 'n belangstelling sou noem. Wat die twee skei, is AANTREKKING teenoor KUNDE. Die nuwe vorm stel die aantrekking eerste en sny die band met kunde uitdruklik af ('of jy dit nou al kan doen of nie'). VERMOE word NIE verander nie: dit is besleg en dit is die afgelewerde Graad 6-bewoording. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: albei helftes - die doen sowel as die meer wil weet. GRAAD 6 BLY SOOS AFGELEWER (OVS 3 dra hierdie ou vorm) en 'n MENS moet beslis of dit herdruk word. GEVOLG VIR DIE LESSE: Selfontwikkeling 2 en Wereld van werk 3 dra elk nog 'n eie ou vorm en moet deur die skrywer loop.",
+      "ook_in_die_prosa": [
+        "Gesondheid 2",
+        "Selfontwikkeling 7"
+      ]
+    },
+    "vermoë": {
+      "omskrywing": "Iets wat jy reeds kan doen, soos luister, kook of sing.",
+      "lesse": [
+        "Selfontwikkeling 2",
+        "Wereld van werk 3",
+        "Wereld van werk 8"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "OORGENEEM uit die afgelewerde Graad 6-les (OVS 3), 23 September 2026. Wereld van werk het 'goed kan doen' geskryf (les 3 en les 8, uit sy spesifikasie se eie aanhaling). Dit is 'n ANDER ding: 'reeds kan doen' teenoor 'goed kan doen'. Die Graad 6-vorm wen, om twee redes - dit is afgelewer, en 'goed' breek die kontras met POTENSIAAL ('nog nie kan doen nie'), wat die hele punt van daardie drietal is. Die Wereld-van-werk-spesifikasie moet by die bron regkom, nie net die twee lesse nie.",
+      "voorbeelde_mag_verskil": true,
+      "ook_in_die_prosa": [
+        "Grondwetlike regte 3"
+      ]
+    },
+    "potensiaal": {
+      "omskrywing": "Iets wat reeds in jou is en wat jy nog nie kan doen nie, maar wat jy met oefening en hulp kan leer doen.",
+      "lesse": [
+        "Selfontwikkeling 2",
+        "Wereld van werk 9"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "Dieselfde as die afgelewerde Graad 6-les (OVS 3), wat op 23 September 2026 self hierheen reggemaak is na drie alleen-lees-toetse. Wereld van werk les 9 het 'alles wat 'n mens met tyd en oefening nog kan leer doen' geskryf - dit is die verwerpte beloftevorm en dit laat die 'reeds in jou' val. Sien kaps/beskermde-woorde.json: die 'nog nie kan doen nie' mag NIE weggevat word om die twee helftes te laat klop nie. NAGEGAAN EN GESLUIT 23 September 2026, NIE HERSKRYF NIE. Die alleen-lees-feitetoets het dit goed genoeg bevind om af te lewer, met een aangetekende GRENS: die sin sluit niks uit nie - enigiets wat 'n mens met oefening en hulp kan leer doen, word daarmee tot iets verklaar wat reeds in jou is, terwyl die les se punt juis is dat die een kind se potensiaal van die ander s'n verskil. Die grens word AANVAAR en die saak is TOE: dit is Lampies se besliste bewoording, dit is in kaps/beskermde-woorde.json beskerm, en dit is die afgelewerde Graad 6-bewoording. Moenie dit heropen nie."
+    },
+    "simptoom": {
+      "omskrywing": "Iets wat 'n mens self by homself voel of sien en wat wys dat iets nie reg is nie, soos pyn, moegheid of naarheid.",
+      "lesse": [
+        "Gesondheid 2",
+        "Gesondheid 9",
+        "Gesondheid 10"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "OORGENEEM uit Graad 5 en Graad 6 Lewensvaardighede, ongewysig. Die drie Graad 7-lesse verskil net in die voorbeelde na 'soos', wat toegelaat is. LET WEL: Gesondheid les 2 se tekens kom uit middelgebruik en nie uit siekte nie - die inskrywing bind die woord aan siekte, dus moet daardie les se prosa die ander geval self dra, of die woord daar vermy. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets op die versoende vorm. Twee foute in die ou vorm (\"Iets wat 'n mens self VOEL omdat hy SIEK is\"): (1) 'voel' sluit die algemeenste simptome uit - 'n hoes, naarheid, 'n uitslag wat die mens self sien; 'n simptoom is wat die mens self ervaar OF OPMERK. (2) 'omdat hy siek is' is nouer as die woord self: simptome kom ook van 'n besering, van spanning, van medisyne se newe-effekte en van onttrekking ('onttrekkingsimptoom' is die gewone term). Gesondheid 2 se tekens kom uit MIDDELGEBRUIK en nie uit siekte nie, dus het die inskrywing sy eie les weerspreek. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: die kontras met TEKEN. 'Self by homself' dra daardie kontras nog steeds - 'n teken is wat 'n ANDER mens kan sien of meet - en 'wat wys dat iets nie reg is nie' hou die woord begrens, sodat nie elke ding wat 'n mens aan homself opmerk 'n simptoom is nie. GRAAD 5 EN GRAAD 6 BLY SOOS AFGELEWER: albei dra hierdie presiese ou bewoording saam met hulle 'teken'-inskrywing ('Iets wat 'n siekte aan 'n mens verander en wat ander kan sien of meet'), en 'n MENS moet beslis of hulle herdruk word. Die verbreding is hier toegelaat omdat die Graad 7-kurrikulum die woord op middelgebruik, MIV en TB toepas, en die kruisgraad-reel 'n verbreding toelaat waar die kurrikulum verbreed. GEVOLG VIR DIE LESSE: Gesondheid 2 se prosa se \"Niemand anders kan 'n simptoom sien nie\" - dit oorvra nou en moet saam met die drie begripsinne deur die skrywer loop.",
+      "voorbeelde_mag_verskil": true
+    },
+    "berader": {
+      "omskrywing": "Iemand wat opgelei is om met 'n mens te praat oor wat moeilik gaan.",
+      "lesse": [
+        "Gesondheid 5",
+        "Selfontwikkeling 8"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm was 'oor 'n probleem'; hierdie een dek meer en se nie vir die kind dat sy 'n probleem het nie. NAGEGAAN 23 September 2026, ONVERANDER AFGELEWER, met een aangetekende GRENS wat AANVAAR is: die sin se nie WAARVOOR die gepraat is nie - 'n berader is opgelei om te HELP, en nie net om te praat nie. Die sin bly soos hy is omdat 'opgelei' die beroepsrol reeds dra en die lesse die hulp in die prosa gee; aangeteken sodat dit nie heropen word nie.",
+      "ook_in_die_prosa": [
+        "Gesondheid 12",
+        "Selfontwikkeling 12"
+      ]
+    },
+    "geloofsgemeenskap": {
+      "omskrywing": "Die mense wat dieselfde geloof deel en dit saam beoefen.",
+      "lesse": [
+        "Grondwetlike regte 8",
+        "Grondwetlike regte 9"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm ('n groep mense wat saam aan dieselfde religie behoort) laat die beoefening uit, en dit is juis wat van hulle 'n gemeenskap maak eerder as 'n lys name. NAGEGAAN 23 September 2026, ONVERANDER AFGELEWER, met een aangetekende GRENS wat AANVAAR is: die sin is na albei kante onbegrens. Alle Christene ter wereld voldoen daaraan, en so ook 'n gesin wat saam bid. Wat ontbreek is dat die mense in EEN gemeente of gemeenskap bymekaarkom. Die sin bly soos hy is omdat lesse 8 en 9 die woord altyd van een gemeenskap gebruik; aangeteken sodat dit nie as 'n nuwe bevinding heropen word nie."
+    },
+    "geskrif": {
+      "omskrywing": "Die geskrewe woorde wat 'n geloofsgemeenskap as heilig beskou en wat sy mense deur die jare bewaar, lees en vir leiding gebruik.",
+      "lesse": [
+        "Grondwetlike regte 8",
+        "Grondwetlike regte 9"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm het 'as gesag aanvaar' gehad; dit oorvra vir tradisies waar 'n teks nie as gesag funksioneer nie, en die subonderwerp se eie reels verbied 'n bewering oor elke gemeenskap. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets. Alleen gelees pas die ou vorm ewe goed op 'n liedboek, 'n kategismus, 'n dagstukkieboek of 'n gemeente se grondwet - almal word bewaar, gelees en vir leiding gebruik - dus het dit die heilige teks nie afgesonder nie. Die nuwe vorm voeg die een ding by wat dit wel afsonder: dat die gemeenskap dit as HEILIG beskou. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: 'bewaar, lees en vir leiding gebruik' - die vroeere vorm 'as gesag aanvaar' is en bly VERWERP, want dit oorvra vir tradisies waar 'n teks nie as gesag funksioneer nie. 'As heilig beskou' is nie daardie verwerpte vorm in 'n ander gedaante nie: dit se hoe die gemeenskap die teks HOU, nie watter mag dit oor mense het nie. LET WEL oor die trefwoord: die kaal Afrikaanse woord 'geskrif' beteken enige stuk skryfwerk; die godsdienstige term is 'heilige geskrif'. Die trefwoord bly voorlopig 'geskrif', omdat albei lesse en die spesifikasie dit so dra; 'n MENS kan beslis om dit na 'heilige geskrif' te hernoem, en dan moet die twee lesse deur die skrywer loop. GRENS wat die spesifikasie reeds stel en wat hier bly geld: moenie skryf dat ELKE religie 'n heilige boek het nie - die omskrywing se wat 'n geskrif IS en nie dat elke religie een het nie. GEVOLG: Grondwetlike regte 8 dra nog die verwerpte 'as gesag aanvaar'-vorm en les 9 die ou versoende vorm; albei moet deur die skrywer loop."
+    },
+    "mondelinge tradisie": {
+      "omskrywing": "Woorde en gewoontes wat 'n gemeenskap van geslag tot geslag oordra deur te praat, te vertel en te sing eerder as uit 'n geskrewe teks, soos leringe, stories, gebede en liedere.",
+      "lesse": [
+        "Grondwetlike regte 8",
+        "Grondwetlike regte 9"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm ('deur praat en luister') laat 'van geslag tot geslag' uit, en dit is wat van dit 'n TRADISIE maak - sonder dit pas die sin op enige gesprek. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets, om twee redes. STRUKTUUR: die inskrywing was voorbeelde_mag_verskil gevlag, maar die ou sin het geen 'soos' gehad nie - 'leringe, stories en gebede' WAS die onderwerp, dus sou 'n skrywer wat die vlag glo hulle omruil en stilweg die omskrywing verander. Die nuwe sin het 'n algemene onderwerp en sit die voorbeelde na 'soos', sodat die vlag beteken wat dit se. INHOUD: die ou vorm was die nou godsdienstige geval. 'n Mondelinge tradisie dra ook liedere, prysgedigte, geslagsregisters en gewoontes, en 'n groot deel daarvan word GESING eerder as 'deur te praat' oorgedra. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: 'van geslag tot geslag', wat dit 'n TRADISIE maak - sonder dit pas die sin op enige gesprek. Die kontras met GESKRIF staan nou in 'eerder as uit 'n geskrewe teks', wat die spesifikasie se 'nie deur te lees nie' dra sonder om te beweer dat so 'n tradisie nooit neergeskryf word nie (les 8 leer juis dat baie tekste eers mondeling was). GEVOLG: albei begripsinne (Grondwetlike regte 8 en 9) verskil van mekaar en van hierdie vorm, en moet deur die skrywer loop.",
+      "voorbeelde_mag_verskil": true
+    },
+    "hormoon": {
+      "omskrywing": "'n Stof wat die liggaam self maak en wat vir dele van die liggaam se wat om te doen.",
+      "lesse": [
+        "Selfontwikkeling 5",
+        "Selfontwikkeling 6"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026, en die wyer vorm wen. Die ander een ('se om te VERANDER') is net waar van die puberteitshormone; hormone regeer hoofsaaklik lopende werking - bloedsuiker, water, slaap, die stresreaksie. Die kind ontmoet insulien en adrenalien in Natuurwetenskappe, en die nou vorm pas nie daar nie. NAGEGAAN 23 September 2026, ONVERANDER AFGELEWER, met twee aangetekende GRENSE wat AANVAAR is. (1) Alleen gelees pas die sin ook op 'n neuro-oordragstof: wat 'n hormoon onderskei, is dat dit deur die BLOED na ander dele van die liggaam reis, en dit staan nie in die sin nie. (2) 'Wat die liggaam self maak' sluit hormoonmedisyne uit, wat nie die liggaam se eie is nie. Albei is by Graad 7 bewustelik nie ingeskryf nie, want die sin moet eenvoudig bly; hulle is aangeteken sodat dit nie as 'n nuwe bevinding heropen word nie."
+    },
+    "versorger": {
+      "omskrywing": "Iemand wat vir 'n ander mens sorg wat nie sonder hulp klaarkom nie, soos 'n ouer of 'n ouma vir 'n kind, of 'n kind vir 'n siek familielid.",
+      "lesse": [
+        "Grondwetlike regte 4",
+        "Selfontwikkeling 6"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm was in die tweede persoon gestel en aan 'die huis' gebind; hierdie een staan alleen en sluit niemand uit. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets. Die ou vorm was drie keer te nou. 'DIE mens' - die meeste kinders het meer as een versorger. 'DAAGLIKS' - 'n ouer wat ver werk, is steeds 'n versorger. 'Vir 'n KIND' - 'n versorger sorg ook vir 'n siek of 'n ou mens, en dit is juis die betekenis wat Gesondheid 12 nodig het, waar die KIND die versorger is. Die nuwe vorm open met 'Iemand', bind nie aan 'n dag nie en bind nie aan 'n kind nie. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: 'n ouer bly die eerste voorbeeld, die sin bly in die derde persoon sodat dit alleen kan staan (die verwerpte vorm was in die tweede persoon en aan 'die huis' gebind), en 'sorg vir' bly 'n lopende rol en nie 'n eenmalige hulp nie. Die voorbeelde na 'soos' mag per les verskil. GEVOLG: Grondwetlike regte 4 en Selfontwikkeling 6 dra elk 'n eie ou vorm en moet deur die skrywer loop; die woord staan ook in die prosa van Grondwetlike regte 2, 5 en 7.",
+      "voorbeelde_mag_verskil": true,
+      "ook_in_die_prosa": [
+        "Grondwetlike regte 2",
+        "Grondwetlike regte 5",
+        "Grondwetlike regte 7"
+      ]
+    },
+    "vertroue": {
+      "omskrywing": "Om op 'n ander mens te reken om te doen wat reg is.",
+      "lesse": [
+        "Grondwetlike regte 3",
+        "Grondwetlike regte 5"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Twee lesse, twee omvange: les 3 (regverdige spel) en les 5 (mishandeling). Die ander vorm ('om te glo dat iemand jou nie sal seermaak of teleurstel nie') is te nou - dit maak vertroue net 'n afwesigheid van skade. Hierdie een dek albei lesse.",
+      "ook_in_die_prosa": [
+        "Selfontwikkeling 8",
+        "Selfontwikkeling 10"
+      ]
+    },
+    "ondersteuningsgroep": {
+      "omskrywing": "Mense wat dieselfde siekte of dieselfde swaarkry deurmaak en gereeld bymekaarkom om na mekaar te luister en mekaar te help.",
+      "lesse": [
+        "Gesondheid 12",
+        "Gesondheid 13"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm ('wat mekaar gereeld help en ondersteun') gebruik die woord in sy eie omskrywing. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets. 'Dieselfde sorg' lees twee kante toe: dieselfde BEKOMMERNIS (wat bedoel is) of dieselfde SORGPLIG - en dit staan boonop langs VERSORGER, wat in hierdie selfde lys iemand is wat sorg. 'Swaarkry' laat net die bedoelde lesing toe. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: die woord 'ondersteun' kom NIE in sy eie omskrywing voor nie - dit is waarom die ander versoende vorm ('wat mekaar gereeld help en ondersteun') verwerp is - en 'gereeld' is hier terug omdat dit 'n groep van 'n eenmalige byeenkoms onderskei, wat nooit die fout was nie. GEVOLG: Gesondheid 12 en 13 se begripsinne en Gesondheid 12 se prosa ('mense ... wat dieselfde siekte of dieselfde sorg ken') moet deur die skrywer loop."
+    },
+    "munisipaliteit": {
+      "omskrywing": "Die plaaslike regering vir 'n gebied: 'n raad van verkose raadslede wat plaaslike reëls maak, geld van die inwoners vra en sorg dat dienste soos afvalverwydering en straatligte gelewer word.",
+      "lesse": [
+        "Gesondheid 7",
+        "Wereld van werk 7"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm was aan 'n dorp of 'n stad gebind; munisipaliteite dek ook landelike gebiede, dus wen 'in sy eie gebied'. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets, wat drie dinge teen die ou vorm gehad het. (1) Die REGEER-helfte was weg - verkose raadslede, plaaslike reels, geld wat gevra word - sodat die sin net so goed op 'n diensmaatskappy gepas het. (2) 'In sy eie gebied', met die bepaalde lidwoord, is onwaar vir die meeste landelike leerders: 'n distriksmunisipaliteit en 'n plaaslike munisipaliteit staan oor dieselfde grond met die funksies verdeel. (3) WATER was 'n swak voorbeeld juis omdat dit die voorbeeld is: nie elke plaaslike munisipaliteit is 'n waterdiensowerheid nie, en waar dit nie een is nie, sit water by die distrik of die metro. Die nuwe vorm dra die regeer-helfte, se 'vir 'n gebied' sonder om uitsluitlikheid te beweer, en se 'sorg dat dienste ... gelewer word' eerder as 'lewer', wat waar bly waar 'n ander liggaam die diens werklik lewer. Die voorbeelde is afvalverwydering en straatligte, wat albei plaaslike funksies is. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: dit is nie aan 'n dorp of 'n stad gebind nie - munisipaliteite dek ook landelike gebiede. BEKENDE GRENS, aanvaar: die inskrywing se nie dat 'n leerder onder twee munisipaliteite tegelyk kan val nie; Gesondheid 7 se prosa dra die aanmeld-advies. GEVOLG: Gesondheid 7 en Wereld van werk 7 se begripsinne moet deur die skrywer loop.",
+      "voorbeelde_mag_verskil": true,
+      "ook_in_die_prosa": [
+        "Gesondheid 8"
+      ]
+    },
+    "loopbaanveld": {
+      "omskrywing": "'n Groep loopbane wat bymekaar gesit word omdat hulle dieselfde soort werk of dieselfde gebied deel, al verskil die presiese werk en die opleiding van die een loopbaan tot die ander.",
+      "lesse": [
+        "Wereld van werk 3",
+        "Wereld van werk 4",
+        "Wereld van werk 5"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026 uit drie weergawes. Hierdie een dra albei helftes - die werk self en wat dit vra - waar die ander een of die ander laat val. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets. Die ou vorm het gese dat die werk EN wat dit van 'n mens vra, binne 'n veld 'baie ooreenstem'. Dit hou nie: 'n veld word saamgebind deur 'n gedeelde gebied, doel of kennis, nie deur werk wat na mekaar lyk nie. In gesondheid doen 'n dokter, 'n radiograaf en 'n hospitaalbestuurder fundamenteel verskillende werk met baie verskillende eise. Wereld van werk 5 se dit self: 'Loopbane in dieselfde veld vra verskillende vlakke en nie alles vra 'n graad nie' - die ou inskrywing het dus ook sy eie les weerspreek. Die nuwe vorm se waarom die loopbane bymekaar hoort en erken uitdruklik dat die werk en die opleiding binne die veld verskil. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: dat 'n loopbaanveld 'n GROEP loopbane is, en dat die groepering op die soort werk self kan rus - Wereld van werk 3 groepeer met opset volgens die soort werk en nie volgens die soort besigheid nie, en 'dieselfde soort werk of dieselfde gebied' laat albei maniere toe. GEVOLG VIR DIE LESSE: Wereld van werk 3 se prosa ('Die soort werk stem in so 'n veld ooreen en dit vra ook dieselfde dinge van 'n mens') dra die ou fout, en al drie begripsinne (lesse 3, 4 en 5) verskil boonop van mekaar. Almal moet deur die skrywer loop."
+    },
+    "werkgewer": {
+      "omskrywing": "Die mens of die instelling wat 'n mens in diens neem.",
+      "lesse": [
+        "Wereld van werk 6",
+        "Wereld van werk 7"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm ('die mens of die PLEK wat iemand aanstel') maak 'n plek die handelende party. LET WEL: 'n mens wat vir homself werk het GEEN werkgewer nie - dit is nie 'n vierde soort werkgewer nie, en les 7 stel dit reg. NAGEGAAN 23 September 2026, ONVERANDER AFGELEWER, met twee aangetekende GRENSE wat AANVAAR is. (1) 'In diens neem' beskryf die HANDELING van aanstel en nie die VERHOUDING nie - 'n onderwyser word by die skool aangestel terwyl die werkgewer die provinsiale departement is; les 7 se prosa dra daardie onderskeid. (2) 'Instelling' lees na 'n formele inrigting en nie na 'n spazawinkel of 'n klein besigheid nie, wat ook werkgewers is. Die sin bly soos hy is omdat die lesse albei gevalle in die prosa dra; aangeteken sodat dit nie heropen word nie.",
+      "ook_in_die_prosa": [
+        "Wereld van werk 8"
+      ]
+    },
+    "voedingswaarde": {
+      "omskrywing": "Hoeveel energie en hoeveel van die voedingstowwe wat die liggaam nodig het, in 'n kos is - party kosse het baie en ander min.",
+      "lesse": [
+        "Selfontwikkeling 13",
+        "Selfontwikkeling 14"
+      ],
+      "stem_reeds_ooreen": false,
+      "nota": "VERSOEN 23 September 2026. Die ander vorm ('wat 'n mens se liggaam uit die kos kry') is die Graad 6-vorm wat 'n feitetoets al as 'baie los alleen gelees' aangemerk het: dit se nie waarvoor nie. Hierdie een wen. HERSKRYF 23 September 2026 na 'n alleen-lees-feitetoets op die versoende vorm, wat DRIE foute gehad het. (1) ENERGIE, wat 'n kernstuk van voedingswaarde is, was uitgelaat. (2) Dit is nie as 'n WAARDE gestel nie - niks oor meer of minder - terwyl Selfontwikkeling 13 en 14 die woord juis vergelykend gebruik ('om die voedingswaarde van jou dieet te verbeter'). (3) Alleen gelees was dit die omskrywing van VOEDINGSTOF: wat 'n kos vir die liggaam gee, is sy voedingstowwe. Die nuwe vorm begin by HOEVEEL, wat die woord 'n maat maak en die twee woorde uitmekaar hou. WAT DIE OU VORM REG GEHAD HET EN BLY STAAN: dit meet teen wat die LIGGAAM nodig het en nie teen 'n laboratoriumsyfer nie. GEVOLG VIR DIE LESSE: Selfontwikkeling 13 se prosa ('die voedingswaarde van kos is wat jou liggaam uit die voedingstowwe daarin kry') dra dieselfde saamval en moet saam met albei begripsinne deur die skrywer loop."
     }
+  },
+  "lesetikette": {
+    "hoe_om_dit_te_lees": "Die etikette in elke term se 'lesse' en 'ook_in_die_prosa' wys na die konsepte onder konsepte/gr7/lewensorientering/. 'lesse' is die lesse met 'n BEGRIP-blok vir daardie term; 'ook_in_die_prosa' is lesse wat die woord gebruik sonder 'n eie begrip-blok, en hulle tel saam wanneer 'n bewoording verander.",
+    "Gesondheid": "gesondheids-sosiale-en-omgewingsverantwoordelikheid (13 lesse)",
+    "Grondwetlike regte": "grondwetlike-regte-en-verantwoordelikhede (9 lesse)",
+    "Selfontwikkeling": "selfontwikkeling-in-die-samelewing (14 lesse)",
+    "Wereld van werk": "wereld-van-werk (9 lesse)"
   }
 }
