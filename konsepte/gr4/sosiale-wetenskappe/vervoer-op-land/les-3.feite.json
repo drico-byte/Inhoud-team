@@ -1,295 +1,246 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Stoom trek die trein",
   "kaps_punt": "die stoomenjin en die trein",
   "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "'n Stoomenjin begin by 'n vuur in 'n vuurkas binne die ketel.",
+      "bewering": "Stoomenjins het al lank voor die trein water uit myne gepomp.",
       "blok": "Wat 'n stoomenjin is",
-      "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, Firebox (steam engine) - 'fireboxes are not always inside the boiler'; in 'n lokomotief se vuurpypketel is die vuurkas wel deur water omring, behalwe onder. Wikipedia, Watt steam engine / Resolution (beam engine): Newcomen- en Watt-enjins het 'waenketels' gebruik wat van buite af, van onder, gestook is. https://en.wikipedia.org/wiki/Firebox_(steam_engine) ; https://en.wikipedia.org/wiki/Watt_steam_engine",
-      "regstelling": "Die stelling is waar van 'n trein se stoomenjin, nie van stoomenjins in die algemeen nie. Die vroegste stoomenjins (Newcomen 1712, Watt) se vuur het onder 'n aparte ketel gebrand, nie binne-in nie. Vernou die onderwerp na die masjien waaroor die les gaan - 'n lokomotief se stoomenjin - eerder as om die bewering te verswak. Let op dat die les se eie begrip-inskrywing vir 'stoomenjin' ('n masjien wat die druk van stoom in beweging verander) korrek algemeen is, en dus met hierdie sin bots."
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Voorrangbewering nagegaan. Thomas Savery se stoompomp ('Miner's Friend') 1698; Thomas Newcomen en John Calley se eerste werkende atmosferiese enjin pomp water by die Conygree-steenkoolwerke naby Dudley in 1712, en meer as honderd sulke enjins is voor Newcomen se dood opgerig. Die eerste stoomlokomotief loop in 1804. Die gaping is dus sowat 92 jaar (Newcomen) tot 106 jaar (Savery). en.wikipedia.org/wiki/Newcomen_atmospheric_engine; en.wikipedia.org/wiki/History_of_the_steam_engine; en.wikipedia.org/wiki/Timeline_of_steam_power; historyofinformation.com/detail.php?id=3293"
     },
     {
-      "bewering": "Werkers skep steenkool in die vuur en die water rondom en bo die kas kook.",
+      "bewering": "'n Stoomenjin begin by 'n vuur wat 'n ketel vol water warm maak.",
       "blok": "Wat 'n stoomenjin is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Firebox (steam engine): steenkool en hout was die vernaamste brandstowwe, die stoker hou die vuur aan die gang, en die vuurkas is deur water omring behalwe aan die onderkant (sywaterruimtes en die kroonplaat bo). Mid-Continent Railway Museum oor die kroonplaat: die vuur se hitte aan die een kant, die ketel se water aan die ander. https://en.wikipedia.org/wiki/Firebox_(steam_engine) ; https://www.midcontinent.org/tag/crownsheet/"
+      "bron": "Waar vir elke stoomenjin van hierdie tydperk - Newcomen, Watt, Trevithick en die lokomotief het almal 'n vuurverhitte ketel. en.wikipedia.org/wiki/Glossary_of_boiler_terms ('In a steam engine, the firebox is the area where the fuel is burned, producing heat to boil the water in the boiler'); en.wikipedia.org/wiki/History_of_the_steam_engine. Let wel op die grens: hedendaagse stoomturbines wat deur kern- of sonhitte gevoed word, het geen vuur nie, en die les se eie begrip-inskrywing vir 'stoomenjin' is wyd genoeg om hulle in te sluit. In 'n geskiedenisles op hierdie vlak hou die sin egter."
+    },
+    {
+      "bewering": "Werkers skep steenkool in die vuur en die water kook.",
+      "blok": "Wat 'n stoomenjin is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Steenkool was die gewone brandstof: Newcomen se enjins is by steenkoolmyne gebruik waar afvalsteenkool goedkoop was, en op 'n lokomotief skep die stoker (fireman) die steenkool met 'n graaf in die vuurkas in. trains.com/trn/train-basics/abcs-of-railroading/how-a-steam-locomotive-works/; steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works. Nie uitsluitlik nie - hout en later olie is ook gebruik, en groot lokomotiewe het meganiese stokers gekry (en.wikipedia.org/wiki/Mechanical_stoker) - maar as beskrywing van die gewone praktyk is die sin reg."
     },
     {
       "bewering": "Die kokende water verander in stoom wat baie meer plek opneem.",
       "blok": "Wat 'n stoomenjin is",
       "status": "bevestig",
       "tipe": "getal",
-      "bron": "Physics Van, University of Illinois: water brei ongeveer 1 600 tot 1 700 keer uit wanneer dit by gewone lugdruk in stoom verander. https://van.physics.illinois.edu/ask/listing/30776"
+      "bron": "By 100 grade C en gewone lugdruk neem water omtrent 1 600 keer sy volume as stoom op. van.physics.illinois.edu/ask/listing/1734 (University of Illinois Physics Van); afcsteamtraps.com/index.php/steam/. Die les gee geen getal nie, net 'baie meer plek', wat veilig binne die feit val."
     },
     {
       "bewering": "Die ketel is 'n toe houer en hou al daardie stoom vas. Die stoom druk daarom hard teen die wande van die ketel.",
       "blok": "Wat 'n stoomenjin is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "steamlocomotives.org, How a Steam Locomotive Works: 'Pressure builds until the boiler holds steam at perhaps 200 to 250 pounds per square inch, kept in check by safety valves.' Die ketel is inderdaad 'n geslote drukhouer. Die veiligheidsklep wat stoom uitlaat wanneer die druk te hoog raak, word nie in die les genoem nie, maar niks wat die les se is daardeur vals nie. https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works"
+      "bron": "Waar vir 'n lokomotiefketel: 'n geslote drukvat waarvan die werkdruk in die orde van 150-250 psi is, met die kroonplaat gestut teen presies daardie druk. nationalboard.org/index.aspx?pageID=164&ID=218 (National Board, konstruksie en inspeksie van lokomotiefketels); en.wikibooks.org/wiki/Steam_Locomotive_Operation. Sien die afsonderlike bevinding hieronder oor die myn-enjins, waarvan die ketels skaars bo lugdruk gewerk het."
+    },
+    {
+      "bewering": "Stoomenjins het al lank voor die trein water uit myne gepomp. ... Daar stoot die stoom die suier van die een kant na die ander.",
+      "blok": "Wat 'n stoomenjin is",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "Die blok open met die myn-pompenjins en beskryf dan 'n stoomenjin in die algemeen, sodat 'n leser die meganisme op daardie myn-enjins toepas. Dit is nie hoe hulle gewerk het nie. Die enjins wat voor die trein water uit myne gepomp het, was Newcomen- (1712 af) en Watt-enjins: kondenserende, lae-druk enjins. In 'n Newcomen-enjin vul stoom die silinder, koue water kondenseer dit, en die LUGDRUK bo die suier stoot hom af - 'Pressure differential between the atmosphere above the piston and the partial vacuum below then drove the piston down' (en.wikipedia.org/wiki/Newcomen_atmospheric_engine). Die ketel se druk was skaars bo lugdruk, dus druk die stoom ook nie 'hard teen die wande' nie. Stoom wat self die suier heen en weer stoot, is die LATERE hoedruk-enjin (Trevithick, ~1800) - juis die soort wat 'n lokomotief gebruik. ncm.org.uk/news/the-rise-of-the-steam-engine/; ebsco.com/research-starters/history/patenting-high-pressure-steam-engine; en.wikipedia.org/wiki/History_of_the_steam_engine",
+      "regstelling": "Die meganisme wat die blok beskryf (stoom wat die suier self van kant tot kant stoot, teen druk wat hard teen die ketel se wande druk) is die hoedruk-stoomenjin van omtrent 1800 af, die soort waarop die lokomotief gebou is. Die enjins wat lank voor die trein water uit myne gepomp het, het anders gewerk: stoom is in die silinder gekondenseer en die gewone lug het die suier gestoot. Die blok moet die meganisme aan die enjin koppel wat hy daarna op wiele sit, en nie aan die myn-pompe van sy eerste sin nie."
     },
     {
       "bewering": "Sterk pype lei die stoom na 'n noue silinder met 'n suier daarin.",
       "blok": "Wat 'n stoomenjin is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "steamlocomotives.org, How a Steam Locomotive Works: die drywer se reguleerder laat hoedruk-stoom deur pype na die silinders. Die silinder is nou in vergelyking met die ketel (boring omtrent 40-70 cm teenoor 'n ketelvat van meer as 'n meter) en die suier sluit styf daarin - albei lesings van 'nou' hou. https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works ; https://en.wikipedia.org/wiki/Driving_wheel"
+      "bron": "Stoom loop uit die ketel deur die reguleerder en die hoofstoompyp na die stoomkis en die silinders. trains.com/trn/train-basics/abcs-of-railroading/how-a-steam-locomotive-works/; steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works"
     },
     {
-      "bewering": "Daar stoot die stoom die suier van die een kant na die ander.",
-      "blok": "Wat 'n stoomenjin is",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, Steam locomotive en Slide valve: die silinders is dubbelwerkend - stoom word om die beurt aan elke kant van die suier toegelaat, sodat die suier in albei rigtings gestoot word. https://en.wikipedia.org/wiki/Steam_locomotive ; https://en.wikipedia.org/wiki/Slide_valve"
-    },
-    {
-      "bewering": "'n Sterk stang loop van die suier na 'n pen op die wiel.",
+      "bewering": "Die suier beweeg heen en weer, maar 'n wiel moet ronddraai. 'n Sterk stang loop van die suier na 'n pen op die wiel. Elke stoot van die suier draai die wiel 'n stukkie verder.",
       "blok": "Hoe die wiele draai",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "steamlocomotives.org, How a Steam Locomotive Works: 'The piston's thrust travels along the piston rod to the crosshead... and from there through the connecting rod to a crank pin on the driving wheel.' Die les vou suierstang, kruiskop en dryfstang in een stang saam; dit is 'n vereenvoudiging van die metode, nie 'n valse meganisme nie, want die pen sit werklik op die dryfwiel (uit die middel uit) en dit is presies wat die draai veroorsaak. https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works ; https://en.wikipedia.org/wiki/Crankpin"
-    },
-    {
-      "bewering": "Elke stoot van die suier draai die wiel 'n stukkie verder.",
-      "blok": "Hoe die wiele draai",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "steamlocomotives.org: die dryfstang en kruktap 'converts the straight push into rotation, exactly like the pedals and crank of a bicycle'. Elke slag draai die wiel 'n halwe omwenteling; ''n stukkie verder' noem geen hoeveelheid nie en is dus nie oorgestel nie. https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works"
+      "bron": "'The pistons of the cylinders are coupled to the main driving wheel by means of a connecting rod which is fitted to a crank pin on the wheel' - trains.com/trn/train-basics/abcs-of-railroading/how-a-steam-locomotive-works/. Dieselfde in Afrikaans op af.wikipedia.org/wiki/Stoomlokomotief: 'Die stoom se druk laat 'n suier heen en weer beweeg. 'n Stang, wat aan die suier en die lokomotief se wiele verbind is, word sodoende in die rondte gedraai.' Die vereenvoudiging laat suierstang en kruiskop weg, wat op hierdie vlak in orde is."
     },
     {
       "bewering": "Sit hierdie enjin op wiele en op spore, en jy het 'n lokomotief.",
       "blok": "Hoe die wiele draai",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "Die afbeelding klop nie, en dit is die plek waar die les se eie tydlyn omval. 'Hierdie enjin' is die enjin wat die vorige blok ingelei het as die soort wat lank voor die trein water uit myne gepomp het. Daardie enjins kon juis NIE op wiele gesit word nie: 'The Newcomen and Watt-Boulton engines were atmospheric engines... Such engines were too heavy and too slow for use on a locomotive' (ncm.org.uk/news/the-rise-of-the-steam-engine/). Hulle het ook 'n gedurige groot hoeveelheid koelwater vir die kondensor nodig gehad, wat hulle onbeweeglik gemaak het, en hulle het 'n wipbalk gewieg eerder as 'n wiel gedraai (en.wikipedia.org/wiki/Newcomen_atmospheric_engine). Die lokomotief was moontlik eers toe Trevithick 'n hoedruk-enjin sonder kondensor gebou het wat klein en lig genoeg was om te ry - 'they could be made much smaller than previously for a given power output' en 'did not require the significant quantities of condenser cooling water' (en.wikipedia.org/wiki/History_of_the_steam_engine). GEVOLG VIR TYD: die les se eerste sin se 'lank voor die trein' is sowat 92 jaar (1712 tot 1804), en hierdie sin maak van daardie 92 jaar een handeling - jy tel die myn-enjin op en sit hom op wiele. 'n Negejarige kry dus uit die les as geheel dat die stoomenjin en die trein feitlik saam ontstaan het, terwyl die les nerens 'n datum voor 1804 gee nie en 'reeds in 1804' die vroegste punt op sy tydlyn maak.",
+      "regstelling": "Die enjin wat die trein getrek het, was nie die myn-pompenjin op wiele nie, maar 'n later en ander enjin: kleiner, sterker en sonder kondensor, sodat hy sy eie gewig kon dra. Die les moet die twee enjins uitmekaar hou en die tydgaping 'n grootte gee - stoomenjins pomp al sedert die vroeg-1700's water uit myne, en dit was eers bykans 'n eeu later dat 'n enjin klein en sterk genoeg was om self te ry."
+    },
+    {
+      "bewering": "Sy vuur brand in 'n vuurkas binne die ketel, met water rondom en bo daardie kas.",
+      "blok": "Hoe die wiele draai",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Steam locomotive: 'n stoomlokomotief is 'n spoorvoertuig wat sy trekkrag uit 'n stoomenjin kry. Die sin is 'n definisie-vereenvoudiging, nie 'n bewering wat verder gaan as wat die bronne se nie. https://en.wikipedia.org/wiki/Steam_locomotive"
+      "bron": "Reg, en die sin is korrek beperk tot die lokomotief ('Sy vuur'). Die vuurkas is deel van die ketelsamestelling en 'the firebox is surrounded by water, except for the bottom, which is open to atmospheric pressure' - dus water aan die sye, agter, voor en bo (die kroonplaat), maar nie onder nie, presies soos die sin dit stel. en.wikipedia.org/wiki/Firebox_(steam_engine); nationalboard.org/index.aspx?pageID=164&ID=218"
     },
     {
       "bewering": "Agter die lokomotief haak werkers 'n lang ry waens en trokke vas. Die waens dra mense en die trokke dra vrag soos steenkool en graan.",
       "blok": "Wat 'n trein is",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Afrikaanse Wikipedia, Trein: 'Passasierstreine gebruik spesiale waens eerder as trokke', en goedere word 'in trokke van een plek na 'n ander' vervoer - die woordonderskeid waens/trokke is dus die gangbare Afrikaanse spoorweggebruik. Vir die vraglading: Pienaar, Suid-Afrikaanse Tydskrif vir Natuurwetenskap en Tegnologie, noem massagoedere en mynprodukte, vloeistowwe en graan as die kern van SA se spoorvragmark. https://af.wikipedia.org/wiki/Trein ; https://journals.satnt.aosis.co.za/index.php/satnt/article/view/1482/3398"
+      "tipe": "naam",
+      "bron": "Die Afrikaanse onderskeid klop: 'Passasierstreine gebruik spesiale waens eerder as trokke' en 'Goedere- of vragtreine word gebruik om goedere in trokke van een plek na 'n ander te vervoer' - af.wikipedia.org/wiki/Trein. 'Goederetrokke' word ook so in Afrikaanse vakliteratuur oor spoorvragvervoer gebruik (journals.satnt.aosis.co.za/index.php/satnt/article/view/1482). Plaaslike taalgebruik is my swakste grond, so ek teken aan dat die bewys een Afrikaanse ensiklopedie-artikel plus een Afrikaanse vaktydskrif is; 'n amptelike spoorwegwoordelys kon ek nie bereik nie. Niks weerspreek die les nie."
     },
     {
       "bewering": "Die enjin en die hele ry agter hom is saam 'n trein.",
       "blok": "Wat 'n trein is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Afrikaanse Wikipedia, Trein: 'n trein is 'n klomp waens wat aan mekaar gekoppel is, met die lokomotief voor wat die res agterna sleep. https://af.wikipedia.org/wiki/Trein"
+      "bron": "'n Trein is ''n voertuig wat op 'n spoor beweeg en uit een of meer trokke of waens bestaan', met die lokomotief voor wat die res trek - af.wikipedia.org/wiki/Trein"
     },
     {
-      "bewering": "'n Wa se wiele sak weg in die sand en modder van 'n gewone pad. Die osse moet swaarder trek en die wa vorder stadig.",
+      "bewering": "'n Wa se wiele sak weg in die sand en modder van 'n gewone pad. ... Die harde spoor dra die gewig en die wiel sak nie weg nie.",
       "blok": "Hoekom loop 'n trein op spore?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Rolling resistance: die rolweerstandskoeffisient op grond is 0,15 en hoer, teenoor 0,0002-0,0010 vir 'n staalwiel op 'n staalspoor. The Heritage Portal, Transport Riders in the Eastern Cape: transportryers het met 'bad roads' en 'treacherous terrain' geworstel en maande oor lang afstande geneem. https://en.wikipedia.org/wiki/Rolling_resistance ; https://www.theheritageportal.co.za/article/transport-riders-eastern-cape"
-    },
-    {
-      "bewering": "'n Trein se wiele loop op twee gladde stawe langs mekaar. Die harde spoor dra die gewig en die wiel sak nie weg nie.",
-      "blok": "Hoekom loop 'n trein op spore?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, Railway track: spore is warmgerolde staal met 'n gladde loopvlak; hulle gee 'n gelyk oppervlak met baie min wrywing en dra die las oor dwarsliggers en ballas na die grond. https://en.wikipedia.org/wiki/Railway_track"
+      "bron": "Die hele rede vir spore: 'The advantage of wagonways was that far heavier loads could be transported with the same power compared to horse haulage along roads', deur veel laer rolweerstand van ysterwiele op ysterspore. en.wikipedia.org/wiki/Wagonway; en.wikipedia.org/wiki/Horsecar"
     },
     {
       "bewering": "Die spoor hou die trein ook netjies op een pad.",
       "blok": "Hoekom loop 'n trein op spore?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Trackopedia, Track guidance, en Railway Engineering Compendium hfst. 10: die koniese loopvlak stuur die wielstel en die flens hou die wielstel binne die spoorwydte. Die les gee nie die meganisme nie, maar die bewering self is korrek. https://www.trackopedia.com/en/encyclopedia/railway-system/track-guidance ; https://jernbaneteknologi.no/en/chapters/10-wheel-rail-interaction/"
+      "bron": "Reg. Die werklike meganisme is die flens aan die wiel op die gladde ysterspoor - Stephenson se Blucher by Killingworth was 'the first to use flanged wheels on smooth iron rails' (networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/). Aangeteken sonder om dit 'n fout te noem: die les noem nie die flens of die dwarslegger nie, dus se die teks wel DAT die spoor die trein op een pad hou maar nie waarmee nie. Dit is 'n weglating, geen onwaarheid nie."
     },
     {
       "bewering": "Daarom trek een enjin 'n vrag wat 'n span osse op 'n pad nie sou roer nie.",
       "blok": "Hoekom loop 'n trein op spore?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Ox-wagon: die swaarste SA transportwa het 6-8 lang ton gedra met 16-18 osse. Museum Wales en IMechE oor Trevithick se 1804-enjin: een enjin het 10 ton yster, vyf waens en omtrent 70 mense getrek - en dit was die heel vroegste. Latere stoomtreine het honderde ton getrek. https://en.wikipedia.org/wiki/Ox-wagon ; https://museum.wales/blog/2189/Birth-of-the-Railway-Locomotive/"
+      "bron": "Die grootte-orde klop: op spore trek een perd omtrent 10 ton teenoor omtrent 1 ton op 'n grondpad (en.wikipedia.org/wiki/Wagonway), en 'n lokomotief van 1830 het tienmale meer as dit getrek. Ek het spesifiek getoets of die sin die voordeel aan die verkeerde ding toeskryf: nee - die 'Daarom' verwys terug na die spoor, en dit is korrek, want die wins kom van die spoor en nie van die stoom nie. Dit is ook waarom perde al sowat twee eeue lank voor die stoomlokomotief karre op spore getrek het (Wollaton-wagonway 1603-04), en die les weerspreek dit nerens nie."
     },
     {
       "bewering": "Reeds in 1804 het 'n stoomenjin in Brittanje 'n vrag op spore getrek.",
       "blok": "George Stephenson",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Museum Wales, Birth of the Railway Locomotive, en IMechE Archives: op 21 Februarie 1804 het Richard Trevithick se Penydarren-enjin 10 ton yster, vyf waens en omtrent 70 mense oor 9 myl in Merthyr Tydfil, Wallis (deel van Brittanje) getrek. Die les eis nie 'die eerste' nie en is dus veilig geformuleer, en die gebeurtenis self is goed gedokumenteer. https://museum.wales/blog/2189/Birth-of-the-Railway-Locomotive/ ; https://archives.imeche.org/archive/artefacts/trevithick-rail-section"
+      "tipe": "datum",
+      "bron": "Richard Trevithick se Penydarren-lokomotief loop op 21 Februarie 1804 by Merthyr Tydfil in Wallis (dus Brittanje) en sleep 10 ton yster en 'n klomp passasiers omtrent 9,75 myl langs die Merthyr-tremspoor. museum.wales/collections/online/object/3725ef7b-e7b3-3490-97df-8a54c0f475ff/Trevithicks-Penydarren-locomotive/; guinnessworldrecords.com/world-records/454107-first-steam-locomotive-to-run-on-rails. Die les se 'reeds in 1804' maak geen 'eerste'-aanspraak nie en is daarom veilig gestel."
+    },
+    {
+      "bewering": "[Blokopskrif] George Stephenson + 'Reeds in 1804 het 'n stoomenjin in Brittanje 'n vrag op spore getrek.'",
+      "blok": "George Stephenson",
+      "status": "weerspreek",
+      "tipe": "naam",
+      "bron": "Geen sin se dit, maar die rangskikking se dit: 'n blok wat Stephenson se naam dra en oopmaak met 'n naamlose stoomenjin wat in 1804 'n vrag getrek het, laat 'n negejarige daardie prestasie aan Stephenson toeskryf. Dit was Richard Trevithick s'n (museum.wales/blog/2189/Birth-of-the-Railway-Locomotive/). Stephenson is in 1781 gebore, het in 1804 niks daarmee te doen gehad nie, en het sy eerste lokomotief, Blucher, eers in 1814 by Killingworth gebou (networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/). Die 'later' in die volgende sin is die enigste ding wat dit keer, en dit kan net so maklik as 'later in sy lewe' gelees word. Die 'hy' in die blok se laaste sin versterk dit, want die hele blok lees dan as Stephenson se storie van 1804 tot 1830.",
+      "regstelling": "Die enjin wat in 1804 'n vrag op spore getrek het, was nie George Stephenson s'n nie. Of die 1804-sin moet die maker noem (Richard Trevithick, by die Penydarren-ystergietery naby Merthyr Tydfil), of dit moet uit die blok met Stephenson se naam uit skuif, sodat die leser nie die prestasie aan Stephenson gee nie."
     },
     {
       "bewering": "George Stephenson het later gehelp om die spoorlyn tussen Liverpool en Manchester te bou.",
       "blok": "George Stephenson",
       "status": "bevestig",
       "tipe": "naam",
-      "bron": "Science and Industry Museum, First in the world: Stephenson is in 1826 as hoofingenieur van die Liverpool and Manchester Railway aangestel. Institution of Civil Engineers oor dieselfde lyn. 'Gehelp om te bou' is eerder onder- as oorgestel. https://www.scienceandindustrymuseum.org.uk/objects-and-stories/making-the-liverpool-and-manchester-railway ; https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/liverpool-and-manchester-railway"
+      "bron": "Stephenson was hoofingenieur van die Liverpool & Manchester Railway, met Joseph Locke as assistent. networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/; britannica.com/topic/Liverpool-and-Manchester-Railway. Die les se 'gehelp om te bou' is die versigtige vorm en is reg."
     },
     {
       "bewering": "Daardie lyn het in 1830 oopgemaak en het mense sowel as vrag gedra.",
       "blok": "George Stephenson",
       "status": "bevestig",
       "tipe": "datum",
-      "bron": "The Gazette, The opening of the Liverpool and Manchester Railway, 1830: die lyn het op 15 September 1830 oopgemaak, passasiers het twee dae later gery en goedere vanaf 1 Desember 1830 - albei dus in 1830. Britannica: die lyn is ontwerp om beide passasiers en goedere te vervoer. https://www.thegazette.co.uk/all-notices/content/100741 ; https://www.britannica.com/topic/Liverpool-and-Manchester-Railway"
+      "bron": "Die lyn open op 15 September 1830 en was 'a public carrier of both passengers and freight'. britannica.com/topic/Liverpool-and-Manchester-Railway; networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/; warwick.ac.uk/fac/arts/history/ecc/archive/emforum/projects/adayinhistory/15september1830"
     },
     {
       "bewering": "Mense kon 'n kaartjie koop en op 'n vaste tyd ry.",
       "blok": "George Stephenson",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Science and Industry Museum: die Liverpool and Manchester was die eerste ten volle geroosterde spoorlyn en die eerste betalende passasierslyn tussen twee stede. Wikipedia, History of rail transport in Great Britain to 1830: 'all the trains were timetabled'. https://www.scienceandindustrymuseum.org.uk/objects-and-stories/making-the-liverpool-and-manchester-railway ; https://en.wikipedia.org/wiki/History_of_rail_transport_in_Great_Britain_to_1830"
+      "bron": "Albei helftes klop. Vaste tye: eersteklastreine het om 07:00, 10:00, 14:00 en 17:00 vertrek, tweedeklastreine om 07:30, 13:00 en 17:30 - die eerste ten volle geskeduleerde spoordiens. Kaartjies: passasiers het handgeskrewe kaartjies by 'n agent gekoop en dit in die besprekingsaal vir 'n teenfoelie omgeruil. scienceandindustrymuseum.org.uk/objects-and-stories/introducing-liverpool-road-station; en.wikipedia.org/wiki/Crown_Street_railway_station; blog.railwaymuseum.org.uk/fares-fare/"
     },
     {
       "bewering": "So het hy gewys dat 'n stoomspoorlyn as 'n gewone diens kan werk.",
       "blok": "George Stephenson",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "Dit is die versagte vorm wat die bronne dra: Stephenson het nie die stoomlokomotief uitgevind nie (Trevithick 1804, Blenkinsop 1812, Puffing Billy), maar hy was hoofingenieur van die lyn wat as 'n geroosterde, kaartjie-verkopende diens gewerk het. Science and Industry Museum; Britannica, Liverpool and Manchester Railway. https://www.scienceandindustrymuseum.org.uk/objects-and-stories/making-the-liverpool-and-manchester-railway ; https://www.britannica.com/topic/Liverpool-and-Manchester-Railway"
+      "bron": "Hierdie is die risikosoort waar 'n skrywer maklik 'die eerste spoorlyn' sou skryf, en die les doen dit nie. Die Liverpool & Manchester was 'the first fully timetabled railway service with scheduled freight and passenger traffic relying entirely on the steam locomotive for traction' - dus is 'gewys dat dit as 'n gewone diens kan werk' presies reg. Dit was nie die eerste openbare stoomspoorlyn nie (Stockton & Darlington, 1825, ook Stephenson s'n), en die les eis dit ook nie. britannica.com/topic/Liverpool-and-Manchester-Railway; networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/"
     },
     {
-      "bewering": "Voor die trein het diere en mense self die trekwerk gedoen.",
-      "blok": "Wat verander het",
-      "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "National Coal Mining Museum, The Rise of the Steam Engine: Savery se enjin is in 1698 gepatenteer en Newcomen se suierenjin is in of net voor 1712 in 'n myn geinstalleer, om water uit myne te pomp; die museum noem dit omtrent 'n eeu voor stoom vir vervoer gebruik is. Wikipedia, Steam power during the Industrial Revolution: Watt se enjins het vanaf die 1770's masjiene in meulens en fabrieke gedryf. https://www.ncm.org.uk/news/the-rise-of-the-steam-engine/ ; https://en.wikipedia.org/wiki/Steam_power_during_the_Industrial_Revolution",
-      "regstelling": "Waar is dat diere en mense die trekwerk OP PAD gedoen het - nie dat daar voor die trein geen enjins was wat werk gedoen het nie. Stoomenjins het al omtrent honderd jaar voor 1804 water uit myne gepomp en masjiene in fabrieke gedryf; die nuwe ding in 1804 was dat so 'n enjin op spore gesit is om 'n vrag te trek. Dit is die een plek waar die les as geheel iets leer wat geen sin uitdruklik se nie: 1804 is die vroegste datum in die les, die stoomenjin word van die eerste blok af net as 'n trein se enjin beskryf ('Sit hierdie enjin op wiele en op spore, en jy het 'n lokomotief'), en hierdie sin sluit die prentjie toe. 'n Negejarige loop weg met die idee dat die stoomenjin saam met die trein gebore is. Vernou die kwantifiseerder (trekwerk op pad / vervoer oor land) en laat die les erens se dat stoomenjins lankal in myne en fabrieke gewerk het voordat iemand een op spore gesit het."
-    },
-    {
-      "bewering": "Een trein kon baie meer mense en baie meer vrag in een keer dra.",
+      "bewering": "Voor die trein het diere en mense die trekwerk op die paaie gedoen. Nou het 'n enjin die trein getrek, en nie 'n dier of 'n mens nie.",
       "blok": "Wat verander het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Ox-wagon (6-8 lang ton per wa) teenoor Museum Wales oor Trevithick se 1804-enjin (10 ton plus vyf waens plus omtrent 70 mense) en Britannica, Liverpool and Manchester Railway. https://en.wikipedia.org/wiki/Ox-wagon ; https://museum.wales/blog/2189/Birth-of-the-Railway-Locomotive/"
+      "bron": "Reg, en spesifiek getoets op 'n moontlike vals teenstelling. Die sin is netjies tot 'op die paaie' beperk, wat belangrik is, want op SPORE het perde al sedert die vroeg-1600's getrek (Wollaton-wagonway 1603-04, Tanfield 1725) en Trevithick se enjin van 1804 het self op 'n bestaande perdetremspoor geloop. Omdat die les sy stelling tot paaie beperk, weerspreek dit dit nie. en.wikipedia.org/wiki/Wagonway; en.wikipedia.org/wiki/Merthyr_Tramroad"
     },
     {
-      "bewering": "Die trein het ook vinniger en verder gery as wat 'n span osse 'n wa kon trek.",
+      "bewering": "Een trein kon baie meer mense en baie meer vrag in een keer dra. Die trein het ook vinniger en verder gery as wat 'n span osse 'n wa kon trek.",
       "blok": "Wat verander het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Britannica: Stephenson se Rocket het in 1829 teen omtrent 58 km/h gery. Afrikaanse Wikipedia, Ossewa: waens het 'net 'n paar kilometer elke dag' afgele; The Heritage Portal: transportryers het maande oor lang afstande geneem. https://www.britannica.com/topic/Liverpool-and-Manchester-Railway ; https://af.wikipedia.org/wiki/Ossewa ; https://www.theheritageportal.co.za/article/transport-riders-eastern-cape"
+      "bron": "Op die Liverpool-Manchester-roete het die perdekoets 4 uur geneem en die trein 1 uur 45 minute vir dieselfde pad, en die trein het nog boonop vrag in dieselfde ritte gedra. scienceandindustrymuseum.org.uk/objects-and-stories/introducing-liverpool-road-station; britannica.com/topic/Liverpool-and-Manchester-Railway"
     },
     {
       "bewering": "Spoorlyne het hawens met plekke diep in die binneland verbind.",
       "blok": "Wat spoorlyne aan 'n land gedoen het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Cape Government Railways: die regering se plan van 1872 was lyne wat noordwaarts uit die drie hawens Kaapstad, Port Elizabeth en Oos-Londen na Kimberley en die binneland moes trek, om die binneland se dorpe in direkte spoorverbinding met die hawens te bring. https://en.wikipedia.org/wiki/Cape_Government_Railways"
-    },
-    {
-      "bewering": "Myne en plase kon hulle vrag tot by die hawe stuur.",
-      "blok": "Wat spoorlyne aan 'n land gedoen het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, Rail transport in South Africa en Cape Government Railways: uitbreiding het versnel met die diamante by Kimberley en goud aan die Witwatersrand, en het myne aan hawens vir uitvoer gekoppel. https://en.wikipedia.org/wiki/Rail_transport_in_South_Africa ; https://en.wikipedia.org/wiki/Cape_Government_Railways"
+      "bron": "Ook plaaslik waar: van 1874 af bou die Kaapse regering 'n staatspoornet wat die hawens Kaapstad, Port Elizabeth, Port Alfred en Oos-Londen met die binneland en met Kimberley verbind; na 1886 loop die belangrikste lyne van die kushawens na Johannesburg. en.wikipedia.org/wiki/Cape_Government_Railways; britannica.com/place/South-Africa/Transportation-and-telecommunications"
     },
     {
       "bewering": "Dorpe het by stasies gegroei waar die treine gestop het.",
       "blok": "Wat spoorlyne aan 'n land gedoen het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Railway town: 'n spoorwegdorp is 'n nedersetting wat ontstaan of uitgebrei het omdat 'n spoorlyn daar gebou is; erwe naby die stasie is verkoop en stasies is op gereelde afstande geplaas. https://en.wikipedia.org/wiki/Railway_town"
+      "bron": "Suid-Afrikaanse voorbeelde staaf dit reguit: Noupoort 'owes its existence to its historical importance as a railway junction' (karoo-southafrica.com/eastern-upper-karoo/noupoort/), Touws River 'owes its existence to the railway' (en.wikipedia.org/wiki/Touws_River_(town)), en Machadodorp is langs die Nelspruit-Delagoabaai-lyn gestig (en.wikipedia.org/wiki/Machadodorp). Alicedale en De Aar is verdere spoorwegdorpe."
     },
     {
-      "bewering": "'n Trein kan net ry waar iemand spore gele het. Hy stop by die stasie en nie voor jou deur nie.",
+      "bewering": "'n Trein kan net ry waar iemand spore gelê het. Hy stop by die stasie en nie voor jou deur nie. 'n Wa of 'n dier moes die vrag die laaste ent tot by die deur bring.",
       "blok": "Wat dieselfde gebly het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Railway track en Railway Technical Website, Trains: 'n trein is aan die spoor gebonde en stop by aangewese stasies. https://en.wikipedia.org/wiki/Railway_track ; http://www.railway-technical.com/trains/"
+      "bron": "Reg. 'n Trein is per definisie aan 'n spoor gebonde (af.wikipedia.org/wiki/Trein), en die kort laaste skakel is histories met perd- en oswaens gedoen; die Liverpool & Manchester het selfs 'n perde-omnibus tussen sy kantoor in Dale Street en die stasie geloop. scienceandindustrymuseum.org.uk/objects-and-stories/introducing-liverpool-road-station"
     },
     {
-      "bewering": "'n Wa of 'n dier moes die vrag die laaste ent tot by die deur bring. Daardie laaste ent van die reis het nog lank dieselfde gebly.",
-      "blok": "Wat dieselfde gebly het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "The Heritage Portal, Transport Riders in the Eastern Cape: transportryers het eers met die koms van spoorlyne en daarna motorvoertuie in die vroee 20ste eeu begin verdwyn - die wa het dus nog lank na die spoorlyn die laaste ent gedoen. Afrikaanse Wikipedia, Ossewa: goedere is per ossewa van Kaapstad na Kimberley en binne die binneland vervoer. https://www.theheritageportal.co.za/article/transport-riders-eastern-cape ; https://af.wikipedia.org/wiki/Ossewa"
-    },
-    {
-      "bewering": "Die vergelyking as geheel: 'Dink aan 'n pot water wat op 'n vuur kook. Die stoom lig die deksel op en glip daaronder uit' teenoor die enjin waar die stoom 'teen 'n suier stoot'.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
-      "status": "weerspreek",
-      "tipe": "analogie",
-      "bron": "steamlocomotives.org, How a Steam Locomotive Works: 'Used steam is funnelled up the blastpipe and out through the chimney.' Wikipedia, Blastpipe en Steam locomotive exhaust system: die gebruikte stoom word by elke slag deur die klep uit die silinder gelaat en blaas by die skoorsteen uit - dit is die tjoef-geluid, en die uitblaas trek boonop die vuur aan. https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works ; https://en.wikipedia.org/wiki/Blastpipe",
-      "regstelling": "Die blok sien vier verskille tussen die beeld en die masjien self raak en se hulle hardop: die vuur brand binne die ketel en nie onder die pot nie, die ketel is toe en sy wande is sterk, die stoom druk daarom baie harder, en die vuur en water bly agter by die ketel. Die vyfde verskil - die belangrikste een vir hoe die masjien werk - word stilweg aan die kind oorgedra. In die pot ontsnap die stoom self onder die deksel uit en is dan weg; dit is die pot se antwoord op 'waarheen gaan die stoom'. In die enjin is daardie pad toe, want die suier maak die silinder styf toe (die les se eie begrip-inskrywing se so). Die gebruikte stoom moet doelbewus deur 'n klep uitgelaat word en blaas by die skoorsteen uit, en eers dan kan die suier terugkom. Die les se nerens dat die stoom die silinder verlaat nie, maar beweer wel dat die suier 'van die een kant na die ander' gaan en dat 'elke stoot' die wiel verder draai. 'n Kind wat die beeld volg, sit met stoom wat agter 'n vasgeklemde suier ophoop. Die ware bewering wat hierdie gaping toemaak: die stoom wat die suier gestoot het, word by 'n klep uit die silinder gelaat en blaas by die skoorsteen uit, en dit is waarom die suier keer op keer kan stoot."
-    },
-    {
-      "bewering": "Die ketel se water le rondom en bo daardie kas.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, Firebox (steam engine): in 'n gewone lokomotiefketel is die vuurkas deur water omring, behalwe aan die onderkant; die binneste kas sit binne 'n buitemantel met 'n waterruimte van 75-100 mm tussenin, en die kroonplaat bo het water bo-op. Die les se 'rondom en bo' pas presies daarby. https://en.wikipedia.org/wiki/Firebox_(steam_engine)"
-    },
-    {
-      "bewering": "Die ketel is toe en sy wande is sterk. Die stoom druk daarom baie harder as in die pot.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
-      "status": "bevestig",
-      "tipe": "getal",
-      "bron": "steamlocomotives.org: 'n lokomotiefketel hou stoom teen omtrent 200-250 psi; UK-vuurpypketels het tussen 150 en 280 psi gewerk. 'n Oop pot op die stoof bly by lugdruk (omtrent 0 psi meter). Die 'baie harder' is dus eerder onder- as oorgestel. https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works ; https://en.wikipedia.org/wiki/High-pressure_steam_locomotive"
-    },
-    {
-      "bewering": "Die stoom lig die deksel op en glip daaronder uit.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Britannica, Steam: stoom is die gas waarin kokende water verander en dit oefen druk uit; die stoom in 'n kookpot lig die deksel en ontsnap daaronder uit. Dit is waarneembaar en korrek. Let op dat die wit wolkie wat 'n kind sien eintlik reeds gekondenseerde druppeltjies is - die les se dit nie, maar se ook niks valsliks daaroor nie. https://www.britannica.com/science/steam"
-    },
-    {
-      "bewering": "Die vuur en die water bly agter by die ketel.",
-      "blok": "eli10 (vir: Wat 'n stoomenjin is)",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "steamlocomotives.org: die vuur bly in die vuurkas en die water in die ketelvat; net die stoom gaan deur die reguleerder en pype na die silinders. Die sin doen presies die werk wat 'n analogie-blok moet doen - dit keer die wanindruk dat die vuur saam met die stoom reis. https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works"
-    },
-    {
-      "bewering": "Begrip 'stoom': Water wat so warm word dat dit in 'n gas verander.",
+      "bewering": "stoom: Water wat so warm word dat dit in 'n gas verander.",
       "blok": "begrip: stoom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Britannica, Steam: 'odourless, invisible gas consisting of vaporized water'. Alleen gelees pas die inskrywing op niks anders nie: dit is 'n korrekte, volledige beskrywing van stoom en dit noem niks wat net binne hierdie les waar is nie. https://www.britannica.com/science/steam"
+      "bron": "Alleen gelees en getoets op wat dit nog pas: dit is 'n korrekte omskrywing van stoom as water in gasvorm, en dit staan aan die regte kant van die algemene wanbegrip dat die wit wolkie by 'n ketel se tuit stoom is (daardie wolkie is reeds gekondenseerde druppels). Dit pas ook op waterdamp uit verdamping, wat ook water as gas is, dus geen valse toepassing nie. van.physics.illinois.edu/ask/listing/1734; afcsteamtraps.com/index.php/steam/"
     },
     {
-      "bewering": "Begrip 'ketel': Die sterk houer waarin water gekook word om stoom onder druk te maak.",
+      "bewering": "ketel: Die sterk houer waarin water gekook word om stoom onder druk te maak.",
       "blok": "begrip: ketel",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "steamlocomotives.org en Wikipedia, Firebox (steam engine): die ketel is die drukhouer wat die water kook en die stoom onder druk hou. Alleen gelees hou dit ook: 'sterk' en 'onder druk' sluit 'n gewone kombuisketel uit, wat wel water kook maar die stoom vrylik laat ontsnap. Dit pas ook op 'n drukkastrol, en dit is nie verkeerd nie - dit is dieselfde soort houer. https://www.steamlocomotives.org/how-railways-work/how-a-steam-locomotive-works"
+      "bron": "Alleen gelees: korrek vir 'n stoomketel, en die woorde 'sterk' en 'onder druk' skei dit van die alledaagse Afrikaanse 'ketel' (die teeketel), wat nie onder druk werk nie. en.wikipedia.org/wiki/Boiler_(power_generation); nationalboard.org/index.aspx?pageID=164&ID=218. Dit pas ook op 'n drukkoker, maar 'n drukkoker is nie 'n teenvoorbeeld wat 'n leerder mislei nie."
     },
     {
-      "bewering": "Begrip 'vuurkas': Die kas binne die ketel waarin die enjin se vuur brand.",
+      "bewering": "vuurkas: Die kas binne 'n lokomotief se ketel waarin die vuur brand.",
       "blok": "begrip: vuurkas",
       "status": "weerspreek",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Firebox (steam engine): 'fireboxes are not always inside the boiler'; dit is so in 'n lokomotief se vuurpypketel, maar Newcomen- en Watt-enjins se waenketels is van onder af, van buite, gestook. https://en.wikipedia.org/wiki/Firebox_(steam_engine) ; https://en.wikipedia.org/wiki/Watt_steam_engine",
-      "regstelling": "Dieselfde fout as in die eerste studieblok, en hier erger, want 'n begrip-inskrywing word alleen opgesoek. Alleen gelees se 'die enjin se vuur' enige enjin, en dan is die inskrywing vals: nie elke stoomenjin se vuur brand binne die ketel nie. Vernou dit na die masjien waaroor die les gaan - die kas binne 'n lokomotief (of trein) se ketel waarin die enjin se vuur brand. Maak albei plekke reg, nie net een nie."
+      "bron": "Alleen gelees, soos gevra. Alles wat die inskrywing oor 'n lokomotief se vuurkas se, is reg. Maar sy omskryf die WOORD asof dit 'n lokomotiefonderdeel is, en dit is dit nie: 'n vuurkas is die algemene stoomenjinwoord vir waar die brandstof brand - 'In a steam engine, the firebox is the area where the fuel is burned, producing heat to boil the water in the boiler' (en.wikipedia.org/wiki/Glossary_of_boiler_terms). Vuurkaste sit ook in padlokomotiewe en trekenjins, in skeepsketels (bv. die Skotse ketel se binne-vuurkas) en in staanketels (bv. die Lancashire-ketel, waar die vlampype self die vuurkas vorm) - en.wikipedia.org/wiki/Firebox_(steam_engine). Twee koste: (1) die les se eerste blok praat van ''n vuur wat 'n ketel vol water warm maak' by enige stoomenjin, en die leerder kan nie die woordelys gebruik om daardie vuur se kas te benoem nie, want die woordelys se dit is 'n lokomotiefding; (2) dieselfde graad se stoomskeepwerk gebruik dieselfde woord, en 'n leerder wat dit dan opsoek kry 'n antwoord wat se dit hoort by 'n lokomotief.",
+      "regstelling": "'n Vuurkas is die kas waarin 'n stoomenjin se vuur brand om die ketel se water warm te maak - nie net 'n lokomotief s'n nie. Die lokomotief-besonderheid (die kas sit binne die ketel, met water rondom en bo) staan reeds in die studieteks en hoort daar; die begrip-inskrywing moet die woord self omskryf."
     },
     {
-      "bewering": "Begrip 'suier': 'n Stewige skyf wat 'n silinder styf toemaak en daarin skuif.",
+      "bewering": "suier: 'n Stewige skyf wat 'n silinder styf toemaak en daarin skuif.",
       "blok": "begrip: suier",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Piston rod en Crankpin: die suier sluit die silinder af en skuif daarin, en dra sy stoot deur die suierstang. Alleen gelees pas dit ook op 'n spuit se stamper en 'n fietspomp se suier - albei is werklik suiers, so die inskrywing gaan nie verkeerd wanneer dit alleen staan nie. https://en.wikipedia.org/wiki/Piston_rod"
+      "bron": "Alleen gelees en getoets op wat dit nog pas: dit pas op 'n spuitnaald se stamper en 'n fietspomp se stamper, en dit is reg, want daardie is ook suiers. Geen verkeerde toepassing nie. trains.com/trn/train-basics/abcs-of-railroading/how-a-steam-locomotive-works/; en.wikibooks.org/wiki/Steam_Locomotive_Operation"
     },
     {
-      "bewering": "Begrip 'stoomenjin': 'n Masjien wat die druk van stoom in beweging verander.",
+      "bewering": "stoomenjin: 'n Masjien wat die druk van stoom in beweging verander.",
       "blok": "begrip: stoomenjin",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Britannica, Steam engine: 'n masjien wat die energie van stoom in meganiese werk omsit. Alleen gelees is dit korrek en behoorlik algemeen - dit pas net so goed op 'n mynpomp as op 'n lokomotief, wat reg is. Dit is juis hierdie inskrywing wat wys dat die eerste studieblok se openingsin te nou is. https://www.britannica.com/technology/steam-engine"
+      "bron": "Alleen gelees: akkuraat en breed genoeg om ook stoomturbines in te sluit, wat reg is. en.wikipedia.org/wiki/Steam_engine. Aangeteken sonder om dit 'n fout te noem: die inskrywing trek die grens van die woord om die silinder-en-suier, terwyl die studieteks se ''n Stoomenjin begin by 'n vuur', wat die vuur en ketel insluit. Albei gebruike is gangbaar en nie een is onwaar nie."
     },
     {
-      "bewering": "Begrip 'lokomotief': Die enjin op wiele wat die trein op die spore trek.",
+      "bewering": "lokomotief: Die enjin op wiele wat die trein op die spore trek.",
       "blok": "begrip: lokomotief",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Afrikaanse Wikipedia, Trein: die lokomotief bevat die kragbron en sleep die res van die trein agterna. Alleen gelees hou dit ook vir 'n diesel- of elektriese lokomotief, wat korrek is, en dit sluit 'n motortreinstel (wat self passasiers dra en niks trek nie) uit. https://af.wikipedia.org/wiki/Trein ; https://en.wikipedia.org/wiki/Steam_locomotive"
+      "bron": "Alleen gelees: korrek, en dit is goed dat dit nie 'stoom' se nie, want diesel- en elektriese lokomotiewe val ook onder die woord. af.wikipedia.org/wiki/Trein; af.wikipedia.org/wiki/Stoomlokomotief. Klein randgeval wat nie 'n leerder mislei nie: lokomotiewe stoot soms ook (help-lokomotiewe agter 'n trein)."
     },
     {
-      "bewering": "Begrip 'spoor': Die twee gladde stawe waarop 'n trein se wiele loop.",
+      "bewering": "spoor: Die twee gladde stawe waarop 'n trein se wiele loop.",
       "blok": "begrip: spoor",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia, Railway track: die spore is die parallelle staalstawe wat die trein lei en waarop die wiele loop, met 'n gladde loopvlak. Alleen gelees laat die inskrywing die dwarsliggers en ballas uit, maar dit se niks valsliks nie en pas op niks anders nie. https://en.wikipedia.org/wiki/Railway_track"
+      "bron": "Alleen gelees en getoets op wat dit nog pas: 'spoor' beteken in Afrikaans ook 'n dier se voetspoor of 'n paadjie, en die inskrywing sluit dit uit deur ''n trein se wiele' te noem, dus geen verkeerde toepassing nie. Die beskrywing self klop - Stephenson se Blucher was 'the first to use flanged wheels on smooth iron rails' (networkrail.co.uk/who-we-are/our-history/eminent-engineers/george-stephenson-1781-1848/). Aangeteken sonder om dit 'n fout te noem: 'n spoor bestaan uit meer as die twee stawe (dwarsleggers hou hulle op maat), en die les se stelling dat die spoor die trein 'op een pad hou' rus juis op die dwarsleggers en die wielflens, wat nerens genoem word nie."
     }
   ],
-  "opsomming": "Al die datums, name en getalle klop (Trevithick 1804, Stephenson, die Liverpool-Manchester-lyn van 1830, kaartjies en 'n vaste rooster) en die les vermy verstandig elke 'eerste', maar drie dinge moet reggemaak word: die les leer 'n negejarige, sonder om dit ooit te se, dat die stoomenjin saam met die trein begin het terwyl stoomenjins omtrent 'n eeu vroeer al water uit myne gepomp en fabrieksmasjiene gedryf het; twee plekke (die eerste studieblok se openingsin en die begrip 'vuurkas') beskryf 'n trein se ketel asof elke stoomenjin se vuur binne sy ketel brand; en die pot-en-deksel-vergelyking noem vier verskille tussen die beeld en die masjien maar nie die vyfde nie, naamlik dat die gebruikte stoom by 'n klep uit die silinder gelaat word en by die skoorsteen uitblaas - sonder dit kan die suier nie terugkom soos die les se hy doen nie."
+  "opsomming": "Al die datums, name, plekke en die lokomotief se meganika is nagegaan en klop, maar drie dinge moet terug: die les stel die stoomenjin wat water uit myne gepomp het en die lokomotief se enjin as een masjien voor ('Sit hierdie enjin op wiele') terwyl hulle verskillende masjiene bykans 'n eeu uitmekaar is, wat die les se eie 'lank voor die trein' uitvee en 'n negejarige laat dink die twee het saam ontstaan; die 1804-prestasie staan onder die opskrif 'George Stephenson' sonder maker en lees dus as syne, terwyl dit Richard Trevithick s'n was; en die begrip-inskrywing 'vuurkas' omskryf 'n algemene stoomenjinwoord asof dit net by lokomotiewe hoort."
 }
