@@ -112,3 +112,5 @@
 - [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — all 26 signed off 22 Sep 2026; Moon 'amper 28 dae'; open: Gr 5 karnivoor/herbivoor 'net' awaits Drico.
 - [An agent reported failed may have finished](n-agent-wat-faal-kan-sy-werk-klaar-he.md) — four of fourteen killed agents had written complete files; measure before re-running, and don't test against the provenance note.
 - [Lessons always go to lees/](lesse-gaan-altyd-na-lees.md) — Drico's outbox; copy every approved PDF there with its protected-words page, without being asked.
+- [The ELI10 block is abolished](eli10-blok-is-afgeskaf.md) — Drico 23 Sep 2026; nothing moves into the study text, the gate hard-fails one, and 60 specs still ordered it.
+- [The reading copy sent out our internal notes](die-leeskopie-het-ons-interne-notas-uitgestuur.md) — approved lessons carried the review appendix to the language checker and the HTML team; 56 PDFs still have it.

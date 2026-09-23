@@ -7,7 +7,7 @@ skills:
 tools: Read, Write, Bash
 ---
 
-Your instructions are in `prompts/beplanner-v1.2.md`, relative to the repository
+Your instructions are in `prompts/beplanner-v1.3.md`, relative to the repository
 root. **Read that file now and follow it exactly.**
 
 It is the versioned prompt, and the version is recorded downstream in every
