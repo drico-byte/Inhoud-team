@@ -1,0 +1,136 @@
+{
+  "skema_weergawe": "1.0",
+  "status": "konsep",
+  "titel": "Drie soorte hulp wanneer iemand siek is",
+  "graad": 7,
+  "vak": "Lewensoriëntering",
+  "kaps_onderwerp": "Gesondheids-, sosiale en omgewingsverantwoordelikheid",
+  "kaps_punt": "Keuses ten opsigte van behandeling, versorging en ondersteuning; Beskikbare hulpbronne vir gesondheidsinligting en -dienste",
+  "woordelys": [
+    "behandeling",
+    "versorging",
+    "ondersteuning",
+    "gemeenskapsgesondheidswerker",
+    "ondersteuningsgroep",
+    "maatskaplike",
+    "gesondheidsdienste",
+    "gesondheidswerker",
+    "huismiddels",
+    "chronies",
+    "suikersiekte",
+    "epilepsie",
+    "kliniek",
+    "Childline",
+    "MIV"
+  ],
+  "herkoms": {
+    "kaps_dokument": "KABV Lewensoriëntering Graad 7-9 (Afrikaans), Graad 7 Kwartaal 4, weke 3-5 (3 uur): Algemene siektes. KABV-punt: keuses ten opsigte van behandeling, versorging en ondersteuning; beskikbare hulpbronne vir gesondheidsinligting en -dienste.",
+    "profiel_konfig": "gr7-lo-profiel.json",
+    "skrywer_prompt": "skrywer-v1.5",
+    "handboek_gesien": false,
+    "nota": "STAANDE REKORD VAN LES 12. Geen handboek, skandering, skermskoot, transkripsie of OCR-uitset is gesien of aangebied; niks van die aard het enige deel van hierdie les ingelig nie. Die spek se onderwerp_woorde is nul en dit is 'n feit, nie 'n gaping nie - daar bestaan geen gemete Graad 7-bron nie, en die 600-woordbegroting kom uit die inhoud (begroting_basis 'vereistes').\n\nGEEN eli10-BLOK (Drico, 23 September 2026; hek faal enige les wat een dra). WATTER VELD MY GEVRA HET: geen veld in LES 12 se eie inskrywing vra een nie - moeilike_konsepte is leeg en geen kern-item of feiterisiko hier noem 'n blok. Die verouderde opdragte staan op SPEK-VLAK en wys na ander lesse: moeilike_konsepte_besluit bestel steeds 'n eli10 vir lesse 1, 10 en 11, en die spek se eie eli10_afgeskaf-veld noem dat twee feiterisiko-velde (lesse 10 en 11) vra dat 'n eli10 se vergelyking nagegaan word. Al vyf is teruggetrek deur eli10_afgeskaf; hulle raak nie hierdie les nie, maar iemand moet hulle by die bron uithaal. Niks is na die studieteks geskuif nie, want hier was niks om te skuif nie.\n\nDRIE DINGE WAT DIE FEITETOETS HIER BESLEG HET, en nie een mag 'reggeskryf' word nie:\n(1) DIE REËL OOR ANDER MIDDELS DEK BYVOEG. Die blok 'Vertel die kliniek van alles wat jy ook neem' stel byvoeg eerste ('Dit geld veral vir iets wat later bygekom het nadat die behandeling al begin het'), want byvoeg is die gewone geval - nie net ophou of vervang nie. Die twee dele bly albei: VERTEL die kliniek van alles wat ook geneem word, en stop of vervang niks wat voorgeskryf is sonder om eers met die kliniek te praat nie. GEEN PLANT EN GEEN MIDDEL BY DIE NAAM. Die sin oor werking is doelbewus algemeen gestel ('Party middels verander hoe sterk 'n ander medisyne in die liggaam werk') sodat dit nie 'n hele praktyk afkraak nie en nie 'n leerder laat dink vervanging is veilig nie. 'huismiddels of tradisionele medisyne' staan as iets wat baie huise doen, nie as 'n fout nie.\n(2) TB. Die les skryf 'TB kan genees word' - nooit 'TB word genees' nie, en nooit met 'n voorwaarde oor wat die pasiënt gedoen het nie. Om die adjacency-risiko te vermy dra hierdie les die algemene reël (neem soos die kliniek sê, hou nie self op nie) sonder die TB-kuur se klaarmaak-stap; dié stap hoort by les 13, soos kern-item 2 self sê. 'MIV word behandel en nie genees nie' staan in dieselfde sin as die TB-feit en die twee woorde mag nie verwissel nie.\n(3) CHILDLINE. Enigste organisasie by die naam in hierdie les (Lampies, 23 September 2026), en geen nommer. Die studieteks dra die vaste Graad 7-bewoording uit die spek woord vir woord, insluitend 'gratis', 'dag en nag' en 'sy hoef nie vir 'n grootmens te vra om te bel nie'. Dit mag NOOIT 'sonder 'n grootmens' word nie - 'n dertienjarige lees dit as 'moenie vir 'n grootmens sê nie'. Die aanlyn geselsdiens word nie genoem nie, want 'dag en nag' geld net vir die telefoonlyn.\n\nTWEE GOEDGEKEURDE CHILDLINE-BEWOORDINGS BESTAAN EN ALBEI IS GEBRUIK, ELK WAAR DIT HOORT: die studieblok dra die omskrywende vorm uit die spek (gedeelde_omskrywings.verbreed_in_graad_7.childline.graad_7), want die lopende teks moet sê WAT Childline is; die begrip-inskrywing dra die vorm uit kaps/gedeelde-omskrywings-lewensorientering-gr7.json woord vir woord, want dit is die lys waarteen bin/woordelysdrif.py toets. Albei dra dieselfde drie feite en weerspreek mekaar nie. Moenie een van die twee na die ander toe 'versoen' sonder 'n besluit nie.\n\nWOORD VIR WOORD OORGENEEM, geen nuwe bewoording geskryf: 'medisyne', 'kliniek' en 'maatskaplike werker' uit kaps/gedeelde-omskrywings-lewensvaardighede-gr6.json, soos die spek se gedeelde_omskrywings vir les 12 aanwys.\n\nVIR DIE VOLGENDE SKRYWER OF VERSOENER: 'ondersteuningsgroep' word deur die spek se nuwe_terme aan LES 13 toegewys, maar kern-item 3 laat dit hier optree. Die begrip-inskrywing hier is nuut geskryf; les 13 moet dit woord vir woord kopieer, of die twee moet voor aflewering besleg word en in die Graad 7-lys beland. 'berader' word gebruik en NIE hier omskryf nie - les 5 voer dit in en besit die bewoording.\n\nWAT DOELBEWUS NIE GESKRYF IS NIE: geen telefoonnommer; geen ander organisasie, kliniek, hospitaal, skool of webtuiste by die naam; geen medisyne, soort medisyne of dosis by die naam; geen statistiek of persentasie; geen vraag in die lesteks. Dienste is oral versag ('in party plekke', 'by party skole'), want 'n gemeenskapsgesondheidswerker en 'n skoolberader is nie oral dieselfde nie. Niks word BELOWE wat 'n diens sal doen nie: die teks sê wat 'n mens kan VRA en wat elke soort helper doen, nooit wat hy sal kry nie.\n\nARMOEDE staan soos die spek vereis - as iets wat keuses kleiner maak ('Vir party gesinne is die kliniek ver en die taxi duur, en dit maak die keuses kleiner'), nooit as 'n gebrek by mense met min geld nie. REGISTER: geen mens word 'n SOORT mens genoem - 'n mens met suikersiekte, nooit 'n lyer nie."
+  },
+  "blokke": [
+    {
+      "tipe": "studie",
+      "kop": "Drie woorde wat nie dieselfde ding beteken nie",
+      "teks": "Wanneer iemand in die huis siek word, dink 'n mens eerste aan medisyne. Medisyne is egter net een van die drie dinge wat 'n siek mens nodig het. Behandeling is wat die kliniek of die dokter aan die siekte doen en die medisyne wat geneem word. Versorging is die daaglikse sorg by die huis wat aangaan lank nadat die kliniek se deur toegaan. Dit is die kos en die rus en die skoon klere en die ritte na elke afspraak. Ondersteuning is die mense wat luister en help en bly bystaan wanneer die siekte lank duur. 'n Mens kan die regte medisyne kry en steeds swaar kry sonder versorging en ondersteuning."
+    },
+    {
+      "tipe": "studie",
+      "kop": "Vroeg gaan en vra totdat jy verstaan",
+      "teks": "Vroeg by die kliniek kom is byna altyd beter as om te wag en te hoop. By die kliniek kan 'n mens vra wat die siekte is en wat die medisyne in die liggaam doen. Vra weer en vra anders totdat die antwoord duidelik is. Neem die medisyne presies soos die kliniek sê en hou nie self op wanneer jy beter voel nie. Gaan terug vir elke afspraak, ook wanneer niks meer verkeerd voel nie. Vir party gesinne is die kliniek ver en die taxi duur, en dit maak die keuses kleiner."
+    },
+    {
+      "tipe": "studie",
+      "kop": "Vertel die kliniek van alles wat jy ook neem",
+      "teks": "Baie huise gebruik ook huismiddels of tradisionele medisyne saam met die medisyne wat voorgeskryf is. Die veilige reël is om die kliniek te vertel van alles wat 'n mens ook neem. Dit geld veral vir iets wat later bygekom het nadat die behandeling al begin het. Party middels verander hoe sterk 'n ander medisyne in die liggaam werk. Moenie iets wat voorgeskryf is self stop of met iets anders vervang voordat jy met die kliniek gepraat het nie."
+    },
+    {
+      "tipe": "studie",
+      "kop": "Wie help wanneer 'n mens siek is",
+      "teks": "Hulp kom van meer as een soort mens en elkeen doen 'n ander stuk van die werk. 'n Dokter of 'n verpleegster ondersoek die mens en verduidelik wat volgende gaan gebeur. 'n Kind wat self bekommerd is oor 'n siek mens in die huis kan ook hulp kry. Childline is 'n diens wat 'n kind self kan bel wanneer sy hulp nodig het - gratis, dag en nag, en sy hoef nie vir 'n grootmens te vra om te bel nie."
+    },
+    {
+      "tipe": "lys",
+      "kop": "Ander mense wat kan help",
+      "items": [
+        "In party plekke besoek 'n gemeenskapsgesondheidswerker mense by hulle eie huise.",
+        "'n Maatskaplike werker help met die dinge rondom 'n siekte wat 'n gesin swaar maak.",
+        "By party skole is daar 'n berader of 'n onderwyser wat leerders hiermee help.",
+        "'n Ondersteuningsgroep bring mense bymekaar wat dieselfde siekte of dieselfde sorg ken."
+      ]
+    },
+    {
+      "tipe": "studie",
+      "kop": "Waar betroubare inligting vandaan kom",
+      "teks": "Inligting oor gesondheid is oral en nie alles wat 'n mens lees is waar nie. Die kliniek self is die naaste plek om iets te vra en te laat nagaan. 'n Dokter of 'n verpleegster kan verduidelik wat jy iewers gelees het. Die skool en die biblioteek het boeke en materiaal wat 'n mens kan vertrou. Gesondheidsdienste gee ook hul eie plakkate en boekies oor siektes uit."
+    },
+    {
+      "tipe": "lys",
+      "kop": "Hoe jy inligting weeg",
+      "items": [
+        "Kyk wie die inligting geskryf het en wat daardie mens se werk is.",
+        "Kyk of dit van 'n gesondheidsdiens of 'n gesondheidswerker kom.",
+        "Wees versigtig wanneer die inligting ook iets wil verkoop.",
+        "Kyk hoe oud die inligting is.",
+        "Gaan by die kliniek na wat jy iewers gelees het."
+      ]
+    },
+    {
+      "tipe": "studie",
+      "kop": "Wie die sorg dra",
+      "teks": "Baie van hierdie siektes is chronies en hulle gaan nie sommer oor nie. Suikersiekte en epilepsie gaan byvoorbeeld nie weg nie en 'n mens leer om daarmee saam te leef. MIV word behandel en nie genees nie, maar TB kan genees word. Die sorg vir 'n siek mens in die huis bly die volwassenes se verantwoordelikheid. 'n Kind help met die dinge wat sy kan doen en dra nooit die sorg alleen nie. 'n Kind wat wel die sorg dra, mag self om hulp vra. Die volgende les gaan oor saamleef met 'n siekte wat bly."
+    },
+    {
+      "tipe": "begrip",
+      "term": "behandeling",
+      "teks": "Wat 'n kliniek of 'n dokter aan 'n siekte doen, ook die medisyne."
+    },
+    {
+      "tipe": "begrip",
+      "term": "versorging",
+      "teks": "Die daaglikse sorg vir 'n siek mens, soos kos, rus en skoon wees."
+    },
+    {
+      "tipe": "begrip",
+      "term": "ondersteuning",
+      "teks": "Die mense wat luister, help en bystaan wanneer dit swaar gaan."
+    },
+    {
+      "tipe": "begrip",
+      "term": "chronies",
+      "teks": "Wanneer 'n siekte lank duur en nie sommer vanself oorgaan nie."
+    },
+    {
+      "tipe": "begrip",
+      "term": "gemeenskapsgesondheidswerker",
+      "teks": "Iemand wat vir 'n gesondheidsdiens werk en mense in hul eie gemeenskap help."
+    },
+    {
+      "tipe": "begrip",
+      "term": "ondersteuningsgroep",
+      "teks": "Mense met dieselfde siekte of dieselfde sorg wat bymekaarkom om mekaar te help."
+    },
+    {
+      "tipe": "begrip",
+      "term": "medisyne",
+      "teks": "'n Middel wat help om siekte of pyn te behandel, of om te keer dat 'n mens siek word."
+    },
+    {
+      "tipe": "begrip",
+      "term": "kliniek",
+      "teks": "'n Plek in die gemeenskap waar mense gesondheidsorg kry, of hulle siek is of gesond."
+    },
+    {
+      "tipe": "begrip",
+      "term": "maatskaplike werker",
+      "teks": "Iemand wat opgelei is om mense te help met probleme in hulle lewe, ook kinders en gesinne."
+    },
+    {
+      "tipe": "begrip",
+      "term": "Childline",
+      "teks": "Childline is gratis, dit werk dag en nag, en 'n kind hoef nie vir 'n grootmens te vra om te bel nie."
+    }
+  ]
+}
