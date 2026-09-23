@@ -45,3 +45,28 @@ that a clipper is not a tall ship. A tall ship is a collective name and a clippe
 inside it, but CAPS names both among five, so neither can be dropped. The lesson now
 says out loud that it is a name for a group; a fact checker still marked the
 arrangement uncertain.
+
+## Where it stands, 23 September 2026 (stopped mid-flight, laptop packed up)
+
+**25 of 30 signed off.** Five open, all of them repaired at source and none blocked:
+
+- **vervoer-op-water les 2** — writer has done all six fact findings; gate PASSES at 448.
+  Needs coverage + facts, then sign-off. `kern[3]` was corrected at its opening line that
+  same hour (fuel was ordered as a CONTINUITY; a sailing ship needed none), so coverage
+  should now agree with the draft rather than fail it.
+- **vervoer-op-land les 3** and **kommunikasie les 4** — source fixes are in the spec and
+  the briefs are written; the writers stalled twice without writing a word, so the drafts
+  are untouched. Re-dispatch them.
+- **vervoer-op-land les 2** and **kommunikasie les 11** — earlier findings fixed at source;
+  need their remaining checks.
+
+All three open History lessons already have their eli10 block removed, so the gate will not
+bounce them. See [[eli10-blok-is-afgeskaf]].
+
+**Drico's rulings of 23 September:** History numbers run 1-30 per discipline (Geography
+starts again at 1 when we write it); `wentelbaan` may differ between the Moon lesson and the
+Earth lesson because each is lesson-specific; the lessons over the 450 ceiling stay as they
+are. **Geography has not been started at all** — no scripts, no lesson split, no CAPS map.
+He will hand the scripts over, and they need splitting per lesson the way the transport ones
+are, because [[video-se-lesverdeling-wen]].
+
