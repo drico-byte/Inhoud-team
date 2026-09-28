@@ -259,7 +259,7 @@ def check_register(m, band, label, fails, warns):
         warns.append(f"{label}: longest sentence is {m['longest_sentence']} words — check for a missing full stop")
 
 
-def run(lesson, grade, budget):
+def run(lesson, grade, budget, plafon_vry=None):
     band = band_for(grade)
     blocks = lesson.get("blokke", [])
     fails, warns, notes = [], [], []
@@ -315,11 +315,34 @@ def run(lesson, grade, budget):
     # NB: not named 'band' — that name holds the REGISTER band and is read below.
     lesband = LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
     if lesband and sm["words"] > lesband[1]:
-        warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson ceiling {lesband[1]} "
-                     f"— a person must cut it to {lesband[1]} or fewer. The budget ({budget}) plus "
-                     f"tolerance allows {hi:.0f}, and that is the gap Drico closed on 22 September 2026: "
-                     f"the ceiling holds the MEASURED lesson, not only the budget. Never drop a "
-                     f"requirement to reach it — if it cannot be done, say so and stop.")
+        # A LESSON MAY BE EXEMPTED FROM THE CEILING, ONE LESSON AT A TIME.
+        #
+        # Lampies exempted three Grade 7 rights lessons on 28 September 2026: their
+        # corrections were replacements longer than what they replaced, and his own
+        # rule is that the content sets the number. The exemption went into each
+        # lesson's budget note -- and the gate went on printing "a person must cut it
+        # to 700 or fewer" on every run, which is the failure this project keeps
+        # paying for. A stale instruction in a spec field gets obeyed by the next
+        # writer; a stale instruction printed by a TOOL gets obeyed by everyone,
+        # every time, because the tool runs and the field does not.
+        #
+        # So the runner passes the exemption through and the ceiling still measures
+        # -- it just says the overrun is allowed and by whose decision. It is never
+        # silent: a lesson over the ceiling is always reported, exempt or not,
+        # because the number is what tells a person the exemption is still the right
+        # call.
+        if plafon_vry:
+            warns.append(f"{label} {sm['words']} words, {sm['words'] - lesband[1]} above the Grade "
+                         f"{grade} ceiling of {lesband[1]} — ALLOWED for this lesson: {plafon_vry}. "
+                         f"Do not cut it back under {lesband[1]}; the words over the line are the "
+                         f"corrections. Still worth reading: if the overrun grows without a new "
+                         f"correction, something was added that no requirement asked for.")
+        else:
+            warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson ceiling {lesband[1]} "
+                         f"— a person must cut it to {lesband[1]} or fewer. The budget ({budget}) plus "
+                         f"tolerance allows {hi:.0f}, and that is the gap Drico closed on 22 September 2026: "
+                         f"the ceiling holds the MEASURED lesson, not only the budget. Never drop a "
+                         f"requirement to reach it — if it cannot be done, say so and stop.")
 
     # --- chunking ---
     # Only explanatory lessons are chunked. A lesson whose volume is carried by a
@@ -458,6 +481,12 @@ def main():
     ap.add_argument("lesson")
     ap.add_argument("--grade", type=int, required=True)
     ap.add_argument("--budget", type=int, required=True, help="target study-text word count")
+    ap.add_argument("--plafon-vry", dest="plafon_vry", default=None,
+                    help=("this lesson is exempted from the per-grade word ceiling; the value is "
+                          "the REASON, printed in the warning. The ceiling is still measured and "
+                          "still reported -- the exemption only changes 'cut it' to 'allowed, and "
+                          "by whose decision'. The runner passes it from the spec, so the decision "
+                          "lives in one place."))
     ap.add_argument("--json", action="store_true", help="emit JSON only (for orchestrator use)")
     ap.add_argument("--log", help="append result to this JSONL log")
     ap.add_argument("--woordeboek", default=None,
@@ -470,7 +499,7 @@ def main():
         set_dictionary(a.woordeboek)
 
     lesson = json.load(open(a.lesson, encoding="utf-8"))
-    r = run(lesson, a.grade, a.budget)
+    r = run(lesson, a.grade, a.budget, a.plafon_vry)
 
     if a.log:
         with open(a.log, "a", encoding="utf-8") as f:

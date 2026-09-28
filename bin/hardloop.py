@@ -465,9 +465,15 @@ def argiveer(bron, les_id, siklus, naam):
 
 
 # ---------------------------------------------------------------- steps
-def hardloop_hek(les_pad, graad, begroting, uit):
+def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None):
     args = [les_pad, "--grade", graad, "--budget", begroting, "--json",
             "--log", P.GATE_LOG]
+    # The ceiling exemption travels from the SPEC to the gate, so the decision lives
+    # in one place. Without this the spec said "allowed, and here is why" while the
+    # gate went on printing "a person must cut it to 700 or fewer" -- and the tool
+    # wins that argument, because it runs on every pass and the field does not.
+    if plafon_vry:
+        args += ["--plafon-vry", plafon_vry]
     dic = P.hunspell_pad()
     if dic:
         args += ["--woordeboek", dic]
@@ -832,9 +838,15 @@ def stap(a, uit):
             "A true or missing value marks calibration material, which must never",
             "be published. Status stays konsep and the HTML team never receives it.")
 
+    # A lesson may be exempted from the per-grade word ceiling, one lesson at a time,
+    # and the exemption is declared in that lesson's own spec entry rather than here.
+    # The value is the REASON: it is printed in the gate's warning, so whoever reads
+    # the output sees whose decision it was and why, instead of an instruction to cut.
+    plafon_vry = les_inskrywing.get("plafon_uitsondering") or None
+
     # --- 3. the gate, BEFORE the checkers ----------------------------------
     if staat.get("hek") is None:
-        code, hek = hardloop_hek(les_pad, graad, begroting, uit)
+        code, hek = hardloop_hek(les_pad, graad, begroting, uit, plafon_vry)
         staat["hek"] = hek["verdict"]
         staat["hek_konteks"] = hek_konteks
         argiveer(P.hek_verslag(les_pad), les_id, siklus_nou, "hek")
