@@ -117,3 +117,37 @@ asks for it" while the requirement *did* ask for it — a live contradiction bet
 standing orders. A writer cannot choose, which is why the checker escalated instead of
 sending the draft back. **A contradiction between two spec fields is always a person's to
 resolve; never brief a writer around it.**
+
+## Ten more in one day, and two of them were mine to begin with
+
+28 September 2026, Grade 7 LO. Ten instances across four sub-topics in a single day.
+Eight were the familiar shape and two were not.
+
+**The first new one: I amended the record and left the order.** I had written the
+withdrawal of a comparison into the bottom of a requirement as a dated ruling — and left
+the field's **opening line** saying "dit is die swaar deel", which is the same comparison
+compressed. So I performed the exact inversion this note prescribes against: bottom
+first, top never. A writer caught it, declined to write the sentence, and told me the
+opening line is what a coverage check reads.
+
+**The tell for this variant is the feeling of having just done it.** I edited that field
+an hour earlier and remembered editing it, which is precisely what stopped me re-reading
+it. Same trap as the half-amendment above, one turn tighter: it is not enough to re-read
+the line you amended — you have to re-read it *from the top*, because the correction you
+wrote is at the bottom and your eye starts where you were working.
+
+**The second new one: a stale order hid in a reading note, not in a requirement.** The
+sweep had cleared every `kern` item and every fact-risk field, and the retracted wording
+was alive in a `kaps_leesnota` — a field whose name says *note*, which is exactly why it
+was not swept. It ordered the writer, in the imperative, to say the thing that had just
+been withdrawn, and two sentences above it the same field forbade the equivalence it was
+ordering. A writer caught that one too.
+
+**So step 3's sweep covers every field a writer reads, not every field named "order".**
+`kaps_leesnota`, `termdig_nota`, `begrotingsnota`, `verdeling_nota` — a note a writer
+reads is an order whatever it is called, and the ones with "nota" in the name are the
+ones a grep of the requirements misses.
+
+**And the overall tell holds, nine months on: a writer caught both.** When a *writer*
+catches your bookkeeping, the bookkeeping is the problem — twice in one day, on fields I
+had personally edited that same day.

@@ -115,3 +115,7 @@
 - [The ELI10 block is abolished](eli10-blok-is-afgeskaf.md) — Drico 23 Sep 2026; nothing moves into the study text, the gate hard-fails one, and 60 specs still ordered it.
 - [The reading copy sent out our internal notes](die-leeskopie-het-ons-interne-notas-uitgestuur.md) — approved lessons carried the review appendix to the language checker and the HTML team; 56 PDFs still have it.
 - [Three PCs work in parallel](drie-rekenaars-werk-parallel.md) — open lessons outside my subject are probably someone else's; report what is left in MY work, and a repo-wide sweep reaches into their files.
+- [Gr 7 LO: the year's rulings](gr7-lo-besluite.md) — four sub-topics, 45 lessons, 350-700 band, and what the pre-writing fact checks settled.
+- [Gr 7 LO: where we are](gr7-lo-waar-ons-is.md) — 1/45 signed off 28 Sep 2026; all four specs fixed at source; 41 shared terms, ten of them recorded only after a sweep found the decision list was holding nothing.
+- [No drift is only as strong as the decision list](geen-drif-is-net-so-sterk-soos-die-besluitlys.md) — ten of 34 shared terms had no decision behind them; agreeing lessons print the same clean line as held ones.
+- [Count the reports before saying it is checked](tel-die-verslae-voor-jy-se-dit-is-nagegaan.md) — two lessons never checked and five more silently unchecked by a legitimate re-gate; sweep for the files, don't trust the record.
