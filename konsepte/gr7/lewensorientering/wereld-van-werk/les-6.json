@@ -13,71 +13,94 @@
     "werkplekke",
     "werkklere",
     "gereedskap",
+    "handgereedskap",
     "werktoerusting",
     "beskermende",
     "oorbeskerming",
     "chemikalieë",
     "gesondheidsorg",
     "bouperseel",
+    "boupersele",
     "herkenning",
     "voorskoot",
     "haarnet",
     "harnas",
+    "ankerpunt",
     "lisensie",
-    "terugkaats"
+    "liggaamsvog",
+    "epoulet",
+    "epoulette",
+    "balkie",
+    "balkies",
+    "helmkleur",
+    "kwalifikasie",
+    "verpleegkundige",
+    "bandmaat",
+    "termometer",
+    "handskoene"
   ],
   "herkoms": {
     "kaps_dokument": "KABV Lewensoriëntering Graad 7-9 (Afrikaans), Afdeling 3.2 Jaarlikse Onderrigplan, Graad 7 Kwartaal 3 weke 8-10: Wêreld van werk, 'Simulasie van loopbaanverwante aktiwiteite' - subpunte 'Kleredrag van toepassing op die loopbaan' en 'Gereedskap of werktoerusting van toepassing op die loopbaan'.",
     "profiel_konfig": "gr7-lo-profiel.json",
     "skrywer_prompt": "skrywer-v1.5",
     "handboek_gesien": false,
-    "nota": "GEEN HANDBOEK. Geskryf uit spek/les-6.json en eie kennis alleen; geen bladsy, skandering, transkripsie of beskrywing van 'n ander boek se volgorde is gesien of gevra. handboek_gesien is false. Begroting 480 (begroting_basis 'vereistes'), vyf kernitems. || eli10 AFGESKAF (Drico, 23 September 2026): die les dra geen blok nie en die hek faal 'n les wat een dra. Geen veld in hierdie lesinskrywing vra een - moeilike_konsepte is leeg, en die spek se eli10_afgeskaf-veld noem die gesondheidsplan se drie lesse, nie hierdie een nie. || VERSOENDE BEWOORDING, 23 September 2026 - WERKGEWER. Die begripsin dra nou woord vir woord die ooreengekome bewoording uit kaps/gedeelde-omskrywings-lewensorientering-gr7.json. Die vorige vorm ('die mens of die PLEK wat iemand aanstel') is VERWERP omdat dit 'n plek die handelende party maak; 'n plek neem niemand in diens nie. TWEE GRENSE IS BY DIE VERSOENING AANGETEKEN EN AANVAAR, en mag nie 'reggemaak' word nie: 'in diens neem' beskryf die HANDELING van aanstel en nie die lopende verhouding nie, en 'instelling' lees formeler as 'n spazawinkel, wat ook 'n werkgewer is. Die lesse dra albei gevalle in hulle prosa. LET WEL: les 7 leer dat 'n mens wat vir homself werk GEEN werkgewer het nie - dit is nie 'n vierde soort werkgewer nie, en niks hier mag dit weerspreek nie. Hierdie les se prosa noem 'n werkgewer net een keer (blok 1) en omskryf hom nêrens in ander woorde nie, dus is die prosa onveranderd gelaat. || TWEE GEDATEERDE REGSTELLINGS (feitetoets, 23 September 2026). Hulle mag deur geen latere hersiening teruggedraai word nie. (1) KLERE EN GEREEDSKAP SÊ NIKS OOR OPLEIDING NIE. Hulle wys waar die werk gebeur en wat die liggaam daar moet doen, en verder niks: dieselfde werkklere in 'n hospitaal pas iemand wat pas begin het en iemand wat jare lank geleer het, dieselfde harde hoed sit op elke kop op 'n bouperseel, en dieselfde rekenaar staan op lessenaars waar die werk heeltemal verskil. Die blok 'Wat hulle nie wys nie' dra al drie. Die sin oor 'n lisensie of 'n kursus staan doelbewus as 'n aparte feit oor toerusting, nie as 'n afleiding uit die klere nie. (2) SWAK LIG IS 'N TOESTAND EN NIE 'N GEVAAR NIE. Die gevaar langs 'n pad is dat 'n voertuig die werker tref, en helder klere werk deurdat hulle die werker sigbaar maak vir 'n bestuurder. Elke stuk beskermende toerusting in die les is aan sy GEVAAR gekoppel en nie aan 'n loopbaan nie: die hoed aan iets wat kan val, die harnas aan 'n val, oorbeskerming aan harde geraas, handskoene aan hitte en sterk chemikalieë. || WAT NIE GETIDY MAG WORD NIE: 'Sulke klere verminder die skade, maar hulle maak niemand veilig nie' plus die sin oor reëls en opleiding. 'n Kind wat leer dat die toerusting die veiligheid is, leer die verkeerde ding. Net so die hegwoorde 'by baie werkplekke' en 'dikwels' by kleredrag - geen uniform word as 'n reël gestel nie, want kleredrag verskil per werkgewer, per land en oor tyd. || GRENSE UIT DIE SPEK GEHOU: geen instelling-, skool-, maatskappy- of handelsmerknaam, geen nommer of webadres, geen salaris of ander getal wat verouder, geen bewering oor toelating of oor watter lisensie 'n bepaalde masjien verg, en geen klere, gereedskap of loopbaan wat aan 'n geslag, taal of groep mense gekoppel word. Die les skryf deurgaans oor wat mense DOEN. Dit is ook die leerder se eie werkteks: daar is geen opdrag, geen rol, geen aanbieding en niks oor hoe 'n simulasie gehou word nie, en geen vraag in enige vorm nie. || TERME: 'loopbaan' kry MET OPSET geen begrip-inskrywing hier nie - les 3 omskryf dit, en 'werk' en 'loopbaan' word volgens die spek saam vasgestel. || VORM: geen lys-blok, want niks in die kern vra een nie. Blok 3 is in twee gesplits (gevaar teenoor skoon hou) omdat een blok van daardie lengte buite die 30-110-riglyn val."
+    "nota": "STAANDE REKORD VAN LES 6, herskryf op 28 September 2026 onder skrywer-v1.5 ná die feitetoets van die konsep. Hierdie nota VERVANG die vorige een; die vorige rondes se werkredenasie staan in hulle eie verslae in die logboom. || GEEN HANDBOEK: geen bladsy, skandering, skermskoot, transkripsie of OCR-uitset is gesien, gevra of gebruik nie. Die bronne is spek/les-6.json, kaps/gedeelde-omskrywings-lewensorientering-gr7.json en my eie kennis. handboek_gesien is false. || eli10 AFGESKAF (Drico, 23 September 2026): die les dra geen blok nie en die hek faal een wat dit doen. Geen veld in hierdie lesinskrywing vra een - moeilike_konsepte is leeg, en die spek se eli10_afgeskaf-veld noem die gesondheidsplan se drie lesse en nie hierdie een nie. || WERKGEWER (versoening, 23 September 2026): die begrip-inskrywing dra die ooreengekome Graad 7-bewoording woord vir woord. Die vorm 'die mens of die PLEK wat iemand aanstel' is VERWERP, want 'n plek neem niemand in diens nie. Twee grense is by die versoening aanvaar en mag nie 'reggemaak' word nie: 'in diens neem' beskryf die HANDELING van aanstel en nie die lopende verhouding nie, en 'instelling' lees formeler as 'n spazawinkel, wat ook 'n werkgewer is. Les 7 leer dat iemand wat vir homself werk GEEN werkgewer het nie; niks hier weerspreek dit, en die prosa noem 'n werkgewer net in blok 1. || NEGE REGSTELLINGS UIT DIE FEITETOETS VAN 28 SEPTEMBER 2026. Hulle is by die bron in die spek se kern regestel en hier uitgevoer, en geen latere hersiening mag hulle terugdraai nie. (1) TERUGGETREKTE BESLISSING: die reël van 23 September 2026 dat die klere en die gereedskap 'NIKS oor opleiding sê nie' is WEG, saam met die drie voorbeelde waarmee hierdie les dit gewys het (dieselfde werkklere in 'n hospitaal vir 'n beginner en 'n ervare mens; dieselfde harde hoed op elke kop; dieselfde rekenaar op verskillende lessenaars). Hulle is weerlê: die Raad op Verpleging skryf onderskeidingstekens voor wat wys in watter kategorie 'n verpleegkundige geregistreer is, met balkies vir bykomende kwalifikasies, en baie boupersele gebruik 'n helmkleurkode per rol. Die bewering is HERBOU en nie herhaal of net omgekeer nie: wat oorbly, is dat die klere niks oor die BEPAALDE WERKER se ervaring sê nie, terwyl hulle wel iets oor die werk se opleidingsreëls verklap. Blok 'Wat hulle nie van die werker sê nie' dra die een helfte en blok 'Wat hulle wel oor die werk sê' die ander. MOENIE DIE OU VOORBEELDE TERUGBRING NIE. (2) TERUGGETREKTE BESLISSING: swak lig is nie 'n blote toestand van die plek nie, dit is SELF 'n gevaar - struikel, val, gereedskap wat val en moeë oë, en dit maak ander gevare erger. Die ou sin wat dit 'n toestand en nie die gevaar nie genoem het, is uit. (3) Helder klere werk op twee maniere: die helder kleur in daglig en die stroke wat kopligte terugkaats. Hulle maak die werker NET makliker om te sien en waarborg niks; daarom staan die sin dat hy nooit mag aanneem 'n bestuurder het hom gesien nie, en die sin dat die verkeer en die werkers ook van mekaar weggehou word. (4) 'n Helder baadjie is geen toegangsbewys nie - die kaartjie doen daardie werk en elke besoeker dra ook 'n baadjie. (5) By gesondheidsorg beskerm die klere in ALBEI rigtings: die handskoene en die voorskoot hou die wond skoon en hou terselfdertyd die pasiënt se bloed en liggaamsvog van die werker af. By kos bly die rigting werk-teen-mens. (6) DIE HAARNET IS UIT DIE WONDSORG-PAAR (besluit van Lampies, 28 September 2026): hy is vir voedselpersele en vir 'n operasiesaal bevestig, nie vir 'n gewone wondverband nie, en hy staan nou net by kos. (7) 'binne of buite' is 'n LEIDRAAD en nie 'n afleiding nie - dieselfde harde hoed kom in 'n pakhuis binne net so voor as op 'n bouperseel buite; die masjien-teenoor-lessenaar-deel hou wel. (8) VYF BEGRIP-INSKRYWINGS IS REGESTEL OF VERBREED, en elkeen is alleen gelees getoets: 'gereedskap' is nie net wat in die hand pas nie (die les se eie rekenaar het die ou vorm weerspreek), 'werktoerusting' sluit handgereedskap in, 'beskermende klere' dek daaglikse blootstelling soos harde geraas en nie net 'as iets verkeerd loop' nie, 'harnas' vra die lyn en die ankerpunt (bande alleen hou niemand, en die woord pas ook op 'n perd se harnas) en 'chemikalieë' is alle stowwe en nie net die skadelike nie. (9) BESKERM, EN BEVESTIG DEUR DIE FEITETOETS (Lampies, 28 September 2026): 'Sulke klere verminder die skade, maar hulle maak niemand veilig nie' plus die sin oor die reëls en die opleiding. Dit is die enigste plek in die subonderwerp waar daardie onderskeid gemaak word. Moenie dit wegwerk of versag nie - 'n kind wat leer dat die toerusting die veiligheid is, leer die verkeerde ding. || WAT VERDER NIE GETIDY MAG WORD NIE: die hegwoorde by kleredrag ('by baie werkplekke', 'by party werk', 'op baie boupersele'). Geen uniform word as 'n reël gestel nie, want kleredrag verskil per werkgewer, per land en oor tyd. Elke stuk beskermende toerusting bly aan sy GEVAAR gekoppel en nie aan 'n loopbaan nie. || VOLUME, EN 'N MENS MOET HIERNA KYK: die begroting is op 28 September 2026 van 480 na 520 verhoog, en die studieteks lê steeds bo 520. Die begrotingsnota gee elke kernitem sowat 104 woorde, maar kern 3 dra nou vier vereistes (die gevaarlys met swak lig, die twee maniere waarop helder klere werk, die twee rigtings by gesondheidsorg, en die beskermde sin) en kern 5 moet die opleiding-bewering heropbou met twee nuwe voorbeelde. Elke sin is so dig geskryf as wat die Graad 7-band toelaat en geen vereiste is laat val om die getal te haal nie, want dit is 'n mens se besluit en nie myne. Die hek meet; ek tel nie. || GRENSE UIT DIE SPEK GEHOU: geen raad, departement, instelling, skool, maatskappy of handelsmerk by die naam (die reëls word 'die reëls vir daardie soort werk' genoem), geen nommer of webadres, geen salaris of ander getal wat verouder, geen bewering oor watter lisensie 'n bepaalde masjien verg, en geen klere, gereedskap of loopbaan wat aan 'n geslag, taal of groep mense gekoppel word. Die les skryf deurgaans oor wat mense DOEN. Dit is die leerder se eie werkteks: geen opdrag, geen rol, geen aanbieding, niks oor hoe 'n simulasie gehou word nie, en geen vraag in enige vorm nie. || TERME: 'loopbaan' kry MET OPSET geen begrip-inskrywing hier nie (les 3 omskryf dit) en 'kwalifikasie' ook nie (les 5 besit daardie omskrywing) - so ontstaan geen tweede bewoording nie. 'epoulet' en 'balkie' kry wel inskrywings, want die les gebruik die woorde vir die eerste keer. || VORM: geen lys-blok, want niks in die kern vra een nie. Kern 3 loop oor drie blokke en kern 5 oor twee, sodat geen blok buite die 30-110-riglyn val."
   },
   "blokke": [
     {
       "tipe": "studie",
       "kop": "Kyk van naby na een loopbaan",
-      "teks": "Jy kan baie van 'n loopbaan leer sonder dat iemand jou daarvan vertel. Jy kyk van naby na 'n paar bepaalde dinge by die werk self. Hierdie les vat die eerste twee: wat die mens aanhet en waarmee hy werk. Saam bou hulle 'n prentjie van die loopbaan en van die werkgewer by wie so 'n mens werk."
+      "teks": "Jy bou 'n prentjie van een loopbaan en van sy werkgewer deur self na 'n paar bepaalde dinge te kyk. Hierdie les vat die eerste twee: wat die mens aanhet en waarmee hy werk."
     },
     {
       "tipe": "studie",
       "kop": "Klere wat wys wie die mens is",
-      "teks": "By baie werkplekke dra die mense wat daar werk dieselfde soort klere. Daardie klere doen self 'n stuk van die werk, want hulle wys van ver af wie die persoon is. In 'n kliniek sien 'n vreemdeling aan die werkklere by wie hy kan hulp vra. By 'n bouperseel wys 'n helder baadjie of 'n kaartjie dikwels wie binne die heining mag wees. Herkenning is in albei gevalle nie 'n ekstra nie, maar 'n deel van die werk self."
+      "teks": "By baie werkplekke dra die mense wat daar werk dieselfde soort klere. In 'n kliniek sien 'n vreemdeling aan die werkklere by wie hy hulp kan vra. Op 'n bouperseel wys 'n kaartjie wie binne die heining mag wees. Die helder baadjie wys dit nie en elke besoeker dra ook een sodat voertuie hom kan sien. Herkenning is dus nie 'n ekstra nie maar deel van die werk self."
     },
     {
       "tipe": "studie",
-      "kop": "Klere wat sê wat die werk gevaarlik maak",
-      "teks": "Waar die klere of die toerusting die mens beskerm, sê hulle vir jou wat die werk gevaarlik maak. 'n Harde hoed hoort by werk waar iets van bo af kan val. By werk hoog bo die grond dra die mens dikwels 'n harnas teen 'n val. Oorbeskerming hoort by masjiene wat hard raas en handskoene by hitte of by sterk chemikalieë. Langs 'n pad is die gevaar dat 'n voertuig die werker tref. Helder klere wat die lig terugkaats, maak die werker sigbaar vir 'n bestuurder. Swak lig is 'n toestand van die plek en nie self die gevaar nie."
+      "kop": "Klere wat wys wat die werk gevaarlik maak",
+      "teks": "Waar die klere of die toerusting die mens beskerm sê hulle wat die werk gevaarlik maak. 'n Harde hoed hoort by werk waar iets van bo af kan val en 'n harnas by werk hoog bo die grond. Oorbeskerming hoort by masjiene wat hard raas en handskoene by hitte of sterk chemikalieë. Swak lig is self ook 'n gevaar omdat 'n mens dan struikel of gereedskap laat val en sy oë moeg raak. Dit maak die ander gevare ook erger omdat 'n werker 'n masjien of 'n voertuig later raaksien."
+    },
+    {
+      "tipe": "studie",
+      "kop": "Helder klere langs 'n pad",
+      "teks": "Langs 'n pad is die gevaar dat 'n voertuig die werker tref. Sy helder klere val in daglig op en die stroke daarop kaats 'n voertuig se kopligte terug. Sulke klere maak hom net makliker om te sien. Hy mag nooit aanneem dat 'n bestuurder hom gesien het nie. Daarom word die verkeer en die werkers ook van mekaar weggehou."
     },
     {
       "tipe": "studie",
       "kop": "Klere wat die werk skoon hou",
-      "teks": "By kos en by gesondheidsorg beskerm die klere die werk eerder teen die mens. 'n Voorskoot, 'n haarnet en handskoene hou die kos of die wond skoon. Sulke klere verminder die skade, maar hulle maak niemand veilig nie. Veiligheid kom uit die klere saam met die reëls en die opleiding van die werkplek."
+      "teks": "By kos beskerm die klere die werk eerder teen die mens. 'n Voorskoot, 'n haarnet en handskoene hou die kos skoon. By gesondheidsorg werk die klere in albei rigtings. Handskoene en 'n voorskoot hou die wond skoon en hou die pasiënt se bloed en liggaamsvog van die werker af. Sulke klere verminder die skade, maar hulle maak niemand veilig nie. Veiligheid kom uit die klere saam met die reëls en die opleiding van die werkplek."
     },
     {
       "tipe": "studie",
       "kop": "Waarmee die mens die werk doen",
-      "teks": "Gereedskap en werktoerusting is die dinge waarmee 'n mens die werk self doen. Party daarvan pas in een hand, soos 'n hamer of 'n naald. Ander is masjiene wat 'n mens aanskakel en oppas, en 'n voertuig tel ook saam wanneer die werk self daarmee gedoen word. Op baie lessenaars is die rekenaar en sy programme die gereedskap waarmee alles gedoen word. By ander werk word met 'n instrument soos 'n bandmaat of 'n termometer gemeet."
+      "teks": "Gereedskap en werktoerusting is die dinge waarmee 'n mens iets aan iets anders doen. Party pas in een hand, soos 'n hamer of 'n naald. Ander is masjiene wat 'n mens aanskakel en oppas. 'n Voertuig tel ook saam wanneer die werk self daarmee gedoen word. Op baie lessenaars is die rekenaar en sy programme die gereedskap. By ander werk meet 'n mens met 'n bandmaat of 'n termometer. 'n Hamer is net so veel werktoerusting as 'n masjien."
     },
     {
       "tipe": "studie",
       "kop": "Wat die klere en die gereedskap wys",
-      "teks": "Saam sê die klere en die gereedskap vir jou waar die werk gebeur. Hulle wys of die mens binne of buite is en of hy by 'n masjien of by 'n lessenaar staan. Hulle sê ook wat die liggaam daar moet doen: swaar dinge optel of fyn werk met die hande."
+      "teks": "Saam gee die klere en die gereedskap jou 'n leidraad oor waar die werk gebeur. Hulle wys of die mens by 'n masjien of by 'n lessenaar staan. Hulle wys ook of hy swaar dinge optel of fyn werk met sy hande doen. Dieselfde harde hoed kom egter in 'n pakhuis binne net so voor as op 'n bouperseel buite. 'n Leidraad is dus nie 'n sekerheid nie."
     },
     {
       "tipe": "studie",
-      "kop": "Wat hulle nie wys nie",
-      "teks": "Hulle sê nie vir jou hoeveel opleiding die werk vra nie. Dieselfde werkklere in 'n hospitaal pas iemand wat pas begin het en iemand wat jare lank geleer het. Dieselfde harde hoed sit op elke kop op daardie bouperseel, en dieselfde rekenaar staan op lessenaars waar die werk heeltemal verskil. 'n Mens mag ook nie sommer met alle toerusting werk nie, want sommige masjiene en voertuie vra eers 'n lisensie of 'n kursus. Gereedskap verander ook oor tyd en 'n mens kyk hoe die werk vandag gedoen word, nie hoe dit lank gelede gelyk het nie."
+      "kop": "Wat hulle nie van die werker sê nie",
+      "teks": "Hulle sê nie hoeveel ervaring die bepaalde werker het nie en jy kan nie aan sy klere sien wie pas begin het nie. Gereedskap verander ook oor tyd en jy kyk hoe die werk vandag gedoen word."
+    },
+    {
+      "tipe": "studie",
+      "kop": "Wat hulle wel oor die werk sê",
+      "teks": "Oor die werk self verklap hulle wel iets. Sekere toerusting mag net met 'n lisensie of 'n kursus gebruik word omdat die reëls vir daardie soort werk dit so vra. By party werk wys die werkklere self watter kwalifikasie die mens het. In 'n hospitaal wys 'n verpleegkundige se epoulette en balkies in watter kategorie hy geregistreer is. Op baie boupersele beteken 'n bepaalde helmkleur 'n bepaalde rol en soms juis iemand wat nog onder toesig werk."
     },
     {
       "tipe": "begrip",
       "term": "gereedskap",
-      "teks": "Dinge wat 'n mens in die hand hou om werk te doen."
+      "teks": "Die dinge waarmee 'n mens iets aan iets anders doen, van 'n hamer tot 'n masjien."
     },
     {
       "tipe": "begrip",
       "term": "werktoerusting",
-      "teks": "Die masjiene, voertuie en toestelle waarmee 'n mens sy werk doen."
+      "teks": "Alles waarmee 'n mens sy werk doen: handgereedskap, masjiene, voertuie en toestelle."
     },
     {
       "tipe": "begrip",
@@ -87,7 +110,7 @@
     {
       "tipe": "begrip",
       "term": "beskermende klere",
-      "teks": "Klere wat die skade verminder as iets by die werk verkeerd loop."
+      "teks": "Klere en toerusting wat 'n mens tussen homself en 'n gevaar by die werk sit. Hulle verminder die skade van 'n ongeluk en ook van daaglikse blootstelling soos harde geraas, maar hulle neem die gevaar nie weg nie."
     },
     {
       "tipe": "begrip",
@@ -97,17 +120,27 @@
     {
       "tipe": "begrip",
       "term": "harnas",
-      "teks": "Sterk bande om die lyf wat 'n mens vashou as hy val."
+      "teks": "Sterk bande om die lyf wat met 'n lyn aan 'n stewige ankerpunt vasgemaak word, sodat 'n val gestuit word. Die bande alleen hou niemand nie, en dieselfde woord pas ook op 'n perd se harnas."
     },
     {
       "tipe": "begrip",
       "term": "chemikalieë",
-      "teks": "Stowwe soos skoonmaakmiddels en suur wat 'n mens kan seermaak."
+      "teks": "Die stowwe waarvan alles gemaak is. Sommige wat by die werk gebruik word, soos skoonmaakmiddels en suur, kan 'n mens seermaak."
     },
     {
       "tipe": "begrip",
       "term": "lisensie",
       "teks": "'n Amptelike bewys dat iemand iets mag doen of mag gebruik."
+    },
+    {
+      "tipe": "begrip",
+      "term": "epoulet",
+      "teks": "Die skouerstuk van 'n uniform waarop tekens gedra word."
+    },
+    {
+      "tipe": "begrip",
+      "term": "balkie",
+      "teks": "'n Klein strepie op 'n uniform wat 'n verdere kwalifikasie wys."
     }
   ]
 }
