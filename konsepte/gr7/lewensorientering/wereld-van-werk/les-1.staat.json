@@ -1,9 +1,11 @@
 {
   "les": "gr7/lewensorientering/wereld-van-werk/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d0a46793d951153a75694e3ad6aeecce",
+  "konsep_hash": "sha256:9f6d714cbdb6056990f5a5f52dcd3903",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:9f6d714cbdb6056990f5a5f52dcd3903"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -35,11 +37,45 @@
       "woorde": 615,
       "begroting": 550,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-28T10:29:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:9f6d714cbdb6056990f5a5f52dcd3903",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-28T10:29:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 672,
+      "begroting": 570,
+      "failures": [
+        "Study text 672 words, above budget ceiling 656 (target 570) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-28T10:29:02+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 672 words, above budget ceiling 656 (target 570) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-28T10:29:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 672,
+      "begroting": 600,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:e94a8e4e576b6e103b9eefaaa1ed9f5d",
+  "spek_hash": "sha256:b1f3924a7adbdae6eb29c57eb7180bc3",
   "hek_konteks": {
     "graad": 7,
-    "begroting": 550
+    "begroting": 600
   }
 }
