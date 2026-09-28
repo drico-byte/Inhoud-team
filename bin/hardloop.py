@@ -282,7 +282,30 @@ def met_spek_konteks(spek, inskrywing):
 
     The entry's own keys win, so a lesson may still narrow anything.
     """
-    saam = {k: v for k, v in spek.items() if k != "lesse"}
+    # SPEC-LEVEL FIELDS A WRITER DOES NOT NEED. Lampies' decision, 28 September 2026.
+    #
+    # Every spec-level field is injected into every lesson's extract, which is what
+    # fixed the dangling cross-references described above. The cost grew quietly: by
+    # the third repair round a Grade 7 LO extract was 57 to 77 KB, and past about
+    # 50 KB a writer has previously been unable to reach the lesson itself. Roughly a
+    # third of that is the accumulated record of retracted decisions and closed check
+    # rounds -- `nagaan_reel`, `regstellingsronde_nota`, `konsep_feitetoets_nota` and
+    # their kin, differently named in every spec.
+    #
+    # Those records are not clutter: they are what stops a corrected fault being
+    # reinstated, and they must stay in the spec where a planner meets them. They are
+    # simply not a WRITER's reading. So a spec may declare its own record fields in
+    # `nie_vir_die_skrywer`, and they are left out of the extract.
+    #
+    # Declared in the spec rather than listed here on purpose. The field names differ
+    # per spec and always will, and a list in this file is a second place to keep in
+    # step -- which is the fault the injection above exists to fix. The omitted names
+    # are still reported in `_spek_vlak_velde_weggelaat`, so an agent can see that a
+    # field exists and ask for it, rather than concluding the spec is silent.
+    weglaat = set(spek.get("nie_vir_die_skrywer") or [])
+    weglaat.discard("lesse")
+    weglaat.discard("nie_vir_die_skrywer")
+    saam = {k: v for k, v in spek.items() if k != "lesse" and k not in weglaat}
 
     # The subject's agreed glossary wordings, injected rather than copied into
     # each spec. Three of these terms cross sub-topics, so no single spec can own
@@ -343,7 +366,19 @@ def met_spek_konteks(spek, inskrywing):
 
     saam.update(inskrywing)
     saam["_spek_vlak_velde"] = sorted(k for k in spek if k != "lesse"
-                                      and k not in inskrywing)
+                                      and k not in inskrywing
+                                      and k not in weglaat)
+    if weglaat:
+        saam["_spek_vlak_velde_weggelaat"] = {
+            "hoe_om_dit_te_lees": (
+                "Hierdie spek-vlak velde BESTAAN en is met opset NIE hier ingesluit nie: "
+                "hulle dra die rekord van teruggetrekke beslissings en van afgehandelde "
+                "nasienrondtes, wat 'n BEPLANNER nodig het en 'n skrywer nie. Hulle is "
+                "weggelaat omdat die uittreksel anders te lank word om te lees. Hulle is "
+                "GEEN opdragte nie. As jy een van hulle nodig het, vra daarvoor - moenie "
+                "aanneem die spek is stil oor iets nie."),
+            "velde": sorted(weglaat),
+        }
     return saam
 
 
