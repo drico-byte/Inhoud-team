@@ -1,20 +1,20 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Wat by 'n mens verander",
   "graad": 7,
   "vak": "Lewensoriëntering",
   "budget": 500,
-  "checked_at": "2026-09-23T15:00:50+00:00",
+  "checked_at": "2026-09-28T09:07:51+00:00",
   "study": {
-    "words": 517,
-    "sentences": 35,
-    "mean_sentence_len": 14.8,
-    "median_sentence_len": 14,
+    "words": 552,
+    "sentences": 37,
+    "mean_sentence_len": 14.9,
+    "median_sentence_len": 15,
     "longest_sentence": 22,
-    "mean_syllables": 1.41,
-    "pct_polysyllabic": 7.5,
-    "pct_long_words": 2.1,
-    "commas_per_sentence": 0.37
+    "mean_syllables": 1.37,
+    "pct_polysyllabic": 6.2,
+    "pct_long_words": 2.4,
+    "commas_per_sentence": 0.41
   },
   "eli10": null,
   "block_counts": {
@@ -22,10 +22,13 @@
     "begrip": 3
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text: 0.41 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
   "warnings": [
-    "Study text: 0.37 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences  [marginal — within tolerance, not blocking]",
-    "Long words in study text with no 'begrip' entry: bekommernis, belangstelling, stokperdjie, veranderinge, verskillende, vriendekring"
+    "Study block 2 ('Wat aan die liggaam verander') 124 words (guide 30–110) — will overflow its section",
+    "Study block 6 ('Hierdie tekens bewys niks') 114 words (guide 30–110) — will overflow its section",
+    "Long words in study text with no 'begrip' entry: bekommernis, belangstelling, onnatuurlik, slaappatroon, stokperdjie, veranderinge, verhoudings, verskillende"
   ],
   "notes": [
     "Grade 7 register band is an ESTIMATE, not measured. Profile DBE past papers to replace it.",

@@ -1,9 +1,11 @@
 {
   "les": "gr7/lewensorientering/gesondheids-sosiale-en-omgewingsverantwoordelikheid/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:a8e3b510dd4cfca9bf249e6fa7266aa5",
+  "konsep_hash": "sha256:3a8697c2b2bc6c008b1389676e8b0aba",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:fea5f83e5d225fe7f89b553cbe670637"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -21,11 +23,51 @@
       "woorde": 634,
       "begroting": 600,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-28T09:07:53+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fea5f83e5d225fe7f89b553cbe670637",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-28T09:07:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 676,
+      "begroting": 620,
+      "failures": [
+        "Study text: 0.48 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-28T09:07:53+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 0.48 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-28T09:17:56+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3a8697c2b2bc6c008b1389676e8b0aba",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-28T09:17:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 684,
+      "begroting": 620,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:61706610c03c6940acee06291bebb757",
+  "spek_hash": "sha256:b321966c98dc9eccf3e128e77c3aa838",
   "hek_konteks": {
     "graad": 7,
-    "begroting": 600
+    "begroting": 620
   }
 }
