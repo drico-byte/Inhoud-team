@@ -36,6 +36,21 @@ the work and the *field* feels like bookkeeping.
 5. **Run `bin/laat-regstellings.py`.** It exists for exactly this and it is cheap. It
    cannot see a same-day reversal, so step 3 is still required.
 
+**30 September 2026 — five more, in one day, and the fix is a command not a resolution.** Grade 7
+LO. Five times I added a requirement that supersedes an older form and did not sweep the fields that
+still ordered the old one. Every one was found by a writer or a coverage checker, exactly as the tell
+below predicts. Reading this note again did not stop it; the fifth time, running the sweep did.
+
+**`bin/beweringveeg.py --bewering "<shortest phrase that makes the claim unique>" --graad N --vak X`.**
+It separates a hit that stands LIVE from one inside a dated bracket, which is the distinction step 4
+is about. On the withdrawn "gives no understanding by itself" it returned eight live hits: three
+fields still ORDERING it, five carrying it as record. I would have found none of them by memory, and
+I had just spent four rounds on that entry.
+
+**So step 3 has a tool and is no longer a grep.** Run it *before* briefing anything — after amending
+the opening line, before the writer. The cost is one command. The cost of skipping it, measured today,
+is a writer pass and a checker pass per miss.
+
 **The tell that it has happened again:** a checker reports the draft is correct but
 escalates anyway, or a writer says "the spec's core item still orders the old form".
 Both happened today. When a *writer* catches your bookkeeping, the bookkeeping is the
