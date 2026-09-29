@@ -51,6 +51,19 @@ I had just spent four rounds on that entry.
 the opening line, before the writer. The cost is one command. The cost of skipping it, measured today,
 is a writer pass and a checker pass per miss.
 
+**The physical arrangement to look for, named 30 September 2026:** the dated bracket sits ABOVE a
+sentence that still gives the old order. Two checkers described it in the same words that day — it
+reads as commentary over a live instruction rather than as a correction. So when I insert a bracket,
+the question is not "is the correction recorded" but **"what does the sentence AFTER my bracket still
+say"**. In five fields that day the answer was: the old order, one sentence's distance below.
+
+Two further variants from the same day. A **justification** can rebuild the fault on its own — a
+clause explaining WHY the old form was right, left standing above its own correction, is enough for a
+reviser to reconstruct it without ever reading the instruction. And a field-level blanket marker ("the
+list wins over everything below") does **not** cover a stale line inside the field: that same blanket
+had already been judged insufficient four times in one field, every time because the stale line is
+what gets read first.
+
 **The tell that it has happened again:** a checker reports the draft is correct but
 escalates anyway, or a writer says "the spec's core item still orders the old form".
 Both happened today. When a *writer* catches your bookkeeping, the bookkeeping is the
