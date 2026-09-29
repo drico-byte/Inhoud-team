@@ -392,6 +392,14 @@ the comma limit (≤0.35 per sentence) does more work than the length limit.
 
 ## Volume budget
 
+**A HYPHEN COSTS A WHOLE WORD.** The gate counts words as runs of letters, so every
+hyphen splits one word into two: `Wes-Kaap`, `Oos-Kaap`, `Noord-Kaap` and
+`KwaZulu-Natal` are two words each, `bek-en-klouseer` is three, and **the nine
+province names come to 13 words, not 9**. This was never worth knowing while the
+ceiling had 15% of slack in it. Under a hard ceiling it is, and a planner costing a
+list of hyphenated names will be out by a third if it counts them as a person would.
+Measure the string, do not count the items.
+
 **THERE ARE NOW TWO METHODS, AND THE SPEC SAYS WHICH ONE IT USES.**
 
 **The current method is CAPS hours — see "Budgets from CAPS hours" below.** It is

@@ -345,7 +345,9 @@ def run(lesson, grade, budget, kaps_ure=False):
     # Name the thing being measured after what actually carries the lesson, so a
     # reading lesson's failure does not talk about study text it never had.
     label = "Reading text" if reading and not study else "Study text"
+    begrotingsreel = None
     if kaps_ure:
+        begrotingsreel = f"CAPS-hours: {budget:.0f} planned, ceiling {budget * (1 + KAPS_URE_TOLERANCE):.0f} (+12%), under-run warns"
         hi = budget * (1 + KAPS_URE_TOLERANCE)
         if sm["words"] > hi:
             fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} "
@@ -362,6 +364,11 @@ def run(lesson, grade, budget, kaps_ure=False):
         if _sleutel in BUDGET_TOLERANCE_VAK:
             onder, bo = BUDGET_TOLERANCE_VAK[_sleutel]
         lo, hi = budget * (1 - onder), budget * (1 + bo)
+        if _sleutel in BUDGET_TOLERANCE_VAK:
+            begrotingsreel = (f"{_sleutel[0]} Gr {_sleutel[1]}: {lo:.0f}-{hi:.0f}"
+                              + (" — the budget is a HARD CEILING" if bo == 0 else ""))
+        else:
+            begrotingsreel = f"default ±{BUDGET_TOLERANCE:.0%}: {lo:.0f}-{hi:.0f}"
         if sm["words"] < lo:
             fails.append(f"{label} {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
         elif sm["words"] > hi:
@@ -496,6 +503,7 @@ def run(lesson, grade, budget, kaps_ure=False):
         "graad": grade,
         "vak": lesson.get("vak"),
         "budget": budget,
+        "begrotingsreel": begrotingsreel,
         "begroting_basis": "kaps-ure" if kaps_ure else "meting",
         "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "study": {k: v for k, v in sm.items() if k != "long_words"},
@@ -546,6 +554,8 @@ def main():
             shown = "reading text" if counts.get("leesstuk") and not counts.get("studie") else "study text"
             print(f"\n  {shown:<12} {s['words']} words / {s['sentences']} sentences")
             print(f"               {s['mean_sentence_len']} words per sentence, {s['mean_syllables']} syllables per word, {s['pct_polysyllabic']}% polysyllabic")
+        if r.get("begrotingsreel"):
+            print(f"  volume band  {r['begrotingsreel']}")
         if r["eli10"]:
             e = r["eli10"]
             print(f"  eli10 layer  {e['words']} words, {e['mean_sentence_len']} words per sentence, {e['mean_syllables']} syllables per word")
