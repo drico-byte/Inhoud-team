@@ -19,6 +19,14 @@ DIE DRIE VORME
    les deur die skrywer'. Sodra die skrywer geloop het, bestel so 'n sin 'n verandering aan
    teks wat reeds reg is.
 
+   WAT HIERDIE VEEG VAN VORM 3 KAN VIND, EN WAT NIE. Sy vind net die EKSPLISIETE bewoordings
+   hierbo. Die wyer klas - enige veld wat die konsep se HUIDIGE toestand beskryf ('die les se
+   X', 'die inskrywing staan nog so', 'dit is nie 'n fout nie') - kan sy NIE vind nie, en 'n
+   poging daartoe sou op elke wettige foutbeskrywing vuur, want 'n regstelling begin byna altyd
+   deur te se wat die les tans se. Daardie wyer klas is 'n DEKKINGSNASIENER se werk: hy lees die
+   konsep en die veld saam, en dit is die enigste manier om te weet of 'n beskrywing nog waar is.
+   'n Toets wat op gewone werk vuur, word geignoreer - en dit is erger as geen toets.
+
 Die veeg BESLUIT niks. Sy wys plekke wat 'n mens moet lees, want of 'n klousule verouderd is,
 hang af van wat sedertdien besluit is.
 

@@ -123,3 +123,4 @@
 - [A record is read as an order](n-rekord-word-as-n-bestelling-gelees.md) — the TERUGGETREK label failed four times in one day; paraphrase the old wording instead of quoting it, and read the field before acting on a stale-requirement report.
 - [The career-field wording is open](loopbaanveld-bewoording-is-oop.md) — two fact checks in one day contradict each other; CAPS attaches interests to the field and the six fields are interest groups, so it is a curriculum call.
 - [A sweep for fields that still order](n-veeg-vir-velde-wat-nog-bestel.md) — bin/spekveeg.py finds the three shapes; it must not fire on the normal correction shape, or it gets ignored.
+- [A pointer names, never ranks](n-wyser-benoem-nooit-rangskik.md) — six pointers to "the newest item" broke when my next repair added one; name the item by its content.
