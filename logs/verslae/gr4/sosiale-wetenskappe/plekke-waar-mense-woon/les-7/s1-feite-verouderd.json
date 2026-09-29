@@ -4,241 +4,227 @@
   "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Dieselfde behoeftes, verskillende maniere",
   "kaps_punt": "Maniere waarop mense in hulle behoeftes voorsien: Stories om te beskryf hoe mense in verskillende plekke in hulle behoeftes voorsien ****",
-  "verdict": "MENS_NODIG",
-  "opsomming": "Die veranderde woord is reg - 'n plaasgesin en 'n dorpiegesin koop albei die meeste van hulle kos, en die paar leer nie meer die omgekeerde van die bewyse nie - maar twee dinge wat elkeen op sy eie waar is, is saamgelees vals: die plaas kry diere vir melk, vleis en eiers terwyl die dorpie net groente kry (dorpsgesinne in Suid-Afrika hou wel hoenders, bokke en beeste, en lewer sowat 40% van die land se beesvleis), en nerens se die les dat 'n plaas kos vir ander plekke kweek nie, sodat 'n leerder 'n plaas leer ken as 'n plek wat sy eie kos in die dorp gaan koop; twee plaassinne ('n deel van hulle kos plant, diere aanhou) kon nie teen 'n Suid-Afrikaanse bron vasgemaak word nie omdat die les nie se wie op die plaas woon nie, en albei stories kom weer skoon uit met elke tekort aan die sagte kant van die werklike syfers.",
+  "verdict": "HERSIEN",
   "items": [
     {
       "bewering": "Elke mens het water, kos en skuiling nodig om te lewe.",
       "blok": "Dieselfde behoeftes oral",
       "status": "bevestig",
-      "bron": "VN-Wereldberaad oor Maatskaplike Ontwikkeling (Kopenhagen, 1995) omskryf absolute armoede as ernstige ontbering van basiese menslike behoeftes, uitdruklik met voedsel, veilige drinkwater, sanitasie, gesondheid en skuiling in die lys; Artikel 25 van die Universele Verklaring van Menseregte noem voedsel en behuising. Nagegaan 29 September 2026 via UN/USIP-opsommings van die 1995-verklaring.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "VN-verklaring van die Wêreldberaad oor Maatskaplike Ontwikkeling (Kopenhagen, 1995), aangehaal by usip.org se 'Access to and Delivery of Basic Needs Services', wat voedsel, veilige drinkwater, sanitasie, gesondheid en skuiling as basiese menslike behoeftes lys. Water, kos en skuiling is die drie wat oorlewing self raak."
     },
     {
       "bewering": "Daardie behoeftes is oral dieselfde, maar die maniere om daaraan te kom verskil van plek tot plek.",
       "blok": "Dieselfde behoeftes oral",
       "status": "bevestig",
-      "bron": "Stats SA Algemene Huishoudingsopname 2024: 71,8% van stedelike inwoners het veilig bestuurde water teenoor 36,7% van landelike inwoners; die AHO deel sy steekproef juis in drie geografietipes (stedelik, tradisioneel, plase) omdat toegang so verskil. Stats SA AHO 2021: 39,4% van landelike huishoudings is by landbou betrokke teenoor 7,4% van stedelikes.",
-      "tipe": "algemeen"
+      "tipe": "analogie",
+      "bron": "Die les dra geen beeldspraak nie, maar hierdie sin STEL die vergelyking wat die hele les daarna uitvoer (vier plekke, elk met kos en water), so die afbeelding is getoets. Die afbeelding hou: die behoefte is universeel en die voorsiening verskil meetbaar per plek - StatsSA Sensus 2022 (59,7% van huishoudings het pypwater binne die woning, Wes-Kaap 85,5%, Limpopo 31,4%) en Children Count, UCT Kindersinstituut op AHO 2002-2024 (meer as 90% van stedelike kinders het water op die erf teenoor 43% in die landelike voormalige tuislande). Getoets vir die risiko dat 'verskil' ongelykheid as blote 'ander maniere' laat lees - die twee stories dra self die tekort, so die raam word nie alleen gelaat om vals werk te doen nie."
     },
     {
       "bewering": "Op baie plase plant die mense self 'n deel van hulle kos.",
       "blok": "Op 'n plaas",
-      "status": "onseker",
-      "bron": "Geen Suid-Afrikaanse meting gevind van hoeveel plaashuishoudings 'n deel van hulle eie kos plant. Die sin hang af van wie 'die mense' op die plaas is, en die twee lesings loop teenoorgesteld uit. Vir plaaswerkers en plaasbewoners, wat die groot meerderheid van die sowat 2,08 miljoen mense in plaasgebiede is (Sensus 2011: 592 298 huishoudings, 2 078 723 mense), se die eweknie-beoordeelde Noord-Kaapse studie in Int J Environ Res Public Health (PMC6683081) reguit: 'farm workers do not produce food for their family's consumption. Most are employed in producing fruit ... rather than subsistence crops.' Die HSRC se ARHE-verslag stem saam dat sulke huishoudings van lone en toelaes leef, en 60% van hulle was in 2023 onder die voedselarmoedegrens. Vir die boer se eie huishouding het my soektogte net lewenstylstukke, 'n Workaway-lysting en beeldbanke opgelewer - presies die soort bron wat hierdie prompt my se om te wantrou. My prompt se ook om 'n bewering oor plaaslike gebruik nie op internasionale afleiding te weerspreek nie, dus is dit onseker en nie weerspreek nie. 'n Mens moet besluit oor wie die plaasblok gaan.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Hulle hou ook diere aan vir melk, vleis en eiers.",
-      "blok": "Op 'n plaas",
-      "status": "onseker",
-      "bron": "Dieselfde onsekerheid as die sin voor hom, met een bykomende punt teen die bewering: 'n plaasbewoner het geen outomatiese reg om vee aan te hou nie. GroundUp se regsvraag-en-antwoord (groundup.org.za/qanda/402) stel dit so - ESTA beskerm behuising, maar 'keeping livestock is a separate tenure agreement with the farmer or landowner', en die eienaar mag diere heeltemal verbied. Parlementere Monitering Groep se verslae oor plaasbewoners se verblyfreg teken aan dat konstruktiewe uitsettings juis gebeur waar weiding geweier word of vee-getalle beperk word. As 'die mense' die boer se gesin is, is 'n melkkoei, hoenders en slagdiere 'n bekende Suid-Afrikaanse patroon, maar ek kon dit nie teen 'n betroubare Suid-Afrikaanse bron vasmaak nie. Let ook daarop dat die sin self nie deur 'baie plase' versag word nie - hy lees as 'n algemene stelling oor plaasmense.",
-      "tipe": "algemeen"
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "StatsSA Algemene Huishoudingsopname 2021 (statssa.gov.za/?p=15273): 17,3% van huishoudings was by landbou betrokke, hoofsaaklik buite die metro's; 74,5% van hulle noem dit 'n EKSTRA bron van kos en net 12% 'n hoofbron. 'n Deel van hulle kos, deur baie van hulle, is presies die regte sterkte."
     },
     {
       "bewering": "Die meeste van hulle kos koop hulle in die dorp.",
       "blok": "Op 'n plaas",
       "status": "bevestig",
-      "bron": "Dit is die woord wat verander het, en dit is nou reg. HSRC ARHE-verslag oor huishoudings wat 'n bestaan uit landbou maak: hulle steun op loon-inkomste en maatskaplike toelaes eerder as op boerdery vir hulle kos; plaaswerkers verdien gemiddeld R4 401 en plaasbewoners R4 118 per maand en koop daarmee kos. Noord-Kaapse plaaswerkerstudie (PMC6683081): werkers produseer nie kos vir hulle gesinne nie. Breer: navorsing aangehaal in Econ3x3 en die Tandfonline-studie oor landelike voedselbesteding wys markaankope wat tot 90% van voedselvoorraad haal. As iets is 'die meeste' hier effens sagter as die werklikheid; dit is die veilige rigting.",
-      "tipe": "superlatief"
+      "tipe": "superlatief",
+      "bron": "StatsSA AHO 2021 (soos bo): net 12% van landbou-huishoudings produseer as hoofbron van kos, dus koop die res die meeste daarvan. StatsSA Sensus 2022 Landbou-huishoudings (Verslag 03-11-01): die meeste produseer net vir eie gebruik en slegs 4,3% produseer net vir verkoop. Die superlatief 'die meeste' is hier die versigtige vorm, nie die los een nie."
+    },
+    {
+      "bewering": "Die plaas kweek ook gewasse en hou diere aan.",
+      "blok": "Op 'n plaas",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "StatsSA Sensus van Kommersiële Landbou 2017 (statssa.gov.za/?p=13144, syfers ook woordeliks weergegee by politicsweb se afskrif van die StatsSA-vrystelling): van 40 122 plase is 13 639 (33,9%) veeboerdery, 12 458 (31,1%) gemengde boerdery, 8 559 (21,3%) akkerbou en die res tuinbou. 'Gemengde boerdery' is juis die kategorie wat gewasse EN diere op dieselfde plaas beteken (FAO, 'Mixed crop-livestock farming'). Omtrent twee derdes van Suid-Afrika se plase doen dus NIE albei nie. Agtergrond: net omtrent 12% van die land is geskik vir reënverbouing terwyl sowat 69% net vir weiding geskik is, wat baie plase blywend eensydig maak.",
+      "regstelling": "Sommige plase kweek gewasse, ander hou diere aan, en party doen albei. Twee dinge oor die fout, sodat die regstelling die regte een tref: (1) Die rigting is OORBEWERING, soos voorspel. 'Die plaas' is 'n generiese bepaalde enkelvoud en lees vir 'n nege-jarige as 'n plaas / elke plaas, nie as 'party plase' nie. (2) Die geërfde voorbehoud is NIE genoeg nie. 'Op baie plase' staan twee sinne terug en hang aan 'n ander onderwerp - wat die MENSE vir hulleself plant - terwyl hierdie sin oor wat die PLAAS produseer gaan. Die 'ook' bind die sin aan die plant-sin, nie aan die 'baie'-kwantifiseerder nie. Vernou die kwantifiseerder, moenie die onderwerp vernou nie: die plaas as produsent moet bly staan, net nie as een wat altyd albei doen nie. Sien ook die stel-bevinding hieronder oor waar die diere in die hele les staan - die twee hoort saam reggemaak."
+    },
+    {
+      "bewering": "Winkels in dorpe kry baie van daardie kos.",
+      "blok": "Op 'n plaas",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "UNCTAD se studie oor die internasionalisering van supermarkte in Suid-Afrika en akademiese werk oor Suid-Afrikaanse agroverwerking (Wiley, 'Supermarketisation, Agro-Industrial Concentration'): supermarkte betrek hulle produkte hoofsaaklik by groot kommersiële boere en versprei dit deur gesentraliseerde verspreidingsentrums; die sewe grootste kettings dek sowat 80% van alle kleinhandelverkope, met winkels in dorpe reg deur die land."
+    },
+    {
+      "bewering": "Winkels in dorpe kry baie van daardie kos. (RIGTING VAN DIE RISIKO - die tweede helfte van die toets)",
+      "blok": "Op 'n plaas",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Getoets in albei rigtings, soos gevra. Dit ONDERSKAT eerder as wat dit oorskat, en die onderskatting is veilig. Twee redes. (1) 'Baie van' is laer as die werklikheid: die uitvoere is groot (Agbiz: 'n rekord van US$13,7 miljard in 2024) en 'n deel gaan na verwerking en veevoer, maar verwerkte kos en vleis beland steeds in winkels, so die meeste van 'n plaas se kosuitset word uiteindelik winkelkos. (2) 'In dorpe' is enger as die werklikheid, want stede se winkels ontvang 'n groter volume as dorpe s'n. Nie een van die twee onderskattings maak die sin onwaar nie, en die les beweer nêrens 'net dorpe' nie. Een ding wat WEL ontbreek maar reg is om te ontbreek: die pad van plaas na winkel loop deur meule, varsproduktemarkte en verspreidingsentrums. Dit is 'n vereenvoudiging van die METODE, nie van die herkoms nie - die kos kom wel van plase en beland wel in winkels."
     },
     {
       "bewering": "Baie plase pomp water uit 'n boorgat in die grond.",
       "blok": "Op 'n plaas",
       "status": "bevestig",
-      "bron": "British Geological Survey, 'Hydrogeology of South Africa' (earthwise.bgs.ac.uk): sowat 65% van Suid-Afrika se grondwater gaan na landbou - ongeveer 60% besproeiing en 5% veewater - en boere is nog sterker afhanklik van ondergrondse bronne vir veewater en huishoudelike behoeftes. Agribook Digital se bladsy oor boorgate en windpompe bevestig dieselfde vir kommersiele plase.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "The Conversation, 'Boreholes are booming in a drying South Africa' (oor die Departement van Waterwese se konsepregulasies van Desember 2025): kommersiële landbou gebruik meer as 60% van Suid-Afrika se grondwaterbronne, en na raming word 80 000 tot 100 000 nuwe boorgate elke jaar geboor. Ek kon geen amptelike telling kry van HOEVEEL plase 'n boorgat het nie, maar 'baie plase' is 'n sagte kwantifiseerder wat ruim deur hierdie gebruiksyfer gedra word."
     },
     {
-      "bewering": "Een keer 'n maand ry 'n gesin na 'n supermark in die naaste dorp.",
+      "bewering": "Een keer 'n maand ry 'n gesin na 'n supermark in die naaste dorp. Daar koop hulle die meeste van hulle kos.",
       "blok": "In 'n dorpie",
       "status": "bevestig",
-      "bron": "Die maandelikse grootinkopie is 'n goed gedokumenteerde Suid-Afrikaanse patroon: groot kleinhandelaars by dorps- en township-sentrums word gewoonlik een keer per maand met 'n taxi bereik vir die groter maandinkopie, terwyl spaza-winkels in die tussentyd kleiner pakkies, krediet en gemak bied (vergelyk die 'ukonga iGroceries'-beskrywing van 'n SASSA-betaaldag-rit na 'n grootmaathandelaar en die Daily Dispatch-verslag oor spaza-besteding). 'Ry' in Afrikaans dra ook 'n taxi-rit, dus eis die sin nie motorbesit nie.",
-      "tipe": "superlatief"
-    },
-    {
-      "bewering": "Daar koop hulle die meeste van hulle kos.",
-      "blok": "In 'n dorpie",
-      "status": "bevestig",
-      "bron": "Stats SA AHO 2021: van die 3,1 miljoen huishoudings wat by landbou betrokke is, se 74,5% dit is 'n ekstra bron van kos en net sowat 12% 'n hoofbron. Econ3x3, 'The quiet erosion': huishoudelike landbou is 'n buffer eerder as 'n hoofbron, en die aandeel huishoudings wat enige landbou doen het van 19,9% (2011) tot 13,8% (2022) gedaal. Die dorpiegesin koop dus inderdaad die meeste van hulle kos, en ook hier is 'die meeste' sagter as die werklikheid.",
-      "tipe": "superlatief"
+      "tipe": "superlatief",
+      "bron": "IntechOpen, 'Examining Food Purchasing Behavior of Rural Households in South Africa Post-COVID-19 Lockdown Restrictions', saam met die PMC-studie oor 'hampers' in Suid-Afrikaanse lae-inkomstegemeenskappe: 74% van respondente koop pakkette by supermarkte en 63% van hulle doen dit maandeliks, met kleiner aankope tussenin. Dit is 'n Suid-Afrikaanse bron vir 'n Suid-Afrikaanse gewoonte, soos vereis."
     },
     {
       "bewering": "Die klein winkels in die dorpie verkoop brood, melk en seep tussenin.",
       "blok": "In 'n dorpie",
       "status": "bevestig",
-      "bron": "Spaza-winkels se rol tussen maandinkopies is goed beskryf: kleiner pakkiegroottes, krediet en gemak, insluitend brood-en-melk-kredietreelings aan die einde van die maand (UCT Case Writing Centre se stuk oor die Spaza Shop Support Fund; SAnews oor spaza-registrasie; Daily Dispatch oor spaza-besteding). Brood, melk en seep is standaardvoorraad.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Global Informality Project se inskrywing oor spaza-winkels en die PLAAS-werkstuk 'What Price Cheap Goods?' (foodsecurity.ac.za): 'n spaza is 'n klein winkel in 'n buurt, township of landelike gebied wat daaglikse goed soos brood, melk en huishoudelike basics verkoop, en dien juis as die aanvulling tussen groot aankope."
     },
     {
       "bewering": "Baie gesinne kweek ook groente agter die huis.",
       "blok": "In 'n dorpie",
       "status": "bevestig",
-      "bron": "Stats SA AHO 2021: 39,4% van landelike huishoudings was by landbou-aktiwiteite betrokke; Stats SA AHO 2023 rapporteer dat die meeste van daardie huishoudings vrugte en groente, graan en ander voedselgewasse produseer. 'Baie gesinne' hou maklik teen sowat 'n derde tot twee vyfdes van landelike huishoudings.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "StatsSA Sensus 2022 Landbou-huishoudings: 16,3% van huishoudings landelik betrokke by landbou, met Limpopo op 35,2% en Mpumalanga op 33,4%; StatsSA Gemeenskapsopname 2016 tel 873 355 huishoudings by groenteproduksie. Die sin self is waar. Sien egter die volgende item - as DEEL VAN DIE STEL is dit onvolledig op 'n manier wat saak maak."
+    },
+    {
+      "bewering": "STEL-BEVINDING oor waar die diere staan. 'Op baie plase plant die mense self 'n deel van hulle kos' (Op 'n plaas) + 'Baie gesinne kweek ook groente agter die huis' (In 'n dorpie), teenoor 'Die plaas kweek ook gewasse en hou diere aan' (Op 'n plaas).",
+      "blok": "Op 'n plaas + In 'n dorpie (gelees as stel)",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "StatsSA Gemeenskapsopname 2016, Landbou-huishoudings (Presentation_CS2016_Agricultural_Households.pdf): van 2,3 miljoen landbou-huishoudings is 1 120 233 by pluimvee betrokke, 990 210 by vee, 873 355 by groente en 574 684 by graan en voedselgewasse. Pluimvee is dus die ALGEMEENSTE vorm van eie kosproduksie in Suid-Afrika, algemener as groente kweek. StatsSA Sensus 2022 Landbou-huishoudings bevestig dit onafhanklik: 'in most cases it was poultry, with the main focus on livestock and poultry', en die meeste van daardie huishoudings produseer net vir eie gebruik.",
+      "regstelling": "Die VALSE GEVOLGTREKKING wat die stel nou dra: diere hoort aan plase, en gesinne kweek plante vir hulle eie kos. Albei helftes is verkeerd om. Ná die skuif in toets 2 staan 'diere' net één keer in die hele les, en dan as produksie by die plaas. Elke ander plek waar 'n gesin self kos maak - die plaas se mense wat 'n deel van hulle kos PLANT, die dorpie se gesinne wat groente KWEEK - is nou plantery alleen. 'n Nege-jarige wat vier parallelle blokke oor dieselfde vraag lees, trek die kontras wat die blokke trek. Regstelling as bewering: baie gesinne in 'n dorpie kweek groente agter die huis EN hou hoenders of ander diere aan. Dit is nie 'n pleidooi om die plaas se diere weg te vat nie - die plaas bly 'n produsent. Dit is dat diere nie 'n plaas-eksklusiewe kenmerk van die stel mag wees nie. Let op dat hierdie bevinding en die vorige een saam gebore is uit dieselfde skuif, en saam reggemaak moet word, anders skuif die fout weer een blok verder."
     },
     {
       "bewering": "In sommige huise loop water uit 'n kraan in die kombuis. Ander gesinne haal water by 'n gemeenskapskraan in die straat.",
       "blok": "In 'n dorpie",
       "status": "bevestig",
-      "bron": "Stats SA: huishoudings met pypwater binne die woning het van 40,4% tot 45,2% gestyg, terwyl 87,0% pyp- of kraanwater op of af die perseel het; toegang tot tussentydse dienste (gemeenskapskraan binne 200 m) staan op sowat 10%. In landelike gebiede het net 36,7% veilig bestuurde water. Die twee soorte huishouding langs mekaar in een dorpie is presies wat die syfers wys.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Children Count, UCT Kindersinstituut, op StatsSA AHO 2002-2024: 43% van kinders in die landelike voormalige tuislande het water op die erf, dus het die meerderheid dit nie. Departement van Waterwese se Gratis Basiese Water-beleid: sowat 7,5 miljoen Suid-Afrikaners kry water by gemeenskapskrane, met 'n standaard van 25 liter per persoon per dag binne 200 meter van die woning. Die gemengde prentjie in een nedersetting - party binne, party by die straatkraan - is presies wat die data wys."
     },
     {
       "bewering": "In 'n dorp koop mense die meeste van hulle kos by winkels.",
       "blok": "In 'n dorp",
       "status": "bevestig",
-      "bron": "Stats SA AHO 2021: net 7,4% van stedelike huishoudings is by enige landbou betrokke, en van die betrokkenes doen 74,5% dit as ekstra kos. Supermarkte hou sowat 55% van die Suid-Afrikaanse voedselkleinhandelmark (sowat 1 700 supermarkte), met spaza- en informele handel vir die res.",
-      "tipe": "superlatief"
+      "tipe": "superlatief",
+      "bron": "StatsSA AHO 2021: landbou-huishoudings sit hoofsaaklik buite die metro's, en selfs onder hulle is eie produksie vir 74,5% net 'n ekstra bron. UNCTAD/agroverwerkingsliteratuur: sewe kettings dek sowat 80% van kleinhandelverkope. In 'n Suid-Afrikaanse dorp word kos oorweldigend gekoop."
     },
     {
       "bewering": "Pype onder die strate bring water tot in die meeste huise.",
       "blok": "In 'n dorp",
       "status": "bevestig",
-      "bron": "Stats SA AHO 2023/2024: 87,0% van alle huishoudings het toegang tot pyp- of kraanwater op of af die perseel, 45,2% binne die woning, en 71,8% van stedelike inwoners het veilig bestuurde water. 'Die meeste huise' is die korrekte versagting - dit se nie almal nie.",
-      "tipe": "superlatief"
+      "tipe": "superlatief",
+      "bron": "StatsSA Sensus 2022: 59,7% van ALLE huishoudings (stedelik en landelik saam) het pypwater binne die woning, en 82,4% binne die woning of op die erf; stedelike syfers lê hoër omdat landelike syfers die gemiddeld aftrek (Limpopo 31,4%, Wes-Kaap 85,5%). Die AHO gee 'n laer syfer vir dieselfde maatstaf (45,2% in 2023, 46,4% in 2024), maar selfs op daardie basis bly 'n dorp se syfer bo die helfte, want landelike pypwatertoegang van enige aard is net sowat 38%. Die bewering hou dus onder albei instrumente. Ingenieurswese-kant: hoofpype lê standaard onder strate en padreserwes (reticulation/gridiron-stelsels), so 'onder die strate' is korrek en nie net beeldspraak nie."
     },
     {
       "bewering": "Wanneer die water loop, hoef die mense in daardie huise dit nie te gaan haal nie.",
       "blok": "In 'n dorp",
       "status": "bevestig",
-      "bron": "Die voorwaardelike 'wanneer' is self korrek en nodig: Cape Times (Aug 2026) rapporteer dat net 68,79% van huishoudings daaglikse toevoer kry, en 'n provinsiale sensus wys dat van die sowat 90% met waterinfrastruktuur, 65,8% gereeld onderbrekings beleef. Die sin oorstel dus nie.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Selfstandig waar, en die voorwaarde 'wanneer die water loop' is feitelik noodsaaklik eerder as versiering: StatsSA AHO 2025 (berig deur Moneyweb en eNCA) wys 56,8% van huishoudings het waterontwrigtings beleef en 37,6% ontwrigtings van minstens twee dae. Getoets as 'n aangrensende paar saam met die vorige sin: 'daardie huise' sonder die minderheid uit, so die blok beweer nêrens dat almal in 'n dorp water binne het nie."
     },
     {
       "bewering": "In 'n stad staan groot winkels vol kos en fabrieke wat dinge maak.",
       "blok": "In 'n stad",
       "status": "bevestig",
-      "bron": "Supermarkte: sowat 1 700 winkels, 55% van die voedselkleinhandelmark. Agroverwerking alleen bedryf sowat 3 600 eenhede met R370 miljard uitset (Southern Africa Food Lab, 'The contributions of commercial farming to South African food systems', Mei 2025). Fabrieke en groot voedselwinkels in stede is korrek.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "StatsSA-vervaardigingsdata soos weergegee deur die Gauteng City-Region Observatory: Gauteng huisves 43% van die vervaardigingswerksmag en 42% van verkope, met die konsentrasie in Johannesburg, Ekurhuleni, Kaapstad en eThekwini - dit wil sê in stede. Getoets vir die risiko dat 'winkels vol kos' en 'fabrieke' langs mekaar 'n leerder laat dink die stad se kos kom uit fabrieke: die sin sê 'dinge', nie kos nie, en selfs die verkeerde lesing sou nie vals wees nie, want Suid-Afrikaanse agroverwerking maak wel brood, mieliemeel en blikkieskos in stadsfabrieke."
     },
     {
       "bewering": "Groot stelsels van pype en pompe bring water tot in die meeste huise.",
       "blok": "In 'n stad",
       "status": "bevestig",
-      "bron": "Stats SA AHO: 71,8% van stedelike inwoners het veilig bestuurde water; Johannesburg Water alleen bedryf duisende kilometers verspreidingspyp, groot reservoirs en suiweringsaanlegte. 'Die meeste huise' hou.",
-      "tipe": "superlatief"
+      "tipe": "superlatief",
+      "bron": "StatsSA AHO 2023: 97,2% van metro-huishoudings het toegang tot kraanwater, met Kaapstad op 99,8%, Johannesburg 98,9% en Ekurhuleni 98,6%; Sensus 2022 gee 59,7% binne die woning landwyd, en stedelik hoër. Pompe is korrek saam met pype genoem - stedelike verspreiding werk met pompe na reservoirs en drukzones, nie met swaartekrag alleen nie."
     },
     {
       "bewering": "Party gesinne deel 'n kraan buite die huis.",
       "blok": "In 'n stad",
       "status": "bevestig",
-      "bron": "Metro-syfers: Kaapstad 12% van huishoudings op 'n gemeenskapskraan (Sensus 2011), Ekurhuleni 8%, Johannesburg 7%, Tshwane 3%. Binne informele nedersettings is dit die meerderheid - 55% se hoofdrinkwaterbron in nedersettings wat vir opgradering geoormerk is, en 74,4% in 'n Kaapstadse studie (PMC7345018, PMC8199993). 'Party gesinne' is die regte kwantifiseerder.",
-      "tipe": "getal"
+      "tipe": "algemeen",
+      "bron": "Departement van Waterwese se Gratis Basiese Water-beleid: sowat 7,5 miljoen Suid-Afrikaners kry water by gemeenskapskrane, ook in arm stedelike en randstedelike gebiede. Dat metro's 97,2% kraantoegang het en tog net sowat 60% binne-die-woning-verbindings, laat juis hierdie groep oor."
     },
     {
       "bewering": "Baie mense se werk hou daardie stelsels aan die gang.",
       "blok": "In 'n stad",
       "status": "bevestig",
-      "bron": "Johannesburg Water se eie posbeskrywings dek loodgieters, pypmonteerders, lekplaatsoekers, prosesbeheerders en chemiese ingenieurs vir die suiweringsaanlegte; nasionaal is daar deurlopend honderde waterbehandelingsvakatures. Die stelsels word inderdaad deur mense se werk aan die gang gehou.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Munisipale waterdienste is 'n werkgewende funksie: waterhoofpype en -netwerke is die plaaslike regering se instandhoudingsverantwoordelikheid, en die Nasionale Beplanningskommissie se dienslewerings-navorsingsverslag (Mei 2025) skryf swak waterdienste juis toe aan tekorte aan ingenieurs en instandhoudingspanne - die werk bestaan, en waar dit ontbreek val die stelsel om."
     },
     {
-      "bewering": "Thabo woon saam met sy ma en sy suster in 'n klein dorpie. Sy ma werk by die kliniek ... Die kliniek, die skool en daardie winkels is naby genoeg om soontoe te loop.",
+      "bewering": "Die kliniek, die skool en daardie winkels is naby genoeg om soontoe te loop. Hulle huis het egter nie 'n kraan met lopende water nie.",
       "blok": "Thabo se dorpie",
       "status": "bevestig",
-      "bron": "Landelike primere gesondheidsklinieke in dorpies is algemeen - KwaZulu-Natal alleen het 232 landelike PHC-klinieke (PMC5975682). Die sin is korrek. Een waarneming vir 'n mens, nie 'n fout nie: kliniektoegang is die een ding in Thabo se storie wat aan die gunstige kant le eerder as die sagte kant van 'n tekort. In die landelike Oos-Kaap is die gemiddelde loopafstand na enige gesondheidsdiens sowat 9 km en 82,5% van mense woon 6-20 km van 'n kliniek, hoewel 76% steeds stap (SciELO SA, Morris-Paxton et al., Afr J Prim Health Care Fam Med). Die storie se dienste is dus beter as tipies terwyl sy water slegter is; dit is 'n samehangende prentjie van 'n dorpie met dienste maar sonder huiskrane, en ek vra nie dat dit verander word nie.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Thabo loop elke oggend skool toe.",
-      "blok": "Thabo se dorpie",
-      "status": "bevestig",
-      "bron": "Stats SA Nasionale Huishoudelike Reisopname 2020: 59,4% van alle leerders (sowat 10 miljoen) stap die hele pad skool toe, en 76,9% van hulle doen dit omdat die skool naby genoeg is om te stap. Stap is in al nege provinsies die mees gebruikte reiswyse vir leerders.",
-      "tipe": "getal"
+      "tipe": "algemeen",
+      "bron": "Spesifiek getoets as 'n aangrensende paar, want dit klink teenstrydig en is dit nie. ScienceDirect, 'Estimating geographic access to healthcare facilities in Sub-Saharan Africa by Degree of Urbanisation': 65% van dorpies- en verspreide landelike inwoners is binne 30 minute van 'n gesondheidsfasiliteit; 'n PMC-opname in die Nkomazi-substreek, Mpumalanga, vind 69,3% van huishoudings kan na die kliniek LOOP. Terselfdertyd het net 43% van kinders in die landelike voormalige tuislande water op die erf (Children Count, UCT). Loopafstand-dienste saam met geen huisverbinding nie is dus juis die Suid-Afrikaanse patroon, nie 'n teenstrydigheid nie."
     },
     {
       "bewering": "Drie klein winkels in die straat verkoop brood, mieliemeel en seep.",
       "blok": "Thabo se dorpie",
       "status": "bevestig",
-      "bron": "Mieliemeel is die Suid-Afrikaanse stapelaankoop by grootmaat- en spaza-verkope (die 'ukonga iGroceries'-beskrywing noem mieliemeel en olie as die grootmaataankope), en brood, melk en seep is standaard spaza-voorraad. Drie klein winkels in een dorpiestraat is 'n gewone digtheid.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Global Informality Project en die PLAAS-werkstuk oor spaza-winkels: die tipiese voorraad is brood, mieliemeel, melk, seep en ander daaglikse basics, dikwels in klein hoeveelhede. Drie sulke winkels in een straat is normaal eerder as ongewoon."
     },
     {
-      "bewering": "Hulle huis het egter nie 'n kraan met lopende water nie. Thabo en sy suster stap dan met emmers na die gemeenskapskraan. Die kraan is 'n paar strate ver en die emmers is swaar.",
+      "bewering": "Thabo en sy suster stap dan met emmers na die gemeenskapskraan. Die kraan is 'n paar strate ver en die emmers is swaar.",
       "blok": "Thabo se dorpie",
       "status": "bevestig",
-      "bron": "Geere et al., 'Domestic water carrying and its implications for health', Limpopo (PMC2939590): water word hoofsaaklik deur vroue en kinders gedra, gemiddelde houergewig 19,5 kg oor 'n gemiddelde afstand van 337 m; ruggraat- of nekpyn by 69% en rugpyn by 38% van draers. Die RDP-norm is 'n gemeenskapskraan binne 200 m wat hoogstens 25 huishoudings of 100 mense bedien (DWAF-riglyne; SciELO SA oor openbare kraanontwerp). 'n Paar strate en swaar emmers is presies die werklikheid en eerder aan die sagte kant daarvan - moet dit nie versag nie. Vars nagegaan hierdie ronde, nie oorgedra nie.",
-      "tipe": "getal"
+      "tipe": "algemeen",
+      "bron": "Children Count (UCT) op AHO-data: waterhaal is een van die algemeenste werkaktiwiteite van Suid-Afrikaanse kinders, en 43% van kinders in die voormalige tuislande het water op die erf. StatsSA: 67,8% van haal-huishoudings is binne 30 minute klaar, maar 35,8% in KwaZulu-Natal vat meer as 30 minute. Die gewig: 20 liter water weeg sowat 20 kg, want water se digtheid is naastenby 1 kg per liter. NIE VERSAG NIE, en dit hoef ook nie: die Gratis Basiese Water-standaard is 200 meter, so ''n paar strate ver' sit op of buite die standaard, en 'n beduidende minderheid stap verder as dit. Die sin onderskat die werklikheid eerder as wat dit dit oorskat."
     },
     {
-      "bewering": "Water loop deur pype tot in hulle kombuis en die winkels is naby.",
+      "bewering": "Water loop deur pype tot in hulle kombuis en die winkels is naby. Busse en minibus-taxi's ry op geteerde strate verby hulle huis.",
       "blok": "Aisha se dorp",
       "status": "bevestig",
-      "bron": "Stats SA: 45,2% van alle Suid-Afrikaanse huishoudings het pypwater binne die woning, en 71,8% van stedelike inwoners het veilig bestuurde water. 'n Formele dorpshuis met 'n kombuiskraan is die tipiese geval.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Busse en minibus-taxi's ry op geteerde strate verby hulle huis.",
-      "blok": "Aisha se dorp",
-      "status": "bevestig",
-      "bron": "Stats SA Nasionale Huishoudelike Reisopname 2020: taxi's dra 80,2% van werkers wat openbare vervoer gebruik; in 2013 het 69% van huishoudings taxi's gebruik, 20,2% busse en 9,9% treine. Busse en minibus-taxi's langs mekaar in een dorpstraat is korrek, en die volgorde waarin die les hulle noem dra geen bewering oor hulle aandeel nie.",
-      "tipe": "getal"
+      "tipe": "algemeen",
+      "bron": "Africa Check se ontleding van die Nasionale Huishoudelike Reisopname: minibus-taxi's dra die grootste deel van Suid-Afrika se openbare pendelaars (sowat 70% in die 2013-opname, en die NHTS 2020 sit die afhanklikheid van minibus-taxi's nog hoër), met busse as die tweede diens. Vir die pypwater sien Sensus 2022 (59,7% binne die woning, stedelik hoër)."
     },
     {
       "bewering": "Maar soms is die water vir 'n hele dag af en die krane staan droog.",
       "blok": "Aisha se dorp",
       "status": "bevestig",
-      "bron": "Ruim bevestig en aan die sagte kant. Cape Times (28 Aug 2026): net 68,79% van huishoudings kry daaglikse toevoer. 'n Provinsiale sensus wys 65,8% van huishoudings met waterinfrastruktuur beleef gereelde onderbrekings. Nuusverslae uit Soweto, Midrand, KwaDukuza en Mpumalanga beskryf onderbrekings van dae tot weke, en inwoners wat net een dag per week vir twee uur water kry. 'n Hele dag is die milde weergawe - moet dit nie versag nie.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "StatsSA Algemene Huishoudingsopname 2025, berig deur Moneyweb en eNCA: 56,8% van huishoudings het waterontwrigtings beleef en 37,6% het ontwrigtings van minstens twee dae beleef, teenoor 24% in 2012. Weeklikse ontwrigtings is die algemeenste in Mpumalanga (36%), Limpopo (25,9%) en KwaZulu-Natal (24,2%). NIE VERSAG NIE: ''n hele dag' is die ONDERKANT van die werklikheid, nie die bokant nie."
     },
     {
       "bewering": "Diep slaggate in daardie strate laat die verkeer stadig ry.",
       "blok": "Aisha se dorp",
       "status": "bevestig",
-      "bron": "IOL, 'Service Delivery in Crisis: the impact of potholes on South African roads'; TimesLIVE (Maart 2026) oor Ekurhuleni-inwoners wat R50-R100 elk bydra om private kontrakteurs te betaal omdat slaggate jare lank onherstel bly. Slaggate wat verkeer vertraag is algemeen en die les stel dit sagter as die verslae.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Nasionale Beplanningskommissie se navorsingsverslag oor dienslewering (Mei 2025) en die SAMRK se verslag oor paaie; Johannesburg se eie jaarverslag van 2022 gee 23% van die padnetwerk as swak en 32% as uiters swak. Getoets teen die vorige sin se 'geteerde strate': geen botsing nie - slaggate vorm juis in geteerde oppervlaktes."
     },
     {
       "bewering": "Party straatligte werk al weke lank nie en die straat is snags donker.",
       "blok": "Aisha se dorp",
       "status": "bevestig",
-      "bron": "Aan die sagte kant. In sommige wyke werk 80% van die straatligte nie; in Ekurhuleni werk verkeersligte al sowat drie jaar nie, en inwoners koppel die donker strate direk aan misdaad en huisbrake (IOL Pretoria News oor 'n hofbevel dat 'n munisipaliteit straatligte moet herstel; The Citizen oor Tshwane se herstelveldtog). 'Weke lank' onderstel eerder as oorstel - moet dit nie versag nie.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "TimesLIVE oor straatligdiefstal by eThekwini (herstelkoste van R66 miljoen in een maand), allAfrica oor die Bester-gemeenskap naby KwaMashu waar inwoners meer as 'n JAAR in die donker leef, en allAfrica oor Nelson Mandelabaai waar party gebiede jare lank donker is. NIE VERSAG NIE: 'weke lank' is konserwatief."
     },
     {
       "bewering": "'n Kraan buite die huis wat baie gesinne saam gebruik.",
       "blok": "gemeenskapskraan (begrip)",
       "status": "bevestig",
-      "bron": "Die Suid-Afrikaanse norm vir 'n gemeenskapskraan is hoogstens 25 huishoudings of 100 mense per kraan, binne 200 m, teen minstens 10 liter per minuut (DWAF-riglyne vir die verpligte nasionale standaarde; SciELO SA, 'Public standpipe design and maintenance for rural South Africa'). 'Baie gesinne saam' is akkuraat. Ek het die inskrywing ook alleen gelees, met die res van die les weggedink: dit pas ook op 'n gedeelde erfkraan in 'n informele nedersetting, wat eweneens korrek is, en dit pas nie verkeerdelik op 'n huishouding se eie buitekraan nie, want 'baie gesinne saam' sluit dit uit.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Departement van Waterwese se Gratis Basiese Water-beleid en ScienceDirect, 'A strategy to enhance management of free basic water via communal taps in South Africa': 'n gemeenskapskraan is 'n openbare waterpunt wat deur verskeie huishoudings gebruik word, veral in arm landelike en randstedelike gebiede. Alleen gelees - met die res van die les weggedink - pas die omskrywing nog steeds net op wat dit moet: 'n kraan buite die woning wat gedeel word. 'n Tuinkraan van een gesin val buite die omskrywing danksy 'baie gesinne saam', wat die werk doen."
     },
     {
-      "bewering": "STEL-VLAK, plaas teenoor dorpie: 'Hulle hou ook diere aan vir melk, vleis en eiers' (plaas) langs 'Baie gesinne kweek ook groente agter die huis' (dorpie).",
-      "blok": "Op 'n plaas + In 'n dorpie",
-      "status": "weerspreek",
-      "bron": "Elke sin is op sy eie verdedigbaar, maar die twee blokke staan parallel - albei met 'ook' - in 'n les wie se hele punt 'verskillende maniere' is, en saamgelees leer hulle dat diere vir melk, vleis en eiers 'n plaas van 'n dorpie onderskei. Dit is nie waar nie. Dorpshuishoudings in Suid-Afrika hou wel degelik diere: kommunale en opkomende boere lewer sowat 40% van Suid-Afrika se beesproduksie, en inheemse dorpshoenders verskaf die meeste van die vleis en eiers wat op die platteland geeet word (FAO, 'Village chicken production systems in rural Africa'; Mississippi State University Extension oor inheemse hoenders; Suid-Afrikaanse studies oor dorpshoenderstelsels in Limpopo en KwaZulu-Natal, PMC6238705 en PMC11688331 - tipiese trop 7 voels). Terselfdertyd loop die bewyse die ander kant op vir die plaas: 'n plaasbewoner het geen outomatiese reg om vee aan te hou nie (GroundUp/ESTA) en plaaswerkers produseer volgens die Noord-Kaapse studie glad nie kos vir hulle gesinne nie. Die teenstelling is dus nie net onvolledig nie, dit is omgekeerd.",
-      "regstelling": "Moenie die verskil tussen 'n plaas en 'n dorpie op diere laat rus nie. Laat die dorpieblok se eie voedselproduksie ook hoenders of ander klein diere insluit, of skuif die plaas se diere weg van die huishouding se eie kos af na wat die plaas produseer. Watter een ook al gekies word, die twee blokke mag nie 'n verskil voorgee wat in Suid-Afrika nie bestaan nie.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "STEL-VLAK, al vier plekblokke saam: die les se nerens dat 'n plaas kos vir ander plekke kweek nie. Die plaasblok se enigste rekening van boerdery is 'plant die mense self 'n deel van hulle kos' en 'Die meeste van hulle kos koop hulle in die dorp', terwyl die dorp- en stadblokke net 'winkels' en 'groot winkels vol kos' noem.",
-      "blok": "Op 'n plaas / In 'n dorpie / In 'n dorp / In 'n stad",
-      "status": "weerspreek",
-      "bron": "Elke sin is waar; die prentjie is vals. 'n Leerder wat al vier blokke lees, leer 'n plaas ken as 'n plek waar mense 'n bietjie van hulle eie kos plant en die res in die dorp gaan koop, en leer nooit waar die winkels se kos vandaan kom nie. Dit is nie wat 'n Suid-Afrikaanse plaas is nie: sowat 40 000 kommersiele eenhede lewer sowat R330 miljard uitset (Southern Africa Food Lab, Mei 2025), sowat 90% van die produkte op munisipale varsproduktemarkvloere kom van kommersiele boere, en supermarkte - sowat 55% van die voedselkleinhandelmark - koop die grootste deel van hulle vars vrugte en groente by plaaslike grootskaalse plase (Tandfonline, 'Securing small farmer participation in supermarket supply chains in South Africa'). Let op dat hierdie fout deur die vorige regstelling gemaak is: toe die plaas nog 'die res' van sy kos gekoop het, het die blok darem oorgedra dat 'n plaas baie kos voortbring. Die woord is reggemaak en daardie laaste spoor is saam met hom weg.",
-      "regstelling": "Die plaasblok moet iewers se dat 'n plaas kos kweek wat na ander plekke toe gaan - dat die kos in die dorp en stad se winkels van plase af kom. Dit herstel wat 'n plaas is sonder om aan die reggemaakte verhouding te raak: die gesin op die plaas koop steeds die meeste van hulle eie kos in die dorp.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "STEL-VLAK, water oor al vier blokke: boorgat (plaas) - kombuiskraan of gemeenskapskraan (dorpie) - pype tot in die meeste huise (dorp) - groot stelsels tot in die meeste huise, party gesinne deel 'n buitekraan (stad).",
-      "blok": "Op 'n plaas / In 'n dorpie / In 'n dorp / In 'n stad",
+      "bewering": "STEL-TOETS (nie 'n fout nie): al vier blokke sê die mense koop die meeste van hulle kos, en net die plaas produseer kos vir elders.",
+      "blok": "Op 'n plaas / In 'n dorpie / In 'n dorp / In 'n stad (gelees as stel)",
       "status": "bevestig",
-      "bron": "Die leer wat 'n leerder hieruit aflei - dat water al makliker by die huis kom namate die plek groter word - is korrek: 71,8% van stedelike inwoners teenoor 36,7% van landelike inwoners het veilig bestuurde water (Stats SA AHO 2024), en die gedeelde kraan bly in die metro's 3-12%. Een skeeftrek wat ek meld sonder om dit 'n fout te noem: die plaasblok antwoord 'n ander vraag as sy drie broers. Die ander drie se hoe water by die huis uitkom; die plaas se net waar dit vandaan kom. Die plaas is daarom die enigste van die vier waar geen huishouding sonder gerieflike water gewys word nie, en die bewyse loop juis die ander kant op: plaasbewoners se huishoudelike water is die mees eienaar-afhanklike van die vier, dikwels onder die basiese standaard, en is histories gedeel met die veewatertoevoer of by buurplase gaan haal (Mail & Guardian, 'Farm dwellers fight to access water and other basic services'; SciELO SA oor Mshengu v uMsunduzi Local Municipality, wat juis oor plaasbewoners se waterreg gegaan het; AFRA se opname 2017-18). Die sin self is waar en ek vra nie dat dit weerspreek word nie - maar as 'n mens die plaas op dieselfde as as die ander drie wil sit, is die eerlike toevoeging dat boorgatwater na 'n tenk gepomp word en dat nie elke huis op 'n plaas sy eie kraan het nie.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Die prentjie is korrek vir Suid-Afrika, in albei rigtings getoets. Koop-kant: StatsSA AHO 2021 - net 17,3% van huishoudings doen enige landbou, en van hulle noem 74,5% dit 'n ekstra bron en net 12% 'n hoofbron; Sensus 2022 - slegs 4,3% van landbou-huishoudings produseer net vir verkoop. Produsent-kant: supermarkte betrek hoofsaaklik by groot kommersiële boere (UNCTAD). Die TEENOORGESTELDE rigting is ook getoets - oorskat die plaas-produksiesin hoeveel van die land se kos van plase soos die beskrewe een kom? Nee. Die blok merk die plaas nêrens as klein of as bestaansboerdery nie; die huishouding se eie plantery en die plaas se produksie staan in twee aparte sinne, en 'n gewone kommersiële plaas se gesin koop wel sy kruideniersware in die dorp. Die tweede helfte van die toets slaag dus."
     },
     {
-      "bewering": "STEL-VLAK, kos oor al vier blokke: al vier plekke koop die meeste van hulle kos by winkels.",
-      "blok": "Op 'n plaas / In 'n dorpie / In 'n dorp / In 'n stad",
+      "bewering": "STEL-TOETS (nie 'n fout nie): die plaas kry 'n boorgat en die dorpie krane, terwyl die dorp en stad pype kry.",
+      "blok": "Op 'n plaas / In 'n dorpie (gelees as stel)",
       "status": "bevestig",
-      "bron": "Hierdie is die skeeftrek wat ek NIE 'n fout noem nie. Wat 'n leerder aflei - dat mense oral die meeste van hulle kos koop - is waar van Suid-Afrika: markaankope haal in sommige gevalle tot 90% van huishoudings se voedselvoorraad, en van die 3,1 miljoen huishoudings wat wel boer, doen 74,5% dit vir ekstra kos en net 12% as hoofbron (Stats SA AHO 2021; Econ3x3, 'The quiet erosion'; Tandfonline oor landelike voedselbesteding). Die gelykstelling van plaas en dorpie by 'die meeste' het dus NIE oorskiet nie: die werklike gaping tussen 'n plaashuishouding en 'n dorpiehuishouding se eie voedselproduksie is klein, en die les leun steeds die ander kant toe, want dit gee die plaas gewasse plus diere en die dorpie net groente. Die rigting van die oorblywende fout is dus dat die les die plaas se eie voorsiening nog oorstel, nie onderstel nie. Wat 'n mens moet weet, is die gevolg: nou dat kos in al vier blokke dieselfde antwoord gee, dra water byna die hele 'verskillende maniere' van die titel.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Ek het hierdie een as 'n moontlike vals kontras aangepak en die syfers dra die onderskeid. Children Count, UCT Kindersinstituut, op AHO 2002-2024: 61% van kinders op plase het water op die erf, teenoor 43% in die landelike voormalige tuislande en meer as 90% in stedelike gebiede. Die les se gradiënt - plaas beter af as dorpie, albei slegter af as dorp en stad - loop dus in dieselfde rigting as die data. Twee dinge wat die les WEL weglaat maar nie vals stel nie: die dorpie se kraanwater kom in Suid-Afrika dikwels self uit 'n boorgat (sowat 400 dorpe kry minstens 'n deel van hulle water uit grondwater), en 39% van plaaskinders het nie water op die erf nie. Nie een van die blokke sluit die ander se manier uit nie, so dit bly onvolledigheid eerder as 'n vals kontras."
     },
     {
-      "bewering": "Analogiekontrole: die les bevat geen vergelyking van die tipe 'X werk soos Y' nie. Die enigste afbeelding wat 'n leerder verder kan voer, is die vier plekblokke wat parallel teen mekaar gelees word.",
-      "blok": "Op 'n plaas / In 'n dorpie / In 'n dorp / In 'n stad",
+      "bewering": "STEL-TOETS (nie 'n fout nie): die stad se blok noem gesinne wat 'n kraan deel en die dorp se blok noem niemand nie.",
+      "blok": "In 'n dorp / In 'n stad (gelees as stel)",
       "status": "bevestig",
-      "bron": "Ek het die vier blokke as 'n stel gelees voordat ek hulle afsonderlik getoets het, en die afbeelding self nagegaan eerder as net die sinne. Waar die afbeelding breek, is in die twee weerspreek-items hierbo aangeteken: die diere-teenoor-groente-teenstelling, en die plaas wat nie as voedselprodusent vir ander plekke verskyn nie. Geen eli10-blok is in die les nie, soos dit hoort.",
-      "tipe": "analogie"
+      "tipe": "algemeen",
+      "bron": "Getoets omdat dit sou impliseer dat 'n dorp beter bedien is as 'n stad, wat vals sou wees - StatsSA AHO 2023 gee metro's 97,2% kraantoegang, die hoogste van almal. Die dorp-blok red homself egter met twee woorde: 'die meeste huise' laat die res staan, en 'daardie huise' in die volgende sin sonder hulle uitdruklik uit. Die leerder word dus nie geleer dat almal in 'n dorp water binne het nie. Die voorbehoud is genoeg; geen regstelling nodig nie."
     }
-  ]
+  ],
+  "opsomming": "Twee foute, albei oor waar die diere in hierdie les staan, en albei gebore uit dieselfde skuif: die nuwe sin 'Die plaas kweek ook gewasse en hou diere aan' tipeer 'n plaas as een wat ALBEI doen terwyl net omtrent 'n derde van Suid-Afrika se plase gemengd is (StatsSA 2017: 31,1% gemeng teenoor 33,9% net vee en 21,3% akkerbou), en die geërfde 'Op baie plase' is nie genoeg nie omdat dit twee sinne terug aan 'n ander onderwerp hang; en omdat die diere nou net by die plaas se produksie staan, leer die vier blokke saam dat gesinne net PLANTE vir hulle eie kos kweek, terwyl pluimvee volgens StatsSA die algemeenste vorm van eie kosproduksie in Suid-Afrika is - algemener as groente. Die res staan: die vier blokke se kos- en waterprentjie is korrek vir Suid-Afrika, die dorp/stad se 'meeste huise' hou onder sowel Sensus 2022 as die AHO, en albei stories is weer nagegaan en elke tekort daarin is steeds ONDERskat eerder as oorskat - die water wat 'n hele dag af is, die straatligte wat weke lank stukkend is en die kraan 'n paar strate ver is almal aan die konserwatiewe kant van die amptelike syfers, so niks daarvan mag versag word nie."
 }
