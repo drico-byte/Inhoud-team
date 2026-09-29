@@ -244,7 +244,35 @@ def syllables(word):
 
 def measure(text):
     words = re.findall(r"[A-Za-zÀ-ÿ']+", text)
-    sents = [s for s in re.split(r'(?<=[.!?])\s+', text.strip()) if s.split()]
+    # Do not split after an INITIAL or a known abbreviation. A plain split on
+    # ".\s" turned "C.J. Langenhoven" into three one-word sentences and "ds. M.L.
+    # de Villiers" into four, which drags mean sentence length under the band floor
+    # and fails a lesson for writing a person's name. Found 29 September 2026 by a
+    # Gr 6 SW writer, who worked around it by dropping the initials from the
+    # national anthem's composers -- a measurement artefact silently editing
+    # content, which is the worst kind.
+    #   * (?<![A-Z])    - not a single capital letter, so "C." and "J." do not split
+    #   * (?<!\bds)(?<!\bdr)(?<!\bmnr)(?<!\bmev)(?<!\bml)(?<!\bnr)(?<!\best)
+    #                   - Afrikaans titles and the common abbreviations that appear
+    #                     in this content. Case-insensitive via the lowered probe.
+    # Each abbreviation is listed in both cases, because a title often opens a
+    # sentence ("Ds. De Villiers ...") and Python's lookbehind has no per-group
+    # case flag. A variable-width alternation is not allowed in a lookbehind, so
+    # each one is its own fixed-width assertion.
+    # Each assertion INCLUDES THE FULL STOP, because the split position sits after
+    # it: at that point the two preceding characters of "Ds. " are "s." and not
+    # "Ds", so an assertion without the stop never fires. Caught by testing rather
+    # than by reading -- the first version looked right and silently did nothing
+    # for every title.
+    # Only genuine abbreviations belong here. "eeu" was in the first version and is
+    # NOT one -- "in die 15de eeu." is a real sentence end, and listing it merged
+    # two sentences into one. A wrong entry here is worse than a missing one: it
+    # inflates mean sentence length instead of deflating it, which no failure
+    # reports.
+    _AFK = (r"(?<![Dd]s\.)(?<![Dd]r\.)(?<![Mm]nr\.)(?<![Mm]ev\.)(?<![Pp]rof\.)"
+            r"(?<![Nn]r\.)(?<![Aa]fd\.)(?<![Bb]v\.)(?<![Ee]nsv\.)")
+    sents = [s for s in re.split(r'(?<=[.!?])(?<![A-Z][.])' + _AFK + r'\s+',
+                                 text.strip()) if s.split()]
     if not words or not sents:
         return None
     slens = [len(s.split()) for s in sents]
