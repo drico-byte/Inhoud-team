@@ -156,6 +156,19 @@ whole time."** Everything below is that exception, gathered in one place rather 
 scattered as caveats on rules it does not follow. It applies to Grade 4 Sosiale
 Wetenskappe and to nothing else, until someone decides otherwise for another subject.
 
+**ONE OF THE SIX HAS SINCE BEEN EXTENDED. Drico, 29 September 2026: CAPS's historical
+aims, skills and concepts count as CAPS DELIVERY in GRADE 6 Sosiale Wetenskappe too,
+not as supplement against the 25% cap.** That is the row "coverage comes from CAPS's
+skills and concepts section" below, and only that row. Grade 6 has no video, so none of
+the other five departures reaches it: its text comes first, its lessons are grouped from
+CAPS clusters, and its budgets come from CAPS hours. The reason it extends is that the
+same sentence of CAPS carries it — CAPS prints above every Grade 6 History topic that
+the content must be integrated with the aims, skills and concepts of Section 2, and
+Section 2.4.3 calls that "van kritieke belang" for every content topic. A planner raised
+it unprompted while writing the Mapungubwe spec, which is where a `historiese_konsepte`
+field is delivery rather than supplement. Had it been refused, several lessons' "how we
+know" material would have had to be re-costed as supplement.
+
 Six departures, and the first causes the rest:
 
 | Normal process | Sosiale Wetenskappe |
