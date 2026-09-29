@@ -120,3 +120,4 @@
 - [No drift is only as strong as the decision list](geen-drif-is-net-so-sterk-soos-die-besluitlys.md) — ten of 34 shared terms had no decision behind them; agreeing lessons print the same clean line as held ones.
 - [Count the reports before saying it is checked](tel-die-verslae-voor-jy-se-dit-is-nagegaan.md) — two lessons never checked and five more silently unchecked by a legitimate re-gate; sweep for the files, don't trust the record.
 - [No-blame may rest on nothing](geen-skuld-mag-op-niks-rus.md) — three lessons hung it on a pivot (choice, a threat, nothing at all) and every converse let blame back in; state it, never motivate it with a condition.
+- [A record is read as an order](n-rekord-word-as-n-bestelling-gelees.md) — the TERUGGETREK label failed four times in one day; paraphrase the old wording instead of quoting it, and read the field before acting on a stale-requirement report.
