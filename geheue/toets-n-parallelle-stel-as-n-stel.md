@@ -50,3 +50,46 @@ one had to be re-verified against them. Ask in the first brief.
 Related: [[elke-sin-waar-die-prentjie-vals]], [[n-weglating-verander-sy-bure]],
 [[n-begrip-word-alleen-gelees]] (the mirror image — read one entry with everything else
 deleted; this one is read everything together).
+
+---
+
+**Second addendum, same day: testing the set finds the fault, and then the FIX
+creates the next one. Four rounds running.**
+
+The note above says to ask a fact checker to read a parallel set as a set. That works
+— it found five faults where sentence-level reading found one. What it does not do is
+stop the repair from producing the next fault, and in Gr 4 Geography's settlements
+lesson 7 that happened **four times in a row**, each time with a different subject and
+each time caused by the previous correction:
+
+1. Electricity named only in the city block → electricity arrives with size.
+2. Fixed by narrowing the city's water claim → the city alone shared a tap, so bigger
+   places looked worse served.
+3. Fixed by giving the farm a buying route → the farm alone bought nothing before, then
+   alone produced nothing, so a farm fed itself and the shops' food came from nowhere.
+4. Fixed by moving the animals onto farm production → animals appeared once in the whole
+   lesson and only on the farm, so animals belong to farms and families grow plants.
+
+Every single one is the same mechanism: **in a parallel set, whatever appears in exactly
+one item is read as belonging to what makes that item different.** Adding to one block,
+or removing from one block, creates a new singleton — so a repair aimed at one asymmetry
+manufactures the next.
+
+**The rule that stops the loop**, now written into that lesson's spec:
+
+> Before adding anything to one item of a parallel set — or taking anything out of one —
+> ask whether it is **distinctively true** of that item. If it is not, it must appear in
+> at least one other item too.
+
+Two practical consequences.
+
+* **Brief the repair with the rule, not just the finding.** Handing a writer "fix the
+  animals" invites a fifth round. Handing it the rule lets it check its own work, and the
+  brief can ask it to report what it found when it applied the rule to its own revision.
+* **The hedge does not travel.** A quantifier two sentences back, attached to a different
+  subject, does not reach the sentence you are fixing — "on many farms" hedged what the
+  *people* plant and did nothing for what the *farm* produces. A generic definite singular
+  ("die plaas") reads as *every*. Put the quantifier on the sentence that needs it.
+
+Related: [[n-regstelling-ontwrig-sy-bure]], [[n-waarskuwing-moet-elke-broer-dek]],
+[[n-versagting-vat-die-algemene-helfte-saam]].
