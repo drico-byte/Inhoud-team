@@ -84,3 +84,34 @@ settled and wording deliberately open**, which is the process — History's nine
 settled from the drafts afterwards. Four are decisions rather than reconciliations:
 *varswater*, *reservoir*, *veeboerdery* (over "veeteelt") and *planaansig* (over
 "bo-aansig"). See [[twee-beplanners-albei-plaaslik-reg]].
+
+---
+
+**Die begroting is 'n HARDE PLAFON, en Gr 4 SW is die uitsondering. Drico, 29 September
+2026.** Sy woorde: *"250 - 400... I want to strictly stay within that range. It will almost
+never be the case that a writer goes too low... Its the ceiling im really worried about."*
+Geen toleransie bo die begroting nie; die vloer val na 62,5%. Hy is reg oor die asimmetrie:
+teen hul eie begrotings gemeet is **24 van die 30 afgelewerde Gr 4 Geskiedenis-lesse oor en
+geen een onder nie**, mediaan 32 woorde oor — en almal het geslaag, want 400 plus 15% is 460.
+
+**Dieselfde middag het hy op 'n ander rekenaar die KABV-URE-METODE beslis** (begrotings uit
+'n kluster se ure teen 250 woorde/uur, plafon plus 12%). Die twee het in die hek gebots.
+**Gr 4 Geografie bly op 'vereistes' met 400** — Drico: *"it is the exception at this point"*
+en *"Dont implement it with gr4 geografie yet."* Hy het net 'n skatting gevra om na te kyk.
+
+**Wat die skatting gewys het, en dis die moeite werd om te onthou.** Oor die hele jaar stem
+die twee metodes verbasend goed ooreen: **11 800 teenoor 12 246 woorde, binne 4%** — twee
+heeltemal verskillende redenasies wat op mekaar land, wat die 250 woorde/uur-tempo bevestig
+op 'n vak waarteen dit nie gekalibreer is nie.
+
+**Per les verskil hulle egter struktureel, en die rede is hierdie vak se eie uitsondering:
+die video se lesverdeling sny oor KABV se klustergrense heen.** Waar een video-les presies
+een kluster dek, gee die ure-metode dit 750 (lesse 5, 11, 20). Waar verskeie lesse 'n kluster
+deel, kry elkeen 'n skyfie. **Les 18 kry 1375** omdat dit twee klusters oorspan en die enigste
+les in een daarvan is. **Lesse 8 en 21 kry NUL**, omdat hulle afdeling 2.5 dien en nie die
+inhoudstabel nie — die ure-metode kan net die inhoudstabel sien.
+
+Een egte sein daarin: les 5 en les 18 is presies die twee lesse wat die beplanners
+onafhanklik as die swaarste gemerk het (drie en ses KABV-strepies), en dit is die twee wat
+die ure-metode die meeste wil befonds. Dit hou nie oral nie — Water se saamgevoegde lesse is
+ook knap en kry mínder — dus is die sein eg maar gedeeltelik.
