@@ -1,0 +1,221 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Bakens wys jou die pad",
+  "kaps_punt": "Die identifisering van bakens - natuurlike en menslike; Beskryf en teken 'n kort reis - soos die pad na skool; Verduidelik hoe om van een plek na 'n ander te reis - links, regs, reguit, bakens en name van die paaie.",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "bewering": "Noem 'n baken by elke stap, en die naam van die pad as die pad een het.",
+      "blok": "Links, regs en reguit",
+      "status": "bevestig",
+      "bron": "GEWYSIGDE SIN, hierdie ronde vars nagegaan. Twee dele. (1) Die opdrag self: Frontiers in Computer Science 2022, 'Landmark selection for route instructions' (doi 10.3389/fcomp.2022.1044151) en die oorsig 'Landmarks in wayfinding: a review of the existing literature', Cognitive Processing (PMC8324579) - bakens word by besluitpunte EN langs die roete gebruik, en bakengebaseerde instruksies laat 'n reisiger die regte punt uitken en bevestig dat hy op die regte pad is; 'n baken by elke stap is dus goeie praktyk en nie 'n oorstelling nie. (2) Die voorwaarde 'as die pad een het' veronderstel dat 'n pad dalk geen naam het nie, en dit is feitelik waar vir Suid-Afrika: Coetzee & Cooper, 'What is an address in South Africa?', S. Afr. J. Sci. 103 (2007), SciELO - 'Site addresses occur primarily in townships ... but no street names were assigned' en formele adresse is 'never assigned in vast areas of South Africa ... farms, rural villages and former black townships'; SANS 1883-1 (SABS, 2009) erken uitdruklik 'n terrein-adres en 'n informele adres vir plekke sonder straatname. INTERNE TOETS: die opdrag word deur die les se eie reis nagekom - al vyf stappe in die lysblok noem 'n baken (huis se hek, kerk, brug oor die rivier, groot boom op die hoek, skool se hek), en die enigste pad in die reis wat 'n naam dra, Kerkstraat, word genoem.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Bakens werk saam met drie klein woorde wanneer jy 'n pad verduidelik.",
+      "blok": "Links, regs en reguit",
+      "status": "bevestig",
+      "bron": "Gewysigde blok, vars nagegaan. Frontiers in Computer Science 2022 (doi 10.3389/fcomp.2022.1044151): bakens dien as ruimtelike ankers vir draaie en nie as plaasvervangers vir rigtingtaal nie, met voorbeelde soos 'Turn left behind the hospital'. Die sin maak geen eksklusiwiteitsaanspraak nie - dit stel die drie woorde bekend wat die blok daarna noem.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die baken wys die plek waar iemand moet draai of verby moet stap.",
+      "blok": "Links, regs en reguit",
+      "status": "bevestig",
+      "bron": "Gewysigde blok, vars nagegaan. Cognitive Processing oorsig (PMC8324579): 'landmarks on route and also at decision points (with a turn) are more effective during wayfinding tasks', en 'not only landmarks at decision points, but also landmarks on route were used by people'. MDPI ISPRS Int. J. Geo-Inf. 6(6):183 en Frontiers 2022: bakens dui aan waar 'n rigtingverandering nodig is en bevestig ook dat 'n mens op die regte pad is. Die draai-en-verbystap-paar staan dus presies soos die bronne dit stel.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Links, regs en reguit sê dan watter kant toe hy gaan.",
+      "blok": "Links, regs en reguit",
+      "status": "bevestig",
+      "bron": "Gewysigde blok, vars nagegaan. Frontiers 2022: rigtingwoorde bly die instruksie se rigtingdeel en die baken anker dit; Wikipedia 'Body-relative direction' (liggaamsrelatiewe rigtings: links/regs, vorentoe/agtertoe). Die arbeidsverdeling - baken noem die plek, rigtingwoord noem die kant - is presies wat die bronne beskryf.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "As jy in Hoofstraat af loop, is die winkel aan jou linkerkant. Iemand wat van die ander kant af kom, sien dieselfde winkel regs.",
+      "blok": "Links, regs en reguit",
+      "status": "bevestig",
+      "bron": "Gewysigde blok, vars nagegaan. Wikipedia 'Body-relative direction' / egosentriese verwysingsraamwerke (PMC8549915): links en regs is liggaamsrelatief, en 'no absolute direction corresponds to any of the relative directions' - twee mense wat mekaar tegemoetloop, sien dieselfde voorwerp aan teenoorgestelde kante. 'Hoofstraat' is 'n gewone Suid-Afrikaanse straatnaam (Afr. hoof = vernaamste + straat; vgl. Dictionary of South African English, inskrywing 'hoofstad').",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Links en regs hang dus af van die kant waarheen 'n mens loop.",
+      "blok": "Links, regs en reguit",
+      "status": "bevestig",
+      "bron": "Gewysigde blok, vars nagegaan. Wikipedia 'Body-relative direction' en PMC8549915 (egosentriese teenoor allosentriese verwysingsraamwerke): links/regs word bepaal deur die liggaam se orientasie, wat by stap die rigting van beweging is. Die opsomming volg korrek uit die twee sinne voor dit.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Begin by die huis se hek en loop na die groot pad toe.",
+      "blok": "'n Kort reis van die huis af tot by die skool",
+      "status": "bevestig",
+      "bron": "Lysblok vars nagegaan omdat die gewysigde sin daarop steun. Denis se segmentmodel van roetebeskrywings (Denis 1997/2001, saamgevat in GeoJournal 10.1007/s10708-016-9703-5): 'route instructions consist of a succession of segments, each of which begins with a start point, then a reorientation, then an action, and finally an end point'. Die huis se hek is die beginpunt en terselfdertyd die stap se baken; 'die groot pad' word beskrywend genoem en nie as 'n naam aangebied nie, so die stap weerspreek nie die blok se eie opdrag nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Hou reguit aan en stap by die kerk verby.",
+      "blok": "'n Kort reis van die huis af tot by die skool",
+      "status": "bevestig",
+      "bron": "Vars nagegaan. Cognitive Processing oorsig (PMC8324579) en MDPI 6(6):183: bakens langs die roete ('landmarks on route') bevestig dat 'n reisiger op die regte pad is; 'n kerk is 'n standaardvoorbeeld van so 'n baken in die literatuur oor roete-aanwysings. Die stap noem 'n baken en pas dit met 'reguit'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Draai links by die brug oor die rivier.",
+      "blok": "'n Kort reis van die huis af tot by die skool",
+      "status": "bevestig",
+      "bron": "Vars nagegaan. Frontiers 2022 en PMC8324579: 'n baken by 'n besluitpunt, gekoppel aan 'n draai, is die effektiefste vorm van roete-instruksie. 'n Brug is 'n mensgemaakte baken soos die les se eie derde blok dit stel. Die stap noem 'n baken.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Draai regs by die groot boom op die hoek.",
+      "blok": "'n Kort reis van die huis af tot by die skool",
+      "status": "bevestig",
+      "bron": "Vars nagegaan. Frontiers in Computer Science 2022: 'direction-givers had a strong preference for instructions with landmarks that were located on the side of the road into which the recipient of the direction had to turn' - 'n baken op die hoek, gekoppel aan 'n draai, is presies die geval wat die studie ondersoek. Die stap noem 'n baken.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Loop in Kerkstraat af tot by die skool se hek.",
+      "blok": "'n Kort reis van die huis af tot by die skool",
+      "status": "bevestig",
+      "bron": "Vars nagegaan. Kerkstraat is 'n werklike en algemene Suid-Afrikaanse straatnaam - Afrikaanse Wikipedia, 'Kerkstraat' en 'Kerkstraat, Pretoria' (ook Potchefstroom, Modimolle e.a.), gewoonlik die dorp se hoofstraat omdat die moederkerk daar gestaan het. Die stap noem 'n baken (die skool se hek) EN die pad se naam, en is die enigste stap in die reis waar 'n benoemde pad ter sprake is.",
+      "tipe": "naam"
+    },
+    {
+      "bewering": "Nou sit jy al daardie stukke aanmekaar tot een hele reis.",
+      "blok": "Vertel die reis in volgorde",
+      "status": "bevestig",
+      "bron": "Buurblok van die wysiging, vars nagegaan. Denis se segmentmodel (via GeoJournal 10.1007/s10708-016-9703-5): 'n roetebeskrywing is 'n opeenvolging van segmente waarvan elkeen se eindpunt die volgende een se beginpunt is - presies 'stukke aanmekaar'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Begin altyd by die plek waar die ander mens nou staan.",
+      "blok": "Vertel die reis in volgorde",
+      "status": "bevestig",
+      "bron": "Buurblok van die wysiging, vars nagegaan omdat die gewysigde sin bepaal wat 'n stap moet bevat. Denis se segmentmodel (GeoJournal 10.1007/s10708-016-9703-5): elke segment begin by 'n beginpunt, en die eerste beginpunt is waar die reisiger staan. Die les raam die hele geval as iemand wat voor jou staan en vra ('Iemand soek jou huis en vra hoe om daar te kom'), dus is die 'altyd' binne die les se eie geval korrek en nie 'n oorstelling nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Vertel dan elke stap in die regte volgorde tot by die einde.",
+      "blok": "Vertel die reis in volgorde",
+      "status": "bevestig",
+      "bron": "Buurblok van die wysiging, vars nagegaan. Dieselfde segmentmodel: 'n opeenvolging van segmente tot by die bestemming (GeoJournal 10.1007/s10708-016-9703-5).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Baken is iets wat mense maklik raaksien en onthou.",
+      "blok": "Wat is 'n baken?",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie; die vorige ronde se verslag dra die bron. Toevallig hierdie ronde bevestig deur die Cognitive Processing oorsig (PMC8324579): 'any item in an environment can act as a landmark', met sigbaarheid en onderskeidbaarheid as die bepalende eienskappe.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Baken hoef nie so groot soos 'n berg te wees nie.",
+      "blok": "Wat is 'n baken?",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie. Toevallig hierdie ronde bevestig deur die Cognitive Processing oorsig (PMC8324579): 'any item in an environment can act as a landmark' - grootte is nie die maatstaf nie, onderskeidbaarheid wel. Die vergelyking se afbeelding is nagegaan: dit ontken net 'n grootte-vereiste en weerspreek nie die volgende blok se berg-voorbeeld nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Jy noem seker eers die groot boom of die winkel op die hoek.",
+      "blok": "Wat is 'n baken?",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie. Die sin is met 'seker' versag en stel geen algemene aanspraak nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Party bakens kom uit die natuur en niemand het hulle gebou nie.",
+      "blok": "Bakens uit die natuur",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie; die vorige ronde se verslag dra die bron. Die universele ontkenning is by herlees nagegaan: 'gebou' is die regte werkwoord, sodat 'n aangeplante boom steeds 'n natuurlike baken bly.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Berge, riviere en groot bome is voorbeelde van natuurlike bakens.",
+      "blok": "Bakens uit die natuur",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Berg staan hoog bo die land uit en mense sien dit van ver af.",
+      "blok": "Bakens uit die natuur",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Torings, brue en kerke is voorbeelde van mensgemaakte bakens.",
+      "blok": "Bakens wat mense gebou het",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Mense bou 'n kerk om daarin te aanbid en gebruik dit ook as 'n baken.",
+      "blok": "Bakens wat mense gebou het",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Mense teken 'n kort reis ook op 'n kaart.",
+      "blok": "Bakens op 'n kaart",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Kaart is 'n verkleinde tekening wat van bo af wys waar dinge in 'n plek lê.",
+      "blok": "Bakens op 'n kaart",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie; die vorige ronde se verslag dra die bron. Die afbeelding is by herlees nagegaan: die 'van bo af'-beeld lei nie 'n leerder verkeerd nie, want die volgende sin se dat kaartmakers kies wat hulle wys, wat die beeld teen 'n kaart-is-'n-lugfoto-gevolgtrekking beskerm.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Die mense wat 'n kaart maak, kies wat hulle daarop wys.",
+      "blok": "Bakens op 'n kaart",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Bakens staan dikwels op 'n kaart en help jou om die roete te volg.",
+      "blok": "Bakens op 'n kaart",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - blok onveranderd, nie hierdie ronde opnuut deursoek nie. Die sin is met 'dikwels' versag.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "baken: Iets wat mense maklik raaksien en help om 'n plek te herken of te vind.",
+      "blok": "begrip: baken",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - onveranderd, nie hierdie ronde opnuut deursoek nie. Alleen gelees bly die inskrywing waar en pas dit op niks wat 'n baken nie is nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "natuurlike baken: 'n Baken wat uit die natuur kom, soos 'n berg of 'n rivier.",
+      "blok": "begrip: natuurlike baken",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - onveranderd, nie hierdie ronde opnuut deursoek nie. Alleen gelees bly dit waar.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "mensgemaakte baken: 'n Baken wat mense self gebou het, soos 'n toring of 'n brug.",
+      "blok": "begrip: mensgemaakte baken",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - onveranderd, nie hierdie ronde opnuut deursoek nie. Alleen gelees bly dit waar.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "kaart: 'n Verkleinde tekening wat van bo af wys waar dinge in 'n plek lê.",
+      "blok": "begrip: kaart",
+      "status": "bevestig",
+      "bron": "OORGEDRA uit ronde 2 - onveranderd, nie hierdie ronde opnuut deursoek nie; stem woord vir woord ooreen met die studieblok se omskrywing.",
+      "tipe": "algemeen"
+    }
+  ],
+  "opsomming": "Die enigste gewysigde sin - 'Noem 'n baken by elke stap, en die naam van die pad as die pad een het' - is waar en word deur die les se eie reis nagekom, want al vyf stappe noem 'n baken (huis se hek, kerk, brug, boom, skool se hek) en Kerkstraat, die enigste pad met 'n naam, word genoem; die baken bly eerste en koordinerend, die padname is nie laat val nie, en die wysiging het niks in die buurblokke omgestoot nie, sodat die les skoon is."
+}
