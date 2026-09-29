@@ -84,6 +84,76 @@ def lesband_vir(graad, vak=None):
     s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
     return LESBAND_VAK.get((int(graad), s), LESBAND.get(int(graad)))
 
+
+def _kaps_ure_klusters(spec, lesse, fails, warns, notes):
+    """Check the CAPS-hours budget basis (Drico, 29 September 2026).
+
+    The envelope belongs to the CLUSTER, not the lesson: CAPS prints the hours,
+    the subject's own rate turns them into words, and the planner distributes
+    inside that. The one rule the arithmetic has to enforce is that WORDS NEVER
+    MOVE BETWEEN CLUSTERS -- each cluster owns its allocation and can neither
+    lend nor borrow. A 50-word shading across a cluster boundary was caught by
+    hand on 29 September 2026, which is why this is checked and not trusted.
+
+    A cluster whose hours are mostly PRACTICAL work is the method's one
+    exception: hours times a rate over-budgets it badly (Gr 5 frame-and-shell
+    structures, 8 3/4 hours of model building and short text). Such a cluster
+    declares kluster_uitsondering and states what it budgeted instead.
+    """
+    tempo = spec.get("woorde_per_uur")
+    if not isinstance(tempo, (int, float)) or tempo <= 0:
+        fails.append("begroting_basis is 'kaps-ure' but woorde_per_uur is missing or not a "
+                     "positive number. The rate is per SUBJECT and is not transferable — "
+                     "Sosiale Wetenskappe is 250, Natuurwetenskappe nearer 125 — so it has to "
+                     "be stated and sourced in begroting_basis_nota.")
+        return
+
+    klusters = {}
+    for L in lesse:
+        naam = (L.get("kaps_kluster") or "").strip()
+        if not naam:
+            fails.append(f"Lesson {L['nommer']}: begroting_basis is 'kaps-ure', so the lesson must "
+                         f"name the CAPS cluster it draws from in kaps_kluster. Without it the "
+                         f"envelope cannot be checked and words can drift between clusters unseen.")
+            continue
+        klusters.setdefault(naam, []).append(L)
+
+    for naam, groep in sorted(klusters.items()):
+        ure = {L.get("kluster_ure") for L in groep}
+        if len(ure) != 1 or None in ure:
+            fails.append(f"Cluster '{naam[:40]}': its {len(groep)} lesson(s) disagree about "
+                         f"kluster_ure ({sorted(str(u) for u in ure)}). A cluster has one hour "
+                         f"figure, printed in CAPS, and every lesson in it must repeat that figure.")
+            continue
+        u = ure.pop()
+        if not isinstance(u, (int, float)) or u <= 0:
+            fails.append(f"Cluster '{naam[:40]}': kluster_ure {u!r} is not a positive number.")
+            continue
+        som = sum(L["begroting"] for L in groep)
+        koevert = round(u * tempo)
+        uitsondering = next((str(L.get("kluster_uitsondering") or "").strip() for L in groep
+                             if str(L.get("kluster_uitsondering") or "").strip()), "")
+        # rounding a share per lesson can move the sum by at most one word each
+        if abs(som - koevert) > len(groep):
+            boodskap = (f"Cluster '{naam[:40]}': its {len(groep)} lesson budgets sum to {som}, "
+                        f"but {u} CAPS hours x {tempo} words/hour gives an envelope of {koevert}. "
+                        f"Words may never move between clusters — redistribute inside this one, "
+                        f"or state a kluster_uitsondering if the hours are mostly practical work.")
+            (notes if uitsondering else fails).append(boodskap)
+        elif uitsondering:
+            notes.append(f"Cluster '{naam[:40]}' carries a stated exception and still lands on its "
+                         f"envelope ({som} against {koevert}).")
+        klein = [L["nommer"] for L in groep if L["begroting"] < 100]
+        if klein:
+            warns.append(f"Cluster '{naam[:40]}': lesson(s) {klein} budget under 100 words. A "
+                         f"hundred words is a paragraph — merge into an adjacent lesson rather "
+                         f"than shipping it. Guide, not a rule.")
+
+    if klusters:
+        notes.append(f"{len(klusters)} CAPS cluster(s) at {tempo} words per hour, "
+                     f"{sum(len(g) for g in klusters.values())} lessons between them.")
+
+
 AANVULLING_MAX_FRACTION = 0.25
 # Aanvulling is capped by budget share, but a spec states items, not words. Two
 # items in a 300-word lesson is already a quarter of it in practice, so the
@@ -147,7 +217,7 @@ PROSA_VEREISTES_LES = ("begrotingsnota",)
 
 def _prosa_velde_is_teks(spec, fails):
     """Fail by name on a prose field that is not text, so nothing downstream strips it."""
-    vereistes = spec.get("begroting_basis") == "vereistes"
+    vereistes = spec.get("begroting_basis") in ("vereistes", "kaps-ure")
 
     def keur(houer, veld, waar):
         w = houer.get(veld)
@@ -233,8 +303,8 @@ def check(spec):
     # check is what made an earlier run print "measured sub-topic volume 250" for a
     # figure nobody measured -- a tool reporting an invention as a measurement.
     basis = spec.get("begroting_basis", "gemete_volume")
-    if basis not in ("gemete_volume", "vereistes"):
-        fails.append(f"begroting_basis '{basis}' is not one of gemete_volume, vereistes")
+    if basis not in ("gemete_volume", "vereistes", "kaps-ure"):
+        fails.append(f"begroting_basis '{basis}' is not one of gemete_volume, vereistes, kaps-ure")
 
     if basis == "gemete_volume":
         rou = round(total_words / n)
@@ -284,15 +354,21 @@ def check(spec):
             if not (L.get("begrotingsnota") or "").strip():
                 fails.append(f"Lesson {L['nommer']}: begroting_basis is 'vereistes', so each "
                              f"lesson needs a begrotingsnota saying how its number was derived")
-        notes.append(f"Budget basis is 'vereistes': {n} lessons summing to {total} words, derived "
-                     f"from requirement counts and NOT from measured volume. Even division is not "
-                     f"enforced and onderwerp_woorde is not treated as the anchor.")
+        if basis == "kaps-ure":
+            notes.append(f"Budget basis is 'kaps-ure' (Drico, 29 September 2026): {n} lessons "
+                         f"summing to {total} words. Each CAPS cluster's envelope is its hours "
+                         f"times the subject rate, and the planner distributes inside it.")
+            _kaps_ure_klusters(spec, lesse, fails, warns, notes)
+        else:
+            notes.append(f"Budget basis is 'vereistes': {n} lessons summing to {total} words, derived "
+                         f"from requirement counts and NOT from measured volume. Even division is not "
+                         f"enforced and onderwerp_woorde is not treated as the anchor.")
 
     if total != spec["totale_begroting"]:
         fails.append(f"Lesson budgets sum to {total}, but totale_begroting is "
                      f"{spec['totale_begroting']}")
 
-    if "kaps_ure" in spec or any("ure" in L for L in lesse):
+    if basis != "kaps-ure" and ("kaps_ure" in spec or any("ure" in L for L in lesse)):
         notes.append("Hour fields present. They are informational only and are never used in "
                      "budget arithmetic.")
 
@@ -301,7 +377,10 @@ def check(spec):
     # requirement-based specs -- the ones with no measurement to divide, which is
     # exactly where a number is most easily typed rather than derived -- outside the
     # only rule that constrains them.
-    band_hier = lesband_vir(spec["graad"], spec.get("vak"))
+    # Under 'kaps-ure' there is NO absolute per-grade band, by design: an absolute
+    # ceiling contradicts a method whose whole point is that each lesson's length is
+    # its own. A 120-word lesson and a 500-word one are both in order.
+    band_hier = None if basis == "kaps-ure" else lesband_vir(spec["graad"], spec.get("vak"))
     vrygestel = (spec.get("band_vrygestel") or "").strip()
     for L in lesse:
         b = L["begroting"]
@@ -436,6 +515,8 @@ def main():
             # "measured" states something false about where the budget came from.
             if r.get("budget_basis") == "vereistes":
                 herkoms = "derived from requirement counts, NOT measured"
+            elif r.get("budget_basis") == "kaps-ure":
+                herkoms = "from CAPS hours x the subject rate, NOT measured"
             else:
                 herkoms = f"measured sub-topic volume {r.get('subtopic_words','?')}"
             print(f"\n  {r.get('lessons','?')} lessons, "

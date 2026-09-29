@@ -392,7 +392,19 @@ the comma limit (≤0.35 per sentence) does more work than the length limit.
 
 ## Volume budget
 
-Anchored on measured volume, never guessed, and then clamped into the grade's band:
+**THERE ARE NOW TWO METHODS, AND THE SPEC SAYS WHICH ONE IT USES.**
+
+**The current method is CAPS hours — see "Budgets from CAPS hours" below.** It is
+Drico's ruling of 29 September 2026 and it governs **all new work**, starting with
+Grade 6 Sosiale Wetenskappe. A spec declares it with `begroting_basis: "kaps-ure"`,
+and that marker is what switches the gate's behaviour.
+
+**Everything under "The band" and "The arithmetic" is the OLD method**, kept because
+every lesson signed off before 29 September 2026 was approved under it. Those lessons
+are not re-measured, re-cut or re-checked. A spec with no `begroting_basis:
+"kaps-ure"` marker is still read the old way, and the old way is still correct for
+those files. Do not apply the old band table to a new-method lesson: it holds a
+per-grade absolute ceiling, which the new method deliberately abolishes.
 
 ### The band
 
@@ -492,10 +504,15 @@ basis, and teaching the profiler to skip activity blocks is outstanding work.
 usually one where a photograph does half the teaching; our text is what a learner
 revises from alone, so it has to carry what the picture carried.
 
-**CAPS contact hours are still not a budget basis** — the rule at the top of this
-section holds. Grade 5 shows why plainly: CAPS gives frame-and-shell structures 8¾
-hours, more than almost anything else in Term 1, and nearly all of it is building a
-model skeleton. Its text is short.
+**CAPS contact hours are not a budget basis UNDER THE OLD METHOD** — within this
+section the rule above holds. Under the current method they are the basis; see
+"Budgets from CAPS hours". WITHDRAWN 29 SEPTEMBER 2026 for new work.
+
+**The example below survives the reversal and is carried into the new method as its
+one exception.** CAPS gives Grade 5 frame-and-shell structures 8¾ hours, more than
+almost anything else in Term 1, and nearly all of it is building a model skeleton.
+Its text is short. Where a cluster's hours are mostly practical work, hours times a
+rate over-budgets it badly, and the planner budgets the reading instead and says so.
 
 ### The arithmetic
 
@@ -504,30 +521,119 @@ onderwerp_woorde = pages_for_subtopic x words_per_page    (from the profiler)
 lesson_budget    = clamp(round(onderwerp_woorde / lesson_count), floor, ceiling)
 ```
 
-**CAPS contact hours are deliberately not used.** They tell a teacher how long to
-spend on a topic and say nothing about how much text a learner reads — lesson time
-holds discussion, drawing and group work as well as reading. Treating hours as a
-words-per-hour rate confuses teaching time with reading volume.
+**CAPS contact hours are not used IN THE ARITHMETIC ABOVE, which is the old method.**
+WITHDRAWN 29 SEPTEMBER 2026 for new work — the current method is built on them. The
+old objection was that hours hold discussion, drawing and group work as well as
+reading, so treating them as a words-per-hour rate confuses teaching time with
+reading volume. That objection was answered empirically: the rate is calibrated on
+our own delivered lessons, so the non-reading part of the hour is already priced into
+it, and hours times the rate predicted a real Grade 6 textbook's Term 1 volume to
+within 1.4%. It still bites where a cluster's hours are mostly practical — see the
+exception above.
 
-Budgets divide evenly across a sub-topic's lessons. Weighting them by judged
-importance substitutes an opinion for a measurement.
+**Budgets divide evenly across a sub-topic's lessons, UNDER THE OLD METHOD.**
+WITHDRAWN 29 SEPTEMBER 2026 for new work: the new method has the planner weight each
+lesson deliberately. The old reason was that weighting by judged importance
+substitutes an opinion for a measurement — and dividing evenly is what produced Gr 4
+Natuurwetenskappe lessons running from 169 words to 811, which is arithmetic nobody
+chose. A judged spread beats an unchosen one.
 
 Check the topic total, not just each lesson — some bullets are genuinely short.
 What matters is that coverage of a whole CAPS topic is not systematically thinner
 than a textbook's. Under-supply is as damaging as over-supply: if Wolkskool
 covers a topic in two-thirds the depth, learners revise the textbook instead.
 
-Gate tolerance is ±15% of the stated budget, **except where a subject-grade overrides
-it**. The override is asymmetric, because the risk is: writers overshoot small budgets
-by roughly a tenth and have almost never come in short, so a symmetric band spends its
-lower half on something that does not happen.
+Gate tolerance is ±15% of the stated budget, and both sides are hard failures — **except
+where a subject-grade overrides it, or where a spec uses the CAPS-hours method below.**
 
-**Graad 4 Sosiale Wetenskappe: the budget is a HARD CEILING, and the floor is 62.5% of
-it — 250 to 400 against a 400-word budget. Drico, 29 September 2026.** His words: *"I
-want to strictly stay within that range... Its the ceiling im really worried about."*
-Gr 4 History came in at a median of 442 against a median budget of 400 and every lesson
-passed, because 400 plus 15% is 460. That is the behaviour this closes.
+**Graad 4 Sosiale Wetenskappe: the budget is a HARD CEILING, and the floor is 62.5% of it
+— 250 to 400 against a 400-word budget. Drico, 29 September 2026.** His words: *"250 - 400...
+I want to strictly stay within that range. It will almost never be the case that a writer
+goes too low... Its the ceiling im really worried about."* The override is asymmetric because
+the risk is: measured against their own budgets, **24 of the 30 delivered Gr 4 History lessons
+are over and none are under**, median overshoot 32 words — and every one of them passed,
+because 400 plus 15% is 460. A symmetric band spends its lower half on something that does
+not happen.
 
+**TWO RULINGS WERE MADE ON 29 SEPTEMBER 2026, ON TWO MACHINES, AND THEY DISAGREE** about one
+thing: what the ceiling is for new Graad 4 Sosiale Wetenskappe work — the budget itself, or
+the planned number plus 12%. In the gate the CAPS-hours branch wins wherever a spec declares
+it, because it is opt-in and explicit. **That is a merge rule, not a decision.** The four
+Gr 4 Geography specs declare `begroting_basis: "vereistes"` and therefore take the hard
+ceiling. Whether Geography should move to the CAPS-hours method is Drico's call and was put
+to him on 29 September 2026; until he answers, do not quietly move it either way.
+
+### Budgets from CAPS hours
+
+**Drico's ruling, 29 September 2026. This is the current method and it governs all new
+work.** A spec declares it with `begroting_basis: "kaps-ure"`; the gate reads that
+marker and changes behaviour. Specs without it keep everything above.
+
+```
+cluster_envelope = kaps_ure_van_die_kluster x vak_tempo        (words)
+lesson_budget    = the planner's share of its own cluster's envelope
+gate_ceiling     = lesson_budget x 1.12          HARD FAILURE above
+gate_floor       = lesson_budget                 WARNING below, never a failure
+```
+
+**1. CAPS supplies the hours.** They are printed against every content cluster —
+Mapungubwe 6 uur, the national government 7 uur, the rainforest 3 uur. Revision and
+assessment hours get no lesson.
+
+**2. Lessons come from GROUPING bullets, never from counting them.** Inside a cluster,
+bullets that belong together become one lesson. Not one lesson per bullet, and not one
+lesson per cluster. Mapungubwe's nine bullets became five lessons, because there are
+five kinds of thing there: where power sat, how people were ranked, the objects, the
+trade, the road.
+
+**3. Every subject has its own words-per-hour rate**, and the rate is not transferable.
+Sosiale Wetenskappe is **250 words per CAPS hour**, taken from Grade 4 SW's own
+delivered lessons (~270/hour). Natuurwetenskappe sits near **125**, because it has far
+more hours per lesson. A new subject's rate comes from our own delivered work in it, or
+from the nearest grade of the same subject — never from another subject.
+
+**4. Hours times rate gives the CLUSTER envelope, not the lesson budget.**
+
+**5. The planner distributes inside the cluster and justifies each share in one line.**
+**Words never move between clusters.** Each CAPS cluster owns its allocation and can
+neither lend nor borrow. A 50-word shading across a cluster boundary was caught and
+reversed on 29 September 2026; the envelope is CAPS's, not the planner's to reallocate.
+
+**6. There is no absolute ceiling any more.** An absolute ceiling contradicts the whole
+idea that a lesson's length is its own. A lesson may be 120 words or 500. The per-grade
+band table above does not apply to a `kaps-ure` lesson.
+
+**7. Under-supply warns; it never fails.** Drico, 29 September 2026: flag a lesson that
+lands under its planned number and handle it individually, because it has happened once
+in the project's history and that was a 650-word budget. Small budgets overshoot by
+about a tenth, which is the direction to expect.
+
+**8. Below about 100 words, merge the lesson into its neighbour rather than ship it.**
+A hundred words is a paragraph. This is a planner-side guide, not a gate rule.
+
+**The one exception, carried over from the old method:** where a cluster's hours are
+**mostly practical work**, hours times a rate over-budgets it badly. CAPS gives Grade 5
+frame-and-shell structures 8¾ hours, nearly all of it building a model skeleton, and its
+text is genuinely short. There the planner budgets the reading, not the hours, and says
+so in the `begrotingsnota`.
+
+**No textbook is needed to budget.** CAPS gives the hours and our own delivered lessons
+give the rate, so a book never enters the loop — one less place the copyright boundary
+has to hold.
+
+**We still check ourselves against one, and Drico does the counting.** He hand-counts a
+textbook across the same lessons and gives back numbers only; nothing but numbers
+crosses the boundary. Grade 6 SW Term 1: his 3 042 against a predicted 3 000, **1.4%
+apart**, over ten lessons. A textbook is **not** the benchmark — publishers guess from
+hours too. It is a second independent guess.
+
+**Our lesson division is never adjusted toward a book's.** His book's ten-lesson split
+matched ours seam for seam bar one merge, which is reassuring. Changing our answer
+*because* theirs differs would be taking structure from the book, and selection and
+arrangement are exactly what our copyright position rests on. Where they differ, decide
+on our own grounds and write down what those grounds were. **CAPS's stated emphasis
+beats a publisher's page budget** — the book gave the Indian Ocean trade 190 words;
+CAPS names that trade the topic's main focus, so it gets 380.
 ## Writing patterns that are known to work
 
 These come from measuring real Grade 4 material, not from taste.

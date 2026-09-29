@@ -449,9 +449,14 @@ def argiveer(bron, les_id, siklus, naam):
 
 
 # ---------------------------------------------------------------- steps
-def hardloop_hek(les_pad, graad, begroting, uit):
+def hardloop_hek(les_pad, graad, begroting, uit, kaps_ure=False):
     args = [les_pad, "--grade", graad, "--budget", begroting, "--json",
             "--log", P.GATE_LOG]
+    # Drico, 29 September 2026: a spec on the CAPS-hours basis is gated
+    # differently -- ceiling planned+12%, under-supply warns instead of failing,
+    # and no absolute per-grade ceiling. Specs without the marker are untouched.
+    if kaps_ure:
+        args.append("--kaps-ure")
     dic = P.hunspell_pad()
     if dic:
         args += ["--woordeboek", dic]
@@ -818,7 +823,8 @@ def stap(a, uit):
 
     # --- 3. the gate, BEFORE the checkers ----------------------------------
     if staat.get("hek") is None:
-        code, hek = hardloop_hek(les_pad, graad, begroting, uit)
+        code, hek = hardloop_hek(les_pad, graad, begroting, uit,
+                                 kaps_ure=spek.get("begroting_basis") == "kaps-ure")
         staat["hek"] = hek["verdict"]
         staat["hek_konteks"] = hek_konteks
         argiveer(P.hek_verslag(les_pad), les_id, siklus_nou, "hek")
