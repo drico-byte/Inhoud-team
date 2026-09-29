@@ -185,7 +185,10 @@ GEEN_SPEK = "geen-goedgekeurde-spek"
 def eis_profiel(vak, graad, sub, basis=None):
     pad, cfg = P.vind_profiel(vak, graad, sub)
 
-    if pad is None and basis in ("vereistes", GEEN_SPEK):
+    # "kaps-ure" joins "vereistes" here for the same reason: its budgets come from
+    # CAPS hours and the subject rate, so this sub-topic never had to be measured.
+    # The subject-grade config is still wanted, because the register band lives in it.
+    if pad is None and basis in ("vereistes", "kaps-ure", GEEN_SPEK):
         # A requirement-based budget does not need THIS SUB-TOPIC to have been
         # measured, because the measurement is not its basis. The subject-grade
         # config is still wanted, since the register band is read from it.
@@ -202,7 +205,7 @@ def eis_profiel(vak, graad, sub, basis=None):
             return pad2, cfg2, {"woorde": 0, "bladsye": 0, "geen_meting": True,
                                 "nie_gemeet_nota":
                                     f"'{sub}' is not measured in {P.rel(pad2)}. The spec declares "
-                                    f"begroting_basis 'vereistes', so its own budgets are the "
+                                    f"begroting_basis '{basis}', so its own budgets are the "
                                     f"authority and no volume is derived here."}
 
     if pad is None:

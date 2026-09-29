@@ -131,28 +131,58 @@ def _kaps_ure_klusters(spec, lesse, fails, warns, notes):
             continue
         som = sum(L["begroting"] for L in groep)
         koevert = round(u * tempo)
+        # A cluster may exceed CAPS's hours by EXACTLY the floor top-ups it declares
+        # and by nothing else. Drico, 29 September 2026: funding the 200-word floor by
+        # shaving well-judged siblings is "a number nobody chose", which is the failure
+        # the whole method was built to end -- so the envelope grows instead. It can
+        # still not grow quietly: every extra word has to be named by the lesson that
+        # needed it.
+        optel = sum(int(L.get("vloer_optel") or 0) for L in groep)
+        koevert += optel
         uitsondering = next((str(L.get("kluster_uitsondering") or "").strip() for L in groep
                              if str(L.get("kluster_uitsondering") or "").strip()), "")
         # rounding a share per lesson can move the sum by at most one word each
         if abs(som - koevert) > len(groep):
+            verduidelik = (f"{u} CAPS hours x {tempo} words/hour"
+                           + (f" plus {optel} declared floor top-up(s)" if optel else ""))
             boodskap = (f"Cluster '{naam[:40]}': its {len(groep)} lesson budgets sum to {som}, "
-                        f"but {u} CAPS hours x {tempo} words/hour gives an envelope of {koevert}. "
+                        f"but {verduidelik} gives an envelope of {koevert}. "
                         f"Words may never move between clusters — redistribute inside this one, "
                         f"or state a kluster_uitsondering if the hours are mostly practical work.")
             (notes if uitsondering else fails).append(boodskap)
         elif uitsondering:
             notes.append(f"Cluster '{naam[:40]}' carries a stated exception and still lands on its "
                          f"envelope ({som} against {koevert}).")
-        klein = [L["nommer"] for L in groep if L["begroting"] < 100]
-        if klein:
-            warns.append(f"Cluster '{naam[:40]}': lesson(s) {klein} budget under 100 words. A "
-                         f"hundred words is a paragraph — merge into an adjacent lesson rather "
-                         f"than shipping it. Guide, not a rule.")
+        # "UP TO 200, OR MERGE IT" -- Drico, 29 September 2026. The floor is a minimum
+        # and an alarm at once: a lesson that cannot honestly carry 200 words is not a
+        # lesson. It is never met by padding. Filler in this pipeline becomes CLAIMS,
+        # and claims are where nearly every error has come from -- a sentence written
+        # to fill a gap is a sentence nobody needed to be true.
+        for L in groep:
+            if L["begroting"] < VLOER:
+                fails.append(f"Lesson {L['nommer']}: budget {L['begroting']} is below the "
+                             f"{VLOER}-word floor. Raise it to {VLOER} with a declared "
+                             f"vloer_optel if the content honestly carries it, or MERGE the "
+                             f"lesson into its neighbour. Never pad it to reach the floor.")
+            elif L.get("vloer_optel") and L["begroting"] != VLOER:
+                fails.append(f"Lesson {L['nommer']}: declares vloer_optel "
+                             f"{L['vloer_optel']} but its budget is {L['begroting']}, not the "
+                             f"{VLOER}-word floor. A top-up lifts a lesson TO the floor and no "
+                             f"further — it is not a way to buy a cluster extra words.")
+        opgetel = [L["nommer"] for L in groep if L.get("vloer_optel")]
+        if opgetel:
+            notes.append(f"Cluster '{naam[:40]}': lesson(s) {opgetel} lifted to the {VLOER}-word "
+                         f"floor, {optel} words above CAPS's hours and declared as such.")
 
     if klusters:
         notes.append(f"{len(klusters)} CAPS cluster(s) at {tempo} words per hour, "
                      f"{sum(len(g) for g in klusters.values())} lessons between them.")
 
+
+# The minimum a kaps-ure lesson may be budgeted at. Drico, 29 September 2026:
+# "up to 200, or merge it". The text is what a learner revises from when the
+# video is not in front of them, and a 120-word lesson cannot do that job.
+VLOER = 200
 
 AANVULLING_MAX_FRACTION = 0.25
 # Aanvulling is capped by budget share, but a spec states items, not words. Two

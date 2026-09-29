@@ -616,8 +616,24 @@ lands under its planned number and handle it individually, because it has happen
 in the project's history and that was a 650-word budget. Small budgets overshoot by
 about a tenth, which is the direction to expect.
 
-**8. Below about 100 words, merge the lesson into its neighbour rather than ship it.**
-A hundred words is a paragraph. This is a planner-side guide, not a gate rule.
+**8. The floor is 200 words: "UP TO 200, OR MERGE IT."** Drico, 29 September 2026. The
+text is what a learner revises from when the video is not in front of them, and a
+120-word lesson cannot do that job. The floor is a minimum and an alarm at once — a
+lesson that cannot honestly carry 200 words is not a lesson, it is part of its
+neighbour. **It is never met by padding.** Filler in this pipeline becomes CLAIMS, and
+claims are where nearly every error has come from: a sentence written to fill a gap is
+a sentence nobody needed to be true.
+
+**9. A lifted lesson declares its top-up, and the envelope grows by exactly that.**
+The top-up is NOT for a lesson whose content is thin — that one merges. It is for a
+lesson that honestly carries 200 words where the CLUSTER'S HOURS only left it 150 once
+its siblings took their judged shares: CAPS under-funded it, and the top-up records
+that rather than hiding it. Such a lesson goes to 200 and states `vloer_optel: 50`. Its
+siblings are NOT shaved to pay for it — funding a floor by shaving a well-judged
+sibling produces a number nobody chose, which is the failure this whole method exists
+to end. The cluster then sums to its envelope PLUS the declared top-ups and nothing
+else, so it still cannot grow quietly, and a top-up lifts a lesson TO the floor and no
+further. Over Grade 6 SW History the floor cost 260 words on 12 000 — about 2%.
 
 **The one exception, carried over from the old method:** where a cluster's hours are
 **mostly practical work**, hours times a rate over-budgets it badly. CAPS gives Grade 5
