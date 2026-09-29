@@ -392,6 +392,14 @@ the comma limit (≤0.35 per sentence) does more work than the length limit.
 
 ## Volume budget
 
+**A HYPHEN COSTS A WHOLE WORD.** The gate counts words as runs of letters, so every
+hyphen splits one word into two: `Wes-Kaap`, `Oos-Kaap`, `Noord-Kaap` and
+`KwaZulu-Natal` are two words each, `bek-en-klouseer` is three, and **the nine
+province names come to 13 words, not 9**. This was never worth knowing while the
+ceiling had 15% of slack in it. Under a hard ceiling it is, and a planner costing a
+list of hyphenated names will be out by a third if it counts them as a person would.
+Measure the string, do not count the items.
+
 **THERE ARE NOW TWO METHODS, AND THE SPEC SAYS WHICH ONE IT USES.**
 
 **The current method is CAPS hours — see "Budgets from CAPS hours" below.** It is
@@ -543,7 +551,25 @@ What matters is that coverage of a whole CAPS topic is not systematically thinne
 than a textbook's. Under-supply is as damaging as over-supply: if Wolkskool
 covers a topic in two-thirds the depth, learners revise the textbook instead.
 
-Gate tolerance is ±15% of the stated budget, and both sides are hard failures.
+Gate tolerance is ±15% of the stated budget, and both sides are hard failures — **except
+where a subject-grade overrides it, or where a spec uses the CAPS-hours method below.**
+
+**Graad 4 Sosiale Wetenskappe: the budget is a HARD CEILING, and the floor is 62.5% of it
+— 250 to 400 against a 400-word budget. Drico, 29 September 2026.** His words: *"250 - 400...
+I want to strictly stay within that range. It will almost never be the case that a writer
+goes too low... Its the ceiling im really worried about."* The override is asymmetric because
+the risk is: measured against their own budgets, **24 of the 30 delivered Gr 4 History lessons
+are over and none are under**, median overshoot 32 words — and every one of them passed,
+because 400 plus 15% is 460. A symmetric band spends its lower half on something that does
+not happen.
+
+**TWO RULINGS WERE MADE ON 29 SEPTEMBER 2026, ON TWO MACHINES, AND THEY DISAGREE** about one
+thing: what the ceiling is for new Graad 4 Sosiale Wetenskappe work — the budget itself, or
+the planned number plus 12%. In the gate the CAPS-hours branch wins wherever a spec declares
+it, because it is opt-in and explicit. **That is a merge rule, not a decision.** The four
+Gr 4 Geography specs declare `begroting_basis: "vereistes"` and therefore take the hard
+ceiling. Whether Geography should move to the CAPS-hours method is Drico's call and was put
+to him on 29 September 2026; until he answers, do not quietly move it either way.
 
 ### Budgets from CAPS hours
 
@@ -632,7 +658,6 @@ arrangement are exactly what our copyright position rests on. Where they differ,
 on our own grounds and write down what those grounds were. **CAPS's stated emphasis
 beats a publisher's page budget** — the book gave the Indian Ocean trade 190 words;
 CAPS names that trade the topic's main focus, so it gets 380.
-
 ## Writing patterns that are known to work
 
 These come from measuring real Grade 4 material, not from taste.

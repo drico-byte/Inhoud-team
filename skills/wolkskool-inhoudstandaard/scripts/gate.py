@@ -148,6 +148,26 @@ BLOCK_WORDS_MIN, BLOCK_WORDS_MAX = 30, 110
 BLOCKS_MIN, BLOCKS_MAX = 3, 10
 BUDGET_TOLERANCE = 0.15
 
+# Asymmetric override per subject-grade, as (under, over). DRICO, 29 SEPTEMBER 2026,
+# FOR GRAAD 4 SOSIALE WETENSKAPPE: "250 - 400... I want to strictly stay within that
+# range. It will almost never be the case that a writer goes too low... Its the
+# ceiling im really worried about."
+#
+# So the BUDGET ITSELF IS THE CEILING -- no tolerance above it -- and the floor drops
+# to 62.5% of budget, which is 250 against a 400-word budget. The asymmetry is the
+# point: writers overshoot small budgets by roughly a tenth and have almost never
+# come in short, so a symmetric band spends its lower half on a risk that does not
+# happen while letting a 400-word lesson reach 460. Measured against their own
+# budgets, 24 of the 30 delivered Gr 4 History lessons are over and none are under.
+#
+# Scoped rather than global because other machines gate against the default, and
+# because every delivered lesson was written under it.
+#
+# The floor stays generous ON PURPOSE and is not a target: the map-skills opener is
+# budgeted at 200 because Drico ruled it may run light, and 62.5% keeps a proportional
+# floor under it rather than an absolute one that would sit above its own budget.
+BUDGET_TOLERANCE_VAK = {("Sosiale Wetenskappe", 4): (0.375, 0.0)}
+
 # --- the CAPS-hours method (Drico, 29 September 2026) -----------------------
 # New work budgets a CLUSTER from its CAPS hours and lets the planner distribute
 # inside it, so each lesson's length is its own. Three consequences for the gate,
@@ -161,6 +181,14 @@ BUDGET_TOLERANCE = 0.15
 #   * LESBAND does not apply. An absolute per-grade ceiling contradicts the
 #     method, so a 120-word lesson and a 500-word one are both in order.
 KAPS_URE_TOLERANCE = 0.12
+
+# THESE TWO RULINGS WERE MADE THE SAME AFTERNOON, ON TWO MACHINES, AND THEY DISAGREE
+# ABOUT ONE THING: what the ceiling is for new Gr 4 Sosiale Wetenskappe work -- the
+# budget itself, or the planned number plus 12%. In code the CAPS-hours branch wins
+# wherever a spec asks for it, because it is opt-in and explicit. That is a merge
+# rule, NOT a decision: the four Gr 4 Geography specs declare begroting_basis
+# "vereistes" and so take the hard ceiling, and whether Geography should move to the
+# CAPS-hours method is Drico's call and was put to him on 29 September 2026.
 
 # Per-lesson word band per grade, mirroring spec_check.py's LESBAND. spec_check
 # holds the BUDGET to this band; nothing held the MEASURED draft to it, and the
@@ -317,7 +345,9 @@ def run(lesson, grade, budget, kaps_ure=False):
     # Name the thing being measured after what actually carries the lesson, so a
     # reading lesson's failure does not talk about study text it never had.
     label = "Reading text" if reading and not study else "Study text"
+    begrotingsreel = None
     if kaps_ure:
+        begrotingsreel = f"CAPS-hours: {budget:.0f} planned, ceiling {budget * (1 + KAPS_URE_TOLERANCE):.0f} (+12%), under-run warns"
         hi = budget * (1 + KAPS_URE_TOLERANCE)
         if sm["words"] > hi:
             fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} "
@@ -329,11 +359,28 @@ def run(lesson, grade, budget, kaps_ure=False):
                          f"person to weigh, not a failure (Drico, 29 September 2026). Ask whether "
                          f"the lesson is thin or the plan was generous.")
     else:
-        lo, hi = budget * (1 - BUDGET_TOLERANCE), budget * (1 + BUDGET_TOLERANCE)
+        onder, bo = BUDGET_TOLERANCE, BUDGET_TOLERANCE
+        _sleutel = ((lesson.get("vak") or "").strip(), grade)
+        if _sleutel in BUDGET_TOLERANCE_VAK:
+            onder, bo = BUDGET_TOLERANCE_VAK[_sleutel]
+        lo, hi = budget * (1 - onder), budget * (1 + bo)
+        if _sleutel in BUDGET_TOLERANCE_VAK:
+            begrotingsreel = (f"{_sleutel[0]} Gr {_sleutel[1]}: {lo:.0f}-{hi:.0f}"
+                              + (" — the budget is a HARD CEILING" if bo == 0 else ""))
+        else:
+            begrotingsreel = f"default ±{BUDGET_TOLERANCE:.0%}: {lo:.0f}-{hi:.0f}"
         if sm["words"] < lo:
             fails.append(f"{label} {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
         elif sm["words"] > hi:
-            fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
+            if bo == 0:
+                fails.append(f"{label} {sm['words']} words, and the budget {budget} is a HARD CEILING for "
+                             f"this subject and grade — Drico, 29 September 2026. There is no tolerance "
+                             f"above it. Cut {sm['words'] - budget} words. Never drop a requirement to get "
+                             f"there: tighten sentences, cut an example, cut anything the video already "
+                             f"carries. If it genuinely cannot be done without losing a requirement, say "
+                             f"so and stop rather than trimming the requirement away.")
+            else:
+                fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
     # NB: not named 'band' — that name holds the REGISTER band and is read below.
     # A kaps-ure lesson has no absolute ceiling by design, so LESBAND is skipped.
     lesband = None if kaps_ure else LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
@@ -456,6 +503,7 @@ def run(lesson, grade, budget, kaps_ure=False):
         "graad": grade,
         "vak": lesson.get("vak"),
         "budget": budget,
+        "begrotingsreel": begrotingsreel,
         "begroting_basis": "kaps-ure" if kaps_ure else "meting",
         "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "study": {k: v for k, v in sm.items() if k != "long_words"},
@@ -506,6 +554,8 @@ def main():
             shown = "reading text" if counts.get("leesstuk") and not counts.get("studie") else "study text"
             print(f"\n  {shown:<12} {s['words']} words / {s['sentences']} sentences")
             print(f"               {s['mean_sentence_len']} words per sentence, {s['mean_syllables']} syllables per word, {s['pct_polysyllabic']}% polysyllabic")
+        if r.get("begrotingsreel"):
+            print(f"  volume band  {r['begrotingsreel']}")
         if r["eli10"]:
             e = r["eli10"]
             print(f"  eli10 layer  {e['words']} words, {e['mean_sentence_len']} words per sentence, {e['mean_syllables']} syllables per word")
