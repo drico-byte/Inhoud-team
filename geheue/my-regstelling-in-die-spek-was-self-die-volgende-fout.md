@@ -46,3 +46,37 @@ sheltered by that correction's own note.
 the likeliest place for the next instance, because my own wording is there and I read
 it as already handled.** Sweep them too, on the claim, and do not let a nearby dated
 note stand in for reading the sentence.
+
+---
+
+**29 September 2026, Gr 4 Geography map skills: the writer overrode my prescription and
+was right, on Afrikaans register I do not have.**
+
+A fact check could not settle "from above your eye falls *first* on the stem" — nothing
+establishes what a person notices first — and found something better underneath it: the
+lesson's three other view-from-above sentences named the *large* feature, while the
+apple's named only a small central detail, so the apple's roundness appeared nowhere in
+the lesson at all.
+
+The fault is "this sentence names the small feature where its siblings name the large
+one". That is what I should have written. **What I actually wrote into the spec was a
+word**: name the apple's *ronde omtrek*.
+
+The writer used *ronde vorm* instead and said why. In Grade 4 mathematics **omtrek is the
+measured distance around a shape**, so my word hands a nine-year-old a measurement as its
+first reading. And *vorm* is already the lesson's word for the shoe, the hat and the
+tabletop, so the four sentences now read as one pattern instead of three plus an oddity.
+
+Two things follow.
+
+* **The register argument is one I could not have made.** It is not that I chose a worse
+  synonym — it is that the choice depended on what a specific Afrikaans word means inside
+  a specific grade's other subject. Prescribing wording reaches past what I know.
+* **A prescribed word is obeyed silently.** The writer pushed back here and asked for the
+  spec to be settled; a faster one would have written *omtrek*, and nothing downstream
+  checks a noun against the Grade 4 maths curriculum. The gate counts it, coverage sees
+  the requirement met, and the fact checker finds the sentence true.
+
+The spec now asks for the large feature and leaves the noun alone. Related:
+[[moenie-self-inhoud-skryf-nie]], [[n-claim-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie]],
+[[die-spek-was-die-fout-sewentien-keer]].
