@@ -41,3 +41,22 @@ remaining ones false.
 Related: [[n-regstelling-ontwrig-sy-bure]], [[elke-sin-waar-die-prentjie-vals]] — three of
 the worst errors this pipeline ever produced were inside these blocks, and they were never
 fact-checked as hard as study text because scaffolding never counted against the budget.
+
+**29 September 2026 — the standard itself had lagged its own ruling for six days.** The
+abolition is stated near the top of the content standard; four places *below* it still gave
+live orders. The schema example still contained a block, which is the most-copied thing in
+the whole document, and a bolded order — "ELI10 must contain an actual comparison... Every
+ELI10 block names its concept in `vir`" — sat 430 lines below the rule that withdrew it.
+By the bottom-up test the later imperative wins, because an agent reads a document as prose.
+
+Three scripts too: the gate appended "zero or one per lesson is the guide" as a note on
+every lesson; the spec checker warned a planner that a sub-topic "usually has at least one
+concept that needs an ELI10 layer", which directly contradicted the current planner prompt;
+and the verdict checker told a reader a flagged concept was "not checked for an eli10 block".
+
+**The sweep that closed this was never run: the one that reads the standard itself.** The
+prompts, the reference files and all 236 lessons were already clean on day one — the effort
+went to the specs, which was right, and the document every agent reads was assumed correct
+because the ruling had been written *into* it. Writing a ruling into a document is not the
+same as sweeping that document for what the ruling withdrew. See
+[[die-korrigeerde-opdrag-bly-in-die-veld-staan]] and [[n-teruggetrekte-beslissing-bly-in-hoofletters-staan]].

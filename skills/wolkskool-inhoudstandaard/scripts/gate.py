@@ -413,15 +413,6 @@ def run(lesson, grade, budget, kaps_ure=False):
         em = measure(" ".join(b.get("teks", "") for b in eli10))
         if em:
             check_register(em, ELI10, "ELI10 layer", fails, warns)
-    else:
-        # NOT a warning. Zero intuition blocks is an accepted and common outcome: the
-        # guide is zero or one per lesson, and most lessons contain no genuinely
-        # abstract mechanism. This line used to read "intuition-first explanation is
-        # missing", which invited a writer to add a block purely to silence it — the
-        # exact behaviour the zero-or-one rule exists to stop. It is stated as a fact
-        # because a human reviewer wants to know, not because anything is wrong.
-        notes.append("No ELI10 layer — zero or one per lesson is the guide, and none is "
-                     "a normal outcome for a lesson with no abstract mechanism")
 
     # ELI10 blocks should name the concept they explain, so the layout can pair
     # them and the coverage checker can verify the flagged concepts are covered.

@@ -4,42 +4,34 @@
   "graad": 4,
   "vak": "Sosiale Wetenskappe",
   "budget": 450,
-  "checked_at": "2026-09-22T20:09:53+00:00",
+  "checked_at": "2026-09-23T11:45:34+00:00",
   "study": {
-    "words": 446,
-    "sentences": 33,
-    "mean_sentence_len": 12.6,
-    "median_sentence_len": 13,
+    "words": 463,
+    "sentences": 36,
+    "mean_sentence_len": 12.4,
+    "median_sentence_len": 12.5,
     "longest_sentence": 17,
-    "mean_syllables": 1.31,
-    "pct_polysyllabic": 4.1,
-    "pct_long_words": 0.2,
-    "commas_per_sentence": 0.09,
-    "list_words": 31
+    "mean_syllables": 1.32,
+    "pct_polysyllabic": 3.8,
+    "pct_long_words": 0.5,
+    "commas_per_sentence": 0.11,
+    "list_words": 20
   },
-  "eli10": {
-    "words": 70,
-    "sentences": 7,
-    "mean_sentence_len": 10,
-    "median_sentence_len": 10,
-    "longest_sentence": 11,
-    "mean_syllables": 1.26,
-    "pct_polysyllabic": 2.9,
-    "pct_long_words": 0.0,
-    "commas_per_sentence": 0.0
-  },
+  "eli10": null,
   "block_counts": {
     "studie": 7,
     "lys": 1,
-    "eli10": 1,
     "begrip": 7
   },
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text 463 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (450) plus tolerance allows 518, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study block 1 ('Wat 'n stoomenjin is') 112 words (guide 30–110) — will overflow its section",
     "Long words in study text with no 'begrip' entry: stoomspoorlyn"
   ],
   "notes": [
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

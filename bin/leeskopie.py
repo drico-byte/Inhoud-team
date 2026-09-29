@@ -308,7 +308,7 @@ def bou_html(les, verslae=None):
 </header>
 {''.join(lyf)}
 {bevindings_html(verslae or {})}
-<footer>Leeskopie vir nasien. Die bladsy wat leerders sien word deur die
+<footer>Leeskopie vir nasien. Die bladsy wat leerders sien, word deur die
 HTML-span uitgelê; hierdie dokument is net om die les te lees en te beoordeel.</footer>
 </body></html>"""
 

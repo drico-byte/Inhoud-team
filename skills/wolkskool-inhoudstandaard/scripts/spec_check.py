@@ -66,9 +66,14 @@ import argparse, json, re, sys
 #     its spec saying why.
 # LESBAND is the per-grade default; LESBAND_VAK overrides it for one subject.
 #
-# Grades 7-12 stay unbanded until someone decides them the same way, rather than
-# inheriting a number that was reasoned about another grade.
-LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550)}
+# Grades 7-9 were decided by Lampies on 23 September 2026, for Lewensorientering:
+# 350-700, and "die aantal woorde moet deur die inhoud bepaal word, moet nie
+# oortollig van aard wees nie". It is a wide band on purpose: a CAPS block in the
+# Senior Phase carries two to four hours of teaching, and how much a block really
+# holds differs from block to block, so the content sets the number rather than an
+# average. Grades 10-12 stay unbanded until someone decides them the same way,
+# rather than inheriting a number that was reasoned about another grade.
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550), 7: (350, 700), 8: (350, 700), 9: (350, 700)}
 LESBAND_VAK = {}
 
 
@@ -466,14 +471,7 @@ def check(spec):
             warns.append(f"Lesson {L['nommer']}: {len(av)} aanvulling items against a "
                          f"{allowance}-word allowance — check the 25% cap still holds")
 
-    # --- difficult-concept flags ---
-    # This used to advise adding an ELI10 layer. The eli10 block was ABOLISHED by
-    # Drico on 23 September 2026, so the advice asked for something a lesson may no
-    # longer contain and the gate now refuses. The flag itself still earns its place:
-    # it tells the writer which idea needs the careful explanation, in the study text.
-    if not any(L.get("moeilike_konsepte") for L in lesse):
-        warns.append("No lesson flags a difficult concept — most sub-topics have at least one "
-                     "idea the writer should be told to take extra care over in the study text")
+    # --- moeilike_konsepte flags ---
     for L in lesse:
         if len(L.get("moeilike_konsepte") or []) > 3:
             warns.append(f"Lesson {L['nommer']}: {len(L['moeilike_konsepte'])} concepts flagged "

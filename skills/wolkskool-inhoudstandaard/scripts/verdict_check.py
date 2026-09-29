@@ -197,7 +197,7 @@ def check(report, lesson=None, spec=None):
         for m in spec.get("moeilike_konsepte", []) or []:
             words = [w for w in m.lower().split() if len(w) > 4]
             if words and not any(w in checked for w in words):
-                warns.append(f"Flagged difficult concept not checked for an eli10 block: "
+                warns.append(f"Flagged difficult concept not obviously checked anywhere: "
                              f"'{m[:40]}'")
 
     # --- the substantive check: does the verdict follow from the findings? ---

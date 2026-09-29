@@ -112,7 +112,11 @@
 - [Gr 6 NWT: where we are](gr6-nwt-waar-ons-is.md) — all 26 signed off 22 Sep 2026; Moon 'amper 28 dae'; open: Gr 5 karnivoor/herbivoor 'net' awaits Drico.
 - [An agent reported failed may have finished](n-agent-wat-faal-kan-sy-werk-klaar-he.md) — four of fourteen killed agents had written complete files; measure before re-running, and don't test against the provenance note.
 - [Lessons always go to lees/](lesse-gaan-altyd-na-lees.md) — Drico's outbox; copy every approved PDF there with its protected-words page, without being asked.
-- [The ELI10 block is abolished](eli10-blok-is-afgeskaf.md) — Drico 23 Sep 2026; nothing moves into the study text, the gate hard-fails one, and 60 specs still ordered it.
+- [The ELI10 block is abolished](eli10-blok-is-afgeskaf.md) — Drico 23 Sep 2026; nothing moves into the study text, the gate hard-fails one, and 60 specs still ordered it — as did the standard itself, for six days.
 - [The reading copy sent out our internal notes](die-leeskopie-het-ons-interne-notas-uitgestuur.md) — approved lessons carried the review appendix to the language checker and the HTML team; 56 PDFs still have it.
 - [Budgets come from CAPS hours](begroting-uit-kaps-ure.md) — hours x the subject's own rate gives a CLUSTER envelope, the planner distributes inside it, ceiling is planned +12% and there is no absolute ceiling.
 - [Our division must not shift toward a textbook's](n-eie-verdeling-mag-nie-na-die-handboek-toe-skuif-nie.md) — matching it independently is fine; changing our answer because theirs differs undoes the copyright position.
+- [Three PCs work in parallel](drie-rekenaars-werk-parallel.md) — open lessons outside my subject are probably someone else's; report what is left in MY work, and a repo-wide sweep reaches into their files.
+- [Gr 4 Geography: the rulings](gr4-geografie-besluite.md) — 30 lessons, 400 words, videos already made; hunting and urban farming carried briefly by our text; map-skills lesson 1 may run light.
+- [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks exactly like an item-level one; and CAPS marks a binding list by leaving out the word soos.
+
