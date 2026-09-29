@@ -1,9 +1,11 @@
 {
   "les": "gr7/lewensorientering/selfontwikkeling-in-die-samelewing/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:a184ac8386ccd7b165ac2f62881e5ef9",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:f29e38ce8e37a40bd76cb577b7e3cf31",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:f29e38ce8e37a40bd76cb577b7e3cf31"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -49,9 +51,37 @@
       "woorde": 699,
       "begroting": 650,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-29T06:50:40+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f29e38ce8e37a40bd76cb577b7e3cf31",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-29T06:50:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 786,
+      "begroting": 650,
+      "failures": [
+        "Study text 786 words, above budget ceiling 747 (target 650) — learners will revise the textbook instead",
+        "Study text: 0.38 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-29T06:50:40+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 786 words, above budget ceiling 747 (target 650) — learners will revise the textbook instead",
+        "Study text: 0.38 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
     }
   ],
-  "spek_hash": "sha256:28c56c04aa19a8ccff224d04a3e2b56b",
+  "spek_hash": "sha256:13029a6b9c4391bb22b03b3cbf8fdbd6",
   "hek_konteks": {
     "graad": 7,
     "begroting": 650
