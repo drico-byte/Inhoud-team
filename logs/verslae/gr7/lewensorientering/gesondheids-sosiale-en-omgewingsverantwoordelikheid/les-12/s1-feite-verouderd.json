@@ -4,235 +4,325 @@
   "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Drie soorte hulp wanneer iemand siek is",
   "kaps_punt": "Keuses ten opsigte van behandeling, versorging en ondersteuning; Beskikbare hulpbronne vir gesondheidsinligting en -dienste",
-  "verdict": "HERSIEN",
+  "verdict": "MENS_NODIG",
   "items": [
     {
-      "bewering": "Behandeling is wat die kliniek of die dokter aan die siekte doen en die medisyne wat geneem word. Versorging is die daaglikse sorg by die huis wat aangaan lank nadat die kliniek se deur toegaan. Ondersteuning is die mense wat luister en help en bly bystaan wanneer die siekte lank duur.",
+      "bewering": "Wanneer iemand in die huis siek word, dink 'n mens eerste aan medisyne.",
       "blok": "Drie woorde wat nie dieselfde ding beteken nie",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Die drieledige verdeling is nie die les se eie uitvindsel nie en dit sny op die regte plekke. Dit is die onderskeid wat die palliatiewe- en chroniese-sorgliteratuur tref tussen klinies-mediese behandeling, daaglikse (dikwels huishoudelike) versorging, en psigososiale ondersteuning (who.int/news-room/fact-sheets/detail/palliative-care, wat 'physical, psychosocial and spiritual' as afsonderlike behoeftes noem; en vir Suid-Afrika die WBPHCOT-raamwerk se onderskeid tussen 'management of minor health issues', 'providing psychosocial support' en 'adherence support', academic.oup.com/heapol/article/36/4/384/6053703). Die woorde word ook nie oor mekaar gekruis gebruik nie: elke begrip-inskrywing hou by dieselfde grens as die studieteks."
+      "bron": "Navorsing oor gesondheidsoekgedrag in Suid-Afrika: selfmedikasie is 'n belangrike eerste reaksie op siekte, en oor-die-toonbank-medisyne word deur die meerderheid vir koors gebruik (ongeveer 63%) - UKZN-navorsingsbewaarplek, https://researchspace.ukzn.ac.za/bitstreams/4c2ba271-af5c-4452-b69b-6eafca121791/download ; en Health SA Gesondheid, https://doaj.org/article/a0e56ba8acbe44ffbf038f31d8f9d853"
+    },
+    {
+      "bewering": "Medisyne is egter net een van die drie dinge wat 'n siek mens nodig het. Behandeling ... Versorging ... Ondersteuning ...",
+      "blok": "Drie woorde wat nie dieselfde ding beteken nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die drieledige onderskeid 'treatment, care and support' is die standaard raamwerk in WGO/UNAIDS-dokumente: kliniese behandeling, versorging (voeding, daaglikse sorg, nakoming-ondersteuning) en psigososiale plus sosiaal-ekonomiese ondersteuning word uitdruklik as afsonderlike dimensies gelys - WGO Europa, 'Psychosocial support for people with TB, HIV and viral hepatitis', https://www.who.int/europe/publications/i/item/WHO-EURO-2020-1345-41095-55826 ; en AIDSTAR-One tegniese oorsig, https://bloodwater.org/content/uploads/2023/10/AIDSTAR-One_TechBrief_PSS_and_Children_Living_with_HIV_Africa.pdf"
+    },
+    {
+      "bewering": "Behandeling is wat die kliniek of die dokter aan die siekte doen en die medisyne wat geneem word.",
+      "blok": "Drie woorde wat nie dieselfde ding beteken nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Standaard omskrywings van behandeling (die mediese sorg wat vir 'n siekte of besering gegee word, medisyne ingesluit) stem hiermee ooreen - EMA-glossarium 'medicinal product', https://www.ema.europa.eu/en/glossary/medicinal-product ; en die Wet op Medisyne en Verwante Stowwe se omskrywing van 'medisyne', https://www.acts.co.za/medicines-/medicine.php . Let wel: die bewoording bind behandeling aan die kliniek of die dokter, so behandeling in 'n hospitaal, deur 'n apteker of tuis val streng gelees daarbuite."
     },
     {
       "bewering": "'n Mens kan die regte medisyne kry en steeds swaar kry sonder versorging en ondersteuning.",
       "blok": "Drie woorde wat nie dieselfde ding beteken nie",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Die nakomings- en uitkomsliteratuur wys dit direk: waar sosiale ondersteuning ontbreek, is nakoming en uitkomste swakker selfs waar die medisyne beskikbaar is - 'Stigma affected patients' retention in HIV care ... pushed several patients to remain secretive and neglect accessing healthcare' en 'Fears of ... stigma affected many patients' adherence' (pmc.ncbi.nlm.nih.gov/articles/PMC3484188, Suid-Afrikaanse TB/MIV-pasiente; pmc.ncbi.nlm.nih.gov/articles/PMC12869961 oor nakomingsdeterminante in 'n Suid-Afrikaanse kohort). Die sin oorbewer nie - dit se 'kan', nie 'sal' nie."
+      "bron": "WGO Europa oor psigososiale ondersteuning by TB/MIV (behandeling alleen dra nie die uitkoms nie), https://www.who.int/europe/publications/i/item/WHO-EURO-2020-1345-41095-55826 ; en oorsigte van eweknie-ondersteuning by chroniese toestande, Mitchell Institute, Victoria University, https://www.vu.edu.au/mitchell-institute/prevention-risk/how-support-groups-can-boost-your-health-make-chronic-conditions-easier-to-live-with"
     },
     {
       "bewering": "Vroeg by die kliniek kom is byna altyd beter as om te wag en te hoop.",
       "blok": "Vroeg gaan en vra totdat jy verstaan",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Die kwalifiseerder 'byna altyd' is wat hierdie sin korrek hou, en dit is nodig, want daar is selfbeperkende siektes waar 'n kliniekbesoek niks verander nie. Vir die siektes wat hierdie reeks noem is vroee aanmelding deurgaans beter: vertraagde aanmelding by TB is met erger siekte, meer oordrag en swakker uitkomste verbind ('TB patients' behavior in response to social discrimination can contribute to diagnostic delays, non-adherence, and the abandonment of treatment, which can result in an increased number of multidrug-resistant tuberculosis cases', frontiersin.org/journals/psychology, PMC12971637), en by MIV is vroee begin van behandeling die grondslag van die huidige beleid (who.int/news-room/fact-sheets/detail/hiv-aids)."
+      "tipe": "superlatief",
+      "bron": "Studie in Kaapstad: pasiëntvertraging van 14 dae of meer is met swakker uitkomste verbind en vertraagde TB-diagnose met verhoogde sterftes en morbiditeit, PMC2413241, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2413241/ . Die versagting 'byna altyd' hou - die bewering word nie as 'n absolute gestel nie."
     },
     {
-      "bewering": "Neem die medisyne presies soos die kliniek sê en hou nie self op wanneer jy beter voel nie. Gaan terug vir elke afspraak, ook wanneer niks meer verkeerd voel nie.",
+      "bewering": "Neem die medisyne presies soos die kliniek sê en hou nie self op wanneer jy beter voel nie.",
       "blok": "Vroeg gaan en vra totdat jy verstaan",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Korrek, en korrek geformuleer. Let op dat die les dit aan die VOORSKRYWER bind ('presies soos die kliniek se') en nie aan 'n vaste reel soos 'maak altyd die kursus klaar' nie. Dit maak die sin bestand teen die debat oor antibiotika-kursusduur, waar die ou algemene reel bevraagteken is maar die instruksie om by die voorskrywer se opdrag te bly nooit nie. Vir TB, wat die les elders noem, is die punt lewensbelangrik: 'the most widely used TB treatment involves over six months of intensive combination chemotherapy, which is able to fully cure the patient' (tbksp.who.int; who.int/news/item/16-05-2024-who-launches-updated-guidance-on-hiv-associated-tb), en vroeg ophou is hoe weerstandige TB ontstaan."
+      "bron": "MedlinePlus (VSA Nasionale Biblioteek vir Geneeskunde), 'Taking your medicine as directed': moet nie ophou net omdat jy beter voel nie, praat eers met jou dokter - https://medlineplus.gov/ency/patientinstructions/000616.htm"
+    },
+    {
+      "bewering": "Gaan terug vir elke afspraak, ook wanneer niks meer verkeerd voel nie.",
+      "blok": "Vroeg gaan en vra totdat jy verstaan",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "MedlinePlus, https://medlineplus.gov/ency/patientinstructions/000616.htm ; en die opvolg-/monitering-beginsel by chroniese sorg in die Suid-Afrikaanse PHC-pakket, GCIS-sakgids Gesondheid, https://www.gcis.gov.za/sites/default/files/docs/resourcecentre/pocketguide/2004/health04.pdf"
     },
     {
       "bewering": "Vir party gesinne is die kliniek ver en die taxi duur, en dit maak die keuses kleiner.",
       "blok": "Vroeg gaan en vra totdat jy verstaan",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Suid-Afrikaanse bronne: 'The cost of transportation emerged as a significant barrier to access' (cambridge.org, Access to health care in post-apartheid South Africa: availability, affordability, acceptability); 'Ninety-one per cent of subjects paid for transport to attend the clinic, with median costs ranging from R10 to R28' (journals.co.za, Cost to patients of obtaining treatment for HIV/AIDS); en 'high transportation costs, long distances to clinics, unreliable ambulance services' in landelike KwaZulu-Natal (mdpi.com/2076-0760/15/1/26). Die hedge 'party gesinne' is reg."
+      "bron": "Ontleding van Statistiek SA se Algemene Huishoudingsopname (n=190 164): 27% van huishoudings ervaar beskikbaarheidsbeperkings soos afstand en vervoerkoste, en 73% van bekostigbaarheidsbeperkings is reiskoste - UWC-bewaarplek, https://uwcscholar.uwc.ac.za/items/5373d67c-e227-4c16-ab34-4ea9ccd1ad21 ; sien ook PMC4236491, https://pmc.ncbi.nlm.nih.gov/articles/PMC4236491"
     },
     {
-      "bewering": "Die veilige reël is om eers by die kliniek of die apteek te vra voordat jy iets nuuts saam met voorgeskrewe medisyne begin neem. Dit geld ook vir huismiddels en tradisionele medisyne.",
+      "bewering": "Baie huise gebruik ook huismiddels of tradisionele medisyne saam met die medisyne wat voorgeskryf is.",
       "blok": "Vra eers voordat jy iets saam met die medisyne neem",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Die reel EN die tydsberekening is reg: die vraag kom voor die eerste dosis, nie daarna nie. 'If you're talking to a pharmacist or doctor about your health ... always tell them about any herbal medicines you're taking. Herbal medicines may cause problems if you're taking other medicines - they could reduce the effect of medicine, or increase your risk of potential side effects' (nhsinform.scot/tests-and-treatments/medicines-and-medical-aids/complementary-medicine/herbal-medicines). Die uitbreiding na tradisionele medisyne is nie 'n byvoegsel nie maar juis die Suid-Afrikaanse kern van die saak: 'Patients using traditional/complementary/alternate medicines in addition to antiretroviral treatment may be at risk of experiencing clinically significant pharmacokinetic interactions' (onlinelibrary.wiley.com/doi/10.1002/bdd.775), en vir Afrika-aartappel en Sutherlandia spesifiek 'low-level evidence of harm identifies the potential for drug interactions with antiretroviral drugs' (pmc.ncbi.nlm.nih.gov/articles/PMC1156943, Nutrition Journal). Die les noem ook die APTEEK as 'n plek om te vra, wat reg is en 'n regte tweede deur oopmaak."
+      "bron": "'Concurrent use of herbal and prescribed medicine by patients in primary health care clinics, South Africa' (Gauteng, Mpumalanga, Vrystaat), PMC10319942, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10319942/ - gelyktydige gebruik is algemeen en word dikwels nie by die kliniek gemeld nie."
     },
     {
-      "bewering": "Om eers agterna te vertel, keer nie die skade nie.",
+      "bewering": "Die veilige reël is om eers by die kliniek of die apteek te vra voordat jy iets nuuts saam met voorgeskrewe medisyne begin neem.",
+      "blok": "Vra eers voordat jy iets saam met die medisyne neem",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NCCIH (VSA Nasionale Institute vir Gesondheid), 'How herbs can interact with medicines': vertel altyd jou gesondheidsorgverskaffer van elke middel en aanvulling wat jy gebruik - https://nccih.nih.gov/health/tips/tips-how-herbs-can-interact-with-medicines"
+    },
+    {
+      "bewering": "Die verpleegster of die apteker kan dan die volgende dosis aanpas of die medisyne laat staan.",
       "blok": "Vra eers voordat jy iets saam met die medisyne neem",
       "status": "weerspreek",
       "tipe": "algemeen",
-      "bron": "Letterlik is die sin waar - 'n wisselwerking wat al gebeur het, word nie deur 'n vertelling ongedaan gemaak nie - maar soos dit staan, ontmoedig dit presies wat elke riglyn vereis, en die blok laat die gaping oop. Die riglyn is onvoorwaardelik: 'To avoid a drug interaction be sure to tell your doctor, pharmacist and other healthcare providers about ALL the medicines you take, including prescription, over-the-counter, vitamins, and herbal or dietary supplements' en 'always tell them about any herbal medicines you're taking' (nhsinform.scot, Herbal medicines; sps.nhs.uk/articles/managing-complementary-products-and-conventional-medicines). Vertel-na-die-tyd is nie nuttelose inligting nie: dit is hoe 'n verpleegster of apteker die dosis aanpas, die pasient monitor of die middel laat staan voor die volgende dosis - dus keer dit wel VERDERE skade. Lees die blok in sy volgorde soos 'n bang kind dit sou lees: die enigste sin oor agterna vertel se dit help nie, en die sin wat daarna kom vra net wat jy geneem het TOE DIE BEHANDELING BEGIN HET. 'n Leerder wat gister iets saam met haar ma se pille gegee het, kry in hierdie blok geen opdrag nie.",
-      "regstelling": "Behou die 'vra eers'-reel onveranderd - dit is die hoofpunt en dit is korrek. Die korrekte bewering by die tweede sin is dat vra voordat jy begin die skade KEER, en dat vertel nadat jy al iets geneem het steeds dringend nodig is, want die kliniek of apteek kan dan nog ingryp. Voeg die geval by wat nou ontbreek: as jy of iemand in die huis al iets saam met voorgeskrewe medisyne geneem het, se dit so gou as moontlik vir die kliniek of die apteek. Moenie die sin bloot uitlaat nie - die onderskeid wat hy tref (vra vooraf is nie dieselfde as rapporteer agterna nie) is reg en werd om te hou."
+      "bron": "'n Apteker mag nie op sy eie 'n ander voorskrywer se voorskrif verander nie: afwykings is eng begrens (hoeveelheid binne 25% volgens artikel 22A(6) van die Wet op Medisyne en Verwante Stowwe, of 'n weglating wat die pasiënt self vra en wat op die voorskrif aangeteken word) - SAAR-e-nota, https://www.pharmcouncil.co.za/Media/Default/Documents/SAPC%20E-note_Dispensing%20without%20prescription_v2.pdf ; en die rol word omskryf as ingryping 'in collaboration with prescribers', PMC8678403, https://pmc.ncbi.nlm.nih.gov/articles/PMC8678403/ . 'n Verpleegster by 'n primêre kliniek is self dikwels die voorskrywer en kan wel aanpas.",
+      "regstelling": "Die dokter of die verpleegster wat die medisyne voorgeskryf het, kan die dosis aanpas of die medisyne stop. Die apteker gee raad, kan waarsku om nie verder saam te gebruik nie, en skakel met die voorskrywer - hy verander nie self 'n voorgeskrewe dosis nie."
     },
     {
-      "bewering": "Vertel die kliniek ook wat jy al geneem het toe die behandeling begin het. Party middels verander hoe sterk 'n ander medisyne in die liggaam werk.",
+      "bewering": "Party middels verander hoe sterk 'n ander medisyne in die liggaam werk.",
       "blok": "Vra eers voordat jy iets saam met die medisyne neem",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Die meganisme is korrek en op die regte vlak vereenvoudig: 'Mechanisms of PK interactions include alterations to the normal functioning of drug efflux transporters, such as P-gp and/or CYP isoenzymes, such as CYP3A4 that mediate the absorption and elimination of drugs in the small intestine and liver', met die gevolg dat blootstelling aan die ander middel styg of daal (onlinelibrary.wiley.com/doi/10.1002/bdd.775; pmc.ncbi.nlm.nih.gov/articles/PMC1156943). 'Hoe STERK 'n ander medisyne in die liggaam werk' is 'n getroue Graad 7-weergawe van 'verhoogde of verlaagde blootstelling' en verskuif nie die meganisme na die verkeerde plek nie. Die kwalifiseerder 'party middels' is reg - dit is nie alle middels nie."
+      "bron": "NCCIH: St. Janskruid en pomelosap verander bekend die konsentrasie van baie geneesmiddels in die liggaam - https://www.nccih.nih.gov/health/providers/digest/herb-drug ; en Suid-Afrikaans spesifiek: Afrikaanse aartappel (Hypoxis) en Sutherlandia inhibeer CYP3A4 met 31-96% in laboratoriumtoetse en kan ARV-vlakke verander, PMC1156943, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1156943/"
     },
     {
       "bewering": "Moenie iets wat voorgeskryf is self stop of met iets anders vervang voordat jy met die kliniek gepraat het nie.",
       "blok": "Vra eers voordat jy iets saam met die medisyne neem",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Korrek, en die adres is die regte een: DIE KLINIEK. Dit is presies hoe Suid-Afrikaanse primere sorg werk - 'The majority of such clinics are operated by professional nurses', en verpleegsters by fasiliteite wat onder artikel 56(6) van die Wet op Verpleging 33 van 2005 aangewys is, 'may prescribe medicines in accordance with the Primary Health Care Standard Treatment Guideline and Essential Medicine List' (pmc.ncbi.nlm.nih.gov/articles/PMC11219604, Nurse prescribing and dispensing in South Africa; sahpra.org.za, SAHPGL-CEM-NS-04_v3). Let op dat hierdie sin en die sin 'Net 'n dokter besluit of medisyne gestop word' in die laaste blok nie dieselfde ding se nie; sien daardie bevinding."
+      "bron": "MedlinePlus, https://medlineplus.gov/ency/patientinstructions/000616.htm ; en MedlinePlus oor aanvalmedisyne: 'Never stop taking seizure medicines without talking with your provider', https://medlineplus.gov/ency/patientinstructions/000128.htm"
     },
     {
       "bewering": "'n Dokter of 'n verpleegster ondersoek die mens en verduidelik wat volgende gaan gebeur.",
       "blok": "Wie help wanneer 'n mens siek is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Korrek, en dit is die regte twee mense om saam te noem, want in Suid-Afrikaanse klinieke is die verpleegster gewoonlik die een wat dit doen: 'The majority of such clinics are operated by professional nurses' (pmc.ncbi.nlm.nih.gov/articles/PMC11219604), en sedert 2010 'initiation of antiretroviral therapy in primary care has become the responsibility of nurses' onder NIMART (pmc.ncbi.nlm.nih.gov/articles/PMC8007995, Ten years of nurse-initiated antiretroviral treatment in South Africa)."
+      "bron": "Die Nasionale Handves vir Pasiëntregte gee elkeen die reg op volledige en akkurate inligting oor die aard van die siekte, die ondersoeke en die voorgestelde behandeling - HPCSA Boekie 3, https://hpcsa.co.za/Uploads/professional_practice/ethics/Booklet_3_Patients_Rights_Charter_September_2016v2.pdf (die PDF self kon nie oopgemaak word nie; die inhoud is uit die soekuittreksel en uit die Wes-Kaapse regering se weergawe van dieselfde handves bevestig)"
     },
     {
       "bewering": "Childline is 'n diens wat 'n kind self kan bel wanneer sy hulp nodig het - gratis, dag en nag, en sy hoef nie vir 'n grootmens te vra om te bel nie.",
       "blok": "Wie help wanneer 'n mens siek is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Elke deel nagegaan by die diens self: 'Childline South Africa and its regional network offices run a national, 24-hour, toll-free helpline, available 365 days'; 'Calls to the Helpline are free from all networks'; en 'trained volunteer counsellors run the 116 Helpline and listen to children's concerns, help them to understand what they feel and talk to them about issues that affect them directly' (childlinesa.org.za en die mediaverklaring oor die nuwe 116-nommer; ook die regering se eie vukuzenzele.gov.za/children-can-call-116-help, 'Children can call 116 for help'). Gratis: ja. Dag en nag: ja, 24 uur, 365 dae. 'n Kind self, sonder 'n grootmens: ja - die diens is vir kinders om self te bel. Een ding wat ek uitdruklik aanteken as goed: die les gee GEEN nommer nie, dus is daar niks in hierdie sin wat kan verouder nie. As 'n nommer ooit bygevoeg word, is 116 die huidige een en moet dit by elke herdruk nagegaan word."
+      "bron": "Vuk'uzenzele (Suid-Afrikaanse regering), 'Children can call 116 for help': die toltvrye lyn is 24 uur per dag, sewe dae per week, gratis vanaf alle netwerke, en direk vir kinders tot 18 bedoel - https://www.vukuzenzele.gov.za/book/export/html/6872 ; sien ook https://ofm.co.za/article/news/304785/new-toll-free-number-for-childline-south-africa-revealed"
     },
     {
       "bewering": "In party plekke besoek 'n gemeenskapsgesondheidswerker mense by hulle eie huise.",
       "blok": "Ander mense wat kan help",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "'Community health workers are expected to visit every household in their area and to gather information on the people living there ... and to screen for a variety of health risks such as Tuberculosis, HIV, missing immunisations' (chp.ac.za se beleidsopsomming oor wykgebaseerde uitreikspanne; academic.oup.com/heapol/article/36/4/384/6053703 oor die 2018/19-raamwerk). Die hedge 'in party plekke' is reg en nie oorversigtig nie - die WBPHCOT-uitrol is ongelyk oor provinsies, wat dieselfde bronne rapporteer."
+      "bron": "Suid-Afrika se wykgebaseerde primêre gesondheidsorg-uitreikspanne (2010, 'Re-engineering PHC'): gemeenskapsgesondheidswerkers doen huisbesoeke en elke werker kry ongeveer 200-250 huishoudings - CHW Central oorsig deur Schneider e.a., https://test.chwcentral.org/ward-based-primary-health-care-outreach-teams-in-south-africa/ ; en PMC10034884, https://pmc.ncbi.nlm.nih.gov/articles/PMC10034884 . Die versagting 'in party plekke' is korrek, want die dekking is ongelyk."
     },
     {
-      "bewering": "'n Maatskaplike werker help met die dinge rondom 'n siekte wat 'n gesin swaar maak. By party skole is daar 'n berader of 'n onderwyser wat leerders hiermee help.",
+      "bewering": "'n Maatskaplike werker help met die dinge rondom 'n siekte wat 'n gesin swaar maak.",
       "blok": "Ander mense wat kan help",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Die skoolsin is die een wat 'n plaaslike bron nodig het, en die hedge 'by party skole' is presies reg: 'There is a shortage of social workers, registered counsellors and psychologists in South African educational settings, and as a result, Life Orientation teachers are frequently left with the responsibility of providing psychosocial support services' (scielo.org.za, Life orientation teachers' experiences of providing psychosocial support, Johannesburg Wes). Die DBE se eie struktuur bevestig albei helftes: skoolgebaseerde ondersteuningspanne en leerderondersteuningsagente, met verwysing na meer gespesialiseerde dienste waar nodig (education.gov.za, A Guide for Learner Support Agents and Schools on Providing Psychosocial Support; die SIAS-beleid 2014). 'n Sin wat 'elke skool het 'n berader' gese het, sou vals gewees het; hierdie een nie."
+      "bron": "Die sosiaal-ekonomiese deel van sorg en ondersteuning (sosiale beskerming, toelaes, gesubsidieerde sorg, skoolgeld, kinder- en ongeskiktheidstoelaes, gerigte finansiële bystand) word as 'n afsonderlike diensarea gelys - AIDSTAR-One tegniese oorsig, https://bloodwater.org/content/uploads/2023/10/AIDSTAR-One_TechBrief_PSS_and_Children_Living_with_HIV_Africa.pdf ; en SACSSP oor die praktyk van maatskaplike werk, https://www.sacssp.co.za/education-training-development"
+    },
+    {
+      "bewering": "By party skole is daar 'n berader of 'n onderwyser wat leerders hiermee help.",
+      "blok": "Ander mense wat kan help",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die Geïntegreerde Skoolgesondheidsprogram (Departemente van Basiese Onderwys, Gesondheid en Maatskaplike Ontwikkeling) sluit berading, hantering van leerhindernisse en verwysings by die skool in - SAnews (regering), https://www.sanews.gov.za/index.ph%70/south-africa/better-health-learners ; en Vuk'uzenzele, https://www.vukuzenzele.gov.za/school-health-programme-widely-welcomed . Die versagting 'party skole' is belangrik en korrek, want 'n opgeleide berader is nie by elke skool nie."
     },
     {
       "bewering": "Mense wat dieselfde siekte of dieselfde swaarkry deurmaak, kom in 'n ondersteuningsgroep gereeld bymekaar om mekaar te help.",
       "blok": "Ander mense wat kan help",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Ooreenkomstig die standaardomskrywing van 'n ondersteuningsgroep en met die Suid-Afrikaanse praktyk: 'Health education materials such as posters, pamphlets and booklets are used to supplement information received during counselling or SUPPORT GROUP SESSIONS' in Suid-Afrikaanse gesondheidsdienste (open.uct.ac.za, Health promotion services). Niks hier oorbewer nie - dit se nie 'n ondersteuningsgroep bestaan vir elke siekte of in elke plek nie."
+      "bron": "Eweknie-ondersteuningsgroepe word omskryf as groepe wat gereeld bymekaarkom, gelei deur mense wat self met die toestand leef, en navorsing wys beter siektebestuur en lewenskwaliteit - Mitchell Institute, Victoria University, https://www.vu.edu.au/mitchell-institute/prevention-risk/how-support-groups-can-boost-your-health-make-chronic-conditions-easier-to-live-with"
     },
     {
-      "bewering": "Inligting oor gesondheid is oral en nie alles wat 'n mens lees is waar nie. Die kliniek self is die plek waar 'n mens iets kan vra en laat nagaan. 'n Dokter of 'n verpleegster kan verduidelik wat jy iewers gelees het.",
+      "bewering": "Inligting oor gesondheid is oral en nie alles wat 'n mens lees is waar nie.",
       "blok": "Waar betroubare inligting vandaan kom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Dit is die standaardraad: 'most UK professional bodies refer people to their prescriber or pharmacist for advice' (sps.nhs.uk/articles/complementary-products-resources-to-support-answering-questions), en die NLM se eie gesondheidsinligting-opleiding eindig by dieselfde punt - gaan na by 'n gesondheidswerker (medlineplus.gov/evaluatinghealthinformation.html). Dat die verpleegster hier langs die dokter staan, is vir Suid-Afrika die regte keuse (pmc.ncbi.nlm.nih.gov/articles/PMC11219604)."
+      "bron": "MedlinePlus, 'Evaluating health information' (VSA Nasionale Biblioteek vir Geneeskunde), https://medlineplus.gov/evaluatinghealthinformation.html"
     },
     {
-      "bewering": "Die skool en die biblioteek het boeke en materiaal oor gesondheid. Gesondheidsdienste gee ook hul eie plakkate en boekies oor siektes uit.",
+      "bewering": "Die kliniek self is die plek waar 'n mens iets kan vra en laat nagaan. 'n Dokter of 'n verpleegster kan verduidelik wat jy iewers gelees het.",
       "blok": "Waar betroubare inligting vandaan kom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Die tweede sin is direk bevestig: 'Health education materials such as posters, pamphlets and booklets are used to supplement information received during counselling' - in Suid-Afrika heet hulle IEC-materiaal (open.uct.ac.za, Health promotion services); die Vrystaat se Departement van Gesondheid publiseer TB- en MIV-plakkate en -pamflette (health.fs.gov.za/?page_id=1915), KwaZulu-Natal ook (kznhealth.gov.za/publicity.htm), en die nasionale Departement van Gesondheid het saam met UNICEF water-, sanitasie- en higieneplakkate uitgegee (unicef.org/southafrica/reports/water-sanitation-and-hygiene-posters). Die eerste sin het ek deeglik getoets omdat dit maklik vals kon wees: 74% van Suid-Afrika se openbare skole het GEEN biblioteek nie (Minister van Basiese Onderwys Siviwe Gwarube, 2025, aangehaal by bosa.co.za; die 2011 NEIMS-syfer was 79% sonder enige biblioteek en 7% met 'n toegeruste een). Die sin oorleef dit egter, en ek maak dit doelbewus nie 'n bevinding nie: dit se nie die skool het 'n biblioteek nie, en 'n skool het wel gesondheidsmateriaal buiten 'n biblioteek - LO-handboeke en die Geintegreerde Skoolgesondheidsprogram se materiaal. Die syfer is 'n praktiese punt vir 'n mens en nie 'n feitefout nie: 'n leerder wat na 'die biblioteek' gestuur word, het in drie uit vier openbare skole nie een op die perseel nie."
+      "bron": "MedlinePlus: 'discuss the information you find with your health care provider before you rely on it ... your provider can tell you whether it's good for you' - https://medlineplus.gov/evaluatinghealthinformation.html"
+    },
+    {
+      "bewering": "Die skool en die biblioteek het boeke en materiaal oor gesondheid.",
+      "blok": "Waar betroubare inligting vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Gesondheidsopvoedingsmateriaal word wel deur die Geïntegreerde Skoolgesondheidsprogram by skole versprei (SAnews, https://www.sanews.gov.za/index.ph%70/south-africa/better-health-learners ) en openbare biblioteke hou gesondheidsboeke. Let wel vir 'n mens se oë: in 2021 het 74% van 22 697 openbare skole geen biblioteek gehad nie en net 14% 'n volledig toegeruste een (Departement van Basiese Onderwys se fasiliteitsdata, opgesom by https://theoutlier.co.za/education/2024-07-25/88625/closed-book-three-quarters-of-schools-in-south-africa-do-not-have-libraries ). Die sin beweer nie dat elke skool 'n biblioteek het nie, dus is dit nie vals nie, maar dit geld nie oral in die praktyk nie."
+    },
+    {
+      "bewering": "Gesondheidsdienste gee ook hul eie plakkate en boekies oor siektes uit.",
+      "blok": "Waar betroubare inligting vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Gesondheidsbevordering en -opvoeding is 'n uitdruklike deel van die Suid-Afrikaanse PHC-pakket en van die Geïntegreerde Skoolgesondheidsprogram - GCIS-sakgids Gesondheid, https://www.gcis.gov.za/sites/default/files/docs/resourcecentre/pocketguide/2004/health04.pdf ; en Vuk'uzenzele, https://www.vukuzenzele.gov.za/school-health-programme-widely-welcomed"
     },
     {
       "bewering": "Geen plek maak inligting waar nie, en jy weeg elke bron self.",
       "blok": "Waar betroubare inligting vandaan kom",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Dit is die regte epistemiese punt en dit ondergrawe nie die lys wat volg nie. Die NLM se eie leerstof stel dit dieselfde kant om: 'n mens vra wie dit geskryf het, wat die webwerf se motief is en hoe oud dit is, en maak dan self 'n oordeel - 'Good health information doesn't promote one treatment over another and gives you balanced facts based on research' (medlineplus.gov/evaluatinghealthinformation.html en die Evaluating Internet Health Information-tutoriaal). Die sin se nie alle bronne is gelyk nie; dit se herkoms is 'n aanwyser en nie 'n bewys nie, wat korrek is en wat die volgende lys se vyf toetse nodig maak eerder as oorbodig."
+      "tipe": "superlatief",
+      "bron": "MedlinePlus se maatstawwe geld vir elke bron, ook institusionele bronne (wie het dit geskryf, wie betaal daarvoor, hoe oud is dit, is daar verwysings) - https://medlineplus.gov/evaluatinghealthinformation.html . Dieselfde bron pas die eie weeg egter saam met 'n verskaffer se oordeel, wat hierdie blok elders wel doen ('Gaan by die kliniek na wat jy iewers gelees het')."
     },
     {
-      "bewering": "Kyk wie die inligting geskryf het en wat daardie mens se werk is. Kyk of dit van 'n gesondheidsdiens of 'n gesondheidswerker kom. Wees versigtig wanneer die inligting ook iets wil verkoop. Kyk hoe oud die inligting is. Gaan by die kliniek na wat jy iewers gelees het.",
+      "bewering": "Kyk wie die inligting geskryf het en wat daardie mens se werk is.",
       "blok": "Hoe jy inligting weeg",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Al vyf punte is die erkende toetse, en die lys laat niks belangrik uit wat op hierdie vlak hoort nie. Die NLM/MedlinePlus-tutoriaal en NIA se gids vra presies: wie is die skrywer en wat is sy kwalifikasie; is die bron 'n regeringsliggaam, universiteit of gesondheidsorganisasie; 'whether the site is trying to sell a product or service, as understanding the motive of the website can help you better judge its content'; en hoe onlangs dit opgedateer is (medlineplus.gov/evaluatinghealthinformation.html; medlineplus.gov/webeval/EvaluatingInternetHealthInformationChecklist.pdf; nia.nih.gov/health/healthy-aging/how-find-reliable-health-information-online). Die vyfde punt - gaan dit by die kliniek na - is die een wat die lys aan 'n Suid-Afrikaanse leerder se werklikheid vasmaak, en dit is korrek geadresseer aan die kliniek eerder as aan 'n dokter."
+      "bron": "MedlinePlus: gaan na of die skrywer 'n kenner van die onderwerp is en kyk na die skrywers se kwalifikasies - https://medlineplus.gov/evaluatinghealthinformation.html"
+    },
+    {
+      "bewering": "Kyk of dit van 'n gesondheidsdiens of 'n gesondheidswerker kom.",
+      "blok": "Hoe jy inligting weeg",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "MedlinePlus: gaan na wie die webwerf borg of betaal en of die doel is om die publiek in te lig - https://medlineplus.gov/evaluatinghealthinformation.html"
+    },
+    {
+      "bewering": "Wees versigtig wanneer die inligting ook iets wil verkoop.",
+      "blok": "Hoe jy inligting weeg",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "MedlinePlus: kommersiële belang is 'n uitdruklike maatstaf - 'A trustworthy website has one goal: To give you good information' - https://medlineplus.gov/evaluatinghealthinformation.html"
+    },
+    {
+      "bewering": "Kyk hoe oud die inligting is.",
+      "blok": "Hoe jy inligting weeg",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "MedlinePlus: bladsye behoort die datum te gee waarop die inligting geskryf, nagegaan of bygewerk is - https://medlineplus.gov/evaluatinghealthinformation.html"
+    },
+    {
+      "bewering": "Gaan by die kliniek na wat jy iewers gelees het.",
+      "blok": "Hoe jy inligting weeg",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "MedlinePlus: bespreek die inligting met jou gesondheidsorgverskaffer voordat jy daarop staatmaak - https://medlineplus.gov/evaluatinghealthinformation.html"
     },
     {
       "bewering": "Baie van hierdie siektes is chronies en hulle bly gewoonlik jare lank by 'n mens.",
       "blok": "Wie die sorg dra",
+      "status": "onseker",
+      "tipe": "algemeen",
+      "bron": "Die les noem nêrens 'n siekte-lys nie, dus het 'hierdie siektes' geen verwysing in die teks wat nagegaan kan word nie. Onder die waarskynlikste lesing - die algemene siektes van hierdie KABV-eenheid - is die bewering twyfelagtig: die meeste algemene siektes (verkoue, griep, diarree) is akuut, en dieselfde blok sê self dat TB genees kan word. Die CDC omskryf chronies as toestande wat 'n jaar of langer duur en deurlopende mediese sorg verg (PMC4969287, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4969287/ ), maar sonder 'n genoemde versameling kan 'baie' en 'gewoonlik jare lank' nie getoets word nie."
+    },
+    {
+      "bewering": "By party mense met epilepsie hou die aanvalle uiteindelik op, veral by kinders.",
+      "blok": "Wie die sorg dra",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Korrek en behoorlik gekwalifiseer met 'baie' en 'gewoonlik'. Vir MIV: 'HIV infection has become a manageable chronic health condition' met 'life-long ART' (who.int/news-room/fact-sheets/detail/hiv-aids). Vir suikersiekte en epilepsie: sien die bevinding hieronder. Die begrip-inskrywing vir 'chronies' ('Wanneer 'n siekte lank duur en nie sommer vanself oorgaan nie') pas by die standaardomskrywing van 'n chroniese toestand as een van lang duur en volgehoue verloop."
+      "bron": "Epilepsy Action (VK) oor selfbeperkende sindrome: byna alle kinders met selfbeperkende epilepsie met sentrotemporale spykers groei daaruit voor 16 jaar - https://www.epilepsy.org.uk/info/syndromes/benign-rolandic-epilepsy ; bevolkingstudies wys ongeveer 50-60% van kinders met epilepsie gaan in langdurige remissie (American Epilepsy Society-opsommings, https://aesnet.org/abstractslisting/the-not-so-simple-course-of-childhood-epilepsies ); WGO-feiteblad oor epilepsie, https://www.who.int/news-room/fact-sheets/detail/epilepsy . Die versagtings 'party' en 'veral by kinders' hou."
     },
     {
-      "bewering": "Suikersiekte bly byvoorbeeld gewoonlik lewenslank en 'n mens leer om daarmee saam te leef. Epilepsie werk anders. By party mense hou die aanvalle uiteindelik op, en dit gebeur veral by kinders.",
+      "bewering": "Die dokter of die verpleegster by die kliniek besluit of medisyne gestop word, nooit die mens self nie.",
       "blok": "Wie die sorg dra",
       "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Elke sin is naastenby verdedigbaar; die KONTRAS wat hulle saam bou is nie, en dit is die fout wat 'n mens net sien deur die twee sinne langs mekaar te lees. Die kontras se vir 'n leerder: suikersiekte gaan nooit weg nie, epilepsie kan. Dit is waar van TIPE 1-suikersiekte en nie van tipe 2 nie. Die ADA se eie tydskrif: 'While previously regarded as an irreversible and inevitably progressive condition, type 2 diabetes remission is now understood to be possible and SHOULD BE A PRIMARY THERAPEUTIC TARGET at the time of diagnosis' (diabetesjournals.org/care/article/47/1/47, Type 2 Diabetes Remission: A New Mission in Diabetes Care), met die ADA se 2021-konsensusomskrywing van remissie as HbA1c onder 6,5% sonder glukoseverlagende medisyne vir minstens drie maande, en DiRECT se 36% in remissie na twee jaar (thelancet.com/journals/landia, DiRECT 5-jaar-opvolg; pmc.ncbi.nlm.nih.gov/articles/PMC9284579). Die epilepsie-helfte is wel korrek en goed gestel: 'About two-thirds of children with epilepsy outgrow the condition by their teens or 20s' en '50-60% of all children with epilepsy may achieve freedom from seizures without drugs 10-20 years after onset' (ucsfbenioffchildrens.org/education/what-are-the-chances-of-outgrowing-epilepsy; neurology.org/doi/10.1212/WNL.64.12.E32). Let ook op dat les 11 in dieselfde subonderwerp 'suikersiekte' sorgvuldig in soorte verdeel ('sommige soorte suikersiekte', 'tipe 1-suikersiekte') en hierdie les dit as een ding met een verloop hanteer.",
-      "regstelling": "Heg die bewering aan die soort waaraan dit behoort, soos les 11 in dieselfde subonderwerp doen. Die korrekte bewering is dat tipe 1-suikersiekte lewenslank bly en dat 'n mens leer om daarmee saam te leef. By tipe 2 bly dit gewoonlik ook, maar dit kan met behandeling en gewigsverandering in remissie gaan, dus mag die les nie 'n kontras bou waarin suikersiekte die siekte is wat nooit weggaan nie. Die epilepsie-sinne bly presies soos hulle is - hulle is korrek en die 'veral by kinders' is reg."
-    },
-    {
-      "bewering": "Net 'n dokter besluit of medisyne gestop word.",
-      "blok": "Wie die sorg dra",
-      "status": "weerspreek",
-      "tipe": "algemeen",
-      "bron": "Vals vir die land waarin hierdie les gelees word, en dit weerspreek die les se eie raad twee blokke vroeer. In Suid-Afrikaanse primere sorg is dit gewoonlik nie 'n dokter nie: 'The majority of such clinics are operated by professional nurses', en 'nurses working in the public sector at facilities designated in terms of Section 56(6) of the Nursing Act, 33 of 2005, may prescribe medicines in accordance with the Primary Health Care Standard Treatment Guideline and Essential Medicine List' (pmc.ncbi.nlm.nih.gov/articles/PMC11219604, Nurse prescribing and dispensing in South Africa, Health SA Gesondheid; sahpra.org.za/wp-content/uploads/2022/05/SAHPGL-CEM-NS-04_v3, Scheduling of Substances for Prescribing by Authorised Prescribers other than Medical Practitioners or Dentists). Sedert 2010 'initiation of ART in primary care has become the responsibility of nurses' onder NIMART, en 'Prior to the introduction of NIMART, initiation of ART could only be done by clinicians' - dit het juis verander (pmc.ncbi.nlm.nih.gov/articles/PMC8007995; pmc.ncbi.nlm.nih.gov/articles/PMC7429774 oor NIMART-verpleegsters wat TB/MIV-behandeling bestuur), en apteker-voorskryf vir MIV is op pad (eatg.org/hiv-news/south-africa-pharmacists-will-soon-be-able-to-prescribe-hiv-treatment). Die les se eie sinne se dit ook anders: 'Moenie iets wat voorgeskryf is self stop ... voordat jy met DIE KLINIEK gepraat het nie' en ''n Dokter OF 'n VERPLEEGSTER ondersoek die mens'. Die skade is konkreet: 'n gesin wat glo net 'n dokter mag besluit, kan 'n verpleegster se opdrag as minderwaardig lees, of wag op 'n dokter wat by hulle kliniek nie is nie.",
-      "regstelling": "Vernou dit van die BEROEP na die PUNT wat die sin wil maak: die besluit om medisyne te stop kom van die kliniek of die dokter wat dit voorgeskryf het, en nooit van die pasient of die gesin self nie. Gebruik dieselfde adres as die vroeere blok ('praat met die kliniek'), sodat die les twee keer dieselfde ding se. Moenie die sin uitlaat nie - dit is die enigste plek waar die les uitdruklik se dat die besluit om te stop nie 'n huisbesluit is nie, en dit is 'n belangrike sin. En hou by 'n dokter OF 'n verpleegster waar 'n mens genoem word, soos die les elders doen."
+      "tipe": "superlatief",
+      "bron": "Die Nasionale Handves vir Pasiëntregte gee uitdruklik 'n reg om behandeling te weier ('A person may refuse treatment', reg 9), mondeling of skriftelik, solank dit nie ander se gesondheid in gevaar stel nie - HPCSA Boekie 3, https://hpcsa.co.za/Uploads/professional_practice/ethics/Booklet_3_Patients_Rights_Charter_September_2016v2.pdf ; en artikel 129 van die Kinderwet 38 van 2005 laat 'n kind bo 12 met genoeg rypheid self tot mediese behandeling instem, https://www.acts.co.za/childrens/129_consent_to_medical_treatment_and_surgical_operation.php . Kliniese riglyne verbied eensydige optrede, nie die pasiënt se sê nie: 'do not change your dose or stop taking your medicine without talking to your specialist' - Epilepsy Society, https://epilepsysociety.org.uk/sites/default/files/2025-06/L5%20Taking%20your%20medication.pdf en MedlinePlus, https://medlineplus.gov/ency/patientinstructions/000128.htm",
+      "regstelling": "Die veilige bewering is dat 'n mens nie op sy eie ophou nie: die besluit om medisyne te stop word saam met die dokter of die verpleegster geneem, nadat daar oor gepraat is. Die pasiënt het wel 'n sê - die Nasionale Handves vir Pasiëntregte gee elkeen die reg om behandeling te weier, en 'n kind bo 12 met genoeg begrip kan self instem."
     },
     {
       "bewering": "MIV word behandel en nie genees nie, maar TB kan genees word.",
       "blok": "Wie die sorg dra",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Albei helftes direk by die WHO: 'There is no cure for HIV infection. It is treated with antiretroviral drugs, which stop the virus from replicating in the body ... latent viral reservoirs are immediately established in HIV-1 infection, necessitating life-long ART' (who.int/news-room/fact-sheets/detail/hiv-aids). En 'In contrast to HIV, the most widely used TB treatment involves over six months of intensive combination chemotherapy, which is able to fully cure the patient' (tbksp.who.int; who.int/news/item/16-05-2024-who-launches-updated-guidance-on-hiv-associated-tb). Die handjievol pasiente in aanhoudende remissie na 'n stamseloorplanting vir kanker verander nie 'n algemene stelling vir Graad 7 nie, en die les stel dit as die reel sonder om 'nooit' te se. Die kontras tussen hierdie twee siektes is korrek - anders as die suikersiekte/epilepsie-kontras hier bo."
+      "bron": "WGO: MIV word met lewenslange antiretrovirale terapie beheer (daar is geen genesing nie) - https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/hiv/treatment/tuberculosis ; en TB is geneesbaar, met ongeveer 85-95% genesing vir middel-sensitiewe TB oor ses maande - UNAIDS, https://www.unaids.org/sites/default/files/media_asset/tb-and-hiv_en.pdf . Die versagting 'kan' by TB is korrek, want middelweerstandige TB genees minder dikwels."
     },
     {
       "bewering": "Die grootmense in die huis moet die sorg vir 'n siek mens dra. 'n Kind help met die dinge wat sy kan doen. 'n Kind hoef die sorg nie alleen te dra nie. 'n Kind wat wel die sorg dra, mag self om hulp vra.",
       "blok": "Wie die sorg dra",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Die eerste drie sinne is normatief eerder as nagaanbaar, en die norm is die regte een. Die vierde is nagaanbaar en korrek, en dit is die belangrike een: dit ontken nie die werklikheid van kinders wat wel versorg nie, en dit stuur hulle na hulp. Die Suid-Afrikaanse strukture bestaan om dit te dra - die 116-hulplyn wat 'n kind self bel (childlinesa.org.za; vukuzenzele.gov.za/children-can-call-116-help), skoolgebaseerde ondersteuningspanne en leerderondersteuningsagente (education.gov.za, A Guide for Learner Support Agents and Schools on Providing Psychosocial Support), en die gemeenskapsgesondheidswerker se mandaat om psigososiale ondersteuning by die huis te gee (academic.oup.com/heapol/article/36/4/384/6053703). Die vier sinne sny mekaar nie: hulle se die verantwoordelikheid le by grootmense, EN as dit in die praktyk by 'n kind le, is hulp beskikbaar."
+      "bron": "Riglyne oor jong sorggewers: kinders behoort nie dieselfde take as volwasse sorggewers te kry nie, die klem is op die voorkoming van onvanpaste sorglas, en 'n kind wat wel sorg gee, moet geïdentifiseer en ondersteun word - Universiteit van Sheffield se jong-sorggewer-materiaal, https://sheffield.ac.uk/media/11072/download ; en Family Action se riglyn vir die identifisering en ondersteuning van jong sorggewers, https://family-action.org.uk/wp-content/uploads/2026/03/Tip-Sheet-Identifying-and-Supporting-Young-Carers-in-Adult-Settings-LYC.docx"
     },
     {
-      "bewering": "begrip 'behandeling': Wat 'n kliniek of 'n dokter aan 'n siekte doen, ook die medisyne.",
+      "bewering": "Die volgende les gaan oor saamleef met 'n siekte wat bly.",
+      "blok": "Wie die sorg dra",
+      "status": "onseker",
+      "tipe": "algemeen",
+      "bron": "Nie nagaanbaar teen bronne nie en nie teen die les self nie - ek het net hierdie een les ontvang, dus kan ek nie sien of les 13 werklik oor saamleef met 'n langdurige siekte gaan nie. 'n Mens kan dit in 'n oomblik bevestig; as die volgende les iets anders dek, is die sin verkeerd."
+    },
+    {
+      "bewering": "behandeling: Wat 'n kliniek of 'n dokter aan 'n siekte doen, ook die medisyne.",
       "blok": "begrip: behandeling",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Alleen gelees, met die les weg, staan dit as 'n omskrywing van behandeling: die mediese handeling teen die siekte, met die medisyne uitdruklik ingesluit. Twee dinge wat ek aanteken sonder om dit te betwis: (1) dit sluit ook toetsing en diagnose in, wat 'n kliniek 'aan 'n siekte doen' maar wat nie behandeling is nie - 'n eng oorinsluiting wat geen valse gevolgtrekking oplewer nie; (2) dit noem net die kliniek en die dokter, terwyl die les self elders korrek 'n verpleegster en 'n apteek as die mense noem met wie 'n mens praat. Die tweede punt is nie 'n fout in die inskrywing nie, maar as die 'Net 'n dokter'-bevinding hier bo reggemaak word, is hierdie inskrywing die tweede plek waar dieselfde woord staan."
+      "bron": "Stem ooreen met standaard omskrywings van behandeling as die mediese sorg vir 'n siekte, medisyne ingesluit - EMA-glossarium, https://www.ema.europa.eu/en/glossary/medicinal-product ; Wet op Medisyne en Verwante Stowwe, https://www.acts.co.za/medicines-/medicine.php . Alleen gelees dek dit egter ook wat 'n kliniek doen wat nie behandeling is nie (ondersoeke en toetse), en dit sluit behandeling in 'n hospitaal of tuis uit."
     },
     {
-      "bewering": "begrip 'versorging': Die daaglikse sorg vir 'n siek mens, soos kos, rus en skoon wees. | begrip 'ondersteuning': Die mense wat luister, help en bystaan wanneer dit swaar gaan.",
-      "blok": "begrip: versorging; begrip: ondersteuning",
+      "bewering": "versorging: Die daaglikse sorg vir 'n siek mens, soos kos, rus en skoon wees.",
+      "blok": "begrip: versorging",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Albei alleen gelees. 'Versorging' pas op niks valses nie: die 'siek mens' bind dit, en die drie voorbeelde is die standaard daaglikse-sorgitems. 'Ondersteuning' is wyer as siekte - dit pas op enige swaarkry - maar dit is korrek so, want die woord is in Afrikaans wyer as siekte en die les gebruik dit ook oor 'n kind se eie bekommernis. Die een keuse wat opval is dat die inskrywing ondersteuning as DIE MENSE omskryf eerder as as die handeling; dit stem ooreen met die studieteks se eie sin en is nie vals nie."
+      "bron": "WGO/UNAIDS-raamwerke lys voeding, daaglikse sorg en hygiëne onder 'care' as 'n aparte dimensie van behandeling - https://www.who.int/europe/publications/i/item/WHO-EURO-2020-1345-41095-55826 ; AIDSTAR-One, https://bloodwater.org/content/uploads/2023/10/AIDSTAR-One_TechBrief_PSS_and_Children_Living_with_HIV_Africa.pdf"
     },
     {
-      "bewering": "begrip 'chronies': Wanneer 'n siekte lank duur en nie sommer vanself oorgaan nie.",
+      "bewering": "ondersteuning: Die mense wat luister, help en bystaan wanneer dit swaar gaan.",
+      "blok": "begrip: ondersteuning",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Psigososiale ondersteuning word omskryf as berading, emosionele en geestelike ondersteuning vir die persoon, sy gesin en sorggewers - WGO Europa, https://www.who.int/europe/publications/i/item/WHO-EURO-2020-1345-41095-55826 . Alleen gelees beskryf die inskrywing die mense eerder as die hulp, maar dit sê niks onwaar nie."
+    },
+    {
+      "bewering": "chronies: Wanneer 'n siekte lank duur en nie sommer vanself oorgaan nie.",
       "blok": "begrip: chronies",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Alleen gelees is dit korrek, en dit dra die twee dele wat die standaardomskrywing het: lang duur, en nie selfbeperkend nie. Vergelyk die WHO se hantering van MIV as 'a manageable chronic health condition' met 'life-long ART' (who.int/news-room/fact-sheets/detail/hiv-aids). Dit pas ook op chroniese pyn en op toestande wat nie streng 'siektes' is nie, wat 'n effense onderdekking eerder as 'n oorbewering is. Belangrik: die inskrywing se NIE dat 'n chroniese siekte nooit weggaan nie, en dit is juis waarom die suikersiekte/epilepsie-kontras in die studieteks die probleem is en nie hierdie inskrywing nie."
+      "bron": "CDC: chroniese toestande duur 'n jaar of langer en verg deurlopende mediese sorg of beperk daaglikse aktiwiteite - opgesom in PMC4969287, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4969287/ ; en WGO: van lang duur en gewoonlik stadige verloop, https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases"
     },
     {
-      "bewering": "begrip 'gemeenskapsgesondheidswerker': Iemand uit die gemeenskap self wat opgelei is om basiese gesondheidshulp te gee, mense by hulle huise te besoek en hulle na die kliniek te verbind.",
+      "bewering": "gemeenskapsgesondheidswerker: Iemand uit die gemeenskap self wat opgelei is om basiese gesondheidshulp te gee, mense by hulle huise te besoek en hulle na die kliniek te verbind.",
       "blok": "begrip: gemeenskapsgesondheidswerker",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Al drie dele pas by die Suid-Afrikaanse beleid: 'Community health workers are expected to visit every household in their area', met 'n omvang wat 'health promotion and illness prevention; registering health needs at the household level; providing psychosocial support; management of minor health issues; ... adherence support ... and tracing of patients who have missed HIV and TB service visits or who need referring back to the clinic' insluit, en CHW's 'bridge the gap in service delivery and help strengthen the link between the community and healthcare system' (academic.oup.com/heapol/article/36/4/384/6053703 oor die 2018/19 WBPHCOT-raamwerk; chp.ac.za se beleidsopsomming). Alleen gelees pas dit nie op 'n verpleegster of 'n maatskaplike werker nie, want 'uit die gemeenskap self' en 'basiese' onderskei dit, en dit is die regte onderskeid."
+      "bron": "Suid-Afrikaanse wykgebaseerde uitreikspanne: algemene gemeenskapsgesondheidswerkers onder toesig van 'n fasiliteitsverpleegster doen huisbesoeke, gee gesondheidsopvoeding en skakel huishoudings aan gesondheidsdienste en -fasiliteite - Schneider e.a., https://test.chwcentral.org/ward-based-primary-health-care-outreach-teams-in-south-africa/ ; PMC10034884, https://pmc.ncbi.nlm.nih.gov/articles/PMC10034884 . Alleen gelees onderskei 'opgelei om basiese gesondheidshulp te gee' hom korrek van 'n verpleegster of dokter."
     },
     {
-      "bewering": "begrip 'ondersteuningsgroep': Mense wat dieselfde siekte of dieselfde swaarkry deurmaak en gereeld bymekaarkom om na mekaar te luister en mekaar te help.",
+      "bewering": "ondersteuningsgroep: Mense wat dieselfde siekte of dieselfde swaarkry deurmaak en gereeld bymekaarkom om na mekaar te luister en mekaar te help.",
       "blok": "begrip: ondersteuningsgroep",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Alleen gelees is dit die standaardomskrywing en dit pas op niks valses nie: 'gereeld bymekaarkom' en 'dieselfde siekte of swaarkry' sluit 'n eenmalige beradingsessie en 'n gewone vriendekring uit. Die praktyk bestaan in Suid-Afrikaanse gesondheidsdienste onder daardie naam - 'counselling or support group sessions' (open.uct.ac.za, Health promotion services). Dit stem woord vir woord met die lysitem in die studieteks ooreen, wat reg is."
+      "bron": "Eweknie-ondersteuningsgroepe: gelei deur mense wat self met die toestand leef, tradisioneel plekgebaseerd en gereeld bymekaar, deesdae ook aanlyn - Mitchell Institute, Victoria University, https://www.vu.edu.au/mitchell-institute/prevention-risk/how-support-groups-can-boost-your-health-make-chronic-conditions-easier-to-live-with"
     },
     {
-      "bewering": "begrip 'medisyne': 'n Middel wat help om siekte of pyn te behandel, of om te keer dat 'n mens siek word.",
+      "bewering": "medisyne: 'n Middel wat help om siekte of pyn te behandel, of om te keer dat 'n mens siek word.",
       "blok": "begrip: medisyne",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Alleen gelees is dit korrek en volledig genoeg: dit dek behandeling EN voorkoming, wat inentings en voorkomende behandeling insluit, en 'help om te behandel' is die regte krag in plaas van 'genees'. Dit pas nie op 'n verband of 'n spalk nie, want dit se 'n middel. Vergelyk die WHO se beskrywing van antiretrovirale middels wat die virus se vermeerdering stop sonder om te genees (who.int/news-room/fact-sheets/detail/hiv-aids) - die inskrywing se woordkeuse laat daardie geval korrek inpas."
+      "bron": "Die voorkomende helfte is korrek en staan in die standaard omskrywings: 'n middel bedoel om siekte te behandel, voorkom of diagnoseer - EMA-glossarium, https://www.ema.europa.eu/en/glossary/medicinal-product ; en die Suid-Afrikaanse Wet op Medisyne en Verwante Stowwe se omskrywing van 'medisyne', https://www.acts.co.za/medicines-/medicine.php . Alleen gelees is die tweede helfte wyd - dinge soos seep of skoon water keer ook dat 'n mens siek word - maar 'middel' hou dit by 'n stof wat ingeneem of gegee word."
     },
     {
-      "bewering": "begrip 'kliniek': 'n Plek in die gemeenskap waar mense gesondheidsorg kry, of hulle siek is of gesond.",
+      "bewering": "kliniek: 'n Plek in die gemeenskap waar mense gesondheidsorg kry, of hulle siek is of gesond.",
       "blok": "begrip: kliniek",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Die tweede helfte is die goeie deel en dit is feitelik reg: 'n Suid-Afrikaanse kliniek doen inenting, gesinsbeplanning, voorgeboortesorg en siftingstoetse vir mense wat nie siek is nie, wat presies die primere-sorg-omvang is (academic.oup.com/heapol/article/36/4/384/6053703). Een ding wat ek alleen gelees aanteken sonder om dit te betwis: ''n plek in die gemeenskap waar mense gesondheidsorg kry' pas ook op 'n hospitaal, 'n apteek en 'n dokter se spreekkamer, en die inskrywing noem nie die kenmerk wat 'n kliniek in Suid-Afrika onderskei nie - primere sorg, gewoonlik deur professionele verpleegsters bedryf (pmc.ncbi.nlm.nih.gov/articles/PMC11219604: 'The majority of such clinics are operated by professional nurses'). Dit lewer geen valse gevolgtrekking op nie."
+      "bron": "Die Suid-Afrikaanse PHC-pakket sluit inenting, groeimonitering, gesinsbeplanning, voor- en nageboortesorg en sifting vir algemene siektes in, dus dien 'n kliniek ook gesonde mense - GCIS-sakgids Gesondheid, https://www.gcis.gov.za/sites/default/files/docs/resourcecentre/pocketguide/2004/health04.pdf ; en 'n stedelike kliniekdiensbeskrywing, https://joburg.org.za/media_/Newsroom/Pages/2026-News-Articles/City-clinics-provide-comprehensive-healthcare-services-for-women.aspx"
     },
     {
-      "bewering": "begrip 'maatskaplike werker': Iemand wat 'n universiteitsgraad in maatskaplike werk het en by 'n raad geregistreer is, en wat mense help met die sosiale en praktiese probleme in hulle lewe, ook kinders en gesinne.",
+      "bewering": "maatskaplike werker: Iemand wat 'n universiteitsgraad in maatskaplike werk het en by 'n raad geregistreer is, en wat mense help met die sosiale en praktiese probleme in hulle lewe, ook kinders en gesinne.",
       "blok": "begrip: maatskaplike werker",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Presies reg vir Suid-Afrika, en die twee dele wat maklik verkeerd sou wees, is albei reg. Graad: 'From 2007, students registered for a 4-year Bachelor of Social Work (BSW) degree in order to obtain professional registration', 'n NQF 8-kwalifikasie (humanities.uct.ac.za/department-social-work/social-work-bsw; sacap.edu.za/course/bachelor-of-social-work). Registrasie: by die South African Council for Social Service Professions, wat 'the minimum standards of both academic and practical training requisite for professional registration' neerle (sacssp.co.za/registration). 'By 'n raad geregistreer' is die regte vereenvoudiging - dit noem die vereiste sonder om 'n akroniem te dra wat kan verander. Alleen gelees pas dit nie op 'n berader, 'n sielkundige of 'n gemeenskapsgesondheidswerker nie, want die graad-plus-registrasie onderskei dit."
+      "bron": "Die Baccalaureus in Maatskaplike Werk is 'n universiteitsgraad wat deur die Suid-Afrikaanse Raad vir Maatskaplike Diensberoepe geakkrediteer word, en registrasie by daardie raad is verpligtend om as maatskaplike werker te praktiseer (Wet op Maatskaplike Diensberoepe 110 van 1978) - SACSSP, https://www.sacssp.co.za/education-training-development ; Unisa se Departement Maatskaplike Werk, https://www.unisa.ac.za/sites/corporate/default/Colleges/Human-Sciences/Schools,-departments,-centres,-institutes-&-units/School-of-Social-Sciences/Department-of-Social-Work/Social-Work-Qualifications ; SAQA-kwalifikasie, https://allqs.saqa.org.za/showQualification.php?id=117923"
     },
     {
-      "bewering": "begrip 'Childline': 'n Diens wat 'n kind self kan bel wanneer sy hulp nodig het - gratis, dag en nag, en sy hoef nie vir 'n grootmens te vra om te bel nie.",
+      "bewering": "Childline: 'n Diens wat 'n kind self kan bel wanneer sy hulp nodig het - gratis, dag en nag, en sy hoef nie vir 'n grootmens te vra om te bel nie.",
       "blok": "begrip: Childline",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Woord vir woord dieselfde as die studieteks se sin en met dieselfde bronne bevestig: 'a national, 24-hour, toll-free helpline, available 365 days', 'Calls to the Helpline are free from all networks', en die diens is daar vir kinders om self te bel (childlinesa.org.za en die mediaverklaring oor die 116-nommer; vukuzenzele.gov.za/children-can-call-116-help). Alleen gelees pas die inskrywing op enige gratis 24-uur kinderhulplyn en nie net op Childline nie, maar dit is 'n eienaam wat homself bind, en die inskrywing bevat geen nommer wat kan verouder nie."
+      "bron": "Vuk'uzenzele (Suid-Afrikaanse regering): die 116-lyn is 24 uur per dag beskikbaar, gratis vanaf alle netwerke, en direk vir kinders bedoel - https://www.vukuzenzele.gov.za/book/export/html/6872 . Alleen gelees sê die inskrywing nie waarvoor 'n kind bel nie, wat dit wyd laat, maar niks daarin is onwaar nie."
     }
   ],
-  "opsomming": "Drie regstellings, en die eerste is die belangrikste: 'Net 'n dokter besluit of medisyne gestop word' is vals vir Suid-Afrika, waar die meeste klinieke deur professionele verpleegsters bedryf word wat onder artikel 56(6) van die Wet op Verpleging voorskryf en sedert 2010 onder NIMART MIV-behandeling begin en bestuur - en die sin weerspreek die les se eie raad twee blokke vroeer ('praat met die kliniek') en sy eie ''n Dokter of 'n verpleegster'; 'n gesin wat dit glo, kan 'n verpleegster se opdrag as minderwaardig lees of wag op 'n dokter wat nie by hulle kliniek is nie. Tweedens bou 'Suikersiekte bly ... gewoonlik lewenslank' teenoor 'Epilepsie werk anders' 'n kontras wat vir tipe 2-suikersiekte vals is, want die ADA noem remissie nou 'n primere behandelingsdoel; die epilepsie-helfte self is korrek, want sowat twee derdes van kinders groei daaruit. Derdens is 'Om eers agterna te vertel, keer nie die skade nie' letterlik waar maar laat 'n leerder wat al iets saam met voorgeskrewe medisyne geneem het sonder opdrag, terwyl elke riglyn se vertel altyd - die volgende sin vra net wat voor die behandeling geneem is. Die drie-woorde-verdeling, die 'vra eers'-reel en sy tydsberekening, elke helper wat genoem word, die Childline-sin (gratis, 24 uur, 'n kind self, en sonder 'n nommer wat kan verouder), die inligtingsweeg-lys en al tien begrip-inskrywings is nagegaan en staan. Goed genoeg om te stuur is dit nie: die 'net 'n dokter'-sin is 'n feitefout oor wie 'n behandelingsbesluit neem in die stelsel wat hierdie leerders self gebruik, en dit is die soort sin waarop 'n gesin optree."
+  "opsomming": "Twee bewerings moet verander: die les sê 'n apteker kan self 'n voorgeskrewe dosis aanpas of die medisyne stop (hy mag nie - hy gee raad en skakel met die voorskrywer; dit is die verpleegster of dokter wat voorskryf), en dit sê die dokter of verpleegster besluit of medisyne gestop word, 'nooit die mens self nie', wat die pasiënt se reg om behandeling te weier ontken - die veilige vorm is dat 'n mens nie op sy eie ophou nie en dat die besluit saam geneem word. Twee dinge moet 'n mens se oë kry: 'Baie van hierdie siektes is chronies' verwys na 'n siekte-lys wat nêrens in die les staan nie (en onder die waarskynlikste lesing is dit twyfelagtig, want die meeste algemene siektes is akuut en dieselfde blok sê TB genees), en die belofte oor die volgende les kan nie sonder les 13 nagegaan word nie; alles anders - Childline se gratis 24-uur lyn wat 'n kind self bel, die epilepsie-remissie, MIV teenoor TB, die gemeenskapsgesondheidswerker, die maatskaplike werker se graad en registrasie, die inligting-maatstawwe en die afstand-en-taxi-hindernis - is teen regerings-, WGO- en universiteitsbronne bevestig, en geen handboek, skandering of uitgewersmateriaal is gebruik nie."
 }
