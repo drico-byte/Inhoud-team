@@ -293,9 +293,28 @@ def met_spek_konteks(spek, inskrywing):
     except (TypeError, ValueError):
         k = {}
     if k:
+        # A term whose wording is not settled yet still carries a decision: its
+        # SCOPE. Sending only `omskrywing` handed the writer `null` for every one
+        # of those, so the scope reached it only when a planner had restated it in
+        # the spec -- a property of the briefing, not of the pipeline, which is the
+        # same way the previous grade's list nearly went missing. The long `rede`
+        # stays out: it is written for a planner and runs to hundreds of words a
+        # term, and bulk in an extract has stopped writers dead before.
+        def _bewoording(v):
+            w = v.get("omskrywing")
+            if w:
+                return w
+            omvang = v.get("omvang")
+            if not omvang:
+                return None
+            return ("NOG GEEN OOREENGEKOME BEWOORDING NIE, MAAR DIE OMVANG IS BESLIS: "
+                    + omvang + " Skryf die beste bewoording wat jy kan binne daardie "
+                    "omvang; die bewoordings word na die hele jaar se skryfwerk versoen, "
+                    "dus is joune nie die finale een nie.")
+
         saam["vak_gedeelde_omskrywings"] = {
             "nota": k.get("nota"),
-            "terme": {t: v.get("omskrywing")
+            "terme": {t: _bewoording(v)
                       for t, v in (k.get("terme") or {}).items()},
         }
 
