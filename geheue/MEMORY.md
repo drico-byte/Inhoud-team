@@ -118,6 +118,7 @@
 - [Our division must not shift toward a textbook's](n-eie-verdeling-mag-nie-na-die-handboek-toe-skuif-nie.md) — matching it independently is fine; changing our answer because theirs differs undoes the copyright position.
 - [Three PCs work in parallel](drie-rekenaars-werk-parallel.md) — open lessons outside my subject are probably someone else's; report what is left in MY work, and a repo-wide sweep reaches into their files.
 - [Gr 4 Geography: the rulings](gr4-geografie-besluite.md) — 30 lessons, 400 words, videos already made; hunting and urban farming carried briefly by our text; map-skills lesson 1 may run light.
+- [A video phrase lands in four places](n-videofrase-beland-in-vier-plekke.md) — where the video came first, one wrong phrase reaches the seam, kern, the shared wordings and the draft; and a false video claim filed only in feiterisiko never reaches the writer in time.
 - [Three lessons at a time on this machine](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Drico: this account has far fewer tokens than the other two; a rate, not a discount.
 - [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks exactly like an item-level one; and CAPS marks a binding list by leaving out the word soos.
 
