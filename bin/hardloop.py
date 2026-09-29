@@ -272,6 +272,29 @@ def eis_spek(vak, graad, sub, uit):
     return goed, P.lees_json(goed)
 
 
+def _brief_konfig(spek, profiel_pad):
+    """What to tell a writer the profiler config is.
+
+    THE SPEC WINS. The runner finds a config by subject and grade, which is right
+    for most work and wrong wherever a spec's budget does not come from a
+    measurement: Gr 4 Geografie has no profiling run at all, so the runner offers
+    the nearest one it can see -- a Kwartaal 3 History config -- and a writer that
+    copies the brief line verbatim writes a false provenance record.
+
+    Six agents caught this on Gr 4 Geografie and each refused it. The step above
+    the brief already warns "use what the spec's profiel_konfig says"; this makes
+    the brief line itself say it, so the warning and the instruction agree.
+
+    A spec value can be a whole sentence ("geen - daar bestaan geen profielloop
+    vir Graad 4 Geografie nie") rather than a filename. That is the honest value
+    and it goes through as written, trimmed only so one brief line stays one line.
+    """
+    waarde = (spek.get("profiel_konfig") or "").strip()
+    if not waarde:
+        return os.path.basename(profiel_pad)
+    plat = " ".join(waarde.split())
+    return plat if len(plat) <= 160 else plat[:157] + "..."
+
 def met_spek_konteks(spek, inskrywing):
     """The lesson entry, plus the spec-level fields it refers to by bare name.
 
@@ -737,7 +760,7 @@ def stap(a, uit):
                     f"spec context: vak={vak}, graad={graad}, "
                     f"kaps_onderwerp={spek.get('kaps_onderwerp')}, "
                     f"kaps_subonderwerp={sub}, profiel_konfig="
-                    f"{os.path.basename(profiel_pad)}"],
+                    f"{_brief_konfig(spek, profiel_pad)}"],
             uitvoer=P.rel(les_pad),
             waarskuwing="No textbook, no scans, no transcriptions. "
                         "handboek_gesien must be false.")
