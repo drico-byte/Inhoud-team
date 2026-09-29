@@ -658,6 +658,47 @@ arrangement are exactly what our copyright position rests on. Where they differ,
 on our own grounds and write down what those grounds were. **CAPS's stated emphasis
 beats a publisher's page budget** — the book gave the Indian Ocean trade 190 words;
 CAPS names that trade the topic's main focus, so it gets 380.
+### How a plan is presented for approval
+
+**Drico, 29 September 2026: "always indicate the planned words, possible top-up and
+merge suggestions in this table format. It should be the standard since we are doing it
+in this new way."** This is the shape a lesson division is shown to a person in for
+approval — not a report after the fact, but the thing he decides from. One table per
+term, headed with the term, its teaching hours and its word total:
+
+```
+### Kwartaal 1 — Mapungubwe · 12 uur · 3 110
+
+| # | Lesson | Words | Merge? |
+|---|---|---|---|
+|6|Travelling on foot|200 *(+30)*|✕ with 7 — a road and a heritage listing are unrelated|
+|7|Mapungubwe today|200 *(+80)*| |
+```
+
+Four columns, and each earns its place:
+
+* **`#`** is the YEAR lesson number, 1 to the last lesson of the grade, not a number
+  inside a sub-topic.
+* **`Words`** is the planned budget. **A floor top-up is shown in brackets after it**,
+  so `200 (+80)` reads as "budgeted 200, of which 80 is above what CAPS's hours paid
+  for". Never show the top-up as a separate column or leave it out — it is the single
+  most useful thing in the table, because **every top-up marks a seam worth a second
+  look.** All six in Grade 6 SW History fell on a lesson that was then considered for
+  merging.
+* **`Merge?`** carries the suggestions, marked **✅ would do it, ◐ defensible, ✕ do
+  not**, each with the merged word count and a one-line reason. Say ✕ out loud where a
+  merge looks tempting but would flatten something — merging Gr 6 SW's two indigenous
+  healing lessons would lose exactly the distinction CAPS insists on.
+
+**The merged figure is the sum of the CONTENT shares, not of the budgets.** A merge
+recovers any top-up, because the merged lesson clears the floor on its own and no longer
+needs it. Lessons of 200 *(+20)* and 320 merge to **500**, not 520. This was got wrong
+twice in the table that established the format, and both errors were exactly the size of
+the top-ups involved — so check every merge figure that swallows a bracket.
+
+Group the rows under their CAPS cluster where a term has several, so a reader can see
+which lessons share an envelope and therefore which ones a redistribution would move.
+
 ## Writing patterns that are known to work
 
 These come from measuring real Grade 4 material, not from taste.
