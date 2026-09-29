@@ -16,6 +16,13 @@ Dit soek elke sin in 'n konsep se studie- en lysblokke wat 'n geen-skuld-vorm dr
 haar saam met die sin voor en die sin na haar. Dan merk dit die sinne waarin 'n
 voorwaarde-woord BINNE die geen-skuld-sin self staan.
 
+Die spek-modus is LUIDRUGTIG, en dit is nie 'n fout nie
+--------------------------------------------------------
+'n Spesifikasie PRAAT oor hierdie fout: die vak se geen-skuld-reel haal die foutiewe vorme
+self aan as voorbeelde van wat verkeerd is. Verwag dus dat die meeste spek-treffers REKORDS
+is. Die konsep-modus is die een met 'n lae valse-positief-koers; die spek-modus is 'n lys
+plekke om te lees, en sy bestaan omdat die spek die plek is waar 'n spil TERUGKOM.
+
 Wat dit NIE kan doen nie
 ------------------------
 Dit kan nie 'n VOORWAARDE van 'n VERBREDING onderskei nie. "Dit bly so al het jy nie dadelik
@@ -73,6 +80,14 @@ VORMS = [
 
 # 'n Woord wat 'n voorwaarde inbring. 'want' en 'omdat' MOTIVEER, wat die reel verbied;
 # 'as', 'waar', 'mits', 'sodra', 'solank' stel 'n voorwaarde.
+# 'N VERNOUING SONDER 'N VOEGWOORD. Op 29 September 2026 het 'n dekkingsnasiener 'n
+# geen-skuld-openingsreel gevind wat 'allerminste 'n kind wat in 'n moeilike huis woon'
+# bygevoeg het: geen 'as' en geen 'want', maar die omgekeerde laat die skuld terug in vir
+# 'n kind wie se huis nie moeilik is nie. Hierdie skrip se spek-modus is juis vir daardie
+# geval gebou en sou hom SONDER hierdie klas nie gevang het nie.
+VERNOUINGS = [r'\ballerminste\b', r'\bveral\b', r'\bten minste\b',
+              r'\bin die besonder\b', r'\bspesifiek waar\b']
+
 VOORWAARDES = [
     (r'\bwant\b', 'motiveer'),
     (r'\bomdat\b', 'motiveer'),
@@ -124,6 +139,28 @@ def blok_teks(b):
     return ' '.join(dele)
 
 
+def lees_spek(pad):
+    """Elke veld van elke les, en die spek-vlak velde ook."""
+    s = json.load(io.open(pad, encoding='utf-8'))
+    ry = []
+    houers = [(None, s)] + [(les.get('nommer'), les) for les in (s.get('lesse') or [])]
+    for nommer, houer in houers:
+        for naam in sorted(houer.keys()):
+            if naam == 'lesse':
+                continue
+            v = houer.get(naam)
+            if v is None or isinstance(v, (int, float, bool)):
+                continue
+            items = v if isinstance(v, list) else [v]
+            for i, x in enumerate(items):
+                t = x if isinstance(x, str) else json.dumps(x, ensure_ascii=False)
+                for ss in sinne(t):
+                    if any(re.search(vm, ss, re.I) for vm in VORMS):
+                        ry.append({'kop': ('les %s ' % nommer if nommer else 'spek-vlak ') + naam,
+                                   'sin': ss, 'voor': '', 'na': ''})
+    return os.path.basename(pad), ry
+
+
 def lees(pad):
     d = json.load(io.open(pad, encoding='utf-8'))
     ry = []
@@ -148,9 +185,19 @@ def main(argv=None):
     a.add_argument('--graad', help='bv 7')
     a.add_argument('--vak', help='beperk tot een vak se gids')
     a.add_argument('--pad', help='een subonderwerp se gids in plaas van graad en vak')
+    a.add_argument('--spesifikasies', action='store_true',
+                   help="vee die SPESIFIKASIES in plaas van die konsepte. Die spek is waar 'n spil TERUGKOM: op "
+                        "29 September 2026 het 'n dekkingsnasiener 'n voorwaardelike geen-skuld-vorm in 'n "
+                        "OPENINGSREEL gevind, en hierdie skrip kon hom nie sien nie omdat sy net konsepte gelees het.")
     o = a.parse_args(argv)
 
-    if o.pad:
+    if o.spesifikasies:
+        paaie = sorted(glob.glob(os.path.join(
+            'spesifikasies', 'goedgekeur', 'gr%s' % o.graad if o.graad else '*', '*', '*.json')))
+        if o.vak:
+            nn = o.vak.lower().replace(' ', '-')
+            paaie = [x for x in paaie if nn in x.lower().replace(' ', '-')]
+    elif o.pad:
         paaie = sorted(glob.glob(os.path.join(o.pad, 'les-*.json')))
     else:
         # konsepte/gr7/<vak>/<subonderwerp>/les-N.json - vier vlakke, nie drie nie
@@ -159,7 +206,8 @@ def main(argv=None):
         if o.vak:
             n = o.vak.lower().replace(' ', '-')
             paaie = [p for p in paaie if n in p.lower().replace(' ', '-')]
-    paaie = [p for p in paaie if re.fullmatch(r'les-\d+\.json', os.path.basename(p))]
+    if not o.spesifikasies:
+        paaie = [p for p in paaie if re.fullmatch(r'les-\d+\.json', os.path.basename(p))]
     if not paaie:
         print('Geen konsep gevind vir daardie keuse nie.')
         return 2
@@ -170,7 +218,7 @@ def main(argv=None):
     print('  %d konsep(te) gelees' % len(paaie))
     spil, skoon, sonder = [], [], []
     for p in paaie:
-        titel, ry = lees(p)
+        titel, ry = (lees_spek(p) if o.spesifikasies else lees(p))
         if not ry:
             sonder.append(os.path.basename(os.path.dirname(p))[:12] + ' ' + os.path.basename(p)[4:-5])
             continue
@@ -181,6 +229,8 @@ def main(argv=None):
                       for pat, naam in VOORWAARDES if re.search(pat, r['sin'], re.I)]
             gevind += [('spil op die DADER', re.search(pat, r['sin'], re.I).group(0))
                        for pat in DADER_SPILLE if re.search(pat, r['sin'], re.I)]
+            gevind += [('VERNOUING sonder n voegwoord', re.search(pat, r['sin'], re.I).group(0))
+                       for pat in VERNOUINGS if re.search(pat, r['sin'], re.I)]
             verbr = [re.search(pat, r['sin'], re.I).group(0)
                      for pat in VERBREDINGS if re.search(pat, r['sin'], re.I)]
             r['voorwaardes'], r['verbredings'] = gevind, verbr
