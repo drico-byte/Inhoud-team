@@ -58,6 +58,13 @@ VORMS = [
     # stelling word POSITIEF gestel - die skuld le by iemand anders - en sy dra
     # dikwels 'n spil ('wat AANHOU druk'), wat die kind sonder huis vir die skuld
     # laat as die ander een net EEN keer gevra het.
+    # DERDE UITBREIDING, 29 September 2026. 'n Vormlys is net so goed as die vorme wat
+    # iemand aan gedink het, en hierdie een het DRIE keer in een dag 'n les gemis. Voeg
+    # by sodra 'n nasiener 'n vorm vind wat hier nie staan nie.
+    r'die skuld lê nie by',
+    r'niemand is skuldig',
+    r'is nie skuldig',
+    r'dra nie die skuld',
     r'die skuld lê by',
     r'die skuld is by',
     r'die skuld lê heeltemal by',
