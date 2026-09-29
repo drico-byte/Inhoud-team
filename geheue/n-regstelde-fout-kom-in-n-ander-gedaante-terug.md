@@ -1,6 +1,6 @@
 ---
 name: n-regstelde-fout-kom-in-n-ander-gedaante-terug
-description: "A corrected error can return in a different shape that passes a keyword check — the boiler's size fault came back as the cylinder's length, still letting geometry do the work pressure should do."
+description: "A corrected error returns in a costume that passes a keyword check: a new phrasing (the boiler), a new object (the cylinder), and a parallel list in which no single sentence is false and the arrangement carries the claim."
 metadata:
   type: feedback
 ---
@@ -47,3 +47,37 @@ Related: [[n-regstelling-ontwrig-sy-bure]] (a fix disturbs its neighbours — th
 disturbing *itself*), [[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]],
 [[die-verwysingsles-word-nooit-nagegaan]] (where this particular error was being modelled
 for every subject).
+
+---
+
+**29 September 2026, Gr 4 Geography settlements: the third costume has no false
+sentence in it at all.**
+
+Lesson 6 claimed outright that services are harder to reach far from the big centres,
+and extended that to electricity. A fact check killed it — rural household electricity
+access in South Africa is 94.0% against urban 90.9%, and the real gap is formal versus
+informal dwellings, which is a metro problem. Corrected at source, verified, closed.
+
+One lesson later the same false picture was back, and **every sentence carrying it was
+true**. Lesson 7 has four parallel place blocks — farm, village, town, city, smallest to
+largest. The first three each answer food and water. The fourth answers food, and then
+*electricity* and water. Nothing asserts that electricity arrives with size. The **shape
+of the list** asserts it.
+
+So the costume list now runs: a different phrasing (the boiler), a different object (the
+cylinder), and **a different medium entirely** — position in a parallel structure.
+
+**What this adds to how to apply.** A false conclusion can be delivered by arrangement,
+and arrangement is invisible to every check that reads sentences. Two guards:
+
+* When a claim is corrected, ask not only *where else is this said* but **where else is
+  this implied by what sits next to what**. A parallel list is the obvious place: whatever
+  appears in only one of its items is being attributed to what makes that item different.
+* **Resist the caveat repair.** The checker here explicitly warned against fixing it by
+  adding a qualifier to the city block, because a qualifier makes the ladder more visible
+  rather than removing it. The repair for a structural claim is structural — either the
+  odd item joins the others, or the thing it names appears elsewhere too.
+
+Related: [[n-waarskuwing-moet-elke-broer-dek]] (the same list-shaped blindness, in the
+cautions instead of the content), [[elke-sin-waar-die-prentjie-vals]],
+[[n-weglating-verander-sy-bure]].

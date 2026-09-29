@@ -18,7 +18,7 @@
 - [Cross-check the term plan against CAPS](kruistoets-die-termynplan-teen-kaps.md) — all three parts of the document disagree; produce a coverage map before writing anything.
 - [Every lesson gets its own name](elke-les-kry-n-eie-naam.md) — the title is the learner's hero heading, never the CAPS label; and nothing checks a title the way it checks the text.
 - [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — Term 1 is 1-8, Term 2 starts at 9, ~30 total; the file name is his CAPS index, the title is the hero.
-- [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — the boiler's size fault came back as the cylinder's length; write down the false CONCLUSION, not the false words, and never close a mechanism finding on a keyword sweep.
+- [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — three costumes now: a new phrasing, a new object, and a parallel list whose every sentence is true; sweep the false CONCLUSION, not the words.
 - [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — seven times in one day; always ask what the fix disturbed, not whether the finding is gone.
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
 - [Gr 4 SW: where we are](gr4-sw-waar-ons-is.md) — 16 of 30 signed off 22 Sep 2026; Drico's ceiling ruling (450 holds the MEASURED lesson) and the two closed questions.
@@ -48,14 +48,14 @@
 - [Don't run the runner over a working writer](moenie-die-hardloper-oor-n-werkende-skrywer-laat-loop-nie.md) — it gated a draft mid-revision; archived reports are recoverable from the log tree.
 - [The textbook comes through the search results too](die-handboek-kom-ook-deur-die-soekresultate.md) — the fact checker declined a Grade 4 PDF on its own; nothing had told it to, and now the prompt does.
 - [The provenance note leaks the spec to the fact checker](die-herkoms-nota-lek-die-spek-na-die-feitenasiener.md) — the checker never gets the spec, but a writer records the requirements inside the lesson file, and the checker reads that; not yet decided how to close it.
-- [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — three of four fixed over-claims stopped being claims; narrow the quantifier, never the subject — and if a fix can be written by putting "not" in front of the old sentence, it is the opposite error.
+- [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — narrow the quantifier, never the subject; a fix writable as "not" + the old sentence is the opposite error.
 - [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went over unprotected.
 - [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — two unchecked measurements and one false claim in one day; a spec is read as settled.
 - [A claim about Afrikaans usage is not a requirement](n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie.md) — a whole block rested on "sit dit hoër"; Afrikaans says "harder", and the English problem had been imported.
 - [My searches miss, and then I believe them](my-soektogte-mis-en-dan-glo-ek-hulle.md) — three empty results reported as findings in one day; the third nearly became a false accusation.
 - [The video's lesson division wins](video-se-lesverdeling-wen.md) — where a video came first and merged two CAPS bullets, the text merges too; a merged lesson gets one lesson's budget, not two.
 - [A spec says the same thing in two fields](n-spek-se-dieselfde-ding-in-twee-velde.md) — a source fix must sweep every field that repeats the claim, not just the one the finding named.
-- [A caution must cover every sibling](n-waarskuwing-moet-elke-broer-dek.md) — the spec warned off the video’s sail simplification for two ships and then required it for the third; check every item in a parallel list, and check no requirement demands what a caution forbids.
+- [A caution must cover every sibling](n-waarskuwing-moet-elke-broer-dek.md) — check every item in a parallel list, and check no requirement demands what a caution forbids.
 - [The spec and the lesson name the same field differently](die-spek-en-die-les-noem-dieselfde-veld-anders.md) — a spec's kaps_onderwerp is the topic, a lesson's is the sub-topic; nothing checks it.
 - [A lesson with a number in it goes stale](n-les-met-n-nommer-in-verouder.md) — Childline 116, checked 2 Sep 2026; re-verify at every reprint, because nothing re-checks after approval.
 - [The agreed wording can itself be wrong](die-ooreengekome-bewoording-kan-self-verkeerd-wees.md) — reconciling makes two lessons agree, not right; fact-check the agreed wording after reconciling, and sweep the prose that leaned on it.
@@ -71,7 +71,7 @@
 - [A spec too bulky to be written](n-spek-so-lywig-dat-dit-nie-geskryf-kan-word-nie.md) — 49KB of notes broke a planner's file write and cost 27 minutes; a note earns its place by changing what a writer does.
 - [Kern can contradict feiterisiko](kern-en-feiterisiko-weerspreek-mekaar.md) — and kern wins, because coverage tests against it; three writers caught this in one day.
 - [A replacement that doesn't match must fail loudly](n-ruil-wat-nie-pas-nie-moet-hard-faal.md) — three scripted spec edits did nothing and reported success in one day; assert every swap, and re-read the field, not the script's summary.
-- [A fact-risk note is not a correction](n-feiterisiko-is-nie-n-regstelling-nie.md) — amend the OPENING LINE of the field that ordered the error - an appended correction is read as commentary and skimmed; coverage tests against kern, so a half-fix fails a correct draft and the next revision reinstates the fault.
+- [A fact-risk note is not a correction](n-feiterisiko-is-nie-n-regstelling-nie.md) — amend the OPENING LINE of the field that ordered the error; coverage tests against kern, so a half-fix fails a correct draft.
 - [Simplify the method, not the provenance](vereenvoudig-die-metode-nie-die-herkoms-nie.md) — at Grade 4, compressing HOW we know is right; saying the information lives in the wrong object is not.
 - [A definition may widen across grades](n-omskrywing-mag-oor-grade-heen-verbreed.md) — Drico's ruling; the no-richer rule is bounded by the one-year exam, so Grade 5 widened geraamte and Grade 4 stayed as delivered.
 - [Two planners, both locally right](twee-beplanners-albei-plaaslik-reg.md) — opposite answers for one term in one grade; scope differences between sub-topics must be settled BEFORE drafting, not at reconciliation.
@@ -90,7 +90,7 @@
 - [Finished lessons go to Voltooide lesse](voltooide-lesse-uitvoer.md) — automatic at sign-off since 22 Sep 2026, sorted Graad/Vak/Subonderwerp; Gr 5 and 6 Life Skills backfilled.
 - [My correction in the spec was itself the next error](my-regstelling-in-die-spek-was-self-die-volgende-fout.md) — I prescribed the fix instead of describing the fault, and it built a new false picture at the same spot within hours.
 - [A corrected field can still carry another fault](n-reggemaakte-veld-kan-nog-n-ander-fout-dra.md) — my sweeps skipped every field already marked REGGEMAAK, exempting exactly the fields most likely to be wrong; sweep on the claim, and assert nothing live survives.
-- [Recording a finding at source is not fixing it](n-bevinding-by-die-bron-opteken-is-nie-dit-regmaak-nie.md) — I wrote two contradicted claims into the spec as guards, felt done, and left the draft still saying the false thing; fix at source AND dispatch, in the same breath.
+- [Recording a finding at source is not fixing it](n-bevinding-by-die-bron-opteken-is-nie-dit-regmaak-nie.md) — I wrote guards into the spec, felt done, and left the draft still false; fix at source AND dispatch, in one breath.
 - [Three ways to fix a claim](drie-maniere-om-n-bewering-reg-te-maak.md) — Drico: we NEVER keep a false claim; narrow the quantifier, cut it, or teach the mechanism, in that order of preference.
 - [When CAPS itself is wrong](wanneer-kaps-self-verkeerd-is.md) — seven errors found so far; ride with CAPS on a NAME, correct it on a MECHANISM the learner will reason with.
 - [Gr 5 NWT: where we are](gr5-nwt-waar-ons-is.md) — all 29 signed off 18 Sep 2026 and pushed; Drico's rulings of that day listed; one open shared term ('as').
