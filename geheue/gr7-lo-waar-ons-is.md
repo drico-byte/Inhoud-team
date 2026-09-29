@@ -38,7 +38,7 @@ six were adrift across ten lessons and four more agreed with nothing holding the
 2. **The Grade 12 pass level.** Two fact checks disagree on whether a designated subject list
    governs the degree pass. Nothing ordered; one targeted check answers it.
 3. **The bullying doer.** Lampies' 28 September ruling (child to child) stands and two checks
-   支持 it, but the CDC definition excludes siblings and a current dating partner — so our
+   support it, but the CDC definition excludes siblings and a current dating partner — so our
    wording leaves adults out and takes a boyfriend in, while the same lesson's block on sexual
    pressure describes exactly such a person.
 4. **Regte 7's tell-threshold** rests on a request to hide something "for always", which a child
