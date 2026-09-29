@@ -50,10 +50,16 @@ sequences it", however the request is framed.
 
 Identify the CAPS bullets for the sub-topic, and the topic's focus question.
 
-**Ignore the contact hours.** CAPS hours tell a teacher how long to spend on a
-topic; they say nothing about how much text a learner reads, because lesson time is
-filled with discussion, drawing, group work and practice as well as reading.
-Record `kaps_ure` as provenance if you wish, but derive nothing from it.
+**Read the contact hours off CAPS carefully — the whole budget is built on them**
+(Step 3). CAPS prints an hour figure against every content cluster, and those figures
+are what you divide the sub-topic into clusters by. Record them exactly as printed.
+
+> The old form of this step said "Ignore the contact hours… derive nothing from it",
+> on the reasoning that lesson time holds discussion and group work as well as
+> reading. **WITHDRAWN by Drico on 29 September 2026.** The rate is calibrated on our
+> own delivered lessons, so the non-reading part of the hour is already priced into
+> it. Hours are now the basis. The one place the old objection still bites is a
+> cluster whose hours are mostly PRACTICAL work — see Step 3's exception.
 
 ## Step 2 — group the bullets inside each cluster
 

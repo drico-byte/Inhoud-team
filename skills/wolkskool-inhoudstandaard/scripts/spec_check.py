@@ -11,8 +11,17 @@ USAGE
     python3 spec_check.py spec.json
     python3 spec_check.py spec.json --json
 
-CAPS contact hours are not used. They tell a teacher how long to spend on a topic,
-not how much text a learner reads. Budgets come from measured textbook volume.
+Two budget bases live here, and a spec says which it uses.
+
+"kaps-ure" is the CURRENT one (Drico, 29 September 2026): CAPS's printed hours for a
+content cluster times the subject's own words-per-hour rate give that CLUSTER an
+envelope, and the planner distributes inside it. Words never move between clusters,
+the floor is 200 ("up to 200, or merge it"), a lifted lesson declares vloer_optel,
+and there is no absolute per-grade ceiling.
+
+"gemete_volume" and "vereistes" are the OLD bases, kept because every spec approved
+before that date used one of them. Under those, CAPS contact hours are not used and
+budgets divide evenly -- both rules were WITHDRAWN for new work on 29 September 2026.
 """
 import argparse, json, re, sys
 
