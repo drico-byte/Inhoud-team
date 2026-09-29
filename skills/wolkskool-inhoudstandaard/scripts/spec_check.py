@@ -392,10 +392,15 @@ def check(spec):
             warns.append(f"Lesson {L['nommer']}: {len(av)} aanvulling items against a "
                          f"{allowance}-word allowance — check the 25% cap still holds")
 
-    # --- eli10 flags ---
-    if not any(L.get("moeilike_konsepte") for L in lesse):
-        warns.append("No lesson flags a difficult concept — every sub-topic usually has at "
-                     "least one that needs an ELI10 layer")
+    # --- difficult-concept flags ---
+    #
+    # This used to warn that no lesson flags a difficult concept, on the grounds that
+    # every sub-topic usually needs an ELI10 layer. The ELI10 block was abolished, and
+    # the gate now HARD-FAILS any lesson that carries one — so the advice sent whoever
+    # followed it straight into a gate failure. An empty difficult-concepts field is now
+    # an ordinary outcome and says nothing, so nothing is reported for it.
+    # The count check below stays: it is about a flag that means nothing when everything
+    # carries it, which is still true whatever the flag is used for.
     for L in lesse:
         if len(L.get("moeilike_konsepte") or []) > 3:
             warns.append(f"Lesson {L['nommer']}: {len(L['moeilike_konsepte'])} concepts flagged "
