@@ -182,3 +182,96 @@ om die video te ondersteun en niks meer nie.
 Jaarnommers loop 1-30 PER DISSIPLINE — Geografie begin weer by 1, want Geskiedenis dra
 reeds 1-30 (Drico, 23 September 2026).
 
+
+---
+
+## Tweede deurgang, 29 September 2026 — item vir item, en wat dit verander het
+
+Die eerste deurgang het KABV se strepies teen die skrifte getoets. Hierdie een toets
+**elke les terug na KABV**, en elke **benoemde item binne 'n strepie**, want die eerste
+deurgang het op strepievlak gewerk en 'n paar dinge net nie gesien nie.
+
+### Die twee gapings staan. Daar is nie 'n derde nie.
+
+**Jag** en **verbouing van voedsel in dorpe en stede** bly die enigste twee verpligte
+gapings, en Drico se beslissing daaroor staan. Albei strepies is **geslote lyste sonder
+'soos'**, wat hulle bindend maak:
+
+> Maniere waarop mense hul voedsel verkry - koop; verbou; versamel, visvang, **jag**
+
+### Maar twee lesse is amper verkeerdelik as aanvulling afgeskryf
+
+**Boerdery les 6** (droogte, vloede, hael, plaagdiere, uitgeputte grond, volhoubare
+boerdery, voedselverspilling) staan in **geen KABV-inhoudstrepie nie**. Teen die
+inhoudstabel alleen is dit 100% aanvulling teen 'n 25%-perk, en ek sou dit teruggestuur
+het.
+
+Dit is verkeerd. Elke KABV-onderwerpbladsy eindig met dieselfde sin:
+
+> Hierdie inhoud en die gepaardgaande konsepte moet met die **geografiese doelwitte en
+> vaardighede** wat in Afdeling 2 aangedui is, geïntegreer word.
+
+Afdeling 2.5 noem **"interafhanklikheid: die skakels tussen die klimaat, plantegroei,
+wildlewe, verspreiding van hulpbronne, en die menslike nedersetting en aktiwiteit"** as
+een van die agt dinge wat Geografie self bestudeer, en 2.5.3 wil leerders hê wat
+**"die interaksie tussen die samelewing en die natuurlike omgewing verstaan"**,
+**"verband tussen oorsaak en gevolg"** sien, en **"omgee vir hul planeet"** en
+**"verantwoordelik teenoor mense en die omgewing optree"**. Les 6 is presies daardie
+inhoud. Dit is **kern teen afdeling 2.5**, nie aanvulling teen die inhoudstabel nie.
+
+**Kaartwerk les 1** staan ook in geen strepie nie, en word deur 2.5.2 se
+karteringsvaardighede-nota gedra — plus die feit dat dit die omskrywing gee waarop die
+hele kwartaal rus. Drico se besluit dat dit laag mag loop, staan; dit is nou ook
+verantwoord eerder as net toegelaat.
+
+Dieselfde patroon as Geskiedenis Kwartaal 1. Sien
+[[die-onderwyser-weet-wat-buite-kaps-saak-maak]].
+
+### 'n Woord wat regtig verkeerd is
+
+Die Nedersettings-skrif noem die tweede nedersettingstipe 'n **"buitedorp of klein
+dorpie"**. KABV se woord is **boeredorpie** — twee keer, in Kwartaal 1 se inhoudstabel en
+weer in Kwartaal 2 se *"Lees van 'n kaart op 'n plaas, boeredorpie of deel van dorp"*.
+
+'n **Buitedorp is 'n voorstad**, en 'n voorstad is deel van 'n stad — nie een van die vier
+nedersettingsoorte nie. Die woord stel twee verskillende dinge gelyk, en omdat Kwartaal 2
+uitdruklik vra dat Kwartaal 1 se nedersettingsvoorbeelde daar hergebruik word, loop dit
+deur na die kaartwerk. **Ons teks gebruik dorpie of boeredorpie, nooit buitedorp.** Die
+video bied self "klein dorpie" aan, dus weerspreek dit die video nie.
+
+### Een item wat ek gemis het, en wat tog nie 'n gaping is nie
+
+KABV se geboue-lys lui: *"geboue **soos** huise, **diereskuilings**, winkels, skole,
+klinieke, banke, kantore, plekke van aanbidding, fabrieke, motorhuise en treinstasies"*.
+Die skrif noem elkeen behalwe **diereskuilings**, en my eerste deurgang het hierdie ry op
+strepievlak afgemerk sonder om die items te tel.
+
+**Dit is nie 'n gaping van dieselfde klas as jag en stadsboerdery nie**, want die woord
+**"soos"** maak die lys illustratief. KABV self onderskei: die kos-maniere-lys het geen
+"soos" nie, en die behoeftes-lys word gevolg deur *"Dit is nie nodig om al die
+bogenoemde behoeftes te dek nie."* 'n Skuur of kraal is nietemin goedkoop en natuurlik —
+een sinsnede by die plaasdeel, nie 'n eie blok nie.
+
+### Vyf KABV-notas wat bind en wat 'n beplanner maklik mis
+
+| Waar | Wat dit vra |
+|---|---|
+| Kw 1, les 2 | Werk moet **primêre, sekondêre én tersiêre** voorbeelde insluit — maar dié woorde word **nie** gebruik |
+| Kw 1, les 7 | Die stories moet **beide voldoende voorsiening én ondervoorsiening** wys |
+| Kw 1, les 5 | Kwartaal 1 se bakens is **'n eenvoudige inleiding, nie karteringsakkuraatheid nie** |
+| Kw 2, les 11 | Kwartaal 1 se **nedersettingsvoorbeelde moet hier hergebruik word** |
+| Kw 3, les 16 | Voedselgroepe en gebalanseerde dieet is **uitdruklik uitgesluit** — dis LV en NWT se werk |
+
+### Waar die video meer gee as KABV, en dit reg is
+
+Die Kaartwerk-skrif noem **vyf oseane**; KABV noem drie (*"Stille (Pasifiese),
+Atlantiese en Indiese"*). Dit is **geen teenstrydigheid nie** — die vyf-oseaan-model is
+die huidige een en KABV se lys is bloot korter. Die teks volg die video se vyf en sorg
+dat KABV se drie name almal daar is.
+
+### Wat ek nagegaan het en nie gerapporteer het nie
+
+Kwartaal 2 en Kwartaal 4 is item vir item volledig — al twintig benoemde items in
+Kwartaal 2 en al sestien in Kwartaal 4 is gedek. Die enigste sagte misse is **"boks"**
+in die planaansig-voorbeelde en **"potte"** in die waterbergingslys; albei staan agter
+'n *"soos"* en albei word deur 'n sibbe gedek.
