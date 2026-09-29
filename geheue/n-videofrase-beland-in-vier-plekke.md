@@ -61,3 +61,41 @@ And note which field keeps lagging: the spec's expected-glossary note has now be
 laggard three times, because its whole job is to restate scopes that live somewhere else.
 A field whose content is a copy will always lag. Related:
 [[n-spek-se-dieselfde-ding-in-twee-velde]], [[n-teruggetrekte-beslissing-bly-in-hoofletters-staan]].
+
+---
+
+**29 September 2026, second addendum: I put the error into the seam MYSELF, then
+corrected it everywhere except there.**
+
+The note above is about a wrong phrase arriving from a video and spreading. This is the
+same shape with the opposite origin, and it is worse, because the spreading was my doing.
+
+I widened a sentence — the names on a globe stand nowhere on the real Earth became *the
+names and borders* — and I wrote that widening into the seam's
+`wat_in_die_plek_daarvan`, the field that tells a writer what replaces a killed video
+claim. Hours later a fact check killed the widening: borders really are marked on the
+ground, and South Africa's own are. I withdrew it in the requirement item and **did not
+sweep the seam**.
+
+So the spec simultaneously forbade the widening in one field and **ordered it** in
+another. A coverage checker found it and made the point that settles how seriously to
+take this class: *the previous coverage report had cited that exact seam field as the
+live requirement, and approved the borders sentence against it.* The wrong field was
+already being used as the authority.
+
+**How to apply.**
+
+* **A seam entry is an ORDER, not a note.** `wat_in_die_plek_daarvan` tells the writer
+  what to write. When a ruling changes, that field is as binding as `kern` and has to
+  move with it — and it lives in `kaps/lesindeks/…videonate.json`, so the fix goes there
+  first and re-syncs, or it is overwritten.
+* **Sweep on what you WROTE, not only on what a checker named.** The fields I had edited
+  that day were the ones to re-read, and I re-read the one the finding pointed at.
+* **A correction's own reasoning can assert the refuted claim.** Two dated paragraphs
+  explained the fix by listing "coloured countries, borders and printed names, none of
+  which exists on the real Earth" — the very absolute that had just been contradicted,
+  sitting above the correction in a field read top to bottom. Reasoning needs the sweep
+  too.
+
+Related: [[die-korrigeerde-opdrag-bly-in-die-veld-staan]],
+[[n-waarskuwing-moet-elke-broer-dek]], [[n-teruggetrekte-beslissing-bly-in-hoofletters-staan]].
