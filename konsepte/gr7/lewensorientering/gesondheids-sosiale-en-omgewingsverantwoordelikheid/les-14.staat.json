@@ -1,10 +1,11 @@
 {
   "les": "gr7/lewensorientering/gesondheids-sosiale-en-omgewingsverantwoordelikheid/les-14",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:5dada1af6c0c638f83f04a2fb39518f4",
+  "konsep_hash": "sha256:5cdc970b95d0a8b8bbcb04754ab3af9b",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:cbee19ef924e2cfda5ca8dded859e9d2"
+    "sha256:cbee19ef924e2cfda5ca8dded859e9d2",
+    "sha256:5cdc970b95d0a8b8bbcb04754ab3af9b"
   ],
   "eskalasie": null,
   "blok_faalrondtes": {},
@@ -75,11 +76,45 @@
       "woorde": 557,
       "begroting": 560,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-29T06:16:05+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5cdc970b95d0a8b8bbcb04754ab3af9b",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-29T06:16:06+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 741,
+      "begroting": 560,
+      "failures": [
+        "Study text 741 words, above budget ceiling 644 (target 560) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-29T06:16:06+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text 741 words, above budget ceiling 644 (target 560) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-29T06:17:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 741,
+      "begroting": 700,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:b18180b9fe836ed3fe2229b0fba9cac6",
+  "spek_hash": "sha256:e6c21466059568218a4324c71d6f5070",
   "hek_konteks": {
     "graad": 7,
-    "begroting": 560
+    "begroting": 700
   }
 }
