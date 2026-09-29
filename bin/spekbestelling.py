@@ -19,6 +19,24 @@ Wat 'n skoon veld lyk soos
 Die bestelling staan heel, een keer, VOOR die merker. Die merker staan onderaan.
 Niks agter die merker lees soos 'n opdrag nie.
 
+
+WAT HIERDIE SKRIP NIE VANG NIE, en dit is die helfte wat meer gekos het
+----------------------------------------------------------------------
+Die SPIEeLBEELD: 'n bewoording wat BO bestel word en ONDER teruggetrek word. Les 3
+se kern[2] het bo-aan 'die appel se RONDHEID' bestel en 'n gedateerde nota onder
+het dit doodgemaak; 'n dekkingsnasiener het dit gevind, nie hierdie skrip nie.
+
+Ek het dit probeer bou en dit werk nie. Die rede is nie 'n gogga nie, dit is die
+taak: die rekord herhaal byna nooit die bestelling se woorde nie. Die bestelling
+se 'die appel se rondheid' en die rekord se ''n appel lyk soos 'n ronde bal' -
+dieselfde saak, geen gemeenskaplike string nie. Elke passing wat wyd genoeg was om
+dit te tref, het ook elke voorwerp getref wat toevallig in albei helftes voorkom.
+
+Dit is met opset NIE hier nie. 'n Toetser wat 'skoon' rapporteer sonder dat hy
+bewys is, is erger as geen toetser nie, want hy koop vertroue wat hy nie verdien
+nie. Die spieelbeeld bly 'n mens of 'n dekkingsnasiener se werk, en hulle vang
+dit - hierdie een het dit twee keer op een dag gevang.
+
 Gebruik
 -------
     python bin/spekbestelling.py                     # al die goedgekeurde spesifikasies
@@ -201,16 +219,16 @@ def main():
         gelees += 1
         kop = False
         for veldpad, teks in loop_velde(d):
-            bevele = keur_veld(teks)
+            bevele = [("verbied bo, bestel onder", f, s) for f, s in keur_veld(teks)]
             if not bevele:
                 continue
             if not kop:
                 print("\n%s" % pad)
                 kop = True
             print("  %s" % veldpad)
-            for frase, b in bevele:
+            for soort, frase, b in bevele:
                 gevind += 1
-                print("      verbied bo, bestel onder: '%s'" % frase)
+                print("      %s: '%s'" % (soort, frase))
                 print("      %s" % (b if len(b) <= 260 else b[:257] + "..."))
 
     print("\n%d spesifikasie(s) gelees." % gelees)
