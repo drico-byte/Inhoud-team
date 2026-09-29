@@ -221,7 +221,15 @@ def eis_profiel(vak, graad, sub, basis=None):
         # budget basis exists for, and the spec carries the budget instead. Refusing
         # here made every such sub-topic unrunnable — the first one to arrive could
         # not be written at all, though its spec was approved and validated.
-        if basis in ("vereistes", GEEN_SPEK):
+        # "kaps-ure" belongs here for the same reason as "vereistes": its budgets come
+        # from CAPS's hours and the subject rate, so a zero measurement is not merely
+        # tolerable, it is the expected value -- no textbook is profiled for such a
+        # subject at all. Added 29 September 2026 after all 37 Gr 6 Sosiale Wetenskappe
+        # lessons were refused here at once, with four approved and validated specs in
+        # place. The escape above, for a sub-topic missing from the config entirely, had
+        # already been taught the new basis; this one had not, and it is the one that
+        # fires when the config lists the sub-topic with a deliberate zero.
+        if basis in ("vereistes", "kaps-ure", GEEN_SPEK):
             # GEEN_SPEK: there is no approved spec at all yet, so the basis is not
             # merely unknown -- it is unknowable, and refusing here answers a question
             # nobody can act on. The step immediately below names the planner, which is
@@ -234,9 +242,9 @@ def eis_profiel(vak, graad, sub, basis=None):
         raise Refuse(
             f"profiler config {P.rel(pad)} records no word volume for '{sub}'",
             "If the book genuinely does not cover this sub-topic, that is a valid",
-            "answer and the spec's budget basis must be 'vereistes', which makes the",
-            "spec's own budgets the authority. This refusal is for a measurement that",
-            "is missing rather than zero.")
+            "answer and the spec's budget basis must be 'vereistes' or 'kaps-ure',",
+            "either of which makes the spec's own budgets the authority. This refusal",
+            "is for a measurement that is missing rather than zero.")
     return pad, cfg, vol
 
 
@@ -691,7 +699,7 @@ def stap(a, uit):
     uit.step("profiler config", "OK",
              [f"{P.rel(profiel_pad)}",
               (f"'{sub}': NOT measured in this config — 0 words. Budgets come from the spec "
-               f"under the 'vereistes' basis, and this config's name is NOT this "
+               f"under the '{basis}' basis, and this config's name is NOT this "
                f"sub-topic's budget provenance. Three writers in a row refused to record "
                f"it as such, correctly: a Kwartaal 3 config named in a Kwartaal 1 lesson's "
                f"herkoms would be a false record. Use what the spec's profiel_konfig says."

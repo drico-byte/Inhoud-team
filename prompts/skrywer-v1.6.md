@@ -29,7 +29,7 @@ obliges you to do. In short:
 | `aanvulling` | Cover each item, within about a quarter of the budget |
 | `moeilike_konsepte` | **Never an `eli10` block — abolished 23 September 2026.** Treat a flagged entry as a warning that this concept needs the plainest, most concrete wording your study text can carry. Handle every one of them in the study text. |
 | `termdig` | If `true`, expect five or six `begrip` entries rather than two — **and give each named item three to four sentences, not five.** The budget is being divided across many items; see below. |
-| `begroting` | Study-text word target. The gate fails outside ±15% — **unless the subject-grade overrides that, and Graad 4 Sosiale Wetenskappe does: there the budget is a HARD CEILING with no tolerance above it at all, and the floor is 62.5% of budget. A 400-word budget passes only between 250 and 400.** The gate says which rule it applied. |
+| `begroting` | Study-text word target. The gate fails outside ±15% — **unless the subject-grade overrides that, and two do.** (1) **Graad 4 Sosiale Wetenskappe:** the budget is a HARD CEILING with no tolerance above it at all, and the floor is 62.5% of budget. A 400-word budget passes only between 250 and 400. (2) **Any spec whose `begroting_basis` is `"kaps-ure"`** — Drico, 29 September 2026, and Graad 6 Sosiale Wetenskappe is the first: the ceiling is **budget + 12%**, and landing UNDER the budget only WARNS, it never fails. There is no absolute per-grade ceiling there at all, so a 200-word lesson and a 500-word one are both in order, and the budget is the planner's judged share of its CAPS cluster rather than an even division. The gate says which rule it applied. |
 | `fokusvraag_skakel` | The point of the lesson — make sure the content serves it |
 
 If a `kern` item is unclear or the budget looks impossible for the content listed,
@@ -162,6 +162,16 @@ write to about 85% of it**, so 340 against a 400-word budget. Not 95%: there is 
 above the budget there, and the corrections a fact check asks for almost always ADD words — a
 hedge, a condition, a qualifier. It is those additions, not the first draft, that push a
 lesson over. 85% leaves room for them and still sits far above the 62.5% floor.
+
+**Where the basis is `kaps-ure` — Graad 6 Sosiale Wetenskappe and everything budgeted from
+CAPS hours after it — write to about 95% of the budget.** The ceiling is budget + 12%, so
+there is room for a fact check's qualifier, and coming in under the budget only raises a
+flag for a person rather than failing. But note what the number means there: it is the
+planner's judged share of its CAPS cluster, chosen for what THIS lesson has to teach, so a
+budget of 200 is not a small version of a 500-word lesson — it is a lesson whose content is
+worth 200. **Do not pad toward it.** If a lesson sits at the 200-word floor, padding is
+exactly the failure the floor was written to prevent: filler becomes claims, and claims are
+where nearly every error in this pipeline has come from.
 
 Elsewhere, where the gate allows ±15%, write to about **95% of the budget**, for the same
 reason with more room.

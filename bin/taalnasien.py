@@ -162,6 +162,66 @@ def spek_beskermde_woorde(les_pad):
     return uit
 
 
+def besliste_omskrywings(les, vak, graad):
+    """Wordings the subject-grade's AGREED-WORDINGS file has settled.
+
+    Added 29 September 2026, because this tool never read that file -- the file
+    that is the authority on an agreed wording was not seen by the tool whose
+    whole job is stopping the outside language check from undoing one.
+
+    The two older paths both miss the case that matters. `gedeelde_verklarings`
+    finds a wording by seeing the SAME text in another lesson, so a term settled
+    for the whole subject but defined in only ONE lesson is invisible to it --
+    and that is the normal shape here: Gr 6 SW settled `ontdekkingsreisiger` for
+    the year, and exactly one lesson carries the glossary entry.
+    `voorgeskrewe_omskrywings` reads a spec's `verwagte_begrippe`, which
+    Sosiale Wetenskappe writes as a bare list of terms with no wordings at all.
+
+    So a ruling reached the checker only by luck. It also reached it with the
+    wrong reason -- "another lesson says the same" rather than "this was
+    decided" -- and a checker that understands why holds the line when a
+    sentence reads awkwardly.
+    """
+    myne = {b["term"]: b.get("teks", "")
+            for b in les.get("blokke", []) if b.get("tipe") == "begrip"}
+    if not myne or not vak or not graad:
+        return []
+    try:
+        import paaie as P                                    # noqa: E402
+        pad = P.gedeelde_omskrywings_pad(vak, graad)
+    except Exception:
+        return []
+    if not pad:
+        return []
+    try:
+        lys = lees_json(pad)
+    except Exception:
+        return []
+
+    uit = []
+    for term, inskrywing in (lys.get("terme") or {}).items():
+        if term not in myne or not isinstance(inskrywing, dict):
+            continue
+        teks = (inskrywing.get("omskrywing") or "").strip()
+        # Only where the lesson really carries it. Where it does not, the
+        # mismatch is a coverage problem and not something to tell a language
+        # checker about.
+        if not teks or myne[term].strip() != teks:
+            continue
+        # The files disagree about where the reasoning lives, because they were
+        # written months apart: Gr 5 Natuurwetenskappe uses `nota` and
+        # `beslis_deur`, Gr 6 Sosiale Wetenskappe uses `rede` and `let_op`.
+        # Reading only one shape silently drops the reason for a whole subject --
+        # and a checker that is given the wording without the reason is the one
+        # that "improves" it when a sentence reads awkwardly.
+        rede = (inskrywing.get("rede") or inskrywing.get("nota") or "").strip()
+        deur = (inskrywing.get("beslis_deur") or "").strip()
+        if deur and deur.lower() not in rede.lower():
+            rede = (f"{rede} Beslis deur {deur}." if rede else f"Beslis deur {deur}.")
+        uit.append((term, teks, rede, (inskrywing.get("let_op") or "").strip()))
+    return sorted(uit)
+
+
 def voorgeskrewe_omskrywings(les):
     """Wordings an approved spec prescribes for a term this lesson defines.
 
@@ -199,7 +259,23 @@ def voorgeskrewe_omskrywings(les):
                 for term, teks in (vb.get("voorgeskrewe_omskrywings") or {}).items():
                     # A placeholder rather than a wording: some entries say the
                     # definition may only be written once a verification passes.
-                    if term in myne and teks.strip().endswith(".") and len(teks.split()) <= 20:
+                    #
+                    # THE LENGTH LIMIT IS GONE, 29 September 2026. It used to require
+                    # 20 words or fewer, as a proxy for "this is a real wording and not
+                    # a note" -- and it silently dropped every agreed wording longer
+                    # than a short sentence, in every subject, with no sign that
+                    # anything had been skipped. A planner found it while checking
+                    # whether Gr 6 SW's `ontdekkingsreisiger` wording (25 words) would
+                    # actually be protected. It would not have been, and that wording
+                    # is exactly the kind at risk: "plekke wat sy eie mense nog nie ken
+                    # nie" reads like something to smooth into "nuwe plekke", which is
+                    # the error the wording was written to prevent. The language check
+                    # runs after the fact check and nothing re-checks it.
+                    #
+                    # The proxy was never needed: the return below already requires the
+                    # LESSON's own definition to equal the prescribed wording character
+                    # for character, and no placeholder ever does that.
+                    if term in myne and teks.strip().endswith("."):
                         uit.setdefault(term, set()).add(teks)
 
     # Only worth printing where the lesson really carries that wording, and only
@@ -253,10 +329,18 @@ def bou(les_pad):
         woorde.append(w)
     gedeel = gedeelde_verklarings(les, les_pad)
     gedeel_terme = {t for t, _, _ in gedeel}
+    # A settled wording leads, because it is the strongest reason there is: it was
+    # decided, and the reason is recorded. It also suppresses the two weaker paths
+    # for the same term, so a checker is never shown one wording under two
+    # different justifications and left to guess which is the real one.
+    beslis = besliste_omskrywings(les, les.get("vak"), les.get("graad"))
+    beslis_terme = {t for t, _, _, _ in beslis}
+    gedeel = [(t, teks, waar) for t, teks, waar in gedeel if t not in beslis_terme]
+    gedeel_terme -= beslis_terme
     voorgeskryf = [(t, teks) for t, teks in voorgeskrewe_omskrywings(les)
-                   if t not in gedeel_terme]
+                   if t not in gedeel_terme and t not in beslis_terme]
 
-    if woorde or gedeel or voorgeskryf:
+    if woorde or beslis or gedeel or voorgeskryf:
         reels.append("")
         reels.append("BESKERM - moenie hierdie verander nie")
         reels.append("-" * 72)
@@ -268,6 +352,18 @@ def bou(les_pad):
         if nie:
             reels.append(f"  NIE:  {nie}")
         reels.append(f"  Waarom: {w.get('rede') or ''}")
+
+    for term, teks, rede, let_op in beslis:
+        reels.append("")
+        reels.append(f'  HOU WOORD VIR WOORD:  {term} - "{teks}"')
+        reels.append("  Waarom: hierdie bewoording is vir die HELE vak-graad BESLIS en in "
+                     "kaps/gedeelde-omskrywings vasgele. Elke les wat die term omskryf, gebruik "
+                     "hierdie woorde. 'n Verbetering aan een les skep 'n tweede omskrywing van "
+                     "een woord binne een jaar, en die eksamen dek die hele jaar.")
+        if rede:
+            reels.append(f"  Die besluit: {rede}")
+        if let_op:
+            reels.append(f"  Let op: {let_op}")
 
     for term, teks, waar in gedeel:
         reels.append("")
