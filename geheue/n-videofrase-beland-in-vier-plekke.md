@@ -57,7 +57,7 @@ A coverage checker found one of the two. Sweeping on the wording found both. So 
 reversal, run two sweeps: one for the ruling's own words, and one for the **text of the
 thing withdrawn**.
 
-And note which field keeps lagging:  has now been the laggard
-three times, because its whole job is to restate scopes that live somewhere else. A field
-whose content is a copy will always lag. Related:
+And note which field keeps lagging: the spec's expected-glossary note has now been the
+laggard three times, because its whole job is to restate scopes that live somewhere else.
+A field whose content is a copy will always lag. Related:
 [[n-spek-se-dieselfde-ding-in-twee-velde]], [[n-teruggetrekte-beslissing-bly-in-hoofletters-staan]].
