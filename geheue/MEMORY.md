@@ -116,4 +116,5 @@
 - [The reading copy sent out our internal notes](die-leeskopie-het-ons-interne-notas-uitgestuur.md) — approved lessons carried the review appendix to the language checker and the HTML team; 56 PDFs still have it.
 - [Three PCs work in parallel](drie-rekenaars-werk-parallel.md) — open lessons outside my subject are probably someone else's; report what is left in MY work, and a repo-wide sweep reaches into their files.
 - [Gr 4 Geography: the rulings](gr4-geografie-besluite.md) — 30 lessons, 400 words, videos already made; hunting and urban farming carried briefly by our text; map-skills lesson 1 may run light.
+- [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks exactly like an item-level one; and CAPS marks a binding list by leaving out the word soos.
 

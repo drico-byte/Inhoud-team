@@ -38,3 +38,49 @@ works, sewage recycling, the return to the sea).
 
 One for the language check: the farming script spells *bestaansboerdery* as
 **"bestaanboerdery"** once.
+
+---
+
+**Second CAPS pass, 29 September 2026 — item by item, and it changed two things.**
+
+The first pass tested CAPS bullets against the scripts. The second tested **every lesson
+back to CAPS** and **every named item inside a bullet**. The two mandatory gaps above
+stand; there is no third. But:
+
+**Two lessons would have been failed as supplement, and both are core.** Farming lesson 6
+(drought, hail, pests, exhausted soil, sustainable farming, food waste) and map-skills
+lesson 1 sit in **no CAPS content bullet**. Against the content table alone the first is
+100% supplement against a 25% cap. Every CAPS topic page ends by requiring the content to
+be integrated with **the geographical aims and skills of section 2.5**, which names
+*"interafhanklikheid: die skakels tussen die klimaat, plantegroei, wildlewe, verspreiding
+van hulpbronne, en die menslike nedersetting en aktiwiteit"* among the things Geography
+studies, and wants learners who *"omgee vir hul planeet"*. That is farming lesson 6
+exactly. Same shape as the History Kwartaal 1 case in
+[[die-onderwyser-weet-wat-buite-kaps-saak-maak]] — and this time I nearly made the error
+the standard already warns about.
+
+**A word that is genuinely wrong.** The settlements script calls a village a
+**"buitedorp"**, which in Afrikaans is a *suburb* — part of a city, and not one of the
+four settlement types. CAPS says **boeredorpie**, twice, and Kwartaal 2 explicitly reuses
+Kwartaal 1's settlement names on maps, so the wrong word would have travelled. Our text
+uses *dorpie* or *boeredorpie*; the video itself offers "klein dorpie", so we route around
+rather than correct.
+
+**CAPS distinguishes closed lists from illustrative ones, and so must we.** The five ways
+of getting food have **no "soos"** — closed, binding, hence the hunting ruling. The
+buildings list *does* have "soos", so **diereskuilings**, which the script omits, is an
+example and not a gap of the same class. Worth one clause, not a ruling.
+
+**Eleven claims the text must route around**, recorded per lesson in
+`kaps/lesindeks/gr4-sw-geografie-videonate.json`. The three that matter: the farming
+script says fresh water contains **no** salt (it contains a little, and Kwartaal 4 builds
+a lesson on the distinction); the water script uses **reservoir** for both an underground
+aquifer and a built storage tank inside one sub-topic; and it attributes **hail to very
+cold areas** when hail comes from thunderstorms and is common in warm ones — the farming
+script gets it right.
+
+**Sixteen cross-sub-topic terms** now sit in the shared wordings file with their **scope
+settled and wording deliberately open**, which is the process — History's nine were
+settled from the drafts afterwards. Four are decisions rather than reconciliations:
+*varswater*, *reservoir*, *veeboerdery* (over "veeteelt") and *planaansig* (over
+"bo-aansig"). See [[twee-beplanners-albei-plaaslik-reg]].
