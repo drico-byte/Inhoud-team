@@ -188,3 +188,29 @@ mechanism. The steamship lesson had the corrected internally-fired picture and t
 named exactly one early ship — Fulton's 1807 boat, which was externally fired and
 burned wood. Every sentence true, and the picture a child builds false. See
 [[elke-sin-waar-die-prentjie-vals]].
+
+---
+
+**29 September 2026: the fix landed on the wrong half of the sentence.**
+
+A fact check found a village food sentence carrying no quantifier while its three
+siblings each carried one. I described the fault and asked for a quantifier. The writer
+attached it correctly — and the result, *"they buy MOST of their food at a few small
+shops"*, was false in a way the original had not been.
+
+The original was vague about two things at once: how much, and where. Adding the
+quantifier fixed the first and **sharpened the second into a claim**. Rural South African
+households do buy most of their food, but they buy the bulk on a monthly trip to a
+supermarket in the nearest town, where staples cost markedly less; the village shops
+carry bread, milk, soap and the buying in between. A strengthened "most" pinned the
+falsehood down where the loose sentence had only gestured at it.
+
+**How to apply.** When a correction adds precision to a sentence, ask which clause the
+precision attaches to. A quantifier, a date, a number or a named example makes the
+*whole* sentence more assertive, not only the part that was faulty — so a neighbouring
+clause that was merely vague becomes a claim someone can check. Before asking for the
+fix, look at what else is in the sentence and say which part is meant to stay loose.
+
+Related: [[n-versagting-vat-die-algemene-helfte-saam]] (the mirror: a softening takes the
+general half with it), [[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]],
+[[toets-n-parallelle-stel-as-n-stel]].
