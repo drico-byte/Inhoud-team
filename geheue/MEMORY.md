@@ -126,3 +126,4 @@
 - [A pointer names, never ranks](n-wyser-benoem-nooit-rangskik.md) — name the item by its content.
 - [A description ages, a requirement does not](n-beskrywing-verouder-n-vereiste-nie.md) — write what must be true, never what the draft currently says.
 - [A later check is not a newer source](n-later-nasien-is-nie-n-nuwer-bron.md) — date the SOURCE, and treat a settled record that names the trap as evidence.
+- [Two requirements that are only false together](twee-vereistes-wat-net-saam-vals-is.md) — no sweep finds it; fix the axis the definition is drawn on, not either half.
