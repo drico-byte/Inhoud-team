@@ -45,6 +45,8 @@ MERKERS = ("REKORD, NIE BESTELLING NIE", "REGGEMAAK", "TERUGGETREK", "BYGEVOEG",
 
 # Werkwoorde wat 'n aanhaling inlui: die sin HAAL 'n ou bestelling aan eerder as
 # om hom te gee. 'n Rekord mag - en moet dikwels - die ou bewoording aanhaal.
+WERKWOORDE = ("SKRYF", "GEBRUIK", "NOEM", "NEEM", "DRA", "HOU", "BLY", "MOENIE")
+
 AANHALING = (
     "het gese", "het bestel", "het geskryf", "het gevra", "het beveel", "het gelui",
     "tot vandag", "hierdie item het", "hierdie veld het", "hierdie sin het",
@@ -106,6 +108,26 @@ def eerste_merker(teks):
     return min(treffers) if treffers else -1
 
 
+def is_bevel(sin):
+    """Lees hierdie sin soos 'n OPDRAG, of soos 'n mededeling?
+
+    'Skryf dit soos die video dit se' is 'n opdrag. 'Afrikaanse Wikipedia se
+    kartografie-artikel gebruik landkaarte as 'n algemene woord' is 'n
+    mededeling met dieselfde werkwoord in die derde persoon, en die eerste
+    weergawe van hierdie skrip het albei gevang.
+
+    Twee vorme tel as 'n opdrag, en albei is hoe hierdie repository werklik
+    bestel: die werkwoord begin die sin, of hy staan in HOOFLETTERS.
+    """
+    kaal = sin.strip()
+    for w in WERKWOORDE:
+        if kaal.upper().startswith(w):
+            return True
+        if w in kaal:            # hoofletters presies soos die repo bestel
+            return True
+    return False
+
+
 def keur_veld(teks):
     """Vind 'n bewoording wat VOOR die merker verbied word en AGTER hom bestel word.
 
@@ -137,8 +159,7 @@ def keur_veld(teks):
         laag = sin.lower()
         if any(a in laag for a in AANHALING):
             continue                      # dit haal aan, dit beveel nie
-        if not any(sin.upper().startswith(b) or (" " + b) in sin.upper()
-                   for b in ("SKRYF", "GEBRUIK", "NOEM", "NEEM", "DRA ", "HOU ", "BLY ")):
+        if not is_bevel(sin):
             continue
         # Die bevel wys dikwels met 'n VOORNAAMWOORD terug na die frase in die sin
         # voor hom: "...die vae 'effens anders'. Skryf DIT soos die video dit se."
