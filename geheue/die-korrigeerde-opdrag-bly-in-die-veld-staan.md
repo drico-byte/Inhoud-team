@@ -229,3 +229,32 @@ quotation; assert the replacement count is exactly one; and when a field has thr
 layers, rewrite it and reduce the sibling that duplicated it to a record that says it
 orders nothing. See [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]], which predicted this
 exactly and which I read after doing it.
+
+## A "what now applies" clause is an order, and it ages like one
+
+29 September 2026, still the same day. The retraction device I retired above had a second
+half I had thought was safe: the clause inside the bracket that says **WAT GELD** — what
+applies now. It reads like part of the record, so I never swept it.
+
+It is not part of the record. It is the live requirement, in the only place a reviser will
+look, and it goes stale exactly like any other order. A fact check narrowed a claim about
+school programmes twice: first from "reduces use" to "belongs with the chance-reducers", and
+later — from a Cochrane review of 51 studies — to "only when it also teaches the broader life
+skills, and the difference is small". The first narrowing lived in three WAT GELD clauses I
+had written. The second never reached them, so three of my own markers went on ordering a
+form a later check had overtaken. A writer found all three and told me.
+
+**So the sweep has to include the insides of markers.** When a claim is narrowed, grep for
+the claim across the whole spec *including* every bracket, note and record, and ask of each
+hit: is this describing what was wrong, or stating what is required? The second kind is an
+order wherever it sits.
+
+**And the corollary for writing them:** a WAT GELD clause should carry the claim's date, so
+that a later reader can see whether it predates the newest finding. A clause without a date
+loses under this repository's own precedence rule, and mine had none.
+
+Same day, same field family: a marker can also withdraw **too much**. One of mine ended "and
+not its opening line either", where the retraction covered a single wording and the opening
+line carried a live coverage order — so a next revision could have deleted a required
+distinction and cited the spec for it. See [[die-merker-begrawe-die-bestelling]]. Scope the
+marker to the wording it retracts, never to the field.
