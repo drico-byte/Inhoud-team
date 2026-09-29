@@ -30,3 +30,25 @@ And when a writer or checker reports a stale requirement, **read the field befor
 it is roughly even odds the report is about my own record. See
 [[die-korrigeerde-opdrag-bly-in-die-veld-staan]], [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]],
 [[n-teruggetrekte-beslissing-bly-in-hoofletters-staan]].
+
+## The version I keep committing: the quotation is in MY OWN explanation of the fix
+
+29 September 2026. Four times in one day my absence check failed on text I had just
+written myself — not on an old record, but on the note explaining the correction. I
+would replace a bad sentence and then write "this sentence used to say X", with X
+spelled out. The check then reports the claim as still present, I go looking for a
+second occurrence that does not exist, and the round costs an extra pass. Once the
+quoted word was the exact word that causes the damage: a budget note said the ceiling
+was roomy, I removed it everywhere, and my own explanation of the removal used it
+again in the one clause a reviser trusts.
+
+**How to apply.** Write the explanation without the old words at all: "the half that
+said the case therefore does not stop at the teacher", "the word that said there was
+room to spare". Say in the note that the wording is deliberately not repeated, so the
+next reader does not restore it as a courtesy. And when an absence check fails, look
+first at whether the hit is in the correction you just wrote — that has been the
+answer more often than a missed second occurrence.
+
+A related habit worth keeping: where a field has collected three or more patches,
+rewrite the field whole instead of adding a fourth. Patching around a removed phrase
+is what left one field with a sentence that had no verb.
