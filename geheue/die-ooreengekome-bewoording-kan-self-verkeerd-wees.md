@@ -75,3 +75,44 @@ Related: [[n-regstelde-fout-kom-in-n-ander-gedaante-terug]] (the size fault came
 as the cylinder's length while this was going on), [[n-begrip-word-alleen-gelees]],
 [[die-verwysingsles-word-nooit-nagegaan]] — the rejected wording was sitting in the
 reference example being modelled as correct, which is probably where the drift began.
+
+## Three of my own settled wordings were refuted, and one reason was the fault
+
+Gr 6 Social Sciences, 29 September 2026. I settled the shared wordings myself that day
+and sent the whole drifting set to fact checks. **Three of my own were wrong**, and the
+pattern is different from the `ketel` and `tempel` cases, which came from writers:
+
+1. **`woestyn`** — I wrote "a place where very little RAIN falls". Antarctica is the
+   largest desert and what falls there is snow. The spec's own core item said "rain or
+   snow" and was righter than the list I was building.
+2. **`halfrond`** — "one of the two equal halves into which A LINE divides the earth". I
+   chose *a line* deliberately, so the equator would not be the only divider. Read alone
+   it says *one* line divides the earth, and the lesson's own block exists to say **two
+   lines, not one**. The dividing thing is a full circle; the equator is one circle on
+   its own, the east-west circle takes two lines.
+3. **`provinsie`** — "one of the nine parts South Africa is divided into". Read alone it
+   defines only a *South African* province (Canada has ten, China has provinces), and it
+   never says a province is a region **with its own government**.
+
+**The new thing, and the one worth remembering:** for `provinsie` I had *written down*
+that the entry says nothing about a provincial government **"met opset"** — on the
+grounds that government is History's territory. That recorded justification was the
+fault. The government is what the word **means**; it is not extra content. So when I
+defend an omission in a `rede` field, that defence is the first place to look when the
+wording is later questioned — it marks the exact spot where I decided something was
+out of scope, and a definition's discriminator is the thing most likely to look like
+scope creep.
+
+**Also new:** there was no way to mark a term as *withdrawn*. Every entry in the file
+carried a wording, and only `terme` is injected into extracts — so a refuted wording
+would have been handed to the next writer as settled. The file now has
+`terme_in_hersiening`, which keeps the old wording so nobody re-picks it and is **not**
+injected. A withdrawn term is not the same as an undecided one: it had a wording that
+proved false.
+
+**And the sequencing held up.** Ten of twenty-eight drifting terms had *no* sound
+candidate at all. Had I reconciled first and checked later, I would have settled on a
+falsehood ten times. Check the candidates **before** choosing, not the winner after.
+
+Related: [[moenie-self-inhoud-skryf-nie]] — the wordings that survived were ones a
+writer had already written and I only chose between; the three that failed were mine.

@@ -1,0 +1,167 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Hoe ver is dit regtig van hier na daar",
+  "kaps_punt": "Skale: Meet reguitlyn-afstande tussen stede op 'n Suid-Afrikaanse en die wêreldkaart",
+  "verdict": "HERSIEN",
+  "items": [
+    {
+      "bewering": "Die pad uit jou dorp draai om koppies en volg die rivier.",
+      "blok": "Die pad draai en die reguit lyn nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Paaie wyk van die reguit lyn af om die terrein te volg, en dit is presies waarom netwerkafstand groter is as reguitlyn-afstand: die gemiddelde 'detour index' in Europa is 1,343 en in stede omtrent 1,41 (journals.sagepub.com/doi/10.1177/23998083231168870; link.springer.com/article/10.1007/s11067-018-9439-5). LET WEL vir die menslike leser: die sin dra geen kwantifiseerder nie en is 'n toneel eerder as 'n bewering - baie Suid-Afrikaanse dorpe (Vrystaat, Noord-Kaap) het kersreguit uitpaaie en geen rivier nie. Niks in die les hang daarvan af nie, en die gevolgtrekking (die pad is langer as die reguit lyn) bly geld ook waar 'n pad net êrens buig."
+    },
+    {
+      "bewering": "'n Voël hoef nie een van daardie draaie te maak nie.",
+      "blok": "Die pad draai en die reguit lyn nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "'n Vlieënde voël is nie aan die padnetwerk gebonde nie; dit is die gewone grondslag van die 'as the crow flies'-begrip vir Euklidiese afstand (en.wikipedia.org/wiki/As_the_crow_flies; die detour-index-literatuur hierbo noem die reguitlyn-afstand self 'as-the-crow-flies distance')."
+    },
+    {
+      "bewering": "Hy vlieg reguit van die een dorp tot by die ander.",
+      "blok": "Die pad draai en die reguit lyn nie",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "AFBEELDING NAGEGAAN, nie net die stelling nie. Die vergelyking karteer presies op wat die les moet leer - 'n pad tussen twee punte teenoor die reguit lyn tussen dieselfde twee punte - en dit is die konvensie waarop die hele begrip 'reguitlyn-afstand' in die literatuur rus (en.wikipedia.org/wiki/As_the_crow_flies). 'n Leerder wat verder redeneer, kom by 'die kortste afstand tussen twee dorpe is die lyn waarlangs 'n voël sou vlieg', wat korrek is. LET WEL: as bewering oor werklike voëls is dit los - BBC Science Focus (sciencefocus.com/nature/do-crows-actually-fly-in-a-straight-line) sê kraaie 'do not fly in especially straight lines', en Current Biology se werk oor posduiwe (pubmed.ncbi.nlm.nih.gov/15268853) wys dat hulle snelweë volg en selfs afritte leer. Die les se 'hoef nie... nie' stel die reguit vlug egter as wat die voël VRY is om te doen, nie as voëlgedrag nie, dus lei die beeld nie 'n graad 6-leerder oor afstand weg nie."
+    },
+    {
+      "bewering": "Die afstand langs daardie reguit lyn is die reguitlyn-afstand tussen die twee plekke.",
+      "blok": "Die pad draai en die reguit lyn nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Stem ooreen met die standaarddefinisie van Euklidiese of 'as-the-crow-flies'-afstand teenoor netwerkafstand (link.springer.com/article/10.1007/s11067-018-9439-5; researchgate.net, 'Example of a detour index calculation')."
+    },
+    {
+      "bewering": "Elke draai in 'n pad sit nog 'n stukkie by die reis.",
+      "blok": "Die pad draai en die reguit lyn nie",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Nagegaan as 'n universele stelling en dit hou: enige afwyking van die reguit lyn verleng die pad (driehoeksongelykheid), wat is hoekom die 'circuity'/detour index per definisie nooit onder 1 val nie (journals.sagepub.com/doi/10.1177/23998083231168870; arxiv.org/pdf/2302.06972)."
+    },
+    {
+      "bewering": "Die pad is daarom nooit korter as die reguit lyn nie.",
+      "blok": "Die pad draai en die reguit lyn nie",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "journals.sagepub.com/doi/10.1177/23998083231168870 en arxiv.org/pdf/2302.06972: 'The detour index is always greater than or equal to 1 by definition' - die netwerkafstand is altyd groter as of gelyk aan die Euklidiese afstand. Die 'nooit' is dus wiskundig veilig, ook vir 'n pad deur 'n tonnel, waarvan die horisontale projeksie steeds nie korter as die reguit lyn kan wees nie."
+    },
+    {
+      "bewering": "Soek Kaapstad en Johannesburg op 'n kaart van Suid-Afrika en merk elkeen met 'n potlood. Lê nou die reguit rand van jou lineaal teen albei daardie punte. Lees af hoeveel sentimeter die lyn tussen die twee punte lank is.",
+      "blok": "Merk die twee stede en meet",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dit is die standaardmetode: 'lay a straight-edged piece of paper on the map so that the edge of the paper touches both points and extends past them' (US Army FM 3-25.26, hoofstuk 5, globalsecurity.org/military/library/policy/army/fm/3-25-26/ch5.htm), en met 'n lineaal word die kaartafstand direk in sentimeter gelees voordat dit met die skaal omgeskakel word (home.csulb.edu/~rodrigue/geog140/lectures/scale.html)."
+    },
+    {
+      "bewering": "Sonder 'n lineaal werk die reguit rand van 'n papiertjie net so goed.",
+      "blok": "Merk die twee stede en meet",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "regstelling": "Die bewering moet die voorwaarde dra waaronder dit waar is: 'n papierrand vervang die lineaal wanneer die kaart 'n LYNSKAAL het, want dan word die twee strepies teen die lynskaal gehou en die kilometers direk afgelees. Vir die stap wat die sin hier volg - hoeveel sentimeter die lyn lank is, om dan met die woordskaal te maal - is 'n gemerkte lineaal (of 'n ander gegradueerde rand) wel nodig.",
+      "bron": "'n Skoon papierrand dra geen merke nie en kan dus nie 'n sentimeterlesing gee nie, en dit is juis 'n sentimeterlesing wat die voorafgaande sin vra ('Lees af hoeveel sentimeter die lyn... lank is'). In die standaardmetode word die papierstrook nooit in sentimeter gelees nie: 'move the paper down to the graphic bar scale, and align the right tick mark with a printed number in the primary scale' (US Army FM 3-25.26, hoofstuk 5, globalsecurity.org/military/library/policy/army/fm/3-25-26/ch5.htm - die bron sê uitdruklik dat geen meetinstrument buiten die papier en die kaart se skaalbalk nodig is). Die les gee daardie stap wel, maar eers aan die einde van die volgende blok en net vir 'n lynskaal, terwyl die uitgewerkte voorbeeld self op die WOORDskaal loop en sentimeter nodig het. Soos die sin staan, sê hy 'net so goed' vir 'n stap waarvoor 'n papierrand nie werk nie."
+    },
+    {
+      "bewering": "Merk die twee stede se plekke met twee strepies op daardie rand.",
+      "blok": "Merk die twee stede en meet",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "US Army FM 3-25.26, hoofstuk 5 (globalsecurity.org/military/library/policy/army/fm/3-25-26/ch5.htm): 'Make a tick mark on the edge of the paper at each point.'"
+    },
+    {
+      "bewering": "Daardie getal op jou lineaal sê nog niks oor die aarde self nie. Die kaart se skaal maak daarvan die regte kilometers op die aarde.",
+      "blok": "Van sentimeter na kilometer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dit is die funksie van skaal: 'the relationship or ratio between the distance on a map and the corresponding distance on the ground' (geographyrealm.com/understanding-scale; education.nationalgeographic.org/resource/map-scale; home.csulb.edu/~rodrigue/geog140/lectures/scale.html)."
+    },
+    {
+      "bewering": "Op hierdie kaart sê die woordskaal dat een sentimeter 250 kilometer voorstel.",
+      "blok": "Van sentimeter na kilometer",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Geldige woordskaal (gelyk aan 1:25 000 000) en die sin bind dit uitdruklik aan 'hierdie kaart', dus is dit 'n stelling oor die les se eie kaart en nie oor kaarte in die algemeen nie. WAARNEMING VIR 'N MENS, nie 'n fout nie: teen 1 cm = 250 km is Suid-Afrika self net omtrent 6 cm breed (die land strek omtrent 1 580 km oos-wes, van 16,45 grade O tot 32,9 grade O) en lê Kaapstad en Johannesburg 5 cm van mekaar. 'n Leerder wat op 'n gewone atlasbladsy se kaart van Suid-Afrika meet, kry eerder 13 tot 16 cm en 'n heel ander skaal. Die metode en die antwoord bly reg, maar die kaart wat saam met die les gewys word, moet by hierdie getalle pas, anders klop die uitgewerkte voorbeeld nie met wat die leerder voor hom het nie."
+    },
+    {
+      "bewering": "Jy het vyf sentimeter gemeet, dus maal jy vyf met 250. Jou antwoord is dan omtrent 1 250 kilometer van Kaapstad tot by Johannesburg.",
+      "blok": "Van sentimeter na kilometer",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Rekenkundig korrek (5 x 250 = 1 250) en die antwoord stem met die werklikheid: die reguitlyn-afstand Kaapstad-Johannesburg is omtrent 1 262 km (distance.to/Cape-Town/Johannesburg; africamap.net/distance/cape-town-to-johannesburg; travelmath.com). Self nagegaan met die haversine-formule op die twee stede se koördinate (-33,92/18,42 en -26,20/28,05): 1 263 km. 'Omtrent 1 250' is dus binne omtrent 1% van die werklike syfer."
+    },
+    {
+      "bewering": "Langs die pad is dieselfde reis omtrent 1 400 kilometer, dus is die reguit lyn korter.",
+      "blok": "Van sentimeter na kilometer",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "distance.to/Cape-Town/Johannesburg: 'the shortest route between Cape-Town and Johannesburg is 868.96 mi (1 398.46 km)'; ander bronne gee 1 400 tot 1 413 km na gelang van die presiese begin- en eindpunte in elke stad, langs die N1 (pineapple.co.za; lazytrips.com). Die vergelyking hou ook: 1 250 km is korter as 1 400 km, en die verhouding 1 400/1 262 = 1,11 lê binne die gewone 'detour index'-band vir langafstand-snelweë (journals.sagepub.com/doi/10.1177/23998083231168870)."
+    },
+    {
+      "bewering": "Met 'n lynskaal hou jy die papiertjie se strepies daarteen en lees die kilometers sommer af.",
+      "blok": "Van sentimeter na kilometer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "US Army FM 3-25.26, hoofstuk 5 (globalsecurity.org/military/library/policy/army/fm/3-25-26/ch5.htm): 'move the paper down to the graphic bar scale, and align the right tick mark... with a printed number in the primary scale'; ook home.csulb.edu/~rodrigue/geog140/lectures/scale.html - die lynskaal vereis geen berekening nie."
+    },
+    {
+      "bewering": "Doen nou dieselfde met Kaapstad en Londen op 'n kaart van die wêreld. Merk die twee stede, meet die lyn en lees die kilometers met die skaal af. Daardie antwoord is net 'n skatting en nie 'n presiese getal nie.",
+      "blok": "Nou op die kaart van die wêreld",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die voorbehoud is korrek en nodig: 'a scale bar (or ratio, or statement in words) placed on a map covering large regions or countries may only be correct for one line on the map' (docs.os.uk/.../guide-to-cartography/scale), en by kontinentale of wêreldskaal word 'n enkele skaalbalk gewoonlik weggelaat of van 'n voorbehoud voorsien (esri.com/arcgis-blog/.../back-to-the-issue-of-scale-bars; exprodat.com/blog/when-scale-bars-dont-scale). Vir die menslike leser, sodat die grootte van die 'skatting' bekend is: die werklike grootsirkelafstand Kaapstad-Londen is omtrent 9 640 tot 9 670 km (travelmath.com; airmilescalculator.com), terwyl 'n reguit meting op 'n Mercator-wêreldkaart met die ekwator se skaal omtrent 10 900 km gee - sowat 13% te veel. 'Net 'n skatting' is dus eerlik, maar die afwyking kan groot wees."
+    },
+    {
+      "bewering": "Die aarde is 'n bal en 'n blad papier is nie.",
+      "blok": "Nou op die kaart van die wêreld",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die aarde is 'n effe plat bol (oblate spheroid): ekwatoriale deursnee omtrent 12 756 km teenoor 'n pooldeursnee van omtrent 12 714 km, dus 'n platheid van sowat 0,335% (gisgeography.com/ellipsoid-oblate-spheroid-earth; en.wikipedia.org/wiki/Earth_ellipsoid). Op hierdie vlak is 'bal' akkuraat, en die verskil in vorm tussen 'n bol en 'n plat blad is die punt wat die sin maak."
+    },
+    {
+      "bewering": "'n Plat kaart van die hele wêreld rek party dele van die aarde uit.",
+      "blok": "Nou op die kaart van die wêreld",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Gauss se Theorema Egregium: 'it is impossible to represent a sphere on a plane without some degree of distortion' (en.wikipedia.org/wiki/Theorema_Egregium; tomrocksmaths.com/2021/07/21/maps-and-projections). Op Mercator word afstande en oppervlaktes al hoe erger vervorm na die pole toe (en.wikipedia.org/wiki/Mercator_projection; usgs.gov/faqs/how-are-different-map-projections-used). 'Party dele' is ook die presiese woord: die vervorming val nie orals dieselfde uit nie."
+    },
+    {
+      "bewering": "Op 'n kaart van net Suid-Afrika is die rek klein genoeg dat jou antwoord bruikbaar bly.",
+      "blok": "Nou op die kaart van die wêreld",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "'Scale bars are most appropriate for maps with a smaller extent at a large scale... because distortion across the map is minimal enough that a scale bar can be used to measure distances with acceptable accuracy', teenoor kontinentale en wêreldkaarte waar 'n enkele skaalbalk nie meer geldig is nie (docs.os.uk/.../guide-to-cartography/scale; esri.com/arcgis-blog/.../back-to-the-issue-of-scale-bars). Oor 'n land se omvang hou 'n keëlprojeksie met twee standaardparallelle die skaalfout laag - in die orde van 1 tot 2% of minder (gisgeography.com/conic-projection-lambert-albers-polyconic; desktop.arcgis.com/.../lambert-conformal-conic). LET WEL: Ordnance Survey sê ook van 'n LANDkaart dat 'n enkele skaal streng gesproke net langs een lyn reg is, dus bly die antwoord 'n skatting - wat die les se 'omtrent' toelaat."
+    },
+    {
+      "bewering": "Hierdie metode werk op enige kaart met 'n skaal daarop.",
+      "blok": "Wat jy nou self kan uitwerk",
+      "status": "weerspreek",
+      "tipe": "superlatief",
+      "regstelling": "Vernou die kwantifiseerder eerder as die onderwerp: die metode werk op 'n kaart van 'n kleiner gebied, soos 'n kaart van Suid-Afrika, waar die antwoord bruikbaar bly, en op 'n kaart van die hele wêreld gee dit net 'n growwe skatting - wat die les twee sinne vroeër self sê. Die slotblok moet nie die voorbehoud van die vorige blok terugneem nie.",
+      "bron": "Die 'enige' word weerspreek deur presies die geval wat die vorige blok beskryf. Op 'n wêreldkaart is 'n enkele skaal net langs bepaalde lyne geldig - 'a scale bar... placed on a map covering large regions or countries may only be correct for one line on the map' (docs.os.uk/.../guide-to-cartography/scale) - en die aanbeveling is dat sulke kaarte se skaalbalke weggelaat of van 'n voorbehoud voorsien word, of dat 'n veranderlike skaalbalk gebruik word (esri.com/arcgis-blog/.../back-to-the-issue-of-scale-bars; exprodat.com/blog/when-scale-bars-dont-scale). Grootte van die fout: Kaapstad-Londen reguit op 'n Mercator-wêreldkaart gemeet gee omtrent 10 900 km teen 'n werklike 9 670 km (travelmath.com vir die grootsirkelafstand), sowat 13% uit, en vir twee plekke naby die pole is dit baie erger. Die les self het dit reggehad met 'net 'n skatting'; hierdie sin maak daarvan weer 'werk'."
+    },
+    {
+      "bewering": "Jy kan van enige twee plekke sê omtrent hoe ver hulle van mekaar is.",
+      "blok": "Wat jy nou self kan uitwerk",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Nagegaan as 'n universele stelling. Vir enige twee plekke wat OP die kaart is en waar die kaart se skaal geld, gee die metode wel 'n benaderde afstand, en 'omtrent' is hier die regte woord (docs.os.uk/.../guide-to-cartography/scale; US Army FM 3-25.26, hoofstuk 5). Die beperking lê nie in hierdie sin nie maar in die een voor hom, wat afsonderlik gerapporteer word; 'n leerder kan natuurlik niks meet van 'n plek wat nie op die kaart verskyn nie."
+    },
+    {
+      "bewering": "Jy hoef dit in geen boek of op geen foon te gaan naslaan nie.",
+      "blok": "Wat jy nou self kan uitwerk",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die les se eie uitgewerkte voorbeeld bewys dit: die metode lewer 1 250 km sonder enige naslaanbron, teenoor die gepubliseerde 1 262 km (distance.to/Cape-Town/Johannesburg), dus omtrent 1% uit. Die metode vereis niks buiten die kaart, sy skaal en 'n reguit rand nie (US Army FM 3-25.26, hoofstuk 5, globalsecurity.org/military/library/policy/army/fm/3-25-26/ch5.htm)."
+    },
+    {
+      "bewering": "begrip reguitlyn-afstand: Die reguit afstand tussen twee plekke, en nie die padafstand nie.",
+      "blok": "begrip: reguitlyn-afstand",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Alleen gelees bly die inskrywing waar en dit sluit uitdruklik die een verwarring uit wat saak maak, naamlik padafstand: dieselfde onderskeid as Euklidiese teenoor netwerkafstand in die literatuur (link.springer.com/article/10.1007/s11067-018-9439-5; journals.sagepub.com/doi/10.1177/23998083231168870). Wat dit nog kan pas: op 'n ronde aarde is die 'reguit afstand' tussen twee ver plekke streng gesproke die kortste afstand LANGS DIE OPPERVLAK (die grootsirkel) en nie 'n lyn deur die aarde nie - vir Kaapstad-Londen is die koord omtrent 8 900 km teenoor 9 670 km langs die oppervlak. Op graad 6-vlak is die bewoording aanvaarbaar en die les se wêreldkaartblok dra die krommigheid self."
+    }
+  ],
+  "opsomming": "Al die getalle hou - reguitlyn Kaapstad-Johannesburg omtrent 1 262 km teen die les se 1 250, pad omtrent 1 400 km, 5 x 250 = 1 250 - en so ook 'die pad is nooit korter as die reguit lyn nie' en die hele verduideliking oor die bal teenoor die plat blad; twee dinge moet regkom: die slotsin 'Hierdie metode werk op enige kaart met 'n skaal daarop' neem die vorige blok se eie voorbehoud terug (op 'n wêreldkaart is 'n enkele skaal net langs bepaalde lyne geldig en 'n Kaapstad-Londen-meting kan 13% uit wees), en ''n papiertjie werk net so goed' geld net waar daar 'n lynskaal is om die strepies teen te hou, want 'n skoon papierrand kan nie die sentimeterlesing gee wat die sin voor hom vra nie."
+}
