@@ -1,0 +1,158 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Eers die letter, dan die nommer",
+  "kaps_punt": "Ruitverwysings — Konsep van alfa-numeriese ruitverwysings; Ruitverwysings vir simbole op eenvoudige ruitnet; Lees en verskaf van ruitverwysings op 'n eenvoudige grootskaalkaart",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "bewering": "Kyk na 'n kaart van 'n dorp en jy sien baie lyne, name en simbole.",
+      "blok": "Die kaart is vol en jy soek een plek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "National Geographic Education, 'Map' (education.nationalgeographic.org/resource/map/): kaarte word met simbole geteken — 'a small dot might represent an entire city, and yellow lines might represent highways, while blue lines represent borders' — en dra benewens simbole ook naametikette en 'n sleutel. Lyne, name en simbole saam op een dorpskaart is dus korrek beskryf."
+    },
+    {
+      "bewering": "'n Mens het 'n manier nodig om te sê presies waar iets lê.",
+      "blok": "Die kaart is vol en jy soek een plek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "National Geographic Education, 'Map': 'Each column and row of squares is assigned a letter or number... making it easy to communicate approximate locations.' Die rede wat die les vir 'n rooster gee is presies die rede wat die bronne gee — 'n manier om 'n ligging kort en ondubbelsinnig te noem. NOTA vir 'n mens: die bron sê 'approximate', en 'n rooster gee 'n blokkie, nie 'n punt nie. Hierdie sin is op sy eie waar (mense het wel so 'n manier nodig) en die les bind 'presies' twee blokke later self vas met 'presies in watter BLOKKIE' — maar dit is die een plek waar 'presies' meer belowe as wat 'n rooster lewer, en dit is die moeite werd dat 'n mens daarna kyk."
+    },
+    {
+      "bewering": "Op baie kaarte is daar daarom 'n rooster van reguit lyne.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "National Geographic Education, 'Map': 'Grids are evenly spaced lines running vertically as well as horizontally, creating squares or rectangles across a map'; Wikipedia 'Alphanumeric grid' en die Esri GIS-woordeboek (soos in soekresultate aangehaal; die bladsy self gee HTTP 403): alfanumeriese roosters word algemeen op plaaslike straatkaarte gebruik. Die verskansing 'baie kaarte' is die regte een — NatGeo noem roosters 'arbitrary features specific to individual maps', dus nie elke kaart het een nie."
+    },
+    {
+      "bewering": "Party lyne loop van bo na onder en ander loop dwars daaroor.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "National Geographic Education, 'Map': 'lines running vertically as well as horizontally'; Esri ArcGIS Pro, 'Reference grids' (doc.esri.com/en/arcgis-pro/latest/help/layouts/reference-grids.html): 'networks of columns and rows'. Korrek."
+    },
+    {
+      "bewering": "Saam verdeel daardie lyne die hele kaart in klein blokkies.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Esri ArcGIS Pro, 'Reference grids': 'used to divide a map into equal-area squares, independent of the map's coordinate system'; NatGeo: 'creating squares or rectangles across a map'. TOETS OOR AFSTAND EN SKAAL: hierdie sin, en die hele les, koppel nêrens 'n afstand, 'n skaal of 'n grootte aan die blokkies nie — 'klein' is die enigste grootte-woord en dit word nie in afstand omgesit nie. Dit is die regte antwoord: Esri ArcMap, 'What are grids and graticules?' (desktop.arcgis.com) stel dit uitdruklik dat 'n verwysingsrooster nie met werklike afstandmeting verband hou nie, anders as 'n gemete rooster of 'n gradenet. Niks in die les impliseer dat 'n rooster jou vertel hoe ver dinge uitmekaar is nie."
+    },
+    {
+      "bewering": "Elke plek op die kaart lê nou in een van daardie blokkies.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Universele stelling ('elke plek'), daarom afsonderlik getoets. Esri ArcGIS Pro, 'Reference grids': die rooster dek die kaart en 'elke vierkant' kry 'n unieke naam, dus val elke punt op die kaart binne een blokkie. NOTA vir 'n mens: dit hou vir 'n punt-simbool (die kliniek, die skool, die dam) en vir hoe 'n kaartindeks werk — een blokkie per inskrywing. Dit hou NIE letterlik vir 'n uitgestrekte ding nie: 'n rivier, 'n straat of 'n groot park strek oor verskeie blokkies. Die les se volgende voorbeeld is juis 'n park. Dit is 'n oorveralgemening op die rand, nie 'n onwaarheid op Graad 4-vlak nie, want die les pas die reël net op enkel simbole toe."
+    },
+    {
+      "bewering": "Die blokkies moet name kry, anders kan jy hulle nie noem nie.",
+      "blok": "Hoe hierdie rooster gemerk is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Esri ArcGIS Pro, 'Reference grids': elke gemerkte ry en kolom skep saam 'a unique identifier for every square in the grid'; NatGeo, 'Map': 'Each column and row of squares is assigned a letter or number.' Korrek — die merk van die blokkies is presies wat 'n verwysingsrooster bruikbaar maak."
+    },
+    {
+      "bewering": "Langs die kant van hierdie rooster staan die letters A, B en C.",
+      "blok": "Hoe hierdie rooster gemerk is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "TOETS 1, die belangrikste een. Die uitleg is EEN KONVENSIE ONDER MINSTENS TWEE, nie 'n reël nie. Vir die les se uitleg (letters langs die kant, nommers bo): National Geographic Education, 'Using a Grid with a Zoo Map' — 'On this map, the squares from top to bottom are letters. Across the map from left to right are numbers.' Vir die teenoorgestelde uitleg: Esri ArcMap, 'What are grids and graticules?' wys 'n voorbeeld met kolomme A–E en rye 1–5 (letters bo); die Afrikaanse Wikipedia, 'Ruitverwysing' (af.wikipedia.org/wiki/Ruitverwysing) beskryf 'n letter op die HORISONTALE rand met 'n nommer op die VERTIKALE rand; en die Esri GIS-woordeboek definieer 'n alfanumeriese rooster as 'numbered rows and lettered columns (OR VICE VERSA)'. Esri ArcGIS Pro laat die merkskema vir rye en kolomme afsonderlik instel, dus is dit 'n keuse per kaart. DIE LES VERSKANS DIT KORREK EN DIT MOET SO GESÊ WORD: die blok se kop is 'Hoe HIERDIE rooster gemerk is', die sin sê 'hierdie rooster' en die volgende sin 'dieselfde rooster'. Nêrens word gesê dat alle kaarte, of selfs die meeste, so gemerk is nie; blok 2 verskans afsonderlik met 'baie kaarte'. Die begrip-inskrywings en die omskrywing van 'ruitverwysing' noem geen as nie, dus dra ook hulle nie die konvensie as reël nie. Geen oorklaim hier nie."
+    },
+    {
+      "bewering": "Bo-aan dieselfde rooster staan die nommers, van links af getel.",
+      "blok": "Hoe hierdie rooster gemerk is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "National Geographic Education, 'Using a Grid with a Zoo Map': 'Across the map from left to right are numbers.' Ordnance Survey GetOutside, 'A Beginner's Guide to Using Grid References' (osmaps.com): die horisontale-as-syfers (eastings) loop van links na regs. Van links af getel is die standaardrigting; nêrens word van regs af getel nie. Weer eens aan 'dieselfde rooster' gebind, dus geen reël-aanspraak nie."
+    },
+    {
+      "bewering": "'n Ruitverwysing is 'n letter en 'n nommer wat saam een blokkie noem.",
+      "blok": "Wat 'n ruitverwysing is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, 'Alphanumeric grid': 'a simple coordinate system on a grid in which each CELL is identified by a combination of a letter and a number'; Esri GIS-woordeboek: 'B-7' dui 'the square formed by the intersection of column B and row 7' aan. Korrek vir die alfa-numeriese soort — presies die soort wat hierdie les se eie KABV-punt noem ('Konsep van alfa-numeriese ruitverwysings'). OMVANG-NOTA: ruitverwysings bestaan ook in suiwer syfervorm (OS se vier- en sessyferverwysings; die Afrikaanse Wikipedia se 'Ruitverwysing' beskryf juis die Cartesiese, syfer-gebaseerde soort), en dié is nie 'n letter en 'n nommer nie. Binne hierdie blok, wat op blok 3 se rooster volg, is die stelling korrek; die omvang tel eers as die sin alleen gelees word — sien die item oor die begrip-inskrywing hieronder."
+    },
+    {
+      "bewering": "Dit sê presies in watter blokkie van die rooster 'n plek lê.",
+      "blok": "Wat 'n ruitverwysing is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "TOETS 2. Die Afrikaanse Wikipedia, 'Ruitverwysing': ''n Ruitverwysing plaas 'n unieke vierkantige area op die kaart' — 'n area, nie 'n punt nie; selfs 'n sesyferverwysing dui 'n vierkant aan. Wikipedia, 'Alphanumeric grid': 'each cell is identified by...'. Ordnance Survey GetOutside: 'n vierfiguur-verwysing identifiseer die vierkant self. Hierdie sin is die een wat die presiesheid vasbind waar dit hoort — 'presies in watter BLOKKIE', nie 'presies waar' nie — en dit is korrek. NIKS IN DIE LES MAAK DIE VERWYSING 'N PUNT NIE: elke ander formulering sê ook 'een blokkie', 'een bepaalde blokkie', 'daardie een blokkie', 'in watter blokkie hy die dam moet soek'. Die enigste plek waar 'presies' losser staan, is die eerste blok se behoefte-sin, wat hierdie sin dan begrens."
+    },
+    {
+      "bewering": "'n Verwysing soos B2 wys na een bepaalde blokkie van die rooster.",
+      "blok": "Wat 'n ruitverwysing is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Esri GIS-woordeboek (via soekresultate): ''B-7' indicates the square formed by the intersection of column B and row 7'; Wikipedia, 'Alphanumeric grid', wys selle as a1, b2, c3. Korrek. NOTA: omdat hierdie rooster se letters die RYE merk, beteken B2 hier ry B, kolom 2 — die omgekeerde van wat B2 in 'n sigblad beteken. Dit is nie 'n fout nie (die les se eie rooster bepaal dit), maar dit is die praktiese gevolg van die uitleg-keuse hierbo."
+    },
+    {
+      "bewering": "Kyk eers na die letter B langs die kant van die rooster. Sit jou vinger op daardie letter en hou hom op die plek. Kyk dan boontoe na die nommer 2 wat bo-aan die rooster staan. Skuif jou vinger van die letter af tot onder daardie nommer. Die blokkie waar die twee mekaar ontmoet, is waar die skool staan.",
+      "blok": "Hoe jy blokkie B2 kry",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "TOESTS 3, die metode konkreet gevolg. Vinger op letter B langs die kant = ry B. Die vinger skuif horisontaal en bly dus in ry B. Hy stop onder die nommer 2 bo-aan = kolom 2. Resultaat: die blokkie waar ry B en kolom 2 kruis — dit is B2, die regte blokkie. Die volgorde van die stappe is ook reg: die 'hou hom op die plek' voorkom juis die algemene fout dat die leerder die ry verloor. Identies aan National Geographic Education, 'Using a Grid with a Zoo Map': 'to find square A3 on the grid, you put your finger on the letter A. Then move your finger across to the number 3.' 'Kyk dan boontoe' is 'n kyk-instruksie om die etiket te vind, nie 'n beweeg-instruksie nie, en die volgende sin gee die beweging korrek as 'n skuif tot ONDER daardie nommer — 'n leerder wat letterlik regop sou beweeg, word deur daardie sin reggestel."
+    },
+    {
+      "bewering": "Die blokkie waar die twee mekaar ontmoet, is waar die skool staan.",
+      "blok": "Hoe jy blokkie B2 kry",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Die enigste beeldspraak in die les (die letter en die nommer wat 'mekaar ontmoet'), dus is die AFBEELDING self getoets en nie net die feite nie. Esri GIS-woordeboek: 'the square formed by the INTERSECTION of column B and row 7' — 'n ry en 'n kolom wat kruis, is presies die standaardbeskrywing, en die beeld dra na presies een blokkie. Waar dit sou kon breek: die letter-etiket en die nommer-etiket staan self buite die rooster en 'ontmoet' mekaar nooit fisies nie, so 'n leerder kon by die hoek van die rooster beland. Die voorafgaande sin sluit dit uit deur die vinger langs die ry te laat skuif, dus lei die beeld nie verkeerd nie. Geen ander vergelyking in die les nie — geen 'soos', geen metafoor in die studieteks of die begrippe nie."
+    },
+    {
+      "bewering": "Die park op dieselfde kaart lê in blokkie C3. Soek weer eers die letter C langs die kant van die rooster. Skuif jou vinger dan tot onder die nommer 3 bo-aan die rooster. Daardie een blokkie is die plek waar die park op die kaart lê.",
+      "blok": "Nog 'n keer, met die park",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die tweede voorbeeld is intern konsekwent met blok 3: C is een van die drie letters wat die les langs die kant plaas (A, B en C), en 3 is haalbaar op nommers wat van links af getel word. Dieselfde prosedure as B2, gevolg met dieselfde uitkoms: ry C, kolom 3 = C3. Geverifieer teen National Geographic Education, 'Using a Grid with a Zoo Map'. Geen teenstrydigheid tussen die twee voorbeelde nie."
+    },
+    {
+      "bewering": "Kyk na die letter langs die kant wat by die dam se blokkie hoort. Kyk dan op na die nommer bo-aan dieselfde blokkie. Skryf die letter eerste neer en skryf die nommer daarna.",
+      "blok": "Gee self 'n ruitverwysing",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "TOETS 3, die ANDER rigting. Vanaf die dam se blokkie links uit na die ry-letter en op na die kolom-nommer, dan letter voor nommer geskryf — dit is die omkering van die leesprosedure en dit lewer dieselfde verwysing op as wat die leesprosedure weer sou vind. Die metode werk dus in albei rigtings. Letter-eerste is die gewone konvensie vir alfa-numeriese verwysings, onafhanklik van watter as die letters dra: Wikipedia, 'Alphanumeric grid' (a1, b2, c3); Esri GIS-woordeboek ('B-7'); National Geographic Education ('square A3'). NOTA: omdat hierdie rooster se letters die vertikale as merk, gee letter-eerste hier die vertikale koördinaat eerste — die omgekeerde van die 'eastings voor northings' / 'along the corridor then up the stairs' reël wat leerders later by syferverwysings kry (Ordnance Survey GetOutside). Dit is nie 'n fout nie, want 'n letter en 'n nommer kan nie verwar word nie, maar dit is die moeite werd om te weet dat die volgorde-gewoonte later anders gemotiveer word."
+    },
+    {
+      "bewering": "Nou weet jou maat in watter blokkie hy die dam moet soek.",
+      "blok": "Gee self 'n ruitverwysing",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "National Geographic Education, 'Map': 'making it easy to communicate approximate locations'; Esri ArcGIS Pro, 'Reference grids': die etikette gee elke vierkant 'n unieke identifiseerder wat as indeks gebruik word. 'n Ruitverwysing sê inderdaad vir iemand anders in watter blokkie om te soek — en die sin bly korrek by 'blokkie', nie by 'plek' nie."
+    },
+    {
+      "bewering": "Eers die letter, dan die nommer (lestitel)",
+      "blok": "titel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die titel maak 'n volgorde-aanspraak, daarom afsonderlik getoets. Letter voor nommer is die gewone skryfwyse vir alfa-numeriese ruitverwysings: Wikipedia, 'Alphanumeric grid' (selle a1, b2, c3), Esri GIS-woordeboek ('A3', 'B-7'), National Geographic Education ('square A3'). Geen bron wat ek gevind het, skryf 'n alfa-numeriese verwysing as nommer-eerste nie. Die titel maak nie 'n aanspraak oor waar die letters staan nie, net oor die volgorde, en dit is die veiliger van die twee aansprake om te maak."
+    },
+    {
+      "bewering": "rooster: 'n Patroon van lyne wat 'n kaart in blokkies verdeel.",
+      "blok": "begrip: rooster",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "TOETS 6, die inskrywing alleen gelees met die res van die les weggevee. FEITELIK KORREK: National Geographic Education, 'Map' — 'Grids are evenly spaced lines running vertically as well as horizontally, creating squares or rectangles across a map'; Esri ArcGIS Pro, 'Reference grids'. Die woord 'rooster' is ook die regte Afrikaanse woord hiervoor: 'roosterverwysing' is gangbaar in Suid-Afrikaanse geografie-materiaal, en die Afrikaanse Wikipedia beskryf 'n ruitnet van horisontale en vertikale lyne oor 'n kaart. WAT DIT OP SY EIE OOK TOELAAT, en dit is die moeite werd dat 'n mens daarna kyk: die inskrywing sê nie dat die lyne reguit, ewe ver uitmekaar, of OOR die kaart getrek is nie, en ook nie dat die blokkies name kry nie. Op sy eie pas die omskrywing daarom net so goed op 'n dorp se strate, wat op 'n kaart letterlik 'n patroon van lyne is wat die kaart in blokke verdeel — en hierdie les speel juis op 'n dorpskaart af wat volgens blok 1 al klaar 'baie lyne' het. Die studieteks stel dit reg ('reguit lyne', die merk van die blokkies), maar die begrip dra dit nie saam nie. Die KABV-punt wat in hierdie les self aangehaal word, gebruik boonop 'ruitnet' waar die les 'rooster' gebruik; dit is 'n terminologie-vraag vir iemand anders, nie 'n feitefout nie."
+    },
+    {
+      "bewering": "ruitverwysing: 'n Letter en 'n nommer wat saam een blokkie op 'n kaart noem.",
+      "blok": "begrip: ruitverwysing",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "TOETS 6, alleen gelees. FEITELIK KORREK vir alfa-numeriese ruitverwysings: Wikipedia, 'Alphanumeric grid' — 'each cell is identified by a combination of a letter and a number'; Esri GIS-woordeboek. Die 'een blokkie' is die belangrike deel en dit is reg: die Afrikaanse Wikipedia, 'Ruitverwysing', sê ''n Ruitverwysing plaas 'n unieke vierkantige area op die kaart', en Ordnance Survey GetOutside bevestig dat 'n vierfiguur-verwysing die vierkant self aandui. WAT DIT OP SY EIE OOK DOEN: dit definieer die ALGEMENE woord met die ALFA-NUMERIESE geval. Ruitverwysings bestaan ook suiwer in syfers — OS se vier- en sesyferverwysings, en die Afrikaanse Wikipedia se hele artikel oor 'ruitverwysing' handel oor daardie Cartesiese soort met oosterafstande en noorderafstande. 'n Leerder wat hierdie inskrywing alleen lees, sou 'n sesyferverwysing nie as 'n ruitverwysing herken nie. Die les se eie KABV-punt dra die kwalifiseerder wat die inskrywing laat val ('alfa-numeriese ruitverwysings'). Op Graad 4 is dit verdedigbaar en dit is ook die bestaande beslissing dat 'n omskrywing oor grade heen mag verbreed; ek merk dit as 'n omvang-nota vir 'n mens, nie as 'n onwaarheid nie."
+    },
+    {
+      "bewering": "(Sweep vir superlatiewe en universele aansprake oor die hele les)",
+      "blok": "hele les",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Elke blok deurgegaan, insluitend die titel, die twee begrippe en die woordelys. GEEN superlatief in die les nie: geen 'eerste', 'oudste', 'grootste', 'vinnigste', 'enigste', 'beste' of 'altyd' nie, en geen aanspraak dat 'n rooster op alle kaarte voorkom of dat alle roosters eenders gemerk is nie. Drie universele of byna-universele formulerings is wel gevind en elkeen is afsonderlik as 'n item hierbo getoets: 'Elke plek op die kaart lê nou in een van daardie blokkies', 'Saam verdeel daardie lyne die HELE kaart' en 'Die blokkies MOET name kry'. Die twee plekke waar 'n skrywer maklik sou oorklaim het — die rooster se uitleg en die feit dat kaarte roosters het — dra albei 'n verskansing ('hierdie rooster' / 'dieselfde rooster', en 'baie kaarte'). Geen eli10-blok in hierdie les nie."
+    }
+  ],
+  "opsomming": "Elke bewering in die les is teen bronne bevestig en niks is weerspreek nie: die metode werk konkreet in albei rigtings (dit lewer inderdaad ry B by kolom 2 op) en stem ooreen met National Geographic se eie beskrywing, die verwysing bly deurgaans 'n blokkie en nooit 'n punt nie, niks koppel die rooster aan afstand of skaal nie, en die uitleg met letters langs die kant is korrek verskans as 'hierdie rooster' — dit is een konvensie onder minstens twee (Esri en die Afrikaanse Wikipedia gebruik die teenoorgestelde), en die les maak dit nêrens 'n reël nie; drie bewoordings verdien net 'n mens se oog sonder dat hulle vals is: die begrip 'rooster' pas op sy eie ook op 'n dorp se strate, die begrip 'ruitverwysing' omskryf die algemene woord met net die alfa-numeriese geval, en 'presies waar iets lê' in blok 1 belowe meer as wat 'n rooster gee voordat blok 4 dit self met 'presies in watter blokkie' begrens."
+}
