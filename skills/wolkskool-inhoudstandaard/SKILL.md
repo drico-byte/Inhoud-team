@@ -156,10 +156,18 @@ whole time."** Everything below is that exception, gathered in one place rather 
 scattered as caveats on rules it does not follow. It applies to Grade 4 Sosiale
 Wetenskappe and to nothing else, until someone decides otherwise for another subject.
 
-**ONE OF THE SIX HAS SINCE BEEN EXTENDED. Drico, 29 September 2026: CAPS's historical
-aims, skills and concepts count as CAPS DELIVERY in GRADE 6 Sosiale Wetenskappe too,
-not as supplement against the 25% cap.** That is the row "coverage comes from CAPS's
-skills and concepts section" below, and only that row. Grade 6 has no video, so none of
+**ONE OF THE SIX HAS SINCE BEEN EXTENDED. Drico, 29 September 2026: CAPS's aims, skills
+and concepts count as CAPS DELIVERY in GRADE 6 Sosiale Wetenskappe too, not as
+supplement against the 25% cap.** That is the row "coverage comes from CAPS's skills and
+concepts section" below, and only that row.
+
+**IT COVERS BOTH HALVES OF THE SUBJECT — the historical aims and skills of Section 2.4
+and the geographical ones of Section 2.5.** The ruling was put to Drico about Grade 6
+Sosiale Wetenskappe as a subject, not about its History half, and the reason applies
+identically to each: CAPS prints the same instruction over a Geography page as over a
+History page, and Section 2.5.3 lists the geographical skills that instruction points
+at. A Geography planner raised the extension on 30 September rather than assuming it,
+which was right — but it does not need asking again. Grade 6 has no video, so none of
 the other five departures reaches it: its text comes first, its lessons are grouped from
 CAPS clusters, and its budgets come from CAPS hours. The reason it extends is that the
 same sentence of CAPS carries it — CAPS prints above every Grade 6 History topic that
