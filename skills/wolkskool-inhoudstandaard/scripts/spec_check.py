@@ -392,10 +392,7 @@ def check(spec):
             warns.append(f"Lesson {L['nommer']}: {len(av)} aanvulling items against a "
                          f"{allowance}-word allowance — check the 25% cap still holds")
 
-    # --- eli10 flags ---
-    if not any(L.get("moeilike_konsepte") for L in lesse):
-        warns.append("No lesson flags a difficult concept — every sub-topic usually has at "
-                     "least one that needs an ELI10 layer")
+    # --- moeilike_konsepte flags ---
     for L in lesse:
         if len(L.get("moeilike_konsepte") or []) > 3:
             warns.append(f"Lesson {L['nommer']}: {len(L['moeilike_konsepte'])} concepts flagged "

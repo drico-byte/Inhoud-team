@@ -292,7 +292,7 @@ the study budget:
 |---|---|---|
 | **Core** | Named in the CAPS document | Counts. Mandatory. |
 | **Aanvulling** | Not in CAPS, but needed for the concept to make sense or to serve the CAPS focus question | Counts. Max ~25% of study budget. Needs a written justification in the lesson spec. |
-| **Scaffolding** | ELI10 layer, glossary entries | Does not count. Uncapped. |
+| **Scaffolding** | Glossary entries | Does not count. Uncapped. |
 
 This is what resolves the apparent contradiction of "give more, but not more to
 study". Study text stays at textbook parity; scaffolding is free. A learner
@@ -356,7 +356,6 @@ Minimum shape:
   },
   "blokke": [
     {"tipe": "studie", "kop": "Wat is 'n stoomskip?", "teks": "..."},
-    {"tipe": "eli10",  "vir": "Wat is 'n stoomskip?", "teks": "..."},
     {"tipe": "lys",    "kop": "Wat het verander?", "items": ["...", "..."]},
     {"tipe": "begrip", "term": "stoomketel", "teks": "..."}
   ]
@@ -379,7 +378,6 @@ Full table and calibration provenance in `references/registerbande.md`. Summary:
 | 4–6 | 11.0–14.5 | ≤1.52 | ≤13% |
 | 7–9 | 13.0–17.5 | ≤1.62 | ≤17% |
 | 10–12 | 15.0–21.5 | ≤1.72 | ≤22% |
-| **ELI10, all grades** | **9.0–13.5** | **≤1.50** | **≤11%** |
 
 Only the 4–6 row is measured from real text. The senior rows are estimates and
 must be replaced by profiling DBE past papers before production use. The gate
@@ -391,11 +389,6 @@ a first attempt at Grade 4 content came out at 7.5 words per sentence against a
 floor of 11.0, well below what nine-year-olds already read comfortably. Short
 sentences are not the goal. **One idea per sentence** is the goal — which is why
 the comma limit (≤0.35 per sentence) does more work than the length limit.
-
-The ELI10 band stays flat at every grade. That is deliberate: intuition gets
-explained the same plain way at Grade 4 and at Grade 12, sitting beside study
-text whose register climbs. At Grade 4 the two bands nearly overlap, so the ELI10
-layer's value there is entirely the *analogy*, not the simpler wording.
 
 ## Volume budget
 
@@ -552,11 +545,6 @@ short — *suier*, *skroef*, *ketel* are all new to a nine-year-old. The gate ca
 only measure word length, so it warns about words over 10 characters without
 entries. That is a proxy, not the rule. A lesson can satisfy the gate and still
 leave real terms undefined.
-
-**ELI10 must contain an actual comparison, not a paraphrase.** Restating the
-study text in shorter words is the most common failure and adds nothing. Compare
-to something a child already handles: a kettle lid lifting, a hand pushing a
-stick. Every ELI10 block names its concept in `vir`.
 
 **Analogies are a factual risk.** They are vivid, memorable, and easy to get
 subtly wrong, and then the misconception outlasts the lesson. "Steam pushes like
