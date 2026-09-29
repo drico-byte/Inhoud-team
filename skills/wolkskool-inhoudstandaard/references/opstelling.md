@@ -65,7 +65,10 @@ Exit 0 = pass, exit 1 = fail.
 
 **Hard fail** — send back to the writer:
 
-- study-text word count outside budget ±15%
+- study-text word count outside budget ±15% — or, where a subject-grade overrides that,
+  outside its own band. **Gr 4 Sosiale Wetenskappe: the budget is a hard ceiling and the
+  floor is 62.5% of it, so a 400-word budget passes only between 250 and 400** (Drico,
+  29 September 2026)
 - mean sentence length outside the grade band
 - syllables per word above the band ceiling
 - 3+ syllable percentage above the band ceiling

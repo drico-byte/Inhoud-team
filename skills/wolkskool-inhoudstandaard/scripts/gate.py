@@ -148,6 +148,27 @@ BLOCK_WORDS_MIN, BLOCK_WORDS_MAX = 30, 110
 BLOCKS_MIN, BLOCKS_MAX = 3, 10
 BUDGET_TOLERANCE = 0.15
 
+# Asymmetric override per subject-grade, as (under, over). DRICO, 29 SEPTEMBER 2026,
+# FOR GRAAD 4 SOSIALE WETENSKAPPE: "250 - 400... I want to strictly stay within that
+# range. It will almost never be the case that a writer goes too low... Its the
+# ceiling im really worried about."
+#
+# So the BUDGET ITSELF IS THE CEILING -- no tolerance above it -- and the floor drops
+# to 62.5% of budget, which is 250 against a 400-word budget. The asymmetry is the
+# point: writers overshoot small budgets by roughly a tenth and have almost never
+# come in short, so a symmetric band spends its lower half on a risk that does not
+# happen while letting a 400-word lesson reach 460.
+#
+# Scoped rather than global for two reasons. Other machines are gating against the
+# default right now, and every delivered lesson was written under it -- Gr 4 History
+# came in at a median of 442 against a median budget of 400 and passed silently,
+# which is the behaviour this closes.
+#
+# The floor stays generous ON PURPOSE and is not a target: the map-skills opener is
+# budgeted at 200 because Drico ruled it may run light, and 62.5% keeps a proportional
+# floor under it rather than an absolute one that would sit above its own budget.
+BUDGET_TOLERANCE_VAK = {("Sosiale Wetenskappe", 4): (0.375, 0.0)}
+
 # Per-lesson word band per grade, mirroring spec_check.py's LESBAND. spec_check
 # holds the BUDGET to this band; nothing held the MEASURED draft to it, and the
 # two can part company: a budget at the top of the band plus the +15% tolerance
@@ -303,11 +324,23 @@ def run(lesson, grade, budget):
     # Name the thing being measured after what actually carries the lesson, so a
     # reading lesson's failure does not talk about study text it never had.
     label = "Reading text" if reading and not study else "Study text"
-    lo, hi = budget * (1 - BUDGET_TOLERANCE), budget * (1 + BUDGET_TOLERANCE)
+    onder, bo = BUDGET_TOLERANCE, BUDGET_TOLERANCE
+    _sleutel = ((lesson.get("vak") or "").strip(), grade)
+    if _sleutel in BUDGET_TOLERANCE_VAK:
+        onder, bo = BUDGET_TOLERANCE_VAK[_sleutel]
+    lo, hi = budget * (1 - onder), budget * (1 + bo)
     if sm["words"] < lo:
         fails.append(f"{label} {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
     elif sm["words"] > hi:
-        fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
+        if bo == 0:
+            fails.append(f"{label} {sm['words']} words, and the budget {budget} is a HARD CEILING for "
+                         f"this subject and grade — Drico, 29 September 2026. There is no tolerance "
+                         f"above it. Cut {sm['words'] - budget} words. Never drop a requirement to get "
+                         f"there: tighten sentences, cut an example, cut anything the video already "
+                         f"carries. If it genuinely cannot be done without losing a requirement, say "
+                         f"so and stop rather than trimming the requirement away.")
+        else:
+            fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
     # NB: not named 'band' — that name holds the REGISTER band and is read below.
     lesband = LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
     if lesband and sm["words"] > lesband[1]:

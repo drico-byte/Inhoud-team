@@ -517,7 +517,16 @@ What matters is that coverage of a whole CAPS topic is not systematically thinne
 than a textbook's. Under-supply is as damaging as over-supply: if Wolkskool
 covers a topic in two-thirds the depth, learners revise the textbook instead.
 
-Gate tolerance is ±15% of the stated budget.
+Gate tolerance is ±15% of the stated budget, **except where a subject-grade overrides
+it**. The override is asymmetric, because the risk is: writers overshoot small budgets
+by roughly a tenth and have almost never come in short, so a symmetric band spends its
+lower half on something that does not happen.
+
+**Graad 4 Sosiale Wetenskappe: the budget is a HARD CEILING, and the floor is 62.5% of
+it — 250 to 400 against a 400-word budget. Drico, 29 September 2026.** His words: *"I
+want to strictly stay within that range... Its the ceiling im really worried about."*
+Gr 4 History came in at a median of 442 against a median budget of 400 and every lesson
+passed, because 400 plus 15% is 460. That is the behaviour this closes.
 
 ## Writing patterns that are known to work
 
