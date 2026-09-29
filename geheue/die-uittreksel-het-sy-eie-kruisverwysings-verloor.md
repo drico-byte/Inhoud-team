@@ -45,3 +45,32 @@ file that gained fields rather than changed requirements. The cost of closing it
 is one re-check of every delivered lesson — Drico's call, not a code decision.
 Until then, an edit to `buite_bestek` invalidates nothing, and
 `bin/woordelysdrif.py` is the cheap check that catches the glossary half of it.
+
+## A term with two deliberate meanings reached the writer as nothing
+
+Gr 6 Social Sciences, 29 September 2026. `hof` has two real Afrikaans meanings — a court of
+law and a ruler's court — so it follows the `konflik` pattern: one headword, two wordings,
+deliberately not reconciled. The **drift sweep already knew about those**: it excludes them
+from the comparison and reports them in their own line.
+
+**The injector did not.** A two-meaning entry has `omskrywing: null` by design, and the
+injector sent only `omskrywing`, so the extract handed the writer `null` for the term. A
+wording Drico had actually settled reached the lesson **only if a planner happened to have
+restated it in the spec** — a property of the briefing, not of the pipeline. That is the
+identical failure the `omvang` fallback sitting three lines below it had been written to
+close, for unsettled terms.
+
+It had been live for every two-meaning term in every subject: **`konflik` in Grade 4 and
+Grade 5 Life Skills, both delivered and signed off, went to their writers as nothing.** Their
+lessons may still be right, because the specs did restate the wordings — but nothing in the
+pipeline was making that true.
+
+**The reusable part:** when two tools disagree about whether a piece of data exists, the one
+that *reads* it is not necessarily the one that *sends* it. The sweep understood the shape and
+the injector did not, and nothing compared them. So when adding a new shape to a shared data
+file, walk every consumer — here, the injector, the sweep, the language checker and the gate —
+rather than the one that happens to be in front of me.
+
+Fixed by teaching the injector the shape: it now sends both sentences, each labelled with
+where it belongs, plus the instruction not to reconcile them. Verified by reading it back out
+of a live extract rather than trusting the patch.

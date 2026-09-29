@@ -125,3 +125,4 @@
 
 
 - [Test a parallel set as a set](toets-n-parallelle-stel-as-n-stel.md) — say so in the fact brief; reading four blocks together found five faults where sentence-by-sentence found one.
+- [A note that freezes a state goes stale](n-nota-wat-n-toestand-vasvries-verouder.md) — my fix for seven stale spec notes hard-coded the count and went stale within the hour; point at the live source, write the rule not the state.
