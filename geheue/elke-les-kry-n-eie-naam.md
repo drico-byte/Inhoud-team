@@ -47,3 +47,44 @@ through the writer rather than naming it yourself: whether an Afrikaans title re
 speaker's judgement, and an agent's ear for that is unreliable in both directions — see
 [[afrikaans-wag-vir-spesialiste]] and the general point in `references/woordkeuse.md`. Then show Drico
 the list, because it is his hero text.
+
+---
+
+**30 September 2026: a title asserts what its own spec forbids, and nothing downstream
+can see it.**
+
+Three consecutive lessons in Gr 4 Geography's map-skills sub-topic had a *planned* title
+carrying a claim that same lesson's fact-risk list explicitly prohibits:
+
+* "Klein prentjies wat 'n **hele plek** vertel" — while its own field forbids saying a
+  map shows everything at that place.
+* "**Letter langs die kant, nommer bo-aan**" — while its first field forbids claiming
+  every map's grid is marked that way.
+* "**Noord bo**, en die son wys die res" — while its second field forbids saying north is
+  always at the top, and marks the hedge as load-bearing.
+
+All three were caught by the *writer*. None by the pipeline.
+
+**The mechanism is structural, not carelessness.** A title is written to be short and
+memorable, and shortening means dropping qualifiers — and the qualifier is usually the
+only thing making the claim true. "North is usually at the top" is true; "Noord bo" is
+the same sentence with the one load-bearing word removed.
+
+And the note above already says nothing checks a title the way it checks the text. This
+is what that costs in practice: **the gate counts a title's words, coverage tests
+requirements against the body, and the fact checker reads it as a heading.** A false
+title passes every stage untouched and is the largest text on the delivered page.
+
+**How to apply.**
+
+* **After writing or approving a title, read the lesson's fact-risk list and ask whether
+  the title says one of the forbidden things.** That is a ten-second check and it caught
+  nothing three times because nobody ran it.
+* **Suspect any title that is a compressed version of a hedged sentence in the body.** If
+  the body needs "usually", "often" or "on many maps" to be true, the title cannot say
+  the same thing without them.
+* A title may name the lesson's **subject** without making a **claim**. "Vier rigtings op
+  'n kaart en buite" says what the lesson is about and asserts nothing.
+
+Recorded at spec level in that sub-topic so a planner writing the next set meets it.
+Related: [[die-korrigeerde-opdrag-bly-in-die-veld-staan]], [[n-versagting-vat-die-algemene-helfte-saam]].
