@@ -39,3 +39,31 @@ Related: [[n-spek-se-dieselfde-ding-in-twee-velde]],
 [[n-regstelde-fout-kom-in-n-ander-gedaante-terug]],
 [[n-bevinding-by-die-bron-opteken-is-nie-dit-regmaak-nie]],
 [[die-merker-begrawe-die-bestelling]], [[wanneer-kaps-self-verkeerd-is]].
+
+---
+
+**29 September 2026: the mechanism, confirmed by reading the runner rather than guessing.**
+
+The rule of thumb above — that a spec edit costs a finished coverage check a re-run — is
+real, and now it has a name. The runner writes a **`spek_hash`** into each lesson's state
+file alongside the draft's own hash, and on its next call it compares that fingerprint
+against the current spec entry. If they differ and a coverage report exists, the report is
+treated as belonging to an older spec and archived.
+
+Two things follow that the rule of thumb did not make obvious:
+
+* **It is the SPEC ENTRY that is fingerprinted, not the whole file.** So editing one
+  lesson's entry costs that lesson's coverage check and leaves its siblings alone.
+* **The fact report is not keyed to the spec**, which makes sense — the fact checker never
+  sees a spec. So a spec-only edit costs the coverage check and not the fact check.
+
+**How to apply.** Before editing a spec entry whose coverage has already passed, decide
+whether the edit is worth one coverage run. It usually is when the edit changes what is
+*required*, and usually is not when it only changes wording — but batch the cosmetic ones
+and let them ride along with the next substantive edit, which costs nothing extra.
+
+And when a spec edit is genuinely worth it, **re-run coverage yourself straight away**
+rather than leaving it for the runner to discover. The runner archives the stale report on
+its next call, and if that call is a sign-off it demands the whole check again at exactly
+the wrong moment — which is the failure
+[[moenie-die-hardloper-vra-oor-n-nagesiende-les-nie]] records.
