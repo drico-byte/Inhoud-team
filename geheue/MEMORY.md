@@ -125,3 +125,4 @@
 - [A sweep for fields that still order](n-veeg-vir-velde-wat-nog-bestel.md) — bin/spekveeg.py finds the three shapes; it must not fire on the normal correction shape, or it gets ignored.
 - [A pointer names, never ranks](n-wyser-benoem-nooit-rangskik.md) — six pointers to "the newest item" broke when my next repair added one; name the item by its content.
 - [A description ages, a requirement does not](n-beskrywing-verouder-n-vereiste-nie.md) — the root cause of a day of stale spec fields; write what must be true, never what the draft currently says.
+- [A later check is not a newer source](n-later-nasien-is-nie-n-nuwer-bron.md) — I narrowed a reporting duty on a check whose source predated the law change; date the SOURCE, and treat a settled record that names the trap as evidence.
