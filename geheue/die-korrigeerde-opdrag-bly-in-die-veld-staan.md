@@ -188,3 +188,44 @@ Two corollaries that cost me rounds today:
 
 Related: [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]], [[n-ruil-wat-nie-pas-nie-moet-hard-faal]],
 [[my-regstelling-in-die-spek-was-self-die-volgende-fout]].
+
+## The marker I invented to fix this is itself read as commentary
+
+Later the same day, 29 September 2026. Three checkers on three lessons — Self 8, Werk 4,
+Werk 5 — plus a second report on Regte 10, all named the same defect, and it is the
+mirror image of the prepend above: **I APPEND.**
+
+My standard device had become a bracket placed *after* the ordering sentence:
+
+> `<the old ordering sentence>. [TERUGGETREK <date>: <why>. WAT GELD: <the correct form>.
+> NIKS IN HIERDIE VORM BESTEL NOG IETS.]`
+
+That bracket is careful, dated, and says in capitals that it orders nothing. **It does not
+work.** A writer reads the field as prose, meets the order first, and the bracket arrives
+as a gloss on an instruction already received. Coverage then reports — correctly — that
+the field still orders the withdrawn thing. One checker quoted this repository's own
+precedence rule back at me by name to say so, twice on the same field.
+
+**So the device is retired.** The correct move is the one this note already prescribes and
+which the marker let me avoid: **replace the ordering sentence's own words**, and let the
+dated explanation follow *inside* the rewritten sentence's parenthesis. The distinction is
+not cosmetic — a marker leaves the false sentence grammatically intact and available to be
+copied; a rewrite removes it.
+
+**Why the marker felt sufficient, which is the part worth remembering:** it is auditable.
+It preserves what was wrong and why, which is genuinely valuable, and that value disguised
+the fact that it changes nothing a writer acts on. **A record and an order are different
+objects, and putting a record next to an order does not demote the order.**
+
+**And the third layer breaks the field outright.** On Regte 10 I finally rewrote in place —
+and replaced *every* occurrence of the old phrase, including the one inside the correction's
+own contrast ("X, not X-in-general"). The result said "a provincial department of social
+development, not a provincial department of social development in general", with the dated
+note nested inside itself three times, and a sibling field presenting the *correct* wording
+as the error it was confessing. Both items had to be rewritten as whole prose.
+
+**Operationally:** replace whole sentences, never substrings that also appear in a
+quotation; assert the replacement count is exactly one; and when a field has three patch
+layers, rewrite it and reduce the sibling that duplicated it to a record that says it
+orders nothing. See [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]], which predicted this
+exactly and which I read after doing it.

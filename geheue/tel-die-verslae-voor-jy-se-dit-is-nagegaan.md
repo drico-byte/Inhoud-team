@@ -17,3 +17,23 @@ Grade 7 LO, 28 September 2026. I said "all 45 lessons are now fact-checked" and 
 **How to apply:** before saying a subject-grade is checked, run the count rather than the memory — for each lesson, does `les-N.feite.json` exist and does `les-N.dekking.json` exist. It is ten lines of Python and it is the only thing that sees both causes at once. Do it after every repair round, not once at the end. And when a planner or a checker says a report is missing, believe it enough to look, even when your own record says otherwise — see [[n-verslag-bestaan-nie-omdat-die-agent-so-se]] for the opposite error, which is why the sweep and not the argument is the answer.
 
 Related: [[moenie-die-hardloper-vra-oor-n-nagesiende-les-nie]], [[staat-wat-nie-gestoor-word-nie]], [[geen-drif-is-net-so-sterk-soos-die-besluitlys]].
+
+## A report that exists can still be older than the draft
+
+29 September 2026. I wrote the ten-line sweep this note prescribes and it told me a lesson
+was **ready to sign off**: both reports present, both `GOEDGEKEUR`. A writer had rewritten
+that draft ninety minutes after the newer of the two reports was written. Signing it off
+would have approved text nobody checked.
+
+**The sweep tested existence and verdict, and those are two of three conditions.** The
+third is freshness: `mtime(report) > mtime(draft)`. `keur-goed-na-handnasien.py` enforces it
+and would have refused — but my sweep is what decides whether I *call* the lesson ready,
+and a sweep that reports "ready" for text that is not checked is worse than no sweep,
+because it reads as verification.
+
+**How to apply:** a lesson counts as checked only when, for each of the two reports, the
+file exists, its `verdict` is `GOEDGEKEUR`, **and** it is newer than `les-N.json`. Print the
+third condition as its own state — `VEROUDERD` — rather than folding it into the verdict, or
+the number that matters disappears again. And note the verdict key is `verdict`, not
+`verdikt`; reading the wrong key returns unknown for every report and I have drawn
+conclusions from that twice.
