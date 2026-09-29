@@ -865,6 +865,21 @@ def stap(a, uit):
         P.skryf_json(les_pad, les)
         uit.step("status", "gated", ["measured and within band; ready for review"])
 
+        # A lesson that was already delivered and has come back for repair still has
+        # its PDF sitting in 'Voltooide lesse', where people browse finished work --
+        # and it is now a copy of text a checker has found wrong. Nothing removed it:
+        # the delivery folder is only rewritten at sign-off or by a hand-run backfill,
+        # and neither happens when a lesson is reopened. Three Grade 7 lessons sat
+        # there like that on 29 September 2026. This is the first moment the pipeline
+        # sees a reopened lesson, so it is where the stale copy goes.
+        try:
+            import voltooide_lesse
+            weg = voltooide_lesse.verwyder_verouderd(les, les_pad)
+            if weg:
+                uit.step("delivery", "stale copy removed", weg)
+        except Exception as e:  # never let housekeeping stop the pipeline
+            uit.step("delivery", "not checked", [str(e)])
+
     if staat.get("hek") == "FAIL":
         # A gate failure that was already reported and the draft has not changed.
         hek = P.lees_json(P.hek_verslag(les_pad))

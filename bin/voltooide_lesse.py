@@ -101,6 +101,28 @@ def kopieer(les, les_json_pad, pdf_pad=None):
     return doel
 
 
+def verwyder_verouderd(les, les_json_pad):
+    """Remove this lesson's delivery copy if it is no longer an approved lesson.
+
+    Returns the paths removed, relative to the repository, so a caller can report
+    them. An approved lesson is left alone — refreshing it is `kopieer`'s job.
+
+    Why this exists separately: the delivery folder is only rewritten at sign-off or
+    by a hand-run backfill, and neither happens when an approved lesson is reopened
+    for repair. Until someone thinks to run the backfill, the folder people browse
+    shows a finished lesson whose text a checker has since found wrong.
+    """
+    if les.get("status") == "goedgekeur":
+        return []
+    doel = doel_pad(les, les_json_pad)
+    weg = []
+    for p in [doel] + _ou_kopieë(doel):
+        if os.path.exists(p):
+            os.remove(p)
+            weg.append(os.path.relpath(p, P.REPO))
+    return weg
+
+
 def _lesse(graad=None, vak=None):
     patroon = os.path.join(
         P.KONSEPTE,
