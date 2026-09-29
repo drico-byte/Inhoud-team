@@ -1,20 +1,20 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Wat bepaal wat op jou bord kom",
   "graad": 7,
   "vak": "Lewensoriëntering",
-  "budget": 600,
-  "checked_at": "2026-09-28T08:38:30+00:00",
+  "budget": 700,
+  "checked_at": "2026-09-29T06:57:26+00:00",
   "study": {
-    "words": 659,
-    "sentences": 43,
-    "mean_sentence_len": 15.3,
+    "words": 696,
+    "sentences": 45,
+    "mean_sentence_len": 15.4,
     "median_sentence_len": 15,
-    "longest_sentence": 21,
+    "longest_sentence": 26,
     "mean_syllables": 1.34,
-    "pct_polysyllabic": 7.1,
-    "pct_long_words": 1.8,
-    "commas_per_sentence": 0.35
+    "pct_polysyllabic": 7.3,
+    "pct_long_words": 2.0,
+    "commas_per_sentence": 0.4
   },
   "eli10": null,
   "block_counts": {
@@ -22,8 +22,11 @@
     "begrip": 6
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text: 0.4 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
   "warnings": [
+    "Study block 2 ('Nie elke bord gee dieselfde nie') 143 words (guide 30–110) — will overflow its section",
     "Long words in study text with no 'begrip' entry: goedkoopste, voedingsprogram, voedingstowwe"
   ],
   "notes": [

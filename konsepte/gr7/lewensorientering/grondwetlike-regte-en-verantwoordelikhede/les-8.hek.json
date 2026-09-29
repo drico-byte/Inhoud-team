@@ -1,20 +1,20 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Van mond tot mond, en op papier",
   "graad": 7,
   "vak": "Lewensoriëntering",
   "budget": 500,
-  "checked_at": "2026-09-28T13:21:38+00:00",
+  "checked_at": "2026-09-29T07:19:30+00:00",
   "study": {
-    "words": 571,
-    "sentences": 40,
-    "mean_sentence_len": 14.2,
-    "median_sentence_len": 15.0,
+    "words": 595,
+    "sentences": 41,
+    "mean_sentence_len": 14.4,
+    "median_sentence_len": 15,
     "longest_sentence": 19,
-    "mean_syllables": 1.52,
-    "pct_polysyllabic": 11.7,
-    "pct_long_words": 2.8,
-    "commas_per_sentence": 0.2
+    "mean_syllables": 1.55,
+    "pct_polysyllabic": 13.4,
+    "pct_long_words": 3.5,
+    "commas_per_sentence": 0.29
   },
   "eli10": null,
   "block_counts": {
@@ -22,9 +22,13 @@
     "begrip": 4
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text 595 words, above budget ceiling 575 (target 500) — learners will revise the textbook instead"
+  ],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: familiestorie, gemeenskappe, neergeskryf, verskillende, vertellings, verwelkoming, vreemdelinge"
+    "Study block 6 ('Party religieë het geen heilige ') 140 words (guide 30–110) — will overflow its section",
+    "Study text: 3.5% of words exceed 10 characters (guide 3.0%)",
+    "Long words in study text with no 'begrip' entry: aangestelde, familiestorie, gemeenskappe, inisiasieskool, neergeskryf, onderwysers, tradisionele, verskillende"
   ],
   "notes": [
     "Grade 7 register band is an ESTIMATE, not measured. Profile DBE past papers to replace it.",

@@ -1,9 +1,11 @@
 {
   "les": "gr7/lewensorientering/grondwetlike-regte-en-verantwoordelikhede/les-8",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d0027ae0f1ededc71e2066e9de5f207b",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:cc9c23b07337fbc1162169dc938b1e26",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:cc9c23b07337fbc1162169dc938b1e26"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -91,9 +93,35 @@
       "woorde": 571,
       "begroting": 500,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-29T07:19:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:cc9c23b07337fbc1162169dc938b1e26",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-29T07:19:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 595,
+      "begroting": 500,
+      "failures": [
+        "Study text 595 words, above budget ceiling 575 (target 500) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-29T07:19:30+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 595 words, above budget ceiling 575 (target 500) — learners will revise the textbook instead"
+      ]
     }
   ],
-  "spek_hash": "sha256:b1517410993b7cb403b261fbc8ffc285",
+  "spek_hash": "sha256:8f754c6a6dd14bfcde6391b22c989754",
   "hek_konteks": {
     "graad": 7,
     "begroting": 500
