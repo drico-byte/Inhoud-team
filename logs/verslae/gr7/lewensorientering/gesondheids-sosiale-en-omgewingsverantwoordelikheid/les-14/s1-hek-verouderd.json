@@ -1,32 +1,37 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Wanneer iemand 'n epileptiese aanval kry",
   "graad": 7,
   "vak": "Lewensoriëntering",
-  "budget": 350,
-  "checked_at": "2026-09-28T13:56:17+00:00",
+  "budget": 560,
+  "checked_at": "2026-09-29T05:31:41+00:00",
   "study": {
-    "words": 336,
-    "sentences": 12,
-    "mean_sentence_len": 14.3,
-    "median_sentence_len": 14.0,
-    "longest_sentence": 23,
-    "mean_syllables": 1.29,
-    "pct_polysyllabic": 5.2,
-    "pct_long_words": 0.6,
-    "commas_per_sentence": 0.17,
+    "words": 556,
+    "sentences": 26,
+    "mean_sentence_len": 15.0,
+    "median_sentence_len": 14.5,
+    "longest_sentence": 22,
+    "mean_syllables": 1.37,
+    "pct_polysyllabic": 6.9,
+    "pct_long_words": 0.5,
+    "commas_per_sentence": 0.58,
     "list_words": 164
   },
   "eli10": null,
   "block_counts": {
-    "studie": 3,
+    "studie": 5,
     "lys": 2,
     "begrip": 3
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text: 0.58 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: epileptiese"
+    "Study block 2 ('Wat met hom gebeur en wie hulp r') 133 words (guide 30–110) — will overflow its section",
+    "Study block 4 ('Wanneer die aanval in water gebe') 141 words (guide 30–110) — will overflow its section",
+    "Study block 5 ('Bel ook as jy bekommerd is') only 26 words (guide 30–110)",
+    "Long words in study text with no 'begrip' entry: duidelikste, epileptiese"
   ],
   "notes": [
     "Grade 7 register band is an ESTIMATE, not measured. Profile DBE past papers to replace it.",

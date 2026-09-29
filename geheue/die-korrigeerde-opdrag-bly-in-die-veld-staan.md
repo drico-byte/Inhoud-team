@@ -151,3 +151,40 @@ ones a grep of the requirements misses.
 **And the overall tell holds, nine months on: a writer caught both.** When a *writer*
 catches your bookkeeping, the bookkeeping is the problem — twice in one day, on fields I
 had personally edited that same day.
+
+---
+
+**29 September 2026, and the sequence above is still not enough.** Six checkers in one
+round, on six different lessons, escalated the spec rather than the draft — and every one
+was me doing step 2 and skipping step 3.
+
+**The shape has narrowed to one thing: I PREPEND.** I write the correction as a new
+opening line, the field now reads correctly from the top, and the old instruction stands
+untouched two paragraphs down in the *same field*. Step 2 feels like it discharges step 3,
+because the field "has" the correction.
+
+It does not. A writer or a reviser reads the field as prose. The worst instance: a Werk 1
+requirement closed with **"What remains and is true: a story has no headings or bold, so
+there is nothing to look over"** — labelled as what survives, sitting directly below its
+own refutation in the same field. A Werk 9 field forbade, in capitals at its tail, the
+quantifier its own opening line required.
+
+**So the rule is stronger than "amend the opening line":**
+
+> **Rewrite the sentence that ORDERS the thing. Not a line above it — the sentence
+> itself.** An opening line that says "this wins over the rest of this field" is a note
+> about the field, not a change to it.
+
+Two corollaries that cost me rounds today:
+
+- **Assert against the live text, not the field.** A withdrawal record quotes the wording
+  it replaces, so `old not in field` fails on the record's own quotation. Assert that every
+  occurrence sits *after* the dated withdrawal marker, or strip the record before testing.
+  This fired twice in one day.
+- **A field with three layers of patches is due a rewrite, and the rewrite is cheaper than
+  the next round.** Werk 2's memory-aid requirement reached 5.6 KB and ended up ordering
+  two aids in one paragraph and three in the next. A writer, a checker and I each read it
+  and only the checker caught it.
+
+Related: [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]], [[n-ruil-wat-nie-pas-nie-moet-hard-faal]],
+[[my-regstelling-in-die-spek-was-self-die-volgende-fout]].
