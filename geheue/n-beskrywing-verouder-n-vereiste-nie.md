@@ -42,3 +42,25 @@ Related: this is the root that [[die-korrigeerde-opdrag-bly-in-die-veld-staan]],
 [[die-merker-begrawe-die-bestelling]] and [[n-wyser-benoem-nooit-rangskik]] all branch from. And
 [[n-veeg-vir-velde-wat-nog-bestel]] can only find the explicit phrasings — the general case needs
 a coverage checker, who reads the draft and the field together.
+
+## The sharpest special case: a COUNT beside a growing list
+
+Later the same day I hit this three times in one lesson. A field said "four referral
+thresholds" where the same field had added a fifth hours earlier. A budget note said
+"seven core items"; I corrected it to nine; within the hour I appended another item and
+it was wrong again. A heading said "this item orders all three" while its first point had
+been withdrawn, and another said "all six" with one point closed.
+
+A count is the purest kind of description: it is true only of the list as it stood when
+the sentence was typed, and the whole point of the list is that it grows. Nothing checks
+it, and a coverage checker reads it as an order — "all six" makes a withdrawn point live
+again.
+
+**How to apply.** Do not write a number next to a list you will add to. Say "the points
+that follow" or "the items in this field". Where a number carries real information (a
+measurement, a legal threshold, a word count), keep it and date it — but never use one
+as a way of pointing at your own contents. When you do correct one, ask whether the
+number should be there at all; updating it buys one hour.
+
+A heading that counts is the worst version, because it is read as the order and it
+resurrects whatever was withdrawn beneath it.
