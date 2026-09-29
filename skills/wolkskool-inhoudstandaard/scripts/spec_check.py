@@ -66,9 +66,14 @@ import argparse, json, re, sys
 #     its spec saying why.
 # LESBAND is the per-grade default; LESBAND_VAK overrides it for one subject.
 #
-# Grades 7-12 stay unbanded until someone decides them the same way, rather than
-# inheriting a number that was reasoned about another grade.
-LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550)}
+# Grades 7-9 were decided by Lampies on 23 September 2026, for Lewensorientering:
+# 350-700, and "die aantal woorde moet deur die inhoud bepaal word, moet nie
+# oortollig van aard wees nie". It is a wide band on purpose: a CAPS block in the
+# Senior Phase carries two to four hours of teaching, and how much a block really
+# holds differs from block to block, so the content sets the number rather than an
+# average. Grades 10-12 stay unbanded until someone decides them the same way,
+# rather than inheriting a number that was reasoned about another grade.
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550), 7: (350, 700), 8: (350, 700), 9: (350, 700)}
 LESBAND_VAK = {}
 
 
