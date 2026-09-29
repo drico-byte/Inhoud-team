@@ -47,12 +47,15 @@ MERKERS = [
     'TERUGGETREK', 'TERUGGETROKKE', 'HERSKRYF', 'REGGEMAAK', 'OMGEKEER', 'GESNY',
     'BESTEL NIKS', 'BESTEL NIE', 'IS DIE REKORD', 'GEDATEERDE REKORD', 'BYGEWERK',
     'GESLUIT', 'OPGESKORT', 'BEPERK', 'PARAFRASEER', 'VAL WEG', 'BESLEG',
+    'GEHAAL', 'VERNOU', 'BEGRENS', 'VERVANG', 'VERBREED', 'TOEGELAAT',
 ]
-VENSTER = 1800
 
-VELDE = ('kern', 'feiterisiko', 'aanvulling', 'begrotingsnota', 'kaps_leesnota',
-         'buite_bestek', 'plafon_uitsondering', 'voorrang_reel', 'aanmeldplig_reel',
-         'geen_skuld_reel', 'oop_vrae_vir_lampies')
+# GEEN WITLYS VAN VELDNAME. 'n Veeg wat net bekende velde lees, gee 'n VALSE SKOON:
+# op 29 September 2026 het hierdie skrip een treffer gerapporteer waar 'n nasiener twee
+# gesien het, want die tweede het in 'n veld gestaan wat nie op die lys was nie. Ons lees
+# nou ELKE veld, hoe hy ook al heet, en 'lesse' is die enigste uitsondering omdat sy die
+# lesse self hou.
+SLAAN_OOR = ('lesse',)
 
 
 def teks_van(x):
@@ -62,19 +65,39 @@ def teks_van(x):
 
 
 def gedek(teks, j):
-    """Staan die treffer by j binne bereik van 'n terugtrekkingsmerker?"""
-    venster = teks[max(0, j - VENSTER):j]
+    """Staan die treffer BINNE 'n oop hakie wat 'n terugtrekkingsmerker dra?
+
+    Die vroeer weergawe het net 1800 karakters teruggekyk. In 'n veld van 18 KB behoort 'n
+    merker so ver terug dikwels aan 'n ANDER sin, en op 29 September 2026 het dit 'n
+    lewende bestelling as gedek gemerk - presies die valse skoon wat hierdie skrip moet
+    keer. Ons volg nou die hakie-diepte: 'n treffer tel net as gedek wanneer hy binne 'n
+    hakie staan wat nog nie toegemaak is nie EN daardie hakie 'n merker dra.
+    """
+    diepte = 0
+    begin = []
+    for i, c in enumerate(teks[:j]):
+        if c == '[':
+            diepte += 1
+            begin.append(i)
+        elif c == ']' and diepte:
+            diepte -= 1
+            begin.pop()
+    if not begin:
+        return None
+    binne = teks[begin[0]:j]
     for m in MERKERS:
-        if m in venster:
+        if m in binne:
             return m
     return None
 
 
 def velde_van(houer):
-    """(veldnaam, indeks, teks) vir elke veld, of hy 'n lys of 'n string is."""
-    for naam in VELDE:
+    """(veldnaam, indeks, teks) vir ELKE veld van die houer, hoe hy ook al heet."""
+    for naam in sorted(houer.keys()):
+        if naam in SLAAN_OOR:
+            continue
         v = houer.get(naam)
-        if v is None:
+        if v is None or isinstance(v, (int, float, bool)):
             continue
         if isinstance(v, list):
             for i, x in enumerate(v):
