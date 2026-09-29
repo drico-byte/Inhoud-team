@@ -19,18 +19,18 @@
 - [Every lesson gets its own name](elke-les-kry-n-eie-naam.md) — the title is the learner's hero heading, never the CAPS label; and nothing checks a title the way it checks the text.
 - [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — Term 1 is 1-8, Term 2 starts at 9, ~30 total; the file name is his CAPS index, the title is the hero.
 - [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — three costumes now: a new phrasing, a new object, and a parallel list whose every sentence is true; sweep the false CONCLUSION, not the words.
-- [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — seven times in one day; always ask what the fix disturbed, not whether the finding is gone.
+- [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — ask what the fix disturbed, not whether the finding is gone; and check which CLAUSE new precision attaches to.
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
 - [Gr 4 SW: where we are](gr4-sw-waar-ons-is.md) — 16 of 30 signed off 22 Sep 2026; Drico's ceiling ruling (450 holds the MEASURED lesson) and the two closed questions.
 - [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
 - [When the book covers fewer lessons than we write](meting-dek-minder-as-die-lesse.md) — don't divide the measurement evenly; it robs the lessons the book does cover.
-- [The reference example is never fact-checked](die-verwysingsles-word-nooit-nagegaan.md) — every writer in every subject reads it and nothing checks it; two false mechanisms found in it in one day, each already copied outward.
+- [The reference example is never fact-checked](die-verwysingsles-word-nooit-nagegaan.md) — every writer in every subject reads it and nothing checks it; two false mechanisms in one day.
 - [Specs are never fact-checked](spesifikasies-word-nooit-nagegaan.md) — a false mechanism in a spec plants itself in every lesson; and the safeguard you write to fix a finding is itself an unchecked mechanism.
 - [Practical work: we teach the thinking](praktiese-werk-ons-leer-die-denke.md) — the theory a making task tests is ours; the making is not, and interactivity is the layout team's bonus.
 - [Tell the story, don't explain it](vertel-die-storie-moenie-dit-verklaar-nie.md) — cultural stories get told, not dissected; ~100 words each, and the count is set by what is verifiable.
 - [Before stopping, say what is running](voor-jy-stop-se-wat-loop.md) — report how close each agent is first; never kill a long fact check without asking.
 - [An agent killed mid-task leaves content without its record](n-agent-wat-halfpad-sterf-laat-die-inhoud-sonder-sy-rekord.md) — it writes the lesson and its note in separate steps; diff the report's quoted sentences against the draft, never the note.
-- [A report in the log tree can be stale](n-verslag-in-die-logboom-kan-verouderd-wees.md) — it snapshots the draft as it was when the check ran, and an escalation shows as current because it was never closed; seven of nine briefed items were already fixed.
+- [A report in the log tree can be stale](n-verslag-in-die-logboom-kan-verouderd-wees.md) — it snapshots the draft as it was; seven of nine briefed items were already fixed.
 - [A report does not exist because the agent says so](n-verslag-bestaan-nie-omdat-die-agent-so-se.md) — copy the runner's own printed paths instead of typing them; a missing report is not proof the checker misplaced it.
 - [State that never got saved](staat-wat-nie-gestoor-word-nie.md) — the runner deleted every coverage report forever; when a step demands work already done, check the fingerprint, and suspect the harness before the agents.
 - [Ask the whole subject, not three lessons](vra-die-hele-vak-nie-drie-lesse-nie.md) — I called content new after checking a shortlist; two delivered lessons already taught it.
@@ -123,3 +123,5 @@
 - [Three lessons at a time on this machine](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Drico: this account has far fewer tokens than the other two; a rate, not a discount.
 - [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks exactly like an item-level one; and CAPS marks a binding list by leaving out the word soos.
 
+
+- [Test a parallel set as a set](toets-n-parallelle-stel-as-n-stel.md) — say so in the fact brief; reading four blocks together found five faults where sentence-by-sentence found one.
