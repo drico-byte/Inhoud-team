@@ -115,3 +115,5 @@
 - [The ELI10 block is abolished](eli10-blok-is-afgeskaf.md) — Drico 23 Sep 2026; nothing moves into the study text, the gate hard-fails one, and 60 specs still ordered it.
 - [The reading copy sent out our internal notes](die-leeskopie-het-ons-interne-notas-uitgestuur.md) — approved lessons carried the review appendix to the language checker and the HTML team; 56 PDFs still have it.
 - [Three PCs work in parallel](drie-rekenaars-werk-parallel.md) — open lessons outside my subject are probably someone else's; report what is left in MY work, and a repo-wide sweep reaches into their files.
+- [Gr 4 Geography: the rulings](gr4-geografie-besluite.md) — 30 lessons, 400 words, videos already made; hunting and urban farming carried briefly by our text; map-skills lesson 1 may run light.
+

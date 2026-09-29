@@ -136,3 +136,49 @@ See [[my-soektogte-mis-en-dan-glo-ek-hulle]]. Every "ONTBREEK" above was confirm
 searching for the concept under several wordings, not one.
 
 The misspelling **"bestaanboerdery"** is worth passing to the language check.
+
+---
+
+## Drico se beslissings, 29 September 2026
+
+**DIE VIDEO'S BESTAAN REEDS.** Die vier skrifte is vas en word nie verander nie. Gr 4
+Geografie loop dus presies soos Gr 4 Geskiedenis: die video se lesverdeling wen, die
+skrif is 'n EKSTRA inset, dit word gedistilleer in 'n `video_naat` en nooit geplak nie,
+en die feitenasiener sien dit nooit. Sien die inhoudstandaard se "Gr 4 Sosiale
+Wetenskappe runs a different process".
+
+**Die twee KABV-gapings word deur ONS TEKS gedra, nie deur die skrif nie.** Drico:
+"Add the hunting and urban farming briefly into the text we create. Enough to satisfy
+caps but not too much."
+
+* **Jag** — een van KABV se vyf benoemde maniere waarop mense kos kry (koop, verbou,
+  versamel, visvang, jag). Die skrif se les 2 dra die eerste vier. Voeg jag KORT by,
+  in daardie les se teks. Genoeg om die KABV-strepie te dek, nie meer nie.
+* **Verbouing van voedsel in dorpe en stede** — KABV noem dit langs bestaans- en
+  kommersiële boerdery. Voeg dit KORT by waar die soorte boerdery behandel word.
+
+Albei is KABV-benoemd en dus verpligtend; albei is **aanvulling in omvang maar kern in
+status** — hulle dek 'n KABV-strepie, dus tel hulle nie teen die 25%-aanvullingsperk
+nie. Hou hulle kort: 'n sin of twee elk.
+
+**Begroting: 400 woorde per les, so ver as moontlik.** Dieselfde getal as die middelpunt
+van Gr 4 Geskiedenis (mediaan 400 oor 30 lesse). Die Graad 4-plafon van 450 hou steeds
+die GEMETE les.
+
+**Kaartwerk les 1 is 'n uitsondering en mag VEEL LAER wees.** Dit is 'n inleiding wat in
+geen KABV-strepie staan nie. Drico: "its lesson text volume can be lower than the rule
+we set. Remember the text just support the video." Moenie dit tot 400 oprek nie — genoeg
+om die video te ondersteun en niks meer nie.
+
+**Lesverdeling, soos die video's dit gee (30 lesse, dieselfde as Geskiedenis):**
+
+| Subonderwerp | Lesse | KABV-kwartaal |
+|---|---|---|
+| Plekke waar mense woon (nedersettings) | 7 | 1 |
+| Kaartvaardighede | 8 | 2 |
+| Voedsel en boerdery in Suid-Afrika | 6 | 3 |
+| Water in Suid-Afrika | 9 | 4 |
+
+Jaarnommers loop 1-30 PER DISSIPLINE — Geografie begin weer by 1, want Geskiedenis dra
+reeds 1-30 (Drico, 23 September 2026).
+
