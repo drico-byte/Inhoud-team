@@ -148,6 +148,20 @@ BLOCK_WORDS_MIN, BLOCK_WORDS_MAX = 30, 110
 BLOCKS_MIN, BLOCKS_MAX = 3, 10
 BUDGET_TOLERANCE = 0.15
 
+# --- the CAPS-hours method (Drico, 29 September 2026) -----------------------
+# New work budgets a CLUSTER from its CAPS hours and lets the planner distribute
+# inside it, so each lesson's length is its own. Three consequences for the gate,
+# all switched on by --kaps-ure (which hardloop passes when the spec declares
+# begroting_basis: "kaps-ure"). Lessons approved before that date are untouched:
+# no marker, no change.
+#   * the ceiling is planned x 1.12, not x 1.15;
+#   * landing UNDER the planned number WARNS and never fails -- it has happened
+#     once in the project's history, on a 650-word budget, and Drico's ruling is
+#     to flag it and handle each one individually;
+#   * LESBAND does not apply. An absolute per-grade ceiling contradicts the
+#     method, so a 120-word lesson and a 500-word one are both in order.
+KAPS_URE_TOLERANCE = 0.12
+
 # Per-lesson word band per grade, mirroring spec_check.py's LESBAND. spec_check
 # holds the BUDGET to this band; nothing held the MEASURED draft to it, and the
 # two can part company: a budget at the top of the band plus the +15% tolerance
@@ -255,7 +269,7 @@ def check_register(m, band, label, fails, warns):
         warns.append(f"{label}: longest sentence is {m['longest_sentence']} words — check for a missing full stop")
 
 
-def run(lesson, grade, budget):
+def run(lesson, grade, budget, kaps_ure=False):
     band = band_for(grade)
     blocks = lesson.get("blokke", [])
     fails, warns, notes = [], [], []
@@ -283,7 +297,7 @@ def run(lesson, grade, budget):
     if not study and not reading:
         fails.append("No blocks of tipe 'studie' or 'leesstuk' found — nothing to measure against the volume budget")
         return {"verdict": "FAIL", "titel": lesson.get("titel"), "graad": grade,
-                "vak": lesson.get("vak"), "budget": budget,
+                "vak": lesson.get("vak"), "budget": budget, "kaps_ure": kaps_ure,
                 "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 "study": None, "eli10": None,
                 "block_counts": {k: len(v) for k, v in by_type.items()},
@@ -303,13 +317,26 @@ def run(lesson, grade, budget):
     # Name the thing being measured after what actually carries the lesson, so a
     # reading lesson's failure does not talk about study text it never had.
     label = "Reading text" if reading and not study else "Study text"
-    lo, hi = budget * (1 - BUDGET_TOLERANCE), budget * (1 + BUDGET_TOLERANCE)
-    if sm["words"] < lo:
-        fails.append(f"{label} {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
-    elif sm["words"] > hi:
-        fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
+    if kaps_ure:
+        hi = budget * (1 + KAPS_URE_TOLERANCE)
+        if sm["words"] > hi:
+            fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} "
+                         f"(planned {budget} + 12%) — the planner judged this lesson's share of "
+                         f"its cluster, so cut it back rather than borrowing words. Words may "
+                         f"never move between CAPS clusters.")
+        elif sm["words"] < budget:
+            warns.append(f"{label} {sm['words']} words, below the planned {budget} — flagged for a "
+                         f"person to weigh, not a failure (Drico, 29 September 2026). Ask whether "
+                         f"the lesson is thin or the plan was generous.")
+    else:
+        lo, hi = budget * (1 - BUDGET_TOLERANCE), budget * (1 + BUDGET_TOLERANCE)
+        if sm["words"] < lo:
+            fails.append(f"{label} {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
+        elif sm["words"] > hi:
+            fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} (target {budget}) — learners will revise the textbook instead")
     # NB: not named 'band' — that name holds the REGISTER band and is read below.
-    lesband = LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
+    # A kaps-ure lesson has no absolute ceiling by design, so LESBAND is skipped.
+    lesband = None if kaps_ure else LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
     if lesband and sm["words"] > lesband[1]:
         warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson ceiling {lesband[1]} "
                      f"— a person must cut it to {lesband[1]} or fewer. The budget ({budget}) plus "
@@ -438,6 +465,7 @@ def run(lesson, grade, budget):
         "graad": grade,
         "vak": lesson.get("vak"),
         "budget": budget,
+        "begroting_basis": "kaps-ure" if kaps_ure else "meting",
         "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "study": {k: v for k, v in sm.items() if k != "long_words"},
         "eli10": {k: v for k, v in em.items() if k != "long_words"} if em else None,
@@ -454,6 +482,9 @@ def main():
     ap.add_argument("lesson")
     ap.add_argument("--grade", type=int, required=True)
     ap.add_argument("--budget", type=int, required=True, help="target study-text word count")
+    ap.add_argument("--kaps-ure", action="store_true",
+                    help="budget came from CAPS hours (Drico, 29 Sep 2026): ceiling is planned+12%%, "
+                         "under-supply warns instead of failing, and no absolute per-grade ceiling applies")
     ap.add_argument("--json", action="store_true", help="emit JSON only (for orchestrator use)")
     ap.add_argument("--log", help="append result to this JSONL log")
     ap.add_argument("--woordeboek", default=None,
@@ -466,7 +497,7 @@ def main():
         set_dictionary(a.woordeboek)
 
     lesson = json.load(open(a.lesson, encoding="utf-8"))
-    r = run(lesson, a.grade, a.budget)
+    r = run(lesson, a.grade, a.budget, kaps_ure=a.kaps_ure)
 
     if a.log:
         with open(a.log, "a", encoding="utf-8") as f:

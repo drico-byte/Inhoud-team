@@ -114,3 +114,5 @@
 - [Lessons always go to lees/](lesse-gaan-altyd-na-lees.md) — Drico's outbox; copy every approved PDF there with its protected-words page, without being asked.
 - [The ELI10 block is abolished](eli10-blok-is-afgeskaf.md) — Drico 23 Sep 2026; nothing moves into the study text, the gate hard-fails one, and 60 specs still ordered it.
 - [The reading copy sent out our internal notes](die-leeskopie-het-ons-interne-notas-uitgestuur.md) — approved lessons carried the review appendix to the language checker and the HTML team; 56 PDFs still have it.
+- [Budgets come from CAPS hours](begroting-uit-kaps-ure.md) — hours x the subject's own rate gives a CLUSTER envelope, the planner distributes inside it, ceiling is planned +12% and there is no absolute ceiling.
+- [Our division must not shift toward a textbook's](n-eie-verdeling-mag-nie-na-die-handboek-toe-skuif-nie.md) — matching it independently is fine; changing our answer because theirs differs undoes the copyright position.
