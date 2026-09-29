@@ -338,6 +338,24 @@ def met_spek_konteks(spek, inskrywing):
             w = v.get("omskrywing")
             if w:
                 return w
+            # A term with TWO DELIBERATE MEANINGS has no single `omskrywing`, and until
+            # 29 September 2026 that meant the writer was handed `null` for it -- so a
+            # wording Drico had actually settled reached the lesson only if a planner
+            # had restated it in the spec. The sweep already knew about these terms and
+            # excluded them from drift; the injector did not, which is the same hole the
+            # scope fallback below was written to close.
+            if v.get("twee_betekenisse") and v.get("betekenisse"):
+                dele = []
+                for b in v["betekenisse"]:
+                    sin = (b.get("sin") or "").strip()
+                    wanneer = (b.get("wanneer") or "").strip()
+                    if sin:
+                        dele.append(f"({wanneer}) {sin}" if wanneer else sin)
+                if dele:
+                    return ("EEN WOORD MET TWEE BETEKENISSE, MET OPSET, EN HULLE MAG NIE "
+                            "OOREENGESTEM WORD NIE. Gebruik die een wat by jou les hoor, "
+                            "woordeliks, en omskryf die ander een nie: "
+                            + "  ".join(dele))
             omvang = v.get("omvang")
             if not omvang:
                 return None
