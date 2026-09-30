@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
-  modified: 2026-09-30T19:29:53.675Z
+  modified: 2026-09-30T19:46:05.052Z
 ---
 
 **Drico, 29 September 2026, deciding this for everything from now on.** Grade 6 Sosiale
@@ -71,7 +71,15 @@ So the order is: try to move words from a neighbour inside the cluster, and **ju
 by its CEILING, not its budget** — a lesson measuring 487 against a 492 ceiling cannot lend ten
 words, because a budget ten lower drops its ceiling to 481 and puts it over. When every lesson in
 the cluster measures above the ceiling a smaller budget would give it, there is nothing to move,
-and the choice is a shorter sentence or a decision about the cluster. It is never a false claim —
+and the choice is a shorter sentence or a decision about the cluster.
+
+**The one sanctioned way the envelope grows is not an escape.** `vloer_optel` lifts a lesson TO the
+200-word floor and no further; the checker fails a spec that declares one on a lesson whose budget is
+anything else, and says in as many words that it "is not a way to buy a cluster extra words". So
+there is no flag to reach for. A cluster whose hours are mostly practical work declares
+`kluster_uitsondering` instead — and the checker reads that off the LESSON, not off the cluster.
+
+It is never a false claim —
 see [[drie-maniere-om-n-bewering-reg-te-maak]] and
 [[n-plafon-kan-n-regstelling-onbekostigbaar-maak]].
 
