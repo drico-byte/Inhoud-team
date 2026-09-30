@@ -33,3 +33,33 @@ first. The report is evidence, not a source of truth, and my own memory of a fil
 is not evidence at all. Where a figure has already been wrong once, write the
 wrong version and why into the field beside the right one, so the next reader
 sees the history rather than the conclusion.
+
+---
+
+**30 September 2026, Gr 6 SW Democracy: the unchecked line was inside a correction
+RECORD, and it planted the next error within hours.**
+
+Withdrawing a false title, I wrote into the requirement — in the dated record explaining
+the withdrawal — that the Department's Bill of Responsibilities "sets out the
+responsibilities that flow from EVERY right". It pairs responsibilities with **twelve**
+rights, not with the Bill of Rights' twenty-seven. I had not checked it; it sounded like
+the kind of thing that framework would say.
+
+The writer read that record, and titled the lesson *By elke reg staan 'n
+verantwoordelikheid*. The next fact check could neither confirm nor refute the universal
+and sent it to a person — which is the honest answer, and it cost a whole round.
+
+**What this adds.** The rule above was about requirements. A record is not a requirement,
+and that is exactly why I was careless in it: it felt like commentary. But a writer reads
+the whole field, and a record carries *evidence* — dates, sources, what a body says. Every
+claim a record makes is read as established, and a wrong one is worse than a wrong
+requirement, because nothing is testing against a record at all. Coverage measures the
+draft against `kern`; nobody measures the record against anything.
+
+**How to apply:** check a factual claim before it goes into a record, to the same standard
+as a requirement — or write it as the uncertainty it is ("I have not verified how many
+rights that framework covers"). Where the record's purpose is to explain *why* something
+was withdrawn, the reason can usually be given without a new outward fact at all.
+
+Related: [[my-regstelling-in-die-spek-was-self-die-volgende-fout]],
+[[n-regstelde-fout-kom-in-n-ander-gedaante-terug]], [[die-merker-begrawe-die-bestelling]].

@@ -81,3 +81,35 @@ and arrangement is invisible to every check that reads sentences. Two guards:
 Related: [[n-waarskuwing-moet-elke-broer-dek]] (the same list-shaped blindness, in the
 cautions instead of the content), [[elke-sin-waar-die-prentjie-vals]],
 [[n-weglating-verander-sy-bure]].
+
+---
+
+**30 September 2026, Gr 6 SW Democracy lesson 4: the fourth costume is a different
+quantifier — and the withdrawal note's own permission is the gap it came through.**
+
+The title *Jou regte werk net as almal hulle deel doen* was withdrawn as false. My note
+said which words had to fall — "NET" and "ALMAL" — and then added that the
+responsibility half of the idea was sound and a new title might carry it.
+
+The new title was *By elke reg staan 'n verantwoordelikheid*. Same universal, different
+word, and my note had explicitly cleared the ground for it: it forbade saying rights
+otherwise fail, and said nothing about asserting that a responsibility stands beside
+**every** right. The lesson's own summarising sentence says "sommige ... ander".
+
+**What this adds.** The costume can be the *quantifier*: net, almal, elke, altyd, enige,
+niemand. They are interchangeable carriers of one claim, so naming two of them as the
+fault reads as permission for the third.
+
+And a new guard, about my own notes rather than the content:
+
+* **A withdrawal note that grants a permission has to bound it.** "The idea is sound and
+  a new title may carry it" is an invitation unless it says in what form. Write what the
+  replacement may *not* claim, not only what the old one claimed — and when the fault was
+  a universal, say that no universal in any word is allowed.
+* **Count the withdrawals.** This was the second title lost from one lesson, and the
+  second loss was caused by the record of the first. A second failure at the same spot
+  means reading what I wrote there, not just what the writer wrote.
+
+Related: [[die-korrigeerde-opdrag-bly-in-die-veld-staan]],
+[[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]],
+[[n-versagting-vat-die-algemene-helfte-saam]].

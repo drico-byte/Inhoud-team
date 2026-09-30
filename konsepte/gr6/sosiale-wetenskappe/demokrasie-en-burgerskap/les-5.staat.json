@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/demokrasie-en-burgerskap/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:17682411d712fee2e478e362a46e610f",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:5c08177c71f29a4232bfc7701a34ef8e",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:5c08177c71f29a4232bfc7701a34ef8e"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -49,9 +51,35 @@
       "woorde": 320,
       "begroting": 300,
       "failures": []
+    },
+    {
+      "wanneer": "2026-09-30T13:40:16+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5c08177c71f29a4232bfc7701a34ef8e",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-30T13:40:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 324,
+      "begroting": 300,
+      "failures": [
+        "Study text: 3+ syllable words 13.9% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-09-30T13:40:16+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 3+ syllable words 13.9% above maximum 13.0%"
+      ]
     }
   ],
-  "spek_hash": "sha256:b8daeec2579a638ab9b56273b2a31d39",
+  "spek_hash": "sha256:eacf0e1a37a97c782a137a6b1b91ddb0",
   "hek_konteks": {
     "graad": 6,
     "begroting": 300

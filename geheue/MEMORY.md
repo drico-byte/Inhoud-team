@@ -18,7 +18,7 @@
 - [Cross-check the term plan against CAPS](kruistoets-die-termynplan-teen-kaps.md) — all three parts of the document disagree; produce a coverage map before writing anything.
 - [Every lesson gets its own name](elke-les-kry-n-eie-naam.md) — the title is the learner's hero heading, never the CAPS label; and nothing checks a title the way it checks the text.
 - [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — Term 1 is 1-8, Term 2 starts at 9, ~30 total; the file name is his CAPS index, the title is the hero.
-- [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — three costumes: a new phrasing, a new object, and a parallel list of true.
+- [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — four costumes: a new phrasing, a new object, a parallel list, and a different quantifier; sweep the false CONCLUSION.
 - [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — ask what the fix disturbed, not whether the finding is gone; and check which CLAUSE new precision attaches to.
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
 - [Gr 4 SW: where we are](gr4-sw-waar-ons-is.md) — 16 of 30 signed off 22 Sep 2026; Drico's ceiling ruling (450 holds the MEASURED lesson) and the two closed questions.
@@ -50,7 +50,7 @@
 - [The provenance note leaks the spec to the fact checker](die-herkoms-nota-lek-die-spek-na-die-feitenasiener.md) — a writer records the spec's requirements inside the lesson file, and the checker reads them; closed by stripping the note.
 - [A softening takes the general half with it](n-versagting-vat-die-algemene-helfte-saam.md) — narrow the quantifier, never the subject; a fix writable as "not" plus the old sentence is the opposite error.
 - [List blocks never reached the language checker](lysblokke-het-nooit-by-die-taalnasiener-uitgekom-nie.md) — seventeen blocks dropped silently, and protected words inside them went.
-- [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — two unchecked measurements and one false claim in one day.
+- [Don't write into the spec what you haven't checked](moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie.md) — a spec is read as settled, and so is a correction RECORD inside one; check a fact before you write it there.
 - [A claim about Afrikaans usage is not a requirement](n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie.md) — a whole block rested on "sit dit hoër"; Afrikaans says "harder", and an English problem had been imported.
 - [My searches miss, and then I believe them](my-soektogte-mis-en-dan-glo-ek-hulle.md) — three empty results reported as findings in one day; the third nearly became a false accusation.
 - [The video's lesson division wins](video-se-lesverdeling-wen.md) — where a video came first and merged two CAPS bullets, the text merges too.
