@@ -98,7 +98,7 @@
 - [The provenance note grows into its own blocker](die-herkoms-nota-groei-tot-sy-eie-blokkasie.md) — 55 KB on one line stopped a writer dead; split it with the archive script, never by recording less.
 - [The fact checker reads a stale draft](die-feitenasiener-lees-n-verouderde-konsep.md) — its stripped copy is rewritten only by a runner call, so findings arrive about text already fixed.
 - [The marker buries the order](die-merker-begrawe-die-bestelling.md) — one line too high and a record marker leaves a spec field ordering nothing.
-- [Sweep the claim across every spec](vee-die-bewering-oor-al-die-spesifikasies.md) — a claim refuted in one sub-topic was alive in another; a cosmetic spec edit costs a finished check a re-run.
+- [Sweep the claim across every spec](vee-die-bewering-oor-al-die-spesifikasies.md) — one withdrawn claim was alive in FIVE fields; sweep other lessons' examples too.
 - [Don't put the intent in a fact brief](moenie-die-bedoeling-in-die-feitebrief-se-nie.md) — I told the eli10 checker why 'buite om' was chosen.
 - [Frame vs shell is form](raam-teenoor-dop-is-vorm.md) — separate struts vs one load-bearing wall; I gave Drico inside/outside, which is endo vs exo and failed on ribcage and tortoise.
 - [Only what needs my eyes](net-wat-my-oe-nodig-het.md) — chat only for questions, decisions or real milestones; short; no running status.

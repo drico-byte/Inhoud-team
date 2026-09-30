@@ -67,3 +67,44 @@ rather than leaving it for the runner to discover. The runner archives the stale
 its next call, and if that call is a sign-off it demands the whole check again at exactly
 the wrong moment — which is the failure
 [[moenie-die-hardloper-vra-oor-n-nagesiende-les-nie]] records.
+
+---
+
+**30 September 2026, Gr 6 SW Democracy: the claim was alive in FIVE fields, and the last
+one was another lesson's WORKED EXAMPLE.**
+
+Lesson 4's title *Jou regte werk NET AS almal hulle deel doen* was withdrawn as false. Over
+the day the same claim turned up, one field at a time, in:
+
+1. the title (found by a fact check),
+2. a study sentence in the same lesson (same check),
+3. the lesson's **budget note**, stating the lesson's single idea as "elke reg het 'n
+   verantwoordelikheid langs hom" — in an ordering clause, not a record,
+4. the **focus-question link**, giving the rule with no quantifier at all,
+5. **lesson 6's requirement for children's responsibilities**, whose two worked examples
+   read "'n kind se reg om te leer werk net as ander kinders die klas nie opbreek nie".
+
+Each time I fixed it I believed I had swept. Three of the five were found by checkers, not
+by me.
+
+**Why number five is the worst place for it.** A requirement's worked example exists to be
+copied — it is the one kind of spec text a writer reproduces in shape and often in wording.
+And nothing in the pipeline can see it: the fact checker never gets a specification, and
+coverage tests whether the draft *matches* the requirement, never whether the requirement
+is *true*. A false form sitting in an example in a different lesson from the one where it
+died will be reproduced faithfully and reported as covered.
+
+**How to apply.**
+
+* When a claim is withdrawn, sweep **every lesson of the sub-topic**, not the lesson it was
+  found in — and inside each lesson, sweep the fields that are not requirements:
+  budget notes, merge rationales, focus links, scope lists, and above all **examples**.
+* Sweep on the claim's shape, not its words: "werk net as", "werk die beste as", "elke X
+  het 'n Y", "geld net wanneer". A quantifier and a conditional are the same claim.
+* A field that *demonstrates* rather than *orders* is the highest-value target, because it
+  is designed to propagate.
+
+Related: [[n-spek-se-dieselfde-ding-in-twee-velde]],
+[[n-regstelde-fout-kom-in-n-ander-gedaante-terug]],
+[[die-verwysingsles-word-nooit-nagegaan]] (the same hazard in the shared reference lesson),
+[[spesifikasies-word-nooit-nagegaan]].
