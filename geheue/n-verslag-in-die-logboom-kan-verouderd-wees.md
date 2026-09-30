@@ -40,3 +40,40 @@ ordering the paddle-and-muscle frame the correction removes, it was visible in m
 printed output, and I amended four other fields and not that one. The writer found it.
 See [[n-ruil-wat-nie-pas-nie-moet-hard-faal]] — the print is only worth its cost if you
 act on the whole of it.
+
+---
+
+**30 September 2026: I dispatched the same fact check twice, forty minutes apart, and the
+second one's report was against a draft that no longer existed.**
+
+Lesson 6 of Gr 6 SW Democracy got two round-three fact checks. I sent the first, took its
+findings, ported them, sent a repair — and then sent a *second* round-three check whose
+brief I had written earlier and not cancelled. It ran for thirty-one minutes and 215K
+tokens against the pre-repair draft.
+
+**What made it worth reading anyway, and the discipline that made it safe.** Two
+independent checks of one draft do not find the same things, so the stale report carried
+seven findings the first had missed — including that a closed six-item list under the
+heading "what section 28 gives every child" claims the whole of section 28, which has nine
+paragraphs, and that the omitted one that matters most to an eleven-year-old is that a
+child's best interests are paramount.
+
+But I could only use it because I diffed every finding against the current draft before
+briefing anything. Three of its findings were already repaired; one had been cut entirely.
+Briefing the report as it stood would have sent a writer to fix text that was gone — the
+failure this note already records, arriving by a new route.
+
+**How to apply.**
+
+* **Before sending an agent, check what is already running on that lesson.** A brief
+  written twenty minutes ago may have been overtaken by a repair you dispatched since.
+  The cost is not only tokens: a second report on a dead draft looks exactly like a second
+  report on the live one.
+* **A stale report is still evidence, and two checks of one draft are worth more than
+  one** — but every finding gets diffed against the current file before it reaches a
+  writer, one at a time, by searching the draft for the claim.
+* When two checkers disagree about a fact, look for the narrower claim all of them
+  accept. Here one contested "the demands were submitted to the negotiations" with dates —
+  CODESA II collapsed in May 1992 and the charter was adopted on 1 June — while two had
+  confirmed it. "The children wanted their demands to reach the negotiations" is carried by
+  every source and loses nothing.

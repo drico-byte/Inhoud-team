@@ -30,7 +30,7 @@
 - [Tell the story, don't explain it](vertel-die-storie-moenie-dit-verklaar-nie.md) — cultural stories get told, not dissected; about 100 words each, set by what is verifiable.
 - [Before stopping, say what is running](voor-jy-stop-se-wat-loop.md) — report how close each agent is first; never kill a long fact check without asking.
 - [An agent killed mid-task leaves content without its record](n-agent-wat-halfpad-sterf-laat-die-inhoud-sonder-sy-rekord.md) — lesson and note are written in separate steps.
-- [A report in the log tree can be stale](n-verslag-in-die-logboom-kan-verouderd-wees.md) — it snapshots the draft as it was; seven of nine briefed items were already fixed.
+- [A report in the log tree can be stale](n-verslag-in-die-logboom-kan-verouderd-wees.md) — it snapshots the draft as it was; diff every finding before briefing, and check what is already running.
 - [A report does not exist because the agent says so](n-verslag-bestaan-nie-omdat-die-agent-so-se.md) — copy the runner's own printed paths instead of typing them.
 - [State that never got saved](staat-wat-nie-gestoor-word-nie.md) — when a step demands work already done, check the fingerprint and suspect the harness before the agents.
 - [Ask the whole subject, not three lessons](vra-die-hele-vak-nie-drie-lesse-nie.md) — I called content new after checking a shortlist; two delivered lessons already taught it.
