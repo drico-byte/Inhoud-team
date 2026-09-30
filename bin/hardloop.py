@@ -364,11 +364,32 @@ def met_spek_konteks(spek, inskrywing):
                     "omvang; die bewoordings word na die hele jaar se skryfwerk versoen, "
                     "dus is joune nie die finale een nie.")
 
+        # A decision that has been CHALLENGED AND REAFFIRMED needs a channel to the
+        # agents, and until 30 September 2026 it had none: `rede` and `let_op` stay out
+        # of the extract because they run to hundreds of words a term, so a note saying
+        # "two checks raised this and the answer is still no" reached nobody and the same
+        # term came back every round, costing a repair pass each time. `hou_vas` is one
+        # capped sentence a term and it travels in its OWN key -- never appended to the
+        # wording, which is verbatim-mandatory, because a writer copying the entry would
+        # then copy the note into the lesson.
+        HOU_VAS_KAP = 260
+        herbevestig = {}
+        for term, v in (k.get("terme") or {}).items():
+            h = (v.get("hou_vas") or "").strip()
+            if h:
+                herbevestig[term] = h[:HOU_VAS_KAP]
         saam["vak_gedeelde_omskrywings"] = {
             "nota": k.get("nota"),
             "terme": {t: _bewoording(v)
                       for t, v in (k.get("terme") or {}).items()},
         }
+        if herbevestig:
+            saam["vak_gedeelde_omskrywings"]["herbevestigde_besluite"] = {
+                "nota": ("Hierdie terme se bewoording is al aangeveg EN herbevestig. Die nota is NIE deel "
+                         "van die bewoording nie en word nie in 'n les geskryf nie - sy se net waarom die "
+                         "bewoording so bly. Moenie die punt weer opper nie."),
+                "terme": herbevestig,
+            }
 
     # THE PREVIOUS GRADE'S LIST, READ-ONLY. Drico's decision, 9 September 2026.
     #
