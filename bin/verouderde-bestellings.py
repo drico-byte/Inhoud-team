@@ -160,6 +160,17 @@ def ondersoek(pad, minimum):
 # \b became a literal backspace character, so the pattern matched nothing and the check
 # reported a clean bill on three inputs that definitely carried the fault. Edit this file
 # directly rather than generating these lines from a shell string.
+#
+# TRIED AND REVERTED on 30 September 2026, and worth knowing so nobody tries it again. A
+# WRITER found a live order below a marker that this pattern cannot see: "DIE WOORDELYS DRA
+# 'n INSKRYWING VIR 'wet'" is an order phrased as a statement. Adding \bDRA\b did catch it --
+# and fired on two of my own RECORDS, one of them the sentence explaining that this pattern
+# cannot see it. That is the trade this check must not make: its whole value is that every
+# hit is real, so a verb which also appears inside records turns it into the noisy check the
+# other two already are. AN ORDER PHRASED AS A STATEMENT IS NOT CATCHABLE BY A VERB LIST.
+# What caught it was an agent reading the field from the top, which is what the report text
+# below asks a person to do -- and on 30 September 2026 that was how ten of the eleven were
+# found.
 BEVEL = re.compile(r"\bMOENIE\b|\bMOET\b|\bGEE\b|\bSE DAT\b|\bSKRYF\b|\bVERNOU\b|"
                    r"\bNOEM\b|\bVERANDER\b|\bLAAT VAL\b|\bVAL WEG\b|\bBLY NET SOOS\b")
 
