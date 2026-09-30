@@ -500,9 +500,33 @@ def run(lesson, grade, budget, kaps_ure=False):
             warns.append(f"ELI10 block points at '{vir[:40]}', which is not a study block heading")
 
     # --- glossing ---
+    # A long word counts as glossed when an entry covers it. Plain equality was too
+    # strict in two ways that fired on correct lessons and could not be satisfied:
+    # a plural whose entry is written in the singular ('verteenwoordigers' against
+    # 'verteenwoordiger'), and an adjective that only ever appears inside a two-word
+    # term that does have an entry ('onafhanklike' inside 'onafhanklike kandidaat').
+    # Writers were spending revisions on the warning or adding a second entry for a
+    # word that already had one.
     glossed = {b.get("term", "").lower() for b in by_type.get("begrip", [])}
+    glossed_tokens = {w for term in glossed
+                      for w in re.findall(r"[A-Za-zÀ-ÿ']+", term) if len(w) > 3}
+    # Afrikaans inflections that do not change the word being explained. Kept short
+    # and only applied to terms of six letters or more, so a short entry cannot
+    # swallow an unrelated longer word ('reg' must not gloss 'regering').
+    SUFFIXES = ("s", "e", "te", "ens", "ers")
+
+    def is_glossed(word):
+        w = word.lower()
+        if w in glossed or w in glossed_tokens:
+            return True
+        for term in glossed:
+            if len(term) >= 6 and w.startswith(term):
+                if w[len(term):] in SUFFIXES:
+                    return True
+        return False
+
     unglossed = [w for w in sm["long_words"]
-                 if w.lower() not in glossed and not w[:1].isupper()]
+                 if not is_glossed(w) and not w[:1].isupper()]
     if unglossed:
         warns.append(f"Long words in {label.lower()} with no 'begrip' entry: {', '.join(unglossed[:8])}")
 
