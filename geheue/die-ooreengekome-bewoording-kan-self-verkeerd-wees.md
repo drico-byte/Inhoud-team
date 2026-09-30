@@ -2,7 +2,10 @@
 name: die-ooreengekome-bewoording-kan-self-verkeerd-wees
 description: Reconciling a term makes two lessons agree; it does not make them right. Fact-check the agreed wording as its own step.
 metadata:
+  node_type: memory
   type: feedback
+  originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
+  modified: 2026-09-30T20:44:05.995Z
 ---
 
 Grade 4 Life Orientation, 2 September 2026. Two terms drifted and writers
@@ -116,3 +119,26 @@ falsehood ten times. Check the candidates **before** choosing, not the winner af
 
 Related: [[moenie-self-inhoud-skryf-nie]] — the wordings that survived were ones a
 writer had already written and I only chose between; the three that failed were mine.
+
+## A wording that ENUMERATES a set will lose a member every round
+
+2026-09-30, Grade 6 Social Sciences. The entry for a law names four sources of law besides a
+statute. The entry for the Constitution says which of those are bound by it — and answered with
+a list. Three rounds, three findings, the same shape each time:
+
+1. It named only statutes, so a minister's rules, court-made law and state conduct fell outside
+   the Constitution's reach. Widened to name three of them.
+2. "OLD court decisions" — one qualifier among three absolutes states a contrast that does not
+   exist, so a learner concludes recent decisions are not bound. "Old" dropped.
+3. Recognised customs fall out, and they are the one source the lesson binds nowhere else.
+
+Every fix was right and every one left the next gap, because the *form* was a list. Five lessons
+carry that entry, so each round costs five writer passes and five re-checks — free on volume,
+because a glossary entry is scaffolding, and not free in rounds.
+
+**How to apply.** When a decided wording has to answer "which things does this cover", do not let
+it answer with a list: a list claims completeness and nothing in the pipeline tests that claim.
+Ask a writer for a form that covers the set without naming its members, and give it the walls —
+which words are already taken by another decided term, and which terms only some of the carrying
+lessons define. And when a second round finds a second missing member, stop repairing the list
+and change the shape. The third round is the one that should not have to happen.
