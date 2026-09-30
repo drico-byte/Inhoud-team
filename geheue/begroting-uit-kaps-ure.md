@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
-  modified: 2026-09-29T13:47:12.858Z
+  modified: 2026-09-30T19:29:53.675Z
 ---
 
 **Drico, 29 September 2026, deciding this for everything from now on.** Grade 6 Sosiale
@@ -56,6 +56,24 @@ across a cluster boundary, which nothing else can see, because the topic total s
 The runner passes `--kaps-ure` to the gate when the spec declares it, so nothing already approved
 changes. Also fixed in passing: the spec checker still advised adding an ELI10 layer, abolished
 23 September.
+
+## When a repair will not fit, and what I got wrong about it
+
+On 2026-09-30 I raised a lesson's budget by ten words to pay for a fact repair and raised the
+cluster envelope with it. The spec checker refused the spec outright, before the gate ran — which
+is the check described above, working exactly as recorded here. I had read "there is no absolute
+ceiling" as covering the envelope too. It does not: **it is the LESSON's ceiling that is not
+absolute (planned +12%); the cluster's envelope is fixed by the hours.** The only escape is
+`kluster_uitsondering`, and that exists for hours that are mostly practical work, not for a lesson
+that needs room.
+
+So the order is: try to move words from a neighbour inside the cluster, and **judge the neighbour
+by its CEILING, not its budget** — a lesson measuring 487 against a 492 ceiling cannot lend ten
+words, because a budget ten lower drops its ceiling to 481 and puts it over. When every lesson in
+the cluster measures above the ceiling a smaller budget would give it, there is nothing to move,
+and the choice is a shorter sentence or a decision about the cluster. It is never a false claim —
+see [[drie-maniere-om-n-bewering-reg-te-maak]] and
+[[n-plafon-kan-n-regstelling-onbekostigbaar-maak]].
 
 See [[n-eie-verdeling-mag-nie-na-die-handboek-toe-skuif-nie]] for why our lesson division must
 not be adjusted toward a book's, and [[kw4-begroting-uit-vereistes]] for the older
