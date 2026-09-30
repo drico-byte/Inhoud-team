@@ -372,12 +372,20 @@ def met_spek_konteks(spek, inskrywing):
         # capped sentence a term and it travels in its OWN key -- never appended to the
         # wording, which is verbatim-mandatory, because a writer copying the entry would
         # then copy the note into the lesson.
+        # The cap exists so this can never become the bulk that `rede` and `let_op` are
+        # kept out for. The FIRST version cut with a bare slice and severed a value
+        # mid-word ("...die inskrywing is tydgemerk omda"), which a coverage checker
+        # found. Cut on a word boundary and say so, so a reader can tell a shortened
+        # note from a note that stops there.
         HOU_VAS_KAP = 260
         herbevestig = {}
         for term, v in (k.get("terme") or {}).items():
             h = (v.get("hou_vas") or "").strip()
-            if h:
-                herbevestig[term] = h[:HOU_VAS_KAP]
+            if not h:
+                continue
+            if len(h) > HOU_VAS_KAP:
+                h = h[:HOU_VAS_KAP].rsplit(" ", 1)[0] + " [...afgekap; die volle rede staan in die vak se lys]"
+            herbevestig[term] = h
         saam["vak_gedeelde_omskrywings"] = {
             "nota": k.get("nota"),
             "terme": {t: _bewoording(v)
