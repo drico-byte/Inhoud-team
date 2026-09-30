@@ -113,6 +113,28 @@ Fix a finding **at its source in the spec**, not only in the draft, or the next
 revision reinstates it. When a decision changes what a lesson says, the spec has
 to move in the same breath.
 
+**Amend the sentence that gives the order, and then read the whole field from the
+top.** Appending a dated record below the order is not the fix — it is how the fault
+comes back. A writer reads the field top-down, meets the order first, rebuilds
+exactly what was withdrawn, and can cite the field for it; coverage cannot object,
+because the draft now matches the requirement. On 30 September 2026 this happened in
+seven fields of one sub-topic, each found by a different writer noticing it in
+passing, and three of them were corrections of corrections.
+
+A field that has been corrected more than twice should be **rewritten rather than
+patched again**: every order first, then one line reading `ALLES HIERONDER IS 'n
+REKORD EN BESTEL NIKS`, then the records. That line is also what the sweep looks for.
+
+```bash
+python bin/verouderde-bestellings.py --vak "<subject>" --graad 6
+```
+
+It lists fields carrying several dated records whose order has never been rewritten —
+where the chance of a stale order is highest. It cannot tell you a field is broken;
+that is a question about meaning, and the first version tried to detect it by looking
+for the withdrawn form quoted in the record, which found nothing when tested against a
+commit that definitely had the fault. **Read every field it names, from the top.**
+
 ## The Afrikaans check happens outside this pipeline
 
 A separate tool checks grammar, idiom and direct-translation errors, and it is
