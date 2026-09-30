@@ -61,6 +61,74 @@ def velde(obj, pad=""):
         yield pad, obj
 
 
+def orde_van(teks):
+    """The part of a field that orders: above the record line, or above the first record."""
+    if REKORDLYN in teks:
+        return teks[:teks.index(REKORDLYN)]
+    m = REKORD.search(teks)
+    return teks[:m.start()] if m else teks
+
+
+# A prohibition, as the specs write them. The content between MOENIE and NIE is what
+# the field forbids, and if a sibling field's order still asks for it, the two orders
+# contradict each other.
+# A prohibition, as the specs write them. The content between MOENIE and NIE is what
+# the field forbids, and if a sibling field's order still asks for it, the two orders
+# contradict each other.
+VERBOD = re.compile(r"MOENIE\s+(.{12,220}?)\s+NIE[.,]", re.S)
+STOPWOORDE = {"die", "dat", "van", "wat", "met", "vir", "nie", "hulle", "en", "in", "op",
+              "is", "as", "aan", "moenie", "word", "hierdie", "ook", "dit", "nou", "een",
+              "kan", "mag", "moet", "sonder", "eerder", "omdat", "want", "maar", "self"}
+
+# Fields that exist to hold prohibitions, records or source quotations. A prohibition
+# matching one of these is not a contradiction - it is the same topic being named in
+# the place where naming it is the point. Leaving these in made the check fire on
+# nearly every specification in the repository.
+GERAAS = re.compile(r"moenie|verbode|verbied|let_op|_nota|nota$|kaps_punt|titel_nota|"
+                    r"feiterisiko|buite_bestek|dieptegrens|verifikasie|herkoms|rede$|"
+                    r"video_naat|moeilike_konsepte|nagegane|feitekontrole", re.I)
+
+# Five words, not three. Three matched a shared topic; five matches a shared CLAIM.
+SKERF = 5
+
+
+def botsende_verbode(dele):
+    """Prohibitions in one field that a SIBLING field's order still asks for.
+
+    This is the case the record line cannot catch: a field is rewritten, and then a
+    later correction to the field NEXT TO IT withdraws something this one still
+    orders. It happened on 30 September 2026 between two core items of one lesson, an
+    hour apart, and a writer found it rather than any sweep.
+
+    It is noisy even so, which is why it is opt-in. Read every hit; most will be a
+    prohibition and a legitimate mention of the same subject sitting side by side.
+    """
+    uit = []
+    for waar, obj in dele:
+        bron = dict(obj)
+        bron.pop("lesse", None)
+        ordes = {veld: orde_van(t) for veld, t in velde(bron)}
+        for veld, orde in ordes.items():
+            for m in VERBOD.finditer(orde):
+                verbod = m.group(1)
+                woorde = [w for w in re.findall(r"[A-Za-zÀ-ÿ']{4,}", verbod.lower())
+                          if w not in STOPWOORDE]
+                if len(woorde) < SKERF:
+                    continue
+                skerwe = {" ".join(woorde[i:i + SKERF]) for i in range(len(woorde) - SKERF + 1)}
+                for ander, ander_orde in ordes.items():
+                    if ander == veld or GERAAS.search(ander):
+                        continue
+                    # the target's own prohibitions are not orders either
+                    skoon = VERBOD.sub(" ", ander_orde)
+                    laag = " ".join(w for w in re.findall(
+                        r"[A-Za-zÀ-ÿ']{4,}", skoon.lower()) if w not in STOPWOORDE)
+                    if any(sk in laag for sk in skerwe):
+                        uit.append((waar, veld, ander, verbod.strip()[:110]))
+                        break
+    return uit
+
+
 def ondersoek(pad, minimum):
     spek = json.load(open(pad, encoding="utf-8"))
     treffers = []
@@ -91,6 +159,9 @@ def main():
     p.add_argument("--vak")
     p.add_argument("--graad", type=int)
     p.add_argument("--alles", action="store_true")
+    p.add_argument("--botsings", action="store_true",
+                   help="also look for a prohibition in one field that a sibling field still "
+                        "orders. Noisy: read every hit.")
     p.add_argument("--min", type=int, default=2,
                    help="how many dated records before a field is worth re-reading (default 2)")
     a = p.parse_args()
@@ -107,7 +178,26 @@ def main():
         return 2
 
     totaal = 0
+    botsings = 0
     for pad in paaie:
+        bots = []
+        if a.botsings:
+            try:
+                spek = json.load(open(pad, encoding="utf-8"))
+                dele = [("", spek)] + [("les %s" % l.get("nommer"), l)
+                                       for l in spek.get("lesse", [])]
+                bots = botsende_verbode(dele)
+            except Exception as exc:
+                print("KON NIE LEES NIE: %s (%s)" % (pad, exc))
+                continue
+        if bots:
+            print("")
+            print("%s  -- BOTSENDE BESTELLINGS" % pad.replace(os.sep, "/"))
+            for waar, veld, ander, verbod in bots:
+                ets = "%s %s" % (waar, veld) if waar else veld
+                print("   %-24s verbied iets wat %s nog bestel" % (ets, ander))
+                print("      verbod: MOENIE %s NIE" % verbod)
+                botsings += 1
         try:
             treffers = ondersoek(pad, a.min)
         except Exception as exc:
@@ -124,8 +214,13 @@ def main():
                 totaal += 1
 
     print("")
-    print("%d spesifikasie(s) ondersoek, %d veld(e) wat 'n mens moet lees."
-          % (len(paaie), totaal))
+    print("%d spesifikasie(s) ondersoek, %d veld(e) wat 'n mens moet lees, %d botsende verbod(e)."
+          % (len(paaie), totaal, botsings))
+    if botsings:
+        print("'n BOTSENDE VERBOD is waar een veld iets verbied wat 'n BUURVELD nog bestel. Dit is die")
+        print("geval wat die rekordlyn nie kan vang nie: 'n veld word herskryf, en dan trek 'n later")
+        print("regstelling aan die veld LANGSAAN iets terug wat hierdie een nog vra. Die later een wen;")
+        print("maak die vroeer een reg by sy bestellende sin.")
     if totaal:
         print("Lees elke veld van bo af. Se die bestelling nog wat 'n regstelling hieronder")
         print("teruggetrek het? Herskryf dan die veld - elke bestelling eerste, dan EEN")
