@@ -153,6 +153,50 @@ def ondersoek(pad, minimum):
     return treffers
 
 
+# An imperative, as the specs write them. If one of these sits BELOW the record marker,
+# the field is telling a writer to do something in the part that says it orders nothing.
+#
+# The word boundaries matter and were lost once: written through a shell heredoc, every
+# \b became a literal backspace character, so the pattern matched nothing and the check
+# reported a clean bill on three inputs that definitely carried the fault. Edit this file
+# directly rather than generating these lines from a shell string.
+BEVEL = re.compile(r"\bMOENIE\b|\bMOET\b|\bGEE\b|\bSE DAT\b|\bSKRYF\b|\bVERNOU\b|"
+                   r"\bNOEM\b|\bVERANDER\b|\bLAAT VAL\b|\bVAL WEG\b|\bBLY NET SOOS\b")
+
+# Words that make an imperative a QUOTATION of a withdrawn instruction rather than a live
+# one. A record legitimately says "the old form said MOENIE ..." and that is not a buried
+# order.
+AANHALING = re.compile(r"teruggetrek|ou vorm|die konsep het|voorheen|vroeer|het gese|"
+                       r"is vals|was vals|aangehaal", re.I)
+
+
+def begrawe_bevele(dele):
+    """Imperatives sitting below a field's own record marker.
+
+    Nine fields lost an order this way on 30 September 2026, every one of them because a
+    later correction was appended to a field that had already been rewritten. The marker
+    is explicit that nothing below it orders anything, so a writer reading the field as
+    instructed never sees the instruction - and coverage cannot object, because the draft
+    matches what the field appears to require.
+    """
+    uit = []
+    for waar, obj in dele:
+        bron = dict(obj)
+        bron.pop("lesse", None)
+        for veld, teks in velde(bron):
+            if REKORDLYN not in teks:
+                continue
+            rekord = teks[teks.index(REKORDLYN):]
+            for m in BEVEL.finditer(rekord):
+                sin_begin = max(rekord.rfind(".", 0, m.start()), 0)
+                sin = rekord[sin_begin:m.end() + 160]
+                if AANHALING.search(sin):
+                    continue
+                uit.append((waar, veld, sin.strip(" .")[:130]))
+                break
+    return uit
+
+
 def main():
     p = argparse.ArgumentParser(
         description="Report spec fields that have collected corrections without being rewritten")
@@ -179,7 +223,24 @@ def main():
 
     totaal = 0
     botsings = 0
+    begrawes = 0
     for pad in paaie:
+        try:
+            spek0 = json.load(open(pad, encoding="utf-8"))
+            dele0 = [("", spek0)] + [("les %s" % l.get("nommer"), l)
+                                     for l in spek0.get("lesse", [])]
+            begrawe = begrawe_bevele(dele0)
+        except Exception as exc:
+            print("KON NIE LEES NIE: %s (%s)" % (pad, exc))
+            continue
+        if begrawe:
+            print("")
+            print("%s  -- BEGRAWE BEVELE" % pad.replace(os.sep, "/"))
+            for waar, veld, sin in begrawe:
+                ets = "%s %s" % (waar, veld) if waar else veld
+                print("   %-24s 'n bevel staan ONDER die rekordmerker" % ets)
+                print("      %s" % sin)
+                begrawes += 1
         bots = []
         if a.botsings:
             try:
@@ -214,8 +275,13 @@ def main():
                 totaal += 1
 
     print("")
-    print("%d spesifikasie(s) ondersoek, %d veld(e) wat 'n mens moet lees, %d botsende verbod(e)."
-          % (len(paaie), totaal, botsings))
+    print("%d spesifikasie(s) ondersoek, %d veld(e) wat 'n mens moet lees, %d begrawe bevel(e), "
+          "%d botsende verbod(e)." % (len(paaie), totaal, begrawes, botsings))
+    if begrawes:
+        print("'n BEGRAWE BEVEL is 'n opdrag wat ONDER die rekordmerker staan, waar die veld self se dat")
+        print("niks bestel word nie. Skuif hom bo die merker, positief gestel. Dit is die enigste een van")
+        print("hierdie drie toetse wat presies is: elke treffer is 'n egte fout, tensy dit 'n aanhaling van")
+        print("'n teruggetrekte opdrag is.")
     if botsings:
         print("'n BOTSENDE VERBOD is waar een veld iets verbied wat 'n BUURVELD nog bestel. Dit is die")
         print("geval wat die rekordlyn nie kan vang nie: 'n veld word herskryf, en dan trek 'n later")
