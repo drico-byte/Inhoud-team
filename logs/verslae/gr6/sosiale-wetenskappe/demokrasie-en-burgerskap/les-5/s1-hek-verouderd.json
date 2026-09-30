@@ -6,17 +6,17 @@
   "budget": 300,
   "begrotingsreel": "CAPS-hours: 300 planned, ceiling 336 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-09-30T13:52:46+00:00",
+  "checked_at": "2026-09-30T14:48:17+00:00",
   "study": {
-    "words": 328,
+    "words": 331,
     "sentences": 29,
-    "mean_sentence_len": 11.5,
-    "median_sentence_len": 12,
+    "mean_sentence_len": 11.7,
+    "median_sentence_len": 11,
     "longest_sentence": 20,
-    "mean_syllables": 1.49,
-    "pct_polysyllabic": 11.9,
-    "pct_long_words": 2.1,
-    "commas_per_sentence": 0.07
+    "mean_syllables": 1.53,
+    "pct_polysyllabic": 12.7,
+    "pct_long_words": 2.4,
+    "commas_per_sentence": 0.1
   },
   "eli10": null,
   "block_counts": {
@@ -25,7 +25,10 @@
   },
   "misspelled": [],
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    "Study text: syllables per word 1.53 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Long words in study text with no 'begrip' entry: byeenkomste"
+  ],
   "notes": [
     "Afrikaans dictionary not installed — spelling not checked"
   ]
