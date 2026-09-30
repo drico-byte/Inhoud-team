@@ -27,9 +27,18 @@ longer than about six words; promising what the lesson does not deliver.
 
 ## A title is subject to every factual rule the lesson is
 
-This is the part worth defending. The title is the most-read sentence on the page and **nothing checks
-it the way the study text is checked** — the fact checker works through blocks, and a title is not a
-block. So it is the easiest place in the whole file to reintroduce something a revision removed.
+This is the part worth defending. The title is the most-read sentence on the page, and it is the
+easiest place in the whole file to reintroduce something a revision removed.
+
+**A fact checker does reach it, and one earned its keep on 2026-09-30.** Grade 6 Social Sciences,
+Democracy lesson 2: both court blocks checked out as a set — more than one court may rule on a law,
+and the confirmation step hung on the right kind of law — and then the title, "the highest law, and
+the COURT that keeps watch over it", was the single place in the lesson from which a learner could
+conclude that only one court keeps watch. The lesson own block heading said THE COURTS, in the plural.
+So the earlier claim here, that nothing checks a title, was too strong: the checkers do read it, and
+they read it against the first block when the brief asks for that. **Ask for it in the fact brief** —
+the title against the first study block — because it is not a block and will otherwise be checked only
+if the checker thinks of it.
 
 Real traps, each of which cost a revision round on 2026-08-21:
 

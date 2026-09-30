@@ -126,3 +126,4 @@
 - [A note that freezes a state goes stale](n-nota-wat-n-toestand-vasvries-verouder.md) — my fix for stale spec notes hard-coded the count and went stale within the hour.
 - [Onseker can mean untested](onseker-kan-ongetoets-beteken.md) — the uncertainty bucket can hold claims no source was reached for; ask why, and re-run the whole check.
 - [A ceiling can make a repair unaffordable](n-plafon-kan-n-regstelling-onbekostigbaar-maak.md) - check whether the requirement that costs the words is a finding or my own gloss, before cutting anything real.
+- [A spec decision is invisible to the fact checker](n-beslissing-in-die-spek-is-onsigbaar-vir-die-feitenasiener.md) - it never sees the spec, so "do not raise this again" cannot reach it; fix the text instead.
