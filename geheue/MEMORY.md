@@ -125,3 +125,4 @@
 - [Test a parallel set as a set](toets-n-parallelle-stel-as-n-stel.md) — say so in the fact brief; reading four blocks together found five faults where sentence-by-sentence found one.
 - [A note that freezes a state goes stale](n-nota-wat-n-toestand-vasvries-verouder.md) — my fix for stale spec notes hard-coded the count and went stale within the hour.
 - [Onseker can mean untested](onseker-kan-ongetoets-beteken.md) — the uncertainty bucket can hold claims no source was reached for; ask why, and re-run the whole check.
+- [A ceiling can make a repair unaffordable](n-plafon-kan-n-regstelling-onbekostigbaar-maak.md) - check whether the requirement that costs the words is a finding or my own gloss, before cutting anything real.
