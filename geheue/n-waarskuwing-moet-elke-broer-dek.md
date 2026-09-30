@@ -45,3 +45,33 @@ Related: [[n-spek-se-dieselfde-ding-in-twee-velde]] (that one is about a FIX tha
 field; this one is about a CAUTION that misses a sibling),
 [[spesifikasies-word-nooit-nagegaan]], [[kern-en-feiterisiko-weerspreek-mekaar]],
 [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]]
+
+---
+
+**30 September 2026, Gr 6 SW Democracy lesson 1: my correction named two of the three
+places, so the absolute survived a third round.**
+
+"Nobody can see your choice in the booth" is false — an assisted voter takes a helper of
+their own choosing into the booth, and that helper sees the mark. The claim lived in three
+places: a study sentence, the block heading, and the glossary entry for the booth. I wrote
+the correction and listed **two** of them. The writer fixed both of the two, faithfully,
+and a coverage check then found the third still standing and contradicting the repaired
+sentence two blocks away.
+
+Same lesson, earlier the same day: a second absolute in that block lived in a study
+sentence and a heading, and I named only the sentence.
+
+**What this adds.** The rule above is about a caution having to cover every sibling in the
+content. This is the same failure one level up: **the correction's own list of places can
+be short, and nobody downstream checks that list.** A writer treats it as complete — it is
+the brief — and a coverage check only catches the remainder by luck, because its job is
+matching the draft to the requirement rather than auditing my enumeration.
+
+**How to apply.** Before sending a correction that names places, search the lesson for the
+claim and count the hits. Headings and glossary entries are the two that get missed, every
+time, because a sweep of the study text does not reach them: a heading is a claim, and an
+entry is read alone. Then write the count into the instruction — "this claim stands in
+three places and all three must change" — so the writer can tell whether it found them all.
+
+Related: [[n-begrip-word-alleen-gelees]], [[die-korrigeerde-opdrag-bly-in-die-veld-staan]],
+[[vee-die-bewering-oor-al-die-spesifikasies]].
