@@ -46,3 +46,42 @@ sheltered by that correction's own note.
 the likeliest place for the next instance, because my own wording is there and I read
 it as already handled.** Sweep them too, on the claim, and do not let a nearby dated
 note stand in for reading the sentence.
+
+---
+
+**30 September 2026, Gr 6 SW Democracy: three of my own instructions came back as the next
+round's findings, and all three were the same KIND of instruction.**
+
+In one day, one sub-topic:
+
+* I asked lesson 5 to "make the inclusive meaning of *swart* audible" so two racial
+  vocabularies would not contradict each other. The writer wrote *Swart was toe die woord
+  vir almal wat die wet nie wit genoem het nie* — false twice. The wide sense comes from
+  Black Consciousness, about 1970, not 1956; and it was never the **law's** word, because
+  apartheid law classified people into separate groups and had no "not white" category.
+* I asked for the closing contrast to be about method, and supplied the method: "sy van
+  buite die regering". After 1994 she advised a minister and sat on five state bodies.
+* I asked the `aktivis` entry for a clause distinguishing an activist from someone "who
+  does it from an office". No dictionary makes that a condition, and the lesson's own
+  subject breaks it — she lectured at a university for thirty-two years and later sat on
+  state boards, and was an activist throughout.
+
+**The common shape: each was an instruction to RECONCILE or to DISTINGUISH.** A finding
+says two things in the lesson pull against each other, or that an entry is too wide. The
+tempting fix is to write the bridge — the sentence that explains how they fit, or the
+clause that tells them apart. But that bridge is **new outward content**, invented by me
+at the moment I was fixing something else, and nothing checks it. Every one of the three
+was a claim about the world (what a word meant, where someone worked, what a role
+excludes) that I had not looked up.
+
+**How to apply.** When a finding is a tension rather than an error, prefer **removal over
+reconciliation**. Cutting one side of a contradiction costs nothing and invents nothing;
+explaining how both are true invents a claim. In this case the misreading was already
+closed by one sentence the check had confirmed — she was herself one of the Indian women —
+and my extra explanation was pure added risk. And if a distinguishing clause really is
+needed, describe the fault and let the writer find the distinction, then send it to a fact
+check as new prose rather than treating it as a repair.
+
+Related: [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]],
+[[onsekere-ekstras-word-gesnoei]], [[die-ooreengekome-bewoording-kan-self-verkeerd-wees]],
+[[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]].

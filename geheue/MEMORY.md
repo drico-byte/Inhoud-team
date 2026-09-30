@@ -88,7 +88,7 @@
 - [Gr 6 Life Skills: the year's rulings](gr6-lv-besluite.md) — 32 lessons, 550 words (450-550), reading pieces are stories, risky specs fact-checked before writing.
 - [Gr 6 Life Skills: where we are](gr6-lv-waar-ons-is.md) — 32/32 signed off 21 Sep 2026; which lessons to read first; sign/symptom change re-signed Gr 5 GO 7 and 8.
 - [Finished lessons go to Voltooide lesse](voltooide-lesse-uitvoer.md) — automatic at sign-off since 22 Sep 2026, sorted Graad/Vak/Subonderwerp; Gr 5 and 6 Life Skills backfilled.
-- [My correction in the spec was itself the next error](my-regstelling-in-die-spek-was-self-die-volgende-fout.md) — I prescribed the fix instead of describing the fault, and it built a new false picture within hours.
+- [My correction in the spec was itself the next error](my-regstelling-in-die-spek-was-self-die-volgende-fout.md) — prefer REMOVAL over reconciliation; a bridge sentence is new unchecked content.
 - [A corrected field can still carry another fault](n-reggemaakte-veld-kan-nog-n-ander-fout-dra.md) — my sweeps skipped fields marked REGGEMAAK, exempting the likeliest to be wrong; sweep on the claim.
 - [Recording a finding at source is not fixing it](n-bevinding-by-die-bron-opteken-is-nie-dit-regmaak-nie.md) — I wrote guards into the spec and left the draft false; fix at source AND dispatch, in one breath.
 - [Three ways to fix a claim](drie-maniere-om-n-bewering-reg-te-maak.md) — Drico: never keep a false claim - narrow the quantifier, cut it, or teach the mechanism, in that order.
