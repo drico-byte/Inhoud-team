@@ -92,3 +92,76 @@ vlot nie meer hou nie" — is the same length and says the same thing in the lan
 the block already uses. The precise formulation does not belong in the lesson at
 all — it arrives cold in study text, and the `eli10` layer that used to take it was
 abolished on 23 September 2026. Say the plain version, or leave the precision to the video.
+
+## When a source has its own authoritative Afrikaans
+
+The Constitution is published in Afrikaans as well as English, so for legal content
+there is an authoritative Afrikaans wording for everything a lesson says — and it is
+often not the natural Grade 6 Afrikaans. Every occurrence is a fork, and the fork was
+taken four times in one day, each time from scratch, before this was written.
+**Lampies' rule, 1 October 2026.** It covers any source with its own official
+Afrikaans text, not only the Constitution.
+
+Work out which branch you are in before choosing the word. These are not a preference
+order; they are a test, and the first question is always whether the claim moves.
+
+**1. If the difference changes the CLAIM, use the source's word**, even where it reads
+worse.
+
+Section 28(1)(c) gives a child `basiese voeding`. `kos` is not a plainer way of saying
+that, it is a different claim: `voeding` is the minimum quantity and kind a child's
+development needs, and `kos` is satisfied by enough bread. The Constitution uses two
+words deliberately — an adult gets access to `voldoende voedsel` under section
+27(1)(b), a child gets `basiese voeding` — and that pair is the evidence that the word
+was chosen rather than merely used. This one was handled as a register choice for a
+day and cost a round: the article 28 list took the correction while the prose block
+beside it kept `kos`, and a coverage check had to find it.
+
+**2. If it changes only the REGISTER, use natural Afrikaans.**
+
+Section 35(3) says `billike verhoor`; the lesson says `regverdige verhoor`. No claim
+moves — the right described exists and is described correctly — and `regverdig` is
+already this grade's fairness word, with `regverdige handel` and `onregverdige handel`
+defined over in the Handel sub-topic.
+
+**3. If the source's word collides with a word this subject has RESERVED, use the
+natural one and record the collision.**
+
+Section 9(1) says `gelyk voor die reg`; Grade 6 says `gelyk voor die wet`, because
+`reg` in this subject-grade belongs to a person's entitlement (Lampies, 1 October
+2026), and the source form would put two senses of one word inside one sentence — the
+same sentence already carries `die reg op gelyke beskerming`.
+
+**This branch is decided per grade, not once for the subject.** Grade 7 goes the other
+way on the same phrase, because its specification requires every right worded as the
+Constitution words it. The two protected entries contradict each other on purpose and
+may not be reconciled: whoever finds them side by side chooses the grade, not the
+wording.
+
+**A NAME is not a claim.** What a municipal council makes stays `wet` rather than
+`verordening`. The Constitution's own Afrikaans calls it a `verordening` (section
+156(2)), but section 151(2) does vest the legislative authority in the council, so the
+substance is right and only the label differs. Checkers raise this one again and
+again, each of them correct about the fact and none of them reporting anything new. A
+label is not free, though: broadening `wet` to cover a council's rule made a later
+block's correct narrowing invisible to a learner, and the repair belonged in the study
+text rather than in the word. After taking this branch, check what the broader label
+flattened.
+
+**4. If the source's precision cannot be carried at this grade, CUT the element —
+never approximate it.**
+
+Section 36(1) requires an `algemeen geldende regsvoorskrif`. The lesson had rendered
+that as a rule that `vir 'n hele groep geld`, which lets a rule aimed at a single
+group pass the test — the very thing the clause exists to prevent. Lampies ruled on
+1 October 2026 to drop the qualifier. What remains is true and simpler, and it drops
+the test rather than mis-stating it. An approximation of a legal standard teaches the
+wrong standard, and nothing in the wording tells a learner that it has been loosened.
+
+**And the part that makes the rule work: record which branch was taken, every time, in
+`kaps/beskermde-woorde.json`.** The outside Afrikaans language check will reverse any
+divergence from the source it discovers, in good conscience and correctly by its own
+lights, and that file is the only thing that reaches it. A branch-2 or branch-3
+decision that is not there is silently undone, and nothing re-checks a lesson after
+that pass. **Give the reason and not just the prohibition** — a checker who
+understands why holds the line when a sentence reads awkwardly.

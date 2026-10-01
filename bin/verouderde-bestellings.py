@@ -39,10 +39,29 @@ import sys
 
 # The line a rewritten field carries: everything after it is a record and orders
 # nothing. A field that has this has been read end to end by someone.
+#
+# THE CASE OF THIS SUBSTRING IS LOAD-BEARING. Matched case-insensitively it would also hit
+# 'Alles hieronder bly geld' - which says the exact OPPOSITE, that everything below still
+# orders - and ondersoek SKIPS every field carrying this marker. Measured 1 October 2026:
+# 108 fields carry the marker exactly, in capitals; a looser case-insensitive compare picks
+# up 35 further fragments, and nearly every one of those is 'Alles hieronder bly geld' or
+# 'Alles anders hieronder GELD STEEDS'. So a case-insensitive compare here would silently
+# drop exactly the fields that announce a live order below.
 REKORDLYN = "ALLES HIERONDER"
 
 # A dated record: anything marking a correction, a withdrawal or a clarification.
-REKORD = re.compile(r"REGGESTEL|TERUGGETREK|VERBREED|GEKWALIFISEER|OMVANG VERNOU|"
+#
+# EVERY ALTERNATIVE IS IN CAPITALS AND THIS PATTERN IS CASE-SENSITIVE ON PURPOSE. In these
+# fields case IS the signal: capitals mark a structure, and the same word in lower case is
+# ordinary Afrikaans prose which often means the opposite. Measured 1 October 2026 over all
+# 91 specs: 'verbreed' appears 62 times in lower case and nearly every one of them is prose
+# or an ORDER ('MOENIE DIT VERBREED NIE', 'Verbreed die sin dus eerder as om hom te skrap'),
+# against 16 in capitals; 'teruggetrek' 119 times, 'reggestel' 56. Compiling this with re.I
+# took the list from 39 fields to 89. So do not add flags here, and do not treat a report
+# that some field's marker is in lower case as a missed record - read that field first. It
+# is usually prose, and an order read as a record is worse than a record read as prose,
+# because orde_van then truncates the order at it.
+REKORD = re.compile(r"REGGESTEL|REGGEMAAK|TERUGGETREK|VERBREED|GEKWALIFISEER|OMVANG VERNOU|"
                     r"AANGEVUL|TYDGEMERK|OPGEHELDER|HERBEVESTIG|TWEEDE REGSTELLING|"
                     r"Bygevoeg \d")
 
@@ -251,6 +270,65 @@ def ondersoek(pad, minimum):
 # correct it, and say that the points are numbered but deliberately not counted - because
 # "'n getal in 'n openingsin verouder weer by die volgende byvoeging". A count that is not
 # written cannot go stale. Prefer that to anything this script could report.
+#
+# THE RECORD VOCABULARY, MEASURED RATHER THAN GUESSED, 1 October 2026. REKORD was a list
+# written from memory, so it was worth asking what the specs actually write. Method: find
+# every date in every field of all 91 specs (3 065 of them), take the 75 characters before
+# it, and tally the words in capitals. REGGEMAAK came out FIRST, ahead of REGGESTEL which
+# was already in the list - 335 occurrences in capitals, 295 of them within 60 characters
+# of a date - and it is the same act as REGGESTEL under a different verb. It is now in the
+# pattern. It added 17 fields to the list; 15 of the 17 carry no marker of any kind,
+# canonical or variant, and open with an order followed by two or more dated records, which
+# is precisely what this check is for. It changed no field's printed order text and dropped
+# no field from this list.
+#
+# It did drop TWO hits from the --botsings list, and that is a gain, not a loss. Both were
+# the same prohibition in gr5 energie-en-elektrisiteit, and both arose because the sibling
+# field OPENS with 'REGGEMAAK, 10 September 2026:'. With that word unknown, orde_van found
+# no marker at all and handed the whole field back as the ordering half - including a block
+# labelled '[OORTREFDE TEKS HIERONDER, AS REKORD EN NIE 'N BESTELLING NIE]', which is where
+# the matching words sat. The check was reading superseded record text as a live order; the
+# printed verbod even quoted that label. Note the cost, though: that field's live orders now
+# sit in what orde_van calls the record half, so --botsings cannot see them either. A field
+# whose order opens with its own correction marker is beyond both halves of this script.
+#
+# Do the same tally again before adding anything else here; the words the house uses are not
+# the words a person remembers using.
+#
+# AFGEHANDEL: ASKED FOR, MEASURED, AND DELIBERATELY NOT ADDED, 1 October 2026. A lot of
+# superseded orders were retired that day by writing AFGEHANDEL at the head of them, which
+# is the house idiom for "this item no longer orders anything", and the worry was the
+# reasonable one: that a field retired that way scores zero detectable records, drops below
+# the two-record threshold, and so goes invisible to this list - the retirement hiding the
+# field. IT DOES NOT HAPPEN, and the reason is worth keeping, because the next person to
+# retire an order will have the same worry.
+#
+#   * 25 fields in the 91 specs contain the word in some case (18 lower, 8 capitals).
+#   * 2 of the 25 are already on one of this script's lists.
+#   * 0 of the 25 are held under the threshold by AFGEHANDEL being unrecognised. Adding it
+#     surfaces NOTHING. The best any field manages is a count of 0 -> 1.
+#
+# WHY IT CANNOT WORK, which is structural and not a matter of tuning. The other words in
+# REKORD mark a note APPENDED BELOW an order; AFGEHANDEL is written in the field's OPENING
+# LINE to announce that the field orders nothing at all ("HIERDIE ITEM BESTEL NIKS MEER NIE
+# EN DIE HELE RES VAN HAAR IS 'n REKORD, AFGEHANDEL 1 OKTOBER 2026"). One opening line can
+# never reach a threshold of two, and a field that opens by withdrawing itself has no stale
+# order left to hide - it is the one shape this check does not need to report. Most of the
+# 25 are not markers at all: 'afgehandel' in lower case is ordinary Afrikaans, and it turns
+# up as "afgehandelde geskiedenis", "nooit afgehandel nie" and "met 'n boete afgehandel".
+#
+# AND ADDING IT MADE THE REPORT WORSE, which is what settled it. In gr4 vervoer-op-water
+# les 1 kern[8] the words sit in a DECISION at the top of the field - "DIE RANGSKIKKING VAN
+# DIE VYF IS BESLIS EN AFGEHANDEL - DRICO, 22 SEPTEMBER 2026. MOENIE DIT 'n VIERDE KEER
+# OOPMAAK NIE." Recognised as a record, that sentence becomes the start of the record block,
+# so orde_van cuts the order at it and the "bestelling:" line this script exists to print
+# degrades to the fragment "DIE RANGSKIKKING VAN DIE VYF IS BESLIS EN". Nought gained, one
+# line of real output lost.
+#
+# WHAT THE RETIREMENT WORK ACTUALLY DID, checked against HEAD the same day: the two fields
+# retired with AFGEHANDEL got an ALLES HIERONDER marker in the same breath, so they left
+# this list the correct way, by being read end to end. THAT is the exit from this list, and
+# AFGEHANDEL on its own is not. If you are retiring an order, write the marker too.
 
 # What caught it was an agent reading the field from the top, which is what the report text
 # below asks a person to do -- and on 30 September 2026 that was how ten of the eleven were
@@ -261,7 +339,7 @@ BEVEL = re.compile(r"\bMOENIE\b|\bMOET\b|\bGEE\b|\bSE DAT\b|\bSKRYF\b|\bVERNOU\b
 # Words that make an imperative a QUOTATION of a withdrawn instruction rather than a live
 # one. A record legitimately says "the old form said MOENIE ..." and that is not a buried
 # order.
-AANHALING = re.compile(r"teruggetrek|ou vorm|die konsep het|voorheen|vroeer|het gese|"
+AANHALING = re.compile(r"teruggetrek|ou vorm|ou opdrag|die konsep het|voorheen|vroeer|het gese|"
                        r"is vals|was vals|aangehaal", re.I)
 
 
