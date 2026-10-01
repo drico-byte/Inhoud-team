@@ -40,3 +40,23 @@ ordering the paddle-and-muscle frame the correction removes, it was visible in m
 printed output, and I amended four other fields and not that one. The writer found it.
 See [[n-ruil-wat-nie-pas-nie-moet-hard-faal]] — the print is only worth its cost if you
 act on the whole of it.
+
+---
+
+**1 October 2026: a report NEWER than its draft can still be stale — against the SPEC.**
+
+Three Grade 7 LO lessons sat in the repair box with coverage findings dated after their
+drafts, so by every freshness test they were current work. I started repairing them and
+found the findings already fixed: the stale clause the report quoted was not in the spec
+any more, and the six pointers it said ranked from the back had been renamed the same day.
+
+The reason is structural. A coverage finding of "the spec is at fault" is repaired in the
+spec and **never touches the draft**, so the draft's timestamp does not move and nothing
+marks the report as answered. The sorting script compares report time against DRAFT time
+only, which is right for a draft fault and blind to a spec fault.
+
+**How to apply:** before briefing anything on a `spesifikasie_probleem` report, grep the
+approved spec for the exact wording the report quoted. If it is gone, the finding is
+answered and the lesson needs a fresh pair of checks, not a repair round. Related:
+[[tel-die-verslae-voor-jy-se-dit-is-nagegaan]] — same family: the state a script
+reports is not the state of the work.
