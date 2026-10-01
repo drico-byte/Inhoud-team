@@ -185,7 +185,10 @@ GEEN_SPEK = "geen-goedgekeurde-spek"
 def eis_profiel(vak, graad, sub, basis=None):
     pad, cfg = P.vind_profiel(vak, graad, sub)
 
-    if pad is None and basis in ("vereistes", GEEN_SPEK):
+    # "kaps-ure" joins "vereistes" here for the same reason: its budgets come from
+    # CAPS hours and the subject rate, so this sub-topic never had to be measured.
+    # The subject-grade config is still wanted, because the register band lives in it.
+    if pad is None and basis in ("vereistes", "kaps-ure", GEEN_SPEK):
         # A requirement-based budget does not need THIS SUB-TOPIC to have been
         # measured, because the measurement is not its basis. The subject-grade
         # config is still wanted, since the register band is read from it.
@@ -202,7 +205,7 @@ def eis_profiel(vak, graad, sub, basis=None):
             return pad2, cfg2, {"woorde": 0, "bladsye": 0, "geen_meting": True,
                                 "nie_gemeet_nota":
                                     f"'{sub}' is not measured in {P.rel(pad2)}. The spec declares "
-                                    f"begroting_basis 'vereistes', so its own budgets are the "
+                                    f"begroting_basis '{basis}', so its own budgets are the "
                                     f"authority and no volume is derived here."}
 
     if pad is None:
@@ -218,7 +221,15 @@ def eis_profiel(vak, graad, sub, basis=None):
         # budget basis exists for, and the spec carries the budget instead. Refusing
         # here made every such sub-topic unrunnable — the first one to arrive could
         # not be written at all, though its spec was approved and validated.
-        if basis in ("vereistes", GEEN_SPEK):
+        # "kaps-ure" belongs here for the same reason as "vereistes": its budgets come
+        # from CAPS's hours and the subject rate, so a zero measurement is not merely
+        # tolerable, it is the expected value -- no textbook is profiled for such a
+        # subject at all. Added 29 September 2026 after all 37 Gr 6 Sosiale Wetenskappe
+        # lessons were refused here at once, with four approved and validated specs in
+        # place. The escape above, for a sub-topic missing from the config entirely, had
+        # already been taught the new basis; this one had not, and it is the one that
+        # fires when the config lists the sub-topic with a deliberate zero.
+        if basis in ("vereistes", "kaps-ure", GEEN_SPEK):
             # GEEN_SPEK: there is no approved spec at all yet, so the basis is not
             # merely unknown -- it is unknowable, and refusing here answers a question
             # nobody can act on. The step immediately below names the planner, which is
@@ -231,9 +242,9 @@ def eis_profiel(vak, graad, sub, basis=None):
         raise Refuse(
             f"profiler config {P.rel(pad)} records no word volume for '{sub}'",
             "If the book genuinely does not cover this sub-topic, that is a valid",
-            "answer and the spec's budget basis must be 'vereistes', which makes the",
-            "spec's own budgets the authority. This refusal is for a measurement that",
-            "is missing rather than zero.")
+            "answer and the spec's budget basis must be 'vereistes' or 'kaps-ure',",
+            "either of which makes the spec's own budgets the authority. This refusal",
+            "is for a measurement that is missing rather than zero.")
     return pad, cfg, vol
 
 
@@ -268,6 +279,29 @@ def eis_spek(vak, graad, sub, uit):
               *[f"warn  {w}" for w in result.get("warnings", [])]])
     return goed, P.lees_json(goed)
 
+
+def _brief_konfig(spek, profiel_pad):
+    """What to tell a writer the profiler config is.
+
+    THE SPEC WINS. The runner finds a config by subject and grade, which is right
+    for most work and wrong wherever a spec's budget does not come from a
+    measurement: Gr 4 Geografie has no profiling run at all, so the runner offers
+    the nearest one it can see -- a Kwartaal 3 History config -- and a writer that
+    copies the brief line verbatim writes a false provenance record.
+
+    Six agents caught this on Gr 4 Geografie and each refused it. The step above
+    the brief already warns "use what the spec's profiel_konfig says"; this makes
+    the brief line itself say it, so the warning and the instruction agree.
+
+    A spec value can be a whole sentence ("geen - daar bestaan geen profielloop
+    vir Graad 4 Geografie nie") rather than a filename. That is the honest value
+    and it goes through as written, trimmed only so one brief line stays one line.
+    """
+    waarde = (spek.get("profiel_konfig") or "").strip()
+    if not waarde:
+        return os.path.basename(profiel_pad)
+    plat = " ".join(waarde.split())
+    return plat if len(plat) <= 160 else plat[:157] + "..."
 
 def met_spek_konteks(spek, inskrywing):
     """The lesson entry, plus the spec-level fields it refers to by bare name.
@@ -316,9 +350,28 @@ def met_spek_konteks(spek, inskrywing):
     except (TypeError, ValueError):
         k = {}
     if k:
+        # A term whose wording is not settled yet still carries a decision: its
+        # SCOPE. Sending only `omskrywing` handed the writer `null` for every one
+        # of those, so the scope reached it only when a planner had restated it in
+        # the spec -- a property of the briefing, not of the pipeline, which is the
+        # same way the previous grade's list nearly went missing. The long `rede`
+        # stays out: it is written for a planner and runs to hundreds of words a
+        # term, and bulk in an extract has stopped writers dead before.
+        def _bewoording(v):
+            w = v.get("omskrywing")
+            if w:
+                return w
+            omvang = v.get("omvang")
+            if not omvang:
+                return None
+            return ("NOG GEEN OOREENGEKOME BEWOORDING NIE, MAAR DIE OMVANG IS BESLIS: "
+                    + omvang + " Skryf die beste bewoording wat jy kan binne daardie "
+                    "omvang; die bewoordings word na die hele jaar se skryfwerk versoen, "
+                    "dus is joune nie die finale een nie.")
+
         saam["vak_gedeelde_omskrywings"] = {
             "nota": k.get("nota"),
-            "terme": {t: v.get("omskrywing")
+            "terme": {t: _bewoording(v)
                       for t, v in (k.get("terme") or {}).items()},
         }
 
@@ -465,7 +518,7 @@ def argiveer(bron, les_id, siklus, naam):
 
 
 # ---------------------------------------------------------------- steps
-def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None):
+def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None, kaps_ure=False):
     args = [les_pad, "--grade", graad, "--budget", begroting, "--json",
             "--log", P.GATE_LOG]
     # The ceiling exemption travels from the SPEC to the gate, so the decision lives
@@ -474,6 +527,11 @@ def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None):
     # wins that argument, because it runs on every pass and the field does not.
     if plafon_vry:
         args += ["--plafon-vry", plafon_vry]
+    # Drico, 29 September 2026: a spec on the CAPS-hours basis is gated
+    # differently -- ceiling planned+12%, under-supply warns instead of failing,
+    # and no absolute per-grade ceiling. Specs without the marker are untouched.
+    if kaps_ure:
+        args.append("--kaps-ure")
     dic = P.hunspell_pad()
     if dic:
         args += ["--woordeboek", dic]
@@ -682,7 +740,7 @@ def stap(a, uit):
     uit.step("profiler config", "OK",
              [f"{P.rel(profiel_pad)}",
               (f"'{sub}': NOT measured in this config — 0 words. Budgets come from the spec "
-               f"under the 'vereistes' basis, and this config's name is NOT this "
+               f"under the '{basis}' basis, and this config's name is NOT this "
                f"sub-topic's budget provenance. Three writers in a row refused to record "
                f"it as such, correctly: a Kwartaal 3 config named in a Kwartaal 1 lesson's "
                f"herkoms would be a false record. Use what the spec's profiel_konfig says."
@@ -751,7 +809,7 @@ def stap(a, uit):
                     f"spec context: vak={vak}, graad={graad}, "
                     f"kaps_onderwerp={spek.get('kaps_onderwerp')}, "
                     f"kaps_subonderwerp={sub}, profiel_konfig="
-                    f"{os.path.basename(profiel_pad)}"],
+                    f"{_brief_konfig(spek, profiel_pad)}"],
             uitvoer=P.rel(les_pad),
             waarskuwing="No textbook, no scans, no transcriptions. "
                         "handboek_gesien must be false.")
@@ -846,7 +904,8 @@ def stap(a, uit):
 
     # --- 3. the gate, BEFORE the checkers ----------------------------------
     if staat.get("hek") is None:
-        code, hek = hardloop_hek(les_pad, graad, begroting, uit, plafon_vry)
+        code, hek = hardloop_hek(les_pad, graad, begroting, uit, plafon_vry,
+                                 kaps_ure=spek.get("begroting_basis") == "kaps-ure")
         staat["hek"] = hek["verdict"]
         staat["hek_konteks"] = hek_konteks
         argiveer(P.hek_verslag(les_pad), les_id, siklus_nou, "hek")

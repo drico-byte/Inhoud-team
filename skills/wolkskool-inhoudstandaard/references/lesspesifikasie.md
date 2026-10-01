@@ -114,20 +114,31 @@ begroting        = round(onderwerp_woorde / lesson_count)
 totale_begroting = sum of lesson budgets
 ```
 
-**CAPS contact hours are deliberately not used.** They tell a teacher how long to
-spend on a topic. They say nothing about how many words a learner reads, because
-classroom time is filled with discussion, drawing, group work and practice as well
-as text. Treating hours as a words-per-hour conversion rate confuses teaching time
-with reading volume, and the two do not track each other.
+**EVERYTHING ABOVE AND BELOW IN THIS SECTION IS THE OLD METHOD**, kept for the specs
+approved under it. **The current method is CAPS hours** — a spec declares
+`begroting_basis: "kaps-ure"` with `woorde_per_uur`, every lesson carries
+`kaps_kluster` and `kluster_ure`, each cluster's envelope is its hours times the rate,
+and the planner distributes inside that envelope. The floor is 200 words ("up to 200,
+or merge it"), a lifted lesson declares `vloer_optel`, and the gate's ceiling is
+planned + 12%. See the standard's "Budgets from CAPS hours" for the whole rule.
 
-Record `kaps_ure` if you like — it is useful provenance — but nothing derives from
-it, and the validator says so whenever it appears.
+**CAPS contact hours are not used UNDER THE OLD METHOD.** WITHDRAWN 29 September 2026
+for new work. The objection was that classroom time holds discussion, drawing and group
+work as well as text, so treating hours as a words-per-hour rate confuses teaching time
+with reading volume. Answered: the rate is calibrated on our own delivered lessons, so
+the non-reading part is already priced in, and hours times the rate predicted a real
+Grade 6 textbook's term volume to within 1.4%. It still bites where a cluster's hours
+are mostly practical work, which is the new method's one exception.
 
-**Budgets are divided evenly across the lessons in a sub-topic.** A sub-topic's
-measured volume is the parity anchor; how it splits is arithmetic, not judgement.
-Uneven division would mean substituting an opinion about relative importance for a
-measurement, which is the kind of thing that quietly drifts over hundreds of
-lessons.
+Under the old method, record `kaps_ure` if you like — it is useful provenance — but
+nothing derives from it, and the validator says so whenever it appears.
+
+**Budgets are divided evenly across the lessons in a sub-topic, UNDER THE OLD METHOD.**
+WITHDRAWN 29 September 2026 for new work: the planner now weights each lesson
+deliberately and justifies it in one line. The old reason was that uneven division
+substitutes an opinion about relative importance for a measurement — and even division
+is what produced Gr 4 Natuurwetenskappe lessons running from 169 words to 811, which is
+arithmetic nobody chose. A judged spread beats an unchosen one.
 
 Rounding can move the total by at most one word per lesson. The validator allows
 that and nothing more.
