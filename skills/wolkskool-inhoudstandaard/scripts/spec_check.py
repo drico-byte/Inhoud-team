@@ -83,7 +83,16 @@ import argparse, json, re, sys
 # average. Grades 10-12 stay unbanded until someone decides them the same way,
 # rather than inheriting a number that was reasoned about another grade.
 LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550), 7: (350, 700), 8: (350, 700), 9: (350, 700)}
-LESBAND_VAK = {}
+LESBAND_VAK = {
+    # Lampies, 1 Oktober 2026: Graad 7 Lewensorientering se plafon is van 700 na 750 gelig.
+    # WAAROM: negentien van die sewe-en-veertig lesse het oor 700 gemeet, elkeen met 'n
+    # toegestane uitsondering, en die uitsonderings het die plafon in die praktyk vervang.
+    # 'n Plafon wat veertig persent van sy lesse vrystel, meet niks; 750 is wat die inhoud
+    # werklik vra. Die vier lesse bokant 750 bly uitsonderings en word getel.
+    # Net hierdie vak en net hierdie graad: ander Graad 7-vakke bly op 700, en Graad 4 tot 6
+    # is afgelewer en word nie geraak nie.
+    (7, "lewensorientering"): (350, 750),
+}
 
 
 def lesband_vir(graad, vak=None):

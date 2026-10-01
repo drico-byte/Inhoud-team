@@ -213,7 +213,16 @@ KAPS_URE_TOLERANCE = 0.12
 # 350-700. The two tables have to move together or the ceiling holds only the
 # budget, which is the exact hole the comment above describes.
 LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550), 7: (350, 700), 8: (350, 700), 9: (350, 700)}
-LESBAND_VAK = {}
+LESBAND_VAK = {
+    # Lampies, 1 Oktober 2026: Graad 7 Lewensorientering se plafon is van 700 na 750 gelig.
+    # WAAROM: negentien van die sewe-en-veertig lesse het oor 700 gemeet, elkeen met 'n
+    # toegestane uitsondering, en die uitsonderings het die plafon in die praktyk vervang.
+    # 'n Plafon wat veertig persent van sy lesse vrystel, meet niks; 750 is wat die inhoud
+    # werklik vra. Die vier lesse bokant 750 bly uitsonderings en word getel.
+    # Net hierdie vak en net hierdie graad: ander Graad 7-vakke bly op 700, en Graad 4 tot 6
+    # is afgelewer en word nie geraak nie.
+    (7, "lewensorientering"): (350, 750),
+}
 COMMA_MAX = 0.35
 # List items are checked on their own terms rather than as prose.
 LIST_ITEM_GUIDE, LIST_ITEM_MAX = 18, 28
