@@ -168,6 +168,28 @@ def ondersoek(pad, minimum):
 # cannot see it. That is the trade this check must not make: its whole value is that every
 # hit is real, so a verb which also appears inside records turns it into the noisy check the
 # other two already are. AN ORDER PHRASED AS A STATEMENT IS NOT CATCHABLE BY A VERB LIST.
+#
+# THE SECOND DEAD END, 1 October 2026, and this one cannot be tuned into working. The idea
+# was to stop recognising orders at all and look for a different signature instead: a record
+# says a form was withdrawn AND quotes it, so if a long piece of that quotation still appears
+# in the field's ordering half, the order is probably still giving it. Meaning-free, and it
+# would have caught statement-shaped orders.
+#
+# It found ZERO of sixteen known cases, including on a commit that definitely carried them.
+# Two reasons, and the second is fatal:
+#
+#   1. Records announce a withdrawal in far more ways than a verb list holds -- "is uit die
+#      openingslys gehaal", or no verb at all ("die ou vorm het 'X' bestel - nou verbod (4)",
+#      where the withdrawal is carried by a cross-reference).
+#   2. AFRIKAANS WRITES ITS INDEFINITE ARTICLE WITH AN APOSTROPHE. Nearly every sentence in
+#      these fields contains 'n, so a single-quote regex cannot delimit a quotation in this
+#      repository's prose -- it truncates at the first article inside the quoted run. There is
+#      no quoting convention here that a pattern could use instead.
+#
+# So: the reliable detector is an agent reading the field from the top, which found sixteen of
+# them. This script's job is to say WHERE to look, not to decide. Do not try to mechanise the
+# decision a third time without a quoting convention to stand on.
+
 # What caught it was an agent reading the field from the top, which is what the report text
 # below asks a person to do -- and on 30 September 2026 that was how ten of the eleven were
 # found.

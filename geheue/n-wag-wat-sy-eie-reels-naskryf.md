@@ -38,7 +38,33 @@ Same family, different shape: the stale-order sweep tries to recognise an order
 by a list of imperative verbs, so an order phrased as a statement is invisible
 to it — and that limit is written into the script, because extending the verb
 list fired on its own records. Where a check cannot call the real rule, say in
-its output what it cannot see. See
+its output what it cannot see.
+
+## And one thing no pattern can do in this repository
+
+1 October 2026, my second attempt at mechanising that same decision. Instead of
+recognising orders, look for a signature: a record says a form was withdrawn and
+**quotes** it, so if a long piece of that quotation still appears in the field's
+ordering half, the order is probably still giving it. Meaning-free, and it would
+have caught the statement-shaped ones.
+
+It found **zero of sixteen** known cases — and I only knew that because I ran it
+against a commit that definitely carried them before believing it. One reason was
+tunable (records announce a withdrawal in many more ways than a verb list holds,
+sometimes with no verb at all, just a cross-reference to the new prohibition).
+The other is not: **Afrikaans writes its indefinite article with an apostrophe.**
+Nearly every sentence in these fields contains `'n`, so a single-quote regex
+cannot delimit a quotation in this repository's prose — it truncates at the first
+article inside the quoted run. There is no quoting convention here to stand on.
+
+**How to apply:** two failed attempts at the same thing is the signal to stop.
+The reliable detector for a withdrawn order left standing is an agent reading the
+field from the top, which found all sixteen. The script's job is to say *where*
+to look. And before trusting any new text-pattern check in this repo, test the
+delimiter against a sentence containing `'n` — see
+[[my-soektogte-mis-en-dan-glo-ek-hulle]].
+
+See
 [[n-skrip-wat-parse-is-nie-n-skrip-wat-werk-nie]],
 [[n-ruil-wat-nie-pas-nie-moet-hard-faal]],
 [[die-feitenasiener-lees-n-verouderde-konsep]].
