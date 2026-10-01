@@ -197,6 +197,35 @@ def ooreengekome(vak=None, graad=None):
     return terme, bronne
 
 
+def besliste_betekenisse(inskrywing):
+    """The decided sentences of a term that deliberately carries more than one.
+
+    A `twee_betekenisse` entry records its senses one of two ways, and the
+    difference decides whether a lesson can be checked against them at all:
+
+      * STRUCTURED -- a `betekenisse` list of {"wanneer": ..., "sin": ...}, where
+        each `sin` is a wording a lesson must reproduce verbatim, exactly as a
+        single-meaning entry's `omskrywing` is. `hof` in Sosiale Wetenskappe Gr 6
+        is written this way: a law court and a ruler's court, two list entries.
+      * PROSE ONLY -- the senses are quoted inside a free `nota`, which is how
+        `konflik`, `verhouding` and `as` are written. There is no field there a
+        comparison could stand on: the note runs the wordings together with the
+        reason, the ruling, the history and sometimes a withdrawn candidate, and
+        `as` even carries `nog_nie_beslis`. Pulling a sentence out of that prose
+        would be guessing which quotation is the live one.
+
+    Returns a list of (when, sentence), or None where the entry keeps its senses
+    in prose. None means NOT COMPARABLE, and the report says so out loud rather
+    than passing over it -- a term nothing was compared for must never print the
+    same as a term that was compared and matched.
+    """
+    uit = []
+    for b in inskrywing.get("betekenisse") or []:
+        if isinstance(b, dict) and (b.get("sin") or "").strip():
+            uit.append(((b.get("wanneer") or "?").strip(), b["sin"].strip()))
+    return uit or None
+
+
 def main():
     ap = argparse.ArgumentParser(
         description="Find glossary terms defined more than one way")
@@ -237,6 +266,85 @@ def main():
         if any(not eenders(t, vorme[0], v) for v in vorme[1:]):
             drif[t] = d
 
+    # THE HOLE THIS CLOSED, 1 October 2026, and it had swallowed a term whole.
+    # `twee_betekenisse` suppressed the term from the drift loop above, which is
+    # right. But it fell out of the other two reports as well, and nobody noticed
+    # that the exemption had become total:
+    #
+    #   * the `omskrywing` comparison below starts `if not reg ... continue`, and a
+    #     two-meaning entry's `omskrywing` is ALWAYS empty -- its wordings live in
+    #     `betekenisse` instead, which nothing read;
+    #   * the `oop` report excludes `twee_betekenisse` by name, so it did not even
+    #     show up as an open decision.
+    #
+    # Three paths, and the term fell through all three: NOTHING was ever compared
+    # for it, while the summary said only "nie as drif getel nie" -- which a reader
+    # takes for "checked, and fine". Demokrasie les 2 carried the SECOND withdrawn
+    # form of `hof`, the one using `reg` in the law sense that had been ruled out
+    # that same day, and the sweep printed its clean line over the top of it. A
+    # writer found it by reading.
+    #
+    # What the exemption is FOR is legitimate: two LESSONS may use different senses
+    # and must not be made to agree. What it must not do is excuse a lesson from
+    # matching any decided sense at all. So a lesson's entry is now compared against
+    # that term's decided senses and must reproduce ONE of them verbatim; matching
+    # none is drift and is reported. A term whose senses are only in prose cannot be
+    # compared, and is listed as not compared rather than counted as clean.
+    #
+    # A SECOND HOLE, FOUND IN THE SAME PLACE AND LEFT OPEN ON PURPOSE. `terme` is
+    # keyed `term.lower()`, but a decided-list key is whatever someone typed, and
+    # three are capitalised: `Hooggeregshof` (Sosiale Wetenskappe Gr 6), `MIV` and
+    # `Childline` (Lewensoriëntering Gr 7). The `t not in terme` test below -- and
+    # the identical test in the `omskrywing` comparison and in `oop` -- can never
+    # match them, so those three are compared against nothing, exactly as a
+    # two-meaning term was. On 1 October 2026 it happened to be harmless: both
+    # lessons carrying `Hooggeregshof` match its wording anyway, and no lesson
+    # carries the other two yet. It is still live, and the next mismatch on one of
+    # them will be invisible. Not fixed here because folding the key to lower case
+    # changes what the sweep says about ORDINARY terms, which this change promised
+    # not to touch -- it wants its own run, with its own before/after diff.
+    twee_verkeerd = {}     # term -> (senses, {text -> [(path, status, year)]})
+    twee_prosa = []        # terms whose senses no comparison can reach
+    for t, v in sorted(besluite_vroeg.items()):
+        if not v.get("twee_betekenisse") or t not in terme:
+            continue
+        sinne = besliste_betekenisse(v)
+        if sinne is None:
+            twee_prosa.append(t)
+            continue
+        if v.get("voorbeelde_mag_verskil"):
+            def pas(teks, sinne=sinne):
+                return any(romp(teks) == romp(s) for _, s in sinne)
+        else:
+            def pas(teks, sinne=sinne):
+                return any(teks == s for _, s in sinne)
+        verkeerd = {teks: waar for teks, waar in terme[t].items() if not pas(teks)}
+        if verkeerd:
+            twee_verkeerd[t] = (sinne, verkeerd)
+
+    def twee_reels(vv=""):
+        """The multi-meaning lines. They must say WHICH of two things happened.
+
+        "nie as drif getel nie" was true, and still is, and on its own it reads as
+        "checked and found fine". It was not checked at all until the loop above
+        existed, and a withdrawn wording sat under that line for a day.
+        """
+        if twee:
+            print(f"{vv}{len(twee)} met opset twee betekenisse, nie teen MEKAAR vergelyk nie: "
+                  f"{', '.join(twee)}")
+            getoets = [t for t in twee if t not in twee_prosa]
+            if getoets:
+                print(f"{vv}  elke les se inskrywing is wel teen daardie term se besliste "
+                      f"betekenisse getoets ({', '.join(getoets)});")
+                print(f"{vv}  'n les moet EEN daarvan woordeliks dra.")
+        if twee_prosa:
+            print(f"{vv}NIKS VERGELYK vir {len(twee_prosa)} term(e) met twee betekenisse: "
+                  f"{', '.join(twee_prosa)}.")
+            print(f"{vv}  Daardie inskrywing(s) hou hul bewoordings in prosa en nie in 'n "
+                  f"'betekenisse'-lys nie,")
+            print(f"{vv}  dus is daar geen sin om 'n les teen te toets nie. Hierdie veeg se "
+                  f"niks oor hulle nie.")
+
     # A settled wording turns "these two disagree" into "this one is wrong", which
     # is a different and more useful thing to be told: without it the report says
     # a term drifts and leaves the reader to work out which copy to trust, and
@@ -263,9 +371,17 @@ def main():
             "terme_gedeel": len(gedeel),
             "drif": {t: [{"teks": k, "lesse": [p for p, _, _ in v]}
                          for k, v in d.items()] for t, d in drif.items()},
+            # Additive, and deliberately separate from `drif`: these are lessons
+            # that match NO decided sense of a two-meaning term, which is a
+            # different fault from two lessons disagreeing with each other.
+            "twee_betekenisse_sonder_treffer": {
+                t: [{"teks": k, "lesse": [p for p, _, _ in v]}
+                    for k, v in verkeerd.items()]
+                for t, (_, verkeerd) in twee_verkeerd.items()},
+            "twee_betekenisse_nie_vergelyk_nie": twee_prosa,
         }, sys.stdout, ensure_ascii=False, indent=2)
         print()
-        return 1 if drif else 0
+        return 1 if (drif or twee_verkeerd) else 0
 
     kop = f"Woordelysdrif - {os.path.relpath(wortel, REPO)}"
     print(kop)
@@ -280,9 +396,11 @@ def main():
         print("  nie teen 'n beslissing nie.")
     print()
 
-    if not gedeel:
+    if not gedeel and not twee_verkeerd:
         # Not a pass. Nothing was compared, and that reads the same as a pass
-        # unless it says so.
+        # unless it says so. A two-meaning term is checked against its own decided
+        # senses even when it appears in only ONE lesson, so a finding there has to
+        # survive this early return.
         print("  Geen term kom in meer as een les voor, dus is niks vergelyk nie.")
         print("  Dit is nie 'n skoon toets nie; daar was net niks om te toets nie.")
         return 0
@@ -322,17 +440,45 @@ def main():
                     print(f'     nie:  les {jaar or "?"} ({merk}) "{teks}"')
             print()
 
+    # A two-meaning term reported in its own block, not folded into the one above:
+    # there is no single REG wording to print, and a reader has to see that the
+    # several right answers are right. The fault is the same severity -- a lesson
+    # carrying a wording nobody decided on.
+    if twee_verkeerd:
+        print(f"TEEN AL DIE BESLISTE BETEKENISSE ({len(twee_verkeerd)}):")
+        print()
+        for term in sorted(twee_verkeerd):
+            sinne, verkeerd = twee_verkeerd[term]
+            print(f"  {term} - twee betekenisse met opset; 'n les moet EEN van hulle")
+            print(f"  woordeliks dra. Hierdie een dra nie een van hulle nie.")
+            for wanneer, sin in sinne:
+                print(f'     REG ({wanneer}):')
+                print(f'           "{sin}"')
+            for teks, waar in sorted(verkeerd.items()):
+                print(f'     NIE:  "{teks}"')
+                for pad_, status, jaar in sorted(waar, key=lambda w: (w[2] or 10**6, w[0])):
+                    merk = "afgelewer" if status == "goedgekeur" else (status or "?")
+                    nommer = f"les {jaar}" if jaar else "?"
+                    print(f"           {nommer:<8} {merk:<12} {pad_}")
+            print()
+
     if not drif:
-        if not teen_besluit and not oop:
+        if not teen_besluit and not oop and not twee_verkeerd:
             print(f"  Geen drif. Al {len(gedeel) - len(twee)} gedeelde terme is woord vir woord")
             print(f"  dieselfde oor die {gelees} lesse wat gelees is.")
-            if twee:
-                print(f"  {len(twee)} met opset twee betekenisse, nie vergelyk nie: {', '.join(twee)}")
+            twee_reels("  ")
             return 0
+        if not teen_besluit and not oop:
+            print("Geen les weerspreek 'n ander nie; die bogenoemde dra nie een van sy term se")
+            print("besliste betekenisse nie.")
+            twee_reels()
+            return 1
         if not teen_besluit:
             print(f"Geen les weerspreek 'n ander nie, maar {len(oop)} bewoording(s) is nog nie besluit nie.")
+            twee_reels()
             return 1
         print("Geen les weerspreek 'n ander nie; die bogenoemde weerspreek 'n beslissing.")
+        twee_reels()
         return 1
 
     for term in sorted(drif):
@@ -349,8 +495,7 @@ def main():
         print()
 
     print(f"{len(drif)} van die {len(gedeel)} gedeelde terme dryf uiteen.")
-    if twee:
-        print(f"{len(twee)} met opset twee betekenisse, nie as drif getel nie: {', '.join(twee)}")
+    twee_reels()
     if besluite:
         # Membership is not settlement. An entry may be OPENED in the agreed list --
         # given a name, a note and three routes -- with its 'omskrywing' still empty,

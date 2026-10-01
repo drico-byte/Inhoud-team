@@ -189,6 +189,68 @@ def ondersoek(pad, minimum):
 # So: the reliable detector is an agent reading the field from the top, which found sixteen of
 # them. This script's job is to say WHERE to look, not to decide. Do not try to mechanise the
 # decision a third time without a quoting convention to stand on.
+#
+# THE THIRD DEAD END, 1 October 2026. BUILT, MEASURED, AND TAKEN OUT AGAIN. The idea was
+# the most promising one yet, because unlike the two above it compares two NUMBERS and
+# never two meanings: a field opens by announcing a count ("VIER DINGE WAT HIERDIE ITEM
+# VERBIED", "SES DINGE IS GESNY"), then numbers its items (1), (2), (3); when an item is
+# added later the opening line is not touched, so it announces the wrong number and a
+# reader counting from the top stops early. It is a real fault - it happened at least eight
+# times in two days - and it looks mechanical. It is not.
+#
+# WHAT WAS BUILT: a number word (EEN..TWAALF) followed by a plural noun (DINGE, VRAE,
+# GROEPE, PUNTE, ITEMS, BEWERINGS, REELS, VERBODE, STAPPE) is an announcement; the span
+# runs to the next announcement or the end of the field; items are "(N)" preceded by
+# whitespace or start-of-string (the whitespace is essential - without it "artikel
+# 28(1)(c)" and "165(6)" are counted, which was the largest single source of noise); and
+# only a run starting at 1 is judged, because (0a), (0b), (0), (1) fields are deliberate.
+#
+# WHAT IT MEASURED. On commit 1d18e478, over the eight Gr 6 Sosiale Wetenskappe specs: 54
+# announcements, 11 reported, 3 of the 11 genuine. On the whole working tree, 91 specs: 13
+# reported, ONE genuine - and that one was found and fixed by a person, independently, in
+# the hour this was being measured. Call it 1-in-4 at best and 1-in-13 at worst.
+#
+# WHY IT CANNOT BE TUNED INTO WORKING. Four separate things fool it, and they are the
+# ordinary way these fields are written:
+#
+#   1. CROSS-REFERENCES ARE SPELT EXACTLY LIKE ITEM LABELS. "sien kern-item 4 se verbod
+#      (5)", "dieselfde bevinding as punt (3)", "verbod (1) hieronder staan". They are
+#      preceded by whitespace, so the guard that defeats legal citations cannot help, and
+#      a field that correctly announces four gets a fifth item from a reference to its
+#      neighbour. Four of the twelve false positives.
+#   2. AN ANNOUNCED LIST IS USUALLY NOT NUMBERED WITH (N) AT ALL. These fields label items
+#      (a)(b)(c), (i)(ii), "1." "2.", or just separate them with semicolons. The check
+#      then walks past them and counts a DIFFERENT numbered list further down the span -
+#      almost always one inside the field's own record block. Five of the twelve.
+#   3. THE ANNOUNCEMENT PATTERN MATCHES ORDINARY PROSE, AND A SPAN STOPS AT IT. "MOENIE
+#      SKRYF DAT DIE WET DIE TWEE GROEPE APART GEHOU HET NIE" and "(6) DIE BEVESTIGINGSTAP
+#      DEK DRIE DINGE EN NET DRIE" are not announcements, but they end the span, so a
+#      correct eight- or ten-item list is cut off at item 1 or 6 and reported as short.
+#      Three of the twelve. Nested announcements ARE real, so the span cannot simply stop
+#      ignoring them.
+#   4. "DIE VIER GROEPE BLY RYK, ARM, BEKEND EN ONBEKEND" announces no list at all.
+#
+# AND THE FAILURE THAT MATTERS MOST IS THE ONE IT IS SILENT ABOUT. Of the three stale
+# counts known to be live at 1d18e478, it caught ONE. The second -
+# feitekontrole_voor_skryfwerk's "SES DINGE IS GESNY" holding five - it skipped without a
+# word, because those five are semicolon-separated prose and it can only count "(N)". That
+# is reason 2 again, and it means A CLEAN RUN SAYS NOTHING: sixteen of the 54 announcements
+# were skipped silently, and one of the sixteen was a real fault. The third known case
+# turned out on reading not to be a fault at all - the field announces two and holds (i)
+# and (ii) - so what the check reported there was a false positive, not a catch.
+#
+# DO NOT REACH FOR A DISTANCE GUARD, which is the obvious next move: require the span's own
+# "(1)" to follow the announcement closely, so a span that merely ran into someone else's
+# list is discarded. It works on paper and it removes seven of the twelve. But the honest
+# non-hits run out to 168 characters and the ONE confirmed true positive sits at 199, so the
+# threshold has to be set inside a 30-character window fitted to a single example - and it
+# still leaves classes 1 and 3, and still cannot see an unnumbered list.
+#
+# THE STANDING ANSWER IS NOT A CHECK. A person working in parallel hit this same field on
+# 1 October and fixed it the right way: REMOVE the count from the opening line rather than
+# correct it, and say that the points are numbered but deliberately not counted - because
+# "'n getal in 'n openingsin verouder weer by die volgende byvoeging". A count that is not
+# written cannot go stale. Prefer that to anything this script could report.
 
 # What caught it was an agent reading the field from the top, which is what the report text
 # below asks a person to do -- and on 30 September 2026 that was how ten of the eleven were
