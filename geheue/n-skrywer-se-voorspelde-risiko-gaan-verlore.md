@@ -40,3 +40,27 @@ was correct in itself and each broke something adjacent. Related:
 
 Ask after every revision: **what did this change do to its neighbours** — not whether the
 finding is gone.
+
+## The other thing that note holds, and now gets asked for
+
+1 October 2026. A writer also records, in the same provenance note, **which words it
+expects the outside language checker to undo**. One Grade 6 lesson listed ten. Three
+were not in the protected-words file — a court's official name, a population term whose
+obvious swap reopened an ambiguity three rounds had closed, and one half of a pair whose
+swap breaks the sentence in *both* directions.
+
+Nothing carried them. The language-check builder reads only the protected-words file;
+the fact checker's copy strips the note on purpose. So the list sat in the draft, correct
+and unread, until a writer happened to mention it in its hand-back.
+
+`bin/taalnasien.py` now prints a reminder to stderr — never into the block being pasted —
+naming the draft and saying the block knows only the file. It deliberately does **not**
+parse the note: a pattern over Afrikaans prose that finds nothing reads exactly like a
+lesson with nothing to find, and that cost two afternoons already
+([[n-wag-wat-sy-eie-reels-naskryf]]).
+
+**How to apply:** when a writer hands back, read its provenance note for the protection
+list and move anything missing into the file **with its reason** — a bare prohibition
+does not hold when the sentence reads awkwardly. One of the three had a reason worth more
+than the word: the obvious swap was wrong for a reason the lesson itself had spent three
+rounds establishing elsewhere. See [[onaantasbare-woorde-vir-die-taalnasiener]].

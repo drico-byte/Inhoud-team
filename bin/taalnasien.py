@@ -388,6 +388,32 @@ def bou(les_pad):
     return "\n".join(reels)
 
 
+def herinner(pad):
+    """Say out loud what this block cannot know, to stderr so it is never pasted.
+
+    1 October 2026. A writer records the words IT thinks the language checker will
+    undo, in the draft's provenance note. Nothing carries them anywhere: the fact
+    checker's copy strips that note on purpose, and this script reads only
+    kaps/beskermde-woorde.json. On one Grade 6 lesson three of the writer's ten
+    predicted protections were missing from the file -- a court's official name, a
+    population term whose obvious swap reopened an ambiguity three rounds had
+    closed, and one half of a pair whose swap works in both directions.
+
+    This does NOT parse the note. A regex over Afrikaans prose that finds nothing
+    reads exactly like a lesson with nothing to find, and this repository has
+    already paid for that twice (see bin/verouderde-bestellings.py).
+    """
+    print("", file=sys.stderr)
+    print("-" * 72, file=sys.stderr)
+    print("VOOR JY DIT PLAK: lees die konsep se herkoms-nota.", file=sys.stderr)
+    print("Die skrywer teken daarin aan watter woorde HY dink die taalnasiener sal", file=sys.stderr)
+    print("omruil. Niks dra hulle hierheen - hierdie blok ken net", file=sys.stderr)
+    print("kaps/beskermde-woorde.json. Elke woord in daardie nota wat nog nie in", file=sys.stderr)
+    print("die lys staan nie, hoort daar MET SY REDE voordat die nasien loop.", file=sys.stderr)
+    print("    %s" % pad, file=sys.stderr)
+    print("-" * 72, file=sys.stderr)
+
+
 def main():
     ap = argparse.ArgumentParser(description="Paste-ready block for an outside language checker")
     ap.add_argument("--les-pad")
@@ -410,6 +436,7 @@ def main():
         sys.exit(f"no lesson at {pad}")
 
     blok = bou(pad)
+    herinner(pad)
     if a.uit:
         with open(a.uit, "w", encoding="utf-8") as fh:
             fh.write(blok)
