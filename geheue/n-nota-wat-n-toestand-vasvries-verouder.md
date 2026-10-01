@@ -42,3 +42,33 @@ Related: [[die-korrigeerde-opdrag-bly-in-die-veld-staan]] — the older half of 
 the *old* instruction keeps standing; this is the newer half, where my *own* correction
 becomes the stale thing. And [[n-verslag-in-die-logboom-kan-verouderd-wees]], which is the
 same failure in a report rather than a note.
+
+## An order that asks for a delivery must retire itself in its own field
+
+1 October 2026, and I managed both halves of this in one day. I added a requirement
+saying a lesson's title must not claim everything in it is a child's entitlement. Into
+the same field I put two things that could not survive being acted on:
+
+1. **The current state, quoted.** *"Die huidige titel, 'Wat elke kind toekom'"* — false
+   from the moment the title changed, which was a few hours later.
+2. **A delivery order.** *"the writer delivers two or three possibilities and a person
+   chooses"* — discharged the same afternoon.
+
+When the choice came in I wrote the resolution into the *title note*, a neighbouring
+field, and left the requirement still quoting the old title and still ordering the
+delivery. A coverage check found it: a writer reading that field top-down would deliver
+options for a settled title and might reopen it. It was the eighteenth field in that
+sub-topic carrying a withdrawn order, and the first I had both created and let go stale
+the same day.
+
+**How to apply.** Two rules, and the second is the one I got wrong:
+
+- A requirement states what must be **true of the lesson**, never what is **currently in
+  it**. "The title may not claim X" survives any title; "the current title is Y" does not.
+- When an order is carried out, **retire it in the field that gave it**. Recording the
+  outcome in a neighbouring field does not reach the writer, because the writer reads the
+  ordering field from the top. Point from the order to wherever the detail lives, rather
+  than leaving the order live and the answer elsewhere. See
+  [[die-korrigeerde-opdrag-bly-in-die-veld-staan]], [[die-merker-begrawe-die-bestelling]],
+  [[n-spek-mag-nie-n-beslisde-bewoording-aanhaal-nie]] — all four are the same mistake
+  wearing different clothes: **a spec field that repeats a fact instead of pointing at it.**
