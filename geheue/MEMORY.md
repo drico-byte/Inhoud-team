@@ -135,3 +135,4 @@
 - [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks exactly like an item-level one; and CAPS marks a binding list by leaving out the word soos.
 - [Test a parallel set as a set](toets-n-parallelle-stel-as-n-stel.md) — say so in the fact brief; reading four blocks together found five faults where sentence-by-sentence found one.
 - [A note saying it is not a fault](n-nota-wat-se-dit-is-nie-n-fout-nie.md) — twice in one day; a closing verdict turns the next round away, so record the observation without it.
+- [A generic withdrawn-wording detector cannot work](n-generiese-teruggetrek-speurder-kan-nie-werk-nie.md) — built and deleted twice in one session; sweep for the old wording by name in the same script.
