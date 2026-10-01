@@ -109,15 +109,6 @@ def is_met_die_hand_verander(oud):
     return gestempel != stempel_van(oud)
 
 
-def _inhoud(doc):
-    """Compare on lesson content only. The withheld-note marker is boilerplate the
-    copier writes itself, so it must never make two copies look different -- that
-    would report every copy stale on every run and train everyone to ignore it."""
-    if not isinstance(doc, dict):
-        return doc
-    return {k: v for k, v in doc.items() if k != "herkoms"}
-
-
 def vernuwe_feitekopiee(graad=None, vak=None, droog=False):
     """Rewrite every fact checker's copy that no longer matches its draft.
 
@@ -147,7 +138,9 @@ def vernuwe_feitekopiee(graad=None, vak=None, droog=False):
             if vak and P.slug(les.get("vak", "")) != P.slug(vak):
                 continue
             aantal += 1
-            if _inhoud(oud) == _inhoud(les):
+            # Compare against what the copier would write, never against a second
+            # list of withheld fields -- see P.feitekopie_inhoud for what that cost.
+            if oud == P.feitekopie_inhoud(les):
                 continue
             verouderd += 1
             print("  %s feitekopie: %s" % ("sou vernuwe" if droog else "vernuwe",

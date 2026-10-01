@@ -196,15 +196,18 @@ def feitekopie(les_pad):
                         os.path.basename(les_pad))
 
 
-def skryf_feitekopie(les_pad):
-    """Write the fact checker's copy and return its path.
+def feitekopie_inhoud(les):
+    """The fact checker's copy of a draft, as data.
 
-    Regenerated on every call, because the draft moves. The marker left behind
-    is deliberate: without it a checker meets a lesson with no note and reports
-    that something dropped it, which one did before this existed. The marker
-    says a note was withheld and says nothing about what it contained.
+    Pure, and the ONLY definition of what a copy contains. 1 October 2026: the
+    staleness test in vernuwe-uittreksels.py used to keep its own list of the
+    fields withheld here, and the list held `herkoms` but not `goedkeuring`. So
+    every signed-off lesson's copy compared unequal to its draft for ever, was
+    reported stale on every run, and was rewritten byte for byte identically --
+    exactly the "report every copy stale and train everyone to ignore it"
+    failure that test was written to prevent. A caller that needs to know what a
+    copy holds calls this; nobody keeps a second list.
     """
-    les = lees_json(les_pad)
     weg = 0
     h = les.get("herkoms")
     if isinstance(h, dict):
@@ -241,8 +244,19 @@ def skryf_feitekopie(les_pad):
             "het nie en nie wat al voorheen goedgekeur is nie. Niks is uit die lesinhoud "
             "verwyder nie." % weg)
         les = dict(les, herkoms=h2)
+    return les
+
+
+def skryf_feitekopie(les_pad):
+    """Write the fact checker's copy and return its path.
+
+    Regenerated on every call, because the draft moves. The marker left behind
+    is deliberate: without it a checker meets a lesson with no note and reports
+    that something dropped it, which one did before this existed. The marker
+    says a note was withheld and says nothing about what it contained.
+    """
     pad = feitekopie(les_pad)
-    skryf_json(pad, les)
+    skryf_json(pad, feitekopie_inhoud(lees_json(les_pad)))
     return pad
 
 
