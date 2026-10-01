@@ -100,6 +100,67 @@ def konsep_hash(les):
     the lesson can see, and threw away three sound reports in one afternoon. A
     revision that changes what the lesson SAYS always changes the blocks too, so
     nothing real can hide here.
+
+    1 OCTOBER 2026 -- THIS LIST HAS DRIFTED FROM THE COPIER'S, AND THE DRIFT IS
+    TOLERATED ON PURPOSE. DO NOT TIDY IT. Closing it would cost 158 lessons
+    their reports; the measurements are below so that nobody has to guess.
+
+    What is excluded here is a list written by hand. The fact checker's copy
+    stopped being a list written by hand on 16 September 2026: it now works from
+    allowlists -- P.HERKOMS_BEHOU and P.GOEDKEURING_BEHOU, extended on 18 and 22
+    September -- and this hash never followed. So the hash covers fields the
+    copier withholds. Counted over the 337 drafts in konsepte/, of which 319
+    carry a herkoms block:
+
+        herkoms.profiel_konfig                     all 319 drafts
+        hersiening_nota, hersiening_nota_2..11     1 draft each
+        hersieningsnota, hersieningsnota_2         1 draft each
+        nota_eli10, nota_feite                     1 draft each
+        datum, besluite, kaps_punt_woordeliks,
+            kaps_punt_nota                         1-2 drafts each
+        goedkeuring.nota, .nasiens,
+            .namens_gedoen_deur                    3 drafts each
+
+    Twenty withheld herkoms fields and three withheld goedkeuring fields are
+    hashed here, and fifteen of the twenty are notes -- the very thing the
+    paragraph above says must not make a report look stale. Read as a statement
+    of a rule, this function no longer does what it says. The thirteen
+    hersiening* spellings are also the reason a list of names loses: each one was
+    invented by a writer after the list was written.
+
+    It stays anyway, because this hash is not a rule about notes. It is the
+    IDENTITY of a draft, and 317 state files already recorded one. Changing what
+    it covers changes every value, and the branch below -- "a new draft
+    invalidates everything downstream" -- reads a changed value as a new draft.
+    Measured today:
+
+      * all 317 drafts carrying a state file get a different hash;
+      * 0 of the 317 recorded fingerprints still match;
+      * 158 of those lessons have a fingerprint that is correct right now, so
+        for each of them that branch fires on the runner's next touch and
+        archive-and-removes 158 gate, 89 coverage and 87 fact reports -- 334 in
+        all -- to logs/verslae/ as "-verouderd", then demands every one of those
+        checks again.
+
+    The archived copies survive in the log tree, but the verdicts stop counting,
+    and the two sign-off paths each refuse for their own reason: this runner wants
+    a report sitting beside the draft, having just removed it, while
+    bin/keur-goed-na-handnasien.py checks mtimes and refuses one older than the
+    draft. So the bill for tidying this is 158 lessons re-gated, 89 coverage
+    checks and 87 fact checks, the last of those web-heavy.
+
+    That is a cost decision rather than a code decision, which is the same call
+    already recorded twice in this file: for the spec-level context a few lines
+    down, and in the paragraph above, where moving older rounds of a note out to
+    the archive threw away three sound reports in one afternoon by changing what
+    this hash saw. If the drift is ever closed it should be because someone chose
+    to pay for the re-checks, not because it looked untidy on a quiet afternoon.
+
+    If what you actually want is for the hash to stop seeing notes, note that the
+    cheap half is already done elsewhere: bin/feitekopie.py and
+    bin/vernuwe-uittreksels.py both derive staleness from P.feitekopie_inhoud, so
+    the copier's rule has exactly one home. This function is the only place in
+    bin/ that still keeps a second copy of it.
     """
     body = {k: v for k, v in les.items() if k != "status"}
     herkoms = body.get("herkoms")

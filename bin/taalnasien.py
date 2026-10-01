@@ -41,10 +41,40 @@ HIER = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HIER)
 sys.path.insert(0, HIER)
 
+# Directories that sit beside a lesson and hold files named `les-<n>.json` which
+# are NOT lessons. Any walk looking for lesson drafts has to skip them by name:
+#
+#   spek/les-3.json        -- the spec extract, the same file name as the draft
+#   feite-kopie/les-3.json -- the draft with its provenance note stripped, the
+#                             copy handed to the fact checker, rewritten by the
+#                             runner on every run
+#
+# bin/woordelysdrif.py has hit this twice and records both in `lesse()`: the
+# drift sweep read 50 lessons where 25 existed because of the extract, and then
+# 42 where 29 existed once feite-kopie/ was added on 9 September 2026. It keeps
+# the exclusion as a LIST rather than one name, because the next directory to
+# mirror these file names will do this a third time. This is the same list under
+# the same name, written out rather than imported so that a reader of either
+# file can see what is excluded without opening the other.
+HERHALINGS = ("spek", "feite-kopie")
+
 
 def lees_json(pad):
     with open(pad, encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def romp(teks):
+    """The part of a definition before its examples.
+
+    Drico ruled on 28 August 2026 that the examples after `soos` may differ per
+    lesson -- lesson 9 gives wood, water and air because it teaches the three
+    states, lesson 14 gives paper, wood and clay because it folds paper, and both
+    are that lesson's own material. What must be identical is the sentence
+    itself. Same split as bin/woordelysdrif.py, so the two tools agree about
+    when two lessons carry one definition.
+    """
+    return re.split(r",?\s+soos\s+", teks, maxsplit=1)[0].rstrip(" .,")
 
 
 def lesteks(les):
@@ -100,6 +130,43 @@ def gedeelde_verklarings(les, les_pad):
 
     Read from the other lessons rather than declared anywhere, so a pair that
     was made to match yesterday is protected today without anyone listing it.
+
+    WHICH FILES COUNT AS ANOTHER LESSON, 1 October 2026. This walked for
+    `les-<n>.json` and skipped only the lesson itself, so it also read the two
+    directories listed in HERHALINGS above -- and `feite-kopie/` is the lesson,
+    minus one field, so every term this lesson defines was found "in another
+    lesson": its own stripped copy. 556 (lesson, term) pairs across the
+    repository were handed to the outside language checker with a shared pair
+    that does not exist, and another 34 real pairs named `feite-kopie` as one of
+    the places the wording also stands. Gr 6 Sosiale Wetenskappe Demokrasie les 2
+    was the one that surfaced it: `landdroshof` shared with nothing but its own
+    copy, `hof` shared with "feite-kopie, mapungubwe".
+
+    That is worse here than a wrong count. This block goes to the one checker
+    with no sight of our decisions, nothing re-checks its edits afterwards, and
+    the reason is the whole mechanism -- a checker holds the line on a sentence
+    that reads awkwardly because it is told why. A reason it cannot verify is a
+    reason it may act on, and a wording may be preserved for a pair that was
+    never there, or a real reason be disbelieved because the one beside it is
+    plainly wrong. Spec extracts carry no `blokke` and so contributed nothing
+    today; they are excluded anyway, because that is a fact about the extract
+    format and not a property anyone promised to keep.
+
+    AND THE WORDING HAS TO MATCH, NOT JUST THE TERM, 1 October 2026. The match
+    was on the term NAME alone, so the reason printed "the same definition also
+    stands in X" about lessons whose definitions DIFFER. 27 of the 96 printed
+    reasons were false that way. 17 were ordinary drift, which the drift sweep
+    does report -- so a second guard existed. The other 10 were terms the agreed
+    list marks `twee_betekenisse`: one word, two meanings, each lesson keeps its
+    own, and the drift sweep stays silent about them BY DESIGN. For those there
+    was no second guard at all, not even in a subject swept to zero drift, and
+    the false claim was the dangerous direction: it told the outside checker that
+    two wordings which must NEVER be made to agree were a matched pair, and that
+    "improving one breaks the pair". `as` (a wheel's axle / the Earth's axis) in
+    two grades, `konflik` (people / a drama), `verhouding` (people / proportion)
+    and `hof` (a law court / a ruler's court) all went over that way. Inviting
+    that one edit is exactly what woordelysdrif.py refuses to do when it declines
+    to report these as drift.
     """
     vak_wortel = os.path.dirname(os.path.dirname(les_pad))   # .../<vak>/
     myne = {b["term"]: b.get("teks", "")
@@ -107,8 +174,30 @@ def gedeelde_verklarings(les, les_pad):
     if not myne:
         return []
 
+    # Which terms this subject-grade lets differ in their EXAMPLES, read the way
+    # bin/woordelysdrif.py reads it so that both tools call the same two lessons
+    # a pair. Keyed exactly as the list types the term: the one capitalised key
+    # in the repository is itself a decided wording, which `bou` suppresses from
+    # this path anyway, and a flag missed this way costs a true pair rather than
+    # printing a false one -- the safe direction.
+    vlae = {}
+    if les.get("vak") and les.get("graad"):
+        try:
+            import paaie as P                                # noqa: E402
+            vlae = P.gedeelde_omskrywings(les["vak"], les["graad"]).get("terme") or {}
+        except Exception:
+            vlae = {}
+
+    def een_omskrywing(term, myn, ander_teks):
+        """Do these two lessons really carry ONE definition of this term?"""
+        if (vlae.get(term) or {}).get("voorbeelde_mag_verskil"):
+            return romp(myn) == romp(ander_teks)
+        return myn == ander_teks
+
     elders = {}
     for gids, _, lers in os.walk(vak_wortel):
+        if os.path.basename(gids) in HERHALINGS:
+            continue        # holds copies of lessons, not other lessons
         for naam in lers:
             if not re.fullmatch(r"les-\d+\.json", naam):
                 continue
@@ -120,7 +209,9 @@ def gedeelde_verklarings(les, les_pad):
             except Exception:
                 continue
             for b in ander.get("blokke", []):
-                if b.get("tipe") == "begrip" and b.get("term") in myne:
+                if (b.get("tipe") == "begrip" and b.get("term") in myne
+                        and een_omskrywing(b["term"], myne[b["term"]],
+                                           b.get("teks", ""))):
                     elders.setdefault(b["term"], set()).add(
                         os.path.basename(os.path.dirname(ander_pad)))
 

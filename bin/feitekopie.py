@@ -23,6 +23,26 @@ checked. Run this before briefing a fact checker outside the runner.
 
 With --alles it walks the tree, skips report files, and reports which copies
 were behind their draft, because that count is the thing worth seeing.
+
+"BEHIND" IS A QUESTION ABOUT CONTENT, NOT ABOUT MODIFICATION TIME. 1 October
+2026: this script used to compare mtimes, which reports a copy stale whenever the
+draft was touched -- and a revision that only appends to the writer's provenance
+note changes nothing a fact checker can see, because the note is exactly what the
+copy withholds. Measured over this repository's history, 46 of 1283 draft
+modifications left the stripped copy byte-identical; every one of those would be
+announced as behind.
+
+That is the cry-wolf half of a failure this repository has already paid for: a
+guard that kept its own copy of the rules reported three files stale for ever and
+was blind to thirty that genuinely were. CLAUDE.md tells whoever runs the pipeline
+to QUOTE the number this script prints, so the number has to mean something. A run
+that reports none is what makes the checks after it worth having.
+
+So the test asks the only question that matters -- is the copy on disk what the
+copier would write now? -- by comparing against P.feitekopie_inhoud, the single
+shared definition of what a copy contains. There is deliberately no second list
+here of the fields a copy withholds. That second list IS the fault; see
+P.feitekopie_inhoud for what one cost.
 """
 
 import argparse
@@ -51,6 +71,37 @@ def versamel(wortel):
                 yield os.path.join(gids, naam)
 
 
+def is_agter(les_pad):
+    """Is the copy on disk something other than what the copier would write now?
+
+    Returns (behind, reason). Content, never mtime -- see the module docstring.
+
+    The comparison is against P.feitekopie_inhoud and nothing else, so the fields
+    a copy withholds are named in exactly one place in this repository. Note that
+    this makes a note-only revision correctly "current", which is the point, and
+    also makes a revision that ADDS a note field "behind" -- the withheld-field
+    marker carries a count, so the copy genuinely changes. That is still the right
+    answer to the question actually being asked.
+
+    Missing or unreadable counts as behind. A copy that cannot be read is
+    certainly not the copy a checker should be briefed on, and the safe direction
+    here is to over-report: a false "behind" costs a rewrite that was going to
+    happen anyway, while a false "current" hands a fact checker text nobody wrote
+    and it returns a clean verdict on it. That is the 19 September 2026 failure,
+    thirty of thirty-two copies behind and a whole round of checks thrown away.
+    """
+    kopie = P.feitekopie(les_pad)
+    if not os.path.exists(kopie):
+        return True, "daar was nog geen kopie nie"
+    try:
+        oud = P.lees_json(kopie)
+    except (OSError, ValueError) as e:
+        return True, "die kopie was onleesbaar (%s)" % e
+    if oud == P.feitekopie_inhoud(P.lees_json(les_pad)):
+        return False, ""
+    return True, "die inhoud stem nie met die konsep ooreen nie"
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -69,14 +120,12 @@ def main():
     verouderd = 0
     for les_pad in lesse:
         les_pad = os.path.abspath(les_pad)
-        kopie = os.path.join(os.path.dirname(les_pad), "feite-kopie",
-                             os.path.basename(les_pad))
-        was_agter = (not os.path.exists(kopie)
-                     or os.path.getmtime(kopie) < os.path.getmtime(les_pad))
+        # Ask before writing: skryf_feitekopie is what makes the copy current.
+        was_agter, rede = is_agter(les_pad)
         nuwe = P.skryf_feitekopie(les_pad)
         if was_agter:
             verouderd += 1
-            print(f"  verouderd, nou vernuwe: {P.rel(nuwe)}")
+            print(f"  verouderd, nou vernuwe: {P.rel(nuwe)}  ({rede})")
 
     print(f"\n{len(lesse)} kopie(e) geskryf, waarvan {verouderd} agter die konsep was.")
     if verouderd:
