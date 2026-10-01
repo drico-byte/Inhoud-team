@@ -131,3 +131,4 @@
 - [A guard that copies its own rules](n-wag-wat-sy-eie-reels-naskryf.md) — it cried wolf on three files forever AND was blind to thirty; compare against the producing function.
 - [Where sources conflict, one covering sentence](bronne-weerspreek-mekaar-dek-ons-met-een-sin.md) — Lampies: keep the best-supported reading and disclose the conflict briefly; don't cut, don't argue it.
 - [Keep my own hands free](hou-my-eie-hande-vry.md) — Lampies must be able to reach me any moment; delegate spec surgery too, not just content.
+- [Gr 6 SW: rulings and where we are](gr6-sw-besluite-en-waar-ons-is.md) — 73 lessons, 1 signed off 1 Oct 2026; no article numbers at Gr 6; 65 lessons never checked.
