@@ -1,9 +1,11 @@
 {
   "les": "gr7/lewensorientering/selfontwikkeling-in-die-samelewing/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:07968e90dd01b5e5e217cb7d44059fb8",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:09ef790e096e91316b0f5032c3164841",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:09ef790e096e91316b0f5032c3164841"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -63,9 +65,35 @@
       "woorde": 763,
       "begroting": 760,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-01T07:46:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:09ef790e096e91316b0f5032c3164841",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-01T07:46:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 833,
+      "begroting": 760,
+      "failures": [
+        "Study text: 0.39 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-10-01T07:46:02+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 0.39 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
     }
   ],
-  "spek_hash": "sha256:4af4e6ced70c010ce7d22f2f0c48649c",
+  "spek_hash": "sha256:aec1cbf045ca72bb1b4e54f9f8e08af1",
   "hek_konteks": {
     "graad": 7,
     "begroting": 760
