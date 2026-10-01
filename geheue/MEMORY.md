@@ -129,3 +129,4 @@
 - [A spec decision is invisible to the fact checker](n-beslissing-in-die-spek-is-onsigbaar-vir-die-feitenasiener.md) - it never sees the spec, so "do not raise this again" cannot reach it; fix the text instead.
 - [A spec may not quote a decided wording](n-spek-mag-nie-n-beslisde-bewoording-aanhaal-nie.md) — it goes stale the moment the ruling moves; order the shape and defer the sentence to the injected list.
 - [A guard that copies its own rules](n-wag-wat-sy-eie-reels-naskryf.md) — it cried wolf on three files forever AND was blind to thirty; compare against the producing function.
+- [Where sources conflict, one covering sentence](bronne-weerspreek-mekaar-dek-ons-met-een-sin.md) — Lampies: keep the best-supported reading and disclose the conflict briefly; don't cut, don't argue it.

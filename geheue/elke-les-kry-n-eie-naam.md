@@ -56,3 +56,30 @@ through the writer rather than naming it yourself: whether an Afrikaans title re
 speaker's judgement, and an agent's ear for that is unreliable in both directions — see
 [[afrikaans-wag-vir-spesialiste]] and the general point in `references/woordkeuse.md`. Then show Drico
 the list, because it is his hero text.
+
+## A title need not cover everything the lesson covers
+
+**Lampies, 1 October 2026:** *"thats totally fine. A title doesnt have to capture
+everything that the content is about."*
+
+I had put two titles to him together, both flagged by fact checkers for the same
+reason — they left a whole strand of the lesson unannounced. He left one alone and
+changed the other, and the difference is the thing to carry forward:
+
+- **Incomplete is fine.** Grade 6 Social Sciences lesson 3's title names where laws
+  are made and whom they bind, and says nothing about what happens when someone
+  breaks one — a sixth of the text, three of ten glossary entries, and a strand
+  CAPS names outright. It stays. A writer had a clean additive fix ready and it was
+  not wanted.
+- **Claiming the wrong thing is not.** Lesson 6's title said everything in it is
+  what a child is *entitled to*, when three blocks are the children's charter —
+  which the lesson itself calls a list of demands and expressly not law — and
+  another is what a child must *do*. That title folded shut the very distinction
+  the lesson is built on, so it changed.
+
+**How to apply:** an omission in a title is not a finding. A title that asserts
+something false about its own content is. When a checker raises a title, ask which
+of the two it is before spending a round on it — and do not put an omission to him
+as a question. Related: [[kaps-se-lys-wen-oor-die-handboek-se-lys]] (incomplete is
+fine, a false contrast is not — the same shape, one level up),
+[[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]].
