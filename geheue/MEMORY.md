@@ -127,3 +127,5 @@
 - [Onseker can mean untested](onseker-kan-ongetoets-beteken.md) — the uncertainty bucket can hold claims no source was reached for; ask why, and re-run the whole check.
 - [A ceiling can make a repair unaffordable](n-plafon-kan-n-regstelling-onbekostigbaar-maak.md) - check whether the requirement that costs the words is a finding or my own gloss, before cutting anything real.
 - [A spec decision is invisible to the fact checker](n-beslissing-in-die-spek-is-onsigbaar-vir-die-feitenasiener.md) - it never sees the spec, so "do not raise this again" cannot reach it; fix the text instead.
+- [A spec may not quote a decided wording](n-spek-mag-nie-n-beslisde-bewoording-aanhaal-nie.md) — it goes stale the moment the ruling moves; order the shape and defer the sentence to the injected list.
+- [A guard that copies its own rules](n-wag-wat-sy-eie-reels-naskryf.md) — it cried wolf on three files forever AND was blind to thirty; compare against the producing function.
