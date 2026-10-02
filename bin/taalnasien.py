@@ -293,11 +293,30 @@ def besliste_omskrywings(les, vak, graad):
     for term, inskrywing in (lys.get("terme") or {}).items():
         if term not in myne or not isinstance(inskrywing, dict):
             continue
-        teks = (inskrywing.get("omskrywing") or "").strip()
-        # Only where the lesson really carries it. Where it does not, the
-        # mismatch is a coverage problem and not something to tell a language
-        # checker about.
-        if not teks or myne[term].strip() != teks:
+        # Only where the lesson really carries one of this term's settled
+        # wordings. Where it does not, the mismatch is a coverage problem and not
+        # something to tell a language checker about.
+        # EXACT, AND ONLY EXACT -- deliberately NOT the `voorbeelde_mag_verskil`
+        # stem match that bin/woordelysdrif.py also applies. No entry in the
+        # repository carries both flags (measured 2 October 2026: 6 entries marked
+        # `twee_betekenisse`, 22 marked `voorbeelde_mag_verskil`, no overlap), so a
+        # stem match buys this path nothing -- and it costs. Measured over all 319
+        # drafts it moved 11 terms that already had a protection by the
+        # shared-wording route below onto this one, replacing a reason that was
+        # true ("the same wording stands in these other lessons") with one that is
+        # false in its examples ("every lesson that defines the term uses these
+        # words"). That is the same class of false reason this file was repaired
+        # for on 1 October 2026. A wording this path declines is not unprotected:
+        # the shared-wording route still carries it. Add the stem match only
+        # together with a reason line that would then be true, and measure it on
+        # its own.
+        myn = myne[term].strip()
+        wanneer, teks = "", None
+        for kandidaat, sin in besliste_bewoordings(inskrywing):
+            if myn == sin:
+                wanneer, teks = kandidaat, sin
+                break
+        if teks is None:
             continue
         # The files disagree about where the reasoning lives, because they were
         # written months apart: Gr 5 Natuurwetenskappe uses `nota` and
@@ -309,8 +328,42 @@ def besliste_omskrywings(les, vak, graad):
         deur = (inskrywing.get("beslis_deur") or "").strip()
         if deur and deur.lower() not in rede.lower():
             rede = (f"{rede} Beslis deur {deur}." if rede else f"Beslis deur {deur}.")
-        uit.append((term, teks, rede, (inskrywing.get("let_op") or "").strip()))
+        uit.append((term, teks, rede, (inskrywing.get("let_op") or "").strip(), wanneer))
     return sorted(uit)
+
+
+def besliste_bewoordings(inskrywing):
+    """Every wording this entry has SETTLED, as (which meaning, sentence) pairs.
+
+    One pair for an ordinary term. One pair per decided meaning for a term that
+    carries more than one on purpose -- which is the case this exists for.
+
+    ADDED 2 October 2026, because a two-meaning term's reason could not reach the
+    outside language checker at all. `besliste_omskrywings` read `omskrywing` and
+    nothing else, and a two-meaning entry's `omskrywing` is ALWAYS null -- its
+    wordings live in `betekenisse`. So the term least able to survive that checker
+    was the one whose ruling never got there: each of `konflik`'s two sentences
+    reads odd standing beside the other, which is exactly why a fluent reader
+    reaches for the smoother one, and why the ruling says they may never be made
+    to agree.
+
+    Same test as bin/woordelysdrif.py's `besliste_betekenisse`, deliberately, so
+    the two tools agree about which entries can be compared at all. An entry that
+    keeps its meanings in PROSE returns nothing: there is no field a comparison
+    can stand on, and pulling a sentence out of that prose would be guessing which
+    quotation is the live one -- `as` in Gr 5 Natuurwetenskappe carries a note
+    saying one of its own sentences is too wide and needs correcting first.
+    """
+    een = (inskrywing.get("omskrywing") or "").strip()
+    if een:
+        return [("", een)]
+    if not inskrywing.get("twee_betekenisse"):
+        return []
+    uit = []
+    for b in inskrywing.get("betekenisse") or []:
+        if isinstance(b, dict) and (b.get("sin") or "").strip():
+            uit.append(((b.get("wanneer") or "").strip(), b["sin"].strip()))
+    return uit
 
 
 def voorgeskrewe_omskrywings(les):
@@ -425,7 +478,7 @@ def bou(les_pad):
     # for the same term, so a checker is never shown one wording under two
     # different justifications and left to guess which is the real one.
     beslis = besliste_omskrywings(les, les.get("vak"), les.get("graad"))
-    beslis_terme = {t for t, _, _, _ in beslis}
+    beslis_terme = {t for t, _, _, _, _ in beslis}
     gedeel = [(t, teks, waar) for t, teks, waar in gedeel if t not in beslis_terme]
     gedeel_terme -= beslis_terme
     voorgeskryf = [(t, teks) for t, teks in voorgeskrewe_omskrywings(les)
@@ -444,13 +497,29 @@ def bou(les_pad):
             reels.append(f"  NIE:  {nie}")
         reels.append(f"  Waarom: {w.get('rede') or ''}")
 
-    for term, teks, rede, let_op in beslis:
+    for term, teks, rede, let_op, wanneer in beslis:
         reels.append("")
         reels.append(f'  HOU WOORD VIR WOORD:  {term} - "{teks}"')
-        reels.append("  Waarom: hierdie bewoording is vir die HELE vak-graad BESLIS en in "
-                     "kaps/gedeelde-omskrywings vasgele. Elke les wat die term omskryf, gebruik "
-                     "hierdie woorde. 'n Verbetering aan een les skep 'n tweede omskrywing van "
-                     "een woord binne een jaar, en die eksamen dek die hele jaar.")
+        if wanneer:
+            # A term with more than one deliberate meaning must NOT be given the
+            # reason below. "every lesson that defines the term uses these words"
+            # is FALSE for it -- the other meaning's lesson uses different words --
+            # and a reason the checker can see is wrong is a reason it may act on,
+            # or one that makes the true reason beside it look unreliable. That
+            # exact fault was found in this file on 1 October 2026, when 10 of 96
+            # printed reasons told the checker that two wordings which must never
+            # be made to agree were a matched pair.
+            reels.append(f"  Waarom: hierdie woord dra MET OPSET meer as een betekenis in "
+                         f"hierdie vak-graad, en die betekenisse mag NIE ooreengestem word "
+                         f"nie. Hierdie les gebruik die betekenis '{wanneer}', en hierdie sin "
+                         f"is daarvoor BESLIS en in kaps/gedeelde-omskrywings vasgele. Moenie "
+                         f"hom na 'n ander betekenis se sin toe skuif nie, en moenie twee "
+                         f"betekenisse saamsmelt nie.")
+        else:
+            reels.append("  Waarom: hierdie bewoording is vir die HELE vak-graad BESLIS en in "
+                         "kaps/gedeelde-omskrywings vasgele. Elke les wat die term omskryf, gebruik "
+                         "hierdie woorde. 'n Verbetering aan een les skep 'n tweede omskrywing van "
+                         "een woord binne een jaar, en die eksamen dek die hele jaar.")
         if rede:
             reels.append(f"  Die besluit: {rede}")
         if let_op:

@@ -72,3 +72,25 @@ the same day.
   [[die-korrigeerde-opdrag-bly-in-die-veld-staan]], [[die-merker-begrawe-die-bestelling]],
   [[n-spek-mag-nie-n-beslisde-bewoording-aanhaal-nie]] — all four are the same mistake
   wearing different clothes: **a spec field that repeats a fact instead of pointing at it.**
+
+## A numeric breakdown: remove it, never re-proportion it
+
+**1 October 2026, a sixth costume of the stale-order family — arithmetic rather
+than enumeration.** A budget field stated the lesson's share as 440 words above
+its own record marker, then itemised a rough plan summing to **470** — the figure
+the field carried before two transfers out. The rewrite that fixed the headline
+number left the itemisation carrying the old one. Live, so it told a writer the
+budget bought thirty words that did not exist, against a hard envelope.
+
+**The obvious repair is the wrong one.** Re-proportioning the breakdown against
+the new total resets the clock on the same fault: it is a frozen state in an
+ordering half, it had already gone stale once, and it goes stale again the next
+time words move between lessons. **Move the breakdown below the record marker and
+keep only the binding total**, which is what the gate measures anyway.
+
+**And where the recorded arithmetic does not reconcile, say so rather than
+mending it.** That field's record read 470 − 10 − 30, which is 430, not 440. I
+could not establish which number was wrong, so the honest field states that the
+recorded transfers do not reconcile and that the cluster division is
+authoritative. See [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]] —
+a guess written into a specification is read ever after as settled.

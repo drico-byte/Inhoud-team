@@ -108,3 +108,29 @@ Related: [[n-spek-se-dieselfde-ding-in-twee-velde]],
 [[n-regstelde-fout-kom-in-n-ander-gedaante-terug]],
 [[die-verwysingsles-word-nooit-nagegaan]] (the same hazard in the shared reference lesson),
 [[spesifikasies-word-nooit-nagegaan]].
+
+## Sweep the SUBJECT-LEVEL fields first, and word a ban to cover parts
+
+**1 October 2026, two instances in one evening, both found by agents after I had
+named only the lesson's own fields in the brief.**
+
+**The highest-leverage hiding place is a subject-level field**, because those are
+injected into every lesson's extract. A withdrawn permission about a date was
+alive in a lesson's requirement, in a neighbouring fact-risk item, **and in the
+subject-level pre-write fact list** — so it was reaching all eight lessons at
+once. I had named the first two. So: when a claim is withdrawn, sweep the
+subject-level fields **before** the lesson's own, and say so in the brief.
+
+**The mirror of the same point.** A prohibition written in one lesson binds one
+lesson. Where a second lesson teaches the same thing, the two can produce a false
+pair that nothing per-lesson can see — the gate reads one lesson and coverage
+reads one lesson against one entry. The fix is to promote the prohibition to
+subject level and **keep** the lesson-level one, following the precedent already
+in that field.
+
+**And a ban on a quantity must cover parts of the quantity.** The membership ban
+said "no count of the people a province sends". Another lesson carried "its four
+special delegates are the Premier and three members" — a *part* of the ten, which
+the ban did not obviously reach. Word it to cover the total, the per-unit figure
+**and any part of it**, by name. This is the quantifier version of
+[[n-regstelde-fout-kom-in-n-ander-gedaante-terug]].

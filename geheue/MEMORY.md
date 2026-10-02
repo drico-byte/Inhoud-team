@@ -132,3 +132,7 @@
 - [Where sources conflict, one covering sentence](bronne-weerspreek-mekaar-dek-ons-met-een-sin.md) — Lampies: keep the best-supported reading and disclose the conflict briefly; don't cut, don't argue it.
 - [Keep my own hands free](hou-my-eie-hande-vry.md) — Lampies must be able to reach me any moment; delegate spec surgery too, not just content.
 - [Gr 6 SW: rulings and where we are](gr6-sw-besluite-en-waar-ons-is.md) — 73 lessons, 1 signed off 1 Oct 2026; no article numbers at Gr 6; 65 lessons never checked.
+- [A phantom revert is just my own commit](n-spookterugrol-is-net-my-eie-commit.md) — an agent reading across my commit sees the file match HEAD and reports lost work; verify before restoring.
+- [A fact check on child-harm content gets cut off](n-feitetoets-op-kinderskade-word-afgesny.md) — it can write nothing at all; brief it to cite not quote, and to save its report as it goes.
+- [The provenance note can itself give an order](die-herkoms-nota-kan-self-n-bestelling-word.md) — a writer who could not see a ruling made a standing order against it, and nothing reads the note.
+- [A note repair stays in the note field](notaherstel-bly-in-die-nota-veld.md) — the same prose in an invented note field makes the runner delete both clean reports; never tidy the hash list.

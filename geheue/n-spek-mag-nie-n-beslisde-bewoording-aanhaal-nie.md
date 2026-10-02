@@ -40,3 +40,24 @@ goes stale the same way. See
 move so often, [[die-korrigeerde-opdrag-bly-in-die-veld-staan]] and
 [[n-nota-wat-n-toestand-vasvries-verouder]] for the wider family, and
 [[vee-die-bewering-oor-al-die-spesifikasies]] for the sweep a moved ruling needs.
+
+## The fourth instance, and my own copy was already wrong
+
+**1 October 2026.** Applying a ruling at source, I had the new sentence quoted
+into a **live ordering point** of the very field whose opening line reads "do not
+quote her wording in this field", and whose own records already log two earlier
+staleness failures from exactly that. So this was the fourth instance in one
+field, and the third where my own correction was the next fault.
+
+The evidence that settles the rule: **my quotation carried a typo** — it wrote
+`regsreel` where the decided wording is `regsreël`. A writer copying from the
+field instead of from the injected list would have got a form that was already
+not the decided one, on the day the ruling landed. A second live copy sat in a
+neighbouring field, and that field's own record logs a day-long undetected drift
+in precisely such a copy.
+
+**How to apply:** when a ruling moves, the urge is to quote the new sentence at
+source so a writer can see what changed. Do not. **Order the shape, strike the
+sentence, point at the injected list** — every time, including in the correction
+record itself. A quotation added to be helpful is a fresh copy that can be wrong
+the moment it is typed and goes stale the next time the ruling moves.

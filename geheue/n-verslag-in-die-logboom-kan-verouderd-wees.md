@@ -77,3 +77,21 @@ failure this note already records, arriving by a new route.
   CODESA II collapsed in May 1992 and the charter was adopted on 1 June — while two had
   confirmed it. "The children wanted their demands to reach the negotiations" is carried by
   every source and loses nothing.
+
+## No report file does NOT mean never checked
+
+**1 October 2026.** I built a status table of a sub-topic from which report files
+existed, concluded two lessons had "never been checked by anything", and briefed
+an agent that way. It corrected me: the draft's own working note recorded a
+coverage check **and** a fact check from two days earlier plus three repair
+rounds, naming findings from both, and the requirement fields repeatedly recorded
+corrections made "after a coverage check".
+
+**Why:** the runner archives reports to the log tree when a draft moves, under
+`-verouderd` names. So a checked lesson whose draft was later revised has **no
+report beside it** and a full history in `logs/verslae/<lesson>/`.
+
+**How to apply:** before calling a lesson unchecked, look in the log tree and
+read the draft's provenance note. Both hold prior findings worth inheriting
+rather than re-deriving — and telling a checker "nothing has ever read this" when
+something has invites it to re-report what was already settled.

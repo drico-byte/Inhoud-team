@@ -60,6 +60,30 @@ def lesteks(rou):
     return skoon(s)
 
 
+def verbode_vorme(inskrywing):
+    """The forbidden forms of one entry, minus the elements that are not forms.
+
+    An empty string -- or one that is only whitespace -- is not a forbidden form,
+    and it must never be treated as one. An empty pattern matches EVERY string,
+    and an empty pattern between two word boundaries matches every string with a
+    word in it, so a single such element makes its whole entry fire on every built
+    lesson in its scope and name an empty word as what the page reverted to.
+
+    A false hit here is the expensive kind. This check is the last thing standing
+    between the outside language checker's edits and delivery, and nothing
+    re-checks those edits; a reader who learns to scroll past a hit that is always
+    there stops seeing the ones that are real.
+
+    Three entries in kaps/beskermde-woorde.json carried one on 2 October 2026 --
+    `groot` in die-aarde-en-die-son, `sedert 2001` and `gewoonlik` in
+    demokrasie-en-burgerskap. Those were removed from the data the same day; this
+    is here so malformed data cannot produce it again. It also reaches the entry
+    that WAS live: bin/taalnasien.py printed the forbidden forms of four lessons
+    with a leading empty one, straight into the block the outside checker reads.
+    """
+    return [v for v in (inskrywing.get("nie") or []) if str(v).strip()]
+
+
 def lesindeks_pad(vak, graad):
     return os.path.join(REPO, "kaps", "lesindeks", f"gr{int(graad)}-{slug(vak)}.json")
 
@@ -166,7 +190,7 @@ def main():
         weg = []
         for inskrywing in beskerm.get("algemeen", []):
             hou = inskrywing["hou"]
-            for verbode in inskrywing.get("nie", []):
+            for verbode in verbode_vorme(inskrywing):
                 if re.search(rf"\b{re.escape(verbode)}\b", teks, re.I):
                     weg.append((hou, verbode, hou.lower() in teks.lower()))
         sub = None
@@ -175,9 +199,21 @@ def main():
                                     encoding="utf-8"))["lesse"]:
                 if e["nommer"] == n:
                     sub = slug(e["subonderwerp"])
+        # THE LINE BELOW MATCHES NOTHING, AND HAS NOT MATCHED ANYTHING. Its pattern
+        # holds two literal backspace bytes (0x08) where a word-boundary escape was
+        # meant, so every per-sub-topic protected word -- 25 sub-topics of them --
+        # has been checked against built pages by a pattern no text can satisfy. The
+        # general list above is unaffected. Measured 2 October 2026: with the
+        # boundary restored the branch reports 132 hits over 51 drafts, and 29 of
+        # those are structurally false because the forbidden form is a SUBSTRING of
+        # the form being kept (`tekens` inside `tekens en simptome`, `kar` inside
+        # `karretjie`, `taxi` inside `minibus-taxi`), so they fire wherever the
+        # CORRECT wording is used. Repairing the byte without first deciding what to
+        # do about that class would hand a reader a page of noise on the one check
+        # that must be believed. LEFT FOR A PERSON on purpose, not overlooked.
         for inskrywing in beskerm.get("per_subonderwerp", {}).get(sub, []):
             hou = inskrywing["hou"]
-            for verbode in inskrywing.get("nie", []):
+            for verbode in verbode_vorme(inskrywing):
                 if re.search(rf"{re.escape(verbode)}", teks, re.I):
                     weg.append((hou, verbode, hou.lower() in teks.lower()))
 

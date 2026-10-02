@@ -47,3 +47,23 @@ Both times I fixed the field the finding named and missed the others.
 regex for the wrong phrase, and confirm the count reaches zero before moving on.
 Where a correction note quotes the old wording to explain the change, that one
 match is expected and is the only one allowed to remain.
+
+## I did this myself, hours after quoting the rule to an agent
+
+**2 October 2026.** A specification-level field claimed, in the present tense,
+that the subject's agreed-wordings list was deliberately empty. That claim had
+been withdrawn **by name** the previous day — but it stood in **two** fields. The
+withdrawal swept one and left the twin, which still asserts it and has **no
+record marker**, so its stale half is indistinguishable from a live order. I had
+read the repair as complete.
+
+What makes the twin worse than the original: a marker-less field is skipped by
+the stale-order sweep entirely, so nothing will ever report the next fault in it.
+A fault moved into a marker-less field has effectively been hidden.
+
+**How to apply:** when a claim is withdrawn, grep the claim's *substance* across
+the whole specification **before** calling the repair done, and check each hit for
+a record marker. Sweep subject-level fields first — they are injected into every
+lesson, so a survivor there reaches all of them. See
+[[vee-die-bewering-oor-al-die-spesifikasies]]. And a field that needs a fix but
+has no marker should be **rebuilt**, not patched, or the fix becomes invisible.

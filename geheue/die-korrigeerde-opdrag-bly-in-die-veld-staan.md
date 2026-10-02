@@ -117,3 +117,30 @@ asks for it" while the requirement *did* ask for it — a live contradiction bet
 standing orders. A writer cannot choose, which is why the checker escalated instead of
 sending the draft back. **A contradiction between two spec fields is always a person's to
 resolve; never brief a writer around it.**
+
+## Amending the opening line is not enough, and patching past the threshold is the error
+
+**2 October 2026 — the fourth fault in ONE field, and three of the four were my
+own patches.** A requirement field reached twelve dated records and two rewrites.
+Each time I amended the ordering sentence a check had named, and each time the
+**rest of the same point** still prescribed the superseded regime: it announced
+one deliberate omission when a ruling had made it two, and it went on telling a
+writer what properties the wording must carry — two sentences after saying the
+wording is decided and copied verbatim. So the point ordered "copy it exactly"
+and "it must contain X" at once.
+
+**Two things to take from it.**
+
+1. **Amending the sentence a finding named is half the job.** Afterwards read the
+   whole field from the top *as prose* and ask whether every other clause still
+   assumes the world before the ruling. A clause that merely *describes* the old
+   regime reads as an order when the writer meets it.
+2. **Once a field is past the rewrite threshold, rebuild it — do not patch it
+   again, however carefully.** I kept patching precisely *because* I had warned
+   each agent that the field was dangerous to touch, which is backwards: the
+   danger is the reason to rebuild, not the reason to patch. A field with several
+   dated corrections and **no record marker** is the worst case, because the
+   stale-order sweep skips it entirely and nothing will ever find the next one.
+
+Related: [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]],
+[[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]].
