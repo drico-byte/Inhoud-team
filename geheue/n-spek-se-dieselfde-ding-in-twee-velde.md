@@ -1,8 +1,11 @@
 ---
 name: n-spek-se-dieselfde-ding-in-twee-velde
-description: "Fixing a finding at its source in the spec means sweeping every field that repeats the claim — the core items and the focus-question field said the same thing twice."
+description: Fixing a finding at its source in the spec means sweeping every field that repeats the claim — the core items and the focus-question field said the same thing twice.
 metadata:
+  node_type: memory
   type: feedback
+  originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
+  modified: 2026-10-02T13:52:08.602Z
 ---
 
 31 August 2026, Gr 4 SW "Vervoer op land" lesson 1. A fact check contradicted two claims
@@ -57,13 +60,22 @@ withdrawal swept one and left the twin, which still asserts it and has **no
 record marker**, so its stale half is indistinguishable from a live order. I had
 read the repair as complete.
 
-What makes the twin worse than the original: a marker-less field is skipped by
-the stale-order sweep entirely, so nothing will ever report the next fault in it.
-A fault moved into a marker-less field has effectively been hidden.
+What makes the twin dangerous: with no marker there is nothing separating its
+stale half from a live order, so a writer reading top-down cannot tell which
+half binds.
+
+**I first wrote here that a marker-less field is skipped by the sweep. That was
+wrong, and the inverse of the code** — `ondersoek` **skips** a field that *has*
+the marker, and **lists** one that lacks it once it holds two or more dated
+records. So this twin was in fact exactly the sort of field the sweep does
+report; what it lacked was a reader. See
+[[die-korrigeerde-opdrag-bly-in-die-veld-staan]] for the verified behaviour and
+how far that inversion travelled.
 
 **How to apply:** when a claim is withdrawn, grep the claim's *substance* across
-the whole specification **before** calling the repair done, and check each hit for
-a record marker. Sweep subject-level fields first — they are injected into every
-lesson, so a survivor there reaches all of them. See
-[[vee-die-bewering-oor-al-die-spesifikasies]]. And a field that needs a fix but
-has no marker should be **rebuilt**, not patched, or the fix becomes invisible.
+the whole specification **before** calling the repair done. Sweep subject-level
+fields first — they are injected into every lesson, so a survivor there reaches
+all of them. See [[vee-die-bewering-oor-al-die-spesifikasies]]. A field needing a
+fix and holding several corrections should be **rebuilt** rather than patched —
+not because the sweep cannot see it, but because corrections accumulate until the
+field no longer reads as prose.

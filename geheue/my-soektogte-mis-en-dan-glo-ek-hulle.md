@@ -35,3 +35,23 @@ whole field rather than a window. And when an agent contradicts me with specific
 reading did: it read the file, and I ran a pattern over it. Same shape as
 [[n-skoon-toets-is-so-wyd-soos-sy-omvang]], one level down: there the claim was
 wider than the check, here the check was narrower than the file.
+
+## A `break` in the loop, and I reported the field as clean
+
+**2 October 2026.** I searched a specification for a claim a fact check had
+withdrawn, to decide whether it was ordered at source. My probe printed the
+**first** match per field and then `break`ed. The first hit in the relevant field
+was an innocent one early on; **the claim itself stood in capitals further along
+the same field**, in its opening order. I told the writer, in a brief and without
+hedging, that neither claim was ordered. It checked, found the capitals line, and
+corrected me.
+
+**Why this one is nastier than an empty result.** An empty search at least looks
+like nothing was found. A `break` returns a *plausible, relevant* excerpt, so the
+output looks like a successful search of the field — and I read it as one.
+
+**How to apply:** when the question is "does this appear anywhere", print **every**
+occurrence and a total count, never the first. Say where each sits — above or
+below the record marker — because that decides whether it orders anything. And
+when a brief rests on my own search, say in the brief that it is my search and may
+have missed: the writer's doubt is the last line of defence, and here it held.

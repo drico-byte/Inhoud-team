@@ -1,8 +1,11 @@
 ---
 name: die-korrigeerde-opdrag-bly-in-die-veld-staan
-description: Nine times in one day I wrote a correction into a note while the requirement's opening line kept ordering the old form. Amend the ordering field FIRST, then sweep every sibling, then run the checker — in that order, every time.
+description: "Nine times in one day I wrote a correction into a note while the requirement's opening line kept ordering the old form. Amend the ordering field FIRST, then sweep every sibling, then run the checker — in that order, every time."
 metadata:
+  node_type: memory
   type: feedback
+  originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
+  modified: 2026-10-02T13:51:52.149Z
 ---
 
 18 September 2026. Nine separate instances in one working day, across two sub-topics,
@@ -138,9 +141,35 @@ and "it must contain X" at once.
 2. **Once a field is past the rewrite threshold, rebuild it — do not patch it
    again, however carefully.** I kept patching precisely *because* I had warned
    each agent that the field was dangerous to touch, which is backwards: the
-   danger is the reason to rebuild, not the reason to patch. A field with several
-   dated corrections and **no record marker** is the worst case, because the
-   stale-order sweep skips it entirely and nothing will ever find the next one.
+   danger is the reason to rebuild, not the reason to patch. The reason to rebuild
+   is that corrections accumulate until the field cannot be read as prose — a
+   count that no longer counts, a clause stranded behind a full stop, a pronoun
+   whose antecedent has moved. None of that is findable by assertion.
+
+## I had the sweep's logic INVERTED, and repeated it all night
+
+**2 October 2026.** I told agents, and Lampies, that *a field with several
+corrections and no record marker is where faults hide, because the sweep skips
+it.* **That is the exact opposite of the code**, verified by reading `ondersoek`
+in `bin/verouderde-bestellings.py`:
+
+* `if REKORDLYN in teks: continue` — a field **with** the marker is **skipped**.
+* A field **without** one is **listed**, once it holds two or more dated records
+  and the text above the first is long enough to be an order.
+
+So a marker-less field is exactly what the sweep reports — that is the sweep
+working. The marker is how a field **leaves** the "a person must read this" list
+and passes to the buried-order check, which the script's own notes call the
+precise one. Adding a marker is still right, because it is the house shape and it
+fences orders from records — but it **reduces** that field's visibility to this
+sweep rather than restoring it.
+
+**The correct behaviour was in my own context when the session began.** I had it,
+inverted it, and repeated the inversion until agents wrote it into two
+specification records as settled fact. Before asserting what a tool does, read
+the tool — and when a brief rests on my claim about one, say in the brief that it
+is my claim.
 
 Related: [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]],
-[[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]].
+[[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]],
+[[n-wag-wat-sy-eie-reels-naskryf]].

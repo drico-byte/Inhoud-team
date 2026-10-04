@@ -94,3 +94,25 @@ could not establish which number was wrong, so the honest field states that the
 recorded transfers do not reconcile and that the cluster division is
 authoritative. See [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]] —
 a guess written into a specification is read ever after as settled.
+
+## Order the COVERAGE, not the position
+
+**2 October 2026.** A writer found that the placement of a sentence was
+load-bearing: a boundary in a glossary entry had to sit **after** both culpability
+levels to cover both, and moved up it would cover only the intentional half. I was
+about to have that ordered at source as a position — "it must stand after both".
+
+A coverage check gave me the better form, and the reasoning generalises: **ordering
+a position quotes a structure rather than stating a demand**, and it goes stale the
+moment the field is legitimately reordered. Order the requirement instead — "the
+boundary must cover both culpability levels" — which stays true under any
+arrangement and which a writer can satisfy without copying a layout.
+
+The same check named why it mattered: the field already ordered the reckless limb
+and ordered the boundary, but never ordered that the boundary **reach** both. So a
+writer could satisfy both orders separately, move the sentence, leave half the
+definition uncovered, and coverage could not object — which is exactly how two
+earlier rounds of that entry went wrong.
+
+**The general rule: an order about arrangement is a frozen state. Restate it as an
+order about what must be true.**
