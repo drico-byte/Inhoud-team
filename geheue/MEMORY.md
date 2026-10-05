@@ -137,3 +137,4 @@
 - [A note saying it is not a fault](n-nota-wat-se-dit-is-nie-n-fout-nie.md) — twice in one day; a closing verdict turns the next round away, so record the observation without it.
 - [A generic withdrawn-wording detector cannot work](n-generiese-teruggetrek-speurder-kan-nie-werk-nie.md) — built and deleted twice in one session; sweep for the old wording by name in the same script.
 - [Gr 7 LO open questions go to Drico](gr7-lo-oop-vrae-gaan-na-drico.md) — finish Grade 7 on its planned basis; the CAPS-hours method applies from the next grade onward.
+- [Test files stay outside the repo](toetslêers-buite-die-repo.md) — another session commits everything in the folder; one-offs go to the scratchpad.
