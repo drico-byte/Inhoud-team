@@ -93,3 +93,32 @@ Two practical consequences.
 
 Related: [[n-regstelling-ontwrig-sy-bure]], [[n-waarskuwing-moet-elke-broer-dek]],
 [[n-versagting-vat-die-algemene-helfte-saam]].
+
+---
+
+**Third addendum, 5 October 2026, a different subject: the rule held, and I did not use it.**
+
+Gr 7 LO, the lesson giving seven religions a block each. **Three rounds on one block**, and
+each repair caused the next finding — exactly the loop the second addendum describes:
+
+1. The Baha'i block said nothing about why it differs from its siblings → add the reason.
+2. The reason was framed with a containing phrase, which in a set marks the property as that
+   member's own → drop the contrast, state the distinctive fact
+   ([[n-inperkingsfrase-maak-n-kontras]]).
+3. The distinctive fact stacked on "his words were written down in his lifetime" — the only
+   block saying *when* its founder's words were written, while four others say orally-first.
+   A learner infers only one of the seven did so, which is false.
+
+**Every one is the singleton mechanism**, in a subject with nothing in common with
+settlements. The rule generalises.
+
+**My failure was not the rule — it was where I put it.** I briefed the writer with the
+*finding* three times, which the second addendum explicitly warns invites another round. The
+rule is now written into that lesson's spec, not into a brief, because **a rule in a brief
+lives one round and a rule in the spec is read by everyone who opens it afterwards.** Do that
+for any lesson that contains a parallel set, at the first finding rather than the third.
+
+One repair shape worth keeping: when the singleton cannot simply be removed because another
+block depends on it — the Christianity block needed the Baha'i time claim to explain why it
+gets no oral stage — the fix is to **give the property to a second member** rather than take
+it from the first. Checking it is true of that member is the whole job.
