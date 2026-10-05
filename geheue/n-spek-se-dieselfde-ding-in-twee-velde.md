@@ -82,3 +82,29 @@ count is zero. Put that sweep in the same script as the edit, so it cannot be sk
 What must stay out of the sweep is the normal correction shape — a field diagnosing an old
 form with the live order right after it. A sweep that fires on those gets ignored, which is
 [[n-generiese-teruggetrek-speurder-kan-nie-werk-nie]].
+
+## Two more ways the sweep goes blind, 5 October 2026
+
+**The spec uses two bracket styles for records, and my sweep only strips one.** Square
+brackets `[…]` and round parentheses `(REGGEMAAK 28 September 2026: …)` are both used for
+withdrawal records in these specs. A reader that strips only square brackets both **misses**
+live orders hiding in parentheses and **fires** on parenthesised history. Strip square
+brackets, then also strip parentheses that open with a dated record word — REGGEMAAK,
+TERUGGETREK, VERNOU, VERBREED, BYGEWERK, HERSKRYF — and leave ordinary parentheses alone.
+
+**Appending a new requirement is not the same as replacing a sentence, and I kept treating
+it as if it were.** Four times in one session I added an item stating the corrected form and
+swept only for the phrases I had explicitly replaced — so the *old form of the thing I had
+just newly required* stayed live somewhere else. When the fix is an addition, sweep for the
+old form by name anyway.
+
+**Look at the FIRST kern item first.** It is the original planning requirement, so it is the
+oldest text in the field and the most likely to have been overtaken after many rounds — and
+in these specs it often carries a marker claiming it wins over every other sentence in its
+field, which makes it the worst place for a stale order to sit. In Gr 7 LO's religions
+lesson the first item was still ordering, in the imperative, the exact sentence that had
+been deleted hours earlier.
+
+**And sweep for the ORDER FORM, not the phrase.** A past-tense record legitimately repeats
+the wording it replaced ("the block *had to* say…"), so searching for the phrase fires on the
+correction itself. Search for the imperative.
