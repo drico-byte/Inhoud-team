@@ -286,3 +286,31 @@ not its opening line either", where the retraction covered a single wording and 
 line carried a live coverage order — so a next revision could have deleted a required
 distinction and cited the spec for it. See [[die-merker-begrawe-die-bestelling]]. Scope the
 marker to the wording it retracts, never to the field.
+
+---
+
+**5 October 2026: fifteen rounds in one day, and the discipline is narrower than I had written it.**
+
+I knew to sweep. I swept — in the *follow-up* script, after a coverage checker had
+already found the field I missed. The round that **lifts** a requirement is the one
+that must sweep, because at that moment I am holding the exact words being withdrawn
+and nobody else will. Twice the lifting round itself repeated the very fault it was
+fixing: Werk 2's form restriction was lifted while three core items still ordered it,
+one carrying its own wins-over-everything marker.
+
+**So the rule is mechanical:** the same script that writes a withdrawal ends with a
+sweep for the withdrawn phrase over every field of that lesson entry (and over the
+subject-level fields, since a subject-wide rule reaches every sub-topic), and asserts
+zero LIVE hits — live meaning outside every `[...]` marker. Not a later grep. Not a
+tool. The assert, in that script.
+
+**And two sweeps fired on my own correction records**, because a record quoted the
+withdrawn wording verbatim or stated it in the present tense ("Sy vereis dat…"). A
+record states the old form **in the past, paraphrased**. Quote it and the sweep becomes
+noise; present-tense it and a reviser reads it as live. This is the same lesson as
+[[n-rekord-word-as-n-bestelling-gelees]], arriving through my own tooling instead of
+through a writer.
+
+A third habit worth keeping: my asserts keep failing on CASE (`nie` vs `NIE`, `moet
+OPTREE` vs `moet optree`) after the write has already succeeded — so the file is
+correct and the script reports failure. Lower-case both sides before comparing.
