@@ -60,3 +60,30 @@ approved spec for the exact wording the report quoted. If it is gone, the findin
 answered and the lesson needs a fresh pair of checks, not a repair round. Related:
 [[tel-die-verslae-voor-jy-se-dit-is-nagegaan]] — same family: the state a script
 reports is not the state of the work.
+
+---
+
+**5 October 2026: twelve of sixteen. The scale changes the default.**
+
+Grade 7 LO's repair box held fourteen lessons with sixteen live findings. I checked each
+one's *named field* against the approved spec before touching anything — the step the
+1 October entry above prescribes. **Twelve were already answered.** Four still stood.
+
+Nine of the fourteen also had coverage reporting *nothing wrong with the draft*: the
+finding was "the spec is at fault" and the text was correct. So the repair box was not a
+writer's work list at all — it was a list of lessons needing a fresh pair of checks.
+
+**How to apply.** When a repair box has more than a handful of entries, verify before
+planning. One script that greps each finding's own wording out of the approved spec costs
+minutes and told me which four of sixteen were real. Without it I would have briefed
+twelve writers against faults that no longer existed, and each one would have "fixed"
+something by changing correct text.
+
+Two things that stayed true under that sweep and should not be swept for again:
+
+- **Do not fire on the normal correction shape.** A field that diagnoses an old form in
+  the present tense, with the live order immediately after it, is correct as written.
+  A sweep that flags those gets ignored — see
+  [[n-veeg-vir-velde-wat-nog-bestel]] and [[n-generiese-teruggetrek-speurder-kan-nie-werk-nie]].
+- **Pull the needle from the file, never from the report's quotation of it.** One of the
+  four failed to match because the spec carried a typo inside the sentence I was replacing.
