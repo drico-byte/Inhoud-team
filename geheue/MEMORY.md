@@ -139,3 +139,4 @@
 - [Gr 7 LO open questions go to Drico](gr7-lo-oop-vrae-gaan-na-drico.md) — finish Grade 7 on its planned basis; the CAPS-hours method applies from the next grade onward.
 - [Test files stay outside the repo](toetslêers-buite-die-repo.md) — another session commits everything in the folder; one-offs go to the scratchpad.
 - [Don't use git add -A](moenie-git-add-alles-gebruik-nie.md) — it swept another session's test file to GitHub under my commit; stage the pipeline paths deliberately.
+- [A placeholder report looks finished](n-plekhouer-verslag-lyk-soos-n-klaar-een.md) — write-early skeletons pass every freshness test; the state script detects them, and existing is not running.
