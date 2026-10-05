@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="af">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Distributiewe wet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fdf2f8;
+    --kaart: #ffffff;
+    --teks: #1e293b;
+    --sag: #64748b;
+    --rand: #f3c4e0;
+    --aksent: #ff6fcf;
+    --buite: #f28c38;   /* die getal buite die hakies */
+    --t1: #e83fb8;      /* eerste term binne */
+    --t2: #3f9a5a;      /* tweede term binne */
+    --reël: #e0101e;
+    --goed: #15803d;
+    --goed-bg: #dcfce7;
+    --fout: #b91c1c;
+    --fout-bg: #fee2e2;
+    --knop: #1e293b;
+    --knop-teks: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1a1220; --kaart: #261b2e; --teks: #f1f5f9; --sag: #a8a2b5; --rand: #4a3456;
+      --buite: #ffa95e; --t1: #ff7fd6; --t2: #6fd08c; --reël: #ff5a63;
+      --goed: #86efac; --goed-bg: #14321f; --fout: #fca5a5; --fout-bg: #3b1717;
+      --knop: #f1f5f9; --knop-teks: #1a1220;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1a1220; --kaart: #261b2e; --teks: #f1f5f9; --sag: #a8a2b5; --rand: #4a3456;
+    --buite: #ffa95e; --t1: #ff7fd6; --t2: #6fd08c; --reël: #ff5a63;
+    --goed: #86efac; --goed-bg: #14321f; --fout: #fca5a5; --fout-bg: #3b1717;
+    --knop: #f1f5f9; --knop-teks: #1a1220;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--teks);
+    font-family: "Nunito", system-ui, sans-serif; font-size: 18px; line-height: 1.55;
+  }
+  main { max-width: 820px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { border-top: 10px solid var(--aksent); padding-top: 20px; margin-bottom: 8px; }
+  .etiket { font-weight: 800; color: var(--sag); letter-spacing: .04em; font-size: 15px; }
+  h1 { font-size: clamp(32px, 7vw, 48px); line-height: 1.1; margin: 6px 0 4px; }
+  .sub { font-size: 20px; font-weight: 600; margin: 0; color: var(--sag); }
+  h2 { font-size: 24px; margin: 0 0 10px; }
+  section {
+    background: var(--kaart); border: 2px solid var(--rand); border-radius: 18px;
+    padding: 22px 20px; margin-top: 22px;
+  }
+  .reël-blok {
+    font-size: 21px; font-weight: 600; border-left: 6px solid var(--aksent);
+    padding: 6px 0 6px 14px; margin: 12px 0;
+  }
+  .b { color: var(--buite); font-weight: 800; }
+  .p { color: var(--t1); font-weight: 800; }
+  .g { color: var(--t2); font-weight: 800; }
+  .wiskunde { font-size: clamp(22px, 5vw, 30px); font-weight: 800; white-space: nowrap; }
+
+  /* Boë van die buite-getal na elke term */
+  .uitdrukking { position: relative; display: inline-block; padding-top: 64px; }
+  .uitdrukking svg.boë { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+  .uitdrukking svg path { fill: none; stroke: var(--teks); stroke-width: 3; stroke-linecap: round; }
+  .boë .boog { stroke-dasharray: 400; stroke-dashoffset: 400; animation: teken 0.9s ease forwards; }
+  .boë .boog.twee { animation-delay: 0.5s; }
+  @keyframes teken { to { stroke-dashoffset: 0; } }
+  @media (prefers-reduced-motion: reduce) { .boë .boog { animation: none; stroke-dashoffset: 0; } }
+
+  /* Oppervlakmodel */
+  .model-rooster { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  @media (min-width: 640px) { .model-rooster { grid-template-columns: 1.3fr 1fr; align-items: center; } }
+  .skuiwe label { display: flex; align-items: center; gap: 10px; margin: 8px 0; font-weight: 600; }
+  .skuiwe input[type=range] { flex: 1; accent-color: var(--aksent); }
+  .skuiwe output { min-width: 1.6em; text-align: right; font-weight: 800; }
+  #model svg { width: 100%; height: auto; display: block; }
+  .model-som { font-size: 22px; font-weight: 800; margin-top: 10px; line-height: 1.7; }
+
+  /* Tekenreëls */
+  .tekens { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 12px; }
+  .teken {
+    border: 2px solid var(--rand); border-radius: 12px; padding: 10px; text-align: center;
+    font-size: 22px; font-weight: 800;
+  }
+  .teken small { display: block; font-size: 14px; font-weight: 600; color: var(--sag); }
+
+  /* Uitgewerkte voorbeelde */
+  .oortjies { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .oortjies button {
+    border: 2px solid var(--rand); background: transparent; color: var(--teks);
+    border-radius: 999px; padding: 6px 14px; font: inherit; font-size: 16px; font-weight: 700; cursor: pointer;
+  }
+  .oortjies button[aria-selected="true"] { background: var(--aksent); border-color: var(--aksent); color: #fff; }
+  .stappe { overflow-x: auto; padding-bottom: 4px; }
+  .stap { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin: 6px 0; animation: in .35s ease; }
+  .stap .wiskunde { flex: none; }
+  .nota {
+    font-size: 15px; font-weight: 700; color: #fff; background: var(--reël);
+    border-radius: 8px; padding: 2px 10px; transform: rotate(-2deg);
+  }
+  .kontrole { margin-top: 12px; font-size: 16px; color: var(--sag); font-weight: 600; }
+  @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .knoppe { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+  .knop {
+    background: var(--knop); color: var(--knop-teks); border: 0; border-radius: 12px;
+    padding: 10px 18px; font: inherit; font-weight: 800; cursor: pointer;
+  }
+  .knop.lig { background: transparent; color: var(--teks); border: 2px solid var(--rand); }
+  .knop:disabled { opacity: .4; cursor: default; }
+
+  /* Oefen */
+  .oefen-ry { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 10px 0; font-size: 20px; font-weight: 700; }
+  .oefen-ry input {
+    width: 90px; font: inherit; font-weight: 800; text-align: center; padding: 6px;
+    border: 2px solid var(--rand); border-radius: 10px; background: var(--bg); color: var(--teks);
+  }
+  .oefen-ry input.reg { border-color: var(--goed); background: var(--goed-bg); }
+  .oefen-ry input.verkeerd { border-color: var(--fout); background: var(--fout-bg); }
+  #terugvoer { margin-top: 12px; font-weight: 600; min-height: 1.5em; }
+  #terugvoer .reg { color: var(--goed); }
+  #terugvoer .verkeerd { color: var(--fout); }
+  #telling { color: var(--sag); font-size: 15px; font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <div class="etiket">WISKUNDE · GRAAD 8 · HEELGETALLE</div>
+  <h1>Distributiewe wet</h1>
+  <p class="sub">van vermenigvuldiging oor optelling</p>
+</header>
+
+<section>
+  <h2>Die reël</h2>
+  <p class="reël-blok">Die getal <span class="b">buite die hakies</span> vermenigvuldig met <strong>elke</strong> term <span class="p">binne</span> <span class="g">die hakies</span>.</p>
+  <div style="overflow-x:auto">
+    <div class="uitdrukking" data-boë>
+      <span class="wiskunde"><span class="b" data-rol="buite">a</span> × (<span class="p" data-rol="t1">b</span> + <span class="g" data-rol="t2">c</span>) = (<span class="b">a</span> × <span class="p">b</span>) + (<span class="b">a</span> × <span class="g">c</span>)</span>
+    </div>
+  </div>
+  <p>Die pyle wys elke vermenigvuldiging wat jy moet doen: een pyl na <em>elke</em> term in die hakies. Vergeet jy een pyl, is jou antwoord verkeerd.</p>
+</section>
+
+<section>
+  <h2>Hoekom werk dit?</h2>
+  <p>Dink aan ’n reghoek. Sy oppervlakte is <strong>lengte × breedte</strong>. Sny die reghoek in twee stukke, en die twee stukke saam is steeds net so groot soos die hele reghoek. Skuif die skuiwers en kyk.</p>
+  <div class="model-rooster">
+    <div id="model"></div>
+    <div class="skuiwe">
+      <label><span class="b">a</span> <input type="range" id="sa" min="1" max="6" value="3"><output id="oa">3</output></label>
+      <label><span class="p">b</span> <input type="range" id="sb" min="1" max="8" value="4"><output id="ob">4</output></label>
+      <label><span class="g">c</span> <input type="range" id="sc" min="1" max="8" value="2"><output id="oc">2</output></label>
+      <div class="model-som" id="modelsom"></div>
+    </div>
+  </div>
+  <p>Met negatiewe getalle kan jy nie ’n reghoek teken nie, maar die reël bly presies dieselfde. Die enigste ekstra werk is om na die <strong>tekens</strong> te kyk.</p>
+</section>
+
+<section>
+  <h2>Die tekens</h2>
+  <p>Elke keer as jy vermenigvuldig, kyk eers na die tekens:</p>
+  <div class="tekens">
+    <div class="teken">(+) × (+) = (+)<small>dieselfde tekens: positief</small></div>
+    <div class="teken">(−) × (−) = (+)<small>dieselfde tekens: positief</small></div>
+    <div class="teken">(+) × (−) = (−)<small>verskillende tekens: negatief</small></div>
+    <div class="teken">(−) × (+) = (−)<small>verskillende tekens: negatief</small></div>
+  </div>
+  <p style="margin-top:14px">En onthou: <strong>+ (−6)</strong> is dieselfde as <strong>− 6</strong>, en <strong>− (−4)</strong> is dieselfde as <strong>+ 4</strong>.</p>
+</section>
+
+<section>
+  <h2>Stap vir stap</h2>
+  <div class="oortjies" role="tablist" id="oortjies"></div>
+  <div class="stappe" id="stappe"></div>
+  <div class="kontrole" id="kontrole"></div>
+  <div class="knoppe">
+    <button class="knop" id="volgende">Volgende stap</button>
+    <button class="knop lig" id="herbegin">Begin oor</button>
+  </div>
+</section>
+
+<section>
+  <h2>Probeer self</h2>
+  <div style="overflow-x:auto">
+    <div class="uitdrukking" data-boë id="oefenvraag"></div>
+  </div>
+  <div class="oefen-ry"><span id="lbl1"></span> = <input id="i1" inputmode="numeric" autocomplete="off" aria-label="eerste produk"></div>
+  <div class="oefen-ry"><span id="lbl2"></span> = <input id="i2" inputmode="numeric" autocomplete="off" aria-label="tweede produk"></div>
+  <div class="oefen-ry">Antwoord = <input id="i3" inputmode="numeric" autocomplete="off" aria-label="antwoord"></div>
+  <div class="knoppe">
+    <button class="knop" id="kyk">Kyk my antwoord</button>
+    <button class="knop lig" id="nuwe">Nuwe som</button>
+  </div>
+  <div id="terugvoer" aria-live="polite"></div>
+  <div id="telling"></div>
+</section>
+
+</main>
+
+<script>
+const M = "−"; // regte minusteken
+const fmt = n => n < 0 ? M + Math.abs(n) : String(n);
+const inHakies = n => n < 0 ? "(" + fmt(n) + ")" : fmt(n);
+const teken = n => n < 0 ? "(−)" : "(+)";
+
+/* ---------- Boë ---------- */
+function tekenBoë(houer) {
+  houer.querySelector("svg.boë")?.remove();
+  const buite = houer.querySelector('[data-rol="buite"]');
+  const doele = [houer.querySelector('[data-rol="t1"]'), houer.querySelector('[data-rol="t2"]')];
+  if (!buite || !doele[0] || !doele[1]) return;
+  const h = houer.getBoundingClientRect();
+  const r0 = buite.getBoundingClientRect();
+  const x0 = r0.left + r0.width / 2 - h.left, y0 = r0.top - h.top + 4;
+  const ns = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(ns, "svg");
+  svg.setAttribute("class", "boë");
+  doele.forEach((d, i) => {
+    const r = d.getBoundingClientRect();
+    const x1 = r.left + r.width / 2 - h.left, y1 = r.top - h.top + 4;
+    const hoogte = i === 0 ? 50 : 96;
+    const pad = document.createElementNS(ns, "path");
+    pad.setAttribute("class", "boog" + (i ? " twee" : ""));
+    // boog plus pylpunt
+    const kx = (x0 + x1) / 2, ky = Math.min(y0, y1) - hoogte;
+    pad.setAttribute("d", `M ${x0} ${y0} Q ${kx} ${ky} ${x1} ${y1} M ${x1 - 8} ${y1 - 9} L ${x1} ${y1} L ${x1 + 7} ${y1 - 10}`);
+    svg.appendChild(pad);
+  });
+  houer.prepend(svg);
+}
+const alleBoë = () => document.querySelectorAll("[data-boë]").forEach(tekenBoë);
+window.addEventListener("resize", alleBoë);
+document.fonts?.ready.then(alleBoë);
+
+/* ---------- Oppervlakmodel ---------- */
+const sa = document.getElementById("sa"), sb = document.getElementById("sb"), sc = document.getElementById("sc");
+function teken_model() {
+  const a = +sa.value, b = +sb.value, c = +sc.value;
+  document.getElementById("oa").value = a;
+  document.getElementById("ob").value = b;
+  document.getElementById("oc").value = c;
+  const e = 34, W = (b + c) * e, H = a * e, mx = 28, my = 28;
+  const blokke = (x0, w, kleur) => {
+    let s = "";
+    for (let i = 0; i < w; i++) for (let j = 0; j < a; j++)
+      s += `<rect x="${mx + (x0 + i) * e + 2}" y="${my + j * e + 2}" width="${e - 4}" height="${e - 4}" rx="5" fill="${kleur}" opacity=".28"/>`;
+    return s;
+  };
+  const st = getComputedStyle(document.documentElement);
+  const kB = st.getPropertyValue("--buite"), kP = st.getPropertyValue("--t1"), kG = st.getPropertyValue("--t2"), kT = st.getPropertyValue("--teks");
+  document.getElementById("model").innerHTML = `
+    <svg viewBox="0 0 ${W + mx + 10} ${H + my + 40}" role="img" aria-label="Reghoek van ${a} by ${b + c}, gesny in ${a} by ${b} en ${a} by ${c}">
+      ${blokke(0, b, kP)}${blokke(b, c, kG)}
+      <rect x="${mx}" y="${my}" width="${b * e}" height="${H}" fill="none" stroke="${kP}" stroke-width="3" rx="6"/>
+      <rect x="${mx + b * e}" y="${my}" width="${c * e}" height="${H}" fill="none" stroke="${kG}" stroke-width="3" rx="6"/>
+      <text x="${mx + b * e / 2}" y="${my - 8}" text-anchor="middle" font-weight="800" font-size="20" fill="${kP}">${b}</text>
+      <text x="${mx + b * e + c * e / 2}" y="${my - 8}" text-anchor="middle" font-weight="800" font-size="20" fill="${kG}">${c}</text>
+      <text x="${mx - 10}" y="${my + H / 2 + 7}" text-anchor="end" font-weight="800" font-size="20" fill="${kB}">${a}</text>
+      <text x="${mx + b * e / 2}" y="${my + H / 2 + 9}" text-anchor="middle" font-weight="800" font-size="24" fill="${kT}">${a * b}</text>
+      <text x="${mx + b * e + c * e / 2}" y="${my + H / 2 + 9}" text-anchor="middle" font-weight="800" font-size="24" fill="${kT}">${a * c}</text>
+      <text x="${mx + W / 2}" y="${my + H + 30}" text-anchor="middle" font-weight="700" font-size="17" fill="${kT}">totaal: ${a * (b + c)} blokkies</text>
+    </svg>`;
+  document.getElementById("modelsom").innerHTML =
+    `<span class="b">${a}</span> × (<span class="p">${b}</span> + <span class="g">${c}</span>) = <span class="b">${a}</span> × ${b + c} = ${a * (b + c)}<br>` +
+    `(<span class="b">${a}</span> × <span class="p">${b}</span>) + (<span class="b">${a}</span> × <span class="g">${c}</span>) = ${a * b} + ${a * c} = ${a * (b + c)}`;
+}
+[sa, sb, sc].forEach(s => s.addEventListener("input", teken_model));
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", teken_model);
+teken_model();
+
+/* ---------- Uitgewerkte voorbeelde ---------- */
+const b = s => `<span class="b">${s}</span>`, p = s => `<span class="p">${s}</span>`, g = s => `<span class="g">${s}</span>`;
+const voorbeelde = [
+  {
+    naam: `${M}3 × (4 + 2)`,
+    begin: `<span class="b" data-rol="buite">${M}3</span> × (<span class="p" data-rol="t1">4</span> + <span class="g" data-rol="t2">2</span>)`,
+    stappe: [
+      [`= (${b(M + "3")} × ${p(4)}) + (${b(M + "3")} × ${g(2)})`, `${M}3 maal elke term`],
+      [`= ${M}12 + (${M}6)`, `(−) × (+) = (−)`],
+      [`= ${M}12 ${M} 6`, `+ (−6) = − 6`],
+      [`= ${M}18`, ""],
+    ],
+    kontrole: `Kontroleer: 4 + 2 = 6, en ${M}3 × 6 = ${M}18 ✓`,
+  },
+  {
+    naam: `${M}12 (2 + 3)`,
+    begin: `<span class="b" data-rol="buite">${M}12</span> (<span class="p" data-rol="t1">2</span> + <span class="g" data-rol="t2">3</span>)`,
+    stappe: [
+      [`= (${b(M + "12")} × ${p(2)}) + (${b(M + "12")} × ${g(3)})`, `${M}12 maal elke term`],
+      [`= ${M}24 + (${M}36)`, `(−) × (+) = (−)`],
+      [`= ${M}24 ${M} 36`, `+ (−36) = − 36`],
+      [`= ${M}60`, ""],
+    ],
+    kontrole: `Kontroleer: 2 + 3 = 5, en ${M}12 × 5 = ${M}60 ✓`,
+  },
+  {
+    naam: `${M}12 (2 + (${M}3))`,
+    begin: `<span class="b" data-rol="buite">${M}12</span> (<span class="p" data-rol="t1">2</span> + <span class="g" data-rol="t2">(${M}3)</span>)`,
+    stappe: [
+      [`= (${b(M + "12")} × ${p(2)}) + (${b(M + "12")} × ${g("(" + M + "3)")})`, `${M}12 maal elke term`],
+      [`= ${M}24 + 36`, `(−) × (−) = (+)`],
+      [`= 12`, ""],
+    ],
+    kontrole: `Kontroleer: 2 + (${M}3) = ${M}1, en ${M}12 × (${M}1) = 12 ✓`,
+  },
+  {
+    naam: "Terug die ander kant toe",
+    begin: `(<span class="b">6</span> × <span class="p">(${M}8)</span>) ${M} (<span class="b">6</span> × <span class="g">(${M}4)</span>)`,
+    stappe: [
+      [`= ${b(6)} (${p(M + "8")} ${M} ${g("(" + M + "4)")})`, `albei het 6 as faktor: haal dit uit`],
+      [`= ${b(6)} (${p(M + "8")} + ${g(4)})`, `− (−4) = + 4`],
+      [`= (${b(6)} × ${p(M + "8")}) + (${b(6)} × ${g(4)})`, `6 maal elke term`],
+      [`= ${M}48 + 24`, `(+) × (−) = (−)`],
+      [`= ${M}24`, ""],
+    ],
+    kontrole: `Kontroleer: 6 × (${M}8) = ${M}48 en 6 × (${M}4) = ${M}24, en ${M}48 ${M} (${M}24) = ${M}48 + 24 = ${M}24 ✓`,
+  },
+];
+let huidige = 0, gewys = 0;
+const oortjies = document.getElementById("oortjies"), stappe = document.getElementById("stappe"),
+      kontrole = document.getElementById("kontrole"), volgende = document.getElementById("volgende");
+voorbeelde.forEach((v, i) => {
+  const k = document.createElement("button");
+  k.setAttribute("role", "tab");
+  k.innerHTML = v.naam;
+  k.onclick = () => { huidige = i; gewys = 0; wys(); };
+  oortjies.appendChild(k);
+});
+function wys() {
+  const v = voorbeelde[huidige];
+  [...oortjies.children].forEach((k, i) => k.setAttribute("aria-selected", i === huidige));
+  let html = `<div class="stap"><div class="uitdrukking" data-boë><span class="wiskunde">${v.begin}</span></div></div>`;
+  for (let i = 0; i < gewys; i++) {
+    const [s, n] = v.stappe[i];
+    html += `<div class="stap"><span class="wiskunde">${s}</span>${n ? `<span class="nota">${n}</span>` : ""}</div>`;
+  }
+  stappe.innerHTML = html;
+  kontrole.textContent = gewys === v.stappe.length ? v.kontrole : "";
+  volgende.disabled = gewys === v.stappe.length;
+  stappe.querySelectorAll("[data-boë]").forEach(tekenBoë);
+}
+volgende.onclick = () => { gewys++; wys(); };
+document.getElementById("herbegin").onclick = () => { gewys = 0; wys(); };
+wys();
+
+/* ---------- Oefen ---------- */
+const kies = (lys) => lys[Math.floor(Math.random() * lys.length)];
+const reeks = (a, z, uit = []) => { const r = []; for (let i = a; i <= z; i++) if (!uit.includes(i)) r.push(i); return r; };
+let som = {}, reg = 0, pogings = 0;
+const lees = id => {
+  const s = document.getElementById(id).value.trim().replace(/[−–—]/g, "-").replace(/\s/g, "");
+  return /^[+-]?\d+$/.test(s) ? parseInt(s, 10) : NaN;
+};
+function nuweSom() {
+  const a = kies(reeks(-9, 9, [0, 1])), x = kies(reeks(-9, 9, [0])), y = kies(reeks(-9, 9, [0]));
+  som = { a, x, y };
+  const vraag = document.getElementById("oefenvraag");
+  vraag.innerHTML = `<span class="wiskunde"><span class="b" data-rol="buite">${fmt(a)}</span> × (<span class="p" data-rol="t1">${fmt(x)}</span> + <span class="g" data-rol="t2">${inHakies(y)}</span>)</span>`;
+  document.getElementById("lbl1").innerHTML = `${b(inHakies(a))} × ${p(inHakies(x))}`;
+  document.getElementById("lbl2").innerHTML = `${b(inHakies(a))} × ${g(inHakies(y))}`;
+  ["i1", "i2", "i3"].forEach(id => { const e = document.getElementById(id); e.value = ""; e.className = ""; });
+  document.getElementById("terugvoer").innerHTML = "";
+  tekenBoë(vraag);
+}
+function kyk() {
+  const { a, x, y } = som, verwag = [a * x, a * y, a * (x + y)];
+  const gegee = ["i1", "i2", "i3"].map(lees);
+  const boodskappe = [];
+  gegee.forEach((v, i) => document.getElementById("i" + (i + 1)).className = v === verwag[i] ? "reg" : "verkeerd");
+  if (gegee[0] !== verwag[0]) boodskappe.push(paar(a, x, verwag[0], gegee[0]));
+  if (gegee[1] !== verwag[1]) boodskappe.push(paar(a, y, verwag[1], gegee[1]));
+  if (gegee[0] === verwag[0] && gegee[1] === verwag[1] && gegee[2] !== verwag[2])
+    boodskappe.push(`Jou twee produkte is reg. Tel nou ${fmt(verwag[0])} en ${inHakies(verwag[1])} bymekaar.`);
+  pogings++;
+  const t = document.getElementById("terugvoer");
+  if (!boodskappe.length) {
+    reg++;
+    t.innerHTML = `<span class="reg">Reg! Kontroleer: ${fmt(x)} + ${inHakies(y)} = ${fmt(x + y)}, en ${fmt(a)} × ${inHakies(x + y)} = ${fmt(verwag[2])}.</span>`;
+  } else {
+    t.innerHTML = boodskappe.map(m => `<div class="verkeerd">${m}</div>`).join("");
+  }
+  document.getElementById("telling").textContent = `${reg} reg uit ${pogings} pogings`;
+}
+function paar(m, n, verwag, gegee) {
+  if (!isNaN(gegee) && gegee === -verwag)
+    return `${inHakies(m)} × ${inHakies(n)}: die getal is reg, maar kyk na die teken. ${teken(m)} × ${teken(n)} = ${teken(verwag)}.`;
+  return `${inHakies(m)} × ${inHakies(n)}: werk dit weer uit. Onthou ${teken(m)} × ${teken(n)} = ${teken(verwag)}.`;
+}
+document.getElementById("kyk").onclick = kyk;
+document.getElementById("nuwe").onclick = nuweSom;
+document.getElementById("i3").addEventListener("keydown", e => { if (e.key === "Enter") kyk(); });
+nuweSom();
+alleBoë();
+</script>
+</body>
+</html>
