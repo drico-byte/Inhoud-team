@@ -4,14 +4,282 @@
   "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Onthou wanneer jy dit nodig kry",
   "kaps_punt": "Vaardighede om geheue te ontwikkel: vermoë om feite te herroep",
-  "verdict": "MENS_NODIG",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "WERK AAN DIE GANG - hierdie verslag word tans bygewerk en is nie finaal nie.",
-      "blok": "n/a",
-      "status": "onseker",
-      "tipe": "algemeen"
+      "bewering": "Onthou werk in drie stappe wat jy uit mekaar kan hou. Eerste kom die werk by jou in wanneer jy dit lees of hoor of doen. Daarna bly dit 'n tyd lank by jou sonder dat jy elke dag daaraan dink. Laastens haal jy dit weer uit op die dag wat jy dit nodig kry.",
+      "blok": "Onthou werk in drie stappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die standaard drieprosesmodel van geheue (enkodering, berging, terughaling) soos uiteengesit in universiteits- en naslaanbronne oor geheueprosesse, bv. die oorsig by JoVE Science Education, 'Understanding Memory' (jove.com/science-education/v/18168), en Kihlstrom se bladsy oor terughaling by UC Berkeley (ocf.berkeley.edu/~jfkihlstrom/MemoryWeb/retrieval). Die les se drie stappe stem presies ooreen: inkom = enkodering, bly by jou = berging, weer uithaal = terughaling."
+    },
+    {
+      "bewering": "Daardie laaste stap is die een wat 'n toets van jou vra.",
+      "blok": "Onthou werk in drie stappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Toetsprestasie word in die geheueliteratuur uitdruklik as 'n terughalingstaak hanteer — vgl. Roediger & Butler (2011), 'The critical role of retrieval practice in long-term retention' (sites.wustl.edu-weergawe van die artikel), wat toetsing as terughaling eerder as as blote meting beskryf."
+    },
+    {
+      "bewering": "Soms weet jy dat jy iets geleer het en tog kom dit in die toets nie uit nie.",
+      "blok": "Onthou werk in drie stappe",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Tulving & Pearlstone (1966) se onderskeid tussen beskikbaarheid en toeganklikheid: inligting kan in berging beskikbaar wees sonder om op daardie oomblik terughaalbaar te wees (sogenaamde terughalingsmislukking / leidraad-afhanklike vergeet). Opgesom op Kihlstrom se geheuebladsy by UC Berkeley (ocf.berkeley.edu/~jfkihlstrom/MemoryWeb/retrieval/retrieval_supp.htm)."
+    },
+    {
+      "bewering": "Vir die meeste mense hou die tweede manier baie langer as die eerste. [versprei oor dae teenoor een lang sitting]",
+      "blok": "Dieselfde werk, versprei oor 'n paar dae",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die spasiëringseffek — Cepeda, Pashler, Vul, Wixted & Rohrer (2006), meta-analise van 839 metings in 317 eksperimente (evullab.org/pdf/CepedaPashlerVulWixtedRohrer-PB-2006.pdf), en Dunlosky e.a. (2013) se 'hoë nut'-gradering vir distributed practice (psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html). Dit is een van die oudste en mees herhaalde bevindings in die kognitiewe wetenskap. Let wel dat die bron hier BEIDE sterkte (groot, bestendige effek op langtermynretensie) en breedte (oor ouderdomme, vakke en materiaal) meet, so die les se 'vir die meeste mense' word deur die regte soort bewys gedra."
+    },
+    {
+      "bewering": "Elke keer wat jy terugkom moet jy die werk weer gaan haal nadat jy dit 'n bietjie vergeet het.",
+      "blok": "Dieselfde werk, versprei oor 'n paar dae",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dit is die study-phase retrieval-verklaring van die spasiëringseffek, een van die twee hoofverklarings, en die een wat onlangse EEG-bewys steun (sien die oorsig in PMC10119902, pmc.ncbi.nlm.nih.gov/articles/PMC10119902, en Toppino se oorsig 2009). Die meganisme is nog in debat (enkoderingsvariasie en gebrekkige prosessering is die mededingers), maar die sin BESKRYF wat gebeur eerder as om 'n enkele oorsaak uit te sluit, en die beskrywing is korrek."
+    },
+    {
+      "bewering": "Die kort beurte kos saam nie meer tyd as die een lang sitting nie.",
+      "blok": "Dieselfde werk, versprei oor 'n paar dae",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die spasiëringsvoordeel word juis gevind met TOTALE studietyd gelykgestel — die eksperimentele ontwerp hou die hoeveelheid werk konstant en varieer net die verspreiding (Cepeda e.a. 2006, meta-analise; Ebbinghaus se oorspronklike waarneming word op dieselfde grondslag gerapporteer). Die bewering is dus presies wat die navorsing toets."
+    },
+    {
+      "bewering": "Die tweede sterk metode begin met 'n toe boek. Jy skryf uit jou eie kop op wat jy van die bladsy onthou. Eers dan kyk jy op die bladsy wat reg was en wat weggebly het.",
+      "blok": "Maak die boek toe en haal dit uit jou kop",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "'n Korrekte beskrywing van retrieval practice met terugvoer, soos uiteengesit in Roediger & Butler (2011) en in Dunlosky e.a. (2013) se module oor practice testing. Terugvoer ná 'n mislukte terughaling versterk die effek eerder as om dit te ondermyn."
+    },
+    {
+      "bewering": "Hierdie manier voel moeiliker as om die bladsy nog 'n keer deur te lees.",
+      "blok": "Maak die boek toe en haal dit uit jou kop",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Karpicke, Butler & Roediger (2009), 'Metacognitive strategies in student learning' (sites.wustl.edu-afskrif): studente oordeel herlees as meer doeltreffend en kies dit bo selftoetsing — 57% kies herlees teenoor 18% selftoetsing. Bjork & Bjork se werk oor desirable difficulties (psychologicalscience.org) stel dieselfde: die metodes wat werk, voel in die oomblik moeiliker."
+    },
+    {
+      "bewering": "Dit werk steeds vir die meeste mense en vir die meeste soorte skoolwerk beter.",
+      "blok": "Maak die boek toe en haal dit uit jou kop",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dunlosky e.a. (2013): practice testing kry 'n HOË nut-gradering, en die gradering is uitdruklik 'n BREEDTE-maatstaf — die voordele veralgemeen oor leertoestande, leerderkenmerke, materiaal en toetstake. Die bron meet dus presies wat hierdie sin beweer ('die meeste mense' én 'die meeste soorte skoolwerk'), nie net effekgrootte nie (psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html)."
+    },
+    {
+      "bewering": "Wat die werk doen, is die terughaal self uit jou eie geheue.",
+      "blok": "Maak die boek toe en haal dit uit jou kop",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Roediger & Butler (2011): die daad van terughaling self versterk die geheuespoor — die testing effect word aan die terughalingsaksie toegeskryf, nie aan die blootstelling aan die materiaal nie. Die onderskeid word ondersteun deur studies waar terughaling sonder terugvoer steeds beter as herlees presteer."
+    },
+    {
+      "bewering": "Kom daar niks terug nie, gaan soek jy die antwoord op en toets jouself môre weer.",
+      "blok": "Maak die boek toe en haal dit uit jou kop",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Terugvoer ná mislukte terughaling verhoog die testing effect (Roediger & Butler 2011), en 'n herhaalde toets ná 'n gaping is spaced retrieval practice, wat sterker is as saamgedrukte terughaling — meta-analitiese skatting g = 0,74 ten gunste van gespasieerde bo saamgedrukte terughaling (sien die oorsig by eprints.whiterose.ac.uk/id/eprint/229807)."
+    },
+    {
+      "bewering": "Los feite sonder verband is van die moeilikste werk om te onthou.",
+      "blok": "Knoop 'n nuwe feit aan iets wat jy ken",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "National Research Council, 'How People Learn' (nap.edu; opgesom by sdcoe.net/ngss/evidence-based-practices/key-findings-from-how-people-learn): bruikbare kennis is nie 'n lys los feite nie — kennis wat rondom konsepte georden en verbind is, word beter onthou en toegepas. Die superlatief is reeds versag tot 'van die moeilikste', wat die navorsing dra; 'die moeilikste' sou nie gedra het nie."
+    },
+    {
+      "bewering": "'n Feit wat vassit aan iets wat jy reeds verstaan, kom vir die meeste mense makliker terug.",
+      "blok": "Knoop 'n nuwe feit aan iets wat jy ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Elaborasie / elaboratiewe enkodering: nuwe inligting wat aan bestaande kennisstrukture gekoppel word, kry meer terughalingsroetes en word beter onthou (National Research Council, 'How People Learn', nap.edu; McCabe 2011, 'Integrating Mnemonics into Psychology Instruction', Office of Teaching Resources in Psychology, teachpsych.org, bl. 4: mnemonics 'connect new knowledge with established schemas in long-term memory, a process also called elaboration, which enhances encoding and supports successful retrieval')."
+    },
+    {
+      "bewering": "Jou longe haal suurstof uit die lug en die vis se kieue doen dieselfde werk in water.",
+      "blok": "Knoop 'n nuwe feit aan iets wat jy ken",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "KARTERING nagegaan, nie die kieue-feit self nie (dié is buite omvang gestel). Kieue en longe is albei gaswisselingsorgane: 'n kieu is 'n gespesialiseerde asemhalingsorgaan waarmee waterdiere opgeloste suurstof uit water onttrek en koolstofdioksied uitskei (en.wikipedia.org/wiki/Fish_gill). Die les karteer net die FUNKSIE ('doen dieselfde werk'), nie die meganisme nie, en dit is die veilige kartering. Waar dit sou breek — teenstroomuitruiling, eenrigtingwatervloei oor lamelle, water wat sowat 5% van lug se suurstofkonsentrasie dra — gaan die les nie, en 'dieselfde werk' nooi 'n leerder nie daarheen nie. Die beeld dra ook nie 'n suggestie dat die vis die water self opbreek nie."
+    },
+    {
+      "bewering": "Knoop daardie feit vas aan jou eie asemhaling... Nou hang die nuwe feit aan iets wat jy jou hele lewe al doen.",
+      "blok": "Knoop 'n nuwe feit aan iets wat jy ken",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Die 'vasknoop/hang aan'-beeld karteer op assosiatiewe enkodering: 'n feit wat aan bestaande kennis gekoppel is, het meer terughalingsroetes (McCabe 2011, bl. 4, oor elaborasie; 'How People Learn', nap.edu). Waar 'n leerder dit verder sou vat — dat die nuwe feit net via die ou een bereikbaar is — breek die beeld, maar die les stel dit as 'n ekstra houvas en nie as die enigste pad nie, en die blok se eie eerste sin ('los feite... is van die moeilikste') hou die kartering binne perke."
+    },
+    {
+      "bewering": "So 'n lang lys word makliker wanneer jy dit in kort groepies opbreek. Die groepies help jou meer van die items onthou.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Chunking: Miller (1956) het gewys dat herkodering van inligting in betekenisvolle eenhede die hoeveelheid vergroot wat onmiddellik herroep kan word; Cowan e.a. (2004, 2007) bevestig dat die aantal chunks ongeveer konstant bly terwyl die inhoud per chunk groei (memory.psych.missouri.edu; PMC4585097, 'How should we measure chunks?')."
+    },
+    {
+      "bewering": "Jy kan ook 'n geheuehulpmiddel maak waarvan elke woord met dieselfde letter begin as 'n item op die lys.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "'n Korrekte beskrywing van 'n akrostiek. McCabe (2011, teachpsych.org, bl. 6): 'the acrostic... most commonly involves using the first letters of a list of to-be-learned items to create a meaningful and/or odd sentence.'"
+    },
+    {
+      "bewering": "Daardie sin herinner jou aan die volgorde van items wat jy reeds ken.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Presies die bevinding in die Frontiers in Psychology-artikel oor mnemoniese akronieme (10.3389/fpsyg.2019.02522): 'Positive effects of mnemonic acronyms were shown particularly in situations where the order of items had to be learned and retrieved... whereas usually no effects were found where the identity of individual items needed to be retrieved.' Die studie beklemtoon ook dat deelnemers moes WEET wat elke stap behels — die akroniem orden bestaande kennis en skep dit nie. McCabe (2011, bl. 5) stel dieselfde beperking: 'the acronym itself may be easy to remember, but the elements may be difficult to retrieve.'"
+    },
+    {
+      "bewering": "'n Rympie kan die items self saamdra, want die woorde van die rympie is die inligting... Jy hoef hulle nie vooraf te ken nie.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "McCabe (2011, bl. 4) lys 'song, rhymes, and stories' as 'n eie kategorie mnemoniek; anders as eerste-letter-mnemonieke, wat net leidrade gee (Frontiers 2019, hierbo), dra 'n rympie soos die maande-rympie die items self. Die kontras wat die les tussen die twee soorte trek, is dus die regte kontras en word deur albei bronne gedra."
+    },
+    {
+      "bewering": "'Dertig dae het September, April, Junie en November' noem die vier maande met dertig dae.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "April, Junie, September en November is die enigste vier maande met 30 dae in die Gregoriaanse kalender; die oorblywende sewe het 31 en Februarie 28 of 29. Die vier wat in die aanhaling genoem word, is presies daardie vier, en 'September'/'November' rym. Nagegaan teen algemene kalendernaslaanbronne; die Nederlandse en Engelse eweknieë van die rympie ('Thirty days hath September, April, June, and November') word in volksrympieversamelings opgeteken (dbnl.org). Ek kon nie 'n gevestigde Afrikaanse bron vir presies hierdie bewoording opspoor nie, maar die les beweer ook nie dat dit 'n oorgelewerde Afrikaanse rympie is nie — net dat dié reël die vier maande noem, en dit doen hy."
+    },
+    {
+      "bewering": "Hierdie drie hulpmiddels pas oor die geheel op 'n nouer reeks werk.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "BREEDTE-bewering, en die bronne meet breedte. Dunlosky e.a. (2013) gee die keyword mnemonic 'n LAE nut-gradering juis omdat dit 'benefit students for a limited number of materials and for short retention intervals' — die gradering is 'n veralgemeningsmaatstaf oor leertoestande, leerderkenmerke, materiaal en toetstake, nie 'n effekgrootte nie. Die Frontiers-studie (2019) toon dieselfde begrensing vir akronieme (volgorde ja, item-identiteit nee). Let op dat Dunlosky chunking en rympies nie afsonderlik gradeer nie, so die drie-tot-een-vergelyking rus op die mnemoniekliteratuur as geheel eerder as op een gradering; die les se 'oor die geheel' is die regte versagting daarvoor."
+    },
+    {
+      "bewering": "Die herhaling oor dae en die terughaal uit jou kop pas op die meeste soorte skoolwerk.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dunlosky e.a. (2013): practice testing en distributed practice is die enigste twee tegnieke met 'n HOË nut-gradering, en die rede is uitdruklik breedte — 'they benefit learners of different ages and abilities and have been shown to boost students' performance across many criterion tasks and even in educational contexts' (psychologicalscience.org). Die bron meet dus presies die eienskap wat die sin beweer."
+    },
+    {
+      "bewering": "'n Geheuehulpmiddel sê ook nie uit sigself waarom die items saamhang nie. Dit vervang dus nie die vasknoop van 'n feit aan iets wat jy verstaan nie.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die Frontiers-studie (2019) wys dat akronieme bestaande kennis ORDEN en nie skep nie; McCabe (2011, bl. 4) beskryf mnemonieke as 'scaffolding for more permanent schematic knowledge that develops as education advances' (Bellezza 1996) — dus 'n steier eerder as die begrip self. 'How People Learn' (nap.edu) stel die onderskeid tussen onthou en verstaan op dieselfde manier."
+    },
+    {
+      "bewering": "So 'n hulpmiddel help veral met werk wat jy in elk geval uit jou kop moet ken, soos 'n lys, 'n volgorde, 'n spelling of 'n formule.",
+      "blok": "Drie klein hulpmiddels, veral vir werk wat jy uit jou kop moet ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Stem ooreen met die toepassingsgebied wat die mnemoniekliteratuur aangee — geordende lyste, klassifikasies, spellings, formules en woordeskat (McCabe 2011, teachpsych.org, wat eerste-letter-, sleutelwoord-, pennewoord-, plek- en rympie-mnemonieke juis vir vakterme, stappe en geordende lyste beskryf; Frontiers 2019 vir volgorde)."
+    },
+    {
+      "bewering": "Die beste gaping tussen twee beurte word langer namate die toets verder weg lê. Vir 'n toets oor 'n week begin jy 'n paar dae voor die tyd.",
+      "blok": "Hoe verder die toets, hoe vroeër begin jy",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Cepeda, Vul, Rohrer, Wixted & Pashler (2008), 'Spacing effects in learning: a temporal ridgeline of optimal retention', Psychological Science 19(11):1095-1102 (pubmed.ncbi.nlm.nih.gov/19076480; evullab.org/pdf/CepedaVulRohrerWixtedPashler-PS-2008.pdf): 'The optimal gap increased as test delay increased.' Die optimale gaping is sowat 20-40% van 'n toetsvertraging van een week, dus ongeveer anderhalf tot drie dae — wat 'n paar dae voor die tyd begin, presies dek. Die superlatief 'die beste gaping' is geldig omdat die studie wel 'n optimum meet; let net daarop dat die optimum as PERSENTASIE van die vertraging kleiner word (tot 5-10% by 'n jaar), terwyl dit in dae langer word. Die les maak die bewering in dae en is korrek."
+    },
+    {
+      "bewering": "Met net een aand oor versprei jy die werk oor korter beurte met pouses tussenin.",
+      "blok": "Hoe verder die toets, hoe vroeër begin jy",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Spasiëringsvoordele is ook met kort tussenposes binne een sitting aangetoon (Cepeda e.a. 2006 meta-analise sluit ISI's van sekondes tot minute in; die oorsig by en.wikipedia.org/wiki/Spacing_effect stel dat lag-effekte 'within a single session, over several days, and even weeks' gevind is). Die bewys binne een sitting is minder konsekwent as oor dae, maar vir 'n toets die volgende dag — presies die geval wat die les beskryf — is dit die gunstigste toestand vir spasiëring, en die raad gaan nie verder as dit nie."
+    },
+    {
+      "bewering": "Die ander metodes werk ook binne een sitting en hulle werk nog beter as jy hulle oor dae herhaal.",
+      "blok": "Hoe verder die toets, hoe vroeër begin jy",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Een ronde terughaling binne 'n enkele sitting lewer 'n week later aansienlik beter retensie as 'n tweede lees van dieselfde materiaal (Roediger & Karpicke-tipe bevindings, opgesom in Roediger & Butler 2011); en gespasieerde terughaling klop saamgedrukte terughaling met 'n groot effek (g = 0,74) in die meta-analitiese oorsig by eprints.whiterose.ac.uk/id/eprint/229807. Albei helftes van die sin word dus gedra."
+    },
+    {
+      "bewering": "Jy onthou werk wat jy geleer het dikwels beter ná 'n behoorlike nag se slaap as ná 'n nag waarin jy deurgewerk het.",
+      "blok": "Hoe verder die toets, hoe vroeër begin jy",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Harvard Medical School, Division of Sleep Medicine, se publieke opvoedingsmateriaal oor slaap, leer en geheue (sleep.hms.harvard.edu): 'n vermindering in totale slaaptyd of in spesifieke slaapstadia kan die vermoë om pas gevormde geheue te konsolideer dramaties inhibeer, vir sowel feitelike as prosedurele geheue. Sien ook 'Sleep loss disrupts the neural signature of successful learning' (PMC9977378), waar deklaratiewe herroeping ná slaapontneming ernstig verswak is. Die les se 'dikwels' is die regte versagting."
+    },
+    {
+      "bewering": "Baie leerders studeer deur die bladsy oor en oor te lees. 'n Tweede gewoonte is om die belangrike dele in te kleur.",
+      "blok": "Twee gewoontes wat minder gee as wat hulle voel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Karpicke, Butler & Roediger (2009): 84% van studente noem herhaalde lees as studiestrategie en 55% plaas dit eerste; by 'n gedwonge keuse kies 57% herlees en net 18% selftoetsing. Dunlosky e.a. (2013) noem highlighting/underlining een van die mees algemene gewoontes. Die les beweer net 'baie leerders', wat ruim binne die bewys val."
+    },
+    {
+      "bewering": "Albei voel goed omdat die bladsy gou bekend begin lyk. Bekend lyk is egter nie dieselfde as ken nie.",
+      "blok": "Twee gewoontes wat minder gee as wat hulle voel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die vlotheidsillusie (fluency illusion / illusion of knowing): herhaalde lees skep verwerkingsvlotheid wat leerders verkeerdelik as begrip en retensie lees. Benjamin, Bjork & Schwartz (1998) oor terughalingsvlotheid as 'n misleidende basis vir metageheue-oordele; Koriat & Bjork se werk oor illusies van bekwaamheid; opgesom in Dunlosky e.a. (2013) se module oor rereading."
+    },
+    {
+      "bewering": "Vir die meeste mense lewer hierdie twee gewoontes minder op as die metodes hierbo.",
+      "blok": "Twee gewoontes wat minder gee as wat hulle voel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dunlosky e.a. (2013): herlees en highlighting/underlining kry albei 'n LAE nut-gradering, teenoor practice testing en distributed practice met 'n HOË gradering (psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html). Die vergelyking wat die les trek, is presies die vergelyking wat die oorsig maak, en die 'vir die meeste mense' is gedra omdat die gradering 'n veralgemeningsmaatstaf is."
+    },
+    {
+      "bewering": "Jy lees die bladsy eerder een keer om te verstaan, merk min, en toets dan jouself.",
+      "blok": "Twee gewoontes wat minder gee as wat hulle voel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Stem ooreen met die praktiese aanbeveling in Dunlosky e.a. (2013) en Roediger & Butler (2011): vervang herhaalde lees met terughaling; highlighting is nie skadelik nie maar lewer min op, en oormatige merk verswak die seleksie. Geen bron weerspreek die raad nie."
+    },
+    {
+      "bewering": "terughaal: Om inligting weer uit jou geheue te kry wanneer jy dit nodig het.",
+      "blok": "begrip: terughaal",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "ALLEEN GELEES nagegaan. Stem ooreen met die standaardomskrywing van retrieval: 'the process of accessing stored information when needed' (universiteitsmateriaal oor geheueprosesse, bv. Kihlstrom se geheuebladsy by UC Berkeley; JoVE Science Education, 'Understanding Memory'). Alleen gelees pas dit op niks anders nie — dit sluit die aanleer en die berging uit en noem die behoefte-oomblik, wat dit van blote 'onthou' onderskei."
+    },
+    {
+      "bewering": "herroep: Om self op te roep wat jy geleer het, stil in jou kop of deur dit te sê of te skryf, sonder dat iemand dit vir jou wys.",
+      "blok": "begrip: herroep",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "ALLEEN GELEES nagegaan. Stem ooreen met die standaardonderskeid tussen recall ('retrieving information without cues') en recognition ('identifying previously learned information' wanneer dit gewys word) — sien die uiteensetting van terughalingsvorme by Kihlstrom, UC Berkeley (ocf.berkeley.edu/~jfkihlstrom/MemoryWeb/retrieval), en Tulving & Pearlstone (1966) oor leidraad-afhanklike terughaling. Die slotfrase 'sonder dat iemand dit vir jou wys' trek juis die herken-grens, en die inskrywing bly waar vir leidraad-ondersteunde herroeping (waar 'n vraag gegee word maar nie die antwoord nie). Dit oorvleuel wel met 'terughaal' hierbo, maar die twee inskrywings is nie teenstrydig nie: terughaal benoem die proses, herroep die vorm daarvan waar jy dit self oproep."
+    },
+    {
+      "bewering": "geheuehulpmiddel, sin 1: 'n Maklik onthoubare vorm wat jy van die werk maak, soos 'n sin, 'n rympie of kort groepies, en wat jou help om die werk later te herroep.",
+      "blok": "begrip: geheuehulpmiddel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "ALLEEN GELEES en teen die vier genoemde soorte getoets. Die genus ('n maklik onthoubare vorm van die werk wat latere herroeping help) stem ooreen met die vakomskrywing: 'Mnemonics, or mnemonic devices, are encoding strategies used to organize and/or chunk to-be-learned material, in order to make it more meaningful and easier to remember' (McCabe 2011, Office of Teaching Resources in Psychology, teachpsych.org, bl. 4), en met Merriam-Webster se 'a device (such as a rhyme or acronym) used to aid recall'. Al vier toetsgevalle val binne: die PLEK-METODE vir 'n toespraak (McCabe lys 'pegword and method of loci mnemonics' — jy maak 'n maklik onthoubare roete van die werk), 'n SPELHULPMIDDEL (gewoonlik 'n akrostiek, McCabe bl. 6), 'n PLANEET-RYMPIE (McCabe se kategorie 'song, rhymes, and stories'; en 'n rympie word uitdruklik genoem) en BODMAS ('n akroniem, McCabe se 'first-letter mnemonics (e.g., acronyms, acrostics)'). Die 'soos'-lys is 'n voorbeeldlys en nie 'n afbakening nie, so 'n woord soos BODMAS val onder 'vorm' al staan 'woord' nie in die lys nie. Een waarneming vir die rekord: die bronne stel uitdruklik dat 'n mnemoniek deur die onderwyser VERSKAF kan word sowel as deur die leerder self gemaak (McCabe bl. 4-5 bespreek 'instructor-provided' teenoor 'self-generated' mnemonieke), terwyl die inskrywing twee keer 'jy maak' gebruik; dit werk net op die algemene lesing van 'jy' ('n mens), want BODMAS en die maande-rympie word aan 'n leerder gegee eerder as deur haar gemaak."
+    },
+    {
+      "bewering": "geheuehulpmiddel, oorspanning-toets: pas die inskrywing nou op iets wat NIE 'n geheuehulpmiddel is nie?",
+      "blok": "begrip: geheuehulpmiddel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "ALLEEN GELEES getoets teen die studiegewoontes wat die vakliteratuur as iets anders klassifiseer. Flitskaarte val buite, want 'n kaart word gelees eerder as onthou — dit is nie 'n 'maklik onthoubare vorm' nie, en Dunlosky e.a. (2013) klassifiseer dit onder practice testing. Herlees en highlighting val buite, want niks word van die werk gemaak nie, en albei is by Dunlosky eie tegnieke. Blote herhaling en blote verspreiding oor dae val buite om dieselfde rede. Die enigste grensgevalle wat intrek — 'n liedjie of 'n storie wat jy van die werk maak, en 'n maklik onthoubare visuele rangskikking — is in die literatuur self mnemonieke (McCabe 2011, bl. 4: 'a category including song, rhymes, and stories'; dual coding / beeldgebruik). Ek kon geen geval kry waar die inskrywing iets intrek wat nie 'n geheuehulpmiddel is nie."
+    },
+    {
+      "bewering": "geheuehulpmiddel, sin 3: 'n Opsomming van die werk is nie so 'n hulpmiddel nie, want dit is 'n korter weergawe van die werk self.",
+      "blok": "begrip: geheuehulpmiddel",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "regstelling": "Die GEVOLGTREKKING is reg — 'n opsomming is nie 'n geheuehulpmiddel nie, en die vakliteratuur hanteer summarization en mnemonics as twee verskillende tegnieke (Dunlosky e.a. 2013 gradeer hulle apart). Die REDE is die probleem en moet die onderskeid dra wat die inskrywing se eie eerste twee sinne reeds gee: 'n opsomming val buite omdat dit nie in 'n vorm gegiet is wat gekies is omdat sy maklik onthou word nie — dit hou die werk se eie vorm en gee net minder daarvan. Korter-wees is nie die skeidslyn nie, want 'n rympie wat die inligting self dra, is ook korter as die werk, en sin 1 noem juis 'n rympie as voorbeeld.",
+      "bron": "Toets van die rede teen die inskrywing se eie voorbeeldlys, en teen die vakomskrywings. McCabe (2011, teachpsych.org, bl. 4) omskryf mnemonieke aan die VORM wat opgelê word ('encoding strategies used to organize and/or chunk to-be-learned material'), nie aan lengte nie; Merriam-Webster omskryf 'n mnemoniek as 'a device (such as a rhyme or acronym) used to aid recall', weer aan die vorm. Die maande-rympie wat in hierdie les self gebruik word, is 'n korter weergawe van die werk wat die inligting dra, en sou deur die gegewe rede uitgesluit word terwyl sin 1 dit insluit. Die rede skei dus wel 'n opsomming van 'n akrostiek, maar nie van 'n rympie nie, en die inskrywing alleen gelees laat die grens ongetrek. Let ook daarop dat die uitsluiting self 'n keuse is: onder die wydste woordeboeksin ('assisting or intended to assist memory', Merriam-Webster) sou 'n opsomming 'n geheuesteun wees, so die inskrywing het 'n rede nodig wat werklik werk."
+    },
+    {
+      "bewering": "geheuehulpmiddel, sin 2: Jy maak so 'n vorm juis omdat hy maklik onthou word en die werk vir jou terugbring.",
+      "blok": "begrip: geheuehulpmiddel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "ALLEEN GELEES. Albei helftes word gedra: mnemonieke word so gevorm dat die vorm self maklik onthoubaar is, en hulle werk as terughalingsleidrade wat die materiaal terugbring (McCabe 2011, bl. 4, oor herkodering, verbinding en dubbele kodering; Frontiers 2019 oor akronieme as volgordeleidrade). Die sin is waar van al vier toetsgevalle — plek-metode, spelhulpmiddel, planeet-rympie en BODMAS."
+    },
+    {
+      "bewering": "geheuehulpmiddel, sin 4: Om so 'n hulpmiddel te maak of op te sê, wys nog nie dat jy die werk verstaan nie.",
+      "blok": "begrip: geheuehulpmiddel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "ALLEEN GELEES. Gedra deur die Frontiers-studie (10.3389/fpsyg.2019.02522), waar deelnemers die inhoud van elke stap afsonderlik moes ken en die akroniem slegs die volgorde georden het, en deur McCabe (2011, bl. 4), wat mnemonieke as 'scaffolding for more permanent schematic knowledge' beskryf. 'How People Learn' (nap.edu) trek dieselfde grens tussen onthou en verstaan. Die sin is ook waar van al vier toetsgevalle: 'n mens kan BODMAS of 'n planeet-rympie foutloos opsê sonder om die onderliggende werk te verstaan."
     }
   ],
-  "opsomming": "Voorlopige verslag; nasien nog aan die gang."
+  "opsomming": "Een bevinding: in die geheuehulpmiddel-inskrywing is die GEVOLGTREKKING dat 'n opsomming buite val reg, maar die rede wat gegee word — dat 'n opsomming 'n korter weergawe van die werk self is — hou nie as onderskeid nie, want 'n rympie wat die inligting dra (soos die maande-rympie in hierdie les) is ook korter as die werk, en sin 1 noem 'n rympie juis as voorbeeld; al die ander bewerings, insluitend die vier soorte waarteen die inskrywing getoets is (plek-metode, spelhulpmiddel, planeet-rympie, BODMAS), die ander twee begrip-inskrywings, elke nut-bewering oor 'n studiemetode en albei analogieë, is bevestig. Geen handboek-, studiegids- of uitgewersbladsy is oopgemaak nie; sulke resultate het wel in soektogte verskyn (onder meer Siyavula-tipe skoolmateriaal, Vedantu, Twinkl, Scribd-afskrifte, flitskaartwebwerwe, 'n Macmillan-handboekbladsy en LibreTexts/Noba) en is doelbewus nie geopen nie — alles hierbo rus op joernaalartikels, universiteits- en vakverenigingsbronne en woordeboeke."
 }
