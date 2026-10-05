@@ -140,3 +140,4 @@
 - [Test files stay outside the repo](toetslêers-buite-die-repo.md) — another session commits everything in the folder; one-offs go to the scratchpad.
 - [Don't use git add -A](moenie-git-add-alles-gebruik-nie.md) — it swept another session's test file to GitHub under my commit; stage the pipeline paths deliberately.
 - [A placeholder report looks finished](n-plekhouer-verslag-lyk-soos-n-klaar-een.md) — write-early skeletons pass every freshness test; the state script detects them, and existing is not running.
+- [One agent per lesson at a time](moenie-n-skrywer-oor-n-lopende-nasien-stuur-nie.md) — a writer round over a running check makes the check stale; hold it and brief on both findings.
