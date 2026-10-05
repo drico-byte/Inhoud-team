@@ -78,3 +78,37 @@ match**, not after.
 Three misplacements now, all from loose matching: a regex that left the old opening in
 place, a blanket replace that rewrote the caution quoting the phrase as forbidden, and
 this one.
+
+## 5 October 2026: assert the ADDITION against the raw field, the ABSENCE against the live one
+
+Four failed runs in one session, all the same mistake. A spec correction has two halves that
+live in different places:
+
+- **The new requirement** goes in the field's own prose — **live** text.
+- **The record of what was withdrawn** goes in a bracket, so a reviser reads the order and not
+  the history.
+
+My sweep reader strips brackets, because that is what shows me what a field still *orders*.
+So when I asserted that my own newly added sentence was present, and tested it with that same
+stripping reader, it came back missing **every time** — the sentence was inside the bracket I
+had just written. The edit had already succeeded; only the check was wrong, which is the worst
+shape of failure because it looks like the write failed.
+
+**The rule:**
+
+| what you are proving | read the field |
+|---|---|
+| the new requirement is in place | **live** (brackets stripped) |
+| the withdrawal is on record | **raw** (brackets included) |
+| the old wording no longer orders | **live** |
+
+Two more from the same session:
+
+- **A sweep fires on its own correction.** A past-tense record legitimately repeats the number
+  or wording it replaced, so sweep for the **order shape** ("WHAT IS ORDERED: block 2 measures
+  254 words") and never for the bare value. Same point as the quotation trap in
+  [[n-spek-se-dieselfde-ding-in-twee-velde]].
+- **Lower-case both sides.** I wrote a marker in capitals and checked for it in lower case.
+- **Find the field by its content, never by its index.** I addressed a measurement item as the
+  last one in the list after appending three items behind it, and the replacement matched
+  nothing.

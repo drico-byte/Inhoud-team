@@ -208,8 +208,21 @@ KAPS_URE_TOLERANCE = 0.12
 #     its spec saying why.
 # LESBAND is the per-grade default; LESBAND_VAK overrides it for one subject.
 #
-LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550)}
-LESBAND_VAK = {}
+# Grades 7-9 added 23 September 2026 with spec_check.py's band, which had it and
+# this file did not: a 719-word Grade 7 draft passed silently against Lampies'
+# 350-700. The two tables have to move together or the ceiling holds only the
+# budget, which is the exact hole the comment above describes.
+LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550), 7: (350, 700), 8: (350, 700), 9: (350, 700)}
+LESBAND_VAK = {
+    # Lampies, 1 Oktober 2026: Graad 7 Lewensorientering se plafon is van 700 na 750 gelig.
+    # WAAROM: negentien van die sewe-en-veertig lesse het oor 700 gemeet, elkeen met 'n
+    # toegestane uitsondering, en die uitsonderings het die plafon in die praktyk vervang.
+    # 'n Plafon wat veertig persent van sy lesse vrystel, meet niks; 750 is wat die inhoud
+    # werklik vra. Die vier lesse bokant 750 bly uitsonderings en word getel.
+    # Net hierdie vak en net hierdie graad: ander Graad 7-vakke bly op 700, en Graad 4 tot 6
+    # is afgelewer en word nie geraak nie.
+    (7, "lewensorientering"): (350, 750),
+}
 COMMA_MAX = 0.35
 # List items are checked on their own terms rather than as prose.
 LIST_ITEM_GUIDE, LIST_ITEM_MAX = 18, 28
@@ -325,7 +338,7 @@ def check_register(m, band, label, fails, warns):
         warns.append(f"{label}: longest sentence is {m['longest_sentence']} words — check for a missing full stop")
 
 
-def run(lesson, grade, budget, kaps_ure=False):
+def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False):
     band = band_for(grade)
     blocks = lesson.get("blokke", [])
     fails, warns, notes = [], [], []
@@ -413,11 +426,34 @@ def run(lesson, grade, budget, kaps_ure=False):
     # A kaps-ure lesson has no absolute ceiling by design, so LESBAND is skipped.
     lesband = None if kaps_ure else LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
     if lesband and sm["words"] > lesband[1]:
-        warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson ceiling {lesband[1]} "
-                     f"— a person must cut it to {lesband[1]} or fewer. The budget ({budget}) plus "
-                     f"tolerance allows {hi:.0f}, and that is the gap Drico closed on 22 September 2026: "
-                     f"the ceiling holds the MEASURED lesson, not only the budget. Never drop a "
-                     f"requirement to reach it — if it cannot be done, say so and stop.")
+        # A LESSON MAY BE EXEMPTED FROM THE CEILING, ONE LESSON AT A TIME.
+        #
+        # Lampies exempted three Grade 7 rights lessons on 28 September 2026: their
+        # corrections were replacements longer than what they replaced, and his own
+        # rule is that the content sets the number. The exemption went into each
+        # lesson's budget note -- and the gate went on printing "a person must cut it
+        # to 700 or fewer" on every run, which is the failure this project keeps
+        # paying for. A stale instruction in a spec field gets obeyed by the next
+        # writer; a stale instruction printed by a TOOL gets obeyed by everyone,
+        # every time, because the tool runs and the field does not.
+        #
+        # So the runner passes the exemption through and the ceiling still measures
+        # -- it just says the overrun is allowed and by whose decision. It is never
+        # silent: a lesson over the ceiling is always reported, exempt or not,
+        # because the number is what tells a person the exemption is still the right
+        # call.
+        if plafon_vry:
+            warns.append(f"{label} {sm['words']} words, {sm['words'] - lesband[1]} above the Grade "
+                         f"{grade} ceiling of {lesband[1]} — ALLOWED for this lesson: {plafon_vry}. "
+                         f"Do not cut it back under {lesband[1]}; the words over the line are the "
+                         f"corrections. Still worth reading: if the overrun grows without a new "
+                         f"correction, something was added that no requirement asked for.")
+        else:
+            warns.append(f"{label} {sm['words']} words, above the Grade {grade} lesson ceiling {lesband[1]} "
+                         f"— a person must cut it to {lesband[1]} or fewer. The budget ({budget}) plus "
+                         f"tolerance allows {hi:.0f}, and that is the gap Drico closed on 22 September 2026: "
+                         f"the ceiling holds the MEASURED lesson, not only the budget. Never drop a "
+                         f"requirement to reach it — if it cannot be done, say so and stop.")
 
     # --- chunking ---
     # Only explanatory lessons are chunked. A lesson whose volume is carried by a
@@ -549,6 +585,12 @@ def main():
     ap.add_argument("lesson")
     ap.add_argument("--grade", type=int, required=True)
     ap.add_argument("--budget", type=int, required=True, help="target study-text word count")
+    ap.add_argument("--plafon-vry", dest="plafon_vry", default=None,
+                    help=("this lesson is exempted from the per-grade word ceiling; the value is "
+                          "the REASON, printed in the warning. The ceiling is still measured and "
+                          "still reported -- the exemption only changes 'cut it' to 'allowed, and "
+                          "by whose decision'. The runner passes it from the spec, so the decision "
+                          "lives in one place."))
     ap.add_argument("--kaps-ure", action="store_true",
                     help="budget came from CAPS hours (Drico, 29 Sep 2026): ceiling is planned+12%%, "
                          "under-supply warns instead of failing, and no absolute per-grade ceiling applies")
@@ -564,7 +606,7 @@ def main():
         set_dictionary(a.woordeboek)
 
     lesson = json.load(open(a.lesson, encoding="utf-8"))
-    r = run(lesson, a.grade, a.budget, kaps_ure=a.kaps_ure)
+    r = run(lesson, a.grade, a.budget, a.plafon_vry, kaps_ure=a.kaps_ure)
 
     if a.log:
         with open(a.log, "a", encoding="utf-8") as f:

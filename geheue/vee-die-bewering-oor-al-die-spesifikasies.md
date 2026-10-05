@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 1551181f-ed8a-4e8a-b7bc-c8c8d51c9cda
-  modified: 2026-09-11T09:22:00.519Z
+  modified: 2026-09-29T08:46:47.662Z
 ---
 
 11 September 2026. Three times in one day a correction went into `kern` and not
@@ -34,6 +34,14 @@ CONCLUSION, not the words, so the sweep catches it in a new costume.
 
 **And batch spec edits before checks.** Renaming a record marker — purely
 cosmetic — changed the spec hash and cost a finished coverage check a full re-run.
+
+**A SPEC-LEVEL field costs every lesson in the sub-topic, not one.** 29 September
+2026: I added one precedence rule at spec level in four Grade 7 LO specs and
+archived every in-place report across all four sub-topics in one command. A
+lesson-level edit costs that lesson's two reports; a spec-level edit costs all of
+them. Signed-off lessons are safe. So a spec-level field goes in **before** a
+check wave or at the end of one, never in the middle — and if it must go in
+mid-wave, say plainly what it cost rather than discovering the loss later.
 
 Related: [[n-spek-se-dieselfde-ding-in-twee-velde]],
 [[n-regstelde-fout-kom-in-n-ander-gedaante-terug]],

@@ -40,3 +40,50 @@ ordering the paddle-and-muscle frame the correction removes, it was visible in m
 printed output, and I amended four other fields and not that one. The writer found it.
 See [[n-ruil-wat-nie-pas-nie-moet-hard-faal]] — the print is only worth its cost if you
 act on the whole of it.
+
+---
+
+**1 October 2026: a report NEWER than its draft can still be stale — against the SPEC.**
+
+Three Grade 7 LO lessons sat in the repair box with coverage findings dated after their
+drafts, so by every freshness test they were current work. I started repairing them and
+found the findings already fixed: the stale clause the report quoted was not in the spec
+any more, and the six pointers it said ranked from the back had been renamed the same day.
+
+The reason is structural. A coverage finding of "the spec is at fault" is repaired in the
+spec and **never touches the draft**, so the draft's timestamp does not move and nothing
+marks the report as answered. The sorting script compares report time against DRAFT time
+only, which is right for a draft fault and blind to a spec fault.
+
+**How to apply:** before briefing anything on a `spesifikasie_probleem` report, grep the
+approved spec for the exact wording the report quoted. If it is gone, the finding is
+answered and the lesson needs a fresh pair of checks, not a repair round. Related:
+[[tel-die-verslae-voor-jy-se-dit-is-nagegaan]] — same family: the state a script
+reports is not the state of the work.
+
+---
+
+**5 October 2026: twelve of sixteen. The scale changes the default.**
+
+Grade 7 LO's repair box held fourteen lessons with sixteen live findings. I checked each
+one's *named field* against the approved spec before touching anything — the step the
+1 October entry above prescribes. **Twelve were already answered.** Four still stood.
+
+Nine of the fourteen also had coverage reporting *nothing wrong with the draft*: the
+finding was "the spec is at fault" and the text was correct. So the repair box was not a
+writer's work list at all — it was a list of lessons needing a fresh pair of checks.
+
+**How to apply.** When a repair box has more than a handful of entries, verify before
+planning. One script that greps each finding's own wording out of the approved spec costs
+minutes and told me which four of sixteen were real. Without it I would have briefed
+twelve writers against faults that no longer existed, and each one would have "fixed"
+something by changing correct text.
+
+Two things that stayed true under that sweep and should not be swept for again:
+
+- **Do not fire on the normal correction shape.** A field that diagnoses an old form in
+  the present tense, with the live order immediately after it, is correct as written.
+  A sweep that flags those gets ignored — see
+  [[n-veeg-vir-velde-wat-nog-bestel]] and [[n-generiese-teruggetrek-speurder-kan-nie-werk-nie]].
+- **Pull the needle from the file, never from the report's quotation of it.** One of the
+  four failed to match because the spec carried a typo inside the sentence I was replacing.

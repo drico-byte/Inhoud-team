@@ -83,7 +83,16 @@ import argparse, json, re, sys
 # average. Grades 10-12 stay unbanded until someone decides them the same way,
 # rather than inheriting a number that was reasoned about another grade.
 LESBAND = {4: (350, 450), 5: (300, 550), 6: (450, 550), 7: (350, 700), 8: (350, 700), 9: (350, 700)}
-LESBAND_VAK = {}
+LESBAND_VAK = {
+    # Lampies, 1 Oktober 2026: Graad 7 Lewensorientering se plafon is van 700 na 750 gelig.
+    # WAAROM: negentien van die sewe-en-veertig lesse het oor 700 gemeet, elkeen met 'n
+    # toegestane uitsondering, en die uitsonderings het die plafon in die praktyk vervang.
+    # 'n Plafon wat veertig persent van sy lesse vrystel, meet niks; 750 is wat die inhoud
+    # werklik vra. Die vier lesse bokant 750 bly uitsonderings en word getel.
+    # Net hierdie vak en net hierdie graad: ander Graad 7-vakke bly op 700, en Graad 4 tot 6
+    # is afgelewer en word nie geraak nie.
+    (7, "lewensorientering"): (350, 750),
+}
 
 
 def lesband_vir(graad, vak=None):
@@ -510,7 +519,15 @@ def check(spec):
             warns.append(f"Lesson {L['nommer']}: {len(av)} aanvulling items against a "
                          f"{allowance}-word allowance — check the 25% cap still holds")
 
-    # --- moeilike_konsepte flags ---
+    # --- difficult-concept flags ---
+    #
+    # This used to warn that no lesson flags a difficult concept, on the grounds that
+    # every sub-topic usually needs an ELI10 layer. The ELI10 block was abolished, and
+    # the gate now HARD-FAILS any lesson that carries one — so the advice sent whoever
+    # followed it straight into a gate failure. An empty difficult-concepts field is now
+    # an ordinary outcome and says nothing, so nothing is reported for it.
+    # The count check below stays: it is about a flag that means nothing when everything
+    # carries it, which is still true whatever the flag is used for.
     for L in lesse:
         if len(L.get("moeilike_konsepte") or []) > 3:
             warns.append(f"Lesson {L['nommer']}: {len(L['moeilike_konsepte'])} concepts flagged "

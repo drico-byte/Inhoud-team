@@ -1,0 +1,335 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Waar siekte vandaan kom, en waar dit nie vandaan kom nie",
+  "kaps_punt": "Oorsake van siektes: sosiale, ekonomiese en omgewingsfaktore insluitend die gebruik van alkohol en tabak, slegte eetgewoontes en tekort aan oefening",
+  "verdict": "MENS_NODIG",
+  "items": [
+    {
+      "bewering": "Leefstyl, geld, die plek waar jy woon en die mense rondom jou is elkeen 'n risikofaktor. So 'n faktor maak die kans op 'n siekte groter.",
+      "blok": "Groter kans, nie 'n waarborg nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO se eie omskrywing van 'n risikofaktor: 'any attribute, characteristic or exposure of an individual that increases the likelihood of developing a disease or injury' (WHO Health Topics: Risk factors; ook aangehaal by https://www.ine.es/DEFIne/en/concepto.htm?c=4583). Die les se bewoording - 'maak die kans groter' - dra presies dieselfde inhoud as 'increases the likelihood' en oorskry dit nie."
+    },
+    {
+      "bewering": "Nie een van hierdie faktore is 'n waarborg dat 'n siekte kom nie.",
+      "blok": "Groter kans, nie 'n waarborg nie",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Dieselfde WHO-omskrywing: 'n risikofaktor verhoog waarskynlikheid, dit bepaal nie uitkoms nie. Die absolute 'nie een' is hier die veilige rigting - dit maak 'n aanspraak kleiner, nie groter nie. Die spil is dus korrek getrek: die les skei waarskynlikheid (risikofaktor) van noodsaaklikheid (die kiem) van sekerheid (niks in die les), en dit is die regte drieledige onderskeid."
+    },
+    {
+      "bewering": "Twee mense woon in dieselfde straat en eet elke dag omtrent dieselfde kos. Die een word siek en die ander een bly sy hele lewe lank gesond.",
+      "blok": "Groter kans, nie 'n waarborg nie",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Nagegaan as vergelyking, nie net as stelling nie. Die kartering is die standaardmanier waarop epidemiologie waarskynlikheidsoorsaaklikheid verduidelik: dieselfde blootstelling, verskillende uitkoms (vgl. CRUK se syfers waar 15,9% van mans wat hul lewe lank rook voor 75 aan longkanker sterf en die res nie - https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/risk-factors). Twee opmerkings sonder dat dit 'n fout is: (a) die toneel hou net twee faktore konstant (plek en kos) en laat geld, huishouding en gene oop, dus bewys dit streng gesproke nie dat risikofaktore nie waarborge is nie - dit illustreer dit; die les maak wel later daardie oorblywende faktore eksplisiet ('Gene tel saam'), so die kartering breek nie. (b) 'bly sy hele lewe lank gesond' is 'n idiomatiese oordrywing - niemand is nooit siek nie - maar 'n leerder wat verder redeneer, beland by 'kanse, nie sekerhede', wat die bedoelde bestemming is. Die enigste rigting waarin dit kon misly, fatalisme ('dit is net geluk, my omstandighede maak nie saak nie'), word deur die volgende twee sinne toegemaak."
+    },
+    {
+      "bewering": "Rook veroorsaak longkanker, en tog kry nie elke rooker longkanker nie.",
+      "blok": "Groter kans, nie 'n waarborg nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Albei helftes geverifieer. Rook as oorsaak: US Surgeon General / CDC (https://www.cdc.gov/tobacco/about/index.html). Nie elke rooker nie: Cancer Research UK gee 15,9% (mans) en 9,5% (vroue) wat hul lewe lank rook en voor 75 aan longkanker sterf (https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/risk-factors). Die sin stel bevolkingsoorsaaklikheid en individuele onsekerheid korrek langs mekaar sonder om een van die twee te laat val."
+    },
+    {
+      "bewering": "By TB en by MIV is 'n kiem altyd nodig.",
+      "blok": "Groter kans, nie 'n waarborg nie",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "WHO TB-feiteblad (https://www.who.int/news-room/fact-sheets/detail/tuberculosis): TB word deur Mycobacterium tuberculosis veroorsaak. WHO MIV-feiteblad (https://www.who.int/news-room/fact-sheets/detail/hiv-aids): MIV is die virus. Die absolute 'altyd nodig' is hier feitelik presies reg - dit is die epidemiologiese begrip van 'n noodsaaklike oorsaak, en dit is nie dieselfde ding as 'n waarborg nie. Die les hou daardie twee uitmekaar en dit is die moeilikste onderskeid in die hele les."
+    },
+    {
+      "bewering": "Agter byna alle diarree van vuil water sit ook 'n kiem.",
+      "blok": "Groter kans, nie 'n waarborg nie",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "WHO Diarrhoeal disease-feiteblad: 'Diarrhoea is a symptom of infections caused by a host of bacterial, viral and parasitic organisms, most of which are spread by faeces-contaminated water' (https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease). Die kwantifiseerder 'byna alle' is goed gekalibreer: chemiese besmetting kan ook diarree gee, dus sou 'alle' verkeerd gewees het en 'byna alle' is reg."
+    },
+    {
+      "bewering": "By TB is die kiem alleen nie genoeg nie. Baie mense dra die TB-kiem sonder om ooit siek te word.",
+      "blok": "Groter kans, nie 'n waarborg nie",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "WHO TB-feiteblad: 'About 5-10% of people infected with TB will eventually get symptoms and develop TB disease' (https://www.who.int/news-room/fact-sheets/detail/tuberculosis), dus bly 90-95% van besmette mense sonder TB-siekte; ongeveer 'n kwart van die wereldbevolking dra die besmetting. 'Baie mense' is korrek en versigtiger as 'n syfer sou wees."
+    },
+    {
+      "bewering": "By MIV loop die siekte self anders: sonder behandeling maak die virus by so te se elke mens die liggaam se afweer swakker.",
+      "blok": "Groter kans, nie 'n waarborg nie",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "WHO MIV-feiteblad: 'HIV targets the body's white blood cells, weakening the immune system' (https://www.who.int/news-room/fact-sheets/detail/hiv-aids). Die absolute 'so te se elke mens' is uitdruklik nagegaan teen die uitsonderings: elite controllers is sowat 0,6% van kohorte en long-term non-progressors 2-10% na strenger kriteria, en selfs by daardie groepe is 'very low levels of virus do not guarantee non-progression and are associated with slight but measurable declines in CD4+ T-cell levels' (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9522853/, https://www.aidsmap.com/news/may-2009/less-one-hundred-french-hiv-patients-long-term-non-progressors). 'So te se elke mens' hou dus, en 'elke mens' sou nie gehou het nie - die hedging is presies reg gekies."
+    },
+    {
+      "bewering": "Wanneer die mense in jou huis rook of baie drink, word jou eie kans om dit te doen groter.",
+      "blok": "Die mense rondom jou",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Meta-analise van huishoudelike rook en rookaanvang by kinders: kansverhouding 1,72 as ten minste een ouer rook, 2,73 as albei rook, 2,30 by 'n broer of suster wat rook en 1,92 by enige huisgenoot (https://link.springer.com/article/10.1186/1471-2458-11-911, opgesom by https://www.globalfamilydoctor.com/Resources/A-Ztopiclisting/JournalWatch/Householdsmokinghabitseffectsonchildrentakingupsmoking.aspx). Die les stel dit as 'n groter kans en nie as 'n uitkoms nie, wat by die bewyse pas."
+    },
+    {
+      "bewering": "Groepsdruk werk op dieselfde manier.",
+      "blok": "Die mense rondom jou",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Sistematiese oorsigte van longitudinale studies vind portuurinvloed konsekwent as een van die sterkste voorspellers van adolessente alkoholgebruik en rookaanvang (https://acuresearchbank.acu.edu.au/item/866w4/, https://pmc.ncbi.nlm.nih.gov/articles/PMC3313483/). Let op vir 'n mens se oe: dieselfde literatuur skei portuurinvloed van portuurkeuse (jongmense kies ook vriende wat soos hulle is), so 'werk op dieselfde manier' is waar maar effens sterker as die literatuur se eie versigtigheid. Dit is 'n nuanse, nie 'n fout nie."
+    },
+    {
+      "bewering": "Lang spanning en geweld hou 'n mens se liggaam onder druk en maak die kans op siekte groter.",
+      "blok": "Die mense rondom jou",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Blootstelling aan geweld by adolessente gee hoer bloeddruk, hoer harttempo en hoer kortisol, en word met latere hipertensie en aterosklerose verbind (https://www.foundationsofhealth.org/wp-content/uploads/2013/03/Exposure-to-Violence-and-Cardiovascular-and-Neuroendocrine-Measures-in-Adolescents1.pdf); die meganisme is allostatiese las via die HPA-as, die outonome sisteem en inflammasie (https://www.tctmd.com/news/aha-puts-focus-impact-violence-cardiovascular-health). 'Maak die kans groter' is die regte sterkte."
+    },
+    {
+      "bewering": "Party mense praat oor iemand met TB of MIV asof die siekte sy eie skuld is.",
+      "blok": "Die mense rondom jou",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Suid-Afrikaanse bron gesoek en gevind: HSRC oor verborge TB-stigma (https://hsrc.ac.za/news/phsb/unseen-barriers-hidden-tb-stigma-and-its-impact-on-treatment-adherence/) en 'n Oos-Kaapse studie waarin 95% van respondente glo mense met TB versteek hul status uit vrees vir wat ander sal se. 'Party mense' is korrek gekwantifiseer."
+    },
+    {
+      "bewering": "Daardie stigma laat iemand laat kliniek toe gaan of glad nie sy medisyne gaan haal nie.",
+      "blok": "Die mense rondom jou",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "Die onderliggende verband is goed gedra - HSRC en die Oos-Kaapse en Gugulethu-studies vind dat stigma vertraagde sorgsoeke en swakker volhouding by behandeling VEROORSAAK in die sin van 'n verhoogde waarskynlikheid (https://hsrc.ac.za/news/phsb/unseen-barriers-hidden-tb-stigma-and-its-impact-on-treatment-adherence/, https://etd.uwc.ac.za/handle/11394/4170) - maar geen bron stel dit as 'n uitkoms wat volg nie. Die les se eie spil ('Nie een van hierdie faktore is 'n waarborg nie') word hier gebreek: dit is die enigste plek in die les waar 'n sosiale faktor 'n gevolg VOORTBRING in plaas van 'n kans vergroot. Soos dit staan, leer dit 'n dertienjarige dat wie stigma ervaar, laat kom of nie medisyne haal nie - en dieselfde leerder lees twee blokke later dat niemand die skuld vir sy siekte kry nie.",
+      "regstelling": "Daardie stigma maak die kans groter dat iemand laat kliniek toe gaan of nie sy medisyne gaan haal nie."
+    },
+    {
+      "bewering": "Die geld wat aan die einde van die maand oor is bepaal wat in die kombuiskas kom.",
+      "blok": "Geld maak keuses groter of kleiner",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Suid-Afrikaanse bewyse: 'n gesonder dieet kos gemiddeld 69% meer as 'n tipiese SA dieet, sowat R1 090 per maand ekstra vir 'n huishouding van vyf, wat meer as 30% van huishoudelike inkomste is vir die meeste van die bevolking; 60% kan nie die Moderate-cost Food Basket bekostig nie (HSRC, https://repository.hsrc.ac.za/handle/20.500.11910/3960; UP, https://www.repository.up.ac.za/bitstream/handle/2263/73175/Vermeulen_Balanced_2020.pdf). Een opmerking vir 'n mens, nie 'n fout nie: 'bepaal' is sterker as die les se eie latere bewoording ('Die kos wat beskikbaar en bekostigbaar is tel saam'), en die bewyse dra albei bene - prys EN beskikbaarheid. Die twee sinne sou dieselfde sterkte kon he."
+    },
+    {
+      "bewering": "'n Mens sonder taxigeld kan nie sommer by 'n kliniek uitkom wanneer sy siek voel nie.",
+      "blok": "Geld maak keuses groter of kleiner",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Suid-Afrikaanse bronne spesifiek gesoek omdat dit 'n plaaslike bewering is. UJ oor vervoer en landelike gesondheidsorg (https://ujcontent.uj.ac.za/esploro/outputs/journalArticle/Transportation-and-access-to-rural-healthcare/9959402807691); SALDRU/UCT oor afstand as toegangsversperring (https://opensaldru.uct.ac.za/handle/11090/613); Health-e News, 'Food or transport to medical care: the impossible choice many South Africans face' (https://health-e.org.za/2025/04/15/food-or-transport-to-medical-care-the-impossible-choice-many-south-africans-face/). Die literatuur noem taxi en stap as die algemeenste vervoer na klinieke en gebrek aan vervoergeld as die mees aangehaalde versperring, selfs waar die diens self gratis is. 'Kan nie sommer' is goed versag."
+    },
+    {
+      "bewering": "Wegbly van die werk af kos geld vir iemand wat per dag betaal word.",
+      "blok": "Geld maak keuses groter of kleiner",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Suid-Afrikaanse bron: die UP/Pretoria-dagloner-studie beskryf dagloners as mense wat per dag betaal word en wat uitgesluit is van voordele (https://socialwork.journals.ac.za/pub/article/view/271); WIEGO oor informele werkers in SA wat geen betaalde siekteverlof het nie en inkomste verloor wanneer hulle nie werk nie, insluitend die ure wat by 'n gesondheidsfasiliteit verloor word (https://www.wiego.org/wp-content/uploads/2020/03/The%20impact%20of%20COVID19%20on%20the%20millions%20of%20informal%20workers.pdf). Die les praat uitdruklik van 'iemand wat per dag betaal word' en nie van werkers in die algemeen nie, wat reg is - die Wet op Basiese Diensvoorwaardes gee wel betaalde siekteverlof aan werknemers in die formele sektor."
+    },
+    {
+      "bewering": "Water wat nie op die perseel is nie, moet in emmers van elders gehaal word. 'n Huis is dan moeiliker om skoon te hou.",
+      "blok": "Geld maak keuses groter of kleiner",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Drinking-water-feiteblad, wat presies hierdie skakel maak: 'where water is not readily available, people may decide handwashing is not a priority, thereby adding to the likelihood of diarrhoea and other diseases', en 'safe and sufficient water facilitates the practice of hygiene' (https://www.who.int/news-room/fact-sheets/detail/drinking-water). Dat dit 'n werklike SA omstandigheid is: StatsSA se Algemene Huishoudelike Opname wys 'n groot deel van huishoudings kry water op die erf, by 'n gemeenskapskraan of by 'n buurman eerder as in die woning (https://www.sanews.gov.za/node/31146). Geen getal word in die les gemaak nie, so niks om na te gaan behalwe die meganisme."
+    },
+    {
+      "bewering": "Armoede is nie 'n fout by mense nie, maar iets wat 'n mens se keuses kleiner maak.",
+      "blok": "Geld maak keuses groter of kleiner",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die eerste helfte is 'n waardestelling en nie 'n feitelike bewering nie, en dit is die regte een om te maak. Die tweede helfte is feitelik en gedra: die HSRC- en UP-data hierbo wys dat die gesonde keuse vir die meeste Suid-Afrikaanse huishoudings buite bereik van die inkomste is, dus is die keuse-versameling self kleiner (https://repository.hsrc.ac.za/handle/20.500.11910/3960). Hierdie sin is ook die een wat die blok van 'n skuldlas vrywaar, en dit is reg dat dit in die blok self staan en nie net in die laaste blok nie."
+    },
+    {
+      "bewering": "Vuil water en swak sanitasie maak die kans op maagsiektes en diarree groter.",
+      "blok": "Die plek waar jy woon",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Diarrhoeal disease: 'Infection is more common when there is a shortage of adequate sanitation and hygiene and safe water for drinking, cooking and cleaning' (https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease)."
+    },
+    {
+      "bewering": "Lug vol rook of stof maak die kans op hoes en op longsiektes groter.",
+      "blok": "Die plek waar jy woon",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Ambient air quality and health: partikelmateriaal, waarvan minerale stof en swart koolstof uitdruklik bestanddele is, word met chroniese obstruktiewe longsiekte (14% van sterftes toegeskryf), akute laer-lugweginfeksies (14%) en longkanker (4%) verbind (https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health)."
+    },
+    {
+      "bewering": "Die rook van 'n vuur binne die huis is elke aand in almal se longe.",
+      "blok": "Die plek waar jy woon",
+      "status": "weerspreek",
+      "tipe": "superlatief",
+      "bron": "Die meganisme is gedra en is belangrik: WHO se dat blootstelling aan huishoudelike lugbesoedeling van oop vure en swak stowe die hele huishouding raak, met 3,2 miljoen sterftes per jaar (https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health). Twee absolute in die sin hou egter nie. 'Elke aand' word deur die sin se eie voorwaarde nie gedra nie - 'n vuur binne die huis brand nie noodwendig elke aand nie, en StatsSA se Algemene Huishoudelike Opname 2023 wys 72,9% van SA huishoudings kook met netwerkelektrisiteit (hout 1%, paraffien 0,6%), terwyl hout in landelike gebiede van Limpopo, Mpumalanga, Noordwes, Oos-Kaap en KwaZulu-Natal wel swaar gebruik word (https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/1027/variable/V655). En 'almal' lees as gelyke blootstelling, terwyl WHO se eie bevinding is dat blootstelling 'particularly high among women and young children, who spend the most time near the domestic hearth' is. Dit is die een sin in die les waar 'n blootstelling as 'n sekerheid gestel word.",
+      "regstelling": "Waar 'n vuur binne die huis brand, asem almal in die huis daardie rook in, en die mense wat die naaste aan die vuur sit, asem die meeste in."
+    },
+    {
+      "bewering": "Waar baie mense in een klein huis slaap, gaan TB makliker van die een na die ander oor.",
+      "blok": "Die plek waar jy woon",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Suid-Afrikaanse bronne spesifiek gesoek. Oorbevolking dra beduidend by tot 'n huishouding se TB-ervaring in 'n Oos-Kaapse laer-inkomste nedersetting (https://repub.eur.nl/pub/94099/REPUB_94099_OA.pdf); TB-aanmeldings in Kaapstadse voorstede is beduidend met oorbevolking geassosieer; geklusterde TB-gevalle is met minder slaapkamers per huishouding geassosieer; en in Gauteng is oorbevolking saam met gebrek aan pypwater en sanitasie met 'n TB-huishouding geassosieer (https://repository.up.ac.za/items/e8283ba8-536e-4c07-b625-47e7767ddc93/full). WHO noem oorbevolking ook as risikofaktor. Let op dat die les korrek 'makliker oorgaan' se (oordrag) en nie 'word siek' nie - dit hou by die kiem-onderskeid van die eerste blok."
+    },
+    {
+      "bewering": "Dit is presies die dinge wat omgewingsgesondheid in 'n gemeenskap probeer regmaak.",
+      "blok": "Die plek waar jy woon",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO omskryf omgewingsgesondheid as al die fisiese, chemiese en biologiese faktore buite die mens, en 'n WHO-dokument noem uitdruklik behuising, stedelike ontwikkeling en lugbesoedeling daarby in (opgesom by https://www.who.int/health-topics/environmental-health en https://academic.oup.com/book/36941/chapter/322226085). Water, sanitasie, lugkwaliteit en behuising - die vier dinge wat die blok noem - val presies binne daardie omskrywing."
+    },
+    {
+      "bewering": "Alkohol en tabak is albei middels wat 'n mens se liggaam oor jare verander.",
+      "blok": "Alkohol en tabak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO noem alkohol 'a psychoactive and toxic substance that can cause dependence' (https://www.who.int/news-room/fact-sheets/detail/alcohol); nikotienverslawing staan in IKS-11 as nikotiengebruiksversteuring en alkoholafhanklikheid as 6C40.2 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12436819/). Dat albei die liggaam oor jare verander word deur die res van die blok se eie siektes gedra."
+    },
+    {
+      "bewering": "Tabakrook maak die kans op longsiektes groter en ook die kans op hartsiekte en op TB.",
+      "blok": "Alkohol en tabak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Longsiektes en hartsiekte: CDC/Surgeon General - rokers is 2 tot 4 keer meer geneig om koronere hartsiekte te ontwikkel, en rook verdubbel ongeveer die risiko van 'n beroerte (https://www.cdc.gov/tobacco/about/index.html, https://dph.illinois.gov/topics-services/diseases-and-conditions/heart-stroke/tobacco.html). TB: WHO se TB-feiteblad ken 0,70 miljoen nuwe TB-gevalle in 2024 aan rook toe (https://www.who.int/news-room/fact-sheets/detail/tuberculosis). Die TB-been is die een wat maklik oorgeslaan sou word en dit is korrek."
+    },
+    {
+      "bewering": "Alkohol maak die kans op lewerskade oor jare groter en verander hoe 'n mens dink en beweeg.",
+      "blok": "Alkohol en tabak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO: 'Drinking alcohol is associated with risks of developing noncommunicable diseases such as liver diseases, heart diseases, and different types of cancers' (https://www.who.int/news-room/fact-sheets/detail/alcohol). Denke en beweging: NIAAA noem stadiger reaksietyd en verminderde oog-hand-voet-koordinasie, en die frontale korteks se rol in oordeel (https://sites.duke.edu/apep/module-2-the-abcs-of-intoxication/science-content/the-intoxicating-effects-of-alcohol-depend-on-the-brain-region-affected). 'Oor jare' by lewerskade en die onmiddellike werking op denke en beweging is korrek geskei."
+    },
+    {
+      "bewering": "Beserings en ongelukke gebeur daarom makliker by iemand wat gedrink het.",
+      "blok": "Alkohol en tabak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO: 'A significant part of alcohol-attributable disease burden arises from injuries such as road traffic accidents', met valle, verdrinking, brandwonde en geweld ook genoem (https://www.who.int/news-room/fact-sheets/detail/alcohol). Een weglating vir 'n mens se oe, nie 'n fout in wat gese word nie: dieselfde WHO-blad se dat van 298 000 alkoholverwante padsterftes in 2019, 156 000 deur IEMAND ANDERS se drinkery veroorsaak is - meer as die helfte. Die les plaas die besering net by die persoon wat gedrink het, en 'n leerder wat verder redeneer, kom by 'net die drinker word beseer' uit. Dit raak nie 'n skuldbewering nie, so ek stel dit as 'n waarneming en nie as 'n regstelling nie."
+    },
+    {
+      "bewering": "Die meeste mense wat hul lewe lank rook, kry nooit longkanker nie.",
+      "blok": "Alkohol en tabak",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Cancer Research UK: 15,9% van mans en 9,5% van vroue wat hul lewe lank rook, sterf voor 75 aan longkanker (https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/risk-factors); die breer literatuur gee 10-20% van lewenslange rokers wat longkanker ontwikkel. 'Die meeste... nooit' is dus korrek. Dit is die soort sin wat verkeerd voel en reg is, en die volgende sin ('Tog veroorsaak rook longkanker') keer dat 'n leerder dit as 'rook is nie so erg nie' lees."
+    },
+    {
+      "bewering": "Tog veroorsaak rook longkanker. Rook veroorsaak ook baie ander siektes.",
+      "blok": "Alkohol en tabak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC lys kanker, hart- en beroertesiekte, COLS, tipe 2-diabetes, reproduktiewe probleme, oogsiektes en immuunprobleme as siektes wat deur rook veroorsaak word, en noem rook 'the leading preventable cause of disease, death, and disability' (https://www.cdc.gov/tobacco/about/index.html). Let op dat die les hier nie oorstel nie: dit se nie rook is die HOOFoorsaak van longkanker nie (wat waar sou wees, want rook is verantwoordelik vir die oorgrote meerderheid gevalle), so hier is 'n onderstelling eerder as 'n oorstelling."
+    },
+    {
+      "bewering": "Baie mense wat aanhou rook, sterf vroeer weens daardie siektes.",
+      "blok": "Alkohol en tabak",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "WHO se staande syfer is dat tabak tot die helfte van sy gebruikers doodmaak; ASH gee 'around half of all lifelong smokers will die prematurely' en gemiddeld 10 jaar vroeer as nie-rokers (https://ash.org.uk/resources/view/facts-at-a-glance), en Cancer Research UK gee tot twee uit drie langtermynrokers wat aan 'n rookverwante siekte sterf. 'Baie mense' is korrek en versigtiger as 'n syfer sou wees."
+    },
+    {
+      "bewering": "Kos met baie suiker, sout en vet maak die kans op hartsiekte en op hoe bloeddruk groter.",
+      "blok": "Wat jy eet en hoeveel jy beweeg",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Healthy diet: 'high intake of sodium (salt) is associated with increased blood pressure which can lead to cardiovascular disease', versadigde en transvette moet beperk word, en onhandige eetpatrone hoog in natrium, suiker en onhandige vette word met diabetes, hartsiekte, beroerte en kanker verbind (https://www.who.int/news-room/fact-sheets/detail/healthy-diet). Die suiker-na-bloeddruk-been is die swakste van die drie en is nagegaan: sistematiese oorsigte vind suikerversoete drank met hoer bloeddruk en hipertensie geassosieer (sowat 1,6 mmHg sistolies per ekstra porsie), terwyl heelvrugte en volgraan met suiker nie dieselfde verband wys nie (https://www.mdedge.com/content/sugar-sweetened-drinks-tied-blood-pressure). Die sin as 'n geheel - 'n dieet hoog in suiker, sout en vet verhoog die kans op hartsiekte en hoe bloeddruk - staan; die drie is net nie ewe sterk gedra nie en dit is 'n nuanse wat op graad 7 nie hoort nie."
+    },
+    {
+      "bewering": "Te min beweging maak dieselfde kanse groter en werk saam met wat 'n mens eet.",
+      "blok": "Wat jy eet en hoeveel jy beweeg",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Physical activity: mense wat onvoldoende aktief is, het 'n 20-30% hoer risiko van sterfte, en gereelde aktiwiteit verlaag hartsiekte-sterftes, hipertensie, tipe 2-diabetes en oortollige liggaamsvet (https://www.who.int/news-room/fact-sheets/detail/physical-activity). Dat dieet en aktiwiteit saamwerk eerder as om mekaar te vervang, is die standaardposisie in dieselfde riglyne."
+    },
+    {
+      "bewering": "Hierdie twee faktore maak ook die kans op vetsug en op sommige soorte suikersiekte groter.",
+      "blok": "Wat jy eet en hoeveel jy beweeg",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Physical activity en Healthy diet soos hierbo. Die belangrikste punt hier is die kwantifiseerder: 'sommige soorte suikersiekte' is presies reg en 'suikersiekte' sonder daardie beperking sou vals gewees het, want tipe 1-diabetes is 'n outo-immuun toestand wat nie deur dieet of beweging veroorsaak word nie (https://pharmaceutical-journal.com/article/ld/type-1-diabetes-pathophysiology-and-diagnosis). Hierdie blok is die een waar 'n leefstylfaktor maklik as die hoofoorsaak gestel sou kon word, en dit gebeur nie - elke sin bly by 'maak die kans groter'."
+    },
+    {
+      "bewering": "Die siektes waar leefstyl, geld en die plek meewerk, kom uit baie dinge saam.",
+      "blok": "Baie dinge werk saam",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Nie feitelik verkeerd nie, maar nagegaan omdat die blok se werk hiervan afhang. Die sin is sirkelvormig: dit omskryf sy onderwerp met dieselfde eienskap wat dit dan beweer, en dit noem nie een siekte nie. Die BLOK doen egter werklike werk en is nie net 'n voorbehoud wat die vorige blokke toedek nie - dit stel kiem-noodsaaklikheid by TB en diarree, dit noem gene, brein en liggaam, dit noem kosbeskikbaarheid en plek, en dit sluit uitdruklik tipe 1-suikersiekte uit. Dit is inhoud, nie versekering nie. Die openingsin is die een deel wat niks dra nie, en 'n mens kan besluit of dit die moeite werd is om te noem."
+    },
+    {
+      "bewering": "Ook by MIV speel armoede, geweld en stigma 'n groot rol in wie die virus kry.",
+      "blok": "Baie dinge werk saam",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Suid-Afrikaanse bewyse vir elke been. Geweld: vroue wat deur 'n maat mishandel is, was 48% meer geneig om MIV op te doen, en die studie gee sterk temporale bewyse vir 'n oorsaaklike verband; sowat 11,9% van nuwe infeksies sou voorkom kon word sonder fisiese en seksuele mishandeling en 13,9% as geslagsongelykheid aangespreek word (Jewkes e.a., https://researchonline.lshtm.ac.uk/id/eprint/18482). Stigma: in 'n Kaapstadse studie van meer as 2 500 mense was onderskrywing van vigsverwante stigma negatief met MIV-toetsing en positief met hoer oordragrisiko-gedrag geassosieer (https://pmc.ncbi.nlm.nih.gov/articles/PMC3565536). Armoede: dieselfde literatuur oor ekonomiese beperkinge wat mishandeling laat voortduur. 'n Groot rol' is die regte sterkte - stigma se rol by opdoen is indirek (dit ontmoedig toetsing en voorkoming) eerder as direk, en 'n groot rol' dra dit."
+    },
+    {
+      "bewering": "Dieselfde dinge bepaal sterk wie in behandeling bly.",
+      "blok": "Baie dinge werk saam",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "HSRC en die UWK- en Gugulethu-studies vind stigma, armoede en vervoerkoste as sterk determinante van volhouding by TB- en ARV-behandeling (https://hsrc.ac.za/news/phsb/unseen-barriers-hidden-tb-stigma-and-its-impact-on-treatment-adherence/, https://etd.uwc.ac.za/handle/11394/4170). Een opmerking vir 'n mens: 'bepaal sterk' is sterker as die les se spil toelaat, al wys dit weg van skuld eerder as daarheen. Anders as die stigma-sin in blok 2 is dit deur 'sterk' gekwalifiseer en nie as 'n sekerheid gestel nie, dus stel ek dit nie as 'n weerspreking nie."
+    },
+    {
+      "bewering": "Gene tel saam en ook wat binne die brein en die liggaam self gebeur.",
+      "blok": "Baie dinge werk saam",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Genetiese bydrae: HLA-komplekse en ander gene maak mense vatbaar vir tipe 1-diabetes, en die patogenese is 'n wisselwerking tussen genetiese vatbaarheid, omgewingsfaktore en outo-immuun meganismes (https://pharmaceutical-journal.com/article/ld/type-1-diabetes-pathophysiology-and-diagnosis). Brein en liggaam: IKS-11 se afdeling oor versteurings weens middelgebruik en verslawende gedrag plaas afhanklikheid as 'n brein- en gedragstoestand (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12436819/). Die sin is vaag maar nie verkeerd nie."
+    },
+    {
+      "bewering": "Die kos wat beskikbaar en bekostigbaar is tel saam en ook die plek waar 'n mens woon.",
+      "blok": "Baie dinge werk saam",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "HSRC oor prys en beskikbaarheid van gesonde kos in landelike Suid-Afrika (https://repository.hsrc.ac.za/handle/20.500.11910/3963) en oor die koste van 'n gesonde dieet (https://repository.hsrc.ac.za/handle/20.500.11910/3960): energie-digte kos is 'n relatief goedkoop bron van energie met lae nutrientdigtheid, wat mense met 'n lae inkomste na 'n minder gesonde dieet dryf. Albei bene - beskikbaarheid en bekostigbaarheid - word gedra, en dit is die versigtiger weergawe van die 'bepaal'-sin in die geldblok."
+    },
+    {
+      "bewering": "Wat 'n mens eet en hoeveel hy beweeg, veroorsaak nie tipe 1-suikersiekte nie.",
+      "blok": "Baie dinge werk saam",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Tipe 1-diabetes is outo-immuun vernietiging van pankreatiese beta-selle, anders as tipe 2 nie deur leefstylfaktore veroorsaak nie, en word geassosieer met genetiese vatbaarheid (veral HLA) plus 'n omgewings- of virale sneller soos enterovirusse (https://pharmaceutical-journal.com/article/ld/type-1-diabetes-pathophysiology-and-diagnosis, https://pubmed.ncbi.nlm.nih.gov/40734585/). Hierdie sin is die enkele belangrikste feitelike beskerming in die les vir 'n kind wat self tipe 1 het, en dit is korrek gestel."
+    },
+    {
+      "bewering": "'n Mens gee nooit vir 'n siek mens die skuld vir sy siekte nie. Dit geld ook vir iemand wat sy lewe lank gerook of baie gedrink het.",
+      "blok": "Niemand kry die skuld vir sy siekte nie",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Uitdruklik getoets op die vraag of die stelling op 'n VOORWAARDE rus, en dit doen nie. Dit hang nie aan 'sy het nie gekies nie', nie aan 'sy het nie geweet nie', en nie aan 'die geld was te min nie'. Dit word gestel ('nooit'), en dan word dit in die tweede sin na die moeilikste geval uitgebrei - die mens wat wel gekies het, jare lank, met inligting - sonder enige kwalifikasie. Dit is die regte vorm: daar is geen omgekeerde wat die skuld terugbring nie, want daar is geen voorwaarde om om te keer nie. Die stelling self is 'n waarde-stelling, nie 'n feitelike bewering wat teen 'n bron nagegaan kan word nie; wat ek kon nagaan, is die struktuur, en die struktuur hou."
+    },
+    {
+      "bewering": "Om van tabak of van alkohol afhanklik te wees, is self 'n toestand wat behandeling nodig het.",
+      "blok": "Niemand kry die skuld vir sy siekte nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "IKS-11 plaas alkoholafhanklikheid (6C40.2) en nikotiengebruiksversteuring in die hoofstuk oor geestes-, gedrags- of neuro-ontwikkelingsversteurings, en die afdeling is uitdruklik ontwikkel om mense wat behandeling nodig het te identifiseer en te versorg (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12436819/, https://autoicdapi.com/icd11/6C40.2). Die bewering is dus waar. Een STRUKTURELE waarneming vir 'n mens, nie 'n feitefout nie: hierdie sin staan direk na die uitbreiding na die lewenslange rooker, dus lees dit as die REDE daarvoor, en sy omgekeerde ('iemand wat rook sonder om afhanklik te wees') laat skuld weer in. Die eerste twee sinne stel die geen-skuld-reel egter reeds onvoorwaardelik, en 'boonop' in die volgende sin merk wat volg as bykomend en nie as grond nie. Ek stel dit as iets wat 'n mens moet weeg, want die reel self staan reg."
+    },
+    {
+      "bewering": "Verwyt maak dit boonop moeiliker vir 'n mens om hulp te gaan haal en by sy behandeling te bly.",
+      "blok": "Niemand kry die skuld vir sy siekte nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Gedra deur dieselfde SA stigma-literatuur as hierbo: stigma veroorsaak vertraging in sorgsoeke, in behandelingsaanvang en in volhouding (https://hsrc.ac.za/news/phsb/unseen-barriers-hidden-tb-stigma-and-its-impact-on-treatment-adherence/, https://etd.uwc.ac.za/handle/11394/4170). Let op dat hierdie sin 'n gevolg-rede vir die geen-skuld-reel is en dus 'n omgekeerde het ('as verwyt dit nie moeiliker gemaak het nie, sou verwyt aanvaarbaar wees'). 'Boonop' hou dit as bykomend, en die reel is een sin vroeer al onvoorwaardelik gestel, dus breek dit nie - maar dit is die tweede van twee redes wat aan 'n onvoorwaardelike reel geheg is, en dit is 'n mens se oordeel of albei moet bly."
+    },
+    {
+      "bewering": "Geen risikofaktor-blok in die les se dat 'n mens se keuses bepaal of hy siek word nie.",
+      "blok": "Hele les (nagegaan teen 'Niemand kry die skuld vir sy siekte nie')",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Elke blok is hierop gelees. Die leefstylblokke bly deurgaans by 'maak die kans groter' ('Kos met baie suiker, sout en vet maak die kans... groter', 'Te min beweging maak dieselfde kanse groter', 'Beserings... gebeur daarom makliker'); die geldblok se titel en slotsin dra die teenoorgestelde ('Armoede is nie 'n fout by mense nie'); en waar die les wel 'bepaal' gebruik, is die onderwerp geld of sosiale omstandighede en nie die leerder se keuse nie. Die enigste plek waar 'n oorsaak as 'n sekerheid gestel word, is die stigma-sin in 'Die mense rondom jou', en daardie sin le die gevolg by die STIGMA en nie by die siek mens nie - dit is dus 'n oorstelling en nie 'n skuldlas nie. Die geen-skuld-blok word dus nie deur 'n risikofaktor-blok weerspreek nie. Nagegaan teen die les se eie teks, nie teen 'n bron nie."
+    },
+    {
+      "bewering": "Geen stap, opdrag of raad in die les le buite 'n dertienjarige se eie hande nie.",
+      "blok": "Hele les (nagegaan teen die geld- en plek-blokke)",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die les gee nerens 'n opdrag, 'n stap of raad nie - dit is deurgaans verklarend. Die twee blokke waar niks wat sy lees haar keuse is nie, 'Geld maak keuses groter of kleiner' en 'Die plek waar jy woon', vra ook niks van haar: hulle beskryf taxigeld, dagloon, water op die perseel, oorbevolking en binnenshuise rook as omstandighede, en die geldblok se uitdruklik dat dit keuses KLEINER maak eerder as dat dit 'n keuse is. Daar is dus niks wat 'n leerder gevra word om te doen wat sy nie kan doen nie. Nagegaan teen die les se eie teks."
+    },
+    {
+      "bewering": "begrip 'middel': Iets anders as kos, water en lug wat jy sluk, drink, inasem, aan jou vel smeer of ingespuit kry, en wat verander hoe jou liggaam of verstand werk, soos pille, alkohol of sigarette.",
+      "blok": "begrip: middel",
+      "status": "onseker",
+      "tipe": "algemeen",
+      "bron": "Alleen gelees, met die res van die les weggedink. WAAR is sy: die formulering pas baie naby aan die standaard gesondheidsopvoedingsomskrywing, 'a substance, other than food, which is taken to change the way the body or the mind functions', en WHO se eie leksikon-omskrywing van psigo-aktiewe middels ('affects mental processes, e.g. cognition, perception, sensation or affect', https://www.who.int/publications/i/item/9241544686). Pille, alkohol en sigarette pas alles binne die omskrywing en niks wat die inskrywing se, is onwaar nie. WAAROP SY NOG PAS, en dit is die probleem: die omskrywing laat die DOEL uit ('wat geneem word OM te verander') en verbreed 'verstand' na 'liggaam of verstand', so soos sy staan, pas sy ook op (a) 'n KIEM wat jy inasem - nie kos, water of lug nie, verander beslis hoe jou liggaam werk - en hierdie les self plaas kieme en middels in dieselfde les, dus is die oorvleueling nie hipoteties nie; (b) gif of paraffien wat gesluk word; (c) die rook van die vuur in blok 4 wat ingeasem word; (d) 'n entstof wat ingespuit word. Ek kon nie uit bronne besleg of daardie breedte in Suid-Afrikaanse Lewensorienteringsgebruik aanvaarbaar is nie, en ek WEIER om dit uit skoollesmateriaal te besleg (sien opsomming). WAT EK DINK: die inskrywing het die doel-element of 'chemiese stof' nodig om kieme uit te sluit, iets soos 'wat 'n mens neem om te verander hoe sy liggaam of verstand werk'. HIERDIE IS 'N SAAK VIR 'N MENS EN NIE VIR 'N SKRYWER NIE: die term staan op 'n gedeelde lys en word in ander lesse gebruik, so 'n verandering hier verander hulle ook, en 'n derde bewoording is erger as om dit te laat staan."
+    },
+    {
+      "bewering": "begrip 'MIV': 'n Virus wat van mens tot mens gaan wanneer bloed of sekere ander liggaamsvogte binne-in 'n ander mens se liggaam kom - nie deur speeksel, sweet of trane nie - en wat sonder behandeling die liggaam se afweer teen siekte swakker maak.",
+      "blok": "begrip: MIV",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Alleen gelees, met die res van die les weggedink. WAAR is sy, in elke deel: CDC lys bloed, semen, pre-seminale vog, rektale vog, vaginale vog en moedersmelk as die vogte wat MIV oordra, en vereis dat hulle met slymvliese of beskadigde weefsel in aanraking kom of direk ingespuit word (https://www.cdc.gov/hiv/causes/index.html); speeksel, sweet en trane dra dit nie oor nie ('HIV is not transmitted through saliva alone'), wat die inskrywing se eksplisiete uitsluiting korrek maak; en WHO se 'HIV targets the body's white blood cells, weakening the immune system' (https://www.who.int/news-room/fact-sheets/detail/hiv-aids), wat die 'sonder behandeling'-helfte dra. 'Binne-in 'n ander mens se liggaam kom' is 'n aanvaarbare vereenvoudiging van CDC se slymvlies-of-beskadigde-weefsel-vereiste en laat nie 'n valse prentjie agter nie. WAAROP SY NOG PAS: hepatitis B en C gaan ook van mens tot mens deur bloed en liggaamsvogte en nie deur speeksel, sweet of trane nie - maar hulle maak nie die liggaam se afweer teen siekte swakker nie, dus sluit die laaste klousule hulle uit en die inskrywing bly spesifiek. Moeder-na-kind-oordrag word deur 'sekere ander liggaamsvogte' gedek eerder as genoem, wat 'n weglating is en nie 'n fout nie. NOTA: ook 'n gedeelde term, so enige verandering is 'n mens se saak; hier stel ek egter geen verandering voor nie."
+    }
+  ],
+  "opsomming": "Die les se spil is reg getrek - 'n risikofaktor maak die kans groter en waarborg niks, wat presies WHO se omskrywing is - en die les hou dit met een uitsondering deur: 'Daardie stigma laat iemand laat kliniek toe gaan of glad nie sy medisyne gaan haal nie' stel 'n gevolg as 'n uitkoms waar die bewyse net 'n verhoogde kans dra, en dit is die een sin wat die spil breek; die tweede weerspreking is 'Die rook van 'n vuur binne die huis is elke aand in almal se longe', waar die meganisme reg is maar 'elke aand' en 'almal' nie deur die sin se eie voorwaarde of deur WHO se eie bevinding oor ongelyke blootstelling gedra word nie. Die geen-skuld-blok is die sterkste deel van die les: die stelling rus op GEEN voorwaarde nie, sy hang nie aan keuse, kennis of geld nie, en sy word uitdruklik na die lewenslange rooker en drinker uitgebrei, dus is daar geen omgekeerde wat skuld terugbring nie - die enigste ding om te weeg is dat twee redes daaraan geheg is ('afhanklikheid is 'n toestand' en 'verwyt maak hulp moeiliker'), en 'n mens kan besluit of albei moet bly; geen risikofaktor-blok weerspreek haar nie, want elke leefstylsin bly by 'maak die kans groter'. Elke Suid-Afrikaanse bewering is met Suid-Afrikaanse bronne nagegaan en hou: taxigeld en klinieke (UJ, SALDRU, Health-e), dagloon (UP-dagloner-studie, WIEGO), oorbevolking en TB (Oos-Kaap, Kaapstad, Gauteng), stigma (HSRC, UWK), geweld en MIV (Jewkes, 48%), en die koste van 'n gesonde dieet (HSRC, 69% meer). Die twee begrip-inskrywings alleen gelees: MIV is korrek en ek stel geen verandering voor nie, maar 'middel' laat die doel-element uit en pas daarom ook op 'n kiem wat jy inasem, op gif en op die rook van blok 4 se vuur - en aangesien hierdie les self kieme en middels langs mekaar plaas, is daardie oorvleueling lewendig; omdat albei terme op 'n gedeelde lys staan, is dit 'n mens se besluit en nie 'n skrywer se werk nie, en dit is waarom die uitslag MENS_NODIG is. Geen absolute woord is ongetoets gelaat nie (die sterkste - 'altyd nodig', 'byna alle', 'so te se elke mens', 'die meeste... nooit', 'nooit die skuld' - hou elkeen, en 'elke aand in almal se longe' is die een wat nie hou nie), geen getal of persentasie word in die les gemaak nie, en geen stap of raad le buite 'n dertienjarige se hande nie, want die les gee nerens 'n opdrag nie. Twee weglatings sonder dat 'n sin onwaar is, vir 'n mens se oe: die alkoholsin le beserings net by die persoon wat gedrink het terwyl meer as die helfte van alkoholverwante padsterftes deur iemand anders se drinkery kom, en die openingsin van 'Baie dinge werk saam' is sirkelvormig en noem geen siekte nie (die res van daardie blok doen wel werklike werk en is nie net 'n voorbehoud nie). Geen handboek is gebruik nie: soektogte oor die omskrywing van 'middel' het skoollesmateriaal opgelewer (Alberta Health Services se graad 4-lesplan en 'n Hope UK-klaskamerhulpbron) en ek het geweier om dit oop te maak of te gebruik, en die omskrywing eerder teen WHO se leksikon gemeet."
+}
