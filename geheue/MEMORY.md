@@ -115,7 +115,7 @@
 - [The reading copy sent out our internal notes](die-leeskopie-het-ons-interne-notas-uitgestuur.md) — 56 PDFs still have it.
 - [Three PCs work in parallel](drie-rekenaars-werk-parallel.md) — report what is left in MY work, and a repo-wide sweep reaches into their files.
 - [Gr 7 LO: the year's rulings](gr7-lo-besluite.md) — four sub-topics, 45 lessons, 350-700 band, and what the pre-writing fact checks settled.
-- [Gr 7 LO: where we are](gr7-lo-waar-ons-is.md) — the faults are in the SPECS not the drafts, four shapes account for nearly all, and four decisions wait on Lampies.
+- [Gr 7 LO: where we are](gr7-lo-waar-ons-is.md) — 16/47 signed off 5 Oct 2026; all 47 now checked at least once, the faults are in the SPECS, and seven decisions wait on Drico.
 - [No drift is only as strong as the decision list](geen-drif-is-net-so-sterk-soos-die-besluitlys.md) — agreeing lessons print the same clean line as held ones.
 - [Count the reports before saying it is checked](tel-die-verslae-voor-jy-se-dit-is-nagegaan.md) — two lessons never checked and five silently unchecked by a legitimate re-gate; sweep for the files.
 - [No-blame may rest on nothing](geen-skuld-mag-op-niks-rus.md) — three lessons hung it on a pivot and every converse let blame back in; state it, never motivate it.

@@ -1,59 +1,100 @@
 ---
 name: gr7-lo-waar-ons-is
-description: Grade 7 Life Orientation — 10 of 47 signed off; a deep repair pass on 29 Sep 2026 found the faults are overwhelmingly in the SPECS, not the drafts, and four decisions wait on Lampies.
+description: "Grade 7 Life Orientation — 16 of 47 signed off; every lesson has now been through both checkers at least once, the faults are overwhelmingly in the SPECS not the drafts, and a handful of decisions wait on Drico."
 metadata:
+  node_type: memory
   type: project
+  originSessionId: 9cbb5026-bd75-4aa5-a144-0346fd07bf1f
+  modified: 2026-10-05T13:19:17.005Z
 ---
 
-**29 September 2026, end of a long repair day.** 10 of 47 lessons signed off. That number went
-*down* from 12: two signed lessons were deliberately reopened for corrected shared wordings, and
-a third for a fact correction. Reopening a delivered lesson for a wording that is now wrong is
-the right trade; the count is not the measure of the day.
+**5 October 2026.** 16 of 47 signed off. **Every one of the 47 has now been through both
+checkers at least once** — the last two that never had were the seven-religions lesson and
+the work-clothing one, and both came back with the draft fully covered and the faults in the
+spec.
 
-## What the day actually established
+Lampies' standing instruction: **finish Grade 7 on its planned basis; Drico decides the open
+questions; do not hold lessons back waiting.** The CAPS-hours budget method applies from the
+next grade onward, not here — see [[gr7-lo-oop-vrae-gaan-na-drico]] and
+[[begroting-uit-kaps-ure]].
 
-**The drafts are mostly right. The specs are where the faults are.** Round after round, coverage
-came back MENS_NODIG with the draft clean and a spec field at fault. That is not a coincidence —
-it is what happens when many fact checks land on one subject in one day and each correction has
-to be written into fields that other fields also reference.
+## What the repair box actually contains
 
-**Four shapes account for nearly all of it**, and three now have a sweep
-(`bin/spekveeg.py` — see [[n-veeg-vir-velde-wat-nog-bestel]]):
+**Verify before planning.** On 5 October the box held fourteen lessons with sixteen findings.
+Checking each finding's own named field against the spec first showed **twelve were already
+answered** by earlier source repairs, and **nine of the fourteen had coverage reporting
+nothing wrong with the draft at all.** So most of that box is lessons needing a fresh check
+pair, not a writer. See [[n-verslag-in-die-logboom-kan-verouderd-wees]] for the routine.
 
-1. An ordering sentence that still asks the old thing while the retraction stands beside it.
-2. A "what now applies" clause that is itself outdated — it looks like record, it *is* the order.
-3. A retraction placed INSIDE the order: "say X [X is withdrawn]" still orders X.
-4. A marker that withdraws too much. 42 of these were narrowed in one pass — they read at field
-   scope and killed the live requirements standing after them.
+The shape established on 29 September still holds: **the drafts are mostly right and the
+specs are where the faults are**, and the four recurring shapes are listed in
+[[n-veeg-vir-velde-wat-nog-bestel]]. Added on 5 October: **run the sibling sweep in the same
+script as the edit** — I broke that rule three times in one day and a checker caught every
+one. See [[n-spek-se-dieselfde-ding-in-twee-velde]].
 
-**Zero drift across all 38 shared terms, and every one has a decision behind it.** This morning
-six were adrift across ten lessons and four more agreed with nothing holding them.
+**Drift across the whole grade is one term** — the social-worker wording, where two drafts
+say "university degree" against the decided "degree". 47 lessons, 39 shared terms.
 
-## Four decisions waiting
+## Self 8 is the hard one: seven fact checks
 
-1. **What the six career groups ARE.** Three fact checks give three answers about the
-   `loopbaanveld` wording, and the pattern is the finding: the sub-topic uses Holland's six
-   *types* as its *fields* and defines them with the criterion for career *fields*. CAPS Grade 8
-   calls them career *categories*. See [[loopbaanveld-bewoording-is-oop]].
-2. **The Grade 12 pass level.** Two fact checks disagree on whether a designated subject list
-   governs the degree pass. Nothing ordered; one targeted check answers it.
-3. **The bullying doer.** Lampies' 28 September ruling (child to child) stands and two checks
-   support it, but the CDC definition excludes siblings and a current dating partner — so our
-   wording leaves adults out and takes a boyfriend in, while the same lesson's block on sexual
-   pressure describes exactly such a person.
-4. **Regte 7's tell-threshold** rests on a request to hide something "for always", which a child
-   can refute — the say-no threshold a block earlier is wider. The spec says no writer may fix it.
+The body-privacy lesson. Rounds four to seven each found a real safety fault in **one
+sentence**, and round six contradicted round five. The resolution is structural and is the
+most important thing to carry forward: **a safety rule cannot ask a child to verify an
+adult's credentials, and the markers of legitimacy left behind are the grooming script.**
+The test that works is her power to end it. Full account in
+[[n-kind-kan-nie-n-grootmens-se-bevoegdheid-toets-nie]].
 
-Also open and smaller: the closed `potensiaal` and `MIV` wordings where a fact check now shows a
-fault; whether schoolwork belongs in a self-care list; whether a Grade 7 should be told a
-municipal call is an adult's job; and whether Gesondheid 8 should say at all what happens to a
-needle after the adult is shown.
+Its budget has been lifted twice, 621 → 708 → 842, each time because the gate hard-failed
+and coverage reported nothing unrequested. **Whether it stays one lesson is unresolved** —
+842 against an original 621, eighteen requirements — and splitting it changes the sub-topic's
+lesson count and every other budget, so it is Drico's.
+
+## Settled on 5 October, so do not reopen
+
+- **TB:** the clinic decides when someone may be among others again. Not an interval, not a
+  school rule — no South African source supports either. Contact testing cut, not left open.
+- **Support** was defined as listening and standing by, narrower than every source, which is
+  what left the social worker with no home among the three definitions. Widened; the
+  three-way split itself stays.
+- **verklik** is cut, not defined. The sentence rested on an Afrikaans usage claim the
+  reachable sources contradict; the idea survives in acts. See
+  [[n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie]].
+- **Werk 6's frame** took four rounds: workplace pole → item pole → task and exposure →
+  quantifier narrowed to the barrier family, because hi-vis works by conspicuity and has a
+  block of its own.
+
+## Open, and Drico's
+
+1. **The career-field wording.** Third round. Today's check contradicts the "same kind of
+   interests" half, and read alone the entry never names the subject, so it defines a career
+   *category*. Not changed: the term has already cost ten lessons once. The reconciliation
+   that honours both existing rulings is recorded in [[loopbaanveld-bewoording-is-oop]].
+2. **Whether Self 8 stays one lesson** (above).
+3. **The bullying entry** omits exclusion and intimidation read alone, while the lesson's own
+   block names all three. Corroborated independently by a second checker. Widening it touches
+   four lessons plus one more in prose; the direction is not open, the cost is the question.
+4. **The school counsellor** stands as one of three routine routes, and the Minister's own
+   reply gives 54 nationally, mostly at district level. The block's fallback covers an adult
+   who does not listen, not one who does not exist. The word is in other lessons too, so the
+   scope is a subject decision.
+5. **The photo block's absolute** excludes forensic photo-documentation, which is the standard
+   of care — against the risk that any exception hands a groomer a script.
+6. **"It is a crime"** standing beside the broadened exoneration: the Law Reform Commission
+   still treats a child's self-generated image as an open reform question. The no-blame
+   sentence may not be weakened to resolve it.
+7. **The nursing word.** Counted over lesson text — not whole files, which the provenance
+   notes inflate — it is the familiar form in the six care lessons and the official form in
+   the three Wêreld van werk lessons, which discuss the profession and council registration.
+   That division is coherent and a dated ruling already protects the familiar form. Self 8's
+   absolute rule was degendered because it excluded a lawful case; the rest is a choice.
 
 ## What to do next
 
-Re-run coverage on the lessons whose drafts are correct and whose specs are now clean — that is
-the test of whether the systematic work paid off. Then facts where missing. The unchecked
-remainder is Self 5, 6, 7, 11, 12, 14; Gesond 1, 11, 12, 13, 14; Regte 8, 9; Werk 2, 6.
+Run writer-then-check rounds on the lessons whose specs are now clean; ~20 need a check pair
+and all of them gate PASS. Three lessons at a time on this machine
+([[drie-lesse-op-n-slag-op-hierdie-rekenaar]]), and one of writer / coverage / facts in
+flight per lesson ([[moenie-n-skrywer-oor-n-lopende-nasien-stuur-nie]]).
 
-Grades 8 and 9 have not started, and should not until Grade 7's source faults are out — every
-fault left in a Grade 7 spec is a fault the Grade 8 planner will read.
+Grades 8 and 9 have not started and must not until Grade 7's source faults are out — every
+fault left in a Grade 7 spec is one the Grade 8 planner will read. Finishing Grade 7 is also
+what makes a Life Orientation words-per-hour rate measurable at all.
