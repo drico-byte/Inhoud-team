@@ -80,3 +80,36 @@ Two things follow.
 The spec now asks for the large feature and leaves the noun alone. Related:
 [[moenie-self-inhoud-skryf-nie]], [[n-claim-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie]],
 [[die-spek-was-die-fout-sewentien-keer]].
+
+---
+
+**Addendum, 5 October 2026: widening a definition without reading its ARTICLE.**
+
+Gr 4 Geography, map skills lesson 7. A fact check found the glossary entry for `hoofstad`
+too narrow — "die dorp of stad van waar 'n PROVINSIE regeer word", read alone, excludes
+Pretoria, Cape Town and Bloemfontein as capitals of the country, and the lesson's own list
+names two of those three. I ordered it widened to "'n land of provinsie". The next fact
+check found the widened form **false**: the definite singular asserts there is exactly
+*one*, and South Africa has three capitals. Narrow to false in one day, in the field I had
+just rewritten.
+
+**The part worth carrying: a definition carries a COUNT claim in its article, and widening
+the SCOPE can switch that claim from true to false without touching a noun.** "Die dorp of
+stad van waar 'n provinsie regeer word" is fine — every province really is governed from
+one place. Extend the same sentence to cover a country and the identical article now
+asserts something false about the only country in the lesson. I changed what the
+definition *ranged over* and never re-read what it *said*.
+
+So when widening a definition, check the article against every member of the new range,
+not just the ones that prompted the change. Ask: does this phrasing claim *one*, and is
+that still true of everything it now covers?
+
+The second-order point is the same as [[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]], but
+sharper: the field I had **just** corrected was the one carrying the new fault, and my
+instinct was to treat it as settled because I had looked at it an hour earlier. A field is
+not safer for having been recently rewritten. It is more dangerous, because the rewrite is
+the newest untested thing in the spec and nothing downstream checks a spec at all
+([[spesifikasies-word-nooit-nagegaan]]).
+
+Related: [[n-versagting-vat-die-algemene-helfte-saam]], [[drie-maniere-om-n-bewering-reg-te-maak]],
+[[n-begrip-word-alleen-gelees]].
