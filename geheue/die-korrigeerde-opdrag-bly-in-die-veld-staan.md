@@ -314,3 +314,25 @@ through a writer.
 A third habit worth keeping: my asserts keep failing on CASE (`nie` vs `NIE`, `moet
 OPTREE` vs `moet optree`) after the write has already succeeded — so the file is
 correct and the script reports failure. Lower-case both sides before comparing.
+
+---
+
+**5 October 2026, the recursive instance: my correction's own bracket ordered the next fault.**
+
+I lifted a form restriction and put the same explanatory bracket into three fields,
+each closing with the ground for what survived — "a summary falls outside *on its own
+footing, being a shorter version of the work*". The next fact check refuted exactly
+that ground (a rhyme is also a shorter version, and the entry names a rhyme as an
+example). So my repair was now ordering the fault the following round found, in three
+places at once, and a coverage check had to find it.
+
+**The structural rule this yields: a bracket may carry the FACT of a withdrawal, never
+its GROUND.** A ground is itself a claim. Copied into three fields it becomes three
+claims that age together, and the next refutation turns all three into live orders. The
+live reason belongs in exactly one field — the newest item — and every other field
+points to it by content. Then there is one place to fix instead of three.
+
+Same session, same shape, one level further out: two older brackets still ordered the
+lifted restriction, and one clause sat **outside any bracket** treating a mind map
+falling inside as the fault — that last one being the only one a reviser would have
+followed with no warning at all.
