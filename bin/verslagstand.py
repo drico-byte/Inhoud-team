@@ -42,6 +42,27 @@ def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
 
 
+# 'n Nasiener skryf sy verslag VROEG en werk hom by, sodat 'n onderbreking nie die
+# hele nasien kos nie. Die prys is dat 'n half-geskrewe verslag presies soos 'n klaar
+# een lyk: geldige JSON, nuwer as die konsep, met 'n verdict in. Op 5 Oktober 2026 het
+# drie sulke plekhouers drie ONGENASIENDE lesse as 'herstelwerk' laat lees. 'n Plekhouer
+# word hier as GEEN VERSLAG gereken, want dit is wat hy is.
+PLEKHOUER = ("nog aan die gang", "in uitvoering", "plekhouer", "nog nie klaar",
+             "word bygewerk sodra", "nog besig", "work in progress", "placeholder")
+
+
+def is_plekhouer(d):
+    """True as hierdie verslag-inhoud 'n half-geskrewe plekhouer is."""
+    if not isinstance(d, dict):
+        return False
+    op = (d.get("opsomming") or "").lower()
+    if any(m in op for m in PLEKHOUER):
+        return True
+    # geen enkele item nagegaan is nooit 'n klaar verslag nie
+    items = d.get("items")
+    return isinstance(items, list) and not items
+
+
 def verslae(pad):
     """(soort, verdict, is_verouderd) vir elke verslag naas 'n konsep."""
     gids = os.path.dirname(pad)
@@ -54,9 +75,13 @@ def verslae(pad):
             uit.append((soort, None, None))
             continue
         try:
-            verdict = json.load(open(q, encoding="utf-8")).get("verdict")
+            d = json.load(open(q, encoding="utf-8"))
+            verdict = "PLEKHOUER" if is_plekhouer(d) else d.get("verdict")
         except (OSError, ValueError):
             verdict = "ONLEESBAAR"
+        if verdict == "PLEKHOUER":
+            uit.append((soort, None, None))
+            continue
         uit.append((soort, verdict, os.path.getmtime(q) < tk - SPELING))
     return uit
 
