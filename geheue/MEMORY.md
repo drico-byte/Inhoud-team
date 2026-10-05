@@ -142,3 +142,4 @@
 - [A placeholder report looks finished](n-plekhouer-verslag-lyk-soos-n-klaar-een.md) — write-early skeletons pass every freshness test; the state script detects them, and existing is not running.
 - [One agent per lesson at a time](moenie-n-skrywer-oor-n-lopende-nasien-stuur-nie.md) — a writer round over a running check makes the check stale; hold it and brief on both findings.
 - [A child cannot test an adult's credentials](n-kind-kan-nie-n-grootmens-se-bevoegdheid-toets-nie.md) — three rounds on one safety sentence; give the child a test on the situation, never a fourth credential.
+- [A containing phrase makes a contrast](n-inperkingsfrase-maak-n-kontras.md) — in a parallel set it marks the feature as absent from the siblings; coverage praised the phrase, facts condemned it.

@@ -52,3 +52,41 @@ feminine form of the nursing word, so a male nurse giving lawful care fell outsi
 the lesson shuts absolutely; and the what-counts-as-a-yes block listed only what was
 *never* a yes, so a yes once given read as standing. Related:
 [[veiligheidslesse-lewer-die-ergste-foute]], [[elke-sin-waar-die-prentjie-vals]].
+
+## The seventh check, same day: the markers themselves were the grooming script
+
+My ruling above said to give the child a test on the situation rather than on the adult.
+Correct, and incomplete — **I did not say what that test is**, so the markers left standing
+in the block were: he asks first, he explains why, it is never a secret. The seventh fact
+check named them as **the grooming script word for word**. The only hard gate remaining was
+identity, and that gate admits the caregiver, who is the commonest perpetrator.
+
+**The test that works in both directions is her power to end it:** she may say no, and it
+must then stop — including to a doctor, including to the adult who looks after her. NSPCC
+pairs its exception with exactly that, and the professional councils put the duty to stop
+on the practitioner, never on the child. It is the one thing an abuser cannot imitate,
+because it asks nothing of him and everything of what he must do when she refuses.
+
+**Three things I had protected across three rounds were wrong:**
+
+- **"Never a secret"** collides with a child of twelve or older having a *right* to
+  confidentiality about her own health, so a lawful confidential clinic visit read as
+  suspect under the lesson's own test. What may never be secret is being told to hide the
+  touching — not the visit.
+- **The list of what does not make it right** named being known and the reason given, and
+  omitted the member South African law makes decisive: **her own yes**. For a child under
+  sixteen apparent consent is legally irrelevant — and it is the member that stops a child
+  who said yes from reading it as her fault. A missing sibling, which is
+  [[n-waarskuwing-moet-elke-broer-dek]].
+- **The what-counts-as-a-yes set** omitted a yes got by pressure, a threat, a gift, or by
+  someone with power over her — the commonest route — and because the rule said *wait for a
+  yes you can hear or see*, a coerced spoken yes passed the lesson's own test.
+
+**A closed list of who may is itself the fault**, not a precision. It blocked a paramedic at
+a crash, a physiotherapist and whoever takes a pelvic X-ray, and "asks first" cannot hold
+where the law allows treatment without asking at all. Dropping the list is not a softening:
+a list is what makes a child believe she must judge the person.
+
+**How to apply.** Write the child's power first and the adult's category last, or not at
+all. Then read every marker of legitimacy the block still hands her and ask whether an
+abuser could perform it. If he could, it is not a test — it is a script.
