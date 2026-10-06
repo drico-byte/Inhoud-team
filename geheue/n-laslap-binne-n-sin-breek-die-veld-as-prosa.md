@@ -86,3 +86,36 @@ Two neighbouring traps from the same session:
 - **A bracket that reduces a pair to one leaves the surrounding prose in the plural.** Cosmetic
   — a deleted sentence cannot return — but a list that speaks of two where one stands sends a
   reader hunting for the second.
+
+## The family is three shapes, not one — 6 October 2026
+
+One session, one spec, three different ways a replacement broke the prose, and **a coverage
+checker found each one.** An equality assert cannot see any of them, because it proves the
+match, never that the result is a sentence.
+
+| shape | what it looked like |
+|---|---|
+| bracket inside a word | `al`**[**`…`**]**`bei bly` — and the living sentence then said the opposite of the correction |
+| doubled phrase | `om skade te verminder` + `wat skade verminder` — my addition met the original's tail |
+| headless sentence | `… en bevestig. bly om EEN rede` — the needle ate the subject |
+
+**The three checks, run over every string in the spec after any edit:**
+
+```python
+re.findall(r'.{0,18}\w\[.{0,18}', s)            # bracket inside a word
+re.findall(r'.{0,18}\]\w.{0,18}', s)
+w = lewend(s).split()                            # doubled phrase: 3-5 words repeated
+any(w[i:i+n] == w[i+n:i+2*n] for n in (5,4,3) for i in range(len(w)-2*n+1))
+re.finditer(r'(?<![.A-Z])\. +([a-z\u00e0-\u00ff]{3,})', lewend(s))   # headless sentence
+```
+
+**The third one needs its exclusions or it is worthless.** My first version fired on every
+semicolon and returned **226** hits across one spec — a check with that noise gets ignored,
+the same way a sweep that fires on the normal correction shape does. A semicolon does not start
+a sentence. With `(?<![.A-Z])` excluding ellipses inside quotations and capitalised
+abbreviations, the same spec family returns **four**, and all four are benign: two stylistic
+lowercase starts, one field name, one glossary-style term label. Four is reviewable; 226 is not.
+
+**And the habit that caused all three:** replace a whole span, anchored at sentence boundaries,
+then read the result back. Locating the sentence with `index()` of its opening phrase and of
+its closing phrase, and replacing everything between, is what finally worked each time.
