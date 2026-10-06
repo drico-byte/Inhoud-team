@@ -46,3 +46,43 @@ and forbade the same thing, four patches deep.
 Related: [[n-ruil-wat-nie-pas-nie-moet-hard-faal]],
 [[n-feiterisiko-is-nie-n-regstelling-nie]], [[kern-en-feiterisiko-weerspreek-mekaar]],
 [[n-waarskuwing-moet-elke-broer-dek]].
+
+## 6 October 2026: the assert cannot see this, so give it a check that can
+
+It happened again, and worse, because the broken sentence said the **opposite** of the
+correction. My needle ended at `...nagegaan en al` and the remaining `bei bly` fused to the
+end of the bracket I inserted:
+
+> daardie sin is nagegaan en al**[**DIE BAHA'I-VERTALING-SIN IS … GESKRAP…**]** bei bly, dus
+> is dit die gevolgtrekking TUSSEN hulle wat gekeer moet word
+
+So the living sentence still ordered that **both** language sentences stay — the very order
+the fact check had reversed — and the bracket's own claim that the sentence had been *taken
+out of* this field was false: it had been inserted *into* it. **The assert passed, because
+the match was unique.** A coverage checker found it.
+
+**The check that works**, now run over every string in the spec after any edit:
+
+```python
+def binne_woord(teks):
+    """Any '[' with a letter immediately before, or ']' with a letter immediately after."""
+    return (re.findall(r'.{0,30}\w\[.{0,30}', teks) +
+            re.findall(r'.{0,30}\]\w.{0,30}', teks))
+```
+
+Assert it returns nothing. It is cheap, it has no false positives in this codebase, and it
+catches the one thing an equality assert cannot: that the *result* is still prose.
+
+**And the rule the needle must follow:** anchor it at sentence boundaries — start at a capital
+or after `. `, end at the full stop — and never let a replacement begin or end inside a word.
+When in doubt, locate the sentence by `index()` of its opening and of its closing phrase and
+replace the whole span, which is what finally worked here.
+
+Two neighbouring traps from the same session:
+
+- **A record marker protects only the kind of content it names.** A marker saying "no NUMBER
+  below this is a budget or a measurement" does not neutralise an order below it that contains
+  no number. That order survived three sweeps because the marker looked like it covered the field.
+- **A bracket that reduces a pair to one leaves the surrounding prose in the plural.** Cosmetic
+  — a deleted sentence cannot return — but a list that speaks of two where one stands sends a
+  reader hunting for the second.
