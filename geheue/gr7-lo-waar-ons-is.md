@@ -98,3 +98,53 @@ flight per lesson ([[moenie-n-skrywer-oor-n-lopende-nasien-stuur-nie]]).
 Grades 8 and 9 have not started and must not until Grade 7's source faults are out — every
 fault left in a Grade 7 spec is one the Grade 8 planner will read. Finishing Grade 7 is also
 what makes a Life Orientation words-per-hour rate measurable at all.
+
+---
+
+## 6 October 2026, end of a very long day
+
+**18 of 48 signed off** (Self 8 and Grondwetlike regte 9 added), 48 lessons after Self 8 was
+split in two. Nothing in the grade is unchecked.
+
+### What the day actually was
+
+Three lessons absorbed nearly all of it — Self 8/9, GR 9, Werk 6 — and the pattern is worth
+carrying forward: **the drafts converged quickly and I generated most of the remaining work
+myself, in the specs.** GR 9 took twelve coverage passes; its draft has been unchanged and
+complete since the eighth, and every pass after that was me repairing my own repairs. Each
+repair was correct and each left something behind:
+
+- a note added instead of the losing field's own sentence amended — six fields in GR 9, five in
+  Werk 6, and then **again in a requirement I had just written** ([[n-spek-se-dieselfde-ding-in-twee-velde]])
+- a marker covering neither what stood before it nor after it ([[die-merker-begrawe-die-bestelling]])
+- three shapes of broken prose from replacing a span and not re-reading it
+  ([[n-laslap-binne-n-sin-breek-die-veld-as-prosa]])
+
+All three now have mechanical checks that run in the same script as the edit. Use them.
+
+### Lessons closed today, and the shape of each
+
+- **Self 8** (387 w) — the respect half. Signed off, delivered, in the outbox.
+- **Self 9** (843 w, "Jou liggaam, jou ja") — the body-privacy half, budget 843 with a ceiling
+  exception on Lampies' call rather than a second split. Coverage clean; **its ninth fact check
+  reversed an order of mine** and that correction is still the most important thing in the
+  grade: see [[n-kind-kan-nie-n-grootmens-se-bevoegdheid-toets-nie]].
+- **GR 9** (802 w) — signed off after the language question finally resolved to *a property of
+  the whole set belongs in the opening block*.
+- **Werk 6** (851 w) — coverage clean, fifth writer round done, facts outstanding.
+
+### One loose pointer in GR 9, for whoever opens it next
+
+In the language item, "TWEE VALSTRIKKE IN DAARDIE EEN SIN" follows "DIE ARABIES-SIN BLY in die
+Islam-blok", and the two traps named belong to the **opening block's** set-level sentence, not
+to the Arabic sentence that is the nearer antecedent. A checker found it and correctly did not
+make it a finding: both halves are prohibitions, so whichever sentence a reader attaches them
+to, nothing forbidden gets ordered. **It is left unfixed on purpose** — a spec edit would have
+cost the clean coverage check its validity, and the lesson was ready. Fix it the next time that
+lesson is legitimately open.
+
+### What is next
+
+Fourteen lessons need only a fresh check pair and all of them gate clean. One shared term still
+drifts (the social-worker wording, two lessons). Werk 6 needs its fact check. And Grades 8 and 9
+remain unstarted — finishing Grade 7 is still what makes an LO words-per-hour rate measurable.

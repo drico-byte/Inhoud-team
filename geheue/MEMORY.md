@@ -144,3 +144,4 @@
 - [A child cannot test an adult's credentials](n-kind-kan-nie-n-grootmens-se-bevoegdheid-toets-nie.md) — three rounds on one safety sentence; give the child a test on the situation, never a fourth credential.
 - [A containing phrase makes a contrast](n-inperkingsfrase-maak-n-kontras.md) — in a parallel set it marks the feature as absent from the siblings; coverage praised the phrase, facts condemned it.
 - [A fix that offers an option picks the next fault](n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout.md) — three times in one day; decide instead of offering, and say what the choice must survive.
+- [Splitting a lesson, and what it exposes](n-les-verdeel-wat-dit-blootle.md) — the split dissolved the ceiling exception, but an aggregate register measure hid a hard failure in one half.

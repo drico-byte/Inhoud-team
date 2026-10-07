@@ -1,0 +1,115 @@
+{
+  "les": "gr7/lewensorientering/selfontwikkeling-in-die-samelewing/les-14",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:bda252367b0b47f92af47c7fd69bdb3e",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:adb870a328fe15740a7fb56f1cac6288"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-23T14:03:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:63834db46e38febde52edd933be71ae6",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-23T14:03:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 655,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-23T14:56:59+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4abd1671b9e2b5316d164b9b18ea9ceb",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-23T14:57:01+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 671,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-28T08:38:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:adb870a328fe15740a7fb56f1cac6288",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-28T08:38:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 703,
+      "begroting": 600,
+      "failures": [
+        "Study text 703 words, above budget ceiling 690 (target 600) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-28T08:38:30+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 703 words, above budget ceiling 690 (target 600) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-28T09:07:56+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:061d7c96e687ba1009e3ec2971aeeb73",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-28T09:07:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 646,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-29T06:50:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8205914e1aac179699fb5c83613c6996",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-29T06:50:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 681,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-29T07:19:28+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:bda252367b0b47f92af47c7fd69bdb3e",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-29T07:19:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 681,
+      "begroting": 600,
+      "failures": []
+    }
+  ],
+  "spek_hash": "sha256:953d8c7a42029eb797006368dbf0ec53",
+  "hek_konteks": {
+    "graad": 7,
+    "begroting": 600
+  }
+}
