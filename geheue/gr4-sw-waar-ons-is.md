@@ -191,3 +191,17 @@ so commit them first. The hand-check sign-off tool has no path for a ruled escal
 send the ruling back to the checker and have it re-derive its verdict. Staging the
 gitignored outbox kills a commit; check the hash. Don't `git add -A`. See
 [[n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout]], [[toets-n-parallelle-stel-as-n-stel]].
+
+## 7 October 2026, end of session (usage limit)
+
+**25 of 30 Geography signed off** (settlements 7, farming 1-6, water 1, 2, 4, 5), all delivered and in
+lees/gr4/sosiale-wetenskappe-geografie with BESKERMDE-WOORDE.md. Shared wordings reconciled across all 60
+lessons (no drift; 'rooster' open, a delivered-lesson question for Lampies).
+
+**Open:** water 6 - writer revising round 4 (drop the 'four ways' count; borehole is a source, not the
+opposite of a tap); spec already fixed and refreshed, then both checks. Water 3, 7, 8, 9 - waiting on
+Lampies' naming ruling: invloei vs afloop, watersuiweringsentrum vs -aanleg (CAPS), riool vs rioolvuil
+(CAPS). Recommended: established word as main name, video's word mentioned once. Water 7 rebuilt to four
+CAPS stops with pumps along the way (video's pump station as stop 4 is wrong). Video errors to report:
+'reen is die eerste bron', 'n meer is natuurlik', 'min of geen sout', vol wolk wat reen, San 'koel en veilig',
+pompstasie as stop 4, produk = net plante/diere.

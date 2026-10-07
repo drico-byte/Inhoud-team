@@ -3,9 +3,14 @@
   "skema_weergawe": "1.0",
   "konsep_hash": "sha256:20c4175a79520c9245f285e1959d134c",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:20c4175a79520c9245f285e1959d134c"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "dit hang af van waar jy woon": 1,
+    "titel; nie almal draai 'n kraan oop nie; dit han": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -63,9 +68,48 @@
       "woorde": 369,
       "begroting": 400,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-07T11:20:54+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-07T11:20:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-07T11:20:54+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "dit hang af van waar jy woon",
+        "titel; nie almal draai 'n kraan oop nie; dit han"
+      ],
+      "tally": {
+        "dit hang af van waar jy woon": 1,
+        "titel; nie almal draai 'n kraan oop nie; dit han": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-07T11:20:54+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Die vier maniere in hierdie les is 'n rivier of stroom, 'n f — corrected: Die opsommingsin moet ooreenstem met wat die les aanbied: of hy word afgebaken sodat dit duidelik is waarom die gemeenskapskraan nie by die vier is nie (byvoorbeeld dat dit die vier maniere is waaroor die les se eie blokke handel), of die telling word nie as 'al die maniere in hierdie les' gestel nie. Die feit om te bewaar: by 'n gemeenskapskraan haal mense ook self hul water, en dit is in Suid-Afrika die algemeenste manier om dit te doen.",
+        "[feite] Die stel as geheel: die titel 'Wanneer jy self jou water moe — corrected: Moenie die boorgat as die teenoorgestelde van 'n kraan of as altyd 'n haal-dit-self-manier aanbied nie. Die ware stelling: ondergrondse water uit 'n boorgat word soms by 'n pomp in die gemeenskap gehaal en huis toe gedra, en soms deur pype na die krane in huise gepomp - op plase, en ook in dorpe soos Beaufort-Wes, waar die meeste kraanwater uit boorgate kom. Die titel, die eerste blok en die opsomming moet nie saam meer beweer as dit nie."
+      ]
     }
   ],
-  "spek_hash": "sha256:5d80efee2ef4c10adeb02ffb203daf4a",
+  "spek_hash": "sha256:9d21e03ea1469bc7d78a7a62d0dadd2b",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
