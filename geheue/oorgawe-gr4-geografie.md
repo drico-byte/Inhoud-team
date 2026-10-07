@@ -7,7 +7,7 @@ metadata:
 
 # Handover: Grade 4 Sosiale Wetenskappe — Geografie
 
-**7 October 2026.** Everything below is pushed to `main`; the repository is in
+**7 October 2026, final.** Everything below is committed; the repository is in
 sync and there is no uncommitted work.
 
 ---
@@ -21,7 +21,7 @@ below.** Nothing else in this subject is outstanding.
 | Sub-topic | Term | Planned | Signed off | Left |
 |---|---|---|---|---|
 | Plekke waar mense woon | 1 | 7 | 6 | **1** (lesson 7) |
-| Kaartvaardighede | 2 | 8 | 8 | — complete |
+| Kaartvaardighede | 2 | 8 | 8 | — complete (lesson 8 re-signed 7 Oct with North America placed) |
 | Voedsel en boerdery | 3 | 6 | 0 | **6** |
 | Water in Suid-Afrika | 4 | 9 | 0 | **9** |
 
@@ -134,26 +134,22 @@ for the writer.
 
 ---
 
-## 4. Waiting on Drico — nothing is blocked by these
+## 4. Waiting on Drico
 
-- **North America has no position in map skills lesson 8.** The lesson names
-  seven continents and places five. Placing it needs a second intermediate
-  direction where the spec allows one, and both CAPS and the video name the same
-  five. There is budget room (327 of 400), so the obstacle is scope, not cost.
-  The promise was narrowed instead, which is reversible.
-- **Does any province name sit outside its own borders on the real classroom
-  map?** Map skills lesson 7 carries a fallback step for that case. One check
-  supported it on general cartographic practice; another found no South African
-  map that does it for a province name. Not false, possibly empty, about twenty
-  words. Anyone holding the map settles it in seconds.
-- **Should a story block be a reading-piece rather than a study block?** The
-  standard's chunking exemption for continuous text is attached to the
-  reading-piece type, so the gate warns on every story block over 110 words.
-  Splitting a story to fit would rebuild the multi-block shape that caused
-  thirteen rounds. If this recurs across the sub-topic the clean fix is a ruling
-  about block type, not a cut. **This is a change to the standard.**
+**Nothing in map skills. All three questions open at the last handover were
+decided on 7 October and are recorded in section 5.**
 
----
+Two items are open on settlements lesson 7, and neither blocks the other fifteen
+lessons:
+
+- **The two buckets.** Forty to fifty litres, read literally, gives a family of
+  three 13–17 litres per person per day — below South Africa's own 25-litre basic
+  standard. The text does not pin how many trips, so it can also be read
+  innocently.
+- **The family shapes.** The rural boy lives with his mother and sister; the
+  urban girl has a father at a bank and a mother teaching. That lays a wealth
+  difference on top of a place difference, and a nine-year-old attributes the
+  wealth to the place. A stereotyping judgement, not a fact.
 
 ## 5. Rulings made 5–7 October — these bind
 
@@ -169,6 +165,22 @@ for the writer.
   kind of place (Drico, 6 Oct).
 - **Settlements lesson 7 is carried by its stories**, not by a comparison of
   settlement types (Drico, 6 Oct).
+- **North America is placed** in map skills 8, north-west of Africa (7 Oct). CAPS
+  asks for the continents' names *and where they appear*, and the lesson named
+  seven while placing five. The blocker was our own rule, which forbids
+  intermediate directions **as a topic** while already permitting one as a plain
+  place-indicator; a second word used the same way is the same kind of use. The
+  scope rule now permits two, and the topic ban is unchanged.
+- **The fallback step stays** in map skills 7 (7 Oct). The sentence is true and
+  hedged, the practice is documented for small polygons, and the uncertainty was
+  only whether the case occurs on one particular map. The name sentence already
+  says "usually", so the lesson admits exceptions and the step says what a child
+  does about one.
+- **Where CAPS itself asks for a story, that block is a `leesstuk`** — in any
+  subject, not only where a reading is read for its own sake (7 Oct). Written
+  into the standard. The type is already exempt from the chunking guidance for
+  exactly this reason, and splitting a story to fit the guide would rebuild the
+  multi-block shape that cost settlements 7 thirteen rounds.
 
 ---
 
@@ -182,10 +194,23 @@ for the writer.
 - **A fact checker argued the shared `eiland` wording is itself wrong** — that
   size is the whole distinction. That argues against the shared wording rather
   than one lesson, and a third wording is worse than leaving it alone.
+- **A size-based `eiland` wording would be inert everywhere, not just in lesson
+  8.** A fact checker proposed lesson 8 adopt lesson 2's size-based rule, then
+  withdrew it after testing: lesson 8 never says which continent is the smallest,
+  so that rule there makes Australia an island against the lesson's own list two
+  blocks above. The symmetry that settles it — lesson 2 gives no list of the
+  seven, so lesson 8's rule would be equally inert *there*. **Each lesson carries
+  the form that is operable inside it, and that is not drift.** If the shared
+  wording is ever rebuilt around size, whichever lesson carries it must state
+  which continent is smallest or give areas; as the two lessons stand, neither
+  does.
+
 - **A cosmetic cleanup** in map skills lesson 7's budget note: a removal
   explanation was patched inside an item, so the line reads as though the wrong
   half was struck. Nothing is contradicted. Batch it with the next substantive
-  edit rather than spending a coverage re-run on it.
+  edit rather than spending a coverage re-run on it. **The same applies to two
+  rationale sentences in map skills 8** that still cite the draft as measuring
+  327 words, which was the figure before the sixth line went in.
 
 ---
 
