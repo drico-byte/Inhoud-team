@@ -109,9 +109,9 @@ wat oorbly is oorgegee. Die hele vak is dus **44 van 60**.
 | Water in Suid-Afrika | 4 | 9 | 0 |
 
 Die twee onbegonne subonderwerpe het **goedgekeurde spesifikasies** en is gereed
-vir die skrywer. Die volledige oorgawe staan in die repo as
-`geheue/oorgawe-gr4-geografie.md` — dit is die eerste oorgawe-nota wat ons het,
-en dit reis saam met die push.
+vir die skrywer. Die oorgawe-nota is op 7 Oktober deur die ontvangende rekenaar
+gelees en uitgevee sodat die derde rekenaar dit nie as sy werk optel nie; wat
+daarvan oorbly, staan in die afdeling hieronder.
 
 **Drie vrae wag op Drico:** die plaas-sin ("Op baie plase plant die mense self 'n
 deel van hulle kos" — agt rondtes oorleef, geen bron meet dit vir huishoudings wat
@@ -134,3 +134,60 @@ beskermde-woordelys, want die departement se eie bewoording is presies die
 **Die duurste patroon van hierdie stuk werk:** les 7 het SES hersienings gevat en
 les 8 VIER, en byna elke keer was die vorige regstelling die oorsaak van die
 volgende bevinding. Sien [[n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout]].
+
+
+## Taken over on this machine, 7 October 2026 — what the handover carried
+
+**14 of 30 signed off** (map skills 8/8, settlements 1-6). Left: settlements 7, Voedsel
+en boerdery 1-6, Water in Suid-Afrika 1-9. Both unstarted sub-topics have approved specs.
+The handover note itself was deleted once read, on Lampies' instruction.
+
+**Settlements 7 ("Dieselfde behoeftes, verskillende maniere") — thirteen fact checks, and
+why.** Almost every finding was about the *arrangement*: sentences that together imply a
+false ranking between places. Four restructures, three chosen by the operator, each solving
+one fault and making the next. CAPS's bullet for this lesson asks for **STORIES** of how
+people in different places meet their needs; the four settlement types are lesson 1's
+bullet. Drico (6 Oct): **the lesson is carried by its stories** — a lead-in naming no
+place, then Thabo's story and Aisha's, about 135 words each. Do not restructure again.
+
+At handover: gated 345/400, coverage GOEDGEKEUR, facts MENS_NODIG with nine contradictions.
+Three are plain errors: clinic shown as rural-only (urban access is far better, rural is
+the gap), minibus taxis as urban-only (the main rural transport), walking to school as
+rural-only (59.4% of all learners walk; Gauteng second-highest). The rest are the pair
+ranking: the lead-in declares water and food the needs, Aisha's tap runs at once while
+Thabo carries buckets; his advantages sit outside the declared frame and her disadvantages
+never touch her household; the lead-in names three tap arrangements while the stories show
+two; "days without water" with no story carrying it; the communal tap as rural-only (it is
+as typical of urban informal settlements); three "party" quantifiers for a ~45/30/10 split.
+**Two items left for a person:** two big buckets (40-50 L literally gives a family of three
+13-17 L a person a day, under the 25 L basic standard) and the family shapes (single mother
+rural vs banker-and-teacher urban lays wealth on top of place). The text says "op die
+platteland", not the video's "klein dorpie" — Drico: dorpie is just the diminutive of dorp.
+
+**Rulings 5-7 October that bind:** no "how a map marks a capital"; Lesotho unmentioned in
+the province method; TWO oceans along the coastline; dorpie = small dorp; settlements 7 is
+carried by its stories; North America placed in map skills 8 (two intermediate directions
+allowed as plain place-indicators, still banned as a topic); the fallback step stays in
+map skills 7; **where CAPS asks for a story, that block is a `leesstuk`** (any subject, in
+the standard).
+
+**For year-end reconciliation:** `eiland` is worded two ways (lesson 2 glossary: smaller
+than the smallest continent; lesson 8 study text: not one of the seven) — not drift, each
+form is the one operable inside its lesson, and the drift sweep cannot see it. Cosmetic:
+map skills 7's budget note reads as if the wrong half was struck, and two rationale lines
+in map skills 8 still cite 327 words — batch with the next real edit.
+
+**Traps, in the order they bite.** In a parallel set, whatever appears in exactly one item
+reads as what makes it different — uniformity is the only stable state. Don't close a
+fault with an OPTION; decide. Twenty-three stale orders in two days: a correction lands in
+the field the finding named while a neighbour still orders the old form; a correction
+written ABOVE an old order does not stop it; when a governing rule or a structure changes,
+every order written under it is suspect and shares no wording with the change. Exact-string
+guards fail on capitals, accents, dashes — anchor on short fragments, assert against the
+opening line.
+
+**Tooling.** The merge helper pushes as its last step. The gate writes the append-only logs,
+so commit them first. The hand-check sign-off tool has no path for a ruled escalation —
+send the ruling back to the checker and have it re-derive its verdict. Staging the
+gitignored outbox kills a commit; check the hash. Don't `git add -A`. See
+[[n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout]], [[toets-n-parallelle-stel-as-n-stel]].

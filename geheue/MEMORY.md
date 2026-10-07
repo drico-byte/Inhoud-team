@@ -34,7 +34,7 @@
 - [A corrected error returns in a different costume](n-regstelde-fout-kom-in-n-ander-gedaante-terug.md) — write down the false CONCLUSION, not the false words.
 - [A fix disturbs its neighbours](n-regstelling-ontwrig-sy-bure.md) — seven times in one day; always ask what the fix disturbed, not whether the finding is gone.
 - [Maths: the video came first](wiskunde-video-eerste.md) — text fits an existing video; worked examples and an arithmetic check still to build before number topics.
-- [Gr 4 SW: where we are](gr4-sw-waar-ons-is.md) — 16 of 30 signed off 22 Sep 2026; Drico's ceiling ruling (450 holds the MEASURED lesson) and the two closed questions.
+- [Gr 4 SW: where we are](gr4-sw-waar-ons-is.md) — History 30/30; Geography 14/30 taken over here 7 Oct 2026, with settlements 7's thirteen rounds and the handover's traps.
 - [Gr 4 NWT: where we are](gr4-nwt-waar-ons-is.md) — Term 1 done (1-8), Term 2 measured (9-17, now nine lessons), Term 3 checked (18-24).
 - [When the book covers fewer lessons than we write](meting-dek-minder-as-die-lesse.md) — don't divide the measurement evenly; it robs the lessons the book does cover.
 - [The reference example is never fact-checked](die-verwysingsles-word-nooit-nagegaan.md) — every writer in every subject reads it and nothing checks it; two false mechanisms came from it in one day.
