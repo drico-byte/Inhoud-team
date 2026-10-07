@@ -428,7 +428,12 @@ def voorgeskrewe_omskrywings(les):
             if len(v) == 1 and myne[t] == sorted(v)[0]]
 
 
-OPDRAG = """Jy doen 'n TAALNASIEN op 'n Afrikaanse Graad 4-les. Jou werk is grammatika,
+# Die graad word INGEVUL en nie geskryf nie. Hierdie reel het "Graad 4-les" hardgekodeer
+# gedra sedert die eerste graad wat hierdie skrip gebruik het, en die blok gaan na 'n
+# BUITE-nasiener wat register beoordeel - 'n Graad 7-les wat as Graad 4 aangebied word,
+# vra om vereenvoudiging wat die les nie moet kry nie. Die kop twee reels laer het die
+# regte graad al die tyd gewys, wat die fout makliker gemaak het om te mis.
+OPDRAG = """Jy doen 'n TAALNASIEN op 'n Afrikaanse Graad {graad}-les. Jou werk is grammatika,
 idioom en direkte-vertaling-foute. Die inhoud, die feite en die struktuur is
 klaar nagegaan deur ander nasieners en is nie jou werk nie.
 
@@ -452,7 +457,7 @@ def bou(les_pad):
     sub_gids = os.path.basename(os.path.dirname(les_pad))
 
     reels = []
-    reels.append(OPDRAG)
+    reels.append(OPDRAG.format(graad=les.get("graad")))
     reels.append("")
     reels.append("=" * 72)
     reels.append(f"LES: {les.get('titel')}   ({les.get('vak')}, Graad {les.get('graad')})")

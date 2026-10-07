@@ -63,3 +63,33 @@ or compare a timestamp, so that doing nothing cannot look like doing the work.
 all before re-reading your own change.** I re-read the edit twice and went looking
 for a second renderer, when the answer was that the file on disk was from an hour
 earlier. `find -mmin` answered in one command what code-reading did not.
+
+## 29 September 2026: 'n veeg wat my eie toetse geslaag het en steeds vals skoon gegee het
+
+I wrote a sweep to find one claim across every spec field, precisely because the same
+claim had escaped a source fix three times in one day. I tested it end to end against
+three cases whose answers I knew, and it passed all three. A coverage checker then
+found an occurrence it had missed, and a second one it had wrongly marked as covered.
+
+Two bugs, and both were in the part I had not thought to test:
+
+- **It swept a whitelist of field names.** The missed occurrence sat in a field whose
+  name was not on the list. A sweep that silently skips fields it does not recognise
+  reports a clean that means nothing. It now reads every field of every object.
+- **It judged "covered" by distance** — a withdrawal marker within 1800 characters
+  back. In an 18 KB field a marker that far back usually belongs to a different
+  sentence, so a live order sitting just after a closed bracket was reported as a
+  record. It now tracks bracket depth: covered means inside an unclosed bracket that
+  itself carries a marker.
+
+**What my three tests had in common.** Each expected either zero live hits or exactly
+one, and each looked in a field the whitelist happened to include. I never tested a
+case whose right answer was *two*, and I never tested a field name I had not written
+down myself.
+
+**How to apply.** When the tool's job is to find *every* occurrence, test it on a case
+where you know it must find more than one, and on one that lives somewhere you did not
+enumerate. Prefer walking every field to naming the fields. And where a check answers
+"this is only a record", make that answer structural rather than a distance guess — a
+false "covered" is worse than no sweep, because it is the reassurance that stops you
+looking.

@@ -50,3 +50,75 @@ one had to be re-verified against them. Ask in the first brief.
 Related: [[elke-sin-waar-die-prentjie-vals]], [[n-weglating-verander-sy-bure]],
 [[n-begrip-word-alleen-gelees]] (the mirror image — read one entry with everything else
 deleted; this one is read everything together).
+
+---
+
+**Second addendum, same day: testing the set finds the fault, and then the FIX
+creates the next one. Four rounds running.**
+
+The note above says to ask a fact checker to read a parallel set as a set. That works
+— it found five faults where sentence-level reading found one. What it does not do is
+stop the repair from producing the next fault, and in Gr 4 Geography's settlements
+lesson 7 that happened **four times in a row**, each time with a different subject and
+each time caused by the previous correction:
+
+1. Electricity named only in the city block → electricity arrives with size.
+2. Fixed by narrowing the city's water claim → the city alone shared a tap, so bigger
+   places looked worse served.
+3. Fixed by giving the farm a buying route → the farm alone bought nothing before, then
+   alone produced nothing, so a farm fed itself and the shops' food came from nowhere.
+4. Fixed by moving the animals onto farm production → animals appeared once in the whole
+   lesson and only on the farm, so animals belong to farms and families grow plants.
+
+Every single one is the same mechanism: **in a parallel set, whatever appears in exactly
+one item is read as belonging to what makes that item different.** Adding to one block,
+or removing from one block, creates a new singleton — so a repair aimed at one asymmetry
+manufactures the next.
+
+**The rule that stops the loop**, now written into that lesson's spec:
+
+> Before adding anything to one item of a parallel set — or taking anything out of one —
+> ask whether it is **distinctively true** of that item. If it is not, it must appear in
+> at least one other item too.
+
+Two practical consequences.
+
+* **Brief the repair with the rule, not just the finding.** Handing a writer "fix the
+  animals" invites a fifth round. Handing it the rule lets it check its own work, and the
+  brief can ask it to report what it found when it applied the rule to its own revision.
+* **The hedge does not travel.** A quantifier two sentences back, attached to a different
+  subject, does not reach the sentence you are fixing — "on many farms" hedged what the
+  *people* plant and did nothing for what the *farm* produces. A generic definite singular
+  ("die plaas") reads as *every*. Put the quantifier on the sentence that needs it.
+
+Related: [[n-regstelling-ontwrig-sy-bure]], [[n-waarskuwing-moet-elke-broer-dek]],
+[[n-versagting-vat-die-algemene-helfte-saam]].
+
+---
+
+**Third addendum, 5 October 2026, a different subject: the rule held, and I did not use it.**
+
+Gr 7 LO, the lesson giving seven religions a block each. **Three rounds on one block**, and
+each repair caused the next finding — exactly the loop the second addendum describes:
+
+1. The Baha'i block said nothing about why it differs from its siblings → add the reason.
+2. The reason was framed with a containing phrase, which in a set marks the property as that
+   member's own → drop the contrast, state the distinctive fact
+   ([[n-inperkingsfrase-maak-n-kontras]]).
+3. The distinctive fact stacked on "his words were written down in his lifetime" — the only
+   block saying *when* its founder's words were written, while four others say orally-first.
+   A learner infers only one of the seven did so, which is false.
+
+**Every one is the singleton mechanism**, in a subject with nothing in common with
+settlements. The rule generalises.
+
+**My failure was not the rule — it was where I put it.** I briefed the writer with the
+*finding* three times, which the second addendum explicitly warns invites another round. The
+rule is now written into that lesson's spec, not into a brief, because **a rule in a brief
+lives one round and a rule in the spec is read by everyone who opens it afterwards.** Do that
+for any lesson that contains a parallel set, at the first finding rather than the third.
+
+One repair shape worth keeping: when the singleton cannot simply be removed because another
+block depends on it — the Christianity block needed the Baha'i time claim to explain why it
+gets no oral stage — the fix is to **give the property to a second member** rather than take
+it from the first. Checking it is true of that member is the whole job.

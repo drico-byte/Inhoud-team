@@ -377,7 +377,30 @@ def met_spek_konteks(spek, inskrywing):
 
     The entry's own keys win, so a lesson may still narrow anything.
     """
-    saam = {k: v for k, v in spek.items() if k != "lesse"}
+    # SPEC-LEVEL FIELDS A WRITER DOES NOT NEED. Lampies' decision, 28 September 2026.
+    #
+    # Every spec-level field is injected into every lesson's extract, which is what
+    # fixed the dangling cross-references described above. The cost grew quietly: by
+    # the third repair round a Grade 7 LO extract was 57 to 77 KB, and past about
+    # 50 KB a writer has previously been unable to reach the lesson itself. Roughly a
+    # third of that is the accumulated record of retracted decisions and closed check
+    # rounds -- `nagaan_reel`, `regstellingsronde_nota`, `konsep_feitetoets_nota` and
+    # their kin, differently named in every spec.
+    #
+    # Those records are not clutter: they are what stops a corrected fault being
+    # reinstated, and they must stay in the spec where a planner meets them. They are
+    # simply not a WRITER's reading. So a spec may declare its own record fields in
+    # `nie_vir_die_skrywer`, and they are left out of the extract.
+    #
+    # Declared in the spec rather than listed here on purpose. The field names differ
+    # per spec and always will, and a list in this file is a second place to keep in
+    # step -- which is the fault the injection above exists to fix. The omitted names
+    # are still reported in `_spek_vlak_velde_weggelaat`, so an agent can see that a
+    # field exists and ask for it, rather than concluding the spec is silent.
+    weglaat = set(spek.get("nie_vir_die_skrywer") or [])
+    weglaat.discard("lesse")
+    weglaat.discard("nie_vir_die_skrywer")
+    saam = {k: v for k, v in spek.items() if k != "lesse" and k not in weglaat}
 
     # The subject's agreed glossary wordings, injected rather than copied into
     # each spec. Three of these terms cross sub-topics, so no single spec can own
@@ -504,7 +527,19 @@ def met_spek_konteks(spek, inskrywing):
 
     saam.update(inskrywing)
     saam["_spek_vlak_velde"] = sorted(k for k in spek if k != "lesse"
-                                      and k not in inskrywing)
+                                      and k not in inskrywing
+                                      and k not in weglaat)
+    if weglaat:
+        saam["_spek_vlak_velde_weggelaat"] = {
+            "hoe_om_dit_te_lees": (
+                "Hierdie spek-vlak velde BESTAAN en is met opset NIE hier ingesluit nie: "
+                "hulle dra die rekord van teruggetrekke beslissings en van afgehandelde "
+                "nasienrondtes, wat 'n BEPLANNER nodig het en 'n skrywer nie. Hulle is "
+                "weggelaat omdat die uittreksel anders te lank word om te lees. Hulle is "
+                "GEEN opdragte nie. As jy een van hulle nodig het, vra daarvoor - moenie "
+                "aanneem die spek is stil oor iets nie."),
+            "velde": sorted(weglaat),
+        }
     return saam
 
 
@@ -591,9 +626,15 @@ def argiveer(bron, les_id, siklus, naam):
 
 
 # ---------------------------------------------------------------- steps
-def hardloop_hek(les_pad, graad, begroting, uit, kaps_ure=False):
+def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None, kaps_ure=False):
     args = [les_pad, "--grade", graad, "--budget", begroting, "--json",
             "--log", P.GATE_LOG]
+    # The ceiling exemption travels from the SPEC to the gate, so the decision lives
+    # in one place. Without this the spec said "allowed, and here is why" while the
+    # gate went on printing "a person must cut it to 700 or fewer" -- and the tool
+    # wins that argument, because it runs on every pass and the field does not.
+    if plafon_vry:
+        args += ["--plafon-vry", plafon_vry]
     # Drico, 29 September 2026: a spec on the CAPS-hours basis is gated
     # differently -- ceiling planned+12%, under-supply warns instead of failing,
     # and no absolute per-grade ceiling. Specs without the marker are untouched.
@@ -963,9 +1004,15 @@ def stap(a, uit):
             "A true or missing value marks calibration material, which must never",
             "be published. Status stays konsep and the HTML team never receives it.")
 
+    # A lesson may be exempted from the per-grade word ceiling, one lesson at a time,
+    # and the exemption is declared in that lesson's own spec entry rather than here.
+    # The value is the REASON: it is printed in the gate's warning, so whoever reads
+    # the output sees whose decision it was and why, instead of an instruction to cut.
+    plafon_vry = les_inskrywing.get("plafon_uitsondering") or None
+
     # --- 3. the gate, BEFORE the checkers ----------------------------------
     if staat.get("hek") is None:
-        code, hek = hardloop_hek(les_pad, graad, begroting, uit,
+        code, hek = hardloop_hek(les_pad, graad, begroting, uit, plafon_vry,
                                  kaps_ure=spek.get("begroting_basis") == "kaps-ure")
         staat["hek"] = hek["verdict"]
         staat["hek_konteks"] = hek_konteks
@@ -984,6 +1031,21 @@ def stap(a, uit):
         les["status"] = "gated"
         P.skryf_json(les_pad, les)
         uit.step("status", "gated", ["measured and within band; ready for review"])
+
+        # A lesson that was already delivered and has come back for repair still has
+        # its PDF sitting in 'Voltooide lesse', where people browse finished work --
+        # and it is now a copy of text a checker has found wrong. Nothing removed it:
+        # the delivery folder is only rewritten at sign-off or by a hand-run backfill,
+        # and neither happens when a lesson is reopened. Three Grade 7 lessons sat
+        # there like that on 29 September 2026. This is the first moment the pipeline
+        # sees a reopened lesson, so it is where the stale copy goes.
+        try:
+            import voltooide_lesse
+            weg = voltooide_lesse.verwyder_verouderd(les, les_pad)
+            if weg:
+                uit.step("delivery", "stale copy removed", weg)
+        except Exception as e:  # never let housekeeping stop the pipeline
+            uit.step("delivery", "not checked", [str(e)])
 
     if staat.get("hek") == "FAIL":
         # A gate failure that was already reported and the draft has not changed.

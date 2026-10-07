@@ -1,0 +1,42 @@
+{
+  "verdict": "FAIL",
+  "titel": "Wanneer iemand 'n epileptiese aanval kry",
+  "graad": 7,
+  "vak": "Lewensoriëntering",
+  "budget": 350,
+  "checked_at": "2026-09-29T05:30:09+00:00",
+  "study": {
+    "words": 556,
+    "sentences": 26,
+    "mean_sentence_len": 15.0,
+    "median_sentence_len": 14.5,
+    "longest_sentence": 22,
+    "mean_syllables": 1.37,
+    "pct_polysyllabic": 6.9,
+    "pct_long_words": 0.5,
+    "commas_per_sentence": 0.58,
+    "list_words": 164
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 5,
+    "lys": 2,
+    "begrip": 3
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text 556 words, above budget ceiling 402 (target 350) — learners will revise the textbook instead",
+    "Study text: 0.58 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
+  "warnings": [
+    "Study block 2 ('Wat met hom gebeur en wie hulp r') 133 words (guide 30–110) — will overflow its section",
+    "Study block 4 ('Wanneer die aanval in water gebe') 141 words (guide 30–110) — will overflow its section",
+    "Study block 5 ('Bel ook as jy bekommerd is') only 26 words (guide 30–110)",
+    "Long words in study text with no 'begrip' entry: duidelikste, epileptiese"
+  ],
+  "notes": [
+    "Grade 7 register band is an ESTIMATE, not measured. Profile DBE past papers to replace it.",
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

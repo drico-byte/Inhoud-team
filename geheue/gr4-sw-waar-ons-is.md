@@ -95,3 +95,42 @@ terwyl 'n ANDER veld die ou vorm bly bestel. Sien
 [[die-korrigeerde-opdrag-bly-in-die-veld-staan]]. Die nasieners se lees-van-onder-af
 het elke een gevang.
 
+
+## Geografie, 6 Oktober 2026 — oorgegee aan 'n ander rekenaar
+
+Geskiedenis is lankal klaar (30/30). **Geografie staan op 14 van 30**, en al 16
+wat oorbly is oorgegee. Die hele vak is dus **44 van 60**.
+
+| Subonderwerp | Kwartaal | Beplan | Geteken |
+|---|---|---|---|
+| Kaartvaardighede | 2 | 8 | **8 — klaar** |
+| Plekke waar mense woon | 1 | 7 | 6 |
+| Voedsel en boerdery | 3 | 6 | 0 |
+| Water in Suid-Afrika | 4 | 9 | 0 |
+
+Die twee onbegonne subonderwerpe het **goedgekeurde spesifikasies** en is gereed
+vir die skrywer. Die volledige oorgawe staan in die repo as
+`geheue/oorgawe-gr4-geografie.md` — dit is die eerste oorgawe-nota wat ons het,
+en dit reis saam met die push.
+
+**Drie vrae wag op Drico:** die plaas-sin ("Op baie plase plant die mense self 'n
+deel van hulle kos" — agt rondtes oorleef, geen bron meet dit vir huishoudings wat
+OP plase woon); of Noord-Amerika 'n sesde posisielyn in kaartvaardighede les 8 kry
+(bestek, nie begroting nie — die les meet 327 van 400); en of enige provinsienaam
+werklik buite sy grense staan op die klaskaart, wat omtrent 20 woorde sou teruggee.
+
+**Drico se beslissings van 5 Oktober:** KABV vra NIE hoe 'n kaart 'n hoofstad merk
+nie — "hoe dit aangedui word" hang net aan die see-en-land-strepie — dus is daardie
+helfte heeltemal uit les 7; en Lesotho bly onvermeld, want die werkwyse begin by 'n
+naam wat die leerder reeds het.
+
+**My beslissing van 6 Oktober:** TWEE oseane langs die kus, nie drie nie, vir elke
+les wat oor die KUSLYN praat. Die omgewingsdepartement en die vloot se leerstelling
+se drie en beskryf die hele SEEGEBIED tot by die Prince Edward-eilande op omtrent
+46°S; KABV vra "name van oseane LANGS DIE KUSLYN". `twee oseane` is nou in die
+beskermde-woordelys, want die departement se eie bewoording is presies die
+"verbetering" wat 'n taalnasien sou maak — ná die laaste toets wat dit kon vang.
+
+**Die duurste patroon van hierdie stuk werk:** les 7 het SES hersienings gevat en
+les 8 VIER, en byna elke keer was die vorige regstelling die oorsaak van die
+volgende bevinding. Sien [[n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout]].

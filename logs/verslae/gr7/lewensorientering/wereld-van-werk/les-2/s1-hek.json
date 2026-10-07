@@ -1,0 +1,38 @@
+{
+  "verdict": "FAIL",
+  "titel": "Onthou wanneer jy dit nodig kry",
+  "graad": 7,
+  "vak": "Lewensoriëntering",
+  "budget": 600,
+  "checked_at": "2026-09-28T08:11:27+00:00",
+  "study": {
+    "words": 698,
+    "sentences": 49,
+    "mean_sentence_len": 14.2,
+    "median_sentence_len": 14,
+    "longest_sentence": 23,
+    "mean_syllables": 1.33,
+    "pct_polysyllabic": 5.9,
+    "pct_long_words": 0.7,
+    "commas_per_sentence": 0.18
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 7,
+    "begrip": 3
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text 698 words, above budget ceiling 690 (target 600) — learners will revise the textbook instead"
+  ],
+  "warnings": [
+    "Study block 3 ('Maak die boek toe en haal dit ui') 124 words (guide 30–110) — will overflow its section",
+    "Study block 5 ('Twee klein hulpmiddels vir 'n ka') 143 words (guide 30–110) — will overflow its section",
+    "Long words in study text with no 'begrip' entry: hulpmiddels, verspreiding"
+  ],
+  "notes": [
+    "Grade 7 register band is an ESTIMATE, not measured. Profile DBE past papers to replace it.",
+    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

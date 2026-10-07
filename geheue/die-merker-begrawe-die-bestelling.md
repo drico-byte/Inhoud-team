@@ -58,3 +58,33 @@ not the one I intend, the field is broken however correct its opening line is.
 
 Related: [[n-feiterisiko-is-nie-n-regstelling-nie]],
 [[my-regstelling-in-die-spek-was-self-die-volgende-fout]].
+
+## 6 October 2026: a marker covers what is INSIDE it — not before, not after
+
+Three times in one lesson, same mechanism, three different positions. A dated bracket records a
+withdrawal and the prose around it keeps ordering the old thing, because **the bracket's authority
+stops at its own delimiters.**
+
+- **After.** My bracket recorded the decision and closed, leaving two live sentences behind it —
+  the last being *"this waits on Lampies, nobody fixes it meanwhile."* Read as the order it is
+  written as, it forbade the very broadening the decision ordered.
+- **Before.** I then fixed the sentence after the bracket and missed the one in front of it,
+  which said nothing ordered the broadening and that the entry's current wording *was itself a
+  dated decision*. Under the precedence rule, a dated order is exactly what protects a wording —
+  so that sentence protected the form I had just replaced.
+- **Field scope.** Earlier the same day, a marker saying "no NUMBER below this is a budget or a
+  measurement" failed to neutralise a wordless order beneath it.
+
+**The rule, stated so it is usable:** a marker that withdraws an order must enclose, or stand
+immediately before, **the last sentence it affects** — and you must then read the sentences on
+*both* sides of it as live text. Checking only downstream is what cost the third round.
+
+**Why a checker finds these and I do not.** I read the field as the sequence of edits I made to
+it. A coverage checker reads it as a reviser meets it: top to bottom, brackets as parentheses, the
+living sentences as the order. That is also why the fix never belongs in the extract — a writer is
+given a path only to the extract, and the next refresh overwrites it.
+
+**One thing worth copying from that checker.** It found two *cosmetic* stalenesses and
+deliberately did not report them, on the grounds that a cosmetic spec edit would cost its own
+check a re-run — my own rule, applied back at me. It was right, and the right response was to fix
+them in the same pass as the real one, where they cost nothing.

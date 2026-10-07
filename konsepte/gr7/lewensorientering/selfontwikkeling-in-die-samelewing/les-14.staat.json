@@ -1,0 +1,113 @@
+{
+  "les": "gr7/lewensorientering/selfontwikkeling-in-die-samelewing/les-13",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:8c96cad5258ab790f6b71d25879c0288",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:d1dabb50b10d4cde7053916a6b522390"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-23T14:03:25+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c5b7ed8016d8923cc5f6ba925597737b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-23T14:03:27+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 597,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-23T14:56:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b29fb195eb31d0c342b5a4042497253b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-23T14:56:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 615,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-28T08:38:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1e88e931038356fb6cde2d930d233e40",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-28T08:38:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 659,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-29T06:50:40+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d1dabb50b10d4cde7053916a6b522390",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-29T06:50:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 696,
+      "begroting": 600,
+      "failures": [
+        "Study text 696 words, above budget ceiling 690 (target 600) — learners will revise the textbook instead",
+        "Study text: 0.4 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-29T06:50:40+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 696 words, above budget ceiling 690 (target 600) — learners will revise the textbook instead",
+        "Study text: 0.4 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-29T06:57:26+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 696,
+      "begroting": 700,
+      "failures": [
+        "Study text: 0.4 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-09-29T07:19:28+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8c96cad5258ab790f6b71d25879c0288",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-29T07:19:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 706,
+      "begroting": 700,
+      "failures": []
+    }
+  ],
+  "spek_hash": "sha256:aa34ff15cf4cef2e259c2ed17bbfab78",
+  "hek_konteks": {
+    "graad": 7,
+    "begroting": 700
+  }
+}

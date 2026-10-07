@@ -1,0 +1,123 @@
+{
+  "les": "gr7/lewensorientering/gesondheids-sosiale-en-omgewingsverantwoordelikheid/les-7",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:318a970c831865dffc03d688d898f6f4",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:e1d2d65672e08ca4866f908971484fa9"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-09-23T14:04:01+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0c27114971297bc9ff3969ea33ec3ee4",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-23T14:04:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 526,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-23T14:56:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:67fc79f9f63c32f3f75f03a59e1fec2d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-23T14:56:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 558,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-28T09:07:53+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:059e37a2685c808a1c647aceb1906824",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-28T09:07:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 568,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-28T10:54:08+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d29b184faca33ffb819219a279868fff",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-28T10:54:08+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 612,
+      "begroting": 540,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-28T13:11:28+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:e1d2d65672e08ca4866f908971484fa9",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-09-28T13:11:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 645,
+      "begroting": 555,
+      "failures": [
+        "Study text 645 words, above budget ceiling 638 (target 555) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-28T13:11:28+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 645 words, above budget ceiling 638 (target 555) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-09-28T13:12:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 645,
+      "begroting": 620,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-09-29T08:10:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:318a970c831865dffc03d688d898f6f4",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-09-29T08:10:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 654,
+      "begroting": 620,
+      "failures": []
+    }
+  ],
+  "spek_hash": "sha256:c6f1f9c07a7c52f41806141c732186dc",
+  "hek_konteks": {
+    "graad": 7,
+    "begroting": 620
+  }
+}

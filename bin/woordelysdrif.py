@@ -121,6 +121,23 @@ def jaarnommers():
     return uit
 
 
+def etiket(pad, jaar):
+    """A name a person can act on.
+
+    The year number is the best label, because it says which wording came first --
+    but a subject whose specs carry no `jaarnommer`, and which has no lesson index,
+    then prints every row as "les ?". That is the one thing the row is for. So fall
+    back to the sub-topic and the lesson's own number, taken from the path.
+    """
+    if jaar:
+        return "les %s" % jaar
+    deel = os.path.normpath(pad).split(os.sep)
+    nommer = re.sub(r"^les-|\.json$", "", deel[-1]) if deel else "?"
+    sub = deel[-2] if len(deel) > 1 else ""
+    kort = "".join(w[0] for w in sub.split("-") if w)[:4].upper()
+    return "%s les %s" % (kort, nommer) if kort else "les %s" % nommer
+
+
 def versamel(wortel, jare):
     """term -> {definition -> [(path, status, year number)]}"""
     terme = defaultdict(lambda: defaultdict(list))
@@ -419,9 +436,9 @@ def main():
         for term in sorted(oop):
             print(f"  {term}")
             for teks, waar in sorted(terme[term].items()):
-                for _, status, jaar in sorted(waar, key=lambda w: (w[2] or 10**6,)):
+                for pad_, status, jaar in sorted(waar, key=lambda w: (w[2] or 10**6, w[0])):
                     merk = "afgelewer" if status == "goedgekeur" else (status or "?")
-                    print(f'     les {jaar or "?"} ({merk}) "{teks}"')
+                    print(f'     {etiket(pad_, jaar)} ({merk}) "{teks}"')
             rede = oop[term].get("WAG_OP_DRICO") or ""
             if rede:
                 print(f"     -> {rede[:150]}...")
@@ -437,7 +454,7 @@ def main():
             for teks, waar in sorted(verkeerd.items()):
                 for pad_, status, jaar in sorted(waar, key=lambda w: (w[2] or 10**6, w[0])):
                     merk = "afgelewer" if status == "goedgekeur" else (status or "?")
-                    print(f'     nie:  les {jaar or "?"} ({merk}) "{teks}"')
+                    print(f'     nie:  {etiket(pad_, jaar)} ({merk}) "{teks}" -- {pad_}')
             print()
 
     # A two-meaning term reported in its own block, not folded into the one above:
@@ -490,7 +507,7 @@ def main():
             print(f'   "{teks}"')
             for pad, status, jaar in sorted(waar, key=lambda w: (w[2] or 10**6, w[0])):
                 merk = "afgelewer" if status == "goedgekeur" else (status or "?")
-                nommer = f"les {jaar}" if jaar else "?"
+                nommer = etiket(pad, jaar)
                 print(f"       {nommer:<8} {merk:<12} {pad}")
         print()
 

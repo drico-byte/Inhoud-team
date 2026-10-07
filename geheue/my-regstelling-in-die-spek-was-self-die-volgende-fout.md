@@ -85,3 +85,107 @@ check as new prose rather than treating it as a repair.
 Related: [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]],
 [[onsekere-ekstras-word-gesnoei]], [[die-ooreengekome-bewoording-kan-self-verkeerd-wees]],
 [[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]].
+## The sharpest instance: I wrote a legal claim into four fields as settled
+
+29 September 2026, Grade 7 LO. A fact check had found a lesson stating the route to a place
+of safety as *what usually happens*. That finding was right. My repair was not.
+
+I wrote **"the law REQUIRES a children's court order, and removal without one is allowed
+only where waiting would put the child in danger"** — and, because the false claim was
+already spread across several fields, I propagated my version into **four** of them over the
+course of the day while tidying. A later fact check against the Children's Act itself
+refuted it: the Act gives **two lawful routes side by side** (a court may order the removal;
+a designated social worker or police official may remove in an emergency without an order),
+nothing obliges anyone to seek an order first, and the court's role on the emergency route
+is review afterwards. The same check found that the emergency condition I had written as the
+whole test is **one of three** that must hold together.
+
+**Three things made this worse than an ordinary wrong guess:**
+
+1. **It read as verified.** I wrote it in the register of a correction — capitals, a date, a
+   named source for the *finding* — so every writer and reviser after me treated it as
+   settled law. A spec is read as settled; that is the whole point of
+   [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]], and I broke it on a legal claim
+   in a child-protection lesson.
+2. **Repairing one fault spread another.** The sweep that removed the frequency claim carried
+   my substitute into every field it touched. **A sweep multiplies whatever it is carrying** —
+   so what the sweep carries has to be checked *before* the sweep, not after.
+3. **I had the safer form available and did not use it.** The honest move was to say what
+   could be established and stop: that a court order is one route and an emergency removal
+   another. Instead I asserted a hierarchy between them that no source gave me.
+
+**How to apply:** when a fact check kills a claim, the replacement is *also* a claim. If it
+is a legal, medical or numerical one and no source in hand states it, write the finding and
+the gap — "this sentence cannot say X; what can be verified is Y" — and let a fact check
+confirm the replacement before it propagates. A correction that has not been checked is a
+new unchecked mechanism in the most trusted place in the repository.
+
+Same day, same shape, third time: a shared definition went through three forms in one day,
+each a genuine fact correction of the one before. Related:
+[[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]], [[spesifikasies-word-nooit-nagegaan]].
+---
+
+**29 September 2026, Gr 4 Geography map skills: the writer overrode my prescription and
+was right, on Afrikaans register I do not have.**
+
+A fact check could not settle "from above your eye falls *first* on the stem" — nothing
+establishes what a person notices first — and found something better underneath it: the
+lesson's three other view-from-above sentences named the *large* feature, while the
+apple's named only a small central detail, so the apple's roundness appeared nowhere in
+the lesson at all.
+
+The fault is "this sentence names the small feature where its siblings name the large
+one". That is what I should have written. **What I actually wrote into the spec was a
+word**: name the apple's *ronde omtrek*.
+
+The writer used *ronde vorm* instead and said why. In Grade 4 mathematics **omtrek is the
+measured distance around a shape**, so my word hands a nine-year-old a measurement as its
+first reading. And *vorm* is already the lesson's word for the shoe, the hat and the
+tabletop, so the four sentences now read as one pattern instead of three plus an oddity.
+
+Two things follow.
+
+* **The register argument is one I could not have made.** It is not that I chose a worse
+  synonym — it is that the choice depended on what a specific Afrikaans word means inside
+  a specific grade's other subject. Prescribing wording reaches past what I know.
+* **A prescribed word is obeyed silently.** The writer pushed back here and asked for the
+  spec to be settled; a faster one would have written *omtrek*, and nothing downstream
+  checks a noun against the Grade 4 maths curriculum. The gate counts it, coverage sees
+  the requirement met, and the fact checker finds the sentence true.
+
+The spec now asks for the large feature and leaves the noun alone. Related:
+[[moenie-self-inhoud-skryf-nie]], [[n-claim-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie]],
+[[die-spek-was-die-fout-sewentien-keer]].
+
+---
+
+**Addendum, 5 October 2026: widening a definition without reading its ARTICLE.**
+
+Gr 4 Geography, map skills lesson 7. A fact check found the glossary entry for `hoofstad`
+too narrow — "die dorp of stad van waar 'n PROVINSIE regeer word", read alone, excludes
+Pretoria, Cape Town and Bloemfontein as capitals of the country, and the lesson's own list
+names two of those three. I ordered it widened to "'n land of provinsie". The next fact
+check found the widened form **false**: the definite singular asserts there is exactly
+*one*, and South Africa has three capitals. Narrow to false in one day, in the field I had
+just rewritten.
+
+**The part worth carrying: a definition carries a COUNT claim in its article, and widening
+the SCOPE can switch that claim from true to false without touching a noun.** "Die dorp of
+stad van waar 'n provinsie regeer word" is fine — every province really is governed from
+one place. Extend the same sentence to cover a country and the identical article now
+asserts something false about the only country in the lesson. I changed what the
+definition *ranged over* and never re-read what it *said*.
+
+So when widening a definition, check the article against every member of the new range,
+not just the ones that prompted the change. Ask: does this phrasing claim *one*, and is
+that still true of everything it now covers?
+
+The second-order point is the same as [[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]], but
+sharper: the field I had **just** corrected was the one carrying the new fault, and my
+instinct was to treat it as settled because I had looked at it an hour earlier. A field is
+not safer for having been recently rewritten. It is more dangerous, because the rewrite is
+the newest untested thing in the spec and nothing downstream checks a spec at all
+([[spesifikasies-word-nooit-nagegaan]]).
+
+Related: [[n-versagting-vat-die-algemene-helfte-saam]], [[drie-maniere-om-n-bewering-reg-te-maak]],
+[[n-begrip-word-alleen-gelees]].
