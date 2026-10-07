@@ -271,3 +271,4 @@
 - [A fix that offers an option picks the next fault](n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout.md) — three times in one day; decide instead of offering, and say what the choice must survive.
 - [Splitting a lesson, and what it exposes](n-les-verdeel-wat-dit-blootle.md) — the split dissolved the ceiling exception, but an aggregate register measure hid a hard failure in one half.
 - [The refresh skipped farming](die-verversing-het-boerdery-oorgeslaan.md) — it found folders by kaps_subonderwerp, not the spec file; grep the extract for the new wording, never trust the count.
+- [Call the runner after a spec edit](roep-die-hardloper-na-n-spekwysiging.md) — before briefing coverage, or sign-off retires the fresh report as stale; restoring it is right.
