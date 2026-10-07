@@ -1,0 +1,74 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "dekking",
+  "prompt_weergawe": "dekkingsnasiener-v1.5",
+  "les": "Varswater wat jy sien, en varswater wat jy nie sien nie",
+  "kaps_punt": "Varswater in die natuur: reën, riviere, strome, vleilande, mere en ondergronds",
+  "verdict": "MENS_NODIG",
+  "spesifikasie_probleem": true,
+  "items": [
+    {
+      "tipe": "kern",
+      "verwysing": "In Suid-Afrika begin die meeste varswater in die natuur as REËN: dit vul riviere, damme en mere.",
+      "status": "teenwoordig",
+      "bewys": "Dit begin by die reën — in Suid-Afrika begin die meeste varswater as reën; vul riviere, damme en mere"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "RIVIERE vloei oor die land en voorsien mense, diere en plante van water.",
+      "status": "teenwoordig",
+      "bewys": "Van strome tot riviere — rivier vloei oor die land; mense, diere en plante kry water daaruit"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "STROME is kleiner waterlope wat dikwels saamvloei om groter riviere te vorm.",
+      "status": "teenwoordig",
+      "bewys": "Van strome tot riviere — stroom kleiner as rivier; klein strome vloei saam en vorm 'n groter rivier"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "'n MEER is 'n groot watermassa wat deur land omring word en MEESTAL vanself gevorm het. (Nie 'NATUURLIK gevorm' as deel van wat 'n meer IS nie ...)",
+      "status": "gedeeltelik",
+      "bewys": "'n Meer het vanself gevorm — teks se 'die meeste mere het vanself gevorm', maar die kop self stel dit sonder kwantor",
+      "aksie": "Die blok se teks is reg en moet bly soos dit is. Net die blok se KOP, \"'n Meer het vanself gevorm\", stel as reël dat 'n meer vanself vorm - presies die vorm wat hierdie kern-item terugtrek (mensgemaakte mere tel ook as mere). Gee die blok 'n kop wat óf die kwantor dra (soos die teks: die meeste mere) óf net die onderwerp noem sonder om te sê hoe 'n meer ontstaan. Moenie die woord 'natuurlik' of 'n ander absoluut daarvoor in die plek sit nie."
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "VLEILANDE is gebiede waar die grond vir lang tye nat bly. Hulle hou water terug, help om vloede te verminder, en is die tuiste van baie plante en diere. HIERDIE ITEM KRY 'n EIE SIN OF TWEE",
+      "status": "teenwoordig",
+      "bewys": "Vleilande — lank nat; hou water terug, loop stadiger uit, help vloede verminder; tuiste van plante en diere"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "ONDERGRONDSE WATER: baie water sit diep onder die grond, en mense pomp dit met boorgate uit. Die woord BOORGAT word hier net gebruik",
+      "status": "teenwoordig",
+      "bewys": "Water wat jy nie sien nie — water diep onder die grond in gaatjies en krake; met boorgate uitgepomp, boorgat nie omskryf"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "DIE ONDERSKEID TUSSEN 'n MEER EN 'n DAM ... 'n dam word deur MENSE agter 'n damwal gebou om water op te gaar ... die BERGING van water is les 5 se werk",
+      "status": "teenwoordig",
+      "bewys": "'n Dam is nie 'n meer nie — mense bou 'n damwal oor 'n rivier, water dam agter op; die meeste mere het vanself gevorm"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "'n SLOT WAT DIE LYS BYMEKAARBRING: al hierdie bronne word gebruik vir drinkwater, vir besproeiing en vir diere, en plante en diere in die natuur is ook daarvan afhanklik.",
+      "status": "teenwoordig",
+      "bewys": "Varswater vir almal — drink, besproeiing, boere se diere; plante en wilde diere ook afhanklik"
+    },
+    {
+      "tipe": "fokus",
+      "verwysing": "Lewer die derde deel van die 'waar kom dit vandaan'-antwoord: die ses plekke in die natuur waar die varswater werklik sit voordat mense dit kry.",
+      "status": "teenwoordig",
+      "bewys": "Al ses KABV-plekke elk in eie blok: Dit begin by die reën; Van strome tot riviere; 'n Meer het vanself gevorm; Vleilande; Water wat jy nie sien nie"
+    }
+  ],
+  "oortollig": [
+    {
+      "inhoud": "Strome en riviere loop dikwels in 'n meer in en bring varswater saam.",
+      "blok": "'n Meer het vanself gevorm",
+      "waarom": "Geen kern-item vra waar 'n meer se water vandaan kom nie; die meer-item vra net wat 'n meer is en dat die meeste vanself gevorm het."
+    }
+  ],
+  "opsomming": "Die konsep dek al agt kern-items, die fokusskakel en al vyf verwagte begrippe woordeliks volgens die gedeelde lys, maar die spesifikasie weerspreek homself: kern-item 7 se \"en 'n meer is NATUURLIK\" (en video_naat.let_op se \"'n meer (natuurlik)\") bestel steeds die absoluut wat kern-item 4 terugtrek en moet by die bron gewysig word, en die konsep se blokkop \"'n Meer het vanself gevorm\" dra daardie absoluut nog terwyl sy teks reg is (geen veld bestel 'n eli10-blok nie)."
+}
