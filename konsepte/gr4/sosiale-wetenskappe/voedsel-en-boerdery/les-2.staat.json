@@ -1,0 +1,59 @@
+{
+  "les": "gr4/sosiale-wetenskappe/voedsel-en-boerdery/les-2",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:b4ca9be50c913b26377b39c59fc020a2",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:9711465784a21a7978fb65a06a5b1f6f"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-10-07T08:15:40+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:9711465784a21a7978fb65a06a5b1f6f",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-07T08:15:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 358,
+      "begroting": 400,
+      "failures": [
+        "Study text: 0.38 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-10-07T08:15:40+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 0.38 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-10-07T08:16:45+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b4ca9be50c913b26377b39c59fc020a2",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-07T08:16:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 358,
+      "begroting": 400,
+      "failures": []
+    }
+  ],
+  "spek_hash": "sha256:a78fbc9f256a62c6efec866893a118f3",
+  "hek_konteks": {
+    "graad": 4,
+    "begroting": 400
+  }
+}
