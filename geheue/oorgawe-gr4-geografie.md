@@ -1,161 +1,251 @@
 ---
 name: oorgawe-gr4-geografie
-description: "Handover of Grade 4 Geography to another machine, 6 October 2026. What is finished, what is left, what is waiting on Drico, and the traps this sub-topic produced that the next machine will meet again."
+description: "Handover of Grade 4 Geography to another machine, 7 October 2026. The sixteen lessons still to do, what is waiting on Drico, and the traps this sub-topic produced — written so nothing is done twice."
 metadata:
   type: project
 ---
 
 # Handover: Grade 4 Sosiale Wetenskappe — Geografie
 
-**Written 6 October 2026**, handing over from the machine with the smallest token
-allowance. Everything below is pushed to `main`; the repository is in sync.
+**7 October 2026.** Everything below is pushed to `main`; the repository is in
+sync and there is no uncommitted work.
 
-## Where the subject stands
+---
 
-Grade 4 Social Sciences is **44 of 60 lessons signed off**. The History side is
-complete (30 of 30). Geography is **14 of 30**, and all 16 remaining lessons are
-in this handover.
+## 1. The one-line answer
 
-| Sub-topic | Term | Planned | Signed off | State |
+**Grade 4 Social Sciences is 44 of 60 signed off.** History is complete (30/30).
+Geography is **14 of 30**. **Sixteen lessons remain, and they are all listed
+below.** Nothing else in this subject is outstanding.
+
+| Sub-topic | Term | Planned | Signed off | Left |
 |---|---|---|---|---|
-| Kaartvaardighede | 2 | 8 | **8** | complete |
-| Plekke waar mense woon | 1 | 7 | 6 | lesson 7 drafted and gated, coverage clean, fact check outstanding |
-| Voedsel en boerdery | 3 | 6 | 0 | spec approved, nothing written |
-| Water in Suid-Afrika | 4 | 9 | 0 | spec approved, nothing written |
+| Plekke waar mense woon | 1 | 7 | 6 | **1** (lesson 7) |
+| Kaartvaardighede | 2 | 8 | 8 | — complete |
+| Voedsel en boerdery | 3 | 6 | 0 | **6** |
+| Water in Suid-Afrika | 4 | 9 | 0 | **9** |
 
-Both unstarted sub-topics have approved specs and are ready for the writer.
+---
 
-## Pick up here
+## 2. What is DONE — do not redo any of this
 
-**1. Settlements lesson 7, "Dieselfde behoeftes, verskillende maniere".** Drafted,
-gated, coverage GOEDGEKEUR. Its fact check has never completed — it was killed
-twice, once at a usage limit and once at a network error. It has already been
-through eight fact-check rounds, and the lesson's four place blocks (farm,
-village, town, city) are a **parallel set**: say so in the brief and ask for the
-set to be read as a set, or the round is wasted. See
-[[toets-n-parallelle-stel-as-n-stel]].
+- **Kaartvaardighede, all 8.** Signed off, PDFs built, delivered to the
+  finished-lessons folder and copied to the outbox. Lessons 7 and 8 were
+  finished on 5–6 October after six and four revision rounds respectively.
+- **Plekke waar mense woon, lessons 1–6.** Signed off and delivered.
+- **All of Grade 4 History, 30 lessons.** Finished earlier.
 
-**2. One question for Drico is open on that lesson** and blocks nothing else: the
-farm block says "Op baie plase plant die mense self 'n deel van hulle kos". Eight
-rounds have survived it, but no source measures own-food production by households
-*living on* farms, and "the people" is ambiguous between the farmer's household
-and the roughly 2.08 million farm dwellers. Keep, narrow, or cut.
+If a lesson's status says `goedgekeur`, it is done: draft, gate, both checks,
+PDF, delivery and outbox copy. Do not re-run checks on those.
 
-**3. Then the two unstarted sub-topics**, in term order.
+---
 
-## Open questions waiting on Drico
+## 3. What is LEFT — the sixteen
 
-- **The farm sentence**, above.
-- **North America has no position in map skills lesson 8.** The lesson names seven
-  continents and places five. Placing it needs a second intermediate direction
-  ("noordwes") where the spec allows one, and both CAPS's bullet and the video
-  name the same five. There *is* budget room — the lesson measures 327 of 400 —
-  so the obstacle is scope, not cost. The promise was narrowed instead, which is
-  reversible. Recorded in that lesson's fact-risk field.
-- **Does any province name sit outside its own borders on the map these learners
-  actually use?** Map skills lesson 7 carries a fallback step for labels printed
-  outside their province with a leader line. One fact check supported it on
-  general cartographic practice; another could find no map of South Africa that
-  does it for a *province* name, and the one official map it reached prints all
-  nine inside, Gauteng included. Not false, possibly just empty, about twenty
-  words. Anyone holding the classroom map settles it in seconds.
+### 3a. Settlements lesson 7 — "Dieselfde behoeftes, verskillende maniere"
 
-## Rulings made during this stretch — these bind
+**Status: drafted, gated at 345 of 400, coverage GOEDGEKEUR, fact check
+MENS_NODIG with nine contradictions. It needs a revision round and then both
+checks.**
 
-- **Drico, 5 October: CAPS does not ask how a map marks a capital, so it is
-  dropped.** The Term 2 content table puts five bullets under the
-  map-of-South-Africa topic and "hoe dit aangedui word" attaches only to the
-  sea-and-land bullet. Symbols and keys are a separate three-hour topic about
-  large-scale maps, which lessons 4 deliver. Map skills lesson 7 now says nothing
-  about how a map marks a capital.
-- **Drico, 5 October: Lesotho stays unmentioned** in the province-finding method.
-  The method starts from a name the learner already has, so she looks for
-  "Limpopo" and never lands on Lesotho; it only bites if she uses the map to
-  discover how many provinces exist, which the lesson never asks.
-- **Two oceans, not three, for any lesson about the coastline** (6 October). The
-  environment department and the navy's maritime doctrine say three and are
-  describing the whole maritime territory, out to the Prince Edward Islands at
-  about 46°S. CAPS asks for the oceans "langs die kuslyn". `twee oseane` is now
-  in the protected-words file, because the department's own wording is exactly
-  the improvement an outside language check would make — and it would arrive
-  after the last check that could catch it.
+Read this section before touching it. It has been through **thirteen fact
+checks** and the reason is worth knowing, because it is a trap the next lesson
+can fall into too.
 
-## For the end-of-year reconciliation
+**Why thirteen.** Almost none of the findings were "this sentence is false".
+They were "these sentences *together* imply something false" — four places
+reading as a ladder, a thing named in one block reading as absent from the
+others. Those faults are properties of the **arrangement**. The lesson was
+restructured four times, so each check was reading what was effectively a new
+lesson, with new relationships between sentences, and found the faults of *that*
+arrangement. Nothing carried over because nothing was stable.
 
-- **`eiland` is worded two different ways.** Lesson 2 owns the glossary entry and
-  uses "kleiner as die kleinste kontinent"; lesson 8 uses "nie een van die sewe
+**Three of those four restructures were decided by the pipeline operator, not by
+a checker, and each one solved the named fault and created the next:** order each
+block to admit a range → the ranges climbed; flatten the quantifiers → the tap
+*mix* ranked; move water into the opening → the water *sources* ranked.
+
+**The avoidable part.** By round ten the same *class* of fault — a false ranking
+between places — had appeared three times. That was the signal to check what
+CAPS actually asked for. Nobody checked until round twelve, and it took two
+minutes: **this lesson's bullet asks for STORIES** — *"Maniere waarop mense in
+hulle behoeftes voorsien: Stories om te beskryf hoe mense in verskillende plekke
+in hulle behoeftes voorsien"* — and the four settlement types are **lesson 1's**
+bullet, which lesson 1 already delivers. Rounds nine, ten and eleven were spent
+redesigning a structure nothing had ever required.
+
+**The lesson now** is three blocks: a short lead-in on needs, water and food
+that names no place, then Thabo's story and Aisha's, about 135 words each. The
+four place blocks are gone.
+
+**The nine outstanding contradictions.** Three are plain factual errors that
+would be wrong in any arrangement and fix once:
+
+1. **The clinic is rural-only.** That reverses the sharpest service gap in the
+   country: over 95% of urban residents are within 30 minutes of a health
+   facility, while in some rural areas the median is 81 minutes and about a
+   third are more than an hour away.
+2. **Minibus taxis are urban-only.** They are the primary transport for most
+   rural communities; only 12% of rural households cannot reach one, against 18%
+   in metros.
+3. **Walking to school is rural-only.** 59.4% of all learners walk the whole
+   way, and the second-highest provincial share is Gauteng.
+
+The rest are the pair ranking: the town reads as the easier place, because the
+lead-in declares water and food as the needs, Aisha's tap runs at once, Thabo
+carries buckets daily, his advantages (clinic, school) sit outside the declared
+frame, and her disadvantages (potholes, street lights) are street problems that
+never touch her household. Also: the lead-in names three tap arrangements and
+the stories show two; it says there are days without water and the only story
+that could carry it says her tap runs at once; the communal tap is rural-only
+when it is just as characteristic of urban informal settlements; and the three
+tap quantifiers are all "party" for a roughly 45/30/10 split.
+
+**Two items the checker could not settle, for a person:**
+- *Two big buckets.* 40–50 litres read literally gives a family of three 13–17
+  litres per person per day, below South Africa's own 25-litre basic standard.
+  The text does not pin the number of trips, so it can be read innocently.
+- *The family shapes.* The rural boy lives with his mother and sister; the urban
+  girl has a father at a bank and a mother teaching. That lays a wealth
+  difference on top of a place difference, and a nine-year-old attributes the
+  wealth to the place. A stereotyping judgement, not a fact.
+
+**One thing already decided and recorded:** the video calls Thabo's place a
+*"klein dorpie"*; the text says *"op die platteland"*, because Drico ruled that
+dorpie is simply the diminutive of dorp and the lesson may not teach them as two
+kinds. Coverage confirmed nothing in the spec requires the video's word.
+
+### 3b. Voedsel en boerdery — 6 lessons, Term 3, nothing written
+
+Plant of dier? · Vyf maniere om kos te kry · Boer vir die gesin, boer vir die
+winkel · Die kaart wys waar die kos groei · Van die koringland tot jou
+toebroodjie · Moeilike tye, en wat boere daaraan doen
+
+### 3c. Water in Suid-Afrika — 9 lessons, Term 4, nothing written
+
+Van jou beker tot 'n hele plaas · Al daardie water, en so min om te drink · Die
+pad van een druppel · Varswater wat jy sien, en varswater wat jy nie sien nie ·
+Water hou vir die dag wanneer dit nie reën nie · Wanneer jy self jou water moet
+gaan haal · Vyf stoppe voordat die water jou kraan bereik · Wanneer water vuil
+word · Water word geleen, nie gemaak nie
+
+**Both sub-topics have approved specs.** No planning is left — they are ready
+for the writer.
+
+---
+
+## 4. Waiting on Drico — nothing is blocked by these
+
+- **North America has no position in map skills lesson 8.** The lesson names
+  seven continents and places five. Placing it needs a second intermediate
+  direction where the spec allows one, and both CAPS and the video name the same
+  five. There is budget room (327 of 400), so the obstacle is scope, not cost.
+  The promise was narrowed instead, which is reversible.
+- **Does any province name sit outside its own borders on the real classroom
+  map?** Map skills lesson 7 carries a fallback step for that case. One check
+  supported it on general cartographic practice; another found no South African
+  map that does it for a province name. Not false, possibly empty, about twenty
+  words. Anyone holding the map settles it in seconds.
+- **Should a story block be a reading-piece rather than a study block?** The
+  standard's chunking exemption for continuous text is attached to the
+  reading-piece type, so the gate warns on every story block over 110 words.
+  Splitting a story to fit would rebuild the multi-block shape that caused
+  thirteen rounds. If this recurs across the sub-topic the clean fix is a ruling
+  about block type, not a cut. **This is a change to the standard.**
+
+---
+
+## 5. Rulings made 5–7 October — these bind
+
+- **CAPS does not ask how a map marks a capital, so it is dropped** (Drico, 5
+  Oct). The Term 2 table puts five bullets under the map-of-South-Africa topic
+  and "hoe dit aangedui word" attaches only to the sea-and-land bullet.
+- **Lesotho stays unmentioned** in the province-finding method (Drico, 5 Oct).
+- **Two oceans, not three, for any lesson about the coastline** (6 Oct). The
+  three-ocean sources describe the whole maritime territory out to the Prince
+  Edward Islands; CAPS asks for the oceans *"langs die kuslyn"*. `twee oseane`
+  is in the protected-words file.
+- **"Dorpie" is the diminutive of "dorp"** — a smaller town, not a different
+  kind of place (Drico, 6 Oct).
+- **Settlements lesson 7 is carried by its stories**, not by a comparison of
+  settlement types (Drico, 6 Oct).
+
+---
+
+## 6. For the end-of-year reconciliation
+
+- **`eiland` is worded two ways.** Lesson 2 owns the glossary entry and uses
+  "kleiner as die kleinste kontinent"; lesson 8 uses "nie een van die sewe
   kontinente nie". Both are inside the decided scope, so this is not drift — but
   **the drift sweep cannot see it**, because lesson 8 carries the rule in study
-  text rather than as a glossary entry and the sweep reads glossary entries.
-- **A fact checker argued the shared wording itself is wrong** — that size is the
-  whole distinction and the rule should carry the Britannica form plus "there is
-  water around the continents too, but we do not call them islands because they
-  are so big". That argues against the subject's shared wording rather than
-  against one lesson, and a third wording is worse than leaving it alone. Filed,
-  not acted on.
-- **A cosmetic spec cleanup** in map skills lesson 7's budget note: the removal
-  explanation was patched *inside* item (f), so the line now reads as though
-  "what a capital is" was struck when only the map-marking half was. Nothing is
-  contradicted. Batch it with the next substantive edit to that entry rather than
-  spending a coverage re-run on it.
+  text rather than as a glossary entry.
+- **A fact checker argued the shared `eiland` wording is itself wrong** — that
+  size is the whole distinction. That argues against the shared wording rather
+  than one lesson, and a third wording is worse than leaving it alone.
+- **A cosmetic cleanup** in map skills lesson 7's budget note: a removal
+  explanation was patched inside an item, so the line reads as though the wrong
+  half was struck. Nothing is contradicted. Batch it with the next substantive
+  edit rather than spending a coverage re-run on it.
 
-## Traps this sub-topic produced, in the order they will bite
+---
 
-**The repair creates the next fault.** Map skills lesson 7 took six revision
-rounds and lesson 8 took four, and in almost every case the next finding was
-caused by the previous fix. Two distinct mechanisms:
+## 7. Traps this sub-topic produced, in the order they will bite
+
+**The repair creates the next fault.** Two mechanisms, both live:
 
 - *In a parallel set, whatever appears in exactly one item reads as what makes
-  that item different.* Lesson 8's five-line position list produced three
-  successive faults this way — a distance word on one line, then an ocean clause
-  on one line, then two lines naming water while three were silent. **Uniformity
-  is the only stable state**; a better distribution of clauses is not a fix.
-- *Closing a fault with an OPTION hands the writer a sound-in-isolation choice
-  that is wrong inside the set it lands in.* Twice I wrote "either say nothing,
-  or say X", the writer correctly took X, and X was the next finding.
+  that item different.* Every fault in settlements 7 and three in map skills 8
+  worked this way. **Uniformity is the only stable state** — a better
+  distribution of clauses is not a fix.
+- *Closing a fault with an OPTION* hands the writer a choice that is sound read
+  alone and wrong inside the set it lands in. It happened three times in one day.
+  Decide instead of offering, and say what the choice has to survive.
 
-**Six sweep misses in one day, every one found by a checker or a writer rather
-than by me.** The mechanism is always the same: a correction lands in the field
-where the *finding* was reported, and a neighbouring field still *orders* the old
-form. Three things to check of every field that touches the subject, not one:
-does it repeat the old claim, does it record a ruling that has now been reversed,
-and does its reasoning still hold given what the check established. The worst miss
-came from narrowing a sweep with a conjunction — I searched for "symbol" AND
-"capital" in the same passage, and the field that escaped mentions only the first.
+**Twenty-three stale orders in two days**, every one found by a checker or a
+writer rather than by a sweep. A correction lands in the field where the
+*finding* was reported, and a neighbouring field still *orders* the old form.
+Three sub-patterns, each needing a different sweep:
 
-**Widening a definition without re-reading its article.** The glossary entry for
-`hoofstad` was too narrow, so I widened its scope to cover a country as well as a
-province — and the unchanged definite article then asserted that a country has
-exactly one capital, which is false of the only country the lesson is about.
-Narrow to false in a day, in the field I had just rewritten.
+1. The same claim repeated in another field — a string sweep finds these.
+2. **A correction written ABOVE an old order that still stands below it.** Amend
+   the ordering sentence where it stands; a note underneath does not stop it.
+3. **When a governing rule changes, every order written under the old regime
+   becomes suspect** — and those share no wording with what changed, so a string
+   sweep walks straight past them. Re-read them as orders. The same applies when
+   a *structure* is removed: every rule *about* that structure becomes an order
+   about nothing.
 
-**Exact-string guards in fix scripts failed five times in one day** — on capitals,
-an accent, an assumed full stop, and an en dash where the field had an em dash.
-All failed loudly, which is the only reason none did damage. Anchor on the
-shortest distinctive fragment either side and slice between them, so punctuation
-never has to be reproduced. And remember a prohibition must quote the wording it
-forbids, so a sweep asserting "the old wording is gone" fires on the fix's own
-quotation — assert against the field's opening line instead.
+**Widening a definition without re-reading its article.** Scope changed, the
+article did not, and a true definition became false about the only country in
+the lesson.
 
-## Tooling notes worth knowing
+**Exact-string guards failed five times in one day** — capitals, an accent, an
+assumed full stop, an en dash where the field had an em dash. All failed loudly,
+which is why none did damage. Anchor on the shortest distinctive fragment either
+side and slice between them. And remember a prohibition must quote the wording
+it forbids, so assert against the field's opening line, never the whole field.
 
-- **The log-merge helper assumes a clean working tree and cannot have one.**
-  Running the gate writes to both append-only logs, so there is always something
-  uncommitted when you come to merge; the helper aborts before reaching its own
-  conflict handling. Commit the logs first, then it works exactly as designed.
+---
+
+## 8. Tooling notes
+
+- **The merge helper pushes as its last step.** If you want to merge without
+  publishing, do it by hand. (It caught me out today after I had noted it.)
+- **It also assumes a clean working tree and cannot have one** — running the gate
+  writes to both append-only logs, so commit those first.
 - **The hand-check sign-off tool has no path for an escalation a person has
-  ruled on.** It requires GOEDGEKEUR from both checks. A fact check that
-  escalates one item it cannot settle is the normal end of the process — the
-  human decides — and there is currently no way to record that decision and
-  proceed. I resolved it by sending the ruling back to the checker that raised
-  it, which is cheap and keeps the record honest, but it is a workaround.
-- **Staging the outbox folder kills a commit silently-ish.** It is gitignored, so
-  `git add` refuses and takes the commit with it. Check the resulting hash.
-- **Agents reported as failed may have finished, and agents one step from writing
-  lose everything.** Measure before re-running: today two of three killed agents
-  had written complete reports, and two others died immediately before writing
-  and lost a full check each. Tell fact checkers to write as soon as they have
-  findings.
+  ruled on.** It requires a clean verdict from both checks. A fact check that
+  escalates one item it cannot settle is the normal end of the process. The
+  workaround that keeps the record honest is to send the ruling back to the
+  checker that raised it and have it re-derive its verdict.
+- **Staging the outbox folder kills a commit** — it is gitignored, so `git add`
+  refuses and takes the commit with it. Check the resulting hash.
+- **Agents reported as failed may have finished, and agents one step from
+  writing lose everything.** Measure before re-running, and tell fact checkers to
+  write as soon as they have findings.
+- **Do not use `git add -A`** — it has swept another session's files into a
+  commit before. Stage the pipeline paths deliberately.
 
 Related: [[gr4-geografie-besluite]], [[gr4-sw-waar-ons-is]],
-[[drie-rekenaars-werk-parallel]], [[n-videofrase-beland-in-vier-plekke]].
+[[drie-rekenaars-werk-parallel]], [[n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout]],
+[[toets-n-parallelle-stel-as-n-stel]].
