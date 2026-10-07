@@ -163,7 +163,12 @@ def main():
     for spek_pad, spek in spesifikasies(a.graad, a.vak):
         vak = spek.get("vak")
         graad = int(spek["graad"])
-        sub = spek.get("kaps_subonderwerp")
+        # The lesson folder is named after the spec FILE, because that is how the
+        # runner finds both (--subonderwerp -> slug -> file). kaps_subonderwerp can
+        # differ: Gr 4 farming's is "Voedsel en boerdery in Suid-Afrika" while its
+        # folder is voedsel-en-boerdery, and every farming extract was skipped as
+        # "not started" until 7 October 2026 - spec fixes silently never arrived.
+        sub = os.path.splitext(os.path.basename(spek_pad))[0]
         for les in spek.get("lesse", []):
             nommer = les.get("nommer")
             if not nommer:
