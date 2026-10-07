@@ -42,6 +42,7 @@ twenty lessons later.
 | `moeilike_konsepte` | array of strings | no | Concepts needing the plainest, most concrete study text (the ELI10 layer they once ordered was abolished 23 Sep 2026) |
 | `termdig` | boolean | no | `true` when the bullet names many terms |
 | `fokusvraag_skakel` | string | yes | This lesson's **contribution** to the focus question |
+| `kaart` | string | no | What a map supporting this lesson must show — places, routes, areas and the relationship explained. Never how to draw it. Drico, 7 October 2026. The writer turns it into a `kaart` block. |
 
 ### `kern`
 

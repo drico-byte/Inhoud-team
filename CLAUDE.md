@@ -213,6 +213,11 @@ Wetenskappe was the first subject built the new way.
 * **A textbook is a cross-check, never a source.** Drico hand-counts one and gives
   back numbers only. Our lesson division is never adjusted toward a book's, and
   CAPS's stated emphasis beats a publisher's page budget.
+* **Where a lesson needs a map, the map is content.** Drico, 7 October 2026, said
+  before and recorded nowhere until then: the lesson carries a `kaart` block saying
+  WHAT the map must show, and the HTML team builds it. The layout marks such lessons
+  🗺 and the spec carries a `kaart` field. The general rule — do not describe
+  visuals — still holds for everything else.
 * **A layout is shown to Drico in his table.** One table per term, headed with its
   teaching hours and words, rows grouped under their CAPS cluster. Columns: `#` (the
   year lesson number), lesson, words with any floor top-up in brackets (`200 (+30)`),
