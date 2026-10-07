@@ -1,0 +1,59 @@
+{
+  "les": "gr4/sosiale-wetenskappe/water-in-suid-afrika/les-1",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:eb138ccb797924347e4d2e5f5fea9bb9",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:3c6923c9eb56024bf5db71a179d84ba4"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-10-07T08:27:33+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3c6923c9eb56024bf5db71a179d84ba4",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-07T08:27:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 422,
+      "begroting": 400,
+      "failures": [
+        "Study text 422 words, and the budget 400 is a HARD CEILING for this subject and grade — Drico, 29 September 2026. There is no tolerance above it. Cut 22 words. Never drop a requirement to get there: tighten sentences, cut an example, cut anything the video already carries. If it genuinely cannot be done without losing a requirement, say so and stop rather than trimming the requirement away."
+      ]
+    },
+    {
+      "wanneer": "2026-10-07T08:27:34+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 422 words, and the budget 400 is a HARD CEILING for this subject and grade — Drico, 29 September 2026. There is no tolerance above it. Cut 22 words. Never drop a requirement to get there: tighten sentences, cut an example, cut anything the video already carries. If it genuinely cannot be done without losing a requirement, say so and stop rather than trimming the requirement away."
+      ]
+    },
+    {
+      "wanneer": "2026-10-07T08:28:25+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:eb138ccb797924347e4d2e5f5fea9bb9",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-07T08:28:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 365,
+      "begroting": 400,
+      "failures": []
+    }
+  ],
+  "spek_hash": "sha256:0a4507f84e715fc7e9d0cc6da90e40b9",
+  "hek_konteks": {
+    "graad": 4,
+    "begroting": 400
+  }
+}
