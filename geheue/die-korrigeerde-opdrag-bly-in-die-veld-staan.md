@@ -173,3 +173,47 @@ is my claim.
 Related: [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]],
 [[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]],
 [[n-wag-wat-sy-eie-reels-naskryf]].
+
+## A seventh costume: a PERMISSION that undoes a prohibition in the same field
+
+**4 October 2026.** A requirement banned any claim about where some words came
+from, "in either direction" — and three clauses later permitted a name to remain
+in the text. The only name available was the person who wrote those words, so
+exercising the permission **is** making the banned claim. A later writer with
+words to spare could do it and cite the field.
+
+The six costumes I had been briefing all describe an **order** that has gone
+stale. This one is a permission, so it reads as harmless latitude rather than as
+an instruction, and a reader checking "does any order here contradict a
+correction?" slides straight past it.
+
+**How to apply:** when sweeping a field, read its **permissions** against its
+prohibitions as well as its orders against its records. Ask of each "may" and
+each "is not needed": what is the widest thing a writer could do under this, and
+does any other sentence in the field forbid that? A permission with no stated
+bound is the same fault as an order with a withdrawn premise.
+
+## An eighth costume: a REASON-clause asserting a withdrawn fact beside a live order
+
+**4 October 2026.** A requirement ordered that an entry must not give a service to
+the state alone — sound, and still met. But the same sentence gave its reason as a
+**quantity**: that a large part of the service is delivered by designated bodies. A
+fact check contradicted the quantity; no national source exists for it.
+
+**What makes this one invisible to the whole pipeline.** The seven costumes before it
+are orders or permissions gone stale, so a corrected draft **fails** coverage and
+something reports it. Here the order itself is sound and the corrected draft satisfies
+it, so **no checker will ever raise it** — while a writer reading top-down meets the
+reason as a requirement and rebuilds the false quantity, able to cite the field for it.
+A stale order announces itself the next time anyone runs the pipeline; a stale reason
+waits silently for the next revision.
+
+I had told the writer both of that lesson's findings were draft-only faults. **The
+writer checked my claim and found the source fault I had cleared** — one more instance
+of a writer correcting my reading of a requirement in this sub-topic.
+
+**How to apply:** when a fact check kills a claim, do not only ask which sentences
+*order* it. Ask which sentences **give it as a reason, an illustration or a
+justification** for something else that is still true. Those survive every sweep aimed
+at orders, and they read as settled precisely because the thing they support is
+correct. Sweep for the claim's substance, never for the wording you remember writing.

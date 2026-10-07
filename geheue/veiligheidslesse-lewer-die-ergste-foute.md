@@ -59,3 +59,31 @@ hazards"), while the lesson gave **four closed boxes**. The gap was not a
 mis-drawn boundary; it was implied exhaustiveness. A glossary set that divides a
 field needs to say it is not the whole field — the same job `onder meer` does in a
 list block. See [[kaps-se-lys-wen-oor-die-handboek-se-lys]].
+
+## When a definition needs an exception, suspect the DEFINITION
+
+**4 October 2026, after five rounds on one glossary entry.** The entry defined
+maltreatment as *hurting or treating a child cruelly*. Because plain hurting is
+not wrong in itself, that forced a carve-out for legitimate hurt — and every
+carve-out we wrote was exploitable: a **purpose** test the adult passes out of his
+own account (the reasoning the Constitutional Court removed in 2019), then a
+**person** test that shielded a whole class, so a child harmed by a nurse could
+read that her case did not count. Lampies cut the exception; a fact check then
+found the real fault.
+
+**The opening clause was the fault all along.** It stated a *sufficient* condition
+that is not sufficient. In both languages, and in the Act's own phrasing — "harm
+**or ill-treatment** deliberately inflicted" — the wrongfulness lives in the word
+itself. Put it in the definition and **no exception is needed at all**; the
+deliberate-injury, recklessness and once-is-enough clauses all survive inside the
+narrower claim.
+
+**How to apply.** When a definition seems to need an exception carved out of it,
+do not design the exception. Ask what the defined word already means and whether
+the definition has dropped it. Four rounds went into patching the carve-out and
+none into reading the first clause.
+
+**And the cost of the too-wide clause ran the opposite way to the obvious one.**
+It was never really that a child would think an injection was maltreatment — it is
+that an over-wide opening is *the clause an adult inverts to discredit the sentence
+that matters*, that once is enough.

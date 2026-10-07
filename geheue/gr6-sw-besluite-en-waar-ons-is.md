@@ -59,10 +59,33 @@ says nothing — [[n-wag-wat-sy-eie-reels-naskryf]].
   entry carry another's definition. **Do not re-order strict separation** — that
   makes the narrow entry falsely narrow again, which is the fault it was repaired
   for. (b) The deliberateness element binds the **wider** entry only, where the
-  Act's own definition states it. The narrower one carries a written medical-help
-  boundary plus a recklessness limb instead, because intent never did the work
-  claimed for it: **a dentist acts deliberately.** What excludes a dentist is the
-  word *harm*, not the word *deliberate*.
+  Act's own definition states it. The narrower one carries a recklessness limb instead, because intent never
+  did the work claimed for it: **a dentist acts deliberately.** What excludes a dentist is the word *harm*, not the word *deliberate*.
+
+  **(c) The medical boundary that (b) once named is GONE — cut by Lampies on
+  4 October 2026, both sentences including the injection-and-dentist
+  illustration — and no exception may be written in its place, in any shape.**
+  Five rounds of repair all failed the same way, and the fault was never where
+  the repair went: the entry's **opening clause** made plain hurting sufficient,
+  so every round had to carve legitimate hurt back out, and every carve-out was
+  exploitable. One hung on *purpose*, reproducing reasoning the Constitutional
+  Court struck down in 2019 — an adult passes that test out of his own account.
+  The next hung on *who acts*, which shielded a whole class and would have told
+  a child harmed by a nurse that her case did not count.
+
+  **The sixth round fixed the opening clause instead, and then no exception was
+  needed.** The hurt must now be wrongly given or cruel, carried by an ordinary
+  adjective on the **treatment** — not on the actor, the purpose or the place,
+  all three of which have already failed. An injection is then not a child being
+  treated wrongly, so it never reaches the entry at all. What keeps it from
+  becoming a defence is that it is only the *opening*: the next sentence says
+  hitting and kicking count, with no qualifier, so an adult who hits is reached
+  directly and never gets as far as arguing about his treatment.
+
+  **When a definition needs an exception, suspect the definition.** The real cost
+  of the over-wide opening was never the medical direction — it was that it is
+  the clause an adult inverts to discredit the sentence that matters, which is
+  *once is enough*.
 
 ## The sign-off gap — a correct lesson that cannot ship
 
@@ -112,3 +135,26 @@ instructions have been wrong.
 note against our rulings before sign-off. One false claim of mine in a requirement
 cost about ten agent runs; checking that sentence first would have cost one. See
 [[spesifikasies-word-nooit-nagegaan]].
+
+## When these four come back from the Afrikaans checker, check by hand
+
+**4 October 2026.** Lessons 1, 2, 3 and 4 are signed off, delivered to
+`Voltooide lesse/` and in the outbox with a protected-words page carrying
+**21 words**, every reason in full.
+
+**The safety net on the return leg does not exist.** The per-sub-topic branch of
+`bin/htmlnasien.py` — the check that compares a built lesson against our
+protected words and reports a reverted one — has **never once fired**: two
+literal backspace bytes stand where a word-boundary escape was meant, so the
+pattern cannot match anything. It is deliberately not repaired, because with the
+boundary restored it reports 132 hits of which 29 are structurally false (a
+forbidden form that is a substring of the kept form), and burying the one check
+that must be believed under noise is worse. That is a decision for Lampies.
+
+**So when those four lessons return, the 21 protected words must be checked by
+hand.** Nothing will report a reverted one. Two of them are hedges a fact check
+identified as load-bearing, and one is a decided wording bound across the whole
+subject.
+
+Related: [[onaantasbare-woorde-vir-die-taalnasiener]],
+[[lesse-gaan-altyd-na-lees]].
