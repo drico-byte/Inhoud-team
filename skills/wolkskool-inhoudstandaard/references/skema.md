@@ -105,6 +105,18 @@ the band's floor guards against the same collapse into fragments.
 one continuous piece, and measuring it in chunks measures it as the wrong kind of
 thing.
 
+**Where CAPS itself asks for a story, that block is a `leesstuk` — in any subject,
+not only where a reading is read for its own sake.** Decided 7 October 2026. Grade 4
+Geography's settlements topic asks in terms for *"Stories om te beskryf hoe mense in
+verskillende plekke in hulle behoeftes voorsien"*, with a note binding each story to
+show both adequate and inadequate provision. Those are continuous narrative and the
+reasoning above applies to them exactly: written as `studie` they draw a gate warning
+on every story over 110 words, and the only way to silence it is to cut the story into
+chunks — which rebuilds the multi-block parallel shape that cost that one lesson
+thirteen fact-check rounds. The test is not the subject and not whether the reading is
+for pleasure; it is whether CAPS asked for a story. Everything else about `leesstuk`
+is unchanged, including that its factual claims are checked exactly as anywhere else.
+
 Everything else still applies. It is not a free space: the factual claims in a
 reading are checked exactly as anywhere else, and where a reading retells something
 that belongs to a culture, the attribution is checked against sources outside any
