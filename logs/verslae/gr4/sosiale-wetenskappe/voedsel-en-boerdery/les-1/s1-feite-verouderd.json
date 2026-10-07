@@ -4,229 +4,205 @@
   "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Van 'n plant of van 'n dier",
   "kaps_punt": "Voedsel wat mense eet - vanaf plante en diere (klassifikasie)",
-  "verdict": "HERSIEN",
+  "verdict": "MENS_NODIG",
   "items": [
     {
       "bewering": "Die kos op jou bord het nie in die winkel begin nie.",
       "blok": "Kos begin nie in die winkel nie",
       "status": "bevestig",
-      "bron": "Our World in Data, 'Global land for agriculture' (ourworldindata.org/global-land-for-agriculture): crops supply about 82% of the world's calories and animal products about 18%; all of it is produced (grown, raised or caught) before it reaches a shop.",
+      "bron": "Stats SA, Census of Commercial Agriculture 2017 (statssa.gov.za/?p=13144): food is produced on 40 122 commercial farms (livestock, field crops, horticulture, mixed) before it reaches retail; FAO calorie-share data below.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die meeste van ons kos word eers op 'n plaas gekweek of grootgemaak.",
       "blok": "Kos begin nie in die winkel nie",
       "status": "bevestig",
-      "bron": "Our World in Data, 'Global land for agriculture': crops about 82% of global calories; meat, dairy and farmed fish about 17%; wild-caught fish about 1%. 'Die meeste' is correct; it does not claim all food (wild fish, salt) is farmed.",
+      "bron": "FAO calorie-supply shares as tabulated in National Academies document pga_062632 (sites.nationalacademies.org): cereals, oils, sugar, roots, pulses and livestock products supply about 99% of global calories; fish under 1%. 'Die meeste' is the right quantifier: wild-caught fish and foraged food are the exceptions.",
       "tipe": "superlatief"
     },
     {
       "bewering": "Party boere kweek plante, party hou diere aan en ander doen albei.",
       "blok": "Kos begin nie in die winkel nie",
       "status": "bevestig",
-      "bron": "FAO, mixed crop-livestock systems (fao.org/4/x5478e/x5478e0d.htm) and Thornton & Herrero 2015 (CSIRO, mixed crop and livestock farming systems in sub-Saharan Africa, including South Africa): mixed farming combines crop growing and livestock on one farm; specialised crop and livestock farms also exist.",
+      "bron": "Stats SA, Census of Commercial Agriculture 2017 (statssa.gov.za/?p=13144; gov.za media statement 24 March 2020): livestock farming 33.9% of farms, mixed farming 31.1%, field crops 21.3%.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Ons noem hierdie werk boerdery.",
       "blok": "Kos begin nie in die winkel nie",
       "status": "bevestig",
-      "bron": "Standard definitions of agriculture (e.g. 'the science and practice of cultivating soil, growing crops, and raising livestock for food, fiber, and other products'; Wikipedia 'Outline of agriculture'; Britannica 'agriculture').",
+      "bron": "Merriam-Webster 'farm': land used for growing crops or raising livestock; Oxford Learner's 'farm': used for growing crops and/or keeping animals. In context 'hierdie werk' refers to growing plants or keeping animals, which matches.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Daarom kom die meeste van ons kos van plante of van diere af.",
       "blok": "Kos begin nie in die winkel nie",
       "status": "bevestig",
-      "bron": "Our World in Data, 'Global land for agriculture' (crop and animal sources supply nearly all calories). The inference holds; 'die meeste' also leaves room for the farmed mushrooms the lesson treats as neither in its last block.",
+      "bron": "Same FAO calorie shares (National Academies pga_062632): virtually all dietary energy comes from plant and animal products. The 'daarom' chain holds because farming is growing plants or keeping animals; farmed mushrooms (a fungus) are an exception, which 'die meeste' covers.",
       "tipe": "superlatief"
     },
     {
-      "bewering": "Mielies groei op 'n lang plant met groot blare.",
+      "bewering": "Mielies groei op 'n lang plant met groot blare. Ons eet die pitte wat aan die mieliekop sit.",
       "blok": "Kos van plante",
       "status": "bevestig",
-      "bron": "Tropical Forages fact sheet 'Zea mays' (apps.lucidcentral.org/tropical_forages): erect annual mostly 2-3 m tall; New World Encyclopedia 'Maize': leaves like broad flags 50-100 cm long and 5-10 cm wide.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Ons eet die pitte wat aan die mieliekop sit.",
-      "blok": "Kos van plante",
-      "status": "bevestig",
-      "bron": "Tropical Forages 'Zea mays' and New World Encyclopedia 'Maize': the ear consists of a cob (rachis) bearing 4-30 rows of kernels, the part eaten; the ear sits on a short stalk in a leaf axil about halfway down the stem. Dictionary of South African English 'mealie' (an ear of maize). The lesson rightly does not place the mieliekop at the top of the plant, which keeps it distinct from wheat in the next sentences.",
+      "bron": "New World Encyclopedia 'Maize'; Lucidcentral Tropical Forages 'Zea mays' (apps.lucidcentral.org): plant 1-4 m (commercial about 2.5 m), leaves 50-100 cm long and 5-10 cm wide; 200-400 kernels set along the cob of each ear.",
       "tipe": "algemeen"
     },
     {
       "bewering": "'n Appel is die vrug wat aan die takke van 'n appelboom groei.",
       "blok": "Kos van plante",
       "status": "bevestig",
-      "bron": "Canadian Food Inspection Agency, 'The Biology of Malus domestica Borkh. (Apple)' (inspection.canada.ca); Kew Plants of the World Online, Malus domestica: a branched deciduous tree whose fruit is the apple (botanically a pome; 'vrug' is correct in everyday and botanical use).",
+      "bron": "Museum fuer Naturkunde Berlin, Naturblick 'Malus domestica'; Wikipedia 'Apple': the apple is the fruit (a pome) of the apple tree, borne on its branches.",
       "tipe": "algemeen"
     },
     {
       "bewering": "By 'n wortel eet ons die deel van die plant wat onder die grond groei.",
       "blok": "Kos van plante",
       "status": "bevestig",
-      "bron": "Encyclopaedia Britannica, 'Carrot' (britannica.com/plant/carrot): Daucus carota produces an edible taproot; the rosette of leaves develops above ground while the edible carrot is below. Also NParks Flora & Fauna Web, Daucus carota.",
+      "bron": "NParks Singapore Flora & Fauna Web, Daucus carota (nparks.gov.sg/florafaunaweb/flora/5/9/5923): the edible part is the swollen taproot, which grows in the soil. The shoulder may show at the surface; that does not make the claim false at this level.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Koring is 'n plant met klein korrels bo-aan sy stingel.",
       "blok": "Kos van plante",
       "status": "bevestig",
-      "bron": "Britannica Kids, 'wheat' (kids.britannica.com/kids/article/wheat/353923): at the end of the stem is a head, or spike, of 20-100 tiny flowers that produce the kernels.",
+      "bron": "Wikipedia 'Wheat'; Farmer's Weekly 'The basics of wheat': the grains form in a terminal spike (ear) at the top of the stem.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die meeste brood word van koring gemaak.",
       "blok": "Kos van plante",
       "status": "bevestig",
-      "bron": "DALRRD, Wheat Market Value Chain Profile 2020 (old.dalrrd.gov.za): wheat in South Africa is mainly used for human consumption (bread, biscuits, breakfast cereals, rusks); bread flour milled is overwhelmingly wheat (white 76.6%, brown 16%). Food-science literature: bread is produced mainly from wheat flour because of its gluten; other grains (maize, rye, sorghum) are used in smaller amounts.",
+      "bron": "Grain SA, 'What is a wheat producer's percentage share of retail white bread' (grainsa.co.za); World Grain, 'Wheat milling in South Africa': South African bread is baked from wheat flour (white and brown bread flour), about 2.8 billion loaves a year. Rye and maize breads exist, so 'die meeste' is correct.",
       "tipe": "superlatief"
     },
     {
       "bewering": "Daarom tel brood ook as kos van 'n plant.",
       "blok": "Kos van plante",
       "status": "bevestig",
-      "bron": "As above: the main ingredient is wheat flour; breads not made from wheat are made from other grains (maize, rye, sorghum), which are also plants, so the conclusion holds for bread generally. Minor ingredients (yeast, salt) do not change the usual classification by main ingredient.",
+      "bron": "Follows from the wheat-flour sources above: the main ingredient of bread is milled wheat. Yeast is a fungus, the same group the lesson puts mushrooms in, but it is a minor ingredient and the lesson does not mention it. Bread is conventionally classed as a plant food. Nothing a learner meets in this lesson conflicts with it.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Melk kom van diere af",
-      "blok": "Kos van diere",
-      "status": "weerspreek",
-      "bron": "South African Regulation R.1510 of 2019 (Agricultural Product Standards Act, dairy and imitation dairy products), Table 22 (api.acts.co.za): the legal class designation for imitation milk is '(Name of plant) Milk', so soy, oat, almond and similar drinks are sold in South Africa as milk; coconut milk ('klappermelk') is a common South African cooking ingredient. A learner applying this lesson's own sorting rule to sojamelk or klappermelk would sort it as animal food because the lesson says milk comes from animals.",
-      "regstelling": "Do not say that all milk comes from animals. Narrow it to the milk the lesson means (the milk we usually drink, and the milk that butter and cheese are made from), which comes from animals and in South Africa mostly from cows. The lesson's own point in 'Sorteer self enige kos' (botter and grondboontjiebotter: a name does not tell you where food begins) applies to plant milks too, so the lesson must not contradict it here. Narrow the quantifier; do not cut the true general statement about dairy milk.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "in Suid-Afrika veral van koeie",
+      "bewering": "Die melk wat ons drink en waarvan ons kaas en botter maak, kom van diere af.",
       "blok": "Kos van diere",
       "status": "bevestig",
-      "bron": "DALRRD, Dairy Market Value Chain Profile 2021 (old.dalrrd.gov.za): commercial dairy herd about 1.27 million cows, mainly Holstein and Jersey; DALRRD goat milk agro-processing document: most goats in South Africa are kept for meat and goat milk is not produced in large quantities.",
+      "bron": "Agricultural Product Standards Act 119 of 1990, Regulation R260 (2015) on dairy and imitation dairy products (acts.co.za; DALRRD notice via ascfoodsafety.com): in South Africa 'milk' on its own is a dairy product from animals; plant drinks are 'imitation' or '(plant name) milk'. A learner who applies the lesson's tracing rule to soy or almond milk correctly gets 'plant', so there is no conflict.",
       "tipe": "algemeen"
+    },
+    {
+      "bewering": "In Suid-Afrika kom hierdie melk veral van koeie.",
+      "blok": "Kos van diere",
+      "status": "bevestig",
+      "bron": "Milk SA figures reported by agriland.ie ('South Africa's dairy industry likely to grow'): commercial dairy herd of about 1.27 million cows (Holstein, Jersey); DALRRD 'Goat Milk' agro-processing document: goat milk is a small niche and goats are mostly kept informally.",
+      "tipe": "superlatief"
     },
     {
       "bewering": "Vleis kom ook van diere, soos beeste, skape en hoenders.",
       "blok": "Kos van diere",
       "status": "bevestig",
-      "bron": "DALRRD statistical and BFAP figures as reported (DALRRD SSI report Sep 2019; Farmer's Weekly, 'South Africans hungry for meat and dairy'): per-capita meat consumption in South Africa is chicken, then beef, then pork and sheep meat. All three examples are farmed meat animals; 'soos' leaves room for others such as pigs.",
+      "bron": "DALRRD statistical information and Farming Portal 'Meat consumption in South Africa continues to surge': poultry about 60% of meat eaten, beef about 30%, then pork and mutton/lamb (about 170 000 t produced).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die eiers wat ons eet, kom meestal van hoenders af.",
       "blok": "Kos van diere",
       "status": "bevestig",
-      "bron": "DALRRD, Egg Market Value Chain Profile 2021 (old.dalrrd.gov.za): the South African egg industry is built on a laying flock of about 29 million hens; other eggs (duck, ostrich) are niche, so 'meestal' is accurate.",
+      "bron": "FAO, Poultry sector country review South Africa (fao.org/3/a-ax256e.pdf): about 29.7 million layer hens on commercial farms; DALRRD Egg Market Value Chain Profile 2021: the egg industry is hens' eggs (about 486 000 t in 2023). Other eggs (ostrich, duck) exist, so 'meestal' is correct.",
       "tipe": "superlatief"
     },
     {
       "bewering": "Kaas groei nie self nie en word deur mense van melk gemaak.",
       "blok": "Kos van diere",
       "status": "bevestig",
-      "bron": "Wikipedia 'Cheesemaking' and Britannica Dictionary 'curd' (britannica.com/dictionary): cheese is made by people by coagulating milk (acidifying with a culture and adding rennet) into curds and whey. 'Groei nie self nie' is correct in the sense intended (cheese is not grown like a plant or raised like an animal).",
+      "bron": "Wikipedia 'Cheesemaking' and 'Cheese'; Wisconsin Cheese 'What is rennet?': cheese is made by people who curdle milk with acid and rennet and separate the curd from the whey.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die melk kom van 'n dier soos 'n koei of 'n bok.",
+      "bewering": "Die melk kom van 'n dier soos 'n koei of 'n bok. Daarom is kaas ook kos van 'n dier.",
       "blok": "Kos van diere",
       "status": "bevestig",
-      "bron": "Wikipedia 'Cheesemaking'; Britannica Dictionary 'goat cheese': cheese is made from the milk of cows, goats, sheep, buffalo and other mammals. Consistent with the earlier 'veral van koeie' sentence when the block is read as a set.",
+      "bron": "Wikipedia 'Cheese': usually from the milk of cows, goats or sheep; Farmer's Weekly 'Better milk, better cheese from veld-reared goats' and taste.co.za 'chevin': goat's milk cheese is made in South Africa.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Daarom is kaas ook kos van 'n dier.",
+      "bewering": "Tog lyk die meeste kaas glad nie soos melk nie.",
       "blok": "Kos van diere",
       "status": "bevestig",
-      "bron": "As above: cheese is a dairy product made from animal milk; the conclusion follows. (Cultures and rennet substitutes do not change the usual classification by main ingredient.)",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Tog lyk dit glad nie soos melk nie.",
-      "blok": "Kos van diere",
-      "status": "weerspreek",
-      "bron": "Encyclopaedia Britannica, 'cottage cheese' (britannica.com/topic/cottage-cheese) and FAO dairy text (fao.org/4/j2366e/j2366e16.htm): cottage cheese is a fresh, unripened, near-white cheese of soft curds usually mixed with whey or cream. Fresh white cheeses common in South Africa (maaskaas, roomkaas) are white, soft and visibly made of milk curd, so 'glad nie' is too absolute. It is true of the hard yellow cheeses a learner most often sees.",
-      "regstelling": "Minor, but absolute: soften the quantifier so it is not a claim about every cheese (most cheese looks very different from milk), rather than cutting the useful point that you cannot tell where food comes from by looking at it.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Sorteer self enige kos",
-      "blok": "Sorteer self enige kos",
-      "status": "weerspreek",
-      "bron": "The lesson itself: the block's first sentence says 'Jy kan die meeste kos self in een van hierdie twee groepe sorteer', and the next block, 'Kos wat nie in die twee groepe pas nie', exists because salt and mushrooms do not fit either group (Britannica 'Fungus'; salt is the mineral sodium chloride). A heading is read alone and displayed large; read with this block's two-outcome rule, 'enige' teaches that every food sorts into plant or animal.",
-      "regstelling": "Bring the heading's quantifier in line with the block ('die meeste', not 'enige'), or name the method rather than promising it works for any food, so the heading read alone does not contradict the next block.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Jy kan die meeste kos self in een van hierdie twee groepe sorteer.",
-      "blok": "Sorteer self enige kos",
-      "status": "bevestig",
-      "bron": "Our World in Data, 'Global land for agriculture' (crops and animal products supply nearly all calories); exceptions such as salt and fungi are real but few.",
+      "bron": "Wikipedia 'Cheesemaking': cheese is the pressed, often aged solid curd, while milk is a liquid. Soft white cheeses such as cottage cheese are whitish but still not liquid, and 'die meeste' covers them.",
       "tipe": "superlatief"
     },
     {
-      "bewering": "Volg die kos terug tot by die plek waar dit begin het. As dit by 'n plant begin, is dit kos van 'n plant. As dit by 'n dier begin, is dit kos van 'n dier.",
-      "blok": "Sorteer self enige kos",
-      "status": "weerspreek",
-      "bron": "Tested as a method on a common South African food. Honey begins as flower nectar (a plant), which bees collect, transform with their own enzymes and store in the comb (AGES Austria, 'Honey'; SFDA honey consumer guide), yet honey is classed as a product of animal origin, e.g. EU Regulation (EC) 853/2004, Annex I, point 8.1, and is treated as an animal product in vegan practice. This rule, and the lesson's own pattern ('X word van Y gemaak en is dus kos van ...'), sorts honey as plant food. The rule also gives no stopping point: a learner who keeps tracing can take milk or meat back to the grass the cow ate and call them plant food. The rule's worked examples (butter, peanut butter) all sort correctly, and no stated fact is false; the failure is in where the method leads a learner who applies it to the next food.",
-      "regstelling": "Give the rule a stopping point a nine-year-old can apply: trace the food back to the plant or animal that made or gave it (the cow gave the milk, the hen laid the egg), not further back to what that animal ate. Do not settle the honey case by adding honey as a new example; its classification is not something this lesson needs, and any added example needs its own check.",
-      "tipe": "analogie"
+      "bewering": "Jy kan die meeste kos self in een van hierdie twee groepe sorteer.",
+      "blok": "Sorteer self die meeste kos",
+      "status": "bevestig",
+      "bron": "True for single foods and ingredients, by the FAO calorie shares above (nearly everything eaten is a plant or animal product). See the separate onseker item on mixed foods.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Volg die kos terug tot by die plant of die dier wat dit gemaak of gegee het. As jy by 'n plant uitkom, is dit kos van 'n plant. As jy by 'n dier uitkom, is dit kos van 'n dier.",
+      "blok": "Sorteer self die meeste kos",
+      "status": "bevestig",
+      "bron": "Tested on cases a learner might try: honey goes back to the bee that made it, so animal (correct; honey is an animal product, vegnews.com 'Why do bees make honey'). Sugar goes back to sugar cane, so plant. Eggs go to the hen and milk to the cow. Soy milk goes to a plant (R260 above). Salt reaches neither, which agrees with the next block. Mushrooms: a learner may think they 'grow like plants' and say plant, but the next block explicitly heads that off. The rule gives the right answer for every single-origin food tried.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die meeste kos wat ons eet, pas in een van hierdie twee groepe. Party kos pas egter in nie een van die twee nie. [read together with the tracing rule: 'Volg die kos terug tot by die plant of die dier ...']",
+      "blok": "Kos wat nie in die twee groepe pas nie",
+      "status": "onseker",
+      "tipe": "algemeen",
+      "nota": "Every sentence here is true. The problem is the classification picture, and sources cannot settle that, which is why this is onseker and not a guess. The lesson offers three outcomes: plant, animal, or neither (salt, mushrooms). It has no outcome for food made from both. A learner who tries cake, pizza, a cheese sandwich or vetkoek with butter gets back to a plant AND an animal. Such a food does not fit 'in een van hierdie twee groepe', so the nearest slot the lesson offers is 'pas in nie een van die twee nie', next to salt and mushrooms. That would be wrong. A person should decide one of two things: either accept that the lesson classifies single foods/ingredients only, or have one short sentence added saying that food made from several things, such as cake, comes from plants and animals. The second option adds content under a word ceiling, so it is a scope call rather than a writer fix."
     },
     {
       "bewering": "Botter word van melk gemaak en is dus kos van 'n dier.",
-      "blok": "Sorteer self enige kos",
+      "blok": "Sorteer self die meeste kos",
       "status": "bevestig",
-      "bron": "Encyclopaedia Britannica, 'butter' (britannica.com/topic/butter): a solid emulsion produced by churning the cream from cow's milk; can be made from whole milk but usually from cream, which is part of milk.",
+      "bron": "Wikipedia 'Churning (butter)'; McGill Office for Science and Society 'How does milk become butter'; Dairysafe Victoria 'Butter': butter is churned from cream separated from milk (or from whole milk).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Grondboontjiebotter word van grondboontjies gemaak en is dus kos van 'n plant.",
-      "blok": "Sorteer self enige kos",
+      "blok": "Sorteer self die meeste kos",
       "status": "bevestig",
-      "bron": "US 21 CFR 164.150 (law.cornell.edu/cfr/text/21/164.150): peanut butter is prepared by grinding shelled and roasted peanuts, with added seasoning and stabilisers not exceeding 10% by weight; the peanut (Arachis hypogaea) is a legume crop grown for its seeds.",
+      "bron": "Peanut butter is ground roasted peanuts, with salt, sugar or vegetable oil sometimes added and no dairy (manufacturer ingredient lists, e.g. Whole Earth, Pip & Nut). The peanut is the seed of a legume plant (Arachis hypogaea).",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die twee name klink amper dieselfde, maar die kos begin by heeltemal verskillende plekke.",
-      "blok": "Sorteer self enige kos",
+      "blok": "Sorteer self die meeste kos",
       "status": "bevestig",
-      "bron": "As the two items above: butter comes from an animal's milk, peanut butter from a plant's seeds. The comparison's mapping is sound (a similar name does not mean a similar origin); peanut butter is called 'butter' for its spreadable texture, not its ingredients. Note that this sound principle is contradicted by 'Melk kom van diere af' in 'Kos van diere' (see that item).",
-      "tipe": "analogie"
-    },
-    {
-      "bewering": "Die meeste kos wat ons eet, pas in een van hierdie twee groepe.",
-      "blok": "Kos wat nie in die twee groepe pas nie",
-      "status": "bevestig",
-      "bron": "Our World in Data, 'Global land for agriculture'.",
+      "bron": "Follows from the two items above: butter comes from an animal (the cow's milk) and peanut butter from a plant (the peanut). 'Heeltemal verskillende' is accurate at the level of plant against animal.",
       "tipe": "superlatief"
     },
     {
-      "bewering": "Party kos pas egter in nie een van die twee nie.",
+      "bewering": "Die meeste kos wat ons eet, pas in een van hierdie twee groepe. Party kos pas egter in nie een van die twee nie.",
       "blok": "Kos wat nie in die twee groepe pas nie",
       "status": "bevestig",
-      "bron": "Encyclopaedia Britannica, 'Fungus' (mushrooms and yeasts are kingdom Fungi); salt is a mineral (see next item).",
-      "tipe": "algemeen"
+      "bron": "FAO calorie shares (National Academies pga_062632): nearly all food is a plant or animal product; salt, water and fungi are the exceptions. True as stated for single foods. The mixed-food gap is a separate item.",
+      "tipe": "superlatief"
     },
     {
       "bewering": "Sout kom uit die see of uit die grond en was nooit 'n plant of 'n dier nie.",
       "blok": "Kos wat nie in die twee groepe pas nie",
       "status": "bevestig",
-      "bron": "Mail & Guardian, 'Salt: the journey from mine to meal' (29 January 2015, mg.co.za) and SA Salt Forum 2023 presentation (imformed.com): South African salt comes from seawater evaporation and from underground brine pumped from boreholes at Northern Cape pans, and salt is also mined as rock salt (halite) elsewhere. Salt is the mineral sodium chloride.",
-      "tipe": "algemeen"
+      "bron": "Walvis Bay Salt, Salt Forum 2023 presentation (imformed.com): South African salt comes from coastal works (Velddrif, Coega, Swartkops), Northern Cape inland pans (about 400 000 t of about 700 000 t) and Namibian sea-salt imports; Mail & Guardian 'Salt: the journey from mine to meal' (2015): Kalahari pan salt is underground brine pumped up and evaporated. Salt is the mineral sodium chloride. 'Nooit' holds.",
+      "tipe": "superlatief"
     },
     {
       "bewering": "Sampioene lyk soos plante, maar hulle is nie plante of diere nie.",
       "blok": "Kos wat nie in die twee groepe pas nie",
       "status": "bevestig",
-      "bron": "Encyclopaedia Britannica, 'Fungus' (britannica.com/science/fungus): mushrooms belong to kingdom Fungi; fungi were historically included in the plant kingdom (hence 'lyk soos plante' is a fair comparison) but were separated because they lack chlorophyll and differ structurally, and they differ from animals in how they grow and take in food. Some dietary guides group mushrooms with vegetables for cooking purposes, but that is a kitchen grouping and does not make the biological claim false.",
-      "tipe": "algemeen"
+      "bron": "Forest Preserve District of Will County 'Five fabulous facts about fungi' (reconnectwithnature.org): fungi form their own kingdom, separate from plants and animals, and do not photosynthesise; SATNT (Suid-Afrikaanse Tydskrif vir Natuurwetenskap en Tegnologie) article on Afrikaans and English names for South African mushrooms and macrofungi treats them as fungi (swamme). The comparison 'lyk soos plante' is immediately corrected in the same sentence, so its mapping does not mislead.",
+      "tipe": "analogie"
     },
     {
       "bewering": "boerdery: Om plante te kweek en diere aan te hou vir kos en ander produkte.",
-      "blok": "boerdery",
-      "status": "bevestig",
-      "bron": "Standard definitions of agriculture ('growing crops and raising livestock for food, fiber, and other products'; Wikipedia 'Outline of agriculture'; Britannica 'agriculture'). Read alone, 'en' lists the activities farming includes, as dictionary definitions do, and does not require a farm to do both; 'ander produkte' (wool, fibre, leather) is correct.",
+      "blok": "boerdery (begrip)",
+      "status": "weerspreek",
+      "bron": "Read alone, as a glossary entry is read, 'plante te kweek EN diere aan te hou' defines farming as doing both. Stats SA, Census of Commercial Agriculture 2017: two-thirds of South African commercial farms do only one (livestock 33.9%, field crops 21.3%, horticulture besides), and only 31.1% are mixed. The lesson's own first block says 'party boere kweek plante, party hou diere aan en ander doen albei'. Oxford Learner's uses 'and/or' and Merriam-Webster 'or' for exactly this reason. 'Vir kos en ander produkte' is correct (wool, cotton, flowers, timber).",
+      "regstelling": "Make the definition say 'one or the other or both', e.g. 'Om plante te kweek of diere aan te hou, of albei, vir kos en ander produkte.' The writer should choose the wording. If this entry is a shared definition across lessons, the change belongs in the subject's agreed-wordings list and not in this lesson alone.",
       "tipe": "algemeen"
     }
   ],
-  "opsomming": "Every fact in the lesson checked out, but four things need the writer: 'Melk kom van diere af' is too absolute because South African law and kitchens have plant milks (sojamelk, klappermelk), which contradicts the lesson's own point that a name like botter does not tell you where food begins; the sorting rule 'volg die kos terug' has no stopping point, so it sorts honey as plant food and lets a learner trace milk back to grass; the heading 'Sorteer self enige kos' promises that any food can be sorted, against its own 'die meeste' and the next block; and 'lyk glad nie soos melk nie' is too absolute for white fresh cheeses such as maaskaas. Tested as sets: the plant list and the animal list agree with each other and with the closing exceptions, and the mieliekop is correctly not placed at the top of the plant."
+  "opsomming": "26 claims confirmed, including every 'die meeste', 'meestal', 'veral' and 'nooit', with plant, animal and neither tested as a set and the sorting rule tested on honey, sugar, soy milk, salt and mushrooms. A person must decide whether the lesson needs a line for food made from both plants and animals (cake, sandwich): its three-way plant/animal/neither picture leaves a learner nowhere to put such food except, wrongly, beside salt. Separately, the 'boerdery' glossary entry, read alone, says farming is growing plants AND keeping animals, while most South African farms do only one, so it should read 'or ... or both' (check first whether it is a shared wording)."
 }
