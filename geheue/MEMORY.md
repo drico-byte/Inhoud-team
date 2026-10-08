@@ -272,3 +272,9 @@
 - [Splitting a lesson, and what it exposes](n-les-verdeel-wat-dit-blootle.md) — the split dissolved the ceiling exception, but an aggregate register measure hid a hard failure in one half.
 - [The refresh skipped farming](die-verversing-het-boerdery-oorgeslaan.md) — it found folders by kaps_subonderwerp, not the spec file; grep the extract for the new wording, never trust the count.
 - [Call the runner after a spec edit](roep-die-hardloper-na-n-spekwysiging.md) — before briefing coverage, or sign-off retires the fresh report as stale; restoring it is right.
+- [A flat ceiling allocates per lesson, not per topic](n-plat-plafon-verdeel-volgens-les-nie-onderwerp.md) — I said old and new matched on totals; Gr 6 NWT had six long topics at half their hours. Compare per topic; science = 150/teaching hour.
+- [Content column only, then cover the assessment list](inhoud-kolom-plus-assessering.md) — activities are not content; an assessed item found only in activities is pulled in by the assessment list.
+- [Too little is the risk, not too much](te-min-is-die-risiko-nie-te-veel.md) — more than a textbook is fine; err generous, and hunt shortfall by depth per CAPS point, not by word count.
+- [This PC does layouts only](hierdie-rekenaar-doen-net-uitlegte.md) — the other PCs write content from the layouts we push; starting with Grade 7 SW.
+- [Gr 7 SW layout: where we are](gr7-sw-uitleg-waar-ons-is.md) — History 280/h from Drico's Term 1 count; Geography awaiting its count; four open questions.
+- [A map needed means a note in the lesson](kaart-nodig-maak-n-nota.md) — the HTML team builds it; was never recorded and the writer prompt said the opposite.

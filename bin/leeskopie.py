@@ -102,6 +102,9 @@ dd { margin: 0 0 3px; }
 ol { margin: 4px 0; padding-left: 22px; }
 ol li { margin-bottom: 9px; }
 
+.kaart { border: 1px solid #5b7fa6; background: #f3f7fb; padding: 8px 12px; margin: 8px 0;
+         page-break-inside: avoid; }
+.kaart .etiket { font-family: "Segoe UI", Arial, sans-serif; font-size: 8.5pt; color: #3d5f85; }
 .onbekend { border: 1px dashed #c00; padding: 9px 12px; margin: 8px 0;
             font-family: Consolas, monospace; font-size: 9.5pt; }
 .bevind { page-break-before: always; }
@@ -277,6 +280,13 @@ def bou_html(les, verslae=None):
             woordelys.append(f"<dt>{e(b.get('term'))}</dt><dd>{e(b.get('teks'))}</dd>")
         elif t == "vraag":
             vrae.append(f"<li>{e(b.get('teks'))}</li>")
+        elif t == "kaart":
+            # Drico, 7 October 2026: a map the HTML team must build. Shown in the
+            # reading copy as a labelled note, so a reviewer sees what was asked for.
+            vir = (b.get("vir") or "").strip()
+            lyf.append(f'<div class="kaart"><div class="etiket">Kaart vir die HTML-span'
+                       f'{" &middot; by " + e(vir) if vir else ""}</div>'
+                       f'{paragrawe(b.get("teks"))}</div>')
         else:
             # Never drop a block silently: a block type this tool does not know
             # about is exactly what a reviewer needs to see.

@@ -132,6 +132,21 @@ textbook.
 Does not count toward the study budget. Any word over 10 characters in the study
 text that is not a proper noun should have one.
 
+### `kaart` — what a map must show
+
+**Drico, 7 October 2026: when a map is needed for support, the content must say so,
+and the HTML team builds the visual.** In Geography, and in History wherever the
+lesson moves across places, the map is part of the content rather than decoration.
+
+| Field | Required | Notes |
+|---|---|---|
+| `vir` | yes | The `kop` of the study block the map supports |
+| `teks` | yes | In Afrikaans: WHAT the map must show — places, routes, areas, and the relationship the study text explains. Never how to draw it. |
+
+Does not count toward the study budget. It is read by the fact checker like any
+other text, so it names only what the study text names or the spec requires. The
+study text must still stand alone without the map.
+
 ### `vraag` — retrieval question. **LEGACY: no longer written.**
 
 | Field | Required | Notes |
@@ -173,6 +188,8 @@ The schema is the contract. Design it as a handoff, not a conversation.
   is the queue: the content team commits, the HTML team reads on merge. Two teams
   that never call each other cannot break each other.
 - The HTML team reads only `goedgekeur` files.
+- A `kaart` block is an instruction to the HTML team: build a map that shows what its
+  `teks` says, beside the study block named in `vir`. It is never rendered as text.
 - The HTML team does not change wording. Spelling problems come back as a list
   for human approval, and corrections are applied **to the source JSON**, never to
   the rendered HTML — otherwise source and page drift apart and the JSON stops
