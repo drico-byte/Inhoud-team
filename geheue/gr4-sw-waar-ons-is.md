@@ -205,3 +205,17 @@ Lampies' naming ruling: invloei vs afloop, watersuiweringsentrum vs -aanleg (CAP
 CAPS stops with pumps along the way (video's pump station as stop 4 is wrong). Video errors to report:
 'reen is die eerste bron', 'n meer is natuurlik', 'min of geen sout', vol wolk wat reen, San 'koel en veilig',
 pompstasie as stop 4, produk = net plante/diere.
+
+## KLAAR - Geografie 30 van 30, 8 Oktober 2026
+
+All 30 Grade 4 Geography lessons signed off; with History, Grade 4 Sosiale Wetenskappe is 60/60.
+The 16 finished on this machine are in lees/gr4/sosiale-wetenskappe-geografie with BESKERMDE-WOORDE.md
+(71 protected words). Sweep: 60 lessons, no drift; only 'rooster' still undecided (a delivered map-skills
+lesson, Lampies' call). Lampies' naming ruling of 8 Oct (established word first, video word in brackets)
+is in the content standard. Water 3 carries one accepted item (the bracketed 'invloei'), recorded in its
+aanvaardings file under that ruling.
+
+**Video claims the text routes around, for Lampies/Drico:** 'reen is die eerste bron van varswater';
+'n meer is natuurlik gevorm; varswater bevat 'min of geen' sout; reen val wanneer die wolk vol is; die
+San het eierdoppe begrawe om water 'koel en veilig' te hou; die pompstasie as vaste vierde stop; 'produk'
+net van plante of diere; and the three non-standard words invloei, watersuiweringsentrum, riool.
