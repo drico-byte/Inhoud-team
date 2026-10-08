@@ -1,6 +1,6 @@
 ---
 name: gr4-sw-waar-ons-is
-description: Grade 4 Sosiale Wetenskappe — 30 lessons across five sub-topics, 16 signed off as of 22 September 2026, and the decisions that govern the rest.
+description: Grade 4 Sosiale Wetenskappe — History 30/30 and Geography 30/30 signed off by 8 October 2026; shared wordings all decided; video claims still to report.
 metadata:
   type: project
 ---
@@ -210,8 +210,9 @@ pompstasie as stop 4, produk = net plante/diere.
 
 All 30 Grade 4 Geography lessons signed off; with History, Grade 4 Sosiale Wetenskappe is 60/60.
 The 16 finished on this machine are in lees/gr4/sosiale-wetenskappe-geografie with BESKERMDE-WOORDE.md
-(71 protected words). Sweep: 60 lessons, no drift; only 'rooster' still undecided (a delivered map-skills
-lesson, Lampies' call). Lampies' naming ruling of 8 Oct (established word first, video word in brackets)
+(71 protected words). Sweep: 60 lessons, no drift, no term undecided. 'rooster': Lampies, 8 Oct 2026, keeps the
+delivered wording of map-skills lesson 5 as it is - no reprint; its known looseness (read alone it
+also fits a town's streets) is recorded and accepted in the shared list. Lampies' naming ruling of 8 Oct (established word first, video word in brackets)
 is in the content standard. Water 3 carries one accepted item (the bracketed 'invloei'), recorded in its
 aanvaardings file under that ruling.
 
