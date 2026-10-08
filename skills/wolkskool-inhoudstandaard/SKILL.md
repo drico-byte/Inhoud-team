@@ -177,7 +177,7 @@ it unprompted while writing the Mapungubwe spec, which is where a `historiese_ko
 field is delivery rather than supplement. Had it been refused, several lessons' "how we
 know" material would have had to be re-costed as supplement.
 
-Six departures, and the first causes the rest:
+Seven departures, and the first causes the rest (the seventh was added on 8 October 2026):
 
 | Normal process | Sosiale Wetenskappe |
 |---|---|
@@ -187,6 +187,21 @@ Six departures, and the first causes the rest:
 | Budget is measured textbook volume | **Mostly requirement-based** — the book does not cover most of this subject |
 | Grade 4 budgets sit in the 350–450 band | **Kwartaal 1 sits at 200**, by decision |
 | Every CAPS bullet is covered | **The local-area anchor is dropped**, by decision |
+| The text names a thing and the video follows its word | **Where the video's word is not the established term, the established word leads and the video's word follows once in brackets** |
+
+**The seventh: an established word leads, and the video's word follows once in
+brackets. Lampies, 8 October 2026.** Where a Grade 4 Sosiale Wetenskappe video uses a
+word that is not the established term for the thing, the text uses the established
+word — CAPS's word where CAPS has one — as the main word, and puts the video's word
+once in brackets after it. The text does not silently adopt the video's word, and it
+does not drop it either: the bracket is how a learner who watches and then reads sees
+that the two name one thing. Examples: *afloop (invloei)* for the fourth step of the
+water cycle, and *watersuiweringsaanleg (watersuiweringsentrum)* for the plant where
+drinking water is cleaned. Where the video's word is simply too loose rather than a
+different name — *riool* for the sewage itself, where *riool* means the pipe — the text
+just says *rioolwater*, with no bracket. This **refines** the rule below that the text
+uses the video's word for the same thing: that rule still holds wherever the video's
+word is the established one, and this item decides what happens where it is not.
 
 **Why the teacher's judgement is allowed to extend coverage, which is the one that
 matters most.** CAPS lists content in one place and the historical aims, skills and
