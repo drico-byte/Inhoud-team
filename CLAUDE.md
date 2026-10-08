@@ -180,6 +180,54 @@ The improvements that hurt most did not come from writers — they came from fac
 checks, which run *after* drafting. One asked whether crude oil is always thick
 and dark; it is not, and that correction reached a delivered lesson months late.
 
+## Planning a year: what goes in, and how long each lesson is
+
+**Drico's one big change since the team began, 29 September 2026: a lesson's length
+comes from CAPS hours.** Everything planned before that date keeps the old basis and
+is not re-measured (Grade 7 Lewensoriëntering finishes on it). Grade 6 Sosiale
+Wetenskappe was the first subject built the new way.
+
+* **What goes in.** Content comes from CAPS's *Inhoud en Konsepte* column only. The
+  activities column is not content, even where it names a concept. Then check the
+  term's assessment list (*Toets leerder se kennis deur te sien of hulle*) and make
+  sure every item is covered by some lesson — an assessed item that appears only in
+  the activities column is pulled in by that list, and a hands-on one (design, make,
+  grow) gets the thinking, not the making. Both have been the process from the
+  start; they are written here because they were written nowhere else. Grade 4
+  Sosiale Wetenskappe also reads CAPS's skills-and-concepts section — see below.
+* **How many words.** Each CAPS cluster gets *its hours × the subject's rate*.
+  Revision and assessment hours get no lesson. The rate is per subject, from our own
+  delivered lessons: **Sosiale Wetenskappe 250 per CAPS hour; Natuurwetenskappe about
+  125 per printed topic hour.** Science's printed weeks already contain each term's
+  7 assessment hours, so 125 on the printed hours is the same as about 150 once those
+  are taken off. Inside a cluster the planner shares the words out by what each
+  lesson has to teach, with a one-line reason, and words never move to another
+  cluster. Lessons come from grouping bullets, not counting them.
+* **Never pad.** A lesson may run 12% over its planned words; landing under only
+  warns. The floor is 200 words: *up to 200, or merge it*. A cluster whose hours are
+  mostly practical work is budgeted on its reading, not its hours, and says so.
+* **Too little is the risk, not too much.** Drico, 7 October 2026: more words than a
+  textbook is fine, because it is more teaching. A word count against hours cannot
+  find too little on its own — that day six Grade 6 science lessons sat at half
+  their topic's hours and every one was complete and close to a textbook's count.
+* **A textbook is a cross-check, never a source.** Drico hand-counts one and gives
+  back numbers only. Our lesson division is never adjusted toward a book's, and
+  CAPS's stated emphasis beats a publisher's page budget.
+* **Where a lesson needs a map, the map is content.** Drico, 7 October 2026, said
+  before and recorded nowhere until then: the lesson carries a `kaart` block saying
+  WHAT the map must show, and the HTML team builds it. The layout marks such lessons
+  🗺 and the spec carries a `kaart` field. The general rule — do not describe
+  visuals — still holds for everything else.
+* **A layout is shown to Drico in his table.** One table per term, headed with its
+  teaching hours and words, rows grouped under their CAPS cluster. Columns: `#` (the
+  year lesson number), lesson, words with any floor top-up in brackets (`200 (+30)`),
+  and *Merge?* (✅ / ◐ / ✕ with the merged count and a reason).
+
+The whole rule is under "Budgets from CAPS hours" in the content standard, and the
+planner agent applies it. **Load the standard before any planning conversation.** On
+7 October 2026 the practical-hours exception was offered to Drico as a new idea eight
+days after he had ruled it, because a layout was discussed from memory.
+
 ## Sosiale Wetenskappe runs a different process
 
 **Drico, 7 September 2026: treat this whole subject as an exception to what we have been
