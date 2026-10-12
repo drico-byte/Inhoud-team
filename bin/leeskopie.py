@@ -449,7 +449,21 @@ def lesindeks(graad, vak):
     # lesson correctly puts the CAPS strand there ("Tegnologie: Strukture") rather
     # than its sub-topic -- the same trap that once made two lessons overwrite each
     # other's PDF. The folder is written by paaie and is always the sub-topic.
-    return {(P.slug(e["subonderwerp"]), int(e["les"])): e for e in d.get("lesse", [])}
+    vorm = d.get("naamvorm") or "{nommer}_{etiket}"
+    return {(P.slug(e["subonderwerp"]), int(e["les"])): dict(e, _naamvorm=vorm)
+            for e in d.get("lesse", [])}
+
+
+# Characters a filesystem will not take. Built with chr(92) rather than a literal
+# backslash because this helper is written by a patch script, and a backslash that
+# survives one layer of quoting and not the next corrupts the file silently.
+_ONWETTIG_NAAM = set('<>:"/|?*') | {chr(92)}
+
+
+def _veilig_naam(naam):
+    """Strip what a filesystem will not take, and close the gaps it leaves."""
+    skoon = "".join(c for c in str(naam) if c not in _ONWETTIG_NAAM and ord(c) >= 32)
+    return " ".join(skoon.split()).rstrip(".") or "sonder-naam"
 
 
 def uitvoer_pad(les, pad):
@@ -485,7 +499,13 @@ def uitvoer_pad(les, pad):
         pass
     inskrywing = indeks.get((sub, nommer))
     if inskrywing:
-        naam = f"{int(inskrywing['nommer'])}_{inskrywing['etiket']}.pdf"
+        # The shape comes from the index, so one subject can carry Drico's
+        # "Les 08 - <titel>" while another keeps the older "8_<etiket>". Added
+        # 12 October 2026: Geography's copies had the sub-topic's own number
+        # where History's already had the year's, and the two had to agree.
+        vorm = inskrywing.get("_naamvorm") or "{nommer}_{etiket}"
+        naam = _veilig_naam(vorm.format(nommer=int(inskrywing["nommer"]),
+                                        etiket=inskrywing["etiket"])) + ".pdf"
     else:
         naam = f"{onderwerp}-{stam}.pdf"
     return os.path.join(LEES, graad, vak, naam)
