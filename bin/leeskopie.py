@@ -508,7 +508,15 @@ def uitvoer_pad(les, pad):
                                         etiket=inskrywing["etiket"])) + ".pdf"
     else:
         naam = f"{onderwerp}-{stam}.pdf"
-    return os.path.join(LEES, graad, vak, naam)
+    # A subject whose index names a discipline gets a folder per discipline.
+    # Added 12 October 2026 on Drico's instruction: History and Geography each
+    # number their own lessons 1 to 30, so in one flat folder every number named
+    # two different lessons. Subjects whose index names no discipline - and any
+    # subject with no index at all - keep the flat folder; os.path.join drops an
+    # empty element.
+    dissipline = _veilig_naam(inskrywing["dissipline"]) if (
+        inskrywing and inskrywing.get("dissipline")) else ""
+    return os.path.join(LEES, graad, vak, dissipline, naam)
 
 
 def een(pad):
