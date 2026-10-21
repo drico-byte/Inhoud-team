@@ -37,33 +37,24 @@ import os
 import re
 import sys
 
-# The line a rewritten field carries: everything after it is a record and orders
-# nothing. A field that has this has been read end to end by someone.
-#
-# THE CASE OF THIS SUBSTRING IS LOAD-BEARING. Matched case-insensitively it would also hit
-# 'Alles hieronder bly geld' - which says the exact OPPOSITE, that everything below still
-# orders - and ondersoek SKIPS every field carrying this marker. Measured 1 October 2026:
-# 108 fields carry the marker exactly, in capitals; a looser case-insensitive compare picks
-# up 35 further fragments, and nearly every one of those is 'Alles hieronder bly geld' or
-# 'Alles anders hieronder GELD STEEDS'. So a case-insensitive compare here would silently
-# drop exactly the fields that announce a live order below.
-REKORDLYN = "ALLES HIERONDER"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paaie as P  # noqa: E402
 
-# A dated record: anything marking a correction, a withdrawal or a clarification.
+# THE RECORD VOCABULARY IS NOT HERE. It lives in bin/paaie.py, with the measurements
+# behind every form and the reason the case of each one is load-bearing, because
+# bin/spekbestelling.py has to split a field at the same place this script does and
+# until 8 October 2026 the two knew different words -- that script knew six forms this
+# one counted as nothing, and this one knew the canonical line that script could not
+# see at all. Read P.REKORDMERKERS before touching anything here, and tally the specs
+# before adding a form to it: the words the house uses are not the words a person
+# remembers using.
 #
-# EVERY ALTERNATIVE IS IN CAPITALS AND THIS PATTERN IS CASE-SENSITIVE ON PURPOSE. In these
-# fields case IS the signal: capitals mark a structure, and the same word in lower case is
-# ordinary Afrikaans prose which often means the opposite. Measured 1 October 2026 over all
-# 91 specs: 'verbreed' appears 62 times in lower case and nearly every one of them is prose
-# or an ORDER ('MOENIE DIT VERBREED NIE', 'Verbreed die sin dus eerder as om hom te skrap'),
-# against 16 in capitals; 'teruggetrek' 119 times, 'reggestel' 56. Compiling this with re.I
-# took the list from 39 fields to 89. So do not add flags here, and do not treat a report
-# that some field's marker is in lower case as a missed record - read that field first. It
-# is usually prose, and an order read as a record is worse than a record read as prose,
-# because orde_van then truncates the order at it.
-REKORD = re.compile(r"REGGESTEL|REGGEMAAK|TERUGGETREK|VERBREED|GEKWALIFISEER|OMVANG VERNOU|"
-                    r"AANGEVUL|TYDGEMERK|OPGEHELDER|HERBEVESTIG|TWEEDE REGSTELLING|"
-                    r"Bygevoeg \d")
+# The ONE distinction this script depends on, and the reason paaie keeps the canonical
+# line named separately: a field carrying 'ALLES HIERONDER IS 'n REKORD EN BESTEL NIKS'
+# says in its own words that nothing below it orders anything. ondersoek() SKIPS those
+# fields, and begrawe_bevele() looks at nothing else. Neither test may be widened to
+# the whole vocabulary -- see P.is_rekord_herskryf.
+REKORDLYN = P.REKORD_HERSKRYFLYN
 
 
 def velde(obj, pad=""):
@@ -81,11 +72,12 @@ def velde(obj, pad=""):
 
 
 def orde_van(teks):
-    """The part of a field that orders: above the record line, or above the first record."""
-    if REKORDLYN in teks:
-        return teks[:teks.index(REKORDLYN)]
-    m = REKORD.search(teks)
-    return teks[:m.start()] if m else teks
+    """The part of a field that orders: above the record line, or above the first record.
+
+    One implementation, in paaie, shared with bin/spekbestelling.py. The canonical line
+    wins when it is present; otherwise the first marker of the shared vocabulary does.
+    """
+    return P.orde_helfte(teks)
 
 
 # A prohibition, as the specs write them. The content between MOENIE and NIE is what
@@ -158,13 +150,22 @@ def ondersoek(pad, minimum):
         bron = dict(obj)
         bron.pop("lesse", None)
         for veld, teks in velde(bron):
-            if REKORDLYN in teks:
+            # Skipped BY DESIGN, and only on the canonical line: the field says in its
+            # own words that it has been read end to end. Skipping on any marker of the
+            # shared vocabulary instead would empty this list -- the records this check
+            # COUNTS open with those very words, so every field it wants to report
+            # carries one. Measured 8 October 2026: 200 fields reported, and 0 if the
+            # skip is widened. The two tests ask different questions and the vocabulary
+            # being shared does not make them one.
+            if P.is_rekord_herskryf(teks):
                 continue
-            n = len(REKORD.findall(teks))
+            n = P.tel_rekordmerkers(teks)
             if n < minimum:
                 continue
-            m = REKORD.search(teks)
-            orde = teks[:m.start()].strip()
+            i = P.eerste_rekordmerker(teks)
+            if i < 0:
+                continue          # --min 0: no record at all, so no order can be stale
+            orde = teks[:i].strip()
             if len(orde) < 20:
                 continue          # the whole field is a record; there is no order to go stale
             treffers.append((waar, veld, n, orde))
@@ -292,8 +293,11 @@ def ondersoek(pad, minimum):
 # sit in what orde_van calls the record half, so --botsings cannot see them either. A field
 # whose order opens with its own correction marker is beyond both halves of this script.
 #
-# Do the same tally again before adding anything else here; the words the house uses are not
-# the words a person remembers using.
+# Do the same tally again before adding anything else; the words the house uses are not the
+# words a person remembers using. The list itself moved to bin/paaie.py on 8 October 2026 so
+# that bin/spekbestelling.py reads the same one, and the tally was redone there -- six forms
+# that script already used were added, and VERBREED now needs a date because 46 of its 49
+# occurrences in capitals are prose or a live order.
 #
 # AFGEHANDEL: ASKED FOR, MEASURED, AND DELIBERATELY NOT ADDED, 1 October 2026. A lot of
 # superseded orders were retired that day by writing AFGEHANDEL at the head of them, which
@@ -351,6 +355,15 @@ def begrawe_bevele(dele):
     is explicit that nothing below it orders anything, so a writer reading the field as
     instructed never sees the instruction - and coverage cannot object, because the draft
     matches what the field appears to require.
+
+    THE CANONICAL LINE ONLY, and that is what keeps every hit real. 8 October 2026: the
+    marker vocabulary now lives in paaie and is shared with bin/spekbestelling.py, and the
+    obvious next move -- run this over every field carrying ANY marker -- was measured and
+    rejected. It takes this check from 20 hits to 252, because the house writes the new
+    prohibition INSIDE a dated record ('REGGEMAAK 29 SEPTEMBER 2026: MOENIE X NIE', 30 such
+    sentences), so an imperative below a legacy marker is ordinary and correct. Only the
+    canonical line promises that nothing below it orders anything, and only that promise
+    makes an imperative below it a fault.
     """
     uit = []
     for waar, obj in dele:
@@ -397,6 +410,7 @@ def main():
     totaal = 0
     botsings = 0
     begrawes = 0
+    sonder_merker = []
     for pad in paaie:
         try:
             spek0 = json.load(open(pad, encoding="utf-8"))
@@ -406,6 +420,14 @@ def main():
         except Exception as exc:
             print("KON NIE LEES NIE: %s (%s)" % (pad, exc))
             continue
+        # A file with dated records and no marker line anywhere: every record of
+        # it sits in a live ordering half, so the wording it quotes as withdrawn
+        # reads as an order. None of the other tests sees this.
+        rou_teks = open(pad, encoding="utf-8").read()
+        rekords = P.tel_rekordmerkers(rou_teks)
+        merkers = rou_teks.count(P.REKORD_HERSKRYFLYN)
+        if rekords and not merkers:
+            sonder_merker.append((pad, rekords))
         if begrawe:
             print("")
             print("%s  -- BEGRAWE BEVELE" % pad.replace(os.sep, "/"))
@@ -450,6 +472,17 @@ def main():
     print("")
     print("%d spesifikasie(s) ondersoek, %d veld(e) wat 'n mens moet lees, %d begrawe bevel(e), "
           "%d botsende verbod(e)." % (len(paaie), totaal, begrawes, botsings))
+    if sonder_merker:
+        print("")
+        print("%d LÊER MET GEDATEERDE REKORDS EN GEEN REKORDMERKER NIE:"
+              % len(sonder_merker))
+        for pad, n in sorted(sonder_merker):
+            print("   %-62s %d rekord(s), 0 merkers"
+                  % (pad.replace(os.sep, chr(47)), n))
+        print("In so 'n leer staan ELKE rekord in 'n bestellende helfte, dus lees die")
+        print("teruggetrekte bewoording wat hy aanhaal soos 'n opdrag. Nie een van die ander")
+        print("toetse sien dit nie, want hulle soek velde met MEER as een rekord. Gee elke")
+        print("sulke veld die vorm: elke bestelling eerste, dan die merkerreel, dan die rekords.")
     if begrawes:
         print("'n BEGRAWE BEVEL is 'n opdrag wat ONDER die rekordmerker staan, waar die veld self se dat")
         print("niks bestel word nie. Skuif hom bo die merker, positief gestel. Dit is die enigste een van")

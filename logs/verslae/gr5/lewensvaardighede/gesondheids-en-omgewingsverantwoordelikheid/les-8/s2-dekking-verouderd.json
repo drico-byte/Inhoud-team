@@ -1,0 +1,73 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "dekking",
+  "prompt_weergawe": "dekkingsnasiener-v1.5",
+  "les": "Vuil water en 'n muskietbyt",
+  "kaps_punt": "Plaaslike omgewingsgesondheidsprobleme: Plaaslike gesondheidsprobleme wat gereeld voorkom soos tuberkulose, diarree, malaria, masels, ensovoorts; Oorsake van gesondheidsprobleme; Simptome van gesondheidsprobleme; en Beskikbare behandeling vir gesondheidsprobleme.",
+  "verdict": "MENS_NODIG",
+  "spesifikasie_probleem": true,
+  "items": [
+    {
+      "tipe": "kern",
+      "verwysing": "WAT HIERDIE TWEE SIEKTES SAAMBIND, en dit is die kontras met les 7: DIE KONTRAS GAAN OOR HOE DIE SIEKTE BY JOU UITKOM, NIE WAAR DIT VANDAAN KOM NIE",
+      "status": "teenwoordig",
+      "bewys": "Hoe diarree en malaria by jou uitkom — party siektes deur die lug, diarree by die mond in, malaria met 'n muskiet se byt; omgewing bring kieme en muskiete, maak nie die siekte nie"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "DIAREE, OORSAAK EN SIMPTOME: diarree begin MEESTAL wanneer iets wat 'n mens siek maak by sy mond inkom",
+      "status": "teenwoordig",
+      "bewys": "Hoe diarree begin — meestal by die mond, dikwels kieme uit vuil water, ongewaste hande, kos te lank buite, vlieg; dun waterige stoelgang, maagkrampe, opgooi, koors; begrip 'kieme' woord vir woord"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "SIMPTOOM EN TEKEN, DIE ALLES HIERONDER IS 'n REKORD EN BESTEL NIKS. (bestelling slegs in les-8.rekords.json kern[2]: uitdroging as die werklike gevaar, tekens en simptome saam, risikogroepe, roep 'n grootmens, paar woord vir woord)",
+      "status": "teenwoordig",
+      "bewys": "Die gevaar is die water wat die liggaam verloor — droe mond, dors, min urine, moeg en slap, geen trane, saam as tekens en simptome, babas/kinders/ou mense, roep 'n grootmens; begrip 'simptoom' en 'teken' woord vir woord"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "DIAREE, BEHANDELING: gaan kliniek toe, en veral gou as dit 'n baba of 'n klein kind is. Intussen hou die mens aan drink",
+      "status": "teenwoordig",
+      "bewys": "Wat om te doen as iemand diarree het — aanhou drink teen die ou geloof, grootmens vra vooraf, belangrikste deel voor en na die kliniek, aanhou eet en borsdrink, wie beslis moet gaan; geen resep"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "DIAREE, HOE 'N MENS DIT KEER, en dit is dieselfde goed as les 3 en les 5",
+      "status": "teenwoordig",
+      "bewys": "Hoe jy diarree keer — al vier maatreels, plus handewas as een van die goedkoopste maniere wat werk"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "MALARIA, OORSAAK EN WAAR DIT VOORKOM: malaria kom van die byt van 'n sekere soort muskiet wat meestal in die nag byt",
+      "status": "teenwoordig",
+      "bewys": "Waar malaria vandaan kom — sekere muskiet snags, siek na gesonde mens, hoofsaaklik laer warm dele in die noordooste, warm nat maande, meeste woon nie daar nie"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "MALARIA, SIMPTOME EN BEHANDELING: koors, koue rillings, hoofpyn, lyfpyne, opgooi en groot moegheid",
+      "status": "teenwoordig",
+      "bewys": "Hoe malaria voel en wat jy doen — griepagtige simptome wat saggies kan begin, 'n week of langer na die byt, vertel die kliniek, prikkie bloed, gesond gemaak, vinnig ernstig"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "MALARIA, HOE 'N MENS DIT KEER: slaap onder 'n muskietnet; smeer afweermiddel aan; hou vensters en deure toe in die aand of sit gaas voor; trek lang moue aan wanneer die son sak.",
+      "status": "teenwoordig",
+      "bewys": "Hoe jy muskietbyte keer — net, afweermiddel met 'n grootmens, vensters/deure of gaas, lang moue teen sononder"
+    },
+    {
+      "tipe": "fokus",
+      "verwysing": "Lewer die ander helfte van 'wat maak mense siek': wat diarree en malaria veroorsaak, waaraan 'n mens hulle ken, dat albei kliniek toe gaan, en wat 'n leerder aan die PLEK kan doen - skoon water, skoon hande en 'n muskietnet.",
+      "status": "teenwoordig",
+      "bewys": "Hoe diarree begin + Waar malaria vandaan kom (oorsaak); tekens-en-simptome-blokke (ken); albei behandelingsblokke (kliniek); Hoe jy diarree keer + Hoe jy muskietbyte keer (die plek)"
+    }
+  ],
+  "oortollig": [
+    {
+      "inhoud": "'Muskiete broei in water wat stilstaan.'",
+      "blok": "Waar malaria vandaan kom",
+      "waarom": "Geen kern-item vra waar muskiete broei nie en geen keer-maatreel gebruik dit nie; net feiterisiko gee 'n veilige vorm as dit genoem word, en dit is die subonderwerp se hoogste-risiko-bewering."
+    }
+  ],
+  "opsomming": "Die les dek al agt kern-items en sy fokusvraag_skakel, en die vier gedeelde begrip-inskrywings (kieme, simptoom, teken, kliniek) stem woord vir woord ooreen met vak_gedeelde_omskrywings, maar die spek-uittreksel is stukkend: in kern[2] en termdig_nota staan die rekordmerker binne of voor die openingsin, dus het die hele bestelling (uitdroging as diarree se werklike gevaar, die gesamentlike tekens-en-simptome-lys, die risikogroepe, roep 'n grootmens, die paar woord vir woord, en die verbod op 'rehidrasie', 'parasiet' en 'infeksie') na les-8.rekords.json geskuif, wat se dat dit niks bestel nie, en eli10_afgeskaf is op dieselfde manier middel-in-die-sin afgesny — 'n mens moet daardie bestellings by die bron in spesifikasies/goedgekeur/ bo die merker terugsit, en terselfdertyd begroting_basis_nota en kaps_ure_nota regmaak, wat nog 500 woorde en 'n bandplafon van 500 bestel teenoor begroting 550 en plafon_uitsondering."
+}

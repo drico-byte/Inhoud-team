@@ -54,3 +54,13 @@ Half the twelve needed no replacement at all — the sentence beside them alread
 
 Related: [[vee-die-bewering-oor-al-die-spesifikasies]] (sweep every field that repeats the claim),
 [[die-korrigeerde-opdrag-bly-in-die-veld-staan]] (the order survives its own retraction).
+
+**Do not number fact checks either.** On 9 October 2026 one specification had two fields each
+calling a check "the THIRD fact check" while a third field called one "the FOURTH", and my own
+brief called that day's check the third — four incompatible counts of the same sequence. An
+agent repairing the file refused to add a fifth number and identified each entry by its DATE
+plus what it found ("the check that found the set-reading a fourth time", "the check that left
+this block's conclusion not following"), keeping an ordinal only where a standing order
+genuinely depends on a count of occurrences. That is the right rule: a date and a finding stay
+true, an ordinal is a ranking that drifts the moment anyone loses count — and these records are
+written by different hands on different days.

@@ -435,3 +435,85 @@ Same session, same shape, one level further out: two older brackets still ordere
 lifted restriction, and one clause sat **outside any bracket** treating a mind map
 falling inside as the fault — that last one being the only one a reviser would have
 followed with no warning at all.
+
+## The second thing I got wrong about this sweep: it reads one specification in eight
+
+**7 October 2026.** Having already had this sweep's logic inverted once (above), I spent a
+day quoting its baseline — "eight fields for a person to read, zero buried orders" — to
+Lampies and to a dozen agents as evidence that a subject was in good order.
+
+**It was reading one specification out of eight.** The sweep recognises a record by a
+fixed vocabulary of marker words. The sub-topic I had been working in writes its records
+in those words; **the other seven write theirs as `NAGEGAAN <date>` and
+`LAMPIES SE BESLISSING, <date>`, neither of which is in that vocabulary.** So those seven
+files had no recognised records, nothing crossed the threshold, and nothing was reported.
+All eight hits in the baseline came from the one file. Teaching it the other forms would
+surface **twenty more fields across twelve specifications.**
+
+**The baseline did not move when a whole file was restructured** — 23 markers introduced
+where there had been none — and I read that stability as confirmation. It was the sweep
+being blind to that file both before and after.
+
+**What makes this the same mistake twice.** The first time I asserted what the tool does
+without reading it. This time I read what it *reports* without asking what its unit and
+its threshold actually are. Both times the output looked like evidence.
+
+**How to apply:**
+
+* **Before quoting a sweep's count, establish its unit and its recognition rule** — what
+  does it count, and what does it have to recognise before a thing can be counted? Then
+  check that the files you care about are recognisable to it at all.
+* **A number that does not move when the thing it measures changes a lot is a warning,
+  not a reassurance.** It usually means the measurement never touched the change.
+* **Say in the brief that a baseline is my claim**, not the tool's guarantee — agents
+  wrote this one into specification records as settled fact, which is how my inversion
+  travelled last time.
+
+Related: [[n-wag-wat-sy-eie-reels-naskryf]] (a guard that paraphrases the rules it
+checks), [[n-skoon-toets-is-so-wyd-soos-sy-omvang]] (the same lesson about scope), and
+[[my-soektogte-mis-en-dan-glo-ek-hulle]].
+
+## And there are two sweeps and two vocabularies, each blind to the other's
+
+**8 October 2026**, the day after discovering the first blind spot above. The picture is
+worse than one tool reading one file:
+
+* **`bin/verouderde-bestellings.py`** recognises the canonical line
+  `ALLES HIERONDER IS 'n REKORD EN BESTEL NIKS`. Only one of the eight Grade 6 Social
+  Sciences specifications used that line, so its count only ever described that one file.
+* **`bin/spekbestelling.py`** — the buried-order sweep — recognises a *different* set
+  (`REGGEMAAK`, `TERUGGETREK`, `BYGEVOEG` and kin) and **does not recognise the canonical
+  line at all.** So every field written in the house shape is invisible to it.
+
+**The two blind spots are complementary, which is the trap.** A field marked the house way
+is seen by the first tool and missed by the second; a field marked the older way is seen by
+the second and missed by the first. Between them they cover neither set properly, and both
+print a clean number.
+
+**And a repair can move a field from one blind spot to the other.** Introducing 23 canonical
+markers into a specification — correct, and the house shape — made those fields visible to
+the stale-order sweep and **invisible to the buried-order sweep in the same stroke.** So
+"the counts did not move" after a large restructuring is not reassurance; it is two tools
+disagreeing silently about what a record looks like.
+
+**How to apply:**
+
+* **The fix is one shared marker list both tools read**, not a longer list in each. Two
+  copies of a rule is the fault in [[n-wag-wat-sy-eie-reels-naskryf]], and this is that
+  fault across two files.
+* Until then: **name which tool a number came from and which files it can actually see**,
+  every time. "Zero buried orders" without that is a sentence that says nothing.
+* **When introducing markers, check what the change makes invisible**, not only what it
+  makes tidy.
+
+**12 October 2026 — FOUR times in one week, all mine, every one found by a checker or a
+writer and never by me.** Each time I amended a later sentence of a field and left its
+opening line ordering what the field withdrew below. A rule I quote in every brief did not
+stop me doing it four times, so it needs a mechanical check, not more resolve:
+
+**After every requirement repair, print the field's opening sentence and read it against what
+the field now requires.** Where the fields are siblings — a set of claims the curriculum names
+together — diff their opening lines against each other too: two siblings repaired on different
+days drift into different shapes, and that difference is the cheapest signal that one is
+wrong. A three-line script comparing the openings of one set found all three of mine in
+seconds, after a coverage check had found the first by reading.

@@ -55,3 +55,37 @@ occurrence and a total count, never the first. Say where each sits — above or
 below the record marker — because that decides whether it orders anything. And
 when a brief rests on my own search, say in the brief that it is my search and may
 have missed: the writer's doubt is the last line of defence, and here it held.
+
+## It is not only searches: three thin probes in one day, and I believed all three
+
+**8 October 2026.** The same failure with a one-line Python probe instead of a web
+search. Each time I ran one check, got an answer that fitted what I expected, and wrote
+it down as fact:
+
+1. **A regression harness** compared an old module against a new one and reported 340 of
+   387 differences. I nearly reverted a correct refactor. The old copy was in the
+   scratchpad and could not see the repository at all - it was answering nothing, not
+   answering differently. See [[n-module-buite-sy-boom-lees-niks]].
+2. **A sweep's output** said "0 extracts read", which I read as "there were none". It was
+   reading 0 of 435. See [[n-wag-wat-sy-eie-reels-naskryf]].
+3. **An injection probe** printed `None` for a term, so I concluded the term had dropped
+   out of the extract entirely and wrote that into a note. It had not; the field I was
+   looking for is injected under a different key. A writer disproved it within the hour.
+
+**What the three have in common:** one query, a plausible result, no second query from a
+different direction. And in all three the plausible result was the one that confirmed
+what I already thought.
+
+**How to apply.** Before writing a mechanical fact down as settled, **prove the probe can
+see anything at all** - make it return a known-present value first - and then ask the
+question from the other side: not only "is X absent" but "what IS there". `print` the
+whole structure once rather than one key of it. A probe costs seconds; a false note in a
+file that others read costs a round.
+
+**9 October 2026: I broke this rule's last sentence with the rule already written.** I
+dumped a lesson's blocks printing `opskrif` and got `None` for all thirteen, and read that
+as "this lesson has no headings". The key is `kop`. The gate caught it minutes later by
+naming a heading in a warning, and one of those headings carried the very fault I was
+repairing. One key, one lesson, a result that looked like a clean finding. `print` the
+whole structure once, as this file already says, and never conclude absence from one key
+that returned nothing.

@@ -1,0 +1,60 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "dekking",
+  "prompt_weergawe": "dekkingsnasiener-v1.5",
+  "les": "Vandag se weer, en die plek se klimaat",
+  "kaps_punt": "Verskil tussen weer en klimaat",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "tipe": "kern",
+      "verwysing": "WEER: wat die weer op 'n plek nou of oor 'n kort tyd is — hoe warm of koud dit is, of dit reën, hoeveel wind daar is, of dit bewolk is. Die punt wat moet land: die weer VERANDER, van dag tot dag en selfs binne een dag.",
+      "status": "teenwoordig",
+      "bewys": "Wat jy by die deur uit sien — al vier (warm/koud, reën, wind, wolke) op daardie oomblik; Die weer verander — van dag tot dag en binne een dag",
+      "aksie": ""
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "KLIMAAT: die patroon van weer wat 'n plek oor baie jare het — wat op daardie plek die gewone ding is. Stel dit as 'n PATROON ... wat in elke deel van die jaar gewoonlik gebeur. MOENIE 'n GETAL JARE GEE NIE.",
+      "status": "teenwoordig",
+      "bewys": "Wat 'n plek gewoonlik doen — patroon oor baie jare, ook per deel van die jaar (Januarie warmer as Julie); geen getal jare",
+      "aksie": ""
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "DIE VERSKIL: een dag se weer verander nie 'n plek se klimaat nie, en om 'n plek se klimaat te ken, sê nie vir jou wat vandag se weer daar is nie. Gee EEN konkrete paar — 'n reëndag op 'n droë plek, en 'n koel dag op 'n warm plek.",
+      "status": "teenwoordig",
+      "bewys": "Een dag verander nie die klimaat nie — reëndag in die droë Karoo en koel dag in warm Durban, albei kante uitgespreek",
+      "aksie": ""
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "DIE VERSKIL IS TYD, NIE PLEK NIE. Albei woorde kan oor DIESELFDE plek gaan - jou dorp het weer en ook 'n klimaat - en 'n klimaat kan ook vir 'n hele streek of die wêreld beskryf word ... die les moet dit uitdruklik regstel: elke plek, ook jou eie dorp, het 'n klimaat.",
+      "status": "teenwoordig",
+      "bewys": "Die verskil is die tyd — misverstand plaaslik/wêreldwyd reggestel, streek of wêreld, eie dorp het weer en klimaat, skeiding is lengte van tyd",
+      "aksie": ""
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "TWEE DINGE BESKRYF VERAL ALBEI: hoe warm dit is (temperatuur) en hoeveel reën daar val. Stel hulle as die twee BELANGRIKSTE en nie as die enigste twee nie - wind en wolke hoort ook by die klimaat.",
+      "status": "teenwoordig",
+      "bewys": "Twee hoofsake by albei — temperatuur en hoeveel reën 'veral', met 'Wind en wolke hoort ook by albei'",
+      "aksie": ""
+    },
+    {
+      "tipe": "fokus",
+      "verwysing": "Lewer die gereedskap waarmee die hele subonderwerp sy vraag kan stel: dat elke plek 'n weer het wat van dag tot dag verander en 'n klimaat wat oor baie jare 'n patroon hou.",
+      "status": "teenwoordig",
+      "bewys": "Die weer verander; Wat 'n plek gewoonlik doen; Die verskil is die tyd — wisselende weer teenoor patroon oor baie jare, geen streekinhoud",
+      "aksie": ""
+    }
+  ],
+  "oortollig": [
+    {
+      "inhoud": "'en die droë slote loop vol water'",
+      "blok": "Een dag verander nie die klimaat nie",
+      "waarom": "Die kern vra net 'n reëndag op 'n droë plek; die beeld van slote wat volloop is 'n bykomende bewering binne die vereiste paar wat geen vereiste nodig het nie."
+    }
+  ],
+  "opsomming": "Al vyf kern-items en die fokusskakel is gedek met elke gelyste onderdeel teenwoordig, die drie verwagte begrippe staan met die ingespuite bewoordings vir 'weer' en 'klimaat' woordeliks, en geen bestelling in les-1.json word deur 'n rekord in les-1.rekords.json (gedeelde_omskrywings_nota, vak_gedeelde_omskrywings.nota) teruggetrek nie, en geen veld bestel 'n eli10-blok nie."
+}

@@ -116,3 +116,53 @@ earlier rounds of that entry went wrong.
 
 **The general rule: an order about arrangement is a frozen state. Restate it as an
 order about what must be true.**
+
+## The field I wrote yesterday is the one I forget to sweep
+
+**9 October 2026.** On 8 October I suspended a faulty agreed wording and wrote a notice
+into a specification field: *the injected list held this wording; it is suspended; a
+writer who finds the term EMPTY in that list should deliver the form the core item
+orders and report the sentence.*
+
+On 9 October a person decided the term gets **no entry at all**. I swept that decision
+across the core item, the expected-terms list and the shared-wordings note - and missed
+the field holding my own notice. So a writer reading top-down was told that this lesson
+carries the entry and instructed to deliver a wording, while the core item forbade one.
+**My notice had frozen a state that lasted one day**, and the instruction fired exactly
+when the state it described came true.
+
+A coverage checker found it. Its observation is the useful part: the 9 October sweep
+reached three fields and not this one, and the writer's own note said the previous
+round's conflict was gone - because the writer had checked the core item and the
+expected-terms list, which were the two I had fixed.
+
+**Why I missed it.** I remember a field I wrote as *the fix*, not as *a carrier*. The
+sweep I ran was a sweep for the old wording, and my notice did not contain the old
+wording - it contained an instruction ABOUT the old wording, which is a different
+string and the same hazard.
+
+**How to apply.**
+
+* **Sweep for the DECISION, not only for the wording.** After a ruling changes, the
+  carriers include every field that describes the previous state - notices, cross-
+  references, "what to do if" instructions - and none of them will match a search for
+  the withdrawn text.
+* **List the fields I touched in the previous round and re-read each one.** They are
+  the likeliest carriers and the ones I will not think of. Keeping that list costs
+  nothing; I already write it into every repair report.
+* **Prefer a notice that states a rule to one that states a state.** "Do not write an
+  entry for this term" survives a change of state. "If you find the list empty, deliver
+  a wording" is a conditional on a state, and it detonates when the state arrives.
+
+**12 October 2026 — I repaired a frozen-state note by writing another one, within the hour,
+while repairing exactly this class of fault.** Two fields refused work on the grounds that
+"the lesson is at its ceiling", which was false — there were fifty-one words spare. My fix
+replaced that with "it measures 509 words against a ceiling of 560". A writer round landed
+the same afternoon and the lesson became 519, so my correction was wrong before the day was
+out, and a coverage check flagged it.
+
+**A measurement is a frozen state, exactly like the claim it replaced.** The durable form
+names no number at all: the prohibition rests on its own first reason, and whether there is
+room is the gate's business and is read there, never asserted in a requirement. When
+correcting a note that froze a state, check that the replacement is not itself a state — "it
+measures N" and "it is at its limit" are the same mistake with different arithmetic.

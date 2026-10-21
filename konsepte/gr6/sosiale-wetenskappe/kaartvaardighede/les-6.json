@@ -1,6 +1,6 @@
 {
   "skema_weergawe": "1.0",
-  "status": "gated",
+  "status": "goedgekeur",
   "titel": "Hoe ver is dit regtig van hier na daar",
   "graad": 6,
   "vak": "Sosiale Wetenskappe",
@@ -13,40 +13,47 @@
     "lynskaal",
     "lineaal",
     "sentimeter",
-    "kilometer"
+    "kilometer",
+    "saamdruk",
+    "papiertjie"
   ],
   "herkoms": {
     "kaps_dokument": "KABV Sosiale Wetenskappe Graad 4-6, Graad 6 Geografie Kwartaal 1, gedrukte bladsy 29 (PDF-bladsy 34): Onderwerp Kaartvaardighede (Fokus: Wêreld), kluster 'Skale' (4 uur), strepie 'Meet reguitlyn-afstande tussen stede', saam met voetnoot * op daardie bladsy.",
     "profiel_konfig": "gr6-sw-geografie-profiel.json",
     "skrywer_prompt": "skrywer-v1.6",
     "handboek_gesien": false,
-    "nota": "Hersien 29 September 2026 onder skrywer-v1.6, na 'n feitenasien (HERSIEN) en 'n dekkingsnasien (GOEDGEKEUR). Begroting 350 op die kaps-ure-basis, plafon 392.\n\nDRIE VERANDERINGE IN HIERDIE RONDTE, EN NIE EEN MAG OMGEDRAAI WORD NIE:\n\n1. SLOTBLOK: 'Hierdie metode werk op enige kaart met 'n skaal daarop' is UIT. Daardie sin het blok 4 se eie voorbehoud teruggeneem, want op 'n wêreldkaart geld een skaal net langs bepaalde lyne. Die KWANTIFISEERDER is versmal en nie die onderwerp nie: die slotblok dra nou self die voorbehoud oor die wêreldkaart, sodat die laaste blok nie kan losraak van die een voor hom nie.\n\n2. PAPIERRAND: 'net so goed' is UIT. 'n Skoon papierrand dra geen merke nie en kan dus nie die sentimeterlesing gee wat die sin voor hom vra nie. Die voorwaarde staan nou bý die bewering: die rand vervang die lineaal net op 'n kaart met 'n lynskaal, en blok 3 se laaste sin wys wat 'n mens dan met die strepies doen. DIE BRON VAN HIERDIE FOUT IS DIE SPESIFIKASIE: kern-item 2 stel die lineaal en die papierrand as gelykes vir DIESELFDE stap. Die uittreksel is NIE gewysig nie - hy word oorgeskryf - en dit is in die verslag gerapporteer sodat dit by die bron regkom.\n\n3. PADAFSTAND GESNY: 'Langs die pad is dieselfde reis omtrent 1 400 kilometer, dus is die reguit lyn korter' is uit. Dit is 'n OORDEEL en nie 'n regstelling nie - die getal is nagegaan en dit hou. Drie redes: geen vereiste vra 'n padgetal; die feiterisiko waarsku juis teen 'n padafstand langs die uitgewerkte getal; en nasieners kry 1 398, 1 402 en 1 483, want 'die padafstand' hang van die roete en van die punt in elke stad af. Kern 1 se onderskeid staan volledig in blok 1, dus gaan niks verlore. MOENIE DIE GETAL TERUGSIT NIE.\n\nBEVESTIG DEUR 'N NASIENER, MOENIE OPKNAP NIE:\n* DIE VOËL IN BLOK 1. Die afbeelding self is nagegaan en hou. Die les sê wat die voël VRY is om te doen en nie wat voëls doen nie - kraaie vlieg nie besonder reguit nie. Moenie dit 'regmaak' nie.\n* ELKE GETAL HOU: die reguitlyn Kaapstad-Johannesburg is omtrent 1 262 km teen die les se 1 250, en vyf maal 250 klop. Moenie die uitgewerkte getal verskerp nie.\n* 'Die pad is nooit korter as die reguit lyn nie' is per definisie veilig.\n* Kern 4 se tweede helfte, blok 4 se laaste sin, is bevestig en bly staan.\n\nSTAANDE BESLISSINGS:\n* KABV SE VOETNOOT * IS 'N VERBOD: net woord- en lynskale, geen verhoudingskaal, ook nie as 'n derde soort wat net vermeld word nie.\n* Die instrument is 'n LINEAAL en nooit 'n 'reël'.\n* GEEN GETAL VIR DIE WÊRELDPAAR, geen projeksie by die naam, en nêrens hoeveel 'n wêreldkaart rek nie. Geen koördinaat, geen bevolking en geen stad se grootte - dit is lesse 3 en 9 se werk.\n* Die eli10-blok is afgeskaf (Drico, 23 September 2026). Geen veld in hierdie inskrywing vra een.\n* 'op hierdie kaart' bly staan: die KAARTBEELD moet by 1 cm = 250 km pas, nie die teks nie. Die spesifikasie se notas hou daardie besluit.\n* Geen tweede inskrywing vir kaart, skaal, woordskaal of lynskaal - lesse 3 tot 5 besit daardie bewoordings. Geen term uit die vak se gedeelde omskrywings kom hier voor.\n* Geen lys-blok: die metode staan volledig in woorde in blokke 2 en 3.\n* GEEN HANDBOEK is gesien, aangebied of gevra nie. Die bronne is die spesifikasie en eie kennis."
+    "nota": "Hersien 15 Oktober 2026 onder prompts/skrywer-v1.6.md, in vier rondtes op een dag: eers om die konsep (geskryf 29 September) in lyn te bring met die spesifikasie ná sy feitetoets; daarna na drie feitetoetse van die les self, waarvoor kern 2, kern 5 en die kaartbeeld-nota telkens by die bron reggemaak is. Begroting 350 op die kaps-ure-basis, plafon 392. Hierdie nota vervang die vorige een.\n\nVERANDER 15 OKTOBER 2026, EN NIE EEN MAG OMGEDRAAI WORD NIE:\n1. VERVORMING: die wêreldkaart rek party dele uit OF druk hulle saam (kern 4). Die ou vorm het net van rek gepraat. Steeds geen mate en geen projeksie.\n2. DIE SKAAL IS 'n VOORBEELD (kern 2): die leerder word na die woordskaal op sy EIE kaart gestuur, en 1 cm = 250 km word uitdruklik as voorbeeld gestel. 'op hierdie kaart' is UIT, want 'n leerder op sy eie kaart het dit as sy kaart se skaal gelees. Geen werklike stedepaar staan by die 1 250 km nie; MOENIE EEN TERUGSIT NIE.\n3. LINEAAL VAN SY 0 AF (kern 2).\n4. DIE LINEAALROETE IS 'n VOORWAARDE EN NIE 'n UITSLUITING NIE (kern 2, derde feitetoets): AS jou kaart 'n woordskaal het en nie groter of kleiner gekopieer is nie, sê die woordskaal hoeveel kilometer een sentimeter voorstel. MOENIE 'NET' TERUGSIT NIE: die lineaal werk ook met ander skale, en saam met die papierroete se 'net' sou 'n leerder met 'n ander soort skaal glo dat niks werk nie. Die 'net' het die tweede rondte self ingebring en die derde het hom uitgehaal. Die kopieer-voorwaarde staan omdat 'n woordskaal nie saam met 'n vergrote of verkleinde kaart verander nie en 'n lynskaal wel. Die papierroete werk wel net op 'n kaart met 'n lynskaal: die eerste strepie by die 0 (les 5: elke merk wys die afstand van 0 af), en is die afstand langer as die lynskaal, skuif die papiertjie aan en tel die stukke bymekaar. Die twee roetes staan in aparte blokke en is nie twee gereedskapstukke vir een stap nie. Geen derde soort skaal word genoem nie (KABV voetnoot *).\n5. SLOTBLOK VERSMAL (kern 5): die vermoë geld vir twee plekke op 'n kaart van SUID-AFRIKA. 'Enige twee plekke' is UIT vir die wêreldkaart: vir plekke soos Kaapstad en Londen is dit 'n growwe skatting, en ver noord, ver suid of aan teenoorgestelde kante van die kaart kan dit heeltemal verkeerd wees.\n6. DIE VOËL (derde feitetoets): 'Hy kan reguit ... vlieg' en nie 'hy vlieg reguit' nie. Voëls vlieg nie altyd reguit nie; die les sê net wat die voël KAN doen. MOENIE DIT TERUGMAAK NA 'n FEIT OOR VOËLS NIE.\n\nSTAAN STEEDS (29 September 2026):\n* Geen slotsin dat die metode op enige kaart met 'n skaal werk nie.\n* Geen padgetal: die padafstand Kaapstad-Johannesburg is gesny en mag nie terugkom nie.\n* 'Die pad is nooit korter as die reguit lyn nie' is per definisie veilig.\n\nSTAANDE BESLISSINGS: net woord- en lynskale (KABV voetnoot *), geen verhoudingskaal ook nie as vermelding; die instrument is 'n LINEAAL; geen getal vir die wêreldpaar; geen koördinaat, bevolking of stadsgrootte; geen tweede inskrywing vir kaart, skaal, woordskaal of lynskaal (lesse 3-5 besit hulle); geen term uit die vak se gedeelde omskrywings kom hier voor; geen eli10-blok en geen veld vra een; geen lys-blok.\n\nGEEN HANDBOEK is gesien, aangebied of gevra nie. Die bronne is die spesifikasie en eie kennis."
   },
   "blokke": [
     {
       "tipe": "studie",
       "kop": "Die pad draai en die reguit lyn nie",
-      "teks": "Die pad uit jou dorp draai om koppies en volg die rivier. 'n Voël hoef nie een van daardie draaie te maak nie. Hy vlieg reguit van die een dorp tot by die ander. Die afstand langs daardie reguit lyn is die reguitlyn-afstand tussen die twee plekke. Elke draai in 'n pad sit nog 'n stukkie by die reis. Die pad is daarom nooit korter as die reguit lyn nie."
+      "teks": "Die pad uit jou dorp draai om koppies en volg die rivier. 'n Voël hoef nie een van daardie draaie te maak nie. Hy kan reguit van die een dorp tot by die ander vlieg. Die afstand langs daardie reguit lyn is die reguitlyn-afstand tussen die twee plekke. Elke draai in 'n pad sit nog 'n stukkie by die reis. Die pad is daarom nooit korter as die reguit lyn nie."
     },
     {
       "tipe": "studie",
-      "kop": "Merk die twee stede en meet",
-      "teks": "Soek Kaapstad en Johannesburg op 'n kaart van Suid-Afrika en merk elkeen met 'n potlood. Lê nou die reguit rand van jou lineaal teen albei daardie punte. Lees af hoeveel sentimeter die lyn tussen die twee punte lank is. 'n Papiertjie se reguit rand dra geen merke nie en gee jou dus geen sentimeter nie. Hy vervang die lineaal net op 'n kaart met 'n lynskaal. Merk dan die twee stede se plekke met twee strepies op daardie rand."
+      "kop": "Merk twee stede en meet met 'n lineaal",
+      "teks": "Kies twee stede op 'n kaart van Suid-Afrika en merk elkeen met 'n potlood. Hou die 0 van jou lineaal by die een punt en lê die rand teen die ander punt. Lees by daardie ander punt af hoeveel sentimeter dit is."
     },
     {
       "tipe": "studie",
       "kop": "Van sentimeter na kilometer",
-      "teks": "Daardie getal op jou lineaal sê nog niks oor die aarde self nie. Die kaart se skaal maak daarvan die regte kilometers op die aarde. Op hierdie kaart sê die woordskaal dat een sentimeter 250 kilometer voorstel. Jy het vyf sentimeter gemeet, dus maal jy vyf met 250. Jou antwoord is dan omtrent 1 250 kilometer van Kaapstad tot by Johannesburg. Met 'n lynskaal hou jy die papiertjie se strepies daarteen en lees die kilometers sommer af."
+      "teks": "Daardie sentimeters sê nog niks oor die werklike afstand op die aarde nie. As jou kaart 'n woordskaal het en nie groter of kleiner gekopieer is nie, sê die woordskaal hoeveel kilometer een sentimeter voorstel. Neem as voorbeeld 'n woordskaal waar een sentimeter 250 kilometer voorstel. As jy dan vyf sentimeter meet, maal jy vyf met 250 en kry omtrent 1 250 kilometer."
+    },
+    {
+      "tipe": "studie",
+      "kop": "Die tweede roete: 'n papiertjie en die lynskaal",
+      "teks": "'n Papiertjie se reguit rand het geen merke nie en kan jou dus geen sentimeter gee nie. Daarom werk hierdie roete net op 'n kaart met 'n lynskaal. Lê die rand teen die twee stede en trek 'n strepie by elkeen. Hou dan die eerste strepie by die 0 van die lynskaal. Waar die tweede strepie val, lees jy die kilometers af. Is die afstand langer as die lynskaal, skuif die papiertjie aan en tel die stukke bymekaar."
     },
     {
       "tipe": "studie",
       "kop": "Nou op die kaart van die wêreld",
-      "teks": "Doen nou dieselfde met Kaapstad en Londen op 'n kaart van die wêreld. Merk die twee stede, meet die lyn en lees die kilometers met die skaal af. Daardie antwoord is net 'n skatting en nie 'n presiese getal nie. Die aarde is 'n bal en 'n blad papier is nie. 'n Plat kaart van die hele wêreld rek party dele van die aarde uit. Op 'n kaart van net Suid-Afrika is die rek klein genoeg dat jou antwoord bruikbaar bly."
+      "teks": "Doen nou dieselfde met Kaapstad en Londen op 'n kaart van die wêreld. Jou antwoord is hier net 'n skatting. Die aarde is 'n bal en 'n blad papier is nie. 'n Plat kaart van die hele wêreld rek party dele van die aarde uit of druk hulle saam. Op 'n kaart van net Suid-Afrika is daardie rek of saamdruk so klein dat die antwoord bruikbaar bly."
     },
     {
       "tipe": "studie",
       "kop": "Wat jy nou self kan uitwerk",
-      "teks": "Jy kan van enige twee plekke op 'n kaart sê omtrent hoe ver hulle van mekaar is. Op 'n kaart van die hele wêreld bly daardie antwoord 'n growwe skatting. Jy hoef dit in geen boek of op geen foon te gaan naslaan nie."
+      "teks": "Jy kan van twee plekke op 'n kaart van Suid-Afrika sê omtrent hoe ver hulle van mekaar is. Jy hoef dit in geen boek of op geen foon te gaan naslaan nie. Op 'n wêreldkaart is die antwoord vir plekke soos Kaapstad en Londen 'n growwe skatting. Vir plekke ver noord, ver suid of aan teenoorgestelde kante van die kaart kan dit heeltemal verkeerd wees."
     },
     {
       "tipe": "begrip",

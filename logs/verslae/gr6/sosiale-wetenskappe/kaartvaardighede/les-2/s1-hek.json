@@ -1,23 +1,23 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Bo of onder die ewenaar: waar Suid-Afrika lê",
   "graad": 6,
   "vak": "Sosiale Wetenskappe",
   "budget": 350,
   "begrotingsreel": "CAPS-hours: 350 planned, ceiling 392 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-09-29T19:31:57+00:00",
+  "checked_at": "2026-10-15T17:50:18+00:00",
   "study": {
-    "words": 381,
+    "words": 405,
     "sentences": 28,
-    "mean_sentence_len": 12.1,
-    "median_sentence_len": 11.0,
-    "longest_sentence": 20,
+    "mean_sentence_len": 12.6,
+    "median_sentence_len": 11.5,
+    "longest_sentence": 24,
     "mean_syllables": 1.42,
-    "pct_polysyllabic": 7.7,
+    "pct_polysyllabic": 7.9,
     "pct_long_words": 0.0,
     "commas_per_sentence": 0.11,
-    "list_words": 42
+    "list_words": 52
   },
   "eli10": null,
   "block_counts": {
@@ -26,8 +26,12 @@
     "begrip": 1
   },
   "misspelled": [],
-  "failures": [],
-  "warnings": [],
+  "failures": [
+    "Study text 405 words, above budget ceiling 392 (planned 350 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+  ],
+  "warnings": [
+    "List 'Hoe jy 'n land se twee halfr' item 2: 22 words (guide 18) — consider tightening"
+  ],
   "notes": [
     "Afrikaans dictionary not installed — spelling not checked"
   ]

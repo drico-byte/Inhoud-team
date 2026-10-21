@@ -55,3 +55,47 @@ And when a sweep reports drift between a lesson and something in a sibling
 directory, check that the sibling is not a copy of that same lesson before
 briefing anyone. Same family as
 [[n-regstelde-fout-kom-in-n-ander-gedaante-terug]].
+
+## No check reads two subjects at once, and I found that twice in one day
+
+**7 October 2026.** Every consistency check we own is scoped to one subject-grade.
+The glossary sweep takes a subject and a grade. A protected word is matched per word,
+against lessons, with no notion of which subject ordered it. So **a term or a spelling
+shared by two subject-grades falls between every check**, and the sweep's clean report
+is not wrong — it is answering a narrower question than the one I read it as.
+
+Two instances, both found by accident rather than by any tool:
+
+1. **The ǀXam name was spelt two ways in two subjects**, each under a live order that
+   forbade correcting it — a forward slash in Grade 6 Social Sciences, the real click
+   letter in Grade 4 Natural Sciences, whose lessons were already delivered. See
+   [[onaantasbare-woorde-vir-die-taalnasiener]].
+2. **`verwaarlosing` is defined in three subject-grades** — Grade 6 Life Skills
+   (delivered), Grade 6 Social Sciences, and Grade 7 Life Orientation (another
+   machine's work). I only looked because a legal research pass made me ask where else
+   the word lives.
+
+**Of those three, two are fine and one is not, and the difference is instructive.**
+The Grade 6 Life Skills entry is about an *animal* — a different referent with an
+identical shape, and repetition across subjects is good, so it stands. The Grade 7
+entry builds a **means test** into the definition: neglect is when the adult *has
+enough to give* and does not give it. The Children's Act has no such element — neglect
+is "a failure in the exercise of parental responsibilities", full stop — so that
+wording would tell a neglected child whose carer is poor that her case does not count,
+and it fails on a failure that costs no money at all, like not taking her to a clinic.
+It reads like an attempt to carry "poverty alone is not neglect" inside the definition
+instead of beside it, which is how Grade 6 does it correctly.
+
+**How to apply:**
+
+* **Before calling a term settled, ask which OTHER subject-grades use it** — by
+  searching every subject's drafts, not by running the sweep, which cannot see them.
+* **A term that crosses subjects needs a referent check, not just a wording check.**
+  Same word, different thing (animal vs child) is legitimate; same word, same thing,
+  different test is drift.
+* **A definition that smuggles a policy carve-out into its own sentence is the shape
+  to distrust.** Grade 6 states the carve-out as its own sentence and stays true;
+  Grade 7 folds it into the definition and becomes false. Related:
+  [[n-begrip-word-alleen-gelees]].
+* **Do not fix another machine's lesson** — [[drie-rekenaars-werk-parallel]]. Flag it
+  and say which lesson, which word, and why the wording is narrower than the law.

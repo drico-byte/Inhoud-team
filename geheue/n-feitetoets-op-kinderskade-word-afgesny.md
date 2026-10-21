@@ -64,3 +64,36 @@ had in fact finished. Both say the same thing: **the agent's exit status tells y
 about the file; go and measure the file.** On this same kill a writer had completed its
 revision and its record in full and lost only the hand-back, while the check that reported
 writing a report had written a stub.
+
+## It worked, and the failed check was still worth more than nothing
+
+**8 October 2026.** The same lesson's fact check was cut off again — this time by a **web
+search quota**, after two searches of a check that needs dozens. The briefing held in
+every part: the report was on disk from the start, its verdict said a person was needed
+until the final rewrite, and it said in terms **"do not read this as a result."**
+
+**What it produced is a shape worth naming: an honest target list.** 79 items, four
+verified and sourced, seventy-five marked *no source reached* — each one a framed
+question for the re-run rather than a finding. It also kept my four reasons apart, and
+added the one that matters here: **"no source reached" is not uncertainty, it is an unrun
+check.** The two searches that did land settled half the central question, which is real
+progress; and the inventory of what remained made the re-run brief much sharper than the
+first one had been.
+
+**So a cut-off check is not wasted if it was briefed to fail honestly.** The thing that
+makes it safe is the verdict, and the thing that makes it useful is the inventory.
+
+**Two refinements for the next brief:**
+
+* **Say explicitly that running short is an acceptable outcome and must be stated.** A
+  checker that fears reporting a short run is the one that pads a verdict.
+* **Tell the re-run that the report on disk is a target list and must be overwritten**,
+  and that it may read it for the questions but not for the answers. Otherwise it anchors
+  on seventy-five items that were never checked — the same way a stub anchors a re-run.
+
+And the plain operational lesson: **a long check can die of its quota as easily as of a
+content filter or a stall**, and the quota is shared with everything else running. Four
+parallel web-heavy checks is how you lose the fifth.
+
+Related: [[onseker-kan-ongetoets-beteken]] — which named this exact confusion before it
+cost anything, and which a checker cited back at me from its own report.

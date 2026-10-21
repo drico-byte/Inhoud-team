@@ -214,3 +214,95 @@ fix, look at what else is in the sentence and say which part is meant to stay lo
 Related: [[n-versagting-vat-die-algemene-helfte-saam]] (the mirror: a softening takes the
 general half with it), [[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]],
 [[toets-n-parallelle-stel-as-n-stel]].
+
+## A wrong qualifier can be holding the place of the right one
+
+**7 October 2026.** A glossary entry defining neglect said *one **serious** failure is
+enough*. A fact check contradicted the severity word: no definition carries a severity
+measure, and the form told the chronically but mildly neglected child — the commonest
+case in South Africa — that hers did not count. I had it removed. That was right.
+
+**The next fact check found the entry now wider than the law.** The statute confines
+neglect to a child's **basic** needs, and the entry had never carried that word: its
+threshold was simply what the child *needs*. While the severity word stood, it bounded
+the claim by accident. Remove it and the entry says one unmet need of any kind is
+neglect — and *attention* was in the entry's own list of needs.
+
+**So the shape is: a qualifier that is wrong for one reason may be the only thing
+bounding a claim for another.** Cutting it is still correct — but the cut has to be
+paired with the bound that *should* have been there, and that bound is almost always the
+source's own limiting word, which the draft quietly dropped long before.
+
+**How to apply.** When a check kills a qualifier, do not just delete it. Ask:
+
+1. **What was that word doing besides being wrong?** If it narrowed the claim, what
+   narrows it now?
+2. **Go back to the source and list its own limiting words** — "basic", "deliberate",
+   "general", "in the care of" — and check each one is present. A draft that paraphrases
+   a definition loses these first, and nothing notices while a wrong qualifier is
+   standing in front of them.
+3. **Narrowing by restoring the source's qualifier is not the same as narrowing by
+   inventing a threshold.** One tracks the law, the other invents a bar. Say which you
+   are doing; the fork is where these repairs keep failing.
+
+**The tell** is a check that confirms a sentence and flags its neighbour in the same
+breath: here one half ("it need not happen over and over") was confirmed outright while
+the other half of the same sentence became unsettled. **Two halves of one sentence with
+different verdicts means the bound is in the wrong place**, not that the sentence needs
+softening.
+
+Related: [[n-versagting-vat-die-algemene-helfte-saam]],
+[[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]] (the opposite failure — this
+one is about not going far *enough*, and both are judged against the source rather than
+against the finding's words), [[drie-maniere-om-n-bewering-reg-te-maak]].
+
+## A placement claim migrates to whatever object the fix names next
+
+**9 October 2026, one lesson, four rounds.** The same fault kept being repaired and kept
+reappearing on a new object:
+
+1. The period attached to the kingdom's ARISING instead of its existing. Fixed.
+2. Then the kingdom itself was placed ON THE HILL. The hill was the capital; the kingdom
+   was about thirty thousand square kilometres. Fixed.
+3. Then the walls were never placed on the hill at all, so two blocks read as two
+   different places. Fixed.
+4. Then the CAPITAL was shrunk to the summit - and because the people below are
+   described as being of the settlement, that one sentence put them outside the capital
+   and rebuilt the two-places reading on its own.
+
+**Two of those four, numbers 2 and 4, were caused by my own brief.** I wrote "attach the
+period to the capital" - which was the right object, and I had not checked what the
+capital WAS. It was the hill together with the settlement at its foot: king and a small
+elite on top, the bulk of its people immediately below. The writer followed my
+instruction exactly and produced a false sentence.
+
+**So naming the right object is only half of it.** A placement claim has an object, and
+when a repair moves the claim onto a new object it inherits the whole problem - the new
+object has its own extent, and if I have not verified that extent I have just relocated
+the error. The giveaway is that each round's fix was correct about the thing it fixed.
+
+**How to apply.** When a brief says "attach this to X instead", write down what X's
+extent is and where that came from, in the brief itself. If I cannot, the brief says so
+and asks the writer to establish it. And after a placement repair, **re-read every other
+sentence that places anything**, as a set - three of these four rounds were only visible
+in the set, never in the sentence.
+
+**9 October 2026 — a sharper version: NARROWING A PREMISE CAN INVALIDATE THE CONCLUSION
+THAT RESTS ON IT.** A requirement put decision-making in one definite settlement, which
+made a whole valley read as a single settlement, so I scoped it to a settlement generically.
+The sentence became true. But the block CONCLUDES that the society therefore became more
+organised during the period — and within-settlement leadership pre-dates the period by
+centuries, so once the claim was scoped inside a settlement the conclusion no longer
+followed. What actually grew was authority ABOVE the settlement. My fix was right and it
+broke the paragraph's argument. After narrowing a claim, re-read whatever the paragraph
+concludes FROM it and ask whether the narrower claim still carries that weight.
+
+**A fix can also HELP a neighbour, and that is worth checking before escalating.** On
+12 October 2026 I had pre-committed to escalating a false reading to the user if it survived a
+sixth round, naming a refrain across four blocks as the remaining suspect. The coverage check
+pointed out that an unrelated repair in the same revision — naming the agent of a farming
+change — had moved "people from outside the valley" into one of those blocks, so only two
+refrains now land before outside people first appear instead of four. The carrier I was about
+to escalate had been weakened by a fix aimed at something else. **So when a fix lands, ask what
+it STRENGTHENED as well as what it disturbed — and re-measure a pending escalation before
+spending the user's attention on it.**

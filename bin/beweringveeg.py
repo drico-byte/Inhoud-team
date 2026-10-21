@@ -41,6 +41,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paaie as P  # noqa: E402
+
 # 'n Merker wat 'n bewering doodmaak. Die venster is ruim, want 'n regstellingsnota
 # loop lank voor sy die ou bewoording aanhaal.
 MERKERS = [
@@ -167,8 +170,23 @@ def main(argv=None):
 
     uittreksels = []
     if not o.sonder_uittreksels:
+        # The sub-topic level belongs here. Without it this matched nothing,
+        # on every run, and said so in a way that read as 'there are none'.
         uittreksels = sorted(glob.glob(os.path.join(
-            'konsepte', 'gr%s' % o.graad if o.graad else '*', '*', 'spek', 'les-*.json')))
+            'konsepte', 'gr%s' % o.graad if o.graad else '*', '*', '*',
+            'spek', 'les-*.json')))
+        # THE EXTRACT ITSELF, not everything in spek/ named like it. This glob also
+        # matched two siblings: les-3.verlore.json, the dead copy of a hand-edited
+        # extract (48 of them in the tree today), and since 12 October 2026
+        # les-3.rekords.json, the record halves that no longer stand in the extract.
+        # Both inflated the 'x of y uittreksel(s) gelees' line, and a doubled count
+        # is the same lie as a narrow sweep reported as a wide one -- this repository
+        # has printed that lie twice before, see bin/woordelysdrif.py. One shared
+        # name test rather than a fourth copy of the pattern: see P.is_les_konsep.
+        # The record halves need no sweep of their own, because the approved specs
+        # read above hold both halves in full.
+        uittreksels = [p for p in uittreksels if P.is_les_konsep(p)]
+        in_omvang = len(uittreksels)
         if o.vak:
             n = o.vak.lower().replace(' ', '-')
             uittreksels = [p for p in uittreksels if n in p.lower().replace(' ', '-')]
@@ -176,7 +194,11 @@ def main(argv=None):
     print('')
     print('Beweringveeg: %r' % o.bewering)
     print('-' * 46)
-    print('  %d spesifikasie(s) en %d uittreksel(s) gelees' % (len(paaie), len(uittreksels)))
+    in_omvang = locals().get('in_omvang', len(uittreksels))
+    print('  %d spesifikasie(s) en %d van %d uittreksel(s) gelees'
+          % (len(paaie), len(uittreksels), in_omvang))
+    if in_omvang and not uittreksels:
+        print('  ' + ('GEEN UITTREKSEL IS GELEES hoewel daar %d bestaan - die keuse het niks gepas nie. Die veeg is BLIND vir wat skrywers lees.' % in_omvang))
 
     treffers = vee(paaie, o.bewering, o.kas)
     lewend = [t for t in treffers if not t['merker']]

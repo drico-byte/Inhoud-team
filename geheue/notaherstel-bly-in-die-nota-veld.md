@@ -46,3 +46,37 @@ Either batch the tidy into a pass that is already paying that price, or leave it
 and record **why** it stays, so the next reader does not spend the bill on it
 unknowingly. The same logic is why a stale figure should be *removed* from a note
 rather than corrected — see [[n-nota-wat-n-toestand-vasvries-verouder]].
+
+## And the other half: a note-only revision is FREE, so a stale note item has no excuse
+
+**8 October 2026.** The working note sits **outside** the runner's content fingerprint,
+along with `status`. So a revision that changes **only** the note:
+
+* does not move the fingerprint, so the runner records no new draft and **archives no
+  check reports**;
+* does not change the stripped fact copy either — the withheld-note marker embeds the
+  **count** of withheld fields, not their text, so the count is unchanged;
+* leaves sign-off's "content last changed" comparison untouched.
+
+**That makes note hygiene the cheapest work in the pipeline, and I had been treating it as
+the most expensive.** I deferred clearing stale note items all day on the assumption they
+would cost a gate and two checks. They cost nothing.
+
+**It matters because a stale note item propagates.** One item claiming a file still needed
+fixing survived **three writer rounds and was relayed to me by two checkers** — each
+writer faithfully carried it forward while rewriting everything around it, because the
+note is the record and a record is not something a writer prunes on a hunch. The same
+shape then happened again: four decisions listed as outstanding, three of which had just
+been given protected forms.
+
+**How to apply.**
+
+* **When a note item is done, have it struck in the same breath**, and record *verified
+  closed* with the date rather than deleting it silently — otherwise the next writer
+  re-adds it from the history.
+* **A note-only round needs no gate and no re-check**, so it can be briefed after
+  sign-off, between rounds, or alongside anything else. Say so in the brief, or the writer
+  will assume it has to be bundled.
+* **Mark a closed item GESLUIT and say it must not be reported again.** Three writers
+  carrying one item is not carelessness — it is the note working as designed, and the only
+  thing that stops it is an explicit closure.

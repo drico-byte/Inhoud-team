@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/bevolking/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:a5d1cfb827666b8451aa5677cce30117",
+  "konsep_hash": "sha256:fdef9dcbae4d500d46301dd4ac81b1ae",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:d2cc91063b82545880c5671480bacb78"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -21,9 +23,137 @@
       "woorde": 364,
       "begroting": 350,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T16:15:35+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d2cc91063b82545880c5671480bacb78",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T16:15:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 395,
+      "begroting": 350,
+      "failures": [
+        "Study text 395 words, above budget ceiling 392 (planned 350 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T16:15:36+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 395 words, above budget ceiling 392 (planned 350 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T16:16:42+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:32ccc897efcb1dcbb9c60bb8fac762c6",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T16:16:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 384,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T16:24:08+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:58f0d11debd762e6c8366fb4fa8011d4",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T16:24:08+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 386,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T16:31:54+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:6b23692592c3a8e95ceb20da0e799bc5",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T16:31:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 386,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T16:41:53+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T16:41:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 33,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T16:41:54+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\bevolking\\les-3.json",
+      "konsep_hash": "sha256:6b23692592c3a8e95ceb20da0e799bc5",
+      "vervang": false
+    },
+    {
+      "wanneer": "2026-10-16T08:12:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fdef9dcbae4d500d46301dd4ac81b1ae",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-16T08:12:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 387,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-16T08:18:24+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-16T08:18:24+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-16T08:18:24+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\bevolking\\les-3.json",
+      "konsep_hash": "sha256:fdef9dcbae4d500d46301dd4ac81b1ae",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:1d5e5804133cefa0a9c8e158d027b82d",
+  "spek_hash": "sha256:c5382cfbb66419f0b4a5c50791e3bd96",
   "hek_konteks": {
     "graad": 6,
     "begroting": 350

@@ -113,3 +113,40 @@ And a new guard, about my own notes rather than the content:
 Related: [[die-korrigeerde-opdrag-bly-in-die-veld-staan]],
 [[moenie-in-die-spek-skryf-wat-jy-nie-nagegaan-het-nie]],
 [[n-versagting-vat-die-algemene-helfte-saam]].
+
+## Two more costumes, 9 October 2026: the substituted word, and the block heading
+
+A read-only sweep of nine drafts against sixteen withdrawn claims turned up both.
+
+**The substituted word.** The fault was calling the Cape of Good Hope Africa's southern
+tip. The writers guarded it the obvious way and **left the Cape's name out of every
+lesson** - one lesson's note records that as a decision. The claim came back anyway, in
+the other direction: three lessons now put **at the southern tip** the things that
+actually happened **at the Cape**. Rounding it unseen in the weather and sighting it on
+the way home, in one lesson; the refreshment stop for fresh water and food, in two more.
+With the substitution, every one of those sentences became a claim about Cape Agulhas,
+and all of them are wrong - and the one that says they "wel gesien" it is worse than the
+original, because it makes a specific identified sighting out of it.
+
+**So removing the name does not remove the claim. It relocates it into whatever word
+replaced the name**, and the replacement is the word nobody is watching. When a ruling
+forbids a term, sweep the SUBSTITUTE as hard as the term.
+
+**The block heading.** One lesson's prose was built sentence by sentence to avoid CAPS's
+claim that a southern African society peaked during the Renaissance - "al lank" is doing
+exactly that work, and the note records that CAPS's "gedurende dieselfde tyd" was struck
+on purpose. **The block's heading is "Suider-Afrika in hierdie tyd"**, which asserts the
+contemporaneity the three sentences underneath it were written to avoid, over a block
+that names a kingdom two centuries older than the window the lesson has just fixed.
+
+Nothing in the provenance note shows anyone looked at the heading. The guard held in the
+sentences and failed one line above them. Same family as
+[[elke-les-kry-n-eie-naam]], where nothing checks a title the way it checks the text -
+and a BLOCK heading is even less watched than a lesson title, because it is short, it
+reads as navigation rather than as content, and a sweep written for sentences skips it.
+
+**How to apply.** Add both to the repair checklist: after a ruling removes a word, grep
+the replacement; and read every heading in the lesson against the claim being withdrawn,
+not only the prose. Also worth knowing that a heading CAN reach a fact checker - one
+caught a shape claim in a heading in the same batch - but it will not reach a sweep I
+write for requirement fields, and it did not reach the writer's own review.

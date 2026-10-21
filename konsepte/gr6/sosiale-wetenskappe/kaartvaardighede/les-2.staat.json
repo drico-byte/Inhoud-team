@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/kaartvaardighede/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d8c94f3735ac5a8339d74b2c3eb53ea6",
+  "konsep_hash": "sha256:cc4ab5865b3aab2e1c5ef47e09b64b62",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:48259f832d3c4a9c05dc2c3823317639"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -35,9 +37,100 @@
       "woorde": 381,
       "begroting": 350,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T17:50:17+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:48259f832d3c4a9c05dc2c3823317639",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T17:50:18+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 405,
+      "begroting": 350,
+      "failures": [
+        "Study text 405 words, above budget ceiling 392 (planned 350 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T17:50:18+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 405 words, above budget ceiling 392 (planned 350 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T17:52:39+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4baf4c6040a8cb75599e920082fd659a",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T17:52:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 385,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T18:00:01+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:6ea10abef9e9c6b8506b49eb0b9f916f",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T18:00:01+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 386,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T18:10:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:cc4ab5865b3aab2e1c5ef47e09b64b62",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T18:10:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 378,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T18:15:28+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T18:15:29+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T18:15:29+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\kaartvaardighede\\les-2.json",
+      "konsep_hash": "sha256:cc4ab5865b3aab2e1c5ef47e09b64b62",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:ab431193dea7b40e91deaa9fb85de1ab",
+  "spek_hash": "sha256:a875d8f56b8adaba24f7457eb3d39376",
   "hek_konteks": {
     "graad": 6,
     "begroting": 350

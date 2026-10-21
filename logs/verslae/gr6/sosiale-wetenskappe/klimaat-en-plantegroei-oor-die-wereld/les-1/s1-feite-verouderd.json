@@ -1,0 +1,145 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Vandag se weer, en die plek se klimaat",
+  "kaps_punt": "Verskil tussen weer en klimaat",
+  "verdict": "HERSIEN",
+  "items": [
+    {
+      "bewering": "Wat jy daar sien, is die weer by jou plek op daardie dag.",
+      "blok": "Wat jy by die deur uit sien",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NOAA Ocean Service, 'What is the difference between weather and climate?' (oceanservice.noaa.gov/facts/weather_climate.html): weather is 'what you see outside on any particular day' and 'reflects short-term conditions of the atmosphere'. NWS Climate Services (weather.gov/climateservices/CvW): weather is 'the state of the atmosphere at a given time and place'."
+    },
+    {
+      "bewering": "Die weer sê hoe warm of koud dit is en of dit reën. Dit sê ook hoe hard die wind waai en of die lug vol wolke is.",
+      "blok": "Wat jy by die deur uit sien",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NWS Climate Services (weather.gov/climateservices/CvW): weather is described 'with respect to variables such as temperature, moisture, wind speed and direction, and barometric pressure'. NIWA (niwa.co.nz, 'What's the difference between weather and climate?') uses rain, wind, sunshine and cloudy conditions as weather. The list is not presented as complete (no 'net'/'only'), so leaving out pressure and humidity is an omission, not an error."
+    },
+    {
+      "bewering": "Die weer bly selde lank dieselfde en verander van dag tot dag. Gister kon dit reën en vandag kan die son die hele dag skyn.",
+      "blok": "Die weer verander",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NOAA Ocean Service (oceanservice.noaa.gov/facts/weather_climate.html) and ESA, 'Weather vs climate: what's the difference' (esa.int): weather can change 'minute-to-minute, hour-to-hour, day-to-day'. NASA: weather means changes 'on short timescales from minutes to hours to days to weeks'. 'Selde' is a quantifier ('seldom') and not a universal, so stretches of similar winter weather on the Highveld do not make it false."
+    },
+    {
+      "bewering": "Die weer kan selfs binne een dag van koud na warm verander.",
+      "blok": "Die weer verander",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "SANBI-published Mucina et al. (2006), Nama-Karoo Biome chapter (opus.sanbi.org): day and night temperatures in the Nama-Karoo can differ by up to about 25 °C. Average July values for South African cities (Wikipedia 'Climate of South Africa', table taken from the South Africa gateway / southafrica.info): Bloemfontein's July minimum is -2 °C and its maximum 15 °C, Kimberley's 3 °C and 19 °C. A cold morning followed by a warm afternoon on the same day is normal."
+    },
+    {
+      "bewering": "Een plek se weer maak oor baie jare 'n patroon wat jy kan raaksien. Daardie patroon is die plek se klimaat en dit wys wat daar gewoonlik gebeur.",
+      "blok": "Wat 'n plek gewoonlik doen",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WMO, 'It's warmer than average. But what is average?' (wmo.int): climate normals are averages over a 30-year period. IPCC AR5 glossary, as quoted by the Swiss NCCS (nccs.admin.ch): climate is 'average weather', described statistically, and the classical period is 30 years. NOAA climate.gov: climate is the 'long-term pattern' of averages and extremes at a location."
+    },
+    {
+      "bewering": "Die klimaat wys ook wat in elke deel van die jaar die gewone ding is.",
+      "blok": "Wat 'n plek gewoonlik doen",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NOAA climate.gov, 'Definition of climate and climatic regions' (climate.gov/taxonomy/term/3434): 'Climate can be described for different time intervals, such as decades, years, seasons, months, or specific dates of the year.'"
+    },
+    {
+      "bewering": "In Suid-Afrika is Januarie gewoonlik warmer as Julie.",
+      "blok": "Wat 'n plek gewoonlik doen",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "This is a comparison, so it is listed as a superlative. Average temperature table for 18 South African cities (Wikipedia 'Climate of South Africa', from the South Africa gateway's 'South Africa's weather and climate'): every city, from Cape Town to Musina and from Durban to Upington, has a higher January maximum and a higher January minimum than in July. gov.za 'Geography & climate': the country is in the Southern Hemisphere and the interior's coldest temperatures are in winter. A South African Journal of Science study of 35 SAWS stations (1980-2015, sajs.co.za, found through search) puts January in summer and July in winter. 'Gewoonlik' is properly hedged."
+    },
+    {
+      "bewering": "Dit reën soms hard in die Karoo en die droë slote loop vol water.",
+      "blok": "Een dag verander nie die klimaat nie",
+      "status": "bevestig",
+      "tipe": "naam",
+      "bron": "SANParks, Camdeboo National Park climate page (Karoo, found through search; the page refused a direct fetch): 'thunderstorms and high temperatures are common during the summer months'. EGU 2008 abstract on the Little Karoo (meetings.copernicus.org, EGU2008-A-05399): a dry, semi-arid region with episodic floods (1954, 1974, 1981, 1996, 2003). Daily Maverick, 24 October 2021: Karoo thunderstorms of 20-60 mm brought flash floods. Normally dry streambeds flowing after storms are well documented."
+    },
+    {
+      "bewering": "Die Karoo is ná daardie dag steeds 'n droë plek.",
+      "blok": "Een dag verander nie die klimaat nie",
+      "status": "bevestig",
+      "tipe": "naam",
+      "bron": "SANBI-published Mucina et al., Nama-Karoo Biome chapter (opus.sanbi.org): an arid, continental-type climate with low and highly variable rainfall (roughly 100-520 mm a year). Little Karoo: 'dry, semi-arid' (EGU2008-A-05399). Beaufort West averages about 236 mm a year. gov.za: the whole country averages 464 mm."
+    },
+    {
+      "bewering": "Een dag se weer verander nie 'n plek se klimaat nie.",
+      "blok": "Een dag verander nie die klimaat nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WMO (wmo.int): normals are 30-year averages, used precisely to smooth out natural variability. NIWA / NZ MetService: a dry year can still contain very heavy individual rain events without changing the climate signal."
+    },
+    {
+      "bewering": "Durban se klimaat is warm en tog is party dae daar koel.",
+      "blok": "Een dag verander nie die klimaat nie",
+      "status": "bevestig",
+      "tipe": "naam",
+      "bron": "Durban is humid subtropical (Köppen Cfa), with hot, humid summers and mild winters free of frost (Durban municipal tourism site, travel.durban.gov.za, through search; climate-zone.com). Average temperatures from the South Africa gateway table: January 28/21 °C, July 23/11 °C. East Coast Radio, reporting SAWS (July 2017): after a cold front Durban reached a high of only 18 °C. Cool days do occur."
+    },
+    {
+      "bewering": "'n Plek se klimaat sê dus nie wat vandag se weer daar is nie.",
+      "blok": "Een dag verander nie die klimaat nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NWS Climate Services (weather.gov/climateservices/CvW): climate is 'the expected frequency of specific states' and climate forecasts never predict specific weather events. The saying quoted by NASA: 'climate is what you expect ... weather is what you get'."
+    },
+    {
+      "bewering": "'n Klimaat kan wel vir 'n groot streek of vir die hele wêreld beskryf word. Jou eie dorp het egter sy eie weer en ook sy eie klimaat. Albei woorde kan dus oor dieselfde plek gaan.",
+      "blok": "Die verskil is die tyd",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NOAA climate.gov (climate.gov/taxonomy/term/3434): 'Climate descriptions can refer to areas that are local, regional, or global in extent.' NASA (Ask NASA Climate): climate means longer-term averages that 'may be regional or global'. NWS: Climate Normals give typical temperatures 'of a given location'."
+    },
+    {
+      "bewering": "Wat hulle van mekaar skei, is die lengte van die tyd. Die weer is wat nou of oor 'n kort tyd gebeur. Die klimaat is die patroon oor baie jare.",
+      "blok": "Die verskil is die tyd",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "ESA, 'What is the difference between weather and climate' (esa.int): the difference 'is simply a matter of time'. NASA GPM lesson material (gpm.nasa.gov): 'the difference between weather and climate is time'. NIWA: weather covers 'minutes, hours, or even a couple of days' and climate 'a long period of time' (about 30 years). Tested as a set with the block 'Een dag verander nie die klimaat nie': the lesson calls climate a PATTERN over many years, not only a longer stretch of time, so the 'time only' framing does not slip into saying climate is just long weather."
+    },
+    {
+      "bewering": "Twee dinge help om die weer van vandag en ook die klimaat van 'n plek te beskryf. Die eerste een is hoe warm of koud dit is, en ons noem dit die temperatuur. Die tweede een is hoeveel reën daar val.",
+      "blok": "Twee dinge beskryf albei",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "Taken alone, the sentence is true. Temperature and precipitation are the two main elements of climate: Köppen's classification rests mainly on them, and NOAA climate.gov defines climate by 'the long-term pattern of temperature and precipitation'. Tested AS A SET with the first block, though, it creates a false contrast. 'Wat jy by die deur uit sien' lists four things weather describes: warm or cold, rain, wind and clouds. The weer glossary entry lists the same four. This block then says, under the heading 'Twee dinge beskryf albei', that TWO things describe both weather and climate. The natural reading for a learner is that wind and clouds describe weather only, and not climate. That is false. The IPCC AR5 glossary (as quoted by Swiss NCCS) names the climate variables 'most often' used as 'temperature, precipitation and wind'. NWS Climate Services includes 'wind speed and direction'. NIWA averages 'rainfall, temperature, sunshine, wind speed' to describe climate. The lesson's own klimaat glossary entry ('the weather a place usually has over many years') also includes wind and cloud, so the lesson contradicts itself.",
+      "regstelling": "Present temperature and rainfall as the two MOST USED or most important ways to describe both weather and climate, not as the only two things the words share. Change the heading to match, so it does not say these two describe both and leave the learner to infer that the others do not. The corrected claim: temperature and rainfall are the two main things people use to describe both today's weather and a place's climate; wind and clouds also belong to a place's climate, but are used less often. Whether wind and clouds are named or not is the writer's call. What must not survive is a contrast that leaves them as weather only."
+    },
+    {
+      "bewering": "Die eerste een ... Die tweede een ... (temperatuur, reën)",
+      "blok": "Twee dinge beskryf albei",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Recorded because of the word 'eerste'. Here it only counts off items in a list and does not rank them or claim anything happened first in history. Nothing needs checking beyond the item above. Climate.gov names temperature before precipitation, so the order is not misleading either."
+    },
+    {
+      "bewering": "Begrip 'weer': Die weer is hoe warm of koud, nat of droog, winderig en bewolk dit op 'n bepaalde tyd by 'n plek is.",
+      "blok": "weer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Read with the rest of the lesson deleted: it correctly gives the time-and-place condition and the main variables. NWS Climate Services: 'the state of the atmosphere at a given time and place, with respect to variables such as temperature, moisture, wind speed and direction'. NOAA Ocean Service: 'short-term conditions of the atmosphere'."
+    },
+    {
+      "bewering": "Begrip 'klimaat': Die klimaat is die weer wat 'n plek oor baie jare gewoonlik het.",
+      "blok": "klimaat",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Read alone, it matches the standard definition. NOAA Ocean Service: 'the average daily weather for an extended period of time at a certain location'. IPCC AR5 glossary (as quoted by Swiss NCCS): 'average weather', with a classical period of 30 years (WMO). NASA Climate Kids: 'typical weather conditions ... 30 years or more'."
+    },
+    {
+      "bewering": "Begrip 'temperatuur': Temperatuur is hoe warm of hoe koud iets is.",
+      "blok": "temperatuur",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Britannica Dictionary (britannica.com/dictionary/temperature): 'a measurement that indicates how hot or cold something is'. The Encyclopaedia Britannica entry: 'a measure of hotness or coldness'. Read alone, it is accurate at this level."
+    }
+  ],
+  "opsomming": "One finding for the writer. Every individual claim checks out, including all of the South African ones (January warmer than July, the dry Karoo with occasional flash floods, Durban's warm climate with cool days). But the block 'Twee dinge beskryf albei', read together with the first block and the 'weer' glossary entry, lets a learner conclude that wind and clouds describe weather only and not climate. That is false: wind is a standard climate variable for the IPCC, NWS and NIWA. The lesson must present temperature and rainfall as the main two, not the only ones. The lesson has no analogies, and its only superlative-type words ('eerste' in a list, and a January-July comparison) both hold."
+}

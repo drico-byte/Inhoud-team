@@ -52,3 +52,5 @@ answer more often than a missed second occurrence.
 A related habit worth keeping: where a field has collected three or more patches,
 rewrite the field whole instead of adding a fourth. Patching around a removed phrase
 is what left one field with a sentence that had no verb.
+
+**A prohibition and the form it forbids must sit in the same sentence.** 14 October 2026, Medisyne lesson 7. I wrote a field as "TWO FORMS ARE FALSE AND MAY NOT BE WRITTEN." followed by "(1) '<the form>', without any narrowing: <reason>" and "(2) '<the other form>': <reason>". Read from the top it is correct. But my own sweep flagged both numbered items as live orders, and it was right to: the sentence that forbids them is a *different* sentence, so item (2) read alone is a quoted form with a reason attached and nothing saying no. A reviser who lands in a numbered list does not reliably read the stem. The fix was to repeat the prohibition inside each item, which costs four words each and makes every item stand alone. The general rule: a numbered or bulleted list does not inherit its stem, so put the verdict in every member.

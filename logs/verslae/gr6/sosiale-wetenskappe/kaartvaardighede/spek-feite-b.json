@@ -1,0 +1,251 @@
+{
+ "skema_weergawe": "1.0",
+ "nasiener": "feite",
+ "prompt_weergawe": "feitenasiener-v1.3",
+ "les": "SPESIFIKASIE Gr 6 SW Geografie Kaartvaardighede - bestellende helftes, lesse 6-9 en algemene notas (deel b)",
+ "kaps_punt": "Les 6: Skale: Meet reguitlyn-afstande tussen stede op 'n Suid-Afrikaanse en die wêreldkaart | Les 7: Soorte inligting voorsien in 'n atlas; Hoe die inligting op 'n atlas georganiseerd is | Les 8: Eie provinsie in 'n atlas: Watter inligting kan 'n kaart oor 'n provinsie gee? | Les 9: Die wêreld se drie langste riviere/ hoogste berge/ die grootste woestyne/ die grootste woude/ grootste oseane/ grootste stede (bevolking)/ grootste lande (area)",
+ "verdict": "MENS_NODIG",
+ "items": [
+  {
+   "bewering": "'Wat 'n reguitlyn-afstand is: die afstand in 'n reguit lyn van die een plek na die ander, en NIE die afstand langs die pad nie. 'n Pad draai en is nooit korter as die reguit lyn nie.'",
+   "blok": "les 6 / kern[0]",
+   "status": "bevestig",
+   "bron": "Ordnance Survey MapZone 'Measuring Distance' (ordnancesurvey.co.uk/mapzone/assets/doc/map-skills/Measuring-Distance-en.pdf) en OS GetOutside 'Beginner's guide to measuring distance on a map': reguitlyn-afstand ('as the crow flies') teenoor die roete; 'n reguit lyn is die kortste pad tussen twee punte, dus kan geen pad korter wees nie.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'Met 'n LINEAAL kry jy 'n sentimeterlesing en reken jy met die woordskaal om na kilometer. Met die RAND VAN 'n PAPIERTJIE merk jy die twee punte met strepies en hou daardie strepies teen die kaart se LYNSKAAL ... 'n blanko papierrand het geen merke nie, dus kan hy geen sentimeterlesing gee nie, en die papierroete werk net op 'n kaart met 'n lynskaal.'",
+   "blok": "les 6 / kern[1]",
+   "status": "bevestig",
+   "bron": "OS MapZone 'Measuring Distance' en OS GetOutside-gids: die papierrand word teen die gedrukte skaalbalk (lynskaal) gelees; 'n lineaallesing in cm word met die skaal omgereken. Let wel (geen fout nie): OS wys ook dat 'n lineaallesing teen die skaalbalk gelê kan word, dus is elke paar EEN geldige roete en nie die enigste nie - die spesifikasie sê nie dat hulle die enigste is nie.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'n plat kaart van die hele wêreld rek dele van die aarde uit (les 3), dus is 'n afstand wat daarop gemeet word nie presies die werklike afstand nie.",
+   "blok": "les 6 / kern[3]",
+   "status": "bevestig",
+   "bron": "FAO 'Map projections' (fao.org/4/y4816e/y4816e0f.htm): op kleinskaalse kaarte het vervorming 'n groter impak, veral as die kaart gebruik word om afstand te meet; Montana State Library 'Map Projections' (ftpgeoinfo.msl.mt.gov/Documents/Education/Projection/Map_Projections.pdf): 'you can't trust flat maps to give the correct lengths of lines' en geen kaart het oral dieselfde skaal nie.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'Op 'n kaart van net Suid-Afrika is die rek klein genoeg dat die antwoord bruikbaar is.' (ook feiterisiko[2], wat beveel dat dit nagegaan word)",
+   "blok": "les 6 / kern[3] en feiterisiko[2]",
+   "status": "bevestig",
+   "bron": "FAO 'Map projections': vervorming krimp namate die gekaarte gebied kleiner word; OSGeo Africa-poslys (lists.osgeo.org/pipermail/africa/2016-August/002783.html), 'n Suid-Afrikaanse staatskarteerder: kontinentale Suid-Afrika strek oor ongeveer 13 breedtegrade (sowat 22-35 grade S), ver binne die 30-35 grade waarvoor 'n Albers-keëlprojeksie bedoel is, en NGI gebruik dit vir die 1:2 200 000 Nasionale Kaart en provinsiekaarte. Die stelling is 'bruikbaar', nie 'presies', en dit hou.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'op daardie skaal [1 cm = 250 km] is Suid-Afrika self sowat 6 cm breed'",
+   "blok": "les 6 / notas[0]",
+   "status": "bevestig",
+   "bron": "southafrica.info 'Geography and climate' en Wikipedia 'Geography of South Africa' (weergawe op solarspell-dls.sfis.asu.edu): ongeveer 1 600 km van oos na wes. 1 600 / 250 = 6,4 cm, dus 'sowat 6 cm' hou. (Encyclopedia.com se 1 821 km is 'n NO-SW-diagonaal en nie die oos-wes-breedte nie.)",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "'Die uitgewerkte voorbeeld bepaal dat een sentimeter op DIE KAART 250 kilometer verteenwoordig en dat die meting vyf sentimeter is; dit is innerlik konsekwent en land op die ware afstand.'",
+   "blok": "les 6 / notas[0]",
+   "status": "onseker",
+   "bron": "Die rekenkunde (5 x 250 = 1 250 km) hou, maar die spesifikasie noem nie watter twee stede die voorbeeld meet nie, dus kan 'land op die ware afstand' van hier af nie nagegaan word nie. Die spesifikasie stel dit as afgehandel, en 'n skrywer sal dit so lees.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "'n leerder wat op 'n gewone atlasbladsy meet, [kry] 13 tot 16 cm' vir Suid-Afrika se breedte",
+   "blok": "les 6 / notas[0]",
+   "status": "onseker",
+   "bron": "Geen bron gevind nie. Met ~1 600 km sou 13-16 cm 'n skaal van ongeveer 1:12 000 000 tot 1:10 000 000 beteken, wat aanneemlik is vir 'n A4-atlasbladsy, maar 'gewone atlasbladsy' verskil van atlas tot atlas, en ek mag nie 'n skoolatlas self oopmaak om dit na te gaan nie. Dit raak net die beeld-eis en nie die teks nie; 'n mens kan besluit of die getal in die veld moet bly.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "'Wat 'n atlas is: 'n boek vol kaarte, saam met tabelle en soms foto's, van die hele wêreld en van kleiner dele daarvan.'",
+   "blok": "les 7 / kern[0]",
+   "status": "weerspreek",
+   "bron": "Britannica Dictionary 'atlas' (britannica.com/dictionary/atlas): 'a book of maps', met 'a road atlas of the U.S.' as voorbeeld - 'n atlas hoef nie die hele wêreld te dek nie; Britannica Student 'atlas' (kids.britannica.com/students/article/atlas/604853): atlasse voeg DIKWELS ('often') prente en tabeldata by - tabelle is dus nie deel van wat 'n atlas IS nie. Die spesifikasie se eie feiterisiko[0] eis 'die meeste atlasse'/'gewoonlik' vir elke stelling oor wat 'n atlas het, en hierdie kern-item (die bron van die 'atlas'-inskrywing wat lesse 8 en 9 erf) volg dit nie.",
+   "regstelling": "Omskryf 'n atlas as 'n boek met 'n versameling kaarte, en skuif die res na 'n versmalde tweede sin: 'n skoolatlas of wêreldatlas het kaarte van die hele wêreld en van kleiner dele daarvan, en dikwels ook tabelle met getalle en foto's. Die woordelysinskrywing 'atlas' mag nie 'van die hele wêreld' of 'saam met tabelle' as deel van die omskrywing dra nie.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Die soorte inligting in die MEESTE atlasse: politieke kaarte (lande en grense), fisiese kaarte (berge, riviere, hoog en laag), weer/klimaat, waar mense woon, en wat 'n gebied lewer (gewasse, minerale). Ook as stel getoets.",
+   "blok": "les 7 / kern[1]",
+   "status": "bevestig",
+   "bron": "Hachette, Philip's RGS Modern School Atlas (hachette.co.uk/titles/none/philips-rgs-modern-school-atlas/9781849075824): politieke, fisiese, klimaat- en tematiese kaarte, met wêreldtemas soos klimaat, bevolking en ekonomie; Collins Student Atlas (socialstudies.com/product/collins-student-atlas): fisies-politieke basis plus tematiese kaarte. Die vyf soorte as stel stem ooreen met fisies + polities + die drie algemeenste temas (klimaat, bevolking, ekonomiese aktiwiteit); met 'die meeste' as kwantifiseerder hou dit.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'n atlas het ook tabelle met getalle oor lande en plekke (die 'globale statistieke')",
+   "blok": "les 7 / kern[2]",
+   "status": "bevestig",
+   "bron": "Britannica Student 'atlas': atlasse voeg dikwels 'tabular data' by. Hou as 'n stelling oor die meeste skool- en wêreldatlasse; sien die weerspreek-item oor kern[0] vir waar dit nie as omskrywing mag staan nie.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'die kaarte self, gewoonlik van die hele wêreld na streke na lande'",
+   "blok": "les 7 / kern[3]",
+   "status": "weerspreek",
+   "bron": "Moser, Gavrilova & Meyer, 'Educational Atlases as Mediators of Spatial Imaginations', Abstracts of the ICA 5, 2022 (doi 10.5194/ica-abs-5-9-2022): skoolatlasse se volgorde verskil tussen tydperke en lande, en die Duitse Diercke-skoolatlasse het van wêreldkaarte eerste oorgeskakel na die opvoedkundige beginsel 'van naby na ver'; Hachette, Philip's RGS Junior School Atlas: begin ná die inleiding met die tuisland (VK en Ierland) en eers daarna die wêreld. Daar is dus nie 'n gewone rigting nie, en 'n skoolatlas begin dikwels juis by die leerder se eie land. Die veld se eie feiterisiko[3] verbied net 'elke atlas', maar 'gewoonlik' is ook nie houbaar nie.",
+   "regstelling": "Laat die rigting weg. Sê net dat die kaarte in groepe volgens gebied staan - die wêreld, vastelande/kontinente, lande - en dat die volgorde van atlas tot atlas verskil (baie skoolatlasse begin by hul eie land). Die inhoudsopgawe-voor en indeks-agter kan bly soos dit is.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'In baie skoolatlasse is daardie verwysing sy breedte- en lengtegraad' en (feiterisiko[2]) 'sommige gebruik 'n blokkie met 'n letter en 'n syfer'; indeks agter, plekname alfabeties.",
+   "blok": "les 7 / kern[4], kern[3] en feiterisiko[2]",
+   "status": "bevestig",
+   "bron": "Hachette, Philip's RGS Essential School Atlas (beskrywing): 'Latitude and longitude co-ordinates are listed in the index, alongside figure-letter references'; Britannica Student 'atlas': plekname-indekse 'keyed to latitude and longitude'. Albei vorme bestaan, dus hou 'in baie skoolatlasse'.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'Wat op elke kaart self staan sodat 'n mens dit kan lees: 'n titel, 'n sleutel wat sê wat die simbole en die kleure beteken, en 'n skaal.'",
+   "blok": "les 7 / kern[5]",
+   "status": "onseker",
+   "bron": "Philip's Essential School Atlas (beskrywing by hope-education.co.uk / findel-international.com): 'Each map is accompanied by a clear set of symbols and scale information' - dit bevestig die stelling vir daardie atlas. Ek kon nie vasstel of dit vir atlasse in die algemeen geld nie: sommige atlasse dra een gedeelde sleutelbladsy voor in die boek eerder as 'n sleutel op elke kaart, maar ek het nie 'n bron gevind wat dit bevestig nie. 'elke kaart' is 'n universele stelling oor wat 'n atlas het, en die veld se eie feiterisiko[0] eis vir presies sulke stellings 'die meeste' of 'gewoonlik'. Moontlike oplossing vir 'n mens om te oorweeg: 'Die meeste kaarte in 'n atlas het ...' of 'Op 'n kaart kry jy gewoonlik ...'.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'Dat Suid-Afrika in nege provinsies verdeel is' en 'Nege provinsies' is die enigste getal in die les.",
+   "blok": "les 8 / kern[0] en feiterisiko[3]",
+   "status": "bevestig",
+   "bron": "gov.za 'South Africa's provinces' (gov.za/about-sa/south-africas-provinces): nege provinsies; GCIS Pocket Guide 2020/21, 'Provinces'.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Wat 'n provinsiekaart wys: grense en buurprovinsies; dorpe en stede; riviere en damme; hoog en laag; paaie en spoorlyne. Ook as stel getoets.",
+   "blok": "les 8 / kern[1]",
+   "status": "bevestig",
+   "bron": "Beskrywing van 'n algemene verwysingskaart, National Atlas of the United States / USGS (store.usgs.gov) en Caliper-woordelys 'reference map': grense, groot en klein stede, paaie, spoorlyne, riviere en mere, berghoogtes en terrein. Die stel pas op 'n gewone fisies-politieke provinsiekaart; geen item is vreemd aan so 'n kaart nie.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'Hoe 'n leerder dit self doen: kry sy provinsie op die kaart van Suid-Afrika, blaai na die bladsy van daardie provinsie, en lees met die sleutel af ...'",
+   "blok": "les 8 / kern[3]",
+   "status": "onseker",
+   "bron": "Hierdie stap veronderstel dat elke leerder se provinsie 'n eie bladsy in sy atlas het, en omdat die teks in al nege provinsies gelees word (feiterisiko[0]), sê dit in effek dat ELKE provinsie 'n eie bladsy het - presies wat dieselfde inskrywing se feiterisiko[4] verbied ('MOENIE sê dat elke provinsie sy eie bladsy in 'n atlas het nie'). Ek kon nie vasstel of Suid-Afrikaanse skoolatlasse elke provinsie op 'n eie bladsy wys of sommige saamgroepeer nie, en ek mag nie 'n skoolatlas self oopmaak nie. Die kern-bestelling en die feiterisiko kan nie albei gehoorsaam word nie; 'n mens moet die stap versmal, byvoorbeeld 'blaai na 'n kaart waarop sy provinsie groter gewys word, as sy atlas een het' of 'soek sy provinsie in die indeks'.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'moenie 'n provinsiale hoofstad met een van die LAND se hoofstede verwar nie' (die land het meer as een hoofstad)",
+   "blok": "les 8 / feiterisiko[1]",
+   "status": "bevestig",
+   "bron": "gov.za 'South Africa's provinces': Gauteng se hoofstad is Johannesburg (nie Pretoria nie), Wes-Kaap s'n Kaapstad, Vrystaat s'n Bloemfontein; WorldAtlas 'Which countries have two or more capital cities': Pretoria (uitvoerend), Kaapstad (wetgewend), Bloemfontein (regterlik). Die waarskuwing is geldig. Let wel: twee van die drie landshoofstede is OOK provinsiale hoofstede, dus is die maklikste fout Pretoria as Gauteng se hoofstad. Die veld se aanbeveling om geen hoofstad te noem nie, is die veilige een.",
+   "tipe": "naam"
+  },
+  {
+   "bewering": "'die name kos die les 13 van sy hek-woorde en nie 9 nie, omdat vier van hulle 'n koppelteken dra' (ook registerrisiko_nota: 'die nege provinsiename tel 13')",
+   "blok": "les 8 / feiterisiko[2]",
+   "status": "bevestig",
+   "bron": "Wes-Kaapse Grondwet, Afrikaanse boekie (wcpp.gov.za): 'Wes-Kaap'; Afrikaanse vorme Wes-Kaap, Oos-Kaap, Noord-Kaap en KwaZulu-Natal dra 'n koppelteken; Noordwes, Vrystaat, Gauteng, Limpopo en Mpumalanga nie. 9 + 4 = 13. Voorbehoud: 'Noordwes' word soms 'Noord-Wes' geskryf (gevind in 'n skoolwerkblad), en dan is dit 14. Raak net die begroting, en die lys is in elk geval verbied.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "'provinsie': 'een van die groot dele waarin 'n land verdeel is, elkeen met sy eie regering'; 'Kanada het tien'",
+   "blok": "les 8 / verwagte_begrippe.nota (en gedeelde_omskrywings_nota)",
+   "status": "bevestig",
+   "bron": "gov.za 'South Africa's provinces': elke provinsie het sy eie wetgewer, premier en uitvoerende raad; Statistics Canada (statcan.gc.ca): tien provinsies en drie territoriums. Die argument dat 'n omskrywing wat aan nege dele vasgemaak is te nou is, hou.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Titel 'Die langste, die hoogste, die grootste'",
+   "blok": "les 9 / titel",
+   "status": "bevestig",
+   "bron": "Die titel noem kategorieë en nie 'n bewering oor 'n bepaalde plek nie; daar is niks om te weerspreek nie. Aangeteken omdat elke superlatief 'n item kry.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Riviere: 'Hoe lank 'n rivier is, hang af van waar 'n mens sê hy begin en watter takkie saamtel, en die antwoord is werklik betwis'; die STEL van drie word nagegaan, nie die orde nie.",
+   "blok": "les 9 / kern[1] en feiterisiko[1]",
+   "status": "bevestig",
+   "bron": "National Geographic, 'Amazon Longer Than Nile River, Scientists Say' (2007) en ExplorersWeb, 'Expedition Wants to Prove the Amazon is the World's Longest River': die Amasone is langer of korter as die Nyl na gelang van watter bron (Apacheta, Mantaro, Apurímac) gekies word; USGS gee die Nyl 6 650 km en die Amasone 6 400 km. Die spesifikasie se verbod op 'n rangorde en op getalle is reg.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Berge: 'Hoogste' beteken hoogste BO SEEVLAK; 'n berg wat van sy voet af hoër is, of een wat verder van die aarde se middelpunt af is, is 'n ander maatstaf.",
+   "blok": "les 9 / kern[2] en feiterisiko[7]",
+   "status": "bevestig",
+   "bron": "NOAA National Ocean Service, 'What is the highest point on Earth as measured from Earth's center?' (oceanservice.noaa.gov/facts/highestpoint.html): Everest is die hoogste bo seevlak, Mauna Kea die hoogste van voet tot kruin, en Chimborazo se kruin is die verste van die aarde se middelpunt.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "'die amptelike hoogte van die hoogste berg is in die onlangse verlede hersien'",
+   "blok": "les 9 / feiterisiko[7]",
+   "status": "bevestig",
+   "bron": "AP, 8 Desember 2020 (bv. washingtontimes.com/news/2020/dec/8/china-nepal-say-everest-a-bit-higher-than-past-mea) en Al Jazeera, 8 Desember 2020: China en Nepal kondig gesamentlik 8 848,86 m aan, wat die Survey of India se 8 848 m van 1954 vervang.",
+   "tipe": "datum"
+  },
+  {
+   "bewering": "Woestyne: 'n woestyn is 'n plek waar baie min reën of sneeu val, NIE 'n plek wat warm en sanderig is nie; die grootste woestyn ter wêreld is 'n KOUE woestyn; die Sahara is die grootste WARM woestyn. (Ook die 'woestyn'-omvang in die gedeelde_omskrywings_nota en verwagte_begrippe.)",
+   "blok": "les 9 / kern[3], feiterisiko[2] en verwagte_begrippe.nota",
+   "status": "bevestig",
+   "bron": "Guinness World Records, 'Largest desert' (guinnessworldrecords.com/world-records/largest-desert-cold): 'n woestyn is 'n gebied met min of geen neerslag; die Antarktiese ysplaat (~14 miljoen km2) is die grootste; die Sahara (9,1 miljoen km2) is die grootste warm woestyn. Vir die skrywer se nagaan (nie 'n fout in die spesifikasie nie): die Arktiese 'woestyn' as tweede plek hang af van hoe die Arktiese gebied afgebaken word, want 'n groot deel daarvan is see-ys; elke naam afsonderlik nagaan, soos die veld reeds sê.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "'die naaldwoudgordel is die grootste woud van enige soort en die Amasone-reënwoud die grootste REËNWOUD'; die kroon hoort aan die naaldwoudgordel en nooit aan die Amasone nie.",
+   "blok": "les 9 / kern[4] en feiterisiko[3]",
+   "status": "bevestig",
+   "bron": "Guinness World Records, 'Largest terrestrial biome' (guinnessworldrecords.com/world-records/90153-largest-terrestrial-biome): die boreale woud/taiga, ~16,6 miljoen km2; WWF Kanada, '7 things you want to know about the Amazon', en WWF Peru: die Amasone is die grootste tropiese reënwoud (~1,4 miljard akker, ~5,7 miljoen km2). Kaartleser-voorbehoud, nie 'n fout nie: die gordel is 'n bioom wat oor Eurasië en Noord-Amerika strek en nie een aaneenlopende woud nie; die spesifikasie se woord 'gordel' dra dit eerlik. Die vergelyking 'Amasone-reënwoud' teenoor die rivier is reg.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Oseane: al die oseane sluit by mekaar aan as een wêreldoseaan; 'die aantal word deur verskillende liggame verskillend getel'; die waterliggame loop in mekaar oor.",
+   "blok": "les 9 / kern[5], feiterisiko[4] en oseane_besluit",
+   "status": "bevestig",
+   "bron": "NOAA, 'How many oceans are there?' (oceanservice.noaa.gov/facts/howmanyoceans.html): 'There is only one global ocean'; histories vier name, die meeste lande (insluitend die VSA) erken nou die Suidelike Oseaan as vyfde, maar die IHO het die grens van 2000 nooit bekragtig nie; National Geographic het eers in 2021 vyf begin lys (Boston Globe, 11 Junie 2021).",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Stede: 'onder die VN se 2025-hersiening, wat na digtheidsroosters oorgeskakel het' is die drie name onder 'n opskrif 'Die grootste stede' nie die drie grootstes nie; 'die stad binne sy eie grense, die aaneengeboude stadsgebied en die groter metropolitaanse gebied gee drie verskillende rangordes'; 'MOENIE Jakarta of Dhaka noem nie'.",
+   "blok": "les 9 / kern[6] en feiterisiko[5]",
+   "status": "bevestig",
+   "bron": "VN DESA-persverklaring oor World Urbanization Prospects 2025 (un.org/sustainabledevelopment/blog/2025/11/press-release-wup2025): integreer 'vir die eerste keer' die Degree of Urbanisation, 'n 'grid-based approach'; Jakarta (~42 miljoen), Dhaka (~40 miljoen), Tokio (33 miljoen). VN Demographic Yearbook, tegniese notas by tabel 8 (unstats.un.org): 'city proper', 'urban agglomeration' en 'metropolitan area' is drie konsepte, en Chongqing se 'city proper' is onder 6 miljoen teenoor meer as 30 miljoen vir die groter gebied. Die verbod op Jakarta en Dhaka gee geen rede nie, maar dit maak niks vals nie: 'Drie van die grootste stede' met ander name (Tokio, Delhi en Sjanghai is 3de tot 5de in 2025 volgens UPI/Outlook Traveller) hou onder albei metodes.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Lande (area): 'die eerste twee is die twee wat 'n mens verwag, maar die DERDE plek is betwis, want dit hang af van wat as 'n land se gebied getel word.'",
+   "blok": "les 9 / feiterisiko[6]",
+   "status": "bevestig",
+   "bron": "Britannica, 'list of the world's largest countries and dependencies by area' en CIA World Factbook-syfers (soos aangehaal): Rusland 17,1 en Kanada 9,98 miljoen km2 is eerste en tweede; die VSA (9,83, met kus- en territoriale waters) en China (9,6) ruil die derde plek na gelang van of water en betwiste gebied ingesluit word.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "'hierdie lyste verander. Mense meet mettertyd beter, en hulle stem nie altyd saam oor waar 'n rivier begin of watter deel van 'n stad saamtel nie - daarom staan daar nie in elke boek dieselfde antwoord nie.'",
+   "blok": "les 9 / kern[8]",
+   "status": "bevestig",
+   "bron": "Dieselfde bronne as die rivier-, berg- en stede-items: Everest se hoogte is in 2020 hersien (AP); die Amasone se lengte hang van die gekose bron af (National Geographic 2007); die VN se stadsrangorde het in 2025 met 'n nuwe metode verskuif (VN DESA).",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'Sewe kategorieë, drie name elk - een-en-twintig superlatiewe'",
+   "blok": "superlatiewe_besluit en les 9 / feiterisiko[0]",
+   "status": "bevestig",
+   "bron": "Getel teen les 9 se eie kaps_punt in die spesifikasie: riviere, berge, woestyne, woude, oseane, stede, lande = 7; 7 x 3 = 21. As stel: geen kategorie ontbreek in kern nie.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "'halfrond': 'die helfte van die aarde aan een kant van die ewenaar, of aan een kant van die Greenwich Meridiaan en die 180-grade-lyn'",
+   "blok": "gedeelde_omskrywings_nota",
+   "status": "bevestig",
+   "bron": "Britannica Kids, 'hemisphere' (kids.britannica.com/kids/article/hemisphere/346139): die Westelike Halfrond lê wes van 0 grade en oos van 180 grade. Volledigheidshalwe: Britannica se volwasse inskrywings noem dat 20 grade W en 160 grade O ook dikwels as die grense geneem word; die 0/180-konvensie is algemeen in skoolgeografie en die omvang is nie vals nie.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'ewenaar' = die 0-grade-breedtegraad om die middel van die aarde; 'graad' = die eenheid waarmee 'n DRAAI gemeet word, en daarmee hoe ver om die aardbol 'n plek van 'n nullyn af lê, soos die merke op 'n gradeboog.",
+   "blok": "gedeelde_omskrywings_nota",
+   "status": "bevestig",
+   "bron": "Humboldt State University GIS-les 'Latitude and Longitude' (gis.humboldt.edu/olm_2018/Lessons/GIS/01 SphericalCoordinates/Latitude_and_Longitude.html): breedte- en lengtegraad is hoeke gemeet met die aarde se middelpunt as oorsprong; LibreTexts OCEAN-101 5.01: die ewenaar is 0 grade breedte, halfpad tussen die pole.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Vergelyking: 'graad ... soos die merke op 'n gradeboog' (die afbeelding nagegaan)",
+   "blok": "gedeelde_omskrywings_nota ('graad') en buite_bestek[2]",
+   "status": "bevestig",
+   "bron": "Afbeelding getoets: 'n gradeboog meet 'n hoek in grade, en breedte- en lengtegraad is hoeke by die aarde se middelpunt (Humboldt GIS-les). Die afbeelding hou SOLANK die draai in die omskrywing staan, soos die veld eis; sonder die draai sou 'n leerder 'graad' as 'n afstand langs die oppervlak lees, wat die veld self uitsluit.",
+   "tipe": "analogie"
+  },
+  {
+   "bewering": "''skaal' beteken in Afrikaans ook 'n vis se skub en 'n weegtoestel'",
+   "blok": "gedeelde_omskrywings_nota ('skaal')",
+   "status": "onseker",
+   "bron": "Die WAT- of HAT-inskrywing vir 'skaal' kon ek nie aanlyn kry nie, en geen ander bron noem 'skaal' as die woord vir 'n vis se skub nie (die gewone woord is 'skub', meervoud 'skubbe'). Die bevel self hou op die weegtoestel-betekenis alleen ('op die skaal staan'), dus is dit net die rede wat onseker is. 'n Mens wat Afrikaans ken, kan die vis-betekenis laat val of bevestig. (Hierdie veld word ook in deel a nagegaan.)",
+   "tipe": "algemeen"
+  }
+ ],
+ "opsomming": "Lesse 6-9 is in die kern reg: die woude-, woestyn-, oseaan-, stede-, lande- en bergbesluite in les 9 hou almal teen sterk bronne. Twee dinge is vals: les 7 omskryf 'n atlas as 'n boek met kaarte van die hele wêreld en met tabelle (padatlasse en nasionale atlasse is ook atlasse, en tabelle is net dikwels daar), en les 7 sê die kaarte loop gewoonlik van die wêreld na lande (skoolatlasse verskil hier, en baie begin by hul eie land). Vyf items is onseker en het 'n mens nodig: les 8 se stap 'blaai na die bladsy van daardie provinsie' botsend met sy eie verbod dat elke provinsie 'n eie bladsy het; les 7 se 'op elke kaart' 'n sleutel en skaal; twee getalle in les 6 se beeldnota wat nie sonder die stadspaar of 'n atlas nagegaan kan word nie; en die bewering dat 'skaal' in Afrikaans ook 'n vis se skub beteken."
+}

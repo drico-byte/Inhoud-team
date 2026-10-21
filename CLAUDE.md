@@ -98,8 +98,31 @@ that way in one command. Sign off a hand-checked lesson with:
 python bin/keur-goed-na-handnasien.py --vak "<subject>" --graad 5 --subonderwerp "<sub-topic>" --les 2
 ```
 
-It refuses unless both reports say GOEDGEKEUR and are newer than the draft, stashes
-them before the runner is called, puts them back, and then signs off.
+It stashes the reports before the runner is called, puts them back, and then signs
+off. It refuses unless both reports were written after the draft's **content** last
+changed — the fingerprint and timestamp the runner records, not the file's clock,
+because a write that touches only the status field or the provenance note moves the
+clock without changing a word a checker reads, and refused a finished lesson that
+way. It also refuses if the content has moved since the runner last saw it: then
+nothing can say what the checks judged, and `hardloop.py` has to gate the new text
+first.
+
+**One unresolvable fact may be accepted, by name.** Lampies, 7 October 2026. Where
+sources genuinely conflict the rule is to keep the best-supported reading and
+disclose the conflict in one sentence — and a lesson that does exactly that still
+comes back MENS_NODIG, correctly, so until now it could never ship. A person writes
+a dated record beside the draft, in `konsepte/.../les-N.aanvaardings.json`, naming
+one item of that lesson's fact report by its text and by a fingerprint over it, with
+the date, who accepted it and why. `--wys-items` prints every item holding a fact
+report up, with the fingerprint for each and a record to fill in — take the
+fingerprint from there rather than computing one.
+
+Every holding item must be accepted individually; one unaccepted item and sign-off
+refuses. Only an `onseker` item may be accepted — a contradicted claim is false, and
+a false claim is narrowed, cut or explained. The fingerprint covers the item's status
+and its evidence, so the acceptance lapses the moment the report's text for that item
+changes. There is no blanket form to write. The rules live in `bin/aanvaardings.py`
+and both the runner and this tool read that one module, so they cannot disagree.
 
 ## Never write lesson content by hand
 

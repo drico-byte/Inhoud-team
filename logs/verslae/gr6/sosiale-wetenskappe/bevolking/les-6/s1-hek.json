@@ -1,22 +1,22 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Waar die wêreld se mense woon",
   "graad": 6,
   "vak": "Sosiale Wetenskappe",
   "budget": 350,
   "begrotingsreel": "CAPS-hours: 350 planned, ceiling 392 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-09-29T18:45:11+00:00",
+  "checked_at": "2026-10-15T16:47:17+00:00",
   "study": {
-    "words": 370,
-    "sentences": 23,
-    "mean_sentence_len": 13.3,
-    "median_sentence_len": 13,
-    "longest_sentence": 21,
-    "mean_syllables": 1.42,
-    "pct_polysyllabic": 9.5,
-    "pct_long_words": 1.6,
-    "commas_per_sentence": 0.22,
+    "words": 397,
+    "sentences": 26,
+    "mean_sentence_len": 12.8,
+    "median_sentence_len": 13.0,
+    "longest_sentence": 26,
+    "mean_syllables": 1.43,
+    "pct_polysyllabic": 10.2,
+    "pct_long_words": 1.2,
+    "commas_per_sentence": 0.46,
     "list_words": 64
   },
   "eli10": null,
@@ -26,9 +26,13 @@
     "begrip": 2
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text 397 words, above budget ceiling 392 (planned 350 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters.",
+    "Study text: 0.46 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: duidelikste, meerderheid, verspreidingskaart"
+    "Study block 2 ('Daardie plekke is nie leeg nie') only 29 words (guide 30–110)",
+    "Long words in study text with no 'begrip' entry: meerderheid, verspreidingskaart"
   ],
   "notes": [
     "Afrikaans dictionary not installed — spelling not checked"

@@ -63,3 +63,107 @@ was withdrawn, the reason can usually be given without a new outward fact at all
 
 Related: [[my-regstelling-in-die-spek-was-self-die-volgende-fout]],
 [[n-regstelde-fout-kom-in-n-ander-gedaante-terug]], [[die-merker-begrawe-die-bestelling]].
+
+## I turned a statute's silence into a rule, in capitals, as DECIDED
+
+**7-8 October 2026.** I ordered into a requirement, above the record marker and in the
+present tense: **"EEN VERSUIM IS GENOEG, EN DIT IS NOU BESLIS"** — one lapse is enough,
+and this is now decided — reasoning that the Children's Act defines neglect as "a
+failure", singular, with no repetition and no severity measure, so the failure need not
+recur.
+
+**A fact check contradicted it inside a day.** No source supports the positive claim, and
+three point the other way: the National Strategy defines neglect as an *ongoing* failure,
+the literature built on it does not target isolated shortfalls, and the Children's
+Institute holds that neglect arises only where reasonable resources were available.
+
+**Three things went wrong, and only the first is obvious.**
+
+1. **The silence of a source is not a rule.** The Act says nothing about frequency. I read
+   that as licensing "once is enough", when it licenses **nothing in either direction**.
+   An indefinite article is grammar, not a holding.
+2. **I made a legal inference and recorded it as a reading.** Reading what a statute says
+   is checkable; concluding what follows from how it is phrased is an argument, and an
+   argument belongs in front of a checker before it goes in a requirement. I had told
+   Lampies the same week that I apply factual corrections and escalate anything else —
+   this was neither.
+3. **"EN DIT IS NOU BESLIS" made it maximally durable.** A claim marked decided stops
+   being examined — that is recorded here already — and in capitals above a marker it is
+   the single hardest thing in the file to dislodge. **The confidence of the marking was
+   inversely proportional to the evidence.**
+
+**How to apply.** Before writing a rule into a specification from a primary source:
+
+* **Ask what the source would have to say for me to be wrong**, and whether it says
+  anything on the point at all. If the answer is "it is silent", the rule is mine, not the
+  source's — so it goes to a checker, or it is not written.
+* **Never write DECIDED on something no check has seen.** Mark what was checked and say
+  what was not — the house rule about not marking a block as checked applies to my own
+  rulings most of all.
+* **Where a source is genuinely silent, order silence.** See
+  [[nasieners-trek-teenoorgesteld-oor-voorbehoude]] for why that is the only position two
+  opposed checks can both live with.
+
+Related: [[spesifikasies-word-nooit-nagegaan]] — nothing in the pipeline checks a
+requirement, so a ruling of mine is the least examined sentence in the repository;
+[[die-korrigeerde-opdrag-bly-in-die-veld-staan]]; and
+[[n-nota-wat-n-toestand-vasvries-verouder]].
+
+## I put a false premise in a brief, and it landed in two files as settled fact
+
+**8 October 2026.** I told a repair agent, in writing: "None of this subject's ten
+lessons has been written yet, so these repairs land before any draft exists." **All ten
+were drafted**, gated on 29 September, and five carried the withdrawn claims.
+
+I had not checked. I had listed the lesson statuses for two other sub-topics that
+morning and simply assumed this one. The cost:
+
+* I wrote the same false sentence into the shared-wordings file - "no Medisyne lesson
+  has been written yet, so the correction costs nothing" - and **a note there reads as
+  settled**, which is this note's whole subject.
+* The agent wrote it into a dated record before catching itself, and said so. A record
+  reads as settled too.
+* The repair was described to the person as costing nothing. It costs three writer
+  rounds.
+
+**How to apply.** A premise in a brief is an assertion, and an agent will quote it back
+into a record where it hardens. So: **state no premise about repository state I have not
+just read**, or mark it explicitly as an assumption for the agent to verify. One status
+query would have cost nothing. And when an agent contradicts a premise I supplied,
+**check it myself and then correct every file the premise reached** - here, two.
+
+## 13 October 2026: four grounds for one claim, all four chosen by reasoning and none looked up
+
+Gr 6 SW Mapungubwe lesson 4, the block concluding that gold objects were symbols of royal
+power. I ordered four different supports for the "high rank" premise over one day, and a
+fact check refuted every one:
+
+1. **only the king's people had gold** — the sources carry rank→gold, not the converse;
+2. **they wore it visibly** — all the evidence is funerary, and the standing work says the
+   social *use* of these goods cannot be proven;
+3. **found on the hill and almost nowhere else** — the negative half has no positive source,
+   and the find-place turned out to be the same find as the burial, so the set argued in a
+   circle;
+4. **the stone walls show where the leaders lived** — no source says that; the hill carries
+   little stone work and the literature is openly divided on what the walls prove.
+
+**The ground that works was named in the very first fact report** — three of the bodies were
+buried **upright and seated**, a posture associated with royalty, which is neither circular
+nor contested. **I explicitly forbade the writer from using it**, on the grounds that the
+ceiling would not take it. Eight words.
+
+**The method failure, stated plainly.** Every one of my four was something I reasoned my way
+to from what I knew, and then wrote into a spec in the register of a correction. Not one was
+something I looked up first. The fact reports were in front of me each time and I read them
+for *what was wrong* rather than for *what the sources actually support* — which they state,
+with citations, in the same paragraph.
+
+**How to apply.** When a fact check refutes a claim, the replacement is also a claim
+([[my-regstelling-in-die-spek-was-self-die-volgende-fout]]) — but before writing it, read the
+report for the positive finding. A good fact report says what the literature leans on; that
+sentence is the replacement, and anything I invent instead is a fifth guess. And **never bar
+a ground on budget grounds before checking whether it is the only sound one** — the ceiling
+is a reason to shorten the lesson, never a reason to prefer a weaker argument.
+
+Related: [[n-bewoording-wat-drie-rondes-vat-is-die-verkeerde-vorm]],
+[[spesifikasies-word-nooit-nagegaan]], [[n-plafon-kan-n-regstelling-onbekostigbaar-maak]].

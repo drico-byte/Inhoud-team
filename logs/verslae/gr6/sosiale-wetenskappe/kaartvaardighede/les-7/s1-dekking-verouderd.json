@@ -1,0 +1,61 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "dekking",
+  "prompt_weergawe": "dekkingsnasiener-v1.5",
+  "les": "Die boek vol kaarte, en hoe om iets daarin te vind",
+  "kaps_punt": "Atlasse, globale statistieke en huidige gebeure: Soorte inligting voorsien in 'n atlas; Hoe die inligting op 'n atlas georganiseerd is",
+  "verdict": "MENS_NODIG",
+  "spesifikasie_probleem": true,
+  "items": [
+    {
+      "tipe": "kern",
+      "verwysing": "Wat 'n atlas is: 'n boek met 'n versameling kaarte. 'n Skoolatlas het kaarte van die hele wêreld en van kleiner dele daarvan, en dikwels ook tabelle en foto's. DIE BEGRIP 'atlas' MAG NIE 'van die hele wêreld' OF 'tabelle' AS DEEL VAN DIE OMSKRYWING DRA NIE",
+      "status": "teenwoordig",
+      "bewys": "Een kaart kan nie alles wys nie — boek met 'n versameling kaarte; skoolatlas het wêreld en kleiner dele; Bladsye sonder kaarte — tabelle en foto's; begrip 'atlas' sonder wêreld of tabelle"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Die soorte inligting, elkeen as 'n eie soort kaart, gestel as wat 'n mens in die MEESTE SKOOLATLASSE kry: lande en hul grense; die land self met berge en riviere en hoog en laag; klimaat (nie 'die weer' nie); waar mense woon; wat 'n gebied lewer, soos gewasse of minerale",
+      "status": "teenwoordig",
+      "bewys": "Soorte kaarte wat die meeste skoolatlasse het — al vyf soorte, klimaat as waar baie reën val, sonder 'die weer'"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Nie net kaarte nie: baie atlasse het ook tabelle met getalle oor lande en plekke (nie 'n atlas het altyd tabelle nie)",
+      "status": "teenwoordig",
+      "bewys": "Bladsye sonder kaarte — 'baie atlasse' het tabelle oor lande en plekke, met getalle soos hoeveel mense en hoe groot"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Hoe dit georganiseer is, van voor na agter: 'n inhoudsopgawe voor; die kaarte self, in groepe volgens gebied - die wêreld, kontinente, lande - in 'n volgorde wat van atlas tot atlas verskil (gee geen rigting nie); en 'n indeks agter met die plekname alfabeties",
+      "status": "teenwoordig",
+      "bewys": "Van voor na agter in 'n atlas — inhoudsopgawe voor, groepe wêreld/kontinente/lande, volgorde verskil sonder rigting, indeks agter van A tot Z"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Hoe 'n mens 'n plek opspoor: soek die naam in die indeks agter, kry die bladsynommer, en kry by dieselfde inskrywing die verwysing wat sê WAAR op daardie bladsy die plek lê. In baie skoolatlasse is daardie verwysing sy breedte- en lengtegraad",
+      "status": "teenwoordig",
+      "bewys": "Hoe jy een plek opspoor — indeks, bladsynommer, verwysing waar op die bladsy; 'in baie skoolatlasse' breedte- en lengtegraad, sommige 'n blokkie met letter en syfer"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Wat 'n mens nodig het om 'n kaart te lees, en wat die meeste kaarte by hulle het - die sleutel op die kaart self of, in 'n groot atlas, soms vir baie kaarte saam elders in die boek: 'n titel, 'n sleutel wat sê wat die simbole en die kleure beteken, en 'n skaal. MOENIE SÊ 'n SLEUTEL HOORT GEWOONLIK BY EEN KAART NIE",
+      "status": "teenwoordig",
+      "bewys": "Wat jy nodig het om 'n kaart te lees — titel en skaal op 'die meeste kaarte', sleutel vir simbole en kleure op die kaart of elders vir baie kaarte; opskrif sê nie 'op die kaart self' nie"
+    },
+    {
+      "tipe": "fokus",
+      "verwysing": "Lewer die 'waar kry ek dit' deel: dat 'n atlas verskillende soorte kaarte en tabelle oor die wêreld bevat, en dat 'n mens met die indeks en die rooster 'n plek daarin kan opspoor.",
+      "status": "teenwoordig",
+      "bewys": "Soorte kaarte wat die meeste skoolatlasse het en Bladsye sonder kaarte — wat 'n atlas bevat; Hoe jy een plek opspoor — indeks en breedte- en lengtegraad"
+    }
+  ],
+  "oortollig": [
+    {
+      "inhoud": "\"Die kaarte self vul die grootste deel van die boek.\"",
+      "blok": "Van voor na agter in 'n atlas",
+      "waarom": "Die kern-item oor die organisasie vra net dat die kaarte in groepe volgens gebied staan, nie hoeveel van die boek hulle opneem nie; die sin staan ook sonder die 'meeste'/'baie'-versmalling wat die feiterisiko vir elke stelling oor wat 'n atlas het, vra."
+    }
+  ],
+  "opsomming": "Die les dek al ses kern-items, al vyf soorte kaarte, die vier verwagte begrippe ('sleutel' woordeliks volgens die vak se lys) en sy fokusbydrae, en hoef nie terug na die skrywer nie; die probleem is die spek: 'fokusvraag_skakel' beveel nog in die onversmalde vorm dat \"'n atlas verskillende soorte kaarte en tabelle oor die wêreld bevat\", terwyl kern-items 1 en 3 op 15 Oktober 2026 juis 'van die hele wêreld' en 'tabelle' van 'n atlas as sodanig teruggetrek het ('n padatlas is ook 'n atlas; 'baie atlasse', nie altyd tabelle nie), dus moet 'n mens die eerste sin van fokusvraag_skakel in die approved spec versmal; die rekordhelftes in les-7.rekords.json (gedeelde_omskrywings_nota en vak_gedeelde_omskrywings.nota) trek niks terug wat die bestellings in les-7.json nog beveel nie, en geen veld beveel 'n eli10-blok nie."
+}
