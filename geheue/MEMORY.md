@@ -185,3 +185,33 @@
 - [A draft older than its spec correction](n-konsep-wat-ouer-is-as-sy-spek-regstelling.md) — two drafts carried wording their spec forbids by name; triage by...
 - [Only lesson content reaches learners](net-die-lesinhoud-bereik-leerders.md) — the PDF's CAPS-point box is team-only; the 'eerste staat' line never reaches...
 - [Spec fact check first, always](spek-eers-feitetoets-altyd.md) — Lampies 15 Oct: every sub-topic's spec gets checked once before writers; don't ask
+- [A description ages, a requirement does not](n-beskrywing-verouder-n-vereiste-nie.md) — write what must be true, never what the draft currently says.
+- [A later check is not a newer source](n-later-nasien-is-nie-n-nuwer-bron.md) — date the SOURCE, and treat a settled record that names the trap as evidence.
+- [Two requirements that are only false together](twee-vereistes-wat-net-saam-vals-is.md) — no sweep finds it; and if round three gives the opposite fault to round one, a constraint of mine is making the space empty.
+- [Budgets come from CAPS hours](begroting-uit-kaps-ure.md) — hours x the subject's own rate gives a CLUSTER envelope, the planner distributes inside it, ceiling is planned +12% and there is no absolute ceiling.
+- [Our division must not shift toward a textbook's](n-eie-verdeling-mag-nie-na-die-handboek-toe-skuif-nie.md) — matching it independently is fine; changing our answer because theirs differs undoes the copyright position.
+- [Gr 4 Geography: the rulings](gr4-geografie-besluite.md) — 30 lessons, 400 words, videos already made; hunting and urban farming carried briefly by our text; map-skills lesson 1 may run light.
+- [A writer's predicted risk goes nowhere](n-skrywer-se-voorspelde-risiko-gaan-verlore.md) — it lives in the provenance note, which is stripped before the fact checker; carry it into the brief by hand.
+- [A video phrase lands in four places](n-videofrase-beland-in-vier-plekke.md) — one wrong phrase reaches four places at once, and a false video claim filed only as a fact-risk reaches nobody.
+- [Three lessons at a time on this machine](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Drico: this account has far fewer tokens than the other two; a rate, not a discount.
+- [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks exactly like an item-level one; and CAPS marks a binding list by leaving out the word soos.
+- [Test a parallel set as a set](toets-n-parallelle-stel-as-n-stel.md) — say so in the fact brief; reading four blocks together found five faults where sentence-by-sentence found one.
+- [A note saying it is not a fault](n-nota-wat-se-dit-is-nie-n-fout-nie.md) — twice in one day; a closing verdict turns the next round away, so record the observation without it.
+- [A generic withdrawn-wording detector cannot work](n-generiese-teruggetrek-speurder-kan-nie-werk-nie.md) — built and deleted twice in one session; sweep for the old wording by name in the same script.
+- [Gr 7 LO open questions go to Drico](gr7-lo-oop-vrae-gaan-na-drico.md) — finish Grade 7 on its planned basis; the CAPS-hours method applies from the next grade onward.
+- [Test files stay outside the repo](toetslêers-buite-die-repo.md) — another session commits everything in the folder; one-offs go to the scratchpad.
+- [Don't use git add -A](moenie-git-add-alles-gebruik-nie.md) — it swept another session's test file to GitHub under my commit; stage the pipeline paths deliberately.
+- [A placeholder report looks finished](n-plekhouer-verslag-lyk-soos-n-klaar-een.md) — write-early skeletons pass every freshness test; the state script detects them, and existing is not running.
+- [One agent per lesson at a time](moenie-n-skrywer-oor-n-lopende-nasien-stuur-nie.md) — a writer round over a running check makes the check stale; hold it and brief on both findings.
+- [A child cannot test an adult's credentials](n-kind-kan-nie-n-grootmens-se-bevoegdheid-toets-nie.md) — three rounds on one safety sentence; give the child a test on the situation, never a fourth credential.
+- [A containing phrase makes a contrast](n-inperkingsfrase-maak-n-kontras.md) — in a parallel set it marks the feature as absent from the siblings; coverage praised the phrase, facts condemned it.
+- [A fix that offers an option picks the next fault](n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout.md) — three times in one day; decide instead of offering, and say what the choice must survive.
+- [Splitting a lesson, and what it exposes](n-les-verdeel-wat-dit-blootle.md) — the split dissolved the ceiling exception, but an aggregate register measure hid a hard failure in one half.
+- [The refresh skipped farming](die-verversing-het-boerdery-oorgeslaan.md) — it found folders by kaps_subonderwerp, not the spec file; grep the extract for the new wording, never trust the count.
+- [Call the runner after a spec edit](roep-die-hardloper-na-n-spekwysiging.md) — before briefing coverage, or sign-off retires the fresh report as stale; restoring it is right.
+- [A flat ceiling allocates per lesson, not per topic](n-plat-plafon-verdeel-volgens-les-nie-onderwerp.md) — I said old and new matched on totals; Gr 6 NWT had six long topics at half their hours. Compare per topic; science = 150/teaching hour.
+- [Content column only, then cover the assessment list](inhoud-kolom-plus-assessering.md) — activities are not content; an assessed item found only in activities is pulled in by the assessment list.
+- [Too little is the risk, not too much](te-min-is-die-risiko-nie-te-veel.md) — more than a textbook is fine; err generous, and hunt shortfall by depth per CAPS point, not by word count.
+- [This PC does layouts only](hierdie-rekenaar-doen-net-uitlegte.md) — the other PCs write content from the layouts we push; starting with Grade 7 SW.
+- [Gr 7 SW layout: where we are](gr7-sw-uitleg-waar-ons-is.md) — History 280/h from Drico's Term 1 count; Geography awaiting its count; four open questions.
+- [A map needed means a note in the lesson](kaart-nodig-maak-n-nota.md) — the HTML team builds it; was never recorded and the writer prompt said the opposite.

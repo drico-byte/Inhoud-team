@@ -438,180 +438,23 @@ Measure the string, do not count the items.
 
 **THERE ARE NOW TWO METHODS, AND THE SPEC SAYS WHICH ONE IT USES.**
 
-**The current method is CAPS hours — see "Budgets from CAPS hours" below.** It is
+**The current method is CAPS hours — see "Budgets from CAPS hours" directly below.** It is
 Drico's ruling of 29 September 2026 and it governs **all new work**, starting with
 Grade 6 Sosiale Wetenskappe. A spec declares it with `begroting_basis: "kaps-ure"`,
 and that marker is what switches the gate's behaviour.
 
-**Everything under "The band" and "The arithmetic" is the OLD method**, kept because
-every lesson signed off before 29 September 2026 was approved under it. Those lessons
+**Everything under "The old method", after the current method and its table, is the
+OLD method**, kept because every lesson signed off before 29 September 2026 was approved under it. Those lessons
 are not re-measured, re-cut or re-checked. A spec with no `begroting_basis:
 "kaps-ure"` marker is still read the old way, and the old way is still correct for
 those files. Do not apply the old band table to a new-method lesson: it holds a
 per-grade absolute ceiling, which the new method deliberately abolishes.
 
-### The band
-
-| Grade | Floor | Ceiling | Status |
-|---|---|---|---|
-| 4 | **350** | **450** | decided by Drico, 7 September 2026 |
-| 5 | **300** | **550** | decided by Drico, 9 September 2026 |
-| 6 | **450** | **550** | decided by Lampies, 21 September 2026 — one step up from Grade 5, teaching lessons and reading pieces alike |
-| others | — | — | unbanded until decided the same way |
-
-**Grade 5's band is wider than Grade 4's on purpose, and Grade 5 budgets are not
-divided evenly.** Both come from what Drico found counting a Grade 5 textbook by
-hand, and the second one changes how a Grade 5 spec is written — see
-"Grade 5: requirement-based, not measured" below.
-
-**Why a band, when the budget is supposed to be a measurement.** The measurement was
-honest and the result was incoherent from a learner's seat. The delivered Gr 4
-Natuurwetenskappe lessons run from **169 study words to 811**, because textbook volume
-per sub-topic divided by lesson count is arithmetic and nobody chose the spread.
-Seventeen of twenty-five exceeded 450. A learner meeting a 169-word lesson one day and
-an 811-word one the next is the failure this prevents.
-
-**The floor matters more than the ceiling.** A 169-word lesson cannot be the revision
-instrument the whole architecture rests on. Where the measurement lands below the
-floor, the honest answer is usually to merge with an adjacent bullet rather than to
-inflate.
-
-Grade 4 is also the first year learners write exams, which is Drico's own reason for
-the ceiling: what a nine-year-old is expected to study is small.
-
-**The ceiling holds the MEASURED lesson too, not only the budget — decided by Drico,
-22 September 2026.** The band clamps the budget, and the gate then allows the budget plus
-15%, so a 450-word budget passes at 517. Twelve delivered or near-delivered Gr 4 Sosiale
-Wetenskappe lessons sat between 452 and 497 that way, every one of them inside its own
-budget and tolerance. Put to Drico with the cost stated — six already had PDFs out, and two
-had to lose 47 and 42 words from text a coverage checker had found nothing surplus in — he
-chose to cut all twelve rather than let the ceiling mean two different things. **A Grade 4
-lesson's study text is held at 450 words or fewer.**
-
-The gate was NOT changed to fail on it: it reports the overrun as a warning and a person
-acts on it, because a hard failure would reach every Grade 4 subject and that was not the
-decision. What the gate's warning may no longer do is call 450 a *budget* band while
-measuring a *lesson* — the two are now the same number on purpose, and the warning says so.
-
-**Cutting to the ceiling never drops a requirement.** Where a lesson cannot reach 450
-without losing one, that is a person's call and not a writer's: say so and stop.
-
-**One exception to the ceiling, and it must be written down.** Where a CAPS bullet
-names items explicitly, every named item is mandatory and that is not negotiable
-against a word count — transport water lesson 6 owes rafts, canoes and reed boats
-*plus* the five ships CAPS names *plus* how a sail works. Such a lesson may exceed the
-ceiling if its spec entry carries `plafon_uitsondering` saying which items force it.
-The validator fails a spec that goes over without one.
-
-**The floor has an exception too, and it needs one for the same reason.** Sometimes the
-curriculum decides, not the arithmetic. Gr 4 Geskiedenis Kwartaal 1 is five
-introductory videos about what history is and what a source is, and CAPS gives 7 of
-that term's 15 hours to a project rather than to content — Drico set those lessons at
-200 words with a 250 maximum, calling it purely an exception. Inflating them to 350
-would pad them, which is the floor's own failure pointing the other way. A lesson under
-the floor needs `vloer_uitsondering` saying why the content is genuinely thinner than a
-Grade 4 lesson should be.
-
-**A clamped budget breaks parity with the measurement on purpose**, so
-`totale_begroting` is then not the measured volume and the validator says so in a note
-rather than failing. Specs written before the band carry `band_vrygestel` with a
-reason: their lessons were already built, and the band governs what is planned from
-now on.
-
-**The band governs both budget bases.** Applying it only to measured budgets left the
-requirement-based specs outside it — and those are the ones where a number is most
-easily typed rather than derived.
-
-### Grade 5: requirement-based, not measured
-
-**Grade 5 specs declare `begroting_basis: "vereistes"`.** A measured basis divides one
-number evenly and then fails any lesson that differs from the average — which is
-exactly the uniformity the wide band exists to break. Under `vereistes` each lesson
-states its own number with a `begrotingsnota` saying where it came from, and the band
-still governs it.
-
-**Why, in two findings of Drico's, 9 September 2026.**
-
-*Lessons are genuinely different lengths.* He counted a 140-word lesson and a 525-word
-one in the same Grade 5 book. Forcing a short one up to a uniform figure makes the
-writer pad, and padding is where invented claims come from — most of the false
-mechanisms caught this year sat in text produced to reach a number.
-
-*The measurement itself is inflated.* `profiler.py` counts **every word on the page**:
-activity boxes, question panels, captions, headings. Our lessons contain none of those
-— activities are the layout team's — so a budget derived that way asks for a whole
-page's words as pure prose. This is true of every subject measured so far. The
-delivered Grade 4 budgets stand by Drico's ruling, but nothing new is built on that
-basis, and teaching the profiler to skip activity blocks is outstanding work.
-
-**The floor is 300, not 140,** even though the book goes lower. A thin textbook page is
-usually one where a photograph does half the teaching; our text is what a learner
-revises from alone, so it has to carry what the picture carried.
-
-**CAPS contact hours are not a budget basis UNDER THE OLD METHOD** — within this
-section the rule above holds. Under the current method they are the basis; see
-"Budgets from CAPS hours". WITHDRAWN 29 SEPTEMBER 2026 for new work.
-
-**The example below survives the reversal and is carried into the new method as its
-one exception.** CAPS gives Grade 5 frame-and-shell structures 8¾ hours, more than
-almost anything else in Term 1, and nearly all of it is building a model skeleton.
-Its text is short. Where a cluster's hours are mostly practical work, hours times a
-rate over-budgets it badly, and the planner budgets the reading instead and says so.
-
-### The arithmetic
-
-```
-onderwerp_woorde = pages_for_subtopic x words_per_page    (from the profiler)
-lesson_budget    = clamp(round(onderwerp_woorde / lesson_count), floor, ceiling)
-```
-
-**CAPS contact hours are not used IN THE ARITHMETIC ABOVE, which is the old method.**
-WITHDRAWN 29 SEPTEMBER 2026 for new work — the current method is built on them. The
-old objection was that hours hold discussion, drawing and group work as well as
-reading, so treating them as a words-per-hour rate confuses teaching time with
-reading volume. That objection was answered empirically: the rate is calibrated on
-our own delivered lessons, so the non-reading part of the hour is already priced into
-it, and hours times the rate predicted a real Grade 6 textbook's Term 1 volume to
-within 1.4%. It still bites where a cluster's hours are mostly practical — see the
-exception above.
-
-**Budgets divide evenly across a sub-topic's lessons, UNDER THE OLD METHOD.**
-WITHDRAWN 29 SEPTEMBER 2026 for new work: the new method has the planner weight each
-lesson deliberately. The old reason was that weighting by judged importance
-substitutes an opinion for a measurement — and dividing evenly is what produced Gr 4
-Natuurwetenskappe lessons running from 169 words to 811, which is arithmetic nobody
-chose. A judged spread beats an unchosen one.
-
-Check the topic total, not just each lesson — some bullets are genuinely short.
-What matters is that coverage of a whole CAPS topic is not systematically thinner
-than a textbook's. Under-supply is as damaging as over-supply: if Wolkskool
-covers a topic in two-thirds the depth, learners revise the textbook instead.
-
-Gate tolerance is ±15% of the stated budget, and both sides are hard failures — **except
-where a subject-grade overrides it, or where a spec uses the CAPS-hours method below.**
-
-**Graad 4 Sosiale Wetenskappe: the budget is a HARD CEILING, and the floor is 62.5% of it
-— 250 to 400 against a 400-word budget. Drico, 29 September 2026.** His words: *"250 - 400...
-I want to strictly stay within that range. It will almost never be the case that a writer
-goes too low... Its the ceiling im really worried about."* The override is asymmetric because
-the risk is: measured against their own budgets, **24 of the 30 delivered Gr 4 History lessons
-are over and none are under**, median overshoot 32 words — and every one of them passed,
-because 400 plus 15% is 460. A symmetric band spends its lower half on something that does
-not happen.
-
-**TWO RULINGS WERE MADE ON 29 SEPTEMBER 2026, ON TWO MACHINES, AND THEY DISAGREE** about one
-thing: what the ceiling is for new Graad 4 Sosiale Wetenskappe work — the budget itself, or
-the planned number plus 12%. In the gate the CAPS-hours branch wins wherever a spec declares
-it, because it is opt-in and explicit. **That is a merge rule, not a decision.** The four
-Gr 4 Geography specs declare `begroting_basis: "vereistes"` and therefore take the hard
-ceiling. Whether Geography should move to the CAPS-hours method is Drico's call and was put
-to him on 29 September 2026; until he answers, do not quietly move it either way.
-
 ### Budgets from CAPS hours
 
 **Drico's ruling, 29 September 2026. This is the current method and it governs all new
 work.** A spec declares it with `begroting_basis: "kaps-ure"`; the gate reads that
-marker and changes behaviour. Specs without it keep everything above.
+marker and changes behaviour. Specs without it keep the old method below.
 
 ```
 cluster_envelope = kaps_ure_van_die_kluster x vak_tempo        (words)
@@ -645,7 +488,7 @@ reversed on 29 September 2026; the envelope is CAPS's, not the planner's to real
 
 **6. There is no absolute ceiling any more.** An absolute ceiling contradicts the whole
 idea that a lesson's length is its own. A lesson may be 120 words or 500. The per-grade
-band table above does not apply to a `kaps-ure` lesson.
+band table in the old method below does not apply to a `kaps-ure` lesson.
 
 **7. Under-supply warns; it never fails.** Drico, 29 September 2026: flag a lesson that
 lands under its planned number and handle it individually, because it has happened once
@@ -734,6 +577,169 @@ the top-ups involved — so check every merge figure that swallows a bracket.
 
 Group the rows under their CAPS cluster where a term has several, so a reader can see
 which lessons share an envelope and therefore which ones a redistribution would move.
+
+### The old method — lessons planned before 29 September 2026
+
+**Everything in this section is the OLD method**, kept because every lesson planned under it
+stays on it. A spec with no `begroting_basis: "kaps-ure"` marker is read this way. Do not
+apply any of it to a new-method lesson.
+
+#### The band
+
+| Grade | Floor | Ceiling | Status |
+|---|---|---|---|
+| 4 | **350** | **450** | decided by Drico, 7 September 2026 |
+| 5 | **300** | **550** | decided by Drico, 9 September 2026 |
+| 6 | **450** | **550** | decided by Lampies, 21 September 2026 — one step up from Grade 5, teaching lessons and reading pieces alike |
+| others | — | — | unbanded until decided the same way |
+
+**Grade 5's band is wider than Grade 4's on purpose, and Grade 5 budgets are not
+divided evenly.** Both come from what Drico found counting a Grade 5 textbook by
+hand, and the second one changes how a Grade 5 spec is written — see
+"Grade 5: requirement-based, not measured" below.
+
+**Why a band, when the budget is supposed to be a measurement.** The measurement was
+honest and the result was incoherent from a learner's seat. The delivered Gr 4
+Natuurwetenskappe lessons run from **169 study words to 811**, because textbook volume
+per sub-topic divided by lesson count is arithmetic and nobody chose the spread.
+Seventeen of twenty-five exceeded 450. A learner meeting a 169-word lesson one day and
+an 811-word one the next is the failure this prevents.
+
+**The floor matters more than the ceiling.** A 169-word lesson cannot be the revision
+instrument the whole architecture rests on. Where the measurement lands below the
+floor, the honest answer is usually to merge with an adjacent bullet rather than to
+inflate.
+
+Grade 4 is also the first year learners write exams, which is Drico's own reason for
+the ceiling: what a nine-year-old is expected to study is small.
+
+**The ceiling holds the MEASURED lesson too, not only the budget — decided by Drico,
+22 September 2026.** The band clamps the budget, and the gate then allows the budget plus
+15%, so a 450-word budget passes at 517. Twelve delivered or near-delivered Gr 4 Sosiale
+Wetenskappe lessons sat between 452 and 497 that way, every one of them inside its own
+budget and tolerance. Put to Drico with the cost stated — six already had PDFs out, and two
+had to lose 47 and 42 words from text a coverage checker had found nothing surplus in — he
+chose to cut all twelve rather than let the ceiling mean two different things. **A Grade 4
+lesson's study text is held at 450 words or fewer.**
+
+The gate was NOT changed to fail on it: it reports the overrun as a warning and a person
+acts on it, because a hard failure would reach every Grade 4 subject and that was not the
+decision. What the gate's warning may no longer do is call 450 a *budget* band while
+measuring a *lesson* — the two are now the same number on purpose, and the warning says so.
+
+**Cutting to the ceiling never drops a requirement.** Where a lesson cannot reach 450
+without losing one, that is a person's call and not a writer's: say so and stop.
+
+**One exception to the ceiling, and it must be written down.** Where a CAPS bullet
+names items explicitly, every named item is mandatory and that is not negotiable
+against a word count — transport water lesson 6 owes rafts, canoes and reed boats
+*plus* the five ships CAPS names *plus* how a sail works. Such a lesson may exceed the
+ceiling if its spec entry carries `plafon_uitsondering` saying which items force it.
+The validator fails a spec that goes over without one.
+
+**The floor has an exception too, and it needs one for the same reason.** Sometimes the
+curriculum decides, not the arithmetic. Gr 4 Geskiedenis Kwartaal 1 is five
+introductory videos about what history is and what a source is, and CAPS gives 7 of
+that term's 15 hours to a project rather than to content — Drico set those lessons at
+200 words with a 250 maximum, calling it purely an exception. Inflating them to 350
+would pad them, which is the floor's own failure pointing the other way. A lesson under
+the floor needs `vloer_uitsondering` saying why the content is genuinely thinner than a
+Grade 4 lesson should be.
+
+**A clamped budget breaks parity with the measurement on purpose**, so
+`totale_begroting` is then not the measured volume and the validator says so in a note
+rather than failing. Specs written before the band carry `band_vrygestel` with a
+reason: their lessons were already built, and the band governs what is planned from
+now on.
+
+**The band governs both budget bases.** Applying it only to measured budgets left the
+requirement-based specs outside it — and those are the ones where a number is most
+easily typed rather than derived.
+
+#### Grade 5: requirement-based, not measured
+
+**Grade 5 specs declare `begroting_basis: "vereistes"`.** A measured basis divides one
+number evenly and then fails any lesson that differs from the average — which is
+exactly the uniformity the wide band exists to break. Under `vereistes` each lesson
+states its own number with a `begrotingsnota` saying where it came from, and the band
+still governs it.
+
+**Why, in two findings of Drico's, 9 September 2026.**
+
+*Lessons are genuinely different lengths.* He counted a 140-word lesson and a 525-word
+one in the same Grade 5 book. Forcing a short one up to a uniform figure makes the
+writer pad, and padding is where invented claims come from — most of the false
+mechanisms caught this year sat in text produced to reach a number.
+
+*The measurement itself is inflated.* `profiler.py` counts **every word on the page**:
+activity boxes, question panels, captions, headings. Our lessons contain none of those
+— activities are the layout team's — so a budget derived that way asks for a whole
+page's words as pure prose. This is true of every subject measured so far. The
+delivered Grade 4 budgets stand by Drico's ruling, but nothing new is built on that
+basis, and teaching the profiler to skip activity blocks is outstanding work.
+
+**The floor is 300, not 140,** even though the book goes lower. A thin textbook page is
+usually one where a photograph does half the teaching; our text is what a learner
+revises from alone, so it has to carry what the picture carried.
+
+**CAPS contact hours are not a budget basis UNDER THE OLD METHOD** — within this
+section the rule above holds. Under the current method they are the basis; see
+"Budgets from CAPS hours". WITHDRAWN 29 SEPTEMBER 2026 for new work.
+
+**The example below survives the reversal and is carried into the new method as its
+one exception.** CAPS gives Grade 5 frame-and-shell structures 8¾ hours, more than
+almost anything else in Term 1, and nearly all of it is building a model skeleton.
+Its text is short. Where a cluster's hours are mostly practical work, hours times a
+rate over-budgets it badly, and the planner budgets the reading instead and says so.
+
+#### The arithmetic
+
+```
+onderwerp_woorde = pages_for_subtopic x words_per_page    (from the profiler)
+lesson_budget    = clamp(round(onderwerp_woorde / lesson_count), floor, ceiling)
+```
+
+**CAPS contact hours are not used IN THE ARITHMETIC ABOVE, which is the old method.**
+WITHDRAWN 29 SEPTEMBER 2026 for new work — the current method is built on them. The
+old objection was that hours hold discussion, drawing and group work as well as
+reading, so treating them as a words-per-hour rate confuses teaching time with
+reading volume. That objection was answered empirically: the rate is calibrated on
+our own delivered lessons, so the non-reading part of the hour is already priced into
+it, and hours times the rate predicted a real Grade 6 textbook's Term 1 volume to
+within 1.4%. It still bites where a cluster's hours are mostly practical — see the
+exception above.
+
+**Budgets divide evenly across a sub-topic's lessons, UNDER THE OLD METHOD.**
+WITHDRAWN 29 SEPTEMBER 2026 for new work: the new method has the planner weight each
+lesson deliberately. The old reason was that weighting by judged importance
+substitutes an opinion for a measurement — and dividing evenly is what produced Gr 4
+Natuurwetenskappe lessons running from 169 words to 811, which is arithmetic nobody
+chose. A judged spread beats an unchosen one.
+
+Check the topic total, not just each lesson — some bullets are genuinely short.
+What matters is that coverage of a whole CAPS topic is not systematically thinner
+than a textbook's. Under-supply is as damaging as over-supply: if Wolkskool
+covers a topic in two-thirds the depth, learners revise the textbook instead.
+
+Gate tolerance is ±15% of the stated budget, and both sides are hard failures — **except
+where a subject-grade overrides it, or where a spec uses the CAPS-hours method below.**
+
+**Graad 4 Sosiale Wetenskappe: the budget is a HARD CEILING, and the floor is 62.5% of it
+— 250 to 400 against a 400-word budget. Drico, 29 September 2026.** His words: *"250 - 400...
+I want to strictly stay within that range. It will almost never be the case that a writer
+goes too low... Its the ceiling im really worried about."* The override is asymmetric because
+the risk is: measured against their own budgets, **24 of the 30 delivered Gr 4 History lessons
+are over and none are under**, median overshoot 32 words — and every one of them passed,
+because 400 plus 15% is 460. A symmetric band spends its lower half on something that does
+not happen.
+
+**TWO RULINGS WERE MADE ON 29 SEPTEMBER 2026, ON TWO MACHINES, AND THEY DISAGREE** about one
+thing: what the ceiling is for new Graad 4 Sosiale Wetenskappe work — the budget itself, or
+the planned number plus 12%. In the gate the CAPS-hours branch wins wherever a spec declares
+it, because it is opt-in and explicit. **That is a merge rule, not a decision.** The four
+Gr 4 Geography specs declare `begroting_basis: "vereistes"` and therefore take the hard
+ceiling. Whether Geography should move to the CAPS-hours method is Drico's call and was put
+to him on 29 September 2026; until he answers, do not quietly move it either way.
 
 ## Writing patterns that are known to work
 
