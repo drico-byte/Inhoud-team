@@ -1,0 +1,389 @@
+{
+ "skema_weergawe": "1.0",
+ "nasiener": "feite",
+ "prompt_weergawe": "feitenasiener-v1.3",
+ "les": "SPESIFIKASIE Gr 6 SW Geografie Bevolking - bestellende helftes, lesse 1-4 en algemene notas (deel a)",
+ "kaps_punt": "Bevolking - Waarom mense woon waar hulle dit doen (Fokus: Suid-Afrika en die wêreld)",
+ "verdict": "MENS_NODIG",
+ "items": [
+  {
+   "bewering": "KABV gee die kwartaal 15 uur: 3 uur vir die provinsies-kluster, 5 uur vir die redes-kluster en 4 uur vir die wêreld-kluster ... die oorblywende 3 uur is hersiening, assessering en terugvoering; plus die twaalf inhoudslyne en die twee voetnote soos aangehaal.",
+   "blok": "kaps_ure_nota / klusters / kaps_voetnote / kaps_lys_tipografie_nota",
+   "status": "bevestig",
+   "bron": "KABV Sosiale Wetenskappe Gr 4-6 (DBE, education.gov.za), Gr 6 Geografie Kwartaal 4, gedrukte bl. 32: 'One term/15 hours'; People and provinces 3 h, Why people live where they do 5 h, People around the world 4 h, revision 3 h; albei voetnote woordeliks soos die spesifikasie hulle weergee; 'resources and human activities (such as mining, fishing and trade)' staan as een kolpunt.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "KABV noem Statistiek Suid-Afrika se sensus self as 'n hulpbron vir hierdie onderwerp.",
+   "blok": "lesse[les 2].kern[0] 'WAAR DIE GETALLE VANDAAN KOM'",
+   "status": "bevestig",
+   "bron": "KABV Gr 4-6 bl. 32, 'Recommended resources': 'Statistics South Africa: Census in brief'.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Geografie Kwartaal 2 het 'n eie kluster 'Hulpbronne en hul waardes' (4 uur); Kwartaal 3 besit klimaat.",
+   "blok": "gedeelde_omskrywings_nota / oop_vrae_voor_skryfwerk[1] / lesse[les 3].feiterisiko[3]",
+   "status": "bevestig",
+   "bron": "KABV Gr 4-6 bl. 30 (Gr 6 Kwartaal 2 'Trade': 'Resources and their values - 4 hours') en bl. 31 (Gr 6 Kwartaal 3 'Climate and vegetation around the world').",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Gauteng het die meeste mense van al nege provinsies.",
+   "blok": "feitekontrole_voor_skryfwerk[1]; lesse[les 2].kern[3]; lesse[les 2].kern[5]",
+   "status": "bevestig",
+   "bron": "Stats SA Census 2022 vrystelling (10 Okt 2023, statssa.gov.za/?p=16716, via soekresultaat): Gauteng 15 099 528, KZN tweede met 12 423 907; gov.za 'South Africa's provinces' (Census 2022 + middeljaarberamings 2024): Gauteng 'comprises the largest share of the South African population'; middeljaarberamings 2025 (P0302): Gauteng 16 104 933.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Noord-Kaap het die minste mense.",
+   "blok": "feitekontrole_voor_skryfwerk[1]; lesse[les 2].kern[3]; lesse[les 2].kern[5]",
+   "status": "bevestig",
+   "bron": "Stats SA Census 2022: Noord-Kaap 1 355 946, 'the smallest population at 1,3 million'; gov.za provinsieblad: 'the province with the smallest share of the South African population'; P0302 2025: 1 379 183.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Gauteng is die kleinste provinsie in oppervlak.",
+   "blok": "feitekontrole_voor_skryfwerk[1]; lesse[les 2].kern[5]; lesse[les 2].titel",
+   "status": "bevestig",
+   "bron": "gov.za 'South Africa's provinces': Gauteng 18 178 km2, 'the smallest of South Africa's nine provinces'; Stats SA Statistics in Brief 2000: 1,4% van die landoppervlak.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Noord-Kaap is die grootste provinsie in oppervlak.",
+   "blok": "feitekontrole_voor_skryfwerk[1]; lesse[les 2].kern[5]",
+   "status": "bevestig",
+   "bron": "gov.za 'South Africa's provinces': Noord-Kaap 372 889 km2, 'the largest province in South Africa'; Stats SA Statistics in Brief 2000: 29,7% van die oppervlak.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Titel: 'Die kleinste provinsie met die meeste mense'.",
+   "blok": "lesse[les 2].titel",
+   "status": "bevestig",
+   "bron": "Soos die items hierbo: Gauteng is albei (gov.za provinsieblad; Census 2022).",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Gauteng se digtheidstaaf staan die hoogste en Noord-Kaap s'n die laagste; dieselfde twee provinsies staan aan die twee punte van albei grafieke.",
+   "blok": "lesse[les 2].kern[5]",
+   "status": "bevestig",
+   "bron": "Bereken uit Census 2022-getalle en gov.za-oppervlaktes: Gauteng sowat 831 per km2, KZN sowat 132, Noord-Kaap sowat 3,6 - die hoogste en laagste van die nege; dieselfde orde in Wikipedia 'List of South African provinces by population density' (Census 2022).",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Die verskil tussen die grootste en die kleinste staaf is baie kere en nie 'n bietjie nie.",
+   "blok": "lesse[les 2].kern[3]",
+   "status": "bevestig",
+   "bron": "Census 2022: 15 099 528 teenoor 1 355 946, sowat 11 keer.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Die orde tussen Wes-Kaap en Oos-Kaap het tussen sensusse verwissel (rede vir die verbod op 'n derde plek).",
+   "blok": "feitekontrole_voor_skryfwerk[1]; lesse[les 2].feiterisiko[2]",
+   "status": "bevestig",
+   "bron": "Census 2011: Oos-Kaap 6 562 053, Wes-Kaap 5 822 734 (Stats SA via Wikipedia/citypopulation.de); Census 2022: Wes-Kaap 7 433 020, Oos-Kaap 7 230 204; Stats SA-vrystelling 2023: Wes-Kaap 'moved ... to being the 3rd largest in 2022'.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Die nege provinsies by naam: Gauteng, KwaZulu-Natal, Wes-Kaap, Oos-Kaap, Vrystaat, Limpopo, Mpumalanga, Noordwes en Noord-Kaap.",
+   "blok": "lesse[les 2].kern[1]",
+   "status": "bevestig",
+   "bron": "gov.za 'South Africa's provinces' (al nege gelys).",
+   "tipe": "naam"
+  },
+  {
+   "bewering": "Statistiek Suid-Afrika hou elke paar jaar 'n sensus, waarin die land se mense getel word.",
+   "blok": "lesse[les 2].kern[0]; feitekontrole_voor_skryfwerk[3]",
+   "status": "weerspreek",
+   "bron": "Suid-Afrika het sedert 1994 net vier sensusse gehou (1996, 2001, 2011, 2022); net 1996-2001 was 'n vyfjaar-gaping. Die Statistiekwysigingswet (onderteken Desember 2024, in werking Oktober 2025) bepaal nou 'n sensus elke 10 jaar (BusinessTech, 7 Okt 2025; Business Day, 26 Sep 2023; Stats SA FAQ: tien jaar is 'in line with international standards'; Wits 2022: 'the once-a-decade count').",
+   "regstelling": "Statistieke Suid-Afrika hou omtrent elke tien jaar 'n sensus, waarin die land se mense getel word. ('Elke paar jaar' laat 'n elfjarige aan twee of drie jaar dink; die jongste gaping was elf jaar.)",
+   "tipe": "datum"
+  },
+  {
+   "bewering": "Die grafieke in 'n atlas of 'n handboek kom uit daardie telling.",
+   "blok": "lesse[les 2].kern[0]",
+   "status": "weerspreek",
+   "bron": "Stats SA publiseer ELKE JAAR provinsiale middeljaarberamings (P0302; 2025-uitgawe 28 Julie 2025, volgende 31 Julie 2026), en gepubliseerde provinsietotale kom dikwels daaruit en nie uit die sensus nie: gov.za se eie provinsieblad skryf sy getalle toe aan 'Census 2022 and Mid-year population estimates of 2024'. Stats SA self verwys na die jaarlikse beramings as wat tussen sensusse gebruik word (Business Day, 26 Sep 2023).",
+   "regstelling": "Die getalle op so 'n grafiek kom van Statistieke Suid-Afrika: uit die sensus, of uit die beramings wat hy elke jaar tussen twee sensusse maak. Die res van die item (dat 'n jaar by elke syfer hoort) bly staan en word eerder sterker.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Die instansie se naam: 'Statistiek Suid-Afrika' (en die woord 'sensus').",
+   "blok": "lesse[les 2].kern[0]; feitekontrole_voor_skryfwerk[3]",
+   "status": "weerspreek",
+   "bron": "Stats SA se eie Afrikaanse Sensus 2011-huishoudingsvraelys (unstats.un.org/unsd/demographic/sources/census/quest/ZAF2011afHh.pdf) noem die instansie 'Statistieke Suid-Afrika' (met -e), in die aanhaling van die Statistiekewet 6 van 1999; dieselfde vraelys gebruik 'sensus' ('sensusvooraand', 'sensusblitslyn'), dus staan die woord sensus. Ek het geen Afrikaanse bron gevind wat 'Statistiek Suid-Afrika' sonder -e gebruik nie.",
+   "regstelling": "Korrekte naam: 'Statistieke Suid-Afrika' (of 'Statistieke Suid-Afrika (Stats SA)'). Die woord 'sensus' staan.",
+   "tipe": "naam"
+  },
+  {
+   "bewering": "Die kolle op Suid-Afrika se verspreidingskaart staan dig om Gauteng, om Kaapstad en langs die ooskus, en groot droë dele van die weste en die Karoo is baie yl bewoon.",
+   "blok": "feitekontrole_voor_skryfwerk[2]; lesse[les 1].kern[4]",
+   "status": "bevestig",
+   "bron": "Progress in Geography 32(7), 2013, 1167-1176 (sensusdata 1996-2011): bevolkingsdigtheid 'high on east and low on west', met klonte in metropolitaanse gebiede en hawestede; Census 2022: Gauteng sowat 831/km2, KZN 132/km2, Noord-Kaap 3,6/km2. Die lys is onvolledig (bv. digte landelike gebiede in Limpopo en die vroeëre tuislande word nie genoem nie), maar dit beweer nie 'net' nie, dus is dit nie vals nie.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Op 'n verspreidingskaart staan elke kol vir 'n vaste aantal mense; min kolle beteken min mense, nie geen mense nie; die sleutel sê vir hoeveel mense een kol staan.",
+   "blok": "lesse[les 1].kern[1]; lesse[les 1].kern[5]; lesse[les 1].feiterisiko[1]",
+   "status": "bevestig",
+   "bron": "Wikipedia 'Dot distribution map' en Esri ArcGIS Blog 'Dot maps vs choropleth maps': elke kol staan vir 'n vaste hoeveelheid (bv. 1 kol = 10 000 mense) wat die kaartmaker kies; 'n gebied met minder as een kol se waarde kan dus leeg lyk sonder om leeg te wees.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'n Kaart van verspreiding is nie 'n kaart van digtheid nie.",
+   "blok": "lesse[les 1].kern[3]",
+   "status": "weerspreek",
+   "bron": "Wikipedia 'Dot distribution map': die kaart word ook 'dot density map' genoem; 'both maps aim to show distribution and density'; die verspreiding van die kolle 'gives the visual impression of population density', en 'n hoër bevolking wys as 'a closer, denser pattern of dots'. Esri: 'n kolkaart wys juis waar die verskynsel binne 'n gebied gekonsentreer is. Die spesifikasie leun self daarop: les 1 kern[4] 'die kolle staan dig om Gauteng', en les 2 kern[6] sê 'n mens het die verspreidingskaart NAAS die digtheidsgrafiek nodig juis omdat dit die digte en leë dele binne 'n provinsie wys. Die onderskeid tussen die twee BEGRIPPE (waar teenoor hoeveel per km2) staan; die bewering oor die KAART is te absoluut.",
+   "regstelling": "Verspreiding en digtheid is twee verskillende dinge: verspreiding sê WAAR die mense is, digtheid sê HOEVEEL mense op elke vierkante kilometer woon. Op 'n verspreidingskaart kan 'n mens SIEN waar mense dig of yl woon, maar die kaart gee nie die getal mense per vierkante kilometer nie - daarvoor deel 'n mens die mense deur die grond.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Bevolkingsdigtheid is hoeveel mense daar gemiddeld op elke vierkante kilometer grond woon; 'n mens kry dit deur die mense te deel deur die grond. Twee gebiede kan dieselfde aantal mense hê en glad nie ewe dig wees nie, want die een is groot en die ander klein.",
+   "blok": "lesse[les 1].kern[2]; lesse[les 1].kern[3]",
+   "status": "bevestig",
+   "bron": "Stats SA en Wikipedia se provinsiale digtheidstabelle gebruik mense per km2 = bevolking / oppervlak; bv. Census 2022 Gauteng 15,1 m op 18 178 km2 = sowat 831/km2.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "'n Provinsie se gemiddelde digtheid is nie die digtheid van enige plek in daardie provinsie nie; in dieselfde provinsie kan 'n vol stad en 'n byna leë halfwoestyn lê.",
+   "blok": "lesse[les 2].kern[6]; moeilike_konsepte_nota",
+   "status": "bevestig",
+   "bron": "Esri ArcGIS Blog: 'n choropleet met een waarde per gebied 'hides variation inside regions' (voorbeeld: woestyn en stadsrand kry dieselfde digtheid). Wes-Kaap bevat Kaapstad (4,77 m, Census 2022) en dele van die Karoo, wat Wikipedia 'Karoo' as 'n halfwoestyn beskryf.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Suid-Afrika kry oor die algemeen meer reën in die ooste en word al hoe droër na die weste toe.",
+   "blok": "feitekontrole_voor_skryfwerk[4]; lesse[les 3].kern[2]",
+   "status": "bevestig",
+   "bron": "Departement van Water en Sanitasie, National State of Water Report 2024 (Climatic Environment): 'the normal west-east gradient of increasing rainfall over the interior', hoogste totale langs die oostelike platorand; Library of Congress Country Study (South Africa, 'Climate and Rainfall'): die noordweste dikwels onder 200 mm. 'Oor die algemeen' dek die winterreënstreek van die Suidwes-Kaap, wat die uitsondering is.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Kaapstad en Durban se hawens lê in beskutte baaie ... 'n Beskutte baai maak 'n hawe moontlik, en dit is hoekom Kaapstad en Durban se hawens waar hulle is - 'n skip het stil water nodig om te anker.",
+   "blok": "feitekontrole_voor_skryfwerk[5]; lesse[les 3].kern[5]; lesse[les 3].feiterisiko[0]",
+   "status": "weerspreek",
+   "bron": "VIR DURBAN WAAR: die baai is 'n natuurlike strandmeer wat deur die Bluff beskut word, een van min natuurlike hawens tussen Algoabaai en Delagoabaai (Freight News 'Was infamous sandbar to blame?'; africaports.co.za) - al het 'n sandbank by die ingang groot skepe lank uitgehou. VIR KAAPSTAD VALS: Abrahams-Willis, Southern African Field Archaeology 6:50-56 (1997, SA Kultuurhistoriese Museum): 'Until the mid-1860s, no harbour of refuge existed at the Cape ... During the winter months, northerly gales from the Atlantic played havoc among ships in the bay' - op 17 Mei 1865 is vyftien skepe in Tafelbaai vergaan, en 'Table Bay remained out of bounds to ships for approximately half of the year, until the Table Bay Harbour was developed'. Skepe het in die winter na Simonsbaai uitgewyk. Tafelbaai is dus nie 'n beskutte baai nie; die hawe moes met breekwaters gebou word.",
+   "regstelling": "Durban se hawe lê in 'n baai wat deur 'n landtong (die Bluff) teen die see beskut word, en dit is hoekom die hawe daar is. Kaapstad moet NIE as voorbeeld van 'n beskutte baai gebruik word nie: Tafelbaai lê in die winter oop vir storms uit die see, en Kaapstad se hawe moes met 'n breekwater beskut word voordat skepe die hele jaar veilig kon lê. Die eenvoudigste regstelling is om net Durban te noem.",
+   "tipe": "naam"
+  },
+  {
+   "bewering": "Klimaat: waar dit baie droog is, moet water van ver kom of diep uit die grond, en dan woon min mense op 'n groot stuk grond. Water: 'n nedersetting het water nodig wat die hele jaar hou - 'n rivier, 'n fontein, 'n dam of water diep in die grond wat 'n boorgat kan bykom; soveel ou dorpe staan by 'n rivier of 'n fontein.",
+   "blok": "lesse[les 3].kern[2]; lesse[les 3].kern[3]; lesse[les 3].feiterisiko[2]",
+   "status": "bevestig",
+   "bron": "Wikipedia 'Karoo': grondwater word deur boorgate getap, 'making permanent settlements and sheep farming possible'; UP-nuus oor Pretoria, gestig langs fonteine; Rough Guides oor Springbok, wie se oorlewing van sy fontein afgehang het; Noord-Kaap se digtheid van 3,6/km2 (Census 2022).",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Plantegroei: goeie gras beteken 'n boer kan beeste en skape op minder grond aanhou; waar die veld dun is, moet hy meer grond hê vir dieselfde aantal diere, en dan lê die huise ver van mekaar. Bome gee hout om te bou en om vuur te maak.",
+   "blok": "lesse[les 3].kern[4]",
+   "status": "bevestig",
+   "bron": "Wet op die Bewaring van Landbouhulpbronne 43 van 1983, regulasie 10, en die Departement van Landbou se langtermyn-weidingskapasiteitkaart (agis.nda.agric.za): weidingskapasiteit word gemeet in HEKTAAR PER GROOTVEE-EENHEID en verskil volgens veldtipe; Karoo-norm sowat 30 ha per eenheid (rangelandsgateway.org, Karoo-studie).",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Gelyk grond is makliker om op te bou en te ploeg as 'n steil hang; berge skei nedersettings en dwing die paaie deur passe; moerasse en baie steil hange word vermy. Die meeste nedersettings staan waar 'n paar van hierdie dinge bymekaarkom; een rede alleen verklaar selde 'n plek.",
+   "blok": "lesse[les 3].kern[5]; lesse[les 3].kern[7]",
+   "status": "bevestig",
+   "bron": "Geography Fieldwork (Barcelona Field Studies Centre), 'Site and Situation': terreinfaktore soos droë grond teen oorstromings, nabyheid van water en fonteine, gapingsdorpe tussen hoë grond, en ligging teenoor roetes en hulpbronne werk saam; die groei van 'n nedersetting hang af van sy ligging teenoor toeganklikheid en hulpbronne. 'Die meeste' is 'n kwalitatiewe veralgemening wat met hierdie literatuur strook; geen bron gee 'n persentasie nie.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Kimberley het om diamante ontstaan (1869-71) en Johannesburg om die goud van die Witwatersrand (1886).",
+   "blok": "feitekontrole_voor_skryfwerk[6]; lesse[les 4].kern[1]",
+   "status": "bevestig",
+   "bron": "Kimberley: diamante op Colesberg Kopje (plaas Vooruitzicht), Julie 1871; die kamp New Rush is in 1873 herdoop (experiencenortherncape.com; thesolomon.co.za); rivierdelwerye by Klipdrift aan die Vaal 1869/1870. Johannesburg: SAHO - goud van die Hoofrif in 1885, die dorp in 1886 uitgelê, delwery op 20 September 1886 geproklameer.",
+   "tipe": "datum"
+  },
+  {
+   "bewering": "Albei lê op plekke wat nie om water of 'n hawe gekies is nie - 'nie 'n hawe, nie 'n groot rivier nie'; plus die redes vir die verbod op 'geen rivier': die vroegste diamantdelwery was op die Vaal by Klipdrift, Kimberley se water word sedert 1882 uit die Vaal gepomp, en Johannesburg se Jukskei en Klip ontstaan binne die stad.",
+   "blok": "feitekontrole_voor_skryfwerk[6]; lesse[les 4].kern[1]",
+   "status": "bevestig",
+   "bron": "Klipdrift-rivierdelwerye aan die Vaal (thesolomon.co.za); Kimberley-waterwerke: water uit die Vaal by Riverton het Kimberley op 21 Desember 1882 bereik (kimberley.org.za 'Today in Kimberley's History'); Jukskei begin by Ellis Park/Bruma in Johannesburg (Wikipedia 'Jukskei River'; Farmer's Weekly); die Klip dreineer Johannesburg suid van die rif, en sy opvanggebied se noordelike waterskeiding lê op die Witwatersrand-rif binne die stad (S Afr J Sci 103, 2007, Klip River-vleiland; Mail & Guardian 2026). Die verbod op 'geen rivier' staan dus op 'n ware grond.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Dit is die duidelikste voorbeeld daarvan dat WERK 'n plek kan kies wat die natuur nie sou kies nie (en: 'selfs waar min van les 3 se redes gegeld het').",
+   "blok": "lesse[les 4].kern[1]",
+   "status": "weerspreek",
+   "bron": "'Die duidelikste' is 'n oordeel wat geen bron kan vasstel nie. Boonop werk die vergelyking verkeerd vir 'n leerder wat les 3 gelees het: les 3 kern[6] noem 'minerale in die grond' self as 'n natuurlike HULPBRON en 'n rede vir 'n ligging, dus het die natuur die plek wel gekies - met die mineraal, nie met water of 'n hawe nie. 'Selfs waar min van les 3 se redes gegeld het' is verdedigbaar vir Kimberley (droog, dun veld), maar nie in die vorm 'n plek wat die natuur nie sou kies nie'.",
+   "regstelling": "Versag die oortreffende trap en maak die prentjie reg: 'Dit is 'n duidelike voorbeeld daarvan dat 'n mineraal onder die grond 'n dorp kan laat ontstaan op 'n plek waar water, 'n hawe of goeie landbougrond dit nie sou gedoen het nie.' Laat 'wat die natuur nie sou kies nie' val.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Die meganisme is opwelling: wind stoot die oppervlakwater see toe, water styg van 200-300 m op, en daardie water is koud en ryk aan voedingstowwe terselfdertyd; die koue veroorsaak nie die kos nie; voedingstowwe plus sonlig laat die plankton groei, en die plankton voer die sardyn en ansjovis.",
+   "blok": "feitekontrole_voor_skryfwerk[7]; lesse[les 4].feiterisiko[2]",
+   "status": "bevestig",
+   "bron": "UNESCO Wêrelderfenis-voorlopige lys, 'Benguela Upwelling System' (whc.unesco.org/fr/listesindicatives/6094): suidoostewinde veroorsaak kusopwelling; 'cold, nutrient rich waters from around 200-300 m depth' lei tot hoë fitoplanktongroei; BCLME Fact Files (Oceanography); PBS: voedingstowwe word eers in die sonlig-laag benut. Ansjovis en sardyn volg die fitoplankton (isblue.fr, 'Small pelagic fish in two contrasting ecosystems').",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Aan die weskus is die koue seewater ryk aan kos vir visse, en daarom lê daar visdorpe aan daardie kus. 'n Visdorp het 'n beskutte plek nodig waar bote kan lê.",
+   "blok": "lesse[les 4].kern[2]",
+   "status": "bevestig",
+   "bron": "Soos hierbo (UNESCO/BCLME: die Benguela se biomassa 'support commercially important fisheries'). As vereenvoudiging waar: die opgewelde water is ryk aan plankton, wat die kos van die visse is. Port Nolloth is juis weens sy beskutte ankerplek gekies (Heritage Portal, 'The early history of Port Nolloth').",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Port Nolloth (1854-55) en Hondeklipbaai (1846/1852) is as koperhawens gestig en het eers later visdorpe geword.",
+   "blok": "feitekontrole_voor_skryfwerk[7]",
+   "status": "bevestig",
+   "bron": "Port Nolloth: baai in 1854 opgemeet en vir koper uit Okiep gekies, kaai in 1855 (Heritage Portal; Britannica 'founded in 1855 ... harbour for the copper mines'); vandag hoofsaaklik 'n kreefvissersdorp. Hondeklipbaai: die rots in 1846 deur kaptein Thomas Grace gesien, eerste vrag kopererts in Augustus 1852 verskeep (The Citizen, 'Adventures on Diamond Coast'); later 'n kreeffabriek.",
+   "tipe": "datum"
+  },
+  {
+   "bewering": "Nedersettings het gegroei waar paaie gekruis het, waar 'n mens 'n rivier kon oorsteek, by hawens waar goedere die land in en uit is, en later by stasies op die spoorlyn.",
+   "blok": "lesse[les 4].kern[3]",
+   "status": "bevestig",
+   "bron": "Geography Fieldwork, 'Site and Situation': roetesentrums/knooppunte waar roetes saamkom, oorbruggingspunte by riviere, hawens by natuurlike hawens en handelsroetes; spoorwegknooppunte volg dieselfde logika as roeteknooppunte.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Die naam Groepsgebiedewet en die jaar 1950; 'Groepsgebiedewet' is die gangbare Afrikaanse vorm; die wet se formele titel in 1950 was 'Wet op Groepsgebiede'.",
+   "blok": "feitekontrole_voor_skryfwerk[8]; lesse[les 4].kern[4]",
+   "status": "bevestig",
+   "bron": "SAHO 'Group Areas Act of 1950' en argief 'Group Areas Act, Act No 41 of 1950'; Wikipedia 'Group Areas Act' (Afrikaans: Wet op Groepsgebiede, Wet 41 van 1950); US-proefskrif (scholar.sun.ac.za) en Tygerberg-geskiedenis gebruik 'Groepsgebiedewet (1950)'.",
+   "tipe": "naam"
+  },
+  {
+   "bewering": "In die jare van apartheid het wette bepaal waar mense van verskillende bevolkingsgroepe mag woon.",
+   "blok": "feitekontrole_voor_skryfwerk[8]; lesse[les 4].kern[4]",
+   "status": "bevestig",
+   "bron": "SAHO 'Group Areas Act of 1950': die wet het die raamwerk geskep om woonbuurte as 'group areas' te verklaar waar net mense van een ras mag woon.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Die Groepsgebiedewet van 1950 het gebiede vir bepaalde groepe verklaar.",
+   "blok": "lesse[les 4].kern[4]",
+   "status": "weerspreek",
+   "bron": "SAHO 'Group Areas Act of 1950': die wet 'did not itself create group areas but established the machinery to create them' - die gebiede is daarna, gebied vir gebied, kragtens die wet deur die regering verklaar. Die gebeure is waar, maar die wet self het geen gebied verklaar nie, en dit is presies die soort fyn feit oor 'n wet wat die brief vra om soos die bronne te stel.",
+   "regstelling": "'Die Groepsgebiedewet van 1950 het die regering die mag gegee om gebiede vir bepaalde groepe te verklaar' (of: 'Kragtens die Groepsgebiedewet van 1950 is gebiede vir bepaalde groepe verklaar').",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Dit was een van die wette wat gebruik is om mense uit dorpe en stede te skuif, en nie die enigste wet nie.",
+   "blok": "lesse[les 4].kern[4]",
+   "status": "bevestig",
+   "bron": "SAHO 'Group Areas Act of 1950' noem ander wette wat vir verskuiwings gebruik is (die Gesondheidswet, die Native Administration Act van 1927, die grondwette van 1913 en 1936); die Sophiatown-verskuiwing het onder die Natives Resettlement Act van 1954 gebeur.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Mense wat in 'n gebied gewoon het wat vir 'n ander groep verklaar is, moes wegtrek - dit is gedwonge verskuiwings - en nuwe woongebiede is dikwels aan die rand van 'n dorp gebou, ver van die middedorp en ver van die werk.",
+   "blok": "feitekontrole_voor_skryfwerk[8]; lesse[les 4].kern[4]",
+   "status": "bevestig",
+   "bron": "SAHO: inwoners wat nie tot die verklaarde groep behoort het nie, het minstens 'n jaar gekry om te trek, en die wet het honderdduisende mense verplaas; Nasionale Ontwikkelingsplan (soos aangehaal in die IUDF-materiaal, gov.za/pmg.org.za): 'apartheid planning consigned the majority of South Africans to places far from work'.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Die wet is in 1957 en weer in 1966 herskryf, en die 1966-weergawe is in 1991 herroep (rede vir die verbod op '1950 tot 1991').",
+   "blok": "lesse[les 4].kern[4]",
+   "status": "bevestig",
+   "bron": "SAHO: 're-enacted in the Consolidation Acts of 1957 and 1966'; Wikipedia 'Group Areas Act' en 'Abolition of Racially Based Land Measures Act, 1991': Wet 36 van 1966 is deur Wet 108 van 1991 herroep, in werking 30 Junie 1991 (lawlibrary.org.za).",
+   "tipe": "datum"
+  },
+  {
+   "bewering": "Goeie bronne gee 3,5 miljoen vir verskillende dinge en weerspreek mekaar (rede vir die verbod op 'n getal mense wat verskuif is).",
+   "blok": "lesse[les 4].kern[4]; lesse[les 4].feiterisiko[3]",
+   "status": "bevestig",
+   "bron": "3,5 miljoen tussen 1960 en 1983 vir ALLE gedwonge verskuiwings, en 'four million since 1948' (openDemocracy, op grond van die Surplus People Project); SAHO gee 'over 600 000' teen 1983 vir die Groepsgebiedewet alleen. Die getalle meet verskillende dinge; die verbod staan op 'n ware grond.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Vandag sê 'n munisipaliteit se plan waar huise, winkels, fabrieke en paaie gebou mag word, en die regering bou huise en bring water, elektrisiteit en paaie; wette bepaal dus steeds waar 'n nedersetting kan uitbrei.",
+   "blok": "lesse[les 4].kern[5]",
+   "status": "bevestig",
+   "bron": "Wet op Ruimtelike Beplanning en Grondgebruikbestuur 16 van 2013 (SPLUMA), artikel 24: elke munisipaliteit moet een grondgebruikskema vir sy hele gebied aanneem, met sones wat bepaal watter gebruik waar toegelaat word (PMG-aanbieding 'Framework and implementation of SPLUMA', 2024; Mogale City). Regeringsgesubsidieerde huise (RDP/BNG) sedert 1994, meer as 3,5 miljoen gebou, deur provinsiale departemente en munisipaliteite (The Outlier 2024; SAnews).",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Die Grondwet laat nie 'n wet toe wat mense volgens bevolkingsgroep skei nie.",
+   "blok": "lesse[les 4].kern[5]; buite_bestek[2]",
+   "status": "bevestig",
+   "bron": "Grondwet van die Republiek van Suid-Afrika, 1996, artikel 9(3): die staat mag niemand op grond van onder meer ras, kleur of etniese herkoms onbillik diskrimineer nie; artikel 9(5): diskriminasie op 'n gelyste grond is onbillik tensy die teendeel bewys word (bug-ev.org, verfassungsblog.de, teks van die Grondwet).",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Die wette is weg, maar hul gevolg is nie: baie mense woon nog waar daardie wette hulle geplaas het, en baie Suid-Afrikaanse dorpe en stede dra nog daardie vorm - woongebiede ver van die middedorp, en mense wat ver ry werk toe.",
+   "blok": "feitekontrole_voor_skryfwerk[9]; lesse[les 4].kern[6]; lesse[les 4].feiterisiko[1]",
+   "status": "bevestig",
+   "bron": "Nasionale Ontwikkelingsplan en die Geïntegreerde Stedelike Ontwikkelingsraamwerk (IUDF, aanvaar April 2016; parlementêre inligtingsessie 2017, pmg.org.za): die ruimtelike patroon van apartheid hou aan, met arm huishoudings wat gemiddeld meer as 40% van hul inkomste aan vervoer bestee; die Sentrum vir Ontwikkeling en Onderneming: te veel Suid-Afrikaners reis lang afstande tussen huis en werk.",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Meer Suid-Afrikaners woon vandag in stedelike as in landelike gebiede; stedelik oortref landelik al sowat veertig jaar (die kruising was 1987) en styg elke jaar.",
+   "blok": "feitekontrole_voor_skryfwerk[10]",
+   "status": "bevestig",
+   "bron": "Wêreldbank-reeks SP.URB.TOTL.IN.ZS vir Suid-Afrika (opgedateer 8 Okt 2026, op grond van die VN se World Urbanization Prospects): 1986 49,56%, 1987 50,10%; 2015 63,21% tot 2025 63,82%, elke jaar hoër. Dit bevestig ook dat 'n aggregator se 69,3% nie die Wêreldbank se syfer is nie.",
+   "tipe": "datum"
+  },
+  {
+   "bewering": "Die oorgrote meerderheid van Egipte se mense woon langs die Nyl en in sy delta, op 'n klein deel van die land se oppervlak (sowat 97% op sowat 4% volgens die FAO, of meer as 95% op 5%).",
+   "blok": "feitekontrole_voor_skryfwerk[11]",
+   "status": "bevestig",
+   "bron": "FAO, verslag oor grond- en waterinligting oor Egipte: 'Ninety-nine percent of the population ... lives in a small band alongside the Nile ... on about 4 percent of the land'; FAO 'Geography and population' (W4356E): die Nylvallei en -delta beslaan sowat 4% van die land, met sowat 2 mense per km2 oor meer as 96% van die gebied. Die bestelling ('die oorgrote meerderheid') staan. Let op dat die FAO-bron wat ek gevind het 99% gee, nie 97% nie; die spesifikasie verbied in elk geval 'n persentasie.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "'n Megastad is 'n stad met meer as 10 miljoen mense, 'n drempel gestel deur die VN se bevolkingsafdeling in World Urbanization Prospects; skryf dit as 'n afspraak.",
+   "blok": "feitekontrole_voor_skryfwerk[12]; getalle_nota; skryfnota",
+   "status": "bevestig",
+   "bron": "VN-persverklaring World Urbanization Prospects 2025 (un.org/sustainabledevelopment, Nov 2025): megastede is 'urban areas with 10 million or more inhabitants', 33 in 2025; Wikipedia 'Megacity': die VN het eers 8 miljoen gebruik; Parnreiter 2009 (GaWC Research Bulletin 323): WUP gee geen rede vir die drempel nie en ander outeurs het vyf of agt miljoen voorgestel.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Vakkundiges het al 4, 5 en 8 miljoen gebruik.",
+   "blok": "feitekontrole_voor_skryfwerk[12]",
+   "status": "onseker",
+   "bron": "NIE OPGELOS NIE. 5 en 8 miljoen is bevestig (Parnreiter 2009, GaWC RB 323; Bronger 1996 = 5 m, VN 1987 = 8 m, Mertins 1992 = 10 m, soos aangehaal deur seos-project.eu; Wikipedia 'Megacity'). Vir 4 miljoen het ek in twee doelgerigte soektogte geen bron gevind nie. Die punt self ('skryf dit as 'n afspraak') staan op 5 en 8 alleen; 'n mens kan '4' uit die rekord sny sonder dat iets verlore gaan.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Die Wêreldbank se Beijing-voorbeeld loop van 2,3 tot 10,8 miljoen, dwarsoor die tienmiljoenlyn.",
+   "blok": "feitekontrole_voor_skryfwerk[12]",
+   "status": "bevestig",
+   "bron": "Wêreldbank WDI-metodologienota by die aanwyser 'Population in urban agglomerations of more than 1 million' (weergegee deur Our World in Data): 'in 1990 Beijing ... contained 2.3 million people in 87 square kilometers of inner city', en die wydste grens 10,8 miljoen. LET OP: dit is 1990-SYFERS; die spesifikasie skryf hulle sonder 'n jaar neer, wat strydig is met sy eie getalle_nota-reël (1). Beijing het vandag, volgens enige grens, ver meer as 10 miljoen.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Tokio, Delhi, Sjanghai, São Paulo, Mexikostad, Kaïro en Lagos is megastede (oor die 10 miljoen-lyn).",
+   "blok": "feitekontrole_voor_skryfwerk[13]",
+   "status": "bevestig",
+   "bron": "VN WUP 2025: Tokio 33,4 m, Nieu-Delhi 30,2 m, Sjanghai 29,6 m, Kaïro 25,5 m (UNRIC 'The World's Largest Cities'; VN-persverklaring); Mexikostad 17,7 m en Lagos 12,7 m (UNRIC); São Paulo sowat 18,9 m (São Paulo-munisipaliteit se tabel '100 maiores aglomerados urbanos', op VN-data). Al sewe is oor die lyn onder die 2025-metode.",
+   "tipe": "getal"
+  },
+  {
+   "bewering": "Johannesburg is Suid-Afrika se grootste stad, maar of dit oor die lyn is, hang af van waar 'n mens die stad se grens trek.",
+   "blok": "feitekontrole_voor_skryfwerk[13]",
+   "status": "bevestig",
+   "bron": "Census 2022: Stad Johannesburg 4 803 262 teenoor Stad Kaapstad 4 772 846 (Wits/GCRO-mening, Okt 2023 - hulle meen Kaapstad kan intussen verbygesteek het, maar sê self dit is voorwaardelik); Stats SA se distriksberamings vir 2025 (P0302): Johannesburg 36,6% van Gauteng se 16,1 m (sowat 5,9 m) teenoor Kaapstad 66,0% van Wes-Kaap se 7,6 m (sowat 5,0 m) - Johannesburg bly voor. UNRIC (WUP 2025): Johannesburg 'expected to approach the 10-million-resident threshold', dus nog nie oor die lyn onder die VN se metode nie. Die verbod om dit 'n megastad te noem, staan.",
+   "tipe": "superlatief"
+  },
+  {
+   "bewering": "Kaïro lê in Egipte op die Nyl, net stroomop van waar die rivier in sy delta begin uitsprei; byna geen reën val nie; woestyn lê aan weerskante van die rivier; mense woon al baie lank op hierdie plek.",
+   "blok": "feitekontrole_voor_skryfwerk[14]",
+   "status": "bevestig",
+   "bron": "Britannica (ook die skoolweergawe): Kaïro lê op die Nyl 'near the head of the ... delta', die 'gateway to the Nile delta', met woestyn agter die Mokattam-heuwels; sowat 25 mm reën per jaar (WorldClim 2.1-normale, 1970-2000); Memphis, Egipte se Ou Ryk-hoofstad, sowat 20 km suid; Fustat in 641 n.C. gestig en Kaïro in 969 (Al-Azhar-referaat; New World Encyclopedia).",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Sedert die groot dam by Aswan loop die Nyl nie meer elke jaar oor sy walle nie; die Aswan-hoogdam is in die 1960's en 1970's gebou.",
+   "blok": "feitekontrole_voor_skryfwerk[15]",
+   "status": "bevestig",
+   "bron": "Britannica 'Aswan High Dam': in 1970 voltooi en in Januarie 1971 amptelik ingewy, en 'for the first time in history, the annual Nile flood is under human control'; Wikipedia: konstruksie het in 1960 begin. Die damwal is in die 1960's gebou en ingewy op die drumpel van die 1970's; die tydsbepaling dek dit.",
+   "tipe": "datum"
+  },
+  {
+   "bewering": "Die kolle op die wêreldkaart staan nie op die nat, warm boskern of in die verste noorde nie.",
+   "blok": "geen_vrae",
+   "status": "bevestig",
+   "bron": "EchoGéo/Espace populations sociétés (journals.openedition.org/eps/14298): tropiese woudstreke soos die Amasone en die Kongokom is onder die leë gebiede; Diercke-atlas: noordelike Noord-Amerika, Groenland, Siberië, die Amasone-kom en die Sahara bly baie yl bewoon. (Soos les 1 se feiterisiko: yl, nie leeg nie.)",
+   "tipe": "algemeen"
+  },
+  {
+   "bewering": "Boeredorpie, nie buitedorp nie: 'n buitedorp is 'n voorstad, en 'n voorstad is deel van 'n stad.",
+   "blok": "beskermde_woorde_nota",
+   "status": "onseker",
+   "bron": "NIE OPGELOS NIE. Dit is 'n bewering oor Afrikaanse woordgebruik en die rede vir 'n beskermde woord. Ek kon nie die WAT of 'n ander Suid-Afrikaanse woordeboek bereik nie (viva-afrikaans.org gee 404), en drie soektogte het geen Suid-Afrikaanse bron vir 'buitedorp' opgelewer nie. Volgens my opdrag besleg ek plaaslike taalgebruik nie uit internasionale materiaal nie. 'n Mens met toegang tot die WAT/HAT moet dit nagaan; die verbod self (gebruik 'boeredorpie') kan staan, maar die rede is ongetoets.",
+   "tipe": "algemeen"
+  }
+ ],
+ "opsomming": "MENS_NODIG weens twee klein onseker-items (die '4 miljoen'-megastaddrempel in 'n rekord kon nie gevind word nie; die betekenis 'buitedorp = voorstad' kon nie in 'n Suid-Afrikaanse woordeboek nagegaan word nie), maar die werk vir die skrywer is die sewe weerspreek-items: Kaapstad se hawe lê NIE in 'n beskutte baai nie (Tafelbaai was tot die 1860's se breekwater die halwe jaar onveilig - noem net Durban); die sensus is omtrent elke tien jaar, nie 'elke paar jaar' nie (wet sedert Oktober 2025); provinsiale grafieke kom ook uit Stats SA se jaarlikse beramings, nie net die sensus nie; die instansie se Afrikaanse naam is 'Statistieke Suid-Afrika'; 'n kolkaart wys wel waar mense dig woon, dus is 'n verspreidingskaart-is-nie-'n-digtheidskaart nie te absoluut; die Groepsgebiedewet het die mag gegee om gebiede te verklaar, nie self gebiede verklaar nie; en 'die duidelikste voorbeeld ... wat die natuur nie sou kies nie' bots met les 3, wat minerale 'n natuurlike hulpbron noem. Al die rangorde-, oppervlak-, wette- en stedelik/landelik-bewerings is bevestig."
+}

@@ -110,8 +110,31 @@ that way in one command. Sign off a hand-checked lesson with:
 python bin/keur-goed-na-handnasien.py --vak "<subject>" --graad 5 --subonderwerp "<sub-topic>" --les 2
 ```
 
-It refuses unless both reports say GOEDGEKEUR and are newer than the draft, stashes
-them before the runner is called, puts them back, and then signs off.
+It stashes the reports before the runner is called, puts them back, and then signs
+off. It refuses unless both reports were written after the draft's **content** last
+changed — the fingerprint and timestamp the runner records, not the file's clock,
+because a write that touches only the status field or the provenance note moves the
+clock without changing a word a checker reads, and refused a finished lesson that
+way. It also refuses if the content has moved since the runner last saw it: then
+nothing can say what the checks judged, and `hardloop.py` has to gate the new text
+first.
+
+**One unresolvable fact may be accepted, by name.** Lampies, 7 October 2026. Where
+sources genuinely conflict the rule is to keep the best-supported reading and
+disclose the conflict in one sentence — and a lesson that does exactly that still
+comes back MENS_NODIG, correctly, so until now it could never ship. A person writes
+a dated record beside the draft, in `konsepte/.../les-N.aanvaardings.json`, naming
+one item of that lesson's fact report by its text and by a fingerprint over it, with
+the date, who accepted it and why. `--wys-items` prints every item holding a fact
+report up, with the fingerprint for each and a record to fill in — take the
+fingerprint from there rather than computing one.
+
+Every holding item must be accepted individually; one unaccepted item and sign-off
+refuses. Only an `onseker` item may be accepted — a contradicted claim is false, and
+a false claim is narrowed, cut or explained. The fingerprint covers the item's status
+and its evidence, so the acceptance lapses the moment the report's text for that item
+changes. There is no blanket form to write. The rules live in `bin/aanvaardings.py`
+and both the runner and this tool read that one module, so they cannot disagree.
 
 ## Never write lesson content by hand
 
@@ -225,12 +248,12 @@ one the writer reverted on purpose.
 3. Brief the checks by hand (run `bin/feitekopie.py` first).
 4. Sign off with `bin/keur-goed-na-handnasien.py`.
 
-If you skip step 2, the sign-off script refuses: the runner names the language finder
-instead. If the language step then changes the text, any restored reports describe
-the old text and are archived. If it changes nothing, the runner reports the lesson
-CLEAR, but the sign-off script still refuses because the runner re-saved the draft
-after the reports were written. Sign off with the `--keur-goed` command the runner
-prints.
+If you skip step 2, the sign-off script refuses: the content fingerprint is not one
+the runner has registered. Running the runner then registers the draft as new and
+archives the reports, so the checks have to be run again — skipping step 2 costs a
+check round. A language change that alters the text is recorded as a content change,
+with its fingerprint, so the reports in a correct hand cycle are measured against the
+text the language step left.
 
 **Neither language agent sees the spec's requirements or the provenance note**, for
 the same reason the fact checker doesn't: knowing the intent makes it read

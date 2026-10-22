@@ -56,10 +56,19 @@ import os
 import re
 import sys
 
-# Die merkers wat 'n rekord-afdeling oopmaak, in die volgorde waarin hulle in
-# hierdie repository gebruik word.
-MERKERS = ("REKORD, NIE BESTELLING NIE", "REGGEMAAK", "TERUGGETREK", "BYGEVOEG",
-           "OORWEEG EN BEHOU", "OORWEEG EN AFGEWYS", "AANGETEKEN", "HERSKRYF")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paaie as P  # noqa: E402
+
+# DIE MERKERLYS STAAN IN bin/paaie.py, en hierdie skrip hou geen eie kopie nie.
+#
+# Tot 8 Oktober 2026 het hierdie skrip sy eie agt merkers geken, maar NIE die kanonieke
+# reel - 'ALLES HIERONDER IS 'n REKORD EN BESTEL NIKS' - wat CLAUDE.md vir skrywers
+# voorskryf nie. 89 velde in 9 spesifikasies dra die kanonieke reel en geen ou vorm nie,
+# dus was elke veld wat in die huisvorm geskryf is vir hierdie skrip onsigbaar: hy het
+# geen merker gevind nie en die veld sonder 'n woord oorgeslaan.
+# bin/verouderde-bestellings.py het die omgekeerde probleem gehad - ses van hierdie agt
+# vorme het vir hom as niks getel. Een lys, deur albei gelees, met die meting agter elke
+# vorm: sien P.REKORDMERKERS.
 
 # Werkwoorde wat 'n aanhaling inlui: die sin HAAL 'n ou bestelling aan eerder as
 # om hom te gee. 'n Rekord mag - en moet dikwels - die ou bewoording aanhaal.
@@ -122,8 +131,11 @@ def loop_velde(o, pad=""):
 
 
 def eerste_merker(teks):
-    treffers = [teks.find(m) for m in MERKERS if teks.find(m) >= 0]
-    return min(treffers) if treffers else -1
+    """Waar die rekord-helfte begin, of -1. Een implementasie, in paaie, wat
+    bin/verouderde-bestellings.py se orde/rekord-snit ook gebruik. Die kanonieke reel
+    wen waar sy staan, want sy is die grens wat 'n mens getrek het na hy die veld van
+    bo af gelees het."""
+    return P.eerste_rekordmerker(teks)
 
 
 def is_bevel(sin):

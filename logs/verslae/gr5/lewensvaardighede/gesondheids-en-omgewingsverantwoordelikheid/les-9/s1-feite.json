@@ -1,130 +1,200 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Die hoes wat nie wou weggaan nie",
   "kaps_punt": "Leesvaardighede: lees met begrip en die gebruik van 'n woordeboek: Lees oor die oorsake, simptome en behandeling van plaaslike gesondheidsprobleme wat gereeld voorkom: herroep en vertel.",
   "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "Die suster het gesê dit is tuberkulose, en almal noem dit TB.",
+      "bewering": "In die koue weer het hy begin hoes. Almal hoes in die koue en niemand het daaraan gedink nie.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "WHO-feiteblad oor tuberkulose (who.int/news-room/fact-sheets/detail/tuberculosis): TB is die gangbare afkorting vir tuberkulose.",
-      "tipe": "naam"
-    },
-    {
-      "bewering": "TB kom van kieme wat in 'n mens se longe kan groei.",
-      "blok": "Onder die boom by die hek",
-      "status": "bevestig",
-      "bron": "WHO-feiteblad: TB word deur bakterieë veroorsaak en tas meestal die longe aan. 'Kan groei' laat ruimte vir TB elders in die liggaam; die sin maak geen 'net die longe'-bewering nie.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "die lang hoes, die nagsweet en die moegheid is simptome van TB",
-      "blok": "Onder die boom by die hek",
-      "status": "bevestig",
-      "bron": "WHO-feiteblad en CDC TB-feiteblad: aanhoudende hoes, nagsweet, moegheid/swakheid en gewigsverlies/eetlusverlies is tipiese simptome. Die verhaal se 'kos het op die bord bly staan' pas by eetlusverlies.",
-      "tipe": "algemeen"
+      "tipe": "superlatief",
+      "bron": "NICD-surveillance soos berig deur EWN (12 Jun 2025, 'Flu season started in March, confirms NICD') en Daily Maverick (17 Aug 2023): griep- en ander respiratoriese infeksies piek elke winter in Suid-Afrika. 'Almal' word gelees as die karakters se eie verskoning (vertelde gedagte, nie die verteller se feit nie), en die verhaal weerlê self die afleiding dat 'n winterhoes onskuldig is. Die kern - hoes is algemeen in die koue seisoen - klop; die letterlike 'almal' is hiperbool en lei 'n leerder nie tot 'n skadelike gevolgtrekking nie."
     },
     {
       "bewering": "Oom Frans het gesê hy word nou nagte lank wakker met 'n nat hemp.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "Nagsweet as TB-simptoom (WHO-feiteblad); die beskrywing beeld nagsweet korrek uit en die begrip 'nagsweet' word later so benoem.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "SA Nasionale Departement van Gesondheid, Clinical Resource Guide Afd. 7 (Tuberculosis, knowledgehub.health.gov.za, 2023), 'TB Symptom Screening for Adults and Children': 'Do you have drenching night sweats?'. WHO TB-feiteblad (who.int/news-room/fact-sheets/detail/tuberculosis) noem nagsweet as algemene simptoom. Die beeld (wakker word met 'n deurnat hemp) karteer korrek op 'drenching night sweats'."
+    },
+    {
+      "bewering": "Hy was moeg en sy kos het op die bord bly staan.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "SA NDoH Clinical Resource Guide Afd. 7, bykomende siftingsvrae: 'Have you lost your appetite?' en 'How long have you been feeling weak and tired?'; vukuzenzele.gov.za ('Six ways to beat TB') noem verlies aan eetlus en moegheid as tekens; WHO-feiteblad noem 'weakness' en 'fatigue'."
+    },
+    {
+      "bewering": "Hy het vir Palesa gesê sy moet niks by Oom Frans se huis drink nie.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dit is 'n karakter se wanopvatting wat die verhaal later deur die suster regstel. CDC, 'Causes of TB' (cdc.gov/tb/causes/index.html): TB versprei NIE deur 'Sharing food or drink' nie. Die prentjie wat 'n leerder oorvertel, eindig dus korrek: Ruan se beker-vrees was ongegrond."
+    },
+    {
+      "bewering": "Sy het getel, en die hoes was nou meer as twee weke daar. ... Die volgende oggend het hulle drie saam na die kliniek gestap.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "SA NDoH Clinical Resource Guide Afd. 7: volwasse siftingsvraag 'Do you have a cough? (>2 weeks or any duration if HIV+)'; vukuzenzele.gov.za: 'Coughing for more than two weeks' as teken, 'Get tested at any local clinic'. 'Meer as twee weke' stem woordeliks ooreen met die amptelike drempel."
+    },
+    {
+      "bewering": "By die kliniek het 'n suster na Oom Frans se bors geluister.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Primêre sorg in SA word deur verpleegkundiges met die NDoH se Adult Primary Care-gids gedoen ('symptom-based clinical decision aid ... for use by all health care practitioners working at primary care level', knowledgehub.health.gov.za/node/975); 'n kliniese ondersoek van die bors is deel van 'n hoes-ondersoek. Die verhaal laat die diagnose tereg op die slymtoets rus, nie op die luister nie."
     },
     {
       "bewering": "Sy het hom 'n bottel gegee om slym in te hoes. Die bottel het vir 'n toets weggegaan.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "Suid-Afrikaanse primêre-sorg riglyne (Epicentre TB-pakket, epicentre.org.za/package/tb): 'n pasiënt met 'n hoes van twee weke of langer gee sputum (slym) vir laboratoriumtoetsing.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "SA NDoH Clinical Resource Guide Afd. 7, 'Xpert Diagnostic Algorithm': 'All people with symptoms of TB - Collect one spot specimen (sputum ...)'. Een bottel klop met die amptelike een-monster-stap. Dat monsters na 'n laboratorium buite die kliniek gestuur word: Durban-studie (BMC Infect Dis 2014;14:442 / PMC4197409, soos deur die soekenjin opgesom; volteks deur 'n botkontrole geblokkeer): monsters en uitslae word tussen fasiliteit en buitelaboratorium gekoerier."
     },
     {
       "bewering": "Die volgende week het hulle teruggestap vir die antwoord.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "Suid-Afrikaanse klinieke stuur sputum na die laboratorium; smeeruitslae neem 2 tot 5 werksdae en Xpert-uitslae dikwels minder (PMC3675091, Johannesburg-studie). 'n Opvolgbesoek die volgende week is 'n geloofwaardige verloop vir een pasiënt; die sin beweer nie dat dit altyd 'n week neem nie.",
-      "tipe": "algemeen"
+      "tipe": "getal",
+      "bron": "Durban-studie (BMC Infect Dis 2014;14:442 / PMC4197409, opsomming via soekresultaat): mediane totale diagnostiese tyd met Xpert 6,4 dae weens laboratoriumverwerking en oordrag van uitslae. Die verhaal stel geen vaste tydsduur as feit nie; 'n terugbesoek die volgende week is realisties vir 'n SA-kliniek met 'n buitelaboratorium."
     },
     {
-      "bewering": "TB loop deur die lug en nie deur 'n beker of 'n bord nie. (twee keer in die leesstuk)",
+      "bewering": "Die suster het gesê dit is tuberkulose, en almal noem dit TB.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "CDC (via Southern Nevada Health District en MedlinePlus): TB versprei deur die lug wanneer iemand met long-TB hoes, nies of praat; dit versprei nie deur kos, drinkgoed of eetgerei te deel nie.",
-      "tipe": "algemeen"
+      "tipe": "superlatief",
+      "bron": "TB is die standaard-afkorting in SA-regeringskommunikasie (vukuzenzele.gov.za 'Six ways to beat TB'; NDoH Clinical Resource Guide gebruik deurgaans 'TB') en by die WHO. 'Almal noem dit TB' is as algemene gebruik juis."
+    },
+    {
+      "bewering": "TB kom van kieme wat in 'n mens se longe kan groei.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO TB-feiteblad: 'caused by bacteria that most often affects the lungs'. 'Kieme' is 'n aanvaarbare kinderwoord vir bakterieë en 'kan groei' laat ruimte vir TB elders in die liggaam."
+    },
+    {
+      "bewering": "Die suster het gesê die lang hoes, die nagsweet en die moegheid is simptome van TB.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO TB-feiteblad: 'prolonged cough', 'night sweats', 'weakness', 'fatigue'; SA NDoH Clinical Resource Guide Afd. 7 siftingsvrae (hoes >2 weke, nagsweet, swak en moeg)."
+    },
+    {
+      "bewering": "Die suster het gesê TB loop deur die lug en nie deur 'n beker of 'n bord nie.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC 'Causes of TB' (cdc.gov/tb/causes/index.html): 'TB germs spread through the air from one person to another'; nie versprei deur 'Sharing food or drink' nie. WHO-feiteblad: 'It spreads through the air when people with TB cough, sneeze or spit.' Die beeldspraak 'loop deur die lug' karteer korrek (lugoordrag) en lei nie verkeerd nie."
     },
     {
       "bewering": "Sy het bygevoeg dat nie elke hoes TB is nie.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "NHS (nhs.uk/symptoms/cough): die meeste hoese kom van verkoues en ander virusinfeksies.",
-      "tipe": "algemeen"
+      "tipe": "superlatief",
+      "bron": "SA NDoH Xpert-algoritme (Clinical Resource Guide Afd. 7): by 'n negatiewe Xpert word die pasiënt met antibiotika behandel en word ander diagnoses oorweeg; NHS Wales 111 (111.wales.nhs.uk/Cough): die meeste hoeste klaar vanself op."
     },
     {
-      "bewering": "'n Gewone hoes hou langer aan as wat mense dink. Hy is gewoonlik eers ná omtrent drie weke weg.",
+      "bewering": "'n Gewone hoes hou langer aan as wat mense dink.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "NHS (nhs.uk/symptoms/cough; NHS inform): 'n hoes klaar gewoonlik binne 3 tot 4 weke op. 'Omtrent drie weke' is 'n redelike afronding en word nie as presies aangebied nie.",
-      "tipe": "getal"
+      "tipe": "algemeen",
+      "bron": "Ebell et al., 'How long does a cough last?', Annals of Family Medicine 2013;11(1):5 (annfammed.org/content/11/1/5): werklike gemiddelde duur 17,8 dae teenoor die publiek se verwagting van gemiddeld 7,2-9,3 dae. Presies hierdie bewering."
     },
     {
-      "bewering": "Die kliniek gaan wel elke hoes van twee weke of langer na. Hulle kyk liewer te vroeg as te laat.",
+      "bewering": "Hy is gewoonlik eers ná omtrent drie weke weg.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "Suid-Afrikaanse primêre-sorg riglyne (Epicentre TB-pakket): elke pasiënt met 'n hoes van twee weke of langer, met of sonder ander simptome, word vir TB getoets. Saam met die vorige item lees die geheel reg: 'n gewone hoes kan tot drie weke duur, maar die kliniek toets reeds by twee weke — die twee getalle weerspreek mekaar nie.",
-      "tipe": "getal"
+      "tipe": "getal",
+      "bron": "Ebell et al. 2013 (Ann Fam Med): gemiddelde duur van akute hoes 17,8 dae (omtrent drie weke); NHS Wales 111: 'A cough will usually clear up on its own within 3 to 4 weeks.' 'Omtrent drie weke' is 'n regverdigbare afronding."
     },
     {
-      "bewering": "Jy kan gerus vroeër kom as jy bekommerd is.",
+      "bewering": "Die kliniek gaan wel elke hoes van twee weke of langer na.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "NHS-hoesriglyne en die SA-riglyn hierbo: 'n ernstige of vinnig verergerende hoes, of kommer, regverdig vroeër mediese hulp; die twee-weke-grens is 'n toetsgrens, nie 'n verbod op vroeër kom nie.",
-      "tipe": "algemeen"
+      "tipe": "superlatief",
+      "bron": "SA NDoH Clinical Resource Guide Afd. 7: hoes '>2 weeks or any duration if HIV+' is die siftingsdrempel; SA het beweeg na sifting van almal wat primêre klinieke besoek. As beleid juis. Twee kanttekeninge vir 'n mens, geen fout nie: die gids skryf '>2 weke' (die les se 'twee weke of langer' verskil net op die grensdag), en in die praktyk word nie elke simptomatiese persoon getoets nie (XTEND-proef, PMC4575203: 22,7% gevra om slym te gee) - die suster praat egter vir haar eie kliniek se praktyk."
     },
     {
-      "bewering": "Oom Frans moet sy medisyne elke dag drink. Hy moet baie maande lank aanhou, ook nadat hy weer goed voel.",
+      "bewering": "Hulle kyk liewer te vroeg as te laat. Jy kan gerus vroeër kom as jy bekommerd is.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "WHO-feiteblad en CDC TB-feiteblad: TB-siekte word met daaglikse antibiotika vir etlike maande behandel (standaard ses maande, sommige nuwer regimes vier maande), en die hele kursus moet voltooi word al voel die pasiënt beter. 'Baie maande' is waar vir albei.",
-      "tipe": "getal"
+      "tipe": "algemeen",
+      "bron": "Die tweeweekdrempel lê onder die tipiese duur van 'n gewone hoes (Ebell 2013: 17,8 dae), dus is die logika van die verhaal korrek; ZAMSTAR-opnames (PMC5336223) wys dat selfs hoes van twee weke of langer meeste gevalle mis, wat vroeër kom ondersteun; NDoH-gids: enige duur vir mense met MIV."
     },
     {
-      "bewering": "As hy die medisyne klaar drink, kan die TB gesond gemaak word.",
+      "bewering": "Die suster het gesê TB kan gesond gemaak word.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "WHO-feiteblad: TB is voorkombaar en geneesbaar. 'Kan' vermy 'n bewering dat elke geval genees.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO TB-feiteblad: 'TB is preventable and curable.' vukuzenzele.gov.za (SA regering): 'TB can be cured'."
+    },
+    {
+      "bewering": "Oom Frans moet sy medisyne elke dag drink, ook nadat hy weer goed voel.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO TB-feiteblad: 'medications need to be taken daily for 4-6 months'; NICE NG33 pasiëntinligting 'Finishing all your treatment' (nice.org.uk/guidance/ng33/ifp/chapter/Finishing-all-your-treatment): hou aan selfs as jy voor die einde van die kursus weer goed voel; CDC (cdc.gov/tb/treatment): 'do not stop treatment early'."
+    },
+    {
+      "bewering": "Hy moet baie maande lank aanhou",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "WHO TB-feiteblad: daagliks vir 4-6 maande; vukuzenzele.gov.za: 'Take treatment for six months'; SA standaardregimen vir geneesmiddel-sensitiewe TB is ses maande (UCT/SATVI). 'Baie maande' dek albei korrek sonder 'n getal te noem."
+    },
+    {
+      "bewering": "want dit gee hom die beste kans om gesond te word.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "CDC (cdc.gov/tb/treatment): 'take and finish all TB medicines exactly as prescribed ... It can be very dangerous to stop taking your medicines'; BJID-oorsig (bjid.org.br, S1413867026011578): terugvalkoers 15-25% by staking teenoor 5-8% by voltooiing, en onderbreking verhoog die risiko van weerstandige stamme. Die gematigde 'beste kans' (nie 'n waarborg nie) is presies reg."
     },
     {
       "bewering": "Ná 'n paar weke se medisyne gee iemand die siekte gewoonlik nie meer oor nie.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "CDC-gebaseerde gesondheidsowerheidsbronne (MedicineNet, Southern Nevada Health District): 'n persoon word binne dae tot weke van doeltreffende behandeling nie-aansteeklik. 'Gewoonlik' dek middelweerstandige gevalle wat langer neem.",
-      "tipe": "algemeen"
+      "tipe": "getal",
+      "bron": "Mayo Clinic News Network ('Tuberculosis: What you need to know'): die meeste mense met aktiewe TB wat minstens twee weke gepaste behandeling gehad het, is nie meer aansteeklik nie; BCCDC 'Deisolation of people with pulmonary TB disease': minimum 2 weke (4 weke by aanhoudend smeer-positief); NTCA-oorsig soos deur Texas DSHS opgesom: aansteeklikheid daal binne dae na effektiewe behandeling. Bronne verskil oor hoe gou (dae tot weke) en wys op uitsonderings (onherkende geneesmiddelweerstandige TB, Lima-studie via aidsmap 2010), maar 'n paar weke met 'gewoonlik' is die konserwatiewe kant van al die bronne en die voorbehoud dek die uitsonderings."
     },
     {
       "bewering": "Ná 'n paar weke het die hoes minder geword en hy het weer geëet.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "WHO/CDC: simptome verbeter gewoonlik binne die eerste weke van behandeling. Geloofwaardige verloop vir een pasiënt.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO TB Knowledge Sharing Platform, afd. 9.1 'Clinical examination' (tbksp.who.int/en/node/1968, via soekopsomming; bladsy self gaf 403): klassieke simptome - hoes, slym, koors, gewigsverlies - verbeter gewoonlik binne die eerste paar weke van behandeling; studie van 46 gevalle: eetlusverlies het by baie teen week 2 opgeklaar."
     },
     {
-      "bewering": "Die hele stuk: Ruan bly weg omdat hy dink TB kom deur 'n beker; ná die suster se verduideliking en 'n paar weke se medisyne sit hy weer langs Oom Frans, terwyl Oom Frans die hele kursus voltooi.",
+      "bewering": "Oom Frans drink nou al 'n paar weke sy medisyne. Ná so lank gee iemand die siekte gewoonlik nie meer oor nie. Toe het Ruan sy eie fiets daar kom regmaak. Hy het langs Oom Frans gesit en die spanner vasgehou.",
       "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "Gelees as geheel teen dieselfde bronne as hierbo: wat die stuk leer (oordrag deur die lug, nie deur eetgerei nie; nie meer aansteeklik ná 'n paar weke se behandeling nie; aanhou tot die einde) klop. Ruan se terugkeer val ná 'n paar weke se medisyne, nie voor dit nie, dus leer die volgorde nie dat 'n TB-pasiënt van die begin af veilig is om naby te sit nie. Die stuk sê nie dat 'n TB-pasiënt nooit iemand aansteek nie.",
-      "tipe": "analogie"
+      "tipe": "algemeen",
+      "bron": "Prentjie-toets (wat 'n leerder oorvertel oor wanneer dit veilig is om naby iemand met TB te wees): Ruan sit eers langs hom NÁ 'n paar weke behandeling, terwyl die behandeling voortgaan en die hoes al minder is - dit stem ooreen met Mayo Clinic, BCCDC en die NTCA-oorsig hierbo. Die verhaal ondersteun Ruan se vroeëre afstand ook implisiet ('TB loop deur die lug') en stel slegs die beker-vrees reg, dus leer dit nie dat nabyheid voor behandeling veilig is nie. Die NTCA-oorsig waarsku dat onderbreking van behandeling aansteeklikheid kan laat terugkeer; die verhaal laat hom aanhou tot die einde, so die prentjie bly waar."
     },
     {
-      "bewering": "Woordelys, elke inskrywing alleen gelees: nagsweet, tuberkulose, spanner, blokkie (Palesa en Ruan is karakters).",
-      "blok": "woordelys",
+      "bewering": "Oom Frans het die volgende oggend met die medisyne begin.",
+      "blok": "Onder die boom by die hek",
       "status": "bevestig",
-      "bron": "Die woordelys is 'n lys van terme sonder omskrywings; daar is geen begrip-inskrywing wat alleen 'n bewering maak nie. 'Nagsweet' en 'tuberkulose' word in die teks korrek gebruik (sien items hierbo); 'spanner' en 'blokkie' word in hul gewone betekenis gebruik.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "SA NDoH Xpert-algoritme (Clinical Resource Guide Afd. 7): 'Xpert Positive, Rifampicin susceptible - Treat as Drug Susceptible TB, Start on Regimen 1' - behandeling begin onmiddellik na 'n positiewe uitslag."
+    },
+    {
+      "bewering": "Oom Frans het goed gevoel en daar was nog baie maande se medisyne oor.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Na 'n paar weke van 'n ses-maande-regimen (vukuzenzele.gov.za; WHO 4-6 maande) bly daar maande oor; dat 'n mens goed voel lank voor die kursus klaar is, word uitdruklik deur NICE NG33 'Finishing all your treatment' aangespreek."
+    },
+    {
+      "bewering": "Ma het 'n kalender teen sy deur geplak en elke dag 'n blokkie gemerk. ... Hy het aangehou totdat die laaste blokkie gemerk was.",
+      "blok": "Onder die boom by die hek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO-feiteblad: daaglikse dosering; CDC (cdc.gov/tb/treatment): 'take and finish all TB medicines exactly as prescribed'. 'n Daaglikse kalender karteer korrek op 'n daaglikse regimen wat tot die einde voltooi word."
     }
   ],
-  "opsomming": "Al sewentien items bevestig: simptome, oordrag deur die lug en nie deur eetgerei nie, die twee-weke-toetsgrens teenoor 'n gewone hoes van omtrent drie weke, maande lange daaglikse behandeling en nie-aansteeklikheid ná 'n paar weke klop met WHO-, CDC-, NHS- en Suid-Afrikaanse kliniekbronne, en die stuk as geheel leer niks vals nie."
+  "opsomming": "Al 27 bewerings in die verhaal is teen WHO-, CDC-, NICE- en SA-regeringsbronne bevestig - die tweeweek-kliniekdrempel, die enkele slymbottel, genesing, daaglikse behandeling vir baie maande, en dat iemand na 'n paar weke behandeling gewoonlik nie meer TB oordra nie (die prentjie van Ruan wat eers dan langs hom sit, is reg) - en daar is geen vergelyking om na te gaan nie; een stilte is vir 'n mens om te oorweeg maar is geen feitefout nie: die SA-riglyn laat die kliniek nabye kontakte, veral kinders, sif nadat TB gevind is, en die verhaal sê nie of Palesa, wat weke lank elke middag langs die hoesende Oom Frans gesit het, ook nagegaan is nie."
 }

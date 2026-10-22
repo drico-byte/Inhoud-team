@@ -75,3 +75,18 @@ three places and all three must change" — so the writer can tell whether it fo
 
 Related: [[n-begrip-word-alleen-gelees]], [[die-korrigeerde-opdrag-bly-in-die-veld-staan]],
 [[vee-die-bewering-oor-al-die-spesifikasies]].
+
+**12 October 2026 — twice in one day, and both times someone else found the sibling.** The
+curriculum gives three changes for one lesson: bigger, more organised, more complex. I
+repaired the middle one's non-sequitur and did not sweep the other two; a fact check found the
+third. Then, repairing the third, I amended a later sentence and left its OPENING line giving
+the withdrawn basis — while its sibling, fixed three days earlier, carried its basis in its
+own opening. A coverage check found that too. Separately, an 8 October ruling had deliberately
+separated a date from a narrowed precedence claim in one lesson; the sibling lesson's claim,
+narrowed on 9 October, still carried the same pairing, and coverage flagged it.
+
+**So: after repairing one member of a named set, immediately read every other member for the
+same shape, and diff their OPENING lines against each other.** Two siblings fixed on different
+days drift into different shapes, and the difference between them is the cheapest signal that
+one of them is wrong. A one-line script comparing the openings of a set found all three of
+mine in seconds.

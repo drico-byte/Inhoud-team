@@ -64,3 +64,20 @@ all three. Splitting the clause is the fix, not narrowing it.
 This also lands in the field whose whole job is to stop a coverage checker reporting an
 ordered thing as unrequested — so the overreach turned the safeguard into the fault.
 Related: [[n-waarskuwing-moet-elke-broer-dek]], [[vee-die-bewering-oor-al-die-spesifikasies]].
+
+**12 October 2026 — a new way to do it: TRANSCRIBING A FACT CHECK'S CONFIRMATION INTO A
+REQUIREMENT.** A requirement asked the lesson to show evidence from what was FOUND in graves;
+two sibling fields forbade naming any grave find, so a writer reported the clash. Repairing
+it, I replaced the clause with the fact check's whole confirmed finding — that burials
+differed in place and posture, AND that the difference between the hilltop graves and those
+lower down showed rank. All of it true, all of it confirmed. But the finding was only that
+the field asked for grave finds. I had turned a confirmation into a specification of required
+content, the lesson had four words of headroom, and the next coverage check recorded the
+block as PARTIAL against an order I had widened myself.
+
+**A fact check's confirmation is EVIDENCE that a claim may be made, not an instruction that
+it must be.** When repairing a requirement, write only what the finding requires and check
+where the rest of the confirmed content already lives — here the content of the difference was
+already delivered in a list, under a heading saying these were the things by which the
+difference could be seen. Related: [[n-nota-wat-n-toestand-vasvries-verouder]],
+[[die-safe-vorm-maak-die-fout]], [[n-plafon-kan-n-regstelling-onbekostigbaar-maak]].

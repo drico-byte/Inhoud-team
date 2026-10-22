@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/handel/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:b7bf68eb5b00ddcb549bbe884c375809",
+  "konsep_hash": "sha256:c34e7ae71f6e9e9623630f8e37d3067c",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:d9febe7d06c51535aee1556cce396d06"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -21,9 +23,86 @@
       "woorde": 220,
       "begroting": 220,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T14:33:31+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d9febe7d06c51535aee1556cce396d06",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T14:33:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 257,
+      "begroting": 220,
+      "failures": [
+        "Study text 257 words, above budget ceiling 246 (planned 220 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T14:33:32+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 257 words, above budget ceiling 246 (planned 220 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T14:34:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f895d0833370a85570ca1c6758b76ca8",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T14:34:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 231,
+      "begroting": 220,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T14:40:28+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c34e7ae71f6e9e9623630f8e37d3067c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T14:40:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 236,
+      "begroting": 220,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T14:44:08+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 5,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T14:44:08+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 23,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T14:44:08+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\handel\\les-2.json",
+      "konsep_hash": "sha256:c34e7ae71f6e9e9623630f8e37d3067c",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:03d92dc5275e952ce3acaff0f26866de",
+  "spek_hash": "sha256:552aae5c39da12c13225a95a46cc2332",
   "hek_konteks": {
     "graad": 6,
     "begroting": 220

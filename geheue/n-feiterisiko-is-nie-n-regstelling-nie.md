@@ -211,3 +211,40 @@ far down the field they sit.
 **So: after correcting a kern field, re-read the whole field as a writer would and ask
 what it PERMITS, not only what it orders.** A permission is an order to the next
 reviser looking for room.
+
+## The same shape in the agreed-wordings file: three drafts kept copying it
+
+**8 October 2026.** A fact check found that this grade's binding wording for `kieme`
+ends "...and so small that a person can see them only under a microscope", which is
+false read alone - moulds are germs and visible, viruses are germs and need an electron
+microscope. I recorded the fault in the entry's note and **left the wording binding**.
+
+An agent then established what that cost: all ten of that sub-topic's lessons were
+already drafted, and **three of them carried the false sentence verbatim** in their
+glossaries. The note reached nobody who was copying it. The same was true of `staat`,
+and worse: a lesson's requirement **ordered** a writer to take the suspended sentence
+verbatim from the injected list while the same requirement forbade its shape and
+forbade adapting it, so the writer could do nothing at all.
+
+**The fix is to SUSPEND the wording, not to annotate it.** Both entries now have an
+empty `omskrywing`, with the withdrawn sentence quoted inside the record so the history
+is visible, and the SHAPE ordered in the specification so the lesson that owns the term
+delivers the new sentence and reports it for checking.
+
+**The mechanics, corrected - I got this wrong first and wrote the wrong version down.**
+I claimed that emptying `omskrywing` drops the whole term out of the extract, so a
+suspension notice had to live in the specification. **That is false.** `hou_vas` is
+still injected, under `herbevestigde_besluite`, truncated at 260 characters, and `terme`
+keeps the key with an empty value. So the notice DOES reach the writer - which is why it
+has to be worded with care, and mine was not: it said "do not write or copy a definition
+for this term", while the lesson's kern item ordered the writer to deliver the shape and
+`verwagte_begrippe` still expected an entry. One field forbidding what two others order
+is the contradiction class I had spent the whole day removing, introduced by the notice
+meant to prevent a fault - the shape in [[die-veilige-vorm-maak-die-fout]]. **A writer
+caught it and said so.** The notice now forbids only copying the suspended sentence, and
+the same notice was added for the second suspended term, which had none at all.
+
+**How to apply.** Where a binding wording is false: empty it, quote it in the record,
+order the shape in the spec, name the rejected alternatives so nobody reinstates one,
+and count the drafts that carry it - that count is the re-route cost and it is the
+number worth reporting.

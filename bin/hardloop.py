@@ -44,6 +44,7 @@ import sys
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import aanvaardings  # noqa: E402
 import paaie as P  # noqa: E402
 import taalstap as T  # noqa: E402
 
@@ -555,7 +556,7 @@ def eis_les_inskrywing(spek, nommer):
 # ---------------------------------------------------------------- state
 # When the language step shipped. A draft first recorded before this, and already
 # checked, keeps its reports and gets the language step on its next revision.
-TAALSTAP_SEDERT = "2026-10-22T10:35:00+00:00"
+TAALSTAP_SEDERT = "2026-10-22T11:13:00+00:00"
 
 
 def _voor_die_taalstap(staat, h, les):
@@ -718,7 +719,7 @@ def keur_verslag(verslag_pad, les_pad, spek_inskrywing_pad, uit, naam,
 
 
 # ---------------------------------------------------------------- approval
-def keur_goed(les_pad, les, uit, staat, staat_pad, nommer):
+def keur_goed(les_pad, les, uit, staat, staat_pad, nommer, aanvaar=None):
     """Mark a finished draft approved, in place.
 
     CHANGED 2026-08-21, twice, on Drico's instruction. It first stopped requiring a
@@ -736,16 +737,28 @@ def keur_goed(les_pad, les, uit, staat, staat_pad, nommer):
 
     So the draft folder is the only home a lesson has, and approval is a status on
     the file rather than a location. What "finished" means is unchanged: this is only
-    reached when the gate passed and BOTH checker reports read GOEDGEKEUR.
+    reached when the gate passed and BOTH checker reports read GOEDGEKEUR -- or, from
+    7 October 2026, when the fact report is held up solely by items a person has
+    accepted one at a time, in which case `aanvaar` carries them and they are named
+    in this report rather than left for someone to find in a file.
     """
     uit.head("APPROVAL (automatic, in place)")
     uit.say(f"  lesson    {les.get('titel')}  (Gr {les.get('graad')}, "
             f"{les.get('kaps_punt')})")
     uit.say(f"  file      {P.rel(les_pad)}")
     uit.say()
-    uit.say("  Approved automatically: the gate passed and both checkers reported")
-    uit.say("  GOEDGEKEUR. Editing happens by hand downstream, so this is the last")
-    uit.say("  step here rather than a decision waiting on a person.")
+    if aanvaar:
+        uit.say("  Approved with ACCEPTED UNRESOLVED ITEM(S): the gate passed, coverage")
+        uit.say("  reported GOEDGEKEUR, and the fact report is held up only by the")
+        uit.say("  item(s) below, each accepted by name and by date:")
+        for item, ins in aanvaar:
+            uit.say(f"    - {str(item.get('bewering',''))[:100]}")
+            uit.say(f"      {ins['deur']}, {ins['datum']}: {ins['rede'][:140]}")
+        uit.say()
+    else:
+        uit.say("  Approved automatically: the gate passed and both checkers reported")
+        uit.say("  GOEDGEKEUR. Editing happens by hand downstream, so this is the last")
+        uit.say("  step here rather than a decision waiting on a person.")
     toon_taal_oop(uit, staat, les_pad)
     print("\n".join(uit.lines))
 
@@ -809,6 +822,20 @@ def pdf_langs_les(les, les_json_pad):
         except Exception as ex:                  # noqa: BLE001 — never block approval
             print(f"\nThe lesson is approved, but could not be copied to "
                   f"'Voltooide lesse': {type(ex).__name__}: {str(ex)[:200]}")
+        # Lessons always go to lees/ as well: that is Drico's outbox, and a lesson
+        # that is not in it has not been sent. The protected-words page travels with
+        # it, because the outside Afrikaans check will undo our decisions unless it
+        # is told which words not to touch.
+        try:
+            import uitbak
+            uit, blad = uitbak.lewer_een(les, les_json_pad, pdf or doel)
+            if uit:
+                print(f"Outbox:         {P.rel(uit)}")
+            if blad:
+                print(f"Beskermde woorde: {P.rel(blad)}")
+        except Exception as ex:                  # noqa: BLE001 - never block approval
+            print(f"\nThe lesson is approved, but could not be put in the "
+                  f"outbox: {type(ex).__name__}: {str(ex)[:200]}")
         return pdf
     except Exception as ex:                      # noqa: BLE001 — never block approval
         print(f"\nThe lesson is approved. The readable PDF could not be made: "
@@ -928,7 +955,19 @@ def stap(a, uit):
     # The spec entry is written out on its own so the coverage checker and
     # verdict_check.py get exactly the one lesson's requirements, and so the fact
     # checker's inputs never include a path into spesifikasies/.
+    #
+    # It is written as TWO files: the orders, which is what a writer reads, and the
+    # record halves beside them, which only the coverage checker is given. See
+    # P.uittreksel_helftes for why, and for why the orders file keeps the canonical
+    # line that says the records moved.
+    #
+    # Both writes below go through P.skryf_uittreksel, which stamps the extract with
+    # a fingerprint of what it derived. The runner's write is what makes that cover
+    # continuous: this is called at every pipeline step, so an extract the runner
+    # left unstamped is one bin/vernuwe-uittreksels.py would regenerate over a
+    # writer's edit without saving a copy or saying a word.
     inskrywing_pad = P.spek_inskrywing(graad, vak, sub, a.les)
+    rekord_pad = P.rekord_uittreksel(inskrywing_pad)
 
     # --- escalation blocks the loop until a person clears it -----------------
     if staat.get("eskalasie") and not a.hervat:
@@ -966,7 +1005,7 @@ def stap(a, uit):
 
     # --- 1. the draft -------------------------------------------------------
     if not os.path.exists(les_pad):
-        P.skryf_json(inskrywing_pad, inskrywing)
+        P.skryf_uittreksel(inskrywing_pad, inskrywing)
         uit.next_action(
             "wolkskool-skrywer (agent)",
             f"Write lesson {a.les} of '{sub}' from its spec entry.",
@@ -982,7 +1021,7 @@ def stap(a, uit):
 
     les = P.lees_json(les_pad)
     h = konsep_hash(les)
-    P.skryf_json(inskrywing_pad, inskrywing)
+    P.skryf_uittreksel(inskrywing_pad, inskrywing)
 
     # --- 2. a new draft invalidates everything downstream -------------------
     if staat.get("konsep_hash") != h:
@@ -1360,11 +1399,16 @@ def stap(a, uit):
         if verslag["toegepas"]:
             P.skryf_json(les_pad, nuwe_les)
             les, h = nuwe_les, nuwe_h
+        # A language change that altered the text is a content change, and it carries
+        # the new fingerprint like a writer's draft does: bin/keur-goed-na-handnasien.py
+        # measures report staleness from the last such entry, and without it refused
+        # every lesson the step had touched.
         teken_op(staat, staat_pad, "taal",
                  toegepas=len(verslag["toegepas"]), laat_vaar=len(verslag["laat_vaar"]),
                  na_skrywer=len(verslag["na_skrywer"]),
                  nie_toegepas=len(verslag["nie_toegepas"]),
-                 woorde_voor=verslag["woorde_voor"], woorde_na=verslag["woorde_na"])
+                 woorde_voor=verslag["woorde_voor"], woorde_na=verslag["woorde_na"],
+                 **({"konsep_hash": nuwe_h} if verslag["toegepas"] else {}))
         uit.step("language check", "APPLIED",
                  [f"{len(verslag['toegepas'])} applied, {len(verslag['laat_vaar'])} dropped, "
                   f"{len(verslag['na_skrywer'])} sent on, "
@@ -1450,10 +1494,20 @@ def stap(a, uit):
         uit.say("  They are separate agents on purpose. Coverage needs the spec;")
         uit.say("  facts must not have it, or it reads the lesson charitably.")
         if not os.path.exists(dekking_pad):
+            # BOTH halves of the extract, and this checker is the only one that gets
+            # the second. The orders file holds every requirement cut at its record
+            # marker; the records file holds the halves below those markers. A stale
+            # order is found by reading an order against the record below it, and
+            # that comparison is this checker's job -- the writer must not spend its
+            # reading on it, which is why the split exists at all.
             uit.next_action(
                 "wolkskool-dekkingsnasiener (agent)",
                 f"Check lesson {a.les} against its spec entry.",
-                invoer=[P.rel(les_pad), P.rel(inskrywing_pad)],
+                invoer=[P.rel(les_pad), P.rel(inskrywing_pad), P.rel(rekord_pad),
+                        "the second spec file holds the record halves only, on the "
+                        "same field paths — read an order against the record in the "
+                        "same place, and report an order a record below it has "
+                        "already withdrawn"],
                 uitvoer=P.rel(dekking_pad))
         if not os.path.exists(feite_pad):
             uit.next_action(
@@ -1486,8 +1540,53 @@ def stap(a, uit):
             return 4, "VERSLAG_ONGELDIG"
         verdicts[naam] = r.get("verdict")
 
+    # --- 5a. an unresolvable fact a person has accepted, one item at a time --
+    #
+    # Approved by Lampies, 7 October 2026. Where sources genuinely conflict the rule
+    # is to keep the best-supported reading and disclose the conflict in one
+    # sentence -- and a lesson that does exactly that is still reported MENS_NODIG,
+    # correctly, because the underlying fact is unresolved. Until now a person had no
+    # way to make that call and have the pipeline see it, so such a lesson could
+    # never ship at all.
+    #
+    # This is the ONE place that decision is read, and bin/aanvaardings.py is the one
+    # place its rules live -- the hand sign-off path calls the same function for its
+    # own refusal, so the two cannot answer the question differently. A record names
+    # a single item by a fingerprint over that item, so there is no blanket form to
+    # write; every holding item must be accepted individually; only `onseker` may be
+    # accepted at all; and the fingerprint covers the item's status and evidence, so
+    # the acceptance lapses the moment the report's text for it changes.
+    #
+    # `verdicts` keeps saying what the checkers said. Only the routing view moves,
+    # and the acceptance is printed in full on every run that relies on it: a reader
+    # must never see a clean lesson without seeing what was accepted to make it one.
+    aanv = aanvaardings.beoordeel(les_pad, P.lees_json(feite_pad))
+    roetering = dict(verdicts)
+    # Printed only when a record EXISTS. A lesson that simply has findings and no
+    # acceptance is the ordinary case, and the MENS_NODIG and HERSIEN reports below
+    # already say everything about it; a line that fires on every one of them is a
+    # line people learn to skip past, which is how the ones that matter get missed.
+    if aanv.het_rekord:
+        uit.step("accepted fact items",
+                 "ALL ACCEPTED" if aanv.alles_aanvaar else "NOT ACCEPTED",
+                 aanv.reels())
+    if aanv.alles_aanvaar and roetering.get("feite") == "MENS_NODIG":
+        roetering["feite"] = "GOEDGEKEUR"
+        afdrukke = sorted(ins["item_vingerafdruk"] for _, ins in aanv.aanvaar)
+        if staat.get("aanvaarde_feite_items") != afdrukke:
+            staat["aanvaarde_feite_items"] = afdrukke
+            teken_op(staat, staat_pad, "feite_item_aanvaar",
+                     rekord=P.rel(aanv.rekord_pad),
+                     items=[{"vingerafdruk": ins["item_vingerafdruk"],
+                             "datum": ins["datum"], "deur": ins["deur"]}
+                            for _, ins in aanv.aanvaar])
+
     # --- 5b. which blocks failed, and which keep failing --------------------
-    gevaar = faalblokke(P.lees_json(dekking_pad), P.lees_json(feite_pad))
+    # The accepted items are left out of this view, and only when every one of them
+    # is accepted. A block carrying an item a person has settled must not accumulate
+    # rounds towards the keeps-failing escalation -- that would escalate exactly the
+    # lessons this mechanism exists to let through.
+    gevaar = faalblokke(P.lees_json(dekking_pad), aanv.feite_vir_roetering)
     if gevaar:
         tally = dict(staat.get("blok_faalrondtes") or {})
         for naam in gevaar:
@@ -1497,7 +1596,7 @@ def stap(a, uit):
                  tally=tally)
 
     herhaler, keer = blok_wat_bly_faal(staat)
-    nog_stukkend = any(v != "GOEDGEKEUR" for v in verdicts.values())
+    nog_stukkend = any(v != "GOEDGEKEUR" for v in roetering.values())
     if herhaler and nog_stukkend:
         staat["eskalasie"] = {
             "soort": "blok_bly_faal", "wanneer": nou(),
@@ -1518,8 +1617,8 @@ def stap(a, uit):
         return 2, "BLOK_BLY_FAAL"
 
     # --- 6. route ----------------------------------------------------------
-    if "MENS_NODIG" in verdicts.values():
-        wie = [k for k, v in verdicts.items() if v == "MENS_NODIG"]
+    if "MENS_NODIG" in roetering.values():
+        wie = [k for k, v in roetering.items() if v == "MENS_NODIG"]
         staat["eskalasie"] = {"soort": "mens_nodig", "wanneer": nou(),
                              "rede": f"{', '.join(wie)} returned MENS_NODIG — a writer "
                                      f"handed a defect it cannot fix will invent one or "
@@ -1535,9 +1634,9 @@ def stap(a, uit):
         uit.say("  After you have dealt with it, re-run with --hervat.")
         return 2, "MENS_NODIG"
 
-    if "HERSIEN" in verdicts.values():
+    if "HERSIEN" in roetering.values():
         punte = []
-        for k, v in verdicts.items():
+        for k, v in roetering.items():
             if v != "HERSIEN":
                 continue
             r = P.lees_json(dekking_pad if k == "dekking" else feite_pad)
@@ -1550,12 +1649,19 @@ def stap(a, uit):
                                  f"corrected: {i.get('regstelling','')}")
         return terug_na_skrywer(staat, staat_pad, h, uit, les_pad, inskrywing_pad,
                                 rede="HERSIEN", punte=punte,
-                                bron=", ".join(k for k, v in verdicts.items()
+                                bron=", ".join(k for k, v in roetering.items()
                                                if v == "HERSIEN"))
 
     # --- 7. clear, awaiting a person ---------------------------------------
+    # Said once, here, so it reaches the approval report, the DONE report and the
+    # waiting-on-sign-off report alike: a lesson that is clear only because an
+    # unresolved item was accepted never reads as simply clear.
+    feite_woord = ("facts GOEDGEKEUR" if verdicts.get("feite") == "GOEDGEKEUR"
+                   else f"facts {verdicts.get('feite')}, held only by "
+                        f"{len(aanv.aanvaar)} accepted item(s)")
     if a.keur_goed:
-        return keur_goed(les_pad, les, uit, staat, staat_pad, a.les)
+        return keur_goed(les_pad, les, uit, staat, staat_pad, a.les,
+                         aanvaar=(aanv.aanvaar if aanv.alles_aanvaar else None))
 
 
     if les.get("status") == "goedgekeur":
@@ -1567,7 +1673,7 @@ def stap(a, uit):
         # re-examined after approval — restoring an archived report, or a spec
         # note — which is exactly when someone is already unsure.
         uit.head("DONE — approved in place")
-        uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound,")
+        uit.say(f"  gate PASS, coverage GOEDGEKEUR, {feite_woord}, both reports sound,")
         uit.say("  and this draft already carries status: goedgekeur.")
         uit.say(f"  draft     {P.rel(les_pad)}")
         uit.say()
@@ -1576,7 +1682,7 @@ def stap(a, uit):
         return 0, "KLAAR"
 
     uit.head("CLEAR — waiting on sign-off")
-    uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound.")
+    uit.say(f"  gate PASS, coverage GOEDGEKEUR, {feite_woord}, both reports sound.")
     uit.say(f"  draft     {P.rel(les_pad)}")
     uit.say()
     toon_taal_oop(uit, staat, les_pad)

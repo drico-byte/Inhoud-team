@@ -81,3 +81,20 @@ sight: "it is not new", "nothing was displaced".
 instruction, not a writer's invention — I passed on the checker's "this is false"
 as if it were "write the opposite". A brief should say what is true, with its
 quantifier, rather than only what is wrong.
+
+**12 October 2026 — AN AGENT IS NOT A CAUSE, and forbidding the cause took the agent with
+it.** Repairing a block that concluded a society had grown more complex, I ordered the
+mechanism written as a practice and forbade writing its CAUSE — right, because the cause is
+disputed between a climate reading and an adaptation reading. But the source makes the
+practice inseparable from WHO began it: the incoming group started cultivating the new land,
+expressly not the people already there. My ban left the farmers agentless, the sentence then
+sat before the block introducing the newcomers, and a fact check named it the single
+strongest carrier of a false reading the lesson had failed four rounds on. So a ban on the
+cause silently removed a load-bearing fact.
+
+**How to apply:** when forbidding a cause, a date, a figure or a name, write out what the
+ban does NOT cover, and check whether the thing you are banning is doing a second job.
+Agent, cause, date and mechanism are four different things, and a prohibition phrased
+against one of them will quietly take the others if the sentence carried them in the same
+clause. Related: [[die-veilige-vorm-maak-die-fout]],
+[[moenie-n-regstelling-verder-vat-as-die-bevinding-nie]], [[n-regstelling-te-ver-van-sy-fout]].

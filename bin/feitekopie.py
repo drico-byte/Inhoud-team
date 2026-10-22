@@ -21,8 +21,10 @@ checked. Run this before briefing a fact checker outside the runner.
     python bin/feitekopie.py konsepte/gr5/.../les-4.json
     python bin/feitekopie.py --alles konsepte/gr5/lewensvaardighede
 
-With --alles it walks the tree, skips report files, and reports which copies
-were behind their draft, because that count is the thing worth seeing.
+With --alles it walks the tree and reports which copies were behind their draft,
+because that count is the thing worth seeing. What counts as a draft is
+P.is_les_konsep and not a list kept here; see that function for the day this
+script counted an acceptance record as a ninth lesson.
 
 "BEHIND" IS A QUESTION ABOUT CONTENT, NOT ABOUT MODIFICATION TIME. 1 October
 2026: this script used to compare mtimes, which reports a copy stale whenever the
@@ -53,23 +55,17 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import paaie as P
 
-VERSLAGSTERTE = (".dekking.json", ".feite.json", ".hek.json", ".staat.json",
-                 ".taalvinder.json", ".taalkeurder.json", ".taal.json", ".eli10.json")
-
-
-def is_konsep(naam):
-    return naam.startswith("les-") and naam.endswith(".json") and not any(
-        naam.endswith(stert) for stert in VERSLAGSTERTE
-    )
-
-
 def versamel(wortel):
-    for gids, subgidse, lêers in os.walk(wortel):
-        # the copies themselves are not drafts
-        subgidse[:] = [s for s in subgidse if s not in ("feite-kopie", "spek")]
-        for naam in sorted(lêers):
-            if is_konsep(naam):
-                yield os.path.join(gids, naam)
+    """Every lesson draft under a root.
+
+    7 October 2026: this kept its own list of the suffixes a lesson's siblings
+    carry -- the four report files -- and the acceptance record added that day was
+    not on it. Over an eight-lesson sub-topic this walk yielded nine files and a
+    stripped "fact copy" of a record was written. The list of siblings is not
+    where the answer lives, so the question is now asked in one place for every
+    tool: see P.is_les_konsep.
+    """
+    return P.les_konsepte(wortel)
 
 
 def is_agter(les_pad):
@@ -115,6 +111,10 @@ def main():
     for pad in args.paaie:
         if args.alles:
             lesse.extend(versamel(pad))
+        elif not P.is_les_konsep(pad):
+            # A named path gets the same answer as a walked one, and says so
+            # rather than failing inside the copier.
+            print("  oorgeslaan, nie 'n leskonsep nie: %s" % P.rel(pad))
         else:
             lesse.append(pad)
 

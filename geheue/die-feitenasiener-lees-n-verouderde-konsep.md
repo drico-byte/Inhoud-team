@@ -47,3 +47,27 @@ before each hand-briefed fact check, not once per session** — every writer rou
 lands between the refresh and the brief puts another copy behind. And if a check is
 already running when the refresh reports its copy was stale, message that agent to
 re-read rather than letting the report land.
+
+## The reverse case: I revised the draft while its own fact check was in flight
+
+**9 October 2026.** I launched a fact check on a lesson, and then - while it was still
+running - sent the writer a one-sentence cut that a coverage report had asked for. The
+stripped copy the checker is reading was generated before the cut, so its report will
+describe a draft that no longer exists, by one sentence.
+
+The cut sentence is a generic claim, so it may well be among the checker's items, which
+is the bad case: a verdict about a sentence that is gone, in a report I would otherwise
+take as current.
+
+**This is the recorded hazard arriving from the other direction.** The notes already say
+not to run the runner over a working writer, and that the stripped copy goes stale if it
+is not regenerated. Neither of them covers this, because here nothing went stale by
+neglect - **I made it stale on purpose, by acting on one report while another check was
+reading the same draft.**
+
+**How to apply.** A draft has one reader at a time. Before sending a writer anything,
+ask what is currently reading that lesson - and if a check is in flight, hold the cut
+until it reports. Coverage and facts run in parallel with each other because neither
+writes to the draft; a writer round is not parallel with anything. The cost of waiting
+is minutes. The cost of not waiting is a report I cannot trust and a check I have to
+pay for twice.

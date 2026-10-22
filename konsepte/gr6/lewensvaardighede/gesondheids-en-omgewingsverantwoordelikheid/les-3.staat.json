@@ -1,9 +1,11 @@
 {
   "les": "gr6/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:5a54e89e2c17b0853215a1c370bfdb44",
+  "konsep_hash": "sha256:72fa51ae11b749f5eca1d3f3b6b516fb",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:38659ba678849ea42d0a4b517d37e51b"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -72,9 +74,91 @@
       "woorde": 601,
       "begroting": 550,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T09:38:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:38659ba678849ea42d0a4b517d37e51b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T09:38:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 628,
+      "begroting": 550,
+      "failures": [
+        "Study text: 0.42 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T09:38:55+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 0.42 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T09:47:13+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:583e91dcafd01bce34e49eff437e8a3e",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T09:47:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 541,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:07:13+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:266e1a25eb441f6e8963a9b075759c01",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:07:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 549,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:21:35+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:209366c73e865d511c293dc833b743a5",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:21:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 545,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:34:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:72fa51ae11b749f5eca1d3f3b6b516fb",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:34:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 550,
+      "begroting": 550,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:90c56d461298dcece7c4f8ad1918f030",
+  "spek_hash": "sha256:09bc1390766400b2ba037b7e7a93cc7a",
   "hek_konteks": {
     "graad": 6,
     "begroting": 550

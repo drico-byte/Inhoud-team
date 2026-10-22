@@ -189,3 +189,68 @@ the newest untested thing in the spec and nothing downstream checks a spec at al
 
 Related: [[n-versagting-vat-die-algemene-helfte-saam]], [[drie-maniere-om-n-bewering-reg-te-maak]],
 [[n-begrip-word-alleen-gelees]].
+
+## 9 October 2026: my replacement dropped a dimension the original carried
+
+The requirement said *more people lived together in one place than BEFORE*. A writer
+flagged that "before" as ambiguous - read after the lesson's own opening it lands at the
+start of the period, where the earliest centre was already a large settlement. The
+diagnosis was right and I fixed it, by ordering the growth as a trend through the period
+instead of a before-and-after:
+
+> die nedersettings het oor hierdie jare al hoe groter geword
+
+The fact check then caught **two** half-false readings in that one sentence. On
+**area** the growth runs the other way: the earliest of the three sites has the biggest
+footprint. And **"die nedersettings"** means all of them, while ordinary homesteads are
+modelled at about fifty people throughout, so "they all grew" is false as well.
+
+**The original said "mense". My replacement said "groter".** I fixed the TIME dimension
+and silently dropped the MEASURE dimension, which the sentence I replaced had carried
+correctly. The writer delivered my sentence faithfully and the claim came out half false.
+
+**How to apply.** A claim has more dimensions than the one I am repairing - who, how
+many, measured how, when, where, how often. **Before replacing a sentence, list the
+dimensions the old one pinned down, and check the new one still pins each of them.** The
+cheapest version of that check: set the two sentences side by side and ask what the old
+one said that the new one does not. Related but distinct from
+[[n-versagting-vat-die-algemene-helfte-saam]], where a softening widened the subject;
+here a narrowing on one axis went vague on another.
+
+And the specific trap in this subject: **"groter" is never a safe word for a settlement**,
+because area and population run in opposite directions for these sites. The requirement
+now forbids it unqualified and says why.
+
+## 13 October 2026: my replacement failed on the SAME evidence base as the claim it replaced
+
+Gr 6 SW Mapungubwe lesson 4. A fact check could not support *only the king's people had
+gold* — the sources carry how rank leads to gold, not the converse, and the one page
+asserting it was a study-aid site the checker rightly declined. I withdrew it from the
+core item and wrote the replacement: **the gold was in the king's people's hands and they
+wore it visibly.** A writer delivered that faithfully within the hour.
+
+The next fact check killed the replacement. **Every piece of evidence at that site is
+funerary** — a woman buried with about a hundred gold bangles at her ankles, a man with a
+necklace of gold beads — and the standing academic work on prestige goods there says in as
+many words that the social *use* of such goods cannot be proven. There is no wear study
+and no depiction. So display-in-life was exactly as unsupported as exclusivity had been.
+
+**Why I picked it:** I took the fact report's list of what the sources *do* say — "gold
+used for personal adornment and insignia" — and extended it by one step into public
+display. The replacement was a different SHAPE of claim from the false one, and I treated
+that difference as safety. It was not. Both claims rest on the same evidence base, and
+that base supports neither.
+
+**How to apply.** When a claim fails for want of evidence, do not look for a weaker version
+of the same claim. **Name the evidence base and ask what it supports, then order that.**
+Here the base supports two things and I had both available: the gold was *concentrated*
+with the king's people (on the hill, a few isolated items on the terrace, none at the
+earlier site) and it went into the *highest-ranking graves*. Those plus the craftsman make
+three supports, so the conclusion lost nothing — the display sentence was never carrying
+any weight.
+
+The tell I missed: a fact report's "what the sources do say" is a list of what was
+*checked*, not a licence to extrapolate from it. One step beyond it is a new unchecked
+claim in the most trusted place in the repository. Related:
+[[onsekere-ekstras-word-gesnoei]], [[n-regstelling-wat-n-opsie-bied-kies-die-volgende-fout]],
+[[n-bewoording-wat-drie-rondes-vat-is-die-verkeerde-vorm]].

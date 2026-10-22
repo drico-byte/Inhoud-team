@@ -1,256 +1,390 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Twee siektes wat deur die lug loop",
   "kaps_punt": "Plaaslike omgewingsgesondheidsprobleme: Plaaslike gesondheidsprobleme wat gereeld voorkom soos tuberkulose, diarree, malaria, masels, ensovoorts; Oorsake van gesondheidsprobleme; Simptome van gesondheidsprobleme; en Beskikbare behandeling vir gesondheidsprobleme.",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "Twee siektes wat deur die lug loop (titel) / Tuberkulose en masels loop albei deur die lug van een mens na 'n ander.",
-      "blok": "Van mens tot mens deur die lug",
+      "bewering": "Twee siektes wat deur die lug loop",
+      "blok": "titel",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte. WHO TB-feiteblad ('spreads through the air when people with TB cough, sneeze or spit'); WHO masels-feiteblad ('coughing or sneezing ... or breathing the air that was breathed by someone with measles'); CDC 'Tuberculosis: Causes and How It Spreads'."
+      "bron": "WHO-feiteblad Tuberculosis (versprei deur die lug wanneer mense met TB hoes, nies of spoeg); WHO-feiteblad Measles (versprei maklik wanneer 'n besmette mens asemhaal, hoes of nies)."
     },
     {
-      "bewering": "Wanneer iemand wat siek is hoes of nies, spat klein druppeltjies uit sy mond. Praat en sing maak dieselfde druppeltjies. Iemand naby hom asem hulle in en kry so die siekte.",
+      "bewering": "Van mens tot mens deur die lug",
       "blok": "Van mens tot mens deur die lug",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC oor TB: versprei 'when a person with active TB disease of the lungs or throat coughs, speaks, or sings'; WHO masels-feiteblad (hoes, nies). Opmerking, geen regstelling nie: die kieme bly ook na die persoon weg is in die lug (TB 'several hours' - CDC; masels tot 2 uur - CDC 'How Measles Spreads'), so 'naby hom' is onvolledig maar nie vals nie, en die volgende sin oor 'n klein kamer sonder vars lug dek die punt."
+      "bron": "Kop van die blok. WHO-feiteblaaie Tuberculosis en Measles (who.int); CDC, How TB spreads (cdc.gov/tb/causes)."
+    },
+    {
+      "bewering": "Tuberkulose en masels loop albei deur die lug van een mens na 'n ander.",
+      "blok": "Van mens tot mens deur die lug",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO-feiteblaaie Tuberculosis en Measles (who.int); CDC, How TB spreads (cdc.gov/tb/causes)."
+    },
+    {
+      "bewering": "Wanneer iemand wat siek is hoes of nies, spat klein druppeltjies uit sy mond.",
+      "blok": "Van mens tot mens deur die lug",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO-feiteblad Tuberculosis (cough, sneeze or spit); WHO-feiteblad Measles (breathes, coughs or sneezes). Klein opmerking, geen fout nie: 'n nies kom ook deur die neus, nie net die mond nie."
+    },
+    {
+      "bewering": "Praat en sing maak dieselfde druppeltjies.",
+      "blok": "Van mens tot mens deur die lug",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC, How TB spreads: TB-kieme kom in die lug wanneer 'n mens met aktiewe long-TB hoes, praat of sing. WHO Measles: ook deur asemhaling."
+    },
+    {
+      "bewering": "Iemand naby hom asem hulle in en kry so die siekte.",
+      "blok": "Van mens tot mens deur die lug",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC, How TB spreads (mense naby asem die kieme in). As meganisme korrek; die volgende blok kwalifiseer dit reg met Nie almal wat die kieme inasem, word siek nie. Masels-virus kan ook 'n ruk in 'n kamer se lug bly nadat die siek mens weg is, maar naby is die gewone roete en die sin is nie vals nie."
     },
     {
       "bewering": "In 'n klein kamer sonder vars lug gebeur dit makliker en 'n oop venster maak 'n verskil.",
       "blok": "Van mens tot mens deur die lug",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC: TB-kieme versprei makliker binnenshuis en waar lug swak sirkuleer; 'Natural ventilation reduces high TB transmission risk in traditional homes in rural KwaZulu-Natal, South Africa' (PMC3716713); WHO TB Knowledge Sharing Platform, omgewingskontroles (ventilasie verdun kiemdruppels)."
+      "bron": "CDC, How TB spreads (meer waarskynlik binnenshuis en in swak geventileerde plekke); Escombe e.a. 2007, PLoS Medicine 4(2):e68, Natural ventilation for the prevention of airborne contagion (oop vensters en deure het ventilasie sterk verhoog en die gemodelleerde TB-risiko van 97% met alles toe tot 11-33% verlaag)."
     },
     {
       "bewering": "TB kom van kieme wat in 'n mens se longe kan groei.",
       "blok": "Waar TB vandaan kom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO TB-feiteblad: 'caused by bacteria that most often affects the lungs'."
+      "bron": "WHO-feiteblad Tuberculosis: veroorsaak deur bakterie wat meestal die longe aantas."
     },
     {
-      "bewering": "Baie mense glo jy kry TB uit 'n beker, 'n bord of kos wat julle deel. Dit is nie waar nie, want die TB-kieme kom deur die lug.",
+      "bewering": "Baie mense glo jy kry TB uit 'n beker, 'n bord of kos wat julle deel.",
       "blok": "Waar TB vandaan kom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC: TB word nie versprei deur 'sharing food, drinks, or toothbrushes' nie. Dat dit 'n algemene geloof is: studie in Mangaung-primêre gesondheidsorgfasiliteite (PMC5633895) verwys na vroeëre Suid-Afrikaanse navorsing waarin pasiënte gesê het TB versprei deur 'sharing food, drinks, cigarettes and eating utensils'; DHS-studie in Lesotho, Malawi, Namibië en Zambië (BMC Research Notes 2018) meld dieselfde wanopvatting oor gedeelde eetgerei."
+      "bron": "Suid-Afrikaanse bronne: studie in 'n landelike Suid-Afrikaanse distrik (Patients' beliefs: Do they affect tuberculosis control? A study in a rural district of South Africa, ResearchGate 10935082): TB word geglo om te versprei deur kos, drinkgoed en eetgerei met lyers te deel; Kigozi e.a. 2017, BMC Public Health (PMC5633895), Mangaung-PGS-pasiente: 85% glo TB kom deur tandeborsels te deel. Streek: BMC Research Notes 2018 (s13104-018-3884-6), DHS-data van Lesotho, Malawi, Namibie en Zambie: die wanopvatting oor gedeelde eetgerei is algemeen."
+    },
+    {
+      "bewering": "Dit is nie waar nie, want die TB-kieme kom deur die lug.",
+      "blok": "Waar TB vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC, How TB spreads: deel van kos of drinkgoed versprei nie TB nie. Randnota, geen fout nie: rou, ongepasteuriseerde melk van besmette beeste kan beeste-TB (M. bovis) oordra, maar dit is nie kos wat mense met mekaar deel nie en die sin se bewering bly waar."
     },
     {
       "bewering": "Nie almal wat die kieme inasem, word siek nie.",
       "blok": "Waar TB vandaan kom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO TB-feiteblad: 'About 5-10% of people infected with TB will eventually get symptoms and develop TB disease.'"
+      "bron": "WHO-feiteblad Tuberculosis: omtrent 5-10% van besmette mense kry uiteindelik TB-siekte; CDC: TB-bakterie kan in die liggaam leef sonder om jou siek te maak (latente TB)."
     },
     {
-      "bewering": "Simptome is wat 'n mens self voel omdat hy siek is, soos moegheid. Tekens is wat 'n siekte aan 'n mens verander en wat ander kan sien of meet.",
+      "bewering": "'n Simptoom is wat hy self ervaar, soos moegheid. 'n Teken is wat 'n ander mens self kan sien, hoor, ruik of meet. Ander mense sien 'n teken ook al vertel die mens niks.",
       "blok": "Die hoes wat aanhou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. Wikipedia 'Signs and symptoms' en Medical News Today 'Signs and symptoms': 'A sign is the effect of a health problem that can be observed by someone else, while a symptom is an effect noticed and experienced only by the person'; moegheid word as simptoom gegee."
+      "bron": "Medical News Today, What is the difference between a sign and a symptom (simptome is subjektief en word deur die pasient ervaar; tekens kan deur ander raakgesien of gemeet word, soms met instrumente); EBSCO Research Starters, Understanding disease signs and symptoms."
     },
     {
       "bewering": "Koors en 'n uitslag is tekens.",
       "blok": "Die hoes wat aanhou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. Medical News Today en Wikipedia 'Signs and symptoms' gee koors en uitslag as voorbeelde van tekens (koors is meetbaar met 'n termometer; uitslag is sigbaar). Die bronne sê ook albei kan simptome wees wanneer die pasiënt dit self voel of opmerk; die les sê nie 'net tekens' nie, so daar is geen konflik nie."
+      "bron": "Medical News Today, sign vs symptom: koors en uitslag word uitdruklik as voorbeelde van tekens gegee."
     },
     {
       "bewering": "Die belangrikste waarskuwing van TB is 'n hoes wat nie weggaan nie.",
       "blok": "Die hoes wat aanhou",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "Vars nagegaan. CHEST-riglyn 'Cough Due to TB and Other Chronic Infections' (PMC6689101): 'cough, often productive of sputum, is the most common symptom in individuals with pulmonary TB'; WHO-feiteblad lys 'prolonged cough' eerste; die Suid-Afrikaanse Departement van Gesondheid se siftingsmateriaal sentreer op 'n hoes van twee weke of langer. Voorbehoud vir 'n mens om te sien, nie 'n regstelling nie: Suid-Afrika se eerste nasionale TB-voorkomsopname (2017-19; SAMRC, The Conversation) het gevind dat 57,8% van mense met TB geen simptome gerapporteer het nie. Dit weerspreek nie dat die hoes die belangrikste WAARSKUWING is onder die tekens wat 'n mens kan opmerk nie, maar die les moet nooit sê dat elke mens met TB hoes nie - wat dit tans nie doen nie."
+      "bron": "MSF Medical Guidelines 2.1 Pulmonary tuberculosis (langdurige hoes, meer as 2 weke, met of sonder slym, is die kernsimptoom); Merck Manual Professional, Tuberculosis (Chronic cough is most common). Voorbehoud, geen fout nie: die SA nasionale TB-voorkomsopname 2017-19 (Moyo e.a., Lancet Infect Dis 2022, PMC9300471) het gevind dat meer as die helfte van mense met TB net deur die borskas-X-straal en nie deur simptome nie opgespoor is; die hoes bly die hoofwaarskuwing onder simptome, maar sy afwesigheid sluit TB nie uit nie. Die les beweer nie anders nie."
     },
     {
       "bewering": "Nie elke hoes is TB nie. Die meeste hoes kom van 'n verkoue en gaan vanself weg.",
       "blok": "Die hoes wat aanhou",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan. 'Viral Upper Respiratory Tract Infections' (PMC7121526) en verwante bronne: 'Most cases of acute and subacute cough are due to acute viral upper respiratory tract infections', 'mild, self-limiting'."
+      "tipe": "superlatief",
+      "bron": "NHS, Cough (nhs.uk/conditions/cough): Most coughs are caused by a cold or flu; 'n hoes klaar gewoonlik binne 3 tot 4 weke vanself op."
     },
     {
-      "bewering": "'n Hoes wat twee weke of langer aanhou, moet kliniek toe gaan. Gaan vroeër as jy bekommerd is. ... 'n Droë hoes wat twee weke aanhou, gaan ook kliniek toe.",
+      "bewering": "'n Hoes wat twee weke of langer aanhou, moet kliniek toe gaan. Gaan vroeër as jy bekommerd is.",
       "blok": "Die hoes wat aanhou",
       "status": "bevestig",
       "tipe": "getal",
-      "bron": "Vars nagegaan. Suid-Afrikaanse Departement van Gesondheid, TB-siftingsinligting (health.gov.za): hoes van 2 weke of langer is die siftingsmaatstaf; MSF Medical Guidelines 2.1: 'Prolonged cough (more than 2 weeks), with or without sputum production'. 'Gaan vroeër' strook met die internasionale neiging om enige hoes saam met ander TB-simptome te laat toets."
+      "bron": "Wes-Kaapse Regering, TB Control Programme (westerncape.gov.za, soos in soekresultate): hoes langer as twee weke is die hoofteken; vir mense met MIV tel 'n hoes van enige duur. MSF Medical Guidelines 2.1: oorweeg TB by asemhalingsimptome langer as 2 weke. Die gaan-vroeër-sin dek die MIV-uitsondering."
     },
     {
-      "bewering": "Gewoonlik kom slym saam met die hoes op en soms is daar bloed daarin.",
+      "bewering": "Dikwels kom slym saam met die hoes op en soms is daar bloed daarin.",
       "blok": "Die hoes wat aanhou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CHEST-riglyn (PMC6689101): 'cough, often productive of sputum'; kliniese oorsigte (AMBOSS, Merck Manual): die hoes begin dikwels droog en word produktief soos die siekte vorder; een kliniese reeks meld hoes met sputum by 83,9% van pasiënte; NHS: 'you may cough up mucus (phlegm) or mucus with blood in it'. 'Gewoonlik' is die sterk kant van wat die bronne sê maar word deur kliniese reekse gedra, en die les dek die droë hoes uitdruklik in die slotsin."
+      "bron": "Hoe dikwels slym: Merck Manual Professional (eers min produktief van geel of groen slym, word meer produktief soos die siekte vorder); Clinical and radiographic manifestations of sputum culture-negative pulmonary TB (PMC4598139): slym by 64% van kultuur-positiewe en 30% van kultuur-negatiewe pasiente. Dikwels (nie altyd nie) is dus gesteun. Bloed: WHO-feiteblad Tuberculosis (prolonged cough, sometimes with blood); MSF lys hemoptise. Merck noem bloed seldsaam; soms bly verdedigbaar en die les beweer nie meer nie."
+    },
+    {
+      "bewering": "'n Droë hoes wat twee weke aanhou, gaan ook kliniek toe.",
+      "blok": "Die hoes wat aanhou",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "MSF Medical Guidelines 2.1: hoes langer as 2 weke, met of sonder slym. Oor hoe 'n TB-hoes begin, maak die les geen bewering nie; hierdie sin is versoenbaar met Merck (aanvanklik min slym, later meer) en met die oorsig The Early Diagnosis of Pulmonary Tuberculosis (PMC8732105): vroeë TB verloop dikwels met min of geen hoes of slym."
     },
     {
       "bewering": "Koors: sy liggaam is warmer as gewoonlik. Iemand anders kan dit voel of met 'n termometer meet.",
       "blok": "Ander tekens en simptome van TB",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO TB-feiteblad lys koors; Wikipedia 'Signs and symptoms': koors word as teken geregistreer met 'n termometer."
+      "bron": "WHO-feiteblad Tuberculosis en MSF 2.1 lys koors; Merck: lae-graadse koors algemeen. Voel: 'n sistematiese oorsig (2008, tien studies, 3 694 kinders) oor koors deur aanraking gevind het sensitiwiteit omtrent 89% maar spesifisiteit omtrent 50%, dus kan aanraking koors aanvoel maar nie betroubaar bevestig nie. Die sin se kan ... voel is nie vals nie, en die termometer word saam genoem."
     },
     {
       "bewering": "Nagsweet: hy sweet snags deur sy klere.",
       "blok": "Ander tekens en simptome van TB",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO TB-feiteblad en NHS ('a high temperature or night sweats')."
+      "bron": "Merck Manual Professional, Tuberculosis: Drenching night sweats are a classic symptom; WHO-feiteblad en MSF 2.1 lys nagsweet."
     },
     {
-      "bewering": "Hy word maerder sonder dat hy probeer. / Hy is heeldag moeg en sonder krag. / Hy het nie lus vir kos nie.",
+      "bewering": "Hy word maerder sonder dat hy probeer.",
       "blok": "Ander tekens en simptome van TB",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. NHS TB-bladsy: 'losing weight without trying', 'feeling tired all the time', 'not feeling as hungry as usual'; WHO-feiteblad: 'weakness, fatigue, weight loss'."
+      "bron": "WHO-feiteblad Tuberculosis (weight loss); MSF 2.1 (weight loss); Merck (gewigsverlies ontwikkel geleidelik oor weke)."
+    },
+    {
+      "bewering": "Hy is heeldag moeg en sonder krag.",
+      "blok": "Ander tekens en simptome van TB",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO-feiteblad Tuberculosis (weakness; fatigue); MSF 2.1 (fatigue)."
+    },
+    {
+      "bewering": "Hy het nie lus vir kos nie.",
+      "blok": "Ander tekens en simptome van TB",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "MSF 2.1 (anorexia); Merck (anorexia)."
+    },
+    {
+      "bewering": "Die kliniek kan TB gesond maak",
+      "blok": "Die kliniek kan TB gesond maak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Kop van die blok. WHO-feiteblad Tuberculosis: TB is preventable and curable; Wes-Kaapse Regering: toets en behandeling by die kliniek is gratis. Die kop se kan stel genesing as moontlik, nie as seker nie. Of TB gesond maak idiomaties vir genees werk, is vir die taalnasiener."
+    },
+    {
+      "bewering": "TB kan gesond gemaak word.",
+      "blok": "Die kliniek kan TB gesond maak",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO-feiteblad Tuberculosis: TB is preventable and curable. Die sin se kan; nerens in die teks of die koppe word genesing as seker gestel nie, en die blok se slot praat van die beste kans."
     },
     {
       "bewering": "Die kliniek toets die mens en kyk of die TB-kieme daar is.",
-      "blok": "Die kliniek maak TB gesond",
+      "blok": "Die kliniek kan TB gesond maak",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. Cleveland Clinic: aktiewe TB word gediagnoseer deur 'n sputummonster na 'n laboratorium te stuur; Suid-Afrikaanse openbare klinieke bied gratis TB-toetsing en -behandeling (clinicfinder.co.za, TB-dienste; NDoH-siftingsinligting)."
+      "bron": "Wes-Kaapse Regering, TB Control Programme (soos in soekresultate): die klient word by 'n primere gesondheidsorgkliniek ondersoek en gee twee slymmonsters wat na 'n laboratorium gaan."
     },
     {
-      "bewering": "TB kan gesond gemaak word as die mens sy medisyne klaar drink. Hy drink dit elke dag baie maande lank en hou aan ook nadat hy weer goed voel. Die kliniek help hom om by te hou.",
-      "blok": "Die kliniek maak TB gesond",
+      "bewering": "Die mens drink sy medisyne elke dag baie maande lank.",
+      "blok": "Die kliniek kan TB gesond maak",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "WHO-feiteblad Tuberculosis: medisyne word daagliks vir 4-6 maande geneem; Wes-Kaapse Regering: ses maande om heeltemal gesond te word. Middelweerstandige TB duur langer; baie maande dek albei."
+    },
+    {
+      "bewering": "Hy hou aan ook nadat hy weer goed voel. Dit gee hom die beste kans om gesond te word.",
+      "blok": "Die kliniek kan TB gesond maak",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "HPSC Ierland, TB FAQ (hpsc.ie): na 'n paar weke voel jy beter, maar die medisyne moet klaar geneem word; Wes-Kaapse Regering: medisyne moet gereeld volgens voorskrif geneem word, en gemiste behandeling skep die risiko van middelweerstandige TB; WHO: daagliks vir die volle 4-6 maande."
+    },
+    {
+      "bewering": "Die kliniek help hom om by te hou.",
+      "blok": "Die kliniek kan TB gesond maak",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO TB-feiteblad: 'preventable and curable', medisyne daagliks vir 4-6 maande; NHS: 'usually for at least 6 months'; Suid-Afrikaanse klinieke gebruik direk-waargenome behandeling en behandelingsondersteuners (DOTS by openbare klinieke). 'Drink' vir pille is gewone Afrikaanse gebruik."
+      "bron": "Nasionale Departement van Gesondheid, aangehaal deur Spotlight (17 September 2020, Some TB patients still required to take pills in front of witnesses): DOT vir spesifieke groepe, ander pasiente kry nakomingsmonitering en berading by opvolgbesoeke; die 2014 nasionale TB-riglyne maak voorsiening vir 'n behandelingsondersteuner."
     },
     {
-      "bewering": "Masels kom van 'n virus wat ook deur die lug oorgaan. Masels loop baie maklik oor.",
+      "bewering": "Masels kom van 'n virus wat ook deur die lug oorgaan.",
       "blok": "Waar masels vandaan kom en hoe dit lyk",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO masels-feiteblad: deur die lug oorgedra; 'One person infected by measles can generate up to 18 secondary infections.'"
+      "bron": "WHO-feiteblad Measles: highly contagious disease caused by a virus; versprei deur asemhaling, hoes, nies."
     },
     {
-      "bewering": "Die eerste tekens en simptome lyk na 'n gewone verkoue. Die kind kry hoë koors, 'n loopneus en 'n hoes. Sy oë word ook rooi en seer.",
-      "blok": "Waar masels vandaan kom en hoe dit lyk",
-      "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Vars nagegaan (die blok het verander: 'hoë koors' is nuut). CDC 'Measles Symptoms and Complications': 'High fever (may spike to more than 104 F), Cough, Runny nose, Red, watery eyes'; NHS inform/NHS: 'Measles starts with cold-like symptoms' en lys 'a high temperature' en 'sore red eyes' onder daardie aanvangsimptome. Kartering van die vergelyking nagegaan: 'n gewone verkoue gee gewoonlik lae of geen koors nie, so 'n leerder kan aflei dat die hoë koors die verkoue-beeld oorskry; dit is juis die onderskeid wat die NHS self tref en lei nie tot 'n vals gevolgtrekking nie. Die buursinne (verkoue-vergelyking direk voor 'hoë koors') vorm saam geen vals prentjie nie."
-    },
-    {
-      "bewering": "Eers 'n paar dae later kom die uitslag. Dit begin by die gesig en trek af oor die lyf.",
+      "bewering": "Masels loop baie maklik oor.",
       "blok": "Waar masels vandaan kom en hoe dit lyk",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC: uitslag 3-5 dae na die simptome begin, 'on the face at the hairline. They then spread downward to the neck, trunk, arms, legs, and feet'; WHO: 'usually on the face and upper neck ... downward'."
+      "bron": "WHO-feiteblad Measles: een besmette mens kan tot 18 sekondere infeksies veroorsaak; gesondheidsdepartemente van Philadelphia en Suid-Dakota: tot 90% van nie-immune noue kontakte kry masels."
     },
     {
-      "bewering": "'n Kind met masels gaan ook kliniek toe. Maar geen medisyne maak hierdie virus dood nie. Die kliniek help met die koors en sorg dat die kind genoeg drink.",
+      "bewering": "Die eerste tekens en simptome lyk na 'n gewone verkoue.",
+      "blok": "Waar masels vandaan kom en hoe dit lyk",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "NHS, Measles (nhs.uk/conditions/measles): begin met verkoue-agtige simptome; WHO Measles: koors, loopneus, hoes, rooi en waterige oë. Eerste is hier volgorde, nie 'n rekord nie, en dit klop."
+    },
+    {
+      "bewering": "Die kind kry hoë koors, 'n loopneus en 'n hoes.",
+      "blok": "Waar masels vandaan kom en hoe dit lyk",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Measles (fever, runny nose, cough); CDC Clinical Overview of Measles (koors tot 105 grade F, omtrent 40,5 grade C); NICD-gebaseerde berigte: hoë koors, hoes, loopneus, rooi oë."
+    },
+    {
+      "bewering": "Sy oë word ook rooi en seer.",
+      "blok": "Waar masels vandaan kom en hoe dit lyk",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NHS, Measles: red, sore, watery eyes; WHO: red and watery eyes; CDC: konjunktivitis is deel van die voorstadium."
+    },
+    {
+      "bewering": "Eers 'n paar dae later kom die uitslag.",
+      "blok": "Waar masels vandaan kom en hoe dit lyk",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "WHO Measles: die uitslag verskyn 3 tot 5 dae na die eerste simptome; NHS: a few days after the cold-like symptoms."
+    },
+    {
+      "bewering": "Dit begin by die gesig en trek af oor die lyf.",
+      "blok": "Waar masels vandaan kom en hoe dit lyk",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Measles: gewoonlik op die gesig en bo-nek, versprei oor omtrent 3 dae afwaarts na romp, arms, bene en voete; CDC: van die kop na die romp na die onderste ledemate."
+    },
+    {
+      "bewering": "'n Kind met masels gaan ook kliniek toe.",
       "blok": "Wat die kliniek met masels doen",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO masels-feiteblad: 'There is no specific treatment for measles'; sorg fokus op 'relieving symptoms, making the person comfortable and preventing complications', insluitend vloeistof. Opmerking, geen regstelling nie: WHO beveel ook vitamien A vir kinders onder 5 met masels aan; die les beweer nie dat koors en vloeistof al is wat die kliniek doen nie, so die weglating maak niks vals nie."
+      "bron": "NICD-gebaseerde riglyne (Health-e News en AllAfrica, Julie 2026): soek mediese sorg en bly weg van ander. Randnota, geen fout nie: dieselfde riglyne raai aan om die kliniek vooraf te bel sodat hulle kan voorberei."
+    },
+    {
+      "bewering": "Maar geen medisyne maak hierdie virus dood nie.",
+      "blok": "Wat die kliniek met masels doen",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Measles: There is no specific treatment for measles; CDC Clinical Overview: geen spesifieke goedgekeurde antivirale terapie nie; ribavirien word soms by ernstige gevalle gebruik maar is nie goedgekeur nie en kliniese bewys van werking ontbreek. Op Graad 5-vlak waar."
+    },
+    {
+      "bewering": "Die kliniek help met die koors en sorg dat die kind genoeg drink.",
+      "blok": "Wat die kliniek met masels doen",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Measles: sorg fokus op verligting van simptome, genoeg vloeistof en voorkoming van komplikasies. Weglating, geen fout nie: WHO beveel ook twee dosisse vitamien A aan vir alle vermoedelike gevalle by kinders onder 5; die sin is onvolledig maar maak geen vals kontras nie."
     },
     {
       "bewering": "Die kliniek hou die kind fyn dop, want masels kan 'n mens baie siek maak.",
       "blok": "Wat die kliniek met masels doen",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC: longontsteking by 1 uit 20 kinders, enkefalitis by 1 uit 1 000, 1-3 uit 1 000 sterf; WHO: blindheid, enkefalitis, ernstige longontsteking."
+      "bron": "WHO Measles: komplikasies sluit longontsteking, enkefalitis, erge diarree en blindheid in, en die meeste sterftes kom van komplikasies."
     },
     {
-      "bewering": "Ná omtrent twee weke se medisyne gee hy die siekte gewoonlik nie meer oor nie. Dan kan hy weer skool of werk toe gaan.",
+      "bewering": "Ná omtrent twee weke se medisyne gee hy die siekte gewoonlik nie meer oor nie.",
       "blok": "'n Mens met TB bly 'n gewone mens",
       "status": "bevestig",
       "tipe": "getal",
-      "bron": "Vars nagegaan. Suid-Afrikaanse riglyne soos weergegee deur Labour Guide South Africa ('Most patients are no longer infectious after approximately two weeks of treatment and can return to work') en Mediclinic se TB-inligting. 'Gewoonlik' dek die uitsonderings (bv. middelweerstandige TB, waar dit langer neem)."
+      "bron": "HPSC Ierland, TB FAQ: After two weeks of treatment, most patients are no longer infectious to other people; Merck Manual Professional: oordrag eindig binne 2 weke nadat effektiewe behandeling begin; Wes-Kaapse Regering: binne 2 weke na die begin van behandeling versprei die persoon die siekte nie meer nie. Gewoonlik en omtrent dek die variasie (UCT-beroepsgesondheidsdokument: 2 tot 4 weke) en middelweerstandige TB."
     },
     {
-      "bewering": "'n Mens met TB is 'n gewone mens soos jy en ek. Die siekte is die probleem en nie die mens nie. ... Gaan sit langs hom en vra hoe dit met hom gaan.",
+      "bewering": "Dan kan hy weer skool of werk toe gaan.",
       "blok": "'n Mens met TB bly 'n gewone mens",
-      "status": "bevestig",
+      "status": "weerspreek",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. Waardes-/stigma-boodskap, nie 'n feitelike bewering nie; die implisiete veiligheidsaanname (om langs iemand te sit wat terug is skool toe) rus op die twee-weke-bewering hierbo, wat bevestig is."
+      "bron": "HPSC Ierland, TB FAQ (hpsc.ie): Your doctor will tell you when you can return to work or school; UCT HR, beroepsgesondheidsdokument (hr.uct.ac.za/media/174315): terugkeer werk toe berus op mediese vrystelling deur 'n gesondheidswerker, gewoonlik met bewys dat die bakterie weg is, en by vermoedelike middelweerstandige TB wag dit tot toetse dit uitsluit. Die les laat die terugkeer uit die kalender volg (Dan, na omtrent twee weke). Die tweeweekgetal is net gewoonlik waar; wanneer 'n bepaalde mens terugkeer, besluit die kliniek op grond van sy toestand en toetse, en by middelweerstandige TB is dit baie later. 'n Leerder kan daaruit aflei dat iemand ná twee weke vanself terug mag kom, of dat 'n klasmaat wat ná twee weke nog weg is iets verkeerd doen. Die volgende sin (Gaan sit langs hom en vra hoe dit met hom gaan.) hang hiervan af en bly waar sodra die terugkeer aan die kliniek se woord gekoppel is.",
+      "regstelling": "Koppel die terugkeer aan die kliniek se besluit en nie aan die twee weke nie, byvoorbeeld: Die kliniek sê vir hom wanneer hy weer skool of werk toe kan gaan. Die sin oor twee weke en oordrag kan bly soos hy is."
     },
     {
       "bewering": "Die beste manier om masels te keer, is die inenting.",
       "blok": "Die inenting teen masels",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "Vars nagegaan. WHO masels-feiteblad: 'Community-wide vaccination is the most effective way to prevent measles.'"
+      "bron": "WHO-feiteblad Measles: Being vaccinated is the best way to prevent getting sick with measles or spreading it to other people."
     },
     {
       "bewering": "Klein kinders kry hulle inentings by die kliniek.",
       "blok": "Die inenting teen masels",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. NICD Measles Vaccine FAQ en NDoH EPI-skedule: masels-inenting op 6 en 12 maande (sedert 2016) in die openbare EPI-program by klinieke."
+      "bron": "Nasionale Departement van Gesondheid, Primary Healthcare Chapter 13 Immunisation, weergawe 1.1, Desember 2024 (health.gov.za): masels-rubella op 6 en 12 maande in die EPI-skedule; roetine-kinderinentings is gratis by openbare klinieke. Sommige kinders word by privaat dokters of apteke ingeënt, maar die sin is nie vals nie."
     },
     {
-      "bewering": "'n Kind wat hierdie inenting gekry het, kry gewoonlik nie masels nie. Dit is een van die redes hoekom party kinders masels kry en ander nie.",
+      "bewering": "'n Kind wat hierdie inenting gekry het, kry gewoonlik nie masels nie.",
       "blok": "Die inenting teen masels",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC: twee dosisse 97% doeltreffend, een dosis 93%; NICD: doeltreffendheid van twee dosisse 93-99%."
+      "bron": "CDC-syfers soos berig deur ABC News (Maart 2025): een dosis omtrent 93% effektief, twee dosisse omtrent 97%; Nieu-Seelandse gesondheidsfeiteblad: omtrent 95% en 99%. Gewoonlik is korrek."
     },
     {
-      "bewering": "tuberkulose: 'n Siekte wat deur kieme veroorsaak word, meestal in 'n mens se longe, dikwels met 'n hoes wat weke lank aanhou.",
-      "blok": "tuberkulose",
+      "bewering": "Dit is een van die redes hoekom party kinders masels kry en ander nie.",
+      "blok": "Die inenting teen masels",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, alleen gelees (die inskrywing het verander: 'dikwels'). WHO: bakterieë 'that most often affects the lungs', 'prolonged cough'; CHEST (PMC6689101): hoes is die mees algemene simptoom. 'Dikwels' is reg gekalibreer teen die Suid-Afrikaanse voorkomsopname, waar 'n meerderheid van gevalle geen simptome gehad het nie. Alleen gelees pas dit nie netjies op 'n ander siekte nie (die weke-lange hoes en die kieme onderskei dit van 'n verkoue)."
+      "bron": "Volg uit dieselfde effektiwiteitsyfers (CDC via ABC News; WHO: inenting is die beste voorkoming); een van die redes laat ruimte vir ander redes soos vorige infeksie en blootstelling."
     },
     {
-      "bewering": "masels: 'n Siekte wat deur 'n virus veroorsaak word en baie maklik oorloop, met hoë koors, rooi oë en 'n uitslag wat by die gesig begin.",
-      "blok": "masels",
+      "bewering": "'n Siekte wat deur kieme veroorsaak word, meestal in 'n mens se longe, dikwels met 'n hoes wat weke lank aanhou.",
+      "blok": "begrip: tuberkulose",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, alleen gelees (die inskrywing het verander: 'hoë koors'). CDC: 'High fever', 'Red, watery eyes', uitslag begin 'on the face at the hairline'; WHO: tot 18 sekondêre infeksies. Alleen gelees: rubella begin ook by die gesig maar met ligte koors en sonder die rooi oë, so die kombinasie wys na masels."
+      "bron": "Alleen gelees getoets. WHO-feiteblad Tuberculosis: bakterie, most often affects the lungs, ook niere, brein en ruggraat (meestal is dus reg); langdurige hoes is die algemeenste simptoom (Merck, MSF). Dikwels, nie altyd nie, is reg (sien die SA voorkomsopname, PMC9300471)."
     },
     {
-      "bewering": "kieme: Baie klein lewende dinge wat 'n mens siek kan maak.",
-      "blok": "kieme",
+      "bewering": "'n Siekte wat deur 'n virus veroorsaak word en baie maklik oorloop, met hoë koors, rooi oë en 'n uitslag wat by die gesig begin.",
+      "blok": "begrip: masels",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, alleen gelees; die staande bewoording is nie heroorweeg nie. Bakterieë (soos die TB-kiem) is lewende organismes (WHO: TB word deur bakterieë veroorsaak). Of virusse lewend is, word betwis (Microbiology Society, 'Are viruses alive?'); in hierdie les word die woord 'kieme' egter net vir TB gebruik en masels word aan 'n 'virus' toegeskryf, so die les noem nêrens iets 'n lewende kiem wat betwis word nie. 'Kan' maak dit nie 'n bewering oor elke kiem nie."
+      "bron": "Alleen gelees getoets. WHO-feiteblad Measles (virus, hoogs aansteeklik, koors, rooi oë, uitslag op gesig en bo-nek); CDC (koors tot omtrent 40,5 grade C); NHS (uitslag begin op die gesig en agter die ore)."
     },
     {
-      "bewering": "virus: 'n Baie klein ding wat net binne-in 'n liggaam skade kan doen.",
-      "blok": "virus",
+      "bewering": "Baie klein lewende dinge wat 'n mens siek kan maak.",
+      "blok": "begrip: kieme",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, alleen gelees; die staande bewoording is nie heroorweeg nie. British Society for Immunology en Cleveland Clinic: virusse kan net binne 'n gasheersel vermeerder en is buite 'n gasheer onaktief. Strook met die les se eie beeld dat die masels-virus deur die lug gaan en eers skade doen nadat dit ingeasem is. 'Liggaam' dek ook plante en ander gashere losweg; niks vals nie."
+      "bron": "Alleen gelees getoets. Dictionary.com, germ: a microorganism, especially one that produces disease; Merriam-Webster, germ: a microorganism, especially one causing disease. Bakterieë soos die TB-kiem is lewend. Voorbehoud vir 'n mens om van te weet, geen fout in hierdie les nie: in algemene Engelse gebruik sluit germ ook virusse in (Merriam-Webster noem 'n virus as voorbeeld), en of 'n virus lewend is, is betwis. Hierdie les noem die masels-virus nêrens 'n kiem nie en die begrip virus sê nie lewend nie, so die les self bevat geen vals stelling nie."
     },
     {
-      "bewering": "simptoom: Iets wat 'n mens self voel omdat hy siek is, soos pyn, moegheid of 'n seer keel.",
-      "blok": "simptoom",
+      "bewering": "'n Baie klein ding wat net binne-in 'n liggaam skade kan doen.",
+      "blok": "begrip: virus",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, alleen gelees. Medical News Today / Wikipedia 'Signs and symptoms': simptome is subjektief; pyn en moegheid is standaardvoorbeelde, en 'n seer keel word deur die pasiënt gevoel."
+      "bron": "Alleen gelees getoets. Dictionary.com, virus: a microscopic infectious agent that can replicate only inside a living host cell; buite 'n gasheer is 'n virus onaktief en kan nie vermeerder of skade doen nie. Die definisie onderskei 'n virus nie van 'n bakterie nie en sê liggaam waar die wetenskap lewende sel sê (virusse tas ook plante en bakterieë aan), maar niks daarin is vals vir 'n Graad 5-leser nie."
     },
     {
-      "bewering": "teken: Iets wat 'n siekte aan 'n mens verander en wat ander kan sien of meet, soos 'n uitslag of koors.",
-      "blok": "teken",
+      "bewering": "Iets wat wys dat 'n mens se gesondheid skeefloop en wat hy self ervaar, soos pyn, moegheid of naarheid.",
+      "blok": "begrip: simptoom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, alleen gelees. Medical News Today / Wikipedia 'Signs and symptoms': tekens is objektief waarneembaar; koors en uitslag word as voorbeelde gegee. Die inskrywing sê nie 'net' 'n teken nie."
+      "bron": "Alleen gelees getoets. Medical News Today, sign vs symptom: simptome is subjektief en word deur die pasient ervaar; naarheid en pyn word as voorbeelde gegee."
     },
     {
-      "bewering": "inenting: 'n Inspuiting, of soms druppels in die mond, wat jou liggaam vooraf gereed maak om self teen 'n bepaalde siekte te veg.",
-      "blok": "inenting",
+      "bewering": "Iets wat wys dat 'n mens se gesondheid skeefloop en wat 'n ander mens self kan sien, hoor, ruik of meet, ook al vertel hy niks, soos 'n uitslag of koors.",
+      "blok": "begrip: teken",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, alleen gelees. CDC 'Explaining How Vaccines Work' en ECDC 'How vaccines work': entstowwe lei die immuunstelsel vooraf op teen 'n spesifieke patogeen. Mondelinge druppels: die Suid-Afrikaanse EPI-skedule gee rotavirus-druppels (en polio-druppels) deur die mond (NDoH EPI-skedule; Mediclinic immuniseringskedule)."
+      "bron": "Alleen gelees getoets. Medical News Today en EBSCO Research Starters: tekens kan deur ander as die pasient raakgesien word, soms met instrumente; koors en uitslag is standaardvoorbeelde; 'n dokter kan 'n teken vind by iemand wat geen simptome rapporteer nie, dus klop ook al vertel hy niks."
     },
     {
-      "bewering": "kliniek: 'n Plek in die gemeenskap waar mense gesondheidsorg kry, of hulle siek is of gesond.",
-      "blok": "kliniek",
+      "bewering": "'n Inspuiting, of soms druppels in die mond, wat jou liggaam vooraf gereed maak om self teen 'n bepaalde siekte te veg.",
+      "blok": "begrip: inenting",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, alleen gelees. Suid-Afrikaanse openbare klinieke lewer roetine-inentings aan gesonde babas en kinders (NDoH EPI-skedule, NICD) sowel as behandeling vir siekes soos TB (DOTS by openbare klinieke)."
+      "bron": "Alleen gelees getoets. Nasionale Departement van Gesondheid, PHC Chapter 13 Immunisation, Desember 2024: OPV (orale polio-entstof) by geboorte en 6 weke en rotavirus-entstof op 6 en 14 weke word deur die mond gegee, die res word ingespuit. Dat 'n entstof die immuunstelsel vooraf teen 'n spesifieke siekte voorberei, is die standaardbeskrywing (WHO Measles: safe, effective)."
+    },
+    {
+      "bewering": "'n Plek in die gemeenskap waar mense gesondheidsorg kry, of hulle siek is of gesond.",
+      "blok": "begrip: kliniek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Alleen gelees getoets. GCIS-gesondheidsfeiteblad 2004 (gcis.gov.za): primere gesondheidsorgdienste sluit inenting, kraamsorg, sifting van kinders, gesinsbeplanning en gesondheidsbevordering in, dus ook dienste vir gesonde mense, sowel as behandeling van siektes; NDoH PHC Chapter 13: roetine-inentings by openbare klinieke."
     }
   ],
-  "opsomming": "Al 35 beweringe is hierdie rondte vars nagegaan en niks is vals nie - die twee veranderinge ('dikwels' by tuberkulose en 'hoë koors' by masels) is korrek en maak ook saam met hul buursinne geen vals prentjie nie; die een ding vir 'n mens om te weet is dat Suid-Afrika se eie TB-opname die meeste gevalle sonder simptome gevind het, so die les moet nooit sê dat elke mens met TB hoes nie, wat dit tans ook nie doen nie."
+  "opsomming": "Een bewering is weerspreek: Dan kan hy weer skool of werk toe gaan laat 'n TB-pasient se terugkeer uit die tweeweekkalender volg, terwyl die kliniek dit op grond van sy toestand en toetse besluit (en by middelweerstandige TB veel later); al 53 ander items, insluitend die tweeweekgetal self, hoe dikwels slym en bloed voorkom, die superlatiewe en die agt begrippe alleen gelees, is teen bronne bevestig, en twee waardestellings sonder feiteinhoud ('n Mens met TB is 'n gewone mens soos jy en ek; Die siekte is die probleem en nie die mens nie) is nie as items opgeneem nie."
 }

@@ -31,3 +31,25 @@ the commit what was touched beyond my own work.
 
 *Pulling.* `git pull --no-rebase` before every push is already the habit and it is what
 kept this clean — the shared run logs are append-only and union-merge. Keep it.
+
+## Scope the extract refresh, and brief agents to leave it to me
+
+**8 October 2026.** An agent repairing one specification ran the extract refresh bare
+when it finished, as the content standard tells it to, and regenerated about **seventy
+extracts across Graad 4 and Graad 6 plus two fact-copies** - reaching into work running
+on the other two machines. Derived files only, and no lesson content was written, so
+nothing was lost. It then reported that the tool "has no subject scope".
+
+**It does.** It takes `--vak` and `--graad`, and it has `--wat-sou-verander`, which says
+what would change and writes nothing. The agent had simply run it without flags, and I
+had not told it to scope.
+
+**How to apply.**
+
+* **Brief every spec-repair agent NOT to run the refresh**, and do it myself once when
+  several jobs are done - scoped to the subject and grade I am working in.
+* **Run the dry form first.** On a shared repository the question "what would this
+  touch" is worth asking before touching it.
+* **An agent reporting a tool's limitation is reporting what it experienced**, not what
+  the tool can do. Check the help text before believing it - the same discipline as
+  [[n-verslag-bestaan-nie-omdat-die-agent-so-se]].

@@ -50,3 +50,36 @@ check whether a file is *present* — compare it byte-for-byte against the curre
 approved PDF and refresh it if it differs. A file sitting there is the failure mode,
 not an absent one. And the protected-words page has to be rebuilt at the same time,
 because its word list depends on which lessons are being sent.
+
+## 8 October 2026: the outbox is built by script now, and happens at sign-off
+
+The hand-assembled page had gone stale in the way that matters: it still announced
+**four** lessons beside **eight** PDFs, and four of those PDFs predated the last repair
+of their drafts. So `bin/uitbak.py` now does the whole job, and sign-off calls it — a
+lesson reaches the outbox without anyone remembering.
+
+**Four things it settles, each of which had been got wrong at least once:**
+
+* **The page is generated from the function that builds the real language-check block**,
+  not from a second reading of the word lists. So it cannot claim a word is protected
+  that the block never mentions, and the count on it is measured. (That function had to
+  be lifted out of the block builder first; the move is proven byte-identical on every
+  lesson in the repository — see [[n-module-buite-sy-boom-lees-niks]] for how nearly
+  that proof went wrong.)
+* **The number in the file name is the YEAR number**, from the approved spec's
+  `jaarnommer`, which is Drico's own ruling and what Graad 4 Geografie on disk already
+  looks like. A missing `jaarnommer` is reported, not guessed.
+* **A split subject gets a split folder.** Graad 6 Sosiale Wetenskappe runs two parallel
+  year numberings, so Geskiedenis 20 and Geografie 20 are different lessons with the same
+  file name, and a flat copy of both would have one silently overwrite the other. The
+  folder is `sosiale-wetenskappe-geskiedenis` / `-geografie`, and the collision is
+  **checked** on every run rather than assumed away: if two lessons claim one number,
+  neither is sent and both are named.
+* **A PDF older than its draft's last content change is refused, loudly.** That is the
+  real hazard, because a stale PDF in the outbox is read as the lesson. The comparison is
+  against the recorded content change, not the file's clock.
+
+**An empty outbox folder is not a gap.** `lees/` is an outbox and Drico empties it as he
+collects, so a subject with 37 approved lessons and nothing in the folder is the success
+state. I started to report that as a delivery failure before remembering
+[[lees-is-n-uitbak-nie-n-argief-nie]]. Only NEW sign-offs need to be placed there.

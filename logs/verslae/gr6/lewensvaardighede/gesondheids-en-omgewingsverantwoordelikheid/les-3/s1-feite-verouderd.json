@@ -1,291 +1,327 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Van die winkel tot op jou bord",
   "kaps_punt": "Voedselhigiëne: Veilige en skadelike bestanddele; Voedselvoorbereiding; Voedselberging; Siektes wat deur voedsel oorgedra kan word.",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "HERSIEN",
   "items": [
+    {
+      "bewering": "Van die winkel tot op jou bord (titel)",
+      "blok": "(titel)",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die les dek koop (etiketdatums), bêre, voorberei en eet, wat die titel se 'winkel tot bord' dra. Codex se omskrywing van voedselhigiëne strek oor 'all stages of the food chain' (Codex General Principles of Food Hygiene, via FAO-uitgawe van die Codex Food Hygiene Basic Texts, fao.org/4/a1552e/a1552e00.pdf)."
+    },
     {
       "bewering": "Kos kan jou siek maak al lyk dit reg op jou bord.",
       "blok": "Wat is voedselhigiëne?",
       "status": "bevestig",
-      "bron": "USDA-blog 'Protecting Your Family from Food Spoilage' (usda.gov) en FSIS 'Danger Zone' (fsis.usda.gov): siekmakende bakterieë verander gewoonlik nie die voorkoms, reuk of smaak van kos nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "UK Food Standards Agency (Bob Martin): E. coli en Salmonella laat kos nie sleg ruik nie; kos kan reg lyk en ruik en tog skadelik wees. USDA FSIS (spoilage-FAQ, webharvest.gov argief): siekteveroorsakende bakterieë 'do not generally affect the taste, smell, or appearance of food'."
     },
     {
-      "bewering": "Kieme is baie klein lewende dinge wat op kos kan beland en daarin groei.",
+      "bewering": "Kieme is baie klein lewende dinge wat in kos kan groei.",
       "blok": "Wat is voedselhigiëne?",
       "status": "bevestig",
-      "bron": "Nemours KidsHealth 'Germs: Bacteria, Viruses, Fungi, and Protozoa' (kidshealth.org via akronchildrens.org); WHO 'Five keys to safer food' (cdn.who.int). Bakterieë en swamme groei in kos; virusse vermeerder nie in kos nie, maar die sin sê 'kan' en beweer nie wat elke kiem doen nie. Dat virusse 'lewend' genoem word is 'n betwiste klassifikasie wat in die kurrikulum se gebruik van 'kieme' opgesluit lê, nie 'n feitefout nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "KidsHealth/Nemours (kidshealth.org/en/kids/germs.html): germs are tiny organisms, or living things, that can cause disease. USDA FSIS 'Danger Zone' (fsis.usda.gov/es/node/3295): bakterieë groei die vinnigste tussen 4 en 60 °C en verdubbel in so min as 20 minute. 'kan' is korrek: virusse (ook kieme) vermeerder nie in kos nie, maar bakterieë en skimmels wel. Die lewende-status van virusse is betwis, maar 'klein lewende dinge' is die gevestigde kindervlak-omskrywing by KidsHealth."
     },
     {
-      "bewering": "Kos met kieme kan heeltemal gewoon lyk, ruik en smaak.",
+      "bewering": "Voedselhigiëne beteken dat jy kos so koop, voorberei en bêre dat kieme, gif en bederf niemand siek maak nie. Kortweg: jy hanteer kos veilig.",
       "blok": "Wat is voedselhigiëne?",
       "status": "bevestig",
-      "bron": "FSIS 'Danger Zone' (fsis.usda.gov): bakterieë wat in die gevaarsone vermeerder, gee geen merkbare reuk of sigbare verandering nie; CDC 'Home-Canned Foods' (cdc.gov): 'You cannot see, smell, or taste the toxin that causes botulism.' Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Codex General Principles of Food Hygiene: food hygiene = 'all conditions and measures necessary to ensure the safety and suitability of food at all stages of the food chain' (FAO, Codex Food Hygiene Basic Texts). Mayo Clinic (food poisoning, symptoms-causes) noem bakterieë, virusse, parasiete, chemiese gifstowwe en skimmels wat gifstowwe maak as kontaminante - dus is kieme, gif en (skimmel-)bederf al drie geldige bronne van siekte uit kos."
     },
     {
-      "bewering": "Kos kan ook bederf as dit te lank staan of te warm bly.",
-      "blok": "Wat is voedselhigiëne?",
-      "status": "bevestig",
-      "bron": "USDA-blog 'Protecting Your Family from Food Spoilage' (usda.gov); WHO 'Five keys to safer food' (health.gov.za-plakkaat): mikro-organismes vermeerder vinnig by kamertemperatuur. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Voedselhigiëne beteken dat jy kos so koop, voorberei en bêre dat kieme en bederf niemand siek maak nie.",
-      "blok": "Wat is voedselhigiëne?",
-      "status": "bevestig",
-      "bron": "WHO 'Five keys to safer food' (cdn.who.int; ook as Departement van Gesondheid-plakkaat op health.gov.za): voedselveiligheid dek hantering van aankoop tot berging. 'n Aanvaarbare vereenvoudiging. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Kos wat bederf het, ruik dikwels suur of sleg. Party kos kry 'n slymerige laag.",
+      "bewering": "Bederfde kos ruik dikwels suur of sleg. Party kos kry 'n slymerige laag.",
       "blok": "Vars of bederf?",
       "status": "bevestig",
-      "bron": "ScienceDirect Topics 'Spoilage Bacteria' (sciencedirect.com): bederfbakterieë veroorsaak onaangename reuke, smake en teksture. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS spoilage-FAQ (webharvest.gov argief van fsis.usda.gov/OA/FAQ/spoilage.htm): spoilage-bakterieë veroorsaak veranderinge in reuk, smaak en tekstuur; vrugte en groente word 'mushy or slimy', vleis ontwikkel 'n slegte reuk."
     },
     {
       "bewering": "Op ander kos groei 'n pluisige laag skimmel in kleure soos wit, groen, grys of swart.",
       "blok": "Vars of bederf?",
       "status": "bevestig",
-      "bron": "FSIS 'Molds on Food: Are They Dangerous?' (fsis.usda.gov); Healthline 'Is It Safe to Eat Moldy Bread?': skimmel is 'n swam en verskyn as pluisige groei in onder meer swart, groen, blou, grys en wit. 'soos' laat ander kleure oop. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS 'Molds on Food: Are They Dangerous?' (fsis.usda.gov/sites/default/files/media_file/2021-02/Molds_on_Food.pdf): 'gray fur', 'fuzzy green dots', 'white dust'. Healthline (is-moldy-food-dangerous): spore gee skimmel sy kleur, 'typically green, white, black or grey'. 'soos' maak dit 'n voorbeeldlys, wat reg is - skimmel kan ook blou, pienk of oranje wees."
     },
     {
-      "bewering": "Gooi kos met skimmel heeltemal weg en skraap nie net die skimmel af nie.",
+      "bewering": "Gooi sulke kos heeltemal weg en skraap nie net die skimmel af nie.",
       "blok": "Vars of bederf?",
       "status": "bevestig",
-      "bron": "FSIS 'Molds on Food: Are They Dangerous?' (fsis.usda.gov) en Mayo Clinic 'Moldy cheese': sagte kos met skimmel word weggegooi omdat die skimmel se drade diep indring. Vir harde kaas en ferm groente laat die USDA toe dat 'n grootmens minstens 2,5 cm rondom die skimmel wegsny - nooit net afskraap nie. Die les se reël is dus strenger as nodig vir 'n paar harde kossoorte, maar dis veilige advies vir 'n kind en die deel 'skraap nie net af nie' is ook vir harde kos korrek. Geen fout nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS 'Molds on Food': skimmel se drade kan diep in kos ingroei en onsigbare bakterieë kan saam groei; sagte kos, brood, oorskiet, konfyt ens. moet weggegooi word. USDA laat wel toe dat skimmel van harde kaas en ferm groente met 'n ruim marge (2,5 cm) afgesny word, so die les is strenger as USDA, maar in die veilige rigting - dit maak die opdrag nie onveilig of vals nie."
     },
     {
-      "bewering": "Moenie aan kos proe om te toets of dit bederf is nie.",
+      "bewering": "Moenie proe om te toets of kos bederf is nie.",
       "blok": "Vars of bederf?",
       "status": "bevestig",
-      "bron": "CDC 'Home-Canned Foods' (cdc.gov): 'Never taste food to see if it's safe'; FSIS 'Danger Zone' (fsis.usda.gov). Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Clemson HGIC 'Keeping foods safe at home' (USDA-gebaseerd): 'you can't tell by looking at or smelling if a food is unsafe', moenie kos proe as jy twyfel nie; FDA verbruikerspamflet: 'if you think a food might be bad, do not taste it'. Botulinumtoksien kan nie gesien, geruik of geproe word nie (Monterey County Health, CDC-gebaseerd)."
     },
     {
       "bewering": "Jou neus en oë vang dikwels bederf, maar nie altyd kieme nie.",
       "blok": "Vars of bederf?",
-      "status": "bevestig",
-      "bron": "ScienceDirect Topics 'Spoilage Bacteria' en USDA-blog oor bederf: bederfbakterieë verander reuk en voorkoms, siekmakende bakterieë gewoonlik nie; FSA 'Best before and use by dates' (food.gov.uk): listeria en salmonella kan nie gesien, geruik of geproe word nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "USDA FSIS spoilage-FAQ: siekteveroorsakende bakterieë 'do not generally affect the taste, smell, or appearance of food'; die bakterieë wat kos laat sleg ruik is gewoonlik NIE die wat mense siek maak nie. UK Food Standards Agency: E. coli en Salmonella laat kos nie sleg ruik nie, selfs op gevaarlike vlakke; die 'sniff test' is nie 'n geskikte toets nie. 'nie altyd nie' impliseer dat neus en oë skadelike kieme gewoonlik WEL raaksien, wat die omgekeerde is van wat die bronne sê, en 'n leerder kan daaruit aflei dat kos wat reg ruik waarskynlik veilig is.",
+      "regstelling": "Versterk die kwantor sodat dit sê dat jy die kieme wat jou siek maak gewoonlik nie kan sien of ruik nie - byvoorbeeld: 'Jou neus en oë vang dikwels bederf, maar die kieme wat jou siek maak, kan jy gewoonlik nie sien of ruik nie.' Behou die eerste helfte (bederf word dikwels raakgesien); vernou net die tweede helfte se 'nie altyd nie' na 'gewoonlik nie'."
     },
     {
-      "bewering": "Rou vleis, hoender en eiers kan kieme dra totdat hulle deur en deur gaar is. Eet hulle nooit rou of halfgaar nie.",
+      "bewering": "Rou vleis, hoender en eiers kan kieme dra. Maak hulle gaar totdat hulle binne-in ook heeltemal gaar is.",
       "blok": "Kos wat ekstra sorg vra",
       "status": "bevestig",
-      "bron": "WHO 'Five keys to safer food' (cdn.who.int): 'Cook food thoroughly, especially meat, poultry, eggs and seafood'; FoodSafety.gov 'Salmonella and Eggs' en FDA 'What You Need to Know About Egg Safety': kook eiers totdat die wit en die geel ferm is. Die 'nooit' is strenger as die USDA se riglyn vir heel stukke beesvleis, maar stem ooreen met die WHO se huishoudelike advies. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO Five Keys to Safer Food, sleutel 2 en 3 (weergegee by safeconsume.eu/articles/five-keys-to-safer-food; WHO-handleiding who.int/publications/i/item/9789241594639): hou rou vleis, pluimvee en seekos apart; 'cook meat, poultry, eggs and seafood' deurgaans gaar; sop tot kookpunt, sappe helder, nie pienk nie. MedlinePlus noem onvoldoende gaar vleis en eiers as risiko."
     },
     {
-      "bewering": "Was vrugte en groente onder skoon water voordat jy dit eet.",
+      "bewering": "Was vrugte en groente voordat jy dit eet.",
       "blok": "Kos wat ekstra sorg vra",
       "status": "bevestig",
-      "bron": "FoodSafety.gov '4 Steps to Food Safety': spoel vrugte en groente onder lopende water; WHO 'Five keys to safer food', sleutel 5: was vrugte en groente. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO Five Keys, sleutel 5: 'wash fruits and vegetables, especially if eaten raw' (safeconsume.eu-weergawe van die WHO-plakkaat)."
     },
     {
-      "bewering": "'n Blikkie kos wat opgeswel is of lek, maak jy nie oop nie en proe jy nie. Wys dit vir 'n grootmens om weg te gooi.",
+      "bewering": "Moenie 'n blikkie oopmaak of proe as dit opgeswel is of lek nie. Wys dit vir 'n grootmens om weg te gooi.",
       "blok": "Kos wat ekstra sorg vra",
       "status": "bevestig",
-      "bron": "CDC 'Home-Canned Foods' (cdc.gov): moenie kos uit houers proe of eet wat lek, opgeswel of beskadig is nie; gooi dit weg. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Monterey County Health (CDC-gebaseerde botulismeriglyne): moenie kos proe of eet uit houers wat lek, opgeswel is of beskadig lyk nie, en moenie 'n verdagte blik oopmaak of deursteek nie; weggooi in dubbele verseëlde sakke (USDA, via The Takeout). Die verwysing na 'n grootmens vir die weggooi pas by die CDC-raad om versigtig te wees met die hantering."
     },
     {
-      "bewering": "Op baie kos se etiket staan 'n datum met Engelse woorde voor.",
+      "bewering": "Die stel kosse wat 'ekstra sorg vra': rou vleis, hoender, eiers, vrugte en groente, en opgeswelde of lekkende blikkies.",
+      "blok": "Kos wat ekstra sorg vra",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "As stel getoets teen WHO Five Keys (sleutels 2, 3, 5) en USDA/CDC (blikkies): elke lid hoort daar. Die stel is onvolledig (vis/seekos en ongepasteuriseerde melk ontbreek), maar die les beweer nie dat dit die volledige lys is nie en skep geen vals kontras nie - melk word in 'Kos bêre' as bederfbare kos hanteer."
+    },
+    {
+      "bewering": "Baie kosetikette het Engelse woorde voor die datum.",
       "blok": "Die datum op die etiket",
       "status": "bevestig",
-      "bron": "ASC Food Safety 'Best Before and Use By' (ascfoodsafety.com, oor Suid-Afrikaanse regulasie R146 van 2010 onder Wet 54 van 1972): SA-etikette gebruik 'best before' en 'use by'. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "SA Regulasie R146 (GNR 146 van 1 Maart 2010, acts.co.za): reg. 12(2) 'The date shall be preceded by appropriate words \"best before\" and/or \"use by\", and/or \"sell by\"'; reg. 7(1)(a): etiketinligting moet 'in English and where possible, at least one other official language' wees."
     },
     {
-      "bewering": "'Use by' wys die laaste dag waarop jy die kos mag eet. Daarna eet jy dit nie meer nie, al lyk dit nog reg.",
+      "bewering": "'Use by' wys die laaste dag waarop jy die kos mag eet.",
       "blok": "Die datum op die etiket",
       "status": "bevestig",
-      "bron": "Food Standards Agency 'Best before and use by dates' (food.gov.uk): die use-by-datum is die laaste dag wat kos veilig is om te eet; eet dit nie daarna nie, selfs al lyk en ruik dit reg. ASC Food Safety oor R146: in Suid-Afrika is 'use by' 'n veiligheidsdatum. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "superlatief",
+      "bron": "Codex CXS 1-1985: use-by date = einde van die tydperk waarna die produk 'should not be sold or consumed due to safety and quality reasons'; NSW Food Authority: moet nie ná die use-by datum geëet word nie; Food Standards Scotland: moenie dit ná die use-by datum eet nie, al lyk en ruik dit reg. 'Laaste' klop: tot en met die datum, nie daarna nie. Let wel: die datum geld net vir ongeopende kos wat volgens die etiket gebêre is; die les beloof nie dat kos tot daardie dag veilig is nie, dit noem net die uiterste grens, wat korrek is."
     },
     {
-      "bewering": "'Best before' wys tot wanneer die kos op sy beste is.",
+      "bewering": "'Best before' wys tot wanneer die kos op sy beste smaak.",
       "blok": "Die datum op die etiket",
       "status": "bevestig",
-      "bron": "Food Standards Agency 'Best before and use by dates' (food.gov.uk): best before gaan oor gehalte; ná die datum is kos 'may not be at its best'. 'Op sy beste' is die etiket se eie betekenis en geen feitelike rangorde nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "superlatief"
+      "tipe": "superlatief",
+      "bron": "R146 (soos opgesom deur ascfoodsafety.com en Kimberley-verbruikersgids): best before = tydperk waarin die ongeopende produk ten volle bemarkbaar bly en sy eienskappe behou - 'n kwaliteitsdatum, nie 'n veiligheidsdatum nie. UK FSA (via Caerphilly/Dover-raad): ná die datum 'it might begin to lose its flavour and texture'. 'Op sy beste smaak' is 'n aanvaarbare vereenvoudiging van 'beste kwaliteit' (smaak is die hoofdeel daarvan)."
     },
     {
-      "bewering": "Dit gaan eerder oor hoe lekker en vars die kos smaak. Ná daardie datum kan kos nog veilig wees as dit reg gebêre is. Laat 'n grootmens dan besluit of dit nog goed is.",
+      "bewering": "Ná daardie datum kan kos nog veilig wees as dit reg gebêre is. Laat 'n grootmens dan besluit of dit nog goed is.",
       "blok": "Die datum op die etiket",
       "status": "bevestig",
-      "bron": "Food Standards Agency (food.gov.uk): ná best before is kos gewoonlik nog veilig as die verpakking heel is en dit reg gebêre is; ASC Food Safety oor R146: kos ná best before is nie outomaties onveilig nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Codex en R146: ná die best-before datum 'the food may still be acceptable for consumption'; UK FSA: best before gaan oor kwaliteit, 'it doesn't mean that the food will be harmful', en geld net as die kos volgens die etiket gebêre is. Die naaste antesedent van 'daardie datum' is die best-before datum, so dit lees nie as 'n vrypas vir 'use by' nie."
     },
     {
-      "bewering": "Was jou hande met seep en skoon water voordat jy aan kos raak. Was hulle weer nadat jy rou vleis of hoender vasgehou het. So kom kieme van die rou vleis nie op brood of slaai nie.",
+      "bewering": "Was jou hande met seep en water voordat jy aan kos raak. Was hulle weer nadat jy rou vleis of hoender vasgehou het. So dra jou hande nie kieme na brood of slaai nie.",
       "blok": "Kos voorberei",
       "status": "bevestig",
-      "bron": "FoodSafety.gov '4 Steps to Food Safety' en CDC 'Preventing Food Poisoning' (cdc.gov): was hande voor kos hanteer word en altyd ná rou vleis en pluimvee; WHO 'Five keys', sleutels 1 en 2. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO Five Keys, sleutel 1: was hande voor en tydens kosvoorbereiding. USDA-gebaseerde riglyne (Star Tribune/Cornell Extension): was hande met warm seepwater voor en ná die hantering van rou vleis en pluimvee. Die meganisme (hande dra kieme na kos wat nie gaargemaak word nie) is die kruisbesmetting wat sleutel 2 teiken."
     },
     {
-      "bewering": "Hou rou vleis apart van kos wat klaar is om te eet. Gebruik 'n aparte snyplank en mes vir rou vleis, of was hulle goed met warm seepwater.",
+      "bewering": "Hou rou vleis apart van kos wat klaar is om te eet. Gebruik 'n aparte snyplank en mes daarvoor, of was hulle met warm seepwater.",
       "blok": "Kos voorberei",
       "status": "bevestig",
-      "bron": "FoodSafety.gov '4 Steps to Food Safety': een snyplank vir rou vleis en een vir kos wat nie gaargemaak word nie; was planke en gereedskap in warm seepwater. FSIS 'Cutting Boards' (fsis.usda.gov). Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO Five Keys, sleutel 2: hou rou vleis apart; 'use separate equipment and utensils such as knives and cutting boards for handling raw foods'. University of Missouri Extension en Cornell Extension (USDA Fight BAC!): gebruik 'n aparte snyplank vir rou vleis, of was planke en messe met warm seepwater nadat hulle met rou vleis in aanraking was."
     },
     {
-      "bewering": "Maak vleis en hoender gaar totdat dit binne-in ook heeltemal gaar is.",
+      "bewering": "Was en kook kos net met skoon water.",
       "blok": "Kos voorberei",
       "status": "bevestig",
-      "bron": "WHO 'Five keys to safer food' (cdn.who.int): kook deeglik, veral vleis en pluimvee, tot 70 °C. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO Five Keys, sleutel 5: 'use safe water or treat it to make it safe'."
     },
     {
-      "bewering": "Gebruik net skoon water om kos te was en te kook.",
-      "blok": "Kos voorberei",
-      "status": "bevestig",
-      "bron": "WHO 'Five keys to safer food', sleutel 5: 'use safe water and raw materials' (cdn.who.int; health.gov.za). Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Kos soos vleis, melk en gaar kos bederf vinnig as dit warm staan. Hou sulke kos koel, in 'n yskas as daar een is.",
+      "bewering": "Kos soos vleis, melk en gaar kos bederf vinnig as dit warm staan. Hou sulke kos koel en in 'n yskas as daar een is.",
       "blok": "Kos bêre",
       "status": "bevestig",
-      "bron": "WHO 'Five keys to safer food' (cdn.who.int): verkoel alle gaar en bederfbare kos dadelik, verkieslik onder 5 °C. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO Five Keys, sleutel 4: 'refrigerate promptly all cooked and perishable food (preferably below 5°C)'. USDA FSIS Danger Zone: bakterieë groei die vinnigste tussen 4 en 60 °C. FAO Dairy Gateway: rou melk se natuurlike remmers hou bakterieë net 3-4 uur by omgewingstemperatuur in toom."
     },
     {
-      "bewering": "Gaar kos staan nie langer as twee uur buite nie. Op 'n baie warm dag is dit net een uur.",
+      "bewering": "Gaar kos staan nie langer as twee uur buite nie, of een uur op 'n baie warm dag.",
       "blok": "Kos bêre",
       "status": "bevestig",
-      "bron": "WHO 'Five keys to safer food' (cdn.who.int): laat gaar kos nie langer as 2 uur by kamertemperatuur staan nie; FSIS (fsis.usda.gov): 2 uur, of 1 uur as die lugtemperatuur bo 32 °C (90 °F) is. Volledig nagegaan in hierdie rondte.",
-      "tipe": "getal"
+      "tipe": "getal",
+      "bron": "WHO Five Keys, sleutel 4: 'do not leave cooked food at room temperature for more than 2 hours'. USDA FSIS (fsis.usda.gov/es/node/3295 en node/3341): nie langer as twee uur buite verkoeling nie; 'if the temperature is above 90 °F' (32 °C) nie langer as een uur nie. 'Baie warm dag' is 'n redelike weergawe van bo 32 °C."
     },
     {
-      "bewering": "Maak kos toe sodat vlieë nie daarop kan sit en kieme los nie.",
+      "bewering": "Maak kos toe sodat vlieë nie kieme daarop los nie.",
       "blok": "Kos bêre",
       "status": "bevestig",
-      "bron": "PMC 'Quantitative Analysis of Houseflies-mediated Food Contamination with Bacteria' (pmc.ncbi.nlm.nih.gov/articles/PMC6977770): huisvlieë dra bakterieë oor na kos; om kos toe te maak of met nette te beskerm verminder dit. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Cochrane-oorsig 'Interventions to control flies for preventing diarrhoea in children under five' (CD011654): die huisvlieg is 'fairly well established as a mechanical vector' vir diarreeveroorsakende kieme. WHO Five Keys, sleutel 1: beskerm kombuisareas en kos teen insekte, plae en ander diere."
     },
     {
       "bewering": "Bêre droë kos soos mieliemeel en rys in houers met 'n deksel. Dan kom muise en insekte nie so maklik daarby nie.",
       "blok": "Kos bêre",
       "status": "bevestig",
-      "bron": "Algemene plaagbeheer-advies vir droë kos; WHO 'Five keys' se handleiding (who.int, 'Five keys to safer food manual'): beskerm kos teen insekte, knaagdiere en ander diere. Mieliemeel as droë stapelvoedsel in SA is plaaslike gebruik en in orde. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "University of Idaho Extension (uiext30156/uiext28121): stoor graanprodukte in toe glas-, metaal- of swaar plastiekhouers; kos in oop houers raak byna seker besmet; papier- en lapsakke bied swak beskerming teen insekte en muise. 'Nie so maklik nie' is behoorlik getemper."
     },
     {
-      "bewering": "Hou gif en skoonmaakgoed ver van kos af en gooi dit nooit in 'n kosbottel nie.",
+      "bewering": "Hou gif en skoonmaakgoed ver van kos en nooit in 'n kosbottel nie.",
       "blok": "Kos bêre",
       "status": "bevestig",
-      "bron": "UCT Pathology Learning Centre 'Paraffin' (health.uct.ac.za) en SAMJ-artikels (scielo.org.za): in Suid-Afrika word paraffien dikwels in koeldrank- of melkbottels gebêre, en kinders drink dit per ongeluk; dit is die algemeenste oorsaak van toevallige vergiftiging by kinders hier. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Tygerberg Gifinligtingsentrum en SA-navorsing oor paraffienvergiftiging (UCT health.uct.ac.za 'A common poison'; Paraffin Safety Association): paraffien word dikwels in koeldrankbottels gestoor en kinders verwar dit met 'n drankie. SA Departement van Gesondheid se pediatriese riglyn (Hoofstuk 18 Vergiftiging, knowledgehub.health.gov.za) noem huishoudelike skoonmaakprodukte onder die algemeenste vergiftigings by kinders."
     },
     {
-      "bewering": "Jy kan kos ook veilig hanteer as daar nie 'n yskas is nie. Maak net soveel kos as wat julle by daardie ete gaan eet. Eet dit terwyl dit vars en warm is.",
+      "bewering": "Maak net soveel kos as wat julle gaan eet. Eet dit terwyl dit vars en warm is. Wat oorbly mag ook net twee uur staan of een uur op 'n baie warm dag.",
       "blok": "As daar nie 'n yskas is nie",
       "status": "bevestig",
-      "bron": "WHO 'Five keys to safer food' (cdn.who.int) en die WHO-riglyne op NCBI Bookshelf (NBK143666): hou gaar kos baie warm voor opdiening, en kos vir kwesbare mense word ideaal vars gemaak en glad nie ná kook gebêre nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "getal",
+      "bron": "WHO Five Keys, sleutel 4: moenie gaar kos langer as 2 uur by kamertemperatuur los nie; hou warm kos bo 60 °C tot opdiening. USDA FSIS (argief van 'Safe Handling of Take-Out Foods'): gooi bederfbare kos weg wat langer as 2 uur (1 uur bo 32 °C) by kamertemperatuur gestaan het. Die tye stem ooreen met 'Kos bêre'. Opmerking vir 'n mens: die blok sê nie uitdruklik wat ná die tyd met die oorskiet gebeur nie (USDA: weggooi; opwarming help nie teen hittebestande gifstowwe nie)."
     },
     {
-      "bewering": "Gaar kos wat oorbly, hou julle nie sonder 'n yskas tot die volgende dag nie. Kos wat oornag buite staan, gee kieme baie ure om te groei.",
-      "blok": "As daar nie 'n yskas is nie",
-      "status": "bevestig",
-      "bron": "WHO 'Five keys' (cdn.who.int): hoogstens 2 uur by kamertemperatuur; FSIS 'Danger Zone' (fsis.usda.gov): bakterieë kan elke 20 minute verdubbel tussen 4 °C en 60 °C. Dit stem ooreen met die twee-uur-reël in 'Kos bêre', so die twee blokke weerspreek mekaar nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Siekte van kos met kieme of bederf noem ons voedselvergiftiging.",
+      "bewering": "Siekte van kos met kieme, gif of bederf daarin noem ons voedselvergiftiging.",
       "blok": "Siek van kos",
       "status": "bevestig",
-      "bron": "NHS 'Food poisoning' (nhs.uk) en CDC 'Preventing Food Poisoning' (cdc.gov): voedselvergiftiging kom van kos wat met kieme besmet is; ScienceDirect Topics 'Spoilage Bacteria': bederfbakterieë kan in hoë getalle maag- en dermongesteldheid veroorsaak. Chemiese besmetting is weggelaat, maar die definisie is nie vals nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "MedlinePlus (medlineplus.gov/ency/article/001652.htm): voedselvergiftiging ontstaan wanneer jy kos of water sluk wat bakterieë, parasiete, virusse of hul gifstowwe bevat. Mayo Clinic: kontaminante sluit chemiese gifstowwe en 'molds that make toxins' in. Bederf (volgens die les se eie begrip deur kieme of skimmel) kan dus siekte veroorsaak, al maak die meeste bederfbakterieë volgens USDA nie siek nie; die omskrywing beweer nie dat bederfde kos altyd siek maak nie."
     },
     {
-      "bewering": "Die tekens en simptome daarvan is maagkrampe, opgooi, diarree en soms koors.",
+      "bewering": "Die gewone tekens en simptome is naarheid, maagkrampe, opgooi, diarree en soms koors. 'n Siek mens kry nie noodwendig almal nie.",
       "blok": "Siek van kos",
       "status": "bevestig",
-      "bron": "NHS 'Food poisoning' (nhs.uk) en NHS inform (nhsinform.scot): naarheid, opgooi, diarree, maagkrampe en 'n hoë temperatuur. Dat hulle saam as 'tekens en simptome' genoem word, is korrek: Wikipedia 'Signs and symptoms' en Medical News Today: krampe word gevoel (simptoom), koors word gemeet (teken), en opgooi en diarree kan albei wees. Die gesamentlike etiket vermy 'n foutiewe toewysing. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "NHS (nhs.uk/conditions/food-poisoning): naarheid of opgooi, diarree, maagpyn, koors, algemeen olik. Mayo Clinic: simptome wissel na gelang van die oorsaak. As stel getoets: naarheid en maagkrampe is simptome, opgooi, diarree en koors is tekens - die paar-uitdrukking 'tekens en simptome' dek albei korrek."
     },
     {
-      "bewering": "'n Groot gevaar is dat die liggaam deur die opgooi en diarree te veel water verloor.",
+      "bewering": "Roep dadelik 'n grootmens as jy of iemand anders so siek word. As dit dalk gif is, neem die grootmens hom met die houer dadelik kliniek toe sonder om vir tekens te wag of hom te laat opgooi.",
       "blok": "Siek van kos",
       "status": "bevestig",
-      "bron": "NHS 'Food poisoning' (nhs.uk): die grootste risiko is ontwatering, veral met herhaalde opgooi en diarree. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Stellenbosch Universiteit Gifsentrum-kaart (soos aangehaal in soekresultaat): neem die houer of 'n monster saam na die kliniek of hospitaal. ER24: 'Don't force them to vomit'; hou die houer of oorblyfsels. NSW Poisons Information Centre: moenie vir simptome wag nie. SA DoH pediatriese riglyn Hoofstuk 18: tekens kan vertraag wees (bv. antikoagulante 48-72 uur). Die les noem nie die Gifhulplyn 0861 555 777 nie; dit is 'n weglating, nie 'n fout nie."
     },
     {
-      "bewering": "Roep dadelik 'n grootmens as jy of iemand anders so siek word. Bly klein slukkies water drink, ook as jy nie lus is nie. 'n Grootmens neem die siek mens kliniek toe as dit nie beter word nie.",
+      "bewering": "By kieme of bederf is 'n groot gevaar dat die liggaam te veel water verloor.",
       "blok": "Siek van kos",
       "status": "bevestig",
-      "bron": "NHS 'Food poisoning' (nhs.uk): drink baie vloeistof, in klein slukkies as jy naar is; soek hulp as die ontwatering voortduur, jy aanhou opgooi of bloed in die diarree is. Die les laat die grootmens besluit en sê nie iets vals oor wanneer hulp gesoek moet word nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "WHO Diarrhoeal disease fact sheet (who.int/news-room/fact-sheets/detail/diarrhoeal-disease): 'The most severe threat posed by diarrhoea is dehydration'; kos wat onhigiënies voorberei of gebêre is, is 'n hoofoorsaak. NHS: drink baie vloeistof om ontwatering te voorkom."
     },
     {
-      "bewering": "voedselhigiëne: Kos so koop, voorberei en bêre dat kieme en bederf niemand siek maak nie.",
-      "blok": "voedselhigiëne",
+      "bewering": "Bly klein slukkies water drink al is jy nie lus nie.",
+      "blok": "Siek van kos",
       "status": "bevestig",
-      "bron": "WHO 'Five keys to safer food' (cdn.who.int). Alleen gelees, pas dit net by voedselhigiëne. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "NHS food poisoning: drink baie vloeistof, en drink in klein slukkies as jy naar voel. WHO beveel ORS aan as die beste vervanging; water alleen is nie verkeerd nie, net nie die volledigste raad nie."
+    },
+    {
+      "bewering": "As die siek mens nie water kan inhou nie of baie lomerig of swak word, neem 'n grootmens hom dadelik kliniek toe.",
+      "blok": "Siek van kos",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO IMCI algemene gevaartekens (ook in SA-klinieke gebruik): 'vomits everything', 'unable to drink', 'lethargic or unconscious' vereis dringende sorg. NHS: skakel dringend as jy aanhou opgooi en nie vloeistof kan inhou nie. SA-klinieke is die eerste toegangspunt tot gesondheidsorg (GCIS Pocket Guide, Gesondheid)."
+    },
+    {
+      "bewering": "Dieselfde geld by moeilike asemhaling, stuiptrekkings of bloed in die diarree of opgooi.",
+      "blok": "Siek van kos",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NHS food poisoning: 999/A&E vir bloed opgooi en ernstige asemhalingsprobleme; dringend 111 vir bloederige diarree. WHO IMCI: stuiptrekkings is 'n algemene gevaarteken; bloed in die stoelgang is 'n aparte klassifikasie. CDC-gebaseerde botulismeriglyne: asemhalingsprobleme ná verdagte kos is 'n noodgeval. Die les stuur na die kliniek, nie 'n noodafdeling nie; vir SA is dit verdedigbaar omdat die kliniek die plaaslike toegangspunt is en die Stellenbosch-gifkaart 'kliniek of hospitaal' sê."
+    },
+    {
+      "bewering": "Hulle gaan ook kliniek toe as hy nie beter word nie.",
+      "blok": "Siek van kos",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NHS: kry hulp as diarree langer as 7 dae of opgooi langer as 2 dae duur. Mayo Clinic: kry mediese sorg as diarree langer as drie dae duur. IMCI: kom terug as die kind nie beter word nie."
+    },
+    {
+      "bewering": "Die stappe pas by die oorsake: gif -> dadelik kliniek toe met die houer, nie opgooi nie; kieme of bederf -> gevaar van waterverlies, klein slukkies water, kliniek by gevaartekens of as dit nie beter word nie.",
+      "blok": "Siek van kos",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "As stel getoets: die gifstap volg SA-gifsentrum- en ER24-raad (geen opgooi, houer saam, nie wag nie); die kieme/bederf-stap volg WHO (ontwatering is die grootste gevaar) en NHS (vloeistof, slukkies). Die gevaartekenlys vang ook botulisme uit 'n opgeswelde blikkie (moeilike asemhaling). Geen stap word op die verkeerde oorsaak toegepas nie: die waterstap is nie aan gif gekoppel nie, wat ooreenstem met gifsentrumraad om nie sonder advies iets te drink te gee nie."
+    },
+    {
+      "bewering": "voedselhigiëne: Kos so koop, voorberei en bêre dat kieme, gif en bederf niemand siek maak nie.",
+      "blok": "begrip: voedselhigiëne",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Alleen gelees: verstaanbaar en korrek. Codex: food hygiene = 'all conditions and measures necessary to ensure the safety and suitability of food at all stages of the food chain' (FAO Codex Food Hygiene Basic Texts). Die begrip is 'n kindervlak-weergawe daarvan."
     },
     {
       "bewering": "kieme: Baie klein lewende dinge wat 'n mens siek kan maak.",
-      "blok": "kieme",
+      "blok": "begrip: kieme",
       "status": "bevestig",
-      "bron": "Nemours KidsHealth 'What are Germs? (for Kids)' (kidshealth.org) en Cleveland Clinic 'Germs' (clevelandclinic.org): kieme is mikroskopiese bakterieë, virusse, swamme en protosoë wat siekte veroorsaak. Of virusse 'lewend' is, word betwis; die woord 'kieme' is 'n kurrikulumkeuse, nie 'n feitefout nie. Alleen gelees, is dit nie wyer as kieme nie ('baie klein' sluit wurms en insekte uit). Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "KidsHealth/Nemours (kidshealth.org/en/kids/germs.html): 'germs are tiny organisms, or living things, that can cause disease'. Alleen gelees korrek. Kennisgewing: of virusse 'lewend' is, is wetenskaplik betwis, maar die omskrywing volg 'n gevestigde gesondheidsbron vir kinders."
     },
     {
-      "bewering": "bederf: Wanneer kos oud raak en sleg ruik, slymerig word of skimmel kry.",
-      "blok": "bederf",
+      "bewering": "bederf: Wanneer kos sleg word, dikwels omdat kieme of skimmel daarin groei. Die kos ruik dan sleg, word slymerig of kry skimmel.",
+      "blok": "begrip: bederf",
       "status": "bevestig",
-      "bron": "ScienceDirect Topics 'Spoilage Bacteria' en FSIS 'Molds on Food' (fsis.usda.gov). Alleen gelees, is dit akkuraat en pas dit nie by iets anders nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS spoilage-FAQ: bederf kom van groot getalle mikro-organismes en hul afvalprodukte wat reuk, smaak en tekstuur verander. Michigan State University Extension ('causes of food spoilage'): mikro-organismes, ensieme, skimmel en gis. 'Dikwels' laat korrek ruimte vir ander oorsake. Alleen gelees korrek."
     },
     {
-      "bewering": "skimmel: 'n Pluisige laag in kleure soos wit, groen, grys of swart wat op kos groei.",
-      "blok": "skimmel",
+      "bewering": "Bederf kan binne ure gebeur as kos warm staan.",
+      "blok": "begrip: bederf",
       "status": "bevestig",
-      "bron": "FSIS 'Molds on Food: Are They Dangerous?' (fsis.usda.gov); Healthline oor skimmel op brood. Alleen gelees, is dit 'n beskrywing van die voorkoms; 'groei' maak duidelik dat dit iets lewends is, en die inskrywing sê nie dat skimmel net op kos groei nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "getal",
+      "bron": "FAO Dairy Gateway (melkpreservering): rou melk se natuurlike remmers hou bakterieë net 3-4 uur by omgewingstemperatuur in toom; FAO-tegniese verslag (Barabás): ongekoelde melk wat nie binne vyf uur by die verwerker is nie, is ongeskik. USDA FSIS: bakterieë verdubbel in so min as 20 minute in die gevaarsone. 'Kan binne ure' is behoorlik getemper."
     },
     {
-      "bewering": "voedselvergiftiging: Siekte wat 'n mens kry van kos met kieme of bederf daarin.",
-      "blok": "voedselvergiftiging",
+      "bewering": "skimmel: 'n Lewende groeisel wat ook op kos groei. Jy sien die pluisige deel in kleure soos wit, groen, grys of swart, maar sy dun drade groei in die kos in.",
+      "blok": "begrip: skimmel",
       "status": "bevestig",
-      "bron": "NHS 'Food poisoning' (nhs.uk); CDC 'Preventing Food Poisoning' (cdc.gov). Alleen gelees, stem dit ooreen met die studieteks en is dit nie vals nie. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS 'Molds on Food': skimmels is mikroskopiese swamme met 'roots' wat moeilik sigbaar is en 'may be very deep in the food'; Today's Dietitian (USDA-aanhaling): drade dring diep in klam kos in. Wikipedia 'Mold' (hifes, miselium; gekleurde spore gee die pluisige voorkoms). Alleen gelees korrek; 'groeisel' is vaag maar nie vals nie."
     },
     {
-      "bewering": "simptoom: Iets wat 'n mens self voel omdat hy siek is, soos pyn, moegheid of 'n seer keel.",
-      "blok": "simptoom",
+      "bewering": "voedselvergiftiging: Siekte wat 'n mens kry van kos met kieme, gif of bederf daarin.",
+      "blok": "begrip: voedselvergiftiging",
       "status": "bevestig",
-      "bron": "Wikipedia 'Signs and symptoms' en Medical News Today 'Signs and symptoms': 'n simptoom is die siek persoon se eie ervaring, soos pyn en moegheid. 'n Seer keel as iets wat gevoel word, is 'n simptoom. Alleen gelees, is dit korrek. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "MedlinePlus: siekte nadat jy kos of water sluk wat bakterieë, parasiete, virusse of hul gifstowwe bevat. Mayo Clinic: kontaminante sluit chemiese gifstowwe en skimmels wat gifstowwe maak in. Alleen gelees korrek; dieselfde drietal as die studieteks, so geen drif tussen blok en begrip nie."
     },
     {
-      "bewering": "teken: Iets wat 'n siekte aan 'n mens verander en wat ander kan sien of meet, soos 'n uitslag of koors.",
-      "blok": "teken",
+      "bewering": "simptoom: Iets wat wys dat 'n mens se gesondheid skeefloop en wat hy self ervaar, soos pyn, moegheid of naarheid.",
+      "blok": "begrip: simptoom",
       "status": "bevestig",
-      "bron": "Wikipedia 'Signs and symptoms', Medical News Today en GoodRx 'Signs vs symptoms': 'n teken is objektief, en ander kan dit sien of meet, byvoorbeeld 'n verhoogde temperatuur of 'n uitslag. Albei voorbeelde klop. Sonder die hoesvoorbeeld is die inskrywing nog steeds korrek. Alleen gelees, is dit duidelik die mediese betekenis. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "EUPATI-woordelys (toolbox.eupati.eu/glossary/symptom) en Medical News Today (artikel 161858): 'n simptoom word deur die pasiënt self ervaar en is subjektief, bv. pyn, duiseligheid, moegheid. Alleen gelees korrek."
+    },
+    {
+      "bewering": "teken: Iets wat wys dat 'n mens se gesondheid skeefloop en wat 'n ander mens self kan sien, hoor, ruik of meet, ook al vertel hy niks, soos 'n uitslag of koors.",
+      "blok": "begrip: teken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "EUPATI-woordelys (toolbox.eupati.eu/glossary/sign) en Medical News Today: 'n teken is objektief en kan deur iemand anders waargeneem of gemeet word; 'n termometerlesing wat verhoogde temperatuur wys is 'n teken; 'n uitslag wat 'n dokter sien is 'n teken. Alleen gelees korrek."
+    },
+    {
+      "bewering": "simptoom en teken as paar: wat die persoon self ervaar teenoor wat 'n ander kan sien, hoor, ruik of meet.",
+      "blok": "begrip: simptoom / begrip: teken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "EUPATI en Medical News Today: die onderskeid is wie die bevinding kan waarneem - die pasiënt (simptoom) of iemand anders (teken). Die twee omskrywings is parallel gebou en verskil net op daardie punt, wat presies die mediese onderskeid is. Hulle beweer nie dat iets nie albei kan wees nie (bv. 'n uitslag wat die pasiënt self raaksien, is ook 'n simptoom), so die paar skep geen vals uitsluiting nie. Die voorbeelde stem ooreen met die studieteks: naarheid as simptoom, koors as teken."
     },
     {
       "bewering": "kliniek: 'n Plek in die gemeenskap waar mense gesondheidsorg kry, of hulle siek is of gesond.",
-      "blok": "kliniek",
+      "blok": "begrip: kliniek",
       "status": "bevestig",
-      "bron": "Stad Tshwane 'Primary Healthcare Clinic Services' (tshwane.gov.za) en HST 'Primary Health Care in SA since 1994' (hst.org.za): SA-klinieke gee inentings, voorgeboortesorg en gesinsbeplanning (vir gesonde mense) sowel as behandeling. Volledig nagegaan in hierdie rondte.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "GCIS Pocket Guide to South Africa, Gesondheid (gcis.gov.za .../026_health.pdf): primêre gesondheidsorgdienste sluit immunisering, siektevoorkoming, kraamsorg, kindersifting, gesondheidsbevordering en gesinsbeplanning in; regeringsklinieke is die 'backbone of primary and preventive healthcare'. Johannesburg Region E-klinieke: kuratief sowel as immunisering, gesinsbeplanning, voorgeboortesorg. Dus sorg vir siekes en gesondes - korrek alleen gelees."
     }
   ],
-  "opsomming": "Ek het die hele les, elke blok en elke begrip-inskrywing afsonderlik opnuut nagegaan en al 40 bewerings bevestig. Die gesamentlike etiket 'tekens en simptome' en die 'teken'-inskrywing sonder die hoes is albei korrek. Daar is geen analogieë nie, en die enigste oortreffende trap ('op sy beste') is die etiket se eie betekenis. Een punt is net ter wete: die skimmelreël ('gooi heeltemal weg') is strenger as die USDA se advies vir harde kaas, maar dis veilige advies vir kinders en geen fout nie."
+  "opsomming": "Een bewering is weerspreek: 'Jou neus en oë vang dikwels bederf, maar nie altyd kieme nie' sê te sag dat jy skadelike kieme net soms nie raaksien nie, terwyl USDA en die Britse FSA sê dat siekmakende kieme die reuk en voorkoms van kos gewoonlik glad nie verander nie - verander 'nie altyd nie' na 'gewoonlik nie'. Alle ander 44 items (veiligheidsopdragte, die twee- en een-uur-reëls, etiketdatums, simptome, stappe en kliniektekens, en elke begrip-inskrywing, ook simptoom/teken as paar) is teen bronne bevestig. Daar is geen analogieë nie, en die enigste oortreffende trappe is 'laaste dag' en 'op sy beste', albei korrek. Vir 'n mens, nie 'n fout nie: die blok sonder yskas sê nie uitdruklik dat oorskiet ná twee uur weggegooi moet word nie, en die gifstap noem nie die Gifhulplyn 0861 555 777 nie."
 }

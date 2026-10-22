@@ -40,3 +40,20 @@ the fields a checker happened to name; it only saw the ones its own lesson reads
 Then leave each old ruling in place *inside a bracket* that says it was withdrawn and
 when, rather than deleting it: the record of a reversal is worth keeping, and it is
 the surrounding bracket, not the deletion, that stops it being read as an order.
+
+**9 October 2026 — I broke this rule by sweeping for the CLAIM instead of for the MANDATE.**
+A hedged superlative was withdrawn. I swept the specification for the claim's wording and
+repaired the two fields that stated it. An agent then found a third field, one over in the
+same lesson, carrying a live order: *write it as "first KNOWN town" — the qualifier is now
+MANDATORY and no longer forbidden*. My search had passed straight over it, because I was
+looking for the claim and that sentence is an instruction ABOUT the claim, in the opposite
+polarity to the thing I expected to find. Left alone, the withdrawn form would have stayed
+compulsory one field from the field that withdrew it.
+
+**So a reversal needs three sweeps, not one:** for the claim's own wording, for any sentence
+MANDATING it (which will read as a permission or a requirement, not as the claim), and for
+any sentence FORBIDDING its replacement. A ruling that once flipped a prohibition into a
+requirement leaves sentences of both polarities behind, and the mandate is the dangerous one,
+because it survives as an order rather than as a statement. Related:
+[[n-spek-se-dieselfde-ding-in-twee-velde]], [[vee-die-bewering-oor-al-die-spesifikasies]],
+[[die-korrigeerde-opdrag-bly-in-die-veld-staan]].

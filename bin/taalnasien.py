@@ -481,16 +481,18 @@ Gee jou antwoord as 'n lys veranderings - ou sin, nuwe sin - nie as 'n
 herskrewe les nie."""
 
 
-def bou(les_pad):
+def versamel(les_pad):
+    """Which protected words one lesson's language-check block shows, after the
+    suppression rules below have run.
+
+    Lifted out of bou() so the outbox's per-sub-topic protected-words page reads the
+    SAME answer the checker is shown. Deriving it a second time would be a second
+    implementation of these rules, and the page would drift from the block silently --
+    a page claiming a word is protected when the block never mentions it is worse than
+    no page at all, because it is read as evidence that the word was protected.
+    """
     les = lees_json(les_pad)
     sub_gids = os.path.basename(os.path.dirname(les_pad))
-
-    reels = []
-    reels.append(OPDRAG.format(graad=les.get("graad")))
-    reels.append("")
-    reels.append("=" * 72)
-    reels.append(f"LES: {les.get('titel')}   ({les.get('vak')}, Graad {les.get('graad')})")
-    reels.append("=" * 72)
 
     # Both sources are read on purpose, and after a ruling is settled the SAME
     # word is in both: CLAUDE.md requires a decision to be written into
@@ -517,6 +519,20 @@ def bou(les_pad):
     gedeel_terme -= beslis_terme
     voorgeskryf = [(t, teks) for t, teks in voorgeskrewe_omskrywings(les)
                    if t not in gedeel_terme and t not in beslis_terme]
+
+    return les, woorde, beslis, gedeel, voorgeskryf
+
+
+def bou(les_pad):
+    les, woorde, beslis, gedeel, voorgeskryf = versamel(les_pad)
+
+    reels = []
+    reels.append(OPDRAG.format(graad=les.get("graad")))
+    reels.append("")
+    reels.append("=" * 72)
+    reels.append(f"LES: {les.get('titel')}   ({les.get('vak')}, Graad {les.get('graad')})")
+    reels.append("=" * 72)
+
 
     if woorde or beslis or gedeel or voorgeskryf:
         reels.append("")

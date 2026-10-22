@@ -119,3 +119,40 @@ lowercase starts, one field name, one glossary-style term label. Four is reviewa
 **And the habit that caused all three:** replace a whole span, anchored at sentence boundaries,
 then read the result back. Locating the sentence with `index()` of its opening phrase and of
 its closing phrase, and replacing everything between, is what finally worked each time.
+
+## 13 October 2026: an em-dash aside inside an ordering sentence reads as CONTENT
+
+Gr 6 SW Mapungubwe lesson 4, twice in one day, in the same field.
+
+**First time.** I wrote the evidence for "almost nowhere else" into the ordering sentence as
+an em-dash aside — *"goud is bo-op die heuwel gevind en byna nerens anders nie — net 'n paar
+los stukke op die Suidelike Terras en niks by die vroeer plek nie — en dit is by die hoogste
+rang begrawe"*. A writer read the aside as required content, **fairly**, because that is
+where required content lives, and reported it as the thing that did not fit the ceiling by
+seventeen words. I fixed it by promoting it out of the parenthetical into its own sentence
+marked "WAT DIE LES NIE HOEF TE SKRYF NIE".
+
+**Second time, hours later, same field.** Rewriting the item on the place, I wrote
+*"Waar die leiers gewoon het, is 'n APARTE gegewe — Mapungubwe is die oudste bekende plek in
+Suider-Afrika waar leiers apart van hul mense gewoon het, en die klipmure wys dit."* A
+coverage check flagged it in the position where mandatory content sits — and noted it was
+also an **un-narrowed superlative** in a cluster where every superlative is narrowed, and
+that the hedge "bekende" is forbidden on a neighbouring claim in lesson 3.
+
+**The rule, and it is about position rather than wording.** In a requirement field, where a
+clause sits decides whether it is read as an order. An aside inside an ordering sentence is
+content; a separate sentence that says what it is, is a ground. So:
+
+* **Never put a ground inside the sentence that orders.** Give it its own sentence and say
+  in capitals what it is — evidence for a person, not content for the learner.
+* **A ground that contains a superlative needs the superlative barred explicitly**, because
+  a writer who decides to use the ground has no other signal that the claim is the expensive
+  kind. One did leave it out and said why; that was luck in the sense that he was careful,
+  not that the field told him.
+* **A field's own record is where to look before writing into it.** This field's record
+  documented the first instance and the fix for it, and I made the same mistake in the same
+  field anyway — because I read the order half, edited it, and never read the record I had
+  written that morning.
+
+Related: [[die-merker-begrawe-die-bestelling]],
+[[n-spek-se-dieselfde-ding-in-twee-velde]], [[n-beskrywing-verouder-n-vereiste-nie]].

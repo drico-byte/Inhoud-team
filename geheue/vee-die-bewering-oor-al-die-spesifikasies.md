@@ -183,3 +183,78 @@ field still carries any of them.
 
 Related: [[n-spek-se-dieselfde-ding-in-twee-velde]],
 [[n-reggemaakte-veld-kan-nog-n-ander-fout-dra]], [[die-korrigeerde-opdrag-bly-in-die-veld-staan]].
+
+## Knowing the rule is not the same as briefing it: the brief has to ask for the sweep
+
+**8 October 2026.** I had a requirement narrowed — a denial that had been about two places
+became a denial about one person. The brief named the field, gave the evidence, and asked
+for the narrowing. **It did not ask for the proposition to be swept.** So it was not, and
+the next coverage check found the withdrawn denial **alive in a second field of the same
+lesson**, in a different phrasing, with no record marker, reading as a live order that
+contradicted the field I had just fixed.
+
+**The rule was already written down, in this very note.** What failed was the brief. An
+agent does what the brief asks, thoroughly and no further — which is the right behaviour
+and is why the omission is mine.
+
+**So this is a checklist item for every repair brief, not a lesson about specifications:**
+
+1. **State the claim as a proposition**, in one sentence, and put that sentence in the
+   brief. Not the field name, not my phrasing of the old wording — the proposition.
+2. **Ask for the sweep explicitly, across the whole file**, and ask for two numbers back:
+   how many fields were examined and how many carried it. A sweep that read one field looks
+   exactly like a sweep that found nothing.
+3. **Say to expect a phrasing I would not predict**, because the claim has usually
+   travelled into a register I did not write — a caution, a reason-clause, a focus link.
+4. **Name what to leave alone**: the quotations inside records, and anything a standing
+   note freezes as someone else's words. Otherwise a thorough sweep removes the history
+   too, and the next reader cannot see what was withdrawn.
+5. **Ask whether each carrier sits above or below its marker**, and whether the field has
+   one at all. A field with no marker reads as live in its entirety, which is how the
+   second carrier here was ordering anything in the first place.
+
+Every one of those five is in my notes somewhere. **None of them is in a brief unless I
+put it there.**
+
+## Sweep the STRUCTURE, not only the proposition - a writer found the third carrier
+
+**8 October 2026.** I had a fault swept properly: an unanchored claim about an earlier
+time, in a lesson whose own window starts where that earlier time is false. Two
+carriers were found and repaired, the sweep was over all 333 fields, and the numbers
+came back.
+
+**A writer then found a third**, in the delivered draft, and flagged it rather than
+touching it - correctly, because the requirement itself ordered the comparison. The
+sentence was "at first a few families farmed on their own in the valley", against a
+period whose earliest centre was already a large settlement with its own craft industry.
+
+**Why the sweep missed it.** I swept the PROPOSITION - that households used to do the
+same kind of work. The third carrier made a different claim, about how many people lived
+together, in the SAME STRUCTURE: an unanchored "before" set against a "later", where the
+"before" silently lands inside the period the lesson has just defined. Different
+proposition, identical shape, and the requirement's own wording - "more people lived
+together in one place than BEFORE" - invited it.
+
+**How to apply.** When a fault turns out to be a shape rather than a claim, sweep the
+shape. For this family the shape is a bare comparative with no anchor: *eers*, *later*,
+*voorheen*, *nie meer*, *vroeer*, *in plaas daarvan*. Ask of each one: later than what,
+and is that thing inside or outside the period this lesson has defined? Then ask whether
+the requirement itself is phrased as a before-and-after, because if it is, the next
+writer will produce the same sentence again - which is the whole of
+[[die-spek-was-die-fout-sewentien-keer]].
+
+**And expect the writer to be the one who finds it.** Twice today a writer caught
+something no sweep of mine could: this, and a notice of mine that forbade what two other
+fields ordered. They read the fields as prose, in order, which is what the fault is made
+of.
+
+**Sweep the QUANTITY and the wording, not only the claim.** On 9 October 2026 I swept a
+withdrawn people-continuity claim across a whole specification and found a third live
+occurrence I would otherwise have mislabelled as cosmetic - a clause asserting "dieselfde
+gemeenskap" while ordering. But my form list held only claim wordings, so I missed a
+FOURTH occurrence of the figure the same repair forbade, in a sentence that was otherwise
+correct. The field then forbade a distance in one sentence and supplied it in another,
+which is the shape that takes a writer down. Put every form in the list: the claim's
+phrasings, the quantities, the citations you are correcting, and the exact words of the
+new prohibition - then run the sweep against the ORDERING half of every field in the file,
+not just the fields a report named.

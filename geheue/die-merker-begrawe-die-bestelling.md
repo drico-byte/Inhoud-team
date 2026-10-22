@@ -88,3 +88,94 @@ given a path only to the extract, and the next refresh overwrites it.
 deliberately did not report them, on the grounds that a cosmetic spec edit would cost its own
 check a re-run — my own rule, applied back at me. It was right, and the right response was to fix
 them in the same pass as the real one, where they cost nothing.
+
+## The commoner fault is no marker at all, and nothing was looking for it
+
+**8 October 2026.** Two specification fact checks opened, independently, with the same
+structural observation: the file contains the marker line **nowhere**, while several
+fields embed a dated correction. In such a field every record sits inside a live
+ordering half - so the withdrawn wording the record QUOTES reads as an order. The
+explorers file quoted five of them that way: "OOR LAND", "geen Europese skepe", "in 'n
+ander eeu", "SY STERKSTE stuk getuienis", "DIE BEKENDSTE".
+
+**The stale-order sweep said nothing about either file**, and it was right not to by its
+own design: its tests look for fields with SEVERAL records whose order was never
+rewritten, which is the highest-risk subset. One record per field in a file with no
+markers trips none of them.
+
+It reports it now, and the number is large: **58 of 91 specifications** in the
+repository hold at least one dated record and no marker line anywhere - 28 in Graad 4,
+9 in Graad 5, 20 in Graad 6, 1 in Graad 7.
+
+**Read that number honestly.** It counts where the fault CAN live, not where it does. A
+record that merely notes a decision harms nothing by being unmarked; only a record that
+quotes a withdrawn wording turns into an order. The sweep cannot tell the two apart,
+because that is a question about meaning - the same limit this whole family of checks
+has. So it is a reading list, and a long one, not a defect count.
+
+**How to apply.** Give a field the canonical shape as part of repairing its sub-topic,
+not as a sweep of its own: all orders first, then the marker line, then the records.
+Doing it file-by-file across 58 files without reading them would be the exact mistake
+this note warns about - moving a marker without understanding the field buries the
+order instead of the history.
+
+**And the direction matters.** Adding this warning only ever ADDS a line to read, which
+is why it was safe. Widening the SKIP in the same script once took its read-me list to
+zero; see [[n-wag-wat-sy-eie-reels-naskryf]].
+
+## I buried two live orders by moving a span, twice in one day
+
+**9 October 2026.** Retiring a gloss that had gone stale, I cut it out of an ordering
+half by finding its first words and the first words of the next block, and moved
+everything between below the marker. **The span contained three things, not one:** the
+stale gloss, a live prohibition against claiming a nearly empty valley at the start of
+the period, and the order that had changed the claim's container. Two live orders went
+under a line that says nothing below it orders anything.
+
+Earlier the same day I did the same thing from the other direction - wrote a dated
+record containing prohibitions in capitals, which the sweep read as buried orders. And
+an agent reported committing it too, in the very script meant to fix it: its new orders
+were appended to the end of a field, so inserting the marker before the dated record put
+them below the line.
+
+**Three instances in one day, all with the same cause: the text was moved as a BLOCK,
+and the block was assumed to be homogeneous.** In a field that has been patched three or
+four times it never is - orders, glosses, records and quotations sit interleaved, which
+is exactly why the field needed patching.
+
+**How to apply.**
+
+* **Never relocate a span defined by two anchors.** Split the span into sentences, and
+  classify each one as order or history before deciding where it goes. The sentences
+  that look like explanation are the ones that turn out to prohibit something.
+* **Run the buried-order check immediately after any move**, before doing anything else.
+  It caught all three within seconds, and each was a one-line repair at that point.
+* The assertions I write prove the text is present and the parse is good. **They do not
+  prove a sentence is on the right side of the line** - only reading it does, or the
+  sweep.
+
+## 13-14 October 2026: `field.rstrip() + text` appends into the RECORD half
+
+Twice in two days I wrote a prohibition into a field with
+
+    houer[sleutel] = t.replace(ou, nuut, 1).rstrip() + " MOENIE ... NIE ..."
+
+and the prohibition landed **after** the canonical line, where the field itself says nothing
+is ordered. Both times a check caught it — once `bin/spekbestelling.py` with a buried-order
+hit, once my own assertion that the text was in the ordering half.
+
+**The mechanism is dull and that is why it keeps happening.** Appending to a field appends to
+its END, and in any field that already has a record half the end is inside the record. It
+reads perfectly in a diff. It orders nothing.
+
+**The pattern that works**, when the text is an ORDER:
+
+    kop, rek = t.split(MERK, 1)
+    houer[sleutel] = kop.rstrip() + " " + NUWE_ORDER + " " + MERK + rek
+
+and when the text is a RECORD, appending to the end is correct. So: **before writing, ask
+which half this sentence belongs in, and split on the marker whenever the answer is the
+ordering half.** Then assert `t.find(new_text) < eerste_rekordmerker(t)`, which is the check
+that actually caught it.
+
+Related: [[n-laslap-binne-n-sin-breek-die-veld-as-prosa]], [[n-ruil-wat-nie-pas-nie-moet-hard-faal]].

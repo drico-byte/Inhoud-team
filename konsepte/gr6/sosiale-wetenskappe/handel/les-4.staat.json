@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/handel/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:cfff3dc2c4502ab2b2d5239639b889aa",
+  "konsep_hash": "sha256:e58e8a6afc3e94e1fa651e89129c9cd0",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:75189d8ec1c0a16eb98237aa75ebd5bd"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -21,9 +23,128 @@
       "woorde": 214,
       "begroting": 220,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T14:55:44+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4b3d038fa5bb1cb5a29cfc30a95bcf97",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T14:55:44+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 215,
+      "begroting": 220,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T15:03:14+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:44f32e4b322eb56f0f2d7e39476f839d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T15:03:14+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 231,
+      "begroting": 220,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T15:10:16+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0bdb7a0022d11319d70fff4545fdd02e",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T15:10:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 238,
+      "begroting": 220,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T15:15:54+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:75189d8ec1c0a16eb98237aa75ebd5bd",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T15:15:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 253,
+      "begroting": 220,
+      "failures": [
+        "Study text 253 words, above budget ceiling 246 (planned 220 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T15:15:54+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 253 words, above budget ceiling 246 (planned 220 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T15:17:16+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c95e9d310dd3699392fd19e55f38b3c1",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T15:17:17+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 240,
+      "begroting": 220,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T15:23:56+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:e58e8a6afc3e94e1fa651e89129c9cd0",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T15:23:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 239,
+      "begroting": 220,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T15:29:27+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T15:29:27+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 19,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T15:29:27+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\handel\\les-4.json",
+      "konsep_hash": "sha256:e58e8a6afc3e94e1fa651e89129c9cd0",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:0fba39e24a35e89b7b7d25c44ad9b4ff",
+  "spek_hash": "sha256:5abb1df159cb2af7bab8881174b5348b",
   "hek_konteks": {
     "graad": 6,
     "begroting": 220

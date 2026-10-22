@@ -80,3 +80,39 @@ schema addition plus one measurement rule. No new skill.
 4. Is an original story acceptable to teachers, or do they expect canonical texts?
 5. Should the reading band for a narrative differ from the band for explanation?
 Related: [[teks-loop-parallel-met-n-video]], [[mens-modereer-elke-les]]
+
+**9 October 2026 — the specific blocker, so it is not rediscovered.** A fact check and then I
+both tried to settle whether the figurative sense of `middelpunt` extends to a PLACE (a
+centre of trade or activity) or only to a person or a matter. It decides whether "die
+middelpunt van die hele vallei" is true at all: under the literal, geometric sense it is
+false, because the places in question sit near one end of the valley rather than its middle.
+Neither of us could reach an authority. WAT, HAT and Pharos are all behind subscription;
+Afrikaans Wiktionary lists only the mathematical sense; the one reachable Afrikaans entry is
+user-contributed and glosses the figurative sense as "persoon of saak", with "plek" appearing
+only under the literal sense. Searching returns Dutch dictionaries, which are not evidence
+about Afrikaans. **So do not try to settle a lexical question like this by search — it is a
+question for the specialists, and the word must be protected with its reason in the meantime
+so the outside check engages with it rather than quietly changing it.** Related:
+[[n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie]],
+[[onaantasbare-woorde-vir-die-taalnasiener]], [[my-soektogte-mis-en-dan-glo-ek-hulle]].
+
+**SETTLED 12 October 2026, by Lampies, and the way it was settled is the lesson.** Five fact
+checks could not decide whether the figurative sense of `middelpunt` reaches a PLACE or only
+a person or a matter. None of them failed to search: WAT, HAT and Pharos are all behind a
+subscription, Afrikaans Wiktionary lists only the mathematical sense, and the one reachable
+entry is user-contributed and gives "persoon of saak" without "plek". I then burned a search
+of my own on it and added nothing.
+
+Lampies answered it in one line as an Afrikaans speaker: the word is certainly not read only
+in a mathematical sense. So the figurative sense covers a place, the entry and the lesson's
+five uses are right, and the item was accepted by name in her name.
+
+**The lesson for next time: ASK, EARLY.** A lexical question about Afrikaans is not something
+more fact checks can settle, and five rounds of flagging it cost more than one question
+would have. When an item comes back uncertain *because the sources are unreachable* rather
+than because they conflict, and the question is about Afrikaans rather than about the world,
+that is a question for the person, not for another checker. And when she asks to read the
+text before deciding, show her the entry and every place the lesson uses the word — that is
+what she needed to answer in one line. Related:
+[[n-bewering-oor-afrikaanse-taalgebruik-is-nie-n-vereiste-nie]], [[onseker-kan-ongetoets-beteken]],
+[[onaantasbare-woorde-vir-die-taalnasiener]], [[wanneer-vra-en-wanneer-doen]].

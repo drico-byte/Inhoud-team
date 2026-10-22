@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/mapungubwe/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d0ec198749d0ae56175d1d8d1a7cb660",
+  "konsep_hash": "sha256:9c4af5fec6a2cc1b8e8ad920f4067aaa",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:ca53a82c362601b92977d4c91fd33805"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -49,9 +51,114 @@
       "woorde": 298,
       "begroting": 270,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-12T07:55:51+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ca53a82c362601b92977d4c91fd33805",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-12T07:55:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 298,
+      "begroting": 270,
+      "failures": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents"
+      ]
+    },
+    {
+      "wanneer": "2026-10-12T07:55:51+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents"
+      ]
+    },
+    {
+      "wanneer": "2026-10-12T08:26:04+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:9c7d7d943abcab912914ced77948bc0a",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-12T08:26:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 298,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-12T10:26:10+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ac3106b31f9fe42592fbc3bb3c2ad9a0",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-12T10:26:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 296,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-12T11:36:06+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c2c1481e26a3aaf937d47513ea0e268c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-12T11:36:06+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 296,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-12T12:23:40+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:9c4af5fec6a2cc1b8e8ad920f4067aaa",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-12T12:23:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 298,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-12T12:44:30+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 13,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-12T12:44:30+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-12T12:44:30+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\mapungubwe\\les-3.json",
+      "konsep_hash": "sha256:9c4af5fec6a2cc1b8e8ad920f4067aaa",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:17d82af7becb17ac1e2def7affe009f6",
+  "spek_hash": "sha256:b3d80eba7e291a80e1856ca5f36d821d",
   "hek_konteks": {
     "graad": 6,
     "begroting": 270

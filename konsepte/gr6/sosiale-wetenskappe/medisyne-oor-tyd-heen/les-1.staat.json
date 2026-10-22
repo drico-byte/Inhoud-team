@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/medisyne-oor-tyd-heen/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:9f947026560a726c9271449fd66f9854",
+  "konsep_hash": "sha256:4f16370634620f728890d9ef193df9a7",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:13be0b6feda3fbbc528e241c78c92017"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -35,9 +37,156 @@
       "woorde": 317,
       "begroting": 300,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T09:49:47+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:13be0b6feda3fbbc528e241c78c92017",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-15T09:49:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 320,
+      "begroting": 300,
+      "failures": [
+        "Study text: 3+ syllable words 16.2% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T09:49:48+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 3+ syllable words 16.2% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-10-15T09:51:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:216fdf5fee1a630c31322d80730b8f83",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T09:51:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 314,
+      "begroting": 300,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:03:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:eb1323706483a7608ef04e3d9765dc52",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:03:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 314,
+      "begroting": 300,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:04:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5d7fb11501dbefc6ef926c69dcd94e2c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:04:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 313,
+      "begroting": 300,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:17:36+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5c7c3a8787ee5983db689e222704ab1b",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:17:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 315,
+      "begroting": 300,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:29:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2b90a78d39b49a25539cc71fafca60d5",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:29:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 307,
+      "begroting": 300,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:41:50+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:64fc0611d115e4e089045fdfa070def0",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:41:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 293,
+      "begroting": 300,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:42:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4f16370634620f728890d9ef193df9a7",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-15T10:42:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 280,
+      "begroting": 300,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:55:28+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:55:29+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-15T10:55:29+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\medisyne-oor-tyd-heen\\les-1.json",
+      "konsep_hash": "sha256:4f16370634620f728890d9ef193df9a7",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:78c5628e0b450ed0d292bf965e5dd758",
+  "spek_hash": "sha256:7dbf914fcc35458de143d130c8fb6ed7",
   "hek_konteks": {
     "graad": 6,
     "begroting": 300

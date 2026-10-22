@@ -139,3 +139,70 @@ been deleted hours earlier.
 **And sweep for the ORDER FORM, not the phrase.** A past-tense record legitimately repeats
 the wording it replaced ("the block *had to* say…"), so searching for the phrase fires on the
 correction itself. Search for the imperative.
+
+## 13 October 2026: WHY the siblings survive — no check can compare across fields
+
+Twice in one day, in two different specs, a coverage check found my fix one field wide
+when the fault was a class. Lampies decided the Grade 6 wording of `kieme`; I withdrew
+the "deliver a new sentence" order from the core item, and **three** other fields still
+carried it — the expected-concepts note, the budget note and the subject's
+shared-definitions note. Separately, I withdrew "only the king's people had gold" from a
+core item and the focus-question field still had it, in a *stronger* form.
+
+**The mechanism, which is worth more than the two instances.** Every order/record test we
+own compares an instruction against the record standing **at its own path**. A decision
+recorded at one field withdraws the order at that field. An identical order at a sibling
+field has no record of its own, so:
+
+* the order/record comparison sees a field with an order and no withdrawal — normal;
+* the stale-order sweep looks for fields with *several* dated records — a clean sibling has none;
+* the buried-order check looks only below a canonical line — the sibling has no line.
+
+So a sibling is invisible to all three, by construction, and it will stay invisible. One
+coverage checker put it exactly right: those fields "are withdrawn only by a record at a
+*different* path plus one general rule, which is why they survived the sweep."
+
+**How to apply.** A finding names a field; treat it as naming a CLASS. When a ruling changes
+the status of a term or a claim, sweep every field of that lesson entry AND the spec-level
+fields for the order form, then assert zero hits before calling it done — I now do this in
+the same script that makes the fix, and it is what caught that nothing remained. A general
+"the injected list wins" paragraph is not a substitute: two of the three fields above sat
+outside its reach, and a reviser reads top-down from the field in front of them.
+
+Related: [[vee-die-bewering-oor-al-die-spesifikasies]],
+[[die-korrigeerde-opdrag-bly-in-die-veld-staan]],
+[[my-regstelling-in-die-spek-was-self-die-volgende-fout]],
+[[n-gesplete-bestelling-twee-lewende-gronde]].
+
+### The eighth instance named the mechanism: a record half describes the order it was written beside
+
+Later on 13 October 2026, same lesson. I moved a core item's middle support from possession
+to find-place and added the superseding paragraph to **that field's** record. Its sibling
+field's record still ended on *"and what is now ordered: the gold was concentrated with the
+king's people"* — the old frame, in the present tense, labelled as the live order.
+
+Formally it binds nothing: the canonical line is there and so is "DIE OPDRAG STAAN HIERBO".
+**It was read as live anyway.** The draft's own provenance note reported that field as still
+carrying the old frame and asked a person to fix it at source — true of the record half,
+false of the order half. So "a record is read as an order" stopped being a prediction and
+became a measured event, in the same day it was written.
+
+**The mechanism, and it is narrower than "sweep the siblings".** When I change an order, the
+record beside it is the thing most likely to describe the order I have just replaced,
+because I wrote them in the same breath. So:
+
+* **After changing any order, read that field's own record half** and ask whether it still
+  speaks in the present tense about what is ordered. A record speaks only in the past.
+* **A record must never contain the phrase "what is now ordered"** or any equivalent. If it
+  needs to say what the current order is, it is in the wrong half.
+* **If a correction supersedes an earlier record, say so inside that record**, with the date.
+  Two records in one field, one superseding the other, is normal and safe; a record that
+  simply contradicts the order above it is not.
+
+A related trap from the same pass: I had put a word-cost figure into an order ("this costs
+about seventeen words more than the ceiling leaves"). A writer correctly filed the material
+as *content that did not fit* rather than as evidence — so a later round with spare words
+would read it as licence. **A cost is never a reason in a requirement.** State what the thing
+is (evidence for a person, not content for the learner); whether it fits is the gate's
+business and ages on its own ([[die-band-is-nie-die-plafon-nie]],
+[[n-nota-wat-n-toestand-vasvries-verouder]]).

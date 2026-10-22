@@ -61,3 +61,54 @@ source so a writer can see what changed. Do not. **Order the shape, strike the
 sentence, point at the injected list** — every time, including in the correction
 record itself. A quotation added to be helpful is a fresh copy that can be wrong
 the moment it is typed and goes stale the next time the ruling moves.
+
+## The cost of this rule: a deferred wording is protected by nothing
+
+**7 October 2026.** The rule above is right and I applied it all day — order the
+content, defer the sentence, never quote a wording into a specification. Then I found
+what it costs.
+
+**In Grade 6 Sosiale Wetenskappe a glossary wording reaches the outside Afrikaans
+checker by exactly three routes, and a writer-chosen wording takes none of them.** I
+read `bin/taalnasien.py` rather than reasoning about it:
+
+* `gedeelde_verklarings` finds a wording by seeing the **same text in another lesson**.
+  A term defined in one lesson only is invisible to it.
+* `besliste_omskrywings` protects a term that sits in the subject-grade's
+  **agreed-wordings file**, and hands the checker the right reason — *this was
+  decided*. Its own docstring says it exists for a wording settled for the subject but
+  carried by a single lesson.
+* `voorgeskrewe_omskrywings` reads a spec's `verwagte_begrippe` — and **Sosiale
+  Wetenskappe writes that as a bare list of terms with no wordings at all.** In this
+  subject the path yields nothing.
+
+So the four names of harm — six revisions, a day of legal research, a ruling of
+Lampies' and two of mine — reached the checker **with nothing holding them.** 321
+protected entries in the file and not one covered the phrases. The checker edits
+**after** the fact check and nothing re-checks it, so its natural improvement of
+`mishandeling`'s genus to *sleg behandel* would have collapsed it into `misbruik`'s own
+genus phrase and undone the lot.
+
+**The two rules are both right and together they leave a hole.** "A spec may not quote a
+decided wording" keeps the specification from going stale. "A wording is protected only
+if it is written down somewhere outside the draft" is how protection works. Obey both
+and the wording exists only in the draft, which is the one place nothing reads it from.
+
+**How to close it:** order the shape in the specification and defer the sentence, as
+before — then, **once the writer has chosen and a fact check has passed it, record the
+chosen wording in the agreed-wordings file.** That is the loop I had left open: the
+specification stays free of quotations, and the wording still travels. Do it after the
+check, never before — enshrining a wording a check is still examining is how an agreed
+wording comes to be wrong, and [[die-ooreengekome-bewoording-kan-self-verkeerd-wees]]
+is already on record for that.
+
+**And a hand-written protected-word entry is the residue, not the mechanism.** Keep it
+for what the agreed-wordings path cannot express — a forbidden substitution, or a
+deliberately non-parallel construction a checker will want to harmonise. Two entries in
+that file were found **dead** on the same day, so a hand-maintained protection is the
+weaker instrument: prefer the automatic one and verify either in a real block.
+
+Related: [[onaantasbare-woorde-vir-die-taalnasiener]],
+[[die-taalnasiener-wysig-na-die-feitenasiener]] if it exists,
+[[n-beslissing-in-die-spek-is-onsigbaar-vir-die-feitenasiener]] (the mirror: a decision
+in the spec cannot reach the fact checker either).

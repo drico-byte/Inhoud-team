@@ -85,6 +85,18 @@ li { margin-bottom: 5px; }
                  color: #4a5b70; margin-bottom: 5px; }
 .eli10 p { font-size: 11.5pt; margin-bottom: 6px; }
 
+/* The curriculum point this lesson serves, quoted verbatim. It is NOT the lesson's
+   own claim, and sometimes our text has deliberately withdrawn the very wording
+   printed here, so the label and the quotation marks do the whole job. */
+.kaps { margin: 10px 0 0; border-left: 2px solid #d8d2c0; padding: 1px 0 1px 9px;
+        line-height: 1.38; }
+.kaps .etiket { font-family: "Segoe UI", Arial, sans-serif; font-size: 7.5pt;
+                font-weight: 600; letter-spacing: .09em; text-transform: uppercase;
+                color: #6b6152; display: block; margin-bottom: 1px; }
+.kaps .aangehaal { font-size: 10pt; font-style: italic; color: #333; }
+.kaps .nie-ons { font-family: "Segoe UI", Arial, sans-serif; font-size: 8pt;
+                 color: #777; display: block; margin-top: 2px; }
+
 /* A reading is the object of study, not an explanation of one. The label says so
    without changing how the prose itself is set. */
 .etiket-lees { font-family: "Segoe UI", Arial, sans-serif; font-size: 8pt;
@@ -300,6 +312,33 @@ def bou_html(les, verslae=None):
     if vrae:
         lyf.append(f'<div class="groep"><h2>Vrae</h2><ol>{"".join(vrae)}</ol></div>')
 
+    # The curriculum point, labelled as a QUOTATION rather than as our own claim.
+    #
+    # Lampies, 8 October 2026: label it, do not suppress it. The line tells a reviewer
+    # which curriculum point the lesson serves, which is information they use, so
+    # losing it would cost something real -- but it goes out on every PDF, approved or
+    # not, and it carries the curriculum's own printed wording even where our text has
+    # deliberately withdrawn that wording. In Grade 6 Mapungubwe it prints "eerste
+    # staat in Suider-Afrika" and "Eerste dorp", one of which our text replaced with a
+    # bounded kingdom claim and the other dropped; the outside Afrikaans checker was
+    # reading a header asserting the withdrawn form directly above a text that says
+    # neither, and the obvious thing to do with that is make the text match the header.
+    # Three protected-word entries each spent a sentence explaining the header away.
+    #
+    # So the label says whose words these are, and the second line says that a text
+    # which differs from them differs on purpose. The footer already says this is a
+    # reading copy; this line is only about the curriculum quotation.
+    kaps_punt = (les.get("kaps_punt") or "").strip()
+    kaps_blok = ""
+    if kaps_punt:
+        kaps_blok = (
+            '<div class="kaps">'
+            '<span class="etiket">KABV-punt, woordeliks aangehaal</span>'
+            f'<span class="aangehaal">&ldquo;{e(kaps_punt)}&rdquo;</span>'
+            '<span class="nie-ons">Die kurrikulum se eie woorde, nie die les se '
+            'bewering nie. Waar die teks hiervan afwyk, is dit doelbewus.</span>'
+            '</div>')
+
     status = (les.get("status") or "konsep").lower()
     woord, fyn = STATUS_WOORDE.get(status, (status.upper(), ""))
     klas = "stempel goedgekeur" if status == "goedgekeur" else "stempel"
@@ -313,7 +352,7 @@ def bou_html(les, verslae=None):
 <header>
   <h1>{e(les.get('titel'))}</h1>
   <div class="plek">{plek}</div>
-  <div class="plek">CAPS: {e(les.get('kaps_punt'))}</div>
+  {kaps_blok}
   <div class="{klas}">{e(woord)} <span class="fyn">&nbsp;{e(fyn)}</span></div>
 </header>
 {''.join(lyf)}
@@ -376,6 +415,11 @@ def kontroleer_pdf(uit_pdf):
 
 
 def maak_pdf(html_teks, uit_pdf):
+    # Absolute FIRST, before the target is cleared below. Headless Chrome
+    # refuses a relative --print-to-pdf path, and the clearing step is
+    # deliberate -- so a relative path used to delete the existing PDF and
+    # then fail to write a new one. It cost a signed-off lesson its PDF.
+    uit_pdf = os.path.abspath(uit_pdf)
     keuses = blaaiers()
     werk = os.path.join(P.skrapruimte(), "leeskopie")
     os.makedirs(werk, exist_ok=True)
@@ -623,10 +667,14 @@ def main():
     if a.lesson:
         paaie = [a.lesson]
     elif a.alles:
-        paaie = sorted(glob.glob(os.path.join(P.KONSEPTE, "**", "les-*.json"),
-                                recursive=True))
-        paaie = [p for p in paaie if os.sep + "spek" + os.sep not in p
-                 and not os.path.basename(p).count(".") > 1]
+        # 7 October 2026: this walked for les-*.json and excluded spek/ by name
+        # and siblings by counting dots, and it missed feite-kopie/ entirely --
+        # the fact checker's stripped copy IS named les-<n>.json. 175 of the 562
+        # files it selected were copies, and uitvoer_pad names a sub-topic after
+        # its directory, so each one became a `feite-kopie-les-N.pdf` in lees/,
+        # which is the outbox to the language checker and the HTML team. The
+        # question is now asked once for every tool: see P.les_konsepte.
+        paaie = sorted(P.les_konsepte(P.KONSEPTE))
     elif a.vak and a.graad and a.subonderwerp and a.les:
         p = P.les_konsep(a.graad, a.vak, a.subonderwerp, a.les)
         paaie = [p]

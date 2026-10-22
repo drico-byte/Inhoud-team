@@ -1,20 +1,22 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Van die winkel tot op jou bord",
   "graad": 6,
   "vak": "Lewensvaardighede",
   "budget": 550,
-  "checked_at": "2026-09-28T06:13:45+00:00",
+  "begrotingsreel": "default ±15%: 468-632",
+  "begroting_basis": "meting",
+  "checked_at": "2026-10-15T09:38:55+00:00",
   "study": {
-    "words": 601,
-    "sentences": 50,
-    "mean_sentence_len": 12,
+    "words": 628,
+    "sentences": 52,
+    "mean_sentence_len": 12.1,
     "median_sentence_len": 12.0,
-    "longest_sentence": 18,
-    "mean_syllables": 1.29,
-    "pct_polysyllabic": 4.3,
+    "longest_sentence": 22,
+    "mean_syllables": 1.3,
+    "pct_polysyllabic": 4.9,
     "pct_long_words": 0.5,
-    "commas_per_sentence": 0.34
+    "commas_per_sentence": 0.42
   },
   "eli10": null,
   "block_counts": {
@@ -22,13 +24,15 @@
     "begrip": 8
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text: 0.42 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
   "warnings": [
-    "Study text 601 words, above the Grade 6 lesson ceiling 550 — a person must cut it to 550 or fewer. The budget (550) plus tolerance allows 632, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study text 628 words, above the Grade 6 lesson ceiling 550 — a person must cut it to 550 or fewer. The budget (550) plus tolerance allows 632, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study block 8 ('Siek van kos') 116 words (guide 30–110) — will overflow its section",
     "Long words in study text with no 'begrip' entry: skoonmaakgoed"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

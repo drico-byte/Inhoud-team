@@ -132,8 +132,9 @@ def _lesse(graad=None, vak=None):
         "les-*.json",
     )
     for pad in sorted(glob.glob(patroon)):
-        stam = os.path.splitext(os.path.basename(pad))[0]
-        if re.fullmatch(r"les-\d+", stam):
+        # One shared test, so a sibling invented later cannot be read as a lesson
+        # here while another tool rejects it. See P.is_les_konsep.
+        if P.is_les_konsep(pad):
             yield pad
 
 
