@@ -1,7 +1,7 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/sterk-raamstrukture/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d00c13a3848a11594b2a4ad0ff4f2789",
+  "konsep_hash": "sha256:03ff93bbe9509e35b7dabf01c93926c9",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -216,11 +216,249 @@
       "woorde": 467,
       "begroting": 440,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T14:51:06+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:d00c13a3848a11594b2a4ad0ff4f2789",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-22T15:03:33+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 12,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 467,
+      "woorde_na": 473,
+      "konsep_hash": "sha256:cb857934ad8064b1c1e710da59dac07a"
+    },
+    {
+      "wanneer": "2026-10-22T15:03:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 473,
+      "begroting": 440,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:03:34+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Die raam van stutte binne 'n dak wat die dak dra.': 'Wat' directly after ''n dak' can briefly be read as referring to the roof."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T15:05:33+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2f9ab54aebf5f05b3a60db432e39029c",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T15:05:33+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 473,
+      "begroting": 440,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:10:35+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 473,
+      "woorde_na": 471,
+      "konsep_hash": "sha256:c5a6a981e5d4787b4fae3ed3a8dc7a2b"
+    },
+    {
+      "wanneer": "2026-10-22T15:10:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 471,
+      "begroting": 440,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:23:23+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:23:23+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:23:23+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "dakkappe en brûe",
+        "die geraamte",
+        "gewrig",
+        "hyskrane en kragmaste",
+        "kragmas",
+        "stabiel",
+        "stutte word aanmekaar gesit"
+      ],
+      "tally": {
+        "kragmas": 1,
+        "die geraamte": 1,
+        "stabiel": 1,
+        "hyskrane en kragmaste": 1,
+        "stutte word aanmekaar gesit": 1,
+        "dakkappe en brûe": 1,
+        "gewrig": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T15:23:24+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking",
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T15:37:55+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {
+        "kragmas": 1,
+        "die geraamte": 1,
+        "stabiel": 1,
+        "hyskrane en kragmaste": 1,
+        "stutte word aanmekaar gesit": 1,
+        "dakkappe en brûe": 1,
+        "gewrig": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T15:37:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:db7d7d82dbd72c0de4e30b484b0fd661",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T15:37:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 446,
+      "begroting": 440,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:40:17+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 446,
+      "woorde_na": 446
+    },
+    {
+      "wanneer": "2026-10-22T15:40:17+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Die twee stutte kan by daardie plek teen mekaar draai.': 'teen mekaar draai' can read as turning against or opposing each other rather than pivoting where they are joined; a clearer wording depends on the intended picture, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T15:58:31+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:29e3a7b8cc4394aeadb4a93aee3e252d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T15:58:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 452,
+      "begroting": 440,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T16:00:39+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 452,
+      "woorde_na": 452
+    },
+    {
+      "wanneer": "2026-10-22T16:12:35+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:03ff93bbe9509e35b7dabf01c93926c9",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T16:12:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 452,
+      "begroting": 440,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T16:13:28+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 452,
+      "woorde_na": 452
+    },
+    {
+      "wanneer": "2026-10-22T16:23:53+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T16:23:53+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 37,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T16:23:53+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\sterk-raamstrukture\\les-1.json",
+      "konsep_hash": "sha256:03ff93bbe9509e35b7dabf01c93926c9",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:f574d37c2b375d9b7c0bd3e1f06d38c9",
+  "spek_hash": "sha256:745900ed507f7b747bd64dbc3cdb605f",
   "hek_konteks": {
     "graad": 4,
     "begroting": 440
-  }
+  },
+  "taal_geforseer_vir": "sha256:d00c13a3848a11594b2a4ad0ff4f2789",
+  "taal_rondte_vir": "sha256:03ff93bbe9509e35b7dabf01c93926c9",
+  "taal_keurder_vir": "ca071afb3f2b0e9dc55be35c96f28d1f",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:03ff93bbe9509e35b7dabf01c93926c9",
+  "taal_vir_skrywer": [],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:db7d7d82dbd72c0de4e30b484b0fd661",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "71c37f2681aa9d350a1419a9541a25a6"
 }

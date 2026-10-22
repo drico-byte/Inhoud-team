@@ -1,7 +1,7 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/vaste-stowwe/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:22cca382241f7a0b513b4923a2fda344",
+  "konsep_hash": "sha256:b8955ceac78e6976a7d16a66b81bcabe",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -125,11 +125,143 @@
       "woorde": 713,
       "begroting": 716,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T14:51:05+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:22cca382241f7a0b513b4923a2fda344",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-22T15:03:32+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 27,
+      "laat_vaar": 1,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 713,
+      "woorde_na": 712,
+      "konsep_hash": "sha256:cb5bfe76e5d57fa315d39ddf4a2b3bf1"
+    },
+    {
+      "wanneer": "2026-10-22T15:03:33+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 712,
+      "begroting": 716,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:03:33+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'onder die grond en pype pomp dit na bo': 'Pype pomp dit na bo' makes the pipes the thing that pumps, which is imprecise; the sentence also lacks the AWS comma before 'en'.",
+        "fix: [taal] in 'gebruik word vir glas': The phrase 'vir glas' comes after the verb cluster, which is allowed but reads loosely."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T15:05:47+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3ffa2737a92be20668e96fe8bcb54861",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T15:05:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 714,
+      "begroting": 716,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:11:02+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 714,
+      "woorde_na": 712,
+      "konsep_hash": "sha256:28d7a2e8d9fcd8500bb58ef9a7889ea0"
+    },
+    {
+      "wanneer": "2026-10-22T15:11:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 712,
+      "begroting": 716,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:38:28+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:bb2f91b12c7c83924ed5a9edabe360a6",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T15:38:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 716,
+      "begroting": 716,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:40:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 716,
+      "woorde_na": 717,
+      "konsep_hash": "sha256:b8955ceac78e6976a7d16a66b81bcabe"
+    },
+    {
+      "wanneer": "2026-10-22T15:40:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 717,
+      "begroting": 716,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:53:15+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:53:15+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 56,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:53:15+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\vaste-stowwe\\les-1.json",
+      "konsep_hash": "sha256:b8955ceac78e6976a7d16a66b81bcabe",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:bcff1fede7bdf2c21fc7cdbcc0ebc7f4",
+  "spek_hash": "sha256:53685c305497edd6601459ee9ee40b9c",
   "hek_konteks": {
     "graad": 4,
     "begroting": 716
-  }
+  },
+  "taal_geforseer_vir": "sha256:22cca382241f7a0b513b4923a2fda344",
+  "taal_rondte_vir": "sha256:b8955ceac78e6976a7d16a66b81bcabe",
+  "taal_keurder_vir": "bd14bfe83bd54f22b70af0eb40884bd9",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:b8955ceac78e6976a7d16a66b81bcabe",
+  "taal_vir_skrywer": [],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:cb5bfe76e5d57fa315d39ddf4a2b3bf1",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "74234e98afe7498fb5daf1f36ac2d78a"
 }

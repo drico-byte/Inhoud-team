@@ -1,0 +1,58 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n stut doen",
+      "voor": "'n Stut is 'n lang, dun deel van 'n struktuur wat styf bly.",
+      "na": "'n Stut is 'n lang, dun, stywe deel van 'n struktuur.",
+      "soort": "verwysing",
+      "rede_vinder": "'wat styf bly' attaches grammatically to 'struktuur' rather than to the strut; the adjective removes the ambiguity and matches the glossary's 'lang, dun, stywe deel'.",
+      "fout": "The relative clause 'wat styf bly' follows 'struktuur' and reads as describing the structure, not the strut.",
+      "rede_keurder": "The adjective attaches stiffness unambiguously to the strut, keeps the meaning, and matches the shared definition's 'lang, dun, stywe deel'."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n stut doen",
+      "voor": "Die gewig druk van sy twee ente af",
+      "na": "'n Gewig druk van sy twee ente af",
+      "soort": "verwysing",
+      "rede_vinder": "No weight has been mentioned yet, so the definite article has no antecedent; 'daardie gewig' in the next sentence then refers back correctly.",
+      "fout": "'Die gewig' has no antecedent; no weight has been mentioned yet.",
+      "rede_keurder": "The indefinite article introduces the weight so that 'daardie gewig' in the next sentence refers back correctly, with no change in meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Die geraamte",
+      "voor": "binne 'n dier se pote",
+      "na": "binne-in 'n dier se pote",
+      "soort": "woordkeuse",
+      "rede_vinder": "The block uses 'binne-in' for the inside of the body elsewhere; 'binne-in' states more clearly that the hard parts are inside the legs.",
+      "fout": "none",
+      "rede_keurder": "'binne 'n dier se pote' is already clear and natural; the swap is lateral and adds a third 'binne-in' to the block."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 4,
+      "blok": "Die geraamte",
+      "voor": "keer dat 'n gewrig vou",
+      "na": "keer dat 'n gewrig inmekaar vou",
+      "soort": "idioom",
+      "rede_vinder": "A bare 'vou' for a joint reads oddly; 'inmekaar vou' is the natural Afrikaans for a joint collapsing.",
+      "fout": "A bare 'vou' for a joint reads oddly and can be read as muscles stopping a joint from bending at all, which is not what muscles do.",
+      "rede_keurder": "'inmekaar vou' narrows the claim to collapsing under weight, a change to what the sentence says about muscles, so the writer must settle the mechanism and wording.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 473,
+  "woorde_na": 471,
+  "wanneer": "2026-10-22T15:10:35+00:00",
+  "konsep_hash_voor": "sha256:2f9ab54aebf5f05b3a60db432e39029c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c5a6a981e5d4787b4fae3ed3a8dc7a2b"
+}

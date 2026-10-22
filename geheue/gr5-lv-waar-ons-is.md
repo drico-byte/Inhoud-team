@@ -16,3 +16,5 @@ Things to carry forward:
 - **Kept:** *verpleegster* stays (Lampies, 21 Sep 2026); do not switch to *verpleegkundige*.
 
 **Why:** so the next session knows what is finished and what is not. See [[gr5-lv-besluite]].
+
+**15–22 October 2026: GO 7, 8, 9 reopened and re-checked.** They had been revised on 28 Sep (simptoom/teken wording, TB "beste kans") and paused. GO 7 and GO 9 are re-signed. **GO 8 is clean except one `onseker` item: the kieme glossary entry ("lewende dinge") against a virus causing diarrhoea** — it needs a person's acceptance record, the same item Lampies accepted by name for Gr 6 SW medicine les 4 on 15 Oct. The spec's cut fields (extract split at REGGEMAAK inside REGGEMAAKTE, TERUGGETREK as a verb) were rewritten with the canonical line. GO 7 now says the clinic decides when a TB patient returns to school.

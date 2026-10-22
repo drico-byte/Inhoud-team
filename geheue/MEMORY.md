@@ -466,3 +466,5 @@
 - [CAPS audit of all Gr 4-6 content](caps-oudit-gr4-6.md) — all 13 subject-grades audited 22 Oct 2026; report links, decisions waiting, what is owed; changes only after all audits.
 - [Reports in HTML](verslae-in-html.md) — Drico: reports read easier as HTML; publish as artifact plus copy in Dump.
 - [Language test: Claude vs ChatGPT](taaltoets-claude-teen-chatgpt.md) — blind test 22 Oct 2026: Claude 38 extra fixes but 17 rejected changes; taalnasiener-v1.0 being tuned; AWS comma before en.
+- [CAPS audit fix-up: where we stand](caps-oudit-herstel-stand.md) — creation stopped until CAPS gaps fixed; 2_PDF is language-checked; unsigned lessons are ours
+- [Language pass and CAPS gaps, Gr 4-6](taalrondte-en-gapings-gr4-6.md) — Lampies 22 Oct: language step over all 338 lessons plus gap fills in one pass, 10 at a time

@@ -4,17 +4,20 @@
   "graad": 4,
   "vak": "Lewensvaardighede",
   "budget": 450,
-  "checked_at": "2026-09-21T07:29:43+00:00",
+  "begrotingsreel": "default ±15%: 382-518",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T15:15:25+00:00",
   "study": {
-    "words": 465,
+    "words": 474,
     "sentences": 34,
-    "mean_sentence_len": 12.4,
+    "mean_sentence_len": 12.7,
     "median_sentence_len": 12.0,
-    "longest_sentence": 17,
-    "mean_syllables": 1.31,
-    "pct_polysyllabic": 5.0,
+    "longest_sentence": 19,
+    "mean_syllables": 1.3,
+    "pct_polysyllabic": 4.9,
     "pct_long_words": 0.5,
-    "commas_per_sentence": 0.21,
+    "commas_per_sentence": 0.41,
     "list_words": 43
   },
   "eli10": null,
@@ -26,11 +29,12 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text 474 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (450) plus tolerance allows 518, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
     "Study block 4 ('Sê dit vir 'n grootmens') 113 words (guide 30–110) — will overflow its section",
+    "Study text: 0.41 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: belangrikste, neergeskryf"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

@@ -90,3 +90,5 @@ same shape, and diff their OPENING lines against each other.** Two siblings fixe
 days drift into different shapes, and the difference between them is the cheapest signal that
 one of them is wrong. A one-line script comparing the openings of a set found all three of
 mine in seconds.
+
+**15 October 2026, Gr 6 OVS 3:** I hedged the school library, then clubs, then the public library, then the internet — four fact rounds, one item each, because each spec fix named items instead of saying "every item in the list". Write the rule over the whole list the first time.

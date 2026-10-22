@@ -4,17 +4,20 @@
   "graad": 4,
   "vak": "Lewensvaardighede",
   "budget": 450,
-  "checked_at": "2026-09-21T08:58:21+00:00",
+  "begrotingsreel": "default ±15%: 382-518",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T15:02:12+00:00",
   "study": {
-    "words": 509,
+    "words": 508,
     "sentences": 40,
     "mean_sentence_len": 12.4,
     "median_sentence_len": 12.0,
     "longest_sentence": 17,
     "mean_syllables": 1.44,
     "pct_polysyllabic": 7.3,
-    "pct_long_words": 1.6,
-    "commas_per_sentence": 0.1
+    "pct_long_words": 1.8,
+    "commas_per_sentence": 0.12
   },
   "eli10": null,
   "block_counts": {
@@ -24,11 +27,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text 508 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (450) plus tolerance allows 518, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
     "Study block 2 ('Waaraan jy Afrika-religie ken') 128 words (guide 30–110) — will overflow its section",
-    "Long words in study text with no 'begrip' entry: bymekaarkom, gemeenskappe, negepuntige, tradisionele"
+    "Long words in study text with no 'begrip' entry: bymekaarkom, gemeenskappe, tradisionele"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

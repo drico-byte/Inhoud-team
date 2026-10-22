@@ -1,9 +1,11 @@
 {
   "les": "gr4/lewensvaardighede/ontwikkeling-van-self/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:a79c175c28b35eb30b55486d9c2ddea0",
+  "konsep_hash": "sha256:69475341de160d91379f57a65dce996c",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:69475341de160d91379f57a65dce996c"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -137,11 +139,171 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\ontwikkeling-van-self\\les-3.json",
       "konsep_hash": "sha256:a79c175c28b35eb30b55486d9c2ddea0",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-22T15:05:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:001af2f5a02da9b497bc288c3d81235f",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T15:05:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 646,
+      "begroting": 575,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:13:11+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 6,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 646,
+      "woorde_na": 646,
+      "konsep_hash": "sha256:a75faf09972a71854144abc93a3a660e"
+    },
+    {
+      "wanneer": "2026-10-22T15:13:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 646,
+      "begroting": 575,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:13:12+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Hulle moet eers sê hoekom en jou vra.': 'jou vra' has no object and reads unfinished.",
+        "fix: [taal] in 'Dan is dit moeiliker om te praat en jy praat steeds.': 'en jy praat steeds' joins a contrast with 'en' and is ambiguous between a statement and an instruction.",
+        "check (the language finder raised this; it may not be a fault): 'Medisyne is 'n middel wat help om siekte of pyn te behandel.': This sentence gives only the first half of the decided shared definition of medisyne, which also covers prevention ('of om te keer dat 'n mens siek word'); the lesson's glossary has the full wording, so the two differ. Completing it adds content, so it is not changed here."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T15:15:50+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0e4d7ef46aaf5745feab5b26f846fe89",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T15:15:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 649,
+      "begroting": 575,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:18:56+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 649,
+      "woorde_na": 650,
+      "konsep_hash": "sha256:4d2b7d12b4c38941487b9b281ddf1f3f"
+    },
+    {
+      "wanneer": "2026-10-22T15:18:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 650,
+      "begroting": 575,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:35:04+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:69475341de160d91379f57a65dce996c",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T15:35:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 701,
+      "begroting": 575,
+      "failures": [
+        "Study text 701 words, above budget ceiling 661 (target 575) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T15:35:04+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 701 words, above budget ceiling 661 (target 575) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T15:35:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 701,
+      "begroting": 615,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:38:13+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 6,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 701,
+      "woorde_na": 701
+    },
+    {
+      "wanneer": "2026-10-22T15:38:13+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Medisyne is 'n middel wat help om siekte of pyn te behandel.': The study sentence leaves out the second half of the decided shared definition of medisyne ('of om te keer dat 'n mens siek word'), which the lesson's own glossary entry has. Whether that is deliberate is a content question, not a language one, so this is not proposed as a change."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T15:50:19+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 15,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:50:19+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 45,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T15:50:19+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\ontwikkeling-van-self\\les-3.json",
+      "konsep_hash": "sha256:69475341de160d91379f57a65dce996c",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:dd4ee3e1d2d7c1551cef067f7ec78c5b",
+  "spek_hash": "sha256:c779e672a713237d39062e16f936d39b",
   "hek_konteks": {
     "graad": 4,
-    "begroting": 550
-  }
+    "begroting": 615
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Medisyne is 'n middel wat help om siekte of pyn te behandel.': The study sentence leaves out the second half of the decided shared definition of medisyne ('of om te keer dat 'n mens siek word'), which the lesson's own glossary entry has. Whether that is deliberate is a content question, not a language one, so this is not proposed as a change."
+  ],
+  "taal_rondte_vir": "sha256:69475341de160d91379f57a65dce996c",
+  "taal_keurder_vir": "63e3b2aff5af5961239e7c93d1b52251",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:69475341de160d91379f57a65dce996c",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:69475341de160d91379f57a65dce996c",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "b87b7a9c50171be49a03db841a8e759b"
 }

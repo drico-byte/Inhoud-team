@@ -14,3 +14,5 @@ Moderator notes, not errors: SV 11 says threatening to hurt is abuse like hittin
 The "simptoom"/"teken" change reached Grade 5 GO 7 and GO 8, which were re-checked and re-signed. Gr 5 GO 8 has "droe" and "le" without diacritics - a job for the outside language check.
 
 Still to do, for people: human read, the outside Afrikaans check (taalnasien, 14 new Grade 6 protected words), HTML build, htmlnasien. See [[gr6-lv-besluite]], [[gr5-lv-waar-ons-is]].
+
+**15–22 October 2026: OVS 3, GO 3, GO 5 reopened after the 28 Sep revisions.** OVS 3 and GO 3 re-signed (GO 3 after six fact rounds, now 550 words with poison steps, clinic danger signs, mould/bederf fixes). **GO 5 is open**: one coverage gap (athlete's-foot glossary needs "gewoonlik") and the kieme/virus question — "kieme of 'n virus" was marked `weerspreek` in the last round and `onseker` in earlier ones, so it cannot simply be accepted; either a person rules, or the lesson stops setting a virus against germs (as Gr 5 GO 7 does). OVS 3 runs at 582 words under Lampies' 21 Sep "up to 600" note, which no ceiling field records.

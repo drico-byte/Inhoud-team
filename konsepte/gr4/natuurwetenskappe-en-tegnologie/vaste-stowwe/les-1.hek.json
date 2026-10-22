@@ -4,17 +4,20 @@
   "graad": 4,
   "vak": "Natuurwetenskappe en Tegnologie",
   "budget": 716,
-  "checked_at": "2026-08-29T07:21:03+00:00",
+  "begrotingsreel": "default ±15%: 609-823",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T15:40:55+00:00",
   "study": {
-    "words": 713,
+    "words": 717,
     "sentences": 61,
-    "mean_sentence_len": 11.5,
+    "mean_sentence_len": 11.6,
     "median_sentence_len": 11,
-    "longest_sentence": 15,
+    "longest_sentence": 20,
     "mean_syllables": 1.38,
-    "pct_polysyllabic": 6.9,
-    "pct_long_words": 1.4,
-    "commas_per_sentence": 0.1
+    "pct_polysyllabic": 7.4,
+    "pct_long_words": 1.5,
+    "commas_per_sentence": 0.51
   },
   "eli10": null,
   "block_counts": {
@@ -24,12 +27,13 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study block 6 ('Wat mense van steenkool en ru-ol') 122 words (guide 30–110) — will overflow its section",
-    "Study block 8 ('Van wol en vel na tekstiel en le') 112 words (guide 30–110) — will overflow its section",
-    "Long words in study text with no 'begrip' entry: behandeling, korreltjies, onverwerkte, plastiekemmer, skoongemaak"
+    "Study text 717 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (716) plus tolerance allows 823, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study block 6 ('Wat mense van steenkool en ru-ol') 130 words (guide 30–110) — will overflow its section",
+    "Study block 8 ('Van wol en vel na tekstiel en le') 111 words (guide 30–110) — will overflow its section",
+    "Study text: 0.51 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: behandeling, drooggemaak, korreltjies, plastiekemmer, skoongemaak"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

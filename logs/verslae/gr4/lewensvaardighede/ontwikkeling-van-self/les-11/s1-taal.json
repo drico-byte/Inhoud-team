@@ -1,0 +1,201 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat afknouery is",
+      "voor": "Julle stry oor 'n bal en die volgende dag",
+      "na": "Julle stry oor 'n bal, en die volgende dag",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses (julle stry / julle speel).",
+      "rede_keurder": "Two full clauses with their own subject and verb take the AWS comma; the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat afknouery is",
+      "voor": "Afknouery lyk anders en jy kan",
+      "na": "Afknouery lyk anders, en jy kan",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two full sentences (afknouery lyk / jy kan herken).",
+      "fout": "Missing AWS comma before 'en' joining two clauses (afknouery lyk / jy kan herken).",
+      "rede_keurder": "Two full clauses take the AWS comma; nothing else changes."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat afknouery is",
+      "voor": "kan albei kinders praat en die saak uitmaak",
+      "na": "kan albei kinders die saak uitpraat",
+      "soort": "idioom",
+      "rede_vinder": "'Die saak uitpraat' is the natural idiom for settling a quarrel by talking and removes the redundant 'praat en'.",
+      "fout": "'praat en die saak uitmaak' is loose and slightly redundant.",
+      "rede_keurder": "'Die saak uitpraat' is the natural Afrikaans idiom for settling a quarrel by talking, with the same people and the same meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoe afknouery lyk",
+      "voor": "name en spot",
+      "na": "skelname en spot",
+      "soort": "woordkeuse",
+      "rede_vinder": "Bare 'name' does not mean insulting names; 'skelname' says it clearly.",
+      "fout": "Bare 'name ... gesê' does not clearly mean insulting names.",
+      "rede_keurder": "'Skelname' says plainly what is meant without adding a new fact."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat jy kan doen om veiliger te wees",
+      "voor": "Hierdie dinge maak dit moeiliker",
+      "na": "Die volgende dinge maak dit moeiliker",
+      "soort": "verwysing",
+      "rede_vinder": "'Hierdie dinge' at the start of the block points back to nothing; the things only follow, so 'die volgende' is the right reference.",
+      "fout": "'Hierdie dinge' opens the block pointing back to nothing; the things only follow.",
+      "rede_keurder": "'Die volgende dinge' gives the correct forward reference, and the later 'Hierdie dinge help' still points back correctly."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat jy kan doen om veiliger te wees",
+      "voor": "maar hulle keer nie altyd die afknouery nie",
+      "na": "maar hulle keer die afknouery nie altyd nie",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans 'nie altyd' sits more naturally after the object.",
+      "fout": "'keer nie altyd die afknouery nie' follows English order; a definite object normally precedes 'nie altyd'.",
+      "rede_keurder": "The proposed order is more natural Afrikaans and the qualifier 'nie altyd' stays intact."
+    },
+    {
+      "nr": 9,
+      "blok": "Op die oomblik en daarna",
+      "voor": "Skryf daarna neer wat gebeur het",
+      "na": "Skryf daarna in 'n lys neer wat gebeur het",
+      "soort": "verwysing",
+      "rede_vinder": "The next sentence says 'Daardie lys' although no list has been named yet; this introduces it.",
+      "fout": "The next sentence says 'Daardie lys' though no list has been introduced.",
+      "rede_keurder": "'In 'n lys' only names what the following sentences already assume, so the instruction itself is unchanged."
+    },
+    {
+      "nr": 10,
+      "blok": "Sê dit vir 'n grootmens",
+      "voor": "Soms help die eerste grootmens jou nie en soms",
+      "na": "Soms help die eerste grootmens jou nie, en soms",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses (die grootmens help / hy glo).",
+      "rede_keurder": "Two full clauses take the AWS comma; the meaning is unchanged."
+    },
+    {
+      "nr": 11,
+      "blok": "Sê dit vir 'n grootmens",
+      "voor": "Maar jy mag dit sê en dit bly",
+      "na": "Maar jy mag dit sê, en dit bly",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full sentences; the protected wording 'dit bly nooit jou skuld nie' stays intact.",
+      "fout": "Missing AWS comma before 'en' joining two clauses (jy mag sê / dit bly).",
+      "rede_keurder": "The comma is required by the AWS and the protected wording 'dit bly nooit jou skuld nie' is left intact."
+    },
+    {
+      "nr": 12,
+      "blok": "Hulp buite die skool en die huis",
+      "voor": "Dan kan jy 'n ouma of 'n buurman vra, of 'n afrigter by die sportveld.",
+      "na": "Dan kan jy 'n ouma, 'n buurman of 'n afrigter by die sportveld vra.",
+      "soort": "sinsbou",
+      "rede_vinder": "The trailing afterthought with a comma before 'of' is not AWS; one list of three reads cleaner.",
+      "fout": "The trailing afterthought 'of 'n afrigter by die sportveld' after a comma reads like an English add-on.",
+      "rede_keurder": "One list of three reads cleaner, with the same three people and no change to who the child may ask."
+    },
+    {
+      "nr": 13,
+      "blok": "Hulp buite die skool en die huis",
+      "voor": "'n hulplyn in ons land vir kinders",
+      "na": "'n hulplyn vir kinders in ons land",
+      "soort": "woordorde",
+      "rede_vinder": "'Hulplyn vir kinders' belongs together; the place phrase sits more naturally after it.",
+      "fout": "'n hulplyn in ons land vir kinders' splits 'hulplyn vir kinders' awkwardly.",
+      "rede_keurder": "The proposed order is the natural one and says the same thing."
+    },
+    {
+      "nr": 15,
+      "blok": "Hulp buite die skool en die huis",
+      "voor": "Die oproep is gratis en dit werk vanaf alle netwerke.",
+      "na": "Die oproep is gratis, en dit werk op alle netwerke.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma between two full sentences; 'werk op alle netwerke' is the natural preposition.",
+      "fout": "Missing AWS comma between two clauses, and 'werk vanaf alle netwerke' copies English 'works from all networks'.",
+      "rede_keurder": "The comma is required and 'werk op alle netwerke' is the natural preposition with the same meaning: the call works whichever network you use."
+    },
+    {
+      "nr": 16,
+      "blok": "Hulp buite die skool en die huis",
+      "voor": "Aan die ander kant sit iemand",
+      "na": "Aan die ander kant van die lyn sit iemand",
+      "soort": "idioom",
+      "rede_vinder": "'Aan die ander kant' on its own reads as the idiom 'on the other hand'; 'van die lyn' keeps the literal meaning.",
+      "fout": "'Aan die ander kant' alone can be read as the idiom 'on the other hand'.",
+      "rede_keurder": "'Van die lyn' removes the stumble and adds no new fact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Hoe afknouery lyk",
+      "voor": "jou goed vat",
+      "na": "jou goed afvat",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Afvat' makes clear the things are taken away from you; bare 'vat' is loose.",
+      "fout": "none",
+      "rede_keurder": "'Jou goed vat' is already natural and clear in this list; 'afvat' is a lateral move."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 7,
+      "blok": "Wat jy kan doen om veiliger te wees",
+      "voor": "Loop saam met 'n maat by die stil plekke",
+      "na": "Loop saam met 'n maat deur die stil plekke",
+      "soort": "grammatika",
+      "rede_vinder": "Preposition: 'loop by' reads as walking up to the places; 'deur' says walking through them.",
+      "fout": "'Loop ... by die stil plekke' is slightly unclear about where the walking happens.",
+      "rede_keurder": "The swap from 'by' to 'deur' changes the place relation inside a safety instruction, so the writer must decide the wording.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 14,
+      "blok": "Hulp buite die skool en die huis",
+      "voor": "Jy bel 116 en dit werk enige tyd van die dag of die nag.",
+      "na": "Jy kan 116 enige tyd van die dag of die nag bel.",
+      "soort": "sinsbou",
+      "rede_vinder": "Removes the vague 'dit werk', which is repeated in the next sentence, and the missing AWS comma.",
+      "fout": "Missing AWS comma before 'en', and 'dit werk' is vague and repeated in the next sentence.",
+      "rede_keurder": "The proposal rebuilds the sentence carrying the Childline number and when to call, which is safety wording the writer owns.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 17,
+      "blok": "afknouer",
+      "voor": "'n ander kind oor en oor doelbewus seermaak",
+      "na": "'n ander kind aspris en oor en oor seermaak",
+      "soort": "woordkeuse",
+      "rede_vinder": "Two adverbs stacked ('oor en oor doelbewus') read clumsily, and 'aspris' matches the marker word of the agreed afknouery definition and the study text.",
+      "fout": "'oor en oor doelbewus' stacks two adverbs, and 'doelbewus' differs from the marker word 'aspris' in the agreed afknouery definition.",
+      "rede_keurder": "This rewords a glossary definition beyond a spelling or grammar fix, so only the writer may change it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat jy kan doen om veiliger te wees",
+      "teks": "Jy het niks verkeerd gedoen om dit te laat gebeur nie.",
+      "rede": "The 'om ... te laat gebeur' construction reads stiffly and can be read as purpose; it is blame wording for a child, so a person or the writer should choose any rewording rather than a language agent."
+    },
+    {
+      "blok": "Hulp buite die skool en die huis",
+      "teks": "Party kinders kry nie hulp by die grootmense naaste aan hulle nie. Dan kan jy",
+      "rede": "The reference shifts from 'party kinders' (they) to 'jy' in the next sentence; fixing it would need the qualifier 'party' reworded, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 465,
+  "woorde_na": 469,
+  "wanneer": "2026-10-22T15:05:35+00:00",
+  "konsep_hash_voor": "sha256:6ca7f15b2ae43f6f2946cee061c8b758",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:7e25747aea6975167b91018928230790"
+}

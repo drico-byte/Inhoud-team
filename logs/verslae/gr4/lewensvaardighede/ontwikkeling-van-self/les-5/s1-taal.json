@@ -1,0 +1,156 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat is konflik?",
+      "voor": "Niemand wil terugstaan nie en die stemme",
+      "na": "Niemand wil terugstaan nie, en die stemme",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Niemand wil...' / 'die stemme raak...').",
+      "rede_keurder": "Punctuation fix required by AWS 2017; wording and meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat is konflik?",
+      "voor": "Twee kinders kan bots en twee hele spanne",
+      "na": "Twee kinders kan bots, en twee hele spanne",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two full clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses ('Twee kinders kan bots' / 'twee hele spanne kan ook bots').",
+      "rede_keurder": "Punctuation fix required by AWS 2017; wording and meaning unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Konflik by die skool",
+      "voor": "doen niks en die plakkaat raak nie klaar nie",
+      "na": "doen niks, en die plakkaat word nie klaar nie",
+      "soort": "idioom",
+      "rede_vinder": "'klaarraak' means to run out, so 'word nie klaar nie' is the idiomatic form; plus the AWS comma between two full clauses.",
+      "fout": "'raak nie klaar nie' uses 'klaarraak' (to run out) where 'not getting finished' is meant; also missing AWS comma between two full clauses.",
+      "rede_keurder": "'word nie klaar nie' is the correct idiom for an unfinished poster, and the comma follows AWS; meaning unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Die ander een dink ook hy is reg",
+      "voor": "By die bal het",
+      "na": "In die rusie oor die bal het",
+      "soort": "sinsbou",
+      "rede_vinder": "'By die bal' reads as a location (next to the ball); the sentence refers back to the quarrel over the ball.",
+      "fout": "'By die bal' reads first as a location (next to the ball) rather than the quarrel about the ball.",
+      "rede_keurder": "The proposal names the situation plainly and ties back to the paragraph's opening 'In 'n rusie'; same children, same event, no new fact."
+    },
+    {
+      "nr": 6,
+      "blok": "Die ander een dink ook hy is reg",
+      "voor": "het van gister af getel en hy was ook seker",
+      "na": "het van gister af getel, en hy was ook seker",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subjects ('Die ander een het...' / 'hy was...').",
+      "rede_keurder": "Punctuation fix required by AWS 2017; wording and meaning unchanged."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat jy vooraf kan doen",
+      "voor": "sê wie doen wat",
+      "na": "sê wie wat doen",
+      "soort": "woordorde",
+      "rede_vinder": "In an indirect question the verb goes to the end; 'wie doen wat' copies English word order.",
+      "fout": "Indirect question keeps English main-clause word order ('wie doen wat').",
+      "rede_keurder": "In an Afrikaans indirect question the verb goes last, so 'wie wat doen' is correct; meaning unchanged."
+    },
+    {
+      "nr": 9,
+      "blok": "Wanneer die rusie al begin het",
+      "voor": "praat dan harder en ander raak juis stiller",
+      "na": "praat dan harder, en ander raak juis stiller",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma between two full clauses; the protected wording 'ander raak juis stiller' stays intact.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses ('Party kinders praat...' / 'ander raak juis stiller').",
+      "rede_keurder": "Punctuation fix only; the protected wording 'ander raak juis stiller' is left intact."
+    },
+    {
+      "nr": 10,
+      "blok": "Wanneer die rusie al begin het",
+      "voor": "sonder om hom 'n naam te noem",
+      "na": "sonder om hom name te noem",
+      "soort": "idioom",
+      "rede_vinder": "The idiom for name-calling is 'iemand name noem'; 'n naam noem' reads as simply saying his name.",
+      "fout": "'hom 'n naam te noem' can be read as simply saying his name rather than name-calling.",
+      "rede_keurder": "'iemand name noem' is the fixed Afrikaans expression for name-calling, so the advice now says exactly what it means."
+    },
+    {
+      "nr": 11,
+      "blok": "Wanneer die rusie al begin het",
+      "voor": "Jy kan iets sê soos \"Ek voel sleg as jy my goed vat\".",
+      "na": "Jy kan byvoorbeeld sê: \"Ek voel sleg as jy my goed vat.\"",
+      "soort": "anglisisme",
+      "rede_vinder": "'iets sê soos' calques 'say something like'; 'byvoorbeeld sê:' with a colon introduces the quoted sentence naturally.",
+      "fout": "'iets sê soos' calques English 'say something like', and the full stop sits outside the quotation.",
+      "rede_keurder": "'byvoorbeeld sê:' introduces the example sentence naturally and still marks it as one possible wording; meaning unchanged."
+    },
+    {
+      "nr": 12,
+      "blok": "Wanneer dit nie meer 'n rusie is nie",
+      "voor": "lyk na konflik en is eintlik afknouery",
+      "na": "lyk na konflik maar is eintlik afknouery",
+      "soort": "woordkeuse",
+      "rede_vinder": "The sentence states a contrast (looks like one thing, is another), which needs 'maar', not 'en'.",
+      "fout": "'en' links two halves that stand in contrast (looks like conflict, is actually bullying), which blurs the point.",
+      "rede_keurder": "'maar' makes the existing contrast explicit; the claim is the same, the same things look like conflict and are bullying."
+    },
+    {
+      "nr": 13,
+      "blok": "Wanneer dit nie meer 'n rusie is nie",
+      "voor": "kante praat en albei kan iets terugsê",
+      "na": "kante praat, en albei kan iets terugsê",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "rede_keurder": "Punctuation fix required by AWS 2017; wording and meaning unchanged."
+    },
+    {
+      "nr": 14,
+      "blok": "Wanneer dit nie meer 'n rusie is nie",
+      "voor": "kinders oor en oor aspris seer.",
+      "na": "kinders iemand oor en oor aspris seer.",
+      "soort": "grammatika",
+      "rede_vinder": "'seermaak' needs an object here; without 'iemand' the sentence is incomplete. Both protected wordings stay intact.",
+      "fout": "'maak ... aspris seer' has no object here, so the sentence reads as incomplete or as 'causes pain' in general.",
+      "rede_keurder": "Adding 'iemand' supplies the object the next sentence already assumes ('die een wat seergemaak word'); the protected 'een kind of 'n groep kinders', 'oor en oor' and 'aspris' stay intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Konflik by die skool",
+      "voor": "'n doel wat die ander span nie wil tel nie",
+      "na": "'n doel wat die een span wil tel en die ander span nie",
+      "soort": "verwysing",
+      "rede_vinder": "With two teams already named, 'die ander span' has no clear point of reference; naming both sides makes it plain who disagrees.",
+      "fout": "none",
+      "rede_keurder": "'Die ander span' clearly means the team that did not score; the proposal only adds words and makes the sentence longer for a Grade 4 reader."
+    },
+    {
+      "nr": 7,
+      "blok": "Die ander een dink ook hy is reg",
+      "voor": "wanneer jy volgende keer stry",
+      "na": "wanneer jy die volgende keer stry",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans says 'die volgende keer'; without the article it is an anglicism ('next time').",
+      "fout": "none",
+      "rede_keurder": "'volgende keer' without the article is ordinary, natural Afrikaans; adding 'die' is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 452,
+  "woorde_na": 454,
+  "wanneer": "2026-10-22T15:05:21+00:00",
+  "konsep_hash_voor": "sha256:f9264bc8f26076dcca53035cb6623a56",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:80db7ad31e0b9d08de2839faebdf784e"
+}
