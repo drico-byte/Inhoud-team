@@ -4,17 +4,20 @@
   "graad": 4,
   "vak": "Lewensvaardighede",
   "budget": 400,
-  "checked_at": "2026-09-22T13:56:46+00:00",
+  "begrotingsreel": "default ±15%: 340-460",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T20:46:53+00:00",
   "study": {
-    "words": 451,
-    "sentences": 37,
-    "mean_sentence_len": 12.2,
-    "median_sentence_len": 12,
-    "longest_sentence": 16,
-    "mean_syllables": 1.29,
-    "pct_polysyllabic": 4.9,
+    "words": 445,
+    "sentences": 39,
+    "mean_sentence_len": 11.4,
+    "median_sentence_len": 11,
+    "longest_sentence": 15,
+    "mean_syllables": 1.32,
+    "pct_polysyllabic": 5.2,
     "pct_long_words": 0.7,
-    "commas_per_sentence": 0.16
+    "commas_per_sentence": 0.46
   },
   "eli10": null,
   "block_counts": {
@@ -24,11 +27,10 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study text 451 words, above the Grade 4 lesson band ceiling 450 — the budget (400) plus tolerance allows it, but the band does not",
+    "Study text: 0.46 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: vingerpunte"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

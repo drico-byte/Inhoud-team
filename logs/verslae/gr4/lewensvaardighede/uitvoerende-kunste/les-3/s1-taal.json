@@ -1,0 +1,176 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoog en laag, hard en sag",
+      "voor": "'n Fluitjie klink hoog en 'n groot trom klink laag.",
+      "na": "'n Fluitjie klink hoog, en 'n groot trom klink laag.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two full clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Two clauses with their own subject and verb (fluitjie klink / trom klink), so the AWS 2017 comma is required."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoog en laag, hard en sag",
+      "voor": "Jy kan die trom baie sag slaan en sy klank bly steeds laag.",
+      "na": "Jy kan die trom baie sag slaan, en sy klank bly steeds laag.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two full clauses with their own subjects (jy, sy klank).",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Two clauses with their own subjects (jy kan slaan / sy klank bly), so the comma is required; nothing else changes."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoekom die een trom laer klink as die ander",
+      "voor": "'n Stywer vel klink hoër en 'n slapper vel klink laer.",
+      "na": "'n Stywer vel klink hoër, en 'n slapper vel klink laer.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two full clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Each half has its own subject and verb, so the AWS comma applies."
+    },
+    {
+      "nr": 4,
+      "blok": "Lang latte en kort latte",
+      "voor": "Die lang latte klink laag en die kort latte klink hoog.",
+      "na": "Die lang latte klink laag, en die kort latte klink hoog.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two full clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Each half has its own subject and verb, so the AWS comma applies."
+    },
+    {
+      "nr": 6,
+      "blok": "Een groep van klein tot groot",
+      "voor": "dek hulle die hele pad van hoog tot laag",
+      "na": "dek hulle die hele reeks van hoog tot laag",
+      "soort": "idioom",
+      "rede_vinder": "'Dek die hele pad' is an unidiomatic calque of 'cover the whole range'; 'reeks' is the natural word.",
+      "fout": "'Dek die hele pad' is an unidiomatic calque of 'cover the whole range'.",
+      "rede_keurder": "'Die hele reeks van hoog tot laag' is the natural Afrikaans and says exactly the same, in a word a Grade 4 reader knows."
+    },
+    {
+      "nr": 7,
+      "blok": "Waar elke instrument sit",
+      "voor": "Die ngoma se beesvel span oor 'n wye opening en hoort laag.",
+      "na": "Die ngoma se beesvel is oor 'n wye opening gespan en hoort aan die lae kant.",
+      "soort": "idioom",
+      "rede_vinder": "'Hoort laag' is not natural Afrikaans; 'hoort aan die lae kant' says where it sits, and the passive 'is gespan' reads more naturally for a skin.",
+      "fout": "'Hoort laag' is not natural Afrikaans, and an intransitive 'vel span oor' is stiff.",
+      "rede_keurder": "'Is oor 'n wye opening gespan en hoort aan die lae kant' is natural and keeps the same place on the high-low line; no fact added."
+    },
+    {
+      "nr": 8,
+      "blok": "Waar elke instrument sit",
+      "voor": "Nie een van hierdie drie het",
+      "na": "Nie een van die laaste drie het",
+      "soort": "verwysing",
+      "rede_vinder": "Four instruments are listed above, so 'hierdie drie' is unclear; 'die laaste drie' points to the hosho, kokonratels and bottle.",
+      "fout": "'Hierdie drie' follows a list of four instruments, so the reader cannot tell which three are meant.",
+      "rede_keurder": "'Die laaste drie' fixes the reference to the hosho, kokonratels and bottle, which is the only reading consistent with the ngoma being placed low."
+    },
+    {
+      "nr": 9,
+      "blok": "Waar elke instrument sit",
+      "voor": "Elkeen van die timbila dra hoog en laag binne een instrument.",
+      "na": "Elkeen van die timbila het hoë en lae klanke binne een instrument.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Dra hoog en laag' is wooden; 'het hoë en lae klanke' says the same plainly.",
+      "fout": "'Dra hoog en laag' is wooden and vague.",
+      "rede_keurder": "'Het hoë en lae klanke binne een instrument' says the same plainly for a Grade 4 reader."
+    },
+    {
+      "nr": 10,
+      "blok": "Luister na 'n musiekstuk uit Afrika",
+      "voor": "Hoor watter instrumente",
+      "na": "Let op watter instrumente",
+      "soort": "woordkeuse",
+      "rede_vinder": "As an instruction to notice something, 'let op' is natural; imperative 'hoor' reads oddly right after 'luister'.",
+      "fout": "Imperative 'Hoor watter...' right after 'Luister na' reads oddly as an instruction to notice.",
+      "rede_keurder": "'Let op watter instrumente' is the natural instruction in a listening task and keeps the meaning."
+    },
+    {
+      "nr": 12,
+      "blok": "Praat oor julle eie en mekaar se optredes",
+      "voor": "en steeds anders klink",
+      "na": "en tog anders klink",
+      "soort": "woordkeuse",
+      "rede_vinder": "The contrast 'and yet' is 'tog'; 'steeds' means 'still/continuously' and reads as a calque of 'still'.",
+      "fout": "'En steeds anders klink' copies English 'and still sound different'.",
+      "rede_keurder": "'En tog anders klink' is the natural Afrikaans concessive and carries the same contrast."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Lang latte en kort latte",
+      "voor": "speel hulle xilofone wat hulle timbila noem",
+      "na": "speel xilofone wat hulle timbila noem",
+      "soort": "sinsbou",
+      "rede_vinder": "The double 'hulle' (possessive, then subject) is clumsy; the possessive adds nothing.",
+      "fout": "none",
+      "rede_keurder": "The possessive 'hulle xilofone' carries that these are the Chopi's own instruments, set against the school marimba just before; dropping it loses that and the original reads acceptably."
+    },
+    {
+      "nr": 11,
+      "blok": "Praat oor julle eie en mekaar se optredes",
+      "voor": "karakters gebou",
+      "na": "karakters geskep",
+      "soort": "anglisisme",
+      "rede_vinder": "'Karakters bou' calques English 'build characters'; Afrikaans creates (skep) a character.",
+      "fout": "none",
+      "rede_keurder": "'Karakters bou' (building up a character) is accepted drama usage in Afrikaans and may echo the curriculum's wording; 'skep' narrows developing to creating, a lateral move at best."
+    },
+    {
+      "nr": 15,
+      "blok": "ruggraat",
+      "voor": "wat in die middel van jou rug loop.",
+      "na": "wat langs die middel van jou rug af loop.",
+      "soort": "idioom",
+      "rede_vinder": "'In die middel van jou rug loop' can read as walking; 'langs ... af loop' is the idiom for something running down the back.",
+      "fout": "none",
+      "rede_keurder": "The ruggraat definition is protected word for word as a shared definition, and 'loop' for something running along the back is ordinary Afrikaans."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 13,
+      "blok": "toonkleur",
+      "voor": "al klink dit ewe hoog en hard.",
+      "na": "al klink dit ewe hoog en ewe hard as 'n ander instrument.",
+      "soort": "verwysing",
+      "rede_vinder": "'Ewe hoog en hard' has no comparison point when the entry is read alone; naming the other instrument makes it clear.",
+      "fout": "Read alone, the glossary entry 'al klink dit ewe hoog en hard' has no comparison point.",
+      "rede_keurder": "A real fault in a glossary definition, but the fix adds a comparison ('as 'n ander instrument'), so the writer must reword it.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 14,
+      "blok": "gesigsuitdrukking",
+      "voor": "Wat jou gesig wys van dit wat jy voel.",
+      "na": "Hoe jou gesig wys wat jy voel.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Wat jou gesig wys van dit wat jy voel' is wooden; the shorter form is natural and keeps the meaning.",
+      "fout": "'Wat jou gesig wys van dit wat jy voel' is wooden.",
+      "rede_keurder": "A real fault in a glossary definition, but 'Hoe jou gesig wys' shifts the term from what the face shows to how it shows it, so the writer must fix it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Waar elke instrument sit",
+      "teks": "Die geskraapte bottel se riwwe klink grof.",
+      "rede": "The ridges themselves do not sound; the scraping does. Left unchanged because a rewording risks altering what the item claims; the reviewer may judge whether it needs the writer."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 447,
+  "woorde_na": 454,
+  "wanneer": "2026-10-22T20:46:52+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ec1a867129ec2d3f931074a9e35058a7",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:bcad5e586eff8b4479372a20dbdd8541"
+}

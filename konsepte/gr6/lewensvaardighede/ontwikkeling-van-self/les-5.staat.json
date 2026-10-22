@@ -1,7 +1,7 @@
 {
   "les": "gr6/lewensvaardighede/ontwikkeling-van-self/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:b6163f209851a2d0f1cfb688ab84d7f9",
+  "konsep_hash": "sha256:f728fb672b66b0dd1370f7ba6fbc0a4c",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -58,11 +58,118 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\ontwikkeling-van-self\\les-5.json",
       "konsep_hash": "sha256:b6163f209851a2d0f1cfb688ab84d7f9",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-22T21:31:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8b66dd1a55ec0385297d27d515506acc",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:31:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 578,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:31:48+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:8b66dd1a55ec0385297d27d515506acc",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-22T21:37:36+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 578,
+      "woorde_na": 585,
+      "konsep_hash": "sha256:63ef63b75baf88baadd40104713954f3"
+    },
+    {
+      "wanneer": "2026-10-22T21:37:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 585,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:37:36+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Wanneer mense van jou ouderdom jou druk om iets te doen wat jy self ni': the definition opens with 'Wanneer' (an 'is when' pattern) for a noun"
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:39:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f728fb672b66b0dd1370f7ba6fbc0a4c",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:39:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 585,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:43:39+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 3,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 585,
+      "woorde_na": 585
+    },
+    {
+      "wanneer": "2026-10-22T21:47:41+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:47:41+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 17,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:47:41+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\ontwikkeling-van-self\\les-5.json",
+      "konsep_hash": "sha256:f728fb672b66b0dd1370f7ba6fbc0a4c",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:ac3e03a3a785c8860ee74fa15abdef83",
   "hek_konteks": {
     "graad": 6,
     "begroting": 550
-  }
+  },
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'Dan praat jy nie lank met die groep nie.': 'Dan' follows directly on the photo sentence and may read as covering only that last case rather than every unsafe situation listed in the block.",
+    "fix: [taal] in 'op jou sit om iets te doen': 'druk op jou sit' may be read as echoing English 'put pressure on'; the standard collocation is 'druk op iemand uitoefen', and the proposed 'plaas' echoes English 'place pressure' just as much.",
+    "check (the language finder raised this; it may not be a fault): 'Die druk kan ook kom sonder dat iemand 'n woord sê. Almal om jou doen ': 'dit' has no clear antecedent: it can be read as 'saying a word' or as the unnamed activity; fixing it means guessing what 'it' is, so it is flagged rather than changed."
+  ],
+  "taal_geforseer_vir": "sha256:8b66dd1a55ec0385297d27d515506acc",
+  "taal_rondte_vir": "sha256:f728fb672b66b0dd1370f7ba6fbc0a4c",
+  "taal_keurder_vir": "ab3a4eeb79718237b747a02fca274b4d",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:f728fb672b66b0dd1370f7ba6fbc0a4c",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:63ef63b75baf88baadd40104713954f3",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "acab0c29210dcf27b7399338f0de232e"
 }

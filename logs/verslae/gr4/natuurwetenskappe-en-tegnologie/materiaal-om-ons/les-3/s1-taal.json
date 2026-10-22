@@ -1,0 +1,219 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Water wat dieselfde pad oor en oor loop",
+      "voor": "van die see na die lug na die land",
+      "na": "van die see na die lug en dan na die land",
+      "soort": "sinsbou",
+      "rede_vinder": "Two bare 'na' phrases in a row read like a list without a joiner; 'en dan' makes the sequence natural.",
+      "fout": "Two bare 'na' phrases in a row read like a list with a missing joiner.",
+      "rede_keurder": "'en dan' makes the sequence natural without changing the route or its order."
+    },
+    {
+      "nr": 2,
+      "blok": "Water wat dieselfde pad oor en oor loop",
+      "voor": "Dieselfde water loop hierdie pad oor en oor en ons",
+      "na": "Dieselfde water loop hierdie pad oor en oor, en ons",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two sentences with their own subject and verb.",
+      "rede_keurder": "'Dieselfde water loop' and 'ons noem' are two full sentences, so the comma is required."
+    },
+    {
+      "nr": 3,
+      "blok": "Water wat dieselfde pad oor en oor loop",
+      "voor": "Op sommige van daardie stappe",
+      "na": "By sommige stappe op hierdie pad",
+      "soort": "verwysing",
+      "rede_vinder": "'daardie stappe' points back to steps that were never mentioned (only 'pad' was), and 'by' is the natural preposition with 'stappe'.",
+      "fout": "'daardie stappe' points back to steps never mentioned; only 'pad' was.",
+      "rede_keurder": "Fixes the reference and uses the natural 'by' with 'stappe', keeping the protected word 'stappe' and the qualifier 'sommige'."
+    },
+    {
+      "nr": 5,
+      "blok": "Die son laat die water verdamp",
+      "voor": "maak daardie water warmer en 'n deel",
+      "na": "maak daardie water warmer, en 'n deel",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two sentences with their own subject and verb.",
+      "rede_keurder": "'Die son se hitte maak' and ''n deel daarvan verdamp' are two full sentences."
+    },
+    {
+      "nr": 6,
+      "blok": "Die son laat die water verdamp",
+      "voor": "Daardie water gaan as waterdamp in die lug bo die see in",
+      "na": "Dit gaan as waterdamp die lug bo die see in",
+      "soort": "verwysing",
+      "rede_vinder": "'Daardie water' could mean all the water, but only the part that evaporated rises; 'dit' points to 'n deel', and 'in die lug ... in' doubles the preposition.",
+      "fout": "'Daardie water' can be read as all the water rather than the part that evaporated, and 'in die lug ... in' doubles the preposition.",
+      "rede_keurder": "'Dit' points to the part that evaporated and 'die lug ... in' is the clean Afrikaans form; nothing is added or lost."
+    },
+    {
+      "nr": 7,
+      "blok": "Die son laat die water verdamp",
+      "voor": "Waterdamp is water as 'n gas en jy",
+      "na": "Waterdamp is water as 'n gas, en jy",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two sentences with their own subject and verb.",
+      "rede_keurder": "'Waterdamp is' and 'jy kan' are two full sentences."
+    },
+    {
+      "nr": 8,
+      "blok": "Hoër op kondenseer die waterdamp",
+      "voor": "kondenseer terug tot",
+      "na": "kondenseer weer tot",
+      "soort": "anglisisme",
+      "rede_vinder": "'terug tot' copies English 'back into'; Afrikaans says 'weer', as the glossary definition does.",
+      "fout": "'kondenseer terug tot' copies English 'back into'.",
+      "rede_keurder": "'weer' is the natural Afrikaans and matches the shared definition's 'weer in 'n vloeistof'; same meaning."
+    },
+    {
+      "nr": 9,
+      "blok": "Hoër op kondenseer die waterdamp",
+      "voor": "'n Wolk is nie waterdamp nie en dit is 'n klomp",
+      "na": "'n Wolk is nie waterdamp nie, maar 'n klomp",
+      "soort": "sinsbou",
+      "rede_vinder": "The sentence states a contrast, so 'maar' reads naturally where 'en dit is' sounds wooden.",
+      "fout": "'en dit is' is wooden where the sentence states a contrast.",
+      "rede_keurder": "'nie ..., maar' is the natural contrast and the claim is unchanged."
+    },
+    {
+      "nr": 10,
+      "blok": "Hoër op kondenseer die waterdamp",
+      "voor": "Waterdamp kan niemand sien nie en 'n wolk",
+      "na": "Niemand kan waterdamp sien nie, maar 'n wolk",
+      "soort": "woordorde",
+      "rede_vinder": "Putting 'Niemand' first is clearer for a Grade 4 reader, and the contrast between the two clauses calls for ', maar'.",
+      "fout": "'Waterdamp kan niemand sien nie' makes a reader stumble, as if the vapour were the one seeing.",
+      "rede_keurder": "Putting 'Niemand' first removes the stumble and ', maar' marks the contrast; the second 'maar' after change 9 is an acceptable parallel."
+    },
+    {
+      "nr": 11,
+      "blok": "Waar water vries en weer smelt",
+      "voor": "die druppels hoog optel",
+      "na": "die druppels hoog opdra",
+      "soort": "woordkeuse",
+      "rede_vinder": "'optel' means to pick something up; wind carries drops upward, which is 'opdra'.",
+      "fout": "'optel' suggests picking something up rather than carrying it upward.",
+      "rede_keurder": "'opdra' is the more exact verb for an updraft and echoes 'dra die water boontoe' earlier in the lesson."
+    },
+    {
+      "nr": 12,
+      "blok": "Waar water vries en weer smelt",
+      "voor": "Die druppels vries daar bo en meer water",
+      "na": "Die druppels vries daar bo, en meer water",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two sentences with their own subject and verb.",
+      "rede_keurder": "'Die druppels vries' and 'meer water vries' are two full sentences."
+    },
+    {
+      "nr": 15,
+      "blok": "Die siklus begin van voor af",
+      "voor": "Swaartekrag trek die reën af en die water",
+      "na": "Swaartekrag trek die reën af, en die water",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two sentences with their own subject and verb.",
+      "rede_keurder": "'Swaartekrag trek' and 'die water loop' are two full sentences."
+    },
+    {
+      "nr": 16,
+      "blok": "Die siklus begin van voor af",
+      "voor": "is albei vloeistof",
+      "na": "is albei 'n vloeistof",
+      "soort": "grammatika",
+      "rede_vinder": "Matches the glossary's 'in 'n vloeistof verander' and reads naturally in Afrikaans.",
+      "fout": "'is albei vloeistof' is stiff without the article.",
+      "rede_keurder": "'albei 'n vloeistof' is the natural form and matches the shared definitions; same meaning."
+    },
+    {
+      "nr": 17,
+      "blok": "Die siklus begin van voor af",
+      "voor": "Hierdie stappe van die siklus is beweging en nie verandering van toestand nie",
+      "na": "In hierdie stappe van die siklus beweeg die water, maar dit verander nie van toestand nie",
+      "soort": "sinsbou",
+      "rede_vinder": "Saying the steps 'are movement' is wooden and abstract; verbs make the same contrast clear for a Grade 4 reader.",
+      "fout": "'is beweging en nie verandering van toestand nie' is abstract and wooden for a Grade 4 reader.",
+      "rede_keurder": "Verbs carry the same contrast plainly, the protected 'stappe' stays, and the claim is unchanged."
+    },
+    {
+      "nr": 18,
+      "blok": "Die siklus begin van voor af",
+      "voor": "verhit die son die water weer en die siklus",
+      "na": "verhit die son die water weer, en die siklus",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two sentences with their own subject and verb.",
+      "rede_keurder": "'verhit die son' and 'die siklus begin' are two full sentences."
+    },
+    {
+      "nr": 19,
+      "blok": "Die siklus begin van voor af",
+      "voor": "word oor en oor gebruik en dit",
+      "na": "word oor en oor gebruik, en dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two sentences with their own subject and verb.",
+      "rede_keurder": "'Dieselfde water word gebruik' and 'dit verdwyn' are two full sentences."
+    },
+    {
+      "nr": 20,
+      "blok": "Die vier veranderings in die siklus",
+      "voor": "verhit die see en die riviere en daardie water",
+      "na": "verhit die see en die riviere, en daardie water",
+      "soort": "leestekens",
+      "rede_vinder": "The second 'en' joins two sentences with their own subject and verb, so it takes the AWS comma; the first 'en' is a list and takes none.",
+      "fout": "Missing AWS comma before the second 'en', which joins two sentences.",
+      "rede_keurder": "The first 'en' is a list and stays bare; the second joins 'die son verhit' and 'daardie water word'."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Water wat dieselfde pad oor en oor loop",
+      "voor": "Swaartekrag trek die water weer af na 'n laer plek",
+      "na": "Swaartekrag trek die water weer na 'n laer plek af",
+      "soort": "woordorde",
+      "rede_vinder": "The separable particle 'af' belongs at the end, after the prepositional phrase.",
+      "fout": "none",
+      "rede_keurder": "Placing the prepositional phrase after 'af' is normal Afrikaans; the proposal is a lateral reordering."
+    },
+    {
+      "nr": 14,
+      "blok": "Waar water vries en weer smelt",
+      "voor": "Die water loop dan by die berge af en dit vul die riviere",
+      "na": "Die water loop dan teen die berge af en vul die riviere",
+      "soort": "idioom",
+      "rede_vinder": "Water runs 'teen' a slope 'af', and dropping the redundant 'dit' makes it one sentence with a shared subject, so no comma is needed.",
+      "fout": "none",
+      "rede_keurder": "'by die berge af' is idiomatic Afrikaans, so the preposition swap is lateral, and the original sentence already reads well."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 13,
+      "blok": "Waar water vries en weer smelt",
+      "voor": "Die ysklont val eers wanneer dit te swaar is",
+      "na": "Die haelkorrel val eers wanneer dit te swaar is",
+      "soort": "woordkeuse",
+      "rede_vinder": "A piece of hail is a 'haelkorrel' in Afrikaans; 'ysklont' is an ice block, and 'Die' has no earlier noun to refer back to.",
+      "fout": "'Die ysklont' has no earlier noun to refer back to, so the link to the growing hail is left to the reader.",
+      "rede_keurder": "'ysklont' is protected to match the video and may not become 'haelkorrel'; the writer may fix the missing link while keeping 'ysklont'.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 445,
+  "woorde_na": 448,
+  "wanneer": "2026-10-22T22:09:03+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:092e3ab4733561bc74b1a9982a4e190f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:689649df39a475448265839d501de6c0"
+}

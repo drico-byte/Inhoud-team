@@ -4,32 +4,36 @@
   "graad": 4,
   "vak": "Lewensvaardighede",
   "budget": 400,
-  "checked_at": "2026-09-22T11:29:25+00:00",
+  "begrotingsreel": "default ±15%: 340-460",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T21:49:51+00:00",
   "study": {
-    "words": 446,
-    "sentences": 31,
+    "words": 447,
+    "sentences": 30,
     "mean_sentence_len": 11.7,
-    "median_sentence_len": 11,
-    "longest_sentence": 16,
-    "mean_syllables": 1.48,
-    "pct_polysyllabic": 9.9,
-    "pct_long_words": 1.9,
-    "commas_per_sentence": 0.16,
-    "list_words": 83
+    "median_sentence_len": 11.0,
+    "longest_sentence": 20,
+    "mean_syllables": 1.47,
+    "pct_polysyllabic": 9.7,
+    "pct_long_words": 2.0,
+    "commas_per_sentence": 0.43,
+    "list_words": 96
   },
   "eli10": null,
   "block_counts": {
-    "studie": 5,
+    "studie": 6,
     "lys": 1,
-    "begrip": 12
+    "begrip": 20
   },
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text: 0.43 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "List 'Waar elke instrument sit' item 1 has 2 commas — likely too much subordination for a list point",
     "Long words in study text with no 'begrip' entry: instrumente, verskillende"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

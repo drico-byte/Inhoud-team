@@ -1,0 +1,47 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n klank harder maak",
+      "voor": "'n klein entjie af en laat los.",
+      "na": "'n klein entjie af en laat dit los.",
+      "soort": "grammatika",
+      "rede_vinder": "'Laat los' needs its object here; this also matches 'laat dit los' already used in the block about higher sounds.",
+      "fout": "'laat los' without its object reads clipped in a written instruction; the lesson already says 'laat dit los' for the same action in a later block",
+      "rede_keurder": "Supplying the object 'dit' is the fuller, natural written form, keeps the two release instructions parallel and moves no meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n klank harder maak",
+      "voor": "en laat weer los.",
+      "na": "en laat dit weer los.",
+      "soort": "grammatika",
+      "rede_vinder": "Same object missing as in the first release instruction; kept parallel with it.",
+      "fout": "same missing object as in change 1",
+      "rede_keurder": "Same fix as change 1 for the second release instruction; meaning and order unchanged, and it touches no protected wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 542,
+  "woorde_na": 544,
+  "wanneer": "2026-10-22T22:14:56+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Wat 'n klank harder maak",
+      "voor": "en word net 'n vae band",
+      "na": "en lyk net soos 'n vae band",
+      "soort": "woordkeuse",
+      "rede_vinder": "The ruler's tip does not become a band, it looks like one; lyk soos says what the sentence means.",
+      "fout": "none",
+      "rede_keurder": "'word net 'n vae band' is accepted figurative Afrikaans, and the proposal turns 'net' (only) into 'net soos' (just like), shifting the sense."
+    }
+  ],
+  "konsep_hash_voor": "sha256:977904588fb13ffce6a20232aa49ddcb",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:28e4bc9c9b0022b5985341983908f262"
+}

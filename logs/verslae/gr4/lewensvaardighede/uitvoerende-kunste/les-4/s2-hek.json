@@ -1,0 +1,35 @@
+{
+  "verdict": "PASS",
+  "titel": "Sê wat jy gesien en gehoor het",
+  "graad": 4,
+  "vak": "Lewensvaardighede",
+  "budget": 400,
+  "begrotingsreel": "default ±15%: 340-460",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T21:06:38+00:00",
+  "study": {
+    "words": 435,
+    "sentences": 38,
+    "mean_sentence_len": 11.4,
+    "median_sentence_len": 12.0,
+    "longest_sentence": 16,
+    "mean_syllables": 1.36,
+    "pct_polysyllabic": 5.7,
+    "pct_long_words": 0.0,
+    "commas_per_sentence": 0.37
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 8,
+    "begrip": 13
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study text: 0.37 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

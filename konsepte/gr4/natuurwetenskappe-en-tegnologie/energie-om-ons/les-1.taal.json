@@ -1,0 +1,79 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Bronne wat energie vashou",
+      "voor": "agter die huis doen niks.",
+      "na": "agter die huis doen niks nie.",
+      "soort": "grammatika",
+      "rede_vinder": "Standard Afrikaans needs the closing 'nie' after 'niks', as the lesson itself does two sentences later ('doen ook niks totdat jy dit eet nie').",
+      "fout": "The negation after 'niks' lacks its closing 'nie', unlike the parallel sentence two lines later.",
+      "rede_keurder": "Adding the second 'nie' is the standard double negative and matches the neighbouring sentence without moving the meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Vryf jou hande teen mekaar",
+      "voor": "Energie verander so van die een soort na die ander.",
+      "na": "Energie verander so van die een soort in die ander.",
+      "soort": "anglisisme",
+      "rede_vinder": "In Afrikaans something changes 'in' something else; 'verander na' follows English 'change to'.",
+      "fout": "'verander ... na die ander' follows English 'change to'; Afrikaans says something changes 'in' something else.",
+      "rede_keurder": "Both versions mean energy changes from one kind into another, so the fix is idiomatic with the meaning unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Bronne wat energie vashou",
+      "voor": "wag tot iemand dit nodig kry",
+      "na": "wag tot iemand dit nodig het",
+      "soort": "woordkeuse",
+      "rede_vinder": "'nodig kry' is colloquial; 'nodig het' is the standard expression and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'nodig kry' is natural spoken Afrikaans that suits a Grade 4 reader, and 'nodig het' is only a lateral swap."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "gestoor",
+      "teks": "Iets wat vasgehou word en wag tot iemand dit gebruik.",
+      "rede": "The headword is a participle ('gestoor') but the definition is phrased as a noun ('Iets wat ...'); reshaping it would change a glossary definition, so it is flagged rather than changed."
+    },
+    {
+      "blok": "Van die bron tot waar dit nodig is",
+      "teks": "Die kos in jou maag laat jou bene trap, en dan ry die fiets.",
+      "rede": "The sentence jumps from the coal-to-lamp chain to a bicycle with no link, so 'Ons noem dit oordrag' reads abruptly; smoothing it would need a bridging idea, which is content."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 600,
+  "woorde_na": 601,
+  "wanneer": "2026-10-22T22:19:59+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 12,
+      "blok": "'n Bron hou energie vas",
+      "voor": "raak ook later leeg",
+      "na": "raak later ook leeg",
+      "soort": "woordorde",
+      "rede_vinder": "'Later ook' is the natural order; 'ook later' suggests 'also at a later time' rather than 'also runs empty'.",
+      "fout": "none",
+      "rede_keurder": "'Raak ook later leeg' is already natural Afrikaans; the reorder is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Vryf jou hande teen mekaar",
+      "voor": "Daar was niks warms in jou hande nie en geen vuur of verwarmer naby nie.",
+      "na": "Daar was niks warms in jou hande nie, en daar was geen vuur of verwarmer naby nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "The second half lacks its own verb and reads elliptically; giving it 'daar was' makes two clear clauses, joined with the AWS comma.",
+      "fout": "none",
+      "rede_keurder": "'niks warms ... nie en geen vuur of verwarmer naby nie' is natural, clear Afrikaans; the proposal only lengthens it."
+    }
+  ],
+  "konsep_hash_voor": "sha256:7cf80119a5ff0d91a53e4041cd2b4125",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4c4f60626170928d8117cccb80c44ea7"
+}

@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/visuele-kunste/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:9f7af366d7fe540e81c9ce998aa1ca63",
+  "konsep_hash": "sha256:f17aa75b0b82f6cd0893868bdbf293dc",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -183,6 +183,89 @@
       "woorde": 443,
       "begroting": 400,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:46:53+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 14,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 443,
+      "woorde_na": 445,
+      "konsep_hash": "sha256:a427f5fec5d5cc290312f092cbbe7c50"
+    },
+    {
+      "wanneer": "2026-10-22T20:46:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 445,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:46:54+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'hardloop en vries skielik voor jou': 'vries' for stopping still is an anglicism of 'freeze'. (it changes the protected wording 'vries', which must stay as it is; fix the fault without changing those words)",
+        "check (the language finder raised this; it may not be a fault): 'Kontras is 'n ontwerpbeginsel: 'n duidelike verskil tussen twee dinge.': The study text restates the shared definition of kontras without 'wat langs mekaar staan', so the lesson carries two wordings of one decided term; a content decision, not a language fix."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T20:50:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8e259ed13c973218e6629523b57eaa90",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T20:50:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:53:43+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 449,
+      "woorde_na": 450,
+      "konsep_hash": "sha256:f17aa75b0b82f6cd0893868bdbf293dc"
+    },
+    {
+      "wanneer": "2026-10-22T20:53:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 450,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:59:03+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:59:03+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 25,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:59:03+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\visuele-kunste\\les-1.json",
+      "konsep_hash": "sha256:f17aa75b0b82f6cd0893868bdbf293dc",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:8a3c40fb7683bc808bcf51eb44e635e6",
@@ -191,5 +274,12 @@
     "begroting": 400
   },
   "taal_vir_skrywer": [],
-  "taal_rondte_vir": "sha256:9f7af366d7fe540e81c9ce998aa1ca63"
+  "taal_rondte_vir": "sha256:f17aa75b0b82f6cd0893868bdbf293dc",
+  "taal_keurder_vir": "5547832a91276221a72e5b4caeca4789",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:f17aa75b0b82f6cd0893868bdbf293dc",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:a427f5fec5d5cc290312f092cbbe7c50",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "ee0701dfef2ad469eae89d3b36e583eb"
 }

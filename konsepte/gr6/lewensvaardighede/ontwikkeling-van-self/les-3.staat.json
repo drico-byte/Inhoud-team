@@ -1,7 +1,7 @@
 {
   "les": "gr6/lewensvaardighede/ontwikkeling-van-self/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:6ca3b0b16a408c332106394fc6869ccd",
+  "konsep_hash": "sha256:137c7265daf2d09e84dfb92c4fee4433",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -246,11 +246,96 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\ontwikkeling-van-self\\les-3.json",
       "konsep_hash": "sha256:6ca3b0b16a408c332106394fc6869ccd",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-22T21:33:14+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:6ca3b0b16a408c332106394fc6869ccd",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-22T21:36:57+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3998c756e07b807e4503324522774c7d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:36:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 590,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:41:57+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 590,
+      "woorde_na": 595,
+      "konsep_hash": "sha256:137c7265daf2d09e84dfb92c4fee4433"
+    },
+    {
+      "wanneer": "2026-10-22T21:41:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 595,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:41:57+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Dit is iets wat jou aandag trek: jy doen dit graag of': By the AWS rule a comma belongs before 'of' joining 'jy doen' and 'jy wil'.",
+        "check (the language finder raised this; it may not be a fault): 'Iets wat jou aandag trek: jy doen dit graag of jy wil meer daarvan wee': By AWS 2017 a comma belongs before the first 'of' (two clauses with their own subject and verb), as proposed for the study text; the glossary text also occurs inside the study sentence, so no unique span exists, and it is probably a shared definition, so a person or writer should decide whether the definition gets the same comma.",
+        "check (the language finder raised this; it may not be a fault): 'Wanneer jy iets wil leer, is 'n bron iets of iemand waarby jy dit kan ': 'waarby' fits 'iets' but strictly 'by wie' is the form for 'iemand'; acceptable in everyday use, but noted in case the shared definition is revisited."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:50:15+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:50:16+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:50:16+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\ontwikkeling-van-self\\les-3.json",
+      "konsep_hash": "sha256:137c7265daf2d09e84dfb92c4fee4433",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:12ffb4bfd20f7e0a45ffdf951e48d8f7",
+  "spek_hash": "sha256:142ff6739f71342ca45e4d5a9e5127a7",
   "hek_konteks": {
     "graad": 6,
     "begroting": 550
-  }
+  },
+  "taal_geforseer_vir": "sha256:6ca3b0b16a408c332106394fc6869ccd",
+  "taal_rondte_vir": "sha256:137c7265daf2d09e84dfb92c4fee4433",
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'Dit is iets wat jou aandag trek: jy doen dit graag of': By the AWS rule a comma belongs before 'of' joining 'jy doen' and 'jy wil'.",
+    "check (the language finder raised this; it may not be a fault): 'Iets wat jou aandag trek: jy doen dit graag of jy wil meer daarvan wee': By AWS 2017 a comma belongs before the first 'of' (two clauses with their own subject and verb), as proposed for the study text; the glossary text also occurs inside the study sentence, so no unique span exists, and it is probably a shared definition, so a person or writer should decide whether the definition gets the same comma.",
+    "check (the language finder raised this; it may not be a fault): 'Wanneer jy iets wil leer, is 'n bron iets of iemand waarby jy dit kan ': 'waarby' fits 'iets' but strictly 'by wie' is the form for 'iemand'; acceptable in everyday use, but noted in case the shared definition is revisited."
+  ],
+  "taal_keurder_vir": "7f7eb6094a671d129795bca512a81280",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:137c7265daf2d09e84dfb92c4fee4433",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:137c7265daf2d09e84dfb92c4fee4433",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "992c16da17ff9a53847d6432074dc6da"
 }

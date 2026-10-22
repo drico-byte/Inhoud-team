@@ -1,0 +1,84 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Lang latte en kort latte",
+      "voor": "wat oor 'n tafelrand uitsteek ook dat",
+      "na": "wat oor 'n tafelrand uitsteek, ook dat",
+      "soort": "leestekens",
+      "rede_vinder": "A comma closing the embedded relative clause stops 'uitsteek ook dat' reading as one run and is allowed by the AWS to mark off a subordinate clause.",
+      "fout": "Without a comma after the embedded relative clause, 'uitsteek ook dat' runs together and a Grade 4 reader stumbles before finding where the subject ends.",
+      "rede_keurder": "Closing the relative clause with a comma before the sentence continues is standard Afrikaans punctuation, eases the first reading and changes nothing in the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Hoekom die een trom laer klink as die ander",
+      "voor": "dieselfde vel stywer of slapper trek",
+      "na": "dieselfde vel stywer of slapper span",
+      "soort": "woordkeuse",
+      "rede_vinder": "'span' is the usual verb for a drumskin and matches 'gespan' used for the same action in the list block, so the learner meets one word for one thing.",
+      "fout": "none",
+      "rede_keurder": "'Stywer of slapper trek' is natural, clear Afrikaans; 'span' is an equally good word that reads a little oddly with 'slapper', so this is a lateral move rather than a fix."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Waar elke instrument sit",
+      "teks": "Die sand of klein klippies binne die kokonratels ratel wanneer die danser beweeg.",
+      "rede": "The protected entry for 'kokonratels' says the compound is always introduced in full first ('ratels van gedroogde kokonne'), but in this lesson it appears without that introduction; a language agent cannot add it, so the writer should check whether it is needed here."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 449,
+  "woorde_na": 449,
+  "wanneer": "2026-10-22T21:14:44+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Lang latte en kort latte",
+      "voor": "speel hulle xilofone wat hulle timbila noem",
+      "na": "speel xilofone wat hulle timbila noem",
+      "soort": "sinsbou",
+      "rede_vinder": "The double 'hulle' (possessive, then subject) is clumsy; the possessive adds nothing.",
+      "fout": "none",
+      "rede_keurder": "The possessive 'hulle xilofone' carries that these are the Chopi's own instruments, set against the school marimba just before; dropping it loses that and the original reads acceptably."
+    },
+    {
+      "nr": 11,
+      "blok": "Praat oor julle eie en mekaar se optredes",
+      "voor": "karakters gebou",
+      "na": "karakters geskep",
+      "soort": "anglisisme",
+      "rede_vinder": "'Karakters bou' calques English 'build characters'; Afrikaans creates (skep) a character.",
+      "fout": "none",
+      "rede_keurder": "'Karakters bou' (building up a character) is accepted drama usage in Afrikaans and may echo the curriculum's wording; 'skep' narrows developing to creating, a lateral move at best."
+    },
+    {
+      "nr": 15,
+      "blok": "ruggraat",
+      "voor": "wat in die middel van jou rug loop.",
+      "na": "wat langs die middel van jou rug af loop.",
+      "soort": "idioom",
+      "rede_vinder": "'In die middel van jou rug loop' can read as walking; 'langs ... af loop' is the idiom for something running down the back.",
+      "fout": "none",
+      "rede_keurder": "The ruggraat definition is protected word for word as a shared definition, and 'loop' for something running along the back is ordinary Afrikaans."
+    },
+    {
+      "nr": 1,
+      "blok": "Hoog en laag, hard en sag",
+      "voor": "Hoog of laag is die vierde van vier ewe goeie vrae",
+      "na": "\"Is dit hoog of laag?\" is die vierde van vier ewe goeie vrae",
+      "soort": "sinsbou",
+      "rede_vinder": "The sentence calls 'hoog of laag' a question, so writing it as the actual question reads more naturally and clearly for a Grade 4 learner.",
+      "fout": "none",
+      "rede_keurder": "Calling 'hoog of laag' one of the sorting questions is acceptable shorthand that follows on naturally from the sentences before it, and the proposal adds quotation marks and a question mark to a lesson that holds no questions, so it is only a different way of saying the same thing and adds clutter."
+    }
+  ],
+  "konsep_hash_voor": "sha256:8d2d93df3d3e26fc9a43abaa0f16d960",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:68719a57d326c153fca7b076e513d87c"
+}

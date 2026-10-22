@@ -1,11 +1,18 @@
 {
   "les": "gr4/lewensvaardighede/uitvoerende-kunste/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:1e7e5e9282361e303f84e503b081ee77",
+  "konsep_hash": "sha256:3912e56d907d40f3ed7395dd9e802e2c",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:2d7696701be86d2962679c3dc08c3f8b",
+    "sha256:b35e25eeb056bfd33176700773b41260"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "in kanon en tussenspel": 1,
+    "woorde vir wat jy sien / woorde vir die hele stu": 1,
+    "dieselfde tablo twee keer beskryf / woorde vir d": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -123,6 +130,254 @@
       "woorde": 443,
       "begroting": 400,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:46:25+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 443,
+      "woorde_na": 445,
+      "konsep_hash": "sha256:eeb10931878f0d6b175bdfb8b3ec885a"
+    },
+    {
+      "wanneer": "2026-10-22T20:46:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 445,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:46:25+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Stemming is die gevoel wat die toneel by die kyker maak.': 'n gevoel by iemand maak' is wooden; 'wek' is the idiomatic verb. Not proposed because the same wording is the glossary definition, which the protected entry says is shared across lessons; changing only the body would make the two differ. A person should decide whether the shared definition changes.",
+        "check (the language finder raised this; it may not be a fault): 'Fokus is die plek waarheen die kyker se oë eerste getrek word.': The body says 'eerste getrek word' but the glossary says only 'getrek word'; a content wording difference, not a language fault, so not changed.",
+        "check (the language finder raised this; it may not be a fault): 'Om te glo dat jy op iemand anders kan staatmaak.': The term 'vertroue' does not appear anywhere in the lesson body; the language is fine, but the entry may not belong to this lesson."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T20:50:33+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2d7696701be86d2962679c3dc08c3f8b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T20:50:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 444,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:52:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 444,
+      "woorde_na": 444
+    },
+    {
+      "wanneer": "2026-10-22T20:58:12+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:58:12+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 27,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:58:12+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "in kanon en tussenspel"
+      ],
+      "tally": {
+        "in kanon en tussenspel": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T20:58:13+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] met beweging lyk dit soos 'n golf oor die verhoog. — corrected: Die golf moet 'n moontlikheid word en nie 'n reël wees nie: met beweging KAN 'n kanon soos 'n golf oor die verhoog lyk, as die spelers een na die ander begin. Die skrywer kies self die bewoording, maar die sin mag nie sê dat elke kanon met beweging so lyk nie."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T20:59:51+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:427ced6bbd3cc54aaf7d85ff4b3eb72f",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T20:59:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 436,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:02:08+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 436,
+      "woorde_na": 436,
+      "konsep_hash": "sha256:c5644c3755e5c8c32ff6d32c7b593715"
+    },
+    {
+      "wanneer": "2026-10-22T21:02:09+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 436,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:02:09+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Stemming is die gevoel wat die toneel by die kyker maak.': 'Wek' is the idiomatic verb for a feeling a scene creates in a viewer ('maak' is flat), but this is a shared, word-for-word definition across lessons, so it is not proposed as a change; a person may decide whether to change it everywhere."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:03:50+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:66909c4284648128757a573a14abff9b",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T21:03:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 436,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:06:38+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 436,
+      "woorde_na": 435,
+      "konsep_hash": "sha256:b35e25eeb056bfd33176700773b41260"
+    },
+    {
+      "wanneer": "2026-10-22T21:06:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 435,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:12:24+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:12:24+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:12:24+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "dieselfde tablo twee keer beskryf / woorde vir d",
+        "woorde vir wat jy sien / woorde vir die hele stu"
+      ],
+      "tally": {
+        "in kanon en tussenspel": 1,
+        "woorde vir wat jy sien / woorde vir die hele stu": 1,
+        "dieselfde tablo twee keer beskryf / woorde vir d": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T21:12:24+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "dekking, feite",
+      "siklus": 2,
+      "punte": [
+        "[dekking] Die woorde waarmee Kwartaal 4 se werk beskryf word - tablo,  — gedeeltelik: In die blok 'In kanon en tussenspel' word 'in kanon' net algemeen omskryf, terwyl elke ander woord op die klas se hond-drama toegepas word. Voeg een sin by wat sê waar in kanon in hierdie klas se stuk gebeur: 'n deel waar die groep dieselfde liedjie sing of dieselfde klap- of stamppatroon doen en nie almal saam begin nie. Gebruik geen vergelyking of golfbeeld nie, en moenie sê hoeveel groepe daar is of dat almal ewe lank wag nie. Maak terselfdertyd die vlakke-sin in 'Woorde vir wat jy sien' vas aan die voorbeeld: die kinders hoog op die stoele en die seun laag op die vloer staan op verskillende vlakke. Betaal vir die woorde deur 'n sin elders in die les korter te maak, soos die begrotingsnota sê, en laat geen kernitem val nie.",
+        "[feite] Julle klas maak 'n tablo oor 'n seun wat sy hond verloor het — corrected: Elke sin is op sigself waar, maar die prentjie wat hulle saam skep, is vals. Blok 2 stel die klas se werk voor as 'n enkele tablo, en die enigste stuk wat die les ooit voorstel, is daardie tablo. Blok 4 sê dan dat 'hierdie storielyn' by die verlore hond begin en by die bure eindig, en blok 6 sit musiek 'tussen die soektog en die einde'. 'n Leerder lei af dat 'n tablo 'n storielyn met 'n begin en einde, tonele en 'n tussenspel het, terwyl 'n tablo een stil, verstarde oomblik is. Stel die klas se werk in blok 2 voor as 'n kort drama oor die seun en sy verlore hond, en laat die tablo wat beskryf word een stilstaande oomblik in daardie drama wees, sodat die storielyn, die konflik en die tussenspel aan die drama behoort en nie aan die tablo nie. Blok 5 se sin dat een tablo die drama kan open en 'n ander dit kan afsluit, pas dan sonder verandering."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:15:28+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3912e56d907d40f3ed7395dd9e802e2c",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-22T21:15:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 442,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:16:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 442,
+      "woorde_na": 442
+    },
+    {
+      "wanneer": "2026-10-22T21:21:55+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:21:55+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:21:55+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\uitvoerende-kunste\\les-4.json",
+      "konsep_hash": "sha256:3912e56d907d40f3ed7395dd9e802e2c",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:83c5a8f0d76a47626c39fb9b2d313db5",
@@ -131,6 +386,12 @@
     "begroting": 400
   },
   "taal_vir_skrywer": [],
-  "taal_rondte_vir": "sha256:1e7e5e9282361e303f84e503b081ee77",
-  "taal_keurder_vir": "eaebe9465f39b2841c0b61e009cd1379"
+  "taal_rondte_vir": "sha256:3912e56d907d40f3ed7395dd9e802e2c",
+  "taal_keurder_vir": "3652748a1e44e4d00a18ca100a151149",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:3912e56d907d40f3ed7395dd9e802e2c",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:c5644c3755e5c8c32ff6d32c7b593715",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "1f14f86de2c8da9f912137c07eb52aa1"
 }

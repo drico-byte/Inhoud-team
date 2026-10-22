@@ -1,7 +1,7 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/energie-om-ons/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:9f9adee500b4f891f9ae923047cfb5b5",
+  "konsep_hash": "sha256:4c4f60626170928d8117cccb80c44ea7",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -120,11 +120,156 @@
       "sound": true,
       "items": 63,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:52:03+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2ee9433599218f623cec72386bed6d71",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:52:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 615,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:56:04+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 20,
+      "laat_vaar": 1,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 615,
+      "woorde_na": 611,
+      "konsep_hash": "sha256:4161ff53cb6094cb7ddc76ceddf5f1c3"
+    },
+    {
+      "wanneer": "2026-10-22T21:56:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 611,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:56:04+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Pype pomp dit van daar af op tot bo op die grond.': stacked prepositions 'van daar af op tot bo op' are clumsy, and the sentence says pipes do the pumping",
+        "fix: [taal] in ''n Harde swart klip uit die grond wat baie warm brand.': 'wat baie warm brand' can attach to 'die grond' rather than to the stone",
+        "check (the language finder raised this; it may not be a fault): 'Baie van Suid-Afrika se elektrisiteit kom op hierdie manier.': 'Kom op hierdie manier' is vague and reads unfinished (comes from? comes to us? is made?); fixing it means choosing the intended content, so it is flagged rather than changed.",
+        "check (the language finder raised this; it may not be a fault): 'Die energie in kos en in hout kom eintlik van die Son af.': 'Son' is capitalised here but lowercase in the list ('jy voel die son op jou arm'); AWS allows the capital for the celestial body, so check this is the subject's chosen convention.",
+        "check (the language finder raised this; it may not be a fault): 'Niks in jou huis begin uit sy eie beweeg of werk nie.': 'Uit sy eie' is colloquial; 'vanself' is the standard form, but the block heading uses the same phrase, so changing only the sentence would break the match. Left for a person or writer."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:58:10+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:be118f8f1ab184a2e2f86e1cbd868d8b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:58:11+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 606,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:00:24+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 606,
+      "woorde_na": 606,
+      "konsep_hash": "sha256:3be917e986c9636566b35ad55757f907"
+    },
+    {
+      "wanneer": "2026-10-22T22:00:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 606,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:16:39+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:7cf80119a5ff0d91a53e4041cd2b4125",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T22:16:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 600,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:19:59+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 600,
+      "woorde_na": 601,
+      "konsep_hash": "sha256:4c4f60626170928d8117cccb80c44ea7"
+    },
+    {
+      "wanneer": "2026-10-22T22:19:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 601,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:29:08+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:29:08+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 51,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:29:08+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\energie-om-ons\\les-1.json",
+      "konsep_hash": "sha256:4c4f60626170928d8117cccb80c44ea7",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:75cc99046c17d9ac8eca80a0f1279f23",
+  "spek_hash": "sha256:82a929eb8bee3bef0757ac259cce0bfb",
   "hek_konteks": {
     "graad": 4,
     "begroting": 574
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Iets wat vasgehou word en wag tot iemand dit gebruik.': The headword is a participle ('gestoor') but the definition is phrased as a noun ('Iets wat ...'); reshaping it would change a glossary definition, so it is flagged rather than changed.",
+    "check (the language finder raised this; it may not be a fault): 'Die kos in jou maag laat jou bene trap, en dan ry die fiets.': The sentence jumps from the coal-to-lamp chain to a bicycle with no link, so 'Ons noem dit oordrag' reads abruptly; smoothing it would need a bridging idea, which is content."
+  ],
+  "taal_rondte_vir": "sha256:4c4f60626170928d8117cccb80c44ea7",
+  "taal_keurder_vir": "55dc45414bd97a0bda6b9b5e9a6be9f6",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:4c4f60626170928d8117cccb80c44ea7",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:4161ff53cb6094cb7ddc76ceddf5f1c3",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "c0a4ee770fa294562b1168482a57d261"
 }

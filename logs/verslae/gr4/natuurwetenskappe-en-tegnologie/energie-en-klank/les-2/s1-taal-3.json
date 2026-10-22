@@ -1,0 +1,96 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Dieselfde trom maak twee klanke",
+      "voor": "roep hard na iemand ver weg",
+      "na": "roep hard na iemand wat ver weg is",
+      "soort": "sinsbou",
+      "rede_vinder": "The bare 'iemand ver weg' is elliptical and reads like a translation; a relative clause is the natural Afrikaans form.",
+      "fout": "'iemand ver weg' is an elliptical, slightly English-shaped phrase",
+      "rede_keurder": "The relative clause is the natural Afrikaans form and says exactly the same thing."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n klank harder maak",
+      "voor": "Die punt wat jy verder afdruk, laat die liniaal wyer swaai en harder klink",
+      "na": "As jy die punt verder afdruk, swaai die liniaal wyer en klink dit harder",
+      "soort": "sinsbou",
+      "rede_vinder": "It is the pressing, not the point, that makes the ruler swing wider; a conditional clause says this plainly and reads naturally.",
+      "fout": "Wooden construction that makes the point, rather than the pressing, the cause",
+      "rede_keurder": "The conditional reads naturally, keeps the same cause and effect, and 'swaai wyer' and 'harder' stay on volume as the protected rule requires."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat 'n klank harder maak",
+      "voor": "en net jou afdruk het verander",
+      "na": "en net hoe ver jy die punt afdruk, het verander",
+      "soort": "woordkeuse",
+      "rede_vinder": "As a noun 'afdruk' means a print or imprint in Afrikaans, not the act of pressing down; the verb phrase says what is meant.",
+      "fout": "The noun 'afdruk' means a print or imprint, not the act of pressing down",
+      "rede_keurder": "'hoe ver jy die punt afdruk' names exactly the variable the paragraph changed, so nothing is added and the wrong noun is gone."
+    },
+    {
+      "nr": 6,
+      "blok": "Die liniaal wys dat hulle twee dinge is",
+      "voor": "is hard en laag tegelyk",
+      "na": "klink hard en laag tegelyk",
+      "soort": "woordkeuse",
+      "rede_vinder": "The drum itself is not loud and low, its sound is; 'klink' matches the rest of the lesson and avoids the flat 'is hard' right after 'hard geslaan'.",
+      "fout": "'is hard' says the drum itself is loud (and can be read as physically hard) and echoes 'hard geslaan' just before",
+      "rede_keurder": "'klink' puts the loudness and pitch on the sound, matches 'klink hoog maar sag' in the sentence before, and leaves the protected hard/laag pairing intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 4,
+      "blok": "Wat 'n klank hoër maak",
+      "voor": "Die vorige toets het gewys dat 'n ander afdruk die noot nie verander nie",
+      "na": "Die vorige toets het gewys dat die noot dieselfde bly, hoe ver jy die punt ook al afdruk",
+      "soort": "woordkeuse",
+      "rede_vinder": "The noun 'afdruk' means an imprint, so 'n ander afdruk' reads as 'a different print'; the verb form keeps the meaning that pressing further leaves the note unchanged.",
+      "fout": "The noun 'afdruk' means a print or imprint, not the act of pressing down",
+      "rede_keurder": "The fault is real, but 'hoe ver ... ook al' widens what the test showed (two press depths) into a claim about any depth, so the claim moves and the writer must fix the noun another way.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 5,
+      "blok": "Die liniaal wys dat hulle twee dinge is",
+      "voor": "Jy het pas gehoor dat 'n ander afdruk die noot nie verander nie",
+      "na": "Jy het pas gehoor dat die noot dieselfde bly, hoe ver jy die punt ook al afdruk",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same noun 'afdruk' problem as in the previous block; kept parallel with that sentence.",
+      "fout": "The noun 'afdruk' means a print or imprint, not the act of pressing down",
+      "rede_keurder": "Same as change 4: the noun needs fixing, but the proposed 'hoe ver ... ook al' broadens the claim beyond what was heard, so it goes to the writer.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat 'n klank hoër maak / Die liniaal wys dat hulle twee dinge is",
+      "teks": "'n ander afdruk",
+      "rede": "If the reviewer keeps only one of the two 'afdruk' sentence changes, the two blocks will word the same point differently; they should be decided together. The 'hoe ver ... ook al' wording is slightly wider than 'a different press', so check it keeps the meaning."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 545,
+  "woorde_na": 551,
+  "wanneer": "2026-10-22T22:25:21+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Wat 'n klank harder maak",
+      "voor": "en word net 'n vae band",
+      "na": "en lyk net soos 'n vae band",
+      "soort": "woordkeuse",
+      "rede_vinder": "The ruler's tip does not become a band, it looks like one; lyk soos says what the sentence means.",
+      "fout": "none",
+      "rede_keurder": "'word net 'n vae band' is accepted figurative Afrikaans, and the proposal turns 'net' (only) into 'net soos' (just like), shifting the sense."
+    }
+  ],
+  "konsep_hash_voor": "sha256:53230ce6f4b317129e4db01ea633aadf",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f37d08583e68dedd5c613c219b0c351c"
+}

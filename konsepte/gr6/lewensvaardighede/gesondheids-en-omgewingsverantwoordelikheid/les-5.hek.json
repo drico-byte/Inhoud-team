@@ -6,17 +6,18 @@
   "budget": 550,
   "begrotingsreel": "default ±15%: 468-632",
   "begroting_basis": "meting",
-  "checked_at": "2026-10-15T10:10:03+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-22T21:39:57+00:00",
   "study": {
-    "words": 548,
+    "words": 559,
     "sentences": 50,
-    "mean_sentence_len": 11.0,
-    "median_sentence_len": 10.5,
+    "mean_sentence_len": 11.2,
+    "median_sentence_len": 11.0,
     "longest_sentence": 21,
     "mean_syllables": 1.37,
-    "pct_polysyllabic": 6.9,
-    "pct_long_words": 2.6,
-    "commas_per_sentence": 0.32
+    "pct_polysyllabic": 6.8,
+    "pct_long_words": 2.5,
+    "commas_per_sentence": 0.36
   },
   "eli10": null,
   "block_counts": {
@@ -26,9 +27,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text: 0.36 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: behandeling, belangrikste, druppeltjies, kleedkamers, oordraagbare, verpleegster, verskillende, waarskuwing"
   ],
   "notes": [
+    "Study text 559 words, above the Grade 6 lesson ceiling 550 by 9 -- within the language-step allowance of 28.",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

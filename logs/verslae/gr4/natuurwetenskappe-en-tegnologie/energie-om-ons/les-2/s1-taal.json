@@ -1,0 +1,310 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat by 'n masjien ingaan",
+      "voor": "die tafel en niks gebeur nie",
+      "na": "die tafel, en niks gebeur nie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Both clauses have their own subject and verb, so the AWS comma is required."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat by 'n masjien ingaan",
+      "voor": "Masjiene en toestelle en toerusting",
+      "na": "Masjiene, toestelle en toerusting",
+      "soort": "sinsbou",
+      "rede_vinder": "A repeated en in a three-item list reads wooden; commas separate the list items.",
+      "fout": "Repeated en in a three-item list reads wooden.",
+      "rede_keurder": "Commas between list items are the natural Afrikaans form and change nothing."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat by 'n masjien ingaan",
+      "voor": "'n mens wat stoot of draai of blaas",
+      "na": "'n mens wat stoot, draai of blaas",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeated of in a list reads wooden; a comma is smoother.",
+      "fout": "Repeated of in a three-item list reads wooden.",
+      "rede_keurder": "A list comma reads more smoothly and keeps the same three actions."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat by die masjien uitkom",
+      "voor": "kry sy inset en dan kom daar",
+      "na": "kry sy inset, en dan kom daar",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full sentences.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Two clauses with their own subject and verb take the AWS comma."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat by die masjien uitkom",
+      "voor": "wil ons hê en ander",
+      "na": "wil ons hê, en ander",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full sentences.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Both halves have their own subject and verb."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat by die masjien uitkom",
+      "voor": "Die deel wat ons wou hê noem ons",
+      "na": "Die deel wat ons wil hê, noem ons",
+      "soort": "grammatika",
+      "rede_vinder": "Past tense wou clashes with the present-tense general statement; a comma separates the two verbs.",
+      "fout": "Past tense wou in a present-tense general statement; the verbs meet without a comma.",
+      "rede_keurder": "Wil matches the surrounding present tense and the later heading, and the meaning stays the same."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat by die masjien uitkom",
+      "voor": "vir ons doen en jy kies hom",
+      "na": "vir ons doen, en ons kies hom",
+      "soort": "verwysing",
+      "rede_vinder": "The sentence switches from ons to jy mid-sentence; keep one pronoun, and add the AWS comma.",
+      "fout": "The sentence switches from ons to jy halfway through.",
+      "rede_keurder": "One pronoun throughout reads cleanly, the chooser is still the reader's group, and the AWS comma is required."
+    },
+    {
+      "nr": 9,
+      "blok": "Wat by die masjien uitkom",
+      "voor": "gee een of meer van vier dinge terug",
+      "na": "lewer een of meer van vier dinge",
+      "soort": "woordkeuse",
+      "rede_vinder": "Gee terug means to return something; lewer is the natural verb for what a device produces.",
+      "fout": "Gee terug means to give back or return, which is the wrong verb for what a device produces.",
+      "rede_keurder": "Lewer is the exact verb for output and avoids suggesting that energy is returned."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat by die masjien uitkom",
+      "voor": "Dit is beweging of hitte of lig of klank.",
+      "na": "Dit is beweging, hitte, lig of klank.",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeated of in a four-item list reads wooden.",
+      "fout": "Repeated of in a four-item list reads wooden.",
+      "rede_keurder": "List commas keep the same four items and read naturally."
+    },
+    {
+      "nr": 11,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "Niks gebeur nie en die liggie",
+      "na": "Niks gebeur nie, en die liggie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full sentences.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Both clauses have their own subject and verb."
+    },
+    {
+      "nr": 12,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "niks verander nie en net die inset",
+      "na": "niks verander nie, en net die inset",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full sentences.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Both clauses have their own subject and verb."
+    },
+    {
+      "nr": 13,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "daardie energie by hom uitkom",
+      "na": "daardie energie by hom aankom",
+      "soort": "woordkeuse",
+      "rede_vinder": "Uitkom is the lesson's word for output, so 'by hom uitkom' (meaning reaches it) can be misread; aankom says arrives without the clash.",
+      "fout": "'By hom uitkom' (reaches the bulb) clashes with uitkom as the lesson's word for output and can be misread.",
+      "rede_keurder": "In both versions the energy reaches the bulb, and aankom says that without colliding with the output term."
+    },
+    {
+      "nr": 14,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "gaan in en hitte kom uit wat die water",
+      "na": "gaan in, en hitte kom uit wat die water",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before en joining two clauses with their own subject and verb.",
+      "rede_keurder": "The AWS comma is required and adds no words."
+    },
+    {
+      "nr": 15,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "gas gaan in en hitte kom uit",
+      "na": "gas gaan in, en hitte kom uit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full clauses.",
+      "fout": "Missing AWS comma before en joining two full clauses.",
+      "rede_keurder": "The AWS comma is required and matches the other list items."
+    },
+    {
+      "nr": 16,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "energie gaan in en lig kom uit",
+      "na": "energie gaan in, en lig kom uit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full clauses.",
+      "fout": "Missing AWS comma before en joining two full clauses.",
+      "rede_keurder": "The AWS comma is required and matches the other list items."
+    },
+    {
+      "nr": 17,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "batterye gaan in en klank kom uit",
+      "na": "batterye gaan in, en klank kom uit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full clauses.",
+      "fout": "Missing AWS comma before en joining two full clauses.",
+      "rede_keurder": "The AWS comma is required and matches the other list items."
+    },
+    {
+      "nr": 18,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "strykyster: elektrisiteit gaan in en hitte kom uit",
+      "na": "strykyster: elektrisiteit gaan in, en hitte kom uit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full clauses.",
+      "fout": "Missing AWS comma before en joining two full clauses.",
+      "rede_keurder": "The AWS comma is required and matches the other list items."
+    },
+    {
+      "nr": 19,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "gaan in en bewegende lug kom uit",
+      "na": "gaan in, en bewegende lug kom uit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full clauses, matching the comma already before the second en.",
+      "fout": "Missing AWS comma before the first en, although the second en already has one.",
+      "rede_keurder": "Both joins link full clauses, so the item becomes consistent."
+    },
+    {
+      "nr": 20,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "petrol of diesel of die ryer se energie gaan in en beweging kom uit",
+      "na": "petrol, diesel of die ryer se energie gaan in, en beweging kom uit",
+      "soort": "leestekens",
+      "rede_vinder": "Repeated of in a list reads wooden, and en joins two full clauses (AWS comma).",
+      "fout": "Repeated of in a list, and a missing AWS comma before en joining two clauses.",
+      "rede_keurder": "The same three inputs stay, the list reads naturally and the clause comma is required."
+    },
+    {
+      "nr": 21,
+      "blok": "Die strykyster en die fiets",
+      "voor": "Sy uitset is hitte en die hitte",
+      "na": "Sy uitset is hitte, en die hitte",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full sentences.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Both clauses have their own subject and verb."
+    },
+    {
+      "nr": 23,
+      "blok": "Die strykyster en die fiets",
+      "voor": "kreukels uit nie want",
+      "na": "kreukels uit nie, want",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before want joining two full sentences.",
+      "fout": "Missing AWS comma before want joining two full sentences.",
+      "rede_keurder": "Want links two clauses with their own subject and verb, so the comma is required."
+    },
+    {
+      "nr": 24,
+      "blok": "Die strykyster en die fiets",
+      "voor": "Die fiets prop nêrens in nie en die ryer",
+      "na": "Die fiets word nêrens ingeprop nie, en die ryer",
+      "soort": "grammatika",
+      "rede_vinder": "A bicycle does not plug itself in; the passive is correct, and en joins two full sentences (AWS comma).",
+      "fout": "Intransitive 'prop nêrens in nie' copies English 'it plugs in' and makes the bicycle the one doing the plugging; the comma is also missing.",
+      "rede_keurder": "The passive is correct Afrikaans with the same meaning, and the AWS comma is required."
+    },
+    {
+      "nr": 25,
+      "blok": "Die strykyster en die fiets",
+      "voor": "is beweging en die wiele",
+      "na": "is beweging, en die wiele",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full sentences.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Both clauses have their own subject and verb."
+    },
+    {
+      "nr": 26,
+      "blok": "Die strykyster en die fiets",
+      "voor": "altyd elektrisiteit nie en 'n masjien",
+      "na": "altyd elektrisiteit nie, en 'n masjien",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full sentences.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Both clauses have their own subject and verb."
+    },
+    {
+      "nr": 27,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "lank aan was is ook",
+      "na": "lank aan was, is ook",
+      "soort": "leestekens",
+      "rede_vinder": "A comma separates the verb of the relative clause from the main verb, which makes the sentence easier to read.",
+      "fout": "The relative clause's verb and the main verb meet ('was is') and make a reader stumble.",
+      "rede_keurder": "A comma between the meeting verbs makes the sentence easier to read without changing anything."
+    },
+    {
+      "nr": 28,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "harde geraas en niemand",
+      "na": "harde geraas, en niemand",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two full sentences.",
+      "fout": "Missing AWS comma before en joining two full sentences.",
+      "rede_keurder": "Both clauses have their own subject and verb."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 22,
+      "blok": "Die strykyster en die fiets",
+      "voor": "se gewig druk die los draadjies dan plat",
+      "na": "se gewig druk dan die los draadjies plat",
+      "soort": "woordorde",
+      "rede_vinder": "Dan sits more naturally straight after the verb, before the object.",
+      "fout": "none",
+      "rede_keurder": "Both word orders are natural Afrikaans, so this is a lateral move."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Wat by die masjien uitkom",
+      "voor": "hy werk is 'n uitset",
+      "na": "hy werk, is die uitset",
+      "soort": "leestekens",
+      "rede_vinder": "A comma separates the verbs of the long subject clause and the main clause; die matches 'die inset' in the first block and avoids implying all the energy is merely one output.",
+      "fout": "'Al die energie ... is 'n uitset' reads oddly (all the energy as one output), and the two verbs meet without a comma.",
+      "rede_keurder": "The comma would be fine, but changing 'n to die alters what the sentence says about the defined term and sits against the next sentence's plural uitsette, so the writer should decide.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Die strykyster en die fiets",
+      "teks": "Daardie stoot op die pedale is die fiets se inset.",
+      "rede": "The lesson defines inset as energy, but this sentence calls a push (stoot) the inset; a push is closer to a force (krag), the confusion the protected energie entry warns about. Not changed, because fixing it means choosing content; for the writer or a person to judge."
+    },
+    {
+      "blok": "Die strykyster en die fiets",
+      "teks": "die wiele draai onder hom",
+      "rede": "Hom could mean the bicycle or the rider; probably the rider. Left unchanged because choosing would guess the intent."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 606,
+  "woorde_na": 600,
+  "wanneer": "2026-10-22T22:08:36+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:98b8c2882f6ef6627bf6c82c2c5ad5a5",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:8a4611a59b1250611f1482df69bd6664"
+}

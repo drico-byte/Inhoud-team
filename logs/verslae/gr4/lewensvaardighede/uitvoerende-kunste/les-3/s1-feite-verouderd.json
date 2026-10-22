@@ -1,256 +1,327 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Hoog en laag in dieselfde familie",
   "kaps_punt": "Onderwerp 4 - Waardeer en nadenke, Kwartaal 3. Die uitdrukkingskwaliteite van slaginstrumente in ŉ Afrika-musiekstuk. Klassifiseer verskeie instrumente as deel van ŉ familie of groep in terme van voorkoms, benoeming, hoe die klank voortgebring word en die toonhoogte klassifikasie (hoog-laag). Eie en ander se optredes en prosesse deur die gebruik van eenvoudige skeppende kunsterminologie.",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "MENS_NODIG",
   "items": [
     {
-      "bewering": "Die fluitjie klink hoog en die trom klink laag. Daardie verskil noem ons toonhoogte, en toonhoogte is hoe hoog of hoe laag 'n klank is.",
+      "bewering": "'n Fluitjie klink hoog, en 'n groot trom klink laag.",
       "blok": "Hoog en laag, hard en sag",
       "status": "bevestig",
-      "bron": "HyperPhysics (Georgia State University), Sound Quality/Timbre en verwante toonhoogte-bladsye; UIUC Physics 406 Acoustical Physics of Music lesingnotas. Toonhoogte is die waargenome hoogte/laagte van 'n klank.",
+      "bron": "University of Rochester PHY103, Drums (pas.rochester.edu/~sybenzvi/courses/phy103/2016f/phy103_drums.pdf): membrane frequency falls as diameter grows; a whistle is a standard high-pitch example in the CAPS-aligned pitch material (Carleton SERC 'Exploring Sound: Length Makes a Difference').",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Volume is iets anders: dit is hoe hard of hoe sag 'n klank is. Jy kan die trom baie sag slaan en sy klank bly steeds laag.",
+      "bewering": "toonhoogte is hoe hoog of hoe laag 'n klank is. Volume is iets anders: dit is hoe hard of hoe sag 'n klank is.",
       "blok": "Hoog en laag, hard en sag",
       "status": "bevestig",
-      "bron": "HyperPhysics (Georgia State University) en Wikipedia 'Timbre': toonhoogte en hardheid is aparte eienskappe van 'n klank; hoe hard 'n trom geslaan word, verander hoofsaaklik die volume, nie die toonhoogte nie.",
+      "bron": "Wikipedia 'Timbre' (ASA definition 12.09 treats pitch and loudness as separate attributes); Carleton SERC 'Exploring Sound' (pitch = high/low; loudness a separate variable).",
       "tipe": "algemeen"
     },
     {
-      "bewering": "By 'n trom is dit die vel wat vibreer en die klank maak. 'n Groot vel oor 'n wye opening vibreer gewoonlik stadiger as 'n klein vel. Daarom klink 'n groot trom gewoonlik laer as 'n klein een.",
-      "blok": "Hoekom die een trom laer klink as die ander",
+      "bewering": "Jy kan die trom sag slaan, en sy klank bly laag.",
+      "blok": "Hoog en laag, hard en sag",
       "status": "bevestig",
-      "bron": "UIUC Physics 406 Acoustical Physics of Music (courses.physics.illinois.edu), lesing 4 deel 2, oor vibrerende sirkelmembrane; Grinnell College Musical Instrument Collection, 'Creating Tension'. 'n Groter deursnee gee by dieselfde spanning 'n laer frekwensie. Die 'gewoonlik' is korrek, want spanning speel ook 'n rol.",
+      "bron": "Ruler/pitch classroom sources (Carleton SERC; GVSU sound activity): striking harder makes a sound louder, not higher; pitch set by the vibrating object.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die maker kan dieselfde vel stywer of slapper oor die trom trek. 'n Stywer vel klink hoër en 'n slapper vel klink laer.",
+      "bewering": "Hoog of laag is die vierde van vier ewe goeie vrae waarmee jy instrumente sorteer.",
+      "blok": "Hoog en laag, hard en sag",
+      "status": "bevestig",
+      "bron": "DBE CAPS Life Skills Gr 4-6 (English), Gr 4 Term 3 Topic 4, p. 35: 'Classify several instruments as part of a family or group in terms of appearance, name, how the sound is produced and pitch (high-low)' - pitch is the fourth of four. 'Ewe goeie' is a teaching judgement, not a fact claim.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "By 'n trom is dit die vel wat vibreer en die klank maak.",
       "blok": "Hoekom die een trom laer klink as die ander",
       "status": "bevestig",
-      "bron": "UIUC Physics 406 lesingnotas; Grinnell College Musical Instrument Collection, 'Creating Tension I - Technologies for Attaching Drumheads to Shells': hoe groter die spanning, hoe hoër die toonhoogte.",
+      "bron": "University of Rochester PHY103, Drums; AIP Physics Today membrane-mode article (aip.brightspotcdn.com/PTO.v45.i3.40_1.online.pdf).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Groot vel oor 'n wye opening vibreer gewoonlik stadiger as 'n klein vel. Daarom klink 'n groot trom gewoonlik laer as 'n klein een.",
+      "blok": "Hoekom die een trom laer klink as die ander",
+      "status": "bevestig",
+      "bron": "AIP membrane formula f = (2.405/2πa)√(T/μ): frequency inversely proportional to radius; Kettledrum patent US4831912 ('diameter ... inversely proportional to the fundamental frequency'). 'Gewoonlik' is correctly hedged, since tension also matters.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die maker kan dieselfde vel stywer of slapper trek. 'n Stywer vel klink hoër, en 'n slapper vel klink laer.",
+      "blok": "Hoekom die een trom laer klink as die ander",
+      "status": "bevestig",
+      "bron": "AIP membrane formula (f ∝ √T); University of Barcelona drum-tension study (diposit.ub.edu, 'tightening one lug usually translates in a raise of the pitch').",
       "tipe": "algemeen"
     },
     {
       "bewering": "Baie Suid-Afrikaanse skole het 'n marimba met houtlatte in 'n ry.",
       "blok": "Lang latte en kort latte",
       "status": "bevestig",
-      "bron": "Akademiese artikel 'Marimbas in South African Schools: Gateway Instruments for the Indigenous African Music Curriculum' (academia.edu); Education Africa se Marimba Project; Marimba Jam (marimbajam.co.za) se bladsy oor skoolorkeste; CNN (2016) oor die marimba-orkes van Goede Hoop Laerskool. Suid-Afrikaanse bronne stem saam dat skoolmarimba-orkeste wydverspreid is. 'Baie' is die regte, versigtige kwantor.",
+      "bron": "IOL Sunday Tribune 2025 (school bands in the 1 100-player marimba record attempt); Nova News 2026 (SA National Schools Marimba Competition grew to 41 bands); Daily Dispatch on Aqua Vista Primary marimba bands. 'Baie' is a loose quantifier, supported qualitatively, not by a national count.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die lang latte maak lae klanke. Die kort latte maak hoë klanke.",
+      "bewering": "Die lang latte klink laag, en die kort latte klink hoog.",
       "blok": "Lang latte en kort latte",
       "status": "bevestig",
-      "bron": "Britannica, 'Fixed-key xylophone'; UIUC Physics 406 lesingnotas oor vibrerende stawe: by staafinstrumente klink 'n langer staaf laer en 'n korter staaf hoër.",
+      "bron": "Carleton SERC 'Exploring Sound: Length Makes a Difference' ('the shorter the bar, the higher the sound'); Britannica summary 'xylophone'.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "In Natuurwetenskappe wys 'n liniaal oor 'n tafelrand ook dat 'n korter stuk hoër klink.",
+      "bewering": "'n liniaal wat oor 'n tafelrand uitsteek, [wys] ook dat 'n korter stuk hoër klink.",
       "blok": "Lang latte en kort latte",
       "status": "bevestig",
-      "bron": "Die fisika is self nagegaan: Exploratorium-aktiwiteit 'Pluck a Ruler' (exo.net), TeachEngineering 'Pitch and Frequency' en Cardiff University se physics outreach: 'n korter oorhangende stuk vibreer vinniger en klink hoër. Dat die les na 'n bestaande Natuurwetenskap-les verwys, is op gesag van die pyplyn-eienaar aangeteken, soos die opdrag gevra het: die goedgekeurde Graad 4 Natuurwetenskappe-les 'Hard is nie hoog nie' (Energie en klank) leer die aktiwiteit met die liniaal oor die tafelrand. Die nasiener het nie daardie les self gelees nie.",
+      "bron": "Carleton SERC 'Exploring Sound'; GVSU sound activity; Alabama ALEX ruler lesson: shorter overhang gives a higher pitch. Analogy mapping to the marimba holds: same material, shorter vibrating length, faster vibration, higher pitch. It would break only across different materials, which the lesson does not compare.",
       "tipe": "analogie"
     },
     {
-      "bewering": "Vergelyking tussen die liniaal oor die tafelrand en die kort en lang latte van 'n marimba of xilofoon: korter stuk, hoër klank.",
+      "bewering": "In Natuurwetenskappe wys 'n liniaal wat oor 'n tafelrand uitsteek, ook ...",
       "blok": "Lang latte en kort latte",
-      "status": "bevestig",
-      "bron": "Nagegaan in dieselfde bronne as hierbo (Exploratorium, TeachEngineering, Britannica, UIUC Physics 406). Die vergelyking hou. In albei gevalle vibreer 'n korter stuk vinniger en klink dit hoër. Die liniaal is aan een kant vasgeklem en 'n xilofoonlat hang vry, maar dit verander nie die rigting van die verband nie. 'n Leerder wat verder redeneer, word nie mislei nie.",
-      "tipe": "analogie"
+      "status": "onseker",
+      "tipe": "algemeen",
+      "bron": "DBE 2023/24 Annual Teaching Plan, NST Grade 4 (education.gov.za), Term 3: 'Energy and sound' sits in weeks 8-9 and its investigation names an elastic band, not a ruler. CAPS Life Skills says the order of topics within a term is not fixed.",
+      "regstelling": "The physics is right; what cannot be settled is the claim that learners meet the ruler in Natural Sciences. The official plan names an elastic band, and the sound topic may come after this lesson in the term. Only a textbook could show whether a ruler is used, and I may not open one. Unless a person confirms it, the safe fix is to drop the 'In Natuurwetenskappe' framing and keep the ruler as a stand-alone example."
     },
     {
       "bewering": "Die Chopi van suidelike Mosambiek speel hulle xilofone wat hulle timbila noem.",
       "blok": "Lang latte en kort latte",
       "status": "bevestig",
-      "bron": "UNESCO Intangible Cultural Heritage, 'Chopi Timbila' (ich.unesco.org/en/RL/chopi-timbila-00133): die Chopi-gemeenskappe woon hoofsaaklik in die suidelike deel van die Inhambane-provinsie, in suidelike Mosambiek, en hulle houtxilofone word timbila genoem.",
+      "bron": "UNESCO ICH 'Chopi Timbila' (00133): Chopi live 'mainly in the southern part of Inhambane province in southern Mozambique'; timbila are their wooden xylophones. Wikipedia 'Chopi people' agrees (Zavala, Inhambane).",
       "tipe": "naam"
     },
     {
-      "bewering": "Elke houtlat het 'n kalbas onder hom wat die klank harder laat klink.",
-      "blok": "Lang latte en kort latte",
+      "bewering": "Die Chopi speel hulle timbila in 'n orkes. Daardie instrumente is met opset in verskillende groottes gebou.",
+      "blok": "Een groep van klein tot groot",
       "status": "bevestig",
-      "bron": "UNESCO ICH 'Chopi Timbila': 'Under each wooden slat, a resonator made out of calabashes is fastened'. Britannica, 'Fixed-key xylophone', en Wikipedia 'Balafon': die kalbasresonators onder Afrika-xilofone versterk die klank.",
+      "bron": "UNESCO ICH 'Chopi Timbila': orchestras of 'five to thirty wooden xylophones ... of varying sizes and ranges of pitch'.",
       "tipe": "algemeen"
-    },
-    {
-      "bewering": "Die Chopi speel hulle timbila in 'n orkes van vyf tot dertig instrumente. Daardie instrumente is met opset in verskillende groottes gebou.",
-      "blok": "Een familie van klein tot groot",
-      "status": "bevestig",
-      "bron": "UNESCO ICH 'Chopi Timbila': 'Their orchestras consist of five to thirty wooden xylophones, called timbila, of varying sizes'. Ethnomusicology Review (UCLA), vol. 11, 'Locating the Chopi Xylophone Ensembles of Southern Mozambique', noem twaalf tot dertien as 'n tipiese hedendaagse getal, en dit val binne die UNESCO-omvang.",
-      "tipe": "getal"
     },
     {
       "bewering": "Die klein chilanzane speel die hoogste klanke en die groot gulu die laagste.",
-      "blok": "Een familie van klein tot groot",
+      "blok": "Een groep van klein tot groot",
       "status": "bevestig",
-      "bron": "Ethnomusicology Review (UCLA), vol. 11, 'Locating the Chopi Xylophone Ensembles of Southern Mozambique': 'treble: cilanzane or malanzane, alto: sange or sanje, tenor: dole or mbingwe, bass: debiinda, and double bass: gulu or kulu'. Chilanzane/cilanzane is 'n spellingvariant. Een bron in die soekresultate het die name sanje en chilanzane saamgegooi, maar die vakjoernaal se indeling is duidelik en word gevolg.",
+      "bron": "ILAM catalogue, Rhodes University (ilamcommons.ru.ac.za / digitalarchives.ru.ac.za, Hugh Tracey recordings): 'Chilanzane (Treble) ... Gulu (Double Bass)'; Wikipedia 'Timbila': gulu is the bass, with 3-4 keys, played standing with heavy mallets and gourd resonators. No source gives physical dimensions; 'klein'/'groot' follows from the treble and double-bass roles and the bar-length physics above.",
       "tipe": "superlatief"
     },
     {
-      "bewering": "Tussen hulle in sit die sange, die dole en die debiinda.",
-      "blok": "Een familie van klein tot groot",
+      "bewering": "Tussen hulle in sit die sange, die doli en die debiinda.",
+      "blok": "Een groep van klein tot groot",
       "status": "bevestig",
-      "bron": "Ethnomusicology Review (UCLA), vol. 11: alto sange/sanje, tenoor dole, bas debiinda, almal tussen die diskant (cilanzane) en die kontrabas (gulu).",
+      "bron": "ILAM catalogue: 'Sange (Alto), Doli (Tenor), Debiinda (Bass)', between Chilanzane (Treble) and Gulu (Double Bass). Spellings match ILAM; other sources spell them sanje/dole/dibinda and call the bass chikhulu or chinzumana. Wikipedia calls the dibinda a tenor, but every source puts it between the extremes, and the lesson does not order the three.",
       "tipe": "naam"
     },
     {
-      "bewering": "Ons groepeer instrumente volgens die manier waarop hulle klank maak. Al hierdie instrumente maak klank met houtlatte wat jy slaan, en daarom is hulle een familie. Saam dek die orkes die hele pad van hoog tot laag.",
-      "blok": "Een familie van klein tot groot",
+      "bewering": "Saam is hulle 'n groep binne die familie van slaginstrumente, en saam dek hulle die reeks van hoog tot laag.",
+      "blok": "Een groep van klein tot groot",
       "status": "bevestig",
-      "bron": "Klassifikasie volgens hoe klank voortgebring word, is die grondslag van die Hornbostel-Sachs-stelsel en is een van die kriteria wat die KABV Lewensvaardighede Gr 4-6 (DBE, bl. 35, Kwartaal 3 Graad 4, Onderwerp 4) noem. UNESCO ICH en Ethnomusicology Review (UCLA): al die timbila is geslaande houtxilofone in reekse van diskant tot kontrabas. Die sin sê nie dat dit die enigste manier van groepering is nie, so dit is nie vals nie.",
+      "bron": "Britannica summary 'xylophone' ('Percussion instrument consisting of a set of tuned wooden bars that are struck with mallets'); ILAM recording note 'the complete range ... from high treble down to the double bass'.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die ngoma se beesvel span oor 'n wye opening en hoort laag.",
+      "bewering": "Die ngoma, met sy beesvel oor 'n wye opening gespan, hoort aan die lae kant.",
       "blok": "Waar elke instrument sit",
       "status": "bevestig",
-      "bron": "Hartenberger World Musical Instrument Collection, 'Venda Ngoma (Drum)' (wmic.net): 'n Oshuid word oor die mond van die trom gespan; die groot ngoma is ongeveer 80 cm breed, met handvatsels ingesluit, en heet ngoma lungundu na sy donderende klank.",
+      "bron": "RAI ERA, Venda Girls / Milayo 'Ngomani - by the drums' (era.anthropology.ac.uk): ngoma is the 'big bass drum', the largest of the three; World Musical Instrument Collection, Venda ngoma (wmic.net): ox-hide head pegged over a hemispherical body carved from solid wood.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die hosho se klein sade ritsel skerp binne die kalbas.",
       "blok": "Waar elke instrument sit",
       "status": "bevestig",
-      "bron": "Wikipedia 'Hosho (instrument)' en Grinnell College Musical Instrument Collection 'hosho': 'n Paar maranka-kalbasse met hota-sade (Canna indica) binne; 'n goeie speler kry 'n harde, presiese slag.",
+      "bron": "Wikipedia 'Hosho (instrument)': dried gourds (mapudzi) usually filled with hota (Canna indica) seeds; Grinnell College musical instruments collection, 'Bira instruments'.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die sand of klein klippies binne die kokonratels ratel wanneer die danser beweeg.",
+      "bewering": "Die sand of klippies in ratels van gedroogde kokonne (kokonratels) rammel wanneer die danser beweeg.",
       "blok": "Waar elke instrument sit",
       "status": "bevestig",
-      "bron": "Hartenberger World Musical Instrument Collection, 'Zulu Cocoon Ankle Rattles' (wmic.net); Percival Kirby, 'The Musical Instruments of the Indigenous People of South Africa': Zoeloe-amafohlwane is kokonne van die mot Argema mimosae, gevul met sand of klein klippies en aan die danser se bene vasgemaak.",
+      "bron": "Brighton & Hove Museums 'Making Botswana: Makgabe' (mopane-worm cocoons 'filled with small stones'); wmic.net Zulu cocoon ankle rattles (moon-moth cocoons 'filled with sand or small stones'); Pitt Rivers Museum leg rattles (tied to dancers' lower legs). Some San examples use ostrich-eggshell fragments instead, but 'sand of klippies' is attested and does not claim to be exhaustive.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die geskraapte bottel se riwwe klink grof.",
+      "bewering": "Die geskraapte bottel klink grof as jy oor sy riwwe skraap.",
       "blok": "Waar elke instrument sit",
       "status": "bevestig",
-      "bron": "Britannica, 'scraper' (musical instrument), en Dallas Symphony Orchestra, 'Guiro': 'n Skraper is 'n oppervlak met riwwe of kepe wat met 'n stok geskraap word, en dit gee 'n growwe, raspende klank.",
+      "bron": "Wikipedia 'Unpitched percussion instrument' and 'Percussion instrument': scrapers (e.g. guiro) are played by scraping a ridged surface and give a rasping, indefinite-pitch sound.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Nie een van hierdie drie het 'n vaste plek tussen hoog en laag nie.",
+      "bewering": "Nie een van die laaste drie het 'n vaste plek tussen hoog en laag nie.",
       "blok": "Waar elke instrument sit",
       "status": "bevestig",
-      "bron": "Steinberg Dorico-dokumentasie, 'Unpitched percussion', en Dallas Symphony Orchestra, 'Guiro': ratels, skudders en skrapers is slaginstrumente sonder vaste toonhoogte. 'Hierdie drie' verwys korrek na die hosho, die kokonratels en die geskraapte bottel.",
+      "bron": "Wikipedia 'Unpitched percussion instrument': rattles and scrapers are classed as instruments of indefinite pitch. The three are the hosho, the cocoon rattles and the scraped bottle.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Elkeen van die timbila dra hoog en laag binne een instrument.",
+      "bewering": "Elkeen van die timbila het hoë en lae klanke binne een instrument.",
       "blok": "Waar elke instrument sit",
       "status": "bevestig",
-      "bron": "UNESCO ICH 'Chopi Timbila' en Ethnomusicology Review (UCLA), vol. 11: elke mbila het 'n reeks latte van verskillende lengtes, van vier latte by die grootste bas tot agtien of negentien by die hoër instrumente, en dus hoë en lae note op een instrument.",
+      "bron": "Wikipedia 'Timbila': the mbila has up to nineteen keys, the dibinda ten, and even the gulu three or four. Every instrument has several keys of different pitch.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Tromme wat ewe styf gespan is, loop van klein na groot en van hoog na laag.",
+      "bewering": "'n Groep tromme wat ewe styf gespan is, loop van klein na groot en van hoog na laag.",
       "blok": "Waar elke instrument sit",
       "status": "bevestig",
-      "bron": "UIUC Physics 406 lesingnotas oor sirkelmembrane: by dieselfde spanning en vel gee 'n groter deursnee 'n laer toonhoogte. Die voorwaarde 'ewe styf' is noodsaaklik en is in die sin.",
+      "bron": "AIP membrane formula: at equal tension and membrane, frequency is inversely proportional to radius. 'Ewe styf' correctly holds the second variable fixed.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Kwartaal 3 se drama het uit 'n stimulus gegroei. Julle het karakters gebou, liedjies gekies en 'n klankbaan gemaak.",
       "blok": "Praat oor julle eie en mekaar se optredes",
       "status": "bevestig",
-      "bron": "KABV/CAPS Lewensvaardighede Graad 4-6, DBE (education.gov.za), gedrukte bl. 35, Kwartaal 3 Graad 4, Onderwerp 3: 'Building a drama from a stimulus: characters...'; 'Relate character of the chosen songs to suit characters in the drama'; 'Sound pictures using instruments ... to create a soundtrack for the drama'.",
+      "bron": "DBE CAPS Life Skills Gr 4-6, Gr 4 Term 3, p. 35: 'Building a drama from a stimulus: characters'; 'Relate character of the chosen songs to suit characters in the drama'; 'Sound pictures using instruments ... to create a soundtrack for the drama'.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Trom en 'n Chopi-xilofoon kan albei 'n lae klank maak en steeds heeltemal anders klink. Daardie verskil in klank noem ons die instrument se toonkleur.",
+      "bewering": "'n Trom en 'n marimba klink anders, al klink albei ewe hoog en ewe hard. Daardie verskil noem ons toonkleur.",
       "blok": "Praat oor julle eie en mekaar se optredes",
       "status": "bevestig",
-      "bron": "HyperPhysics (Georgia State University), 'Sound Quality or Timbre'; Wikipedia 'Timbre': toonkleur (timbre) is die eienskap wat klanke van dieselfde toonhoogte en hardheid van mekaar onderskei. Timbre is ook een van die sleutelterme wat CAPS vir Kwartaal 3 noem.",
+      "bron": "Wikipedia 'Timbre', quoting ASA Acoustical Terminology 12.09: the attribute by which two sounds 'having the same loudness and pitch' are judged dissimilar. CAPS Gr 4 Term 3 key term 'timbre'.",
       "tipe": "algemeen"
     },
     {
       "bewering": "toonhoogte: Hoe hoog of hoe laag 'n klank is.",
       "blok": "toonhoogte",
       "status": "bevestig",
-      "bron": "HyperPhysics en UIUC Physics 406: toonhoogte is die waargenome hoogte of laagte van 'n klank.",
+      "bron": "Wikipedia 'Timbre' / ASA (pitch as the high-low attribute); CAPS key term 'pitch (high-low)'. Read alone: true.",
       "tipe": "algemeen"
     },
     {
       "bewering": "volume: Hoe hard of hoe sag 'n klank is.",
       "blok": "volume",
       "status": "bevestig",
-      "bron": "HyperPhysics (Georgia State University): hardheid of volume is die waargenome sterkte van 'n klank, apart van toonhoogte.",
+      "bron": "Carleton SERC 'Exploring Sound' and Twinkl CAPS-aligned Gr 4 NST sound activity (volume = loud/soft). Read alone: true.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "toonkleur: Waaraan jy 'n instrument uitken, al klink dit ewe hoog en hard.",
+      "bewering": "toonkleur: Wat twee instrumente anders laat klink, al klink hulle ewe hoog en hard.",
       "blok": "toonkleur",
       "status": "bevestig",
-      "bron": "HyperPhysics 'Sound Quality or Timbre'; Wikipedia 'Timbre': dit is die eienskap wat 'n klank onderskei van ander klanke met dieselfde toonhoogte en hardheid. Die omskrywing noem albei voorwaardes en is dus volledig.",
+      "bron": "ASA definition 12.09 via Wikipedia 'Timbre'. Read alone: true.",
       "tipe": "algemeen"
     },
     {
       "bewering": "vibreer: Om baie vinnig heen en weer te beweeg.",
       "blok": "vibreer",
       "status": "bevestig",
-      "bron": "Exploratorium 'Pluck a Ruler' en TeachEngineering 'Pitch and Frequency': klank ontstaan deur vinnige heen-en-weer-beweging. Hoorbare vibrasies is vinnig, meer as ongeveer 20 keer per sekonde, so 'baie vinnig' is in hierdie konteks reg. Dit bots ook nie met 'vibreer stadiger' in die tromblok nie, want daardie vel beweeg steeds vinnig heen en weer.",
+      "bron": "Dictionary.com 'vibrate': 'to move to and fro or up and down quickly and repeatedly'. Read alone: true for the sound sense this lesson uses.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "xilofoon: 'n Instrument met houtlatte wat jy met kloppers slaan.",
+      "bewering": "slaginstrument: 'n Instrument wat klank maak as jy dit slaan, skud of skraap.",
+      "blok": "slaginstrument",
+      "status": "bevestig",
+      "bron": "Merriam-Webster 'percussion instrument': 'sounded by striking, shaking, or scraping'. Read alone: true.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "familie: 'n Groep instrumente wat saamgegroepeer word volgens die manier waarop hulle klank maak.",
+      "blok": "familie",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Percussion instrument' and Merriam-Webster: percussion is grouped by how sound is produced (struck, shaken, scraped); orchestral families divide on the same basis. Read alone: true. It is consistent with the study block's 'groep binne die familie van slaginstrumente'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "xilofoon: 'n Instrument met houtlatte wat jy met stokkies slaan.",
       "blok": "xilofoon",
       "status": "bevestig",
-      "bron": "Britannica, 'Fixed-key xylophone' en 'xylophone': 'n Slaginstrument met gestemde houtstawe wat met kloppers of stokkies geslaan word.",
+      "bron": "Britannica summary 'xylophone': 'tuned wooden bars that are struck with mallets'. Read alone: true.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "timbila: Die Chopi se xilofone, met 'n kalbas onder elke houtlat.",
+      "bewering": "timbila: Die Chopi se xilofone, met 'n hol dop onder elke houtlat.",
       "blok": "timbila",
       "status": "bevestig",
-      "bron": "UNESCO ICH 'Chopi Timbila': 'wooden xylophones, called timbila' en 'Under each wooden slat, a resonator made out of calabashes is fastened'. Timbila is die meervoud (mbila is die enkelvoud), en die les gebruik dit deurgaans as meervoud.",
-      "tipe": "naam"
+      "bron": "UNESCO ICH 'Chopi Timbila': under each wooden slat a calabash resonator is fastened and sealed with beeswax; Wikipedia 'Timbila': masala-fruit shells or gourds as resonators. Read alone: true.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "ngoma: Die grootste en diepste trom wat die VhaVenda gebruik, met beesvel oor uitgeholde hout.",
       "blok": "ngoma",
       "status": "bevestig",
-      "bron": "Hartenberger World Musical Instrument Collection, 'Venda Ngoma (Drum)' (wmic.net): die ngoma is die grootste van die Venda-tromme (ngoma, thungwa, murumba), het 'n halfbolvormige lyf wat uit soliede hout gekerf is, en 'n oshuid wat tussen penne gespan word. Wikipedia 'Ngoma drums' beskryf die Venda-ngoma as 'n 'large, deep' trom met 'n donderende klank (ngoma lungundu). Die grootste trom by dieselfde tipe vel is die laagste, so 'diepste' is ook ten opsigte van klank reg.",
+      "bron": "RAI ERA Venda 'Ngomani - by the drums': ngoma is the largest and is the bass drum, with thungwa (tenor) and mirumba (alto, smallest); wmic.net Venda ngoma: ox-hide head over a body 'carved out of solid wood'. Read alone: true.",
       "tipe": "superlatief"
     },
     {
       "bewering": "hosho: 'n Kalbasratel van Zimbabwe met sade binne, in pare geskud.",
       "blok": "hosho",
       "status": "bevestig",
-      "bron": "Wikipedia 'Hosho (instrument)': Zimbabwiese instrument, 'n paar maranka-kalbasse met hota-sade, 'usually played in pairs, one rattle in each hand'. Grinnell College Musical Instrument Collection, 'hosho'.",
-      "tipe": "naam"
+      "bron": "Wikipedia 'Hosho (instrument)': Zimbabwean (Shona) gourd rattles containing hota seeds, usually played in pairs, one in each hand. Read alone: true.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "karakter: Die mens, dier, ding of opgemaakte wese wat 'n speler in 'n drama voorstel.",
       "blok": "karakter",
       "status": "bevestig",
-      "bron": "Algemene woordeboekbetekenis van 'karakter' in drama, dit wil sê 'n rol of figuur wat 'n speler vertolk. KABV Lewensvaardighede Gr 4-6, bl. 35, gebruik 'characters' in hierdie sin, ook met rekwisiete as stimulus.",
+      "bron": "WCED ePortal 'Drama lesson activities Gr 4-6: Building a drama from a stimulus' (plot, character, location); CAPS Gr 4 Term 3 key term 'character'. A standard drama definition. Read alone: true.",
       "tipe": "algemeen"
     },
     {
       "bewering": "postuur: Hoe iemand sy lyf hou terwyl hy sit, staan of beweeg.",
       "blok": "postuur",
       "status": "bevestig",
-      "bron": "Afrikaanse Wikipedia 'Postuur'; Woorden.org 'postuur'; Cambridge Dictionary 'posture': liggaamshouding, die manier waarop 'n mens sy liggaam hou.",
+      "bron": "CAPS Gr 4 Term 3 key term 'posture' (with 'Consider body language, posture and gesture'); the standard sense of posture as how the body is held. Read alone: true.",
       "tipe": "algemeen"
     },
     {
       "bewering": "gebare: Bewegings van die lyf, soos die hande, kop of arms, wat iets sê.",
       "blok": "gebare",
       "status": "bevestig",
-      "bron": "Woorden.org 'gebaar'; Ensie 'gebaar': 'n beweging met 'n liggaamsdeel, soos kop, hande of arms, waarmee jy iets duidelik maak of uitdruk.",
+      "bron": "CAPS Gr 4 Term 3 key term 'gesture'; Dictionary.com 'gesture' (a movement of the body, head, arms or hands expressing an idea or emotion). Read alone: true.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "gesigsuitdrukking: Wat jou gesig wys van dit wat jy voel.",
+      "bewering": "gesigsuitdrukking: Die manier waarop jou gesig wys hoe jy voel.",
       "blok": "gesigsuitdrukking",
       "status": "bevestig",
-      "bron": "Algemene woordeboekbetekenis: die uitdrukking van die gesig as teken van gevoel. KABV Lewensvaardighede Gr 4-6, bl. 35, noem 'facial expression' en 'emotion' saam as sleutelterme vir Kwartaal 3.",
+      "bron": "CAPS Gr 4 Term 3 key term 'facial expression'; the standard sense. Read alone: true.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "emosie: 'n Gevoel wat vanself in jou opkom en weer wegraak.",
+      "blok": "emosie",
+      "status": "bevestig",
+      "bron": "APA (adapted from the APA Dictionary of Psychology, apa.org): emotion is a reaction pattern that typically involves feeling; APA Handbook (Dess 2010, quoted on researchcatalogue.net): a 'relatively brief episode'. 'Vanself' reads as 'without your choosing', which fits, and 'weer wegraak' matches 'brief'. Read alone: true. It does not say an emotion has no cause.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "rekwisiete: Die voorwerpe wat spelers in 'n drama gebruik, soos 'n hoed of 'n stok.",
+      "blok": "rekwisiete",
+      "status": "bevestig",
+      "bron": "CAPS Life Skills Gr 4 Term 3 resources, p. 35: 'Props such as cans, suitcases, hats, newspapers, balls'. CAPS names a hat as a prop itself. Theatre usage (LibreTexts 'Stage Properties') files worn hats as 'costume props', so the example is sound. Read alone: true.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "ruggraat: Die ry klein beentjies wat in die middel van jou rug loop.",
+      "blok": "ruggraat",
+      "status": "bevestig",
+      "bron": "Kenhub 'The vertebral column'; Elsevier anatomy: a column of 33 vertebrae running down the midline of the back. Read alone: true at Grade 4 simplification.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "isolasie: Om een deel van die lyf alleen te beweeg terwyl die res stil bly.",
+      "blok": "isolasie",
+      "status": "bevestig",
+      "bron": "St. Olaf College Dance, 'Modern Dance Language' ('hold one part of the body still while moving another part'); CAPS Gr 4 Term 3 'Body part isolations'. Read alone: true.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "do-so: Vyf note wat na mekaar al hoër klink: do, re, mi, fa en so.",
+      "blok": "do-so",
+      "status": "bevestig",
+      "bron": "CAPS Gr 4 Term 3 Topic 3: 'Recognise melodies in range of 5th using tonic solfa (doh to soh)'. Doh-ray-me-fah-soh are five rising degrees spanning a fifth. Read alone: true.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "klankprent: 'n Prentjie of storie wat julle net met klanke vertel.",
+      "blok": "klankprent",
+      "status": "bevestig",
+      "bron": "CAPS Gr 4 Term 3 key term 'sound picture (soundscape)' and 'Sound pictures using instruments ... to create a soundtrack for the drama and to introduce characters'; Scootle soundscape activity (sounds that create an environment or atmosphere). Read alone: true.",
       "tipe": "algemeen"
     }
   ],
-  "opsomming": "Al 35 bewerings is nagegaan en bevestig, ook die twee oortreffende trappe (die chilanzane die hoogste en die gulu die laagste, en die ngoma die grootste en diepste Venda-trom) en die vergelyking met die liniaal oor die tafelrand; let wel dat die verwysing na die Natuurwetenskappe-les op die pyplyn-eienaar se woord aangeteken is, want die nasiener het net die fisika self nagegaan en nie daardie les gelees nie."
+  "opsomming": "Every claim checks out except one: I could not confirm that learners meet the ruler-over-the-table-edge test in Natural Sciences (the official Grade 4 plan names an elastic band, and the sound topic may come later in the term), so a person should either confirm it or have the writer drop 'In Natuurwetenskappe' and keep the ruler as a stand-alone example."
 }

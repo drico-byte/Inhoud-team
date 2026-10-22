@@ -1,0 +1,94 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat by 'n masjien ingaan",
+      "voor": "wat by hom ingaan die inset",
+      "na": "wat by hom ingaan, die inset",
+      "soort": "leestekens",
+      "rede_vinder": "A comma closing the relative clause makes the sentence easier to read and matches 'Die deel wat ons wil hê, noem ons' in the next block.",
+      "fout": "The embedded relative clause runs straight into the complement ('ingaan die inset'), so a Grade 4 reader stumbles on where the clause ends.",
+      "rede_keurder": "The comma closing the relative clause is accepted AWS practice, makes the sentence readable on first pass, and changes no meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "in die flitslig bly dood",
+      "na": "in die flitslig bly donker",
+      "soort": "woordkeuse",
+      "rede_vinder": "'bly dood' is an odd way to describe a light that does not come on; 'bly donker' is the natural Afrikaans.",
+      "fout": "'bly dood' for a light that does not come on is loose and can suggest a broken bulb, which works against the block's point that nothing about the torch changed.",
+      "rede_keurder": "'bly donker' is the natural Afrikaans for an unlit light, says the same thing, and pairs cleanly with 'skyn helder' in the next sentence."
+    },
+    {
+      "nr": 3,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "niks verander nie, en net die inset het verander",
+      "na": "niks verander nie. Net die inset het verander",
+      "soort": "sinsbou",
+      "rede_vinder": "The two halves contrast, and 'en' joins them weakly; two short sentences make the contrast clear.",
+      "fout": "'en' joins two contrasting halves weakly, so the contrast between the unchanged torch and the changed input is blurred.",
+      "rede_keurder": "Two short sentences make the contrast clear for a Grade 4 reader without adding or losing anything."
+    },
+    {
+      "nr": 5,
+      "blok": "Die strykyster en die fiets",
+      "voor": "die ryer stoot self die pedale",
+      "na": "die ryer trap self die pedale",
+      "soort": "idioom",
+      "rede_vinder": "In Afrikaans you 'trap' a bicycle's pedals, not 'stoot' them; apply together with the next change so the noun matches.",
+      "fout": "'stoot die pedale' copies English 'push the pedals'; in Afrikaans you 'trap' pedals.",
+      "rede_keurder": "The fixed Afrikaans verb for pedalling replaces a translation, and the action and its source (the rider's own effort) stay the same."
+    },
+    {
+      "nr": 6,
+      "blok": "Die strykyster en die fiets",
+      "voor": "met elke stoot gaan",
+      "na": "met elke trap gaan",
+      "soort": "idioom",
+      "rede_vinder": "Follows the verb change above: each push on a pedal is 'n trap'; only apply if the previous change is kept.",
+      "fout": "Once the verb is 'trap', the noun 'stoot' in the next sentence no longer matches the action described.",
+      "rede_keurder": "Keeps the noun consistent with change 5 so the two sentences describe one action; kept together with change 5."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "Die energie lê al die tyd in daardie twee batterye gestoor",
+      "na": "Die energie is al die tyd in daardie twee batterye gestoor",
+      "soort": "sinsbou",
+      "rede_vinder": "'lê ... gestoor' is wooden; the passive 'is ... gestoor' is the usual construction and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'lê ... gestoor' is a normal Afrikaans posture-verb construction that carries the sense of energy resting there unused; 'is gestoor' is a lateral move that flattens it."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat by 'n masjien ingaan",
+      "teks": "By party huise maak die son op die dak die water warm.",
+      "rede": "'die son op die dak' reads literally as the sun sitting on the roof; the intended thing (sunlight on the roof, or a solar water heater on the roof) cannot be fixed without choosing the content, so the writer should decide."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 600,
+  "woorde_na": 599,
+  "wanneer": "2026-10-22T22:15:19+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 22,
+      "blok": "Die strykyster en die fiets",
+      "voor": "se gewig druk die los draadjies dan plat",
+      "na": "se gewig druk dan die los draadjies plat",
+      "soort": "woordorde",
+      "rede_vinder": "Dan sits more naturally straight after the verb, before the object.",
+      "fout": "none",
+      "rede_keurder": "Both word orders are natural Afrikaans, so this is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:fd6f09fcb95a8cd1a15701b71f968cfd",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:cac77a5d2bb15025d873eb63b4a8af66"
+}

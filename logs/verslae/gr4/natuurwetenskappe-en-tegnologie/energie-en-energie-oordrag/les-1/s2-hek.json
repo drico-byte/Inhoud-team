@@ -4,7 +4,10 @@
   "graad": 4,
   "vak": "Natuurwetenskappe en Tegnologie",
   "budget": 460,
-  "checked_at": "2026-08-26T08:44:59+00:00",
+  "begrotingsreel": "default ±15%: 391-529",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T21:59:58+00:00",
   "study": {
     "words": 487,
     "sentences": 35,
@@ -12,9 +15,9 @@
     "median_sentence_len": 12,
     "longest_sentence": 19,
     "mean_syllables": 1.2,
-    "pct_polysyllabic": 1.6,
+    "pct_polysyllabic": 1.9,
     "pct_long_words": 0.7,
-    "commas_per_sentence": 0.2,
+    "commas_per_sentence": 0.46,
     "list_words": 61
   },
   "eli10": null,
@@ -25,9 +28,11 @@
   },
   "misspelled": [],
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    "Study text 487 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (460) plus tolerance allows 529, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study text: 0.46 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination"
+  ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

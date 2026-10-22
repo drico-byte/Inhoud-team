@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/uitvoerende-kunste/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:ec1a867129ec2d3f931074a9e35058a7",
+  "konsep_hash": "sha256:23415368c074a62cf4d85eacd51a7a40",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -155,13 +155,383 @@
       "woorde": 447,
       "begroting": 400,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:46:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 10,
+      "laat_vaar": 3,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 447,
+      "woorde_na": 454,
+      "konsep_hash": "sha256:bcad5e586eff8b4479372a20dbdd8541"
+    },
+    {
+      "wanneer": "2026-10-22T20:46:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 454,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:46:52+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'al klink dit ewe hoog en hard.': Read alone, the glossary entry 'al klink dit ewe hoog en hard' has no comparison point.",
+        "fix: [taal] in 'Wat jou gesig wys van dit wat jy voel.': 'Wat jou gesig wys van dit wat jy voel' is wooden.",
+        "check (the language finder raised this; it may not be a fault): 'Die geskraapte bottel se riwwe klink grof.': The ridges themselves do not sound; the scraping does. Left unchanged because a rewording risks altering what the item claims; the reviewer may judge whether it needs the writer."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T20:51:23+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f5198a80d1c680b0cd83bd721ab3f89a",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T20:51:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 447,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:53:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 447,
+      "woorde_na": 449,
+      "konsep_hash": "sha256:b9856e156fc6f37c42600792a33aa901"
+    },
+    {
+      "wanneer": "2026-10-22T20:53:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:10:33+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:10:33+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 44,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:10:33+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "luister na 'n musiekstuk uit afrika"
+      ],
+      "tally": {
+        "luister na 'n musiekstuk uit afrika": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T21:10:33+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "dekking",
+      "siklus": 1,
+      "punte": [
+        "[dekking] Luister na 'n Afrika-musiekstuk ...: 'n kort luisteritem van — gedeeltelik: Voeg in die blok 'Luister na 'n musiekstuk uit Afrika' die derde ding by waarna die leerder luister: watter instrument of stem bo-oor die res van die musiek speel. Noem steeds geen bepaalde opname, stuk of groep nie, maak geen reël oor watter musiek watter gevoel gee nie, en betaal die paar woorde binne die plafon van 450 deur elders in die les korter te skryf, sonder om 'n kernitem te laat val."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:12:13+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8d2d93df3d3e26fc9a43abaa0f16d960",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T21:12:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:14:44+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 449,
+      "woorde_na": 449,
+      "konsep_hash": "sha256:68719a57d326c153fca7b076e513d87c"
+    },
+    {
+      "wanneer": "2026-10-22T21:14:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:14:45+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Die sand of klein klippies binne die kokonratels ratel wanneer die dan': The protected entry for 'kokonratels' says the compound is always introduced in full first ('ratels van gedroogde kokonne'), but in this lesson it appears without that introduction; a language agent cannot add it, so the writer should check whether it is needed here."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:17:22+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8e93fe34ab23ade441bebdb8f6fdb7f2",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T21:17:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:19:15+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 449,
+      "woorde_na": 448,
+      "konsep_hash": "sha256:025e48b6b88a5851ec7b6b0b86049142"
+    },
+    {
+      "wanneer": "2026-10-22T21:19:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 448,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:29:21+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b9798202ff7ed758e175a2530ad37403",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T21:29:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 447,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:31:29+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 447,
+      "woorde_na": 447
+    },
+    {
+      "wanneer": "2026-10-22T21:42:56+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:42:57+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 46,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:42:57+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "een groep van klein tot groot",
+        "timbila"
+      ],
+      "tally": {
+        "luister na 'n musiekstuk uit afrika": 1,
+        "timbila": 1,
+        "een groep van klein tot groot": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T21:42:57+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:45:12+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "luister na 'n musiekstuk uit afrika": 1,
+        "timbila": 1,
+        "een groep van klein tot groot": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T21:45:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:48561a4a59304e0e90c17cd6e9ca4501",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:45:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 447,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:47:04+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 447,
+      "woorde_na": 447,
+      "konsep_hash": "sha256:4c0f3e9e80a97ccad9907dc379e0857d"
+    },
+    {
+      "wanneer": "2026-10-22T21:47:05+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 447,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:47:05+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): ''n Instrument met houtlatte wat jy met kloppers slaan.': 'kloppers' for mallets is uncommon in Afrikaans (a 'klopper' is usually a door knocker or beater); a writer may prefer 'stokkies', but the choice touches what the learner pictures, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:49:50+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:46229dd907a4dc149ba494d987f3272f",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:49:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 447,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:52:02+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 447,
+      "woorde_na": 447
+    },
+    {
+      "wanneer": "2026-10-22T22:03:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:bf333e225c6ad1975a205810dde8ec83",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T22:03:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 445,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:06:58+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 445,
+      "woorde_na": 445,
+      "konsep_hash": "sha256:23415368c074a62cf4d85eacd51a7a40"
+    },
+    {
+      "wanneer": "2026-10-22T22:06:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 445,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:18:22+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:18:23+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 44,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:18:23+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\uitvoerende-kunste\\les-3.json",
+      "konsep_hash": "sha256:23415368c074a62cf4d85eacd51a7a40",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:f3cee809bfc988abee4eaddcc80f08aa",
+  "spek_hash": "sha256:02c03ad7bf331b79427422888785a943",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
   },
-  "taal_vir_skrywer": [],
-  "taal_rondte_vir": "sha256:ec1a867129ec2d3f931074a9e35058a7"
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Die geskraapte bottel klink grof as jy oor sy riwwe skraap.': 'geskraapte' and 'skraap' repeat each other; not changed because 'geskraapte bottel' may be the instrument's established name in earlier lessons."
+  ],
+  "taal_rondte_vir": "sha256:23415368c074a62cf4d85eacd51a7a40",
+  "taal_keurder_vir": "fcfe3cf3548707894cab16f0f2afd9ef",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:23415368c074a62cf4d85eacd51a7a40",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:4c0f3e9e80a97ccad9907dc379e0857d",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "f0d136bd41c002617c40741ea105f519"
 }

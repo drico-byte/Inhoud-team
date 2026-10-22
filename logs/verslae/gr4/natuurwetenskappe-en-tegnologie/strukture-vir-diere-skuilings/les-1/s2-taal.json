@@ -1,0 +1,94 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Wat is 'n struktuur?",
+      "voor": "of dit hou iets binne veilig",
+      "na": "of dit hou iets daarbinne veilig",
+      "soort": "sinsbou",
+      "rede_vinder": "'iets binne' is vague; 'daarbinne' makes it clear that the thing is kept safe inside the structure.",
+      "fout": "'hou iets binne veilig' leaves the bare adverb 'binne' loose, so a reader can parse it as 'keeps something in' rather than 'keeps what is inside it safe'.",
+      "rede_keurder": "'daarbinne' ties the inside to the structure and the meaning stays the same."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat is 'n struktuur?",
+      "voor": "is alles strukture",
+      "na": "is almal strukture",
+      "soort": "grammatika",
+      "rede_vinder": "When you list separate things, 'almal' is the right word; 'alles' is for a mass or a whole.",
+      "fout": "'alles' sums up three separately listed countable things, where Afrikaans uses 'almal'.",
+      "rede_keurder": "'is almal strukture' is the correct form for a list of separate items and changes nothing in the meaning."
+    },
+    {
+      "nr": 5,
+      "blok": "Materiale: waarvan skuilings gemaak is",
+      "voor": "dus bou mense hondehokke daarvan",
+      "na": "daarom bou mense hondehokke daarvan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'daarom' is the more natural linking word for a reason in a learner's text; 'dus' reads like a conclusion in an argument.",
+      "fout": "'dus' reads like the conclusion of an argument where a plain cause is meant, which is stiff for a Grade 4 reader.",
+      "rede_keurder": "'daarom' is the plain spoken connector for a reason and keeps the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Waarvoor het 'n dier 'n skuiling nodig?",
+      "voor": "waar 'n dier leef, en",
+      "na": "waar 'n dier lewe, en",
+      "soort": "woordkeuse",
+      "rede_vinder": "Both forms are correct, but the decided habitat definition in the glossary says 'lewe', so the body sentence should use the same verb.",
+      "fout": "none",
+      "rede_keurder": "'leef' and 'lewe' are equally natural and the body sentence paraphrases rather than quotes the definition, so this is a lateral move."
+    },
+    {
+      "nr": 4,
+      "blok": "Vorm en grootte",
+      "voor": "Baie voëlneste is soos 'n diep koppie",
+      "na": "Baie voëlneste lyk soos 'n diep koppie",
+      "soort": "idioom",
+      "rede_vinder": "'lyk soos' is the natural way to compare a shape; 'is soos' sounds wooden.",
+      "fout": "none",
+      "rede_keurder": "'is soos 'n diep koppie wat die eiers binnehou' compares both shape and function, and 'lyk soos' narrows it to appearance only."
+    },
+    {
+      "nr": 6,
+      "blok": "skuiling",
+      "voor": "Die plek waar 'n dier veilig is",
+      "na": "'n Plek waar 'n dier veilig is",
+      "soort": "woordkeuse",
+      "rede_vinder": "A shelter is one of many places, as the study text itself says ('n Skuiling is 'n plek ...), so the indefinite article fits better than 'Die'.",
+      "fout": "none",
+      "rede_keurder": "'Die plek waar ...' is the normal definite form for a glossary definition and matches the decided habitat definition, so there is no fault and nothing to send to the writer."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Dopstrukture en raamstrukture",
+      "teks": "'n Raamstruktuur is los dele wat aanmekaar sit met oop plekke tussenin.",
+      "rede": "This study-text sentence repeats the decided raamstruktuur definition but ends in 'tussenin' where the decided wording says 'tussen hulle'. Someone should decide whether the body should match the decided wording word for word; not changed because it touches a decided definition."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 747,
+  "woorde_na": 747,
+  "wanneer": "2026-10-22T22:22:56+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Skulpe en hol bome",
+      "voor": "maak dikwels daar hul huis",
+      "na": "maak dikwels hul huis daar",
+      "soort": "woordorde",
+      "rede_vinder": "More natural word order: the object comes before the place adverb.",
+      "fout": "none",
+      "rede_keurder": "'maak dikwels daar hul huis' is already natural Afrikaans order; the proposal is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:80698923f9df79bd7c1528c23fb6fc4c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1c0b8819c43e16d547c946a8e08154f3"
+}

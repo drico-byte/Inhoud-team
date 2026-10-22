@@ -1,0 +1,18 @@
+{"prompt_weergawe": "taalkeurder-v1.3",
+ "besluite": [
+  {"nr": 1, "besluit": "HOU",
+   "fout": "geel-groen is hyphenated; AWS writes a compound of two colour names as one word (geelgroen, like blougroen).",
+   "rede": "Plain spelling fix in a study sentence, not a protected word, meaning unchanged."},
+  {"nr": 2, "besluit": "HOU",
+   "fout": "diep groen is written apart; a colour name with a shade qualifier is one word, like the title's liggroen and donkergroen.",
+   "rede": "Spelling fix that matches the lesson's own title; the comparatives ligter groen and donkerder groen elsewhere are rightly separate and untouched."},
+  {"nr": 3, "besluit": "HOU",
+   "fout": "geel-groen is hyphenated, the same fault as change 1.",
+   "rede": "Same spelling fix as change 1, keeping both occurrences in the paragraph consistent."},
+  {"nr": 4, "besluit": "HOU",
+   "fout": "langs mekaar ... van mekaar repeats mekaar within a few words and reads wooden.",
+   "rede": "Two things that verskil already differ from each other, so dropping van mekaar loses nothing and the sentence reads more smoothly."},
+  {"nr": 5, "besluit": "LAAT VAAR",
+   "fout": "none",
+   "rede": "Werk points clearly to the picture or model named in the sentence just before, so kunswerk is a lateral move rather than a fix."}
+ ]}

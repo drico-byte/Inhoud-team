@@ -1,0 +1,81 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar water vries en weer smelt",
+      "voor": "vries daar bo tot",
+      "na": "vries daarbo tot",
+      "soort": "spelling",
+      "rede_vinder": "The adverb 'daarbo' (up there) is written as one word under the AWS.",
+      "fout": "The adverb 'daarbo' (up there) is written apart as 'daar bo'.",
+      "rede_keurder": "Plain spelling fix: daar + preposition adverbs like daarbo are written as one word, and the meaning is unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die siklus begin van voor af",
+      "voor": "In hierdie stappe van die siklus",
+      "na": "By hierdie stappe van die siklus",
+      "soort": "woordkeuse",
+      "rede_vinder": "The opening block says 'By sommige stappe'; using the same preposition for the same steps reads more consistently and naturally.",
+      "fout": "none",
+      "rede_keurder": "'In hierdie stappe' already reads naturally and means the same as 'By hierdie stappe'; matching the opening block's preposition is a lateral move."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "watersiklus",
+      "voor": "Dieselfde water se pad tussen die see, die lug en die land.",
+      "na": "Die pad wat dieselfde water tussen die see, die lug en die land loop.",
+      "soort": "sinsbou",
+      "rede_vinder": "The possessive 'Dieselfde water se pad' is stiff for a definition; a relative clause reads more naturally with the same meaning.",
+      "fout": "The possessive 'Dieselfde water se pad' is a little compressed and stiff for a definition.",
+      "rede_keurder": "The fault is real but slight, and rewording a glossary definition is the writer's job so every lesson that defines the term stays identical.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 4,
+      "blok": "swaartekrag",
+      "voor": "Die krag wat alles na die aarde toe aftrek.",
+      "na": "Die krag wat alles na die aarde toe trek.",
+      "soort": "idioom",
+      "rede_vinder": "'na ... toe' already gives the direction, so 'aftrek' doubles it; 'na die aarde toe trek' is the idiomatic form.",
+      "fout": "'na die aarde toe aftrek' gives the direction twice, which is slightly redundant.",
+      "rede_keurder": "A minor style point inside a glossary definition that may be shared across lessons, so the writer must decide and change it everywhere at once if needed.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 450,
+  "woorde_na": 449,
+  "wanneer": "2026-10-22T22:15:34+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Water wat dieselfde pad oor en oor loop",
+      "voor": "Swaartekrag trek die water weer af na 'n laer plek",
+      "na": "Swaartekrag trek die water weer na 'n laer plek af",
+      "soort": "woordorde",
+      "rede_vinder": "The separable particle 'af' belongs at the end, after the prepositional phrase.",
+      "fout": "none",
+      "rede_keurder": "Placing the prepositional phrase after 'af' is normal Afrikaans; the proposal is a lateral reordering."
+    },
+    {
+      "nr": 14,
+      "blok": "Waar water vries en weer smelt",
+      "voor": "Die water loop dan by die berge af en dit vul die riviere",
+      "na": "Die water loop dan teen die berge af en vul die riviere",
+      "soort": "idioom",
+      "rede_vinder": "Water runs 'teen' a slope 'af', and dropping the redundant 'dit' makes it one sentence with a shared subject, so no comma is needed.",
+      "fout": "none",
+      "rede_keurder": "'by die berge af' is idiomatic Afrikaans, so the preposition swap is lateral, and the original sentence already reads well."
+    }
+  ],
+  "konsep_hash_voor": "sha256:f3aa69c161c3e4b0925f0d1b6e955498",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:2a25501811ead6c1d35a38b77cbdaffe"
+}

@@ -1,7 +1,7 @@
 {
   "les": "gr6/lewensvaardighede/ontwikkeling-van-self/les-11",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:aca13c38a5ffff1728b2ebe6684158ef",
+  "konsep_hash": "sha256:23bd10af25f5a73ed21163792b8c43dc",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -58,11 +58,132 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\ontwikkeling-van-self\\les-11.json",
       "konsep_hash": "sha256:aca13c38a5ffff1728b2ebe6684158ef",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-22T21:31:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b0b3d0498b09f39d8f2cd701f959b8fe",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:31:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 614,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:31:49+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:b0b3d0498b09f39d8f2cd701f959b8fe",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-22T21:35:56+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 2,
+      "na_skrywer": 3,
+      "nie_toegepas": 0,
+      "woorde_voor": 614,
+      "woorde_na": 612,
+      "konsep_hash": "sha256:d5204d2be9830d6b46747f01c0dadc6a"
+    },
+    {
+      "wanneer": "2026-10-22T21:35:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 612,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:35:57+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Hy vra ook hoe, soos met 'n briefie.': 'Hy' follows a 'hy' meaning the other child, so it is unclear who asks, and 'hoe' dangles.",
+        "fix: [taal] in 'Childline help langs hierdie grootmense': 'langs' used in the English sense of 'alongside / in addition to' is a mild anglicism.",
+        "fix: [taal] in 'ekstra hulp langs die grootmense': 'langs' used in the English sense of 'alongside / in addition to' is a mild anglicism.",
+        "check (the language finder raised this; it may not be a fault): 'Hou op om saam te doen.': 'saam te doen' does not say what the child joins in with; making it explicit (for example joining in when the group bullies) would need the writer, because it adds content."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T21:39:05+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a3d71b72da28b1ebb6780d57a09adaf2",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T21:39:05+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 610,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:42:57+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 3,
+      "na_skrywer": 4,
+      "nie_toegepas": 0,
+      "woorde_voor": 610,
+      "woorde_na": 609,
+      "konsep_hash": "sha256:23bd10af25f5a73ed21163792b8c43dc"
+    },
+    {
+      "wanneer": "2026-10-22T21:42:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 609,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:49:16+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:49:16+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 27,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T21:49:16+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\ontwikkeling-van-self\\les-11.json",
+      "konsep_hash": "sha256:23bd10af25f5a73ed21163792b8c43dc",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:3b36292212d86a1382b7506bd9c57dc6",
   "hek_konteks": {
     "graad": 6,
     "begroting": 550
-  }
+  },
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'of en hoe hy wil hê jy moet jammer sê, soos met 'n briefie': 'of en hoe' stacks two conjunctions and makes a reader stumble.",
+    "fix: [taal] in 'Childline is ekstra hulp en nie in plaas van hierdie grootmense nie': The verbless 'en nie in plaas van hierdie grootmense nie' reads stiffly.",
+    "fix: [taal] in 'Childline is ekstra hulp en nie in plaas van die grootmense naby jou n': The verbless 'en nie in plaas van die grootmense naby jou nie' reads stiffly.",
+    "fix: [taal] in 'dat jy dit amper sonder om te dink doen': The definition ends on a second 'doen' after the inserted phrase, which reads clumsily.",
+    "check (the language finder raised this; it may not be a fault): 'Hou op om saam te doen.': Vague: it does not say with whom or in what; the reader must reach back to 'saamlag wanneer die groep dit doen' two blocks earlier. Making it explicit (e.g. joining in when a group bullies) would mean guessing the intended scope, so it is flagged rather than changed."
+  ],
+  "taal_geforseer_vir": "sha256:b0b3d0498b09f39d8f2cd701f959b8fe",
+  "taal_rondte_vir": "sha256:23bd10af25f5a73ed21163792b8c43dc",
+  "taal_keurder_vir": "6bbb9f0bd93f4854b8a7eba7f81af88d",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:23bd10af25f5a73ed21163792b8c43dc",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:d5204d2be9830d6b46747f01c0dadc6a",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "80c5f2ef20ecebf3cba8e5d2323cdfca"
 }
