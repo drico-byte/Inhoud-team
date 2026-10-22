@@ -17,7 +17,7 @@
 - [Contested classification: swap the example](betwiste-klassifikasie-ruil-die-voorbeeld.md) — no fact to settle, so don't pick a side and don't hedge; replace it with a clean example.
 - [No questions in lessons](geen-vrae-in-lesse-nie.md) — done across the standard, prompts and tooling.
 - [Incomplete is fine, false contrast is not](kaps-se-lys-wen-oor-die-handboek-se-lys.md) — a short list may omit things, but not so that two lists in one lesson differ where they.
-- [Afrikaans: wait for the specialists](afrikaans-wag-vir-spesialiste.md) — on hold; CAPS already fixes text lengths and demands in-context teaching, and we may write our own stories.
+- [Languages: parked](afrikaans-wag-vir-spesialiste.md) — Afr HL + Eng FAL Gr 4-6 language structures; approach sketched 19 Oct 2026, parked until the user returns.
 - [Cross-check the term plan against CAPS](kruistoets-die-termynplan-teen-kaps.md) — all three parts of the document disagree; produce a coverage map before writing anything.
 - [Every lesson gets its own name](elke-les-kry-n-eie-naam.md) — the title is the learner's hero heading, never the CAPS label; and nothing checks a title the way it checks the text.
 - [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — Term 1 is 1-8, Term 2 starts at 9, ~30 total; the file name is his CAPS index, the title is the hero.
@@ -27,7 +27,6 @@
 - [Contested classification: swap the example](betwiste-klassifikasie-ruil-die-voorbeeld.md) — no fact to settle, so don't pick a side and don't hedge; replace it with a clean example.
 - [No questions in lessons](geen-vrae-in-lesse-nie.md) — older lessons keep theirs, and evidence that lived in a question moves into the study text.
 - [Incomplete is fine, false contrast is not](kaps-se-lys-wen-oor-die-handboek-se-lys.md) — a short list may omit things, but not so that two lists in one lesson differ where they don't really.
-- [Afrikaans: wait for the specialists](afrikaans-wag-vir-spesialiste.md) — on hold; CAPS already fixes text lengths and demands in-context teaching, and we may write our own stories.
 - [Cross-check the term plan against CAPS](kruistoets-die-termynplan-teen-kaps.md) — all three parts of the document disagree; produce a coverage map before writing anything.
 - [Every lesson gets its own name](elke-les-kry-n-eie-naam.md) — and nothing checks a title the way it checks the text.
 - [Lesson numbers run through the year](lesnommers-loop-deur-die-jaar.md) — the file name is his CAPS index, the title is the hero.
@@ -278,3 +277,6 @@
 - [This PC does layouts only](hierdie-rekenaar-doen-net-uitlegte.md) — the other PCs write content from the layouts we push; starting with Grade 7 SW.
 - [Gr 7 SW layout: where we are](gr7-sw-uitleg-waar-ons-is.md) — History 280/h from Drico's Term 1 count; Geography awaiting its count; four open questions.
 - [A map needed means a note in the lesson](kaart-nodig-maak-n-nota.md) — the HTML team builds it; was never recorded and the writer prompt said the opposite.
+- [CAPS audit of all Gr 4-6 content](caps-oudit-gr4-6.md) — all 13 subject-grades audited 22 Oct 2026; report links, decisions waiting, what is owed; changes only after all audits.
+- [Reports in HTML](verslae-in-html.md) — Drico: reports read easier as HTML; publish as artifact plus copy in Dump.
+- [Language test: Claude vs ChatGPT](taaltoets-claude-teen-chatgpt.md) — blind test 22 Oct 2026: Claude 38 extra fixes but 17 rejected changes; taalnasiener-v1.0 being tuned; AWS comma before en.

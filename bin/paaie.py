@@ -281,6 +281,32 @@ def staat_pad(les_pad):
     return newe(les_pad, "staat")
 
 
+# The language step (bin/taalstap.py). The finder's proposals, the reviewer's
+# decisions and the report of what was applied are kept beside the draft, like the
+# checkers' reports. The agents' INPUT files are regenerated on every run and live
+# in a gitignored taal-invoer/ folder, like the fact checker's copy.
+def taalvinder_verslag(les_pad):
+    return newe(les_pad, "taalvinder")
+
+
+def taalkeurder_verslag(les_pad):
+    return newe(les_pad, "taalkeurder")
+
+
+def taal_verslag(les_pad):
+    return newe(les_pad, "taal")
+
+
+def taal_html(les_pad):
+    return les_pad[:-len(".json")] + ".taal.html"
+
+
+def taal_invoer(les_pad, wie):
+    """Input file for one language agent: taal-invoer/les-3.<wie>.txt"""
+    naam = os.path.basename(les_pad)[:-len(".json")] + f".{wie}.txt"
+    return os.path.join(os.path.dirname(les_pad), "taal-invoer", naam)
+
+
 # ------------------------------------------------------------------ approved
 
 # ------------------------------------------------------------------ profiles

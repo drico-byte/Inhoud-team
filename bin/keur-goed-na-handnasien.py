@@ -18,6 +18,15 @@ nobody checked.
 
     python bin/keur-goed-na-handnasien.py --vak Lewensvaardighede --graad 5 \\
         --subonderwerp "Ontwikkeling van self" --les 2
+
+THE LANGUAGE STEP COMES FIRST (22 October 2026). A revised draft goes through the
+language step before it is checked. So the hand cycle is: writer, then run
+bin/hardloop.py until it names the two checkers (it runs the gate, the language
+finder and reviewer, and the gate again on the way), then brief the checks by hand,
+then this script. If the language step was skipped, the runner names the language
+finder instead of signing off, and this script prints that and changes nothing
+else; if the language step then changes the text, the restored reports describe
+the old text and are archived by the runner, so the checks must be run again.
 """
 
 import argparse
@@ -56,7 +65,12 @@ def main():
             sys.exit(f"The {soort} report says {verdict}, not GOEDGEKEUR. Nothing was changed.")
         if os.path.getmtime(pad) < les_tyd:
             sys.exit(f"The {soort} report is older than the draft, so it checked an earlier "
-                     f"version. Run the check again. Nothing was changed.")
+                     f"version. Run the check again. Nothing was changed.\n"
+                     f"One exception: if the runner was called after these checks only to "
+                     f"pass the language step, and it reported that step changed nothing "
+                     f"and the lesson CLEAR, the reports still describe this text -- the "
+                     f"runner re-saves the draft without changing its words. Then sign off "
+                     f"with the runner's own --keur-goed command, which it printed.")
 
     stash = tempfile.mkdtemp(prefix="keur-goed-")
     for soort, pad in verslae.items():
@@ -83,6 +97,18 @@ def main():
             reels = [reel for reel in r.stdout.splitlines() if merk in reel]
             if reels:
                 print(reels[0])
+        # The language items still open are the one part of the runner's sign-off
+        # that a person must act on, so they are passed through whole.
+        reels = r.stdout.splitlines()
+        for i, reel in enumerate(reels):
+            if "Language items still open" in reel:
+                blok = [reel]
+                for volg in reels[i + 1:]:
+                    if not volg.strip():
+                        break
+                    blok.append(volg)
+                print("\n".join(blok))
+                break
         shutil.rmtree(stash, ignore_errors=True)
         return 0
     print("The runner did not sign it off. The reports are back beside the draft, and a "

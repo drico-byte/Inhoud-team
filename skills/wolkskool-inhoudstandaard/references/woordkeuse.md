@@ -159,9 +159,9 @@ the test rather than mis-stating it. An approximation of a legal standard teache
 wrong standard, and nothing in the wording tells a learner that it has been loosened.
 
 **And the part that makes the rule work: record which branch was taken, every time, in
-`kaps/beskermde-woorde.json`.** The outside Afrikaans language check will reverse any
-divergence from the source it discovers, in good conscience and correctly by its own
-lights, and that file is the only thing that reaches it. A branch-2 or branch-3
-decision that is not there is silently undone, and nothing re-checks a lesson after
-that pass. **Give the reason and not just the prohibition** — a checker who
+`kaps/beskermde-woorde.json`.** The Afrikaans language check (since 22 October 2026
+the two language agents inside the pipeline, before that an outside tool) will reverse
+any divergence from the source it discovers, in good conscience and correctly by its
+own lights, and that file is the only thing that tells it not to. A branch-2 or
+branch-3 decision that is not there is silently undone. **Give the reason and not just the prohibition** — a checker who
 understands why holds the line when a sentence reads awkwardly.

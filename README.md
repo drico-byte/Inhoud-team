@@ -9,6 +9,8 @@ profiler (script, once per subject-grade)  → profiele/<config>.json
 planner  (agent, once per CAPS sub-topic)  → spesifikasies/konsep/   [human approves]
 writer   (agent, per lesson)               → konsepte/
 gate     (script)                          → PASS, or back to the writer with numbers
+language finder → reviewer (two agents)    → kept changes applied by bin/taalstap.py
+gate     (script, language allowance)      → PASS, or back to the writer
 coverage + facts (agents, in parallel)     → checker reports
 verdict_check (script)                     → validates the reports themselves
                                            → human sign-off → goedgekeur/
@@ -174,7 +176,11 @@ When drift is real, one wording wins and the losers are rewritten **through the
 writer**, at their source in the spec as well as in the draft. A third wording
 makes it worse.
 
-The other cross-lesson tool prepares a lesson for the outside language checker:
+The other cross-lesson tool prepares a lesson for the language check. Since
+22 October 2026 that check runs inside the pipeline (two agents, `wolkskool-taalvinder`
+and `wolkskool-taalkeurder`, named by `bin/hardloop.py` between the gate and the
+fact check), and this tool builds their input; run on its own it still prints a
+block for an outside checker:
 
 ```bash
 python bin/taalnasien.py --vak "Natuurwetenskappe en Tegnologie" --graad 4     --subonderwerp "Vaste stowwe" --les 2
@@ -240,22 +246,23 @@ happen to agree on a rejected wording look exactly like lessons that are right.
 
 ### Checking lessons that have already been built
 
-The outside language check happens after the fact check and before the HTML
-build, so the built lessons and this repository diverge, and the built ones are
-what learners read.
+Lessons signed off before 22 October 2026 went through an outside language check
+after the fact check, and any built page can drift from the repository on the way
+(an out-of-date copy, a hand edit). The built pages are what learners read, so check
+them against the repository before a person reads them.
 
 ```bash
 python bin/htmlnasien.py --html "<folder of built lessons>"
 ```
 
 It reads the built pages and reports three things: shared definitions that do not
-match the agreed wording, definitions the language checker changed on its own,
-and protected words it reverted. It handles both builders' markup, which differ.
+match the agreed wording, definitions changed on their own,
+and protected words reverted. It handles both builders' markup, which differ.
 
 **Judge the protected-word hits by hand.** `krag` is correct where it means force
 and `lug` where it means air; the tool flags the word, not the sense. And where
-the language checker's version is better and the term is not shared, the
-repository adopts *its* wording rather than the reverse.
+the built page's version is better and the term is not shared, the repository
+adopts *its* wording, through the writer, rather than the reverse.
 
 ```bash
 python bin/wat-het-verander.py --sedert <commit> --lesse 1-5

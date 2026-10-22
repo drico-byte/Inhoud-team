@@ -48,8 +48,11 @@ python bin/hardloop.py --vak "<subject>" --graad 4 --subonderwerp "<sub-topic>" 
 ```
 
 Order: profiler (script) → planner (agent) → **human approves the spec by moving
-it** → writer (agent) → gate (script) → coverage and facts checkers (two agents,
-in parallel, never the same one) → approval.
+it** → writer (agent) → gate (script) → **language finder, then language reviewer
+(two agents, one after the other)** → gate again (script, with the language
+allowance) → coverage and facts checkers (two agents, in parallel, never the same
+one) → approval. The language step is new since 22 October 2026; see "The Afrikaans
+check happens inside the pipeline, before the fact check" below.
 
 Coverage needs the spec. **The fact checker must never see it**, or it reads the
 lesson charitably.
@@ -71,10 +74,19 @@ the fact checker gets the lesson alone. **Drico's decision, 9 September 2026.**
 Do not instead ask writers to leave requirements out of their notes. That was tried, it
 did not hold, and it asks them to lose the thing the note exists for.
 
-**"Regenerated on every run" means every run of the runner, and a repair cycle does not
-use the runner.** `hardloop.py` archives a finished report and demands the check again,
-so a second pass over already-checked lessons gets briefed by hand — and then nothing
-rewrites the copy. It goes stale silently and costs in both directions: the checker
+**A repair cycle runs the runner up to the two checkers, and only the checks are briefed
+by hand** (since 22 October 2026, because the language step sits in front of the
+checks): writer, then `hardloop.py` until it names the two checkers, then
+`bin/feitekopie.py`, then the two checks by hand, then `keur-goed-na-handnasien.py`.
+Briefing the checks straight after the writer wastes them: the sign-off script refuses,
+the runner names the language finder, and if that step changes the text the reports
+describe the old one. The full order is under "The Afrikaans check happens inside the
+pipeline" below.
+
+**"Regenerated on every run" means every run of the runner, and the checks in a repair
+cycle are briefed by hand.** `hardloop.py` archives a finished report and demands the
+check again, so a second pass over already-checked lessons gets briefed by hand — and
+then nothing rewrites the copy. It goes stale silently and costs in both directions: the checker
 reports faults that were already repaired, and it gives a clean verdict to text nobody
 read. On 19 September 2026 thirty of thirty-two Grade 5 Lewensvaardighede copies were
 behind their drafts and a whole round of fact checks had to be thrown away; two of three
@@ -135,27 +147,151 @@ that is a question about meaning, and the first version tried to detect it by lo
 for the withdrawn form quoted in the record, which found nothing when tested against a
 commit that definitely had the fault. **Read every field it names, from the top.**
 
-## The Afrikaans check happens outside this pipeline
+## The Afrikaans check happens inside the pipeline, before the fact check
 
-A separate tool checks grammar, idiom and direct-translation errors, and it is
-better at Afrikaans than we are. It will also **undo our decisions unless it is
-told not to** — every protected word reads like ordinary Afrikaans that could be
-improved, which is exactly why it needs protecting. `energie` where `krag`
-sounds more natural. `die meeste` where `byna elke` is smoother. `ungquphantsi`,
-which looks like a typo.
+**Drico, 22 October 2026.** The language check used to be done outside this
+repository, by ChatGPT, after the fact check — so a language change that altered a
+claim was seen by nobody. It now runs inside the pipeline, after the first gate and
+**before** coverage and facts, so the checkers read the final wording. Drico chose
+this after three blind tests in which the two-step Claude check found more faults
+than ChatGPT, made fewer bad changes, flagged withdrawn safety wording, and left
+shared definitions alone.
+
+`bin/hardloop.py` runs it and names each step, like every other agent:
+
+1. **`wolkskool-taalvinder`** proposes every improvement it can find
+   (`prompts/taalvinder-v1.x.md`).
+2. **`wolkskool-taalkeurder`** decides each proposal (`prompts/taalkeurder-v1.x.md`):
+   - `HOU`: applied;
+   - `LAAT VAAR`: not applied;
+   - `NA SKRYWER`: a real fault a language agent may not fix.
+3. **`bin/taalstap.py`**, called by the runner, applies only what the reviewer kept.
+   - Each change is located once in the original text, as whole words, and must
+     occur exactly once.
+   - Overlapping changes are not applied.
+   - A change is **not applied**, whatever the reviewer said, if it removes a
+     protected wording, brings in a forbidden one, or rewrites a decided or shared
+     definition. A change that only sits next to a protected wording and leaves it
+     intact is applied; case does not matter.
+
+   It writes `les-N.taal.json` and a readable before-and-after report,
+   `les-N.taal.html`, beside the draft.
+4. **The gate runs again with the language allowance** (Drico, 22 October 2026).
+   Once a lesson's text carries language edits:
+   - word floors and ceilings move by up to 5% of the budget;
+   - a list item may run 3 words over;
+   - the comma limit only warns, because the AWS comma the step adds is required,
+     not subordination.
+
+   A writer's first draft, before any language step, is gated at the normal limits.
+   Sentence length and word length are never relaxed.
+5. **What could not be applied goes on:**
+   - Items a writer can fix go to the writer **once per revision cycle**, before the
+     checkers, without spending a revision. They are described as faults, never as
+     wording to paste in. A change refused for a protected or forbidden wording goes
+     to the writer too, with the words it must keep. Each item says `fix:` (the
+     reviewer judged it a fault) or `check` (a finder's flag nobody judged).
+   - If the writer judges an item not to be a fault, it keeps the sentence and says
+     why in the provenance note. The runner sees the note changed and goes on.
+   - Items for a person are never sent to one lesson's writer: a change to a decided
+     or shared definition (whether the guard refused it or the reviewer sent it on),
+     a doubt about a protected word, and a safety flag. They are printed at sign-off,
+     by the runner and by `keur-goed-na-handnasien.py`, with anything left from the
+     writer's list, and they stay in the lesson's `.taal.html` report. Nothing lists
+     them across lessons yet.
+
+   If the second gate fails because of a language change (a sentence made too long),
+   the lesson goes back to the writer like any gate failure, and that does spend a
+   revision.
+
+**Withdrawn safety wording stops the lesson for a person.** If the finder flags
+`"soort": "VEILIGHEID"`, the runner escalates instead of sending the lesson to the
+writer: a false flag sent to the writer comes back every round. A person decides
+first — a real one is fixed at its source in the spec and sent to the writer — and
+then re-runs with `--hervat`. The flag stays listed with the open items at sign-off.
+It is narrow on purpose: most `NIE` lines in the protected list are ordinary word
+choices, not withdrawn wording.
+
+**A repair goes through the language step again.** A fact-check or coverage repair
+makes a new draft, and a new draft gets the full sequence: gate, language, gate,
+checks. The finder is shown the previous round's changes, so it does not re-propose
+one the writer reverted on purpose.
+
+**The hand cycle changed too:**
+
+1. The writer revises.
+2. Run `bin/hardloop.py` until it **names the two checkers**. It runs the gate, the
+   language step and the gate again on the way.
+3. Brief the checks by hand (run `bin/feitekopie.py` first).
+4. Sign off with `bin/keur-goed-na-handnasien.py`.
+
+If you skip step 2, the sign-off script refuses: the runner names the language finder
+instead. If the language step then changes the text, any restored reports describe
+the old text and are archived. If it changes nothing, the runner reports the lesson
+CLEAR, but the sign-off script still refuses because the runner re-saved the draft
+after the reports were written. Sign off with the `--keur-goed` command the runner
+prints.
+
+**Neither language agent sees the spec's requirements or the provenance note**, for
+the same reason the fact checker doesn't: knowing the intent makes it read
+charitably. Their input does carry the protected-word entries and the prescribed
+definitions from the spec, which is protection, not intent. The input files are
+regenerated by the runner in a gitignored `taal-invoer/` folder.
+
+**The writer's own predictions do not reach the agents by themselves.** Writers record
+in the provenance note which words they expect a language check to swap. The note is
+kept from the agents, so when the runner names the finder it tells the operator to read
+the note and move any missing ones into `kaps/beskermde-woorde.json`, with the reason,
+before launching it. On 22 October 2026, 27 of 387 drafts carried such guidance.
+
+**Lessons that predate this step are left alone, if their text has not changed.** A
+lesson is skipped only if its current text was already recorded by the runner before
+the step shipped (TAALSTAP_SEDERT in `bin/hardloop.py`) and it was already checked or
+signed off. The runner says `SKIPPED`, and the language step runs the next time that
+lesson is revised. Everything else gets the step: a draft gated but not yet checked; a
+lesson whose text changed after the runner last recorded it, including a hand repair;
+and a draft checked by hand before the step shipped but never recorded since. On the
+day it shipped that was 130 lessons skipped and about 180 changed since their last
+record, which will get the step if the runner is asked about them.
+
+**On the other machines: finish what is in flight before pulling.** Work signed off
+there with the old code after the ship time counts as after-ship. If the runner is
+ever asked about such a lesson, it gets the language step, and an applied change
+alters a signed-off lesson's text and removes its reports. **Let checks already running
+finish before the next runner call:** if the language step changes the text under
+them, their reports describe the old text.
+
+**After pulling this, restart Claude.** New agent types load only when a session
+starts. Without a restart, `wolkskool-taalvinder` and `wolkskool-taalkeurder` are not
+available, and an operator would improvise with a general agent.
+
+**A known gap:** in Grade 4 Sosiale Wetenskappe, the video's vocabulary lives in the
+spec's `video_naat`, which the language agents never see. A term the video used must
+be in `kaps/beskermde-woorde.json` to be protected from "improvement".
+
+The agents still **undo our decisions unless they are told not to** — every
+protected word reads like ordinary Afrikaans that could be improved, which is
+exactly why it needs protecting. `energie` where `krag` sounds more natural. `die
+meeste` where `byna elke` is smoother. `ungquphantsi`, which looks like a typo. Their
+input is built by `bin/taalnasien.py`, which adds the protected words with the reason
+for each, and protects glossary entries shared between lessons automatically:
 
 ```bash
 python bin/taalnasien.py --vak "<subject>" --graad 4 --subonderwerp "<sub-topic>" --les 1
 ```
 
-That builds the block to paste in: the instruction, the protected words with the
-reason for each, then the lesson. Glossary entries shared between lessons are
-protected automatically, by reading the other lessons.
+Run on its own, that command still prints a paste-ready block for an outside checker.
+
+**Commas follow the AWS 2017:** a comma before `en`, `maar`, `want` or `of` when it
+joins two sentences that each have their own subject and verb. There is never a comma
+before `en` in a list or between parts of one sentence. Drico checked this himself.
 
 **When a ruling settles a word, write it into `kaps/beskermde-woorde.json` in the
 same breath.** The spec records it for our own writer; nothing carries it
 downstream unless it is there. Give the reason, not just the prohibition — a
-checker that understands why holds the line when a sentence reads awkwardly.
+checker that understands why holds the line when a sentence reads awkwardly. Every
+entry needs a `hou` field: one written with `woord` instead was skipped, and before
+22 October 2026 it crashed the tool.
 
 ## Write the whole year before finishing any of it
 
@@ -368,24 +504,36 @@ so a check that the old wording is gone from the whole field fails on the note's
 quotation. Assert against the requirement sentence — the text before the dated note —
 not the field.
 
-## The language checker edits after the fact checker, and nothing re-checks it
+## Check built HTML against the repository before a person reads it
 
-This is a real hole, not a caution. The order is: fact check, then the outside
-language check, then HTML. A language "improvement" that changes a claim is seen
-by nobody.
+Drico builds the HTML from the signed-off lesson, and then a person checks it. Two
+things can still go wrong between sign-off and the page:
+
+- **The HTML is built from an out-of-date copy.** On 22 October 2026 five Grade 4
+  PSW lessons were found delivered in their versions from before the 21 September
+  corrections. One of them was the body-safety lesson, with two sentences that had
+  been withdrawn for child-safety reasons.
+- **A wording is changed by hand on the way.**
+
+Lessons checked before 22 October also went through ChatGPT after the fact check, and
+nothing re-checked that step.
 
 ```bash
 python bin/htmlnasien.py --html "<folder of built lessons>"
 ```
 
 Run it over built lessons to compare them against the repository and the agreed
-wordings. It reports three things: shared definitions that do not match,
-definitions the language checker changed on its own, and protected words it
-reverted. **Check the protected-word hits by hand** — `krag` is right when it
-means force, and `lug` is right when it means air.
+wordings. It reports three things:
 
-Where the checker's version is better and the term is not shared, **the
-repository adopts it**, not the other way round.
+- shared definitions that do not match;
+- definitions changed on their own;
+- protected words reverted.
+
+**Check the protected-word hits by hand** — `krag` is right when it means force, and
+`lug` is right when it means air.
+
+Where the HTML's version is better and the term is not shared, **the repository
+adopts it**, through the writer, not the other way round.
 
 ## Finished lessons go to `Voltooide lesse/`
 

@@ -112,15 +112,35 @@ def beskermde_woorde(les, sub_gids):
     data = lees_json(pad)
     blob = lesteks(les).lower()
 
+    def hou(inskrywing):
+        # 22 October 2026: one entry was written with "woord" instead of "hou", and
+        # since the language step runs inside the pipeline that KeyError would have
+        # crashed every lesson of its sub-topic. A malformed entry is skipped and named.
+        h = inskrywing.get("hou") if isinstance(inskrywing, dict) else None
+        if not isinstance(h, str) or not h.strip():
+            print(f"taalnasien: skipped a protected-word entry with no 'hou': {str(inskrywing)[:80]}",
+                  file=sys.stderr)
+            return None
+        return h
+
     uit = []
     for inskrywing in data.get("algemeen", []):
-        if inskrywing["hou"].lower() in blob:
+        h = hou(inskrywing)
+        if h and h.lower() in blob:
             uit.append(inskrywing)
     for inskrywing in data.get("per_subonderwerp", {}).get(sub_gids, []):
+        h = hou(inskrywing)
+        if not h:
+            continue
         # A wording is kept even when only part of it appears, because the
-        # protected thing is often a whole sentence the checker would reword.
-        kern = inskrywing["hou"].lower().rstrip(".")
-        if kern in blob or kern.split()[0] in blob:
+        # protected thing is often a whole sentence the checker would reword. Part
+        # means its opening three words, not its first word: matching on the first
+        # word alone ("die", "'n", "sê") let every ruling of a same-named sub-topic in
+        # another grade through, and on 22 October 2026 a Grade 4 toothbrush story was
+        # sent the Grade 5 and 6 HIV, dagga and first-aid rulings.
+        kern = h.lower().rstrip(".")
+        begin = " ".join(kern.split()[:3])
+        if kern in blob or begin in blob:
             uit.append(inskrywing)
     return uit
 
@@ -245,6 +265,15 @@ def spek_beskermde_woorde(les_pad):
     if isinstance(rou, dict):
         rou = [{"hou": k, "rede": v if isinstance(v, str) else json.dumps(v, ensure_ascii=False)}
                for k, v in rou.items()]
+    # And one planner wrote the whole field as a single paragraph of rulings. Iterating
+    # a string gives characters: the input listed "HOU: e", "HOU: ," thirty times and
+    # the language step's guard refused every change containing a comma. A paragraph
+    # is a ruling to READ, not a wording to match, so it goes over as one entry marked
+    # `reel` -- shown to the agents with its text as the reason, ignored by the guard.
+    # Found 22 October 2026 in Gr 6 hoofstroom-elektrisiteit.
+    if isinstance(rou, str):
+        rou = [{"hou": "die woordreels hieronder (uit die spesifikasie)", "rede": rou, "reel": True}] \
+            if rou.strip() else []
     for inskrywing in rou:
         if isinstance(inskrywing, str):
             inskrywing = {"hou": inskrywing}

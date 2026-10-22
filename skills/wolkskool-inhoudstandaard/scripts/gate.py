@@ -182,6 +182,18 @@ BUDGET_TOLERANCE_VAK = {("Sosiale Wetenskappe", 4): (0.375, 0.0)}
 #     method, so a 120-word lesson and a 500-word one are both in order.
 KAPS_URE_TOLERANCE = 0.12
 
+# THE LANGUAGE ALLOWANCE. Drico, 22 October 2026: the language step runs between the
+# two gate runs, and a language fix can add a few words (a missing `nie`, a natural
+# construction in place of a calque). Pushing a lesson over its word ceiling by that
+# little is allowed. So whenever the text carries language-step edits -- the runner
+# passes --na-taal -- every word floor and ceiling moves by this share of the budget
+# (20 words on a 400-word lesson), a list item may run 3 words over, and the comma
+# limit only warns, because the AWS comma the language step adds is required, not
+# subordination. A writer's FIRST draft, before any language step, is gated at the
+# normal limits. Sentence length, syllables and polysyllables are never relaxed: a
+# sentence too long for the grade is felt by the reader whoever made it long.
+TAAL_TOELATING = 0.05
+
 # THESE TWO RULINGS WERE MADE THE SAME AFTERNOON, ON TWO MACHINES, AND THEY DISAGREE
 # ABOUT ONE THING: what the ceiling is for new Gr 4 Sosiale Wetenskappe work -- the
 # budget itself, or the planned number plus 12%. In code the CAPS-hours branch wins
@@ -315,7 +327,7 @@ def _breach(value, limit, over=True):
     return "marginal" if value >= limit * (1 - TOLERANCE) else "hard"
 
 
-def check_register(m, band, label, fails, warns):
+def check_register(m, band, label, fails, warns, na_taal=False):
     def report(kind, msg):
         if kind == "hard":
             fails.append(msg)
@@ -330,15 +342,26 @@ def check_register(m, band, label, fails, warns):
            f"{label}: syllables per word {m['mean_syllables']} above maximum {band['syl_max']} — replace long words with plainer equivalents")
     report(_breach(m["pct_polysyllabic"], band["poly_max"]),
            f"{label}: 3+ syllable words {m['pct_polysyllabic']}% above maximum {band['poly_max']}%")
-    report(_breach(m["commas_per_sentence"], COMMA_MAX),
-           f"{label}: {m['commas_per_sentence']} commas per sentence above maximum {COMMA_MAX} — too much subordination, split into separate sentences")
+    komma = _breach(m["commas_per_sentence"], COMMA_MAX)
+    if komma and na_taal:
+        # The language step adds the commas the AWS 2017 requires before en, maar,
+        # want and of between two full sentences, and on 22 October 2026 that pushed
+        # roughly a third of measured lessons over this limit with three commas. A
+        # comma the spelling rules require is not subordination, so on text that
+        # carries language-step edits this only warns.
+        warns.append(f"{label}: {m['commas_per_sentence']} commas per sentence above maximum {COMMA_MAX} "
+                     f"-- not blocking: this text carries language-step edits, and the AWS comma "
+                     f"before en/maar/want/of between two sentences is required, not subordination")
+    else:
+        report(komma,
+               f"{label}: {m['commas_per_sentence']} commas per sentence above maximum {COMMA_MAX} — too much subordination, split into separate sentences")
     if m["pct_long_words"] > LONGWORD_PCT_MAX:
         warns.append(f"{label}: {m['pct_long_words']}% of words exceed {LONGWORD_CHARS} characters (guide {LONGWORD_PCT_MAX}%)")
     if m["longest_sentence"] > 2.2 * band["sent_max"]:
         warns.append(f"{label}: longest sentence is {m['longest_sentence']} words — check for a missing full stop")
 
 
-def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False):
+def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False, na_taal=False):
     band = band_for(grade)
     blocks = lesson.get("blokke", [])
     fails, warns, notes = [], [], []
@@ -387,10 +410,27 @@ def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False):
     # reading lesson's failure does not talk about study text it never had.
     label = "Reading text" if reading and not study else "Study text"
     begrotingsreel = None
+    # Words the language step may add above any ceiling; zero on the writer's run.
+    toelating = round(budget * TAAL_TOELATING) if na_taal else 0
+
+    def binne_toelating(plafon):
+        """Over the ceiling, but only by what the language step is allowed to add.
+
+        `plafon` arrives rounded: the ceilings are computed in floating point, and
+        400 * 1.15 is 459.99999999999994, which used to fail a 460-word lesson
+        against a ceiling printed as 460 (fixed 22 October 2026, Drico's go-ahead).
+        """
+        if toelating and plafon < sm["words"] <= plafon + toelating:
+            notes.append(f"{label} {sm['words']} words, {sm['words'] - plafon} above the ceiling "
+                         f"{plafon} -- ALLOWED: this text carries language-step edits, which may "
+                         f"move it up to {toelating} words ({TAAL_TOELATING:.0%} of the budget; Drico, "
+                         f"22 October 2026).")
+            return True
+        return False
     if kaps_ure:
         begrotingsreel = f"CAPS-hours: {budget:.0f} planned, ceiling {budget * (1 + KAPS_URE_TOLERANCE):.0f} (+12%), under-run warns"
-        hi = budget * (1 + KAPS_URE_TOLERANCE)
-        if sm["words"] > hi:
+        hi = round(budget * (1 + KAPS_URE_TOLERANCE))
+        if sm["words"] > hi and not binne_toelating(hi):
             fails.append(f"{label} {sm['words']} words, above budget ceiling {hi:.0f} "
                          f"(planned {budget} + 12%) — the planner judged this lesson's share of "
                          f"its cluster, so cut it back rather than borrowing words. Words may "
@@ -404,15 +444,21 @@ def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False):
         _sleutel = ((lesson.get("vak") or "").strip(), grade)
         if _sleutel in BUDGET_TOLERANCE_VAK:
             onder, bo = BUDGET_TOLERANCE_VAK[_sleutel]
-        lo, hi = budget * (1 - onder), budget * (1 + bo)
+        # Rounded: see binne_toelating. Without it a lesson exactly on a printed
+        # ceiling or floor failed by a floating-point hair.
+        lo, hi = round(budget * (1 - onder)), round(budget * (1 + bo))
         if _sleutel in BUDGET_TOLERANCE_VAK:
             begrotingsreel = (f"{_sleutel[0]} Gr {_sleutel[1]}: {lo:.0f}-{hi:.0f}"
                               + (" — the budget is a HARD CEILING" if bo == 0 else ""))
         else:
             begrotingsreel = f"default ±{BUDGET_TOLERANCE:.0%}: {lo:.0f}-{hi:.0f}"
-        if sm["words"] < lo:
+        if lo - toelating <= sm["words"] < lo:
+            notes.append(f"{label} {sm['words']} words, {lo - sm['words']} below the floor {lo} -- "
+                         f"ALLOWED: this text carries language-step edits, which may move it up to "
+                         f"{toelating} words ({TAAL_TOELATING:.0%} of the budget).")
+        elif sm["words"] < lo:
             fails.append(f"{label} {sm['words']} words, below budget floor {lo:.0f} (target {budget}) — under-supplying relative to the textbook")
-        elif sm["words"] > hi:
+        elif sm["words"] > hi and not binne_toelating(hi):
             if bo == 0:
                 fails.append(f"{label} {sm['words']} words, and the budget {budget} is a HARD CEILING for "
                              f"this subject and grade — Drico, 29 September 2026. There is no tolerance "
@@ -425,7 +471,10 @@ def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False):
     # NB: not named 'band' — that name holds the REGISTER band and is read below.
     # A kaps-ure lesson has no absolute ceiling by design, so LESBAND is skipped.
     lesband = None if kaps_ure else LESBAND_VAK.get((grade, _vak_slug(lesson.get("vak"))), LESBAND.get(grade))
-    if lesband and sm["words"] > lesband[1]:
+    if lesband and lesband[1] < sm["words"] <= lesband[1] + toelating:
+        notes.append(f"{label} {sm['words']} words, above the Grade {grade} lesson ceiling {lesband[1]} "
+                     f"by {sm['words'] - lesband[1]} -- within the language-step allowance of {toelating}.")
+    if lesband and sm["words"] > lesband[1] + toelating:
         # A LESSON MAY BE EXEMPTED FROM THE CEILING, ONE LESSON AT A TIME.
         #
         # Lampies exempted three Grade 7 rights lessons on 28 September 2026: their
@@ -473,7 +522,7 @@ def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False):
     # A reading piece is held to the same band as study text. A learner reads both
     # the same way, and the band's floor exists to stop writing collapsing into
     # fragments, which a story can do as easily as an explanation.
-    check_register(sm, band, label, fails, warns)
+    check_register(sm, band, label, fails, warns, na_taal=na_taal)
 
     # List items are excluded from prose register statistics, which would
     # otherwise let a writer park difficult prose in a 'lys' block and escape
@@ -483,7 +532,10 @@ def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False):
         for j, item in enumerate(b.get("items", []), 1):
             iw = len(re.findall(r"[A-Za-zÀ-ÿ']+", item))
             head = (b.get("kop") or "—")[:28]
-            if iw > LIST_ITEM_MAX:
+            if na_taal and LIST_ITEM_MAX < iw <= LIST_ITEM_MAX + 3:
+                warns.append(f"List '{head}' item {j}: {iw} words, above maximum {LIST_ITEM_MAX} -- "
+                             f"not blocking: within the language-step allowance of 3 words")
+            elif iw > LIST_ITEM_MAX:
                 fails.append(f"List '{head}' item {j}: {iw} words, above maximum {LIST_ITEM_MAX} — a list item should be a short scannable point, not a sentence with clauses")
             elif iw > LIST_ITEM_GUIDE:
                 warns.append(f"List '{head}' item {j}: {iw} words (guide {LIST_ITEM_GUIDE}) — consider tightening")
@@ -593,6 +645,7 @@ def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False):
         "budget": budget,
         "begrotingsreel": begrotingsreel,
         "begroting_basis": "kaps-ure" if kaps_ure else "meting",
+        "na_taal": bool(na_taal),
         "checked_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "study": {k: v for k, v in sm.items() if k != "long_words"},
         "eli10": {k: v for k, v in em.items() if k != "long_words"} if em else None,
@@ -618,6 +671,10 @@ def main():
     ap.add_argument("--kaps-ure", action="store_true",
                     help="budget came from CAPS hours (Drico, 29 Sep 2026): ceiling is planned+12%%, "
                          "under-supply warns instead of failing, and no absolute per-grade ceiling applies")
+    ap.add_argument("--na-taal", dest="na_taal", action="store_true",
+                    help="the text carries language-step edits: word floors and ceilings move by "
+                         "TAAL_TOELATING of the budget, list items by 3 words, and the comma limit only "
+                         "warns (Drico, 22 Oct 2026). The rest of the register band is unchanged.")
     ap.add_argument("--json", action="store_true", help="emit JSON only (for orchestrator use)")
     ap.add_argument("--log", help="append result to this JSONL log")
     ap.add_argument("--woordeboek", default=None,
@@ -630,7 +687,7 @@ def main():
         set_dictionary(a.woordeboek)
 
     lesson = json.load(open(a.lesson, encoding="utf-8"))
-    r = run(lesson, a.grade, a.budget, a.plafon_vry, kaps_ure=a.kaps_ure)
+    r = run(lesson, a.grade, a.budget, a.plafon_vry, kaps_ure=a.kaps_ure, na_taal=a.na_taal)
 
     if a.log:
         with open(a.log, "a", encoding="utf-8") as f:

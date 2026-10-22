@@ -1,12 +1,37 @@
 ---
 name: afrikaans-wag-vir-spesialiste
-description: "Afrikaans Huistaal is ON HOLD until Drico's specialist meeting. What CAPS already settles, and the questions to take into that meeting."
+description: "Languages (Afr HL + Eng FAL, Gr 4-6) PARKED again 19 Oct 2026 after an approach discussion; the specialist meeting happened. What CAPS settles, and the approach sketched."
 metadata: 
   node_type: memory
   type: project
   originSessionId: 8f79bbfb-d2d6-48c5-804a-7410b16958f5
-  modified: 2026-08-21T10:23:41.112Z
+  modified: 2026-10-19T07:59:53.104Z
 ---
+
+## Status 19 October 2026 — parked again, user will come back to it
+
+The specialist meeting did happen (outcome not shared). The user reopened languages for both
+**Afrikaans HL and English FAL, Gr 4-6, language structures only** (no reading, speaking, writing),
+discussed the approach, then parked it again. **Do nothing until they return.** What they said:
+the languages are hard because all four disciplines must stay aligned; old videos exist and are
+to be *improved* (whether remade from our text or kept in their division is not yet known).
+
+**English FAL Gr 4-6 CAPS is NOT on the machine** (Gr 7-9 and 10-12 are) — ask before downloading.
+Two English FAL textbooks sit in `bronne/` — profiler only, as always.
+
+**Measured from Afr HL CAPS:** 1 formal hour per 12-hour two-week cycle; 18 cycles per grade (last
+1-2 are revision); items spiral heavily — Gr 4 is ~30-35 distinct concepts behind 170 mentions.
+
+**Approach proposed (not approved):** (1) align via the cycle's *text type*, since CAPS's text-type
+table already names each type's language structures; (2) two layers — a concept lesson per concept
+per grade (one definition, the revision text) plus a short original passage per cycle in its text
+type using its structures; (3) one concept map across both languages and all three grades, marking
+where definitions must agree and where the grammar genuinely differs; (4) settle the video order
+first; (5) settle practice (no-questions rule) once, together with maths; then a 2-3 concept pilot,
+then the whole year. Risk to brief everyone on: definitions true of the example but false elsewhere
+("a verb is a doing word" fails on "is").
+
+## Original note, 21 August 2026
 
 Paused by Drico on 2026-08-21: a meeting with Afrikaans curriculum specialists is scheduled for the
 following week, so language work waits for it. Maths goes first. **Only Huistaal remains** — he

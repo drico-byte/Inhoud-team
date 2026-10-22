@@ -45,6 +45,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paaie as P  # noqa: E402
+import taalstap as T  # noqa: E402
 
 
 def _stroom_kan_afrikaans_druk():
@@ -552,6 +553,21 @@ def eis_les_inskrywing(spek, nommer):
 
 
 # ---------------------------------------------------------------- state
+# When the language step shipped. A draft first recorded before this, and already
+# checked, keeps its reports and gets the language step on its next revision.
+TAALSTAP_SEDERT = "2026-10-22T10:35:00+00:00"
+
+
+def _voor_die_taalstap(staat, h, les):
+    """Was this exact draft recorded before the language step shipped?"""
+    tye = [e.get("wanneer") for e in staat.get("geskiedenis") or []
+           if e.get("konsep_hash") == h and e.get("wanneer")]
+    if tye:
+        return min(tye) < TAALSTAP_SEDERT
+    # No record of this draft at all: only a signed-off lesson can be that old.
+    return les.get("status") == "goedgekeur"
+
+
 def lees_staat(pad, les_id):
     if os.path.exists(pad):
         return P.lees_json(pad)
@@ -620,15 +636,27 @@ def argiveer(bron, les_id, siklus, naam):
     and that is a prompt fix rather than twenty per-lesson fixes."""
     dest = os.path.join(P.VERSLAE, les_id.replace("/", os.sep),
                         f"s{siklus}-{naam}.json")
+    # The language step can run several rounds in one revision cycle (a repair, a
+    # retry after a malformed file); numbering keeps every round instead of the last.
+    if naam.startswith("taal"):
+        n = 2
+        while os.path.exists(dest):
+            dest = os.path.join(P.VERSLAE, les_id.replace("/", os.sep), f"s{siklus}-{naam}-{n}.json")
+            n += 1
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     shutil.copy2(bron, dest)
     return dest
 
 
 # ---------------------------------------------------------------- steps
-def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None, kaps_ure=False):
+def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None, kaps_ure=False, na_taal=False):
     args = [les_pad, "--grade", graad, "--budget", begroting, "--json",
             "--log", P.GATE_LOG]
+    # The run after the language step may go a little over a word ceiling: the
+    # language check can add a few words, and Drico allowed that on 22 October 2026.
+    # The allowance lives in gate.py (TAAL_TOELATING); this only says which run it is.
+    if na_taal:
+        args.append("--na-taal")
     # The ceiling exemption travels from the SPEC to the gate, so the decision lives
     # in one place. Without this the spec said "allowed, and here is why" while the
     # gate went on printing "a person must cut it to 700 or fewer" -- and the tool
@@ -718,6 +746,7 @@ def keur_goed(les_pad, les, uit, staat, staat_pad, nommer):
     uit.say("  Approved automatically: the gate passed and both checkers reported")
     uit.say("  GOEDGEKEUR. Editing happens by hand downstream, so this is the last")
     uit.say("  step here rather than a decision waiting on a person.")
+    toon_taal_oop(uit, staat, les_pad)
     print("\n".join(uit.lines))
 
     goedgekeur = dict(les, status="goedgekeur")
@@ -732,6 +761,31 @@ def keur_goed(les_pad, les, uit, staat, staat_pad, nommer):
     print()
     return 0, "GOEDGEKEUR_KLAAR"
 
+
+
+def _skrywerpunt(p):
+    """One line of a writer's brief. Language items already say whether they are a
+    fault to fix or a flag to check; everything else is a fault."""
+    return p if p.startswith(("fix:", "check")) else f"fix: {p}"
+
+
+def toon_taal_oop(uit, staat, les_pad):
+    """Language items still open at sign-off: shown, never silently dropped.
+
+    Items a writer could fix were sent to the writer once; items for a person (a
+    shared definition, a protected word in doubt) were never the writer's to settle.
+    Whatever is left is printed where the lesson is signed off, so the person who
+    checks the built HTML knows where to look.
+    """
+    oop = [*(staat.get("taal_vir_mens") or []), *(staat.get("taal_vir_skrywer") or [])]
+    if not oop:
+        return
+    uit.say("  Language items still open (see the report):")
+    for p in oop[:12]:
+        uit.say(f"    {p}")
+    if os.path.exists(P.taal_html(les_pad)):
+        uit.say(f"    report  {P.rel(P.taal_html(les_pad))}")
+    uit.say()
 
 
 def pdf_langs_les(les, les_json_pad):
@@ -900,6 +954,9 @@ def stap(a, uit):
         # lesson could never be resumed. The history keeps the real counts.
         staat["blok_faalrondtes"] = {}
         staat["eli10_voorkyk"] = None      # re-check the analogy on resume
+        # The language items' once-per-cycle bounce belongs to the cycle that ended.
+        staat["taal_bons_siklus"] = None
+        staat["taal_bons_vir"] = None
         teken_op(staat, staat_pad, "hervat_deur_mens", vorige_revisies=verbruik,
                  vorige_blok_faalrondtes=ou_tally)
         uit.step("escalation cleared", "OK",
@@ -943,6 +1000,9 @@ def stap(a, uit):
                 os.remove(pad)
         staat["konsep_hash"] = h
         staat["hek"] = None
+        # The language step's notes for the writer were handed over with the request
+        # that produced this draft; carrying them on would repeat them every round.
+        staat["taal_vir_skrywer"] = []
         teken_op(staat, staat_pad, "nuwe_konsep", konsep_hash=h, siklus=siklus)
         uit.step("draft", "NEW", [f"cycle {siklus}, {P.rel(les_pad)}",
                                  "stale gate result and reports archived to logs/verslae/"])
@@ -1013,7 +1073,8 @@ def stap(a, uit):
     # --- 3. the gate, BEFORE the checkers ----------------------------------
     if staat.get("hek") is None:
         code, hek = hardloop_hek(les_pad, graad, begroting, uit, plafon_vry,
-                                 kaps_ure=spek.get("begroting_basis") == "kaps-ure")
+                                 kaps_ure=spek.get("begroting_basis") == "kaps-ure",
+                                 na_taal=bool(staat.get("taal_ooit_toegepas")))
         staat["hek"] = hek["verdict"]
         staat["hek_konteks"] = hek_konteks
         argiveer(P.hek_verslag(les_pad), les_id, siklus_nou, "hek")
@@ -1130,6 +1191,256 @@ def stap(a, uit):
             P.skryf_json(staat_pad, staat)
             uit.step("eli10 pre-check", "GOEDGEKEUR",
                      ["the analogy holds; the full check can run"])
+
+    # --- 3c. the language check, BEFORE the checkers ----------------------
+    # Drico, 22 October 2026. The Afrikaans used to be checked outside this pipeline,
+    # by ChatGPT, after the fact check -- so a language change that altered a claim
+    # was seen by nobody. It now runs here: the finder proposes, the reviewer decides,
+    # bin/taalstap.py applies only what the reviewer kept, the gate runs again with
+    # the language allowance, and the coverage and fact checks read the final wording.
+    vinder_pad, keurder_pad = P.taalvinder_verslag(les_pad), P.taalkeurder_verslag(les_pad)
+    dekking_pad, feite_pad = P.dekking_verslag(les_pad), P.feite_verslag(les_pad)
+
+    # A draft that ALREADY EXISTED before this step shipped and was already checked
+    # (or signed off) is left alone: its reports are sound for the text they read,
+    # and the step reaches it on its next revision, which is a new draft. The test
+    # is when this draft was first recorded -- NOT whether reports sit beside it.
+    # "Reports present" was the first version of this test, and both reviewers
+    # broke it the same way: a draft repaired after today and checked by hand has
+    # reports too, and bin/keur-goed-na-handnasien.py signed it off with no language
+    # step and a log entry saying it predated the step. A draft first recorded
+    # after the step shipped always gets the step, reports or not.
+    al_nagesien = (les.get("status") == "goedgekeur" or os.path.exists(dekking_pad)
+                   or os.path.exists(feite_pad))
+    if (staat.get("taal_klaar_vir") != h and staat.get("taal_oorgeslaan_vir") != h
+            and al_nagesien and _voor_die_taalstap(staat, h, les)):
+        staat["taal_oorgeslaan_vir"] = h
+        teken_op(staat, staat_pad, "taal_oorgeslaan",
+                 rede="this draft was recorded and checked before the language step shipped")
+        uit.step("language check", "SKIPPED",
+                 ["this draft was recorded and checked before the language step shipped;",
+                  "it runs on the next revision"])
+
+    if staat.get("taal_klaar_vir") != h and staat.get("taal_oorgeslaan_vir") != h:
+        # Proposals and decisions made for an earlier draft do not apply to this one.
+        if staat.get("taal_rondte_vir") != h:
+            for naam, pad in (("taalvinder", vinder_pad), ("taalkeurder", keurder_pad)):
+                if os.path.exists(pad):
+                    argiveer(pad, les_id, siklus_nou, naam + "-verouderd")
+                    os.remove(pad)
+            staat["taal_rondte_vir"] = h
+            P.skryf_json(staat_pad, staat)
+
+        vorige = P.lees_json(P.taal_verslag(les_pad)) \
+            if os.path.exists(P.taal_verslag(les_pad)) else None
+        try:
+            if not os.path.exists(vinder_pad):
+                # Decisions left over from an earlier list of proposals must never be
+                # read against the new one: they are matched by position.
+                if os.path.exists(keurder_pad):
+                    argiveer(keurder_pad, les_id, siklus_nou, "taalkeurder-verouderd")
+                    os.remove(keurder_pad)
+                invoer = P.taal_invoer(les_pad, "taalvinder")
+                os.makedirs(os.path.dirname(invoer), exist_ok=True)
+                with open(invoer, "w", encoding="utf-8") as fh:
+                    fh.write(T.vinder_invoer(les_pad, vorige))
+                uit.next_action(
+                    "wolkskool-taalvinder (agent)",
+                    f"Propose every Afrikaans language improvement in lesson {a.les}.",
+                    invoer=[P.rel(invoer)],
+                    uitvoer=P.rel(vinder_pad),
+                    waarskuwing="Do NOT pass the spec or the draft's provenance note. The "
+                                "input file holds the protected words and the lesson, "
+                                "nothing else. BEFORE launching it, read the provenance "
+                                "note yourself for words the writer predicted a language "
+                                "check would swap; any not yet in kaps/beskermde-woorde.json "
+                                "go there WITH their reason, then re-run this command so "
+                                "the input carries them.")
+                return 10, "WAG_VIR_TAALVINDER"
+
+            voorstelle, vlae, beskerm, vinder_weergawe = T.lees_vinder(vinder_pad)
+            with open(vinder_pad, "rb") as fh:
+                vinder_h = hashlib.sha256(fh.read()).hexdigest()[:32]
+            if os.path.exists(keurder_pad) and staat.get("taal_keurder_vir") != vinder_h:
+                # Decided against a different list of proposals (the finder's file was
+                # replaced after the reviewer was named): matched by position, those
+                # decisions would land on changes nobody reviewed.
+                argiveer(keurder_pad, les_id, siklus_nou, "taalkeurder-verouderd")
+                os.remove(keurder_pad)
+            if voorstelle and not os.path.exists(keurder_pad):
+                staat["taal_keurder_vir"] = vinder_h
+                P.skryf_json(staat_pad, staat)
+                invoer = P.taal_invoer(les_pad, "taalkeurder")
+                os.makedirs(os.path.dirname(invoer), exist_ok=True)
+                with open(invoer, "w", encoding="utf-8") as fh:
+                    fh.write(T.keurder_invoer(les_pad, voorstelle, vorige))
+                uit.step("language proposals", f"{len(voorstelle)}",
+                         [P.rel(vinder_pad), *T.lees_voorstelle(les, voorstelle)])
+                uit.next_action(
+                    "wolkskool-taalkeurder (agent)",
+                    f"Decide each of the {len(voorstelle)} proposed language changes to "
+                    f"lesson {a.les}: HOU, LAAT VAAR or NA SKRYWER.",
+                    invoer=[P.rel(invoer)],
+                    uitvoer=P.rel(keurder_pad),
+                    waarskuwing="Do NOT pass the spec or the draft's provenance note.")
+                return 10, "WAG_VIR_TAALKEURDER"
+
+            # No proposals: nothing for the reviewer to decide, but flags still count.
+            besluite, keurder_weergawe = (T.lees_besluite(keurder_pad, len(voorstelle))
+                                          if voorstelle else ([], ""))
+            # Everything that can fail is done before anything is written: the new
+            # lesson, the report and its HTML. A crash after the lesson was written but
+            # before the state was saved made the next run treat the language-edited
+            # text as a NEW writer draft and run the whole step again on it.
+            nuwe_les, verslag = T.pas_toe(les_pad, les, voorstelle, besluite,
+                                          vlae=vlae, beskerm=beskerm)
+            verslag["wanneer"] = nou()
+            verslag["konsep_hash_voor"] = h
+            verslag["prompts"] = f"{vinder_weergawe or '?'} + {keurder_weergawe or '-'}"
+            nuwe_h = konsep_hash(nuwe_les) if verslag["toegepas"] else h
+            verslag["konsep_hash_na"] = nuwe_h
+            bladsy = T.html_verslag(nuwe_les, verslag)
+            vir_skrywer, vir_mens = T.vir_skrywer(verslag), T.vir_n_mens(verslag)
+            veilig = T.veiligheidsvlae(verslag)
+        except T.Ongeldig as e:
+            # A file the runner cannot act on is archived and its agent asked again;
+            # leaving it in place made every run crash on it until a person stepped in.
+            # The error says whose file it is. Decisions only mean something against
+            # the proposals they were made for, so when the finder's file goes, the
+            # reviewer's goes with it.
+            weg = [("taalkeurder", keurder_pad)] if e.wie == "taalkeurder" \
+                else [("taalvinder", vinder_pad), ("taalkeurder", keurder_pad)]
+            for naam, pad in weg:
+                if os.path.exists(pad):
+                    argiveer(pad, les_id, siklus_nou, naam + "-ongeldig")
+                    os.remove(pad)
+            uit.head("MALFORMED LANGUAGE FILE")
+            uit.say(f"  {e}")
+            uit.say("  The file was archived and removed. Re-run this command: it names")
+            uit.say("  the agent again.")
+            return 4, "VERSLAG_ONGELDIG"
+        except (OSError, ValueError, KeyError, TypeError, AttributeError) as e:
+            # Not an agent's fault: the step itself could not run (a protected-word
+            # file it cannot read, say). Nothing has been written yet; say so plainly.
+            raise Refuse(f"the language step could not run: {type(e).__name__}: {e}",
+                         "Nothing was changed. Fix the cause, then re-run this command.")
+
+        argiveer(vinder_pad, les_id, siklus_nou, "taalvinder")
+        if os.path.exists(keurder_pad):
+            argiveer(keurder_pad, les_id, siklus_nou, "taalkeurder")
+        P.skryf_json(P.taal_verslag(les_pad), verslag)
+        with open(P.taal_html(les_pad), "w", encoding="utf-8") as fh:
+            fh.write(bladsy)
+        argiveer(P.taal_verslag(les_pad), les_id, siklus_nou, "taal")
+
+        if verslag["toegepas"]:
+            # Reports written for the text before these changes no longer describe the
+            # lesson -- a hand-repaired draft can arrive here with its reports restored.
+            for naam, pad in (("hek", P.hek_verslag(les_pad)), ("dekking", dekking_pad),
+                              ("feite", feite_pad)):
+                if os.path.exists(pad):
+                    argiveer(pad, les_id, siklus_nou, naam + "-voor-taal")
+                    if naam != "hek":
+                        os.remove(pad)
+            staat["konsep_hash"] = nuwe_h
+            staat["hek"] = None
+            staat["taal_ooit_toegepas"] = True
+        staat["taal_klaar_vir"] = nuwe_h
+        staat["taal_rondte_vir"] = nuwe_h
+        staat["taal_vir_skrywer"] = vir_skrywer
+        staat["taal_vir_mens"] = vir_mens
+        # The state is saved BEFORE the lesson is written. The other order, interrupted
+        # between the two, leaves language-edited text with a state that has never
+        # seen it: the next run calls it a new writer draft and runs the whole step
+        # again on its own output. This order, interrupted, leaves the old text under
+        # a state that expects the new -- which the next run reads as a new draft and
+        # sends through the step once more, from the original. That costs a round; it
+        # never applies a change twice.
+        P.skryf_json(staat_pad, staat)
+        if verslag["toegepas"]:
+            P.skryf_json(les_pad, nuwe_les)
+            les, h = nuwe_les, nuwe_h
+        teken_op(staat, staat_pad, "taal",
+                 toegepas=len(verslag["toegepas"]), laat_vaar=len(verslag["laat_vaar"]),
+                 na_skrywer=len(verslag["na_skrywer"]),
+                 nie_toegepas=len(verslag["nie_toegepas"]),
+                 woorde_voor=verslag["woorde_voor"], woorde_na=verslag["woorde_na"])
+        uit.step("language check", "APPLIED",
+                 [f"{len(verslag['toegepas'])} applied, {len(verslag['laat_vaar'])} dropped, "
+                  f"{len(verslag['na_skrywer'])} sent on, "
+                  f"{len(verslag['nie_toegepas'])} kept but not applied",
+                  f"{verslag['woorde_voor']} words before, {verslag['woorde_na']} after",
+                  f"report: {P.rel(P.taal_html(les_pad))}"])
+
+        # Withdrawn safety wording stops the loop for a PERSON, not the writer. The
+        # finder's flags are judgments, and a false one sent to the writer comes back
+        # every round until the revision budget is spent; an escalation persists,
+        # costs a person a minute, and is cleared with --hervat.
+        if veilig:
+            staat["eskalasie"] = {
+                "soort": "taal_veiligheid", "wanneer": nou(),
+                "rede": "the language finder flagged withdrawn safety wording: "
+                        + "; ".join(f"{v.get('teks', '')[:60]} ({v.get('rede', '')[:80]})"
+                                    for v in veilig)}
+            teken_op(staat, staat_pad, "eskalasie", soort="taal_veiligheid")
+            uit.head("SAFETY WORDING -- a person must look")
+            for v in veilig:
+                uit.say(f"  {v.get('teks', '')}")
+                uit.say(f"    {v.get('rede', '')}")
+            uit.say()
+            uit.say(f"  report  {P.rel(P.taal_html(les_pad))}")
+            uit.say("  Decide FIRST, then resume:")
+            uit.say("    - really withdrawn: fix it at its source in the spec, brief the writer")
+            uit.say("      with the fault, and run this command with --hervat once the new")
+            uit.say("      draft is in;")
+            uit.say("    - a false flag: re-run with --hervat. The flag stays listed with the")
+            uit.say("      open language items at sign-off.")
+            return 2, "MENS_NODIG"
+
+        if staat.get("hek") is None:
+            # The second gate run: the changes may have moved the length or the
+            # register. Run the whole walk again from the top -- the draft on disk is
+            # now the final wording, its hash is recorded, and step 3 gates it with
+            # the language allowance.
+            uit.head("Language changes applied -- gating the new wording")
+            return stap(a, uit)
+
+    # Items a writer can fix in this lesson go to the writer ONCE per revision
+    # cycle, before the checkers read the lesson. Signing off with them unread was
+    # the first version's behaviour, and both reviewers found it: they rode along
+    # only when something else sent the lesson back. Once per cycle, so a finder
+    # that keeps flagging what the writer chose to keep cannot loop the lesson; what
+    # remains is printed at sign-off. The bounce does not spend a revision.
+    # A writer that judges an item not to be a fault keeps the sentence and says
+    # why in the provenance note. The note is outside the draft's hash, so the hash
+    # does not move; the NOTE does. A changed note at an unchanged hash means "read
+    # and declined", and the lesson goes on to the checkers. The note, not the whole
+    # file: line endings, a re-save by an editor, or the note-archiving script
+    # change the bytes without anyone having read the items.
+    nota_h = hashlib.sha256(json.dumps((les.get("herkoms") or {}).get("nota"), ensure_ascii=False)
+                            .encode("utf-8")).hexdigest()[:32]
+    afgewys = staat.get("taal_bons_vir") == h and staat.get("taal_bons_nota") not in (None, nota_h)
+    if (staat.get("taal_klaar_vir") == h and staat.get("taal_vir_skrywer") and not afgewys
+            and (staat.get("taal_bons_siklus") != siklus_nou or staat.get("taal_bons_vir") == h)
+            and not os.path.exists(dekking_pad) and not os.path.exists(feite_pad)):
+        if staat.get("taal_bons_vir") != h:
+            staat["taal_bons_vir"] = h
+            staat["taal_bons_siklus"] = siklus_nou
+            staat["taal_bons_nota"] = nota_h
+            teken_op(staat, staat_pad, "taal_na_skrywer", punte=staat["taal_vir_skrywer"][:20])
+        uit.next_action(
+            "wolkskool-skrywer (agent)",
+            f"Revise the draft: the language check found faults it may not fix itself. "
+            f"This does not count as a revision.",
+            invoer=[P.rel(les_pad), P.rel(inskrywing_pad),
+                    *[_skrywerpunt(p) for p in staat["taal_vir_skrywer"][:12]]],
+            uitvoer=P.rel(les_pad),
+            waarskuwing="Describe-and-choose: a 'fix' item names a fault; choose the wording "
+                        "yourself. A 'check' item was raised by the language finder and "
+                        "judged by nobody: change the sentence only if it really is wrong. "
+                        "Change only what is listed. If an item is not a real fault, leave "
+                        "the sentence and say why in the provenance note.")
+        return 10, "WAG_VIR_SKRYWER"
 
     # --- 4. the two checkers, in parallel ----------------------------------
     dekking_pad, feite_pad = P.dekking_verslag(les_pad), P.feite_verslag(les_pad)
@@ -1268,6 +1579,7 @@ def stap(a, uit):
     uit.say("  gate PASS, coverage GOEDGEKEUR, facts GOEDGEKEUR, both reports sound.")
     uit.say(f"  draft     {P.rel(les_pad)}")
     uit.say()
+    toon_taal_oop(uit, staat, les_pad)
     # This block used to name the file the draft would be COPIED to on approval.
     # When the approved-output folder was removed, that variable went with it and
     # this line kept referring to it -- a NameError on the one path a finished
@@ -1311,12 +1623,15 @@ def terug_na_skrywer(staat, staat_pad, h, uit, les_pad, inskrywing_pad,
         uit.say("  After you have dealt with it, re-run with --hervat.")
         return 5, "REVISIELIMIET"
 
+    taal = [p for p in (staat.get("taal_vir_skrywer") or []) if p not in punte]
+    if taal:
+        punte = list(punte) + taal
     uit.next_action(
         "wolkskool-skrywer (agent)",
         f"Revise the draft. {rede} from {bron}. "
         f"Revision {len(stuur)} of {P.REVISIE_MAKS}.",
         invoer=[P.rel(les_pad), P.rel(inskrywing_pad),
-                *[f"fix: {p}" for p in punte[:12]]],
+                *[_skrywerpunt(p) for p in punte[:20]]],
         uitvoer=P.rel(les_pad),
         waarskuwing="Change only what is listed. Re-running the whole lesson loses "
                     "what already passed.")

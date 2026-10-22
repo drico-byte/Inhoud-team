@@ -53,7 +53,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import paaie as P
 
-VERSLAGSTERTE = (".dekking.json", ".feite.json", ".hek.json", ".staat.json")
+VERSLAGSTERTE = (".dekking.json", ".feite.json", ".hek.json", ".staat.json",
+                 ".taalvinder.json", ".taalkeurder.json", ".taal.json", ".eli10.json")
 
 
 def is_konsep(naam):
