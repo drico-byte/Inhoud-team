@@ -1349,6 +1349,9 @@ def stap(a, uit):
             nuwe_les, verslag = T.pas_toe(les_pad, les, voorstelle, besluite,
                                           vlae=vlae, beskerm=beskerm)
             verslag["wanneer"] = nou()
+            # Carried forward so the next round's finder sees every earlier drop.
+            verslag["laat_vaar_vorige"] = ((vorige or {}).get("laat_vaar_vorige", [])
+                                           + (vorige or {}).get("laat_vaar", []))
             verslag["konsep_hash_voor"] = h
             verslag["prompts"] = f"{vinder_weergawe or '?'} + {keurder_weergawe or '-'}"
             nuwe_h = konsep_hash(nuwe_les) if verslag["toegepas"] else h

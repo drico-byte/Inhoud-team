@@ -84,6 +84,19 @@ def vinder_invoer(les_pad, vorige=None):
                  "weer voorstel nie.", ""]
         for r in vorige["toegepas"]:
             dele.append(f"  - '{r['voor']}' -> '{r['na']}'")
+    # The dropped ones too. Without them a second round, after a writer's repair,
+    # re-proposed exactly what the reviewer had rejected a round earlier (22 October
+    # 2026, three lessons in one batch) -- work for the reviewer, and a chance of a
+    # different verdict on the same change.
+    # Every earlier round's, not just the last: a third round re-proposed what the
+    # first had dropped, because the second report only knew its own.
+    verwerp = (vorige or {}).get("laat_vaar_vorige", []) + (vorige or {}).get("laat_vaar", [])
+    if verwerp:
+        dele += ["", "=" * 72, "IN DIE VORIGE RONDES LAAT VAAR", "=" * 72,
+                 "Die keurder het hierdie voorstelle in 'n vorige ronde verwerp. Moenie dit",
+                 "weer voorstel nie, tensy die sin intussen verander het.", ""]
+        for r in verwerp:
+            dele.append(f"  - '{r.get('voor', '')}' -> '{r.get('na', '')}'")
     return "\n".join(dele)
 
 
