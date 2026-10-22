@@ -1251,7 +1251,22 @@ def stap(a, uit):
     # after the step shipped always gets the step, reports or not.
     al_nagesien = (les.get("status") == "goedgekeur" or os.path.exists(dekking_pad)
                    or os.path.exists(feite_pad))
-    if (staat.get("taal_klaar_vir") != h and staat.get("taal_oorgeslaan_vir") != h
+    # Lampies, 22 October 2026: every signed-off Grade 4-6 lesson goes through the
+    # step once, from the repository text. --met-taal asks for it on this draft. It is
+    # remembered by the draft's hash, because the step spans several runner calls
+    # (finder, reviewer, writer) and the calls in between are made without the flag;
+    # without the record the second call would skip what the first one started.
+    if getattr(a, "met_taal", False) and staat.get("taal_klaar_vir") != h \
+            and staat.get("taal_geforseer_vir") != h:
+        staat["taal_geforseer_vir"] = h
+        if staat.get("taal_oorgeslaan_vir") == h:
+            staat["taal_oorgeslaan_vir"] = None
+        teken_op(staat, staat_pad, "taal_geforseer", konsep_hash=h,
+                 rede="--met-taal: run the language step on a draft that predates it")
+        uit.step("language check", "FORCED",
+                 ["--met-taal: this draft predates the step and gets it now"])
+    geforseer = staat.get("taal_geforseer_vir") == h
+    if (not geforseer and staat.get("taal_klaar_vir") != h and staat.get("taal_oorgeslaan_vir") != h
             and al_nagesien and _voor_die_taalstap(staat, h, les)):
         staat["taal_oorgeslaan_vir"] = h
         teken_op(staat, staat_pad, "taal_oorgeslaan",
@@ -1464,9 +1479,14 @@ def stap(a, uit):
     nota_h = hashlib.sha256(json.dumps((les.get("herkoms") or {}).get("nota"), ensure_ascii=False)
                             .encode("utf-8")).hexdigest()[:32]
     afgewys = staat.get("taal_bons_vir") == h and staat.get("taal_bons_nota") not in (None, nota_h)
+    # A forced step on a signed-off lesson that changed no text still has its old
+    # reports beside it, and those must not wave the writer's items through: they
+    # judged the text before anyone read it for language.
+    geforseer_onveranderd = staat.get("taal_geforseer_vir") == h
     if (staat.get("taal_klaar_vir") == h and staat.get("taal_vir_skrywer") and not afgewys
             and (staat.get("taal_bons_siklus") != siklus_nou or staat.get("taal_bons_vir") == h)
-            and not os.path.exists(dekking_pad) and not os.path.exists(feite_pad)):
+            and (geforseer_onveranderd
+                 or (not os.path.exists(dekking_pad) and not os.path.exists(feite_pad)))):
         if staat.get("taal_bons_vir") != h:
             staat["taal_bons_vir"] = h
             staat["taal_bons_siklus"] = siklus_nou
@@ -1762,6 +1782,9 @@ def main():
                          "is made and nothing is typed to confirm.")
     ap.add_argument("--hervat", action="store_true",
                     help="clear an escalation and start a new cycle (a human action)")
+    ap.add_argument("--met-taal", action="store_true", dest="met_taal",
+                    help="run the language step on a draft recorded and checked before "
+                         "it shipped, instead of skipping it (remembered for this draft)")
     ap.add_argument("--json", action="store_true", dest="json_mode",
                     help="machine-readable output for an orchestrating session")
     a = ap.parse_args()

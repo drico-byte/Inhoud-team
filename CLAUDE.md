@@ -277,6 +277,12 @@ and a draft checked by hand before the step shipped but never recorded since. On
 day it shipped that was 130 lessons skipped and about 180 changed since their last
 record, which will get the step if the runner is asked about them.
 
+**To give a skipped lesson the step anyway, pass `--met-taal`** (Lampies, 22 October
+2026, for the Grade 4-6 language pass). It is remembered for that draft, so the
+calls that follow need no flag. If the step changes the text, the old reports go and
+the lesson is gated and checked again; if it changes nothing, the writer still gets
+its items once, and a lesson that comes through unchanged keeps its sign-off.
+
 **On the other machines: finish what is in flight before pulling.** Work signed off
 there with the old code after the ship time counts as after-ship. If the runner is
 ever asked about such a lesson, it gets the language step, and an applied change
