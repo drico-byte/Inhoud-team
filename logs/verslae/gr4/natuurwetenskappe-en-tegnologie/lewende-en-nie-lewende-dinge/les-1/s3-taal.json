@@ -1,0 +1,156 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Baie soorte lewende dinge",
+      "voor": "leef, en die kewer op die blaar ook",
+      "na": "leef, en die kewer op die blaar leef ook",
+      "soort": "leestekens",
+      "rede_vinder": "The second part has no verb, so the comma before 'en' is not AWS-correct; repeating 'leef' makes it a full clause and justifies the comma without changing the meaning.",
+      "fout": "The comma before 'en' introduces a verbless second part, which the AWS rule as applied here does not allow.",
+      "rede_keurder": "Repeating 'leef' makes the second part a full clause so the comma is correct, and the meaning and the protected words are unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Voeding: kos om te lewe",
+      "voor": "'n Koei vreet gras en",
+      "na": "'n Koei vreet gras, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have a subject and verb.",
+      "fout": "Missing AWS comma between two clauses that each have their own subject and verb.",
+      "rede_keurder": "'n Koei vreet gras' and 'n leeu vreet vleis' are two full clauses, so the comma is required."
+    },
+    {
+      "nr": 4,
+      "blok": "Groei: groter en sterker",
+      "voor": "verander stukkie vir stukkie",
+      "na": "verander bietjie vir bietjie",
+      "soort": "idioom",
+      "rede_vinder": "'Bietjie vir bietjie' is the usual idiom for gradual change; 'stukkie vir stukkie' suggests piece by piece.",
+      "fout": "'Stukkie vir stukkie' suggests piece by piece, which is not the fixed expression for gradual change.",
+      "rede_keurder": "'Bietjie vir bietjie' is the natural idiom for gradual change, and the protected opening of the sentence is untouched."
+    },
+    {
+      "nr": 5,
+      "blok": "Reproduseer: nuwe lewe",
+      "voor": "'n Plant maak sade en",
+      "na": "'n Plant maak sade, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses, matching the hen sentence just before it.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'uit een saad kom 'n nuwe plant' has its own subject and verb, so the comma is required, as in the hen sentence before it."
+    },
+    {
+      "nr": 6,
+      "blok": "Asemhaling: suurstof om te lewe",
+      "voor": "met jou longe en",
+      "na": "met jou longe, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'Jy haal asem' and ''n vis gebruik sy kieue' each have their own subject and verb."
+    },
+    {
+      "nr": 7,
+      "blok": "Sintuie: raaksien wat gebeur",
+      "voor": "Jy ruik die kos en",
+      "na": "Jy ruik die kos, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'Jy ruik die kos' and 'jy word honger' are two full clauses joined by 'en'."
+    },
+    {
+      "nr": 8,
+      "blok": "Beweging: ook plante beweeg",
+      "voor": "buig na die lig en",
+      "na": "buig na die lig, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses; the protected words after 'en' are untouched.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Both clauses have their own subject and verb, and the protected wording 'baie blomme maak saans toe' stays intact."
+    },
+    {
+      "nr": 9,
+      "blok": "Dinge wat nie lewendig lyk nie",
+      "voor": "waar jy dit nie sien nie",
+      "na": "waar jy dit nie kan sien nie",
+      "soort": "idioom",
+      "rede_vinder": "'Nie kan sien nie' is the natural way to say something is hidden from view.",
+      "fout": "'waar jy dit nie sien nie' is flat for something hidden from view.",
+      "rede_keurder": "'nie kan sien nie' is the natural way to say the chick is out of sight inside the egg, and the meaning is the same."
+    },
+    {
+      "nr": 10,
+      "blok": "Kieme is te klein om te sien",
+      "voor": "hulle maak nuwe kieme net soos",
+      "na": "hulle maak nuwe kieme, net soos",
+      "soort": "leestekens",
+      "rede_vinder": "A comma shows that 'net soos ander lewende dinge' applies to all three actions, not only to making new germs.",
+      "fout": "Without a comma, 'net soos ander lewende dinge' can be read as belonging only to the last clause.",
+      "rede_keurder": "The comma makes the comparison cover all three actions, which is what the sentence means, and 'Baie kieme' is untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Voeding: kos om te lewe",
+      "voor": "maak sy eie kos in sy blare met sonlig",
+      "na": "maak sy eie kos met sonlig in sy blare",
+      "soort": "woordorde",
+      "rede_vinder": "Afrikaans puts manner before place (TWP order), so 'met sonlig in sy blare' reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "The original reads naturally, and the reordering is a lateral move that also lets 'sonlig in sy blare' read as one phrase."
+    },
+    {
+      "nr": 13,
+      "blok": "vraag",
+      "voor": "Hoe weet jy die gis leef?",
+      "na": "Hoe weet jy dat die gis leef?",
+      "soort": "register",
+      "rede_vinder": "Written standard Afrikaans keeps 'dat' here; dropping it is spoken style.",
+      "fout": "none",
+      "rede_keurder": "Leaving out 'dat' after 'weet' is normal, correct Afrikaans, so adding it is a lateral move."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 11,
+      "blok": "kieue",
+      "voor": "waarmee dit in water asemhaal",
+      "na": "waarmee hy in water asemhaal",
+      "soort": "verwysing",
+      "rede_vinder": "An animal such as a fish is referred to as 'hy' in Afrikaans; 'dit' reads as if it refers to the head.",
+      "fout": "'dit' for the fish is less natural than 'hy' and sits oddly next to 'kop'.",
+      "rede_keurder": "This rewords a glossary definition beyond a plain spelling error, so the writer must decide it for every lesson that uses the entry.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 12,
+      "blok": "mikroskoop",
+      "voor": "'n Ding wat baie klein goed",
+      "na": "'n Toestel wat baie klein goed",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Ding' is vague and wooden for an instrument; 'toestel' is a familiar Grade 4 word.",
+      "fout": "''n Ding' is vague for an instrument.",
+      "rede_keurder": "This is a real improvement to a glossary definition, and those change only through the writer.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Voeding: kos om te lewe",
+      "teks": "Elke lewende ding het kos nodig om te werk en te groei.",
+      "rede": "'Om te werk' is vague for a living thing (it may mean 'to function' or 'to have energy'); improving it would require guessing the intended content."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 440,
+  "woorde_na": 442,
+  "wanneer": "2026-10-22T17:04:12+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:f7571e49f332a25745ef69867cd9ec9d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:85302b5f30184bb153094b2b27510a2a"
+}

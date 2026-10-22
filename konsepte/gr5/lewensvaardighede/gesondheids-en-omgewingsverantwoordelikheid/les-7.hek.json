@@ -6,18 +6,19 @@
   "budget": 500,
   "begrotingsreel": "default ±15%: 425-575",
   "begroting_basis": "meting",
-  "checked_at": "2026-10-15T09:18:03+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-22T16:47:00+00:00",
   "study": {
-    "words": 550,
-    "sentences": 47,
-    "mean_sentence_len": 10.7,
-    "median_sentence_len": 11,
+    "words": 576,
+    "sentences": 48,
+    "mean_sentence_len": 11.0,
+    "median_sentence_len": 11.0,
     "longest_sentence": 20,
-    "mean_syllables": 1.31,
-    "pct_polysyllabic": 5.0,
-    "pct_long_words": 1.2,
-    "commas_per_sentence": 0.28,
-    "list_words": 45
+    "mean_syllables": 1.32,
+    "pct_polysyllabic": 5.1,
+    "pct_long_words": 1.1,
+    "commas_per_sentence": 0.38,
+    "list_words": 47
   },
   "eli10": null,
   "block_counts": {
@@ -28,11 +29,14 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study block 3 ('Die hoes wat aanhou') 122 words (guide 30–110) — will overflow its section",
-    "Study text: mean sentence length 10.7 below band minimum 11.0 — sentences are choppier than the grade expects  [marginal — within tolerance, not blocking]",
+    "Study text 576 words, above the Grade 5 lesson ceiling 550 — a person must cut it to 550 or fewer. The budget (500) plus tolerance allows 575, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study block 3 ('Die hoes wat aanhou') 128 words (guide 30–110) — will overflow its section",
+    "Study text: 0.38 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "List 'Ander tekens en simptome van' item 1: 19 words (guide 18) — consider tightening",
     "Long words in study text with no 'begrip' entry: belangrikste, druppeltjies, waarskuwing"
   ],
   "notes": [
+    "Study text 576 words, 1 above the ceiling 575 -- ALLOWED: this text carries language-step edits, which may move it up to 25 words (5% of the budget; Drico, 22 October 2026).",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

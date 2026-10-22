@@ -1,35 +1,41 @@
 {
   "verdict": "PASS",
-  "titel": "Nie-lewende dinge en dinge wat gelewe het",
+  "titel": "Dood of nooit gelewe nie?",
   "graad": 4,
   "vak": "Natuurwetenskappe en Tegnologie",
-  "budget": 370,
-  "checked_at": "2026-08-20T13:11:45+00:00",
+  "budget": 400,
+  "begrotingsreel": "default ±15%: 340-460",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T18:16:08+00:00",
   "study": {
-    "words": 409,
-    "sentences": 28,
-    "mean_sentence_len": 12.6,
-    "median_sentence_len": 12.0,
-    "longest_sentence": 20,
-    "mean_syllables": 1.24,
-    "pct_polysyllabic": 4.2,
-    "pct_long_words": 0.8,
-    "commas_per_sentence": 0.25,
-    "list_words": 52
+    "words": 455,
+    "sentences": 29,
+    "mean_sentence_len": 13.6,
+    "median_sentence_len": 13,
+    "longest_sentence": 26,
+    "mean_syllables": 1.23,
+    "pct_polysyllabic": 4.5,
+    "pct_long_words": 1.0,
+    "commas_per_sentence": 0.59,
+    "list_words": 57
   },
   "eli10": null,
   "block_counts": {
-    "studie": 6,
+    "studie": 8,
     "lys": 1,
-    "begrip": 6,
+    "begrip": 4,
     "vraag": 3
   },
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "No ELI10 layer present — intuition-first explanation is missing"
+    "Study block 8 ('As iets net lewend lyk') only 26 words (guide 30–110)",
+    "Study text: 0.59 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: byvoorbeeld"
   ],
   "notes": [
+    "Study text 455 words, above the Grade 4 lesson ceiling 450 by 5 -- within the language-step allowance of 20.",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

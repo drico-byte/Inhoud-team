@@ -1,0 +1,40 @@
+{
+  "verdict": "PASS",
+  "titel": "Twee siektes wat deur die lug loop",
+  "graad": 5,
+  "vak": "Lewensvaardighede",
+  "budget": 500,
+  "begrotingsreel": "default ±15%: 425-575",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T16:43:22+00:00",
+  "study": {
+    "words": 573,
+    "sentences": 48,
+    "mean_sentence_len": 11.0,
+    "median_sentence_len": 11.0,
+    "longest_sentence": 20,
+    "mean_syllables": 1.32,
+    "pct_polysyllabic": 5.1,
+    "pct_long_words": 1.1,
+    "commas_per_sentence": 0.38,
+    "list_words": 45
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 8,
+    "lys": 1,
+    "begrip": 8
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study block 3 ('Die hoes wat aanhou') 127 words (guide 30–110) — will overflow its section",
+    "Study text: 0.38 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: belangrikste, druppeltjies, waarskuwing"
+  ],
+  "notes": [
+    "Study text 573 words, above the Grade 5 lesson ceiling 550 by 23 -- within the language-step allowance of 25.",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

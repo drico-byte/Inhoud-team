@@ -1,270 +1,361 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Vuil water en 'n muskietbyt",
   "kaps_punt": "Plaaslike omgewingsgesondheidsprobleme: Plaaslike gesondheidsprobleme wat gereeld voorkom soos tuberkulose, diarree, malaria, masels, ensovoorts; Oorsake van gesondheidsprobleme; Simptome van gesondheidsprobleme; en Beskikbare behandeling vir gesondheidsprobleme.",
   "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "Party siektes kom deur die lug, maar diarree kom deur vuil water, kos of hande by jou mond in. Malaria kom met 'n muskiet se byt.",
+      "bewering": "Party siektes kom deur die lug, maar diarree kom deur vuil water, kos of hande by jou mond in.",
       "blok": "Hoe diarree en malaria by jou uitkom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan in hierdie ronde (21 Sep 2026, die hele les van voor af). WHO-feiteblad 'Tuberculosis': TB versprei deur die lug wanneer iemand met long-TB hoes of nies. WHO-feiteblad 'Diarrhoeal disease': versprei deur besmette kos en drinkwater en van mens tot mens weens swak higiëne. WHO-malariafeiteblad: versprei deur die byt van besmette Anopheles-muskiete."
+      "bron": "WHO 2014 infection-control guidelines (quoted on preventionweb.net/quick/78400): pulmonary TB is an 'obligate' and measles a 'preferential' airborne pathogen. WHO diarrhoeal disease fact sheet (who.int/news-room/fact-sheets/detail/diarrhoeal-disease): 'Infection is spread through contaminated food or drinking-water, or from person-to-person as a result of poor hygiene.'"
+    },
+    {
+      "bewering": "Malaria kom met 'n muskiet se byt.",
+      "blok": "Hoe diarree en malaria by jou uitkom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO malaria fact sheet (who.int/news-room/fact-sheets/detail/malaria): 'Malaria mostly spreads to people through the bites of some infected female Anopheles mosquitoes.' Blood transfusion and needles are rare other routes, so it is right as a general statement."
     },
     {
       "bewering": "Die omgewing maak nie hierdie siektes nie maar bring kieme en muskiete na jou. Daarom keer jy hulle by jou water en in jou huis.",
       "blok": "Hoe diarree en malaria by jou uitkom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO-feiteblad 'Diarrhoeal disease' (onveilige water, sanitasie en higiëne dra die kieme oor) en WHO-malariafeiteblad (muskietbeheer, nette, siftings). Die siekte kom van die kiem of parasiet; die omgewing bring dit. Die les se eie muskietlys noem ook klere teen sononder, maar die sin sê nie dat dit die enigste plekke is waar jy hulle keer nie."
+      "bron": "WHO diarrhoeal disease fact sheet (contaminated water, 'unsafe domestic water storage and handling is also an important risk factor'); WHO malaria fact sheet (malaria is caused by a parasite carried by mosquitoes). The mapping holds. The germ is carried by water and the parasite by the mosquito. The lesson never names the malaria parasite, but that is an omission, not a false statement."
     },
     {
-      "bewering": "Diarree begin meestal wanneer iets wat siek maak by die mond inkom. Dit is dikwels kieme uit vuil water. Kieme sit ook op ongewaste hande na die toilet.",
+      "bewering": "Diarree begin meestal wanneer iets wat siek maak by die mond inkom. Dit is dikwels kieme uit vuil water.",
       "blok": "Hoe diarree begin",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO-feiteblad 'Diarrhoeal disease': infeksie deur besmette kos of drinkwater en van mens tot mens weens swak higiëne; UNICEF (Handwashing): handewas ná die toilet verlaag diarree by kinders onder vyf met byna 50%, wat die oordrag deur hande bevestig."
+      "bron": "WHO diarrhoeal disease fact sheet: infection spreads through contaminated food or drinking water or through poor hygiene, which is the faecal-oral route. The quantifiers 'meestal' and 'dikwels' are supported."
     },
     {
-      "bewering": "Hulle groei in kos wat te lank buite staan. 'n Vlieg dra hulle na jou kos.",
+      "bewering": "Kieme sit ook op ongewaste hande ná die toilet.",
       "blok": "Hoe diarree begin",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. PMC6977770 ('Quantitative Analysis of Houseflies-mediated Food Contamination with Bacteria'): huisvlieë besmet kos binne 5 minute met E. coli en die getal bakterieë op die kos neem met tyd toe; vlieë word met kinderdiarree verbind. 'Hulle groei' geld vir bakterieë eerder as virusse, maar die sin beweer nie dat elke kiem in kos groei nie."
+      "bron": "Western Cape Government Health (westerncape.gov.za/health-wellness/article/protect-our-children-under-5-during-paediatric-surge-season): teach children to 'clean their hands after using the toilet'; spread is person to person through poor hygiene (WHO fact sheet)."
     },
     {
-      "bewering": "Die tekens en simptome van diarree is dun en waterige stoelgang baie kere op een dag. Daarby kom soms maagkrampe, opgooi en koors.",
+      "bewering": "Hulle groei in kos wat te lank rondstaan.",
       "blok": "Hoe diarree begin",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, met die nuwe gesamentlike etiket. Inhoud: WHO-feiteblad 'Diarrhoeal disease' (drie of meer los of waterige stoelgange per dag); CDC 'Symptoms of Malaria' en WHO noem braking en koors as algemene begeleiers van aansteeklike diarree; maagkrampe as algemene simptoom. Etiket: die groep bevat iets wat ander sien (stoelgang, opgooi), iets wat die mens self voel (krampe) en iets wat albei is (koors: gevoel en gemeet, Wikipedia 'Signs and symptoms'). 'Tekens en simptome' is dus korrek vir die groep, en die sin dwing geen item in die verkeerde kategorie nie."
+      "bron": "WHO Five Keys to Safer Food (who.int/publications/i/item/9789241594639; poster reproduced at safeconsume.eu): microorganisms multiply quickly in food kept at room temperature, and cooked food should not stand for more than two hours. This is true of bacteria. Viruses do not multiply in food, but the generic plural is the same framing WHO uses."
     },
     {
-      "bewering": "Diarree se gevaar le nie in die maag nie. Met elke keer loop water en sout uit die liggaam. Ons noem dit uitdroging as te veel water weg is.",
-      "blok": "Die gevaar is die water wat die liggaam verloor",
+      "bewering": "'n Vlieg dra hulle na jou kos.",
+      "blok": "Hoe diarree begin",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO-feiteblad 'Diarrhoeal disease': uitdroging is die ernstigste bedreiging van diarree; water en elektroliete (natrium, chloried, kalium, bikarbonaat) gaan met elke los stoelgang verlore."
+      "bron": "Peer-reviewed study, The Gambia (pmc.ncbi.nlm.nih.gov/articles/PMC3486903): latrine flies carried viable Shigella, Salmonella and E. coli between faeces and food, and the house fly can transmit enteric pathogens. Fly control reduced childhood diarrhoea by 23% at times when flies were numerous."
     },
     {
-      "bewering": "Die tekens en simptome is 'n droe mond, groot dors en min of geen urine nie. Die mens word moeg en slap en 'n klein kind huil sonder trane.",
-      "blok": "Die gevaar is die water wat die liggaam verloor",
+      "bewering": "Die tekens en simptome is dun, waterige stoelgang wat baie kere op een dag kom. Daarby kom soms maagkrampe, opgooi en koors.",
+      "blok": "Hoe diarree begin",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, met die nuwe gesamentlike etiket. NHS inform / NHS Scotland ('Spotting the signs of dehydration'): dors, droë mond en lippe, minder piepie, donker urine, moegheid, en by kinders min of geen trane, lomerigheid en minder nat doeke. Mayo Clinic en healthdirect dieselfde. Etiket: dors is gevoel, min urine en geen trane word deur ander gesien, 'n droë mond is albei; 'tekens en simptome' pas by die groep."
+      "bron": "WHO fact sheet: 'the passage of 3 or more loose or liquid stools per day'. NHS Scotland gastroenteritis guideline (clinicalguidelines.scot.nhs.uk/media/1564/gastroenteritis.pdf) and NHS Lanarkshire: diarrhoea, nausea and vomiting, crampy abdominal pain and fever are the most common symptoms. 'soms' is correct."
+    },
+    {
+      "bewering": "Diarree se grootste gevaar is dat die liggaam water verloor. (Ook die kop: 'Die grootste gevaar is die water wat die liggaam verloor'.)",
+      "blok": "Die grootste gevaar is die water wat die liggaam verloor",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "WHO diarrhoeal disease fact sheet, verbatim: 'The most severe threat posed by diarrhoea is dehydration.'"
+    },
+    {
+      "bewering": "Met elke stoelgang loop water en sout uit die liggaam. Ons noem dit uitdroging as te veel water weg is.",
+      "blok": "Die grootste gevaar is die water wat die liggaam verloor",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO fact sheet: 'water and electrolytes (sodium, chloride, potassium and bicarbonate) are lost through liquid stools, vomit, sweat, urine and breathing'. 'sout' is a sound simplification of electrolytes."
+    },
+    {
+      "bewering": "Die tekens en simptome is 'n droë mond, groot dors en min of geen urine nie. Die siek mens word moeg en slap, en 'n klein kind huil sonder trane.",
+      "blok": "Die grootste gevaar is die water wat die liggaam verloor",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Western Cape Government Health, signs of dehydration: 'Dry or sticky mouth', 'Few or no tears when crying', 'Little or no urine', 'Tiredness', 'Thirst'. WHO fact sheet: 'drinks eagerly, thirsty' and 'lethargy'. NHS (nhs.uk/conditions/dehydration/symptoms): few or no tears, dry mouth, peeing less, tiredness."
     },
     {
       "bewering": "Babas, klein kinders en ou mense loop die grootste gevaar om uit te droog.",
-      "blok": "Die gevaar is die water wat die liggaam verloor",
+      "blok": "Die grootste gevaar is die water wat die liggaam verloor",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "Vars nagegaan. healthdirect/NHS: ernstige uitdroging kan lewensgevaarlik wees, 'especially for babies, young children and older people'. Mayo Clinic (Dehydration, risk factors): babas en klein kinders (diarree en braking die algemeenste oorsaak; kan nie sê hulle is dors nie) en ouer volwassenes (minder water in die liggaam, swakker dorsgevoel). Die superlatief hou."
+      "bron": "NHS (nhs.uk/conditions/dehydration): babies, children and older adults are more at risk of dehydration. HSE Ireland (www2.hse.ie/conditions/dehydration): people aged 65 and over are also at higher risk. WHO adds malnourished and immunocompromised children and people with HIV for life-threatening diarrhoea. That does not contradict the list, because the claim is about the risk of dehydration and does not say these are the only groups."
     },
     {
       "bewering": "Roep dadelik 'n grootmens as jy of iemand anders hierdie tekens en simptome het.",
-      "blok": "Die gevaar is die water wat die liggaam verloor",
+      "blok": "Die grootste gevaar is die water wat die liggaam verloor",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. Die slotsin se etiket stem nou ooreen met die blok se lys ('hierdie tekens en simptome'). Die advies self strook met NHS Scotland se riglyn vir versorgers dat tekens van uitdroging by kinders dadelik aandag vra. 'n Kind van Graad 5 wat 'n grootmens roep, is veilige advies."
+      "bron": "Western Cape Government Health: if a child shows any symptoms of dehydration, 'seek help at your nearest clinic' and 'Do not wait in line'. A child who follows this exactly calls an adult at once, which is safe and in line with the guidance."
     },
     {
-      "bewering": "Gaan kliniek toe, veral gou met 'n baba of klein kind. Baie mense glo iemand met diarree moet ophou drink. Hy moet juis aanhou drink.",
+      "bewering": "Gaan kliniek toe, veral gou met 'n baba of klein kind.",
       "blok": "Wat om te doen as iemand diarree het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. BMC Public Health 2015 'Fluid curtailment during childhood diarrhea: a countdown analysis' (PMC4480991): die inkorting van vloeistof by kinders met diarree is 'highly prevalent' en druis in teen WHO/UNICEF-aanbevelings; BMC Public Health 2015 'Harmful practices in the management of childhood diarrhea': dit berus dikwels op tradisionele oortuigings. WHO: gee meer vloeistof."
+      "bron": "City of Cape Town (capetown.gov.za, 'Diarrhoea cases spike amid surge season'): seek help at the clinic and do not wait for danger signs. Western Cape Government Health says the same. Taken literally it is a safe instruction. NHS Scotland notes that most children can be cared for at home, so going to the clinic is cautious rather than strictly required, but it is not wrong."
+    },
+    {
+      "bewering": "Baie mense glo dat iemand met diarree minder moet drink. Hy moet juis meer as gewoonlik drink.",
+      "blok": "Wat om te doen as iemand diarree het",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Belief: Kenya, Nyando study (BMC Public Health, doi 10.1186/s12889-015-2127-1): more than 70% of mothers gave less fluid during diarrhoea. HIFA: the belief that fluids should be stopped is common in Africa, Latin America and South Asia. Instruction: WHO IMCI Plan A, 'Give extra fluid for diarrhoea and continue feeding' (PAHO IMCI job aid, paho.org/sites/default/files/IM-JobAids-2005-06eng.pdf). The belief is not shown with a South African figure, but 'baie mense' is a general claim and it is well supported."
     },
     {
       "bewering": "Die kliniek se spesiale drankie sit water en sout terug.",
       "blok": "Wat om te doen as iemand diarree het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO-feiteblad 'Diarrhoeal disease': ORS is 'a solution of clean water, sugar and salt' wat die water en elektroliete vervang wat met die stoelgang verlore gaan."
+      "bron": "WHO fact sheet: ORS is 'a solution of clean water, sugar and salt'. Western Cape Government Health: 'free oral rehydration solutions (ORS) available at our clinics'."
     },
     {
       "bewering": "'n Grootmens kan vooraf by die kliniek of 'n gesondheidswerker vra hoe om so 'n drankie aan te meng as die kliniek ver is.",
       "blok": "Wat om te doen as iemand diarree het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. South African Family Practice 2005 (Dippenaar e.a., 'Homemade sugar-salt solution for oral rehydration'): tuisgemaakte suiker-soutoplossing word in SA wyd gebruik, maar korrekte gebruik is nie gewaarborg nie en 14% van versorgers het te veel sout bygevoeg (risiko van hipernatremie). Die les gee met reg geen resep nie en stuur die grootmens na die kliniek; childhealthcare.co.za (SA) gee dieselfde raad."
+      "bron": "SA Road-to-Health booklet promotes a home sugar-salt solution (SAJCH, scielo.org.za/pdf/sajch/v7n3/02.pdf). Western Cape Government Health gives the recipe: 1 L boiled, cooled water, half a level teaspoon of salt, 8 level teaspoons of sugar. The instruction is safe. Mixing is left to an adult who has asked a health worker, so a child does not mix by guesswork, and a wrong salt amount is a real risk."
     },
     {
-      "bewering": "Die drankie is die belangrikste deel van die behandeling en word voor en na die kliniekbesoek gedrink tot die diarree ophou.",
+      "bewering": "Die drankie is die belangrikste deel van die behandeling en word voor en ná die kliniekbesoek gedrink tot die diarree ophou.",
       "blok": "Wat om te doen as iemand diarree het",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "Vars nagegaan. WHO-feiteblad: ORS alleen kan na raming 93% van sterftes weens diarree voorkom; sink is aanvullend. WHO Plan A (MSF Medical Guidelines, Appendix 14; WHO 'Diarrhoea Treatment Guidelines' pnadk428): gee ORS tuis ná elke los stoelgang en gee ekstra vloeistof tot die diarree ophou. 'Belangrikste deel' hou."
+      "bron": "WHO fact sheet: dehydration is the most severe threat and 'Diarrhoea should be treated with oral rehydration solution (ORS)'. Zinc is an addition that shortens episodes by 25%, so it does not displace ORS as the most important part. WHO rehydration plan reproduced by MSF (medicalguidelines.msf.org/en/node/663): give liquid 'until diarrhoea stops'. Western Cape Government Health: take ORS 'along on the way to the clinic'."
     },
     {
-      "bewering": "Die siek mens hou ook aan eet en 'n baba hou aan borsdrink. 'n Baba, klein kind en iemand wat uitgedroog lyk of alles opgooi, moet beslis kliniek toe.",
+      "bewering": "Die siek mens hou ook aan eet, en 'n baba hou aan borsdrink.",
       "blok": "Wat om te doen as iemand diarree het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO-feiteblad: gaan voort met voedsame kos, insluitend borsmelk, tydens 'n diarree-episode. WHO Plan A / MSF Appendix 14: 'n kind wat uitgedroog is of nie kan hou wat hy drink nie, word vir behandeling by die gesondheidsfasiliteit verwys."
+      "bron": "WHO fact sheet: continue 'nutrient-rich foods – including breast milk – during an episode'. MSF/WHO plan: 'Breastfeeding should always be continued.' Western Cape Government Health: 'Do not stop offering food or milk feeds.'"
     },
     {
-      "bewering": "Was jou hande met seep na die toilet en voor jy kos hanteer of eet.",
+      "bewering": "'n Baba, klein kind en iemand wat uitgedroog lyk of alles opgooi, moet beslis kliniek toe.",
+      "blok": "Wat om te doen as iemand diarree het",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Western Cape Government Health danger signs include 'Not drinking, or vomiting everything', and any dehydration sign means going to the clinic. The instruction is safe if followed literally."
+    },
+    {
+      "bewering": "Was jou hande met seep ná die toilet en voor jy kos hanteer of eet.",
       "blok": "Hoe jy diarree keer",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. UNICEF (Handwashing): hande was met seep op kritieke oomblikke soos ná die toilet of voor kos hanteer word, verlaag diarree by kinders onder vyf met byna 50%."
+      "bron": "WHO fact sheet lists 'hand washing with soap' as a key prevention measure. Western Cape Government Health: clean hands after the toilet and before and after meals."
     },
     {
       "bewering": "Handewas met seep is een van die goedkoopste maniere wat werk.",
       "blok": "Hoe jy diarree keer",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "Vars nagegaan. UNICEF: handewas met seep is 'one of the cheapest, most effective things you can do' teen baie aansteeklike siektes, en 'n hoogs kosteffektiewe maatreël teen diarree en longontsteking. 'Een van die' is reeds die versagte vorm en hou."
+      "bron": "Cairncross & Valdmanis, 'Water Supply, Sanitation, and Hygiene Promotion', Disease Control Priorities 2nd ed. (World Bank, 2006), cited via globalhandwashing.org and LSHTM: hygiene promotion including handwashing costs US$3.35 per DALY averted, the cheapest of the diarrhoea interventions compared (latrine promotion $11.15, ORT $132-2,570). Reviews put the effect at a 30-47% reduction in diarrhoea. The softened 'een van die' is correct. The figure is a modelled estimate from 2006, so do not strengthen it to 'die goedkoopste'."
     },
     {
-      "bewering": "Hou drinkwater toe en skep met 'n skoon beker. Maak kos vars en hou dit toe.",
+      "bewering": "Hou drinkwater toe en skink dit uit sonder om hande of 'n beker in die water te steek.",
       "blok": "Hoe jy diarree keer",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO-feiteblad: veilige drinkwater en voedselhigiëne voorkom diarree; PMC6977770: onbedekte kos word binne minute deur vlieë besmet en bakterieë neem met tyd toe."
+      "bron": "CDC safe water storage guidance (stacks.cdc.gov/view/cdc/79547): a covered container with a small opening, and pouring rather than dipping in with a possibly contaminated object. WHO fact sheet: unsafe domestic water storage and handling is an important risk factor."
+    },
+    {
+      "bewering": "Maak kos vars klaar en hou dit toe.",
+      "blok": "Hoe jy diarree keer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO Five Keys to Safer Food (keep food at safe temperatures; do not leave cooked food standing). Western Cape Government Health: warm weather spoils food quickly. Covering food keeps flies off it (see the fly item above)."
     },
     {
       "bewering": "Hou die toilet skoon en weg van waar julle water skep.",
       "blok": "Hoe jy diarree keer",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. Environmental Health Perspectives 2013 'Pit Latrines and Their Impacts on Groundwater Quality: A Systematic Review': putlatrines besmet nabygeleë water; riglyne vra gewoonlik minstens 15 tot 30 m, en SA-grondwaterriglyne 75 m. IWA 'A historical and critical review of latrine-siting guidelines'."
+      "bron": "IFRC epidemic control toolkit (epidemics.ifrc.org/pdf/176): at least 30 m between latrines and water sources. A UNHCR document notes that the distance varies with ground conditions, and the SA groundwater protocol recommends at least 75 m (DFID DEWPoint review of national regulations). Western Cape Government Health: keep toilets clean."
     },
     {
-      "bewering": "Malaria kom van 'n sekere muskiet wat meestal snags byt. Die muskiet dra dit van 'n siek mens na 'n gesonde een.",
+      "bewering": "Malaria kom van 'n sekere muskiet wat meestal snags byt.",
       "blok": "Waar malaria vandaan kom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO-malariafeiteblad: versprei deur besmette Anopheles-muskiete wat 'mainly between dusk and dawn' byt. Medihelp (Afrikaans, 'Wêreld Malaria-dag'): die vroulike Anopheles byt veral teen skemer en snags. Die muskiet kry die parasiet deur 'n besmette mens te byt en dra dit na die volgende een (WHO)."
+      "bron": "WHO malaria fact sheet: 'some infected female Anopheles mosquitoes' ('n sekere muskiet is correct). Public Health Agency Northern Ireland malaria factsheet (publichealth.hscni.net) and Infonet-Biovision: Anopheles bite mostly between dusk and dawn, with peaks that vary by species, so 'meestal' is right. 'kom van' is read with the next sentence, which makes clear the mosquito carries the disease rather than originating it."
+    },
+    {
+      "bewering": "Die muskiet dra dit van 'n siek mens na 'n gesonde een.",
+      "blok": "Waar malaria vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC malaria biology: the mosquito is infected by feeding on an infected person, and the parasite develops in it for 10-21 days before it can infect someone else. WHO: malaria 'does not spread from person to person'. The lesson does not say it does, and the carrier picture is accurate."
     },
     {
       "bewering": "Muskiete broei in water wat stilstaan.",
       "blok": "Waar malaria vandaan kom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. Malaria Journal 2025 (Jozini, KwaZulu-Natal; PMC11844105): An. arabiensis broei in klein, tydelike, sonnige poele en stilstaande water; 'virtually any stagnant water body could be a potential breeding ground'."
+      "bron": "CDC mosquito life cycle (cdc.gov/mosquitoes/pdfs/anopheleslifecycle-eng.pdf): eggs are laid in water and the first three stages are aquatic. African Entomology 24 (2016) 421-431, eastern Mpumalanga: An. arabiensis breed in rain puddles, hoof prints and residual pools left as rivers recede, all still water."
     },
     {
       "bewering": "Malaria kom meestal in die warm en nat maande voor.",
       "blok": "Waar malaria vandaan kom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. NICD: die hoë oordragseisoen in SA loop gewoonlik van September tot Mei, 'coinciding with the hot, rainy summer months'. Nasionale Departement van Gesondheid: lae oordrag in die winter (Junie tot Augustus)."
+      "bron": "National Department of Health (health.gov.za/outbreaks-malaria): cases rise in October, peak in January and February and wane towards May. NICD (via Cape Times 2023): the rainy summer season increases the number of malaria-carrying Anopheles."
     },
     {
       "bewering": "Dit kom hoofsaaklik in die laer, warm dele in die noordooste van Suid-Afrika voor.",
       "blok": "Waar malaria vandaan kom",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan. NICD: oordrag is hoofsaaklik beperk tot die lae-liggende gebiede van KwaZulu-Natal (die verre noorde), Limpopo (veral Mopani en Vhembe) en Mpumalanga (bv. Bushbuckridge, Kruger-wildtuin). Al drie lê in die noordooste. Nasionale Departement van Gesondheid (Outbreaks - Malaria) dieselfde."
+      "tipe": "naam",
+      "bron": "National Department of Health: Limpopo, Mpumalanga and KwaZulu-Natal are endemic, 'mainly transmitted along the border areas'. NICD scientist J. Raman (Cape Times, 31 Oct 2023): risk is in the 'low altitude shared international border regions' of those three provinces, the lowveld and northern KZN. Those are the low, warm north-eastern parts."
     },
     {
-      "bewering": "Die meeste mense woon nie daar nie maar kan dit kry as hulle gaan kuier.",
+      "bewering": "Die meeste mense woon nie daar nie maar kan dit kry as hulle daar gaan kuier.",
       "blok": "Waar malaria vandaan kom",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Vars nagegaan. Nasionale Departement van Gesondheid (health.gov.za, Outbreaks - Malaria): ongeveer 10% van die bevolking (sowat 4,9 miljoen mense) loop risiko, dus woon die meeste mense nie in 'n malariagebied nie. NICD: die meeste gevalle in Gauteng is ingevoer, d.w.s. opgedoen deur mense wat elders was."
+      "tipe": "getal",
+      "bron": "National Department of Health: '10% of the population (approximately 4.9 million persons) is at risk'. UP Institute for Sustainable Malaria Control: just over 10% live in endemic areas. NICD urges travellers to risk areas to be tested for flu-like illness afterwards (sanews.gov.za/node/66237)."
     },
     {
-      "bewering": "Malaria voel soos griep met koors, koue rillings en groot moegheid. Dit kan saggies begin. Hoofpyn en lyfpyne kom daarby en party gooi op.",
+      "bewering": "Malaria voel soos griep met koors, koue rillings en groot moegheid. Dit kan saggies begin. Hoofpyn en lyfpyne kom daarby, en party mense gooi op.",
       "blok": "Hoe malaria voel en wat jy doen",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC 'Symptoms of Malaria': koors en griepagtige siekte, kouekoors, hoofpyn, spierpyne, moegheid, naarheid en braking; simptome wissel van baie lig tot ernstig. WHO: die eerste simptome kan lig wees en moeilik as malaria herken word. Afrikaans: Medihelp."
+      "tipe": "analogie",
+      "bron": "CDC malaria symptoms (cdc.gov/malaria/about/symptoms_malaria.html): 'Fever and flu-like illness', 'Chills', 'Headache, muscle aches, and tiredness', 'Nausea, vomiting'. WHO: first symptoms 'may be mild ... and difficult to recognize as malaria'. Mapping: the flu comparison is the one NICD itself uses ('people often describe as flu-like'). The one way it could mislead is a learner deciding it is only flu and staying home. The same block blocks that at once with 'Gaan gou kliniek toe' and 'Vertel ... dat jy in 'n malariagebied was', so the mapping holds."
     },
     {
-      "bewering": "Die tekens en simptome begin eers 'n week of langer na die byt.",
+      "bewering": "Die tekens en simptome begin eers 'n week of langer ná die byt.",
       "blok": "Hoe malaria voel en wat jy doen",
       "status": "bevestig",
       "tipe": "getal",
-      "bron": "Vars nagegaan. Die etiketfout van die vorige ronde is reggestel: die sin sê nou 'tekens en simptome' vir die groep wat koors en opgooi insluit. Tyd: CDC, inkubasie in die meeste gevalle 7 tot 30 dae, en mense voel 'as early as one week' siek; WHO, gewoonlik 10 tot 15 dae. 'n Week of langer klop."
+      "bron": "CDC: 'The incubation period in most cases of malaria ranges from 7 – 30 days', and some species stay dormant for months. WHO: usually 10-15 days. NICD: test anyone ill after a risk area in the past 10 days to three weeks, and up to six months after travel. 'n week of langer' matches the CDC floor and every longer window."
     },
     {
-      "bewering": "Gaan gou kliniek toe as jy hierdie tekens en simptome kry. Vertel die kliniek dat jy in 'n malaria-plek was.",
+      "bewering": "Gaan gou kliniek toe as jy hulle kry. Vertel by die kliniek dat jy in 'n malariagebied was.",
       "blok": "Hoe malaria voel en wat jy doen",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC: malaria is geneesbaar as dit vinnig en korrek gediagnoseer en behandel word; CDC/NICD-advies: noem die reis na 'n malariagebied sodat getoets word."
+      "bron": "NICD via SAnews (sanews.gov.za/node/55901; node/68554): people with fever or flu-like illness after a risk area should be tested urgently, and patients should always tell their healthcare provider about recent travel. Safe if followed literally."
     },
     {
-      "bewering": "Die kliniek toets met 'n prikkie bloed en malaria kan gesond gemaak word. Dit word vinnig ernstig as 'n mens wag.",
+      "bewering": "Die kliniek toets met 'n prikkie bloed, en malaria kan genees word.",
       "blok": "Hoe malaria voel en wat jy doen",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. WHO (malaria RDT's): bloed word gewoonlik met 'n vingerprik geneem, uitslag binne 15 tot 30 minute. WHO-malariafeiteblad: 'Malaria is preventable and curable'. CDC: sonder vinnige behandeling kan dit ernstig word (nierversaking, stuipe, koma, dood)."
+      "bron": "NICD via SAnews: testing is by blood smear microscopy or rapid diagnostic test. South Africa has used finger-prick HRPII rapid tests since 2001 (Malaria Journal 2007, Limpopo, doi 10.1186/1475-2875-6-74). WHO and the National Department of Health: 'preventable and curable'."
     },
     {
-      "bewering": "Slaap in 'n malaria-plek onder 'n muskietnet. 'n Grootmens help jou om afweermiddel aan jou arms en bene te smeer. Hou vensters en deure saans toe of sit gaas voor. Trek teen sononder lang moue en 'n lang broek aan.",
+      "bewering": "Dit kan vinnig ernstig word as 'n mens wag.",
+      "blok": "Hoe malaria voel en wat jy doen",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "WHO malaria fact sheet: untreated P. falciparum 'can progress to severe illness and death within 24 hours'. In South Africa most infections are P. falciparum (Malaria Journal 2007)."
+    },
+    {
+      "bewering": "Slaap in 'n malariagebied onder 'n muskietnet.",
       "blok": "Hoe jy muskietbyte keer",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. CDC 'Preventing Mosquito Bites' en 'Avoid bug bites': gebruik afweermiddel, dra los hemde met lang moue en lang broeke, gebruik venster- en deursiftings, slaap onder 'n (behandelde) muskietnet; by kinders moet 'n volwassene die afweermiddel aansmeer. WHO: Anopheles byt van skemer tot dagbreek, wat 'teen sononder' en 'saans' ondersteun."
+      "bron": "Public Health Agency Northern Ireland malaria factsheet and Bankmed/UP ISMC bite-prevention guidance (search results for 'Malaria 101 bite prevention', up.ac.za): bed nets, screens and repellent are the bite-prevention measures. Safe if followed literally."
+    },
+    {
+      "bewering": "'n Grootmens smeer afweermiddel aan jou arms en bene, weg van jou hande, oë en mond.",
+      "blok": "Hoe jy muskietbyte keer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC mosquito bite prevention (cdc.gov/mosquitoes/prevention): adults apply repellent to children; 'Do not apply repellent to a child's hands, eyes, mouth, cuts, or irritated skin.' A child who follows this exactly has an adult do it and keeps it off hands, eyes and mouth, which matches CDC."
+    },
+    {
+      "bewering": "Hou vensters en deure saans toe of sit gaas voor.",
+      "blok": "Hoe jy muskietbyte keer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC mosquito bite prevention: 'Use screens on windows and doors' and repair holes so mosquitoes stay outside. Closing windows and doors at the evening biting time is the same barrier."
+    },
+    {
+      "bewering": "Trek teen sononder lang moue en 'n lang broek aan.",
+      "blok": "Hoe jy muskietbyte keer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CDC: 'Wear loose-fitting, long-sleeved shirts and pants'. Public Health Agency Northern Ireland malaria factsheet: cover up from dusk because Anopheles bite between dusk and dawn."
     },
     {
       "bewering": "diarree: Dun, waterige stoelgang wat baie kere op een dag kom.",
       "blok": "diarree",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees met die res van die les weggedink. WHO: 'three or more loose or liquid stools per day'. Alleen gelees pas dit net by diarree en beweer niks vals nie."
+      "bron": "WHO: 'the passage of 3 or more loose or liquid stools per day'. Read alone the entry is accurate. 'baie kere' is a fair rendering of three or more."
     },
     {
       "bewering": "uitdroging: Wanneer die liggaam te veel van sy water verloor het.",
       "blok": "uitdroging",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees. NHS/Mayo Clinic: uitdroging is wanneer die liggaam meer vloeistof verloor as wat dit inkry, sodat daar nie genoeg water is nie. Alleen gelees beweer die inskrywing niks vals nie en pas dit nie by iets anders nie."
+      "bron": "NHS (nhs.uk/conditions/dehydration): dehydration is when the body loses more fluid than it takes in. Read alone the entry is accurate."
     },
     {
       "bewering": "kieme: Baie klein lewende dinge wat 'n mens siek kan maak.",
       "blok": "kieme",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees. Dictionary.com: 'a microorganism, especially when disease-producing'; Rady Children's/Mayo Clinic: kieme is mikroskopiese bakterieë, virusse, swamme en protosoë wat siekte kan veroorsaak, en party is goed vir jou. 'Kan' vermy die bewering dat elke kiem siek maak. Voorbehoud vir 'n mens: of virusse 'lewend' is, word wetenskaplik betwis; die woordeboekbetekenis van 'kiem' tel hulle as organismes, so die inskrywing is verdedigbaar."
+      "bron": "Merriam-Webster kids' entry (via merriam-webster.com/medical/germ search result): 'a microscopic living thing, especially one that causes disease'. Vocabulary.com: 'a minute life form'. Dictionary.com: 'a microorganism, especially when disease-producing'. Caveat for a person, not a fault: whether viruses (rotavirus is a major cause of child diarrhoea) count as living is genuinely debated among biologists (ASU Ask A Biologist; Warwick 'edge of life'). The entry follows the standard dictionary sense and 'kan' avoids claiming what every germ does."
     },
     {
-      "bewering": "simptoom: Iets wat 'n mens self voel omdat hy siek is, soos pyn, moegheid of 'n seer keel.",
+      "bewering": "simptoom: Iets wat wys dat 'n mens se gesondheid skeefloop en wat hy self ervaar, soos pyn, moegheid of naarheid.",
       "blok": "simptoom",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees. Wikipedia 'Signs and symptoms' en GoodRx: 'n simptoom is 'n subjektiewe ervaring wat die pasiënt rapporteer, soos pyn, moegheid of duiseligheid. Al drie voorbeelde is dinge wat net die siek mens self voel. Alleen gelees beweer die inskrywing niks vals nie."
+      "bron": "EBSCO Research Starters, 'Understanding disease signs and symptoms', and Wikipedia 'Signs and symptoms': symptoms are subjective experiences reported by the person. Pain, tiredness and nausea are standard examples. Read alone the entry is accurate."
     },
     {
-      "bewering": "teken: Iets wat 'n siekte aan 'n mens verander en wat ander kan sien of meet, soos 'n uitslag of koors.",
+      "bewering": "teken: Iets wat wys dat 'n mens se gesondheid skeefloop en wat 'n ander mens self kan sien, hoor, ruik of meet, ook al vertel hy niks, soos 'n uitslag of koors.",
       "blok": "teken",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees en ná die weglating van die hoes-voorbeeld. Wikipedia 'Signs and symptoms' en GoodRx: 'n teken is 'n objektiewe aanduiding van siekte wat ander kan sien of meet sonder die pasiënt se woord, met koors (met 'n termometer gemeet) en 'n uitslag as uitdruklike voorbeelde. Die weglating van 'hoor' saam met die hoes maak niks vals nie: albei oorblywende voorbeelde pas by 'sien of meet'. Koors kan ook 'n simptoom wees as 'n mens dit net voel, maar die les se lyste noem nou 'tekens en simptome' saam, so niks in die les weerspreek hierdie inskrywing nie."
+      "bron": "EBSCO Research Starters lists fever and rash as signs, objective indicators that others can observe. Fever counts as a sign when it is measured (a thermometer reading), which is the sense here ('meet'). Read alone the entry is accurate."
     },
     {
       "bewering": "malaria: 'n Siekte wat 'n mens van 'n sekere muskiet se byt kry.",
       "blok": "malaria",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees. WHO-malariafeiteblad: oorgedra deur die byt van besmette vroulike Anopheles-muskiete. 'n Sekere muskiet' vermy die vals indruk dat enige muskiet dit dra. Let wel vir 'n mens, nie 'n fout nie: alleen gelees onderskei die inskrywing malaria nie van ander muskietsiektes nie (bv. denge, wat van 'n ander soort muskiet kom), maar dit sê niks onwaars nie."
+      "bron": "WHO malaria fact sheet: spread 'through the bites of some infected female Anopheles mosquitoes'. Read alone the entry is accurate. It does not name the parasite, which is an omission, not an error."
     },
     {
-      "bewering": "muskietnet: 'n Fyn net oor 'n bed wat muskiete weghou.",
+      "bewering": "muskietnet: 'n Fyn net wat oor 'n bed hang en muskiete weghou.",
       "blok": "muskietnet",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees. Collins English Dictionary: 'a curtain made of very fine cloth which is hung round a bed in order to keep mosquitoes ... away'; Wikipedia 'Mosquito net': fyn nette, meestal oor 'n bed gehang."
+      "bron": "CDC mosquito bite prevention (netting keeps mosquitoes out) and the Public Health Agency Northern Ireland factsheet (bed nets). Read alone the entry is accurate."
     },
     {
-      "bewering": "afweermiddel: Goed wat jy aansmeer sodat muskiete jou nie byt nie.",
+      "bewering": "afweermiddel: Goed wat op die vel gesmeer word sodat muskiete nie byt nie.",
       "blok": "afweermiddel",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees. CDC 'Preventing Mosquito Bites' en CDC 'Insect Repellents Help Prevent Malaria': afweermiddel wat op die vel aangewend word, keer muskietbyte. 'Sodat' gee die doel aan en beweer nie dat dit elke byt keer nie."
+      "bron": "CDC mosquito bite prevention: repellent is applied to exposed skin to prevent bites. Repellent can also be sprayed on clothing, but 'gesmeer op die vel' describes the main use and 'sodat' states the purpose. Read alone the entry is accurate."
     },
     {
       "bewering": "kliniek: 'n Plek in die gemeenskap waar mense gesondheidsorg kry, of hulle siek is of gesond.",
       "blok": "kliniek",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, op sy eie gelees. PLOS One 2010 (Primary Health Care Services in Tshwane): SA-klinieke bied inentings, moeder-en-kindsorg, gesinsbeplanning en die behandeling van siektes; SciELO SA ('Monitoring well-baby visits'): gesonde babas besoek die kliniek vir voorkomende sorg."
+      "bron": "Western Cape Government Health: clinics give free ORS and treat sick children, and also give catch-up immunisations and vitamin A from the Road to Health booklet, which is care for the healthy. Read alone the entry is accurate."
+    },
+    {
+      "bewering": "Parallelle stel: die diarree-blokke (oorsaak, tekens, gevaar, behandeling, voorkoming) en die malaria-blokke (oorsaak, tekens, behandeling, voorkoming), saam gelees.",
+      "blok": "Hoe diarree en malaria by jou uitkom / Waar malaria vandaan kom / Hoe malaria voel en wat jy doen / Hoe jy diarree keer / Hoe jy muskietbyte keer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Tested as a set against the sources above, and no false contrast was found. Both send the sick person to the clinic quickly, consistent with Western Cape Health and NICD. Both use 'tekens en simptome' in a way consistent with the two glossary entries. The routes are kept apart correctly: diarrhoea through the mouth, malaria through a bite, and neither is said to spread through the air. The prevention lists match their own routes: hands, water, food and toilet for diarrhoea, and net, repellent, screens and clothing for malaria. The one asymmetry is that diarrhoea is said to come from 'kieme' while the malaria blocks never say a tiny living thing causes malaria. That leaves the cause of malaria at 'a mosquito carries it', which is incomplete but not false."
     }
   ],
-  "opsomming": "Alles klop: die vorige ronde se een fout (malaria se koors en opgooi wat net 'simptome' genoem is) is reggestel, die drie lyste wat nou 'tekens en simptome' saam heet, pas elkeen by hul inhoud, en die 'teken'-inskrywing is sonder die hoes-voorbeeld steeds korrek, net soos elke ander begrip-inskrywing wanneer dit op sy eie gelees word."
+  "opsomming": "Elke nagaanbare bewering, al vyf oortreffende trappe, die griep-vergelyking en al nege begrip-inskrywings (elkeen alleen gelees) is teen WHO, CDC, die NICD, die Nasionale Departement van Gesondheid en die Wes-Kaapse Gesondheidsdepartement bevestig, en elke voorkomings- en behandelingsopdrag is veilig as 'n kind dit letterlik volg; vir 'n mens om te weet, nie 'n fout nie: 'kieme' word as lewende dinge omskryf terwyl virusse se status as lewend omstrede is, en die les noem nie die malaria-parasiet nie."
 }

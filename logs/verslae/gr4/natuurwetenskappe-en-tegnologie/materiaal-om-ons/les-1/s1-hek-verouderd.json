@@ -4,18 +4,21 @@
   "graad": 4,
   "vak": "Natuurwetenskappe en Tegnologie",
   "budget": 690,
-  "checked_at": "2026-08-25T11:43:52+00:00",
+  "begrotingsreel": "default ±15%: 586-793",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T17:25:34+00:00",
   "study": {
-    "words": 714,
-    "sentences": 54,
-    "mean_sentence_len": 11.9,
-    "median_sentence_len": 12.0,
-    "longest_sentence": 15,
-    "mean_syllables": 1.26,
+    "words": 722,
+    "sentences": 55,
+    "mean_sentence_len": 11.6,
+    "median_sentence_len": 12,
+    "longest_sentence": 16,
+    "mean_syllables": 1.27,
     "pct_polysyllabic": 3.6,
     "pct_long_words": 0.5,
-    "commas_per_sentence": 0.04,
-    "list_words": 74
+    "commas_per_sentence": 0.51,
+    "list_words": 83
   },
   "eli10": null,
   "block_counts": {
@@ -26,11 +29,15 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study block 7 ('Hoe jy die drie uitmekaar ken') 113 words (guide 30–110) — will overflow its section",
+    "Study text 722 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (690) plus tolerance allows 793, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study block 7 ('Hoe jy die drie uitmekaar ken') 117 words (guide 30–110) — will overflow its section",
+    "Study text: 0.51 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "List 'Voorbeelde van die drie soor' item 2 has 2 commas — likely too much subordination for a list point",
+    "List 'Voorbeelde van die drie soor' item 6: 21 words (guide 18) — consider tightening",
+    "List 'Voorbeelde van die drie soor' item 6 has 3 commas — likely too much subordination for a list point",
     "Long words in study text with no 'begrip' entry: hoeveelheid, vloeistowwe"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

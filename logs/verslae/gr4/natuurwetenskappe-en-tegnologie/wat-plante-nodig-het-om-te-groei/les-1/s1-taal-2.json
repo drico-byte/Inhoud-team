@@ -1,0 +1,75 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Nie dieselfde dinge nie",
+      "voor": "warmte nodig soos enige ander groen plant",
+      "na": "warmte nodig, soos enige ander groen plant",
+      "soort": "leestekens",
+      "rede_vinder": "Without the comma 'soos enige ander groen plant' can read as a fifth item or an example in the list; the comma marks it as a comparison with the whole clause.",
+      "fout": "Straight after the list, 'soos enige ander groen plant' can be misread for a moment as 'such as', introducing examples of the list.",
+      "rede_keurder": "The comma marks the phrase as a comparison with the whole clause, which helps a Grade 4 reader without changing what the sentence says."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 1,
+      "blok": "Hoe 'n saad ontkiem",
+      "voor": "en dan swel dit dikker op",
+      "na": "en dan swel dit op",
+      "soort": "idioom",
+      "rede_vinder": "'Opswel' already means to get bigger and thicker, so 'dikker op' is redundant and unidiomatic; 'swel op' is also the form the next block uses.",
+      "fout": "'swel dit dikker op' wedges a comparative into the separable verb and doubles its meaning, which reads stiffly.",
+      "rede_keurder": "The awkwardness is real, but cutting 'dikker' loses the plain-word gloss that explains 'swel' to a Grade 4 reader (kept on purpose last round), so the writer should fix it another way, for example by keeping the swelling and the getting thicker as two plain verbs.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Hoe 'n saad ontkiem",
+      "teks": "Later druk 'n klein stingel boontoe by die saad uit.",
+      "rede": "The lesson calls the plant's stem 'stam' everywhere else (blocks 1, 2, 5 and the measuring list) but 'stingel' here; a Grade 4 learner may take these for two different parts. Whether to align the term is a subject-term decision, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 718,
+  "woorde_na": 718,
+  "wanneer": "2026-10-22T17:06:34+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 8,
+      "blok": "'n Nuwe plant uit 'n steggie",
+      "voor": "maak baie maklik wortels op hierdie manier",
+      "na": "maak op hierdie manier baie maklik wortels",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans the adverbial of manner sits more naturally before the object than trailing at the end.",
+      "fout": "none",
+      "rede_keurder": "The original word order reads naturally; moving the adverbial is a lateral move."
+    },
+    {
+      "nr": 9,
+      "blok": "'n Nuwe plant uit 'n saad",
+      "voor": "wat voor hom gegroei het",
+      "na": "wat al voorheen gegroei het",
+      "soort": "woordkeuse",
+      "rede_vinder": "'voor hom gegroei' (grew before it, the seed) reads awkwardly and 'hom' for the seed clashes with 'dit' elsewhere; 'al voorheen' keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'al voorheen' loses the relation 'before it (the seed)' and is vaguer, while the original is correct Afrikaans."
+    },
+    {
+      "nr": 18,
+      "blok": "Wat om te meet en aan te teken",
+      "voor": "Tel hoeveel blare die plantjie elke week het.",
+      "na": "Tel elke week hoeveel blare die plantjie het.",
+      "soort": "woordorde",
+      "rede_vinder": "'elke week' belongs with the instruction 'tel' (count weekly), not inside the counted clause.",
+      "fout": "none",
+      "rede_keurder": "The original is natural Afrikaans and already means counting the leaves each week; the reorder is lateral."
+    }
+  ],
+  "konsep_hash_voor": "sha256:0ca688bc3208d1681be767d2d85e3bec",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:9d5857cf020007e24e05263c3451c00d"
+}

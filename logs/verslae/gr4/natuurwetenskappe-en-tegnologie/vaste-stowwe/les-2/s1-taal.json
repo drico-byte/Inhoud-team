@@ -1,0 +1,312 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n eienskap is",
+      "voor": "Droë hout is hard en dit bly hard",
+      "na": "Droë hout is hard, en dit bly hard",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Both clauses have their own subject and verb (hout is / dit bly), so the AWS comma is required."
+    },
+    {
+      "nr": 2,
+      "blok": "Albei soorte materiaal het eienskappe",
+      "voor": "Wol is onverwerkte materiaal en dit het",
+      "na": "Wol is onverwerkte materiaal, en dit het",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Wol is / dit het are two full clauses; comma only, meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Albei soorte materiaal het eienskappe",
+      "voor": "Mense weef lap van daardie wol en die lap",
+      "na": "Mense weef lap van daardie wol, en die lap",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Mense weef / die lap het are two full clauses; comma only."
+    },
+    {
+      "nr": 4,
+      "blok": "Albei soorte materiaal het eienskappe",
+      "voor": "Mense het die wol verander en daarom",
+      "na": "Mense het die wol verander, en daarom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Mense het verander / daarom is lap are two full clauses; comma only."
+    },
+    {
+      "nr": 5,
+      "blok": "Albei soorte materiaal het eienskappe",
+      "voor": "baie warm oond en dan is dit",
+      "na": "baie warm oond, en dan is dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Mense bak / dan is dit are two full clauses; comma only."
+    },
+    {
+      "nr": 6,
+      "blok": "Hard of sag",
+      "voor": "Hard materiaal gee nie mee",
+      "na": "Harde materiaal gee nie mee",
+      "soort": "grammatika",
+      "rede_vinder": "Attributive adjective takes the -e ending (harde materiaal); the block itself already writes 'Sagte materiaal'.",
+      "fout": "Uninflected attributive adjective 'hard materiaal'.",
+      "rede_keurder": "A monosyllabic attributive adjective inflects (harde materiaal), matching 'Sagte materiaal' in the same block; meaning unchanged."
+    },
+    {
+      "nr": 7,
+      "blok": "Hard of sag",
+      "voor": "Sag materiaal gee mee",
+      "na": "Sagte materiaal gee mee",
+      "soort": "grammatika",
+      "rede_vinder": "Attributive adjective is inflected (sagte materiaal), as the last sentence of the same block already has it.",
+      "fout": "Uninflected attributive adjective 'sag materiaal'.",
+      "rede_keurder": "Sagte materiaal is the correct form and the block's own last sentence already uses it."
+    },
+    {
+      "nr": 8,
+      "blok": "Styf of buigbaar",
+      "voor": "Styf materiaal hou sy eie vorm",
+      "na": "Stywe materiaal hou sy eie vorm",
+      "soort": "grammatika",
+      "rede_vinder": "Attributive adjective is inflected: stywe materiaal.",
+      "fout": "Uninflected attributive adjective 'styf materiaal'.",
+      "rede_keurder": "Stywe materiaal is the correct inflected form; note the neighbouring 'Buigbaar materiaal' stays uninflected because buigbaar is protected, which a person may want to look at."
+    },
+    {
+      "nr": 9,
+      "blok": "Styf of buigbaar",
+      "voor": "'n Keramiekbord is ook styf en hy hou",
+      "na": "'n Keramiekbord is ook styf, en hy hou",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Keramiekbord is / hy hou are two full clauses; comma only."
+    },
+    {
+      "nr": 10,
+      "blok": "Styf of buigbaar",
+      "voor": "Daardie stuk is bloot dikker en die dikte",
+      "na": "Daardie stuk is bloot dikker, en die dikte",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Stuk is / die dikte maak are two full clauses; comma only."
+    },
+    {
+      "nr": 11,
+      "blok": "Sterk of swak",
+      "voor": "Sterk materiaal hou heel wanneer",
+      "na": "Sterk materiaal bly heel wanneer",
+      "soort": "idioom",
+      "rede_vinder": "The idiom is 'heel bly', as the lesson says everywhere else; 'heel hou' is unidiomatic.",
+      "fout": "'hou heel' used intransitively is unidiomatic; Afrikaans says 'bly heel'.",
+      "rede_keurder": "Bly heel is the fixed expression and matches the lesson's own 'kyk of dit heel bly' and 'Die riem bly heel'; meaning unchanged."
+    },
+    {
+      "nr": 12,
+      "blok": "Sterk of swak",
+      "voor": "Die riem bly heel en jy kry hom",
+      "na": "Die riem bly heel, en jy kry hom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Riem bly / jy kry are two full clauses; comma only."
+    },
+    {
+      "nr": 13,
+      "blok": "Sterk of swak",
+      "voor": "Droë hout is ook sterk en 'n dik stuk",
+      "na": "Droë hout is ook sterk, en 'n dik stuk",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Hout is / 'n dik stuk skeur are two full clauses; comma only."
+    },
+    {
+      "nr": 14,
+      "blok": "Sterk of swak",
+      "voor": "Glas is styf en tog kan dit breek",
+      "na": "Glas is styf, en tog kan dit breek",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Glas is / tog kan dit breek are two full clauses; comma only."
+    },
+    {
+      "nr": 15,
+      "blok": "Sterk of swak",
+      "voor": "'n Leerriem buig maklik en tog hou hy",
+      "na": "'n Leerriem buig maklik, en tog hou hy",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Leerriem buig / tog hou hy are two full clauses; comma only, protected 'met al jou krag' is in another sentence and untouched."
+    },
+    {
+      "nr": 16,
+      "blok": "Lig of swaar",
+      "voor": "Die baksteen trek jou hand af en die hout",
+      "na": "Die baksteen trek jou hand ondertoe, en die hout",
+      "soort": "woordkeuse",
+      "rede_vinder": "'trek jou hand af' can read as 'pull your hand off'; 'ondertoe' gives the direction at no word cost, plus the AWS comma between two clauses.",
+      "fout": "'trek jou hand af' can be read as 'pulls your hand off' (aftrek), and the clause lacks the AWS comma.",
+      "rede_keurder": "Ondertoe states the downward pull plainly with the same word count and adds the required comma; it describes an observation, not a test step, so nothing the learner does changes."
+    },
+    {
+      "nr": 17,
+      "blok": "Lig of swaar",
+      "voor": "Hard beteken nie swaar nie en daardie",
+      "na": "Hard beteken nie swaar nie, en daardie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Hard beteken / daardie blok wys are two full clauses; comma only."
+    },
+    {
+      "nr": 18,
+      "blok": "Lig of swaar",
+      "voor": "Die hout is hard onder jou duim en tog",
+      "na": "Die hout is hard onder jou duim, en tog",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Hout is / tog voel dit are two full clauses; comma only."
+    },
+    {
+      "nr": 19,
+      "blok": "Lig of swaar",
+      "voor": "Daardie plank is bloot groter en hy vertel",
+      "na": "Daardie plank is bloot groter, en hy vertel",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Plank is / hy vertel are two full clauses; comma only."
+    },
+    {
+      "nr": 20,
+      "blok": "Waterdig of absorberend",
+      "voor": "Waterdig materiaal laat nie",
+      "na": "Waterdigte materiaal laat nie",
+      "soort": "grammatika",
+      "rede_vinder": "Attributive adjective is inflected: waterdigte materiaal.",
+      "fout": "Uninflected attributive adjective 'waterdig materiaal'.",
+      "rede_keurder": "Waterdigte materiaal is the correct inflected form; meaning unchanged."
+    },
+    {
+      "nr": 21,
+      "blok": "Waterdig of absorberend",
+      "voor": "Die druppel loop by die buitekant af en die emmer",
+      "na": "Die druppel loop aan die buitekant af, en die emmer",
+      "soort": "idioom",
+      "rede_vinder": "Water runs 'aan' the outside ('aan die buitekant af', as the glass block says), plus the AWS comma between two clauses.",
+      "fout": "'by die buitekant af' is a loose preposition for water running down a surface; clause also lacks the AWS comma.",
+      "rede_keurder": "Checked the preposition: in both the drop runs down the outer surface of the bucket, so 'aan die buitekant af' is the idiomatic form (as the glass block has it) with no shift in meaning."
+    },
+    {
+      "nr": 22,
+      "blok": "Waterdig of absorberend",
+      "voor": "bly droog en dit is wat waterdig beteken",
+      "na": "bly droog, en dit is wat waterdig beteken",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Wat binne is bly droog / dit is are two full clauses; comma only."
+    },
+    {
+      "nr": 23,
+      "blok": "Waterdig of absorberend",
+      "voor": "Absorberend materiaal trek water",
+      "na": "Absorberende materiaal trek water",
+      "soort": "grammatika",
+      "rede_vinder": "Attributive adjective is inflected: absorberende materiaal.",
+      "fout": "Uninflected attributive adjective 'absorberend materiaal'.",
+      "rede_keurder": "Absorberende materiaal is the correct inflected form; meaning unchanged."
+    },
+    {
+      "nr": 24,
+      "blok": "Waterdig of absorberend",
+      "voor": "'n Gebakte baksteen suig water ook in en tog bly hy hard",
+      "na": "'n Gebakte baksteen suig ook water in, en tog bly hy hard",
+      "soort": "woordorde",
+      "rede_vinder": "'suig ook water in' is the natural order for 'also absorbs water', plus the AWS comma between two clauses.",
+      "fout": "'suig water ook in' places ook awkwardly, and the clause lacks the AWS comma.",
+      "rede_keurder": "In both versions ook ties the fired brick to the unfired clay that also absorbs water, so the natural order 'suig ook water in' keeps the meaning and adds the required comma."
+    },
+    {
+      "nr": 25,
+      "blok": "Een materiaal met verskeie eienskappe",
+      "voor": "eienskappe gelyk",
+      "na": "eienskappe tegelyk",
+      "soort": "woordkeuse",
+      "rede_vinder": "'tegelyk' is the standard word for 'at the same time'; 'gelyk' also means 'equal' or 'level'.",
+      "fout": "'gelyk' is loose here and can read as 'equal'.",
+      "rede_keurder": "Tegelyk is the standard word for 'at the same time' and removes the 'equal' reading; protected 'gewoonlik' is untouched."
+    },
+    {
+      "nr": 26,
+      "blok": "Een materiaal met verskeie eienskappe",
+      "voor": "Die glas is hard en dit gee",
+      "na": "Die glas is hard, en dit gee",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Glas is / dit gee are two full clauses; comma only."
+    },
+    {
+      "nr": 27,
+      "blok": "Een materiaal met verskeie eienskappe",
+      "voor": "Die glas is styf en die glasruit",
+      "na": "Die glas is styf, en die glasruit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Glas is / die glasruit hou are two full clauses; comma only."
+    },
+    {
+      "nr": 28,
+      "blok": "Een materiaal met verskeie eienskappe",
+      "voor": "Die glas is waterdig en die reën",
+      "na": "Die glas is waterdig, en die reën",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "Glas is / die reen loop are two full clauses; comma only."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Lig of swaar",
+      "teks": "Daardie plank is bloot groter en hy vertel jou niks oor die materiaal nie.",
+      "rede": "'hy' refers to the plank, but the point is that its heavier weight says nothing about the material; 'sy gewig' would be clearer but adds a word, so a writer should decide."
+    },
+    {
+      "blok": "Styf of buigbaar",
+      "teks": "'n Dun plastieksak buig net so maklik in jou vuis.",
+      "rede": "A bag squeezed in a fist crumples rather than bends; the image may not show bending clearly, but changing it means choosing new content."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "buigbaar",
+      "rede": "In 'Buigbaar materiaal gaan krom' the adjective is attributive and should be inflected ('Buigbare materiaal'), like harde, sagte, stywe, waterdigte and absorberende. This keeps the protected word choice (not rekbaar or buigsaam) but changes its form, so a person should decide."
+    }
+  ],
+  "woorde_voor": 813,
+  "woorde_na": 813,
+  "wanneer": "2026-10-22T16:52:20+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:74a5b81f02f26ae0ba287debcb0c4f10",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:13df13d49ba1f702abf51ac43ec966c4"
+}

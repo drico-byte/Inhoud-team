@@ -468,3 +468,4 @@
 - [Language test: Claude vs ChatGPT](taaltoets-claude-teen-chatgpt.md) — blind test 22 Oct 2026: Claude 38 extra fixes but 17 rejected changes; taalnasiener-v1.0 being tuned; AWS comma before en.
 - [CAPS audit fix-up: where we stand](caps-oudit-herstel-stand.md) — creation stopped until CAPS gaps fixed; 2_PDF is language-checked; unsigned lessons are ours
 - [Language pass and CAPS gaps, Gr 4-6](taalrondte-en-gapings-gr4-6.md) — Lampies 22 Oct: language step over all 338 lessons plus gap fills in one pass, 10 at a time
+- [Two fact checks that differ are a source conflict](twee-feitetoetse-wat-verskil-is-n-bronkonflik.md) — a newer check contradicting a settled ruling goes to Lampies; I overturned one on 22 Oct and reverted it.

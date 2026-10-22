@@ -1,0 +1,109 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die hoes wat aanhou",
+      "voor": "Simptome en tekens wys",
+      "na": "Tekens en simptome wys",
+      "soort": "woordkeuse",
+      "rede_vinder": "The lesson uses the protected pair 'tekens en simptome' everywhere else; this one reversed order is the only exception and reads as a different phrase.",
+      "fout": "The original uses 'simptome en tekens', which the BESKERM list names as a NIE form of the protected pair 'tekens en simptome'.",
+      "rede_keurder": "Restores the protected word order used everywhere else in the lesson without changing what the sentence says."
+    },
+    {
+      "nr": 3,
+      "blok": "Die hoes wat aanhou",
+      "voor": "droë hoes wat twee weke aanhou",
+      "na": "droë hoes wat twee weke lank aanhou",
+      "soort": "idioom",
+      "rede_vinder": "A duration with 'aanhou' is idiomatically 'twee weke lank aanhou', as the glossary's 'weke lank aanhou' already has it.",
+      "fout": "A duration with 'aanhou' reads more naturally with 'lank', as the glossary's 'weke lank aanhou' has it.",
+      "rede_keurder": "The idiomatic duration form, with the same two weeks and no change to the claim."
+    },
+    {
+      "nr": 4,
+      "blok": "Ander tekens en simptome van TB",
+      "voor": "Koors: sy liggaam is warmer",
+      "na": "Koors: die mens se liggaam is warmer",
+      "soort": "verwysing",
+      "rede_vinder": "The list opens with 'sy' and 'hy' but has no antecedent under its own heading; naming the person once in the first item gives the later pronouns something to refer to.",
+      "fout": "The list block opens with 'sy' and 'hy' but has no person they refer to under its own heading.",
+      "rede_keurder": "Naming the person once gives the later pronouns something to refer to; it adds no fact and stays within the list allowance."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Waar TB vandaan kom",
+      "voor": "glo jy kry TB uit 'n beker, 'n bord of kos wat gedeel word",
+      "na": "glo jy kry TB as jy 'n beker, 'n bord of kos met iemand deel",
+      "soort": "sinsbou",
+      "rede_vinder": "'TB uit 'n beker kry' with a trailing passive is wooden; an active 'as jy ... deel' is more natural and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "The meaning moves: the original refutes a myth about shared objects, while 'met iemand deel' makes it about sharing with a person, and being near someone with TB can pass it on through the air, so the refutation would become misleading."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat die kliniek met masels doen",
+      "voor": "masels gaan ook kliniek toe. Maar geen medisyne",
+      "na": "masels gaan ook kliniek toe, maar geen medisyne",
+      "soort": "sinsbou",
+      "rede_vinder": "The contrast reads more smoothly as one sentence; the AWS comma before 'maar' applies because both halves have their own subject and verb.",
+      "fout": "none",
+      "rede_keurder": "A lateral move: a short sentence starting with 'Maar' already reads well for Grade 5 and gives the contrast emphasis, and joining them only makes the sentence longer."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die hoes wat aanhou",
+      "teks": "Iemand met 'n droë hoes wat twee weke aanhou, gaan ook kliniek toe.",
+      "rede": "Two sentences earlier the rule is 'twee weke of langer' with 'moet'; this sentence says only 'twee weke' and 'gaan', so the two may read as different rules. Aligning them would change content, so it is flagged, not changed."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "TB kan gesond gemaak word / Die kliniek kan TB gesond maak",
+      "rede": "In Afrikaans 'gesond maak' is usually said of a person, not a disease ('n siekte word genees); the phrasing is understandable but slightly unidiomatic. Not changed, because it is protected and the forbidden list rules out the 'genees' forms."
+    }
+  ],
+  "woorde_voor": 573,
+  "woorde_na": 576,
+  "wanneer": "2026-10-22T16:47:00+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 10,
+      "blok": "Ander tekens en simptome van TB",
+      "voor": "sonder dat hy probeer",
+      "na": "sonder dat hy dit probeer",
+      "soort": "grammatika",
+      "rede_vinder": "'Probeer' here needs an object ('dit') to read naturally.",
+      "fout": "none",
+      "rede_keurder": "'Sonder dat hy probeer' is already natural Afrikaans; adding 'dit' is a lateral move."
+    },
+    {
+      "nr": 12,
+      "blok": "Die kliniek kan TB gesond maak",
+      "voor": "help hom om by te hou",
+      "na": "help hom om vol te hou",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Byhou' means keeping pace with something; 'volhou' is the idiom for persevering with a treatment.",
+      "fout": "none",
+      "rede_keurder": "'Byhou' (keeping up with the doses) and 'volhou' (persevering) say different things about what the clinic does, and the original is acceptable Afrikaans."
+    },
+    {
+      "nr": 14,
+      "blok": "Waar masels vandaan kom en hoe dit lyk",
+      "voor": "en trek af oor die lyf",
+      "na": "en versprei dan afwaarts oor die lyf",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Trek af' can be read as 'pull off'; 'versprei afwaarts' keeps the downward spread unambiguous.",
+      "fout": "none",
+      "rede_keurder": "'Trek af oor die lyf' is clear in context, and 'versprei dan afwaarts' is longer and stiffer for a Grade 5 reader without being clearly better."
+    }
+  ],
+  "konsep_hash_voor": "sha256:575a9a3f7ac64f9cc40bc27cad2edbd5",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:07bacd11b78d888465e38f007e16f9dc"
+}

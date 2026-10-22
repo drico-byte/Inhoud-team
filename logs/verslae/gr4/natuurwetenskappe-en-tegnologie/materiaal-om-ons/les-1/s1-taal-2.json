@@ -1,0 +1,128 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "'n Vloeistof neem die houer se vorm aan",
+      "voor": "hoë, smal glas en dit staan",
+      "na": "hoë, smal glas, en dit staan",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two main clauses (an imperative clause and 'dit staan').",
+      "fout": "Missing AWS comma before 'en' joining two clauses with different subjects (implied 'jy' giet, 'dit' staan).",
+      "rede_keurder": "Matches the AWS rule and the commas the lesson already uses; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "'n Vloeistof neem die houer se vorm aan",
+      "voor": "vlak bak en dit lê breed",
+      "na": "vlak bak, en dit lê breed",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two main clauses, consistent with the rest of the lesson.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with different subjects.",
+      "rede_keurder": "Same pattern as change 1, keeps the paragraph consistent; meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Borrels uit 'n bottel",
+      "voor": "Draai hom nou skuins en groot",
+      "na": "Draai hom nou skuins, en groot",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two main clauses ('groot borrels kom' has its own subject and verb).",
+      "fout": "Missing AWS comma before 'en'; 'groot borrels kom' is a clause with its own subject and verb.",
+      "rede_keurder": "Correct AWS comma between two independent clauses; meaning unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Lug is regte materiaal",
+      "voor": "opgeblaas het tussen jou twee hande",
+      "na": "opgeblaas het, tussen jou twee hande",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the embedded relative clause separates the clashing verb 'het' from the main clause, as the lesson already does in 'wat jy om jou sien, is'.",
+      "fout": "The embedded relative clause is not closed, so a Grade 4 reader may not see where 'wat jy pas opgeblaas het' ends.",
+      "rede_keurder": "There is no verb clash as the finder says, but the comma closing the relative clause is conventional and eases the first reading without changing meaning."
+    },
+    {
+      "nr": 7,
+      "blok": "Voorbeelde van die drie soorte",
+      "voor": "daardie gas is net soos lug 'n gas",
+      "na": "daardie gas is, net soos lug, 'n gas",
+      "soort": "leestekens",
+      "rede_vinder": "Commas set off the comparison so the clause does not read as 'lug 'n gas' run together.",
+      "fout": "'is net soos lug 'n gas' runs together and invites the misreading 'is just like air'.",
+      "rede_keurder": "The commas set off the comparison and remove the stumble without adding or changing words."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Lug is regte materiaal",
+      "voor": "stoot terug teen jou twee hande",
+      "na": "stoot teen jou twee hande terug",
+      "soort": "woordorde",
+      "rede_vinder": "The separable verb 'terugstoot' reads more naturally with its particle at the end of the clause.",
+      "fout": "none",
+      "rede_keurder": "'stoot terug teen jou hande' is natural Afrikaans; moving the particle is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Borrels uit 'n bottel",
+      "voor": "Die water styg by die mond in",
+      "na": "Die water stroom by die mond in",
+      "soort": "woordkeuse",
+      "rede_vinder": "'styg ... in' is an unnatural verb combination; 'stroom by die mond in' is idiomatic and keeps the meaning of water entering the bottle.",
+      "fout": "none",
+      "rede_keurder": "'styg' carries the upward movement of the water into the upturned bottle, which 'stroom' loses, and the original reads acceptably."
+    },
+    {
+      "nr": 8,
+      "blok": "Hoe jy die drie uitmekaar ken",
+      "voor": "Vra laastens of sy stil boonste kant plat lê",
+      "na": "Vra laastens of die materiaal se stil boonste kant plat lê",
+      "soort": "verwysing",
+      "rede_vinder": "'sy' here has no clear antecedent in the sentence and can be misread as 'she'; naming the material makes the reference clear and leaves 'stil boonste kant' intact.",
+      "fout": "none",
+      "rede_keurder": "'sy' is the ordinary possessive of 'dit' (the material in the previous questions) and cannot be read as 'she' here; the proposal only lengthens the sentence."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 719,
+  "woorde_na": 719,
+  "wanneer": "2026-10-22T17:03:59+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 12,
+      "blok": "'n Vloeistof neem die houer se vorm aan",
+      "voor": "Sit 'n klein hoeveelheid water",
+      "na": "Sit 'n bietjie water",
+      "soort": "register",
+      "rede_vinder": "'n Bietjie water is the natural, simpler Grade 4 phrasing for the same amount.",
+      "fout": "none",
+      "rede_keurder": "'Hoeveelheid' links to 'dieselfde hoeveelheid water' three sentences later, which is the point of the block, so the swap disturbs a neighbour."
+    },
+    {
+      "nr": 24,
+      "blok": "Borrels uit 'n bottel",
+      "voor": "diep onder die water in 'n emmer in",
+      "na": "diep onder die water in 'n emmer",
+      "soort": "sinsbou",
+      "rede_vinder": "The double in is clumsy; the closing in is unnecessary.",
+      "fout": "none",
+      "rede_keurder": "The in...in circumposition is grammatical Afrikaans for motion into the water, and dropping a particle from an activity step is not worth the risk."
+    },
+    {
+      "nr": 35,
+      "blok": "houer",
+      "voor": "soos 'n glas of bak",
+      "na": "soos 'n glas of 'n bak",
+      "soort": "grammatika",
+      "rede_vinder": "Repeating the article reads more naturally for two separate objects.",
+      "fout": "none",
+      "rede_keurder": "'n Glas of bak is natural Afrikaans with a shared article, and the glossary entry should not be touched for a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:7f7c4a0f10c003461da1b5c4e0be071a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:fd07625149080b96e6a4a3f11d972019"
+}

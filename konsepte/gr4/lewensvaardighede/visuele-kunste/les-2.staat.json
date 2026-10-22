@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/visuele-kunste/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:8db3d8140f298b7540dcadd8902dc263",
+  "konsep_hash": "sha256:e85db12a579e313adaae58bb30d067b3",
   "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:4f89f0ef9741559ecc9c5c1f8af386bb"
@@ -137,11 +137,64 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\visuele-kunste\\les-2.json",
       "konsep_hash": "sha256:8db3d8140f298b7540dcadd8902dc263",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-22T20:40:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:27e37f0fc16351feeabcc81c79b6f9f8",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T20:40:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 435,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:43:47+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 6,
+      "laat_vaar": 4,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 435,
+      "woorde_na": 437,
+      "konsep_hash": "sha256:e85db12a579e313adaae58bb30d067b3"
+    },
+    {
+      "wanneer": "2026-10-22T20:43:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 437,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:43:48+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Patrone wat herhaal': The block heading (and the lesson title) use 'herhaal' intransitively, like the two body sentences proposed above; a script cannot change a heading or title, so a person or the writer may want 'Patrone wat herhaal word' or 'Patrone wat hulle herhaal'.",
+        "check (the language finder raised this; it may not be a fault): 'Verhouding: hoe groot teenoor wat': The heading 'hoe groot teenoor wat' is clipped and hard for a Grade 4 learner to parse; it is a heading, so it is flagged rather than changed."
+      ]
     }
   ],
-  "spek_hash": "sha256:5d7b5599a8a54412b7c0da31efdab4b6",
+  "spek_hash": "sha256:fb147b4d3159b8174877b0c287daf9fa",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Patrone wat herhaal': The block heading (and the lesson title) use 'herhaal' intransitively, like the two body sentences proposed above; a script cannot change a heading or title, so a person or the writer may want 'Patrone wat herhaal word' or 'Patrone wat hulle herhaal'.",
+    "check (the language finder raised this; it may not be a fault): 'Verhouding: hoe groot teenoor wat': The heading 'hoe groot teenoor wat' is clipped and hard for a Grade 4 learner to parse; it is a heading, so it is flagged rather than changed."
+  ],
+  "taal_rondte_vir": "sha256:e85db12a579e313adaae58bb30d067b3",
+  "taal_keurder_vir": "4f58c592269b10f2849071fc110db524",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:e85db12a579e313adaae58bb30d067b3",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:e85db12a579e313adaae58bb30d067b3",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "6e4b5f5de83eb5ff235e134fbda459e8"
 }

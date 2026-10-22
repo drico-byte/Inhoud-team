@@ -6,17 +6,18 @@
   "budget": 500,
   "begrotingsreel": "default ±15%: 425-575",
   "begroting_basis": "meting",
-  "checked_at": "2026-10-15T09:03:29+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-22T16:41:00+00:00",
   "study": {
-    "words": 547,
-    "sentences": 47,
-    "mean_sentence_len": 10.6,
-    "median_sentence_len": 11,
+    "words": 568,
+    "sentences": 48,
+    "mean_sentence_len": 10.9,
+    "median_sentence_len": 11.0,
     "longest_sentence": 20,
-    "mean_syllables": 1.31,
-    "pct_polysyllabic": 5.0,
-    "pct_long_words": 1.2,
-    "commas_per_sentence": 0.28,
+    "mean_syllables": 1.32,
+    "pct_polysyllabic": 5.2,
+    "pct_long_words": 1.1,
+    "commas_per_sentence": 0.38,
     "list_words": 45
   },
   "eli10": null,
@@ -29,10 +30,12 @@
   "failures": [],
   "warnings": [
     "Study block 3 ('Die hoes wat aanhou') 122 words (guide 30–110) — will overflow its section",
-    "Study text: mean sentence length 10.6 below band minimum 11.0 — sentences are choppier than the grade expects  [marginal — within tolerance, not blocking]",
+    "Study text: mean sentence length 10.9 below band minimum 11.0 — sentences are choppier than the grade expects  [marginal — within tolerance, not blocking]",
+    "Study text: 0.38 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: belangrikste, druppeltjies, waarskuwing"
   ],
   "notes": [
+    "Study text 568 words, above the Grade 5 lesson ceiling 550 by 18 -- within the language-step allowance of 25.",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

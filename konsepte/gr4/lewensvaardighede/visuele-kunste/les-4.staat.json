@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/visuele-kunste/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:e84f4762827e1177cd6f669e3855d3ae",
+  "konsep_hash": "sha256:a550e933a091db95868a262a4c6f5eff",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -109,11 +109,62 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\visuele-kunste\\les-4.json",
       "konsep_hash": "sha256:e84f4762827e1177cd6f669e3855d3ae",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-22T20:40:16+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:51a35ddf030a68d6ac90088330b28eaf",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T20:40:17+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 435,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:43:09+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 5,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 435,
+      "woorde_na": 435,
+      "konsep_hash": "sha256:a550e933a091db95868a262a4c6f5eff"
+    },
+    {
+      "wanneer": "2026-10-22T20:43:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 435,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T20:43:10+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Van ligte groen tot donkergroen': The title writes one colour apart ('ligte groen') and the other as a compound ('donkergroen'); 'liggroen tot donkergroen' or 'ligte groen tot donker groen' would be consistent. The title cannot be changed by this step, so it is flagged for the writer or a person."
+      ]
     }
   ],
-  "spek_hash": "sha256:8682fab4d83bdfec19fe4a41c535e449",
+  "spek_hash": "sha256:633ebc636ebc8b47d5152fd5b183f3ba",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Van ligte groen tot donkergroen': The title writes one colour apart ('ligte groen') and the other as a compound ('donkergroen'); 'liggroen tot donkergroen' or 'ligte groen tot donker groen' would be consistent. The title cannot be changed by this step, so it is flagged for the writer or a person."
+  ],
+  "taal_rondte_vir": "sha256:a550e933a091db95868a262a4c6f5eff",
+  "taal_keurder_vir": "3d95b5dc1d33a884d9b69ea8281d7fb3",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:a550e933a091db95868a262a4c6f5eff",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:a550e933a091db95868a262a4c6f5eff",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "affc3adfcb742a88ab69352a028dddda"
 }

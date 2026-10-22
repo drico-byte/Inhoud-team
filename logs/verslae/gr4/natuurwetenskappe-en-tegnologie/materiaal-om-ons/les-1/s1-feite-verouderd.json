@@ -1,270 +1,251 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.1",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Klip, water en lug",
   "kaps_punt": "Vaste stowwe, vloeistowwe en gasse: vaste stowwe, vloeistowwe en gasse maak al die materiaal rondom ons uit; 'n paar eienskappe van vastestowwe, vloeistowwe en gasse -- vastestowwe behou hul vorm -- vloeistowwe vloei en neem die vorm van die houer aan -- gasse, soos lug, is geneig om te versprei, het geen definitiewe vorm nie maar kan saamgevat word (soos in 'n ballon)",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "Jy kan baie materiaal met drie vrae sorteer.",
-      "blok": "Hoe jy die drie uitmekaar ken",
+      "bewering": "Elke voorwerp wat jy om jou sien, is van een of ander materiaal gemaak. Baie stoele is van hout gemaak, en baie bottels is van plastiek. Die bottel self is die voorwerp, en plastiek is sy materiaal.",
+      "blok": "Alles om jou is van materiaal gemaak",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan in hierdie rondte, want die blok het verander. Die drie kenmerke waarop die vrae rus (vloei/giet, eie vorm sonder houer, en 'n plat vrye oppervlak) is die standaard onderskeidings tussen die drie toestande: Chemistry LibreTexts, 'Classifying Matter According to Its State - Solid, Liquid, and Gas' (vaste stof: bepaalde vorm en volume; vloeistof: bepaalde volume, geen bepaalde vorm, neem houer se vorm aan; gas: geen bepaalde vorm of volume, vul die houer heeltemal), en Lumen Learning, 'States of Matter' (SUNY Earth Science). Die inperking 'baie materiaal' (nie 'alle materiaal' nie) is belangrik en korrek: RSC Education, 'States of matter: beyond appearances', wys dat gietbaarheid juis poeiers en korrelrige vaste stowwe verkeerd sou klassifiseer. Die les noem geen poeier of korrelrige materiaal nie."
+      "bron": "Onderskeid voorwerp/materiaal is die standaard laerskool-indeling (bv. Year 2 'uses of everyday materials'-beplanning, grindoninfantschool.sunderland.sch.uk); 'baie' word letterlik getoets en hou (houtstoele en plastiekbottels is algemeen)."
     },
     {
-      "bewering": "Vra eers of jy dit kan giet.",
-      "blok": "Hoe jy die drie uitmekaar ken",
+      "bewering": "Die water binne die bottel is ook 'n materiaal. Die lug wat jy nou inasem, is ook materiaal, al sien jy dit nie.",
+      "blok": "Alles om jou is van materiaal gemaak",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan. Vloeistowwe vloei en kan gegiet word omdat hul deeltjies by mekaar verby beweeg; vaste stowwe nie - Chemistry LibreTexts, 'Classifying Matter According to Its State'; Lumen Learning, 'States of Matter'. Werk korrek vir al nege materiale wat hierdie les noem, omdat geen van hulle korrelrig is nie (RSC Education, 'States of matter: beyond appearances')."
+      "bron": "Lug het massa en neem ruimte in, dus is dit materie: Concord Consortium, 'Air is a mixture of gases' (staff.concord.org/~btinker/GL/web/air/gases/air_gases_t_guide.htm); TERC Inquiry Project, 'Air, a Gas' Inv. 13 (inquiryproject.terc.edu). 'Materiaal' word hier in KABV se breë sin (materie) gebruik."
     },
     {
-      "bewering": "Vra dan of elke stuk heel bly wanneer niks dit vashou nie.",
-      "blok": "Hoe jy die drie uitmekaar ken",
+      "bewering": "Al die materiaal om jou is een van drie soorte.",
+      "blok": "Alles om jou is van materiaal gemaak",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "Letterlik getoets as 'ELKE materiaal is EEN van die drie': skuim (skeerroom, borrelbad, slagroom) is gas versprei in 'n vloeistof of vaste stof, nie een toestand nie - IUPAC Gold Book, 'foam' (goldbook.iupac.org/terms/view/F02467); so ook jellie, tandepasta en modder (mengsels van twee toestande). Die les self erken dit verderaan: 'Jy kan BAIE materiaal met drie vrae sorteer', nie alle nie. KABV se eie stelling is swakker en waar: die drie MAAK SAAM al die materiaal UIT (wat mengsels toelaat) - en dit is reeds die les se volgende sin.",
+      "regstelling": "Vernou die kwantor, nie die onderwerp nie: 'Byna al die materiaal om jou is een van drie soorte' (of 'Die meeste materiaal ...'), of laat die sin weg en laat die volgende sin ('Hierdie drie maak saam al die materiaal om jou uit') die KABV-stelling dra. Moenie beweer dat elke materiaal presies een van die drie is nie."
+    },
+    {
+      "bewering": "Die drie soorte is vaste stowwe, vloeistowwe en gasse. Hierdie drie maak saam al die materiaal om jou uit. Elke soort het sy eie eienskappe waaraan jy dit uitken.",
+      "blok": "Alles om jou is van materiaal gemaak",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan; dit is een van die drie veranderde sinne. Lumen Learning, 'States of Matter': 'a solid has a stable, definite shape, and a definite volume' en vaste stowwe 'can only change their shape by force, as when broken or cut'. Elke stuk van 'n vaste stof het dus steeds sy eie vorm en bly heel sonder houer, terwyl 'n vloeistof se vorm deur die houer bepaal word (LibreTexts, soos hierbo) en 'n gas geen bepaalde vorm of volume het nie. Die kwantor 'elke stuk' is presies wat die vraag korrek maak vir sowel 'n heel as 'n gebreekte vaste stof."
+      "bron": "LibreTexts, 'States of Matter' (chem.libretexts.org ... 1.02: States of Matter): vaste stof, vloeistof en gas as die drie algemene toestande, elk met eie vorm/volume-eienskappe. 'Maak saam uit' laat mengsels van toestande toe. Plasma (OpenLearn Create-woordelys, open.edu/openlearncreate ... eid=9788) is op aarde net in weerlig, aurora's en dergelike uitsonderlik in die alledaagse omgewing; dit is KABV se stelling en hou op Graad 4."
     },
     {
-      "bewering": "Vra laastens of sy stil boonste kant plat lê.",
-      "blok": "Hoe jy die drie uitmekaar ken",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "In 'n vorige rondte bevestig, maar hier weer vars nagegaan omdat die sin in die veranderde blok staan. Wikipedia, 'Free surface': 'all free surfaces of liquids are horizontal unless disturbed (except near solids dipping into them, where surface tension distorts the surface in a region called the meniscus)' en 'Unlike liquids, gases cannot form a free surface on their own.'"
-    },
-    {
-      "bewering": "Jy kan 'n klip of 'n slap lap nie giet nie.",
-      "blok": "Hoe jy die drie uitmekaar ken",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan. Beide is nie-korrelrige vaste stowwe en vloei nie - Lumen Learning, 'States of Matter'; Chemistry LibreTexts, 'Classifying Matter According to Its State'."
-    },
-    {
-      "bewering": "By albei bly elke stuk heel en hulle is dus vaste stowwe.",
-      "blok": "Hoe jy die drie uitmekaar ken",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Vars nagegaan; dit is een van die drie veranderde sinne, en dit is 'n absolute stelling ('elke stuk'), daarom afsonderlik getoets. Dit hou vir beide genoemde materiale: breek 'n klip en elke stuk bly heel; sny 'n lap en elke stuk bly heel - Lumen Learning, 'States of Matter' ('can only change their shape by force, as when broken or cut'). Die woordkeuse 'bly heel' eerder as 'hou sy vorm' is ook wat die slap lap korrek as vaste stof laat antwoord; RSC Education, 'States of matter: beyond appearances', wys dat leerders buigbare vaste stowwe (deeg, spons) juis uitsluit wanneer styfheid die maatstaf is. Geen nuwe onbewese absolute stelling nie: die 'elke' geld hier net oor die twee genoemde materiale, en dit is waar vir albei."
-    },
-    {
-      "bewering": "Jy kan 'n stok breek of 'n stuk klei plat druk. Dan het die ding 'n nuwe vorm en hy hou daardie nuwe vorm ook.",
+      "bewering": "'n Vaste stof het sy eie vorm, en dit hou daardie vorm. Tel 'n klip op en draai hom om. Sy vorm bly dieselfde. Sit die klip in 'n glas en sit hom daarna in 'n bak. Hy neem nie die houer se vorm aan nie, en hy bly dieselfde klip.",
       "blok": "'n Vaste stof hou sy eie vorm",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan, want die veranderde tweede vraag raak hierdie sin direk. Lumen Learning, 'States of Matter': vaste stowwe verander net van vorm onder krag, 'as when broken or cut', en elke stuk bly 'n vaste stof met sy eie bepaalde vorm. Onder die nuwe woorde antwoord 'n gebreekte stok dus 'nee' op die eerste vraag (jy kan hom nie giet nie) en 'ja' op die tweede (elke stuk bly heel), wat die vaste-stof-patroon gee. Die vroeëre bevinding is hiermee opgelos."
+      "bron": "LibreTexts 1.02 'States of Matter': vaste stowwe het 'n definitiewe vorm en volume, deeltjies in vaste posisies. Aktiwiteit letterlik getoets: 'n kind wat 'n klip draai en van glas na bak skuif, sien presies dit."
     },
     {
-      "bewering": "Water giet maklik en dit bly nie heel wanneer niks dit vashou nie.",
-      "blok": "Hoe jy die drie uitmekaar ken",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Vars nagegaan; dit is een van die drie veranderde sinne, en dit is 'n algemene reël oor water, daarom streng getoets. Water sonder houer hou nie bymekaar nie: 'n vrye waterstraal breek in druppels op (Wikipedia, 'Plateau-Rayleigh instability'; FYFD, 'Breaking Jets Into Drops'), en 'n plas water groter as die kapillêre lengte word deur swaartekrag platgedruk (Wikipedia, 'Capillary length': 'a capillary length of ~3 mm for water and air at room temperature on earth'; groter druppels 'will be flattened by gravity'). Die druppel-teenvoorbeeld laat water nie 'ja' antwoord nie, om twee redes: die vraag vra of ELKE stuk heel bly, en dit is genoeg dat die gegietde water self nie heel bly nie; en slegs druppels kleiner as ongeveer 3 mm hou 'n ronde vorm, en dan juis omdat oppervlakspanning hulle vashou. Die nuwe voorwaarde 'wanneer niks dit vashou nie' is ook wat hierdie sin skei van die onveranderde sin 'Dit is elke keer dieselfde hoeveelheid water en net die vorm verander', waar 'n houer die water wel vashou."
-    },
-    {
-      "bewering": "Sy stil boonste kant lê plat en dit maak water 'n vloeistof.",
-      "blok": "Hoe jy die drie uitmekaar ken",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan omdat die sin in die veranderde blok staan. Wikipedia, 'Free surface': alle vrye oppervlakke van vloeistowwe in rus is horisontaal tensy hulle versteur word; en gasse kan nie op hul eie 'n vrye oppervlak vorm nie."
-    },
-    {
-      "bewering": "Wanneer niks die lug vashou nie, antwoord dit nee op al drie die vrae. Dit maak lug 'n gas.",
-      "blok": "Hoe jy die drie uitmekaar ken",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan onder die nuwe woorde van die tweede vraag. Lug kan nie gegiet word nie; geen stuk lug bly heel wanneer niks dit vashou nie, want 'n gas versprei en vul die hele beskikbare ruimte (Chemistry LibreTexts, 'Classifying Matter According to Its State': 'has neither a definite volume nor shape' en 'fills its container completely'); en 'n gas vorm nie 'n vrye oppervlak nie (Wikipedia, 'Free surface'). Die antwoord bly dus nee-nee-nee, ook met 'elke stuk' in die tweede vraag."
-    },
-    {
-      "bewering": "Die drie antwoordpatrone soos die les hulle gee: klip en lap 'nee-ja', water 'ja-nee-ja', lug 'nee-nee-nee'.",
-      "blok": "Hoe jy die drie uitmekaar ken",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan as 'n logiese toets op die veranderde blok, teen die eienskappe in Chemistry LibreTexts, 'Classifying Matter According to Its State', en Lumen Learning, 'States of Matter'. Die drie patrone bly paarsgewys onderskeibaar: vaste stof teenoor vloeistof verskil op die eerste vraag (nee teenoor ja), vaste stof teenoor gas op die tweede (ja teenoor nee), en vloeistof teenoor gas op die eerste en die derde. Geen materiaal wat die les noem gee 'n dubbelsinnige patroon nie, en 'elke stuk' laat nie 'n vloeistof 'ja' antwoord nie (sien die water-item)."
-    },
-    {
-      "bewering": "Die borrels in die emmer wys dat lug daar was.",
-      "blok": "Hoe jy die drie uitmekaar ken",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3, waar die borrel-en-bottel-bewys bevestig is; nie weer gesoek nie. Hierdie rondte se drie veranderings raak dit nie: die sin verwys na die onveranderde blok 'Borrels uit 'n bottel' en hang nie van die drie vrae se woorde af nie."
-    },
-    {
-      "bewering": "Materiaal waarvan elke stuk sy eie vorm het en dit hou.",
-      "blok": "begrip: vaste stof",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan, want die veranderde tweede vraag gebruik dieselfde woorde ('elke stuk'). Dit stem ooreen met die standaard definisie - Lumen Learning, 'States of Matter': 'a solid has a stable, definite shape, and a definite volume', en 'n gebreekte stuk bly 'n vaste stof met sy eie vorm. Dit weerspreek ook nie die lap nie, want die les sê op sy eie plek dat 'n lap maklik buig en steeds 'n vaste stof bly (RSC Education, 'States of matter: beyond appearances')."
-    },
-    {
-      "bewering": "'n Lap buig maklik maar jy kan hom nie giet nie en hy bly 'n vaste stof.",
-      "blok": "Voorbeelde van die drie soorte",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan, want die veranderde klip-en-lap-sin raak dit. RSC Education, 'States of matter: beyond appearances': buigbare en vervormbare vaste stowwe is steeds vaste stowwe, en leerders sluit hulle juis verkeerdelik uit wanneer hulle op styfheid klassifiseer. Die twee sinne stem nou ooreen: die lap antwoord in albei plekke as vaste stof."
-    },
-    {
-      "bewering": "Elke voorwerp wat jy om jou sien is van een of ander materiaal gemaak.",
-      "blok": "Alles om jou is van materiaal gemaak",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Rus op rondtes 1-3; onveranderde blok, nie weer gesoek nie. Die drie veranderde sinne raak dit nie."
-    },
-    {
-      "bewering": "Die bottel self is die voorwerp en plastiek is sy materiaal.",
-      "blok": "Alles om jou is van materiaal gemaak",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3 (die voorwerp-teenoor-materiaal sin is daar bevestig); onveranderde blok, nie weer gesoek nie."
-    },
-    {
-      "bewering": "Al die materiaal om jou is een van drie soorte. Die drie soorte is vaste stowwe, vloeistowwe en gasse.",
-      "blok": "Alles om jou is van materiaal gemaak",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Rus op rondtes 1-3; onveranderde blok, nie weer gesoek nie. Die drie veranderde sinne raak dit nie."
-    },
-    {
-      "bewering": "Die lug wat jy nou inasem is ook materiaal al sien jy dit nie.",
-      "blok": "Alles om jou is van materiaal gemaak",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde blok, nie weer gesoek nie."
-    },
-    {
-      "bewering": "Tel 'n klip op en draai hom om en sy vorm bly dieselfde. Sit die klip in 'n glas en sit hom daarna in 'n bak. Hy neem nie die houer se vorm aan nie en hy bly dieselfde klip.",
+      "bewering": "Die vorm van 'n vaste stof kan wel verander as jy self iets daaraan doen. Jy kan 'n stok breek of 'n stuk klei platdruk. Dan het die ding 'n nuwe vorm, en hy hou daardie nuwe vorm ook.",
       "blok": "'n Vaste stof hou sy eie vorm",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde sinne, nie weer gesoek nie. Die bron wat ek hierdie rondte vir die stok gelees het (Lumen Learning, 'States of Matter') stem hiermee saam."
+      "bron": "Vaste stowwe hou hul vorm tensy iets daaraan gedoen word (gebreek, gedruk) - KS2-materiaalwoordelyste en LibreTexts 1.02. 'Kan wel verander as' is nie 'net as' nie, so dit sluit smelt of verwering nie uit nie. Klei: geld vir sagte/klam klei (plastiese vervorming hou die nuwe vorm); droë klei kraak eerder. 'n Gebreekte stok lewer twee stukke, elk met 'n vorm wat hulle hou - waar."
     },
     {
-      "bewering": "'n Vloeistof vloei en jy kan dit van die een houer na die ander giet.",
+      "bewering": "'n Vloeistof vloei, en jy kan dit van die een houer na die ander giet.",
       "blok": "'n Vloeistof neem die houer se vorm aan",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde blok, nie weer gesoek nie."
+      "bron": "LibreTexts, Palomar CHEM100 '2.4: Solid Liquid and Gas' (chem.libretexts.org/Courses/Palomar_College/...): vloeistowwe vloei en neem die houer se vorm aan. Ook taai vloeistowwe (heuning, stroop) kan gegiet word, dus hou die algemene stelling."
     },
     {
-      "bewering": "Die water lê onder in die bottel en dit is rond soos die bottel.",
+      "bewering": "Sit 'n klein hoeveelheid water in 'n bottel. Die water lê onder in die bottel, en dit is rond soos die bottel. Giet daardie water in 'n hoë, smal glas, en dit staan smal en hoog. Giet dit nou in 'n vlak bak, en dit lê breed en vlak.",
       "blok": "'n Vloeistof neem die houer se vorm aan",
       "status": "bevestig",
       "tipe": "analogie",
-      "bron": "Rus op rondtes 1-3; onveranderde blok, nie weer gesoek nie. Dit is die naaste ding aan 'n vergelyking in die les - die les het geen eli10-blok nie - en die vergelyking wys net vorm teenoor vorm, wat presies is wat 'n houer aan 'n vloeistof doen; dit lei nie verder as dit nie."
+      "bron": "LibreTexts Palomar 2.4: vloeistof neem die houer se vorm aan. Letterlik getoets: hou vir 'n ronde bottel (die meeste plastiekwaterbottels is rond in deursnee); in 'n vierkantige sapbottel sal die kind 'n vierkant sien - die kartering 'soos die bottel' hou steeds. 'Hoog' is relatief tot die bak, en 'n klein hoeveelheid in 'n glas wat smaller as die bottel is, staan hoër as in die bottel. Geen regstelling nodig nie."
     },
     {
-      "bewering": "Dit is elke keer dieselfde hoeveelheid water en net die vorm verander.",
+      "bewering": "Dit is elke keer dieselfde hoeveelheid water, en net die vorm verander.",
       "blok": "'n Vloeistof neem die houer se vorm aan",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde sin, nie weer gesoek nie. Ek het hierdie rondte nagegaan of die nuwe waterreël hiermee bots, en dit doen nie: hier hou 'n houer die water vas, daar hou niks dit vas nie (sien die water-item)."
+      "bron": "LibreTexts 1.02 en Palomar 2.4: 'n vloeistof het 'n vaste volume maar geen vaste vorm nie. ('n Paar druppels bly nat aan die glas kleef; weglaatbaar op Graad 4.)"
     },
     {
-      "bewering": "Water wat stil staan in 'n oop houer lê met sy boonste kant plat.",
+      "bewering": "Water wat in 'n oop houer stilstaan, lê met sy boonste kant plat. Die houer bepaal dus 'n vloeistof se vorm en nie die vloeistof self nie.",
       "blok": "'n Vloeistof neem die houer se vorm aan",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde sin. Die bron wat ek hierdie rondte vir die derde vraag gelees het (Wikipedia, 'Free surface') stem hiermee saam."
+      "bron": "Wikipedia, 'Free surface' (en.wikipedia.org/wiki/Free_surface): 'n vloeistof se vrye oppervlak is horisontaal in rus, behalwe die meniskus teen die wand. Die plat bokant kom van swaartekrag, nie van die houer nie, maar die les se onderskeid (die houer, nie die vloeistof nie, bepaal die vorm) is die standaardstelling en misleidend in geen rigting wat 'n Graad 4-leerder sal neem nie."
     },
     {
-      "bewering": "'n Gas het geen eie vorm nie en dit bly nie op een plek nie. Dit versprei maklik en dit vul die hele houer waarin dit is. Jy kan 'n gas wel in 'n houer vaskeer en hom so bymekaar hou.",
+      "bewering": "'n Gas het geen eie vorm nie, en dit bly nie op een plek nie. Dit versprei maklik, en dit vul die hele houer waarin dit is.",
       "blok": "'n Gas versprei en het geen eie vorm nie",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde blok, nie weer gesoek nie. Die bron wat ek hierdie rondte vir die lug-antwoord gelees het (Chemistry LibreTexts, 'Classifying Matter According to Its State') stem hiermee saam."
+      "bron": "LibreTexts, Napa Valley/Fresno 'Properties of Liquids and Solids' en 1.02 'States of Matter': gasse het geen definitiewe vorm of volume nie; deeltjies beweeg vry en die gas vul sy houer."
+    },
+    {
+      "bewering": "Jy kan 'n gas wel in 'n houer vaskeer en dit so bymekaar hou. Blaas 'n ballon op en knoop sy nek styf toe. Die knoop keer dat die lug by die nek uitkom. Die lug versprei binne die ballon en vul hom van onder tot bo.",
+      "blok": "'n Gas versprei en het geen eie vorm nie",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "LibreTexts 1.02 (gas vul sy houer); KABV se eie 'kan saamgevat word (soos in 'n ballon)'. Aktiwiteit letterlik getoets: 'n geknoopte ballon bly opgeblaas, en die lug vul die hele ballon."
     },
     {
       "bewering": "Die ronde vorm kom van die ballon self en nie van die lug nie.",
       "blok": "'n Gas versprei en het geen eie vorm nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3 (die ballon se ronde vorm is daar bevestig); onveranderde blok, nie weer gesoek nie."
+      "tipe": "analogie",
+      "bron": "Kartering getoets: 'n gas neem die vorm van sy houer aan (LibreTexts 1.02); dieselfde lug in 'n lang ballon word lank, in 'n hartvormige foelieballon hartvormig - die vorm is dus die ballon s'n. Die lug is wel nodig om die ballon uit te stoot (die volgende blok sê dit self), maar dit bepaal nie die vorm nie. Die kartering lei nie 'n leerder verkeerd nie."
     },
     {
-      "bewering": "Iets binne die ballon stoot terug teen jou twee hande. Daardie iets is die lug wat jy self daarin geblaas het.",
+      "bewering": "Lug is 'n gas, en jy kan dit nie sien nie. Dit is nogtans regte materiaal, en 'n opgeblase ballon wys dit.",
       "blok": "Lug is regte materiaal",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde blok, nie weer gesoek nie."
+      "bron": "Concord Consortium, 'Air is a mixture of gases' (staff.concord.org/~btinker/GL/web/air/gases/air_gases_t_guide.htm): lug is 'n mengsel van gasse (hoofsaaklik stikstof en suurstof), kleurloos; dit het massa en neem ruimte in. 'Lug is 'n gas' is KABV se eie gebruik ('gasse, soos lug') en aanvaarbaar op Graad 4."
     },
     {
-      "bewering": "Daardie borrels is die lug wat eers binne die bottel was. Die water styg by die mond in en neem die lug se plek. Die bottel was dus nie leeg nie en hy was vol lug.",
+      "bewering": "Druk die ballon wat jy pas opgeblaas het, tussen jou twee hande. Jy kan hom 'n ent platdruk, maar hy spring terug sodra jy hom los. Iets binne die ballon stoot terug teen jou twee hande. Daardie iets is die lug wat jy self daarin geblaas het.",
+      "blok": "Lug is regte materiaal",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "IOP Spark, 'Magic balloon' (spark.iop.org/magic-balloon); Science North, Grade 6 Properties of Air (sciencenorth.ca ... June 3 Grade 6 Properties of Air): wanneer 'n ballon gedruk word, styg die druk van die lug binne, en die gespanne rubber werk saam. Kartering: die rubber help ook, maar sonder lug spring 'n leë ballon nie terug nie, so 'die lug stoot terug' is die korrekte kern. Aktiwiteit letterlik getoets: 'n kind sien en voel dit so."
+    },
+    {
+      "bewering": "Vat 'n oop bottel wat leeg lyk en draai sy mond na onder. Druk die bottel se mond diep onder die water in 'n emmer in. Draai hom nou skuins, en groot borrels kom by die mond uit. Daardie borrels is die lug wat eers binne die bottel was. Die water styg by die mond in en neem die lug se plek in. Die bottel was dus nie leeg nie, maar vol lug.",
       "blok": "Borrels uit 'n bottel",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3 (die oop bottel is daar bevestig); onveranderde blok, nie weer gesoek nie."
+      "bron": "University of Regina CMSTE, 'Pouring air' (cmste.uregina.ca/Quickstarts/pouringair.html): 'n omgekeerde beker onder water bly vol lug; skuins gedraai, styg borrels uit en water neem die plek in - lug neem ruimte in. NEMP Otago 2003, 'Material world: experimenting' (nemp.otago.ac.nz/science/2003/material_world/experimenting.htm): ingevangde lug hou water uit. Aktiwiteit letterlik getoets: reguit afgedruk kom geen borrels uit nie, skuins gedraai wel - presies soos die les sê."
     },
     {
       "bewering": "Hout, klip en plastiek is vaste stowwe wat hul eie vorm hou.",
       "blok": "Voorbeelde van die drie soorte",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde lys-item, nie weer gesoek nie."
+      "bron": "LibreTexts 1.02 (vaste stowwe het 'n definitiewe vorm); alledaagse hout, klip en plastiek is vaste stowwe."
+    },
+    {
+      "bewering": "'n Lap buig maklik, maar jy kan hom nie giet nie, en hy bly 'n vaste stof.",
+      "blok": "Voorbeelde van die drie soorte",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Asia-Pacific Forum on Science Learning and Teaching 11(2) art. 13, Cakici (eduhk.hk/apfslt/v11_issue2/cakici/cakici6.htm), met verwysing na Stavy & Stachel: kinders plaas buigsame vaste stowwe soos 'n spons of lap verkeerdelik tussen vaste stof en vloeistof; wetenskaplik is 'n lap 'n vaste stof. RSC, 'States of matter: beyond appearances' (edu.rsc.org/resources/states-of-matter-beyond-appearances/4017762.article)."
     },
     {
       "bewering": "Water, tee en vrugtesap is vloeistowwe wat 'n houer se vorm aanneem.",
       "blok": "Voorbeelde van die drie soorte",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde lys-item, nie weer gesoek nie."
+      "bron": "LibreTexts Palomar 2.4 (vloeistowwe neem die houer se vorm aan); al drie is waterige vloeistowwe by kamertemperatuur."
     },
     {
       "bewering": "Die kookolie in 'n pan is ook 'n vloeistof.",
       "blok": "Voorbeelde van die drie soorte",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3 (die kookolie is daar bevestig); onveranderde lys-item, nie weer gesoek nie."
+      "bron": "Wikipedia, 'Sunflower oil' (en.wikipedia.org/wiki/Sunflower_oil): vloeibaar by kamertemperatuur; FSSAI FAQ (fssai.gov.in/faqs/?p=1783): onversadigde olies bly vloeibaar by ~25 °C. Sonneblomolie is die gewone kookolie in Suid-Afrika; in 'n warm pan is dit ook vloeibaar."
     },
     {
-      "bewering": "Lug is 'n gas en dit vul die hele kamer om jou.",
+      "bewering": "Lug is 'n gas, en dit vul die hele kamer om jou.",
       "blok": "Voorbeelde van die drie soorte",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde lys-item, nie weer gesoek nie."
+      "bron": "LibreTexts 1.02 (gas vul die ruimte waarin dit is); Concord Consortium (lug is 'n mengsel van gasse)."
     },
     {
-      "bewering": "By 'n gasstoof brand die gas met 'n vlam onder die pot.",
+      "bewering": "By 'n gasstoof brand die gas met 'n vlam onder die pot, en daardie gas is, net soos lug, 'n gas.",
       "blok": "Voorbeelde van die drie soorte",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3 (die gasstoof se vlam is daar bevestig); onveranderde lys-item, nie weer gesoek nie."
+      "tipe": "analogie",
+      "bron": "Afrox Handigas-inligtingsbrosjure (selfservice.afrox.co.za/Resources/downloads/Handigas_info_brochure_A4.pdf): LPG word in die silinder as vloeistof onder druk gehou en vir kook gebruik; Rigzone, 'How does LPG work' (rigzone.com/insights/how-it-works-3/how-does-lpg-work-1146): by die reguleerder verdamp dit en die gas meng met lug en brand by die brander. Die les beweer net dat die gas by die stoof brand, nie wat in die silinder is nie - waar. Vergelyking 'net soos lug, 'n gas' sê net dat albei gasse is; die kartering hou."
     },
     {
-      "bewering": "Die goed waarvan iets gemaak is, soos hout, water of lug.",
+      "bewering": "Jy kan baie materiaal met drie vrae sorteer. Vra eers of jy dit kan giet. Vra dan of elke stuk heel bly wanneer niks dit vashou nie. Vra laastens of sy stil boonste kant plat lê.",
+      "blok": "Hoe jy die drie uitmekaar ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "As stel getoets teen elke materiaal wat die les self noem (klip, lap, hout, plastiek, klei, water, tee, vrugtesap, kookolie, lug): elkeen sorteer reg met vrae 1 en 2 (sien die aparte item oor water by vraag 2). Ook getoets teen giet-bare vaste stowwe (suiker, sand, meel), wat kinders volgens Stavy & Stachel (Cakici, APFSLT 11(2)) as vloeistowwe sien: giet ja, elke korrel bly heel ja, bokant lê as 'n hopie en nie plat nie - die stel gee dus nie die vloeistof-patroon nie, en 'baie' (nie 'alle') hou die kwantor eerlik. Vraag 3 sê vir vaste stowwe niks (die bokant van 'n baksteen lê ook plat); die les beweer ook niks daaroor nie."
+    },
+    {
+      "bewering": "Jy kan nie 'n klip of 'n slap lap giet nie. By albei bly elke stuk heel, en hulle is dus vaste stowwe.",
+      "blok": "Hoe jy die drie uitmekaar ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Cakici, APFSLT 11(2) en RSC 'beyond appearances': 'n lap is 'n vaste stof al is dit buigsaam. Letterlik getoets: 'n klip of lap kan nie gegiet word nie, en bly in een stuk wanneer jy dit neersit."
+    },
+    {
+      "bewering": "Jy kan water maklik giet, en dit bly nie heel nie wanneer niks dit vashou nie.",
+      "blok": "Hoe jy die drie uitmekaar ken",
+      "status": "weerspreek",
+      "tipe": "analogie",
+      "bron": "Letterlik getoets (wat sien 'n Graad 4-kind wat dit doen?): water wat op 'n tafel uitgegooi word, vorm EEN aaneenlopende plas, en 'n druppel op 'n gladde oppervlak bly 'n heel druppel. Water hou wel bymekaar - kohesie en oppervlakspanning, USGS Water Science School, 'Surface tension and water' (usgs.gov/water-science-school/science/surface-tension-and-water). Wat water NIE doen nie, is om sy vorm te hou: dit loop uit en sprei plat (LibreTexts 1.02: geen definitiewe vorm nie). Die vraag 'bly elke stuk heel' toets dus 'n eienskap (heelbly) wat vloeistowwe het, in plaas van die een wat KABV noem (vorm behou), en 'n kind kan eerlik 'ja, dit bly een plas' antwoord en dan nie by 'vloeistof' uitkom nie. By lug hou die antwoord 'nee' wel, want lug versprei.",
+      "regstelling": "Die tweede toets moet vra of die materiaal sy vorm hou wanneer niks dit vashou nie (KABV se 'vastestowwe behou hul vorm'), nie of dit heel bly nie: water hou nie die glas se vorm nie maar loop uit en sprei plat. Die antwoorde vir die klip en die lap (ja) en vir lug (nee) moet dan by die nuwe vraag nagegaan word, sodat die stel steeds saam werk."
+    },
+    {
+      "bewering": "Sy stil boonste kant lê plat, en dit maak water 'n vloeistof.",
+      "blok": "Hoe jy die drie uitmekaar ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia, 'Free surface': 'n vloeistof in rus het 'n horisontale vrye oppervlak (meniskus by die wand uitgesonder)."
+    },
+    {
+      "bewering": "Wanneer niks die lug vashou nie, is die antwoord op al drie die vrae nee. Dit maak lug 'n gas.",
+      "blok": "Hoe jy die drie uitmekaar ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vraag 2 (versprei) en 3 (geen oppervlak): LibreTexts 1.02. Vraag 1 (giet): lug in lug kan nie sigbaar gegiet word nie - Let's Talk Science, 'Carbon Dioxide Candle' (letstalkscience.ca/volunteer-hands-on-activities/carbon-dioxide-candle-demonstration), se kontrolestap: 'pour the air from the glass onto the candle. Nothing should happen'. Kanttekening vir 'n mens, geen bevinding nie: gasse kan in sekere toestande wel gegiet word (CO2 oor 'n kers, RSC 'The density of carbon dioxide', edu.rsc.org/experiments/the-density-of-carbon-dioxide/1775.article; lug onder water opwaarts, Regina CMSTE 'Pouring air'). Die les beperk die bewering tot lug met niks wat dit vashou nie, en daar hou dit."
+    },
+    {
+      "bewering": "Die borrels in die emmer wys dat lug daar was.",
+      "blok": "Hoe jy die drie uitmekaar ken",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "University of Regina CMSTE, 'Pouring air': die borrels is die lug wat in die houer was; lug neem ruimte in."
+    },
+    {
+      "bewering": "materiaal: Die goed waarvan iets gemaak is, soos hout, water of lug.",
       "blok": "begrip: materiaal",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde begrip, nie weer gesoek nie."
+      "bron": "Alleen gelees: korrek in KABV se breë sin (materiaal = materie); lug as materie - Concord Consortium en TERC Inquiry Project (lug het massa en neem ruimte in)."
     },
     {
-      "bewering": "Materiaal wat vloei en met 'n plat bokant in sy houer lê.",
+      "bewering": "vaste stof: Materiaal waarvan elke stuk sy eie vorm het en dit hou.",
+      "blok": "begrip: vaste stof",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Alleen gelees: stem ooreen met LibreTexts 1.02 (definitiewe vorm). 'Elke stuk' dek ook korrelrige vaste stowwe (elke suikerkorrel hou sy vorm). Die buigsame lap pas swakker by 'hou dit' wanneer jy hom optel, maar die les sê elders uitdruklik dat 'n lap buig en 'n vaste stof bly, en die woordelys se omskrywing is die standaard een (Cakici, APFSLT 11(2), oor buigsame vaste stowwe)."
+    },
+    {
+      "bewering": "vloeistof: Materiaal wat vloei en in 'n houer met sy boonste kant plat lê.",
       "blok": "begrip: vloeistof",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde begrip. Die bron wat ek hierdie rondte vir die derde vraag gelees het (Wikipedia, 'Free surface') stem hiermee saam."
+      "bron": "Alleen gelees: LibreTexts Palomar 2.4 (vloei, neem die houer se vorm aan) en Wikipedia 'Free surface' (plat bokant in rus). Die twee voorwaardes saam sluit giet-bare poeiers (hopie, nie plat nie) en gasse (geen oppervlak nie) uit."
     },
     {
-      "bewering": "Materiaal sonder eie vorm wat versprei en 'n hele houer vul.",
+      "bewering": "gas: Materiaal sonder eie vorm wat versprei en 'n hele houer vul.",
       "blok": "begrip: gas",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde begrip. Die bron wat ek hierdie rondte vir die lug-antwoord gelees het (Chemistry LibreTexts, 'Classifying Matter According to Its State') stem hiermee saam."
+      "bron": "Alleen gelees: LibreTexts 1.02 en Napa Valley/Fresno: geen definitiewe vorm of volume nie, vul die houer."
     },
     {
-      "bewering": "Enige ding waarin jy iets kan sit, soos 'n glas of bak.",
+      "bewering": "houer: Enige ding waarin jy iets kan sit, soos 'n glas of bak.",
       "blok": "begrip: houer",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde begrip, nie weer gesoek nie."
+      "bron": "Alledaagse woordbetekenis; alleen gelees korrek. Die les gebruik ook 'n ballon as houer vir lug, wat binne hierdie omskrywing val."
     },
     {
-      "bewering": "Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
+      "bewering": "eienskap: Iets wat 'n materiaal doen of is, en waaraan jy dit uitken.",
       "blok": "begrip: eienskap",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Rus op rondtes 1-3; onveranderde begrip, nie weer gesoek nie."
+      "bron": "Physics Classroom, 'Properties of Matter' (direct.physicsclassroom.com/Chemistry-Tutorial/Matter/Physical-Chemical-Properties): 'n eienskap is 'n kenmerk wat waargeneem kan word en help om 'n stof te identifiseer. Alleen gelees korrek vir materiaal."
     }
   ],
-  "opsomming": "Al drie die veranderde sinne is korrek: die gebreekte stok antwoord nou 'nee-ja' en kom as vaste stof uit, die drie patrone bly paarsgewys onderskeibaar, die nuwe waterreël is waar omdat die vraag oor elke stuk vra en die voorwaarde 'wanneer niks dit vashou nie' bygevoeg is, en geen nuwe onbewese absolute stelling is ingebring nie."
+  "opsomming": "Twee dinge moet reg: die openingsblok sê dat ELKE materiaal presies een van die drie soorte is, wat nie waar is vir skuim, jellie of tandepasta nie (vernou na 'byna al'), en die tweede sorteervraag vra of water 'heel bly', terwyl uitgegooide water een plas vorm en bymekaar hou - die vraag moet vra of dit sy vorm hou; die les het geen superlatiewe nie, en elke beskryfde aktiwiteit (klip, giet tussen houers, ballon, bottel in die emmer) lewer wat die les sê."
 }

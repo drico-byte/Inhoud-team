@@ -1,7 +1,7 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/wat-plante-nodig-het-om-te-groei/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:f32afe2b0ffabe9711212bf2adc1b040",
+  "konsep_hash": "sha256:b1c601fa5b92d9fa6528d49be2c35619",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -21,11 +21,227 @@
       "woorde": 708,
       "begroting": 650,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T16:50:06+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b399c568d7c75fc6868176c0aa7656c8",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T16:50:06+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 708,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T16:50:06+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:b399c568d7c75fc6868176c0aa7656c8",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-22T16:59:36+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 15,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 708,
+      "woorde_na": 711,
+      "konsep_hash": "sha256:203fef04c2908b73eff4eac0c329148d"
+    },
+    {
+      "wanneer": "2026-10-22T16:59:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 711,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T16:59:36+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Eers suig die saad water in en dan swel dit dikker op.': Missing AWS comma between two full clauses joined by 'en dan'.",
+        "check (the language finder raised this; it may not be a fault): 'So 'n plant verlep heeltemal en gaan later dood.': The condition (the soil stays dry even longer) is only implied, so the sentence can read as saying every drooping plant dies; restoring it means choosing content, so it goes to the writer.",
+        "check (the language finder raised this; it may not be a fault): 'Jy plant twee sade. Die een pot staan in die warm son en die ander een': 'Die een pot' has no antecedent, because pots were never mentioned; fixing it means adding that each seed is in its own pot, which is a content choice.",
+        "check (the language finder raised this; it may not be a fault): 'Kyk elke week mooi wat met die twee plantjies gebeur.': The block plants 'n paar boontjies' plus one cutting, so 'die twee plantjies' does not match what was planted; probably the two pots are meant, but correcting it means guessing the intent."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T17:02:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0ca688bc3208d1681be767d2d85e3bec",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T17:02:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 718,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T17:06:34+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 718,
+      "woorde_na": 718,
+      "konsep_hash": "sha256:9d5857cf020007e24e05263c3451c00d"
+    },
+    {
+      "wanneer": "2026-10-22T17:06:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 718,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T17:26:39+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d9bdea520131514d2f99664b6da3aafd",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T17:26:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 735,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T17:29:45+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 735,
+      "woorde_na": 734,
+      "konsep_hash": "sha256:7b9b31de75d1d4db8094639879374798"
+    },
+    {
+      "wanneer": "2026-10-22T17:29:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 734,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T17:46:36+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1d0229d8f846906c8443a765599c4002",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T17:46:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 732,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T17:48:34+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 732,
+      "woorde_na": 732,
+      "konsep_hash": "sha256:26d0c9ecb05fe89a8cfd7f8bdff061ee"
+    },
+    {
+      "wanneer": "2026-10-22T17:48:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 732,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T17:57:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b28cde197eff6a23bb118ac804537067",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T17:57:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 732,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T17:59:32+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 732,
+      "woorde_na": 733,
+      "konsep_hash": "sha256:b1c601fa5b92d9fa6528d49be2c35619"
+    },
+    {
+      "wanneer": "2026-10-22T17:59:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 733,
+      "begroting": 650,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T18:06:08+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T18:06:08+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T18:06:08+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\wat-plante-nodig-het-om-te-groei\\les-1.json",
+      "konsep_hash": "sha256:b1c601fa5b92d9fa6528d49be2c35619",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:ab72ebd356094cca000cc95cbbcc6626",
+  "spek_hash": "sha256:1b5a78c4a4ea510eb0976bb89d5401ff",
   "hek_konteks": {
     "graad": 4,
     "begroting": 650
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Later druk 'n klein stingel boontoe by die saad uit.': The lesson elsewhere calls this part 'stam' (stam lank en swak, stukkie stam, hoogte van die stam); 'stingel' here is correct Afrikaans but gives a Grade 4 learner two words for one part. A subject-term choice, so not changed."
+  ],
+  "taal_geforseer_vir": "sha256:b399c568d7c75fc6868176c0aa7656c8",
+  "taal_rondte_vir": "sha256:b1c601fa5b92d9fa6528d49be2c35619",
+  "taal_keurder_vir": "e2c64584dd6a8c5ef121057a4d405754",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:b1c601fa5b92d9fa6528d49be2c35619",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:203fef04c2908b73eff4eac0c329148d",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "74234e98afe7498fb5daf1f36ac2d78a"
 }

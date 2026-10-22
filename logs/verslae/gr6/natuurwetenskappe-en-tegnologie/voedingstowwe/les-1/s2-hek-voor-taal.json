@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "titel": "Van alles, in die regte hoeveelhede",
+  "graad": 6,
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "budget": 540,
+  "begrotingsreel": "default ±15%: 459-621",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T17:17:40+00:00",
+  "study": {
+    "words": 555,
+    "sentences": 46,
+    "mean_sentence_len": 12.1,
+    "median_sentence_len": 11.5,
+    "longest_sentence": 33,
+    "mean_syllables": 1.41,
+    "pct_polysyllabic": 8.1,
+    "pct_long_words": 2.2,
+    "commas_per_sentence": 0.5
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 10,
+    "begrip": 12
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study block 4 ('Water') only 27 words (guide 30–110)",
+    "Study text: 0.5 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Study text: longest sentence is 33 words — check for a missing full stop",
+    "Long words in study text with no 'begrip' entry: algemeenste, hoeveelhede, koolhidrate, liggaamsvet, voedselgroepe, waarskynlik"
+  ],
+  "notes": [
+    "Study text 555 words, above the Grade 6 lesson ceiling 550 by 5 -- within the language-step allowance of 27.",
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

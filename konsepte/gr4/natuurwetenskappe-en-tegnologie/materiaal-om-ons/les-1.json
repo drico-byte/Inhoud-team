@@ -1,6 +1,6 @@
 {
   "skema_weergawe": "1.0",
-  "status": "gated",
+  "status": "goedgekeur",
   "titel": "Klip, water en lug",
   "graad": 4,
   "vak": "Natuurwetenskappe en Tegnologie",
@@ -28,6 +28,7 @@
     "kookolie",
     "hoeveelheid",
     "uitmekaar",
+    "gemorste",
     "inasem",
     "boonste",
     "sorteer",
@@ -35,61 +36,63 @@
     "emmer",
     "ballon",
     "lap",
-    "klei"
+    "klei",
+    "platdruk"
   ],
   "herkoms": {
     "kaps_dokument": "CAPS Gr 4 NWT, Kwartaal 2, Kennisafdeling: Materie en Materiale, subonderwerp: Materiaal om ons",
     "profiel_konfig": "gr4-nwt-kw2-profiel.json",
-    "skrywer_prompt": "skrywer-v1.4",
-    "handboek_gesien": false
+    "skrywer_prompt": "skrywer-v1.7",
+    "handboek_gesien": false,
+    "nota": "STAANDE REKORD (vervang elke hersiening). 2026-10-22, tweede feitetoets, twee weerspreekte items, net daardie sinne verander: (1) Openingsblok: 'Al die materiaal om jou is een van drie soorte' is weg, want dit se elke materiaal is presies een van die drie, en skuim, jellie en tandepasta meng twee. Die blok noem nou vaste stowwe, vloeistowwe en gasse as drie soorte materiaal, en KABV se sin 'Hierdie drie maak saam al die materiaal om jou uit' dra die punt, soos kern 1 nou by die bron bestel. MOENIE 'is een van drie soorte', 'elke materiaal is een van' of 'byna al / die meeste materiaal is een van' terugbring nie. (2) Sorteerblok, water se antwoord: die drie vrae bly woord vir woord - dit is die video se vrae en 'n dravende ontwerp ('bly heel' laat die slap lap reg antwoord; 'wanneer niks dit vashou nie' hou die waterreel waar; die derde vraag hou sand uit die vloeistowwe). Net die beskrywing van water is verander: gemorste water op 'n tafel loop uitmekaar, niks hou dit daar vas nie, dit het geen eie vorm nie, en die antwoord op die tweede vraag is dus nee. MOENIE 'dit bly nie heel nie' terugbring as kaal stelling oor water nie (uitgegooide water vorm een plas) en moenie die vrae self herskryf nie. Die video gebruik albei ou bewoordings; die teks herhaal en verbeter die video nie. 2026-10-22, eerste feitetoets, ballon: 'n opgeblase ballon gee mee, stoot terug teen jou twee hande en spring terug; MOENIE 'hard', 'styf' of 'gee net 'n bietjie mee' terugbring nie (kern 6 is by die bron reggemaak). Die knoop keer net dat die lug by die nek uitkom; MOENIE 'solank' of 'kan nie uitkom nie' terugbring nie, want lug lek stadig deur die rubber. 2026-10-22, KABV-oudit (kern 5): die gasstoof-lysitem se van die gas by die pit dat dit 'n gas is, net soos lug. MOENIE WEGSNOEI OF 'REGMAAK' NIE: 'daardie gas' hou die sin by die gas wat by die pit brand; die ooreenkoms is net die SOORT materiaal; niks oor die gasbottel nie, en die lug-item se 'vul die hele kamer' word nie geleen nie. 2026-10-22, taalstap: die woordelys se 'vloeistof' se 'boonste kant', soos die studieteks. 'Al die materiaal' in die KABV-sin van die eerste blok bly, en 'baie materiaal' in die sorteerblok bly; moenie die een na die ander verander nie. Die kommas voor 'en' tussen twee volsinne is die AWS-komma."
   },
   "blokke": [
     {
       "tipe": "studie",
       "kop": "Alles om jou is van materiaal gemaak",
-      "teks": "Elke voorwerp wat jy om jou sien is van een of ander materiaal gemaak. Baie stoele is van hout gemaak en baie bottels is van plastiek. Die bottel self is die voorwerp en plastiek is sy materiaal. Die water binne die bottel is ook 'n materiaal. Die lug wat jy nou inasem is ook materiaal al sien jy dit nie. Al die materiaal om jou is een van drie soorte. Die drie soorte is vaste stowwe, vloeistowwe en gasse. Hierdie drie maak saam al die materiaal om jou uit. Elke soort het sy eie eienskappe en jy ken hulle daaraan uit."
+      "teks": "Elke voorwerp wat jy om jou sien, is van een of ander materiaal gemaak. Baie stoele is van hout gemaak, en baie bottels is van plastiek. Die bottel self is die voorwerp, en plastiek is sy materiaal. Die water binne die bottel is ook 'n materiaal. Die lug wat jy nou inasem, is ook materiaal, al sien jy dit nie. Vaste stowwe, vloeistowwe en gasse is drie soorte materiaal. Hierdie drie maak saam al die materiaal om jou uit. Elke soort het sy eie eienskappe waaraan jy dit uitken."
     },
     {
       "tipe": "studie",
       "kop": "'n Vaste stof hou sy eie vorm",
-      "teks": "'n Vaste stof het sy eie vorm en hy hou daardie vorm. Tel 'n klip op en draai hom om en sy vorm bly dieselfde. Sit die klip in 'n glas en sit hom daarna in 'n bak. Hy neem nie die houer se vorm aan nie en hy bly dieselfde klip. Die vorm van 'n vaste stof kan wel verander as jy self iets daaraan doen. Jy kan 'n stok breek of 'n stuk klei plat druk. Dan het die ding 'n nuwe vorm en hy hou daardie nuwe vorm ook."
+      "teks": "'n Vaste stof het sy eie vorm, en dit hou daardie vorm. Tel 'n klip op en draai hom om. Sy vorm bly dieselfde. Sit die klip in 'n glas en sit hom daarna in 'n bak. Hy neem nie die houer se vorm aan nie, en hy bly dieselfde klip. Die vorm van 'n vaste stof kan wel verander as jy self iets daaraan doen. Jy kan 'n stok breek of 'n stuk klei platdruk. Dan het die ding 'n nuwe vorm, en hy hou daardie nuwe vorm ook."
     },
     {
       "tipe": "studie",
       "kop": "'n Vloeistof neem die houer se vorm aan",
-      "teks": "'n Vloeistof vloei en jy kan dit van die een houer na die ander giet. Sit 'n klein hoeveelheid water in 'n bottel. Die water lê onder in die bottel en dit is rond soos die bottel. Giet daardie water in 'n hoë smal glas en dit staan smal en hoog. Giet dit nou in 'n vlak bak en dit lê breed en vlak. Dit is elke keer dieselfde hoeveelheid water en net die vorm verander. Water wat stil staan in 'n oop houer lê met sy boonste kant plat. Die houer bepaal dus 'n vloeistof se vorm en nie die vloeistof self nie."
+      "teks": "'n Vloeistof vloei, en jy kan dit van die een houer na die ander giet. Sit 'n klein hoeveelheid water in 'n bottel. Die water lê onder in die bottel, en dit is rond soos die bottel. Giet daardie water in 'n hoë, smal glas, en dit staan smal en hoog. Giet dit nou in 'n vlak bak, en dit lê breed en vlak. Dit is elke keer dieselfde hoeveelheid water, en net die vorm verander. Water wat in 'n oop houer stilstaan, lê met sy boonste kant plat. Die houer bepaal dus 'n vloeistof se vorm en nie die vloeistof self nie."
     },
     {
       "tipe": "studie",
       "kop": "'n Gas versprei en het geen eie vorm nie",
-      "teks": "'n Gas het geen eie vorm nie en dit bly nie op een plek nie. Dit versprei maklik en dit vul die hele houer waarin dit is. Jy kan 'n gas wel in 'n houer vaskeer en hom so bymekaar hou. Blaas 'n ballon op en knoop sy nek styf toe. Die knoop hou die lug binne solank die ballon toe bly. Die lug versprei binne die ballon en vul hom van onder tot bo. Die ronde vorm kom van die ballon self en nie van die lug nie."
+      "teks": "'n Gas het geen eie vorm nie, en dit bly nie op een plek nie. Dit versprei maklik, en dit vul die hele houer waarin dit is. Jy kan 'n gas wel in 'n houer vaskeer en dit so bymekaar hou. Blaas 'n ballon op en knoop sy nek styf toe. Die knoop keer dat die lug by die nek uitkom. Die lug versprei binne die ballon en vul hom van onder tot bo. Die ronde vorm kom van die ballon self en nie van die lug nie."
     },
     {
       "tipe": "studie",
       "kop": "Lug is regte materiaal",
-      "teks": "Lug is 'n gas en jy kan lug nie sien nie. Dit is nogtans regte materiaal en 'n opgeblase ballon wys dit. Druk die ballon wat jy net opgeblaas het tussen jou twee hande. Hy voel vet en hard en hy gee net 'n bietjie mee. Iets binne die ballon stoot terug teen jou twee hande. Daardie iets is die lug wat jy self daarin geblaas het."
+      "teks": "Lug is 'n gas, en jy kan dit nie sien nie. Dit is nogtans regte materiaal, en 'n opgeblase ballon wys dit. Druk die ballon wat jy pas opgeblaas het, tussen jou twee hande. Jy kan hom 'n ent platdruk, maar hy spring terug sodra jy hom los. Iets binne die ballon stoot terug teen jou twee hande. Daardie iets is die lug wat jy self daarin geblaas het."
     },
     {
       "tipe": "studie",
       "kop": "Borrels uit 'n bottel",
-      "teks": "Vat 'n oop bottel wat leeg lyk en draai sy mond na onder. Druk die bottel se mond diep onder die water in 'n emmer in. Draai hom nou skuins en groot borrels kom by die mond uit. Daardie borrels is die lug wat eers binne die bottel was. Die water styg by die mond in en neem die lug se plek. Die bottel was dus nie leeg nie en hy was vol lug."
+      "teks": "Vat 'n oop bottel wat leeg lyk en draai sy mond na onder. Druk die bottel se mond diep onder die water in 'n emmer in. Draai hom nou skuins, en groot borrels kom by die mond uit. Daardie borrels is die lug wat eers binne die bottel was. Die water styg by die mond in en neem die lug se plek in. Die bottel was dus nie leeg nie, maar vol lug."
     },
     {
       "tipe": "lys",
       "kop": "Voorbeelde van die drie soorte",
       "items": [
         "Hout, klip en plastiek is vaste stowwe wat hul eie vorm hou.",
-        "'n Lap buig maklik maar jy kan hom nie giet nie en hy bly 'n vaste stof.",
+        "'n Lap buig maklik, maar jy kan hom nie giet nie, en hy bly 'n vaste stof.",
         "Water, tee en vrugtesap is vloeistowwe wat 'n houer se vorm aanneem.",
         "Die kookolie in 'n pan is ook 'n vloeistof.",
-        "Lug is 'n gas en dit vul die hele kamer om jou.",
-        "By 'n gasstoof brand die gas met 'n vlam onder die pot."
+        "Lug is 'n gas, en dit vul die hele kamer om jou.",
+        "By 'n gasstoof brand die gas met 'n vlam onder die pot, en daardie gas is, net soos lug, 'n gas."
       ]
     },
     {
       "tipe": "studie",
       "kop": "Hoe jy die drie uitmekaar ken",
-      "teks": "Jy kan baie materiaal met drie vrae sorteer. Vra eers of jy dit kan giet. Vra dan of elke stuk heel bly wanneer niks dit vashou nie. Vra laastens of sy stil boonste kant plat lê. Jy kan 'n klip of 'n slap lap nie giet nie. By albei bly elke stuk heel en hulle is dus vaste stowwe. Water giet maklik en dit bly nie heel wanneer niks dit vashou nie. Sy stil boonste kant lê plat en dit maak water 'n vloeistof. Wanneer niks die lug vashou nie, antwoord dit nee op al drie die vrae. Dit maak lug 'n gas. Die borrels in die emmer wys dat lug daar was."
+      "teks": "Jy kan baie materiaal met drie vrae sorteer. Vra eers of jy dit kan giet. Vra dan of elke stuk heel bly wanneer niks dit vashou nie. Vra laastens of sy stil boonste kant plat lê. Jy kan nie 'n klip of 'n slap lap giet nie. By albei bly elke stuk heel, en hulle is dus vaste stowwe. Jy kan water maklik giet, en gemorste water op 'n tafel loop uitmekaar. Daar hou niks dit vas nie, en dit het geen eie vorm nie. Die antwoord op die tweede vraag is dus nee. Sy stil boonste kant lê plat, en dit maak water 'n vloeistof. Wanneer niks die lug vashou nie, is die antwoord op al drie die vrae nee. Dit maak lug 'n gas. Die borrels in die emmer wys dat lug daar was."
     },
     {
       "tipe": "begrip",
@@ -104,7 +107,7 @@
     {
       "tipe": "begrip",
       "term": "vloeistof",
-      "teks": "Materiaal wat vloei en met 'n plat bokant in sy houer lê."
+      "teks": "Materiaal wat vloei en in 'n houer met sy boonste kant plat lê."
     },
     {
       "tipe": "begrip",

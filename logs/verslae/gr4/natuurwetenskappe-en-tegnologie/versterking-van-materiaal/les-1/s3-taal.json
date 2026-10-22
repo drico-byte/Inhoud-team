@@ -1,0 +1,155 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Om materiaal te versterk",
+      "voor": "'n Stoel dra jou gewig en 'n kartonboks",
+      "na": "'n Stoel dra jou gewig, en 'n kartonboks",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subjects and verbs.",
+      "rede_keurder": "Two full clauses (''n Stoel dra...' and ''n kartonboks beskerm...'); the AWS comma is required and nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n plat vel papier dra",
+      "voor": "Los jou hand en die vel buig",
+      "na": "Laat dit los, en die vel buig",
+      "soort": "idioom",
+      "rede_vinder": "'Los jou hand' is not idiomatic for letting go; 'laat dit los' is, and the comma joins two clauses.",
+      "fout": "'Los jou hand' is not idiomatic Afrikaans for letting go of the sheet.",
+      "rede_keurder": "'Laat dit los' is the natural phrase for the same action (releasing the sheet), so the step is unchanged, and the comma correctly joins two clauses."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat 'n plat vel papier dra",
+      "voor": "Sit 'n potlood in die middel neer en die papier sak",
+      "na": "Sit 'n potlood in die middel neer, en die papier sak",
+      "soort": "leestekens",
+      "rede_vinder": "Comma before 'en' joining a command to a new clause with its own subject and verb.",
+      "fout": "Missing comma before 'en' joining an imperative sentence to a clause with its own subject and verb.",
+      "rede_keurder": "The imperative and 'die papier sak dadelik in' are two sentences, so the AWS comma applies, consistent with change 2."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat 'n hol pilaar is",
+      "voor": "buis van papier wat leeg is binne-in",
+      "na": "buis van papier wat binne-in leeg is",
+      "soort": "woordorde",
+      "rede_vinder": "In a subordinate clause the adverb precedes the verb, which goes last.",
+      "fout": "'wat leeg is binne-in' puts the adverb after the finite verb in a relative clause, which reads unidiomatically.",
+      "rede_keurder": "Verb-last order 'wat binne-in leeg is' is standard Afrikaans and the meaning is identical."
+    },
+    {
+      "nr": 6,
+      "blok": "Dieselfde papier in 'n ander vorm",
+      "voor": "Net sy vorm het verander en die nuwe vorm",
+      "na": "Net sy vorm het verander, en die nuwe vorm",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Net sy vorm het verander' and 'die nuwe vorm dra die gewig' each have their own subject and verb."
+    },
+    {
+      "nr": 7,
+      "blok": "Die ronde pilaar",
+      "voor": "teen mekaar 'n hoek maak",
+      "na": "met mekaar 'n hoek maak",
+      "soort": "idioom",
+      "rede_vinder": "In Afrikaans two lines or faces make an angle 'met mekaar', not 'teen mekaar'.",
+      "fout": "'teen mekaar 'n hoek maak' is not the established Afrikaans expression for two surfaces forming an angle.",
+      "rede_keurder": "Checked the preposition: in both versions the two flat sides form an angle with each other at the fold line ('waar' keeps the meeting), so the fixed expression 'met mekaar 'n hoek maak' corrects the idiom without moving the meaning."
+    },
+    {
+      "nr": 8,
+      "blok": "Die ronde pilaar",
+      "voor": "is die hele pad om gebuig",
+      "na": "is rondom gebuig",
+      "soort": "anglisisme",
+      "rede_vinder": "'Die hele pad om' calques 'all the way round'; 'rondom' says it in Afrikaans.",
+      "fout": "'die hele pad om gebuig' is a calque of English 'all the way round'.",
+      "rede_keurder": "'rondom gebuig' says the same thing (curved all round, no sharp corner) in natural Afrikaans."
+    },
+    {
+      "nr": 9,
+      "blok": "Die pilaar met drie kante",
+      "voor": "drie plat kante en ons noem hom",
+      "na": "drie plat kante, en ons noem hom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subjects and verbs.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subjects and verbs.",
+      "rede_keurder": "'Hierdie pilaar het drie plat kante' and 'ons noem hom driehoekig' are two sentences; the comma is required."
+    },
+    {
+      "nr": 10,
+      "blok": "Die pilaar met vier kante",
+      "voor": "vier plat kante en hulle is ewe breed",
+      "na": "vier plat kante, en hulle is ewe breed",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subjects and verbs.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subjects and verbs.",
+      "rede_keurder": "'Hierdie pilaar het vier plat kante' and 'hulle is ewe breed' are two sentences; the comma is required."
+    },
+    {
+      "nr": 12,
+      "blok": "'n Billike toets tussen die drie",
+      "voor": "'n Pilaar met die gewig skeef bo-op sak vroeg in.",
+      "na": "'n Pilaar waarop die gewig skeef lê, sak vroeg in.",
+      "soort": "sinsbou",
+      "rede_vinder": "The stacked phrase 'met die gewig skeef bo-op' before the verb is wooden; a relative clause reads clearly.",
+      "fout": "The stacked phrase 'met die gewig skeef bo-op' before the verb is wooden and makes a reader stumble.",
+      "rede_keurder": "'waarop die gewig skeef lê' keeps the same pillar, the same skew weight on top and the same outcome, and reads clearly."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Wat 'n hol pilaar is",
+      "voor": "Plak die naat toe",
+      "na": "Plak die naat vas",
+      "soort": "woordkeuse",
+      "rede_vinder": "The lesson and glossary elsewhere say the seam is 'vasgeplak'; one verb throughout.",
+      "fout": "none",
+      "rede_keurder": "'Toeplak' fits 'sodat die pilaar nie weer oopgaan nie' and matches 'hou net die pilaar toe' later, so the swap is lateral and would break that pairing."
+    },
+    {
+      "nr": 11,
+      "blok": "Die pilaar met vier kante",
+      "voor": "Druk hom so reg dat elke hoek",
+      "na": "Druk hom reg sodat elke hoek",
+      "soort": "sinsbou",
+      "rede_vinder": "'Druk hom reg sodat' reads more naturally than 'so reg dat'.",
+      "fout": "none",
+      "rede_keurder": "'Druk hom so reg dat' is natural Afrikaans (manner), and the proposal shifts it to a purpose clause in an activity step, a lateral move at best."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 13,
+      "blok": "hol pilaar",
+      "voor": "Regop buis wat leeg is binne-in en gewig van bo dra",
+      "na": "Regop buis wat binne-in leeg is en gewig van bo af dra",
+      "soort": "woordorde",
+      "rede_vinder": "Verb-last word order in the relative clause, and 'van bo af' as in the lesson text.",
+      "fout": "The glossary definition has the same post-verb 'binne-in' as the study text.",
+      "rede_keurder": "Glossary definitions change only through the writer, and the proposal also adds 'af' beyond the word-order fix, so the writer should align it with the study text.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat 'n hol pilaar is",
+      "teks": "Rol of vou een vel papier regop op tot die twee rande mekaar raak.",
+      "rede": "'regop op' is awkward, but which way the sheet is rolled (upright) may matter to the activity; not changed without knowing the intent."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 568,
+  "woorde_na": 564,
+  "wanneer": "2026-10-22T16:47:32+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:2fbd069fbbb09209676e4d6cbba0ff58",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1a4a69b19f905dbf2872850b52abd267"
+}

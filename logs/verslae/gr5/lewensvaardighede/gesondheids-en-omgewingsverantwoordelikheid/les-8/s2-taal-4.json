@@ -1,0 +1,91 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "hoofsaaklik in die laer, warm dele",
+      "rede": "'laer' on its own can be read as 'lower on the map' (further south) rather than low-lying; 'laagliggende' would be unambiguous, but the wording is protected, so a person should decide whether the ambiguity matters for a Grade 5 reader."
+    }
+  ],
+  "woorde_voor": 579,
+  "woorde_na": 579,
+  "wanneer": "2026-10-22T17:22:46+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Hoe diarree begin",
+      "voor": "iets wat siek maak by die mond inkom",
+      "na": "iets wat 'n mens siek maak by die mond inkom",
+      "soort": "sinsbou",
+      "rede_vinder": "'Iets wat siek maak' lacks an object and reads unfinished; 'n mens' completes it without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "'iets wat siek maak' is acceptable Afrikaans; adding 'n mens is a lateral move that does not remove the clause stacking before 'by die mond inkom'."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat om te doen as iemand diarree het",
+      "voor": "Gaan kliniek toe, veral gou met 'n baba of klein kind.",
+      "na": "Gaan kliniek toe, en gaan veral gou met 'n baba of 'n klein kind.",
+      "soort": "sinsbou",
+      "rede_vinder": "'veral gou met' hangs without a verb; repeating 'gaan' makes it a complete, natural sentence.",
+      "fout": "none",
+      "rede_keurder": "The elliptical clinic instruction reads well; repeating 'gaan' only lengthens a checked safety sentence."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat om te doen as iemand diarree het",
+      "voor": "'n Grootmens kan vooraf by die kliniek of 'n gesondheidswerker vra hoe om so 'n drankie aan te meng as die kliniek ver is.",
+      "na": "As die kliniek ver is, kan 'n grootmens vooraf by die kliniek of 'n gesondheidswerker vra hoe om so 'n drankie aan te meng.",
+      "soort": "woordorde",
+      "rede_vinder": "The condition at the end attaches ambiguously to 'aan te meng'; moving it to the front leaves the protected phrase intact and the meaning clear.",
+      "fout": "none",
+      "rede_keurder": "Fronting the condition makes the asking depend on distance instead of the home mixing, which moves a rehydration step."
+    },
+    {
+      "nr": 12,
+      "blok": "Wat om te doen as iemand diarree het",
+      "voor": "'n Baba, klein kind en iemand",
+      "na": "'n Baba, 'n klein kind en iemand",
+      "soort": "grammatika",
+      "rede_vinder": "Parallel list items each take their article.",
+      "fout": "none",
+      "rede_keurder": "Omitting the repeated article in a short list is normal Afrikaans; a lateral change to a safety sentence."
+    },
+    {
+      "nr": 16,
+      "blok": "Hoe jy diarree keer",
+      "voor": "en weg van waar julle water skep",
+      "na": "en ver van die plek waar julle water skep",
+      "soort": "idioom",
+      "rede_vinder": "'weg van waar' is loose; 'ver van die plek waar' is the natural Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'weg van' (away from) and 'ver van' (far from) differ in degree, so a hygiene instruction would shift; the original is acceptable."
+    },
+    {
+      "nr": 23,
+      "blok": "Hoe jy muskietbyte keer",
+      "voor": "of sit gaas voor",
+      "na": "of sit gaas daarvoor",
+      "soort": "sinsbou",
+      "rede_vinder": "'sit gaas voor' leaves the object implicit; 'daarvoor' points clearly to the windows and doors.",
+      "fout": "none",
+      "rede_keurder": "'voorsit' is a normal separable verb here, and 'daarvoor' can also read as 'for that'."
+    },
+    {
+      "nr": 1,
+      "blok": "Hoe malaria voel en wat jy doen",
+      "voor": "groot moegheid. Dit kan saggies begin. Hoofpyn en lyfpyne kom daarby, en party mense gooi op.",
+      "na": "groot moegheid. Hoofpyn en lyfpyne kom daarby, en party mense gooi op. Dit kan saggies begin.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Daarby' points back to the list of flu-like complaints, so the sentence adding more complaints should follow that list directly; the protected sentence stays word for word, only moved after it.",
+      "fout": "none",
+      "rede_keurder": "The original reads naturally ('daarby' can mean the further complaints that come as it goes on), while moving the protected sentence 'Dit kan saggies begin' to after the vomiting makes 'Dit' able to point at the vomiting, separates the mild start from the flu-like opening it qualifies, and touches a protected wording for a lateral gain."
+    }
+  ],
+  "konsep_hash_voor": "sha256:2203f5f928d4fe9bf8a808758b65f726",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:2203f5f928d4fe9bf8a808758b65f726"
+}

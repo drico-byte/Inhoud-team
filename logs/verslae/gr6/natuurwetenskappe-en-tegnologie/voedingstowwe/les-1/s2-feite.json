@@ -1,389 +1,333 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Van alles, in die regte hoeveelhede",
   "kaps_punt": "Gebalanseerde diëte: 'n dieet verwys na die keuse van voedsel wat ons eet elke dag; 'n gebalanseerde dieet bevat voldoende hoeveelhede van voedsel uit al vier voedselgroepe, asook water en vesel; sommige siektes kan toegeskryf word aan 'n swak dieet",
   "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "Jou dieet is die kos en drank wat jy gewoonlik elke dag eet en drink.",
+      "bewering": "Jou dieet is die kos en drank wat jy gewoonlik elke dag eet en drink. Almal het 'n dieet.",
       "blok": "Almal het 'n dieet",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Cambridge Dictionary en Britannica Dictionary, inskrywing 'diet': die gewone kos en drank wat 'n mens of dier gereeld gebruik. https://dictionary.cambridge.org/dictionary/english/diet ; https://www.britannica.com/dictionary/diet"
-    },
-    {
-      "bewering": "Almal het 'n dieet.",
-      "blok": "Almal het 'n dieet",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Volg uit die beskrywende woordeboekbetekenis hierbo (Cambridge, Collins, Britannica): elkeen wat eet, het 'n dieet in hierdie sin. https://www.collinsdictionary.com/dictionary/english/diet"
+      "bron": "Merriam-Webster, 'diet' (eerste betekenis: food and drink regularly provided or consumed); stem ook met die KABV-bewoording in die les se kaps_punt ('die keuse van voedsel wat ons eet elke dag').",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Dieet beteken hier nie minder eet om gewig te verloor nie.",
       "blok": "Almal het 'n dieet",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Woordeboeke gee twee betekenisse vir 'diet': (1) wat iemand gewoonlik eet, (2) 'n beperkte eetplan, gewoonlik vir gewigsverlies. Die les onderskei die twee korrek. https://dictionary.cambridge.org/dictionary/english/diet ; https://en.wikipedia.org/wiki/Diet_(nutrition)"
+      "bron": "Merriam-Webster en Vocabulary.com, 'diet': die gewigsverlies-betekenis is 'n aparte, tweede betekenis van die woord; die les onderskei dit korrek.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "'n Gebalanseerde dieet het kos uit al vier voedselgroepe.",
       "blok": "Vier groepe, plus water en vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Die voedingstofklassifikasie wat die les gebruik (koolhidrate, vette en olies, proteïene, vitamiene en minerale, plus water en vesel) is 'n erkende indeling — Open University nutrition module noem sewe klasse: koolhidrate, proteïene, vette, vitamiene, minerale, vesel en water. https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=315&printable=1 ; Centre for Health Protection (HK), Nutrient Classifications, https://www.chp.gov.hk/en/static/100022.html . NOTA: die Suid-Afrikaanse voedselgids self werk met sewe VOEDSELgroepe (FAO-bladsy vir SA), dus is 'vier groepe' 'n voedingstof-indeling en nie die enigste een nie — die les se eie volgende sin erken dit uitdruklik."
+      "bron": "KABV-bewoording in die les se kaps_punt ('voedsel uit al vier voedselgroepe, asook water en vesel'); NECT Gr 6 Kwartaal 1 NS&T-volger (nect.org.za), wat die KABV-konsep weergee as koolhidrate, proteïene, vette en vitamiene en minerale.",
+      "tipe": "getal"
     },
     {
-      "bewering": "Hierdie vier groepe verdeel kos volgens wat elke soort in die liggaam doen, en kos kan ook anders gegroepeer word.",
+      "bewering": "Hierdie vier groepe verdeel kos volgens die vernaamste voedingstof wat dit gee, en kos kan ook anders gegroepeer word.",
       "blok": "Vier groepe, plus water en vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Voedingstowwe word inderdaad volgens funksie/chemiese klas ingedeel, en ander gidse groepeer kos anders (SA-voedselgids: sewe voedselgroepe; VSA MyPlate: vyf). https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/ ; https://my.clevelandclinic.org/health/articles/nutrition"
+      "bron": "NECT Gr 6 Kwartaal 1 NS&T-volger: 'Foods can be grouped according to the functions in the body and the main nutrients they supply.' Ander indelings bestaan wel (bv. die Suid-Afrikaanse voedselgebaseerde dieetriglyne, sun.ac.za/NICUS, wat volgens kossoorte groepeer). 'Vernaamste' moet as 'belangrikste bydrae' gelees word, nie 'grootste hoeveelheid' nie - anders sou vrugte en groente (meestal water en suiker) en suikerbone (sien hieronder) nie by hul groepe pas nie. Die les dra dit nie verkeerd nie, maar dit is 'n konvensie.",
+      "tipe": "superlatief"
     },
     {
       "bewering": "Koolhidrate soos brood en rys gee energie, en vette en olies soos botter ook.",
       "blok": "Vier groepe, plus water en vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Merck Manual, 'Carbohydrates, Proteins, and Fats': koolhidrate is die liggaam se vernaamste energiebron en vette lewer ook energie (meer per gram). https://www.merckmanuals.com/home/disorders-of-nutrition/overview-of-nutrition/carbohydrates-proteins-and-fats ; Cleveland Clinic, 'Nutrition'. https://my.clevelandclinic.org/health/articles/nutrition"
+      "bron": "NECT Gr 6-volger (koolhidrate vir energie, vette vir gestoorde energie); botter is omtrent 80-82% melkvet (webexhibits.org, Butter composition). Die sin sê nie dat net hierdie twee energie gee nie; die begrip 'voedingstof' sê 'Party voedingstowwe ... gee ook energie'.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Proteïene soos eiers en vis help jou liggaam groei en herstel.",
       "blok": "Vier groepe, plus water en vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Merck Manual: proteïene is nodig vir groei en herstel van weefsel; eiers en vis is proteïenryke kosse in die SA-riglyne ('Eat fish, chicken, lean meat or eggs daily'). https://www.merckmanuals.com/home/disorders-of-nutrition/overview-of-nutrition/carbohydrates-proteins-and-fats ; https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/"
+      "bron": "NECT Gr 6-volger (proteïene vir groei en herstel); eiers en vis as hoëwaarde-proteïenbronne (o.a. US Fish and Wildlife Service 1941 oor visproteïen; eier ~12% proteïen).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Vitamiene en minerale uit vars vrugte en groente help jou gesond bly.",
       "blok": "Vier groepe, plus water en vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Cleveland Clinic, 'Nutrition': mikrovoedingstowwe (vitamiene en minerale) reguleer liggaamsfunksies; SA-riglyn 'Eat plenty of vegetables and fruit every day'. https://my.clevelandclinic.org/health/articles/nutrition ; https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/ . NOTA: vrugte en groente is nie die enigste bron van vitamiene en minerale nie; die sin noem hulle as voorbeeld en sluit niks uit nie."
+      "bron": "NECT Gr 6-volger (vitamiene en minerale vir bene, tande en immuniteit); SA voedselgebaseerde dieetriglyne 2012 ('Eat plenty of vegetables and fruit every day'), sun.ac.za; BfR (Duitse federale instituut vir risiko-assessering) vitamien C-feiteblad: vrugte en groente lewer die meeste vitamien C.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Water en vesel is nie een van die vier groepe nie, maar jy het hulle nodig.",
+      "bewering": "Water en vesel is nie een van die vier groepe nie, maar jy het albei nodig.",
       "blok": "Vier groepe, plus water en vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "In die standaard-indeling van voedingstowwe staan water en vesel as eie klasse naas koolhidrate, proteïene, vette, vitamiene en minerale. https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=315&printable=1 . NOTA: vesel is chemies 'n koolhidraat; dit word konvensioneel apart gehou omdat die liggaam dit nie verteer nie (Harvard Nutrition Source, 'Fiber'). https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"
+      "bron": "KABV-bewoording in die kaps_punt ('al vier voedselgroepe, asook water en vesel'); SA voedselgebaseerde dieetriglyne 2012 ('Drink lots of clean, safe water'); British Nutrition Foundation (nutrition.org.uk) oor die nut van vesel.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Elke groep êrens op jou bord is nog nie balans nie. Balans beteken genoeg van elke groep en van niks te veel nie.",
+      "bewering": "Die vier groepe as 'n stel: koolhidrate, vette en olies, proteïene, vitamiene en minerale - deurgaans dieselfde vier in 'Vier groepe', 'Hoe toets jy 'n dag se kos?' en 'Thabo se dag'.",
+      "blok": "Vier groepe, plus water en vesel",
+      "status": "bevestig",
+      "bron": "As stel getoets: presies vier groepe word genoem, al vier stem ooreen met die KABV-indeling volgens die NECT-volger, water en vesel word konsekwent buite die vier gehou, en Thabo se voorbeeld gebruik dieselfde vier etikette sonder 'n vyfde of 'n samesmelting. Geen blok gee 'n ander lys nie.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "As elke groep êrens op jou bord is, beteken dit nog nie balans nie. Balans beteken genoeg van elke groep en van niks te veel nie.",
       "blok": "Genoeg, en nie te veel nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "WHO, 'Healthy diet': 'n gesonde dieet gaan oor hoeveelhede sowel as verskeidenheid (bv. vet ≤30% van energie, vrye suiker <10%). https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      "bron": "KABV-bewoording ('voldoende hoeveelhede'); SA voedselgebaseerde dieetriglyne 2012 ('sparingly' vir vet, suiker en sout). 'Op jou bord' is beeldspraak vir 'in jou dieet'; die afbeelding hou.",
+      "tipe": "analogie"
     },
     {
-      "bewering": "Vars vrugte en groente kan jy baie eet.",
+      "bewering": "Vars vrugte en groente kan jy baie eet. Vette en olies, suiker en sout eet jy eerder min.",
       "blok": "Genoeg, en nie te veel nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "SA voedselgebaseerde dieetriglyn (Nasionale Departement van Gesondheid, via FAO): 'Eat plenty of vegetables and fruit every day.' https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/"
+      "bron": "SA voedselgebaseerde dieetriglyne 2012 (Nutrition Society of SA saam met die Departement van Gesondheid), sun.ac.za en FAO: 'Eat plenty of vegetables and fruit every day', 'Use fats sparingly', 'Use sugar and foods and drinks high in sugar sparingly', 'Use salt and food high in salt sparingly'.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Vette en olies, suiker en sout eet jy eerder min.",
+      "bewering": "Hoeveel kos iemand nodig het, hang af van sy ouderdom, grootte en hoe aktief hy is.",
       "blok": "Genoeg, en nie te veel nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "SA-riglyne: 'Use fats sparingly', 'Use sugar and foods and drinks high in sugar sparingly', 'Use salt and food high in salt sparingly'. https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/"
+      "bron": "Nutrient Reference Values for Australia and New Zealand, 'Dietary energy' (eatforhealth.gov.au): energiebehoefte verskil volgens ouderdom, geslag, liggaamsgrootte en aktiwiteitsvlak; FAO/WHO/UNU-verslag oor energiebehoeftes. Die sin noem nie geslag nie, maar beweer ook nie dat die lys volledig is nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Hoeveel iemand nodig het, hang af van sy ouderdom en grootte en hoe aktief hy is.",
+      "bewering": "'n Groeiende kind het kos nodig om sy liggaam mee te bou.",
       "blok": "Genoeg, en nie te veel nie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "FAO/WHO/UNU, 'Human energy requirements', hoofstuk oor kinders en adolessente: behoeftes hang af van liggaamsgrootte, ouderdom en gewone fisieke aktiwiteit. https://www.fao.org/4/y5686e/y5686e06.htm"
+      "bron": "FAO/WHO/UNU-verslag oor energie- en proteïenbehoeftes: groei self vra energie en proteïen bo-op onderhoud.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Groeiende kind het kos nodig om mee te bou.",
-      "blok": "Genoeg, en nie te veel nie",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "FAO/WHO: kinders se energie- en voedingstofbehoefte sluit 'n toeslag vir groei in (± 8,6 kJ per gram gewigstoename). https://www.fao.org/4/y5686e/y5686e06.htm"
-    },
-    {
-      "bewering": "Jou liggaam verloor elke dag water deur sweet, urine en asem.",
+      "bewering": "Jou liggaam verloor elke dag water deur sweet, urine en asem. Jy kry dit terug uit drinkgoed en kos soos vrugte.",
       "blok": "Water",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Merck Manual, 'About Body Water': water gaan daagliks verlore deur sweet, urine, stoelgang, trane en asemhaling (± 1 liter deur vel en longe). https://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/water-balance/about-body-water . NOTA: die les se lys is nie volledig nie (stoelgang ontbreek) maar sluit niks uit nie."
+      "bron": "'Water equilibrium in health' (Proceedings of the Nutrition Society, Cambridge, 1957) en waterbalans-oorsigte: verlies deur urine, vel/sweet, uitgeasemde lug en 'n klein bietjie in ontlasting; inname uit drank en kos (plus metaboliese water). Die lys is nie as volledig aangebied nie; die weglating van ontlasting maak dit nie vals nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Jy kry dit terug uit drinkgoed en kos soos vrugte.",
+      "bewering": "Drink eerder water as soet drankies.",
       "blok": "Water",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Merck Manual: water word vervang deur vloeistowwe te drink en kos te eet wat water bevat; sowat 20% van vloeistofinname kom uit kos. https://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/water-balance/about-body-water ; Mayo Clinic, 'Water: How much should you drink every day?' https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/water/art-20044256"
-    },
-    {
-      "bewering": "Drink eerder water as soet drank.",
-      "blok": "Water",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "SA-riglyn 'Drink lots of clean, safe water' saam met 'Use sugar and foods and drinks high in sugar sparingly'. https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/ ; WHO, 'Healthy diet' (beperk vrye suikers, insluitend in drankies). https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      "bron": "SA voedselgebaseerde dieetriglyne 2012: 'Drink lots of clean, safe water' en 'Use sugar and foods and drinks high in sugar sparingly' (sun.ac.za/NICUS).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Vesel kom uit kos van plante soos vrugte, groente, boontjies en bruinbrood.",
       "blok": "Vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Harvard T.H. Chan Nutrition Source, 'Fiber': dieetvesel is die deel van plantkos wat nie deur menslike ensieme afgebreek word nie; bronne sluit peulgewasse, vrugte, groente en volgraanprodukte in. https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/ ; Mayo Clinic, 'Dietary fiber'. https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983"
+      "bron": "British Nutrition Foundation (nutrition.org.uk), 'What is dietary fibre?': 'a complex group of substances in plant foods'; NWU-oorsig oor die SA-riglyn 'Eat dry beans, split peas, lentils and soya regularly' (peulgewasse ryk aan vesel).",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Jou liggaam verteer vesel nie self nie, maar dit help kos aanbeweeg.",
+      "bewering": "Jou liggaam verteer vesel nie self nie, maar vesel help kos aanbeweeg.",
       "blok": "Vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "MedlinePlus en Mayo Clinic: die menslike spysvertering kan vesel nie verteer nie; onoplosbare vesel help materiaal deur die spysverteringskanaal beweeg en gee bulk aan die stoelgang. https://medlineplus.gov/ency/imagepages/19531.htm ; https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/in-depth/fiber/art-20043983 . Die woord 'self' is presies reg: darmbakterieë fermenteer wel 'n deel daarvan."
+      "bron": "British Nutrition Foundation en Alimentarium: vesel kan nie deur menslike verteringsensieme afgebreek word nie (party word wel deur dermbakterieë gefermenteer - 'nie self nie' is dus presies reg) en minder fermenteerbare vesel gee massa wat kos deur die spysverteringskanaal help beweeg.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Bruinbrood het meer vesel as witbrood.",
       "blok": "Vesel",
       "status": "bevestig",
-      "tipe": "getal",
-      "bron": "FoodFacts SA, 'Bread' (Suid-Afrikaanse samestellingstabel): witbrood 2,8 g dieetvesel per 100 g teenoor bruinbrood 5,3 g per 100 g. https://foodfacts.org.za/bread/ . Ooreenstemmend UK-data (wit 2,5 g, bruin 5 g per 100 g): https://fabflour.co.uk/fab-health-nutrition/nutritional-information/fibre . SA bruinbroodmeel moet boonop semels bygevoeg hê (Landbouprodukstandaardewet-regulasies oor koringmeel). https://www.gov.za/sites/default/files/gcis_document/201911/42862rg11008gon1547.pdf"
+      "bron": "Food for Mzansi, 'Bread battle: why brown wins hands down', met dieetkundige Khutso Malebana (Pretoria): volgraanbrood het omtrent twee keer soveel vesel as bruinbrood en drie keer soveel as witbrood, dus bruin > wit. As algemene vergelyking van gewone brode waar; daar bestaan wel spesiale hoëvesel-witbrode, maar die sin gaan oor die gewone soort.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Skryf eers 'n dag se kos en drank neer.",
+      "bewering": "Sit elke kos in die een groep waar die lys van voedselgroepe dit plaas. Die eerste toets is of al vier groepe plus water en vesel daar is. Die tweede is of die hoeveelhede reg lyk.",
       "blok": "Hoe toets jy 'n dag se kos?",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "'n 24-uur-voedselrekord is 'n standaard dieetassesseringsmetode. https://www.who.int/news-room/fact-sheets/detail/healthy-diet ; metodologie: https://www.fao.org/4/y5686e/y5686e06.htm"
+      "bron": "Prosedure, geen feitelike bewering nie behalwe dat 'n gebalanseerde dieet al vier groepe plus water en vesel in voldoende hoeveelhede vra - stem met die KABV-bewoording in die kaps_punt. 'Eerste' en 'tweede' is volgorde in die prosedure, nie superlatiewe nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Sit elke kos in die een groep waar die lys van voedselgroepe dit plaas.",
-      "blok": "Hoe toets jy 'n dag se kos?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Voedselgidse plaas 'n kos gewoonlik by die groep van sy oorheersende voedingstof (SA-voedselgids, sewe groepe). https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/ . NOTA vir die mens wat lees: dit is 'n indelingskonvensie, nie 'n stelling dat 'n kos net een voedingstof bevat nie — sommige gidse (VSA MyPlate) tel droëbone in twee groepe. Die les weerspreek homself nie: die volgende blok sê self botter is vet en suikerbone gee ook vesel."
-    },
-    {
-      "bewering": "Die eerste toets is of al vier groepe plus water en vesel daar is. Die tweede is of die hoeveelhede reg lyk.",
-      "blok": "Hoe toets jy 'n dag se kos?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Stem ooreen met die erkende omskrywing van 'n gebalanseerde dieet (verskeidenheid plus hoeveelheid). WHO, 'Healthy diet'. https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
-    },
-    {
-      "bewering": "Pap, brood en rys is koolhidrate.",
+      "bewering": "Pap, brood en rys is koolhidrate. Eiers, vleis en suikerbone is proteïene. Botter is vet, en suikerbone gee ook vesel.",
       "blok": "Thabo se dag",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Mieliepap, brood en rys is styselryke kosse — SA-riglyn 'Make starchy foods part of most meals'. https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/ ; Merck Manual oor stysel as koolhidraat. https://www.merckmanuals.com/home/disorders-of-nutrition/overview-of-nutrition/carbohydrates-proteins-and-fats"
-    },
-    {
-      "bewering": "Eiers, vleis en suikerbone is proteïene.",
-      "blok": "Thabo se dag",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "SA-riglyne plaas eiers/vleis en droëbone by die proteïenryke kosse ('Eat fish, chicken, lean meat or eggs daily'; 'Eat dry beans, split peas, lentils and soya regularly'). https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/ . Gaar suikerbone lewer ± 8,7 g proteïen per 100 g. NOTA: suikerbone lewer ook aansienlike stysel (± 23 g koolhidrate per 100 g gaar), dus is die plasing 'n groepskonvensie eerder as 'n stelling oor hul enigste voedingstof."
-    },
-    {
-      "bewering": "Botter is vet en suikerbone gee ook vesel.",
-      "blok": "Thabo se dag",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Botter bevat minstens 80% melkvet (Codex Alimentarius; Britannica, 'Butter'). https://www.britannica.com/topic/butter . Gaar suikerbone lewer ± 6,4 g vesel per 100 g; peulgewasse is 'n erkende veselbron (Harvard Nutrition Source, 'Fiber'). https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"
+      "bron": "Indeling volgens die KABV-groepe (NECT-volger); NWU-oorsig oor die SA-riglyn vir droëbone: peulgewasse is 'rich and economical sources of good-quality protein ... dietary fibre'; Grain SA, 'Know the value of dry beans': suikerbone ~23% proteïen, ~74% koolhidraat (droë massa), en ryk aan vesel. Let wel: volgens massa gee suikerbone meer koolhidraat as proteïen; hul plek by proteïene is die gangbare konvensie (bone as plantproteïen), nie 'n meting van die grootste bestanddeel nie. Die les sê 'waar die lys ... dit plaas', wat dit eerlik as 'n indeling aanbied.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Sy kos gee wel vitamiene en minerale, maar hy eet geen vrugte of groente nie en mis hulle vitamien C.",
       "blok": "Thabo se dag",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vleis, eiers en bone lewer B-vitamiene, yster en sink, en SA-mieliemeel en broodmeel word by wet verryk met ses vitamiene en twee minerale (vitamien A, tiamien, riboflavien, niasien, piridoksien, foliensuur, yster, sink) — maar nie met vitamien C nie. Food Fortification Initiative, SA-gevallestudie. https://ffinetwork.org/wp-content/uploads/2025/09/SouthAfricaCS-1.pdf . Vitamien C kom hoofsaaklik uit vrugte en groente; vleis en eiers is geen noemenswaardige bron nie, en gaar droëbone lewer ± 1 mg per 100 g. Harvard Nutrition Source, 'Vitamin C'. https://nutritionsource.hsph.harvard.edu/vitamin-c/ . Die SA-riglyne hou droëbone ook apart van 'vegetables and fruit', dus is 'geen vrugte of groente' korrek vir hierdie dag."
+      "bron": "Stellenbosch NICUS-feiteblad oor voedselverryking: alle mieliemeel en broodmeel in SA word sedert 2003 verplig verryk met vitamien A, tiamien, riboflavien, niasien, piridoksien, foliensuur, yster en sink (geen vitamien C nie); eiers, vleis en bone dra self ook vitamiene en minerale. BfR vitamien C-feiteblad: vrugte en groente lewer die meeste vitamien C, diereprodukte min. 'Mis hulle vitamien C' sê korrek dat hy die vitamien C wat vrugte en groente sou gee, mis.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Met 'n vrug en groente by is al vier groepe daar.",
+      "bewering": "As hy ook 'n vrug en groente eet, is al vier groepe daar.",
       "blok": "Thabo se dag",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Binne die les se eie (en algemeen gebruikte) indeling verteenwoordig vars vrugte en groente die vitamien-en-mineraalgroep; die ander drie groepe is reeds in sy dag teenwoordig (stysel, proteïen, vet). https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/south-africa/en/ ; https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=315&printable=1"
+      "bron": "Volg logies uit die les se eie indeling: koolhidrate (pap, brood, rys), proteïene (eiers, vleis, suikerbone), vette (botter) is reeds daar; vrugte en groente vul vitamiene en minerale aan. Water en vesel is ook reeds teenwoordig (water, suikerbone). Die sin sê 'al vier groepe', nie 'gebalanseerd' nie - die les het reeds gesê hoeveelhede is 'n tweede toets.",
+      "tipe": "getal"
     },
     {
-      "bewering": "'n Swak dieet gee die liggaam oor 'n lang tyd te min of te veel van iets.",
+      "bewering": "'n Swak dieet gee die liggaam oor 'n lang tyd te min of te veel van iets. Swak beteken hier nie arm nie.",
       "blok": "Wanneer 'n dieet swak is",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "WHO gebruik 'malnutrition in all its forms' vir beide tekort en oormaat. https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      "bron": "WHO-feiteblad 'Malnutrition' (who.int): wanvoeding dek tekorte, oormaat of wanbalanse in die inname van energie en voedingstowwe, insluitend ondervoeding, mikronutriënttekorte en oorgewig/vetsug.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Sommige siektes kan deels uit 'n swak dieet ontstaan.",
       "blok": "Wanneer 'n dieet swak is",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "WHO, 'Healthy diet': 'n ongesonde dieet is 'n hoofrisikofaktor vir nie-oordraagbare siektes (diabetes, hartsiekte, beroerte, kanker) en vir tandkaries. Die versagting 'deels' is korrek: dit is 'n bydraende risikofaktor, nie 'n enkele oorsaak nie. https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      "bron": "WHO-feiteblad 'Malnutrition' (dieetverwante nie-oordraagbare siektes soos diabetes en hartsiektes). Letterlik getoets: 'kan deels' is waar vir vetsug en tipe 2-diabetes. Skeurbuik, wat later in die les kom, ontstaan heeltemal uit 'n tekort, maar die sin sluit dit nie uit nie ('sommige ... kan deels'), dus geen weerspreking.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "By tandbederf maak kieme op jou tande suur uit die suiker in soet kos en drank.",
+      "bewering": "By tandbederf maak kieme op jou tande suur uit die suiker in soet kos en drank. Daardie suur vreet 'n gaatjie in die tand.",
       "blok": "Tandbederf en vetsug",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Action on Sugar, 'Sugars and tooth decay': suur word deur bakterieë in plaak geproduseer wanneer suiker gebruik word (Streptococcus mutans, Lactobacillus → melksuur). https://www.actiononsugar.org/sugar-and-health/sugars-and-tooth-decay/ . NOTA: bakterieë maak ook suur uit ander fermenteerbare koolhidrate (stysel); die sin sluit dit nie uit nie."
-    },
-    {
-      "bewering": "Daardie suur vreet 'n gaatjie in die tand.",
-      "blok": "Tandbederf en vetsug",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Plaak-pH val binne 5–10 minute onder die kritieke drempel en die suur demineraliseer die email totdat 'n holte vorm. https://www.actiononsugar.org/sugar-and-health/sugars-and-tooth-decay/ ; https://en.wikipedia.org/wiki/Tooth_decay"
+      "bron": "Great Ormond Street Hospital (NHS), 'Tooth decay': 'Tooth plaque is a sticky layer of bacteria (germs) ... When the bacteria in plaque react with sugar ... it produces acid. The acid causes decay or cavities.' Die beeld 'vreet' pas: suur los die tandglasuur geleidelik op tot 'n gaatjie - die afbeelding lei nie 'n leerder verkeerd nie.",
+      "tipe": "analogie"
     },
     {
       "bewering": "Dit maak saak hoe dikwels jy soet kos eet en nie net hoeveel nie.",
       "blok": "Tandbederf en vetsug",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Frekwensie van suikerblootstelling is die vernaamste drywer van kariogene plaak; elke blootstelling begin 'n nuwe suuraanval van 30–60 minute. https://www.actiononsugar.org/sugar-and-health/sugars-and-tooth-decay/ ; modelleringstudie, PMC5727185. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5727185/"
+      "bron": "GOSH (NHS): elke suikerblootstelling gee 'n suuraanval van tot 'n uur; Head, Devine en Marsh 2017, Scientific Reports (PMC5727185): by gewone innamevlakke bepaal frekwensie mee, en totale hoeveelheid en frekwensie werk saam. Die les se bewoording ('nie net hoeveel nie') stel albei, en oordryf nie dat frekwensie belangriker is nie - dit is presies wat die bewyse dra.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "By vetsug kry die liggaam lank meer energie uit enige kos as wat dit gebruik en stoor die res as liggaamsvet.",
+      "bewering": "By vetsug kry die liggaam lank meer energie uit enige kos as wat dit gebruik. Dit stoor die res as liggaamsvet.",
       "blok": "Tandbederf en vetsug",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "WHO: oorgewig en vetsug is abnormale of oormatige vetopgaring wat volg op 'n energiewanbalans (inname > verbruik). https://www.who.int/health-topics/obesity ; NHS, 'Obesity – causes': 'eating and drinking more than your body needs'. https://www.nhs.uk/conditions/obesity/causes/ . Die woord 'enige kos' is korrek: oortollige energie uit enige bron word as vet gestoor."
+      "bron": "IARC-handboek oor liggaamsvet (NCBI Bookshelf NBK591875): inname bo verbruik; Savage e.a. 2005, JCEM: oortollige energie word as trigliseriede in vetweefsel gestoor; NCBI NBK218769: ook koolhidraat- en proteïenoorskot word uiteindelik vet ('uit enige kos' is dus reg).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "'n Swak dieet kan bydra, maar beweging, slaap, familie en sommige medisyne speel ook 'n rol.",
       "blok": "Tandbederf en vetsug",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "CDC, 'Risk Factors for Obesity': gene, eetpatrone, fisieke aktiwiteit, slaaproetines en sekere medisyne. https://www.cdc.gov/obesity/risk-factors/risk-factors.html ; NHS noem uitdruklik gene en medisyne (steroïede, antidepressante, betablokkers). https://www.nhs.uk/conditions/obesity/causes/"
+      "bron": "CDC, 'Risk factors for obesity' (cdc.gov/obesity): gesondheidsgedrag insluitend min fisieke aktiwiteit en te min of swak slaap, sommige medisyne, gene, en omgewing.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "By diabetes beheer die liggaam die suiker in die bloed nie goed nie.",
+      "bewering": "By diabetes beheer die liggaam die suiker in die bloed nie goed nie. Daar is meer as een soort.",
       "blok": "Diabetes en skeurbuik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "CDC, 'About Type 1 Diabetes' en NIDDK: diabetes is 'n toestand waarin bloedglukose nie behoorlik gereguleer word nie. https://www.cdc.gov/diabetes/about/about-type-1-diabetes.html ; https://www.niddk.nih.gov/health-information/diabetes/overview/risk-factors-type-2-diabetes"
+      "bron": "British Heart Foundation, 'Diabetes' (bhf.org.uk): tipe 1 en tipe 2 beskryf as toestande waarin bloedsuiker nie behoorlik beheer word nie; International Diabetes Federation (worlddiabetesday.org) oor die verskillende soorte.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Daar is meer as een soort [diabetes].",
+      "bewering": "Die soort wat kinders gewoonlik kry, word nie deur kos of deur iets wat die kind gedoen het, veroorsaak nie.",
       "blok": "Diabetes en skeurbuik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "CDC onderskei tipe 1, tipe 2 en swangerskapsdiabetes. https://www.cdc.gov/diabetes/about/about-type-1-diabetes.html"
-    },
-    {
-      "bewering": "Die soort wat kinders gewoonlik kry, word nie deur kos of deur iets wat die kind gedoen het veroorsaak nie.",
-      "blok": "Diabetes en skeurbuik",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Tipe 1 is die algemeenste diabetessoort by kinders en word veroorsaak deur 'n outo-immuunreaksie, nie deur wat 'n kind eet of doen nie. CDC, 'About Type 1 Diabetes'. https://www.cdc.gov/diabetes/about/about-type-1-diabetes.html ; Children's Health (Dallas): 'It isn't caused by what your child eats or other lifestyle decisions.' https://www.childrens.com/health-wellness/what-is-the-best-diet-for-a-child-with-type-1-diabetes . NOTA: 'gewoonlik' is die regte versagting — tipe 2 kom toenemend ook by kinders voor."
+      "bron": "The Kids Research Institute Australia (thekids.org.au), 'Five things that may surprise you about T1D': tipe 1 is die algemeenste soort by kinders en word nie deur suiker, swak dieet of leefstyl veroorsaak nie; Dartmouth Children's: oorsaak is gene plus 'n onbekende sneller; BHF: oorsaak van tipe 1 onbekend. 'Gewoonlik' is 'n nodige en korrekte voorbehoud, want tipe 2 kom toenemend by kinders voor.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Die algemeenste soort is meer waarskynlik by mense wat lank te veel liggaamsvet het en min beweeg.",
       "blok": "Diabetes en skeurbuik",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Tipe 2 maak 90–95% van alle diabetesgevalle uit en oorgewig plus min fisieke aktiwiteit is die vernaamste risikofaktore. NIDDK, 'Risk Factors for Type 2 Diabetes'. https://www.niddk.nih.gov/health-information/diabetes/overview/risk-factors-type-2-diabetes ; oorsigartikel PMC4166864. https://pmc.ncbi.nlm.nih.gov/articles/PMC4166864/ . Die formulering 'meer waarskynlik' is reg — dit is 'n risiko, nie 'n sekerheid nie."
+      "bron": "International Diabetes Federation: tipe 2 is meer as 90% van alle diabetes (dus die algemeenste); BHF: risikofaktore sluit oortollige gewig/vetsug en fisieke onaktiwiteit in.",
+      "tipe": "superlatief"
     },
     {
       "bewering": "'n Swak dieet kan daartoe bydra, net soos familie en ouderdom.",
       "blok": "Diabetes en skeurbuik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "NIDDK lys familiegeskiedenis en ouderdom (risiko styg vanaf ± 45 jaar) saam met dieet en gewig as risikofaktore vir tipe 2. https://www.niddk.nih.gov/health-information/diabetes/overview/risk-factors-type-2-diabetes"
+      "bron": "BHF, 'Understanding type 2 diabetes': risikofaktore sluit 'n familiegeskiedenis van tipe 2 en ouer word in; die IDF noem ook dieet. 'Kan bydra' is korrek gehedge.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Die tekortsiekte skeurbuik kom as iemand lank te min vitamien C uit vars vrugte en groente kry.",
+      "bewering": "Die tekortsiekte skeurbuik kom as iemand lank te min vitamien C uit vars vrugte en groente kry. Sy tandvleis bloei, en wonde genees stadig.",
       "blok": "Diabetes en skeurbuik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Cleveland Clinic, 'Scurvy': skeurbuik is 'n ernstige vitamien C-tekort; die hoofoorsaak is om nie genoeg vrugte en groente te eet nie, en vroeë tekens verskyn na 4–12 weke. https://my.clevelandclinic.org/health/diseases/24318-scurvy ; Merck Manual, 'Vitamin C Deficiency'. https://www.merckmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-c-deficiency"
+      "bron": "Wikipedia 'Scurvy' (met kliniese verwysings) en Kansas Journal of Medicine-gevalverslag: skeurbuik ontstaan na ten minste 'n maand (gewoonlik 1-3 maande) met min of geen vitamien C; klassieke tekens sluit bloeiende tandvleis en swak wondgenesing in. Merriam-Webster gee skeurbuik as voorbeeld van 'n tekortsiekte. Letterlik gelees noem die sin vars vrugte en groente as die bron van die vitamien C; dit is die hoofbron (BfR), en die begrip 'skeurbuik' sê korrek net 'te min vitamien C'.",
+      "tipe": "naam"
     },
     {
-      "bewering": "Sy tandvleis bloei en wonde genees stadig.",
-      "blok": "Diabetes en skeurbuik",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Cleveland Clinic en Merck Manual gee geswolle, bloeiende tandvleis en swak wondgenesing as kenmerkende skeurbuiksimptome (vitamien C is nodig vir kollageenvorming). https://my.clevelandclinic.org/health/diseases/24318-scurvy ; https://www.merckmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-c-deficiency"
-    },
-    {
-      "bewering": "begrip 'dieet': Die kos en drank wat iemand gewoonlik elke dag eet en drink.",
+      "bewering": "dieet: Die kos en drank wat iemand gewoonlik elke dag eet en drink.",
       "blok": "begrip: dieet",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Stem ooreen met die beskrywende woordeboekbetekenis. https://dictionary.cambridge.org/dictionary/english/diet . Alleen gelees pas dit ook op 'n dier se dieet, wat eweneens korrek is."
+      "bron": "Merriam-Webster, 'diet': food and drink regularly provided or consumed. Alleen gelees korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'gebalanseerde dieet': Genoeg kos uit al vier voedselgroepe, plus water en vesel, sonder te veel van iets.",
+      "bewering": "gebalanseerde dieet: Genoeg kos uit al vier voedselgroepe, plus water en vesel, sonder te veel van iets.",
       "blok": "begrip: gebalanseerde dieet",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Ooreenstemmend met die voedingstofindeling (sewe klasse, met vitamiene en minerale saam getel) en met WHO se klem op hoeveelhede. https://www.open.edu/openlearncreate/mod/oucontent/view.php?id=315&printable=1 ; https://www.who.int/news-room/fact-sheets/detail/healthy-diet . Alleen gelees bly dit waar; dit is grade-gepas beperk tot hierdie indeling en nie tot die SA-voedselgids se sewe voedselgroepe nie."
+      "bron": "KABV-bewoording in die kaps_punt ('voldoende hoeveelhede van voedsel uit al vier voedselgroepe, asook water en vesel'); SA voedselgebaseerde dieetriglyne 2012 oor matigheid. Alleen gelees korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'voedingstof': 'n Stof wat 'n lewende ding nodig het om te groei en gesond te bly. Party voedingstowwe in kos gee ook energie.",
+      "bewering": "voedingstof: 'n Stof wat 'n lewende ding nodig het om te groei en gesond te bly. Party voedingstowwe in kos gee ook energie.",
       "blok": "begrip: voedingstof",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "National Geographic Education, 'Nutrient': 'n stof wat 'n organisme nodig het om te oorleef, groei en voortplant; Wikipedia/Cambridge stem ooreen, en makrovoedingstowwe lewer energie. https://education.nationalgeographic.org/resource/nutrient/ ; https://dictionary.cambridge.org/us/dictionary/english/nutrient . Alleen gelees is die eerste sin breed genoeg om ook water in te sluit (korrek — water is 'n voedingstof) en, streng gelees, ook suurstof (wat gewoonlik nie 'n voedingstof genoem word nie). Standaardwoordeboekdefinisies het dieselfde losheid; dit lei 'n leerder nie na iets valsies nie."
+      "bron": "Standaardomskrywing van 'nutrient' (Merriam-Webster: a substance that provides nourishment essential for growth and the maintenance of life); koolhidrate, vette en proteïene gee energie, vitamiene en minerale nie (NECT-volger). 'Party' is dus presies reg. Alleen gelees korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'energie': Wat nodig is om iets te laat gebeur, beweeg of werk.",
+      "bewering": "energie: Wat nodig is om iets te laat gebeur, beweeg of werk.",
       "blok": "begrip: energie",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Die skoolwetenskap-omskrywing is 'energie is die vermoë om arbeid te verrig / om iets te laat gebeur'; energie is inderdaad nodig vir enige verandering of beweging. https://stem.northeastern.edu/wp-content/uploads/2015/12/What-is-Energy.pdf ; https://my.clevelandclinic.org/health/articles/nutrition . NOTA vir die mens wat lees: alleen gelees omskryf die inskrywing energie aan wat dit moontlik maak en onderskei dit nie van die brandstof (kos) wat die energie dra nie. Dit is nie vals nie, maar dit is die losste inskrywing in die woordelys."
+      "bron": "Gangbare skoolomskrywing ('the ability to do work ... what makes things happen or move'); fisika-opvoeders (phys-l.org-argief) verkies 'iets laat gebeur' bo 'werk doen' vir beginners omdat dit ook warmte-oordrag dek. Aanvaarbaar as vereenvoudiging op Graad 6.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'vesel': Die deel van kos uit plante wat die liggaam meestal nie verteer nie.",
+      "bewering": "vesel: Die deel van kos uit plante wat die liggaam meestal nie verteer nie.",
       "blok": "begrip: vesel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Harvard Nutrition Source: dieetvesel is die deel van plantkos wat menslike verteringsensieme nie kan afbreek nie. https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/ . 'Meestal' is presies reg omdat darmbakterieë 'n deel fermenteer. Alleen gelees hou die inskrywing steeds; die enigste randgeval is chitien uit sampioene/skulpdiere wat soms as vesel getel word."
+      "bron": "British Nutrition Foundation: stowwe in plantkos wat nie volledig deur menslike verteringsensieme afgebreek kan word nie; Alimentarium: sommige vesel word in die dikderm deur bakterieë gefermenteer. 'Meestal' is 'n korrekte voorbehoud, en stem met 'nie self nie' in die studieblok. Alleen gelees korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'swak dieet': 'n Dieet wat oor 'n lang tyd te min of te veel van iets gee.",
+      "bewering": "swak dieet: 'n Dieet wat oor 'n lang tyd te min of te veel van iets gee.",
       "blok": "begrip: swak dieet",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "WHO se 'malnutrition in all its forms' dek beide tekort en oormaat. https://www.who.int/news-room/fact-sheets/detail/healthy-diet . Alleen gelees bly dit waar en dit word nie verwar met armoede nie."
+      "bron": "WHO-feiteblad 'Malnutrition': tekorte, oormaat of wanbalanse. Alleen gelees korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'kieme': Baie klein lewende dinge wat 'n mens siek kan maak.",
+      "bewering": "kieme: Baie klein lewende dinge wat 'n mens siek kan maak.",
       "blok": "begrip: kieme",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Nemours KidsHealth, 'What Are Germs?': 'tiny organisms, or living things, that can cause disease' — woordeliks dieselfde omskrywing, met bakterieë, virusse, swamme en protosoë as die vier soorte. https://kidshealth.org/en/kids/germs.html . NOTA vir die mens wat lees: alleen gelees dek die inskrywing ook virusse, wat wetenskaplik gewoonlik nie as lewend geklassifiseer word nie. Die gangbare gesondheidsopvoedkundige omskrywing sê nogtans 'living things', en die kieme in hierdie les is mondbakterieë, wat wel lewend is. 'Kan' is korrek gekwantifiseer — nie elke kiem maak siek nie."
+      "bron": "Dictionary.com/Collins, 'germ': a microorganism, especially when disease-producing. 'Kan' hou die omskrywing waar (nie elke mikro-organisme maak siek nie). Of virusse 'lewend' is, word wetenskaplik betwis, maar die woordeboekbetekenis is 'mikro-organisme', en in hierdie les gaan dit oor bakterieë op die tande, wat wel lewend is (GOSH noem plaakbakterieë 'germs').",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'tandbederf': Skade wat suur van kieme aan 'n tand doen, tot daar 'n gaatjie is.",
+      "bewering": "tandbederf: Skade wat suur van kieme aan 'n tand doen, tot daar 'n gaatjie is.",
       "blok": "begrip: tandbederf",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Tandkaries is die demineralisering van tandweefsel deur suur wat plaakbakterieë produseer, wat uiteindelik 'n holte vorm. https://en.wikipedia.org/wiki/Tooth_decay ; https://www.actiononsugar.org/sugar-and-health/sugars-and-tooth-decay/ . Alleen gelees onderskei dit korrek van suur-erosie deur drankies, want dit noem die kieme as die bron van die suur."
+      "bron": "GOSH (NHS), 'Tooth decay': suur van plaakbakterieë veroorsaak bederf of gaatjies. Alleen gelees beskryf dit die proses wat tot 'n gaatjie lei; korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'vetsug': Wanneer die liggaam oor 'n lang tyd baie ekstra liggaamsvet opgaar.",
+      "bewering": "vetsug: 'n Toestand waarby die liggaam lank baie ekstra liggaamsvet opgaar.",
       "blok": "begrip: vetsug",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "WHO: vetsug is 'abnormal or excessive fat accumulation'. https://www.who.int/health-topics/obesity . NOTA: die inskrywing laat WHO se 'wat 'n gesondheidsrisiko inhou' en die BMI-drempel weg; dit is 'n grade-gepaste vereenvoudiging en nie 'n onwaarheid nie."
+      "bron": "WHO-omskrywing soos in sekondêre bronne weergegee (core.ac.uk; IARC-handboek, NCBI NBK591875): 'abnormal or excessive fat accumulation that presents a risk to health'. Alleen gelees korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'diabetes': 'n Siekte waarby die liggaam die suiker in die bloed nie goed beheer nie.",
+      "bewering": "diabetes: 'n Siekte waarby die liggaam die suiker in die bloed nie goed beheer nie.",
       "blok": "begrip: diabetes",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "CDC en NIDDK omskryf diabetes as 'n toestand waarin bloedglukose te hoog is omdat insulien ontbreek of nie behoorlik werk nie. https://www.cdc.gov/diabetes/about/about-type-1-diabetes.html ; https://www.niddk.nih.gov/health-information/diabetes/overview/risk-factors-type-2-diabetes . Alleen gelees bly dit waar vir albei hooftipes."
+      "bron": "BHF en IDF oor diabetes as toestand van gebrekkige bloedsuikerbeheer. Alleen gelees korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'tekortsiekte': 'n Siekte wat kom as die liggaam lank te min van een voedingstof kry.",
+      "bewering": "tekortsiekte: 'n Siekte wat kom as die liggaam lank te min van een of meer voedingstowwe kry.",
       "blok": "begrip: tekortsiekte",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Merriam-Webster, 'deficiency disease': 'n siekte veroorsaak deur 'n gebrek aan 'n noodsaaklike dieetelement, veral 'n vitamien of mineraal. https://www.merriam-webster.com/dictionary/deficiency%20disease ; Britannica, 'Nutritional disease'. https://www.britannica.com/science/nutritional-disease . NOTA: 'een voedingstof' lees as 'n enkele (nie: slegs een) voedingstof; in die praktyk kom tekorte dikwels saam voor."
+      "bron": "Merriam-Webster, 'deficiency disease' (kinderomskrywing: a lack of one or more essential substances in the diet, such as a vitamin or mineral). Alleen gelees korrek.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "begrip 'skeurbuik': 'n Tekortsiekte wat kom as iemand lank te min vitamien C kry.",
+      "bewering": "skeurbuik: 'n Tekortsiekte wat kom as iemand lank te min vitamien C kry.",
       "blok": "begrip: skeurbuik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Cleveland Clinic, 'Scurvy' en Merck Manual, 'Vitamin C Deficiency'. https://my.clevelandclinic.org/health/diseases/24318-scurvy ; https://www.merckmanuals.com/professional/nutritional-disorders/vitamin-deficiency-dependency-and-toxicity/vitamin-c-deficiency . Alleen gelees bly dit korrek en volledig."
+      "bron": "Wikipedia 'Scurvy' en Merriam-Webster 'deficiency disease' (skeurbuik as voorbeeld). Alleen gelees korrek.",
+      "tipe": "naam"
+    },
+    {
+      "bewering": "Titel: 'Van alles, in die regte hoeveelhede'.",
+      "blok": "titel",
+      "status": "bevestig",
+      "bron": "Beeldspraak vir 'n gebalanseerde dieet; in die les beteken 'alles' al vier groepe plus water en vesel, en 'regte hoeveelhede' stem met 'voldoende hoeveelhede' in die KABV en die 'sparingly'-riglyne (SA voedselgebaseerde dieetriglyne 2012) vir suiker, sout en vet. Die afbeelding hou binne die les; dit sê nie dat 'n mens elke soort kos nodig het nie.",
+      "tipe": "analogie"
     }
   ],
-  "opsomming": "Al vyftig nagegane bewerings is teen bronne bevestig — niks weerspreek, niks onseker; die les bevat geen eli10-blok of analogie nie, en die twee superlatiewe (tipe 1 as die soort wat kinders gewoonlik kry, tipe 2 as die algemeenste soort) hou albei, terwyl die drie punte wat 'n mens dalk wil sien indelingskonvensies eerder as foute is: 'vier voedselgroepe' is een erkende indeling (die SA-voedselgids gebruik sewe voedselgroepe) wat die les self hedge, 'sit elke kos in die een groep' is 'n groepskonvensie en nie 'n stelling dat 'n kos net een voedingstof bevat nie, en die begrip 'energie' is die losste inskrywing omdat dit energie nie van die kos wat dit dra onderskei nie."
+  "opsomming": "Al 46 bewerings bevestig, insluitend die vier voedselgroepe as 'n stel, elke begrip-inskrywing alleen gelees, die twee superlatiewe ('vernaamste', 'algemeenste') en die beeldspraak; die enigste ding wat 'n mens se oog verdien, is dat suikerbone volgens massa meer koolhidraat as proteïen bevat, sodat hul plek by proteïene 'n gangbare indeling is en nie 'n meting nie, wat die les eerlik aanbied deur na 'die lys van voedselgroepe' te verwys."
 }

@@ -1,0 +1,75 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n eienskap is",
+      "voor": "Skeur 'n derde stuk van die rand af en kyk",
+      "na": "Probeer om 'n derde stuk van die rand af te skeur en kyk",
+      "soort": "sinsbou",
+      "rede_vinder": "An order to tear the piece and then check whether it stays whole contradicts itself; 'probeer' matches the earlier 'probeer dit buig' and leaves the protected 'van die rand af' intact.",
+      "fout": "The order to tear a piece and then check whether it stays whole contradicts itself, since a strong material does not tear.",
+      "rede_keurder": "'Probeer om ... te skeur' makes the instruction coherent, matches 'probeer dit buig' in the same lesson, and leaves the protected 'van die rand af' intact."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n eienskap is",
+      "voor": "wanneer jy optel, buig of trek",
+      "na": "wanneer jy hulle optel, buig of trek",
+      "soort": "grammatika",
+      "rede_vinder": "The transitive verbs need an object; the lesson's later sentence uses 'wanneer jy hulle optel' the same way.",
+      "fout": "'wanneer jy optel' lacks its object and can be read as adding up numbers.",
+      "rede_keurder": "Adding 'hulle' gives the verbs their object, matches the later 'wanneer jy hulle optel', and changes nothing in meaning."
+    },
+    {
+      "nr": 5,
+      "blok": "Een materiaal met verskeie eienskappe",
+      "voor": "Nou het jy die glas beskryf en nie net een woord daaroor gesê nie.",
+      "na": "Nou het jy die glas met meer as een woord beskryf.",
+      "soort": "sinsbou",
+      "rede_vinder": "The 'and not just said one word about it' tail is clumsy; the shorter sentence says the same thing directly.",
+      "fout": "The negative tail 'en nie net een woord daaroor gesê nie' is clumsy for a closing sentence.",
+      "rede_keurder": "The shorter sentence says the same thing directly and is easier for a Grade 4 reader, with no fact added or lost."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "Waterdig of absorberend",
+      "voor": "trek water by homself in en hou dit vas",
+      "na": "trek water in en hou dit vas",
+      "soort": "woordkeuse",
+      "rede_vinder": "'by homself' is wooden and adds nothing, since 'intrek' already means drawing into itself; belongs with the matching glossary change for 'absorberend', so apply both or neither.",
+      "fout": "'by homself' is redundant and slightly wooden next to 'intrek'.",
+      "rede_keurder": "The study sentence deliberately mirrors the 'absorberend' glossary definition, which only the writer may reword, so the pair must be changed together by the writer or not at all.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 4,
+      "blok": "absorberend",
+      "voor": "water by homself intrek en dan nat word",
+      "na": "water intrek en dan nat word",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same wooden 'by homself' as in the study text; apply together with that change so the two wordings stay alike.",
+      "fout": "'by homself' is redundant and slightly wooden next to 'intrek'.",
+      "rede_keurder": "This rewords a glossary definition beyond a spelling or grammar fix, which goes through the writer for every lesson that uses it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Hard of sag; Styf of buigbaar; Sterk of swak; Waterdig of absorberend",
+      "teks": "Druk op 'n droë stuk hout en jy maak geen duik daarin nie.",
+      "rede": "Several sentences join an imperative to a clause with its own subject by 'en' without a comma; the imperative has no stated subject, so I left them as they are, but the reviewer may want to confirm the house reading of the AWS rule for this pattern."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 814,
+  "woorde_na": 815,
+  "wanneer": "2026-10-22T17:25:34+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ccb451adaf348dcbef184af6c0842e0d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e017525e4b4ce37078e1c8bd58d90701"
+}
