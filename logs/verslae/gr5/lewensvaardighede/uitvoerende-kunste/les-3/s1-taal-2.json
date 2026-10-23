@@ -1,0 +1,107 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Gumboot-dans: hoe dit lyk en klink",
+      "voor": "en klap hulle hande",
+      "na": "en klap hande",
+      "soort": "idioom",
+      "rede_vinder": "'Hande klap' is the idiomatic form and avoids repeating 'hulle hande' from the same sentence.",
+      "fout": "'hulle hande' appears twice in one sentence, and 'klap hulle hande' is stiffer than the fixed expression 'hande klap'.",
+      "rede_keurder": "The idiomatic 'klap hande' removes the repetition without changing who does what."
+    },
+    {
+      "nr": 2,
+      "blok": "Gumboot-dans: waar en waarom",
+      "voor": "want gumboots is die Engelse woord",
+      "na": "want 'gumboots' is die Engelse woord",
+      "soort": "leestekens",
+      "rede_vinder": "A word cited as a word is marked with quotation marks.",
+      "fout": "The English word is cited as a word but not marked as one.",
+      "rede_keurder": "Marking a word cited as a word with quotation marks is a plain punctuation fix and leaves the protected 'Gumboot-dansers' untouched."
+    },
+    {
+      "nr": 6,
+      "blok": "warm sitplek",
+      "voor": "en antwoord die groep se vrae",
+      "na": "en beantwoord die groep se vrae",
+      "soort": "grammatika",
+      "rede_vinder": "With a direct object the verb is 'beantwoord'; 'antwoord' takes 'op'.",
+      "fout": "'antwoord' with a direct object ('die groep se vrae') is non-standard; the transitive verb is 'beantwoord'.",
+      "rede_keurder": "A plain grammar fix that keeps the meaning and leaves the protected 'In drama:', 'bly in karakter' and 'warm sitplek' intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "karakter",
+      "voor": "opgemaakte wese",
+      "na": "versinde wese",
+      "soort": "anglisisme",
+      "rede_vinder": "'Opgemaakte' echoes English 'made-up'; 'versinde' is the standard Afrikaans word.",
+      "fout": "none",
+      "rede_keurder": "'Opgemaakte' is established, plain Afrikaans (as in 'n opgemaakte storie'), while 'versinde' is harder for a Grade 5 reader and rewords a glossary definition for no clear gain."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "doel",
+      "voor": "Waarom mense 'n dans dans",
+      "na": "Waarom mense 'n dans uitvoer",
+      "soort": "woordkeuse",
+      "rede_vinder": "'n dans dans' is a clumsy repetition; 'uitvoer' keeps the meaning.",
+      "fout": "'n dans dans' is a clumsy repetition in a glossary definition.",
+      "rede_keurder": "The fault is real, but this is a glossary definition and 'uitvoer' narrows it to performing for others, which loses dancing to relax or celebrate together, so the writer must fix it another way.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 5,
+      "blok": "rolspel",
+      "voor": "soos daardie karakter sou.",
+      "na": "soos daardie karakter dit sou doen.",
+      "soort": "sinsbou",
+      "rede_vinder": "Ending on a bare 'sou' copies English ellipsis ('as that character would'); Afrikaans needs the verb.",
+      "fout": "The definition ends on a bare 'sou', an elliptical construction that echoes English 'as that character would'.",
+      "rede_keurder": "This is a sentence-construction change to a glossary definition, beyond a plain spelling or grammar error, so the writer owns the rewording.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Gumboot-dans: hoe dit lyk en klink",
+      "teks": "Dan volg die span dikwels die maat wat die musikante speel.",
+      "rede": "'Maat' here means the beat or tempo, but a protected entry notes that in music 'maat' is a group of beats and the glossary uses 'maat' for a partner; whether 'ritme' is meant is a content choice, so not changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 391,
+  "woorde_na": 390,
+  "wanneer": "2026-10-23T17:26:20+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 7,
+      "blok": "Die twee danse langs mekaar",
+      "voor": "Langs mekaar wys die drie punte hoe verskillend die twee danse is.",
+      "na": "Die drie punte wys hoe verskillend die twee danse langs mekaar is.",
+      "soort": "sinsbou",
+      "rede_vinder": "As written, 'langs mekaar' attaches to the three points rather than the two dances; the reorder fixes the reference without adding words.",
+      "fout": "none",
+      "rede_keurder": "The fronted 'Langs mekaar' reads naturally and echoes the heading; the reorder is a lateral move that now suggests the dances stand physically side by side."
+    },
+    {
+      "nr": 11,
+      "blok": "Die twee danse langs mekaar",
+      "voor": "Dit is die klem en nie die enigste",
+      "na": "Dit is die klem, nie die enigste",
+      "soort": "sinsbou",
+      "rede_vinder": "'en nie' makes the contrast read like an addition; a comma states the contrast directly and saves a word.",
+      "fout": "none",
+      "rede_keurder": "'Dit is die klem en nie die enigste ...' is ordinary natural Afrikaans; the comma version is only different."
+    }
+  ],
+  "konsep_hash_voor": "sha256:8b9da8ee2ea26a62f30e7ac5fed4c367",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:6204f2eaeeb1a1b8a728e26e287919ab"
+}

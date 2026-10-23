@@ -1,0 +1,168 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die bottel en die plek",
+      "voor": "Die deksel bly toe en die houer staan hoog",
+      "na": "Die deksel bly toe, en die houer staan hoog",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb, so a comma goes before it.",
+      "fout": "Missing AWS comma between two clauses that each have their own subject and verb.",
+      "rede_keurder": "'Die deksel bly toe' and 'die houer staan hoog' are two full clauses joined by 'en', so AWS 2017 requires the comma."
+    },
+    {
+      "nr": 5,
+      "blok": "As iemand iets gesluk het",
+      "voor": "teen die vel vas en die water spoel swak",
+      "na": "teen die vel vas, en die water spoel swak",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: two clauses with their own subject and verb joined by 'en' take a comma.",
+      "fout": "Missing AWS comma between two clauses that each have their own subject and verb.",
+      "rede_keurder": "'Nat klere hou ... vas' and 'die water spoel swak' are two full clauses joined by 'en', so the comma is required."
+    },
+    {
+      "nr": 7,
+      "blok": "As iemand iets gesluk het",
+      "voor": "op jou eie hande en 'n grootmens moet dus help",
+      "na": "op jou eie hande, en 'n grootmens moet dus help",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses that each have their own subject and verb.",
+      "rede_keurder": "'Die goed kom ... op jou eie hande' and ''n grootmens moet dus help' are two full clauses joined by 'en', so the comma is required."
+    },
+    {
+      "nr": 8,
+      "blok": "As iemand iets gesluk het",
+      "voor": "spoel dit dadelik met baie skoon water",
+      "na": "spoel die oog dadelik met baie skoon water",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' can refer to 'iets' (the substance) rather than the eye; naming the eye removes the ambiguity.",
+      "fout": "'dit' can point to 'iets' (the substance) rather than the eye.",
+      "rede_keurder": "Naming the eye removes the ambiguity without changing the instruction, which the next sentences already make about the eye."
+    },
+    {
+      "nr": 9,
+      "blok": "Hoe 'n brand begin",
+      "voor": "Party huise kook of verhit",
+      "na": "Party huishoudings kook of verwarm",
+      "soort": "woordkeuse",
+      "rede_vinder": "Houses do not cook, and 'verhit' needs an object; 'huishoudings ... verwarm' is the natural usage, same word count.",
+      "fout": "Houses do not cook, and intransitive 'verhit' can read as 'overheat'.",
+      "rede_keurder": "'Party huishoudings kook of verwarm' is the natural usage with the same meaning and word count, and the protected 'paraffien' is untouched."
+    },
+    {
+      "nr": 11,
+      "blok": "Buite die huis",
+      "voor": "tel dit nie op nie",
+      "na": "moenie dit optel nie",
+      "soort": "grammatika",
+      "rede_vinder": "A negative command takes 'moenie'; 'tel dit nie op nie' without a subject is not a correct imperative.",
+      "fout": "A negative command without a subject needs 'moenie'; 'tel dit nie op nie' is not a correct imperative.",
+      "rede_keurder": "'moenie dit optel nie' is the grammatical form of the same instruction, with nothing added or lost."
+    },
+    {
+      "nr": 12,
+      "blok": "Buite die huis",
+      "voor": "Moenie dit probeer blus of doodslaan nie",
+      "na": "Moenie die vuur probeer blus of doodslaan nie",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' follows 'die veld' and reads as the veld; the thing not to put out is the fire.",
+      "fout": "'dit' follows 'die veld' and reads as the veld, which cannot be put out or beaten.",
+      "rede_keurder": "Naming the fire fixes the pronoun without changing the instruction, and the protected 'As die veld brand' stays intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Goed in die huis wat skade doen",
+      "voor": "Jy ruik en proe nie",
+      "na": "Jy ruik of proe nie",
+      "soort": "grammatika",
+      "rede_vinder": "Under a negative, 'of' makes clear that neither action is allowed; 'en' can read as 'not both together'.",
+      "fout": "none",
+      "rede_keurder": "In Afrikaans 'ruik en proe nie' under one negation already means neither, so the swap to 'of' is a lateral move in a safety sentence."
+    },
+    {
+      "nr": 4,
+      "blok": "As iemand iets gesluk het",
+      "voor": "begin dadelik spoel met baie skoon lopende water",
+      "na": "begin dadelik met baie skoon lopende water spoel",
+      "soort": "woordorde",
+      "rede_vinder": "Standard Afrikaans puts the infinitive verb at the end after 'begin'.",
+      "fout": "none",
+      "rede_keurder": "Placing the prepositional phrase after 'spoel' is normal, natural Afrikaans, so moving the verb is a lateral change inside a safety instruction."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "Medisyne help, maar net vir die regte mens",
+      "voor": "Medisyne word ook hoog en toe weggebêre",
+      "na": "Medisyne word ook toegemaak en hoog weggebêre",
+      "soort": "woordkeuse",
+      "rede_vinder": "'hoog en toe weggebêre' is awkward and 'toe' can be read as 'then'; same word count, same meaning.",
+      "fout": "'hoog en toe weggebêre' is awkward and 'toe' can be misread as 'then'.",
+      "rede_keurder": "The fault is real, but this is the storage safety instruction and the proposal rewords and reorders it, so the writer owns the fix.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 6,
+      "blok": "As iemand iets gesluk het",
+      "voor": "Die klere kom uit terwyl",
+      "na": "Die klere word uitgetrek terwyl",
+      "soort": "idioom",
+      "rede_vinder": "'kom uit' can read as 'come out'; 'word uitgetrek' says plainly that the clothes are taken off, without naming who does it.",
+      "fout": "'Die klere kom uit' is loose and does not plainly say the clothes are taken off.",
+      "rede_keurder": "The vagueness is real, but this is a first-aid instruction (what to do, while rinsing), so the writer should choose the wording.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 10,
+      "blok": "As daar vuur is",
+      "voor": "Stap nooit terug in vir iets",
+      "na": "Gaan nooit weer in om iets te haal",
+      "soort": "anglisisme",
+      "rede_vinder": "'terug in vir iets' copies English 'go back in for something'; the Afrikaans needs 'om iets te haal'.",
+      "fout": "'Stap nooit terug in vir iets' copies English 'go back in for something'.",
+      "rede_keurder": "The anglicism is real, but the fix rewords a fire-safety instruction (new verb, 'weer', 'om ... te haal'), so it goes to the writer.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 13,
+      "blok": "bleikmiddel",
+      "voor": "'n Sterk skoonmaakgoed",
+      "na": "'n Sterk skoonmaakmiddel",
+      "soort": "woordkeuse",
+      "rede_vinder": "'skoonmaakgoed' is a collective noun and does not take 'n'; 'skoonmaakmiddel' is the correct singular.",
+      "fout": "'skoonmaakgoed' is a collective noun and sits awkwardly after ''n'.",
+      "rede_keurder": "This is a glossary definition and the fix swaps a noun rather than a plain spelling, so the writer must change it for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Medisyne help, maar net vir die regte mens",
+      "teks": "Medisyne is 'n middel wat siekte of pyn behandel, of keer dat 'n mens siek word.",
+      "rede": "This sentence restates the protected word-for-word definition of 'medisyne' but drops 'help om ... te' (the protection's reason stresses that medicine HELPS). Not changed, because it touches a decided shared definition; a person or the writer should decide whether the study text must match the glossary wording."
+    },
+    {
+      "blok": "etiket",
+      "teks": "Die merk of plakker op 'n houer wat sê wat binne-in is.",
+      "rede": "The protected entry withdrew 'die etiket sê wat' because a refilled bottle keeps its old label, which is this lesson's main example; this definition states that the label says what is inside. Not the withdrawn words exactly, so not a safety flag, but the meaning sits close to it and may contradict the lesson's own point. Content decision, not changed."
+    },
+    {
+      "blok": "As iemand iets gesluk het",
+      "teks": "Spoel die vel en die oog altwee ten minste vyftien tot twintig minute lank.",
+      "rede": "'ten minste' with a range ('vyftien tot twintig') is logically unclear: the minimum is one number. Fixing it needs the intended duration, which is a safety fact, so it is left for the writer."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 597,
+  "woorde_na": 598,
+  "wanneer": "2026-10-23T16:39:31+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:d6203863eb5f74838bfb167ed34a1ed2",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:058b49deddf017e62a318391d0b899a3"
+}

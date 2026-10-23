@@ -1,37 +1,37 @@
 {
-  "verdict": "FAIL",
+  "verdict": "PASS",
   "titel": "Kyk 'n drama met oop oë",
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 380,
-  "checked_at": "2026-09-22T09:01:42+00:00",
+  "begrotingsreel": "default ±15%: 323-437",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T19:17:03+00:00",
   "study": {
-    "words": 512,
-    "sentences": 40,
+    "words": 436,
+    "sentences": 34,
     "mean_sentence_len": 12.8,
-    "median_sentence_len": 12.5,
+    "median_sentence_len": 13.0,
     "longest_sentence": 22,
-    "mean_syllables": 1.43,
-    "pct_polysyllabic": 8.2,
-    "pct_long_words": 0.8,
-    "commas_per_sentence": 0.4
+    "mean_syllables": 1.47,
+    "pct_polysyllabic": 10.1,
+    "pct_long_words": 0.9,
+    "commas_per_sentence": 0.41
   },
   "eli10": null,
   "block_counts": {
     "studie": 5,
-    "begrip": 10
+    "begrip": 23
   },
   "misspelled": [],
-  "failures": [
-    "Study text 512 words, above budget ceiling 437 (target 380) — learners will revise the textbook instead",
-    "Study text: 0.4 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
-  ],
+  "failures": [],
   "warnings": [
-    "Study block 1 ('Die oomblikke waarop die storie ') 126 words (guide 30–110) — will overflow its section",
-    "Long words in study text with no 'begrip' entry: hoofmomente, klankeffekte"
+    "Study block 3 ('Waarom die makers 'n tegniek geb') 125 words (guide 30–110) — will overflow its section",
+    "Study text: 0.41 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: byvoorbeeld"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

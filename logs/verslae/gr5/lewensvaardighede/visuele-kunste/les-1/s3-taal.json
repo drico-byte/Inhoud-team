@@ -1,0 +1,97 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "'n Liggaam in aksie",
+      "voor": "in foto's en kunswerke en werklike voorwerpe",
+      "na": "in foto's, kunswerke en werklike voorwerpe",
+      "soort": "sinsbou",
+      "rede_vinder": "A list of three reads more naturally with a comma than with a repeated 'en'.",
+      "fout": "The repeated 'en ... en' in a plain list of three reads stiffly.",
+      "rede_keurder": "A comma list is the natural Afrikaans form here and the three items are unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Komplementêre kleure",
+      "voor": "Rooi se maat is groen en jy meng",
+      "na": "Rooi se maat is groen, en jy meng",
+      "soort": "leestekens",
+      "rede_vinder": "AWS: a comma before 'en' when it joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have a subject and verb.",
+      "rede_keurder": "'Rooi se maat is groen' and 'jy meng groen uit geel en blou' are full clauses, so the AWS comma is required."
+    },
+    {
+      "nr": 4,
+      "blok": "Klem en die fokuspunt",
+      "voor": "Dit kan ook die voet wees wat skop of die speler se gesig.",
+      "na": "Dit kan ook die speler se gesig of die voet wees wat skop.",
+      "soort": "woordorde",
+      "rede_vinder": "As it stands, 'wat skop of die speler se gesig' can be misread as the foot kicking the player's face; the new order removes that reading.",
+      "fout": "The trailing 'of die speler se gesig' after 'wat skop' can be read as the foot kicking the face.",
+      "rede_keurder": "The new order removes the misreading and keeps the same two options."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoe klem gemaak word",
+      "voor": "maak klem met die kunselemente",
+      "na": "skep klem met die kunselemente",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Klem skep' is the more natural collocation than 'klem maak'; the protected term 'klem' stays.",
+      "fout": "'Klem maak' is a weak, unidiomatic verb for creating emphasis.",
+      "rede_keurder": "'Klem skep' is the natural collocation, and the protected word 'klem' stays as it is."
+    },
+    {
+      "nr": 6,
+      "blok": "'n Werklike voorwerp van naby",
+      "voor": "Een been is ver vorentoe en die ander een is agter.",
+      "na": "Een been is ver vorentoe, en die ander een is agtertoe.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma between two full clauses, and 'agtertoe' matches 'vorentoe' as a direction.",
+      "fout": "Missing AWS comma between two full clauses, and 'agter' breaks the parallel with the direction word 'vorentoe'.",
+      "rede_keurder": "Both legs are still described in the same positions, and the comma and 'agtertoe' make the pair read naturally."
+    },
+    {
+      "nr": 7,
+      "blok": "'n Werklike voorwerp van naby",
+      "voor": "trek dikwels eerste die oog",
+      "na": "trek die oog dikwels eerste",
+      "soort": "woordorde",
+      "rede_vinder": "More natural word order with the object straight after the verb; the protected 'dikwels' stays.",
+      "fout": "Putting the adverbs before the definite object in 'trek ... die oog' reads stiffly.",
+      "rede_keurder": "'Trek die oog dikwels eerste' is the natural order, and the protected 'dikwels' keeps its place in the sentence and its scope."
+    },
+    {
+      "nr": 8,
+      "blok": "Jou eie werk en 'n maat s'n",
+      "voor": "Gebruik dieselfde drie stappe op",
+      "na": "Pas dieselfde drie stappe toe op",
+      "soort": "anglisisme",
+      "rede_vinder": "'Gebruik ... op' echoes English 'use on'; Afrikaans says 'toepas op'.",
+      "fout": "'Gebruik ... op' copies the English 'use on'.",
+      "rede_keurder": "'Toepas op' is the Afrikaans expression, and the protected 'model' and the meaning are unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "'n Liggaam in aksie",
+      "voor": "die woorde uit Graad 4 soos lyn",
+      "na": "die woorde uit Graad 4, soos lyn",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before 'soos' marks the examples off and keeps 'Graad 4 soos lyn' from running together.",
+      "fout": "none",
+      "rede_keurder": "No reader runs 'Graad 4 soos lyn' together, the comma is optional, and the shared kunselemente definition uses 'soos lyn' without one."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 525,
+  "woorde_na": 525,
+  "wanneer": "2026-10-23T17:03:59+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:7c20c72ff4ab9cfbdfbc3d970e3dfd1e",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:21605254ecbb94c31abd7c035b0bf74d"
+}

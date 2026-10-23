@@ -1,0 +1,84 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die pyp in die straat",
+      "voor": "Oom Gerrit het oor die heining gesê",
+      "na": "Oom Gerrit het oor die heining heen gesê",
+      "soort": "sinsbou",
+      "rede_vinder": "'oor die heining gesê' can be read as 'said about the fence'; 'heen' makes clear he spoke across it.",
+      "fout": "'oor die heining gesê' can first be read as 'said about the fence' before the reported clause arrives.",
+      "rede_keurder": "'oor die heining heen' fixes the momentary misreading and keeps the same meaning: he spoke across the fence."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die pyp in die straat",
+      "voor": "Mans het naby die hoek",
+      "na": "Werkers het naby die hoek",
+      "soort": "woordkeuse",
+      "rede_vinder": "A bare 'Mans' at the start of the sentence reads abrupt; 'Werkers' is the natural word for the people repairing the pipe.",
+      "fout": "none",
+      "rede_keurder": "'Mans' is natural Afrikaans, and 'Werkers' swaps in a role the text never states and drops the information that they were men, so the meaning moves."
+    },
+    {
+      "nr": 3,
+      "blok": "Die pyp in die straat",
+      "voor": "Water gaan eerste na drink en kos",
+      "na": "Water is eerstens vir drink en kos",
+      "soort": "idioom",
+      "rede_vinder": "'gaan eerste na drink' is wooden; 'is eerstens vir' states the priority naturally.",
+      "fout": "none",
+      "rede_keurder": "The original is Ma's spoken rule and fits the parallel 'Daarna kry hande water'; 'eerstens' is an enumerating word and reads stiffer, so this is not clearly better."
+    },
+    {
+      "nr": 4,
+      "blok": "Die pyp in die straat",
+      "voor": "dit moet die dag hou",
+      "na": "dit moet die dag uithou",
+      "soort": "idioom",
+      "rede_vinder": "'uithou' is the idiomatic verb for a supply that must last a period of time.",
+      "fout": "none",
+      "rede_keurder": "'hou' for a supply that must last is ordinary Afrikaans ('die kos moet die week hou'), so 'uithou' is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die pyp in die straat",
+      "teks": "Thandi en haar maat Lerato het elke slag ses vol bottels gedra.",
+      "rede": "The previous sentences put the bottles in a crate on a wheelbarrow, so 'gedra' (carried) may not match what happened; whether they carried them by hand or pushed the wheelbarrow cannot be settled without guessing the intended content."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 501,
+  "woorde_na": 502,
+  "wanneer": "2026-10-23T18:45:39+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Die pyp in die straat",
+      "voor": "Ma het die reëls daardie aand hardop gesê sodat almal hulle ken.",
+      "na": "Daardie aand het Ma die reëls hardop gesê sodat almal dit sou ken.",
+      "soort": "sinsbou",
+      "rede_vinder": "Time phrase first reads more naturally, and the purpose clause should follow the past tense of the main clause.",
+      "fout": "none",
+      "rede_keurder": "The original reads naturally; moving the time phrase is a lateral reorder and 'sou ken' is stiffer than the present 'ken'."
+    },
+    {
+      "nr": 8,
+      "blok": "Die pyp in die straat",
+      "voor": "Die volgende rit het hom weer volgemaak.",
+      "na": "Met die volgende rit het hulle hom weer volgemaak.",
+      "soort": "sinsbou",
+      "rede_vinder": "A trip cannot fill a bucket; the people did it, and 'weer volgemaak' stays intact.",
+      "fout": "none",
+      "rede_keurder": "The compressed 'Die volgende rit het hom weer volgemaak' is acceptable in a story, and the proposal introduces an unspecified 'hulle' with no clear antecedent in the paragraph."
+    }
+  ],
+  "konsep_hash_voor": "sha256:3a70c714d98f59c9ec9f043632edb5d8",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c2fa6a6238605a43f5ee654743c5ae51"
+}

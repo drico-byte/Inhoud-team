@@ -4,18 +4,21 @@
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 500,
-  "checked_at": "2026-09-19T18:23:01+00:00",
+  "begrotingsreel": "default ±15%: 425-575",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T18:21:23+00:00",
   "study": {
-    "words": 535,
-    "sentences": 36,
-    "mean_sentence_len": 12.4,
-    "median_sentence_len": 12.0,
-    "longest_sentence": 16,
-    "mean_syllables": 1.32,
-    "pct_polysyllabic": 4.2,
-    "pct_long_words": 0.7,
-    "commas_per_sentence": 0.17,
-    "list_words": 87
+    "words": 501,
+    "sentences": 33,
+    "mean_sentence_len": 11.9,
+    "median_sentence_len": 11,
+    "longest_sentence": 26,
+    "mean_syllables": 1.33,
+    "pct_polysyllabic": 4.6,
+    "pct_long_words": 0.5,
+    "commas_per_sentence": 0.3,
+    "list_words": 107
   },
   "eli10": null,
   "block_counts": {
@@ -26,10 +29,12 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: polisiestasie, waarskuwing"
+    "Study block 2 ('Glo wat jy self voel') only 29 words (guide 30–110)",
+    "Study block 4 ('Wat jy doen as dit begin') 119 words (guide 30–110) — will overflow its section",
+    "List 'Maniere om geweld te vermy' item 5: 21 words (guide 18) — consider tightening",
+    "Long words in study text with no 'begrip' entry: polisiestasie"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

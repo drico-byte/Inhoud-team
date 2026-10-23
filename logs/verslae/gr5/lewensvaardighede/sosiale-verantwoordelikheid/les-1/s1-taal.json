@@ -1,0 +1,95 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wanneer 'n kind se regte geskend word",
+      "voor": "speel nie en die rede hou nie.",
+      "na": "speel nie, en die rede hou nie steek nie.",
+      "soort": "idioom",
+      "rede_vinder": "The Afrikaans idiom is 'hou nie steek nie' ('hou nie' alone echoes English 'does not hold'), and two clauses with their own subject and verb take an AWS comma before 'en'.",
+      "fout": "'die rede hou nie' copies English 'does not hold'; the Afrikaans idiom is 'hou nie steek nie', and the two clauses lack the AWS comma before 'en'.",
+      "rede_keurder": "Restores the fixed expression and adds the required AWS comma without changing what the sentence says."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat jy kan doen",
+      "voor": "dag en nag oop en iemand",
+      "na": "dag en nag oop, en iemand",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Die lyn is ... oop' / 'iemand luister').",
+      "rede_keurder": "Punctuation only; the wording of the instruction is unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat jy kan doen",
+      "voor": "om te vertel en die grootmense",
+      "na": "om te vertel, en die grootmense",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb ('Jou werk is' / 'die grootmense se werk is').",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Jou werk is' / 'die grootmense se werk is').",
+      "rede_keurder": "Punctuation only; the protected word 'vertel' stays intact."
+    },
+    {
+      "nr": 6,
+      "blok": "Planne wat mense saam maak",
+      "voor": "Eers sien die nuwe seun se klas raak",
+      "na": "Eers sien die nuwe seun se klas dit raak",
+      "soort": "sinsbou",
+      "rede_vinder": "The separable verb 'raaksien' needs an object here; without 'dit' the sentence can be misread as an instruction to notice the class.",
+      "fout": "'sien ... raak' without an object makes a reader stumble and can read as an instruction to notice the class.",
+      "rede_keurder": "Adding 'dit' makes the class clearly the subject who notices the violation, with no change in meaning."
+    },
+    {
+      "nr": 7,
+      "blok": "Wie wat doen in die plan",
+      "voor": "die plan by wie hulle",
+      "na": "die plan vir wie hulle",
+      "soort": "grammatika",
+      "rede_vinder": "'vertel' takes 'vir' for the person told, as elsewhere in the lesson; 'by wie' is the wrong preposition.",
+      "fout": "'vertel' takes 'vir' for the person told; 'by wie' is the wrong preposition.",
+      "rede_keurder": "Grammar fix only: in both versions the plan names the person they will tell, so who is told does not change."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Wanneer 'n kind se regte geskend word",
+      "voor": "die klas sal ophou",
+      "na": "die klas sal vertraag",
+      "soort": "woordkeuse",
+      "rede_vinder": "'ophou' can be read as 'stop', while 'vertraag' clearly means 'hold up', which is what the sentence intends.",
+      "fout": "none",
+      "rede_keurder": "'Hy sal die klas ophou' is natural, plain Afrikaans for holding the class up, so 'vertraag' is a lateral and slightly more formal swap."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Planne wat mense saam maak",
+      "voor": "saam doen sodat",
+      "na": "saam maak sodat",
+      "soort": "woordkeuse",
+      "rede_vinder": "People make a plan rather than do it, and this matches the block heading.",
+      "fout": "'iets wat mense saam doen' is a loose fit for a plan, where Afrikaans says 'n plan maak'.",
+      "rede_keurder": "'Maak' narrows the definition from carrying the plan out together to drawing it up, so the writer should choose the verb that says what the lesson means.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat jy kan doen",
+      "teks": "Sê dat dit gebeur en bly naby die ander kinders.",
+      "rede": "Vague: it does not say to whom the child should say it, nor which 'other children' to stay near (the excluded child, or friends for safety); it cannot be clarified without guessing the intended content, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 548,
+  "woorde_na": 551,
+  "wanneer": "2026-10-23T16:39:37+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:f2ec61667c5993120242e5e6df0e597e",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:7f5f7bcb65034ab5558bc27383b79566"
+}

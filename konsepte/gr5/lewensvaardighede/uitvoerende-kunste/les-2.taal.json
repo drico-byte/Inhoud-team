@@ -1,0 +1,109 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Klassieke musiek",
+      "voor": "Die woord klassiek beteken",
+      "na": "Die woord 'klassiek' beteken",
+      "soort": "leestekens",
+      "rede_vinder": "A word discussed as a word is marked with quotation marks so the learner reads it as the term.",
+      "fout": "A word discussed as a word is not marked, so 'klassiek' reads as part of the sentence rather than as the term being explained.",
+      "rede_keurder": "Quotation marks around a word cited as a word are standard Afrikaans practice and change nothing in the meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Klassieke musiek",
+      "voor": "uit al vier families",
+      "na": "uit al vier die families",
+      "soort": "idioom",
+      "rede_vinder": "The idiomatic Afrikaans form is 'al vier die ...', as in 'al drie die kinders'.",
+      "fout": "'al vier families' leaves out the article that the fixed Afrikaans pattern 'al vier die ...' requires.",
+      "rede_keurder": "'Al vier die families' is the natural idiom; same four families, same meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Kwaito en klassieke musiek langs mekaar",
+      "voor": "sintetiseerder gemaak, klassieke musiek dikwels",
+      "na": "sintetiseerder gemaak, en klassieke musiek dikwels",
+      "soort": "sinsbou",
+      "rede_vinder": "The bare comma joining the two halves reads as a comma splice; 'en' links them, as in the Genre item.",
+      "fout": "The bare comma between the two halves reads abruptly, and it is the only comparison item without a linking word.",
+      "rede_keurder": "Adding 'en' links the halves the way the Genre and Stemme items already do, and leaves the protected 'meestal' and the qualifier 'dikwels' intact."
+    },
+    {
+      "nr": 4,
+      "blok": "Praat oor julle eie optredes",
+      "voor": "Gebruik die les se woorde",
+      "na": "Gebruik die woorde uit hierdie les",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Die les se woorde' is wooden; 'die woorde uit hierdie les' is the natural phrasing.",
+      "fout": "'die les se woorde' is a stiff possessive for a lesson's vocabulary.",
+      "rede_keurder": "'Die woorde uit hierdie les' is what a fluent writer would say and means the same."
+    },
+    {
+      "nr": 6,
+      "blok": "wegspring",
+      "voor": "die oomblik wanneer jy",
+      "na": "die oomblik waarop jy",
+      "soort": "grammatika",
+      "rede_vinder": "After a noun of time such as 'oomblik' the relative 'waarop' is the correct linker, not the conjunction 'wanneer'.",
+      "fout": "'die oomblik wanneer jy' uses the conjunction 'wanneer' as a relative after a time noun, which copies English 'the moment when'.",
+      "rede_keurder": "'Waarop' is the correct relative after 'oomblik', a plain grammar fix that keeps the protected label 'By 'n sprong:' and the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "klassieke musiek",
+      "voor": "'n Tradisie van musiek wat",
+      "na": "'n Musiektradisie wat",
+      "soort": "woordkeuse",
+      "rede_vinder": "Afrikaans prefers the compound 'musiektradisie' over the English-shaped 'tradisie van musiek'.",
+      "fout": "'n Tradisie van musiek' is English-shaped where Afrikaans uses the compound 'musiektradisie'.",
+      "rede_keurder": "The fix is a rewording of a glossary definition, not a spelling or grammar error, so it goes to the writer.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 419,
+  "woorde_na": 422,
+  "wanneer": "2026-10-23T17:10:52+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 7,
+      "blok": "Kwaito en klassieke musiek langs mekaar",
+      "voor": "gegroei, en klassieke musiek in Europa",
+      "na": "gegroei en klassieke musiek in Europa",
+      "soort": "leestekens",
+      "rede_vinder": "The second half has no verb of its own (elliptic), so under the AWS rule as applied here no comma goes before 'en'.",
+      "fout": "none",
+      "rede_keurder": "The gapped second half is still a contrasting clause and the comma reads well; removing it is not clearly better."
+    },
+    {
+      "nr": 9,
+      "blok": "Praat oor julle eie optredes",
+      "voor": "oor jou eie en ander groepe se optredes",
+      "na": "oor jou groep en ander groepe se optredes",
+      "soort": "sinsbou",
+      "rede_vinder": "'Jou eie en ander groepe se' does not parse cleanly (own what?); naming the group matches the block heading and its last sentence; one word more.",
+      "fout": "none",
+      "rede_keurder": "'jou eie en ander groepe se optredes' is a normal Afrikaans ellipsis, and 'jou groep' narrows 'jou eie', so the change is lateral at best."
+    },
+    {
+      "nr": 10,
+      "blok": "trommasjien",
+      "voor": "tromklanke maak en oor en oor speel",
+      "na": "tromklanke maak en dit oor en oor speel",
+      "soort": "grammatika",
+      "rede_vinder": "'Speel' needs an object here, otherwise it reads as if the machine itself plays; one word more.",
+      "fout": "none",
+      "rede_keurder": "In a glossary definition, 'oor en oor speel' without an object is acceptable Afrikaans for a device that plays repeatedly, so there is no real fault to fix."
+    }
+  ],
+  "konsep_hash_voor": "sha256:5c63c5778fcc79eb012a51cd4febfa85",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:00416d99f7e0260f37b51fe9d259575b"
+}

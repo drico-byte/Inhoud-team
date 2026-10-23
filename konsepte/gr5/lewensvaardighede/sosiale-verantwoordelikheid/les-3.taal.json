@@ -1,0 +1,96 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Emosionele mishandeling",
+      "voor": "kleineer hom of maak hom bang, of laat hom ongewens voel",
+      "na": "kleineer hom, maak hom bang of laat hom ongewens voel",
+      "soort": "leestekens",
+      "rede_vinder": "The four actions form one list, so commas separate them and only the last is joined by 'of'; the double 'of' and the comma before 'of' in a list are against AWS 2017.",
+      "fout": "A list of four actions is joined by two 'of's with a comma before the second, which breaks AWS 2017 list punctuation and makes the reader stumble over the grouping.",
+      "rede_keurder": "The proposal makes the list a clean series of four with commas and a single final 'of', keeps the same four actions in the same order, and leaves the protected 'Oor en oor skel iemand 'n kind uit' and the previous round's 'kleineer hom' and 'maak hom bang' intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Fisiese mishandeling",
+      "teks": "soos om hom te slaan, skop, brand of gooi",
+      "rede": "'om hom te gooi' without a complement reads unnaturally in Afrikaans (throw him where, or throw things at him?); fixing it needs the intended meaning, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "Om dit verder te neem is die werk van grootmense soos",
+      "rede": "'dit verder neem' is a calque of English 'take it further'; idiomatic Afrikaans would be e.g. 'die saak verder te voer' or 'verder daarmee te gaan', if the writer wishes to reconsider."
+    },
+    {
+      "woord": "Dan kan hulle 'n maatskaplike werker of die polisie inbring",
+      "rede": "'inbring' calques English 'bring in'; 'betrek' is the idiomatic Afrikaans verb here, while keeping 'kan'."
+    },
+    {
+      "woord": "As dit veilig is, mag jy 'Nee' sê en weggaan, ook vir 'n grootmens by die huis",
+      "rede": "This sentence writes 'Nee' quoted and capitalised, while the protected sentence two lines later writes 'nee sê' in lower case; the two forms should probably match."
+    }
+  ],
+  "woorde_voor": 496,
+  "woorde_na": 495,
+  "wanneer": "2026-10-23T18:33:04+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 6,
+      "blok": "Wat mishandeling aan 'n kind doen",
+      "voor": "Mishandeling raak 'n kind se gesondheid en nie net sy liggaam nie.",
+      "na": "Mishandeling raak nie net 'n kind se liggaam nie, maar sy hele gesondheid.",
+      "soort": "sinsbou",
+      "rede_vinder": "The 'nie net ... maar' construction reads more naturally and avoids implying that the body is not part of health.",
+      "fout": "none",
+      "rede_keurder": "The original reads clearly, and the proposal reorders it and adds 'hele', which is a lateral move with an added qualifier."
+    },
+    {
+      "nr": 9,
+      "blok": "Wat mishandeling aan 'n kind doen",
+      "voor": "of bly van ander kinders af weg",
+      "na": "of bly weg van ander kinders",
+      "soort": "woordorde",
+      "rede_vinder": "'Van ... af weg' is a clumsy double particle; 'bly weg van' is the natural form.",
+      "fout": "none",
+      "rede_keurder": "'Van ander kinders af wegbly' is standard Afrikaans, and 'bly weg van' leans towards English 'stay away from'."
+    },
+    {
+      "nr": 11,
+      "blok": "Dit is nooit die kind se skuld nie",
+      "voor": "stop te sit is die werk",
+      "na": "stop te sit, is die werk",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the long 'om ... te' subject clause, where two verbs meet.",
+      "fout": "none",
+      "rede_keurder": "The sentence is short and readable, and the parallel protected sentence 'Om dit verder te neem is die werk van grootmense soos' must stay without a comma, so adding one here makes the two sentences inconsistent."
+    },
+    {
+      "nr": 14,
+      "blok": "Vertel dit vir iemand wat jy vertrou",
+      "voor": "gaan na 'n veilige plek of ander mense",
+      "na": "gaan na 'n veilige plek of na ander mense",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeating 'na' makes clear the child goes to other people, not to a place 'or other people'.",
+      "fout": "none",
+      "rede_keurder": "This is a safety instruction and the original already reads clearly as going to a safe place or to other people, so the extra 'na' is a lateral change to checked wording."
+    },
+    {
+      "nr": 15,
+      "blok": "Waar hulp te kry is",
+      "voor": "hou wat jy vertel privaat",
+      "na": "hou wat jy vertel vertroulik",
+      "soort": "anglisisme",
+      "rede_vinder": "'Iets privaat hou' copies English 'keep private'; 'vertroulik hou' is the standard Afrikaans and avoids 'geheim'.",
+      "fout": "none",
+      "rede_keurder": "'Privaat hou' is understood Afrikaans and plainer for Grade 5 than 'vertroulik', and the Childline privacy sentence is checked wording that should not shift."
+    }
+  ],
+  "konsep_hash_voor": "sha256:8ba56c1da4587b3570eee88bed6470db",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:43f88f6f28aeb5e5eb49375216957607"
+}

@@ -4,34 +4,36 @@
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 500,
-  "checked_at": "2026-09-21T07:46:38+00:00",
+  "begrotingsreel": "default ±15%: 425-575",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T17:50:15+00:00",
   "study": {
-    "words": 499,
-    "sentences": 35,
-    "mean_sentence_len": 12.3,
-    "median_sentence_len": 12,
+    "words": 535,
+    "sentences": 40,
+    "mean_sentence_len": 11.7,
+    "median_sentence_len": 12.0,
     "longest_sentence": 19,
-    "mean_syllables": 1.25,
-    "pct_polysyllabic": 3.9,
-    "pct_long_words": 0.5,
-    "commas_per_sentence": 0.2,
-    "list_words": 67
+    "mean_syllables": 1.26,
+    "pct_polysyllabic": 4.5,
+    "pct_long_words": 0.9,
+    "commas_per_sentence": 0.47,
+    "list_words": 65
   },
   "eli10": null,
   "block_counts": {
-    "studie": 6,
+    "studie": 7,
     "lys": 1,
-    "begrip": 6
+    "begrip": 7
   },
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study block 6 ('Wat 'n maat werklik doen') 116 words (guide 30–110) — will overflow its section",
-    "List 'Wat jy met 'n groot gevoel k' item 2: 23 words (guide 18) — consider tightening",
-    "Long words in study text with no 'begrip' entry: verpleegster"
+    "Study block 6 ('Wat 'n maat werklik doen') 117 words (guide 30–110) — will overflow its section",
+    "Study text: 0.47 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: skouerspiere, verpleegster"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

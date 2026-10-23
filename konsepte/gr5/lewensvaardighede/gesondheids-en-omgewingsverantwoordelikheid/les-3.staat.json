@@ -1,11 +1,15 @@
 {
   "les": "gr5/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:035f9e4a6cef932808984542542d99eb",
+  "konsep_hash": "sha256:39daa991b35bb74c897ef6cacbb06fd3",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:81e2a5f011eea6c5887392e5478e2815"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "dam": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -72,11 +76,211 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-3.json",
       "konsep_hash": "sha256:035f9e4a6cef932808984542542d99eb",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T18:14:04+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0ddf49f684a6879cba2dd1dc32a7a968",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:14:05+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 494,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:14:05+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:0ddf49f684a6879cba2dd1dc32a7a968",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:49+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 11,
+      "laat_vaar": 5,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 494,
+      "woorde_na": 495,
+      "konsep_hash": "sha256:a2e57faf870f4e80f50053b35846d3a3"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 495,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:21:50+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Verder af haal mense en diere water uit': 'Haal' does not fit animals, and 'verder af' is loose for downstream.",
+        "check (the language finder raised this; it may not be a fault): 'Was met seep in 'n bak en nie in die rivier self nie.': 'Was' has no object, so it is unclear whether the learner washes themselves, clothes or dishes; correcting it needs the intended content.",
+        "check (the language finder raised this; it may not be a fault): 'Hou 'n toilet ver van 'n boorgat of 'n stroom waar mense water haal.': 'Hou 'n toilet ver' reads oddly, since a toilet cannot be moved; it probably means a toilet should be built or placed far away, but changing the verb would mean guessing the intent.",
+        "check (the language finder raised this; it may not be a fault): 'Die toilet spoel met water en mielies in die land groei daarmee.': 'Groei daarmee' is a slightly wooden way to say crops need water to grow; left unchanged because a smoother version would rephrase the claim."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:25:03+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8e1b67b55d70ad84334a9fd92c504d19",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:25:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 498,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:31:01+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 498,
+      "woorde_na": 502,
+      "konsep_hash": "sha256:81e2a5f011eea6c5887392e5478e2815"
+    },
+    {
+      "wanneer": "2026-10-23T18:31:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 502,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:38:47+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:38:47+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 38,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:38:47+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "dam"
+      ],
+      "tally": {
+        "dam": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T18:38:47+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] dam: Water wat agter 'n muur of 'n grondwal dwars oor 'n riv — corrected: Vernou die bepaling eerder as om die begrip te skrap: laat die omskrywing sê dat 'n dam water is wat agter 'n muur of 'n grondwal opgevang en gebêre word, en dat die muur DIKWELS (nie altyd nie) dwars oor 'n rivier of stroom gebou is. Die studieteks se sin oor 'n groot muur wat reënwater in 'n dam opkeer, kan bly soos hy is."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:45:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4cb0fe095c3c7bb74226e04cbf823bae",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T18:45:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 502,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:54:59+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 502,
+      "woorde_na": 501,
+      "konsep_hash": "sha256:39daa991b35bb74c897ef6cacbb06fd3"
+    },
+    {
+      "wanneer": "2026-10-23T18:55:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:03:42+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:03:43+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 39,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:03:43+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:03:43+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 39,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:03:43+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-3.json",
+      "konsep_hash": "sha256:39daa991b35bb74c897ef6cacbb06fd3",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:e250def2169da273c00dac3b2816627e",
+  "spek_hash": "sha256:ac36e49030b53ff0965b3541a08d3e03",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:0ddf49f684a6879cba2dd1dc32a7a968",
+  "taal_rondte_vir": "sha256:39daa991b35bb74c897ef6cacbb06fd3",
+  "taal_keurder_vir": "fca7330be8efe58c0518d1641bd06978",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:39daa991b35bb74c897ef6cacbb06fd3",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:a2e57faf870f4e80f50053b35846d3a3",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "953da1a7cc9e2d0b4757c6f8aaaf9007"
 }

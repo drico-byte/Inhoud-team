@@ -1,11 +1,9 @@
 {
   "les": "gr5/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-12",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:e79a3a3768386708001c0015134c2b1a",
+  "konsep_hash": "sha256:2a8f67583d10d1a5aa33cc03cd39001c",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:2a0e2c52912bab6bcf0f051ae4ef6a4a"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -174,11 +172,188 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-12.json",
       "konsep_hash": "sha256:e79a3a3768386708001c0015134c2b1a",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T18:14:15+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:31a02cac44cc9bb2c2b2e939aee58f49",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T18:14:15+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 499,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:14:15+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:31a02cac44cc9bb2c2b2e939aee58f49",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T18:25:04+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 12,
+      "laat_vaar": 1,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 499,
+      "woorde_na": 510,
+      "konsep_hash": "sha256:6afb91a5997ac7abd645f3d0bc0e5729"
+    },
+    {
+      "wanneer": "2026-10-23T18:25:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 510,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:25:04+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'as iemand jou druk nie': 'as iemand jou druk' can be read as pushing or hugging, which is a real ambiguity in a child-safety block",
+        "fix: [taal] in 'Die deel van tabak': 'deel van tabak' is vague for a substance",
+        "check (the language finder raised this; it may not be a fault): 'die brein vra dan harder daarvoor': 'vra harder daarvoor' is slightly odd as a picture of craving, but any smoother wording ('smag daarna', 'wil al hoe meer hê') shifts register or meaning, so it is left for the reviewer.",
+        "check (the language finder raised this; it may not be a fault): ''n Middel wat verander hoe die liggaam werk en hoe iemand dink.': The study text says dwelms change 'die liggaam en die verstand', while the glossary says 'hoe iemand dink'; this is a content wording choice, not a language fault, so it is not changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:28:29+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d091763d27723bbf4da9f4329023b168",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T18:28:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 512,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:38:49+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 512,
+      "woorde_na": 512,
+      "konsep_hash": "sha256:2a8f67583d10d1a5aa33cc03cd39001c"
+    },
+    {
+      "wanneer": "2026-10-23T18:38:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 512,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:40+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:40+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 38,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:41+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "dwelms waarvan jy dalk hoor"
+      ],
+      "tally": {
+        "dwelms waarvan jy dalk hoor": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T18:45:41+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:50:28+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "dwelms waarvan jy dalk hoor": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T18:54:58+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:54:58+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 38,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:55:09+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:55:10+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 38,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:55:10+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-12.json",
+      "konsep_hash": "sha256:2a8f67583d10d1a5aa33cc03cd39001c",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:df24afd8f505cd227b07b9f910ac0537",
+  "spek_hash": "sha256:a00c885c75f453b2f108758f5074df74",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'want die skool en die kliniek help': A bare 'help' at the end of the sentence sounds unfinished."
+  ],
+  "taal_geforseer_vir": "sha256:31a02cac44cc9bb2c2b2e939aee58f49",
+  "taal_rondte_vir": "sha256:2a8f67583d10d1a5aa33cc03cd39001c",
+  "taal_keurder_vir": "002470fee3413d820d37d70335100f84",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:2a8f67583d10d1a5aa33cc03cd39001c",
+  "taal_vir_mens": [
+    "[taal, protected word] 'Hulle bevat meestal ook nikotien': The sentence before has 'Party kinders' as its subject, so 'Hulle' can at first read as the children rather than the damptoestelle; meaning is clear from 'bevat', so this is only a note, and 'Damptoestelle bevat meestal ook nikotien' would remove it if a person agrees."
+  ],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "43ca91d6989d25016d4534475d5882f1"
 }

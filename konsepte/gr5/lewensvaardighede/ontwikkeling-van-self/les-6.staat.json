@@ -1,7 +1,7 @@
 {
   "les": "gr5/lewensvaardighede/ontwikkeling-van-self/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:a4d2daebb2bf86dbe4973edf614d41fc",
+  "konsep_hash": "sha256:75ecff21cea133d8234a0cd801833ade",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -72,11 +72,141 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\ontwikkeling-van-self\\les-6.json",
       "konsep_hash": "sha256:a4d2daebb2bf86dbe4973edf614d41fc",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T18:14:24+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:06b4df5a0a362662b889943ab85e28ea",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:14:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 497,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:14:24+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:06b4df5a0a362662b889943ab85e28ea",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:35+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 497,
+      "woorde_na": 497,
+      "konsep_hash": "sha256:d158d0fc5ff418d013a92b2e3491e96f"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 497,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:21:36+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Mia het die plek langs haar in die klas oopgehou.': 'langs haar' can mean the seat next to Mia (kept for Nandi) or the seat next to Nandi; the intended reading cannot be fixed without guessing, so a writer should make it unambiguous."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:34:07+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:116e832d245bd77dc93726717bfc9be6",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:34:07+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 499,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:38:53+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 4,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 499,
+      "woorde_na": 501,
+      "konsep_hash": "sha256:75ecff21cea133d8234a0cd801833ade"
+    },
+    {
+      "wanneer": "2026-10-23T18:38:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:09+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:09+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:22+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:23+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:23+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\ontwikkeling-van-self\\les-6.json",
+      "konsep_hash": "sha256:75ecff21cea133d8234a0cd801833ade",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:5a65c4ecbfab5ff664985735761caf58",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Sy het onder die bank gaan kyk en die potlood tussen twee boeke gekry.': The desk has a lid (earlier sentence), so its books would be inside it; finding the pencil 'onder die bank' between two books reads slightly oddly unless there is a shelf underneath. Not changed because 'in die bank' would alter the scene; the writer should confirm the intended place."
+  ],
+  "taal_geforseer_vir": "sha256:06b4df5a0a362662b889943ab85e28ea",
+  "taal_rondte_vir": "sha256:75ecff21cea133d8234a0cd801833ade",
+  "taal_keurder_vir": "c1e5df32eb99e2deef770082b3ad2581",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:75ecff21cea133d8234a0cd801833ade",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:d158d0fc5ff418d013a92b2e3491e96f",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "7fa5cc753ae20dafb2a090549fd679ac"
 }

@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die plakkaat wat oorgedoen moes word",
+      "voor": "Daar het gestaan: Maak die kraan toe terwyl jy jou tande borsel.",
+      "na": "Daarop het gestaan: \"Maak die kraan toe terwyl jy jou tande borsel.\"",
+      "soort": "leestekens",
+      "rede_vinder": "The poster's words are quoted text and need quotation marks, and 'daarop' makes clear they stood on the sheet.",
+      "fout": "The poster's words stand unquoted, so 'Maak die kraan toe...' reads for a moment as an instruction to the reader, unlike every other quoted line in the story.",
+      "rede_keurder": "Quotation marks and 'daarop' make clear these are the words written on the sheet, without changing what is said."
+    },
+    {
+      "nr": 3,
+      "blok": "Die plakkaat wat oorgedoen moes word",
+      "voor": "Ek kan die kraan sien en ek kan die druppel ook sien.",
+      "na": "Ek kan die kraan sien, en ek kan die druppel ook sien.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma before 'en' when it joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "Both 'Ek kan die kraan sien' and 'ek kan die druppel ook sien' are full clauses, so the AWS 2017 comma is required."
+    },
+    {
+      "nr": 4,
+      "blok": "Die plakkaat wat oorgedoen moes word",
+      "voor": "potlood is te lig vir letters wat ver gelees word",
+      "na": "potlood is te flou vir letters wat van ver af gelees word",
+      "soort": "woordkeuse",
+      "rede_vinder": "Pencil writing is naturally 'flou' rather than 'lig', and 'van ver af gelees' is the idiomatic phrase for reading at a distance.",
+      "fout": "'te lig' is ambiguous (light in weight or in colour) and 'ver gelees word' is loose; Afrikaans says writing is 'flou' and read 'van ver af'.",
+      "rede_keurder": "The proposal is the natural Afrikaans for faint pencil writing read at a distance, and the meaning is unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Die plakkaat wat oorgedoen moes word",
+      "voor": "plat oor die vloer gehou",
+      "na": "plat op die vloer gehou",
+      "soort": "grammatika",
+      "rede_vinder": "You hold something flat 'op' the floor; 'oor' is the wrong preposition here.",
+      "fout": "Wrong preposition: a sheet is held flat 'op' the floor, not 'oor' it.",
+      "rede_keurder": "In both versions Sipho presses the sheet flat against the floor with his hands, so the swap fixes the preposition without moving the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die plakkaat wat oorgedoen moes word",
+      "voor": "wat die skool herinner om water te spaar",
+      "na": "wat die skool daaraan herinner om water te spaar",
+      "soort": "idioom",
+      "rede_vinder": "With an infinitive clause, 'iemand herinner' needs 'daaraan' to be idiomatic.",
+      "fout": "none",
+      "rede_keurder": "'iemand herinner om ... te' is ordinary, accepted Afrikaans and reads well in the story; adding 'daaraan' is a lateral move that only lengthens the sentence."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 508,
+  "woorde_na": 510,
+  "wanneer": "2026-10-23T18:21:34+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:554e79cf95cebcb2e97f89276a9efac5",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:2c743ceed719774e864aae758fc082ba"
+}

@@ -1,7 +1,7 @@
 {
   "les": "gr5/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:86a6ef4f4f727d02fd2528ecc420c0ce",
+  "konsep_hash": "sha256:ce89f7f8f1538fd711c4e49a0a753533",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -72,11 +72,142 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-5.json",
       "konsep_hash": "sha256:86a6ef4f4f727d02fd2528ecc420c0ce",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T18:14:11+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:9d79eeb27016d931459d6a96a66aa8bc",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:14:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 498,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:14:12+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:9d79eeb27016d931459d6a96a66aa8bc",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 3,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 498,
+      "woorde_na": 501,
+      "konsep_hash": "sha256:a2d34c6a30f13bb112da486efb46372a"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:21:52+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Kos soos pap, brood, rys en aartappels wat krag gee.': 'wat krag gee' can be read as describing only 'aartappels' instead of 'Kos'.",
+        "fix: [taal] in 'en jou dit meestal wil laat koop': 'jou dit meestal wil laat koop' stacks the pronouns and verbs and is hard to read at Grade 5."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:50:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ec3ea82ab656f7b83ac44308d553e1b4",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:50:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:57:16+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 501,
+      "woorde_na": 501,
+      "konsep_hash": "sha256:ce89f7f8f1538fd711c4e49a0a753533"
+    },
+    {
+      "wanneer": "2026-10-23T18:57:17+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:04:23+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:04:23+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 38,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:04:35+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:04:35+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 38,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:04:36+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-5.json",
+      "konsep_hash": "sha256:ce89f7f8f1538fd711c4e49a0a753533",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:588709c260f2cfd8fb48664d6acd4bd3",
+  "spek_hash": "sha256:8e017e2a359b0a6359241d3740a41c20",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_vir_skrywer": [
+    "fix: [taal] in ''n Stuk raad wat wys': 'n Stuk raad' copies English 'a piece of advice'."
+  ],
+  "taal_geforseer_vir": "sha256:9d79eeb27016d931459d6a96a66aa8bc",
+  "taal_rondte_vir": "sha256:ce89f7f8f1538fd711c4e49a0a753533",
+  "taal_keurder_vir": "8fafaf76abb2cf4cf55f6d9e6d983eed",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:ce89f7f8f1538fd711c4e49a0a753533",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:a2d34c6a30f13bb112da486efb46372a",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "fe8a7b65a7f15fbc486ce7e02f9cff71"
 }

@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "titel": "Die mense in jou lewe",
+  "graad": 5,
+  "vak": "Lewensvaardighede",
+  "budget": 500,
+  "begrotingsreel": "default ±15%: 425-575",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T19:03:16+00:00",
+  "study": {
+    "words": 508,
+    "sentences": 32,
+    "mean_sentence_len": 13.2,
+    "median_sentence_len": 12.0,
+    "longest_sentence": 30,
+    "mean_syllables": 1.33,
+    "pct_polysyllabic": 7.6,
+    "pct_long_words": 1.2,
+    "commas_per_sentence": 0.47,
+    "list_words": 87
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 6,
+    "lys": 2,
+    "begrip": 3
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study block 3 ('Veilig is nie dieselfde as goed ') 111 words (guide 30–110) — will overflow its section",
+    "Study text: 0.47 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: verjaardaggeskenk, verpleegster"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

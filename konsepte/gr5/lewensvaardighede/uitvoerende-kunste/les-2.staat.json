@@ -1,13 +1,19 @@
 {
   "les": "gr5/lewensvaardighede/uitvoerende-kunste/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:6ac9c35193b2332462446cdf9450c816",
+  "konsep_hash": "sha256:00416d99f7e0260f37b51fe9d259575b",
   "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:b76b9cc36de28563b93a9b69a4d9d002"
   ],
-  "eskalasie": null,
-  "blok_faalrondtes": {},
+  "eskalasie": {
+    "soort": "mens_nodig",
+    "wanneer": "2026-10-23T17:21:19+00:00",
+    "rede": "feite returned MENS_NODIG — a writer handed a defect it cannot fix will invent one or strip the content"
+  },
+  "blok_faalrondtes": {
+    "begrip": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -86,11 +92,137 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\uitvoerende-kunste\\les-2.json",
       "konsep_hash": "sha256:6ac9c35193b2332462446cdf9450c816",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T16:29:29+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:bbdc02678f267ec0ba8f464a9b5da74b",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T16:29:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 419,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T16:37:13+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:bbdc02678f267ec0ba8f464a9b5da74b",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T16:46:22+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 419,
+      "woorde_na": 418,
+      "konsep_hash": "sha256:e5291d46778ea93334310ebbf566e5b7"
+    },
+    {
+      "wanneer": "2026-10-23T16:46:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 418,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T16:46:23+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'sekere kenmerke soos hulle instrumente en hulle maat / 'n Trommasjien ': The lesson uses 'maat' for the beat, while the protected entry for 'polsslag' says 'maat' in music means something else (a bar, a group of beats). Not changed, because the right replacement (slag, ritme) is a terminology decision; a person should check it.",
+        "check (the language finder raised this; it may not be a fault): 'kwaito word met 'n trommasjien en 'n sintetiseerder gemaak': The Kwaito block says kwaito is 'meestal' made with electronic equipment; the comparison list drops the qualifier and states it absolutely. Not changed, since adding a qualifier is content; for the writer or fact check."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T16:49:17+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5c63c5778fcc79eb012a51cd4febfa85",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T16:49:18+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 419,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:10:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 419,
+      "woorde_na": 422,
+      "konsep_hash": "sha256:00416d99f7e0260f37b51fe9d259575b"
+    },
+    {
+      "wanneer": "2026-10-23T17:10:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 422,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:21:19+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:21:19+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 55,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:21:19+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "begrip"
+      ],
+      "tally": {
+        "begrip": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T17:21:19+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
     }
   ],
-  "spek_hash": "sha256:aa8a24bf2b6726ac876c8bf1dfa62fca",
+  "spek_hash": "sha256:c8f5a69e67a92558d68128914cb58ca1",
   "hek_konteks": {
     "graad": 5,
     "begroting": 400
-  }
+  },
+  "taal_vir_skrywer": [
+    "fix: [taal] in ''n Tradisie van musiek wat': 'n Tradisie van musiek' is English-shaped where Afrikaans uses the compound 'musiektradisie'."
+  ],
+  "taal_rondte_vir": "sha256:00416d99f7e0260f37b51fe9d259575b",
+  "taal_geforseer_vir": "sha256:bbdc02678f267ec0ba8f464a9b5da74b",
+  "taal_keurder_vir": "af4e59aa1fc140d4f95f997c4639e201",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:00416d99f7e0260f37b51fe9d259575b",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:e5291d46778ea93334310ebbf566e5b7",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "880e74773a26dd5a3ac6d7a474fd846c"
 }

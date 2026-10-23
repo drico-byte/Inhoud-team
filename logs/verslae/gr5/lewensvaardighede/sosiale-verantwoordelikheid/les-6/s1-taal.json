@@ -1,0 +1,77 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die besoek aan die polisiestasie",
+      "voor": "Binne by die deur",
+      "na": "Net binne die deur",
+      "soort": "idioom",
+      "rede_vinder": "'Net binne die deur' is the natural Afrikaans way to say just inside the door; 'binne by die deur' reads awkwardly.",
+      "fout": "'Binne by die deur' is a stiff, unidiomatic way to place the smell just inside the entrance.",
+      "rede_keurder": "'Net binne die deur' is the natural Afrikaans phrase and keeps the same place and the same smell."
+    },
+    {
+      "nr": 2,
+      "blok": "Die besoek aan die polisiestasie",
+      "voor": "Die stoele was laag genoeg dat",
+      "na": "Die stoele was so laag dat",
+      "soort": "anglisisme",
+      "rede_vinder": "'Laag genoeg dat' copies English 'low enough that'; Afrikaans uses 'so laag dat'.",
+      "fout": "'Laag genoeg dat' copies the English 'low enough that'.",
+      "rede_keurder": "'So laag dat' is the native construction and says exactly the same thing about the chairs and the child's feet."
+    },
+    {
+      "nr": 3,
+      "blok": "Die besoek aan die polisiestasie",
+      "voor": "Sy het stadig gepraat en ons het almal",
+      "na": "Sy het stadig gepraat, en ons het almal",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma goes before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Sy het ... gepraat' / 'ons het ... geluister').",
+      "rede_keurder": "Punctuation fix required by the AWS 2017; no wording or meaning changes."
+    },
+    {
+      "nr": 4,
+      "blok": "Die besoek aan die polisiestasie",
+      "voor": "Ek luister tot die einde en ek jaag",
+      "na": "Ek luister tot die einde, en ek jaag",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma goes before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Ek luister' / 'ek jaag').",
+      "rede_keurder": "Punctuation fix required by the AWS 2017; the sergeant's words stay exactly as they are."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Die besoek aan die polisiestasie",
+      "voor": "Daarna het sy ook oor 'n ander plek vertel.",
+      "na": "Daarna het sy ook van 'n ander plek vertel.",
+      "soort": "idioom",
+      "rede_vinder": "'Van iets vertel' is the standard idiom; 'oor iets vertel' is a looser, English-influenced form, and the protected word 'vertel' is kept.",
+      "fout": "none",
+      "rede_keurder": "'Vertel oor' is accepted, natural Afrikaans with the same meaning as 'vertel van', so the preposition swap is a lateral move in the story."
+    },
+    {
+      "nr": 6,
+      "blok": "Die besoek aan die polisiestasie",
+      "voor": "Daar is beddens en kos en",
+      "na": "Daar is beddens, kos en",
+      "soort": "sinsbou",
+      "rede_vinder": "A three-item list reads more smoothly with a comma than with a repeated 'en'; the protected wording that follows is untouched.",
+      "fout": "none",
+      "rede_keurder": "The repeated 'en' in 'beddens en kos en grootmense' is natural spoken rhythm in the sergeant's dialogue and does not jar, so the change only alters her voice."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 438,
+  "woorde_na": 438,
+  "wanneer": "2026-10-23T18:21:24+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:f7fa3b7bc5f88035f2550db10067b351",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:643a38768894babb1a9ab3d599497eb3"
+}

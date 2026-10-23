@@ -1,0 +1,90 @@
+{
+  "toegepas": [
+    {
+      "nr": 4,
+      "blok": "advertensie",
+      "voor": "iets bekend maak",
+      "na": "iets bekendmaak",
+      "soort": "spelling",
+      "rede_vinder": "In the sense of 'announce, make known' the AWS writes bekendmaak as one word.",
+      "fout": "The AWS writes the verb 'bekendmaak' as one word.",
+      "rede_keurder": "A plain spelling fix that leaves the definition's meaning and wording otherwise untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wat op jou bord beland",
+      "voor": "is gekoop met die geld wat die gesin het",
+      "na": "is met die geld gekoop wat die gesin het",
+      "soort": "woordorde",
+      "rede_vinder": "Standard Afrikaans puts the past participle at the end of the clause, before the relative clause.",
+      "fout": "none",
+      "rede_keurder": "Placing the prepositional phrase after the participle is natural Afrikaans here, and the proposal only separates 'die geld' from its relative clause, a lateral move."
+    },
+    {
+      "nr": 3,
+      "blok": "spliterte",
+      "voor": "in twee helftes gebreek",
+      "na": "middeldeur gebreek",
+      "soort": "idioom",
+      "rede_vinder": "'Middeldeur gebreek' is the natural Afrikaans expression; 'in twee helftes' is wordy and doubled.",
+      "fout": "none",
+      "rede_keurder": "'In twee helftes gebreek' is clear and correct for Grade 5; rewording a shared glossary definition for style alone is not a language agent's change."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 2,
+      "blok": "riglyn",
+      "voor": "'n Stuk raad wat wys",
+      "na": "Raad wat wys",
+      "soort": "anglisisme",
+      "rede_vinder": "'n Stuk raad' is a calque of 'a piece of advice'; Afrikaans uses 'raad' on its own.",
+      "fout": "'n Stuk raad' copies English 'a piece of advice'.",
+      "rede_keurder": "The calque is real, but this is a shared glossary definition and bare 'Raad' also changes the definition's shape, so the writer should choose the fix for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 501,
+  "woorde_na": 501,
+  "wanneer": "2026-10-23T18:57:16+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Wat jou lyf elke dag vra",
+      "voor": "wanneer jy dors word",
+      "na": "wanneer jy dors kry",
+      "soort": "idioom",
+      "rede_vinder": "'dors kry' is the more idiomatic Afrikaans expression.",
+      "fout": "none",
+      "rede_keurder": "'dors word' is ordinary, natural Afrikaans, so swapping it for 'dors kry' changes nothing that matters."
+    },
+    {
+      "nr": 12,
+      "blok": "lensies",
+      "voor": "Klein plat sade",
+      "na": "Klein, plat sade",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives before a noun are separated by a comma.",
+      "fout": "none",
+      "rede_keurder": "'Klein plat sade' reads fine without the comma, and it is a shared glossary definition."
+    },
+    {
+      "nr": 13,
+      "blok": "maas",
+      "voor": "Dik suur melk",
+      "na": "Dik, suur melk",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives before a noun are separated by a comma.",
+      "fout": "none",
+      "rede_keurder": "'suur melk' works as one unit with 'dik' describing it, so the adjectives are not coordinate and need no comma; it is also a shared glossary definition."
+    }
+  ],
+  "konsep_hash_voor": "sha256:ec3ea82ab656f7b83ac44308d553e1b4",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:ce89f7f8f1538fd711c4e49a0a753533"
+}

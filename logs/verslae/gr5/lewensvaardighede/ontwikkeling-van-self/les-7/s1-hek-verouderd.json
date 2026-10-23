@@ -4,18 +4,21 @@
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 500,
-  "checked_at": "2026-09-19T18:22:54+00:00",
+  "begrotingsreel": "default ±15%: 425-575",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T19:00:19+00:00",
   "study": {
-    "words": 510,
-    "sentences": 33,
-    "mean_sentence_len": 12.7,
-    "median_sentence_len": 12,
-    "longest_sentence": 24,
-    "mean_syllables": 1.3,
-    "pct_polysyllabic": 6.5,
-    "pct_long_words": 0.7,
-    "commas_per_sentence": 0.21,
-    "list_words": 92
+    "words": 508,
+    "sentences": 32,
+    "mean_sentence_len": 13.2,
+    "median_sentence_len": 12.0,
+    "longest_sentence": 30,
+    "mean_syllables": 1.33,
+    "pct_polysyllabic": 7.6,
+    "pct_long_words": 1.2,
+    "commas_per_sentence": 0.47,
+    "list_words": 87
   },
   "eli10": null,
   "block_counts": {
@@ -26,10 +29,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: verpleegster"
+    "Study block 3 ('Veilig is nie dieselfde as goed ') 111 words (guide 30–110) — will overflow its section",
+    "Study text: 0.47 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: verjaardaggeskenk, verpleegster"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

@@ -4,30 +4,34 @@
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 380,
-  "checked_at": "2026-09-22T09:29:21+00:00",
+  "begrotingsreel": "default ±15%: 323-437",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T19:17:03+00:00",
   "study": {
-    "words": 422,
+    "words": 436,
     "sentences": 34,
-    "mean_sentence_len": 12.4,
-    "median_sentence_len": 12.5,
-    "longest_sentence": 25,
-    "mean_syllables": 1.45,
-    "pct_polysyllabic": 9.2,
-    "pct_long_words": 0.7,
-    "commas_per_sentence": 0.26
+    "mean_sentence_len": 12.8,
+    "median_sentence_len": 13.0,
+    "longest_sentence": 22,
+    "mean_syllables": 1.47,
+    "pct_polysyllabic": 10.1,
+    "pct_long_words": 0.9,
+    "commas_per_sentence": 0.41
   },
   "eli10": null,
   "block_counts": {
     "studie": 5,
-    "begrip": 11
+    "begrip": 23
   },
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: byvoorbeeld, hoofmomente, klankeffekte"
+    "Study block 3 ('Waarom die makers 'n tegniek geb') 125 words (guide 30–110) — will overflow its section",
+    "Study text: 0.41 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: byvoorbeeld"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

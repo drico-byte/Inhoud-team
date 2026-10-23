@@ -1,7 +1,7 @@
 {
   "les": "gr5/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:b16960d9f675ff58849acf4a832fe855",
+  "konsep_hash": "sha256:c2fa6a6238605a43f5ee654743c5ae51",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -72,11 +72,143 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-4.json",
       "konsep_hash": "sha256:b16960d9f675ff58849acf4a832fe855",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T18:14:10+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:78cad2a8f63409b3db316827e14788e8",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:14:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 499,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:14:11+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:78cad2a8f63409b3db316827e14788e8",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:50+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 11,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 499,
+      "woorde_na": 503,
+      "konsep_hash": "sha256:ab11e0bb2f5d89f415c52cda1561a43a"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 503,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:21:51+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Drink en kos kry die water eerste, en niemand mors daaraan nie.': 'mors daaraan' is not the Afrikaans idiom (it is 'mors met'), and 'Drink en kos kry die water' is awkward.",
+        "check (the language finder raised this; it may not be a fault): 'Niemand se hande gaan in daardie emmer in nie, het Thandi gesê. Jy lig': Direct speech without quotation marks; it is unclear whether the second sentence is still Thandi speaking, so quotation marks cannot be added without guessing where the speech ends.",
+        "check (the language finder raised this; it may not be a fault): 'Mans met grawe het naby die hoek 'n diep gat begin grawe.': 'grawe' twice in one sentence (noun and verb) reads clumsily; left unchanged because the fix would mean choosing a different tool or verb."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:31:03+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3a70c714d98f59c9ec9f043632edb5d8",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:31:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:45:39+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 501,
+      "woorde_na": 502,
+      "konsep_hash": "sha256:c2fa6a6238605a43f5ee654743c5ae51"
+    },
+    {
+      "wanneer": "2026-10-23T18:45:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 502,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:29+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:30+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 16,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:37+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:37+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 16,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:38+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-4.json",
+      "konsep_hash": "sha256:c2fa6a6238605a43f5ee654743c5ae51",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:85cb36358d681d45c556e7c5aaecd5d6",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Thandi en haar maat Lerato het elke slag ses vol bottels gedra.': The previous sentences put the bottles in a crate on a wheelbarrow, so 'gedra' (carried) may not match what happened; whether they carried them by hand or pushed the wheelbarrow cannot be settled without guessing the intended content."
+  ],
+  "taal_geforseer_vir": "sha256:78cad2a8f63409b3db316827e14788e8",
+  "taal_rondte_vir": "sha256:c2fa6a6238605a43f5ee654743c5ae51",
+  "taal_keurder_vir": "7930ae03fb2da260e77ba0e9332f3328",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:c2fa6a6238605a43f5ee654743c5ae51",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:ab11e0bb2f5d89f415c52cda1561a43a",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "b062c063d479f4b0042205f0b3e27233"
 }

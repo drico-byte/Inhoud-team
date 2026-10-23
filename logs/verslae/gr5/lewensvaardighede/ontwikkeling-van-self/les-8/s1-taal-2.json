@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Thandi se eerste week",
+      "voor": "koorlede hardop in die klas voorgelees",
+      "na": "koorlede in die klas voorgelees",
+      "soort": "woordkeuse",
+      "rede_vinder": "Voorlees already means reading aloud to others, so hardop is redundant.",
+      "fout": "Pleonasm: 'voorlees' already means reading aloud so others hear, so 'hardop' repeats it.",
+      "rede_keurder": "Removing the redundant 'hardop' tightens the sentence without changing who reads what to whom, and no protected word is touched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 474,
+  "woorde_na": 473,
+  "wanneer": "2026-10-23T19:11:49+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Thandi se eerste week",
+      "voor": "en syne het spinasie en wortels in.",
+      "na": "en in sy klas s'n groei spinasie en wortels.",
+      "soort": "sinsbou",
+      "rede_vinder": "'syne het ... in' is loose and colloquial, and 'syne' reads as Sipho's own bed rather than his class's.",
+      "fout": "none",
+      "rede_keurder": "'syne het spinasie en wortels in' is natural spoken Afrikaans in a story, the proposal 'sy klas s'n' is clumsier, and it breaks the link with 'sy bedding' later in the story."
+    },
+    {
+      "nr": 5,
+      "blok": "Thandi se eerste week",
+      "voor": "nie een keer ingeval nie",
+      "na": "nie een keer in die rede geval nie",
+      "soort": "idioom",
+      "rede_vinder": "The idiom is 'in die rede val'; 'ingeval' on its own reads as the conjunction 'in case'.",
+      "fout": "none",
+      "rede_keurder": "'inval' is a standard verb for interrupting a speaker, and the proposed 'in die rede geval' lacks the object it needs ('haar'), so it is not an improvement."
+    },
+    {
+      "nr": 7,
+      "blok": "Thandi se eerste week",
+      "voor": "of Thandi ná skool sy bedding kom kyk",
+      "na": "of Thandi ná skool sy bedding wil kom kyk",
+      "soort": "grammatika",
+      "rede_vinder": "Reported invitation needs 'wil' to read naturally as a question about her wish.",
+      "fout": "none",
+      "rede_keurder": "'gevra of Thandi ... kom kyk' is natural reported speech, and adding 'wil' shifts the question from an invitation to her wish without fixing a fault."
+    }
+  ],
+  "konsep_hash_voor": "sha256:1c2ec8aff8b8dce8819c75f1b9d8d081",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:891f3a993187560efd34cd2fbc989632"
+}

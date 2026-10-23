@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Wat jy kan doen",
+      "voor": "dat dit gebeur en bly",
+      "na": "dat dit gebeur, en bly",
+      "soort": "leestekens",
+      "rede_vinder": "A comma closes the dat-clause before the second instruction starts, so the two commands do not run together; the protected 'bly naby ander kinders' is untouched.",
+      "fout": "Without a comma, 'dat dit gebeur en bly' reads at first as part of the dat-clause ('it happens and stays').",
+      "rede_keurder": "The comma closes the dat-clause before the second command, which removes the stumble without changing the instruction or touching the protected 'bly naby ander kinders'."
+    },
+    {
+      "nr": 4,
+      "blok": "Wie wat doen in die plan",
+      "voor": "uit die lys van waar hulp is",
+      "na": "uit die lys \"Waar hulp is\"",
+      "soort": "sinsbou",
+      "rede_vinder": "'die lys van waar hulp is' is wooden and 'van waar' can read as 'vanwaar'; naming the list by its heading is clearer without changing the meaning.",
+      "fout": "'die lys van waar hulp is' is wooden and 'van waar' trips a reader.",
+      "rede_keurder": "Naming the list by its heading is clearer and refers to the same list, so the meaning stays the same."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wat vooroordeel is",
+      "voor": "uit die kind self nie",
+      "na": "uit die seun self nie",
+      "soort": "verwysing",
+      "rede_vinder": "The paragraph speaks of 'die nuwe seun'; 'die kind' briefly reads as a different child, so 'die seun' makes the reference clear.",
+      "fout": "none",
+      "rede_keurder": "The new boy is the only single child in the paragraph, so 'die kind' already points to him, and the next block also calls him 'die kind'; the swap is lateral."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat jy kan doen",
+      "voor": "vir 'n volwassene wat jy vertrou",
+      "na": "vir 'n grootmens wat jy vertrou",
+      "soort": "register",
+      "rede_vinder": "The rest of the block says 'grootmens' (including 'n ander grootmens' in the next sentence), which is also the more natural Grade 5 word; one word for one person keeps the reference clear.",
+      "fout": "none",
+      "rede_keurder": "'Volwassene' is correct, natural Afrikaans and means the same person as 'grootmens', and this is a checked safety instruction about who to tell, so a lateral synonym swap is not worth making there."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 553,
+  "woorde_na": 552,
+  "wanneer": "2026-10-23T16:54:20+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Wanneer 'n kind se regte geskend word",
+      "voor": "die klas sal ophou",
+      "na": "die klas sal vertraag",
+      "soort": "woordkeuse",
+      "rede_vinder": "'ophou' can be read as 'stop', while 'vertraag' clearly means 'hold up', which is what the sentence intends.",
+      "fout": "none",
+      "rede_keurder": "'Hy sal die klas ophou' is natural, plain Afrikaans for holding the class up, so 'vertraag' is a lateral and slightly more formal swap."
+    }
+  ],
+  "konsep_hash_voor": "sha256:3a0e1c2ae333ab762341c80467a52cf3",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:60c309493c2b6f5e73ae8bf6e00559e7"
+}

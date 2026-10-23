@@ -1,38 +1,39 @@
 {
-  "verdict": "FAIL",
+  "verdict": "PASS",
   "titel": "Instrumente op sig en op gehoor",
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 420,
-  "checked_at": "2026-09-22T09:01:56+00:00",
+  "begrotingsreel": "default ±15%: 357-483",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T19:18:43+00:00",
   "study": {
-    "words": 444,
-    "sentences": 41,
-    "mean_sentence_len": 10.9,
-    "median_sentence_len": 10,
-    "longest_sentence": 20,
-    "mean_syllables": 1.57,
-    "pct_polysyllabic": 12.6,
-    "pct_long_words": 3.8,
-    "commas_per_sentence": 0.46
+    "words": 483,
+    "sentences": 37,
+    "mean_sentence_len": 12.1,
+    "median_sentence_len": 12,
+    "longest_sentence": 21,
+    "mean_syllables": 1.56,
+    "pct_polysyllabic": 11.9,
+    "pct_long_words": 4.3,
+    "commas_per_sentence": 0.3,
+    "list_words": 37
   },
   "eli10": null,
   "block_counts": {
     "studie": 8,
-    "begrip": 18
+    "lys": 1,
+    "begrip": 36
   },
   "misspelled": [],
-  "failures": [
-    "Study text: 0.46 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
-  ],
+  "failures": [],
   "warnings": [
-    "Study text: mean sentence length 10.9 below band minimum 11.0 — sentences are choppier than the grade expects  [marginal — within tolerance, not blocking]",
-    "Study text: syllables per word 1.57 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
-    "Study text: 3.8% of words exceed 10 characters (guide 3.0%)",
-    "Long words in study text with no 'begrip' entry: blaasinstrumente, houtblaasinstrumente, instrumente, koperblaasinstrumente, musiekfrases, slaginstrumente, snaarinstrumente"
+    "Study text: syllables per word 1.56 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Study text: 4.3% of words exceed 10 characters (guide 3.0%)",
+    "Long words in study text with no 'begrip' entry: grotendeels, instrumente, musiekfrases, venstertjie, verskillende"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

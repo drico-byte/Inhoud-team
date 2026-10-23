@@ -1,109 +1,60 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Wat agter die saal gebeur het",
   "kaps_punt": "Leesvaardighede: lees met begrip en die gebruik van 'n woordeboek: Lees oor die gevare van misbruik van middels: herroep en vertel.",
   "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "Sy het ook gesê dat die meeste damp-toestelle se vloeistof nikotien bevat.",
+      "bewering": "Sy het ook gesê dat die meeste damptoestelle se vloeistof nikotien bevat.",
       "blok": "Wat agter die saal gebeur het",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Vars nagegaan hierdie rondte. CDC, 'About E-Cigarettes (Vapes)': 'E-cigarettes typically contain nicotine, the addictive substance in cigarettes and other tobacco products.' WHO Q&A 'Tobacco: E-cigarettes': 'E-cigarette emissions typically contain nicotine and other toxic substances.' Suid-Afrikaanse bevestiging: eClinicalMedicine/UCT REEP-studie onder 25 149 SA hoerskoolleerders (2023) - 88% van huidige dampers het gese hulle gebruik damp-produkte wat nikotien bevat. Die kwantifiseerder 'die meeste' is korrek en aan die veilige kant: nikotienvrye (0 mg) vloeistof bestaan wel, dus sou 'alle' vals wees, en WHO en CDC meld albei dat produkte wat as nikotienvry bemark word tog al nikotien bevat gevind is. Geen oorbewering nie."
-    },
-    {
-      "bewering": "Dit is dieselfde middel wat in tabak is.",
-      "blok": "Wat agter die saal gebeur het",
-      "status": "bevestig",
-      "tipe": "naam",
-      "bron": "Vars nagegaan hierdie rondte. CDC, 'About E-Cigarettes (Vapes)': nikotien is 'the addictive substance in cigarettes and other tobacco products'. WHO-feiteblad oor tabak beskryf nikotien as die verslawende middel in tabak sowel as in elektroniese nikotien-afleweringstelsels. Dit is chemies dieselfde stof, of dit uit tabak onttrek is en of dit sinteties is, dus is die stelling korrek soos dit staan."
+      "tipe": "algemeen",
+      "bron": "CDC, 'E-Cigarette Use Among Youth' (cdc.gov/tobacco/e-cigarettes/youth.html): 'Most e-cigarettes contain nicotine, which is highly addictive.' South African learners specifically: UCT REEP summary of the Lancet eClinicalMedicine study of more than 25 000 high-school learners in 52 schools (commerce.uct.ac.za, 26 Jan 2025): '88% said they used vapes that contain nicotine.' A CDC-hosted California study of devices taken from learners at 16 high schools found nicotine in 98.1% of samples (stacks.cdc.gov/view/cdc/159347). 'Die meeste' is the right quantifier: the lesson does not say every vape contains nicotine, and some do not."
     },
     {
       "bewering": "Nikotien maak dit moeilik om op te hou.",
       "blok": "Wat agter die saal gebeur het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte. WHO Q&A 'Tobacco: E-cigarettes': 'Nicotine is highly addictive' en 'A non-smoker who uses ENDS may become addicted to nicotine and find it difficult to stop using ENDS'. NIDA, 'Is nicotine addictive?': slegs ongeveer 6% van rokers hou in 'n gegewe jaar op, en die meeste het verskeie pogings nodig. Suid-Afrikaanse bevestiging: KANSA en die eClinicalMedicine-studie - 47% van SA leerders wat damp, doen dit binne die eerste uur na wakker word, wat op hoe nikotienafhanklikheid dui. Let op dat die les 'moeilik' se en nie 'onmoontlik' nie, en nerens beweer dat een keer probeer jou verslaaf nie; albei sou oorbewerings gewees het."
+      "bron": "CDC youth e-cigarette page: nicotine 'is highly addictive' and harms the developing adolescent brain. A JAMA Network Open study (Nov 2025, US national youth survey data, reported by HealthDay and the Boston Globe) found that the share of daily teen vapers who tried to quit and failed rose from 28% to 53% between 2020 and 2024. The UCT study of SA learners reports high dependence: about 47% vape within an hour of waking, and about 15% say they are addicted. Ruan in the story wants to stop and cannot, which matches this."
+    },
+    {
+      "bewering": "Die laaste ruk het hy in elke wedstryd meer dikwels gaan staan met sy hande op sy knieë. Tumelo het gesien hoe hy vinniger uitasem raak as vroeër. ... Hy het gesê hy gebruik die damptoestel al 'n ruk (implied: vaping is linked to getting out of breath sooner)",
+      "blok": "Wat agter die saal gebeur het",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NHLBI news release (nhlbi.nih.gov, 2023) on Tackett et al., Thorax 2024;79(2):163-168, Southern California Children's Health Study, about 2 100 teenagers: past-30-day vapers had 78% higher odds of shortness of breath than never-users. The link stayed significant after adjusting for cigarette and cannabis use and second-hand exposure. Also BMC Medicine 2024 (pubmed 38807205), 39 214 youth aged 16-19 in Canada, England and the US: vaping is associated with respiratory symptoms. The evidence shows an association, not proven cause. The story's wording is sound because it shows only what Tumelo sees, put next to Ruan's vaping, and never states that vaping caused it. A sentence saying the damptoestel MADE him breathless would go further than the evidence."
     },
     {
       "bewering": "Sy het gesê dat grootmense by die skool en by die kliniek kan help om die regte hulp te kry.",
       "blok": "Wat agter die saal gebeur het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte, en spesifiek vir Suid-Afrika. Skool: die DBO se Nasionale Beleid oor die Bestuur van Dwelmmisbruik deur Leerders en die Geintegreerde Skoolgesondheidsbeleid - skole word ondersteun om geaffekteerde leerders na toepaslike gesondheids-, psigososiale en maatskaplike dienste te VERWYS, opvoeders kry opleiding daarvoor, en skoolgesondheidspanne gee gesondheidsvoorligting oor middelgebruik aan onder meer Graad 4-leerders. Kliniek: South African Family Practice, 'Primary healthcare approach to substance abuse management' - die meeste middelmisbruikbestuur vind as buitepasientkonsultasie in 'n primere sorgkliniek plaas, en 'primary healthcare settings... increase patient access to appropriate substance abuse treatment'; pasiente met afhanklikheid kry 'an appropriate referral for specialist care'. Belangrik dat die les se wat dit se: dit beweer verwysing en aanwysing na die regte hulp, nie dat die kliniek self 'n staakdiens bedryf nie. Die sterker weergawe sou NIE gehou het nie - Suid-Afrika het min formele staakdienste (in die literatuur word na die kliniek by Groote Schuur as die enkele sodanige kliniese diens verwys) en daar is geen goedgekeurde medikasie vir onder-18's nie. Soos dit nou staan, is die bewering korrek."
+      "bron": "SA sources. The South African tobacco smoking cessation clinical practice guideline (van Zyl-Smit et al., SAMJ 2013, open.uct.ac.za) says every clinical setting should identify tobacco users and counsel them. In a survey of primary-care clinic staff in the Northern Cape (Health SA Gesondheid 2024, hsag.co.za), 89.7% said cessation counselling is part of their job. The NCAS Quitline is a national service clinics can refer to. Caveat for the reader, not a contradiction: SA cessation support is thin and uneven. Bhekisisa reported in 2025, which I could only reach through search snippets, that there are almost no quit programmes aimed at vapers, and the same staff survey found 53.9% did not know the guideline. The claim holds because it is modest. It says adults can help a child FIND the right help, not that a clinic runs a quit programme. A stronger wording such as 'die kliniek sal hom help ophou' would not be supported."
     },
     {
-      "bewering": "Sy het gesê dit is nooit sy skuld as iemand hom iets aanbied nie.",
-      "blok": "Wat agter die saal gebeur het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte. Voorkomingsriglyne vir ouers en kinders (onder meer Partnership to End Addiction se ouergids oor weieringsvaardighede, en skoolgesondheidsmateriaal oor 'refusal skills') stel dit uitdruklik dat 'n kind nie skuldig hoef te voel wanneer iets aangebied word of wanneer hy weier nie; die aanbod is die ander persoon se optrede. Die stelling is ook korrek afgebaken: dit vryspreek die kind van die AANBOD, nie van wat hy daarna kies nie, en die verhaal laat Tumelo steeds self kies."
-    },
-    {
-      "bewering": "Hy het nee dankie gesê en hy het begin loop.",
-      "blok": "Wat agter die saal gebeur het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte. Dit is die optrede wat die les as die regte een voorhou, dus is dit nagegaan. Weieringsvaardigheidsriglyne (Partnership to End Addiction; Windsor-Essex County Health Unit se klaskamermateriaal oor refusal skills) noem juis 'say no and walk away' as een van die doeltreffendste weieringstegnieke vir kinders. Die les leer dus nie iets aan wat teen die riglyne ingaan nie."
-    },
-    {
-      "bewering": "Tumelo het by die kombuistafel gesit... Hy het lank gesukkel voordat hy vertel het wat agter die saal gebeur het. / Sy ouma het... gesê dat sy bly is hy het vertel.",
-      "blok": "Wat agter die saal gebeur het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte. Die les hou voor dat 'n kind vir 'n vertroude grootmens moet vertel en dat vertel die regte ding is. Dit stem ooreen met die DBO-benadering (verwysing na ondersteuning) en met standaard voorkomingsriglyne vir ouers, wat ouers aanraai om kalm te reageer sodat die kind weer sal praat. Geen valse belofte word gemaak nie: die ouma se sy sal met die skool praat, sy waarborg nie 'n uitkoms nie."
-    },
-    {
-      "bewering": "Sy sou die volgende dag met die skool praat oor hulp en nie oor straf nie.",
-      "blok": "Wat agter die saal gebeur het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte. Dit is haar VOORNEME vir die gesprek, nie 'n bewering oor wat die skool sal doen nie, en as sodanig stem dit ooreen met die DBO-beleid, wat skole se hantering van leerders wat middels gebruik rondom ondersteuning en verwysing bou eerder as om dit as suiwer dissiplinere saak te hanteer. Ek het spesifiek nagegaan of die teks belowe dat niemand gestraf sal word nie - dit doen nie, en dit sou 'n bewering gewees het wat nie hou nie, want SA skole het wel dissiplinere maatreels naas ondersteuning."
-    },
-    {
-      "bewering": "Ruan was verlede jaar die vinnigste speler in die hele groep. Die laaste ruk het hy meer dikwels gaan staan met sy hande op sy knieë. Tumelo het gesien hoe hy vinniger uitasem raak as vroeër.",
-      "blok": "Wat agter die saal gebeur het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte, en as die impliseerde prentjie nagegaan eerder as net die woorde, want die teks plaas dit langs die damp-toestel en 'n Graad 5-leser sal die verband self trek. Die rigting van daardie verband hou: 'Pulmonary function and physical performance in adolescent e-cigarette users: a narrative review' (PMC12657188) - jongmense wat die afgelope maand gedamp het, het 78% hoer kans op kortasem, en dampers vaar swakker in kardiorespiratoriese uithouvermoe, insluitend stadiger hardlooptye. 'n 12-maande longitudinale studie (PMC13094720) onder 15-24-jariges koppel volgehoue gebruik aan meer dae met asemhalingsimptome, wat by die verhaal se tydskaal van ongeveer 'n jaar pas. Twee dinge red hierdie stuk: die teks BEWEER nerens dat damp die oorsaak is nie, dit gee 'n waarneming, en die assosiasie self is goed gedokumenteer. Ter wille van eerlikheid: die literatuur is grootliks deursnee-ontwerp en die oorsaaklikheid vir 'n individuele kind is nie bewys nie, dus sou 'n stelling soos 'damp het hom stadig gemaak' te ver gegaan het. Die les gaan nie so ver nie."
-    },
-    {
-      "bewering": "Toe het Ruan 'n damp-toestel uit sy sak gehaal en dit na Tumelo toe uitgehou.",
-      "blok": "Wat agter die saal gebeur het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte, op twee punte. Eerstens die benaming: 'damp' is die gevestigde Afrikaanse woord vir vaping in Suid-Afrika - KANSA se eie Afrikaanse voorligtingsbladsy gebruik 'damprook (vaping)'. Die woord beweer niks vals nie; dit noem die toestel en beskryf nie sy inhoud as onskadelike stoom nie. Tweedens die toneel: SA damp-toestelle is sakgrootte wegdoenbare toestelle, en die eClinicalMedicine-studie onder 25 149 SA hoerskoolleerders vind 16,83% huidige gebruik en 36,71% wat al gedamp het, met hoer syfers in hoer grade - 'n ouer leerder met 'n toestel op die skoolterrein is dus 'n getroue toneel en nie 'n oordrewe een nie. Ek het ook nagegaan wat die les NIE doen nie: nerens word beskryf hoe die toestel lyk, hoe dit ruik of smaak, hoe 'n mens dit gebruik of hoe dit voel nie, en geen geur, handelsnaam of hoeveelheid word genoem nie."
-    },
-    {
-      "bewering": "Tumelo se ore het warm geword en hy het na sy skoene gekyk. / Tumelo se hande het eers by die doelpale ophou bewe.",
-      "blok": "Wat agter die saal gebeur het",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Vars nagegaan hierdie rondte al lyk dit vanselfsprekend. Dit is die gewone akute stresrespons: adrenalien laat bloedvate in die gesig verwyd (bloos by verleentheid - UF Medical Sciences, 'The Science Behind Blushing from Embarrassment') en laat spiere span, wat as bewerige hande vertoon, en die simptome hou aan tot 'n ruk na die stresvolle oomblik verby is. Die volgorde in die verhaal - eers warm ore in die oomblik, hande wat eers later ophou bewe - is fisiologies korrek."
-    },
-    {
-      "bewering": "Die kortpad na die sportveld loop agter die skool se saal verby... dit was die vinnigste pad.",
+      "bewering": "Tumelo en Anele het dit elke pouse gebruik, want dit was die vinnigste pad.",
       "blok": "Wat agter die saal gebeur het",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "As superlatief aangeteken omdat elke superlatief 'n item moet wees. Dit is egter 'n stelling binne die versinde skoolterrein en maak geen bewering oor die wereld buite die verhaal nie, dus is daar niks om teen 'n bron te toets nie en niks wat vals kan wees nie. Geen sagter bewoording nodig."
+      "bron": "Not a claim about the world. It is a detail inside the story, about a made-up school and a made-up path, so no source can confirm or contradict it. Recorded because every superlative must be an item."
     },
     {
       "bewering": "Ruan was verlede jaar die vinnigste speler in die hele groep.",
       "blok": "Wat agter die saal gebeur het",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "As superlatief aangeteken omdat elke superlatief 'n item moet wees. Soos die kortpad is dit 'n stelling oor 'n versinde karakter binne die verhaal se eie wereld en nie 'n bewering oor die werklikheid nie. Die feitelike gewig van hierdie sin sit in wat daarna volg, en dit is apart nagegaan by die item oor uitasem raak."
+      "bron": "Not a claim about the world. It is about a made-up character, so no source applies. It does narrative work by setting up the contrast with how Ruan tires now. Recorded because every superlative must be an item."
     },
     {
-      "bewering": "Nagegaan: of enige karakter iets onwaars se wat onreggestel bly staan.",
+      "bewering": "Toe het Ruan 'n damptoestel uit sy sak gehaal ... Hy het gesê hy gebruik die damptoestel al 'n ruk en wil eintlik ophou. (premise: children of primary-school age are offered vapes by older learners)",
       "blok": "Wat agter die saal gebeur het",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Elke karakter se woorde afsonderlik gelees. Ruan se enigste uitings is 'n vraag oor die middag se wedstryd en 'n vraag of Tumelo wil probeer - hy maak geen feitelike bewering oor damp, nikotien of veiligheid nie, dus is daar niks wat onreggestel bly staan nie. Tumelo se uitings is 'nee dankie' en sy bekommernis oor Ruan, albei menings. Al die feitelike bewerings in die stuk kom van die ouma, en elkeen daarvan is hierbo geverifieer. Geen karakter noem damp onskadelik, waterdamp, of 'net geur' nie, en niemand se 'n mens kan enige tyd sommer ophou nie."
+      "bron": "UCT/Lancet eClinicalMedicine study (commerce.uct.ac.za, 2025; EWN, 7 Mar 2025): about 9% of SA Grade 8 learners already vape and 16.8% of all sampled learners currently vape, so younger children meeting older learners who vape is realistic in SA. The study surveyed only fee-paying schools with internet access, which limits how far it generalises, but it does not contradict the story. Neither this item nor any other in the story claims a number."
     }
   ],
-  "opsomming": "Al veertien nagegane punte hou: die ouma se bewerings oor nikotien in damp-vloeistof, oor nikotien as dieselfde middel as in tabak, oor hoe moeilik dit is om op te hou, en oor grootmense by die skool en kliniek wat kan help om by die regte hulp uit te kom, is elkeen teen WHO-, CDC-, NIDA- en Suid-Afrikaanse bronne bevestig; niks beskryf hoe die middel lyk, ruik, smaak of gebruik word nie, en geen karakter laat iets onwaars staan nie."
+  "opsomming": "Elke kontroleerbare bewering in die leesstuk klop met bronne: 'die meeste' damptoestelle bevat nikotien (CDC; UCT se studie van SA-leerders: 88%), nikotien maak ophou moeilik, en die vroeëre uitasem van 'n jong dampgebruiker word deur assosiasiestudies gestaaf en word nie as bewese oorsaak gestel nie; die mens moet net weet dat die sin oor hulp by die kliniek waar is omdat dit beskeie is (grootmense kan help om hulp te vind), want hulp om op te hou damp is in Suid-Afrika dun en ongelyk, en enige sterker bewoording sal nie gestaaf wees nie."
 }

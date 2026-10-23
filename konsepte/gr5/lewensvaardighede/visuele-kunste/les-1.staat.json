@@ -1,10 +1,11 @@
 {
   "les": "gr5/lewensvaardighede/visuele-kunste/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:bd1d6e8e9662e7cfb2196b24fb75e040",
+  "konsep_hash": "sha256:21605254ecbb94c31abd7c035b0bf74d",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:c782b17654c4c335cf03ce81009055b5"
+    "sha256:c782b17654c4c335cf03ce81009055b5",
+    "sha256:f81689542e6a918dfd13e1fe4f673777"
   ],
   "eskalasie": null,
   "blok_faalrondtes": {},
@@ -123,11 +124,122 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\visuele-kunste\\les-1.json",
       "konsep_hash": "sha256:bd1d6e8e9662e7cfb2196b24fb75e040",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T16:29:32+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f81689542e6a918dfd13e1fe4f673777",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T16:29:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 530,
+      "begroting": 460,
+      "failures": [
+        "Study text 530 words, above budget ceiling 529 (target 460) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T16:29:32+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text 530 words, above budget ceiling 529 (target 460) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T16:40:04+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:7c20c72ff4ab9cfbdfbc3d970e3dfd1e",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-23T16:40:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 525,
+      "begroting": 460,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T16:40:04+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:7c20c72ff4ab9cfbdfbc3d970e3dfd1e",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T17:03:59+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 525,
+      "woorde_na": 525,
+      "konsep_hash": "sha256:21605254ecbb94c31abd7c035b0bf74d"
+    },
+    {
+      "wanneer": "2026-10-23T17:04:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 525,
+      "begroting": 460,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:10:50+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:10:50+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 37,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:11:18+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:11:18+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 37,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:11:18+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\visuele-kunste\\les-1.json",
+      "konsep_hash": "sha256:21605254ecbb94c31abd7c035b0bf74d",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:40b8061db3d8476d156887184d94805a",
+  "spek_hash": "sha256:e2d380ed99e4239e5123fb91f132012d",
   "hek_konteks": {
     "graad": 5,
-    "begroting": 400
-  }
+    "begroting": 460
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:7c20c72ff4ab9cfbdfbc3d970e3dfd1e",
+  "taal_rondte_vir": "sha256:21605254ecbb94c31abd7c035b0bf74d",
+  "taal_keurder_vir": "0738e751f5d85041741aa9438c9a6a86",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:21605254ecbb94c31abd7c035b0bf74d",
+  "taal_vir_mens": []
 }

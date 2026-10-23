@@ -4,18 +4,21 @@
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 500,
-  "checked_at": "2026-09-19T18:23:12+00:00",
+  "begrotingsreel": "default ±15%: 425-575",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T18:31:02+00:00",
   "study": {
-    "words": 518,
-    "sentences": 31,
-    "mean_sentence_len": 12.3,
-    "median_sentence_len": 12,
+    "words": 502,
+    "sentences": 30,
+    "mean_sentence_len": 12.1,
+    "median_sentence_len": 12.0,
     "longest_sentence": 16,
-    "mean_syllables": 1.33,
-    "pct_polysyllabic": 3.9,
-    "pct_long_words": 1.0,
-    "commas_per_sentence": 0.23,
-    "list_words": 137
+    "mean_syllables": 1.34,
+    "pct_polysyllabic": 4.7,
+    "pct_long_words": 1.4,
+    "commas_per_sentence": 0.57,
+    "list_words": 138
   },
   "eli10": null,
   "block_counts": {
@@ -26,10 +29,10 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: skoongemaak"
+    "Study text: 0.57 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: skoongemaak, vroegoggend"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

@@ -139,3 +139,18 @@ recorded below as they come.
 - VK-begrotings 1600 na 1770 aanvaar (vereistes-basis; die KABV-oudit voeg vereistes by).
 - 'tragedie' en die nuwe UK-sleutelterme: na die feitetoetse in die Gr 5 gedeelde lys sit.
 - Kaart 5 (ruitverwysings) beskryf 'n bepaalde kaart (skool by B2, park by C3, 'n dam, 'n kliniek, letters A-C langs die kant) maar het geen kaartblok nie. Die HTML-span se kaart moet daardie besonderhede presies dra, of die sinne word vals. Vir Lampies/die HTML-span.
+
+**Open after Gr 5 LV (23 Oct 2026):**
+- Two Grade 4 shared wordings that Grade 5 performing arts lesson 1 must use word for word are unclear when the glossary entry is read alone:
+  - toonkleur "al klink dit ewe hoog en hard" has nothing to compare with;
+  - hosho "met sade binne, in pare geskud" can read as the seeds shaken in pairs.
+
+  Fix them in Grade 4 and Grade 5 together, through the writer, after the Gr 5 pass. Never fix one grade alone.
+- Gr 5 health lesson 12 still spells 'damp-toestelle'. The spec and the protected list now say 'damptoestel' as one word, and lesson 12's own language pass should apply it.
+- About 14 approved specs across Gr 4-6 still describe the language check as running outside the pipeline. Most of these are only reasons for a protected word, so the conclusion still holds. Sweep them when there is time.
+- Gr 4 Life Skills, social responsibility, lesson 3 (signed off) uses 'manier van lewe' in its study block and its kultuur definition. Gr 5 performing arts lesson 4 now says 'leefwyse'. These are different grades and not a shared term, so the difference is allowed. Consider aligning them at the next Gr 4 reprint.
+- Gr 5 health lesson 12, the dagga sentence: it is correct on 23 Oct 2026, but the 2024 cannabis act is not yet fully in force. Re-check it at every reprint, as with Childline's number.
+- Gr 5 social responsibility lesson 2 (Nkosi Johnson): 'Ma's en kinders woon daar vandag nog saam' will date. Nkosi's Haven nearly closed in 2018 and 2020, and a 2024 source says it still runs. Re-check at every reprint.
+- House style: a title before a name is lower case inside a sentence (tant Rosa, juffrou Mans), per the AWS. Gr 5 OvS 6 and 8 follow it; OvS 4 and SR 4, 6 (signed off) still use capitals. Fix them at their next revision; it is not worth a cycle on its own.
+- Gr 5 OvS 8: 'net soos hy belowe het' refers to a promise the story never shows; Sipho only asks whether Thursday suits. The fact check passed it. Look at it at the next revision.
+- Shared wording 'roep-en-antwoord' ('... 'n kort deel en 'n ander antwoord daarop') joins two full clauses without the AWS comma. Add it in the shared list and route every lesson that uses it through the writer, together with the hosho and toonkleur fix.

@@ -1,0 +1,15 @@
+{"prompt_weergawe": "taalkeurder-v1.3",
+ "besluite": [
+  {"nr": 1, "besluit": "LAAT VAAR",
+   "fout": "none",
+   "rede": "The new boy is the only single child in the paragraph, so 'die kind' already points to him, and the next block also calls him 'die kind'; the swap is lateral."},
+  {"nr": 2, "besluit": "HOU",
+   "fout": "Without a comma, 'dat dit gebeur en bly' reads at first as part of the dat-clause ('it happens and stays').",
+   "rede": "The comma closes the dat-clause before the second command, which removes the stumble without changing the instruction or touching the protected 'bly naby ander kinders'."},
+  {"nr": 3, "besluit": "LAAT VAAR",
+   "fout": "none",
+   "rede": "'Volwassene' is correct, natural Afrikaans and means the same person as 'grootmens', and this is a checked safety instruction about who to tell, so a lateral synonym swap is not worth making there."},
+  {"nr": 4, "besluit": "HOU",
+   "fout": "'die lys van waar hulp is' is wooden and 'van waar' trips a reader.",
+   "rede": "Naming the list by its heading is clearer and refers to the same list, so the meaning stays the same."}
+ ]}

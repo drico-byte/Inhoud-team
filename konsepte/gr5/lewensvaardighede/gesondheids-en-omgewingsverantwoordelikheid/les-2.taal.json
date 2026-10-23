@@ -1,0 +1,97 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die bottel onder die wasbak",
+      "voor": "hoor 'n deksel draai",
+      "na": "hoor 'n doppie draai",
+      "soort": "woordkeuse",
+      "rede_vinder": "A soft-drink bottle has a 'doppie' in Afrikaans; 'deksel' is a lid of a pot or tin.",
+      "fout": "'deksel' is the lid of a pot or tin, not the screw cap of a soft-drink bottle.",
+      "rede_keurder": "'Doppie' is the natural Afrikaans word for a bottle cap and changes nothing else."
+    },
+    {
+      "nr": 2,
+      "blok": "Die bottel onder die wasbak",
+      "voor": "raap die deksel op",
+      "na": "raap die doppie op",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same bottle cap as earlier; 'doppie' is the natural word and keeps the two mentions consistent.",
+      "fout": "Same wrong word for the bottle cap as in change 1.",
+      "rede_keurder": "Keeps the two mentions of the cap consistent with change 1; meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Die bottel onder die wasbak",
+      "voor": "Sy hanteer dit dus asof",
+      "na": "Sy tree dus op asof",
+      "soort": "anglisisme",
+      "rede_vinder": "'Hanteer dit asof' copies English 'treat it as if'; 'tree op asof' is the idiomatic Afrikaans, same word count, and keeps 'asof'.",
+      "fout": "'Sy hanteer dit asof' copies English 'treat it as if'.",
+      "rede_keurder": "'Sy tree dus op asof' is the idiomatic Afrikaans, keeps the protected 'asof' and says the same thing."
+    },
+    {
+      "nr": 4,
+      "blok": "Die bottel onder die wasbak",
+      "voor": "Sy weet ook hy het die damp ingeasem.",
+      "na": "Sy weet ook dat hy die damp ingeasem het.",
+      "soort": "sinsbou",
+      "rede_vinder": "Written standard uses 'dat' with verb-final order, as the lesson itself does in 'Sy weet dat paraffien brand'; adds one word.",
+      "fout": "Dropping 'dat' is spoken style and out of line with the lesson's own 'Sy weet dat paraffien brand'.",
+      "rede_keurder": "Standard written form with 'dat' and verb-final order; same meaning, one word more."
+    },
+    {
+      "nr": 5,
+      "blok": "Die bottel onder die wasbak",
+      "voor": "die toe bottel kliniek toe en daar hou",
+      "na": "die toegedraaide bottel kliniek toe, en daar hou",
+      "soort": "leestekens",
+      "rede_vinder": "'Toe' as an adjective right before 'kliniek toe' is colloquial and confusing; and the AWS comma is needed because 'Sy vat' and 'hulle hou' are two clauses with their own subjects.",
+      "fout": "'die toe bottel kliniek toe' makes a reader stumble over two 'toe's, and the AWS comma between two clauses with their own subjects is missing.",
+      "rede_keurder": "'Toegedraaide' removes the stumble and the comma is required by the AWS; the bottle and the order of events are unchanged."
+    },
+    {
+      "nr": 7,
+      "blok": "Die bottel onder die wasbak",
+      "voor": "Tannie Ansie hou hom daarna",
+      "na": "Tannie Ansie hou Willem daarna",
+      "soort": "verwysing",
+      "rede_vinder": "The previous paragraph is about the bottle and the tin, so naming Willem makes clear who 'hom' is; same word count.",
+      "fout": "After a paragraph about the bottle and the tin, 'hom' could be read as pointing to an object.",
+      "rede_keurder": "Naming Willem makes the reference unambiguous, and the following 'hom' now clearly points to him."
+    },
+    {
+      "nr": 8,
+      "blok": "Die bottel onder die wasbak",
+      "voor": "Sy kyk weer na hom toe dit aand word.",
+      "na": "Toe dit aand word, kyk sy weer na hom.",
+      "soort": "woordorde",
+      "rede_vinder": "'Na hom toe' reads first as 'towards him'; putting the time clause first removes the misreading with the same words.",
+      "fout": "'na hom toe dit aand word' first reads as the circumposition 'na hom toe' (towards him).",
+      "rede_keurder": "Putting the time clause first removes the misreading with the same words, same time and same action."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 6,
+      "blok": "Die bottel onder die wasbak",
+      "voor": "Daardie tekens kom gewoonlik",
+      "na": "Daardie tekens verskyn gewoonlik",
+      "soort": "woordkeuse",
+      "rede_vinder": "Signs 'verskyn' rather than 'kom' in written Afrikaans; same word count, 'gewoonlik' kept.",
+      "fout": "none",
+      "rede_keurder": "'Kom' is plain, natural Afrikaans for a Grade 5 reader; 'verskyn' is a lateral, more formal swap."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 542,
+  "woorde_na": 543,
+  "wanneer": "2026-10-23T16:39:33+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:40c28209c92401d81be8c90ea1d46b36",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5f5638b2894462b160d0dbbb77ab9b33"
+}

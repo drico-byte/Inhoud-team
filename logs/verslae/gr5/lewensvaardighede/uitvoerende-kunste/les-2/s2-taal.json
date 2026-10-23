@@ -1,0 +1,128 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Kwaito",
+      "voor": "maak die maat en 'n sintetiseerder",
+      "na": "maak die maat, en 'n sintetiseerder",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: two clauses joined by 'en', each with its own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses ('n Trommasjien maak ... / 'n sintetiseerder voeg ... by).",
+      "rede_keurder": "Both halves have their own subject and verb, so the AWS comma before 'en' is required."
+    },
+    {
+      "nr": 2,
+      "blok": "Kwaito",
+      "voor": "Die maat herhaal oor en oor.",
+      "na": "Die maat word oor en oor herhaal.",
+      "soort": "grammatika",
+      "rede_vinder": "'Herhaal' is transitive in Afrikaans; intransitive use is an anglicism, and the lesson itself uses the passive elsewhere ('herhaal word').",
+      "fout": "Intransitive 'herhaal' copies English 'repeats'; Afrikaans uses the passive or reflexive.",
+      "rede_keurder": "The passive is the natural Afrikaans form, matches 'herhaal word' later in the lesson, and keeps the meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Kwaito",
+      "voor": "Die stemme praat of sing-praat dikwels die woorde eerder as om te sing.",
+      "na": "Die stemme praat of sing-praat dikwels eerder as om te sing.",
+      "soort": "idioom",
+      "rede_vinder": "'Praat die woorde' is unidiomatic (praat takes no such object); dropping it keeps the meaning, matches the comparison list's wording and saves two words.",
+      "fout": "'Praat ... die woorde' is unidiomatic; praat does not take 'die woorde' as an object this way.",
+      "rede_keurder": "Dropping the object reads naturally, loses no information (the words are implied) and matches the comparison list."
+    },
+    {
+      "nr": 4,
+      "blok": "Klassieke musiek",
+      "voor": "in note neer en ander musikante",
+      "na": "in note neer, en ander musikante",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: two clauses joined by 'en', each with its own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses (Komponiste skryf ... / ander musikante speel ...).",
+      "rede_keurder": "Both halves have their own subject and verb, so the AWS comma before 'en' is required."
+    },
+    {
+      "nr": 5,
+      "blok": "Klassieke musiek",
+      "voor": "uit al vier families en ander vir 'n kleiner groep",
+      "na": "uit al vier families, en ander is vir 'n kleiner groep",
+      "soort": "sinsbou",
+      "rede_vinder": "Without a verb 'families en ander' reads as a list (four families and others); a verb and an AWS comma make the second clause clear.",
+      "fout": "'uit al vier families en ander vir 'n kleiner groep' garden-paths as 'four families and other instruments'.",
+      "rede_keurder": "Adding 'is' and the comma makes the second clause unmistakable without changing what is said."
+    },
+    {
+      "nr": 6,
+      "blok": "Klassieke musiek",
+      "voor": "'n eie styl en musiek uit verskillende eeue",
+      "na": "'n eie styl, en musiek uit verskillende eeue",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: two clauses joined by 'en', each with its own subject and verb.",
+      "fout": "Missing AWS comma; without it 'n eie styl en musiek' reads at first as one object.",
+      "rede_keurder": "Two full clauses joined by 'en' take the AWS comma, which also removes the stumble."
+    },
+    {
+      "nr": 8,
+      "blok": "Kwaito en klassieke musiek langs mekaar",
+      "voor": "aan die eie manier waarop hulle musiek maak",
+      "na": "aan sy eie manier van musiek maak",
+      "soort": "verwysing",
+      "rede_vinder": "'Hulle' does not agree with the singular 'n kwaito-groep of 'n komponis', and 'die eie manier' is wooden; same word count.",
+      "fout": "'hulle' does not agree with the singular 'n kwaito-groep of 'n komponis', and 'die eie manier' is wooden.",
+      "rede_keurder": "'sy eie manier van musiek maak' fixes the agreement, matches the lesson's own 'manier van speel' and 'sy styl', and keeps the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 7,
+      "blok": "Kwaito en klassieke musiek langs mekaar",
+      "voor": "gegroei, en klassieke musiek in Europa",
+      "na": "gegroei en klassieke musiek in Europa",
+      "soort": "leestekens",
+      "rede_vinder": "The second half has no verb of its own (elliptic), so under the AWS rule as applied here no comma goes before 'en'.",
+      "fout": "none",
+      "rede_keurder": "The gapped second half is still a contrasting clause and the comma reads well; removing it is not clearly better."
+    },
+    {
+      "nr": 9,
+      "blok": "Praat oor julle eie optredes",
+      "voor": "oor jou eie en ander groepe se optredes",
+      "na": "oor jou groep en ander groepe se optredes",
+      "soort": "sinsbou",
+      "rede_vinder": "'Jou eie en ander groepe se' does not parse cleanly (own what?); naming the group matches the block heading and its last sentence; one word more.",
+      "fout": "none",
+      "rede_keurder": "'jou eie en ander groepe se optredes' is a normal Afrikaans ellipsis, and 'jou groep' narrows 'jou eie', so the change is lateral at best."
+    },
+    {
+      "nr": 10,
+      "blok": "trommasjien",
+      "voor": "tromklanke maak en oor en oor speel",
+      "na": "tromklanke maak en dit oor en oor speel",
+      "soort": "grammatika",
+      "rede_vinder": "'Speel' needs an object here, otherwise it reads as if the machine itself plays; one word more.",
+      "fout": "none",
+      "rede_keurder": "In a glossary definition, 'oor en oor speel' without an object is acceptable Afrikaans for a device that plays repeatedly, so there is no real fault to fix."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Genre en styl; Kwaito; [begrip] kwaito",
+      "teks": "sekere kenmerke soos hulle instrumente en hulle maat / 'n Trommasjien maak die maat / Die maat herhaal oor en oor / 'n herhaalde elektroniese maat",
+      "rede": "The lesson uses 'maat' for the beat, while the protected entry for 'polsslag' says 'maat' in music means something else (a bar, a group of beats). Not changed, because the right replacement (slag, ritme) is a terminology decision; a person should check it."
+    },
+    {
+      "blok": "Kwaito en klassieke musiek langs mekaar",
+      "teks": "kwaito word met 'n trommasjien en 'n sintetiseerder gemaak",
+      "rede": "The Kwaito block says kwaito is 'meestal' made with electronic equipment; the comparison list drops the qualifier and states it absolutely. Not changed, since adding a qualifier is content; for the writer or fact check."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 419,
+  "woorde_na": 418,
+  "wanneer": "2026-10-23T16:46:22+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:bbdc02678f267ec0ba8f464a9b5da74b",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e5291d46778ea93334310ebbf566e5b7"
+}

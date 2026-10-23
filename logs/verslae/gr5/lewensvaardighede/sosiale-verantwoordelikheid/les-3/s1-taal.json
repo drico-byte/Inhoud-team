@@ -1,0 +1,219 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Fisiese mishandeling",
+      "voor": "Dit los soms 'n merk.",
+      "na": "Dit laat soms 'n merk.",
+      "soort": "anglisisme",
+      "rede_vinder": "'Los 'n merk' copies English 'leave a mark'; standard Afrikaans is 'laat 'n merk'.",
+      "fout": "'los 'n merk' copies English 'leave a mark'",
+      "rede_keurder": "'Laat 'n merk' is the natural Afrikaans and the meaning, including 'soms', is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Emosionele mishandeling",
+      "voor": "Dit los geen merk op die liggaam nie.",
+      "na": "Dit laat geen merk op die liggaam nie.",
+      "soort": "anglisisme",
+      "rede_vinder": "Same as in the previous block: 'laat 'n merk', not 'los 'n merk'; keeps the two blocks parallel.",
+      "fout": "'los geen merk' copies English 'leave no mark'",
+      "rede_keurder": "Same fix as change 2, keeps the two blocks parallel and says the same thing."
+    },
+    {
+      "nr": 4,
+      "blok": "Emosionele mishandeling",
+      "voor": "maak hom klein of bang",
+      "na": "kleineer hom of maak hom bang",
+      "soort": "idioom",
+      "rede_vinder": "'Maak hom klein' is a literal rendering of 'make him feel small'; 'kleineer' is the Afrikaans verb, and 'maak hom bang' stays.",
+      "fout": "'maak hom klein' is a literal rendering of English 'make him feel small'",
+      "rede_keurder": "'Kleineer' is the Afrikaans verb for this, 'maak hom bang' stays, and the protected opening 'Oor en oor skel iemand 'n kind uit' is untouched."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat mishandeling aan 'n kind doen",
+      "voor": "mishandel word slaap sleg",
+      "na": "mishandel word, slaap sleg",
+      "soort": "leestekens",
+      "rede_vinder": "A comma between the two verbs that end the relative clause and start the main clause aids reading; the protected words stay intact.",
+      "fout": "two verbs collide ('word slaap') where the relative clause ends, so a reader stumbles",
+      "rede_keurder": "The comma marks the clause boundary and leaves the protected 'Sommige kinders wat mishandel word' intact."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat mishandeling aan 'n kind doen",
+      "voor": "Party voel baie bang en ander voel kwaad vir mense om hulle.",
+      "na": "Party voel baie bang, en ander voel kwaad vir die mense rondom hulle.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb; 'rondom hulle' is clearer than the ambiguous 'om hulle'.",
+      "fout": "missing AWS comma before 'en' joining two clauses that each have a subject and verb; bare 'mense om hulle' is slightly loose",
+      "rede_keurder": "The comma is required by the AWS rule, and 'vir die mense rondom hulle' keeps the same people and the same 'vir' while reading more clearly."
+    },
+    {
+      "nr": 10,
+      "blok": "Dit is nooit die kind se skuld nie",
+      "voor": "'n kind seermaak het self",
+      "na": "'n kind seermaak, het self",
+      "soort": "leestekens",
+      "rede_vinder": "A comma between the two verbs where the relative clause ends and the main clause begins.",
+      "fout": "two verbs collide ('seermaak het') at the clause boundary",
+      "rede_keurder": "The comma lets a Grade 5 reader see where the relative clause ends without changing a word."
+    },
+    {
+      "nr": 12,
+      "blok": "Vertel dit vir iemand wat jy vertrou",
+      "voor": "jy vertrou soos 'n onderwyser of ouma",
+      "na": "jy vertrou, soos 'n onderwyser of 'n ouma",
+      "soort": "leestekens",
+      "rede_vinder": "Without the comma 'soos' can be read as 'trust the way a teacher does'; the repeated article keeps the two examples parallel; the protected phrase stays intact.",
+      "fout": "without a comma 'soos' can be read as 'trust the way a teacher does'",
+      "rede_keurder": "The comma and repeated article remove the misreading, the examples and the protected 'n volwassene wat jy vertrou' stay exactly as they are, and who to tell does not change."
+    },
+    {
+      "nr": 13,
+      "blok": "Vertel dit vir iemand wat jy vertrou",
+      "voor": "wat jou bang maak is nie",
+      "na": "wat jou bang maak, is nie",
+      "soort": "leestekens",
+      "rede_vinder": "A comma between the two verbs at the end of the relative clause and the start of the main clause.",
+      "fout": "two verbs collide ('maak is') at the clause boundary",
+      "rede_keurder": "The comma marks where the relative clause ends and changes nothing else."
+    },
+    {
+      "nr": 17,
+      "blok": "aanmeld",
+      "voor": "te gaan se wat gebeur het",
+      "na": "te gaan sê wat gebeur het",
+      "soort": "spelling",
+      "rede_vinder": "The verb 'sê' needs its circumflex; 'se' is the possessive.",
+      "fout": "'se' is the possessive; the verb needs its circumflex, 'sê'",
+      "rede_keurder": "A plain spelling fix in a definition, with no change to the wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 6,
+      "blok": "Wat mishandeling aan 'n kind doen",
+      "voor": "Mishandeling raak 'n kind se gesondheid en nie net sy liggaam nie.",
+      "na": "Mishandeling raak nie net 'n kind se liggaam nie, maar sy hele gesondheid.",
+      "soort": "sinsbou",
+      "rede_vinder": "The 'nie net ... maar' construction reads more naturally and avoids implying that the body is not part of health.",
+      "fout": "none",
+      "rede_keurder": "The original reads clearly, and the proposal reorders it and adds 'hele', which is a lateral move with an added qualifier."
+    },
+    {
+      "nr": 9,
+      "blok": "Wat mishandeling aan 'n kind doen",
+      "voor": "of bly van ander kinders af weg",
+      "na": "of bly weg van ander kinders",
+      "soort": "woordorde",
+      "rede_vinder": "'Van ... af weg' is a clumsy double particle; 'bly weg van' is the natural form.",
+      "fout": "none",
+      "rede_keurder": "'Van ander kinders af wegbly' is standard Afrikaans, and 'bly weg van' leans towards English 'stay away from'."
+    },
+    {
+      "nr": 11,
+      "blok": "Dit is nooit die kind se skuld nie",
+      "voor": "stop te sit is die werk",
+      "na": "stop te sit, is die werk",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the long 'om ... te' subject clause, where two verbs meet.",
+      "fout": "none",
+      "rede_keurder": "The sentence is short and readable, and the parallel protected sentence 'Om dit verder te neem is die werk van grootmense soos' must stay without a comma, so adding one here makes the two sentences inconsistent."
+    },
+    {
+      "nr": 14,
+      "blok": "Vertel dit vir iemand wat jy vertrou",
+      "voor": "gaan na 'n veilige plek of ander mense",
+      "na": "gaan na 'n veilige plek of na ander mense",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeating 'na' makes clear the child goes to other people, not to a place 'or other people'.",
+      "fout": "none",
+      "rede_keurder": "This is a safety instruction and the original already reads clearly as going to a safe place or to other people, so the extra 'na' is a lateral change to checked wording."
+    },
+    {
+      "nr": 15,
+      "blok": "Waar hulp te kry is",
+      "voor": "hou wat jy vertel privaat",
+      "na": "hou wat jy vertel vertroulik",
+      "soort": "anglisisme",
+      "rede_vinder": "'Iets privaat hou' copies English 'keep private'; 'vertroulik hou' is the standard Afrikaans and avoids 'geheim'.",
+      "fout": "none",
+      "rede_keurder": "'Privaat hou' is understood Afrikaans and plainer for Grade 5 than 'vertroulik', and the Childline privacy sentence is checked wording that should not shift."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 1,
+      "blok": "Wat kindermishandeling is",
+      "voor": "so sleg dat dit hom skade doen",
+      "na": "so sleg dat dit hom skade aandoen",
+      "soort": "idioom",
+      "rede_vinder": "The idiomatic verb with a person as object is 'iemand skade aandoen'.",
+      "fout": "'hom skade doen' is less idiomatic than 'iemand skade aandoen'",
+      "rede_keurder": "The point is fair, but this sentence echoes the kindermishandeling glossary definition word for word, so the writer should change both together or neither.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 5,
+      "blok": "Emosionele mishandeling",
+      "voor": "laat hom voel hy is nie gewens nie",
+      "na": "laat hom voel niemand wil hom hê nie",
+      "soort": "anglisisme",
+      "rede_vinder": "'Nie gewens nie' copies English 'not wanted'; 'niemand wil hom hê nie' says the same in natural Grade 5 Afrikaans.",
+      "fout": "'hy is nie gewens nie' is stiff and reads as translated from 'not wanted'",
+      "rede_keurder": "The original falls short, but 'niemand wil hom hê nie' adds an absolute 'niemand' the original does not claim, so it needs another fix.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 16,
+      "blok": "kindermishandeling",
+      "voor": "'n kind aspris skade doen",
+      "na": "'n kind aspris skade aandoen",
+      "soort": "idioom",
+      "rede_vinder": "With a person as object the idiom is 'skade aandoen'; 'aspris' stays.",
+      "fout": "'n kind skade doen' is less idiomatic than 'n kind skade aandoen'",
+      "rede_keurder": "This rewords a glossary definition beyond a spelling or grammar error, so only the writer may change it, for every lesson and for the matching study sentence in change 1.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "kindermishandeling",
+      "teks": "Wanneer 'n grootmens of 'n ander kind 'n kind aspris skade doen.",
+      "rede": "The study block also counts treating a child so badly that it harms him (no 'aspris') as abuse, so the glossary entry, read alone, is narrower than the lesson's own definition; that is a content question for the writer, not a language fix."
+    },
+    {
+      "blok": "Wat kindermishandeling is",
+      "teks": "Wanneer 'n grootmens 'n kind seermaak",
+      "rede": "The title names only an adult, while the protected sentence in the first block says another child can do it too; the title may not be changed by this step, so it is flagged for the writer."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "Moenie later teruggaan om die persoon daaroor aan te spreek of te stry nie, grootmens of kind",
+      "rede": "'Stry' without a partner reads incompletely; natural Afrikaans is 'of met hom te stry'. Left unchanged because it is protected."
+    },
+    {
+      "woord": "Om dit verder te neem is die werk van grootmense soos",
+      "rede": "'Iets verder neem' is a calque of English 'take it further', and the sentence would normally take a comma before 'is'; both left unchanged because the wording is protected."
+    },
+    {
+      "woord": "As dit veilig is, mag jy 'Nee' sê en weggaan, ook vir 'n grootmens by die huis",
+      "rede": "This sentence writes 'Nee' quoted and capitalised, while the protected sentence two lines later writes 'nee sê' plainly; the two are inconsistent in one block, but both are protected."
+    },
+    {
+      "woord": "Dan kan hulle 'n maatskaplike werker of die polisie inbring",
+      "rede": "'Inbring' for involving people is close to English 'bring in'; 'betrek' or 'laat kom' would be more standard, but the wording is protected."
+    }
+  ],
+  "woorde_voor": 497,
+  "woorde_na": 500,
+  "wanneer": "2026-10-23T18:21:20+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:b9f8104fc65e67dc168e1413b9b29ad1",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:695703d746be77026ca06ddb1954bd0f"
+}

@@ -1,35 +1,41 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Instrumente op sig en op gehoor",
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 420,
-  "checked_at": "2026-09-22T11:05:53+00:00",
+  "begrotingsreel": "default ±15%: 357-483",
+  "begroting_basis": "meting",
+  "na_taal": false,
+  "checked_at": "2026-10-23T16:29:28+00:00",
   "study": {
-    "words": 481,
-    "sentences": 44,
-    "mean_sentence_len": 11.0,
-    "median_sentence_len": 10.5,
+    "words": 476,
+    "sentences": 37,
+    "mean_sentence_len": 11.9,
+    "median_sentence_len": 12,
     "longest_sentence": 20,
-    "mean_syllables": 1.57,
-    "pct_polysyllabic": 12.5,
-    "pct_long_words": 4.6,
-    "commas_per_sentence": 0.3
+    "mean_syllables": 1.61,
+    "pct_polysyllabic": 13.9,
+    "pct_long_words": 5.2,
+    "commas_per_sentence": 0.27,
+    "list_words": 37
   },
   "eli10": null,
   "block_counts": {
     "studie": 8,
-    "begrip": 18
+    "lys": 1,
+    "begrip": 36
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text: 3+ syllable words 13.9% above maximum 13.0%"
+  ],
   "warnings": [
-    "Study text: syllables per word 1.57 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
-    "Study text: 4.6% of words exceed 10 characters (guide 3.0%)",
-    "Long words in study text with no 'begrip' entry: blaasinstrumente, grotendeels, houtblaasinstrumente, instrumente, koperblaasinstrumente, musiekfrases, slaginstrumente, snaarinstrumente"
+    "Study text: syllables per word 1.61 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Study text: 5.2% of words exceed 10 characters (guide 3.0%)",
+    "Long words in study text with no 'begrip' entry: grotendeels, instrumente, musiekfrases, venstertjie, verskillende"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

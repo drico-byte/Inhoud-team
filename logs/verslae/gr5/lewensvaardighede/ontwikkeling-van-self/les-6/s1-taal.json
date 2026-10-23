@@ -1,0 +1,93 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die maat wat bly sit het",
+      "voor": "Sy het haar kop geskud",
+      "na": "Nandi het haar kop geskud",
+      "soort": "verwysing",
+      "rede_vinder": "The previous sentence's subject is Mia, so 'Sy' could be read as Mia; naming Nandi removes the ambiguity.",
+      "fout": "'Sy' follows a sentence whose subject is Mia, so it can grammatically point to either girl.",
+      "rede_keurder": "Naming Nandi removes a pronoun that could point to two people, with no change in meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Die maat wat bly sit het",
+      "voor": "Mia het nie teruggepraat nie en sy het",
+      "na": "Mia het nie teruggepraat nie, en sy het",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "The comma is required by AWS 2017 and also separates the 'nie ... nie' clause cleanly."
+    },
+    {
+      "nr": 4,
+      "blok": "Die maat wat bly sit het",
+      "voor": "sy weet van die trek en sy hou",
+      "na": "sy weet van die trek, en sy hou",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "The comma is required by AWS 2017 and both clauses stay inside what the teacher said."
+    },
+    {
+      "nr": 5,
+      "blok": "Die maat wat bly sit het",
+      "voor": "by die klasdeur gekeer",
+      "na": "by die klasdeur voorgekeer",
+      "soort": "woordkeuse",
+      "rede_vinder": "Stopping someone to speak to them is 'voorkeer'; 'keer' alone suggests preventing or blocking.",
+      "fout": "'gekeer' suggests blocking or preventing rather than stopping someone to speak to her.",
+      "rede_keurder": "'voorgekeer' is the exact Afrikaans verb for stopping someone to talk, and the action is unchanged."
+    },
+    {
+      "nr": 6,
+      "blok": "Die maat wat bly sit het",
+      "voor": "Hulle het tot by die klok op die grasperk geskop",
+      "na": "Hulle het op die grasperk geskop totdat die klok lui",
+      "soort": "idioom",
+      "rede_vinder": "'tot by die klok' reads as a place; 'totdat die klok lui' gives the time, as the lesson says earlier.",
+      "fout": "'tot by die klok' reads as a place rather than a time and makes the reader stumble.",
+      "rede_keurder": "'totdat die klok lui' is natural, gives the time, and echoes the lesson's own earlier wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die maat wat bly sit het",
+      "voor": "wat sy daarop moet antwoord",
+      "na": "wat sy daarop moes antwoord",
+      "soort": "grammatika",
+      "rede_vinder": "In a past-tense narrative the modal reads more naturally as 'moes'.",
+      "fout": "none",
+      "rede_keurder": "Afrikaans reported thought keeps the present 'moet', as the lesson does throughout, so 'moes' is only a lateral move."
+    },
+    {
+      "nr": 7,
+      "blok": "Die maat wat bly sit het",
+      "voor": "Sy het hard gepraat en",
+      "na": "Sy het luid gepraat en",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids 'hard' twice in one short sentence ('hard gepraat ... hard laat klap'); meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "'hard gepraat' is plain natural Afrikaans for a Grade 5 story and 'luid' is more formal, so the repeat does not justify the change."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die maat wat bly sit het",
+      "teks": "Mia het die plek langs haar in die klas oopgehou.",
+      "rede": "'langs haar' can mean the seat next to Mia (kept for Nandi) or the seat next to Nandi; the intended reading cannot be fixed without guessing, so a writer should make it unambiguous."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 497,
+  "woorde_na": 497,
+  "wanneer": "2026-10-23T18:21:35+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:06b4df5a0a362662b889943ab85e28ea",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d158d0fc5ff418d013a92b2e3491e96f"
+}

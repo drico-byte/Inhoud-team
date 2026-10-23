@@ -1,7 +1,7 @@
 {
   "les": "gr5/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-13",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:adfc71c9695eb107912787d881746dd1",
+  "konsep_hash": "sha256:3fa2470f9f4b4f43516af396f59c0fbc",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -72,11 +72,132 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-13.json",
       "konsep_hash": "sha256:adfc71c9695eb107912787d881746dd1",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T16:29:25+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5454eb4d8427b09771ff2effb4cd90a5",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T16:29:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 492,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T16:37:12+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:5454eb4d8427b09771ff2effb4cd90a5",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T16:39:35+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 492,
+      "woorde_na": 486,
+      "konsep_hash": "sha256:d37663c196a142a35056e94595fa2d34"
+    },
+    {
+      "wanneer": "2026-10-23T16:39:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 486,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T16:39:35+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Die laaste ruk het hy meer dikwels gaan staan met sy hande op sy knieë': 'Die laaste ruk' is ambiguous here: it can mean 'lately' (against last year) or 'the last part of this afternoon's game'.",
+        "check (the language finder raised this; it may not be a fault): 'damp-toestel': If 'damp-toestel' is a term shared with other lessons, the three spelling changes must be applied together and across those lessons too, or not at all; a person should confirm before only one lesson changes.",
+        "check (the language finder raised this; it may not be a fault): 'grootmense by die skool en by die kliniek kan help om die regte hulp t': 'help om ... hulp te kry' repeats help/hulp and reads slightly wooden, but who gets the help is implied rather than stated, so it is left unchanged rather than guessed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T16:52:04+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3fa2470f9f4b4f43516af396f59c0fbc",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T16:52:05+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 489,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:26:20+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 489,
+      "woorde_na": 489
+    },
+    {
+      "wanneer": "2026-10-23T17:33:33+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:33:33+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:33:42+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:33:42+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:33:43+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-13.json",
+      "konsep_hash": "sha256:3fa2470f9f4b4f43516af396f59c0fbc",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:32341a29c0f8e98f4aeb50aac58f679f",
+  "spek_hash": "sha256:80109705f1bde58448ad3e967a1f3111",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_rondte_vir": "sha256:3fa2470f9f4b4f43516af396f59c0fbc",
+  "taal_geforseer_vir": "sha256:5454eb4d8427b09771ff2effb4cd90a5",
+  "taal_keurder_vir": "306f3cdda483f2abbeb31e6133ed5da4",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:3fa2470f9f4b4f43516af396f59c0fbc",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:d37663c196a142a35056e94595fa2d34",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "aab4571ebc7b873feef2963195f6146e"
 }

@@ -1,11 +1,9 @@
 {
   "les": "gr5/lewensvaardighede/uitvoerende-kunste/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:895a15f7e2b6494fa74db90675ebcf32",
+  "konsep_hash": "sha256:d1e3568c9146229f3e620c0d959c1251",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:707bfaadd3b0bab57834a3f98036b9f9"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -88,11 +86,329 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\uitvoerende-kunste\\les-4.json",
       "konsep_hash": "sha256:895a15f7e2b6494fa74db90675ebcf32",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T16:29:31+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a20a57edf6503f7730464ae2c2175c69",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T16:29:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 418,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T16:37:14+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:a20a57edf6503f7730464ae2c2175c69",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T18:00:44+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 418,
+      "woorde_na": 420,
+      "konsep_hash": "sha256:7400b07092e2afbae80c0d8ca1d07e44"
+    },
+    {
+      "wanneer": "2026-10-23T18:00:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 420,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:00:45+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'manier van lewe': 'manier van lewe' is a calque of English 'way of life' where Afrikaans has 'leefwyse'",
+        "check (the language finder raised this; it may not be a fault): 'Sinne vol amper eenderse klanke wat moeilik is om vinnig te sê.': The relative clause 'wat moeilik is om vinnig te sê' can attach to 'klanke' instead of 'Sinne'; untangling it would add words to a lesson near its ceiling, so it is left for the reviewer or writer to judge."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:03:39+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f09185c4df495994fade999edd5741a1",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T18:03:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 420,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:09:23+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 420,
+      "woorde_na": 426,
+      "konsep_hash": "sha256:9ea230c515ae8ab75c76003e25422a8e"
+    },
+    {
+      "wanneer": "2026-10-23T18:09:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 426,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:27:22+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:27:22+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:27:22+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "c-majeur toonaard"
+      ],
+      "tally": {
+        "c-majeur toonaard": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T18:27:22+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 2,
+      "punte": [
+        "[feite] C-majeur toonaard: 'In musiek: die toonaard wat op die noot  — corrected: Die omskrywing moet sê dat dit die MAJEUR-toonaard op C is, en dit moet die toonaard onderskei van die ander toonaard op C. Een ware onderskeidende besonderheid wat by Graad 5 pas: die C-majeur-toonleer het geen kruise of molle nie, dus word dit op 'n klavier net op die wit note gespeel. Moenie sê dat C die enigste toonaard op C is nie. As hierdie bewoording 'n gedeelde omskrywing vir die vak is, moet dit daar reggemaak word, nie net in hierdie les nie."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:30:25+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f5fcfd73759588561cd6afab92b7d692",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-23T18:30:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 426,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:36:58+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 4,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 426,
+      "woorde_na": 428,
+      "konsep_hash": "sha256:1a6e430d7b0c5e8795c779826c6a7d5d"
+    },
+    {
+      "wanneer": "2026-10-23T18:36:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 428,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:36:59+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in ''n gesig of ding van baie naby': The bare 'ding' without an article reads clipped in the definition."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:39:36+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:214d6d75d893a4573bda702044520c81",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-23T18:39:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 428,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:29+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 428,
+      "woorde_na": 429,
+      "konsep_hash": "sha256:a9cf0347de5b2ff846fd00fcbda8ca0d"
+    },
+    {
+      "wanneer": "2026-10-23T18:50:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 429,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:56:17+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:56:17+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:56:17+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "begrip",
+        "die oomblikke waarop die storie draai"
+      ],
+      "tally": {
+        "c-majeur toonaard": 1,
+        "begrip": 1,
+        "die oomblikke waarop die storie draai": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T18:56:17+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T19:12:58+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 2,
+      "vorige_blok_faalrondtes": {
+        "c-majeur toonaard": 1,
+        "begrip": 1,
+        "die oomblikke waarop die storie draai": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T19:12:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2af4254b622c0e8dbaeda310b871197f",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T19:12:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 434,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:17:02+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 434,
+      "woorde_na": 436,
+      "konsep_hash": "sha256:d1e3568c9146229f3e620c0d959c1251"
+    },
+    {
+      "wanneer": "2026-10-23T19:17:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 436,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:23:08+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:23:08+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 43,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:23:14+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:23:14+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 43,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:23:15+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\uitvoerende-kunste\\les-4.json",
+      "konsep_hash": "sha256:d1e3568c9146229f3e620c0d959c1251",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:8d91513498c3254859cbed41aa0d4050",
+  "spek_hash": "sha256:1d62c779bea5f4d7b8dd09983fe8cb7c",
   "hek_konteks": {
     "graad": 5,
     "begroting": 380
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_rondte_vir": "sha256:d1e3568c9146229f3e620c0d959c1251",
+  "taal_geforseer_vir": "sha256:a20a57edf6503f7730464ae2c2175c69",
+  "taal_keurder_vir": "6efb4f6d42b0f4ce2765e72118d25a5e",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:d1e3568c9146229f3e620c0d959c1251",
+  "taal_vir_mens": [],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "65fa7d14aa263d32823f7b778a0ea300"
 }

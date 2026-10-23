@@ -1,0 +1,205 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoekom jou liggaam elke dag water nodig het",
+      "voor": "Jou liggaam stoor nie water vir môre nie en jy moet",
+      "na": "Jou liggaam stoor nie water vir môre nie, en jy moet",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "rede_keurder": "Both halves are full clauses, so the AWS 2017 comma belongs here and nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoekom jou liggaam elke dag water nodig het",
+      "voor": "Die toilet spoel met water en mielies",
+      "na": "Die toilet spoel met water, en mielies",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Die toilet spoel' and 'mielies groei' each have their own subject and verb, so the comma is required."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoekom jou liggaam elke dag water nodig het",
+      "voor": "Diere drink dit en",
+      "na": "Diere drink dit, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses; the protected clause after it is left intact.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Two full clauses; the protected wording about the clinic stays exactly as it is."
+    },
+    {
+      "nr": 4,
+      "blok": "Waar die water vandaan kom",
+      "voor": "'n droë land en ons kry",
+      "na": "'n droë land, en ons kry",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Suid-Afrika is' and 'ons kry' are separate clauses, so the AWS comma applies."
+    },
+    {
+      "nr": 5,
+      "blok": "Waar die water vandaan kom",
+      "voor": "loop in strome af en 'n groot muur",
+      "na": "loop in strome af, en 'n groot muur",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Reenwater loop' and 'n groot muur hou' are separate clauses, so the comma is required."
+    },
+    {
+      "nr": 7,
+      "blok": "Hoekom die water kan opraak",
+      "voor": "'n Droogte duur lank en dit reën",
+      "na": "'n Droogte duur lank, en dit reën",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Two full clauses; the protected 'gewoonlik' is untouched."
+    },
+    {
+      "nr": 8,
+      "blok": "Nie elke kraan is naby nie",
+      "voor": "Water is swaar en iemand",
+      "na": "Water is swaar, en iemand",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Water is swaar' and 'iemand ... weet' are separate clauses, so the AWS comma applies."
+    },
+    {
+      "nr": 9,
+      "blok": "Water raak weg sonder dat jy dit sien",
+      "voor": "'n Kraan wat drup loop dag en nag en",
+      "na": "'n Kraan wat drup, loop dag en nag, en",
+      "soort": "leestekens",
+      "rede_vinder": "Comma closes the relative clause before the main verb (as elsewhere in the lesson) and the AWS comma goes before 'en' joining two clauses; the protected wording after it is untouched.",
+      "fout": "'drup loop' runs two verbs together so the reader stumbles, and the AWS comma before 'en' is missing.",
+      "rede_keurder": "The comma after the relative clause matches 'iemand wat dit dra, weet' in the lesson, and the protected wording is intact."
+    },
+    {
+      "nr": 11,
+      "blok": "Wat jy self kan doen om water te spaar",
+      "voor": "eerder as 'n pyp",
+      "na": "eerder as met 'n tuinslang",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Pyp' for a hose is colloquial and clashes with 'n pyp lek' (a water pipe) earlier; 'tuinslang' is the standard word, and repeating 'met' keeps the comparison parallel.",
+      "fout": "'Pyp' for a hose is colloquial and clashes with 'n pyp lek' (a water pipe) earlier in the lesson.",
+      "rede_keurder": "'Tuinslang' is the plain standard word a Grade 5 reader knows, and 'met' keeps the comparison parallel without changing the meaning."
+    },
+    {
+      "nr": 12,
+      "blok": "Hoe water vuil word",
+      "voor": "heeltemal skoon en tog",
+      "na": "heeltemal skoon, en tog",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Vuil water lyk' and 'tog is daar kieme in' are separate clauses, and the protected word 'kieme' is untouched."
+    },
+    {
+      "nr": 15,
+      "blok": "Hoe ons die water skoon hou",
+      "voor": "Gooi vullis in 'n drom",
+      "na": "Gooi vullis in 'n asblik",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Drom' is used earlier in the lesson for a rainwater drum; 'asblik' is the usual word for a rubbish bin and avoids the double meaning.",
+      "fout": "'Drom' is used earlier in the lesson for a rainwater drum, so the rubbish instruction carries a double meaning.",
+      "rede_keurder": "'Asblik' is the usual plain word for a rubbish bin and removes the clash without changing the instruction."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 6,
+      "blok": "Waar die water vandaan kom",
+      "voor": "sak diep in die grond en bly",
+      "na": "sak diep in die grond in en bly",
+      "soort": "idioom",
+      "rede_vinder": "Water 'sak in die grond in' is the natural Afrikaans construction with the closing 'in'.",
+      "fout": "none",
+      "rede_keurder": "'Sak diep in die grond' is already natural Afrikaans; adding the closing 'in' is a lateral move."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat jy self kan doen om water te spaar",
+      "voor": "waarin jy gebad het op die tuin",
+      "na": "waarin jy gebad het, op die tuin",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the embedded relative clause makes the sentence easier to read, matching 'iemand wat dit dra, weet' in the lesson.",
+      "fout": "none",
+      "rede_keurder": "No verbs collide here, and a comma between the object and 'op die tuin uit' splits the instruction rather than helping it."
+    },
+    {
+      "nr": 13,
+      "blok": "Hoe water vuil word",
+      "voor": "en veral diarree gee",
+      "na": "en veral diarree veroorsaak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Diarree gee' is colloquial; 'diarree veroorsaak' is the standard written form.",
+      "fout": "none",
+      "rede_keurder": "'Diarree gee' is plain natural Afrikaans that runs parallel with 'siek maak'; 'veroorsaak' is more formal without being clearly better."
+    },
+    {
+      "nr": 16,
+      "blok": "dam",
+      "voor": "dwars oor 'n rivier of stroom",
+      "na": "dwars oor 'n rivier of 'n stroom",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeat the article for parallelism with \"'n muur of 'n grondwal\" in the same sentence.",
+      "fout": "none",
+      "rede_keurder": "This is a glossary definition, and 'n rivier of stroom' is correct as written, so the change is lateral."
+    },
+    {
+      "nr": 17,
+      "blok": "stormwaterdrein",
+      "voor": "Die gat in die straat",
+      "na": "'n Gat in die straat",
+      "soort": "verwysing",
+      "rede_vinder": "A street has many such drains, so the indefinite article fits, as in the 'boorgat' entry.",
+      "fout": "none",
+      "rede_keurder": "The definite article is an accepted definition form (as in 'Die plek waar' for suiweringswerk), and a glossary definition should not be reworded laterally."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 14,
+      "blok": "Hoe water vuil word",
+      "voor": "Verder af haal mense en diere water uit",
+      "na": "Verder stroomaf gebruik mense en diere water uit",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Verder af' is vague where 'stroomaf' is meant, and animals drink rather than 'haal' water, so 'gebruik' fits both subjects.",
+      "fout": "'Haal' does not fit animals, and 'verder af' is loose for downstream.",
+      "rede_keurder": "The fault is real, but changing 'haal' to 'gebruik' broadens what people do with the water, so the writer should choose the fix.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Hoe ons die water skoon hou",
+      "teks": "Was met seep in 'n bak en nie in die rivier self nie.",
+      "rede": "'Was' has no object, so it is unclear whether the learner washes themselves, clothes or dishes; correcting it needs the intended content."
+    },
+    {
+      "blok": "Hoe ons die water skoon hou",
+      "teks": "Hou 'n toilet ver van 'n boorgat of 'n stroom waar mense water haal.",
+      "rede": "'Hou 'n toilet ver' reads oddly, since a toilet cannot be moved; it probably means a toilet should be built or placed far away, but changing the verb would mean guessing the intent."
+    },
+    {
+      "blok": "Hoekom jou liggaam elke dag water nodig het",
+      "teks": "Die toilet spoel met water en mielies in die land groei daarmee.",
+      "rede": "'Groei daarmee' is a slightly wooden way to say crops need water to grow; left unchanged because a smoother version would rephrase the claim."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 494,
+  "woorde_na": 495,
+  "wanneer": "2026-10-23T18:21:49+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:0ddf49f684a6879cba2dd1dc32a7a968",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a2e57faf870f4e80f50053b35846d3a3"
+}

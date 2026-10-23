@@ -4,18 +4,21 @@
   "graad": 5,
   "vak": "Lewensvaardighede",
   "budget": 500,
-  "checked_at": "2026-09-21T10:47:51+00:00",
+  "begrotingsreel": "default ±15%: 425-575",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T18:38:49+00:00",
   "study": {
-    "words": 499,
+    "words": 512,
     "sentences": 37,
-    "mean_sentence_len": 11.6,
-    "median_sentence_len": 11,
+    "mean_sentence_len": 11.9,
+    "median_sentence_len": 12,
     "longest_sentence": 30,
     "mean_syllables": 1.41,
-    "pct_polysyllabic": 7.9,
-    "pct_long_words": 0.5,
-    "commas_per_sentence": 0.32,
-    "list_words": 67
+    "pct_polysyllabic": 8.0,
+    "pct_long_words": 0.7,
+    "commas_per_sentence": 0.46,
+    "list_words": 72
   },
   "eli10": null,
   "block_counts": {
@@ -27,12 +30,12 @@
   "failures": [],
   "warnings": [
     "Study block 6 ('Wat middels aan die liggaam doen') only 25 words (guide 30–110)",
-    "List 'Dwelms waarvan jy dalk hoor' item 1: 23 words (guide 18) — consider tightening",
+    "Study text: 0.46 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "List 'Dwelms waarvan jy dalk hoor' item 1: 27 words (guide 18) — consider tightening",
     "List 'Dwelms waarvan jy dalk hoor' item 2: 20 words (guide 18) — consider tightening",
-    "Long words in study text with no 'begrip' entry: belangstelling, konsentreer"
+    "Long words in study text with no 'begrip' entry: belangstelling, damptoestelle, konsentreer"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }
