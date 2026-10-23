@@ -1,0 +1,107 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe die Maan se oppervlak lyk",
+      "voor": "is grys en baie fyn en dit lê",
+      "na": "is grys en baie fyn, en dit lê",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb (stof is / dit lê).",
+      "fout": "Missing AWS comma: 'en' joins two clauses with their own subject and verb (stof is / dit le).",
+      "rede_keurder": "Required AWS comma, meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Geen lug en geen vloeibare water",
+      "voor": "Daar is geen lug op die Maan nie, en geen vloeibare water",
+      "na": "Daar is geen lug op die Maan nie en ook geen vloeibare water",
+      "soort": "leestekens",
+      "rede_vinder": "The second part has no verb of its own, so no comma before 'en'; 'ook' makes the double negative read naturally.",
+      "fout": "Comma before 'en' where the second part has no verb of its own.",
+      "rede_keurder": "Removes a comma the AWS does not allow, and 'ook' makes the second negative read naturally without moving the meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Geen lug en geen vloeibare water",
+      "voor": "weg nie en daarom",
+      "na": "weg nie, en daarom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two full sentences (Niks vryf ... / daarom bly hulle ...).",
+      "fout": "Missing AWS comma: 'en' joins two full clauses (Niks vryf ... / daarom bly hulle ...).",
+      "rede_keurder": "Required AWS comma, meaning unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Geen lug en geen vloeibare water",
+      "voor": "geen see of rivier of plas water",
+      "na": "geen see, rivier of plas water",
+      "soort": "sinsbou",
+      "rede_vinder": "A three-item list reads more smoothly with a comma and one 'of' than with repeated 'of'.",
+      "fout": "Repeated 'of' in a three-item list reads stiffly.",
+      "rede_keurder": "Standard list form with a comma and one 'of'; same three items, same meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Geen lug en geen vloeibare water",
+      "voor": "Die Son se lig kom nooit onder in daardie kraters nie",
+      "na": "Die Son se lig skyn nooit tot onder in daardie kraters nie",
+      "soort": "idioom",
+      "rede_vinder": "'kom nooit onder in' is awkward; light 'skyn tot onder in' a hole is the natural phrasing, same meaning.",
+      "fout": "'kom nooit onder in' is an awkward, incomplete phrasing.",
+      "rede_keurder": "'skyn nooit tot onder in' is the natural phrasing and still says sunlight never reaches the bottom; 'nooit' is kept."
+    },
+    {
+      "nr": 8,
+      "blok": "Kleiner as die Aarde",
+      "voor": "so breed wees soos die Aarde self",
+      "na": "so breed wees as die Aarde self",
+      "soort": "grammatika",
+      "rede_vinder": "Comparison of equality is 'so ... as', as the block's own earlier sentence ('so breed as ons eie planeet') already uses.",
+      "fout": "Comparison of equality uses 'so ... soos' instead of standard 'so ... as', unlike the block's own earlier sentence.",
+      "rede_keurder": "Standard 'so ... as', consistent with the earlier sentence, meaning unchanged."
+    },
+    {
+      "nr": 9,
+      "blok": "Baie nader aan ons as die Son",
+      "voor": "ook net soveel verder weg",
+      "na": "ook net soveel kere verder weg",
+      "soort": "sinsbou",
+      "rede_vinder": "'kere' makes clear the sentence means the same number of times further, matching the two 'honderde kere' sentences before it.",
+      "fout": "'net soveel verder' is vague about whether it means the same number of times.",
+      "rede_keurder": "'kere' makes the proportional reading explicit, matching the two 'honderde kere' sentences, without adding a fact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Geen lug en geen vloeibare water",
+      "voor": "bly hulle baie lank staan",
+      "na": "bly hulle baie lank behoue",
+      "soort": "woordkeuse",
+      "rede_vinder": "Craters are holes; 'bly staan' is wooden for them, 'bly behoue' is the natural idiom for something that is not worn away.",
+      "fout": "none",
+      "rede_keurder": "'bly staan' is ordinary Afrikaans for something that remains, and 'behoue' is a harder, more formal word for a Grade 4 reader."
+    },
+    {
+      "nr": 7,
+      "blok": "Hoekom 'n mens 'n ruimtepak nodig het",
+      "voor": "Die ruimtepak maak hom heeltemal toe",
+      "na": "Die ruimtepak omsluit hom heeltemal",
+      "soort": "woordkeuse",
+      "rede_vinder": "'iemand toemaak' usually means covering someone with a blanket; 'omsluit' says the suit closes all round him.",
+      "fout": "none",
+      "rede_keurder": "'maak hom heeltemal toe' is clear to a Grade 4 reader in context, while 'omsluit' is a formal word that makes the sentence harder."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 423,
+  "woorde_na": 425,
+  "wanneer": "2026-10-22T23:18:57+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:10c5801111df63454e463c573df35d8f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1748aac34d546ec71a1cfc8958418e51"
+}

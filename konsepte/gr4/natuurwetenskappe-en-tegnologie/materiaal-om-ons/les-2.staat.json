@@ -1,7 +1,7 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/materiaal-om-ons/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d6cf7d04b01be87786f281d13b89d493",
+  "konsep_hash": "sha256:61cd597d4fd87971e97bff15946381f2",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -142,11 +142,115 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\materiaal-om-ons\\les-2.json",
       "konsep_hash": "sha256:d6cf7d04b01be87786f281d13b89d493",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T06:15:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:430b3a5a7ae9b0732f1287bd5a18dea2",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T06:15:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 766,
+      "begroting": 690,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:15:46+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:430b3a5a7ae9b0732f1287bd5a18dea2",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T06:20:30+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 21,
+      "laat_vaar": 4,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 766,
+      "woorde_na": 757,
+      "konsep_hash": "sha256:97f8046e280b04896abc921bd1cfbb0c"
+    },
+    {
+      "wanneer": "2026-10-23T06:20:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 757,
+      "begroting": 690,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:20:30+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Dit is een lyn en 'n materiaal kan in albei rigtings daarop loop.': Missing AWS comma between two full clauses ('Dit is een lyn' / ''n materiaal kan ... loop').",
+        "check (the language finder raised this; it may not be a fault): 'Verhit 'n vaste stof genoeg en dit verander in 'n vloeistof. (and the ': I added no AWS comma to imperative-plus-'en' sentences because the imperative half has no stated subject. The reviewer may want to apply one rule consistently across them."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T06:22:13+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:61cd597d4fd87971e97bff15946381f2",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T06:22:14+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 757,
+      "begroting": 690,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:23:03+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 757,
+      "woorde_na": 757
+    },
+    {
+      "wanneer": "2026-10-23T06:30:55+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:30:56+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 42,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:30:56+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\materiaal-om-ons\\les-2.json",
+      "konsep_hash": "sha256:61cd597d4fd87971e97bff15946381f2",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:f1fa17eeb829d779c38fb81d1beb2ee0",
+  "spek_hash": "sha256:819b1be85f3d590184a31141fbd4931f",
   "hek_konteks": {
     "graad": 4,
     "begroting": 690
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:430b3a5a7ae9b0732f1287bd5a18dea2",
+  "taal_rondte_vir": "sha256:61cd597d4fd87971e97bff15946381f2",
+  "taal_keurder_vir": "148a2d0f939c4b667c4fecf797f35773",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:61cd597d4fd87971e97bff15946381f2",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:97f8046e280b04896abc921bd1cfbb0c",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "74234e98afe7498fb5daf1f36ac2d78a"
 }

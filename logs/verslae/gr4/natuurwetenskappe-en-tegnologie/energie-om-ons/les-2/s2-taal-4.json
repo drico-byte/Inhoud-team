@@ -1,0 +1,88 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "en die ryer se energie by die fiets.",
+      "na": "en die ryer se energie gaan by die fiets in.",
+      "soort": "sinsbou",
+      "rede_vinder": "The second clause drops its verb (gapping), which a Grade 4 reader may not follow; restoring 'gaan ... in' makes it a full clause matching the comma before 'en'.",
+      "fout": "The second clause after the comma drops its verb, so a Grade 4 reader has to carry 'gaan ... in' over from the first clause.",
+      "rede_keurder": "Restoring the verb makes a full parallel clause that matches the AWS comma, with the same people, inputs and meaning, and the protected 'nuttige uitset' wording untouched."
+    },
+    {
+      "nr": 3,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "het 'n dun draadjie binne-in wat gloei",
+      "na": "het binne-in 'n dun draadjie wat gloei",
+      "soort": "woordorde",
+      "rede_vinder": "The relative clause 'wat gloei' should follow its antecedent 'draadjie' directly instead of being separated by 'binne-in'.",
+      "fout": "'binne-in' sits between 'draadjie' and 'wat gloei', so the relative clause briefly seems to attach to 'binne-in'.",
+      "rede_keurder": "Moving 'binne-in' puts the relative clause right after its antecedent and reads more naturally; the meaning and the protected 'ou soort gloeilamp' stay intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die strykyster en die fiets",
+      "voor": "hitte en klank af by die ketting en die bande",
+      "na": "hitte en klank by die ketting en die bande af",
+      "soort": "woordorde",
+      "rede_vinder": "In standard Afrikaans the separable particle 'af' of 'afgee' goes at the end of the clause, after the prepositional phrase.",
+      "fout": "none",
+      "rede_keurder": "Putting a prepositional phrase after the particle ('gee ... af by die ketting') is normal, natural Afrikaans; the proposal is a lateral move and pushes 'af' further from its verb for a young reader."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 654,
+  "woorde_na": 656,
+  "wanneer": "2026-10-22T23:06:22+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 22,
+      "blok": "Die strykyster en die fiets",
+      "voor": "se gewig druk die los draadjies dan plat",
+      "na": "se gewig druk dan die los draadjies plat",
+      "soort": "woordorde",
+      "rede_vinder": "Dan sits more naturally straight after the verb, before the object.",
+      "fout": "none",
+      "rede_keurder": "Both word orders are natural Afrikaans, so this is a lateral move."
+    },
+    {
+      "nr": 4,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "Die energie lê al die tyd in daardie twee batterye gestoor",
+      "na": "Die energie is al die tyd in daardie twee batterye gestoor",
+      "soort": "sinsbou",
+      "rede_vinder": "'lê ... gestoor' is wooden; the passive 'is ... gestoor' is the usual construction and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'lê ... gestoor' is a normal Afrikaans posture-verb construction that carries the sense of energy resting there unused; 'is gestoor' is a lateral move that flattens it."
+    },
+    {
+      "nr": 3,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "terug in dieselfde flitslig en druk weer",
+      "na": "terug in die flitslig en druk weer",
+      "soort": "woordkeuse",
+      "rede_vinder": "'dieselfde' occurs three times in two sentences; the flashlight is obviously the same one, and 'dieselfde twee batterye' and 'dieselfde liggie' still carry the point.",
+      "fout": "none",
+      "rede_keurder": "The repeated 'dieselfde' is deliberate emphasis in a test where only the batteries may change, and the original reads well, so cutting it is a lateral move that weakens the point."
+    },
+    {
+      "nr": 3,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "'n Gloeilamp wat lank aan was",
+      "na": "'n Gloeilamp wat lank aangeskakel was",
+      "soort": "woordkeuse",
+      "rede_vinder": "'aan was' is colloquial; 'aangeskakel was' is the standard written form.",
+      "fout": "none",
+      "rede_keurder": "'aan was' for a lamp is plain, natural Afrikaans for a Grade 4 reader; 'aangeskakel was' is longer and only a lateral, more formal move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:1e7b2fc29f74b66d3448147c624548e2",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4b157b21c1aeec48b5b20e1bddeaa5ad"
+}

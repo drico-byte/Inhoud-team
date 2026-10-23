@@ -1,11 +1,15 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/energie-en-klank/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:f37d08583e68dedd5c613c219b0c351c",
+  "konsep_hash": "sha256:bcb99829bb6d8d362ac1b55a4048a47c",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:5c94e3a3432b11b4dba04022877f070c"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "wat 'n klank harder maak": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -287,23 +291,135 @@
       "woorde": 551,
       "begroting": 538,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:32:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:aa89e3b17f9b12540e091f3df5bfd03e",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T22:32:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 551,
+      "begroting": 538,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:34:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 551,
+      "woorde_na": 547,
+      "konsep_hash": "sha256:5c94e3a3432b11b4dba04022877f070c"
+    },
+    {
+      "wanneer": "2026-10-22T22:34:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 547,
+      "begroting": 538,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:40:46+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:40:46+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 21,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:40:46+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "wat 'n klank harder maak"
+      ],
+      "tally": {
+        "wat 'n klank harder maak": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T22:40:46+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Die klank is harder, en dit is nog steeds presies dieselfde  — corrected: Haal 'presies' uit: 'Die klank is harder, en dit is nog steeds dieselfde noot.' Die res van die les ('die noot bly dieselfde', 'dit is dieselfde noot') is reeds in hierdie sterkte en kan bly."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T22:42:40+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:bcb99829bb6d8d362ac1b55a4048a47c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T22:42:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 546,
+      "begroting": 538,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:46:17+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 546,
+      "woorde_na": 546
+    },
+    {
+      "wanneer": "2026-10-22T22:54:21+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:54:21+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:54:21+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\energie-en-klank\\les-2.json",
+      "konsep_hash": "sha256:bcb99829bb6d8d362ac1b55a4048a47c",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:ba97255db45f0fda8c176d64fa1bd095",
+  "spek_hash": "sha256:976e9f50dd88fe5b4dbafdba4c859261",
   "hek_konteks": {
     "graad": 4,
     "begroting": 538
   },
   "taal_geforseer_vir": "sha256:0ee32a4fd25ad3c3c945dc9450fb679e",
-  "taal_rondte_vir": "sha256:f37d08583e68dedd5c613c219b0c351c",
-  "taal_keurder_vir": "bfbe217c9278af52b08db50eb6ccf791",
+  "taal_rondte_vir": "sha256:bcb99829bb6d8d362ac1b55a4048a47c",
+  "taal_keurder_vir": "df4bc3b7bbebddacce71edec1bcbe92c",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:f37d08583e68dedd5c613c219b0c351c",
-  "taal_vir_skrywer": [
-    "fix: [taal] in 'Die vorige toets het gewys dat 'n ander afdruk die noot nie verander n': The noun 'afdruk' means a print or imprint, not the act of pressing down",
-    "fix: [taal] in 'Jy het pas gehoor dat 'n ander afdruk die noot nie verander nie': The noun 'afdruk' means a print or imprint, not the act of pressing down",
-    "check (the language finder raised this; it may not be a fault): ''n ander afdruk': If the reviewer keeps only one of the two 'afdruk' sentence changes, the two blocks will word the same point differently; they should be decided together. The 'hoe ver ... ook al' wording is slightly wider than 'a different press', so check it keeps the meaning."
-  ],
+  "taal_klaar_vir": "sha256:bcb99829bb6d8d362ac1b55a4048a47c",
+  "taal_vir_skrywer": [],
   "taal_vir_mens": [],
   "taal_bons_vir": "sha256:8b0ad1cf6f3fe991b80a80fa87e453d4",
   "taal_bons_siklus": 1,

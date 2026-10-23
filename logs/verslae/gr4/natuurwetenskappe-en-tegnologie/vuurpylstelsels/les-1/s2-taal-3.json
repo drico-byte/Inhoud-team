@@ -1,0 +1,58 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Wat laat die ballon verder beweeg?",
+      "voor": "swaai die ballon rond en beweeg dit nie reguit nie",
+      "na": "swaai die ballon rond, en dit beweeg nie reguit nie",
+      "soort": "leestekens",
+      "rede_vinder": "Two clauses each with their own subject and verb take a comma before 'en' (AWS 2017); normal word order after 'en' reads more naturally, same word count.",
+      "fout": "Two clauses each with their own subject and verb ('swaai die ballon', 'beweeg dit') are joined by 'en' without the AWS 2017 comma.",
+      "rede_keurder": "Adds the required AWS comma and uses normal word order after 'en', same word count, and the meaning stays the same: on a slack line the balloon swings about and does not move straight."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die lug word al hoe dunner",
+      "voor": "het mense die eerste keer met",
+      "na": "het mense vir die eerste keer met",
+      "soort": "idioom",
+      "rede_vinder": "The fixed expression for 'for the first time' is 'vir die eerste keer'; bare 'die eerste keer' reads as 'the first time (when)'.",
+      "fout": "none",
+      "rede_keurder": "Adverbial 'die eerste keer' is standard, natural Afrikaans, so adding 'vir' is a lateral move that spends a word in a study text near its ceiling; 'tot op die Maan' stays untouched."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 483,
+  "woorde_na": 483,
+  "wanneer": "2026-10-23T07:02:35+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Waar die uitlaatgasse vandaan kom",
+      "voor": "kan net by die opening agter uit,",
+      "na": "kan net by die opening agter uitkom,",
+      "soort": "grammatika",
+      "rede_vinder": "The verb is missing after 'kan'; 'agter uit' also reads like 'agteruit' (backwards), and 'uitkom' fixes both without adding a word.",
+      "fout": "none",
+      "rede_keurder": "'kan ... uit' is normal Afrikaans modal ellipsis, and 'agter uitkom' does not remove the 'agteruit' misreading (it even echoes 'agteruitkom'), so it is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom die vuurpyl vorentoe gaan",
+      "voor": "Daardie stoot werk vorentoe en dryf",
+      "na": "Daardie stoot dryf",
+      "soort": "sinsbou",
+      "rede_vinder": "'werk vorentoe' is wooden and repeats the 'vorentoe' that ends the sentence; the direction stays in 'dryf die hele vuurpyl vorentoe'.",
+      "fout": "none",
+      "rede_keurder": "Cutting 'werk vorentoe' removes a clause that states the push's direction right after 'stoot ... terug', which is content, not just repetition."
+    }
+  ],
+  "konsep_hash_voor": "sha256:e1914c525ee18a79692038d4a0a81c66",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:ee5551cf7414808fe0168fa65529da48"
+}

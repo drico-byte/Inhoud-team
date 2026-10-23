@@ -1,0 +1,110 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Wat diep in jou oor breek",
+      "voor": "stuur die boodskap na jou brein toe",
+      "na": "stuur 'n boodskap na jou brein toe",
+      "soort": "verwysing",
+      "rede_vinder": "No message has been mentioned before, so the definite article points back to nothing; the indefinite article fits.",
+      "fout": "The definite article 'die boodskap' points back to a message never mentioned.",
+      "rede_keurder": "'n Boodskap' is the natural first mention and the meaning stays the same."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoe jy weet 'n klank is te hard",
+      "voor": "'n arm se lengte",
+      "na": "'n armlengte",
+      "soort": "idioom",
+      "rede_vinder": "'n Armlengte' is the natural Afrikaans compound; 'n arm se lengte' is a word-for-word rendering of English.",
+      "fout": "'n arm se lengte' copies the English 'an arm's length'.",
+      "rede_keurder": "'n Armlengte' is the natural Afrikaans compound, easy at Grade 4, and keeps the same distance in a warning sign rather than an instruction."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wanneer 'n klank geraas word",
+      "voor": "'n hek wat kras",
+      "na": "'n hek wat kraak",
+      "soort": "woordkeuse",
+      "rede_vinder": "A gate's hinges 'kraak' in idiomatic Afrikaans; 'kras' is a harsh scraping or a crow's call and reads oddly for a gate.",
+      "fout": "none",
+      "rede_keurder": "'Kras' is a sound that grates, which is exactly what the sentence needs ('naar om na te luister'), so 'kraak' is a sideways swap that also softens the example."
+    },
+    {
+      "nr": 2,
+      "blok": "Wanneer 'n klank geraas word",
+      "voor": "Enige een van die vier",
+      "na": "Enigeen van die vier",
+      "soort": "spelling",
+      "rede_vinder": "The pronoun 'enigeen' is written as one word (AWS/HAT).",
+      "fout": "none",
+      "rede_keurder": "Here 'een' is the number ('any single one of the four'), set against 'hulle hoef nie saam voor te kom nie', so writing it as two words is correct and deliberate."
+    },
+    {
+      "nr": 6,
+      "blok": "permanent",
+      "voor": "Wanneer iets vir altyd so bly en nooit weer verander nie.",
+      "na": "Wat vir altyd so bly en nooit weer verander nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Permanent' is an adjective, so a 'wat ...' definition fits the headword better than a 'wanneer ...' clause; meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "A 'wanneer' definition is acceptable at Grade 4, and dropping 'iets' leaves a headless 'wat' clause, so a glossary definition would be reworded without being clearly better."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Hoe jy jou ore veilig hou",
+      "voor": "Daar help dit dat jy",
+      "na": "Dan help dit as jy",
+      "soort": "sinsbou",
+      "rede_vinder": "'Daar' used for 'in that situation' is wooden here; 'Dan help dit as' is the natural conditional and keeps the meaning.",
+      "fout": "'Daar help dit dat jy' is wooden, and 'dat' makes the advice sound like a fact.",
+      "rede_keurder": "The fault is real, but the change rewrites a safety instruction (changing 'dat' to conditional 'as', and 'daar' to 'dan'), so the writer must reword it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 569,
+  "woorde_na": 567,
+  "wanneer": "2026-10-22T23:04:10+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 21,
+      "blok": "Hoe jy jou ore veilig hou",
+      "voor": "Draai dit sagter as die klank uit 'n TV of 'n foon kom.",
+      "na": "As die klank uit 'n TV of 'n foon kom, draai dit sagter.",
+      "soort": "woordorde",
+      "rede_vinder": "dit points forward to a noun not yet named; putting the condition first gives the pronoun its referent.",
+      "fout": "none",
+      "rede_keurder": "dit reads back to the loud sound in the previous sentence, so the reorder is a lateral move inside a safety instruction."
+    },
+    {
+      "nr": 25,
+      "blok": "Hoe jy jou ore veilig hou",
+      "voor": "met harde masjiene werk",
+      "na": "met raserige masjiene werk",
+      "soort": "woordkeuse",
+      "rede_vinder": "harde masjiene can read as solid machines; raserig means noisy and shares its root with geraas.",
+      "fout": "none",
+      "rede_keurder": "In this lesson hard is the volume word, so 'harde masjiene' reads as loud machines and raserig is a lateral swap away from the lesson's own vocabulary."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar die geraasbesoedeling vandaan kom",
+      "voor": "baie kinders wat gelyk op die speelgrond skree",
+      "na": "baie kinders wat tegelyk op die speelgrond skree",
+      "soort": "woordkeuse",
+      "rede_vinder": "'tegelyk' is the standard word for 'at the same time'; 'gelyk' can also be read as 'equally' or 'level'.",
+      "fout": "none",
+      "rede_keurder": "'gelyk' meaning 'at the same time' is normal, natural Afrikaans and cannot be misread in this phrase, so this is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:320485b94214d734eb7ec5749aa6a494",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1af1441895a4da754008b0b077fac704"
+}

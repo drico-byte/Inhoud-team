@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/ontwikkeling-van-self/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:6a6a0baeab43aa35f298e65efa2ffbef",
+  "konsep_hash": "sha256:b77df6b446aff31f629a006e678d3f9d",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -44,11 +44,102 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\ontwikkeling-van-self\\les-2.json",
       "konsep_hash": "sha256:6a6a0baeab43aa35f298e65efa2ffbef",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T06:19:06+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:76faa0d20be4edac5f85d2f25aa38af5",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T06:19:06+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 455,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:19:06+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:76faa0d20be4edac5f85d2f25aa38af5",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T06:27:59+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 11,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 455,
+      "woorde_na": 459,
+      "konsep_hash": "sha256:5aec2601c6aede04e356d079ac0833b9"
+    },
+    {
+      "wanneer": "2026-10-23T06:28:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 459,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:28:00+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Die laaste wedstryd van 'n toernooi tussen die twee beste spanne.': 'tussen die twee beste spanne' can attach to 'toernooi' rather than to the match",
+        "check (the language finder raised this; it may not be a fault): 'Grey Junior, 'n skool uit die stad, het ook daar gespeel.': 'uit die stad' is vague: it could mean the city named earlier (Gqeberha) or just 'a city school'. Making it specific would mean guessing the intended content, so it is flagged instead of changed.",
+        "check (the language finder raised this; it may not be a fault): 'Hy is later vir die provinsie se onder-twaalfspan gekies.': The usual written form for an age-group team is with the numeral (e.g. 'o.12-span' or 'onder-12-span'); worth a check against AWS for a Grade 4 reader, not changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T06:33:45+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1b677ff60a36f724657363841667962b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T06:33:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 459,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:38:42+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 459,
+      "woorde_na": 460,
+      "konsep_hash": "sha256:b77df6b446aff31f629a006e678d3f9d"
+    },
+    {
+      "wanneer": "2026-10-23T06:38:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 460,
+      "begroting": 450,
+      "failures": []
     }
   ],
   "spek_hash": "sha256:e80f336c6d5ced07f7011b5a59e6d5f5",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:76faa0d20be4edac5f85d2f25aa38af5",
+  "taal_rondte_vir": "sha256:b77df6b446aff31f629a006e678d3f9d",
+  "taal_keurder_vir": "912f65f08b82f409f9b93e962c456b9f",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:b77df6b446aff31f629a006e678d3f9d",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:5aec2601c6aede04e356d079ac0833b9",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "8abfcddbd399c3273794aa9700e02a4f"
 }

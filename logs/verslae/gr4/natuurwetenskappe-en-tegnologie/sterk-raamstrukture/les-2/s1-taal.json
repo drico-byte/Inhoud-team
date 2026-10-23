@@ -1,0 +1,170 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n huis van gras regop hou",
+      "voor": "huise van gras en riet en matte",
+      "na": "huise van gras, riet en matte",
+      "soort": "leestekens",
+      "rede_vinder": "A three-item list reads more naturally with a comma than with a doubled 'en'.",
+      "fout": "The doubled 'en ... en' in a plain three-item list reads clumsily.",
+      "rede_keurder": "A comma list is the natural Afrikaans form here, and the list keeps the same three materials."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n huis van gras regop hou",
+      "voor": "Die raam hou die huis regop en die bedekking",
+      "na": "Die raam hou die huis regop, en die bedekking",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses with their own subject and verb.",
+      "rede_keurder": "'Die raam hou' and 'die bedekking hou' are two full clauses, so the AWS 2017 comma before 'en' is required."
+    },
+    {
+      "nr": 3,
+      "blok": "Waar jy hierdie raam al gesien het",
+      "voor": "'n Kragmas is nog een en sy stutte",
+      "na": "'n Kragmas is nog een, en sy stutte",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'n Kragmas is' and 'sy stutte is' each have their own subject and verb."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoekom 'n tak 'n goeie stut is",
+      "voor": "Die tak bly in daardie vorm en hy dra",
+      "na": "Die tak bly in daardie vorm, en hy dra",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'Die tak bly' and 'hy dra' are two full clauses joined by 'en'."
+    },
+    {
+      "nr": 7,
+      "blok": "Inheems en tradisioneel",
+      "voor": "kinders en so gaan dit",
+      "na": "kinders, en so gaan dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'Ouers wys' and 'so gaan dit ... aan' each have their own subject and verb."
+    },
+    {
+      "nr": 8,
+      "blok": "Die Zoeloe-huis",
+      "voor": "is rond en die hele huis buig",
+      "na": "is rond, en die hele huis buig",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'n Zoeloe-grashuis is rond' and 'die hele huis buig' are two full clauses."
+    },
+    {
+      "nr": 9,
+      "blok": "Die Zoeloe-huis",
+      "voor": "Sy raam is jong takke wat",
+      "na": "Sy raam bestaan uit jong takke wat",
+      "soort": "sinsbou",
+      "rede_vinder": "A frame 'bestaan uit' branches; 'is jong takke' is an awkward equation.",
+      "fout": "'Sy raam is jong takke' is an awkward equation of a frame with its material.",
+      "rede_keurder": "'bestaan uit' is the natural Afrikaans way to say what a frame is made of, with no change in meaning."
+    },
+    {
+      "nr": 10,
+      "blok": "Die Xhosa-huis",
+      "voor": "Die pale loop skuins van die muur af op na een punt bo.",
+      "na": "Die pale loop skuins van die muur af boontoe en kom in een punt bymekaar.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Af op na een punt bo' piles up direction words and reads clumsily; the meaning is unchanged.",
+      "fout": "'van die muur af op na een punt bo' piles up direction words and makes a reader stumble.",
+      "rede_keurder": "The proposal says the same thing plainly: the poles slope up from the wall and meet at one point at the top."
+    },
+    {
+      "nr": 14,
+      "blok": "Die Nama-huis",
+      "voor": "Hulle word vasgebind en die raam",
+      "na": "Hulle word vasgebind, en die raam",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'Hulle word vasgebind' and 'die raam word ... gedek' each have their own subject and verb."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 6,
+      "blok": "Inheems en tradisioneel",
+      "voor": "Ouers wys dit vir hulle kinders",
+      "na": "Ouers wys dit aan hulle kinders",
+      "soort": "grammatika",
+      "rede_vinder": "Standard written Afrikaans shows something 'aan' someone; 'wys vir' is colloquial.",
+      "fout": "none",
+      "rede_keurder": "'Iets vir iemand wys' is natural, accepted Afrikaans with the same meaning, so the swap is lateral."
+    },
+    {
+      "nr": 11,
+      "blok": "Die Xhosa-huis",
+      "voor": "stut die dak van onder.",
+      "na": "stut die dak van onder af.",
+      "soort": "idioom",
+      "rede_vinder": "The idiomatic form is 'van onder af'.",
+      "fout": "none",
+      "rede_keurder": "'stut die dak van onder' is already natural and clear, so adding 'af' is a lateral move."
+    },
+    {
+      "nr": 12,
+      "blok": "Die Nama-huis",
+      "voor": "wat tot op die grond kom",
+      "na": "wat tot op die grond strek",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Strek' is the natural verb for a shape that reaches down to the ground.",
+      "fout": "none",
+      "rede_keurder": "'tot op die grond kom' is natural Afrikaans and plainer for a Grade 4 reader than 'strek'."
+    },
+    {
+      "nr": 13,
+      "blok": "Die Nama-huis",
+      "voor": "in hulle eie taal",
+      "na": "in hulle taal",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids repeating 'hulle eie' twice in one sentence; the first 'eie naam' carries the point.",
+      "fout": "none",
+      "rede_keurder": "'hulle eie taal' is a fixed expression that stresses the contrast with the Afrikaans name and matches the glossary entry, so dropping 'eie' loses emphasis for little gain."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Inheems en tradisioneel",
+      "voor": "lank in 'n gemeenskap se hande is",
+      "na": "al lank deur 'n gemeenskap gebruik word",
+      "soort": "idioom",
+      "rede_vinder": "'Lank in 'n gemeenskap se hande is' is a wooden, unclear image; the replacement says the same thing plainly.",
+      "fout": "'lank in 'n gemeenskap se hande is' is a wooden, unclear image in the sentence that defines 'tradisioneel'.",
+      "rede_keurder": "The fault is real, but this sentence defines a term and 'gebruik word' narrows the sense from a practice the community holds and passes on to one it merely uses, so the writer should fix it.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 15,
+      "blok": "tradisioneel",
+      "voor": "aangegee word",
+      "na": "oorgedra word",
+      "soort": "woordkeuse",
+      "rede_vinder": "A tradition is 'oorgedra' from person to person; 'aangegee' suggests handing over an object.",
+      "fout": "'aangegee' suggests handing over an object, whereas a tradition is normally 'oorgedra'.",
+      "rede_keurder": "This rewords a glossary definition beyond a spelling or grammar fix, so only the writer may change it, for every lesson that uses it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 442,
+  "woorde_na": 444,
+  "wanneer": "2026-10-23T06:14:29+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:f3f4ce5f573e695a18f13d3cc0e520e6",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:11a67c2d3fa7d70826715655b99de327"
+}

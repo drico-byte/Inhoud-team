@@ -2,14 +2,24 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-31 lesse.
+52 lesse.
 
+
+## Graad 4/Lewensvaardighede/Gesondheids- en omgewingsverantwoordelikheid
+
+- **Les 01 - Stil water sê nie hoe diep dit is nie** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; KABV-gaping: Feite: induik in vlak water kan jou NEK breek of ernstig beseer (nie 'skedel' nie); jy kan DIKWELS nie die bodem sien nie; die water KAN kouer wees as wat dit lyk, veral dieper af; KABV-gaping: Feite: 'lewensredder' in plaas van 'badmeester'; 'n stroom kom ook in die see voor; 'Baie mense dink' (nie 'kinders'); KABV-gaping: Taal: AWS-kommas; 'Gee die persoon 'n stok aan'; 'na sy foon kyk'; 'die swembad se hek'; 'In werklikheid'; veiligheidsreëls beskerm
+- **Les 02 - Die bal rol na die dam toe** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Taal: AWS-kommas; 'van die water af moet wegbly'; die verdrinkingsveiligheidsreëls (nie inspring nie, plat lê, ver van die gladde kant af, 'n kind wat verdrink, is stil) beskerm en onveranderd
+- **Les 04 - Die oggend toe Naledi stilgestaan het** (goedgekeur 2026-10-23): 2 taalverandering(s) toegepas; KABV-gaping: Feite: die oorgang is regdeur by die verkeerslig; nie meer 'n sebrapad of "die strepe" nie (in Suid-Afrika twee verskillende oorgange met ander reëls); KABV-gaping: Feite: die skolierpatrollie sonder 'n volwassene is uitgehaal ('n patrollie werk altyd onder toesig van 'n volwassene); KABV-gaping: Taal: AWS-kommas; 'kyk eers na regs'; 'al duur dit langer'; die oorsteekreëls (regs, links, regs; wag vir die groen mannetjie en kyk steeds) onveranderd
 
 ## Graad 4/Lewensvaardighede/Ontwikkeling van self
 
+- **Les 01 - Waarin is jy goed** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: KABV-gaping (KABV bl. 17): wat dit beteken om jou eie sterkpunt te WAARDEER (hoekom en hoe), sonder spog; KABV-gaping: KABV-gaping (KABV bl. 17): twee soorte suksesvolle ervarings - 'n prestasie by die skool en 'n opwindende ervaring tuis wat GEEN prestasie is nie (Sipho kyk saam met sy oupa in 'n ou enjin); KABV-gaping: Taal: AWS-kommas; 'op die voorleesdag', 'voorgelees', 'laaste gekom', 'hanteer diere rustig'; 'nie elke sterkpunt lê in die klaskamer nie'
 - **Les 11 - Wanneer iemand jou afknou** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: Afknouery se drie merkers gelyk gemaak aan die ooreengekome omskrywing en les 5
 - **Les 03 - Jou liggaam is joune** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: KABV se term 'liggaamlike integriteit' by naam genoem, met 'n kort betekenis en 'n begrip-inskrywing; KABV-gaping: Veiligheid (feitetoets): die ander-kind-reel was voorwaardelik ('as 'n speletjie of 'n geheim'); nou 'n verbod sonder voorwaarde, met een versorgingsuitsondering
+- **Les 04 - Sorg vir jou eie liggaam** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Feite: Thandi sit onder 'n boom (doelpale gee geen skaduwee nie); ná sweet smeer sy weer sonbrandroom op al haar kaal vel, ook haar arms (CANSA); KABV-gaping: Taal: AWS-kommas; 'noodhulpsak'; 'sê vir Thandi sy moet eers 'n ruk sit'; die noodhulpstappe beskerm en onveranderd
 - **Les 05 - Wanneer mense bots** (goedgekeur 2026-10-22): 12 taalverandering(s) toegepas; KABV-gaping: Afknouery se drie merkers gelyk gemaak aan die ooreengekome omskrywing en les 11
+- **Les 06 - 'n Plek waar jy veilig voel** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Taal: AWS-kommas; Juffrou Adonis se paragraaf in die verlede tyd sodat die volgorde van gebeure duidelik is; 'Haar wange word warm'
+- **Les 07 - Wat voel jy** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Taal: AWS-kommas; 'Dan nooi jy hom om saam te speel'; 'wil dadelik vir iemand vertel wat gebeur het'; afguns en jaloesie bly twee aparte gevoelens
 
 ## Graad 4/Lewensvaardighede/Sosiale verantwoordelikheid
 
@@ -29,9 +39,41 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 03 - Van vel tot vere hoe ons na diere kyk** (goedgekeur 2026-10-22): 8 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: die kwartaal se sleutelterme kry elkeen 'n kort begrip-inskrywing (besluit 1); KABV-gaping: KABV-gaping: kunswerke kom hierdie kwartaal by foto's en regte voorwerpe as stimuli; KABV-gaping: KABV-gaping: jy beskryf jou eie werk en 'n ander se werk met dieselfde woorde
 - **Les 04 - Van liggroen tot donkergroen** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: KABV-gaping: waar die kunselemente in die natuur self voorkom, met een voorbeeld in 'n foto en een in 'n skildery; KABV-gaping: KABV-gaping: jy beskryf jou eie werk en 'n maat s'n met dieselfde woorde; KABV-gaping: Dekking: 'vorm' net vir iets plat of vir wat 'n foto wys, nie vir regte dinge buite nie; KABV-gaping: Feite: 'n sekondêre kleur word as oranje, groen of pers benoem, sodat geelgroen nie as sekondêr gelees word nie; KABV-gaping: Taal: geelgroen en diepgroen as een woord
 
+## Graad 4/Natuurwetenskappe en Tegnologie/Beweging en Energie in 'n stelsel
+
+- **Les 01 - Blaas, klop en pluk** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: KABV-oudit: die uhadi se kalbas en 'n tweede inheemse instrument is NIE bygevoeg nie (KABV het dit net in die aktiwiteitekolom); KABV-gaping: Feite: die rekkieproef is reggestel: pluk die rekkie en raak dit aan terwyl dit nog beweeg; die rekkie oor die opening van 'n boks sonder deksel (geen blik met 'n skerp rand nie); 'byna geen klank' (nie 'uitset'); KABV-gaping: Feite: klank is die uitset waarvoor die instrument GEMAAK is (die meeste energie word hitte); 'n gewone radio teenoor instrumente soos die kitaar, drom en panfluit; 'n deel van die instrument beweeg (nie altyd 'binne-in' nie); 'Net soos 'n masjien' as vergelyking; KABV-gaping: Woordelys: inset en stelsel volg die ooreengekome omskrywings; KABV-gaping: Taal: AWS-kommas; 'vanself'; 'doel'; 'muurprop'; 'hou aan speel'; 'droogblaas'
+
+## Graad 4/Natuurwetenskappe en Tegnologie/Die Maan
+
+- **Les 01 - 'n Bal van rots sonder lug** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Feite: die Maan het geen eie suurstof nie (nie 'geen lug' as absolute nie); 'byna oral' en 'die meeste' waar 'n absolute te sterk was; KABV-gaping: Feite: 'n los laag stof en klippe lê oor die rots; kraters is gate wat rotse geslaan het, nie 'niks' nie; KABV-gaping: Feite: die Maan beweeg altyd in die ruimte om die Aarde; hy is die Aarde se naaste groot buurman (satelliete en die ruimtestasie is nader); KABV-gaping: Feite: die pole word aan die draai gekoppel; die ruimtepak is nodig buite in die ruimte of op die Maan; KABV-gaping: Woordelys: oppervlak en ruimte volg die ooreengekome omskrywings; KABV-gaping: Taal: AWS-kommas en klein woordkeuses
+
+## Graad 4/Natuurwetenskappe en Tegnologie/Die planeet Aarde
+
+- **Les 01 - Waarvan die Aarde gemaak is** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: KABV-gaping (KABV bl. 27): 'vasteland' as KABV se woord vir 'n kontinent; KABV-gaping: Feite: poolkappe lê heel in die noorde en heel in die suide, by die pole (die Aarde het geen bo- of onderkant nie); Suid-Afrika aan Afrika se suidelike punt; die MEESTE van die blou is see, en net see- en oseaanwater is sout; KABV-gaping: Dekking: hoekom die lug 'n dun laag genoem word (van die ruimte af lyk dit dun om die groot bal); KABV-gaping: Taal: AWS-kommas; 'reg rondom'; 'oppervlak' volgens die gedeelde omskrywing; KABV-gaping: Weer oopgemaak en weer goedgekeur 23 Okt: oppervlak volg die gekorrigeerde ooreengekome omskrywing ("Die hele buitekant van 'n ding")
+
+## Graad 4/Natuurwetenskappe en Tegnologie/Die Son
+
+- **Les 01 - Die ster wat ons bedags sien** (goedgekeur 2026-10-22): 2 taalverandering(s) toegepas; KABV-gaping: VEILIGHEID: kyk NOOIT deur 'n verkyker of 'n teleskoop na die Son nie, selfs nie met die spesiale beskerming aan nie (die lig brand deur die beskerming); die vorige sin het 'n gaping gelaat; KABV-gaping: Feite: die afstand-verklaring geld vir die GROTER sterre (die meeste sterre is werklik kleiner en dowwer as die Son); 'die meeste' klein liggies is sterre (party is planete); die buiteruim is 'amper leë'; KABV-gaping: Taal: 'gas' en 'ster' volgens die gedeelde omskrywings; AWS-kommas; 'honderdduisende'; 'verlig'; 'bedags in die lug'
+
+## Graad 4/Natuurwetenskappe en Tegnologie/Energie en Energie-oordrag
+
+- **Les 02 - Van die son tot op jou bord** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: Feite: elke skakel gee net 'n DEEL van die energie aan, VERAL omdat elke plant of dier self daarvan gebruik om te lewe (beweeg, warm bly; dit gaan as hitte weg), nie 'om te groei' nie; KABV-gaping: Feite: 'n plant het LIG nodig om kos te maak, en buite kom daardie lig van die son; 'n dier wat die plant eet, kry van die gebêre energie (nie elke plant word geëet nie); KABV-gaping: Taal: 'gebêre' met die kappie; 'waarin' vir die energieketting; AWS-kommas; 'na watter kant'
+
+## Graad 4/Natuurwetenskappe en Tegnologie/Energie en klank
+
+- **Les 01 - Elke klank begin by iets wat vibreer** (goedgekeur 2026-10-22): 2 taalverandering(s) toegepas; KABV-gaping: KABV-gaping (KABV bl. 25): die oor se dele by hul name: buiteoor (saam met die gehoorgang), trommelvlies, gehoorbeentjies, binneoor wat 'n boodskap na die brein stuur; KABV-gaping: Feite: musiekinstrumente maak klank deur vibrasie, 'iets in of op die instrument vibreer' (nie 'elke instrument het 'n deel wat vibreer' nie: by 'n fluit vibreer die lug); KABV-gaping: Taal: 'vibreer' se betekenis net soos die gedeelde omskrywing ('baie vinnig'); 'dit' vir klank; 'vanself'; AWS-kommas
+- **Les 02 - Hard is nie hoog nie** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: Feite: die fluister-voorbeeld is weg (by fluister vibreer die stembande nie); die harder klank is 'nog steeds dieselfde noot', nie 'presies' nie; KABV-gaping: Dekking: die kruistoets met die liniaal en die trom: hoog maar sag, en hard maar laag; KABV-gaping: Taal: AWS-kommas; toonhoogte en volume as die twee name
+- **Les 03 - Geraas, en hoe jy jou ore veilig hou** (goedgekeur 2026-10-22): 2 taalverandering(s) toegepas; KABV-gaping: Feite: skade kom van klank wat te hard is, en van harde klank wat te lank aanhou (nie enige lang klank nie); harde klank 'kan' die klein dele breek, en 'n stukkende deel groei nooit weer aan nie; KABV-gaping: Feite: 'geraasbesoedeling' sluit in dat die klank pla; 'permanent' beteken vir altyd so bly (nie net skade nie); KABV-gaping: Taal: 'tuit' as waarskuwing ('Soms'), 'by harde musiek', 'kies self hoe hard', AWS-kommas; die oorfoon-sin bly vir die moderator
+
 ## Graad 4/Natuurwetenskappe en Tegnologie/Energie om ons
 
 - **Les 01 - Hoe jy weet energie is daar** (goedgekeur 2026-10-22): 2 taalverandering(s) toegepas; KABV-gaping: Gedeelde bewoording: ru-olie is 'meestal 'n donker vloeistof' (nie meer 'dik' nie); elektrisiteit loop 'meestal' deur drade (weerlig); KABV-gaping: Feite: 'n bron is iets waaruit ons energie kry, en net gestoorde bronne (hout, kos, 'n battery) raak leeg; petrol, diesel en paraffien word 'meestal' uit ru-olie gemaak (Sasol maak ook brandstof uit steenkool); oordrag beteken die energie is op 'n ander plek; KABV-gaping: Taal: sowat twintig regstellings (AWS-kommas, 'Son' oral met 'n hoofletter, 'vanself', pompe in plaas van pype wat pomp)
+- **Les 02 - Wat gaan in, en wat kom uit** (goedgekeur 2026-10-22): 2 taalverandering(s) toegepas; KABV-gaping: Feite: 'inset' is die energie wat ingaan SODAT die masjien kan werk (nie net 'voordat' nie; gedeelde omskrywing reggemaak); KABV-gaping: Feite: die fiets se NUTTIGE uitset is beweging (hy gee ook hitte en klank af); die strykyster maak die vesels sag, nie 'los' nie; die radio kry elektrisiteit uit die muur of uit sy batterye; net die OU soort gloeilamp met 'n gloeidraad word te warm om aan te raak; KABV-gaping: Dekking: die fiets se inset is die ryer se energie; motor en fiets elk met sy eie inset; KABV-gaping: Taal: 'koord' vir die toestel se kabel; 'sy batterye'; AWS-kommas
+
+## Graad 4/Natuurwetenskappe en Tegnologie/Habitatte van diere
+
+- **Les 01 - Wat is 'n habitat** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: Feite: die grasveld word nie meer 'n droë plek genoem nie (Suid-Afrika se grasveld kry goeie somerreën); die springbok en meerkat lewe in die droër dele; KABV-gaping: Feite: 'robbe en visse soos haaie' (haaie is visse); die seekoei en padda lewe in EN LANGS die rivier; KABV-gaping: Taal: 'op dieselfde plek', 'vol gras met baie min bome', 'varswater', AWS-kommas; KABV-gaping: KABV-oudit: die eienskap-per-dier-item is NIE bygevoeg nie (KABV het dit in die aktiwiteitekolom)
+- **Les 02 - Wat 'n dier in sy habitat kry** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping (Lampies 22 Oktober 2026): 'n skoolveld kan ook 'n habitat wees, want gras lewe daar, en 'n gat daarin is een plek binne daardie habitat; KABV-gaping: Dekking: die vlakvark se gat is in die grasveld (een van les 1 se vier habitatte); KABV-gaping: Taal: 'om aan die lewe te bly', 'bied', 'verberg hom', AWS-kommas
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Lewende en nie-lewende dinge
 
@@ -41,6 +83,8 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 ## Graad 4/Natuurwetenskappe en Tegnologie/Materiaal om ons
 
 - **Les 01 - Klip, water en lug** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: Feitetoets: die opgeblase ballon voel nie 'hard' nie en die knoop hou die lug nie 'solank' nie; 'elke materiaal is presies een van drie' laat val (KABV se 'maak saam al die materiaal uit' bly); water se antwoord op die tweede sorteervraag duidelik gemaak
+- **Les 02 - Van ys tot waterdamp en terug** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: KABV-oudit: botter, sjokolade en roomys wat weer hard word, is NIE bygevoeg nie (dit staan in KABV se aktiwiteitekolom; die les leer reeds dat gesmelte kerswas weer hard word); KABV-gaping: Taal: AWS-kommas; 'kerswas' (nie 'die was', wat as wasgoed gelees kan word); 'wasgoeddraad'; 'Baie materiale'; die video se woorde (smelt, vries, word weer hard, loop plat) behou; KABV-gaping: Spesifikasie skoongemaak: koue glas kry GEWOONLIK druppels; dieselfde water, nie dieselfde plek nie
+- **Les 03 - Van die see tot in die lug en terug** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: Feite (om die video gelei): smeltende sneeu loop na die riviere toe (nie 'vul die riviere' nie, en 'kan' sneeu lê); 'n wolk is klein druppels of stukkies ys; 'Vier veranderings' (nie 'Die vier'); verdamp: 'n deel van die water; KABV-gaping: Dekking: riviere dra die water terug see toe, sodat die siklus sluit; KABV-gaping: Taal: 'ysklont' en 'stappe' bly die video se woorde; AWS-kommas, 'daarbo', 'waterdamp' deurgaans
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Sterk raamstrukture
 
@@ -60,6 +104,10 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 - **Les 01 - 'n Vel papier wat 'n boek dra** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: Feitetoets: 'n hol pilaar se omskrywing noem nie papier nie; die billike toets laai stap vir stap; 'naat', 'vierkantig' en 'versterk' in die woordelys omskryf die woord, nie net hierdie les se pilaar nie
 - **Les 02 - Van plat vel tot sterk buis** (goedgekeur 2026-10-22): 2 taalverandering(s) toegepas; KABV-gaping: Teruggetrekte bewoording 'op sy ente' (28 Aug) wat 'n taalronde teruggebring het, weer reggestel na 'in sy lengte'
+
+## Graad 4/Natuurwetenskappe en Tegnologie/Vuurpylstelsels
+
+- **Les 01 - Wat stoot 'n vuurpyl vorentoe** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Feite: die lug word al hoe dunner en het nêrens 'n rand nie; die ruimte het AMPER geen lug (nie 'geen lug meer nie'); KABV-gaping: KABV-gaping (besluit 2): 'n uitgewerkte voorbeeld met 'n tabel en staafgrafiek van ballonvuurpyle se afstande (versinde getalle, en die gevolgtrekking geld net vir die voorbeeld); KABV-gaping: Feite: die les sê nie meer 'n ballonvuurpyl is 'nie 'n vuurpyl nie'; vuurpyl omskryf deur hoe dit beweeg en dat dit geen lug van buite nodig het nie; brandstof sonder doel-voorwaarde; uitlaatgasse algemeen; net die stoot VORENTOE is tussen die vuurpyl en sy gas; KABV-gaping: Woordelys: stelsel en ruimte volg die ooreengekome omskrywings; KABV-gaping: Taal: AWS-kommas; 'met mense daarin'; 'wat aan 'n lyn vas is en daarlangs skiet'
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Wat plante nodig het om te groei
 

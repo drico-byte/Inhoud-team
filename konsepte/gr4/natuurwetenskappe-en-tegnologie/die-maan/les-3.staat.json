@@ -1,11 +1,17 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/die-maan/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:c9d035f23f33a282e17f92c2c5d84472",
+  "konsep_hash": "sha256:54465861d8058f6622db278d9cb5fbf0",
   "hek": "PASS",
   "teruggestuur_vir": [],
-  "eskalasie": null,
-  "blok_faalrondtes": {},
+  "eskalasie": {
+    "soort": "mens_nodig",
+    "wanneer": "2026-10-23T00:10:56+00:00",
+    "rede": "feite returned MENS_NODIG — a writer handed a defect it cannot fix will invent one or strip the content"
+  },
+  "blok_faalrondtes": {
+    "die hiëna en die been": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -58,11 +64,186 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\die-maan\\les-3.json",
       "konsep_hash": "sha256:c9d035f23f33a282e17f92c2c5d84472",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-22T23:16:01+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:7bd72d8e1268a9bf78d85a7224941f80",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T23:16:01+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 396,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:19:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 396,
+      "woorde_na": 400,
+      "konsep_hash": "sha256:8baa0cc5d3b6bdcce9cabada4886e872"
+    },
+    {
+      "wanneer": "2026-10-22T23:19:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 400,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:19:53+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Die haas krap na die Maan se gesig en daardie merke is nog daar.': 'daardie merke' points back to marks the story never mentioned, and the sentence lacks the AWS comma.",
+        "check (the language finder raised this; it may not be a fault): 'sien die Maan onder in die water lê. Sy dink dit is 'n groot stuk vet ': The Moon 'lies at the bottom' of the water but the meat 'floats' there; the two images pull against each other. Not changed, because choosing one would alter the story's picture.",
+        "check (the language finder raised this; it may not be a fault): 'Sy maak haar bek oop en gryp na die vleis in die water. ... Keer op ke': She first grabs with her mouth, then her paws come up empty; possibly intended (she keeps grabbing with her paws), but a reader may see a shift. Left for the writer, since it is what happens in the story."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T23:21:28+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8300c5e4dd3ba27d21b0c637d26b4208",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T23:21:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 402,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:24:57+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 402,
+      "woorde_na": 402
+    },
+    {
+      "wanneer": "2026-10-22T23:45:47+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c9be1f6d49494408580bc1ad3e2c8301",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T23:45:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 383,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:47:28+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 383,
+      "woorde_na": 385,
+      "konsep_hash": "sha256:5e6d6b371d3b11c46b47c8839c224654"
+    },
+    {
+      "wanneer": "2026-10-22T23:47:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 385,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:58:07+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d1b873f21a0688f8aeb7fc58c418dda3",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T23:58:08+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 360,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:59:53+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 360,
+      "woorde_na": 362,
+      "konsep_hash": "sha256:54465861d8058f6622db278d9cb5fbf0"
+    },
+    {
+      "wanneer": "2026-10-22T23:59:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 362,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T00:10:55+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T00:10:55+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T00:10:56+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die hiëna en die been"
+      ],
+      "tally": {
+        "die hiëna en die been": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T00:10:56+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
     }
   ],
-  "spek_hash": "sha256:0748f18c1a4019197504e37af852342e",
+  "spek_hash": "sha256:3906051c9a9c2295d8d54028dbf69330",
   "hek_konteks": {
     "graad": 4,
     "begroting": 380
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_rondte_vir": "sha256:54465861d8058f6622db278d9cb5fbf0",
+  "taal_keurder_vir": "9e9a26a0ee22b53bf5188fb999250c82",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:54465861d8058f6622db278d9cb5fbf0",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:8baa0cc5d3b6bdcce9cabada4886e872",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "c58017ad6f2da7c1881fce99a7c634b9"
 }

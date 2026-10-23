@@ -1,66 +1,67 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "dekking",
-  "prompt_weergawe": "dekkingsnasiener-v1.4",
+  "prompt_weergawe": "dekkingsnasiener-v1.5",
   "les": "Wat 'n dier in sy habitat kry",
   "kaps_punt": "diere moet 'n habitat hê vir kos, water, 'n plek om te skuiling, babas te hê en om veilig te wees",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "HERSIEN",
   "items": [
     {
       "tipe": "kern",
       "verwysing": "Die raamstelling: dat 'n dier 'n habitat MOET hê, en dat die rede is dat die plek waar hy lewe vir hom die dinge gee wat hy nodig het om te bly lewe.",
       "status": "teenwoordig",
-      "bewys": "Hoekom 'n dier 'n habitat moet hê — moet een hê om te kan bly lewe, want die plek waar hy lewe gee vir hom wat hy nodig het"
+      "bewys": "Hoekom 'n dier 'n habitat moet hê — moet een hê om te bly lewe; die plek gee hom wat hy nodig het"
     },
     {
       "tipe": "kern",
-      "verwysing": "Kos: dat die habitat die kos hou wat daardie dier eet. Nie 'diere moet eet' nie — dit is die PLEK wat die kos moet hê.",
+      "verwysing": "Kos: dat die habitat die kos hou wat daardie dier eet.",
       "status": "teenwoordig",
-      "bewys": "Kos en water in die habitat — sebra vreet die lang gras van die grasveld; die grasveld self hou dus die kos"
+      "bewys": "Kos en water in die habitat — sebra vreet lang gras; die grasveld self bied die kos"
     },
     {
       "tipe": "kern",
       "verwysing": "Water: dat die habitat water hou wat die dier kan bykom en drink.",
       "status": "teenwoordig",
-      "bewys": "Kos en water in die habitat — dieselfde plek hou water om te drink, en in die grasveld staan dit in 'n watergat"
+      "bewys": "Kos en water in die habitat — dieselfde grasveld bied water in 'n watergat waaruit hy drink"
     },
     {
       "tipe": "kern",
-      "verwysing": "'n Plek om te skuil: uit die weer en uit die oog te kom, plus die grenslyn dat so 'n plek EEN plek binne die habitat is en nie die habitat self nie.",
-      "status": "teenwoordig",
-      "bewys": "'n Plek om te skuil — habitat gee die plek; vlakvark se gat in die grond hou die reën weg en hom uit die oog; een plek binne die habitat en nie die habitat self nie"
+      "verwysing": "'n Plek om te skuil: dat 'n dier binne sy habitat 'n plek nodig het om uit die weer en uit die oog te kom ... plus die een grenslyn dat so 'n plek EEN plek binne die habitat is (dekkingsmaatstaf: konkrete geval binne 'n habitat wat les 1 genoem het; 'dié bly binne 'n habitat wat les 1 genoem het')",
+      "status": "gedeeltelik",
+      "bewys": "'n Plek om te skuil — vlakvark in 'n gat in die grond, hou reën weg en verberg hom, grenslyn gestel; maar geen habitat word vir die vlakvark se gat genoem nie",
+      "aksie": "Sê in watter van les 1 se vier habitatte (grasveld, bos, rivier of see) die vlakvark se gat in die grond is, sodat die skuilplek binne 'n genoemde habitat staan. Dit is nou die enigste behoefte sonder 'n genoemde habitat, en die skoolveld is die enigste habitat wat in hierdie blok by naam voorkom, terwyl die spek sê die skoolveld-sin is nie die skuil-item se konkrete geval nie. Hou die grenslyn ('een plek binne die habitat en nie die habitat self nie') en die skoolveld-sin soos hulle is."
     },
     {
       "tipe": "kern",
       "verwysing": "'n Plek om kleintjies te hê: dat die habitat 'n plek gee waar die dier sy kleintjies kan kry en grootmaak.",
       "status": "teenwoordig",
-      "bewys": "'n Plek vir die kleintjies — paddas lê eiers in die stil water van 'n rivier, en daardie water gee die kleintjies plek om groot te word"
+      "bewys": "'n Plek vir die kleintjies — paddas lê eiers in die stil water van 'n rivier, waar die kleintjies groot word"
     },
     {
       "tipe": "kern",
-      "verwysing": "Veilig wees: dat die habitat die dier plekke gee om weg te kruip van of weg te kom van wat hom jag, duidelik onderskei van 'n plek om te skuil.",
+      "verwysing": "Veilig wees: dat die habitat die dier plekke gee om weg te kruip van of weg te kom van wat hom jag. Hierdie een moet van 'n plek om te skuil onderskei word.",
       "status": "teenwoordig",
-      "bewys": "Om veilig te wees — die oop grasveld laat 'n sebra 'n leeu van ver af sien en wegkom; die skuilblok praat net van reën, oog en gat en noem geen jagter nie"
+      "bewys": "Om veilig te wees — oop grasveld laat die sebra die leeu van ver sien en wegkom; onderskei van skuil"
     },
     {
       "tipe": "kern",
-      "verwysing": "dekkingsmaatstaf.habitat_as_begrip: 'n 'begrip'-inskrywing vir 'habitat' wat plante sowel as diere insluit, ook in hierdie les.",
+      "verwysing": "Die skoolveld: EEN sin dat 'n skoolveld ook 'n habitat kan wees, by die skuil-item se grenslyn. Die skoolveld is die habitat, want gras lewe daar; 'n gat in die skoolveld is een plek binne daardie habitat ... noem geen dier vir die skoolveld nie. Moenie die gat, die gras of die plek onder 'n klip 'n habitat noem nie.",
       "status": "teenwoordig",
-      "bewys": "habitat — 'Die plek waar 'n plant of 'n dier lewe en groei', met plante sowel as diere ingesluit"
+      "bewys": "'n Plek om te skuil — skoolveld kan ook 'n habitat wees want gras lewe daar; 'n gat daarin is een plek binne daardie habitat; geen dier genoem"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "dekkingsmaatstaf.habitat_as_begrip: 'n 'begrip'-inskrywing vir 'habitat', 8 tot 12 woorde, wat plante sowel as diere insluit.",
+      "status": "teenwoordig",
+      "bewys": "begrip 'habitat' — 'Die plek waar 'n plant of 'n dier lewe.', die gedeelde bewoording"
     },
     {
       "tipe": "fokus",
-      "verwysing": "Lewer die derde deel van die fokusvraag: hoekom 'n dier 'n habitat moet hê, deur KABV se vyf behoeftes elkeen binne 'n werklike habitat te wys, sonder om te herhaal wat 'n habitat is of watter soorte daar is.",
+      "verwysing": "Lewer die derde deel van die fokusvraag: hoekom 'n dier 'n habitat moet hê, deur KABV se vyf behoeftes elkeen binne 'n werklike habitat te wys.",
       "status": "teenwoordig",
-      "bewys": "Hoekom 'n dier 'n habitat moet hê, plus die vyf behoefteblokke — elke behoefte in die grasveld of die rivier gewys; niks oor die vier soorte habitat of oor skuilings as strukture"
+      "bewys": "Hoekom 'n dier 'n habitat moet hê; die vyf behoefteblokke — elkeen aan die plek teruggeknoop (die skuil-blok se ontbrekende habitatnaam staan by die skuil-item)"
     }
   ],
-  "oortollig": [
-    {
-      "inhoud": "'In die grasveld kry 'n sebra al hierdie dinge.'",
-      "blok": "Hoekom 'n dier 'n habitat moet hê",
-      "waarom": "Die raamstelling is deur die twee sinne voor dit gedek, en hierdie sin belowe nou 'n draad wat die les nie loop nie: skuil word met 'n vlakvark gewys en die kleintjies met paddas in 'n rivier, dus stel die sin 'n wyer eis oor die sebra as wat die les self wys. Toe die sebra nog al vyf gevalle gedra het, was dit die opstel van een deurlopende voorbeeld; ná die skuilherskrywing vra geen vereiste dit meer nie."
-    }
-  ],
-  "opsomming": "Die herskryfde skuilblok dek sy maatstaf volledig en bly heeltemal buite skuilings-as-strukture, die plek-verskaf-dit raamwerk hou nou sonder uitsondering oor al vyf behoeftes, en al ses vereistes plus die habitat-begrip is gedek; die enigste opmerking is dat die openingsin oor die sebra wat 'al hierdie dinge' in die grasveld kry nou meer eis as wat die les wys, en let daarby dat die titel nie meer die spesifikasie se werktitel of sy een genoemde alternatief is nie."
+  "oortollig": [],
+  "opsomming": "Al vyf behoeftes, die raamstelling, die nuwe skoolveld-sin en die habitat-begrip is gedek; die enigste gaping is dat die vlakvark se skuilgat in geen genoemde habitat staan nie, wat die spek uitdruklik vra en wat die skoolveld-sin nou dringender maak — geen spekveld bestel 'n eli10-blok nie (pas_die_inhoud_in_die_begroting en moeilike_konsepte_nota noem dit net as iets om nie by te voeg nie), en die rekordlêer is leeg."
 }

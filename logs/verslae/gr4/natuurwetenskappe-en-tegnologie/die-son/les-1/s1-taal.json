@@ -1,0 +1,148 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die Son is 'n ster",
+      "voor": "is sterre en hulle staan",
+      "na": "is sterre, en hulle staan",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Daardie klein liggies is sterre' and 'hulle staan baie ver' each have their own subject and verb, so the AWS comma is required."
+    },
+    {
+      "nr": 2,
+      "blok": "Die Son is 'n ster",
+      "voor": "is self 'n ster en ons noem",
+      "na": "is self 'n ster, en ons noem",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Two clauses with their own subject and verb; the comma is required and nothing else changes."
+    },
+    {
+      "nr": 3,
+      "blok": "Waarvan die Son gemaak is",
+      "voor": "beskadig en daardie skade kan bly",
+      "na": "beskadig, en daardie skade kan blywend wees",
+      "soort": "woordkeuse",
+      "rede_vinder": "AWS comma between two clauses; 'kan bly' is vague, 'blywend wees' says the same thing clearly.",
+      "fout": "Missing AWS comma, and 'daardie skade kan bly' is loose where Afrikaans has the fixed expression for permanent damage.",
+      "rede_keurder": "The comma is required and 'blywend' says exactly what 'kan bly' means; the warning keeps its meaning and the instruction that follows is untouched."
+    },
+    {
+      "nr": 4,
+      "blok": "Waarvan die Son gemaak is",
+      "voor": "nog meer gevaarlik",
+      "na": "nog gevaarliker",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans prefers the synthetic comparative here.",
+      "fout": "'meer gevaarlik' copies the English analytic comparative.",
+      "rede_keurder": "'nog gevaarliker' is the natural Afrikaans comparative with the same meaning; 'nog' is kept."
+    },
+    {
+      "nr": 5,
+      "blok": "Baie groter as die Aarde",
+      "voor": "groot ronde bal en jy sien",
+      "na": "groot ronde bal, en jy sien",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Die Aarde is 'n groot ronde bal' and 'jy sien net 'n klein stukkie' are two full clauses."
+    },
+    {
+      "nr": 6,
+      "blok": "Baie groter as die Aarde",
+      "voor": "ook 'n ronde bal en hy is",
+      "na": "ook 'n ronde bal, en hy is",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before en joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Die Son is ook 'n ronde bal' and 'hy is baie groter' are two full clauses."
+    },
+    {
+      "nr": 7,
+      "blok": "Baie groter as die Aarde",
+      "voor": "Honderde duisende Aardes",
+      "na": "Honderdduisende Aardes",
+      "soort": "spelling",
+      "rede_vinder": "'Hundreds of thousands' is written as the compound 'honderdduisende'.",
+      "fout": "'Honderde duisende' splits a number the word list writes as one compound.",
+      "rede_keurder": "'Honderdduisende' is the standard compound for the same quantity, so the claim is unchanged."
+    },
+    {
+      "nr": 8,
+      "blok": "Ver weg, en tog die naaste ster",
+      "voor": "nog baie verder weg as dit",
+      "na": "nog baie verder weg as die Son",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' has no clear antecedent; name the Sun so the comparison is clear.",
+      "fout": "'dit' has no clear antecedent after the sentence about the car journey.",
+      "rede_keurder": "Naming the Sun states the intended comparison plainly; the claim and qualifiers stay the same."
+    },
+    {
+      "nr": 9,
+      "blok": "Ver weg, en tog die naaste ster",
+      "voor": "lyk vir ons net klein kolletjies",
+      "na": "lyk vir ons net soos klein kolletjies",
+      "soort": "grammatika",
+      "rede_vinder": "'lyk' with a noun needs 'soos' in Afrikaans.",
+      "fout": "'lyk' with a noun predicate lacks the required 'soos'.",
+      "rede_keurder": "'lyk net soos klein kolletjies' is grammatical Afrikaans and keeps 'net' and the meaning."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat die Son vir die Aarde doen",
+      "voor": "Daardie lig maak ons hele wêreld bedags lig",
+      "na": "Daardie lig verlig bedags ons hele wêreld",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids the clumsy repetition of 'lig' as noun and adjective in one short sentence.",
+      "fout": "'lig maak ... lig' clashes the noun and adjective in one short sentence.",
+      "rede_keurder": "'verlig' is the exact verb for the action and the sentence says the same thing more cleanly."
+    },
+    {
+      "nr": 11,
+      "blok": "Wat die Son vir die Aarde doen",
+      "voor": "die grond en die lug en die see",
+      "na": "die grond, die lug en die see",
+      "soort": "sinsbou",
+      "rede_vinder": "A list of three takes a comma and one 'en', not a chain of 'en'.",
+      "fout": "A list of three chained with 'en ... en' reads wooden in study text.",
+      "rede_keurder": "Standard list punctuation, no comma before the final 'en', same three items."
+    },
+    {
+      "nr": 12,
+      "blok": "Lewende dinge het die Son nodig",
+      "voor": "vreet daardie plante en 'n mens eet",
+      "na": "vreet sulke plante, en 'n mens eet",
+      "soort": "verwysing",
+      "rede_vinder": "'daardie plante' points back to a single plant; 'sulke plante' fits, plus the AWS comma between two clauses.",
+      "fout": "'daardie plante' points back to a single plant, and the AWS comma between two clauses is missing.",
+      "rede_keurder": "'sulke plante' matches the singular antecedent without changing who eats what, and the comma is required."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 13,
+      "blok": "ster",
+      "voor": "in die buiteruim wat lig gee",
+      "na": "wat in die buiteruim lig gee",
+      "soort": "verwysing",
+      "rede_vinder": "As written, 'wat lig gee' can attach to 'buiteruim'; moving it makes the star the thing that gives light.",
+      "fout": "'wat lig gee' can attach to 'buiteruim' instead of to the star.",
+      "rede_keurder": "The ambiguity is real, but this is a shared glossary definition and rewording it is the writer's job for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 447,
+  "woorde_na": 446,
+  "wanneer": "2026-10-22T22:44:41+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:a89177f837a38f37cfe38b10401f0254",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:0ce6a31bb125337386211d492e660bb2"
+}

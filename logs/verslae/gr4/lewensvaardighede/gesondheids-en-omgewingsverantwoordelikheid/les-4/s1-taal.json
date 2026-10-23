@@ -1,0 +1,201 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Die eerste stuk pad het geen sypaadjie nie en die gras is nat.",
+      "na": "Die eerste stuk pad het geen sypaadjie nie, en die gras is nat.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses ('stuk pad het' / 'gras is').",
+      "rede_keurder": "Each half has its own subject and verb, so the AWS comma belongs before 'en'; nothing else changes."
+    },
+    {
+      "nr": 6,
+      "blok": "Die pad tot by die strepe",
+      "voor": "dat daardie straat korter is skool toe",
+      "na": "dat daardie straat 'n korter pad skool toe is",
+      "soort": "sinsbou",
+      "rede_vinder": "'korter is skool toe' leaves 'skool toe' dangling after the verb; the meaning (a shorter way to school) is the same.",
+      "fout": "'korter is skool toe' leaves 'skool toe' trailing after the verb and reads awkwardly.",
+      "rede_keurder": "'n korter pad skool toe' is the natural phrasing and says the same thing."
+    },
+    {
+      "nr": 10,
+      "blok": "Die pad tot by die strepe",
+      "voor": "agter die stil taxi's uit",
+      "na": "agter die stilstaande taxi's uit",
+      "soort": "woordkeuse",
+      "rede_vinder": "'stil' can mean quiet; 'stilstaande' says clearly that the taxis are standing still, as the earlier paragraph says.",
+      "fout": "'stil taxi's' can be read as quiet taxis.",
+      "rede_keurder": "'stilstaande' says exactly that the taxis are standing still, as the earlier paragraph established."
+    },
+    {
+      "nr": 11,
+      "blok": "Die pad tot by die strepe",
+      "voor": "en vat haar arm",
+      "na": "en vat haar aan die arm",
+      "soort": "verwysing",
+      "rede_vinder": "'vat haar arm' could mean Ayesha takes her own arm; 'vat haar aan die arm' is idiomatic and clearly means Naledi.",
+      "fout": "'vat haar arm' is less idiomatic than the fixed expression.",
+      "rede_keurder": "'iemand aan die arm vat' is the natural Afrikaans expression and the meaning is unchanged."
+    },
+    {
+      "nr": 12,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Hulle stap tot daar al vat dit langer as die pad reguit oor.",
+      "na": "Hulle stap tot daar, al vat dit langer as om reguit oor die pad te stap.",
+      "soort": "sinsbou",
+      "rede_vinder": "The comparison 'as die pad reguit oor' has no verb and is hard to read; a comma also belongs before the concessive 'al'.",
+      "fout": "The verbless comparison 'as die pad reguit oor' makes a reader stumble.",
+      "rede_keurder": "The proposal gives the comparison a verb and a comma before the concessive clause without changing what they choose to do."
+    },
+    {
+      "nr": 13,
+      "blok": "Die pad tot by die strepe",
+      "voor": "'n robot en Naledi doen dit ook",
+      "na": "'n robot, en Naledi doen dit ook",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses; only a comma is added and the protected exception 'robot' stays exactly as it is.",
+      "fout": "Missing AWS comma between two full clauses ('mense noem' / 'Naledi doen').",
+      "rede_keurder": "Only a comma is added; the protected exception 'robot' and every word of the sentence stay intact."
+    },
+    {
+      "nr": 15,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Eers toe stap sy oor die wit strepe en sy hardloop nie.",
+      "na": "Eers toe stap sy oor die wit strepe, en sy hardloop nie.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb; the 'does not run' rule is untouched.",
+      "fout": "Missing AWS comma between two full clauses ('stap sy' / 'sy hardloop').",
+      "rede_keurder": "Only a comma is added; the 'does not run' rule is unchanged."
+    },
+    {
+      "nr": 18,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Die klok lui en die drie van hulle stap saam by die deur in.",
+      "na": "Die klok lui, en al drie stap saam by die deur in.",
+      "soort": "anglisisme",
+      "rede_vinder": "'die drie van hulle' copies 'the three of them'; 'al drie' is natural Afrikaans, plus the AWS comma between two clauses.",
+      "fout": "'die drie van hulle' copies English 'the three of them'; missing AWS comma between two full clauses.",
+      "rede_keurder": "'al drie' is natural Afrikaans for the same three children, and the comma is required between the two clauses."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Hulle loop een agter die ander",
+      "na": "Hulle loop agter mekaar",
+      "soort": "anglisisme",
+      "rede_vinder": "'een agter die ander' follows English 'one behind the other'; 'agter mekaar' is the natural Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'een agter die ander' is acceptable Afrikaans and states the single-file walking behaviour very plainly; the swap is lateral in a safety description."
+    },
+    {
+      "nr": 3,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Jaco kom van agter af verby op sy ou blou fiets.",
+      "na": "Jaco kom op sy ou blou fiets van agter af verby.",
+      "soort": "woordorde",
+      "rede_vinder": "The separable verb part 'verby' belongs at the end; the trailing phrase reads like English word order.",
+      "fout": "none",
+      "rede_keurder": "Placing the prepositional phrase after the particle is acceptable Afrikaans and keeps the story's rhythm; the proposal only reads differently."
+    },
+    {
+      "nr": 4,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Hy ry links in die pad aan die oorkant van die twee meisies.",
+      "na": "Hy ry aan die linkerkant van die pad, oorkant die twee meisies.",
+      "soort": "sinsbou",
+      "rede_vinder": "Matches the earlier 'aan die regterkant van die pad' and removes the clumsy 'aan die oorkant van'; meaning unchanged (he rides on the left, opposite the girls).",
+      "fout": "none",
+      "rede_keurder": "The proposal drops 'in die pad' (riding on the roadway), which moves the meaning of how the cyclist rides, and the original reads acceptably."
+    },
+    {
+      "nr": 5,
+      "blok": "Die pad tot by die strepe",
+      "voor": "voordat hy links in 'n systraat draai",
+      "na": "voordat hy links by 'n systraat indraai",
+      "soort": "idioom",
+      "rede_vinder": "Turning into a street is 'by 'n straat indraai' in idiomatic Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'in 'n systraat draai' and 'by 'n systraat indraai' are both idiomatic; lateral move."
+    },
+    {
+      "nr": 7,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Naledi wil gou oorsteek na die kant waar die skool se dak wys.",
+      "na": "Naledi wil gou na die kant oorsteek waar die skool se dak wys.",
+      "soort": "woordorde",
+      "rede_vinder": "Afrikaans normally puts the verb after the prepositional phrase, with the relative clause after the verb.",
+      "fout": "none",
+      "rede_keurder": "The original keeps 'die kant' next to its relative clause and reads naturally; the reorder is lateral."
+    },
+    {
+      "nr": 9,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Haar voet lig al toe",
+      "na": "Sy lig haar voet al toe",
+      "soort": "sinsbou",
+      "rede_vinder": "'lig' is transitive here: Naledi lifts her foot; the foot does not lift itself.",
+      "fout": "none",
+      "rede_keurder": "Intransitive 'haar voet lig' is a deliberate story image that matches 'Naledi se voet sak' later; changing it disturbs that parallel."
+    },
+    {
+      "nr": 17,
+      "blok": "Die pad tot by die strepe",
+      "voor": "staan al vasgesluit teen die rak by die klaskamer",
+      "na": "staan al by die klaskamer aan die fietsrak vasgesluit",
+      "soort": "woordkeuse",
+      "rede_vinder": "A bike is locked 'aan' a rack, and 'rak' alone reads as a shelf; 'fietsrak' says which rack, and the participle moves to the end.",
+      "fout": "none",
+      "rede_keurder": "The preposition change 'teen' to 'aan' and the reorder alter the picture and lengthen the sentence, while the original is clear in context."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 8,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Sy kyk eerste na regs en daarna kyk sy na links.",
+      "na": "Sy kyk eers na regs, en daarna kyk sy na links.",
+      "soort": "woordkeuse",
+      "rede_vinder": "The adverb 'first' is 'eers', not 'eerste'; plus the AWS comma between two full clauses. The order right, then left, is unchanged.",
+      "fout": "Adverbial 'eerste' for the order of her own actions where Afrikaans uses 'eers'; also a missing AWS comma between two full clauses.",
+      "rede_keurder": "The point is real, but this is the look-right-first safety rule, and the matching sentence (change 14) cannot take 'eers' cleanly, so the writer should settle both together.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 14,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Naledi kyk weer eerste na regs",
+      "na": "Naledi kyk weer eers na regs",
+      "soort": "woordkeuse",
+      "rede_vinder": "The adverb 'first' is 'eers'; the look-right-first order is kept.",
+      "fout": "Adverbial 'eerste' where Afrikaans would use 'eers'.",
+      "rede_keurder": "In this safety sentence 'weer eers' reads as the fixed phrase 'once again' and can lose the 'first' of the look-right-first order, so the writer must choose the wording.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 16,
+      "blok": "Die pad tot by die strepe",
+      "voor": "Nie een van die twee tree met 'n voet op die pad nie.",
+      "na": "Nie een van die twee sit 'n voet op die pad nie.",
+      "soort": "idioom",
+      "rede_vinder": "'tree met 'n voet op' is unnatural; 'sit 'n voet op die pad' is the idiomatic way to say they do not step onto the road.",
+      "fout": "'tree met 'n voet op die pad' is wooden.",
+      "rede_keurder": "The fault is real, but the sentence states what the patrol does for safety, so its wording goes to the writer rather than being changed here.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 494,
+  "woorde_na": 499,
+  "wanneer": "2026-10-23T06:27:57+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:74c204c5f7ef937a5b0b1a610bba757d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:9f7637405487c0b3f1074c42460c3c76"
+}

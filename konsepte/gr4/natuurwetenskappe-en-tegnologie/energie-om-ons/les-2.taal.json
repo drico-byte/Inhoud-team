@@ -2,50 +2,44 @@
   "toegepas": [
     {
       "nr": 1,
-      "blok": "Wat by 'n masjien ingaan",
-      "voor": "Ons noem daardie energie wat by hom ingaan, die inset.",
-      "na": "Die energie wat by hom ingaan, noem ons die inset.",
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "en die ryer se energie by die fiets.",
+      "na": "en die ryer se energie gaan by die fiets in.",
       "soort": "sinsbou",
-      "rede_vinder": "The comma between object and complement reads awkwardly; fronting the relative clause gives natural Afrikaans and matches the lesson's own 'Die deel wat ons wil hê, noem ons die nuttige uitset.'",
-      "fout": "A comma splits the object from its complement ('daardie energie wat by hom ingaan, die inset'), which reads stiffly and is not AWS punctuation.",
-      "rede_keurder": "Fronting the relative clause is the natural Afrikaans form, matches the lesson's own 'Die deel wat ons wil he, noem ons...', and keeps the meaning and the term inset intact."
+      "rede_vinder": "The second clause drops its verb (gapping), which a Grade 4 reader may not follow; restoring 'gaan ... in' makes it a full clause matching the comma before 'en'.",
+      "fout": "The second clause after the comma drops its verb, so a Grade 4 reader has to carry 'gaan ... in' over from the first clause.",
+      "rede_keurder": "Restoring the verb makes a full parallel clause that matches the AWS comma, with the same people, inputs and meaning, and the protected 'nuttige uitset' wording untouched."
     },
     {
-      "nr": 2,
-      "blok": "Wat in elkeen gaan en wat uitkom",
-      "voor": "en bewegende lug kom uit, en die haardroër se lug is warm",
-      "na": "en bewegende lug kom uit. Die haardroër se lug is warm",
-      "soort": "sinsbou",
-      "rede_vinder": "Three clauses chained with 'en' read clumsily; splitting off the last one keeps the meaning and is easier for Grade 4.",
-      "fout": "Three clauses chained with 'en' in one list item make a Grade 4 reader stumble.",
-      "rede_keurder": "Splitting off the last clause as its own sentence keeps every word and the meaning, and builds on rather than reverts the earlier round's change."
+      "nr": 3,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "het 'n dun draadjie binne-in wat gloei",
+      "na": "het binne-in 'n dun draadjie wat gloei",
+      "soort": "woordorde",
+      "rede_vinder": "The relative clause 'wat gloei' should follow its antecedent 'draadjie' directly instead of being separated by 'binne-in'.",
+      "fout": "'binne-in' sits between 'draadjie' and 'wat gloei', so the relative clause briefly seems to attach to 'binne-in'.",
+      "rede_keurder": "Moving 'binne-in' puts the relative clause right after its antecedent and reads more naturally; the meaning and the protected 'ou soort gloeilamp' stay intact."
     }
   ],
   "nie_toegepas": [],
   "laat_vaar": [
     {
-      "nr": 3,
-      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
-      "voor": "'n Gloeilamp wat lank aan was",
-      "na": "'n Gloeilamp wat lank aangeskakel was",
-      "soort": "woordkeuse",
-      "rede_vinder": "'aan was' is colloquial; 'aangeskakel was' is the standard written form.",
+      "nr": 2,
+      "blok": "Die strykyster en die fiets",
+      "voor": "hitte en klank af by die ketting en die bande",
+      "na": "hitte en klank by die ketting en die bande af",
+      "soort": "woordorde",
+      "rede_vinder": "In standard Afrikaans the separable particle 'af' of 'afgee' goes at the end of the clause, after the prepositional phrase.",
       "fout": "none",
-      "rede_keurder": "'aan was' for a lamp is plain, natural Afrikaans for a Grade 4 reader; 'aangeskakel was' is longer and only a lateral, more formal move."
+      "rede_keurder": "Putting a prepositional phrase after the particle ('gee ... af by die ketting') is normal, natural Afrikaans; the proposal is a lateral move and pushes 'af' further from its verb for a young reader."
     }
   ],
   "na_skrywer": [],
-  "vlae": [
-    {
-      "blok": "Wat in elkeen gaan en wat uitkom",
-      "teks": "Die radio: elektrisiteit of batterye gaan in, en klank kom uit.",
-      "rede": "Here the batteries themselves 'go in', while the torch line says 'n battery se energie gaan in'; the radio line may blur object and energy, but changing it would change content, so a writer should judge it."
-    }
-  ],
+  "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 590,
-  "woorde_na": 589,
-  "wanneer": "2026-10-22T22:28:12+00:00",
+  "woorde_voor": 654,
+  "woorde_na": 656,
+  "wanneer": "2026-10-22T23:06:22+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 22,
@@ -76,9 +70,19 @@
       "rede_vinder": "'dieselfde' occurs three times in two sentences; the flashlight is obviously the same one, and 'dieselfde twee batterye' and 'dieselfde liggie' still carry the point.",
       "fout": "none",
       "rede_keurder": "The repeated 'dieselfde' is deliberate emphasis in a test where only the batteries may change, and the original reads well, so cutting it is a lateral move that weakens the point."
+    },
+    {
+      "nr": 3,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "'n Gloeilamp wat lank aan was",
+      "na": "'n Gloeilamp wat lank aangeskakel was",
+      "soort": "woordkeuse",
+      "rede_vinder": "'aan was' is colloquial; 'aangeskakel was' is the standard written form.",
+      "fout": "none",
+      "rede_keurder": "'aan was' for a lamp is plain, natural Afrikaans for a Grade 4 reader; 'aangeskakel was' is longer and only a lateral, more formal move."
     }
   ],
-  "konsep_hash_voor": "sha256:0fb7590ef96656d3937ccbb19cb33c5f",
+  "konsep_hash_voor": "sha256:1e7b2fc29f74b66d3448147c624548e2",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:6190f04161252844cb30172aa51177f4"
+  "konsep_hash_na": "sha256:4b157b21c1aeec48b5b20e1bddeaa5ad"
 }

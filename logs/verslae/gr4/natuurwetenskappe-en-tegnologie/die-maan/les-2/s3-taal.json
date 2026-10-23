@@ -1,0 +1,139 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die Maan maak nie sy eie lig nie",
+      "voor": "Kyk 'n aand na die Maan en dit lyk of dit self brand.",
+      "na": "Kyk een aand na die Maan, en dit lyk asof dit self brand.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma between two clauses joined by en; 'een aand' and 'asof' read more naturally.",
+      "fout": "Missing AWS comma between two clauses joined by en; \"'n aand\" is less natural than \"een aand\" for an unspecified evening.",
+      "rede_keurder": "The comma is required and \"een aand\" is the natural Afrikaans; \"asof\" is harmless and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Die Maan maak nie sy eie lig nie",
+      "voor": "wat ons van die Aarde af raaksien",
+      "na": "wat ons van die Aarde af sien",
+      "soort": "woordkeuse",
+      "rede_vinder": "'raaksien' means 'notice'; plain 'sien' is what is meant.",
+      "fout": "\"raaksien\" means notice, which is not what the sentence says.",
+      "rede_keurder": "Plain \"sien\" is what is meant and suits a Grade 4 reader without moving the meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Die Son skyn op een helfte",
+      "voor": "Daardie helfte is vol lig en die ander helfte",
+      "na": "Daardie helfte is vol lig, en die ander helfte",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before en joining two clauses with their own subject and verb.",
+      "rede_keurder": "Punctuation fix only."
+    },
+    {
+      "nr": 5,
+      "blok": "Die Son skyn op een helfte",
+      "voor": "Op die meeste aande sien ons nie die hele verligte helfte van die Aarde af nie.",
+      "na": "Op die meeste aande sien ons van die Aarde af nie die hele verligte helfte nie.",
+      "soort": "verwysing",
+      "rede_vinder": "As written, 'verligte helfte van die Aarde' can be read as the lit half of the Earth; moving 'van die Aarde af' removes the ambiguity.",
+      "fout": "\"die verligte helfte van die Aarde\" can be read on first pass as the lit half of the Earth.",
+      "rede_keurder": "Moving \"van die Aarde af\" removes the stumble with the same words and meaning, and \"daarvan\" in the next sentence still points to the lit half."
+    },
+    {
+      "nr": 7,
+      "blok": "Hoekom ons uitsig elke aand verander",
+      "voor": "Die Maan bly heeltyd ewe groot en die Son se lig",
+      "na": "Die Maan bly heeltyd ewe groot, en die Son se lig",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before en joining two clauses with their own subject and verb.",
+      "rede_keurder": "Punctuation fix only."
+    },
+    {
+      "nr": 8,
+      "blok": "Die vorms van nuwemaan tot volmaan en weer terug",
+      "voor": "noem ons nuwemaan en dit is waar die patroon begin",
+      "na": "noem ons nuwemaan, en hier begin die patroon",
+      "soort": "anglisisme",
+      "rede_vinder": "'dit is waar ... begin' calques 'this is where'; also AWS comma between two clauses.",
+      "fout": "\"dit is waar die patroon begin\" copies English \"this is where\"; comma missing between two clauses.",
+      "rede_keurder": "\"hier begin die patroon\" is the natural Afrikaans with the same meaning, and the comma is required."
+    },
+    {
+      "nr": 9,
+      "blok": "Die patroon herhaal homself",
+      "voor": "Skryf die vorm neer en jy sien dit aand na aand groter word.",
+      "na": "Skryf die vorm neer, en jy sien hoe dit aand na aand groter word.",
+      "soort": "idioom",
+      "rede_vinder": "'sien hoe dit groter word' is the idiomatic construction; AWS comma between two clauses.",
+      "fout": "Missing AWS comma between two clauses joined by en.",
+      "rede_keurder": "The comma is required, and \"sien hoe dit groter word\" is natural and parallels change 10 without moving the meaning."
+    },
+    {
+      "nr": 10,
+      "blok": "Die patroon herhaal homself",
+      "voor": "Kyk dan vroeg in die oggend en die stuk lig word weer kleiner.",
+      "na": "Kyk dan vroeg in die oggend, en jy sien hoe die stuk lig weer kleiner word.",
+      "soort": "sinsbou",
+      "rede_vinder": "As written, looking in the morning seems to make the light smaller; 'jy sien hoe' matches the earlier sentence and fixes the logic, with the AWS comma.",
+      "fout": "As written, looking in the morning appears to make the light smaller; comma missing.",
+      "rede_keurder": "\"jy sien hoe\" fixes the logic of the sentence, matches the earlier sentence and adds the required comma, saying the same thing."
+    },
+    {
+      "nr": 11,
+      "blok": "Die patroon herhaal homself",
+      "voor": "is die vorm weer presies waar dit begin het",
+      "na": "is die vorm weer presies soos aan die begin",
+      "soort": "sinsbou",
+      "rede_vinder": "A shape is not 'where' it began; 'soos aan die begin' says what is meant.",
+      "fout": "A shape cannot be \"where\" it began; the wording is loose.",
+      "rede_keurder": "\"presies soos aan die begin\" says what is meant, keeps \"presies\" and adds nothing."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Die Son skyn op een helfte",
+      "voor": "kry ook later sy beurt",
+      "na": "kry later ook sy beurt",
+      "soort": "woordorde",
+      "rede_vinder": "'later ook' is the more natural order here.",
+      "fout": "none",
+      "rede_keurder": "\"kry ook later sy beurt\" already reads naturally, and moving \"ook\" is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom ons uitsig elke aand verander",
+      "voor": "Elke aand is die Maan dus op 'n ander plek om die Aarde.",
+      "na": "Elke aand is die Maan dus op 'n ander plek op sy pad om die Aarde.",
+      "soort": "sinsbou",
+      "rede_vinder": "'op 'n ander plek om die Aarde' is awkward; tying the place to the path just named reads clearly without adding content.",
+      "fout": "none",
+      "rede_keurder": "\"op 'n ander plek om die Aarde\" is understandable, and the proposal lengthens the sentence and repeats \"pad om die Aarde\" a third time in three sentences."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 12,
+      "blok": "fase",
+      "voor": "waarin ons die Maan van die Aarde sien",
+      "na": "waarin ons die Maan van die Aarde af sien",
+      "soort": "verwysing",
+      "rede_vinder": "Without 'af', 'die Maan van die Aarde' reads as 'the Earth's Moon'; the lesson body uses 'van die Aarde af'.",
+      "fout": "\"die Maan van die Aarde sien\" can be read as \"the Earth's Moon\"; the circumposition lacks \"af\".",
+      "rede_keurder": "The fault is real, but it sits in a glossary definition that may be shared with other lessons, so the writer must change it for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 518,
+  "woorde_na": 520,
+  "wanneer": "2026-10-22T23:19:43+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:10d1b60440c616371d88ce4b9315e26b",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d6dcd04ebc3106107e669f224fea75cb"
+}

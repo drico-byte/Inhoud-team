@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:53f2196f91d5ee0de5851c584782fd0a",
+  "konsep_hash": "sha256:2bed74410ff7fdcbf7df6be3887673a7",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -44,11 +44,163 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-3.json",
       "konsep_hash": "sha256:53f2196f91d5ee0de5851c584782fd0a",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T06:19:05+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:53f2196f91d5ee0de5851c584782fd0a",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T06:27:56+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 10,
+      "laat_vaar": 10,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 482,
+      "woorde_na": 482,
+      "konsep_hash": "sha256:04ebc73c08a7084a08c66c5d3d1ac0dc"
+    },
+    {
+      "wanneer": "2026-10-23T06:27:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 482,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:27:56+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Die naaste karre kom dus reguit na jou toe en jy': Missing AWS comma before 'en jy sien hulle aankom' (two main clauses); 'reguit na jou toe' may also suggest the cars are aimed at you.",
+        "fix: [taal] in 'Hulle maak die pad nie veilig nie en die kyk bly jou werk': Missing AWS comma before 'en die kyk bly jou werk' (two main clauses).",
+        "check (the language finder raised this; it may not be a fault): 'die kar gly nog 'n ent verder': 'Gly' suggests skidding, but a braking car normally just rolls on for a distance; 'ry nog 'n ent verder' may be meant, but changing it touches the claim, so a person or the writer should decide.",
+        "check (the language finder raised this; it may not be a fault): 'enigiemand wat te voet op of langs 'n pad is / Iemand wat te voet op o': The study text and the glossary define 'voetganger' with different verbs ('is' and 'beweeg'); one definition per term should be chosen, and that may be a shared definition, so it was not changed.",
+        "check (the language finder raised this; it may not be a fault): 'moenie in 'n bus of bakkie staan nie': With a bakkie, the danger is usually standing on the back ('agterop 'n bakkie'); making that explicit would sharpen the safety rule but adds detail, so it was flagged rather than changed.",
+        "check (the language finder raised this; it may not be a fault): 'of voor hom staan nie': It is unclear what standing 'in front of' the driver means inside a vehicle (blocking his view?); the intended meaning cannot be fixed without guessing."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T06:33:43+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:6546e190a6be792488a9922f2f68bfca",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T06:33:44+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 480,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:38:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 480,
+      "woorde_na": 480
+    },
+    {
+      "wanneer": "2026-10-23T07:09:37+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:dd09098abfa0135d1e23fa3d30de9dc1",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T07:09:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T07:11:32+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 501,
+      "woorde_na": 501,
+      "konsep_hash": "sha256:37333a0deb7baf500f0009aed2f65580"
+    },
+    {
+      "wanneer": "2026-10-23T07:11:33+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T07:13:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:085cddbfd4843c2d280f260dbbe0e973",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T07:13:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 501,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T07:15:14+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 501,
+      "woorde_na": 501
+    },
+    {
+      "wanneer": "2026-10-23T07:31:16+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2bed74410ff7fdcbf7df6be3887673a7",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T07:31:17+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 504,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T07:47:24+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 504,
+      "woorde_na": 504
     }
   ],
-  "spek_hash": "sha256:4493f1648c6ba978308c20bb58fcf66f",
+  "spek_hash": "sha256:e76b77a3d51812c3993f491faceb18b0",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
-  }
+  },
+  "taal_geforseer_vir": "sha256:53f2196f91d5ee0de5851c584782fd0a",
+  "taal_rondte_vir": "sha256:2bed74410ff7fdcbf7df6be3887673a7",
+  "taal_keurder_vir": "c45dcb2b1936720d0a68cdaa07b862df",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:2bed74410ff7fdcbf7df6be3887673a7",
+  "taal_vir_skrywer": [],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:04ebc73c08a7084a08c66c5d3d1ac0dc",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "74234e98afe7498fb5daf1f36ac2d78a"
 }

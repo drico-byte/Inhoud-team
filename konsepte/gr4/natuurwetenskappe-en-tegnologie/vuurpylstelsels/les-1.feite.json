@@ -1,137 +1,263 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.1",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Wat stoot 'n vuurpyl vorentoe?",
   "kaps_punt": "Vuurpylmodel — mense maak gebruik van vuurpyle om in die ruimte in te gaan en na die Maan te reis; 'n vuurpyl is 'n stelsel wat gebruik word om voertuie in die ruimte in te stuur; 'n vuurpyl beweeg deur middel van uitlaatgasse wat aan sy agterkant uitgestoot word",
   "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "Teen 'n lyn wat hang, swaai die ballon rond en hy loop nie reguit nie.",
-      "blok": "Wat een ballonvuurpyl verder laat loop",
+      "bewering": "Die lug wat jy inasem, lê in 'n dun laag om die hele Aarde.",
+      "blok": "Die lug word al hoe dunner",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "HIERDIE RONDTE VOLLEDIG NAGEGAAN (die veranderde item). NASA JPL Education, 'Rocket Activity: Heavy Lifting' (https://www.jpl.nasa.gov/edu/resources/lesson-plan/rocket-activity-heavy-lifting/) stel presies hierdie oorsaakketting: 'If there is slack in the line or if the lower end of the line is free, the rocket will waffle about and not reach the ceiling.' Die meganisme daaragter word gestut deur Science World (https://www.scienceworld.ca/resource/balloon-rockets/): 'Because balloon openings are wobbly, the flight path of a balloon is wobbly, too' en 'One way to stabilize the direction of the balloon is to attach it to a simple track made of string' — die ballon waggel uit sy eie aard, en dit is die lyn se spanning wat hom reguit hou, dus laat 'n slap lyn die waggel deur. KWALIFIKASIE, eerlik gestel: NASA se woorde kom uit 'n opstelling met 'n vertikale gidslyn, terwyl hierdie les se ballon 'langs' 'n lyn skiet. Die toestand wat NASA beskryf is egter 'slack in the line', en 'n lyn wat hang IS 'n slap lyn, so die oordrag is klein. Die item beweer ook nie dat dit die enigste rede is nie, en die voorafgaande item hang nie daarvan af nie (sien volgende item)."
+      "bron": "Penn State METEO 3 (courses.ems.psu.edu/meteo3/node/1948): byna al die atmosfeer se massa lê onder 50 km, omtrent 0,8% van die Aarde se radius, vergelykbaar met 'n appel se skil; UCAR SciEd 'Demonstrating the Thickness of Atmospheric Layers' (scied.ucar.edu/activity/atmospheric-layers) gebruik dieselfde beeld."
     },
     {
-      "bewering": "'n Styf gespanne lyn laat die ballon gewoonlik verder loop as 'n lyn wat hang.",
-      "blok": "Wat een ballonvuurpyl verder laat loop",
+      "bewering": "Hoe hoër jy gaan, hoe dunner word die lug, en dit het nêrens 'n rand nie.",
+      "blok": "Die lug word al hoe dunner",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "HIERDIE RONDTE HERBEVESTIG, juis omdat sy rede verander het. Die GEVOLG staan onafhanklik van enige rede: TeachEngineering (Universiteit van Colorado Boulder), 'Action-Reaction! Rocket' (https://www.teachengineering.org/activities/cub_mechanics_lesson04_activity2) — 'Make sure to pull the string taut for the balloon rocket launch. The balloon does not travel as far on a slack string.' Verder gestut deur NASA JPL (slap lyn haal nie die plafon nie, soos hierbo), NASA se 'Build a Multistage Balloon Rocket' (https://www.nasa.gov/wp-content/uploads/2021/11/sls-activity-three-build-a-multistage-balloon.pdf) wat vra dat die vislyn 'snugly' gespan word, en die Alaska Departement van Onderwys se AKSCI-aktiwiteit (https://outreach.gi.alaska.edu/sites/default/files/lessons/scan_912_PhysicalScience_BalloonRockets.pdf) — 'Make sure the line is level and taut.' Hierdie item leun dus nie op die waggel nie; dit sou bly staan al was die rede daarnaas heeltemal weg. Die woord 'gewoonlik' is 'n veilige versagting, want TeachEngineering stel dit onversag. Let ook op: TeachEngineering gee GEEN rede vir die slap lyn se korter loop nie, wat bevestig dat wrywing nie uit 'n goeie bron kom nie."
+      "bron": "UCAR SciEd 'The Exosphere' (scied.ucar.edu/learning-zone/atmosphere/exosphere): die eksosfeer vervaag in die ruimte in en het geen duidelike boonste grens nie; die Kármán-lyn (~100 km) is 'n konvensie, nie 'n fisiese grens nie."
+    },
+    {
+      "bewering": "Ver bo die Aarde lê die ruimte, waar daar amper geen lug is nie.",
+      "blok": "Die lug word al hoe dunner",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Ensiklopediese opsomming van 'Outer space' (New World Encyclopedia, newworldencyclopedia.org/entry/outer_space; Wikipedia 'Outer space'): die ruimte begin buite die atmosfeer en is 'n byna volmaakte vakuum, nie heeltemal leeg nie — 'amper geen lug' is dus presies reg."
+    },
+    {
+      "bewering": "Mense gebruik vuurpyle om die ruimte in te gaan.",
+      "blok": "Die lug word al hoe dunner",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Glenn Research Center, 'Rocket Thrust' (grc.nasa.gov/WWW/K-12/airplane/rockth): 'n vuurpyl werk in die ruimte waar geen omringende lug is nie; NASA moon.nasa.gov 'Saturn Apollo Program'."
+    },
+    {
+      "bewering": "In 1969 het mense die eerste keer met 'n baie groot vuurpyl tot op die Maan gereis.",
+      "blok": "Die lug word al hoe dunner",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Smithsonian National Air and Space Museum, Apollo 11 (airandspace.si.edu/amp-stories/journey-and-spacecraft) en NASA: Apollo 11 lanseer 16 Julie 1969 op 'n Saturn V (~111 m hoog, die hoogste en kragtigste vuurpyl van sy tyd), Eagle land 20 Julie 1969. Let wel: Apollo 8 het in Desember 1968 reeds mense NA die Maan geneem (om die Maan gewentel, Britannica/Wikipedia 'Apollo 8'), maar nie OP die Maan nie. Die bewering is waar net omdat dit 'tot op die Maan' sê; as 'n taal- of skrywerswysiging dit ooit na 'na die Maan' verander, word 'eerste keer' vals."
+    },
+    {
+      "bewering": "'n Vuurpyl is 'n stelsel: 'n klomp dele wat saamwerk om een ding te doen.",
+      "blok": "'n Vuurpyl is 'n stelsel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Oxford Advanced Learner's Dictionary, 'system': 'a group of things, pieces of equipment, etc. that are connected or work together'; NASA Glenn 'Rocket Principles' (grc.nasa.gov/WWW/K-12/TRC/Rockets/rocket_principles.html) noem enjins, brandstoftenks, vrag, beheerstelsels en dryfmiddel as die vuurpyl se dele."
+    },
+    {
+      "bewering": "Die vuurpyl dra sy eie brandstof binne-in hom saam.",
+      "blok": "'n Vuurpyl is 'n stelsel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Glenn 'Rocket Principles': die grootste deel van 'n vuurpyl se massa is die dryfmiddel wat hy saamdra; NASA Glenn 'Rocket Thrust': die oksideermiddel word ook aan boord gedra. Die sin noem net die brandstof en nie die suurstof/oksideermiddel nie; dit is onvolledig maar nie vals nie."
+    },
+    {
+      "bewering": "Sy enjin brand daardie brandstof, en heel agter is 'n groot opening.",
+      "blok": "'n Vuurpyl is 'n stelsel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Glenn 'Rocket Thrust': die verbranding maak uitlaatgas wat deur 'n spuitstuk agter uitgedryf word. Vereenvoudiging om te ken: baie groot vuurpyle het meer as een spuitstuk agter (die Saturn V se eerste trap het vyf enjins gehad); 'n generiese vuurpyl met een opening is 'n aanvaarbare Graad 4-vereenvoudiging."
+    },
+    {
+      "bewering": "Heel bo sit die voertuig wat hy die ruimte in moet stuur.",
+      "blok": "'n Vuurpyl is 'n stelsel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia 'Payload fairing' en headedforspace.com: die vrag sit in die neuskeël bo-op die vuurpyl. Bekende uitsondering is die Ruimtependeltuig (aan die kant van die brandstoftenk), maar vir 'n gewone vuurpyl is die bewering waar."
+    },
+    {
+      "bewering": "So 'n voertuig kan 'n ruimtetuig met mense daarin wees of 'n satelliet wat in die ruimte werk.",
+      "blok": "'n Vuurpyl is 'n stelsel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Space Place 'What Is a Satellite?' (spaceplace.nasa.gov/satellite/en/): 'n satelliet is gewoonlik 'n masjien wat die ruimte in gelanseer word; Dictionary.com/Collins 'spacecraft': 'manned or unmanned vehicle'."
+    },
+    {
+      "bewering": "Die brandstof brand in die enjin, en die vuur maak baie warm gas.",
+      "blok": "Waar die uitlaatgasse vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Glenn 'Rocket Thrust': 'The combustion produces great amounts of exhaust gas at high temperature and pressure.'"
+    },
+    {
+      "bewering": "Daardie gas is nie gewone lug nie, en dit ontstaan eers wanneer die brandstof brand.",
+      "blok": "Waar die uitlaatgasse vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "IEEE Technology Navigator 'Exhaust gases' en Wikipedia 'Exhaust gas': uitlaatgas is die verbrandingsprodukte van die brandstof en oksideermiddel; NASA Glenn 'Rocket Thrust': geen buitelug word aan boord gebring nie."
+    },
+    {
+      "bewering": "Die gas kan net by die opening agter uit, en daar stroom dit in 'n vinnige straal uit. Ons noem daardie gas die vuurpyl se uitlaatgasse.",
+      "blok": "Waar die uitlaatgasse vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Glenn 'Rocket Principles' en 'Rocket Thrust': die uitlaatgas word deur die spuitstuk agter uitgedryf; die woord 'uitlaatgas' is die gewone term vir hierdie verbrandingsgas (Wikipedia 'Exhaust gas'; Nederlands 'uitlaatgas', vocabulary.com)."
+    },
+    {
+      "bewering": "Baie mense dink 'n vuurpyl stoot teen die lug of teen die grond.",
+      "blok": "Hoekom die vuurpyl vorentoe gaan",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA-geskiedenisblad oor Goddard (nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/): die New York Times het in 1920 geskryf vuurpyle kan nie in die ruimte werk nie omdat hulle lug nodig het om teen te stoot, en dit in Julie 1969 reggestel (Popular Science 2009); NASA Glenn 'Rocket Principles' noem hoe vuurpyle sonder lug werk as een van die algemeenste vrae. Die 'grond'-variant word in onderwysbronne as 'n algemene wanbegrip genoem (thescienceteacher.co.uk 'understanding newtons laws'); swakker bron, maar die bewering is net dat baie mense dit dink."
+    },
+    {
+      "bewering": "'n Vuurpyl werk ook ver bo die grond, waar daar amper geen lug is nie.",
+      "blok": "Hoekom die vuurpyl vorentoe gaan",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Glenn 'Rocket Thrust': 'That's why a rocket will work in space, where there is no surrounding air'; NASA Glenn 'Rocket Principles': vuurpyle werk eintlik beter in die ruimte as in lug."
+    },
+    {
+      "bewering": "Die stoot vorentoe kom van die vuurpyl en sy gas, wat teen mekaar stoot. Die vuurpyl stoot die warm gas deur die opening aan die agterkant uit. Op dieselfde oomblik stoot daardie gas net so hard terug teen die vuurpyl. Daardie stoot werk vorentoe en dryf die vuurpyl vorentoe.",
+      "blok": "Hoekom die vuurpyl vorentoe gaan",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Glenn 'Rocket Thrust': stukrag ontstaan volgens Newton se derde wet; NASA Glenn 'Rocket Principles': die vuurpyl stoot op die uitlaatgas en die uitlaatgas stoot terug op die vuurpyl, nie teen die omringende lug nie. Gelyk ('net so hard') en gelyktydig ('op dieselfde oomblik') is presies die derde wet."
+    },
+    {
+      "bewering": "Jy het dit al by 'n vol ballon sonder 'n knoop gesien. Die lug jaag by die opening uit, en die ballon skiet self weg.",
+      "blok": "Hoekom die vuurpyl vorentoe gaan",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Afbeelding nagegaan, nie net die feite nie. NASA Glenn 'Rocket Principles': 'n vuurpyl is in wese 'n kamer met gas onder druk, 'A good example of this is a balloon. The only significant difference is the way the pressurized gas is produced' (gespanne rubber teenoor brandende dryfmiddel). NASA JPL 'Simple Rocket Science' (jpl.nasa.gov/edu/resources/lesson-plan/simple-rocket-science/): die ballon beweeg in die teenoorgestelde rigting as die ontsnappende lug. Die enigste plek waar die afbeelding breek — die ballon brand niks nie en sy gas is gewone lug — word in die volgende blok uitdruklik gesê, en blok 'Waar die uitlaatgasse vandaan kom' sê die vuurpyl se gas is nie gewone lug nie. Die afbeelding hou."
+    },
+    {
+      "bewering": "'n Opgeblase ballon wat aan 'n lyn vas is en daarlangs skiet, word 'n ballonvuurpyl genoem.",
+      "blok": "Die ballonvuurpyl",
+      "status": "bevestig",
+      "tipe": "naam",
+      "bron": "Die KABV Afrikaanse dokument gebruik self 'ballonvuurpyl' (deur die opdraggewer bevestig); Engelse ekwivalent 'balloon rocket' met 'n tou en strooitjie: Smithsonian NASM 'Balloon Rockets' (airandspace.si.edu/learn/learning-resources/balloon-rockets), NASA JPL 'Simple Rocket Science'."
+    },
+    {
+      "bewering": "Dit beweeg op dieselfde manier as 'n vuurpyl. Maar dit dra geen brandstof nie, en niks brand daarin nie.",
+      "blok": "Die ballonvuurpyl",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "NASA Glenn 'Rocket Principles' (ballon gebruik gespanne rubber, 'n vuurpyl brand dryfmiddel — die enigste beduidende verskil); NASA JPL 'Simple Rocket Science': 'NASA rockets are powered by burning ... rocket fuel', die ballon word deur lug aangedryf; Smithsonian NASM: albei beweeg deur gas agter uit te stoot."
     },
     {
       "bewering": "Meer lug gee meer gas om uit te stoot, en die stoot hou dan langer aan.",
-      "blok": "Wat een ballonvuurpyl verder laat loop",
+      "blok": "Wat laat die ballon verder beweeg?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "HIERDIE RONDTE NAGEGAAN (die hele lysblok is volledig nagegaan omdat een item daarin verander het). Alaska Departement van Onderwys, AKSCI 'Balloon Rockets' (https://outreach.gi.alaska.edu/sites/default/files/lessons/scan_912_PhysicalScience_BalloonRockets.pdf) — 'The balloon should have moved a greater distance with a greater volume of air due to the increase of force and the increase in the amount of air being expelled.' TeachEngineering (https://www.teachengineering.org/activities/cub_mechanics_lesson04_activity2) — 'The more air initially in the balloon, the further the balloon travels along the string.' Die les se spesifieke stelling is oor DUUR ('hou langer aan'), nie oor krag nie: 'n voller ballon moet meer lug deur dieselfde opening uitlaat en stoot dus vir langer. Dit is waar en dit weerspreek nie die bronne se kragverklaring nie; albei loop dieselfde kant toe."
+      "bron": "Generation Genius 'Classroom Balloon Rocket Race' (generationgenius.com): die ballon raak geleidelik sonder lug en gaan stadiger, dit kan net die energie vrystel wat daarin gestoor is; FLEET 'Balloon Rocket' (archive.fleet.org.au/blog/balloon-rocket/): lug is die 'brandstofvoorraad', halfpad opblaas verminder dit; SERC/MnSTEP 'Balloon Rockets': die hoeveelheid lug verander die afstand. Die sin sê korrek net dat die stoot LANGER aanhou, nie harder nie — 'n rubberballon se binnedruk styg nie eenvoudig saam met sy grootte nie, so 'harder' sou nie veilig gewees het nie."
     },
     {
-      "bewering": "Iets swaars aan die ballon maak die vrag swaarder, en dieselfde stoot kry dit gewoonlik minder ver.",
-      "blok": "Wat een ballonvuurpyl verder laat loop",
+      "bewering": "Iets swaars aan die ballon maak die vrag swaarder, en dieselfde stoot dryf dit gewoonlik minder ver.",
+      "blok": "Wat laat die ballon verder beweeg?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "HIERDIE RONDTE NAGEGAAN (hele lysblok). TeachEngineering (https://www.teachengineering.org/activities/cub_mechanics_lesson04_activity2) — 'the same force exerted upon a larger mass will result in a lower acceleration - the rocket will not go as far!' NASA JPL se 'Heavy Lifting'-aktiwiteit (https://www.jpl.nasa.gov/edu/resources/lesson-plan/rocket-activity-heavy-lifting/) bou 'n hele uitdaging op presies hierdie verband: hoe swaarder die vrag knypers, hoe moeiliker haal die ballonvuurpyl die plafon. 'Gewoonlik' is korrek gehedge."
+      "bron": "Newton se tweede wet (dieselfde krag, meer massa, minder versnelling); Rolls-Royce 'Balloon Rocket Investigation' onderwysersnotas (gewig met Plasticine bygevoeg as 'n veranderlike wat die afstand beïnvloed); FLEET 'Balloon Rocket': gewig bygevoeg tot dit nie meer kan opstyg nie. 'Gewoonlik' is gepas versigtig."
     },
     {
-      "bewering": "'n Opgeblase ballon wat aan 'n lyn langs skiet, word 'n ballonvuurpyl genoem. Dit is nie 'n vuurpyl nie en niks brand daarin nie. Binne-in is net gewone lug wat iemand self ingeblaas het. Tog beweeg dit op dieselfde manier as 'n vuurpyl.",
-      "blok": "Die ballonvuurpyl",
+      "bewering": "'n Styf gespanne lyn laat die ballon gewoonlik verder beweeg as 'n slap lyn.",
+      "blok": "Wat laat die ballon verder beweeg?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "HIERDIE RONDTE NAGEGAAN as die blok waarop die veranderde lys steun. Science World (https://www.scienceworld.ca/resource/balloon-rockets/) en TeachEngineering (https://www.teachengineering.org/activities/cub_mechanics_lesson04_activity2) beskryf albei die ballon-op-'n-lyn as 'n model van dieselfde aksie-reaksie-beweging as 'n vuurpyl, met gewone ingeblaasde lug en geen verbranding nie. Belangrik vir hierdie hersiening: hierdie blok noem die lyn net as 'n lyn en maak GEEN aanspraak op skuur, wrywing, helling of gladheid nie, dus is niks hier ontwrig deur die skrapping van die skuurrede nie."
+      "bron": "Generation Genius 'Classroom Balloon Rocket Race': 'The tighter the string, the less friction, and the farther your balloon rocket will fly'; NASA JPL 'Simple Rocket Science': 'stretch the line tightly'; FLEET: lyn 'level and tight (no sag in the middle)'. Geen gekontroleerde meting van slap teenoor styf gevind nie, maar die bronne stem ooreen en 'gewoonlik' hou die bewering binne wat hulle ondersteun."
     },
     {
-      "bewering": "Verander net een ding wanneer jy twee ballonvuurpyle met mekaar vergelyk. Hou al die ander dinge presies dieselfde as die eerste keer.",
-      "blok": "Verander net een ding op 'n slag",
+      "bewering": "Aan 'n slap lyn swaai die ballon rond, en dit beweeg nie reguit nie.",
+      "blok": "Wat laat die ballon verder beweeg?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "HIERDIE RONDTE NAGEGAAN as die blok waarop die lys se veranderlikes steun. Die Alaska Departement van Onderwys se AKSCI-lab (https://outreach.gi.alaska.edu/sites/default/files/lessons/scan_912_PhysicalScience_BalloonRockets.pdf) hou presies hierdie ontwerp: net die lugvolume verander oor die proewe, en die lyn word doelbewus 'level and taut' gehou vir ALLE proewe. Die lys se drie veranderlikes (lug, vrag, lynspanning) is dus juis die dinge wat 'n mens een op 'n slag verander of konstant hou. Hierdie blok verwys nêrens na skuur of wrywing nie en verloor niks deur die skrapping nie."
+      "bron": "Smithsonian NASM 'Balloon Rockets': die tou en strooitjie hou die ballon reguit op koers; Generation Genius: 'the tighter and straighter the line, the smoother your rocket will fly'. 'Nie reguit nie' volg ook uit die meetkunde: 'n slap lyn hang in 'n boog. Geen bron beskryf die 'rondswaai' self met 'n meting nie; dit is die gewone waarneming en ek het niks gevind wat dit weerspreek nie."
     },
     {
-      "bewering": "VOLTEKS-SOEKTOG: geen blok in die les - nie die lys, nie enige studieblok, nie die eli10, nie enige begrip - noem skuur, wrywing, vryf, helling of gladheid nie.",
-      "blok": "hele les",
+      "bewering": "Net die hoeveelheid lug verskil, en al die res bly dieselfde. Anders weet jy nie watter ding die verskil gemaak het nie.",
+      "blok": "'n Voorbeeld met drie ballonvuurpyle",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "HIERDIE RONDTE NAGEGAAN. Ek het die hele lesteks deurgelees en woord vir woord gekyk. Die enigste plek waar 'skuur' en 'hellinkie' nog voorkom, is die herkoms-aantekening (nota_feite), wat metadata is en nie by 'n leerder uitkom nie; daar staan dit juis om te sê dat albei uitgehaal is en nie mag terugkom nie. Niks in die leerderteks hang van die geskrapte rede af nie, en niks is naas die waggel bygevoeg nie. Ek het ook opgelet dat die swak bronne wat wrywing as rede gee (aktiwiteitsblogs soos onelittleproject.com en coolscienceexperimentshq.com) mekaar oorskryf en steeds nie deur enige goeie bron gestut word nie - die skrapping was reg."
+      "bron": "SCSA (Wes-Australiese kurrikulum) woordelys 'fair test' (k10outline.scsa.wa.edu.au): een veranderlike verander, al die ander bly dieselfde, sodat verskille aan die verandering toegeskryf kan word; NSW DET 'Working scientifically'."
     },
     {
-      "bewering": "Mense het al met vuurpyle tot op die Maan gereis, en die eerste keer was in 1969.",
-      "blok": "Bo die lug lê die ruimte",
+      "bewering": "'n Staafgrafiek wys die tabel se afstande met een staaf per ballon. Onderaan staan die hoeveelheid lug en langs die kant die afstand in meter. Hoe hoër die staaf is, hoe verder het daardie ballon gegaan.",
+      "blok": "'n Voorbeeld met drie ballonvuurpyle",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Oxford Learner's Dictionaries 'bar graph' en Wikipedia 'Bar chart': stawe se hoogte is eweredig aan die waarde, kategorieë op een as en die gemete hoeveelheid op die ander. Vir 'n mens, nie 'n feitefout nie: die les beskryf 'n grafiek wat nie in die les se inhoud self is nie; dit staan net as die uitlegspan dit bou."
+    },
+    {
+      "bewering": "Die hoogste staaf hoort by drie asems. In hierdie voorbeeld het daardie ballon die verste gegaan.",
+      "blok": "'n Voorbeeld met drie ballonvuurpyle",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "OORGEDRA uit 'n vorige rondte se nasiening, waar die datum en die 'eerste keer'-formulering bevestig is. In hierdie rondte NIE weer nagesoek nie, want die blok is onaangeraak en hang nie van die verandering af nie."
+      "bron": "Nagegaan teen die les se eie tabel ('Tabel met versinde getalle'): 2 m, 4 m, 5 m — drie asems (5 m) is die hoogste en die verste. Die gevolgtrekking is uitdruklik beperk tot 'in hierdie voorbeeld' en die voorbeeld word as versin aangebied; dit veralgemeen nie na alle ballonne nie en sê niks oor die afnemende toename (2, dan +2, dan +1) nie. Die algemene bewering dat meer lug die stoot langer laat aanhou, staan apart in die lys en word daar deur bronne gedra, nie deur die versinde getalle nie."
     },
     {
-      "bewering": "Al daardie gas het net een pad uit, en dit is die groot opening agter.",
-      "blok": "Waar die uitlaatgasse vandaan kom",
+      "bewering": "Een asem: 2 meter / Twee asems: 4 meter / Drie asems: 5 meter",
+      "blok": "Tabel met versinde getalle: Hoeveelheid lug en Afstand (meter)",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "OORGEDRA uit 'n vorige rondte. Die eksklusiwiteitsaanspraak ('net een pad uit') is daar nagegaan; in hierdie rondte nie herondersoek nie, want die blok is onaangeraak."
+      "tipe": "getal",
+      "bron": "Die opskrif sê uitdruklik dat die getalle versin is, so hulle maak geen bewering oor die werklikheid nie. Nagegaan dat hulle met die studieblok ooreenstem (drie asems = hoogste) en met die lys se bewering dat meer lug verder dryf. Die afstande is ook geloofwaardig vir 'n klaskamer-ballonvuurpyl (gewone toue in die bronne is enkele meter lank)."
     },
     {
-      "bewering": "Baie mense dink 'n vuurpyl stoot teen die lug of teen die grond. 'n Vuurpyl werk juis waar daar geen lug is nie.",
-      "blok": "Hoekom die vuurpyl vorentoe gaan",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "OORGEDRA uit 'n vorige rondte, waar die wanbegrip en die ontkenning daarvan bevestig is. In hierdie rondte nie weer nagesoek nie."
-    },
-    {
-      "bewering": "Die vuurpyl en sy gas stoot teen mekaar en teen niks anders nie. Die vuurpyl stoot die warm gas by die opening agter uit. Op dieselfde oomblik stoot daardie gas net so hard terug teen die vuurpyl.",
-      "blok": "Hoekom die vuurpyl vorentoe gaan",
+      "bewering": "ruimte: Die baie groot, amper leë plek buite die Aarde se lug.",
+      "blok": "begrip: ruimte",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "OORGEDRA uit 'n vorige rondte: die stootverklaring met sy gelyke, gelyktydige, teenoorgestelde stote is daar bevestig. In hierdie rondte nie herondersoek nie - die blok is onaangeraak en die lysverandering raak dit nie."
+      "bron": "New World Encyclopedia / Wikipedia 'Outer space': die uitgestrektheid buite die Aarde en sy atmosfeer, 'n byna volmaakte vakuum. 'Amper leeg' is korrek, nie 'leeg' nie."
     },
     {
-      "bewering": "Dit is 'n stelsel van los dele wat saamwerk om een werk te doen. / Begrip 'stelsel': Los dele wat saamwerk om een werk te doen. / Begrip 'vuurpyl': 'n Stelsel wat voertuie die ruimte in stuur.",
-      "blok": "'n Vuurpyl is 'n stelsel / begrip-blokke",
+      "bewering": "vuurpyl: Iets wat gas by sy agterkant uitstoot en daardeur self vorentoe gestoot word. Dit het geen lug van buite nodig nie, want dit dra self saam wat dit uitstoot. Groot vuurpyle word gebruik om voertuie die ruimte in te stuur.",
+      "blok": "begrip: vuurpyl",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "OORGEDRA uit 'n vorige rondte, waar die stelsel-omskrywing bevestig is. In hierdie rondte nie weer nagesoek nie."
+      "bron": "Alleen gelees nagegaan. NASA Glenn 'Rocket Thrust': geen buitelug word aan boord gebring nie, die oksideermiddel word saamgedra, daarom werk dit in die ruimte; U.S. Centennial of Flight Commission 'Propellants': die verskil met 'n straalenjin is dat die oksideermiddel saamgedra word. Die tweede sin sluit 'n straalenjin (wat ook gas agter uitstoot) korrek uit. 'Dra self saam wat dit uitstoot' is waar: alles wat uitgestoot word, kom van die brandstof en oksideermiddel aan boord."
     },
     {
-      "bewering": "Begrip 'ruimtetuig': 'n Voertuig wat in die ruimte werk, met of sonder mense.",
+      "bewering": "stelsel: 'n Klomp dele wat saamwerk om een ding te doen.",
+      "blok": "begrip: stelsel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Oxford Advanced Learner's Dictionary 'system'; New Oxford American Dictionary (aangehaal deur Bentley University en Emory): 'a set of things working together as parts of a mechanism'."
+    },
+    {
+      "bewering": "brandstof: Iets wat kan brand en dan hitte of energie afgee.",
+      "blok": "begrip: brandstof",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dictionary.com 'fuel': 'combustible matter used to maintain fire ... burned as a source of heat or power'. Kernbrandstof brand nie, maar vir Graad 4 en hierdie les is die definisie waar. 'Hitte of energie' is effens oortollig (hitte is energie) maar nie vals nie."
+    },
+    {
+      "bewering": "uitlaatgasse: Die gasse wat uitkom nadat brandstof gebrand het, soos agter by 'n vuurpyl.",
+      "blok": "begrip: uitlaatgasse",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "IEEE Technology Navigator 'Exhaust gases' (verbrandingsprodukte wat 'n enjin verlaat); Wikipedia 'Exhaust gas'; GoAuto-woordelys."
+    },
+    {
+      "bewering": "ruimtetuig: 'n Voertuig wat in die ruimte werk, met of sonder mense.",
       "blok": "begrip: ruimtetuig",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "OORGEDRA: hierdie is een van die twee omskrywings wat in die vorige rondte reggestel en toe bevestig is. In hierdie rondte nie herondersoek nie."
+      "bron": "Britannica Dictionary 'spacecraft': 'a vehicle that is used for travel in outer space'; Collins via Dictionary.com: 'a manned or unmanned vehicle'."
     },
     {
-      "bewering": "Begrip 'satelliet': Iets wat om 'n planeet draai, soos die Maan om die Aarde.",
+      "bewering": "satelliet: Iets wat om 'n planeet beweeg, soos die Maan.",
       "blok": "begrip: satelliet",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "OORGEDRA: die tweede reggestelde omskrywing, in die vorige rondte bevestig. In hierdie rondte nie herondersoek nie."
+      "bron": "NASA Picture Dictionary 'S': 'A natural moon or man-made object that orbits a planet or other object'; NASA Space Place 'What Is a Satellite?': die Maan is 'n satelliet van die Aarde. Die les se definisie is nouer as NASA s'n ('om 'n planeet' teenoor 'om 'n planeet of ander liggaam') maar nie vals nie, en die Maan is 'n korrekte voorbeeld. Vir 'n mens om op te let, nie 'n fout nie: die studieblok bedoel 'n masjien ('n satelliet wat in die ruimte werk) terwyl die begrip se enigste voorbeeld 'n natuurlike satelliet is."
     },
     {
-      "bewering": "Begrip 'brandstof': Iets wat brand om 'n masjien te laat werk. / Begrip 'uitlaatgasse': Die warm gas wat agter by 'n vuurpyl uitstroom. / Begrip 'ballonvuurpyl': 'n Opgeblase ballon wat op dieselfde manier as 'n vuurpyl beweeg.",
-      "blok": "begrip-blokke",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "OORGEDRA uit 'n vorige rondte se nasiening van die begrip-blokke. In hierdie rondte nie weer nagesoek nie; die ballonvuurpyl-omskrywing is wel saam met sy studieblok gelees om te kyk of die lysverandering dit ontwrig - dit doen nie."
-    },
-    {
-      "bewering": "Die lug wat jy inasem, lê in 'n dun laag om die hele Aarde. Bo daardie laag begin die ruimte en daar is geen lug meer nie.",
-      "blok": "Bo die lug lê die ruimte",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "OORGEDRA uit 'n vorige rondte. In hierdie rondte nie herondersoek nie."
-    },
-    {
-      "bewering": "Die brandstof brand in die enjin en die vuur maak baie warm gas. Daardie gas is nie gewone lug nie en dit ontstaan eers wanneer die brandstof brand.",
-      "blok": "Waar die uitlaatgasse vandaan kom",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "OORGEDRA uit 'n vorige rondte. In hierdie rondte nie herondersoek nie."
-    },
-    {
-      "bewering": "Dink aan twee maats wat op skaatsplanke stilstaan ... Die vuurpyl is die een maat en die gas die ander. Niemand stoot teen die grond of teen die lug nie. Sonder grond onder hulle voete sou hulle net so uitmekaar dryf. Die maats is ewe swaar, maar 'n vuurpyl weeg baie meer as die gas wat elke sekonde uitskiet.",
-      "blok": "eli10 vir 'Hoekom die vuurpyl vorentoe gaan'",
+      "bewering": "ballonvuurpyl: 'n Opgeblase ballon wat op dieselfde manier as 'n vuurpyl beweeg.",
+      "blok": "begrip: ballonvuurpyl",
       "status": "bevestig",
       "tipe": "analogie",
-      "bron": "OORGEDRA: hierdie blok is oor sewe rondtes heen nagegaan en goedgekeur, die afbeelding se twee grense inkluis. In hierdie rondte nie weer nagesoek nie. Ek het wel bevestig dat die lysverandering nie daaraan raak nie: die eli10 sê niks oor 'n lyn, 'n spanning, skuur of wrywing nie, en die skaatsplank-afbeelding staan los van die ballonvuurpyl-veranderlikes."
+      "bron": "Alleen gelees nagegaan. NASA Glenn 'Rocket Principles' (die ballon as voorbeeld van dieselfde beginsel); Smithsonian NASM 'Balloon Rockets'. Die begrip laat die lyn weg wat die studieblok 'Die ballonvuurpyl' in sy definisie insluit; dit maak die begrip wyer, nie vals nie."
+    },
+    {
+      "bewering": "staafgrafiek: 'n Grafiek wat getalle wys met stawe wat langer of korter is.",
+      "blok": "begrip: staafgrafiek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Oxford Learner's Dictionaries 'bar graph': 'a diagram that uses lines or narrow rectangles (= bars) of different heights ... to show different amounts'; Wikipedia 'Bar chart'."
     }
   ],
-  "opsomming": "Die veranderde item is waar en niks in die les hang meer van die geskrapte skuurrede af nie: NASA JPL se eie ballonvuurpyl-aktiwiteit sê dat 'n slap lyn die vuurpyl laat 'waffle about' en die punt laat mis, en Science World verklaar hoekom - 'n ballon se vlugbaan is uit sy aard waggelrig en dit is die gespanne lyn wat hom reguit hou; die enigste versigtigheid is dat NASA se woorde uit 'n vertikale opstelling kom, wat klein is omdat 'n lyn wat hang presies die slap toestand is wat hulle beskryf, en die item nie beweer dit is die enigste rede nie. Die voorafgaande item bly staan sonder om op die nuwe rede te leun, want TeachEngineering stel die gevolg self reguit ('the balloon does not travel as far on a slack string'), en dieselfde bron gee geen rede daarvoor nie - wat bevestig dat wrywing nooit uit 'n goeie bron gekom het nie. Die res van die lysblok (meer lug, swaarder vrag) is hierdie rondte volledig nagegaan en hou; die studieteks, die begrippe en die eli10 word oorgedra soos hulle in vorige rondtes bevestig is, en is nie weer nagesoek nie."
+  "opsomming": "Elke nagaanbare bewering in die les is waar: die 1969-maanlanding is reg omdat die sin 'tot op die Maan' sê (Apollo 8 het al in 1968 mense na die Maan geneem sonder om te land, so dié woorde mag nie verander nie), die ballon-vuurpyl-vergelyking hou soos NASA dit self gebruik, die versinde voorbeeld se gevolgtrekking bly binne 'in hierdie voorbeeld', en die les bevat geen veiligheids- of gesondheidsopdragte nie; let net op dat die studieteks 'n staafgrafiek beskryf wat die uitlegspan moet bou."
 }

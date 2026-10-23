@@ -1,0 +1,92 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die plek waar iets lewe",
+      "voor": "Gras lewe in die oop veld en die springbok",
+      "na": "Gras lewe in die oop veld, en die springbok",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses ('Gras lewe ...' and 'die springbok lewe ...').",
+      "rede_keurder": "Both sides have their own subject and verb, so the AWS 2017 comma is required and nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Baie soorte plekke",
+      "voor": "Daar is baie soorte habitat en hulle",
+      "na": "Daar is baie soorte habitatte, en hulle",
+      "soort": "grammatika",
+      "rede_vinder": "After 'baie soorte' Afrikaans uses the plural noun (as the next sentence does), and the AWS comma goes before 'en' joining two clauses.",
+      "fout": "'baie soorte habitat' uses the singular where a count noun after 'soorte' reads naturally in the plural, and the clause-joining comma is missing.",
+      "rede_keurder": "'baie soorte habitatte' matches the next sentence's 'Sommige habitatte', keeps the same word, and adds the required comma; the protected definition is untouched."
+    },
+    {
+      "nr": 3,
+      "blok": "Baie soorte plekke",
+      "voor": "op die land en ander is in die water",
+      "na": "op die land, en ander is in die water",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb, matching the previous sentence.",
+      "fout": "Missing AWS comma before 'en' joining 'Sommige habitatte is ...' and 'ander is ...'.",
+      "rede_keurder": "Two clauses with their own subject and verb, so the comma is required and meaning is unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Die grasveld en die bos",
+      "voor": "vol hoë bome en die skaduwee",
+      "na": "vol hoë bome, en die skaduwee",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining 'n Bos is ...' and 'die skaduwee hou ...'.",
+      "rede_keurder": "Two full clauses; the comma before the second 'en' (in 'koel en donker') is correctly not added."
+    },
+    {
+      "nr": 5,
+      "blok": "Die rivier en die see",
+      "voor": "habitat van vars water",
+      "na": "habitat van varswater",
+      "soort": "spelling",
+      "rede_vinder": "'Varswater' (fresh water as a kind of water) is written as one word in the AWS.",
+      "fout": "'vars water' in the fresh-versus-salt sense is written as one word, 'varswater'.",
+      "rede_keurder": "Spelling fix only: same word, same meaning, and it sets up the salt-water contrast in the next sentence."
+    },
+    {
+      "nr": 6,
+      "blok": "Die rivier en die see",
+      "voor": "lewe in die water en riete groei",
+      "na": "lewe in die water, en riete groei",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining 'Die seekoei en die padda lewe ...' and 'riete groei ...'.",
+      "rede_keurder": "Two full clauses; the list 'Die seekoei en die padda' correctly gets no comma."
+    },
+    {
+      "nr": 7,
+      "blok": "Die rivier en die see",
+      "voor": "Die see is baie groot en sy water is sout in plaas van vars",
+      "na": "Die see is baie groot, en sy water is sout, nie vars nie",
+      "soort": "idioom",
+      "rede_vinder": "AWS comma before 'en' joining two clauses, and 'sout, nie vars nie' is more natural Afrikaans than the English-shaped 'in plaas van vars'.",
+      "fout": "Missing clause-joining comma, and 'sout in plaas van vars' is a stiff English-shaped contrast between two adjectives.",
+      "rede_keurder": "'sout, nie vars nie' is the natural Afrikaans contrast and says exactly the same thing, with the required AWS comma added."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die rivier en die see",
+      "teks": "Haaie, robbe en visse lewe in die see.",
+      "rede": "Listing sharks beside fish may suggest sharks are not fish; a content question for the writer or fact check, not a language fix."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 169,
+  "woorde_na": 167,
+  "wanneer": "2026-10-22T23:30:16+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:0f77d411a0ef7696c100f6386577d46c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1723c5aaa13f91aa5630594f76861836"
+}

@@ -1,0 +1,63 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die Maan maak nie sy eie lig nie",
+      "voor": "maak egter nie sy eie lig soos die Son nie",
+      "na": "maak egter nie soos die Son sy eie lig nie",
+      "soort": "woordorde",
+      "rede_vinder": "With 'soos die Son' after 'lig' it can be read as 'not its own light like the Sun's light'; placing the comparison before the object is the natural Afrikaans order and removes the ambiguity.",
+      "fout": "With 'soos die Son' after the object, the sentence can be read as 'does not make light like the Sun's light', as if the Moon made some lesser light of its own.",
+      "rede_keurder": "Putting the comparison before the object is the natural Afrikaans order, removes that misreading and keeps the meaning (the Moon makes no light of its own, unlike the Sun)."
+    },
+    {
+      "nr": 2,
+      "blok": "Die patroon herhaal homself",
+      "voor": "patroon van vorms herhaal homself",
+      "na": "patroon van vorms herhaal hom",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans normally uses the plain reflexive 'hom' with 'herhaal'; 'homself' is emphatic and leans on English 'repeats itself'.",
+      "fout": "'herhaal homself' copies English 'repeats itself'; the usual Afrikaans reflexive is 'herhaal hom'.",
+      "rede_keurder": "Plain reflexive 'hom' is standard Afrikaans with 'herhaal' and the meaning is unchanged; the block heading 'Die patroon herhaal homself' should be changed to match ('Die patroon herhaal hom'), so heading and body say it the same way."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die patroon herhaal homself",
+      "teks": "Die patroon herhaal homself",
+      "rede": "The block heading uses the same 'herhaal homself'; if the body change is kept, the heading should probably match ('Die patroon herhaal hom'), which a script may not be able to apply."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 520,
+  "woorde_na": 520,
+  "wanneer": "2026-10-22T23:23:09+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Die Son skyn op een helfte",
+      "voor": "kry ook later sy beurt",
+      "na": "kry later ook sy beurt",
+      "soort": "woordorde",
+      "rede_vinder": "'later ook' is the more natural order here.",
+      "fout": "none",
+      "rede_keurder": "\"kry ook later sy beurt\" already reads naturally, and moving \"ook\" is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom ons uitsig elke aand verander",
+      "voor": "Elke aand is die Maan dus op 'n ander plek om die Aarde.",
+      "na": "Elke aand is die Maan dus op 'n ander plek op sy pad om die Aarde.",
+      "soort": "sinsbou",
+      "rede_vinder": "'op 'n ander plek om die Aarde' is awkward; tying the place to the path just named reads clearly without adding content.",
+      "fout": "none",
+      "rede_keurder": "\"op 'n ander plek om die Aarde\" is understandable, and the proposal lengthens the sentence and repeats \"pad om die Aarde\" a third time in three sentences."
+    }
+  ],
+  "konsep_hash_voor": "sha256:70d8b4473cda532fb916e1eed85cb8b3",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:244452890f9edda193943189f5ce9f23"
+}

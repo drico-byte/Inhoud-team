@@ -1,0 +1,103 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "stroom",
+      "voor": "die see. Daardie stroom kan",
+      "na": "die see. So 'n stroom kan",
+      "soort": "verwysing",
+      "rede_vinder": "A glossary entry is read on its own, so 'Daardie' points back to nothing; 'So 'n stroom' refers correctly to the kind of water just defined, keeps the second sentence and adds no words.",
+      "fout": "In the stand-alone glossary entry 'Daardie stroom' has no antecedent: the definition sentence never names a stroom, so the demonstrative points back to nothing.",
+      "rede_keurder": "A plain reference fix that keeps 'kan', the protected 'soos in 'n rivier of die see' and the warning itself intact, adds nothing, and does not touch a safety instruction or a shared definition."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "stroom",
+      "teks": "Daardie stroom kan 'n mens saamvat.",
+      "rede": "This sentence is word for word the same as one in the study block 'Riviere en damme werk anders', where 'Daardie' is correct because it follows 'n Stroom ... deurtrek'. If the glossary was meant to repeat the study sentence exactly, the reviewer may prefer to send the reference problem to the writer rather than change it here."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 483,
+  "woorde_na": 483,
+  "wanneer": "2026-10-23T07:20:20+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Water by die huis",
+      "voor": "kan in water verdrink wat nie tot by sy knieë kom nie",
+      "na": "kan verdrink in water wat nie tot by sy knieë kom nie",
+      "soort": "woordorde",
+      "rede_vinder": "Putting the relative clause straight after 'water' makes the sentence easier for a Grade 4 reader to follow.",
+      "fout": "none",
+      "rede_keurder": "'kan in water verdrink wat ...' is ordinary Afrikaans word order and reads clearly, so the proposal is a lateral move."
+    },
+    {
+      "nr": 8,
+      "blok": "Riviere en damme werk anders",
+      "voor": "Baie kante is glibberig",
+      "na": "Baie walle is glibberig",
+      "soort": "woordkeuse",
+      "rede_vinder": "The bank of a river or dam is a 'wal' in Afrikaans; 'kant' in the plural is vague here.",
+      "fout": "none",
+      "rede_keurder": "The paragraph uses 'kant' consistently for the edge, 'walle' of a dam could be read as the dam wall, and the original reads fine."
+    },
+    {
+      "nr": 10,
+      "blok": "Hoe dit werklik lyk as iemand sukkel",
+      "voor": "In flieks swaai en skreeu die mens wat verdrink.",
+      "na": "In flieks skreeu die mens wat verdrink en swaai hy sy arms.",
+      "soort": "sinsbou",
+      "rede_vinder": "'swaai' with no object sounds unfinished; the arms are what the verb means, so no content is added.",
+      "fout": "none",
+      "rede_keurder": "The original is crisp, and the proposal is longer and invites a misreading of 'wat verdrink en swaai' as one relative clause."
+    },
+    {
+      "nr": 14,
+      "blok": "Die reëls wat jou veilig hou",
+      "voor": "Loop by die rand en moenie",
+      "na": "Stap by die rand en moenie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Stap' makes the contrast with 'hardloop' plain; 'loop by die rand' can also be read as 'go to the edge'.",
+      "fout": "none",
+      "rede_keurder": "'Loop' against 'hardloop' is already the natural Afrikaans contrast, so the swap is a lateral move inside a safety rule."
+    },
+    {
+      "nr": 16,
+      "blok": "As iemand in die moeilikheid is",
+      "voor": "Dit is die eerste ding en die belangrikste ding.",
+      "na": "Dit is die eerste en die belangrikste ding.",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeating 'ding' is wooden; the emphasis stays the same without it.",
+      "fout": "none",
+      "rede_keurder": "The repeated 'ding' is deliberate emphasis on the first safety action, and removing it weakens that emphasis."
+    },
+    {
+      "nr": 2,
+      "blok": "By 'n openbare swembad",
+      "voor": "Stoei en iemand indruk verander",
+      "na": "Om te stoei en iemand in te druk, verander",
+      "soort": "sinsbou",
+      "rede_vinder": "A bare separable verb with an object ('iemand indruk') reads woodenly as a subject; the om-te infinitive is the natural construction and keeps both actions and the meaning.",
+      "fout": "none",
+      "rede_keurder": "A bare infinitive as subject ('Stoei en iemand indruk verander...') is ordinary Afrikaans; the proposal is longer, harder for a Grade 4 reader, and puts a comma between subject and verb inside one sentence, so it is at best a lateral move."
+    },
+    {
+      "nr": 3,
+      "blok": "badmeester",
+      "voor": "Die mens wat by 'n swembad",
+      "na": "Die persoon wat by 'n swembad",
+      "soort": "woordkeuse",
+      "rede_vinder": "For one specific person in a role, 'persoon' is the natural word; 'mens' reads as 'human being' here.",
+      "fout": "none",
+      "rede_keurder": "'Die mens wat...' is natural Afrikaans for a person in a role, so swapping it for 'persoon' is a lateral move, and it would reword a shared glossary definition without a real fault."
+    }
+  ],
+  "konsep_hash_voor": "sha256:57ea0fc0eb761eea4f97bf6baf5fadf8",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c003c9ecf0adae5643dfc9858e4ad898"
+}

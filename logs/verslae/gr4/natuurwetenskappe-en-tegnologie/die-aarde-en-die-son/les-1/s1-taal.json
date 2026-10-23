@@ -1,0 +1,123 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die son staan in die middel",
+      "voor": "Die Aarde beweeg om die son en die ander planete doen",
+      "na": "Die Aarde beweeg om die son, en die ander planete doen",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two full clauses",
+      "rede_keurder": "'Die Aarde beweeg' and 'die ander planete doen' each have their own subject and verb, so the AWS requires the comma."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat is die Sonnestelsel?",
+      "voor": "Die son en alles wat om hom beweeg vorm",
+      "na": "Die son en alles wat om hom beweeg, vorm",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the embedded relative clause separates the two verbs 'beweeg vorm' and makes the sentence easier to read.",
+      "fout": "two verbs 'beweeg vorm' collide and make the reader stumble",
+      "rede_keurder": "The AWS allows a comma between adjacent verbs for clarity, and it marks where the subject ends without changing anything."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat is die Sonnestelsel?",
+      "voor": "groot ronde wêrelde en party is",
+      "na": "groot ronde wêrelde, en party is",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two full clauses",
+      "rede_keurder": "'party is groot ronde wereelde' and 'party is baie klein' are two clauses with their own subject and verb."
+    },
+    {
+      "nr": 6,
+      "blok": "Agt planete, en die Aarde is een",
+      "voor": "maar dit tel nie by die agt nie",
+      "na": "maar hy tel nie by die agt nie",
+      "soort": "verwysing",
+      "rede_vinder": "The previous sentence refers to Pluto as 'hom'; switching to 'dit' in the next sentence is an inconsistent pronoun reference.",
+      "fout": "Pluto is 'hom' in one sentence and 'dit' in the next",
+      "rede_keurder": "Making the pronoun 'hy' matches the preceding 'hom' and removes the inconsistent reference without changing the claim."
+    },
+    {
+      "nr": 7,
+      "blok": "Die Aarde se wentelbaan",
+      "voor": "Dit beweeg heeltyd en dit volg",
+      "na": "Dit beweeg heeltyd, en dit volg",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two full clauses",
+      "rede_keurder": "'Dit beweeg heeltyd' and 'dit volg ... dieselfde pad' each have their own subject and verb."
+    },
+    {
+      "nr": 8,
+      "blok": "Die Aarde se wentelbaan",
+      "voor": "Die Aarde beweeg nooit terug nie en die beweging",
+      "na": "Die Aarde beweeg nooit terug nie, en die beweging",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two full clauses",
+      "rede_keurder": "'Die Aarde beweeg nooit terug nie' and 'die beweging hou nooit op nie' are two full clauses."
+    },
+    {
+      "nr": 10,
+      "blok": "Die Aarde se wentelbaan",
+      "voor": "Elke verjaardag wat jy vier, is dus",
+      "na": "Elke verjaardag wat jy vier, beteken dus",
+      "soort": "woordkeuse",
+      "rede_vinder": "A birthday is not itself a trip around the sun; 'beteken' states the link correctly without changing the meaning.",
+      "fout": "'is' equates a birthday with a trip, which is loose",
+      "rede_keurder": "'beteken' states the same link precisely and naturally, with the time, count and 'dus' intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die son staan in die middel",
+      "voor": "jy weet reeds dit is 'n ster",
+      "na": "jy weet reeds dat dit 'n ster is",
+      "soort": "woordorde",
+      "rede_vinder": "A written subordinate clause reads more correctly with 'dat' and the verb at the end.",
+      "fout": "none",
+      "rede_keurder": "'jy weet reeds dit is 'n ster' is natural, accepted Afrikaans after a verb of knowing; adding 'dat' is a lateral move that makes it more formal for a Grade 4 reader."
+    },
+    {
+      "nr": 5,
+      "blok": "Agt planete, en die Aarde is een",
+      "voor": "Dalk hoor jy nog iemand sê daar is nege planete in die Sonnestelsel",
+      "na": "Dalk hoor jy nog iemand sê dat daar nege planete in die Sonnestelsel is",
+      "soort": "woordorde",
+      "rede_vinder": "Reported speech in written text reads more correctly with 'dat' and the verb at the end.",
+      "fout": "none",
+      "rede_keurder": "'hoor jy iemand se daar is nege planete' is natural spoken Afrikaans; the 'dat' version is longer and pushes the verb to the end without being clearly better."
+    },
+    {
+      "nr": 9,
+      "blok": "Die Aarde se wentelbaan",
+      "voor": "Een volle reis om die son neem die Aarde ongeveer een jaar.",
+      "na": "Die Aarde neem ongeveer een jaar vir een volle reis om die son.",
+      "soort": "woordorde",
+      "rede_vinder": "Putting the subject first is clearer for a Grade 4 reader; the inverted order makes it briefly unclear who takes what.",
+      "fout": "none",
+      "rede_keurder": "'Een volle reis om die son neem die Aarde ongeveer een jaar' is idiomatic Afrikaans, while 'neem ... vir' copies English 'takes a year for'."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "planeet / dwergplaneet",
+      "teks": "'n Groot ronde wêreld wat op sy eie om 'n ster loop.",
+      "rede": "The glossary definitions use 'loop' while the study text says 'beweeg' throughout; not changed because these are probably decided shared definitions, but the verb differs from the text."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 461,
+  "woorde_na": 461,
+  "wanneer": "2026-10-22T22:43:24+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ae5b9f438851862038d9ee58a2cc325d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b0d52a641a55a3a8736b3f27538de29e"
+}

@@ -1,278 +1,327 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Stil water sê nie hoe diep dit is nie",
   "kaps_punt": "Gevare in en om water: by die huis en openbare swembaddens asook in riviere en damme: Verantwoordelike veiligheidsmaatreëls in en om water.",
-  "verdict": "HERSIEN",
+  "verdict": "MENS_NODIG",
   "items": [
     {
-      "bewering": "By die huis is water op meer plekke as net die swembad.",
+      "bewering": "Stil water sê nie hoe diep dit is nie",
+      "blok": "titel",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Die beeld (die oppervlak gee geen betroubare leidraad oor diepte nie) klop. Breking laat water vlakker lyk as wat dit is (LibreTexts Optics 1.04 'Real and Apparent Depth': skynbare diepte ongeveer 3/4 van werklike diepte; University of Louisville Physics 'apparent depth'). Troebel oop water verberg die bodem en struikelblokke (American Red Cross 'Open water safety'; Safe Kids 'Five Hidden Hazards of Open Water'). Die kartering lei 'n leerder na 'moenie op die oog af oordeel nie', en dit is reg."
+    },
+    {
+      "bewering": "By die huis is water op meer plekke as net die swembad. Daar is 'n bad, 'n emmer, 'n wasbak en op die werf 'n watertenk.",
       "blok": "Water by die huis",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "CPSC (VSA verbruikersveiligheidskommissie), 'CPSC Warns Pools Are Not the Only Drowning Danger at Home for Kids' — nie-swembadverdrinkings by die huis in baddens, emmers, vywers en fonteine. Suid-Afrikaanse eweknie: 'A South African Epidemiological Study of Fatal Drownings: 2016-2021' (IJERPH, PMC9690020) — 60,5% van verdrinkings gebeur in en om die huis."
+      "bron": "CPSC 2002, 'CPSC Warns Pools Are Not the Only Drowning Danger at Home for Kids' (cpsc.gov): noem badde, emmers, toilette, spa's, wasbakke en tuindamme as verdrinkingsplekke by die huis. WHO, Drowning fact sheet (who.int): putte toemaak en toegang tot watergevare beheer. Die watertenk is 'n plaaslike voorbeeld. Ek het geen bron gevind wat dit as gevaar teenspreek nie."
     },
     {
-      "bewering": "Daar is 'n bad, 'n emmer, 'n wasbak en 'n watertenk op die werf. Na reën bly water in 'n sloot of 'n plas staan.",
+      "bewering": "Ná reën bly water in 'n sloot of 'n plas staan.",
       "blok": "Water by die huis",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "SA epidemiologiese studie (PMC9690020) noem uitdruklik baddens, emmers en dromme water as verdrinkingsplekke by die huis, en verduidelik dat water in huise sonder ingelegde water in emmers rondom die huis gehou word. UNICEF Suid-Afrika, 'Drowning prevention tips', noem sinkbakke, toilette, vywers en klein staande water."
+      "bron": "Starship Safekids (Nieu-Seeland), 'Drowning: 1-2 years' (starship.org.nz): kleuters verdrink 'in puddles and in standing water such as in ditches'."
     },
     {
-      "bewering": "Almal dink aan die swembad en byna niemand dink aan die emmer nie.",
+      "bewering": "Baie grootmense dink aan die swembad en nie aan die emmer nie.",
       "blok": "Water by die huis",
-      "status": "weerspreek",
-      "tipe": "superlatief",
-      "bron": "CPSC persverklaring 2006, 'CPSC Warns Drowning Dangers Do Not End with Pool Season': 'While many of us are aware of the dangers a backyard pool poses to young children, not everyone knows about other drowning hazards around the home.' CPSC 2012 en 1999 stel dit as 'many parents and caregivers may not realize the danger buckets pose'.",
-      "regstelling": "Die bronne dra 'baie mense weet nie' en nie 'byna niemand' nie, en hulle dra ook nie dat 'almal' aan die swembad dink nie — swembadverdrinkings gebeur juis dikwels omdat toesig by die swembad verslap. Die nagegane bewering is: baie ouers en versorgers weet van die swembad se gevaar maar besef nie dat 'n emmer of 'n bad ook 'n kind se lewe kan kos nie. Die getalle in die kwantifiseerders moet versag word; die onderwerp (emmer as ondergeskatte gevaar) is korrek en moet bly staan."
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CPSC 2002 (cpsc.gov, soos hierbo): 'not everyone knows about other drowning hazards around the home' en 'Many parents and caregivers may not realize the danger buckets pose.'"
     },
     {
       "bewering": "'n Klein kind kan in water verdrink wat nie tot by sy knieë kom nie.",
       "blok": "Water by die huis",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "UNICEF Suid-Afrika, 'Drowning prevention tips': 'Children can drown in less than six centimetres of water.' San Bernardino County Fire, 'Drowning Prevention' en Brown Health/CPSC 'Infant & Toddlers Can Drown in 5-Gallon Buckets': 'a toddler can drown in as little as one to two inches of water'. 2,5-6 cm is ver onder 'n kleuter se kniehoogte, dus is die bewering ruim binne die bronne."
+      "tipe": "getal",
+      "bron": "Starship Safekids: kleuters kan 'in less than 5 centimetres of water' verdrink. CPSC (cpsc.gov): 'only a few inches of water'. Albei lê ver onder kniehoogte."
     },
     {
-      "bewering": "Hy val vorentoe in en kan dikwels nie self weer regop kom nie.",
+      "bewering": "Hy val vooroor in die water en kan dikwels nie self weer regop kom nie.",
       "blok": "Water by die huis",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "CPSC, 'Infants and Toddlers at Risk of Drowning in Bathtubs, Spas and Buckets' en die CPSC-emmerwaarskuwing: 'n kleuter se kop is 'n groot deel van sy liggaamsgewig, hy kantel vorentoe oor die rand in, en sy boliggaamskrag en koördinasie is nie sterk genoeg om homself weer uit te druk nie. Ook 'A search for a safer bucket to prevent children drowning at home' (PMC5556631)."
+      "bron": "CPSC, 'Infants & Toddlers Can Drown in 5-Gallon Buckets' en die vrystelling van 2002 (cpsc.gov): 'nearly impossible for top-heavy infants and toddlers to free themselves when they fall into the bucket headfirst'."
     },
     {
-      "bewering": "By 'n openbare swembad is dit vol mense en die rand is gewoonlik nat. Iemand wat op daardie nat rand hardloop, gly maklik en val in die water in.",
+      "bewering": "By 'n openbare swembad is dit vol mense, en die rand is gewoonlik nat.",
       "blok": "By 'n openbare swembad",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Washington State Department of Health, 'Pool Safety'; YMCA-swembadreëls (amptelike fasiliteitsreëls): geen hardloop op die swembadrand nie omdat nat oppervlaktes glad is en 'n val ernstig kan raak of in die water kan eindig."
+      "bron": "RLSS-kleurblad vir swembaddens (active.je): 'Floors will be slippery, don't run.' 'Vol mense' is 'n algemene beskrywing van 'n openbare swembad en nie 'n getal nie. Dit is nie altyd waar nie, maar dit is onskadelik."
+    },
+    {
+      "bewering": "Iemand wat op daardie nat rand hardloop, gly maklik en val in die water in.",
+      "blok": "By 'n openbare swembad",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "RLSS-kleurblad (active.je). Fasiliteitsreëls, onder meer van YMCA Fredericton en die stad Longview, verbied hardloop op die swembadrand."
     },
     {
       "bewering": "Van bo af lyk die diep kant nie so diep soos wat dit werklik is nie.",
       "blok": "By 'n openbare swembad",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Physics LibreTexts, 'Real and Apparent Depth' (Geometric Optics, Tatum, 1.04) en schoolphysics.co.uk 'Real and apparent depth': breking laat water vlakker lyk as wat dit is; skynbare diepte = werklike diepte gedeel deur ongeveer 1,33, sodat 'n dam van 1 m van reg bo af ongeveer 0,75 m diep lyk. Die rigting van die bewering (lyk vlakker, nie dieper nie) is fisies korrek."
+      "bron": "LibreTexts Physics, Geometric Optics 1.04 'Real and Apparent Depth', en University of Louisville Physics 111, 'apparent depth': water lyk van bo af omtrent 3/4 so diep as wat dit is. Dit geld vir alle water, ook die diep kant. Saam gelees met die volgende sin (induik in vlak water) skep die blok geen vals verband nie."
     },
     {
-      "bewering": "Iemand wat in vlak water induik, kan sy kop of sy nek breek.",
+      "bewering": "Iemand wat in vlak water induik, kan sy nek breek of ernstig beseer.",
       "blok": "By 'n openbare swembad",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "'An Overview of Spinal Injuries due to Dive or Fall into Shallow Water' (PMC8192199) — duik in vlak water is die derde algemeenste meganisme van servikale (nek-) beserings, 9,5% van gevalle. 'Bilateral Cervical Facet Dislocation Due to Catastrophic Shallow Water Diving' (PMC10722344). University of Maryland Medical System, 'How to Prevent Spinal Cord Injuries Around the Water': gaan voete eerste in onbekende water in. NSRI WaterWise leer kinders uitdruklik 'never to dive into water, rather go in feet first'."
+      "bron": "Canadian Red Cross-blog (redcross.ca, 2012): gaan die eerste keer altyd voete eerste in. American Red Cross 'Open water safety' (redcross.org): voete eerste beskerm teen kop- en nekbeserings. Ruggraatbeserings deur induik in vlak water word ook beskryf deur Gluckstein, 'Diving Safety Helps Prevent Spinal Cord Injury', en deur CSULB 'Risks of Diving'."
     },
     {
-      "bewering": "Stoei en indruk verander 'n speletjie gou in 'n ongeluk.",
+      "bewering": "Stoei en iemand indruk verander 'n speletjie gou in 'n ongeluk.",
       "blok": "By 'n openbare swembad",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "YMCA-swembadreëls en Brownsville TX munisipale swembadregulasies: 'rough play, dunking, wrestling' is verbode omdat stoeiery tot onverwagte onderdompeling, botsings of paniek in die water lei."
+      "bron": "Swembadreëls verbied stoei, stoot en onderdruk ('no running, pushing, dunking ... or horseplay of any kind'), onder meer YMCA Fredericton en Fort Bend County, waar lewensredders deur die Rooi Kruis gesertifiseer is. Ek het geen enkele amptelike RLSS- of Rooi Kruis-reëlboek gevind nie, maar die reël kom eenstemmig voor."
     },
     {
-      "bewering": "In 'n rivier of 'n dam sien jy nie die bodem onder jou voete nie.",
+      "bewering": "In 'n rivier of 'n dam kan jy dikwels nie die bodem onder jou sien nie.",
       "blok": "Riviere en damme werk anders",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "US National Park Service, 'River and stream safety' en Amerikaanse Rooi Kruis, 'Lake and River Safety': troebel water maak dit onmoontlik om klippe, takke of vashaakplekke onder die oppervlak te sien."
+      "bron": "American Red Cross 'Open water safety' en Safe Kids 'The Five Hidden Hazards of Open Water' (safekids.org): troebel natuurlike water verberg rotse, stompe en ongelyke bodems."
     },
     {
-      "bewering": "Die bodem is dikwels ongelyk en glad en hy kan skielik wegval.",
+      "bewering": "Die bodem is dikwels ongelyk en glad, en hy kan skielik wegval.",
       "blok": "Riviere en damme werk anders",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "US National Park Service, 'Water Hazards': besoekers word slagoffers van 'unexpected changes in depth'. Amerikaanse Rooi Kruis, 'Lake and River Swimming Safety': 'What looks like a shallow stream may hide sudden drop-offs', en glibberige rivierbeddings."
+      "bron": "American Red Cross 'Open water safety': 'submerged rocks, logs, debris, and sudden drop-offs'. Safe Kids: 'a gentle slope near shore can end in a sudden drop-off'."
     },
     {
-      "bewering": "Die water is ook kouer as wat dit van die kant af lyk.",
+      "bewering": "Die water kan kouer wees as wat dit lyk, veral dieper af.",
       "blok": "Riviere en damme werk anders",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "RNLI, 'Cold Water Shock': 'a warm day does not mean warm water' — die lugtemperatuur styg terwyl die watertemperatuur laag genoeg bly om koueskok te veroorsaak. Met Office, 'Cold water shock: what it is and how to stay safe' bevestig dieselfde punt."
+      "bron": "Britse brand- en reddingsdienste wat RLSS UK se boodskap herhaal (Devon & Somerset Fire, Lancashire Fire, Shropshire Council): 'The water may feel warm on the surface, but just a few feet below the surface it can be icy cold.'"
     },
     {
       "bewering": "Koue water maak 'n mens se arms en bene gou moeg.",
       "blok": "Riviere en damme werk anders",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "National Center for Cold Water Safety, 'Cold Water Physical Incapacitation': na die eerste skok het jy ongeveer tien minute voor koue jou arms en bene se krag en koördinasie begin wegvat; selfs sterk swemmers verloor die vermoë om te swem. RNLI, 'Top tips: open water swimming for beginners': jy word in oop water baie gouer moeg as in 'n swembad."
+      "bron": "Navorsing oor koudwater-ongeskiktheid (Tipton e.a. 1999, waarop die RNLI se 'Float to Live' gebou is; coldwatersafety.org 'Physical incapacitation'): die spiere van die arms en bene, veral die arms, verswak ernstig in koue water, met 'swim failure' na ongeveer 3 tot 30 minute. 'Moeg' is 'n vereenvoudiging van 'verswak', en die kartering hou."
     },
     {
       "bewering": "Van bo lyk die water dikwels doodstil. 'n Stroom kan tog onder daardie stil water deurtrek.",
       "blok": "Riviere en damme werk anders",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "US Forest Service, 'Water Safety': 'currents that are difficult to see or not visible at all, such as ... river currents that look calm on the surface but are moving fast underneath'. US National Park Service, 'Water Hazards': riviere lyk kalm, warm of vlak op die oppervlak terwyl bedrieglik sterk strome daaronder loop."
+      "bron": "Britse diens-boodskappe (Kennington-raad, Durham University 'River safety'): 'Water might look calm on the surface but strong undercurrents can pull even the strongest of swimmers under.' Vir damme spesifiek: Ekurhuleni se veiligheidskennisgewing (citizen.co.za, 2014), 'the surface water may appear to be smooth but an undercurrent may be fast, strong'. ASDSO Dam Safety Toolbox: onderstrome by uitlate. Safe Kids: strome kan onder die oppervlak vloei."
+    },
+    {
+      "bewering": "Daardie stroom kan 'n mens saamvat en hom van die kant af wegtrek.",
+      "blok": "Riviere en damme werk anders",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Soos hierbo (Britse diensboodskappe, Ekurhuleni). NSW National Parks, 'River and lake safety' (nationalparks.nsw.gov.au): vinnige strome."
     },
     {
       "bewering": "Baie kante is glibberig van gras en modder.",
       "blok": "Riviere en damme werk anders",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Amerikaanse Rooi Kruis, 'Lake and River Swimming Safety': nat klippe en oewers is baie glad, en 'n mens moet nagaan of die oewer maklik bereikbaar is. Virginia Department of Health, 'River Safety' noem modderige oewers en uittredeprobleme."
+      "bron": "Britse waterveiligheidsboodskappe wat RLSS UK se boodskap herhaal: 'The banks on rivers and lakes can be very slippery, making it hard to exit the water.'"
     },
     {
-      "bewering": "Na goeie reën loop die water hoër en vinniger as gewoonlik.",
+      "bewering": "Ná swaar reën loop die water hoër en vinniger as gewoonlik.",
       "blok": "Riviere en damme werk anders",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Vermont Department of Health, 'Recreational Water Safety After a Flood': geswelde riviere en vinnig bewegende strome bly vir dae na swaar reën gevaarlik, bly ten minste 48 uur uit die water. NOAA/National Weather Service, 'Severe Weather Awareness - Flood Safety'."
+      "bron": "NSW National Parks 'River and lake safety': watervlakke in riviere en damme kan na swaar reën vinnig styg. Switserse Lewensreddingsgenootskap (bluewin.ch): 'The water has more power and is flowing faster.' Suid-Afrikaanse konteks: die Departement van Water en Sanitasie se waarskuwing oor die Vaal- en Bloemhofdam, April 2025 (iol.co.za)."
+    },
+    {
+      "bewering": "Riviere en damme werk anders (as 'n swembad): bodem nie sigbaar nie, ongelyk, kan skielik wegval, kouer dieper af, strome, glibberige kante, hoër ná reën.",
+      "blok": "Riviere en damme werk anders",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Ek het die drie plek-blokke as 'n stel getoets. Die kontras met 'n swembad is waar vir elke eienskap: helder water met 'n sigbare bodem, geen strome, geen natuurlike oewer en geen stygende vlak ná reën nie (American Red Cross 'Open water safety'; Safe Kids 'Five Hidden Hazards'). Die enigste oorvleueling is dat 'n swembad se bodem ook na die diep kant toe afloop, maar die swembadblok dek die diep kant self. Die stel maak dus geen vals kontras nie."
+    },
+    {
+      "bewering": "Baie kinders dink hulle sal hoor as iemand in die water sukkel.",
+      "blok": "Hoe dit werklik lyk as iemand sukkel",
+      "status": "onseker",
+      "tipe": "algemeen",
+      "bron": "Ek het twee keer in Engels gesoek en geen opname gevind wat KINDERS self hieroor gevra het nie. Die bewese wanopvatting is dié van OUERS en grootmense: Safe Kids Worldwide 2016 (48% van ouers dink hulle sal spatsels of skreeue hoor), RLSS UK (55% van ouers), Step Into Swim/Harris 2023 (60% van ouers) en die Canadian Red Cross 2013 (48% van ouers). Die bewering is waarskynlik nie onwaar nie, maar dit is nie gestaaf nie. Die gestaafde vorm sou die onderwerp na mense of ouers verbreed: dat baie mense, ook ouers, dink hulle sal dit hoor. 'n Mens moet besluit of die raam by kinders bly."
     },
     {
       "bewering": "In flieks swaai en skreeu die mens wat verdrink.",
       "blok": "Hoe dit werklik lyk as iemand sukkel",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "US Army, 'Drowning Doesn't Look Like Drowning' (army.mil artikel 109852, na Mario Vittone en die navorsing van dr. Frank Pia): mense soek na 'the waving, splashing and yelling that dramatic conditioning (read: television) prepares us to look for', wat 'rarely seen in real life' is."
+      "bron": "Romper, 'What does drowning look like? It's not like the movies' ('pop culture drowning scenes tend to show a lot of splashing, screaming'). Swellnet, 'Drowning doesn't look like drowning' (Vittone/Pia)."
     },
     {
-      "bewering": "In die regte lewe gebeur dit dikwels vinnig en sonder 'n enkele geluid.",
+      "bewering": "In werklikheid gebeur dit dikwels vinnig en sonder 'n enkele geluid.",
       "blok": "Hoe dit werklik lyk as iemand sukkel",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "US Army, 'Drowning Doesn't Look Like Drowning': 'Drowning is almost always a deceptively quiet event', en 'n verdrinkende mens kan slegs 20 tot 60 sekondes op die oppervlak sukkel voor hy sink. CDC, 'Preventing Drowning': 'drowning happens quickly and quietly'. NSRI (Suid-Afrika), 'NSRI's water-safety tips': 'Drowning is silent'. Die kwalifiseerder 'dikwels' hou die bewering binne wat die bronne dra."
+      "bron": "RLSS UK (rlss.org.uk, 'Urgent water safety advice ... mistaken belief'): 'drowning happens quickly and silently.' Royal Life Saving Australia, Keep Watch (royallifesaving.com.au): 'drowning is quick and silent'. Die NSRI (in Suid-Afrikaanse koerante aangehaal): 'Drowning is often silent. There is often no splash or cry for help.' Die woord 'dikwels' hou die bewering binne die bronne. Pia se 'aquatic distress' (waar 'n mens nog kan roep) word nie uitgesluit nie."
     },
     {
       "bewering": "Om hard te roep het 'n mens lug nodig. Iemand met sy mond onder die water kan nie roep nie.",
       "blok": "Hoe dit werklik lyk as iemand sukkel",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "US Army, 'Drowning Doesn't Look Like Drowning', wat dr. Frank Pia (US Coast Guard, On Scene, herfs 2006) aanhaal: 'Drowning people are physiologically unable to call out for help ... The respiratory system was designed for breathing. Speech is the secondary or overlaid function. Breathing must be fulfilled before speech occurs.' Die mond van 'n verdrinkende mens is nie lank genoeg bo die water om uit te asem, in te asem en te roep nie."
+      "bron": "Pia, 'On Scene' 2006, aangehaal deur Vittone (gcaptain.com, swellnet.com): 'The mouths of drowning people are not above the surface of the water long enough for them to exhale, inhale, and call out for help'. Asemhaling kry voorrang bo spraak. Virginia Department of Health, 'What does drowning look like?' (vdh.virginia.gov)."
     },
     {
       "bewering": "Hy lyk dikwels asof hy net regop in die water staan.",
       "blok": "Hoe dit werklik lyk as iemand sukkel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "US Army, 'Drowning Doesn't Look Like Drowning': 'their bodies remain upright in the water' en hulle mag 'just look like they are treading water and looking up at the deck'. Wikipedia se artikel 'Instinctive drowning response' som Pia se werk saam as 'a vertical posture' met laterale armbewegings — konsekwent met die primêre bron."
+      "tipe": "analogie",
+      "bron": "Pia/Vittone (gcaptain.com, swellnet.com): 'bodies remain upright in the water, with no evidence of a supporting kick'. Mense wat verdrink, lyk dikwels asof hulle net watertrap. Die kartering hou: 'n leerder lei daaruit af dat iemand wat kalm en regop lyk, in nood kan wees, en dit is die bedoelde en ware gevolgtrekking."
     },
     {
       "bewering": "Daarom moet 'n grootmens die hele tyd kyk en nie net naby wees nie.",
       "blok": "Hoe dit werklik lyk as iemand sukkel",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "CDC, 'Preventing Drowning': wys 'n verantwoordelike volwassene aan om kinders 'closely and constantly' dop te hou en om afleidings te vermy. NSRI (Suid-Afrika), 'NSRI's water-safety tips': volwassenes moet kinders in of naby water aktief dophou sonder afleidings, want 'drowning is silent' en konstante visuele fokus is nodig."
+      "bron": "RLSS UK (rlss.org.uk): vermy afleiding, wys 'n 'water watcher' aan; 86% van kinderverdrinkings was sonder toesig. Royal Life Saving Australia, Keep Watch: aktiewe toesig. Red Cross (gesinsriglyne): 'n toegewyde waaier wie se enigste taak toesig is."
     },
     {
-      "bewering": "Swem nooit alleen nie en net waar 'n grootmens jou kan sien.",
+      "bewering": "Swem nooit alleen nie en swem net waar 'n grootmens jou kan sien.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "NSRI WaterWise, 'WaterWise Holiday safety tips for children': 'Children should be told that they must never swim alone.' NSRI se water-safety tips herhaal die maatjiestelsel en aktiewe volwasse toesig."
+      "bron": "Red Cross se ouergids (fcs-hes.ca.uky.edu): gebruik die maatjie-stelsel, ook by 'n openbare swembad. NPS/GRDA 'Never swim alone'. RLSS UK en Royal Life Saving Australia: kinders net onder toesig."
     },
     {
-      "bewering": "Die grootmens moet jou dophou en nie op sy foon werk nie.",
+      "bewering": "Die grootmens moet jou dophou en nie na sy foon kyk nie.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "CDC, 'Preventing Drowning': 'a responsible adult should avoid distracting activities like reading, using the phone, and consuming alcohol or drugs because drowning happens quickly and quietly'. NSRI stel dieselfde eis vir Suid-Afrikaanse toesighouers."
+      "bron": "RLSS UK (rlss.org.uk): 'Avoid distractions such as phone use.' Royal Life Saving Australia: 'answering a text message' word as gevaarlike onderbreking genoem. Water Watcher-belofte (riverwoods.gov): moenie na fone kyk nie."
     },
     {
-      "bewering": "By 'n openbare swembad swem jy waar die badmeester kan sien.",
+      "bewering": "By 'n openbare swembad swem jy waar die badmeester jou kan sien.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "NSRI, 'NSRI's water-safety tips': swem waar en wanneer lewensredders aan diens is en bly waar hulle jou kan monitor. CDC noem lewensredders as een van die lae van beskerming."
+      "bron": "Safe Kids (safekids.org): kies 'n aangewese swemarea. Red Cross: swem in areas onder toesig van lewensredders. Ek het die reël saam met reël 1 getoets: dit kom BY reël 1 en vervang dit nie ('nooit alleen', 'net waar 'n grootmens jou kan sien'). Dit stem ooreen met bronne wat sê lewensredders vervang nie ouertoesig nie (UTMB 2026, Water Safety USA, Red Cross: 'actively supervise nonswimmers even when lifeguards are present')."
     },
     {
       "bewering": "Loop by die rand en moenie daar hardloop nie.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "YMCA-swembadreëls en Washington State Department of Health, 'Pool Safety': geen hardloop op die swembadrand nie, want die dek is glad wanneer dit nat is."
+      "bron": "RLSS-kleurblad (active.je): 'Floors will be slippery, don't run.' Fasiliteitsreëls verbied eenstemmig hardloop."
     },
     {
       "bewering": "Klim uit die water sodra jy koud of moeg word.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "RNLI, 'Cold Water Shock' en 'Top tips: open water swimming for beginners' — verlaat die water voordat koue jou spierkrag en koördinasie wegvat; National Center for Cold Water Safety, 'Cold Water Physical Incapacitation'."
+      "bron": "KidsHealth (Nemours), 'Water Safety' (kidshealth.org): 'if you start feeling tired, get out of the water and rest for a while.' Vir koud: die navorsing oor koudwater-ongeskiktheid hierbo (spiere verswak namate hulle afkoel)."
     },
     {
       "bewering": "Leer swem, maar onthou dat dit jou nie veilig maak nie.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "American Academy of Pediatrics, 'Prevention of Drowning' (Pediatrics 143(5):e20190850) en HealthyChildren.org: 'Swim lessons do not drown-proof any child or adult'; kinders wat swemlesse gehad het het steeds noue en konstante toesig nodig. CDC herhaal dit. Amerikaanse Rooi Kruis, 'Lake and River Swimming Safety': 'swimming lessons do not provide drown-proofing for children of any age'."
+      "bron": "American Academy of Pediatrics, beleidsverklaring 2019 (soos in MDedge/The Hospitalist berig): swemlesse 'will not provide drown-proofing for children of any age', maar verlaag die risiko. WHO Drowning fact sheet: leer kinders swem as voorkomingsmaatreël. Die bewering is waar, want swem maak jou nie veilig nie, net veiliger. Die item begin met 'Leer swem', so dit sê nie dat lesse niks help nie."
     },
     {
       "bewering": "Dra 'n reddingsbaadjie in 'n boot, ook as jy kan swem.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "CDC, 'Preventing Drowning': dra 'n behoorlik passende reddingsbaadjie, ook vir mense wat kan swem. Amerikaanse Rooi Kruis, 'Lake and River Swimming Safety': alle kinders behoort reddingsbaadjies te dra naby of in die rivier, ongeag swemvermoë."
+      "bron": "Canadian Red Cross, '5 reasons why everyone should wear a lifejacket' (redcross.ca): goeie swemmers verdrink ook. Koue water, beserings en uitputting oorweldig selfs sterk swemmers, en 'n baadjie werk net as jy hom dra. US Coast Guard-syfers (aangehaal op maine.gov en elders): die meeste mense wat in bootongelukke verdrink, het nie 'n reddingsbaadjie gedra nie, en baie was goeie swemmers."
     },
     {
-      "bewering": "Hou die hek van 'n swembad se heining toe en gooi 'n emmer leeg.",
+      "bewering": "Hou die swembad se hek toe en gooi 'n emmer leeg.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "American Academy of Pediatrics, 'Prevention of Drowning': vierkantige omheining met 'n selfsluitende hek is 'n bewese laag van beskerming. CPSC, 'In Home Danger: CPSC Warns of Children Drowning in Bathtubs, Bath Seats and Buckets': moet nooit 'n emmer water onbewaak los waar klein kinders is nie. Nagegaan en bevestig dat die bewering geen aanspraak oor die wet of oor heiningshoogtes maak nie."
+      "bron": "WHO Drowning fact sheet: 'fencing swimming pools and otherwise controlling access to water hazards'. RLSS UK: 'Lock doors and gates to outdoor spaces'. CPSC: moenie 'n emmer met selfs 'n bietjie vloeistof onbewaak laat nie."
     },
     {
       "bewering": "Moenie swem waar jy nie weet wat onder die water is nie.",
       "blok": "Die reëls wat jou veilig hou",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "University of Maryland Medical System, 'How to Prevent Spinal Cord Injuries Around the Water': gaan nooit in onbekende water nie, ook nie as dit diep lyk nie, want die bodem is onvoorspelbaar. US National Park Service, 'River and stream safety'."
+      "bron": "American Red Cross 'Open water safety' en Safe Kids 'Five Hidden Hazards': onbekende water verberg rotse, stompe, afvalle en strome. Gaan voete eerste in en kies 'n aangewese area. Vir 'n graad 4-kind is die reël 'n versigtige maar korrekte toepassing van dié riglyne. Geen bron spreek dit teë nie."
     },
     {
-      "bewering": "Roep dadelik hard vir 'n grootmens as iemand in die water sukkel. Dit is die eerste ding en die belangrikste ding.",
+      "bewering": "Die reëls wat jou veilig hou (die lys van nege, as 'n stel getoets)",
+      "blok": "Die reëls wat jou veilig hou",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Ek het die nege items saam gelees en teen die studieblokke getoets. Reël 1 en 2 (grootmens sien en kyk die hele tyd) stem ooreen met 'Hoe dit werklik lyk' ('die hele tyd kyk en nie net naby wees nie'). Reël 3 (badmeester) vervang nie die grootmens nie. Reël 6 (swem maak jou nie veilig nie) en reël 7 (reddingsbaadjie ook as jy kan swem) ondersteun mekaar. Reël 8 dek die huisgevare uit die eerste blok en reël 9 die rivier- en dambodem. Geen twee items trek 'n kontras wat nie bestaan nie, en geen item weerspreek 'n studieblok nie. Bronne soos by elke item."
+    },
+    {
+      "bewering": "Roep dadelik hard vir 'n grootmens as iemand in die water sukkel.",
       "blok": "As iemand in die moeilikheid is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Amerikaanse Rooi Kruis, Longfellow's WHALE Tales les 8, 'Reach or Throw, Don't Go' (soos in die programopsomming en die Rooi Kruis se watersekuriteitsbladsy weergegee): die volgorde vir 'n kind is eers om hulp te roep, dan reik, dan gooi, en nooit self in te gaan nie. NSRI, 'NSRI's water-safety tips': 'alert a lifeguard at once'. NSRI WaterWise vir kinders: roep dadelik 'n volwassene."
+      "bron": "Zac Foundation, 'How a Child Can Safely Rescue a Drowning Person' (thezacfoundation.org): 'Kids should immediately shout for help from a lifeguard, a caregiver, or alert a nearby adult.' NSRI (in Suid-Afrikaanse koerante aangehaal): 'Rather call for help ... and then throw the pink buoy.' RLSS UK se Water Safety Code: 'Shout for help and phone 999 or 112.'"
+    },
+    {
+      "bewering": "Dit is die eerste ding en die belangrikste ding.",
+      "blok": "As iemand in die moeilikheid is",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Vir 'n kind sit die riglyne hulp roep voorop. Die Zac Foundation se volgorde vir kinders is: gaan nie in nie, roep dadelik 'n grootmens, en reik of gooi net as hulp nie dadelik beskikbaar is nie. Die NSRI sê eers roep, dan gooi die boei. Die superlatief verwys na wat die kind DOEN, en die blok se volgende sin ('Spring nooit self in') dek die 'moenie ingaan nie'-stap, so die rangorde bots nie met die bronne nie."
     },
     {
       "bewering": "Spring nooit self in om iemand uit te haal nie.",
       "blok": "As iemand in die moeilikheid is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "NSRI WaterWise, 'WaterWise Holiday safety tips for children': 'Unless you are a very strong swimmer and have rescue flotation do not go into the water to \"rescue\" somebody.' Amerikaanse Rooi Kruis WHALE Tales les 8: 'n kind bly op die grond of die swembadrand en gaan nooit die water in nie."
+      "bron": "NSRI (in Suid-Afrikaanse koerante aangehaal): 'We advise would-be rescuers who are not trained, not to go into the water.' Die NSRI se oorlewingswem-program waarsku kinders teen 'peer rescue' (groundup.news, dailymaverick.co.za). Zac Foundation: 'Children should never enter the water to attempt a rescue.'"
     },
     {
       "bewering": "Twee mense in die moeilikheid is erger as een.",
       "blok": "As iemand in die moeilikheid is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Franklin & Pearn, 'Drowning for love: the aquatic victim-instead-of-rescuer syndrome' (Journal of Paediatrics and Child Health, 2011, doi 10.1111/j.1440-1754.2010.01889.x): in Australië het 86 redders tussen 1992 en 2007 verdrink terwyl hulle 'n primêre slagoffer, gewoonlik 'n kind, probeer red het; in 93% van die voorvalle het die kind self oorleef. Sien ook 'A study on rescuer drowning and multiple drowning incidents' (Journal of Safety Research). Die meganisme is gedokumenteer: 'n paniekerige slagoffer gryp aan die redder vas en druk hom onder."
+      "bron": "NSRI: 'usually, the person who does not survive is the kind person who went into the water to try and help'. Royal Life Saving NSW (Wagga Wagga-raad, 2023): 'n paniekerige mens wat die redder gryp, kan 'n dubbele sterfte veroorsaak."
     },
     {
-      "bewering": "Gee 'n stok aan of gooi iets wat dryf naby hom.",
+      "bewering": "Gee die persoon 'n stok aan of gooi naby hom iets wat dryf.",
       "blok": "As iemand in die moeilikheid is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Amerikaanse Rooi Kruis, 'Water Safety' en WHALE Tales les 8: 'reaching assist' met 'n paal, handdoek of tak, en 'throwing assist' met iets wat dryf. NSRI, 'NSRI's water-safety tips': 'If possible, throw something that floats to the person.' NSRI WaterWise leer kinders om 'n stok, tou, bottel en plastieksak saam te vat sodat hulle kan help sonder om hulself in gevaar te stel."
+      "bron": "American Red Cross 'Open water safety': reik of gooi 'n drywende voorwerp of paal eerder as om in te gaan. RLSS UK Water Safety Code: 'Throw something that floats, to anyone who has fallen in the water.' NSRI: gooi die pienk reddingsboei. Seattle YMCA, 'Reach, Throw, but Don't Go'."
     },
     {
       "bewering": "Bly self op droë grond.",
       "blok": "As iemand in die moeilikheid is",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Amerikaanse Rooi Kruis WHALE Tales les 8: die kind bly op land of op die swembadrand en betree nooit die water nie. NSRI WaterWise gee dieselfde reël vir kinders."
+      "bron": "Seattle YMCA 'Reach, Throw, but Don't Go' en die Zac Foundation: bly uit die water terwyl jy reik of gooi. NSW National Parks: 'stay dry and reach out to them with a stick or throw a rope'."
     },
     {
       "bewering": "stroom: Water wat in 'n rivier of dam in een rigting trek.",
-      "blok": "stroom (begrip)",
-      "status": "bevestig",
+      "blok": "begrip: stroom",
+      "status": "weerspreek",
       "tipe": "algemeen",
-      "bron": "US Forest Service, 'Water Safety' en US National Park Service, 'River and stream safety' beskryf 'n stroom as water wat in 'n rigting beweeg en wat 'n swemmer wegtrek; die omskrywing is akkuraat en is korrek beperk tot die les se konteks (rivier en dam) sonder om iets te sê wat vir seestrome vals sou wees."
+      "bron": "'n Stroom is bewegende water wat in 'n rigting vloei, en dit is nie tot riviere en damme beperk nie (Wiktionary, Nederlandse 'stroom', as naaste verwante bron: 'a flow, current ... of moving water'; selfs 'n woordeboek van 1810 noem die getystroom van die see 'stroom'). Die gevaarlikste strome in Suid-Afrika is in die see: volgens die NSRI is skeurstrome die grootste gevaar op ons strande, met gemiddeld ongeveer 56 verdrinkings per jaar (capetowner.co.za, 2024; sabcnews.com). 'n Begrip word alleen gelees, en soos dit nou staan, leer dit dat 'n stroom iets is wat net in 'n rivier of dam voorkom. In 'n waterveiligheidsles is dit 'n gevaarlike gaping.",
+      "regstelling": "Die omskrywing moet nie die woord tot riviere en damme beperk nie. 'n Stroom is water wat in een rigting beweeg en 'n mens kan saamtrek, en dit kom in riviere en damme voor, maar ook in die see. 'n Rivier mag as voorbeeld bly, maar die omskrywing self mag nie sê dat strome net daar voorkom nie."
     },
     {
       "bewering": "badmeester: Die mens wat by 'n swembad na die swemmers kyk.",
-      "blok": "badmeester (begrip)",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Van Dale gratis woordeboek en die Algemeen Nederlands Woordenboek (ANW, Instituut voor de Nederlandse Taal) vir 'badmeester': iemand wat toesig hou by 'n swembad, met take wat wissel van die redding van verdrinkendes tot die hantering van ordeversteurings. Wiktionary gee dieselfde. Die omskrywing in die les gee die kernbetekenis korrek weer."
+      "blok": "begrip: badmeester",
+      "status": "onseker",
+      "tipe": "naam",
+      "bron": "Die ROL is reg beskryf. 'n Badmeester hou toesig oor swemmers by 'n swembad om ongelukke te voorkom (Vlaamse munisipale posbeskrywing op jobsolutions.be; Vocabulary.com NL: 'toezichthouder bij strand of zwembad', Engels 'lifeguard'). 'Kyk na' dek in Afrikaans ook 'oppas', so die omskrywing is nie te smal oor die taak nie. Ek kon egter in drie soektogte geen Suid-Afrikaanse of Afrikaanse bron bereik wat die gebruik van die woord in Afrikaans bevestig nie: geen Afrikaanse woordeboek, munisipale verordening of nuusberig nie. Al die treffers was Nederlands of Vlaams. Een KI-opsomming in die soekresultate het beweer 'badmeester' is Nederlands en nie Afrikaans nie, sonder enige bron. Dit is NIE 'n teenbewys nie, en niemand moet op grond daarvan die woord ruil nie. Volgens die reël oor plaaslike taalgebruik merk ek dit onseker en nie weerspreek nie. 'n Persoon wat Afrikaans ken (of die WAT/HAT naslaan), kan dit dadelik beslis."
     },
     {
       "bewering": "reddingsbaadjie: 'n Baadjie wat 'n mens in die water laat dryf.",
-      "blok": "reddingsbaadjie (begrip)",
+      "blok": "begrip: reddingsbaadjie",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "SeaSafe en IC Brindle se vergelykings van 'lifejacket' teenoor 'buoyancy aid': 'n volwaardige reddingsbaadjie (150 N met 'n kraag) hou die kop en gesig bo water, ook as die draer bewusteloos is, terwyl 'n dryfhulpmiddel (50 N) slegs dryfvermoë byvoeg en 'n bewustelose draer nie op sy rug kan draai nie. Die skrywer se keuse om 'laat dryf' te sê eerder as 'hou jou kop bo die water' is dus feitelik korrek: dit is waar van albei toestelle, terwyl die sterker stelling net van 'n behoorlike reddingsbaadjie waar is."
+      "bron": "US Coast Guard-riglyne (aangehaal deur Canadian Red Cross en maine.gov, 'When should I wear my life jacket'): 'A lifejacket or PFD will keep you at the surface of the water'. 'n Baadjie wat reg pas, hou jou kop bo die water."
     }
   ],
-  "opsomming": "Sewe-en-dertig bewerings nagegaan teen NSRI, CDC, AAP, RNLI, US Army/Pia, die Rooi Kruis en vakliteratuur: die veiligheidskern is oral korrek — verdrinking is stil en vinnig, die verdrinkende kan nie roep nie en lyk asof hy regop staan, die roep-reik-gooi-moenie-ingaan-volgorde stem met kindervoorligting ooreen, en die reddingsbaadjie-omskrywing is met opset veilig geformuleer; die enigste fout is die oordrewe kwantifiseerders in 'Almal dink aan die swembad en byna niemand dink aan die emmer nie', wat versag moet word sonder om die punt oor die emmer te verloor."
+  "opsomming": "Al die veiligheidsinstruksies is teen gesaghebbende bronne (NSRI, RLSS UK, Royal Life Saving Australia, Rooi Kruis, WHO, CPSC, AAP) bevestig en die reëllys hou as stel, maar drie items hou die les op: die begrip 'stroom' beperk strome tot riviere en damme, terwyl skeurstrome in die see volgens die NSRI Suid-Afrika se grootste strandgevaar is (weerspreek, moet reggemaak word); 'baie kinders dink hulle sal hoor' is net vir ouers in opnames gestaaf en nie vir kinders nie (onseker); en ek kon geen Afrikaanse bron vir die woord 'badmeester' bereik nie, al is die rol reg beskryf (onseker, vir iemand wat Afrikaans ken om dadelik te beslis)."
 }

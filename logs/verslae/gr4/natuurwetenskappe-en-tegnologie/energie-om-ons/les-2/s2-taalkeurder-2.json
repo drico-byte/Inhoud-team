@@ -1,0 +1,15 @@
+{"prompt_weergawe": "taalkeurder-v1.3",
+ "besluite": [
+  {"nr": 1, "besluit": "HOU",
+   "fout": "Missing AWS comma between two main clauses: the imperative 'Steek die prop in die muur' and 'die ketel maak die water warm', which has its own subject and verb.",
+   "rede": "The second clause is a full sentence with its own subject, so the AWS 2017 comma belongs there, matching 'Die ketel staan vol water op die tafel, en niks gebeur nie' just before it."},
+  {"nr": 2, "besluit": "HOU",
+   "fout": "'stof' is ambiguous for a Grade 4 science reader: it reads first as dust, and in this subject also as substance.",
+   "rede": "'materiaal' is the plain everyday word for the fabric being ironed and leaves the claim about heat loosening the threads unchanged."},
+  {"nr": 3, "besluit": "HOU",
+   "fout": "Same ambiguity of 'stof' (dust, substance, fabric) in the next sentence.",
+   "rede": "Keeps the two mentions of the fabric consistent with change 2 and changes nothing the sentence says."},
+  {"nr": 4, "besluit": "HOU",
+   "fout": "'gaan ... weg' straight after 'raak nie weg nie' reads to a Grade 4 learner as a contradiction of the point being made.",
+   "rede": "'beland' keeps the same claim, with 'meestal' and 'as hitte' intact, and removes the apparent clash that energy both does and does not go away."}
+ ]}

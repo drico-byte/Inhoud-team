@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:4b0cd4f4ba3c0614d8d88c5695b3ecf7",
+  "konsep_hash": "sha256:a24e688794bc4ec4780c0b0e42db1624",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -72,11 +72,104 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-2.json",
       "konsep_hash": "sha256:4b0cd4f4ba3c0614d8d88c5695b3ecf7",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T06:19:04+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:4b0cd4f4ba3c0614d8d88c5695b3ecf7",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T06:27:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 14,
+      "laat_vaar": 6,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 490,
+      "woorde_na": 497,
+      "konsep_hash": "sha256:0c4b61361c2ddcc04697b17a25774270"
+    },
+    {
+      "wanneer": "2026-10-23T06:27:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 497,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:27:55+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'dat hulle weg van die water moet bly': 'weg van die water bly' leans on English 'stay away from'; 'van die water af wegbly' is the natural Afrikaans.",
+        "check (the language finder raised this; it may not be a fault): 'Anele het nie in die water gespring nie. ... plat op die droë gras gaa': Ordinary flag, not VEILIGHEID: this is a drowning-safety story and these sentences carry the safety rules (do not jump in, lie flat, stay away from the slippery edge, reach with a branch, a drowning child is silent and does not wave or take hold, keep coughing means the clinic). None of my changes weakens them: the waving, ground and clinic edits keep the same meaning. The reviewer should drop any change that softens 'nie in die water gespring nie', 'plat', 'ver van die gladde kant af' or the clinic visit.",
+        "check (the language finder raised this; it may not be a fault): '(no BESKERM section in the input)': The input holds no protected words at all, unusual for a safety lesson; the operator may want to confirm that is intended, since nothing here protects the safety wording from a language change."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T06:33:42+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a24e688794bc4ec4780c0b0e42db1624",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T06:33:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 497,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:38:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 497,
+      "woorde_na": 497
+    },
+    {
+      "wanneer": "2026-10-23T06:49:49+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:49:49+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 21,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:49:49+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-2.json",
+      "konsep_hash": "sha256:a24e688794bc4ec4780c0b0e42db1624",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:cbb654799957631513d528449f29425e",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
-  }
+  },
+  "taal_geforseer_vir": "sha256:4b0cd4f4ba3c0614d8d88c5695b3ecf7",
+  "taal_rondte_vir": "sha256:a24e688794bc4ec4780c0b0e42db1624",
+  "taal_keurder_vir": "61d023844179962ee71c553b79564399",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:a24e688794bc4ec4780c0b0e42db1624",
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Sy kleinboetie Neo het langs hulle op sy knieë in die sand gespeel.': Coming straight after 'Anele en Marika', a Grade 4 reader can take sentence-initial 'Sy' as 'she' (Marika), and Anele is not yet known to be a boy; 'Anele se kleinboetie' would be clearer but adds a word to a text over its ceiling, so this is flagged rather than changed."
+  ],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:0c4b61361c2ddcc04697b17a25774270",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "74234e98afe7498fb5daf1f36ac2d78a"
 }

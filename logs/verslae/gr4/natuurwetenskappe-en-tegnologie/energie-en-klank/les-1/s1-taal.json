@@ -1,0 +1,213 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Voel dit self teen jou keel",
+      "voor": "en los jou hand op dieselfde plek.",
+      "na": "en laat jou hand op dieselfde plek bly.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'los jou hand' means let go of your hand; the intent is to keep it where it is.",
+      "fout": "'los jou hand' can read as letting go of or relaxing the hand, the opposite of the instruction",
+      "rede_keurder": "The proposal says plainly that the hand stays where it is, with no change in meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Voel dit self teen jou keel",
+      "voor": "op en jou hand voel niks meer.",
+      "na": "op, en jou hand voel niks meer nie.",
+      "soort": "grammatika",
+      "rede_vinder": "The negative needs its closing 'nie', and the AWS comma goes before 'en' joining two sentences.",
+      "fout": "negative with 'niks' lacks its closing 'nie'; missing AWS comma between two clauses",
+      "rede_keurder": "Fixes the double negative and adds the required comma between two full clauses."
+    },
+    {
+      "nr": 3,
+      "blok": "Voel dit self teen jou keel",
+      "voor": "Net die neurie het verander en die bewing",
+      "na": "Net die neurie het verander, en die bewing",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two clauses",
+      "rede_keurder": "Both sides have their own subject and verb, so the comma is required."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat vibreer beteken",
+      "voor": "Mense wat nie hoor nie, kan",
+      "na": "Mense wat nie kan hoor nie, kan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'nie kan hoor nie' is the natural form and matches the protected wording for these people.",
+      "fout": "'nie hoor nie' is less natural than 'nie kan hoor nie' and departs from the protected wording",
+      "rede_keurder": "Aligns with the protected wording for these people without moving the meaning."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat vibreer beteken",
+      "voor": "te klein om te voel en dan hoor jy",
+      "na": "te klein om te voel, en dan hoor jy",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences.",
+      "fout": "missing AWS comma before 'en' joining two clauses",
+      "rede_keurder": "'dan hoor jy hulle net' is a full clause, so the comma is required."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoe 'n instrument sy klank maak",
+      "voor": "vibreer die deel eerste en die klank",
+      "na": "vibreer die deel eerste, en die klank",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences.",
+      "fout": "missing AWS comma before 'en' joining two clauses",
+      "rede_keurder": "Matches the protected cause-and-effect wording, which itself carries this comma, and leaves its words intact."
+    },
+    {
+      "nr": 7,
+      "blok": "Hoe 'n instrument sy klank maak",
+      "voor": "Niks vibreer sommer uit sy eie nie en iemand",
+      "na": "Niks vibreer sommer vanself nie, en iemand",
+      "soort": "anglisisme",
+      "rede_vinder": "'uit sy eie' calques 'of its own'; Afrikaans says 'vanself', and the AWS comma is needed before 'en'.",
+      "fout": "'uit sy eie' calques English 'of its own'; missing AWS comma",
+      "rede_keurder": "'vanself' is the natural Afrikaans form and the comma joins two full clauses."
+    },
+    {
+      "nr": 8,
+      "blok": "Die klank gaan na alle kante toe",
+      "voor": "Die klank kies nie een rigting nie en hy gaan",
+      "na": "Die klank kies nie een rigting nie, en dit gaan",
+      "soort": "verwysing",
+      "rede_vinder": "'klank' takes 'dit', not 'hy'; AWS comma before 'en' joining two sentences.",
+      "fout": "'hy' for the abstract 'klank' in a block where 'hy/hom' also means the drum",
+      "rede_keurder": "'dit' for the sound separates it from the drum and the comma joins two full clauses."
+    },
+    {
+      "nr": 9,
+      "blok": "Die klank gaan na alle kante toe",
+      "voor": "Hy beweeg altyd",
+      "na": "Dit beweeg altyd",
+      "soort": "verwysing",
+      "rede_vinder": "The pronoun for 'klank' is 'dit', consistent with the previous sentence.",
+      "fout": "'Hy' could point to the drum rather than the sound",
+      "rede_keurder": "Consistent with change 8 and removes a pronoun that could point two ways."
+    },
+    {
+      "nr": 10,
+      "blok": "Niks vlieg van die trom af na jou toe nie",
+      "voor": "Dit is nie wat gebeur nie en niks",
+      "na": "Dit is nie wat gebeur nie, en niks",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences.",
+      "fout": "missing AWS comma before 'en' joining two clauses",
+      "rede_keurder": "Both sides have their own subject and verb."
+    },
+    {
+      "nr": 12,
+      "blok": "Niks vlieg van die trom af na jou toe nie",
+      "voor": "stoot die lug langs hom en",
+      "na": "stoot die lug langsaan en",
+      "soort": "verwysing",
+      "rede_vinder": "'hom' for 'lug' clashes with 'dit' for air later in the block; 'langsaan' avoids the pronoun.",
+      "fout": "'die lug langs hom' stacks 'lug ... lug ... hom' and mixes 'hom' with 'dit' for air in the same block",
+      "rede_keurder": "'die lug langsaan' is natural, shorter and means the same adjacent air."
+    },
+    {
+      "nr": 14,
+      "blok": "Waardeur die klank kan loop",
+      "voor": "Lug is die gewone pad en die trom",
+      "na": "Lug is die gewone pad, en die trom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences.",
+      "fout": "missing AWS comma before 'en' joining two clauses",
+      "rede_keurder": "Both sides have their own subject and verb."
+    },
+    {
+      "nr": 16,
+      "blok": "Waardeur die klank kan loop",
+      "voor": "Klank loop ook deur water wanneer jy",
+      "na": "Klank loop ook deur water, soos wanneer jy",
+      "soort": "sinsbou",
+      "rede_vinder": "As written, sound seems to travel through water only when you listen; 'soos' makes it the example it is.",
+      "fout": "'wanneer' reads as if sound travels through water only while you listen under it",
+      "rede_keurder": "'soos wanneer' makes it the example it is meant to be, adds no fact, and keeps the general claim intact."
+    },
+    {
+      "nr": 17,
+      "blok": "Hoe die klank by jou oor inkom",
+      "voor": "Ons noem dit die trommelvlies en die klank",
+      "na": "Ons noem dit die trommelvlies, en die klank",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences.",
+      "fout": "missing AWS comma before 'en' joining two clauses",
+      "rede_keurder": "Both sides have their own subject and verb."
+    },
+    {
+      "nr": 18,
+      "blok": "Hoe die klank by jou oor inkom",
+      "voor": "van die vibrasie af en hier is dit andersom",
+      "na": "van die vibrasie af, en hier is dit andersom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences.",
+      "fout": "missing AWS comma before 'en' joining two clauses",
+      "rede_keurder": "Both sides have their own subject and verb."
+    },
+    {
+      "nr": 19,
+      "blok": "Hoe die klank by jou oor inkom",
+      "voor": "na jou brein en dan hoor jy die trom",
+      "na": "na jou brein, en dan hoor jy die trom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences.",
+      "fout": "missing AWS comma before 'en' joining two clauses",
+      "rede_keurder": "'dan hoor jy die trom' is a full clause, so the comma is required."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 11,
+      "blok": "Niks vlieg van die trom af na jou toe nie",
+      "voor": "die lug wat teen hom staan",
+      "na": "die lug wat daarteen is",
+      "soort": "idioom",
+      "rede_vinder": "Air does not 'staan', and 'hom' for the drum skin is awkward; 'daarteen' is the natural reference.",
+      "fout": "none",
+      "rede_keurder": "'hom' for the drum skin is normal Afrikaans and 'wat daarteen is' is flatter, so this is a lateral move."
+    },
+    {
+      "nr": 13,
+      "blok": "Niks vlieg van die trom af na jou toe nie",
+      "voor": "So loop die stoot van lug tot lug tot by jou oor.",
+      "na": "So word die stoot van lug tot lug aangegee tot by jou oor.",
+      "soort": "woordkeuse",
+      "rede_vinder": "A push is passed on rather than 'walking'; 'aangegee' is clearer and matches the ear block's 'gee aan'.",
+      "fout": "none",
+      "rede_keurder": "'loop' is the lesson's consistent verb for sound travelling, and the passive is longer and harder for a Grade 4 reader."
+    },
+    {
+      "nr": 15,
+      "blok": "Waardeur die klank kan loop",
+      "voor": "tik lig met een vinger so ver as wat jou arm kan reik",
+      "na": "tik lig met een vinger op die tafel, so ver as wat jou arm kan reik",
+      "soort": "sinsbou",
+      "rede_vinder": "The sentence does not say what is tapped; naming the table it already mentions removes the ambiguity.",
+      "fout": "none",
+      "rede_keurder": "In context the tap is plainly on the table just named, and the addition lengthens an already long sentence and repeats 'tafel'."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat vibreer beteken",
+      "teks": "Om te vibreer beteken om vinnig heen en weer te beweeg.",
+      "rede": "The study text states the meaning without 'baie', while the decided shared definition (and this lesson's own glossary) reads 'Om baie vinnig heen en weer te beweeg.' Two wordings of a decided definition in one lesson; not changed because it touches a decided definition and is for a person or the writer to settle."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 572,
+  "woorde_na": 573,
+  "wanneer": "2026-10-22T22:50:24+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:58b97bb24f9dd2342cd16cfb31f8d7bb",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:447affda038d6d481052e00296b9f49f"
+}

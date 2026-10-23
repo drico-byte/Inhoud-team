@@ -1,11 +1,15 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/energie-om-ons/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:610f13356a1ee4c4301ede71d21f86da",
+  "konsep_hash": "sha256:4b157b21c1aeec48b5b20e1bddeaa5ad",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:96dabea45704a7984bff4cc977945dec"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "die strykyster en die fiets": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -207,11 +211,333 @@
       "sound": true,
       "items": 38,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:04:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:98b8c2882f6ef6627bf6c82c2c5ad5a5",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T22:04:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 606,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:04:02+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:98b8c2882f6ef6627bf6c82c2c5ad5a5",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-22T22:08:36+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 26,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 606,
+      "woorde_na": 600,
+      "konsep_hash": "sha256:8a4611a59b1250611f1482df69bd6664"
+    },
+    {
+      "wanneer": "2026-10-22T22:08:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 600,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:08:37+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'hy werk is 'n uitset': 'Al die energie ... is 'n uitset' reads oddly (all the energy as one output), and the two verbs meet without a comma.",
+        "check (the language finder raised this; it may not be a fault): 'Daardie stoot op die pedale is die fiets se inset.': The lesson defines inset as energy, but this sentence calls a push (stoot) the inset; a push is closer to a force (krag), the confusion the protected energie entry warns about. Not changed, because fixing it means choosing content; for the writer or a person to judge.",
+        "check (the language finder raised this; it may not be a fault): 'die wiele draai onder hom': Hom could mean the bicycle or the rider; probably the rider. Left unchanged because choosing would guess the intent."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T22:10:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fd6f09fcb95a8cd1a15701b71f968cfd",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T22:10:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 600,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:15:19+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 600,
+      "woorde_na": 599,
+      "konsep_hash": "sha256:cac77a5d2bb15025d873eb63b4a8af66"
+    },
+    {
+      "wanneer": "2026-10-22T22:15:20+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 599,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:16:52+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:dcdbc4c7084331be07c902de65e07ab0",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-22T22:16:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 598,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:19:19+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 598,
+      "woorde_na": 597,
+      "konsep_hash": "sha256:96dabea45704a7984bff4cc977945dec"
+    },
+    {
+      "wanneer": "2026-10-22T22:19:19+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 597,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:24:37+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:24:37+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:24:37+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die strykyster en die fiets"
+      ],
+      "tally": {
+        "die strykyster en die fiets": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-22T22:24:37+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Hitte alleen kry nie kreukels uit nie, want 'n hemp in 'n wa — corrected: The first half can stand. On Wikipedia's account the iron's heat loosens the fibres and its weight presses them flat, so heat is not the whole job. The 'want' clause is the fault. The shirt in a warm room stays creased because a room is about a sixth as hot as an iron, not because heat cannot help. A learner who reasons from this comparison concludes the wrong thing: that heat does nothing for creases. The steam in a bathroom or a steamer shows otherwise. Either remove the warm-room comparison and let the sentence rest on heat and weight working together, or replace the evidence with one that holds the temperature fixed and removes only the pressing. Do not add a new claim about steamers to fill the gap."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T22:26:11+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0fb7590ef96656d3937ccbb19cb33c5f",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T22:26:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 590,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:28:12+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 590,
+      "woorde_na": 589,
+      "konsep_hash": "sha256:6190f04161252844cb30172aa51177f4"
+    },
+    {
+      "wanneer": "2026-10-22T22:28:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 589,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:28:12+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Die radio: elektrisiteit of batterye gaan in, en klank kom uit.': Here the batteries themselves 'go in', while the torch line says 'n battery se energie gaan in'; the radio line may blur object and energy, but changing it would change content, so a writer should judge it."
+      ]
+    },
+    {
+      "wanneer": "2026-10-22T22:29:54+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:49c81175048897d506de6602bd826392",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T22:29:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 592,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:32:11+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 592,
+      "woorde_na": 591,
+      "konsep_hash": "sha256:1d917370f9c3666e8c54c7e5550b8ce5"
+    },
+    {
+      "wanneer": "2026-10-22T22:32:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 591,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:40:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:44e830fe91a410dae76f96ab30d90831",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T22:40:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 590,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T22:46:16+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 590,
+      "woorde_na": 590,
+      "konsep_hash": "sha256:869c4211efdf0fc53e1f7fc3006f8c4e"
+    },
+    {
+      "wanneer": "2026-10-22T22:46:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 590,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:03:45+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1e7b2fc29f74b66d3448147c624548e2",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-22T23:03:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 654,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:06:22+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 654,
+      "woorde_na": 656,
+      "konsep_hash": "sha256:4b157b21c1aeec48b5b20e1bddeaa5ad"
+    },
+    {
+      "wanneer": "2026-10-22T23:06:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 656,
+      "begroting": 574,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:14:23+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:14:23+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 35,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-22T23:14:23+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\natuurwetenskappe-en-tegnologie\\energie-om-ons\\les-2.json",
+      "konsep_hash": "sha256:4b157b21c1aeec48b5b20e1bddeaa5ad",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:34becba2d52a9d9d7f3db41965cab9e0",
+  "spek_hash": "sha256:de2b0afd2f7e5eec66aecfaa83a9c937",
   "hek_konteks": {
     "graad": 4,
     "begroting": 574
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:98b8c2882f6ef6627bf6c82c2c5ad5a5",
+  "taal_rondte_vir": "sha256:4b157b21c1aeec48b5b20e1bddeaa5ad",
+  "taal_keurder_vir": "b4421cc501b5d0bbc4ff9682e127a1e9",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:4b157b21c1aeec48b5b20e1bddeaa5ad",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:6190f04161252844cb30172aa51177f4",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "207236f5829a9c49772a0ca38aad2366"
 }

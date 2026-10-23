@@ -1,0 +1,360 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die stil kitaar",
+      "voor": "'n Kitaar lê op 'n bed in die kamer en jy hoor niks.",
+      "na": "'n Kitaar lê op 'n bed in die kamer, en jy hoor niks.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses with their own subjects and verbs (kitaar le; jy hoor).",
+      "rede_keurder": "Correct AWS comma; nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Die stil kitaar",
+      "voor": "Die drom staan in die hoek en hy bly",
+      "na": "Die drom staan in die hoek en bly",
+      "soort": "sinsbou",
+      "rede_vinder": "The repeated pronoun 'hy' for the same subject is wooden; one subject with two verbs reads naturally.",
+      "fout": "Repeated pronoun for the same subject reads wooden.",
+      "rede_keurder": "One subject with two verbs reads naturally and the meaning is unchanged; no comma is needed then."
+    },
+    {
+      "nr": 3,
+      "blok": "Die stil kitaar",
+      "voor": "doen niks uit sy eie nie",
+      "na": "doen niks vanself nie",
+      "soort": "anglisisme",
+      "rede_vinder": "'Uit sy eie' copies English 'of its own'; 'vanself' is the Afrikaans idiom.",
+      "fout": "'Uit sy eie' copies English 'of its own'.",
+      "rede_keurder": "'Vanself' is the natural Afrikaans and says exactly the same."
+    },
+    {
+      "nr": 4,
+      "blok": "Die stil kitaar",
+      "voor": "Jy pluk 'n snaar of jy klap met jou hand",
+      "na": "Jy pluk 'n snaar, of jy klop met jou hand",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'of' joining two sentences; and 'klop' matches the verb the title and every other block use for the drum.",
+      "fout": "Missing AWS comma before 'of' joining two full clauses; 'klap' breaks the blaas/klop/pluk set the lesson teaches for the drum.",
+      "rede_keurder": "The comma is correct, and 'klop' is the same hand-on-skin action named consistently with the rest of the lesson."
+    },
+    {
+      "nr": 5,
+      "blok": "Die stil kitaar",
+      "voor": "Daardie ding wat jy doen is 'n beweging en dit is",
+      "na": "Wat jy doen, is 'n beweging, en dit is",
+      "soort": "sinsbou",
+      "rede_vinder": "'Daardie ding wat jy doen' is wooden; a comma after the embedded clause separates the clashing verbs, and an AWS comma goes before 'en dit is'.",
+      "fout": "'Daardie ding wat jy doen' is a wooden English-like construction, and the comma before 'en dit is' is missing.",
+      "rede_keurder": "Natural Afrikaans that still points back to plucking and striking, with the clashing-verb comma and the AWS comma."
+    },
+    {
+      "nr": 6,
+      "blok": "Drie maniere om die beweging in te sit",
+      "voor": "Blaas en klop en pluk is",
+      "na": "Blaas, klop en pluk is",
+      "soort": "leestekens",
+      "rede_vinder": "A list of three takes commas, with 'en' only before the last item.",
+      "fout": "A three-item list joined by repeated 'en'.",
+      "rede_keurder": "Standard list punctuation with 'en' only before the last item; no comma before 'en'."
+    },
+    {
+      "nr": 7,
+      "blok": "Drie maniere om die beweging in te sit",
+      "voor": "Jou hand beweeg of jou asem beweeg en daardie beweging",
+      "na": "Jou hand of jou asem beweeg, en daardie beweging",
+      "soort": "sinsbou",
+      "rede_vinder": "The doubled 'beweeg' is clumsy; one verb for both subjects reads cleanly, and an AWS comma goes before the second sentence.",
+      "fout": "Doubled 'beweeg' is clumsy and the AWS comma before the second clause is missing.",
+      "rede_keurder": "Same two subjects, same action, cleaner sentence, correct comma before a clause with its own subject and verb."
+    },
+    {
+      "nr": 8,
+      "blok": "Drie maniere om die beweging in te sit",
+      "voor": "wat beweeg noem ons bewegingsenergie",
+      "na": "wat beweeg, noem ons bewegingsenergie",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the relative clause stops the two verbs 'beweeg noem' running together.",
+      "fout": "The verbs 'beweeg noem' run together across clause boundaries.",
+      "rede_keurder": "A comma between clashing verbs of two clauses eases reading and changes no word."
+    },
+    {
+      "nr": 9,
+      "blok": "Binne-in beweeg 'n deel",
+      "voor": "Albei kere beweeg",
+      "na": "In albei gevalle beweeg",
+      "soort": "idioom",
+      "rede_vinder": "'Albei kere' is unnatural here; 'in albei gevalle' is the usual Afrikaans.",
+      "fout": "'Albei kere' (both times) fits poorly where two instruments, not two occasions, are meant.",
+      "rede_keurder": "'In albei gevalle' is the natural Afrikaans for two cases and keeps the meaning."
+    },
+    {
+      "nr": 10,
+      "blok": "Binne-in beweeg 'n deel",
+      "voor": "bokant van 'n pyp en dan vibreer",
+      "na": "bokant van 'n pyp, en dan vibreer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (jy blaas; die lug vibreer).",
+      "rede_keurder": "Correct AWS comma."
+    },
+    {
+      "nr": 11,
+      "blok": "Binne-in beweeg 'n deel",
+      "voor": "Die deel wat beweeg is nie altyd",
+      "na": "Die deel wat beweeg, is nie altyd",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the relative clause separates the clashing verbs 'beweeg is'.",
+      "fout": "The verbs 'beweeg is' clash.",
+      "rede_keurder": "Clashing-verb comma helps a first reading; no word changes."
+    },
+    {
+      "nr": 12,
+      "blok": "Wat jy doen en watter deel beweeg",
+      "voor": "jy pluk die snaar en die snaar beweeg",
+      "na": "jy pluk die snaar, en die snaar beweeg",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses with their own subjects and verbs.",
+      "rede_keurder": "Correct AWS comma; adds no words to the list item."
+    },
+    {
+      "nr": 13,
+      "blok": "Wat jy doen en watter deel beweeg",
+      "voor": "jy klop op die styf gespande vel en die vel beweeg",
+      "na": "jy klop op die styf gespande vel, en die vel beweeg",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses with their own subjects and verbs.",
+      "rede_keurder": "Correct AWS comma; adds no words to the list item."
+    },
+    {
+      "nr": 14,
+      "blok": "Wat jy doen en watter deel beweeg",
+      "voor": "oor die bokant en die lug binne-in die pyp vibreer",
+      "na": "oor die bokant, en die lug binne-in die pyp vibreer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (jy blaas; die lug vibreer).",
+      "rede_keurder": "Correct AWS comma; adds no words to the list item."
+    },
+    {
+      "nr": 15,
+      "blok": "Wat jy doen en watter deel beweeg",
+      "voor": "jy skud hom en die saadjies",
+      "na": "jy skud hom, en die saadjies",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (jy skud; die saadjies klop).",
+      "rede_keurder": "Correct AWS comma; adds no words to the list item."
+    },
+    {
+      "nr": 16,
+      "blok": "Die deel moet vry wees om te beweeg",
+      "voor": "Net jou vinger het bygekom en niks",
+      "na": "Net jou vinger het bygekom, en niks",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (vinger het bygekom; niks het verander).",
+      "rede_keurder": "Correct AWS comma."
+    },
+    {
+      "nr": 17,
+      "blok": "Die deel moet vry wees om te beweeg",
+      "voor": "vry beweeg nie en dan bly daar",
+      "na": "vry beweeg nie, en dan bly daar",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (die rekkie kan; daar bly).",
+      "rede_keurder": "Correct AWS comma."
+    },
+    {
+      "nr": 18,
+      "blok": "Klank is die uitset",
+      "voor": "in en 'n klank kom by hom uit",
+      "na": "in, en 'n klank kom by hom uit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (beweging gaan; klank kom).",
+      "rede_keurder": "Correct AWS comma."
+    },
+    {
+      "nr": 19,
+      "blok": "Klank is die uitset",
+      "voor": "die uitset en dit is presies",
+      "na": "die uitset, en dit is presies",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (klank is; dit is).",
+      "rede_keurder": "Correct AWS comma."
+    },
+    {
+      "nr": 20,
+      "blok": "Klank is die uitset",
+      "voor": "Nie alles wat jy insit kom",
+      "na": "Nie alles wat jy insit, kom",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the relative clause separates the clashing verbs 'insit kom'.",
+      "fout": "The verbs 'insit kom' clash.",
+      "rede_keurder": "Clashing-verb comma helps a first reading; no word changes."
+    },
+    {
+      "nr": 21,
+      "blok": "Klank is die uitset",
+      "voor": "jou hare droog blaas",
+      "na": "jou hare droogblaas",
+      "soort": "spelling",
+      "rede_vinder": "'Droogblaas' is a compound verb and is written as one word.",
+      "fout": "Separable compound verb split in clause-final position.",
+      "rede_keurder": "'Droogblaas' is written as one word at the end of the relative clause."
+    },
+    {
+      "nr": 22,
+      "blok": "Klank is die uitset",
+      "voor": "nie die punt van die masjien nie",
+      "na": "nie die doel van die masjien nie",
+      "soort": "anglisisme",
+      "rede_vinder": "'Die punt van' copies English 'the point of'; Afrikaans says 'die doel'.",
+      "fout": "'Die punt van' copies English 'the point of'.",
+      "rede_keurder": "'Doel' is the Afrikaans word for purpose; the qualifier 'die meeste' stays intact."
+    },
+    {
+      "nr": 23,
+      "blok": "Klank is die uitset",
+      "voor": "juis die hele punt",
+      "na": "juis die hele doel",
+      "soort": "anglisisme",
+      "rede_vinder": "'Die hele punt' copies English 'the whole point'; 'doel' keeps the pair consistent with the sentence before.",
+      "fout": "'Die hele punt' copies English 'the whole point'.",
+      "rede_keurder": "'Die hele doel' is natural Afrikaans and matches the sentence before it."
+    },
+    {
+      "nr": 24,
+      "blok": "Dit is 'n stelsel",
+      "voor": "ingaan en watter deel beweeg en wat uitkom",
+      "na": "ingaan, watter deel beweeg en wat uitkom",
+      "soort": "leestekens",
+      "rede_vinder": "A list of three clauses takes a comma, with 'en' only before the last.",
+      "fout": "Three clauses chained with repeated 'en'.",
+      "rede_keurder": "Comma between the first two, 'en' only before the last, no comma before 'en'; same content."
+    },
+    {
+      "nr": 25,
+      "blok": "Dit is 'n stelsel",
+      "voor": "wat so saamwerk noem ons",
+      "na": "wat so saamwerk, noem ons",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the relative clause separates the clashing verbs 'saamwerk noem'.",
+      "fout": "The verbs 'saamwerk noem' clash.",
+      "rede_keurder": "Clashing-verb comma helps a first reading; no word changes."
+    },
+    {
+      "nr": 26,
+      "blok": "Dit is 'n stelsel",
+      "voor": "wat jy self ontwerp het dieselfde",
+      "na": "wat jy self ontwerp, het dieselfde",
+      "soort": "leestekens",
+      "rede_vinder": "Without a comma 'ontwerp het' reads as a past tense and the sentence derails; the comma shows 'het' is the main verb.",
+      "fout": "'Ontwerp het' reads as a past tense, so the sentence derails on a first reading.",
+      "rede_keurder": "The comma shows 'het' is the main verb and keeps the intended present meaning."
+    },
+    {
+      "nr": 27,
+      "blok": "Maar 'n radio maak ook klank",
+      "voor": "'n Radio maak ook klank en jy druk",
+      "na": "'n Radio maak ook klank, en jy druk",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (radio maak; jy druk).",
+      "rede_keurder": "Correct AWS comma."
+    },
+    {
+      "nr": 28,
+      "blok": "Maar 'n radio maak ook klank",
+      "voor": "lê by die inset",
+      "na": "lê in die inset",
+      "soort": "idioom",
+      "rede_vinder": "The Afrikaans idiom is 'die verskil lê in', not 'lê by'.",
+      "fout": "'Die verskil le by' breaks the fixed expression.",
+      "rede_keurder": "'Die verskil le in' is the fixed expression, and in both the difference is located in the input, so the meaning is the same."
+    },
+    {
+      "nr": 29,
+      "blok": "Maar 'n radio maak ook klank",
+      "voor": "kom uit die muur",
+      "na": "kom uit die muurprop",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Uit die muur' is loose spoken shorthand; 'muurprop' names what is meant without using the protected-against word 'krag'.",
+      "fout": "'Uit die muur' is loose shorthand that names nothing a Grade 4 reader can point to.",
+      "rede_keurder": "'Muurprop' names the same source exactly, adds no new fact and avoids 'krag'."
+    },
+    {
+      "nr": 30,
+      "blok": "Maar 'n radio maak ook klank",
+      "voor": "Die radio speel aan solank",
+      "na": "Die radio hou aan speel solank",
+      "soort": "idioom",
+      "rede_vinder": "'Aanhou speel' is the standard way to say 'keeps playing'; 'speel aan' is colloquial.",
+      "fout": "'Speel aan' is a loose, English-shaped way to say 'keeps playing'.",
+      "rede_keurder": "'Hou aan speel' is natural spoken Afrikaans with the same meaning."
+    },
+    {
+      "nr": 32,
+      "blok": "Die uhadi",
+      "voor": "Dit is 'n boog met een snaar en daar is 'n hol kalbas aan vas.",
+      "na": "Dit is 'n boog met een snaar, en 'n hol kalbas is daaraan vasgemaak.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Daar is 'n hol kalbas aan vas' is awkward; the reworded clause is natural and takes the AWS comma.",
+      "fout": "'Daar is 'n hol kalbas aan vas' can be misread as existential 'daar is' and makes a reader stumble.",
+      "rede_keurder": "The reworded clause says the same thing plainly and takes a correct AWS comma between two clauses."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 33,
+      "blok": "Die uhadi",
+      "voor": "met 'n dun stingel gras of riet",
+      "na": "met 'n dun gras- of rietstingel",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Stingel gras' calques English 'stalk of grass'; Afrikaans forms the compound 'grasstingel', shortened with a hyphen before 'of'.",
+      "fout": "none",
+      "rede_keurder": "''n Stingel gras' is the native Afrikaans measure construction, not a calque, and the elliptic hyphenated compound is harder for a Grade 4 reader."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 31,
+      "blok": "Die uhadi",
+      "voor": "Mense hier maak",
+      "na": "Mense in ons land maak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Mense hier' is vague in a printed text; 'in ons land' says where 'here' is without adding content.",
+      "fout": "'Mense hier' is vague in a printed text.",
+      "rede_keurder": "The fault is real, but 'in ons land' commits to a specific place the original left open, so the writer should choose the wording.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Klank is die uitset",
+      "teks": "Nie alles wat jy insit kom weer as klank by jou uit nie. Klank is daarom die vernaamste uitset van 'n instrument.",
+      "rede": "'Daarom' can read as a non sequitur (not all input becomes sound, therefore sound is the main output); it is defensible if the point is 'main, not only', so I have not changed it, but a writer may want a clearer link. Also 'by jou uit' is odd: the sound comes out of the instrument, not out at you."
+    },
+    {
+      "blok": "Die deel moet vry wees om te beweeg",
+      "teks": "Sit nou een vinger op dieselfde rekkie op dieselfde blik.",
+      "rede": "The doubled 'dieselfde ... op dieselfde' is wooden, but rewording it cleanly would mean choosing what to stress (same band, still on the tin), which is the writer's call."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 796,
+  "woorde_na": 788,
+  "wanneer": "2026-10-23T06:24:37+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:daa9be1ae3447b53e828cdafaaf5b838",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f422f9bec939cc323c682f0e7d46b7dd"
+}

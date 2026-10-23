@@ -1,242 +1,253 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Geraas, en hoe jy jou ore veilig hou",
   "kaps_punt": "Geraasbesoedeling. Klanke wat hard, onaangenaam of skadelik vir ons ore is of oor 'n lang periode strek, word beskryf as geraasbesoedeling; geraasbesoedeling kan permanente skade aan die gehoor veroorsaak (gehoorapparate kan help om mense wat gehoorgestremd is te laat hoor).",
-  "verdict": "MENS_NODIG",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "Vier dinge kan 'n gewone klank in geraas verander. Die klank kan hard wees soos 'n boor wat in die straat werk. Hy kan naar wees om na te luister soos 'n hek wat kras. Hy kan ook skade aan jou ore doen. Of hy kan aanhou en aanhou sonder om ooit op te hou.",
+      "bewering": "Klank wat so pla, het 'n eie naam: geraasbesoedeling.",
       "blok": "Wanneer 'n klank geraas word",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — hierdie blok het nie verander nie en is nie hierdie ronde weer nagesoek nie. Ronde 1 het die vier dele teen die SA Geraasbeheerregulasies (Wet op Omgewingsbewaring 73 van 1989) bevestig.",
+      "bron": "US EPA, 'Clean Air Act Title IV - Noise Pollution' (epa.gov/clean-air-act-overview/clean-air-act-title-iv-noise-pollution): the traditional definition of noise is 'unwanted or disturbing sound', which becomes unwanted when it interferes with sleep, conversation or quality of life. The block's framing ('klank wat so pla') carries that core.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Enige een van die vier is al genoeg en hulle hoef nie saam te wees nie.",
+      "bewering": "Die klank kan hard wees, soos 'n boor wat in die straat werk.",
       "blok": "Wanneer 'n klank geraas word",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — blok onveranderd, nie hierdie ronde herbevestig nie.",
+      "bron": "Jackhammer/pneumatic drill figures of about 97-102 dBA at the operator or at 2 m (WSCC NT 'How loud is it' chart; e3diagnostics jobsite list); well above the 85 dBA level NIDCD names for risk (nidcd.nih.gov/health/noise-induced-hearing-loss).",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Klank hoef nie hard te wees om geraas te wees nie.",
+      "bewering": "Dit kan naar wees om na te luister, soos 'n hek wat kras.",
+      "blok": "Wanneer 'n klank geraas word",
+      "status": "bevestig",
+      "bron": "US EPA noise definition ('unwanted or disturbing sound'); an unpleasant sound qualifies by being disturbing, independent of loudness. Matches the CAPS criterion 'onaangenaam'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Vier dinge kan 'n gewone klank in geraas verander. ... Enige een van die vier is al genoeg, en hulle hoef nie saam voor te kom nie.",
+      "blok": "Wanneer 'n klank geraas word",
+      "status": "bevestig",
+      "bron": "Inside this block the four criteria sit under the opening frame 'Klank wat so pla', so each is read as a way a sound becomes unwanted - consistent with the EPA definition (unwanted or disturbing sound) and with South African law's 'noise nuisance' ('noise that disturbs or impairs ... the convenience or peace of any person', BusinessTech 2019 citing Bregmans). Note: the same four criteria WITHOUT that frame are a fault in the glossary entry - see the 'geraasbesoedeling' item.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Klank hoef nie hard te wees om geraas te wees nie. Dink aan 'n kraan wat die hele nag lank drup. Elke drup op sy eie is sag, en tog hou dit jou wakker.",
       "blok": "Dit hoef nie hard te wees nie",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde (veranderde blok). Die SA Geraasbeheerregulasies onder Wet 73 van 1989 omskryf 'geraashinder' as 'any sound which disturbs or impairs or may disturb or impair the convenience or peace of any person' — sonder enige hardheidsdrempel — teenoor 'steurende geraas', wat wel 'n dB-toets het. Sien Wes-Kaapse Geraasbeheerregulasies (cer.org.za) en Schindlers Attorneys se opsomming. Die stelling staan dus op sy eie, en die drupkraan alleen dra dit: 'n drup val ver onder die WGO se nagriglyn van 30 dB(A) en hou steeds mense wakker.",
+      "bron": "Leon Lack, Flinders University sleep researcher, 'Drip, drip, drip: why a leaking tap keeps you awake' (sleepreviewmag.com / news.flinders.edu.au): low-intensity regular sounds such as a dripping tap can keep people from falling asleep. EPA: sound that interferes with sleep is unwanted, i.e. noise.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Dink aan 'n kraan wat die hele nag lank drup. Daardie drup is sag en dit hou jou steeds wakker.",
-      "blok": "Dit hoef nie hard te wees nie",
-      "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde. The Conversation, 'Drip, drip, drip. Why is my leaking tap keeping me awake at night?' (akademiese outeur): die brein reageer op ritmiese verandering, nie op vlak nie, en 'n drup veroorsaak gefragmenteerde slaap. WGO-nagriglyn: 30 dB(A) deurlopend, 45 dB(A) vir enkelgebeure vir goeie slaap.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "'n Hond wat heelnag blaf en 'n kar se alarm hou jou net so wakker.",
-      "blok": "Dit hoef nie hard te wees nie",
-      "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde. Blaffende honde: die SA Geraasbeheerregulasies verbied dit uitdruklik dat 'n eienaar 'n dier laat geraashinder veroorsaak, en Kaapstad se verordening stel selfs 'n grens (nie meer as ses minute blaf in 'n uur nie) — dit is by uitstek 'n erkende slaapsteuring. Motoralarms: stadsordonnansies (Los Angeles, New York, Santa Monica) en Britse munisipaliteite hanteer motoralarms spesifiek as nagtelike slaapsteuring. Die sin sê net dat hulle jou ook wakker hou, en dit is korrek; die vergelyking onderskat eerder as oordryf.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Al drie hou net aan en aan, en dit maak van hulle geraas.",
-      "blok": "Dit hoef nie hard te wees nie",
-      "status": "onseker",
-      "bron": "Vars nagegaan hierdie ronde; dit is 'n NUWE bewering wat saam met die regstelling ingekom het, want die blok se slotsin maak nou die AANHOU die eienskap wat al drie voorbeelde deel. Vir die drupkraan en die hond hou dit: albei se geraasstatus hang juis aan duur en herhaling (Kaapstad se blaf-verordening meet in minute per uur). Vir 'n motoralarm kon ek dit nie vasmaak nie, en die bewyse trek twee kante toe. VN/ECE-regulasie 116 — dieselfde regulasiefamilie waarna SA se Nasionale Padverkeersregulasies vir diefwering verwys — skryf voor dat die hoorbare alarmsein minstens 25 s en hoogstens 30 s duur; fabrieksalarms speel tipies 30-90 s en stel dan self terug; stadsordonnansies elders eis 'n outomatiese afsny binne 3 tot 15 minute. 'n Motoralarm is dus ontwerp en gereguleer om op te hou, nie om aan te hou nie. Daarteenoor is 'n alarm wat keer op keer weer sneller 'n algemene, wyd gerapporteerde nagklag. Ek kon geen Suid-Afrikaanse bron vind wat sê hoe lank 'n motoralarm hier werklik speel nie, en hierdie stuk hang aan plaaslike daaglikse ervaring, so ek weier om dit op internasionale afleiding alleen te beslis. 'n Mens moet kies: hou die alarm en stel sy geraasstatus anders (dit is hard en dit gaan af wanneer niemand dit wil hê nie), of laat die slotsin net die drup en die hond dra.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "By die huis: 'n TV wat heeldag hard speel, oorfone wat te hard gedraai is en 'n kragopwekker wat brom.",
+      "bewering": "By die huis: 'n TV wat heeldag hard speel, oorfone wat te hard opgedraai is en 'n kragopwekker wat brom.",
       "blok": "Waar die geraasbesoedeling vandaan kom",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — lysblok onveranderd, nie hierdie ronde herbevestig nie.",
+      "bron": "TV played loudly listed as noise nuisance (BusinessTech 2019, Bregmans attorneys); headphones at maximum volume 94-110 dBA (NIDCD Hearing Protectors fact sheet, 2020); generator noise complaints in SA, e.g. Cape Town City Health ~197 generator complaints Feb 2022-Feb 2023 (Cape Times, 2 April 2023; Cliffe Dekker Hofmeyr, 24 April 2023).",
       "tipe": "algemeen"
     },
     {
-      "bewering": "By die skool: baie kinders wat gelyk skree op die speelgrond en stoele wat oor die vloer skraap.",
+      "bewering": "By die skool: baie kinders wat gelyk op die speelgrond skree en stoele wat oor die vloer skraap.",
       "blok": "Waar die geraasbesoedeling vandaan kom",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — lysblok onveranderd, nie hierdie ronde herbevestig nie.",
+      "bron": "'Shouting and talking loudly' listed among noise-nuisance examples (BusinessTech 2019, Bregmans attorneys); scraping is an unpleasant/disturbing sound under the EPA definition.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "In die gemeenskap: verkeer en bouwerk langs die pad, luidsprekers by 'n winkel of 'n taxi en 'n partytjie wat laat aanhou.",
+      "bewering": "In die gemeenskap: verkeer en bouwerk langs die pad, luidsprekers by 'n winkel of 'n taxi en 'n partytjie wat tot laat aanhou.",
       "blok": "Waar die geraasbesoedeling vandaan kom",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — lysblok onveranderd, nie hierdie ronde herbevestig nie. Let daarop dat die luidspreker wat uit 'Hoe jy weet 'n klank is te hard' gesny is, hier bly staan; dit skep geen botsing nie, want hier is dit 'n geraasbron en nie 'n voorbeeld van onmiddellike skade nie.",
+      "bron": "Vehicles, power tools/machinery and loud late-night parties listed as noise nuisance/disturbing noise (BusinessTech 2019); loud taxi sound systems called noise pollution in SA (Witbank News letter, citizen.co.za/witbank-news; Briefly.co.za TikTok report); complaints about loud music at a Pretoria shopping centre (BusinessTech, May 2026) and shop-front speakers as noise pollution in the region (Nairobi, Bulawayo). Construction noise 80-90 dB typical.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Nie alle geraas beskadig jou ore nie en 'n kraan se drup ook nie.",
+      "bewering": "Nie alle geraas beskadig jou ore nie, en 'n kraan se drup doen dit ook nie.",
       "blok": "Wat diep in jou oor breek",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — blok onveranderd. Wel hierdie ronde nagegaan of die verandering in 'Dit hoef nie hard te wees nie' hierdie sin ontwrig: nee. Die drup bly die sagte voorbeeld in albei blokke, en die hond en die alarm word nou nêrens as onskadelik gestel nie.",
+      "bron": "NIDCD, Noise-Induced Hearing Loss (nidcd.nih.gov/health/noise-induced-hearing-loss): sounds at or below 70 dBA, even after long exposure, are unlikely to cause hearing loss.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Die skade kom van klank wat te hard is of te lank aanhou.",
       "blok": "Wat diep in jou oor breek",
-      "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — blok onveranderd. Strook met die WGO se stelling dat vlak, duur en frekwensie van blootstelling saam die risiko bepaal.",
+      "status": "weerspreek",
+      "bron": "NIDCD, Noise-Induced Hearing Loss: 'sounds can be harmful when they are too loud, even for a brief time, or when they are both loud and long-lasting'; sounds at or below 70 dBA 'even after long exposure, are unlikely to cause hearing loss'. NIDCD Hearing Protectors fact sheet (2020): 'A single very loud noise or long or repeated exposure to sounds at or above 85 dBA can cause hearing loss.' Duration only matters for a sound that is already loud. As written, the second branch says a long-lasting sound damages regardless of loudness - and the lesson's own drip lasts all night. It also closes a false loop with the lesson's definition: a sound that lasts long is geraasbesoedeling, and geraasbesoedeling 'kan dit veroorsaak', so a learner can conclude that any long sound harms hearing.",
+      "regstelling": "The damage comes from sound that is very loud, even for a short time, or from loud sound that goes on for a long time. The 'lasts long' branch must carry 'loud' (e.g. 'klank wat baie hard is, of harde klank wat lank aanhou'); a soft sound that lasts long, like the drip, does not damage the ear.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Klank loop by 'n klein gangetjie in tot by jou dun trommelvlies. Agter daardie velletjie sit baie klein dele wat soos haartjies lyk maar nie hare is nie. Hulle vang die vibrasie op en stuur die boodskap na jou brein toe.",
+      "bewering": "Klank beweeg deur 'n klein gangetjie tot by jou dun trommelvlies.",
       "blok": "Wat diep in jou oor breek",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — blok onveranderd, nie hierdie ronde herbevestig nie. Die vergelyking se afbeelding is in ronde 1 nagegaan en hou: haarselle heet so omdat hulle stereosilia hare lyk, en die teks ontken uitdruklik dat hulle hare is, wat juis die dwaalspoor toemaak.",
+      "bron": "NIDCD, How Do We Hear? (nidcd.nih.gov/health/how-do-we-hear): sound waves 'travel through a narrow passageway called the ear canal, which leads to the eardrum'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Agter daardie velletjie sit baie klein dele wat soos haartjies lyk maar nie hare is nie.",
+      "blok": "Wat diep in jou oor breek",
+      "status": "bevestig",
+      "bron": "NIDCD, How Do We Hear?: hair cells are 'sensory cells' in the cochlea topped by 'microscopic hair-like projections (known as stereocilia)'. Mapping holds: they look like hairs and are not hairs. 'Agter' is loose (the middle-ear bones lie between eardrum and cochlea) but true in the sense of 'further in', and the Grade 4 omission of the middle ear does not mislead.",
       "tipe": "analogie"
     },
     {
-      "bewering": "'n Sny in jou vel groei weer toe maar hierdie dele groei nooit weer aan nie. Die skade is permanent en geraasbesoedeling kan dit veroorsaak.",
+      "bewering": "Hulle vang die vibrasie op en stuur die boodskap na jou brein toe.",
       "blok": "Wat diep in jou oor breek",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — blok onveranderd, nie hierdie ronde herbevestig nie. Dit is die les se sterkste absolute bewering ('nooit weer'), en ronde 1 het dit bevestig; die WGO stel dit ook so: 'the sensory cells and other structures can become permanently damaged, resulting in irreversible noise-induced hearing loss'. Die kontras-vergelyking met 'n sny in die vel is 'n analogie, en die afbeelding hou: dit vergelyk presies die een ding wat verskil, naamlik of die weefsel weer aangroei.",
+      "bron": "NIDCD, How Do We Hear?: bending of the stereocilia creates an electrical signal, which the auditory nerve carries to the brain. Acceptable compression at Grade 4 (the cells start the message; a nerve carries it).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Klank wat te hard is, breek daardie klein dele stukkend. ... Die skade is permanent, en geraasbesoedeling kan dit veroorsaak.",
+      "blok": "Wat diep in jou oor breek",
+      "status": "weerspreek",
+      "bron": "NIDCD, Noise-Induced Hearing Loss: NIHL 'can be temporary or permanent'; some loss 'disappears 16 to 48 hours later'. International Noise Awareness Day / Center for Hearing and Communication (noiseawareness.org): ringing or difficulty hearing after loud noise is a 'temporary threshold shift' that usually resolves within hours or days, though repeated exposure can make it permanent. The unqualified 'breek ... stukkend' says every too-loud sound destroys these cells. Read with the next block, which correctly calls ringing or dull ears a sign that a sound was too loud, a learner whose ears rang after a party is told her hearing is permanently broken - which is usually not so. The permanence of dead hair cells themselves is correct and should stay.",
+      "regstelling": "Narrow the quantifier, not the subject: too-loud sound CAN break these small parts; once they are broken they never grow back, and that damage is permanent. (E.g. 'Klank wat te hard is, kan daardie klein dele stukkend breek.') Keep the permanence sentence about broken parts as it is.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Sny in jou vel groei weer toe, maar hierdie dele groei nooit weer aan nie.",
+      "blok": "Wat diep in jou oor breek",
+      "status": "bevestig",
+      "bron": "NIDCD, Noise-Induced Hearing Loss: 'human hair cells don't grow back. They are gone for good.' Mammalian cochlear hair cells are not regenerated (Baylor College of Medicine, ENT 'Regeneration'; PMC7245053; Hearing Health Foundation on bird regeneration). The absolute 'nooit' holds for humans; birds and fish can regrow theirs, but the lesson speaks of 'jou ore'.",
       "tipe": "superlatief"
     },
     {
-      "bewering": "Skade aan jou ore maak meestal nie seer nie en dit bou stadig op.",
+      "bewering": "'n Sny in jou vel groei weer toe, maar hierdie dele groei nooit weer aan nie. (vergelyking vel teenoor gehoorselle)",
+      "blok": "Wat diep in jou oor breek",
+      "status": "bevestig",
+      "bron": "Contrast mapping checked: skin wounds heal by regrowth; human cochlear hair cells do not regenerate (NIDCD; Baylor ENT). The comparison teaches exactly the point and does not invite a false extension at Grade 4.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Skade aan jou ore maak meestal nie seer nie, en dit bou stadig op.",
       "blok": "Hoe jy weet 'n klank is te hard",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde (veranderde blok). NIDCD (NIH), 'Noise-Induced Hearing Loss': die skade is gewoonlik geleidelik, pynloos, en word dikwels nie raakgesien nie.",
+      "bron": "noiseawareness.org (Center for Hearing and Communication): 'Noise-induced hearing loss typically occurs gradually and without pain.' NIDCD: 'the damage from noise exposure is usually gradual'. 'Meestal' is right: ASHA notes firecrackers at ~150 dBP are 'painful to the ears'.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Maar een baie harde klank kan dadelik skade doen.",
+      "bewering": "Maar een baie harde klank kan dadelik skade doen. 'n Klapper wat naby jou oor afgaan, is genoeg daarvoor.",
       "blok": "Hoe jy weet 'n klank is te hard",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde. Cleveland Clinic, 'Noise-Induced Hearing Loss': akoestiese trauma is onmiddellike gehoorverlies na 'n enkele blootstelling aan 'n baie harde klank, en kan permanent wees. StatPearls (NCBI), 'Acute Acoustic Trauma': impulsgeraas bo ongeveer 140 dB vir minder as 0,2 s. Die paring met die vorige sin bots nie: geleidelike opbou is die reël, die enkele harde knal die uitsondering.",
+      "bron": "ASHA news release, July 2022: 'Fireworks at 3 feet, as well as firecrackers, can measure 150 dBP'; impulse noise above 140 dBP 'will instantly hurt a person's hearing'; a single blast can cause 'immediate and permanent hearing loss'. NIDCD Hearing Protectors fact sheet: 'Hearing damage can happen instantly.'",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Klapper wat naby jou oor afgaan, is genoeg daarvoor.",
+      "bewering": "Soms tuit jou ore of voel hulle dof nadat 'n harde klank verby is. Dit is 'n teken dat die klank te hard vir jou was.",
       "blok": "Hoe jy weet 'n klank is te hard",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde, juis omdat die klapper nou die enigste voorbeeld is. Die punt staan stewig met een voorbeeld: 'Inner Ear Damage by Firecracker Trauma' (Audiology and Neurotology, PubMed 30205364) en 'Risk of noise-induced hearing loss following exposure to Chinese firecrackers' (PubMed 8267524) meet pieke bo 130 dB SPL op 2-4 m en oor 160 dB by die oor. Bo 130 dB SPL is meganiese besering van die binneoor onvermydelik, en die middeloor se eie beskermingsrefleks vat ongeveer 200 ms — te laat vir 'n knal. 'n Enkele klapper is dus 'n leerboekvoorbeeld van akoestiese trauma en dra die punt sonder die luidspreker.",
+      "bron": "NIDCD, Noise-Induced Hearing Loss (tinnitus 'ringing, buzzing, or roaring'; sounds becoming 'muffled'); noiseawareness.org: ringing or difficulty hearing after loud noise is a temporary threshold shift, a warning sign.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Jou ore tuit of voel dof nadat 'n harde klank verby is. Dit is 'n teken dat die klank te hard vir jou was.",
+      "bewering": "Soms moet jy harder praat met iemand wat 'n arm se lengte van jou af staan. Dan is die geraas op daardie oomblik te hard.",
       "blok": "Hoe jy weet 'n klank is te hard",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde. StatPearls (NCBI) en Cleveland Clinic: tinnitus is een van die vroegste tekens van akoestiese trauma, en tydelike drempelverskuiwing (dowwe gehoor) na blootstelling is die erkende waarskuwingsteken.",
-      "tipe": "algemeen"
+      "bron": "CDC/NIOSH 'raised voice test': having to raise your voice to be heard at about 3 feet (arm's length) means the noise is probably over 85 dB and hearing protection should be worn (cdc.gov/niosh, 2026-118; Cal Poly EHS Hearing Conservation); Mayo Clinic Minute uses the same arm's-length check. It is a rule of thumb; the lesson's 'te hard' matches its meaning.",
+      "tipe": "getal"
     },
     {
-      "bewering": "Soms staan iemand 'n arm se lengte van jou af en jy moet harder praat. Dan is die geraas op daardie oomblik te hard.",
-      "blok": "Hoe jy weet 'n klank is te hard",
-      "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde. CDC/NIOSH, 'Understand Noise Exposure': geraas is waarskynlik gevaarlik as 'n mens jou stem moet verhef om met iemand op armlengte (drie voet) te praat — dit dui op ongeveer 85 dBA. OSHA gebruik dieselfde veldtoets. Die sneller is korrek by 'harder praat'; 'skree' sou ongeveer 95 dBA gewees het.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Gaan weg van 'n harde klank af, want hy word sagter hoe verder jy wegstaan.",
+      "bewering": "Gaan weg van 'n harde klank af, want hoe verder jy wegstaan, hoe sagter word dit.",
       "blok": "Hoe jy jou ore veilig hou",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde (veranderde blok). WGO, 'Deafness and hearing loss: Safe listening': 'The intensity of sound reduces as you move away from sound sources', met die uitdruklike raad om weg te bly van luidsprekers en versterkers.",
+      "bron": "Sound intensity falls with distance (inverse square law, about 6 dB less per doubling of distance in open space; auditoryneuroscience.com, Sengpiel Audio). NIDCD Hearing Protectors fact sheet: 'The best ways to protect your hearing are to avoid exposure to loud sounds, move away from the noise, or turn down the volume.'",
       "tipe": "algemeen"
     },
     {
       "bewering": "Draai dit sagter as die klank uit 'n TV of 'n foon kom.",
       "blok": "Hoe jy jou ore veilig hou",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde. WGO, veilige luister: hou die volume onder 60% van die maksimum. NIDCD (NIH) stel dieselfde volgorde as hierdie blok: vermy, staan weg, draai sagter, en dan eers oorbeskerming.",
+      "bron": "NIDCD, Protect Your Child's Hearing: 'Turn down the volume on the TV and on music players, and move away from the noise, when possible.'",
       "tipe": "algemeen"
     },
     {
-      "bewering": "By oorfone speel die klank reg teen jou oor en jy kan nie daarvan wegstaan nie.",
+      "bewering": "By oorfone speel die klank reg teen jou oor, en jy kan nie daarvan wegstaan nie. Daar help dit dat jy self kies hoe hard hulle speel.",
       "blok": "Hoe jy jou ore veilig hou",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde; dit is 'n NUWE sin. Cleveland Clinic, 'Sound the Alarm: How Headphones Can Harm Your Hearing': die klankbron sit in die oorkanaal self, wat 'n klank se vlak met 6 tot 9 dB verhoog. Die bron beweeg saam met die kop, so afstand is eenvoudig nie beskikbaar as beskerming nie. Die sin is nou korrek en bots ook nie meer met die vorige sin oor die volumeknoppie nie: die ding wat by oorfone nie help nie, is die AFSTAND, en dit is presies wat hier staan.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "Daar help die knoppie jou, want jy kies self hoe hard hy speel.",
-      "blok": "Hoe jy jou ore veilig hou",
-      "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde; nuwe sin, en die ou rangorde-bewering ('maak van almal die meeste saak') is daarmee uit die les. Die vervanging is 'n gewone waar stelling sonder rangorde: WGO se veilige-luisterriglyn hang juis daaraan dat die gebruiker die volume kies en dit onder 60% van die maksimum hou.",
+      "bron": "NIDCD Hearing Protectors fact sheet (headphones at maximum volume 94-110 dBA); WHO-ITU Safe Listening Devices and Systems standard (who.int) built on volume control and limits for personal audio; Mayo Clinic Minute on checking headphone volume.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Sit jou hande oor jou ore as jy nie kan wegkom nie.",
       "blok": "Hoe jy jou ore veilig hou",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde. NIDCD (NIH), 'Hearing Protectors': as harde geraas skielik of onverwags gebeur, bedek jou ore met jou hande en beweeg weg indien moontlik. Die volgorde in die les (eers weggaan, dan hande) stem ooreen met NIDCD se eie volgorde.",
+      "bron": "NIDCD Fact Sheet 'Hearing Protectors' (NIH Pub. No. 20-DC-8122, November 2020), p. 2: 'If loud noise happens suddenly or unexpectedly, cover your ears with your hands and move away from the noise, if possible.' The lesson offers it as a fallback after moving away, not as a substitute for earplugs or earmuffs, which matches the source.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Mense wat met harde masjiene werk, dra oorkappe of oorproppe.",
       "blok": "Hoe jy jou ore veilig hou",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde, na die skrap van 'elke dag'. SA Regulasies vir Geraasveroorsaakte Gehoorverlies, GNR.307 van 7 Maart 2003, onder die Wet op Beroepsgesondheid en -veiligheid 85 van 1993 (SAFLII; Departement van Arbeid): 'gehoorbeskermingstoerusting' is oorkappe of oorproppe, en werkgewers moet dit voorsien waar blootstelling die 85 dBA-graderingsgrens haal. Sonder 'elke dag' maak die sin nou net die algemene, korrekte stelling en beweer nie meer 'n gedrag wat van blootstellingsvlak afhang nie.",
+      "bron": "South Africa, Noise-Induced Hearing Loss Regulations 2003 (GN R307, OHS Act 85 of 1993; lawlibrary.org.za): noise-rating limit 85 dBA, approved hearing protective equipment defined as ear-muffs or ear-plugs. NIDCD Hearing Protectors fact sheet recommends them for industrial and loud workplaces.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Kinders dra dit ook by harde geleenthede en 'n grootmens help hulle daarmee.",
+      "bewering": "Kinders dra dit ook by harde musiek, en 'n grootmens help hulle daarmee.",
       "blok": "Hoe jy jou ore veilig hou",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde. NIDCD (NIH), 'Hearing Protectors', beveel gehoorbeskerming aan by vuurwerkvertonings, konserte en sportbyeenkomste, en die American Academy of Pediatrics rig dieselfde raad aan ouers. Oorkappe word vir jong kinders bo oorproppe aanbeveel omdat proppe 'n verstikkingsgevaar inhou — die sin se 'n grootmens help hulle daarmee' vang daardie voorbehoud eerder as om dit te weerspreek.",
+      "bron": "NIDCD Hearing Protectors fact sheet: hearing protectors recommended at concerts; earmuffs 'come in sizes ... for adults and children' and are 'easier than earplugs to use correctly, especially for young children'. NIDCD Protect Your Child's Hearing: 'A parent should help especially young children insert earplugs, and make sure they are a good fit.' ASHA 2022: children better off with well-fitting earmuffs.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Hoe korter die harde klank aanhou, hoe minder skade doen dit aan jou ore.",
       "blok": "Hoe jy jou ore veilig hou",
       "status": "bevestig",
-      "bron": "Vars nagegaan hierdie ronde omdat die knoppie-sin langs hom verander het. WGO: 'The volume of sounds, the duration of listening, and frequency of exposure to loud sounds all have an impact on hearing' — vlak en duur is albei komponente van dieselfde klankdosis, nie mededingende verklarings nie. Die twee sinne werk dus saam: die knoppie beheer die vlak, hierdie sin beheer die tyd. Dit bots ook nie met 'een baie harde klank kan dadelik skade doen' nie, want 'minder skade' is nie 'geen skade' nie.",
+      "bron": "WHO Make Listening Safe: 85 dB for eight hours or 100 dB for 15 minutes is unsafe, i.e. the safe time shrinks as level rises; NIDCD: harm from sounds that are 'both loud and long-lasting'. The lesson already notes the exception (one very loud bang does immediate damage).",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Daar is baie redes waarom 'n mens nie hoor nie of sag hoor. Baie mense is so gebore en harde geraas is nie altyd die rede nie.",
+      "bewering": "Daar is baie redes waarom 'n mens sag hoor of nie kan hoor nie. Baie mense is so gebore, en harde geraas is nie altyd die rede nie.",
       "blok": "'n Toestel wat klank harder maak",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — blok onveranderd, nie hierdie ronde herbevestig nie.",
+      "bron": "WHO fact sheet 'Deafness and hearing loss' (who.int): causes include genetic factors (hereditary and non-hereditary) before birth, intrauterine infections such as rubella and CMV, childhood infections such as meningitis, ageing, and loud sound exposure.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Gehoorapparaat is 'n klein toestel wat die klank harder maak. Dit help baie mense wat sag hoor om te hoor wat om hulle gebeur.",
+      "bewering": "'n Gehoorapparaat is 'n klein toestel wat klank harder maak. Dit help baie mense wat sag hoor om te hoor wat rondom hulle gebeur.",
       "blok": "'n Toestel wat klank harder maak",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — blok onveranderd, nie hierdie ronde herbevestig nie.",
+      "bron": "NIDCD, Hearing Aids (nidcd.nih.gov/health/hearing-aids): 'a small electronic device that you wear in or behind your ear'; it 'makes some sounds louder so that a person with hearing loss can listen, communicate' and take part more fully in daily life.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Dit bring nie verlore gehoor terug nie en dit help nie almal ewe veel nie.",
+      "bewering": "Dit bring nie verlore gehoor terug nie, en dit help nie almal ewe veel nie.",
       "blok": "'n Toestel wat klank harder maak",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — blok onveranderd, nie hierdie ronde herbevestig nie.",
+      "bron": "NIDCD, Hearing Aids: 'A hearing aid will not restore your normal hearing'; benefit depends on surviving hair cells, there are 'practical limits to the amount of amplification', and where damage is too great 'a hearing aid would be ineffective'.",
       "tipe": "algemeen"
     },
     {
       "bewering": "geraasbesoedeling: Klank wat hard, naar of skadelik is, of wat lank aanhou.",
-      "blok": "geraasbesoedeling (begrip)",
-      "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — begripblok onveranderd, nie hierdie ronde herbevestig nie. Die definisie stel die vier dele as alternatiewe ('of'), wat strook met die eerste blok.",
+      "blok": "begrip: geraasbesoedeling",
+      "status": "weerspreek",
+      "bron": "US EPA: noise is 'unwanted or disturbing sound'; SA law's noise nuisance is noise that 'disturbs or impairs ... the convenience or peace of any person' (BusinessTech 2019). Read alone, this entry drops the one element every definition rests on - that the sound is unwanted or bothers someone - which the study block supplies with 'Klank wat so pla'. As it stands, any sound that lasts long is noise pollution: a long song you enjoy, birdsong all morning, a quiet fridge hum nobody notices. A glossary entry is looked up on its own, so it must be true on its own.",
+      "regstelling": "Put the bothering element into the entry and keep the four criteria under it, e.g. sound that bothers people because it is loud, unpleasant or harmful, or goes on too long ('Klank wat pla omdat dit hard, naar of skadelik is, of te lank aanhou'). This stays within the CAPS wording (hard, onaangenaam, skadelik, lang periode) and matches the study block's own frame.",
       "tipe": "algemeen"
     },
     {
       "bewering": "permanent: Iets wat vir altyd so bly en nie weer regkom nie.",
-      "blok": "permanent (begrip)",
-      "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — begripblok onveranderd, nie hierdie ronde herbevestig nie.",
+      "blok": "begrip: permanent",
+      "status": "weerspreek",
+      "bron": "Wiktionary 'permanent' (adjective): 'without end; eternal'; 'lasting for an indefinitely long time'; Dutch 'permanent' glossed with 'blijvend', antonym 'tijdelijk'. The meaning is lasting/for ever; 'nie weer regkom nie' presupposes that something is broken, which is this lesson's context and not part of the word. Read alone, the entry teaches that only damage can be permanent, and it will mislead wherever the word describes something that is fine (a permanent home, a permanent marker, and the adult teeth that replace milk teeth). Minor, but the entry is not true on its own. (No Afrikaans dictionary page could be reached online; the cognate senses were used.)",
+      "regstelling": "Define the word without the damage context, e.g. something that stays that way for ever ('Iets wat vir altyd so bly'). The study block already says the ear damage never comes right, so nothing is lost.",
       "tipe": "algemeen"
     },
     {
       "bewering": "trommelvlies: 'n Dun velletjie in jou oor wat vibreer wanneer klank dit tref.",
-      "blok": "trommelvlies (begrip)",
+      "blok": "begrip: trommelvlies",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — begripblok onveranderd, nie hierdie ronde herbevestig nie.",
+      "bron": "NIDCD, How Do We Hear?: sound travels down the ear canal to the eardrum, and 'the eardrum vibrates from the incoming sound waves'. The eardrum is a thin membrane. True read alone.",
       "tipe": "algemeen"
     },
     {
       "bewering": "gehoorapparaat: 'n Klein toestel wat klank harder maak vir iemand wat sag hoor.",
-      "blok": "gehoorapparaat (begrip)",
+      "blok": "begrip: gehoorapparaat",
       "status": "bevestig",
-      "bron": "Oorgedra uit ronde 1 — begripblok onveranderd, nie hierdie ronde herbevestig nie.",
+      "bron": "NIDCD, Hearing Aids: 'a small electronic device' that 'makes some sounds louder so that a person with hearing loss can listen'. True read alone.",
       "tipe": "algemeen"
     }
   ],
-  "opsomming": "Al vyf regstellings is korrek en die twee blokke wat kon bots, werk nou saam, maar die herskikking het een nuwe bewering ingebring wat ek nie kon vasmaak nie: die slotsin 'Al drie hou net aan en aan' maak AANHOU die gedeelde eienskap, en dit hou vir die drupkraan en die hond maar nie vir 'n motoralarm nie, wat volgens die VN/ECE-regulasie waarna SA verwys 25 tot 30 sekondes speel en dan self ophou — 'n mens moet besluit of die alarm daar bly."
+  "opsomming": "Every safety instruction checks out against NIDCD, CDC/NIOSH, ASHA, WHO and South African regulations (including hands over the ears, which NIDCD itself advises for a sudden loud noise), but four sentences need fixing: the damage sentence says a sound that only lasts long can harm hearing, when it must also be loud; 'too-loud sound breaks the hair cells' needs 'can', because ringing ears after a loud sound often recover; and read alone, the glossary entry for geraasbesoedeling drops the idea that the sound bothers someone, while the entry for permanent wrongly limits the word to something broken."
 }

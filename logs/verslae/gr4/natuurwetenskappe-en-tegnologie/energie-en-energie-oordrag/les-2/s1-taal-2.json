@@ -1,0 +1,58 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Sit die skakels agter mekaar",
+      "voor": "agter mekaar en jy kry",
+      "na": "agter mekaar, en jy kry",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two main clauses here (an imperative clause and 'jy kry'), so a comma goes before it.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two main clauses (the imperative 'Sit daardie twee dinge agter mekaar' and 'jy kry 'n ry van drie').",
+      "rede_keurder": "Both sides are full main clauses with their own finite verb, so the AWS comma belongs before 'en'; the wording and meaning are unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die dier kry dit deur te eet",
+      "voor": "Die energie in daardie blare gaan so oor na die bok.",
+      "na": "So gaan die energie in daardie blare oor na die bok.",
+      "soort": "woordorde",
+      "rede_vinder": "Fronting 'So' reads more naturally than 'so' wedged inside the separable verb 'gaan ... oor'; meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "The original 'gaan so oor na die bok' is natural Afrikaans; fronting 'So' is a lateral move and can also read as a conclusion ('therefore') rather than 'in this way'."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 496,
+  "woorde_na": 496,
+  "wanneer": "2026-10-22T22:43:25+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Wat 'n pyl beteken",
+      "voor": "Tussen die son en die plant gee die son se lig die energie.",
+      "na": "Tussen die son en die plant is dit die son se lig wat die energie gee.",
+      "soort": "sinsbou",
+      "rede_vinder": "With subject-verb inversion the sentence can be misread as giving the light the energy; the cleft makes clear the light is the giver.",
+      "fout": "none",
+      "rede_keurder": "After the inversion the light is the only possible subject, so the original is clear and the cleft only makes it longer."
+    },
+    {
+      "nr": 8,
+      "blok": "Net een kant toe",
+      "voor": "en nooit weer terug nie",
+      "na": "en nooit terug nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'weer' suggests something is done again, which does not fit; 'nooit terug nie' says what is meant.",
+      "fout": "none",
+      "rede_keurder": "'weer terug' is a normal Afrikaans fixed pairing meaning 'back', not 'again', so the proposal is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:485f10123911189582c7a3cef16ecc38",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:90b5a0aeff96bcfab6b3d51363df753f"
+}

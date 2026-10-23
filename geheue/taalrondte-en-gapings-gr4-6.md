@@ -12,6 +12,7 @@ each lesson is checked once. Grade 7 is out of scope until it is finished. The C
 language edits in the HTML team's `2_PDF` are replaced by ours, not ported.
 
 **Pace: up to 10 lessons at a time** (this PC's tokens reset that morning; top priority).
+**Raised to 15, Lampies 23 October 2026.** Keep two lessons of one spec file out of the writer at the same time, and spread across sub-topics.
 This overrides [[drie-lesse-op-n-slag-op-hierdie-rekenaar]] for this job only.
 
 **Per lesson:** a gap -> fix the approved spec at source first, refresh extracts, writer.

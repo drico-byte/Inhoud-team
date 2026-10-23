@@ -1,0 +1,77 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die strykyster en die fiets",
+      "voor": "deur 'n draad uit die muur",
+      "na": "deur 'n koord uit die muur",
+      "soort": "woordkeuse",
+      "rede_vinder": "An appliance's flex is a 'koord' in Afrikaans, and 'draad' here sits one sentence before 'draadjies in die materiaal' (fibres), which a Grade 4 reader can confuse.",
+      "fout": "'draad' for an appliance's flex is loose where Afrikaans says 'koord', and it collides with 'draadjies in die materiaal' (fibres) in the next sentence.",
+      "rede_keurder": "'koord' is the natural word for the iron's flex, keeps the same meaning (energy arrives through the cord from the wall socket), and removes the draad/draadjies confusion for a Grade 4 reader."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "voor": "of die batterye se energie gaan in",
+      "na": "of sy batterye se energie gaan in",
+      "soort": "verwysing",
+      "rede_vinder": "'die batterye' has no antecedent in this list item; 'sy' ties the batteries to the radio.",
+      "fout": "'die batterye' has no antecedent in the list item, so it is unclear whose batteries are meant.",
+      "rede_keurder": "'sy batterye' ties the batteries to the radio without changing the meaning or the word count."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 590,
+  "woorde_na": 590,
+  "wanneer": "2026-10-22T22:46:16+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 22,
+      "blok": "Die strykyster en die fiets",
+      "voor": "se gewig druk die los draadjies dan plat",
+      "na": "se gewig druk dan die los draadjies plat",
+      "soort": "woordorde",
+      "rede_vinder": "Dan sits more naturally straight after the verb, before the object.",
+      "fout": "none",
+      "rede_keurder": "Both word orders are natural Afrikaans, so this is a lateral move."
+    },
+    {
+      "nr": 4,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "Die energie lê al die tyd in daardie twee batterye gestoor",
+      "na": "Die energie is al die tyd in daardie twee batterye gestoor",
+      "soort": "sinsbou",
+      "rede_vinder": "'lê ... gestoor' is wooden; the passive 'is ... gestoor' is the usual construction and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'lê ... gestoor' is a normal Afrikaans posture-verb construction that carries the sense of energy resting there unused; 'is gestoor' is a lateral move that flattens it."
+    },
+    {
+      "nr": 3,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "terug in dieselfde flitslig en druk weer",
+      "na": "terug in die flitslig en druk weer",
+      "soort": "woordkeuse",
+      "rede_vinder": "'dieselfde' occurs three times in two sentences; the flashlight is obviously the same one, and 'dieselfde twee batterye' and 'dieselfde liggie' still carry the point.",
+      "fout": "none",
+      "rede_keurder": "The repeated 'dieselfde' is deliberate emphasis in a test where only the batteries may change, and the original reads well, so cutting it is a lateral move that weakens the point."
+    },
+    {
+      "nr": 3,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "'n Gloeilamp wat lank aan was",
+      "na": "'n Gloeilamp wat lank aangeskakel was",
+      "soort": "woordkeuse",
+      "rede_vinder": "'aan was' is colloquial; 'aangeskakel was' is the standard written form.",
+      "fout": "none",
+      "rede_keurder": "'aan was' for a lamp is plain, natural Afrikaans for a Grade 4 reader; 'aangeskakel was' is longer and only a lateral, more formal move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:44e830fe91a410dae76f96ab30d90831",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:869c4211efdf0fc53e1f7fc3006f8c4e"
+}

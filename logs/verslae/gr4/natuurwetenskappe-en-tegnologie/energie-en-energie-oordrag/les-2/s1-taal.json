@@ -1,0 +1,125 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat die plant met die lig doen",
+      "voor": "Die plant gebruik van daardie kos eerste self om te groei.",
+      "na": "Die plant gebruik self eers van daardie kos om te groei.",
+      "soort": "woordorde",
+      "rede_vinder": "The temporal adverb is 'eers', not the ordinal 'eerste', and the word order reads more naturally with 'self eers' before the object.",
+      "fout": "'eerste' used where the temporal adverb 'eers' is meant, and the adverbs sit awkwardly after the object",
+      "rede_keurder": "'self eers' is the natural Afrikaans order and keeps the meaning: the plant first uses some of the food itself, the rest stays stored."
+    },
+    {
+      "nr": 2,
+      "blok": "Die dier kry dit deur te eet",
+      "voor": "later en die energie beweeg nog 'n skakel aan",
+      "na": "later, en die energie beweeg nog 'n skakel verder",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb; 'beweeg ... verder' is the natural idiom, 'beweeg ... aan' is wooden.",
+      "fout": "missing AWS comma between two full clauses, and 'beweeg nog 'n skakel aan' is wooden",
+      "rede_keurder": "The comma is required by the AWS and 'nog 'n skakel verder' is the natural idiom for the same movement along the chain."
+    },
+    {
+      "nr": 3,
+      "blok": "Die dier kry dit deur te eet",
+      "voor": "plant en die luiperd eet",
+      "na": "plant, en die luiperd eet",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses ('Die bok eet...' and 'die luiperd eet...').",
+      "fout": "missing AWS comma before 'en' joining two clauses that each have their own subject and verb",
+      "rede_keurder": "'Die bok eet 'n plant' and 'die luiperd eet 'n dier' are two full sentences, so the comma goes before 'en'."
+    },
+    {
+      "nr": 4,
+      "blok": "Jy is self 'n skakel",
+      "voor": "Altwee kere het daardie energie by die son begin.",
+      "na": "In albei gevalle het die energie by die son begin.",
+      "soort": "idioom",
+      "rede_vinder": "'Altwee kere' is unidiomatic for 'in both cases', and 'daardie energie' has no clear antecedent; 'die energie' is clearer.",
+      "fout": "'Altwee kere' is loose spoken phrasing for 'in both cases'",
+      "rede_keurder": "'In albei gevalle' is the plain, natural written form and 'die energie' still clearly means the energy in the apple and the meat."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat 'n pyl beteken",
+      "voor": "wys dus van die gras na die koei",
+      "na": "wys dus byvoorbeeld van gras na 'n koei",
+      "soort": "verwysing",
+      "rede_vinder": "The definite 'die gras' and 'die koei' refer to an example not yet introduced in this block; marking it as an example with indefinite nouns matches the chain list.",
+      "fout": "'die gras' and 'die koei' are introduced with 'dus' as if already mentioned, although this block has not named them",
+      "rede_keurder": "Marking it as an example with indefinite nouns removes the stumble without adding any fact, and matches the chain list."
+    },
+    {
+      "nr": 7,
+      "blok": "Net een kant toe",
+      "voor": "as die woord eet en",
+      "na": "as die woord \"eet\" en",
+      "soort": "leestekens",
+      "rede_vinder": "A word cited as a word should be in quotation marks, otherwise 'die woord eet' reads as a verb phrase.",
+      "fout": "a cited word without quotation marks, so 'die woord eet' first reads as 'the word eats'",
+      "rede_keurder": "Quoting 'eet' removes a real first-reading stumble and changes nothing else."
+    },
+    {
+      "nr": 9,
+      "blok": "Kyk na die veld self",
+      "voor": "waar die son heeldag daarop skyn",
+      "na": "waar die son heeldag skyn",
+      "soort": "sinsbou",
+      "rede_vinder": "'waar ... daarop' doubles the reference to the field; one is enough.",
+      "fout": "'waar ... daarop' doubles the reference to the field",
+      "rede_keurder": "Dropping the redundant 'daarop' fixes the grammar and the sentence still says the sun shines on the field all day."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Wat 'n pyl beteken",
+      "voor": "Tussen die son en die plant gee die son se lig die energie.",
+      "na": "Tussen die son en die plant is dit die son se lig wat die energie gee.",
+      "soort": "sinsbou",
+      "rede_vinder": "With subject-verb inversion the sentence can be misread as giving the light the energy; the cleft makes clear the light is the giver.",
+      "fout": "none",
+      "rede_keurder": "After the inversion the light is the only possible subject, so the original is clear and the cleft only makes it longer."
+    },
+    {
+      "nr": 8,
+      "blok": "Net een kant toe",
+      "voor": "en nooit weer terug nie",
+      "na": "en nooit terug nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'weer' suggests something is done again, which does not fit; 'nooit terug nie' says what is meant.",
+      "fout": "none",
+      "rede_keurder": "'weer terug' is a normal Afrikaans fixed pairing meaning 'back', not 'again', so the proposal is a lateral move."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 10,
+      "blok": "energieketting",
+      "voor": "Die volgorde waarlangs energie",
+      "na": "Die volgorde waarin energie",
+      "soort": "woordkeuse",
+      "rede_vinder": "One passes something on 'in' an order, not 'along' it; 'waarin' is the natural preposition with 'volgorde'.",
+      "fout": "'volgorde waarlangs' is an odd preposition, since an order is not a path",
+      "rede_keurder": "The point is fair, but this is a glossary definition and a preposition change in it belongs to the writer, for every lesson that uses the term.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Hoekom die son heel eerste staan",
+      "teks": "Hoekom begin die ry by die son en nie by die plant nie?",
+      "rede": "The block opens with a rhetorical question; if lessons are meant to carry no questions, the writer should recast it. Not changed, since recasting is a structure choice rather than a language fix."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 496,
+  "woorde_na": 496,
+  "wanneer": "2026-10-22T22:36:24+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:6a32e762119a689543fac01a28b40b01",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:acd9a5b92e375b2ecd652b1c4ad0da94"
+}

@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die Maan maak nie sy eie lig nie",
+      "voor": "Die Maan maak egter nie soos die Son sy eie lig nie.",
+      "na": "Anders as die Son maak die Maan egter nie sy eie lig nie.",
+      "soort": "woordorde",
+      "rede_vinder": "The comparison wedged between 'nie' and the object reads woodenly; putting it first is more natural and keeps the meaning.",
+      "fout": "The comparison 'soos die Son' sits inside the negation 'nie ... nie', which reads stiffly and can be misread as 'the Moon makes its own light, just not the way the Sun does'.",
+      "rede_keurder": "'Anders as die Son' says the same thing (the Sun makes its own light, the Moon does not), removes the scope ambiguity for a Grade 4 reader, keeps 'egter' contrasting with the previous sentence, and touches no protected word."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 519,
+  "woorde_na": 520,
+  "wanneer": "2026-10-22T23:44:18+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Die Son skyn op een helfte",
+      "voor": "kry ook later sy beurt",
+      "na": "kry later ook sy beurt",
+      "soort": "woordorde",
+      "rede_vinder": "'later ook' is the more natural order here.",
+      "fout": "none",
+      "rede_keurder": "\"kry ook later sy beurt\" already reads naturally, and moving \"ook\" is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom ons uitsig elke aand verander",
+      "voor": "Elke aand is die Maan dus op 'n ander plek om die Aarde.",
+      "na": "Elke aand is die Maan dus op 'n ander plek op sy pad om die Aarde.",
+      "soort": "sinsbou",
+      "rede_vinder": "'op 'n ander plek om die Aarde' is awkward; tying the place to the path just named reads clearly without adding content.",
+      "fout": "none",
+      "rede_keurder": "\"op 'n ander plek om die Aarde\" is understandable, and the proposal lengthens the sentence and repeats \"pad om die Aarde\" a third time in three sentences."
+    },
+    {
+      "nr": 1,
+      "blok": "Die patroon herhaal homself",
+      "voor": "hoe die stuk lig weer kleiner word",
+      "na": "hoe die verligte deel weer kleiner word",
+      "soort": "woordkeuse",
+      "rede_vinder": "'die stuk lig' is loose and colloquial; 'die verligte deel' matches the lesson's own wording (verligte helfte, die deel daarvan) without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "'Die stuk lig' is plain Grade 4 wording for the patch we see, while 'die verligte deel' echoes 'verligte helfte', which the lesson says never changes size, so the proposal suggests the lit part of the Moon itself shrinks."
+    }
+  ],
+  "konsep_hash_voor": "sha256:21233e25a33185dd1798109eb2ec15fe",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:8653cc9936d3505b80fbeb1bb2ffff79"
+}

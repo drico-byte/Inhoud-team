@@ -1,0 +1,93 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Thandi se Saterdag",
+      "voor": "met die eerstehulpsak in haar hand",
+      "na": "met die noodhulpsak in haar hand",
+      "soort": "anglisisme",
+      "rede_vinder": "'Eerstehulp' copies English 'first aid'; the standard Afrikaans term is 'noodhulp', and it keeps the same word count.",
+      "fout": "'eerstehulpsak' copies English 'first aid kit'; the standard Afrikaans term is 'noodhulp'.",
+      "rede_keurder": "Fixes an anglicism with the standard term for the same object, touches no protected wording, and leaves the first-aid steps, their order and what is done unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Thandi se Saterdag",
+      "teks": "Daarna plak sy 'n pleister oor die plek en sê Thandi moet eers 'n ruk sit.",
+      "rede": "Two paragraphs earlier 'sê Thandi' is a speech tag (Thandi speaking), so a Grade 4 reader may read 'en sê Thandi' here as Thandi talking. 'en sê dat Thandi eers 'n ruk moet sit' would be clearer, but it adds a word and the text is over its ceiling, so I flag it and do not propose it."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 485,
+  "woorde_na": 485,
+  "wanneer": "2026-10-23T06:53:07+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Thandi se Saterdag",
+      "voor": "Die son was nog laag oor die dakke toe Thandi",
+      "na": "Die son is nog laag oor die dakke wanneer Thandi",
+      "soort": "grammatika",
+      "rede_vinder": "The story is told in the present tense throughout, so the opening past tense ('was ... toe') is an inconsistent tense shift.",
+      "fout": "none",
+      "rede_keurder": "A past-tense scene-setting opening before a present-tense story is accepted narrative usage, changing a story's tense is a lateral move, and 'wanneer' brings in a habitual reading that 'toe' does not have."
+    },
+    {
+      "nr": 2,
+      "blok": "Thandi se Saterdag",
+      "voor": "teen die skool van oorkant die groot pad",
+      "na": "teen die skool oorkant die groot pad",
+      "soort": "idioom",
+      "rede_vinder": "'Die skool oorkant die pad' is the natural Afrikaans phrasing; 'van oorkant' is wordy and colloquial.",
+      "fout": "none",
+      "rede_keurder": "'Die skool van oorkant die groot pad' is natural spoken Afrikaans in a story voice; the proposal only reads differently."
+    },
+    {
+      "nr": 6,
+      "blok": "Thandi se Saterdag",
+      "voor": "vra sy en gaan sit op haar hurke",
+      "na": "vra sy en gaan op haar hurke sit",
+      "soort": "woordorde",
+      "rede_vinder": "In standard written Afrikaans the second verb of 'gaan sit' goes to the end after the prepositional phrase.",
+      "fout": "none",
+      "rede_keurder": "'Gaan sit op haar hurke' is normal Afrikaans with the phrase placed after the verb, matches 'gaan sit langs haar in die gras' earlier, and the reorder is lateral."
+    },
+    {
+      "nr": 7,
+      "blok": "Thandi se Saterdag",
+      "voor": "Sy spoel die skaafplek skoon met water uit 'n vol bottel.",
+      "na": "Sy spoel die skaafplek met water uit 'n vol bottel skoon.",
+      "soort": "woordorde",
+      "rede_vinder": "The particle of the separable verb 'skoonspoel' belongs at the end of the clause; the first-aid step itself is unchanged.",
+      "fout": "none",
+      "rede_keurder": "It breaks up the protected first-aid wording 'spoel die skaafplek skoon met water', and the original word order is acceptable Afrikaans."
+    },
+    {
+      "nr": 8,
+      "blok": "Thandi se Saterdag",
+      "voor": "druk die vel saggies droog met 'n skoon doekie",
+      "na": "druk die vel saggies met 'n skoon doekie droog",
+      "soort": "woordorde",
+      "rede_vinder": "The particle of the separable verb 'droogdruk' belongs at the end of the clause; the first-aid step itself is unchanged.",
+      "fout": "none",
+      "rede_keurder": "This is a first-aid step and the original order, with the phrase after the particle, is acceptable Afrikaans, so a reorder only for style is not justified."
+    },
+    {
+      "nr": 13,
+      "blok": "Thandi se Saterdag",
+      "voor": "Sy was haar hande met seep tussen elke vinger en onder haar naels.",
+      "na": "Sy was haar hande met seep, ook tussen haar vingers en onder haar naels.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Tussen elke vinger' is illogical (one finger has no 'between') and the phrases hang awkwardly off 'met seep'; 'ook tussen haar vingers' reads naturally with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'Tussen elke vinger' is established Afrikaans usage, and in a hygiene step changing 'elke' to 'haar' and adding 'ook' weakens how thorough the instruction sounds instead of fixing a fault."
+    }
+  ],
+  "konsep_hash_voor": "sha256:4998520fd0c215a80e0f0174bab67bca",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c14fb8b0dea2bf17a8f07f25b7a2111d"
+}

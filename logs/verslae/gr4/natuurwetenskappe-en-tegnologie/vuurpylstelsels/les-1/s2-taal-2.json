@@ -1,0 +1,36 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 484,
+  "woorde_na": 484,
+  "wanneer": "2026-10-23T06:39:57+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Waar die uitlaatgasse vandaan kom",
+      "voor": "kan net by die opening agter uit,",
+      "na": "kan net by die opening agter uitkom,",
+      "soort": "grammatika",
+      "rede_vinder": "The verb is missing after 'kan'; 'agter uit' also reads like 'agteruit' (backwards), and 'uitkom' fixes both without adding a word.",
+      "fout": "none",
+      "rede_keurder": "'kan ... uit' is normal Afrikaans modal ellipsis, and 'agter uitkom' does not remove the 'agteruit' misreading (it even echoes 'agteruitkom'), so it is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom die vuurpyl vorentoe gaan",
+      "voor": "Daardie stoot werk vorentoe en dryf",
+      "na": "Daardie stoot dryf",
+      "soort": "sinsbou",
+      "rede_vinder": "'werk vorentoe' is wooden and repeats the 'vorentoe' that ends the sentence; the direction stays in 'dryf die hele vuurpyl vorentoe'.",
+      "fout": "none",
+      "rede_keurder": "Cutting 'werk vorentoe' removes a clause that states the push's direction right after 'stoot ... terug', which is content, not just repetition."
+    }
+  ],
+  "konsep_hash_voor": "sha256:36a49fe23bc0657ab6ae3c18ca959c87",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:36a49fe23bc0657ab6ae3c18ca959c87"
+}

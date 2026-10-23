@@ -1,0 +1,47 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Binne-in beweeg 'n deel",
+      "voor": "By 'n drom is dit die vel waarop jy geklop het wat vibreer.",
+      "na": "By 'n drom vibreer die vel waarop jy geklop het.",
+      "soort": "sinsbou",
+      "rede_vinder": "Two stacked relative clauses ('waarop ... wat vibreer') make the sentence hard to parse for Grade 4; the plain main-clause order says the same thing.",
+      "fout": "An English-style cleft ('dit is die vel ... wat vibreer') with two stacked relative clauses makes a Grade 4 reader stumble.",
+      "rede_keurder": "The plain main-clause order says the same thing (same part, same action, contrast with the guitar string intact) and reads more easily, and the next sentence still follows from it."
+    },
+    {
+      "nr": 2,
+      "blok": "Die stil kitaar",
+      "voor": "klop met jou hand op die vel",
+      "na": "klop met jou hand op die drom se vel",
+      "soort": "verwysing",
+      "rede_vinder": "'die vel' has no antecedent, because no skin has been mentioned yet; naming the drum makes the reference clear.",
+      "fout": "'die vel' has no antecedent here; the drum is mentioned but its skin is not, so a child can read it as their own skin.",
+      "rede_keurder": "Naming the drum adds no new fact, since the drum is already in the paragraph, and it removes a real ambiguity; no protected wording is touched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 798,
+  "woorde_na": 797,
+  "wanneer": "2026-10-23T06:29:40+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 33,
+      "blok": "Die uhadi",
+      "voor": "met 'n dun stingel gras of riet",
+      "na": "met 'n dun gras- of rietstingel",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Stingel gras' calques English 'stalk of grass'; Afrikaans forms the compound 'grasstingel', shortened with a hyphen before 'of'.",
+      "fout": "none",
+      "rede_keurder": "''n Stingel gras' is the native Afrikaans measure construction, not a calque, and the elliptic hyphenated compound is harder for a Grade 4 reader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:6e1016852e2bc29e5f7441cd7cae7ac8",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d53dfb8871dfb173e3981404180109c5"
+}

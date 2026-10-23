@@ -1,0 +1,105 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die Grondwet van Suid-Afrika",
+      "voor": "maar hulle reg bly staan",
+      "na": "maar hulle reg daarop bly staan",
+      "soort": "verwysing",
+      "rede_vinder": "The bare singular 'hulle reg' has no clear referent; 'daarop' ties it to the food and house just named.",
+      "fout": "'hulle reg bly staan' leaves the singular 'reg' without a clear referent.",
+      "rede_keurder": "'daarop' ties the right to the food and house just named; the right still stands unconditionally and nobody new is made responsible."
+    },
+    {
+      "nr": 2,
+      "blok": "Die Grondwet van Suid-Afrika",
+      "voor": "as hy nie met sy geld en mense doen wat hy kan nie",
+      "na": "as dit nie met sy geld en sy mense doen wat dit kan nie",
+      "soort": "verwysing",
+      "rede_vinder": "In standard written Afrikaans 'die land' takes 'dit', and repeating 'sy' keeps 'mense' from reading as unowned.",
+      "fout": "'die land ... hy' is informal personification; written Afrikaans refers to a country with 'dit'.",
+      "rede_keurder": "Pronoun and possessive fix only; the country still carries the duty and the double negative is intact."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat jou regte van jou vra",
+      "voor": "spot nie en jou hande was",
+      "na": "spot nie en dat jy jou hande was",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeating 'dat jy' after the negative stops the 'nie' being read across both halves and matches the previous sentence's pattern.",
+      "fout": "After 'nie ... spot nie', the elided 'en jou hande was' can make a reader stumble over whether the negative carries across.",
+      "rede_keurder": "Repeating 'dat jy' removes the stumble and matches the previous sentence's pattern without changing what is asked."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Die reg op gesondheid en op kos",
+      "voor": "genoeg kos om van te groei",
+      "na": "genoeg kos sodat hy kan groei",
+      "soort": "sinsbou",
+      "rede_vinder": "'om van te groei' is a stiff, English-shaped construction; 'sodat hy kan groei' reads naturally at Grade 4.",
+      "fout": "none",
+      "rede_keurder": "'kos om van te groei' follows the normal Afrikaans pattern of 'geld om van te lewe', so the change is lateral, and 'sodat hy kan groei' could be read as linking to the right rather than to the food."
+    },
+    {
+      "nr": 4,
+      "blok": "Die reg op veiligheid",
+      "voor": "of sonder sorg laat nie",
+      "na": "of sonder sorg los nie",
+      "soort": "idioom",
+      "rede_vinder": "'laat' needs a complement here and reads unfinished; 'sonder sorg los' is the natural expression.",
+      "fout": "none",
+      "rede_keurder": "'iemand sonder sorg laat' is complete, natural Afrikaans; 'los' is only a more colloquial alternative."
+    },
+    {
+      "nr": 5,
+      "blok": "Die reg op skuiling",
+      "voor": "wat die reën en die koue kan keer",
+      "na": "wat die reën en die koue kan uithou",
+      "soort": "idioom",
+      "rede_vinder": "A roof 'hou reën en koue uit' in idiomatic Afrikaans; 'keer' sounds like blocking a person.",
+      "fout": "none",
+      "rede_keurder": "'die reën en die koue keer' is idiomatic, while 'kan uithou' reads first as 'can withstand', which moves the meaning away from keeping the rain and cold out."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat jou regte van jou vra",
+      "voor": "as jy dit nie altyd regkry nie",
+      "na": "as jy nie altyd alles regkry nie",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' has no single antecedent after a list of several duties; 'alles' points at all of them without adding content.",
+      "fout": "none",
+      "rede_keurder": "This sentence must keep its exact meaning; 'dit' points at the responsibilities just listed, and 'nie altyd alles regkry nie' widens it to getting everything right and shifts the scope of the negation."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 8,
+      "blok": "geboortesertifikaat",
+      "voor": "jou naam en jou geboortedag wys",
+      "na": "jou naam en jou geboortedatum wys",
+      "soort": "woordkeuse",
+      "rede_vinder": "'geboortedag' means birthday; the certificate shows the date of birth, and the study text says 'wanneer jy gebore is'.",
+      "fout": "'geboortedag' usually reads as 'birthday', but a certificate shows the full date of birth.",
+      "rede_keurder": "The point is real, but this is a glossary definition shared across lessons, so only the writer may change its wording.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Die reg op skuiling",
+      "teks": "Elke kind het die reg op skuiling, en dit beteken 'n plek om te woon.",
+      "rede": "Not changed, only noted: the comma is correct under AWS 2017 (two clauses, each with subject and verb), and 'die plek waar jy slaap' in the last block was left as it is by instruction."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 515,
+  "woorde_na": 519,
+  "wanneer": "2026-10-23T06:34:34+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:5cfd8677052946873627431d973374ab",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b750ef3bd36919dc76670278f2212553"
+}

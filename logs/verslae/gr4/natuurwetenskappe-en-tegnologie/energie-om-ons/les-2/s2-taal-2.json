@@ -1,0 +1,108 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat by 'n masjien ingaan",
+      "voor": "Steek die prop in die muur en die ketel maak",
+      "na": "Steek die prop in die muur, en die ketel maak",
+      "soort": "leestekens",
+      "rede_vinder": "The second clause has its own subject and verb (die ketel maak), so AWS 2017 puts a comma before en.",
+      "fout": "Missing AWS comma between two main clauses: the imperative 'Steek die prop in die muur' and 'die ketel maak die water warm', which has its own subject and verb.",
+      "rede_keurder": "The second clause is a full sentence with its own subject, so the AWS 2017 comma belongs there, matching 'Die ketel staan vol water op die tafel, en niks gebeur nie' just before it."
+    },
+    {
+      "nr": 2,
+      "blok": "Die strykyster en die fiets",
+      "voor": "die draadjies in die stof los",
+      "na": "die draadjies in die materiaal los",
+      "soort": "woordkeuse",
+      "rede_vinder": "For a Grade 4 learner 'stof' first means dust; 'materiaal' is the clear everyday word for the fabric being ironed.",
+      "fout": "'stof' is ambiguous for a Grade 4 science reader: it reads first as dust, and in this subject also as substance.",
+      "rede_keurder": "'materiaal' is the plain everyday word for the fabric being ironed and leaves the claim about heat loosening the threads unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Die strykyster en die fiets",
+      "voor": "die kreukels uit die stof",
+      "na": "die kreukels uit die materiaal",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same reason as above, and keeps the two mentions of the fabric consistent.",
+      "fout": "Same ambiguity of 'stof' (dust, substance, fabric) in the next sentence.",
+      "rede_keurder": "Keeps the two mentions of the fabric consistent with change 2 and changes nothing the sentence says."
+    },
+    {
+      "nr": 4,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "Dit gaan meestal as hitte weg waar",
+      "na": "Dit beland meestal as hitte waar",
+      "soort": "woordkeuse",
+      "rede_vinder": "'gaan weg' straight after 'raak nie weg nie' reads as a contradiction; 'beland' keeps the meaning without the clash.",
+      "fout": "'gaan ... weg' straight after 'raak nie weg nie' reads to a Grade 4 learner as a contradiction of the point being made.",
+      "rede_keurder": "'beland' keeps the same claim, with 'meestal' and 'as hitte' intact, and removes the apparent clash that energy both does and does not go away."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat in elkeen gaan en wat uitkom",
+      "teks": "Die motor en die fiets: petrol, diesel of die ryer se energie gaan in, en beweging kom uit.",
+      "rede": "Read literally, 'die ryer se energie' can attach to the motor as well as the bicycle; the pairing (petrol/diesel for the car, the rider for the bicycle) is only implied. Not changed, because splitting it would change the list item's content."
+    },
+    {
+      "blok": "Die strykyster en die fiets",
+      "teks": "Die strykyster kry sy energie deur 'n draad uit die muur. Sy uitset is hitte, en die hitte maak die draadjies in die stof los.",
+      "rede": "'draad' (the electric cord) and 'draadjies' (the fibres of the fabric) sit in adjacent sentences for two different things, which may confuse a Grade 4 reader. A different word for the fibres would be a vocabulary decision for the writer, so it is flagged, not changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 592,
+  "woorde_na": 591,
+  "wanneer": "2026-10-22T22:32:11+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 22,
+      "blok": "Die strykyster en die fiets",
+      "voor": "se gewig druk die los draadjies dan plat",
+      "na": "se gewig druk dan die los draadjies plat",
+      "soort": "woordorde",
+      "rede_vinder": "Dan sits more naturally straight after the verb, before the object.",
+      "fout": "none",
+      "rede_keurder": "Both word orders are natural Afrikaans, so this is a lateral move."
+    },
+    {
+      "nr": 4,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "Die energie lê al die tyd in daardie twee batterye gestoor",
+      "na": "Die energie is al die tyd in daardie twee batterye gestoor",
+      "soort": "sinsbou",
+      "rede_vinder": "'lê ... gestoor' is wooden; the passive 'is ... gestoor' is the usual construction and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'lê ... gestoor' is a normal Afrikaans posture-verb construction that carries the sense of energy resting there unused; 'is gestoor' is a lateral move that flattens it."
+    },
+    {
+      "nr": 3,
+      "blok": "Die flitslig sonder sy batterye",
+      "voor": "terug in dieselfde flitslig en druk weer",
+      "na": "terug in die flitslig en druk weer",
+      "soort": "woordkeuse",
+      "rede_vinder": "'dieselfde' occurs three times in two sentences; the flashlight is obviously the same one, and 'dieselfde twee batterye' and 'dieselfde liggie' still carry the point.",
+      "fout": "none",
+      "rede_keurder": "The repeated 'dieselfde' is deliberate emphasis in a test where only the batteries may change, and the original reads well, so cutting it is a lateral move that weakens the point."
+    },
+    {
+      "nr": 3,
+      "blok": "Nie alles kom uit as die deel wat ons wil hê nie",
+      "voor": "'n Gloeilamp wat lank aan was",
+      "na": "'n Gloeilamp wat lank aangeskakel was",
+      "soort": "woordkeuse",
+      "rede_vinder": "'aan was' is colloquial; 'aangeskakel was' is the standard written form.",
+      "fout": "none",
+      "rede_keurder": "'aan was' for a lamp is plain, natural Afrikaans for a Grade 4 reader; 'aangeskakel was' is longer and only a lateral, more formal move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:49c81175048897d506de6602bd826392",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1d917370f9c3666e8c54c7e5550b8ce5"
+}

@@ -4,37 +4,32 @@
   "graad": 4,
   "vak": "Natuurwetenskappe en Tegnologie",
   "budget": 460,
-  "checked_at": "2026-08-28T21:45:54+00:00",
+  "begrotingsreel": "default ±15%: 391-529",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-22T23:19:24+00:00",
   "study": {
-    "words": 447,
-    "sentences": 35,
-    "mean_sentence_len": 12.8,
-    "median_sentence_len": 13,
-    "longest_sentence": 16,
+    "words": 481,
+    "sentences": 36,
+    "mean_sentence_len": 13.4,
+    "median_sentence_len": 13.5,
+    "longest_sentence": 21,
     "mean_syllables": 1.26,
-    "pct_polysyllabic": 3.6,
-    "pct_long_words": 0.0,
-    "commas_per_sentence": 0.06
+    "pct_polysyllabic": 4.0,
+    "pct_long_words": 0.2,
+    "commas_per_sentence": 0.31
   },
-  "eli10": {
-    "words": 95,
-    "sentences": 9,
-    "mean_sentence_len": 10.6,
-    "median_sentence_len": 11,
-    "longest_sentence": 13,
-    "mean_syllables": 1.4,
-    "pct_polysyllabic": 7.4,
-    "pct_long_words": 0.0,
-    "commas_per_sentence": 0.22
-  },
+  "eli10": null,
   "block_counts": {
     "studie": 6,
-    "eli10": 1,
     "begrip": 3
   },
   "misspelled": [],
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    "Study text 481 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (460) plus tolerance allows 529, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study block 2 ('Waarvan die Son gemaak is') 132 words (guide 30–110) — will overflow its section"
+  ],
   "notes": [
     "Afrikaans dictionary not installed — spelling not checked"
   ]

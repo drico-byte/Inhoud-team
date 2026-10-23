@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat jou regte van jou vra",
+      "voor": "maak jy niemand seer nie en vat jy",
+      "na": "maak jy niemand seer nie, en vat jy",
+      "soort": "leestekens",
+      "rede_vinder": "Two main clauses each with their own subject and verb (maak jy / vat jy) are joined by en, so the AWS 2017 comma is required.",
+      "fout": "Missing AWS 2017 comma between two clauses joined by en, each with its own subject and finite verb (maak jy / vat jy).",
+      "rede_keurder": "Both halves are full indicative clauses with their own subject jy (not a command), so the comma is required, and the inverted word order keeps Daarom governing both halves, so the meaning is unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 519,
+  "woorde_na": 519,
+  "wanneer": "2026-10-23T06:38:43+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Die reg op gesondheid en op kos",
+      "voor": "genoeg kos om van te groei",
+      "na": "genoeg kos sodat hy kan groei",
+      "soort": "sinsbou",
+      "rede_vinder": "'om van te groei' is a stiff, English-shaped construction; 'sodat hy kan groei' reads naturally at Grade 4.",
+      "fout": "none",
+      "rede_keurder": "'kos om van te groei' follows the normal Afrikaans pattern of 'geld om van te lewe', so the change is lateral, and 'sodat hy kan groei' could be read as linking to the right rather than to the food."
+    },
+    {
+      "nr": 4,
+      "blok": "Die reg op veiligheid",
+      "voor": "of sonder sorg laat nie",
+      "na": "of sonder sorg los nie",
+      "soort": "idioom",
+      "rede_vinder": "'laat' needs a complement here and reads unfinished; 'sonder sorg los' is the natural expression.",
+      "fout": "none",
+      "rede_keurder": "'iemand sonder sorg laat' is complete, natural Afrikaans; 'los' is only a more colloquial alternative."
+    },
+    {
+      "nr": 5,
+      "blok": "Die reg op skuiling",
+      "voor": "wat die reën en die koue kan keer",
+      "na": "wat die reën en die koue kan uithou",
+      "soort": "idioom",
+      "rede_vinder": "A roof 'hou reën en koue uit' in idiomatic Afrikaans; 'keer' sounds like blocking a person.",
+      "fout": "none",
+      "rede_keurder": "'die reën en die koue keer' is idiomatic, while 'kan uithou' reads first as 'can withstand', which moves the meaning away from keeping the rain and cold out."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat jou regte van jou vra",
+      "voor": "as jy dit nie altyd regkry nie",
+      "na": "as jy nie altyd alles regkry nie",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' has no single antecedent after a list of several duties; 'alles' points at all of them without adding content.",
+      "fout": "none",
+      "rede_keurder": "This sentence must keep its exact meaning; 'dit' points at the responsibilities just listed, and 'nie altyd alles regkry nie' widens it to getting everything right and shifts the scope of the negation."
+    }
+  ],
+  "konsep_hash_voor": "sha256:0b9db2c56211881b462fdf8d12c98079",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d7be24e1b44c9f6ca6d7e13f0207f14c"
+}

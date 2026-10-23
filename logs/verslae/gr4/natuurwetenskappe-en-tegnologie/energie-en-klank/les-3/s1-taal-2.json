@@ -1,0 +1,76 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wanneer 'n klank geraas word",
+      "voor": "het 'n eie naam, en dit is geraasbesoedeling.",
+      "na": "het 'n eie naam: geraasbesoedeling.",
+      "soort": "sinsbou",
+      "rede_vinder": "'en dit is' is wooden here; a colon introduces the name more naturally and keeps the meaning.",
+      "fout": "'het 'n eie naam, en dit is geraasbesoedeling' is a stiff, roundabout way to introduce a name",
+      "rede_keurder": "The colon gives the name directly and more naturally, with the same meaning, and the protected term stays."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Waar die geraasbesoedeling vandaan kom",
+      "voor": "baie kinders wat gelyk op die speelgrond skree",
+      "na": "baie kinders wat tegelyk op die speelgrond skree",
+      "soort": "woordkeuse",
+      "rede_vinder": "'tegelyk' is the standard word for 'at the same time'; 'gelyk' can also be read as 'equally' or 'level'.",
+      "fout": "none",
+      "rede_keurder": "'gelyk' meaning 'at the same time' is normal, natural Afrikaans and cannot be misread in this phrase, so this is a lateral move."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "Hoe jy jou ore veilig hou",
+      "voor": "Daar help dit dat jy self kies hoe hard hulle speel.",
+      "na": "Dan help dit as jy self kies hoe hard hulle speel.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Daar help dit dat' reads as a calque; 'Dan help dit as' is the natural Afrikaans construction with the same meaning.",
+      "fout": "'Daar help dit dat' is stiff and leaves it unclear whether it states a fact (you control the volume) or gives advice",
+      "rede_keurder": "This is a safety instruction (what to do with earphones), and changing 'Daar' to 'Dan' and 'dat' to 'as' shifts the nuance from fact to condition, so the writer must fix it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "'n Toestel wat klank harder maak",
+      "teks": "Dit help baie mense wat sag hoor om te hoor wat rondom hulle gebeur.",
+      "rede": "'sag hoor om te hoor' repeats the verb and reads slightly clumsily, but 'mense wat sag hoor' is protected and any smoother wording (e.g. 'beter hoor') would change the claim; left for the writer to judge."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 566,
+  "woorde_na": 563,
+  "wanneer": "2026-10-22T22:50:03+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 21,
+      "blok": "Hoe jy jou ore veilig hou",
+      "voor": "Draai dit sagter as die klank uit 'n TV of 'n foon kom.",
+      "na": "As die klank uit 'n TV of 'n foon kom, draai dit sagter.",
+      "soort": "woordorde",
+      "rede_vinder": "dit points forward to a noun not yet named; putting the condition first gives the pronoun its referent.",
+      "fout": "none",
+      "rede_keurder": "dit reads back to the loud sound in the previous sentence, so the reorder is a lateral move inside a safety instruction."
+    },
+    {
+      "nr": 25,
+      "blok": "Hoe jy jou ore veilig hou",
+      "voor": "met harde masjiene werk",
+      "na": "met raserige masjiene werk",
+      "soort": "woordkeuse",
+      "rede_vinder": "harde masjiene can read as solid machines; raserig means noisy and shares its root with geraas.",
+      "fout": "none",
+      "rede_keurder": "In this lesson hard is the volume word, so 'harde masjiene' reads as loud machines and raserig is a lateral swap away from the lesson's own vocabulary."
+    }
+  ],
+  "konsep_hash_voor": "sha256:9f7234cddbd43251eeb08ebd64984fda",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:dd4dc741d60217fd8ccc5f2d2f79fb4a"
+}

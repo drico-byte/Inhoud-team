@@ -1,0 +1,37 @@
+{
+  "verdict": "PASS",
+  "titel": "Die bestuurder sien jou nie altyd nie",
+  "graad": 4,
+  "vak": "Lewensvaardighede",
+  "budget": 450,
+  "begrotingsreel": "default ±15%: 382-518",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T07:09:38+00:00",
+  "study": {
+    "words": 501,
+    "sentences": 40,
+    "mean_sentence_len": 12.5,
+    "median_sentence_len": 12.5,
+    "longest_sentence": 20,
+    "mean_syllables": 1.29,
+    "pct_polysyllabic": 6.0,
+    "pct_long_words": 1.2,
+    "commas_per_sentence": 0.42
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 7,
+    "begrip": 8
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study text 501 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (450) plus tolerance allows 518, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study text: 0.42 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: geparkeerde, stilgestaan, verkeersreëls"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

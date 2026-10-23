@@ -1,7 +1,7 @@
 {
   "les": "gr4/natuurwetenskappe-en-tegnologie/sterk-raamstrukture/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:874385c93d291c1c19bf93b3bc1d5a1b",
+  "konsep_hash": "sha256:6107e0ad44244ddabac44446ccb60483",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -116,11 +116,125 @@
       "sound": true,
       "items": 47,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T00:10:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f3f4ce5f573e695a18f13d3cc0e520e6",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T00:10:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 442,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T00:10:03+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:f3f4ce5f573e695a18f13d3cc0e520e6",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T06:14:29+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 4,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 442,
+      "woorde_na": 444,
+      "konsep_hash": "sha256:11a67c2d3fa7d70826715655b99de327"
+    },
+    {
+      "wanneer": "2026-10-23T06:14:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 444,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:14:30+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'lank in 'n gemeenskap se hande is': 'lank in 'n gemeenskap se hande is' is a wooden, unclear image in the sentence that defines 'tradisioneel'.",
+        "fix: [taal] in 'aangegee word': 'aangegee' suggests handing over an object, whereas a tradition is normally 'oorgedra'."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T06:16:39+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:eab33e2dc6c0d7e7fdf7bcd17b6e54d8",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T06:16:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 446,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:19:21+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 446,
+      "woorde_na": 447,
+      "konsep_hash": "sha256:fc4c2c2b8b96df5c5aaf603e159239fb"
+    },
+    {
+      "wanneer": "2026-10-23T06:19:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 447,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:21:06+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:6107e0ad44244ddabac44446ccb60483",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T06:21:06+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 447,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T06:22:01+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 447,
+      "woorde_na": 447
     }
   ],
-  "spek_hash": "sha256:9bda2bb1e402f89cfdc4ff66bf6a7ccb",
+  "spek_hash": "sha256:05bae4034b874feb74a6dac387a0b6e2",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:f3f4ce5f573e695a18f13d3cc0e520e6",
+  "taal_rondte_vir": "sha256:6107e0ad44244ddabac44446ccb60483",
+  "taal_keurder_vir": "34e26790ea756607def768fda64cffd2",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:6107e0ad44244ddabac44446ccb60483",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:11a67c2d3fa7d70826715655b99de327",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "da65483c2c0504037fdc60279fa40919"
 }
