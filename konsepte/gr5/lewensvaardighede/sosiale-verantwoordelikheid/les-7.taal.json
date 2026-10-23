@@ -1,0 +1,94 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Take vir seuns en take vir meisies",
+      "voor": "Daar maak 'n meisie die vuur en was 'n seun die skottelgoed.",
+      "na": "Daar maak 'n meisie die vuur, en was 'n seun die skottelgoed.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb ('maak 'n meisie' / 'was 'n seun').",
+      "rede_keurder": "The comma follows the AWS 2017 rule, matches the comma the previous round added in this lesson, and changes no meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat mans en vrouens bydra",
+      "voor": "In een huis kook die pa en maak die ma die kraan reg.",
+      "na": "In een huis kook die pa, en maak die ma die kraan reg.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb ('kook die pa' / 'maak die ma').",
+      "rede_keurder": "Same AWS comma rule as change 1, applied consistently, with no change in meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Dieselfde regte vir seuns en meisies",
+      "voor": "as die ouers dit laat registreer",
+      "na": "as die ouers die kind daarvoor laat registreer",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' has no clear antecedent; naming the child makes clear who is registered for learning at home.",
+      "fout": "none",
+      "rede_keurder": "'dit' clearly refers to 'tuis leer' just before it, so the change only makes the sentence longer and moves what gets registered in a legal statement that was checked as content."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Respek loop na twee kante",
+      "teks": "Daardie gedrag vra nooit respek van 'n kind nie.",
+      "rede": "Vague: unclear whether it means such behaviour never earns a child's respect or that respect never requires a child to accept it; cannot be reworded without guessing the intended content."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 500,
+  "woorde_na": 500,
+  "wanneer": "2026-10-23T19:28:08+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Ouer mense en kinders",
+      "voor": "kook en stap saam skool toe",
+      "na": "kook en stap saam met hulle skool toe",
+      "soort": "verwysing",
+      "rede_vinder": "'saam' has no stated partner; 'met hulle' makes clear the grandparent walks with the children.",
+      "fout": "none",
+      "rede_keurder": "'Stap saam skool toe' is natural Afrikaans and the children are the obvious partner from the previous sentence, so adding 'met hulle' only lengthens it."
+    },
+    {
+      "nr": 2,
+      "blok": "Respek loop na twee kante",
+      "voor": "Respek is nie net wat 'n kind vir 'n grootmens gee nie",
+      "na": "Respek is nie net iets wat 'n kind aan 'n grootmens gee nie",
+      "soort": "grammatika",
+      "rede_vinder": "Standard Afrikaans gives something 'aan' someone, and 'iets wat' reads more naturally than a bare 'wat'.",
+      "fout": "none",
+      "rede_keurder": "'Respek vir iemand gee' is accepted Afrikaans and matches the next sentence's 'respek vir 'n kind'; the proposal is a lateral move."
+    },
+    {
+      "nr": 3,
+      "blok": "Respek loop na twee kante",
+      "voor": "om dit te vertel vir 'n volwassene wat hy vertrou",
+      "na": "om dit vir 'n volwassene wat hy vertrou, te vertel",
+      "soort": "woordorde",
+      "rede_vinder": "In standard Afrikaans the infinitive 'te vertel' goes at the end of the clause; the protected verb is kept.",
+      "fout": "none",
+      "rede_keurder": "Putting the infinitive phrase after the verb is normal Afrikaans, and the proposal puts a relative clause and a comma in the middle, which makes it harder for a Grade 5 reader in a safety sentence."
+    },
+    {
+      "nr": 4,
+      "blok": "Respek loop na twee kante",
+      "voor": "Hy hou aan vertel totdat",
+      "na": "Hy hou aan om dit te vertel totdat",
+      "soort": "grammatika",
+      "rede_vinder": "'aanhou' takes 'om te' plus the infinitive; 'hou aan vertel' is ungrammatical.",
+      "fout": "none",
+      "rede_keurder": "'Aanhou' with a bare verb ('hy hou aan vertel') is idiomatic Afrikaans, not an error, and the proposal makes a short safety sentence longer for no real gain."
+    }
+  ],
+  "konsep_hash_voor": "sha256:ea7d8022bc9448c232692b1a2d64cd73",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:60981b44d2daf1bd3699cef6cb283368"
+}

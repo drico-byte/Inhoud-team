@@ -1,0 +1,9 @@
+{"prompt_weergawe": "taalkeurder-v1.3",
+ "besluite": [
+  {"nr": 1, "besluit": "HOU",
+   "fout": "'Laastens' marks the third step while a further step ('Sê dan') follows, so the sequence eers-dan-laastens-dan reads out of order.",
+   "rede": "'Daarna' keeps the same actions in the same order and removes the false 'last'; it must go in together with change 2."},
+  {"nr": 2, "besluit": "HOU",
+   "fout": "'Dan' after 'laastens' adds a step after the one called last.",
+   "rede": "Putting 'laastens' on the step that is actually last makes the sequence read correctly without changing any action, and it pairs with change 1."}
+ ]}

@@ -154,3 +154,10 @@ recorded below as they come.
 - House style: a title before a name is lower case inside a sentence (tant Rosa, juffrou Mans), per the AWS. Gr 5 OvS 6 and 8 follow it; OvS 4 and SR 4, 6 (signed off) still use capitals. Fix them at their next revision; it is not worth a cycle on its own.
 - Gr 5 OvS 8: 'net soos hy belowe het' refers to a promise the story never shows; Sipho only asks whether Thursday suits. The fact check passed it. Look at it at the next revision.
 - Shared wording 'roep-en-antwoord' ('... 'n kort deel en 'n ander antwoord daarop') joins two full clauses without the AWS comma. Add it in the shared list and route every lesson that uses it through the writer, together with the hosho and toonkleur fix.
+
+**Stand, 23 Oct 2026 (late).**
+- **Gr 5 LV:** 35 of 40 lessons re-signed. Still in flight: SR 2, 10 and 11. Waiting on a person: GO 9 (Q1/Q2) and UK 2 (Q22, massa).
+- **Gr 5 NW:** the audit orders are written into the specs. There are 7 gap lessons: Voedselkettings 1, Gebruik van metale 1, Verwerkte materiale 2, Gestoorde energie 1, Energie en elektrisiteit 2, Oppervlak 2 (the one table and graph), and Fossiele 3. The other 22 lessons are language only. Three coordinators are running 15 lessons.
+- **Fact checks:** web search is capped at 200 per turn across one agent tree. A coordinator stops when its tree runs out and sends me the fact paths. I then launch fact checks from fresh agents.
+- Gr 5 SR 11: "Die Adams-gesin ... hulle vas elke jaar 'n hele maand lank" may read as the whole family fasting, but only the adults fast. The fact check passed it. Also 'vollemaan' (SR 11) against 'volmaan' (SR 10). Look at both at the next revision.
+- Gr 5 SR 10 spec: the note at the top still says the Gr 5 shared list is empty on purpose. The list has since been filled; correct the note at the next spec touch.

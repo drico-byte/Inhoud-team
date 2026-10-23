@@ -1,0 +1,94 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die kunselemente een laaste keer",
+      "voor": "buig meestal sag rond",
+      "na": "is meestal sag gerond",
+      "soort": "idioom",
+      "rede_vinder": "'Buig rond' is not idiomatic for a curved outline; 'sag gerond' is the natural expression, and 'meestal' is kept.",
+      "fout": "'buig ... rond' (rondbuig) suggests bending around rather than describing a curved outline, which reads awkwardly.",
+      "rede_keurder": "'is meestal sag gerond' is the natural way to describe the curved shape, keeps the protected 'meestal', and the meaning does not change."
+    },
+    {
+      "nr": 3,
+      "blok": "Kontras in die lug",
+      "voor": "jou oog kry hom dadelik raak",
+      "na": "jou oog sien hom dadelik raak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Raaksien' is the standard verb for noticing something; 'raakkry' means to hit or come across.",
+      "fout": "'kry hom raak' is not the standard expression for noticing something; 'raakkry' suggests hitting or coming across it.",
+      "rede_keurder": "'sien hom dadelik raak' uses the standard verb for noticing and keeps the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Dinge wat vlieg",
+      "voor": "Jy kyk net na hoe hulle lyk en nie na hoe hulle vlieg nie.",
+      "na": "Jy kyk net na hoe hulle lyk, nie na hoe hulle vlieg nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "The contrast reads more naturally without the joining 'en'; meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "The original 'en nie na' is natural Afrikaans; replacing it with a comma is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "'n Manier om te kyk",
+      "teks": "Let laastens op waarheen jou oog eerste gaan, want daardie deel is die fokuspunt en het klem.",
+      "rede": "'Waarheen' points to a place, then 'daardie deel' and the next sentence's 'daardie plek' refer back to it; slightly inconsistent reference, left alone because it touches the protected terms fokuspunt and klem."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 430,
+  "woorde_na": 430,
+  "wanneer": "2026-10-23T17:57:02+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Dinge wat vlieg",
+      "voor": "'n Vlermuis is nie 'n voël nie maar 'n dier",
+      "na": "'n Vlermuis is nie 'n voël nie, maar 'n dier",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before 'maar' after the closing 'nie' marks the contrast and makes the sentence easier to read.",
+      "fout": "none",
+      "rede_keurder": "'maar 'n dier met vlerke van vel' has no verb of its own, so the AWS rule for a comma joining two sentences does not apply, and the double 'nie' already marks the contrast clearly."
+    },
+    {
+      "nr": 2,
+      "blok": "Dinge wat vlieg",
+      "voor": "omdat mense hulle gebou het met dele wat soos 'n masjien saamwerk",
+      "na": "omdat mense hulle met dele gebou het wat soos 'n masjien saamwerk",
+      "soort": "woordorde",
+      "rede_vinder": "In a subordinate clause the verb cluster normally goes after the prepositional phrase.",
+      "fout": "none",
+      "rede_keurder": "Putting the prepositional phrase after 'gebou het' is normal, natural Afrikaans and keeps 'dele' next to its relative clause; the proposal is only a different word order, and it matches the wording of the 'meganies' glossary entry less closely."
+    },
+    {
+      "nr": 5,
+      "blok": "Kontras in die lug",
+      "voor": "Sit 'n natuurlike vlerk langs 'n meganiese een.",
+      "na": "Sit 'n natuurlike en 'n meganiese vlerk langs mekaar.",
+      "soort": "anglisisme",
+      "rede_vinder": "'n meganiese een' copies English 'a mechanical one'; Afrikaans does not use 'een' as a noun substitute this way.",
+      "fout": "none",
+      "rede_keurder": "Using 'een' as a noun substitute ('n meganiese een') is ordinary Afrikaans, so the proposal is a lateral rewording."
+    },
+    {
+      "nr": 3,
+      "blok": "Jou eie werk en 'n maat se werk",
+      "voor": "Kyk met dieselfde stappe na jou eie prent of model van iets wat vlieg.",
+      "na": "Gebruik dieselfde stappe om na jou eie prent of model van iets wat vlieg te kyk.",
+      "soort": "sinsbou",
+      "rede_vinder": "One does not look 'with' steps; using the steps to look reads more naturally and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "The original is clear to a Grade 5 reader, while the proposal is longer, puts a long object between 'na' and 'te kyk', breaks the parallel with 'Kyk net so na' in the next sentence and repeats 'Gebruik' from the paragraph's last sentence."
+    }
+  ],
+  "konsep_hash_voor": "sha256:5968981a81697a7d4cf1774fc6d61b39",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:95cf9e5714efa5325d673359fbb7dc03"
+}

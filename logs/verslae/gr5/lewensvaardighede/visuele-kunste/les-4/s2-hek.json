@@ -1,35 +1,36 @@
 {
-  "verdict": "FAIL",
+  "verdict": "PASS",
   "titel": "Vlerke van vere en vlerke van metaal",
   "graad": 5,
   "vak": "Lewensvaardighede",
-  "budget": 360,
-  "checked_at": "2026-09-22T09:03:54+00:00",
+  "budget": 390,
+  "begrotingsreel": "default ±15%: 332-448",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T19:40:26+00:00",
   "study": {
-    "words": 420,
-    "sentences": 30,
-    "mean_sentence_len": 14,
-    "median_sentence_len": 14.0,
-    "longest_sentence": 21,
-    "mean_syllables": 1.38,
-    "pct_polysyllabic": 5.7,
-    "pct_long_words": 1.0,
-    "commas_per_sentence": 0.23
+    "words": 432,
+    "sentences": 31,
+    "mean_sentence_len": 13.9,
+    "median_sentence_len": 14,
+    "longest_sentence": 22,
+    "mean_syllables": 1.39,
+    "pct_polysyllabic": 6.0,
+    "pct_long_words": 0.7,
+    "commas_per_sentence": 0.35
   },
   "eli10": null,
   "block_counts": {
-    "studie": 5,
+    "studie": 6,
     "begrip": 8
   },
   "misspelled": [],
-  "failures": [
-    "Study text 420 words, above budget ceiling 414 (target 360) — learners will revise the textbook instead"
-  ],
+  "failures": [],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: skoenlapper, vergelyking, verskillende"
+    "Study block 2 ('Die kunselemente een laaste keer') 122 words (guide 30–110) — will overflow its section",
+    "Long words in study text with no 'begrip' entry: skoenlapper, vergelyking"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

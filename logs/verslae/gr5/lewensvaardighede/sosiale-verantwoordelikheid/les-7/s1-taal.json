@@ -1,0 +1,103 @@
+{
+  "toegepas": [
+    {
+      "nr": 5,
+      "blok": "Take vir seuns en take vir meisies",
+      "voor": "hang dan af van of dit",
+      "na": "hang dan daarvan af of dit",
+      "soort": "grammatika",
+      "rede_vinder": "Before an 'of' clause Afrikaans uses the pronominal 'daarvan af', not 'af van of'.",
+      "fout": "'afhang van of' copies English 'depend on whether'",
+      "rede_keurder": "Before an 'of' clause Afrikaans uses the pronominal 'daarvan af', and the meaning does not change."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat mans en vrouens bydra",
+      "voor": "Baie mense dink vandag nog net vrouens moet by 'n kleuterskool werk",
+      "na": "Baie mense dink vandag nog dat net vrouens by 'n kleuterskool moet werk",
+      "soort": "sinsbou",
+      "rede_vinder": "Adding 'dat' with verb-final order makes the reported thought clear, so 'nog net' is not misread as one phrase.",
+      "fout": "'dink vandag nog net vrouens moet' can be misread as 'nog net' (still only)",
+      "rede_keurder": "Adding 'dat' with the verb at the end makes the reported thought clear, keeps 'baie' and 'net', and means the same."
+    },
+    {
+      "nr": 7,
+      "blok": "Waar 'n stereotipe inkom",
+      "voor": "hang wasgoed op en die vrou oorkant",
+      "na": "hang wasgoed op, en die vrou oorkant",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma before 'en' joining two sentences that each have their own subject and verb.",
+      "fout": "missing AWS comma between two main clauses joined by 'en'",
+      "rede_keurder": "'Die seun langsaan hang wasgoed op' and 'die vrou oorkant maak 'n heining reg' each have their own subject and verb, so AWS 2017 wants a comma before 'en'."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Ouer mense en kinders",
+      "voor": "kook en stap saam skool toe",
+      "na": "kook en stap saam met hulle skool toe",
+      "soort": "verwysing",
+      "rede_vinder": "'saam' has no stated partner; 'met hulle' makes clear the grandparent walks with the children.",
+      "fout": "none",
+      "rede_keurder": "'Stap saam skool toe' is natural Afrikaans and the children are the obvious partner from the previous sentence, so adding 'met hulle' only lengthens it."
+    },
+    {
+      "nr": 2,
+      "blok": "Respek loop na twee kante",
+      "voor": "Respek is nie net wat 'n kind vir 'n grootmens gee nie",
+      "na": "Respek is nie net iets wat 'n kind aan 'n grootmens gee nie",
+      "soort": "grammatika",
+      "rede_vinder": "Standard Afrikaans gives something 'aan' someone, and 'iets wat' reads more naturally than a bare 'wat'.",
+      "fout": "none",
+      "rede_keurder": "'Respek vir iemand gee' is accepted Afrikaans and matches the next sentence's 'respek vir 'n kind'; the proposal is a lateral move."
+    },
+    {
+      "nr": 3,
+      "blok": "Respek loop na twee kante",
+      "voor": "om dit te vertel vir 'n volwassene wat hy vertrou",
+      "na": "om dit vir 'n volwassene wat hy vertrou, te vertel",
+      "soort": "woordorde",
+      "rede_vinder": "In standard Afrikaans the infinitive 'te vertel' goes at the end of the clause; the protected verb is kept.",
+      "fout": "none",
+      "rede_keurder": "Putting the infinitive phrase after the verb is normal Afrikaans, and the proposal puts a relative clause and a comma in the middle, which makes it harder for a Grade 5 reader in a safety sentence."
+    },
+    {
+      "nr": 4,
+      "blok": "Respek loop na twee kante",
+      "voor": "Hy hou aan vertel totdat",
+      "na": "Hy hou aan om dit te vertel totdat",
+      "soort": "grammatika",
+      "rede_vinder": "'aanhou' takes 'om te' plus the infinitive; 'hou aan vertel' is ungrammatical.",
+      "fout": "none",
+      "rede_keurder": "'Aanhou' with a bare verb ('hy hou aan vertel') is idiomatic Afrikaans, not an error, and the proposal makes a short safety sentence longer for no real gain."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Respek loop na twee kante",
+      "teks": "Daardie gedrag vra nooit respek van 'n kind nie.",
+      "rede": "This is unclear: it could mean the behaviour never earns a child's respect, or that respect never requires a child to accept it. Fixing it means guessing which was meant, so I have not changed it."
+    },
+    {
+      "blok": "Dieselfde regte vir seuns en meisies",
+      "teks": "of tuis leer as die ouers dit laat registreer",
+      "rede": "It is not clear what 'dit' refers to (the child, or the home learning). Making it clear would mean adding content about home-education registration, so I have not changed it."
+    },
+    {
+      "blok": "Dieselfde regte vir seuns en meisies",
+      "teks": "is dit ook diskriminasie",
+      "rede": "'ook' suggests discrimination came up earlier, but the study text never names or defines it before this point (it appears only in the glossary). This is for the writer to decide, not a language change."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 499,
+  "woorde_na": 500,
+  "wanneer": "2026-10-23T19:18:51+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:1743a69e1180217541175c1a4f46400a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:fff19db0e27f475abd3f84cf939c96e9"
+}

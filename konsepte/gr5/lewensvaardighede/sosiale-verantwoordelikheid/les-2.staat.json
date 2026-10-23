@@ -1,7 +1,7 @@
 {
   "les": "gr5/lewensvaardighede/sosiale-verantwoordelikheid/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:e4fff4b85c0e2b3afd640326aaac6f3f",
+  "konsep_hash": "sha256:2bce39aeaae6860f80ed2acc3e0d7783",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -72,11 +72,349 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\sosiale-verantwoordelikheid\\les-2.json",
       "konsep_hash": "sha256:e4fff4b85c0e2b3afd640326aaac6f3f",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T18:14:17+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f795d869586ad3ff017b05932c5d8d46",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:14:18+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 499,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:14:18+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:f795d869586ad3ff017b05932c5d8d46",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:19+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 4,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 499,
+      "woorde_na": 499,
+      "konsep_hash": "sha256:bf437dd18b3652b702991133dddf3557"
+    },
+    {
+      "wanneer": "2026-10-23T18:21:20+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 499,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:21:20+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Hy het gevra dat almal dieselfde behandel word.': Slightly vague (equal treatment of whom, compared with whom), and 'behandel' returns later in its medical sense ('Vandag word MIV ook behandel'), so the 'ook' may read as an echo; not changed because sharpening it would mean guessing what Nkosi asked."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:28:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:018a77197a2baef3b1f7e23877d88068",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T18:28:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 499,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:39:58+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 499,
+      "woorde_na": 499
+    },
+    {
+      "wanneer": "2026-10-23T18:57:49+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:57:49+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:57:49+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "nkosi johnson gaan skool toe"
+      ],
+      "tally": {
+        "nkosi johnson gaan skool toe": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T18:57:49+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "dekking, feite",
+      "siklus": 1,
+      "punte": [
+        "[dekking] MIV WORD VANDAG BEHANDEL, EN DIE SLOT SE DIT ... eers in 200 — gedeeltelik: Die laaste sin van die leesstuk ('Eers in 2004 het die regering dit gratis by openbare klinieke regoor die land begin gee.') sê nog WAAR en HOE WYD die gratis medisyne in 2004 begin is, en die spesifikasie is op 23 Oktober 2026 reggemaak omdat juis dit vals is: die openbare program het in 2004 by 'n handvol groot hospitale in Gauteng begin en eers stadig na klinieke versprei. Die sin moet net sê dat die regering eers in 2004 begin het om die daaglikse medisyne gratis te gee, sonder enige plek (geen klinieke, geen hospitale, geen 'regoor die land'). Hou 'eers', hou dat 'dit' na die daaglikse behandeling in die sinne daarvoor wys en nie na die baba-medisyne nie, en moenie die ou 2004-vorm of 'n ander plekaanduiding in 'n ander gedaante terugbring nie. Die res van die slot (behandel, kan, 'In Nkosi se tyd ...', 'Die meeste mense ...', die skoolsinne) bly onveranderd.",
+        "[feite] Eers in 2004 het die regering dit gratis by openbare kliniek — corrected: Hou 2004 as die jaar waarin die regering begin het om die medisyne gratis te gee, maar moenie sê dat klinieke regoor die land dit in 2004 begin gee het nie. Waar is: in 2004 het die regering begin om dit gratis by 'n paar openbare hospitale te gee, en oor die volgende jare het dit stadig na klinieke regoor die land versprei. Laat die plek weg ('het die regering dit gratis begin gee') of sê dit het by hospitale begin en later na klinieke versprei."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T19:00:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4ea6b0dea1bfd68af3fa2935df8b8c32",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T19:00:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 493,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:02:25+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 493,
+      "woorde_na": 493,
+      "konsep_hash": "sha256:399c74c93e83288076f1a8d1f6dfc969"
+    },
+    {
+      "wanneer": "2026-10-23T19:02:26+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 493,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:02:26+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Almal het na 'n groter plek suid van Johannesburg getrek.': 'Almal' has no clear referent (the residents, the staff, the organisation?); making it specific would mean guessing who moved, so it is flagged, not changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T19:05:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:19470a65ff4c7f9e2487824d9112e84d",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T19:05:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 494,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:08:22+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 494,
+      "woorde_na": 494,
+      "konsep_hash": "sha256:14b7d8346b7fdedeece0680dcef8b397"
+    },
+    {
+      "wanneer": "2026-10-23T19:08:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 494,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:26:24+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b52824909b8a746e2ec0af693bee84b0",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T19:26:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 495,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:36:59+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 495,
+      "woorde_na": 496,
+      "konsep_hash": "sha256:c2a342395bae59b618a347accd38cf82"
+    },
+    {
+      "wanneer": "2026-10-23T19:37:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 496,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:44:02+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:44:02+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 33,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:44:02+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "nkosi johnson gaan skool toe"
+      ],
+      "tally": {
+        "nkosi johnson gaan skool toe": 2
+      }
+    },
+    {
+      "wanneer": "2026-10-23T19:44:02+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "blok_bly_faal",
+      "blok": "nkosi johnson gaan skool toe",
+      "rondtes": 2
+    },
+    {
+      "wanneer": "2026-10-23T19:47:37+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "nkosi johnson gaan skool toe": 2
+      }
+    },
+    {
+      "wanneer": "2026-10-23T19:53:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2bce39aeaae6860f80ed2acc3e0d7783",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T19:53:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 502,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:05:47+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 502,
+      "woorde_na": 502
+    },
+    {
+      "wanneer": "2026-10-23T20:05:47+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Daardie reël het gesê 'n openbare skool mag nie 'n kind met MIV wegwys': The same rule is stated twice in two consecutive sentences, which reads as repetitive; merging them would touch protected wording, so it is left to the writer to decide whether both are needed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:14:57+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:14:58+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:15:04+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:15:05+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:15:05+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\sosiale-verantwoordelikheid\\les-2.json",
+      "konsep_hash": "sha256:2bce39aeaae6860f80ed2acc3e0d7783",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:70bac227809c4514144e7deeda18ab53",
+  "spek_hash": "sha256:fc5b7a75d031b558359bc11ccb22b417",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Daardie reël het gesê 'n openbare skool mag nie 'n kind met MIV wegwys': The same rule is stated twice in two consecutive sentences, which reads as repetitive; merging them would touch protected wording, so it is left to the writer to decide whether both are needed."
+  ],
+  "taal_geforseer_vir": "sha256:f795d869586ad3ff017b05932c5d8d46",
+  "taal_rondte_vir": "sha256:2bce39aeaae6860f80ed2acc3e0d7783",
+  "taal_keurder_vir": "68226207b76d56cf28a25454a5cb90fd",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:2bce39aeaae6860f80ed2acc3e0d7783",
+  "taal_vir_mens": [
+    "[taal, protected word] 'VIGS': The protected entry writes VIGS in capitals, but the lesson and the decided glossary headword write 'vigs' in lower case, as the AWS does; nothing needs to change in the lesson, but the entry's casing may be worth bringing into line."
+  ],
+  "taal_bons_vir": "sha256:2bce39aeaae6860f80ed2acc3e0d7783",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "c2985af4b11a018713f0dc330a65dada"
 }

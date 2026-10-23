@@ -1,7 +1,7 @@
 {
   "les": "gr5/lewensvaardighede/sosiale-verantwoordelikheid/les-11",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:872853887239c1f53c864646f19f9cd2",
+  "konsep_hash": "sha256:1d2bb4940e318bd3ce75773abe1ec503",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -44,11 +44,141 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\sosiale-verantwoordelikheid\\les-11.json",
       "konsep_hash": "sha256:872853887239c1f53c864646f19f9cd2",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T19:13:09+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1f02cda34acf4ff3ad5f38c2adbefc14",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T19:13:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 481,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:13:10+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:1f02cda34acf4ff3ad5f38c2adbefc14",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T19:18:56+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 12,
+      "laat_vaar": 5,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 481,
+      "woorde_na": 479,
+      "konsep_hash": "sha256:369ebb8c82ac00be7c8f2e0849658667"
+    },
+    {
+      "wanneer": "2026-10-23T19:18:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 479,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:18:57+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Daarna het die hele gesin onder die boom in die agterplaas geëet.': 'Die boom' reads as the Christmas tree just mentioned, but that one stands in front of the window, while this one is in the back yard; it is unclear whether a different tree is meant ('n boom), so this is not changed without guessing."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T19:47:25+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:091a5adbf7c3b6288ed5f05cbe8d02f9",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T19:47:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 479,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:00:02+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 479,
+      "woorde_na": 480,
+      "konsep_hash": "sha256:1d2bb4940e318bd3ce75773abe1ec503"
+    },
+    {
+      "wanneer": "2026-10-23T20:00:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 480,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:05:46+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:05:47+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:05:59+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:05:59+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:06:00+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\sosiale-verantwoordelikheid\\les-11.json",
+      "konsep_hash": "sha256:1d2bb4940e318bd3ce75773abe1ec503",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:3c54f5385e733d7a59b2a8d966637122",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Die Adams-gesin woon reg oorkant ons, en hulle vas elke jaar 'n hele m': The protected sentence says only the adults fast and must not be widened to the family, yet this earlier sentence already says the whole family ('hulle', the Adams-gesin) fasts; the writer should decide whether this sentence makes the claim the protection was meant to prevent. Not a language fix, so not changed."
+  ],
+  "taal_geforseer_vir": "sha256:1f02cda34acf4ff3ad5f38c2adbefc14",
+  "taal_rondte_vir": "sha256:1d2bb4940e318bd3ce75773abe1ec503",
+  "taal_keurder_vir": "92f8a5f997b87c7bdba136f9cd774330",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:1d2bb4940e318bd3ce75773abe1ec503",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:369ebb8c82ac00be7c8f2e0849658667",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "1674b272db5873cb4a56147b08714c29"
 }

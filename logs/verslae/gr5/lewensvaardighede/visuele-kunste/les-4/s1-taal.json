@@ -1,0 +1,89 @@
+{
+  "toegepas": [
+    {
+      "nr": 4,
+      "blok": "Kontras in die lug",
+      "voor": "is so 'n kontras en jou oog kry hom dadelik raak",
+      "na": "is so 'n kontras, en jou oog kry hom dadelik raak",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two sentences, each with its own subject and verb ('n donker voel ... is'; 'jou oog kry').",
+      "rede_keurder": "Required comma under the AWS 2017; nothing else changes."
+    },
+    {
+      "nr": 6,
+      "blok": "Jou eie werk en 'n maat se werk",
+      "voor": "Kyk met dieselfde stappe na jou eie prent of model van iets wat vlieg uit hierdie kwartaal se kunsklas.",
+      "na": "Kyk met dieselfde stappe na jou eie prent of model van iets wat vlieg. Jy het dit in hierdie kwartaal se kunsklas gemaak.",
+      "soort": "sinsbou",
+      "rede_vinder": "The trailing 'uit hierdie kwartaal se kunsklas' seems to attach to 'wat vlieg'; splitting it makes clear it refers to the learner's own work.",
+      "fout": "The trailing 'uit hierdie kwartaal se kunsklas' attaches to 'iets wat vlieg', so the sentence can be read as something flying out of the art class.",
+      "rede_keurder": "Splitting the sentence removes the misreading, keeps 'model' and the same meaning (the learner's own work from this term's class), and leaves two shorter sentences."
+    },
+    {
+      "nr": 7,
+      "blok": "Jou eie werk en 'n maat se werk",
+      "voor": "Kyk so na 'n maat se werk.",
+      "na": "Kyk net so na 'n maat se werk.",
+      "soort": "idioom",
+      "rede_vinder": "'Kyk so' is vague; 'net so' clearly means 'in the same way'.",
+      "fout": "'Kyk so' is flat and can read as a casual 'just look', not 'look in the same way'.",
+      "rede_keurder": "'Kyk net so' clearly means 'in the same way, with the same steps', and it still points back correctly after change 6."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Dinge wat vlieg",
+      "voor": "'n Vlermuis is nie 'n voël nie maar 'n dier",
+      "na": "'n Vlermuis is nie 'n voël nie, maar 'n dier",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before 'maar' after the closing 'nie' marks the contrast and makes the sentence easier to read.",
+      "fout": "none",
+      "rede_keurder": "'maar 'n dier met vlerke van vel' has no verb of its own, so the AWS rule for a comma joining two sentences does not apply, and the double 'nie' already marks the contrast clearly."
+    },
+    {
+      "nr": 2,
+      "blok": "Dinge wat vlieg",
+      "voor": "omdat mense hulle gebou het met dele wat soos 'n masjien saamwerk",
+      "na": "omdat mense hulle met dele gebou het wat soos 'n masjien saamwerk",
+      "soort": "woordorde",
+      "rede_vinder": "In a subordinate clause the verb cluster normally goes after the prepositional phrase.",
+      "fout": "none",
+      "rede_keurder": "Putting the prepositional phrase after 'gebou het' is normal, natural Afrikaans and keeps 'dele' next to its relative clause; the proposal is only a different word order, and it matches the wording of the 'meganies' glossary entry less closely."
+    },
+    {
+      "nr": 5,
+      "blok": "Kontras in die lug",
+      "voor": "Sit 'n natuurlike vlerk langs 'n meganiese een.",
+      "na": "Sit 'n natuurlike en 'n meganiese vlerk langs mekaar.",
+      "soort": "anglisisme",
+      "rede_vinder": "'n meganiese een' copies English 'a mechanical one'; Afrikaans does not use 'een' as a noun substitute this way.",
+      "fout": "none",
+      "rede_keurder": "Using 'een' as a noun substitute ('n meganiese een') is ordinary Afrikaans, so the proposal is a lateral rewording."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "Die kunselemente een laaste keer",
+      "voor": "Die kunselemente van die hele jaar werk ook by dinge wat vlieg.",
+      "na": "Jy kan die kunselemente van die hele jaar ook by dinge wat vlieg raaksien.",
+      "soort": "anglisisme",
+      "rede_vinder": "'werk by' copies English 'work with/apply to' and is vague; the meaning is that the elements can be seen in flying things too.",
+      "fout": "'werk ook by dinge wat vlieg' is vague and leans on English 'work with/apply to'.",
+      "rede_keurder": "The fault is real, but in the proposal 'raaksien' lands after the relative clause ('wat vlieg raaksien'), which makes a Grade 5 reader stumble, and it narrows 'apply to' to 'see', so the writer should fix it another way.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 444,
+  "woorde_na": 449,
+  "wanneer": "2026-10-23T17:23:33+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:8bb6957338dde1b4cf017e81e9e81462",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:53c2198e6bc60526039cb54ab6b42952"
+}

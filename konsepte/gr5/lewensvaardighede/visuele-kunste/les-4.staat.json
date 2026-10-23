@@ -1,14 +1,15 @@
 {
   "les": "gr5/lewensvaardighede/visuele-kunste/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d6414bed2be0ff3477ab4f3287fff97f",
+  "konsep_hash": "sha256:203902f6fe5fe836797e7ce08eaee7f7",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:45389295412fd829502476bec9f0768e",
-    "sha256:0ff674beb9b88be44849b038a30eedc3"
+    "sha256:d7918d515f076f3c4c7b02ec3345ea8d"
   ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "die kunselemente een laaste keer": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -152,11 +153,456 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\visuele-kunste\\les-4.json",
       "konsep_hash": "sha256:d6414bed2be0ff3477ab4f3287fff97f",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T16:29:35+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4df11b8a65d538242f7991e30b458686",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-23T16:29:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 449,
+      "begroting": 390,
+      "failures": [
+        "Study text 449 words, above budget ceiling 448 (target 390) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T16:29:35+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 3,
+      "punte": [
+        "Study text 449 words, above budget ceiling 448 (target 390) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T16:29:35+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "revisielimiet",
+      "siklusse": 3
+    },
+    {
+      "wanneer": "2026-10-23T16:40:05+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 3,
+      "vorige_blok_faalrondtes": {}
+    },
+    {
+      "wanneer": "2026-10-23T16:40:05+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8bb6957338dde1b4cf017e81e9e81462",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T16:40:05+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 444,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T16:40:05+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:8bb6957338dde1b4cf017e81e9e81462",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T17:23:33+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 444,
+      "woorde_na": 449,
+      "konsep_hash": "sha256:53c2198e6bc60526039cb54ab6b42952"
+    },
+    {
+      "wanneer": "2026-10-23T17:23:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:23:34+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Die kunselemente van die hele jaar werk ook by dinge wat vlieg.': 'werk ook by dinge wat vlieg' is vague and leans on English 'work with/apply to'."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T17:26:19+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:6c5ebeb6838df215c465c0f9e9e20f4c",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T17:26:19+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 448,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:45:13+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 448,
+      "woorde_na": 451,
+      "konsep_hash": "sha256:b5753c1a624c30a410c2812df43159b8"
+    },
+    {
+      "wanneer": "2026-10-23T17:45:14+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 451,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:53:31+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5968981a81697a7d4cf1774fc6d61b39",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T17:53:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 430,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T17:57:02+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 430,
+      "woorde_na": 430,
+      "konsep_hash": "sha256:95cf9e5714efa5325d673359fbb7dc03"
+    },
+    {
+      "wanneer": "2026-10-23T17:57:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 430,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:27:40+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:27:40+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:27:40+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die kunselemente een laaste keer"
+      ],
+      "tally": {
+        "die kunselemente een laaste keer": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T18:27:40+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Die kleur van 'n voël sit in sy vere en kan kolle of strepe  — corrected: Vernou die hoeveelheid, nie die onderwerp nie: die meeste van 'n voël se kleur sit in sy vere, en die vere kan kolle of strepe hê. Die bek en pote kan ook kleur hê, maar die les hoef dit nie te noem nie; die sin moet net nie meer sê dat ALLE kleur in die vere is nie."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T18:36:59+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c04b9eef698d78747cbdb450e2dddc37",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T18:37:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 431,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:41:15+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 431,
+      "woorde_na": 431,
+      "konsep_hash": "sha256:c206c9db4b613c6bb74faedf58755f77"
+    },
+    {
+      "wanneer": "2026-10-23T18:41:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 431,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:30+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:30+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T18:50:30+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die kunselemente een laaste keer",
+        "jou eie werk en 'n maat se werk"
+      ],
+      "tally": {
+        "die kunselemente een laaste keer": 2,
+        "jou eie werk en 'n maat se werk": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T18:50:30+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "blok_bly_faal",
+      "blok": "die kunselemente een laaste keer",
+      "rondtes": 2
+    },
+    {
+      "wanneer": "2026-10-23T19:17:01+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "die kunselemente een laaste keer": 2,
+        "jou eie werk en 'n maat se werk": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T19:17:01+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a1c6883dfc9ce2fadd1a627273e9b5d5",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T19:17:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 431,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:20:29+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 431,
+      "woorde_na": 431
+    },
+    {
+      "wanneer": "2026-10-23T19:20:29+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Hierdie kwartaal kyk jy na foto's en werklike voorwerpe van dinge wat ': 'werklike voorwerpe van dinge wat kan vlieg' is unclear: it could mean real flying things or real objects such as models of them. It cannot be reworded without guessing which is meant."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T19:23:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:de81ff767edef066af7e50310e18780d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T19:23:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 432,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:27:03+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 432,
+      "woorde_na": 432,
+      "konsep_hash": "sha256:d7918d515f076f3c4c7b02ec3345ea8d"
+    },
+    {
+      "wanneer": "2026-10-23T19:27:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 432,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:35:50+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:35:50+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 33,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:35:50+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die kunselemente een laaste keer"
+      ],
+      "tally": {
+        "die kunselemente een laaste keer": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T19:35:50+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Die vorm van 'n voël se vlerk is meestal sag gerond, maar ba — corrected: Vergelyk die KANTE, nie die rondheid van die vlerk nie: die buitelyn van 'n voël se vlerk bestaan meestal uit geboë lyne, maar baie vliegtuie se vlerke het reguit kante en skerp hoeke. Moenie sê dat 'n voël se vlerk sag gerond is nie - baie voëls, soos swaels en meeue, se vlerke eindig in 'n skerp punt."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T19:38:43+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:9230ff2a7b2f03017ad9e3abb01a8c69",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T19:38:44+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 431,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:40:25+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 431,
+      "woorde_na": 432,
+      "konsep_hash": "sha256:203902f6fe5fe836797e7ce08eaee7f7"
+    },
+    {
+      "wanneer": "2026-10-23T19:40:26+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 432,
+      "begroting": 390,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:49:06+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:49:06+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:49:07+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:49:07+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T19:49:07+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\lewensvaardighede\\visuele-kunste\\les-4.json",
+      "konsep_hash": "sha256:203902f6fe5fe836797e7ce08eaee7f7",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:c8c00e681b33630388ec144ef0c85978",
+  "spek_hash": "sha256:97c4391fe449f9f2edba194c0c0cd133",
   "hek_konteks": {
     "graad": 5,
-    "begroting": 360
-  }
+    "begroting": 390
+  },
+  "taal_vir_skrywer": [],
+  "taal_bons_siklus": 1,
+  "taal_bons_vir": "sha256:a1c6883dfc9ce2fadd1a627273e9b5d5",
+  "taal_geforseer_vir": "sha256:8bb6957338dde1b4cf017e81e9e81462",
+  "taal_rondte_vir": "sha256:203902f6fe5fe836797e7ce08eaee7f7",
+  "taal_keurder_vir": "3dd31fd5b36f7c304b79ccc1b642a821",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:203902f6fe5fe836797e7ce08eaee7f7",
+  "taal_vir_mens": [],
+  "taal_bons_nota": "a572303d79a57f19ebeb5a99831fdad2"
 }
