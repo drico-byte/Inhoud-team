@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/vervoer-op-land/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:49112c32a7639235ca8e0e948b98a42c",
+  "konsep_hash": "sha256:f15e62c9f9a46ea864bd9afec30d8584",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -165,11 +165,102 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\vervoer-op-land\\les-5.json",
       "konsep_hash": "sha256:49112c32a7639235ca8e0e948b98a42c",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T09:57:58+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:49112c32a7639235ca8e0e948b98a42c",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T10:03:48+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 448,
+      "woorde_na": 448,
+      "konsep_hash": "sha256:fedbfbfdf4203d9ceb58ae6b81aab21c"
+    },
+    {
+      "wanneer": "2026-10-23T10:03:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 448,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:03:48+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Mense loop vandag nog net soos hulle voor die dae van diere geloop het': 'voor die dae van diere' can read as 'before animals existed'; the intended sense (before people used animals to carry and pull) cannot be worded without choosing new content words, so a writer should decide."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T10:14:00+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f15e62c9f9a46ea864bd9afec30d8584",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T10:14:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:31:44+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 449,
+      "woorde_na": 449
+    },
+    {
+      "wanneer": "2026-10-23T10:39:50+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:39:50+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:39:50+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\vervoer-op-land\\les-5.json",
+      "konsep_hash": "sha256:f15e62c9f9a46ea864bd9afec30d8584",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:2c9bfe4849a6bf8b4d833e137000bff3",
+  "spek_hash": "sha256:521fd994c18b1c7ccd8d48b5fb7d645c",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
-  }
+  },
+  "taal_geforseer_vir": "sha256:49112c32a7639235ca8e0e948b98a42c",
+  "taal_rondte_vir": "sha256:f15e62c9f9a46ea864bd9afec30d8584",
+  "taal_keurder_vir": "dcf82640a11089d87cf0fdf5f0fbf4d4",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:f15e62c9f9a46ea864bd9afec30d8584",
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'mense teen 'n prys ry': 'teen 'n prys ry' is a loose, calqued phrase; the fixed Afrikaans expression is 'teen betaling'."
+  ],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:fedbfbfdf4203d9ceb58ae6b81aab21c",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "5f7356592af349b9214fb1a7e4657f8f"
 }

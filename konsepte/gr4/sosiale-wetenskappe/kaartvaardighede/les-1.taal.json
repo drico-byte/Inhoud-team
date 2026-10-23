@@ -1,0 +1,47 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n kaart is",
+      "voor": "Jy kan die pad in woorde vertel of jy kan",
+      "na": "Jy kan die pad in woorde beskryf, of jy kan",
+      "soort": "leestekens",
+      "rede_vinder": "One describes ('beskryf') a route rather than 'vertel' it, and AWS 2017 needs a comma before 'of' because both clauses have their own subject and verb ('jy kan ... beskryf', 'jy kan ... teken').",
+      "fout": "'die pad in woorde vertel' is a loose verb for giving a route, and the comma AWS 2017 requires before 'of' joining two full clauses ('jy kan ... vertel', 'jy kan ... teken') is missing.",
+      "rede_keurder": "'beskryf' is the exact verb for putting a route into words and the comma is required; same meaning, no words added, no protected word touched."
+    },
+    {
+      "nr": 3,
+      "blok": "Daar is baie soorte kaarte",
+      "voor": "Daar is baie soorte kaarte en hulle",
+      "na": "Daar is baie soorte kaarte, en hulle",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017 comma before 'en' joining two clauses that each have their own subject and verb ('daar is ... kaarte', 'hulle wys').",
+      "fout": "Missing AWS 2017 comma before 'en' joining two clauses that each have their own subject and verb ('daar is ... kaarte', 'hulle wys').",
+      "rede_keurder": "The comma is required and changes nothing else; this is not a list, and 'kaarte' stays intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Drie vrae wat 'n kaart beantwoord",
+      "voor": "om daar te kom",
+      "na": "om daar uit te kom",
+      "soort": "idioom",
+      "rede_vinder": "'daar uitkom' is the idiomatic Afrikaans for reaching a place.",
+      "fout": "none",
+      "rede_keurder": "'om daar te kom' is correct, natural Afrikaans, so 'daar uit te kom' is a lateral move that adds a word under a hard word ceiling."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 179,
+  "woorde_na": 179,
+  "wanneer": "2026-10-23T09:53:49+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:81aa1fc1f2aa285ea483b8444337a4aa",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:30901e37001a11ab4c63fe892ef4d274"
+}

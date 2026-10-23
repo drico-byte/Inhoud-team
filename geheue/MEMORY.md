@@ -469,3 +469,4 @@
 - [CAPS audit fix-up: where we stand](caps-oudit-herstel-stand.md) — creation stopped until CAPS gaps fixed; 2_PDF is language-checked; unsigned lessons are ours
 - [Language pass and CAPS gaps, Gr 4-6](taalrondte-en-gapings-gr4-6.md) — Lampies 22 Oct: language step over all 338 lessons plus gap fills in one pass, 10 at a time
 - [Two fact checks that differ are a source conflict](twee-feitetoetse-wat-verskil-is-n-bronkonflik.md) — a newer check contradicting a settled ruling goes to Lampies; I overturned one on 22 Oct and reverted it.
+- [Keep going, never ask whether to continue](hou-aan-moenie-vra-of-ek-moet-aangaan.md) — a stopped agent is not a pause; relaunch and keep fixing content.

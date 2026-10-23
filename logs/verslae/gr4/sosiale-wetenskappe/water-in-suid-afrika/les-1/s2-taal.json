@@ -1,0 +1,56 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Water in jou eie huis",
+      "voor": "elke dag en daarom noem",
+      "na": "elke dag, en daarom noem",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two main clauses with their own subject and verb ('doen ons' / 'noem ons'), so a comma is needed; the protected wording stays intact.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two main clauses ('doen ons' / 'noem ons').",
+      "rede_keurder": "Both halves have their own subject and verb, so the comma is required; the protected wording 'Baie van hierdie dinge doen ons elke dag' stays intact and the word count is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Water in fabrieke en myne",
+      "voor": "lê en waai dit",
+      "na": "lê, en waai dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses with their own subject and verb ('gaan die stof' / 'waai dit'), so a comma is needed; the protected wording 'So gaan die stof lê' stays intact.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two clauses ('gaan die stof' / 'waai dit').",
+      "rede_keurder": "The second half has its own stated subject 'dit' and verb 'waai', so the comma is required; the protected 'So gaan die stof lê' is untouched."
+    },
+    {
+      "nr": 3,
+      "blok": "Water wat elektrisiteit help maak",
+      "voor": "turbines draai en so word",
+      "na": "turbines draai, en so word",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses with their own subject and verb ('laat die water' / 'word elektrisiteit'), so a comma is needed.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two clauses ('laat ... draai' / 'word elektrisiteit opgewek').",
+      "rede_keurder": "The second half has its own subject 'elektrisiteit' and verb 'word opgewek', so the comma is required; protected and video words are untouched."
+    },
+    {
+      "nr": 4,
+      "blok": "Tuine, parke en ontspanning",
+      "voor": "In swembaddens en parke en op sportvelde",
+      "na": "In swembaddens, in parke en op sportvelde",
+      "soort": "sinsbou",
+      "rede_vinder": "The double 'en' in a three-item list reads clumsily; repeating the preposition makes a normal list without changing the meaning.",
+      "fout": "The double 'en' in 'In swembaddens en parke en op sportvelde' makes a clumsy three-item list.",
+      "rede_keurder": "Repeating the preposition gives a normal list with the same three places and the same word count, so the meaning and the budget do not move."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 392,
+  "woorde_na": 392,
+  "wanneer": "2026-10-23T10:39:38+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:a64367cf83e2ea226b7729c38de82c3d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:9c2d8fb024c8370caa39111363a338b9"
+}

@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/vervoer-op-land/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:57140c5c716df915033fa7de2e212f5b",
+  "konsep_hash": "sha256:8c302a175fd0ada6993b0151f436d4f0",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -156,11 +156,101 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\vervoer-op-land\\les-2.json",
       "konsep_hash": "sha256:57140c5c716df915033fa7de2e212f5b",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T09:57:57+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:6d13f81cf3a9752792cd40d57055c09f",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:57:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 447,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:57:57+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:6d13f81cf3a9752792cd40d57055c09f",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T10:03:45+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 447,
+      "woorde_na": 448,
+      "konsep_hash": "sha256:cb99289719f1ce45fd0737b002093ff7"
+    },
+    {
+      "wanneer": "2026-10-23T10:03:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 448,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:03:46+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'wat perde of muile getrek het': 'wat perde of muile getrek het' can be read with the vehicle (or its wheels) as the one doing the pulling.",
+        "check (the language finder raised this; it may not be a fault): ''n Klein voertuig met twee wiele wat diere trek ... / 'n Groot voertui': In each definition 'wat' can be read as the subject and attaches next to 'wiele', so a literal reading says the wheels pull the animals or drive the rider. A passive form ('wat deur diere getrek word', 'wat die ryer met pedale aandryf' recast) would fix it but adds words near the ceiling and touches definitions that may be shared, so this is left for the reviewer or writer to decide."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T10:13:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4ceeb887d7c423cf7834da8b6ab39b76",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T10:13:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:31:42+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 449,
+      "woorde_na": 449,
+      "konsep_hash": "sha256:8c302a175fd0ada6993b0151f436d4f0"
+    },
+    {
+      "wanneer": "2026-10-23T10:31:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 450,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:4ff3e5c781d456bbf339c7def4c8b0a7",
+  "spek_hash": "sha256:d4881e1cb8b3d1bcad22975203eae921",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:6d13f81cf3a9752792cd40d57055c09f",
+  "taal_rondte_vir": "sha256:8c302a175fd0ada6993b0151f436d4f0",
+  "taal_keurder_vir": "ff80dad3db43a6eb3add7fe513a7919e",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:8c302a175fd0ada6993b0151f436d4f0",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:cb99289719f1ce45fd0737b002093ff7",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "966039216c50b98a5a390d1a5e702248"
 }

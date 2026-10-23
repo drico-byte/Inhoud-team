@@ -1,0 +1,72 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Twee vrae oor plekke",
+      "voor": "vra oor en oor waar",
+      "na": "vra keer op keer waar",
+      "soort": "anglisisme",
+      "rede_vinder": "'Oor en oor' is a calque of English 'over and over'; 'keer op keer' is the Afrikaans idiom, same word count.",
+      "fout": "'oor en oor' copies English 'over and over'",
+      "rede_keurder": "'Keer op keer' is the natural Afrikaans idiom, has the same meaning and the same word count, and touches no protected word."
+    },
+    {
+      "nr": 2,
+      "blok": "Die plaas",
+      "voor": "skape aan en ander plant",
+      "na": "skape aan, en ander plant",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses each with its own subject and verb (plase hou aan / ander plant).",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'Party plase hou ... aan' and 'ander plant ... gewasse' each have their own subject and verb, so AWS 2017 requires the comma; no words are added."
+    },
+    {
+      "nr": 3,
+      "blok": "Die boeredorpie",
+      "voor": "Daar woon min mense en daar is",
+      "na": "Daar woon min mense, en daar is",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two full clauses (daar woon min mense / daar is min winkels).",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'Daar woon min mense' and 'daar is min winkels en dienste' are two full clauses joined by 'en', so the comma is required."
+    },
+    {
+      "nr": 4,
+      "blok": "Die dorp",
+      "voor": "groter as 'n dorpie en die huise staan",
+      "na": "groter as 'n dorpie, en die huise staan",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two full clauses (dorp is / huise staan).",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'n Dorp is groter' and 'die huise staan nader' each have their own subject and verb, so the comma is required and the meaning is unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Die stad",
+      "voor": "minibus-taxi's en die verkeer",
+      "na": "minibus-taxi's, en die verkeer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: the second 'en' joins a new clause (die verkeer is), not a list item; the protected word stays intact.",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "The second 'en' starts a new clause ('die verkeer is dikwels stadig') rather than a list item, the list itself keeps no comma before its 'en', and 'minibus-taxi's' stays intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die boeredorpie",
+      "teks": "Daar woon min mense en daar is min winkels en dienste. Die mense van die dorpie en die plase rondom deel sy winkel en sy skool.",
+      "rede": "'Min winkels' (plural) is followed by 'sy winkel' (one shop); fixing it means choosing between one shop and a few, which is content, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 386,
+  "woorde_na": 386,
+  "wanneer": "2026-10-23T10:39:36+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:24a3d0e8106804cd62484f32a4e10a28",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:56352d499b7211d14223125d31c0fed7"
+}

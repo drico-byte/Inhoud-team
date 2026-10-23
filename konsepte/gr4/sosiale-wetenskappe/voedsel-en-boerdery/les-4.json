@@ -1,6 +1,6 @@
 {
   "skema_weergawe": "1.0",
-  "status": "goedgekeur",
+  "status": "gated",
   "titel": "Die kaart wys waar die kos groei",
   "graad": 4,
   "vak": "Sosiale Wetenskappe",
@@ -21,20 +21,31 @@
     "boerderystreke",
     "Noordwes",
     "Vrystaat",
-    "KwaZulu-Natal"
+    "KwaZulu-Natal",
+    "suikerriet",
+    "Mpumalanga",
+    "Limpopo",
+    "Laeveld",
+    "provinsiegrense",
+    "avokado's"
   ],
   "herkoms": {
     "kaps_dokument": "KABV Gr 4-6 Sosiale Wetenskappe, Geografie Graad 4, Kwartaal 3, Onderwerp 'Voedsel en boerdery in Suid-Afrika' (afdeling 3.1)",
     "profiel_konfig": "GEEN",
-    "skrywer_prompt": "skrywer-v1.6",
+    "skrywer_prompt": "skrywer-v1.7",
     "handboek_gesien": false,
-    "nota": "EERSTE KONSEP, 7 Oktober 2026, onder skrywer-v1.6. Geen handboek en geen videoskrif gesien nie; bronne is die spesifikasie en eie kennis. BRON VAN DIE SPESIFIKASIE: toe die skrywer begin het, het spek/les-4.json nie bestaan nie; die les is uit die lesse[nommer 4]-inskrywing van spesifikasies/goedgekeur/gr4/sosiale-wetenskappe/voedsel-en-boerdery.json geskryf. Die uittreksel het daarna verskyn en is nagegaan: die lesinskrywing was identies. SPESIFIKASIEFOUT (sleutel 'langs die kaart' / 'elke simbool' in kern-item 1) is intussen by die bron reggemaak; die studieteks haal die beslisde sin aan. KLEINER: 'water op die plaas' staan in kern (item 4) EN in aanvulling (16%); die status is dubbelsinnig maar raak die teks nie. Geen veld bestel 'n eli10-blok nie. STAANDE KEUSES WAT NIE ONGEDAAN GEMAAK MAG WORD NIE: (1) Geen woordelysinskrywing vir simbool, sleutel, boorgat, besproeiing, dam of klimaat nie - ander lesse besit hulle. 'besproeiing' word net GEBRUIK en nie in die studieteks omskryf nie; 'sleutel' se sin in die studieteks is die beslisde gedeelde sin woord vir woord. (2) 'Hierdie soorte boerdery kom ook in ander dele van die land voor' is die kwantifiseerdersin vir al vier streke; moenie dit skrap nie (feitenasiener het dit bevestig). Vrystaat is 'een van die belangrikste mieliestreke', nooit die enigste. (3) 'te min reen vir mielies' in die droe Karoo gaan oor mielies sonder besproeiing; 'Karoo' word nooit 'n woestyn genoem nie. (4) Riviere en damme staan saam sonder die woord 'natuur'. (5) 'Skape met wol word gereeld geskeer' - nie 'die skape' nie, want vleisrasse soos die Dorper verloor self hul wol; geen getal vir hoe gereeld nie. (6) Die gevallestudie dra wat die boer VIR die skape doen (water, weiding, skeer, siektes, roofdiere) voor die produk. (7) 'sagtevrugte' se omskrywing gee bladwisselende bome as onderskeid (kaal in die winter) en NIE 'koel streke' nie, want die woord beteken die soort vrug, nie waar dit groei nie. (8) 'droogte' is BAIE MINDER REEN AS GEWOONLIK OP 'n PLEK, nooit 'baie min of geen reen' nie: 'n absolute maatstaf laat die Karoo lees asof dit altyd in droogte is. Die studieteks se sin is die woordelys se sin met 'n Droogte is' voor; les 6 kopieer dit woord vir woord. Die Karoo-sin ('Selfs die droe Karoo kan 'n droogte kry ...') staan doelbewus daar om die permanente-droogte-lesing te keer. Geen getal vir hoe lank 'n droogte duur of hoe gereeld een kom nie. (9) Die KAROO le GROOTLIKS in die Noord-Kaap, Wes-Kaap en Oos-Kaap en reik ook tot in die Vrystaat; skryf nooit dat dit net oor daardie drie strek nie. (10) KwaZulu-Natal en Noordwes deel die rede GROOT WEIVELDE; 'die gras groei goed' pas Noordwes se droe weste nie. HERSIENING 1, 7 Oktober 2026 (na die vakwye termversoening): droogte herformuleer na 'minder as gewoonlik', besproeiing se tweede omskrywing verwyder, sleutel se sin vervang deur die beslisde gedeelde sin. HERSIENING 2, 7 Oktober 2026 (na feitenasien 23/24): Karoo-sin vernou na 'die grootste deel', beesreel se rede vervang deur groot weivelde vir albei provinsies; niks anders verander nie."
+    "nota": "STAANDE REKORD. Geskryf 7 Oktober 2026 (skrywer-v1.6), hersien 23 Oktober 2026 (skrywer-v1.7). Geen handboek en geen videoskrif gesien nie; bronne is die spesifikasie en eie kennis. HERSIENING 23 OKTOBER 2026 (KABV-oudit, Lampies): 'n kaartblok is bygevoeg, vir die studieblok 'Simbole en 'n sleutel', uit die spesifikasie se 'kaart'-veld en kern-item 6. Blokvorm: {tipe, vir, teks}, soos in references/skema.md en skrywer-v1.7 omskryf. Die studieteks en die woordelysinskrywings is woord vir woord onveranderd, want kern-item 6 se die studieteks hoef nie te verander nie; die kaartblok tel nie teen die begroting nie. Die kaartblok noem net wat die spesifikasie bestel: die vier streke van die studieteks, plus koring (Wes-Kaap), suikerriet (KwaZulu-Natal en Mpumalanga se Laeveld) en mango's en avokado's (warm dele van Limpopo en Mpumalanga). Dit dra doelbewus GEEN oortreffende trap oor koring nie, en dit se dat die kaart HOOFGEBIEDE wys en dat die boerdery ook elders voorkom. Die sleutel se plek word nie voorgeskryf nie (beslisde omvang van 'sleutel'). Spesifikasie-opmerking wat staan: 'water op die plaas' is in kern (item 4) EN in aanvulling (16%); dit raak die teks nie. Geen veld bestel 'n eli10-blok nie. STAANDE KEUSES WAT NIE ONGEDAAN GEMAAK MAG WORD NIE: (1) Geen woordelysinskrywing vir simbool, sleutel, boorgat, besproeiing, dam of klimaat nie - ander lesse besit hulle. 'besproeiing' word net GEBRUIK; 'sleutel' se sin in die studieteks is die beslisde gedeelde sin woord vir woord. (2) 'Hierdie soorte boerdery kom ook in ander dele van die land voor' is die kwantifiseerdersin vir al vier streke; moenie dit skrap nie (feitenasiener het dit bevestig). Vrystaat is 'een van die belangrikste mieliestreke', nooit die enigste. (3) 'te min reen vir mielies' in die droe Karoo gaan oor mielies sonder besproeiing; die Karoo word nooit 'n woestyn genoem nie. (4) Riviere en damme staan saam sonder die woord 'natuur'. (5) 'Skape met wol word gereeld geskeer' - nie 'die skape' nie, want vleisrasse soos die Dorper verloor self hul wol; geen getal vir hoe gereeld nie. (6) Die gevallestudie dra wat die boer VIR die skape doen (water, weiding, skeer, siektes, roofdiere) voor die produk. (7) 'sagtevrugte' se omskrywing gee bladwisselende bome as onderskeid en NIE 'koel streke' nie. (8) 'droogte' is BAIE MINDER REEN AS GEWOONLIK OP 'n PLEK (beslis 7 Oktober 2026 na die vakwye termversoening); die studieteks se sin is die woordelys se sin met 'n Droogte is' voor, en les 6 kopieer dit. Die Karoo-droogtesin staan doelbewus om die permanente-droogte-lesing te keer. Geen getal vir hoe lank of hoe gereeld nie. (9) Die grootste deel van die Karoo le in die Noord-Kaap, Wes-Kaap en Oos-Kaap en dit reik tot in die Vrystaat; nooit 'net daardie drie' nie (feitenasien 7 Oktober 2026). Die kaartblok volg dieselfde vorm. (10) KwaZulu-Natal en Noordwes deel die rede GROOT WEIVELDE; 'die gras groei goed' pas Noordwes se droe weste nie (feitenasien 7 Oktober 2026)."
   },
   "blokke": [
     {
       "tipe": "studie",
       "kop": "Simbole en 'n sleutel",
       "teks": "Jy weet al hoe simbole en 'n sleutel jou help om 'n kaart te lees. 'n Boerderykaart van Suid-Afrika gebruik simbole om te wys waar wat geboer word. 'n Mieliekop kan byvoorbeeld staan vir 'n gebied met baie mielielande. Die sleutel is 'n lys op 'n kaart wat verduidelik wat die simbole daarop beteken. Soek eers die skaap se simbool in die sleutel en dan op die kaart. So vind jy die gebiede waar baie skape aangehou word."
+    },
+    {
+      "tipe": "kaart",
+      "vir": "Simbole en 'n sleutel",
+      "teks": "'n Boerderykaart van Suid-Afrika met die nege provinsies en hul name. Die kaart het 'n sleutel met een simbool vir elke soort boerdery hieronder, en elke simbool staan op die hoofgebiede vir daardie boerdery. Die vier streke van die les: mielies in die Vrystaat, met 'n mieliekop as simbool; sagtevrugte in die koeler dele van die Wes-Kaap; skape in die Karoo, as een gebied oor die provinsiegrense heen, waarvan die grootste deel in die Noord-Kaap, Wes-Kaap en Oos-Kaap lê; en beeste in KwaZulu-Natal en Noordwes. Die skaap se simbool moet in die sleutel staan. Daarby nog drie soorte boerdery: koring in die Wes-Kaap; suikerriet in KwaZulu-Natal en in Mpumalanga se Laeveld; en mango's en avokado's in die warm dele van Limpopo en Mpumalanga. Die kaart sê dat dit die hoofgebiede wys en dat hierdie soorte boerdery ook in ander dele van die land voorkom. Geen ander gewasse, diere of streke nie."
     },
     {
       "tipe": "studie",

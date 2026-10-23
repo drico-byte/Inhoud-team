@@ -1,0 +1,243 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Al daardie water, en so min om te drink",
+  "kaps_punt": "Soutwater en varswater op aarde",
+  "verdict": "HERSIEN",
+  "items": [
+    {
+      "bewering": "Nie alle water op die aarde is dieselfde nie. Daar is twee soorte water: soutwater en varswater.",
+      "blok": "Twee soorte water",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS Water Science School / brackish groundwater assessment (https://www.usgs.gov/mission-areas/water-resources/science/brackish-groundwater-assessment): 'saline' commonly means any water with more than 1 000 mg/L dissolved solids and INCLUDES the brackish range, so the hydrological classification is binary fresh/saline. Note for a person, not a fault: brackish water (estuaries) sits inside the 'saline' class, so the two-way split holds."
+    },
+    {
+      "bewering": "Soutwater bevat baie sout, en ons vind dit in die oseane.",
+      "blok": "Twee soorte water",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS 'Where is Earth's water' (https://www.usgs.gov/water-science-school/science/where-earths-water) lists the oceans as saline; seawater is about 3.5% dissolved salt by weight (NOAA, as reported in https://www.livescience.com/32454-why-cant-we-drink-saltwater.html), about 35 000 mg/L (USGS brackish assessment)."
+    },
+    {
+      "bewering": "Mense kan nie soutwater drink nie",
+      "blok": "Twee soorte water",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS 'Why can't people drink seawater?' (https://www.usgs.gov/water-science-school/science/water-qa-why-cant-people-drink-seawater): kidneys cannot get enough freshwater to dilute the salt; human kidneys can only make urine less salty than blood, and seawater is over three times saltier than blood (NOAA via Live Science)."
+    },
+    {
+      "bewering": "en die meeste diere en plante op land ook nie",
+      "blok": "Twee soorte water",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Plants: Flowers & Colmer 2015, Annals of Botany (https://pmc.ncbi.nlm.nih.gov/articles/PMC4332615) - less than 0.2% of plant species can grow and reproduce with repeated seawater exposure; Glenn et al. 1999 - halophytes about 2% of terrestrial species. Animals: Journal of Experimental Biology review 2001 (https://pubmed.ncbi.nlm.nih.gov/11441026/) - only some marine mammals concentrate urine above seawater; land vertebrates generally cannot. 'Die meeste' is correctly narrowed, not 'alle'."
+    },
+    {
+      "bewering": "Varswater is die water wat ons elke dag drink en waarmee ons kos maak en was.",
+      "blok": "Die water wat ons gebruik",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Follows from the seawater item above (people cannot drink saline water); GCIS SA Yearbook Water and Sanitation chapter (https://www.gcis.gov.za/sites/default/files/21%20Water%20and%20Sanitation%202022-23.pdf) lists municipal (household) use as about 27% of SA's freshwater use."
+    },
+    {
+      "bewering": "Boere lei ook hulle gewasse met varswater nat.",
+      "blok": "Die water wat ons gebruik",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "GCIS SA Yearbook (https://www.gcis.gov.za/sites/default/files/21%20Water%20and%20Sanitation%202022-23.pdf): agriculture is the largest water use at 61%; DWS speech by Minister Didiza (dws.gov.za) calls irrigation the largest single user of runoff water at about 60%."
+    },
+    {
+      "bewering": "Varswater bevat baie min sout.",
+      "blok": "Die water wat ons gebruik",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS brackish groundwater assessment: water under 1 000 mg/L dissolved solids is below the saline line, against about 35 000 mg/L for seawater - roughly a thirty-fifth or less."
+    },
+    {
+      "bewering": "Daar is wel 'n bietjie sout daarin, maar te min om dit te proe.",
+      "blok": "Die water wat ons gebruik",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "The first half is correct: freshwater carries dissolved salts (USGS: freshwater is water under about 1 000 mg/L dissolved solids, not zero). The second half is stated for ALL freshwater and is too strong. WHO's taste threshold for sodium chloride and chloride in water is about 200-300 mg/L (WHO chloride background document, as quoted at https://es.scribd.com/document/220032846/Chloride), and WHO/NHMRC rate water at 600-900 mg/L dissolved solids only 'fair' and 900-1 200 'poor' in taste (https://guidelines.nhmrc.gov.au/australian-drinking-water-guidelines/part-5/physical-chemical-characteristics/total-dissolved-solids). So freshwater at the upper end of its range can taste brackish; much South African borehole water does. Typical river, rain and tap water is far below that.",
+      "regstelling": "Narrow the quantifier, do not cut the sentence: the salt in freshwater is USUALLY too little to taste (gewoonlik te min om te proe), rather than always too little. The fact that freshwater does contain a little salt is correct and should stay."
+    },
+    {
+      "bewering": "Ons vind varswater in riviere en strome",
+      "blok": "Die water wat ons gebruik",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS 'Where is Earth's water' table (via search; the page itself timed out on fetch): 'Streams, lakes, swamps (fresh)' listed as freshwater storage; Michigan Sea Grant (https://www.michiganseagrant.org/lessons/?p=321) names lakes, rivers and shallow groundwater as accessible freshwater."
+    },
+    {
+      "bewering": "in die meeste mere",
+      "blok": "Die water wat ons gebruik",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "IAGLR 'Large Lakes of the World' (https://seagrant.sunysb.edu/Images/Uploads/PDFs/IAGLR-LargeLakesOfTheWorld0512.pdf): of lakes of 500 km2 and more, 75% are freshwater and 25% saline; small lakes are more often fresh; salt lakes are defined as water 'significantly higher [in salt] than most lakes' (https://en.wikipedia.org/wiki/Salt_lake). Holds BY NUMBER, which is how a learner reads 'die meeste mere'. Note for a person: by VOLUME, lake water is roughly half saline (Shiklomanov: fresh 91 000 km3, saline 85 400 km3, mostly the Caspian Sea), so the claim must not be turned into 'most lake water'."
+    },
+    {
+      "bewering": "en die meeste vleilande",
+      "blok": "Die water wat ons gebruik",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Ramsar Global Wetland Outlook 2018 / Davidson et al. (https://www.ramsar.org/sites/default/files/documents/library/gwo_technical_note_status_e.pdf): inland natural wetlands about 77% of global wetland extent (peatlands, marshes, swamps), human-made about 12% (mainly rice paddies and reservoirs), coastal and marine about 10% (tidal flats, saltmarshes). 'Die meeste', not 'alle', is correct: saltmarshes and mangroves are salt or brackish."
+    },
+    {
+      "bewering": "Daar is ook varswater in ys en onder die grond.",
+      "blok": "Die water wat ons gebruik",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS Water Science School table (Shiklomanov 1993), as reproduced by the University of Nebraska groundwater network (https://snr.unl.edu/data/water/groundwater/realtime/waterdistribution.aspx): ice caps, glaciers and permanent snow hold about 68.6-68.7% of freshwater, fresh groundwater about 30.1%. USGS FAQ (https://www.usgs.gov/faqs/how-much-earths-water-stored-glaciers): about three-quarters of freshwater is in glaciers. The sentence says 'ook', not that all groundwater is fresh, so it is correct (much groundwater is saline)."
+    },
+    {
+      "bewering": "Die meeste van die aarde se water lê in die oseane, en daardie water is sout.",
+      "blok": "So min om te drink",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "USGS 'Where is Earth's water' (via search result for https://www.usgs.gov/water-science-school/science/where-earths-water): oceans (saline) 1 338 000 000 km3 of about 1 386 000 000 km3, i.e. about 96.5%; 'almost all of Earth's water is saline and is found in the oceans'."
+    },
+    {
+      "bewering": "Van al die water op aarde is net 'n klein deel varswater wat mense kan gebruik.",
+      "blok": "So min om te drink",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "USGS: only about 2.5% of Earth's water is freshwater, about two-thirds of it locked in ice; EarthDate (https://www.earthdate.org/files/000/002/644/EarthDate_001.pdf) and Michigan Sea Grant (https://www.michiganseagrant.org/lessons/?p=321): less than 1% of the world's water is accessible for use. True on either reading of the sentence."
+    },
+    {
+      "bewering": "Varswater is dus baie skaarser as soutwater.",
+      "blok": "So min om te drink",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Same USGS figures: about 2.5% fresh against about 97.5% saline by volume. The 'dus' follows from the two sentences before it."
+    },
+    {
+      "bewering": "'n Natuurlike hulpbron is iets uit die natuur wat mense gebruik om in hulle behoeftes te voorsien.",
+      "blok": "Water is 'n natuurlike hulpbron",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Natural resource (https://en.wikipedia.org/wiki/Natural_resource) and the Utah Education Network climate vocabulary (https://www.uen.org/climate/index.php): materials occurring in nature, without human making, that people use; UNISA GeoTerm (https://gama.unisa.ac.za/geoterm/concepts/232/en) notes something becomes a resource when people use or value it, which the definition's 'wat mense gebruik' captures."
+    },
+    {
+      "bewering": "Die hout van bome is 'n natuurlike hulpbron, en so is die grond waarin boere kos kweek.",
+      "blok": "Water is 'n natuurlike hulpbron",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Standard examples in the natural-resource literature above: vegetation/forests and soil are listed with water, air and minerals (https://en.wikipedia.org/wiki/Natural_resource; https://sathee.iitk.ac.in/article/social-science/geography-natural-resources)."
+    },
+    {
+      "bewering": "Water is een van die belangrikste natuurlike hulpbronne wat ons het.",
+      "blok": "Water is 'n natuurlike hulpbron",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Already the softened form ('een van die belangrikste', not 'die belangrikste'). Supported by the next item (no life without water) and by DWS/GCIS framing of water as a scarce strategic resource in SA (https://www.gcis.gov.za/sites/default/files/21%20Water%20and%20Sanitation%202022-23.pdf). Evaluative, but defensible as written."
+    },
+    {
+      "bewering": "Elke mens, dier en plant het water nodig om te lewe.",
+      "blok": "Water is 'n natuurlike hulpbron",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Water is the medium of all cellular reactions and transport in living things (Christopher Baird, West Texas A&M, and general biology sources found; e.g. https://archive.imascientist.org.uk/fluorinej10-zone/question/why-do-living-things-need-foodwater-to-live.html). The 'elke' holds: animals that never drink (e.g. some desert rodents, marine mammals) still need water and get it from food and metabolism (J Exp Biol review, https://pubmed.ncbi.nlm.nih.gov/11441026/). The sentence says 'need water', not 'need to drink', so it is safe."
+    },
+    {
+      "bewering": "Jy het al gesien hoe nat wasgoed aan die draad in die son droog word. Die water in die klere verdwyn nie sommer nie.",
+      "blok": "Waar gaan die water heen?",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Everyday observation; the second sentence correctly sets up that the water goes somewhere (into the air as vapour), consistent with USGS evaporation material (https://usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle)."
+    },
+    {
+      "bewering": "Die son maak die water warm, en van die water verander in waterdamp.",
+      "blok": "Waar gaan die water heen?",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS evaporation and the water cycle (https://usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle) and the evaporation-energy figures summarised at https://www.earth.com/news/energy-evaporation-power-us/: the sun supplies the energy for most evaporation and warmer water evaporates faster. The sentence describes laundry in the sun and does not claim evaporation needs the sun or boiling, so it does not teach that water only evaporates when heated."
+    },
+    {
+      "bewering": "Die waterdamp styg op in die lug, maar jy kan dit nie sien nie.",
+      "blok": "Waar gaan die water heen?",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "London South Bank University water science pages (https://water.lsbu.ac.uk/water/steam.html): water vapour is an odourless, transparent, invisible gas; visible 'steam' and clouds are liquid droplets (Baird, https://wtamu.edu/~cbaird/sq/2012/12/16/clouds-are-just-water-vapor-so-why-do-they-move/). Humid air is less dense than dry air (water 18 g/mol against air about 29 g/mol), so it rises (https://scienceblog.com/t-cumulus-cloud-500-tonnes-floats-buoyancy/)."
+    },
+    {
+      "bewering": "Ons noem hierdie verandering verdamping.",
+      "blok": "Waar gaan die water heen?",
+      "status": "bevestig",
+      "tipe": "naam",
+      "bron": "USGS: evaporation is the change of liquid water into water vapour (https://usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle); 'verdamping' is the standard Afrikaans term for evaporation."
+    },
+    {
+      "bewering": "Water verdamp ook uit riviere, damme, nat grond en die see.",
+      "blok": "Waar gaan die water heen?",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Yale Teachers Institute unit citing USGS (https://teachersinstitute.yale.edu/curriculum/units/2007/4/07.04.02/3): about 90% of evaporation is from bodies of water including oceans, lakes and rivers; USGS flux tables (https://www.usgs.gov/index.php/water-science-school/science/water-pools-and-fluxes-data-tables) list ocean evaporation and land evapotranspiration, which includes soil."
+    },
+    {
+      "bewering": "Die son maak ook die seewater warm, en van daardie water verdamp.",
+      "blok": "Die sout bly agter",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS flux tables (https://www.usgs.gov/index.php/water-science-school/science/water-pools-and-fluxes-data-tables): ocean evaporation about 420 500 km3 a year; the sun supplies the energy (as above)."
+    },
+    {
+      "bewering": "Die sout kan nie saam met die waterdamp opstyg nie en bly in die see agter.",
+      "blok": "Die sout bly agter",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Popular Science (https://www.popsci.com/if-rain-and-snow-come-the-ocean-why-arent-they-salty/): water evaporates and leaves the sodium chloride behind; WRAL meteorologist (https://www.wral.com/story/3389970/): vapour is nearly pure water. Sea spray does lift tiny salt particles into the air, but not with the evaporating vapour, and the sentence is about the vapour."
+    },
+    {
+      "bewering": "Jy kan dit self sien as jy 'n bakkie soutwater in die son laat staan. Na 'n ruk is die water weg en lê daar 'n wit lagie sout in die bakkie.",
+      "blok": "Die sout bly agter",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Same sources as above (salt is left behind when salt water evaporates); this is also how solar salt is made in evaporation pans. MAPPING checked: the dish models the sea for exactly one thing - water leaves, salt stays - and that holds. Where it stops mapping: the dish dries out completely and the sea does not, because rivers and rain keep refilling it. The lesson does not say or imply that the sea dries up ('van daardie water verdamp'), so a learner is not led there by the text; noted for the video, which may show the dish drying."
+    },
+    {
+      "bewering": "Daarom bevat die waterdamp uit die see geen sout nie.",
+      "blok": "Die sout bly agter",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Popular Science and WRAL as above: evaporation leaves all dissolved solids, including salt, behind, so the vapour itself is pure water. 'Geen' is correct for the vapour; rain later picks up trace salt from airborne particles (WSB via https://www.ajc.com/news/local/the-news/uipNkPuuzLsvZX6nI5TNWM), but the sentence is about the vapour, and the lesson elsewhere says freshwater has a little salt, so the two do not clash."
+    },
+    {
+      "bewering": "Die waterdamp vorm later wolke wat reën gee.",
+      "blok": "Die sout bly agter",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Baird, West Texas A&M (https://wtamu.edu/~cbaird/sq/2012/12/16/clouds-are-just-water-vapor-so-why-do-they-move/): clouds are droplets formed when vapour condenses; NASA water-cycle material (https://climate.nasa.gov/quizzes/water-cycle/) on precipitation from that moisture."
+    },
+    {
+      "bewering": "So kom baie van ons varswater eintlik uit die sout see.",
+      "blok": "Die sout bly agter",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS flux tables (https://www.usgs.gov/index.php/water-science-school/science/water-pools-and-fluxes-data-tables): about 46 000 km3 a year of ocean moisture is carried over land, against about 110 600 km3 of precipitation on land - roughly 40%; NASA (https://climate.nasa.gov/quizzes/water-cycle/): most evaporation is over the ocean. 'Baie', not 'al' or 'die meeste', is correctly sized."
+    },
+    {
+      "bewering": "soutwater: Water wat baie sout bevat, soos die water in die oseane.",
+      "blok": "soutwater",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS saline-water definition and ocean salinity as above (about 35 000 mg/L). Read alone the entry is true."
+    },
+    {
+      "bewering": "varswater: Water wat baie min sout bevat, soos die water in riviere en die meeste mere.",
+      "blok": "varswater",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USGS fresh/saline threshold (under about 1 000 mg/L) and IAGLR lake counts as above. Read alone the entry is true; it does not carry the 'te min om te proe' overstatement from the study block."
+    },
+    {
+      "bewering": "natuurlike hulpbron: Iets uit die natuur wat mense gebruik om in hulle behoeftes te voorsien.",
+      "blok": "natuurlike hulpbron",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Same sources as the study-block definition (https://en.wikipedia.org/wiki/Natural_resource; https://gama.unisa.ac.za/geoterm/concepts/232/en). Identical wording to the study block, so the two cannot disagree."
+    }
+  ],
+  "opsomming": "One claim is too strong and needs its quantifier narrowed: the lesson says the salt in freshwater is always too little to taste, but freshwater near the top of its range (and much South African borehole water) can taste brackish, so it should say usually; every other claim, including all four 'die meeste' quantifiers and the salt-dish demonstration, checked out."
+}

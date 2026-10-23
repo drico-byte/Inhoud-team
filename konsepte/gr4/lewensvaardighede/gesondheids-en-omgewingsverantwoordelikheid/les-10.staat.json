@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-10",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:872e475614d145744b3cdc9c73e7b0d1",
+  "konsep_hash": "sha256:c5debfc6296311cda87e9aed111b29cb",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -78,15 +78,172 @@
       "gebeurtenis": "taal_geforseer",
       "konsep_hash": "sha256:872e475614d145744b3cdc9c73e7b0d1",
       "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T08:14:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 10,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 483,
+      "woorde_na": 482,
+      "konsep_hash": "sha256:519c85bd83512d7f211e61baaeb71e7c"
+    },
+    {
+      "wanneer": "2026-10-23T08:14:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 482,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:14:54+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Hulle gaan skool toe en hulle werk en hulle leef': Three full clauses joined by 'en' lack the AWS commas.",
+        "check (the language finder raised this; it may not be a fault): 'Jy kan naby haar wees sonder enige gevaar.': 'haar' refers back to 'Iemand' (maat, onderwyser, ouma) but can be read as Suster Nomsa, and it genders a neutral 'iemand'. 'naby so iemand' would fix it but adds a word to a text at its ceiling, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T08:22:23+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f21dba7be3fb128e7c02f36429f6df55",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T08:22:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 484,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:31:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 484,
+      "woorde_na": 484,
+      "konsep_hash": "sha256:b4532614cd964c49412883de7546ffb9"
+    },
+    {
+      "wanneer": "2026-10-23T08:31:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 484,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:11:40+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:645723711260a2c6f08b53a3592fdf15",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:11:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 471,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:20:08+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 471,
+      "woorde_na": 471,
+      "konsep_hash": "sha256:5493f7827483bd507765b4d47bbc6448"
+    },
+    {
+      "wanneer": "2026-10-23T09:20:09+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 471,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:30:29+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ae12aa8d9a10b8654ddc7a827d485353",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:30:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 463,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:39:25+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 4,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 463,
+      "woorde_na": 464,
+      "konsep_hash": "sha256:c5debfc6296311cda87e9aed111b29cb"
+    },
+    {
+      "wanneer": "2026-10-23T09:39:26+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 464,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:53:19+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:53:19+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:53:19+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-10.json",
+      "konsep_hash": "sha256:c5debfc6296311cda87e9aed111b29cb",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:6dc1181e248c98dd2ce3c6cc652498d6",
+  "spek_hash": "sha256:a66c73a1ed0af02bebaed2611a769e41",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
   },
-  "taal_vir_skrywer": [],
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'net waar hy lê': 'net waar hy lê' can be misread as 'only where it lies'"
+  ],
   "taal_geforseer_vir": "sha256:872e475614d145744b3cdc9c73e7b0d1",
-  "taal_rondte_vir": "sha256:872e475614d145744b3cdc9c73e7b0d1",
-  "taal_keurder_vir": "72ee411c30af97bdc2735fb0f20726a6"
+  "taal_rondte_vir": "sha256:c5debfc6296311cda87e9aed111b29cb",
+  "taal_keurder_vir": "f9d8f8bc9d1cd3f7a6d67f9f5a5cebbd",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:c5debfc6296311cda87e9aed111b29cb",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:519c85bd83512d7f211e61baaeb71e7c",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "bbf8241e8dd3a0526bb3641d113bc12a"
 }

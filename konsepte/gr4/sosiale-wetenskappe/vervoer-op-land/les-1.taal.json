@@ -1,0 +1,98 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat verander het",
+      "voor": "So hoef 'n mens die pad minder kere heen en weer te stap",
+      "na": "So moes 'n mens die pad minder kere heen en weer stap",
+      "soort": "grammatika",
+      "rede_vinder": "'Hoef' normally needs a negative, and the present tense breaks the block's past narrative ('kon'); 'moes' fixes both and saves a word.",
+      "fout": "'hoef' stands without a negative ('minder kere hoef ... te stap'), which a careful editor marks as unnatural, and it repeats 'hoef' in the next-but-one sentence.",
+      "rede_keurder": "'moes ... minder kere stap' is the natural form, says the same thing (fewer trips needed), echoes the opening block's 'moes die pad baie keer heen en weer stap', and saves a word."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die olifant in Asië",
+      "voor": "stap deur digte woud",
+      "na": "stap deur digte woude",
+      "soort": "grammatika",
+      "rede_vinder": "Countable 'woud' without an article reads unnaturally; the plural is idiomatic and adds no words.",
+      "fout": "none",
+      "rede_keurder": "'deur digte woud' is normal Afrikaans with 'woud' used as a mass noun, so the plural is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 438,
+  "woorde_na": 437,
+  "wanneer": "2026-10-23T10:31:41+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Op sy rug of agter hom aan",
+      "voor": "op sy rug. Of hy trek",
+      "na": "op sy rug, of hy trek",
+      "soort": "sinsbou",
+      "rede_vinder": "A sentence opening with 'Of' reads as a fragment; joining the two clauses with a comma before 'of' follows AWS and flows better.",
+      "fout": "none",
+      "rede_keurder": "The two short sentences set out the 'twee maniere' clearly for Grade 4, and joining them puts two 'of's in one sentence, which is harder to read."
+    },
+    {
+      "nr": 4,
+      "blok": "Baie plekke se eie dier",
+      "voor": "wat daar kan leef en werk",
+      "na": "wat daar kon leef en werk",
+      "soort": "grammatika",
+      "rede_vinder": "The sentence is in the past (het ... gekies), so the relative clause should be past too.",
+      "fout": "none",
+      "rede_keurder": "'wat daar kan leef en werk' is a general truth in the present, like 'Perde stap vinniger' that follows, so the swap is lateral."
+    },
+    {
+      "nr": 5,
+      "blok": "Baie plekke se eie dier",
+      "voor": "Op die plaas het",
+      "na": "Op plase het",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Die plaas' points to one specific farm that was never introduced; the general statement needs 'plase'.",
+      "fout": "none",
+      "rede_keurder": "'Op die plaas' is idiomatic generic Afrikaans for farm life, so 'Op plase' is only a different wording."
+    },
+    {
+      "nr": 9,
+      "blok": "Wat verander het",
+      "voor": "om vinniger te reis as wat 'n dier stap",
+      "na": "om vinniger te reis as wat 'n dier kon stap",
+      "soort": "grammatika",
+      "rede_vinder": "The comparison clause needs a modal in the past to match the past-tense sentence; 'as wat 'n dier stap' reads incomplete.",
+      "fout": "none",
+      "rede_keurder": "'as wat 'n dier stap' is a complete, natural general comparison, and the change only adds a word under a hard ceiling."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat dieselfde gebly het",
+      "voor": "net so vinnig gegaan as wat die dier kon gaan",
+      "na": "net so vinnig gegaan as wat die dier kon stap",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids the clumsy repetition gegaan/gaan and matches 'stap' used for the animals throughout the lesson.",
+      "fout": "none",
+      "rede_keurder": "'kon stap' narrows the meaning to walking, while 'kon gaan' covers every pace an animal such as a horse can go, so the meaning would move."
+    },
+    {
+      "nr": 11,
+      "blok": "Wat dieselfde gebly het",
+      "voor": "lei en na hom kyk",
+      "na": "lei en na hom omsien",
+      "soort": "anglisisme",
+      "rede_vinder": "'na hom kyk' can read as 'look at him' (from English 'look after'); 'na hom omsien' clearly means care for him.",
+      "fout": "none",
+      "rede_keurder": "'na iemand kyk' is standard Afrikaans for looking after someone and is plainer for Grade 4 than the more formal 'omsien'."
+    }
+  ],
+  "konsep_hash_voor": "sha256:91bbe7ef0fdc166822b2fb0b17b8a06d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:422914977e35e9ba4e2ea9f5a1e284ef"
+}

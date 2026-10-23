@@ -6,18 +6,18 @@
   "budget": 450,
   "begrotingsreel": "default ±15%: 382-518",
   "begroting_basis": "meting",
-  "na_taal": false,
-  "checked_at": "2026-10-23T07:30:36+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-23T08:22:16+00:00",
   "study": {
-    "words": 503,
+    "words": 500,
     "sentences": 37,
-    "mean_sentence_len": 13.6,
+    "mean_sentence_len": 13.5,
     "median_sentence_len": 14,
     "longest_sentence": 29,
-    "mean_syllables": 1.28,
-    "pct_polysyllabic": 2.8,
-    "pct_long_words": 0.4,
-    "commas_per_sentence": 0.11
+    "mean_syllables": 1.29,
+    "pct_polysyllabic": 3.2,
+    "pct_long_words": 0.6,
+    "commas_per_sentence": 0.49
   },
   "eli10": null,
   "block_counts": {
@@ -26,8 +26,9 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Reading text 503 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (450) plus tolerance allows 518, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
-    "Long words in reading text with no 'begrip' entry: vullismotor"
+    "Reading text 500 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (450) plus tolerance allows 518, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Reading text: 0.49 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in reading text with no 'begrip' entry: vullismotor, vullissakke"
   ],
   "notes": [
     "Afrikaans dictionary not installed — spelling not checked"

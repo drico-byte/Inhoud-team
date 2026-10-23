@@ -1,0 +1,85 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Mense bou vir 'n rede",
+      "voor": "Mense het elkeen van hulle ontwerp",
+      "na": "Mense het elkeen van hierdie geboue ontwerp",
+      "soort": "verwysing",
+      "rede_vinder": "'elkeen van hulle' straight after 'Mense het' can be read as 'each of the people', so naming the buildings makes the reference clear.",
+      "fout": "'Mense het elkeen van hulle' first reads as 'each of the people', so the pronoun can point to two referents.",
+      "rede_keurder": "Naming the buildings removes a real pronoun ambiguity for one extra word, and the meaning is unchanged."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom lyk twee skole nie altyd eenders nie?",
+      "voor": "Die klimaat van die plek tel ook.",
+      "na": "Die klimaat van die plek speel ook 'n rol.",
+      "soort": "anglisisme",
+      "rede_vinder": "'tel ook' copies English 'counts too'; 'speel ook 'n rol' is the Afrikaans idiom.",
+      "fout": "'tel ook' copies English 'counts too' and a Grade 4 reader can take 'tel' as 'count' or 'pick up'.",
+      "rede_keurder": "'speel ook 'n rol' is the natural Afrikaans idiom, removes a likely stumble, and keeps the meaning for two extra words."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Mense bou vir 'n rede",
+      "voor": "Daardie werk gee vir mense",
+      "na": "Daardie werk gee mense",
+      "soort": "register",
+      "rede_vinder": "'gee vir mense' is colloquial; written Afrikaans takes the indirect object without 'vir'.",
+      "fout": "none",
+      "rede_keurder": "'gee vir mense' is accepted, natural Afrikaans for a Grade 4 reader, so dropping 'vir' is a lateral register move."
+    },
+    {
+      "nr": 3,
+      "blok": "Elke gebou het sy eie werk",
+      "voor": "kinders leer hier lees en skryf en baie ander dinge",
+      "na": "kinders leer hier lees, skryf en baie ander dinge",
+      "soort": "sinsbou",
+      "rede_vinder": "The double 'en' reads clumsily; a list comma is smoother and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'lees en skryf' is a fixed pair and the original reads naturally; the list comma only reads differently."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoekom lyk twee skole nie altyd eenders nie?",
+      "voor": "Die werk binne die gebou help bepaal sy grootte en sy vorm.",
+      "na": "Die werk wat in die gebou gedoen word, help om sy grootte en vorm te bepaal.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Die werk binne die gebou help bepaal' is compressed and stiff; the relative clause and 'help om ... te bepaal' read more naturally.",
+      "fout": "none",
+      "rede_keurder": "'help bepaal' with a bare infinitive is standard Afrikaans; the proposal adds four words under a hard ceiling without fixing a fault."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 4,
+      "blok": "Elke gebou het sy eie werk",
+      "voor": "mense van 'n geloof",
+      "na": "mense van dieselfde geloof",
+      "soort": "woordkeuse",
+      "rede_vinder": "'mense van 'n geloof' is unidiomatic; 'van dieselfde geloof' says naturally that the people who gather share one faith.",
+      "fout": "'mense van 'n geloof' is stiff and reads as a translation of English 'people of a faith'.",
+      "rede_keurder": "The fault is real, but 'dieselfde geloof' newly asserts that everyone gathering shares one faith and drops the reading 'religious people', a meaning shift in a religion item the writer should settle.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Hoekom lyk twee skole nie altyd eenders nie?",
+      "teks": "Hoekom lyk twee skole nie altyd eenders nie? / Twee skole in twee dorpe doen dieselfde werk en lyk tog meestal verskillend.",
+      "rede": "The heading suggests schools usually look alike and only sometimes differ, while the first sentence says they mostly look different; the two quantifiers pull against each other, and settling which is meant is a content decision, so it is not changed here. The heading is also phrased as a question."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 355,
+  "woorde_na": 358,
+  "wanneer": "2026-10-23T09:53:53+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ddcda8e8e58b77c220dd88bd3d81e427",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e8c508e431c0a2edaf5696f74ffeefa2"
+}

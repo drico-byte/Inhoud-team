@@ -1,0 +1,94 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Verskillende maniere van boer",
+      "voor": "Gesinne by hul huise en groepe bure in gemeenskapstuine kry so vars kos",
+      "na": "So kry gesinne by hul huise en groepe bure in gemeenskapstuine vars kos",
+      "soort": "woordorde",
+      "rede_vinder": "The long subject delays the verb and buries 'so'; fronting 'So kry' links the sentence to the one before and reads more naturally, with no change in words or meaning.",
+      "fout": "'kry so vars kos' first reads as 'such fresh food' (so vars), and the long subject delays the verb.",
+      "rede_keurder": "Fronting 'So kry' removes the 'so vars' misreading, keeps every word and the meaning, and links back to the previous sentence."
+    },
+    {
+      "nr": 2,
+      "blok": "Gewasboerdery",
+      "voor": "Van mielies maak ons pap en van koring",
+      "na": "Van mielies maak ons pap, en van koring",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb (ons maak).",
+      "fout": "Missing AWS comma between two full clauses (ons maak ... ons maak).",
+      "rede_keurder": "Each half has its own subject and verb, so AWS 2017 requires the comma before 'en'."
+    },
+    {
+      "nr": 3,
+      "blok": "Gewasboerdery",
+      "voor": "Van suikerriet kry ons suiker en van sonneblomme",
+      "na": "Van suikerriet kry ons suiker, en van sonneblomme",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb (ons kry).",
+      "fout": "Missing AWS comma between two full clauses (ons kry ... ons kry).",
+      "rede_keurder": "Each half has its own subject and verb, so AWS 2017 requires the comma before 'en'."
+    },
+    {
+      "nr": 4,
+      "blok": "Gewasboerdery",
+      "voor": "om klere en lap van te maak",
+      "na": "om klere en lap daarvan te maak",
+      "soort": "grammatika",
+      "rede_vinder": "The stranded 'van' has no clear antecedent in this purpose clause; 'daarvan' refers clearly back to katoen.",
+      "fout": "Stranded 'van' in an adverbial purpose clause has no object to attach to.",
+      "rede_keurder": "'daarvan' points clearly back to katoen, adds no word, and leaves the meaning unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Vrugte uit Limpopo en Mpumalanga",
+      "voor": "gesorteer en verpak en vars",
+      "na": "gesorteer, verpak en vars",
+      "soort": "sinsbou",
+      "rede_vinder": "A list of three actions takes commas, not a repeated 'en'; the protected 'Die meeste avokado's' is untouched.",
+      "fout": "Repeated 'en ... en' in a three-part list reads clumsily.",
+      "rede_keurder": "A plain comma list is the natural form, saves a word, and leaves the protected 'Die meeste avokado's' intact."
+    },
+    {
+      "nr": 6,
+      "blok": "Vrugte uit Limpopo en Mpumalanga",
+      "voor": "droë vrugte",
+      "na": "droëvrugte",
+      "soort": "spelling",
+      "rede_vinder": "Dried fruit as a product is the compound 'droëvrugte'; written apart it means fruit that is dry, and the change saves a word.",
+      "fout": "The product 'dried fruit' is the compound 'droëvrugte'; written apart it is a spelling error.",
+      "rede_keurder": "Correct compound spelling for the product, same meaning, one word fewer."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 7,
+      "blok": "kommersiële boerdery",
+      "voor": "Boerdery waar die boer gewasse of diere produseer",
+      "na": "Boerdery waar 'n boer gewasse of diere produseer",
+      "soort": "verwysing",
+      "rede_vinder": "A glossary entry is read on its own, so the definite 'die boer' has no antecedent; the indefinite article fits a definition.",
+      "fout": "The definition uses 'die boer' with no antecedent, unlike the parallel entry's ''n familie'.",
+      "rede_keurder": "This rewords a glossary definition, and only the writer may change one, so it goes to the writer as a flag.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Vir die gesin of vir die winkel",
+      "teks": "op 'n kleiner stuk grond",
+      "rede": "The comparative 'kleiner' compares with farms not yet named, and the same block later says farm size is not the real difference; changing it to 'klein' would harden it into an absolute claim, so it is left for the reviewer or writer to judge rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 391,
+  "woorde_na": 389,
+  "wanneer": "2026-10-23T10:12:37+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:e44dbd9734f6b2ef1fc8f5b69b42ffb0",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:bfe43ddce4bbb217059fc03127479075"
+}

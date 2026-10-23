@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/vervoer-op-land/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:b47c8d769746df9450ddfafce92c81b1",
+  "konsep_hash": "sha256:6604ca92992cda3a243843fbdf8f3eaf",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -167,11 +167,87 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\vervoer-op-land\\les-4.json",
       "konsep_hash": "sha256:b47c8d769746df9450ddfafce92c81b1",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T09:57:58+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:b47c8d769746df9450ddfafce92c81b1",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T10:03:46+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 8,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 445,
+      "woorde_na": 445,
+      "konsep_hash": "sha256:11b25bfcd84a8fa2cf82b619d34aaf77"
+    },
+    {
+      "wanneer": "2026-10-23T10:03:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 445,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:03:47+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in ''n Motor is 'n padvoertuig, gewoonlik op vier wiele, met sy eie enjin ': The relative clause 'wat 'n paar mense vervoer' follows 'enjin' directly, so it can be read as the engine carrying the people.",
+        "check (the language finder raised this; it may not be a fault): ''n Padvoertuig, gewoonlik op vier wiele, met sy eie enjin wat 'n paar ': Same fault as in the study block: 'wat 'n paar mense vervoer' attaches to 'enjin'. The glossary sentence cannot be changed on its own by the script, because it also matches inside the study sentence (case aside), so the study and glossary wording should be changed together by the writer to stay identical, e.g. by moving the relative clause next to 'padvoertuig'."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T10:13:59+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c22e66db6f838c6e1eb006501da78a51",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T10:13:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 446,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:31:43+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 446,
+      "woorde_na": 446,
+      "konsep_hash": "sha256:6604ca92992cda3a243843fbdf8f3eaf"
+    },
+    {
+      "wanneer": "2026-10-23T10:31:44+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 446,
+      "begroting": 450,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:0cb13ed61f810a8cd69f3fbaaa980d7f",
+  "spek_hash": "sha256:36fa83fca7fbdb41d175835a7c524e0b",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
-  }
+  },
+  "taal_geforseer_vir": "sha256:b47c8d769746df9450ddfafce92c81b1",
+  "taal_rondte_vir": "sha256:6604ca92992cda3a243843fbdf8f3eaf",
+  "taal_keurder_vir": "05c8ed92e65929af79c1aed0745ebd28",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:6604ca92992cda3a243843fbdf8f3eaf",
+  "taal_vir_skrywer": [],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:11b25bfcd84a8fa2cf82b619d34aaf77",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "0a2f36cb1f07c4091dcc1038656943d2"
 }

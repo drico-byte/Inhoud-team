@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/voedsel-en-boerdery/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:af05f866a7a0f921a898b601b1d15d5b",
+  "konsep_hash": "sha256:f3624b2526217dac3156e72836a3e828",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -128,11 +128,108 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\voedsel-en-boerdery\\les-3.json",
       "konsep_hash": "sha256:af05f866a7a0f921a898b601b1d15d5b",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T10:02:32+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:e44dbd9734f6b2ef1fc8f5b69b42ffb0",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T10:02:33+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 391,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:12:37+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 6,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 391,
+      "woorde_na": 389,
+      "konsep_hash": "sha256:bfe43ddce4bbb217059fc03127479075"
+    },
+    {
+      "wanneer": "2026-10-23T10:12:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 389,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:12:38+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Boerdery waar die boer gewasse of diere produseer': The definition uses 'die boer' with no antecedent, unlike the parallel entry's ''n familie'.",
+        "check (the language finder raised this; it may not be a fault): 'op 'n kleiner stuk grond': The comparative 'kleiner' compares with farms not yet named, and the same block later says farm size is not the real difference; changing it to 'klein' would harden it into an absolute claim, so it is left for the reviewer or writer to judge rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T10:20:31+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f3624b2526217dac3156e72836a3e828",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T10:20:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 389,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:21:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 389,
+      "woorde_na": 389
+    },
+    {
+      "wanneer": "2026-10-23T10:33:33+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:33:33+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:33:33+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\voedsel-en-boerdery\\les-3.json",
+      "konsep_hash": "sha256:f3624b2526217dac3156e72836a3e828",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:01abcca1bfc5e040aed654a126046d7d",
+  "spek_hash": "sha256:c0c36b733d9f40ff30c487525fb915a9",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_rondte_vir": "sha256:f3624b2526217dac3156e72836a3e828",
+  "taal_keurder_vir": "367af05589653018f1a97f989cd6caf1",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:f3624b2526217dac3156e72836a3e828",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:bfe43ddce4bbb217059fc03127479075",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "d355f0f555ea33f4045b3c4971c99efc"
 }

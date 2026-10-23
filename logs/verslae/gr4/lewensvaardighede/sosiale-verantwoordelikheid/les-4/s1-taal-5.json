@@ -1,0 +1,114 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Die slang met vyf koppe",
+      "voor": "Toe kom die hoofman self, 'n slang met vyf koppe, nader.",
+      "na": "Toe kom die hoofman self nader, 'n slang met vyf koppe.",
+      "soort": "sinsbou",
+      "rede_vinder": "The apposition splits the separable verb 'nader kom' and leaves 'nader' stranded at the end.",
+      "fout": "The apposition separates 'kom' from 'nader', so the particle arrives late after a long interruption.",
+      "rede_keurder": "Closing the verb first and then naming what he is reads more smoothly for a Grade 4 reader, and keeps the reveal at the end without changing the meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Die luiperd en die ram",
+      "voor": "agterna gesleep",
+      "na": "agternagesleep",
+      "soort": "spelling",
+      "rede_vinder": "'Agternasleep' is a compound separable verb, so the past participle is written as one word (like agternaloop).",
+      "fout": "The separable verb 'agternasleep' is split in its past participle.",
+      "rede_keurder": "AWS writes separable compound verbs as one word in the participle (like 'agternaloop'), and joining it also rules out reading 'agterna' as 'afterwards'."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Tselane en die stem by die deur",
+      "voor": "sy bly by die ou hut agter",
+      "na": "sy bly agter by die ou hut",
+      "soort": "woordorde",
+      "rede_vinder": "Keeping the separable 'bly agter' together reads more naturally for a Grade 4 learner.",
+      "fout": "none",
+      "rede_keurder": "'Sy bly by die ou hut agter' is standard main-clause order with the particle last; the proposal is only a different order in a story."
+    },
+    {
+      "nr": 2,
+      "blok": "Tselane en die stem by die deur",
+      "voor": "Tselane maak net oop as",
+      "na": "Tselane maak die deur net oop as",
+      "soort": "sinsbou",
+      "rede_vinder": "'Oopmaak' without an object is loose; naming the door, already in the block, makes the sentence clear.",
+      "fout": "none",
+      "rede_keurder": "Right after 'By die deur' the object is clear, 'maak net oop' is natural spoken Afrikaans, and adding 'die deur' repeats the later 'maak die deur wawyd oop'."
+    },
+    {
+      "nr": 4,
+      "blok": "Die luiperd en die ram",
+      "voor": "wat hy gelos het",
+      "na": "wat hy agtergelaat het",
+      "soort": "register",
+      "rede_vinder": "'Gelos' is colloquial; 'agtergelaat' is the standard written form with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'Los' meaning 'leave behind' is standard Afrikaans and plainer for Grade 4; 'agtergelaat' is only a more formal synonym."
+    },
+    {
+      "nr": 5,
+      "blok": "Die luiperd en die ram",
+      "voor": "Die ram sien hulle kom,",
+      "na": "Die ram sien hulle aankom,",
+      "soort": "idioom",
+      "rede_vinder": "'Iemand sien aankom' is the natural Afrikaans for seeing someone approach.",
+      "fout": "none",
+      "rede_keurder": "'Die ram sien hulle kom' is fully natural Afrikaans; 'aankom' is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die slang met vyf koppe",
+      "teks": "Hy word 'n man, en hy hou die meeste van haar.",
+      "rede": "'Die meeste' has no comparison stated, so it is unclear whether he likes her more than her sister or more than anything; fixing it would mean guessing the intended content."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 515,
+  "woorde_na": 514,
+  "wanneer": "2026-10-23T09:47:23+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 7,
+      "blok": "Tselane en die stem by die deur",
+      "voor": "Mense by 'n ander dorp",
+      "na": "Mense in 'n ander dorp",
+      "soort": "woordkeuse",
+      "rede_vinder": "People live 'in' a village in Afrikaans; 'by 'n dorp' reads as 'near a village' (preposition).",
+      "fout": "none",
+      "rede_keurder": "'by 'n ander dorp' (at another village, where Dimo arrived) reads acceptably, and swapping the preposition to 'in' shifts the location sense without fixing a real fault."
+    },
+    {
+      "nr": 20,
+      "blok": "menseter",
+      "voor": "mense se vleis eet",
+      "na": "mensvleis eet",
+      "soort": "woordkeuse",
+      "rede_vinder": "'mensvleis' is the usual Afrikaans compound and shortens the definition without changing it.",
+      "fout": "none",
+      "rede_keurder": "'mense se vleis' is correct, plain Grade 4 Afrikaans, and a shared glossary definition is not reworded for a lateral compound."
+    },
+    {
+      "nr": 1,
+      "blok": "Die slang met vyf koppe",
+      "voor": "bied 'n muis en 'n padda haar hulp aan",
+      "na": "bied 'n muis en 'n padda aan om haar te help",
+      "soort": "verwysing",
+      "rede_vinder": "'bied haar hulp aan' can be read as Mpunzikazi offering her own help; the rewording makes clear the mouse and frog offer to help her.",
+      "fout": "none",
+      "rede_keurder": "'Bied haar hulp aan' is the standard idiom and the possessive reading is implausible with a plural subject, so this is a lateral move that also breaks the deliberate parallel with the younger sister who 'neem die hulp ... aan'."
+    }
+  ],
+  "konsep_hash_voor": "sha256:d06a16a6d62042cc4a35c9fd8d3d9ca1",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:73699afcf2719423a5cad9595c40e108"
+}

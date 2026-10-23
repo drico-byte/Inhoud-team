@@ -1,10 +1,11 @@
 {
   "les": "gr4/sosiale-wetenskappe/vervoer-op-water/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:c45453cff1fab2f980f254ab6b6fc1d7",
-  "hek": "PASS",
+  "konsep_hash": "sha256:fa2f1e9df0d9e48ea55b343e9492a70e",
+  "hek": "FAIL",
   "teruggestuur_vir": [
-    "sha256:bb2d01127b6d5ccbbcb735fc5797baf9"
+    "sha256:bb2d01127b6d5ccbbcb735fc5797baf9",
+    "sha256:fa2f1e9df0d9e48ea55b343e9492a70e"
   ],
   "eskalasie": null,
   "blok_faalrondtes": {},
@@ -267,11 +268,38 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\vervoer-op-water\\les-1.json",
       "konsep_hash": "sha256:c45453cff1fab2f980f254ab6b6fc1d7",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T09:36:52+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fa2f1e9df0d9e48ea55b343e9492a70e",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T09:36:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 450,
+      "begroting": 400,
+      "failures": [
+        "Study text 450 words, and the budget 400 is a HARD CEILING for this subject and grade — Drico, 29 September 2026. There is no tolerance above it. Cut 50 words. Never drop a requirement to get there: tighten sentences, cut an example, cut anything the video already carries. If it genuinely cannot be done without losing a requirement, say so and stop rather than trimming the requirement away."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T09:36:53+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text 450 words, and the budget 400 is a HARD CEILING for this subject and grade — Drico, 29 September 2026. There is no tolerance above it. Cut 50 words. Never drop a requirement to get there: tighten sentences, cut an example, cut anything the video already carries. If it genuinely cannot be done without losing a requirement, say so and stop rather than trimming the requirement away."
+      ]
     }
   ],
-  "spek_hash": "sha256:c5b547c6d881a771345ff7d834a571ab",
+  "spek_hash": "sha256:de3f062dc740dbb4ea1f8492b3eeb281",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
-  }
+  },
+  "taal_vir_skrywer": []
 }

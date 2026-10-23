@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/ontwikkeling-van-self/les-12",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d59af7baf6598fca46178e7af4848f32",
+  "konsep_hash": "sha256:52d563f0dcb2ed641a3bc9e548442741",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -78,6 +78,90 @@
       "gebeurtenis": "taal_geforseer",
       "konsep_hash": "sha256:d59af7baf6598fca46178e7af4848f32",
       "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T08:15:07+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 4,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 468,
+      "woorde_na": 464,
+      "konsep_hash": "sha256:afbf9c1091cf20d0e77623af715e43c3"
+    },
+    {
+      "wanneer": "2026-10-23T08:15:09+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 464,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:15:09+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'dadelik weer kom as dit weer gebeur': double 'weer' in one short sentence",
+        "check (the language finder raised this; it may not be a fault): 'Die invoer bevat geen BESKERM-afdeling nie.': This is a child-protection story, yet no protected words came with it. I deliberately left the key lines unchanged ('Dit is nie jou skuld nie', 'Jy het niks gedoen om dit te laat gebeur nie', 'Sy het nie gesê dat dit nooit weer sal gebeur nie', 'Sy het gesê sy is bly dat hy dit vir haar kom sê het', and Neo going straight to the bench instead of hiding again). A person may want to check whether this lesson should have protected entries.",
+        "check (the language finder raised this; it may not be a fault): 'Neo het net nie daardie pouse alleen geëet nie.': 'net nie' can read as 'simply did not' or as 'the only difference was that he did not'; I did not change it because choosing between the two would guess the intended emphasis. Probably fine as it stands."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T08:22:36+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ec5eaa18415c0012e1da69bcc6e4b4e0",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T08:22:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 463,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:31:55+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 463,
+      "woorde_na": 463,
+      "konsep_hash": "sha256:52d563f0dcb2ed641a3bc9e548442741"
+    },
+    {
+      "wanneer": "2026-10-23T08:31:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 463,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:59:16+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:59:16+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 19,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:59:16+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\ontwikkeling-van-self\\les-12.json",
+      "konsep_hash": "sha256:52d563f0dcb2ed641a3bc9e548442741",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:b170db0d6615505f401c42e5402dcd72",
@@ -87,6 +171,12 @@
   },
   "taal_vir_skrywer": [],
   "taal_geforseer_vir": "sha256:d59af7baf6598fca46178e7af4848f32",
-  "taal_rondte_vir": "sha256:d59af7baf6598fca46178e7af4848f32",
-  "taal_keurder_vir": "695b307f7e274ab558b273e33026c820"
+  "taal_rondte_vir": "sha256:52d563f0dcb2ed641a3bc9e548442741",
+  "taal_keurder_vir": "180e38ce3afc03d7051c54dc1e8c7008",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:52d563f0dcb2ed641a3bc9e548442741",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:afbf9c1091cf20d0e77623af715e43c3",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "37077e3b6fd94712c37ad39d833f197e"
 }

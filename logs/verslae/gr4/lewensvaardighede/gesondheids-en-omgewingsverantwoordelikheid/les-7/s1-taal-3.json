@@ -1,0 +1,98 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat jy self kan doen",
+      "voor": "fabriek reg te maak",
+      "na": "fabriek te keer",
+      "soort": "woordkeuse",
+      "rede_vinder": "One does not 'fix' smoke in Afrikaans; 'keer' (stop, prevent) is the natural verb and is shorter.",
+      "fout": "'rook reg te maak' is wooden: smoke is not something one 'fixes' in Afrikaans",
+      "rede_keurder": "'te keer' is the natural verb for stopping factory smoke and keeps the point that it is not the learner's job."
+    },
+    {
+      "nr": 2,
+      "blok": "Dinge wat jy elke dag kan doen",
+      "voor": "Gooi vullis in 'n blik",
+      "na": "Gooi vullis in 'n vullisblik",
+      "soort": "woordkeuse",
+      "rede_vinder": "'blik' alone reads as a tin can, and the list uses 'ou blikke' for tins two lines later; 'vullisblik' is unambiguous and matches the last item.",
+      "fout": "'blik' on its own can be read as a tin can, which is how the same list uses 'ou blikke' two items later",
+      "rede_keurder": "'vullisblik' removes the ambiguity, matches the list's last item and changes no meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Dinge wat jy elke dag kan doen",
+      "voor": "brand nie want",
+      "na": "brand nie, want",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma before 'want' joining two main clauses, here an imperative and 'die rook trek'.",
+      "fout": "missing AWS 2017 comma before 'want' joining two clauses that each have their own verb",
+      "rede_keurder": "The imperative 'Moenie vullis brand nie' and 'die rook trek deur die hele straat' are two sentences, so the comma is required."
+    },
+    {
+      "nr": 4,
+      "blok": "Boomplantdag by die skool",
+      "voor": "is later 'n hele week gemaak",
+      "na": "het later 'n hele week geword",
+      "soort": "sinsbou",
+      "rede_vinder": "The passive 'is ... 'n hele week gemaak' is stiff; 'het later 'n hele week geword' says the same thing naturally in the same number of words.",
+      "fout": "the passive 'is later 'n hele week gemaak' is stiff",
+      "rede_keurder": "'het later 'n hele week geword' says the same thing naturally, in the same number of words, for a Grade 4 reader."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "koolstofdioksied",
+      "voor": "wat bome en plante opneem",
+      "na": "wat deur bome en plante opgeneem word",
+      "soort": "verwysing",
+      "rede_vinder": "'wat bome en plante opneem' can be read as the gas taking up the trees; the passive makes clear that the plants take up the gas.",
+      "fout": "none",
+      "rede_keurder": "This is a glossary definition, and the reading the finder warns about (the gas taking up the trees) is too absurd to mislead anyone; the passive makes it longer and breaks the parallel with the 'suurstof' entry."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 500,
+  "woorde_na": 499,
+  "wanneer": "2026-10-23T09:13:49+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Vullis wat lê waar dit nie hoort nie",
+      "voor": "waar vullis beland waar dit nie hoort nie",
+      "na": "waar vullis beland wat nie daar hoort nie",
+      "soort": "sinsbou",
+      "rede_vinder": "Avoids the clumsy 'waar ... waar' repetition without changing the meaning or the length.",
+      "fout": "none",
+      "rede_keurder": "'Waar ... waar' is acceptable, and the restrictive 'vullis wat nie daar hoort nie' quietly suggests some litter does belong there; it also breaks the parallel with the heading and the glossary wording."
+    },
+    {
+      "nr": 3,
+      "blok": "Vuil water kan 'n mens maagsiek maak",
+      "voor": "lyk soms skoon en is dit tog nie",
+      "na": "lyk soms skoon maar is dit tog nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "The sentence is a contrast, so 'maar' is the natural joiner; no comma because the second half shares the subject.",
+      "fout": "none",
+      "rede_keurder": "'En is dit tog nie' is natural Afrikaans, since 'tog' already carries the contrast; swapping in 'maar' is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat jy self kan doen",
+      "voor": "en altyd met 'n grootmens by",
+      "na": "en altyd saam met 'n grootmens",
+      "soort": "idioom",
+      "rede_vinder": "'met 'n grootmens by' is a loose colloquial construction; 'saam met' is standard and keeps 'altyd' and the adult rule intact.",
+      "fout": "none",
+      "rede_keurder": "'met 'n grootmens by' is idiomatic Afrikaans for an adult being present, so this is a lateral move inside a safety instruction (who must be there), and that wording stays as checked."
+    }
+  ],
+  "konsep_hash_voor": "sha256:afbfa59fa6e215c4a27cb7aaf9ace263",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:aa44a0fb8134d89950265b2d64bb08e6"
+}

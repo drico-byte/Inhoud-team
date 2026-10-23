@@ -1,35 +1,36 @@
 {
-  "toegepas": [
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die reg op gesondheid en op kos",
+      "voor": "word gouer siek",
+      "na": "word makliker siek",
+      "soort": "idioom",
+      "rede_vinder": "The point is being more prone to illness, which Afrikaans says idiomatically as 'makliker siek word'; 'gouer' reads as 'sooner'.",
+      "fout": "none",
+      "rede_keurder": "'Gou(er) siek word' is idiomatic Afrikaans for being prone to illness, so 'makliker' is a lateral swap in a health claim that should stay as checked."
+    }
+  ],
+  "na_skrywer": [
     {
       "nr": 1,
       "blok": "Die reg op 'n naam",
-      "voor": "'n naam van sy eie",
-      "na": "'n eie naam",
+      "voor": "Só werk sy reg op 'n naam",
+      "na": "Só word sy reg op 'n naam erken",
       "soort": "anglisisme",
-      "rede_vinder": "'n Naam van sy eie' follows English 'a name of his own'; ''n eie naam' is the natural Afrikaans form, shorter and same meaning.",
-      "fout": "'n naam van sy eie' copies the English 'a name of his own'",
-      "rede_keurder": "''n eie naam' is the natural Afrikaans form, shorter, with the same meaning, and the right stays unconditional."
+      "rede_vinder": "'n Reg 'werk' nie in Afrikaans nie (calque of 'that is how his right works'); registration is how the right is recognised, which keeps the meaning and the length.",
+      "fout": "'Só werk sy reg op 'n naam' is vague and slightly wooden: a right does not 'work', and the sentence does not say what registration does for the right.",
+      "rede_keurder": "The fault is real, but 'erken' adds a legal claim that registration is how the state recognises the right, which in a rights lesson can make a right held from birth sound dependent on registration, so the writer must choose the fix.",
+      "waarom": "the reviewer sent it to the writer"
     }
   ],
-  "nie_toegepas": [],
-  "laat_vaar": [],
-  "na_skrywer": [],
-  "vlae": [
-    {
-      "blok": "Wat is 'n reg?",
-      "teks": "'n Reg is nog so iets wat jy kry sonder om dit te verdien. Party regte kry jy omdat jy 'n mens is",
-      "rede": "Rights lesson: the study text states as fact that you GET a right ('wat jy kry', 'kry jy'), while the glossary entry says 'wat jy moet kry' and the Grondwet block says some children do not get food or a home. Not changed because it touches meaning and the parallel with the name sentence; a person or the writer should decide whether 'kry' should be 'moet kry' here."
-    },
-    {
-      "blok": "Die reg op 'n naam",
-      "teks": "Die wet vra dat 'n kind se geboorte gewoonlik binne 30 dae by die regering geregistreer word.",
-      "rede": "Read literally, the law asks that a birth 'usually' be registered within 30 days, which is odd logic; the softening seems meant for what happens in practice. 'gewoonlik' is protected, so not changed; the writer may want to check what the qualifier attaches to."
-    }
-  ],
+  "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 516,
-  "woorde_na": 514,
-  "wanneer": "2026-10-23T07:29:02+00:00",
+  "woorde_voor": 530,
+  "woorde_na": 530,
+  "wanneer": "2026-10-23T09:07:59+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 3,
@@ -70,9 +71,19 @@
       "rede_vinder": "'dit' has no single antecedent after a list of several duties; 'alles' points at all of them without adding content.",
       "fout": "none",
       "rede_keurder": "This sentence must keep its exact meaning; 'dit' points at the responsibilities just listed, and 'nie altyd alles regkry nie' widens it to getting everything right and shifts the scope of the negation."
+    },
+    {
+      "nr": 1,
+      "blok": "Die reg op skuiling",
+      "voor": "'n plek om te woon",
+      "na": "'n plek om in te woon",
+      "soort": "grammatika",
+      "rede_vinder": "An om-te clause about a place needs the stranded preposition (a place to live in); it adds one word and changes no meaning.",
+      "fout": "none",
+      "rede_keurder": "'n Plek om te woon' is established, natural Afrikaans that a careful editor would let pass; adding 'in' is a lateral move, not a fix."
     }
   ],
-  "konsep_hash_voor": "sha256:507329e2fc59ba7bb9e842db5622daf2",
+  "konsep_hash_voor": "sha256:d0e105b17b6850a136d8de21dfdc2be6",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:4401ca65f1422655a821df763481ef48"
+  "konsep_hash_na": "sha256:d0e105b17b6850a136d8de21dfdc2be6"
 }

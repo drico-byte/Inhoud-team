@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n wiel doen",
+      "voor": "Nou rol die wiele en die sak skuur nie.",
+      "na": "Nou rol die wiele, en die sak skuur nie.",
+      "soort": "leestekens",
+      "rede_vinder": "Each joined clause has its own subject and verb (die wiele rol / die sak skuur), so AWS 2017 requires a comma before en; adds no words.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two full clauses, each with its own subject and verb (rol die wiele / die sak skuur nie).",
+      "rede_keurder": "Punctuation fix only, adds no words, matches the comma rule applied elsewhere in this lesson, and leaves the meaning and protected word 'wiel' intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 449,
+  "woorde_na": 449,
+  "wanneer": "2026-10-23T10:31:42+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Die karretjie en die wa",
+      "voor": "hulle goed saamgevat",
+      "na": "hulle goed saamgeneem",
+      "soort": "register",
+      "rede_vinder": "'Saamgeneem' is the standard written form; 'saamgevat' is colloquial.",
+      "fout": "none",
+      "rede_keurder": "'Saamvat' is ordinary, plain Afrikaans for a Grade 4 reader; the swap is lateral."
+    },
+    {
+      "nr": 5,
+      "blok": "Die koets",
+      "voor": "van dorp tot dorp gedra",
+      "na": "van dorp tot dorp vervoer",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Vervoer' is the natural verb for a vehicle carrying passengers; 'mense gedra' sounds like carrying them in your arms.",
+      "fout": "none",
+      "rede_keurder": "'Dra' for a vehicle carrying people is natural and is used consistently in this lesson and its definitions, and the next sentence's 'ook die pos gedra' leans on it."
+    },
+    {
+      "nr": 10,
+      "blok": "Vroeë fietse en fietse van vandag",
+      "voor": "met die pedale reguit daaraan",
+      "na": "met die pedale direk daaraan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Reguit' means straight (in direction); 'direk' says the pedals were fixed straight onto the wheel, which is the meaning here.",
+      "fout": "none",
+      "rede_keurder": "'Reguit daaraan' already means attached directly to the wheel and is the plainer word for a Grade 4 reader; the swap is lateral."
+    }
+  ],
+  "konsep_hash_voor": "sha256:4ceeb887d7c423cf7834da8b6ab39b76",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:8c302a175fd0ada6993b0151f436d4f0"
+}

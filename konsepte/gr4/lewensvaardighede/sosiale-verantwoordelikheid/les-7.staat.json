@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/sosiale-verantwoordelikheid/les-7",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:ab2e627fb255f0aa812b3b0dc8fecd12",
+  "konsep_hash": "sha256:6853d3d92ae95d5479c5057f929315e4",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -64,14 +64,142 @@
       "gebeurtenis": "taal_geforseer",
       "konsep_hash": "sha256:ab2e627fb255f0aa812b3b0dc8fecd12",
       "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T08:15:17+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 15,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 469,
+      "woorde_na": 468,
+      "konsep_hash": "sha256:2b5ac07229a024ed636ade6845d85a78"
+    },
+    {
+      "wanneer": "2026-10-23T08:15:18+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 468,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:15:19+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'In een week leer sy die hele straat van voor tot agter ken. ... Later ': The story is framed as one week, but the Divali paragraph happens 'later in die jaar' and is followed by 'teen die einde van die week'; the time frame is inconsistent, and fixing it means deciding the intended content, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T08:22:44+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:9d0a294f6afade24a47e854752cc7a10",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T08:22:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 465,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:31:57+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 465,
+      "woorde_na": 465
+    },
+    {
+      "wanneer": "2026-10-23T09:11:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0ad03433ad6b773e9f610543c71a83cd",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:11:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 466,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:13:27+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 466,
+      "woorde_na": 466
+    },
+    {
+      "wanneer": "2026-10-23T09:28:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:6853d3d92ae95d5479c5057f929315e4",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:28:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 467,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:34:47+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 467,
+      "woorde_na": 467
+    },
+    {
+      "wanneer": "2026-10-23T09:39:22+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:39:22+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:39:22+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\sosiale-verantwoordelikheid\\les-7.json",
+      "konsep_hash": "sha256:6853d3d92ae95d5479c5057f929315e4",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:4d2111444554f88caed5a3f54215ae79",
+  "spek_hash": "sha256:a4ebf07bb8689b3e3d66258f5276f0a9",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
   },
   "taal_geforseer_vir": "sha256:ab2e627fb255f0aa812b3b0dc8fecd12",
-  "taal_rondte_vir": "sha256:ab2e627fb255f0aa812b3b0dc8fecd12",
-  "taal_keurder_vir": "3647a5a3d4335986a777f62df358242d"
+  "taal_rondte_vir": "sha256:6853d3d92ae95d5479c5057f929315e4",
+  "taal_keurder_vir": "c61f3b67d7cf79bc484c0b925448c4aa",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:6853d3d92ae95d5479c5057f929315e4",
+  "taal_vir_skrywer": [],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:2b5ac07229a024ed636ade6845d85a78",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "74234e98afe7498fb5daf1f36ac2d78a"
 }

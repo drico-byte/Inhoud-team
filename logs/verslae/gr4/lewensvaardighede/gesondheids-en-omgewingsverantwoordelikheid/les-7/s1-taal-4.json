@@ -1,0 +1,104 @@
+{
+  "toegepas": [
+    {
+      "nr": 4,
+      "blok": "Boomplantdag by die skool",
+      "voor": "as niemand hom natmaak nie",
+      "na": "as niemand hom natgooi nie",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans waters a plant or tree with 'natgooi'; 'natmaak' just means to make wet. The protected 'kan maklik doodgaan' is untouched.",
+      "fout": "'natmaak' is the loose verb; Afrikaans waters a tree or plant with the fixed verb 'natgooi'.",
+      "rede_keurder": "'Natgooi' is the precise, idiomatic verb for watering a tree, the meaning is unchanged, and the protected 'kan maklik doodgaan' is left intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wat jy self kan doen",
+      "voor": "maak 'n regte verskil",
+      "na": "maak 'n werklike verskil",
+      "soort": "anglisisme",
+      "rede_vinder": "'n regte verskil' calques English 'a real difference'; 'werklike' is the natural Afrikaans word with the same meaning and length.",
+      "fout": "none",
+      "rede_keurder": "'n Regte verskil maak' is natural, plain Afrikaans for a Grade 4 reader; 'werklike' is a lateral swap, not a fix."
+    },
+    {
+      "nr": 2,
+      "blok": "Dinge wat jy elke dag kan doen",
+      "voor": "Maak kompos van skille en blare en spaar water",
+      "na": "Maak kompos van skille en blare, en spaar water",
+      "soort": "leestekens",
+      "rede_vinder": "Two separate commands are joined by 'en' right after the list 'skille en blare'; the comma separates the two clauses so the child does not read 'spaar water' as a third thing compost is made of.",
+      "fout": "none",
+      "rede_keurder": "Under AWS 2017 two command halves with no stated subject of their own take no comma before 'en', so the original punctuation is correct."
+    },
+    {
+      "nr": 3,
+      "blok": "Boomplantdag by die skool",
+      "voor": "Suid-Afrika hou elke jaar in die eerste week van September Nasionale Boomplantweek.",
+      "na": "Suid-Afrika hou Nasionale Boomplantweek elke jaar in die eerste week van September.",
+      "soort": "woordorde",
+      "rede_vinder": "The long time phrase in front of the object makes the sentence heavy; naming the week first reads more naturally with the same words.",
+      "fout": "none",
+      "rede_keurder": "Putting the time phrase before the object is normal Afrikaans word order and the sentence already reads well; the reorder is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Boomplantdag by die skool",
+      "teks": "Boomplantdag by die skool",
+      "rede": "The block heading still says 'Boomplantdag', while the block itself says the day has become Nasionale Boomplantweek. A heading cannot be changed by the language step; the writer may want the heading and the text to name the same thing."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 506,
+  "woorde_na": 506,
+  "wanneer": "2026-10-23T09:31:44+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Vullis wat lê waar dit nie hoort nie",
+      "voor": "waar vullis beland waar dit nie hoort nie",
+      "na": "waar vullis beland wat nie daar hoort nie",
+      "soort": "sinsbou",
+      "rede_vinder": "Avoids the clumsy 'waar ... waar' repetition without changing the meaning or the length.",
+      "fout": "none",
+      "rede_keurder": "'Waar ... waar' is acceptable, and the restrictive 'vullis wat nie daar hoort nie' quietly suggests some litter does belong there; it also breaks the parallel with the heading and the glossary wording."
+    },
+    {
+      "nr": 3,
+      "blok": "Vuil water kan 'n mens maagsiek maak",
+      "voor": "lyk soms skoon en is dit tog nie",
+      "na": "lyk soms skoon maar is dit tog nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "The sentence is a contrast, so 'maar' is the natural joiner; no comma because the second half shares the subject.",
+      "fout": "none",
+      "rede_keurder": "'En is dit tog nie' is natural Afrikaans, since 'tog' already carries the contrast; swapping in 'maar' is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat jy self kan doen",
+      "voor": "en altyd met 'n grootmens by",
+      "na": "en altyd saam met 'n grootmens",
+      "soort": "idioom",
+      "rede_vinder": "'met 'n grootmens by' is a loose colloquial construction; 'saam met' is standard and keeps 'altyd' and the adult rule intact.",
+      "fout": "none",
+      "rede_keurder": "'met 'n grootmens by' is idiomatic Afrikaans for an adult being present, so this is a lateral move inside a safety instruction (who must be there), and that wording stays as checked."
+    },
+    {
+      "nr": 5,
+      "blok": "koolstofdioksied",
+      "voor": "wat bome en plante opneem",
+      "na": "wat deur bome en plante opgeneem word",
+      "soort": "verwysing",
+      "rede_vinder": "'wat bome en plante opneem' can be read as the gas taking up the trees; the passive makes clear that the plants take up the gas.",
+      "fout": "none",
+      "rede_keurder": "This is a glossary definition, and the reading the finder warns about (the gas taking up the trees) is too absurd to mislead anyone; the passive makes it longer and breaks the parallel with the 'suurstof' entry."
+    }
+  ],
+  "konsep_hash_voor": "sha256:951aa4d7058843dbc5acb210887d1aee",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b4a5a77ff989e033933ff0184e63516f"
+}

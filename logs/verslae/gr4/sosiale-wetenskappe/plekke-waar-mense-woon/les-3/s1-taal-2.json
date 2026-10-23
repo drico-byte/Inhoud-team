@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Mense bou vir 'n rede",
+      "voor": "Sommige van daardie geboue",
+      "na": "Sommige van hierdie geboue",
+      "soort": "verwysing",
+      "rede_vinder": "The buildings were introduced as 'hierdie geboue' two sentences earlier; switching to 'daardie' right after 'Daardie werk' blurs the reference.",
+      "fout": "The same buildings are called 'hierdie geboue' and then 'daardie geboue' two sentences later, so a reader can wonder whether a different group is meant.",
+      "rede_keurder": "Keeping 'hierdie' holds one reference for the same buildings, avoids a second 'daardie' straight after 'Daardie werk', and adds no words without moving the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Hoekom lyk twee skole nie altyd eenders nie?",
+      "voor": "kry dikwels steiler dakke",
+      "na": "het dikwels steiler dakke",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Geboue kry dakke' is loose spoken usage; 'het' is the natural written verb and adds no words.",
+      "fout": "none",
+      "rede_keurder": "'kry steiler dakke' is natural Afrikaans and carries the sense that builders give these buildings steeper roofs because of the rain, which fits the paragraph's cause-and-design point; 'het' turns it into a static description, so it is at best a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 355,
+  "woorde_na": 355,
+  "wanneer": "2026-10-23T10:12:35+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Mense bou vir 'n rede",
+      "voor": "Daardie werk gee vir mense",
+      "na": "Daardie werk gee mense",
+      "soort": "register",
+      "rede_vinder": "'gee vir mense' is colloquial; written Afrikaans takes the indirect object without 'vir'.",
+      "fout": "none",
+      "rede_keurder": "'gee vir mense' is accepted, natural Afrikaans for a Grade 4 reader, so dropping 'vir' is a lateral register move."
+    },
+    {
+      "nr": 3,
+      "blok": "Elke gebou het sy eie werk",
+      "voor": "kinders leer hier lees en skryf en baie ander dinge",
+      "na": "kinders leer hier lees, skryf en baie ander dinge",
+      "soort": "sinsbou",
+      "rede_vinder": "The double 'en' reads clumsily; a list comma is smoother and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'lees en skryf' is a fixed pair and the original reads naturally; the list comma only reads differently."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoekom lyk twee skole nie altyd eenders nie?",
+      "voor": "Die werk binne die gebou help bepaal sy grootte en sy vorm.",
+      "na": "Die werk wat in die gebou gedoen word, help om sy grootte en vorm te bepaal.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Die werk binne die gebou help bepaal' is compressed and stiff; the relative clause and 'help om ... te bepaal' read more naturally.",
+      "fout": "none",
+      "rede_keurder": "'help bepaal' with a bare infinitive is standard Afrikaans; the proposal adds four words under a hard ceiling without fixing a fault."
+    }
+  ],
+  "konsep_hash_voor": "sha256:5be88a1d449109bcfb57a4aa27ccce0c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:49b49be110aec42300edce72df18d899"
+}

@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-8",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:9e838ebbd34056252c246cf750ed17b8",
+  "konsep_hash": "sha256:e333ae214364bddbb967d16385b5d002",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -92,6 +92,81 @@
       "gebeurtenis": "taal_geforseer",
       "konsep_hash": "sha256:9e838ebbd34056252c246cf750ed17b8",
       "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T08:14:45+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 20,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 503,
+      "woorde_na": 502,
+      "konsep_hash": "sha256:ef8cdc195fe84c41c991a13837d1a024"
+    },
+    {
+      "wanneer": "2026-10-23T08:14:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 502,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:14:47+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Elke kind het die seep gevryf en 'n maat': 'Elke kind het die seep gevryf' is unclear (it reads as rubbing the soap itself), and 'sy hande' in the next clause could refer to the child or the maat.",
+        "check (the language finder raised this; it may not be a fault): 'Niemand tel glas op nie en niemand tel 'n naald op nie. Jy wys dit vir': This is a child-safety rule. Only AWS commas are proposed here; no word, negative or order of actions is changed, and any further change to these two sentences should be refused.",
+        "check (the language finder raised this; it may not be a fault): 'Niemand het sy hande in die emmer gedoop nie. Elke kind het die seep g': This is a hygiene rule (do not dip hands in shared water; soap, then pour). The proposed 'sy hande ingeseep' keeps both the soap step and the poured water; if the reviewer drops that change, the comma should still go in."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T08:22:14+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:e333ae214364bddbb967d16385b5d002",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T08:22:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 500,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:25:53+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 500,
+      "woorde_na": 500
+    },
+    {
+      "wanneer": "2026-10-23T08:31:47+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:31:47+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 15,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:31:47+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-8.json",
+      "konsep_hash": "sha256:e333ae214364bddbb967d16385b5d002",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:5c2a5aa39c36e7918b2659e11157d3e1",
@@ -101,6 +176,12 @@
   },
   "taal_vir_skrywer": [],
   "taal_geforseer_vir": "sha256:9e838ebbd34056252c246cf750ed17b8",
-  "taal_rondte_vir": "sha256:9e838ebbd34056252c246cf750ed17b8",
-  "taal_keurder_vir": "6e33df7641d0bc658dc9b3f4fe2ccfd2"
+  "taal_rondte_vir": "sha256:e333ae214364bddbb967d16385b5d002",
+  "taal_keurder_vir": "6e33df7641d0bc658dc9b3f4fe2ccfd2",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:e333ae214364bddbb967d16385b5d002",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:ef8cdc195fe84c41c991a13837d1a024",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "6acc70c1128f30263a45a75f21154829"
 }

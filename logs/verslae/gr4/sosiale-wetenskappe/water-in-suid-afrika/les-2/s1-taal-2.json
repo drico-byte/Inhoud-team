@@ -1,0 +1,58 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Twee soorte water",
+      "voor": "Ons kry twee soorte water",
+      "na": "Daar is twee soorte water",
+      "soort": "register",
+      "rede_vinder": "'Ons kry' for 'there are' is spoken usage; 'Daar is' is the standard written form, with the same number of words.",
+      "fout": "'Ons kry' for 'there are' is loose spoken usage and can be read as 'we receive two kinds of water'; it also stacks 'ons' with the next sentence's 'ons vind'.",
+      "rede_keurder": "'Daar is' is the plain written form, same word count, same claim, and touches no protected word or definition."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Waar gaan die water heen?",
+      "teks": "Water verdamp ook uit riviere, damme, nat grond en die see.",
+      "rede": "The protected wording is 'Water verdamp ook uit riviere, damme, nat grond en plante', but the lesson ends the list with 'die see' and does not mention plants. The protected sentence is not in the lesson as written, so a person or the writer should decide which wording is intended. This is content, so I did not change it."
+    },
+    {
+      "blok": "Die sout bly agter",
+      "teks": "Die son maak ook die seewater warm, en van daardie water verdamp.",
+      "rede": "The block before has just said water evaporates from the sea ('... nat grond en die see'), so this sentence repeats it, and its 'ook' reads oddly. This depends on how the flag above is settled, so I left it unchanged."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 363,
+  "woorde_na": 363,
+  "wanneer": "2026-10-23T10:12:33+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 6,
+      "blok": "Waar gaan die water heen?",
+      "voor": "styg op in die lug",
+      "na": "styg in die lug op",
+      "soort": "woordorde",
+      "rede_vinder": "The separable verb opstyg puts its particle at the end of the clause in natural Afrikaans; 'styg op in die lug' follows English word order.",
+      "fout": "none",
+      "rede_keurder": "'styg op in die lug' is a natural Afrikaans placement of the prepositional phrase after the particle and is not ambiguous, so the proposal is a lateral move."
+    },
+    {
+      "nr": 10,
+      "blok": "Die sout bly agter",
+      "voor": "Na 'n ruk is die water weg en lê daar",
+      "na": "Na 'n ruk is die water weg, en lê daar",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: each clause has its own subject and verb (die water is / 'n wit lagie lê); the reviewer may judge the shared opening 'Na 'n ruk' makes it one sentence and drop this.",
+      "fout": "none",
+      "rede_keurder": "Both clauses hang on the shared opener 'Na 'n ruk' (hence the inverted 'le daar'), so it is one sentence and a comma would split the shared element."
+    }
+  ],
+  "konsep_hash_voor": "sha256:d896d8465485a7a401387f762871d5cb",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:3cc94a1556a9e049ffc6ff907d468994"
+}

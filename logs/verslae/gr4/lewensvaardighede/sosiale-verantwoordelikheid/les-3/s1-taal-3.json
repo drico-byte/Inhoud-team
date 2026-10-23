@@ -1,0 +1,96 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Kos hoort by 'n dag",
+      "voor": "kos en saam eet",
+      "na": "kos en saameet",
+      "soort": "spelling",
+      "rede_vinder": "Used as a noun, the compound verb 'saameet' (like 'saamwerk') is written as one word.",
+      "fout": "Used as a noun alongside 'kos', the separable compound 'saameet' is split into adverb plus verb, against the AWS rule for saam- compounds (saamwerk, saamgaan).",
+      "rede_keurder": "Plain spelling fix that leaves the meaning untouched, adds no words, and is not repeated in any glossary entry."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 1,
+      "blok": "Kos uit drie kulture",
+      "voor": "gaar kook. Bunny",
+      "na": "gaarkook. Bunny",
+      "soort": "spelling",
+      "rede_vinder": "The compound verb 'gaarkook' (like 'gaarmaak') is written as one word, so it is joined in this subordinate clause.",
+      "fout": "The separable compound verb 'gaarkook' is written as two words ('gaar kook') in the study sentence.",
+      "rede_keurder": "The spelling fix is real, but the umngqusho glossary entry repeats the same sentence with 'gaar kook', so changing only the study text would make the two differ; the writer should join it in both places at once.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 3,
+      "blok": "amptelike taal",
+      "voor": "wat die land se wette en regering amptelik erken",
+      "na": "wat deur die land se wette en regering amptelik erken word",
+      "soort": "sinsbou",
+      "rede_vinder": "The active relative clause can be misread as the language recognising the laws; the passive makes clear the laws and government recognise the language (adds two words).",
+      "fout": "The active relative clause 'wat die land se wette en regering amptelik erken' can be read with 'wat' (the language) as the subject that recognises the laws.",
+      "rede_keurder": "The ambiguity is real, but this is a shared glossary definition reworded beyond spelling or grammar, and the fix adds two words at a hard word ceiling, so the writer must decide it for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "umngqusho",
+      "teks": "Stampmielies en boontjies wat lank saam in een pot gaar kook.",
+      "rede": "Same spelling fault as in the study block ('gaar kook' should be 'gaarkook'), but this wording also occurs almost verbatim in the study text, so no unique 'voor' can be given; the glossary entry should match whatever the study text ends up with."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 443,
+  "woorde_na": 442,
+  "wanneer": "2026-10-23T10:03:51+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Baie groepe in een land",
+      "voor": "en nog baie ander tale daarby",
+      "na": "en daarby nog baie ander tale",
+      "soort": "woordorde",
+      "rede_vinder": "Placing 'daarby' before the noun phrase reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "Lateral reorder; 'en nog baie ander tale daarby' already reads naturally."
+    },
+    {
+      "nr": 6,
+      "blok": "Kultuur sê nie hoe jy moet leef nie",
+      "voor": "Albei daardie gesinne behoort nog altyd",
+      "na": "Albei gesinne behoort steeds",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Nog altyd' means 'all along'; the sense here is 'still', which is 'steeds', and 'daardie' is redundant after 'albei'.",
+      "fout": "none",
+      "rede_keurder": "'Nog altyd' already means 'still' in Afrikaans, and 'albei daardie gesinne' is natural; the swap is lateral."
+    },
+    {
+      "nr": 11,
+      "blok": "Kos hoort by 'n dag",
+      "voor": "waar iemand dood is",
+      "na": "waar iemand gesterf het",
+      "soort": "register",
+      "rede_vinder": "'Gesterf het' is gentler and more usual when speaking of a family's bereavement.",
+      "fout": "none",
+      "rede_keurder": "'Waar iemand dood is' is plain, natural Afrikaans for a Grade 4 reader; 'gesterf het' is only different."
+    },
+    {
+      "nr": 2,
+      "blok": "Kos uit drie kulture",
+      "voor": "Indiese gemeenskap van die stad Durban",
+      "na": "Indiese gemeenskap in Durban",
+      "soort": "woordkeuse",
+      "rede_vinder": "'van die stad Durban' is wooden; 'in Durban' is the natural phrasing and saves two words.",
+      "fout": "none",
+      "rede_keurder": "'die Indiese gemeenskap van die stad Durban' is acceptable Afrikaans, and the proposal drops 'die stad', which tells a Grade 4 reader what Durban is."
+    }
+  ],
+  "konsep_hash_voor": "sha256:f760924128d30ff87f3dac9a150b15fe",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a31ca95c960f5bb81eea3b78d18a529d"
+}

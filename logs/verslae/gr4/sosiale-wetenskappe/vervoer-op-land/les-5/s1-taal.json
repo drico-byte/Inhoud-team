@@ -1,0 +1,93 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe mense vandag op land reis",
+      "voor": "kom te voet en hier en daar",
+      "na": "kom te voet, en hier en daar",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb ('kinders kom' / 'kom een').",
+      "fout": "Missing AWS comma: 'Die meeste kinders kom te voet' and 'hier en daar kom een op 'n fiets' each have their own subject and verb.",
+      "rede_keurder": "Two full clauses joined by 'en' take the AWS 2017 comma; no words added and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoe mense vandag op land reis",
+      "voor": "met 'n trein werk toe",
+      "na": "met die trein werk toe",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans names a mode of travel with the definite article: 'met die trein werk toe ry'.",
+      "fout": "'met 'n trein werk toe' copies the English indefinite article; Afrikaans names the mode of travel with 'die'.",
+      "rede_keurder": "'met die trein werk toe ry' is the natural Afrikaans idiom, same word count, same meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom mense nie dieselfde kies nie",
+      "voor": "skool toe gaan loop sommer",
+      "na": "skool toe gaan, loop sommer",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the relative clause stops 'gaan loop' being misread as one verb cluster.",
+      "fout": "Without a comma where the relative clause's verb meets the main verb, 'gaan loop' reads as one verb cluster ('go walk') and the reader stumbles.",
+      "rede_keurder": "The comma between the verbs of the relative and main clause is AWS-sanctioned, adds no words and removes the misreading."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat van vroeër oorgebly het",
+      "voor": "het die ou soorte weggevat nie",
+      "na": "het die ou soorte vervang nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'weggevat' is unnatural here; 'vervang' says exactly that the new kind did not replace the old, with no extra words.",
+      "fout": "'weggevat' is unnatural for one kind of transport displacing another.",
+      "rede_keurder": "'vervang' says exactly what is meant, fits the heading about what remained, and keeps the word count."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Hoe goedere oor land beweeg",
+      "voor": "anders af tot daar kom",
+      "na": "anders af daarheen kom",
+      "soort": "woordkeuse",
+      "rede_vinder": "'tot daar kom' is stiff; 'daarheen kom' is the natural way to say the goods had to get there.",
+      "fout": "none",
+      "rede_keurder": "'tot daar kom' reads acceptably, and 'daarheen kom' pairs a direction-away adverb with 'kom', so it is no clear improvement."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoe goedere oor land beweeg",
+      "voor": "aan en ry van daar af verder",
+      "na": "aan en gaan van daar af verder",
+      "soort": "woordkeuse",
+      "rede_vinder": "Cargo does not itself 'ry'; 'gaan van daar af verder' reads naturally with 'vrag' as subject.",
+      "fout": "none",
+      "rede_keurder": "'ry' is acceptable for cargo being conveyed and carries the by-vehicle-over-land sense the section is about, which neutral 'gaan' loses."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoekom mense nie dieselfde kies nie",
+      "voor": "Hulle vra ook wat hulle alles moet saamdra",
+      "na": "Hulle dink ook aan wat hulle alles moet saamdra",
+      "soort": "woordkeuse",
+      "rede_vinder": "'vra' without a person asked reads as asking someone; the sense is considering what they must carry.",
+      "fout": "none",
+      "rede_keurder": "'Hulle vra ook' deliberately parallels 'Hulle vra wat 'n rit ... gaan kos' and is clear to a Grade 4 reader; the proposal adds a word at a hard ceiling without a real fault."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat van vroeër oorgebly het",
+      "teks": "Mense loop vandag nog net soos hulle voor die dae van diere geloop het.",
+      "rede": "'voor die dae van diere' can read as 'before animals existed'; the intended sense (before people used animals to carry and pull) cannot be worded without choosing new content words, so a writer should decide."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 448,
+  "woorde_na": 448,
+  "wanneer": "2026-10-23T10:03:48+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:49112c32a7639235ca8e0e948b98a42c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:fedbfbfdf4203d9ceb58ae6b81aab21c"
+}

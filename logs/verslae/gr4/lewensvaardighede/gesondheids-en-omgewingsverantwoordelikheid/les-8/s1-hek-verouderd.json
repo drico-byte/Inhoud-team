@@ -4,17 +4,20 @@
   "graad": 4,
   "vak": "Lewensvaardighede",
   "budget": 450,
-  "checked_at": "2026-09-03T06:32:58+00:00",
+  "begrotingsreel": "default ±15%: 382-518",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T08:14:47+00:00",
   "study": {
-    "words": 503,
-    "sentences": 38,
-    "mean_sentence_len": 13.2,
-    "median_sentence_len": 14.0,
-    "longest_sentence": 16,
-    "mean_syllables": 1.28,
-    "pct_polysyllabic": 2.8,
-    "pct_long_words": 0.4,
-    "commas_per_sentence": 0.11
+    "words": 502,
+    "sentences": 37,
+    "mean_sentence_len": 13.6,
+    "median_sentence_len": 14,
+    "longest_sentence": 29,
+    "mean_syllables": 1.29,
+    "pct_polysyllabic": 3.0,
+    "pct_long_words": 0.6,
+    "commas_per_sentence": 0.46
   },
   "eli10": null,
   "block_counts": {
@@ -23,10 +26,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Long words in reading text with no 'begrip' entry: vullismotor"
+    "Reading text 502 words, above the Grade 4 lesson ceiling 450 — a person must cut it to 450 or fewer. The budget (450) plus tolerance allows 518, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Reading text: 0.46 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in reading text with no 'begrip' entry: vullismotor, vullissakke"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

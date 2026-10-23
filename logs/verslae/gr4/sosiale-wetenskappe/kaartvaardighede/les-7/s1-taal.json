@@ -1,0 +1,73 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die see en die land op die kaart",
+      "voor": "watter kleur wat beteken",
+      "na": "wat elke kleur beteken",
+      "soort": "sinsbou",
+      "rede_vinder": "'watter kleur wat beteken' is a loose, ambiguous construction; 'wat elke kleur beteken' is clear standard Afrikaans with the same word count.",
+      "fout": "'watter kleur wat beteken' is a loose spoken double-question construction that a careful editor would mark.",
+      "rede_keurder": "The proposal says the same thing (the key tells what each colour means) in clear standard Afrikaans, with the same word count and dikwels untouched."
+    },
+    {
+      "nr": 2,
+      "blok": "Die kus en die twee oseane",
+      "voor": "lê langs Suid-Afrika se kus en elkeen",
+      "na": "lê langs Suid-Afrika se kus, en elkeen",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb ('Twee oseane lê' / 'elkeen het'), so a comma goes before it.",
+      "fout": "Missing AWS 2017 comma: 'Twee oseane lê' and 'elkeen het' are two clauses, each with its own subject and verb.",
+      "rede_keurder": "Punctuation fix only; protected 'twee oseane' and 'kus' stay intact."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe jy 'n provinsie op die kaart kry",
+      "voor": "Soek dus eers die naam, en volg",
+      "na": "Soek dus eers die naam en volg",
+      "soort": "leestekens",
+      "rede_vinder": "Both halves are commands with no stated subject, so AWS 2017 puts no comma before 'en'.",
+      "fout": "Comma before 'en' joining two imperatives with no stated subject, against AWS 2017.",
+      "rede_keurder": "Removing the comma is correct for two command halves and changes nothing else."
+    },
+    {
+      "nr": 5,
+      "blok": "hoofstad",
+      "voor": "van waar 'n land",
+      "na": "vanwaar 'n land",
+      "soort": "spelling",
+      "rede_vinder": "The relative adverb 'vanwaar' is written as one word (AWS).",
+      "fout": "Spelling: the relative adverb 'vanwaar' is written as one word in the AWS.",
+      "rede_keurder": "A plain spelling fix in a glossary definition, so permitted; no word or meaning changes, though the guard may route it to a person if the definition is shared."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Soek nou jou eie plek",
+      "voor": "Kyk eers in watter provinsie jy woon en volg sy grense op die kaart. 'n Kaart van die hele land het nie plek vir elke plaas en dorpie nie. Soek dan binne daardie grense",
+      "na": "'n Kaart van die hele land het nie plek vir elke plaas en dorpie nie. Kyk eers in watter provinsie jy woon en volg sy grense op die kaart. Soek dan binne daardie grense",
+      "soort": "sinsbou",
+      "rede_vinder": "The intervening sentence separates 'daardie grense' from 'sy grense' and breaks the eers/dan steps; moving it first keeps the two steps together without changing any words.",
+      "fout": "none",
+      "rede_keurder": "Lateral reorder: the original places the reason (the map has no room for every farm) directly before the step it explains (find the nearest town that is shown), and 'daardie grense' still points back clearly."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Van 'n voltooide kaart na jou eie kaart",
+      "teks": "Soek dieselfde lyne op jou eie kaart en skryf of kleur dit daar in.",
+      "rede": "'dit' grammatically points back to 'dieselfde lyne' (which would need 'hulle'), but the learner presumably writes in the place's name or colours in the area; fixing it needs the intended object, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 382,
+  "woorde_na": 382,
+  "wanneer": "2026-10-23T10:12:36+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:beb741289d74fe1f2dc18fafa0f8a170",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a30ca01e91a1db108a4b0692ea51d0de"
+}

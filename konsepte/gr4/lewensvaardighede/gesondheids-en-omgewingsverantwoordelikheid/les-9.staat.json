@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-9",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:0e559fde4355861529532a27cfc40567",
+  "konsep_hash": "sha256:0f1e9a5637a1ddd91d0bd758467605f1",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -127,15 +127,146 @@
       "gebeurtenis": "taal_geforseer",
       "konsep_hash": "sha256:0e559fde4355861529532a27cfc40567",
       "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T08:14:49+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 2,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 480,
+      "woorde_na": 480,
+      "konsep_hash": "sha256:1865d25594aad05d83ffd5c88bd85539"
+    },
+    {
+      "wanneer": "2026-10-23T08:14:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 480,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:14:51+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Iemand wat die medisyne elke dag drink': The pronoun 'Sy' and 'soos enige ander kind' follow a genderless, ageless 'Iemand', so the reference is loose.",
+        "fix: [taal] in 'Jy kan naby haar wees en jy kan haar druk sonder gevaar.': Missing AWS comma between two full clauses (jy kan wees / jy kan druk).",
+        "check (the language finder raised this; it may not be a fault): 'Dit beteken nie dat elke mens met MIV VIGS sal kry nie.': The two abbreviations stand side by side ('MIV VIGS') and a Grade 4 reader may stumble; a fix such as 'elke mens wat MIV het, VIGS sal kry' adds a word, and the study text may not get longer, so it is flagged rather than changed.",
+        "check (the language finder raised this; it may not be a fault): 'Iemand wat met MIV leef, kan jou maat of jou klasmaat wees. Dit kan jo': 'haar' refers back to the gender-neutral 'Iemand' / 'jou onderwyser'; standard generic reference would be 'hom', but the female pronoun may be a deliberate choice (the medicine block also uses 'sy'), so it is not changed.",
+        "check (the language finder raised this; it may not be a fault): 'Wanneer MIV die liggaam se afweer teen siekte baie swak gemaak het.': The definition opens with 'Wanneer', so it names a time rather than a thing; the study text frames it as 'die naam vir wat gebeur wanneer ...'. A fix lengthens the entry, so it is flagged for the reviewer or writer."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T08:22:18+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:36dcba6a64bb1cbb0cfe6704dbe42e44",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T08:22:20+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 482,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:31:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 482,
+      "woorde_na": 482
+    },
+    {
+      "wanneer": "2026-10-23T09:09:39+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1e121f3516e088b04538e5eb963ec431",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:09:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 472,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:13:50+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 472,
+      "woorde_na": 472
+    },
+    {
+      "wanneer": "2026-10-23T09:23:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0f1e9a5637a1ddd91d0bd758467605f1",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:23:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 472,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:24:34+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 472,
+      "woorde_na": 472
+    },
+    {
+      "wanneer": "2026-10-23T09:33:47+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:33:48+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:33:48+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-9.json",
+      "konsep_hash": "sha256:0f1e9a5637a1ddd91d0bd758467605f1",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:0a970ce0415e09826beefb3ddd0aa6fa",
+  "spek_hash": "sha256:3f0900c9658b7fd22d15dfe86f448cd5",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
   },
   "taal_vir_skrywer": [],
   "taal_geforseer_vir": "sha256:0e559fde4355861529532a27cfc40567",
-  "taal_rondte_vir": "sha256:0e559fde4355861529532a27cfc40567",
-  "taal_keurder_vir": "ed11e1b23272e8180fa7540a0eb2f2c5"
+  "taal_rondte_vir": "sha256:0f1e9a5637a1ddd91d0bd758467605f1",
+  "taal_keurder_vir": "2b6be6a14717d3b6caa2a6edcf16728b",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:0f1e9a5637a1ddd91d0bd758467605f1",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:1865d25594aad05d83ffd5c88bd85539",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "f9605dcb770faa416f6a0a35d9b5dab7"
 }

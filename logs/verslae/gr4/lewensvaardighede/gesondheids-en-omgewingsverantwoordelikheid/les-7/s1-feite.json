@@ -1,193 +1,305 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Wanneer 'n plek 'n mens siek maak",
   "kaps_punt": "Omgewingsbewaring en persoonlike gesondheid: huis, skool en gemeenskap: Voorbeelde van ongesonde omgewings: besoedeling (lug, water en grond) asook onwettige stortingsterreine; Gevare van ongesonde omgewings op persoonlike gesondheid; Strategiee om die omgewing te bewaar; en Viering van boomplantdag.",
   "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "Vuil water kan 'n mens maagsiek maak (blokkop)",
-      "blok": "Vuil water kan 'n mens maagsiek maak",
+      "bewering": "Rook uit voertuie en uit vullis wat brand, maak die lug vuil.",
+      "blok": "Vuil lug, vuil water en vuil grond",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde vars nagegaan. WHO Guidelines for drinking-water quality, hoofstuk 7 (Microbial aspects), NCBI Bookshelf NBK579466: 'Not all infected individuals will develop symptomatic disease' en 'Exposure to a pathogen resulting in disease depends upon the dose, invasiveness and virulence of the pathogen, as well as the immune status of the individual.' Die 'kan' sit nou binne wat die riglyne steun: besmetting lei nie noodwendig tot siekte nie, en die uitkoms hang van dosis en van die persoon af."
+      "bron": "WHO, 'What is air pollution' (cdn.who.int/media/docs/default-source/searo/wsh-och-searo/what-is-air-pollution-2019.pdf): burning petrol and diesel fuels are listed as sources of smoke and air pollution. Atmospheric Chemistry and Physics 23(15), 2023 (acp.copernicus.org/articles/23/8921/2023/): open burning of household waste releases particulate matter, CO, dioxins and PAHs. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Party mense word dan maagsiek en kry maagpyn en diarree.",
-      "blok": "Vuil water kan 'n mens maagsiek maak",
+      "bewering": "Rook van 'n kookvuur en stof van 'n grondpad hang ook daarin.",
+      "blok": "Vuil lug, vuil water en vuil grond",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde vars nagegaan. WHO GDWQ hoofstuk 7 (NCBI NBK579466) oor asimptomatiese besmetting: die aandeel besmettes wat geen simptome kry nie verskil per patogeen en per bevolking. Minnesota Department of Health, 'Causes and Symptoms of Waterborne Illness' en CDC 'Germs that can contaminate tap water': wateroordraagbare siektes gee diarree, naarheid en maagkrampe, en kan ook heeltemal simptoomloos verloop. 'Party mense' is nou die korrekte kwantifiseerder, en maagpyn en diarree is die tipiese simptome."
+      "bron": "WHO, 'What is air pollution' (2019): wood, agricultural waste and dung burned for cooking are a major source of household air pollution. CDC, Particle Pollution (cdc.gov/air-quality/pollutants): dust from roads is listed as PM10. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Kieme is te klein om te sien",
-      "blok": "Vuil water kan 'n mens maagsiek maak",
+      "bewering": "Vullis en afvalwater in 'n sloot of 'n stroom maak die water vuil.",
+      "blok": "Vuil lug, vuil water en vuil grond",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde vars nagegaan (veranderde blok, volledig herkontroleer). Cleveland Clinic, 'Germs: How To Prevent Their Spread': mens kan die meeste kieme nie met die blote oog sien nie. ASM, 'Is Your Water Safe to Drink? Ask the Microbes': die mikro-organismes wat siekte veroorsaak is nie sigbaar in die water nie."
+      "bron": "WHO Guidelines for Drinking-water Quality, microbial aspects (cdn.who.int, gdwq 4th ed.): the main microbial risk is water contaminated with human and animal excreta, which is what sewage and waste water carry. National Geographic Education, Pollution (education.nationalgeographic.org/resource/pollution): dumped trash pollutes. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "vuil water dra dikwels baie van hulle",
-      "blok": "Vuil water kan 'n mens maagsiek maak",
+      "bewering": "Olie, gif en gebreekte glas maak die grond onder jou voete vuil.",
+      "blok": "Vuil lug, vuil water en vuil grond",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde vars nagegaan. WHO GDWQ hoofstuk 7 (NCBI NBK579466): die grootste gesondheidsrisiko van mikrobes in water hang saam met drinkwater wat met menslike en dierlike ontlasting besmet is. 'Dikwels' bly 'n frekwensiewoord en nie 'n altyd-aanspraak nie."
+      "bron": "National Geographic Education, Land Pollution (education.nationalgeographic.org/resource/pollution): dumping and littering add to land pollution. EEA GEMET thesaurus (eionet.europa.eu/gemet/concept/4636): contaminants on or in land. Oil spills and pesticides are standard causes of soil pollution. Broken glass counts as littered solid waste on the ground. That fits 'vuil grond' in the lesson's plain sense, though glass is a physical rather than a chemical pollutant. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Wanneer iemand daardie water drink, kom die kieme saam met die water in.",
+      "bewering": "Vuil lug, vuil water en vuil grond word saam besoedeling genoem.",
+      "blok": "Vuil lug, vuil water en vuil grond",
+      "status": "bevestig",
+      "bron": "National Geographic Education, Pollution: pollution is the introduction of harmful materials into the environment, divided into air, water and land pollution. 'Vuil' is a fair Grade 4 simplification of 'contaminated' and includes dust and smoke, which the block names itself. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Op 'n oop erf of langs 'n pad lê daar soms 'n hoop vullis. So 'n plek word 'n onwettige stortingsterrein genoem. Dit is 'n plek waar vullis beland waar dit nie hoort nie.",
+      "blok": "Vullis wat lê waar dit nie hoort nie",
+      "status": "bevestig",
+      "bron": "City of Cape Town and Johannesburg (JMPD) by-law descriptions reported in citizen.co.za/fourways-review (2026-04-12) and gauteng.net/whats-on-g/illegal-dumping-in-gauteng: illegal dumping is the disposal of waste anywhere other than a permitted facility, and vacant plots, open spaces and roadsides are named explicitly. Mossel Bay municipality (pressreader, Mossel Bay Advertiser 2023-02-17): open fields, vacant land and roadsides. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Nie elke huis, elke skool of elke gemeenskap kry 'n vullisdiens nie.",
+      "blok": "Vullis wat lê waar dit nie hoort nie",
+      "status": "bevestig",
+      "bron": "Stats SA General Household Survey 2024, as reported by ASAQS (asaqs.co.za/news/702420): about 34% of households use communal or own refuse dumps, and only 13.5% of rural households have refuse removed. A 2022 CSIR figure cited by WESSA (wessa.org.za, open waste burning in priority areas): 37% of households get no weekly collection. The claim says only 'not every', so the household and community figures settle it. Schools were not verified separately, and the claim does not depend on them. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Kieme is te klein om te sien, en vuil water dra dikwels baie van hulle.",
       "blok": "Vuil water kan 'n mens maagsiek maak",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde vars nagegaan. WHO GDWQ hoofstuk 7 (NCBI NBK579466): inname van besmette drinkwater is die blootstellingsroete vir wateroordraagbare patogene."
+      "bron": "KidsHealth (Nemours), 'What Are Germs?' (kidshealth.org/en/kids/germs.html): germs are too small to see without a microscope. WHO Guidelines for Drinking-water Quality, microbial aspects: water contaminated with excreta carries pathogens such as E. coli, Salmonella, Shigella, Vibrio cholerae, Giardia, Cryptosporidium and rotavirus. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Wanneer iemand daardie water drink, sluk hy die kieme saam met die water in. Party mense word dan maagsiek en kry maagpyn en diarree.",
+      "blok": "Vuil water kan 'n mens maagsiek maak",
+      "status": "bevestig",
+      "bron": "WHO diarrhoeal disease fact sheet (copy at uts.edu.au, AssessmentReadings-WHO Fact sheet Diarrhoeal disease.pdf): diarrhoea is usually a symptom of intestinal infection, spread through contaminated drinking water. 'Party mense' is correctly narrow, because not everyone who drinks such water falls ill. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Water in 'n dam lyk soms skoon en is dit tog nie.",
       "blok": "Vuil water kan 'n mens maagsiek maak",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde vars nagegaan. ASM, 'Is Your Water Safe to Drink? Ask the Microbes': 'seemingly clear water can be full of microorganisms' en 'even the clearest water could have contaminants from fecal matter'. CDC, 'Preventing Waterborne Germs at Home': voorkoms alleen waarborg nie veiligheid nie."
+      "bron": "Wyoming Department of Health, 'Don't Let Germs Spoil Water, Outdoors Fun' (health.wyo.gov): water that looks clear can carry germs that make people sick, and untreated water should never be drunk. Safe Drinking Water Foundation (safewater.org fact sheets): a lake or river can look clean and still hold bacteria, viruses and parasites. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Rook brand in jou keel en in jou oë wanneer jy daarin staan. 'n Mens hoes wanneer daar te veel rook of stof in die lug hang.",
+      "blok": "Rook en stof maak asemhaling swaar",
+      "status": "bevestig",
+      "bron": "CDC, Particle Pollution / air pollutants (cdc.gov/air-quality/pollutants): particles irritate the eyes, nose and throat and cause coughing. AirNow, Your Health (airnow.gov/air-quality-and-health/your-health): the same symptoms. 'Brand' is a sound everyday picture for that irritation. Fresh check this round.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Iemand wat al sukkel om asem te haal, kry dit nog swaarder.",
+      "blok": "Rook en stof maak asemhaling swaar",
+      "status": "bevestig",
+      "bron": "CDC, Particle Pollution: if you have asthma, particle pollution can make symptoms worse. AirNow: people with lung disease such as asthma or COPD, and children, are most affected. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Rommel wat rondlê, trek vlieë en rotte na 'n huis of 'n skool toe.",
+      "blok": "Wat tussen rommel gebeur",
+      "status": "bevestig",
+      "bron": "City of Cape Town, 'Healthy Disposal of Household Waste' guidelines (resource.capetown.gov.za): flies, rats, dogs and cats are attracted to food waste. St Helens Council, illegal disposal of waste and public health (sthelens.gov.uk/article/14075): rats, mice and insects are drawn to dumped rubbish. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Vlieg sit op die vullis en gaan sit later op jou kos.",
+      "blok": "Wat tussen rommel gebeur",
+      "status": "bevestig",
+      "bron": "Texas A&M School IPM, Action Plan for House Flies and Filth Flies (schoolipm.tamu.edu): filth flies carry germs from garbage and waste to food. City of Wanneroo, fly control information (wanneroo.wa.gov.au): bacteria on a fly's legs are brushed onto food. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Muskiete broei in water wat in ou blikke en bande bly staan, en party soorte dra siekte oor.",
+      "blok": "Wat tussen rommel gebeur",
+      "status": "bevestig",
+      "bron": "California Department of Public Health, invasive Aedes mosquitoes brochure (cdph.ca.gov): Aedes lay eggs in small amounts of standing water in containers, so empty them weekly. Government of Sint Maarten, Collective Prevention Services (sintmaartengov.org): old tyres and discarded containers collect rainwater and become breeding sites, and Aedes spread dengue, Zika and chikungunya. 'Party soorte' is correctly narrow. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Gebreekte glas tussen rommel sny voete en hande, en ou spuitnaalde steek hulle.",
+      "blok": "Wat tussen rommel gebeur",
+      "status": "bevestig",
+      "bron": "Keep Britain Tidy, Clean up Preparation and Advice (keepbritaintidy.org/clean-preparation-and-advice): broken glass and needles are named sharps hazards in litter, and needlestick and cut injuries need treatment. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Om die rook uit 'n groot fabriek te keer, is nie jou werk nie.",
+      "blok": "Wat jy self kan doen",
+      "status": "bevestig",
+      "bron": "This is mostly a normative framing rather than a factual claim. Its factual core holds: under the National Environmental Management: Air Quality Act 39 of 2004 (lawlibrary.org.za/akn/za/act/2004/39), industrial emissions are controlled through atmospheric emission licences issued to facilities and enforced by government. That does not fall to a child. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Help by 'n skoonmaakveldtog, altyd met 'n grootmens by. Tel net gewone rommel op, altyd met handskoene aan, en 'n stok kan daarby help.",
+      "blok": "Wat jy self kan doen",
+      "status": "bevestig",
+      "bron": "Keep Britain Tidy, Clean up Preparation and Advice: gloves and a litter picker as a minimum, and well-fitting gloves for young people. Weston-on-the-Green Parish Council litter-picking risk assessment, March 2025 (westononthegreen-pc.gov.uk): children must be with a responsible adult and in sight of one at all times. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Raak nooit aan glas of aan 'n naald nie, ook nie met handskoene of 'n stok nie. Los dit waar dit lê en sê dadelik vir 'n grootmens.",
+      "blok": "Wat jy self kan doen",
+      "status": "bevestig",
+      "bron": "NYC Department of Health, 'Syringe litter safety for kids' (nyc.gov/assets/doh/downloads/pdf/basas/syringe-litter-safety-for-kids.pdf): if you see a needle, don't touch it, tell an adult. Haldimand-Norfolk Health Unit, 'Talking to Children About Needles' (hnhu.org): tell children not to touch, and an adult handles disposal. Keep Britain Tidy: do not move needles yourself, and keep sharps such as broken glass out of litter bags. Telling a child never to handle glass is the conservative reading of that guidance and is safe. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Gooi vullis in 'n vullisblik en nooit op die grond nie.",
+      "blok": "Dinge wat jy elke dag kan doen",
+      "status": "bevestig",
+      "bron": "National Geographic Education, Land Pollution: littering adds to land pollution. Municipal by-laws (Cape Town, Johannesburg, as reported above) prohibit leaving waste on land. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Moenie vullis brand nie want die rook trek deur die hele straat.",
+      "blok": "Dinge wat jy elke dag kan doen",
+      "status": "bevestig",
+      "bron": "WESSA, 'Communities unite to tackle open waste burning in South Africa's air pollution priority areas' (wessa.org.za): open waste burning pollutes the air of whole neighbourhoods. North-West University news, 'South Africa faces a waste crisis' (news.nwu.ac.za): residents near waste fires face respiratory harm. Atmospheric Chemistry and Physics 23(15), 2023: the smoke is toxic. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Keer dat water in ou blikke en bande om die huis bly staan.",
+      "blok": "Dinge wat jy elke dag kan doen",
+      "status": "bevestig",
+      "bron": "California Department of Public Health invasive mosquito brochure, and Government of Sint Maarten CPS 'Tip it, toss it, cover it': removing standing water from containers and tyres prevents mosquito breeding. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Gebruik minder, gebruik weer en herwin wat herwin kan word.",
+      "blok": "Dinge wat jy elke dag kan doen",
+      "status": "bevestig",
+      "bron": "US EPA, Recycling Basics and Benefits (epa.gov/recycle/recycling-basics-and-benefits): the waste management hierarchy puts source reduction and reuse before recycling. The lesson's order matches that hierarchy. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Maak kompos van skille en blare en spaar water waar jy kan.",
+      "blok": "Dinge wat jy elke dag kan doen",
+      "status": "bevestig",
+      "bron": "US EPA, Composting (epa.gov/composting): food scraps and leaves are standard compost inputs. Water saving is a general conservation measure with nothing in it to contradict. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Sê vir 'n grootmens as 'n pyp lek of 'n vullisblik oorloop.",
+      "blok": "Dinge wat jy elke dag kan doen",
+      "status": "bevestig",
+      "bron": "A behavioural instruction with no factual content that could be false. Its premises hold: leaks waste water, and overflowing bins attract flies and rats (City of Cape Town household waste guidelines). Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Suid-Afrika hou elke jaar in die eerste week van September Nasionale Boomplantweek.",
+      "blok": "Boomplantdag by die skool",
+      "status": "bevestig",
+      "bron": "gov.za, Arbor Week 2025 (gov.za/ArborWeek2025): 1 to 7 September 2025, celebrated 'in the first week of September annually', run by the Department of Forestry, Fisheries and the Environment. Department of Water and Sanitation Arbor Week page (dws.gov.za/events/ArborWeek/default.asp): 1 to 7 September each year. The 2024 edition ran 29 August to 4 September (gov.za/ArborWeek2024), which still sits in the first week of September. September is now also promoted as Arbor Month. The lesson does not say otherwise, so that omission is not an error. 'Eerste' here is an ordinal date, not a ranking superlative, and it is recorded under this type so every 'eerste' in the lesson appears as an item. Fresh check this round.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Dit was eers net een dag en het later 'n hele week geword.",
+      "blok": "Boomplantdag by die skool",
+      "status": "bevestig",
+      "bron": "DWS Arbor Week page (dws.gov.za/events/ArborWeek/default.asp): Arbor Day was first observed in South Africa in 1983, and national government extended it to National Arbor Week in 1999. A 2006 ministerial speech (dws.gov.za, arborweek1Sep06.pdf) gives 1996, and the Mail & Guardian (2008) gives 1997. Sources disagree on the year of the extension, but every one agrees it went from one day to a week. The lesson gives no year, so the conflict does not touch it. Do not add a year without settling it. Fresh check this round.",
+      "tipe": "datum"
+    },
+    {
+      "bewering": "Baie skole plant in daardie week 'n boom op die skoolterrein.",
+      "blok": "Boomplantdag by die skool",
+      "status": "bevestig",
+      "bron": "IOL Daily News, 2 September 2024, 'Durban schools joyously celebrate Spring Day and Arbor Week' (iol.co.za/dailynews/news/2024-09-02-...). South African Education Project, 'Just Plant It: Arbor Day observed at Cape Flats schools' (saep.org). WESSA, KZN learners mark Arbor Month (wessa.org.za): schools plant trees donated by DFFE. These are South African sources on local practice. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Jong boom wat pas geplant is, kan maklik doodgaan as niemand hom natgooi nie.",
+      "blok": "Boomplantdag by die skool",
+      "status": "bevestig",
+      "bron": "University of Florida IFAS Gardening Solutions, trees (gardeningsolutions.ifas.ufl.edu): newly planted trees need regular watering until established, because their roots are not yet established. Arbor Week material on gov.za stresses caring for planted trees. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Boom gooi skaduwee, en dit bly koeler onder sy takke.",
+      "blok": "Hoekom 'n boom saak maak",
+      "status": "bevestig",
+      "bron": "Leicestershire County Council, 'Why are trees important?' (leicestershire.gov.uk): shade from trees lowers local temperatures. City of West Torrens, Benefits of trees (westtorrens.sa.gov.au): shading surfaces reduces heat. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Sy wortels hou die grond vas wanneer die reën hard val.",
+      "blok": "Hoekom 'n boom saak maak",
+      "status": "bevestig",
+      "bron": "Texas A&M Forest Service, Environmental Benefits of Trees (tfsweb.tamu.edu): roots slow stormwater runoff and hold soil in place. Randwick City Council, Benefits of trees (randwick.nsw.gov.au). Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Boom neem koolstofdioksied uit die lug op en gee suurstof af.",
+      "blok": "Hoekom 'n boom saak maak",
+      "status": "bevestig",
+      "bron": "Leicestershire County Council, 'Why are trees important?': trees absorb carbon dioxide as they grow and release oxygen. Trees also respire, but taking in CO2 and giving off O2 is correct as a net statement at this level. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Voëls en insekte kry kos en 'n blyplek in sy takke.",
+      "blok": "Hoekom 'n boom saak maak",
+      "status": "bevestig",
+      "bron": "City of West Torrens, Benefits of trees: trees provide food and habitat for insects, birds and small animals in the canopy and hollows. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "besoedeling: Vuil lug, vuil water of vuil grond op 'n plek.",
+      "blok": "besoedeling",
+      "status": "bevestig",
+      "bron": "National Geographic Education, Pollution: harmful materials in air, water or land. Read alone the entry stays true, because 'vuil' at Grade 4 covers contamination generally. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "onwettige stortingsterrein: 'n Plek waar mense vullis gooi waar dit nie hoort nie.",
+      "blok": "onwettige stortingsterrein",
+      "status": "bevestig",
+      "bron": "City of Cape Town and Johannesburg (JMPD) by-law descriptions (citizen.co.za/fourways-review, 2026-04-12; gauteng.net illegal dumping page): waste disposed of anywhere other than a permitted facility. 'Waar dit nie hoort nie' is a faithful plain-language form. Fresh check this round.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "afvalwater: Water wat al gebruik is en nou vuil geword het.",
+      "blok": "afvalwater",
+      "status": "bevestig",
+      "bron": "Pumps & Systems, 'What is the definition of wastewater?' (pumpsandsystems.com), and University of Maryland Extension, greywater resources (extension.umd.edu): wastewater is used water from households, industry and commerce, including greywater from washing and blackwater from toilets. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "kieme: Baie klein lewende dinge wat 'n mens siek kan maak.",
-      "blok": "kieme (begrip)",
+      "blok": "kieme",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde nagegaan omdat die veranderde waterblok daarop steun. Die 'kan' hier stem nou ooreen met die versagte blokkop: nie elke kiem maak elke mens siek nie, en dieselfde voorbehoud loop deur albei blokke. Cleveland Clinic, 'Germs: How To Prevent Their Spread' vir grootte en vir siektepotensiaal."
+      "bron": "KidsHealth (Nemours), 'What Are Germs?' (kidshealth.org/en/kids/germs.html): germs are 'tiny organisms, or living things, that can cause disease': bacteria, viruses, fungi and protozoa. Whether viruses count as living is debated, but this is the standard child-health wording from a reputable source. 'Kan' is correctly narrow, because not every germ causes illness. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Baie skole plant in daardie week 'n boom in die skoolgrond.",
-      "blok": "Boomplantdag by die skool",
+      "bewering": "skoonmaakveldtog: Wanneer mense saamwerk om 'n plek se rommel op te tel.",
+      "blok": "skoonmaakveldtog",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde vars nagegaan (die veranderde sin). Twee dinge getoets. Eerstens die verwysing: 'in daardie week' wys nou terug na 'die eerste week van September' en na 'n hele week gemaak', en nie meer na 'n dag wat die vorige sin pas opgelos het nie; die blok is intern samehangend. Tweedens die feit self: gov.za 'Arbor Week' en DFFE 'National Arbour Week' / Ten Million Trees-program (skoolvergroening) bevestig dat skole in daardie week bome plant."
+      "bron": "Keep Britain Tidy, Clean up Preparation and Advice: an organised group clean-up or litter pick. The definition fits the term's ordinary meaning. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Suid-Afrika hou elke jaar in die eerste week van September 'n Nasionale Boomplantweek.",
-      "blok": "Boomplantdag by die skool",
+      "bewering": "herwin: Om iets nuuts te maak uit ou goed wat al gebruik is.",
+      "blok": "herwin",
       "status": "bevestig",
-      "tipe": "datum",
-      "bron": "Oorgedra uit die vorige ronde soos opgedra; nie in hierdie ronde as datum herondersoek nie. Wel toevallig weer bevestig deur gov.za se Arbor Week-bladsy tydens hierdie ronde se skoolsoektog (1-7 September jaarliks)."
-    },
-    {
-      "bewering": "in die eerste week van September",
-      "blok": "Boomplantdag by die skool",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Aangeteken omdat 'eerste' in die les voorkom. Dit is hier 'n rangtelwoord binne 'n datum en nie 'n voorrangsaanspraak (eerste ooit, oudste, enigste) nie, en dra dus geen superlatiewe risiko nie. Die datum self is oorgedra uit die vorige ronde. Die les bevat geen ander superlatief nie."
-    },
-    {
-      "bewering": "Dit was eers net een dag en dit is later 'n hele week gemaak.",
-      "blok": "Boomplantdag by die skool",
-      "status": "bevestig",
-      "tipe": "datum",
-      "bron": "Oorgedra uit die vorige ronde soos opgedra (dag-na-week-geskiedenis); nie in hierdie ronde herondersoek nie."
-    },
-    {
-      "bewering": "Boomplantdag by die skool (blokkop) langs 'Nasionale Boomplantweek' in die teks",
-      "blok": "Boomplantdag by die skool",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde nagegaan as deel van die volledige blok. Die kop hou KABV se eie term terwyl die teks self verduidelik dat dit eers een dag was en later 'n week geword het; die kop weerspreek dus nie die teks nie. Die enigste ou probleem was die terugverwysing 'op daardie dag', en die kop dra dit nie."
-    },
-    {
-      "bewering": "'n Boom wat niemand natmaak nie, is 'n dag se werk wat later dood staan.",
-      "blok": "Boomplantdag by die skool",
-      "status": "bevestig",
-      "tipe": "analogie",
-      "bron": "Hierdie ronde vars nagegaan, ook vir waarheen die beeld 'n leerder lei. Iowa State University Extension, 'Watering Newly Planted Trees' en Penn State Extension, 'Meeting the Watering Needs of a Newly Planted Tree': gebrek aan water is die vernaamste rede waarom pas geplante bome vrek, en 'n jong boom het die eerste twee tot drie jaar gereelde natmaak nodig. Die beeldspraak se afleiding hou dus: sonder natmaak vrek die geplante boom. Dit oorbelowe niks in die ander rigting nie (dit se nie natmaak alleen waarborg 'n boom nie)."
+      "bron": "US EPA, Recycling Basics and Benefits (epa.gov/recycle/recycling-basics-and-benefits): recycling is collecting materials that would otherwise be trash and turning them into new products. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "kompos: Ou skille en blare wat vrot word en die grond ryk maak.",
-      "blok": "kompos (begrip)",
+      "blok": "kompos",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde vars nagegaan. US EPA, 'Composting At Home': kompos ontstaan uit die beheerde, aerobiese biologiese afbraak van organiese materiaal soos blare, tuinsnoeisels en kosreste, en dit is 'n 'soil amendment' wat by grond gevoeg word om grondgesondheid te bou en voedingstowwe te gee - uitdruklik 'n materiaal wat by grond gevoeg word, nie grond self nie. Afrikaanse bevestiging: Landbou.com se kompos-artikel en ProAgri, 'Maak jou eie kompos' - blare, grassnysels en kombuisafval soos skille breek af tot ryk materiaal wat die grond verryk. Die nuwe bewoording noem kompos nie meer grond nie en stel die verryking korrek."
+      "bron": "US EPA, Composting (epa.gov/composting) and Benefits of Using Compost (epa.gov/sustainable-management-food/benefits-using-compost): compost is decomposed organic material such as food scraps and leaves, and it adds nutrients and organic matter to soil. 'Maak die grond ryk' maps correctly to adding nutrients. The figure of speech holds. Fresh check this round.",
+      "tipe": "analogie"
     },
     {
-      "bewering": "Maak kompos van skille en blare, en spaar water waar jy kan.",
-      "blok": "Dinge wat jy elke dag kan doen",
+      "bewering": "koolstofdioksied: 'n Gas in die lug wat bome en plante opneem.",
+      "blok": "koolstofdioksied",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie ronde nagegaan omdat dit op die veranderde kompos-omskrywing steun. ProAgri, 'Maak jou eie kompos': skille en blare is presies die materiaal waarvan huiskompos gemaak word. Die lysitem en die begripsblok se nuwe bewoording stem nou ooreen; geen drif tussen hulle nie."
+      "bron": "Leicestershire County Council, 'Why are trees important?': trees absorb carbon dioxide from the air. It is incomplete as a definition, but true read alone. Fresh check this round.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Rook uit voertuie en uit vullis wat brand maak die lug vuil. Rook van 'n kookvuur en stof van 'n grondpad hang ook daarin.",
-      "blok": "Vuil lug, vuil water en vuil grond",
+      "bewering": "suurstof: 'n Gas in die lug wat mense en baie diere inasem om te lewe.",
+      "blok": "suurstof",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; blok onveranderd, nie in hierdie ronde herondersoek nie."
-    },
-    {
-      "bewering": "Vullis en afvalwater in 'n sloot of 'n stroom maak die water vuil. Olie, gif en gebreekte glas maak die grond onder jou voete vuil. Vuil lug, vuil water en vuil grond word saam besoedeling genoem.",
-      "blok": "Vuil lug, vuil water en vuil grond",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; blok onveranderd, nie in hierdie ronde herondersoek nie."
-    },
-    {
-      "bewering": "So 'n plek word 'n onwettige stortingsterrein genoem. Dit is 'n plek waar vullis beland waar dit nie hoort nie. Nie elke huis, elke skool of elke gemeenskap kry 'n vullisdiens nie.",
-      "blok": "Vullis wat lê waar dit nie hoort nie",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; blok onveranderd, nie in hierdie ronde herondersoek nie."
-    },
-    {
-      "bewering": "Rook brand in jou keel en in jou oë wanneer jy daarin staan. 'n Mens hoes wanneer daar te veel rook of stof in die lug hang. Iemand wat al sukkel om asem te haal, kry dit nog swaarder.",
-      "blok": "Rook en stof maak asemhaling swaar",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; blok onveranderd. Die asma-voorbehoud is spesifiek opgedra om oor te dra en is nie in hierdie ronde herondersoek nie."
-    },
-    {
-      "bewering": "Rommel wat lê, trek vlieë en rotte na 'n huis of 'n skool toe. 'n Vlieg sit op die vullis en sit later op jou kos. Gebreekte glas en ou spuitnaalde tussen rommel sny voete en hande.",
-      "blok": "Wat tussen rommel gebeur",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; blok onveranderd, nie in hierdie ronde herondersoek nie."
-    },
-    {
-      "bewering": "Muskiete broei uit in water wat in ou blikke en bande bly staan, en party soorte dra siekte oor.",
-      "blok": "Wat tussen rommel gebeur",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; blok onveranderd. Die muskietvoorbehoud ('party soorte') is spesifiek opgedra om oor te dra en is nie in hierdie ronde herondersoek nie."
-    },
-    {
-      "bewering": "Die rook uit 'n groot fabriek is nie jou werk om reg te maak nie. Help by 'n skoonmaakveldtog met handskoene of 'n stok en altyd met 'n grootmens by. Raak nooit met jou hande aan glas of aan 'n naald nie.",
-      "blok": "Wat jy self kan doen",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; blok onveranderd. Die skoonmaakinstruksie is spesifiek opgedra om oor te dra en is nie in hierdie ronde herondersoek nie."
-    },
-    {
-      "bewering": "Die vyf ander lysitems: vullis in 'n blik, moenie vullis brand nie, keer staande water, gebruik minder en herwin, sê vir 'n grootmens as 'n pyp lek.",
-      "blok": "Dinge wat jy elke dag kan doen",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; die ses daaglikse handelinge is spesifiek opgedra om oor te dra en is nie in hierdie ronde herondersoek nie. Slegs die kompos-item is hierbo vars nagegaan, omdat die begripsblok verander het."
-    },
-    {
-      "bewering": "'n Boom gooi skaduwee en dit bly koeler onder sy takke. Sy wortels hou die grond vas wanneer die reën hard val. 'n Boom neem koolstofdioksied uit die lug op en gee suurstof af. Voëls en insekte kry kos en 'n blyplek in sy takke.",
-      "blok": "Hoekom 'n boom saak maak",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; blok onveranderd, nie in hierdie ronde herondersoek nie. Nagegaan dat die Boomplantdag-verandering niks hierin raak nie: hierdie blok verwys nie na 'daardie dag' of 'daardie week' nie."
-    },
-    {
-      "bewering": "Die begripsblokke besoedeling, onwettige stortingsterrein, afvalwater, skoonmaakveldtog, herwin, koolstofdioksied en suurstof.",
-      "blok": "begrip-blokke (sewe onveranderd)",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Oorgedra uit die vorige ronde; alle sewe onveranderd, nie in hierdie ronde herondersoek nie. Deurgelees vir botsings met die drie veranderings en niks gevind nie: geen van hulle omskryf water, kompos of Boomplantweek nie."
-    },
-    {
-      "bewering": "Die les bevat geen syfers, persentasies of statistieke nie.",
-      "blok": "hele les",
-      "status": "bevestig",
-      "tipe": "getal",
-      "bron": "Oorgedra uit die vorige ronde soos opgedra. In hierdie ronde net weer bevestig dat die drie veranderings geen nuwe getal ingebring het nie."
+      "bron": "Leicestershire County Council, 'Why are trees important?': trees release oxygen into the air. Oxygen is the gas in air that people and air-breathing animals need. 'Baie diere' is correctly narrow, because many water animals take oxygen from water and do not inhale air. Fresh check this round.",
+      "tipe": "algemeen"
     }
   ],
-  "opsomming": "Al drie regstellings hou: 'kan' in die waterkop en 'Party mense' in die sin sit nou binne wat die WHO-drinkwaterriglyne steun (besmetting lei nie altyd tot siekte nie, en die uitkoms hang van dosis en van die persoon af), 'in daardie week' verwys nou korrek terug na die week en nie meer na 'n opgeloste dag nie, en die kompos-omskrywing noem kompos nie meer grond nie maar verrotte plantmateriaal wat die grond ryk maak; niks in die naburige blokke is deur die veranderings ontwrig nie, en die Boomplantweek-datums, die asma-voorbehoud, die muskietvoorbehoud, die ses daaglikse handelinge, die skoonmaakinstruksie en die afwesigheid van statistiek word uitdruklik uit die vorige ronde oorgedra sonder om weer nagegaan te word."
+  "opsomming": "Every claim in all 19 blocks was checked freshly against the web, because no information about changes was given, and all of them hold. The lesson contains no ranking superlatives: 'eerste week van September' is an ordinal date and is confirmed. Its two figures of speech ('rook brand', 'maak die grond ryk') map correctly, and there is no eli10 block. The only point a person might want to know is that sources give 1996, 1997 or 1999 as the year Arbor Day became a week, so no year should be added to the sentence 'Dit was eers net een dag en het later 'n hele week geword', which is correct without one."
 }

@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-7",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:343ae17b1fc0347eccb1fe0569a80ed6",
+  "konsep_hash": "sha256:592a4e41d962ab17c2b551ccdc500021",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -64,14 +64,208 @@
       "gebeurtenis": "taal_geforseer",
       "konsep_hash": "sha256:343ae17b1fc0347eccb1fe0569a80ed6",
       "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T08:14:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 11,
+      "laat_vaar": 2,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 475,
+      "woorde_na": 472,
+      "konsep_hash": "sha256:1e7a850e4d9ba1614cfc3674d759dd5e"
+    },
+    {
+      "wanneer": "2026-10-23T08:14:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 472,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:14:43+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'wat later dood staan': the sentence is muddled: 'wat later dood staan' grammatically attaches to 'werk', not to the tree",
+        "fix: [taal] in 'Om ou goed te gebruik om iets nuuts van te maak.': stranded 'van' and double 'om ... om' in the definition",
+        "check (the language finder raised this; it may not be a fault): 'Die deel van die lug wat lewende dinge moet inasem.': The protected entry for 'suurstof' says fish and most water animals use no air at all; a definition saying all living things must breathe in air may state that error. Content question, not a language one, so not changed.",
+        "check (the language finder raised this; it may not be a fault): ''n Boom wat niemand natmaak nie, is 'n dag se werk wat later dood staa': Even with 'doodgaan' the sentence says a day's work dies; the intended point (the tree dies and the day's work is lost) cannot be rephrased cleanly without guessing the wording the writer wants, and the text is at its ceiling."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T08:22:10+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3083767ebed59f0be5f3875bff127f79",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T08:22:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 474,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T08:31:50+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 474,
+      "woorde_na": 475,
+      "konsep_hash": "sha256:05472bcafc8248eecc7b0871d8ff8073"
+    },
+    {
+      "wanneer": "2026-10-23T08:31:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 475,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:09:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:afbfa59fa6e215c4a27cb7aaf9ace263",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:09:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 500,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:13:49+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 500,
+      "woorde_na": 499,
+      "konsep_hash": "sha256:aa44a0fb8134d89950265b2d64bb08e6"
+    },
+    {
+      "wanneer": "2026-10-23T09:13:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 499,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:28:15+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:951aa4d7058843dbc5acb210887d1aee",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:28:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 506,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:31:44+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 506,
+      "woorde_na": 506,
+      "konsep_hash": "sha256:b4a5a77ff989e033933ff0184e63516f"
+    },
+    {
+      "wanneer": "2026-10-23T09:31:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 506,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:43:26+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f53445989da267398ce378a2924a4f8d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T09:43:26+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 506,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:47:22+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 506,
+      "woorde_na": 507,
+      "konsep_hash": "sha256:592a4e41d962ab17c2b551ccdc500021"
+    },
+    {
+      "wanneer": "2026-10-23T09:47:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 507,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:55:12+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:55:13+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 42,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T09:55:13+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-7.json",
+      "konsep_hash": "sha256:592a4e41d962ab17c2b551ccdc500021",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:a3dbee4c9b6352704348970af83e25b0",
+  "spek_hash": "sha256:34e5e28c3eae3a3856aaa0203743eecf",
   "hek_konteks": {
     "graad": 4,
     "begroting": 450
   },
   "taal_geforseer_vir": "sha256:343ae17b1fc0347eccb1fe0569a80ed6",
-  "taal_rondte_vir": "sha256:343ae17b1fc0347eccb1fe0569a80ed6",
-  "taal_keurder_vir": "0a2422ed83cdf2b2f887c3013057691c"
+  "taal_rondte_vir": "sha256:592a4e41d962ab17c2b551ccdc500021",
+  "taal_keurder_vir": "578576b1a6f73d29be5b8d5e2f631eda",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:592a4e41d962ab17c2b551ccdc500021",
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'Wanneer mense saamwerk om': The definition of a noun opens with a 'wanneer' clause ('X is when ...'), a construction that follows English rather than defining the thing with a noun phrase.",
+    "check (the language finder raised this; it may not be a fault): 'Boomplantdag by die skool': The block heading says 'Boomplantdag' (one day), but the text says it is now a whole week (Nasionale Boomplantweek). A heading cannot be changed by the language step; the writer may want to check that the heading and text match."
+  ],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:1e7a850e4d9ba1614cfc3674d759dd5e",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "74234e98afe7498fb5daf1f36ac2d78a"
 }

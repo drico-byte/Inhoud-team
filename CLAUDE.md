@@ -294,9 +294,13 @@ them, their reports describe the old text.
 starts. Without a restart, `wolkskool-taalvinder` and `wolkskool-taalkeurder` are not
 available, and an operator would improvise with a general agent.
 
-**A known gap:** in Grade 4 Sosiale Wetenskappe, the video's vocabulary lives in the
-spec's `video_naat`, which the language agents never see. A term the video used must
-be in `kaps/beskermde-woorde.json` to be protected from "improvement".
+**The video's words are protected automatically** (closed 23 October 2026). In Grade 4
+Sosiale Wetenskappe the video's vocabulary lives in the spec's `video_naat`, which the
+language agents never see, so a term the video used read to them as ordinary Afrikaans
+to improve. `bin/taalnasien.py` now passes every word in
+`video_naat.woorde_wat_die_video_gebruik` that stands in the lesson as a protected word,
+with the reason, and the guard in `bin/taalstap.py` reads the same list. The rest of
+`video_naat` (what the video covered and its false claims) still stays away from them.
 
 The agents still **undo our decisions unless they are told not to** — every
 protected word reads like ordinary Afrikaans that could be improved, which is

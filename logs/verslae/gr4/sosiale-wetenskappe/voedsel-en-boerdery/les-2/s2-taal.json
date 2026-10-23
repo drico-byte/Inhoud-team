@@ -1,0 +1,76 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Vyf maniere",
+      "voor": "Hulle koop dit of hulle verbou dit self.",
+      "na": "Hulle koop dit, of hulle verbou dit self.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'of' joins two sentences that each have their own subject and verb, so a comma goes before it.",
+      "fout": "Missing AWS comma: 'Hulle koop dit' and 'hulle verbou dit self' each have their own subject and verb, joined by 'of'.",
+      "rede_keurder": "AWS 2017 requires the comma here; no words added and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Koop",
+      "voor": "So begin baie van die kos wat ons koop by 'n boer.",
+      "na": "So begin baie van die kos wat ons koop, by 'n boer.",
+      "soort": "leestekens",
+      "rede_vinder": "Without a comma after the relative clause the sentence reads as 'the food we buy from a farmer'; the comma closes the clause so 'by 'n boer' attaches to 'begin'.",
+      "fout": "Without a comma, 'die kos wat ons koop by 'n boer' reads first as 'the food we buy from a farmer', which contradicts the block's point that we buy from a shop.",
+      "rede_keurder": "The comma closes the relative clause so 'by 'n boer' attaches to 'begin'; it removes a real stumble without adding words."
+    },
+    {
+      "nr": 3,
+      "blok": "Verbou",
+      "voor": "hou daarby ook self",
+      "na": "hou ook self",
+      "soort": "woordkeuse",
+      "rede_vinder": "'daarby' and 'ook' both mean 'in addition', so one is redundant and the sentence reads more smoothly with only 'ook'.",
+      "fout": "'daarby ook' says 'in addition' twice, which reads slightly wooden.",
+      "rede_keurder": "'ook' alone carries the same meaning, the sentence gets one word shorter, and nothing protected is touched."
+    },
+    {
+      "nr": 4,
+      "blok": "Versamel",
+      "voor": "plant niks nie, maar haal",
+      "na": "plant niks nie maar haal",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: the part after 'maar' has no subject of its own (it shares 'n Kosversamelaar), so no comma goes before 'maar'.",
+      "fout": "Comma before 'maar' where the second part has no subject of its own (it shares 'n Kosversamelaar).",
+      "rede_keurder": "AWS 2017 puts no comma between parts of one sentence; the protected words 'Kosversamelaar' and 'plant' stay intact."
+    },
+    {
+      "nr": 5,
+      "blok": "Versamel",
+      "voor": "Dit beteken hulle kan mense of diere siek maak of skade doen as dit in die liggaam kom, soos wanneer dit geëet word.",
+      "na": "Dit beteken dat hulle mense of diere siek kan maak of skade kan doen as hulle in die liggaam kom, soos wanneer hulle geëet word.",
+      "soort": "verwysing",
+      "rede_vinder": "The sentence refers to the same plants, berries and mushrooms first as 'hulle' and then as 'dit'; one pronoun throughout, with 'dat' and the verbs at the end, makes it correct and clear.",
+      "fout": "The pronoun switches from 'hulle' to 'dit' for the same plants, berries and mushrooms inside one sentence, so a reader can stumble over what 'dit' refers to.",
+      "rede_keurder": "One pronoun throughout fixes a real reference fault; 'giftig' and the meaning stay the same, so the two extra words are justified."
+    },
+    {
+      "nr": 6,
+      "blok": "Versamel",
+      "voor": "Daarom moet iemand wat kos versamel die plante baie goed ken.",
+      "na": "Daarom moet iemand wat kos versamel, die plante baie goed ken.",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the embedded relative clause stops 'versamel die plante' from being read together as verb and object.",
+      "fout": "Without a comma after the embedded clause, 'versamel die plante' reads first as verb plus object.",
+      "rede_keurder": "The comma after the embedded relative clause removes a real misreading; no words are added and 'versamel' stays."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 372,
+  "woorde_na": 373,
+  "wanneer": "2026-10-23T09:53:50+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:716f512afbc4707b95bdfa5be2d16fb7",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:cd0425b022c8bebd03e62de9e4517b67"
+}

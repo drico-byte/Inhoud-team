@@ -279,6 +279,40 @@ def spek_beskermde_woorde(les_pad):
             inskrywing = {"hou": inskrywing}
         if isinstance(inskrywing, dict) and inskrywing.get("hou"):
             uit.append(inskrywing)
+    uit.extend(video_woorde(spek, les_pad))
+    return uit
+
+
+VIDEO_REDE = ("Die VIDEO vir hierdie les gebruik hierdie woord. Die video is eerste gemaak en "
+              "kan nie herskryf word nie, dus hoor 'n leerder die woord daar en lees dit hier; "
+              "'n sinoniem in die teks gee twee woorde vir een ding. Moenie dit vervang nie.")
+
+
+def video_woorde(spek, les_pad):
+    """The words the lesson's video used, where the lesson uses them too.
+
+    Grade 4 Sosiale Wetenskappe's videos came first and cannot be remade, so the
+    spec's `video_naat` lists the words each video used and the writer adopts them.
+    That field never reached the language agents -- a known gap in CLAUDE.md -- so
+    a video term the text had matched read to them as ordinary Afrikaans to
+    improve: on 23 October 2026, 233 such words across the subject's ten sub-topics
+    were protected nowhere. Only words that really stand in the lesson, as whole
+    words, go over; a list entry carrying a bracketed note is a record, not a word.
+    """
+    lys = ((spek.get("video_naat") or {}) if isinstance(spek.get("video_naat"), dict) else {}) \
+        .get("woorde_wat_die_video_gebruik") or []
+    if not lys:
+        return []
+    try:
+        blob = lesteks(lees_json(les_pad)).lower()
+    except Exception:
+        return []
+    uit = []
+    for w in lys:
+        if not isinstance(w, str) or not w.strip() or "[" in w:
+            continue
+        if re.search(r"(?<!\w)" + re.escape(w.strip().lower()) + r"(?!\w)", blob):
+            uit.append({"hou": w.strip(), "rede": VIDEO_REDE})
     return uit
 
 

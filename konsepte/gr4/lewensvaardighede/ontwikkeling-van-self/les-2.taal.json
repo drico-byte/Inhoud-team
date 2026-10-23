@@ -3,32 +3,33 @@
     {
       "nr": 1,
       "blok": "Siya Kolisi",
-      "voor": "aan 'n groot toernooi",
-      "na": "by 'n groot toernooi",
-      "soort": "idioom",
-      "rede_vinder": "One plays 'by' or 'in' a tournament; 'aan' goes with 'deelneem', not with 'speel'.",
-      "fout": "'aan 'n toernooi gaan speel' borrows the preposition of 'deelneem aan'; with 'speel' Afrikaans uses 'by' or 'in'.",
-      "rede_keurder": "Corrects the preposition; same team, same tournament, same place, nothing added or lost."
-    },
-    {
-      "nr": 2,
-      "blok": "Siya Kolisi",
-      "voor": "Die span het die beker daarna deur die hele land geneem.",
-      "na": "Die span het daarna met die beker deur die hele land getoer.",
-      "soort": "anglisisme",
-      "rede_vinder": "'die beker deur die land neem' copies English 'took the trophy around the country'; 'met die beker getoer' is the natural Afrikaans, same length and meaning.",
-      "fout": "'die beker deur die hele land geneem' copies English 'took the trophy around the country' and reads stiffly.",
-      "rede_keurder": "'met die beker deur die hele land getoer' is the natural Afrikaans for the same event, same length, plain for Grade 4, and no protected wording is touched."
+      "voor": "Daarna het Suid-Afrika elke wedstryd gewen",
+      "na": "Daarna het hulle elke wedstryd gewen",
+      "soort": "verwysing",
+      "rede_vinder": "The subject switches from 'die Springbokke' to 'Suid-Afrika' and the next sentence's 'hulle' then points back to a singular country; keeping 'hulle' (the Springbokke) makes the reference clear.",
+      "fout": "The paragraph names the team 'die Springbokke', switches to 'Suid-Afrika' for one sentence and then uses 'hulle', so a Grade 4 reader meets a second name for the same team mid-sequence.",
+      "rede_keurder": "Keeping 'hulle' continues the subject of the previous sentence (die Springbokke), so the reference is clearer and the people, matches and outcome stay exactly the same."
     }
   ],
   "nie_toegepas": [],
-  "laat_vaar": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Siya Kolisi",
+      "voor": "na groot stede getoer",
+      "na": "deur groot stede getoer",
+      "soort": "woordkeuse",
+      "rede_vinder": "Touring several cities one after another is 'deur' stede toer; 'na' reads as travelling to one destination.",
+      "fout": "none",
+      "rede_keurder": "With 'na' the team travels to the cities with the cup; with 'deur' it travels through them, so the preposition changes the account of a real event, and 'na groot stede' with a plural already reads naturally."
+    }
+  ],
   "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 459,
-  "woorde_na": 460,
-  "wanneer": "2026-10-23T06:38:42+00:00",
+  "woorde_voor": 391,
+  "woorde_na": 390,
+  "wanneer": "2026-10-23T09:01:32+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 4,
@@ -49,9 +50,19 @@
       "rede_vinder": "The separable verb 'terugbring' reads more naturally kept together at the end of the sentence.",
       "fout": "none",
       "rede_keurder": "'terug na ... gebring' is ordinary, readable Afrikaans; moving the particle is a lateral move."
+    },
+    {
+      "nr": 1,
+      "blok": "Siya Kolisi",
+      "voor": "aangehou speel en het jaar ná jaar sterker geword",
+      "na": "aangehou speel en jaar ná jaar sterker geword",
+      "soort": "sinsbou",
+      "rede_vinder": "Both verbs share the auxiliary 'het', so the second 'het' is redundant and makes the sentence wooden.",
+      "fout": "none",
+      "rede_keurder": "Repeating 'het' in the second clause is correct, natural Afrikaans and makes the sentence easy for a Grade 4 reader to follow, so dropping it is a lateral move rather than a fix."
     }
   ],
-  "konsep_hash_voor": "sha256:1b677ff60a36f724657363841667962b",
+  "konsep_hash_voor": "sha256:76d7bf467729cb767a365a9db67257d9",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:b77df6b446aff31f629a006e678d3f9d"
+  "konsep_hash_na": "sha256:a506d66af926710b5ced331b42e4a94c"
 }

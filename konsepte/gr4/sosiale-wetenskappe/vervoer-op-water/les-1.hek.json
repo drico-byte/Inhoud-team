@@ -1,10 +1,13 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Van spaan tot seil",
   "graad": 4,
   "vak": "Sosiale Wetenskappe",
   "budget": 400,
-  "checked_at": "2026-09-22T08:39:01+00:00",
+  "begrotingsreel": "Sosiale Wetenskappe Gr 4: 250-400 — the budget is a HARD CEILING",
+  "begroting_basis": "meting",
+  "na_taal": false,
+  "checked_at": "2026-10-23T09:36:52+00:00",
   "study": {
     "words": 450,
     "sentences": 32,
@@ -24,14 +27,15 @@
     "begrip": 11
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text 450 words, and the budget 400 is a HARD CEILING for this subject and grade — Drico, 29 September 2026. There is no tolerance above it. Cut 50 words. Never drop a requirement to get there: tighten sentences, cut an example, cut anything the video already carries. If it genuinely cannot be done without losing a requirement, say so and stop rather than trimming the requirement away."
+  ],
   "warnings": [
     "Study block 2 ('Vlot, kano en rietboot') 122 words (guide 30–110) — will overflow its section",
     "Study block 5 ('Seilskepe oor die wêreld heen') only 19 words (guide 30–110)",
     "List 'Vyf seilskepe' item 4: 26 words (guide 18) — consider tightening"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }
