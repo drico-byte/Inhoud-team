@@ -1,48 +1,14 @@
 {
-  "toegepas": [
-    {
-      "nr": 1,
-      "blok": "Noord, suid, oos en wes",
-      "voor": "Oos kry die letter O en wes kry die letter W",
-      "na": "Oos kry die letter O, en wes kry die letter W",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017: both clauses joined by 'en' have their own subject and verb, so a comma is required.",
-      "fout": "Missing AWS comma: 'Oos kry' and 'wes kry' are two clauses, each with its own subject and verb, joined by 'en'.",
-      "rede_keurder": "Punctuation fix only; no words added, meaning unchanged, and no protected word touched."
-    },
-    {
-      "nr": 2,
-      "blok": "Waar die rigtings op 'n kaart lê",
-      "voor": "Oos lê dan regs op die bladsy en wes lê links",
-      "na": "Oos lê dan regs op die bladsy, en wes lê links",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017: two full clauses with their own subject and verb joined by 'en' take a comma.",
-      "fout": "Missing AWS comma: 'Oos lê' and 'wes lê' are two full clauses joined by 'en'.",
-      "rede_keurder": "Punctuation fix only. The protected sentence is a different sentence and stays as it is."
-    },
-    {
-      "nr": 3,
-      "blok": "Die kompasroos op die kaart",
-      "voor": "Dit is die kompasroos en dit wys",
-      "na": "Dit is die kompasroos, en dit wys",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017: 'dit' is restated as subject of the second clause with its own verb, so a comma goes before 'en'.",
-      "fout": "Missing AWS comma: 'Dit is' and 'dit wys' each have a stated subject and verb.",
-      "rede_keurder": "Punctuation fix only; no words added and the meaning is unchanged."
-    },
-    {
-      "nr": 4,
-      "blok": "Die son wys die rigtings buite",
-      "voor": "Dan kyk jy in die ooste en wes lê agter jou rug",
-      "na": "Dan kyk jy na die ooste, en wes lê agter jou rug",
-      "soort": "idioom",
-      "rede_vinder": "One looks 'na' a direction in Afrikaans ('in die ooste kyk' suggests looking at something located there), and the two full clauses need an AWS comma before 'en'.",
-      "fout": "'kyk in die ooste' is an unusual preposition for facing a direction (it can read as searching in the east), and the comma is missing between two full clauses.",
-      "rede_keurder": "Original and proposal both mean the learner faces east; 'na' only makes that clearer. One word swapped for one, comma required by the AWS, protected sentence after it untouched."
-    }
-  ],
+  "toegepas": [],
   "nie_toegepas": [],
-  "laat_vaar": [
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 384,
+  "woorde_na": 384,
+  "wanneer": "2026-10-23T16:06:43+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 5,
       "blok": "Die son wys die rigtings buite",
@@ -52,16 +18,19 @@
       "rede_vinder": "'sonder enige kaart' after the verb copies English 'without any map'; Afrikaans places the 'sonder' phrase before the object and uses ''n'.",
       "fout": "none",
       "rede_keurder": "Lateral move: putting the 'sonder' phrase after the verb is natural Afrikaans, and 'enige' carries the deliberate emphasis of no map at all, which the proposal weakens."
+    },
+    {
+      "nr": 1,
+      "blok": "Die kompasroos en die noordpyl",
+      "voor": "Albei lees jy van die kaart self af",
+      "na": "Jy lees albei van die kaart self af",
+      "soort": "woordorde",
+      "rede_vinder": "Fronting 'Albei' with inversion reads stiffly for Grade 4; subject-first order is more natural and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "Fronting 'Albei' with inversion is natural Afrikaans that ties back to the two items just named, so the reordering is a lateral move."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 373,
-  "woorde_na": 373,
-  "wanneer": "2026-10-23T12:12:06+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:fa04ee1c1113b82ae1fceb94831ea88b",
-  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:093c97f4b04d9bad8b3ea107f7363170"
+  "konsep_hash_voor": "sha256:c7df230403fe9fbceae5b5c14860e041",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:c7df230403fe9fbceae5b5c14860e041"
 }

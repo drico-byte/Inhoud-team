@@ -1,0 +1,46 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n aardbol is",
+      "voor": "Die naam op 'n model van 'n regte vliegtuig staan ook op daardie vliegtuig.",
+      "na": "Die naam op die model staan ook op die regte vliegtuig.",
+      "soort": "sinsbou",
+      "rede_vinder": "The sentence repeats the model and the plane from the sentence before; referring back saves four words and reads less woodenly with the same meaning.",
+      "fout": "The sentence restates 'n model van 'n regte vliegtuig' straight after the previous sentence introduced both, which reads wooden and repetitive.",
+      "rede_keurder": "Referring back with 'die model' and 'die regte vliegtuig' keeps the same model, the same plane and the same claim, reads naturally and saves four words."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n aardbol is",
+      "voor": "Op 'n aardbol kom die vorm van die kuslyne van die regte aarde af.",
+      "na": "Die vorm van die kuslyne op 'n aardbol kom van die regte aarde af.",
+      "soort": "woordorde",
+      "rede_vinder": "The chain 'van die kuslyne van die regte aarde af' reads as 'the coastlines of the real earth' with a dangling 'af' (or as 'afkom', come off); putting 'op 'n aardbol' with the coastlines makes 'van ... af' clearly mean 'comes from'.",
+      "fout": "The chain 'van die kuslyne van die regte aarde af' makes a reader stumble: 'van die regte aarde' first reads as belonging to the coastlines and 'af' is left dangling.",
+      "rede_keurder": "The proposal says the same thing (the coastline shapes on a globe come from the real earth), keeps 'aardbol' and the contrast with the next sentence, and reads cleanly on first pass."
+    },
+    {
+      "nr": 3,
+      "blok": "Waarvoor 'n wêreldkaart goed is",
+      "voor": "kan weer die provinsies",
+      "na": "kan die provinsies",
+      "soort": "woordkeuse",
+      "rede_vinder": "A Grade 4 reader easily takes 'weer' as 'again' (as if the map shows them a second time); dropping it saves a word and the contrast is already clear from the sentence before.",
+      "fout": "Directly after 'kan', the particle 'weer' reads first as 'again' to a Grade 4 reader, although the provinces have not been mentioned before.",
+      "rede_keurder": "Checked the particle: both versions say a map of South Africa can show provinces, rivers, mountains, roads and cities, and the contrast with the world map is still carried by the neighbouring sentences, so dropping 'weer' removes the misreading without moving the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 406,
+  "woorde_na": 402,
+  "wanneer": "2026-10-23T15:54:40+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:6aeea25296e1b916391ecc82767925a2",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:6af6967db9289b984e59101ca071dd51"
+}

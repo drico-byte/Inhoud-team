@@ -1,0 +1,103 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Eers die letter, dan die nommer",
+  "kaps_punt": "Ruitverwysings — Konsep van alfa-numeriese ruitverwysings; Ruitverwysings vir simbole op eenvoudige ruitnet; Lees en verskaf van ruitverwysings op 'n eenvoudige grootskaalkaart",
+  "verdict": "HERSIEN",
+  "items": [
+    {
+      "bewering": "Eers die letter, dan die nommer",
+      "blok": "titel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Coding Ireland, 'Simple grid references: finding a square' (https://codingireland.ie/ViewLesson/simple-grid-references-finding-a-square-20206/8119): 'the letter always comes before the number'. The Afrikaans index of the Church of Jesus Christ's Bible maps (https://www.churchofjesuschrist.org/study/scriptures/bible-maps?lang=afr) writes its references as a 'letter-syfer kombinasie', for example D5. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "Kyk na 'n kaart van 'n dorp en jy sien baie lyne, name en simbole. [...] 'n Mens het 'n manier nodig om presies te sê waar iets lê.",
+      "blok": "Die kaart is vol en jy soek een plek",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "A general description of a large-scale map: streets as lines, place names and symbols. Ordnance Survey's beginner's guide (https://getoutside.ordnancesurvey.co.uk/guides/beginners-guide-to-grid-references) and the NSW Department of Education (https://education.nsw.gov.au/teaching-and-learning/curriculum/hsie/hsie-curriculum-resources-k-12/hsie-11-12-curriculum-resources/area-and-grid-reference) both present the grid as the way to say where a thing lies on such a map. 'presies' is not an overstatement here, because the block 'Wat 'n ruitverwysing is' narrows it at once to 'presies in watter blokkie'. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "Op baie kaarte is daar daarom 'n rooster van reguit lyne. Party lyne loop van bo na onder, en ander loop dwars daaroor. Saam verdeel daardie lyne die hele kaart in klein blokkies.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Coding Ireland (as above): a grid of columns and rows that divides the map into squares. Bedfordshire Archives (https://bedsarchivescat.bedford.gov.uk/Details/archive/110417969): county maps with an alpha-numeric grid of columns and rows. The Afrikaans Bible-map index (as above) uses one too. 'baie kaarte' is not 'alle kaarte', so it holds. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "Elke plek op die kaart lê nou in een van daardie blokkies.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "This follows from the geometry of the grid itself. A feature bigger than one square, such as a large park, a dam, a river or a long road, necessarily covers more than one square. ArcGIS's Grid Index Features documentation (https://pro.arcgis.com/en/pro-app/2.7/tool-reference/cartography/grid-index-features.htm) treats a feature as intersecting several grid cells. The sentence is not false on its own if 'een van' is read as 'some square'. But the next block says a grid reference states 'presies in watter blokkie [...] 'n plek lê', and that turns it into 'exactly one square for every place'. A learner who reasons that way meets the exception on the very kind of map this lesson teaches, as soon as a feature crosses a line. The lesson's own examples (school B2, park C3, the dam) are not affected, because each is placed in one square. Volledig nagegaan in hierdie rondte.",
+      "regstelling": "Narrow the quantifier; do not cut the idea. Limit the sentence to small places, for example a building such as the school or the clinic, which lies in one square. Or say that a place lies in a square, and a big place can cover more than one. Then check that 'Dit sê presies in watter blokkie van die rooster 'n plek lê' in the block 'Wat 'n ruitverwysing is' still reads correctly after the change. That sentence carries the same 'exactly one square' implication, so a fix in only one of the two blocks leaves the false conclusion standing."
+    },
+    {
+      "bewering": "Langs die kant van hierdie rooster staan die letters A, B en C. Bo-aan dieselfde rooster staan die nommers, van links af getel.",
+      "blok": "Hoe hierdie rooster gemerk is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "This describes ONE grid ('hierdie rooster', 'dieselfde rooster'), and that description is internally consistent. It also matches the steps in the blocks 'Hoe jy blokkie B2 kry', 'Nog 'n keer, met die park' and 'Gee self 'n ruitverwysing'. Numbers counted from the left, and letters running from A, are the usual starting points (Bedfordshire Archives, as above: 'starting with A on the left'). For a person, not as a fault: the most common arrangement in the sources found has the letters ACROSS THE TOP and the numbers DOWN THE SIDE (Coding Ireland, as above). This lesson's grid is the other way round. The lesson does not claim its arrangement is the only one, and the title rule (letter first) holds either way. The Afrikaans Bible-map index says only that the coordinates stand 'aan die bokant en sykant', without naming which goes where. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "Die blokkies moet name kry, anders kan jy hulle nie noem nie.",
+      "blok": "Hoe hierdie rooster gemerk is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "This is the purpose of the letter and number labels in an alpha-numeric grid (Coding Ireland, as above; the Afrikaans Bible-map index, as above: 'U kan spesifieke blokkies op elke kaart bepaal deur te verwys na die koördinate aan die bokant en sykant'). Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "'n Ruitverwysing is 'n letter en 'n nommer wat saam een blokkie noem. Dit sê presies in watter blokkie van die rooster 'n plek lê. 'n Verwysing soos B2 wys na een bepaalde blokkie van die rooster.",
+      "blok": "Wat 'n ruitverwysing is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "This is correct for the alpha-numeric grid reference, which is the kind the lesson and its CAPS bullet name. Coding Ireland (as above): a reference such as B2 names one square. NSW Department of Education (as above): 'We are referring to the whole square with an area reference.' Scope note: numeric grid references also exist (Ordnance Survey's four- and six-figure references, and the NSW 'AR 5808'), so the definition is narrower than the word in general. It matches the Grade 4 CAPS concept, and a definition may widen across grades, so it is not marked as false. The middle sentence ('presies in watter blokkie [...] 'n plek lê') depends on the fix to 'Elke plek op die kaart lê nou in een van daardie blokkies'; see that item. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "Kyk eers na die letter B langs die kant van die rooster. Sit jou vinger op daardie letter en hou hom op die plek. Kyk dan boontoe na die nommer 2 wat bo-aan die rooster staan. Skuif jou vinger van die letter af tot onder daardie nommer. Die blokkie waar die twee mekaar ontmoet, is waar die skool staan.",
+      "blok": "Hoe jy blokkie B2 kry",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "The procedure was checked against the arrangement the lesson states: letters on the side name the rows and numbers on top name the columns. Moving the finger along row B to below column 2 lands on the square where row B and column 2 cross, which is B2. The method matches the 'read across, then find the square where they meet' approach in Coding Ireland (as above). The lesson carries no comparison here, so there is no analogy mapping to test. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "Die park op dieselfde kaart lê in blokkie C3. Soek weer eers die letter C langs die kant van die rooster. Skuif jou vinger dan tot onder die nommer 3 bo-aan die rooster. Daardie een blokkie is die plek waar die park op die kaart lê.",
+      "blok": "Nog 'n keer, met die park",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "The same procedure, applied consistently to C3 (Coding Ireland, as above). The lesson places the park in one square itself, so there is no contradiction here. A park in general can cover more than one square; see the item 'Elke plek op die kaart lê nou in een van daardie blokkies'. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "Kyk watter letter langs die kant by die dam se blokkie hoort. Kyk dan boontoe na die nommer wat reg bo die dam se blokkie bo-aan die rooster staan. Skryf eers die letter neer en dan die nommer.",
+      "blok": "Gee self 'n ruitverwysing",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "The reverse procedure (giving a reference) is consistent with the grid's arrangement. Letter first is the convention (Coding Ireland, as above: 'the letter always comes before the number'; NSW-style writing such as C4, not 4C). Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "rooster: 'n Patroon van lyne wat 'n kaart in blokkies verdeel.",
+      "blok": "rooster",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "As a concept this is correct: a map grid is a network of crossing lines that divides the map into squares (Coding Ireland and Ordnance Survey, as above). Glosbe (https://glosbe.com/en/af/grid) gives 'rooster' as an Afrikaans translation of 'grid', but that is a crowd-sourced dictionary. I could not reach an authoritative Afrikaans dictionary entry (WAT Aanlyn requires a login, and Viva returned 404). Note for a person, not a fact error: the lesson's own CAPS bullet uses the term 'ruitnet', and the Glosbe page gives 'ruitenet' and 'ruit' as the map senses. Whether 'rooster' or 'ruitnet' should be the main word is a terminology decision and not my remit. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "ruitverwysing: 'n Letter en 'n nommer wat saam een blokkie op 'n kaart noem.",
+      "blok": "ruitverwysing",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Correct for the alpha-numeric grid reference (Coding Ireland, as above; the Afrikaans Bible-map index, as above: 'ruitverwysing wat uit 'n letter-syfer kombinasie bestaan'). The same scope note applies as in the block 'Wat 'n ruitverwysing is': numeric grid references exist (Ordnance Survey, NSW), so read alone this entry is narrower than the word in general. It is not marked as false, because it matches the Grade 4 CAPS concept and a definition may widen across grades. Volledig nagegaan in hierdie rondte."
+    },
+    {
+      "bewering": "Superlatiewe in die les: geen nie.",
+      "blok": "hele les",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "I searched every block and both begrip entries for eerste, oudste, grootste, vinnigste, enigste and similar forms, and found none. 'presies' (in the blocks 'Die kaart is vol en jy soek een plek' and 'Wat 'n ruitverwysing is') is not a superlative. It was checked for its claim under those blocks' items and under 'Elke plek op die kaart lê nou in een van daardie blokkies'. The lesson contains no analogy or comparison whose mapping needs testing. Volledig nagegaan in hierdie rondte."
+    }
+  ],
+  "opsomming": "One claim is false and the writer must narrow it: 'Elke plek op die kaart lê nou in een van daardie blokkies', together with 'presies in watter blokkie [...] 'n plek lê', teaches that every place has exactly one square, but a large place such as a park, dam or river can cover more than one, so the sentence should be limited to small places or should say that a big place can span several squares. Everything else is correct, and a person may want to know two things that are not faults: this lesson's grid puts the letters on the side and the numbers on top, while most sources put the letters on top, and the lesson's word 'rooster' differs from CAPS's 'ruitnet'."
+}

@@ -1,0 +1,116 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Eers die letter, dan die nommer",
+  "kaps_punt": "Ruitverwysings — Konsep van alfa-numeriese ruitverwysings; Ruitverwysings vir simbole op eenvoudige ruitnet; Lees en verskaf van ruitverwysings op 'n eenvoudige grootskaalkaart",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "bewering": "Kyk na 'n kaart van 'n dorp en jy sien baie lyne, name en simbole.",
+      "blok": "Die kaart is vol en jy soek een plek",
+      "status": "bevestig",
+      "bron": "Esri ArcGIS Pro, 'ICM Street Index' (pro.arcgis.com/en/pro-app/help/production/defense-mapping/icm-street-index.htm): straatkaarte dra straatname, simbole en 'n indeks na roostersvakke; Providence RI 'Street Line Plan Lookup Guide' (maps.providenceri.gov). Algemene beskrywing van 'n dorpskaart, geen getal of uitsondering betrokke nie. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Mens het 'n manier nodig om presies te sê waar iets lê.",
+      "blok": "Die kaart is vol en jy soek een plek",
+      "status": "bevestig",
+      "bron": "Wikipedia, 'Alphanumeric grid' (en.wikipedia.org/wiki/Alphanumeric_grid): die rooster bestaan om elke sel eenduidig te benoem. Die les kwalifiseer 'presies' self korrek in die blok 'Wat 'n ruitverwysing is' as 'presies in watter blokkie', dus beloof die les nie 'n puntligging nie. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Op baie kaarte is daar daarom 'n rooster van reguit lyne.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "bevestig",
+      "bron": "US Army-studie, DTIC ADA070048 (apps.dtic.mil/sti/tr/pdf/ADA070048.pdf), soos in soekresultate opgesom (die PDF self was nie oopmaakbaar nie): ongeveer 92% van die straatkaarte wat ondersoek is, het 'n letter-nommer-rooster gebruik; die Oxford First Atlas (vir 7-9-jariges) se indeks gee roosterverwysings; die Afrikaanse Bybelkaart-indeks (churchofjesuschrist.org/study/scriptures/bible-maps?lang=afr) gebruik ruitverwysings op elke kaart. 'Baie' (nie 'alle') is die regte kwantor. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Party lyne loop van bo na onder, en ander loop dwars daaroor. Saam verdeel daardie lyne die hele kaart in klein blokkies.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "bevestig",
+      "bron": "Glosbe Afrikaans-Engels, 'rooster' (glosbe.com/af/en/rooster): 'grid' - 'a set of intersecting lines ... at right angles to each other'; Wikipedia 'Alphanumeric grid': elke sel word deur 'n ry en 'n kolom bepaal. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Elke plek op die kaart lê nou in een of meer van daardie blokkies. 'n Lang pad kan deur 'n hele paar blokkies loop.",
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "status": "bevestig",
+      "bron": "Esri ArcGIS Pro, 'ICM Street Index': die straatindeks identifiseer die roostersvak(ke) waarin 'n straat lê; volg ook uit die meetkunde van 'n rooster wat die hele kaart bedek. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Langs die kant van hierdie rooster staan die letters A, B en C. Bo-aan dieselfde rooster staan die nommers, van links af getel.",
+      "blok": "Hoe hierdie rooster gemerk is",
+      "status": "bevestig",
+      "bron": "Dit beskryf die les se eie voorbeeldrooster, en die les beperk dit uitdruklik met 'hierdie rooster' en 'dieselfde rooster'. Werklike kaarte verskil oor watter rand die letters dra: Wikipedia 'Alphanumeric grid' se voorbeeld het letters bo en nommers links; Britse skoolhulpbronne in soekresultate sit letters onder; die DTIC-studie beskryf die linker- en bokantlyn as die kantlyne wat gelees word; die Afrikaanse Bybelkaart-indeks praat net van 'die bokant en sykant'. Letters op die kant en nommers bo is dus 'n geldige uitleg, en die les beweer nie dat alle kaarte so lyk nie. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Ruitverwysing is 'n letter en 'n nommer wat saam een blokkie noem.",
+      "blok": "Wat 'n ruitverwysing is",
+      "status": "bevestig",
+      "bron": "Afrikaanse Bybelkaart-indeks (churchofjesuschrist.org/study/scriptures/bible-maps?lang=afr): 'n ruitverwysing 'bestaan uit 'n letter-syfer kombinasie', bv. '1:D5 - d.w.s. kaart 1, blokkie D5'; Wikipedia 'Alphanumeric grid': 'each cell is identified by a combination of a letter and a number'. Let wel: buite die alfa-numeriese stelsel bestaan ook suiwer numeriese roosterverwysings (Ordnance Survey se oostings en noordings, ukhillwalking.com/articles/page.php?id=8851), maar die les se eie CAPS-punt is alfa-numeriese ruitverwysings, dus is die omskrywing waar vir wat hierdie les behandel. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Dit sê presies in watter blokkie van die rooster 'n plek of 'n deel daarvan lê.",
+      "blok": "Wat 'n ruitverwysing is",
+      "status": "bevestig",
+      "bron": "kaikki.org (Wiktionary-data), 'grid reference': 'the point or area on a map described by the numbers or letters indicated'; Wikipedia 'Alphanumeric grid'. 'Of 'n deel daarvan' dek korrek 'n plek wat oor meer as een blokkie strek. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Verwysing soos B2 wys na een bepaalde blokkie van die rooster.",
+      "blok": "Wat 'n ruitverwysing is",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Alphanumeric grid'; Afrikaanse Bybelkaart-indeks ('blokkie D5'). Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Kyk eers na die letter B langs die kant van die rooster. ... Kyk dan boontoe na die nommer 2 wat bo-aan die rooster staan. Skuif jou vinger van die letter af tot onder daardie nommer. Die blokkie waar die twee mekaar ontmoet, is waar die skool staan.",
+      "blok": "Hoe jy blokkie B2 kry",
+      "status": "bevestig",
+      "bron": "DTIC ADA070048, soos in soekresultate opgesom: jy vind die letter en die nommer op die linker- en bokantlyn en neem die sel waar die ry en die kolom sny; Afrikaanse Bybelkaart-indeks: blokkie gevind met 'die koördinate aan die bokant en sykant'. Die vingerbeweging is korrek gekarteer: met die letters op die kant is B 'n horisontale ry, en die vinger beweeg langs daardie ry tot onder kolom 2. Geen analogie nie, 'n prosedure. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die park op dieselfde kaart lê in blokkie C3. Soek weer eers die letter C langs die kant van die rooster. Skuif jou vinger dan tot onder die nommer 3 bo-aan die rooster.",
+      "blok": "Nog 'n keer, met die park",
+      "status": "bevestig",
+      "bron": "Dieselfde bronne as die B2-prosedure; die prosedure is korrek. Die ligging 'C3' is 'n stipulasie oor die les se eie voorbeeldkaart en nie 'n bewering oor die wêreld nie; dit is intern konsekwent met die rooster wat die les beskryf (C is een van die letters A, B en C; die les noem nie hoeveel nommers daar is nie, dus is 3 moontlik). Die les dra self geen kaart nie - sien opsomming. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Kyk watter letter langs die kant by die dam se blokkie hoort. Kyk dan boontoe na die nommer wat reg bo die dam se blokkie bo-aan die rooster staan. Skryf eers die letter neer en dan die nommer.",
+      "blok": "Gee self 'n ruitverwysing",
+      "status": "bevestig",
+      "bron": "Die omgekeerde prosedure (simbool na verwysing) is die spieëlbeeld van die vind-prosedure hierbo en klop met die les se eie rooster. Letter-eerste: 'n Jaar 3-5-wiskundehulpbron in soekresultate se 'the letter always comes first, so C4 is correct and 4C is not'; Wikipedia 'Alphanumeric grid' skryf letter dan nommer; die Afrikaanse Bybelkaart-indeks skryf 'D5'. Dit is 'n konvensie, en dit is die algemene een. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Eers die letter, dan die nommer",
+      "blok": "titel",
+      "status": "bevestig",
+      "bron": "Soos die vorige item: letter-eerste is die algemene konvensie vir alfa-numeriese ruitverwysings (Wikipedia 'Alphanumeric grid'; Afrikaanse Bybelkaart-indeks 'D5'; skoolhulpbronne in soekresultate). Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "rooster: 'n Patroon van lyne wat 'n kaart in blokkies verdeel.",
+      "blok": "rooster",
+      "status": "bevestig",
+      "bron": "Glosbe Afrikaans-Engels, 'rooster' (glosbe.com/af/en/rooster): eerste vertaling 'grid', 'a set of intersecting lines'; Dictionary of South African English, 'roosterkoek' (dsae.co.za/entry/roosterkoek/e06109): Afrikaans 'rooster' = grid(iron). Die woord se ander betekenisse (vleisrooster, diensrooster) maak die omskrywing nie vals nie; dit gee die kaartbetekenis en hou ook alleen gelees, omdat dit 'n kaart noem. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "ruitverwysing: 'n Letter en 'n nommer wat saam een blokkie op 'n kaart noem.",
+      "blok": "ruitverwysing",
+      "status": "bevestig",
+      "bron": "Afrikaanse Bybelkaart-indeks ('ruitverwysing ... letter-syfer kombinasie', 'blokkie D5'); Wikipedia 'Alphanumeric grid'. Alleen gelees beskryf dit die alfa-numeriese ruitverwysing, die enigste soort wat die les en sy CAPS-punt behandel; sien die voorbehoud oor numeriese stelsels by die studieblok 'Wat 'n ruitverwysing is'. Volledig in hierdie ronde nagegaan.",
+      "tipe": "algemeen"
+    }
+  ],
+  "opsomming": "Elke bewering klop en die les het geen oortreffende trappe, datums, getalle of vergelykings nie, maar 'n mens moet weet dat die les van 'n bepaalde kaart praat (skool in B2, park in C3, 'n dam, 'n kliniek, letters A tot C op die kant en nommers bo) sonder om self 'n kaartblok te dra, so die kaart wat gebou word moet presies so lyk, anders word daardie sinne vals."
+}

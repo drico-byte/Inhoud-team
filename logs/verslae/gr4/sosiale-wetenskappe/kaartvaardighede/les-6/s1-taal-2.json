@@ -1,0 +1,64 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Sê waar een plek teenoor 'n ander lê",
+      "voor": "en lê dus wes van die huis",
+      "na": "en lê dus wes daarvan",
+      "soort": "sinsbou",
+      "rede_vinder": "Avoids repeating 'van die huis' twice in one sentence and matches the parallel 'noord daarvan' in the next sentence.",
+      "fout": "'van die huis' is repeated twice in one sentence, which reads stiffly beside the parallel 'noord daarvan' in the next sentence.",
+      "rede_keurder": "'daarvan' can only point to the house, so the repetition goes and the two sentences match without the meaning moving."
+    },
+    {
+      "nr": 3,
+      "blok": "Die son wys die rigtings buite",
+      "voor": "sak teen die einde van die dag in die weste",
+      "na": "sak saans in die weste",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Saans' is the natural counterpart of 'soggens' earlier in the sentence and replaces a wordy phrase without changing the meaning.",
+      "fout": "'teen die einde van die dag' is a wordy, loose phrase where Afrikaans has a plain time word to pair with 'soggens'.",
+      "rede_keurder": "'saans' is the natural counterpart of 'soggens', reads more simply for Grade 4, and keeps the same time and direction."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die kompasroos en die noordpyl",
+      "voor": "Albei lees jy van die kaart self af",
+      "na": "Jy lees albei van die kaart self af",
+      "soort": "woordorde",
+      "rede_vinder": "Fronting 'Albei' with inversion reads stiffly for Grade 4; subject-first order is more natural and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "Fronting 'Albei' with inversion is natural Afrikaans that ties back to the two items just named, so the reordering is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die kompasroos en die noordpyl",
+      "teks": "Albei lees jy van die kaart self af.",
+      "rede": "'Albei' follows sentences about the key and the compass rose, but the block also introduced the north arrow, so a learner may read 'albei' as the compass rose and north arrow; clarifying the reference would mean guessing the intended content, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 386,
+  "woorde_na": 379,
+  "wanneer": "2026-10-23T15:54:41+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Die son wys die rigtings buite",
+      "voor": "om buite rigtings te vind sonder enige kaart",
+      "na": "om buite sonder 'n kaart rigtings te vind",
+      "soort": "anglisisme",
+      "rede_vinder": "'sonder enige kaart' after the verb copies English 'without any map'; Afrikaans places the 'sonder' phrase before the object and uses ''n'.",
+      "fout": "none",
+      "rede_keurder": "Lateral move: putting the 'sonder' phrase after the verb is natural Afrikaans, and 'enige' carries the deliberate emphasis of no map at all, which the proposal weakens."
+    }
+  ],
+  "konsep_hash_voor": "sha256:a081eedfad08a13f3830f90b5f9f1288",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:011fa8e31d0bed253d944ac6d59f9e1c"
+}

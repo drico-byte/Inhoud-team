@@ -130,3 +130,12 @@ recorded below as they come.
   - Remaining Geo gap lesson not yet started: kaart 8 (Pasifiese Oseaan once + atlas). Start after kaart 4 is out of writer (it is now - in finder).
   - (Die QUEUED- en Remaining-reëls hierbo is almal reeds afgehandel; die huidige oop lys is die Stand-paragraaf. Die VIDEO-lys en die spek-veeg-kandidate is nog oop.)
 - **Om te hervat (23 Oktober aand):** water 3 en plekke 4 is deur die skrywer (siklus-omskrywing; teerpaaie) maar NOG NIE deur die hardloper nie - begin met hardloop.py op albei. Plekke 4 se spek sê nog 'meestal' (teerpaaie) in twee velde: wysig by die bron. Kaart 2 (aardbol: mense het name EN grense bygevoeg), kaart 6 (noordpyl, nie kompasroos nie) en kaart 5 ('bo-aan die rooster') wag nog op die skrywer; die kaartspek is reeds vir 2 en 6 reggemaak - voer eers vernuwe-uittreksels.py uit. Kaartspek les 2: een veld met vier rekords sonder merker; les 6: twee velde verbied steeds om te sê waar die naald wys.
+
+**Gr 5 Lewensvaardighede begin, 23 Oktober 2026 (aand).** KABV-oudit se items is in die vyf spesifikasies geskryf (GO 1, 2, 10, 13; OvS 5 'tragedie'; SR 1 vierstap-plan; UK 1-4 hoorbare kenmerke, timbila melodies, TV-tegniek, sleutelterme; VK 1-4 slotblok oor eie en 'n maat se werk, 'n gekerfde figuur, Dürer se *Stag Beetle* as kandidaat, plaaslike omgewing). Ek het besluit (onder bestaande reëls):
+- 'vorm' kry GEEN 3D-betekenis nie (beslisde gedeelde bewoording, Gr 4-6; die 3D-sin hoort by KABV se praktiese onderwerp, wat ons nie skryf nie).
+- Gr 5 'timbila' na 'hol dop' oorgedra, soos Gr 4 se feitetoets-regstelling van 22 Oktober.
+- 'krag' as dans-element beskerm onder uitvoerende-kunste ('energie, nie krag nie' is 'n wetenskapreël).
+- UK 1: die spek se nota oor waar refleksie geleer word, is genoeg; geen lessin nie (geen ruimte nie).
+- VK-begrotings 1600 na 1770 aanvaar (vereistes-basis; die KABV-oudit voeg vereistes by).
+- 'tragedie' en die nuwe UK-sleutelterme: na die feitetoetse in die Gr 5 gedeelde lys sit.
+- Kaart 5 (ruitverwysings) beskryf 'n bepaalde kaart (skool by B2, park by C3, 'n dam, 'n kliniek, letters A-C langs die kant) maar het geen kaartblok nie. Die HTML-span se kaart moet daardie besonderhede presies dra, of die sinne word vals. Vir Lampies/die HTML-span.

@@ -4,149 +4,162 @@
   "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Vier rigtings op 'n kaart en buite",
   "kaps_punt": "Kompasrigtings — Noord (N), suid (S), oos (O) en wes (W) in plaaslike omgewing; Kompasrigtings (N, S, O en W) op 'n kaart",
-  "verdict": "HERSIEN",
+  "verdict": "GOEDGEKEUR",
   "items": [
     {
       "bewering": "Jy staan in die straat met die winkel aan jou regterhand. Draai jy om, dan staan dieselfde winkel skielik aan jou linkerhand. Links en regs verander dus sodra jy self 'n ander kant toe draai.",
       "blok": "Links en regs verander wanneer jy omdraai",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, 'Relative direction' (links/regs is relatief tot die waarnemer se liggaam, 'egocentric view'); Ordnance Survey en verwante bronne wat relatiewe teenoor vaste kompasrigtings onderskei. Die voorbeeld (omdraai = 180 grade, regs word links) hou meetkundig. Dit is 'n illustrasie, nie 'n analogie nie; die afbeelding hou."
+      "tipe": "analogie",
+      "bron": "Volg uit die meetkunde: links en regs is relatief tot die liggaam, en 'n draai van 180 grade ruil hulle om. Die kartering hou ook as 'n leerder verder redeneer: die volgende blok kontrasteer dit met noord, wat nie verander nie (relatiewe teenoor vaste rigtings). Geen plek gevind waar die vergelyking 'n Graad 4-leerder mislei nie. Nie op geheue alleen nie: dieselfde kontras word gestel in die QGIS-dokumentasie oor kaartrigtings (docs.qgis.org, Gentle GIS Introduction, Map Production) en Britannica Kids 'compass rose'."
     },
     {
       "bewering": "'n Rigting sê waar 'n plek lê of watter kant toe jy moet stap.",
       "blok": "Links en regs verander wanneer jy omdraai",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Algemene betekenis van 'rigting' / 'direction' (Wikipedia 'Relative direction' en 'Cardinal direction'); dek albei gebruike: ligging en bewegingsrigting."
+      "bron": "Stem ooreen met die gewone betekenis van rigting as die kant waarheen iets lê of beweeg; die KABV Gr 4 Geografie Kwartaal 2 (DBE, education.gov.za, KABV SW Gr 4-6 Afrikaans, bl. 22) behandel kompasrigtings presies so, in die plaaslike omgewing en op 'n kaart."
     },
     {
       "bewering": "Die vier hoofrigtings is noord, suid, oos en wes.",
       "blok": "Noord, suid, oos en wes",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "WorldAtlas, 'Cardinal directions and compass rose' en Wikipedia 'Compass rose' (die vier hoofrigtings is N, O, S, W). Afrikaans: af.wikipedia 'Kompas' gebruik 'hoofwindrigtings'; die vorm 'hoofrigtings' self het ek nie in gepubliseerde Afrikaanse bronne gevind nie. Die feit klop; of 'hoofrigtings' die gevestigde term is, is 'n taalvraag en nie 'n waarheidsvraag nie."
+      "tipe": "getal",
+      "bron": "Die vier kardinale rigtings is noord, suid, oos en wes (Britannica Kids 'compass rose'; worldatlas.com 'Cardinal directions and compass rose'; geographyrealm.com). Afrikaanse woorde noord/suid/oos/wes: af.wikipedia.org/wiki/Kompas. Die getal vier is volledig: die tussenrigtings (noordoos ens.) is nie hoofrigtings nie."
     },
     {
       "bewering": "Draai jy in die straat om, dan bly noord steeds noord.",
       "blok": "Noord, suid, oos en wes",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia 'Relative direction' teenoor 'Cardinal direction': kompasrigtings is vas en hang nie af van die waarnemer se oriëntasie nie."
+      "bron": "Kompasrigtings is vas ten opsigte van die aarde, nie die waarnemer nie (Britannica Kids 'compass rose': die kompasroos wys hoe die kaart met werklike rigtings ooreenstem; scoutwiki.scouts.org.za 'Orienting a map')."
     },
     {
       "bewering": "Op 'n kaart kry noord die letter N en suid die letter S. Oos kry die letter O, en wes kry die letter W.",
       "blok": "Noord, suid, oos en wes",
       "status": "bevestig",
       "tipe": "naam",
-      "bron": "DBE, NSS Geografie V2 November 2015 Memorandum (Afrikaans), bl. 4: koördinate geskryf as '31°54'S 26°53'O' (O vir oos, S vir suid in Afrikaanse DBE-gebruik). ielanguages.com Germanic directions: noord, suid, oos, wes. W vir wes en N vir noord volg dieselfde beginletterkonvensie."
+      "bron": "DBE, KABV Sosiale Wetenskappe Intermediere Fase (Afrikaans), bl. 22: 'Noord (N), suid (S), oos (O) en wes (W)' en 'Kompasrigtings (N, S, O en W) op 'n kaart'; bl. 25 (Gr 5): 'Agt punte op die kompas - N/S/O/W/NO/NW/SO/SW'. Die bewering is tereg tot 'op 'n kaart' beperk: baie fisiese kompasse is internasionaal gedruk en dra E vir oos, maar die les beweer dit nie van 'n kompas nie."
     },
     {
       "bewering": "Op 'n kaart word noord gewoonlik bo-aan die bladsy aangedui.",
       "blok": "Waar die rigtings op 'n kaart lê",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "ABC News Science, 'Most world maps show north at the top. But it doesn't have to be that way' (2020): noord-bo is 'n konvensie wat sedert die kompas en Europese kartografie oorheers; Rand McNally-kartograaf (randpublishing.com) bevestig dat kaarte soms gedraai word. 'Gewoonlik' is dus presies reg."
+      "bron": "Britannica Kids 'compass rose': in baie gevalle word kaarte gedruk met noord bo; QGIS-dokumentasie (docs.qgis.org, Map Production) en kaartgidse: 'most maps point north at the top'. DBE KABV Gr 4, bl. 22, nota **: kaarte 'met noord aan die bokant van die bladsy'. 'Gewoonlik' is die korrekte kwantor - dit is 'n konvensie, nie 'n reel nie."
     },
     {
       "bewering": "Suid lê dan onderaan die bladsy, reg oorkant noord. Oos lê dan regs op die bladsy, en wes lê links.",
       "blok": "Waar die rigtings op 'n kaart lê",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "WorldAtlas 'Cardinal directions and compass rose' / Wikipedia 'Compass rose': O is 90 grade kloksgewys van N, S 180, W 270; met noord bo lê oos regs en wes links. Die 'dan' maak die stelling korrek voorwaardelik op noord-bo."
+      "bron": "Met noord bo is oos, suid en wes kloksgewys op 90-grade-intervalle (Britannica Kids 'compass rose'), dus oos regs, suid onder, wes links. Die sin is korrek voorwaardelik ('dan') aan die vorige sin gekoppel."
     },
     {
-      "bewering": "Baie kaarte het 'n klein pyl of ster met die letters daarop. Dit is die kompasroos, en dit wys waar die vier rigtings lê.",
-      "blok": "Die kompasroos op die kaart",
-      "status": "weerspreek",
-      "tipe": "naam",
-      "bron": "Rand McNally-kartograaf, 'Ask a Cartographer: Is a North Arrow Or Compass Rose Really Needed On a Map?' (randpublishing.com): 'a north arrow will include a line or graphic element with an N labeled to indicate north' teenoor 'a compass rose might look more like a star and frequently shows other cardinal directions such as north, south, east, and west'. Wikipedia 'Compass rose' en Britannica Kids 'compass rose' beskryf die kompasroos as die figuur (ster/roos) wat die hoofrigtings vertoon; 'north arrows' word as 'n aparte kaartelement genoem. 'n Pyl is dus 'n noordpyl, nie 'n kompasroos nie, en 'n gewone noordpyl dra net die letter N en nie 'die letters' van al vier rigtings nie. Die sin laat 'n leerder 'n noordpyl op 'n kaart as 'n kompasroos benoem. Die ster-helfte van die sin is korrek.",
-      "regstelling": "Beskryf die kompasroos as die ster of kruis met die letters N, S, O en W by sy punte; moenie 'n pyl 'n kompasroos noem nie. As die les die pyl wil noem, sê dat sommige kaarte eerder net 'n pyl met die letter N het wat na noord wys (sonder om dit kompasroos te noem)."
-    },
-    {
-      "bewering": "Die sleutel van 'n kaart sê wat die simbole daarop beteken.",
-      "blok": "Die kompasroos op die kaart",
+      "bewering": "Kyk altyd eers waar noord lê voordat jy die ander drie soek.",
+      "blok": "Waar die rigtings op 'n kaart lê",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Ordnance Survey, 'Map legends' (docs.os.uk, Guide to cartography): 'n legende/sleutel verduidelik wat die simbole, kleure en patrone op die kaart beteken."
+      "bron": "Raad, nie 'n feitelike bewering nie, en dit strook met kaartleespraktyk: die kompasroos/noordpyl bevestig waar noord is omdat noord nie altyd bo is nie (QGIS-dokumentasie, Map Production; Britannica Kids 'compass rose'). 'Altyd' is hier 'n opdrag, nie 'n superlatief oor die wêreld nie."
     },
     {
-      "bewering": "Die kompasroos sê waar die rigtings lê. Albei lees jy van die kaart self af.",
-      "blok": "Die kompasroos op die kaart",
+      "bewering": "Baie kaarte het 'n kompasroos. Dit is 'n ster of kruis met die vier letters by sy punte.",
+      "blok": "Die kompasroos en die noordpyl",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia 'Compass rose' en Britannica Kids 'compass rose': 'n kaartsimbool wat die kaart se oriëntasie teenoor die hoofrigtings wys; die sleutel en die kompasroos is albei op die kaart gedruk (Ordnance Survey 'Map legends')."
+      "bron": "Britannica Kids 'compass rose': 'n simbool op 'n kaart wat die kardinale rigtings wys; meer uitgebreide rose wys ook die tussenrigtings. en.wikipedia.org/wiki/Compass_rose: ook 'compass star' genoem; 'n basiese roos is 'n vierpuntige ster. Die sin se 'n ster of kruis met die vier letters - dit beweer nie 'net' vier punte nie, so rose met agt of sestien punte maak dit nie vals nie."
+    },
+    {
+      "bewering": "Party kaarte het net 'n noordpyl. Dit is 'n pyl wat na noord wys en die letter N dra.",
+      "blok": "Die kompasroos en die noordpyl",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "QGIS-dokumentasie (docs.qgis.org, Gentle GIS Introduction, Map Production): 'n noordpyl word op 'n kaart gebruik om die rigting van noord aan te dui. Noordpyle dra gewoonlik die letter N; die sin is beskrywend en nie absoluut nie."
+    },
+    {
+      "bewering": "Die sleutel van 'n kaart sê wat die simbole daarop beteken. Die kompasroos sê waar die rigtings lê. Jy lees die sleutel en die kompasroos albei van die kaart self af.",
+      "blok": "Die kompasroos en die noordpyl",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "QGIS-dokumentasie (Map Production): die legende/sleutel is 'n sleutel tot al die simbole op die kaart, gewoonlik in 'n hoek; DBE KABV Gr 4, bl. 22: 'Sleutels, as lys van simbole, met hul betekenisse'. Britannica Kids: die kompasroos wys die rigtings op die kaart. Albei is kaartelemente wat op die kaart self gedruk word."
+    },
+    {
+      "bewering": "Kyk na 'n kaart van 'n plaas met noord bo-aan die bladsy. Die dam staan links van die huis en lê dus wes daarvan. Die kraal staan bo die huis en lê dus noord daarvan.",
+      "blok": "Sê waar een plek teenoor 'n ander lê",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Uitgewerkte voorbeeld, nagegaan vir sy kartering: met noord bo is links wes en bo noord (Britannica Kids 'compass rose', kloksgewyse 90-grade-volgorde). Die voorwaarde 'met noord bo-aan die bladsy' word uitdruklik gestel, so 'n leerder leer nie dat bo altyd noord is nie. 'Kraal' as 'n kampie vir vee in Suider-Afrika: en.wikipedia.org/wiki/Kraal, Merriam-Webster 'kraal'."
     },
     {
       "bewering": "'n Kaart se kompasroos wys waar noord op die bladsy lê.",
       "blok": "'n Kompas help jou rigtings vind",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Wikipedia 'Compass rose'; Britannica Kids 'compass rose' ('shows how a map aligns with real-world directions')."
+      "bron": "Britannica Kids 'compass rose'; QGIS-dokumentasie (Map Production): die roos/pyl dui die rigting van noord op die kaart aan."
     },
     {
       "bewering": "'n Kompas is 'n klein instrument wat mense help om rigtings te vind.",
       "blok": "'n Kompas help jou rigtings vind",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "af.wikipedia 'Kompas' (instrument met 'n magnetiese naald vir rigtingbepaling); Natural Resources Canada, 'Appendix B: Compass'. 'Klein' beskryf die gewone handkompas; skeepskompasse is groter, maar die sin is nie 'n definisie van elke kompas nie."
+      "bron": "af.wikipedia.org/wiki/Kompas: 'n instrument met 'n magnetiese naald wat in 'n noord-suid-rigting staan, gebruik om koers te vind. 'Klein' pas by die handkompas waaroor die les praat; skeepskompasse kan groter wees, maar die sin is nie 'n definisie van alle kompasse wat dit uitsluit nie."
     },
     {
       "bewering": "Die naald binne die kompas draai vanself totdat hy noord wys. So weet jy buite ook waar noord lê.",
       "blok": "'n Kompas help jou rigtings vind",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "af.wikipedia 'Kompas': 'Die kompas het 'n magnetiese naald wat pal in 'n noordsuid-rigting staan vanweë die magnetisme van die aarde'. Voorbehoud vir 'n mens, nie 'n fout nie: die naald wys na MAGNETIESE noord. NOAA NCEI 'Magnetic declination' en ScoutWiki SA 'Orienting a map' (Maart 2019): in Suid-Afrika lê magnetiese noord sowat 19 grade (Johannesburg) tot 25-26 grade (Kaapstad, Durban) wes van ware noord. Om te sê 'n kompasnaald 'wys noord' is die standaard algemene en opvoedkundige vereenvoudiging en is op Graad 4-vlak nie vals nie; ek merk dit omdat die afwyking in Suid-Afrika groter is as in die meeste lande."
+      "bron": "af.wikipedia.org/wiki/Kompas: die magnetiese naald staan 'pal in 'n noordsuid-rigting staan vanweë die magnetisme van die aarde'; nationalmaglab.org 'Compasses in magnetic fields' en phys.libretexts.org 'Earth as a Magnet': die naald is 'n klein magneet wat met die aarde se magneetveld in lyn draai. VOORBEHOUD vir 'n mens, nie 'n fout nie: die naald wys na magnetiese noord. In Suid-Afrika is die afwyking groot - scoutwiki.scouts.org.za 'Orienting a map' (1 Maart 2019): Kaapstad -25,4 grade, Johannesburg -19,0 grade, Durban -25,8 grade (wes). Op die vlak van vier hoofrigtings bly die naald steeds duidelik in die noordelike rigting (nader aan N as aan NW), en die KABV maak dieselfde vereenvoudiging; daarom bevestig."
     },
     {
       "bewering": "Matrose en bergstappers dra so 'n kompas saam.",
       "blok": "'n Kompas help jou rigtings vind",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "SOLAS Hoofstuk V, regulasie 19 (via Gard, 'Maintenance and adjustment of magnetic compasses', en Panama Ship Registry MMC-138): alle skepe moet 'n magnetiese kompas aan boord hê. Bergstappers: die 'Ten Essentials'-lys (The Mountaineers; aanbeveel deur die US National Park Service, volgens Garmin se opsomming) sluit 'n kaart en kompas in."
+      "bron": "af.wikipedia.org/wiki/Kompas: belangrik vir 'seevaarders' en 'die kaptein van 'n skip'; nps.gov/articles/10essentials.htm: navigasie (kaart, kompas, GPS) is een van die tien noodsaaklikhede vir stappers. Die sin beweer nie dat almal of net hulle een dra nie."
     },
     {
-      "bewering": "Die son kom soggens in die ooste op en sak teen die einde van die dag in die weste.",
+      "bewering": "Die son help jou om buite rigtings te vind sonder enige kaart. Die son kom soggens in die ooste op en sak saans in die weste.",
       "blok": "Die son wys die rigtings buite",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "sunrisesunset.io, 'Does the Sun Rise in the East? Only Twice a Year', en photoephemeris.com, 'East of the Sun: the Equinox': die son kom elke dag in die oostelike deel van die horison op en sak in die weste, maar presies oos/wes net naby die nageweninge. Op Suid-Afrikaanse breedtegrade swaai die opkomspunt tot sowat 25-29 grade noord van oos (Junie) en suid van oos (Desember). 'In die ooste' as streek is waar die hele jaar deur."
+      "bron": "photoephemeris.com 'East of the Sun: the Equinox' en earthsky.org: die son kom presies oos op net by die nagewenings en skuif andersins noord of suid van oos. timeanddate.com (Johannesburg): sonsopkoms 5 Des 2025 op 116 grade (OSO); by die winterstilstand ongeveer 64 grade (ONO). 'In die ooste' (die oostelike kant, nie 'presies oos' nie) bly die hele jaar waar op die vlak van vier hoofrigtings."
     },
     {
       "bewering": "Gaan staan kort nadat die son opkom, met jou gesig na hom toe. Dan kyk jy na die ooste, en wes lê agter jou rug. Noord lê aan jou linkerhand en suid lê aan jou regterhand.",
       "blok": "Die son wys die rigtings buite",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Meetkunde van die hoofrigtings (WorldAtlas / Wikipedia 'Compass rose'): as jy oos kyk, lê wes agter jou, noord links en suid regs, korrek. Soos by die vorige item is 'die ooste' benaderd: in Suid-Afrika kan die opkomende son tot sowat 25-29 grade van ware oos af wees (sunrisesunset.io; photoephemeris.com). Die metode gee die rigtings dus ongeveer, wat vir die veld genoeg is, en die les beweer nie presisie nie."
+      "bron": "Meetkunde: met die gesig na oos is noord links, suid regs en wes agter - dit geld in albei halfronde. Bevestig deur natuurlike-navigasiebronne (hemamaps.com 'Natural navigation techniques'; frontierbushcraft.com 'Equinox natural navigation'), wat ook sê die metode werk die beste wanneer die son laag is, net na sonop - presies wat die les voorskryf. VOORBEHOUD vir 'n mens, nie 'n fout nie: in Suid-Afrika wyk die sonsopkoms tot sowat 26 grade (Johannesburg) en effens meer in Kaapstad van presies oos af, na gelang van die seisoen; die metode gee dus die rigtings by benadering, wat by die les se vlak van vier hoofrigtings pas."
     },
     {
-      "bewering": "Kyk na 'n kaart van 'n plaas met noord bo-aan die bladsy. Die dam staan links van die huis en lê dus wes van die huis. Die kraal staan bo die huis en lê dus noord daarvan.",
-      "blok": "Sê waar een plek teenoor 'n ander lê",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Intern konsekwent met die konvensie noord-bo, oos-regs, wes-links (WorldAtlas 'Cardinal directions and compass rose'). Links = wes en bo = noord by 'n noord-bo kaart, korrek."
-    },
-    {
-      "bewering": "rigting: Die kant waar 'n plek lê of waarheen jy moet beweeg.",
+      "bewering": "Begrip 'rigting': Die kant waar 'n plek lê of waarheen jy moet beweeg.",
       "blok": "rigting",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Algemene betekenis van 'rigting' / 'direction'; konsekwent met die studieblok se gebruik. Die inskrywing is waar as dit alleen gelees word."
+      "bron": "Gewone betekenis van rigting; strook met die KABV Gr 4 (DBE, bl. 22) se gebruik van kompasrigtings in die plaaslike omgewing en op 'n kaart. Waar ook wanneer dit alleen gelees word."
     },
     {
-      "bewering": "kompas: 'n Klein instrument met 'n naald wat self noord wys.",
+      "bewering": "Begrip 'kompas': 'n Klein instrument met 'n naald wat self noord wys.",
       "blok": "kompas",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "af.wikipedia 'Kompas' (magnetiese naald wat in 'n noordsuid-rigting staan). Dieselfde voorbehoud as by die studieblok: die naald wys na magnetiese noord, in Suid-Afrika sowat 19-26 grade wes van ware noord (NOAA NCEI; ScoutWiki SA). Die inskrywing beskryf die gewone magnetiese handkompas, wat op Graad 4-vlak aanvaarbaar is."
+      "bron": "af.wikipedia.org/wiki/Kompas; nationalmaglab.org 'Compasses in magnetic fields'. Dieselfde voorbehoud as by die studieblok: die naald wys magnetiese noord, in Suid-Afrika sowat 19 tot 26 grade wes van ware noord (scoutwiki.scouts.org.za 'Orienting a map'); op die vlak van vier hoofrigtings bly 'noord' waar."
     },
     {
-      "bewering": "kompasroos: 'n Prentjie op 'n kaart of kompas wat die rigtings wys.",
+      "bewering": "Begrip 'kompasroos': 'n Ster of kruis op 'n kaart of kompas wat die vier hoofrigtings wys.",
       "blok": "kompasroos",
       "status": "bevestig",
-      "tipe": "naam",
-      "bron": "WorldAtlas: 'a very important symbol on a map, nautical chart or compass that displays the orientation ... to cardinal and intercardinal directions'; Wikipedia 'Compass rose' ('a figure on a compass, map, nautical chart'). Die begripinskrywing is korrek; dis net die studieblok se 'pyl' wat bots (sien die item hierbo)."
+      "tipe": "algemeen",
+      "bron": "Britannica Kids 'compass rose' (simbool op 'n kaart wat die kardinale rigtings wys); en.wikipedia.org/wiki/Compass_rose (verskyn op kaarte, seekaarte en kompasse; ook 'compass star'). Die inskrywing noem nie letters nie, so dit bots nie met kompasse wat E vir oos druk nie. Waar ook wanneer dit alleen gelees word."
+    },
+    {
+      "bewering": "Begrip 'noordpyl': 'n Pyl op 'n kaart wat wys waar noord lê.",
+      "blok": "noordpyl",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "QGIS-dokumentasie (docs.qgis.org, Gentle GIS Introduction, Map Production): 'n noordpyl word op 'n kaart gebruik om die rigting van noord aan te dui."
     }
   ],
-  "opsomming": "Een fout om reg te maak: die kompasroos-blok noem 'n pyl op 'n kaart 'n kompasroos, terwyl kartograwe 'n noordpyl (net N) van die kompasroos (die ster met N, S, O en W) onderskei; daar is geen superlatiewe of analogieë nie, en alles anders klop, met die nie-foutiewe voorbehoud dat 'n kompas en die opkomende son in Suid-Afrika die rigtings net ongeveer gee (magnetiese noord lê sowat 19-26 grade wes van ware noord, en die son kom tot sowat 25-29 grade van ware oos af op)."
+  "opsomming": "Elke bewering in die les is waar en daar is geen superlatiewe nie; twee vereenvoudigings is bevestig maar 'n mens moet daarvan weet: 'n kompasnaald wys magnetiese noord, wat in Suid-Afrika sowat 19 tot 26 grade wes van ware noord lê, en die son kom net by die nagewenings presies oos op en in Suid-Afrika andersins tot sowat 26 grade daarvandaan - op die les se vlak van vier hoofrigtings bly albei waar."
 }
