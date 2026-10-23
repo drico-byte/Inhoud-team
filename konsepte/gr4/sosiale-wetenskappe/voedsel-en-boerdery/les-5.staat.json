@@ -1,11 +1,9 @@
 {
   "les": "gr4/sosiale-wetenskappe/voedsel-en-boerdery/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:e35d4fd5392e0286da80049d4d4a906d",
+  "konsep_hash": "sha256:1c5162a4899620525483e820ad291469",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:99fbcb91d20ea801d5f0b8f05dbfecd8"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -86,11 +84,190 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\voedsel-en-boerdery\\les-5.json",
       "konsep_hash": "sha256:e35d4fd5392e0286da80049d4d4a906d",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T11:04:13+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:473be0e333f22de1f657d9195acdcd27",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T11:04:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 377,
+      "begroting": 400,
+      "failures": [
+        "Study text: 0.42 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T11:04:13+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text: 0.42 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T11:09:21+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:edbb2513b3fd34a82a5f124251a4e213",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-23T11:09:22+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 378,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:13:29+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 378,
+      "woorde_na": 377,
+      "konsep_hash": "sha256:a4108598f3893c450fb6da49e3fa457d"
+    },
+    {
+      "wanneer": "2026-10-23T11:13:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 377,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:13:30+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'fyngemaal word tot meel': In the 'meule' glossary definition, 'fyngemaal word tot meel' leaves the result phrase after the verb cluster, which reads slightly stiff.",
+        "check (the language finder raised this; it may not be a fault): 'Hierdie brood se pad loop van die plaas na die fabriek en dan na die w': The path names one 'fabriek' and the next sentence says there are two; singular versus plural may confuse a learner, but whether to say 'fabrieke' is a content choice (it may follow CAPS's farm-factory-shop-home wording), so it is not changed here."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T11:24:39+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:eef05c389210766f6d512f13025b7853",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-23T11:24:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 377,
+      "begroting": 400,
+      "failures": [
+        "Study text: 3+ syllable words 14.1% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T11:24:40+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 3,
+      "punte": [
+        "Study text: 3+ syllable words 14.1% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T11:24:40+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "revisielimiet",
+      "siklusse": 3
+    },
+    {
+      "wanneer": "2026-10-23T11:31:22+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 3,
+      "vorige_blok_faalrondtes": {}
+    },
+    {
+      "wanneer": "2026-10-23T11:31:22+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:39dc082f8bab9154ef44652ed91f07e7",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T11:31:22+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 374,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:42:06+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 374,
+      "woorde_na": 373,
+      "konsep_hash": "sha256:1c5162a4899620525483e820ad291469"
+    },
+    {
+      "wanneer": "2026-10-23T11:42:07+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 373,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:42:07+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Soms verwerk mense kos vir 'n beter smaak.': The protected wording 'Soms verwerk mense kos om die smaak te verbeter.' does not appear verbatim; the lesson has a shorter form that keeps 'soms' and the meaning. Not changed, since restoring it would bring back a longer word after the word-length repair; a person may want to update the protected entry or confirm the new form."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T12:01:56+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T12:01:56+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T12:01:56+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\voedsel-en-boerdery\\les-5.json",
+      "konsep_hash": "sha256:1c5162a4899620525483e820ad291469",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:26286c358a6e50146df3af23c9d79eaf",
+  "spek_hash": "sha256:15ad414f12db08cc7d73b4e9f8072c50",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Soms verwerk mense kos vir 'n beter smaak.': The protected wording 'Soms verwerk mense kos om die smaak te verbeter.' does not appear verbatim; the lesson has a shorter form that keeps 'soms' and the meaning. Not changed, since restoring it would bring back a longer word after the word-length repair; a person may want to update the protected entry or confirm the new form."
+  ],
+  "taal_rondte_vir": "sha256:1c5162a4899620525483e820ad291469",
+  "taal_keurder_vir": "4284f7e6e9bf95d224c4fdac44f89102",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:1c5162a4899620525483e820ad291469",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:1c5162a4899620525483e820ad291469",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "7de349b41c437434a30f9cb139a6a49e"
 }

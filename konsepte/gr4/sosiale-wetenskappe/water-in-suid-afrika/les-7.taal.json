@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Stop 1: die opgaardam",
+      "voor": "Dit gaar groot hoeveelhede water op en stoor dit sodat",
+      "na": "Dit gaar groot hoeveelhede water op sodat",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Opgaar' and 'stoor' say the same thing twice; keeping 'gaar op' preserves the link to the word opgaardam and saves three words.",
+      "fout": "'gaar ... op en stoor dit' says the same thing twice; an editor would mark the redundancy.",
+      "rede_keurder": "Dropping the redundant 'en stoor dit' keeps the meaning, keeps the link to 'opgaardam' and touches no protected wording."
+    },
+    {
+      "nr": 2,
+      "blok": "Stop 3: die reservoir",
+      "voor": "sodat die water self afdraand",
+      "na": "sodat die water vanself afdraand",
+      "soort": "idioom",
+      "rede_vinder": "'Vanself' is the idiomatic word for flowing without help; 'self' reads as 'the water itself' and the lesson already uses 'vanself' in the same sense later.",
+      "fout": "'self afdraand' uses 'self' where the idiom for moving without help is 'vanself'.",
+      "rede_keurder": "'Vanself' is the correct Afrikaans expression here, means the same, and matches the lesson's later 'nie vanself daar nie'."
+    },
+    {
+      "nr": 5,
+      "blok": "Vier stoppe in een volgorde",
+      "voor": "en laaste na die kraan",
+      "na": "en laastens na die kraan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Laastens' is the adverb for the final step in a sequence, and Stop 4 already uses it.",
+      "fout": "'laaste' is used as a sequence adverb where standard Afrikaans requires 'laastens'.",
+      "rede_keurder": "'Laastens' is the correct adverb for the final step, matches Stop 4, and does not change the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Pompe langs die pad",
+      "voor": "moet die water ver loop of teen 'n opdraande op",
+      "na": "moet die water ver of opdraand loop",
+      "soort": "sinsbou",
+      "rede_vinder": "The second half 'of teen 'n opdraande op' has no verb of its own and reads as an unfinished sentence; this version is complete, shorter and echoes 'afdraand' in Stop 3.",
+      "fout": "none",
+      "rede_keurder": "'moet ... teen 'n opdraande op' is a normal Afrikaans modal-plus-direction construction, so the original is complete and the proposal is a lateral move."
+    },
+    {
+      "nr": 4,
+      "blok": "Pompe langs die pad",
+      "voor": "kan op pad van die dam na die aanleg staan of op pad na 'n reservoir",
+      "na": "kan op pad van die dam na die aanleg of op pad na 'n reservoir staan",
+      "soort": "woordorde",
+      "rede_vinder": "With the verb at the end both places belong clearly to 'staan', instead of the second place trailing after the verb.",
+      "fout": "none",
+      "rede_keurder": "Placing the second alternative after the verb is natural Afrikaans and reads clearly; moving the verb to the end only lengthens the middle of the sentence."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 359,
+  "woorde_na": 356,
+  "wanneer": "2026-10-23T12:16:14+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:8c4adc50527298b261cbf7ba98aa7f97",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:67e881f2fd44d1a2ef0a83107b7a2e7e"
+}

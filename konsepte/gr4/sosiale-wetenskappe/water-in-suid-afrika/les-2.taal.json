@@ -3,12 +3,22 @@
     {
       "nr": 1,
       "blok": "Twee soorte water",
-      "voor": "Ons kry twee soorte water",
-      "na": "Daar is twee soorte water",
-      "soort": "register",
-      "rede_vinder": "'Ons kry' for 'there are' is spoken usage; 'Daar is' is the standard written form, with the same number of words.",
-      "fout": "'Ons kry' for 'there are' is loose spoken usage and can be read as 'we receive two kinds of water'; it also stacks 'ons' with the next sentence's 'ons vind'.",
-      "rede_keurder": "'Daar is' is the plain written form, same word count, same claim, and touches no protected word or definition."
+      "voor": "drink nie, en die meeste",
+      "na": "drink nie en die meeste",
+      "soort": "leestekens",
+      "rede_vinder": "The second half ('die meeste diere en plante op land ook nie') has no verb of its own, so under the AWS 2017 house rule no comma goes before 'en'; the protected wording stays intact.",
+      "fout": "Comma before 'en' where the second part ('die meeste diere en plante op land ook nie') is elliptical and has no subject and verb of its own.",
+      "rede_keurder": "Under the house AWS 2017 rule no comma goes before 'en' between parts of one sentence; the protected wording and its qualifier stay intact and the meaning does not move."
+    },
+    {
+      "nr": 2,
+      "blok": "Die water wat ons gebruik",
+      "voor": "daarin, maar gewoonlik",
+      "na": "daarin maar gewoonlik",
+      "soort": "leestekens",
+      "rede_vinder": "The 'maar' half ('gewoonlik te min om dit te proe') has no subject and verb of its own, so under the AWS 2017 house rule it takes no comma.",
+      "fout": "Comma before 'maar' where the second part ('gewoonlik te min om dit te proe') has no subject and verb of its own.",
+      "rede_keurder": "The 'maar' part is elliptical, so the house rule takes no comma; the protected 'gewoonlik' stays and the sentence still reads cleanly for a Grade 4 reader."
     }
   ],
   "nie_toegepas": [],
@@ -18,18 +28,13 @@
     {
       "blok": "Waar gaan die water heen?",
       "teks": "Water verdamp ook uit riviere, damme, nat grond en die see.",
-      "rede": "The protected wording is 'Water verdamp ook uit riviere, damme, nat grond en plante', but the lesson ends the list with 'die see' and does not mention plants. The protected sentence is not in the lesson as written, so a person or the writer should decide which wording is intended. This is content, so I did not change it."
-    },
-    {
-      "blok": "Die sout bly agter",
-      "teks": "Die son maak ook die seewater warm, en van daardie water verdamp.",
-      "rede": "The block before has just said water evaporates from the sea ('... nat grond en die see'), so this sentence repeats it, and its 'ook' reads oddly. This depends on how the flag above is settled, so I left it unchanged."
+      "rede": "The protected wording 'Water verdamp ook uit riviere, damme, nat grond en plante' is not in the lesson: the sentence ends in 'en die see' instead of 'en plante'. This is a content question, not language, so it is left unchanged for the writer or a person to decide."
     }
   ],
   "beskerm_bedenkings": [],
-  "woorde_voor": 363,
-  "woorde_na": 363,
-  "wanneer": "2026-10-23T10:12:33+00:00",
+  "woorde_voor": 364,
+  "woorde_na": 364,
+  "wanneer": "2026-10-23T10:50:24+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 6,
@@ -52,7 +57,7 @@
       "rede_keurder": "Both clauses hang on the shared opener 'Na 'n ruk' (hence the inverted 'le daar'), so it is one sentence and a comma would split the shared element."
     }
   ],
-  "konsep_hash_voor": "sha256:d896d8465485a7a401387f762871d5cb",
+  "konsep_hash_voor": "sha256:8bfc943c5a493be187179234268ba6bb",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:3cc94a1556a9e049ffc6ff907d468994"
+  "konsep_hash_na": "sha256:db2c3dd14ffdcd9756f9ec0773a1d464"
 }

@@ -1,0 +1,76 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Water uit 'n rivier of 'n stroom",
+      "voor": "is swaar en die pad",
+      "na": "is swaar, en die pad",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb, so a comma goes before it.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two full clauses ('emmer ... is swaar', 'pad ... kan lank wees').",
+      "rede_keurder": "Each joined clause has its own subject and verb, so the comma is required; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Water wat self uit die grond kom",
+      "voor": "dra dit so huis toe",
+      "na": "dra dit net so huis toe",
+      "soort": "idioom",
+      "rede_vinder": "A bare 'so' reads vague here; 'net so' is the idiomatic way to say 'as it is', keeping the meaning (one word added).",
+      "fout": "Bare 'so' is vague and can read as 'and thus' rather than 'as it is'.",
+      "rede_keurder": "'net so' is the natural fixed expression for carrying the water home as it is, with the same meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Water wat self uit die grond kom",
+      "voor": "kom van onder die grond af en niemand",
+      "na": "kom van onder die grond af, en niemand",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: both clauses have their own subject and verb ('water kom', 'niemand hoef'), so a comma goes before 'en'.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two full clauses ('water kom', 'niemand hoef').",
+      "rede_keurder": "Both clauses have their own subject and verb, so the comma is required; meaning unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Water uit 'n boorgat",
+      "voor": "onder die grond wat ons nie kan sien nie",
+      "na": "onder die grond waar ons dit nie kan sien nie",
+      "soort": "verwysing",
+      "rede_vinder": "As written, 'wat ons nie kan sien nie' attaches to 'die grond' rather than the water; 'waar ons dit nie kan sien nie' points clearly at the water (one word added).",
+      "fout": "The relative clause 'wat ons nie kan sien nie' can attach to 'die grond' instead of the water.",
+      "rede_keurder": "The proposal makes clear it is the water we cannot see, without changing the claim, and the next sentence's 'dit' still points to the water."
+    },
+    {
+      "nr": 5,
+      "blok": "Water met 'n vragmotor",
+      "voor": "'n ander bron van water",
+      "na": "'n ander waterbron",
+      "soort": "woordkeuse",
+      "rede_vinder": "The compound 'waterbron' is more natural Afrikaans than 'bron van water' and saves a word.",
+      "fout": "'bron van water' copies the English 'source of water' where Afrikaans uses the compound.",
+      "rede_keurder": "'waterbron' is the natural Afrikaans compound, same meaning, one word shorter."
+    },
+    {
+      "nr": 6,
+      "blok": "Water met 'n vragmotor",
+      "voor": "tap die water uit die houer",
+      "na": "tap die water uit die waterhouer",
+      "soort": "verwysing",
+      "rede_vinder": "Right after 'emmers en houers', 'die houer' could mean the people's own containers; 'waterhouer' repeats the truck's tank named in the previous sentence (no words added).",
+      "fout": "Right after 'emmers en houers', 'die houer' could mean the people's own containers.",
+      "rede_keurder": "'waterhouer' points unambiguously back to the truck's tank named in the previous sentence, with no change in meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 378,
+  "woorde_na": 378,
+  "wanneer": "2026-10-23T12:16:13+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:9dcee66a61cc1bf69d541b9595e6ec80",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:91bcb3b2f968ba463395aa26b2865bc7"
+}

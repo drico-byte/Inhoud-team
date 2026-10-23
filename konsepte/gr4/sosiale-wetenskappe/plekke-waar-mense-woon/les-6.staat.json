@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/plekke-waar-mense-woon/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:661da14e2d6f598434fb34bd0590d4eb",
+  "konsep_hash": "sha256:068967e740f45d0fe789fc4e93af2afa",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -88,11 +88,102 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\plekke-waar-mense-woon\\les-6.json",
       "konsep_hash": "sha256:661da14e2d6f598434fb34bd0590d4eb",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T11:57:52+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:661da14e2d6f598434fb34bd0590d4eb",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T12:12:09+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 360,
+      "woorde_na": 359,
+      "konsep_hash": "sha256:8faa81bce6bc5128dc6f6bc365cfbf94"
+    },
+    {
+      "wanneer": "2026-10-23T12:12:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 359,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T12:12:10+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Sonder skoon water of sonder mediese hulp word mense makliker siek.': 'mediese hulp' seems to stand for the protected video term 'gesondheidsorg' taught two blocks earlier; if it means the same thing, a learner gets two words for one idea. Not changed, because whether it is meant to be narrower is a content question."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T12:17:03+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:068967e740f45d0fe789fc4e93af2afa",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T12:17:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 358,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T12:18:32+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 358,
+      "woorde_na": 358
+    },
+    {
+      "wanneer": "2026-10-23T12:26:28+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T12:26:28+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T12:26:29+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\plekke-waar-mense-woon\\les-6.json",
+      "konsep_hash": "sha256:068967e740f45d0fe789fc4e93af2afa",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:91d479587949bf4c99cedc18d5f5ea23",
+  "spek_hash": "sha256:70fd224a71faa379951545b63acfe947",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
-  }
+  },
+  "taal_geforseer_vir": "sha256:661da14e2d6f598434fb34bd0590d4eb",
+  "taal_rondte_vir": "sha256:068967e740f45d0fe789fc4e93af2afa",
+  "taal_keurder_vir": "73ea27ef8bc8965679ea959dddfb6c72",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:068967e740f45d0fe789fc4e93af2afa",
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Die son gee elke dag lig en warmte.': Not a language fault and not changed: the protected 'hitte' entry reserves 'hitte' for energy moving from warm to cold and 'warmte' for the state of being warm, and this sentence sits in the energy block describing what the sun gives. A person may want to confirm 'warmte' is the intended reading here; the sentence reads naturally as it stands."
+  ],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:8faa81bce6bc5128dc6f6bc365cfbf94",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "bc3f8948d7e056229d7644ac18ab9cd3"
 }

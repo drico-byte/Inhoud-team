@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/plekke-waar-mense-woon/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:56352d499b7211d14223125d31c0fed7",
+  "konsep_hash": "sha256:04f32701c65aae856d3616457962d9e1",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -142,6 +142,62 @@
       "punte": [
         "check (the language finder raised this; it may not be a fault): 'Daar woon min mense en daar is min winkels en dienste. Die mense van d': 'Min winkels' (plural) is followed by 'sy winkel' (one shop); fixing it means choosing between one shop and a few, which is content, so it is flagged rather than changed."
       ]
+    },
+    {
+      "wanneer": "2026-10-23T10:50:25+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0881eb12232e246d204eb6dec126181b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T10:50:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 386,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:59:00+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 386,
+      "woorde_na": 387,
+      "konsep_hash": "sha256:04f32701c65aae856d3616457962d9e1"
+    },
+    {
+      "wanneer": "2026-10-23T10:59:01+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 387,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:09:33+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:09:33+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:09:33+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\plekke-waar-mense-woon\\les-1.json",
+      "konsep_hash": "sha256:04f32701c65aae856d3616457962d9e1",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:12ed9aed7a671f289b990f9fbd3c5626",
@@ -150,12 +206,13 @@
     "begroting": 400
   },
   "taal_vir_skrywer": [
-    "check (the language finder raised this; it may not be a fault): 'Daar woon min mense en daar is min winkels en dienste. Die mense van d': 'Min winkels' (plural) is followed by 'sy winkel' (one shop); fixing it means choosing between one shop and a few, which is content, so it is flagged rather than changed."
+    "fix: [taal] in 'ook mense, want 'n myn': The 'want' clause blurs the cause: it gives the town's growth as the reason work draws people, where the point is that a mine or factory brings work and the work draws people.",
+    "check (the language finder raised this; it may not be a fault): 'Mense het na water gesoek en na grond waarop gewasse kan groei.': The block opens in the past tense with no time marker, and only the later 'Vandag' shows it means people long ago choosing where to settle; a time word would make it clear, but adding one is the writer's call, not a language edit."
   ],
-  "taal_rondte_vir": "sha256:56352d499b7211d14223125d31c0fed7",
-  "taal_keurder_vir": "df322fc555bd240b67de8f95ffceee44",
+  "taal_rondte_vir": "sha256:04f32701c65aae856d3616457962d9e1",
+  "taal_keurder_vir": "ce5c9c43a63fed1394e5f710b88113a0",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:56352d499b7211d14223125d31c0fed7",
+  "taal_klaar_vir": "sha256:04f32701c65aae856d3616457962d9e1",
   "taal_vir_mens": [],
   "taal_bons_vir": "sha256:56352d499b7211d14223125d31c0fed7",
   "taal_bons_siklus": 1,

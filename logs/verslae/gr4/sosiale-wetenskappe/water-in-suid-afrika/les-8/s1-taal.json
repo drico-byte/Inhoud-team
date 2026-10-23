@@ -1,0 +1,82 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Water wat by die huis vuil word",
+      "voor": "onsself en ons klere en skottelgoed",
+      "na": "onsself, ons klere en skottelgoed",
+      "soort": "sinsbou",
+      "rede_vinder": "A list of three reads more clearly with a comma than with a repeated 'en', and it saves a word.",
+      "fout": "The repeated 'en ... en' makes a plain list of three read wooden and briefly ambiguous.",
+      "rede_keurder": "The comma list is the natural Afrikaans form for three items and keeps the same three things."
+    },
+    {
+      "nr": 2,
+      "blok": "Afval van fabrieke en plase",
+      "voor": "om produkte te maak en hul afvalwater",
+      "na": "om produkte te maak, en hul afvalwater",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb ('Fabrieke gebruik' / 'hul afvalwater kan bevat'), so a comma is needed.",
+      "fout": "Missing AWS 2017 comma: 'en' joins two clauses with their own subject and verb ('Fabrieke gebruik' / 'hul afvalwater kan bevat').",
+      "rede_keurder": "The comma is required and stops the reader running 'om produkte te maak en hul afvalwater' together."
+    },
+    {
+      "nr": 3,
+      "blok": "Afval van fabrieke en plase",
+      "voor": "van huise en fabrieke en plase",
+      "na": "van huise, fabrieke en plase",
+      "soort": "sinsbou",
+      "rede_vinder": "A list of three takes a comma rather than a repeated 'en'; saves a word.",
+      "fout": "The repeated 'en ... en' in a list of three is clumsy.",
+      "rede_keurder": "Same three sources in a normal comma list; the meaning is unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Rioolwater",
+      "voor": "voordat dit terug na 'n rivier of 'n ander waterbron gaan",
+      "na": "voordat dit na 'n rivier of 'n ander waterbron teruggaan",
+      "soort": "woordorde",
+      "rede_vinder": "The separable verb 'teruggaan' belongs together at the end of the subordinate clause, as in the glossary definition; saves a word.",
+      "fout": "'terug na ... gaan' splits the verb in an English-shaped way at the end of a subordinate clause.",
+      "rede_keurder": "'na ... teruggaan' is the tighter Afrikaans order, matches the glossary definition, and says the same thing."
+    },
+    {
+      "nr": 6,
+      "blok": "Beter om water skoon te hou",
+      "voor": "om water nie in die eerste plek te besoedel nie",
+      "na": "om te verhoed dat water besoedel word",
+      "soort": "anglisisme",
+      "rede_vinder": "'In die eerste plek' means 'firstly' in Afrikaans; 'in the first place' (to begin with) is better said as preventing pollution, keeping 'besoedel' and saving three words.",
+      "fout": "'in die eerste plek' is a translation of 'in the first place'; in Afrikaans it means 'firstly'.",
+      "rede_keurder": "'om te verhoed dat water besoedel word' says the same point naturally and keeps the protected word 'besoedel'."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Stap vir stap skoon",
+      "voor": "In groot tenks sak die swaar vuiligheid daarna stadig",
+      "na": "Daarna sak die swaar vuiligheid in groot tenks stadig",
+      "soort": "woordorde",
+      "rede_vinder": "In a step-by-step sequence the sequence word reads more naturally at the start of the sentence; no words added.",
+      "fout": "none",
+      "rede_keurder": "The original already flows and already carries 'daarna'; moving it to the front is a lateral reorder."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "sommige bakterieë",
+      "rede": "This entry lists 'bakterieë' under NIE, while a separate entry protects 'bakterieë' itself (HOU) for this sub-topic. The lesson uses bare 'bakterieë' correctly in the heading, in 'Helder water kan dus steeds bakterieë bevat wat mense siek kan maak' (restricted by the relative clause) and in 'Nuttige bakterieë'; nothing was changed, but a person may want to reconcile the two entries."
+    }
+  ],
+  "woorde_voor": 361,
+  "woorde_na": 355,
+  "wanneer": "2026-10-23T12:16:15+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:d14d2e4b97f205987d04592ea86b48ff",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:27a5baad15d7f8f752a79b7b37002070"
+}

@@ -1,0 +1,36 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 383,
+  "woorde_na": 383,
+  "wanneer": "2026-10-23T12:02:23+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "'n Kaart van 'n plaas",
+      "voor": "Nou weet jy",
+      "na": "Dan weet jy",
+      "soort": "woordkeuse",
+      "rede_vinder": "After an instruction ('Lees eers die sleutel'), 'dan' expresses the result that follows; 'nou' wrongly suggests the reader already did it (net 0 words).",
+      "fout": "none",
+      "rede_keurder": "'Nou weet jy' after an instruction is ordinary, natural instructional Afrikaans; 'Dan' is a lateral move."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat 'n goeie simbool goed maak",
+      "voor": "'n Mens moet die betekenis",
+      "na": "Jy moet die betekenis",
+      "soort": "verwysing",
+      "rede_vinder": "The next sentence says 'of jy reg geraai het', so switching from 'n mens to jy within two sentences is inconsistent; using jy throughout keeps the reference steady (net -1 word).",
+      "fout": "none",
+      "rede_keurder": "Moving from the general ''n mens' to 'jy' within a paragraph is normal Afrikaans, and the generic sense (any reader) is what the sentence means; the proposal is only different."
+    }
+  ],
+  "konsep_hash_voor": "sha256:c3c21eab9d230157726848218c3fc646",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:c3c21eab9d230157726848218c3fc646"
+}

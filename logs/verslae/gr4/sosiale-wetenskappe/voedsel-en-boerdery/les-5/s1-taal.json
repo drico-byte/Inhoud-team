@@ -1,0 +1,32 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Van die plaas tot by die huis",
+      "voor": "na twee fabrieke en dan na die winkel",
+      "na": "na twee fabrieke, dan na die winkel",
+      "soort": "sinsbou",
+      "rede_vinder": "Three stages chained with 'en ... en' reads woodenly; a list comma before 'dan' smooths it without changing meaning or adding long words.",
+      "fout": "The chain 'na twee fabrieke en dan na die winkel en laastens na die huis' stacks two 'en' links and reads woodenly.",
+      "rede_keurder": "Replacing the first 'en' with a list comma keeps the same stages in the same order, is one word shorter, adds no long word, breaks no AWS 2017 comma rule and touches no protected wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Hoekom mense kos verwerk",
+      "teks": "Soms verwerk mense kos vir 'n beter smaak.",
+      "rede": "The protected wording 'Soms verwerk mense kos om die smaak te verbeter.' does not appear verbatim; the lesson has a shorter form that keeps 'soms' and the meaning. Not changed, since restoring it would bring back a longer word after the word-length repair; a person may want to update the protected entry or confirm the new form."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 374,
+  "woorde_na": 373,
+  "wanneer": "2026-10-23T11:42:06+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:39dc082f8bab9154ef44652ed91f07e7",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1c5162a4899620525483e820ad291469"
+}

@@ -1,0 +1,104 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Kos wat verander is",
+      "voor": "onverwerk en appelsap",
+      "na": "onverwerk, en appelsap",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: two clauses each with their own subject and verb joined by 'en' take a comma.",
+      "fout": "Missing AWS comma: \"'n Appel is onverwerk\" and \"appelsap is verwerk\" are two clauses, each with its own subject and verb, joined by 'en'.",
+      "rede_keurder": "The comma is required by AWS 2017, adds no words and changes no meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Kos wat verander is",
+      "voor": "onverwerk en mieliemeel",
+      "na": "onverwerk, en mieliemeel",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: two clauses each with their own subject and verb joined by 'en' take a comma.",
+      "fout": "Missing AWS comma between two full clauses ('n Mieliekop is onverwerk / mieliemeel is verwerk) joined by 'en'.",
+      "rede_keurder": "Required comma, consistent with the two neighbouring sentences."
+    },
+    {
+      "nr": 3,
+      "blok": "Kos wat verander is",
+      "voor": "onverwerk en tamatiesous",
+      "na": "onverwerk, en tamatiesous",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: two clauses each with their own subject and verb joined by 'en' take a comma.",
+      "fout": "Missing AWS comma between two full clauses ('n Tamatie is onverwerk / tamatiesous is verwerk) joined by 'en'.",
+      "rede_keurder": "Required comma, consistent with the two neighbouring sentences."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoe mense kos verwerk",
+      "voor": "fyn gemaal tot meel",
+      "na": "tot meel fyngemaal",
+      "soort": "spelling",
+      "rede_vinder": "The participle of the compound verb 'fynmaal' is written as one word ('fyngemaal', as in the glossary), and the 'tot' phrase sits more naturally before the final verb.",
+      "fout": "'fyn gemaal' splits the compound participle of 'fynmaal' (the lesson's own glossary writes 'fyngemaal'), and 'gemaal tot meel' leaves the result phrase after the final verb, which reads stiff.",
+      "rede_keurder": "Correct compound spelling and natural word order, same words and meaning, and one word shorter."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoekom mense kos verwerk",
+      "voor": "word weer gouer sleg",
+      "na": "word egter gouer sleg",
+      "soort": "woordkeuse",
+      "rede_vinder": "Contrastive 'weer' can be read by a Grade 4 learner as 'again'; 'egter' makes the contrast unambiguous at the same word count.",
+      "fout": "Contrastive 'weer' before 'gouer' can easily be read by a Grade 4 learner as 'again' (the cut apple goes bad faster again).",
+      "rede_keurder": "'egter' keeps the same contrast without the ambiguity, at the same word count; no qualifier or fact moves."
+    },
+    {
+      "nr": 6,
+      "blok": "Die pad van een brood",
+      "voor": "oond gebak tot brood",
+      "na": "oond tot brood gebak",
+      "soort": "woordorde",
+      "rede_vinder": "The result phrase belongs before the final verb in Afrikaans, matching the line above ('tot deeg gemeng').",
+      "fout": "'gebak tot brood' puts the result phrase after the final verb, which is stiff Afrikaans and breaks the parallel with the line above ('tot deeg gemeng').",
+      "rede_keurder": "Natural word order with the same words and meaning."
+    },
+    {
+      "nr": 7,
+      "blok": "Van die plaas tot by die huis",
+      "voor": "fabriekwerkers",
+      "na": "fabriekswerkers",
+      "soort": "spelling",
+      "rede_vinder": "The standard compound takes the linking s: 'fabriekswerker'.",
+      "fout": "'fabriekwerkers' lacks the linking s of the standard compound 'fabriekswerker' (cf. fabrieksgebou, fabrieksarbeider).",
+      "rede_keurder": "Spelling correction of a non-protected compound; meaning and word count unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 8,
+      "blok": "meule",
+      "voor": "fyngemaal word tot meel",
+      "na": "tot meel fyngemaal word",
+      "soort": "woordorde",
+      "rede_vinder": "The result phrase sits more naturally before the verb cluster in Afrikaans.",
+      "fout": "In the 'meule' glossary definition, 'fyngemaal word tot meel' leaves the result phrase after the verb cluster, which reads slightly stiff.",
+      "rede_keurder": "The fault is real but it is a word-order rewording of a [begrip] definition rather than a spelling or grammar error, so only the writer may change it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Van die plaas tot by die huis",
+      "teks": "Hierdie brood se pad loop van die plaas na die fabriek en dan na die winkel en laastens na die huis. Die meule en die bakkery is die twee fabrieke op hierdie pad.",
+      "rede": "The path names one 'fabriek' and the next sentence says there are two; singular versus plural may confuse a learner, but whether to say 'fabrieke' is a content choice (it may follow CAPS's farm-factory-shop-home wording), so it is not changed here."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 378,
+  "woorde_na": 377,
+  "wanneer": "2026-10-23T11:13:29+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:edbb2513b3fd34a82a5f124251a4e213",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a4108598f3893c450fb6da49e3fa457d"
+}

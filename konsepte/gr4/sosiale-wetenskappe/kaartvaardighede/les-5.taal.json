@@ -1,0 +1,72 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die kaart is vol en jy soek een plek",
+      "voor": "Jy soek lank oor die hele bladsy",
+      "na": "Jy soek lank oral op die bladsy",
+      "soort": "anglisisme",
+      "rede_vinder": "'Soek oor die bladsy' calques 'search over the page'; 'oral op die bladsy soek' is the natural Afrikaans, same word count.",
+      "fout": "'soek oor die hele bladsy' copies English 'search all over the page'",
+      "rede_keurder": "'oral op die bladsy' is the natural Afrikaans for searching everywhere on the page; same searcher, same page, same word count, nothing lost."
+    },
+    {
+      "nr": 2,
+      "blok": "Die kaart is vol en jy soek een plek",
+      "voor": "om te sê presies waar iets lê",
+      "na": "om presies te sê waar iets lê",
+      "soort": "woordorde",
+      "rede_vinder": "In an om-te clause the adverb comes before 'te' and the infinitive; 'om te sê presies' follows English word order.",
+      "fout": "'om te sê presies waar' follows English word order",
+      "rede_keurder": "In an om-te clause the adverb goes before 'te', and 'presies' still sharpens where the thing lies, so the meaning is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Die rooster verdeel die kaart in blokkies",
+      "voor": "van bo na onder en ander loop",
+      "na": "van bo na onder, en ander loop",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb ('Party lyne loop' / 'ander loop'), so a comma goes before it.",
+      "fout": "missing AWS 2017 comma before 'en' joining two full clauses",
+      "rede_keurder": "'Party lyne loop' and 'ander loop' each have their own subject and verb, so the comma is required; no words change."
+    },
+    {
+      "nr": 4,
+      "blok": "Gee self 'n ruitverwysing",
+      "voor": "Kyk na die letter langs die kant wat by die dam se blokkie hoort",
+      "na": "Kyk watter letter langs die kant by die dam se blokkie hoort",
+      "soort": "verwysing",
+      "rede_vinder": "The relative clause 'wat by die dam se blokkie hoort' attaches to 'die kant' instead of to the letter; the rewrite makes the letter the thing that belongs to the block, one word shorter.",
+      "fout": "relative clause 'wat by die dam se blokkie hoort' first attaches to 'die kant', not to the letter",
+      "rede_keurder": "The rewrite makes the letter clearly the thing that belongs to the dam's block, keeps the same action and the link to 'dieselfde blokkie' in the next sentence, and is one word shorter."
+    },
+    {
+      "nr": 5,
+      "blok": "Gee self 'n ruitverwysing",
+      "voor": "Skryf die letter eerste neer",
+      "na": "Skryf eers die letter neer",
+      "soort": "woordkeuse",
+      "rede_vinder": "For 'first, before something else' Afrikaans uses the adverb 'eers', as in the lesson's own title; 'eerste' here is an anglicism.",
+      "fout": "'eerste' used where Afrikaans uses the adverb 'eers' for doing one thing before another",
+      "rede_keurder": "With 'daarna' in the same sentence the order is temporal, so 'eers' is the natural word, matches the lesson title, and the letter-then-number order is unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Hoe jy blokkie B2 kry",
+      "teks": "Die blokkie waar die twee mekaar ontmoet, is waar die skool staan.",
+      "rede": "'Die twee' can only refer back to the letter and the number, but those do not meet; it is the row of the letter and the column of the number that cross. Fixing it would need wording about rows and columns that the lesson does not introduce, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 347,
+  "woorde_na": 345,
+  "wanneer": "2026-10-23T12:12:05+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:5533258520483c4152dd48415a195c03",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e1b81c2c73f52ea694de918660b87b87"
+}

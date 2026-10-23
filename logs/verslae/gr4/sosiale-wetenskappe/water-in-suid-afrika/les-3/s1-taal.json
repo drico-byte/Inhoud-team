@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Van wolk tot reën",
+      "voor": "Baie van hierdie druppeltjies saam vorm",
+      "na": "Baie van hierdie druppeltjies vorm saam",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans the adverb 'saam' follows the finite verb; 'druppeltjies saam vorm' is unnatural word order.",
+      "fout": "'Baie van hierdie druppeltjies saam vorm' hangs 'saam' after the subject and reads stiffly; 'vorm saam' is the natural order.",
+      "rede_keurder": "Same meaning (the droplets together form a cloud), more natural word order, no protected word touched and no words added."
+    },
+    {
+      "nr": 3,
+      "blok": "Waar die reën val",
+      "voor": "Nog water trek diep",
+      "na": "Ander water trek diep",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Nog water' reads as 'even more water'; 'Ander water' says clearly that this is a different part of the rain, matching 'Baie ander water' later in the lesson.",
+      "fout": "'Nog water' can read as 'yet more water' rather than another part of the same rain.",
+      "rede_keurder": "'Ander water' states the partition of the rain clearly, matches 'Baie ander water' in the next block, and adds no words."
+    },
+    {
+      "nr": 4,
+      "blok": "'n Reis sonder begin of einde",
+      "voor": "iets wat oor en oor herhaal",
+      "na": "iets wat oor en oor gebeur",
+      "soort": "grammatika",
+      "rede_vinder": "'Herhaal' is transitive in Afrikaans and needs an object or 'hom'; 'gebeur' keeps the meaning without adding a word.",
+      "fout": "'herhaal' is used intransitively without an object or 'hom', which is not standard Afrikaans.",
+      "rede_keurder": "'gebeur oor en oor' keeps the meaning, fixes the grammar, leaves the protected word 'siklus' intact and keeps the word count the same."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Van wolk tot reën",
+      "voor": "meestal as reën, en as sneeu",
+      "na": "meestal as reën en as sneeu",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: no comma before 'en' between parts of one sentence; the second half has no subject and verb of its own.",
+      "fout": "none",
+      "rede_keurder": "The comma marks snow as a separate addition; without it 'meestal' and 'waar dit koud genoeg is' can be read across both rain and snow, so the meaning moves."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 374,
+  "woorde_na": 374,
+  "wanneer": "2026-10-23T12:12:12+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:b29589781f21d8661d59f91d52224aad",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:6c0418c34c9c996f004b06c01ec61e9c"
+}

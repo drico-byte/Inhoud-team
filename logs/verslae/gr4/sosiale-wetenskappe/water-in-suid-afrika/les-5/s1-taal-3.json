@@ -1,0 +1,47 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Een dam vir die boer en die dorp",
+      "voor": "mense stoor vooruit en gebruik die water versigtig",
+      "na": "mense stoor water vooruit en gebruik dit versigtig",
+      "soort": "sinsbou",
+      "rede_vinder": "'stoor' is transitive and reads incomplete without an object; giving it 'water' and referring back with 'dit' keeps the meaning and the protected 'stoor' (net word change: 0).",
+      "fout": "'stoor vooruit' leaves the transitive verb 'stoor' without an object, so the clause reads incomplete.",
+      "rede_keurder": "Giving 'stoor' its object and referring back with 'dit' reads naturally, keeps the protected word 'stoor', and keeps the meaning and word count (0)."
+    },
+    {
+      "nr": 2,
+      "blok": "'n Voorbeeld: hoe vol die dam is",
+      "voor": "Elke staaf is een maand",
+      "na": "Elke staaf staan vir een maand",
+      "soort": "woordkeuse",
+      "rede_vinder": "A bar is not a month but represents one; 'staan vir' says what a learner reading a graph needs to understand (net word change: +1).",
+      "fout": "'Elke staaf is een maand' loosely equates a bar with a month instead of saying it represents one.",
+      "rede_keurder": "'staan vir' is the plain, exact Afrikaans for what a bar shows in a graph; same meaning, +1 word takes the lesson to exactly its 400-word ceiling."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 399,
+  "woorde_na": 400,
+  "wanneer": "2026-10-23T11:34:07+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Emmers, potte en groot houers",
+      "voor": "In sommige huise is daar nie lopende water",
+      "na": "By sommige huise is daar nie lopende water",
+      "soort": "woordkeuse",
+      "rede_vinder": "A water tank stands outside a house, so 'in' does not fit it; 'by' covers both the tap and the tank, matches the previous block's 'By baie huise', and keeps the word count.",
+      "fout": "none",
+      "rede_keurder": "The preposition swap moves the meaning: 'in sommige huise' reads idiomatically as 'in some homes/households' and means no tap indoors, while 'by sommige huise' means no running water at the property at all, which excludes homes with only a yard tap and so changes which households the block describes."
+    }
+  ],
+  "konsep_hash_voor": "sha256:88bc25d94c3fb7bf61bb807dfdd002c1",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d07630b62203880812add8af5a5012b3"
+}

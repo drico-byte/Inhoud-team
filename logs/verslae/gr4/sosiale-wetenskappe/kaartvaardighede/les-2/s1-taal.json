@@ -1,0 +1,66 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Twee maniere om die hele aarde te wys",
+      "voor": "Die een is 'n aardbol en die ander",
+      "na": "Die een is 'n aardbol, en die ander",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: en joins two clauses that each have their own subject and verb, so a comma goes before it.",
+      "fout": "Missing AWS 2017 comma before en joining two full clauses ('Die een is 'n aardbol' / 'die ander een is 'n wereldkaart').",
+      "rede_keurder": "Both halves have their own subject and verb, so the comma is required; no words added and meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n wêreldkaart is",
+      "voor": "Dit is plat en jy kan",
+      "na": "Dit is plat, en jy kan",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'Dit is plat' and 'jy kan dit ... hang' each have their own subject and verb, so a comma goes before en.",
+      "fout": "Missing AWS 2017 comma before en between 'Dit is plat' and 'jy kan dit ... hang'.",
+      "rede_keurder": "Two clauses each with a stated subject and verb take a comma before en; punctuation only."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat jy op albei kan sien",
+      "voor": "'n wêreldkaart, en jy sien",
+      "na": "'n wêreldkaart en jy sien",
+      "soort": "leestekens",
+      "rede_vinder": "The first half is a command with no stated subject, so under the AWS 2017 rule no comma goes before en.",
+      "fout": "Comma before en after a command half ('Kyk na ... wereldkaart') that has no stated subject.",
+      "rede_keurder": "Under the AWS 2017 rule a command half takes no comma, so removing it is correct and changes nothing else."
+    },
+    {
+      "nr": 4,
+      "blok": "Rond en plat",
+      "voor": "rond soos 'n bal en 'n wêreldkaart is plat",
+      "na": "rond soos 'n bal, en 'n wêreldkaart is plat",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: two full clauses with their own subjects and verbs joined by en take a comma.",
+      "fout": "Missing AWS 2017 comma before en between 'n Aardbol is rond soos 'n bal' and ''n wereldkaart is plat'.",
+      "rede_keurder": "Two full clauses joined by en need the comma; the words and meaning stay identical."
+    },
+    {
+      "nr": 5,
+      "blok": "Waarvoor 'n aardbol goed is",
+      "voor": "klein en daar is min plek",
+      "na": "klein, en daar is min plek",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'Die bal is egter klein' and 'daar is min plek' are two clauses with their own subject and verb, so a comma goes before en.",
+      "fout": "Missing AWS 2017 comma before en between 'Die bal is egter klein' and 'daar is min plek'.",
+      "rede_keurder": "Each half is a main clause with its own subject and verb, so the comma belongs there; punctuation only."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 395,
+  "woorde_na": 395,
+  "wanneer": "2026-10-23T12:12:04+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:957d1a26541d1b6db3b1d1726ccd0a60",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5bed298c2bf701dd11965424995eb159"
+}

@@ -2,35 +2,96 @@
   "toegepas": [
     {
       "nr": 1,
-      "blok": "Hoe die masjien werk",
-      "voor": "Jy druk die sleutel af,",
-      "na": "Jy druk die sleutel,",
-      "soort": "woordkeuse",
-      "rede_vinder": "'afdruk' means 'to print' and clashes with the letter being printed in the next sentence; plain 'druk' is what is meant and saves a word.",
-      "fout": "'druk die sleutel af' can be read as 'afdruk' (print), and the same lesson uses 'druk ... af' for printing in the carbon-paper block, so the press and the print blur for a Grade 4 reader.",
-      "rede_keurder": "Plain 'druk die sleutel' is the natural phrasing for pressing a key, keeps the meaning, removes the clash with printing and saves a word under the ceiling."
+      "blok": "Voor die tikmasjien",
+      "voor": "'n Kantoor se briewe is",
+      "na": "In 'n kantoor is briewe",
+      "soort": "sinsbou",
+      "rede_vinder": "\"'n Kantoor se briewe\" is wooden as an opening; the locative form reads naturally and keeps the meaning.",
+      "fout": "The possessive opener \"'n Kantoor se briewe is met die hand geskryf\" is stiff.",
+      "rede_keurder": "The locative \"In 'n kantoor is briewe\" is the natural Afrikaans opening, costs one word and says the same thing."
     },
     {
       "nr": 2,
+      "blok": "Voor die tikmasjien",
+      "voor": "Soms is die woord net doodgetrek",
+      "na": "Soms is die verkeerde woord net doodgetrek",
+      "soort": "verwysing",
+      "rede_vinder": "\"die woord\" has no antecedent; the sentence contrasts it with \"die regte een\", so it is the wrong word.",
+      "fout": "\"die woord\" has no antecedent; the sentence before speaks of 'n fout, not a word.",
+      "rede_keurder": "\"die verkeerde woord\" pairs cleanly with \"die regte een\" and removes a stumble for one word, with no change in meaning."
+    },
+    {
+      "nr": 3,
       "blok": "Die toetsbord",
-      "voor": "Hulle lees Q W E R T Y",
-      "na": "Hulle vorm Q W E R T Y",
+      "voor": "en dit is waar die naam QWERTY vandaan kom",
+      "na": "en daarvandaan kom die naam QWERTY",
       "soort": "anglisisme",
-      "rede_vinder": "'lees' in the sense of 'the letters read QWERTY' is an anglicism; 'vorm' is natural Afrikaans and adds no words.",
-      "fout": "'Hulle lees Q W E R T Y' copies the English 'they read QWERTY' (as in 'the sign reads'), a recognised anglicism.",
-      "rede_keurder": "'Hulle vorm Q W E R T Y' is natural Afrikaans, adds no words, leaves the protected QWERTY and the comma intact, and does not repeat an earlier reverted change."
+      "rede_vinder": "\"dit is waar ... vandaan kom\" copies English \"that is where ... comes from\"; \"daarvandaan kom\" is the idiomatic Afrikaans.",
+      "fout": "\"dit is waar ... vandaan kom\" copies English and can first be misread as \"dit is waar\" (that is true).",
+      "rede_keurder": "\"daarvandaan kom die naam QWERTY\" is idiomatic, shorter and keeps QWERTY intact; the comma stays correct because both clauses have their own subject and verb."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat die tikmasjien in kantore verander het",
+      "voor": "elke letter het presies dieselfde vorm gehad",
+      "na": "elke letter het elke keer presies dieselfde vorm gehad",
+      "soort": "sinsbou",
+      "rede_vinder": "As written it can read as all letters having the same shape; \"elke keer\" makes clear a letter looked the same every time it was typed.",
+      "fout": "\"elke letter het presies dieselfde vorm gehad\" is imprecise: same as what, as if all letters shared one shape.",
+      "rede_keurder": "\"elke keer\" states what the reason actually means (a letter always printed the same) without adding a fact, for two words."
+    },
+    {
+      "nr": 8,
+      "blok": "Die uitleg wat gebly het",
+      "voor": "Die QWERTY-uitleg is vandag nog by ons.",
+      "na": "Ons gebruik die QWERTY-uitleg vandag nog.",
+      "soort": "anglisisme",
+      "rede_vinder": "\"is nog by ons\" copies English \"is still with us\"; the protected word QWERTY is kept unchanged.",
+      "fout": "\"is vandag nog by ons\" copies English \"is still with us\".",
+      "rede_keurder": "\"Ons gebruik die QWERTY-uitleg vandag nog\" is plain natural Afrikaans, one word shorter, with the same meaning and QWERTY unchanged."
     }
   ],
   "nie_toegepas": [],
-  "laat_vaar": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Wat die tikmasjien in kantore verander het",
+      "voor": "Nuwe werk het bygekom",
+      "na": "Daar het nuwe werk bygekom",
+      "soort": "woordorde",
+      "rede_vinder": "An indefinite subject with \"bykom\" normally takes \"daar\" in Afrikaans; without it the sentence sounds translated.",
+      "fout": "none",
+      "rede_keurder": "\"Nuwe werk het bygekom\" is grammatical, natural Afrikaans; adding \"daar\" is a lateral move that spends a word in a list item."
+    },
+    {
+      "nr": 6,
+      "blok": "Koolpapier maak 'n kopie",
+      "voor": "het iemand dikwels 'n tweede brief woord vir woord oorgeskryf",
+      "na": "het iemand dikwels 'n brief 'n tweede keer woord vir woord uitgeskryf",
+      "soort": "woordkeuse",
+      "rede_vinder": "\"'n tweede brief oorskryf\" can read as copying another letter; the point is writing the same letter out again.",
+      "fout": "none",
+      "rede_keurder": "In context \"'n tweede brief oorgeskryf\" clearly means making a copy, and the proposal adds words and swaps oorgeskryf for uitgeskryf, breaking its echo with \"oorgeskryf\" at the end of the paragraph."
+    },
+    {
+      "nr": 7,
+      "blok": "Koolpapier maak 'n kopie",
+      "voor": "sonder dat iemand een woord oorgeskryf het",
+      "na": "sonder dat iemand een woord hoef oor te skryf",
+      "soort": "grammatika",
+      "rede_vinder": "The past \"oorgeskryf het\" clashes with the present \"Nou kry jy\"; \"hoef oor te skryf\" fits the tense and the sense of not needing to.",
+      "fout": "none",
+      "rede_keurder": "A perfect tense after \"sonder dat\" with a present main clause is normal Afrikaans, and \"hoef\" shifts the sense from not having copied to not needing to copy."
+    }
+  ],
   "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 393,
-  "woorde_na": 392,
-  "wanneer": "2026-10-23T10:31:46+00:00",
+  "woorde_voor": 394,
+  "woorde_na": 393,
+  "wanneer": "2026-10-23T10:59:03+00:00",
   "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:c50696e81614e1197c4c3f3d64105780",
+  "konsep_hash_voor": "sha256:ead43092ac9c5922ebc3fb0bb51584e1",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:7c1dec716ce2b928b3fe503cde772b6b"
+  "konsep_hash_na": "sha256:d2c0a02e3c1f1b34041a76f82542ae1e"
 }

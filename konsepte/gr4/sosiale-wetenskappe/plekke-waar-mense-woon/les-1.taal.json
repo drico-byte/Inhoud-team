@@ -2,71 +2,74 @@
   "toegepas": [
     {
       "nr": 1,
-      "blok": "Twee vrae oor plekke",
-      "voor": "vra oor en oor waar",
-      "na": "vra keer op keer waar",
-      "soort": "anglisisme",
-      "rede_vinder": "'Oor en oor' is a calque of English 'over and over'; 'keer op keer' is the Afrikaans idiom, same word count.",
-      "fout": "'oor en oor' copies English 'over and over'",
-      "rede_keurder": "'Keer op keer' is the natural Afrikaans idiom, has the same meaning and the same word count, and touches no protected word."
+      "blok": "Die stad",
+      "voor": "dig teen mekaar en party is baie hoog",
+      "na": "dig teen mekaar, en party is baie hoog",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses each with its own subject and verb ('Die geboue staan' / 'party is'), so a comma goes before it, as the lesson already does elsewhere.",
+      "fout": "Missing AWS 2017 comma: 'en' joins two clauses with their own subject and verb ('Die geboue staan' / 'party is').",
+      "rede_keurder": "The comma is required by the AWS, adds no words, and matches the comma the previous round placed in the same block."
     },
     {
       "nr": 2,
-      "blok": "Die plaas",
-      "voor": "skape aan en ander plant",
-      "na": "skape aan, en ander plant",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017: 'en' joins two clauses each with its own subject and verb (plase hou aan / ander plant).",
-      "fout": "missing AWS comma between two full clauses",
-      "rede_keurder": "'Party plase hou ... aan' and 'ander plant ... gewasse' each have their own subject and verb, so AWS 2017 requires the comma; no words are added."
-    },
-    {
-      "nr": 3,
-      "blok": "Die boeredorpie",
-      "voor": "Daar woon min mense en daar is",
-      "na": "Daar woon min mense, en daar is",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017: 'en' joins two full clauses (daar woon min mense / daar is min winkels).",
-      "fout": "missing AWS comma between two full clauses",
-      "rede_keurder": "'Daar woon min mense' and 'daar is min winkels en dienste' are two full clauses joined by 'en', so the comma is required."
-    },
-    {
-      "nr": 4,
-      "blok": "Die dorp",
-      "voor": "groter as 'n dorpie en die huise staan",
-      "na": "groter as 'n dorpie, en die huise staan",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017: 'en' joins two full clauses (dorp is / huise staan).",
-      "fout": "missing AWS comma between two full clauses",
-      "rede_keurder": "'n Dorp is groter' and 'die huise staan nader' each have their own subject and verb, so the comma is required and the meaning is unchanged."
-    },
-    {
-      "nr": 5,
-      "blok": "Die stad",
-      "voor": "minibus-taxi's en die verkeer",
-      "na": "minibus-taxi's, en die verkeer",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017: the second 'en' joins a new clause (die verkeer is), not a list item; the protected word stays intact.",
-      "fout": "missing AWS comma between two full clauses",
-      "rede_keurder": "The second 'en' starts a new clause ('die verkeer is dikwels stadig') rather than a list item, the list itself keeps no comma before its 'en', and 'minibus-taxi's' stays intact."
+      "blok": "Hoekom mense juis daar woon en hoe plekke verander",
+      "voor": "oor tyd tot 'n dorp",
+      "na": "met die tyd tot 'n dorp",
+      "soort": "anglisisme",
+      "rede_vinder": "'oor tyd' is a calque of English 'over time'; Afrikaans says 'met die tyd' (or 'mettertyd').",
+      "fout": "'oor tyd' is a calque of English 'over time'.",
+      "rede_keurder": "'met die tyd' is the natural Afrikaans expression, means exactly the same, and costs only one word for a real anglicism."
     }
   ],
   "nie_toegepas": [],
-  "laat_vaar": [],
-  "na_skrywer": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Die boeredorpie",
+      "voor": "die plase rondom deel",
+      "na": "die plase daar rondom deel",
+      "soort": "idioom",
+      "rede_vinder": "'rondom' with nothing after it reads as an unfinished preposition; 'daar rondom' is the natural adverbial form.",
+      "fout": "none",
+      "rede_keurder": "'die plase rondom' is standard adverbial use of 'rondom', so the proposal is a lateral move that adds a word near the ceiling and introduces a form whose spelling is doubtful."
+    },
+    {
+      "nr": 5,
+      "blok": "Die plaas",
+      "voor": "help mekaar met veiligheid en in noodgevalle",
+      "na": "help mekaar om veilig te bly en ook in noodgevalle",
+      "soort": "woordkeuse",
+      "rede_vinder": "'help mekaar met veiligheid' is wooden and English-shaped ('help with safety'); 'om veilig te bly' says the same thing naturally.",
+      "fout": "none",
+      "rede_keurder": "The original is acceptable, while the proposal adds three words near the ceiling, inserts an 'ook' the original lacks, and joins an infinitive clause to a prepositional phrase in a lopsided coordination."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "Hoekom mense juis daar woon en hoe plekke verander",
+      "voor": "ook mense, want 'n myn",
+      "na": "ook mense: 'n myn",
+      "soort": "sinsbou",
+      "rede_vinder": "'want' makes the town's growth the reason work attracts people, which reverses the logic; a colon presents the mine or factory as the example without a false cause.",
+      "fout": "The 'want' clause blurs the cause: it gives the town's growth as the reason work draws people, where the point is that a mine or factory brings work and the work draws people.",
+      "rede_keurder": "The fault is real, but swapping the conjunction for a colon changes the logical relation the sentence states and still leaves the link between mine, work and people unsaid, so the writer should fix the causal wording.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
   "vlae": [
     {
-      "blok": "Die boeredorpie",
-      "teks": "Daar woon min mense en daar is min winkels en dienste. Die mense van die dorpie en die plase rondom deel sy winkel en sy skool.",
-      "rede": "'Min winkels' (plural) is followed by 'sy winkel' (one shop); fixing it means choosing between one shop and a few, which is content, so it is flagged rather than changed."
+      "blok": "Hoekom mense juis daar woon en hoe plekke verander",
+      "teks": "Mense het na water gesoek en na grond waarop gewasse kan groei.",
+      "rede": "The block opens in the past tense with no time marker, and only the later 'Vandag' shows it means people long ago choosing where to settle; a time word would make it clear, but adding one is the writer's call, not a language edit."
     }
   ],
   "beskerm_bedenkings": [],
   "woorde_voor": 386,
-  "woorde_na": 386,
-  "wanneer": "2026-10-23T10:39:36+00:00",
+  "woorde_na": 387,
+  "wanneer": "2026-10-23T10:59:00+00:00",
   "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:24a3d0e8106804cd62484f32a4e10a28",
+  "konsep_hash_voor": "sha256:0881eb12232e246d204eb6dec126181b",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:56352d499b7211d14223125d31c0fed7"
+  "konsep_hash_na": "sha256:04f32701c65aae856d3616457962d9e1"
 }

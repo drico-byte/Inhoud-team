@@ -1,0 +1,66 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Te min reën, te veel reën en hael",
+      "voor": "kan riviere laat oorloop en so 'n vloed",
+      "na": "kan riviere laat oorloop, en so 'n vloed",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb (reën kan, vloed kan), so a comma is required.",
+      "fout": "Missing AWS comma between two full clauses ('Te veel reën kan ... laat oorloop' and 'so 'n vloed kan ... beskadig').",
+      "rede_keurder": "Each joined clause has its own subject and verb, so AWS 2017 requires the comma; no words added and meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Plaagdiere en siektes",
+      "voor": "maak plante en diere siek en dan groei",
+      "na": "maak plante en diere siek, en dan groei",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses with their own subject and verb (siektes maak, hulle groei), so a comma is required.",
+      "fout": "Missing AWS comma between two full clauses ('Siektes maak ... siek' and 'dan groei hulle nie goed nie').",
+      "rede_keurder": "Both halves have their own subject and verb, so the comma before 'en' is required; nothing else moves."
+    },
+    {
+      "nr": 3,
+      "blok": "Grond wat uitgeput raak",
+      "voor": "uit die grond en die oes",
+      "na": "uit die grond, en die oes",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses with their own subject and verb (gewasse gebruik, die oes neem), so a comma is required.",
+      "fout": "Missing AWS comma between two full clauses ('Gewasse gebruik voedingstowwe uit die grond' and 'die oes neem ... weg').",
+      "rede_keurder": "Two clauses with their own subjects and verbs, so the comma is required; the protected word 'voedingstowwe' is untouched."
+    },
+    {
+      "nr": 4,
+      "blok": "Kos wat in die vullisblik beland",
+      "voor": "Fabriekwerkers",
+      "na": "Fabriekswerkers",
+      "soort": "spelling",
+      "rede_vinder": "The standard compound takes the linking s: fabriekswerker.",
+      "fout": "Compound written without its linking s; the word list writes 'fabriekswerker'.",
+      "rede_keurder": "A plain spelling fix of the standard compound, with no change in meaning or word count."
+    },
+    {
+      "nr": 5,
+      "blok": "Volhoubare boerdery",
+      "voor": "Boere kan ook water spaar",
+      "na": "Hulle kan ook water spaar",
+      "soort": "sinsbou",
+      "rede_vinder": "Three sentences in a row already open with 'Boere kan'; a pronoun breaks the wooden repetition without adding words or changing meaning.",
+      "fout": "Two consecutive sentences open with 'Boere kan ... ook', which reads wooden.",
+      "rede_keurder": "'Hulle' can only point back to 'Boere' in the previous sentence, so the repetition goes without changing meaning or word count."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 395,
+  "woorde_na": 395,
+  "wanneer": "2026-10-23T12:12:11+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:dd1b93dd40a863e0f6cdf671c96bd831",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:578a4836649268e6b6a8b683ecbcf4f7"
+}

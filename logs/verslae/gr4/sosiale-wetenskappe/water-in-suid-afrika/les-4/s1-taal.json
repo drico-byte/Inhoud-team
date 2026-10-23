@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Dit begin by die reën",
+      "voor": "trek in die grond in en jy",
+      "na": "trek in die grond in, en jy",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017 comma: 'en' joins two clauses that each have their own subject and verb (reënwater trek; jy sien).",
+      "fout": "Missing AWS 2017 comma before 'en' joining two full clauses ('Ander reenwater trek in die grond in' / 'jy sien dit nie meer nie').",
+      "rede_keurder": "Each joined clause has its own subject and verb, so AWS requires the comma; no word added or meaning moved."
+    },
+    {
+      "nr": 2,
+      "blok": "Mere",
+      "voor": "in die natuur gevorm en niemand",
+      "na": "in die natuur gevorm, en niemand",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017 comma: 'en' joins two clauses with their own subject and verb (mere het gevorm; niemand het gebou).",
+      "fout": "Missing AWS 2017 comma before 'en' joining two full clauses ('Die meeste mere het ... gevorm' / 'niemand het hulle gebou nie').",
+      "rede_keurder": "Two clauses with their own subject and verb; the comma is required, the qualifier 'Die meeste' is untouched and the word count does not change."
+    },
+    {
+      "nr": 3,
+      "blok": "'n Dam het mense gebou",
+      "voor": "stroom en ons noem",
+      "na": "stroom, en ons noem",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017 comma: 'en' joins two clauses with their own subject and verb (hulle bou; ons noem); the protected wording stays intact.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two full clauses ('Hulle bou ...' / 'ons noem daardie muur 'n damwal').",
+      "rede_keurder": "Two clauses with their own subject and verb; the protected wording 'dikwels 'n sterk muur oor 'n rivier of 'n stroom' stays intact beside the comma."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Water wat jy nie sien nie",
+      "voor": "water wat onder die grond sit ondergrondse water",
+      "na": "water wat onder die grond sit, ondergrondse water",
+      "soort": "leestekens",
+      "rede_vinder": "A comma closing the embedded relative clause shows where it ends, so 'sit ondergrondse water' is not misread as one phrase; the protected term stays intact.",
+      "fout": "none",
+      "rede_keurder": "AWS does not require a comma after the short embedded relative clause, 'sit' is plainly intransitive so there is no real misreading, and the comma would split the object of 'noem' from its name."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 371,
+  "woorde_na": 371,
+  "wanneer": "2026-10-23T12:12:14+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:f0b884e63bc4842ed7ca4d1613ff4af6",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5d1a8a2c9a7ec81b728ade098a37dd98"
+}

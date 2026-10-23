@@ -1,22 +1,23 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Elke plek het sy eie werk",
   "graad": 4,
   "vak": "Sosiale Wetenskappe",
   "budget": 400,
   "begrotingsreel": "Sosiale Wetenskappe Gr 4: 250-400 — the budget is a HARD CEILING",
   "begroting_basis": "meting",
-  "checked_at": "2026-09-29T15:31:59+00:00",
+  "na_taal": false,
+  "checked_at": "2026-10-23T11:04:12+00:00",
   "study": {
-    "words": 377,
-    "sentences": 32,
-    "mean_sentence_len": 11.8,
-    "median_sentence_len": 12.0,
+    "words": 384,
+    "sentences": 33,
+    "mean_sentence_len": 11.6,
+    "median_sentence_len": 12,
     "longest_sentence": 19,
-    "mean_syllables": 1.39,
-    "pct_polysyllabic": 7.2,
+    "mean_syllables": 1.41,
+    "pct_polysyllabic": 7.0,
     "pct_long_words": 2.1,
-    "commas_per_sentence": 0.31
+    "commas_per_sentence": 0.45
   },
   "eli10": null,
   "block_counts": {
@@ -24,8 +25,11 @@
     "begrip": 2
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text: 0.45 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
   "warnings": [
+    "Study block 1 ('Hoekom die werk nie oral dieself') only 27 words (guide 30–110)",
     "Long words in study text with no 'begrip' entry: byvoorbeeld, kantoorgeboue, restaurante, veeboerdery, verpleegster, werkswinkels, winkeleienaar"
   ],
   "notes": [

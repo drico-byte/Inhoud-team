@@ -1,0 +1,18 @@
+{"prompt_weergawe": "taalkeurder-v1.3",
+ "besluite": [
+  {"nr": 1, "besluit": "HOU",
+   "fout": "Missing AWS comma between two full clauses ('Te veel reën kan ... laat oorloop' and 'so 'n vloed kan ... beskadig').",
+   "rede": "Each joined clause has its own subject and verb, so AWS 2017 requires the comma; no words added and meaning unchanged."},
+  {"nr": 2, "besluit": "HOU",
+   "fout": "Missing AWS comma between two full clauses ('Siektes maak ... siek' and 'dan groei hulle nie goed nie').",
+   "rede": "Both halves have their own subject and verb, so the comma before 'en' is required; nothing else moves."},
+  {"nr": 3, "besluit": "HOU",
+   "fout": "Missing AWS comma between two full clauses ('Gewasse gebruik voedingstowwe uit die grond' and 'die oes neem ... weg').",
+   "rede": "Two clauses with their own subjects and verbs, so the comma is required; the protected word 'voedingstowwe' is untouched."},
+  {"nr": 4, "besluit": "HOU",
+   "fout": "Compound written without its linking s; the word list writes 'fabriekswerker'.",
+   "rede": "A plain spelling fix of the standard compound, with no change in meaning or word count."},
+  {"nr": 5, "besluit": "HOU",
+   "fout": "Two consecutive sentences open with 'Boere kan ... ook', which reads wooden.",
+   "rede": "'Hulle' can only point back to 'Boere' in the previous sentence, so the repetition goes without changing meaning or word count."}
+ ]}

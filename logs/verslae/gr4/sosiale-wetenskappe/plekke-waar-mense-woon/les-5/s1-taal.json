@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat is 'n baken?",
+      "voor": "om daar uit te kom",
+      "na": "om daar te kom",
+      "soort": "woordkeuse",
+      "rede_vinder": "'daar uitkom' can be read as 'get out of there'; 'daar te kom' is clear and matches the block's opening sentence.",
+      "fout": "'om daar uit te kom' can be misread by a Grade 4 reader as 'to get out of there', the opposite of arriving.",
+      "rede_keurder": "The proposal removes the misreading, keeps the meaning (reach the place) and matches the block's opening 'hoe om daar te kom'."
+    },
+    {
+      "nr": 2,
+      "blok": "Bakens uit die natuur",
+      "voor": "Party bakens kom uit die natuur en niemand het hulle gebou nie.",
+      "na": "Party bakens kom uit die natuur, en niemand het hulle gebou nie.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb, so a comma is required.",
+      "fout": "Missing AWS 2017 comma: 'en' joins two clauses with their own subjects and verbs ('bakens kom', 'niemand het gebou').",
+      "rede_keurder": "Required comma between two full clauses; wording and meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Bakens uit die natuur",
+      "voor": "'n Berg staan hoog bo die land uit en mense sien dit van ver af.",
+      "na": "'n Berg staan hoog bo die land uit, en mense sien dit van ver af.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses with their own subject and verb, so a comma is required.",
+      "fout": "Missing AWS 2017 comma: 'en' joins two clauses with their own subjects and verbs ('n Berg staan', 'mense sien').",
+      "rede_keurder": "Required comma between two full clauses; wording and meaning unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Links, regs en reguit",
+      "voor": "As jy in Hoofstraat af loop",
+      "na": "As jy in Hoofstraat afloop",
+      "soort": "spelling",
+      "rede_vinder": "In a subordinate clause the separable verb 'afloop' is written as one word.",
+      "fout": "The separable verb 'afloop' is split in a subordinate clause, where AWS writes it as one word.",
+      "rede_keurder": "Spelling fix only; the main-clause list item 'Loop in Kerkstraat af' correctly stays split and is not touched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Links, regs en reguit",
+      "voor": "Noem 'n baken by elke stap, en die naam van die pad as die pad een het.",
+      "na": "Noem 'n baken by elke stap en die naam van die pad as dit een het.",
+      "soort": "leestekens",
+      "rede_vinder": "The part after 'en' has no subject and verb of its own, so AWS 2017 takes no comma; 'dit' also avoids repeating 'die pad'.",
+      "fout": "The comma before 'en' is wrong under AWS 2017: 'die naam van die pad' is a second object of 'Noem', not a clause with its own subject and verb.",
+      "rede_keurder": "The comma removal is right, but the bundled swap of 'die pad' for 'dit' makes the pronoun able to point to 'baken' (landmarks have names too), so only the comma should go and 'as die pad een het' should stay.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 379,
+  "woorde_na": 377,
+  "wanneer": "2026-10-23T11:31:25+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:90a98535f75a9b30878c6fe4d983c0be",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:615a2f5c349785d8b6b4e6bfab9bef03"
+}

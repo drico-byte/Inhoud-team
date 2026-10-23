@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/kaartvaardighede/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:5533258520483c4152dd48415a195c03",
+  "konsep_hash": "sha256:c7314555d8e4778b26c019d9f14ce236",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -44,11 +44,67 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\kaartvaardighede\\les-5.json",
       "konsep_hash": "sha256:5533258520483c4152dd48415a195c03",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T11:57:51+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:5533258520483c4152dd48415a195c03",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T12:12:05+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 347,
+      "woorde_na": 345,
+      "konsep_hash": "sha256:e1b81c2c73f52ea694de918660b87b87"
+    },
+    {
+      "wanneer": "2026-10-23T12:12:06+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 345,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T12:12:06+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Die blokkie waar die twee mekaar ontmoet, is waar die skool staan.': 'Die twee' can only refer back to the letter and the number, but those do not meet; it is the row of the letter and the column of the number that cross. Fixing it would need wording about rows and columns that the lesson does not introduce, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T12:17:00+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c7314555d8e4778b26c019d9f14ce236",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T12:17:01+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 345,
+      "begroting": 400,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:316fecba444bb00378adef9ecb5fdd09",
+  "spek_hash": "sha256:08791a8b7ee4a5c7c46579daca32a626",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
-  }
+  },
+  "taal_geforseer_vir": "sha256:5533258520483c4152dd48415a195c03",
+  "taal_rondte_vir": "sha256:c7314555d8e4778b26c019d9f14ce236",
+  "taal_keurder_vir": "7d844ddc4902913a163eeba8629f8720",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:e1b81c2c73f52ea694de918660b87b87",
+  "taal_vir_skrywer": [],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:e1b81c2c73f52ea694de918660b87b87",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "a7e587222eff66125037cc335552efe4"
 }

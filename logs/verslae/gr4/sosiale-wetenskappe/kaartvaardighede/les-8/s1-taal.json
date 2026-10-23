@@ -1,0 +1,52 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Antarktika onder die ys",
+      "voor": "die aarde en ys bedek",
+      "na": "die aarde, en ys bedek",
+      "soort": "leestekens",
+      "rede_vinder": "Two full clauses, each with its own subject and verb (Antarktika lê / ys bedek), are joined by 'en', so AWS 2017 requires a comma.",
+      "fout": "Missing AWS comma between two full clauses ('Antarktika lê ...' and 'ys bedek ...') joined by 'en'.",
+      "rede_keurder": "Each half has its own subject and verb, so the house rule requires the comma; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Antarktika onder die ys",
+      "voor": "Dit is hoekom ons Antarktika saam met die ander ses kontinente tel.",
+      "na": "Daarom tel ons Antarktika saam met die ander ses kontinente.",
+      "soort": "anglisisme",
+      "rede_vinder": "'Dit is hoekom' copies English 'that is why'; 'Daarom' is the natural Afrikaans form, keeps the meaning and saves two words.",
+      "fout": "'Dit is hoekom' copies English 'that is why'.",
+      "rede_keurder": "'Daarom' is the natural Afrikaans link, keeps the same reasoning and is shorter for a Grade 4 reader."
+    },
+    {
+      "nr": 3,
+      "blok": "Begin by Afrika",
+      "voor": "Begin by Afrika, want",
+      "na": "Begin by Afrika want",
+      "soort": "leestekens",
+      "rede_vinder": "Under the house AWS rule a comma goes before 'want' only when both halves have a stated subject; the first half here is a command with no subject, so it takes no comma.",
+      "fout": "Comma before 'want' after a command half with no stated subject.",
+      "rede_keurder": "Under the house AWS rule a command half takes no comma before 'want'; meaning unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Eilande in die oseane",
+      "teks": "'n Eiland is 'n stuk land met water aan alle kante wat nie een van die sewe kontinente is nie.",
+      "rede": "The relative clause 'wat nie een van die sewe kontinente is nie' stands after 'kante', so a young reader may attach it to the wrong word; putting it straight after 'stuk land' would be clearer, but this reads like a decided definition, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 387,
+  "woorde_na": 385,
+  "wanneer": "2026-10-23T11:30:37+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:920003833a97123ebccff8ffc25ba377",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c99a9cb793dc7e577d45a27cb9d717f7"
+}

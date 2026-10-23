@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/kaartvaardighede/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:7ba2c7d2b4a5c5a086c5399b8803996a",
+  "konsep_hash": "sha256:c2966b7b3795086c3534efb3e5343422",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -86,13 +86,119 @@
       "woorde": 373,
       "begroting": 400,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:48:39+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 373,
+      "woorde_na": 370,
+      "konsep_hash": "sha256:7a30976c70945490848eb9a3b6ac74d8"
+    },
+    {
+      "wanneer": "2026-10-23T10:48:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 370,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T10:48:39+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): ''n Planaansig is daarom nie 'n ander soort ding nie, maar 'n ander man': The comma before 'maar' does not join two clauses with their own subject and verb, but the 'nie ... nie, maar ...' contrast conventionally takes a comma; left unchanged for the reviewer to judge against the house comma rule."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T10:58:13+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:affc6c12c37a14e725d3719fb68b8acc",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T10:58:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 370,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:00:00+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 370,
+      "woorde_na": 370
+    },
+    {
+      "wanneer": "2026-10-23T11:12:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c2966b7b3795086c3534efb3e5343422",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T11:12:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 378,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:13:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 378,
+      "woorde_na": 378
+    },
+    {
+      "wanneer": "2026-10-23T11:19:26+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:19:27+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T11:19:27+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\kaartvaardighede\\les-3.json",
+      "konsep_hash": "sha256:c2966b7b3795086c3534efb3e5343422",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:07906a54914fac36b15df29794745137",
+  "spek_hash": "sha256:0ca1e9efdd308f5aa6f37ba454b7a041",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
   },
   "taal_vir_skrywer": [],
-  "taal_rondte_vir": "sha256:7ba2c7d2b4a5c5a086c5399b8803996a"
+  "taal_rondte_vir": "sha256:c2966b7b3795086c3534efb3e5343422",
+  "taal_keurder_vir": "557a114fe5395bc82bce8c06edcf0f79",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:c2966b7b3795086c3534efb3e5343422",
+  "taal_vir_mens": [
+    "[taal, protected word] 'Van bo af sien jy hoofsaaklik die koppie se ronde opening.': Not a language fault: the lesson sentence now continues 'ronde opening met die handvatsel wat aan een kant uitsteek', so the protected entry, which ends in a full stop, no longer occurs word for word; 'hoofsaaklik' is still there, but a person may want the entry updated to the new sentence so the guard still matches it."
+  ],
+  "taal_bons_vir": "sha256:7a30976c70945490848eb9a3b6ac74d8",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "9c5c3a175b53a7d943ddbedd9dfcee81"
 }

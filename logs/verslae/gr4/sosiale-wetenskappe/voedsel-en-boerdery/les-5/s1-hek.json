@@ -1,37 +1,36 @@
 {
-  "verdict": "FAIL",
+  "verdict": "PASS",
   "titel": "Van die koringland tot jou toebroodjie",
   "graad": 4,
   "vak": "Sosiale Wetenskappe",
   "budget": 400,
   "begrotingsreel": "Sosiale Wetenskappe Gr 4: 250-400 — the budget is a HARD CEILING",
   "begroting_basis": "meting",
-  "checked_at": "2026-10-07T08:25:35+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-23T11:42:07+00:00",
   "study": {
-    "words": 415,
-    "sentences": 21,
-    "mean_sentence_len": 11.9,
-    "median_sentence_len": 12,
-    "longest_sentence": 20,
-    "mean_syllables": 1.47,
-    "pct_polysyllabic": 12.0,
-    "pct_long_words": 4.0,
-    "commas_per_sentence": 0.19,
-    "list_words": 165
+    "words": 373,
+    "sentences": 20,
+    "mean_sentence_len": 11.2,
+    "median_sentence_len": 11.0,
+    "longest_sentence": 22,
+    "mean_syllables": 1.46,
+    "pct_polysyllabic": 11.2,
+    "pct_long_words": 2.2,
+    "commas_per_sentence": 0.4,
+    "list_words": 150
   },
   "eli10": null,
   "block_counts": {
     "studie": 4,
     "lys": 2,
-    "begrip": 5
+    "begrip": 6
   },
   "misspelled": [],
-  "failures": [
-    "Study text 415 words, and the budget 400 is a HARD CEILING for this subject and grade — Drico, 29 September 2026. There is no tolerance above it. Cut 15 words. Never drop a requirement to get there: tighten sentences, cut an example, cut anything the video already carries. If it genuinely cannot be done without losing a requirement, say so and stop rather than trimming the requirement away."
-  ],
+  "failures": [],
   "warnings": [
-    "Study text: 4.0% of words exceed 10 characters (guide 3.0%)",
-    "Long words in study text with no 'begrip' entry: duidelikste, fabriekwerkers, plaaswerkers, tamatiesous, toebroodjie"
+    "Study text: 0.4 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: tamatiesous, toebroodjie, vragmotorbestuurders"
   ],
   "notes": [
     "Afrikaans dictionary not installed — spelling not checked"
