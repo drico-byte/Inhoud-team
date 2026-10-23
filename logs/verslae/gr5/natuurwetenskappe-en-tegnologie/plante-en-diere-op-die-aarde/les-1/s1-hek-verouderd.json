@@ -1,20 +1,23 @@
 {
-  "verdict": "PASS",
+  "verdict": "FAIL",
   "titel": "Verskillende plekke, verskillende plante en diere",
   "graad": 5,
   "vak": "Natuurwetenskappe en Tegnologie",
   "budget": 400,
-  "checked_at": "2026-09-11T08:59:02+00:00",
+  "begrotingsreel": "default ±15%: 340-460",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T21:26:13+00:00",
   "study": {
-    "words": 444,
+    "words": 484,
     "sentences": 33,
-    "mean_sentence_len": 12.3,
-    "median_sentence_len": 12,
-    "longest_sentence": 16,
-    "mean_syllables": 1.45,
-    "pct_polysyllabic": 7.9,
-    "pct_long_words": 2.7,
-    "commas_per_sentence": 0.27,
+    "mean_sentence_len": 13.5,
+    "median_sentence_len": 13,
+    "longest_sentence": 22,
+    "mean_syllables": 1.44,
+    "pct_polysyllabic": 7.4,
+    "pct_long_words": 2.9,
+    "commas_per_sentence": 0.58,
     "list_words": 37
   },
   "eli10": null,
@@ -24,12 +27,15 @@
     "begrip": 4
   },
   "misspelled": [],
-  "failures": [],
+  "failures": [
+    "Study text 484 words, above budget ceiling 460 (target 400) — learners will revise the textbook instead"
+  ],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: blommetjies, driehonderdduisend, klipvlaktes, verskeidenheid, verskillende"
+    "Study block 1 ('Hoeveel soorte plante is daar?') 116 words (guide 30–110) — will overflow its section",
+    "Study text: 0.58 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: driehonderdduisend, klipvlaktes, verskeidenheid, verskillende"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

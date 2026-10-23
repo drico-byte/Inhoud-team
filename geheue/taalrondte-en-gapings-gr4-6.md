@@ -161,3 +161,5 @@ recorded below as they come.
 - **Fact checks:** web search is capped at 200 per turn across one agent tree. A coordinator stops when its tree runs out and sends me the fact paths. I then launch fact checks from fresh agents.
 - Gr 5 SR 11: "Die Adams-gesin ... hulle vas elke jaar 'n hele maand lank" may read as the whole family fasting, but only the adults fast. The fact check passed it. Also 'vollemaan' (SR 11) against 'volmaan' (SR 10). Look at both at the next revision.
 - Gr 5 SR 10 spec: the note at the top still says the Gr 5 shared list is empty on purpose. The list has since been filled; correct the note at the next spec touch.
+- Shared Gr 4/5 wording 'smelt' ('Wanneer 'n vaste stof warm word ...') uses an English 'is when' calque. Fix it in both grades together, with hosho, toonkleur and roep-en-antwoord, after the pass.
+- Gr 5 NW reprint checks: the paraffin claim in fuel lesson 1 and the coal share in electricity lesson 2. Re-check both at every reprint.

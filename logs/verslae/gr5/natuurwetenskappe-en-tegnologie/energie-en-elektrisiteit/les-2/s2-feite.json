@@ -1,0 +1,277 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Die lang pad van die kragstasie af",
+  "kaps_punt": "elektrisiteit vanaf die kragstasie word oorgedra in 'n baan na ons huise en terug na die kragstasie; 'n kragstasie het 'n bron van energie nodig; die bron van energie in 'n kragstasie kan 'n brandstof soos steenkool wees",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "bewering": "Die energie vir daardie lampie het reg daar in die sel gelê.",
+      "blok": "Energie wat van ver af kom",
+      "status": "bevestig",
+      "bron": "IOP SPARK, energie-oordrag deur elektriese werk (https://spark.iop.org/energy-transferred-electric-current): 'n sel is 'n energiestoor (chemies) wat deur die stroombaan oorgedra word.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "By die meeste huise kry die lig aan die kombuis se plafon sy energie nie van naby af nie. Die energie vir daardie lig kom van ver buite die dorp af.",
+      "blok": "Energie wat van ver af kom",
+      "status": "bevestig",
+      "bron": "Stats SA General Household Survey 2021, soos aangehaal: 89,3% van huishoudings het toegang tot hoofstroom (https://www.sanews.gov.za/node/19849); Eskom se steenkoolstasies staan grotendeels ver van die meeste dorpe in Mpumalanga en die netwerk vervoer dit oor lang lyne (Eskom TD-0003, https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf).",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Dit loop deur lang drade oor 'n pad wat kilometers lank is.",
+      "blok": "Energie wat van ver af kom",
+      "status": "bevestig",
+      "bron": "Eskom TD-0003 Transmission and Distribution of electricity (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf): die nasionale netwerk vervoer elektrisiteit oor lang hoogspanningslyne.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "Volg daardie drade ver genoeg terug en jy kom by 'n kragstasie uit. So 'n stasie kan niks doen sonder 'n bron van energie nie. Die bron is die ding waaruit die stasie sy energie kry.",
+      "blok": "'n Kragstasie het 'n bron nodig",
+      "status": "bevestig",
+      "bron": "Eskom TD-0003 (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf) en Eskom GX-0001 Generation Plant Mix (https://www.eskom.co.za/wp-content/uploads/2025/07/GX-0001-Generation-Plant-Mix-Rev-32.pdf): elke stasietipe word volgens sy energiebron ingedeel.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die meeste van Suid-Afrika se elektrisiteit kom van stasies wat steenkool brand.",
+      "blok": "'n Kragstasie het 'n bron nodig",
+      "status": "bevestig",
+      "bron": "CSIR, statistiek oor kragopwekking (https://www.csir.co.za/csir-releases-statistics-on-power-generation-south-africa-2024): steenkool het in 2022 sowat 80% van die totale stelsellas gelewer; Eskom GX-0001 (https://www.eskom.co.za/wp-content/uploads/2025/07/GX-0001-Generation-Plant-Mix-Rev-32.pdf): steenkool maak 84% van Eskom se aanlegmengsel uit. Selfs die laer nasionale syfer vir 2025 wat dakson-energie insluit (sowat 58%, https://en.wikipedia.org/wiki/Electricity_sector_in_South_Africa) is nog 'n meerderheid. 'Die meeste' hou dus. Die aandeel daal wel, en die syfer moet by elke herdruk weer nagegaan word.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Steenkool is 'n harde swart klip uit die grond wat baie warm brand.",
+      "blok": "'n Kragstasie het 'n bron nodig",
+      "status": "bevestig",
+      "bron": "USDA NAL Thesaurus (https://lod.nal.usda.gov/nalt/27354): steenkool is 'n swart of bruinswart gesteente wat maklik brand en uit plantreste gevorm is; FAO AGROVOC (https://agrovoc.fao.org/browse/agrovoc/en/page/c_1693): 'n gesteente wat brand, wat in lae onder die grond voorkom. Suid-Afrika se steenkool is bitumineuse steenkool, wat swart en hard is; bruinkool (ligniet) is sagter en bruiner, maar hierdie les gaan oor Suid-Afrikaanse kragstasies.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Daardie swart klippe is 'n brandstof en die bron van energie waarmee die stasie werk. Die steenkool hou sy energie gestoor tot die stasie dit brand.",
+      "blok": "'n Kragstasie het 'n bron nodig",
+      "status": "bevestig",
+      "bron": "Eskom-erfenisblad oor Komati-kragstasie (https://www.eskom.co.za/heritage/history-in-decades/escom-1953-1962/komati-power-station/) en Daily Maverick se visuele opstel oor Eskom-stasies (https://www.dailymaverick.co.za/?p=1104767): steenkool word as brandstof in die ketel verbrand en sy energie word as hitte vrygestel.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die steenkool brand dag en nag in 'n groot vuur binne die stasie.",
+      "blok": "Wat die stasie met die steenkool doen",
+      "status": "bevestig",
+      "bron": "Eskom GX-0001 (https://www.eskom.co.za/wp-content/uploads/2025/07/GX-0001-Generation-Plant-Mix-Rev-32.pdf): steenkoolstasies is basislasstasies wat aanhoudend loop; poeiersteenkool word teen sowat 1 275 °C in die oond verbrand (Daily Maverick, https://www.dailymaverick.co.za/?p=1104767).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die hitte van die vuur kook water in sterk pype tot stoom.",
+      "blok": "Wat die stasie met die steenkool doen",
+      "status": "bevestig",
+      "bron": "Daily Maverick (https://www.dailymaverick.co.za/article/2022-12-08-sub-standard-coal-and-poor-quality-control-understanding-eskoms-high-failure-rate/) en Eskom se ketelbuise: die voedingswater in die ketel se buise word deur die hitte tot stoom gemaak; die buise werk onder uiterste druk en temperatuur, en Eskom-stasies het meer as 650 km buise.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die stoom stoot teen 'n masjien en laat hom vinnig draai. Daardie draaiende masjien laat die elektrisiteit deur die drade loop.",
+      "blok": "Wat die stasie met die steenkool doen",
+      "status": "bevestig",
+      "bron": "Eskom Komati-kragstasie (https://www.eskom.co.za/heritage/history-in-decades/escom-1953-1962/komati-power-station/): stoom dryf die turbine se rotor aan, wat die kragopwekker draai. Die les noem turbine en kragopwekker saam 'n 'masjien'; dit is 'n aanvaarbare vereenvoudiging, want die turbine en opwekker draai op een as.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "By die stasie stoot die elektrisiteit baie hard vir die lang pad.",
+      "blok": "Wat die stasie met die steenkool doen",
+      "status": "bevestig",
+      "bron": "Eskom TD-0003 (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf): opwekkers lewer sowat 22 kV, en opstaptransformators by die stasie verhoog dit tot 220, 275, 400 of 765 kV vir die netwerk. 'Stoot' vir spanning is die gewone beeld vir hierdie vlak. Die afbeelding hou: 'n hoër spanning beteken minder stroom en minder verlies oor 'n lang afstand (UK Power Networks, https://powerup.ukpowernetworks.co.uk/powerup/en/over-11/electric-journey/transmitting-electricity), so 'n leerder wat aflei dat 'n harder stoot nodig is vir die lang pad, kom by die regte gevolgtrekking uit.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "So maak die stasie die elektrisiteit wat by die meeste huise aankom.",
+      "blok": "Wat die stasie met die steenkool doen",
+      "status": "bevestig",
+      "bron": "CSIR (https://www.csir.co.za/csir-releases-statistics-on-power-generation-south-africa-2024): steenkool lewer sowat 80% van die stelsellas; Stats SA GHS 2021: 89,3% van huishoudings is aan hoofstroom gekoppel (https://www.sanews.gov.za/node/19849). 'Die meeste huise' kry dus hoofsaaklik steenkoolelektrisiteit.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Party kragstasies maak hulle elektrisiteit sonder om enige steenkool te brand.",
+      "blok": "Nie elke stasie brand steenkool nie",
+      "status": "bevestig",
+      "bron": "Eskom GX-0001 Generation Plant Mix (https://www.eskom.co.za/wp-content/uploads/2025/07/GX-0001-Generation-Plant-Mix-Rev-32.pdf): naas steenkool bedryf Eskom kern-, hidro-, pompberging-, gasturbine- en windstasies.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Een soort stasie staan langs die muur van 'n groot dam. Water val daar van hoog af en laat die masjien draai. Sulke stasies brand niks nie, en die vallende water doen al die werk. Ons noem so 'n stasie 'n hidro-elektriese kragstasie.",
+      "blok": "Nie elke stasie brand steenkool nie",
+      "status": "bevestig",
+      "bron": "USGS Water Science School, Hydroelectric power: how it works (https://www.usgs.gov/water-science-school/science/hydroelectric-power-how-it-works): die dam hou water hoog, water val deur 'n pyp (die drukpyp) en stoot die turbine se lemme, wat die opwekker draai; Eskom HY-0005 Orange River Hydros (https://www.eskom.co.za/wp-content/uploads/2021/08/HY-0005-Orange-River-Hydros-Rev-11.pdf) en Gariepdam (https://en.wikipedia.org/wiki/Gariep_Dam): 'n Eskom-hidrostasie by die Gariepdam se muur, 4 x 90 MW.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Kernkragstasie brand ook nie steenkool nie en kry sy hitte uit kernenergie. Daardie hitte kook ook water tot stoom wat 'n masjien laat draai.",
+      "blok": "Nie elke stasie brand steenkool nie",
+      "status": "bevestig",
+      "bron": "Eskom NU-0001 Nuclear Energy Basic Cycle Rev 14 (https://www.eskom.co.za/wp-content/uploads/2022/02/NU-0001-Nuclear-Energy-Basic-Cycle-Rev-14.pdf): by Koeberg gaan hitte van splyting na die stoomopwekkers, waar water tot stoom kook wat een hoëdruk- en drie laedrukturbines dryf, en die turbines draai die opwekkers. Die water wat kook, is in 'n tweede kringloop; vir Graad 5 doen dit niks aan die bewering nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "By die stasie loop die elektrisiteit deur groot, dik drade weg.",
+      "blok": "Die pad van die stasie af na 'n huis",
+      "status": "bevestig",
+      "bron": "Eskom TD-0003 (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf): transmissie gaan by die stasie oor in hoogspanningslyne met swaar geleiers.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die drade hang hoog aan sterk kragmaste bo die veld en die paaie.",
+      "blok": "Die pad van die stasie af na 'n huis",
+      "status": "bevestig",
+      "bron": "Eskom TD-0003 (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf): transmissielyne is gewoonlik oorhoofse geleiers wat aan torings hang; in beboude gebiede word ondergrondse kabels soms gebruik, maar die lang lyne oor die veld is oorhoofs.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "By 'n substasie begin die elektrisiteit minder hard stoot vir die strate.",
+      "blok": "Die pad van die stasie af na 'n huis",
+      "status": "bevestig",
+      "bron": "Eskom TD-0003 (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf): die spanning word in fases verlaag tot 380/220 V vir huise en winkels; National Grid, What is a substation (https://www.nationalgrid.com/stories/energy-explained/what-is-a-substation). 'Begin' is akkuraat: die verlaging gebeur in meer as een stap, en 'n laaste transformator op 'n paal of in 'n kas volg nog.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "By 'n huis of 'n skool kom die drade by 'n elektrisiteitskassie in.",
+      "blok": "Die pad van die stasie af na 'n huis",
+      "status": "bevestig",
+      "bron": "Algemene beskrywing van die verbruikersaansluiting (https://sites.google.com/view/hellojosh/understanding-distribution-boards-in-electricity-types-and-functions; https://support.andersen-ev.com/help-centre/articles/surveys/what-does-my-incoming-supply-look-like): die toevoer kom by 'n meter- of verdeelbordkas in die gebou in en word daar in stroombane verdeel. Nie 'n Eskom-bron nie, maar die bewering is algemeen genoeg dat dit nie van die bron se land afhang nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Uit die kassie loop drade deur die mure tot by die sokke. 'n Toestel se prop sit in 'n sok, en so loop die pad tot by die toestel.",
+      "blok": "Die pad van die stasie af na 'n huis",
+      "status": "bevestig",
+      "bron": "Dieselfde bronne as hierbo: vanaf die verdeelbord loop aparte stroombane na die sokke en ligte in die huis.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Aan 'n prop sit daar meer as een pen.",
+      "blok": "Twee drade by die toestel",
+      "status": "bevestig",
+      "bron": "IEC 60906-1 / SANS 164-2 (https://en.wikipedia.org/wiki/IEC_60906-1): Suid-Afrikaanse proppe het 'n lewendige en 'n neutrale pen, en die driepen-weergawe 'n aardpen; die ouer SANS 164-1-prop (BS 546) het ook drie penne. Geen huisprop het een pen nie.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "Die pad deur 'n toestel loop nie langs net een draad nie. Langs die een draad loop die pad na die toestel toe. Langs 'n ander draad loop die pad van die toestel af weg.",
+      "blok": "Twee drade by die toestel",
+      "status": "bevestig",
+      "bron": "Save My Exams, Mains electricity (https://www.savemyexams.com/gcse/physics/aqa/18/revision-notes/2-electricity/2-2-series-and-parallel-circuits/2-2-5-mains-electricity/) en Miniphysics, Electricity in the home (https://www.miniphysics.com/electricity-in-home.html): 'n toestel tussen die lewendige en die neutrale draad maak 'n volledige stroombaan; die stroom kom langs die lewendige draad aan en keer langs die neutrale terug. By wisselstroom wissel die rigting 50 keer per sekonde, maar die standaard skoolbeeld beskryf die baan so en die les beweer niks oor die rigting van ladings nie.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "By jou lampie het die pad ook langs twee drade geloop, een na die lampie toe en een daarvandaan weg. So is die pad deur die toestel 'n geslote kring, net soos jou lampie se stroombaan.",
+      "blok": "Twee drade by die toestel",
+      "status": "bevestig",
+      "bron": "Miniphysics (https://www.miniphysics.com/electricity-in-home.html): die toestel en die hoofstroom vorm 'n volledige kring, net soos 'n sel, drade en 'n gloeilampie. Die vergelyking met die selstroombaan hou: albei is 'n geslote lus waar 'n breuk alles stop.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "Die energie bly by die toestel en kom daar uit as lig, hitte of klank.",
+      "blok": "Twee drade by die toestel",
+      "status": "bevestig",
+      "bron": "IOP SPARK, energie oorgedra deur elektriese werk (https://spark.iop.org/energy-transferred-electric-current): energie word deur die stroombaan na die toestel oorgedra en daar uitgegee, en dit keer nie langs die tweede draad terug nie; die ladings keer terug, nie die energie nie. Dit is korrek en weer 'n algemene wanbegrip. Opmerking, nie 'n bevinding nie: die lys is onvolledig, want 'n waaier of menger gee beweging. Uiteindelik eindig alles as hitte, dus is die sin nie vals nie. Die skrywer kan 'of beweging' byvoeg as 'n woord bekostigbaar is.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Waar die kring by 'n toestel oop is, werk daardie toestel nie.",
+      "blok": "Twee drade by die toestel",
+      "status": "bevestig",
+      "bron": "Save My Exams, Mains electricity (https://www.savemyexams.com/gcse/physics/aqa/18/revision-notes/2-electricity/2-2-series-and-parallel-circuits/2-2-5-mains-electricity/): as die terugpad onderbreek is, vloei daar geen stroom deur die toestel nie; 'n skakel maak die kring oop.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Al die dele van die pad werk saam as een stelsel.",
+      "blok": "Twee drade by die toestel",
+      "status": "bevestig",
+      "bron": "Eskom TD-0003 (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf): opwekking, transmissie en distribusie word as een netwerk beskryf.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die lamp skyn, die ketel maak die water warm en die radio speel. Elke toestel doen sy eie werk met die energie wat daar aankom.",
+      "blok": "Wat by die toestel gebeur",
+      "status": "bevestig",
+      "bron": "IOP SPARK (https://spark.iop.org/energy-transferred-electric-current): energie wat elektries oorgedra is, word in die toestel as lig, verhitting of klank uitgegee, volgens die toestel.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "By die meeste huise het daardie energie ver weg in 'n bron gelê.",
+      "blok": "Wat by die toestel gebeur",
+      "status": "bevestig",
+      "bron": "Stats SA GHS 2021 (https://www.sanews.gov.za/node/19849): 89,3% van huishoudings het hoofstroom; CSIR (https://www.csir.co.za/csir-releases-statistics-on-power-generation-south-africa-2024): die meeste daarvan kom van steenkoolstasies ver van die meeste dorpe af.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "elektrisiteit: Een manier waarop energie oorgedra word, soos deur die drade van 'n stroombaan.",
+      "blok": "begrip: elektrisiteit",
+      "status": "bevestig",
+      "bron": "IOP SPARK, Energy transferred by working (https://spark.iop.org/energy-transferred-electric-current) en die BEST-raamwerk van stoorplekke en weë: elektrisiteit word as 'n weg beskou waarlangs energie oorgedra word, nie as 'n energievorm op sy eie nie. Die omskrywing hou, en dit klop ook met 'Die energie bly by die toestel'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "bron: Dit waaruit 'n kragstasie die energie kry waarmee dit werk.",
+      "blok": "begrip: bron",
+      "status": "bevestig",
+      "bron": "Eskom GX-0001 (https://www.eskom.co.za/wp-content/uploads/2025/07/GX-0001-Generation-Plant-Mix-Rev-32.pdf): stasies word volgens hul energiebron ingedeel (steenkool, kern, water, wind). Die omskrywing is smal, want ook 'n sel is 'n bron, maar dit pas by hierdie les en is nie vals as dit alleen gelees word nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "kragstasie: Die plek waar elektrisiteit gemaak word om na baie geboue te stuur.",
+      "blok": "begrip: kragstasie",
+      "status": "bevestig",
+      "bron": "Eskom TD-0003 (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf): elektrisiteit word by die kragstasie opgewek en deur die netwerk na verbruikers versprei. 'Gemaak' staan vir 'opgewek', wat die gewone taalgebruik is.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "steenkool: 'n Harde swart klip uit die grond wat baie warm brand.",
+      "blok": "begrip: steenkool",
+      "status": "bevestig",
+      "bron": "USDA NAL Thesaurus (https://lod.nal.usda.gov/nalt/27354) en FAO AGROVOC (https://agrovoc.fao.org/browse/agrovoc/en/page/c_1693): 'n swart of bruinswart gesteente wat maklik brand, wat uit die grond gemyn word. Sien die opmerking oor bruinkool by die studieblok.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "brandstof: Iets wat kan brand en dan sy gestoorde energie afgee.",
+      "blok": "begrip: brandstof",
+      "status": "bevestig",
+      "bron": "IOP SPARK, stores-and-pathways-raamwerk (https://spark.iop.org/collections/designed-devices-switch-pathways-teaching-approaches): 'n brandstof is 'n chemiese energiestoor wat sy energie by verbranding vrystel. Die les noem uraan nie 'n brandstof nie en sê uitdruklik dat 'n kernkragstasie nie brand nie, dus bots die omskrywing met niks in die les nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "hidro-elektriese kragstasie: 'n Kragstasie waar vallende of vloeiende water 'n masjien laat draai.",
+      "blok": "begrip: hidro-elektriese kragstasie",
+      "status": "bevestig",
+      "bron": "USGS, Hydroelectric power: how it works (https://www.usgs.gov/water-science-school/science/hydroelectric-power-how-it-works): die vloei en val van water dryf 'n turbine aan wat 'n opwekker draai. 'Vloeiende' dek ook rivierlopende stasies sonder 'n hoë dam.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "kragmas: 'n Hoë paal of toring wat elektriese drade ver bo die grond hou.",
+      "blok": "begrip: kragmas",
+      "status": "bevestig",
+      "bron": "National Grid, Substations, pylons and overhead lines (https://www.nationalgrid.com/electricity-transmission/who-we-are/running-our-network/substations-pylons-and-overhead-lines) en Eskom TD-0003: oorhoofse geleiers word aan torings bo die grond gehang.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "substasie: 'n Plek met groot toestelle wat die elektrisiteit se stoot of pad verander.",
+      "blok": "begrip: substasie",
+      "status": "bevestig",
+      "bron": "National Grid, What is a substation (https://www.nationalgrid.com/stories/energy-explained/what-is-a-substation): 'n substasie verander die spanning met transformators en skakel of herlei die vloei met skakeltoerusting. 'Stoot' vir spanning en 'pad' vir roete hou. Opmerking, nie 'n feitefout nie: 'toestelle' beteken hier toerusting, terwyl die res van die les 'toestel' gebruik vir 'n huistoestel wat energie gebruik. Dit is 'n woordkeuse vir die skrywer of die taalnasiener, nie 'n onwaarheid nie.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "elektrisiteitskassie: Die kassie waar die elektrisiteit by 'n gebou inkom.",
+      "blok": "begrip: elektrisiteitskassie",
+      "status": "bevestig",
+      "bron": "Beskrywings van die meter- en verdeelbord (https://sites.google.com/view/hellojosh/understanding-distribution-boards-in-electricity-types-and-functions): die toevoer kom by die meter- of verdeelbordkas in die gebou in.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "stelsel: Dele wat saamwerk om een werk te doen.",
+      "blok": "begrip: stelsel",
+      "status": "bevestig",
+      "bron": "Gewone woordeboekbetekenis van 'stelsel'/'system' as 'n geheel van dele wat saamwerk; ook die gebruik in Eskom TD-0003 (https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf), waar opwekking, transmissie en distribusie een stelsel is.",
+      "tipe": "algemeen"
+    }
+  ],
+  "opsomming": "Elke nagaanbare bewering is teen bronne bevestig, insluitend die vier 'die meeste'-bewerings en die 'stoot'- en 'pad'-beelde; die steenkoolaandeel (sowat 80% van die stelsellas, al laer as dakson-energie meegetel word) moet by elke herdruk weer nagegaan word, want dit daal elke jaar."
+}

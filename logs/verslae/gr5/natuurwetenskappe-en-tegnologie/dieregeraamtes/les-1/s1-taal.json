@@ -1,0 +1,190 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die raam binne-in die lyf",
+      "voor": "sag maar dieper binne",
+      "na": "sag, maar dieper binne",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'maar' joins two sentences, each with its own subject and verb (dit voel / voel jy).",
+      "fout": "Missing AWS comma before 'maar' joining two clauses (dit voel / voel jy).",
+      "rede_keurder": "Two full clauses joined by 'maar' take the AWS comma; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Die raam binne-in die lyf",
+      "voor": "diere en hulle dra almal",
+      "na": "diere, en hulle dra almal",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences (ons noem / hulle dra); the protected 'gewerwelde diere' stays intact.",
+      "fout": "Missing AWS comma before 'en' joining two clauses (noem ons / hulle dra).",
+      "rede_keurder": "Required AWS comma; the protected 'gewerwelde diere' stays intact."
+    },
+    {
+      "nr": 4,
+      "blok": "Drie take vir die geraamte",
+      "voor": "Sonder sy geraamte kon 'n hond",
+      "na": "Sonder sy geraamte kan 'n hond",
+      "soort": "grammatika",
+      "rede_vinder": "The sentence states a general truth in the present; past-tense 'kon' reads as if it were about one past event.",
+      "fout": "Bare 'kon' copies the English hypothetical 'couldn't' and can read as past tense for a Grade 5 reader.",
+      "rede_keurder": "'kan' states the general truth plainly in the present without changing what the sentence claims."
+    },
+    {
+      "nr": 5,
+      "blok": "Drie take vir die geraamte",
+      "voor": "is sag en 'n harde stamp",
+      "na": "is sag, en 'n harde stamp",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences with their own subjects and verbs (brein en hart is / stamp kan).",
+      "fout": "Missing AWS comma before 'en' joining two clauses (brein en hart is / stamp kan).",
+      "rede_keurder": "Required AWS comma; meaning unchanged."
+    },
+    {
+      "nr": 6,
+      "blok": "Die skedel om die brein",
+      "voor": "Die skedel is by die meeste gewerwelde diere byna heeltemal om die brein toe",
+      "na": "Die skedel sit by die meeste gewerwelde diere byna heeltemal om die brein",
+      "soort": "idioom",
+      "rede_vinder": "'is ... om die brein toe' is a stiff construction; 'sit ... om die brein' is natural, and both protected phrases stay word for word.",
+      "fout": "'is ... om die brein toe' is a stiff, stumbling construction.",
+      "rede_keurder": "'sit ... byna heeltemal om die brein' is natural Afrikaans, keeps the enclosure sense through 'heeltemal', and leaves both protected phrases word for word."
+    },
+    {
+      "nr": 10,
+      "blok": "Die bene vir beweging",
+      "voor": "iets nie want baie",
+      "na": "iets nie, want baie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'want' joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'want' joining two clauses.",
+      "rede_keurder": "Required AWS comma; meaning unchanged."
+    },
+    {
+      "nr": 14,
+      "blok": "Dieselfde dele by baie diere",
+      "voor": "soogdier en jou geraamte",
+      "na": "soogdier, en jou geraamte",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences with their own subjects and verbs.",
+      "fout": "Missing AWS comma before 'en' joining two clauses (mens is / geraamte doen).",
+      "rede_keurder": "Required AWS comma; it does not overlap change 13."
+    },
+    {
+      "nr": 15,
+      "blok": "Dieselfde dele by baie diere",
+      "voor": "geen pote nie en tog",
+      "na": "geen pote nie, en tog",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en tog' joins two sentences (slang het / het hy).",
+      "fout": "Missing AWS comma before 'en tog' joining two clauses (slang het / het hy).",
+      "rede_keurder": "Required AWS comma; meaning unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Drie take vir die geraamte",
+      "voor": "op te hou en vorm te gee",
+      "na": "op te hou en dit vorm te gee",
+      "soort": "grammatika",
+      "rede_vinder": "'vorm gee' needs an object (iets vorm gee); 'die lyf' is the object of 'ophou' only, so 'dit' completes the second verb.",
+      "fout": "none",
+      "rede_keurder": "'die lyf' serves both verbs by ordinary ellipsis, so 'op te hou en vorm te gee' is correct and adding 'dit' is a lateral move."
+    },
+    {
+      "nr": 7,
+      "blok": "Die ruggraat en die rugmurg",
+      "voor": "'n dun sagte snoer",
+      "na": "'n dun, sagte snoer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma between two adjectives of equal rank (dun en sag).",
+      "fout": "none",
+      "rede_keurder": "A comma between 'dun sagte' is optional, the original reads naturally, and adding it is not clearly better."
+    },
+    {
+      "nr": 8,
+      "blok": "rugmurg",
+      "voor": "Die dun sagte snoer",
+      "na": "Die dun, sagte snoer",
+      "soort": "leestekens",
+      "rede_vinder": "Same AWS comma between equal adjectives, so the glossary matches the study text.",
+      "fout": "none",
+      "rede_keurder": "Optional adjective comma in a glossary definition; with change 7 dropped, the glossary already matches the study text."
+    },
+    {
+      "nr": 9,
+      "blok": "Die ribbes om die hart en die longe",
+      "voor": "Die ribbes is lang dun bene",
+      "na": "Die ribbes is lang, dun bene",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma between two adjectives of equal rank (lank en dun).",
+      "fout": "none",
+      "rede_keurder": "'lang dun bene' is normal unpunctuated Afrikaans; the comma is optional and the ribbes glossary entry repeats the same wording without it."
+    },
+    {
+      "nr": 11,
+      "blok": "Die bene vir beweging",
+      "voor": "sit lang sterk bene",
+      "na": "sit lang, sterk bene",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma between two adjectives of equal rank (lank en sterk).",
+      "fout": "none",
+      "rede_keurder": "Optional adjective comma; 'lang sterk bene' already reads well."
+    },
+    {
+      "nr": 12,
+      "blok": "Die bene vir beweging",
+      "voor": "By die agterste ledemate sit by baie diere",
+      "na": "By baie diere sit daar by die agterste ledemate",
+      "soort": "woordorde",
+      "rede_vinder": "The two 'by' phrases with different senses jammed around the verb read clumsily; leading with 'By baie diere' flows better, and the protected heupbene wording stays intact.",
+      "fout": "none",
+      "rede_keurder": "The proposal still puts two 'by' phrases around the verb and adds 'daar', and the original's opening 'By die agterste ledemate' mirrors the previous sentence's 'Aan elke skouer', so this is a lateral move."
+    },
+    {
+      "nr": 13,
+      "blok": "Dieselfde dele by baie diere",
+      "voor": "'n Mens is self",
+      "na": "Jy is self",
+      "soort": "verwysing",
+      "rede_vinder": "The sentence switches from ''n Mens' to 'jou geraamte'; 'Jy' keeps the reference consistent and also avoids reading ''n mens' as the generic 'one'.",
+      "fout": "none",
+      "rede_keurder": "''n Mens' states that humans as a kind are mammals, matching the list's ''n Hond en 'n mens is soogdiere'; 'Jy' narrows it to the reader, and 'jou geraamte' after it reads naturally anyway."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 16,
+      "blok": "borsbeen",
+      "voor": "Die stewige deel waar 'n hele paar ribbes van albei kante by baie diere bymekaar kom, oorkant die ruggraat.",
+      "na": "Die stewige deel oorkant die ruggraat waar by baie diere 'n hele paar ribbes van albei kante bymekaar kom.",
+      "soort": "sinsbou",
+      "rede_vinder": "The trailing ', oorkant die ruggraat' dangles and 'by baie diere' interrupts the clause; reordering keeps every word and qualifier ('n hele paar, baie) but reads cleanly.",
+      "fout": "The borsbeen definition is clumsy: 'by baie diere' interrupts the clause and ', oorkant die ruggraat' dangles at the end.",
+      "rede_keurder": "This is a glossary definition and a structural rewording, and the proposed 'oorkant die ruggraat waar ...' lets 'waar' attach to the backbone, so the writer must fix it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Drie take vir die geraamte",
+      "teks": "Die derde taak is om die dier te laat beweeg.",
+      "rede": "'laat beweeg' says the skeleton makes the animal move; 'help beweeg' may be what is meant (muscles move the bones), but that is a meaning question, so it is flagged rather than changed."
+    },
+    {
+      "blok": "ribbes",
+      "teks": "Lang dun bene wat soos boë om die bors buig.",
+      "rede": "If the comma in 'lang, dun bene' is kept in the study text, the glossary should match; this line cannot be targeted on its own because the same words occur in the study text, so it needs the writer."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 546,
+  "woorde_na": 545,
+  "wanneer": "2026-10-23T20:16:24+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:2c3dcb106d06ab20d21ef6e6ae0984ca",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1a5f86cdf54ea988696e8285e5e909c5"
+}

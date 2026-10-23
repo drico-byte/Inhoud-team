@@ -1,0 +1,228 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoekom mense metaal kies",
+      "voor": "Baie van die potte en die messe en die vurke",
+      "na": "Baie van die potte, messe en vurke",
+      "soort": "sinsbou",
+      "rede_vinder": "A list joined by repeated 'en die' reads wooden; commas and one 'en' are natural.",
+      "fout": "A three-item list joined by repeated 'en die' reads wooden.",
+      "rede_keurder": "Commas and one 'en' are the natural list form and the same three items remain."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoekom mense metaal kies",
+      "voor": "eienskappe wat saamwerk en dit is hoekom",
+      "na": "eienskappe wat saamwerk, en dit is hoekom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses ('Metaal het ...' and 'dit is ...').",
+      "rede_keurder": "Both halves have their own subject and verb, so the AWS comma is required."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoekom mense metaal kies",
+      "voor": "Glas blink ook en 'n nat klip",
+      "na": "Glas blink ook, en 'n nat klip",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'Glas blink ook' and ''n nat klip ... blink ook' are two full sentences joined by 'en'."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoekom mense metaal kies",
+      "voor": "Jy ken metaal uit aan al hierdie eienskappe saam.",
+      "na": "Jy ken metaal aan al hierdie eienskappe saam uit.",
+      "soort": "woordorde",
+      "rede_vinder": "The particle of the separable verb 'uitken' naturally stands at the end, as in the glossary sentence.",
+      "fout": "The separable particle 'uit' stands before the prepositional phrase instead of at the end.",
+      "rede_keurder": "Particle-final order is the standard form, matches the glossary sentence and keeps 'al hierdie eienskappe saam' intact."
+    },
+    {
+      "nr": 5,
+      "blok": "Blink hoort by 'n skoon en gladde stuk metaal",
+      "voor": "'n Splinternuwe munt blink en jy sien",
+      "na": "'n Splinternuwe munt blink, en jy sien",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'n Splinternuwe munt blink' and 'jy sien dit' each have their own subject and verb."
+    },
+    {
+      "nr": 6,
+      "blok": "Blink hoort by 'n skoon en gladde stuk metaal",
+      "voor": "jare lank rond en sy buitekant",
+      "na": "jare lank rond, en sy buitekant",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'Dieselfde munt le ... rond' and 'sy buitekant raak dof' are two full sentences."
+    },
+    {
+      "nr": 7,
+      "blok": "Blink hoort by 'n skoon en gladde stuk metaal",
+      "voor": "nog altyd van metaal en net sy buitekant",
+      "na": "nog steeds van metaal, en net sy buitekant",
+      "soort": "woordkeuse",
+      "rede_vinder": "'nog steeds' says 'still' unambiguously ('nog altyd' can read as 'always has been'), plus the AWS comma between two sentences.",
+      "fout": "'nog altyd' can read as 'has always been' where 'still' is meant, and the AWS comma is missing.",
+      "rede_keurder": "'nog steeds' states 'still' unambiguously without moving the claim, and the comma joins two main clauses."
+    },
+    {
+      "nr": 8,
+      "blok": "Hard onder jou duim",
+      "voor": "Die meeste metale is hard en daarom",
+      "na": "Die meeste metale is hard, en daarom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'en daarom kry 'n mes en 'n vurk' is a second sentence with its own subject and verb."
+    },
+    {
+      "nr": 9,
+      "blok": "Hard onder jou duim",
+      "voor": "Nie elke metaal is ewe hard nie en party",
+      "na": "Nie alle metale is ewe hard nie, en party",
+      "soort": "idioom",
+      "rede_vinder": "'Nie alle metale ... nie' is the natural form and agrees with the plural 'party'; plus the AWS comma between two sentences.",
+      "fout": "'ewe hard' compares a set, which sits awkwardly with singular 'elke metaal', and the AWS comma is missing.",
+      "rede_keurder": "'Nie alle metale is ewe hard nie' is the natural form, means the same and agrees with 'party'."
+    },
+    {
+      "nr": 11,
+      "blok": "Sterk wanneer jy trek of druk",
+      "voor": "Die meeste metale is sterk en daarom",
+      "na": "Die meeste metale is sterk, en daarom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'en daarom word spykers ... gemaak' is a second full sentence."
+    },
+    {
+      "nr": 12,
+      "blok": "Sterk wanneer jy trek of druk",
+      "voor": "Sterk gaan oor die hele stuk wat breek of heel bly.",
+      "na": "Sterk gaan oor of die hele stuk breek of heel bly.",
+      "soort": "sinsbou",
+      "rede_vinder": "The relative clause reads as 'the whole piece that breaks'; 'of ... breek of heel bly' states the question the property is about.",
+      "fout": "The relative clause reads as 'the whole piece that breaks', which blurs what the property is about.",
+      "rede_keurder": "'of die hele stuk breek of heel bly' states the same contrast plainly without adding or losing anything."
+    },
+    {
+      "nr": 13,
+      "blok": "Metaal kan in dun drade getrek word",
+      "voor": "Koper is 'n metaal en 'n mens",
+      "na": "Koper is 'n metaal, en 'n mens",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'Koper is 'n metaal' and ''n mens kan dit ... trek' each have their own subject and verb."
+    },
+    {
+      "nr": 14,
+      "blok": "Metaal kan in dun drade getrek word",
+      "voor": "dunner en langer en dit breek nie",
+      "na": "dunner en langer, en dit breek nie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before the 'en' that starts a new sentence; none inside 'dunner en langer'.",
+      "fout": "Missing AWS comma before the 'en' that starts a new clause.",
+      "rede_keurder": "The comma goes before 'en dit breek nie' only, not inside 'dunner en langer'."
+    },
+    {
+      "nr": 15,
+      "blok": "Wanneer metaal smelt",
+      "voor": "bly net so hard en hy word",
+      "na": "bly net so hard, en hy word",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'Die pot self bly net so hard' and 'hy word nie sag nie' are two full sentences."
+    },
+    {
+      "nr": 16,
+      "blok": "Metaal kom uit die Aarde",
+      "voor": "as klaar potte",
+      "na": "as klaargemaakte potte",
+      "soort": "woordkeuse",
+      "rede_vinder": "'klaar potte' is colloquial; 'klaargemaakte potte' is the standard adjective form.",
+      "fout": "Attributive 'klaar' before a noun is colloquial.",
+      "rede_keurder": "'klaargemaakte potte' is the standard adjective form with the same meaning and is plain enough for Grade 5."
+    },
+    {
+      "nr": 17,
+      "blok": "Metaal kom uit die Aarde",
+      "voor": "uit die grond en daardie klip",
+      "na": "uit die grond, en daardie klip",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences with their own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'Mense grawe klip uit die grond' and 'daardie klip het metaal in' each have their own subject and verb."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 10,
+      "blok": "Sterk wanneer jy trek of druk",
+      "voor": "met spykers aanmekaar vas.",
+      "na": "met spykers aanmekaar.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'aanmekaar' already says joined; 'vas' after it is redundant.",
+      "fout": "none",
+      "rede_keurder": "'aanmekaar vasslaan' is a normal, natural Afrikaans combination, so cutting 'vas' is a lateral move."
+    },
+    {
+      "nr": 18,
+      "blok": "Metaal kom uit die Aarde",
+      "voor": "Uit daardie klip haal hulle die metaal self uit.",
+      "na": "Daarna haal hulle die metaal self uit daardie klip.",
+      "soort": "sinsbou",
+      "rede_vinder": "The double 'uit ... uit' is clumsy; the plain order reads more easily and 'daarna' only makes the existing sequence explicit.",
+      "fout": "none",
+      "rede_keurder": "'Uit daardie klip haal hulle ... uit' is natural Afrikaans, and the proposal adds 'daarna', which is new content."
+    },
+    {
+      "nr": 19,
+      "blok": "Metaal kom uit die Aarde",
+      "voor": "wanneer hulle sê metaal word gemyn",
+      "na": "wanneer hulle sê dat metaal gemyn word",
+      "soort": "sinsbou",
+      "rede_vinder": "Reported speech with 'dat' and verb-final order is clearer and more standard.",
+      "fout": "none",
+      "rede_keurder": "Reported speech without 'dat' is natural Afrikaans, so adding it is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wanneer metaal smelt",
+      "teks": "Die water hou die pot 'n bietjie warmer as die kookwater self.",
+      "rede": "Read alone, this says the water makes the pot warmer; the point seems to be that the water keeps the pot from getting much hotter than boiling water (perhaps 'net 'n bietjie'). Fixing it means guessing the intended claim, so it is left to the writer."
+    },
+    {
+      "blok": "Metaal kan in dun drade getrek word",
+      "teks": "Elke keer word die koper dunner en langer en dit breek nie.",
+      "rede": "'Elke keer' implies repeated pulling, but the sentence before mentions only one pull through one hole; the repetition is not stated, so a change would add content."
+    },
+    {
+      "blok": "Metaal kan 'n nuwe vorm kry",
+      "teks": "Baie potte begin hulle lewe as 'n plat stuk metaal sonder enige vorm.",
+      "rede": "A flat piece does have a shape, so 'sonder enige vorm' is loose; possibly meant 'nog sonder 'n pot se vorm'. Left unchanged because it touches meaning."
+    },
+    {
+      "blok": "Hoekom mense metaal kies",
+      "teks": "Jy ken metaal uit aan al hierdie eienskappe saam.",
+      "rede": "'hierdie eienskappe' points forward to properties not yet named in this block; it works as an introduction, but the referent is vague for a reader of the opening block."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 508,
+  "woorde_na": 505,
+  "wanneer": "2026-10-23T20:18:12+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ce3978a009d1dc0655c7d52ce6c8008f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c5c5edf7ee8c53a626479ad423239156"
+}

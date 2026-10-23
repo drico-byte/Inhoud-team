@@ -1,0 +1,59 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Energie loop deur die ketting",
+      "voor": "Die sprinkaan vreet die gras en kry 'n deel daarvan.",
+      "na": "Die sprinkaan vreet die gras en kry 'n deel van die energie.",
+      "soort": "verwysing",
+      "rede_vinder": "'daarvan' directly after 'die gras' can be read as part of the grass; naming the energy once fixes the reference for the later 'daarvan' sentences.",
+      "fout": "'daarvan' straight after 'die gras' can point to the grass or to the energy, and the later 'daarvan' sentences inherit the doubt.",
+      "rede_keurder": "Naming the energy once fixes an ambiguous pronoun and states exactly what the paragraph already means, without touching any protected wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "'n Ketting by die dam",
+      "voor": "Sommige kettings het vier lewende dinge",
+      "na": "Sommige kettings bestaan uit vier lewende dinge",
+      "soort": "woordkeuse",
+      "rede_vinder": "A chain 'bestaan uit' its members; 'het vier lewende dinge' reads wooden.",
+      "fout": "none",
+      "rede_keurder": "'het vier lewende dinge' is plain, natural Grade 5 Afrikaans; 'bestaan uit' is only a different way of saying it."
+    },
+    {
+      "nr": 2,
+      "blok": "'n Ketting by die dam",
+      "voor": "'n Ander dier kan die slang nog vang",
+      "na": "'n Ander dier kan die slang wel vang",
+      "soort": "woordkeuse",
+      "rede_vinder": "'nog' can read as 'still/in addition'; 'wel' gives the intended concession before 'maar'.",
+      "fout": "none",
+      "rede_keurder": "A particle swap: 'nog' says another animal could still catch the snake, 'wel' asserts it more firmly; the original reads well and the shift is not needed."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 4,
+      "blok": "voedselketting",
+      "voor": "Elkeen daarna vreet die een voor hom.",
+      "na": "Elkeen wat volg, vreet die een voor hom.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'daarna' suggests time rather than position in the row; 'wat volg' is clearer, and the protected first sentence is untouched.",
+      "fout": "'Elkeen daarna' is slightly stiff and can read as time rather than position in the row.",
+      "rede_keurder": "This rewords a shared glossary definition beyond a spelling or grammar fix, so the writer must decide it for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 437,
+  "woorde_na": 439,
+  "wanneer": "2026-10-23T20:57:56+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:7e72f9ecea3f7736ab41f4d8711e512f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:198e246da40bf94b8854a4403176812b"
+}

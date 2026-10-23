@@ -1,0 +1,58 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "ruggraat",
+      "voor": "end-aan-end",
+      "na": "end aan end",
+      "soort": "spelling",
+      "rede_vinder": "Used adverbially, the word group 'end aan end' is written as separate words without hyphens, like 'kop aan kop'.",
+      "fout": "The adverbial word group 'end aan end' is written as separate words in the AWS (like 'kop aan kop', 'hand aan hand'); hyphens belong only in attributive compounds.",
+      "rede_keurder": "A plain spelling fix inside the glossary entry that touches no protected wording and leaves the meaning exactly as it was."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Hoe jy 'n dier in die regte groep plaas",
+      "voor": "Moenie sy pote tel nie en moenie kyk",
+      "na": "Moenie sy pote tel nie, en moenie kyk",
+      "soort": "leestekens",
+      "rede_vinder": "Two complete imperative clauses, each with its own verb and negation, are joined by 'en'; a comma separates them and makes the double 'moenie ... nie' easier to read (borderline under the AWS rule, as imperatives have no stated subject).",
+      "fout": "none",
+      "rede_keurder": "Two short subjectless imperatives sharing one 'moenie' frame read cleanly without a comma, and the AWS rule applies to clauses with their own subject, so the change is not required and adds nothing."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 520,
+  "woorde_na": 520,
+  "wanneer": "2026-10-23T20:41:29+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Twee groepe diere",
+      "voor": "Ons verdeel hulle almal in twee groepe met net een enkele vraag.",
+      "na": "Ons verdeel hulle almal met net een vraag in twee groepe.",
+      "soort": "woordorde",
+      "rede_vinder": "'net een enkele' is redundant, and the means phrase reads more naturally before the result phrase.",
+      "fout": "none",
+      "rede_keurder": "The sentence already flows, and 'net een enkele' is a deliberate emphasis that the next sentence pays off, so dropping it and reordering is a lateral move."
+    },
+    {
+      "nr": 11,
+      "blok": "Harde doppe en sagte lywe",
+      "voor": "Die slak bou daardie skulp self van kalk",
+      "na": "'n Slak bou sy skulp self van kalk",
+      "soort": "verwysing",
+      "rede_vinder": "The previous sentence speaks of 'baie slakke', so 'die slak' and 'daardie skulp' have no single referent; a general 'n slak ... sy skulp' fits.",
+      "fout": "none",
+      "rede_keurder": "'Die slak ... daardie skulp' ties back to the snails that carry a shell, whereas a general ''n Slak bou sy skulp' implies every snail has one and loses the 'baie' qualifier of the previous sentence."
+    }
+  ],
+  "konsep_hash_voor": "sha256:7fdc86d878bfa024d30dbc47983a3679",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d478851d74f51a0ed0860786994a1b51"
+}

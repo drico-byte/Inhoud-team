@@ -1,0 +1,89 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die vuur maak sy eie hitte",
+      "voor": "die vuurhoutjie heeltyd by te hou",
+      "na": "die vuurhoutjie heeltyd by die hout te hou",
+      "soort": "woordkeuse",
+      "rede_vinder": "'bythou' reads as the separable verb 'byhou' (keep up with); naming what the match is held to makes the meaning clear without adding content.",
+      "fout": "'by te hou' without an object reads as the separable verb 'byhou' (keep up with), so the sentence stumbles on a first reading.",
+      "rede_keurder": "Naming the wood the match is held to removes the misreading without adding content; 'die hout' is already the referent of the paragraph."
+    },
+    {
+      "nr": 2,
+      "blok": "Die vuur maak sy eie hitte",
+      "voor": "hitte weg en die vuur",
+      "na": "hitte weg, en die vuur",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two clauses with their own subject and verb ('Water ... vat ... weg' and 'die vuur gaan dood'); the protected wording stays intact.",
+      "fout": "Missing AWS comma between two clauses that each have their own subject and verb.",
+      "rede_keurder": "'Water ... vat ... weg' and 'die vuur gaan dood' are two full clauses, so AWS 2017 requires the comma; the protected 'die brandende hout se hitte' stays intact."
+    },
+    {
+      "nr": 3,
+      "blok": "Al drie tegelyk",
+      "voor": "vat die hitte weg en 'n glas",
+      "na": "vat die hitte weg, en 'n glas",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses that each have their own subject and verb.",
+      "rede_keurder": "'Water ... vat die hitte weg' and ''n glas ... hou die lug weg' are two full clauses joined by 'en', so the comma is required."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Hoe jy 'n brand keer",
+      "voor": "nie kan bykom nie",
+      "na": "nie daarby kan kom nie",
+      "soort": "grammatika",
+      "rede_vinder": "In the sense of reaching something, the idiom is 'by iets kom'; 'bykom' on its own means to regain consciousness.",
+      "fout": "none",
+      "rede_keurder": "'bykom' does mean to reach or get at in Afrikaans, so 'waar klein kinders nie kan bykom nie' is correct, and 'waar ... daarby' in the proposal is clumsier."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoe jy 'n brand keer",
+      "voor": "proppe by een muurprop",
+      "na": "proppe in een muurprop",
+      "soort": "idioom",
+      "rede_vinder": "A plug goes 'in' a wall socket; 'by' is the wrong preposition here.",
+      "fout": "none",
+      "rede_keurder": "'by een muurprop' covers plugs connected at one socket through adapters, which is how a socket is overloaded; 'in' narrows that to what fits into the socket itself, so the preposition swap is not proved meaning-neutral."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat om te doen tydens 'n brand",
+      "voor": "rol tot die vlamme",
+      "na": "rol totdat die vlamme",
+      "soort": "grammatika",
+      "rede_vinder": "'totdat' is the standard conjunction before a clause; 'tot' is a preposition.",
+      "fout": "none",
+      "rede_keurder": "'tot' is an accepted Afrikaans conjunction before a clause ('rol tot die vlamme dood is'), and the sentence is a safety instruction that already reads well."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 6,
+      "blok": "Wat om te doen tydens 'n brand",
+      "voor": "Brand jou klere, staan",
+      "na": "As jou klere brand, staan",
+      "soort": "sinsbou",
+      "rede_vinder": "The inverted condition can be read by a Grade 5 learner as the order 'burn your clothes'; an explicit 'as' clause keeps the same meaning and removes the misreading.",
+      "fout": "The inverted condition 'Brand jou klere, staan stil' can be read by a Grade 5 learner as the order 'burn your clothes'.",
+      "rede_keurder": "The misreading is real, but this is a safety instruction in the fire-drill list, so the writer owns the fix.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 538,
+  "woorde_na": 540,
+  "wanneer": "2026-10-23T21:14:13+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:7685fab0f825f2a899ce4147c8293724",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:79ad2d9f97a7c0569fcd057ed4448e4a"
+}

@@ -1,11 +1,15 @@
 {
   "les": "gr5/natuurwetenskappe-en-tegnologie/plante-en-diere-op-die-aarde/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:2f719753b20a7d73e57ced8691b3f24e",
+  "konsep_hash": "sha256:806a3229a16d3e80278ef370258d5d5c",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:a803a738431e18fb83166f22426c6b5d"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "inter-afhanklikheid": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -169,11 +173,199 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\natuurwetenskappe-en-tegnologie\\plante-en-diere-op-die-aarde\\les-2.json",
       "konsep_hash": "sha256:2f719753b20a7d73e57ced8691b3f24e",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T20:09:09+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:64295a248905a8c2dda57b116740d74e",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T20:09:09+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 426,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:09:09+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:64295a248905a8c2dda57b116740d74e",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T20:16:21+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 10,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 426,
+      "woorde_na": 427,
+      "konsep_hash": "sha256:55487fef3827e57e5f77cb5c6d3592b8"
+    },
+    {
+      "wanneer": "2026-10-23T20:16:22+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 427,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:16:22+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Alles kom uit die eie habitat': Block heading: 'die eie habitat' is unidiomatic; 'sy eie habitat' would be natural. Not proposed as a change because it is a heading the script may not be able to apply."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:23:56+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a803a738431e18fb83166f22426c6b5d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T20:23:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 427,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:35:53+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 427,
+      "woorde_na": 427
+    },
+    {
+      "wanneer": "2026-10-23T20:41:27+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:41:27+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:41:27+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "inter-afhanklikheid"
+      ],
+      "tally": {
+        "inter-afhanklikheid": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T20:41:27+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Diere het plante nodig, en baie plante het ook diere nodig. — corrected: Narrow the quantifier on the first half so that it holds without exception, for example 'Byna alle diere het plante nodig, en baie plante het ook diere nodig.' Keep the subject and the second half as they are."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:53:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:806a3229a16d3e80278ef370258d5d5c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T20:53:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 429,
+      "begroting": 380,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:58:33+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 429,
+      "woorde_na": 429
+    },
+    {
+      "wanneer": "2026-10-23T20:58:34+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'inter-afhanklikheid': The AWS/HAT spelling is one word, 'interafhanklikheid' (no vowel clash, so no hyphen). It is the block heading and a glossary headword, possibly a shared subject term, so it is not changed here; a person should decide whether to change it everywhere at once."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T21:15:52+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:15:53+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:16:27+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:16:27+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:16:27+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\natuurwetenskappe-en-tegnologie\\plante-en-diere-op-die-aarde\\les-2.json",
+      "konsep_hash": "sha256:806a3229a16d3e80278ef370258d5d5c",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:8425f5693f4e5c39e1383a8748ac3d54",
+  "spek_hash": "sha256:1e4c2f568ec349549151421546efe4ca",
   "hek_konteks": {
     "graad": 5,
     "begroting": 380
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'inter-afhanklikheid': The AWS/HAT spelling is one word, 'interafhanklikheid' (no vowel clash, so no hyphen). It is the block heading and a glossary headword, possibly a shared subject term, so it is not changed here; a person should decide whether to change it everywhere at once."
+  ],
+  "taal_geforseer_vir": "sha256:64295a248905a8c2dda57b116740d74e",
+  "taal_rondte_vir": "sha256:806a3229a16d3e80278ef370258d5d5c",
+  "taal_keurder_vir": "f865d76767c914da77a9cf01c23569fc",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:806a3229a16d3e80278ef370258d5d5c",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:806a3229a16d3e80278ef370258d5d5c",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "7db248b6a5dba568574a822993667370"
 }

@@ -1,7 +1,7 @@
 {
   "les": "gr5/natuurwetenskappe-en-tegnologie/dieregeraamtes/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:2c3dcb106d06ab20d21ef6e6ae0984ca",
+  "konsep_hash": "sha256:845df83a93a7fe8bd01ddcc6615433c8",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -333,11 +333,365 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\natuurwetenskappe-en-tegnologie\\dieregeraamtes\\les-1.json",
       "konsep_hash": "sha256:2c3dcb106d06ab20d21ef6e6ae0984ca",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T20:09:10+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:2c3dcb106d06ab20d21ef6e6ae0984ca",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T20:16:24+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 8,
+      "laat_vaar": 7,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 546,
+      "woorde_na": 545,
+      "konsep_hash": "sha256:1a5f86cdf54ea988696e8285e5e909c5"
+    },
+    {
+      "wanneer": "2026-10-23T20:16:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 545,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:16:24+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Die stewige deel waar 'n hele paar ribbes van albei kante by baie dier': The borsbeen definition is clumsy: 'by baie diere' interrupts the clause and ', oorkant die ruggraat' dangles at the end.",
+        "check (the language finder raised this; it may not be a fault): 'Die derde taak is om die dier te laat beweeg.': 'laat beweeg' says the skeleton makes the animal move; 'help beweeg' may be what is meant (muscles move the bones), but that is a meaning question, so it is flagged rather than changed.",
+        "check (the language finder raised this; it may not be a fault): 'Lang dun bene wat soos boë om die bors buig.': If the comma in 'lang, dun bene' is kept in the study text, the glossary should match; this line cannot be targeted on its own because the same words occur in the study text, so it needs the writer."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:19:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:47a71718a99752751dff5efce5e1527c",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T20:19:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 545,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:26:34+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 545,
+      "woorde_na": 546,
+      "konsep_hash": "sha256:8bed085e3b25177c0bf6ef7edb9289ff"
+    },
+    {
+      "wanneer": "2026-10-23T20:26:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 546,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:35:55+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:35:55+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 48,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:35:55+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:50:42+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {}
+    },
+    {
+      "wanneer": "2026-10-23T20:53:11+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:53:11+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 48,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:53:11+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die ruggraat en die rugmurg"
+      ],
+      "tally": {
+        "die ruggraat en die rugmurg": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T20:53:11+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "dekking",
+      "siklus": 1,
+      "punte": [
+        "[dekking] DIE VEREISTE: die ruggraat met sy rugwerwels, en dat dit die — gedeeltelik: Die ruggraat, rugwerwels, rugmurg en punte 1, 2, 3, 5 en 6 is in orde; net punt 4 skiet tekort, in die begrip-inskrywing vir 'heupbene'. Daar staan 'by baie diere' binne die bysin oor waar die agterste ledemate aansit, sodat dit net die aansit verskans, terwyl 'breë' in die hoofdeel staan en, alleen gelees, van alle heupbene beweer word (die padda se heupbene is dun). Herbou die inskrywing sodat die breedte net van baie diere gese word, of laat die breedte heeltemal uit die inskrywing weg. Hou 'stewige dele', hou die plek neutraal (waar die agterste ledemate aansit, sonder rigting), en voeg geen materiaalwoord in nie. Die studiesin in 'Die bene vir beweging' doen dit reeds reg; maak seker die inskrywing en die studiesin beweer daarna dieselfde."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:56:24+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f5a4b6e1b8028192a1deee2ab2537788",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T20:56:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 546,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:58:33+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 546,
+      "woorde_na": 546
+    },
+    {
+      "wanneer": "2026-10-23T20:58:33+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'waar 'n ledemaat aansit': 'aansit' is unclear for 'is attached' (it usually means sit down, switch on or put on weight), and it no longer matches the study text, which now says 'aan die lyf vas is'.",
+        "fix: [taal] in 'waar die agterste ledemate aansit': 'aansit' is unclear for 'is attached' and does not match the study text's 'vas is'."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T21:05:19+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:893e08c3c93b0952c8206fd784361ef4",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T21:05:19+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 546,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:16:40+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 546,
+      "woorde_na": 546,
+      "konsep_hash": "sha256:b228dbd9d5837b5516ec944711c85758"
+    },
+    {
+      "wanneer": "2026-10-23T21:16:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 546,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:22:01+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:22:01+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 40,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:22:01+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die skedel om die brein",
+        "kyk na hierdie vyf groepe"
+      ],
+      "tally": {
+        "die ruggraat en die rugmurg": 1,
+        "die skedel om die brein": 1,
+        "kyk na hierdie vyf groepe": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T21:22:01+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 2,
+      "punte": [
+        "[feite] 'n Stamp teen die kop tref eers die stewige skedel, wat die  — corrected: Se dat die stamp die stewige skedel tref VOORDAT dit by die brein uitkom (nie dat die skedel eerste getref word nie), en dat die skedel help om die slag op te vang of te versprei, eerder as dat hy die hele slag opvang.",
+        "[feite] 'n Hond en 'n mens is soogdiere met al hierdie dele. — corrected: Moenie die soogdiere voorstel as die enigste groep met al die dele nie. Laat die laaste item se wat die hond en mens het sonder 'n vergelyking met die ander, of maak duidelik dat die voel en die akkedis ook 'n skedel, ruggraat, ribbes en ledemate het. As die vis-item bly, moenie dit so stel dat dit lyk of 'n vis geen ribbes het nie."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T21:26:14+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4f25cf382a4ba10aca1d2c717edf2ff6",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-23T21:26:14+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 565,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:33:27+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 565,
+      "woorde_na": 565,
+      "konsep_hash": "sha256:845df83a93a7fe8bd01ddcc6615433c8"
+    },
+    {
+      "wanneer": "2026-10-23T21:33:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 565,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:38:13+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:38:13+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 43,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:38:13+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T21:44:15+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 2,
+      "vorige_blok_faalrondtes": {
+        "die ruggraat en die rugmurg": 1,
+        "die skedel om die brein": 1,
+        "kyk na hierdie vyf groepe": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T21:45:54+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:45:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 43,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:46:01+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:46:01+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 43,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:46:01+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\natuurwetenskappe-en-tegnologie\\dieregeraamtes\\les-1.json",
+      "konsep_hash": "sha256:845df83a93a7fe8bd01ddcc6615433c8",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:97be1e625668533a71162f0698dad271",
+  "spek_hash": "sha256:1530f8c6a5c189608564b1b587da3451",
   "hek_konteks": {
     "graad": 5,
     "begroting": 500
-  }
+  },
+  "taal_geforseer_vir": "sha256:2c3dcb106d06ab20d21ef6e6ae0984ca",
+  "taal_rondte_vir": "sha256:845df83a93a7fe8bd01ddcc6615433c8",
+  "taal_keurder_vir": "076296adab4241c13c7857949288b311",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:845df83a93a7fe8bd01ddcc6615433c8",
+  "taal_vir_skrywer": [],
+  "taal_vir_mens": [],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "17b9a96a92e04cae7a061dd39e5f8614"
 }

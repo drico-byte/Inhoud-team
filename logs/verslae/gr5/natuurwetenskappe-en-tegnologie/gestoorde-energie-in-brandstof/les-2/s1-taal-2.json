@@ -1,0 +1,78 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Lug hou die vuur aan die gang",
+      "voor": "Jy kan self meer lug by 'n vuur bring.",
+      "na": "Jy kan self 'n vuur meer lug gee.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'lug by 'n vuur bring' is wooden; 'n vuur meer lug gee' says the same thing naturally and keeps 'lug' for the moving air.",
+      "fout": "'meer lug by 'n vuur bring' is stiff and wooden",
+      "rede_keurder": "'n Vuur meer lug gee' is what a fluent writer would say, keeps 'lug' for the moving air, and leaves the meaning and the following blowing example intact."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe brande in ons gemeenskappe begin",
+      "voor": "Dieselfde gebeur wanneer iemand",
+      "na": "'n Brand begin ook wanneer iemand",
+      "soort": "verwysing",
+      "rede_vinder": "'Dieselfde' points back to a candle or stove falling over and setting a curtain alight, which is not what happens with food left on the stove; naming the fire keeps the meaning and fixes the reference.",
+      "fout": "'Dieselfde' points back to something falling over and setting a curtain alight, which is not what happens when food is left on the stove",
+      "rede_keurder": "Naming the fire fixes the vague reference without adding a fact, since the paragraph is about how fires start, and it is a cause rather than a safety instruction."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Hoe 'n vuur begin",
+      "voor": "gee vir die hout daardie eerste hitte",
+      "na": "gee die hout daardie eerste hitte",
+      "soort": "idioom",
+      "rede_vinder": "With 'gee' the indirect object reads more naturally without 'vir'; 'eerste hitte' stays intact.",
+      "fout": "none",
+      "rede_keurder": "'gee vir die hout' is ordinary, natural Afrikaans and marks the indirect object clearly for a Grade 5 reader; dropping 'vir' is a lateral move that puts 'die hout daardie' side by side."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 541,
+  "woorde_na": 542,
+  "wanneer": "2026-10-23T21:32:39+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Hoe jy 'n brand keer",
+      "voor": "nie kan bykom nie",
+      "na": "nie daarby kan kom nie",
+      "soort": "grammatika",
+      "rede_vinder": "In the sense of reaching something, the idiom is 'by iets kom'; 'bykom' on its own means to regain consciousness.",
+      "fout": "none",
+      "rede_keurder": "'bykom' does mean to reach or get at in Afrikaans, so 'waar klein kinders nie kan bykom nie' is correct, and 'waar ... daarby' in the proposal is clumsier."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoe jy 'n brand keer",
+      "voor": "proppe by een muurprop",
+      "na": "proppe in een muurprop",
+      "soort": "idioom",
+      "rede_vinder": "A plug goes 'in' a wall socket; 'by' is the wrong preposition here.",
+      "fout": "none",
+      "rede_keurder": "'by een muurprop' covers plugs connected at one socket through adapters, which is how a socket is overloaded; 'in' narrows that to what fits into the socket itself, so the preposition swap is not proved meaning-neutral."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat om te doen tydens 'n brand",
+      "voor": "rol tot die vlamme",
+      "na": "rol totdat die vlamme",
+      "soort": "grammatika",
+      "rede_vinder": "'totdat' is the standard conjunction before a clause; 'tot' is a preposition.",
+      "fout": "none",
+      "rede_keurder": "'tot' is an accepted Afrikaans conjunction before a clause ('rol tot die vlamme dood is'), and the sentence is a safety instruction that already reads well."
+    }
+  ],
+  "konsep_hash_voor": "sha256:1405c46d71f91d6eaf42f7da448ebd1f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c4aecbac89d646a4e1ca38ad52e6375a"
+}

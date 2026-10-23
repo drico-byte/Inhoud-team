@@ -1,0 +1,69 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Metaal kan in dun drade getrek word",
+      "voor": "'n lang dun koperdraad",
+      "na": "'n lang, dun koperdraad",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives before a noun (lank en dun) are separated by a comma under the AWS.",
+      "fout": "Two coordinate adjectives (lank en dun) before the noun are not separated by a comma, as the AWS requires.",
+      "rede_keurder": "Adding the comma between coordinate adjectives is an AWS punctuation fix that changes nothing in the meaning and touches no protected wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 2,
+      "blok": "smelt",
+      "voor": "Wanneer 'n vaste stof warm word en in 'n vloeistof verander.",
+      "na": "Om van 'n vaste stof in 'n vloeistof te verander wanneer dit warm word.",
+      "soort": "sinsbou",
+      "rede_vinder": "A verb's definition should not open with 'Wanneer' (an English 'is when' construction); the 'Om ... te' form defines the verb itself with the same meaning.",
+      "fout": "The definition of the verb 'smelt' opens with 'Wanneer', an English 'is when' construction, instead of defining the action itself.",
+      "rede_keurder": "The fault is real, but this is a glossary definition shared across lessons and the rewording goes beyond a plain spelling or grammar fix, so only the writer may change it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 503,
+  "woorde_na": 503,
+  "wanneer": "2026-10-23T20:37:45+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 10,
+      "blok": "Sterk wanneer jy trek of druk",
+      "voor": "met spykers aanmekaar vas.",
+      "na": "met spykers aanmekaar.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'aanmekaar' already says joined; 'vas' after it is redundant.",
+      "fout": "none",
+      "rede_keurder": "'aanmekaar vasslaan' is a normal, natural Afrikaans combination, so cutting 'vas' is a lateral move."
+    },
+    {
+      "nr": 18,
+      "blok": "Metaal kom uit die Aarde",
+      "voor": "Uit daardie klip haal hulle die metaal self uit.",
+      "na": "Daarna haal hulle die metaal self uit daardie klip.",
+      "soort": "sinsbou",
+      "rede_vinder": "The double 'uit ... uit' is clumsy; the plain order reads more easily and 'daarna' only makes the existing sequence explicit.",
+      "fout": "none",
+      "rede_keurder": "'Uit daardie klip haal hulle ... uit' is natural Afrikaans, and the proposal adds 'daarna', which is new content."
+    },
+    {
+      "nr": 19,
+      "blok": "Metaal kom uit die Aarde",
+      "voor": "wanneer hulle sê metaal word gemyn",
+      "na": "wanneer hulle sê dat metaal gemyn word",
+      "soort": "sinsbou",
+      "rede_vinder": "Reported speech with 'dat' and verb-final order is clearer and more standard.",
+      "fout": "none",
+      "rede_keurder": "Reported speech without 'dat' is natural Afrikaans, so adding it is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:b166646d7895214a5f89ab2948eaba9b",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:739ab0231ff425ad275757ec1ce13359"
+}

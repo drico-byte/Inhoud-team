@@ -1,0 +1,56 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die volgorde van die skakels",
+      "voor": "Gras groei in die veld en 'n springbok",
+      "na": "Gras groei in die veld, en 'n springbok",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two main clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses (Gras groei / 'n springbok vreet).",
+      "rede_keurder": "Both clauses have their own subject and verb, so AWS 2017 requires the comma; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "'n Ketting by die dam",
+      "voor": "Gras groei langs die water en 'n sprinkaan",
+      "na": "Gras groei langs die water, en 'n sprinkaan",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two main clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses (Gras groei / 'n sprinkaan vreet).",
+      "rede_keurder": "Both clauses have their own subject and verb, so AWS 2017 requires the comma; meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Energie loop deur die ketting",
+      "voor": "'n Deel van sy kos gaan onverteer uit.",
+      "na": "'n Deel van sy kos verlaat sy lyf onverteer.",
+      "soort": "idioom",
+      "rede_vinder": "'gaan uit' reads unnaturally here and can suggest 'goes out' like a fire; the replacement says the same thing plainly.",
+      "fout": "'gaan onverteer uit' is vague and unnatural; it does not say what the food leaves.",
+      "rede_keurder": "The proposal says plainly that undigested food leaves the animal's body, the same claim in natural Afrikaans, and 'sy' still points to the animal."
+    },
+    {
+      "nr": 4,
+      "blok": "Energie loop deur die ketting",
+      "voor": "Dus bly daar minder oor vir die volgende dier.",
+      "na": "Daar bly dus minder oor vir die volgende dier.",
+      "soort": "woordorde",
+      "rede_vinder": "Sentence-initial 'Dus' is stiff; mid-sentence 'dus' is the natural Afrikaans placement and matches the lesson's own 'kom dus van'.",
+      "fout": "Sentence-initial 'Dus' reads stiff and bookish for a Grade 5 reader.",
+      "rede_keurder": "Mid-sentence 'dus' is the natural placement, matches the lesson's earlier 'kom dus van', and changes nothing in the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 435,
+  "woorde_na": 436,
+  "wanneer": "2026-10-23T20:18:09+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:8792771e90cf9d6d08efdddc6aeb797e",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b3c491bd1dd2f617a74fd4e5a3fd712a"
+}

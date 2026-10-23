@@ -1,0 +1,101 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Sanderige grond",
+      "voor": "is die oop plekkies wyd",
+      "na": "is die oop plekkies groot",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Plekkies' collocates naturally with 'groot', and it mirrors 'baie klein' in the clay block.",
+      "fout": "none",
+      "rede_keurder": "'Die oop plekkies is wyd' already reads naturally for gaps between grains; 'groot' is a lateral word swap."
+    },
+    {
+      "nr": 2,
+      "blok": "Leemgrond",
+      "voor": "In leemgrond sit daar gewoonlik ook humus",
+      "na": "In leemgrond is daar gewoonlik ook humus",
+      "soort": "register",
+      "rede_vinder": "'Sit daar' is colloquial; 'is daar' is the neutral written form for a study text.",
+      "fout": "none",
+      "rede_keurder": "'Daar sit humus tussen die korrels' is ordinary written Afrikaans, so 'is daar' only reads differently."
+    },
+    {
+      "nr": 3,
+      "blok": "'n Voorbeeld met 'n tabel en 'n staafgrafiek",
+      "voor": "Hoe hoër 'n staaf",
+      "na": "Hoe hoër die staaf",
+      "soort": "idioom",
+      "rede_vinder": "The 'hoe ... hoe' construction reads more naturally with the definite article.",
+      "fout": "none",
+      "rede_keurder": "'Hoe hoër 'n staaf, hoe meer' is correct and natural; the definite article is a lateral change."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoekom bogrond so kosbaar is",
+      "voor": "Waar daardie laag eers weg is",
+      "na": "As daardie laag eers weg is",
+      "soort": "woordkeuse",
+      "rede_vinder": "With 'eers' the clause is about when/once, not where, so 'As' is the idiomatic conjunction.",
+      "fout": "none",
+      "rede_keurder": "Swapping 'Waar' for 'As' changes a place clause into a time/condition clause and breaks the parallel with 'Waar die bogrond kaal lê'; the original is acceptable Afrikaans."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "sanderige grond",
+      "voor": "Grond met 'n groot deel sandkorrels, wat water vinnig deurlaat.",
+      "na": "Grond wat vir 'n groot deel uit sandkorrels bestaan, en wat water vinnig deurlaat.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Grond met 'n groot deel sandkorrels' is wooden; this matches the study text's own phrasing without changing meaning.",
+      "fout": "'Grond met 'n groot deel sandkorrels' is a wooden construction in a glossary definition.",
+      "rede_keurder": "A real awkwardness, but it is a shared glossary definition that only the writer may reword, and the proposal also puts an incorrect comma before 'en wat'.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 6,
+      "blok": "kleierige grond",
+      "voor": "Grond met 'n groot deel baie fyn kleikorrels, wat water stadig deurlaat.",
+      "na": "Grond wat vir 'n groot deel uit baie fyn kleikorrels bestaan, en wat water stadig deurlaat.",
+      "soort": "sinsbou",
+      "rede_vinder": "Same wooden construction as the sandy-soil entry; aligned with the study text's phrasing.",
+      "fout": "'Grond met 'n groot deel baie fyn kleikorrels' is the same wooden construction in a glossary definition.",
+      "rede_keurder": "Same as the sandy-soil entry: the fault is real but a glossary definition goes to the writer, and the proposed comma before 'en wat' is wrong.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 7,
+      "blok": "leemgrond",
+      "voor": "gewoonlik ook met humus",
+      "na": "en wat gewoonlik ook humus bevat",
+      "soort": "sinsbou",
+      "rede_vinder": "The trailing phrase 'gewoonlik ook met humus' hangs loosely; a relative clause attaches it clearly to the soil.",
+      "fout": "The trailing phrase 'gewoonlik ook met humus' attaches loosely to the definition.",
+      "rede_keurder": "A reasonable point about a glossary definition, which is beyond a language agent's remit; any fix must keep the protected 'gewoonlik'.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 553,
+  "woorde_na": 553,
+  "wanneer": "2026-10-23T21:58:30+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Humus in die grond",
+      "voor": "kan sien wat dit was nie",
+      "na": "kan sien wat hulle was nie",
+      "soort": "verwysing",
+      "rede_vinder": "The pronoun refers to the plural 'oorblyfsels', so 'hulle' keeps the reference clear.",
+      "fout": "none",
+      "rede_keurder": "'Wat dit was' is the normal Afrikaans identifying construction even for a plural, so the swap is lateral."
+    }
+  ],
+  "konsep_hash_voor": "sha256:4cc7c5586759684a3b27223d90ea316f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4cc7c5586759684a3b27223d90ea316f"
+}

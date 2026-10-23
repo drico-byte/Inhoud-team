@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Nie elke stasie brand steenkool nie",
+      "voor": "Daardie stasies brand niks nie",
+      "na": "Sulke stasies brand niks nie",
+      "soort": "verwysing",
+      "rede_vinder": "'Daardie stasies' points back to plural stations that were never named, since the sentence before speaks of 'een soort stasie'; 'sulke stasies' refers cleanly to that kind.",
+      "fout": "'Daardie stasies' points back in the plural to a singular 'een soort stasie', so the reference is loose.",
+      "rede_keurder": "'Sulke stasies' refers cleanly to the kind just described, matches the following 'so 'n stasie', and changes no meaning or protected word."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 536,
+  "woorde_na": 536,
+  "wanneer": "2026-10-23T22:16:28+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "'n Kragstasie het 'n bron nodig",
+      "voor": "ver genoeg terug en jy kom",
+      "na": "ver genoeg terug, en jy kom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two complete sentences here (an imperative and 'jy kom ... uit'), so a comma goes before it.",
+      "fout": "none",
+      "rede_keurder": "The first clause is an imperative with no subject of its own and the sentence is one tight 'do this and you get that' unit, so the house comma rule does not require a comma."
+    },
+    {
+      "nr": 5,
+      "blok": "'n Kragstasie het 'n bron nodig",
+      "voor": "tot die stasie dit brand",
+      "na": "totdat die stasie dit brand",
+      "soort": "grammatika",
+      "rede_vinder": "As a conjunction introducing a clause, standard written Afrikaans uses 'totdat' rather than 'tot'.",
+      "fout": "none",
+      "rede_keurder": "'tot' is standard Afrikaans as a conjunction, so 'totdat' is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat die stasie met die steenkool doen",
+      "voor": "laat hom vinnig draai",
+      "na": "laat dit vinnig draai",
+      "soort": "verwysing",
+      "rede_vinder": "In written study text a thing (the machine) is referred to as 'dit', not the colloquial 'hom'.",
+      "fout": "none",
+      "rede_keurder": "'hom' points unambiguously to the machine, whereas 'dit' could also point back to 'die stoom' in the same sentence."
+    },
+    {
+      "nr": 7,
+      "blok": "Nie elke stasie brand steenkool nie",
+      "voor": "laat die masjien draai",
+      "na": "laat 'n masjien draai",
+      "soort": "verwysing",
+      "rede_vinder": "This is the first machine mentioned at the dam station, so the indefinite article fits, as in the block's last sentence and the glossary.",
+      "fout": "none",
+      "rede_keurder": "'die masjien' reads naturally as the turning machine the reader has already met, so the article swap is lateral."
+    }
+  ],
+  "konsep_hash_voor": "sha256:f2fdf93eb2ebfbf5d49e17d94b1cc5fb",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:6218345777721ca9bb928fc43c52fdef"
+}

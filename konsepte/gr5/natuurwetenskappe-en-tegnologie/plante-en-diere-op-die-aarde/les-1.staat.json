@@ -1,9 +1,11 @@
 {
   "les": "gr5/natuurwetenskappe-en-tegnologie/plante-en-diere-op-die-aarde/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:50c4bd44141052f6f6c3183a71ab1329",
+  "konsep_hash": "sha256:6555747d10b1c3cdcb1438a0e9fe1e3c",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:fd83ea5e4f28ca865b14ed863292b427"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -137,11 +139,403 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\natuurwetenskappe-en-tegnologie\\plante-en-diere-op-die-aarde\\les-1.json",
       "konsep_hash": "sha256:50c4bd44141052f6f6c3183a71ab1329",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-23T20:09:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8a4a0b9a4b2c5f25d753f63da27bb456",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T20:09:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 453,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:09:03+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:8a4a0b9a4b2c5f25d753f63da27bb456",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-23T20:16:20+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 11,
+      "laat_vaar": 0,
+      "na_skrywer": 3,
+      "nie_toegepas": 0,
+      "woorde_voor": 453,
+      "woorde_na": 459,
+      "konsep_hash": "sha256:36456ed665e221a0e91e8a2219ede8f3"
+    },
+    {
+      "wanneer": "2026-10-23T20:16:20+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 459,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:16:21+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Vorm verskil ook: 'n slang is lank en dun en 'n skilpad': Missing AWS comma before 'en 'n skilpad', and 'Vorm verskil ook' is clipped.",
+        "fix: [taal] in 'wat vanself in 'n land voorkom, nie ingebring nie.': The elliptical 'nie ingebring nie' is clipped.",
+        "fix: [taal] in 'waarin drie plante saam groei': 'drie plante' wrongly says three individual plants."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:19:29+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:61d1e57e92b5cff03c7ec2605de00726",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T20:19:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 461,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:26:34+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 461,
+      "woorde_na": 461
+    },
+    {
+      "wanneer": "2026-10-23T20:35:54+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:35:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 33,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:35:54+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:50:42+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {}
+    },
+    {
+      "wanneer": "2026-10-23T20:53:10+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:53:10+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 33,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:53:10+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "biodiversiteit"
+      ],
+      "tally": {
+        "biodiversiteit": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T20:53:10+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "dekking",
+      "siklus": 1,
+      "punte": [
+        "[dekking] Biodiversiteit is die VERSKEIDENHEID soorte lewende dinge, n — gedeeltelik: In die blok 'Biodiversiteit' eindig die sin 'Die woord gaan nie oor hoeveel plante daar staan nie, maar oor hoeveel verskillende soorte daar is' op 'n telling van soorte. Kern 8 verbied dit uitdruklik ('nie ... 'n telling van soorte nie'), en feiterisiko 3 verbied dat biodiversiteit tot 'die aantal soorte' verklein word. Alleen gelees laat die sin ook die plekke uit, wat kern 8 binne die omskrywing hou. Hou die teenstelling tussen baie plante van een soort en baie verskillende soorte, want kern 1 vra dit. Laat die tweede helfte egter op die VERSKEIDENHEID land en nie op 'n getal soorte nie. Moenie die omskrywingsin, die slotsin of die begrip-inskrywing verander nie: hulle is reg en moet identies bly."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T20:56:23+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:372f2a19910af83997e1e289e92f8f93",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T20:56:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 465,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T20:58:32+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 465,
+      "woorde_na": 465,
+      "konsep_hash": "sha256:94a848bb263d83714d9665050696448c"
+    },
+    {
+      "wanneer": "2026-10-23T20:58:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 465,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:05:18+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:05:18+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:05:18+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "hoeveel soorte plante is daar?"
+      ],
+      "tally": {
+        "biodiversiteit": 1,
+        "hoeveel soorte plante is daar?": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-23T21:05:18+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 2,
+      "punte": [
+        "[feite] Die blomme wissel van klein blommetjies tot 'n sonneblom se  — corrected: Moenie die sonneblom se kop as een groot blom gebruik nie. Kies 'n voorbeeld van 'n groot enkelblom (byvoorbeeld 'n hibiskus of 'n lelie), of hou die sonneblom en sê dat sy groot geel kop eintlik uit baie klein blommetjies bestaan. Let op: die koningprotea se 'blom' is ook 'n blomhoof, dus is dit nie 'n goeie plaasvervanger nie."
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T21:09:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f57832b75e0d73740cfaedb5b7fb1f71",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-23T21:09:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 465,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:16:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 465,
+      "woorde_na": 465,
+      "konsep_hash": "sha256:d17bfb1f42b974fde8558f723a9fe754"
+    },
+    {
+      "wanneer": "2026-10-23T21:16:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 465,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:22:01+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:22:02+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:22:02+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "hoeveel soorte plante is daar?"
+      ],
+      "tally": {
+        "biodiversiteit": 1,
+        "hoeveel soorte plante is daar?": 2
+      }
+    },
+    {
+      "wanneer": "2026-10-23T21:22:02+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "blok_bly_faal",
+      "blok": "hoeveel soorte plante is daar?",
+      "rondtes": 2
+    },
+    {
+      "wanneer": "2026-10-23T21:26:13+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 2,
+      "vorige_blok_faalrondtes": {
+        "biodiversiteit": 1,
+        "hoeveel soorte plante is daar?": 2
+      }
+    },
+    {
+      "wanneer": "2026-10-23T21:26:13+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fd83ea5e4f28ca865b14ed863292b427",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-23T21:26:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 484,
+      "begroting": 400,
+      "failures": [
+        "Study text 484 words, above budget ceiling 460 (target 400) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T21:26:13+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 484 words, above budget ceiling 460 (target 400) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-10-23T21:30:02+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:e72c5540244cf03e40807d03cab2e983",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-23T21:30:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 450,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:38:14+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 450,
+      "woorde_na": 449,
+      "konsep_hash": "sha256:6555747d10b1c3cdcb1438a0e9fe1e3c"
+    },
+    {
+      "wanneer": "2026-10-23T21:38:14+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 449,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:43:07+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:43:08+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:43:13+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:43:14+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-23T21:43:14+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\natuurwetenskappe-en-tegnologie\\plante-en-diere-op-die-aarde\\les-1.json",
+      "konsep_hash": "sha256:6555747d10b1c3cdcb1438a0e9fe1e3c",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:aaeee09d7bf731a21264c00a814beefb",
+  "spek_hash": "sha256:112b13c9641043c9a2d786f4cfdff1af",
   "hek_konteks": {
     "graad": 5,
     "begroting": 400
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:8a4a0b9a4b2c5f25d753f63da27bb456",
+  "taal_rondte_vir": "sha256:6555747d10b1c3cdcb1438a0e9fe1e3c",
+  "taal_keurder_vir": "4de89bd0187898da92f679300ecb9a0e",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:6555747d10b1c3cdcb1438a0e9fe1e3c",
+  "taal_vir_mens": [],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "104f34e9219caac604dd308916f051dc"
 }

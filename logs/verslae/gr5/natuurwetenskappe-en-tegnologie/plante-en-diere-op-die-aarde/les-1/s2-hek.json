@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "titel": "Verskillende plekke, verskillende plante en diere",
+  "graad": 5,
+  "vak": "Natuurwetenskappe en Tegnologie",
+  "budget": 400,
+  "begrotingsreel": "default ±15%: 340-460",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T21:38:14+00:00",
+  "study": {
+    "words": 449,
+    "sentences": 32,
+    "mean_sentence_len": 12.8,
+    "median_sentence_len": 12.5,
+    "longest_sentence": 21,
+    "mean_syllables": 1.47,
+    "pct_polysyllabic": 7.5,
+    "pct_long_words": 3.2,
+    "commas_per_sentence": 0.56,
+    "list_words": 37
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 5,
+    "lys": 1,
+    "begrip": 4
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study text: 0.56 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Study text: 3.2% of words exceed 10 characters (guide 3.0%)",
+    "Long words in study text with no 'begrip' entry: driehonderdduisend, klipvlaktes, verskeidenheid, verskillende"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

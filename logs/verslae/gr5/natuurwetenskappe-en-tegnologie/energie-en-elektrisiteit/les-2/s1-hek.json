@@ -1,35 +1,38 @@
 {
   "verdict": "PASS",
-  "titel": "Die lang pad wat 'n kring moet wees",
+  "titel": "Die lang pad van die kragstasie af",
   "graad": 5,
   "vak": "Natuurwetenskappe en Tegnologie",
-  "budget": 480,
-  "checked_at": "2026-09-11T09:53:53+00:00",
+  "budget": 490,
+  "begrotingsreel": "default ±15%: 416-564",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T22:16:28+00:00",
   "study": {
-    "words": 508,
-    "sentences": 37,
-    "mean_sentence_len": 12.1,
-    "median_sentence_len": 12,
-    "longest_sentence": 18,
-    "mean_syllables": 1.32,
-    "pct_polysyllabic": 3.6,
-    "pct_long_words": 1.8,
-    "commas_per_sentence": 0.08,
+    "words": 536,
+    "sentences": 38,
+    "mean_sentence_len": 12.4,
+    "median_sentence_len": 12.0,
+    "longest_sentence": 20,
+    "mean_syllables": 1.33,
+    "pct_polysyllabic": 4.6,
+    "pct_long_words": 2.1,
+    "commas_per_sentence": 0.16,
     "list_words": 61
   },
   "eli10": null,
   "block_counts": {
     "studie": 6,
     "lys": 1,
-    "begrip": 8
+    "begrip": 10
   },
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: kragstasies"
+    "Study block 5 ('Twee drade by die toestel') 118 words (guide 30–110) — will overflow its section",
+    "Long words in study text with no 'begrip' entry: daarvandaan, kernenergie"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

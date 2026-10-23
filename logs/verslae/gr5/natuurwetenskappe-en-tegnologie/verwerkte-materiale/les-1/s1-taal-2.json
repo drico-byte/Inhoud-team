@@ -1,0 +1,114 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Beton uit vier dele",
+      "voor": "Die water maak die droë dele nat en dik.",
+      "na": "Die water maak van die droë dele 'n nat, dik mengsel.",
+      "soort": "sinsbou",
+      "rede_vinder": "Dry parts cannot themselves become 'dik'; it is the mixture that turns wet and thick, so the sentence reads more clearly this way without changing what it says.",
+      "fout": "The sentence says the dry parts themselves become 'dik', which sand and gravel do not; it is the mixture that turns wet and thick.",
+      "rede_keurder": "The proposal says what happens precisely (water turns the dry parts into a wet, thick mixture) without adding a fact or touching a protected wording."
+    },
+    {
+      "nr": 2,
+      "blok": "Beton uit vier dele",
+      "voor": "verhard daar tot een harde stuk",
+      "na": "verhard daar tot een vaste stuk",
+      "soort": "woordkeuse",
+      "rede_vinder": "'verhard ... tot een harde stuk' repeats itself; 'vaste stuk' avoids the repetition and matches the wording of the sement definition.",
+      "fout": "'verhard daar tot een harde stuk' is a tautology: the verb already says it becomes hard.",
+      "rede_keurder": "'vaste stuk' removes the repetition, keeps the meaning (hardness is still carried by 'verhard'), and echoes the shared sement definition's 'een vaste stuk'."
+    },
+    {
+      "nr": 3,
+      "blok": "Gom uit meel en water",
+      "voor": "plak papier aan mekaar vas",
+      "na": "plak stukke papier aan mekaar vas",
+      "soort": "idioom",
+      "rede_vinder": "'aan mekaar' needs more than one thing to refer to; 'papier' alone is a mass noun.",
+      "fout": "'mekaar' needs a plural antecedent, but 'papier' is a mass noun here.",
+      "rede_keurder": "'stukke papier' gives 'aan mekaar' something to refer to, a small grammatical fix that adds no information."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Deeg word brood",
+      "voor": "meng 'n bakker meel en water en nog 'n paar goed saam",
+      "na": "meng 'n bakker meel, water en 'n paar ander dinge saam",
+      "soort": "register",
+      "rede_vinder": "This removes the double 'en ... en', and swaps the spoken-style 'goed' for 'dinge', which suits written study text better.",
+      "fout": "none",
+      "rede_keurder": "'meel en water en nog 'n paar goed' is natural, plain spoken Afrikaans that a Grade 5 reader follows easily; the proposal is a lateral move toward a more formal register."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "verhard",
+      "teks": "Wanneer 'n nat of sagte mengsel na 'n ruk hard word.",
+      "rede": "The headword is a verb, but the definition is a 'wanneer' clause, so it describes a situation instead of the action. That is common in school glossaries, so it is not changed here. A reviewer or writer may prefer an 'Om ... te' form."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 539,
+  "woorde_na": 542,
+  "wanneer": "2026-10-23T20:50:57+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Gips word hard",
+      "voor": "wat jy kan uitgooi soos meel",
+      "na": "wat jy soos meel kan uitgooi",
+      "soort": "woordorde",
+      "rede_vinder": "The comparison sits more naturally before the verb cluster in an Afrikaans subordinate clause.",
+      "fout": "none",
+      "rede_keurder": "A 'soos' comparison placed after the verb cluster is normal Afrikaans; the reorder is lateral."
+    },
+    {
+      "nr": 2,
+      "blok": "Gips word hard",
+      "voor": "strooi die poeier stadig daarby in",
+      "na": "strooi die poeier stadig daarin",
+      "soort": "idioom",
+      "rede_vinder": "'daarby in' is an awkward combination; 'daarin' says plainly that the powder goes into the water.",
+      "fout": "none",
+      "rede_keurder": "'daarby in' is ordinary recipe Afrikaans and carries the sense of adding to the water; 'daarin' drops that and is no clearer."
+    },
+    {
+      "nr": 5,
+      "blok": "Beton uit vier dele",
+      "voor": "fyn droë poeier",
+      "na": "fyn, droë poeier",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives that each describe the noun are separated by a comma.",
+      "fout": "none",
+      "rede_keurder": "Afrikaans commonly writes stacked adjectives without a comma, and the lesson already writes 'droë wit poeier' without one; the comma is lateral and inconsistent."
+    },
+    {
+      "nr": 16,
+      "blok": "Bakstene van klei en strooi",
+      "voor": "terwyl hy droog word",
+      "na": "terwyl dit droog word",
+      "soort": "verwysing",
+      "rede_vinder": "In written standard Afrikaans an object such as a brick is referred to with 'dit', not the colloquial 'hy'.",
+      "fout": "none",
+      "rede_keurder": "'hy' for a concrete object such as a brick is standard Afrikaans, the lesson uses 'sy' for the jelly elsewhere, and 'dit' in the sentence before already refers to the clay."
+    },
+    {
+      "nr": 20,
+      "blok": "Wat verander en wat bly dieselfde",
+      "voor": "voor en na die meng",
+      "na": "voor en ná die meng",
+      "soort": "spelling",
+      "rede_vinder": "The accent on 'ná' marks the time meaning 'after', set against 'voor', as AWS allows for clarity.",
+      "fout": "none",
+      "rede_keurder": "Set against 'voor', the temporal 'na' is already clear, so AWS does not call for the accent, and the lesson writes 'na' without one elsewhere."
+    }
+  ],
+  "konsep_hash_voor": "sha256:258b6f3b981d04e5c42bb4566eb7035f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4d32fc2cb25672e1fe03666c1756b44f"
+}

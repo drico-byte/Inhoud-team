@@ -1,0 +1,117 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "'n Voertuig is 'n stelsel",
+      "voor": "'n Voertuig is so 'n stelsel en elke deel",
+      "na": "'n Voertuig is so 'n stelsel, en elke deel",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subjects (''n Voertuig is' / 'elke deel doen').",
+      "rede_keurder": "Two full clauses joined by 'en' take the AWS comma; meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Die as in die middel",
+      "voor": "maar dit rol van die voertuig af weg en dra niks.",
+      "na": "maar dit rol weg van die voertuig af en dra niks nie.",
+      "soort": "grammatika",
+      "rede_vinder": "The negative needs its closing 'nie', and 'van die voertuig af weg' is a clumsy stacking of particles.",
+      "fout": "'rol van die voertuig af weg' stacks particles stiffly; 'dra niks' is acceptable but the closing 'nie' matches the lesson's own 'dra geen vrag nie'.",
+      "rede_keurder": "'rol weg van die voertuig af en dra niks nie' is the natural Afrikaans order, with the same meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Sleep teenoor rol",
+      "voor": "Sleep 'n swaar boks oor die vloer en sy hele",
+      "na": "Sleep 'n swaar boks oor die vloer, en sy hele",
+      "soort": "leestekens",
+      "rede_vinder": "An imperative clause and a clause with its own subject and verb are joined by 'en', so the AWS comma applies.",
+      "fout": "Without the comma 'oor die vloer en sy hele onderkant' can be misread as one list of what is dragged.",
+      "rede_keurder": "The imperative and the clause with its own subject 'sy hele onderkant' are two main clauses, so the comma applies and removes a stumble."
+    },
+    {
+      "nr": 6,
+      "blok": "Iets moet vry kan draai",
+      "voor": "staan die as stil en die wiel draai om hom",
+      "na": "staan die as stil, en die wiel draai om hom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining 'staan die as stil' and 'die wiel draai om hom', each with its own subject and verb.",
+      "rede_keurder": "Two full clauses joined by 'en' take the AWS comma; meaning unchanged."
+    },
+    {
+      "nr": 7,
+      "blok": "Iets moet vry kan draai",
+      "voor": "By albei maniere",
+      "na": "In albei gevalle",
+      "soort": "idioom",
+      "rede_vinder": "'By albei maniere' is not idiomatic; 'in albei gevalle' is the natural Afrikaans expression.",
+      "fout": "'By albei maniere' is not an idiomatic Afrikaans expression.",
+      "rede_keurder": "'In albei gevalle' is the natural fixed expression and still refers to the same two designs."
+    },
+    {
+      "nr": 9,
+      "blok": "Wanneer 'n wiel en 'n as goed werk",
+      "voor": "Die gat waarin iets draai, moet die deel laat draai en hom nie vasdruk nie.",
+      "na": "Die gat waarin 'n deel draai, moet daardie deel laat draai en dit nie vasdruk nie.",
+      "soort": "verwysing",
+      "rede_vinder": "'iets' followed by 'die deel' leaves the reader unsure they are the same thing; naming it 'n deel' first makes the reference clear.",
+      "fout": "'iets' followed by 'die deel' leaves the reader unsure whether the two refer to the same thing.",
+      "rede_keurder": "'n deel ... daardie deel' makes the reference clear while staying general enough to cover either the wheel or the axle, so the meaning is unchanged."
+    },
+    {
+      "nr": 10,
+      "blok": "Die vrag word nie ligter nie",
+      "voor": "Jy tel hom op en hy voel",
+      "na": "Jy tel hom op, en hy voel",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining 'Jy tel hom op' and 'hy voel', each with its own subject and verb.",
+      "rede_keurder": "Two full clauses joined by 'en' take the AWS comma; the protected sentence after it is untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die as in die middel",
+      "voor": "Dan rol die wiel",
+      "na": "So rol die wiel",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Dan' reads as a time sequence; 'So' gives the intended result of the axle holding the wheel upright.",
+      "fout": "none",
+      "rede_keurder": "'Dan' already reads naturally as 'in that case' after the axle holds the wheel upright; 'So' is a lateral swap of a linking particle."
+    },
+    {
+      "nr": 5,
+      "blok": "Sleep teenoor rol",
+      "voor": "Merk een plek op 'n wiel met kryt.",
+      "na": "Merk met kryt een plek op 'n wiel.",
+      "soort": "woordorde",
+      "rede_vinder": "As written, 'n wiel met kryt' can be read as a wheel that has chalk on it; moving the instrument forward removes the ambiguity.",
+      "fout": "none",
+      "rede_keurder": "The original is the natural order and no reader takes 'n wiel met kryt' as a chalky wheel; the proposal is stiffer."
+    },
+    {
+      "nr": 8,
+      "blok": "Wanneer 'n wiel en 'n as goed werk",
+      "voor": "wip op en af elke keer as die wiel omdraai",
+      "na": "wip elke keer op en af as die wiel omdraai",
+      "soort": "woordorde",
+      "rede_vinder": "Keeping 'elke keer' next to its 'as'-clause separates them less and reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "The original order already flows, and the proposal actually separates 'elke keer' from its 'as'-clause, the opposite of its stated reason."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 475,
+  "woorde_na": 477,
+  "wanneer": "2026-10-23T21:35:50+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ccf39a7535269e29ec74a6aec7ab2f6d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f27dbfc81b36f03308fa204a7f9e22a4"
+}

@@ -1,0 +1,215 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat metaal vir ons doen",
+      "voor": "baie eienskappe wys op iets wat ons daarvan maak",
+      "na": "baie van sy eienskappe pas by iets wat ons daarvan maak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Eienskappe wys op iets wat ons maak' is vague and wooden; 'pas by' says plainly that a property suits a use, and 'baie' is kept.",
+      "fout": "'eienskappe wys op iets wat ons daarvan maak' is vague and wooden; properties do not 'point to' an object",
+      "rede_keurder": "'pas by' says plainly that a property suits a use, keeps 'baie' and adds no fact."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat metaal vir ons doen",
+      "voor": "Baie metale is hard en sterk en mense",
+      "na": "Baie metale is hard en sterk, en mense",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "missing AWS comma between two clauses with their own subject and verb; the run of 'en ... en' makes a reader stumble",
+      "rede_keurder": "Both halves are full clauses, so the AWS comma is required and also separates the list 'hard en sterk' from the clause join."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoekom 'n metaallepel kouer voel",
+      "voor": "Die metaal is nie werklik kouer nie en die verskil",
+      "na": "Die metaal is nie werklik kouer nie, en die verskil",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'Die metaal is nie ... nie' and 'die verskil sit ...' each have their own subject and verb."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoekom 'n metaallepel kouer voel",
+      "voor": "Jou hand voel daardie hitte weggaan en noem dit koud",
+      "na": "Jou hand voel hoe daardie hitte weggaan, en jy noem dit koud",
+      "soort": "sinsbou",
+      "rede_vinder": "A hand cannot 'name' something, so the subject of 'noem' should be 'jy'; 'voel hoe' is the natural construction, and the comma follows the AWS; 'hitte' is kept.",
+      "fout": "a hand cannot name something; 'voel daardie hitte weggaan' is a stiff construction",
+      "rede_keurder": "'voel hoe ... weggaan' is the natural construction and 'jy noem dit koud' gives 'noem' a proper subject; the heat flow, its direction and 'hitte' are unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoekom 'n metaallepel kouer voel",
+      "voor": "Koue kom nie by jou hand in nie en net hitte beweeg",
+      "na": "Koue kom nie by jou hand in nie, en net hitte beweeg",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'Koue kom nie ... nie' and 'net hitte beweeg' each have their own subject and verb."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat 'n magneet aantrek",
+      "voor": "Party vlekvrye staal word glad nie",
+      "na": "Party soorte vlekvrye staal word glad nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Party' with an uncountable material reads awkwardly; 'party soorte' is natural and keeps the meaning.",
+      "fout": "'party' with an uncountable material reads awkwardly",
+      "rede_keurder": "'party soorte vlekvrye staal' is natural and states the same claim, since it is the kind of stainless steel that decides whether a magnet attracts it."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat 'n magneet aantrek",
+      "voor": "Koper en aluminium word nie aangetrek nie en goud en silwer ook nie",
+      "na": "Koper, aluminium, goud en silwer word nie aangetrek nie",
+      "soort": "sinsbou",
+      "rede_vinder": "The trailing 'en goud en silwer ook nie' stacks three 'en's; one list says the same thing more clearly.",
+      "fout": "three stacked 'en's in one sentence read clumsily",
+      "rede_keurder": "One list says exactly the same four metals are not attracted, more clearly and in fewer words."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat 'n magneet aantrek",
+      "voor": "aangetrek word, en nie watter metaal",
+      "na": "aangetrek word en nie watter metaal",
+      "soort": "leestekens",
+      "rede_vinder": "The part after 'en' has no subject and verb of its own, so the AWS puts no comma before it.",
+      "fout": "comma before 'en' where the second part is elliptical and has no subject and verb of its own",
+      "rede_keurder": "Under the AWS rule the house follows, no comma goes before 'en' between parts of one sentence; the meaning is unchanged."
+    },
+    {
+      "nr": 9,
+      "blok": "Roes op yster en staal",
+      "voor": "Los 'n stuk yster in die reën en 'n rooibruin",
+      "na": "Los 'n stuk yster in die reën, en 'n rooibruin",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two main clauses.",
+      "fout": "missing AWS comma between two main clauses; without it 'die reën en 'n rooibruin laag' can be misread as one phrase",
+      "rede_keurder": "The imperative clause and 'n rooibruin laag vorm' are two full clauses, and the comma prevents a stumble."
+    },
+    {
+      "nr": 10,
+      "blok": "Roes op yster en staal",
+      "voor": "Droë yster in 'n kas roes nie en yster",
+      "na": "Droë yster in 'n kas roes nie, en yster",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'Droë yster ... roes nie' and 'yster onder water ... roes ook nie' each have their own subject and verb."
+    },
+    {
+      "nr": 11,
+      "blok": "Roes op yster en staal",
+      "voor": "Staal word van yster gemaak en 'n staalhek",
+      "na": "Staal word van yster gemaak, en 'n staalhek",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'Staal word ... gemaak' and 'n staalhek roes' each have their own subject and verb."
+    },
+    {
+      "nr": 12,
+      "blok": "Roes op yster en staal",
+      "voor": "Roes skilfer af en dan roes",
+      "na": "Roes skilfer af, en dan roes",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'Roes skilfer af' and 'dan roes die yster daaronder ook' each have their own subject and verb."
+    },
+    {
+      "nr": 13,
+      "blok": "Roes op yster en staal",
+      "voor": "Verf lê bo-op en 'n krap",
+      "na": "Verf lê bo-op, en 'n krap",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "missing AWS comma between two full clauses",
+      "rede_keurder": "'Verf lê bo-op' and 'n krap laat ... roes' each have their own subject and verb."
+    },
+    {
+      "nr": 14,
+      "blok": "Metale wat vlek en metale wat blink bly",
+      "voor": "Silwer word met tyd donker van sekere gasse",
+      "na": "Silwer word mettertyd donker deur sekere gasse",
+      "soort": "anglisisme",
+      "rede_vinder": "'Met tyd' is a calque of 'with time'; Afrikaans says 'mettertyd', and 'deur' names the cause more clearly than 'van'.",
+      "fout": "'met tyd' is a calque of 'with time'; Afrikaans says 'mettertyd'",
+      "rede_keurder": "'mettertyd' fixes the calque, and 'deur' still names the gases as the cause of the darkening, so who does what is unchanged."
+    },
+    {
+      "nr": 16,
+      "blok": "Waarvoor ons metaal gebruik",
+      "voor": "goud bly blink en silwer word net dof",
+      "na": "goud bly blink, en silwer word net dof",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "fout": "missing AWS comma between two clauses with their own subject and verb",
+      "rede_keurder": "'goud bly blink' and 'silwer word net dof' are two full clauses."
+    },
+    {
+      "nr": 17,
+      "blok": "Waarvoor ons metaal gebruik",
+      "voor": "staal dra groot gewig",
+      "na": "staal dra swaar gewig",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans speaks of 'swaar gewig', not 'groot gewig'.",
+      "fout": "'groot gewig dra' leans towards the figurative idiom 'to carry great weight' (to be important)",
+      "rede_keurder": "'swaar gewig' is the natural literal collocation and keeps the meaning that steel bears heavy loads."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 15,
+      "blok": "Waarvoor ons metaal gebruik",
+      "voor": "slyt nie gou nie",
+      "na": "verslyt nie gou nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Verslyt' is the usual standard form for wearing away; 'slyt' reads dated.",
+      "fout": "none",
+      "rede_keurder": "'slyt' is current standard Afrikaans alongside 'verslyt', so this is a lateral swap."
+    },
+    {
+      "nr": 18,
+      "blok": "roes",
+      "voor": "wanneer lug en water bykom",
+      "na": "wanneer lug en water daarby uitkom",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Bykom' alone is vague; 'daarby uitkom' matches the study text's 'by die yster uitkom' and is clearer for Grade 5.",
+      "fout": "none",
+      "rede_keurder": "This rewords a glossary definition, and 'wanneer lug en water bykom' is already idiomatic Afrikaans for air and water reaching the iron."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 19,
+      "blok": "vlek",
+      "voor": "metaal met tyd donker en dof",
+      "na": "metaal mettertyd donker en dof",
+      "soort": "anglisisme",
+      "rede_vinder": "'Met tyd' is a calque of 'with time'; Afrikaans says 'mettertyd'.",
+      "fout": "'met tyd' is a calque of 'with time'; Afrikaans says 'mettertyd'",
+      "rede_keurder": "The fault is real, but it sits in the glossary definition of 'vlek', which may be shared word for word across lessons and changes only through the writer.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Metale wat vlek en metale wat blink bly",
+      "teks": "Net yster roes, maar lug en water verander ook baie ander metale.",
+      "rede": "Read alone, 'Net yster roes' seems to leave out steel, which the previous block says rusts too; the earlier block explains steel is made from iron, so this is probably fine, but the writer may want to check that a learner cannot read it as a contradiction. Not changed because it touches content."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 546,
+  "woorde_na": 546,
+  "wanneer": "2026-10-23T20:37:36+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:01a0a3c6ba6a18f6ade066c2d748cd61",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:53c633953a3b7e3651dd9a82e633ee44"
+}

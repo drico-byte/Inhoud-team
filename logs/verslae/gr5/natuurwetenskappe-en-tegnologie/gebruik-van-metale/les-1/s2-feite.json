@@ -1,368 +1,278 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Hoekom ons metaal kies",
   "kaps_punt": "metale is nuttig as gevolg van hulle spesiale eienskappe - metale gelei hitte; sommige metale is magneties, en 'n paar is nie; net yster roes (sommige metale vlek en word dof); metale word gebruik vir die maak dinge soos munte, draad, juwele, meubels, geboue en brûe, motors, kombuisgereedskap, dakke",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "Mense kies metaal vir 'n rede: baie eienskappe wys op iets wat ons daarvan maak.",
+      "bewering": "Baie metale is hard en sterk, en mense bou daarom meubels, geboue en brûe daarvan.",
       "blok": "Wat metaal vir ons doen",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte volledig herondersoek, want dit is die sin wat verander het. Die algemene bewering - dat materiaal vir 'n produk gekies word volgens die eienskappe wat die toepassing vereis - word gestaaf deur https://en.wikipedia.org/wiki/Material_selection ('Systematic selection of the best material for a given application begins with properties and costs of candidate materials') en https://thermalprocessing.com/exploring-the-impact-of-thermal-conductivity-in-material-choice/ (hoë geleiding vir kookgerei, lae geleiding vir isolasie). Die vernouing van 'elke' na 'baie' is voldoende en die sin bots nie meer met die les se eie inhoud nie: van die vyf eienskappe wat die les leer, wys hardheid/sterkte (meubels, geboue, brûe, munte, draad, dakke), hittegeleiding (potte en panne) en goud se nie-vlek (juwele) wel op iets wat gemaak word, terwyl roes en vlek op niks gemaakte wys nie en magnetisme op 'n sorteertaak eerder as 'n produk. 'Baie' is dus waar waar 'elke' vals was, en die sin dra steeds sy eie werk: dit stel 'n doelbewuste keuse ('vir 'n rede') wat die res van die blok en die lysblok dan een vir een uitwerk."
+      "bron": "Wikipedia 'Steel' (https://en.wikipedia.org/wiki/Steel) en chemistryexplained.com/St-Te/Steel.html: staal as die hoofmateriaal vir strukture, brûe en geboue weens sy sterkte.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Baie metale is hard en sterk en mense bou daarom meubels, geboue en brûe daarvan.",
+      "bewering": "Hitte beweeg ook maklik deur metaal. Die stoof se hitte kom deur die pot se bodem by die kos uit. Kombuisgereedskap soos potte en panne is daarom dikwels van metaal.",
       "blok": "Wat metaal vir ons doen",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte herondersoek saam met die res van die veranderde blok. Struktuurstaal se sterkte-tot-gewig-verhouding is juis waarom dit die geraamte van geboue en brûe vorm: https://www.deltasteel.com/role-steel-bridge-construction/ en https://cicconstruction.com/blog/structural-steel-brings-strength-durability-and-versatility-to-construction/. Die kwantifiseerder 'baie' (nie 'alle') is korrek, want sagte metale soos lood en suiwer goud is werklike uitsonderings."
+      "bron": "makeitfrommetal.com/why-metal-feels-cold-to-the-touch-and-what-to-do-about-it en tec-science.com (?p=7687): metaal is 'n goeie hittegeleier, hout 'n swak een; wonderopolis.org/wonder/what-does-a-conductor-do: potte is van metaal omdat metaal hitte goed gelei.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Hitte beweeg ook maklik deur metaal.",
+      "bewering": "Baie potte het 'n handvatsel van hout of plastiek. Hitte beweeg nie so maklik deur hout en plastiek nie. Die pot self word baie warm, maar die handvatsel bly koel genoeg om vas te hou.",
       "blok": "Wat metaal vir ons doen",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte herondersoek. Metale het beduidend hoër termiese geleiding as hout en plastiek: https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ en https://www.samaterials.com/blog/thermal-conductivity-of-common-materials.html"
+      "bron": "wonderopolis.org/wonder/what-does-a-conductor-do en geniebook.com (good and poor conductors of heat): hout en plastiek gelei hitte swak (ongeveer 0,1-0,2 W/m·K), daarom word handvatsels daarvan gemaak. 'Koel genoeg om vas te hou' is versigtig genoeg geformuleer; 'n handvatsel word wel stadig warm as dit lank op 'n plaat staan, maar die les beweer nie anders nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Die stoof se hitte kom deur die pot se bodem by die kos uit.",
-      "blok": "Wat metaal vir ons doen",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte herondersoek. Geleiding deur die metaalbodem is die meganisme waarom kookgerei van metaal gemaak word: https://thermalprocessing.com/exploring-the-impact-of-thermal-conductivity-in-material-choice/ (koper word in kookgerei gebruik vir sy hitte-oordrag)."
-    },
-    {
-      "bewering": "Kombuisgereedskap soos potte en panne is daarom dikwels van metaal.",
-      "blok": "Wat metaal vir ons doen",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte herondersoek. https://thermalprocessing.com/exploring-the-impact-of-thermal-conductivity-in-material-choice/ en https://www.vaia.com/en-us/textbooks/physics/conceptual-physics-12-edition/chapter-16/problem-4-why-are-good-insulators-like-wood-used-in-the-hand/ - potte word van metaal gemaak juis omdat hitte maklik daardeur beweeg. 'Dikwels' is korrek gekwalifiseer; klei- en glaspotte bestaan."
-    },
-    {
-      "bewering": "Baie potte het 'n handvatsel van hout of plastiek.",
-      "blok": "Wat metaal vir ons doen",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte herondersoek. Hout- en plastiekhandvatsels op metaalpotte is standaardpraktyk juis omdat dit swak geleiers is: https://www.vaia.com/en-us/textbooks/physics/conceptual-physics-12-edition/chapter-16/problem-4-why-are-good-insulators-like-wood-used-in-the-hand/"
-    },
-    {
-      "bewering": "Hitte beweeg nie so maklik deur hout en plastiek nie.",
-      "blok": "Wat metaal vir ons doen",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte herondersoek. Hout en plastiek het termiese geleidingswaardes ordes laer as metaal: https://www.samaterials.com/blog/thermal-conductivity-of-common-materials.html en https://www.tec-science.com/thermodynamics/heat/human-thermal-response/"
-    },
-    {
-      "bewering": "Die pot self word baie warm, maar die handvatsel bly koel genoeg om vas te hou.",
-      "blok": "Wat metaal vir ons doen",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte herondersoek. Die handvatsel se lae geleiding is presies waarom dit koel genoeg bly om te hanteer: https://www.vaia.com/en-us/textbooks/physics/conceptual-physics-12-edition/chapter-16/problem-4-why-are-good-insulators-like-wood-used-in-the-hand/. Die sin beweer nie dat die handvatsel koud bly nie, net koel genoeg, wat die korrekte vorm is."
-    },
-    {
-      "bewering": "Haal 'n metaallepel en 'n houtlepel uit dieselfde laai en vat albei vas. Die metaallepel voel kouer, al is albei presies ewe warm.",
+      "bewering": "Die metaallepel voel kouer, al is albei presies ewe warm. Die metaal is nie werklik kouer nie, en die verskil sit in jou eie hand. Hitte beweeg vinnig uit jou hand in die metaal in. Jou hand voel hoe daardie hitte weggaan, en jy noem dit koud.",
       "blok": "Hoekom 'n metaallepel kouer voel",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek (die blok grens aan die veranderde blok se hitte-inhoud). https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ en https://www.iflscience.com/why-does-metal-feel-colder-than-wood-even-when-its-actually-the-same-temperature-76819 - albei bevestig dat voorwerpe in dieselfde vertrek dieselfde temperatuur het en dat net die aanvoeling verskil."
-    },
-    {
-      "bewering": "Die metaal is nie werklik kouer nie en die verskil sit in jou eie hand.",
-      "blok": "Hoekom 'n metaallepel kouer voel",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ stel dit dieselfde: die brein oordeel op grond van die hitte-vloei by die vel, nie op die voorwerp se werklike temperatuur nie. Die blok laat nie die indruk dat die verskil verbeel is nie, want die volgende sin gee dadelik die meganisme in die metaal (hitte beweeg vinnig daarin)."
-    },
-    {
-      "bewering": "Hitte beweeg vinnig uit jou hand in die metaal in.",
-      "blok": "Hoekom 'n metaallepel kouer voel",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. https://www.tec-science.com/thermodynamics/heat/human-thermal-response/ en https://intofuture.org/ie-conduction.html"
-    },
-    {
-      "bewering": "Jou hand voel daardie hitte weggaan en noem dit koud.",
-      "blok": "Hoekom 'n metaallepel kouer voel",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. 'A heat flow directed away from our skin is perceived as cold' - https://www.tec-science.com/thermodynamics/heat/human-thermal-response/"
+      "bron": "tec-science.com (?p=7687) en thermtest.com/thermal-resources/thermal-conductivity-experiments/touch-metal-touch-wood: voorwerpe by dieselfde temperatuur voel verskillend omdat hitte vinniger uit die vel in metaal in vloei; die vel neem die tempo van hitteverlies waar, nie die voorwerp se temperatuur nie.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Dit gebeur net wanneer die lepel kouer as jou hand is.",
       "blok": "Hoekom 'n metaallepel kouer voel",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte spesifiek teen die uitsonderingsgeval getoets. Die omgekeerde geval bevestig die 'net': by 40 grade voel metaal juis warmer as hout, want dan vloei die hitte na die vel toe - https://www.tec-science.com/thermodynamics/heat/human-thermal-response/. Die eksklusiwiteit is dus korrek en nie 'n oorbewering nie."
+      "bron": "tec-science.com (?p=7687): die effek draai om by hoë temperature - dan voel metaal warmer as hout by dieselfde temperatuur. Die 'net wanneer' hou dus.",
+      "tipe": "superlatief"
     },
     {
-      "bewering": "Koue kom nie by jou hand in nie en net hitte beweeg.",
+      "bewering": "Koue kom nie by jou hand in nie. Net hitte beweeg.",
       "blok": "Hoekom 'n metaallepel kouer voel",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte hersoek. Koue is nie 'n stof wat vloei nie; die sensasie is die rigting en grootte van die hittevloei - https://www.tec-science.com/thermodynamics/heat/human-thermal-response/. Dit is die standaard-regstelling van die algemene wanbegrip en is korrek gestel."
+      "bron": "tec-science.com (?p=7687) en makeitfrommetal.com: hitte vloei van die warmer hand na die kouer voorwerp; 'koud' is die gevoel van hitte wat weggaan. Geen bron beskryf 'koue' as iets wat vloei nie.",
+      "tipe": "superlatief"
     },
     {
       "bewering": "'n Magneet trek yster en die meeste staal aan.",
       "blok": "Wat 'n magneet aantrek",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Yster is ferromagneties en die oorgrote meerderheid staal (koolstofstaal, ferritiese vlekvrye staal) is magneties: https://www.metalsupermarkets.com/is-stainless-steel-magnetic/ en https://www.eclipsemagnetics.com/resources/guides/are-all-stainless-steels-magnetic/. Die kwantifiseerder 'die meeste' is die korrekte vorm, want austenitiese vlekvrye staal is die werklike uitsondering."
+      "bron": "worldsteel (via ajot.com, 2024-totale): wêreldwye ru-staalproduksie 1 882,6 Mt in 2024; worldstainless (via mysteel.net): vlekvrye staal 62,6 Mt in 2024, dus rofweg 3% van alle staal, en net 'n deel daarvan is nie-magneties. Gewone (koolstof)staal is ferromagneties (eclipsemagnetics.com/resources/is-stainless-steel-magnetic). 'Die meeste' hou ruim.",
+      "tipe": "superlatief"
     },
     {
-      "bewering": "Party vlekvrye staal word glad nie aangetrek nie.",
+      "bewering": "Party soorte vlekvrye staal word glad nie aangetrek nie.",
       "blok": "Wat 'n magneet aantrek",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte hersoek. Austenitiese grade 304 en 316 is nie magneties nie weens hul vlakgesentreerde kubiese struktuur: https://www.scientificamerican.com/article/why-dont-magnets-work-on/ en https://www.microgroup.com/understand-magnetic-properties-304-316-stainless-steel/. 'Party' is korrek - ferritiese en martensitiese vlekvrye staal is wel magneties."
+      "bron": "metalsupermarkets.com/is-stainless-steel-magnetic en eclipsemagnetics.com/resources/are-all-stainless-steels-magnetic: austenitiese grade (304, 316) is in hul uitgegloeide toestand nie-magneties; ferritiese en martensitiese grade is magneties. 'Glad nie' is effens sterk - koudbewerkte of gesweisde 304 kan swak aangetrek word - maar 'party soorte' maak die bewering verdedigbaar.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Koper en aluminium word nie aangetrek nie en goud en silwer ook nie.",
+      "bewering": "Koper, aluminium, goud en silwer word nie aangetrek nie. Nie alle metale is dus magneties nie.",
       "blok": "Wat 'n magneet aantrek",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Al vier is nie-ferromagneties (koper, goud en silwer diamagneties, aluminium swak paramagneties) en word in die praktyk nie deur 'n magneet aangetrek nie: https://www.meadmetals.com/blog/what-metals-are-magnetic en https://www.stanfordmagnets.com/does-gold-magnetize.html"
+      "bron": "supermagnete.fi/faq/Questions-and-answers-about-ferromagnetic-substances en scienceabc.com (is aluminum magnetic): koper, goud en silwer is diamagneties (baie swak afgestoot); aluminium is paramagneties, maar die aantrekking is veels te klein om met 'n gewone magneet te merk. Geeneen is ferromagneties nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Om metaal te wees beteken dus nie om magneties te wees nie.",
+      "bewering": "'n Magneet toets nie of iets metaal is nie. Hy wys net of daardie ding aangetrek word en nie watter metaal dit is nie.",
       "blok": "Wat 'n magneet aantrek",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Slegs yster, nikkel, kobalt en hul legerings word sterk aangetrek; die meeste ander metale nie: https://www.meadmetals.com/blog/what-metals-are-magnetic"
+      "bron": "Volg uit die bronne hierbo (supermagnete.fi; eclipsemagnetics.com): baie metale word nie aangetrek nie, en verskillende metale (yster, staal, sommige vlekvrye staal) word almal aangetrek, dus identifiseer 'n magneet nie die metaal nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "'n Magneet toets nie of iets metaal is nie. Hy wys net of daardie ding aangetrek word, en nie watter metaal dit is nie.",
+      "bewering": "Hou 'n magneet teen 'n staalspyker en 'n koperdraad: die magneet trek die spyker aan, maar glad nie die draad nie.",
       "blok": "Wat 'n magneet aantrek",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte hersoek. Dit volg direk uit die vorige twee bevestigings: 'n magneet skei ferromagnetiese van nie-ferromagnetiese materiaal en onderskei nie tussen metaalsoorte nie - https://www.okonrecycling.com/industrial-scrap-metal-recycling/steel-and-aluminum/scrap-electromagnet/ (die magneet skei ysterhoudend van nie-ysterhoudend; die nie-ysterhoudende metale word daarna afsonderlik gesorteer)."
-    },
-    {
-      "bewering": "Hou 'n magneet teen 'n staalspyker en 'n koperdraad: die magneet trek die spyker aan en die draad glad nie.",
-      "blok": "Wat 'n magneet aantrek",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Spykers is koolstofstaal en dus magneties (https://www.metalsupermarkets.com/is-stainless-steel-magnetic/ oor koolstofstaal se ferritiese struktuur); koper word nie aangetrek nie (https://stainless-steelco.com/is-copper-magnetic/). Die demonstrasie werk soos beskryf."
+      "bron": "supermagnete.fi (koper diamagneties, nie aangetrek nie); gewone staalspykers is koolstofstaal en ferromagneties (eclipsemagnetics.com).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "By 'n skrootwerf tel 'n groot magneet die yster en staal uit die hoop op.",
       "blok": "Wat 'n magneet aantrek",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek, en spesifiek teen die blok se eie teenvoorbeeld ('party vlekvrye staal word glad nie aangetrek nie') gehou. Skrootwerf-elektromagnete lig juis die ysterhoudende metaal - staal en gietyster - uit die hoop en laat die nie-ysterhoudende agter: https://www.okonrecycling.com/industrial-scrap-metal-recycling/steel-and-aluminum/scrap-electromagnet/ en https://www.kinocranes.com/how-are-electromagnets-used-in-scrap-yards/. Die sin oorspan nie, want die blok het drie sinne vroeër reeds 'die meeste staal' gestel."
+      "bron": "thenational.academy (applications of electromagnets) en magnetics.com/knowledge-center/articles/scrap-magnets-deep-dive: skrootwerwe gebruik groot elektromagnete wat net yster en staal optel; aluminium en koper bly agter.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Los 'n stuk yster in die reën en 'n rooibruin laag vorm stadig daarop. Ons noem daardie brokkelrige laag roes.",
+      "bewering": "Los 'n stuk yster in die reën, en 'n rooibruin laag vorm stadig daarop. Ons noem daardie brokkelrige laag roes.",
       "blok": "Roes op yster en staal",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Roes is 'n gewoonlik rooierig-bruin ysteroksied wat vorm wanneer yster met suurstof en water reageer, en dit is bros en skilferig: https://en.wikipedia.org/wiki/Rust en https://www.britannica.com/science/How-Does-Metal-Rust"
+      "bron": "Wikipedia 'Rust' (https://en.wikipedia.org/wiki/Rust): roes is 'n gewoonlik rooibruin ysteroksied wat vorm wanneer yster en suurstof in die teenwoordigheid van water reageer; Live Science (livescience.com/chemistry/why-doesn-t-stainless-steel-rust): ysteroksied is los gepak en poreus.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Roes vorm net wanneer lug en water albei by die yster uitkom.",
+      "bewering": "Roes vorm net wanneer lug en water albei by die yster uitkom. Droë yster in 'n kas roes nie, en yster onder water sonder lug roes ook nie.",
       "blok": "Roes op yster en staal",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte teen die uitsonderingslys getoets. Beide suurstof en water word vereis; verwyder een en die reaksie stop: https://en.wikipedia.org/wiki/Rust en https://www.britannica.com/science/How-Does-Metal-Rust ('Iron metal is relatively unaffected by pure water or by dry oxygen'). Waterdamp in vogtige lug tel as die watervereiste, wat die stelling nie weerspreek nie."
+      "bron": "Royal Society of Chemistry, 'What causes iron to rust?' (https://edu.rsc.org/experiments/what-causes-iron-to-rust/434.article): 'n spyker in gekookte water onder olie (geen lug) en een in droë lug met kalsiumchloried roes nie; net een met lug en water roes. 'Lug' staan hier vir die suurstof daarin, wat op Graad 5 aanvaarbaar is.",
+      "tipe": "superlatief"
     },
     {
-      "bewering": "Droë yster in 'n kas roes nie en yster onder water sonder lug roes ook nie.",
+      "bewering": "Maar gewone water soos kraanwater het lug in. 'n Ysterspyker in 'n glas kraanwater roes dus wel.",
       "blok": "Roes op yster en staal",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Britannica stel albei helftes direk: yster word betreklik nie geraak deur suiwer water of deur droë suurstof nie - https://www.britannica.com/science/How-Does-Metal-Rust. Dit is ook die standaard-driebuisproef vir hierdie vlak."
+      "bron": "Metrohm-toepassingsnota AN-I-030 (metrohm.com): kraanwater het ongeveer 11,5 mg/L opgeloste suurstof; RSC-eksperiment hierbo: water moet gekook word om die lug te verwyder, en 'n spyker in gewone water roes.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Staal word van yster gemaak en 'n staalhek roes daarom ook.",
+      "bewering": "Staal word van yster gemaak, en 'n staalhek roes daarom ook.",
       "blok": "Roes op yster en staal",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Staal is yster gelegeer met koolstof (https://www.steel.org/steel-technology/steel-production/) en roes word gedefinieer as die korrosie van elementêre yster en sy legerings soos staal (https://en.wikipedia.org/wiki/Rust). Die meganisme wat die les gee, is korrek, en dit is presies wat 'Net yster roes' in die volgende blok konsekwent hou."
+      "bron": "Wikipedia 'Steel' (https://en.wikipedia.org/wiki/Steel): staal is 'n allooi van yster met koolstof; Wikipedia 'Rust': roes is die korrosie van yster en sy allooie soos staal.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Roes skilfer af en dan roes die yster daaronder ook.",
+      "bewering": "Roes skilfer af, en dan roes die yster daaronder ook.",
       "blok": "Roes op yster en staal",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Roes bied geen passiverende beskerming nie, anders as aluminium, koper en tin se oksiedlae, sodat vars yster blootgestel word en die korrosie voortgaan: https://en.wikipedia.org/wiki/Rust"
+      "bron": "Live Science (livescience.com/chemistry/why-doesn-t-stainless-steel-rust) en Scientific American ('Why doesn't stainless steel rust?'): ysteroksied is los en poreus en laat water en suurstof deur na die metaal daaronder, anders as die digte chroomoksiedlaag op vlekvrye staal.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Mense verf daarom dakke, brûe en motors om lug en water weg te hou.",
+      "bewering": "Mense verf daarom dakke, brûe en motors om lug en water weg te hou. Verf lê bo-op, en 'n krap laat die staal daaronder roes.",
       "blok": "Roes op yster en staal",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek, met Suid-Afrikaanse bronne vir die plaaslike praktyk: https://www.abe.co.za/how-to-paint-corrugated-metal-roofing-roof-sheeting/ en https://rhinoluxe.co.za/blogs/roof-paint-protective-coatings-consulting/best-paint-metal-ibr-corrugated-roof-south-africa bevestig dat sinkplaat- en IBR-dakke hier geverf word juis om roes te keer; die algemene meganisme (verf as versperring teen suurstof en water) staan by https://www.reliance-foundry.com/blog/passivation"
-    },
-    {
-      "bewering": "Verf lê bo-op en 'n krap laat die staal daaronder roes.",
-      "blok": "Roes op yster en staal",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Verf is 'n aangebringde deklaag wat weggekrap kan word en dan herstel moet word, anders as vlekvrye staal se selfherstellende laag: https://www.imetllc.com/why-stainless-steel-is-corrosion-resistant/ en https://nova-trading.com/en/article/why-doesnt-stainless-steel-rust"
+      "bron": "RSC-eksperiment hierbo (roes vereis dat lug en water die yster bereik; 'n versperring keer dit); shop.machinemfg.com (does steel rust - causes, stages and prevention): verf as versperringslaag, en waar dit beskadig word, korrodeer die blootgestelde staal.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Vlekvrye staal roes nie maklik nie, want sy beskerming sit in die metaal self.",
       "blok": "Roes op yster en staal",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Bronne stel dit in dieselfde vorm: die beskerming is intrinsiek aan die metaal, want chroom in die legering (minstens 10,5%) vorm self 'n passiewe laag - https://www.imetllc.com/why-stainless-steel-is-corrosion-resistant/ ('the protection is intrinsic to the metal itself') en https://teamstainless.org/about-stainless/what-are-stainless-steels/ ('does not require any coating or other corrosion protection'). Die versagting 'nie maklik nie' is ook korrek, want vlekvrye staal kan onder sekere toestande wel roes."
+      "bron": "Live Science en Scientific American ('Why doesn't stainless steel rust?'): die chroom in die allooi vorm self 'n beskermende oksiedfilm wat homself herstel. 'In die metaal self' is verdedigbaar omdat die beskerming uit die metaal se eie chroom kom. Sien egter die begrip-inskrywing 'vlekvrye staal' hieronder.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Staal wat nie maklik roes nie. Sy beskerming sit in die metaal self en nie in 'n laag bo-op nie.",
+      "blok": "vlekvrye staal",
+      "status": "weerspreek",
+      "bron": "Live Science (livescience.com/chemistry/why-doesn-t-stainless-steel-rust) en Scientific American ('Why doesn't stainless steel rust?'): chroom reageer met suurstof en vorm 'n 'passiewe laag' chroomoksied OP die metaal se oppervlak, net 'n paar nanometer dik; dit is daardie laag wat suurstof van die yster af weghou, en dit herstel homself na 'n krap. Die beskerming IS dus 'n dun laag bo-op - net nie een wat iemand aangebring het nie. Die les se eie begrip 'vlek' beskryf ook 'n dun laag wat vassit, so 'n leerder wat die twee inskrywings saam lees, kry die teenoorgestelde van die werklike meganisme. 'n Begrip-inskrywing word alleen gelees, sonder die studieblok se kontras met verf.",
+      "regstelling": "Behou die eerste sin en vervang die tweede helfte se kontras: die beskerming kom uit die metaal self (die chroom wat in die staal gemeng is) en nie uit verf of 'n ander laag wat iemand bo-op sit nie. Moenie beweer dat daar geen laag is nie. As die skrywer die meganisme wil noem: die chroom maak vanself 'n baie dun beskermlaag wat weer vorm as dit gekrap word.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Net yster roes, maar lug en water verander ook baie ander metale.",
       "blok": "Metale wat vlek en metale wat blink bly",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte as die skerpste absolute stelling in die les getoets, insluitend teen die les se eie staalhek twee sinne vroeër. Roes is per definisie die korrosie van yster en sy legerings; ander metale korrodeer wel, maar daardie oksiede word nie roes genoem nie - https://en.wikipedia.org/wiki/Rust. Die vorige blok gee die skakel wat dit konsekwent hou (staal word van yster gemaak), so 'n leerder wat aaneen lees, kry nie twee stories nie."
+      "bron": "Wikipedia 'Rust' (https://en.wikipedia.org/wiki/Rust): 'roes' is die algemene term vir die korrosie van yster en sy allooie; ander metale korrodeer ook, maar hul produkte word nie gewoonlik roes genoem nie. Die Britannica-woordeboek (britannica.com/dictionary/rust) is losser ('iron or some other metal'), maar die moderne wetenskaplike gebruik en die KABV-punt self steun 'net yster'. Staal is ysterallooi, so die les se 'staal roes ook' bots nie hiermee nie.",
+      "tipe": "superlatief"
     },
     {
-      "bewering": "Silwer word met tyd donker van sekere gasse in die lug.",
+      "bewering": "Silwer word mettertyd donker deur sekere gasse in die lug. Dit gebeur selfs in 'n droë kas.",
       "blok": "Metale wat vlek en metale wat blink bly",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Swaelhoudende gasse, veral waterstofsulfied, laat silwersulfied as 'n donker laag vorm: https://www.chemistryworld.com/news/simulations-solve-mystery-of-why-silver-tarnishes/3010299.article. Die versigtige 'sekere gasse' is korrek - dit is nie suurstof wat die werk doen nie."
-    },
-    {
-      "bewering": "Dit gebeur selfs in 'n droë kas.",
-      "blok": "Metale wat vlek en metale wat blink bly",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Silwer is nie stabiel in die teenwoordigheid van waterstofsulfied nie, selfs by dele-per-triljoen-vlakke, en 'n donker vlekkielaag ontwikkel in museumbergings binne weke; vog versnel dit maar is nie 'n vereiste nie: https://www.chemistryworld.com/news/simulations-solve-mystery-of-why-silver-tarnishes/3010299.article. Dit is die kontras met roes wat die blok nodig het, en dit hou."
+      "bron": "Canadian Conservation Institute, 'Understanding how silver objects tarnish' (canada.ca/en/conservation-institute/.../understanding-silver-tarnish.html): vlek op silwer is silwersulfied, gevorm deur swaelhoudende gasse in die lug, veral waterstofsulfied; silwer vlek vinniger by hoër relatiewe humiditeit, maar die bladsy sê nie dat dit by lae humiditeit ophou nie. DTIC-verslag ADA196217: humiditeit versnel die tempo; die swaelgasse is die primêre oorsaak. 'Selfs in 'n droë kas' hou - stadiger, maar dit gebeur.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Ons sê die silwer vlek en word dof. Daardie donker laag op silwer is nie roes nie.",
       "blok": "Metale wat vlek en metale wat blink bly",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Die laag is silwersulfied, nie ysteroksied nie, en word vlek (tarnish) genoem: https://en.wikipedia.org/wiki/Tarnish en https://en.wikipedia.org/wiki/Rust"
+      "bron": "Canadian Conservation Institute (hierbo): die laag is silwersulfied, nie ysteroksied nie.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Goud bly blink en vlek nie in die lug nie.",
+      "bewering": "Goud bly blink en vlek nie in die lug nie. Juwele word daarom dikwels van goud en silwer gemaak.",
       "blok": "Metale wat vlek en metale wat blink bly",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte teen die uitsonderingslys getoets. Goud is 'n edelmetaal onderaan die reaktiwiteitsreeks en reageer nie met suurstof of vog in die alledaagse omgewing nie: https://www.bluenile.com/blog/diamonds-jewelry/does-gold-tarnish. Let op vir die mens se oog, nie 'n bevinding nie: goue juwele is gewoonlik 'n legering (9 kt, 18 kt) en die bymetale daarin kan wel vlek; die bewering self gaan egter oor die metaal goud en is so gestel korrek."
-    },
-    {
-      "bewering": "Juwele word daarom dikwels van goud en silwer gemaak.",
-      "blok": "Metale wat vlek en metale wat blink bly",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Goud se korrosiebestandheid en blywende glans is presies die rede waarom dit deur die geskiedenis heen vir juwele gebruik word: https://www.bluenile.com/blog/diamonds-jewelry/does-gold-tarnish. 'Dikwels' is korrek gekwalifiseer."
+      "bron": "bullionstar.com/blogs/gold-silver-101/does-gold-rust en atkinsonsbullion.com ('Does gold tarnish or rust?'): suiwer goud oksideer en vlek nie in lug en vog nie. Die bronne is handelaarsblogs, maar die chemie is eenstemmig en onomstrede. Kanttekening, nie as fout aangemeld nie: laekaraat-goudjuwele (bv. 9 karaat) kan effens dof word deur die ander metale daarin; die les se bewering gaan oor goud self en is so waar.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Kombuisgereedskap: hitte kom deur die pot by die kos uit.",
       "blok": "Waarvoor ons metaal gebruik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek saam met die openingsblok, want die lys is die blok wat die veranderde sin se eienskap-na-gebruik-verband uitwerk: https://thermalprocessing.com/exploring-the-impact-of-thermal-conductivity-in-material-choice/"
+      "bron": "Soos by 'Wat metaal vir ons doen' (wonderopolis.org; makeitfrommetal.com).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Munte: 'n harde metaal slyt nie gou nie.",
       "blok": "Waarvoor ons metaal gebruik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Muntmetale word gekies vir hardheid en slytweerstand omdat munte voortdurend hanteer word: https://www.tutorchase.com/answers/igcse/chemistry/why-are-certain-metals-used-in-making-coins. Vir die plaaslike geval bevestig https://www.samint.co.za/circulation-coins/ dat Suid-Afrikaanse omloopmunte van harde basismetaal-legerings en geplateerde staal gemaak word."
+      "bron": "South African Mint (https://en.wikipedia.org/wiki/South_African_Mint): SA-sirkulasiemunte word van koper, brons, nikkel, vlekvrye staal en geplateerde staal gemaak; bullionstar.com (Krugerrand-produkblad): koper word by goud gevoeg om die munt meer bestand teen slytasie te maak 'omdat koper harder as goud is'. Die verband tussen hardheid en slytasieweerstand word daarmee gesteun.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Draad vir 'n heining: staaldraad is sterk en breek nie maklik nie.",
       "blok": "Waarvoor ons metaal gebruik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Hoëtrekkrag-heiningdraad word van hoëkoolstofstaal gemaak met treksterkte bo 650 N/mm2 en 'n leeftyd van 25 tot 40 jaar: https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/agriculture-and-seafood/farm-management/structures-and-mechanization/300-series/307100-1_commonly_used_wire_for_agric_fences.pdf"
+      "bron": "Wikipedia 'Steel' (https://en.wikipedia.org/wiki/Steel): staal se hoë treksterkte is die rede vir sy gebruik in draad en strukture.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Juwele: goud bly blink en silwer word net dof.",
+      "bewering": "Juwele: goud bly blink, en silwer word net dof.",
       "blok": "Waarvoor ons metaal gebruik",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte hersoek. Die 'net dof' is korrek: vlek is selfbeperkend, net die boonste lae reageer en die laag beskerm die metaal daaronder, anders as roes wat afskilfer - https://en.wikipedia.org/wiki/Tarnish. Silwer word dus dof maar nie vernietig nie."
+      "bron": "bullionstar.com (goud vlek nie); Canadian Conservation Institute (silwer vlek, roes nie). Dieselfde kanttekening oor laekaraat-goud as hierbo.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Meubels: 'n stoel van metaal is hard en sterk.",
       "blok": "Waarvoor ons metaal gebruik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Staalmeubels word juis vir sterkte en duursaamheid gekies: https://strand-co.com/blogs/structural-steel-types-properties-construction-uses/"
+      "bron": "Wikipedia 'Steel' (https://en.wikipedia.org/wiki/Steel): sterkte en hardheid as staal se kerneienskappe.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "Geboue en brûe: staal dra groot gewig.",
+      "bewering": "Geboue en brûe: staal dra swaar gewig.",
       "blok": "Waarvoor ons metaal gebruik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Struktuurstaal se hoë sterkte-tot-gewig-verhouding laat dit swaar laste dra in geboue en brûe: https://www.deltasteel.com/industries-served/structural-steel-in-bridge-construction-and-infrastructure/"
+      "bron": "Wikipedia 'Steel' (https://en.wikipedia.org/wiki/Steel); chemistryexplained.com/St-Te/Steel.html: staal as struktuurmateriaal vir geboue en brûe.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Motors: verf hou lug en water van die staal af.",
       "blok": "Waarvoor ons metaal gebruik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Verf werk as 'n versperring wat suurstof en water van die staal weghou, en 'n beskadigde verflaag laat die staal daaronder roes: https://www.reliance-foundry.com/blog/passivation en https://en.wikipedia.org/wiki/Rust"
+      "bron": "RSC-eksperiment (edu.rsc.org/experiments/what-causes-iron-to-rust/434.article) en shop.machinemfg.com (does steel rust - prevention): 'n verflaag is 'n versperring teen suurstof en water.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Dakke: yster en staal is sterk, en verf hou die roes weg.",
       "blok": "Waarvoor ons metaal gebruik",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte met Suid-Afrikaanse bronne hersoek, want dit is 'n plaaslike gebruikspraktyk: https://www.abe.co.za/how-to-paint-corrugated-metal-roofing-roof-sheeting/ en https://www.home-dzine.co.za/diy/maintain-galvanised-roof.html - sinkplaat- en IBR-dakke word hier geverf en roes is die vernaamste vyand daarvan."
+      "bron": "Soos by 'Motors' (RSC; machinemfg.com). Kanttekening, nie as fout aangemeld nie: moderne 'sinkdakke' is eintlik gegalvaniseerde staal, en baie word deur 'n sinklaag eerder as verf beskerm; die les beweer nie dat verf die enigste beskerming is nie, en 'yster' vir dakplaat is gewone Suid-Afrikaanse spreektaal.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "eienskap: Iets wat 'n materiaal doen of is.",
-      "blok": "begrip: eienskap",
+      "bewering": "eienskap: Iets wat 'n materiaal doen of is. Jy ken 'n materiaal aan sy eienskappe saam uit.",
+      "blok": "eienskap",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek, en alleen gelees met die res van die les weggedink, want dit is die begrip wat die veranderde openingsin gebruik. 'n Eienskap is 'n kenmerk van 'n stof wat waargeneem of gemeet kan word - https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/03%3A_Matter_and_Energy/3.05%3A_Differences_in_Matter-_Physical_and_Chemical_Properties. Die tweeledige 'doen of is' dek sowel gedrag (gelei hitte, roes) as toestand (hard, blink), wat korrek is. Alleen gelees pas dit op geen ander begrip in die les nie."
-    },
-    {
-      "bewering": "eienskap: Jy ken 'n materiaal aan sy eienskappe saam uit.",
-      "blok": "begrip: eienskap",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek. Dit is die kombinasie van eienskappe wat 'n stof sy identiteit gee, nie een eienskap alleen nie: https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/03%3A_Matter_and_Energy/3.05%3A_Differences_in_Matter-_Physical_and_Chemical_Properties en https://openstax.org/books/chemistry-2e/pages/1-3-physical-and-chemical-properties. Let op vir die mens se oog, nie 'n bevinding nie: na die vernouing van die openingsin staan hierdie 'saam'-gedagte nou net hier in die begrip en nie meer in die studieteks self nie."
+      "bron": "Algemene betekenis van 'eienskap' (eng. property) van 'n materiaal - die kenmerke waaraan 'n materiaal herken en waarvolgens dit gekies word; Wikipedia 'Steel' gebruik die term so (sterkte, hardheid, geleiding). Die definisie is eenvoudig en nie vals nie.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "kombuisgereedskap: Die potte, panne en lepels waarmee 'n mens kos maak.",
-      "blok": "begrip: kombuisgereedskap",
+      "blok": "kombuisgereedskap",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek en alleen gelees. Kombuisgereedskap (ook kombuisgerei) is die gereedskap waarmee in die kombuis kos gemaak word - potte, panne en eetgerei: https://af.glosbe.com/en/af/utensils. Alleen gelees sluit die inskrywing niks verkeerds in nie."
+      "bron": "Woordbetekenis; strook met die les se eie gebruik en met wonderopolis.org (potte en panne van metaal). Geen feitelike risiko nie.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "magneties: Iets wat magneties is, word deur 'n magneet aangetrek.",
-      "blok": "begrip: magneties",
+      "blok": "magneties",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek en alleen gelees. Materiaal wat sterk deur 'n magneet aangetrek word, is ferromagneties - yster, nikkel, kobalt en hul legerings: https://www.meadmetals.com/blog/what-metals-are-magnetic en https://education.nationalgeographic.org/resource/magnetism/. Dit is die aanvaarde skoolomskrywing op hierdie vlak. Alleen gelees pas dit korrek op yster en die meeste staal en sluit koper, aluminium, goud en silwer uit, presies soos die les se magneetblok."
+      "bron": "supermagnete.fi (ferromagnetic substances FAQ): in alledaagse gebruik beteken 'magneties' ferromagneties, d.w.s. merkbaar aangetrek deur 'n magneet. Die streng fisika onderskei para- en diamagnetisme, maar die definisie is op Graad 5 nie vals nie en strook met die KABV-punt ('sommige metale is magneties').",
+      "tipe": "algemeen"
     },
     {
       "bewering": "roes: Die rooibruin laag wat op yster vorm wanneer lug en water bykom.",
-      "blok": "begrip: roes",
+      "blok": "roes",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek en alleen gelees. Roes is 'n gewoonlik rooierig-bruin ysteroksied wat vorm deur die reaksie van yster met suurstof in die teenwoordigheid van water of lugvog: https://en.wikipedia.org/wiki/Rust. Alleen gelees is die inskrywing waar; dit noem net nie staal nie, en die begrip 'staal' vul dit in ('van yster gemaak'), so 'n leerder wat net hierdie een naslaan, kry niks vals nie."
+      "bron": "Wikipedia 'Rust' (https://en.wikipedia.org/wiki/Rust); RSC-eksperiment (edu.rsc.org/experiments/what-causes-iron-to-rust/434.article).",
+      "tipe": "algemeen"
     },
     {
       "bewering": "staal: 'n Sterk metaal wat van yster gemaak word.",
-      "blok": "begrip: staal",
+      "blok": "staal",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek en alleen gelees. Staal is yster gelegeer met koolstof, gewoonlik minder as 1%: https://www.steel.org/steel-technology/steel-production/ en https://www.britannica.com/technology/blast-furnace. Alleen gelees pas dit op staal en op niks anders in die les nie."
+      "bron": "Wikipedia 'Steel' (https://en.wikipedia.org/wiki/Steel): 'n allooi van yster en koolstof; yster is altyd die hoofbestanddeel.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "vlekvrye staal: Staal wat nie maklik roes nie. Sy beskerming sit in die metaal self en nie in 'n laag bo-op nie.",
-      "blok": "begrip: vlekvrye staal",
+      "bewering": "vlek: Wanneer 'n dun laag 'n metaal mettertyd donker en dof maak. Die laag sit vas en skilfer nie af soos roes nie.",
+      "blok": "vlek",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Hierdie rondte hersoek en spesifiek alleen gelees, met die verfsin uit die studieblok weggedink. Bronne stel die kontras in dieselfde vorm: die beskerming is intrinsiek aan die metaal en vlekvrye staal het geen deklaag nodig nie - https://www.imetllc.com/why-stainless-steel-is-corrosion-resistant/ en https://teamstainless.org/about-stainless/what-are-stainless-steels/. Alleen gelees skei die inskrywing vlekvrye staal korrek van die twee ander roesbestande staalsoorte wat 'n leerder teenkom (geverfde en gegalvaniseerde staal), want by albei daardie twee sit die beskerming juis in 'n aangebringde laag bo-op. Vir die mens se oog, nie 'n bevinding nie: die chroom in die legering vorm wel 'n uiters dun passiewe laag op die oppervlak wat homself herstel as dit gekrap word, so 'laag bo-op' is waar van 'n aangebringde deklaag en nie van daardie selfgevormde film nie."
-    },
-    {
-      "bewering": "vlek: Wanneer 'n dun laag 'n metaal met tyd donker en dof maak. Die laag sit vas en skilfer nie af soos roes nie.",
-      "blok": "begrip: vlek",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Hierdie rondte hersoek en alleen gelees. Vlek is 'n dun oppervlaklaag wat selfbeperkend is: net die boonste lae reageer, die laag verseël en beskerm die metaal daaronder, anders as roes wat afskilfer en die korrosie laat voortgaan - https://en.wikipedia.org/wiki/Tarnish en https://en.wikipedia.org/wiki/Rust. Die kontras met roes is dus reg om, en alleen gelees pas die inskrywing op silwer se donker laag en nie per ongeluk op roes nie."
+      "bron": "Canadian Conservation Institute (hierbo): 'n vlekkie op silwer is 'n dun silwersulfiedlaag wat die silwer juis teen verdere vlek help beskerm - dit bly dus aan; Live Science: roes daarteenoor is los en poreus en skilfer.",
+      "tipe": "algemeen"
     }
   ],
-  "opsomming": "Die vernouing hou: met 'baie' in plaas van 'elke' is die openingsin nou waar teen die les se eie roes- en vlekblokke, en hy doen steeds sy werk deurdat hy metaal se gebruik as 'n beredeneerde keuse stel wat die res van die blok en die lysblok eienskap vir eienskap uitwerk; die veranderde blok is heeltemal herondersoek, sy bure is vir ontwrigting nagegaan en niks is gebreek nie, elke oorblywende absolute stelling ('net yster roes', 'roes vorm net wanneer lug en water albei bykom', 'dit gebeur net wanneer die lepel kouer as jou hand is', 'goud vlek nie') hou teen die werklike uitsonderings stand, en al sewe begrippe is alleen gelees en is elkeen alleen ook waar - twee punte is net vir die mens se oog aangeteken: die 'eienskappe saam'-gedagte leef nou net in die begrip 'eienskap' en nie meer in die studieteks nie, en goue juwele is gewoonlik 'n legering wat wel kan vlek, al is die bewering oor die metaal goud self korrek."
+  "opsomming": "Een fout: die begrip-inskrywing 'vlekvrye staal' sê die beskerming sit 'nie in 'n laag bo-op nie', maar vlekvrye staal word juis deur 'n baie dun chroomoksiedlaag op sy oppervlak beskerm wat uit die metaal se eie chroom vorm en homself herstel - die kontras moet met verf wees, nie met 'n laag nie; alles anders is bevestig, die les bevat geen vergelyking of analogie wat 'n kartering nodig het nie, en die eksklusiewe bewerings ('die meeste staal', 'net yster roes', 'net hitte beweeg', 'roes vorm net wanneer') hou almal."
 }

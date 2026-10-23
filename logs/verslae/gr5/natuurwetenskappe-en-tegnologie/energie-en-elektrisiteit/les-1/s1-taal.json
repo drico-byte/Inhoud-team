@@ -1,0 +1,209 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die energie sit al klaar in die flitslig",
+      "voor": "knoppie en die lig skyn",
+      "na": "knoppie, en die lig skyn",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses ('Jy druk ...' / 'die lig skyn ...').",
+      "rede_keurder": "Both clauses have their own subject and verb, so the AWS 2017 comma before 'en' is required."
+    },
+    {
+      "nr": 2,
+      "blok": "Die energie sit al klaar in die flitslig",
+      "voor": "Niks is by die muur ingeprop nie en geen draad loop weg nie.",
+      "na": "Niks is by die muur ingeprop nie, en geen draad loop daarheen nie.",
+      "soort": "idioom",
+      "rede_vinder": "'loop weg' reads as 'runs away'; the cord does not lead to the wall, and the two clauses need the AWS comma.",
+      "fout": "'geen draad loop weg nie' reads as a wire running away, and the two main clauses lack the AWS comma.",
+      "rede_keurder": "'daarheen' points back to the wall just named, so the sentence still says nothing connects the torch to the mains, and the comma is required."
+    },
+    {
+      "nr": 3,
+      "blok": "Sel of battery?",
+      "voor": "So praat die meeste mense en dit",
+      "na": "So praat die meeste mense, en dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'So praat die meeste mense' and 'dit is nie verkeerd nie' each have a subject and verb; the qualifier 'die meeste' is untouched."
+    },
+    {
+      "nr": 5,
+      "blok": "Sel of battery?",
+      "voor": "Die flitslig met twee selle",
+      "na": "'n Flitslig met twee selle",
+      "soort": "verwysing",
+      "rede_vinder": "No particular flashlight has been introduced, so the indefinite article reads correctly.",
+      "fout": "The definite article points to a particular torch with two cells that was never introduced.",
+      "rede_keurder": "The sentence states a general case, and the indefinite article reads naturally without changing the claim."
+    },
+    {
+      "nr": 8,
+      "blok": "Die drie dele van 'n stroombaan",
+      "voor": "Die sel is die deel waar die energie gestoor lê.",
+      "na": "Die sel is die deel waarin die energie gestoor is.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'waarin ... gestoor is' is the more natural construction than 'waar ... gestoor lê'.",
+      "fout": "'die deel waar die energie gestoor lê' is slightly wooden; 'waar' for a part rather than a place is loose.",
+      "rede_keurder": "'waarin ... gestoor is' says the same thing (the energy is stored inside the cell) in plainer, more exact Afrikaans."
+    },
+    {
+      "nr": 11,
+      "blok": "Die pad moet 'n kring wees",
+      "voor": "dan gaan die lampie dood",
+      "na": "dan gaan die lampie uit",
+      "soort": "register",
+      "rede_vinder": "'gaan dood' for a lamp is slang; 'gaan uit' is the standard expression for a light.",
+      "fout": "'die lampie gaan dood' is colloquial and suggests the bulb broke, which jars with the next sentence saying the bulb is still intact.",
+      "rede_keurder": "'gaan uit' is the standard expression for a light and removes the false hint of a broken bulb."
+    },
+    {
+      "nr": 12,
+      "blok": "Die pad moet 'n kring wees",
+      "voor": "nog energie oor en die lampie",
+      "na": "nog energie oor, en die lampie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'Die sel het nog energie oor' and 'die lampie is nog heel' each have a subject and verb."
+    },
+    {
+      "nr": 13,
+      "blok": "Wat die stroombaan doen",
+      "voor": "In 'n flitslig is dit net 'n kort entjie ver.",
+      "na": "In 'n flitslig hoef die energie net 'n kort entjie ver te gaan.",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' has no clear antecedent (the job, or the place where energy is needed).",
+      "fout": "'dit' has no clear antecedent; it could be the job or the place where energy is needed.",
+      "rede_keurder": "The proposal names the energy and the short distance it travels, which is what the original meant, so nothing is added."
+    },
+    {
+      "nr": 14,
+      "blok": "Wat die stroombaan doen",
+      "voor": "kom 'n deel van die energie uit as lig",
+      "na": "kom 'n deel van die energie as lig uit",
+      "soort": "woordorde",
+      "rede_vinder": "The separable particle 'uit' belongs at the end of the clause.",
+      "fout": "'kom ... uit as lig' puts the separable particle before the complement, which is spoken rather than written order.",
+      "rede_keurder": "'as lig uit' is standard word order and matches the next sentence's 'as hitte uit'."
+    },
+    {
+      "nr": 15,
+      "blok": "Wat die stroombaan doen",
+      "voor": "word ook warm en van die energie",
+      "na": "word ook warm, en van die energie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'Die lampie word ook warm' and 'van die energie kom dus as hitte uit' each have a subject and verb."
+    },
+    {
+      "nr": 16,
+      "blok": "Wanneer 'n sel pap raak",
+      "voor": "Elke keer wat die lampie skyn",
+      "na": "Elke keer as die lampie skyn",
+      "soort": "grammatika",
+      "rede_vinder": "'elke keer as' is the standard written conjunction; 'elke keer wat' is colloquial.",
+      "fout": "'elke keer wat' is colloquial and copies English 'every time that'.",
+      "rede_keurder": "'elke keer as' is the standard written conjunction, with the meaning unchanged."
+    },
+    {
+      "nr": 17,
+      "blok": "Wanneer 'n sel pap raak",
+      "voor": "die sel pap en die lampie bly donker",
+      "na": "die sel pap, en die lampie bly donker",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'is die sel pap' and 'die lampie bly donker' each have a subject and verb."
+    },
+    {
+      "nr": 18,
+      "blok": "Wanneer 'n sel pap raak",
+      "voor": "'n nuwe sel in en die flitslig werk weer",
+      "na": "'n nuwe sel in, en die flitslig werk weer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma between two main clauses.",
+      "rede_keurder": "'Dan sit 'n mens 'n nuwe sel in' and 'die flitslig werk weer' each have a subject and verb."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Sel of battery?",
+      "voor": "noem ons hulle saam 'n battery",
+      "na": "noem ons hulle 'n battery",
+      "soort": "woordkeuse",
+      "rede_vinder": "'saam' repeats 'saamwerk' in the same sentence and adds nothing.",
+      "fout": "none",
+      "rede_keurder": "'saam' carries meaning: the cells together, not each one, are called a battery, which is the point of the block."
+    },
+    {
+      "nr": 6,
+      "blok": "Sel of battery?",
+      "voor": "lyk na een stuk en bevat meer as een sel binne-in",
+      "na": "lyk soos een stuk en bevat meer as een sel binne-in",
+      "soort": "idioom",
+      "rede_vinder": "'lyk soos' expresses resemblance; 'lyk na' suggests likelihood.",
+      "fout": "none",
+      "rede_keurder": "'lyk na' for resemblance is standard Afrikaans and reads clearly here, so 'lyk soos' is a lateral move."
+    },
+    {
+      "nr": 7,
+      "blok": "sel",
+      "voor": "Party batterye lyk na een stuk en bevat meer as een sel.",
+      "na": "Party batterye lyk soos een stuk en bevat meer as een sel.",
+      "soort": "idioom",
+      "rede_vinder": "'lyk soos' expresses resemblance; keeps the glossary in step with the study block.",
+      "fout": "none",
+      "rede_keurder": "A lateral move in a glossary definition, and dropping it keeps the entry in step with the study block, where change 6 was also dropped."
+    },
+    {
+      "nr": 9,
+      "blok": "Die drie dele van 'n stroombaan",
+      "voor": "Die ander loop van die lampie",
+      "na": "Die ander draad loop van die lampie",
+      "soort": "verwysing",
+      "rede_vinder": "Naming the wire makes the reference clear after the previous sentence ends on 'die lampie'.",
+      "fout": "none",
+      "rede_keurder": "'Die een draad ... Die ander' is a natural paired construction that is not ambiguous, and adding 'draad' only repeats the noun."
+    },
+    {
+      "nr": 10,
+      "blok": "Die pad moet 'n kring wees",
+      "voor": "vorm so 'n hele kring",
+      "na": "vorm saam 'n hele kring",
+      "soort": "woordkeuse",
+      "rede_vinder": "'so 'n' reads as 'such a', which points back to nothing; 'saam' says the parts form it together.",
+      "fout": "none",
+      "rede_keurder": "'so 'n hele kring' points back to the path that begins and ends at the cell in the previous sentence, and 'saam' would lose that link."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 19,
+      "blok": "gloeilamp",
+      "voor": "'n Lampie met 'n dun draadjie binne wat gloei en lig gee.",
+      "na": "'n Lampie waarin 'n dun draadjie gloei en lig gee.",
+      "soort": "sinsbou",
+      "rede_vinder": "'binne wat' is awkward and loose; 'waarin' says the same thing cleanly.",
+      "fout": "'met 'n dun draadjie binne wat gloei' is loose; 'binne' dangles and 'wat' sits awkwardly after it.",
+      "rede_keurder": "The fault is real, but this is a glossary definition and rewording one is the writer's job, not a language agent's.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 480,
+  "woorde_na": 483,
+  "wanneer": "2026-10-23T21:14:14+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:481af3c3f11338aaafd9ceef7b14c449",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:cea10649ba73b188225c9d177d915c84"
+}

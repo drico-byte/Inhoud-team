@@ -1,0 +1,143 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Modder wat gaan lê",
+      "voor": "helderder en die meeste",
+      "na": "helderder, en die meeste",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses ('Die water bo is ...' / 'die meeste van die modder lê ...').",
+      "rede_keurder": "Both sides of 'en' have their own subject and verb, so the AWS 2017 comma is required; the protected 'die meeste' is untouched."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar die korrels vandaan kom",
+      "voor": "breek stadig af en daar bly",
+      "na": "breek stadig af, en daar bly",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses ('Groot rotse breek ...' / 'daar bly ... oor').",
+      "rede_keurder": "Two clauses with their own subject and verb are joined by 'en', so the comma is required."
+    },
+    {
+      "nr": 3,
+      "blok": "Waar die korrels vandaan kom",
+      "voor": "tot rus en bly hulle lê",
+      "na": "tot rus en bly daar lê",
+      "soort": "sinsbou",
+      "rede_vinder": "The repeated pronoun with inversion after 'en' reads clumsily; the shared subject carries over.",
+      "fout": "'en bly hulle lê' repeats the subject as a pronoun with an inversion that makes the reader stumble.",
+      "rede_keurder": "The shared subject carries over and 'daar' keeps the location, so the clause reads naturally with the same meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Die lae bou op en word hard",
+      "voor": "keer op keer en daar kom al hoe meer lae.",
+      "na": "keer op keer, en daar kom al hoe meer lae by.",
+      "soort": "idioom",
+      "rede_vinder": "AWS comma between two full clauses, and 'bykom' is the idiomatic verb for layers being added.",
+      "fout": "Missing AWS comma between two full clauses, and 'daar kom al hoe meer lae' lacks the natural particle for layers being added.",
+      "rede_keurder": "The comma is required and 'bykom' is the idiomatic verb for more layers being added, without moving the meaning."
+    },
+    {
+      "nr": 5,
+      "blok": "Die lae bou op en word hard",
+      "voor": "lae vat gewoonlik",
+      "na": "lae duur gewoonlik",
+      "soort": "register",
+      "rede_vinder": "'Vat' for duration is colloquial; 'duur' is the standard written form.",
+      "fout": "'vat' for a duration is colloquial in written study text.",
+      "rede_keurder": "'duur' is the standard written verb for how long something takes, and the protected 'gewoonlik' stays intact."
+    },
+    {
+      "nr": 7,
+      "blok": "Die strepe wat jy kan sien",
+      "voor": "die lae self en",
+      "na": "die lae self, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb; the protected wording after it is untouched.",
+      "fout": "Missing AWS comma between two full clauses ('Daardie strepe is ...' / 'die meeste lae was ...').",
+      "rede_keurder": "Both clauses have their own subject and verb, and the protected wording after the comma is left exactly as it is."
+    },
+    {
+      "nr": 8,
+      "blok": "Drie gesteentes uit sulke lae",
+      "voor": "Dit breek in dun",
+      "na": "Leiklip breek in dun",
+      "soort": "verwysing",
+      "rede_vinder": "'Dit' follows a sentence about 'daardie lae' and could point to the layers; naming leiklip removes the doubt.",
+      "fout": "'Dit' directly follows a sentence about 'daardie lae' and a Grade 5 reader may attach it to the layers.",
+      "rede_keurder": "Naming leiklip removes the ambiguous reference without changing what is said."
+    },
+    {
+      "nr": 9,
+      "blok": "Drie gesteentes uit sulke lae",
+      "voor": "Kalksteen is 'n gesteente wat sagter is as baie ander gesteentes.",
+      "na": "Kalksteen is sagter as baie ander gesteentes.",
+      "soort": "sinsbou",
+      "rede_vinder": "The relative clause is wooden and repeats 'gesteente'; the direct form says the same.",
+      "fout": "The relative clause is wooden and repeats 'gesteente' in one sentence.",
+      "rede_keurder": "The direct comparison says exactly the same, and that kalksteen is a gesteente is already stated in the paragraph."
+    },
+    {
+      "nr": 10,
+      "blok": "Waarvoor mense hulle gebruik",
+      "voor": "uit die grond en bouers",
+      "na": "uit die grond, en bouers",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses ('Sandsteen kom ...' / 'bouers stapel ...').",
+      "rede_keurder": "Two clauses with their own subject and verb are joined by 'en', so the comma is required."
+    },
+    {
+      "nr": 11,
+      "blok": "Waarvoor mense hulle gebruik",
+      "voor": "dek hulle ook 'n dak daarmee",
+      "na": "dek hulle ook dakke daarmee",
+      "soort": "idioom",
+      "rede_vinder": "A general statement about practice reads naturally with the plural 'dakke'.",
+      "fout": "The singular ''n dak' reads oddly in a general statement about what people do in some places.",
+      "rede_keurder": "The plural 'dakke' is the natural form for a general practice and keeps 'Op party plekke' and the meaning intact."
+    },
+    {
+      "nr": 12,
+      "blok": "sandsteen",
+      "voor": "aanmekaar geplak",
+      "na": "aanmekaargeplak",
+      "soort": "spelling",
+      "rede_vinder": "'Aanmekaarplak' is a compound verb, so its past participle is written as one word.",
+      "fout": "Spelling: the past participle of the compound verb 'aanmekaarplak' is written as one word.",
+      "rede_keurder": "A plain spelling fix inside a glossary entry, with no change to the wording or meaning of the definition."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 6,
+      "blok": "Die lae bou op en word hard",
+      "voor": "ry lewens ná mekaar",
+      "na": "ry menselewens ná mekaar",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Lewens' alone is vague; 'menselewens' makes clear what the time is compared with.",
+      "fout": "none",
+      "rede_keurder": "In context 'n lang ry lewens ná mekaar' already reads clearly, and the longer compound adds specificity without fixing a real fault."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die lae bou op en word hard",
+      "teks": "Die druk pak die korrels net stywer teen mekaar.",
+      "rede": "'Net' is ambiguous: it can mean 'only' (pressure merely packs, the cement glues) or 'even/ever tighter'; the intended reading decides the fix ('slegs' or 'nog/al hoe stywer'), so it is not changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 500,
+  "woorde_na": 496,
+  "wanneer": "2026-10-23T21:35:52+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:4021f826b3d659d5fdc3a436d53f42e5",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:7ee593e27829acf8a257630648065188"
+}

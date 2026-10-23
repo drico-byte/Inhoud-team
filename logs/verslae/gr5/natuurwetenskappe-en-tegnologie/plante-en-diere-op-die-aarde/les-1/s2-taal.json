@@ -1,0 +1,87 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoeveel soorte plante is daar?",
+      "voor": "Die blomme verskil van klein blommetjies",
+      "na": "Die blomme wissel van klein blommetjies",
+      "soort": "woordkeuse",
+      "rede_vinder": "'verskil van' reads as 'differ from' (the flowers differ from small flowers); 'wissel van ... tot' is the natural Afrikaans for a range.",
+      "fout": "'verskil van klein blommetjies' first reads as 'differ from small flowers', not as a range.",
+      "rede_keurder": "'wissel van ... tot' is the natural Afrikaans for a range and keeps the same meaning; no protected wording is touched."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoeveel soorte plante is daar?",
+      "voor": "Die vrugte verskil van 'n klein bessie",
+      "na": "Die vrugte wissel van 'n klein bessie",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same fault: 'verskil van' means 'differ from'; 'wissel van ... tot' expresses the range.",
+      "fout": "'verskil van 'n klein bessie' first reads as 'differ from a small berry', not as a range.",
+      "rede_keurder": "Same fix as change 1, and it keeps the flower and fruit sentences parallel."
+    },
+    {
+      "nr": 3,
+      "blok": "Diere lyk almal anders",
+      "voor": "ander het vere en party het skubbe",
+      "na": "ander het vere, en party het skubbe",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb, matching the slang/skilpad sentence earlier in the block.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "The clauses are full sentences, not a list of words, and the comma matches the slang/skilpad and flamink/renoster sentences in the same block."
+    },
+    {
+      "nr": 4,
+      "blok": "Waar plante en diere lewe",
+      "voor": "Op die Aarde is daar baie soorte habitatte",
+      "na": "Op die Aarde is daar baie verskillende habitatte",
+      "soort": "woordkeuse",
+      "rede_vinder": "In this lesson 'soort' means a species, so 'soorte habitatte' blurs the term; 'verskillende' says the same without the clash.",
+      "fout": "'soorte habitatte' uses 'soort' loosely in a lesson where 'soort' means a species, right before 'baie soorte plante' in that sense.",
+      "rede_keurder": "'baie verskillende habitatte' says the same thing without blurring the term, in line with the lesson's own 'groepe' not 'soorte' ruling."
+    },
+    {
+      "nr": 5,
+      "blok": "Suid-Afrika se eie plante en diere",
+      "voor": "Suid-Afrika het baie soorte habitatte",
+      "na": "Suid-Afrika het baie verskillende habitatte",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same as above: keep 'soort' for species and use 'verskillende' for kinds of habitat.",
+      "fout": "Same loose use of 'soort' for habitats, in the paragraph that leads into biodiversity as a variety of species.",
+      "rede_keurder": "Same fix as change 4; the meaning and the list of habitats stay the same."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 465,
+  "woorde_na": 465,
+  "wanneer": "2026-10-23T20:58:32+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "fynbos",
+      "voor": "Baie proteas het breë, leeragtige blare, soos die koningprotea.",
+      "na": "Baie proteas, soos die koningprotea, het breë, leeragtige blare.",
+      "soort": "woordorde",
+      "rede_vinder": "At the end of the sentence 'soos die koningprotea' can read as a comparison with the leaves; placed after 'Baie proteas' it is clearly the example, and the protected wordings 'Baie proteas' and 'koningprotea' stay intact.",
+      "fout": "none",
+      "rede_keurder": "This is a shared glossary definition and the original already reads naturally, with 'soos die koningprotea' attaching to the proteas; either reading is true, so moving it is a lateral change in a definition a language agent should not reword."
+    },
+    {
+      "nr": 2,
+      "blok": "Suid-Afrika se eie plante en diere",
+      "voor": "Niemand het hom uit 'n ander land hierheen gebring nie.",
+      "na": "Niemand het dit uit 'n ander land hierheen gebring nie.",
+      "soort": "verwysing",
+      "rede_vinder": "The antecedent is ''n plant of 'n dier'; the neutral 'dit' covers both more cleanly than 'hom', in line with the earlier round that replaced 'hy' in the same block.",
+      "fout": "none",
+      "rede_keurder": "'hom' for 'n plant of 'n dier is normal Afrikaans and points unambiguously to the preceding phrase, so 'dit' is only a different, equally natural pronoun."
+    }
+  ],
+  "konsep_hash_voor": "sha256:372f2a19910af83997e1e289e92f8f93",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:94a848bb263d83714d9665050696448c"
+}

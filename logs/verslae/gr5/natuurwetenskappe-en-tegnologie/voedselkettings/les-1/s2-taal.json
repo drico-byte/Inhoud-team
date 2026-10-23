@@ -1,0 +1,88 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wie maak sy eie kos?",
+      "voor": "groter en kry hy",
+      "na": "groter, en kry hy",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017 comma before 'en' joining two clauses that each have their own subject and verb (boom/word, hy/kry); the reviewer may judge the shared fronted 'Tog' makes it optional.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two clauses with their own subject and verb (boom/word, hy/kry).",
+      "rede_keurder": "The second clause has its own subject 'hy' and verb 'kry', so the comma is required; the fronted 'Tog' does not change that."
+    },
+    {
+      "nr": 2,
+      "blok": "Waarmee maak 'n plant kos?",
+      "voor": "Die tweede is 'n gas in die lug met die naam koolstofdioksied.",
+      "na": "Die tweede ding is 'n gas in die lug wat koolstofdioksied genoem word.",
+      "soort": "sinsbou",
+      "rede_vinder": "'met die naam' is wooden; 'wat ... genoem word' is natural, and 'Die tweede ding' matches 'Die eerste ding' and 'Die derde ding'; the protected word stays.",
+      "fout": "'met die naam' is a wooden, English-like construction, and 'Die tweede' breaks the parallel with 'Die eerste ding' and 'Die derde ding'.",
+      "rede_keurder": "'wat koolstofdioksied genoem word' is natural Afrikaans, the protected word stays intact and the meaning is unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Waarvoor 'n dier sy kos gebruik",
+      "voor": "kos uit die lug en water",
+      "na": "kos uit lug en water",
+      "soort": "woordkeuse",
+      "rede_vinder": "The article on only one of the two nouns is unbalanced; 'uit lug en water' matches the glossary wording for fotosintese.",
+      "fout": "The article on only one of the two nouns ('die lug en water') is unbalanced and differs from the glossary's 'uit lug en water'.",
+      "rede_keurder": "Dropping the article balances the pair and matches the lesson's own fotosintese wording without changing the meaning or touching a protected word."
+    },
+    {
+      "nr": 5,
+      "blok": "Waarvoor 'n dier sy kos gebruik",
+      "voor": "Sonder kos kan 'n dier nie beweeg nie en ook nie groei nie.",
+      "na": "Sonder kos kan 'n dier nie beweeg of groei nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "The doubled negative construction is clumsy; one negation over 'beweeg of groei' says the same thing more naturally.",
+      "fout": "The doubled 'nie ... nie en ook nie ... nie' is clumsy for a Grade 5 reader.",
+      "rede_keurder": "One negation over 'beweeg of groei' says exactly the same thing, is shorter and reads more naturally."
+    },
+    {
+      "nr": 6,
+      "blok": "Diere wat ander diere eet",
+      "voor": "'n Leeu is 'n karnivoor en hy jag ander diere vir sy kos.",
+      "na": "'n Leeu is 'n karnivoor wat ander diere vir sy kos jag.",
+      "soort": "sinsbou",
+      "rede_vinder": "A relative clause is smoother than 'en hy', avoids the missing AWS comma, and parallels the cow and pig sentences ('n Koei is 'n herbivoor wat ...).",
+      "fout": "Two clauses with their own subjects joined by 'en' without the AWS comma, and 'en hy' reads flat next to the parallel cow and pig sentences.",
+      "rede_keurder": "The relative clause keeps the same lion, the same action and the same meaning, removes the comma problem and matches the pattern of the neighbouring blocks; the following 'Sy' still points to the lion."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Wat die plant met sy kos doen",
+      "voor": "Die plant maak sy eie kos met hierdie drie dinge saam.",
+      "na": "Met hierdie drie dinge saam maak die plant sy eie kos.",
+      "soort": "woordorde",
+      "rede_vinder": "A trailing 'saam' after the object reads awkwardly; fronting the phrase is the natural order and links back to the previous block.",
+      "fout": "none",
+      "rede_keurder": "The circumposition 'met ... saam' at the end of the sentence is ordinary Afrikaans, so fronting it is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Al sewe die lewensprosesse",
+      "teks": "reproduseer",
+      "rede": "The only verb in a list of nouns (voeding, groei, asemhaling ...); the noun form would be 'voortplanting', but this is a subject term and should be checked against the CAPS list wording rather than changed by a language agent."
+    },
+    {
+      "blok": "Diere wat plante en diere eet",
+      "teks": "'n Dier wat plante sowel as ander diere eet, staan bekend as 'n omnivoor.",
+      "rede": "The herbivoor and karnivoor study sentences repeat the decided glossary wording exactly, but this one says 'ander diere' where the decided omnivoor definition says 'vleis'; not changed because it touches a shared definition."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 497,
+  "woorde_na": 493,
+  "wanneer": "2026-10-23T20:18:08+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:58a585e3b813299cdb4937492abd6236",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:36e3f3f83b087ee707bca80ed041a5de"
+}

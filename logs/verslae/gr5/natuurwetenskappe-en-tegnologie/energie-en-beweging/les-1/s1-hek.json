@@ -4,17 +4,20 @@
   "graad": 5,
   "vak": "Natuurwetenskappe en Tegnologie",
   "budget": 300,
-  "checked_at": "2026-09-10T20:17:45+00:00",
+  "begrotingsreel": "default ±15%: 255-345",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-23T21:42:45+00:00",
   "study": {
-    "words": 322,
+    "words": 328,
     "sentences": 28,
-    "mean_sentence_len": 11.5,
+    "mean_sentence_len": 11.7,
     "median_sentence_len": 12.0,
     "longest_sentence": 15,
     "mean_syllables": 1.33,
-    "pct_polysyllabic": 3.4,
+    "pct_polysyllabic": 3.7,
     "pct_long_words": 0.6,
-    "commas_per_sentence": 0.14
+    "commas_per_sentence": 0.36
   },
   "eli10": null,
   "block_counts": {
@@ -24,10 +27,10 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text: 0.36 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: teruggetrek"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

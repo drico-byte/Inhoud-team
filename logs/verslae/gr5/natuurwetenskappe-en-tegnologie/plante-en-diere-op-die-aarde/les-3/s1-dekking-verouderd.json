@@ -1,71 +1,78 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "dekking",
-  "prompt_weergawe": "dekkingsnasiener-v1.4",
+  "prompt_weergawe": "dekkingsnasiener-v1.5",
   "les": "Diere met 'n ruggraat, en diere sonder",
   "kaps_punt": "Diersoorte - daar is baie verskillende soorte diere; sommige het geen bene, en 'n paar ander harde buitenste 'velle' of skulpe (invertebrate/ongewerwelde diere); sommige het bene (vertebrate/werweldiere)",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "MENS_NODIG",
+  "spesifikasie_probleem": true,
   "items": [
     {
       "tipe": "kern",
-      "verwysing": "kern[0], opening 11 September 2026: die inskrywing 'ruggraat' se wat die stukkies 'n ruggraat maak - een enkele ry in die middel van die rug, end-aan-end aan mekaar vas, die kop op die eerste een, die dier se ander dele daaraan vas; 'klein' uit die inskrywing; plus 'baie verskillende soorte diere, in twee groepe volgens een ding: het die dier 'n ruggraat binne-in sy lyf, of nie?'",
+      "verwysing": "kern[0] (bestelling): die inskrywing moet se wat die stukkies 'n RUGGRAAT maak - een enkele lyn, end-aan-end aan mekaar vas, die kop aan die eerste een, die dier se ander bene daaraan vas; 'n krokodil se rugplate en 'n vis se vinsteunbene moet uitval; 'by die meeste diere MET 'N RUGGRAAT' is die regte stel",
       "status": "teenwoordig",
-      "bewys": "begrip 'ruggraat' - een enkele ry binne-in die lyf, end-aan-end vas, kop aan die eerste een, die meeste ander stewige dele daaraan, geen 'klein'; Twee groepe diere - meer as 'n miljoen soorte, een vraag: ruggraat binne-in of nie"
+      "bewys": "begrip 'ruggraat' — een enkele ry binne-in die lyf, end aan end vas, kop aan die eerste een, ander stewige dele daaraan vas, 'by die meeste diere met 'n ruggraat' van been"
     },
     {
       "tipe": "kern",
-      "verwysing": "kern[1], opening 10 September 2026: gewerwelde diere het 'n ruggraat, en by die MEESTE is die geraamte van been; KABV se vyf voorbeelde - vis, paddas, reptiele, voels, soogdiere",
+      "verwysing": "kern[0] (rekordhelfte in les-3.rekords.json, en kaps_punte[0]): 'Daar is baie verskillende soorte diere, en 'n mens kan hulle in twee groepe verdeel volgens een ding: het die dier 'n ruggraat binne-in sy lyf, of nie?'",
       "status": "teenwoordig",
-      "bewys": "Diere met 'n ruggraat - gewerwelde dier/vertebrate, 'Die meeste ... ook ander bene binne-in'; Vyf groepe met 'n ruggraat - vis, amfibieë soos paddas, reptiele, voëls, soogdiere"
+      "bewys": "Twee groepe diere — meer as 'n miljoen soorte, twee groepe met een vraag: 'n ruggraat binne-in sy lyf"
     },
     {
       "tipe": "kern",
-      "verwysing": "'n Mens is 'n soogdier en het dus ook 'n ruggraat. 'n Leerder kan self aan die bene in haar rug voel - hierdie waarneembare bewys hoort in die studieteks.",
+      "verwysing": "kern[1]: gewerwelde diere het 'n ruggraat, en by die MEESTE van hulle is die geraamte van been; KABV se vyf voorbeelde moet almal in die les staan - vis, paddas, reptiele, voels, soogdiere",
       "status": "teenwoordig",
-      "bewys": "Twee groepe diere - hand van nek tot onder in die rug, voel die beentjies; Diere met 'n ruggraat - 'n mens is self 'n soogdier"
+      "bewys": "Diere met 'n ruggraat — gewerwelde dier/vertebrate, 'die meeste ... ook ander bene'; Vyf groepe met 'n ruggraat — al vyf, amfibieë met padda as voorbeeld"
     },
     {
       "tipe": "kern",
-      "verwysing": "ONGEWERWELDE DIERE (invertebrate) het GEEN ruggraat nie en geen bene binne-in die lyf nie. Al ses moet in die les staan: wurms, duisendpote, insekte, spinnekoppe, skerpioene, krappe.",
+      "verwysing": "kern[2]: ''n Mens is 'n soogdier en het dus ook 'n ruggraat. 'n Leerder kan self aan die bene in haar rug voel - hierdie waarneembare bewys hoort in die studieteks.'",
       "status": "teenwoordig",
-      "bewys": "Diere sonder 'n ruggraat - ongewerwelde diere/invertebrate, geen ander bene in hulle lyf; Ses diere sonder 'n ruggraat - al ses genoem"
+      "bewys": "Twee groepe diere — gly met jou hand teen jou rug en voel die beentjies; Diere met 'n ruggraat — 'n mens is self 'n soogdier"
     },
     {
       "tipe": "kern",
-      "verwysing": "SOMMIGE ongewerwelde diere het 'n harde buitenste bedekking of skulp wat hulle beskerm - 'n krap byvoorbeeld. Ander, soos 'n wurm, het niks hards nie.",
+      "verwysing": "kern[3]: ONGEWERWELDE DIERE (invertebrate) het GEEN ruggraat nie en geen bene binne-in die lyf nie; al ses KABV-voorbeelde: wurms, duisendpote, insekte, spinnekoppe, skerpioene, krappe",
       "status": "teenwoordig",
-      "bewys": "Harde doppe en sagte lywe - krap se dop beskerm, slak se skulp, wurm bly heeltemal sag"
+      "bewys": "Diere sonder 'n ruggraat — ongewerwelde/invertebrate, geen ander bene; Ses diere sonder 'n ruggraat — al ses"
     },
     {
       "tipe": "kern",
-      "verwysing": "DIE OPKLARING: 'bene' beteken hier die harde bene binne-in die lyf, nie pote nie. 'n Duisendpoot, 'n insek, 'n spinnekop, 'n skerpioen en 'n krap het almal pote, maar geen been binne-in nie.",
+      "verwysing": "kern[4]: SOMMIGE ongewerwelde diere het 'n harde buitenste bedekking of skulp wat hulle beskerm - 'n krap byvoorbeeld. Ander, soos 'n wurm, het niks hards nie.",
       "status": "teenwoordig",
-      "bewys": "Wat die woord bene hier beteken - twee betekenisse uitdruklik geskei, al vyf diere het pote en geen been"
+      "bewys": "Harde doppe en sagte lywe — 'party', krap se dop beskerm, slak se skulp, wurm bly heeltemal sag"
     },
     {
       "tipe": "kern",
-      "verwysing": "Hoe 'n mens 'n dier in die regte groep plaas: vra of daar 'n ruggraat binne-in is. Nie of dit groot is nie, nie of dit hard voel nie, en nie hoeveel pote dit het nie.",
+      "verwysing": "kern[5]: die uitdruklike opklaring dat 'bene' hier die harde bene binne-in die lyf beteken, nie pote nie; duisendpoot, insek, spinnekop, skerpioen en krap het pote maar geen been binne-in",
       "status": "teenwoordig",
-      "bewys": "Hoe jy 'n dier in die regte groep plaas - net ruggraat binne-in; nie pote, grootte of hardheid; krap as toets"
+      "bewys": "Wat die woord bene hier beteken — twee betekenisse, al vyf diere het pote en geen been binne-in"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "kern[6]: hoe 'n mens 'n dier in die regte groep plaas: vra of daar 'n ruggraat binne-in is; nie grootte, hardheid of getal pote nie",
+      "status": "teenwoordig",
+      "bewys": "Hoe jy 'n dier in die regte groep plaas — net die ruggraat, nie pote, grootte of hardheid; krap as toets"
     },
     {
       "tipe": "fokus",
-      "verwysing": "fokusvraag_skakel, opening 11 September 2026: die twee groepe is die met 'n RUGGRAAT en die sonder; been mag genoem word, verskans as 'by 'n mens en by die meeste diere'",
+      "verwysing": "fokusvraag_skakel (geldende bestelling): die twee groepe is die met 'n RUGGRAAT en die sonder; been mag genoem word, verskans as 'by 'n mens en by die meeste diere'",
       "status": "teenwoordig",
-      "bewys": "Twee groepe diere - een vraag skei die twee groepe; Diere met 'n ruggraat - been verskans met 'die meeste'"
+      "bewys": "Twee groepe diere en Hoe jy 'n dier in die regte groep plaas — indeling op die ruggraat alleen, been verskans met 'die meeste'"
     }
   ],
   "oortollig": [
     {
       "inhoud": "'Jy kry baie van hulle in die grond en onder klippe in die tuin.'",
       "blok": "Diere sonder 'n ruggraat",
-      "waarom": "Geen kern-item vra waar ongewerwelde diere voorkom nie; die spek se feiterisiko teken dit reeds op as onversoek en bevestig, geen aksie."
+      "waarom": "Geen kern-item vra waar ongewerwelde diere gevind word nie; die spek se feiterisiko teken dit reeds as onversoek en bevestig op."
     },
     {
       "inhoud": "'Die meeste soorte diere op die Aarde het geen ruggraat nie.'",
       "blok": "Diere sonder 'n ruggraat",
-      "waarom": "Geen vereiste vra die verhouding tussen die twee groepe nie; die spek se feiterisiko teken dit ook as onversoek en bevestig op."
+      "waarom": "Geen vereiste vra die verhouding tussen die twee groepe nie; die spek se feiterisiko teken dit reeds as onversoek en bevestig op."
     }
   ],
-  "opsomming": "Die herskrewe inskrywing 'ruggraat' doen nou wat kern[0] se opening van 11 September vra (een ry, end-aan-end, die kop aan die eerste stuk, die ander stewige dele daaraan, sonder 'klein'), en elke ander vereiste en albei gedeelde omskrywings bly gedek."
+  "opsomming": "Die les dek elke vereiste, maar 'n mens moet drie spekvelde van bo af herskryf: kern[0] se bestelling gaan net oor die inskrywing 'ruggraat' terwyl KABV se basisvereiste (baie soorte diere, twee groepe volgens 'n ruggraat binne-in) net onder die merker 'BESTEL NIKS' in die rekordhelfte staan, wat self 'ALLES HIERONDER BLY GELD' se en waarna die laaste feiterisiko-item nog as 'n geldende kern[0] verwys; kern[0] se bestelling se ook nog dat 'klein' in die inskrywing moet bly waar dit oor 'n mens praat, wat regstelling 8 (18 Sept) en die rekord van 23 Okt in ruggraat_inskrywing_vir_n_mens teruggetrek het (die les hou 'klein' net in die studieblok oor die mens se rug); en fokusvraag_skakel se rekordhelfte se 'ALLES HIERONDER BLY GELD' bo die teruggetrekte bewoording 'ruggraat en bene binne-in'."
 }

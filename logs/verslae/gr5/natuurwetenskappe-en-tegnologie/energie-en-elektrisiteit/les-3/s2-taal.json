@@ -1,0 +1,105 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Nat hande en nat plekke",
+      "voor": "naby 'n prop, draad of veelprop omval",
+      "na": "naby 'n prop, 'n draad of 'n veelprop omval",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeat the article in the list, as the block's earlier list does, so the three items read as parallel.",
+      "fout": "The list drops the article after the first item, unlike the parallel list earlier in the same block.",
+      "rede_keurder": "Repeating 'n makes the three items parallel and matches the block's earlier list without changing what is said."
+    },
+    {
+      "nr": 2,
+      "blok": "Te veel op een sok",
+      "voor": "Hierdie gevaar begin by hitte en",
+      "na": "Hierdie gevaar begin by hitte, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma before 'en' joining two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Hierdie gevaar begin' / ''n verbrande sok kan jou skok').",
+      "rede_keurder": "Required AWS 2017 comma; nothing else changes."
+    },
+    {
+      "nr": 3,
+      "blok": "Reëls by proppe, sokke en drade",
+      "voor": "Trek 'n prop altyd by die prop self uit",
+      "na": "Trek 'n prop altyd aan die prop self uit",
+      "soort": "idioom",
+      "rede_vinder": "One pulls 'aan' something, which also matches 'nooit aan die draad nie' in the same sentence.",
+      "fout": "'by die prop self uittrek' sits awkwardly beside 'aan die draad' in the same sentence; one pulls 'aan' something.",
+      "rede_keurder": "Checked the preposition: in both versions you grip and pull the plug itself, not the cord, so the instruction is unchanged and the sentence becomes parallel."
+    },
+    {
+      "nr": 4,
+      "blok": "Reëls by proppe, sokke en drade",
+      "voor": "en bou op oor baie rukke",
+      "na": "en bou oor baie rukke op",
+      "soort": "woordorde",
+      "rede_vinder": "The separable particle 'op' belongs at the end of the clause in Afrikaans.",
+      "fout": "The separable particle 'op' of 'opbou' stands before the adverbial instead of at the end of the clause.",
+      "rede_keurder": "Standard word order for a separable verb; the protected wording 'Daardie skade sit dikwels binne-in' is untouched."
+    },
+    {
+      "nr": 5,
+      "blok": "Reëls by proppe, sokke en drade",
+      "voor": "of 'n prop wat gekraak is, gebruik nie",
+      "na": "of 'n gekraakte prop gebruik nie",
+      "soort": "sinsbou",
+      "rede_vinder": "The attributive adjective is shorter and more natural and removes the comma inside the list.",
+      "fout": "The relative clause plus comma breaks the parallel with 'n gerafelde draad' and makes 'gebruik nie' read detached.",
+      "rede_keurder": "'n gekraakte prop' says the same thing, is parallel with 'n gerafelde draad', and leaves the instruction itself as it was."
+    },
+    {
+      "nr": 7,
+      "blok": "As iemand geskok word",
+      "voor": "Is hy eers van die draad af weg, bly geen elektrisiteit in hom agter nie.",
+      "na": "Sodra hy van die draad af weg is, bly daar geen elektrisiteit in hom agter nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "The inverted 'Is hy eers ...' condition is literary for Grade 5, and an indefinite subject reads more naturally with 'daar'.",
+      "fout": "The inverted 'Is hy eers ...' condition is literary for Grade 5, and the indefinite subject lacks 'daar'.",
+      "rede_keurder": "'Sodra ... weg is' and 'bly daar geen' are plain, natural Afrikaans with the same claim; this sentence explains rather than instructs."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 6,
+      "blok": "Reëls by proppe, sokke en drade",
+      "voor": "'n Sok wat swartgebrand lyk of warm voel, word nie gebruik nie.",
+      "na": "Moenie 'n sok gebruik wat swartgebrand lyk of warm voel nie.",
+      "soort": "register",
+      "rede_vinder": "Every other rule in the list is a direct instruction; the passive reads stiff and impersonal for Grade 5.",
+      "fout": "The passive 'word nie gebruik nie' reads stiff in a list of direct rules.",
+      "rede_keurder": "A real weakness, but the proposal recasts a safety instruction from a norm into a command, and the writer owns that wording.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 8,
+      "blok": "As iemand geskok word",
+      "voor": "wys vir hom waar die persoon is",
+      "na": "wys vir die grootmens waar die persoon is",
+      "soort": "verwysing",
+      "rede_vinder": "In this block 'hom' otherwise always means the shocked person, so here it can be misread; name the adult.",
+      "fout": "'hom' in 'wys vir hom' can be read as the shocked person, since 'hom' means him everywhere else in the block.",
+      "rede_keurder": "The ambiguity is real, but this is a who-to-tell safety instruction, and the proposal's 'n grootmens ... die grootmens' repetition is clumsy, so the writer should fix it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "As iemand geskok word",
+      "teks": "Is hy eers van die draad af weg, bly geen elektrisiteit in hom agter nie.",
+      "rede": "The opening sentence says the person may be holding 'n draad of 'n toestel, but this sentence names only the wire; whether it should also cover the appliance is a content question for the writer, so it is not changed here."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 549,
+  "woorde_na": 550,
+  "wanneer": "2026-10-23T21:14:16+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:37ea11ef2bee30493f5aeb10d59b04ec",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a7f10cac6f661792a9595442fe985d8d"
+}

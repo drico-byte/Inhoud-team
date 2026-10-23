@@ -1,0 +1,105 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Liggaamfossiele is dele van die lyf",
+      "voor": "Tande is baie hard en",
+      "na": "Tande is baie hard, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Tande is baie hard' / ''n haai se ou tande kom ... voor').",
+      "rede_keurder": "Punctuation fix only; the words and the meaning are unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Liggaamfossiele is dele van die lyf",
+      "voor": "kan hulle vorm in die klip agterbly",
+      "na": "kan hul vorm in die klip agterbly",
+      "soort": "verwysing",
+      "rede_vinder": "'hulle vorm' can be misread as 'they form'; the possessive 'hul' removes the ambiguity.",
+      "fout": "'kan hulle vorm in die klip agterbly' can be read on first pass as 'they can form', so the reader stumbles.",
+      "rede_keurder": "The possessive 'hul' removes the misreading; the protected 'Die meeste sade is klein' and the separate protected 'sy vorm kan in die klip agterbly' are untouched."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe 'n sagte deel 'n afdruk laat",
+      "voor": "Hoe 'n sagte deel 'n afdruk laat",
+      "na": "Hoe 'n sagte deel 'n afdruk agterlaat",
+      "soort": "woordkeuse",
+      "rede_vinder": "'laat' alone does not mean 'leave behind'; the verb is 'agterlaat', as the lesson uses elsewhere.",
+      "fout": "'n afdruk laat' is elliptical and stiff; 'laat' alone invites the reading 'let/cause' and waits for another verb.",
+      "rede_keurder": "'agterlaat' is the natural verb, matches 'laat ... agter' in the list above, and keeps the meaning exactly."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat die dier agtergelaat het",
+      "voor": "jy los 'n voetspoor agter",
+      "na": "jy laat 'n voetspoor agter",
+      "soort": "register",
+      "rede_vinder": "'agterlos' is colloquial; 'agterlaat' is the standard verb and matches the definition's 'agtergelaat'.",
+      "fout": "'los ... agter' is colloquial where the block heading and the spoorfossiel definition use 'agtergelaat'.",
+      "rede_keurder": "'laat ... agter' is the standard verb and ties the example to the term it introduces, with the same action and meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Hou die twee soorte uitmekaar",
+      "voor": "gelê en hulle is dus spoorfossiele",
+      "na": "gelê, en hulle is dus spoorfossiele",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two sentences with their own subjects; the protected wording stays intact.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subjects ('n Dinosourus' / 'hulle').",
+      "rede_keurder": "Punctuation only; the protected wording ''n Dinosourus het haar eiers gelê' stays intact."
+    },
+    {
+      "nr": 7,
+      "blok": "Hou die twee soorte uitmekaar",
+      "voor": "gedoen het en daarom is dit",
+      "na": "gedoen het, en daarom is dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses ('Dit wys ...' / 'daarom is dit ...').",
+      "rede_keurder": "Punctuation fix only; meaning unchanged."
+    },
+    {
+      "nr": 8,
+      "blok": "Fossiele wat lyk soos plante en diere van vandag",
+      "voor": "is ook nie sommer dieselfde soort nie",
+      "na": "is ook nie noodwendig dieselfde soort nie",
+      "soort": "register",
+      "rede_vinder": "'sommer' is colloquial and vague here; 'noodwendig' states the intended 'not necessarily' clearly.",
+      "fout": "'nie sommer' is loose and colloquial for the logical point 'not necessarily', and can also read as 'not easily'.",
+      "rede_keurder": "'nie noodwendig' states the intended caution exactly without strengthening or weakening it."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Wat die dier agtergelaat het",
+      "voor": "hulle spore in die modder gelos",
+      "na": "hulle spore in die modder agtergelaat",
+      "soort": "woordkeuse",
+      "rede_vinder": "'gelos' means 'let be' rather than 'left behind'; 'agtergelaat' is correct and ties to the term's definition.",
+      "fout": "'spore in die modder gelos' is colloquial and imprecise; 'los' on its own leans towards 'let be'.",
+      "rede_keurder": "'agtergelaat' says exactly 'left behind', matches the definition, and stays parallel with change 4 so 'net so' still points to the same action.",
+      "waarom": "not applied: it brings in 'agtergelaat', a wording the protected list forbids; fix the fault without it",
+      "beskerm": false
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat die dier agtergelaat het",
+      "teks": "'n Fossiel van 'n teken wat 'n plant of dier agtergelaat het, is 'n spoorfossiel.",
+      "rede": "This study sentence lacks the closing phrase 'nie van 'n deel van sy lyf nie' that the protected entry says keeps a leaf imprint among body fossils; adding it is content, so not changed here. Not a safety flag."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 550,
+  "woorde_na": 550,
+  "wanneer": "2026-10-23T21:40:52+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:e6799aed4f830ebc68e4c5373d1b0fb0",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a03b7509ec494f9fceecc1d43603f4b1"
+}

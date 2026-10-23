@@ -1,90 +1,97 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "dekking",
-  "prompt_weergawe": "dekkingsnasiener-v1.4",
+  "prompt_weergawe": "dekkingsnasiener-v1.5",
   "les": "Hoekom ons metaal kies",
   "kaps_punt": "metale is nuttig as gevolg van hulle spesiale eienskappe - metale gelei hitte; sommige metale is magneties, en 'n paar is nie; net yster roes (sommige metale vlek en word dof); metale word gebruik vir die maak dinge soos munte, draad, juwele, meubels, geboue en brûe, motors, kombuisgereedskap, dakke",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "MENS_NODIG",
+  "spesifikasie_probleem": true,
   "items": [
     {
       "tipe": "kern",
-      "verwysing": "Dat metale nuttig is JUIS as gevolg van wat hulle doen - die ruggraat van die les: elke eienskap hieronder moet in dieselfde asem wys op iets wat mense daarvan maak.",
+      "verwysing": "kern[0]: Dat metale nuttig is JUIS as gevolg van wat hulle doen ... elke eienskap hieronder moet in dieselfde asem wys op iets wat mense daarvan maak.",
       "status": "teenwoordig",
-      "bewys": "Wat metaal vir ons doen - 'Mense kies metaal vir 'n rede: baie eienskappe wys op iets wat ons daarvan maak', en elke eienskap wat die les leer betaal steeds dadelik uit in 'n benoemde gebruik (hitte-kombuis, magneet-skrootwerf, roes-verf, blink-juwele)."
+      "bewys": "Wat metaal vir ons doen — 'baie van sy eienskappe pas by iets wat ons daarvan maak'; elke eienskapblok betaal uit (potte, skrootwerf, verf op dakke/brûe/motors, juwele)"
     },
     {
       "tipe": "kern",
-      "verwysing": "REGGEMAAK 10 Sept: 'kombuisgereedskap SOOS potte en panne is DIKWELS van metaal' - dat hitte maklik deur metaal beweeg en dat die stoof se hitte deur die pot by die kos uitkom.",
+      "verwysing": "kern[1]: Skryf 'kombuisgereedskap SOOS potte en panne is DIKWELS van metaal' ... die stoof se hitte kom deur die pot by die kos uit.",
       "status": "teenwoordig",
-      "bewys": "Wat metaal vir ons doen - 'Die stoof se hitte kom deur die pot se bodem by die kos uit' met die bestelde kwantifiseerder 'dikwels'."
+      "bewys": "Wat metaal vir ons doen — hitte beweeg maklik deur metaal, stoof se hitte deur die pot se bodem, potte en panne dikwels van metaal"
     },
     {
       "tipe": "kern",
-      "verwysing": "Dat baie potte se handvatsel van hout of plastiek is, want hitte beweeg nie so maklik deur hout en plastiek nie - die alledaagse waarneembare bewys.",
+      "verwysing": "kern[2]: Dat baie potte se handvatsel van hout of plastiek is, want hitte beweeg nie so maklik deur hout en plastiek nie.",
       "status": "teenwoordig",
-      "bewys": "Wat metaal vir ons doen - 'Baie potte het 'n handvatsel van hout of plastiek', met die pot warm en die handvatsel koel genoeg om vas te hou."
+      "bewys": "Wat metaal vir ons doen — 'Baie potte het 'n handvatsel van hout of plastiek', pot warm maar handvatsel bly koel"
     },
     {
       "tipe": "kern",
-      "verwysing": "Dat 'n metaallepel kouer voel as 'n houtlepel in dieselfde laai al is albei ewe warm, en dat dit so voel omdat hitte vinnig uit jou hand IN die metaal beweeg.",
+      "verwysing": "kern[3]: Dat 'n metaallepel kouer voel as 'n houtlepel in dieselfde laai, al is albei presies ewe warm, en dat die metaal juis kouer VOEL omdat hitte vinnig uit jou hand IN die metaal beweeg.",
       "status": "teenwoordig",
-      "bewys": "Hoekom 'n metaallepel kouer voel - 'Hitte beweeg vinnig uit jou hand in die metaal in' en 'Koue kom nie by jou hand in nie'."
+      "bewys": "Hoekom 'n metaallepel kouer voel — ewe warm, hitte beweeg vinnig uit jou hand in die metaal, koue kom nie in nie"
     },
     {
       "tipe": "kern",
-      "verwysing": "REGGEMAAK 10 Sept: 'n magneet trek yster en die MEESTE staal aan, en party vlekvrye staal word nie aangetrek nie; koper, aluminium, goud en silwer nie; 'magneties' beteken net word-aangetrek.",
+      "verwysing": "kern[4]: vlekvrye staal se een onderskeid (verf bo-op teenoor beskerming in die metaal self); skryf yster en die MEESTE staal, en sê dat party vlekvrye staal nie aangetrek word nie; koper, aluminium, goud en silwer nie; 'magneties' = word deur 'n magneet aangetrek.",
       "status": "teenwoordig",
-      "bewys": "Wat 'n magneet aantrek - 'yster en die meeste staal', 'Party vlekvrye staal word glad nie aangetrek nie', plus die begrip 'magneties'."
+      "bewys": "Wat 'n magneet aantrek — yster en die meeste staal, party vlekvrye staal nie, koper/aluminium/goud/silwer nie; Roes op yster en staal — verf lê bo-op, beskerming in die metaal self"
     },
     {
       "tipe": "kern",
-      "verwysing": "REGGEMAAK 10 Sept: dat metaal wees nie magneties wees beteken nie, en dat 'n magneet net wys OF iets aangetrek word - nie watter metaal dit is nie; staalspyker teenoor koperdraad, geen munte.",
+      "verwysing": "kern[5]: munte uit die demonstrasie, staalspyker teenoor koperdraad; 'n magneet wys net of iets aangetrek word, nie watter metaal dit is nie; metaal wees beteken nie magneties wees nie en 'n magneet is geen toets vir OF iets metaal is nie.",
       "status": "teenwoordig",
-      "bewys": "Wat 'n magneet aantrek - ''n Magneet toets nie of iets metaal is nie' en 'nie watter metaal dit is nie', met die spyker-en-koperdraad-toets."
+      "bewys": "Wat 'n magneet aantrek — 'toets nie of iets metaal is nie ... nie watter metaal dit is nie', staalspyker teenoor koperdraad"
     },
     {
       "tipe": "kern",
-      "verwysing": "Dat roes die rooibruin, brokkelrige laag is wat stadig op yster vorm wanneer lug EN water albei bykom; droë yster roes nie en yster onder water sonder lug ook nie.",
+      "verwysing": "kern[6]: roes die rooibruin, brokkelrige laag op yster wanneer lug EN water bykom, stadig; droë yster en yster onder water sonder lug roes nie; gewone water soos kraanwater het lug in, dus roes 'n spyker in gewone water WEL.",
       "status": "teenwoordig",
-      "bewys": "Roes op yster en staal - 'rooibruin laag vorm stadig', 'brokkelrige laag', 'lug en water albei', met die kas- en die onder-water-teenvoorbeeld."
+      "bewys": "Roes op yster en staal — rooibruin brokkelrige laag vorm stadig, lug en water albei, droë yster en water sonder lug, ysterspyker in kraanwater roes wel"
     },
     {
       "tipe": "kern",
-      "verwysing": "Dat staal ook roes want staal word van yster gemaak; en vlekvrye staal met EEN onderskeid - verf lê bo-op en 'n krap laat die staal daaronder roes, terwyl vlekvrye staal se beskerming IN die metaal self sit.",
+      "verwysing": "kern[7]: Dat staal ook roes, want staal word van yster gemaak ... vlekvrye staal - die naam plus die EEN onderskeid (verf lê bo-op, vlekvrye staal se beskerming sit in die metaal self).",
       "status": "teenwoordig",
-      "bewys": "Roes op yster en staal - 'Staal word van yster gemaak en 'n staalhek roes daarom ook', en die verf-teenoor-vlekvrye-slotsinne; begrip 'vlekvrye staal' dra dieselfde onderskeid."
+      "bewys": "Roes op yster en staal — 'Staal word van yster gemaak, en 'n staalhek roes daarom ook', krap deur verf teenoor vlekvrye staal"
     },
     {
       "tipe": "kern",
-      "verwysing": "REGGEMAAK 10 Sept: dat BAIE ander metale verander - sommige vlek en word dof soos silwer, en 'n paar bly blink soos goud, en dat juwele daarom van goud en silwer gemaak word.",
+      "verwysing": "kern[8]: Skryf dat BAIE ander metale verander ... sommige vlek en word dof (silwer), 'n paar bly blink (goud), daarom juwele van goud en silwer; nie dat lug en water niks aan ander metale doen nie.",
       "status": "teenwoordig",
-      "bewys": "Metale wat vlek en metale wat blink bly - 'lug en water verander ook baie ander metale', silwer word donker en dof, 'Goud bly blink', juwele."
+      "bewys": "Metale wat vlek en metale wat blink bly — baie ander metale verander, silwer vlek en word dof, nie roes nie, goud bly blink, juwele"
     },
     {
       "tipe": "kern",
-      "verwysing": "Dat al agt benoemde gebruike in die les staan, elkeen langs die eienskap wat dit verdien: munte, draad, juwele, meubels, geboue en brûe, motors, kombuisgereedskap, dakke.",
+      "verwysing": "kern[9]: al agt gebruike wat KABV by die naam noem, elkeen langs die eienskap wat dit verdien: munte, draad, juwele, meubels, geboue en brûe, motors, kombuisgereedskap, dakke.",
       "status": "teenwoordig",
-      "bewys": "Waarvoor ons metaal gebruik - al agt items, elk met sy eienskap; blok 'Wat metaal vir ons doen' roep hard en sterk kortliks terug vir meubels, geboue en brûe."
+      "bewys": "Waarvoor ons metaal gebruik — al agt, elk met sy rede; Wat metaal vir ons doen — hard en sterk kortliks teruggeroep vir meubels, geboue en brûe"
     },
     {
       "tipe": "aanvulling",
-      "verwysing": "Dat 'n magneet gebruik word om yster en staal van die ander metale te skei - soos by 'n skrootwerf, waar 'n groot magneet net die staal optel.",
+      "verwysing": "Dat 'n magneet gebruik word om yster en staal van die ander metale te skei - soos by 'n skrootwerf.",
       "status": "teenwoordig",
-      "bewys": "Wat 'n magneet aantrek - 'By 'n skrootwerf tel 'n groot magneet die yster en staal uit die hoop op', een sin binne die magneetblok soos die regverdiging bepaal."
+      "bewys": "Wat 'n magneet aantrek — groot magneet tel yster en staal uit die skroothoop op; binne die magneetblok, binne regverdiging"
     },
     {
       "tipe": "aanvulling",
-      "verwysing": "Dat mense yster- en staaldinge wat buite staan - dakke, brûe en motors - verf om lug en water weg te hou, want roes skilfer af en dan roes die yster daaronder ook.",
+      "verwysing": "Dat mense yster- en staaldinge wat buite staan - dakke, brûe en motors - verf of bedek om lug en water weg te hou, want roes skilfer af en dan roes die yster daaronder ook.",
       "status": "teenwoordig",
-      "bewys": "Roes op yster en staal - 'Roes skilfer af...' en 'Mense verf daarom dakke, brûe en motors om lug en water weg te hou', binne die roesblok."
+      "bewys": "Roes op yster en staal — roes skilfer af, mense verf dakke, brûe en motors; binne die roesblok, binne regverdiging"
     },
     {
       "tipe": "fokus",
-      "verwysing": "Lewer die hele vraag: die drie ander eienskappe wat KABV noem word elk geleer en dan dadelik uitbetaal in die gebruike wat KABV by die naam noem, sodat die leerder die REDE agter elke keuse het en nie net die lys nie.",
+      "verwysing": "Lewer die hele vraag ... die drie ander eienskappe - hitte gelei, magneties of nie, en roes - word elk geleer en dan dadelik uitbetaal in die gebruike wat KABV by die naam noem, sodat die leerder die REDE agter elke keuse het.",
       "status": "teenwoordig",
-      "bewys": "Wat metaal vir ons doen, Wat 'n magneet aantrek en Roes op yster en staal - elke eienskap word geleer en in dieselfde blok in 'n benoemde gebruik uitbetaal; die lysblok bind saam wat die prosa verdien het."
+      "bewys": "Wat metaal vir ons doen, Wat 'n magneet aantrek, Roes op yster en staal — elke eienskap met sy gebruik in dieselfde blok; Waarvoor ons metaal gebruik bind saam"
     }
   ],
-  "oortollig": [],
-  "opsomming": "Die vernouing van 'elke eienskap' na 'baie eienskappe' in die openingsin kos geen vereiste nie - al tien kern-items, albei aanvullings en die fokusvraagskakel is steeds volledig gedek, die openingsblok se eie werk (mense kies metaal om 'n rede, en elke eienskap wat die les leer wys op 'n gebruik) staan heel, en niks in die les dra inhoud wat geen vereiste vra nie."
+  "oortollig": [
+    {
+      "inhoud": "'Dit gebeur selfs in 'n droë kas.' (silwer wat donker word)",
+      "blok": "Metale wat vlek en metale wat blink bly",
+      "waarom": "Geen kern-item vra waar of onder watter toestande silwer vlek nie, en die spek se eie feiterisiko oor silwer teken droë lug as 'n bronne-onenigheid aan."
+    }
+  ],
+  "opsomming": "Al tien kern-items, albei aanvullings en die fokusskakel is in die les teenwoordig, maar die spek het verouderde opdragte: termdig_nota bestel nog 'eienskap (graad 4 se sin woord vir woord)' terwyl graad_4_oordrag.terme_wat_in_albei_grade_voorkom[0].opdrag graad 4 se sin op 10 September 2026 teruggetrek het en die graad 5-sin bestel (die konsep gebruik tereg die graad 5-sin), graad_4_oordrag.moenie_die_graad_5_lys_vul_nie verbied nog wat graad_4_oordrag.hoekom_hierdie_afdeling 'verby' verklaar, graad_4_oordrag.wat_graad_4_reeds_vir_ons_gedoen_het sê nog 'Die eli10 mag hierop bou' sonder rekordmerker, en vir_drico[0] en woordkeuse.hitte_nie_warmte sê 'hitte' is nie beskerm nie teen reeds_beskermde_woorde in — 'n mens moet hierdie velde by die bron in spesifikasies/goedgekeur/ regstel (die enigste rekord in les-1.rekords.json, by diepte_grens.vlekvrye_staal, stem met sy bestelling ooreen)."
 }

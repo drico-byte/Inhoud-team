@@ -471,3 +471,4 @@
 - [Two fact checks that differ are a source conflict](twee-feitetoetse-wat-verskil-is-n-bronkonflik.md) — a newer check contradicting a settled ruling goes to Lampies; I overturned one on 22 Oct and reverted it.
 - [Keep going, never ask whether to continue](hou-aan-moenie-vra-of-ek-moet-aangaan.md) — a stopped agent is not a pause; relaunch and keep fixing content.
 - [A caution in kern becomes an order](n-waarskuwing-in-kern-word-n-bestelling.md) — coverage demands every kern sentence; narrow the order itself, put 'don't say' in feiterisiko.
+- [BLY GELD below the marker](bly-geld-onder-die-merker.md) — old fields hide the live order under the record marker; grep a subject's specs for it before its pass.
