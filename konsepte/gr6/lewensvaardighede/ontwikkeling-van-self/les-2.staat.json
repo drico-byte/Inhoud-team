@@ -1,7 +1,7 @@
 {
   "les": "gr6/lewensvaardighede/ontwikkeling-van-self/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:b6ae78f9d4c6ee35a06da15d489f51b2",
+  "konsep_hash": "sha256:a066fcfcf8552203636e0b7a96f2edd4",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -58,11 +58,196 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\ontwikkeling-van-self\\les-2.json",
       "konsep_hash": "sha256:b6ae78f9d4c6ee35a06da15d489f51b2",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T11:16:43+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:41b16928ba257238eb28d98a4e9fc7f9",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T11:16:44+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 545,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:16:44+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:41b16928ba257238eb28d98a4e9fc7f9",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T11:28:18+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 4,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 545,
+      "woorde_na": 539,
+      "konsep_hash": "sha256:edfd7191fb957b6c7ddd2c9324c7bfab"
+    },
+    {
+      "wanneer": "2026-10-28T11:28:19+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 539,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:28:19+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Die Maandag': Which Monday is meant is vague (probably the following Monday after the match); 'Die volgende Maandag' would be clearer, but changing it would guess the intended timing."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T11:35:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fc5c4cbe3155ed58bbbe38aa5e9eaac5",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T11:35:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 540,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:54:29+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 540,
+      "woorde_na": 540
+    },
+    {
+      "wanneer": "2026-10-28T11:58:01+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:58:02+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:58:02+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die langste in die span"
+      ],
+      "tally": {
+        "die langste in die span": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T11:58:02+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T12:00:15+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {
+        "die langste in die span": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T12:00:15+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a066fcfcf8552203636e0b7a96f2edd4",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T12:00:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 544,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T12:26:26+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 544,
+      "woorde_na": 544
+    },
+    {
+      "wanneer": "2026-10-28T12:28:44+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T12:28:45+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T12:28:53+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T12:28:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T12:28:54+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\ontwikkeling-van-self\\les-2.json",
+      "konsep_hash": "sha256:a066fcfcf8552203636e0b7a96f2edd4",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:06918f21aa4e000cf92b6f2420263d3e",
   "hek_konteks": {
     "graad": 6,
     "begroting": 550
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:41b16928ba257238eb28d98a4e9fc7f9",
+  "taal_rondte_vir": "sha256:a066fcfcf8552203636e0b7a96f2edd4",
+  "taal_keurder_vir": "06d394ad210fd66179fadef4560eeaa5",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:a066fcfcf8552203636e0b7a96f2edd4",
+  "taal_vir_mens": [],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "0fa7105ec5339db16b85d39e9d3c346e"
 }

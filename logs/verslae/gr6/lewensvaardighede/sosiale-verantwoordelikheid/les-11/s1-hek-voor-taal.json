@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "titel": "Nie oor wie jy is nie, maar oor wat jy doen",
+  "graad": 6,
+  "vak": "Lewensvaardighede",
+  "budget": 550,
+  "begrotingsreel": "default ±15%: 468-632",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-28T15:36:14+00:00",
+  "study": {
+    "words": 614,
+    "sentences": 50,
+    "mean_sentence_len": 12.3,
+    "median_sentence_len": 12.0,
+    "longest_sentence": 38,
+    "mean_syllables": 1.39,
+    "pct_polysyllabic": 7.3,
+    "pct_long_words": 2.4,
+    "commas_per_sentence": 0.4
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 8,
+    "begrip": 9
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study text 614 words, above the Grade 6 lesson ceiling 550 — a person must cut it to 550 or fewer. The budget (550) plus tolerance allows 632, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study block 8 ('As iemand seergemaak word') 131 words (guide 30–110) — will overflow its section",
+    "Study text: 0.4 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Study text: longest sentence is 38 words — check for a missing full stop",
+    "Long words in study text with no 'begrip' entry: diskrimineer, meisiesding, onregverdig, vriendskappe"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

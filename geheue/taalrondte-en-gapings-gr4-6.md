@@ -218,3 +218,22 @@ recorded below as they come.
 - **Gr 6 NW, 28 Oct:** the CAPS line for the Moon (p. 66) leaves out 'nie' ("mane ... gee hulle eie hitte en lig af"). It is marked [sic] in the Sonnestelsel spec.
   - Also open: the shared 'as' entry has omskrywing null, with Drico's wording only in the nota. The guard and the extract therefore don't see it as a shared definition. Moving it to omskrywing is a decision about Drico's Gr 5 open term.
   - Gr 6 NW Hoofstroom 3: 'Hulle raak nie op nie, solank ons dit ... dit' has a number clash. The protection was narrowed so the next revision can make it 'hulle ... hulle'.
+  - Gr 6 LV GO 2 (621), 4 (613) and 6 (585) are reading stories over 550, signed off in September. Kept as they are; add them to question 5 on the questions page.
+  - The lees/ outbox skips Gr 6 LV lessons because four sub-topics each have a 'Les 04' (name collision in the flat folder). Check how lees/ names files before the next delivery to Drico.
+  - For question 5 too: Gr 6 LV OvS 8 (588), 9 (576), 10 (629), 12 (607) and GO 7 (596) are over 550 with no exception, signed off before the ceiling rule. Carried language-only.
+
+**Where things stand, 28 Oct 2026 (end of day).**
+- Gr 6 NW 26/26 done and pushed (48d0130f).
+- Gr 6 LV in progress, nothing committed yet:
+  - OvS 1, 2, 4, 6, 7 signed off; GO 2, 6 signed off.
+  - Wound down mid-flight: GO 1 (re-run coverage on the same draft; the spec contradiction is fixed), GO 3 (checks running), GO 4 (writer check item), UK 1-4 and GO 7 (language step and writers), OvS 8, 9, 10, 12 and VK 1 (step 0 done, protections in; VK 1 writer may have run).
+  - Not started: GO 8, SR 1-12, VK 2-4.
+- Next session:
+  1. Check each lesson's state in logs/hardloop_log.jsonl before any runner call.
+  2. Run the wind-down replies' next steps.
+  3. Then GO 8, SR, VK 2-4, then Gr 6 SW (73).
+- Open from today: GO 1 buite_bestek[0] "Behandeling begin altyd by 'n grootmens" (does it read like "call an adult first"?). Update question 5 on the questions page with the over-length lessons. The questions page now saves answers (artifact capability); Q1 was answered and its acceptance written.
+  - Gr 6 LV VK 1: the writer's new stimulus 'mense en elande op rotsskilderye in die Drakensberg' (protected) needs its fact check. The spec's opening item says 'sien feiterisiko 7' where it means the 8th item: fix. Next: call the runner with --met-taal. OvS 8, 9, 10, 12: call the runner again, then run the finders.
+  - UK 1, 2 and GO 7 protections were added at the wind-down: call the runner again, then the finders. UK 3: call the runner (it registers the reports, then the writer fixes 'beweging' and the maskandi 'dikwels'). UK 4: call the runner (it applies one change), then the writer for one item. The ruimte dance sentence waits on UK 4's fact check.
+  - Gr 4 LV UK 2 'beweging' ('van houding of plek verander') overlaps 'niebeweging' (moving on one spot), per a Gr 6 fact check. Gr 6 now orders 'van plek na plek'. Fix Gr 4 at its next reprint; this is related to question 11.
+  - Gr 6 LV shared 'voorouers' says the same thing twice ('reeds oorlede is' and 'wat al gesterf het'), and its recorded reason mentions 'voor jou gebore is', which the wording lacks. Tidy at the year's reconciliation (several lessons use it). SV 5 'probeer ook nie om dit te keer nie': 'dit' can read as the animal; next revision.

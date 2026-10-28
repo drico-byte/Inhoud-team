@@ -1,7 +1,7 @@
 {
   "les": "gr6/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:72fa51ae11b749f5eca1d3f3b6b516fb",
+  "konsep_hash": "sha256:f54525fbdcbc592d7ae2b06fc298319c",
   "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:38659ba678849ea42d0a4b517d37e51b"
@@ -195,11 +195,149 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-3.json",
       "konsep_hash": "sha256:72fa51ae11b749f5eca1d3f3b6b516fb",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T11:23:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:65db4940c0c34f2d4cd5a063d22036de",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T11:23:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 615,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:23:42+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:65db4940c0c34f2d4cd5a063d22036de",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T11:30:22+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 11,
+      "laat_vaar": 2,
+      "na_skrywer": 3,
+      "nie_toegepas": 0,
+      "woorde_voor": 615,
+      "woorde_na": 619,
+      "konsep_hash": "sha256:1ca5bfa416237593a5e344086db4bb49"
+    },
+    {
+      "wanneer": "2026-10-28T11:30:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 619,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:30:23+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Gaar kos staan nie langer as twee uur buite nie': The storage rule is phrased as a description rather than an instruction among imperatives.",
+        "fix: [taal] in 'neem die grootmens hom met die houer': 'hom' has no clear antecedent after 'jy of iemand anders'.",
+        "fix: [taal] in 'Hulle gaan ook kliniek toe as hy nie beter word nie.': 'Hulle' has no clear antecedent.",
+        "check (the language finder raised this; it may not be a fault): 'sonder om vir tekens te wag of hom te laat opgooi': Not a language fault and not a safety flag: the protected entry says the pair 'tekens en simptome' must not be shortened to one word, and here 'tekens' alone may narrow the instruction (one should not wait for symptoms either). Changing it would alter meaning, so a writer or person should judge whether it is intended."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T11:41:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:e01ff321c55c82ec2b8957ad0f2eb80f",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T11:41:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 611,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:49:57+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f54525fbdcbc592d7ae2b06fc298319c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T11:49:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 613,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T12:26:34+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 5,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 613,
+      "woorde_na": 613
+    },
+    {
+      "wanneer": "2026-10-28T14:26:19+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:26:19+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 48,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:26:53+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:26:53+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 48,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:26:53+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-3.json",
+      "konsep_hash": "sha256:f54525fbdcbc592d7ae2b06fc298319c",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:09bc1390766400b2ba037b7e7a93cc7a",
+  "spek_hash": "sha256:c5503eb16e0ee644de5b19c4b57fc43c",
   "hek_konteks": {
     "graad": 6,
     "begroting": 550
-  }
+  },
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'wat ook op kos groei': 'n Lewende groeisel wat ook op kos groei' repeats the same stem and reads wooden."
+  ],
+  "taal_geforseer_vir": "sha256:65db4940c0c34f2d4cd5a063d22036de",
+  "taal_rondte_vir": "sha256:f54525fbdcbc592d7ae2b06fc298319c",
+  "taal_keurder_vir": "b1572f83b57525b652c0e326ad56ebd0",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:f54525fbdcbc592d7ae2b06fc298319c",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:1ca5bfa416237593a5e344086db4bb49",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "76e14011971244c338bf8a8d30f4be53"
 }

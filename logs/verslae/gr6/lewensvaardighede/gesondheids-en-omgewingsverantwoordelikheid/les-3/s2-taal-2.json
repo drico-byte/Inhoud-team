@@ -1,0 +1,99 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Vars of bederf?",
+      "voor": "Bederfde kos ruik",
+      "na": "Bedorwe kos ruik",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Bedorwe' is the standard attributive adjective of 'bederf'; 'bederfde' reads as a less idiomatic variant.",
+      "fout": "none",
+      "rede_keurder": "'Bederfde kos' is ordinary, correct Afrikaans for spoiled food and matches the lesson's own 'bederf' stem in the heading and glossary, so 'bedorwe' is only a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Lees die etiket",
+      "voor": "kan kos nog veilig wees",
+      "na": "kan die kos nog veilig wees",
+      "soort": "sinsbou",
+      "rede_vinder": "The sentence refers to the specific food on the label, as the surrounding sentences do with 'die kos'.",
+      "fout": "none",
+      "rede_keurder": "'Na daardie datum kan kos nog veilig wees' already reads clearly. Adding the article changes nothing a reader needs, so this is a lateral move."
+    },
+    {
+      "nr": 3,
+      "blok": "Lees die etiket",
+      "voor": "Soek daarop na iets",
+      "na": "Soek op die lys na iets",
+      "soort": "verwysing",
+      "rede_vinder": "'Daarop' could point to the label or the list; naming the list makes the reference clear.",
+      "fout": "none",
+      "rede_keurder": "'Daarop' covers the whole label, including allergen warnings printed outside the ingredient list, so narrowing it to 'die lys' moves the meaning of an allergy instruction."
+    },
+    {
+      "nr": 4,
+      "blok": "Sonder 'n yskas",
+      "voor": "mag ook net twee uur staan of een uur",
+      "na": "mag ook net twee uur staan, of een uur",
+      "soort": "leestekens",
+      "rede_vinder": "The afterthought 'of een uur op 'n baie warm dag' is set off with a comma in the parallel sentence under 'Kos bêre'; matching it reads more clearly.",
+      "fout": "none",
+      "rede_keurder": "The 'of' joins parts of one short sentence, so the AWS does not require a comma there, and the sentence reads well without one."
+    },
+    {
+      "nr": 6,
+      "blok": "bestanddele",
+      "voor": "om 'n kos te maak",
+      "na": "om kos te maak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Kos' is a mass noun and ''n kos' is colloquial; the article is not needed.",
+      "fout": "none",
+      "rede_keurder": "''n Kos' (a dish or food product) is standard Afrikaans, and dropping the article in a glossary definition turns 'the ingredients of this food' into food in general."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "skimmel",
+      "voor": "wat ook op kos groei",
+      "na": "wat ook op kos voorkom",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Groeisel wat ... groei' repeats the same stem and reads wooden; 'voorkom' keeps the meaning.",
+      "fout": "'n Lewende groeisel wat ook op kos groei' repeats the same stem and reads wooden.",
+      "rede_keurder": "The repetition is a real fault, but this is a glossary definition, and 'voorkom' drops the idea that mould grows, which the next sentence builds on, so the writer should fix it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 613,
+  "woorde_na": 613,
+  "wanneer": "2026-10-28T12:26:34+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Kos voorberei",
+      "voor": "kos wat klaar is om te eet",
+      "na": "kos wat gereed is om te eet",
+      "soort": "anglisisme",
+      "rede_vinder": "'Klaar is om te eet' echoes English 'ready to eat'; 'gereed' is the standard Afrikaans word here.",
+      "fout": "none",
+      "rede_keurder": "'klaar' meaning ready is standard Afrikaans and also carries 'already prepared', so the swap is lateral and narrows the sense."
+    },
+    {
+      "nr": 10,
+      "blok": "Siek van kos",
+      "voor": "Siekte van kos met kieme, gif of bederf daarin noem ons voedselvergiftiging.",
+      "na": "As 'n mens siek word van kos met kieme, gif of bederf daarin, noem ons dit voedselvergiftiging.",
+      "soort": "sinsbou",
+      "rede_vinder": "The fronted object 'Siekte van kos ... daarin' is wooden; a conditional clause reads naturally with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'X noem ons Y' is a normal defining construction that mirrors the glossary entry; the proposal is longer and names the event rather than the illness."
+    }
+  ],
+  "konsep_hash_voor": "sha256:f54525fbdcbc592d7ae2b06fc298319c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f54525fbdcbc592d7ae2b06fc298319c"
+}

@@ -4,36 +4,41 @@
   "graad": 6,
   "vak": "Lewensvaardighede",
   "budget": 550,
-  "checked_at": "2026-09-21T13:51:43+00:00",
+  "begrotingsreel": "default ±15%: 468-632",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-28T11:37:44+00:00",
   "study": {
-    "words": 611,
-    "sentences": 40,
-    "mean_sentence_len": 10.8,
-    "median_sentence_len": 10.5,
-    "longest_sentence": 29,
-    "mean_syllables": 1.32,
-    "pct_polysyllabic": 5.1,
+    "words": 622,
+    "sentences": 39,
+    "mean_sentence_len": 11.5,
+    "median_sentence_len": 12,
+    "longest_sentence": 32,
+    "mean_syllables": 1.31,
+    "pct_polysyllabic": 4.9,
     "pct_long_words": 1.6,
-    "commas_per_sentence": 0.2,
-    "list_words": 181
+    "commas_per_sentence": 0.36,
+    "list_words": 174
   },
   "eli10": null,
   "block_counts": {
-    "studie": 6,
+    "studie": 7,
     "lys": 2,
     "begrip": 6
   },
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study text: mean sentence length 10.8 below band minimum 11.0 — sentences are choppier than the grade expects  [marginal — within tolerance, not blocking]",
+    "Study text 622 words, above the Grade 6 lesson ceiling 550 — a person must cut it to 550 or fewer. The budget (550) plus tolerance allows 632, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
+    "Study text: 0.36 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Study text: longest sentence is 32 words — check for a missing full stop",
     "List 'Vyf stappe om 'n konflik op ' item 4: 20 words (guide 18) — consider tightening",
     "List 'Vyf vaardighede wat die vred' item 1: 27 words (guide 18) — consider tightening",
     "List 'Vyf vaardighede wat die vred' item 4: 21 words (guide 18) — consider tightening",
+    "List 'Vyf vaardighede wat die vred' item 5: 20 words (guide 18) — consider tightening",
     "Long words in study text with no 'begrip' entry: tussenbeide"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

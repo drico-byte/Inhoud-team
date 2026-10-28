@@ -1,0 +1,97 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Amahle se span",
+      "voor": "wat nog altyd laaste gestaan het",
+      "na": "wat nog altyd laaste oorgebly het",
+      "soort": "idioom",
+      "rede_vinder": "'Laaste gestaan' is vague; 'laaste oorgebly' is the natural way to say he was always the last one left when teams were picked.",
+      "fout": "'laaste gestaan' is vague for being the last one picked",
+      "rede_keurder": "'Laaste oorgebly' is the natural Afrikaans for the last child left at team-picking, and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Amahle se span",
+      "voor": "tot elke kind wat wou speel in 'n span was",
+      "na": "tot elke kind wat wou speel, in 'n span was",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the embedded relative clause stops 'speel in 'n span' being misread as one phrase.",
+      "fout": "without a comma after the embedded relative clause, 'wou speel in 'n span' reads as one phrase and 'was' dangles",
+      "rede_keurder": "A comma closing the embedded clause before the main verb removes a real stumble without changing the meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Amahle se span",
+      "voor": "Die Maandag het die klas begin oefen vir 'n dans by die skool se konsert",
+      "na": "Die Maandag daarna het die klas begin om 'n dans vir die skool se konsert in te oefen",
+      "soort": "sinsbou",
+      "rede_vinder": "'Die Maandag' on its own does not anchor the time, and 'begin oefen vir 'n dans by die konsert' is English word order; the rewrite is idiomatic and keeps the meaning.",
+      "fout": "'begin oefen vir 'n dans by die skool se konsert' follows English word order and reads stiffly",
+      "rede_keurder": "'Begin om 'n dans vir die konsert in te oefen' is idiomatic, and 'daarna' only makes explicit the sequence the story already implies, matching its own 'Die Vrydag daarna'."
+    },
+    {
+      "nr": 8,
+      "blok": "Amahle se span",
+      "voor": "Lindiwe het al vir haar 'n plek langs haar gehou",
+      "na": "Lindiwe het al vir Amahle 'n plek langs haar gehou",
+      "soort": "verwysing",
+      "rede_vinder": "The two 'haar' refer to different girls; naming Amahle removes the ambiguity.",
+      "fout": "the two 'haar' in one clause refer to different girls",
+      "rede_keurder": "Naming Amahle resolves the pronoun ambiguity without adding anything new."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Amahle se span",
+      "voor": "die eerste doel van die dag geskiet",
+      "na": "die eerste doel van die dag geskop",
+      "soort": "woordkeuse",
+      "rede_vinder": "In soccer Afrikaans a goal is 'geskop' (or 'aangeteken'); 'geskiet' is a calque of English 'shot'.",
+      "fout": "none",
+      "rede_keurder": "'n Doel skiet' is established Afrikaans sports usage, not a calque, so the swap is lateral and also repeats 'skop' from earlier in the paragraph."
+    },
+    {
+      "nr": 5,
+      "blok": "Amahle se span",
+      "voor": "eenkant moes wag toe Ruan kies",
+      "na": "eenkant moes wag toe Ruan gekies het",
+      "soort": "grammatika",
+      "rede_vinder": "The clause refers to a past event inside a past-tense sentence, so it needs the past form 'gekies het'.",
+      "fout": "none",
+      "rede_keurder": "'Toe' with the present form is normal Afrikaans narrative past, and 'toe Ruan gekies het' can shift the time to after the picking was done."
+    },
+    {
+      "nr": 6,
+      "blok": "Amahle se span",
+      "voor": "toe die spanne gekies is",
+      "na": "terwyl die spanne gekies is",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Toe ... gekies is' can read as after the teams had been chosen; 'terwyl' makes clear he stood there during the choosing.",
+      "fout": "none",
+      "rede_keurder": "'Toe die spanne gekies is' already reads naturally as during the picking, so 'terwyl' is a lateral move."
+    },
+    {
+      "nr": 7,
+      "blok": "Amahle se span",
+      "voor": "het Ruan vir Lindiwe eerste gekies",
+      "na": "het Ruan Lindiwe eerste gekies",
+      "soort": "grammatika",
+      "rede_vinder": "The direct object of 'kies' needs no 'vir', and the story elsewhere writes 'Sy het Lindiwe gekies' without it.",
+      "fout": "none",
+      "rede_keurder": "'Vir' before a person as direct object is accepted standard Afrikaans and fits the story's spoken voice, so dropping it is lateral."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 585,
+  "woorde_na": 588,
+  "wanneer": "2026-10-28T15:38:45+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:c1aeee038733ee5dd5dd8e934d879698",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c0b2dfc814be160813de6cf425df4eef"
+}

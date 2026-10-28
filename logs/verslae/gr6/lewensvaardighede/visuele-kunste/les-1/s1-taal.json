@@ -1,0 +1,87 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Mense en diere in prente",
+      "voor": "Jy kyk steeds met Graad 4 en 5 se woorde",
+      "na": "Jy gebruik steeds Graad 4 en 5 se woorde",
+      "soort": "idioom",
+      "rede_vinder": "One does not 'look with words' in Afrikaans; 'gebruik' says what is meant.",
+      "fout": "'kyk met ... woorde' is not natural Afrikaans; one does not look with words.",
+      "rede_keurder": "'Jy gebruik steeds Graad 4 en 5 se woorde' says plainly what is meant without changing the content."
+    },
+    {
+      "nr": 3,
+      "blok": "Een kleur, ligter en donkerder",
+      "voor": "Stel jou 'n prent voor van 'n seun en sy hond wat net in blou geverf is.",
+      "na": "Stel jou 'n prent van 'n seun en sy hond voor. Die prent is net in blou geverf.",
+      "soort": "verwysing",
+      "rede_vinder": "'wat' can be read as referring to the dog rather than the picture; splitting the sentence removes the ambiguity and puts the separable verb's 'voor' in its natural place.",
+      "fout": "'wat net in blou geverf is' can attach to the dog rather than the picture, which makes a reader stumble.",
+      "rede_keurder": "Splitting the sentence removes the ambiguity in two short Grade 6 sentences, with the same picture and the same facts."
+    },
+    {
+      "nr": 4,
+      "blok": "Een kleur, ligter en donkerder",
+      "voor": "Die lug is ligblou en die hond is blou.",
+      "na": "Die lug is ligblou, en die hond is blou.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "'Die lug is ligblou' and 'die hond is blou' are two full sentences, so the AWS 2017 comma is required."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoe jy die dele uitmekaar hou",
+      "voor": "Jy hou hulle eerder uitmekaar deur ligter teenoor donkerder.",
+      "na": "Jy hou hulle eerder uitmekaar deur ligter en donkerder weergawes teenoor mekaar te stel.",
+      "soort": "sinsbou",
+      "rede_vinder": "'deur ligter teenoor donkerder' has no noun or verb and reads as a fragment; the lesson's own word 'weergawes' completes it without new content.",
+      "fout": "'deur ligter teenoor donkerder' has no noun or verb and reads as a fragment.",
+      "rede_keurder": "The proposal completes the construction with the lesson's own word 'weergawes' and adds no content."
+    },
+    {
+      "nr": 6,
+      "blok": "Balans",
+      "voor": "Dit is nie regte gewig nie.",
+      "na": "Dit gaan nie oor regte gewig nie.",
+      "soort": "idioom",
+      "rede_vinder": "'Dit is nie regte gewig nie' is wooden; 'Dit gaan nie oor' is the natural Afrikaans way to say this.",
+      "fout": "'Dit is nie regte gewig nie' is wooden; 'dit' has no clear referent.",
+      "rede_keurder": "'Dit gaan nie oor regte gewig nie' is the natural Afrikaans phrasing and keeps the point that the heaviness is only how it looks."
+    },
+    {
+      "nr": 7,
+      "blok": "Asimmetriese balans",
+      "voor": "laat hom minder swaar lyk as sy grootte",
+      "na": "laat hom minder swaar lyk as wat jy by sy grootte sou verwag",
+      "soort": "sinsbou",
+      "rede_vinder": "The sentence compares how heavy the horse looks with his size itself, which is illogical; the comparison is with what his size would lead you to expect.",
+      "fout": "The sentence compares how heavy the horse looks with his size itself, which is illogical.",
+      "rede_keurder": "The proposal makes the comparison logical (with what his size leads you to expect) without adding any fact, and keeps 'lyk'."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Mense en diere in prente",
+      "voor": "Jy kry hulle in foto's",
+      "na": "Jy sien hulle in foto's",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Kry' in the sense of 'find' is colloquial; 'sien' is clearer and more natural here.",
+      "fout": "none",
+      "rede_keurder": "'Kry' in the sense of 'come across' (aantref) is standard, natural Afrikaans, so 'sien' is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 503,
+  "woorde_na": 514,
+  "wanneer": "2026-10-28T14:27:06+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:7c292f5673818863090c4772507d635a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:0b77ef0b9f98c46864c6fa5e2846197e"
+}

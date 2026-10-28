@@ -1,0 +1,88 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat dit aan vriende en gesinne doen",
+      "voor": "Dalk vertel hy sy beste vriend nie meer hoe hy voel nie",
+      "na": "Dalk vertel hy nie meer vir sy beste vriend hoe hy voel nie",
+      "soort": "woordorde",
+      "rede_vinder": "Spoken Afrikaans marks the listener with 'vir', and 'nie meer' sits more naturally straight after the verb; 'vertel' itself is kept.",
+      "fout": "'vertel hy sy beste vriend nie meer' drops the 'vir' spoken Afrikaans uses to mark the listener and reads stiff",
+      "rede_keurder": "Natural Afrikaans with the same person, action and listener; protected 'vertel' kept and nothing added or lost."
+    },
+    {
+      "nr": 2,
+      "blok": "geslagstereotipe",
+      "voor": "seuns en meisies, of oor",
+      "na": "seuns en meisies of oor",
+      "soort": "leestekens",
+      "rede_vinder": "AWS: no comma before 'of' when it does not join two clauses, and the study text writes the same phrase without one.",
+      "fout": "comma before 'of' joining two parts of one phrase, not two clauses, and inconsistent with the same phrase in the study text",
+      "rede_keurder": "Punctuation-only fix under AWS that leaves the wording of this lesson-only definition unchanged and matches the study text."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat dit aan vriende en gesinne doen",
+      "teks": "In 'n gesin voel 'n kind dalk minder werd as 'n broer of suster.",
+      "rede": "Unlike the two examples before it, this sentence never says the child is treated differently because of being a boy or a girl, so a reader may not link it to sexism; fixing it would add content, so it is for the writer."
+    },
+    {
+      "blok": "Wat dit aan 'n klas of 'n span doen",
+      "teks": "'n Meisie bou dalk nie meer saam nie, en 'n seun sing nie meer nie.",
+      "rede": "'bou saam' is vague without saying what is built (a model, a project), and the sentence does not show that these are the stereotyped activities; clarifying it would mean guessing the intended content."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 614,
+  "woorde_na": 615,
+  "wanneer": "2026-10-28T15:43:01+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 8,
+      "blok": "Wat dit aan 'n klas of 'n span doen",
+      "voor": "wanneer seksisme gewoon word",
+      "na": "wanneer seksisme iets gewoons word",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Gewoon word' reads awkwardly and is easily confused with 'gewoond'; 'iets gewoons word' says it becomes normal.",
+      "fout": "none",
+      "rede_keurder": "'Gewoon word' is grammatical and clear, and the proposal repeats 'iets' already used earlier in the same sentence ('verloor iets')."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat dit aan 'n klas of 'n span doen",
+      "voor": "wie volgende uitgelag word",
+      "na": "wie die volgende keer uitgelag sal word",
+      "soort": "anglisisme",
+      "rede_vinder": "Bare adverbial 'volgende' calques 'who is next'; 'die volgende keer ... sal word' is natural Afrikaans for a future event.",
+      "fout": "none",
+      "rede_keurder": "Adverbial 'volgende' is normal Afrikaans and the original reads well; the proposal is longer without being clearly better."
+    },
+    {
+      "nr": 13,
+      "blok": "As iemand seergemaak word",
+      "voor": "'n kind se werk om dit te stop",
+      "na": "'n kind se werk om dit stop te sit",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Stopsit' is the more natural Afrikaans for putting an end to something ongoing; meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "Transitive 'stop' (to make something end) is standard Afrikaans and plain for Grade 6, so 'stopsit' is a lateral move in a sentence about who is responsible."
+    },
+    {
+      "nr": 14,
+      "blok": "As iemand seergemaak word",
+      "voor": "grootmense om dit te stop",
+      "na": "grootmense om dit stop te sit",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same verb as the previous sentence so the pair stays parallel.",
+      "fout": "none",
+      "rede_keurder": "Dropped together with change 13, so the pair stays parallel with 'stop'."
+    }
+  ],
+  "konsep_hash_voor": "sha256:7f37af61771150363bfe37aab7d31652",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:36800cf0da7ee5e0871a3fc2870bf7dd"
+}

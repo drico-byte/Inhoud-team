@@ -1,7 +1,7 @@
 {
   "les": "gr6/lewensvaardighede/sosiale-verantwoordelikheid/les-11",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:ac5bdf27c1b16774d7cca4f78902ec5e",
+  "konsep_hash": "sha256:36800cf0da7ee5e0871a3fc2870bf7dd",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -58,11 +58,120 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\sosiale-verantwoordelikheid\\les-11.json",
       "konsep_hash": "sha256:ac5bdf27c1b16774d7cca4f78902ec5e",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T15:19:45+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1f19e74d1fea4f70978e153bb144a78c",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T15:19:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 611,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:27:48+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 10,
+      "laat_vaar": 4,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 611,
+      "woorde_na": 612,
+      "konsep_hash": "sha256:74f50845b9190041854f544bdbdeac13"
+    },
+    {
+      "wanneer": "2026-10-28T15:27:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 612,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:27:49+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Dit tel steeds as jy eers lank later vertel.': 'Dit tel steeds' may read as a calque of 'it still counts' (check)",
+        "check (the language finder raised this; it may not be a fault): 'Mishandeling laat sommige mense bang word en ander mense minder vertro': Ambiguous: it can mean the same people become afraid and trust others less, or that other people (a second group) come to trust less. Fixing it would mean guessing which is meant, so the writer should decide."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T15:36:14+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:7f37af61771150363bfe37aab7d31652",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T15:36:14+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 614,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:43:01+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 614,
+      "woorde_na": 615,
+      "konsep_hash": "sha256:36800cf0da7ee5e0871a3fc2870bf7dd"
+    },
+    {
+      "wanneer": "2026-10-28T15:43:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 615,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:47:59+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:47:59+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:47:59+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\sosiale-verantwoordelikheid\\les-11.json",
+      "konsep_hash": "sha256:36800cf0da7ee5e0871a3fc2870bf7dd",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:fc55e92815674db19f0e714d94c3cd13",
+  "spek_hash": "sha256:f0d31ff0d4c567abd4a9b512870fda29",
   "hek_konteks": {
     "graad": 6,
     "begroting": 550
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'In 'n gesin voel 'n kind dalk minder werd as 'n broer of suster.': Unlike the two examples before it, this sentence never says the child is treated differently because of being a boy or a girl, so a reader may not link it to sexism; fixing it would add content, so it is for the writer.",
+    "check (the language finder raised this; it may not be a fault): ''n Meisie bou dalk nie meer saam nie, en 'n seun sing nie meer nie.': 'bou saam' is vague without saying what is built (a model, a project), and the sentence does not show that these are the stereotyped activities; clarifying it would mean guessing the intended content."
+  ],
+  "taal_rondte_vir": "sha256:36800cf0da7ee5e0871a3fc2870bf7dd",
+  "taal_keurder_vir": "b34c913c8c6bcff753466fb0bdaa9d24",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:36800cf0da7ee5e0871a3fc2870bf7dd",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:74f50845b9190041854f544bdbdeac13",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "2cdfae9d916635ee564dd721aaf86c1c"
 }

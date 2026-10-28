@@ -1,0 +1,123 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wanneer mense bots",
+      "voor": "Julle praat al hoe harder en niemand",
+      "na": "Julle praat al hoe harder, en niemand",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma: 'en' joins 'Julle praat al hoe harder' and 'niemand wil toegee nie', each with its own subject and verb.",
+      "rede_keurder": "Plain punctuation fix against the AWS 2017; meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Eers: is dit veilig?",
+      "voor": "So beskerm jy jouself en kry jy hulp vir die ander ook.",
+      "na": "So beskerm jy jouself, en kry jy ook hulp vir die ander.",
+      "soort": "woordorde",
+      "rede_vinder": "Sentence-final 'ook' is unnatural word order, and the AWS comma goes before 'en' joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('beskerm jy', 'kry jy'), and the trailing 'ook' reads loosely.",
+      "rede_keurder": "The comma is required and 'kry jy ook hulp vir die ander' is the natural order with the same meaning; this is a consequence, not an instruction."
+    },
+    {
+      "nr": 4,
+      "blok": "Die tussenganger",
+      "voor": "Soms kom twee maats nie alleen uit nie",
+      "na": "Soms kom twee maats nie op hul eie reg nie",
+      "soort": "idioom",
+      "rede_vinder": "'nie alleen uitkom nie' is unclear ('uitkom' suggests getting out or getting along); 'nie op hul eie regkom nie' says they cannot manage it themselves.",
+      "fout": "'nie alleen uitkom nie' is vague and can be read as 'not get along' rather than 'not manage it by themselves'.",
+      "rede_keurder": "'nie op hul eie reg nie' (separable 'regkom') says plainly that they cannot sort it out alone, which is the meaning intended."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat 'n tussenganger doen",
+      "voor": "Daarna vra hy elkeen wat hy nodig het.",
+      "na": "Daarna vra hy vir elkeen wat dié nodig het.",
+      "soort": "verwysing",
+      "rede_vinder": "The second 'hy' could refer to the mediator himself; 'dié' points clearly to each of the two.",
+      "fout": "The second 'hy' can point to the mediator as well as to 'elkeen'.",
+      "rede_keurder": "'dié' removes the ambiguity, and 'vra vir elkeen' keeps the same who-asks-whom."
+    },
+    {
+      "nr": 6,
+      "blok": "Vyf vaardighede wat die vrede bewaar",
+      "voor": "en hulle as jy",
+      "na": "en hulle mag anders dink as jy",
+      "soort": "sinsbou",
+      "rede_vinder": "The ellipsis is hard to follow for a Grade 6 reader; repeating the verb makes the reciprocity clear without changing the meaning.",
+      "fout": "The elliptical 'en hulle as jy' makes a reader stop to supply the verb.",
+      "rede_keurder": "Repeating 'mag anders dink' makes the reciprocity clear at once with no change of meaning, within the list allowance."
+    },
+    {
+      "nr": 8,
+      "blok": "Vyf vaardighede wat die vrede bewaar",
+      "voor": "of name te noem",
+      "na": "of spotname te gee",
+      "soort": "anglisisme",
+      "rede_vinder": "'name noem' is a calque of 'call names' and in Afrikaans means 'mention names'; 'spotname gee' is the Afrikaans for name-calling.",
+      "fout": "'name noem' is a calque of 'call names' and in Afrikaans reads as 'mention names'.",
+      "rede_keurder": "'spotname gee' is the Afrikaans idiom for name-calling and keeps the meaning beside 'skel'."
+    },
+    {
+      "nr": 9,
+      "blok": "Om jouself te aanvaar",
+      "voor": "beteken jy weet jou mening en gevoelens tel",
+      "na": "beteken dat jy weet jou mening en jou gevoelens tel",
+      "soort": "sinsbou",
+      "rede_vinder": "Adding 'dat' and the second 'jou' (both allowed by the protected entry) makes the run-together clause easier to read; 'gevoelens tel' stays.",
+      "fout": "'beteken jy weet jou mening en gevoelens tel' runs two dependent clauses together without a conjunction and is hard to read first time.",
+      "rede_keurder": "Adding 'dat' and the second 'jou' smooths the sentence, both are allowed by the protected entry, and 'gevoelens tel' stays."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Eers: is dit veilig?",
+      "voor": "gaan na 'n volgende een",
+      "na": "gaan na 'n ander een",
+      "soort": "woordkeuse",
+      "rede_vinder": "'n volgende een' is stiff; 'n ander een' is the natural phrase with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'n volgende een' is acceptable Afrikaans and carries the sense of moving on to the next adult; in a safety instruction a lateral swap is not worth making."
+    },
+    {
+      "nr": 7,
+      "blok": "Vyf vaardighede wat die vrede bewaar",
+      "voor": "Jy spot nie met 'n ander mening nie.",
+      "na": "Jy spot nie met iemand anders se mening nie.",
+      "soort": "woordkeuse",
+      "rede_vinder": "''n ander mening' reads as 'a different opinion' in the abstract; the point is another person's opinion.",
+      "fout": "none",
+      "rede_keurder": "'n ander mening' means a differing opinion, which is exactly the point after 'jy mag anders dink'; 'iemand anders se mening' narrows it to whose opinion it is."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat 'n tussenganger doen; Vyf vaardighede wat die vrede bewaar",
+      "teks": "Dan sê hy terug wat hy gehoor het / sê terug wat jy gehoor het",
+      "rede": "'terugsê' commonly means to talk back or retort in Afrikaans (the protected notes themselves use 'iets terugsê' that way), so the listening technique may be misread; a fix such as 'herhaal' or 'sê in jou eie woorde' would have to be made in both places at once and may shift the technique, so it is left to a person or the writer."
+    },
+    {
+      "blok": "Wanneer 'n kind nie tussenganger is nie",
+      "teks": "Wanneer 'n kind nie tussenganger is nie",
+      "rede": "The heading literally says 'when a child is not a mediator'; the block means 'when a child should not act as mediator' (e.g. 'Wanneer 'n kind nie tussenganger moet wees nie'). A heading cannot be changed by the script."
+    },
+    {
+      "blok": "Vyf vaardighede wat die vrede bewaar",
+      "teks": "Persoonlike verantwoordelikheid vir jou aksies",
+      "rede": "'aksies' is an anglicism where Afrikaans says 'dade'; not changed because the label may follow the CAPS skill name, which only a person can confirm."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 616,
+  "woorde_na": 624,
+  "wanneer": "2026-10-28T11:33:15+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:91344816481fe0483ffae95c97cd1fa2",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f357c054f5c563961c809ff7ff7e4aea"
+}

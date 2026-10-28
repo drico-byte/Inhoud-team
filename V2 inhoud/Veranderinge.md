@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-193 lesse.
+228 lesse.
 
 
 ## Graad 4/Lewensvaardighede/Gesondheids- en omgewingsverantwoordelikheid
@@ -314,13 +314,57 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 ## Graad 6/Lewensvaardighede/Gesondheids- en omgewingsverantwoordelikheid
 
+- **Les 01 - Tot die grootmens daar is** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 02 - Twintig minute by die kraan** (goedgekeur 2026-10-28): 8 taalverandering(s) toegepas
+- **Les 03 - Van die winkel tot op jou bord** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: KABV-gaping: lees die bestanddele op die etiket vir enigiets wat jou kan skaad (soos grondboontjies as jy allergies is); twee kosoordraagbare siektes by die naam: salmonellose en listeriose; KABV-gaping: Veiligheid: by moontlike gif moenie vir tekens OF simptome wag nie; KABV-gaping: Feite: gaar kos staan nie langer as twee uur uit die yskas nie (nie 'buite' nie)
+- **Les 04 - Die kos wat die nag buite gestaan het** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feite: 'buite' uit Lerato se sin oor kieme wat vermeerder
 - **Les 05 - Siektes wat van mens tot mens oorgaan** (goedgekeur 2026-10-22): 9 taalverandering(s) toegepas; KABV-gaping: Voltooi (was sedert 15 Oktober onvoltooi); KABV-gaping: Feitetoets: 'n virus word nie meer met 'of' teenoor kieme gestel nie ('baie klein dinge, soos kieme'), volgens die 2 September-beslissing dat 'n virus nie 'n kiem genoem word nie; KABV-gaping: Taal: 'TB kan gesond gemaak word' en 'die beste kans om gesond te word' terug na die beskermde bewoording
+- **Les 06 - Die kolle wat nie gekrap mag word nie** (goedgekeur 2026-10-28): 8 taalverandering(s) toegepas
+- **Les 07 - Wat waar is oor MIV** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Taal: 'By die meeste mense wat MIV-medisyne elke dag drink, keer die medisyne dat MIV tot VIGS lei'
+- **Les 08 - Tannie Palesa se kliniekdag** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
 
 ## Graad 6/Lewensvaardighede/Ontwikkeling van self
 
+- **Les 01 - 'n Lyf wat groei** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas; KABV-gaping: KABV-term 'media' in die studieteks: 'So kan die media jou liggaamsbeeld beïnvloed'
+- **Les 10 - Die week met te veel** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
 - **Les 11 - Om op te hou afknou** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: Net die taalstap (geen KABV-gaping nie); KABV-gaping: Taal: die beskermde 'oor en oor' is terug waar die teks 'weer en weer' gehad het; 'Die kind of groep' stem weer met die beskermde bewoording ooreen; KABV-gaping: Die stap waar die grootmens eers die ander kind vra of en hoe hy 'n verskoning wil hê, sê nou duidelik wie vra; Childline word as ekstra hulp beskryf, nie in plaas van grootmense nie
+- **Les 12 - Die ander kant van die speelgrond** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feite: 'Die Dinsdag daarna' (die gesprek het op 'n Sondag geval)
+- **Les 02 - Die langste in die span** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feite: die onbevestigde netbalnaam 'doelskieter' is uit; die posisie word beskryf
 - **Les 03 - Wat jy kan, wat jy graag doen, en wat jy kan word** (goedgekeur 2026-10-22): 9 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: 'Identifiseer eie potensiaal' - 'n nuwe blok 'Tekens van jou potensiaal' gee twee tekens (jy word beter as jy oefen; iets wat jy met hulp kan doen maar nog nie alleen nie), sonder 'n belofte oor wat jy sal word; KABV-gaping: Taal: nege regstellings, onder meer 'na vore kom', 'mettertyd', 'van die tyd vergeet' en ''n verskil'
+- **Les 04 - Die buurman se werkbank** (goedgekeur 2026-10-28): 6 taalverandering(s) toegepas
 - **Les 05 - Wanneer die groep druk** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: Net die taalstap (geen KABV-gaping nie): nege taalregstellings, onder meer 'uitgelaat', 'oor die foon', 'saamlag' en die AWS-komma; KABV-gaping: Groepsdruk se omskrywing begin nou met 'n selfstandige naamwoord ('Die druk wat mense van jou ouderdom op jou sit ...')
+- **Les 06 - Die uitdaging by die winkel** (goedgekeur 2026-10-28): 6 taalverandering(s) toegepas
+- **Les 07 - Om die vrede te bewaar** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: KABV-gaping: om jouself te aanvaar as 'n vaardigheid wat die vrede bewaar; KABV-gaping: Graad 6-reël: 'dreig om seer te maak', nie net 'dreig' nie; KABV-gaping: Taal: 'sê in jou eie woorde wat ...' (nie 'sê terug' nie)
+- **Les 08 - Tussen twee maats** (goedgekeur 2026-10-28): taalstap: niks verander nie
+- **Les 09 - Jou tyd, jou plan** (goedgekeur 2026-10-28): 4 taalverandering(s) toegepas; KABV-gaping: Taal: 'verantwoordelikheid' eindig nou 'om te doen of te versorg' (nie 'na te kyk' nie)
+
+## Graad 6/Lewensvaardighede/Sosiale verantwoordelikheid
+
+- **Les 01 - Van die eerste dag tot die laaste** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 10 - Ons klas se erfenistafel** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
+- **Les 11 - Nie oor wie jy is nie, maar oor wat jy doen** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: mishandeling skaad ook vriendskappe en vertroue in 'n klas, span of gemeenskap; KABV-gaping: Veiligheid: vertel 'n grootmens wat jy vertrou, ook as jy nie kon wegkom nie; vertel, veral as dit aanhou; 'Al vertel jy eers lank later, is dit steeds belangrik'
+- **Les 12 - Die span wat almal gekies het** (goedgekeur 2026-10-28): 4 taalverandering(s) toegepas
+- **Les 02 - Twee families, een fees** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
+- **Les 03 - Elke mens tel** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: KABV-dekking: Boeddhisme kry 'n sigbare daad teenoor ander (party Suid-Afrikaanse Boeddhiste deel kos en komberse uit); KABV-gaping: Feite: niemand verdien of verloor menswaardigheid deur wat hy doen nie; wat wys, is respek vir ander se menswaardigheid; KABV-gaping: Taal: 'verkeerslig' (nie 'robot' nie)
+- **Les 04 - Die week toe die straat gehelp het** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
+- **Les 05 - Hulle kan nie self vra nie** (goedgekeur 2026-10-28): 4 taalverandering(s) toegepas; KABV-gaping: Taal: 'Dit val minder op'; die wetsin reggestel; 'tuig' is 'Die stel rieme'
+- **Les 06 - Die hond agter die draad** (goedgekeur 2026-10-28): 8 taalverandering(s) toegepas
+- **Les 07 - Ek hoor jou, en ek sê my sê** (goedgekeur 2026-10-28): 4 taalverandering(s) toegepas
+- **Les 08 - Een goeie ding lei na 'n ander** (goedgekeur 2026-10-28): 6 taalverandering(s) toegepas
+- **Les 09 - Wat maak ons een land** (goedgekeur 2026-10-28): 8 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: hoe die nasionale dae mense verenig; wat die OAE was en hoe Afrikadag gevier word; Kinderdag (eerste Saterdag van November) en die VN se Wêreldkinderdag (20 November)
+
+## Graad 6/Lewensvaardighede/Uitvoerende Kunste
+
+- **Les 01 - Lofdig en kinderteater** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping (besluit 1): al 13 sleutelterme kry 'n kort omskrywing; KABV-gaping: Taal: die geëerde leier, familie of mens word duidelik genoem
+- **Les 02 - Pantsula en Indiese dans** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: sleutelterme; kwaito is ook 'n dans (besluit 18); KABV-gaping: Feite: die bewering oor volksdanse by troues is uit; pantsula-dansers beweeg 'dikwels' presies saam; Bharatanatyam se hande maak 'dikwels' gebare wat iets beteken; KABV-gaping: Gedeelde bewoording: kwaito op 'n herhaalde elektroniese 'ritme' (soos Graad 5)
+- **Les 04 - Patrone in 'n seremonie** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: een benoemde Suid-Afrikaanse ritueel (mehndi by sommige Indiese gesinne), net die openbare deel (besluit 17); die klas se proses; sleutelterme; KABV-gaping: Nuwe gedeelde bewoordings: 'ruimte' in dans, 'seremonie'
+
+## Graad 6/Lewensvaardighede/Visuele Kunste
+
+- **Les 01 - Een kleur, twee kante** (goedgekeur 2026-10-28): 6 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: benoemde Suid-Afrikaanse stimulus: mense en elande op rotsskilderye in die Drakensberg
+- **Les 02 - Van die middel na buite** (goedgekeur 2026-10-28): 6 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: benoemde Suid-Afrikaanse stimulus: die Barbertonse madeliefie, wat wild in Mpumalanga groei
+- **Les 03 - Kyk self na jou eie prent** (goedgekeur 2026-10-28): 7 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: benoemde stimulus: die bronsbeeld van Nelson Mandela by die Uniegebou; 'toon' as kunselement
+- **Les 04 - Mure, dakke en vensters** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: 'balans' kry 'n begrip; kontras, verhouding en klem, elk met hoe 'n argitek dit kan skep; KABV-gaping: Gedeelde bewoording: 'ruimte' rondom, tussen en binne-in die geboue
 
 ## Graad 6/Natuurwetenskappe en Tegnologie/Bewegings van die Aarde en planeete
 

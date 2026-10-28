@@ -1,7 +1,7 @@
 {
   "les": "gr6/lewensvaardighede/gesondheids-en-omgewingsverantwoordelikheid/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:39ad55cf475b7c4947deef2600d0e6b8",
+  "konsep_hash": "sha256:25e3ee1cb5de2e7dea02e6f6fa2ebeb0",
   "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:82ba2b54e6446329633e529a115ca695"
@@ -72,11 +72,139 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-1.json",
       "konsep_hash": "sha256:39ad55cf475b7c4947deef2600d0e6b8",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T11:15:56+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fdb76236bdeffc5bf3093c2d45eebc4c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T11:15:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 698,
+      "begroting": 625,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:15:57+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:fdb76236bdeffc5bf3093c2d45eebc4c",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T11:30:19+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 18,
+      "laat_vaar": 5,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 698,
+      "woorde_na": 707,
+      "konsep_hash": "sha256:f0e32bcd93c8f03326bd4be4354680ca"
+    },
+    {
+      "wanneer": "2026-10-28T11:30:20+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 707,
+      "begroting": 625,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:30:20+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'begin terselfdertyd wat nie kan wag nie': 'begin terselfdertyd wat nie kan wag nie' lacks the natural 'met'"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T11:41:56+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:29051890a99b1614221838bf2e7d4b17",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T11:41:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 708,
+      "begroting": 625,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:54:35+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 708,
+      "woorde_na": 709,
+      "konsep_hash": "sha256:25e3ee1cb5de2e7dea02e6f6fa2ebeb0"
+    },
+    {
+      "wanneer": "2026-10-28T11:54:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 709,
+      "begroting": 625,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:25:45+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:25:45+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 54,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:26:48+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:26:48+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 54,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:26:48+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\gesondheids-en-omgewingsverantwoordelikheid\\les-1.json",
+      "konsep_hash": "sha256:25e3ee1cb5de2e7dea02e6f6fa2ebeb0",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:d5856b420e3edae8c19bc98a24712dea",
+  "spek_hash": "sha256:66d6c4d47c6cb7baea36435f6d51018e",
   "hek_konteks": {
     "graad": 6,
     "begroting": 625
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:fdb76236bdeffc5bf3093c2d45eebc4c",
+  "taal_rondte_vir": "sha256:25e3ee1cb5de2e7dea02e6f6fa2ebeb0",
+  "taal_keurder_vir": "64834b5e304717b24a251b26e0ef42c1",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:25e3ee1cb5de2e7dea02e6f6fa2ebeb0",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:f0e32bcd93c8f03326bd4be4354680ca",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "2b1ffea14a941c5fd6e74abe4d5d2608"
 }

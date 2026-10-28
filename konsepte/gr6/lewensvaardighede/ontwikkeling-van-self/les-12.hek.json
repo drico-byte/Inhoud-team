@@ -4,17 +4,20 @@
   "graad": 6,
   "vak": "Lewensvaardighede",
   "budget": 550,
-  "checked_at": "2026-09-21T13:51:45+00:00",
+  "begrotingsreel": "default ±15%: 468-632",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-28T14:53:11+00:00",
   "study": {
-    "words": 607,
+    "words": 610,
     "sentences": 56,
     "mean_sentence_len": 10.9,
     "median_sentence_len": 11.0,
     "longest_sentence": 22,
     "mean_syllables": 1.41,
-    "pct_polysyllabic": 6.8,
-    "pct_long_words": 1.0,
-    "commas_per_sentence": 0.23
+    "pct_polysyllabic": 6.7,
+    "pct_long_words": 0.8,
+    "commas_per_sentence": 0.25
   },
   "eli10": null,
   "block_counts": {
@@ -23,11 +26,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Reading text 610 words, above the Grade 6 lesson ceiling 550 — a person must cut it to 550 or fewer. The budget (550) plus tolerance allows 632, and that is the gap Drico closed on 22 September 2026: the ceiling holds the MEASURED lesson, not only the budget. Never drop a requirement to reach it — if it cannot be done, say so and stop.",
     "Reading text: mean sentence length 10.9 below band minimum 11.0 — sentences are choppier than the grade expects  [marginal — within tolerance, not blocking]",
-    "Long words in reading text with no 'begrip' entry: bloekomboom, neergeskryf, skaakspelle, teruggetrek"
+    "Long words in reading text with no 'begrip' entry: bloekomboom, neergeskryf, teruggetrek"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

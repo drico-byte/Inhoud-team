@@ -1,0 +1,117 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die hond agter die draad",
+      "voor": "Die kinders het vir hom gewaai en hy het",
+      "na": "Die kinders het vir hom gewaai, en hy het",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before en when it joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "rede_keurder": "Two full clauses (die kinders het gewaai / hy het gehardloop), so the AWS 2017 comma is required."
+    },
+    {
+      "nr": 3,
+      "blok": "Die hond agter die draad",
+      "voor": "wat nog daar oor was",
+      "na": "wat nog oorgebly het",
+      "soort": "woordkeuse",
+      "rede_vinder": "'daar oor was' reads stiffly; 'oorgebly het' is the natural expression with the same meaning.",
+      "fout": "'wat nog daar oor was' reads stiff and wooden.",
+      "rede_keurder": "'wat nog oorgebly het' is the natural expression and says the same thing."
+    },
+    {
+      "nr": 4,
+      "blok": "Die hond agter die draad",
+      "voor": "op die warm sement gelê en daar was",
+      "na": "op die warm sement gelê, en daar was",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before en joining two full clauses (sy bak het gelê / daar was).",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Sy bak het gelê / daar was geen water are two clauses, each with its own subject and verb."
+    },
+    {
+      "nr": 5,
+      "blok": "Die hond agter die draad",
+      "voor": "Ons ken hom nie en hy ken ons",
+      "na": "Ons ken hom nie, en hy ken ons",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before en joining two clauses with their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Ons ken hom nie / hy ken ons ook nie are two clauses; the comma does not disturb the dialogue's rhythm."
+    },
+    {
+      "nr": 6,
+      "blok": "Die hond agter die draad",
+      "voor": "Hy wou nie hê dat oom Koos in die moeilikheid kom nie.",
+      "na": "Hy wou nie hê oom Koos moet in die moeilikheid kom nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "After 'wou nie hê' Afrikaans naturally uses 'moet' without 'dat'; the bare present 'kom' sits awkwardly in a past narrative.",
+      "fout": "'dat ... kom' with a bare present sits stiffly in a past narrative.",
+      "rede_keurder": "'Hy wou nie hê oom Koos moet in die moeilikheid kom nie' is the natural Afrikaans construction with the same meaning."
+    },
+    {
+      "nr": 7,
+      "blok": "Die hond agter die draad",
+      "voor": "wat die twee kinders vertel",
+      "na": "wat die twee kinders vertel het",
+      "soort": "grammatika",
+      "rede_vinder": "The telling happened before the listening in a past narrative, so the past tense 'vertel het' is needed; the protected word vertel is kept.",
+      "fout": "Bare present 'vertel' in a past-tense narrative for an action already done.",
+      "rede_keurder": "'vertel het' fixes the tense and keeps the protected word 'vertel' intact."
+    },
+    {
+      "nr": 9,
+      "blok": "Die hond agter die draad",
+      "voor": "'n Veearts kyk hom dadelik van kop tot stert na wanneer ons aankom.",
+      "na": "'n Veearts kyk hom van kop tot stert na sodra ons daar aankom.",
+      "soort": "sinsbou",
+      "rede_vinder": "'dadelik ... wanneer' is clumsy with the separable verb split far apart; 'sodra' carries the same immediacy more smoothly.",
+      "fout": "'dadelik ... wanneer' is clumsy, with the immediacy word split far from its clause.",
+      "rede_keurder": "'sodra' carries the same immediacy smoothly, and 'daar' only points to the shelter already named, adding no new fact."
+    },
+    {
+      "nr": 10,
+      "blok": "Die hond agter die draad",
+      "voor": "weer tuis gekom",
+      "na": "weer tuisgekom",
+      "soort": "spelling",
+      "rede_vinder": "The separable verb tuiskom is written as one word in the past participle: tuisgekom.",
+      "fout": "Separable verb 'tuiskom' written apart in the past participle.",
+      "rede_keurder": "The word list writes 'tuisgekom' as one word."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die hond agter die draad",
+      "voor": "stil gelê",
+      "na": "stilgelê",
+      "soort": "spelling",
+      "rede_vinder": "The compound verb stillê is written as one word, so the past participle is stilgelê.",
+      "fout": "none",
+      "rede_keurder": "Written apart, 'stil gelê' means the street lay quiet in the heat; 'stilgelê' leans to 'came to a standstill', so the meaning narrows."
+    },
+    {
+      "nr": 8,
+      "blok": "Die hond agter die draad",
+      "voor": "kalm die leiband om",
+      "na": "die leiband kalm om",
+      "soort": "woordorde",
+      "rede_vinder": "The adverb reads more naturally after the object: 'die leiband kalm om die hond se nek gesit'.",
+      "fout": "none",
+      "rede_keurder": "Moving 'kalm' is a lateral move; the original already reads naturally in the story."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 618,
+  "woorde_na": 617,
+  "wanneer": "2026-10-28T15:16:22+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ec614ddc888a01e095a36f8cca1d8d82",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:7219a46510de279361193fba5276bde8"
+}

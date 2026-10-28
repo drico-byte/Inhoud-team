@@ -1,11 +1,17 @@
 {
   "les": "gr6/lewensvaardighede/uitvoerende-kunste/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:5a754450f1dfe956a845af13b6561a67",
+  "konsep_hash": "sha256:2f2ace03ac1d9d4ea28fdb8e4b8cfc30",
   "hek": "PASS",
   "teruggestuur_vir": [],
-  "eskalasie": null,
-  "blok_faalrondtes": {},
+  "eskalasie": {
+    "soort": "mens_nodig",
+    "wanneer": "2026-10-28T15:24:40+00:00",
+    "rede": "feite returned MENS_NODIG — a writer handed a defect it cannot fix will invent one or strip the content"
+  },
+  "blok_faalrondtes": {
+    "begrip": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -100,11 +106,290 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\uitvoerende-kunste\\les-3.json",
       "konsep_hash": "sha256:5a754450f1dfe956a845af13b6561a67",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T11:37:33+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:06fd38a91c2f0bc1e4120a257e3754b8",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T11:37:34+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 538,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:37:34+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:06fd38a91c2f0bc1e4120a257e3754b8",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T11:44:53+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 10,
+      "laat_vaar": 2,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 538,
+      "woorde_na": 538,
+      "konsep_hash": "sha256:946d7e0c0e057adb7f3b62a6d03d6414"
+    },
+    {
+      "wanneer": "2026-10-28T11:44:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 538,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:44:54+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in ''n Suid-Afrikaanse soort koorsang': 'n Suid-Afrikaanse soort koorsang' attaches the adjective to 'soort' rather than to 'koorsang'.",
+        "fix: [taal] in ''n Zoeloe-soort musiek': 'n Zoeloe-soort musiek' is an unnatural compound.",
+        "check (the language finder raised this; it may not be a fault): 'Julle sing hulle almal eenstemmig, in twee dele, in kanon of as 'n ron': 'Hulle almal eenstemmig' can be read as all songs being sung in unison, with the rest of the list then unclear; whether it means each song in one of these ways, or the class uses all four ways, cannot be settled without guessing the intent, and three of the phrases are protected."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T11:51:18+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ec1acdfbf7a39ce69f69ee6d325adece",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T11:51:19+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 538,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T12:26:07+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 538,
+      "woorde_na": 540,
+      "konsep_hash": "sha256:27110f483a3839949e0c256d29d1fa04"
+    },
+    {
+      "wanneer": "2026-10-28T12:26:08+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 540,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:23:51+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:23:51+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 59,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:23:51+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "beweging",
+        "die twee langs mekaar"
+      ],
+      "tally": {
+        "die twee langs mekaar": 1,
+        "beweging": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T14:23:51+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Isicathamiya is 'n hele koor met net stemme en 'n voorsanger — corrected: Vernou die kwantor in die tweede sin: die voorsanger speel in maskandi DIKWELS self kitaar of konsertina (soos die eerste maskandi-sangers alleen gedoen het), en speel dikwels saam met 'n groep en agtergrondsangers. Moenie sê dat die voorsanger dit altyd self speel nie.",
+        "[feite] beweging: Wanneer jou lyf of 'n deel daarvan van houding of  — corrected: Laat die inskrywing 'beweging' die betekenis dra wat dit in die paar 'beweging en niebeweging' het: wanneer jou lyf van een plek na 'n ander beweeg, soos loop, hardloop, huppel of galop. Laat 'van houding verander' weg, want dit is presies wat 'niebeweging' beskryf."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T14:51:47+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:21688d9a278eea2f8c46d57607ae5a4f",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T14:51:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 543,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:56:03+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 543,
+      "woorde_na": 547,
+      "konsep_hash": "sha256:73245a6f129bdd65c5ec6c1058b2f88e"
+    },
+    {
+      "wanneer": "2026-10-28T14:56:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 547,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:04:04+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:04:04+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 52,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:04:04+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "maskandi",
+        "sentrering van die stem"
+      ],
+      "tally": {
+        "die twee langs mekaar": 1,
+        "beweging": 1,
+        "maskandi": 1,
+        "sentrering van die stem": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T15:04:04+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T15:07:41+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "die twee langs mekaar": 1,
+        "beweging": 1,
+        "maskandi": 1,
+        "sentrering van die stem": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T15:07:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:37421d518bde92a8f594dea84a30da56",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T15:07:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 544,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:18:17+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 544,
+      "woorde_na": 541,
+      "konsep_hash": "sha256:2f2ace03ac1d9d4ea28fdb8e4b8cfc30"
+    },
+    {
+      "wanneer": "2026-10-28T15:18:17+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 541,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:24:40+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:24:40+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 51,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:24:40+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "begrip"
+      ],
+      "tally": {
+        "begrip": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T15:24:40+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
     }
   ],
-  "spek_hash": "sha256:99c5797135ee748389fdb2a9abd4b857",
+  "spek_hash": "sha256:04f612613ee9a0f24d80c9694ff092de",
   "hek_konteks": {
     "graad": 6,
     "begroting": 480
-  }
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:06fd38a91c2f0bc1e4120a257e3754b8",
+  "taal_rondte_vir": "sha256:2f2ace03ac1d9d4ea28fdb8e4b8cfc30",
+  "taal_keurder_vir": "680ccc8f6d4c5c3c61e07376660d865b",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:2f2ace03ac1d9d4ea28fdb8e4b8cfc30",
+  "taal_vir_mens": [],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "49ee866f889230c6893e16bae563cb28"
 }

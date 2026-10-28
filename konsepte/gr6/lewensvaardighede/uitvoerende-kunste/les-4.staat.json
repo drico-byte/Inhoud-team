@@ -1,12 +1,9 @@
 {
   "les": "gr6/lewensvaardighede/uitvoerende-kunste/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d517dce74f32249442c676206b53d8b4",
+  "konsep_hash": "sha256:fd375beb3c656c99c9caaf4fded7cac9",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:7152b687d85da1bd603a969364e17b88",
-    "sha256:41b493307a3ea39ea60ae59a288b3643"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -101,11 +98,203 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\uitvoerende-kunste\\les-4.json",
       "konsep_hash": "sha256:d517dce74f32249442c676206b53d8b4",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T11:37:35+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f17de0d1d46dcb948ba5951030ced40f",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-28T11:37:36+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 498,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:37:36+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:f17de0d1d46dcb948ba5951030ced40f",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T11:52:49+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 14,
+      "laat_vaar": 2,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 498,
+      "woorde_na": 504,
+      "konsep_hash": "sha256:a433242a0334092f14ca930aa4dd0c47"
+    },
+    {
+      "wanneer": "2026-10-28T11:52:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 504,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:52:51+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in ''n Seremonie waar mense': 'waar' introduces an event rather than a place; careful writing prefers 'waarby'.",
+        "fix: [taal] in 'troue waar iemand': 'waar' introduces an event rather than a place; careful writing prefers 'waarby'.",
+        "check (the language finder raised this; it may not be a fault): 'Herhaling is wanneer 'n klank, 'n beweging of woorde weer voorkom.': The study text gives a shortened version of the decided shared definition of herhaling; whether it should match the glossary wording is a content decision, so not changed here."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T11:55:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f6e995cba807e6e9cd2fe0bccdcd45c2",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-28T11:55:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 504,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:23:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 504,
+      "woorde_na": 503,
+      "konsep_hash": "sha256:fd375beb3c656c99c9caaf4fded7cac9"
+    },
+    {
+      "wanneer": "2026-10-28T14:23:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 503,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:46:58+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:46:59+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:46:59+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T14:47:33+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 2,
+      "vorige_blok_faalrondtes": {}
+    },
+    {
+      "wanneer": "2026-10-28T14:47:33+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:47:33+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:47:34+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T14:51:31+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {}
+    },
+    {
+      "wanneer": "2026-10-28T14:51:31+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:51:31+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:51:39+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:51:39+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:51:39+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\uitvoerende-kunste\\les-4.json",
+      "konsep_hash": "sha256:fd375beb3c656c99c9caaf4fded7cac9",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:9377990eddfaaa4a5895e28a7a04477c",
+  "spek_hash": "sha256:357b549a4ad780ecab3f44dae8717e51",
   "hek_konteks": {
     "graad": 6,
-    "begroting": 400
-  }
+    "begroting": 450
+  },
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'twee stemme of groepe sing tegelyk verskillende note wat by mekaar pas': the glossary definition is a bare main clause, unlike the 'wanneer' definitions beside it"
+  ],
+  "taal_geforseer_vir": "sha256:f17de0d1d46dcb948ba5951030ced40f",
+  "taal_rondte_vir": "sha256:fd375beb3c656c99c9caaf4fded7cac9",
+  "taal_keurder_vir": "7f732f8b29ca9538b9180e12c42add77",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:fd375beb3c656c99c9caaf4fded7cac9",
+  "taal_vir_mens": [],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "f78cda26762965895cada52f6eebca9b"
 }

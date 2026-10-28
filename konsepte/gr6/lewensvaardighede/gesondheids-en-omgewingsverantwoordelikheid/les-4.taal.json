@@ -1,0 +1,84 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die kos wat die nag buite gestaan het",
+      "voor": "nog half vol",
+      "na": "nog halfvol",
+      "soort": "spelling",
+      "rede_vinder": "AWS writes 'halfvol' as one word.",
+      "fout": "'half vol' is written as two words; the word list writes the compound 'halfvol'.",
+      "rede_keurder": "A plain spelling fix that changes nothing in the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die kos wat die nag buite gestaan het",
+      "voor": "is Lerato eerste in die kombuis",
+      "na": "is Lerato die eerste in die kombuis",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans says 'die eerste' for being first to arrive; without the article it reads like an English calque.",
+      "fout": "none",
+      "rede_keurder": "Predicative 'eerste' without the article is natural Afrikaans ('Sy is eerste daar'), so this is a lateral move, not a calque fix."
+    },
+    {
+      "nr": 3,
+      "blok": "Die kos wat die nag buite gestaan het",
+      "voor": "pak stoele weg",
+      "na": "pak die stoele weg",
+      "soort": "grammatika",
+      "rede_vinder": "These are the party's particular chairs, so the article reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "The bare plural reads naturally, and adding 'die' quietly changes some chairs to all the chairs, so it is lateral at best."
+    },
+    {
+      "nr": 4,
+      "blok": "Die kos wat die nag buite gestaan het",
+      "voor": "Dit was baie hoender en baie ure se werk.",
+      "na": "Daar is baie hoender in, en dit was baie ure se werk.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Dit was baie hoender' is wooden and slips out of the present-tense narration; the split keeps both ideas and adds the AWS comma between two clauses.",
+      "fout": "none",
+      "rede_keurder": "'Dit was' rightly looks back at the effort already spent, and 'Daar is baie hoender in' changes this to a statement about what the pot holds now while making the sentence longer."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die kos wat die nag buite gestaan het",
+      "teks": "Hierdie kos het van gistermiddag af en die hele nag hier buite gestaan.",
+      "rede": "A protected entry withdrew 'buite staan' from the rule because a learner read it as meaning a kitchen counter is fine. Here 'buite' describes the story's real stoep, not the rule, and it comes right after the rule sentence that correctly says 'uit die yskas staan'. Probably intended, but a person may want to confirm it cannot be read as the rule. Not changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 610,
+  "woorde_na": 609,
+  "wanneer": "2026-10-28T14:27:05+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Die kos wat die nag buite gestaan het",
+      "voor": "Hulle bly op die stoep staan.",
+      "na": "Die kos bly op die stoep staan.",
+      "soort": "verwysing",
+      "rede_vinder": "'Hulle' can be misread as the grown-ups named just before; naming the food removes the ambiguity without adding content.",
+      "fout": "none",
+      "rede_keurder": "'Hulle' follows directly on 'die groot pot hoenderkerrie en die bak rys', so the antecedent is clear, and 'die kos' swaps the containers for their contents."
+    },
+    {
+      "nr": 5,
+      "blok": "Die kos wat die nag buite gestaan het",
+      "voor": "staan in die deur en het alles gehoor",
+      "na": "staan in die deur. Sy het alles gehoor",
+      "soort": "sinsbou",
+      "rede_vinder": "Joining a present-tense and a perfect-tense verb with 'en' reads awkwardly; two sentences keep both tenses cleanly.",
+      "fout": "none",
+      "rede_keurder": "Joining 'staan' and 'het gehoor' with 'en' is normal Afrikaans narration, so splitting the sentence only changes the author's rhythm."
+    }
+  ],
+  "konsep_hash_voor": "sha256:cb73f2d586ab0f795903f82446e3102a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b0704390acae2edc0b5b6b88a88b3a55"
+}

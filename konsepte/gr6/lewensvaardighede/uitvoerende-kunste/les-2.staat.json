@@ -1,11 +1,17 @@
 {
   "les": "gr6/lewensvaardighede/uitvoerende-kunste/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:20c62cc2f01c3b2081046f3d69e2bf1d",
+  "konsep_hash": "sha256:2f3b77be15b788faa30c96176153c41c",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:3d8af8f6c50e1e225593bdc3eb3d9f9b",
+    "sha256:0c95ba39c036573961c79adb257a3e6e"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "pantsula": 1,
+    "bharatanatyam": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -60,11 +66,320 @@
       "doel": "C:\\Users\\LampiesLotter\\Claude\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\uitvoerende-kunste\\les-2.json",
       "konsep_hash": "sha256:20c62cc2f01c3b2081046f3d69e2bf1d",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T11:37:32+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:185a6f1ac607164758fc2d091d5149d8",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T11:37:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 472,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:37:33+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:185a6f1ac607164758fc2d091d5149d8",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T11:44:51+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 5,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 472,
+      "woorde_na": 476,
+      "konsep_hash": "sha256:63f70f0497925b37959545fb7a4960a2"
+    },
+    {
+      "wanneer": "2026-10-28T11:44:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 476,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T11:44:52+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Die danser dans baie met gebuigde knieë en dra 'n ryk kostuum.': 'dans baie met' can be read as 'dances a lot'; a fix such as 'dikwels' or 'grootliks' changes the qualifier, so the writer should choose the intended sense."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T12:26:11+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:19ce5f52b14132f83561170fa33f68f3",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T12:26:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 476,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:35:09+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 476,
+      "woorde_na": 476,
+      "konsep_hash": "sha256:309a2d7e657d3495b060939ca957768a"
+    },
+    {
+      "wanneer": "2026-10-28T14:35:09+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 476,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T14:54:40+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:47e78bcde3d8dadf477d07214b49dee3",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T14:54:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 496,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:08:15+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 496,
+      "woorde_na": 499,
+      "konsep_hash": "sha256:3d8af8f6c50e1e225593bdc3eb3d9f9b"
+    },
+    {
+      "wanneer": "2026-10-28T15:08:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 499,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:14:39+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:14:39+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 39,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:14:39+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "pantsula"
+      ],
+      "tally": {
+        "pantsula": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T15:14:39+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Die dansers in 'n groep beweeg presies saam en maak elke bew — corrected: Vernou die kwantor, nie die onderwerp nie: die dansers in 'n groep beweeg dikwels presies saam, op dieselfde oomblik. Laat 'elke beweging' val, sodat die sin nie sê dat 'n groep altyd en in alles gelyk dans nie."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T15:17:14+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b96e1428937a693615360bb52268b9d5",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T15:17:15+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 493,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:24:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 493,
+      "woorde_na": 493,
+      "konsep_hash": "sha256:0c95ba39c036573961c79adb257a3e6e"
+    },
+    {
+      "wanneer": "2026-10-28T15:24:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 493,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:30:40+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:30:40+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 43,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:30:40+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "bharatanatyam"
+      ],
+      "tally": {
+        "pantsula": 1,
+        "bharatanatyam": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T15:30:40+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 2,
+      "punte": [
+        "[feite] Die hande maak gebare wat elk iets beteken. — corrected: Maak die kwantor nouer, nie die onderwerp nie: die hande maak dikwels gebare wat iets beteken (of: wanneer die danser 'n storie vertel, maak die hande gebare wat elk iets beteken). Moenie sê dat elke handgebaar in die dans iets beteken nie."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T15:32:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1415618b8585a1bbc02ab9e77a2268eb",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-10-28T15:32:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 493,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:34:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 493,
+      "woorde_na": 495,
+      "konsep_hash": "sha256:2f3b77be15b788faa30c96176153c41c"
+    },
+    {
+      "wanneer": "2026-10-28T15:34:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 495,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:34:42+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): ''n storie uit ou verhale': 'Storie' and 'verhale' are near-synonyms, so the phrase is slightly circular; not changed because a fix (e.g. 'n ou verhaal' or 'oorleweringe') could shift the meaning or register."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T15:42:45+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:42:45+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:42:46+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:42:46+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 36,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:42:46+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\lewensvaardighede\\uitvoerende-kunste\\les-2.json",
+      "konsep_hash": "sha256:2f3b77be15b788faa30c96176153c41c",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:d1c04a2a948912b1b7f82d307441aea9",
+  "spek_hash": "sha256:4cc25a859417fa20466c21b752e88e82",
   "hek_konteks": {
     "graad": 6,
     "begroting": 450
-  }
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): ''n storie uit ou verhale': 'Storie' and 'verhale' are near-synonyms, so the phrase is slightly circular; not changed because a fix (e.g. 'n ou verhaal' or 'oorleweringe') could shift the meaning or register."
+  ],
+  "taal_geforseer_vir": "sha256:185a6f1ac607164758fc2d091d5149d8",
+  "taal_rondte_vir": "sha256:2f3b77be15b788faa30c96176153c41c",
+  "taal_keurder_vir": "b5b12b6f4c3caf9ca6410dc6e4883d22",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:2f3b77be15b788faa30c96176153c41c",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:2f3b77be15b788faa30c96176153c41c",
+  "taal_bons_siklus": 3,
+  "taal_bons_nota": "e77ce76fc34a7b705f06c3b6bac3227b"
 }

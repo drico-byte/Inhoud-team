@@ -1,0 +1,108 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Verantwoordelikhede by die huis",
+      "voor": "Elke huis deel sy take op sy eie manier op.",
+      "na": "Elke huis verdeel sy take op sy eie manier.",
+      "soort": "woordkeuse",
+      "rede_vinder": "The split 'deel ... op' next to 'op sy eie manier' gives a clumsy 'op ... op'; 'verdeel' says the same thing more smoothly.",
+      "fout": "The split verb 'deel ... op' next to 'op sy eie manier' gives a clumsy double 'op'.",
+      "rede_keurder": "'Verdeel' means the same thing as 'opdeel' here and removes the stumble."
+    },
+    {
+      "nr": 3,
+      "blok": "Verantwoordelikhede by die huis",
+      "voor": "Die belangrike ding is dat",
+      "na": "Wat belangrik is, is dat",
+      "soort": "anglisisme",
+      "rede_vinder": "'Die belangrike ding is' copies English 'the important thing is'; 'Wat belangrik is, is' is the natural Afrikaans form.",
+      "fout": "'Die belangrike ding is dat' copies English 'the important thing is'.",
+      "rede_keurder": "'Wat belangrik is, is dat' is the natural Afrikaans form and says exactly the same."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat kom eerste?",
+      "voor": "alles in een slag te doen",
+      "na": "alles op een slag te doen",
+      "soort": "idioom",
+      "rede_vinder": "The Afrikaans idiom for 'all at once' is 'op een slag'.",
+      "fout": "'In een slag' is a loose form of the fixed expression.",
+      "rede_keurder": "The Afrikaans fixed expression is 'op een slag', with the same meaning of all at once."
+    },
+    {
+      "nr": 6,
+      "blok": "Thabo se plan vir Dinsdagmiddag",
+      "voor": "Laaste: pak",
+      "na": "Laastens: pak",
+      "soort": "woordkeuse",
+      "rede_vinder": "In a sequence the adverb for 'last of all' is 'laastens'; 'laaste' is the adjective.",
+      "fout": "'Laaste:' as a sequence label copies English 'Last:'; the adjective stands where the sequencing adverb belongs.",
+      "rede_keurder": "'Laastens' is the correct Afrikaans adverb for the final step in a sequence and changes nothing else."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wie onthou jou take?",
+      "voor": "Selfbestuur is ook 'n vaardigheid wat beter word hoe meer jy dit oefen.",
+      "na": "Selfbestuur is ook 'n vaardigheid: hoe meer jy dit oefen, hoe beter word dit.",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans normally uses the paired 'hoe meer ..., hoe beter ...' construction; a lone 'hoe meer' after a relative clause reads as a translation.",
+      "fout": "none",
+      "rede_keurder": "'n Vaardigheid wat beter word hoe meer jy dit oefen' is natural Afrikaans; the paired form with a colon only reads differently and is slightly heavier for Grade 6."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat kom eerste?",
+      "voor": "wat eers Vrydag ingehandig word",
+      "na": "wat eers Vrydag ingehandig moet word",
+      "soort": "grammatika",
+      "rede_vinder": "The project is still due, so it needs 'moet', matching the parallel 'wat hy môre moet inhandig' in the sentence before.",
+      "fout": "none",
+      "rede_keurder": "The present passive 'wat eers Vrydag ingehandig word' is correct Afrikaans for a scheduled event, and adding 'moet' repeats the 'moet ... ingehandig word' of the sentences that follow."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 577,
+  "woorde_na": 576,
+  "wanneer": "2026-10-28T14:43:36+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Verantwoordelikhede by die skool",
+      "voor": "die aand vooraf",
+      "na": "die vorige aand",
+      "soort": "idioom",
+      "rede_vinder": "'Die aand vooraf' is stiff; 'die vorige aand' is the natural Afrikaans phrase with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'Die aand vooraf' is correct, natural Afrikaans for the evening before a school day, and 'die vorige aand' can read as 'last night', so this is a lateral move at best."
+    },
+    {
+      "nr": 3,
+      "blok": "Verantwoordelikhede by die huis",
+      "voor": "eie goed soos jou skoene",
+      "na": "eie goed, soos jou skoene",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before 'soos' introducing examples, consistent with 'klaspligtaak, soos' in the previous block.",
+      "fout": "none",
+      "rede_keurder": "The comma before 'soos' is optional here, and the sentence reads well without it."
+    },
+    {
+      "nr": 8,
+      "blok": "Thabo se aktiwiteitsplan",
+      "voor": "Sy plan het drie soorte dinge in:",
+      "na": "Daar is drie soorte dinge in sy plan:",
+      "soort": "sinsbou",
+      "rede_vinder": "'Het ... in' is a loose spoken construction; 'Daar is ... in sy plan' reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "'Sy plan het drie soorte dinge in' is ordinary natural Afrikaans, and the proposal only reads differently."
+    }
+  ],
+  "konsep_hash_voor": "sha256:e7f24aa1511f60b1ddcde380d65edb8c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:46ff5835d174e81ab7d2b817f5654f0d"
+}
