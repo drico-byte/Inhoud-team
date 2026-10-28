@@ -1,0 +1,47 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat hy in die hemel gesien het",
+      "voor": "Deur sy teleskoop het hy berge",
+      "na": "Deur sy teleskoop het Galileo berge",
+      "soort": "verwysing",
+      "rede_vinder": "The previous sentence's subject is the plural 'Geleerdes', so naming Galileo makes clear who 'hy' is.",
+      "fout": "In this block Galileo is never named; after a sentence about the plural 'Geleerdes', the bare 'hy' makes the reader reach back to the previous block for its referent.",
+      "rede_keurder": "Naming Galileo at his first action in the block removes the stumble without changing meaning or touching the protected wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 330,
+  "woorde_na": 330,
+  "wanneer": "2026-10-28T18:05:50+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Wat hy in die hemel gesien het",
+      "voor": "Venus het ook fases net soos ons eie maan.",
+      "na": "Venus het ook fases, net soos ons eie maan.",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before the comparison makes the sentence easier to read aloud and separates it from the next sentence's 'net soos'.",
+      "fout": "none",
+      "rede_keurder": "No AWS rule requires this comma and the short sentence already reads clearly; a lateral change."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat dit beteken het",
+      "voor": "Hier was dinge wat jy self kon sien draai om iets anders as die Aarde.",
+      "na": "Hier was dinge wat jy self om iets anders as die Aarde kon sien draai.",
+      "soort": "woordorde",
+      "rede_vinder": "In a subordinate clause the prepositional phrase belongs before the verb cluster; the current order is wooden.",
+      "fout": "none",
+      "rede_keurder": "Placing the long prepositional phrase after the verb cluster is normal Afrikaans, and moving it in front makes the clause heavier for a Grade 6 reader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:2822e4e6454b40bc7da657568886e88f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:25532f78e3bf3ec40ef0c28bf57f1d95"
+}

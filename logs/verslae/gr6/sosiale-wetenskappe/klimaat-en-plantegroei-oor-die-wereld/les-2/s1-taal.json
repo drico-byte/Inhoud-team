@@ -1,0 +1,84 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die wêreld se drie streke",
+      "voor": "'n warm tyd van die jaar en 'n koue tyd",
+      "na": "'n warm en 'n koue tyd van die jaar",
+      "soort": "sinsbou",
+      "rede_vinder": "The split phrase reads woodenly; joining the two parallel nouns is more natural and keeps the meaning.",
+      "fout": "The split phrase ''n warm tyd van die jaar en 'n koue tyd' trails off awkwardly after the first noun phrase.",
+      "rede_keurder": "Joining the two parallel nouns before 'van die jaar' is what a fluent writer would write, and the same two seasons remain."
+    },
+    {
+      "nr": 2,
+      "blok": "Die wêreld se drie streke",
+      "voor": "koud en die warmer tyd is kort",
+      "na": "koud, en die warmer tyd is kort",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two main clauses that each have their own subject and verb, so a comma is required.",
+      "fout": "Missing AWS comma: 'en' joins 'is dit ... koud' and 'die warmer tyd is kort', two clauses each with their own subject and verb.",
+      "rede_keurder": "AWS 2017 requires the comma here, and nothing else in the sentence changes."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe 'n temperatuurkaart werk",
+      "voor": "Hou daardie kleur teen die sleutel",
+      "na": "Vergelyk daardie kleur met die sleutel",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Hou teen' is vague and calques 'hold against'; 'vergelyk met' says plainly what the learner does.",
+      "fout": "'Hou daardie kleur teen die sleutel' copies English 'hold it against'; a learner cannot physically hold a colour, so the action is vague.",
+      "rede_keurder": "'Vergelyk met' names the actual action plainly, and the protected 'in watter reeks jou plek val' that follows is untouched."
+    },
+    {
+      "nr": 4,
+      "blok": "Waarom daar twee kaarte is",
+      "voor": "hoeveel 'n plek tussen Januarie en Julie verander",
+      "na": "hoeveel 'n plek se temperatuur tussen Januarie en Julie verander",
+      "soort": "verwysing",
+      "rede_vinder": "A place itself does not change; naming its temperature makes clear what the maps show, which the previous sentence already states.",
+      "fout": "'hoeveel 'n plek ... verander' says the place itself changes, when it is the temperature the maps show changing.",
+      "rede_keurder": "Naming the temperature, which the previous sentence already names, fixes the loose referent without adding any fact."
+    },
+    {
+      "nr": 6,
+      "blok": "Die kaarte wys 'n gemiddeld",
+      "voor": "sê wat daar gewoonlik gebeur",
+      "na": "sê hoe warm dit daar gewoonlik is",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Wat gebeur' is vague for a temperature value; the replacement keeps the protected 'gewoonlik' and the meaning.",
+      "fout": "'sê wat daar gewoonlik gebeur' is vague for a temperature value; an average temperature does not say what happens.",
+      "rede_keurder": "'Hoe warm dit daar gewoonlik is' matches the lesson's own phrasing for temperature, keeps the protected 'gewoonlik', and still leads into the climate sentence."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Die kaarte wys 'n gemiddeld",
+      "voor": "Tel baie Januarie-maande se temperature op een plek saam en deel dit deur hoeveel daar is.",
+      "na": "Tel een plek se temperature van baie Januarie-maande saam en deel die totaal deur hoeveel maande daar is.",
+      "soort": "verwysing",
+      "rede_vinder": "'Op een plek saam' can be misread as 'add them up in one place', and 'dit' and 'hoeveel daar is' have unclear referents.",
+      "fout": "'op een plek saam' can be misread as 'add them up in one place', and 'dit' and 'hoeveel daar is' have no clear referent.",
+      "rede_keurder": "The fault is real, but the proposal fixes the divisor as the number of months, whereas the shared definition divides by the number of measured temperatures, so the method itself moves and the writer must settle it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Die kaarte wys 'n gemiddeld",
+      "teks": "Die kaarte wys 'n gemiddeld / Daardie gemiddeld staan op die kaart",
+      "rede": "'Gemiddeld' as a noun is accepted, but 'gemiddelde' is the more usual noun form and the glossary uses 'gemiddelde temperatuur'; not changed because the heading cannot be edited and the two would then differ. A person may want one form throughout."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 379,
+  "woorde_na": 382,
+  "wanneer": "2026-10-28T17:11:02+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:e334422124be1f2b176427d3b1d9f2d1",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d82e281fb67761e241a1dcaf42a78b5f"
+}

@@ -1,0 +1,89 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Gevare op die pad",
+      "voor": "Wilde diere in dieselfde veld as die pad.",
+      "na": "Wilde diere in die veld waardeur die pad geloop het.",
+      "soort": "sinsbou",
+      "rede_vinder": "'in dieselfde veld as die pad' is an awkward comparison construction; the rewrite keeps the meaning and reads naturally.",
+      "fout": "'in dieselfde veld as die pad' is a stiff comparison construction",
+      "rede_keurder": "The rewrite says the same thing naturally, matches the past tense of the other list items, and adds only one word."
+    },
+    {
+      "nr": 4,
+      "blok": "Gevare op die pad",
+      "voor": "Water wat in die droë maande ver uitmekaar was",
+      "na": "Waterplekke wat in die droë maande ver uitmekaar was",
+      "soort": "woordkeuse",
+      "rede_vinder": "Water itself is not 'far apart'; the places where water could be found were.",
+      "fout": "water itself cannot be 'far apart'; the places where it was found were",
+      "rede_keurder": "'Waterplekke' fixes the logical slip without changing what the item says."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoe hulle die pad gevind het",
+      "voor": "Die land self het vir die reisigers gewys",
+      "na": "Die land self het vir hulle gewys",
+      "soort": "sinsbou",
+      "rede_vinder": "Avoids repeating 'reisigers' from the sentence directly before; 'hulle' refers back to it unambiguously.",
+      "fout": "'reisigers' is repeated woodenly from the sentence directly before",
+      "rede_keurder": "'hulle' can only refer to the travellers in the previous sentence, and the protected wording is untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Geen wa en geen wiel",
+      "voor": "Op hierdie roetes was daar",
+      "na": "Op die roetes daarheen was daar",
+      "soort": "verwysing",
+      "rede_vinder": "'hierdie roetes' points back to routes the lesson has not yet named; 'die roetes daarheen' ties them to the journey just described, and the protected phrase is untouched.",
+      "fout": "none",
+      "rede_keurder": "'hierdie roetes' points clearly enough to the inland-to-coast journey just described; 'daarheen' is a lateral move that also narrows the routes to one direction."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar die paaie geloop het",
+      "voor": "'n Lang pad te voet vra elke dag water en kos.",
+      "na": "Wie lank te voet reis, het elke dag water en kos nodig.",
+      "soort": "sinsbou",
+      "rede_vinder": "A road that 'asks for' water and food is wooden personification; the rewrite says the same thing naturally.",
+      "fout": "none",
+      "rede_keurder": "'vra' in the sense of 'demands' is idiomatic Afrikaans, so the original reads well and the rewrite is only different."
+    },
+    {
+      "nr": 5,
+      "blok": "Gevare op die pad",
+      "voor": "Siekte, ver van hulp by die huis.",
+      "na": "Siekte, ver van die huis en van hulp.",
+      "soort": "sinsbou",
+      "rede_vinder": "'ver van hulp by die huis' can be misread as being far from help while at home; the rewrite makes clear the traveller is far from home and its help.",
+      "fout": "none",
+      "rede_keurder": "The original reads naturally as far from the help at home, while the proposal widens it to far from any help, which moves the meaning."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 7,
+      "blok": "roete",
+      "voor": "Die pad wat mense volg van een plek na 'n ander.",
+      "na": "Die pad wat mense van een plek na 'n ander volg.",
+      "soort": "woordorde",
+      "rede_vinder": "In an Afrikaans relative clause the verb goes last; 'volg' after the prepositional phrase is the natural order.",
+      "fout": "the prepositional phrase after 'volg' is a slightly less natural order in the relative clause",
+      "rede_keurder": "This is a word-order improvement to a glossary definition rather than a plain grammar error, so the writer has to make it for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 219,
+  "woorde_na": 220,
+  "wanneer": "2026-10-28T20:03:44+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:e43d627f29a7e78c45f06d3b51f767d0",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:281f6af152acbc7f55cdc9cc504643ca"
+}

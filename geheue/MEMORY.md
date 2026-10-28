@@ -472,3 +472,4 @@
 - [Keep going, never ask whether to continue](hou-aan-moenie-vra-of-ek-moet-aangaan.md) — a stopped agent is not a pause; relaunch and keep fixing content.
 - [A caution in kern becomes an order](n-waarskuwing-in-kern-word-n-bestelling.md) — coverage demands every kern sentence; narrow the order itself, put 'don't say' in feiterisiko.
 - [BLY GELD below the marker](bly-geld-onder-die-merker.md) — old fields hide the live order under the record marker; grep a subject's specs for it before its pass.
+- [Protecting before the fact check locks in an error](beskerming-voor-feitetoets-sluit-n-fout-in.md) — twice on 28 Oct a writer's new protected phrase was the one the fact check rejected.

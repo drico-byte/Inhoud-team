@@ -6,17 +6,18 @@
   "budget": 350,
   "begrotingsreel": "CAPS-hours: 350 planned, ceiling 392 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-10-15T17:29:47+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-28T18:23:10+00:00",
   "study": {
-    "words": 386,
+    "words": 398,
     "sentences": 28,
-    "mean_sentence_len": 11.4,
+    "mean_sentence_len": 11.9,
     "median_sentence_len": 12.0,
-    "longest_sentence": 20,
-    "mean_syllables": 1.43,
-    "pct_polysyllabic": 10.3,
+    "longest_sentence": 21,
+    "mean_syllables": 1.44,
+    "pct_polysyllabic": 9.9,
     "pct_long_words": 1.2,
-    "commas_per_sentence": 0.14,
+    "commas_per_sentence": 0.36,
     "list_words": 65
   },
   "eli10": null,
@@ -28,10 +29,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study block 2 ('Daardie plekke is nie leeg nie') only 29 words (guide 30–110)",
+    "Study text: 0.36 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: meerderheid, verspreidingskaart"
   ],
   "notes": [
+    "Study text 398 words, 6 above the ceiling 392 -- ALLOWED: this text carries language-step edits, which may move it up to 18 words (5% of the budget; Drico, 22 October 2026).",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

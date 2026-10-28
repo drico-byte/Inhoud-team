@@ -6,17 +6,18 @@
   "budget": 300,
   "begrotingsreel": "CAPS-hours: 300 planned, ceiling 336 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-10-15T12:20:37+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-28T17:42:34+00:00",
   "study": {
-    "words": 324,
+    "words": 329,
     "sentences": 27,
-    "mean_sentence_len": 11.9,
+    "mean_sentence_len": 12.0,
     "median_sentence_len": 12,
-    "longest_sentence": 17,
+    "longest_sentence": 18,
     "mean_syllables": 1.49,
-    "pct_polysyllabic": 9.9,
+    "pct_polysyllabic": 9.4,
     "pct_long_words": 0.6,
-    "commas_per_sentence": 0.3
+    "commas_per_sentence": 0.37
   },
   "eli10": null,
   "block_counts": {
@@ -26,6 +27,7 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text: 0.37 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: handelsroetes"
   ],
   "notes": [

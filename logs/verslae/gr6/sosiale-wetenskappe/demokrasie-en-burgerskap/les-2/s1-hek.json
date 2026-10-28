@@ -1,22 +1,23 @@
 {
   "verdict": "PASS",
-  "titel": "Die hoogste wet, en die howe wat daaroor wag hou",
+  "titel": "Die hoogste wet en die howe wat daaroor wag hou",
   "graad": 6,
   "vak": "Sosiale Wetenskappe",
   "budget": 320,
   "begrotingsreel": "CAPS-hours: 320 planned, ceiling 358 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-10-01T17:13:51+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-28T17:36:42+00:00",
   "study": {
-    "words": 357,
-    "sentences": 28,
-    "mean_sentence_len": 11.6,
-    "median_sentence_len": 11.0,
-    "longest_sentence": 26,
-    "mean_syllables": 1.4,
-    "pct_polysyllabic": 7.6,
-    "pct_long_words": 2.1,
-    "commas_per_sentence": 0.32,
+    "words": 360,
+    "sentences": 29,
+    "mean_sentence_len": 11.3,
+    "median_sentence_len": 11,
+    "longest_sentence": 27,
+    "mean_syllables": 1.41,
+    "pct_polysyllabic": 7.9,
+    "pct_long_words": 2.4,
+    "commas_per_sentence": 0.45,
     "list_words": 29
   },
   "eli10": null,
@@ -28,9 +29,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text: 0.45 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: bevestiging, provinsiale"
   ],
   "notes": [
+    "Study text 360 words, 2 above the ceiling 358 -- ALLOWED: this text carries language-step edits, which may move it up to 16 words (5% of the budget; Drico, 22 October 2026).",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

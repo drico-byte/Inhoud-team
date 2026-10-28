@@ -1,0 +1,79 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Wat die kaart van jou provinsie vertel",
+      "voor": "kyk watter provinsies langs hom lê",
+      "na": "kyk watter provinsies aan jou provinsie grens",
+      "soort": "verwysing",
+      "rede_vinder": "'Langs hom' could point to the line or to the province; naming the province and using 'grens' removes the ambiguity.",
+      "fout": "'langs hom' can point to the line or to the province",
+      "rede_keurder": "Naming the province and using 'grens aan' removes the double reference and keeps the meaning of neighbouring provinces."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat die kaart van jou provinsie vertel",
+      "voor": "'n Klein dorp is dalk nie daarop nie.",
+      "na": "'n Klein dorp is dalk nie op die kaart nie.",
+      "soort": "verwysing",
+      "rede_vinder": "'Daarop' follows a sentence about the area inside the line, so naming the map is clearer.",
+      "fout": "'daarop' straight after 'Binne die lyn' reads as 'on the line'",
+      "rede_keurder": "'Op die kaart' says plainly what the small town may be missing from, without changing the claim."
+    },
+    {
+      "nr": 4,
+      "blok": "Nie elke kaart wys dieselfde dinge nie",
+      "voor": "Twee kaarte van een provinsie",
+      "na": "Twee kaarte van dieselfde provinsie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Dieselfde provinsie' is the natural Afrikaans for one and the same province.",
+      "fout": "'een provinsie' can be read as 'a province' rather than 'one and the same province'",
+      "rede_keurder": "'Dieselfde provinsie' is the natural, unambiguous Afrikaans for the point being made."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wat die kaart van jou provinsie vertel",
+      "voor": "loop 'n grenslyn om hom",
+      "na": "loop 'n grenslyn om die provinsie",
+      "soort": "verwysing",
+      "rede_vinder": "'Hom' for a province reads informally and the referent is clearer when named.",
+      "fout": "none",
+      "rede_keurder": "'Hom' for a province is normal Afrikaans and here can only point to the province, so naming it again is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoe jy dit self in die atlas doen",
+      "voor": "kry jou provinsie daarop",
+      "na": "soek jou provinsie daarop",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Kry' in the sense of 'find' is colloquial; 'soek' is the standard instruction.",
+      "fout": "none",
+      "rede_keurder": "'Kry' (find) is standard Afrikaans here, while 'soek' (search) changes the action and repeats 'soek' from the next sentence."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Nie elke kaart wys dieselfde dinge nie",
+      "voor": "Een wys waar mense woon en 'n ander wys wat geboer of gemyn word.",
+      "na": "Die een wys waar mense woon, en die ander wys waar daar geboer of gemyn word.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Wat geboer word' is unidiomatic because 'boer' takes no object, the two clauses each have a subject and verb so AWS requires a comma before 'en', and 'die een ... die ander' is the natural pairing after 'twee kaarte'.",
+      "fout": "'wat geboer word' is unidiomatic and the comma before 'en' joining two full clauses is missing (AWS 2017)",
+      "rede_keurder": "The faults are real, but the proposal changes WHAT is farmed or mined into WHERE farming or mining happens, which moves the meaning.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 265,
+  "woorde_na": 268,
+  "wanneer": "2026-10-28T16:39:19+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:eb7d48df47a3575fbc329a257777b3aa",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a12a8ff3b31a4a44f42ab3d33ffef278"
+}

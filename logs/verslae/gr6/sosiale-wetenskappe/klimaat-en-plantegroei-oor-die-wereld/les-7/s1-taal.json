@@ -1,0 +1,108 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar die water vandaan kom",
+      "voor": "By 'n oase is daar water en daar groei",
+      "na": "By 'n oase is daar water, en daar groei",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses ('daar is water' / 'daar groei bome').",
+      "rede_keurder": "Both clauses have their own subject and verb, so the AWS 2017 comma is required and nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar die water vandaan kom",
+      "voor": "deur die Sahara en baie mense boer",
+      "na": "deur die Sahara, en baie mense boer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses ('die Nyl vloei' / 'baie mense boer').",
+      "rede_keurder": "Two full sentences joined by 'en' take the comma; the qualifier 'baie' is untouched."
+    },
+    {
+      "nr": 3,
+      "blok": "Trek saam met die diere",
+      "voor": "wat hulle kan afhaal en saamneem",
+      "na": "wat hulle kan afslaan en saamneem",
+      "soort": "idioom",
+      "rede_vinder": "In Afrikaans a tent is 'afgeslaan' (or opgeslaan); 'afhaal' is not the idiomatic verb for a tent.",
+      "fout": "'afhaal' is not the idiomatic verb for taking down a tent.",
+      "rede_keurder": "'n Tent afslaan' is the fixed Afrikaans expression and the meaning (take down and carry along) is unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Trek saam met die diere",
+      "voor": "die eerste antwoord op min water",
+      "na": "die eerste antwoord op die gebrek aan water",
+      "soort": "woordkeuse",
+      "rede_vinder": "'antwoord op min water' is wooden; 'gebrek aan water' is the natural noun phrase after 'antwoord op'.",
+      "fout": "'antwoord op min water' is wooden: 'min water' does not work as the object of 'antwoord op'.",
+      "rede_keurder": "'die gebrek aan water' is the natural noun phrase for a water shortage and keeps the meaning of scarce water."
+    },
+    {
+      "nr": 5,
+      "blok": "Bly waar die water bly",
+      "voor": "Siwa is 'n oase in die Sahara wat in die weste van Egipte lê.",
+      "na": "Siwa is 'n oase in die Sahara, in die weste van Egipte.",
+      "soort": "verwysing",
+      "rede_vinder": "'wat' can be read as referring to the Sahara rather than Siwa; the apposition removes the ambiguity without changing the facts.",
+      "fout": "The relative clause 'wat in die weste van Egipte lê' can attach to 'die Sahara' instead of Siwa.",
+      "rede_keurder": "The apposition places Siwa in western Egypt without the ambiguity, is shorter, and adds or drops no fact."
+    },
+    {
+      "nr": 6,
+      "blok": "Bly waar die water bly",
+      "voor": "die hele jaar water en daarom bly",
+      "na": "die hele jaar water, en daarom bly",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses ('fonteine gee water' / 'die mense bly').",
+      "rede_keurder": "Two full sentences joined by 'en' take the AWS comma; wording is otherwise identical."
+    },
+    {
+      "nr": 7,
+      "blok": "Bly waar die water bly",
+      "voor": "klein vensters en so bly dit",
+      "na": "klein vensters, en so bly dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses ('party huise het' / 'dit bly koeler').",
+      "rede_keurder": "The comma also separates the list 'dik mure en klein vensters' from the second clause, and the protected 'Party huise' is intact."
+    },
+    {
+      "nr": 8,
+      "blok": "Dorpe en stede in 'n warm woestyn",
+      "voor": "tot in die huise en vragmotors bring",
+      "na": "tot in die huise, en vragmotors bring",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses ('water kom' / 'vragmotors bring').",
+      "rede_keurder": "Two full sentences joined by 'en' take the AWS comma and nothing else moves."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 9,
+      "blok": "dadelpalm",
+      "voor": "'n Palmboom met soet vrugte wat in warm plekke naby water groei.",
+      "na": "'n Palmboom wat in warm plekke naby water groei en soet vrugte dra.",
+      "soort": "verwysing",
+      "rede_vinder": "'wat' attaches to 'vrugte' rather than the palm; reordering makes the tree the thing that grows near water.",
+      "fout": "In the glossary definition 'wat in warm plekke naby water groei' can attach to 'vrugte' rather than to the palm.",
+      "rede_keurder": "The ambiguity is real, but this is a [begrip] definition that may be shared across lessons, so the reordering must go through the writer.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 350,
+  "woorde_na": 350,
+  "wanneer": "2026-10-28T17:58:50+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:4c23314b1138bc5bd01f7c902e860125",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:bc09a8e7720506e2f24984c479ffc016"
+}

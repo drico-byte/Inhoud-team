@@ -6,17 +6,18 @@
   "budget": 200,
   "begrotingsreel": "CAPS-hours: 200 planned, ceiling 224 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-10-15T14:02:30+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-28T18:46:22+00:00",
   "study": {
-    "words": 221,
+    "words": 223,
     "sentences": 18,
-    "mean_sentence_len": 12.2,
+    "mean_sentence_len": 12.3,
     "median_sentence_len": 11.0,
     "longest_sentence": 19,
-    "mean_syllables": 1.36,
-    "pct_polysyllabic": 7.2,
-    "pct_long_words": 0.5,
-    "commas_per_sentence": 0.28
+    "mean_syllables": 1.37,
+    "pct_polysyllabic": 8.1,
+    "pct_long_words": 0.4,
+    "commas_per_sentence": 0.44
   },
   "eli10": null,
   "block_counts": {
@@ -26,6 +27,7 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text: 0.44 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: maandelange"
   ],
   "notes": [

@@ -1,0 +1,149 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Werk kies ook 'n plek",
+      "voor": "naby die werk en die dorp",
+      "na": "naby die werk, en die dorp",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses ('Mense kom bly' / 'die dorp groei'); without it 'naby die werk en die dorp' misreads as near the work and the town.",
+      "rede_keurder": "Required AWS comma that also removes a garden-path reading; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Werk kies ook 'n plek",
+      "voor": "groei om daardie werk",
+      "na": "groei rondom daardie werk",
+      "soort": "woordkeuse",
+      "rede_vinder": "'rondom' says 'around' unambiguously; bare 'om' can read as 'in order to'.",
+      "fout": "Bare 'om' for 'around' is loose here and less clear than 'rondom'.",
+      "rede_keurder": "'rondom' states the same spatial sense (the town grows around the work) more clearly and matches changes 3 and 4."
+    },
+    {
+      "nr": 3,
+      "blok": "Mynbou maak 'n dorp",
+      "voor": "Kimberley het om diamante ontstaan en Johannesburg om die goud",
+      "na": "Kimberley het rondom diamante ontstaan en Johannesburg rondom die goud",
+      "soort": "woordkeuse",
+      "rede_vinder": "'ontstaan om' is awkward and ambiguous; 'rondom' gives the intended 'around'.",
+      "fout": "'het om diamante ontstaan' is awkward Afrikaans.",
+      "rede_keurder": "'rondom' keeps the same meaning (the towns arose around the diamonds and the gold) and reads naturally."
+    },
+    {
+      "nr": 4,
+      "blok": "Mynbou maak 'n dorp",
+      "voor": "Winkels en huise en skole het om die myne gegroei",
+      "na": "Winkels, huise en skole het rondom die myne gegroei",
+      "soort": "sinsbou",
+      "rede_vinder": "A list reads more naturally with commas than repeated 'en', and 'rondom' is clearer than 'om'.",
+      "fout": "Repeated 'en' in a list reads wooden, and 'om' is less clear than 'rondom'.",
+      "rede_keurder": "Same three items and same meaning, in a natural list form with the clearer preposition."
+    },
+    {
+      "nr": 6,
+      "blok": "Handel kies 'n plek",
+      "voor": "die land in en uit gaan",
+      "na": "die land in- en uitgaan",
+      "soort": "spelling",
+      "rede_vinder": "With a postposition the verb is written together, so the short form is 'in- en uitgaan'.",
+      "fout": "Spelling: with the postposition 'die land in/uit' the verb is written together ('ingaan', 'uitgaan').",
+      "rede_keurder": "Spelling correction to 'in- en uitgaan'; meaning unchanged."
+    },
+    {
+      "nr": 8,
+      "blok": "Die wette van die verlede",
+      "voor": "Ons noem so 'n verskuiwing 'n gedwonge verskuiwing.",
+      "na": "Ons noem dit 'n gedwonge verskuiwing.",
+      "soort": "sinsbou",
+      "rede_vinder": "Avoids the wooden repetition of 'verskuiwing' while keeping the term.",
+      "fout": "'so 'n verskuiwing 'n gedwonge verskuiwing' repeats the noun woodenly, and the sentence before speaks of 'wegtrek', not 'verskuiwing'.",
+      "rede_keurder": "'dit' points clearly to the forced moving just described and the term 'gedwonge verskuiwing' stays intact."
+    },
+    {
+      "nr": 9,
+      "blok": "Die wette van die verlede",
+      "voor": "waar mense woon en nie die water",
+      "na": "waar mense woon, nie die water",
+      "soort": "sinsbou",
+      "rede_vinder": "With 'en' the contrast can be misread as part of the 'waar' clause; a comma makes clear the law, not water or climate, decided.",
+      "fout": "With 'en' the contrast can be read as part of the 'waar' clause.",
+      "rede_keurder": "The comma makes clear that the law, not water or climate, decided; who decides what is unchanged."
+    },
+    {
+      "nr": 10,
+      "blok": "Die wette van vandag",
+      "voor": "huise en winkels en fabrieke en paaie",
+      "na": "huise, winkels, fabrieke en paaie",
+      "soort": "sinsbou",
+      "rede_vinder": "A list reads more naturally with commas than repeated 'en'.",
+      "fout": "Four items joined by repeated 'en' read wooden.",
+      "rede_keurder": "Same four items in a natural list form; meaning unchanged."
+    },
+    {
+      "nr": 11,
+      "blok": "Wat van daardie wette oorbly",
+      "voor": "hul gevolg is nie weg nie",
+      "na": "hul gevolge is nie weg nie",
+      "soort": "idioom",
+      "rede_vinder": "The consequences of laws are naturally plural in Afrikaans ('gevolge').",
+      "fout": "Singular 'gevolg' is unnatural here, and the next sentences name several consequences.",
+      "rede_keurder": "Plural 'gevolge' is the natural Afrikaans and fits the several effects that follow."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 5,
+      "blok": "Visvang aan die koue weskus",
+      "voor": "die vangs afgelaai en verwerk word",
+      "na": "die vangs afgelaai en verwerk kan word",
+      "soort": "grammatika",
+      "rede_vinder": "The modal 'kan' of the first part should carry into the parallel passive clause.",
+      "fout": "none",
+      "rede_keurder": "The original passive clause is grammatical, and adding 'kan' changes a statement into a possibility for no clear gain."
+    },
+    {
+      "nr": 7,
+      "blok": "Handel kies 'n plek",
+      "voor": "langs die spoorlyn opgekom",
+      "na": "langs die spoorlyn ontstaan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'ontstaan' is the standard word for a town coming into being and matches the rest of the lesson.",
+      "fout": "none",
+      "rede_keurder": "'opgekom' is natural Afrikaans for towns springing up, so 'ontstaan' is a lateral swap."
+    },
+    {
+      "nr": 12,
+      "blok": "Wat van daardie wette oorbly",
+      "voor": "dra nog daardie vorm",
+      "na": "het nog daardie vorm",
+      "soort": "woordkeuse",
+      "rede_vinder": "'dra ... vorm' is an unnatural calque; towns 'het' a shape.",
+      "fout": "none",
+      "rede_keurder": "'dra nog daardie vorm' is acceptable Afrikaans and carries the sense of bearing a past imprint, which plain 'het' loses."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 13,
+      "blok": "munisipaliteit",
+      "voor": "'n gebied, wat stede",
+      "na": "'n gebied wat stede",
+      "soort": "verwysing",
+      "rede_vinder": "Without the comma 'wat' clearly refers to the area, not to the government.",
+      "fout": "The comma before 'wat' lets 'wat' be read as referring to the government rather than to the area.",
+      "rede_keurder": "A real ambiguity, but this is a glossary definition and removing the comma makes the clause restrictive, so the writer must fix it for every lesson while keeping 'die plaaslike regering van 'n gebied' intact.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 448,
+  "woorde_na": 441,
+  "wanneer": "2026-10-28T17:24:55+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:e0a8d1537a1eca34894f053ef6d29f60",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b0fbbab46505ab8ab63b4ac313d0a230"
+}

@@ -1,0 +1,98 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die naald wat altyd dieselfde kant toe draai",
+      "voor": "Binne-in is 'n magneetnaald",
+      "na": "Binne-in die kompas is 'n magneetnaald",
+      "soort": "verwysing",
+      "rede_vinder": "'Binne-in' without an object leaves the reader to work out what it is inside; naming the compass already mentioned makes the reference clear.",
+      "fout": "'Binne-in' has no object and the nearest preceding clause is about Europeans learning, not the compass itself.",
+      "rede_keurder": "Naming the compass makes the reference immediate for a Grade 6 reader without changing the meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat 'n kompas nie vir jou sê nie",
+      "voor": "Seemanne het ook voor die kompas hul rigting bepaal met die son, die sterre en die kus.",
+      "na": "Seemanne het al voor die kompas hul rigting met die son, die sterre en die kus bepaal.",
+      "soort": "woordorde",
+      "rede_vinder": "The verb belongs at the end of the clause in Afrikaans, and 'al voor' (already before) is the idiomatic form where 'ook voor' reads like an English 'also before'.",
+      "fout": "'ook voor die kompas' reads like English 'also before', and the trailing 'met'-phrase after the participle is loose.",
+      "rede_keurder": "'al voor die kompas ... bepaal' is the idiomatic form; in both versions seamen found their direction by sun, stars and coast before the compass existed."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat die drie saam makliker gemaak het",
+      "voor": "ook op kuste ver van die huis af",
+      "na": "ook by kuste ver van die huis af",
+      "soort": "woordkeuse",
+      "rede_vinder": "A ship is not 'on' a coast; 'by kuste' is the natural preposition for ships off distant coasts.",
+      "fout": "Ships are not 'op' a coast; the preposition is slightly off.",
+      "rede_keurder": "'by kuste ver van die huis af' is the natural preposition and keeps the same place and meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Kruit en die kanon aan boord",
+      "voor": "is daar lank voor hierdie tyd al gebruik",
+      "na": "is daar al lank voor hierdie tyd gebruik",
+      "soort": "woordorde",
+      "rede_vinder": "'al lank voor' is the natural Afrikaans word order; 'al' stranded before the participle reads awkwardly.",
+      "fout": "none",
+      "rede_keurder": "'lank voor hierdie tyd al gebruik' is natural Afrikaans, and 'al lank ... gebruik' risks reading as 'used for a long time already', so the move is lateral at best."
+    },
+    {
+      "nr": 4,
+      "blok": "Die karveel",
+      "voor": "Hy vaar 'n stuk skuins na links en dan 'n stuk skuins na regs.",
+      "na": "Hy het 'n ent skuins na links en dan 'n ent skuins na regs gevaar.",
+      "soort": "grammatika",
+      "rede_vinder": "The sentence jumps to the present between past-tense sentences about the caravel ('kon', 'was'), and 'n ent' is the idiomatic word for a distance travelled; goes together with the next proposal.",
+      "fout": "none",
+      "rede_keurder": "The present tense describes how tacking works, like the general 'Vierkantige seile werk' above it, and the change lengthens the sentence and breaks the deliberate 'n stuk / stukkie vir stukkie echo."
+    },
+    {
+      "nr": 5,
+      "blok": "Die karveel",
+      "voor": "So vorder hy stukkie vir stukkie in die rigting waaruit die wind waai.",
+      "na": "So het hy stukkie vir stukkie gevorder in die rigting waaruit die wind waai.",
+      "soort": "grammatika",
+      "rede_vinder": "Keeps the tense consistent with the surrounding past-tense narrative; belongs with the previous proposal and should be kept or dropped with it.",
+      "fout": "none",
+      "rede_keurder": "Paired with change 4, which is dropped; the present-tense description of the method reads naturally as it stands."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 446,
+  "woorde_na": 448,
+  "wanneer": "2026-10-28T18:05:51+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 7,
+      "blok": "Die karveel",
+      "voor": "Hy was klein genoeg vir vlak baaie",
+      "na": "Tog was hy klein genoeg vir vlak baaie",
+      "soort": "sinsbou",
+      "rede_vinder": "Links the contrast between strong enough and small enough so the two sentences flow.",
+      "fout": "none",
+      "rede_keurder": "The two sentences already read as parallel strengths after 'ook'; adding 'Tog' imposes a contrast and is a lateral move."
+    },
+    {
+      "nr": 9,
+      "blok": "Wat elke uitvinding bygedra het",
+      "voor": "'n Kompas: 'n rigting waar daar geen landmerk is nie.",
+      "na": "Die kompas: 'n rigting, ook waar daar geen landmerk is nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "Matches 'Die karveel' in the parallel list, and 'ook' makes the elliptical item read as intended (direction even without a landmark).",
+      "fout": "none",
+      "rede_keurder": "The article swap is lateral and 'ook' adds a qualifier that shifts the item's claim; the list item reads acceptably as is."
+    }
+  ],
+  "konsep_hash_voor": "sha256:49b75b14ec3600e26e0bb48c1680720b",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1c572b96ae7949d6ab044652120abaa9"
+}

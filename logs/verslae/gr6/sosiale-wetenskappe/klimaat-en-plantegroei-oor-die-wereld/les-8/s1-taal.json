@@ -1,0 +1,84 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "'n Lang winter en 'n kort somer",
+      "voor": "in 'n jaar nie en in die winter",
+      "na": "in 'n jaar nie, en in die winter",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb (reën val / water val).",
+      "fout": "Missing AWS comma: 'en' joins two full clauses ('Daar val nie baie reën ... nie' / 'in die winter val die water ...').",
+      "rede_keurder": "The comma is required by the AWS 2017 and the protected wording 'val die water meestal as sneeu' stays intact."
+    },
+    {
+      "nr": 2,
+      "blok": "'n Lang winter en 'n kort somer",
+      "voor": "diep al val daar min water",
+      "na": "diep, al val daar min water",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before the concessive 'al' clause separates it from the main clause and makes the sentence easier to read.",
+      "fout": "Without a comma 'diep al val' makes a reader first take 'al' as 'already', so the sentence stumbles.",
+      "rede_keurder": "The comma marks the concessive clause, removes the misreading and changes nothing in the meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoe hierdie streek van die ander twee verskil",
+      "voor": "Hierdie streek is koud waar die reënwoud",
+      "na": "Hierdie streek is koud, terwyl die reënwoud",
+      "soort": "anglisisme",
+      "rede_vinder": "Contrastive 'waar' follows English 'whereas'; 'terwyl' is the natural Afrikaans conjunction for a contrast, with a comma before it.",
+      "fout": "Contrastive 'waar' copies English 'whereas' and can be misread as a place ('cold where the rainforest is warm').",
+      "rede_keurder": "'terwyl' is the natural Afrikaans contrast conjunction, the contrast stays the same, and the protected 'waar die reënwoud se maande eenders lyk' in the next sentence is untouched."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoe hierdie streek van die ander twee verskil",
+      "voor": "groei min soorte boom en in die reënwoud",
+      "na": "groei min soorte bome, en in die reënwoud",
+      "soort": "grammatika",
+      "rede_vinder": "'soorte' takes the plural noun ('soorte bome'), and the AWS comma is needed because 'en' joins two full clauses.",
+      "fout": "'soorte' with the singular 'boom' reads unnaturally, and the AWS comma is missing between two full clauses.",
+      "rede_keurder": "'min soorte bome' is the natural plural and the comma is required; the meaning and the contrast with the rainforest are unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "Die wildlewe kom die winter deur",
+      "voor": "dik en hy jag deur die koue",
+      "na": "dik, en hy jag steeds in die koue",
+      "soort": "idioom",
+      "rede_vinder": "AWS comma between two full clauses; 'jag deur die koue' can be read as 'hunts by means of the cold', while 'jag steeds in die koue' keeps the intended meaning that he goes on hunting in the cold.",
+      "fout": "Missing AWS comma between two full clauses ('die wolf se pels word dik' / 'hy jag deur die koue').",
+      "rede_keurder": "The comma is a real fault, but the proposal also adds 'steeds' and swaps 'deur' for 'in', which moves the meaning, so the comma needs a separate fix.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 6,
+      "blok": "korsmos",
+      "voor": "'n Swam en 'n klein lewende ding wat kos uit sonlig maak, wat saam groei.",
+      "na": "Twee lewende dinge wat saam groei: 'n swam en 'n klein lewende ding wat kos uit sonlig maak.",
+      "soort": "sinsbou",
+      "rede_vinder": "The two stacked 'wat' clauses are wooden and the second one's reference is unclear; this keeps the same content in a clearer order.",
+      "fout": "Two stacked 'wat' clauses make the definition wooden and leave the second clause's reference unclear.",
+      "rede_keurder": "This is a glossary definition shared across lessons, so a reword beyond plain grammar goes to the writer.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "waar die reënwoud se maande eenders lyk",
+      "rede": "Contrastive 'waar' (English 'whereas') is less natural Afrikaans than 'terwyl'; if the fact-check reason concerns only 'eenders lyk', 'terwyl die reënwoud se maande eenders lyk' would read better and match the proposed change in the sentence before it."
+    }
+  ],
+  "woorde_voor": 440,
+  "woorde_na": 440,
+  "wanneer": "2026-10-28T17:56:44+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:cb1d6a1420c02c1adf909b02406f4b52",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a413a2fff15f9097ca5f96350cb1d6be"
+}

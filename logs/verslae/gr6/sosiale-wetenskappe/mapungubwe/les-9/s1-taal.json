@@ -1,0 +1,170 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die handelaar uit Venesië",
+      "voor": "daaroor vertel 'n ontdekkingsreisiger.",
+      "na": "daaroor vertel, 'n ontdekkingsreisiger.",
+      "soort": "leestekens",
+      "rede_vinder": "A comma closing the long relative clause stops the reader running 'vertel' into its object.",
+      "fout": "Without a pause, 'daaroor vertel 'n ontdekkingsreisiger' can be read on first pass as 'tells an explorer about it'.",
+      "rede_keurder": "A comma closing the embedded relative clause is permitted by the AWS and removes a real first-reading stumble without changing the meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat die boek van Asië vertel",
+      "voor": "brand, en wat",
+      "na": "brand en wat",
+      "soort": "leestekens",
+      "rede_vinder": "AWS: no comma before 'en' joining two relative clauses inside one sentence.",
+      "fout": "A comma before 'en' joining two relative clauses inside one sentence.",
+      "rede_keurder": "Under AWS 2017 there is no comma before 'en' between parts of one sentence, and dropping it changes nothing else."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat die boek van Asië vertel",
+      "voor": "as die stede wat hy in Europa",
+      "na": "as dié wat hy in Europa",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids repeating 'stede' twice in one short item.",
+      "fout": "'stede' repeated twice in one short item reads flat.",
+      "rede_keurder": "'as die wat' is what a fluent writer would put here, the meaning is identical, and the protected 'baie groter' is untouched."
+    },
+    {
+      "nr": 7,
+      "blok": "Terug in Venesië",
+      "voor": "Ná baie jare het hy die pad",
+      "na": "Ná baie jare het Marco Polo die pad",
+      "soort": "verwysing",
+      "rede_vinder": "The block opens after a list, so the name makes clear who 'hy' is.",
+      "fout": "The block opens with 'hy' after a five-item list, so the antecedent is far away.",
+      "rede_keurder": "Naming Marco Polo at the start of the new block makes the subject clear and adds no information."
+    },
+    {
+      "nr": 9,
+      "blok": "Hoe historici die boek lees",
+      "voor": "Die kopieë verskil van mekaar en party",
+      "na": "Die kopieë verskil van mekaar, en party",
+      "soort": "leestekens",
+      "rede_vinder": "AWS: comma before 'en' joining two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb ('Die kopiee verskil' and 'party vertel').",
+      "rede_keurder": "This is exactly the AWS 2017 comma the standard requires."
+    },
+    {
+      "nr": 10,
+      "blok": "Hoe historici die boek lees",
+      "voor": "as vasgestel nie",
+      "na": "as vasstaande feit nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'aanvaar ... as vasgestel' is stiff; 'as vasstaande feit' is the natural idiom with the same meaning.",
+      "fout": "'aanvaar ... as vasgestel' is stiff and reads as if a noun is missing.",
+      "rede_keurder": "'as vasstaande feit aanvaar' is the natural fixed expression with the same meaning, and the qualifier 'nie elke deel' is unchanged."
+    },
+    {
+      "nr": 12,
+      "blok": "Dieselfde tyd, twee verre plekke",
+      "voor": "Marco Polo het in dieselfde tydperk as Mapungubwe in Asië gereis.",
+      "na": "In dieselfde tydperk as Mapungubwe het Marco Polo in Asië gereis.",
+      "soort": "woordorde",
+      "rede_vinder": "As written, 'Mapungubwe in Asië' can read as one phrase, placing Mapungubwe in Asia; fronting the time phrase removes that misreading.",
+      "fout": "'as Mapungubwe in Asie' can be read as one phrase, wrongly placing Mapungubwe in Asia.",
+      "rede_keurder": "Moving the time phrase to the front removes a misreading that teaches something false, keeps the protected 'in dieselfde tydperk' intact, and keeps the meaning the same."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Jare ver van die huis",
+      "voor": "Hy het van die stede",
+      "na": "Hy het oor die stede",
+      "soort": "woordkeuse",
+      "rede_vinder": "'van ... geleer' can read as 'learned from the cities'; 'oor' makes clear they are what he learned about.",
+      "fout": "none",
+      "rede_keurder": "'leer van' is the idiomatic Afrikaans for learning about something and reads well here; 'leer oor' is a lateral move closer to English 'learn about'."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat die boek van Asië vertel",
+      "voor": "wat mense gebruik het in plaas van munte van metaal",
+      "na": "wat mense in plaas van munte van metaal gebruik het",
+      "soort": "woordorde",
+      "rede_vinder": "In a relative clause, standard Afrikaans puts the verb cluster at the end.",
+      "fout": "none",
+      "rede_keurder": "Placing the prepositional phrase after the verb cluster is normal Afrikaans; the proposal packs a long phrase into the middle field and is harder for a Grade 6 reader."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat die boek van Asië vertel",
+      "voor": "wat mense gebruik om water",
+      "na": "wat mense gebruik het om water",
+      "soort": "grammatika",
+      "rede_vinder": "Past tense, to match the first item's 'gebruik het' about the same people in the same book.",
+      "fout": "none",
+      "rede_keurder": "The list already mixes tenses across items (present in items 4 and 5), so changing only this one is no real consistency fix, and it overlaps with change 4 on the same 'wat'."
+    },
+    {
+      "nr": 8,
+      "blok": "Terug in Venesië",
+      "voor": "Sonder daardie boek sou ons byna niks van sy reise geweet het nie.",
+      "na": "Sonder daardie boek sou ons byna niks daarvan geweet het nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "'sy reise' appears in three sentences in a row; 'daarvan' removes the wooden repetition.",
+      "fout": "none",
+      "rede_keurder": "'daarvan' could point to the book, the knowledge or the journeys, which makes a fact-checked sentence less exact; the repetition is acceptable at this grade."
+    },
+    {
+      "nr": 11,
+      "blok": "Hoe historici die boek lees",
+      "voor": "in enige ander bron",
+      "na": "in 'n ander bron",
+      "soort": "anglisisme",
+      "rede_vinder": "'niemand ... enige' copies English 'no one ... any'; Afrikaans uses the indefinite article after a negative.",
+      "fout": "none",
+      "rede_keurder": "'enige' after a negative is standard Afrikaans, not an anglicism, and the swap weakens the quantifier in a fact-checked sentence."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 13,
+      "blok": "karavaan",
+      "voor": "'n Groep handelaars, diere en goedere wat saam op reis is.",
+      "na": "'n Karavaan is 'n groep handelaars, diere en goedere wat saam op reis is.",
+      "soort": "sinsbou",
+      "rede_vinder": "Every other glossary entry in the lesson is a full sentence naming its term; this one is a fragment.",
+      "fout": "The karavaan glossary entry is a fragment while every other entry is a full sentence naming its term.",
+      "rede_keurder": "The fault is real, but rewording a glossary definition is the writer's job, because definitions change for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Jare ver van die huis",
+      "teks": "Die boek vertel dat hy tyd by die hof van 'n magtige heerser deurgebring het.",
+      "rede": "'Die boek' is used here and in the list heading before any book is introduced; the book is only explained in 'Terug in Venesië'. The phrase is protected, so the writer would have to solve this, perhaps by mentioning the book earlier."
+    },
+    {
+      "blok": "Wat die boek van Asië vertel",
+      "teks": "Plekke waar sy gemaak word en waar speserye gekweek word.",
+      "rede": "A Grade 6 reader will most likely read 'sy' as the pronoun 'she' and not as silk. A clearer word (for example 'systof') could shift the meaning from making silk to weaving it, which the protected entry treats as a fact-sensitive point, so the writer should choose the word."
+    },
+    {
+      "blok": "Wat die boek van Asië vertel",
+      "teks": "Papiergeld wat mense gebruik het ... / Ruiters wat briewe aangee ...",
+      "rede": "The list switches between past tense (items 1 and 3) and present tense (items 2, 4 and 5). Only item 2 is proposed above; the writer may want one tense throughout."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "Die boek vertel dat",
+      "rede": "This wording is protected, but at that point in the lesson no book has been introduced, so 'Die boek' has nothing to refer to. 'Sy boek' or an earlier mention would fix it. See the flag."
+    }
+  ],
+  "woorde_voor": 496,
+  "woorde_na": 497,
+  "wanneer": "2026-10-28T20:16:59+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:a8d555996f041b0f889b3772f870d24c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:09c7d526e0ce2aa118ca0db39e008078"
+}

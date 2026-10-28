@@ -1,0 +1,110 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Wat hy daarna gedoen het",
+      "voor": "getoets en bekend gemaak",
+      "na": "getoets en bekendgemaak",
+      "soort": "spelling",
+      "rede_vinder": "AWS writes the compound verb 'bekendmaak' as one word, so the past participle is 'bekendgemaak'.",
+      "fout": "The compound verb 'bekendmaak' is written apart.",
+      "rede_keurder": "AWS writes 'bekendmaak' as one word, so the participle is 'bekendgemaak'; the meaning is unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat inenting is",
+      "voor": "Koeipokke is na verwant aan pokke",
+      "na": "Koeipokke is naverwant aan pokke",
+      "soort": "spelling",
+      "rede_vinder": "The adjective 'naverwant' (closely related) is written as one word.",
+      "fout": "The adjective 'naverwant' is written as two words.",
+      "rede_keurder": "'naverwant' is one word in the word list; a spelling fix that leaves the protected 'daarom het dit teen pokke gehelp' intact."
+    },
+    {
+      "nr": 5,
+      "blok": "koeipokke",
+      "voor": "Dit is na verwant aan pokke",
+      "na": "Dit is naverwant aan pokke",
+      "soort": "spelling",
+      "rede_vinder": "The adjective 'naverwant' (closely related) is written as one word; this keeps the glossary consistent with the study text.",
+      "fout": "The adjective 'naverwant' is written as two words.",
+      "rede_keurder": "A plain spelling fix in a glossary entry that is not a shared definition, and it keeps the entry consistent with the study text."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wat op die plase opgeval het",
+      "voor": "was al voor Edward Jenner bekend",
+      "na": "was al voor Edward Jenner se tyd bekend",
+      "soort": "woordkeuse",
+      "rede_vinder": "'voor Edward Jenner' can read as 'in front of Jenner'; 'voor Jenner se tyd' makes the time sense clear without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "In context 'voor Edward Jenner' clearly means before him, and 'voor Jenner se tyd' moves the claim to before his lifetime, which is a different and stronger historical statement."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat hy daarna gedoen het",
+      "voor": "self nagaan en naboots",
+      "na": "self nagaan en herhaal",
+      "soort": "woordkeuse",
+      "rede_vinder": "'naboots' means imitate; for an experiment, 'herhaal' is the usual Afrikaans word, and it matches the previous sentence.",
+      "fout": "none",
+      "rede_keurder": "'naboots' is acceptable for replicating someone's work, and 'herhaal' would repeat the verb of the previous sentence, where it describes Jenner's own repetition."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 6,
+      "blok": "inenting",
+      "voor": "Inenting is wanneer 'n mens 'n entstof teen 'n siekte kry.",
+      "na": "By inenting kry 'n mens 'n entstof teen 'n siekte.",
+      "soort": "sinsbou",
+      "rede_vinder": "'X is wanneer' is a wooden definition pattern borrowed from English; the new sentence says the same thing and matches the study text's own opening.",
+      "fout": "'Inenting is wanneer' is a wooden definition pattern copied from English.",
+      "rede_keurder": "The fault is real, but rewording a glossary definition goes beyond spelling or grammar, so the writer owns the change.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 361,
+  "woorde_na": 359,
+  "wanneer": "2026-10-28T19:07:24+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Wat op die plase opgeval het",
+      "voor": "daarna nie pokke kry nie",
+      "na": "daarna nie pokke gekry het nie",
+      "soort": "grammatika",
+      "rede_vinder": "The sentence is in the past tense, so the reported clause reads better in the past too.",
+      "fout": "none",
+      "rede_keurder": "The present tense in a reported 'dat' clause is normal Afrikaans for a general observation, so the change is lateral."
+    },
+    {
+      "nr": 4,
+      "blok": "Jenner se proef in 1796",
+      "voor": "in die arm van 'n seun van agt gesit",
+      "na": "in die arm van 'n agtjarige seun gesit",
+      "soort": "idioom",
+      "rede_vinder": "'n agtjarige seun' is the natural Afrikaans form; 'n seun van agt' reads as a calque.",
+      "fout": "none",
+      "rede_keurder": "''n seun van agt' is idiomatic Afrikaans, not a calque, and reads more easily for a Grade 6 reader than 'agtjarige'."
+    },
+    {
+      "nr": 9,
+      "blok": "Pokke is uitgewis",
+      "voor": "pokke uiteindelik uit die wêreld gekry",
+      "na": "pokke uiteindelik uit die wêreld gehelp",
+      "soort": "idioom",
+      "rede_vinder": "The fixed Afrikaans idiom is 'iets uit die wêreld help'; 'uit die wêreld kry' is loose colloquial usage.",
+      "fout": "none",
+      "rede_keurder": "'uit die wereld gekry' is plain and clear, while 'uit die wereld help' is a figurative idiom that also means to kill someone and is harder for a Grade 6 reader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:4ad8510e762d259b53524c72db41b8b7",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f1816a8a13be99a5d80d83ec98bf1fac"
+}

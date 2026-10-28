@@ -1,0 +1,52 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat 'n biografie is",
+      "teks": "Skryf jou biografie in tydsorde van haar vroeë jare af. Leef sy nog, loop dit tot vandag toe.",
+      "rede": "'haar' and 'sy' point forward to 'Die mens oor wie jy skryf' two sentences later, and the lesson never says the person is a woman; the antecedent 'een werklike mens' would normally take 'hy/sy' or a noun. Choosing between 'die mens se', 'hy of sy', or naming the person is a content decision, and the opening sentence holds protected wording, so this is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 278,
+  "woorde_na": 278,
+  "wanneer": "2026-10-28T19:07:34+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n biografie is",
+      "voor": "Leef sy nog, loop dit tot vandag toe.",
+      "na": "As sy nog leef, loop dit tot vandag toe.",
+      "soort": "sinsbou",
+      "rede_vinder": "The inverted conditional is literary; an explicit 'As' clause is clearer for Grade 6.",
+      "fout": "none",
+      "rede_keurder": "The inverted conditional 'Leef sy nog, ...' is ordinary, natural Afrikaans that a Grade 6 reader handles easily; the 'As' form is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Twee soorte bronne",
+      "voor": "'n Primêre bron kom van iemand wat self daar was, soos 'n brief, 'n foto of 'n onderhoud met haar.",
+      "na": "'n Primêre bron, soos 'n brief, 'n foto of 'n onderhoud met haar, kom van iemand wat self daar was.",
+      "soort": "sinsbou",
+      "rede_vinder": "After 'iemand wat self daar was', the 'soos' list reads as examples of people; moving it beside 'bron' attaches it to the right noun.",
+      "fout": "none",
+      "rede_keurder": "No reader takes a letter or a photo for a person, so the original flows; the proposal wedges a long list between subject and verb and is harder for Grade 6."
+    },
+    {
+      "nr": 7,
+      "blok": "Twee soorte bronne",
+      "voor": "'n Sekondêre bron kom van iemand wat nie daar was nie, soos 'n boek of 'n dokumentêr.",
+      "na": "'n Sekondêre bron, soos 'n boek of 'n dokumentêr, kom van iemand wat nie daar was nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "Same misattachment as the previous sentence; keeps the parallel pair built the same way.",
+      "fout": "none",
+      "rede_keurder": "Same as the previous change: the original reads naturally and the reorder splits subject from verb without making it clearer."
+    }
+  ],
+  "konsep_hash_voor": "sha256:4db021663341d2da46b2fe4661318aa3",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:4db021663341d2da46b2fe4661318aa3"
+}

@@ -1,0 +1,160 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Kinderhandves",
+      "voor": "Dit is nie 'n wet nie en dit staan nie in die Grondwet nie",
+      "na": "Dit is nie 'n wet nie, en dit staan nie in die Grondwet nie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma goes before 'en' when it joins two clauses that each have a subject and verb ('Dit is', 'dit staan').",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb ('Dit is', 'dit staan').",
+      "rede_keurder": "A plain punctuation fix required by the AWS 2017 rule, with no word of the definition changed."
+    },
+    {
+      "nr": 4,
+      "blok": "misbruik",
+      "voor": "Om 'n kind seksueel te misbruik is misbruik",
+      "na": "Om 'n kind seksueel te misbruik, is misbruik",
+      "soort": "leestekens",
+      "rede_vinder": "When an om-te clause is the subject, a comma goes before the main verb, as the lesson already does in 'Wat hierdie deel gee, is'.",
+      "fout": "No comma between the sentence-initial om-te subject clause and the main verb, so 'misbruik is misbruik' runs together on a first reading.",
+      "rede_keurder": "A plain punctuation fix that matches the lesson's own 'Wat hierdie deel gee, is' and leaves every word of the entry and its protected phrases intact."
+    },
+    {
+      "nr": 5,
+      "blok": "misbruik",
+      "voor": "Om 'n kind te boelie is misbruik",
+      "na": "Om 'n kind te boelie, is misbruik",
+      "soort": "leestekens",
+      "rede_vinder": "Same rule as the sentence before it: a comma after an om-te subject clause, so the two parallel sentences match; 'boelie' stays as it is.",
+      "fout": "Same missing comma after the om-te subject clause as in the sentence before it.",
+      "rede_keurder": "Same punctuation fix as change 4, keeping the two parallel sentences consistent, with 'boelie' untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "As 'n reg nie nagekom word nie",
+      "voor": "maar dit gebeur nie altyd vanself nie",
+      "na": "maar dit word nie altyd vanself nagekom nie",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' points back to 'n reg', and a right does not 'happen' in Afrikaans (an English echo); 'nagekom' is the verb the block heading and the next sentence use, so the meaning stays the same.",
+      "fout": "none",
+      "rede_keurder": "'dit gebeur nie vanself nie' is a natural Afrikaans idiom here, while the proposal puts 'nagekom' three times in a row (heading, this sentence, the next) and pairs a passive with 'vanself' awkwardly, so it is a lateral move that disturbs its neighbour."
+    },
+    {
+      "nr": 2,
+      "blok": "Die handves en die Grondwet langs mekaar",
+      "voor": "Lees die Grondwet se deel oor kinders langs die handves en jy sien",
+      "na": "Lees die Grondwet se deel oor kinders langs die handves, en jy sien",
+      "soort": "leestekens",
+      "rede_vinder": "The 'en' joins an imperative clause to a full clause with its own subject and verb ('jy sien'), so a comma helps; this is optional, because the imperative has no stated subject.",
+      "fout": "none",
+      "rede_keurder": "The first clause is an imperative with no subject of its own, so the house AWS rule does not require the comma, and the 'Lees X en jy sien Y' construction reads well without it, as the finder itself concedes."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 6,
+      "blok": "verwaarlosing",
+      "voor": "aandag, hulp wanneer hy siek is, en skool",
+      "na": "aandag, skool en hulp wanneer hy siek is",
+      "soort": "woordorde",
+      "rede_vinder": "The house rule allows no comma before 'en' in a list; moving the item with a clause to the end removes that comma without the misreading 'wanneer hy siek is en skool', and nothing is added or left out.",
+      "fout": "The list ends in ', en skool', a comma before 'en' in a list, which the house comma rule does not allow.",
+      "rede_keurder": "The fault is real, but the fix reorders the items of a glossary definition that carries legally checked content, and a language agent may not reorder a definition, so the writer has to fix it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 565,
+  "woorde_na": 565,
+  "wanneer": "2026-10-28T18:50:46+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Wat die kinders onder meer gevra het",
+      "voor": "van sy geboorte af",
+      "na": "van geboorte af",
+      "soort": "idioom",
+      "rede_vinder": "'van geboorte af' is the fixed expression, and the list block already uses it.",
+      "fout": "none",
+      "rede_keurder": "'van sy geboorte af' is natural, correct Afrikaans; the proposal is a lateral move."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat die Grondwet onder meer vir elke kind gee",
+      "voor": "sorg by sy gesin, en gepaste ander sorg",
+      "na": "sorg by sy gesin en ander gepaste sorg",
+      "soort": "woordorde",
+      "rede_vinder": "No comma before 'en' between two parts of one phrase (AWS 2017), and 'ander' naturally comes before the adjective 'gepaste'.",
+      "fout": "none",
+      "rede_keurder": "The comma keeps the 'as hy daaruit weggeneem word' condition on the second item only, and 'gepaste ander sorg' (appropriate alternative care) would shift towards 'other appropriate care'."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat kinders self moet doen",
+      "voor": "kinders om jou",
+      "na": "kinders rondom jou",
+      "soort": "woordkeuse",
+      "rede_vinder": "'rondom jou' is the clearer, more natural way to say 'around you' here.",
+      "fout": "none",
+      "rede_keurder": "'kinders om jou' is natural Afrikaans; 'rondom jou' is only a different wording."
+    },
+    {
+      "nr": 13,
+      "blok": "Kinderhandves",
+      "voor": "die lys eise wat",
+      "na": "die lys van eise wat",
+      "soort": "grammatika",
+      "rede_vinder": "Afrikaans needs 'van' between 'lys' and what is in the list.",
+      "fout": "none",
+      "rede_keurder": "'die lys eise' is an accepted Afrikaans construction (like ''n lys name'), so this is no grammar error and glossary wording is not reworded for style."
+    },
+    {
+      "nr": 15,
+      "blok": "nasionaliteit",
+      "voor": "Nasionaliteit sê aan watter land",
+      "na": "Nasionaliteit wys aan watter land",
+      "soort": "woordkeuse",
+      "rede_vinder": "'sê aan' reads first as 'tell to'; 'wys aan watter land' avoids the misreading.",
+      "fout": "none",
+      "rede_keurder": "'aan watter land ... behoort' is natural Afrikaans, and 'wys aan' would carry the same supposed misreading, so the proposal fixes nothing in a glossary entry."
+    },
+    {
+      "nr": 17,
+      "blok": "gesondheidsorg",
+      "voor": "of te help leef met iets",
+      "na": "of te help om saam te leef met iets",
+      "soort": "anglisisme",
+      "rede_vinder": "'leef met' copies English 'live with'; Afrikaans says 'saamleef met', and 'help' then takes 'om te'.",
+      "fout": "none",
+      "rede_keurder": "'leef met' is established Afrikaans in health contexts, and the proposal makes a glossary definition longer and clumsier."
+    },
+    {
+      "nr": 18,
+      "blok": "maatskaplike dienste",
+      "voor": "Maatskaplike werkers bring baie daarvan",
+      "na": "Maatskaplike werkers lewer baie daarvan",
+      "soort": "woordkeuse",
+      "rede_vinder": "Services are 'gelewer' in Afrikaans, not 'gebring'.",
+      "fout": "none",
+      "rede_keurder": "'daarvan' refers to 'hulp', and 'hulp bring' is correct; the swap would also repeat 'lewer' from the next sentence in a glossary entry."
+    },
+    {
+      "nr": 19,
+      "blok": "maatskaplike dienste",
+      "voor": "Ook organisasies wat die staat vir hierdie werk aangewys het, lewer hierdie dienste.",
+      "na": "Organisasies wat die staat vir hierdie werk aangewys het, lewer ook hierdie dienste.",
+      "soort": "woordorde",
+      "rede_vinder": "Sentence-initial 'Ook' before a long subject reads wooden; 'ook' sits naturally after the verb.",
+      "fout": "none",
+      "rede_keurder": "Sentence-initial 'Ook' correctly puts the focus on organisations as well as workers; moving it shifts that focus to 'also these services' in a glossary entry."
+    }
+  ],
+  "konsep_hash_voor": "sha256:99303f112db00e9870cfd3ed83620dab",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4e63117bc9a49b74fc6ffb2cc2def6b1"
+}

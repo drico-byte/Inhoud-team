@@ -6,17 +6,18 @@
   "budget": 300,
   "begrotingsreel": "CAPS-hours: 300 planned, ceiling 336 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-10-15T15:10:36+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-28T16:18:33+00:00",
   "study": {
-    "words": 327,
+    "words": 334,
     "sentences": 25,
-    "mean_sentence_len": 13.1,
+    "mean_sentence_len": 13.4,
     "median_sentence_len": 13,
-    "longest_sentence": 18,
+    "longest_sentence": 22,
     "mean_syllables": 1.27,
     "pct_polysyllabic": 2.4,
     "pct_long_words": 0.3,
-    "commas_per_sentence": 0.16
+    "commas_per_sentence": 0.36
   },
   "eli10": null,
   "block_counts": {
@@ -25,7 +26,9 @@
   },
   "misspelled": [],
   "failures": [],
-  "warnings": [],
+  "warnings": [
+    "Study text: 0.36 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination"
+  ],
   "notes": [
     "Afrikaans dictionary not installed — spelling not checked"
   ]

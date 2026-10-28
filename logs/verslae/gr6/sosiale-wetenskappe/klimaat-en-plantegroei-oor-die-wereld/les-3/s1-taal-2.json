@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Suid-Afrika op dieselfde kaart",
+      "voor": "Kyk na Suid-Afrika self op die reënvalkaart en jy sien",
+      "na": "Kyk na Suid-Afrika self op die reënvalkaart, en jy sien",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two sentences here (an imperative and 'jy sien'), each with its own verb, so a comma goes before it.",
+      "fout": "Missing AWS comma: 'en' joins two main clauses, the imperative 'Kyk na ...' and 'jy sien ...', which has its own subject and verb.",
+      "rede_keurder": "The comma marks the join between two clauses as the AWS 2017 requires, and the words and meaning stay exactly the same."
+    },
+    {
+      "nr": 2,
+      "blok": "Twee soorte kaarte langs mekaar",
+      "voor": "om 'n plek se klimaat te ken",
+      "na": "om 'n plek se klimaat te leer ken",
+      "soort": "idioom",
+      "rede_vinder": "'n Klimaat ken' is stiff; 'leer ken' is the natural idiom for getting to know something by studying it, with the same meaning.",
+      "fout": "'n Plek se klimaat te ken' is flat and slightly odd, since reading the maps is a way of coming to know the climate, not a state of knowing it.",
+      "rede_keurder": "'Te leer ken' is the natural Afrikaans idiom for getting to know something by studying it, touches no protected wording and keeps the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 373,
+  "woorde_na": 374,
+  "wanneer": "2026-10-28T17:21:48+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Party plekke is nat en party is droog",
+      "voor": "in een enkele jaar",
+      "na": "in een jaar",
+      "soort": "anglisisme",
+      "rede_vinder": "'een enkele jaar' echoes English 'a single year'; 'in een jaar' says the same and still contrasts with 'in 'n hele jaar'.",
+      "fout": "none",
+      "rede_keurder": "'een enkele jaar' is acceptable Afrikaans and its emphasis carries the contrast with 'n hele jaar' in the next sentences, so the cut loses something for no clear gain."
+    },
+    {
+      "nr": 7,
+      "blok": "Die jaarlikse reënvalkaart",
+      "voor": "Die kaart gebruik skakerings",
+      "na": "Dit gebruik skakerings",
+      "soort": "sinsbou",
+      "rede_vinder": "Three sentences in a row open with 'Die kaart'; a pronoun here improves the flow and the reference stays clear.",
+      "fout": "none",
+      "rede_keurder": "Only two sentences open with 'Die kaart', the repetition is clear for a Grade 6 reader, and 'Dit' is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:fb083066e72ab76008929566119b0e8f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:9eeecb756d541bf3b85a1cdcd29939c8"
+}

@@ -1,0 +1,85 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Bou en bewaak",
+      "voor": "skrywer gedoen, en",
+      "na": "skrywer gedoen en",
+      "soort": "leestekens",
+      "rede_vinder": "The part after 'en' has no verb of its own (it is elliptical), so under the AWS 2017 rule given there is no comma before 'en'; the protected words after it are untouched.",
+      "fout": "none",
+      "rede_keurder": "The second clause has its own subject (Langa) with the verb gapped, so the comma marks the contrast between the two people and is acceptable; removing it puts two 'en's close together ('aktivis en skrywer gedoen en Langa') and makes a first reading harder, not easier."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 2,
+      "blok": "alleenopsluiting",
+      "voor": "alleen in 'n sel bly",
+      "na": "alleen in 'n sel aangehou word",
+      "soort": "woordkeuse",
+      "rede_vinder": "'bly' suggests choosing to stay; 'aangehou word' is the precise verb for being held, and matches 'sonder verhoor aangehou' in the study text.",
+      "fout": "'bly' does not say the person is held there against their will, so the entry read on its own could suggest a choice to stay alone.",
+      "rede_keurder": "The point is real, but this is a [begrip] definition, the proposal adds meaning (being held by someone) and costs a word in a lesson at its ceiling, so the writer must decide the fix.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Fatima Meer",
+      "teks": "Sy het in daardie jare van buite die regering aan 'n vryer land gewerk. Haar stryd het lank voor daardie jaar begin.",
+      "rede": "'daardie jaar' (1956) comes straight after 'daardie jare', so a learner may not know which year is meant; the second sentence is protected, so this is flagged, not changed."
+    },
+    {
+      "blok": "Bou en bewaak",
+      "teks": "Hulle het in die hof teen die nuwe staat se eie onwettige uitsettings gewen.",
+      "rede": "One wins against a party or wins a case, not 'against evictions'; slightly unidiomatic, but any fix touches a protected wording, so it is flagged only."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "die nuwe staat se eie uitsettings",
+      "rede": "This protected wording does not occur verbatim in the lesson, which reads 'die nuwe staat se eie onwettige uitsettings'; the entry may need updating so the guard matches the text."
+    }
+  ],
+  "woorde_voor": 336,
+  "woorde_na": 336,
+  "wanneer": "2026-10-28T17:33:29+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Pius Langa se pad deur die howe",
+      "voor": "Van daar het hy stap vir stap landdros geword",
+      "na": "Daarvandaan het hy stap vir stap tot landdros opgeklim",
+      "soort": "idioom",
+      "rede_vinder": "'Daarvandaan' is the natural form, and 'stap vir stap' collocates with rising to a post ('tot ... opgeklim') rather than with 'geword'; same word count, meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "'Van daar het hy stap vir stap landdros geword' already reads well; the proposal is a lateral rewording that adds a word to a lesson near its ceiling."
+    },
+    {
+      "nr": 5,
+      "blok": "aktivis",
+      "voor": "Iemand wat veldtog voer",
+      "na": "Iemand wat veldtogte voer",
+      "soort": "grammatika",
+      "rede_vinder": "'Veldtog' is a countable noun and needs an article or plural (''n veldtog voer' / 'veldtogte voer').",
+      "fout": "none",
+      "rede_keurder": "'Veldtog voer' is an established Afrikaans verb phrase (like 'oorlog voer'), so this is not a plain grammar error and a glossary definition should not be reworded for it."
+    },
+    {
+      "nr": 6,
+      "blok": "verbanning",
+      "voor": "vryheid vir 'n tyd ingekort het",
+      "na": "vryheid vir 'n tyd ingeperk het",
+      "soort": "woordkeuse",
+      "rede_vinder": "Freedom is 'ingeperk' (restricted); 'ingekort' means shortened and is the wrong collocation.",
+      "fout": "none",
+      "rede_keurder": "'Iemand se vryheid inkort' is standard Afrikaans for restricting freedom, so swapping to 'ingeperk' is a lateral move inside a glossary definition."
+    }
+  ],
+  "konsep_hash_voor": "sha256:d271f9f91f4b14da63c407c7fbbffde3",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d271f9f91f4b14da63c407c7fbbffde3"
+}

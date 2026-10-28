@@ -1,7 +1,7 @@
 {
   "les": "gr6/sosiale-wetenskappe/bevolking/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:e0a8d1537a1eca34894f053ef6d29f60",
+  "konsep_hash": "sha256:c61f9bb17f1dc01e9bb680613ebce148",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -116,11 +116,120 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\bevolking\\les-4.json",
       "konsep_hash": "sha256:e0a8d1537a1eca34894f053ef6d29f60",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T17:04:28+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:e0a8d1537a1eca34894f053ef6d29f60",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T17:24:55+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 448,
+      "woorde_na": 441,
+      "konsep_hash": "sha256:b0fbbab46505ab8ab63b4ac313d0a230"
+    },
+    {
+      "wanneer": "2026-10-28T17:24:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 441,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:24:56+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in ''n gebied, wat stede': The comma before 'wat' lets 'wat' be read as referring to the government rather than to the area."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T17:45:24+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c61f9bb17f1dc01e9bb680613ebce148",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T17:45:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 441,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:47:32+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 441,
+      "woorde_na": 441
+    },
+    {
+      "wanneer": "2026-10-28T17:53:15+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:53:15+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:53:24+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:53:24+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:53:24+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\bevolking\\les-4.json",
+      "konsep_hash": "sha256:c61f9bb17f1dc01e9bb680613ebce148",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:12f19e0ca0eb844b14bb471501df309e",
   "hek_konteks": {
     "graad": 6,
     "begroting": 400
-  }
+  },
+  "taal_geforseer_vir": "sha256:e0a8d1537a1eca34894f053ef6d29f60",
+  "taal_rondte_vir": "sha256:c61f9bb17f1dc01e9bb680613ebce148",
+  "taal_keurder_vir": "7112536ebca5742b3524cacb8bf23d30",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:c61f9bb17f1dc01e9bb680613ebce148",
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Die regering bou ook huise en bring water, elektrisiteit en paaie daar': 'daarheen' has no clear place to point to (the previous sentence names no place), and 'bring ... paaie' is an odd collocation; the list is protected, so the writer should say where the services go without guessing here."
+  ],
+  "taal_vir_mens": [
+    "[taal, protected word] ''n duidelike voorbeeld': In 'Kimberley en Johannesburg is 'n duidelike voorbeeld daarvan' two subjects take a singular 'voorbeeld'; it reads acceptably as one joint example, but 'duidelike voorbeelde' would agree in number. Left unchanged because it is protected."
+  ],
+  "taal_bons_vir": "sha256:b0fbbab46505ab8ab63b4ac313d0a230",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "fb72034bb12b152e77461142edacaf72"
 }

@@ -1,0 +1,109 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wie op 'n VOC-skip gewerk het",
+      "voor": "voor die maandelange reis terug",
+      "na": "voor die maandelange terugreis",
+      "soort": "sinsbou",
+      "rede_vinder": "'reis terug' after the noun is elliptical and wooden; the compound 'terugreis' is the natural Afrikaans form.",
+      "fout": "'die maandelange reis terug' uses a trailing adverb as if it were part of a noun phrase, which reads wooden",
+      "rede_keurder": "The compound 'terugreis' is the natural Afrikaans noun, the meaning is unchanged, and the protected wording 'Baie het jare in die Ooste gewerk' stays intact."
+    },
+    {
+      "nr": 2,
+      "blok": "Min plek en werk in wagte",
+      "voor": "Die seemanne het onder die dek gewoon en daar was",
+      "na": "Die seemanne het onder die dek gewoon, en daar was",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two full clauses",
+      "rede_keurder": "'Die seemanne het ... gewoon' and 'daar was min plek' each have their own subject and verb, so AWS 2017 requires the comma."
+    },
+    {
+      "nr": 3,
+      "blok": "Min plek en werk in wagte",
+      "voor": "Die werk is in wagte verdeel en so was daar dag en nag hande op die dek.",
+      "na": "Die werk is in wagte verdeel, en so was daar dag en nag seemanne aan diens op die dek.",
+      "soort": "anglisisme",
+      "rede_vinder": "'hande op die dek' calques English 'hands on deck'; also adds the AWS comma between two full clauses.",
+      "fout": "'hande op die dek' copies English 'hands on deck', and the AWS comma between two full clauses is missing",
+      "rede_keurder": "'seemanne aan diens op die dek' says the same thing in natural Afrikaans, and the comma is required between the two clauses."
+    },
+    {
+      "nr": 6,
+      "blok": "Siekte en gevaar op die see",
+      "voor": "gemaak en ons noem",
+      "na": "gemaak, en ons noem",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two full clauses",
+      "rede_keurder": "'Te min vars kos het ... gemaak' and 'ons noem hierdie siekte skeurbuik' each have their own subject and verb, and the protected word 'skeurbuik' stays untouched."
+    },
+    {
+      "nr": 7,
+      "blok": "Siekte en gevaar op die see",
+      "voor": "'n ongeluk aan boord",
+      "na": "ongelukke aan boord",
+      "soort": "woordkeuse",
+      "rede_vinder": "In a list of general dangers the plural reads naturally; the singular sounds like one specific accident.",
+      "fout": "the singular ''n ongeluk' sits awkwardly in a list of general dangers and suggests one particular accident",
+      "rede_keurder": "The plural 'ongelukke' reads naturally beside 'storms' and keeps the same general meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Min plek en werk in wagte",
+      "voor": "Die dissipline aan boord was hard.",
+      "na": "Die dissipline aan boord was streng.",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans collocates 'dissipline' with 'streng' rather than 'hard'.",
+      "fout": "none",
+      "rede_keurder": "'Harde dissipline' is good Afrikaans and carries harshness, while 'streng' narrows it to strictness, so the meaning would move."
+    },
+    {
+      "nr": 5,
+      "blok": "Kos en water aan boord",
+      "voor": "droog of gesout gepak",
+      "na": "gedroog of gesout gepak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'droog gepak' reads as 'packed dry'; 'gedroog' says the food was dried, parallel to 'gesout'.",
+      "fout": "none",
+      "rede_keurder": "'droog of gesout gepak' reads naturally, and 'gedroog' narrows it to food that was dried, which does not fit hard biscuit as well as 'droog' does."
+    },
+    {
+      "nr": 9,
+      "blok": "wag",
+      "voor": "voordat die volgende oorneem",
+      "na": "voordat die volgende groep oorneem",
+      "soort": "sinsbou",
+      "rede_vinder": "'die volgende' without a noun is elliptical; naming 'groep' makes the reference clear in an entry read on its own.",
+      "fout": "none",
+      "rede_keurder": "'die volgende' clearly points back to ''n groep seemanne' in the same sentence, so the entry stands on its own, and a glossary definition should not be reworded for a lateral gain."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 8,
+      "blok": "skeurbuik",
+      "voor": "Die siekte wat kom wanneer",
+      "na": "Die siekte wat ontstaan wanneer",
+      "soort": "woordkeuse",
+      "rede_vinder": "'wat kom' is vague and wooden for a definition; 'ontstaan' is precise and suits Grade 6.",
+      "fout": "'wat kom' is vague for a definition",
+      "rede_keurder": "The fault is real, but it is a rewording of a shared glossary definition, so only the writer may change it, for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 221,
+  "woorde_na": 221,
+  "wanneer": "2026-10-28T18:28:10+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:21baa2bb5d435f4032ad4f9635c34761",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:23a187621415bda14164aad12bea6aaf"
+}

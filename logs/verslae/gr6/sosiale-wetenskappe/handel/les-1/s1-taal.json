@@ -1,0 +1,92 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waarom mense handel dryf",
+      "voor": "op sy plaas maar hy maak",
+      "na": "op sy plaas, maar hy maak",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'maar' joins two sentences that each have their own subject and verb, so a comma is needed.",
+      "fout": "Missing AWS comma before 'maar' joining two clauses, each with its own subject and verb (''n Boer plant' / 'hy maak').",
+      "rede_keurder": "A plain AWS 2017 punctuation fix that leaves the meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Waarom mense handel dryf",
+      "voor": "baie mielies en die soutmaker",
+      "na": "baie mielies, en die soutmaker",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two full sentences with their own subjects and verbs ('Die boer het ...' and 'die soutmaker ... het sout'), so a comma is needed.",
+      "fout": "Missing AWS comma before 'en' joining two full sentences ('Die boer het ...' / 'die soutmaker ... het sout').",
+      "rede_keurder": "A required AWS comma that sits next to the protected wording 'die soutmaker by die soutpan' and leaves it intact."
+    },
+    {
+      "nr": 3,
+      "blok": "Ruil sonder geld",
+      "voor": "sy mielies na die soutmaker en kry",
+      "na": "sy mielies na die soutmaker toe en kry",
+      "soort": "idioom",
+      "rede_vinder": "Movement towards a person is idiomatically 'na ... toe' in Afrikaans.",
+      "fout": "'neem ... na die soutmaker' without 'toe' reads stiff for movement towards a person.",
+      "rede_keurder": "'na die soutmaker toe' is the natural Afrikaans for movement towards someone, and the boer still takes the maize to the soutmaker."
+    },
+    {
+      "nr": 5,
+      "blok": "Wanneer 'n direkte ruil moeilik raak",
+      "voor": "Wil hy daardie dag",
+      "na": "Wil die soutmaker daardie dag",
+      "soort": "verwysing",
+      "rede_vinder": "With both the boer and the soutmaker in view, 'hy' is ambiguous; naming the soutmaker makes the reference clear.",
+      "fout": "'hy' follows a sentence that names both the soutmaker and the boer, and the boer was named last, so a reader may stumble over who 'hy' is.",
+      "rede_keurder": "Naming the soutmaker makes the reference clear without changing who wants what."
+    },
+    {
+      "nr": 6,
+      "blok": "Koop en verkoop met geld",
+      "voor": "Geld beteken die koper en die verkoper hoef",
+      "na": "Met geld hoef die koper en die verkoper",
+      "soort": "anglisisme",
+      "rede_vinder": "'Geld beteken die koper ... hoef' copies English 'money means that ...'; 'Met geld hoef ...' is natural Afrikaans with the same meaning.",
+      "fout": "'Geld beteken die koper ... hoef' copies English 'money means (that)' and reads wooden, with 'dat' missing.",
+      "rede_keurder": "'Met geld hoef ...' is natural Afrikaans and says the same thing."
+    },
+    {
+      "nr": 7,
+      "blok": "Koop en verkoop met geld",
+      "voor": "Hy kan die geld ook hou",
+      "na": "Die boer kan die geld ook hou",
+      "soort": "verwysing",
+      "rede_vinder": "The previous sentence speaks generally ('die mense rondom jou'), so 'Hy' no longer clearly points back to the boer.",
+      "fout": "'Hy' comes after a general sentence about 'die mense rondom jou', so it no longer clearly points back to the boer.",
+      "rede_keurder": "Naming the boer again restores a clear reference and leaves the protected sentence before it intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Wanneer 'n direkte ruil moeilik raak",
+      "voor": "op dieselfde dag dat die boer",
+      "na": "op dieselfde dag wanneer die boer",
+      "soort": "anglisisme",
+      "rede_vinder": "'dieselfde dag dat' copies English 'the same day that'; Afrikaans uses a time relative ('wanneer') here.",
+      "fout": "none",
+      "rede_keurder": "'die dag dat' is established Afrikaans, not an anglicism, so swapping in 'wanneer' is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "diens - 'n Diens is werk wat iemand vir 'n ander doen, sodat die ander die werk self kry en nie 'n ding wat hy of sy kan hou nie.",
+      "rede": "The second half reads awkwardly for Grade 6 ('die werk self kry en nie 'n ding ... nie' is a loose, elliptical construction). Not changed because it is a decided shared definition; a person may want to look at the wording across the subject."
+    }
+  ],
+  "woorde_voor": 299,
+  "woorde_na": 302,
+  "wanneer": "2026-10-28T15:57:41+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:aa64f7529367451c29c9150e2958e4f2",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:120df0b98d07abdd40e28ebda16a7387"
+}

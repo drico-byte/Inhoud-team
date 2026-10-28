@@ -1,0 +1,103 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar die warm woestyne lê",
+      "voor": "op die noordelike en suidelike buiterande daarvan",
+      "na": "aan die noordelike en suidelike rand daarvan",
+      "soort": "idioom",
+      "rede_vinder": "In Afrikaans something lies 'aan die rand' of an area, and 'buiterande' is stiff.",
+      "fout": "'op die ... buiterande daarvan' is stiff; Afrikaans says something lies 'aan die rand' of an area.",
+      "rede_keurder": "Natural fixed expression with the same location; nothing protected is touched."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat die kaarte van hierdie streek wys",
+      "voor": "saam met die poolstreke van die ligste skakerings",
+      "na": "van die ligste skakerings, net soos die poolstreke",
+      "soort": "woordorde",
+      "rede_vinder": "As written, 'die poolstreke van die ligste skakerings' reads as one phrase, 'the polar regions of the lightest shades'.",
+      "fout": "'die poolstreke van die ligste skakerings' reads as one noun phrase, so the reader stumbles on the attachment.",
+      "rede_keurder": "'net soos' keeps the same comparison as 'saam met' (deserts and polar regions both have the lightest shades), removes the misparse, and leaves the protected 'Op baie reënvalkaarte het hulle' intact."
+    },
+    {
+      "nr": 4,
+      "blok": "Plante wat ver van mekaar staan",
+      "voor": "'n Plant hier kom",
+      "na": "Die plante hier kom",
+      "soort": "verwysing",
+      "rede_vinder": "The sentences that follow describe different plants using different methods, so the plural matches what is meant better than one plant using several.",
+      "fout": "The generic singular 'n Plant' can be read as one plant using several methods, while the following sentences give different plants different methods.",
+      "rede_keurder": "The plural matches the block's own examples and its opening 'min plante', and the protected 'op meer as een manier met min water klaar' stays word for word."
+    },
+    {
+      "nr": 5,
+      "blok": "Plante wat ver van mekaar staan",
+      "voor": "stingels of blare en ons noem hulle vetplante",
+      "na": "stingels of blare, en ons noem hulle vetplante",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma: 'en' joins 'Party plante hou ...' and 'ons noem hulle ...', each with its own subject and verb.",
+      "rede_keurder": "Required comma under AWS 2017; wording unchanged."
+    },
+    {
+      "nr": 7,
+      "blok": "Diere wat die warm dag ontwyk",
+      "voor": "Die wildlewe daar kom deur die warm dae en die droogte.",
+      "na": "Die wildlewe daar oorleef die warm dae en die droogte.",
+      "soort": "anglisisme",
+      "rede_vinder": "'Kom deur die warm dae' echoes English 'come through'; 'oorleef' is clearer and natural at Grade 6.",
+      "fout": "'kom deur die warm dae' copies English 'come through'; the Afrikaans form would be the separable 'deurkom' or a plain verb.",
+      "rede_keurder": "'oorleef' is the natural, plain verb for the same meaning at Grade 6."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Min reën en warm bedags",
+      "voor": "Die maandelikse gemiddeldes wys min of geen reën van maand tot maand.",
+      "na": "Die gemiddeldes vir elke maand wys min of geen reën.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Maandelikse' and 'van maand tot maand' say the same thing twice.",
+      "fout": "none",
+      "rede_keurder": "It removes 'maandelikse gemiddeldes', the curriculum's own term used across the sub-topic, and 'van maand tot maand' adds 'every month through the year' rather than merely repeating it."
+    },
+    {
+      "nr": 6,
+      "blok": "Plante wat ver van mekaar staan",
+      "voor": "om vinnig reën op te vang",
+      "na": "om reën vinnig op te vang",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans the object naturally goes before the manner adverb here.",
+      "fout": "none",
+      "rede_keurder": "With an indefinite object both orders are natural Afrikaans, so this is a lateral move."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat hierdie streek anders maak",
+      "voor": "in plaas van 'n blaredak te vorm",
+      "na": "in plaas daarvan om 'n blaredak te vorm",
+      "soort": "grammatika",
+      "rede_vinder": "Standard Afrikaans uses 'in plaas daarvan om ... te' before an infinitive clause.",
+      "fout": "none",
+      "rede_keurder": "'in plaas van ... te vorm' is accepted standard Afrikaans; the proposal is only longer and heavier for a Grade 6 reader."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat hierdie streek anders maak",
+      "teks": "maar die winters is koeler en die nagte veel kouer as die dae",
+      "rede": "'Die winters is koeler' does not say what the winters are cooler than (the summers, or the rainforest). Fixing this means guessing the intended comparison, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 438,
+  "woorde_na": 437,
+  "wanneer": "2026-10-28T17:56:43+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:39c0139784beaace53efef454ba32298",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:76e488b47c72937b5f898c83dbcec156"
+}

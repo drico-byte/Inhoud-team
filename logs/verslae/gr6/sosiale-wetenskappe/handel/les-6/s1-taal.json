@@ -1,0 +1,84 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar kakao groei",
+      "voor": "plekke nie en ons kakao",
+      "na": "plekke nie, en ons kakao",
+      "soort": "leestekens",
+      "rede_vinder": "Two main clauses with their own subject and verb joined by 'en' take a comma (AWS 2017); the protected wording is left intact.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses ('Suid-Afrika het ...' and 'ons kakao kom ...').",
+      "rede_keurder": "Both clauses have their own subject and verb, so the comma is required, and the protected wording 'Suid-Afrika het nie sulke plekke nie' stays intact."
+    },
+    {
+      "nr": 2,
+      "blok": "Op die plaas",
+      "voor": "in die son en word hulle meer werd",
+      "na": "in die son, en word hulle meer werd",
+      "soort": "leestekens",
+      "rede_vinder": "The second clause has its own subject ('hulle') and verb, so a comma goes before 'en' (AWS 2017).",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "rede_keurder": "'word hulle meer werd' has its own subject and verb, so the house comma rule applies, and the meaning is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "In die fabriek",
+      "voor": "breek hul harde dop af",
+      "na": "breek hul harde doppe af",
+      "soort": "grammatika",
+      "rede_vinder": "Many beans each have a shell, so the plural 'doppe' reads more naturally.",
+      "fout": "Singular 'dop' with the plural owner 'hul' (many beans) reads stiffly.",
+      "rede_keurder": "Afrikaans normally uses the plural for a countable thing each of several owners has, so 'hul harde doppe' is more natural and says the same thing."
+    },
+    {
+      "nr": 4,
+      "blok": "Waar die wins die opvallendste is",
+      "voor": "voor die meeste waarde bygevoeg is",
+      "na": "voordat die meeste waarde bygevoeg word",
+      "soort": "grammatika",
+      "rede_vinder": "'Voordat' is the standard written conjunction, and the present passive 'bygevoeg word' fits the sequence better than the perfect 'bygevoeg is'.",
+      "fout": "'verkoop sy bone voor die meeste waarde' first reads as a prepositional phrase, so the reader stumbles until 'bygevoeg is'.",
+      "rede_keurder": "'voordat ... bygevoeg word' removes the garden path while keeping the same sequence and the qualifier 'die meeste'."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "gisting",
+      "voor": "Gisting is wanneer klein lewende dinge kos of sap verander.",
+      "na": "Die proses waarin klein lewende dinge kos of sap verander.",
+      "soort": "anglisisme",
+      "rede_vinder": "'X is wanneer' copies the English 'X is when'; a noun-phrase definition matches the other glossary entries and keeps the meaning.",
+      "fout": "'Gisting is wanneer ...' copies the English 'X is when' definition pattern.",
+      "rede_keurder": "The fault is real, but this is a glossary definition beyond a plain spelling or grammar fix, so only the writer may reword it, for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Op die plaas / pod",
+      "teks": "Die boer sny die ryp pod van die boom",
+      "rede": "'Pod' is English; Afrikaans usually says 'peul' (or 'kakaopeul'). It is also the glossary headword, so it cannot be changed here; a writer or person should decide whether the term itself changes."
+    },
+    {
+      "blok": "In die fabriek",
+      "teks": "giet die mengsel in blokke",
+      "rede": "One pours a mixture into moulds, not into blocks, so the phrase is unidiomatic; fixing it means naming the moulds, which is a content choice for the writer."
+    },
+    {
+      "blok": "In die fabriek",
+      "teks": "ver van die plase waar die hulpbron groei",
+      "rede": "'Die hulpbron' is vague here (it means the cocoa); 'die kakao' would be clearer, but 'hulpbron' may be a deliberate subject term, so the writer should decide."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 383,
+  "woorde_na": 383,
+  "wanneer": "2026-10-28T16:38:12+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:a945583222d4f94befe72645215623f3",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:721cc0ff8e7283e61862c008cb5462f2"
+}

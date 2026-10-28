@@ -1,0 +1,87 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Van voor na agter in 'n atlas",
+      "voor": "Naby die voorkant van die meeste atlasse staan",
+      "na": "Voor in die meeste atlasse staan",
+      "soort": "anglisisme",
+      "rede_vinder": "'Naby die voorkant' calques 'near the front'; 'voor in' is the idiomatic Afrikaans and matches the glossary's 'voor in 'n boek'.",
+      "fout": "'Naby die voorkant van' copies English 'near the front of'; Afrikaans says 'voor in' a book.",
+      "rede_keurder": "The idiomatic 'voor in' says the same place, keeps 'die meeste' intact and matches the glossary's 'voor in 'n boek'."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat jy nodig het om 'n kaart te lees",
+      "voor": "Die meeste kaarte het 'n titel wat sê wat hulle wys, en 'n skaal om afstande te meet.",
+      "na": "Die meeste kaarte het 'n skaal om afstande te meet en 'n titel wat sê wat hulle wys.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS allows no comma before 'en' between two objects of one sentence; putting the short object first removes the comma without making 'en 'n skaal' read as part of the relative clause.",
+      "fout": "A comma before 'en' joining two objects of one sentence, against the AWS 2017.",
+      "rede_keurder": "Swapping the two objects removes the comma without ambiguity, keeps 'die meeste' and its scope over both items, and 'hulle' still points to the maps."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 420,
+  "woorde_na": 418,
+  "wanneer": "2026-10-28T16:54:06+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Een kaart kan nie alles wys nie",
+      "voor": "Sit die grense en die berge en die reën en die mense en die myne op een blad.",
+      "na": "Sit die grense, die berge, die reën, die mense en die myne op een blad.",
+      "soort": "leestekens",
+      "rede_vinder": "A list of five items reads more naturally with commas and one final 'en' than with 'en' repeated four times.",
+      "fout": "none",
+      "rede_keurder": "The repeated 'en' deliberately piles the items up to show the page getting too full; the comma list is a lateral move that loses that effect."
+    },
+    {
+      "nr": 3,
+      "blok": "Bladsye sonder kaarte",
+      "voor": "Baie skoolatlasse het ook foto's van plekke tussen die kaarte.",
+      "na": "Baie skoolatlasse het ook tussen die kaarte foto's van plekke.",
+      "soort": "woordorde",
+      "rede_vinder": "As written, 'plekke tussen die kaarte' can read as places lying between the maps; moving the phrase makes clear it is where the photos are.",
+      "fout": "none",
+      "rede_keurder": "No reader takes the places to lie between the maps, and the reordered sentence reads more awkwardly than the original."
+    },
+    {
+      "nr": 5,
+      "blok": "Van voor na agter in 'n atlas",
+      "voor": "verskil van die een atlas tot die ander",
+      "na": "verskil van atlas tot atlas",
+      "soort": "idioom",
+      "rede_vinder": "'Van atlas tot atlas' is the natural Afrikaans idiom; 'van die een ... tot die ander' is wooden.",
+      "fout": "none",
+      "rede_keurder": "'Van die een atlas tot die ander' is a natural Afrikaans expression, so the swap is lateral."
+    },
+    {
+      "nr": 7,
+      "blok": "Hoe jy een plek opspoor",
+      "voor": "waar jy die plek sal kry",
+      "na": "waar jy die plek sal vind",
+      "soort": "register",
+      "rede_vinder": "'Vind' is the standard written word for finding something; 'kry' is colloquial in this sense, and the title already uses 'vind'.",
+      "fout": "none",
+      "rede_keurder": "'Kry' is natural, plain Afrikaans for finding something, so swapping it for 'vind' is lateral."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat jy nodig het om 'n kaart te lees",
+      "voor": "Die sleutel staan op die kaart self, of in 'n groot atlas soms elders vir baie kaarte saam.",
+      "na": "Die sleutel staan op die kaart self. In 'n groot atlas staan dit soms elders, saam vir baie kaarte.",
+      "soort": "sinsbou",
+      "rede_vinder": "The original crowds four qualifiers into one tail and is hard to parse; splitting it keeps every qualifier and reads clearly.",
+      "fout": "none",
+      "rede_keurder": "Splitting drops the 'of' and makes 'Die sleutel staan op die kaart self' stand alone as an absolute claim; the original is readable and keeps the alternative in one sentence."
+    }
+  ],
+  "konsep_hash_voor": "sha256:5d6bf06bd1a6f31444b5e5250029ecf5",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:1cd63c98a22a0e81f05848a0b8d4dd67"
+}

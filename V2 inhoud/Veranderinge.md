@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-228 lesse.
+299 lesse.
 
 
 ## Graad 4/Lewensvaardighede/Gesondheids- en omgewingsverantwoordelikheid
@@ -448,3 +448,98 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 ## Graad 6/Natuurwetenskappe en Tegnologie/Voedselverwerking
 
 - **Les 01 - Hoekom ons kos kook, droog en laat gis** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feite: opskrif 'Amasi is vir baie mense makliker om te verteer' (nie 'voedsamer' nie)
+
+## Graad 6/Sosiale Wetenskappe/Bevolking
+
+- **Les 01 - Party plekke is vol, ander is byna leeg** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 02 - Die kleinste provinsie met die meeste mense** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: die syfers wat die twee grafieke wys, per provinsie met hul bron en jaar, as 'n lys
+- **Les 03 - Hoekom staan 'n dorp juis hier** (goedgekeur 2026-10-28): 5 taalverandering(s) toegepas
+- **Les 04 - Werk trek mense, en wette het hulle geskuif** (goedgekeur 2026-10-28): taalstap: niks verander nie
+- **Les 05 - Uit landelike gebiede na die stad** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 06 - Waar die wêreld se mense woon** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Taal: 'vir hawens' (Engelse redegewing) is nou 'weens hawens'
+- **Les 07 - Wanneer 'n stad tien miljoen mense het** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: twee stede se syfers met bron en jaar (VN 2018: Tokio en Lagos), en 'n kaart-blok wat stede volgens grootte wys; KABV-gaping: Taal: 'die orde' (Engels 'order') is nou 'die rangorde'
+- **Les 08 - Kaïro 'n stad in die woestyn, langs 'n rivier** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: 'stroomop' se omskrywing gee nou 'n ligging en nie net 'n rigting nie
+
+## Graad 6/Sosiale Wetenskappe/Demokrasie en burgerskap
+
+- **Les 01 - Die groot stemdag van 1994** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: die stelsel van voor 1994 by sy naam, apartheid, met 'n begrip-inskrywing; KABV-gaping: Feitetoets: 1994 was nie die eerste verkiesing waarin volwassenes van elke bevolkingsgroep kon stem nie (Kaapse stemreg, 1984/1989); nou die eerste waarin jou bevolkingsgroep nie meer besluit het waarvoor jy mag stem nie
+- **Les 02 - Die hoogste wet en die howe wat daaroor wag hou** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: 'wet' se gedeelde omskrywing: 'reëls' in plaas van 'regte'
+- **Les 03 - Waar wette gemaak word, en vir wie hulle geld** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feitetoets: die hou-links-reël is 'n regulasie onder 'n wet, nie 'n wet nie; 'n party OF 'n onafhanklike kandidaat was 'n vals keuse
+- **Les 04 - Sommige regte vra ook werk van jou** (goedgekeur 2026-10-28): 8 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: 'n slotblok oor goeie burgerskap by die naam, met 'n begrip-inskrywing
+- **Les 07 - 'n Wapen, 'n vlag en 'n lied** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas; KABV-gaping: Feitetoets: die Engelse slotstrofe van die volkslied is nie 'nuut geskryf' nie (aangepas uit Die Stem se amptelike Engelse weergawe); die les sê nou net dat dit nie 'n vertaling van die Afrikaanse strofe is nie
+- **Les 08 - Hoe jy iemand se lewensverhaal uitvind** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feitetoets: 'n boek of artikel kan self 'n primêre bron wees; die gedeelde omskrywing van 'sekondêre bron' se voorbeelde is nou 'n geskiedenisboek of 'n dokumentêr
+
+## Graad 6/Sosiale Wetenskappe/Handel
+
+- **Les 01 - Niemand maak alles self nie** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
+- **Les 10 - Handel wat ook vir die boer werk** (goedgekeur 2026-10-28): 5 taalverandering(s) toegepas
+- **Les 02 - Party goedere gaan die land uit, ander kom in** (goedgekeur 2026-10-28): 6 taalverandering(s) toegepas
+- **Les 03 - Wol op die skaap, trui in die winkel** (goedgekeur 2026-10-28): 13 taalverandering(s) toegepas
+- **Les 04 - Nie alles wat jy koop, kan jy vashou nie** (goedgekeur 2026-10-28): taalstap: niks verander nie
+- **Les 05 - Party goedere is meer werd as ander** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 06 - Die boontjie wat sjokolade word** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
+- **Les 07 - Die goud in die klip word 'n ring** (goedgekeur 2026-10-28): taalstap: niks verander nie
+- **Les 08 - Nie elke handel is regverdig nie** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
+- **Les 09 - Wat onregverdige handel mense kos** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
+
+## Graad 6/Sosiale Wetenskappe/Kaartvaardighede
+
+- **Les 01 - Die onsigbare lyne om die aarde** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
+- **Les 02 - Bo of onder die ewenaar waar Suid-Afrika lê** (goedgekeur 2026-10-28): 8 taalverandering(s) toegepas
+- **Les 03 - Van 'n ronde bal na 'n plat blad** (goedgekeur 2026-10-28): 10 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: 'n land is nie een punt nie - sy grense in grade, afgerond en met 'omtrent'
+- **Les 04 - Hoekom die hele wêreld op een bladsy pas** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 05 - Twee maniere om afstand op 'n kaart te wys** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
+- **Les 06 - Hoe ver is dit regtig van hier na daar** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 07 - Die boek vol kaarte, en hoe om iets daarin te vind** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: plekke in die nuus op 'n kaart opspoor
+- **Les 08 - Wat 'n kaart jou van jou eie provinsie vertel** (goedgekeur 2026-10-28): taalstap: niks verander nie
+- **Les 09 - Die langste, die hoogste, die grootste** (goedgekeur 2026-10-28): 5 taalverandering(s) toegepas
+
+## Graad 6/Sosiale Wetenskappe/Klimaat en plantegroei oor die wêreld
+
+- **Les 01 - Vandag se weer, en die plek se klimaat** (goedgekeur 2026-10-28): taalstap: niks verander nie
+- **Les 02 - Waar op die wêreld is dit warm, en waar is dit koud** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
+- **Les 03 - Party plekke kry baie reën, ander byna niks** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
+- **Les 04 - Die reënwoud warm en nat in elke maand** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 05 - Wanneer die reënwoud afgekap word** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 06 - Die warm woestyn baie son en min water** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
+- **Les 07 - Leef waar dit byna nooit reën nie** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: Feitetoets: Siwa se klein vensters kon nie bevestig word nie en is gesny
+- **Les 08 - Die naaldwoud bome wat die lang winter uithou** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: hoe die jaar se reën en sneeu oor die maande versprei is (die meeste water val in die somer, as reën)
+- **Les 09 - Wat die naaldwoud vir mense gee** (goedgekeur 2026-10-28): 9 taalverandering(s) toegepas
+
+## Graad 6/Sosiale Wetenskappe/Mapungubwe
+
+- **Les 01 - Lank voor Mapungubwe was hier al nedersettings** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: KABV-oudit: wat argeoloë by Schroda en K2 gevind het, een sin elk, en 'nC' kry 'n begrip-inskrywing; KABV-gaping: Feitetoets: die bewerking van die vloedvlakte is 'n hipotese, nou 'volgens party argeoloë ... nog nie bewys nie'
+- **Les 10 - Die boek wat Europa se belangstelling in die Ooste laat groei het** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
+- **Les 02 - Die koning op die heuwel** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: KABV-oudit: wat die koning vir sy mense heilig gemaak het, in die studieteks self; KABV-gaping: Feitetoets: die koning het nie tussen gewone mense en hulle eie voorouers gestaan nie; hy het vir die hele volk by sy eie voorouers gepleit
+- **Les 03 - Baie mense op een plek, en nie almal gelyk nie** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feitetoets: kos MOES nie van buite kom nie; nou het ander nedersettings oeste en vee aan die koning gegee. Die jaartalle is nou die tyd toe die dorp hoofstad was, nie sy hele bestaan nie; KABV-gaping: 'ander soorte mense' (kon as ras gelees word) is nou 'mense van 'n hoër klas'
+- **Les 04 - Die goue renoster en wat hy gesê het** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: minstens een ander goue voorwerp uit Mapungubwe benewens die renoster
+- **Les 05 - Van die Limpopo tot oor die Indiese Oseaan** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: KABV-oudit: waarheen die goud en ivoor gegaan het, by die naam (Indië); KABV-gaping: Feitetoets: die glasperle van Mapungubwe se eie tyd is van onseker herkoms; geen land word meer vir hulle genoem nie
+- **Les 06 - Die lang pad te voet** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 07 - Mapungubwe vandag 'n bewaarde plek en 'n eerbewys** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 08 - Toe Groot Zimbabwe die handel oorneem** (goedgekeur 2026-10-28): 4 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: die KABV-lyn dra net KABV se eie woorde
+- **Les 09 - Marco Polo vat die pad na die Ooste** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feitetoets: so 'n reis het maande en soms jare geduur; steenkool en sy is van die lys van onbekende dinge afgehaal (Europa het albei geken); 'n karavaan is nie net handelaars nie; Polo het per skip na Akko gevaar en eers daar oor land
+
+## Graad 6/Sosiale Wetenskappe/Medisyne oor tyd heen
+
+- **Les 01 - Wanneer die hele mens siek is** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: om die pasiënt op sy gemak te stel, as deel van holistiese genesing
+- **Les 10 - Twee soorte genesing, een pasiënt** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feitetoets: inheemse genesing is GENEIG om holisties te wees; nie alle inheemse genesing behandel die gees nie, en geen groep genesers word meer teen 'n ander gestel nie
+- **Les 02 - Medisyne wat in plante wag** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
+- **Les 03 - Die geroepe geneser eers die roeping, dan die leertyd** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feitetoets: die bewering dat 'n kruiedokter die werk binne die familie leer, het geen betroubare bron nie en is gesny
+- **Les 04 - Die melkmeisie se hande** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: 'n blok oor bronne - Jenner se eie verslag as primêre bron, 'n latere geskiedenisboek as sekondêre bron; KABV-gaping: 'stof' (lees as 'dust') is nou 'etter'; koeipokke is 'n siekte wat koeie en mense kan kry, nie 'van koeie' nie
+- **Les 05 - Te klein om te sien, groot genoeg om siek te maak** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: Feitetoets: Pasteur se flesse het die idee dat kieme siekte veroorsaak VERSTERK, nie die verband oortuigend gemaak nie
+- **Les 06 - Die kiem onder Koch se mikroskoop** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 07 - Die skoon ring in Fleming se bakkie** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feitetoets: vir die grootste deel van die geskiedenis was daar geen BETROUBARE medisyne teen bakterieë binne die liggaam nie (nie 'niks' nie); 'wat' in die 'eerste antibiotikum'-sin heg nie meer aan die skimmel nie
+- **Les 08 - Vier dinge wat eers moes bestaan** (goedgekeur 2026-10-28): taalstap: niks verander nie
+- **Les 09 - 'n Ander mens se hart** (goedgekeur 2026-10-28): taalstap: niks verander nie
+
+## Graad 6/Sosiale Wetenskappe/Ontdekkingsreisigers van Europa vind Suider-Afrika
+
+- **Les 01 - Europa begin anders dink** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: KABV-oudit: die verband met Kwartaal 1 - lank voor hierdie veranderinge was daar al 'n groot en goed georganiseerde samelewing in Suider-Afrika: Mapungubwe
+- **Les 02 - Leonardo da Vinci teken wat hy sien** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 03 - Galileo kyk self na die hemel** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feitetoets: 'n teleskoop gebruik nie altyd lense nie; die omskrywing is nou algemeen, met Galileo s'n as voorbeeld
+- **Les 04 - Nuwe idees kom van baie kante** (goedgekeur 2026-10-28): 6 taalverandering(s) toegepas
+- **Les 05 - Kruit, kompas en 'n nuwe soort skip** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
+- **Les 06 - Geloof en wins twee redes om te vaar** (goedgekeur 2026-10-28): 9 taalverandering(s) toegepas
+- **Les 07 - Om die punt van Afrika, en 'n ontmoeting by Mosselbaai** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas
+- **Les 08 - Die seepad na Indië, en die skepe wat volg** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
+- **Les 09 - Die seeman se klein wêreld op die groot see** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feitetoets: 'jonk' kon nie bevestig word nie en is gesny ('meestal arm')

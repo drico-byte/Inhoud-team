@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe jy die verhaal skryf",
+      "voor": "want oorskryf is nie navorsing nie",
+      "na": "want afskryf is nie navorsing nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "In school Afrikaans 'afskryf' is the usual word for copying someone else's text, while 'oorskryf' can also read as 'rewrite' or 'overwrite'.",
+      "fout": "'oorskryf' is ambiguous: besides 'copy out' it also reads as 'rewrite', which is close to the very thing the sentence tells the learner to do (write it in your own words).",
+      "rede_keurder": "'afskryf' is the plain school word for copying someone else's text, so it says exactly what was meant without moving the meaning, and it touches no protected wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat 'n biografie is",
+      "teks": "Skryf jou biografie in tydsorde van haar vroeë jare af.",
+      "rede": "'haar' (and the 'sy' that follows) comes before the lesson has said the person is a woman; the only antecedent is 'een werklike mens', which Afrikaans normally takes up with 'hy'. Fixing it needs a content decision (say she is a woman, or use a neutral reference), so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "primêre bron - \"... Dit bly 'n primêre bron, ook as sy dit jare later vertel.\"",
+      "rede": "Read alone as a glossary entry, 'sy' has no clear antecedent: the sentence before names 'iemand' and 'die mens self', neither of them marked as female. Left unchanged because the wording is decided; noted for a person."
+    }
+  ],
+  "woorde_voor": 278,
+  "woorde_na": 278,
+  "wanneer": "2026-10-28T18:35:42+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n biografie is",
+      "voor": "Leef sy nog, loop dit tot vandag toe.",
+      "na": "As sy nog leef, loop dit tot vandag toe.",
+      "soort": "sinsbou",
+      "rede_vinder": "The inverted conditional is literary; an explicit 'As' clause is clearer for Grade 6.",
+      "fout": "none",
+      "rede_keurder": "The inverted conditional 'Leef sy nog, ...' is ordinary, natural Afrikaans that a Grade 6 reader handles easily; the 'As' form is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Twee soorte bronne",
+      "voor": "'n Primêre bron kom van iemand wat self daar was, soos 'n brief, 'n foto of 'n onderhoud met haar.",
+      "na": "'n Primêre bron, soos 'n brief, 'n foto of 'n onderhoud met haar, kom van iemand wat self daar was.",
+      "soort": "sinsbou",
+      "rede_vinder": "After 'iemand wat self daar was', the 'soos' list reads as examples of people; moving it beside 'bron' attaches it to the right noun.",
+      "fout": "none",
+      "rede_keurder": "No reader takes a letter or a photo for a person, so the original flows; the proposal wedges a long list between subject and verb and is harder for Grade 6."
+    },
+    {
+      "nr": 7,
+      "blok": "Twee soorte bronne",
+      "voor": "'n Sekondêre bron kom van iemand wat nie daar was nie, soos 'n boek of 'n dokumentêr.",
+      "na": "'n Sekondêre bron, soos 'n boek of 'n dokumentêr, kom van iemand wat nie daar was nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "Same misattachment as the previous sentence; keeps the parallel pair built the same way.",
+      "fout": "none",
+      "rede_keurder": "Same as the previous change: the original reads naturally and the reorder splits subject from verb without making it clearer."
+    }
+  ],
+  "konsep_hash_voor": "sha256:1783318f139f12046147bc0b441b212a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d58cce1d6496097903b5deff487fd009"
+}

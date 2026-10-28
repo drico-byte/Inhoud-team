@@ -1,0 +1,128 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar 'n trui en 'n brood begin",
+      "voor": "by 'n skaap begin en 'n brood",
+      "na": "by 'n skaap begin, en 'n brood",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb ('n Woltrui het ... / 'n brood het ...).",
+      "rede_keurder": "Correct AWS 2017 comma; meaning and the protected 'n Woltrui are untouched."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar 'n trui en 'n brood begin",
+      "voor": "Wol en koring en water is",
+      "na": "Wol, koring en water is",
+      "soort": "sinsbou",
+      "rede_vinder": "A list of three reads more naturally with a comma than with a repeated 'en'.",
+      "fout": "The repeated 'en' in a three-item list reads clumsily.",
+      "rede_keurder": "A plain list with a comma is the natural form and changes nothing in meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Waar 'n trui en 'n brood begin",
+      "voor": "wat mense gebruik noem ons",
+      "na": "wat mense gebruik, noem ons",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the long fronted relative clause marks where the subject phrase ends and makes the sentence easier to read.",
+      "fout": "Without a comma the fronted object phrase runs into the main verb ('gebruik noem'), which makes the reader stumble.",
+      "rede_keurder": "The comma marks where the long fronted phrase ends; this is study text, not the glossary definition."
+    },
+    {
+      "nr": 5,
+      "blok": "Die wol en die trui",
+      "voor": "toe 'n trui gestrik",
+      "na": "toe 'n trui gebrei",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Brei' is the standard Afrikaans verb for knitting; 'strik' in this sense is more regional.",
+      "fout": "'gestrik' disagrees with the sub-topic's other lesson, which says 'gebrei' for the same jersey; 'brei' is also the standard verb.",
+      "rede_keurder": "Decided HOU by a person so that the two lessons agree."
+    },
+    {
+      "nr": 6,
+      "blok": "Van koring tot brood",
+      "voor": "tot meel en 'n bakker bak",
+      "na": "tot meel, en 'n bakker bak",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('n Meule maal ... / 'n bakker bak ...).",
+      "rede_keurder": "Correct AWS 2017 comma; meaning unchanged."
+    },
+    {
+      "nr": 7,
+      "blok": "Van koring tot brood",
+      "voor": "die koring waarmee begin is",
+      "na": "die koring waarmee alles begin het",
+      "soort": "sinsbou",
+      "rede_vinder": "The subjectless passive 'waarmee begin is' is wooden; an active form reads naturally and echoes the first block.",
+      "fout": "The subjectless passive 'waarmee begin is' is wooden.",
+      "rede_keurder": "'waarmee alles begin het' is what a fluent writer would say and keeps the same meaning."
+    },
+    {
+      "nr": 8,
+      "blok": "Waarom party hulpbronne meer werd is",
+      "voor": "'n Hulpbron wat ver moes kom is hier meer werd as waar dit uitgehaal is",
+      "na": "'n Hulpbron wat van ver af moes kom, is hier meer werd as daar waar dit uitgehaal is",
+      "soort": "sinsbou",
+      "rede_vinder": "Adds the comma after the fronted relative clause, uses the idiomatic 'van ver af', and gives the comparison a proper second term ('daar waar').",
+      "fout": "The comparison lacks its second term ('as waar'), 'ver moes kom' is loose, and the fronted relative clause has no comma.",
+      "rede_keurder": "'van ver af', 'as daar waar' and the comma fix real faults without moving the meaning; the protected sentence before it is untouched."
+    },
+    {
+      "nr": 10,
+      "blok": "Waarde sit nie vas nie",
+      "voor": "en die waarde styg",
+      "na": "en styg die waarde",
+      "soort": "woordorde",
+      "rede_vinder": "The second clause still belongs to the 'dan' main clause, so it keeps the inverted verb-subject order.",
+      "fout": "After 'Was ..., dan is daar ...' the coordinated consequence keeps straight order, which loosens its link to the condition.",
+      "rede_keurder": "Inverted 'en styg die waarde' keeps both clauses under 'dan', so the rise is clearly a result of the poor harvest."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Waarde en prys is nie dieselfde nie",
+      "voor": "as vir iemand by 'n kraan",
+      "na": "as vir iemand wat by 'n kraan staan",
+      "soort": "sinsbou",
+      "rede_vinder": "Completes the parallel with 'iemand wat ver geloop het' so the comparison reads smoothly.",
+      "fout": "none",
+      "rede_keurder": "'iemand by 'n kraan' already reads naturally; the proposal adds an action and length without a clear gain."
+    },
+    {
+      "nr": 9,
+      "blok": "Waarde sit nie vas nie",
+      "voor": "Was 'n oes swak",
+      "na": "Was die oes swak",
+      "soort": "woordkeuse",
+      "rede_vinder": "With 'in die een jaar' just before, the definite article reads more naturally: the harvest of that year.",
+      "fout": "none",
+      "rede_keurder": "The indefinite 'n oes reads well as a general condition; the definite article is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Waarom party hulpbronne meer werd is",
+      "teks": "is hier meer werd",
+      "rede": "'Hier' has no clear reference point for the learner (here where it is sold or used?); clarifying it would mean guessing the intended wording, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "'n Vervaardigde goed is meestal meer werd as die grondstof",
+      "rede": "'Goed' as a countable singular ('n vervaardigde goed') is unusual in Afrikaans, which normally says 'goedere' or ''n vervaardigde produk'; a person may want to check that this protected wording is what was intended."
+    }
+  ],
+  "woorde_voor": 327,
+  "woorde_na": 330,
+  "wanneer": "2026-10-28T16:15:56+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:128fbb016209b0a2e85bdfa6ac3c985a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:26f038fa610c36f28e9d520e2c9dc18d"
+}

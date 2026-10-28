@@ -1,0 +1,109 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die weer verander",
+      "voor": "Gister kon dit reën en vandag",
+      "na": "Gister kon dit reën, en vandag",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma: 'en' joins 'Gister kon dit reën' and 'vandag kan die son die hele dag skyn', each with its own subject and verb.",
+      "rede_keurder": "A required AWS comma between two full clauses; 'kon' and 'kan' are untouched."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n plek gewoonlik doen",
+      "voor": "maak oor baie jare 'n patroon",
+      "na": "vorm oor baie jare 'n patroon",
+      "soort": "woordkeuse",
+      "rede_vinder": "In Afrikaans weather 'vorm' a pattern; 'maak' reads as a literal translation of 'make'.",
+      "fout": "'maak 'n patroon' is a loose verb for weather building up a pattern over time.",
+      "rede_keurder": "'vorm' is the exact Afrikaans verb here, the meaning is unchanged and 'oor baie jare' stays intact."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat 'n plek gewoonlik doen",
+      "voor": "die plek se klimaat en dit wys",
+      "na": "die plek se klimaat, en dit wys",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma: 'en' joins 'Daardie patroon is die plek se klimaat' and 'dit wys ...', each with its own subject and verb.",
+      "rede_keurder": "A required AWS comma between two full clauses; nothing else changes."
+    },
+    {
+      "nr": 5,
+      "blok": "Een dag verander nie die klimaat nie",
+      "voor": "in die Karoo en die droë slote",
+      "na": "in die Karoo, en die droë slote",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: en joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma: 'en' joins 'Dit reën soms hard in die Karoo' and 'die droë slote loop vol water', each with its own subject and verb.",
+      "rede_keurder": "A required AWS comma between two full clauses; 'soms' is untouched."
+    },
+    {
+      "nr": 6,
+      "blok": "Een dag verander nie die klimaat nie",
+      "voor": "warm en tog is party dae",
+      "na": "warm, en tog is party dae",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en tog' joins two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma: 'en tog' joins 'Durban se klimaat is warm' and 'is party dae daar koel', each with its own subject and verb.",
+      "rede_keurder": "A required AWS comma between two full clauses; 'party dae' is untouched."
+    },
+    {
+      "nr": 7,
+      "blok": "Een dag verander nie die klimaat nie",
+      "voor": "sê dus nie wat vandag se weer daar is nie",
+      "na": "sê dus nie hoe die weer vandag daar is nie",
+      "soort": "anglisisme",
+      "rede_vinder": "'wat vandag se weer is' follows English 'what today's weather is'; Afrikaans asks 'hoe die weer is'.",
+      "fout": "'wat vandag se weer daar is' copies English 'what today's weather is' and makes the reader stumble.",
+      "rede_keurder": "'hoe die weer vandag daar is' is the natural Afrikaans form and says exactly the same thing."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 8,
+      "blok": "Die verskil is die tyd",
+      "voor": "die weer hoort by jou dorp en die klimaat by die hele wêreld",
+      "na": "dat die weer by jou dorp hoort en die klimaat by die hele wêreld",
+      "soort": "sinsbou",
+      "rede_vinder": "After 'om te dink' a dat-clause with the verb at the end reads more correctly in written Afrikaans; the protected opening stays intact.",
+      "fout": "none",
+      "rede_keurder": "Leaving out 'dat' after 'dink' is normal Afrikaans and the original reads well, so adding 'dat' and moving the verb to the end is a lateral move."
+    },
+    {
+      "nr": 9,
+      "blok": "Die verskil is die tyd",
+      "voor": "die lengte van die tyd",
+      "na": "die lengte van die tydperk",
+      "soort": "woordkeuse",
+      "rede_vinder": "'tydperk' is the natural word for a stretch of time that has a length.",
+      "fout": "none",
+      "rede_keurder": "'die lengte van die tyd' reads acceptably and matches the heading 'Die verskil is die tyd' and the next sentence's ''n kort tyd', so 'tydperk' is only a different word and breaks that echo."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 4,
+      "blok": "Wat 'n plek gewoonlik doen",
+      "voor": "wat in elke deel van die jaar die gewone ding is",
+      "na": "hoe elke deel van die jaar gewoonlik is",
+      "soort": "anglisisme",
+      "rede_vinder": "'die gewone ding' echoes English 'the usual thing' and is wooden; the meaning stays the same.",
+      "fout": "'die gewone ding' is wooden and echoes English 'the usual thing'.",
+      "rede_keurder": "The fault is real, but the proposal puts 'gewoonlik' in three sentences in a row (the one before and the Januarie sentence after already have it), so the writer needs to find another fix.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 330,
+  "woorde_na": 330,
+  "wanneer": "2026-10-28T17:11:00+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:efb11fe9a267614da9d873dcd492bb04",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:73c40adf7e9380fcb1be3afc9331b682"
+}

@@ -1,0 +1,79 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Goud sit vas in klip",
+      "voor": "Die klip met die goud in vorm 'n dun laag",
+      "na": "Die klip waarin die goud sit, vorm 'n dun laag",
+      "soort": "sinsbou",
+      "rede_vinder": "'met die goud in vorm' reads awkwardly and can be misparsed as 'in vorm'; the relative clause is clearer and matches the glossary entry for rif.",
+      "fout": "'Die klip met die goud in vorm' makes the reader stumble, since 'in vorm' reads as a phrase on first pass.",
+      "rede_keurder": "The relative clause reads naturally, says the same thing, and leaves the protected wordings in the paragraph untouched."
+    },
+    {
+      "nr": 2,
+      "blok": "Van die klip tot 'n suiwer staaf",
+      "voor": "Myners breek die klip los en masjiene",
+      "na": "Myners breek die klip los, en masjiene",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS 2017 comma between two clauses with their own subject and verb ('Myners breek' / 'masjiene bring').",
+      "rede_keurder": "Punctuation fix only; the meaning does not change."
+    },
+    {
+      "nr": 3,
+      "blok": "Van die klip tot 'n suiwer staaf",
+      "voor": "goud ook as suiwer stawe en Suid-Afrika",
+      "na": "goud ook as suiwer stawe, en Suid-Afrika",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS 2017 comma between two clauses with their own subject and verb ('Lande koop en verkoop' / 'Suid-Afrika voer uit').",
+      "rede_keurder": "Punctuation fix only; the meaning does not change."
+    },
+    {
+      "nr": 4,
+      "blok": "Die waarde klim by elke stap",
+      "voor": "'n klaar ring in die winkel",
+      "na": "'n voltooide ring in die winkel",
+      "soort": "register",
+      "rede_vinder": "Attributive 'klaar' is colloquial; 'voltooide' is the standard written form and is within Grade 6 vocabulary.",
+      "fout": "Attributive 'klaar' ('n klaar ring) is colloquial in written text.",
+      "rede_keurder": "'voltooide' is the standard written form, a Grade 6 reader knows it, and the protected opening 'Dieselfde goud is die meeste werd' stays intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 6,
+      "blok": "mynmaatskappy",
+      "voor": "en sy werk laat doen",
+      "na": "en die werk in die myn laat doen",
+      "soort": "verwysing",
+      "rede_vinder": "'sy' could refer to the business or the mine; naming the mine's work removes the ambiguity without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "'sy' naturally points to the mine and either reading means the same, while 'in die myn' narrows the work to underground and rewords a shared glossary definition."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "goudmyn",
+      "voor": "klip met goud in uit die grond haal",
+      "na": "klip waarin goud sit, uit die grond haal",
+      "soort": "sinsbou",
+      "rede_vinder": "'met goud in uit die grond' stacks two prepositions awkwardly; the relative clause reads smoothly and matches the rif entry.",
+      "fout": "'klip met goud in uit die grond haal' stacks prepositions awkwardly.",
+      "rede_keurder": "The fault is real, but this is a glossary definition shared across lessons, so only the writer may reword it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 387,
+  "woorde_na": 387,
+  "wanneer": "2026-10-28T16:38:14+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:9e797497ccf60973b0efc4733cff5c31",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:69dd6c3963cb8e1f721d2c6bf17a6601"
+}

@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die handel self hou aan",
+      "voor": "Dieselfde soort goed het",
+      "na": "Dieselfde soort goedere het",
+      "soort": "register",
+      "rede_vinder": "'Goed' is informal here; 'goedere' is the standard trade word and the one the lesson's own glossary uses.",
+      "fout": "'goed' is loose and informal for traded items in a trade lesson",
+      "rede_keurder": "'goedere' is the exact trade word, the same one the lesson's own handelsroete definition uses, and the meaning does not change."
+    },
+    {
+      "nr": 3,
+      "blok": "Verandering en kontinuïteit",
+      "voor": "Twee dinge is hier tegelyk waar en dit hang af waarna jy kyk.",
+      "na": "Twee dinge is hier tegelyk waar, en dit hang daarvan af waarna jy kyk.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses, and 'afhang' needs the anticipating 'daarvan' before a 'waarna' clause.",
+      "fout": "missing AWS comma between two full clauses, and 'afhang' lacks its anticipating 'daarvan' before the 'waarna' clause",
+      "rede_keurder": "The comma is required by the AWS and 'hang daarvan af waarna' is the correct construction, with the meaning unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Verandering en kontinuïteit",
+      "voor": "Albei dinge is waar en die",
+      "na": "Albei dinge is waar, en die",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' that joins two clauses each with its own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two clauses that each have their own subject and verb",
+      "rede_keurder": "'Albei dinge is waar' and 'die een maak nie die ander verkeerd nie' are full clauses, so the comma goes in."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat ons nie weet nie",
+      "voor": "mag 'n mens sê dat hy iets",
+      "na": "mag jy sê dat jy iets",
+      "soort": "verwysing",
+      "rede_vinder": "'n Mens ... hy' reads as male for a child reader; 'jy ... jy' is neutral and matches the 'jy' used elsewhere in the lesson.",
+      "fout": "'n mens ... hy' is stiff for a Grade 6 reader and reads as male",
+      "rede_keurder": "Generic 'jy ... jy' says the same thing, matches the lesson's own 'Kyk jy' register, and points to nobody new."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die middelpunt van die handel skuif",
+      "voor": "Daardie plek is Groot Zimbabwe.",
+      "na": "Daardie plek was Groot Zimbabwe.",
+      "soort": "grammatika",
+      "rede_vinder": "The block narrates in the past tense, so the identifying sentence reads more naturally in the past too; the protected name is untouched.",
+      "fout": "none",
+      "rede_keurder": "The present tense identifies a place that still exists (its stone walls still stand, as the next block says), so 'was' would suggest Groot Zimbabwe is no longer that place."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 278,
+  "woorde_na": 278,
+  "wanneer": "2026-10-28T19:55:44+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:be710a75b16b7816c464d3172f4b7638",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b7ead449db86bddb5eb91b747f4c0fb7"
+}

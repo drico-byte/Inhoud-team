@@ -7,145 +7,173 @@
   "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "Op die verspreidingskaart van die wêreld staan die kolle by groot stede die digste op mekaar.",
+      "bewering": "Op die verspreidingskaart van die wêreld staan die kolle by groot stede die digste opmekaar.",
       "blok": "Die digste kolle op die kaart",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "ITC Universiteit Twente, Living Textbook, 'Dot Density Map' (ltb.itc.utwente.nl/659/concept/174088): elke kol staan vir 'n vaste getal mense, en digte groepe kolle wys gekonsentreerde bevolking soos stede. Roth 2010, University of Wisconsin Cartography (geography.wisc.edu) oor kolkaarte. Die superlatief 'die digste' hou: die hoogste bevolkingsdigthede op aarde is in stede."
+      "bron": "GIS Geography, 'Dot Distribution vs Graduated Symbols vs Proportional Symbol Maps' (gisgeography.com); Atlas.co GIS Basics 16.3: on a dot-density map each dot stands for a fixed number of people, so dots crowd most closely where most people live, i.e. in large cities. Volstaan as patroonbeskrywing; geen enkele kaart word as feit beweer nie."
     },
     {
       "bewering": "In een stad kan meer mense woon as in 'n hele klein land.",
       "blok": "Die digste kolle op die kaart",
       "status": "bevestig",
       "tipe": "getal",
-      "bron": "UN DESA World Urbanization Prospects 2025 (un.org/en/desa/WUP-2025; Destatis-tabel wat WUP 2025 aanhaal): Tokio 33,4 miljoen in 2025. Australian Bureau of Statistics (abs.gov.au, 'Australia's population officially passes 27 million'): Australië se hele bevolking is kleiner as Tokio s'n. Die bewering is selfs vir 'n groot land waar, dus a fortiori vir 'n klein land."
+      "bron": "VN-skatting 2018 (World Urbanization Prospects 2018, soos getabuleer op simple.wikipedia.org 'List of largest cities'): Tokio 37 468 000, Lagos 13 463 000, Johannesburg 5 486 000; Lesotho se sensus 2016: 2 008 801 (Lesotho Bureau of Statistics via Africanews en GHDx). Selfs Johannesburg alleen het meer mense as Lesotho."
     },
     {
       "bewering": "Ons noem 'n stedelike gebied met meer as tien miljoen mense 'n megastad.",
       "blok": "Die digste kolle op die kaart",
       "status": "bevestig",
-      "tipe": "getal",
-      "bron": "UN DESA, WUP 2025 persverklaring (un.org/en/desa/WUP-2025; un.org/sustainabledevelopment/blog/2025/11/press-release-wup2025): 'megacities, urban areas with 10 million or more inhabitants'. WUP 2018 (soos aangehaal op en.wikipedia.org/wiki/Megacity): 'urban agglomerations with over 10 million inhabitants'. 'Meer as' teenoor 'of meer' maak by 'n getal mense geen praktiese verskil nie; albei vorme word deur die VN self gebruik."
+      "tipe": "algemeen",
+      "bron": "VN DESA, 'World Urbanization Prospects 2018' persverklaring (un.org/en/node/95135): 'megacities with more than 10 million inhabitants'; Wikipedia 'Megacity': die VN definieer megastede as stedelike agglomerasies met meer as 10 miljoen inwoners. Die VN gebruik self sowel 'more than' as 'over', so 'meer as' stem ooreen."
     },
     {
       "bewering": "Daardie tien miljoen is 'n lyn wat mense afgespreek het om die heel grootste stede uit te ken.",
       "blok": "Die digste kolle op die kaart",
       "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "UN DESA WUP 2025 (un.org/en/desa/WUP-2025): megastede is die grootste klas stedelike gebiede wat die VN onderskei (33 in 2025). Die drempel is 'n konvensie, nie 'n natuurlike grens nie: die VN het vroeër 8 miljoen gebruik en ander tellers (OECD, Demographia, GHSL) kom met dieselfde drempel by ander getalle uit (en.wikipedia.org/wiki/Megacity). 'Lyn wat mense afgespreek het' beeld dit akkuraat af; die metafoor van 'n lyn karteer reg (ver oor / naby die lyn = ver bo / net bo die drempel)."
+      "tipe": "analogie",
+      "bron": "VN DESA WUP 2018 (un.org/en/node/95135) en Wikipedia 'Megacity': die drempel van 10 miljoen is 'n definisie wat die VN gebruik, nie 'n natuurlike grens nie. Kartering: 'lyn' as 'n ooreengekome drempel hou; 'n leerder wat verder redeneer kom by 'dit is 'n afspraak, nie 'n natuurwet nie', wat korrek is. Die superlatief 'heel grootste' is reg binne hierdie afspraak: die 33 megastede van 2018 is die 33 grootste stedelike gebiede in die VN-tabel."
     },
     {
-      "bewering": "Op 'n kaart van stede kry elke stad sy eie simbool. 'n Stad met meer mense kry 'n groter simbool. ... Die sleutel langs die kaart wys watter grootte vir hoeveel mense staan.",
+      "bewering": "Op 'n kaart van stede kry elke stad sy eie simbool. 'n Stad met meer mense kry 'n groter simbool.",
       "blok": "Hoe 'n kaart 'n stad se grootte wys",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Esri ArcGIS-dokumentasie, 'Using proportional symbols' (desktop.arcgis.com/en/arcmap/10.3/map/working-with-layers/using-proportional-symbols.htm): elke simbool word volgens sy waarde grootgemaak, en die legende wys 'n reeks simbole van die kleinste tot die grootste waarde."
+      "bron": "GIS Geography (gisgeography.com) en University of Colorado, 'Making Maps' hoofstuk 5 'Thematic Symbols' (colorado.pressbooks.pub): 'n proporsionele/gegradeerde simboolkaart gee een simbool per plek en vergroot dit met die hoeveelheid, bv. New York kry 'n groter kol as San Francisco omdat dit meer mense het. Die blok se opskrif beperk die bewering tot 'n kaart wat stadsgrootte wys, so dit is nie 'n bewering oor elke kaart van stede nie."
     },
     {
       "bewering": "Johannesburg is een van Suid-Afrika se grootste stede en kry daarom 'n groot simbool.",
       "blok": "Hoe 'n kaart 'n stad se grootte wys",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "Statistiek Suid-Afrika, Sensus 2022 (via citypopulation.de en Wits-ontleding wits.ac.za/news/latest-news/opinion/2023/2023-10/south-africas-2022-census-whos-the-biggest.html): Stad van Johannesburg 4 803 262, die grootste munisipaliteit, net voor Kaapstad (4 772 846). 'Een van die grootste' is die versigtige vorm en hou ongeag of Kaapstad sedertdien verbygesteek het. Implikasie nagegaan: die blok noem Johannesburg NIE 'n megastad nie, en dit is reg - die VN (WUP 2025) gee Johannesburg ongeveer 7,1 miljoen, onder die les se drempel."
+      "bron": "SAnews (sanews.gov.za, Sensus 2022) en Wits (wits.ac.za, 'South Africa's 2022 census: who's the biggest'): Stad Johannesburg is met 4 803 262 inwoners die grootste metro, net voor Kaapstad (4 772 846). VN-skatting 2018: Johannesburg 5 486 000. 'Een van die grootste' is die veilige vorm en is waar."
     },
     {
-      "bewering": "Daar is groot stede op elke vasteland van die wêreld waar mense woon.",
-      "blok": "Waar die megastede staan",
+      "bewering": "Die sleutel langs die kaart wys watter grootte vir hoeveel mense staan.",
+      "blok": "Hoe 'n kaart 'n stad se grootte wys",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Afrika (Kaïro, Lagos), Asië (Tokio, Delhi), Europa (Londen 10,4 miljoen, Moskou 14,5 miljoen - VN DESA 2025 via en.wikipedia.org/wiki/Megacity), Noord- en Suid-Amerika (Mexikostad, São Paulo), Australië (Groter Sydney 5,56 miljoen, ABS Regional population 2023-24). Antarktika het geen permanente inwoners nie en word deur 'waar mense woon' uitgesluit."
+      "bron": "University of Colorado, 'Making Maps' hoofstuk 5 (colorado.pressbooks.pub) en ArcGIS StoryMaps 'Cartography Chapter 4 Part 2 - Proportional Symbol Maps': die legende van 'n proporsionele simboolkaart wys verwysingsimbole met hul waardes."
     },
     {
-      "bewering": "Die megastede staan egter nie eweredig oor die aarde versprei nie. Baie van hulle staan bymekaar in Asië.",
-      "blok": "Waar die megastede staan",
+      "bewering": "Al die stede se syfers kom uit een bron: die Verenigde Nasies se skatting in 2018 van hoeveel mense daardie jaar in elke stad gewoon het (World Urbanization Prospects: The 2018 Revision). Johannesburg kry sy simbool uit dieselfde bron as die ander stede.",
+      "blok": "kaart (vir: Hoe 'n kaart 'n stad se grootte wys)",
+      "status": "bevestig",
+      "tipe": "naam",
+      "bron": "UN DESA, 'World Urbanization Prospects: The 2018 Revision' (titel bevestig op un.org/development/desa/pd/node/3479 en Google Books); die WUP 2018-stadstabel (stede bo 300 000) sluit al agt genoemde stede in, Johannesburg met 5 486 000 (VN-tabel soos op simple.wikipedia.org 'List of largest cities'). Die res van die kaartblok is 'n opdrag aan die uitlegspan, nie 'n bewering nie."
+    },
+    {
+      "bewering": "Daar is groot stede op elke vasteland waar mense woon.",
+      "blok": "Waar die megastede lê",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "VN-skatting 2018 (simple.wikipedia.org 'List of largest cities'): stede bo tien miljoen in Asië, Afrika, Europa, Noord- en Suid-Amerika; Australië: Sydney het volgens die Australian Bureau of Statistics (abs.gov.au, 3218.0 Regional Population Growth 2016-17) 5,1 miljoen inwoners in 2017 bereik. Antarktika het geen permanente inwoners nie, wat die voorwaarde 'waar mense woon' dek."
+    },
+    {
+      "bewering": "Die megastede is egter nie eweredig oor die aarde versprei nie. Baie van hulle lê bymekaar in Asië.",
+      "blok": "Waar die megastede lê",
       "status": "bevestig",
       "tipe": "getal",
-      "bron": "UN DESA WUP 2025 (un.org/en/desa/WUP-2025): 33 megastede in 2025, waarvan 19 in Asië; Kaïro is die enigste nie-Asiatiese stad in die top tien."
+      "bron": "VN-skatting 2018, 33 megastede (un.org/en/node/95135 vir die getal 33; stadsyfers soos getabuleer op simple.wikipedia.org): ongeveer 19-20 van die 33 in Asië (afhangend van of Istanboel getel word), 3 in Afrika, 2 in Europa, 5 in Suid-Amerika, 3 in Noord-Amerika, geen in Oseanië nie."
     },
     {
-      "bewering": "Tokio in Japan en Sjanghai in China lê in Asië se ooste.",
+      "bewering": "Tokio in Japan en Sjanghai in China lê in die ooste van Asië.",
       "blok": "'n Paar megastede en waar hulle lê",
       "status": "bevestig",
       "tipe": "naam",
-      "bron": "Ligging: albei in Oos-Asië (VN M49-streekindeling, Oos-Asië sluit Japan en China in). Drempeltoets met die les se eie reël (meer as tien miljoen, hele aaneengeboude stad): Tokio 33,4 miljoen, Sjanghai 29,6 miljoen (UN DESA WUP 2025 via Destatis en citygeographics.org); ook bo tien miljoen by GHSL 2024, OECD 2020 en Demographia 2025 (en.wikipedia.org/wiki/Megacity)."
+      "bron": "VN-skatting 2018 (simple.wikipedia.org 'List of largest cities'): Tokio (Japan) 37,5 miljoen en Sjanghai (China) 25,6 miljoen, albei megastede; Japan en China is Oos-Asië."
     },
     {
       "bewering": "Delhi lê in Indië, ook in Asië.",
       "blok": "'n Paar megastede en waar hulle lê",
       "status": "bevestig",
       "tipe": "naam",
-      "bron": "Drempeltoets: Delhi (VN noem dit 'New Delhi') 30,2 miljoen in 2025 (UN DESA WUP 2025 via Destatis); 31,4 miljoen GHSL 2024; 33,5 miljoen OECD. Ligging in Indië, Suid-Asië, is korrek; 'ook in Asië' maak geen bewering dat dit in Asië se ooste lê nie."
+      "bron": "VN-skatting 2018 (simple.wikipedia.org): Delhi (Indië) 28 514 000; VN WUP 2018 persverklaring (un.org/en/node/95135) noem Delhi as die stad wat Tokio omtrent 2028 sal verbysteek."
     },
     {
       "bewering": "São Paulo in Brasilië lê in Suid-Amerika en Mexikostad in Noord-Amerika.",
       "blok": "'n Paar megastede en waar hulle lê",
       "status": "bevestig",
       "tipe": "naam",
-      "bron": "Drempeltoets: São Paulo 18,95 miljoen (UN DESA 2025), 19,5 miljoen (GHSL 2024); Mexikostad 24,7 miljoen volgens die Wikipedia-tabel van VN DESA 2025, ander weergawes van die VN-databoekie gee ongeveer 17,7 miljoen - 'n verskil wat ek nie kon oplos nie, maar albei syfers lê ver bo tien miljoen, dus raak dit nie die bewering nie (en.wikipedia.org/wiki/Megacity; un.org/en/desa/WUP-2025). Mexiko is deel van die vasteland Noord-Amerika (Britannica oor Noord-Amerika: Kanada, die VSA en Mexiko vorm die grootste deel van die vasteland). Die VN se M49-indeling sit Mexiko statisties onder 'Latyns-Amerika en die Karibiese Eilande', maar dit is 'n statistiese streek, nie 'n vasteland nie."
+      "bron": "VN-skatting 2018 (simple.wikipedia.org): São Paulo (Brasilië) 21 650 000, Mexikostad (Mexiko) 21 581 000; Britannica-opsomming 'Mexico': 'Country, southern North America'. Mexikostad lê geografies in Noord-Amerika, al word Mexiko kultureel soms by Latyns-Amerika gegroepeer."
     },
     {
       "bewering": "Kaïro in Egipte en Lagos in Nigerië lê in Afrika.",
       "blok": "'n Paar megastede en waar hulle lê",
       "status": "bevestig",
       "tipe": "naam",
-      "bron": "Drempeltoets: Kaïro 25,6 miljoen (UN DESA WUP 2025 via Destatis; die enigste nie-Asiatiese stad in die VN se top tien). Lagos 12,8 miljoen (UN DESA 2025), 12,5 miljoen (GHSL 2024), 12,6 miljoen (OECD 2020), 15,3 miljoen (Demographia 2025) - en.wikipedia.org/wiki/Megacity. Lagos is die swakste geval in die stel: Nigerië se amptelike sensus (2006) het Lagos-staat onder tien miljoen getel, en 'n tel binne die administratiewe grens kan dus onder die drempel val. Maar die les se eie reël is om die hele aaneengeboude stad te tel, en volgens dié reël lê Lagos by elke groot bron bo tien miljoen."
+      "bron": "VN-skatting 2018 (simple.wikipedia.org): Kaïro (Egipte) 20 076 000, Lagos (Nigerië) 13 463 000; albei megastede in 2018 en albei in Afrika."
     },
     {
-      "bewering": "Die lys as 'n stel: Tokio, Sjanghai, Delhi, São Paulo, Mexikostad, Kaïro en Lagos is almal megastede, versprei oor Asië (3), Suid-Amerika (1), Noord-Amerika (1) en Afrika (2).",
-      "blok": "'n Paar megastede en waar hulle lê",
+      "bewering": "Die Verenigde Nasies het in 2018 geskat hoeveel mense in die wêreld se groot stede woon.",
+      "blok": "Twee stede se syfers uit 2018",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Al sewe lê bo die les se drempel by al vier tellers wat en.wikipedia.org/wiki/Megacity naas mekaar stel (UN DESA 2025, GHSL 2024, OECD 2020, Demographia 2025); geen stad in die stel hang van die keuse van bron af nie. Elke vasteland klop. Die opskrif sê ''n Paar', so die lys maak geen aanspraak daarop om volledig te wees nie: dat Europa (Londen, Moskou) en ander Afrika-megastede nie genoem word nie, skep geen valse kontras nie. Dat 3 van die 7 in Asië is, weerspreek nie 'Baie van hulle staan bymekaar in Asië' nie, want die lys is 'n steekproef en nie 'n telling nie."
+      "tipe": "datum",
+      "bron": "UN DESA, World Urbanization Prospects 2018 (un.org/development/desa/pd/node/3479; persverklaring Mei 2018 op un.org/en/node/95135) en 'The World's Cities in 2018' data-boekie (un-ilibrary.org), wat skattings vir 2018 vir stede bo 300 000 gee."
+    },
+    {
+      "bewering": "Volgens dié skatting het Tokio daardie jaar 37,5 miljoen mense gehad.",
+      "blok": "Twee stede se syfers uit 2018",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "VN WUP 2018 persverklaring (un.org/en/node/95135): Tokio is 'the world's largest city with an agglomeration of 37 million inhabitants'; VN-tabel 2018: 37 468 000 (simple.wikipedia.org 'List of largest cities', bron WUP 2018), afgerond 37,5 miljoen."
+    },
+    {
+      "bewering": "Lagos het in dieselfde jaar 13,5 miljoen mense gehad.",
+      "blok": "Twee stede se syfers uit 2018",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "VN-tabel 2018 (WUP 2018) soos getabuleer op simple.wikipedia.org 'List of largest cities': Lagos 13 463 000, afgerond 13,5 miljoen; Axios (2019, op grond van VN-data) rond dit af na 'about 13 million'. Ander bronne gee baie ander syfers vir Lagos (14-21 miljoen, Mistra Urban Futures), maar die les bind die syfer uitdruklik aan die VN-skatting van 2018, en daarvoor is dit reg."
     },
     {
       "bewering": "Twee bronne kan twee getalle vir een en dieselfde stad gee. Die een bron tel net die mense binne die stad se eie grens. ... Die ander bron tel die mense in die hele aaneengeboude stad, ook waar dit oor die grens gegroei het. Nie een van die twee getalle is verkeerd nie.",
       "blok": "Waar 'n mens die stad se grens trek",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "UN DESA WUP 2018-definisies (data booklet 'The World's Cities in 2018', ctk.climatecentre.org; en.wikipedia.org/wiki/City_proper): 'city proper' is die bevolking binne die administratiewe grens, wat dikwels nie die voorstede insluit nie; 'urban agglomeration' is die aaneengeslote gebied met stedelike digtheid sonder inagneming van administratiewe grense. Albei is geldige statistiese begrippe."
+      "bron": "UN DESA WUP 2018-metodologie en Wikipedia 'City proper': 'city proper' is die bevolking binne die administratiewe grense; 'urban agglomeration' is die bevolking in 'n aaneenlopende gebied met stedelike digtheid 'without regard to administrative boundaries'. Die VN gee die voorbeeld van Toronto se verskillende syfers vir die twee begrippe."
     },
     {
       "bewering": "Die huise en paaie hou egter nie altyd by daardie grens op nie.",
       "blok": "Waar 'n mens die stad se grens trek",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "WUP 2018 (soos aangehaal): stede waarvan die aaneengeslote gebied die 'city proper' of plaaslike administratiewe grense oorskry het, met aangrensende voorstedelike gebiede."
+      "bron": "Wikipedia 'City proper' (wat UN-Habitat aanhaal): 'city proper as defined by administrative boundaries may not include suburban areas where an important proportion of the population ... lives'."
     },
     {
-      "bewering": "Vir 'n megastad tel 'n mens die hele aaneengeboude stad en nie net die deel binne sy grens nie.",
+      "bewering": "Vir 'n megastad tel 'n mens die hele aaneengeboude stad en nie net die deel binne die stad se grens nie.",
       "blok": "Waar 'n mens die stad se grens trek",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "UN DESA: megastede word as 'urban agglomerations' / 'urban areas' gedefinieer (WUP 2018 en WUP 2025, un.org/en/desa/WUP-2025). WUP 2025 gebruik die 'Degree of Urbanisation'-metode wat stede as aaneengeslote gebiede met hoë digtheid afbaken, nie volgens administratiewe grense nie (citygeographics.org/2025/11/19/...)."
+      "bron": "Wikipedia 'Megacity' en VN DESA WUP 2018: die VN definieer megastede as stedelike agglomerasies. Ter inligting vir 'n mens (geen fout in die les nie): WUP 2018 volg self die agglomerasiebegrip vir net 55% van sy stede, met 35% wat 'city proper' gebruik, omdat data nie altyd toelaat nie. Die les se bewering gaan oor die definisie, en die definisie is soos gestel."
     },
     {
-      "bewering": "Party stede lê ver oor die lyn van tien miljoen en ander lê naby daaraan.",
+      "bewering": "Party stede lê ver oor die lyn van tien miljoen, en ander lê naby daaraan.",
       "blok": "Waar 'n mens die stad se grens trek",
       "status": "bevestig",
       "tipe": "getal",
-      "bron": "UN DESA 2025: Jakarta 41,9 miljoen en Tokio 33,4 miljoen (ver oor); Londen 10,4 miljoen (naby) - un.org/en/desa/WUP-2025; en.wikipedia.org/wiki/Megacity. Implikasie vir die genoemde stede nagegaan: Lagos (ongeveer 12,5 tot 15 miljoen) is die naaste aan die lyn en lê steeds bo dit."
+      "bron": "VN-tabel 2018 (simple.wikipedia.org): Tokio 37,5 miljoen teenoor Bangkok 10,16 miljoen, Lima 10,39 miljoen en Chennai 10,46 miljoen."
     },
     {
-      "bewering": "'n Stad se getal mense geld net vir die jaar waarin dit getel is. Baie groot stede kry elke jaar nog meer inwoners.",
+      "bewering": "'n Stad se getal mense geld net vir die jaar waarin dit getel of geskat is.",
       "blok": "Getalle verander met die jare",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "UN DESA WUP 2025 persverklaring ('megacities continuing to grow'; megastede van 8 in 1975 tot 33 in 2025 en verwag 37 teen 2050) - un.org/sustainabledevelopment/blog/2025/11/press-release-wup2025."
+      "bron": "VN WUP 2018 (un.org/en/node/95135) gee skattings per jaar en projekteer veranderinge na 2030; die latere VN-hersiening van 2025 gee ander syfers vir dieselfde stede (bv. Tokio 33,4 miljoen, Lagos 12,8 miljoen; Wikipedia 'Megacity'), wat wys dat 'n syfer aan sy jaar en bron gebind is."
     },
     {
-      "bewering": "Party ander groot stede word egter met die jare kleiner.",
+      "bewering": "Baie groot stede kry elke jaar nog meer inwoners. Party ander groot stede word egter met die jare kleiner.",
       "blok": "Getalle verander met die jare",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "UN DESA WUP 2025 (un.org/en/desa/WUP-2025): die verslag noem bevolkingsafname in baie groot stede, spesifiek Mexikostad en Chengdu; Tokio word geprojekteer om van 33,4 na 30,7 miljoen te krimp teen 2050 (Destatis-tabel). Dit stem ook ooreen met die lys: Mexikostad is 'n megastad wat tans krimp, en die les sê nêrens dat elke megastad groei nie."
+      "bron": "VN WUP 2018 persverklaring (un.org/en/node/95135): die getal megastede groei van 33 in 2018 na 43 in 2030 en Delhi groei verder; 'Some cities have experienced population decline in recent years', bv. Nagasaki en Busan tussen 2000 en 2018 en verskeie stede in Oos-Europa, meestal in lae-vrugbaarheidslande van Asië en Europa."
     },
     {
       "bewering": "'n Megastad is 'n stedelike gebied met meer as tien miljoen mense. Die hele aaneengeboude stad word getel, nie net die deel binne die stad se grens nie.",
       "blok": "megastad",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Alleen gelees, met die res van die les weggelaat, is die inskrywing volledig en waar: drempel en telmetode stem ooreen met UN DESA WUP 2018/2025 ('urban agglomerations with over 10 million'; '10 million or more inhabitants'; agglomerasie, nie 'city proper' nie) - un.org/en/desa/WUP-2025; en.wikipedia.org/wiki/Megacity. Dit stem woord vir woord ooreen met die drempel in die studieblok 'Die digste kolle op die kaart', so 'n leerder kry een antwoord."
+      "bron": "VN DESA WUP 2018 (un.org/en/node/95135: 'megacities with more than 10 million inhabitants'); Wikipedia 'Megacity': die VN definieer megastede as stedelike agglomerasies. Die begrip stem ooreen met die studieblokke en staan ook alleen gelees reg."
     }
   ],
-  "opsomming": "Al twintig bewerings is bevestig: al sewe stede wat as megastede genoem word, lê by al vier groot bronne bo die les se eie drempel (Lagos, ongeveer 12,5 tot 15 miljoen, is die naaste aan die lyn), die vastelande klop, Johannesburg word tereg nie 'n megastad genoem nie, en die enigste onopgeloste punt - die VN se twee verskillende syfers vir Mexikostad (ongeveer 17,7 teenoor 24,7 miljoen) - raak niks wat die les sê nie, want die les gee geen getalle per stad nie."
+  "opsomming": "Al 24 beweerings is teen bronne bevestig - die definisie van 'n megastad, die VN-syfers van 2018 vir Tokio (37,5 miljoen) en Lagos (13,5 miljoen), die ligging van die agt stede, die ophoping van megastede in Asië en die verskil tussen 'n stad se grens en die aaneengeboude stad - en daar is niks om reg te maak nie; ter inligting: die VN se eie 2018-tabel gebruik vir omtrent 'n derde van stede die stadsgrens eerder as die aaneengeboude stad, en die nuwer VN-hersiening van 2025 gee ander syfers, maar die les bind sy syfers uitdruklik aan 2018 en maak dus geen fout nie."
 }

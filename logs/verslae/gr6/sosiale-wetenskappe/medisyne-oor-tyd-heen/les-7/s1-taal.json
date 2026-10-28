@@ -1,0 +1,113 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat Fleming in die bakkie gesien het",
+      "voor": "Hy het een bakkie laat staan en 'n kol skimmel het daarin gegroei.",
+      "na": "Hy het een bakkie laat staan, en 'n kol skimmel het daarin gegroei.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "Both 'Hy het ... laat staan' and ''n kol skimmel het ... gegroei' are full clauses, so the AWS 2017 comma is required and nothing else changes."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat Fleming in die bakkie gesien het",
+      "voor": "besef die skimmel maak 'n stof wat bakterieë doodmaak en hy",
+      "na": "besef dat die skimmel 'n stof maak wat bakterieë doodmaak, en hy",
+      "soort": "sinsbou",
+      "rede_vinder": "A written 'dat' clause with verb-final order reads more naturally, and the AWS comma is needed before 'en' joining a new clause with its own subject.",
+      "fout": "Spoken-style omission of 'dat' and a missing AWS comma, so 'doodmaak en hy' makes the reader stumble.",
+      "rede_keurder": "The written 'dat' clause with the verb at the end, plus the required comma before the new main clause, reads more naturally and keeps the meaning exactly."
+    },
+    {
+      "nr": 4,
+      "blok": "Fleming kon dit nie medisyne maak nie",
+      "voor": "kon dit nie medisyne maak nie",
+      "na": "kon nie medisyne daarvan maak nie",
+      "soort": "grammatika",
+      "rede_vinder": "The heading lacks a preposition ('dit ... medisyne maak' is ungrammatical); 'medisyne daarvan maak' matches the body text.",
+      "fout": "'kon dit nie medisyne maak nie' is ungrammatical: 'van' is missing.",
+      "rede_keurder": "'nie medisyne daarvan maak nie' is the correct construction, says the same thing, and leaves the protected body sentence untouched."
+    },
+    {
+      "nr": 5,
+      "blok": "Fleming kon dit nie medisyne maak nie",
+      "voor": "kry en dit het gou verswak",
+      "na": "kry, en dit het gou verswak",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses with their own subject and verb; the protected wording ending in 'kry' stays intact.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb.",
+      "rede_keurder": "'Fleming kon ... kry' and 'dit het gou verswak' are separate clauses; the comma goes after the protected wording and leaves it intact."
+    },
+    {
+      "nr": 6,
+      "blok": "Fleming kon dit nie medisyne maak nie",
+      "voor": "skoon en sterk genoeg",
+      "na": "suiwer en sterk genoeg",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Suiwer' is the natural Afrikaans word for a purified substance; 'skoon' reads as 'clean'.",
+      "fout": "'skoon ... gemaak' reads as 'cleaned' and echoes the 'skoon ring' of the earlier block.",
+      "rede_keurder": "'suiwer' is the exact, Grade 6-friendly word for a purified substance, and the meaning stays the same."
+    },
+    {
+      "nr": 7,
+      "blok": "Fleming kon dit nie medisyne maak nie",
+      "voor": "het hulle op siek mense gewys dat dit werk",
+      "na": "het hulle by siek mense getoon dat dit werk",
+      "soort": "anglisisme",
+      "rede_vinder": "'Op siek mense gewys' calques 'showed on patients'; 'by siek mense getoon' is idiomatic and keeps 'siek mense'.",
+      "fout": "'op siek mense gewys' copies English 'showed on patients'; 'wys' normally means showing something to someone.",
+      "rede_keurder": "In both versions the Oxford team proved, in sick people, that the drug works; 'by siek mense getoon' is the idiomatic way to say it and keeps the protected 'siek mense'."
+    },
+    {
+      "nr": 8,
+      "blok": "Die eerste antibiotikum uit 'n skimmel wat wyd gebruik is om bakterieë binne die liggaam dood te maak",
+      "voor": "Penisillien het verander hoe dokters wonde en bakteriese siektes behandel het.",
+      "na": "Penisillien het die manier verander waarop dokters wonde en bakteriese siektes behandel.",
+      "soort": "anglisisme",
+      "rede_vinder": "'Verander hoe' calques 'changed how'; 'die manier verander waarop' is the Afrikaans construction.",
+      "fout": "'het verander hoe ... behandel het' copies English 'changed how' and stacks two 'het's.",
+      "rede_keurder": "'het die manier verander waarop' is the natural Afrikaans construction, and the present form in the subordinate clause is normal after a past main verb, so the meaning does not move."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Wat Fleming in die bakkie gesien het",
+      "voor": "was die bakterieë dood in 'n duidelike skoon ring",
+      "na": "was die bakterieë in 'n duidelike, skoon ring dood",
+      "soort": "woordorde",
+      "rede_vinder": "The predicate 'dood' belongs at the end of the clause in Afrikaans, and the two coordinate adjectives take a comma.",
+      "fout": "none",
+      "rede_keurder": "Putting the place phrase after 'dood' is acceptable Afrikaans, and the proposal adds a comma in 'duidelike, skoon ring' that splits 'skoon ring', the unit the lesson's title names."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die eerste antibiotikum uit 'n skimmel wat wyd gebruik is om bakterieë binne die liggaam dood te maak",
+      "teks": "Penisillien was die eerste antibiotikum uit 'n skimmel wat wyd gebruik is om bakterieë binne die liggaam dood te maak.",
+      "rede": "Grammatically 'wat' attaches to 'skimmel', so the sentence (and the identical heading) says the mould was widely used; the intent is that the antibiotic was. Reordering would touch a fact-checked claim, so a writer should decide."
+    },
+    {
+      "blok": "Die eerste antibiotikum uit 'n skimmel wat wyd gebruik is om bakterieë binne die liggaam dood te maak",
+      "teks": "Dit het 'n besmette wond van binne genees waar die ouer medisyne misluk het.",
+      "rede": "The singular 'n besmette wond' and 'die ouer medisyne' read as one specific wound and one specific medicine; if the meaning is general ('besmette wonde ... waar ouer medisyne misluk het'), that is a content choice I cannot make without guessing."
+    },
+    {
+      "blok": "penisillien",
+      "teks": "'n Stof uit 'n skimmel wat bakterieë doodmaak en medisyne geword het.",
+      "rede": "As in the study text, 'wat' grammatically attaches to 'skimmel', so the definition reads as the mould killing bacteria and becoming medicine; the intended subject is the substance."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 307,
+  "woorde_na": 309,
+  "wanneer": "2026-10-28T19:44:29+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:fdb16919d2b853d37daecfd184bcc373",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:dbd5dcda7a22a95079db966e0d921c20"
+}

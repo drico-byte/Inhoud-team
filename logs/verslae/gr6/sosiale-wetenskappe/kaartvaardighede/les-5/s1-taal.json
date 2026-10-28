@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Twee maniere om dieselfde ding te sê",
+      "voor": "Die woordskaal is maklik om te lees en die lynskaal",
+      "na": "Die woordskaal is maklik om te lees, en die lynskaal",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two full sentences, each with its own subject and verb, so a comma goes before it.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two full clauses ('Die woordskaal is ...' and 'die lynskaal is ...').",
+      "rede_keurder": "Each side has its own subject and verb, so the comma is required and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Twee maniere om dieselfde ding te sê",
+      "voor": "kaart staan en",
+      "na": "kaart staan, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'Albei kan ... staan' and 'baie kaarte dra ...' each have their own subject and verb, so a comma goes before 'en'.",
+      "fout": "Missing AWS 2017 comma before 'en' joining 'Albei kan op een kaart staan' and 'baie kaarte dra net een van die twee'.",
+      "rede_keurder": "Two full clauses with their own subjects and verbs; the comma is required and nothing else moves."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoekom kaarte 'n lynskaal dra",
+      "voor": "Sy stukkies word korter of langer",
+      "na": "Die stukke word korter of langer",
+      "soort": "verwysing",
+      "rede_vinder": "Sentence-initial 'Sy' can read as 'she', and 'stukkies' differs from 'stukke' used for the same parts in the lynskaal block and the glossary.",
+      "fout": "Sentence-initial 'Sy' can briefly read as 'she', and 'stukkies' differs from 'stukke'/'stuk' used for the same parts elsewhere in the lesson and glossary.",
+      "rede_keurder": "'Die stukke' removes the stumble and matches the lesson's own term without changing what is said."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Twee maniere om dieselfde ding te sê",
+      "voor": "kaarte dra net",
+      "na": "kaarte het net",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Dra net een van die twee' reads stiff for a map having only one of the two scales; 'het' is the natural Grade 6 word, and the next block's heading and closing sentence keep 'dra'.",
+      "fout": "none",
+      "rede_keurder": "'Dra' is natural for a map carrying a scale and is the verb the lesson uses in the next heading and closing sentence, so swapping it here is a lateral move that breaks that consistency."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 312,
+  "woorde_na": 312,
+  "wanneer": "2026-10-28T16:09:48+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:809bea361fa3ff9d537d1f0bf165b168",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:058433c100a3bfa03e08853080ace0c9"
+}

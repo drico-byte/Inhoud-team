@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/kaartvaardighede/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:cbd8bebc88246d4ad71375ac278bcfcc",
+  "konsep_hash": "sha256:3a64e760ac86875cc5fdedf43394f7b7",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:af1e9b00c9ace81b2fdcc4fc8266c460"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -181,11 +183,134 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\kaartvaardighede\\les-3.json",
       "konsep_hash": "sha256:cbd8bebc88246d4ad71375ac278bcfcc",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T15:56:26+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:af1e9b00c9ace81b2fdcc4fc8266c460",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T15:56:27+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 387,
+      "begroting": 345,
+      "failures": [
+        "Study text 387 words, above budget ceiling 386 (planned 345 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T15:56:27+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 387 words, above budget ceiling 386 (planned 345 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T15:59:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:56f42f77ebfe8d46c0adc33e4c5debc7",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T15:59:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 382,
+      "begroting": 345,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T15:59:39+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:56f42f77ebfe8d46c0adc33e4c5debc7",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T16:05:51+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 10,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 382,
+      "woorde_na": 383,
+      "konsep_hash": "sha256:3a64e760ac86875cc5fdedf43394f7b7"
+    },
+    {
+      "wanneer": "2026-10-28T16:05:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 383,
+      "begroting": 345,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T16:05:52+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Greenwich Meridiaan': AWS writes a proper name plus common noun with a hyphen and lower case ('Greenwich-meridiaan'), but this is a subject term likely used across lessons, so it should be settled subject-wide rather than changed in one lesson."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T16:13:14+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T16:13:14+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 18,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T16:13:24+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T16:13:24+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 18,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T16:13:24+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\kaartvaardighede\\les-3.json",
+      "konsep_hash": "sha256:3a64e760ac86875cc5fdedf43394f7b7",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:515b8102afac67f9ae8a4b9efc2eeb11",
+  "spek_hash": "sha256:21c7dfccc6f03ae9f8cf3e629c612643",
   "hek_konteks": {
     "graad": 6,
-    "begroting": 300
-  }
+    "begroting": 345
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Greenwich Meridiaan': AWS writes a proper name plus common noun with a hyphen and lower case ('Greenwich-meridiaan'), but this is a subject term likely used across lessons, so it should be settled subject-wide rather than changed in one lesson."
+  ],
+  "taal_geforseer_vir": "sha256:56f42f77ebfe8d46c0adc33e4c5debc7",
+  "taal_rondte_vir": "sha256:3a64e760ac86875cc5fdedf43394f7b7",
+  "taal_keurder_vir": "623c26d7e6b11131aa87df2e19b1b163",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:3a64e760ac86875cc5fdedf43394f7b7",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:3a64e760ac86875cc5fdedf43394f7b7",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "bc8d0c20c3e2606c083b46ecdb250e1e"
 }

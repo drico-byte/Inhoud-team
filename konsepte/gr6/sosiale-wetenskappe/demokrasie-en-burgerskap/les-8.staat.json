@@ -1,11 +1,16 @@
 {
   "les": "gr6/sosiale-wetenskappe/demokrasie-en-burgerskap/les-8",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:3b7550c0a470d6141d8c08eee077ffef",
+  "konsep_hash": "sha256:bc6a247b2b769014c486984bff215015",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:d58cce1d6496097903b5deff487fd009"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "twee soorte bronne": 1,
+    "sekondêre bron": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -116,11 +121,225 @@
       "sound": true,
       "items": 33,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:12:50+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:3b7550c0a470d6141d8c08eee077ffef",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T18:24:48+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 10,
+      "laat_vaar": 3,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 274,
+      "woorde_na": 278,
+      "konsep_hash": "sha256:d28fc9713e6c329eca091a94c106e970"
+    },
+    {
+      "wanneer": "2026-10-28T18:24:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 278,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:24:49+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Die orde waarin dinge gebeur het': 'Die orde waarin' is stiffer than the usual 'volgorde' for a sequence in time.",
+        "fix: [taal] in 'Die manier waarop een bron 'n ding vertel.': ''n ding vertel' is loose where 'iets vertel' is the natural form.",
+        "check (the language finder raised this; it may not be a fault): 'Skryf jou biografie in tydsorde van haar vroeë jare af.': 'haar' and later 'sy' refer back to 'een werklike mens' with no female antecedent; if the subject is meant to be any person the learner chooses, the pronoun choice is a content decision for the writer, not a language fix."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T18:27:47+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1783318f139f12046147bc0b441b212a",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T18:27:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 278,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:35:42+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 278,
+      "woorde_na": 278,
+      "konsep_hash": "sha256:d58cce1d6496097903b5deff487fd009"
+    },
+    {
+      "wanneer": "2026-10-28T18:35:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 278,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:41:13+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:41:14+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 23,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:41:14+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "sekondêre bron",
+        "twee soorte bronne"
+      ],
+      "tally": {
+        "twee soorte bronne": 1,
+        "sekondêre bron": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T18:41:14+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] 'n Sekondêre bron kom van iemand wat nie daar was nie, soos  — corrected: Die definisie self is reg (wie dit maak en of hy daar was), maar die voorbeeld 'n boek' is te wyd: 'n boek wat die mens self oor haar lewe geskryf het (outobiografie of memoires) is 'n PRIMêRE bron, volgens die les se eie toets. Vir hierdie projek is dit juis die boek wat 'n leerder die meeste sal kry, want baie mense wat ons demokrasie help bou het, het self oor hul lewe geskryf. Vernou die voorbeeld tot 'n boek wat IEMAND ANDERS oor haar geskryf het; 'n dokumentêr kan bly.",
+        "[feite] sekondêre bron: 'n Bron waarin iemand wat nie self daar was  — corrected: Die eerste deel van die omskrywing is reg. Die voorbeeldlys stel egter twee formate as altyd sekondêr voor wat dikwels primêr is: 'n boek deur die mens self (outobiografie, memoires) en 'n artikel deur iemand wat self daar was. Vernou die voorbeelde sodat hulle by die omskrywing pas, byvoorbeeld 'n boek of 'n artikel wat iemand anders oor haar geskryf het, 'n dokumentêr of 'n museumuitstalling. Hou dit eenders as die studieblok 'Twee soorte bronne'."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T19:06:19+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4db021663341d2da46b2fe4661318aa3",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T19:06:19+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 278,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:07:34+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 278,
+      "woorde_na": 278
+    },
+    {
+      "wanneer": "2026-10-28T19:07:34+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Skryf jou biografie in tydsorde van haar vroeë jare af. Leef sy nog, l': 'haar' and 'sy' point forward to 'Die mens oor wie jy skryf' two sentences later, and the lesson never says the person is a woman; the antecedent 'een werklike mens' would normally take 'hy/sy' or a noun. Choosing between 'die mens se', 'hy of sy', or naming the person is a content decision, and the opening sentence holds protected wording, so this is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T19:24:52+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:bc6a247b2b769014c486984bff215015",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T19:24:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 278,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:26:25+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 278,
+      "woorde_na": 278
+    },
+    {
+      "wanneer": "2026-10-28T19:31:44+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:31:45+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 20,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:31:52+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:31:52+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 20,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:31:52+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\demokrasie-en-burgerskap\\les-8.json",
+      "konsep_hash": "sha256:bc6a247b2b769014c486984bff215015",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:2a3ade0452cb44f8397e65da187c618a",
   "hek_konteks": {
     "graad": 6,
     "begroting": 250
-  }
+  },
+  "taal_geforseer_vir": "sha256:3b7550c0a470d6141d8c08eee077ffef",
+  "taal_rondte_vir": "sha256:bc6a247b2b769014c486984bff215015",
+  "taal_keurder_vir": "13b1f2da94bf338828c9f1fb3db4ae8f",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:bc6a247b2b769014c486984bff215015",
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Skryf jou biografie in tydsorde van haar vroeë jare af. Leef sy nog, l': 'haar' and 'sy' come before any antecedent: the person written about is only introduced in the last sentence of the block ('Die mens oor wie jy skryf'), and nothing says the person is a woman. The lesson keeps using sy/haar right through (lys, 'n onderhoud met haar'). Whether the person is meant to be a woman, or the pronoun should become neutral, is a content decision, so I have not changed it; moving the last sentence of the block up would also fix the reference."
+  ],
+  "taal_vir_mens": [
+    "[taal, protected word] 'primêre bron - \"... Dit bly 'n primêre bron, ook as sy dit j': Read alone as a glossary entry, 'sy' has no clear antecedent: the sentence before names 'die mens self, of iemand wat dit gesien het', and 'sy' could be read as either of them or as the source. A neutral 'die mens' or 'hulle' would make the entry stand alone; this is a decided shared wording, so it is for a person to judge."
+  ],
+  "taal_bons_vir": "sha256:4db021663341d2da46b2fe4661318aa3",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "5f0152c542dc978fe8ef670d052c1442"
 }

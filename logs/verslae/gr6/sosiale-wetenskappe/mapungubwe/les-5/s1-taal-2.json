@@ -1,0 +1,78 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Een wêreld",
+      "voor": "die glas vir daardie perle",
+      "na": "die glas vir die glasperle",
+      "soort": "verwysing",
+      "rede_vinder": "'daardie perle' opens a new block and points back to beads named only in an earlier block; naming them makes the block read on its own.",
+      "fout": "'daardie perle' opens the block with no antecedent inside it; the beads were last named two blocks earlier.",
+      "rede_keurder": "Naming the glass beads makes the opening sentence clear on its own, the following 'dieselfde perle' still points to them, and the glass-versus-bead distinction is untouched."
+    },
+    {
+      "nr": 3,
+      "blok": "Die koning en die skaars goed",
+      "voor": "al ryker",
+      "na": "al hoe ryker",
+      "soort": "idioom",
+      "rede_vinder": "'al hoe ryker' is the usual, clearer idiom for 'increasingly' at this grade.",
+      "fout": "'al ryker' can be read on first pass as 'already richer', because 'al' alone usually means 'already'.",
+      "rede_keurder": "'al hoe ryker' is the fixed Afrikaans form for 'increasingly' and removes the stumble without changing the meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Die koning en die skaars goed",
+      "voor": "al magtiger",
+      "na": "al hoe magtiger",
+      "soort": "idioom",
+      "rede_vinder": "Same idiom as the previous sentence, kept parallel.",
+      "fout": "'al magtiger' carries the same 'already' misreading as the sentence before.",
+      "rede_keurder": "The same fixed expression fixes the same stumble and keeps the two sentences parallel; the protected 'groter' is not touched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Een wêreld",
+      "voor": "nie twee aparte wêreldjies nie maar",
+      "na": "nie twee aparte wêreldjies nie, maar",
+      "soort": "leestekens",
+      "rede_vinder": "A comma normally separates the 'nie ... nie' half from the contrasting 'maar' half.",
+      "fout": "none",
+      "rede_keurder": "'maar een wêreld' is not a clause with its own subject and verb, so the AWS rule the lesson follows asks for no comma here and the original reads well."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat aangekom het",
+      "voor": "is vandag ons getuienis",
+      "na": "is vandag vir ons getuienis",
+      "soort": "idioom",
+      "rede_vinder": "'vir ons getuienis' is the more natural construction than the possessive 'ons getuienis'.",
+      "fout": "none",
+      "rede_keurder": "'ons getuienis' is natural Afrikaans and the proposal is a lateral move that shifts 'our evidence' to 'evidence for us' without reading clearly better."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 340,
+  "woorde_na": 342,
+  "wanneer": "2026-10-28T18:50:33+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 7,
+      "blok": "ivoor",
+      "voor": "harde wit materiaal",
+      "na": "harde, wit materiaal",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives of equal rank take a comma between them.",
+      "fout": "none",
+      "rede_keurder": "'harde wit materiaal' is acceptable as it stands, the definition is a glossary entry, and a debatable comma there is not a clear improvement."
+    }
+  ],
+  "konsep_hash_voor": "sha256:c64f7e21a44688b49c6fe1ddca059ece",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:fc0da0036f9049104396f3ce5b81832e"
+}

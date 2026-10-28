@@ -1,0 +1,110 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Ruil sonder geld",
+      "voor": "geruil en ons noem dit ruilhandel",
+      "na": "geruil, en ons noem dit ruilhandel",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb (Mense het geruil / ons noem).",
+      "fout": "Missing AWS comma before 'en' joining two full clauses (Mense het geruil / ons noem).",
+      "rede_keurder": "Both sides have their own subject and verb, so AWS 2017 requires the comma; the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat weggegaan het",
+      "voor": "hard en wit en mense",
+      "na": "hard en wit, en mense",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before the second 'en', which joins two full clauses (Dit is hard en wit / mense kon dit kerf); the first 'en' stays without a comma.",
+      "fout": "Missing AWS comma before the second 'en', which joins two full clauses.",
+      "rede_keurder": "The comma marks where the clause about ivory's look ends and the carving clause begins; the first 'en' between the adjectives rightly stays bare."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat aangekom het",
+      "voor": "Mense het van daardie glasperle later by Mapungubwe",
+      "na": "Mense het later van daardie glasperle by Mapungubwe",
+      "soort": "woordorde",
+      "rede_vinder": "The time adverb reads more naturally straight after the verb, before the partitive object and the place.",
+      "fout": "'later' wedged between the partitive object and the place reads stiffly.",
+      "rede_keurder": "Putting the time adverb straight after the auxiliary is the natural Afrikaans order, and the people, action, time and place all stay the same."
+    },
+    {
+      "nr": 4,
+      "blok": "Die pad na die see",
+      "voor": "gevolg en ons noem dit 'n handelsroete",
+      "na": "gevolg, en ons noem dit 'n handelsroete",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb (Handelaars het gevolg / ons noem).",
+      "fout": "Missing AWS comma before 'en' joining two full clauses (Handelaars het gevolg / ons noem).",
+      "rede_keurder": "Same AWS rule as change 1, and it keeps the lesson's naming sentences punctuated consistently."
+    },
+    {
+      "nr": 5,
+      "blok": "Een wêreld",
+      "voor": "geken nie en tog",
+      "na": "geken nie, en tog",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two full clauses (Daardie mense het mekaar nie geken nie / tog was hulle verbind).",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Each side has its own subject and verb, and the comma before 'en tog' also helps the contrast read clearly."
+    },
+    {
+      "nr": 6,
+      "blok": "Een wêreld",
+      "voor": "aan mekaar verbind",
+      "na": "met mekaar verbind",
+      "soort": "idioom",
+      "rede_vinder": "In Afrikaans people or places are 'met mekaar verbind'; 'aan mekaar verbind' suggests being physically attached.",
+      "fout": "'aan mekaar verbind' suggests being physically joined, which is not what is meant.",
+      "rede_keurder": "In both versions the same people are linked to each other; 'met mekaar verbind' is the natural expression for that kind of connection, so the meaning does not move."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 7,
+      "blok": "ivoor",
+      "voor": "harde wit materiaal",
+      "na": "harde, wit materiaal",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives of equal rank take a comma between them.",
+      "fout": "none",
+      "rede_keurder": "'harde wit materiaal' is acceptable as it stands, the definition is a glossary entry, and a debatable comma there is not a clear improvement."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 8,
+      "blok": "globalisering",
+      "voor": "wanneer plekke ver van mekaar deel",
+      "na": "wanneer plekke wat ver van mekaar lê, deel",
+      "soort": "sinsbou",
+      "rede_vinder": "'plekke ver van mekaar' is clipped and reads like a list of words; the relative clause matches the study text's own 'plekke wat ver van mekaar lê' and the comma separates it from the main verb.",
+      "fout": "'plekke ver van mekaar deel van een wêreld word' is clipped, and a reader can stumble by reading 'ver van mekaar deel' together.",
+      "rede_keurder": "The fault is real, but the fix rewords a glossary definition, so the writer must make it for every lesson that defines the term.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat aangekom het",
+      "teks": "Party van die glasperle het uit Indië gekom. Hierdie lap is geweefde stof. Mense het van daardie glasperle later by Mapungubwe uit die grond gegrawe.",
+      "rede": "The sentence about the cloth sits between two sentences about the glass beads, so 'Hierdie lap' points back two sentences and 'daardie glasperle' has to jump over the cloth; moving the cloth sentence up to follow the block's first sentence would flow better, but that span holds a protected wording, so it is left for the writer."
+    },
+    {
+      "blok": "Wat aangekom het",
+      "teks": "Mense het van daardie glasperle later by Mapungubwe uit die grond gegrawe.",
+      "rede": "'later' is vague: a learner could read it as the people of Mapungubwe digging the beads up soon afterwards, while the next sentence implies a modern find (centuries later, by archaeologists); making that explicit would add content, so it is only flagged."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 339,
+  "woorde_na": 339,
+  "wanneer": "2026-10-28T18:21:26+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:5e1fd2fd9cd51fb01ab9279865db412c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:7060ee205f6209da518e640ebdfce6ce"
+}

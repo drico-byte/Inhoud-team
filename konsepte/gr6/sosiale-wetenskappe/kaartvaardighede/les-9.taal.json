@@ -1,0 +1,66 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die hoogste berge bo seevlak",
+      "voor": "Al drie staan in Asië en Everest",
+      "na": "Al drie staan in Asië, en Everest",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017 comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses with their own subject and verb ('Al drie staan' / 'Everest is').",
+      "rede_keurder": "The comma joins two full sentences, so AWS 2017 requires it; nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Die grootste woude",
+      "voor": "Die grootste gordel naaldwoud loop oor",
+      "na": "Die grootste naaldwoudgordel strek oor",
+      "soort": "woordkeuse",
+      "rede_vinder": "'gordel naaldwoud' is a loose calque; the compound 'naaldwoudgordel' and 'strek oor' are the natural Afrikaans for a belt across a region.",
+      "fout": "'gordel naaldwoud' is a loose, English-shaped phrase; Afrikaans uses the compound.",
+      "rede_keurder": "'naaldwoudgordel strek oor' is the natural Afrikaans for a belt spanning a region, the meaning is unchanged, and 'Daardie gordel' in the next sentence still refers back cleanly."
+    },
+    {
+      "nr": 3,
+      "blok": "Die grootste lande",
+      "voor": "aan hul oppervlak gemeet",
+      "na": "aan hul oppervlakte gemeet",
+      "soort": "woordkeuse",
+      "rede_vinder": "A country's size is its area, 'oppervlakte'; 'oppervlak' means surface.",
+      "fout": "'oppervlak' means surface; a country's size is its area, 'oppervlakte'.",
+      "rede_keurder": "Corrects the word to what the sentence means, and does not touch the protected 'aarde se oppervlak' in the oseaan definition."
+    },
+    {
+      "nr": 4,
+      "blok": "Die grootste lande",
+      "voor": "die tweede grootste land",
+      "na": "die tweedegrootste land",
+      "soort": "spelling",
+      "rede_vinder": "AWS writes an ordinal plus superlative as one word: 'tweedegrootste'.",
+      "fout": "Ordinal plus superlative written apart; AWS writes 'tweedegrootste' as one word.",
+      "rede_keurder": "Plain spelling correction with no change in meaning."
+    },
+    {
+      "nr": 5,
+      "blok": "Hierdie lyste bly nie dieselfde nie",
+      "voor": "Mense meet met die jare beter",
+      "na": "Mense meet met die jare al hoe beter",
+      "soort": "idioom",
+      "rede_vinder": "'al hoe beter' expresses the gradual improvement 'met die jare' implies; the bare 'beter' reads wooden.",
+      "fout": "'meet met die jare beter' reads flat; the gradual improvement wants the fixed expression.",
+      "rede_keurder": "'al hoe beter' is the idiomatic Afrikaans for improvement over time and keeps the meaning exactly, at the cost of two short words."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 424,
+  "woorde_na": 424,
+  "wanneer": "2026-10-28T16:43:18+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:dbebce4fa8c4443f943935d41199544f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:67ecabdd3a51cf4ef636277729bf3fc3"
+}

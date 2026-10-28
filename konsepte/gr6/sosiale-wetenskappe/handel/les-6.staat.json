@@ -1,7 +1,7 @@
 {
   "les": "gr6/sosiale-wetenskappe/handel/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:a945583222d4f94befe72645215623f3",
+  "konsep_hash": "sha256:2b10d342e1f00e1533b64e735ff4f3a1",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -72,11 +72,128 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\handel\\les-6.json",
       "konsep_hash": "sha256:a945583222d4f94befe72645215623f3",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T16:31:36+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:a945583222d4f94befe72645215623f3",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T16:38:12+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 383,
+      "woorde_na": 383,
+      "konsep_hash": "sha256:721cc0ff8e7283e61862c008cb5462f2"
+    },
+    {
+      "wanneer": "2026-10-28T16:38:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 383,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T16:38:13+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Gisting is wanneer klein lewende dinge kos of sap verander.': 'Gisting is wanneer ...' copies the English 'X is when' definition pattern.",
+        "check (the language finder raised this; it may not be a fault): 'Die boer sny die ryp pod van die boom': 'Pod' is English; Afrikaans usually says 'peul' (or 'kakaopeul'). It is also the glossary headword, so it cannot be changed here; a writer or person should decide whether the term itself changes.",
+        "check (the language finder raised this; it may not be a fault): 'giet die mengsel in blokke': One pours a mixture into moulds, not into blocks, so the phrase is unidiomatic; fixing it means naming the moulds, which is a content choice for the writer.",
+        "check (the language finder raised this; it may not be a fault): 'ver van die plase waar die hulpbron groei': 'Die hulpbron' is vague here (it means the cocoa); 'die kakao' would be clearer, but 'hulpbron' may be a deliberate subject term, so the writer should decide."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T16:43:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8f19baf07afc88dd0b3a7d0f1a0af5bb",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T16:43:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 388,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T16:57:11+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 388,
+      "woorde_na": 390,
+      "konsep_hash": "sha256:2b10d342e1f00e1533b64e735ff4f3a1"
+    },
+    {
+      "wanneer": "2026-10-28T16:57:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 390,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:01:28+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:01:28+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:01:34+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:01:35+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:01:35+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\handel\\les-6.json",
+      "konsep_hash": "sha256:2b10d342e1f00e1533b64e735ff4f3a1",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:0cb4e4826ea6540708f63d853ccb113b",
+  "spek_hash": "sha256:cad9781b87d395c855ce1b7b89692539",
   "hek_konteks": {
     "graad": 6,
     "begroting": 350
-  }
+  },
+  "taal_geforseer_vir": "sha256:a945583222d4f94befe72645215623f3",
+  "taal_rondte_vir": "sha256:2b10d342e1f00e1533b64e735ff4f3a1",
+  "taal_keurder_vir": "b7dd5941e772e86d070ee6e5aba5d9dc",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:2b10d342e1f00e1533b64e735ff4f3a1",
+  "taal_vir_skrywer": [],
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:721cc0ff8e7283e61862c008cb5462f2",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "a6e3f2160756bbcab70605a68cbe4127"
 }

@@ -1,7 +1,7 @@
 {
   "les": "gr6/sosiale-wetenskappe/demokrasie-en-burgerskap/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:0c69b961b33de496c680c7048742f6ce",
+  "konsep_hash": "sha256:4e63117bc9a49b74fc6ffb2cc2def6b1",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -427,9 +427,90 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\demokrasie-en-burgerskap\\les-6.json",
       "konsep_hash": "sha256:0c69b961b33de496c680c7048742f6ce",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T18:12:49+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:0c69b961b33de496c680c7048742f6ce",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T18:22:28+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4008ea3a38f1269af7a2d8ab44393020",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T18:22:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 559,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:27:46+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 8,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 559,
+      "woorde_na": 565,
+      "konsep_hash": "sha256:23fe5a6f7e2eb46a0164cc6d9cf25cbe"
+    },
+    {
+      "wanneer": "2026-10-28T18:27:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 565,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:27:47+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'vir ander stukke gebruik': 'ander stukke' is vague for documents and a Grade 6 reader may read 'pieces'.",
+        "fix: [taal] in 'en so ook die grootmens wat weet en toelaat': As written the sentence makes the adult who knows and allows it 'misbruik', instead of the knowing and allowing.",
+        "check (the language finder raised this; it may not be a fault): 'Die handves vra verpligte skool wat gratis en gelyk is.': 'gelyk' for a school is vague (equal for all children? equal quality?) and 'verpligte skool' is slightly odd for compulsory schooling; clarifying it would mean guessing what the charter demanded, so it is not changed here."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T18:41:11+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:99303f112db00e9870cfd3ed83620dab",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T18:41:11+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 565,
+      "begroting": 500,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:50:46+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 565,
+      "woorde_na": 565,
+      "konsep_hash": "sha256:4e63117bc9a49b74fc6ffb2cc2def6b1"
+    },
+    {
+      "wanneer": "2026-10-28T18:50:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 565,
+      "begroting": 500,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:2b6394637f12f0515308d45e78e2cc00",
+  "spek_hash": "sha256:78ff8f7daa1a700e6e38fcccdcc8922b",
   "hek_konteks": {
     "graad": 6,
     "begroting": 500
@@ -437,5 +518,17 @@
   "aanvaarde_feite_items": [
     "sha256:2ab243aa2566f5e1f755055f462c643dc8f5a5e9bdf857d20dee28d36fef1b96",
     "sha256:b315ff98ec8a67a91820221ef4053b36291aee4046b813948d3298bd975166b1"
-  ]
+  ],
+  "taal_geforseer_vir": "sha256:0c69b961b33de496c680c7048742f6ce",
+  "taal_rondte_vir": "sha256:4e63117bc9a49b74fc6ffb2cc2def6b1",
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'aandag, hulp wanneer hy siek is, en skool': The list ends in ', en skool', a comma before 'en' in a list, which the house comma rule does not allow."
+  ],
+  "taal_keurder_vir": "8a5db2bc7ba6fb0a708771df44bf3ab8",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:4e63117bc9a49b74fc6ffb2cc2def6b1",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:23fe5a6f7e2eb46a0164cc6d9cf25cbe",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "625390783bc57628114609450c5681f9"
 }

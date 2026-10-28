@@ -6,17 +6,18 @@
   "budget": 300,
   "begrotingsreel": "CAPS-hours: 300 planned, ceiling 336 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-10-15T12:38:11+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-28T18:20:54+00:00",
   "study": {
-    "words": 330,
+    "words": 334,
     "sentences": 25,
-    "mean_sentence_len": 13.2,
-    "median_sentence_len": 13,
+    "mean_sentence_len": 13.4,
+    "median_sentence_len": 14,
     "longest_sentence": 21,
     "mean_syllables": 1.42,
-    "pct_polysyllabic": 6.1,
+    "pct_polysyllabic": 6.0,
     "pct_long_words": 0.6,
-    "commas_per_sentence": 0.2
+    "commas_per_sentence": 0.36
   },
   "eli10": null,
   "block_counts": {
@@ -26,6 +27,7 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text: 0.36 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: seevaarders"
   ],
   "notes": [

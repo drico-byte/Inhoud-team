@@ -1,0 +1,88 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wie op 'n VOC-skip gewerk het",
+      "voor": "het vir 'n loon aangesluit",
+      "na": "het vir 'n loon by die VOC aangesluit",
+      "soort": "sinsbou",
+      "rede_vinder": "In Afrikaans 'aansluit' normally needs 'by' and an object; the bare form reads like English 'signed on', and the VOC is already named in the sentence.",
+      "fout": "Bare 'het aangesluit' leaves 'joined what?' hanging; Afrikaans 'aansluit' naturally takes 'by' and an object.",
+      "rede_keurder": "Adding 'by die VOC' completes the verb without adding a fact (the VOC is already named) and leaves the protected 'meestal arm' intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Min plek en werk in wagte",
+      "voor": "seemanne aan diens op die dek",
+      "na": "seemanne op die dek aan diens",
+      "soort": "woordorde",
+      "rede_vinder": "The predicate-like phrase 'aan diens' sits more naturally at the end, after the place phrase.",
+      "fout": "none",
+      "rede_keurder": "Lateral word-order move; 'seemanne aan diens op die dek' already reads naturally and the proposal is merely different."
+    },
+    {
+      "nr": 3,
+      "blok": "Kos en water aan boord",
+      "voor": "ná 'n tyd sleg",
+      "na": "ná 'n ruk sleg",
+      "soort": "idioom",
+      "rede_vinder": "'ná 'n ruk' is the idiomatic Afrikaans expression; 'ná 'n tyd' is a calque of 'after a time'.",
+      "fout": "none",
+      "rede_keurder": "'ná 'n tyd' is ordinary Afrikaans, not a calque, and 'ná 'n ruk' can suggest a shorter while, so the swap is lateral at best and risks shifting the time sense."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 221,
+  "woorde_na": 224,
+  "wanneer": "2026-10-28T18:58:44+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Min plek en werk in wagte",
+      "voor": "Die dissipline aan boord was hard.",
+      "na": "Die dissipline aan boord was streng.",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans collocates 'dissipline' with 'streng' rather than 'hard'.",
+      "fout": "none",
+      "rede_keurder": "'Harde dissipline' is good Afrikaans and carries harshness, while 'streng' narrows it to strictness, so the meaning would move."
+    },
+    {
+      "nr": 5,
+      "blok": "Kos en water aan boord",
+      "voor": "droog of gesout gepak",
+      "na": "gedroog of gesout gepak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'droog gepak' reads as 'packed dry'; 'gedroog' says the food was dried, parallel to 'gesout'.",
+      "fout": "none",
+      "rede_keurder": "'droog of gesout gepak' reads naturally, and 'gedroog' narrows it to food that was dried, which does not fit hard biscuit as well as 'droog' does."
+    },
+    {
+      "nr": 9,
+      "blok": "wag",
+      "voor": "voordat die volgende oorneem",
+      "na": "voordat die volgende groep oorneem",
+      "soort": "sinsbou",
+      "rede_vinder": "'die volgende' without a noun is elliptical; naming 'groep' makes the reference clear in an entry read on its own.",
+      "fout": "none",
+      "rede_keurder": "'die volgende' clearly points back to ''n groep seemanne' in the same sentence, so the entry stands on its own, and a glossary definition should not be reworded for a lateral gain."
+    },
+    {
+      "nr": 1,
+      "blok": "Wie op 'n VOC-skip gewerk het",
+      "voor": "Op een skip het",
+      "na": "Op een en dieselfde skip het",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Op een skip' can be read as 'on one particular ship'; 'een en dieselfde' makes clear that men from many countries worked together on a single ship.",
+      "fout": "none",
+      "rede_keurder": "'Op een skip' already reads naturally as 'on a single ship' after the opening sentence, and 'een en dieselfde' only makes the sentence heavier for a Grade 6 reader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:19976ad338425c358d616fce24f47453",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:93027e7c7141bba353511fec98d04805"
+}

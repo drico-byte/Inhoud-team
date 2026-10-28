@@ -1,0 +1,90 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Plante wat ver van mekaar staan",
+      "voor": "dik vlesige stingels of blare",
+      "na": "dik, vlesige stingels of blare",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives describing the same noun are separated by a comma.",
+      "fout": "Two coordinate adjectives ('dik' and 'vlesige', both describing the stems and leaves) stand without the separating comma.",
+      "rede_keurder": "The AWS comma between coordinate adjectives is a plain punctuation fix and leaves the meaning exactly as it was."
+    },
+    {
+      "nr": 3,
+      "blok": "Plante wat ver van mekaar staan",
+      "voor": "loop wyd en vlak uit",
+      "na": "versprei wyd en vlak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Uitloop' suggests sprouting or running out; 'versprei' says plainly that the roots spread wide and shallow.",
+      "fout": "'loop wyd en vlak uit' is a loose verb for roots; 'uitloop' leans towards sprouting or running out.",
+      "rede_keurder": "'versprei wyd en vlak' is the exact, natural verb for roots spreading, keeps the same meaning, and leaves the rest of the sentence (including 'om vinnig reën op te vang', a wording dropped from change in an earlier round) untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Wat die kaarte van hierdie streek wys",
+      "voor": "is die woestyn dus die teenoorgestelde",
+      "na": "is die woestyn die teenoorgestelde",
+      "soort": "sinsbou",
+      "rede_vinder": "Two consecutive sentences both lean on 'dus'; the second is protected, so dropping the first removes the repetition without changing the claim.",
+      "fout": "none",
+      "rede_keurder": "The first 'dus' carries the inference from the previous sentence (the lightest shades, like the poles) and is contrasted by 'egter' in the next, so dropping it loses a logical link for little gain."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 2,
+      "blok": "vetplant",
+      "voor": "dik vlesige blare of stingels",
+      "na": "dik, vlesige blare of stingels",
+      "soort": "leestekens",
+      "rede_vinder": "Same coordinate-adjective comma as in the study text, so the block and the glossary read alike; the reviewer may route this to the writer because it is a definition.",
+      "fout": "The glossary definition has the same missing comma between coordinate adjectives, and once change 1 is applied it will differ in punctuation from the study text.",
+      "rede_keurder": "This is a glossary definition that may be shared word for word across lessons, so the writer should make the comma change for every lesson at once rather than a language agent changing one copy.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 440,
+  "woorde_na": 439,
+  "wanneer": "2026-10-28T18:03:07+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Min reën en warm bedags",
+      "voor": "Die maandelikse gemiddeldes wys min of geen reën van maand tot maand.",
+      "na": "Die gemiddeldes vir elke maand wys min of geen reën.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Maandelikse' and 'van maand tot maand' say the same thing twice.",
+      "fout": "none",
+      "rede_keurder": "It removes 'maandelikse gemiddeldes', the curriculum's own term used across the sub-topic, and 'van maand tot maand' adds 'every month through the year' rather than merely repeating it."
+    },
+    {
+      "nr": 6,
+      "blok": "Plante wat ver van mekaar staan",
+      "voor": "om vinnig reën op te vang",
+      "na": "om reën vinnig op te vang",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans the object naturally goes before the manner adverb here.",
+      "fout": "none",
+      "rede_keurder": "With an indefinite object both orders are natural Afrikaans, so this is a lateral move."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat hierdie streek anders maak",
+      "voor": "in plaas van 'n blaredak te vorm",
+      "na": "in plaas daarvan om 'n blaredak te vorm",
+      "soort": "grammatika",
+      "rede_vinder": "Standard Afrikaans uses 'in plaas daarvan om ... te' before an infinitive clause.",
+      "fout": "none",
+      "rede_keurder": "'in plaas van ... te vorm' is accepted standard Afrikaans; the proposal is only longer and heavier for a Grade 6 reader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:0ea1cc5514ae7e659bbdf27dda8bfc14",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:dca9d3c0c92fd31d5cf6be3795d14dcf"
+}

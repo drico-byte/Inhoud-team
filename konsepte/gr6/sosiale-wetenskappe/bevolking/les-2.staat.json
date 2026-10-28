@@ -1,9 +1,11 @@
 {
   "les": "gr6/sosiale-wetenskappe/bevolking/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:7486e98cdfe92e3d6743d3f3365d0ed0",
+  "konsep_hash": "sha256:a731e7e3ceaf13074dd95015dcd25693",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:972b7d3de9d619b4692c53019043a6d2"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -72,11 +74,162 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\bevolking\\les-2.json",
       "konsep_hash": "sha256:7486e98cdfe92e3d6743d3f3365d0ed0",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T17:10:20+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:972b7d3de9d619b4692c53019043a6d2",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T17:10:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 569,
+      "begroting": 480,
+      "failures": [
+        "Study text 569 words, above budget ceiling 538 (planned 480 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T17:10:21+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 569 words, above budget ceiling 538 (planned 480 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T17:13:14+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:6981a7a00c6a05aca24832390550cb65",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T17:13:15+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 526,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:22:04+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 9,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 526,
+      "woorde_na": 525,
+      "konsep_hash": "sha256:a9d7ce41647eae18653bcf6e96c65e95"
+    },
+    {
+      "wanneer": "2026-10-28T17:22:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 525,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:22:04+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Elke bevolkingsdigtheid in die lys is bereken deur die provinsie se me': The double 'deur ... deur' makes a reader stumble, and 'die provinsie se mense ... deel' loosely says the people are divided rather than their number.",
+        "check (the language finder raised this; it may not be a fault): 'Die getal wat jy kry as jy 'n totaal gelyk verdeel.': The definition does not say what the total is shared among (the number of items), so it reads as incomplete; fixing it would add content, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T17:27:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:27e2000a2fe57bc09403c9872ec644e7",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T17:27:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 525,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:37:32+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 525,
+      "woorde_na": 527,
+      "konsep_hash": "sha256:a731e7e3ceaf13074dd95015dcd25693"
+    },
+    {
+      "wanneer": "2026-10-28T17:37:33+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 527,
+      "begroting": 480,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:45:23+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:45:23+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:45:33+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:45:33+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 32,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:45:34+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\bevolking\\les-2.json",
+      "konsep_hash": "sha256:a731e7e3ceaf13074dd95015dcd25693",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:ce3a1a30bd6f7c531398d2d71985350d",
+  "spek_hash": "sha256:87c627d417aa5e803fd0869daf39de98",
   "hek_konteks": {
     "graad": 6,
-    "begroting": 400
-  }
+    "begroting": 480
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Groot grond teenoor baie mense': 'Groot grond' is not natural Afrikaans, and the block is about Gauteng's SMALL area holding many people, so the heading's intended contrast is unclear; rewording it would mean guessing the intent.",
+    "check (the language finder raised this; it may not be a fault): 'digtheidsgrafiek, digtheidstaaf': These compounds use bare 'digtheid', which the protected entry for 'bevolkingsdigtheid' says should be avoided where the two ideas are contrasted; context makes them clear, so this is for a person to judge, not a fault I am changing."
+  ],
+  "taal_rondte_vir": "sha256:a731e7e3ceaf13074dd95015dcd25693",
+  "taal_keurder_vir": "95f05ae3c03d632e374411f01bbaa919",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:a731e7e3ceaf13074dd95015dcd25693",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:a9d7ce41647eae18653bcf6e96c65e95",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "e11fdc3f2a7f401aa223da2e4918bcd6"
 }

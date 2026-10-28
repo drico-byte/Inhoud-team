@@ -1,0 +1,74 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Lyne wat om die aarde loop",
+      "voor": "Na die ander kant lê",
+      "na": "Aan die ander kant lê",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Na' expresses movement and sits awkwardly with the static verb 'lê'; 'aan die ander kant' is the natural phrase.",
+      "fout": "'Na die ander kant' is a direction phrase paired with the static verb 'lê', which reads stiffly.",
+      "rede_keurder": "Both say 90 degrees south lies on the other side of the equator, the previous sentence already carries the counting direction, and 'aan die ander kant lê' is the natural phrase."
+    },
+    {
+      "nr": 3,
+      "blok": "Waar twee lyne kruis",
+      "voor": "Sonder noord of suid en oos of wes",
+      "na": "Sonder noord of suid en sonder oos of wes",
+      "soort": "sinsbou",
+      "rede_vinder": "Two 'of' pairs joined by 'en' are hard to parse; repeating 'sonder' makes the two separate pairs clear.",
+      "fout": "Two 'of' pairs joined by 'en' under one 'sonder' are hard to parse on a first reading.",
+      "rede_keurder": "Repeating 'sonder' separates the two pairs without changing the meaning and leaves the protected clause intact."
+    },
+    {
+      "nr": 4,
+      "blok": "Waar twee lyne kruis",
+      "voor": "Met die kant by elke getal",
+      "na": "Met die rigting by elke getal",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Die kant' is vague here; the sentence means the direction (noord, suid, oos, wes) written with each number.",
+      "fout": "'Die kant by elke getal' is vague about what is written with the number.",
+      "rede_keurder": "'Rigting' names exactly what noord, suid, oos and wes are, and the meaning stays the same."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Lyne van pool tot pool",
+      "voor": "van die een pool na die ander pool loop",
+      "na": "van die een pool na die ander loop",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeating 'pool' after 'die een pool na die ander' is redundant; idiomatic Afrikaans drops it.",
+      "fout": "none",
+      "rede_keurder": "Repeating 'pool' is clear for a Grade 6 reader and echoes the heading, so dropping it is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die bal in jou hande",
+      "teks": "wys waar plekke regtig teenoor mekaar lê",
+      "rede": "'Teenoor mekaar' normally means 'opposite each other', but the sentence seems to mean 'relative to each other'. A previous proposal ('ten opsigte van mekaar') was rejected, so this is flagged rather than proposed again; the writer may want to confirm the intended meaning."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 380,
+  "woorde_na": 381,
+  "wanneer": "2026-10-28T16:18:22+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Die bal in jou hande",
+      "voor": "waar plekke regtig teenoor mekaar lê",
+      "na": "waar plekke regtig ten opsigte van mekaar lê",
+      "soort": "woordkeuse",
+      "rede_vinder": "'teenoor mekaar' reads as 'opposite each other'; the sentence means where places lie relative to each other.",
+      "fout": "none",
+      "rede_keurder": "'Teenoor mekaar' also carries the sense 'in relation to each other' here, and 'ten opsigte van mekaar' is stiff officialese that is harder for a Grade 6 reader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:ed798d087155c79d0c27a4776fb48c50",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:dc98d9c462686b2ac1ca73120625fc37"
+}

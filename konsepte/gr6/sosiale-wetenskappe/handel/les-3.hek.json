@@ -6,17 +6,18 @@
   "budget": 280,
   "begrotingsreel": "CAPS-hours: 280 planned, ceiling 314 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "checked_at": "2026-10-15T14:57:50+00:00",
+  "na_taal": true,
+  "checked_at": "2026-10-28T15:57:44+00:00",
   "study": {
-    "words": 310,
+    "words": 309,
     "sentences": 24,
     "mean_sentence_len": 11.5,
     "median_sentence_len": 11.0,
     "longest_sentence": 17,
     "mean_syllables": 1.38,
     "pct_polysyllabic": 7.6,
-    "pct_long_words": 3.2,
-    "commas_per_sentence": 0.12,
+    "pct_long_words": 3.3,
+    "commas_per_sentence": 0.42,
     "list_words": 33
   },
   "eli10": null,
@@ -28,7 +29,8 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study text: 3.2% of words exceed 10 characters (guide 3.0%)",
+    "Study text: 0.42 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Study text: 3.3% of words exceed 10 characters (guide 3.0%)",
     "Long words in study text with no 'begrip' entry: grondstowwe, werkswinkel"
   ],
   "notes": [

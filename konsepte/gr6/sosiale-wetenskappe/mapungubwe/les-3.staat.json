@@ -1,10 +1,10 @@
 {
   "les": "gr6/sosiale-wetenskappe/mapungubwe/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:9c4af5fec6a2cc1b8e8ad920f4067aaa",
+  "konsep_hash": "sha256:4f4ebc546b9c0058c02b189fb657d164",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:ca53a82c362601b92977d4c91fd33805"
+    "sha256:4076c76d95ee9edf0ac657744bdca942"
   ],
   "eskalasie": null,
   "blok_faalrondtes": {},
@@ -156,11 +156,521 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\mapungubwe\\les-3.json",
       "konsep_hash": "sha256:9c4af5fec6a2cc1b8e8ad920f4067aaa",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T17:18:07+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:9c4af5fec6a2cc1b8e8ad920f4067aaa",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-28T17:32:23+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 1,
+      "na_skrywer": 3,
+      "nie_toegepas": 0,
+      "woorde_voor": 298,
+      "woorde_na": 303,
+      "konsep_hash": "sha256:4ee5ad194521622e80ec76ec8902a4c1"
+    },
+    {
+      "wanneer": "2026-10-28T17:32:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 303,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:32:24+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'het elke huis sy eie kos gemaak': 'kos maak' reads as cooking where the point is producing one's own food, and 'huis' stands in for the household",
+        "fix: [taal] in 'Party van die mense het nie self hulle kos gemaak nie': 'kos gemaak' reads as cooking where producing food is meant",
+        "fix: [taal] in 'waar nie almal meer self hulle kos maak nie': 'kos maak' in the definition reads as cooking where producing food is meant",
+        "check (the language finder raised this; it may not be a fault): 'kos gemaak / kos maak': The three 'kos maak' changes belong together: apply all or none, so the study text keeps echoing the 'dorp' definition; if 'dorp' is a decided shared definition elsewhere, a person should decide.",
+        "check (the language finder raised this; it may not be a fault): 'Navorsers verskil oor wat die bouwyse wys.': Vague: it does not say what the building style is taken to show; I cannot sharpen it without guessing the intended content."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T17:36:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2a4914ce5fe9ae30280f02a24fef4509",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T17:36:31+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 310,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:43:58+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 310,
+      "woorde_na": 311,
+      "konsep_hash": "sha256:42105b4bd9c076c2cb0703b040ef9ed7"
+    },
+    {
+      "wanneer": "2026-10-28T17:43:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 311,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:50:36+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:50:36+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:50:36+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "een van die eerste dorpe in suider-afrika",
+        "wat 'n dorp anders maak"
+      ],
+      "tally": {
+        "een van die eerste dorpe in suider-afrika": 1,
+        "wat 'n dorp anders maak": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T17:50:36+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T17:51:59+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "een van die eerste dorpe in suider-afrika": 1,
+        "wat 'n dorp anders maak": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T17:51:59+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:51:59+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T17:52:00+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "een van die eerste dorpe in suider-afrika",
+        "wat 'n dorp anders maak"
+      ],
+      "tally": {
+        "wat 'n dorp anders maak": 1,
+        "een van die eerste dorpe in suider-afrika": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T17:52:00+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T17:54:41+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {
+        "wat 'n dorp anders maak": 1,
+        "een van die eerste dorpe in suider-afrika": 1
+      }
+    },
+    {
+      "wanneer": "2026-10-28T17:54:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:943bf5b72476a54ca5df903266249868",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T17:54:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 305,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:14:52+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 305,
+      "woorde_na": 305
+    },
+    {
+      "wanneer": "2026-10-28T18:14:52+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Iemand wat met sy hande dinge maak': The generic masculine 'sy hande' sits awkwardly in a definition that covers potters, who need not be men."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T18:21:27+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:e316fa3ecf674e52c6afe86d3da7b6a1",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T18:21:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 305,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T18:50:32+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 305,
+      "woorde_na": 305
+    },
+    {
+      "wanneer": "2026-10-28T19:10:23+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:d340df9fde66e8accb324640e1a4e497",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T19:10:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 309,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:20:22+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 309,
+      "woorde_na": 310,
+      "konsep_hash": "sha256:af267d0805e94f77f762fea3a874a446"
+    },
+    {
+      "wanneer": "2026-10-28T19:20:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 310,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:29:36+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:29:36+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:29:44+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:29:44+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:29:44+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\mapungubwe\\les-3.json",
+      "konsep_hash": "sha256:af267d0805e94f77f762fea3a874a446",
+      "vervang": false
+    },
+    {
+      "wanneer": "2026-10-28T19:43:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b2ef297bf720ee1b39b1e9d2092409e2",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T19:43:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 313,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T19:48:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 313,
+      "woorde_na": 313
+    },
+    {
+      "wanneer": "2026-10-28T20:01:01+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:63ee59cea75df3e1dfd96cdb433d3acb",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T20:01:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 306,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T20:08:15+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 306,
+      "woorde_na": 304,
+      "konsep_hash": "sha256:3c08882bcaa418770081fa95c84a3cdf"
+    },
+    {
+      "wanneer": "2026-10-28T20:08:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 304,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T20:26:17+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4076c76d95ee9edf0ac657744bdca942",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-28T20:26:18+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 308,
+      "begroting": 270,
+      "failures": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T20:26:18+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents"
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T20:31:03+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:48039ce788fdeca775d242c74c61a387",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T20:31:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 309,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T20:34:30+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 309,
+      "woorde_na": 309
+    },
+    {
+      "wanneer": "2026-10-28T20:34:30+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Daar kon 'n mens sien dat party mense meer gehad het as ander.': 'Daar' can point to the smaller settlements (the topic of the paragraph) or to Mapungubwe (the last place named); the two readings say different things, so the writer should make the reference explicit rather than a language agent guessing which place is meant."
+      ]
+    },
+    {
+      "wanneer": "2026-10-28T20:48:03+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:14c2c5586d6e597c6c0a95efa8824bac",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T20:48:04+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 311,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T21:16:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 311,
+      "woorde_na": 310,
+      "konsep_hash": "sha256:177dcf6eb1657aa0f45cc5a3ec712522"
+    },
+    {
+      "wanneer": "2026-10-28T21:16:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 310,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T21:28:37+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4f4ebc546b9c0058c02b189fb657d164",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-28T21:28:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 311,
+      "begroting": 270,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T21:30:40+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 311,
+      "woorde_na": 311
+    },
+    {
+      "wanneer": "2026-10-28T21:38:50+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T21:38:50+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T21:38:57+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T21:38:57+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-28T21:38:57+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr6\\sosiale-wetenskappe\\mapungubwe\\les-3.json",
+      "konsep_hash": "sha256:4f4ebc546b9c0058c02b189fb657d164",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:b3d80eba7e291a80e1856ca5f36d821d",
+  "spek_hash": "sha256:8249a826acb1986a8c2e6ccf1cb4169d",
   "hek_konteks": {
     "graad": 6,
     "begroting": 270
-  }
+  },
+  "taal_geforseer_vir": "sha256:9c4af5fec6a2cc1b8e8ad920f4067aaa",
+  "taal_rondte_vir": "sha256:4f4ebc546b9c0058c02b189fb657d164",
+  "taal_keurder_vir": "02093e629e5314450166d694a78c2eb0",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:4f4ebc546b9c0058c02b189fb657d164",
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'Een leier het': In the first block, 'die koning' in the last sentence has no antecedent: the block speaks only of 'een leier', and the king is first introduced in a later block, so a reader meets 'die koning' before being told who he is."
+  ],
+  "taal_vir_mens": [
+    "[taal, protected word] 'meer dieselfde': 'meer dieselfde geleef' reads slightly unidiomatic; 'meer eenders geleef' is the natural Afrikaans comparative and keeps the non-absolute meaning the protection exists for. Left unchanged because it is protected."
+  ],
+  "taal_bons_vir": "sha256:48039ce788fdeca775d242c74c61a387",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "6291614e9fbd305d331bf743ea147bac"
 }

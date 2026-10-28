@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Ruil sonder geld",
+      "voor": "kry sout terug",
+      "na": "kry sout daarvoor",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Terug' suggests something is returned; 'daarvoor' says plainly that the salt is what he gets in exchange.",
+      "fout": "'kry sout terug' reads as getting something back that was his, where the sentence describes an exchange",
+      "rede_keurder": "'kry sout daarvoor' says plainly that the salt is given in exchange for the mielies, with the same people, action and meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Wanneer 'n direkte ruil moeilik raak",
+      "voor": "loop die boer met sy sak weg",
+      "na": "bly die boer met sy mielies sit",
+      "soort": "idioom",
+      "rede_vinder": "No sack has been mentioned, so 'sy sak' has no clear referent; 'met iets bly sit' is the natural idiom for being stuck with goods nobody takes.",
+      "fout": "'met iets wegloop' is the Afrikaans idiom for making off with something, and 'sy sak' has no referent in the text",
+      "rede_keurder": "'met sy mielies bly sit' is the natural idiom for being left with goods nobody takes, which is exactly the failed trade the paragraph describes."
+    },
+    {
+      "nr": 3,
+      "blok": "Wanneer 'n direkte ruil moeilik raak",
+      "voor": "Vis en melk bly ook nie lank goed nie en raak gou sleg.",
+      "na": "Vis en melk raak ook gou sleg.",
+      "soort": "sinsbou",
+      "rede_vinder": "The two halves say the same thing twice; one clause keeps the meaning and reads more cleanly.",
+      "fout": "the two clauses say the same thing twice ('bly nie lank goed nie' and 'raak gou sleg'), which reads wooden",
+      "rede_keurder": "One clause carries the full meaning with 'ook' intact, and nothing is lost."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Koop en verkoop met geld",
+      "voor": "by 'n heel ander mens",
+      "na": "by iemand heeltemal anders",
+      "soort": "idioom",
+      "rede_vinder": "''n Heel ander mens' is the idiom for a person who has changed; 'iemand heeltemal anders' means a different person without that reading.",
+      "fout": "none",
+      "rede_keurder": "The 'changed person' sense of ''n heel ander mens' only arises with 'is'; after 'koop by' it clearly means a different person, so the proposal is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 303,
+  "woorde_na": 297,
+  "wanneer": "2026-10-28T16:26:05+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Wanneer 'n direkte ruil moeilik raak",
+      "voor": "op dieselfde dag dat die boer",
+      "na": "op dieselfde dag wanneer die boer",
+      "soort": "anglisisme",
+      "rede_vinder": "'dieselfde dag dat' copies English 'the same day that'; Afrikaans uses a time relative ('wanneer') here.",
+      "fout": "none",
+      "rede_keurder": "'die dag dat' is established Afrikaans, not an anglicism, so swapping in 'wanneer' is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:23441ff758986d58c0111ca97de97c23",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:508b8bc60525296bb7aeae8805b25993"
+}

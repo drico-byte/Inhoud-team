@@ -1,0 +1,117 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "vloedvlakte",
+      "voor": "onder water kom as die rivier oorloop",
+      "na": "onder water staan as die rivier oorloop",
+      "soort": "idioom",
+      "rede_vinder": "'Onder water staan' is the idiomatic Afrikaans expression for flooded land; 'onder water kom' is unusual.",
+      "fout": "none",
+      "rede_keurder": "'Onder water kom' is natural Afrikaans for land becoming flooded when the river overflows, so the swap to the state form 'onder water staan' is a lateral move inside a glossary definition, which a language agent may only touch for a real spelling or grammar fault."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 566,
+  "woorde_na": 566,
+  "wanneer": "2026-10-28T19:29:36+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Waar die Limpopo-vallei lê",
+      "voor": "Mense het hier gewoon lank voordat Mapungubwe 'n koninkryk geword het.",
+      "na": "Lank voordat Mapungubwe 'n koninkryk geword het, het mense al hier gewoon.",
+      "soort": "woordorde",
+      "rede_vinder": "The adverbial 'lank voordat...' trailing after the verb is loose spoken word order; fronting it reads as natural written Afrikaans, and 'koninkryk' is kept.",
+      "fout": "none",
+      "rede_keurder": "The original word order reads naturally, and the proposal is a reordering that also adds 'al', which is a lateral move with an added word."
+    },
+    {
+      "nr": 3,
+      "blok": "Al hoe meer mense in die vallei",
+      "voor": "Tussen 900 nC en 1 300 nC",
+      "na": "Tussen 900 nC en 1300 nC",
+      "soort": "spelling",
+      "rede_vinder": "A year is written without a thousands space.",
+      "fout": "none",
+      "rede_keurder": "'1 300 nC' is the curriculum's own printed form and must stay as it is."
+    },
+    {
+      "nr": 9,
+      "blok": "Schroda en K2",
+      "voor": "baie beeldjies van klei gevind",
+      "na": "baie kleibeeldjies gevind",
+      "soort": "woordkeuse",
+      "rede_vinder": "The compound is the natural form and avoids the double 'van' with 'onder meer van diere en mense'.",
+      "fout": "none",
+      "rede_keurder": "'baie beeldjies van klei' is fact wording still waiting for its check, it is correct Afrikaans as it stands, and the compound is only a lateral rewording."
+    },
+    {
+      "nr": 10,
+      "blok": "Schroda en K2",
+      "voor": "Omtrent dieselfde tyd het",
+      "na": "Omtrent in dieselfde tyd het",
+      "soort": "grammatika",
+      "rede_vinder": "The time phrase needs a preposition in written Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'Omtrent dieselfde tyd' is correct Afrikaans without a preposition, and 'omtrent in dieselfde tyd' reads worse."
+    },
+    {
+      "nr": 11,
+      "blok": "Schroda en K2",
+      "voor": "baie krale van glas gevind",
+      "na": "baie glaskrale gevind",
+      "soort": "woordkeuse",
+      "rede_vinder": "'glaskrale' is the natural compound.",
+      "fout": "none",
+      "rede_keurder": "'baie krale van glas' is fact wording still waiting for its check and reads correctly, so the compound is only a lateral change."
+    },
+    {
+      "nr": 12,
+      "blok": "Hoe ons hiervan weet",
+      "voor": "ooit op papier geskryf nie",
+      "na": "ooit op papier neergeskryf nie",
+      "soort": "idioom",
+      "rede_vinder": "One 'skryf iets neer' on paper; 'op papier geskryf' is slightly unidiomatic.",
+      "fout": "none",
+      "rede_keurder": "'op papier geskryf' is natural Afrikaans, and 'neergeskryf' only reads differently."
+    },
+    {
+      "nr": 14,
+      "blok": "Drie middelpunte in dieselfde vallei",
+      "voor": "Daar is deur al hierdie jare in die vallei",
+      "na": "Regdeur hierdie jare is daar in die vallei",
+      "soort": "anglisisme",
+      "rede_vinder": "'deur al hierdie jare' calques 'through all these years'; 'regdeur hierdie jare' is the Afrikaans form.",
+      "fout": "none",
+      "rede_keurder": "'deur al hierdie jare' is good Afrikaans for 'throughout these years', so the reordering to 'regdeur' is a lateral move."
+    },
+    {
+      "nr": 1,
+      "blok": "Waar die Limpopo-vallei lê",
+      "voor": "raak vandag juis op hierdie plek aan mekaar",
+      "na": "grens vandag juis op hierdie plek aan mekaar",
+      "soort": "idioom",
+      "rede_vinder": "Countries 'grens aan mekaar' in Afrikaans; 'raak aan mekaar' is wooden for borders.",
+      "fout": "none",
+      "rede_keurder": "The original says the three countries touch at this one point, the meeting point; 'grens aan mekaar' is a general neighbour relation that loses that precision and repeats 'grens' from two sentences earlier."
+    },
+    {
+      "nr": 6,
+      "blok": "oorblyfsels",
+      "voor": "weg of vergaan is",
+      "na": "weg is of vergaan het",
+      "soort": "grammatika",
+      "rede_vinder": "'vergaan' takes the auxiliary 'het', so the two verbs need their own auxiliaries.",
+      "fout": "none",
+      "rede_keurder": "'vergaan is' is an accepted stative form sharing 'is' with 'weg', so this is not a plain grammar error, and a glossary definition should not be reworded on a contested point."
+    }
+  ],
+  "konsep_hash_voor": "sha256:e5d0fcd9ab9d294ad0ca5b558355ccdb",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e5d0fcd9ab9d294ad0ca5b558355ccdb"
+}

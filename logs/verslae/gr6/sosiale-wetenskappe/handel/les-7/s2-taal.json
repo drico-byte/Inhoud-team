@@ -1,0 +1,49 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die juwelier maak die ring",
+      "voor": "Dan vorm sy die metaal",
+      "na": "Dan vorm die juwelier die metaal",
+      "soort": "verwysing",
+      "rede_vinder": "The pronoun 'sy' sits two sentences away from 'n Juwelier', after sentences about the gold and the rings, so naming the jeweller again makes the reference clear.",
+      "fout": "The pronoun 'sy' first appears two sentences after 'n Juwelier', following a general statement about rings, so the reader has to look back to find who is meant.",
+      "rede_keurder": "Naming the jeweller again re-anchors the actor without changing the meaning, and the following 'Sy poleer' then reads cleanly."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 2,
+      "blok": "Wat die goud se pad kos",
+      "voor": "Diep grawe en lang tonnels.",
+      "na": "Om diep te grawe en lang tonnels te maak.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Diep grawe' can be read as an adjective plus the plural of 'graaf' (deep spades); a verb construction makes the activity unambiguous.",
+      "fout": "'Diep grawe' can be read as 'deep spades' (plural of graaf), which is plausible in a list of costs.",
+      "rede_keurder": "The ambiguity is real, but the proposed infinitive clause breaks the noun-phrase pattern of the other list items and lengthens the item, so the writer should choose the fix.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 389,
+  "woorde_na": 390,
+  "wanneer": "2026-10-28T17:12:43+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 6,
+      "blok": "mynmaatskappy",
+      "voor": "en sy werk laat doen",
+      "na": "en die werk in die myn laat doen",
+      "soort": "verwysing",
+      "rede_vinder": "'sy' could refer to the business or the mine; naming the mine's work removes the ambiguity without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "'sy' naturally points to the mine and either reading means the same, while 'in die myn' narrows the work to underground and rewords a shared glossary definition."
+    }
+  ],
+  "konsep_hash_voor": "sha256:358ffe0282484906bb1efd911e227ec5",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:43d375c8c41dc44840e493b5dbe9dbd9"
+}

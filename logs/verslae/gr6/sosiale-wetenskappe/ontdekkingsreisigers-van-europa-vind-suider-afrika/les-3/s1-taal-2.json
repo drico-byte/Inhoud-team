@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat hy in die hemel gesien het",
+      "voor": "en soms net soos 'n dun stukkie lig",
+      "na": "en soms soos 'n dun stukkie lig",
+      "soort": "woordkeuse",
+      "rede_vinder": "Right after 'net soos ons eie maan' (just like), a second 'net soos' reads ambiguously between 'just like' and 'only'; plain 'soos' is clearer and keeps the meaning.",
+      "fout": "'net soos' repeats from the sentence just before, and 'soms net soos' can momentarily read as 'sometimes only'",
+      "rede_keurder": "Plain 'soos' removes the echo and the brief ambiguity while the comparison to a thin sliver of light stays exactly the same."
+    },
+    {
+      "nr": 2,
+      "blok": "Die botsing en wat gebly het",
+      "voor": "ook wanneer almal iets anders glo",
+      "na": "selfs as almal iets anders glo",
+      "soort": "idioom",
+      "rede_vinder": "'selfs as' is the natural Afrikaans for 'even when' here; 'ook wanneer' sounds translated.",
+      "fout": "'ook wanneer' is a literal rendering of English 'also when' where Afrikaans uses 'selfs as' for this concessive sense",
+      "rede_keurder": "'selfs as' is the natural Afrikaans for 'even when/even if' here, and the claim (the answer must match what you see and measure, regardless of what everyone believes) is unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 331,
+  "woorde_na": 330,
+  "wanneer": "2026-10-28T17:50:27+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Wat hy in die hemel gesien het",
+      "voor": "Venus het ook fases net soos ons eie maan.",
+      "na": "Venus het ook fases, net soos ons eie maan.",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before the comparison makes the sentence easier to read aloud and separates it from the next sentence's 'net soos'.",
+      "fout": "none",
+      "rede_keurder": "No AWS rule requires this comma and the short sentence already reads clearly; a lateral change."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat dit beteken het",
+      "voor": "Hier was dinge wat jy self kon sien draai om iets anders as die Aarde.",
+      "na": "Hier was dinge wat jy self om iets anders as die Aarde kon sien draai.",
+      "soort": "woordorde",
+      "rede_vinder": "In a subordinate clause the prepositional phrase belongs before the verb cluster; the current order is wooden.",
+      "fout": "none",
+      "rede_keurder": "Placing the long prepositional phrase after the verb cluster is normal Afrikaans, and moving it in front makes the clause heavier for a Grade 6 reader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:f8b9d1fea84488c449a3f366ace78da6",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:6e3daa094ea62861119eef950355a8a5"
+}

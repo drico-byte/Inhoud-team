@@ -1,0 +1,77 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Een boek trek deur Europa",
+      "voor": "deur Europa beweeg",
+      "na": "deur Europa versprei",
+      "soort": "woordkeuse",
+      "rede_vinder": "Copies of a book 'versprei' through a region; 'beweeg' reads wooden here.",
+      "fout": "'beweeg' is a wooden verb for copies of a book spreading through a region.",
+      "rede_keurder": "'versprei' is the natural Afrikaans verb for copies passing from place to place, and the meaning is unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Party het geglo en party nie",
+      "voor": "Ander lesers het Marco Polo geglo en het sy verslag",
+      "na": "Ander lesers het Marco Polo wel geglo en sy verslag",
+      "soort": "sinsbou",
+      "rede_vinder": "'wel' marks the contrast with the previous sentence, and the repeated 'het' is unnecessary in the joined clause.",
+      "fout": "The contrast with the previous sentence is unmarked and the repeated 'het' in the joined clause is clumsy.",
+      "rede_keurder": "'wel' marks the contrast a fluent writer would mark, and dropping the second 'het' is cleaner, with the same people and actions."
+    },
+    {
+      "nr": 6,
+      "blok": "Waarheen die soeke gelei het",
+      "voor": "het ná sy tyd aangehou",
+      "na": "het ná Marco Polo se tyd aangehou",
+      "soort": "verwysing",
+      "rede_vinder": "Marco Polo is not named in this block, so 'sy' has no clear referent.",
+      "fout": "'sy' opens a new block with no antecedent in it and could even be read as pointing to 'Europa'.",
+      "rede_keurder": "Naming Marco Polo fixes the unclear pronoun without adding information, and the protected 'lank ná Marco Polo se tyd' in another block is untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Een boek trek deur Europa",
+      "voor": "Baie lesers het so",
+      "na": "Baie lesers het op dié manier",
+      "soort": "sinsbou",
+      "rede_vinder": "Avoids starting two consecutive sentences with the same 'so' construction.",
+      "fout": "none",
+      "rede_keurder": "The second 'so' reads acceptably, and 'op die manier' only adds words without making the sentence clearly better."
+    },
+    {
+      "nr": 3,
+      "blok": "Een boek trek deur Europa",
+      "voor": "plekke en goed",
+      "na": "plekke en dinge",
+      "soort": "woordkeuse",
+      "rede_vinder": "'dinge' is the standard word for things here; 'goed' after 'plekke en' can be misread as the adjective 'good'.",
+      "fout": "none",
+      "rede_keurder": "The lesson uses 'goed' throughout for the goods brought from the East (including a protected wording), so 'dinge' would break that thread and widen the meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Een boek trek deur Europa",
+      "voor": "gehoor waarvan",
+      "na": "gelees waarvan",
+      "soort": "woordkeuse",
+      "rede_vinder": "The subject is 'lesers' of a book, so 'gelees' matches; reviewer should drop this if 'gehoor' deliberately includes hearing it read aloud.",
+      "fout": "none",
+      "rede_keurder": "'van iets hoor' is idiomatic for learning about something, and 'gelees' narrows it, dropping copies that were read aloud to others."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 287,
+  "woorde_na": 289,
+  "wanneer": "2026-10-28T20:48:54+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:e40e986b9ae1901c949205723e6418a0",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d5de78b68444af274297f8dd5c423248"
+}

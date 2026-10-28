@@ -1,0 +1,149 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wanneer 'n ruil regverdig is",
+      "voor": "keuse in en albei weet",
+      "na": "keuse in, en albei weet",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "Both halves have their own subject and verb, so the AWS comma is required."
+    },
+    {
+      "nr": 2,
+      "blok": "Wanneer 'n ruil regverdig is",
+      "voor": "Die prys moet ook dek wat die goed die maker werklik gekos het.",
+      "na": "Die prys moet ook dek wat dit die maker werklik gekos het om die goed te maak.",
+      "soort": "sinsbou",
+      "rede_vinder": "The double object 'die goed die maker' is hard to parse; the same meaning reads more naturally this way.",
+      "fout": "The stacked objects 'die goed die maker' make readers stumble.",
+      "rede_keurder": "Same meaning (what making the goods cost the maker), and much easier to read on a first pass."
+    },
+    {
+      "nr": 3,
+      "blok": "Wanneer handel onregverdig is",
+      "voor": "Die een kant het baie minder keuse",
+      "na": "Maar die een kant het baie minder keuse",
+      "soort": "sinsbou",
+      "rede_vinder": "The sentence contrasts with the outward look described before it; 'Maar' makes that link explicit and improves flow.",
+      "fout": "The contrast with the outward look in the previous sentence is left implicit and reads abruptly.",
+      "rede_keurder": "'Maar' only makes the existing contrast clear; no actor, fact or qualifier changes."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoekom die een kant minder kry",
+      "voor": "Die mense wat die goed maak is dikwels baie en elkeen",
+      "na": "Die mense wat die goed maak, is dikwels baie, en elkeen",
+      "soort": "leestekens",
+      "rede_vinder": "Comma closing the embedded relative clause before the main verb, and an AWS comma before 'en' joining two sentences.",
+      "fout": "No comma closing the embedded relative clause before the main verb, and no AWS comma before 'en' joining two clauses.",
+      "rede_keurder": "Both commas are standard punctuation and make the sentence easier to read."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoekom die een kant minder kry",
+      "voor": "gewoonlik min en elkeen",
+      "na": "gewoonlik min, en elkeen",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences; the protected wording stays intact.",
+      "fout": "Missing AWS comma before 'en' joining two clauses.",
+      "rede_keurder": "Correct AWS comma; the protected wording 'Die kopers is gewoonlik min' stays intact."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom die een kant minder kry",
+      "voor": "'n paar dae en 'n klein boer",
+      "na": "'n paar dae, en 'n klein boer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two sentences; the protected wordings stay intact.",
+      "fout": "Missing AWS comma before 'en' joining two clauses.",
+      "rede_keurder": "Correct AWS comma; both protected wordings either side of it stay word for word."
+    },
+    {
+      "nr": 9,
+      "blok": "Wat die merk vir regverdige handel vra",
+      "voor": "bo en bo die prys",
+      "na": "bo-op die prys",
+      "soort": "idioom",
+      "rede_vinder": "'bo en bo' is not an Afrikaans idiom; 'bo-op' means 'on top of'.",
+      "fout": "'bo en bo' is not an Afrikaans expression (the fixed form is 'bo en behalwe').",
+      "rede_keurder": "'bo-op die prys' is the natural expression and keeps the meaning of extra money on top of the price."
+    },
+    {
+      "nr": 10,
+      "blok": "Wat die merk nie belowe nie",
+      "voor": "sê self dat dit nie",
+      "na": "sê self dat die merk nie",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' could point to the organisation or the mark; naming the mark removes the ambiguity.",
+      "fout": "'dit' could point to either the organisation or the mark.",
+      "rede_keurder": "The block is about what the mark does not promise, so naming the mark removes the ambiguity without changing the claim."
+    },
+    {
+      "nr": 11,
+      "blok": "Wat die merk nie belowe nie",
+      "voor": "as wat kopers so bestel",
+      "na": "as wat kopers bestel",
+      "soort": "sinsbou",
+      "rede_vinder": "The 'so' is redundant after 'soveel ... as wat' and makes the sentence clumsy.",
+      "fout": "'so' after 'soveel ... as wat' is redundant and clumsy.",
+      "rede_keurder": "Dropping the redundant 'so' leaves the meaning exactly the same and reads cleanly."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 7,
+      "blok": "Hoekom die een kant minder kry",
+      "voor": "Al daardie dinge maak dit swaar",
+      "na": "Al hierdie dinge maak dit moeilik",
+      "soort": "woordkeuse",
+      "rede_vinder": "'moeilik' is the natural word for hard-to-do, and 'hierdie' points to the things just listed.",
+      "fout": "none",
+      "rede_keurder": "'maak dit swaar' is natural Afrikaans and carries a sense of hardship, so the proposal is a sideways move."
+    },
+    {
+      "nr": 8,
+      "blok": "Regverdig beteken nie dieselfde nie",
+      "voor": "gedwing of mislei is nie en dat die werk genoeg betaal word",
+      "na": "gedwing of mislei word nie en dat genoeg vir die werk betaal word",
+      "soort": "grammatika",
+      "rede_vinder": "Keeps the passive tense consistent across both clauses, and one pays for work rather than paying the work.",
+      "fout": "none",
+      "rede_keurder": "Changing 'is' to 'word' shifts the tense, and 'die werk betaal word' is idiomatic Afrikaans, so the change shifts meaning without fixing a fault."
+    },
+    {
+      "nr": 12,
+      "blok": "regverdige handel",
+      "voor": "weet wat hulle kry, en die maker",
+      "na": "weet wat hulle kry en die maker",
+      "soort": "leestekens",
+      "rede_vinder": "AWS: no comma before 'en' at the end of a list of parts within one sentence.",
+      "fout": "none",
+      "rede_keurder": "'die maker behoorlik betaal word' has its own subject and verb, so the comma is correct, and this is a shared glossary definition."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 13,
+      "blok": "keurmerk",
+      "voor": "wat wys iemand het dit nagegaan",
+      "na": "wat wys dat iemand dit nagegaan het",
+      "soort": "grammatika",
+      "rede_vinder": "Standard written Afrikaans uses a 'dat' clause with verb-final word order here.",
+      "fout": "Dropping 'dat' and keeping main-clause word order is informal for a written definition.",
+      "rede_keurder": "The proposal is better written Afrikaans, but it changes the word order of a glossary definition, which only the writer may change across lessons.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 384,
+  "woorde_na": 388,
+  "wanneer": "2026-10-28T16:38:15+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:881dcf1e044e4151d29b239f77f785ab",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:38b2f83c31317c9b5f886f3053b6fe46"
+}

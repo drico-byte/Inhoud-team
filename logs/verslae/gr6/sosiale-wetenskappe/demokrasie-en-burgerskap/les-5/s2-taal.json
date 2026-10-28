@@ -1,0 +1,103 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Fatima Meer",
+      "voor": "Die liga het Indiese en Afrikavroue verenig.",
+      "na": "Die liga het Indiese vroue en Afrikavroue verenig.",
+      "soort": "grammatika",
+      "rede_vinder": "An adjective cannot share the second half of a compound, so 'Indiese en Afrikavroue' is ungrammatical; the full noun also gives 'die Indiese vroue' in the next sentence a clear antecedent.",
+      "fout": "'Indiese en Afrikavroue' lets an adjective share the second half of a compound, which is ungrammatical and makes a reader stumble",
+      "rede_keurder": "The full noun phrase is correct Afrikaans, keeps the protected 'Afrikavroue' intact, and gives 'die Indiese vroue' in the next sentence a clear antecedent."
+    },
+    {
+      "nr": 2,
+      "blok": "Sy het nie opgehou nie",
+      "voor": "ná haar deel in die Defiance Campaign",
+      "na": "ná haar aandeel in die Defiance Campaign",
+      "soort": "anglisisme",
+      "rede_vinder": "'Haar deel in' copies English 'her part in'; the Afrikaans idiom is 'aandeel in'.",
+      "fout": "'haar deel in' copies English 'her part in'",
+      "rede_keurder": "'Aandeel in' is the natural Afrikaans expression for the same meaning, and 'Defiance Campaign' stays intact."
+    },
+    {
+      "nr": 3,
+      "blok": "Sy het nie opgehou nie",
+      "voor": "Die bevel het haar in die Durban-distrik gehou",
+      "na": "Die bevel het haar tot die Durban-distrik beperk",
+      "soort": "idioom",
+      "rede_vinder": "A banning order restricts a person to an area ('tot ... beperk'), the same wording the glossary entry uses; 'in ... gehou' is vague and wooden.",
+      "fout": "'in die Durban-distrik gehou' is vague and wooden for what a banning order does",
+      "rede_keurder": "'Tot die Durban-distrik beperk' is the exact verb for the same restriction, matches the glossary's 'tot een plek beperk', costs no words and leaves 'alle openbare byeenkomste' intact."
+    },
+    {
+      "nr": 7,
+      "blok": "verbanning",
+      "voor": "vir hom verbied, of keer",
+      "na": "vir hom verbied of keer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS: no comma before the last item of a list joined by 'of'; these are three predicates of one sentence with one subject.",
+      "fout": "a comma stands before 'of' in a list of three predicates sharing one subject, against the AWS 2017",
+      "rede_keurder": "Removing the comma is a plain punctuation fix that changes no word of the definition."
+    },
+    {
+      "nr": 8,
+      "blok": "tolk",
+      "voor": "van een taal na 'n ander oorsê",
+      "na": "uit een taal in 'n ander oorsê",
+      "soort": "anglisisme",
+      "rede_vinder": "Afrikaans renders language-to-language with 'uit ... in', not the English-shaped 'van ... na'.",
+      "fout": "'van een taal na 'n ander' is the English-shaped preposition pair for rendering between languages",
+      "rede_keurder": "'Uit een taal in 'n ander' is the Afrikaans preposition pair, with the same meaning and length, so it is a plain preposition fix."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Pius Langa se pad deur die howe",
+      "voor": "Van daar het hy stap vir stap landdros geword",
+      "na": "Daarvandaan het hy stap vir stap tot landdros opgeklim",
+      "soort": "idioom",
+      "rede_vinder": "'Daarvandaan' is the natural form, and 'stap vir stap' collocates with rising to a post ('tot ... opgeklim') rather than with 'geword'; same word count, meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "'Van daar het hy stap vir stap landdros geword' already reads well; the proposal is a lateral rewording that adds a word to a lesson near its ceiling."
+    },
+    {
+      "nr": 5,
+      "blok": "aktivis",
+      "voor": "Iemand wat veldtog voer",
+      "na": "Iemand wat veldtogte voer",
+      "soort": "grammatika",
+      "rede_vinder": "'Veldtog' is a countable noun and needs an article or plural (''n veldtog voer' / 'veldtogte voer').",
+      "fout": "none",
+      "rede_keurder": "'Veldtog voer' is an established Afrikaans verb phrase (like 'oorlog voer'), so this is not a plain grammar error and a glossary definition should not be reworded for it."
+    },
+    {
+      "nr": 6,
+      "blok": "verbanning",
+      "voor": "vryheid vir 'n tyd ingekort het",
+      "na": "vryheid vir 'n tyd ingeperk het",
+      "soort": "woordkeuse",
+      "rede_vinder": "Freedom is 'ingeperk' (restricted); 'ingekort' means shortened and is the wrong collocation.",
+      "fout": "none",
+      "rede_keurder": "'Iemand se vryheid inkort' is standard Afrikaans for restricting freedom, so swapping to 'ingeperk' is a lateral move inside a glossary definition."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Fatima Meer",
+      "teks": "Die land het mense volgens bevolkingsgroep verdeel.",
+      "rede": "'Die land' as the one doing the dividing is a vague agent (it was the apartheid state or its laws), but naming the agent would change content, so it is left for the reviewer or writer to judge."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 335,
+  "woorde_na": 336,
+  "wanneer": "2026-10-28T16:27:25+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:51b1c7d5f98b1f9b01c87efc042b2082",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:cd337065be80f3b38130dd8cc5699c9b"
+}

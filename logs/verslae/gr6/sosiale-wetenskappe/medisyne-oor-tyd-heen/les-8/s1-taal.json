@@ -1,0 +1,109 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Narkose laat 'n mens slaap",
+      "voor": "'n Hartoorplanting duur ure lank en die pasiënt",
+      "na": "'n Hartoorplanting duur ure lank, en die pasiënt",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two main clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses (''n Hartoorplanting duur' / 'die pasiënt moet').",
+      "rede_keurder": "Both clauses have their own subject and verb, so the AWS 2017 comma is required and nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Skoon werk teen kieme",
+      "voor": "kieme in 'n wond die infeksie veroorsaak",
+      "na": "kieme in 'n wond infeksie veroorsaak",
+      "soort": "verwysing",
+      "rede_vinder": "'die infeksie' points back to an infection the text never mentioned; the general noun without the article reads naturally.",
+      "fout": "'die infeksie' points back to an infection the text has not named.",
+      "rede_keurder": "The general noun reads naturally and the claim (germs in a wound cause infection) is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Skoon werk teen kieme",
+      "voor": "'n Oop bors laat vir ure lank kieme by die wond kom.",
+      "na": "Terwyl die bors ure lank oop is, kan kieme by die wond kom.",
+      "soort": "sinsbou",
+      "rede_vinder": "'n Oop bors laat ... kieme by die wond kom' is wooden; the same meaning reads more naturally with a time clause.",
+      "fout": "''n Oop bors laat ... kieme by die wond kom' is wooden.",
+      "rede_keurder": "The time clause says the same thing naturally, and the permissive 'laat' already meant 'kan'."
+    },
+    {
+      "nr": 5,
+      "blok": "Bloed wat moet pas",
+      "voor": "Later het mense gevind dat",
+      "na": "Later het mense ontdek dat",
+      "soort": "anglisisme",
+      "rede_vinder": "'gevind dat' echoes English 'found that'; 'ontdek dat' is the natural Afrikaans and matches the lesson's own word 'ontdekkings'.",
+      "fout": "'gevind dat' copies English 'found that' and in Afrikaans can read as 'were of the opinion that'.",
+      "rede_keurder": "'ontdek dat' is the natural verb for a discovery and fits the lesson's 'ontdekkings' without moving the meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Bloed wat moet pas",
+      "voor": "Die bloed wat inloop moet",
+      "na": "Die bloed wat inloop, moet",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the relative clause separates the two verbs 'inloop' and 'moet' and makes the sentence easier to read.",
+      "fout": "Two verbs of different clauses ('inloop' and 'moet') meet without a comma.",
+      "rede_keurder": "The comma between the clause verbs follows AWS practice and makes the sentence easier to read."
+    },
+    {
+      "nr": 7,
+      "blok": "Bloed wat moet pas",
+      "voor": "Daarna kon dit veilig gebeur en bloed kon later gestoor word.",
+      "na": "Daarna kon dit veilig gebeur, en later kon bloed gestoor word.",
+      "soort": "woordorde",
+      "rede_vinder": "AWS comma before 'en' joining two main clauses, and fronting 'later' gives the more natural Afrikaans word order.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses, and 'bloed kon later' is a stiff order.",
+      "rede_keurder": "The comma is required and fronting 'later' is the natural Afrikaans order, with the same facts in the same sequence."
+    },
+    {
+      "nr": 8,
+      "blok": "'n Prent van die binnekant",
+      "voor": "Met 'n prent kon",
+      "na": "Met so 'n prent kon",
+      "soort": "verwysing",
+      "rede_vinder": "The sentence means the X-ray picture just described; 'so 'n prent' makes that reference clear.",
+      "fout": "''n prent' is vague where the X-ray picture just described is meant.",
+      "rede_keurder": "'so 'n prent' ties the sentence to the X-ray picture without adding or changing anything."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Skoon werk teen kieme",
+      "voor": "kan die nuwe hart in 'n liggaam klop wat aan infeksie sterf",
+      "na": "kan die nuwe hart klop terwyl die liggaam aan infeksie sterf",
+      "soort": "sinsbou",
+      "rede_vinder": "The relative clause hung on 'n liggaam' is clumsy for Grade 6; 'terwyl' keeps the meaning and reads more clearly.",
+      "fout": "none",
+      "rede_keurder": "The extraposed relative clause is ordinary Afrikaans and the original image of the heart beating inside a dying body reads well; the proposal is a lateral move that drops 'in'."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 9,
+      "blok": "bloedoortapping",
+      "voor": "bloed van 'n ander mens se liggaam kry",
+      "na": "bloed van 'n ander mens kry",
+      "soort": "woordkeuse",
+      "rede_vinder": "'van 'n ander mens se liggaam' is roundabout; 'van 'n ander mens' says the same and matches the study text.",
+      "fout": "'van 'n ander mens se liggaam' is slightly roundabout in a glossary definition.",
+      "rede_keurder": "This rewords a [begrip] definition beyond a spelling or grammar fix, so only the writer may change it, across every lesson that uses it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 345,
+  "woorde_na": 346,
+  "wanneer": "2026-10-28T19:55:46+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:dcaa4127f141f0e528c2ceac8a5e5025",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:0598802278c7052f67f2fd96fa4f7c30"
+}

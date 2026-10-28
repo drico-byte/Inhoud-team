@@ -1,0 +1,47 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar die megastede staan",
+      "voor": "Waar die megastede staan",
+      "na": "Waar die megastede lê",
+      "soort": "woordkeuse",
+      "rede_vinder": "Cities lie somewhere in Afrikaans; the block's own text already says 'lê bymekaar', so the heading should match.",
+      "fout": "'staan' is a loose verb for where cities are; Afrikaans says a city 'le' somewhere, and the block's own text now says 'le bymekaar'.",
+      "rede_keurder": "The natural locative verb, matching the block and the list heading, with no change in meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar 'n mens die stad se grens trek",
+      "voor": "die deel binne sy grens nie",
+      "na": "die deel binne die stad se grens nie",
+      "soort": "verwysing",
+      "rede_vinder": "'sy' could point to 'n megastad' or 'n mens'; naming the city makes the reference clear and matches the glossary wording.",
+      "fout": "'sy' follows 'die hele aaneengeboude stad' and 'n mens', so it can be read as pointing to the wrong noun.",
+      "rede_keurder": "Naming 'die stad' makes the reference unambiguous, echoes 'die stad se eie grens' earlier in the block and the glossary wording, and leaves the protected wording intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Waar 'n mens die stad se grens trek",
+      "voor": "lê ver oor die lyn",
+      "na": "lê ver bo die lyn",
+      "soort": "idioom",
+      "rede_vinder": "A number threshold is exceeded by lying 'bo' it; 'oor die lyn' suggests crossing a physical line.",
+      "fout": "none",
+      "rede_keurder": "'Oor' for exceeding a number ('oor die tien miljoen') is ordinary, natural Afrikaans, so swapping it for 'bo' is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 367,
+  "woorde_na": 369,
+  "wanneer": "2026-10-28T18:25:23+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:0d66d46ae14bbb65163ce7e1794d3e04",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a4f5555293450e592ec5c3de6b646a45"
+}

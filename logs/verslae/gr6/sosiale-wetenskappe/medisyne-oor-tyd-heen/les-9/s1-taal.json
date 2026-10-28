@@ -1,0 +1,130 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n hartoorplanting is",
+      "voor": "vas en dit begin klop",
+      "na": "vas, en dit begin klop",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses ('Hulle werk ... vas' and 'dit begin klop').",
+      "rede_keurder": "Two clauses with their own subject and verb are joined by 'en', so AWS 2017 requires the comma."
+    },
+    {
+      "nr": 3,
+      "blok": "Die pasiënt en die skenker",
+      "voor": "Louis Washkansky en sy eie hart",
+      "na": "Louis Washkansky, en sy eie hart",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'Die pasient was ...' and 'sy eie hart was besig ...' each have their own subject and verb, so the comma is required."
+    },
+    {
+      "nr": 4,
+      "blok": "Die pasiënt en die skenker",
+      "voor": "gesterf en haar pa",
+      "na": "gesterf, en haar pa",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'Sy het ... gesterf' and 'haar pa het toestemming gegee' are two full clauses joined by 'en'."
+    },
+    {
+      "nr": 6,
+      "blok": "Agttien dae",
+      "voor": "as iets vreemd en",
+      "na": "as iets vreemds en",
+      "soort": "grammatika",
+      "rede_vinder": "After 'iets' an adjective takes the partitive -s: 'iets vreemds'.",
+      "fout": "'iets vreemd' lacks the partitive -s the grammar requires after 'iets'.",
+      "rede_keurder": "'iets vreemds' is the correct form and the meaning is unchanged."
+    },
+    {
+      "nr": 7,
+      "blok": "Agttien dae",
+      "voor": "aangeval en hy het",
+      "na": "aangeval, en hy het",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "'Kieme het toe sy longe aangeval' and 'hy het aan longontsteking gesterf' each have their own subject and verb."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat hier die eerste was",
+      "voor": "Die woorde van een mens na 'n ander is",
+      "na": "Die woorde \"van een mens na 'n ander\" is",
+      "soort": "leestekens",
+      "rede_vinder": "The phrase is cited as words, so quotation marks make the sentence readable at once.",
+      "fout": "The cited phrase is not marked, so a reader first parses 'Die woorde van een mens na 'n ander' as words passing between people.",
+      "rede_keurder": "Quotation marks show at once that the phrase is being cited, without changing a word of the sentence."
+    },
+    {
+      "nr": 9,
+      "blok": "Wat hier die eerste was",
+      "voor": "gedoen nie en hy het",
+      "na": "gedoen nie, en hy het",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma between two full clauses; the protected wording before the comma stays intact.",
+      "fout": "Missing AWS comma between two full clauses.",
+      "rede_keurder": "The comma goes after the protected wording 'Barnard het die werk nie alleen gedoen nie', which stays intact, and before a second full clause."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "3 Desember 1967",
+      "voor": "en bloed kon gee",
+      "na": "en hulle bloed kon gee",
+      "soort": "verwysing",
+      "rede_vinder": "Without an indirect object 'bloed gee' reads as donating blood; 'hulle' makes clear the patients receive it.",
+      "fout": "none",
+      "rede_keurder": "'en hulle bloed kon gee' can be read as 'could give their (own) blood', which adds an ambiguity the original does not have in a fact-checked sentence."
+    },
+    {
+      "nr": 5,
+      "blok": "Die pasiënt en die skenker",
+      "voor": "dat haar hart gebruik word",
+      "na": "dat haar hart gebruik mag word",
+      "soort": "idioom",
+      "rede_vinder": "Consent is given that something may be done; 'gebruik mag word' is the natural Afrikaans construction.",
+      "fout": "none",
+      "rede_keurder": "'toestemming gegee dat haar hart gebruik word' is already natural Afrikaans; adding 'mag' is a lateral, slightly redundant change."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 10,
+      "blok": "skenker",
+      "voor": "Die mens van wie bloed of 'n deel van die liggaam, soos 'n hart, vir 'n ander mens kom.",
+      "na": "Die mens wie se bloed of liggaamsdeel, soos 'n hart, aan 'n ander mens gegee word.",
+      "soort": "sinsbou",
+      "rede_vinder": "'van wie ... vir 'n ander mens kom' is wooden; 'wie se ... aan 'n ander mens gegee word' is natural and keeps the meaning.",
+      "fout": "'van wie ... vir 'n ander mens kom' is wooden in a glossary definition.",
+      "rede_keurder": "This rewords a glossary definition beyond grammar and shifts 'kom' to 'gegee word', so the writer must fix it for every lesson that uses the term.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 11,
+      "blok": "bloedvate",
+      "voor": "Die buise waardeur bloed deur 'n mens se lyf loop.",
+      "na": "Die buise waarin bloed deur 'n mens se lyf vloei.",
+      "soort": "woordkeuse",
+      "rede_vinder": "Blood 'vloei' rather than 'loop', and 'waarin' avoids the double 'deur'.",
+      "fout": "The double 'deur' ('waardeur bloed deur ... loop') is clumsy.",
+      "rede_keurder": "This is a glossary definition and the proposal changes both the preposition and the verb, so the fix belongs with the writer across all lessons.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 300,
+  "woorde_na": 300,
+  "wanneer": "2026-10-28T19:59:15+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ef8bede7a4e5f134d3e89010c0e065aa",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e5083fc7e31bee92885ae442fc06ed87"
+}

@@ -1,0 +1,65 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe 'n temperatuurkaart werk",
+      "voor": "Vergelyk daardie kleur",
+      "na": "Vergelyk jou plek se kleur",
+      "soort": "verwysing",
+      "rede_vinder": "'Daardie kleur' has no antecedent: the previous sentence names the place, not its colour.",
+      "fout": "'daardie kleur' points back to a colour the previous sentence never names; it only names the place.",
+      "rede_keurder": "Naming the colour as the place's own gives the pronoun a clear antecedent without changing the instruction, and the protected 'in watter reeks jou plek val' is untouched."
+    },
+    {
+      "nr": 2,
+      "blok": "Die kaarte wys 'n gemiddelde",
+      "voor": "Daardie gemiddelde staan",
+      "na": "Die gemiddelde wat jy so kry, staan",
+      "soort": "verwysing",
+      "rede_vinder": "'Daardie gemiddelde' points back to a word the preceding sentences never use; they only describe the calculation.",
+      "fout": "'Daardie gemiddelde' points back to a word the body text has not yet used; the preceding sentences only give the steps.",
+      "rede_keurder": "Linking the average explicitly to the calculation just described reads more clearly for a Grade 6 reader, keeps the protected form 'gemiddelde' and moves no meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "gemiddelde temperatuur",
+      "voor": "saamtel en deur hulle aantal deel",
+      "na": "saamtel en die totaal deur hulle aantal deel",
+      "soort": "sinsbou",
+      "rede_vinder": "'deel' has no object, so it is unclear what is divided; this also matches the study text's 'deel die totaal deur hulle aantal'.",
+      "fout": "none",
+      "rede_keurder": "Leaving out the shared object after 'saamtel en ... deel' is normal Afrikaans coordination and reads clearly, and a glossary definition should not be reworded for a lateral gain."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "temperatuurkaart",
+      "voor": "hoe warm dit op plekke is",
+      "na": "hoe warm dit op verskillende plekke is",
+      "soort": "idioom",
+      "rede_vinder": "'op plekke' is an Afrikaans idiom for 'here and there, in some places', which misreads the definition.",
+      "fout": "'op plekke' is the Afrikaans idiom for 'in some places, here and there', so the definition can read as a map showing heat only in some places.",
+      "rede_keurder": "The fault is real, but this is a shared glossary definition and rewording it beyond a spelling or grammar fix belongs to the writer for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Die wêreld se drie streke / Waar die drie streke lê",
+      "teks": "Die wêreld se drie streke; Waar die drie streke lê",
+      "rede": "Both block headings say 'drie streke', while the protected wording in the text is 'drie soorte streke' because there are two temperate and two cold regions but one warm one. Headings cannot be changed by script, so the writer should decide whether they need 'soorte'."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 384,
+  "woorde_na": 390,
+  "wanneer": "2026-10-28T17:32:10+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:066094ff5422c754b48b63cd849bf733",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b47e09bd14fc0cb2d56cb8c8c7c93ac0"
+}

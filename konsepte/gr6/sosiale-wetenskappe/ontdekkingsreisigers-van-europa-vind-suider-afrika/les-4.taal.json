@@ -1,0 +1,76 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar ons syfers begin het",
+      "voor": "Arabiese geleerdes het dit gebruik en so",
+      "na": "Arabiese geleerdes het dit gebruik, en so",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two sentences that each have their own subject and verb ('geleerdes het gebruik' / 'het dit gekom').",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have a subject and verb ('geleerdes het gebruik' / 'het dit gekom').",
+      "rede_keurder": "Two full clauses are joined by 'en', so the AWS 2017 comma is required and nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar ons syfers begin het",
+      "voor": "Ons noem hulle gewoonlik Arabiese syfers",
+      "na": "Ons noem hierdie syfers gewoonlik Arabiese syfers",
+      "soort": "verwysing",
+      "rede_vinder": "The two preceding sentences refer to 'hierdie manier' with 'dit', so 'hulle' has no clear antecedent; naming the digits removes the doubt (protected 'gewoonlik' kept).",
+      "fout": "'hulle' can point to 'Arabiese geleerdes', the nearest plural, instead of the digits.",
+      "rede_keurder": "Naming the digits removes a real ambiguity; protected 'gewoonlik' stays intact and the meaning is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Waar ons syfers begin het",
+      "voor": "die naam laat die Indiese begin weg",
+      "na": "die naam laat weg dat hulle in Indië begin het",
+      "soort": "sinsbou",
+      "rede_vinder": "'die Indiese begin' uses 'begin' as a noun, which reads as a verb at first and is awkward; the clause says the same thing plainly.",
+      "fout": "'die Indiese begin' uses 'begin' as a noun, which reads first as a verb and is stiff.",
+      "rede_keurder": "The clause says the same thing plainly, and 'hulle' now clearly refers to the digits just named."
+    },
+    {
+      "nr": 4,
+      "blok": "Ou Griekse boeke oor die sterre",
+      "voor": "vertaal en het so Wes-Europa bereik",
+      "na": "vertaal, en so het dit Wes-Europa bereik",
+      "soort": "sinsbou",
+      "rede_vinder": "Joining a passive ('is vertaal') and an active ('het bereik') verb on one subject is clumsy; two clauses with their own subject read better and take the AWS comma.",
+      "fout": "One subject shared by a passive and an active verb ('is vertaal en het bereik') is clumsy.",
+      "rede_keurder": "Two clauses with their own subject read more easily, take the AWS comma, and keep the same order of events."
+    },
+    {
+      "nr": 5,
+      "blok": "Ou Griekse boeke oor die sterre",
+      "voor": "is daar nie land te sien nie",
+      "na": "is daar geen land te sien nie",
+      "soort": "idioom",
+      "rede_vinder": "'geen land te sien nie' is the natural Afrikaans negation with a bare noun.",
+      "fout": "'nie land te sien nie' is a less natural negation of a bare noun.",
+      "rede_keurder": "'geen land te sien nie' is the idiomatic Afrikaans form with the same meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat dit vir Europa beteken het",
+      "voor": "daardie ver lande",
+      "na": "daardie verre lande",
+      "soort": "woordkeuse",
+      "rede_vinder": "Attributively 'verre lande' is the idiomatic form.",
+      "fout": "Attributive 'ver lande' is less idiomatic than the fixed form.",
+      "rede_keurder": "'verre lande' is the natural attributive form and the meaning is unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 324,
+  "woorde_na": 329,
+  "wanneer": "2026-10-28T17:42:33+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:7ed1036f956c38424cea87661f271d39",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f6778a15e2771afc128c02f8fbd97d76"
+}

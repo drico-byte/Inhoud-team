@@ -1,0 +1,109 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Syfers uit Sensus 2022",
+      "voor": "Stats SA se sensus van 2022",
+      "na": "Stats SA se Sensus 2022",
+      "soort": "woordkeuse",
+      "rede_vinder": "Uses the census's name the same way as the heading, the list and the rest of the lesson.",
+      "fout": "'sensus van 2022' is the form the protected list forbids; the lesson elsewhere writes 'Sensus 2022'.",
+      "rede_keurder": "Replaces the forbidden form with the protected one, the year stays and the meaning is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat die nege stawe wys",
+      "voor": "baie kere hoër as die laagste een",
+      "na": "baie keer so hoog soos die laagste een",
+      "soort": "idioom",
+      "rede_vinder": "A multiple is expressed with 'keer so ... soos'; 'baie kere' means 'often'.",
+      "fout": "'baie kere' is the plural for occasions ('often'), not for a multiple.",
+      "rede_keurder": "'baie keer so hoog soos' is the correct way to express a multiple and keeps the meaning and the qualifier 'baie'."
+    },
+    {
+      "nr": 4,
+      "blok": "Die digtheidsgrafiek lees anders",
+      "voor": "Daardie stawe wys",
+      "na": "Daardie grafiek se stawe wys",
+      "soort": "verwysing",
+      "rede_vinder": "No bars were named in the previous sentence, so 'daardie stawe' has nothing clear to refer to.",
+      "fout": "'Daardie stawe' has no bars named in the previous sentence and could point back to the population bars.",
+      "rede_keurder": "Ties the bars clearly to the density graph just introduced, with no change of meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Syfers uit Sensus 2022",
+      "voor": "op dieselfde manier as 'n staaf",
+      "na": "op dieselfde manier as wat jy 'n staaf aflees",
+      "soort": "sinsbou",
+      "rede_vinder": "The comparison set reading a list against a bar itself, not against reading a bar.",
+      "fout": "none",
+      "rede_keurder": "The elliptical comparison is natural Afrikaans and clear in context; the proposal is longer and puts 'lees' and 'aflees' side by side."
+    },
+    {
+      "nr": 5,
+      "blok": "Groot grond teenoor baie mense",
+      "voor": "aan die punte van albei grafieke om verskillende redes",
+      "na": "om verskillende redes aan die ente van albei grafieke",
+      "soort": "woordorde",
+      "rede_vinder": "The reason phrase comes more naturally before the place phrase, and 'ente' is clearer than 'punte' for the two ends of a graph.",
+      "fout": "none",
+      "rede_keurder": "'ente' suggests the left and right ends of the graph, where these two provinces do not stand, so the meaning moves; the original order is acceptable and the year is untouched."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat 'n gemiddelde wegsteek",
+      "voor": "beskryf nie een van hulle nie",
+      "na": "beskryf geeneen van hulle nie",
+      "soort": "grammatika",
+      "rede_vinder": "'nie een van hulle nie' can be read as 'does not describe one of them'; 'geeneen' clearly means neither.",
+      "fout": "none",
+      "rede_keurder": "'nie een van hulle nie' is standard Afrikaans for 'neither' and is unambiguous after 'val tussen die twee'; the proposal is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Groot grond teenoor baie mense",
+      "teks": "Groot grond teenoor baie mense",
+      "rede": "'Groot grond' is not natural Afrikaans, and the block is about Gauteng's SMALL area holding many people, so the heading's intended contrast is unclear; rewording it would mean guessing the intent."
+    },
+    {
+      "blok": "Die digtheidsgrafiek lees anders / Groot grond teenoor baie mense / Wat 'n gemiddelde wegsteek",
+      "teks": "digtheidsgrafiek, digtheidstaaf",
+      "rede": "These compounds use bare 'digtheid', which the protected entry for 'bevolkingsdigtheid' says should be avoided where the two ideas are contrasted; context makes them clear, so this is for a person to judge, not a fault I am changing."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 525,
+  "woorde_na": 527,
+  "wanneer": "2026-10-28T17:37:32+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Hoe jy 'n staaf aflees",
+      "voor": "'n skaal met getalle op.",
+      "na": "'n skaal met getalle daarop.",
+      "soort": "sinsbou",
+      "rede_vinder": "The dangling 'op' is colloquial; 'daarop' completes the phrase in standard written Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'n skaal met getalle op' is the normal Afrikaans stranded-preposition pattern (like 'n bord met name op'), so 'daarop' is only a different way of saying it."
+    },
+    {
+      "nr": 2,
+      "blok": "Syfers uit Sensus 2022",
+      "voor": "langs hom af",
+      "na": "langsaan af",
+      "soort": "verwysing",
+      "rede_vinder": "'hom' could point to the province or to its name; 'langsaan' removes the unclear pronoun.",
+      "fout": "none",
+      "rede_keurder": "Whether 'hom' points to the province or to its name, the reader does the same thing, so it is not really ambiguous; 'langsaan af' is a sideways move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:27e2000a2fe57bc09403c9872ec644e7",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a731e7e3ceaf13074dd95015dcd25693"
+}

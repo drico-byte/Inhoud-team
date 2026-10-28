@@ -1,0 +1,67 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n hartoorplanting is",
+      "voor": "en dit begin klop",
+      "na": "en dan begin dit klop",
+      "soort": "sinsbou",
+      "rede_vinder": "Adding 'dan' with inversion makes the sequence (attach, then it beats) read more naturally.",
+      "fout": "none",
+      "rede_keurder": "'Hulle werk dit aan die bloedvate vas, en dit begin klop' already reads naturally and the sequence is clear; adding 'dan' with inversion is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Die pasiënt en die skenker",
+      "voor": "sy eie hart was besig om te misluk",
+      "na": "sy eie hart was aan die ingee",
+      "soort": "anglisisme",
+      "rede_vinder": "'besig om te misluk' calques English 'was failing'; 'aan die ingee' is the idiomatic Afrikaans for an organ giving out.",
+      "fout": "none",
+      "rede_keurder": "'besig om te misluk' is plain and clear for Grade 6, and it deliberately echoes the protected sentence 'Hy het dus nie gesterf omdat die nuwe hart misluk het nie', a contrast that 'aan die ingee' would break."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat hier die eerste was",
+      "voor": "hy het die manier ook nie self uitgedink nie",
+      "na": "hy het die metode ook nie self uitgedink nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'metode' is more precise for a surgical procedure and collocates with 'ontwikkel' in the next sentence, which refers back to it.",
+      "fout": "none",
+      "rede_keurder": "'die manier ... uitgedink' is natural, plain Afrikaans that already links to 'dit ... ontwikkel'; 'metode' is an equally good synonym, so this is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 300,
+  "woorde_na": 300,
+  "wanneer": "2026-10-28T20:02:40+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "3 Desember 1967",
+      "voor": "en bloed kon gee",
+      "na": "en hulle bloed kon gee",
+      "soort": "verwysing",
+      "rede_vinder": "Without an indirect object 'bloed gee' reads as donating blood; 'hulle' makes clear the patients receive it.",
+      "fout": "none",
+      "rede_keurder": "'en hulle bloed kon gee' can be read as 'could give their (own) blood', which adds an ambiguity the original does not have in a fact-checked sentence."
+    },
+    {
+      "nr": 5,
+      "blok": "Die pasiënt en die skenker",
+      "voor": "dat haar hart gebruik word",
+      "na": "dat haar hart gebruik mag word",
+      "soort": "idioom",
+      "rede_vinder": "Consent is given that something may be done; 'gebruik mag word' is the natural Afrikaans construction.",
+      "fout": "none",
+      "rede_keurder": "'toestemming gegee dat haar hart gebruik word' is already natural Afrikaans; adding 'mag' is a lateral, slightly redundant change."
+    }
+  ],
+  "konsep_hash_voor": "sha256:e480370850da3a988bdf1a09e19251f6",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e480370850da3a988bdf1a09e19251f6"
+}

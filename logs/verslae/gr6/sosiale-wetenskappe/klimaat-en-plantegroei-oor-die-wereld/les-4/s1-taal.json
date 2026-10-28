@@ -1,0 +1,109 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar die reënwoude lê",
+      "voor": "Die een gebied",
+      "na": "Die eerste gebied",
+      "soort": "woordkeuse",
+      "rede_vinder": "With three areas and 'Die derde gebied' following, 'eerste' reads better than 'een'.",
+      "fout": "'Die een ... die ander ... Die derde' counts three areas with a pairing pattern meant for two, so the third area arrives awkwardly.",
+      "rede_keurder": "'Die eerste' sets up a clean count to 'Die derde' without changing which areas are named."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar die reënwoude lê",
+      "voor": "die ander in",
+      "na": "die tweede in",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Die ander' implies the other of two, but there are three areas; 'die tweede' fits the count.",
+      "fout": "'die ander' suggests the other of two, but a third area follows in the next sentence.",
+      "rede_keurder": "'die tweede' fits the three-part count and leaves the places and meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Waar die reënwoude lê",
+      "voor": "sentraal-Afrika",
+      "na": "Sentraal-Afrika",
+      "soort": "spelling",
+      "rede_vinder": "As a regional name, Sentraal-Afrika takes a capital, like Suidoos-Asië in the next sentence.",
+      "fout": "A compass or region word joined to a geographical name by a hyphen is capitalised, as 'Suidoos-Asie' is in the next sentence.",
+      "rede_keurder": "Plain spelling fix that also makes the two region names consistent."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat die kaarte van die reënwoude wys",
+      "voor": "Twee soorte kaart saam sê dus",
+      "na": "Saam wys die twee soorte kaarte dus",
+      "soort": "sinsbou",
+      "rede_vinder": "The original word order is stiff; this is more natural and matches the block's use of 'wys' for maps.",
+      "fout": "'Twee soorte kaart saam se dus' is stiff word order, and maps 'show' rather than 'say' in natural Afrikaans.",
+      "rede_keurder": "The proposal reads naturally, keeps the same two maps and the same conclusion, and touches no protected wording."
+    },
+    {
+      "nr": 5,
+      "blok": "Bome wat in lae bo mekaar staan",
+      "voor": "op tot hoog by die blaredak",
+      "na": "op tot by die blaredak",
+      "soort": "idioom",
+      "rede_vinder": "'tot hoog by' is unidiomatic; 'tot by die blaredak' already says the plants reach the high canopy.",
+      "fout": "'tot hoog by die blaredak' is an unidiomatic construction.",
+      "rede_keurder": "'tot by die blaredak' is the natural expression, and the canopy is already high by definition, so nothing is lost."
+    },
+    {
+      "nr": 6,
+      "blok": "Diere wat in die bome leef",
+      "voor": "Die toekan pluk vrugte in die takke met sy groot bek.",
+      "na": "Die toekan pluk met sy groot bek vrugte in die takke.",
+      "soort": "woordorde",
+      "rede_vinder": "At the end of the sentence 'met sy groot bek' seems to attach to 'die takke'; moving it removes the ambiguity.",
+      "fout": "Placing 'met sy groot bek' after the place phrase runs against the usual Afrikaans manner-before-place order and lets it hang on 'die takke'.",
+      "rede_keurder": "Moving the manner phrase forward reads more naturally with the same actor, action, object and place."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat hierdie streek sy eie maak",
+      "voor": "omtrent dieselfde en daar is",
+      "na": "omtrent dieselfde, en daar is",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses that each have their own subject and verb, so a comma is needed.",
+      "fout": "'en' joins two clauses with their own subject and verb ('Die temperature bly' and 'daar is') without the AWS 2017 comma.",
+      "rede_keurder": "Required AWS comma; wording and meaning are unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 7,
+      "blok": "Wat hierdie streek sy eie maak",
+      "voor": "Warm én nat in elke maand van die jaar maak hierdie streek sy eie.",
+      "na": "Hierdie streek se kenmerk is dat dit in elke maand van die jaar warm én nat is.",
+      "soort": "anglisisme",
+      "rede_vinder": "'iets sy eie maak' is an anglicism; in Afrikaans it means to take something over, not to make it distinctive.",
+      "fout": "'iets sy eie maak' means to adopt or take something over in Afrikaans, not to make it distinctive; the same anglicism also stands in the block heading 'Wat hierdie streek sy eie maak'.",
+      "rede_keurder": "The fault is real, but fixing only the sentence leaves the heading with the same anglicism, so the writer should repair the heading and its opening sentence together.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat hierdie streek sy eie maak",
+      "teks": "Wat hierdie streek sy eie maak",
+      "rede": "The block heading has the same anglicism ('sy eie maak'); a heading cannot be changed by the script, so the writer should rephrase it, e.g. along the lines of what sets the region apart."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "Party maande kry meer reën as ander en daardie verskil is soms groot",
+      "rede": "Under AWS 2017 this needs a comma before 'en' (two clauses each with their own subject and verb: 'Party maande kry' and 'daardie verskil is'). The protected wording leaves it out; a person could add the comma to the protected entry and the lesson together."
+    }
+  ],
+  "woorde_voor": 377,
+  "woorde_na": 377,
+  "wanneer": "2026-10-28T17:13:53+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:6f2420a17ee44469193c1ae29ff0017a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c57186c5eb6f0770dca2614676228310"
+}
