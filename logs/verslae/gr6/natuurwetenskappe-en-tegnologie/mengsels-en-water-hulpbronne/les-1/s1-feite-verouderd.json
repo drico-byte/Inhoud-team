@@ -1,224 +1,271 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Wat alles in ons water beland",
   "kaps_punt": "Waterbesoedeling: in die omgewing, kan baie dinge meng of oplos in water; water kan besoedel word deur: onoplosbare stowwe, soos olie, plastiek, bande, blikkies, glas, toiletafval; oplosbare stowwe soos seep, kunsmis, insekdoders, sure en ander gifstowwe; lewende kieme van toiletafval veroorsaak wateroordraagbare siektes soos diarree",
-  "verdict": "MENS_NODIG",
+  "verdict": "HERSIEN",
   "items": [
+    {
+      "bewering": "'n Plastieksak in 'n rivier het nie in die rivier begin nie. Iemand het dit weggegooi, en die wind of die reën het dit tot by die water gebring.",
+      "blok": "Hoe dinge in ons water beland",
+      "status": "bevestig",
+      "bron": "EPA, Nonpoint Source Pollution (epa.gov/nps/basic-information-about-nonpoint-source-nps-pollution): runoff picks up and carries human-made pollutants into rivers and lakes; NOAA Marine Debris material on litter reaching water. Wind-blown and rain-washed litter is the standard route; direct dumping is covered in the next claim.",
+      "tipe": "algemeen"
+    },
     {
       "bewering": "Reënwater loop oor landerye, strate en vullishope voordat dit in 'n rivier of 'n dam beland. Op pad tel dit grond, afval en ander stowwe op en dra dit saam.",
       "blok": "Hoe dinge in ons water beland",
       "status": "bevestig",
-      "bron": "Wikipedia, Eutrophication (afloop van bemeste lande na mere en strome ná 'n storm); Wikipedia, Pesticide (gespuite middels beland in water en grond). Ondersteun die afloop-meganisme.",
+      "bron": "EPA, Polluted Runoff: Nonpoint Source Pollution (epa.gov/nps): 'As the runoff moves, it picks up and carries away natural and human-made pollutants, finally depositing them into lakes, rivers...'; sources listed include agricultural land, urban runoff and sediment.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Afval word soms ook reguit in 'n rivier gegooi.",
       "blok": "Hoe dinge in ons water beland",
       "status": "bevestig",
-      "bron": "Wikipedia, Litter / Marine debris (weggegooide afval beland in waterliggame).",
+      "bron": "Stellenbosch epidemiologist Jo Barnes on the Eerste River (IOL, 'The invisible killers in our water', 2013) names dumping into rivers as a cause of pollution; Cape Town and Gauteng reports of objects dumped into the system.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Toiletafval loop in die water in waar 'n rioolpyp lek of oorloop.",
       "blok": "Hoe dinge in ons water beland",
       "status": "bevestig",
-      "bron": "Wikipedia, Sanitary sewer overflow: oorsake sluit gebreekte rioolpype, verstoppings en oorloop by swaar reën in; rou riool bereik oppervlakwater. Die sin sê nie dat dit die enigste roete is nie.",
+      "bron": "Carroll & Curtis, Water SA (Hartbeespoort Dam nutrient mass balance) recommend 'refurbishing leaking and overflowing sewers'; NIVA Hartbeespoort project document names leaking sewers and sewage spills; Mail & Guardian 2023 on collapsing, leaking sewer systems in Gauteng. Note for the writer, not a fault: in South Africa failing sewage treatment works are also a major route (WaterCAN 2025, AfriForum 2023); the sentence does not claim pipes are the only route.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Ons noem dit besoedeling wanneer stowwe of kieme so in water beland en skade doen.",
       "blok": "Hoe dinge in ons water beland",
       "status": "bevestig",
-      "bron": "Wikipedia, Pollution: 'the introduction of contaminants into the natural environment that cause harm'. Binne hierdie blok word dit net op water en op stowwe/kieme toegepas, wat klop.",
+      "bron": "Dictionary.com: 'the contamination of air, water, or soil by substances that are harmful to living organisms'; Collins: 'harmful or poisonous substances introduced into an environment'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die eerste soort is onoplosbare stowwe. ... Die tweede soort is oplosbare stowwe ... Die derde soort is kieme.",
+      "blok": "Stukke en lae wat jy kan sien",
+      "status": "bevestig",
+      "bron": "The only 'eerste' in the lesson is an ordinal counting the lesson's own three categories, not a historical or record claim; nothing to verify as a superlative. The three-way division matches the CAPS bullet copied in the lesson (insoluble substances, soluble substances, living germs). No other superlatives (grootste, oudste, enigste, vinnigste) occur in the lesson.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Hulle los nie in water op nie. Hulle bly as stukke of as 'n laag in die water, en jy kan hulle gewoonlik sien.",
+      "blok": "Stukke en lae wat jy kan sien",
+      "status": "bevestig",
+      "bron": "University of Georgia Extension Bulletin B 1523: suspended material such as sand, silt and clay stays in water as particles and is removed by mechanical filtration, unlike dissolved chemicals. 'gewoonlik' correctly covers microplastics and fine particles that are not visible.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Olie meng nie met water nie en vorm 'n laag wat gewoonlik bo-op die water lê.",
       "blok": "Stukke en lae wat jy kan sien",
-      "status": "bevestig",
-      "bron": "Wikipedia, Oil spill: oliekolle op die oppervlak word afgeskep en met versperrings ingehok; sommige olies is digter as water en sink. 'Gewoonlik' dek hierdie uitsondering korrek.",
+      "status": "weerspreek",
+      "bron": "Science Buddies, 'Liquids: miscibility and density': oil and water are immiscible, and 'a mixture where liquids remain physically separate can also be called a heterogeneous mixture'; Frostburg State General Chemistry Online on miscible/immiscible. The layer half is correct: NOAA Office of Response and Restoration, Heavy Fuel Oil fact sheet, shows most oils are lighter than water and float, while some heavy oils suspend or sink, so 'gewoonlik' is right. The fault is in 'meng nie': the lesson's first block sets up 'party dinge net met water meng en ander heeltemal daarin oplos', which puts insoluble things in the 'meng' category, and oil is the CAPS bullet's own first example of something that pollutes by mixing without dissolving. Saying oil 'meng nie met water nie' contradicts that framing inside one lesson, in a topic called Mengsels, and a learner reasoning from it would conclude that oil in water is not a mixture. Science treats it as a mixture (heterogeneous); 'does not mix' is everyday shorthand for 'does not dissolve or blend evenly'.",
+      "regstelling": "Do not say that oil does not mix with water. Say that oil does not dissolve in water and stays apart from it as a separate layer, which usually lies on top of the water. That keeps the oil in the 'net meng' category the first block set up.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Plastiek breek mettertyd in al kleiner stukkies op, maar dit verdwyn nie.",
+      "bewering": "Plastiek breek mettertyd in al hoe kleiner stukkies op, maar dit verdwyn nie.",
       "blok": "Stukke en lae wat jy kan sien",
       "status": "bevestig",
-      "bron": "NOAA Ocean Service, 'What are microplastics?' (oceanservice.noaa.gov/facts/microplastics.html): die meeste plastiek breek op in baie klein deeltjies, mikroplastiek; Wikipedia, Marine debris: plastiek breek tipies nie biologies af nie.",
+      "bron": "NOAA Ocean Service podcast 'Microplastics' (oceanservice.noaa.gov/podcast/june16/dd66-microplastics.html): plastic weathers into smaller and smaller pieces but bacteria cannot break the polymer chains, so it persists; Britannica: 'it doesn't go away. It just spreads out over time.'",
       "tipe": "algemeen"
     },
     {
       "bewering": "Visse, voëls en skilpaaie kan plastiek insluk of daarin vasraak.",
       "blok": "Stukke en lae wat jy kan sien",
       "status": "bevestig",
-      "bron": "Wikipedia, Marine debris: 1 288 mariene spesies sluk plastiek in, met visse die grootste deel; albatros met ingeslukte afval; skilpaaie en seevoëls raak in spooknette vas.",
+      "bron": "NOAA Marine Debris fact sheet (via Alaska DEC, 'Plastic Marine Debris'): sea birds, sea turtles and fish eat plastic, and animals become entangled in plastic debris.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Ou bande, blikkies en stukkende glas bly as harde stukke in die water.",
       "blok": "Stukke en lae wat jy kan sien",
       "status": "bevestig",
-      "bron": "Wikipedia, Tire recycling (bande is 'highly durable and non-biodegradable'); Wikipedia, Sea glass (glasskerwe bly 20-40 jaar en langer in water); Wikipedia, Litter (afval bly lank sigbaar). Blikkies het geen aparte tydsbron gekry nie; die algemene stelling oor afval dek hulle.",
+      "bron": "NOAA Ocean Service (oceanservice.noaa.gov/facts/degrade): glass does not degrade; NOAA Marine Debris blog 'The Mystery of How Long Until It's Gone': such items persist for a long time and break down slowly if at all. None of the three dissolves. Minor note, not a fault: steel cans rust over years and tyres are tough rather than hard, but 'harde stukke' as opposed to dissolved matter holds.",
       "tipe": "algemeen"
     },
     {
       "bewering": "By toiletafval is dit die vaste afval self wat nie oplos nie en in die water bly.",
       "blok": "Stukke en lae wat jy kan sien",
       "status": "bevestig",
-      "bron": "Wikipedia, Sanitary sewer overflow (rou riool dra vaste stof na waterweë). Die sin onderskei korrek die vaste deel van die res, en beweer nie dat alle toiletafval onoplosbaar is nie.",
+      "bron": "Britannica, 'sludge', and Wikipedia, 'Sewage sludge': sewage carries suspended faecal solids that settle out as sludge rather than dissolving. Note: those solids decompose over time through bacteria, but they do not dissolve, which is what the sentence contrasts.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die tweede soort is oplosbare stowwe soos seep en kunsmis. Sure, party insekdoders en ander gifstowwe is ook oplosbaar.",
+      "bewering": "Die tweede soort is oplosbare stowwe soos seep en kunsmis.",
       "blok": "Gif wat jy nie kan sien nie",
       "status": "bevestig",
-      "bron": "Wikipedia, Sodium stearate (gewone seep): 'Solubility in water: soluble'; Wikipedia, Fertilizer: wateroplosbare kunsmis, ook op blare toegedien; Wikipedia, Pesticide: insekdoders beland in water. 'Party insekdoders' is tereg versigtig, want nie almal is goed oplosbaar nie.",
+      "bron": "Britannica Kids, micelle/soap entry: soap dissolves in water, forming micelles (Britannica also notes calcium/magnesium soaps in hard water are poorly soluble, an exception that does not affect the claim); EPA nutrient pollution fact sheet: fertiliser nitrogen and phosphorus enter water dissolved in runoff.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Sure, party insekdoders en ander gifstowwe is ook oplosbaar.",
+      "blok": "Gif wat jy nie kan sien nie",
+      "status": "bevestig",
+      "bron": "Wits University, 'The heat of acid mine drainage': mine water becomes acidic and carries dissolved iron, lead and other heavy metals; EPA NPS page lists herbicides and insecticides among runoff pollutants. 'party' rightly covers the fact that some insecticides dissolve poorly in water.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Al hierdie stowwe los in die water op en versprei deur die water. Jy kan hulle dan gewoonlik nie meer sien nie. Water kan dus helder en skoon lyk en steeds besoedel wees.",
       "blok": "Gif wat jy nie kan sien nie",
       "status": "bevestig",
-      "bron": "WHO, Drinking-water fact sheet: chemikalieë soos arseen, fluoried en lood in drinkwater is van gesondheidsbelang al lyk die water skoon; 'gewoonlik' dek gekleurde oplossings.",
+      "bron": "Scientific American, 'Bring Science Home: Separate Solutions', and Science Buddies 'A soluble separation solution': dissolved solids break into particles too small to see; UGA Extension Bulletin B 1523: dissolved chemicals are not removed by mechanical filtration, so clarity does not show safety. 'gewoonlik' covers coloured solutions.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "'n Sif, filtreerpapier of 'n lap [kan] nie 'n opgeloste stof uit water ... haal nie.",
+      "bewering": "Jy het ook al geleer dat 'n sif, filtreerpapier of 'n lap nie 'n opgeloste stof uit water kan haal nie.",
       "blok": "Gif wat jy nie kan sien nie",
       "status": "bevestig",
-      "bron": "Wikipedia, Filtration: net die vloeistof gaan deur die filter en opgeloste stowwe gaan saam met die oplossing deur; net vaste deeltjies wat nie opgelos is nie bly agter.",
+      "bron": "UGA Extension Bulletin B 1523: mechanical filters remove sand, silt and clay 'but not dissolved chemicals'; Scientific American 'Separate Solutions': dissolved salt passes through the filter with the water and is recovered by evaporation.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Gifstowwe en sure kan plante en diere in die water beseer of doodmaak. Mense kan siek word as hulle sulke water drink.",
+      "bewering": "Gifstowwe en sure kan plante en diere in die water skaad of doodmaak.",
       "blok": "Gif wat jy nie kan sien nie",
       "status": "bevestig",
-      "bron": "Wikipedia, Pesticide (minder ongewerwelde soorte in strome); Wikipedia, Sanitary sewer overflow (vis wat doodgaan); WHO, Drinking-water fact sheet (arseen, fluoried en lood in drinkwater skaad die gesondheid).",
+      "bron": "University of Mpumalanga news (2022), 'Acid mine drainage contributes to scarcity of fish species'; mining.com on the WWF-SA/CSIR study: acid drainage acidifies rivers, raises metal levels and kills fish; Wits: acidic metal-rich water is 'toxic to living organisms'.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Kunsmis gee plante stowwe wat hulle nodig het om goed te groei, en tog besoedel dit water. Reën spoel opgeloste kunsmis van landerye en tuine af na riviere en damme. In die water laat dit alge en waterplante veel te vinnig groei. Hulle kan dan 'n dam of 'n stil stuk rivier toegroei.",
+      "bewering": "Mense kan siek word as hulle sulke water drink.",
+      "blok": "Gif wat jy nie kan sien nie",
+      "status": "bevestig",
+      "bron": "AfriForum/TimesLive 2023 and Wits AMD article on toxic metals in water; WHO drinking-water guidance generally. The claim is a 'kan', which holds.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Kunsmis gee plante stowwe wat hulle nodig het om goed te groei, en tog besoedel dit water.",
       "blok": "Kunsmis laat waterplante te vinnig groei",
       "status": "bevestig",
-      "bron": "Wikipedia, Fertilizer (voorsien plantvoedingstowwe); Wikipedia, Eutrophication (afloop van kunsmis ná storms na mere en strome; oormaat voedingstowwe veroorsaak algbloei; CSIR: meer as 60% van die ondersoekte Suid-Afrikaanse opgaardamme is eutrofies).",
+      "bron": "EPA, 'Facts about nutrient pollution' (epa.gov, 2018): nitrogen and phosphorus are nutrients plants need, and too much of them in water is a leading cause of water pollution.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Reën spoel opgeloste kunsmis van landerye en tuine af na riviere en damme.",
+      "blok": "Kunsmis laat waterplante te vinnig groei",
+      "status": "bevestig",
+      "bron": "EPA NPS page: 'excess fertilizers ... from agricultural lands and residential areas' carried by runoff; NIVA Hartbeespoort project document: urban and agricultural runoff feed nutrients into the dam.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "In die water laat dit alge en waterplante veel te vinnig groei. Hulle kan dan 'n dam of 'n stil stuk rivier oorgroei.",
+      "blok": "Kunsmis laat waterplante te vinnig groei",
+      "status": "bevestig",
+      "bron": "EPA 'Facts about nutrient pollution': excess nutrients cause algae to grow faster than ecosystems can handle; NIVA Hartbeespoort document and Rhodes University news ('Your sewage is contributing to Hartbeespoort Dam's alien hyacinth invasion'): nutrient enrichment drives algae and water hyacinth that have covered large parts of the dam.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Kieme is nie 'n stof wat oplos of nie oplos nie, maar baie klein lewende dinge.",
       "blok": "Kieme uit toiletafval",
-      "status": "onseker",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, Pathogen: 'kiem' is die gewone woord vir 'n patogeen, en dit sluit virusse in; Wikipedia, Virus: 'Scientific opinions differ on whether viruses are a form of life'. Die stelling is waar vir bakterieë en protosoë, maar oor virusse (byvoorbeeld norovirus, wat diarree veroorsaak) verskil wetenskaplikes. Die KABV-punt self sê 'lewende kieme'. Dit is 'n betwiste indeling en nie 'n feit wat 'n mens kan uitmaak nie; iemand moet besluit of die KABV-bewoording aanvaar word."
+      "status": "bevestig",
+      "bron": "CDC, 'Germs that can contaminate tap water', and GIDEON on waterborne diseases: waterborne disease is caused by bacteria, viruses and parasites, i.e. organisms rather than dissolved substances. Classification note: bacteria and protozoa are living things without dispute; whether viruses (e.g. rotavirus, norovirus, major diarrhoea causes) are 'living' is a long-standing definitional debate rather than a fact one source settles. 'Lewende kieme' is the CAPS bullet's own wording, copied into the lesson, so I record this as consistent with CAPS and standard school usage, not as an error.",
+      "tipe": "algemeen"
     },
     {
       "bewering": "Toiletafval kan lewende kieme dra.",
       "blok": "Kieme uit toiletafval",
       "status": "bevestig",
-      "bron": "WHO, Drinking-water fact sheet: mikrobiese besmetting van drinkwater deur fekalieë hou die grootste risiko in; Wikipedia, Diarrhea: infeksies kom dikwels uit kos of water wat met fekalieë besmet is.",
+      "bron": "Jo Barnes, Stellenbosch (IOL 2013): E. coli in the Eerste River rises from 14 to 34 million per 100 ml downstream of leaking sewage and dumped toilet waste; WaterCAN 2025: E. coli found in nearly two-thirds of sampled rivers.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Kieme is te klein om met jou oë te sien. Water kan dus skoon lyk en tog kieme dra.",
       "blok": "Kieme uit toiletafval",
       "status": "bevestig",
-      "bron": "Wikipedia, Pathogen: die meeste patogene (bakterieë, virusse, swamme) is mikroskopies; net parasitiese wurms (makroparasiete) is met die blote oog sigbaar, en hulle word nie as 'kieme' aangebied nie.",
+      "bron": "CDC MMWR (Cryptosporidium outbreak in a chlorinated, filtered public water supply, about 13 000 people) and CDC norovirus guidance: microscopic pathogens contaminate water that has been treated and looks clean.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Iemand kan 'n wateroordraagbare siekte soos diarree kry deur sulke water te drink.",
+      "bewering": "Iemand kan 'n wateroordraagbare siekte soos diarree kry deur sulke water te drink. So 'n siekte kry 'n mens deur water te drink of te gebruik waarin sulke kieme is.",
       "blok": "Kieme uit toiletafval",
       "status": "bevestig",
-      "bron": "WHO, Drinking-water fact sheet: 'Microbiologically contaminated drinking water can transmit diseases such as diarrhoea, cholera, dysentery, typhoid and polio'.",
-      "tipe": "algemeen"
-    },
-    {
-      "bewering": "So 'n siekte kry 'n mens deur water te drink waarin iets is wat mense siek maak.",
-      "blok": "Kieme uit toiletafval",
-      "status": "weerspreek",
-      "bron": "Wikipedia, Waterborne disease: 'These diseases can spread through bathing, washing, drinking contaminated water, or eating food that has been exposed to contaminated water'; CDC, 'About Healthy Water Data': waterbesmetting kan siekte veroorsaak as jy dit 'drink it, breathe it in, or it touches your skin'. As definisie beperk die sin die roete tot drink. Dan val bilharzia (skistosomiase), wat 'n mens deur jou vel kry as jy in rivierwater swem of was, buite die woord.",
-      "regstelling": "Maak die roete ruimer en behou die res: so 'n siekte kry 'n mens deur water te drink of te gebruik (byvoorbeeld om in te was of te swem) waarin iets is wat mense siek maak. Of versag dit na 'meestal deur water te drink'. Die 'iets wat mense siek maak' hoef nie te verander nie: CDC reken ook chemikalieë as oorsaak, al hou WHO en Wikipedia die term by kieme.",
+      "bron": "WHO fact sheet, 'Diarrhoeal disease' (who.int/news-room/fact-sheets/detail/diarrhoeal-disease): spread mainly through contaminated food and drinking water; GIDEON/CDC: waterborne disease comes through drinking water, water used in food preparation, and swimming water, which supports 'drink of gebruik'.",
       "tipe": "algemeen"
     },
     {
       "bewering": "Nie alle diarree kom van kieme in water nie, maar besoedelde water is een manier waarop mense dit kry.",
       "blok": "Kieme uit toiletafval",
       "status": "bevestig",
-      "bron": "Wikipedia, Diarrhea: nie-aansteeklike oorsake (laktose-onverdraagsaamheid, medisyne, IBS), en infeksies wat 'n mens ook deur kos of van mens tot mens kry; 'One of the most common causes of infectious diarrhea is a lack of clean water'.",
+      "bron": "WHO 'Diarrhoeal disease' fact sheet: infection also spreads through contaminated food and from person to person where hygiene is poor; water is one route among several.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Onoplosbare stowwe bly as stukke of as 'n laag wat jy gewoonlik kan sien. / Oplosbare stowwe los op en jy kan hulle gewoonlik nie sien nie. / Kieme is lewende dinge wat te klein is om te sien en mense siek kan maak.",
+      "bewering": "Onoplosbare stowwe bly as stukke of as 'n laag wat jy gewoonlik kan sien.",
       "blok": "Drie soorte besoedeling in water",
       "status": "bevestig",
-      "bron": "Dieselfde bronne as die bevindings vir die drie studieblokke hierbo (Filtration, Oil spill, Pathogen). Die woord 'lewende' in die derde item dra dieselfde onsekerheid oor virusse as die onseker-bevinding oor kieme, en word nie apart getel nie.",
+      "bron": "As for the same claim in 'Stukke en lae wat jy kan sien' (UGA Extension Bulletin B 1523). Read as a set with the other two items: the three are parallel and consistent with each other and with the study blocks.",
       "tipe": "algemeen"
     },
     {
-      "bewering": "Die eerste soort ... Die tweede soort ... Die derde soort (volgorde-woorde; die les het geen historiese of 'grootste/oudste/enigste'-oortreffende trappe nie)",
-      "blok": "Stukke en lae wat jy kan sien",
+      "bewering": "Oplosbare stowwe los op, en jy kan hulle gewoonlik nie sien nie.",
+      "blok": "Drie soorte besoedeling in water",
       "status": "bevestig",
-      "bron": "Dit is die les se eie telling, en dit volg die volgorde van die KABV-punt (onoplosbaar, oplosbaar, kieme). Dit is geen bewering oor die wêreld nie. Daar is geen eli10-blok en dus geen analogie om na te gaan nie.",
-      "tipe": "superlatief"
+      "bron": "Scientific American 'Separate Solutions'; UGA Extension Bulletin B 1523 (as above).",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "besoedeling: Stowwe of kieme wat in water, lug of grond beland en skade doen.",
+      "bewering": "Kieme is lewende dinge wat te klein is om te sien en mense siek kan maak.",
+      "blok": "Drie soorte besoedeling in water",
+      "status": "bevestig",
+      "bron": "CDC 'Germs that can contaminate tap water'; WHO diarrhoeal disease fact sheet. Same virus classification note as in 'Kieme uit toiletafval'; 'kan' is correctly hedged (not every microbe causes disease).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "besoedeling: Iets skadeliks wat in die omgewing beland, soos stowwe of kieme in water, lug of grond.",
       "blok": "besoedeling",
-      "status": "weerspreek",
-      "bron": "Wikipedia, Pollution: besoedeling 'can take the form of any substance (solid, liquid, or gas) or energy (such as radioactivity, heat, sound, or light)'. As 'n mens die begrip alleen lees, sê dit vir 'n leerder dat net stowwe en kieme besoedeling kan wees. Dan is geraasbesoedeling of ligbesoedeling nie besoedeling nie, en in water ook nie warm water wat 'n kragstasie uitlaat nie.",
-      "regstelling": "Gebruik 'n afbakening wat nie uitsluit wat wel besoedeling is nie. Byvoorbeeld: 'Wanneer stowwe, kieme of ander dinge soos geraas in water, lug of grond beland en skade doen.' Of beperk die begrip tot water, waaroor die les gaan, sonder om te sê dat besoedeling net uit stowwe of kieme bestaan. As dit 'n gedeelde omskrywing vir die vak is, moet die ooreengekome bewoording self verander word.",
+      "status": "bevestig",
+      "bron": "Collins (via Dictionary.com): pollution as 'harmful or poisonous substances introduced into an environment'; Dictionary.com: contamination of air, water or soil by harmful substances. The entry uses the 'harmful material' sense where the study text uses the process sense ('wanneer stowwe ... beland en skade doen'); both senses are attested, and read alone the entry is true.",
       "tipe": "algemeen"
     },
     {
       "bewering": "oplosbaar: Iets wat in water kan oplos, soos suiker en sout.",
       "blok": "oplosbaar",
       "status": "bevestig",
-      "bron": "Wikipedia, Filtration / Sodium stearate: oplosbaarheid in water is 'n standaardeienskap. Suiker en sout los albei in water op (sukrose en natriumchloried is baie oplosbaar volgens hul Wikipedia-inligtingsblokke). Die bron vir hierdie twee voorbeelde is in hierdie rondte nie apart gehaal nie.",
+      "bron": "Science Buddies, 'A soluble separation solution', and Scientific American, 'Separate Solutions': sugar and salt are standard examples of solids that dissolve in water. Strictly, solubility is relative to a solvent, but the entry names water, so read alone it is true.",
       "tipe": "algemeen"
     },
     {
       "bewering": "onoplosbaar: Iets wat nie in water oplos nie, soos sand.",
       "blok": "onoplosbaar",
       "status": "bevestig",
-      "bron": "Wikipedia, Filtration: vaste stof wat nie opgelos is nie word deur 'n filter teruggehou. Sand (silika) los nie in water op nie.",
+      "bron": "Science Buddies and Scientific American (as above): sand does not dissolve and is caught by a filter.",
       "tipe": "algemeen"
     },
     {
       "bewering": "kieme: Baie klein lewende dinge wat 'n mens siek kan maak.",
       "blok": "kieme",
-      "status": "onseker",
-      "tipe": "algemeen",
-      "bron": "Wikipedia, Pathogen ('germ' sluit virusse in) en Wikipedia, Virus ('Scientific opinions differ on whether viruses are a form of life'). Dieselfde betwiste indeling as die onseker-bevinding in die studieblok 'Kieme uit toiletafval'. Die KABV-punt gebruik self 'lewende kieme'. 'Baie klein' en 'wat 'n mens siek kan maak' is albei korrek."
+      "status": "bevestig",
+      "bron": "CDC 'Germs that can contaminate tap water' (bacteria, viruses, parasites). The same note on viruses applies as in 'Kieme uit toiletafval'; the entry follows CAPS's 'lewende kieme'.",
+      "tipe": "algemeen"
     },
     {
-      "bewering": "wateroordraagbare siekte: 'n Siekte wat 'n mens kan kry deur water te drink waarin iets is wat mense siek maak, soos kieme.",
+      "bewering": "wateroordraagbare siekte: 'n Siekte wat 'n mens kan kry deur water te drink of te gebruik waarin kieme is wat mense siek maak.",
       "blok": "wateroordraagbare siekte",
-      "status": "weerspreek",
-      "bron": "Wikipedia, Waterborne disease (versprei deur bad, was, drink en besmette kos); CDC, 'About Healthy Water Data' (drink, inasem en veloorraking). Die begrip definieer die siekte deur net één roete. Bilharzia, wat 'n mens deur jou vel in rivierwater kry, pas dan nie in nie.",
-      "regstelling": "'n Siekte wat 'n mens kan kry deur water te drink of te gebruik waarin iets is wat mense siek maak, soos kieme. 'Soos kieme' kan bly, want CDC reken chemikalieë ook as oorsaak. Maak dieselfde reëling in die studieblok 'Kieme uit toiletafval' sodat die twee nie verskil nie.",
+      "status": "bevestig",
+      "bron": "GIDEON/CDC: waterborne diseases are contracted through exposure to contaminated drinking water, food-preparation water and swimming water, caused by bacteria, viruses and parasites; WHO diarrhoeal disease fact sheet.",
       "tipe": "algemeen"
     },
     {
       "bewering": "kunsmis: 'n Stof wat mense by grond voeg sodat plante beter groei.",
       "blok": "kunsmis",
       "status": "bevestig",
-      "bron": "Wikipedia, Fertilizer: 'any material ... applied to soil or to plant tissues to supply plant nutrients'. Kunsmis word ook op blare toegedien, maar die begrip sê nie 'net by grond' nie, en grond is die hoofgebruik.",
+      "bron": "EPA 'Facts about nutrient pollution': fertilisers supply nitrogen and phosphorus for plant growth on farms and lawns. Fertiliser is also sprayed on leaves or used in hydroponics, but the entry names the common case and does not say it is the only one.",
       "tipe": "algemeen"
     },
     {
       "bewering": "insekdoder: 'n Middel wat mense gebruik om insekte dood te maak.",
       "blok": "insekdoder",
       "status": "bevestig",
-      "bron": "Wikipedia, Pesticide: insekdoders is plaagdoders wat teen insekte gemik is.",
+      "bron": "EPA NPS page lists insecticides alongside herbicides as pesticides applied on agricultural and residential land; an insecticide is by name and use a product for killing insects.",
       "tipe": "algemeen"
     },
     {
       "bewering": "gifstof: 'n Stof wat 'n lewende ding siek kan maak of kan doodmaak.",
       "blok": "gifstof",
       "status": "bevestig",
-      "bron": "WHO, Drinking-water fact sheet (chemiese stowwe in water skaad die gesondheid); Wikipedia, Pesticide (skade aan organismes wat nie die teiken is nie). Dit is die standaardbetekenis van gif.",
+      "bron": "Wits, 'The heat of acid mine drainage' (metal-rich acidic water 'toxic to living organisms'); Collins pairs 'harmful or poisonous substances'. A poison is a substance that harms or kills an organism; 'kan' is right.",
       "tipe": "algemeen"
     }
   ],
-  "opsomming": "Die les is feitelik gesond oor olie, plastiek, afval, oplosbare stowwe, filters, kunsmis en diarree, maar die begrip vir wateroordraagbare siekte en die ooreenstemmende sin beperk die roete tot drink (bilharzia val uit), die begrip besoedeling sluit geraas, hitte en lig uit, en 'kieme is lewende dinge' is betwis vir virusse (die KABV se eie bewoording) en vra 'n mens se besluit."
+  "opsomming": "Every claim in the lesson checks out except one: 'Olie meng nie met water nie' contradicts the lesson's own first block, which says some things only mix with water and others dissolve, so it tells a Grade 6 learner in the mixtures topic that oil and water do not make a mixture; it should say oil does not dissolve and stays apart as a layer. There are no analogies and no real superlatives, and the only judgement call (whether viruses count as 'lewende kieme') follows CAPS's own wording and is recorded, not held up."
 }

@@ -1,0 +1,58 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Pluto en ander dwergplanete",
+      "voor": "weggevee of hou hulle in toom",
+      "na": "weggevee, of dit hou hulle in toom",
+      "soort": "sinsbou",
+      "rede_vinder": "The second verb shifts tense without its own subject; repeating the subject makes the two options read as two clear clauses and needs the AWS comma before 'of'.",
+      "fout": "The perfect 'het ... weggevee' and the present 'hou' share one subject across 'of', so a reader can stumble by reading 'het ... hou' together.",
+      "rede_keurder": "Repeating the subject makes two clear clauses with the same meaning and the same referent (the planet), and the comma before 'of' is the required AWS comma."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die asteroïdegordel",
+      "voor": "ruimte met die asteroïdes ver van mekaar af",
+      "na": "ruimte, en die asteroïdes is ver van mekaar af",
+      "soort": "anglisisme",
+      "rede_vinder": "The 'met ... ver van mekaar af' construction follows English 'with the asteroids far apart'; a second clause is more natural Afrikaans, and the protected wording before it stays intact.",
+      "fout": "none",
+      "rede_keurder": "The absolute 'met die asteroiedes ver van mekaar af' is ordinary Afrikaans (as in 'met die deur oop'), so splitting it into a second clause is a lateral move that also loosens the link between the empty space and the spacing."
+    },
+    {
+      "nr": 3,
+      "blok": "Rotsagtige planete en gasplanete",
+      "voor": "Ons noem hulle gasplanete.",
+      "na": "Ons noem hulle die gasplanete.",
+      "soort": "sinsbou",
+      "rede_vinder": "Parallel with 'Ons noem hulle die rotsagtige planete' in the same block; the protected word 'gasplanete' is unchanged.",
+      "fout": "none",
+      "rede_keurder": "'Ons noem hulle gasplanete' is a natural naming sentence, so adding 'die' to match the earlier sentence is only a different wording, not a better one."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 534,
+  "woorde_na": 535,
+  "wanneer": "2026-10-28T09:43:46+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 11,
+      "blok": "Die asteroïdegordel",
+      "voor": "Die gordel skei so die rotsagtige planete",
+      "na": "So skei die gordel die rotsagtige planete",
+      "soort": "woordorde",
+      "rede_vinder": "'so' in the middle of the clause reads awkwardly; fronting it gives natural word order.",
+      "fout": "none",
+      "rede_keurder": "'Die gordel skei so ...' is normal Afrikaans word order, so fronting 'So' is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:fd4636dc4b0d3d276a2bdedcf827280c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:ebaf25f41241a52202853ed733a01642"
+}

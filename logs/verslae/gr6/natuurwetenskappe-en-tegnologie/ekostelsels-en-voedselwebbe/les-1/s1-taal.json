@@ -1,0 +1,97 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Baie soorte ekostelsels",
+      "voor": "Party is nat en ander",
+      "na": "Party is nat, en ander",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have a subject and verb ('Party is nat' / 'ander is baie droog').",
+      "rede_keurder": "Two full clauses joined by 'en' take a comma under the AWS 2017, and the meaning is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Nege ekostelsels",
+      "voor": "'n baie groot gebied soutwater",
+      "na": "'n baie groot gebied met soutwater",
+      "soort": "sinsbou",
+      "rede_vinder": "'Gebied' is not a measure noun, so 'n gebied soutwater' reads awkwardly; 'met' links the two naturally.",
+      "fout": "'n Gebied soutwater' treats 'gebied' as a measure noun, which reads awkwardly.",
+      "rede_keurder": "Adding 'met' makes the phrase natural Afrikaans without changing what a sea is said to be."
+    },
+    {
+      "nr": 5,
+      "blok": "Nege ekostelsels",
+      "voor": "dig op mekaar",
+      "na": "dig opmekaar",
+      "soort": "spelling",
+      "rede_vinder": "AWS writes the adverb 'opmekaar' as one word, like 'bymekaar'.",
+      "fout": "'Op mekaar' is written as two words; the word list writes the adverb 'opmekaar' as one, like 'bymekaar'.",
+      "rede_keurder": "A plain spelling correction with no change in meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Die nie-lewende dele",
+      "voor": "Plante neem ook 'n ander gas uit die lug om",
+      "na": "Plante neem ook 'n ander gas uit die lug op om",
+      "soort": "grammatika",
+      "rede_vinder": "The verb for taking in a gas is the separable 'opneem', so the particle 'op' is needed.",
+      "fout": "'Neem 'n gas uit die lug' uses a loose verb where taking in a gas is 'opneem'.",
+      "rede_keurder": "The particle gives the exact Afrikaans verb for absorbing a gas, and who takes what from where stays the same."
+    },
+    {
+      "nr": 8,
+      "blok": "Genoeg soorte hou 'n ekostelsel gesond",
+      "voor": "gee aan die diere baie soorte kos",
+      "na": "gee die diere baie soorte kos",
+      "soort": "sinsbou",
+      "rede_vinder": "With 'gee' the indirect object without 'aan' is the more natural Afrikaans word order.",
+      "fout": "'Gee aan die diere baie soorte kos' is stiff; with 'gee' the plain indirect object is the natural order.",
+      "rede_keurder": "Dropping 'aan' reads more naturally and keeps the same giver, receiver and things given."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Baie soorte ekostelsels",
+      "voor": "wat daar goed lewe",
+      "na": "wat daar goed gedy",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Goed lewe' is wooden; 'gedy' is the natural Afrikaans verb for living and growing well in a place.",
+      "fout": "none",
+      "rede_keurder": "'Wat daar goed lewe' reads naturally for a Grade 6 reader; 'gedy' is a harder, more literary word and the swap is lateral."
+    },
+    {
+      "nr": 4,
+      "blok": "Nege ekostelsels",
+      "voor": "rotse waaroor die golwe breek",
+      "na": "rotse waarteen die golwe breek",
+      "soort": "idioom",
+      "rede_vinder": "In Afrikaans waves break 'teen' rocks, not 'oor' them.",
+      "fout": "none",
+      "rede_keurder": "Waves breaking 'oor' rocks (washing over them) is idiomatic and pictures something different from breaking 'teen' them, so the preposition swap moves the meaning."
+    },
+    {
+      "nr": 7,
+      "blok": "Lewende dinge verander die nie-lewende dele",
+      "voor": "en verander dit ook",
+      "na": "en verander hulle ook",
+      "soort": "verwysing",
+      "rede_vinder": "The pronoun refers to the plural 'die nie-lewende dele', so 'hulle' is the clearer reference.",
+      "fout": "none",
+      "rede_keurder": "'Dit' for plural inanimate things is standard Afrikaans, and 'hulle' could be read as pointing back to 'lewende dinge', which makes the reference less clear."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 543,
+  "woorde_na": 543,
+  "wanneer": "2026-10-28T08:41:34+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:de0e8fc998ecc0829c34a6edc6eb89f8",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:8c35ed76bf73476b0f8d678990613ac3"
+}

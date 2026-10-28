@@ -1,0 +1,47 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat is voedingstowwe?",
+      "voor": "Dit het hulle nodig om energie te kry",
+      "na": "Jou lyf het hulle nodig om energie te kry",
+      "soort": "verwysing",
+      "rede_vinder": "'Dit' directly after 'die kos wat jy eet' can be read as the food rather than the body; naming the body removes the ambiguity.",
+      "fout": "'Dit' follows directly after 'die kos wat jy eet', so a reader can take it as the food instead of the body.",
+      "rede_keurder": "Naming the body fixes a pronoun that could point two ways, without changing the meaning or touching a protected word."
+    },
+    {
+      "nr": 2,
+      "blok": "Proteïene: kos vir groei en herstel",
+      "voor": "Jou lyf bou nuwe vel met proteïen wanneer 'n sny aan jou knie gesond word",
+      "na": "Wanneer 'n sny aan jou knie genees, bou jou lyf nuwe vel met proteïen",
+      "soort": "woordkeuse",
+      "rede_vinder": "A cut 'genees' rather than 'word gesond', and fronting the clause avoids two consecutive sentences opening with 'Jou lyf bou'.",
+      "fout": "Two sentences in a row open with 'Jou lyf bou', which reads wooden, and 'gesond word' is a flat way to say a cut heals.",
+      "rede_keurder": "'genees' is the natural verb for a cut, and putting the clause first breaks the repetition; same people, action and meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 553,
+  "woorde_na": 553,
+  "wanneer": "2026-10-28T09:55:24+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 8,
+      "blok": "Vergelyk twee pakke",
+      "voor": "en meet so albei pakke met dieselfde maat",
+      "na": "en vergelyk so albei pakke met dieselfde maatstaf",
+      "soort": "woordkeuse",
+      "rede_vinder": "The learner compares the packs rather than measuring them; 'vergelyk ... met dieselfde maatstaf' is the natural expression and matches the block heading.",
+      "fout": "none",
+      "rede_keurder": "'met dieselfde maat meet' is a fixed Afrikaans expression that fits both the literal per-100 g column and the comparison, while 'maatstaf' is harder and narrows it."
+    }
+  ],
+  "konsep_hash_voor": "sha256:28911616457e20803e0ea1a912d8c5a8",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e328014ad32d4c0c2fe0ced3d699ff2f"
+}

@@ -1,0 +1,127 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Dieselfde deeltjies in elke toestand",
+      "voor": "Ys smelt tot water en kookwater",
+      "na": "Ys smelt tot water, en kookwater",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two main clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two main clauses ('Ys smelt' / 'kookwater word').",
+      "rede_keurder": "Both clauses have their own subject and verb, so the AWS 2017 requires the comma; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Dieselfde deeltjies in elke toestand",
+      "voor": "afkoel en dit word weer",
+      "na": "afkoel, en dit word weer",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins an imperative main clause to a clause with its own subject 'dit' and verb.",
+      "fout": "Missing AWS comma before 'en' joining an imperative clause to a clause with its own subject 'dit'.",
+      "rede_keurder": "Two full clauses joined by 'en' take the comma, and it matches change 9 for consistency."
+    },
+    {
+      "nr": 3,
+      "blok": "Dieselfde deeltjies in elke toestand",
+      "voor": "nat of koud of hard",
+      "na": "nat, koud of hard",
+      "soort": "sinsbou",
+      "rede_vinder": "A three-item list reads more naturally with a comma than with a repeated 'of'.",
+      "fout": "The repeated 'of' in 'nat of koud of hard' reads clumsily.",
+      "rede_keurder": "A comma list is the natural form; under the negation it still says the particle is none of the three."
+    },
+    {
+      "nr": 4,
+      "blok": "Dieselfde deeltjies in elke toestand",
+      "voor": "Daar kom geen deeltjies by nie en geen",
+      "na": "Daar kom geen deeltjies by nie, en geen",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two main clauses, each with its own subject and verb.",
+      "fout": "Missing AWS comma before 'en' between two negated main clauses.",
+      "rede_keurder": "Each clause has its own subject and verb ('kom ... by' / 'verdwyn'), so the comma is required; meaning unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "In 'n vaste stof",
+      "voor": "Vaste plekke geld dus vir elke vaste stof.",
+      "na": "Elke vaste stof se deeltjies het dus vaste plekke.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Vaste plekke geld vir' is abstract and wooden; saying whose places they are is clearer and keeps the meaning.",
+      "fout": "'Vaste plekke geld dus vir elke vaste stof' is abstract and wooden.",
+      "rede_keurder": "The proposal says the same thing plainly, echoes the glass sentence before it, and touches no protected wording."
+    },
+    {
+      "nr": 6,
+      "blok": "In 'n vloeistof",
+      "voor": "'n vaste plek nie en hulle sit",
+      "na": "'n vaste plek nie, en hulle sit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two main clauses with different subjects ('geeneen' and 'hulle').",
+      "fout": "Missing AWS comma before 'en' joining clauses with different subjects ('geeneen' / 'hulle').",
+      "rede_keurder": "Two full clauses joined by 'en' take the comma; the protected wording is untouched."
+    },
+    {
+      "nr": 7,
+      "blok": "In 'n vloeistof",
+      "voor": "In albei is die deeltjies",
+      "na": "In albei toestande is die deeltjies",
+      "soort": "verwysing",
+      "rede_vinder": "'albei' has no noun to refer to inside this block; naming the states makes the reference clear.",
+      "fout": "Bare 'albei' has no noun to point to at the start of the sentence.",
+      "rede_keurder": "'albei toestande' makes the reference clear for a Grade 6 reader without changing the claim."
+    },
+    {
+      "nr": 8,
+      "blok": "In 'n gas",
+      "voor": "teen mekaar of die wande",
+      "na": "teen mekaar of teen die wande",
+      "soort": "sinsbou",
+      "rede_vinder": "Repeating the preposition makes clear that the particles bump against the walls, not into 'each other or the walls' as one object.",
+      "fout": "The preposition is not repeated after 'of', so 'die wande' hangs loosely.",
+      "rede_keurder": "Repeating 'teen' is the careful Afrikaans form and keeps the same meaning: particles bump into each other or into the walls."
+    },
+    {
+      "nr": 9,
+      "blok": "Wanneer dit warmer word",
+      "voor": "Verhit ys en die deeltjies",
+      "na": "Verhit ys, en die deeltjies",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins an imperative main clause to a clause with its own subject 'die deeltjies' and verb; matches the parallel sentence in the second block.",
+      "fout": "Missing AWS comma before 'en' joining an imperative clause to a clause with subject 'die deeltjies'.",
+      "rede_keurder": "Two full clauses take the comma, consistent with change 2."
+    },
+    {
+      "nr": 10,
+      "blok": "Wanneer dit warmer word",
+      "voor": "vinnig genoeg beweeg by die oppervlak",
+      "na": "vinnig genoeg beweeg, by die oppervlak",
+      "soort": "leestekens",
+      "rede_vinder": "A comma closing the relative clause separates the colliding verbs and stops 'beweeg by' being read as one verb.",
+      "fout": "Without a comma the verbs 'beweeg' and 'ontsnap' collide and 'beweeg by die oppervlak' can be misread.",
+      "rede_keurder": "Closing the relative clause with a comma removes the stumble and keeps the meaning that fast particles escape at the surface."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 11,
+      "blok": "Wanneer dit warmer word",
+      "voor": "Afkoel werk andersom.",
+      "na": "Afkoeling werk andersom.",
+      "soort": "woordkeuse",
+      "rede_vinder": "The noun 'afkoeling' is the standard form as a sentence subject; a bare infinitive as subject reads colloquially.",
+      "fout": "none",
+      "rede_keurder": "An infinitive as subject is normal Afrikaans, so 'Afkoel werk andersom' already reads well and the noun form is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 541,
+  "woorde_na": 543,
+  "wanneer": "2026-10-28T08:37:20+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:83b5ac270ed77edc42987ed2e2ab6345",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:42a8d89c8328ff17eb97eae06e17c238"
+}

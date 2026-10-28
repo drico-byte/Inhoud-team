@@ -1,231 +1,270 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Hoekom ons kos kook, droog en laat gis",
   "kaps_punt": "Noodsaaklikheid vir die verwerking van voedsel - voedsel word verwerk om dit meer eetbaar te maak (voorberei, kook), langer te laat hou (te bewaar), die verbetering van die voedingswaarde (gis); tydens die verwerking van baie voedsel kan voedingstowwe verlore gaan. Metodes vir die verwerking van voedsel - daar is baie verskillende metodes (maniere) om voedsel te verwerk.",
-  "verdict": "HERSIEN",
+  "verdict": "MENS_NODIG",
   "items": [
     {
       "bewering": "'n Droë mieliepit van die land af is te hard om lekker net so te eet. Mense maal die pitte eers fyn tot mieliemeel. Dan kook hulle die meel met water tot sagte pap.",
       "blok": "Een mielie, baie maniere",
       "status": "bevestig",
-      "bron": "Wikipedia 'Mageu' en TasteAtlas 'Mageu' (mieliemeel = gemaalde mielies, met water tot pap gekook); volledig nagegaan in hierdie rondte",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Wikipedia, 'Mageu' (https://en.wikipedia.org/wiki/Mageu): mieliepap word van mieliemeel en water gekook; Food For Mzansi oor mageu (https://www.foodformzansi.co.za/mageu-mzansis-maize-drink-hits-the-spot/). Vir die sagmaak deur kook, sien die boontjie-item hieronder."
     },
     {
       "bewering": "Party mense laat dun pap staan totdat dit gis en die effens suur drankie mageu word.",
       "blok": "Een mielie, baie maniere",
       "status": "bevestig",
-      "bron": "Wikipedia 'Mageu'; ResearchGate-figuur 'Traditional process for producing mahewu' - gegiste, nie-alkoholiese mieliepap-drankie, effens suur van melksuur. Tradisioneel word dikwels 'n bietjie koringmeel of ou mageu bygevoeg om die gisting te begin; 'laat staan totdat dit gis' is 'n aanvaarbare vereenvoudiging.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Wikipedia, 'Mageu' (https://en.wikipedia.org/wiki/Mageu): dun mieliepap word warm gelaat om te gis; die suur smaak kom hoofsaaklik van melksuur; meestal as nie-alkoholies beskou; dit word veral op plase en op die platteland tuis gemaak. UJ-studie oor mahewu in Ntambanana (https://library.au.int/node/805546). Let wel: die tradisionele resep sit gewoonlik 'n bietjie koringmeel of mout by as aansetsel. 'Laat staan totdat dit gis' laat dit uit, maar dit is 'n vereenvoudiging, nie 'n onwaarheid nie."
+    },
+    {
+      "bewering": "Ons noem dit voedselverwerking as ons kos so verander voordat ons dit eet. Een mielie wys al dat daar baie verskillende metodes is.",
+      "blok": "Een mielie, baie maniere",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Dieselfde bronne as hierbo: maal, kook en gis is drie verskillende verwerkings van mielies (Wikipedia 'Mageu'). Die omskrywing stem ooreen met die gangbare betekenis van 'food processing' as die omskakeling van rou kos voordat dit geëet word."
+    },
+    {
+      "bewering": "Die eerste rede vir verwerking is om kos meer eetbaar te maak. Dit begin by voorbereiding: jy was, skil, sny of maal die kos. Kook gaan verder, want die hitte verander die kos self.",
+      "blok": "Kook maak kos makliker om te eet",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die navorsing oor boontjies wat sag kook (PubMed 29579956, https://www.ncbi.nlm.nih.gov/pubmed/29579956; WUR, https://edepot.wur.nl/642683): hitte en water verander self die selwande en die stysel in die kos. Was, skil, sny en maal is gewone voorbereiding."
     },
     {
       "bewering": "Rou rys en droë boontjies is te hard om te kou, maar ná die kook is hulle sag.",
       "blok": "Kook maak kos makliker om te eet",
       "status": "bevestig",
-      "bron": "FAO 'Basic facts about food preparation and processing' (fao.org/4/y5113e/y5113e04.htm) - kook verander tekstuur en eetbaarheid van graan en peulgewasse",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "PubMed 29579956 (https://www.ncbi.nlm.nih.gov/pubmed/29579956) en WUR (https://edepot.wur.nl/642683): boontjies word sag omdat die selwande tydens kook verander en die stysel in kookwater opswel (gelatineer). Vir rys het die soektog niks spesifieks opgelewer nie, maar dieselfde styselmeganisme geld, en die bewering is net dat rou rys hard is en gekookte rys sag."
     },
     {
       "bewering": "Die hitte maak ook baie kieme in rou vleis dood. Daarom is deur en deur gaar vleis veiliger.",
       "blok": "Kook maak kos makliker om te eet",
       "status": "bevestig",
-      "bron": "FoodSafety.gov 'Safe minimum internal temperatures'; Illinois Extension 'Meat safety: cooking' - deeglike gaarmaak maak Salmonella, E. coli ens. dood",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS (https://www.fsis.usda.gov/es/node/3295): rou vleis en hoender moet altyd gekook word tot 'n veilige minimum kerntemperatuur sodat skadelike bakterieë doodgemaak word. 'Baie kieme' (nie 'alle') is die korrekte, versigtige vorm."
     },
     {
-      "bewering": "Mikro-organismes is piepklein lewende dinge, en baie kos bederf omdat hulle daarin groei. Hulle verander die kos totdat dit sleg ruik, slymerig word of skimmel kry.",
+      "bewering": "Die tweede rede is om kos langer te laat hou. Mikro-organismes is piepklein lewende dinge, en baie kos bederf omdat hulle daarin groei. Hulle verander die kos totdat dit sleg ruik, slymerig word of skimmel kry.",
       "blok": "Hoekom kos bederf",
       "status": "bevestig",
-      "bron": "Microbiology Society 'What is microbiology?'; ASM 'Salt, Microbes, Acid and Heat in Food Preservation' (2024)",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS oor bederf (https://webharvest.gov/peth04/20041015025001/http://www.fsis.usda.gov/OA/FAQ/spoilage.htm): bederfbakterieë, giste en skimmels laat kos se smaak, reuk en tekstuur verswak, en dit word slymerig of skimmelrig. 'Baie kos' (nie 'alle') is korrek."
     },
     {
       "bewering": "Baie van hulle groei die vinnigste waar dit warm en nat is.",
       "blok": "Hoekom kos bederf",
       "status": "bevestig",
-      "bron": "USDA FSIS 'Danger Zone (40 F - 140 F)' - bakterieë groei die vinnigste tussen ongeveer 4 en 60 grade C en het vog nodig; 'baie van hulle' is behoorlik beperk",
-      "tipe": "superlatief"
+      "tipe": "superlatief",
+      "bron": "USDA FSIS (https://www.fsis.usda.gov/es/node/3295): bakterieë groei die vinnigste tussen 4 °C en 60 °C (die 'gevaarsone') en het voedingstowwe, vog, tyd en 'n gunstige temperatuur nodig. 'Baie van hulle' is die versigtige vorm. Dit is reg so, want party mikro-organismes groei die beste in koue of droë toestande."
     },
     {
-      "bewering": "Hulle word ook al hoe meer soos die tyd verbygaan.",
+      "bewering": "Hulle word ook al hoe meer namate die tyd verbygaan.",
       "blok": "Hoekom kos bederf",
       "status": "bevestig",
-      "bron": "USDA FSIS 'Danger Zone' - getalle kan in so min as 20 minute verdubbel",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS (https://www.fsis.usda.gov/es/node/3295): in die gevaarsone kan bakterieë in net 20 minute verdubbel, en tyd is een van die toestande vir groei."
     },
     {
-      "bewering": "Elke bewaarmetode neem iets weg wat mikro-organismes nodig het om te groei.",
+      "bewering": "Baie bewaarmetodes neem iets weg wat mikro-organismes nodig het om te groei. Droog haal die water uit die kos.",
       "blok": "Droog en sout haal die water weg",
-      "status": "weerspreek",
-      "bron": "ASM 'Salt, Microbes, Acid and Heat in Food Preservation' (2024): hitte (inmaak) maak mikro-organismes dood, en gisting VOEG suur by wat hulle keer - dit neem niks weg nie. Die les self sê in 'Amasi word voedsamer' dat gis kos bewaar omdat die suur ander mikro-organismes keer, wat hierdie sin binne dieselfde les weerspreek.",
-      "regstelling": "Die kwantor is te wyd. Beperk dit tot die metodes wat die blok werklik bespreek (droog en sout neem die water weg wat mikro-organismes nodig het), of sê 'baie bewaarmetodes'. Moenie 'elke' behou nie: gis bewaar deur suur by te voeg, en kook/inmaak bewaar deur die mikro-organismes dood te maak.",
-      "tipe": "algemeen"
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "PMC7615328 oor die verwerking van mopaniewurms (https://pmc.ncbi.nlm.nih.gov/articles/PMC7615328): as die wurms tot onder 7% vog droog word, groei mikro-organismes nog stadiger. FAO AGRIS oor wateraktiwiteit in kos (https://agris.fao.org/search/ar/records/65de2fb1b766d82b18fc78fd)."
     },
     {
       "bewering": "Baie mense kook mopaniewurms en droog hulle dan in die son sodat hulle baie langer hou.",
       "blok": "Droog en sout haal die water weg",
       "status": "bevestig",
-      "bron": "krugerpark.co.za (Kruger Park Times, 'Mopane worm Marmite'); safari.co.za 'Mopane worms'; Wikipedia 'Gonimbrasia belina' - ingewande uitgedruk, in (soutige) water gekook en in die son gedroog, dan maande lank gestoor",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Wikipedia, 'Gonimbrasia belina' (https://en.wikipedia.org/wiki/Gonimbrasia_belina): die tradisionele bewaarmetode is om die wurms in soutwater te kook en dan in die son te droog of te rook. Dit word bevestig deur PMC7615328 (https://pmc.ncbi.nlm.nih.gov/articles/PMC7615328), 'n studie oor kooktyd en droogtemperatuur, en deur die Limpopo-mikrobiologiedata (https://data.mendeley.com/datasets/ksf9z6fd5g)."
     },
     {
       "bewering": "Maar gedroogde kos kan skimmel as dit weer nat word.",
       "blok": "Droog en sout haal die water weg",
       "status": "bevestig",
-      "bron": "USDA FSIS 'Danger Zone' - mikro-organismes groei weer wanneer vog beskikbaar is; ASM 2024 (min vry water keer groei)",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Bronne oor wateraktiwiteit (https://agris.fao.org/search/ar/records/65de2fb1b766d82b18fc78fd; Scientific American, https://www.scientificamerican.com/article/ask-the-experts-2006-05): sodra kos weer water opneem, styg die wateraktiwiteit, en skimmels is van die eerstes wat dan groei. Die PMC-studie oor mopaniewurms noem dat besmetting tydens berging en vog die risiko's is."
     },
     {
-      "bewering": "Sout trek ook die water uit vis of vleis. Die meeste mikro-organismes kan nie groei waar daar soveel sout en so min water is nie.",
+      "bewering": "Sout trek ook die water uit vis of vleis.",
       "blok": "Droog en sout haal die water weg",
       "status": "bevestig",
-      "bron": "ASM 2024 ('salt dehydrates meat... reduce the amount of free water available for bacteria'); Wikipedia 'Salted fish' (osmose). 'Die meeste' is korrek, want soutliewende (halofiele) mikro-organismes bestaan.",
-      "tipe": "superlatief"
+      "tipe": "algemeen",
+      "bron": "Scientific American, 'Ask the Experts' (https://www.scientificamerican.com/article/ask-the-experts-2006-05), en FAO AGRIS oor wateraktiwiteit: deur osmose trek sout water uit die kos en uit mikrobeselle, en dit verlaag die water wat beskikbaar is."
     },
     {
-      "bewering": "In 'n vrieskas is dit so koud dat die meeste mikro-organismes ophou groei. Die koue maak baie van hulle egter nie dood nie. Hulle kan weer begin groei wanneer die kos ontdooi.",
+      "bewering": "Die meeste mikro-organismes kan nie groei waar daar soveel sout en so min water is nie.",
+      "blok": "Droog en sout haal die water weg",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Scientific American (https://www.scientificamerican.com/article/ask-the-experts-2006-05): die meeste siekmakende bakterieë groei nie onder 'n wateraktiwiteit van 0,94 nie (omtrent 10% sout), maar die meeste bederfskimmels groei tot by 0,80; bakterieë hou meestal onder omtrent 0,91 op. 'Die meeste' is dus reg, nie 'alle' nie: soutliewende bakterieë en party skimmels groei nog. Die les beweer nie dat gesoute kos nooit skimmel nie, en dit moet so bly."
+    },
+    {
+      "bewering": "Vries gebruik koue om kos te bewaar. In 'n vrieskas is dit so koud dat die meeste mikro-organismes ophou groei. Kos wat bevrore bly, hou daarom baie langer as vars kos.",
       "blok": "Vries stop die groei",
       "status": "bevestig",
-      "bron": "USDA FSIS 'Freezing and Food Safety' (via soekresultaat; die blad self het 403 teruggegee) en WSU CAHNRS 'Does freezing kill harmful bacteria' - vries by -18 grade C maak mikrobes onaktief, maak hulle nie dood nie, en ná ontdooi word hulle weer aktief",
-      "tipe": "superlatief"
+      "tipe": "superlatief",
+      "bron": "Institute of Child Nutrition se feiteblad oor ontdooiing (https://theicn.org/resources/521/food-safety-fact-sheets/107153/thawing-foods.pdf): vries keer dat die meeste bakterieë vermeerder, maar maak hulle nie dood nie. Washington State University (https://news.cahnrs.wsu.edu/?p=59977): by 0 °F (-18 °C) word mikrobes, gis en skimmel tydelik onaktief."
     },
     {
-      "bewering": "Bevrore kos hou dus baie langer, maar nie vir altyd nie.",
+      "bewering": "Die koue maak baie van hulle egter nie dood nie. Hulle kan weer begin groei wanneer die kos ontdooi.",
       "blok": "Vries stop die groei",
-      "status": "weerspreek",
-      "bron": "USDA FSIS 'Freezing and Food Safety' en FoodSafety.gov 'Cold food storage chart': 'Food stored constantly at 0 F will always be safe. Only the quality suffers' - smaak, kleur en tekstuur gaan stadig agteruit, maar mikro-organismes groei nie in die vrieskas nie.",
-      "regstelling": "Die sin self is waar oor kwaliteit, maar 'dus' koppel dit aan die vorige sin (die mikro-organismes leef nog), sodat die leerder aflei dat kos in die vrieskas uiteindelik deur mikro-organismes bederf. Dit is vals. Maak die grens duidelik: óf dat bevrore kos in die vrieskas stadig smaak en tekstuur verloor (sonder om dit aan mikro-organismes toe te skryf), óf dat die kos ná ontdooi weer net so vinnig soos vars kos bederf. Moenie die 'dus'-oorsaak behou nie.",
-      "tipe": "algemeen"
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Clemson HGIC (https://hgic.clemson.edu/factsheet/how-to-thaw-food-safely/): vries maak mikro-organismes nie dood nie. WSU (https://news.cahnrs.wsu.edu/?p=59977): wanneer kos ontdooi, kan bakterieë weer groei en vermeerder. Volgens 'n USDA-studie (MDedge) het 'n deel van C. jejuni, nie almal nie, die vries oorleef, en daarom is 'baie van hulle' die korrekte vorm."
+    },
+    {
+      "bewering": "Die derde rede is om die voedingswaarde van kos te verbeter.",
+      "blok": "Amasi word voedsamer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Die verbetering van voedingswaarde word algemeen as een van die doele van voedselverwerking erken (onder meer deur gis, wat proteïene, vette en laktose deels afbreek en verteerbaarheid verhoog: PubMed 536481, https://pubmed.ncbi.nlm.nih.gov/536481/). Die bewering is net dat dit 'n rede is. Of amasi self voedsamer as melk is, word apart hieronder behandel."
     },
     {
       "bewering": "In baie Suid-Afrikaanse gemeenskappe laat mense al lank melk staan totdat dit amasi word.",
       "blok": "Amasi word voedsamer",
       "status": "bevestig",
-      "bron": "'Processing, nutritional composition and microbiology of amasi: A Southern African fermented milk product', Scientific African (ScienceDirect, 2021) - tradisioneel in kalbasse of velsakke laat staan om te gis; Zulu- en Xhosa-gemeenskappe; Beukes et al., 'The microbiology of South African traditional fermented milks', Int J Food Microbiol",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Universiteit van Johannesburg, 'Processing, nutritional composition and microbiology of amasi: A Southern African fermented milk product' (https://pure.uj.ac.za/en/publications/processing-nutritional-composition-and-microbiology-of-amasi-a-so/): amasi is 'n tradisionele Suider-Afrikaanse gegiste melkproduk wat gewoonlik tuis van ongepasteuriseerde melk gemaak word. 'n Oorsig oor tradisionele Afrikagegiste melk (PMC7667141, https://pmc.ncbi.nlm.nih.gov/articles/PMC7667141): rou melk word tradisioneel by kamertemperatuur spontaan laat gis."
     },
     {
-      "bewering": "Nuttige mikro-organismes groei in die melk en laat dit gis totdat dit dik en suur is. Hulle het 'n deel van die melk se suiker opgebruik.",
+      "bewering": "Nuttige mikro-organismes groei in die melk en laat dit gis totdat dit dik en suur is.",
       "blok": "Amasi word voedsamer",
       "status": "bevestig",
-      "bron": "Amasi-oorsig, Scientific African 2021 (ScienceDirect) - melksuurbakterieë verander laktose in melksuur, so amasi het minder laktose as vars melk",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "DUT-meestersverhandeling oor amasi (https://ir.dut.ac.za/handle/10321/3612): melksuurbakterieë vorm 87% tot 99,8% van die bevolking in tradisionele amasi, veral Leuconostoc- en Lactococcus-spesies. Die melksuur maak die melk suur en dik. Die verhandeling waarsku wel dat spontaan gegiste rou melk ook ander bakterieë kan bevat, maar die les beweer nie dat net nuttige bakterieë daarin is nie."
     },
     {
-      "bewering": "Baie mense wat melk sleg verteer, verteer amasi daarom makliker.",
+      "bewering": "Hulle het 'n deel van die melk se suiker opgebruik. Baie mense wat melk sleg verteer, verteer amasi daarom makliker.",
       "blok": "Amasi word voedsamer",
       "status": "bevestig",
-      "bron": "Amasi-oorsig, Scientific African 2021 ('generally tolerated by lactose-intolerant people'); Nutrition Reviews 79(5), 'Yogurt, cultured fermented milk, and health: a systematic review' (gegiste melk met lewende kulture verbeter laktosevertering)",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Tydens gisting skakel melksuurbakterieë omtrent 20% tot 30% van die laktose om. Mense wat laktose sleg verteer, verdra gegiste melk beter as gewone melk: Renner-oorsig, 'Nutritional aspects of fermented milk products' (https://paperity.org/p/89115235/nutritional-aspects-of-fermented-milk-products), en 'n kefir-proef (PubMed 12728216, https://pubmed.ncbi.nlm.nih.gov/12728216/). Voorbehoud: dieselfde oorsig sê dat die laer laktose net deels die rede is. Die hooffaktor is die laktase in die lewende kulture wat in die derm help. 'Daarom' gee dus net een van die redes, maar die rigting is reg. Geen kliniese studie spesifiek oor amasi is gevind nie; die bevinding geld vir gegiste melk in die algemeen."
     },
     {
-      "bewering": "Die derde rede is om die voedingswaarde van kos te verbeter. (opskrif: Amasi word voedsamer)",
+      "bewering": "Amasi word voedsamer (die blokopskrif, saam met die blok se raamwerk dat amasi die voorbeeld is van gis wat die voedingswaarde verbeter)",
       "blok": "Amasi word voedsamer",
-      "status": "bevestig",
-      "bron": "FEMS Microbiology Reviews 3(3), 'Nutritional aspects of fermented milk products'; PMC11225442, 'A review of fermented milks' - melksuurkulture maak party B-vitamiene en maak melk makliker verteerbaar",
-      "tipe": "algemeen"
+      "status": "onseker",
+      "tipe": "algemeen",
+      "bron": "Die bronne verskil oor of gegiste melk in die algemeen voedsamer as melk is. Volgens 'n oorsig van 1979 (PubMed 536481, https://pubmed.ncbi.nlm.nih.gov/536481/) maak party kulture B-vitamiene en is gegiste melk makliker verteerbaar. 'n Turkse oorsig van 1986 (https://www.eurasianjvetsci.org/summary_en.php3?id=909) noem dit 'meer voedsaam' by omtrent dieselfde energie. Die FEMS-oorsig van 1987 (https://paperity.org/p/89115235/nutritional-aspects-of-fermented-milk-products) meld egter dat vitamiene in die algemeen effens LAER is, met moontlik foliensuur as uitsondering. Die les se eie bewys gaan net oor makliker vertering vir mense wat melk sleg verteer, en die bakterieë het juis 'n deel van die suiker (energie) opgebruik. Die opskrif sê sonder voorbehoud dat amasi voedsamer word. Die bewese deel is smaller: amasi is makliker verteerbaar, veral vir baie mense wat melk sleg verteer. 'n Mens moet besluit of die opskrif tot daardie bewese voordeel vernou word, en of daardie voordeel as 'beter voedingswaarde' gestel mag word. Die KABV-punt self stel gis as 'n verbetering van voedingswaarde."
     },
     {
       "bewering": "Die suur keer ook dat baie ander mikro-organismes in die amasi groei. So help gis ook om kos te bewaar.",
       "blok": "Amasi word voedsamer",
       "status": "bevestig",
-      "bron": "ASM 2024 ('The lactic acid produced by LAB lowers the pH... and helps keep pathogenic microbes at bay'); amasi-oorsig, Scientific African 2021",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Melksuurbakterieë maak organiese sure, waterstofperoksied en bakteriosiene wat as natuurlike bewaarmiddels werk en die rakleeftyd verleng (Preprints.org 202307.1166, https://www.preprints.org/manuscript/202307.1166). 'n Oorsig oor tradisionele Afrikagegiste melk (PMC7667141) noem gisting as 'n tradisionele manier om melk te bewaar. 'Baie ander' (nie 'alle') is die korrekte vorm."
     },
     {
-      "bewering": "Vitamiene is voedingstowwe wat jou liggaam help om gesond te bly. Hitte breek party vitamiene soos vitamien C af. Party vitamiene los ook in die kookwater op.",
+      "bewering": "Vitamiene is voedingstowwe wat jou liggaam help om gesond te bly.",
       "blok": "Wat verwerking kan kos",
       "status": "bevestig",
-      "bron": "PMC8791706, 'Effect of cooking method on vitamin C losses... Western Uganda' (vitamien C is hittegevoelig en wateroplosbaar); ScienceDirect LWT 2023, 'Relative role of leaching and chemical degradation in the loss of water-soluble vitamins C and B9'",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "NIDDK, 'Your Digestive System and How It Works' (https://niddk.nih.gov/-/media/08630621449145C8A3B90E38538E38CD.ashx): vitamiene is een van die soorte voedingstowwe wat die liggaam uit kos kry en vir groei en selherstel gebruik."
     },
     {
-      "bewering": "Jy verloor meer as jy groente lank in baie water kook en die water weggooi. Die opgeloste vitamiene gaan dan saam met die water weg.",
+      "bewering": "Hitte breek party vitamiene soos vitamien C af. Party vitamiene los ook in die kookwater op.",
       "blok": "Wat verwerking kan kos",
       "status": "bevestig",
-      "bron": "PMC8791706; LWT 2023 (uitloging in kookwater is 'n hoofoorsaak van verlies); Healthline 'cooking nutrient content' (stoom behou meer as kook)",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Healthline, 'How cooking affects the nutrient content of food', en Vinmec (https://vinmec.com/eng/article/how-cooking-affects-the-nutrient-content-of-food-en): vitamien C is hittegevoelig, en wateroplosbare vitamiene (C en die B-vitamiene) loog in die kookwater uit. 'Party vitamiene' is korrek: vetoplosbare vitamiene los nie in water op nie."
     },
     {
-      "bewering": "Die doel is een van drie: eetbaarder kos, kos wat langer hou of voedsamer kos.",
-      "blok": "Kies die metode vir die doel",
-      "status": "weerspreek",
-      "bron": "Virginia Tech Extension FST-326 'Why are foods processed?' en FAO 'Basic facts about food preparation and processing' - kos word ook verwerk vir gerief (klaar gesny, kitskos), smaak en verskeidenheid, nie net om die drie redes nie.",
-      "regstelling": "Moenie die lys as volledig voorstel nie. Die drie redes is die hoofredes wat die les bespreek; sê dit so (byvoorbeeld 'gewoonlik een van drie hoofredes'), sonder om te beweer dat daar geen ander doel is nie.",
-      "tipe": "algemeen"
+      "bewering": "Jy verloor meer wanneer jy groente lank in baie water kook en die water weggooi. Die opgeloste vitamiene gaan dan saam met die water weg.",
+      "blok": "Wat verwerking kan kos",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vinmec en Healthline (https://vinmec.com/eng/article/how-cooking-affects-the-nutrient-content-of-food-en): kook kos die meeste vitamien C van al die kookmetodes, en broccoli en spinasie kan meer as 50% daarvan verloor. As die kookvloeistof gebruik word, bly tot 15% meer vitamien C en foliensuur behou. Die raad is min water en kort kooktye."
     },
     {
-      "bewering": "Gis wys dat een metode meer as een rede kan dien. Kook maak vleis veiliger, maar groente in die pot kan vitamien C verloor.",
+      "bewering": "Gewoonlik is dit een van die drie hoofredes: eetbaarder kos, kos wat langer hou of voedsamer kos.",
       "blok": "Kies die metode vir die doel",
       "status": "bevestig",
-      "bron": "ASM 2024 (gisting bewaar); FEMS Microbiol Rev 3(3) (gisting verbeter voedingswaarde); FoodSafety.gov (gaar vleis veiliger); PMC8791706 (verlies van vitamien C)",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Hierdie bewering herhaal die drie redes van die KABV-punt self (eetbaarheid, bewaring, voedingswaarde), en elkeen word hierbo met 'n bron gestaaf (USDA FSIS oor kook, Clemson/ICN oor bewaring, PubMed 536481 oor verteerbaarheid). Die voorbehoud by die onseker item oor 'voedsamer' geld ook hier."
+    },
+    {
+      "bewering": "Gis wys dat een metode meer as een doel kan dien.",
+      "blok": "Kies die metode vir die doel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Gegiste melk is makliker verteerbaar (Renner-oorsig, paperity.org) en word deur melksuur bewaar (Preprints.org 202307.1166). Selfs al word 'voedsamer' vernou, dien gis steeds twee doele: verteerbaarheid en bewaring."
+    },
+    {
+      "bewering": "Kook maak vleis veiliger, maar groente in die pot kan vitamien C verloor. 'n Goeie keuse weeg wat jy wen teen wat jy verloor.",
+      "blok": "Kies die metode vir die doel",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "USDA FSIS (https://www.fsis.usda.gov/es/node/3295) oor die kook van vleis tot 'n veilige kerntemperatuur; Vinmec en Healthline oor die verlies van vitamien C in kookwater."
     },
     {
       "bewering": "voedselverwerking: Alles wat mense aan kos doen om dit te verander voordat hulle dit eet.",
-      "blok": "begrip: voedselverwerking",
+      "blok": "voedselverwerking",
       "status": "bevestig",
-      "bron": "EUFIC 'What is processed food?'; Harvard Nutrition Source 'Processed foods and health' - enige verandering vanaf die toestand by oes, insluitend was, sny en kook",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Dit stem ooreen met die gangbare betekenis van 'food processing' as enige verandering wat mense aan kos maak voordat dit geëet word, van was en sny tot kook en gis. Die les se voorbeelde (maal, kook, gis, droog, sout, vries) val almal daaronder (bronne by die items hierbo)."
     },
     {
       "bewering": "verwerkte voedsel: Kos wat mense verander het voordat ons dit eet, soos deur dit te kook, te droog of iets by te voeg.",
-      "blok": "begrip: verwerkte voedsel",
+      "blok": "verwerkte voedsel",
       "status": "bevestig",
-      "bron": "EUFIC 'What is processed food?'; Harvard Nutrition Source (Academy of Nutrition and Dietetics-definisie: was, maal, kook, vries, droog, meng, ens.)",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Dit stem ooreen met die omskrywing van voedselverwerking hierbo. Kook, droog en byvoeging (soos sout by mopaniewurms of vleis: Wikipedia 'Gonimbrasia belina'; Scientific American) is erkende verwerkingsmetodes."
     },
     {
       "bewering": "bewaar: Om kos so te verwerk dat dit langer hou voordat dit bederf.",
-      "blok": "begrip: bewaar",
+      "blok": "bewaar",
       "status": "bevestig",
-      "bron": "Britannica 'Food preservation'; Virginia Tech FST-326",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "Dit stem ooreen met die bronne oor droog, sout en vries hierbo (Clemson HGIC, ICN, Scientific American), wat elkeen die doel beskryf om te keer dat mikro-organismes kos laat bederf."
     },
     {
       "bewering": "bederf: Wanneer kos oud raak en sleg ruik, slymerig word of skimmel kry.",
-      "blok": "begrip: bederf",
+      "blok": "bederf",
       "status": "bevestig",
-      "bron": "ASM 2024; USDA FSIS 'Danger Zone' (bederforganismes veroorsaak reuk-, tekstuur- en skimmelveranderinge). Die voorbeelde is 'n onvolledige maar nie vals lys nie.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "USDA FSIS oor bederf (https://webharvest.gov/peth04/20041015025001/http://www.fsis.usda.gov/OA/FAQ/spoilage.htm): bederf verander die reuk, smaak en tekstuur, en die kos raak slymerig of skimmel. Kanttekening, nie 'n fout nie: FSIS sê ook dat kos wat siekmakend is, nog heeltemal goed kan lyk en ruik. Die les stel nêrens dat kos wat nie sleg ruik nie, veilig is nie. Dit moet so bly."
     },
     {
       "bewering": "mikro-organisme: 'n Lewende ding wat so klein is dat 'n mens dit net deur 'n mikroskoop kan sien.",
-      "blok": "begrip: mikro-organisme",
+      "blok": "mikro-organisme",
       "status": "bevestig",
-      "bron": "Microbiology Society 'What is microbiology?' ('too small to be seen with the naked eye'); NCBI Bookshelf NBK562894",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "NIDDK-woordeboek, 'microorganisms' (https://www.niddk.nih.gov/dictionary/m/microorganisms): 'n organisme wat te klein is om sonder 'n mikroskoop te sien. LibreTexts Microbiology (https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Bruslind)/01%3A_Introduction_to_Microbiology): 'n swamkolonie kan met die blote oog sigbaar wees as baie selle saamkom. Dit pas by die les se 'skimmel kry', want die enkele organisme bly mikroskopies."
     },
     {
       "bewering": "kieme: Baie klein lewende dinge wat 'n mens siek kan maak.",
-      "blok": "begrip: kieme",
+      "blok": "kieme",
       "status": "bevestig",
-      "bron": "Microbiology Society; NCBI NBK562894 (mikrobes sluit bakterieë, swamme en protiste in, waarvan party siektes veroorsaak). Of virusse 'lewend' is, word betwis; die woord 'lewend' volg die leerplan se raamwerk en die definisie beweer niks oor elke kiem nie.",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "NIDDK-woordeboek (https://www.niddk.nih.gov/dictionary/m/microorganisms): bakterieë, swamme en protosoë, wat die kieme is waarna hierdie les verwys (in rou vleis), is lewende mikro-organismes wat siekte kan veroorsaak. Voorbehoud vir 'n mens om te sien: NIDDK meld dat virusse, wat ook as kieme tel, gewoonlik nie as lewend beskou word nie. Die omskrywing is waar vir die kieme in hierdie les, maar 'n les wat later virusse 'kieme' noem, sou dit oorspan."
     },
     {
       "bewering": "gis: Wanneer nuttige mikro-organismes in kos groei en die kos stadig verander.",
-      "blok": "begrip: gis",
+      "blok": "gis",
       "status": "bevestig",
-      "bron": "ASM 2024 (melksuurbakterieë en giste verander suikers in suur en koolstofdioksied); amasi-oorsig, Scientific African 2021",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "DUT-verhandeling (https://ir.dut.ac.za/handle/10321/3612) en Wikipedia 'Mageu': in amasi en mageu groei melksuurbakterieë oor ure tot dae en verander hulle die kos (suur, dik). Die omskrywing is 'n vereenvoudiging, want dit noem nie suiker wat na suur, alkohol of gas omgeskakel word nie, maar dit is nie vals nie."
     },
     {
       "bewering": "voedingstof: 'n Stof wat 'n lewende ding nodig het om te groei en gesond te bly. Party voedingstowwe in kos gee ook energie.",
-      "blok": "begrip: voedingstof",
+      "blok": "voedingstof",
       "status": "bevestig",
-      "bron": "FAO 1.2 'Food security, nutrition and health' (fao.org/4/w6864e/w6864e06.htm) - voedingstowwe vir groei en gesondheid; koolhidrate, vette en proteïene lewer energie, vitamiene nie",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "NIDDK, 'Your Digestive System and How It Works' (https://niddk.nih.gov/-/media/08630621449145C8A3B90E38538E38CD.ashx): voedingstowwe (koolhidrate, proteïene, vette, vitamiene) word vir energie, groei en selherstel gebruik. 'Party gee energie' is korrek, want vitamiene gee nie energie nie."
     },
     {
       "bewering": "verteer: Wanneer jou liggaam kos afbreek sodat dit die kos kan gebruik.",
-      "blok": "begrip: verteer",
+      "blok": "verteer",
       "status": "bevestig",
-      "bron": "FEMS Microbiol Rev 3(3) en PMC11225442 (vertering as afbreek van proteïene, vette en laktose voor opname)",
-      "tipe": "algemeen"
+      "tipe": "algemeen",
+      "bron": "NIDDK, 'Your Digestive System and How It Works' (https://niddk.nih.gov/-/media/08630621449145C8A3B90E38538E38CD.ashx): vertering breek kos af in voedingstowwe wat die liggaam vir energie, groei en selherstel gebruik."
     }
   ],
-  "opsomming": "Drie sinne sê meer as wat waar is: 'elke bewaarmetode neem iets weg' word deur die les se eie gis-voorbeeld (en deur kook) weerspreek; 'dus ... nie vir altyd nie' laat die leerder dink bevrore kos bederf in die vrieskas deur mikro-organismes, terwyl kos wat konstant by -18 grade C bly, veilig bly en net in kwaliteit agteruitgaan; en 'die doel is een van drie' stel die drie redes as 'n volledige lys voor, wat dit nie is nie - die res van die les, insluitend mageu, mopaniewurms en amasi, is bevestig."
+  "opsomming": "Elke bewering is bevestig behalwe een: die opskrif 'Amasi word voedsamer' sê sonder voorbehoud dat amasi voedsamer as melk word, terwyl die bronne daaroor verskil (vitamiene is volgens een oorsig effens laer) en die les se eie bewys net makliker vertering vir mense wat melk sleg verteer, toon - 'n mens moet besluit of dit vernou word; die les bevat geen analogieë nie, en die oortreffende vorme ('die meeste', 'die vinnigste') is almal korrek versag."
 }

@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Begin by die probleem",
+      "voor": "beheer wanneer dit werk",
+      "na": "beheer wanneer die toestel werk",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' most naturally points back to 'die pad', which does not 'work'; naming the device the switch controls removes the ambiguity.",
+      "fout": "'dit' has no clear antecedent: the nearest noun is 'die pad', which does not work, and it could also be read as the circuit or the device.",
+      "rede_keurder": "Naming the device fixes an ambiguous pronoun without adding a fact or changing the claim, since the switch controls when the device works, and the sentence stays whole."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Ses stelsels wat elke dag probleme oplos",
+      "voor": "hulle maak 'n kamer warm op 'n koue dag",
+      "na": "hulle maak 'n kamer op 'n koue dag warm",
+      "soort": "woordorde",
+      "rede_vinder": "In standard Afrikaans the adverbial phrase comes before the predicate complement 'warm', which closes the sentence with the verb group.",
+      "fout": "none",
+      "rede_keurder": "Putting the time phrase after 'warm' is normal, natural Afrikaans, so moving it is a sideways change that makes the list item no easier to read."
+    },
+    {
+      "nr": 3,
+      "blok": "'n Skakelaar sonder 'n hand",
+      "voor": "vastehand-spel",
+      "na": "vastehandspel",
+      "soort": "spelling",
+      "rede_vinder": "AWS writes compounds as one word; no vowel clash or readability need justifies the hyphen here.",
+      "fout": "none",
+      "rede_keurder": "The AWS lets a three-part compound take a hyphen at its main break to make it easier to read, and 'vastehand-spel' helps a Grade 6 reader see the game's name, so the original is not a fault."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 544,
+  "woorde_na": 545,
+  "wanneer": "2026-10-28T10:13:00+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Ses stelsels wat elke dag probleme oplos",
+      "voor": "mense kan in die nag sien",
+      "na": "mense kan snags sien",
+      "soort": "idioom",
+      "rede_vinder": "'snags' is the natural Afrikaans adverb; 'in die nag' is stiff here.",
+      "fout": "none",
+      "rede_keurder": "'in die nag' is plain, natural Afrikaans; 'snags' is a lateral move."
+    },
+    {
+      "nr": 10,
+      "blok": "'n Skakelaar sonder 'n hand",
+      "voor": "is deel van een stroombaan",
+      "na": "is deel van dieselfde stroombaan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'dieselfde' makes clear that the loop and the wire share one circuit; 'een' can read as 'a circuit'.",
+      "fout": "none",
+      "rede_keurder": "'een stroombaan' already says the loop and wire share one circuit; 'dieselfde' is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:5b1daee3c5457cf6bbdf834f9b5390bc",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:bf7e030672ea6615f59feec720d8a6d7"
+}

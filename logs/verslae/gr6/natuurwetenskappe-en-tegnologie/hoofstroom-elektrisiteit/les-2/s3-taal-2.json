@@ -1,0 +1,88 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Hoe ons energie kan bespaar",
+      "voor": "'n Ander manier is 'n sonkragwaterverwarmer op die dak.",
+      "na": "'n Ander manier is om 'n sonkragwaterverwarmer op die dak te gebruik.",
+      "soort": "sinsbou",
+      "rede_vinder": "A way of saving is an action, not an object; this matches the sentence 'Een manier is om energiebesparende gloeilampe te gebruik' that the writer kept from the previous round.",
+      "fout": "A way of saving energy is equated with an object ('n Ander manier is 'n sonkragwaterverwarmer), the same fault already fixed in the sibling sentence 'Een manier is om energiebesparende gloeilampe te gebruik'.",
+      "rede_keurder": "It fixes a real category slip and restores parallelism with the sentence the writer kept from the last round, at a cost of three words, and the next sentence's 'Dit' still clearly points to the water heater."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "voor": "Dit vra baie energie om iets warm te maak, veral water. Dit vra baie meer energie as om lig of klank te maak.",
+      "na": "Om iets warm te maak, veral water, vra baie meer energie as om lig of klank te maak.",
+      "soort": "sinsbou",
+      "rede_vinder": "Two consecutive sentences open with the same 'Dit vra baie ... energie' frame; one sentence says the same comparison without the wooden repetition.",
+      "fout": "none",
+      "rede_keurder": "The repeated 'Dit vra baie energie ... Dit vra baie meer energie' is a clear two-step build for a Grade 6 reader, and the merge drops the stand-alone claim and buries 'veral water' as an aside inside a heavier comparison, so it is a lateral move that also shifts what 'veral water' attaches to."
+    },
+    {
+      "nr": 3,
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "voor": "'n substasie in 'n kas wat in baie strate staan",
+      "na": "'n substasie in 'n kas, en sulke kaste staan in baie strate",
+      "soort": "verwysing",
+      "rede_vinder": "As written, the relative clause says one box stands in many streets; splitting it keeps the protected wordings 'n substasie in 'n kas' and 'in baie strate' intact and fixes the reference (AWS comma before 'en' joining two full clauses).",
+      "fout": "none",
+      "rede_keurder": "The generic 'n ... wat in baie strate staan' is normal Afrikaans for describing a kind of thing and no reader takes it as one box in many streets, so splitting it only adds words to a lesson already over budget."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 541,
+  "woorde_na": 544,
+  "wanneer": "2026-10-28T10:43:43+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 6,
+      "blok": "Hoe lank dit aan is, tel ook",
+      "voor": "Die meeste van Suid-Afrika se elektrisiteit",
+      "na": "Die grootste deel van Suid-Afrika se elektrisiteit",
+      "soort": "anglisisme",
+      "rede_vinder": "'Die meeste van' with an uncountable noun follows English 'most of'; 'die grootste deel van' is the natural Afrikaans and keeps the quantifier.",
+      "fout": "none",
+      "rede_keurder": "'Die meeste van' with a mass noun is normal Afrikaans, and swapping a quantifier is a lateral move with meaning risk."
+    },
+    {
+      "nr": 9,
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "voor": "van die verskaffer van elektrisiteit",
+      "na": "van die elektrisiteitsverskaffer",
+      "soort": "woordkeuse",
+      "rede_vinder": "The compound avoids the clumsy chain of two 'van' phrases; the protected opening of the sentence is untouched.",
+      "fout": "none",
+      "rede_keurder": "The original is clear, and a 24-letter compound is harder for a Grade 6 reader and risks the word-length gate."
+    },
+    {
+      "nr": 10,
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "voor": "as iets verkeerd loop nie",
+      "na": "as iets verkeerd gaan nie",
+      "soort": "idioom",
+      "rede_vinder": "'Verkeerd gaan' is the standard idiom; 'verkeerd loop' is colloquial.",
+      "fout": "none",
+      "rede_keurder": "'As iets verkeerd loop' is standard Afrikaans, so the swap is lateral."
+    },
+    {
+      "nr": 12,
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "voor": "sê dadelik vir 'n grootmens",
+      "na": "sê dit dadelik vir 'n grootmens",
+      "soort": "grammatika",
+      "rede_vinder": "'Sê' needs an object here; 'sê dit' is the natural form and keeps the instruction unchanged.",
+      "fout": "none",
+      "rede_keurder": "'Se dadelik vir 'n grootmens' is natural Afrikaans, and this is a safety instruction whose checked wording should stay."
+    }
+  ],
+  "konsep_hash_voor": "sha256:1d7f1d1998374222cc225555f2359cbd",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a3d9351e1e9ef6f9b16d574169fbc0b1"
+}

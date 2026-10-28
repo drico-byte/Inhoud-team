@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-168 lesse.
+193 lesse.
 
 
 ## Graad 4/Lewensvaardighede/Gesondheids- en omgewingsverantwoordelikheid
@@ -322,6 +322,85 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 03 - Wat jy kan, wat jy graag doen, en wat jy kan word** (goedgekeur 2026-10-22): 9 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: 'Identifiseer eie potensiaal' - 'n nuwe blok 'Tekens van jou potensiaal' gee twee tekens (jy word beter as jy oefen; iets wat jy met hulp kan doen maar nog nie alleen nie), sonder 'n belofte oor wat jy sal word; KABV-gaping: Taal: nege regstellings, onder meer 'na vore kom', 'mettertyd', 'van die tyd vergeet' en ''n verskil'
 - **Les 05 - Wanneer die groep druk** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: Net die taalstap (geen KABV-gaping nie): nege taalregstellings, onder meer 'uitgelaat', 'oor die foon', 'saamlag' en die AWS-komma; KABV-gaping: Groepsdruk se omskrywing begin nou met 'n selfstandige naamwoord ('Die druk wat mense van jou ouderdom op jou sit ...')
 
+## Graad 6/Natuurwetenskappe en Tegnologie/Bewegings van die Aarde en planeete
+
+- **Les 01 - Dag, nag en 'n jaar** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: Feite: 'die meeste' planete draai hul kante om die beurt na die Son (nie Uranus nie)
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Die beweging van die Maan
+
+- **Les 01 - Die Maan draai en wentel** (goedgekeur 2026-10-28): 5 taalverandering(s) toegepas
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Die Sonnestelsel
+
+- **Les 01 - Die Son se agt planete en hul bure** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Taal: ''n Planeet moet swaar genoeg wees, maar dit hoef nie 'n bepaalde grootte te hê nie'
+- **Les 02 - Die Maan skyn met die Son se lig** (goedgekeur 2026-10-28): 4 taalverandering(s) toegepas
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Ekostelsels en voedselwebbe
+
+- **Les 01 - Een plek, baie dele** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feite: 'mossels' (nie 'klipmossels', wat geen gevestigde naam is nie)
+- **Les 02 - Wanneer kettings 'n web word** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: Feite: 'In die see is baie van die produsente alge' (die bewering oor wat graad 5 geleer het, is uit); KABV-gaping: Eerste volledige toets van Drico se 'hoofsaaklik ... vleis'-beslissing
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Elektriese geleiers en nie-geleiers
+
+- **Les 01 - Koper binne, plastiek buite** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: Taal: 'Die drade raak net aan die buitekant van die materiaal'
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Elektriese stroombane
+
+- **Les 01 - Die stroombaan aan, af en op papier** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feite: die kontras 'die elektrisiteit self loop die hele kring om' is uit; KABV-gaping: Gedeelde omskrywing 'toestel' begin nou 'In 'n stroombaan:'
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Fotosintese
+
+- **Les 01 - Die plant maak suiker en bêre stysel** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feite: kaas net as 'gewone blokkaas' (kaasskywe en gerasperde kaas het dikwels bygevoegde stysel); KABV-gaping: Feite: die jodiumtoets wys waar 'n plant kos AS STYSEL gestoor het (nie alle gestoorde kos nie, soos olie); KABV-gaping: Feite: die vergelyking met glukoselekkers uitgehaal; 'Glukose smaak soet'
+- **Les 02 - Die gasse tussen plante en diere** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Taal: opskrif 'Plante en diere hang deur die lug van mekaar af'
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Hoofstroom elektrisiteit
+
+- **Les 01 - Van ou moerasplante tot by jou TV** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: fossielbrandstowwe het uit plante en diere gevorm; steenkool net uit plante; KABV-gaping: Feite: 'steenkool' is 'n donker klip, die meeste swart en hard (bruinkool is sag en bruin); KABV-gaping: Feite: die bewerings oor wat graad 5 geleer het, is uit
+- **Les 02 - Wat elektrisiteit kos, en waar dit onveilig word** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Veiligheid (feitetoets): 'n onwettige verbinding is aan kraglyne OF 'n mini-substasie; geen kleur vir die kas nie; KABV-gaping: Feite: 'substasie' het 'groot masjiene' (nie 'toestelle' nie); 'toestel' begin 'In 'n stroombaan:'
+- **Les 03 - Elektrisiteit uit son, wind en water** (goedgekeur 2026-10-28): 4 taalverandering(s) toegepas; KABV-gaping: Taal: 'n sonpaneel maak snags geen elektrisiteit nie; op 'n bewolkte dag minder as in helder sonlig (twee sinne)
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Mengsels en water hulpbronne
+
+- **Les 01 - Wat alles in ons water beland** (goedgekeur 2026-10-28): 5 taalverandering(s) toegepas; KABV-gaping: Feite: 'wateroordraagbare siekte' vernou tot kieme (gedeelde omskrywing); KABV-gaping: Feite: 'Olie los nie in water op nie en bly apart as 'n laag' (nie 'meng nie')
+- **Les 02 - Wat 'n vleiland vir water doen** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feite: 'n vleiland haal 'n deel 'onder andere op twee maniere' uit (modder hou ook party stowwe vas)
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Mengsels
+
+- **Les 01 - Meng dit, en haal dit weer uitmekaar** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feite: by brood kom die bestanddele nie weer uitmekaar nie; by beton word sand en klippe net vasgeplak; KABV-gaping: Feite: opskrif 'Soorte mengsels' (die blok noem vier soorte saam met lug); KABV-gaping: Feite: die lys eienskappe wat elke deel hou, is uit; net die voorwaarde (net gemeng, niks anders gebeur) met kleur as voorbeeld; KABV-gaping: Taal: 'saamgemeng' (gedeelde omskrywing); 'op hierdie maniere' wat vorentoe verwys het, is uit
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Oplossing
+
+- **Les 01 - Warm, roer en fyn vinniger oplos** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping (besluit 2): een uitgewerkte voorbeeld van 'n tabel en 'n staafgrafiek met uitgedinkte oplostye; die kortste staaf wys die vinnigste oplos; begrip 'staafgrafiek' soos in Graad 5; KABV-gaping: Taal: die regverdige toets se stappe in volgorde
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Oplossings as spesiale mengsels
+
+- **Les 01 - Oplos of nie oplos nie** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: Taal: 'saamgemeng' in die beskermde sin; 'In 'n ondersoek'
+- **Les 02 - Die sout kom terug** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas; KABV-gaping: Feite: die telling van skeimetodes is uit (jaarles 9 leer vyf); KABV-gaping: Feite: die sin oor wat 'herwin' beteken, is uit; 'herwin (terugkry)' bly; KABV-gaping: Feite: helderheid gaan oor die opgeloste sout self (party tafelsout se middel teen klonte los nie op nie); KABV-gaping: Feite: 'te klein om te sien' is nie meer die rede vir helderheid nie
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Stelsels om 'n probleem op te los
+
+- **Les 01 - Van 'n probleem tot 'n stroombaan** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Taal: 'By party stelsels word die stroombaan aangeskakel deur iets wat gebeur' (geen 'toe' nie); KABV-gaping: Gedeelde omskrywing 'toestel' begin nou 'In 'n stroombaan:'
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Stelsels vir die ruimte
+
+- **Les 01 - Kyk van ver af, ry op die Maan en Mars** (goedgekeur 2026-10-28): 4 taalverandering(s) toegepas; KABV-gaping: Taal: 'Jou klas toets met 'n model-rover'
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Vaste stowwe, vloeistowwe en gasse
+
+- **Les 01 - Die piepklein deeltjies in alles** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Feite: nie meer dat 'n tekening dieselfde getal deeltjies wys en 'net die rangskikking' verskil nie; 'n stof se deeltjies bly ewe veel en ewe groot wanneer sy toestand verander
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Verwerking van om water skoon te maak
+
+- **Les 01 - Helder water is nog nie veilige water nie** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: Taal: opskrif 'Twee verskillende take'; 'volgens die aanwysings op die pakkie'; 'kieme' sonder 'die'
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Voedingstowwe in voedsel
+
+- **Les 01 - Wat in jou kos is en wat dit vir jou doen** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; KABV-gaping: Kruisles-ooreenstemming met Voedingstowwe 1: groepe volgens die vernaamste voedingstof; elke kos in die een groep waar die lys dit plaas ('goeie bron van' as sorteerreël is uit); wat elke groep in die liggaam doen, bly
+
 ## Graad 6/Natuurwetenskappe en Tegnologie/Voedingstowwe
 
 - **Les 01 - Van alles, in die regte hoeveelhede** (goedgekeur 2026-10-22): 3 taalverandering(s) toegepas; KABV-gaping: Feitetoets: 'tekortsiekte' is te min van een of meer voedingstowwe; die vier groepe is volgens die vernaamste voedingstof, nie volgens wat elke soort in die liggaam doen nie
+
+## Graad 6/Natuurwetenskappe en Tegnologie/Voedselverwerking
+
+- **Les 01 - Hoekom ons kos kook, droog en laat gis** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feite: opskrif 'Amasi is vir baie mense makliker om te verteer' (nie 'voedsamer' nie)

@@ -1,0 +1,21 @@
+{"prompt_weergawe": "taalkeurder-v1.3",
+ "besluite": [
+  {"nr": 1, "besluit": "HOU",
+   "fout": "Two instances of 'hulle' in one sentence point to different things: the pumpkin leaves, then 'baie blare'.",
+   "rede": "Naming the pumpkin leaves removes the pronoun clash without adding a fact, and the protected 'Baie blare is plat en breed' stays intact."},
+  {"nr": 2, "besluit": "HOU",
+   "fout": "The light 'gives energy that usually comes from sunlight' reads as circular and stacks two relative clauses.",
+   "rede": "The split says plainly that the light is usually sunlight, keeps 'gewoonlik' and the energy role, and leaves the protected sentences around it untouched."},
+  {"nr": 3, "besluit": "HOU",
+   "fout": "A comma before 'en' between parts of one sentence, against the AWS 2017, and a clumsy repeated 'in hulle'.",
+   "rede": "One plain list names the same four parts and reads more smoothly, with nothing added or lost."},
+  {"nr": 4, "besluit": "HOU",
+   "fout": "'groei op die stysel' copies English 'grows on' and can be read as 'opgroei' or as growing on top of the starch.",
+   "rede": "The proposal says the same thing (the seedling lives on the seed's starch until its leaves open) in natural, unambiguous Afrikaans."},
+  {"nr": 5, "besluit": "HOU",
+   "fout": "'oopgaan' is a loose verb for new leaves unfolding.",
+   "rede": "'oopvou' is the more exact, natural verb for a seedling's first leaves, and the meaning is unchanged."},
+  {"nr": 6, "besluit": "LAAT VAAR",
+   "fout": "none",
+   "rede": "'dit' naturally points to the starch, and swapping conditional 'as' for relative 'wat' drops the condition that starch is there only if people added it."}
+ ]}

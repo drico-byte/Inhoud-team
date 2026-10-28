@@ -1,0 +1,115 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Proteïene: kos vir groei en herstel",
+      "voor": "Jou lyf bou nuwe dele soos spiere en vel daarmee",
+      "na": "Jou lyf bou daarmee nuwe dele soos spiere en vel",
+      "soort": "woordorde",
+      "rede_vinder": "'daarmee' trailing after the list is awkward; it sits naturally right after the verb.",
+      "fout": "'daarmee' stranded after the list reads awkwardly and can attach to 'vel'",
+      "rede_keurder": "Placing 'daarmee' after the verb is natural Afrikaans and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Vette en olies: energie vir later",
+      "voor": "Botter en margarien is vette en kookolie",
+      "na": "Botter en margarien is vette, en kookolie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "missing AWS comma before 'en' joining two clauses with their own subject and verb",
+      "rede_keurder": "'Botter en margarien is vette' and 'kookolie is 'n olie' are two full clauses, so the comma is required."
+    },
+    {
+      "nr": 3,
+      "blok": "Vette en olies: energie vir later",
+      "voor": "en gee so isolasie",
+      "na": "en dien so as isolasie",
+      "soort": "woordkeuse",
+      "rede_vinder": "Fat does not 'give' insulation; 'dien as isolasie' is the natural Afrikaans expression.",
+      "fout": "'gee isolasie' is a loose verb for what a fat layer does",
+      "rede_keurder": "'dien so as isolasie' is the natural expression and says the same thing."
+    },
+    {
+      "nr": 4,
+      "blok": "Vitamiene en minerale: sterk bene en 'n gesonde lyf",
+      "voor": "wat saam in een groep is",
+      "na": "wat in dieselfde groep val",
+      "soort": "sinsbou",
+      "rede_vinder": "'saam in een groep is' is wooden and 'saam' is repeated in the next sentence; 'in dieselfde groep val' is natural and keeps the meaning.",
+      "fout": "'saam in een groep is' is wooden and repeats 'saam' from the next sentence",
+      "rede_keurder": "'in dieselfde groep val' is natural, keeps the meaning and removes the echo."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat die fabriek byvoeg",
+      "voor": "Dit is een soort verwerkte voedsel",
+      "na": "Sulke kos is een soort verwerkte voedsel",
+      "soort": "verwysing",
+      "rede_vinder": "'Dit' could point to the factory or the packing; 'Sulke kos' makes clear it refers to the factory-made food.",
+      "fout": "'Dit' can point to the making and packing rather than the food",
+      "rede_keurder": "'Sulke kos' fixes the reference without changing the claim."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat die fabriek byvoeg",
+      "voor": "help ook dat party kos langer hou",
+      "na": "help ook om party kos langer te laat hou",
+      "soort": "idioom",
+      "rede_vinder": "'help dat' is a loose construction; 'help om ... te laat hou' is idiomatic Afrikaans.",
+      "fout": "'help dat party kos langer hou' is a loose construction",
+      "rede_keurder": "'help om party kos langer te laat hou' is idiomatic and keeps the qualifier 'party'."
+    },
+    {
+      "nr": 7,
+      "blok": "Lees die etiket",
+      "voor": "Suiker heel voor op die lys beteken daar is meer suiker in as enigiets anders",
+      "na": "As suiker heel voor op die lys staan, bevat die kos meer suiker as enigiets anders",
+      "soort": "sinsbou",
+      "rede_vinder": "A noun phrase as subject of 'beteken' plus a stranded 'in' reads clumsily; a conditional clause says the same thing clearly.",
+      "fout": "noun phrase as subject of 'beteken' with a stranded 'in' makes the reader stumble",
+      "rede_keurder": "The conditional clause says the same thing clearly and stays short enough for Grade 6."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 8,
+      "blok": "Vergelyk twee pakke",
+      "voor": "en meet so albei pakke met dieselfde maat",
+      "na": "en vergelyk so albei pakke met dieselfde maatstaf",
+      "soort": "woordkeuse",
+      "rede_vinder": "The learner compares the packs rather than measuring them; 'vergelyk ... met dieselfde maatstaf' is the natural expression and matches the block heading.",
+      "fout": "none",
+      "rede_keurder": "'met dieselfde maat meet' is a fixed Afrikaans expression that fits both the literal per-100 g column and the comparison, while 'maatstaf' is harder and narrows it."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 9,
+      "blok": "mineraal",
+      "voor": "'n Voedingstof soos kalsium wat",
+      "na": "'n Voedingstof, soos kalsium, wat",
+      "soort": "leestekens",
+      "rede_vinder": "Without commas 'wat' seems to refer to kalsium rather than voedingstof; the commas also match the koolhidraat entry.",
+      "fout": "without commas the parenthetical 'soos kalsium' blurs what 'wat' refers to, unlike the koolhidraat entry",
+      "rede_keurder": "The point is fair, but this is a glossary definition that should change only through the writer so every lesson keeps one wording.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat is voedingstowwe?",
+      "teks": "Dit het hulle nodig om energie te kry, te groei en gesond te bly.",
+      "rede": "This closely echoes the withdrawn wording of the decided voedingstof definition, which now links energy only to some nutrients in food. Here it is about the body and food, so it may be fine; not changed because it is content, but a person may want to check it against the decided definition."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 549,
+  "woorde_na": 553,
+  "wanneer": "2026-10-28T09:37:06+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:dd67d4d40e550bb804d17f4547a8c23b",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:dd3819b38a120ce2757844a44ab168a0"
+}

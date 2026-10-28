@@ -1,242 +1,249 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.2",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Koper binne, plastiek buite",
   "kaps_punt": "Geleiers - elektrisiteit kan deur sekere materiale vloei en dit word geleiers genoem; die meeste metale, veral koper, gelei elektrisiteit. Nie-geleiers - sommige materiaal gelei nie elektrisiteit nie en word nie-geleiers genoem; die meeste nie-metale, soos plastiek, gelei nie elektrisiteit nie; identifisering waar elektriese nie-geleiers gebruik word soos in plastiek geisoleerde drade, rubber handskoene wat deur elektrisiens gebruik word, glas en keramiek isolators wat op kraglyne gebruik word",
   "verdict": "GOEDGEKEUR",
   "items": [
     {
-      "bewering": "In baie drade, soos die draad van 'n lamp, lê blink koper binne en plastiek buite. Die koper is daar omdat elektrisiteit maklik daardeur loop.",
+      "bewering": "In baie drade, soos die draad van 'n lamp, lê blink koper binne en plastiek buite.",
       "blok": "Koper laat elektrisiteit deur",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Copper_conductor (virtually all basic branch wiring is copper; highest conductivity of non-precious metals); https://en.wikipedia.org/wiki/Insulator_(electricity) (flexible insulating coating of PVC, polyethylene etc. applied to wire and cable)"
+      "bron": "Plastic as the common wire insulation (Wikipedia, Insulator (electricity): https://en.wikipedia.org/wiki/Insulator_(electricity)); copper as the dominant wiring conductor (conductivity chart and wiring summary via https://www.metalsupermarkets.co.uk/which-metals-conduct-electricity/). Volledige ondersoek, eerste rondte op hierdie konsep."
+    },
+    {
+      "bewering": "Die koper is daar omdat elektrisiteit maklik daardeur loop. Ons noem 'n materiaal wat elektrisiteit deurlaat 'n geleier.",
+      "blok": "Koper laat elektrisiteit deur",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Copper at 100% IACS, second only to silver (https://viox.com/conductivity-vs-resistivity-iacs/; https://www.metalsupermarkets.co.uk/which-metals-conduct-electricity/)."
     },
     {
       "bewering": "Alle metale is geleiers, maar party gelei baie beter as ander.",
       "blok": "Koper laat elektrisiteit deur",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "https://en.wikipedia.org/wiki/Metal ('The electronic structure of metals makes them good conductors of electricity'); https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (copper 59.6 MS/m, carbon steel 6.99 MS/m, stainless steel 1.45 MS/m: metals conduct, over a wide range). The universal holds for metals; graphite, which also conducts, is a non-metal and does not bear on it."
+      "bron": "Universal claim checked: Universität Bayreuth, Didaktik der Chemie, conductivity experiment page, lists 'all metals' as conductors (https://daten.didaktikchemie.uni-bayreuth.de/experimente/exkursion/conductivity_electrical.htm). That conductivity varies widely among metals: IACS figures, copper 100%, aluminium about 61%, stainless steel a few percent (https://viox.com/conductivity-vs-resistivity-iacs/)."
     },
     {
       "bewering": "Baie drade in huise en toestelle is van koper omdat koper baie goed gelei.",
       "blok": "Koper laat elektrisiteit deur",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Copper_conductor (building wiring is copper's largest market; roughly half of mined copper goes to electrical conductors; conductivity second only to silver). 'Baie' is correctly hedged: aluminium and other conductors are also used."
+      "bron": "https://www.metalsupermarkets.co.uk/which-metals-conduct-electricity/ (copper used for wiring because it is the best conductor apart from much more expensive silver). Cost and ductility also count, but 'omdat koper baie goed gelei' is a true reason, not a false one."
     },
     {
-      "bewering": "Staal is ook 'n geleier wat baie swakker as koper gelei.",
+      "bewering": "Staal is ook 'n geleier, maar dit gelei baie swakker as koper.",
       "blok": "Koper laat elektrisiteit deur",
       "status": "bevestig",
-      "tipe": "getal",
-      "bron": "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (carbon steel 6.99 MS/m against copper 59.6 MS/m, about 12%; stainless steel about 2%)"
+      "tipe": "algemeen",
+      "bron": "304 stainless at about 1.1-1.5 MS/m against copper at 58 MS/m, i.e. a few percent of copper (https://viox.com/conductivity-vs-resistivity-iacs/). Carbon steel runs higher, at roughly a tenth of copper, so it is still far worse."
     },
     {
       "bewering": "Die plastiek om die koper laat feitlik geen elektrisiteit deur nie. So 'n materiaal noem ons 'n nie-geleier.",
-      "blok": "Plastiek hou dit tegen",
+      "blok": "Plastiek hou dit teë",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (PET about 10^-21 S/m); https://en.wikipedia.org/wiki/Insulator_(electricity). 'Feitlik geen' is accurate: every insulator passes a vanishingly small current and breaks down at a high enough voltage."
+      "bron": "https://en.wikipedia.org/wiki/Insulator_(electricity). 'Feitlik geen' is the correct hedge, because no insulator is a perfect one."
     },
     {
       "bewering": "Die meeste nie-metale is nie-geleiers, soos plastiek, rubber, glas en keramiek.",
-      "blok": "Plastiek hou dit tegen",
+      "blok": "Plastiek hou dit teë",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "https://en.wikipedia.org/wiki/Metal (non-metals are poor conductors, graphite the named exception, so 'die meeste' is the right quantifier); https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (glass 10^-15 to 10^-11 S/m, hard rubber 10^-14 S/m, PET 10^-21 S/m); https://en.wikipedia.org/wiki/Ceramic (most ceramics are good electrical insulators)"
+      "bron": "Quantifier 'die meeste' checked: glass, plastic, rubber and porcelain/ceramic are standard insulators (https://en.wikipedia.org/wiki/Insulator_(electricity); porcelain and glass as line insulators, https://www.electricaleasy.com/2016/10/insulators-used-in-overhead-power-lines.html). 'Die meeste' rather than 'alle' is right: graphite and salty water are non-metallic and conduct."
     },
     {
       "bewering": "Keramiek is die harde gebakte klei van teëls, borde en baie koppies.",
-      "blok": "Plastiek hou dit tegen",
+      "blok": "Plastiek hou dit teë",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Ceramic (made by shaping and firing an inorganic non-metallic material such as clay at high temperature; earthenware, porcelain, brick). Tiles, plates and cups are ordinary fired-clay ceramics, and 'baie koppies' is correctly hedged."
+      "bron": "Ceramic is a hard material made from clay fired at high temperature; examples include porcelain, earthenware, brick and tile (https://en.wikipedia.org/wiki/Ceramic; https://www.dictionary.com/browse/Ceramic)."
     },
     {
       "bewering": "Water is ook 'n nie-metaal, maar kraanwater laat wel elektrisiteit deur.",
-      "blok": "Plastiek hou dit tegen",
+      "blok": "Plastiek hou dit teë",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Conductivity_(electrolytic) (deionised water 0.055 µS/cm; drinking water 200-800 µS/cm because of dissolved ions). 'Nie-metaal' is used in the lesson's own materials sense ('materiaal wat nie metaal is nie', its glossary entry), where water fits. In the chemistry sense non-metals are elements and water is a compound of them, a distinction Grade 6 does not draw. The contrast ('maar kraanwater') is correctly made about tap water rather than water in general."
+      "bron": "Tap water conducts because of dissolved ions (https://www.scienceabc.com/pure-sciences/do-you-think-that-water-conducts-electricity-if-you-do-then-youre-wrong). 'Nie-metaal' here is used in the lesson's own materials sense ('materiaal wat nie metaal is nie', the begrip block), the same sense in which plastic and wood are called non-metals. In that sense water is one. In chemistry's element sense water is a compound and not a non-metal, but that sense is not the one this lesson, or its CAPS bullet, uses. Recorded so a person can see the point was considered."
     },
     {
       "bewering": "Geleiers: metaalskuifspelde, spykers, metaaldraad, staalwol en munte. Almal is van metaal.",
       "blok": "Die twee groepe",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "https://en.wikipedia.org/wiki/Paper_clip (usually steel wire); https://en.wikipedia.org/wiki/Steel_wool (low-carbon steel, ignites when a battery drives current through it); https://en.wikipedia.org/wiki/Coins_of_the_South_African_rand (10c and 20c copper-plated steel, 50c bronze-plated steel, R1 and R2 nickel-plated copper, R5 bimetallic: every circulating SA coin is metal)"
+      "bron": "'Almal' checked item by item. Paper clips, nails, wire and steel wool are steel or other metals. South African coins are metal (nickel-plated steel, bronze- or copper-plated steel, bimetal R5): https://dailyinvestor.com/finance/6023/new-coins-for-south-africa/ and https://en.wikipedia.org/wiki/Coins_of_the_South_African_rand. All metals conduct (Bayreuth page above)."
     },
     {
       "bewering": "Nie-geleiers: plastiek, glas, keramiek, karton, papier, hout, rubber en kryt. Almal is nie-metale.",
       "blok": "Die twee groepe",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (glass, dry wood, hard rubber, PET all insulators); https://en.wikipedia.org/wiki/Ceramic; https://en.wikipedia.org/wiki/Chalk (calcium carbonate, or gypsum in some blackboard chalk: non-metallic); https://en.wikipedia.org/wiki/Calcium_carbonate (used as a filler in PVC cable insulation to improve volume resistivity, consistent with chalk being a non-conductor). Paper and cardboard are dry cellulose, like dry wood; the next list item correctly limits them to the dry state."
+      "bron": "'Almal' checked item by item. Plastic, glass, paper and rubber are insulators (https://en.wikipedia.org/wiki/Insulator_(electricity)). Chalk and wood are insulators, according to Universität Bayreuth, Didaktik der Chemie (https://daten.didaktikchemie.uni-bayreuth.de/experimente/exkursion/conductivity_electrical.htm). Ceramic: see porcelain line insulators. None of the items is a metal. Wood, paper and card are qualified by the next list item."
     },
     {
       "bewering": "Hout, papier en karton is net nie-geleiers wanneer hulle droog is. Nat hout laat elektrisiteit deur.",
       "blok": "Die twee groepe",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (dry wood 10^-16 to 10^-14 S/m; damp wood 10^-4 to 10^-3 S/m, some ten orders of magnitude higher). The value for paper and cardboard rests on the wood figures, since both are wood cellulose."
+      "bron": "NIOSH/CDC: dry wood ladders are nonconductors; trees and ropes can conduct depending on moisture content and surface contamination (https://stacks.cdc.gov/view/cdc/170136/cdc_170136_DS1.pdf; https://stacks.cdc.gov/view/cdc/228664/cdc_228664_DS1.pdf)."
     },
     {
       "bewering": "Kragdrade stoot elektrisiteit selfs deur hout wat droog lyk. Geen stok, nat of droog, is veilig by 'n kragdraad nie.",
       "blok": "Die twee groepe",
       "status": "bevestig",
       "tipe": "superlatief",
-      "bron": "https://www.hse.gov.uk/pubns/gs6.pdf (HSE GS6: electricity can jump or arc across small gaps; 'under no circumstances must any part of plant or equipment such as ladders, poles and hand tools be able to encroach' within the exclusion zones, with no exception for non-conducting materials); https://en.wikipedia.org/wiki/Insulator_(electricity) (all insulators conduct at a high enough voltage; wetting cuts flashover voltage by more than half); https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (damp wood conducts); https://www.eskom.co.za/distribution/customer-service/public-safety/ (do not carry long objects under power lines). The universal 'geen stok' matches the safety guidance, which makes no exception."
+      "bron": "Universal 'geen stok' checked. Ontario's Electrical Safety Authority, power-line myths and facts: even wood can conduct electricity (https://esasafe.com/safety/powerline-safety/myths-and-facts/). Fairfax County: all ladders, even wooden or fiberglass, can conduct, so keep 10 feet away (https://fairfaxva.gov/home/showpublisheddocument/14226/637082040570900000). Hydro-Quebec advice on long objects near lines (https://hydroquebec.com/safety/power-lines/activities-near-lines.html). ESB Networks: do not let anything you hold come near an overhead line (https://esbnetworks.ie/docs/default-source/publications/public-safety-advice.pdf). The Eskom material found (via Grocott's Mail, https://grocotts.ru.ac.za/2010/02/11/keep-away-from-low-hanging-power-lines/) treats every line as live and does not mention sticks specifically. The safety rule is correctly stated."
     },
     {
-      "bewering": "Vir die toets sit 'n mens die materiaal in 'n gaping in 'n eenvoudige stroombaan met 'n sel en 'n lampie. Brand die lampie, dan het die materiaal die kring voltooi en is dit 'n geleier.",
+      "bewering": "Vir die toets sit 'n mens die materiaal in 'n gaping in 'n eenvoudige stroombaan met 'n sel en 'n lampie. Brand die lampie, dan het die materiaal die stroombaan voltooi en is dit 'n geleier. Bly die lampie donker, dan laat die materiaal nie genoeg elektrisiteit deur om die lampie te laat brand nie.",
       "blok": "Die lampie-toets",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Follows from the conductivities at https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity: a torch bulb on a single cell lights only through a low-resistance path, which only metal-class conductivities give. https://en.wikipedia.org/wiki/Steel_wool confirms that a cell drives useful current through steel."
+      "bron": "Conductivity-tester guidance: no light means a non-conductor or too little current, dim light a poor conductor, bright light a good one (Central San conductivity-meter build guide, https://www.centralsan.org/sites/main/files/file-attachments/final_-__conductivity_meter_how_to_build_guide_1.pdf). The lesson's careful wording ('nie genoeg ... om die lampie te laat brand nie') is correct: a dark lamp does not prove that no current flows."
     },
     {
-      "bewering": "Bly die lampie donker, dan laat die materiaal nie genoeg elektrisiteit deur om die lampie te laat brand nie.",
+      "bewering": "Die drade raak net aan die buitekant van die materiaal. 'n Skuifspeld wat met 'n laag plastiek of verf bedek is, kan die lampie donker hou. Die metaal binne die laag is tog 'n geleier.",
       "blok": "Die lampie-toets",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Conductivity_(electrolytic) and https://en.wikipedia.org/wiki/Electric_shock (tap water and skin conduct, but at resistances of thousands of ohms, far too high for a cell to light a torch bulb). The careful wording ('nie genoeg nie' rather than 'geen') is correct: a dark bulb does not prove a non-conductor."
+      "bron": "Universität Bayreuth, Didaktik der Chemie: iron conducts but its rust (a surface layer) does not, so a surface coating decides the test result (https://daten.didaktikchemie.uni-bayreuth.de/experimente/exkursion/conductivity_electrical.htm). Plastic as an insulating coating: https://en.wikipedia.org/wiki/Insulator_(electricity)."
     },
     {
-      "bewering": "Die toets wys net wat aan die drade raak. 'n Skuifspeld met 'n laag plastiek of verf om kan die lampie donker hou. Die metaal binne die laag is tog 'n geleier.",
-      "blok": "Die lampie-toets",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Paper_clip (some are plastic- or rubber-coated steel); https://en.wikipedia.org/wiki/Insulator_(electricity) (an insulating coating on a metal wire keeps it from making electrical contact, which is how coated wire is insulated)"
-    },
-    {
-      "bewering": "Kraanwater en badwater laat elektrisiteit deur en so ook damwater en sweet. Daar is stowwe in die water opgelos en dit laat die elektrisiteit deur.",
+      "bewering": "Kraanwater en badwater laat elektrisiteit deur en so ook damwater en sweet. Daar is stowwe in die water opgelos, en hulle laat die elektrisiteit deur.",
       "blok": "Water en jou lyf",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Conductivity_(electrolytic) (pure water hardly conducts; dissolved ions make drinking water and natural water conduct); https://en.wikipedia.org/wiki/Perspiration (sweat carries dissolved sodium, potassium and other electrolytes)"
+      "bron": "Dissolved minerals and salts form ions that carry the current; pure water is a poor conductor (https://www.scienceabc.com/pure-sciences/do-you-think-that-water-conducts-electricity-if-you-do-then-youre-wrong). Sweat is salty, and wet skin conducts far better (OSHA/NIOSH figures below)."
     },
     {
-      "bewering": "Jou lyf gelei ook en nat vel laat dit baie makliker deur as droë vel.",
+      "bewering": "Jou lyf gelei ook, en nat vel laat elektrisiteit baie makliker deur as droë vel.",
       "blok": "Water en jou lyf",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Electric_shock (dry body resistance up to 100 000 ohm; wet or broken skin down to about 1 000 ohm)"
+      "bron": "OSHA Construction eTool / NIOSH figures (UAH copy): dry skin up to about 100 000 ohm, wet or broken skin about 1 000 ohm (https://www.uah.edu/images/administrative/facilities/oehs/how_electrical_current_affects_the_human_body.pdf; https://ehsdailyadvisor.com/2009/08/shocking-news-about-electrical-emergencies)."
     },
     {
-      "bewering": "Tog kan die lampie by kraanwater of 'n vinger donker bly of net flou gloei. Hulle gelei baie swakker as metaal en 'n sel stoot te swak om genoeg daardeur te stuur.",
+      "bewering": "Tog kan die lampie by kraanwater of 'n vinger donker bly of net flou gloei. Hulle gelei baie swakker as metaal en 'n sel stoot te swak om genoeg elektrisiteit daardeur te stuur.",
       "blok": "Water en jou lyf",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Conductivity_(electrolytic) (drinking water 200-800 µS/cm, so a centimetre-scale gap is on the order of a thousand ohms or more); https://en.wikipedia.org/wiki/Electric_shock (body 1 000 to 100 000 ohm). At 1.5 V that passes a few mA at most, far below what a torch bulb needs. 'Donker bly of net flou gloei' is correctly hedged."
+      "bron": "The conductivity-tester guidance (Central San, above) treats tap water as a weak conductor that gives a dim or no light. Ohm's law with the OSHA/NIOSH skin figures: a 1.5 V cell across tens of thousands of ohms gives microamps, far below what a torch bulb needs. The 'kan ... of' form is true. Note for a person, not a defect: with a filament bulb a finger will in practice always leave it dark, and only an LED might glow faintly, so 'flou gloei' really applies to tap water."
     },
     {
       "bewering": "'n Muursok stoot baie harder as 'n sel. Dit kan genoeg elektrisiteit deur nat vel en jou lyf stuur om jou erg te beseer.",
       "blok": "Water en jou lyf",
       "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Mains_electricity_by_country (South Africa 230 V, 50 Hz, against about 1.5 V for a cell); https://en.wikipedia.org/wiki/Electric_shock (fatal shocks most common at 100-250 V AC; wet skin about 1 000 ohm)"
+      "tipe": "getal",
+      "bron": "South African mains is nominally 230 V, 50 Hz (https://www.worldstandards.eu/electricity/plug-voltage-by-country/south-africa/; https://en.wikipedia.org/wiki/SANS_164), against 1.5 V for a cell. OSHA/NIOSH: at 120 V and 1 000 ohm (wet skin) the current is about 120 mA, enough to cause ventricular fibrillation (UAH copy above), so at 230 V even more."
     },
     {
-      "bewering": "'Stoot' as the picture for how hard a cell or socket drives electricity ('n sel stoot te swak ... 'n muursok stoot baie harder)",
+      "bewering": "'n Donker lampie beteken dus nie dat 'n materiaal naby 'n sok veilig is nie.",
+      "blok": "Water en jou lyf",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "This follows from the two items above (weak conductors stay dark at 1.5 V and are dangerous at 230 V). It is consistent with the OSHA/NIOSH Ohm's-law illustration (UAH copy)."
+    },
+    {
+      "bewering": "'n Sel stoot / 'n muursok stoot baie harder / kragdrade stoot elektrisiteit (die 'stoot'-beeld vir spanning, deur die les).",
       "blok": "Water en jou lyf",
       "status": "bevestig",
       "tipe": "analogie",
-      "bron": "Checked the mapping against https://en.wikipedia.org/wiki/Electric_shock and https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity: 'push' stands for voltage, and the lesson draws only what Ohm's law gives (a harder push sends more through the same poor conductor). It does not suggest that electricity is used up or that it travels as a substance at the speed of the push, so nothing a learner reasons onward from it goes wrong at this level."
-    },
-    {
-      "bewering": "'n Donker lampie beteken dus nie dat 'n materiaal veilig is naby 'n sok nie.",
-      "blok": "Water en jou lyf",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Follows from the two sourced claims above (https://en.wikipedia.org/wiki/Electric_shock; https://en.wikipedia.org/wiki/Mains_electricity_by_country)"
+      "bron": "Mapping checked. Voltage as a push that drives current through a resistance. If a learner reasons further from it, a harder push sends more current through the same material, which is Ohm's law and matches the OSHA/NIOSH 100 000 ohm against 1 000 ohm illustration (UAH copy above). It also explains why a material that keeps a lamp dark at 1.5 V can be dangerous at 230 V or near a power line. The picture does not suggest that the cell itself supplies the moving charge or that electricity gets used up. No point found where it misleads at Grade 6."
     },
     {
       "bewering": "Die koper binne die draad is die geleier wat die elektrisiteit na die lamp dra. Die plastiek buite is 'n nie-geleier. Dit hou die elektrisiteit weg van die hand wat die draad vashou. Ons sê so 'n draad is geïsoleer.",
       "blok": "Geïsoleerde drade",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Insulator_(electricity) (insulating coating on electric wire and cable); https://en.wikipedia.org/wiki/Copper_conductor"
+      "bron": "https://en.wikipedia.org/wiki/Insulator_(electricity) (plastic as wire insulation for homes and vehicles)."
     },
     {
       "bewering": "Die plastiek beskerm egter nie meer nie as dit gebars of stukkend is. 'n Nat draad of prop is ook nie veilig nie. Water kan deur 'n kraak by die koper kom.",
       "blok": "Geïsoleerde drade",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://www.hse.gov.uk/pubns/gs6.pdf para 7 (insulation in poor condition may not act as effective insulation); https://www.eskom.co.za/distribution/customer-service/public-safety/ (damaged, cut or broken cables must be fixed by an electrician); https://en.wikipedia.org/wiki/Conductivity_(electrolytic) (ordinary water conducts, so water through a crack bridges to the conductor); https://en.wikipedia.org/wiki/Insulator_(electricity) (wetting sharply lowers flashover voltage)"
+      "bron": "CCOHS inspection guidance: check for damaged wires and plugs and for wet plugs, and never use faulty equipment (https://ccohs.gc.ca/teach_tools/phys_hazards/electrical.html). OSHA Academy: bared conductors create a shock risk, and water on a connector lets current leak to anyone touching it (https://oshacademy.com/courses/training/809-focus-four-electrocution-hazards/809-1-6.php). NIOSH case of a fatal shock through a worn cord (https://stacks.cdc.gov/view/cdc/164366)."
     },
     {
-      "bewering": "Elektrisiëns dra spesiale rubberhandskoene wat vir elektriese werk gemaak en getoets is. Die rubber keer dat elektrisiteit deur hulle hande en lyf loop. 'n Gewone kombuishandskoen is nie vir hierdie werk gemaak nie.",
+      "bewering": "Elektrisiëns dra spesiale rubberhandskoene wat vir elektriese werk gemaak en getoets is. Die rubber keer dat elektrisiteit deur hulle hande en lyf loop.",
       "blok": "Handskoene en kraglyne",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Electrician (PPE includes gloves with insulating rubber liners; insulated rubber gloves must be tested regularly, six-monthly in some jurisdictions); https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (hard rubber about 10^-14 S/m). An ordinary kitchen glove is neither rated nor tested, so the contrast holds."
+      "bron": "IEC 60903: electrical insulating rubber gloves in classes 00-4, each proof-tested at a stated voltage (e.g. class 00 at 2 500 V, rated 500 V) to protect the worker against electric shock (https://www.powerandcables.com/iec60903-gloves/; CATU class 00 datasheet, https://www.powerandcables.com/wp-content/uploads/2017/06/CATU-CG-05-Class-00-Electrical-Insulating-Rubber-Gloves-IEC-60903-1.pdf)."
+    },
+    {
+      "bewering": "'n Gewone kombuishandskoen is nie vir hierdie werk gemaak nie.",
+      "blok": "Handskoene en kraglyne",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "The IEC 60903 sources above: protection comes from a rated, tested class with a minimum thickness and proof-test voltage, which household gloves do not carry."
     },
     {
       "bewering": "Die drade van baie kraglyne is kaal metaal sonder plastiek om.",
       "blok": "Handskoene en kraglyne",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Overhead_power_line (bare conductors, generally aluminium, often steel-reinforced); https://www.hse.gov.uk/pubns/gs6.pdf para 7 (most high-voltage lines bare, some with a light coating, so 'baie' is the right quantifier); https://en.wikipedia.org/wiki/Insulator_(electricity) (overhead transmission conductors are bare, insulated by the surrounding air)"
+      "bron": "Bare overhead conductors, usually aluminium or steel-reinforced aluminium, with air as the insulation medium (https://en.wikipedia.org/wiki/Overhead_power_line; https://www.electricaleasy.com/2016/10/insulators-used-in-overhead-power-lines.html)."
     },
     {
       "bewering": "Hulle hang aan isolators waarvan baie van glas of keramiek is. Die isolator hou die draad aan die paal of mas vas. Dit keer dat die elektrisiteit deur die paal of mas na die grond loop.",
       "blok": "Handskoene en kraglyne",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Insulator_(electricity) (high-voltage insulators are glass, porcelain or composite polymer; they support the wires at poles and towers while preventing current flowing to ground); https://en.wikipedia.org/wiki/Overhead_power_line (porcelain, toughened glass, polymer; suspension insulators with the conductor hanging below). 'Baie' correctly leaves room for polymer insulators."
+      "bron": "Insulators are mostly porcelain or toughened glass, with polymer types increasingly used, which is why 'baie' is right and not 'alle'. Without insulation from the poles or towers, current would flow through them to the ground (https://www.electricaleasy.com/2016/10/insulators-used-in-overhead-power-lines.html; https://en.wikipedia.org/wiki/Overhead_power_line)."
     },
     {
       "bewering": "geleier: 'n Materiaal wat elektrisiteit deurlaat, soos koper of staal.",
       "blok": "geleier",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (copper and steel both metallic conductors)"
+      "bron": "Copper and steel both conduct (https://viox.com/conductivity-vs-resistivity-iacs/; Bayreuth page)."
     },
     {
       "bewering": "nie-geleier: 'n Materiaal wat feitlik geen elektrisiteit deurlaat nie, soos plastiek of rubber.",
       "blok": "nie-geleier",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity (PET 10^-21 S/m, hard rubber 10^-14 S/m); https://en.wikipedia.org/wiki/Insulator_(electricity)"
+      "bron": "https://en.wikipedia.org/wiki/Insulator_(electricity)."
     },
     {
       "bewering": "isolator: 'n Stuk nie-geleier wat keer dat elektrisiteit loop waar dit nie moet nie.",
       "blok": "isolator",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Insulator_(electricity) (used to support or separate conductors and keep current from flowing to ground or between conductors). Read alone, it fits a power-line insulator, a plastic wire coating and a rubber glove alike, which are the three things the lesson applies it to."
+      "bron": "Line insulators prevent current flowing to the support and the ground (https://www.electricaleasy.com/2016/10/insulators-used-in-overhead-power-lines.html). The general sense of the word is in https://en.wikipedia.org/wiki/Insulator_(electricity)."
     },
     {
       "bewering": "nie-metaal: Materiaal wat nie metaal is nie, soos kryt, klip, hout of plastiek.",
       "blok": "nie-metaal",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Chalk (calcium carbonate or gypsum); https://en.wikipedia.org/wiki/Metal. A materials-sense definition, consistent with the lesson's own usage; it does not claim that every non-metal is a non-conductor, so klip is not implied to be an insulator."
+      "bron": "None of the examples is a metal. Chalk, rock and wood are listed as insulators by Universität Bayreuth (https://daten.didaktikchemie.uni-bayreuth.de/experimente/exkursion/conductivity_electrical.htm). The definition is the materials sense of the word, not chemistry's element sense (see the water item). That is the sense the CAPS bullet itself uses ('die meeste nie-metale, soos plastiek')."
     },
     {
       "bewering": "keramiek: Harde materiaal van klei wat in 'n baie warm oond gebak is.",
       "blok": "keramiek",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Ceramic (hard material made by firing an inorganic non-metallic material such as clay at high temperature, i.e. in a kiln). This is the traditional clay sense, which covers every ceramic the lesson names, including porcelain line insulators. Modern technical ceramics such as alumina are not clay-based, but the entry makes no claim about them, so it is narrow rather than false."
+      "bron": "https://en.wikipedia.org/wiki/Ceramic; https://www.dictionary.com/browse/Ceramic. Engineering ceramics need not contain clay, but the household and porcelain-insulator sense is fired clay, and the definition is correct for that sense."
     },
     {
       "bewering": "elektrisiën: Iemand wie se werk dit is om elektriese drade aan te lê en reg te maak.",
       "blok": "elektrisiën",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Electrician (tradesperson who installs, maintains and repairs electrical wiring)"
+      "bron": "No Afrikaans dictionary entry was found online. The Dutch ANW defines 'elektricien' as someone whose trade is installing, maintaining and repairing electrical installations (via https://www.encyclo.nl/begrip/elektrici%C3%ABn). The cognate meaning is the same."
     },
     {
       "bewering": "geïsoleer: Toegedraai in 'n nie-geleier, soos 'n koperdraad met plastiek om.",
       "blok": "geïsoleer",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "https://en.wikipedia.org/wiki/Insulator_(electricity) (insulating coating on electric wire and cable)"
+      "bron": "https://en.wikipedia.org/wiki/Insulator_(electricity) (insulated wire is a conductor covered in plastic)."
     }
   ],
-  "opsomming": "All 33 claims check out, including every universal ('alle metale', 'geen stok', 'almal is van metaal/nie-metale') and the 'push' picture for voltage. The lesson is careful where it matters: a dark bulb is not called proof of a non-conductor, and wet wood, tap water and skin are handled correctly. Two narrow-but-true wordings are recorded, not faulted: water counted as a 'nie-metaal' in the materials sense, and ceramics defined as fired clay. Note that this session's web-search budget was used up before the check began, so sources were opened directly (Wikipedia science articles, the UK HSE overhead-line guidance GS6, Eskom's public-safety page); no textbook was opened."
+  "opsomming": "Every claim in all fourteen blocks was checked and confirmed, including five quantifier claims ('alle', 'die meeste', twice 'almal', 'geen stok') and the 'stoot' picture for voltage. Two points worth a person's glance but not defects: 'water is ook 'n nie-metaal' is true only in the lesson's own materials sense, the same sense CAPS uses for plastic, and a finger in a cell-and-bulb circuit will in practice never make the bulb glow even faintly."
 }

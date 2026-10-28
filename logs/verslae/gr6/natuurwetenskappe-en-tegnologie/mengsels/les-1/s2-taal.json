@@ -1,0 +1,114 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat is 'n mengsel?",
+      "voor": "roer dit deur mekaar",
+      "na": "roer dit deurmekaar",
+      "soort": "spelling",
+      "rede_vinder": "The adverb 'deurmekaar' is written as one word.",
+      "fout": "The adverb 'deurmekaar' (roer deurmekaar) is written apart.",
+      "rede_keurder": "Plain spelling fix in study text; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Elke stof bly wat hy was",
+      "voor": "nog duidelik sien as stukke, korrels of lae",
+      "na": "nog duidelik as stukke, korrels of lae sien",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans the infinitive 'sien' goes to the end, after the 'as' phrase; this sits outside the protected opening.",
+      "fout": "The infinitive 'sien' stands before the 'as' phrase, an English-like order that reads slightly stiff.",
+      "rede_keurder": "Moving 'sien' to the end is the natural Afrikaans order, and the protected opening and 'sommige' are untouched."
+    },
+    {
+      "nr": 3,
+      "blok": "Drie van die soorte mengsels",
+      "voor": "staan en die olie lê",
+      "na": "staan, en die olie lê",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins a second clause with its own subject and verb ('die olie lê').",
+      "fout": "No comma between two coordinated clauses with different subjects (implied 'jy' and 'die olie').",
+      "rede_keurder": "AWS comma before 'en' joining two clauses; it also helps the reader see where the instruction ends and the result begins."
+    },
+    {
+      "nr": 4,
+      "blok": "Wanneer meng iets nuuts maak",
+      "voor": "Nat beton word hard en deeg",
+      "na": "Nat beton word hard, en deeg",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "No comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "Required AWS comma; 'Nat beton word hard' and 'deeg word ... gebak' are separate clauses."
+    },
+    {
+      "nr": 6,
+      "blok": "Skei met 'n verskil",
+      "voor": "Dit kan hulle grootte of kleur wees, of dat een sink.",
+      "na": "Die verskil kan in hulle grootte of kleur lê, of daarin dat een van hulle sink.",
+      "soort": "sinsbou",
+      "rede_vinder": "The original breaks the parallel structure ('grootte ... wees, of dat een sink') and leaves a bare 'een'; same meaning, clearer construction.",
+      "fout": "'Dit kan hulle grootte of kleur wees, of dat een sink' pairs nouns with a bare 'dat' clause and leaves 'een' hanging, which makes a reader stumble.",
+      "rede_keurder": "The proposal is grammatical and parallel, and it names the same three differences without adding anything."
+    },
+    {
+      "nr": 8,
+      "blok": "Oorgiet",
+      "voor": "Jy kan olie wat bo-op water lê ook afgooi",
+      "na": "Jy kan ook olie wat bo-op water lê, afgooi",
+      "soort": "woordorde",
+      "rede_vinder": "'ook' belongs before the object it adds, and a comma after the relative clause separates 'lê' from 'afgooi'.",
+      "fout": "'lê ook afgooi' runs the relative clause's verb into the adverb and main verb, which makes the sentence stumble.",
+      "rede_keurder": "Putting 'ook' before the object it adds and a comma where the two verbs meet reads more smoothly, and 'ook' still adds oil to the water and sand example."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 7,
+      "blok": "Filtreer",
+      "voor": "die gaatjies bly op die filter",
+      "na": "die gaatjies, bly op die filter",
+      "soort": "leestekens",
+      "rede_vinder": "A comma after the embedded relative clause separates its verb from the main verb 'bly' (AWS); study text only, not the protected definition.",
+      "fout": "none",
+      "rede_keurder": "An optional comma, and the sentence closely repeats the decided 'filtreer' definition, which has no comma, so the two would stop matching."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "Wanneer meng iets nuuts maak",
+      "voor": "op hierdie maniere",
+      "na": "op die maniere in hierdie les",
+      "soort": "verwysing",
+      "rede_vinder": "'hierdie maniere' points to methods the learner has not met yet; the reference is unclear at this point.",
+      "fout": "'op hierdie maniere' points forward to separation methods the learner has not met yet, so the reference is vague.",
+      "rede_keurder": "The fault is real, but the proposal repeats 'hierdie les' right before the next sentence, which starts 'Hierdie les', and the sentence states which methods cannot undo the change, so the writer should choose the fix.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat is 'n mengsel?",
+      "teks": "twee of meer verskillende stowwe of materiale wat saam gemeng is",
+      "rede": "AWS writes the separable compound 'saammeng' as 'saamgemeng'; the study sentence repeats the protected shared definition word for word, so it is not changed here (see beskerm_bedenkings)."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "mengsel - \"Twee of meer verskillende stowwe of materiale wat saam gemeng is.\"",
+      "rede": "'saam gemeng' should be one word, 'saamgemeng' (the verb is 'saammeng'); a decision for the whole subject-grade's shared definition, and the study text in 'Wat is 'n mengsel?' should follow it."
+    },
+    {
+      "woord": "filtreer - \"... vaste stukkies wat te groot is vir die gaatjies bly agter.\"",
+      "rede": "An AWS comma after 'gaatjies' would separate the relative clause from the main verb 'bly', as the shared 'oorgiet' definition already does after 'lê'; minor, for whoever owns the shared wording."
+    }
+  ],
+  "woorde_voor": 544,
+  "woorde_na": 548,
+  "wanneer": "2026-10-28T08:37:21+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:8ac3496fc23e55e11f67fd52d1514bf8",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4c5b6e59af082395e6ae5a2c5bc3c9ad"
+}

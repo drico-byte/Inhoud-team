@@ -1,0 +1,176 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die Aarde draai om sy as",
+      "voor": "lyn deur die Aarde se middel wat niemand kan sien of aanraak nie",
+      "na": "lyn deur die Aarde se middel. Niemand kan dit sien of aanraak nie",
+      "soort": "verwysing",
+      "rede_vinder": "The relative clause 'wat niemand kan sien' attaches to 'middel' rather than to 'lyn'; splitting the sentence makes clear it is the axis nobody can see, as the glossary says.",
+      "fout": "The relative clause 'wat niemand kan sien of aanraak nie' can attach to 'middel' instead of 'lyn'.",
+      "rede_keurder": "Splitting the sentence makes it unambiguous that the axis is what nobody can see, and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Die Aarde draai om sy as",
+      "voor": "heet 'n rotasie en ons sê",
+      "na": "heet 'n rotasie, en ons sê",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses with their own subject and verb (''n draai heet' / 'ons se').",
+      "rede_keurder": "Required AWS comma; nothing else changes."
+    },
+    {
+      "nr": 3,
+      "blok": "Die Aarde draai om sy as",
+      "voor": "beteken dag egter",
+      "na": "beteken \"dag\" egter",
+      "soort": "leestekens",
+      "rede_vinder": "The word 'dag' is mentioned as a word here, so it should be marked with quotation marks like the phrase before it.",
+      "fout": "The word 'dag' is mentioned as a word but not marked, so a reader can stumble on 'beteken dag'.",
+      "rede_keurder": "Quotation marks match the quoted phrase just before it and make the sentence easier to read on first pass."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoe dag en nag ontstaan",
+      "voor": "wat na hom kyk en daar is dit dag",
+      "na": "wat na hom kyk, en daar is dit dag",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses ('Die Son skyn' / 'daar is dit dag').",
+      "rede_keurder": "Required AWS comma; meaning untouched."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoe dag en nag ontstaan",
+      "voor": "Dan is dit oggend en lyk dit",
+      "na": "Dan is dit oggend, en lyk dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses that each have their own subject and verb ('is dit oggend' / 'lyk dit').",
+      "rede_keurder": "Required AWS comma; the protected 'asof' is untouched."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoe dag en nag ontstaan",
+      "voor": "draai jou plek van die Son af weg en dit word aand",
+      "na": "draai jou plek van die Son weg, en dit word aand",
+      "soort": "idioom",
+      "rede_vinder": "'van die Son af weg' doubles the direction; the separable verb 'wegdraai van' takes 'van die Son weg', and the AWS comma joins the two clauses.",
+      "fout": "'van die Son af weg' doubles the direction, and the AWS comma before 'en dit word aand' is missing.",
+      "rede_keurder": "'van die Son weg' is the clean form of the separable verb and the comma is required; same action, same order."
+    },
+    {
+      "nr": 7,
+      "blok": "Hoe dag en nag ontstaan",
+      "voor": "By jou middag is dit nag",
+      "na": "Wanneer dit by jou middag is, is dit nag",
+      "soort": "sinsbou",
+      "rede_vinder": "'By jou middag' is unidiomatic Afrikaans; a time clause says naturally that it is midday where you are.",
+      "fout": "'By jou middag' is a compressed, unidiomatic time phrase.",
+      "rede_keurder": "A time clause says naturally that it is midday where you are, with no change in meaning."
+    },
+    {
+      "nr": 8,
+      "blok": "Elke planeet roteer",
+      "voor": "Al agt planete",
+      "na": "Al agt die planete",
+      "soort": "grammatika",
+      "rede_vinder": "The idiomatic construction is 'al agt die planete', with the article after the number.",
+      "fout": "'Al agt planete' lacks the article Afrikaans uses in this construction.",
+      "rede_keurder": "'Al agt die planete' is the natural idiom; the count and scope stay the same."
+    },
+    {
+      "nr": 9,
+      "blok": "Die Aarde reis om die Son",
+      "voor": "365¼ dae en ons noem daardie tyd",
+      "na": "365¼ dae, en ons noem daardie tyd",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb; the protected 'ongeveer 365¼ dae' is untouched.",
+      "fout": "Missing AWS comma between two clauses ('rewolusie neem' / 'ons noem').",
+      "rede_keurder": "Required AWS comma; the protected 'ongeveer 365¼ dae' stays intact."
+    },
+    {
+      "nr": 10,
+      "blok": "Twee bewegings, twee gevolge",
+      "voor": "roteer en wentel dus op dieselfde tyd",
+      "na": "roteer en wentel dus terselfdertyd",
+      "soort": "anglisisme",
+      "rede_vinder": "'op dieselfde tyd' calques 'at the same time'; Afrikaans says 'terselfdertyd' for two things happening simultaneously.",
+      "fout": "'op dieselfde tyd' is a calque of 'at the same time'.",
+      "rede_keurder": "'terselfdertyd' is the natural Afrikaans word for simultaneity and the meaning is identical."
+    },
+    {
+      "nr": 11,
+      "blok": "Twee bewegings, twee gevolge",
+      "voor": "draai die Aarde om sy as en reis dit ook verder",
+      "na": "draai die Aarde om sy as, en reis dit ook verder",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses that each have their own subject and verb ('draai die Aarde' / 'reis dit').",
+      "rede_keurder": "Required AWS comma; nothing else changes."
+    },
+    {
+      "nr": 12,
+      "blok": "Wys rotasie met 'n lamp en 'n bal",
+      "voor": "Neem 'n lamp vir die Son en 'n bal vir die Aarde",
+      "na": "Gebruik 'n lamp as die Son en 'n bal as die Aarde",
+      "soort": "anglisisme",
+      "rede_vinder": "'vir die Son' calques 'for the Sun'; standing in for something is expressed with 'as' in Afrikaans.",
+      "fout": "'Neem ... vir die Son' copies English 'for the Sun'; standing in for something takes 'as'.",
+      "rede_keurder": "In both versions the lamp represents the Sun and the ball the Earth, so the preposition fix keeps the meaning and reads naturally."
+    },
+    {
+      "nr": 13,
+      "blok": "Wys rotasie met 'n lamp en 'n bal",
+      "voor": "Die kant na die lamp is lig en die kant",
+      "na": "Die kant na die lamp is lig, en die kant",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses ('Die kant ... is lig' / 'die kant ... is donker').",
+      "rede_keurder": "Required AWS comma; meaning untouched."
+    },
+    {
+      "nr": 14,
+      "blok": "Wys rotasie met 'n lamp en 'n bal",
+      "voor": "Die lamp bly op sy plek en tog",
+      "na": "Die lamp bly op sy plek, en tog",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb; the protected phrase about the spot is untouched.",
+      "fout": "Missing AWS comma between two clauses ('Die lamp bly' / 'word 'n kol').",
+      "rede_keurder": "Required AWS comma; the protected phrase about the spot is untouched."
+    },
+    {
+      "nr": 15,
+      "blok": "Wys rotasie met 'n lamp en 'n bal",
+      "voor": "se draai alleen genoeg is",
+      "na": "se draai op sy eie genoeg is",
+      "soort": "woordkeuse",
+      "rede_vinder": "'alleen genoeg' reads awkwardly and 'alleen' can be misread as 'lonely'; 'op sy eie' says plainly that the turning by itself is enough.",
+      "fout": "'alleen genoeg' is awkward and can be misread as 'only enough'.",
+      "rede_keurder": "'op sy eie genoeg' says plainly that the turning by itself suffices, which is what the original means."
+    },
+    {
+      "nr": 16,
+      "blok": "Die ekstra kwart dag",
+      "voor": "Elke jaar bly 'n kwart dag oor en na vier jaar",
+      "na": "Elke jaar bly 'n kwart dag oor, en na vier jaar",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma between two clauses (''n kwart dag bly oor' / 'is dit amper 'n hele dag').",
+      "rede_keurder": "Required AWS comma; the protected 'amper 'n hele dag' stays intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 516,
+  "woorde_na": 519,
+  "wanneer": "2026-10-28T09:31:17+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:269df5d68ccf99dae1df54f16475c4fb",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:2100368c5fb00ee32eb6a51d8da889a9"
+}

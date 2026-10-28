@@ -1,0 +1,62 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die lampie-toets",
+      "voor": "'n Skuifspeld met 'n laag plastiek of verf om kan die lampie donker hou.",
+      "na": "'n Skuifspeld wat met 'n laag plastiek of verf bedek is, kan die lampie donker hou.",
+      "soort": "sinsbou",
+      "rede_vinder": "The dangling 'om' directly before 'kan' makes the sentence hard to parse; a relative clause with a comma reads naturally and keeps the meaning.",
+      "fout": "The particle 'om' lands directly before 'kan', so a reader stumbles on where the noun phrase ends.",
+      "rede_keurder": "The relative clause with 'bedek' reads naturally on a first pass and keeps the same meaning (a clip with a coating around it), with no heading or protected wording touched."
+    },
+    {
+      "nr": 2,
+      "blok": "Water en jou lyf",
+      "voor": "om genoeg daardeur te stuur",
+      "na": "om genoeg elektrisiteit daardeur te stuur",
+      "soort": "verwysing",
+      "rede_vinder": "'genoeg' has no noun, so the learner must guess what is sent; naming 'elektrisiteit' matches the next sentence and adds no content.",
+      "fout": "'genoeg' stands without a noun, leaving a Grade 6 reader to infer what is sent through.",
+      "rede_keurder": "Naming 'elektrisiteit' only spells out what is already meant, matches the next sentence, and leaves the protected wording before it intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "Hulle gelei baie swakker as metaal en 'n sel stoot te swak",
+      "rede": "This joins two clauses with their own subject and verb ('Hulle gelei', ''n sel stoot'), so AWS 2017 requires a comma before 'en' ('as metaal, en 'n sel stoot'); I did not propose it because the comma falls inside the protected wording. A person may want to update the protected entry to include the comma."
+    }
+  ],
+  "woorde_voor": 542,
+  "woorde_na": 545,
+  "wanneer": "2026-10-28T09:00:47+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Plastiek hou dit tegen",
+      "voor": "harde gebakte klei",
+      "na": "harde, gebakte klei",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives before a noun are separated by a comma.",
+      "fout": "none",
+      "rede_keurder": "'gebakte klei' works as one unit that 'harde' describes, so the comma is optional and not clearly better."
+    },
+    {
+      "nr": 9,
+      "blok": "Handskoene en kraglyne",
+      "voor": "Die isolator hou die draad",
+      "na": "So 'n isolator hou die draad",
+      "soort": "verwysing",
+      "rede_vinder": "The previous sentence speaks of 'isolators' in the plural, so the singular 'Die isolator' has no clear antecedent.",
+      "fout": "none",
+      "rede_keurder": "A generic singular 'Die isolator' after a plural is idiomatic Afrikaans, so the change is lateral."
+    }
+  ],
+  "konsep_hash_voor": "sha256:da4dc054031e09cd56c63eb1ef167918",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:daf8f4953d9618392848601cbbba2512"
+}

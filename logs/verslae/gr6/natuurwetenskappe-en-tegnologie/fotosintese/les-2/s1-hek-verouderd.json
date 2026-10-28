@@ -4,17 +4,20 @@
   "graad": 6,
   "vak": "Natuurwetenskappe en Tegnologie",
   "budget": 360,
-  "checked_at": "2026-09-22T09:34:31+00:00",
+  "begrotingsreel": "default ±15%: 306-414",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-28T08:35:05+00:00",
   "study": {
-    "words": 387,
-    "sentences": 31,
-    "mean_sentence_len": 12.5,
-    "median_sentence_len": 12,
+    "words": 379,
+    "sentences": 30,
+    "mean_sentence_len": 12.7,
+    "median_sentence_len": 12.0,
     "longest_sentence": 18,
-    "mean_syllables": 1.36,
-    "pct_polysyllabic": 5.7,
-    "pct_long_words": 3.6,
-    "commas_per_sentence": 0.35
+    "mean_syllables": 1.37,
+    "pct_polysyllabic": 5.5,
+    "pct_long_words": 3.7,
+    "commas_per_sentence": 0.37
   },
   "eli10": null,
   "block_counts": {
@@ -24,12 +27,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Study block 2 ('Hoe mense en diere suurstof gebr') 116 words (guide 30–110) — will overflow its section",
-    "Study text: 3.6% of words exceed 10 characters (guide 3.0%)",
+    "Study text: 0.37 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Study text: 3.7% of words exceed 10 characters (guide 3.0%)",
     "Long words in study text with no 'begrip' entry: fotosintese, lewensprosesse"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

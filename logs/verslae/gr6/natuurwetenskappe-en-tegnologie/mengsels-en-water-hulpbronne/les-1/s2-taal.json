@@ -1,0 +1,77 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe dinge in ons water beland",
+      "voor": "Iemand het dit weggegooi en die wind",
+      "na": "Iemand het dit weggegooi, en die wind",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Iemand het ... weggegooi' / 'die wind of die reen het ... gebring').",
+      "rede_keurder": "Required AWS 2017 comma between two full clauses; meaning unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Gif wat jy nie kan sien nie",
+      "voor": "kan plante en diere in die water beseer of doodmaak",
+      "na": "kan plante en diere in die water skaad of doodmaak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Beseer' (injure) sits oddly with plants; 'skaad' covers plants and animals naturally.",
+      "fout": "'Beseer' (injure) sits awkwardly with plants as its object.",
+      "rede_keurder": "'Skaad' fits plants and animals naturally and keeps the sense of harm alongside 'doodmaak'."
+    },
+    {
+      "nr": 4,
+      "blok": "Kunsmis laat waterplante te vinnig groei",
+      "voor": "Hulle kan dan 'n dam of 'n stil stuk rivier toegroei",
+      "na": "Hulle kan dan 'n dam of 'n stil stuk rivier oorgroei",
+      "soort": "idioom",
+      "rede_vinder": "'Toegroei' is normally intransitive (iets groei toe); with an object, 'oorgroei' is the idiomatic verb.",
+      "fout": "'Toegroei' is intransitive in normal use ('die dam groei toe'), so taking 'n dam' as object is unidiomatic.",
+      "rede_keurder": "'Oorgroei' is the natural transitive verb here and the picture of plants taking over the water stays the same."
+    },
+    {
+      "nr": 5,
+      "blok": "Drie soorte besoedeling in water",
+      "voor": "Oplosbare stowwe los op en jy kan",
+      "na": "Oplosbare stowwe los op, en jy kan",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: two clauses with their own subjects ('stowwe', 'jy') joined by 'en', matching the item above it.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subjects ('stowwe', 'jy') and verbs.",
+      "rede_keurder": "Required AWS 2017 comma; meaning unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Gif wat jy nie kan sien nie",
+      "voor": "los in die water op en versprei deur die water",
+      "na": "los in die water op en versprei daardeur",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids repeating 'die water' twice in one short clause.",
+      "fout": "none",
+      "rede_keurder": "The repetition is mild and plain for Grade 6, while 'daardeur' is stiffer and can be read as 'as a result of that', which risks moving the meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Drie soorte besoedeling in water",
+      "voor": "wat te klein is om te sien en mense siek kan maak",
+      "na": "wat mense siek kan maak en te klein is om te sien",
+      "soort": "woordorde",
+      "rede_vinder": "The original can be misread as 'too small to see and to make people sick'; reordering removes the ambiguity without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "The finite 'kan maak' already ties the second clause to 'wat', so the misreading is unlikely, and the original order keeps visibility first in line with the other two list items."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 505,
+  "woorde_na": 505,
+  "wanneer": "2026-10-28T08:32:31+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:4ec36b93db7cbb224d45b691bff0e9b1",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:26abb9026a1fb7900590c880f05788d7"
+}

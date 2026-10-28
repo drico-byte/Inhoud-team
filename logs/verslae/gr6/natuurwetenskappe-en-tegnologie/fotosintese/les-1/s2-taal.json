@@ -1,0 +1,97 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die plant se eie suiker",
+      "voor": "dieselfde suiker as die suiker in julle suikerpot",
+      "na": "dieselfde suiker as dié in julle suikerpot",
+      "soort": "sinsbou",
+      "rede_vinder": "Avoids repeating 'suiker' three times in one short sentence.",
+      "fout": "'suiker' is repeated needlessly in one short sentence ('dieselfde suiker as die suiker').",
+      "rede_keurder": "'as dié in julle suikerpot' is the natural Afrikaans way to avoid the repetition, and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoekom juis die blare?",
+      "voor": "hulle wye boonste kant",
+      "na": "hulle wye bokant",
+      "soort": "woordkeuse",
+      "rede_vinder": "'bokant' is the natural Afrikaans noun for the upper surface; 'boonste kant' reads wooden.",
+      "fout": "'boonste kant' is a wooden two-word paraphrase of an ordinary noun.",
+      "rede_keurder": "'bokant' is the plain Afrikaans noun for a leaf's upper side and says exactly the same thing."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat die plant gebruik",
+      "voor": "uit die grond op en dun buisies",
+      "na": "uit die grond op, en dun buisies",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma: 'Die wortels neem ... op' and 'dun buisies ... lei dit' are two clauses, each with its own subject and verb.",
+      "rede_keurder": "The AWS 2017 requires a comma before 'en' joining two full clauses."
+    },
+    {
+      "nr": 4,
+      "blok": "Van glukose na stysel",
+      "voor": "om te lewe en te groei en verander 'n ander deel in stysel",
+      "na": "om te lewe en te groei. 'n Ander deel verander hy in stysel",
+      "soort": "sinsbou",
+      "rede_vinder": "The chain of three 'en' links makes the sentence hard to follow; splitting it keeps the meaning and reads more clearly.",
+      "fout": "Three 'en' links in a row ('lewe en te groei en verander') make the sentence hard to follow on a first reading.",
+      "rede_keurder": "The split keeps the same subject, both actions and their order, and reads clearly; 'hy' for the plant matches the lesson's usage elsewhere."
+    },
+    {
+      "nr": 5,
+      "blok": "Van glukose na stysel",
+      "voor": "Dit verskil van plant tot plant watter dele die meeste bêre.",
+      "na": "Watter dele die meeste stysel bêre, verskil van plant tot plant.",
+      "soort": "woordorde",
+      "rede_vinder": "The anticipatory 'Dit' and bare 'die meeste bêre' are vague; naming stysel and putting the subject clause first is clearer.",
+      "fout": "'die meeste bêre' has no object, so it is vague which thing is stored most.",
+      "rede_keurder": "Naming 'stysel', which the whole paragraph is about, makes the sentence clear without adding a fact, and the qualifier 'die meeste' stays intact."
+    },
+    {
+      "nr": 6,
+      "blok": "Van glukose na stysel",
+      "voor": "met baie stysel in",
+      "na": "met baie stysel daarin",
+      "soort": "idioom",
+      "rede_vinder": "'met ... in' is colloquial; standard written Afrikaans uses 'daarin' here.",
+      "fout": "'met baie stysel in' is colloquial for written text.",
+      "rede_keurder": "'daarin' is the standard written form and the meaning is the same."
+    },
+    {
+      "nr": 7,
+      "blok": "Kos vir later",
+      "voor": "om kos mee te maak nie en die jong plantjie",
+      "na": "om kos mee te maak nie, en die jong plantjie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma: 'n Boontjiesaad ... het' and 'die jong plantjie groei' are two clauses, each with its own subject and verb.",
+      "rede_keurder": "The AWS 2017 requires a comma before 'en' joining two full clauses."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 8,
+      "blok": "Kos vir later",
+      "voor": "uit sy kos, en ook 'n dier wat die plant eet",
+      "na": "uit sy kos, en 'n dier wat die plant eet, kry dit ook",
+      "soort": "sinsbou",
+      "rede_vinder": "The tacked-on phrase without its own verb reads awkwardly; giving it a verb makes a proper second clause that justifies the comma.",
+      "fout": "none",
+      "rede_keurder": "The elliptical 'en ook 'n dier wat die plant eet' is acceptable Afrikaans, while the proposal is longer and its 'dit' could point to either 'energie' or 'kos'."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 538,
+  "woorde_na": 536,
+  "wanneer": "2026-10-28T08:35:03+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:d86109b16866c03405ec6787932bd748",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:cc3af89f129cb95d27d4fd8ac68cbecf"
+}

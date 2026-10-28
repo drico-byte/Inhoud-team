@@ -1,0 +1,89 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Modelle en speelgoed",
+      "voor": "'n Motor binne-in laat sy wiele draai.",
+      "na": "'n Motor binne-in laat die wiele draai.",
+      "soort": "verwysing",
+      "rede_vinder": "'sy' can be read as the motor's wheels rather than the toy car's; 'die' removes the ambiguity without changing the meaning.",
+      "fout": "'sy' in a sentence whose subject is 'n Motor' can be read as the motor's wheels instead of the toy car's.",
+      "rede_keurder": "'die wiele' removes the pronoun ambiguity, keeps the meaning and sentence length, and touches no protected wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Wanneer is 'n stelsel goed",
+      "voor": "wanneer dit nodig is en ook net dan",
+      "na": "wanneer dit nodig is en net dan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'ook' is redundant before 'net dan' and makes the phrase wooden; 'en net dan' is the natural idiom.",
+      "fout": "none",
+      "rede_keurder": "'en ook net dan' is natural Afrikaans with a slight emphasis on the second condition, so dropping 'ook' is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die skakelaar beheer die stelsel",
+      "teks": "In 'n stelsel is dit die deel wat beheer.",
+      "rede": "'beheer' is left without an object, so the sentence feels unfinished; supplying one (what it controls) would mean choosing content, so the writer should decide."
+    },
+    {
+      "blok": "Wanneer is 'n stelsel goed",
+      "teks": "Wanneer is 'n stelsel goed",
+      "rede": "The block heading is phrased as a question but has no question mark; headings cannot be changed by the language step, so the writer should decide whether to punctuate or rephrase it."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 545,
+  "woorde_na": 545,
+  "wanneer": "2026-10-28T11:01:54+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Ses stelsels wat elke dag probleme oplos",
+      "voor": "mense kan in die nag sien",
+      "na": "mense kan snags sien",
+      "soort": "idioom",
+      "rede_vinder": "'snags' is the natural Afrikaans adverb; 'in die nag' is stiff here.",
+      "fout": "none",
+      "rede_keurder": "'in die nag' is plain, natural Afrikaans; 'snags' is a lateral move."
+    },
+    {
+      "nr": 10,
+      "blok": "'n Skakelaar sonder 'n hand",
+      "voor": "is deel van een stroombaan",
+      "na": "is deel van dieselfde stroombaan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'dieselfde' makes clear that the loop and the wire share one circuit; 'een' can read as 'a circuit'.",
+      "fout": "none",
+      "rede_keurder": "'een stroombaan' already says the loop and wire share one circuit; 'dieselfde' is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Ses stelsels wat elke dag probleme oplos",
+      "voor": "hulle maak 'n kamer warm op 'n koue dag",
+      "na": "hulle maak 'n kamer op 'n koue dag warm",
+      "soort": "woordorde",
+      "rede_vinder": "In standard Afrikaans the adverbial phrase comes before the predicate complement 'warm', which closes the sentence with the verb group.",
+      "fout": "none",
+      "rede_keurder": "Putting the time phrase after 'warm' is normal, natural Afrikaans, so moving it is a sideways change that makes the list item no easier to read."
+    },
+    {
+      "nr": 3,
+      "blok": "'n Skakelaar sonder 'n hand",
+      "voor": "vastehand-spel",
+      "na": "vastehandspel",
+      "soort": "spelling",
+      "rede_vinder": "AWS writes compounds as one word; no vowel clash or readability need justifies the hyphen here.",
+      "fout": "none",
+      "rede_keurder": "The AWS lets a three-part compound take a hyphen at its main break to make it easier to read, and 'vastehand-spel' helps a Grade 6 reader see the game's name, so the original is not a fault."
+    }
+  ],
+  "konsep_hash_voor": "sha256:259dda12abb11d8c2d3caeffc01bd807",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b0edde81ac78f51d8f9091162d5f9333"
+}

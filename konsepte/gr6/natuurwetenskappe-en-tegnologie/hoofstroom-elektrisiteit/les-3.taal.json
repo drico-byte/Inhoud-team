@@ -1,0 +1,82 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die wind draai die lemme",
+      "voor": "Dit is dieselfde paar as in 'n steenkoolkragstasie",
+      "na": "Dit is dieselfde twee masjiene as in 'n steenkoolkragstasie",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Dieselfde paar' is vague without a noun; both parts are defined as machines in the lesson's own glossary, so naming them adds no content.",
+      "fout": "'dieselfde paar' stands without a noun, a calque of English 'the same pair' that reads vague in Afrikaans.",
+      "rede_keurder": "Naming the pair as two machines matches the lesson's own glossary, adds no fact, keeps the colon's explanation intact and does not split the sentence."
+    },
+    {
+      "nr": 2,
+      "blok": "Die sonpaneel werk anders",
+      "voor": "soms in lang rye op oop veld",
+      "na": "soms in lang rye in die oop veld",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans says 'in die (oop) veld', not 'op oop veld'.",
+      "fout": "'op oop veld' lacks the article and is not the natural Afrikaans expression.",
+      "rede_keurder": "'in die oop veld' is the natural fixed expression and the location meant (panels standing on open land) is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Die sonpaneel werk anders",
+      "voor": "kan amper so lyk",
+      "na": "kan amper net so lyk",
+      "soort": "idioom",
+      "rede_vinder": "'Amper net so lyk' is the natural idiom for looking nearly the same.",
+      "fout": "'amper so lyk' is an incomplete form of the fixed expression for looking nearly the same.",
+      "rede_keurder": "'amper net so lyk' is the idiomatic Afrikaans and says exactly the same thing."
+    },
+    {
+      "nr": 4,
+      "blok": "Die sonpaneel werk anders",
+      "voor": "maar dit maak water warm en nie elektrisiteit nie",
+      "na": "maar dit maak water warm en maak nie elektrisiteit nie",
+      "soort": "sinsbou",
+      "rede_vinder": "'Maak warm' and 'maak elektrisiteit' are different constructions, so sharing one verb reads awkwardly; repeating the verb makes the contrast clear.",
+      "fout": "The shared verb of separable 'warm maak' lets 'nie elektrisiteit nie' read as 'does not heat electricity'.",
+      "rede_keurder": "Repeating 'maak' makes the contrast unambiguous without changing the claim, and it stays one sentence."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "solank ons dit nie vinniger gebruik as wat die natuur dit aanvul nie",
+      "rede": "In the block 'Wat die natuur weer aanvul' the sentence starts 'Hulle raak nie op nie' (the son, wind and water), so the protected 'dit ... dit' disagrees in number with its antecedent; 'hulle ... hulle' would agree. The glossary entry, which starts with 'Dit', is fine. Left unchanged because the wording is protected."
+    }
+  ],
+  "woorde_voor": 468,
+  "woorde_na": 472,
+  "wanneer": "2026-10-28T10:12:59+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Wat die natuur weer aanvul",
+      "voor": "Die wind hou op en begin later weer waai.",
+      "na": "Die wind gaan lê en begin later weer waai.",
+      "soort": "idioom",
+      "rede_vinder": "'Die wind gaan lê' is the natural Afrikaans idiom for wind dying down; the meaning is unchanged.",
+      "fout": "none",
+      "rede_keurder": "'Hou op en begin later weer waai' is a clean pair and already reads well; 'gaan lê' means dying down rather than stopping, so it is a sideways move that also shifts the meaning slightly."
+    },
+    {
+      "nr": 5,
+      "blok": "Water wat van hoog af stroom",
+      "voor": "deur groot pype af na turbines",
+      "na": "deur groot pype na turbines",
+      "soort": "sinsbou",
+      "rede_vinder": "'af ... laer af' repeats the particle in one short sentence; 'stroom ... na turbines wat laer af staan' already says the water goes down.",
+      "fout": "none",
+      "rede_keurder": "'deur groot pype af' is natural Afrikaans and carries the downward movement of the water; dropping 'af' loses that for a small gain in style."
+    }
+  ],
+  "konsep_hash_voor": "sha256:722b3721212a2356927f1de2bf5ffc1c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f705cb9037dfffdb225f5b833aacdeaf"
+}

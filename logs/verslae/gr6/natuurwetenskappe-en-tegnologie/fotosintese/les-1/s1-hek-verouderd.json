@@ -4,17 +4,20 @@
   "graad": 6,
   "vak": "Natuurwetenskappe en Tegnologie",
   "budget": 500,
-  "checked_at": "2026-09-22T09:38:22+00:00",
+  "begrotingsreel": "default ±15%: 425-575",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-28T09:20:59+00:00",
   "study": {
-    "words": 538,
-    "sentences": 43,
-    "mean_sentence_len": 12.5,
+    "words": 535,
+    "sentences": 45,
+    "mean_sentence_len": 11.9,
     "median_sentence_len": 10,
-    "longest_sentence": 31,
-    "mean_syllables": 1.38,
-    "pct_polysyllabic": 6.3,
-    "pct_long_words": 1.9,
-    "commas_per_sentence": 0.3
+    "longest_sentence": 33,
+    "mean_syllables": 1.4,
+    "pct_polysyllabic": 6.5,
+    "pct_long_words": 2.1,
+    "commas_per_sentence": 0.38
   },
   "eli10": null,
   "block_counts": {
@@ -24,10 +27,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: glukoselekkers, hoofsaaklik, jodiumtoets, pampoenplant, sonneblomsaad"
+    "Study text: 0.38 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Study text: longest sentence is 33 words — check for a missing full stop",
+    "Long words in study text with no 'begrip' entry: glukoselekkers, hoofsaaklik, pampoenblare, pampoenplant, sonneblomsaad"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

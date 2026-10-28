@@ -1,0 +1,242 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Wat elektrisiteit kos, en waar dit onveilig word",
+  "kaps_punt": "elektrisiteit is duur omdat: dit infrastruktuur vereis, insluitende steenkoolmyne, vervoer, kragstasies, kabels, substasies, bedrading; sommige elektriese toestelle vereis meer elektrisiteit as ander (verhittings toestelle gebruik die meeste); hoe meer elektrisiteit ons gebruik, hoe meer betaal ons en hoe meer steenkool word gebruik; ons kan energie bespaar op baie maniere, insluitend die gebruik van energiebesparende gloeilampe en sonkrag waterverwarmers; onwettige elektriese verbindings is 'n gevaar vir mense, want hulle is dikwels onveilig",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "bewering": "Dit begin by steenkoolmyne, waar werkers steenkool uit die grond haal. Treine, trokke of lang vervoerbande bring die steenkool na die kragstasies.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "bron": "CSIR-verslag oor Eskom se steenkoolvervoer (researchspace.csir.co.za): volgens gewig ongeveer 60% vervoerband, 30% pad, 10% spoor; Engineering News 2018: twaalf kragstasies ontvang net per pad, vyf per spoor, ongeveer tien per vervoerband. Eskom (eskom.co.za/about-eskom/about-electricity/electricity-technologies/) bevestig dat baie kragstasies langs die myne staan, wat strook met vervoerbande.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Daar brand die steenkool, en groot masjiene maak elektrisiteit.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "bron": "Eskom, Electricity technologies (eskom.co.za/about-eskom/about-electricity/electricity-technologies/): steenkool word fyngemaal en in ketels verbrand, die stoom draai turbines wat generators aandryf. 'Groot masjiene' is 'n eerlike vereenvoudiging.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Dik kabels hang meestal aan hoë kragmaste en dra die elektrisiteit ver oor die land na substasies.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "bron": "Eskom se oordragnetwerk: ongeveer 31 000 km oordraglyne (hoofsaaklik 400 kV en 765 kV bogrondse lyne) en 157 oordragsubstasies (Businesstech 2018; Eskom se ontwikkelingsplan vir oordrag, eskom.co.za). Langafstandoordrag in Suid-Afrika is bogronds; 'meestal' is die korrekte kwantor.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Van daar loop drade tot by die bedrading in die mure van jou huis of skool.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "bron": "Eskom, GX 0004 Basic Principles of Electricity (eskom.co.za): oordrag op hoë spanning, daarna verspreiding na verbruikers via substasies en verspreidingslyne. Vereenvoudig, nie vals nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Al hierdie geboue, masjiene en drade noem ons infrastruktuur. Mense moet elke deel bou en dit elke dag laat werk en heel hou. Dit alles kos baie geld en is die eerste rede waarom elektrisiteit duur is.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "bron": "'Die eerste rede' is hier 'n rangorde binne die les se eie lys (die eerste van die redes wat die les gee), nie 'n bewering dat dit die belangrikste of oudste rede is nie; dit stem ooreen met die volgorde van die KABV-punt self. Die koste van oordraginfrastruktuur: Eskom se oordragontwikkelingsplan beplan 14 000 km nuwe lyne vir miljarde rande (powerline.net.in 2023; Businesstech, lening van R2,9 miljard).",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Die elektrisiteit wat jou lig laat brand, het 'n lang pad agter die rug. Dit begin by steenkoolmyne",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "bron": "Afbeelding nagegaan: die 'lang pad' is 'n beeld vir die ketting van infrastruktuur, en die blok onderskei self dat steenkool na die kragstasie vervoer word en dat elektrisiteit eers daar gemaak word. 'n Leerder wat verder redeneer, word nie gelei om te dink elektrisiteit kom uit die myn nie. Feitelik gesteun deur dieselfde Eskom- en CSIR-bronne as hierbo.",
+      "tipe": "analogie"
+    },
+    {
+      "bewering": "'n Klein radio kan die hele middag speel sonder dat dit warm voel. 'n Ketel werk net 'n paar minute, maar in daardie tyd word die water kookwarm.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "bron": "Daftlogic, Appliance power consumption (daftlogic.com/information-appliance-power-consumption.htm) en Penn State EGEE 102 (e-education.psu.edu/egee102): radio ongeveer 10-15 W, ketel 1200-3000 W; 'n ketel kook 'n liter water binne enkele minute.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Dit vra baie energie om iets warm te maak, veral water. Dit vra baie meer energie as om lig of klank te maak.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "bron": "IOP Spark, Specific heat capacity (spark.iop.org/specific-heat-capacity) en LibreTexts 7.02: water het 'n ongewoon hoë spesifieke warmtekapasiteit (ongeveer 4 184 J per kg per °C). Op toestelvlak trek verhittingstoestelle (1 500-3 000 W) baie meer as ligte of radio's (tiene watt) - Daftlogic, Penn State EGEE 102.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Daarom vra toestelle wat hitte maak, die meeste elektrisiteit terwyl hulle aan is. Die ketel, die stoof, die verwarmer en die geiser vir badwater is sulke toestelle.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "bron": "Pinergy (pinergy.ie, high-energy-using appliances): toestelle wat verhit of verkoel gebruik die meeste; Daftlogic: ketel 1200-3000 W, stoofplaat ongeveer 1300 W, verwarmer ongeveer 1500 W; SA-geisers 3-4 kW. Die superlatief is behoorlik begrens deur 'terwyl hulle aan is' (tempo, nie totaal nie), en die volgende blok hanteer die tydsfaktor. Dit stem ooreen met die KABV se eie bewoording.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Die meeste toestelle het 'n etiket wat wys hoeveel elektrisiteit hulle nodig het. Die getal op 'n ketel is baie keer groter as dié op 'n klein radio.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "bron": "Save My Exams, Power ratings (savemyexams.co.uk): die drywingsgradering van huishoudelike toestelle word normaalweg op 'n etiket gegee; ketelhandleidings (Universiteit van Cumbria, Wolverhampton) plaas die graderingsplaat onder die ketel, met wattage soos 2550-3000 W teenoor ongeveer 10-15 W vir 'n radio - meer as honderd keer. Die etiket wys wat 'n toestel trek terwyl dit aan is (watt), nie sy totale gebruik nie; die les se volgende blok maak daardie onderskeid self, dus is die sin nie misleidend nie.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "Hoe meer elektrisiteit 'n huis gebruik, hoe meer moet die mense daarvoor betaal.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "bron": "Tower Hamlets, Using appliances wisely (towerhamlets.gov.uk): koste per toestel word bereken uit drywing maal gebruikstyd; Eskom en munisipale tariewe word per kWh gehef (Kwikot, kwikot.com, oor geiserkoste en rekeninge).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die meeste van Suid-Afrika se elektrisiteit kom van kragstasies wat steenkool brand.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "bron": "Stats SA, A breakdown of South Africa's energy mix (statssa.gov.za/?p=19502), soos berig deur Energize en Business Report: steenkool het in 2024 ongeveer 83% van die elektrisiteit gelewer (90% in 2016). Ember se maandsyfer vir Januarie 2025 was 74%; 'die meeste' bly in albei gevalle waar.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Hoe meer ons gebruik, hoe meer steenkool moet daardie kragstasies dus brand.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "bron": "Volg uit die steenkoolaandeel hierbo; Business Report (Mei 2026): steenkoolopwekking het van 2023 tot 2024 met 7% tot 177,9 TWh gestyg toe meer elektrisiteit gelewer is. Die bewering is in die algemeen waar vir Suid-Afrika se stelsel.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Twee dinge bepaal hoeveel 'n toestel altesaam gebruik. Die een is hoeveel dit vra terwyl dit aan is, en die ander is hoe lank dit aan is.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "bron": "Penn State EGEE 102, Energy use of home appliances (e-education.psu.edu/egee102): energie = drywing maal tyd (watt maal ure gee watt-uur).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Geiser maak hitte en staan boonop dikwels ure lank aan.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "bron": "Kwikot, Cut your electricity bill (kwikot.com) en ITWeb: waterverhitting beslaan ongeveer 30-50% van 'n gemiddelde Suid-Afrikaanse huishouding se elektrisiteitsverbruik, ongeveer 40% volgens Eskom-gerigte bronne; geisers bly lank aangeskakel en die termostaat verhit telkens weer (EWN en Briefly oor slim geiserbeheerders).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Lig wat die hele nag brand, gebruik meer as dieselfde lig wat jy afskakel wanneer jy gaan slaap.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "bron": "Penn State EGEE 102: energie = drywing maal tyd; dieselfde drywing oor langer tyd gee meer energie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Ons kan op baie maniere energie bespaar. Dan betaal ons minder, en die kragstasies hoef minder steenkool te brand.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "bron": "Energy.gov, Lighting choices to save you money (energy.gov/energysaver/lighting-choices-save-you-money); gevolg oor steenkool volg uit Stats SA se 83%-steenkoolaandeel.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Ou gloeilamp word baie warm, want 'n groot deel van sy energie gaan as hitte weg.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "bron": "AP-berigte wat die Amerikaanse departement van energie aanhaal (Christian Science Monitor, Boston Globe, Augustus 2023): net ongeveer 5% van 'n gloeilamp se energie word lig, ongeveer 95% gaan as hitte verlore; Colby College (web.colby.edu/ch141): minder as 5% word sigbare lig. 'n Groot deel' is versigtig en korrek.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Energiebesparende gloeilamp word minder warm en gee dieselfde lig met baie minder elektrisiteit.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "bron": "Energy.gov, LED Lighting (energy.gov/energysaver/led-lighting): LED's gebruik minstens 75% minder energie as gloeilampe; ENERGY STAR-gebaseerde tabel (East Carolina University, cet.ecu.edu): 'n 15 W CFL gee dieselfde lig as 'n 60 W gloeilamp, ongeveer 75% besparing. Lighting-bronne (litetronics.com) bevestig dat CFL's en LED's minder hitte afgee.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Ander manier is om 'n sonkragwaterverwarmer op die dak te gebruik. Dit maak die water warm met die Son se hitte. Dan hoef die elektriese geiser minder te doen.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "bron": "Kwikot, The complete South African solar geyser guide (kwikot.com/your-complete-guide-to-solar-geysers-in-south-africa) en Energybee (energybee.co.za): 'n dakkollektor absorbeer sonstraling en dra die hitte na die water oor; 'n elektriese element vul net aan waar die son nie genoeg is nie. 'Die Son se hitte' is 'n aanvaarbare vereenvoudiging van sonstraling wat as hitte geabsorbeer word.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Jy kan self ook help. Skakel ligte en toestelle af wanneer niemand hulle gebruik nie. Kook net soveel water in die ketel as wat jy nodig het.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "bron": "Tower Hamlets, Using appliances wisely (towerhamlets.gov.uk) en Energy.gov Energy Saver: afskakel wat nie gebruik word nie en net die nodige water kook, bespaar energie (energie = drywing maal tyd, en minder water vra minder energie om te verhit).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Soms word drade sonder toestemming van die verskaffer van elektrisiteit aan kraglyne of 'n mini-substasie gekoppel. So 'n draad noem ons 'n onwettige verbinding.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "bron": "SAnews, Eskom cautions against illegal connections (sanews.gov.za/node/32666); TimesLive Oktober 2026 en Daily Maverick: City Power vind onwettige verbindings aan sy mini-substasies en lyne en ontkoppel dit.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Mini-substasie is 'n substasie in 'n kas wat in baie strate staan.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "bron": "ABB, compact secondary substations (new.abb.com): transformator, skakeltuig en laagspanningsbord in een metaalomhulsel; Wilson Transformer Company (wtc.com.au): wyd gebruik in woongebiede met ondergrondse verspreiding; City Power-berigte (citizen.co.za, ewn.co.za) oor mini-substasies in Johannesburgse strate.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Sulke drade is dikwels onveilig gemaak en slordig neergelê. Party lê dwarsoor paadjies en ander plekke waar mense loop.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "bron": "Eskom-verklarings (Sowetan 2016; IOL Augustus 2026): dit is dikwels kinders wat doodgeskok word wanneer hulle onwetend 'slordig neergelegde kabels' aanraak; drade het dikwels geen behoorlike isolasie nie en hang nie op 'n veilige hoogte nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Dikwels is daar ook niks wat die elektrisiteit afskakel as iets verkeerd loop nie.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "bron": "Eskom, Spotlight on electricity safety to reduce casualties (eskom.co.za/spotlight-on-electricity-safety-to-reduce-casualties/): onwettige drade is gewoonlik nie aan 'n aardlekeenheid of ander beskerming gekoppel nie; TimesLive 2021 (City Power): by 'n dodelike geval was die aarddraad ontkoppel, sodat die aardlek nie kon uitskakel nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "So 'n draad kan iemand doodskok wat net daaraan raak, ook 'n kind wat niks daarmee te doen gehad het nie. Dit kan ook brande veroorsaak.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "bron": "Eskom via IOL/Engineering News (27 Augustus 2026): kinders is dikwels die slagoffers; swak geinstalleerde of oorlaaide lyne is van die grootste oorsake van brande in informele nedersettings; Cape Argus 2011: onwettige kraglyne 'n brandgevaar; Dispatch Live 2022: kind deur onwettige verbinding doodgeskok.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Moenie so 'n draad aanraak nie. Bly ver weg en sê dadelik vir 'n grootmens.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "bron": "Eskom (IOL, Augustus 2026): 'Moenie dit aanraak nie, moenie dit verwyder nie, en moenie dit ignoreer nie' - rapporteer dit; ouers moet kinders weg van kraglyne en substasies hou. Die les se raad strook hiermee en vra nie dat die kind self iets met die draad doen nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "infrastruktuur: Al die geboue, masjiene, paaie en drade wat nodig is om dienste soos elektrisiteit te lewer.",
+      "blok": "infrastruktuur",
+      "status": "bevestig",
+      "bron": "Standaardbetekenis van infrastruktuur as die fisiese strukture en fasiliteite wat vir dienste nodig is; vir elektrisiteit sluit Eskom se eie beskrywing myne, vervoer (pad, spoor, vervoerband), kragstasies, lyne en substasies in (Eskom, electricity technologies; CSIR-verslag). Eenvoudig en akkuraat.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "substasie: 'n Plek met groot masjiene wat die elektrisiteit se stoot of pad verander.",
+      "blok": "substasie",
+      "status": "bevestig",
+      "bron": "Eskom se omgewingsdokumente (eskom.co.za/eia/tx, Chapter 1): substasies verander spanningsvlakke, verbind generators en lyne, en isoleer foute. 'Stoot' vir spanning en 'pad' vir die skakeling is 'n akkurate vereenvoudiging.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "toestel: In 'n stroombaan: iets wat die energie wat elektrisiteit bring, gebruik om lig, klank, beweging of hitte te gee.",
+      "blok": "toestel",
+      "status": "bevestig",
+      "bron": "Eskom, GX 0004 Basic Principles of Electricity (eskom.co.za): 'n las in 'n stroombaan sit elektriese energie om in ander vorme soos lig, hitte, klank en beweging. Die 'elektrisiteit bring energie'-beeld lei nie tot 'n vals afleiding op hierdie vlak nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "energiebesparende gloeilamp: 'n Lamp wat dieselfde lig gee met baie minder elektrisiteit as 'n ou gloeilamp.",
+      "blok": "energiebesparende gloeilamp",
+      "status": "bevestig",
+      "bron": "Energy.gov, LED Lighting: minstens 75% minder energie as gloeilampe; ENERGY STAR-gebaseerde tabel (cet.ecu.edu): CFL gebruik ongeveer 'n kwart van die energie vir dieselfde lig.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "sonkragwaterverwarmer: 'n Stelsel wat die Son se hitte gebruik om water warm te maak.",
+      "blok": "sonkragwaterverwarmer",
+      "status": "bevestig",
+      "bron": "Kwikot, solar geyser guide; Energybee: die kollektor absorbeer sonstraling en verhit die water. 'Die Son se hitte' is 'n aanvaarbare vereenvoudiging.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "onwettige verbinding: 'n Draad wat sonder toestemming aan kraglyne of 'n mini-substasie gekoppel is.",
+      "blok": "onwettige verbinding",
+      "status": "bevestig",
+      "bron": "SAnews (sanews.gov.za/node/32666) en City Power-berigte (TimesLive Oktober 2026; EWN Desember 2025): onwettige verbindings is ongemagtigde koppelings aan die verskaffer se lyne en mini-substasies. Onwettige verbindings sluit ook meterpeutery in, maar die omskrywing beweer nie dat dit die enigste vorm is nie en is binne sy bestek waar.",
+      "tipe": "algemeen"
+    }
+  ],
+  "opsomming": "Al 33 bewerings in die les is teen bronne nagegaan en bevestig - steenkool lewer ongeveer 83% van Suid-Afrika se elektrisiteit (Stats SA 2024), verhittingstoestelle trek die meeste, en die gevare van onwettige verbindings strook met Eskom se eie waarskuwings; die superlatiewe is behoorlik begrens, en daar is niks om reg te maak nie."
+}

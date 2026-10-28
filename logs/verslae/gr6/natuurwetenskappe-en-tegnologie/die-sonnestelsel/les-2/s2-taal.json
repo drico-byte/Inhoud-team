@@ -1,0 +1,77 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die Son skyn, die Maan weerkaats",
+      "voor": "Die Son is 'n ster en elke ster",
+      "na": "Die Son is 'n ster, en elke ster",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses ('Die Son is 'n ster' / 'elke ster maak sy eie lig').",
+      "rede_keurder": "Both clauses have their own subject and verb, so the AWS 2017 comma is required and nothing else changes."
+    },
+    {
+      "nr": 2,
+      "blok": "Die Son skyn, die Maan weerkaats",
+      "voor": "val en weer van hulle af terugbons",
+      "na": "val en van hulle af terugbons",
+      "soort": "woordkeuse",
+      "rede_vinder": "'weer' is redundant beside 'terugbons', which already means bounce back.",
+      "fout": "'weer ... terugbons' is pleonastic: 'terug' already says the light comes back.",
+      "rede_keurder": "Dropping the redundant 'weer' carries no information away, leaves the protected 'Ons sien hulle omdat' intact and brings the sentence in line with the definition of weerkaats."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoekom sien ons die Maan van die Aarde af?",
+      "voor": "Die muur maak net soos die Maan geen lig van sy eie nie.",
+      "na": "Net soos die Maan maak die muur nie sy eie lig nie.",
+      "soort": "anglisisme",
+      "rede_vinder": "'geen lig van sy eie nie' calques 'no light of its own'; the rewrite is natural and matches the lesson's own 'nie sy eie lig maak nie'.",
+      "fout": "'geen lig van sy eie nie' follows English 'no light of its own' and reads stiffly.",
+      "rede_keurder": "The proposal is natural Afrikaans, says the same thing, repeats the lesson's own phrasing 'nie sy eie lig maak nie', and 'hom' in the next sentence still points to the wall."
+    },
+    {
+      "nr": 6,
+      "blok": "Kraters, berge en vlaktes",
+      "voor": "berge en hoë land",
+      "na": "berge en hooglande",
+      "soort": "woordkeuse",
+      "rede_vinder": "'hooglande' is the natural Afrikaans word for high-lying land, and the usual term for these lunar areas.",
+      "fout": "'hoë land' as an uncountable phrase is loose and wooden beside 'berge'.",
+      "rede_keurder": "'hooglande' is the natural Afrikaans word for the same high-lying land, a Grade 6 reader knows it, and it touches no protected word ('vlaktes' stays)."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Hoekom sien ons die Maan van die Aarde af?",
+      "voor": "Met 'n flits op die muur sien jy hom",
+      "na": "As jy 'n flits op die muur skyn, sien jy hom",
+      "soort": "sinsbou",
+      "rede_vinder": "The verbless phrase 'Met 'n flits op die muur' is elliptic; a full clause states the action clearly.",
+      "fout": "none",
+      "rede_keurder": "The original is an ordinary, clear Afrikaans phrase; the proposal is longer and adds a transitive 'n flits skyn', which copies English 'shine a torch'."
+    },
+    {
+      "nr": 5,
+      "blok": "Kraters, berge en vlaktes",
+      "voor": "na die volmaan en jy sien",
+      "na": "na die volmaan, en jy sien",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins an imperative clause to a second clause with its own subject and verb.",
+      "fout": "none",
+      "rede_keurder": "The first part is an imperative with no subject of its own, and 'Kyk ... en jy sien' works as one unit, so the house AWS rule does not ask for a comma here."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 275,
+  "woorde_na": 272,
+  "wanneer": "2026-10-28T09:31:16+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:4f88b50edfc366460d51fa61730dce95",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:8f54616bac641d6a2d30e6692a1b9e38"
+}

@@ -163,3 +163,58 @@ recorded below as they come.
 - Gr 5 SR 10 spec: the note at the top still says the Gr 5 shared list is empty on purpose. The list has since been filled; correct the note at the next spec touch.
 - Shared Gr 4/5 wording 'smelt' ('Wanneer 'n vaste stof warm word ...') uses an English 'is when' calque. Fix it in both grades together, with hosho, toonkleur and roep-en-antwoord, after the pass.
 - Gr 5 NW reprint checks: the paraffin claim in fuel lesson 1 and the coal share in electricity lesson 2. Re-check both at every reprint.
+
+**Stand, 24 Oct 2026 (night).**
+- **Gr 5 NW:** 29/29 re-signed and pushed (cf36cf5f).
+- **Gr 5 LV:** 38/40. Still waiting: GO 9 (Q1/Q2) and UK 2 (Q22).
+- **V2:** 168 lessons.
+- **Next:** the Gr 6 subjects. Before each subject:
+  - grep its approved specs for "BLY GELD" and "[OORTREFDE" and have an agent rewrite those fields, orders first;
+  - write the audit orders into the specs;
+  - then run coordinators of about 5 lessons each.
+- **How the fact checks run:** one coordinator agent tree has about 200 searches. When the tree runs out, I launch the fact checks myself from fresh agents.
+
+**Gr 6 NW, 28 Oct 2026.**
+- **Specs prepared.** GAP lessons: Oplossing 1 (table and bar graph) and Hoofstroom 1 (fossil fuels from plants and animals). Voedingstowwe in voedsel 1 is also a writer lesson: its spec now orders lesson 4's sorting rule (main nutrient, food goes where the list puts it), and its draft still teaches the job-based and "good source of" rules.
+  - Why: this aligns the two lessons; it does not correct a fact finding. One year must give one rule. Lesson 4's rule is the one that was fact-checked.
+  - Open: no shared-list entry for the sorting rule yet. It lives only in protected words.
+- **Protected words.** 76 wordings were protected from writers' notes for Fotosintese 1-2, Voedselverwerking, Ekostelsels 1-2, Mengsels en water 1-2, Verwerking 1, Stroombane and Geleiers.
+- **Usage limit.** The weekly limit was hit on 24 Oct and reset on 28 Oct. Six agents at once spends it fast.
+- **Gr 6 LV specs prepared, 28 Oct.**
+  - **GAP lessons:** GO 3, OvS 7, SR 9 and 11, all four UK and all four VK.
+  - **Language only:** GO 1, 2, 4, 6-8; OvS 1, 2, 4, 6, 8-10, 12; SR 1-8, 10, 12.
+  - **Wording rules for the writers:**
+    - SR 9 must fit 600 and OvS 7 its 616 ceiling. If either can only fit by dropping a requirement, it is a person's call: stop and say so.
+    - In the shared list, 'konflik' now has two meanings, PSW and drama; the drama one is Gr 5's checked sentence. 'ruimte' is marked with two meanings, but only the VK sentence is decided. The dance sentence is added after UK's fact check.
+- **Gr 6 SW specs prepared, 28 Oct.**
+  - **GAP lessons:** Kaartvaardighede 3, 7; Klimaat 8; Bevolking 2, 3, 7; Mapungubwe 1, 2, 4, 5, 8; Ontdekkers 1; Demokrasie 1, 4; Medisyne 1, 4. The other 57 lessons are language only.
+  - **Before the pass:** protect about 8 wordings in Ontdekkers, 4 in Kaartvaardighede 9 and 'alleen' in Demokrasie 6. Fix the stale 'bekende dorp' entry in Mapungubwe 3.
+  - **My calls under existing rulings:**
+    - Audit top-ups are declared in kluster_uitsondering: fine.
+    - Johannesburg stays on the Bevolking 7 city map, with no 10-million class boundary in the key.
+    - Handel 2's exports and imports widen to goods AND services, because lesson 4 teaches services sold abroad. Incomplete is fine, a false contrast is not. Fix at source and send through the writer during the pass.
+  - **To check in the pass, not yet decided:**
+    - Whether the "reg is never the law" ruling reaches Demokrasie 5's "met die reg" and the shared 'wet' wording.
+    - Medisyne 10's holistic-versus-herbal contrast.
+    - Draft faults: Demokrasie 3 makes "party of onafhanklike kandidaat" exclusive; Mapungubwe 3 is missing a "nie"; Mapungubwe 2's dates disagree with its own spec note.
+- **Gr 6 NW fact repairs, 28 Oct, all narrowed at source:**
+  - Fotosintese 1: cheese only as gewone blokkaas.
+  - Vaste stowwe 1: no claim about what a drawing shows; particles stay as many and as big; three things change.
+  - Mengsels en water 1: wateroordraagbare siekte narrowed to kieme in the shared list.
+  - Mengsels en water 2: "onder andere op twee maniere".
+  - Verwerking 1: take, aanwysings op die pakkie, kieme without 'die'.
+  - Voedselverwerking 1: the amasi heading is narrowed to its benefit, and the CAPS "voedingswaarde" frame stays.
+  - Mengsel definition spelled 'saamgemeng'.
+- **New question for Lampies (Q23, add to the page):** the shared lists for Gr 5 and Gr 6 define 'elektrisiteit' as "a way energy is transferred". But Gr 6's 'stroombaan', 'oop stroombaan' and 'geslote stroombaan' use it as the thing that flows ("waarlangs elektrisiteit loop"). That is two meanings in one grade. For now, Stroombane 1 was fixed narrowly: the "energy given off versus electricity goes round" contrast clause is dropped. Whether to change the definition (Gr 5 delivered) is Lampies' call.
+- Oplossings 2: the count of known separation methods is cut (lesson 9 teaches five), and so is the claim about the meaning of 'herwin' (no Afrikaans dictionary reached). Ekostelsels 1: 'klipmossel' becomes 'mossels'. Ekostelsels 2: the "jy het in graad 5 geleer" framing is cut.
+- **Gr 6 NW, open items for later:**
+  - The glossary definitions of 'deursigtig' and 'troebel' open with "Wanneer" (adjective defined as a clause). Fix in a glossary pass.
+  - Shared 'sirene' says "harde klank", while the Stroombane spec warns against loudness claims.
+  - The "kan ... dra" wording for germs (finder prefers "bevat") is protected in Verwerking 1.
+  - Gr 6 NW 'Sonnestelsel': the lessons capitalise it, but the shared-list headword is lowercase. Settle the AWS form once, across Gr 5-6. Until then, keep the capital in the text.
+  - Gr 5 NW 'steenkool' ('n Harde swart klip...) is false for lignite. Gr 6 narrowed it on 28 Oct. Gr 5 energie-en-elektrisiteit 2 and gestoorde-energie-in-brandstof 1 still carry it and need the writer plus a reprint.
+  - Gr 5 NW 'substasie' ('groot toestelle') clashes with 'toestel'. Gr 6 changed it to 'masjiene' on 28 Oct. Gr 5 energie-en-elektrisiteit 2 and 3 need the writer plus a reprint.
+  - Gr 6 NW Mengsels 1: the comma before 'of' in 'Die verskil kan in hulle grootte of kleur lê, of daarin dat een van hulle sink' may break the AWS rule (the second part is not a full sentence). Fix at the next revision.
+- **Gr 6 NW, 28 Oct:** the CAPS line for the Moon (p. 66) leaves out 'nie' ("mane ... gee hulle eie hitte en lig af"). It is marked [sic] in the Sonnestelsel spec.
+  - Also open: the shared 'as' entry has omskrywing null, with Drico's wording only in the nota. The guard and the extract therefore don't see it as a shared definition. Moving it to omskrywing is a decision about Drico's Gr 5 open term.
+  - Gr 6 NW Hoofstroom 3: 'Hulle raak nie op nie, solank ons dit ... dit' has a number clash. The protection was narrowed so the next revision can make it 'hulle ... hulle'.

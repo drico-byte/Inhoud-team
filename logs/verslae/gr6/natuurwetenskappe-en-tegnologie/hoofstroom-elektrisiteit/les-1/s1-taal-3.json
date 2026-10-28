@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Steenkool in Suid-Afrika",
+      "voor": "Maar die steenkool, en die energie daarin, het",
+      "na": "Maar die steenkool en die energie daarin het",
+      "soort": "leestekens",
+      "rede_vinder": "Per AWS 2017 there is no comma before 'en' joining two parts of one subject; the commas split the subject from its verb.",
+      "fout": "The commas set 'en die energie daarin' off inside one subject, which the house AWS rule says never to do with 'en' between parts of one sentence, and they slow a Grade 6 reader for no gain.",
+      "rede_keurder": "Removing the commas leaves the same subject, both things came from somewhere, the same claim, and touches no protected wording."
+    },
+    {
+      "nr": 2,
+      "blok": "Binne-in die kragstasie",
+      "voor": "wat elkeen 'n eie naam het",
+      "na": "wat elkeen sy eie naam het",
+      "soort": "idioom",
+      "rede_vinder": "'elkeen sy eie naam' is the natural Afrikaans idiom; ''n eie naam' after 'elkeen' reads wooden.",
+      "fout": "'elkeen 'n eie naam' is stiffer than the fixed Afrikaans expression 'elkeen sy eie naam'.",
+      "rede_keurder": "The fixed idiom reads naturally, 'sy' points to 'elkeen' as before, the meaning is unchanged, and the protected sentence before it stays its own sentence."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 521,
+  "woorde_na": 521,
+  "wanneer": "2026-10-28T10:51:42+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Hoe steenkool gevorm het",
+      "voor": "verrot en weggeraak soos blare",
+      "na": "verrot en verdwyn soos blare",
+      "soort": "woordkeuse",
+      "rede_vinder": "'weggeraak' mostly means 'got lost'; 'verdwyn' says plainly that the plants disappear, and it reads more naturally after 'verrot'.",
+      "fout": "none",
+      "rede_keurder": "'verrot en weggeraak' is natural Afrikaans for plants rotting away; 'verdwyn' is a lateral swap, not a fix."
+    },
+    {
+      "nr": 2,
+      "blok": "Binne-in die kragstasie",
+      "voor": "Eers kook die hitte van brandende steenkool die water tot stoom.",
+      "na": "Eers verander die hitte van brandende steenkool water in stoom.",
+      "soort": "idioom",
+      "rede_vinder": "'kook ... tot stoom' is wooden; 'verander ... in stoom' is the natural Afrikaans, and 'die water' has no earlier mention to refer back to.",
+      "fout": "none",
+      "rede_keurder": "'kook die water tot stoom' is an acceptable resultative like 'kook tot moes'; the proposal drops 'kook', the boiling step the block teaches, and drops 'die' before water in a power station where the water is definite."
+    },
+    {
+      "nr": 3,
+      "blok": "Jou TV se energie, teruggevolg na die Son",
+      "voor": "Die hitte wat die water tot stoom kook",
+      "na": "Die hitte wat die water in stoom verander",
+      "soort": "idioom",
+      "rede_vinder": "Same wooden 'tot stoom kook' as in the power-station block; 'in stoom verander' is natural and keeps the two blocks matching.",
+      "fout": "none",
+      "rede_keurder": "Same as change 2: the original is acceptable, the proposal loses the boiling, and the list should keep matching the unchanged study block."
+    }
+  ],
+  "konsep_hash_voor": "sha256:f52f2f0e7870dfc35f3ddd63eda86ada",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:49a83f6860ea970062db3b0125a87c3a"
+}

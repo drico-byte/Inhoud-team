@@ -1,0 +1,102 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar is die sout nou?",
+      "voor": "Die sout wat oplos, bestaan nou uit",
+      "na": "Die sout wat opgelos het, bestaan nou uit",
+      "soort": "grammatika",
+      "rede_vinder": "With 'nou' describing the finished state, the perfect tense fits better than the present 'wat oplos'.",
+      "fout": "'wat oplos' (present) sits awkwardly beside 'nou', which describes the state after dissolving.",
+      "rede_keurder": "The perfect 'wat opgelos het' matches the finished state that 'nou' describes, without changing what is said."
+    },
+    {
+      "nr": 2,
+      "blok": "Wanneer niks meer oplos nie",
+      "voor": "Suiker wat net nog nie opgelos het nie, beteken nie dat die oplossing versadig is nie.",
+      "na": "As suiker net nog nie opgelos het nie, beteken dit nie dat die oplossing versadig is nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "Making sugar the subject of 'beteken' reads awkwardly; an 'as'-clause with 'dit' states the same point more naturally.",
+      "fout": "Making 'suiker' the subject of 'beteken' is stiff and makes the reader stumble.",
+      "rede_keurder": "The 'as'-clause with 'dit' is the natural Afrikaans form and keeps the claim and the 'net nog nie' qualifier intact."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe die kristalle verskyn",
+      "voor": "Ons noem dit kristallisasie.",
+      "na": "Ons noem hierdie proses kristallisasie.",
+      "soort": "verwysing",
+      "rede_vinder": "'dit' directly after 'kristalle' could be read as naming the crystals, not the process.",
+      "fout": "'dit' right after 'kristalle' can be read as naming the crystals rather than the process.",
+      "rede_keurder": "'hierdie proses' removes the ambiguity and agrees with the glossary entry, which defines kristallisasie as a process."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "Uitsakking en oorgiet help dus ook nie",
+      "rede": "This protected wording does not appear word for word in the lesson; the lesson has 'Daarom help uitsakking en oorgiet ook nie.' I proposed no change to that sentence, but a person may want to check that the entry still matches the text."
+    }
+  ],
+  "woorde_voor": 545,
+  "woorde_na": 548,
+  "wanneer": "2026-10-28T09:47:48+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 6,
+      "blok": "Waarom filtreerpapier nie help nie",
+      "voor": "Met die hand sorteer werk ook nie",
+      "na": "Om met die hand te sorteer, werk ook nie",
+      "soort": "sinsbou",
+      "rede_vinder": "The bare infinitive phrase as subject reads awkwardly; the 'om te' form is clearer, same words and meaning (leave if 'met die hand sorteer' is a fixed method name in this year).",
+      "fout": "none",
+      "rede_keurder": "'Met die hand sorteer' is one of the four named separation methods and reads correctly as a subject, so the longer 'om te' form is a lateral move that also breaks the method name."
+    },
+    {
+      "nr": 7,
+      "blok": "Laat die water weggaan",
+      "voor": "Herwin beteken hier terugkry, nie om afval weer te gebruik nie",
+      "na": "Herwin beteken hier terugkry, nie afval weer gebruik nie",
+      "soort": "sinsbou",
+      "rede_vinder": "The two halves of the contrast are not parallel ('terugkry' vs 'om ... te gebruik'); make both bare infinitives.",
+      "fout": "none",
+      "rede_keurder": "The proposal 'nie afval weer gebruik nie' can be misread as a negated clause, so it is harder to read than the clear original."
+    },
+    {
+      "nr": 9,
+      "blok": "Sout uit seewater",
+      "voor": "Ná 'n tyd",
+      "na": "Ná 'n ruk",
+      "soort": "idioom",
+      "rede_vinder": "'Ná 'n ruk' is the idiomatic Afrikaans expression; 'ná 'n tyd' is a literal rendering.",
+      "fout": "none",
+      "rede_keurder": "'Ná 'n tyd' is natural Afrikaans, and 'ná 'n ruk' suggests a shorter wait than a salt pan needs, so the change is lateral at best."
+    },
+    {
+      "nr": 10,
+      "blok": "Hoe die kristalle verskyn",
+      "voor": "Soos soutwater verdamp",
+      "na": "Terwyl soutwater verdamp",
+      "soort": "anglisisme",
+      "rede_vinder": "Temporal 'soos' follows English 'as'; 'terwyl' is the correct Afrikaans conjunction.",
+      "fout": "none",
+      "rede_keurder": "Temporal 'soos' carries the 'namate' sense (the water gets less as it evaporates), and 'terwyl' narrows that to mere simultaneity."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe die kristalle verskyn",
+      "voor": "raak die water later te min om",
+      "na": "is daar later te min water om",
+      "soort": "idioom",
+      "rede_vinder": "'Die water raak te min' is unnatural Afrikaans; 'daar is te min water' is the usual expression for the same thing.",
+      "fout": "none",
+      "rede_keurder": "'Te min raak' is natural Afrikaans and says the water becomes too little as it evaporates; the proposal is a lateral move that loses that sense of change."
+    }
+  ],
+  "konsep_hash_voor": "sha256:4f857c9a851c54966f1f2def7a302d69",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:07104320fadb69e6048e3fc75b11e8fd"
+}

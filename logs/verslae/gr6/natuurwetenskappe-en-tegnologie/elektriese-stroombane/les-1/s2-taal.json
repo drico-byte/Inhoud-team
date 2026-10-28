@@ -1,0 +1,153 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Die toestel en sy uitset",
+      "voor": "'n Gloeilamp gee lig en 'n sirene",
+      "na": "'n Gloeilamp gee lig, en 'n sirene",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "missing AWS comma between two full clauses joined by 'en'",
+      "rede_keurder": "Both halves have their own subject and verb, so the AWS 2017 comma before 'en' is required."
+    },
+    {
+      "nr": 5,
+      "blok": "'n Pad sonder 'n gaping",
+      "voor": "Dit bly so al het",
+      "na": "Dit bly so, al het",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before the concessive 'al'-clause aids reading and matches 'Anders bly die pad oop, al raak hulle.' later in the lesson.",
+      "fout": "no comma before the concessive al-clause, inconsistent with the same construction later in the lesson",
+      "rede_keurder": "The comma separates main and subordinate clause, aids a first reading and matches 'oop, al raak hulle'."
+    },
+    {
+      "nr": 6,
+      "blok": "Aan en af met 'n skakelaar",
+      "voor": "Dit is 'n geslote stroombaan en die lampie brand.",
+      "na": "Dit is 'n geslote stroombaan, en die lampie brand.",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "missing AWS comma between two full clauses joined by 'en'",
+      "rede_keurder": "'Dit is ...' and 'die lampie brand' each have their own subject and verb, so the comma is required."
+    },
+    {
+      "nr": 7,
+      "blok": "Aan en af met 'n skakelaar",
+      "voor": "Dit is 'n oop stroombaan en die lampie is dood.",
+      "na": "Dit is 'n oop stroombaan, en die lampie brand nie.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'is dood' is colloquial for a lamp; 'brand nie' is standard and mirrors 'die lampie brand' in the closed case; also adds the AWS comma.",
+      "fout": "'die lampie is dood' is colloquial and missing the AWS comma",
+      "rede_keurder": "'brand nie' is standard, mirrors the closed case exactly, keeps the meaning and adds the required comma."
+    },
+    {
+      "nr": 9,
+      "blok": "Waarom ons 'n diagram teken",
+      "voor": "Dit is vinniger om te teken as prente van die regte dele.",
+      "na": "Dit is vinniger om te teken as om prente van die regte dele te maak.",
+      "soort": "sinsbou",
+      "rede_vinder": "The comparison is incomplete: 'om te teken as prente' compares an action with a thing.",
+      "fout": "'om te teken as prente' can be misread as 'draw as pictures' and compares an action with a thing",
+      "rede_keurder": "Completing the comparison with 'as om prente ... te maak' removes the stumble without changing what is compared."
+    },
+    {
+      "nr": 10,
+      "blok": "Waarom ons 'n diagram teken",
+      "voor": "al is die regte drade krom",
+      "na": "al is die werklike drade krom",
+      "soort": "woordkeuse",
+      "rede_vinder": "'regte' next to 'reguit lyne' can be read as 'straight' (a 'regte lyn' is a straight line); 'werklike' is unambiguous.",
+      "fout": "'regte' beside 'reguit lyne met hoeke' can read as 'straight' or evoke 'regte hoeke'",
+      "rede_keurder": "'werklike' says 'the actual wires' unambiguously, with the same meaning."
+    },
+    {
+      "nr": 12,
+      "blok": "Die simbole wat ons gebruik",
+      "voor": "sel-simbole",
+      "na": "selsimbole",
+      "soort": "spelling",
+      "rede_vinder": "Afrikaans compounds are written as one word; no hyphen is needed here.",
+      "fout": "compound written with an unneeded hyphen",
+      "rede_keurder": "Afrikaans writes the compound 'selsimbole' as one word; there is no vowel clash to justify the hyphen."
+    },
+    {
+      "nr": 13,
+      "blok": "Oop en geslote op papier",
+      "voor": "en los dit 'n gaping",
+      "na": "en laat dit 'n gaping",
+      "soort": "anglisisme",
+      "rede_vinder": "'los 'n gaping' calques English 'leaves a gap'; Afrikaans says 'laat 'n gaping'.",
+      "fout": "'los 'n gaping' copies English 'leaves a gap'",
+      "rede_keurder": "'laat 'n gaping' is the standard Afrikaans expression and keeps the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Drie soorte dele",
+      "voor": "In Graad 5 het jy 'n lampie laat brand met 'n sel en twee drade.",
+      "na": "In Graad 5 het jy met 'n sel en twee drade 'n lampie laat brand.",
+      "soort": "woordorde",
+      "rede_vinder": "The means phrase sits more naturally before the object and verb cluster in Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "Placing the means phrase after the verb cluster is natural spoken Afrikaans; the reorder is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Drie soorte dele",
+      "voor": "Daarin lê die energie gestoor.",
+      "na": "Die energie is daarin gestoor.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'lê gestoor' is a slightly stiff combination; the plain passive is clearer for Grade 6.",
+      "fout": "none",
+      "rede_keurder": "'Daarin le die energie gestoor' reads naturally and links to the previous sentence; the passive only reads differently."
+    },
+    {
+      "nr": 4,
+      "blok": "'n Pad sonder 'n gaping",
+      "voor": "en weer terug na die sel",
+      "na": "en terug na die sel",
+      "soort": "woordkeuse",
+      "rede_vinder": "'weer terug' is pleonastic; 'terug' already carries the meaning.",
+      "fout": "none",
+      "rede_keurder": "'en weer terug' is an idiomatic Afrikaans expression, not a fault; dropping 'weer' is lateral."
+    },
+    {
+      "nr": 8,
+      "blok": "Wat 'n skakelaar laat werk",
+      "voor": "wat aan mekaar kan raak en weer kan wegbeweeg",
+      "na": "wat mekaar kan raak en weer van mekaar kan wegbeweeg",
+      "soort": "sinsbou",
+      "rede_vinder": "'mekaar raak' matches the next sentence, and 'wegbeweeg' needs 'van mekaar' to say what the parts move away from.",
+      "fout": "none",
+      "rede_keurder": "'aan mekaar raak' is correct Afrikaans and 'wegbeweeg' is clear in context; the proposal only lengthens the sentence."
+    },
+    {
+      "nr": 11,
+      "blok": "Die simbole wat ons gebruik",
+      "voor": "twee reguit lyne langs mekaar met die een langer as die ander",
+      "na": "twee reguit lyne langs mekaar, waarvan een langer as die ander is",
+      "soort": "sinsbou",
+      "rede_vinder": "'met die een langer as die ander' is a loose, English-like absolute construction; a relative clause reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "'met die een langer as die ander' is a natural Afrikaans construction; the relative clause is longer and no clearer in a list item."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Oop en geslote op papier",
+      "teks": "In 'n geslote diagram loop die lyn dus sonder 'n gaping",
+      "rede": "'n geslote diagram' is loose shorthand for 'the diagram of a closed circuit'; spelling it out would push the sentence to about 27 words, so it is left for the reviewer or writer to judge."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 547,
+  "woorde_na": 549,
+  "wanneer": "2026-10-28T08:45:25+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:d651e1cba412247e5e0231cc0eab49db",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e26cb75be9001a55453fe72823071294"
+}

@@ -1,0 +1,107 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe dinge in ons water beland",
+      "voor": "het nie in die rivier begin nie",
+      "na": "kom nie uit die rivier self nie",
+      "soort": "woordkeuse",
+      "rede_vinder": "An object 'beginning' in a river is unidiomatic; 'kom nie uit die rivier self nie' says the same thing naturally.",
+      "fout": "'het nie in die rivier begin nie' copies English 'didn't start in the river'; an object does not 'begin' somewhere in Afrikaans.",
+      "rede_keurder": "The proposal says the same thing, that the bag did not originate in the river, in natural Afrikaans, and it does not change the next sentence."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoe dinge in ons water beland",
+      "voor": "Hierdie les kyk na drie soorte besoedeling in water.",
+      "na": "In hierdie les kyk ons na drie soorte besoedeling in water.",
+      "soort": "anglisisme",
+      "rede_vinder": "A lesson that 'looks at' something is a calque of English; Afrikaans prefers 'In hierdie les kyk ons na'.",
+      "fout": "'Hierdie les kyk na' is a calque of English 'This lesson looks at'.",
+      "rede_keurder": "'In hierdie les kyk ons na' is the natural Afrikaans form and the content is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Kieme uit toiletafval",
+      "voor": "Kieme is nie 'n stof wat oplos",
+      "na": "Kieme is nie stowwe wat oplos",
+      "soort": "grammatika",
+      "rede_vinder": "The plural subject 'Kieme' should be matched by the plural 'stowwe', as it is by 'dinge' later in the sentence.",
+      "fout": "The singular 'n stof' clashes with the plural subject 'Kieme' and the plural 'dinge' later in the same sentence.",
+      "rede_keurder": "The plural 'stowwe' fixes the number mismatch and echoes the lesson's 'onoplosbare stowwe' and 'oplosbare stowwe' without moving the meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Kieme uit toiletafval",
+      "voor": "Toiletafval kan lewende kieme dra.",
+      "na": "Toiletafval kan lewende kieme bevat.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Bevat' is the natural verb for what a substance has in it; 'dra' suggests carrying.",
+      "fout": "'kieme dra' is a loose verb for what waste has in it.",
+      "rede_keurder": "'bevat' is the exact Afrikaans verb for what a substance has in it, and no qualifier or protected wording is touched."
+    },
+    {
+      "nr": 5,
+      "blok": "Kieme uit toiletafval",
+      "voor": "skoon lyk en tog kieme dra",
+      "na": "skoon lyk en tog kieme bevat",
+      "soort": "woordkeuse",
+      "rede_vinder": "Water 'bevat' germs; 'dra' is unnatural here and repeats the previous verb.",
+      "fout": "'tog kieme dra' is an unnatural verb for water that has germs in it.",
+      "rede_keurder": "'tog kieme bevat' is natural and exact, matches change 4, and leaves the protected 'waarin sulke kieme is' intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 506,
+  "woorde_na": 507,
+  "wanneer": "2026-10-28T09:27:34+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Gif wat jy nie kan sien nie",
+      "voor": "los in die water op en versprei deur die water",
+      "na": "los in die water op en versprei daardeur",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids repeating 'die water' twice in one short clause.",
+      "fout": "none",
+      "rede_keurder": "The repetition is mild and plain for Grade 6, while 'daardeur' is stiffer and can be read as 'as a result of that', which risks moving the meaning."
+    },
+    {
+      "nr": 6,
+      "blok": "Drie soorte besoedeling in water",
+      "voor": "wat te klein is om te sien en mense siek kan maak",
+      "na": "wat mense siek kan maak en te klein is om te sien",
+      "soort": "woordorde",
+      "rede_vinder": "The original can be misread as 'too small to see and to make people sick'; reordering removes the ambiguity without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "The finite 'kan maak' already ties the second clause to 'wat', so the misreading is unlikely, and the original order keeps visibility first in line with the other two list items."
+    },
+    {
+      "nr": 2,
+      "blok": "Kieme uit toiletafval",
+      "voor": "So 'n siekte kry 'n mens deur",
+      "na": "'n Mens kry so 'n siekte deur",
+      "soort": "woordorde",
+      "rede_vinder": "Subject-first order reads more naturally here and is easier for a Grade 6 learner; the protected wording that follows is untouched.",
+      "fout": "none",
+      "rede_keurder": "Fronting 'So 'n siekte' deliberately links back to the previous sentence; the proposal is a lateral reorder that loosens that link."
+    },
+    {
+      "nr": 3,
+      "blok": "gifstof",
+      "voor": "siek kan maak of kan doodmaak",
+      "na": "siek of dood kan maak",
+      "soort": "sinsbou",
+      "rede_vinder": "The repeated 'kan' is redundant; 'siek of dood kan maak' is shorter and more natural with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "This is a glossary definition and the repeated 'kan' is correct Afrikaans, so there is no real fault to justify rewording it."
+    }
+  ],
+  "konsep_hash_voor": "sha256:4d0f369f872893291a0a9288cb7d4c60",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5bc032af880dce248863e0587541c0d3"
+}

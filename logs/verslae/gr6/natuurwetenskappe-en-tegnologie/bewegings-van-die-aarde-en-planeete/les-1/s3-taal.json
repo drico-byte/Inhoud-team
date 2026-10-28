@@ -1,0 +1,79 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Wys rotasie met 'n lamp en 'n bal",
+      "voor": "die kant wat wegkyk is donker",
+      "na": "die kant wat wegkyk, is donker",
+      "soort": "leestekens",
+      "rede_vinder": "AWS: a comma separates two verbs from different clauses that meet ('wegkyk, is'), which eases reading.",
+      "fout": "Two verbs from different clauses meet ('wegkyk is') with no comma between them.",
+      "rede_keurder": "The AWS comma between the end of the relative clause and the main verb makes the sentence easier to read and changes nothing in its meaning."
+    },
+    {
+      "nr": 4,
+      "blok": "Wys rotasie met 'n lamp en 'n bal",
+      "voor": "'n kol wat jy op die bal teken om die beurt",
+      "na": "'n kol wat jy op die bal teken, om die beurt",
+      "soort": "leestekens",
+      "rede_vinder": "A comma closing the relative clause shows where the subject ends and what happens to the spot begins.",
+      "fout": "Without a comma, 'teken om die beurt' can be read on first pass as drawing the spot in turns.",
+      "rede_keurder": "The comma closes the relative clause, removes the misreading, and leaves the protected wording ''n kol wat jy op die bal teken' intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die Aarde draai om sy as",
+      "voor": "So 'n draai heet 'n rotasie",
+      "na": "So 'n draai word 'n rotasie genoem",
+      "soort": "register",
+      "rede_vinder": "'heet' is formal and slightly old-fashioned for Grade 6; 'word ... genoem' is the everyday way to name a term.",
+      "fout": "none",
+      "rede_keurder": "'heet' is ordinary, natural Afrikaans for naming a term, so the passive is a lateral move that also adds a second 'noem/genoem' next to 'Ons noem die hele 24 uur'."
+    },
+    {
+      "nr": 2,
+      "blok": "Twee bewegings, twee gevolge",
+      "voor": "Vannag in jou bed draai die Aarde om sy as",
+      "na": "Vannag, terwyl jy in jou bed lê, draai die Aarde om sy as",
+      "soort": "sinsbou",
+      "rede_vinder": "As written, 'in jou bed' attaches to the Earth; a short clause makes clear it is the learner who is in bed.",
+      "fout": "none",
+      "rede_keurder": "No reader takes 'in jou bed' to mean the Earth; the fronted scene-setter reads well, and the clause only lengthens an already long sentence."
+    },
+    {
+      "nr": 5,
+      "blok": "Die ekstra kwart dag",
+      "voor": "29 Februarie as ekstra dag",
+      "na": "29 Februarie as 'n ekstra dag",
+      "soort": "grammatika",
+      "rede_vinder": "The countable noun 'dag' needs the indefinite article here; without it the phrase reads clipped.",
+      "fout": "none",
+      "rede_keurder": "'as ekstra dag' is a normal Afrikaans role construction without an article, so adding ''n' is a lateral move, not a grammar fix."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 6,
+      "blok": "as",
+      "voor": "Die Aarde draai om daardie lyn. Niemand kan dit sien",
+      "na": "Die Aarde draai om daardie lyn. Niemand kan die lyn sien",
+      "soort": "verwysing",
+      "rede_vinder": "Read alone, 'dit' follows a sentence whose subject is the Earth and can be taken to mean the Earth, which can be seen; naming the line removes the doubt.",
+      "fout": "In the glossary entry read alone, 'dit' follows a sentence whose subject is 'Die Aarde' and can point to the Earth instead of the line.",
+      "rede_keurder": "The pronoun fault is real, but it sits inside a [begrip] definition, which only the writer may reword.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 522,
+  "woorde_na": 522,
+  "wanneer": "2026-10-28T10:06:50+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:96e1c5db3d7934338a45b828e9efef0f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e02f6425529448016d32690ba560488d"
+}

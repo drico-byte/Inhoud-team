@@ -1,0 +1,278 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Wat elektrisiteit kos, en waar dit onveilig word",
+  "kaps_punt": "elektrisiteit is duur omdat: dit infrastruktuur vereis, insluitende steenkoolmyne, vervoer, kragstasies, kabels, substasies, bedrading; sommige elektriese toestelle vereis meer elektrisiteit as ander (verhittings toestelle gebruik die meeste); hoe meer elektrisiteit ons gebruik, hoe meer betaal ons en hoe meer steenkool word gebruik; ons kan energie bespaar op baie maniere, insluitend die gebruik van energiebesparende gloeilampe en sonkrag waterverwarmers; onwettige elektriese verbindings is 'n gevaar vir mense, want hulle is dikwels onveilig",
+  "verdict": "HERSIEN",
+  "items": [
+    {
+      "bewering": "Die elektrisiteit wat jou lig laat brand, het 'n lang pad agter die rug. Dit begin by steenkoolmyne, waar werkers steenkool uit die grond haal.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "IEA-data via Intelpoint (steenkool 81,8% van Suid-Afrika se opwekking in 2023): https://intelpoint.co/?p=6410; Ember via SAnews (74,31% in Januarie 2025): https://www.sanews.gov.za/node/74187. Dit beskryf die oorheersende Suid-Afrikaanse pad korrek. Die sin self is universeel gestel, maar blok 'Hoe lank dit aan is, tel ook' sê uitdruklik 'Die meeste van Suid-Afrika se elektrisiteit', wat die beeld reg kwalifiseer. Geen regstelling nodig nie; die skrywer kan oorweeg om 'meestal' in die eerste blok te gebruik as die blok ooit alleen gelees word."
+    },
+    {
+      "bewering": "Treine, trokke of lang vervoerbande bring die steenkool na die kragstasies.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Engineering News 2018 (Eskom verkies vervoerband, dan spoor, dan pad): https://www.engineeringnews.co.za/article/eskom-sees-opportunity-for-emerging-coal-miners-to-improve-utilitys-security-of-supply-logistics-2018-02-01; WNNR/CSIR-verslag (2015: ~60% per vervoerband, ~30% per pad, ~10% per spoor): https://researchspace.csir.co.za/bitstreams/a0d2a8d1-34fe-4019-9ff4-eb853480cc88/download"
+    },
+    {
+      "bewering": "Daar brand die steenkool, en groot masjiene maak elektrisiteit.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Steenkoolkragstasies brand steenkool om stoom te maak wat turbines en generators dryf; Eskom se oordrag- en verspreidingsgids (TD-0003) begin by die kragstasie se generators: https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf. Die vereenvoudiging ('groot masjiene') is waar."
+    },
+    {
+      "bewering": "Dik kabels hang meestal aan hoë kragmaste en dra die elektrisiteit ver oor die land na substasies.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom-materiaal: oordraglyne bestaan gewoonlik uit bogrondse geleiers wat aan oordragtorings hang, 22 kV tot 765 kV; NTCSA meld ~33 000 km oordraglyne: https://www.dailymaverick.co.za/article/2024-11-25-transmission-lines-eskom-unveils-plan-for-electricity-freeways.md; Eskom TD-0003 (lyne voer in substasies in): https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf. 'Meestal' is die regte kwantor, want sommige kabels lê ondergronds."
+    },
+    {
+      "bewering": "Van daar loop drade tot by die bedrading in die mure van jou huis of skool.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom TD-0003 via soekuittreksel: spanning word in fases by substasies afgetrap tot 11 kV en dan 380/220 V vir winkels en huise: https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf"
+    },
+    {
+      "bewering": "Al hierdie geboue, masjiene en drade noem ons infrastruktuur. Mense moet elke deel bou en dit elke dag laat werk en heel hou. Dit alles kos baie geld",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Infrastruktuur as die fisiese stelsels wat 'n diens lewer is die standaardbetekenis; die koste van bou en instandhouding word bevestig deur Eskom se vervanging van mini-substasies en transformators ná diefstal en oorlading (Engineering News 2022: https://engineeringnews.co.za/article/eskom-says-intensifying-process-to-replace-failed-electricity-infrastructure-in-gauteng-2022-07-12) en een mini-substasie in Alexandra wat byna R800 000 kos om te vervang (https://citizen.co.za/alex-news/?p=222854)."
+    },
+    {
+      "bewering": "Dit alles ... is die eerste rede waarom elektrisiteit duur is.",
+      "blok": "'n Lang pad van die myn tot by jou lig",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Nie 'n bewering van voorrang nie: 'eerste' nommer die redes binne die les en sê nie die infrastruktuur is die grootste kostefaktor nie. Dat infrastruktuur 'n rede vir die koste is, word deur dieselfde bronne as die vorige item bevestig. Opgeteken omdat elke 'eerste' 'n item kry."
+    },
+    {
+      "bewering": "'n Klein radio kan die hele middag speel sonder dat dit warm voel.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Klein draagbare radio's gebruik omtrent 1 tot 5 W (EcoFlow-gids: https://www.ecoflow.com/au/blog/how-much-power-does-a-radio-use; gemete transistorradio 3,2 tot 5,5 W, Universiteit Utrecht-blad: https://webspace.science.uu.nl/~tel00101/FotoAlbum/RadioCorner/Articles/WattMeter.htm). By so 'n klein drywing word die kas nie merkbaar warm nie."
+    },
+    {
+      "bewering": "'n Ketel werk net 'n paar minute, maar in daardie tyd word die water kookwarm.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Morphy Richards: huishoudelike ketels 1 500 tot 3 000 W; 'n 2 200 W-ketel kook 1 liter in ongeveer 3,6 minute: https://www.morphyrichards.co.uk/blogs/kettle-guides/how-many-watts-does-a-kettle-use"
+    },
+    {
+      "bewering": "Dit vra baie energie om iets warm te maak, veral water.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "IOP Spark (Institute of Physics), spesifieke warmtekapasiteit: water ~4,2 kJ per kg per °C, van die hoogste van alle vloeistowwe en vaste stowwe (koper ~0,38 kJ): https://spark.iop.org/specific-heat-capacity"
+    },
+    {
+      "bewering": "Dit vra baie meer energie as om lig of klank te maak. Daarom vra toestelle wat hitte maak, die meeste elektrisiteit terwyl hulle aan is.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Huishoudelike verhittingstoestelle het die hoogste drywing: ketel 1,5 tot 3 kW (Morphy Richards, hierbo), teenoor 'n radio van 1 tot 5 W (EcoFlow, hierbo) en 'n LED-lamp van 'n paar watt (energy.gov: https://www.energy.gov/sites/default/files/2021-08/ES-EE%20Lighting_080921.pdf). Eskom noem die geiser die grootste verbruiker (tot 40% van die maandrekening), en ruimteverhitting en geiser saam ~55% (IOL: https://www.iol.co.za/news/how-you-can-save-on-power-1285702). Die kwantor 'terwyl hulle aan is' maak dit 'n bewering oor drywing, wat klop; dit pas by die KABV-stelling dat verhittingstoestelle die meeste gebruik."
+    },
+    {
+      "bewering": "Die ketel, die stoof, die verwarmer en die geiser vir badwater is sulke toestelle.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom/IOL (geiser en ruimteverhitting die grootste huishoudelike verbruikers): https://www.iol.co.za/news/how-you-can-save-on-power-1285702; Engineering News 2026 oor verwarmers in die winter: https://www.engineeringnews.co.za/article/cold-front-hot-bills-dont-let-the-heater-eat-up-your-budget-2026-07-03"
+    },
+    {
+      "bewering": "Die meeste toestelle het 'n etiket wat wys hoeveel elektrisiteit hulle nodig het.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Save My Exams (die drywing van huishoudelike toestelle staan gewoonlik op 'n etiket): https://savemyexams.com/gcse/physics/aqa/18/revision-notes/2-electricity/2-3-energy-transfers/2-3-4-power-ratings; Kalifornië se veiligheidsregulasie vereis 'n naamplaat met volt en ampère of volt en watt: https://dir.ca.gov/title8/2522_30.html. 'Die meeste' is die regte kwantor, want sommige etikette wys net volt en ampère."
+    },
+    {
+      "bewering": "Die getal op 'n ketel is baie keer groter as dié op 'n klein radio.",
+      "blok": "Waarom 'n ketel meer vra as 'n radio",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Ketel 1 500 tot 3 000 W (Morphy Richards, hierbo) teenoor klein radio 1 tot 5 W (EcoFlow, hierbo): honderde kere groter. Die vergelyking hou: die blok vergelyk drywing (wat 'n toestel 'vra terwyl dit aan is') en nie totale verbruik nie, en die volgende blok voeg die tydsduur uitdruklik by. 'n Leerder wat verder redeneer, kom nie op 'n dwaalspoor nie."
+    },
+    {
+      "bewering": "Hoe meer elektrisiteit 'n huis gebruik, hoe meer moet die mense daarvoor betaal.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Elektrisiteit word per kilowatt-uur gemeet en gehef; die National Energy Foundation beskryf die drywing as hoeveel elektrisiteit 'n toestel gebruik, en verbruik maal tarief gee die koste: https://www.nea.org.uk/wp-content/uploads/2021/07/advice_leaflet_what_uses_watt.pdf; Eskom-wenke dat minder verbruik die rekening verlaag: https://www.iol.co.za/news/how-you-can-save-on-power-1285702"
+    },
+    {
+      "bewering": "Die meeste van Suid-Afrika se elektrisiteit kom van kragstasies wat steenkool brand.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "IEA-data via Intelpoint: 81,8% in 2023 (https://intelpoint.co/?p=6410); SAnews oor Ember se syfer: 74,31% in Januarie 2025, 'n rekordlaagte maar steeds die groot meerderheid (https://www.sanews.gov.za/node/74187). 'Die meeste' is reg en hou, ook al daal die aandeel."
+    },
+    {
+      "bewering": "Hoe meer ons gebruik, hoe meer steenkool moet daardie kragstasies dus brand.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Volg uit die steenkoolaandeel (bronne hierbo): ekstra vraag word in Suid-Afrika grotendeels deur steenkoolopwekking voorsien. Dit is ook die KABV se eie stelling. Die woord 'dus' bind dit tereg aan die vorige sin."
+    },
+    {
+      "bewering": "Twee dinge bepaal hoeveel 'n toestel altesaam gebruik. Die een is hoeveel dit vra terwyl dit aan is, en die ander is hoe lank dit aan is.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Energie = drywing x tyd (watt x uur = watt-uur): https://www.ecoflow.com/au/blog/how-much-power-does-a-radio-use; Save My Exams, drywing as energie per sekonde: https://savemyexams.com/gcse/physics/aqa/18/revision-notes/2-electricity/2-3-energy-transfers/2-3-4-power-ratings"
+    },
+    {
+      "bewering": "'n Geiser maak hitte en staan boonop dikwels ure lank aan.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom noem die geiser die grootste verbruiker, tot 40% van die maandrekening, en vra huishoudings om geisers tussen 17:00 en 21:00 af te skakel (IOL: https://www.iol.co.za/news/how-you-can-save-on-power-1285702). Die element skakel deur die termostaat aan en af, maar die geiser is ure lank aangeskakel; die sin sê 'staan aan', wat klop."
+    },
+    {
+      "bewering": "'n Lig wat die hele nag brand, gebruik meer as dieselfde lig wat jy afskakel wanneer jy gaan slaap.",
+      "blok": "Hoe lank dit aan is, tel ook",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "Direkte gevolg van energie = drywing x tyd (EcoFlow, hierbo). Die vergelyking hou die drywing konstant ('dieselfde lig') en verander net die tyd, so dit isoleer die veranderlike korrek."
+    },
+    {
+      "bewering": "Ons kan op baie maniere energie bespaar. Dan betaal ons minder, en die kragstasies hoef minder steenkool te brand.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom se bespaarwenke (IOL): https://www.iol.co.za/news/how-you-can-save-on-power-1285702; steenkoolaandeel soos hierbo (https://www.sanews.gov.za/node/74187)."
+    },
+    {
+      "bewering": "'n Ou gloeilamp word baie warm, want 'n groot deel van sy energie gaan as hitte weg.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "energy.gov: gloeilampe het 90% van hul energie as hitte en net 10% as lig afgegee: https://www.energy.gov/sites/default/files/2021-08/ES-EE%20Lighting_080921.pdf"
+    },
+    {
+      "bewering": "'n Energiebesparende gloeilamp word minder warm en gee dieselfde lig met baie minder elektrisiteit.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "energy.gov 2021: 'n CFL gee dieselfde lig as 'n vergelykbare gloeilamp met ongeveer 75% minder energie en 75% minder hitte; LED's tot 90% minder: https://www.energy.gov/sites/default/files/2021-08/ES-EE%20Lighting_080921.pdf"
+    },
+    {
+      "bewering": "'n Ander manier is om 'n sonkragwaterverwarmer op die dak te gebruik. Dit maak die water warm met die Son se hitte. Dan hoef die elektriese geiser minder te doen.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vuk'uzenzele (regering) oor sonverwarmers wat energie van die son neem in plaas van elektrisiteit: https://www.vukuzenzele.gov.za/meeting-energy-demand-solar-energy-rescue; IEA oor die Suid-Afrikaanse sonwaterverwarmerprogram (verwagte besparing ~650 MW): https://www.iea.org/policies/3039-solar-water-heating-programme. 'Minder te doen' (nie 'niks') is reg, want baie stelsels het 'n elektriese rugsteunelement."
+    },
+    {
+      "bewering": "Skakel ligte en toestelle af wanneer niemand hulle gebruik nie. Kook net soveel water in die ketel as wat jy nodig het.",
+      "blok": "Hoe ons energie kan bespaar",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom se wenke, insluitend om net die water te kook wat jy nodig het (IOL): https://www.iol.co.za/news/how-you-can-save-on-power-1285702"
+    },
+    {
+      "bewering": "Soms word drade sonder toestemming van die verskaffer van elektrisiteit aan kraglyne of 'n mini-substasie gekoppel. So 'n draad noem ons 'n onwettige verbinding.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "SAnews (regering), Eskom: 'n onwettige verbinding ('izinyoka') is enige koppeling aan Eskom se netwerk sonder toestemming, insluitend om 'n mini-substasie te tap: https://www.sanews.gov.za/node/32666"
+    },
+    {
+      "bewering": "'n Mini-substasie is 'n substasie in 'n kas wat in baie strate staan.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Rustenburg Plaaslike Munisipaliteit se tegniese spesifikasie vir 'miniature substations' (SANS 1029): https://www.rustenburg.gov.za/Documents/Technical%20Specifications%20%20-%20Minisub,%20Transformer,%20Plints,%20Power%20Transformer,%20Metering%20Units.pdf; die kiosk- of minisubstasie is 'n weerbestande omhulsel met 'n verspreidingstransformator wat mediumspanning afstap vir huise, in stedelike en voorstedelike strate: https://wilken.com.au/what-is-a-kiosk-substation/; City Power oor mini-substasies in strate wat oopgebreek is: https://citizen.co.za/alex-news/?p=222854"
+    },
+    {
+      "bewering": "Sulke drade is dikwels onveilig gemaak en slordig neergelê. Party lê dwarsoor paadjies en ander plekke waar mense loop.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "SAnews, Eskom: gewoonlik deur onopgeleide mense gemaak, kabels sonder beskermende isolasie en nie op 'n veilige hoogte nie, sodat kinders, diere en volwassenes daaraan kan raak; kinders word geskok ná aanraking van slordig neergelegde kabels: https://www.sanews.gov.za/node/32666"
+    },
+    {
+      "bewering": "Dikwels is daar ook niks wat die elektrisiteit afskakel as iets verkeerd loop nie.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "SAnews, Eskom: sulke verbindings het oor die algemeen geen veiligheidskenmerke nie: https://www.sanews.gov.za/node/32666. Die bron noem nie stroombrekers by name nie, maar 'dikwels' en 'niks wat afskakel' is 'n getroue vereenvoudiging van 'geen veiligheidskenmerke'."
+    },
+    {
+      "bewering": "So 'n draad kan iemand doodskok wat net daaraan raak, ook 'n kind wat niks daarmee te doen gehad het nie.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Sowetan 2016, Eskom se veiligheidsbestuurder: onskuldige kinders is die mees algemene slagoffers: https://www.sowetanlive.co.za/news/2016-11-20-illegal-connections-continue-to-endanger-lives--eskom/; SAnews: https://www.sanews.gov.za/node/32666; GroundUp oor 'n tweejarige wat geskok is: https://groundup.org.za/article-print/we-need-electricity-legal-or-not-says-shack-dweller/"
+    },
+    {
+      "bewering": "Dit kan ook brande veroorsaak.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Citizen 2019, Eskom: onwettige verbindings oorlaai die netwerk en kan 'n brand veroorsaak: https://citizen.co.za/alex-news/?p=127269; Sowetan 2010, Kennedy Road-brand (300 hutte) vermoedelik deur onwettige verbindings: https://www.sowetanlive.co.za/amp/news/2010-07-06-300-shacks-razed-by-illegal-electricity/; TimesLIVE 2026, Ekurhuleni waarsku oor brand- en skokgevaar: https://www.timeslive.co.za/news/south-africa/2026-08-05-nearly-2000-illegal-power-connections-cut-in-ekurhuleni-sweep/"
+    },
+    {
+      "bewering": "Moenie so 'n draad aanraak nie. Bly ver weg en sê dadelik vir 'n grootmens.",
+      "blok": "Waarom 'n onwettige verbinding gevaarlik is",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Eskom: net gemagtigde personeel of gekwalifiseerde elektrisiëns mag koppel, onwettige verbindings moet by Eskom aangemeld word, en ouers moet kinders van die gevaar leer (Citizen 2019): https://citizen.co.za/alex-news/?p=127269. Om dit vir 'n grootmens te sê is die regte rol vir 'n kind; die aanmelding self is 'n grootmens se taak."
+    },
+    {
+      "bewering": "infrastruktuur: Al die geboue, masjiene, paaie en drade wat nodig is om dienste soos elektrisiteit te lewer.",
+      "blok": "infrastruktuur",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Standaardbetekenis van infrastruktuur as die basiese fisiese strukture en stelsels wat dienste lewer; die voorbeelde (geboue, masjiene, paaie, drade) is almal fisiese infrastruktuur. Strook met die Eskom-gebruik in Engineering News 2022: https://engineeringnews.co.za/article/eskom-says-intensifying-process-to-replace-failed-electricity-infrastructure-in-gauteng-2022-07-12. Alleen gelees bly dit waar ('dienste soos elektrisiteit' is 'n voorbeeld en nie 'n beperking nie)."
+    },
+    {
+      "bewering": "substasie: 'n Plek met groot masjiene wat die elektrisiteit se stoot of pad verander.",
+      "blok": "substasie",
+      "status": "bevestig",
+      "tipe": "analogie",
+      "bron": "IEEE: substasies doen spanningsomskakeling (hoofrol) en skakeling, wat die stroom na ander lyne stuur: https://technav.ieee.org/topic/electric-power-supply-substations/; Eskom TD-0003: spanning word in substasies deur afstaptransformators verlaag: https://www.eskom.co.za/wp-content/uploads/2021/08/TD-0003-Transmission-and-Distribution-of-electricity-Rev-11.pdf. 'Stoot' vir spanning is 'n gangbare, veilige beeld; 'pad verander' pas by skakeling. Die afbeelding hou."
+    },
+    {
+      "bewering": "toestel: Iets wat die energie wat elektrisiteit bring, gebruik om lig, klank, beweging of hitte te gee.",
+      "blok": "toestel",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "Die woord 'toestel' beteken in die algemeen 'n apparaat of ding met verskeie dele wat 'n taak verrig, en is nie tot elektrisiteit beperk nie (Interglot, Nederlands 'toestel' = apparatus, device, appliance, machine: https://www.interglot.eu/dictionary/nl/en/translate/toestel?l=fr%7Csv). Afrikaans praat ook van 'gastoestelle' (bv. Afrikaanse veiligheidsartikel oor gastoestelle: https://www.notizie.it/af/inailongelukke-hoe-om-gasvergiftigingsrisiko%27s-te-voorkom/). Binne hierdie les is die betekenis duidelik 'elektriese toestel', maar 'n begrip-inskrywing word alleen gelees, en dan leer dit dat 'n gasstoof of gasverwarmer nie 'n toestel is nie. Klein fout, maar 'n vereenvoudiging wat die betekenis te nou maak.",
+      "regstelling": "Maak die inskrywing se omvang eerlik: definieer 'elektriese toestel' (iets wat die energie wat elektrisiteit bring, gebruik om lig, klank, beweging of hitte te gee), of sê dat 'n toestel iets is wat 'n taak verrig en dat 'n elektriese toestel die energie van elektrisiteit daarvoor gebruik. As dit die vak se gedeelde, ooreengekome bewoording is, hoort die verandering in die lys gedeelde omskrywings en by 'n mens, nie net in hierdie les nie."
+    },
+    {
+      "bewering": "energiebesparende gloeilamp: 'n Lamp wat dieselfde lig gee met baie minder elektrisiteit as 'n ou gloeilamp.",
+      "blok": "energiebesparende gloeilamp",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "energy.gov 2021: CFL dieselfde lig met ~75% minder energie, LED tot 90% minder: https://www.energy.gov/sites/default/files/2021-08/ES-EE%20Lighting_080921.pdf"
+    },
+    {
+      "bewering": "sonkragwaterverwarmer: 'n Stelsel wat die Son se hitte gebruik om water warm te maak.",
+      "blok": "sonkragwaterverwarmer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Vuk'uzenzele (regering): sonverwarmers neem energie van die son: https://www.vukuzenzele.gov.za/meeting-energy-demand-solar-energy-rescue; IEA, Suid-Afrikaanse sonwaterverwarmerprogram: https://www.iea.org/policies/3039-solar-water-heating-programme. 'Die Son se hitte' is 'n aanvaarbare vereenvoudiging van sonstraling wat in die versamelaar as hitte opgeneem word."
+    },
+    {
+      "bewering": "onwettige verbinding: 'n Draad wat sonder toestemming aan kraglyne of 'n mini-substasie gekoppel is.",
+      "blok": "onwettige verbinding",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "SAnews, Eskom: enige koppeling aan die netwerk sonder toestemming, insluitend om 'n mini-substasie te tap: https://www.sanews.gov.za/node/32666. Eskom noem ook meteropknoeiery en om 'n buurman aan jou meter te koppel; die inskrywing noem nie daardie vorme nie, maar sê niks vals nie en dek die vorm wat die les beskryf."
+    }
+  ],
+  "opsomming": "Elke feit in die les klop met die bronne, maar die begrip 'toestel' sê, alleen gelees, dat 'n toestel net elektrisiteit gebruik, wat 'n gastoestel uitsluit; as dit die vak se gedeelde bewoording is, moet 'n mens oor die verandering besluit."
+}
