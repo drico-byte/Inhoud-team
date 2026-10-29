@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die patroon herhaal homself",
+      "voor": "Later kom die Maan eers laat in die nag op.",
+      "na": "Daarna kom die Maan eers laat in die nag op.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Later ... laat' in one short sentence sounds clumsy; 'Daarna' keeps the same order of events without the echo.",
+      "fout": "'Later ... laat' echoes clumsily in one short sentence",
+      "rede_keurder": "'Daarna' removes the echo and keeps the same sequence of events, with no qualifier or fact changed."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die vorms van nuwemaan tot volmaan en weer terug",
+      "voor": "en hier begin die patroon",
+      "na": "en dan begin die patroon",
+      "soort": "woordkeuse",
+      "rede_vinder": "The sentence points to a moment in time, so the time word 'dan' reads more naturally than the place word 'hier'.",
+      "fout": "none",
+      "rede_keurder": "'hier begin die patroon' is natural figurative Afrikaans for 'this is where the pattern starts'; 'dan begin' is a lateral move that can also read as the pattern starting after new moon rather than at it."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 520,
+  "woorde_na": 520,
+  "wanneer": "2026-10-29T14:02:01+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Die Son skyn op een helfte",
+      "voor": "kry ook later sy beurt",
+      "na": "kry later ook sy beurt",
+      "soort": "woordorde",
+      "rede_vinder": "'later ook' is the more natural order here.",
+      "fout": "none",
+      "rede_keurder": "\"kry ook later sy beurt\" already reads naturally, and moving \"ook\" is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoekom ons uitsig elke aand verander",
+      "voor": "Elke aand is die Maan dus op 'n ander plek om die Aarde.",
+      "na": "Elke aand is die Maan dus op 'n ander plek op sy pad om die Aarde.",
+      "soort": "sinsbou",
+      "rede_vinder": "'op 'n ander plek om die Aarde' is awkward; tying the place to the path just named reads clearly without adding content.",
+      "fout": "none",
+      "rede_keurder": "\"op 'n ander plek om die Aarde\" is understandable, and the proposal lengthens the sentence and repeats \"pad om die Aarde\" a third time in three sentences."
+    },
+    {
+      "nr": 1,
+      "blok": "Die patroon herhaal homself",
+      "voor": "hoe die stuk lig weer kleiner word",
+      "na": "hoe die verligte deel weer kleiner word",
+      "soort": "woordkeuse",
+      "rede_vinder": "'die stuk lig' is loose and colloquial; 'die verligte deel' matches the lesson's own wording (verligte helfte, die deel daarvan) without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "'Die stuk lig' is plain Grade 4 wording for the patch we see, while 'die verligte deel' echoes 'verligte helfte', which the lesson says never changes size, so the proposal suggests the lit part of the Moon itself shrinks."
+    }
+  ],
+  "konsep_hash_voor": "sha256:a9116195cabaf24453a801dbcbd060fe",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:244c580de0b8d521d0fe17bceda07101"
+}

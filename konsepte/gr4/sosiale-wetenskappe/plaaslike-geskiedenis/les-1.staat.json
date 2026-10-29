@@ -287,9 +287,19 @@
       "woorde": 276,
       "begroting": 245,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:10:53+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 276,
+      "woorde_na": 276
     }
   ],
-  "spek_hash": "sha256:6df8cdcdff3c88f3525313272b66c1f5",
+  "spek_hash": "sha256:7fe75e822a36ae61dc8b6f433d39e1aa",
   "hek_konteks": {
     "graad": 4,
     "begroting": 245,
@@ -298,13 +308,12 @@
   "taal_vir_skrywer": [],
   "taal_geforseer_vir": "sha256:030d0f96a3abf7696ffab2f08b053fb2",
   "taal_rondte_vir": "sha256:9b31ebd16092f48a8fc24d145b1782c2",
-  "taal_keurder_vir": "7088579d262cd685d46e75dca796a842",
+  "taal_keurder_vir": "b356d4b7e5c529ccf41be8d91531ce47",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:4e142e90df9fbfc7db7105724647c814",
+  "taal_klaar_vir": "sha256:9b31ebd16092f48a8fc24d145b1782c2",
   "taal_vir_mens": [
-    "[taal, protected word] 'voorwerpbronne': Asked explicitly: it is a regular, transparent Afrikaans compound (voorwerp + bron, like 'waterbron' or 'inligtingsbron'), and a nine-year-old can take it apart without help, so it is acceptable Afrikaans even if no source uses it. The singular 'voorwerpbron' also works inside a sentence. No better form to propose.",
-    "[taal, protected word] 'Soms wys hulle nie genoeg nie en die vraag bly oop.': By the AWS 2017 rule in this prompt, a comma belongs before 'en' here: 'hulle wys' and 'die vraag bly' are two clauses, each with its own subject and verb ('Soms wys hulle nie genoeg nie, en die vraag bly oop.'). Not changed because the wording is protected.",
-    "[taal, protected word] 'en 'n vraag help antwoord': The protection is about keeping 'help'; 'antwoord' with 'n vraag' as direct object is less standard than 'beantwoord' ('en 'n vraag help beantwoord'). Raised for a person, since the bewys entry and the leidraad block have the same construction."
+    "[taal, protected word] 'voorwerpbronne': Asked for explicitly: 'voorwerpbron/voorwerpbronne' is a regular Afrikaans noun-noun compound (like 'inligtingsbron'), transparent in meaning and readable for a nine-year-old, and it sits naturally beside 'visuele, mondelinge en geskrewe bronne'. I see no language reason to change it; no better form is proposed.",
+    "[taal, protected word] 'Soms wys hulle nie genoeg nie en die vraag bly oop.': By the AWS 2017 rule in the brief, this 'en' joins two sentences with their own subject and verb ('hulle wys' and 'die vraag bly'), so it needs a comma: 'Soms wys hulle nie genoeg nie, en die vraag bly oop.' Not changed because the wording is protected; a person should decide whether the protection covers the punctuation."
   ],
   "taal_bons_vir": "sha256:07678dd904d6a5192ae0e0c0f4320056",
   "taal_bons_siklus": 1,

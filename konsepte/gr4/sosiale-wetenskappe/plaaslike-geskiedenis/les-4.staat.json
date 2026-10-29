@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/plaaslike-geskiedenis/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:b55a5823f46c1dc5a694f3fdca957850",
+  "konsep_hash": "sha256:40a04a085322becd18509124eca925ce",
   "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:521fe4b500f521b2a140c61e82ccb824"
@@ -225,11 +225,116 @@
       "sound": true,
       "items": 25,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:16:51+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fe570bd634f3f54cfeb7c45ab33b8c6b",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-29T14:16:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 228,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:16:52+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:fe570bd634f3f54cfeb7c45ab33b8c6b",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-29T14:34:14+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 228,
+      "woorde_na": 230,
+      "konsep_hash": "sha256:5b19279f4491cc10bf0902dc5777687e"
+    },
+    {
+      "wanneer": "2026-10-29T14:34:15+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 230,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:34:15+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'bewaar en aangee': 'Aangee' on its own reads like handing an object across rather than passing heritage on to later generations.",
+        "check (the language finder raised this; it may not be a fault): ''n Speurder soek leidrade in bronne en wil ook weet wanneer iets gebeu': The lesson opens with 'n Speurder' without saying who the detective is in this lesson; it presumably refers to an earlier lesson's comparison, and a learner reading this lesson alone may not follow. Making it clear would mean adding content, so it is flagged, not changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-29T14:36:52+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fed5a3f9f059a1b052d238a8119a2d63",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-29T14:36:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 230,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:45:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:3a52ab2971eafdeab49b02f9eed294e4",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-29T14:45:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 230,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:48:12+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 230,
+      "woorde_na": 230,
+      "konsep_hash": "sha256:40a04a085322becd18509124eca925ce"
+    },
+    {
+      "wanneer": "2026-10-29T14:48:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 230,
+      "begroting": 200,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:a84d3ba6775d1471db8003604ea74bda",
+  "spek_hash": "sha256:e0d3bf600379ff2f620060290816f488",
   "hek_konteks": {
     "graad": 4,
-    "begroting": 200
-  }
+    "begroting": 200,
+    "afgelewerde_lengte": true
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:fe570bd634f3f54cfeb7c45ab33b8c6b",
+  "taal_rondte_vir": "sha256:40a04a085322becd18509124eca925ce",
+  "taal_keurder_vir": "61e1aab6670e3432fa88174ccb2484bd",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:40a04a085322becd18509124eca925ce",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:5b19279f4491cc10bf0902dc5777687e",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "12d204dcaa59a13d9b1f56e9639699bf"
 }

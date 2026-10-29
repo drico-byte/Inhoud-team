@@ -1,186 +1,231 @@
 {
   "skema_weergawe": "1.0",
   "nasiener": "feite",
-  "prompt_weergawe": "feitenasiener-v1.1",
+  "prompt_weergawe": "feitenasiener-v1.3",
   "les": "Ons planeet en die sterre",
   "kaps_punt": "Aarde en die Ruimte: die Aarde is 'n planeet in die ruimte; van die Aarde kan ons die Son, Maan en sterre sien",
-  "verdict": "GOEDGEKEUR",
+  "verdict": "HERSIEN",
   "items": [
     {
-      "bewering": "Die Son is 'n ster daar buite in die ruimte, en die Aarde beweeg om hom.",
-      "blok": "Wat jy van die Aarde af sien",
+      "bewering": "Jy haal elke dag asem uit die dun laag lug wat om die Aarde lê.",
+      "blok": "Van die lug tot in die ruimte",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "NASA Science, 'Sun: Facts' (science.nasa.gov/sun/facts) — 'The Sun is the only star in our solar system... Everything in our solar system revolves around it – the planets, asteroids, comets...'; NASA Solar System Exploration, Sun in Depth. Hierdie rondte vars nagegaan. Albei helftes is waar: die Son is 'n ster, en die Aarde beweeg om die Son."
+      "bron": "NASA Science, 'Earth's Atmosphere: A Multi-Layered Cake' (https://science.nasa.gov/earth/earth-atmosphere/earths-atmosphere-a-multi-layered-cake/): 99.99997% van die atmosfeer lê onder 100 km, teenoor 'n Aarde van sowat 12 700 km breed. 'Dun laag' klop."
     },
     {
-      "bewering": "Die nuwe sin verbind die twee idees korrek: die ster waarom die Aarde beweeg ('Die Aarde ... beweeg heeltyd om 'n ster', blok 'Die Aarde is 'n planeet') is dieselfde Son wat die kind bedags sien.",
-      "blok": "Wat jy van die Aarde af sien",
+      "bewering": "Hoe hoër jy bo die grond kom, hoe dunner word daardie lug.",
+      "blok": "Van die lug tot in die ruimte",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Interne logika teen NASA science.nasa.gov/sun/facts nagegaan. Die sin staan onmiddellik na 'Bedags sien jy die Son bo jou as 'n baie helder lig', so 'die Son' verwys sonder twyfel na dieselfde helder lig; 'n ster' in die vroeëre blok en 'die Son' hier is nou uitdruklik dieselfde voorwerp. Die vroeëre blok se onbepaalde ''n ster' bly waar, en die identifikasie volg een blok later. Geen leser kan meer eindig met die idee dat die Aarde om 'n ánder ster as die Son beweeg nie."
+      "bron": "NASA Science, dieselfde bladsy: die troposfeer is die digste laag omdat die lug daarbo dit saampers; die eksosfeer het 'extremely low density'."
+    },
+    {
+      "bewering": "Nêrens hou die lug skielik op nie.",
+      "blok": "Van die lug tot in die ruimte",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Science, dieselfde bladsy: 'there's really no clear boundary between where Earth's atmosphere ends and outer space begins'; die geokorona strek tot sowat 629 000 km."
+    },
+    {
+      "bewering": "Ver bo jou is so min lug oor dat ons dit die ruimte noem.",
+      "blok": "Van die lug tot in die ruimte",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Science, dieselfde bladsy: die Kármán-lyn (100 km) word by ooreenkoms as die oorgang na die ruimte gebruik; Scientific American, 'Where Does Outer Space Begin?' (https://scientificamerican.com/article/where-does-outer-space-begin). Die les se 'ons noem dit' pas by 'n grens wat 'n ooreenkoms is en nie 'n rand nie."
+    },
+    {
+      "bewering": "Die Aarde self is 'n baie groot ronde wêreld in daardie ruimte.",
+      "blok": "Van die lug tot in die ruimte",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Science, Earth Facts (https://science.nasa.gov/earth/facts/): die Aarde is 'the third planet from the Sun, and the fifth largest planet'."
+    },
+    {
+      "bewering": "Die Aarde staan nooit stil nie en beweeg heeltyd om 'n ster.",
+      "blok": "Die Aarde is 'n planeet",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Science, Earth Facts: 'It takes 365.25 days to complete one trip around the Sun'; NASA Science, Sun Facts (https://science.nasa.gov/sun/facts/): die Son is 'n ster."
+    },
+    {
+      "bewering": "Dit gaan om en om die ster, altyd dieselfde groot pad langs. Na 'n lang tyd is die Aarde weer presies waar dit begin het.",
+      "blok": "Die Aarde is 'n planeet",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "NASA StarChild (https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question18.html) en NRAO (https://public.nrao.edu/ask/orbital-period-of-the-sun-in-the-milky-way-galaxy/): die Son, en die Aarde saam met hom, beweeg teen sowat 230 km/s (828 000 km/h) om die middel van die Melkweg, dus is die Aarde na een jaar meer as 7 miljard km van waar hy in die ruimte begin het. Daarby verander die vorm van die Aarde se pad stadig oor sowat 100 000 jaar (NASA, 'Milankovitch (Orbital) Cycles and Their Role in Earth's Climate', https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/). Van jaar tot jaar is die pad om die Son wel feitlik dieselfde, en die Aarde kom elke jaar terug na dieselfde plek OP SY PAD OM DIE SON. Die fout is die woord 'presies' sonder 'n verwysingspunt: soos dit staan, se dit die Aarde is weer op presies dieselfde plek, en dit is nie waar nie.",
+      "regstelling": "Haal 'presies' weg en anker die plek aan die pad om die ster, nie aan die ruimte nie: die Aarde kom na een rondte weer by dieselfde plek op sy pad om die Son. 'Altyd dieselfde groot pad' kan by hierdie graad bly as 'elke keer omtrent dieselfde pad' of net 'dieselfde pad'; dit is die bewering van presiese terugkeer wat vals is."
+    },
+    {
+      "bewering": "Dan begin dieselfde lang reis van voor af.",
+      "blok": "Die Aarde is 'n planeet",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Science, Earth Facts: een rondte om die Son duur 365,25 dae en herhaal elke jaar (vandaar die skrikkeldag)."
+    },
+    {
+      "bewering": "'n Planeet is 'n groot ronde wêreld wat op sy eie om 'n ster beweeg.",
+      "blok": "Die Aarde is 'n planeet",
+      "status": "weerspreek",
+      "tipe": "algemeen",
+      "bron": "IAU-resolusie B5, 2006 (https://nssdc.gsfc.nasa.gov/planetary/text/pluto_iau_res_20060824.txt): 'n planeet (a) wentel om die Son, (b) het genoeg massa om rond te wees, en (c) het die omgewing van sy baan skoongemaak. NASA Space Place, 'What Is a Planet?' (https://spaceplace.nasa.gov/planet-what-is/en/) gee al drie voorwaardes selfs vir kinders. NASA Science, Pluto Facts (https://science.nasa.gov/dwarf-planets/pluto/facts/): Pluto is rond genoeg, wentel op sy eie om die Son, en is 'n dwergplaneet omdat sy pad nie skoon is nie; sy deursnee is 2 377 km, 'about two-thirds the diameter of Earth's Moon'. Die les se omskrywing noem net (a) en (b), en word as volle toets aangebied ('n Planeet IS ...). Pluto, Eris en Ceres slaag daarvoor. Die les se eie maatstaf maak dit erger: dit noem die Maan 'ook groot', en Pluto is kleiner as die Maan, dus kan 'groot' nie die werk van die derde voorwaarde doen nie. Die Maan-redenasie in dieselfde blok bly korrek.",
+      "regstelling": "Voeg die derde voorwaarde in eenvoudige woorde by, sodat die omskrywing nie meer op dwergplanete pas nie: 'n planeet is 'n groot ronde wêreld wat op sy eie om 'n ster beweeg, en wat so swaar is dat hy sy pad om die ster skoongemaak het van ander groot stukke klip en ys. As 'planeet' 'n gedeelde, ooreengekome omskrywing vir die vak is, moet dit daar verander word en in elke les wat dit gebruik; dit is dan 'n persoon se besluit en nie een les se skrywer s'n nie."
+    },
+    {
+      "bewering": "Die Maan is ook groot en rond, maar hy reis saam met die Aarde.",
+      "blok": "Die Aarde is 'n planeet",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Science, Moon Facts (https://science.nasa.gov/moon/facts/): radius sowat 1 740 km (1 080 myl), 'Earth's only natural satellite', en dit gaan om die Aarde op sowat 385 000 km, dus beweeg dit saam met die Aarde om die Son."
+    },
+    {
+      "bewering": "Net soos 'n planeet maak die Maan nie sy eie lig nie.",
+      "blok": "Die Aarde is 'n planeet",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "West Texas A&M University, 'Science Questions with Surprising Answers' (https://wtamu.edu/~cbaird/sq/2015/08/06/why-is-the-moon-so-bright/): planete en mane gee nie sigbare lig af nie en word gesien deur weerkaatste sonlig; NASA (https://www.nasa.gov/feature/episode-19-we-asked-a-nasa-scientist-why-can-you-see-the-moon-during-the-day): die Maan maak nie sy eie lig nie. 'Lig' is hier sigbare lig; dat planete infrarooi uitstraal, maak die sin nie vals nie."
+    },
+    {
+      "bewering": "Hy beweeg nie op sy eie om 'n ster nie. Daarom is die Maan nie 'n planeet nie.",
+      "blok": "Die Aarde is 'n planeet",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "IAU-resolusie B5, 2006: planete wentel om die Son; 'n satelliet word uitdruklik uitgesluit (dwergplaneet-voorwaarde (d) 'is not a satellite'). NASA Moon Facts: die Maan is die Aarde se natuurlike satelliet. Die gevolgtrekking volg uit die tweede sin, nie uit die lig-sin nie, en dit is korrek."
     },
     {
       "bewering": "As jy buite staan en opkyk, kyk jy van die Aarde af die ruimte in.",
       "blok": "Wat jy van die Aarde af sien",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "NASA Science, 'Earth's Atmosphere' / algemene ruimtevaartverwysing: die atmosfeer dun geleidelik uit en gaan oor in die ruimte, so opkyk is inderdaad in die rigting van die ruimte kyk. Hierdie rondte nagegaan as deel van die veranderde blok."
+      "bron": "NASA Science, atmosfeerbladsy (soos hierbo): die lug is 'n dun laag en die ruimte begin sowat 100 km bo jou; jy kyk deur die lug die ruimte in."
     },
     {
       "bewering": "Bedags sien jy die Son bo jou as 'n baie helder lig.",
       "blok": "Wat jy van die Aarde af sien",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "NASA Science, science.nasa.gov/sun — die Son is die helderste voorwerp in die daglug. Hierdie rondte nagegaan omdat die nuwe sin direk hierop volg en daarvan afhang."
+      "bron": "NASA Science, Sun Facts: die fotosfeer is 'the layer that emits the most visible light'. Die sin se nie dat 'n leerder na die Son moet kyk nie."
+    },
+    {
+      "bewering": "Die Son is 'n ster daar buite in die ruimte, en die Aarde beweeg om hom.",
+      "blok": "Wat jy van die Aarde af sien",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Science, Sun Facts: 'a 4.5 billion-year-old yellow dwarf star', 'Everything in our solar system revolves around it'; NASA Earth Facts: een rondte om die Son in 365,25 dae."
     },
     {
       "bewering": "Die Maan sien jy snags en soms ook oordag in die lug.",
       "blok": "Wat jy van die Aarde af sien",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Gedra oor uit die vorige rondte — dit is die daglug-sin wat toe goedgekeur is en nie deur die verandering geraak word nie. Nie hierdie rondte herondersoek nie."
+      "bron": "NASA, 'We Asked a NASA Scientist: Why Can You See the Moon During the Day?' (https://www.nasa.gov/feature/episode-19-we-asked-a-nasa-scientist-why-can-you-see-the-moon-during-the-day): die Maan kan dag of nag gesien word; Washington State University, Ask Dr. Universe (https://askdruniverse.wsu.edu/2025/09/25/can-sometimes-see-moon-day/). 'Soms' is die regte kwantor; die sin se nie elke nag nie."
     },
     {
       "bewering": "In die aand sien jy sterre as klein kolletjies teen die donker lug.",
       "blok": "Wat jy van die Aarde af sien",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "StarDate Online, 'Why aren't stars visible in the daytime?' en UCSB ScienceLine (scienceline.ucsb.edu/getkey.php?key=2974) — sterre word met die blote oog sigbaar sodra die lug donker word. Hierdie rondte nagegaan as deel van die veranderde blok."
+      "bron": "Sky & Telescope, 'If stars are unresolved points...' (https://skyandtelescope.org/?p=3381371) en Celestron-kennisbasis (https://celestron.com/blogs/knowledgebase/why-do-i-only-see-stars-as-points-of-light-even-when-using-my-highest-power-eyepiece): sterre wys as ligpunte, nie skywe nie."
     },
     {
-      "bewering": "Bedags sien jy nie sterre in die res van die lug nie.",
-      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "StarDate Online, 'Why aren't stars visible in the daytime?'; Scientific American, 'How to See Stars, Satellites, and More in the Daytime Sky'. Hierdie rondte vars nagegaan, spesifiek op die punt wat al twee keer verkeerd was: die sin beperk hom uitdruklik tot 'die res van die lug' — dus die lug buiten die Son — en beweer nié dat geen ster bedags sigbaar is nie."
-    },
-    {
-      "bewering": "Die blok beperk sy eise steeds tot die ander sterre, ná die skrapping van die ou openingsin.",
-      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Interne nagaan van die volledige blok hierdie rondte. Die beperking word op drie plekke gedra: die kop ('die ander sterre', wat veronderstel dat die Son ook 'n ster is), die eerste sin se 'in die res van die lug', en die derde sin 'Die ander sterre is bedags ook daar bo'. Die skrapping het niks van hierdie drie weggeneem nie, en die feit dat 'n ster wél bedags sigbaar is, word nou uitdruklik in die vorige blok gestel ('Bedags sien jy die Son ... Die Son is 'n ster'). Die skrapping kos dus niks."
-    },
-    {
-      "bewering": "Na sononder is daardie lug vol sterre.",
-      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Sky & Telescope, 'Twilight'; Scientific American, 'There Are Three Types of Twilight' — die nagtelike lug ná sononder is vol sterre, met die helderstes eerste en die meeste sigbaar teen astronomiese skemer. Hierdie rondte nagegaan. Die terugverwysing 'daardie lug' vind sy antesedent in die nuwe eerste sin ('die res van die lug'), so die skrapping het die verwysing nie los gelaat nie."
-    },
-    {
-      "bewering": "Die ander sterre is bedags ook daar bo, al sien jy hulle nie.",
-      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "StarDate Online, 'Why aren't stars visible in the daytime?' — die sterre is bedags steeds in die lug; net die helderheid van die verstrooide sonlig keer dat 'n mens hulle sien. Hierdie rondte vars nagegaan."
-    },
-    {
-      "bewering": "Die Son se lig versprei oral oor die lug en maak dit baie helder.",
-      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "StarDate Online en UCSB ScienceLine — Rayleigh-verstrooiing versprei sonlig oor die hele lug en maak die daglug helder. Hierdie rondte vars nagegaan; die vereenvoudiging noem nie die meganisme se naam nie, maar sê niks onwaar nie."
-    },
-    {
-      "bewering": "Daardie sterre se lig kom wel deur, maar dit verdwyn in die helder lug.",
-      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "StarDate Online; Scientific American, 'How to See Stars, Satellites, and More in the Daytime Sky' — sterlig bereik die grond bedags, maar gaan verlore teen die verstrooide sonlig (die bron vergelyk dit met een sneeuvlokkie in 'n sneeustorm). Hierdie rondte vars nagegaan."
-    },
-    {
-      "bewering": "Sodra die lug donker genoeg word, verskyn die eerste sterre.",
-      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
-      "status": "bevestig",
-      "tipe": "superlatief",
-      "bron": "Scientific American, 'There Are Three Types of Twilight'; Sky & Telescope, 'Twilight' — tydens burgerlike skemer verskyn die helderste (eerste-grootte) sterre eerste, en meer volg namate die lug donkerder word. Hierdie rondte vars nagegaan. 'Eerste' is hier 'n volgorde in tyd, nie 'n eerstheid-eis nie, en dit is korrek."
-    },
-    {
-      "bewering": "Daar is baie meer sterre in die ruimte as wat jy kan tel.",
-      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
-      "status": "bevestig",
-      "tipe": "getal",
-      "bron": "NASA Science, 'Stars' (science.nasa.gov/universe/stars) — die getal sterre in die heelal is in die orde van 10^22; selfs met die blote oog is die getal ver buite tel. Hierdie rondte nagegaan as deel van die veranderde blok."
-    },
-    {
-      "bewering": "'n Ster is 'n baie groot bal warm gas in die ruimte. Die gas binne-in 'n ster is so warm dat die ster self lig maak.",
+      "bewering": "Sterre lyk soos klein kolletjies lig, maar hulle is eintlik baie groot.",
       "blok": "Wat is 'n ster?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "NASA Science, 'Stars' (science.nasa.gov/universe/stars) — sterre is reusagtige balle warm gas, hoofsaaklik waterstof, wat deur kernfusie in die kern energie vrystel en daarom self skyn. Hierdie rondte nagegaan omdat die verandering op hierdie blok se ster-en-lig-onderskeid dra."
-    },
-    {
-      "bewering": "Daardie eie lig van die ster is wat jy in die aand sien blink.",
-      "blok": "Wat is 'n ster?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "StarDate Online; UCSB ScienceLine. Hierdie rondte nagegaan juis omdat die Son nou vroeër as ster benoem word: die sin beskryf wat 'n mens saans sien en sluit nie uit dat 'n ster bedags sigbaar is nie, so dit weerspreek nie die nuwe sin nie."
-    },
-    {
-      "bewering": "Hier lê die groot verskil: 'n planeet maak nie sy eie lig nie.",
-      "blok": "Wat is 'n ster?",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Britannica, 'What's the Difference Between Planets and Stars'; NASA Science, 'Stars' — planete maak nie hul eie sigbare lig nie en skyn deur weerkaatste sterlig. Hierdie rondte nagegaan."
+      "bron": "NASA Science, Sun Facts: die Son is 'only an average star in terms of its size', en sterre tot 100 keer groter is gevind; die Son se deursnee is meer as 100 keer die Aarde s'n. Sterre lyk klein omdat hulle so ver is (Sky & Telescope, soos hierbo)."
     },
     {
       "bewering": "Kyk hoe klein 'n vliegtuig hoog in die lug lyk. Sterre is nog baie verder weg, en daarom lyk hulle so klein.",
       "blok": "Wat is 'n ster?",
       "status": "bevestig",
       "tipe": "analogie",
-      "bron": "Gedra oor uit die vorige rondte, waar die vergelyking en sy afbeelding (verder weg lyk kleiner) nagegaan en aanvaar is. Nie hierdie rondte herondersoek nie; die verandering raak nie die vergelyking nie."
+      "bron": "Sky & Telescope en Celestron (soos hierbo): sterre lyk soos punte omdat hulle so ver is dat selfs groot teleskope geen skyf kan wys nie. Die AFBEELDING hou: hoe verder iets is, hoe kleiner lyk dit, en 'nog baie verder' keer dat 'n leerder dink sterre is net 'n bietjie verder as 'n vliegtuig. Waar 'n leerder verder kan redeneer (bv. dat helderder sterre nader is) lei die vergelyking nie heen nie, want dit gaan net oor grootte, nie oor helderheid nie."
     },
     {
-      "bewering": "Die Aarde staan nooit stil nie en beweeg heeltyd om 'n ster. Dit gaan om en om die ster, altyd dieselfde groot pad langs. Na 'n lang tyd is die Aarde weer presies waar dit begin het. Dan begin dieselfde lang reis van voor af.",
-      "blok": "Die Aarde is 'n planeet",
+      "bewering": "'n Ster is 'n baie groot bal warm gas in die ruimte.",
+      "blok": "Wat is 'n ster?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Gedra oor uit die vorige rondte (die vier wentelstellings). Nie hierdie rondte herondersoek nie. Wel hierdie rondte nagegaan of die nuwe sin hulle ontwrig: dit doen nie — ''n ster' bly waar en word een blok later as die Son geïdentifiseer."
+      "bron": "NASA Science, Sun Facts: 'a hot glowing ball of hydrogen and helium', 'super-hot, electrically charged gas called plasma'; NASA StarChild (https://starchild.gsfc.nasa.gov/docs/StarChild/universe_level2/stars.html): 'a brilliantly glowing sphere of hot gas'. 'Gas' vir plasma is NASA se eie vereenvoudiging."
     },
     {
-      "bewering": "'n Planeet is 'n groot ronde wêreld wat op sy eie om 'n ster beweeg. Die Maan is ook groot en rond, maar hy reis saam met die Aarde. Hy beweeg nie op sy eie om 'n ster nie. Daarom is die Maan nie 'n planeet nie.",
-      "blok": "Die Aarde is 'n planeet",
+      "bewering": "Die gas binne-in 'n ster is so warm dat die ster self lig maak. Dit is die ster se eie lig wat jy in die aand sien blink.",
+      "blok": "Wat is 'n ster?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Gedra oor uit die vorige rondte (die planeetdefinisie met 'op sy eie' en die Maan-kontras). Nie hierdie rondte herondersoek nie."
+      "bron": "NASA Science, Sun Facts: kernfusie in die kern (bo 27 miljoen °F) dryf die Son se hitte en lig, en die fotosfeer straal die meeste sigbare lig uit; NASA StarChild: energie uit kernfusie binne-in. Die sin slaan fusie oor en se net dat die warm gas lig maak; dit is 'n weglating, nie 'n valsheid nie, en die meganisme (warm genoeg om te gloei) hou."
     },
     {
-      "bewering": "Jy haal elke dag asem uit die dun laag lug wat om die Aarde lê. Hoe hoër jy bo die grond kom, hoe dunner word daardie lug. Nêrens hou die lug skielik op nie. Ver bo jou is so min lug oor dat ons dit die ruimte noem. Die Aarde self is 'n baie groot ronde wêreld in daardie ruimte.",
-      "blok": "Van die lug tot in die ruimte",
+      "bewering": "Bedags sien jy nie sterre in die res van die lug nie.",
+      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Gedra oor uit die vorige rondte. Blok is onveranderd en word nie deur die verandering geraak nie; nie hierdie rondte herondersoek nie."
+      "bron": "Astronomy.com (https://www.astronomy.com/astronomy-for-beginners/will-we-see-any-new-constellations-during-a-solar-eclipse/) en Scientific American, 'How to See Stars, Satellites, and More in the Daytime Sky' (https://www.scientificamerican.com/article/how-to-see-stars-satellites-and-more-in-the-daytime-sky): net die helderste sterre is onder spesiale toestande bedags sigbaar, gewoonlik met 'n verkyker op die regte plek; met die blote oog sien 'n mens dit nie."
+    },
+    {
+      "bewering": "Na sononder is daardie lug vol sterre.",
+      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Sky & Telescope, 'How many stars in the night sky?' (https://skyandtelescope.org/astronomy-resources/how-many-stars-night-sky-09172014/): onder 'n donker hemel sien 'n mens duisende sterre tegelyk; ligbesoedeling in stede verminder dit tot 'n paar honderd. As algemene beskrywing hou dit."
+    },
+    {
+      "bewering": "Die ander sterre is bedags ook daar bo, al sien jy hulle nie.",
+      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Astronomy.com (soos hierbo): tydens 'n totale sonsverduistering wys sterre in die dagsibemel, wat bewys hulle is daar. Kantnota sonder bevinding: die sterre bo jou om middag is meestal ander as die wat jy om middernag sien (die eklips-sterre is 'the same stars you could see at night during other times of the year'); die les se nie dat dit dieselfde sterre is nie, en die algemene stelling hou."
+    },
+    {
+      "bewering": "Die Son se lig versprei oral oor die lug en maak dit baie helder.",
+      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Space Place, 'Why Is the Sky Blue?' (https://spaceplace.nasa.gov/blue-sky/en/): 'Sunlight reaches Earth's atmosphere and is scattered in all directions by all the gases and particles in the air.'"
+    },
+    {
+      "bewering": "Daardie sterre se lig kom wel deur, maar dit verdwyn in die helder lug.",
+      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Scientific American (soos hierbo) en Mental Floss, 'Why Can't We See Stars During the Day?' (https://www.mentalfloss.com/article/93228/why-cant-we-see-stars-during-day): die lug blokkeer nie die sterlig nie; die verstrooide sonlig oorstraal dit. Die meganisme in die les is korrek."
+    },
+    {
+      "bewering": "Sodra die lug donker genoeg word, verskyn die eerste sterre.",
+      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
+      "status": "bevestig",
+      "tipe": "superlatief",
+      "bron": "Calgary-tak van die Royal Astronomical Society of Canada, 'Seeing Stars in the Daytime' (https://calgary.rasc.ca/daystars/index.htm) en Scientific American (soos hierbo): hoe helderder 'n ster, hoe vroeër in die skemer is hy sigbaar. 'Die eerste sterre' is hier 'die eerstes wat jy sien', nie 'n historiese bewering nie, en dit hou. Kantnota: die eerste ligpunt in die aand is dikwels 'n planeet (Venus of Jupiter); dit maak die sin nie vals nie."
+    },
+    {
+      "bewering": "Daar is baie meer sterre in die ruimte as wat jy kan tel.",
+      "blok": "Hoekom sien jy die ander sterre eers in die aand?",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "Sky & Telescope (soos hierbo): sowat 9 000 blote-oog-sterre oor die hele hemel (Yale Bright Star Catalog, 9 096), en die Melkweg alleen het na raming 100 tot 400 miljard sterre."
     },
     {
       "bewering": "ruimte: Die baie groot, amper leë plek ver bo die Aarde se lug.",
-      "blok": "begrip: ruimte",
+      "blok": "ruimte",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Gedra oor uit die vorige rondte (woordelysinskrywings). Nie hierdie rondte herondersoek nie."
+      "bron": "ESA Kids, 'What is space?' (https://www.esa.int/esaKIDSen/SEMVY5WJD1E_OurUniverse_2.html): selfs die leegste dele van die ruimte bevat 'n paar honderd atome per kubieke meter, teenoor sowat 10^25 molekules per kubieke meter in die lug wat ons inasem, dus 'amper leeg' en nie 'leeg' nie, wat presies is. Alleen gelees hou dit: 'ver bo die Aarde se lug' klop met die Kármán-lyn op 100 km (NASA, soos hierbo), en 'amper leë' dek die spoor lug wat daar nog is, sodat dit nie die studieblok se 'nêrens hou die lug skielik op nie' weerspreek nie."
     },
     {
       "bewering": "planeet: 'n Groot ronde wêreld wat op sy eie om 'n ster beweeg.",
-      "blok": "begrip: planeet",
-      "status": "bevestig",
+      "blok": "planeet",
+      "status": "weerspreek",
       "tipe": "algemeen",
-      "bron": "Gedra oor uit die vorige rondte (woordelysinskrywings, insluitend die reeds beslegte punt oor Pluto). Nie hierdie rondte herondersoek nie."
+      "bron": "IAU-resolusie B5, 2006 (https://nssdc.gsfc.nasa.gov/planetary/text/pluto_iau_res_20060824.txt); NASA Space Place, 'What Is a Planet?' (https://spaceplace.nasa.gov/planet-what-is/en/); NASA Science, Pluto Facts (https://science.nasa.gov/dwarf-planets/pluto/facts/). Alleen gelees is die probleem dieselfde as in die studieblok, en skerper: 'n begrip is 'n omskrywing en dus 'n volle toets, en Pluto, Eris en Ceres slaag daarvoor (rond, op hul eie om die Son), maar is dwergplanete omdat hulle nie hul pad skoongemaak het nie.",
+      "regstelling": "Dieselfde as die studieblok, en in dieselfde woorde, sodat die begrip en die blok een ding se: voeg die derde voorwaarde by, dat 'n planeet so swaar is dat hy sy pad om die ster skoongemaak het van ander groot stukke klip en ys. As dit 'n gedeelde omskrywing vir die vak is, word dit daar verander en deur 'n persoon besluit."
     },
     {
       "bewering": "ster: 'n Baie groot bal warm gas wat sy eie lig maak.",
-      "blok": "begrip: ster",
+      "blok": "ster",
       "status": "bevestig",
       "tipe": "algemeen",
-      "bron": "Gedra oor uit die vorige rondte (woordelysinskrywings). Hierdie rondte wel nagegaan dat dit steeds by die nuwe sin pas: die Son voldoen aan hierdie definisie, so 'die Son is 'n ster' volg regstreeks uit die les se eie definisie."
-    },
-    {
-      "bewering": "Herhaling: die wentelstelling kom in twee blokke voor ('beweeg heeltyd om 'n ster' en 'die Aarde beweeg om hom'), en 'klein kolletjies' kom in twee blokke voor.",
-      "blok": "Wat jy van die Aarde af sien",
-      "status": "bevestig",
-      "tipe": "algemeen",
-      "bron": "Interne nagaan hierdie rondte. Geen herhaling lees soos 'n fout nie: die tweede wentelstelling voeg die identifikasie by wat die eerste nie het nie (wátter ster), en 'klein kolletjies' is eers wat jy sien en dan wat verklaar word. Niks word woordeliks of in dieselfde funksie herhaal soos die geskrapte sin gedoen het nie."
+      "bron": "NASA Science, Sun Facts ('a hot glowing ball of hydrogen and helium'; fusie dryf sy hitte en lig) en NASA StarChild ('a brilliantly glowing sphere of hot gas'). Alleen gelees hou dit: dit sluit die Son in en sluit planete en mane uit, wat nie hul eie lig maak nie."
     }
   ],
-  "opsomming": "Die nuwe sin is waar en koppel die twee idees korrek — die ster waarom die Aarde beweeg is uitdruklik die Son wat die kind bedags sien — die geskrapte sin het niks gekos nie, want die laaste blok beperk hom steeds op drie plekke tot 'die ander sterre' en niks impliseer meer dat geen ster bedags sigbaar is nie, en geen oorblywende herhaling lees soos 'n fout nie."
+  "opsomming": "Twee dinge is vals en albei is maklik om reg te maak: die omskrywing van 'n planeet (in die studieblok en in die begrip) pas ook op Pluto en ander dwergplanete omdat dit die voorwaarde oor 'n skoon pad weglaat, en die Aarde kom na 'n jaar nie 'presies' terug waar dit begin het nie, net by dieselfde plek op sy pad om die Son; as 'planeet' 'n gedeelde omskrywing vir die vak is, moet 'n persoon die nuwe bewoording vir al die lesse besluit."
 }

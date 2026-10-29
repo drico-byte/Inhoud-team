@@ -2,77 +2,35 @@
   "toegepas": [
     {
       "nr": 2,
-      "blok": "Die son staan in die middel",
-      "voor": "Die Aarde beweeg om die son en die ander planete doen",
-      "na": "Die Aarde beweeg om die son, en die ander planete doen",
-      "soort": "leestekens",
-      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
-      "fout": "missing AWS comma before 'en' joining two full clauses",
-      "rede_keurder": "'Die Aarde beweeg' and 'die ander planete doen' each have their own subject and verb, so the AWS requires the comma."
-    },
-    {
-      "nr": 3,
-      "blok": "Wat is die Sonnestelsel?",
-      "voor": "Die son en alles wat om hom beweeg vorm",
-      "na": "Die son en alles wat om hom beweeg, vorm",
-      "soort": "leestekens",
-      "rede_vinder": "A comma after the embedded relative clause separates the two verbs 'beweeg vorm' and makes the sentence easier to read.",
-      "fout": "two verbs 'beweeg vorm' collide and make the reader stumble",
-      "rede_keurder": "The AWS allows a comma between adjacent verbs for clarity, and it marks where the subject ends without changing anything."
-    },
-    {
-      "nr": 4,
-      "blok": "Wat is die Sonnestelsel?",
-      "voor": "groot ronde wêrelde en party is",
-      "na": "groot ronde wêrelde, en party is",
-      "soort": "leestekens",
-      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
-      "fout": "missing AWS comma before 'en' joining two full clauses",
-      "rede_keurder": "'party is groot ronde wereelde' and 'party is baie klein' are two clauses with their own subject and verb."
-    },
-    {
-      "nr": 6,
-      "blok": "Agt planete, en die Aarde is een",
-      "voor": "maar dit tel nie by die agt nie",
-      "na": "maar hy tel nie by die agt nie",
-      "soort": "verwysing",
-      "rede_vinder": "The previous sentence refers to Pluto as 'hom'; switching to 'dit' in the next sentence is an inconsistent pronoun reference.",
-      "fout": "Pluto is 'hom' in one sentence and 'dit' in the next",
-      "rede_keurder": "Making the pronoun 'hy' matches the preceding 'hom' and removes the inconsistent reference without changing the claim."
-    },
-    {
-      "nr": 7,
       "blok": "Die Aarde se wentelbaan",
-      "voor": "Dit beweeg heeltyd en dit volg",
-      "na": "Dit beweeg heeltyd, en dit volg",
-      "soort": "leestekens",
-      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
-      "fout": "missing AWS comma before 'en' joining two full clauses",
-      "rede_keurder": "'Dit beweeg heeltyd' and 'dit volg ... dieselfde pad' each have their own subject and verb."
-    },
-    {
-      "nr": 8,
-      "blok": "Die Aarde se wentelbaan",
-      "voor": "Die Aarde beweeg nooit terug nie en die beweging",
-      "na": "Die Aarde beweeg nooit terug nie, en die beweging",
-      "soort": "leestekens",
-      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb.",
-      "fout": "missing AWS comma before 'en' joining two full clauses",
-      "rede_keurder": "'Die Aarde beweeg nooit terug nie' and 'die beweging hou nooit op nie' are two full clauses."
-    },
-    {
-      "nr": 10,
-      "blok": "Die Aarde se wentelbaan",
-      "voor": "Elke verjaardag wat jy vier, is dus",
-      "na": "Elke verjaardag wat jy vier, beteken dus",
-      "soort": "woordkeuse",
-      "rede_vinder": "A birthday is not itself a trip around the sun; 'beteken' states the link correctly without changing the meaning.",
-      "fout": "'is' equates a birthday with a trip, which is loose",
-      "rede_keurder": "'beteken' states the same link precisely and naturally, with the time, count and 'dus' intact."
+      "voor": "Die Aarde beweeg nooit terug nie",
+      "na": "Dit beweeg nooit terug nie",
+      "soort": "sinsbou",
+      "rede_vinder": "The repeated subject 'Die Aarde beweeg' in back-to-back sentences reads wooden; the pronoun 'dit' is already used for the Earth earlier in this block.",
+      "fout": "Two back-to-back sentences open with 'Die Aarde beweeg', which reads wooden.",
+      "rede_keurder": "'Dit' clearly points to the Earth, as it does earlier in the block (a path cannot move), so the repetition goes and the meaning stays exactly the same."
     }
   ],
   "nie_toegepas": [],
   "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die Aarde se wentelbaan",
+      "voor": "Die Aarde beweeg altyd in dieselfde rigting op hierdie pad.",
+      "na": "Op hierdie pad beweeg die Aarde altyd in dieselfde rigting.",
+      "soort": "woordorde",
+      "rede_vinder": "Fronting 'op hierdie pad' links the sentence to the previous one and avoids three consecutive sentences opening with 'Die Aarde'.",
+      "fout": "none",
+      "rede_keurder": "The original word order is natural Afrikaans and the reorder is a lateral move; the repetition it targets is already fixed by change 2."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 462,
+  "woorde_na": 461,
+  "wanneer": "2026-10-29T14:15:55+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 1,
       "blok": "Die son staan in die middel",
@@ -102,22 +60,49 @@
       "rede_vinder": "Putting the subject first is clearer for a Grade 4 reader; the inverted order makes it briefly unclear who takes what.",
       "fout": "none",
       "rede_keurder": "'Een volle reis om die son neem die Aarde ongeveer een jaar' is idiomatic Afrikaans, while 'neem ... vir' copies English 'takes a year for'."
-    }
-  ],
-  "na_skrywer": [],
-  "vlae": [
+    },
     {
-      "blok": "planeet / dwergplaneet",
-      "teks": "'n Groot ronde wêreld wat op sy eie om 'n ster loop.",
-      "rede": "The glossary definitions use 'loop' while the study text says 'beweeg' throughout; not changed because these are probably decided shared definitions, but the verb differs from the text."
+      "nr": 1,
+      "blok": "Die son staan in die middel",
+      "voor": "Die middel behoort aan die son en nie aan die Aarde nie.",
+      "na": "Die son, en nie die Aarde nie, staan in die middel.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Die middel behoort aan die son' is wooden; the plain statement says the same thing more naturally.",
+      "fout": "none",
+      "rede_keurder": "The original is a deliberate contrast sentence that reads acceptably; the proposal nearly repeats the preceding sentence ('Die son self bly heeltyd in die middel') and the heading, so it disturbs its neighbour without being clearly better."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat is die Sonnestelsel?",
+      "voor": "Hierdie groep het 'n eie naam",
+      "na": "Hierdie groep het sy eie naam",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans says 'sy eie naam', not \"'n eie naam\".",
+      "fout": "none",
+      "rede_keurder": "\"'n eie naam\" is correct, natural Afrikaans (as in 'n eie huis); 'sy eie naam' is a lateral move."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat lewende dinge by die son kry",
+      "voor": "Die son se lig doen nog 'n belangrike werk hier op die Aarde.",
+      "na": "Die son se lig het nog 'n belangrike taak hier op die Aarde.",
+      "soort": "idioom",
+      "rede_vinder": "\"'n belangrike werk doen\" is stiff; \"'n belangrike taak hê\" is the natural expression.",
+      "fout": "none",
+      "rede_keurder": "\"'n belangrike werk doen\" is plain, natural Afrikaans for a Grade 4 reader; 'taak' is more formal and the swap is lateral."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat lewende dinge by die son kry",
+      "voor": "om self kos te maak",
+      "na": "om hul eie kos te maak",
+      "soort": "woordkeuse",
+      "rede_vinder": "'om hul eie kos te maak' reads more naturally than 'om self kos te maak' with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'self kos maak' is natural and stresses that plants make food by themselves, the point of the sentence; 'hul eie kos' shifts that emphasis and is at best lateral."
     }
   ],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 461,
-  "woorde_na": 461,
-  "wanneer": "2026-10-22T22:43:24+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:ae5b9f438851862038d9ee58a2cc325d",
+  "konsep_hash_voor": "sha256:d33a832cbea6927cd44f1b9e3a34a921",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:b0d52a641a55a3a8736b3f27538de29e"
+  "konsep_hash_na": "sha256:d052bec079d842ca5444b02d81026927"
 }

@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/leer-van-leiers/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:cb44f7daf85cf10ed7a2feaa9c48228d",
+  "konsep_hash": "sha256:9636caae1f666982d02d056416cfcab9",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -281,11 +281,106 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\leer-van-leiers\\les-4.json",
       "konsep_hash": "sha256:cb44f7daf85cf10ed7a2feaa9c48228d",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-29T14:34:17+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a10bf5ae0d40df757a36af30be541643",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-29T14:34:18+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 500,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:34:18+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:a10bf5ae0d40df757a36af30be541643",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-29T14:40:49+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 3,
+      "na_skrywer": 3,
+      "nie_toegepas": 0,
+      "woorde_voor": 500,
+      "woorde_na": 500,
+      "konsep_hash": "sha256:6e777c7d4e3b2d3ccd586a3a7336c9ef"
+    },
+    {
+      "wanneer": "2026-10-29T14:40:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 500,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:40:50+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Hy het self gesê hy is nie 'n heilige nie en hy het aangehou probeer': it is unclear whether 'hy het aangehou probeer' is part of what Mandela said or the narrator's own statement",
+        "fix: [taal] in 'Hierdie eienskappe pas ook in jou klas en jou huis': 'pas ook in ... jou huis' can read as physically fitting into the house",
+        "fix: [taal] in 'na 'n stryd': the definition writes 'na' where the lesson body writes 'Ná', but the accent is optional where no confusion is possible",
+        "check (the language finder raised this; it may not be a fault): 'Hy was toegewyd en heelhartig verbind aan ander mense.': Besides the word order, 'verbind aan' (committed to) is itself close to an anglicism and the sentence reads wooden for Grade 4; 'toegewyd' and 'verbind' may be CAPS quality terms, so I have not replaced them. A person or the writer should decide whether a plainer sentence is allowed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-29T14:45:29+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:66efd5af719776a2a0a92cc0613a5dee",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-29T14:45:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 503,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T14:48:14+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 503,
+      "woorde_na": 505,
+      "konsep_hash": "sha256:9636caae1f666982d02d056416cfcab9"
+    },
+    {
+      "wanneer": "2026-10-29T14:48:15+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 505,
+      "begroting": 445,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:af93e2687bbc8c02cc9daf59462bddd6",
+  "spek_hash": "sha256:31cefbcd64a5f86459bf5b43b4e98559",
   "hek_konteks": {
     "graad": 4,
-    "begroting": 400
-  }
+    "begroting": 445,
+    "afgelewerde_lengte": true
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'In 1963 het 'n ander hofsaak teen hom begin.': 'n ander hofsaak' presupposes an earlier court case, but the lesson mentions only the 1962 arrest, not a first trial; fixing it means either naming the earlier case or dropping 'ander', which is a content choice for the writer."
+  ],
+  "taal_geforseer_vir": "sha256:a10bf5ae0d40df757a36af30be541643",
+  "taal_rondte_vir": "sha256:9636caae1f666982d02d056416cfcab9",
+  "taal_keurder_vir": "7dbdd7139eb70c2fc8c0153393b46c53",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:9636caae1f666982d02d056416cfcab9",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:6e777c7d4e3b2d3ccd586a3a7336c9ef",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "0c300fd92332bbbdf6838c0374fa34ae"
 }

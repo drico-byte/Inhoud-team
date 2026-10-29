@@ -1,0 +1,66 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die verlede is verby",
+      "voor": "lank na hulle tyd",
+      "na": "lank ná hulle tyd",
+      "soort": "spelling",
+      "rede_vinder": "Here 'na' means 'after', and the AWS writes it with the accent (ná) so it is not read as the preposition 'to'.",
+      "fout": "none",
+      "rede_keurder": "The AWS writes the accent on 'ná' only where 'na' could be misread, and 'lank na hulle tyd' cannot be read as 'towards', so the accent is optional and the original is correct."
+    },
+    {
+      "nr": 2,
+      "blok": "Die verlede is verby",
+      "voor": "Uit sulke dinge werk ons uit wat lank gelede gebeur het.",
+      "na": "Met sulke dinge werk ons uit wat lank gelede gebeur het.",
+      "soort": "woordkeuse",
+      "rede_vinder": "The sentence opens with 'Uit' and then uses the separable 'uit' of 'uitwerk', which reads clumsily; 'Met' keeps the meaning without the doubled 'uit'.",
+      "fout": "none",
+      "rede_keurder": "Changing the preposition changes the meaning: 'uit' means we work the past out from the evidence, 'met' only says we use the things as tools; the original also matches the lesson's later 'wat ons uit die leidrade uitwerk'."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "voorwerpbronne",
+      "rede": "Asked for explicitly: 'voorwerpbron/voorwerpbronne' is a regular Afrikaans noun-noun compound (like 'inligtingsbron'), transparent in meaning and readable for a nine-year-old, and it sits naturally beside 'visuele, mondelinge en geskrewe bronne'. I see no language reason to change it; no better form is proposed."
+    },
+    {
+      "woord": "Soms wys hulle nie genoeg nie en die vraag bly oop.",
+      "rede": "By the AWS 2017 rule in the brief, this 'en' joins two sentences with their own subject and verb ('hulle wys' and 'die vraag bly'), so it needs a comma: 'Soms wys hulle nie genoeg nie, en die vraag bly oop.' Not changed because the wording is protected; a person should decide whether the protection covers the punctuation."
+    }
+  ],
+  "woorde_voor": 276,
+  "woorde_na": 276,
+  "wanneer": "2026-10-29T14:10:53+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Wat 'n leidraad is",
+      "voor": "geskrewe leidrade, en voorwerpbronne",
+      "na": "geskrewe leidrade en voorwerpbronne",
+      "soort": "leestekens",
+      "rede_vinder": "No comma before 'en' in a list under the AWS rule the lesson follows.",
+      "fout": "none",
+      "rede_keurder": "This is not a simple list: the comma separates the second 'en' from the nested 'visuele, mondelinge en geskrewe leidrade', which shows the reader there are four groups; without it, 'geskrewe' can seem to modify 'voorwerpbronne' as well and a child may count three."
+    },
+    {
+      "nr": 3,
+      "blok": "Soos 'n speurder",
+      "voor": "By 'n ou pot sien die een roet",
+      "na": "Op 'n ou pot sien die een roet",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Op' is the more natural preposition for seeing soot on a pot; 'by' reads like 'next to the pot'.",
+      "fout": "none",
+      "rede_keurder": "Here 'By 'n ou pot' means 'with an old pot' and covers both historians' readings (soot, and the narrow opening); 'Op' would attach only to the soot and break that parallel, so the preposition swap moves the meaning."
+    }
+  ],
+  "konsep_hash_voor": "sha256:9b31ebd16092f48a8fc24d145b1782c2",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:9b31ebd16092f48a8fc24d145b1782c2"
+}

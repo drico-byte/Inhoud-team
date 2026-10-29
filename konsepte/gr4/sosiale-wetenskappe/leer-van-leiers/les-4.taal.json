@@ -1,0 +1,73 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waarvoor hy gestaan het",
+      "voor": "Hy het ook as regsgeleerde mense gehelp.",
+      "na": "Hy het ook mense as regsgeleerde gehelp.",
+      "soort": "woordorde",
+      "rede_vinder": "As written, 'regsgeleerde mense' can be misread as one noun phrase ('legally learned people'); moving 'mense' before 'as' removes the ambiguity and keeps the protected word.",
+      "fout": "'as regsgeleerde mense' reads at first as adjective plus noun ('legally learned people'), so a reader stumbles.",
+      "rede_keurder": "Moving 'mense' before 'as' removes the misreading, keeps the protected word intact and changes nothing about who helped whom."
+    },
+    {
+      "nr": 2,
+      "blok": "Hy het gekies om te vergewe",
+      "voor": "Hy het daar Afrikaans geleer",
+      "na": "Hy het in die tronk Afrikaans geleer",
+      "soort": "verwysing",
+      "rede_vinder": "The previous sentence ends on 'daarna' (after prison), so 'daar' no longer points clearly to the prison; naming it keeps the reference clear for a Grade 4 reader.",
+      "fout": "'daar' follows 'daarna' (after prison) and no longer points clearly to the prison.",
+      "rede_keurder": "Naming the prison restores the intended reference for a Grade 4 reader without adding or moving any fact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die hof en die 27 jaar",
+      "teks": "In 1963 het 'n ander hofsaak teen hom begin.",
+      "rede": "'n ander hofsaak' presupposes an earlier court case, but the lesson mentions only the 1962 arrest, not a first trial; fixing it means either naming the earlier case or dropping 'ander', which is a content choice for the writer."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 503,
+  "woorde_na": 505,
+  "wanneer": "2026-10-29T14:48:14+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Waarvoor hy gestaan het",
+      "voor": "werk tot voordeel van ander en nie van homself nie",
+      "na": "werk tot voordeel van ander en nie tot sy eie voordeel nie",
+      "soort": "idioom",
+      "rede_vinder": "'Tot voordeel ... nie van homself nie' is an incomplete parallel; the idiom needs 'tot sy eie voordeel'.",
+      "fout": "none",
+      "rede_keurder": "The original is a clear, grammatical ellipsis ('nie [tot voordeel] van homself nie'); the proposal only makes it longer."
+    },
+    {
+      "nr": 7,
+      "blok": "Gewone mense kan dit ook doen",
+      "voor": "Hulle stories behoort aan mense oral en nie net aan hulle eie lande nie",
+      "na": "Hulle stories behoort aan die hele wêreld en nie net aan hulle eie lande nie",
+      "soort": "sinsbou",
+      "rede_vinder": "'Aan mense oral' is awkward and does not parallel 'lande'; 'die hele wêreld' keeps the meaning and balances the contrast.",
+      "fout": "none",
+      "rede_keurder": "'aan mense oral' is natural Afrikaans and was written to a curriculum order for a value statement; 'aan die hele wêreld' can read as a claim of reach, so the meaning would move."
+    },
+    {
+      "nr": 11,
+      "blok": "demokrasie",
+      "voor": "'n Manier van regeer",
+      "na": "'n Manier om te regeer",
+      "soort": "grammatika",
+      "rede_vinder": "After 'manier' a verb takes the 'om te' infinitive; 'manier van regeer' is colloquial.",
+      "fout": "none",
+      "rede_keurder": "'n manier van regeer' is an established Afrikaans construction (like 'manier van doen'), and the change to a glossary definition would put 'regeer' twice in quick succession."
+    }
+  ],
+  "konsep_hash_voor": "sha256:66efd5af719776a2a0a92cc0613a5dee",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:9636caae1f666982d02d056416cfcab9"
+}

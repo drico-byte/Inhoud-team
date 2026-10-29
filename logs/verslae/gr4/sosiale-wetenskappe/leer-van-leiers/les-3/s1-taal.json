@@ -1,0 +1,103 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Rosa Parks weier om op te staan",
+      "voor": "het Rosa Parks in 'n bus in die stad Montgomery geklim",
+      "na": "het Rosa Parks in die stad Montgomery op 'n bus geklim",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans says 'op 'n bus klim', and moving the place phrase forward removes the clumsy 'in ... in' sequence.",
+      "fout": "The 'in 'n bus in die stad' sequence stumbles on a first reading.",
+      "rede_keurder": "Putting the place first and using 'op 'n bus geklim' reads more smoothly and keeps the same person, place and action."
+    },
+    {
+      "nr": 3,
+      "blok": "Rosa Parks weier om op te staan",
+      "voor": "om haar sitplek vir 'n wit passasier te gee",
+      "na": "om haar sitplek aan 'n wit passasier af te staan",
+      "soort": "idioom",
+      "rede_vinder": "One gives up a seat 'aan' someone with 'afstaan'; 'vir iemand gee' is colloquial.",
+      "fout": "'Sitplek vir iemand gee' is loose for the act of giving up a seat.",
+      "rede_keurder": "'Sitplek aan iemand afstaan' is the exact Afrikaans expression and says the same thing: she refused to give up her seat to a white passenger."
+    },
+    {
+      "nr": 4,
+      "blok": "Die busboikot in Montgomery",
+      "voor": "Party het ver geloop werk toe en ander",
+      "na": "Party het ver werk toe geloop, en ander",
+      "soort": "woordorde",
+      "rede_vinder": "The verb belongs after 'werk toe', and AWS requires a comma before 'en' joining two clauses with their own subject and verb.",
+      "fout": "'Geloop werk toe' puts the direction after the participle, and the comma that AWS requires between two full clauses is missing.",
+      "rede_keurder": "Standard word order plus the required comma before 'en' joining two clauses with their own subject and verb; meaning unchanged."
+    },
+    {
+      "nr": 8,
+      "blok": "Leiers is nie altyd gewild nie",
+      "voor": "selfs wanneer hy later reg blyk te wees",
+      "na": "selfs wanneer dit later blyk dat hy reg was",
+      "soort": "sinsbou",
+      "rede_vinder": "The rightness belongs to the past while the discovery is later; the 'dit blyk dat' construction makes the tenses clear.",
+      "fout": "'Selfs wanneer hy later reg blyk te wees' is stiff and blurs when he was right and when that became clear.",
+      "rede_keurder": "'Selfs wanneer dit later blyk dat hy reg was' is the natural construction and keeps the same claim."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Gandhi se voorbeeld",
+      "voor": "is in daardie jare sleg behandel oor hulle velkleur",
+      "na": "is in daardie jare oor hulle velkleur sleg behandel",
+      "soort": "woordorde",
+      "rede_vinder": "The participle belongs at the end of the clause; the trailing 'oor'-phrase reads like English word order.",
+      "fout": "none",
+      "rede_keurder": "A trailing 'oor'-phrase after the participle is natural Afrikaans and matches the rassisme definition's own order, so the move is lateral."
+    },
+    {
+      "nr": 5,
+      "blok": "Hy het saam met ander aangehou",
+      "voor": "in die tronk gesit vir sy protes",
+      "na": "vir sy protes in die tronk gesit",
+      "soort": "woordorde",
+      "rede_vinder": "The reason phrase sits more naturally before the verb cluster than after the participle.",
+      "fout": "none",
+      "rede_keurder": "'In die tronk gesit vir sy protes' already reads naturally, so moving the reason phrase is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hy het saam met ander aangehou",
+      "voor": "aangehou praat en saam met ander aangehou stap",
+      "na": "aangehou om te praat en saam met ander te stap",
+      "soort": "sinsbou",
+      "rede_vinder": "Removes the repeated 'aangehou' and uses the standard 'aanhou om te' construction while keeping both actions.",
+      "fout": "none",
+      "rede_keurder": "'Aanhou praat' is standard Afrikaans, and the repeated 'aangehou' is deliberate rhythm echoing the block heading."
+    },
+    {
+      "nr": 7,
+      "blok": "Hy het saam met ander aangehou",
+      "voor": "'n bron waaruit ons vandag weet wat hy wou hê",
+      "na": "'n bron wat vir ons vandag wys wat hy wou hê",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Weet uit' is awkward; a source that shows us what he wanted is the natural phrasing with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'Waaruit ons weet' is acceptable, and the proposal changes what we know from the source into what it shows, with a stiffer 'vir ons vandag wys'."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die busboikot in Montgomery / [begrip] boikot",
+      "teks": "iets doelbewus nie gebruik, koop of daaraan deelneem nie",
+      "rede": "The list joins two transitive verbs taking 'iets' with 'daaraan deelneem', which needs a preposition, so the parallel is slightly uneven; the same wording is the glossary definition (possibly shared), so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 455,
+  "woorde_na": 457,
+  "wanneer": "2026-10-29T14:38:38+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:526ff0ed2d5d563350d9cce7dac438de",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:51095985126d8bbe412f3c1dfb553cd0"
+}

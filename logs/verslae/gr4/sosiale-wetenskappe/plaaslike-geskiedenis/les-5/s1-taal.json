@@ -1,0 +1,89 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Wat erfenis is",
+      "voor": "ou geboue en ou potte en ou gereedskap",
+      "na": "ou geboue, ou potte en ou gereedskap",
+      "soort": "leestekens",
+      "rede_vinder": "A list reads more naturally with commas and one 'en' before the last item.",
+      "fout": "The repeated 'en ... en' in a written list reads as unpolished speech in a study text.",
+      "rede_keurder": "A comma list with one 'en' is the natural written form; the items and meaning are unchanged, and change 3 keeps the two sentences parallel."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat erfenis is",
+      "voor": "liedjies en stories en danse",
+      "na": "liedjies, stories en danse",
+      "soort": "leestekens",
+      "rede_vinder": "A list reads more naturally with commas and one 'en' before the last item.",
+      "fout": "The repeated 'en ... en' in a written list reads as unpolished speech in a study text.",
+      "rede_keurder": "Same fix as change 2, applied to the matching list in the next sentence, so the two sentences stay parallel."
+    },
+    {
+      "nr": 5,
+      "blok": "Erfenis en bewaring",
+      "voor": "Ou dinge kan breek en",
+      "na": "Ou dinge kan breek, en",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017 comma before 'en' joining two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two clauses with their own subject and verb.",
+      "rede_keurder": "'Ou dinge kan breek' and 'ou stories kan ... wegraak' are each full clauses, so the comma is required."
+    },
+    {
+      "nr": 7,
+      "blok": "Hoekom ons dit leer",
+      "voor": "en net so vorm wat ons vandag doen die toekoms",
+      "na": "en wat ons vandag doen, vorm net so die toekoms",
+      "soort": "woordorde",
+      "rede_vinder": "The subject clause sitting between the verb and its object is hard to parse; fronting it reads clearly.",
+      "fout": "With the subject clause between 'vorm' and its object, a reader can first parse 'vorm wat ons vandag doen' as 'shapes what we do today'.",
+      "rede_keurder": "Fronting the subject clause removes the misreading, mirrors the first half of the sentence, and keeps 'net so' and the meaning intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die verlede is nog hier",
+      "voor": "deur mense gebou wat lank voor jou gelewe het",
+      "na": "deur mense gebou wat lank gelede gelewe het",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids repeating 'lank voor jou' from the previous sentence without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "The repeated 'lank voor jou' is a deliberate parallel that ties both sentences to the learner; 'lank gelede' loses that link and is only different, not better."
+    },
+    {
+      "nr": 6,
+      "blok": "Erfenis en bewaring",
+      "voor": "waar almal kan kyk",
+      "na": "waar almal hulle kan sien",
+      "soort": "sinsbou",
+      "rede_vinder": "'kyk' with no object is unnatural here; the objects being looked at should be named by a pronoun.",
+      "fout": "none",
+      "rede_keurder": "'waar almal kan kyk' is natural Afrikaans, and swapping 'kyk' for 'sien' with an added object changes the verb's sense without fixing a fault."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 4,
+      "blok": "Wat erfenis is",
+      "voor": "aan mekaar oorgee",
+      "na": "aan mekaar oordra",
+      "soort": "idioom",
+      "rede_vinder": "Songs, stories and dances are 'oorgedra', not 'oorgegee', which suggests handing over an object.",
+      "fout": "'oorgee' (hand over) is less idiomatic than 'oordra' for passing on songs, stories and dances.",
+      "rede_keurder": "The point is real, but lesson 4's revised 'erfenis' glossary entry deliberately uses 'oorgee' to match this sentence, so changing only this lesson would split the shared picture; the writer must decide both lessons together.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 292,
+  "woorde_na": 290,
+  "wanneer": "2026-10-29T14:40:48+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:a4013e24a23c8e589ef95a53a52b4246",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a522caeb1f8668408170ffc7abbde113"
+}

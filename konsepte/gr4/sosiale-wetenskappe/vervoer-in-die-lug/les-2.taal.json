@@ -1,7 +1,25 @@
 {
   "toegepas": [],
   "nie_toegepas": [],
-  "laat_vaar": [
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Sweeftuie sonder 'n enjin",
+      "teks": "'n Sweeftuig het niks wat dit vorentoe stoot nie. Dit gly stadig al laer deur die lug om hom.",
+      "rede": "The pronoun for the glider switches between 'dit' and 'hom' inside one sentence, and the next block uses 'hy'/'hom' throughout; both forms are correct Afrikaans, but both phrases carrying the mix are protected, so it is left for a person or the writer to decide whether to make the reference consistent."
+    },
+    {
+      "blok": "Sweeftuie sonder 'n enjin",
+      "teks": "Teen 'n heuwel stoot die wind die lug self boontoe.",
+      "rede": "The sentence reads as wind pushing 'the air itself' upward, although wind is moving air; the wording is grammatical, but whether the picture is the intended one is a content question, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 456,
+  "woorde_na": 456,
+  "wanneer": "2026-10-29T14:03:34+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 1,
       "blok": "Hul eerste vliegtuig was 'n sweeftuig",
@@ -23,20 +41,7 @@
       "rede_keurder": "'Sterk wind' as an uncountable noun is idiomatic Afrikaans ('daar was sterk wind'), so adding the article is a lateral move that only adds a word."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [
-    {
-      "blok": "Wat 'n enjin verander het",
-      "teks": "'n Sweeftuig sak deur die lug om hom. Hy moet dus eers hoogte kry voordat hy kan gly.",
-      "rede": "The glider is 'dit' in the block 'Hul eerste vliegtuig was 'n sweeftuig' but 'hy' here; both are acceptable Afrikaans and the protected 'deur die lug om hom' sits beside both, so I did not change it, but a person may want one pronoun throughout."
-    }
-  ],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 456,
-  "woorde_na": 456,
-  "wanneer": "2026-10-29T13:40:54+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:f74b72c1590843576df26304cf4777a3",
-  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:f74b72c1590843576df26304cf4777a3"
+  "konsep_hash_voor": "sha256:e5ca8c10b2b6ad94d4724229f33c04d1",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:e5ca8c10b2b6ad94d4724229f33c04d1"
 }
