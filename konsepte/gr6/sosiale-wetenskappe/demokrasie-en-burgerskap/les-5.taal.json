@@ -1,41 +1,36 @@
 {
-  "toegepas": [],
-  "nie_toegepas": [],
-  "laat_vaar": [
-    {
-      "nr": 2,
-      "blok": "afstandsonderrig",
-      "voor": "Studiestof en opdragte kom in die plek van die klas",
-      "na": "Studiestof en opdragte neem die plek van die klas in",
-      "soort": "idioom",
-      "rede_vinder": "The idiom is 'die plek van iets inneem'; 'kom in die plek van' reads wooden.",
-      "fout": "none",
-      "rede_keurder": "'in die plek van iets kom' is a natural Afrikaans construction meaning to replace, so the idiom swap is a lateral move inside a glossary definition and splits the verb for a Grade 6 reader without making the sentence clearer."
-    }
-  ],
-  "na_skrywer": [
+  "toegepas": [
     {
       "nr": 1,
-      "blok": "tolk",
-      "voor": "in 'n ander oorsê",
-      "na": "in 'n ander vertaal",
-      "soort": "woordkeuse",
-      "rede_vinder": "'oorsê' ordinarily means to say again or repeat; 'vertaal' is the standard verb for rendering words in another language, and the headword already marks it as spoken.",
-      "fout": "'oorsê' means to say again or repeat, not to render words in another language ('oorsit' or 'vertaal' would be the verb), so the tolk definition uses the wrong verb.",
-      "rede_keurder": "The fault is real, but it sits in a glossary definition, and rewording a definition beyond a plain spelling or grammar error belongs to the writer, who may also want to keep the spoken sense that 'vertaal' alone does not carry.",
+      "blok": "Sy het nie opgehou nie",
+      "voor": "alle openbare byeenkomste vir haar verbied",
+      "na": "haar alle openbare byeenkomste verbied",
+      "soort": "grammatika",
+      "rede_vinder": "Standard Afrikaans is 'iemand iets verbied'; the 'vir'-construction is colloquial, and the protected phrase stays intact.",
+      "fout": "'byeenkomste vir haar' can be misread on first reading as gatherings held for her; 'iemand iets verbied' is the standard construction for this verb",
+      "rede_keurder": "Same order, same person, same prohibition, and the protected 'alle openbare byeenkomste' stays intact, while the sentence now parallels 'haar ... beperk en haar ... verbied' cleanly."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 2,
+      "blok": "verbanning",
+      "voor": "openbare byeenkomste vir hom verbied",
+      "na": "hom openbare byeenkomste verbied",
+      "soort": "grammatika",
+      "rede_vinder": "Same construction as in the study text ('iemand iets verbied'), kept consistent with that block.",
+      "fout": "'openbare byeenkomste vir hom verbied' carries the same mild misreading (gatherings for him) and now differs in construction from the study text",
+      "rede_keurder": "This rewords a glossary definition, and since the original is not a plain grammar error, a language agent may not change it; the writer should decide whether to bring the entry in line with the study text.",
       "waarom": "the reviewer sent it to the writer"
     }
   ],
   "vlae": [],
-  "beskerm_bedenkings": [
-    {
-      "woord": "Haar stryd het lank voor daardie jaar begin",
-      "rede": "'daardie jaar' must reach back past the intervening sentence with 'in daardie jare' to find 1956; the reference is recoverable but slightly loose. Not changed, because the wording is protected."
-    }
-  ],
-  "woorde_voor": 336,
-  "woorde_na": 336,
-  "wanneer": "2026-10-28T17:58:24+00:00",
+  "beskerm_bedenkings": [],
+  "woorde_voor": 329,
+  "woorde_na": 328,
+  "wanneer": "2026-10-29T13:06:20+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 4,
@@ -76,9 +71,29 @@
       "rede_vinder": "The part after 'en' has no verb of its own (it is elliptical), so under the AWS 2017 rule given there is no comma before 'en'; the protected words after it are untouched.",
       "fout": "none",
       "rede_keurder": "The second clause has its own subject (Langa) with the verb gapped, so the comma marks the contrast between the two people and is acceptable; removing it puts two 'en's close together ('aktivis en skrywer gedoen en Langa') and makes a first reading harder, not easier."
+    },
+    {
+      "nr": 2,
+      "blok": "afstandsonderrig",
+      "voor": "Studiestof en opdragte kom in die plek van die klas",
+      "na": "Studiestof en opdragte neem die plek van die klas in",
+      "soort": "idioom",
+      "rede_vinder": "The idiom is 'die plek van iets inneem'; 'kom in die plek van' reads wooden.",
+      "fout": "none",
+      "rede_keurder": "'in die plek van iets kom' is a natural Afrikaans construction meaning to replace, so the idiom swap is a lateral move inside a glossary definition and splits the verb for a Grade 6 reader without making the sentence clearer."
+    },
+    {
+      "nr": 2,
+      "blok": "Pius Langa se pad deur die howe",
+      "voor": "deur afstandsonderrig behaal",
+      "na": "per afstandsonderrig behaal",
+      "soort": "idioom",
+      "rede_vinder": "'per afstandsonderrig' is the established Afrikaans collocation; 'deur' can read as 'through' in the sense of a route.",
+      "fout": "none",
+      "rede_keurder": "'deur afstandsonderrig' and 'per afstandsonderrig' both name the means of study and read naturally, so this is a lateral preposition swap an editor would let pass."
     }
   ],
-  "konsep_hash_voor": "sha256:7a509f4a6f8a5ad3d56b4d5e4dd78b30",
+  "konsep_hash_voor": "sha256:04416fbd1777c5c594ef244189436d4f",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:7a509f4a6f8a5ad3d56b4d5e4dd78b30"
+  "konsep_hash_na": "sha256:ad2b1ce05cdfd809e4898a22dea8abae"
 }

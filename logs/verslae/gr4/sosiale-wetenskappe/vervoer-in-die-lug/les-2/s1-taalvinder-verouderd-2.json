@@ -1,0 +1,24 @@
+{"prompt_weergawe": "taalvinder-v1.1",
+ "veranderings": [
+  {"blok": "Twee broers en hul winkel",
+   "voor": "Hulle het daar fietse herstel, verhuur en verkoop, en later self fietse gebou.",
+   "na": "Hulle het daar fietse herstel, verhuur en verkoop. Later het hulle self fietse gebou.",
+   "soort": "leestekens",
+   "rede": "The comma before 'en' joins two parts of one sentence with a shared subject, which the AWS rule forbids; splitting the sentence keeps the list clear without it."},
+  {"blok": "Wat 'n enjin verander het",
+   "voor": "Hy moet dus eers hoog kom voordat hy kan gly.",
+   "na": "Hy moet dus eers hoogte kry voordat hy kan gly.",
+   "soort": "idioom",
+   "rede": "'Hoogte kry' is the natural Afrikaans expression and links directly to 'daardie hoogte' later in the block."},
+  {"blok": "sweeftuig",
+   "voor": "'n Vliegtuig sonder 'n enjin wat deur die lug om hom afgly.",
+   "na": "'n Vliegtuig wat sonder 'n enjin deur die lug om hom afgly.",
+   "soort": "verwysing",
+   "rede": "With 'wat' straight after 'enjin' the clause can be read as describing the engine; moving it after 'Vliegtuig' fixes the reference and leaves the protected phrase intact."}
+ ],
+ "vlae": [
+  {"blok": "Hul eerste poging was 'n sweeftuig",
+   "teks": "'n Sweeftuig het niks wat dit vorentoe stoot nie. Dit gly stadig al laer deur die lug om hom.",
+   "rede": "The glider is 'dit' in this block but 'hy' in 'Wat 'n enjin verander het', and the protected phrase 'om hom' sits beside 'Dit'; the pronoun is mixed, but the protected wording prevents a language-only fix here."}
+ ],
+ "beskerm_bedenkings": []}

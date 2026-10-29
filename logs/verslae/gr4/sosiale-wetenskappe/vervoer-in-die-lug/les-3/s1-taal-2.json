@@ -1,0 +1,75 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Minder as 'n dag na 'n ander wêrelddeel",
+      "voor": "vir werk na 'n ander land",
+      "na": "vir sy werk na 'n ander land",
+      "soort": "anglisisme",
+      "rede_vinder": "'Vir werk' echoes English 'for work'; 'vir sy werk' is the natural Afrikaans phrasing.",
+      "fout": "'vir werk na 'n ander land vlieg' follows English 'for work'; with a named subject (''n Pa') Afrikaans naturally says 'vir sy werk'.",
+      "rede_keurder": "More natural spoken Afrikaans for a Grade 4 reader, and the same father, action and meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat by 'n lughawe gebeur",
+      "voor": "By die lughawe aan die ander kant klim die passasiers uit",
+      "na": "By die lughawe waar die vlug eindig, klim die passasiers uit",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Aan die ander kant' is vague for a Grade 4 reader (other side of what?); naming the destination airport makes it clear without adding content.",
+      "fout": "'aan die ander kant' is vague: the paragraph never names a side, so a reader has to work out which airport is meant.",
+      "rede_keurder": "Names the destination airport plainly, echoes the lesson's own 'begin en waar dit eindig', and adds no fact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "Verder as die lug",
+      "voor": "'n Satelliet kyk van bo af na die wolke",
+      "na": "Sommige satelliete kyk van bo af na die wolke",
+      "soort": "verwysing",
+      "rede_vinder": "The next sentences say 'Ander satelliete' and 'Nog ander satelliete', which need a 'sommige' group to contrast with; generic ''n Satelliet' reads as all satellites. The protected word stays, only in plural.",
+      "fout": "Generic ''n Satelliet kyk ... na die wolke' reads as true of every satellite, which the next two sentences ('Ander satelliete', 'Nog ander satelliete') then contradict.",
+      "rede_keurder": "The fault is real, but the fix adds a quantifier and changes what is claimed about satellites, so it is a content change for the writer, not a language edit.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Vrag wat haastig is",
+      "teks": "Vrag wat haastig is",
+      "rede": "Block heading personifies cargo as being in a hurry; it is understandable, but a heading such as 'Vrag wat vinnig moet aankom' would be more natural. Not proposed as a change because headings may not be script-editable."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 427,
+  "woorde_na": 428,
+  "wanneer": "2026-10-29T12:30:33+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Minder as 'n dag na 'n ander wêrelddeel",
+      "voor": "honderde mense op een vlug dra.",
+      "na": "honderde mense op een vlug vervoer.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Vervoer' is the natural verb for carrying passengers and matches the glossary definition; 'dra' stays for cargo.",
+      "fout": "none",
+      "rede_keurder": "'Dra' for what a vehicle can hold is acceptable, and the next block's 'Vliegtuie dra ook goedere' leans on the same verb, so the swap disturbs a neighbour."
+    },
+    {
+      "nr": 3,
+      "blok": "Minder as 'n dag na 'n ander wêrelddeel",
+      "voor": "oor die wêreld versprei is",
+      "na": "oor die wêreld heen versprei is",
+      "soort": "idioom",
+      "rede_vinder": "The idiomatic form is 'oor die wêreld heen versprei'.",
+      "fout": "none",
+      "rede_keurder": "'Oor die wêreld versprei' already reads naturally; adding 'heen' is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:74d6ef5483746944b14e27445022ae16",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5e2173ef0c21f7486a1b04e24aadc13f"
+}

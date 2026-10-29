@@ -1,0 +1,87 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Wat is 'n stoomskip?",
+      "voor": "kon vaar op 'n dag met min of geen wind",
+      "na": "kon op 'n dag met min of geen wind vaar",
+      "soort": "woordorde",
+      "rede_vinder": "In an Afrikaans main clause with a modal, the infinitive goes to the end; the current order follows English.",
+      "fout": "The infinitive 'vaar' stands before the prepositional phrase, following English word order.",
+      "rede_keurder": "Putting the infinitive at the end after the modal is the natural Afrikaans order, and the meaning is unchanged."
+    },
+    {
+      "nr": 4,
+      "blok": "Hoe die groter stoomskepe ná Fulton gewerk het",
+      "voor": "verander in stoom en die stoom",
+      "na": "verander in stoom, en die stoom",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two sentences that each have their own subject and verb.",
+      "fout": "No comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "AWS 2017 requires the comma here, and nothing else changes."
+    },
+    {
+      "nr": 5,
+      "blok": "Hoe die groter stoomskepe ná Fulton gewerk het",
+      "voor": "agtertoe en die skip beweeg",
+      "na": "agtertoe, en die skip beweeg",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: comma before 'en' joining two sentences that each have their own subject and verb.",
+      "fout": "No comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "AWS 2017 requires the comma here, and nothing else changes."
+    },
+    {
+      "nr": 6,
+      "blok": "Wat skepe vandag vir jou doen",
+      "voor": "wat van ver af kom bereik",
+      "na": "wat van ver af kom, bereik",
+      "soort": "leestekens",
+      "rede_vinder": "A comma closes the relative clause where two verbs meet, which makes the sentence easier to read.",
+      "fout": "The verbs 'kom' and 'bereik' run together, so a reader stumbles where the relative clause ends.",
+      "rede_keurder": "The comma marks where the relative clause ends and makes the sentence easier to read on a first pass."
+    },
+    {
+      "nr": 7,
+      "blok": "Wat skepe vandag vir jou doen",
+      "voor": "het in 'n houer oor die see gery",
+      "na": "het in 'n houer oor die see gereis",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Ry' is used for land travel; 'reis' is the natural verb for goods crossing the sea.",
+      "fout": "'Ry' is a land-travel verb and sits awkwardly for goods crossing the sea.",
+      "rede_keurder": "'Gereis' is the natural verb for a sea crossing and keeps the same meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wat is 'n stoomskip?",
+      "voor": "Toe begin mense om",
+      "na": "Toe het mense begin om",
+      "soort": "grammatika",
+      "rede_vinder": "The surrounding sentences are in the past tense; the past form keeps the narrative consistent for a Grade 4 reader.",
+      "fout": "none",
+      "rede_keurder": "Present tense after 'toe' is normal Afrikaans narration, so this is a lateral tense change rather than a grammar fix."
+    },
+    {
+      "nr": 3,
+      "blok": "Robert Fulton se boot",
+      "voor": "het hout gebrand",
+      "na": "het hout gestook",
+      "soort": "idioom",
+      "rede_vinder": "For fuel burned in a boiler or stove, 'hout stook' is the idiomatic Afrikaans verb.",
+      "fout": "none",
+      "rede_keurder": "'Hout brand' is ordinary, correct Afrikaans for using wood as fuel, and 'stook' is a less familiar word for a Grade 4 reader with no gain in meaning."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 446,
+  "woorde_na": 446,
+  "wanneer": "2026-10-29T12:35:23+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:610d76604e356af9aebd0a354f404d6e",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:7b120cac5e568bec2ba26503ff7b7348"
+}

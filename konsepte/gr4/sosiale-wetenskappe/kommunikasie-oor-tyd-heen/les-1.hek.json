@@ -4,17 +4,20 @@
   "graad": 4,
   "vak": "Sosiale Wetenskappe",
   "budget": 400,
-  "checked_at": "2026-09-22T19:01:58+00:00",
+  "begrotingsreel": "delivered-length rule ±15%: 340-460 — Lampies, 29 Oktober 2026 (vraag 20): die Graad 4 Geskiedenis-lesse wat voor Drico se harde plafon van 29 September 2026 afgelewer is, hou hul afgelewerde lengtes en word volgens die reël waaronder hulle afgelewer is (begroting plus of min 15%) gehek.",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-29T12:47:42+00:00",
   "study": {
-    "words": 444,
-    "sentences": 38,
-    "mean_sentence_len": 11.6,
-    "median_sentence_len": 12.0,
+    "words": 460,
+    "sentences": 39,
+    "mean_sentence_len": 11.7,
+    "median_sentence_len": 12,
     "longest_sentence": 17,
-    "mean_syllables": 1.43,
-    "pct_polysyllabic": 7.9,
-    "pct_long_words": 1.6,
-    "commas_per_sentence": 0.34
+    "mean_syllables": 1.42,
+    "pct_polysyllabic": 7.8,
+    "pct_long_words": 1.7,
+    "commas_per_sentence": 0.38
   },
   "eli10": null,
   "block_counts": {
@@ -24,10 +27,11 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
-    "Long words in study text with no 'begrip' entry: gekommunikeer, kommunikeer, neergeskryf, versamelaars, verskillende, volstruiseierdop"
+    "Study text: 0.38 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: bymekaarkom, gekommunikeer, kommunikeer, neergeskryf, verskillende, volstruiseierdop"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Study text 460 words, above the Grade 4 lesson ceiling 450 by 10 -- within the language-step allowance of 20.",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

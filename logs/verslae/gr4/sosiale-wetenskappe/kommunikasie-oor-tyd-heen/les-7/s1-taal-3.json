@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe 'n telefoon jou stem oordra",
+      "voor": "Daardie klank laat",
+      "na": "Die klank laat",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids 'daardie' in two consecutive sentences; 'die' already points back to the voice's sound.",
+      "fout": "'daardie' opens two consecutive sentences ('Daardie klank ... daardie vel'), which reads stiff and repetitive",
+      "rede_keurder": "'Die klank' points back to the voice's sound just as clearly, removes the repetition and leaves the meaning and the protected 'membraan' sentence untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Hoe 'n telefoon jou stem oordra",
+      "voor": "klein en vinnige bewegings",
+      "na": "klein, vinnige bewegings",
+      "soort": "sinsbou",
+      "rede_vinder": "Two stacked attributive adjectives read more naturally with a comma than with 'en'.",
+      "fout": "none",
+      "rede_keurder": "'klein en vinnige bewegings' is natural Afrikaans, so the comma form is only a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 444,
+  "woorde_na": 444,
+  "wanneer": "2026-10-29T13:46:43+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Alexander Graham Bell",
+      "voor": "Toe kry hy 'n manier",
+      "na": "Toe vind hy 'n manier",
+      "soort": "anglisisme",
+      "rede_vinder": "'n Manier kry' is a calque of 'get a way'; Afrikaans finds ('vind') a way.",
+      "fout": "none",
+      "rede_keurder": "'n Manier kry' is natural spoken Afrikaans, so 'vind' is a lateral swap."
+    },
+    {
+      "nr": 12,
+      "blok": "Die eerste telefone was anders",
+      "voor": "met een eie draad",
+      "na": "met 'n eie draad",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Een eie draad' is awkward; 'n eie draad' is the idiomatic way to say a wire of their own.",
+      "fout": "none",
+      "rede_keurder": "'een' is a number that may have been deliberately checked, and swapping it for 'n' touches that count."
+    },
+    {
+      "nr": 14,
+      "blok": "Van 'n draaiknop tot 'n slimfoon",
+      "voor": "kon 'n mens self 'n nommer kies met 'n draaiknop op die telefoon",
+      "na": "kon 'n mens self met 'n draaiknop op die telefoon 'n nommer kies",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans the infinitive goes at the end; the prepositional phrase belongs before 'n nommer kies'.",
+      "fout": "none",
+      "rede_keurder": "Placing the prepositional phrase after the verb is normal Afrikaans, so the reorder is lateral."
+    }
+  ],
+  "konsep_hash_voor": "sha256:b01ffa6b3b5f0909102c3136ba61b03a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4dac3bce41380c4eea9d61d510b99884"
+}

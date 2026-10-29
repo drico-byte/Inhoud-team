@@ -650,7 +650,8 @@ def argiveer(bron, les_id, siklus, naam):
 
 
 # ---------------------------------------------------------------- steps
-def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None, kaps_ure=False, na_taal=False):
+def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None, kaps_ure=False, na_taal=False,
+                 afgelewer=None):
     args = [les_pad, "--grade", graad, "--budget", begroting, "--json",
             "--log", P.GATE_LOG]
     # The run after the language step may go a little over a word ceiling: the
@@ -669,6 +670,11 @@ def hardloop_hek(les_pad, graad, begroting, uit, plafon_vry=None, kaps_ure=False
     # and no absolute per-grade ceiling. Specs without the marker are untouched.
     if kaps_ure:
         args.append("--kaps-ure")
+    # Lampies, 29 October 2026 (question 20): a spec may declare that its lessons keep
+    # the lengths they were delivered at, and are gated by the rule they were delivered
+    # under instead of the subject's later hard ceiling.
+    if afgelewer:
+        args += ["--afgelewerde-lengte", afgelewer]
     dic = P.hunspell_pad()
     if dic:
         args += ["--woordeboek", dic]
@@ -1051,6 +1057,11 @@ def stap(a, uit):
     # budget, coverage depends on the whole spec entry, and the fact check depends
     # on neither. Re-running a web-heavy fact check for a budget edit is waste.
     hek_konteks = {"graad": int(graad), "begroting": int(begroting)}
+    # The delivered-length rule (Lampies, 29 October 2026) changes what the gate
+    # allows, so declaring it must re-gate a lesson gated under the hard ceiling.
+    # Added only when declared, so no other lesson's stored context changes.
+    if spek.get("afgelewerde_lengte"):
+        hek_konteks["afgelewerde_lengte"] = True
     # The LESSON entry, not the entry plus the spec-level context that is written
     # out beside it. Two reasons, and the second is a known gap.
     #
@@ -1113,7 +1124,8 @@ def stap(a, uit):
     if staat.get("hek") is None:
         code, hek = hardloop_hek(les_pad, graad, begroting, uit, plafon_vry,
                                  kaps_ure=spek.get("begroting_basis") == "kaps-ure",
-                                 na_taal=bool(staat.get("taal_ooit_toegepas")))
+                                 na_taal=bool(staat.get("taal_ooit_toegepas")),
+                                 afgelewer=spek.get("afgelewerde_lengte") or None)
         staat["hek"] = hek["verdict"]
         staat["hek_konteks"] = hek_konteks
         argiveer(P.hek_verslag(les_pad), les_id, siklus_nou, "hek")

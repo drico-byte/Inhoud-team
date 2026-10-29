@@ -1,0 +1,101 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Water was 'n hindernis",
+      "voor": "mense se pad gestop",
+      "na": "mense se pad versper",
+      "soort": "idioom",
+      "rede_vinder": "In Afrikaans water or an obstacle 'versper' someone's way; 'pad gestop' reads as a literal translation.",
+      "fout": "'mense se pad gestop' is a stiff, literal construction; Afrikaans says an obstacle 'versper' someone's way.",
+      "rede_keurder": "The fixed Afrikaans verb reads naturally and the meaning (water blocked people's way) is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Die seil vang die wind",
+      "voor": "teen die seil en die skip beweeg",
+      "na": "teen die seil, en die skip beweeg",
+      "soort": "leestekens",
+      "rede_vinder": "'en' joins two sentences with their own subject and verb, so AWS 2017 requires a comma before it.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb ('Die wind ... stoot', 'die skip beweeg').",
+      "rede_keurder": "House AWS 2017 rule requires the comma here and nothing else changes."
+    },
+    {
+      "nr": 4,
+      "blok": "Skuins teen die wind",
+      "voor": "vat die skip vorentoe",
+      "na": "beweeg die skip vorentoe",
+      "soort": "woordkeuse",
+      "rede_vinder": "'vat' is colloquial here; 'beweeg' says the same thing in standard written Afrikaans without echoing 'trek'.",
+      "fout": "'vat die skip vorentoe' is a loose, colloquial verb for what the force does to the ship.",
+      "rede_keurder": "'beweeg die skip vorentoe' is the plain written verb for the same action, keeps 'Die res van die trek' as subject and avoids repeating 'trek'."
+    },
+    {
+      "nr": 5,
+      "blok": "Vyf seilskepe",
+      "voor": "lang reise oor die oop see gevaar",
+      "na": "lang reise oor die oop see aangepak",
+      "soort": "idioom",
+      "rede_vinder": "One does not 'vaar' a journey in Afrikaans, and 'gevaar' here can be misread as the noun 'danger'; 'reise aanpak' is idiomatic and grade-appropriate.",
+      "fout": "'reise ... gevaar' is not a natural collocation and 'gevaar' can be misread as the noun for danger.",
+      "rede_keurder": "'lang reise ... aangepak' is idiomatic, keeps the same people, ship and voyages, and touches no protected wording."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Vlot, kano en rietboot",
+      "voor": "een boomstomp, of trek",
+      "na": "een boomstomp of trek",
+      "soort": "leestekens",
+      "rede_vinder": "The second verb shares the subject 'Mense', so this is one sentence and AWS 2017 puts no comma before 'of'.",
+      "fout": "none",
+      "rede_keurder": "The comma separates the two building methods in a sentence that already contains a second 'of' ('bas of vel'), so removing it makes a Grade 4 reader more likely to stumble, and the original is not wrong."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 6,
+      "blok": "vlot",
+      "voor": "van boomstompe, bamboes of riet saamgebind",
+      "na": "van saamgebinde boomstompe, bamboes of riet",
+      "soort": "woordorde",
+      "rede_vinder": "The trailing participle is awkward word order; the attributive form reads naturally and keeps the meaning.",
+      "fout": "The trailing participle 'saamgebind' at the end of the definition reads awkwardly.",
+      "rede_keurder": "This rewords a shared glossary definition beyond a plain spelling or grammar fix, so only the writer may change it for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    },
+    {
+      "nr": 7,
+      "blok": "seil",
+      "voor": "aan 'n mas wat die wind vang",
+      "na": "wat aan 'n mas hang en die wind vang",
+      "soort": "verwysing",
+      "rede_vinder": "As written, 'wat die wind vang' grammatically refers to the mast, not the sail; this matches the study text's own wording and fixes the reference.",
+      "fout": "'aan 'n mas wat die wind vang' lets 'wat' attach to the mast, so the definition can be read as the mast catching the wind.",
+      "rede_keurder": "A real reference fault, but the fix rewords a shared glossary definition and adds 'hang', so it goes to the writer to fix across lessons.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Vlot, kano en rietboot",
+      "teks": "Hy dra vrag betroubaar, maar hy is stadig.",
+      "rede": "'dra vrag betroubaar' is wooden, but any natural rewording (e.g. 'veilig', 'goed', 'swaar vrag') risks changing what is claimed, so it is left for the reviewer or writer."
+    }
+  ],
+  "beskerm_bedenkings": [
+    {
+      "woord": "seile wat dun latte styf hou",
+      "rede": "In the Chinese jonk glossary entry this relative clause is ambiguous in Afrikaans: it can be read as sails that hold thin laths taut, the reverse of the intended meaning ('Dun latte hou sy seile styf'). A person may want to reword it, e.g. 'met seile wat deur dun latte styf gehou word'."
+    }
+  ],
+  "woorde_voor": 450,
+  "woorde_na": 450,
+  "wanneer": "2026-10-29T11:58:08+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:fa2f1e9df0d9e48ea55b343e9492a70e",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e1c1207c2f6a1612aecf3de81b2c1393"
+}

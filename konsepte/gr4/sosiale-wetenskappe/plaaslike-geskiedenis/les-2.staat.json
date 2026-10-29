@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/plaaslike-geskiedenis/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:88047d0a098f9b47f6fbf7b5ffcb95e6",
+  "konsep_hash": "sha256:f2d0df2da850e9d62945a374c4c90187",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -172,11 +172,108 @@
       "doel": "C:\\Users\\DricoSnyman\\dev\\Wolkskool\\Wolkskool Inhoud\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\plaaslike-geskiedenis\\les-2.json",
       "konsep_hash": "sha256:88047d0a098f9b47f6fbf7b5ffcb95e6",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-29T13:18:23+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1f7e6bac35dddbaf0baa204c3f56bf12",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-29T13:18:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 319,
+      "begroting": 280,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:18:24+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:1f7e6bac35dddbaf0baa204c3f56bf12",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-29T13:28:19+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 319,
+      "woorde_na": 319,
+      "konsep_hash": "sha256:e206af1e979ca84e59860d3694ddb1e6"
+    },
+    {
+      "wanneer": "2026-10-29T13:28:20+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 319,
+      "begroting": 280,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:28:20+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Soos by elke bron kyk jy aanlyn waar die inligting vandaan kom': 'kyk jy aanlyn' can be read as checking every source online, when the sentence is about information found online on websites",
+        "fix: [taal] in 'Grawe is een van die maniere.': 'die maniere' has no stated referent when the glossary entry is read alone",
+        "check (the language finder raised this; it may not be a fault): ''n Ou pot wys waarvan mense geëet het.': Ambiguous: 'waarvan mense geëet het' can mean what people ate out of (the dishes) or what food they ate. I cannot pick one without guessing what the writer meant, so the writer should decide which.",
+        "check (the language finder raised this; it may not be a fault): 'Plakkate wat klante wil lok, wys winkels op hul mooiste.': This sentence comes without any link to the sentence before it about asking who made a source and why, so a learner may not see that it is an example of that point. Linking it is a structural choice, so the writer should make it."
+      ]
+    },
+    {
+      "wanneer": "2026-10-29T13:35:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:354411f6100e46f302aaf23fe3fe9578",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-29T13:35:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 320,
+      "begroting": 280,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:43:39+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 320,
+      "woorde_na": 320,
+      "konsep_hash": "sha256:f2d0df2da850e9d62945a374c4c90187"
+    },
+    {
+      "wanneer": "2026-10-29T13:43:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 320,
+      "begroting": 280,
+      "failures": []
     }
   ],
-  "spek_hash": "sha256:47153f1cb355b35e6dc7899dfdb09f1f",
+  "spek_hash": "sha256:2599a5c10bb466af1e99f62b677cfa2d",
   "hek_konteks": {
     "graad": 4,
-    "begroting": 240
-  }
+    "begroting": 280,
+    "afgelewerde_lengte": true
+  },
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): ''n Ou pot wys waarvan mense geëet het.': 'waarvan mense geëet het' is ambiguous: it can mean what people ate or what they ate from ('waaruit'). Choosing between 'wat mense geëet het' and 'waaruit mense geëet het' would guess the intended content, so this goes to the writer."
+  ],
+  "taal_geforseer_vir": "sha256:1f7e6bac35dddbaf0baa204c3f56bf12",
+  "taal_rondte_vir": "sha256:f2d0df2da850e9d62945a374c4c90187",
+  "taal_keurder_vir": "ab94fcee761f017c45f5f4231c792bc9",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:f2d0df2da850e9d62945a374c4c90187",
+  "taal_vir_mens": [
+    "[taal, protected word] 'voorwerpbronne': Answer to the entry's explicit question, not an objection: 'voorwerpbron/voorwerpbronne' is a regular, transparent Afrikaans compound (like 'voorwerpnaam' or 'bronnelys'), correctly closed up, and a nine-year-old who knows 'voorwerp' and 'bron' will read it without difficulty. It may not be in a dictionary, but it is well-formed Afrikaans and fits the set beside the other three. No change proposed."
+  ],
+  "taal_bons_vir": "sha256:e206af1e979ca84e59860d3694ddb1e6",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "5b82b8731523825af1dbdc8e75a66e89"
 }

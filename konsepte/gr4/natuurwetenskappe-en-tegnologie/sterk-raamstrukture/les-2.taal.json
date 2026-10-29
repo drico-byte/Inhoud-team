@@ -1,13 +1,45 @@
 {
-  "toegepas": [],
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n huis van gras regop hou",
+      "voor": "takke van 'n boom",
+      "na": "boomtakke",
+      "soort": "woordkeuse",
+      "rede_vinder": "The singular 'van 'n boom' is wooden for branches that come from many trees; 'boomtakke' is the natural compound and means the same.",
+      "fout": "'takke van 'n boom' is a stiff, wordy phrase where Afrikaans has the natural compound",
+      "rede_keurder": "'boomtakke' is what a fluent writer would write here and says exactly the same thing."
+    }
+  ],
   "nie_toegepas": [],
-  "laat_vaar": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Hoekom 'n tak 'n goeie stut is",
+      "voor": "'n Jong groen tak",
+      "na": "'n Jong, groen tak",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives before a noun without 'en' are separated by a comma (AWS).",
+      "fout": "none",
+      "rede_keurder": "The adjectives are not coordinate: 'jong' qualifies 'groen tak' (a fresh, unseasoned branch), so no comma is required and the original is correct."
+    },
+    {
+      "nr": 3,
+      "blok": "Die Zoeloe-huis",
+      "voor": "en die hele huis buig soos 'n koepel",
+      "na": "en die hele huis het die vorm van 'n koepel",
+      "soort": "woordkeuse",
+      "rede_vinder": "Saying a house 'buig' reads as if it bends or gives way; describing its shape is clearer for a Grade 4 learner and keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'buig' for a curved shape is ordinary Afrikaans and matches the lesson's own koepel definition ('soos die boonste helfte van 'n bal buig'), so the proposal is a lateral move that breaks that link."
+    }
+  ],
   "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 447,
-  "woorde_na": 447,
-  "wanneer": "2026-10-23T06:22:01+00:00",
+  "woorde_voor": 412,
+  "woorde_na": 409,
+  "wanneer": "2026-10-29T12:50:42+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 6,
@@ -58,9 +90,49 @@
       "rede_vinder": "'Oprig' is the precise verb for erecting a frame; 'opsit' is loose and colloquial.",
       "fout": "none",
       "rede_keurder": "'Sit eers 'n raam van stutte op' is natural, plain Afrikaans and is the finished video's own wording, so swapping it for 'rig op' is a lateral move that would only open a gap between the text and the video."
+    },
+    {
+      "nr": 2,
+      "blok": "Waar jy hierdie raam al gesien het",
+      "voor": "is nog sulke rame",
+      "na": "is ook sulke rame",
+      "soort": "woordkeuse",
+      "rede_vinder": "'nog' can be read as 'still' (power pylons are still frames), whereas the sentence means 'also'; 'ook' removes the ambiguity.",
+      "fout": "none",
+      "rede_keurder": "'nog sulke rame' naturally reads as 'further such frames' after a list of examples, and 'ook' would repeat the 'ook' of the sentence just before it."
+    },
+    {
+      "nr": 1,
+      "blok": "Wat 'n huis van gras regop hou",
+      "voor": "hou die reën en wind buite",
+      "na": "hou die reën en wind uit",
+      "soort": "idioom",
+      "rede_vinder": "The idiomatic separable verb is 'uithou' (hou ... uit); 'buite hou' is stiffer.",
+      "fout": "none",
+      "rede_keurder": "'buite hou' is natural, current Afrikaans for keeping weather out, so 'uit' is a lateral move rather than a fix."
+    },
+    {
+      "nr": 3,
+      "blok": "Inheems en tradisioneel",
+      "voor": "en so gaan dit van mens tot mens aan",
+      "na": "en so gaan dit van geslag tot geslag aan",
+      "soort": "idioom",
+      "rede_vinder": "'van geslag tot geslag' is the natural Afrikaans idiom for passing a way of doing things from parents to children, matching the sentence before it.",
+      "fout": "none",
+      "rede_keurder": "'van geslag tot geslag' brings in a new idea (generations) where the original said 'person to person', and for a Grade 4 reader 'geslag' can also mean sex or gender; the original reads fine."
+    },
+    {
+      "nr": 4,
+      "blok": "Die Xhosa-huis",
+      "voor": "Die pale loop skuins van die muur af boontoe",
+      "na": "Die pale loop van die muur af skuins boontoe",
+      "soort": "woordorde",
+      "rede_vinder": "Placing the starting point 'van die muur af' first and keeping 'skuins boontoe' together reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "Moving the adverb around: the original word order already reads clearly, so the change gains nothing."
     }
   ],
-  "konsep_hash_voor": "sha256:6107e0ad44244ddabac44446ccb60483",
-  "prompts": "taalvinder-v1.1 + -",
-  "konsep_hash_na": "sha256:6107e0ad44244ddabac44446ccb60483"
+  "konsep_hash_voor": "sha256:ce5ae55850dc44502ade46dd6bb2b403",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:00acdc2eae66043ec19cf51ab7820bda"
 }

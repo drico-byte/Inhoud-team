@@ -4,18 +4,21 @@
   "graad": 4,
   "vak": "Sosiale Wetenskappe",
   "budget": 400,
-  "checked_at": "2026-09-07T23:12:18+00:00",
+  "begrotingsreel": "delivered-length rule ±15%: 340-460 — Lampies, 29 Oktober 2026 (vraag 20): die Graad 4 Geskiedenis-lesse wat voor Drico se harde plafon van 29 September 2026 afgelewer is, hou hul afgelewerde lengtes en word volgens die reël waaronder hulle afgelewer is (begroting plus of min 15%) gehek.",
+  "begroting_basis": "meting",
+  "na_taal": true,
+  "checked_at": "2026-10-29T13:16:55+00:00",
   "study": {
-    "words": 428,
-    "sentences": 27,
-    "mean_sentence_len": 12.7,
-    "median_sentence_len": 13,
+    "words": 454,
+    "sentences": 28,
+    "mean_sentence_len": 13.1,
+    "median_sentence_len": 13.0,
     "longest_sentence": 20,
     "mean_syllables": 1.43,
-    "pct_polysyllabic": 8.7,
-    "pct_long_words": 0.9,
-    "commas_per_sentence": 0.11,
-    "list_words": 85
+    "pct_polysyllabic": 9.3,
+    "pct_long_words": 0.8,
+    "commas_per_sentence": 0.39,
+    "list_words": 88
   },
   "eli10": null,
   "block_counts": {
@@ -26,12 +29,13 @@
   "misspelled": [],
   "failures": [],
   "warnings": [
+    "Study text: 0.39 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "List 'Wat 'n vinnige boodskap vera' item 5: 20 words (guide 18) — consider tightening",
-    "List 'Wat 'n vinnige boodskap vera' item 6: 19 words (guide 18) — consider tightening",
+    "List 'Wat 'n vinnige boodskap vera' item 6: 22 words (guide 18) — consider tightening",
     "Long words in study text with no 'begrip' entry: elektrisiteit, telegraaflyn"
   ],
   "notes": [
-    "No ELI10 layer — zero or one per lesson is the guide, and none is a normal outcome for a lesson with no abstract mechanism",
+    "Study text 454 words, above the Grade 4 lesson ceiling 450 by 4 -- within the language-step allowance of 20.",
     "Afrikaans dictionary not installed — spelling not checked"
   ]
 }

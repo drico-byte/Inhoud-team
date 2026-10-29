@@ -1,0 +1,36 @@
+{"prompt_weergawe": "taalvinder-v1.1",
+ "veranderings": [
+  {"blok": "Die verlede is verby",
+   "voor": "Die verlede is verby en ons kan",
+   "na": "Die verlede is verby, en ons kan",
+   "soort": "leestekens",
+   "rede": "AWS comma: 'en' joins two sentences with their own subjects (die verlede / ons) and verbs."},
+  {"blok": "Die verlede is verby",
+   "voor": "'n Ou foto bly oor en 'n ou pot",
+   "na": "'n Ou foto bly oor, en 'n ou pot",
+   "soort": "leestekens",
+   "rede": "AWS comma: 'en' joins two full sentences, each with its own subject and verb."},
+  {"blok": "Wat 'n leidraad is",
+   "voor": "geskrewe leidrade, en voorwerpbronne",
+   "na": "geskrewe leidrade en voorwerpbronne",
+   "soort": "leestekens",
+   "rede": "No comma before 'en' in a list under the AWS rule the lesson follows."},
+  {"blok": "Wat geskiedenis is",
+   "voor": "wat ons vanuit bronne kan uitvind",
+   "na": "wat ons uit bronne kan uitvind",
+   "soort": "woordkeuse",
+   "rede": "'uit' is the natural, simpler preposition here; 'vanuit' is stiff and over-used for English 'from'."}
+ ],
+ "vlae": [
+  {"blok": "Wat 'n leidraad is",
+   "teks": "Vier van daardie groepe is visuele, mondelinge en geskrewe leidrade, en voorwerpbronne.",
+   "rede": "The protected entry for 'voorwerpbronne' says the name ends on 'bronne' so the four types read as one set beside 'visuele, geskrewe en mondelinge bronne', but this sentence names the other three 'leidrade', so the set does not read as one; a terminology choice for the writer, not a language edit."}
+ ],
+ "beskerm_bedenkings": [
+  {"woord": "voorwerpbronne",
+   "rede": "Asked for explicitly: the compound is well formed and transparent (voorwerp + bronne, like 'mondelinge bronne' made into one word), and a nine-year-old who knows 'voorwerp' and 'bron' will understand it; it reads as acceptable Afrikaans even if it is not attested in sources. No change proposed."},
+  {"woord": "Soms wys hulle nie genoeg nie en die vraag bly oop.",
+   "rede": "Under the AWS rule the lesson follows this needs a comma before 'en' (two subjects, hulle / die vraag, each with a verb); not changed because the sentence is protected."},
+  {"woord": "en 'n vraag help antwoord",
+   "rede": "Standard Afrikaans is ''n vraag beantwoord' (or 'antwoord op 'n vraag'); transitive 'n vraag antwoord' leans on English. The same form appears in the 'Wat 'n leidraad is' block and the 'bewys' glossary entry; left alone so all three stay consistent with the protected wording, but a person may want 'help beantwoord' throughout."}
+ ]}

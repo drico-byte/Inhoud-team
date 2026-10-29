@@ -361,7 +361,7 @@ def check_register(m, band, label, fails, warns, na_taal=False):
         warns.append(f"{label}: longest sentence is {m['longest_sentence']} words — check for a missing full stop")
 
 
-def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False, na_taal=False):
+def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False, na_taal=False, afgelewer=None):
     band = band_for(grade)
     blocks = lesson.get("blokke", [])
     fails, warns, notes = [], [], []
@@ -442,12 +442,20 @@ def run(lesson, grade, budget, plafon_vry=None, kaps_ure=False, na_taal=False):
     else:
         onder, bo = BUDGET_TOLERANCE, BUDGET_TOLERANCE
         _sleutel = ((lesson.get("vak") or "").strip(), grade)
-        if _sleutel in BUDGET_TOLERANCE_VAK:
+        # Lampies, 29 October 2026 (question 20): the Grade 4 History lessons delivered
+        # before the hard ceiling keep their delivered lengths, so they are gated by the
+        # rule they were delivered under -- budget +/-15% -- and not by the subject's hard
+        # ceiling. The spec declares it (afgelewerde_lengte); the value is the reason.
+        vak_reel = _sleutel in BUDGET_TOLERANCE_VAK and not afgelewer
+        if vak_reel:
             onder, bo = BUDGET_TOLERANCE_VAK[_sleutel]
         # Rounded: see binne_toelating. Without it a lesson exactly on a printed
         # ceiling or floor failed by a floating-point hair.
         lo, hi = round(budget * (1 - onder)), round(budget * (1 + bo))
-        if _sleutel in BUDGET_TOLERANCE_VAK:
+        if afgelewer and _sleutel in BUDGET_TOLERANCE_VAK:
+            begrotingsreel = (f"delivered-length rule ±{BUDGET_TOLERANCE:.0%}: {lo:.0f}-{hi:.0f} "
+                              f"— {afgelewer}")
+        elif vak_reel:
             begrotingsreel = (f"{_sleutel[0]} Gr {_sleutel[1]}: {lo:.0f}-{hi:.0f}"
                               + (" — the budget is a HARD CEILING" if bo == 0 else ""))
         else:
@@ -675,6 +683,9 @@ def main():
                     help="the text carries language-step edits: word floors and ceilings move by "
                          "TAAL_TOELATING of the budget, list items by 3 words, and the comma limit only "
                          "warns (Drico, 22 Oct 2026). The rest of the register band is unchanged.")
+    ap.add_argument("--afgelewerde-lengte", dest="afgelewer", default=None,
+                    help=("gate this lesson by the rule it was delivered under (budget +/-15%%) instead "
+                          "of its subject's hard ceiling; the value is the REASON (Lampies, 29 Oct 2026)"))
     ap.add_argument("--json", action="store_true", help="emit JSON only (for orchestrator use)")
     ap.add_argument("--log", help="append result to this JSONL log")
     ap.add_argument("--woordeboek", default=None,
@@ -687,7 +698,8 @@ def main():
         set_dictionary(a.woordeboek)
 
     lesson = json.load(open(a.lesson, encoding="utf-8"))
-    r = run(lesson, a.grade, a.budget, a.plafon_vry, kaps_ure=a.kaps_ure, na_taal=a.na_taal)
+    r = run(lesson, a.grade, a.budget, a.plafon_vry, kaps_ure=a.kaps_ure, na_taal=a.na_taal,
+            afgelewer=a.afgelewer)
 
     if a.log:
         with open(a.log, "a", encoding="utf-8") as f:

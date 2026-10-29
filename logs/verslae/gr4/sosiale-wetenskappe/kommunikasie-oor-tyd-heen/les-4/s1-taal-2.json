@@ -1,0 +1,106 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat die radio verander het",
+      "voor": "Dit stuur 'n boodskap as golwe",
+      "na": "Dit stuur die boodskap as golwe",
+      "soort": "verwysing",
+      "rede_vinder": "The sentence refers back to the message just mentioned, so the definite article reads better than a second 'n boodskap.",
+      "fout": "A second indefinite 'n boodskap right after the first reads as a new, unrelated message.",
+      "rede_keurder": "The definite article ties the sentence to the message just mentioned without changing what is said."
+    },
+    {
+      "nr": 3,
+      "blok": "Wie het die radio gemaak?",
+      "voor": "Groot uitvindings gebeur dikwels",
+      "na": "Groot uitvindings ontstaan dikwels",
+      "soort": "woordkeuse",
+      "rede_vinder": "Inventions do not really 'happen' in Afrikaans; 'ontstaan' is the natural verb for an invention coming about.",
+      "fout": "Inventions do not naturally 'gebeur' in Afrikaans; the verb is loose.",
+      "rede_keurder": "'Ontstaan' is the natural verb for an invention coming about, and the qualifier 'dikwels' is intact."
+    },
+    {
+      "nr": 5,
+      "blok": "Duisende mense op dieselfde tyd",
+      "voor": "Jou radio maak net die een waarop jy instel",
+      "na": "Jou radio maak net van die een waarop jy instel",
+      "soort": "grammatika",
+      "rede_vinder": "'Maak X weer klank' does not mean 'turn X back into sound'; 'maak van X weer klank' does, and matches the lesson's earlier 'maak van die patroon weer klank'.",
+      "fout": "'Maak net die een ... weer klank' lacks the 'van' that 'turn X into sound' needs, so the reader stumbles.",
+      "rede_keurder": "Adding 'van' fixes the construction, matches the earlier 'maak van die patroon weer klank', and keeps the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "Duisende mense op dieselfde tyd",
+      "voor": "Die golwe gaan wyd uit en nie net na een mens toe nie",
+      "na": "Die golwe versprei wyd en gaan nie net na een mens toe nie",
+      "soort": "sinsbou",
+      "rede_vinder": "The second half has no verb of its own, which reads as a fragment; giving it 'gaan' and using 'versprei' makes both halves full and natural.",
+      "fout": "none",
+      "rede_keurder": "The elliptical second half is acceptable Afrikaans, and the proposal is longer with a harder verb for a Grade 4 reader."
+    },
+    {
+      "nr": 6,
+      "blok": "Nobelprys",
+      "voor": "uit Alfred Nobel se geld gegee word",
+      "na": "uit Alfred Nobel se geld toegeken word",
+      "soort": "woordkeuse",
+      "rede_vinder": "A prize is 'toegeken' in Afrikaans; 'gegee' is flat and sounds translated.",
+      "fout": "none",
+      "rede_keurder": "'Gegee' is plain, correct wording for a Grade 4 glossary entry, and rewording a definition is not a language agent's change to make without a real fault."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 2,
+      "blok": "Marconi stuur seine sonder drade",
+      "voor": "Elke sein was net 'n eenvoudige sein",
+      "na": "Elke sein was net 'n eenvoudige teken",
+      "soort": "sinsbou",
+      "rede_vinder": "Avoids saying 'sein' twice in one short clause; 'teken' is the word the lesson's own glossary uses to define a sein, and the first 'sein' stays.",
+      "fout": "'Elke sein was net 'n eenvoudige sein' is a tautology that says nothing about what the signal was.",
+      "rede_keurder": "The fault is real, but the fix removes an occurrence of the protected video word 'sein', so the writer must resolve it.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Wat die radio verander het",
+      "teks": "Dit stuur 'n boodskap as golwe sonder enige draad tussen die twee mense.",
+      "rede": "'Die twee mense' has not been introduced; the paragraph spoke of a carrier and of a wire between two places, so it is unclear which two people are meant. Fixing it means choosing content (for example who sends and who receives), so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 453,
+  "woorde_na": 454,
+  "wanneer": "2026-10-29T12:30:50+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 5,
+      "blok": "Duisende mense op dieselfde tyd",
+      "voor": "net die een waarop jy instel",
+      "na": "net die golwe van die stasie waarop jy instel",
+      "soort": "verwysing",
+      "rede_vinder": "'die een' is ambiguous between a station and the waves, and it is the waves that the radio turns back into sound.",
+      "fout": "none",
+      "rede_keurder": "'Die een' clearly means the station in context, and the proposal lengthens the sentence and repeats 'golwe' a third time in the paragraph."
+    },
+    {
+      "nr": 8,
+      "blok": "draadloos",
+      "voor": "nie langs 'n draad nie",
+      "na": "nie deur 'n draad nie",
+      "soort": "grammatika",
+      "rede_vinder": "The preposition 'langs' suggests travelling beside a wire; a message travels through a wire, and 'deur' matches the lesson's own usage.",
+      "fout": "none",
+      "rede_keurder": "'Langs 'n draad' (along a wire) is correct, and this is a shared glossary definition where a preposition swap is a content change."
+    }
+  ],
+  "konsep_hash_voor": "sha256:613ca3239552870ad7af5645ed7c9f56",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:dc22481540eaca53a8aea51e46bdbaee"
+}

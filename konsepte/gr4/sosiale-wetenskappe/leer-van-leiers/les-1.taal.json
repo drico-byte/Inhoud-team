@@ -1,0 +1,73 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Luister en dien",
+      "voor": "sê net vir ander wat om te doen",
+      "na": "sê net vir ander wat hulle moet doen",
+      "soort": "anglisisme",
+      "rede_vinder": "'wat om te doen' copies English 'what to do'; 'wat hulle moet doen' is the idiomatic Afrikaans form.",
+      "fout": "'wat om te doen' copies English 'what to do'",
+      "rede_keurder": "'wat hulle moet doen' is the natural Afrikaans form and says exactly the same thing."
+    },
+    {
+      "nr": 2,
+      "blok": "Luister en dien",
+      "voor": "egter luister",
+      "na": "egter: luister",
+      "soort": "leestekens",
+      "rede_vinder": "The quoted trait follows 'is' directly and reads as broken grammar; a colon marks it as the list item's name and leaves the protected wording intact.",
+      "fout": "the trait's name follows 'is egter' directly as a bare verb phrase, so the sentence stumbles on a first reading",
+      "rede_keurder": "The colon marks the list item as a quoted name, leaves the protected wording intact and changes no meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Luister en dien",
+      "voor": "Die tweede eienskap vra dat sy",
+      "na": "Die tweede eienskap beteken dat sy",
+      "soort": "woordkeuse",
+      "rede_vinder": "'vra' was just used for the leader asking people, and a trait that 'asks that she' reads wooden; 'beteken' is clearer for Grade 4.",
+      "fout": "none",
+      "rede_keurder": "'Die eienskap vra dat' is natural Afrikaans for 'requires', and 'beteken' turns a demand of the trait into a definition of it, which moves the claim."
+    },
+    {
+      "nr": 4,
+      "blok": "Werk met 'n span",
+      "voor": "vra ook na die span se idees en gebruik die beste idee",
+      "na": "vra ook die span vir hulle idees en gebruik die beste een",
+      "soort": "idioom",
+      "rede_vinder": "'vra na' means to ask after or inquire about; 'iemand vir iets vra' is the natural construction, and 'die beste een' avoids repeating 'idee'.",
+      "fout": "none",
+      "rede_keurder": "'na die span se idees vra' is standard Afrikaans, and 'die beste een' brings back the English calque a previous round judged a fault and the writer replaced on purpose."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "Luister na die mense",
+      "rede": "In the list it is the only item starting with a capital letter; the other seven start lower case, so the list looks inconsistent. Only the case would change, not the words."
+    }
+  ],
+  "woorde_voor": 459,
+  "woorde_na": 459,
+  "wanneer": "2026-10-29T13:05:49+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Werk met 'n span",
+      "voor": "'n taak wat hy goed kan doen",
+      "na": "'n taak wat hy of sy goed kan doen",
+      "soort": "verwysing",
+      "rede_vinder": "The leader is 'sy' throughout, so a bare 'hy' for 'elkeen' right after 'Sy' jars; the lesson already uses 'sy of haar' elsewhere.",
+      "fout": "none",
+      "rede_keurder": "Generic 'hy' after 'elkeen' is standard Afrikaans and cannot point to the leader, who is 'Sy'; adding 'of sy' puts a second 'sy' in the sentence that could be read as the leader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:c907f2268d9a5e352b2407ce49d2f82d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:672a676913bcf0bea3c06f8d06c23b3b"
+}

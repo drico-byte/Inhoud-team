@@ -1,0 +1,58 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Van Washington na Baltimore",
+      "voor": "Die twee stede lê naby mekaar en 'n brief",
+      "na": "Die twee stede lê naby mekaar, en 'n brief",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: a comma before 'en' joining two sentences that each have their own subject and verb (comma only, not the rejected 'maar').",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb ('Die twee stede le' and ''n brief het').",
+      "rede_keurder": "Required AWS 2017 comma, adds no word and keeps 'en' rather than the previously rejected 'maar'."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Hoe 'n telegraaf werk",
+      "voor": "kon dus net boodskappe stuur waar",
+      "na": "kon dus boodskappe net stuur waar",
+      "soort": "woordorde",
+      "rede_vinder": "'net' must stand before the restricted part (where), not before 'boodskappe', which reads as 'only messages'.",
+      "fout": "none",
+      "rede_keurder": "In Afrikaans 'net' before the object naturally scopes over the whole predicate, so the original already reads as 'only where a wire was strung'; the move is lateral."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 454,
+  "woorde_na": 454,
+  "wanneer": "2026-10-29T13:16:54+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 8,
+      "blok": "Van Washington na Baltimore",
+      "voor": "Die twee stede lê naby mekaar en 'n brief",
+      "na": "Die twee stede lê naby mekaar, maar 'n brief",
+      "soort": "sinsbou",
+      "rede_vinder": "The two clauses stand in contrast (close together, yet hours), so 'maar' with its comma states the link the sentence already implies.",
+      "fout": "none",
+      "rede_keurder": "Swapping 'en' for 'maar' adds a contrast the original does not assert (the contrast is with the telegraph's minutes in the next sentence), and the original reads fine."
+    },
+    {
+      "nr": 1,
+      "blok": "Wat 'n vinnige boodskap verander het",
+      "voor": "praat mense vandag nog daarvan om geld te 'wire'",
+      "na": "sê mense vandag nog dat hulle geld 'wire'",
+      "soort": "sinsbou",
+      "rede_vinder": "'praat daarvan om geld te wire' is wooden; 'sê dat hulle geld wire' is the natural way to report the English usage, with the same meaning and length.",
+      "fout": "none",
+      "rede_keurder": "The original 'praat daarvan om geld te wire' is natural Afrikaans for naming an expression, and the proposal is a lateral move that also shifts the sense from using the term to people reporting their own action."
+    }
+  ],
+  "konsep_hash_voor": "sha256:5cb766612ee0579fbeab6e3cbb73c750",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:06e95699955dffa7c94a21e8ddebcfb0"
+}

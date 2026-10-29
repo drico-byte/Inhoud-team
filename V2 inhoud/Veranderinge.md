@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-299 lesse.
+323 lesse.
 
 
 ## Graad 4/Lewensvaardighede/Gesondheids- en omgewingsverantwoordelikheid
@@ -12,6 +12,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 02 - Die bal rol na die dam toe** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Taal: AWS-kommas; 'van die water af moet wegbly'; die verdrinkingsveiligheidsreëls (nie inspring nie, plat lê, ver van die gladde kant af, 'n kind wat verdrink, is stil) beskerm en onveranderd
 - **Les 03 - Die bestuurder sien jou nie altyd nie** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Feite: fiets: albei hande aan die stuur behalwe om met een arm te wys voordat jy draai, en dan terug; passasier: sit op 'n sitplek, hou in 'n vol bus styf vas, ry nooit agter op 'n bakkie nie; trein: steek die spoor net oor by 'n brug, 'n duikweg of 'n oorgang; KABV-gaping: Feite: 'n voetganger loop teen die verkeer in waar daar geen sypaadjie is nie; geparkeerde karre kan jou wegsteek, en die bestuurder sien jou dalk te laat; klim aan die sypaadjie se kant in en uit, nooit aan die verkeer se kant nie; KABV-gaping: Taal: AWS-kommas; 'oorsteek'; 'Iets wat lig terugkaats, help 'n bestuurder om jou in die donker te sien'; duikweg algemeen omskryf
 - **Les 04 - Die oggend toe Naledi stilgestaan het** (goedgekeur 2026-10-23): 2 taalverandering(s) toegepas; KABV-gaping: Feite: die oorgang is regdeur by die verkeerslig; nie meer 'n sebrapad of "die strepe" nie (in Suid-Afrika twee verskillende oorgange met ander reëls); KABV-gaping: Feite: die skolierpatrollie sonder 'n volwassene is uitgehaal ('n patrollie werk altyd onder toesig van 'n volwassene); KABV-gaping: Taal: AWS-kommas; 'kyk eers na regs'; 'al duur dit langer'; die oorsteekreëls (regs, links, regs; wag vir die groen mannetjie en kyk steeds) onveranderd
+- **Les 05 - Kieme wat jy nie kan sien nie** (goedgekeur 2026-10-29): taalstap: niks verander nie
 - **Les 06 - Die groen borsel met die tandmerk** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; KABV-gaping: Feite: Ouma gooi die borsel wat Anele in sy mond gehad het weg en Marika kry 'n nuwe een (gesondheidsriglyne: vervang 'n borsel wat iemand anders gebruik het); KABV-gaping: Taal: AWS-kommas; 'daarom hou elkeen maar sy eie'
 - **Les 07 - Wanneer 'n plek 'n mens siek maak** (goedgekeur 2026-10-23): 2 taalverandering(s) toegepas; KABV-gaping: Feite: raak nooit aan glas of 'n naald nie, ook nie met handskoene of 'n stok nie; los dit en sê dadelik vir 'n grootmens; tel net gewone rommel op met handskoene aan; ou spuitnaalde steek; 'n jong boom wat pas geplant is, kan maklik doodgaan as niemand hom natgooi nie; KABV-gaping: Feite: 'n skoonmaakveldtog is nie meer aan een dag gebind nie; suurstof is 'n gas wat mense en baie diere inasem; KABV-gaping: Taal: AWS-kommas; 'sluk hy die kieme saam met die water in'; 'gaan sit later op jou kos'
 - **Les 08 - Die hoek wat skoon gebly het** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Taal: AWS-kommas; 'Elke kind het sy hande ingeseep, en 'n maat het die water daaroor gegooi'; die glas-en-naald-reël onveranderd
@@ -44,15 +45,16 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 ## Graad 4/Lewensvaardighede/Uitvoerende Kunste
 
-- **Les 02 - Geslaan, geskud of geskraap** (goedgekeur 2026-10-22): 2 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: al 16 Kwartaal 2-sleutelterme kry 'n kort begrip-inskrywing (besluit 1); KABV-gaping: KABV-gaping (besluit 10): KABV se vier sorteervrae is vier gelyke maniere; geslaan, geskud en geskraap is groepe binne een familie, soos in les 1; KABV-gaping: Feite: die hosho kom van die Shona (nie die Ndebele as herkoms nie); die sin oor wie die ngoma speel is uitgesny; klankprente word met die stem, die liggaam en instrumente gebou, ook selfgemaakte (KABV bl. 41); KABV-gaping: Dekking: 'n luisteropdrag gebruik geslaan, geskud en geskraap; 'maat' beteken nou net 'n maat in die musiek ('die gereelde tel' vir die slag); KABV-gaping: Taal: 'In Suid-Afrika' vir 'Hier by ons'; 'dansers' meervoud; glossarium vir riwwe, niebeweging en tydmaatteken
-- **Les 03 - Hoog en laag in dieselfde familie** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: al die Kwartaal 3-sleutelterme kry 'n kort begrip-inskrywing (besluit 1); 'n luisteritem noem al drie dinge om na te luister (hoog en laag, wie die maat hou, wat bo-oor speel); KABV-gaping: Feite: toonkleur net waar twee klanke ewe hoog en ewe hard klink; ratels en skrapers het geen vaste plek tussen hoog en laag nie; die timbila het 'n hol dop onder elke houtlat (nie 'kalbas' nie); 'doli' (nie 'dole' nie); die liniaal staan op sy eie as voorbeeld; KABV-gaping: Spek: die fisika mag herhaal word (Drico, 8 Sep); die les voeg net die marimba en die timbila-orkes by; KABV-gaping: Taal: onder meer 'stokkies' vir 'kloppers', die kokonratels eers voluit benoem, en die komma by 'xilofone, wat hulle timbila noem'
+- **Les 01 - Vier vrae oor elke instrument** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
+- **Les 02 - Geslaan, geskud of geskraap** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: al 16 Kwartaal 2-sleutelterme kry 'n kort begrip-inskrywing (besluit 1); KABV-gaping: KABV-gaping (besluit 10): KABV se vier sorteervrae is vier gelyke maniere; geslaan, geskud en geskraap is groepe binne een familie, soos in les 1; KABV-gaping: Feite: die hosho kom van die Shona (nie die Ndebele as herkoms nie); die sin oor wie die ngoma speel is uitgesny; klankprente word met die stem, die liggaam en instrumente gebou, ook selfgemaakte (KABV bl. 41); KABV-gaping: Dekking: 'n luisteropdrag gebruik geslaan, geskud en geskraap; 'maat' beteken nou net 'n maat in die musiek ('die gereelde tel' vir die slag); KABV-gaping: Taal: 'In Suid-Afrika' vir 'Hier by ons'; 'dansers' meervoud; glossarium vir riwwe, niebeweging en tydmaatteken
+- **Les 03 - Hoog en laag in dieselfde familie** (goedgekeur 2026-10-29): taalstap: niks verander nie; KABV-gaping: KABV-gaping: al die Kwartaal 3-sleutelterme kry 'n kort begrip-inskrywing (besluit 1); 'n luisteritem noem al drie dinge om na te luister (hoog en laag, wie die maat hou, wat bo-oor speel); KABV-gaping: Feite: toonkleur net waar twee klanke ewe hoog en ewe hard klink; ratels en skrapers het geen vaste plek tussen hoog en laag nie; die timbila het 'n hol dop onder elke houtlat (nie 'kalbas' nie); 'doli' (nie 'dole' nie); die liniaal staan op sy eie as voorbeeld; KABV-gaping: Spek: die fisika mag herhaal word (Drico, 8 Sep); die les voeg net die marimba en die timbila-orkes by; KABV-gaping: Taal: onder meer 'stokkies' vir 'kloppers', die kokonratels eers voluit benoem, en die komma by 'xilofone, wat hulle timbila noem'
 - **Les 04 - Sê wat jy gesien en gehoor het** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: KABV-gaping: al Kwartaal 4 se sleutelterme kry 'n begrip-inskrywing en word op die klas se eie drama oor die verlore hond toegepas, ook 'in kanon' en 'vlakke'; KABV-gaping: Feite: die klas se werk is nou 'n kort drama met 'n tablo as een oomblik daarin (nie die hele storie 'n tablo nie); KABV-gaping: Feite: die vergelyking van 'n kanon met 'n golf is uitgesny; KABV-gaping: Taal: stemming is die gevoel wat 'n toneel by die kyker wek; fokus sonder 'eerste'; vlakke in studieteks en woordelys eenders
 
 ## Graad 4/Lewensvaardighede/Visuele Kunste
 
 - **Les 01 - Kyk hoe 'n liggaam beweeg** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: die kwartaal se sleutelterme kry elkeen 'n kort begrip-inskrywing (besluit 1); KABV-gaping: KABV-gaping: minstens een voorbeeld word op 'n werklike liggaam waargeneem (die maat wat skielik vries), net vir lyn; KABV-gaping: KABV-gaping: jy beskryf jou eie werk en 'n ander se werk met dieselfde name; KABV-gaping: Taal: kontras se omskrywing in die studieteks stem nou woord vir woord met die gedeelde bewoording ooreen
 - **Les 02 - Dik lyne, dun lyne en patrone** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: KABV-gaping: die kwartaal se sleutelterme kry elkeen 'n kort begrip-inskrywing (besluit 1); KABV-gaping: KABV-gaping: hierdie kwartaal kyk ons na foto's en regte voorwerpe en nog nie na kunswerke nie; die teël is by die patroonvoorbeelde; KABV-gaping: KABV-gaping: jy beskryf jou eie werk en 'n ander se werk met dieselfde woorde; KABV-gaping: Feite/dekking: geen getal meer by verhouding nie ('baie groter', nie 'twee keer so hoog' nie); verhouding vergelyk een deel met die res van die prent; die kontras-opskrif noem twee dinge langs mekaar
-- **Les 03 - Van vel tot vere hoe ons na diere kyk** (goedgekeur 2026-10-22): 8 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: die kwartaal se sleutelterme kry elkeen 'n kort begrip-inskrywing (besluit 1); KABV-gaping: KABV-gaping: kunswerke kom hierdie kwartaal by foto's en regte voorwerpe as stimuli; KABV-gaping: KABV-gaping: jy beskryf jou eie werk en 'n ander se werk met dieselfde woorde
+- **Les 03 - Van vel tot vere hoe ons na diere kyk** (goedgekeur 2026-10-29): taalstap: niks verander nie; KABV-gaping: KABV-gaping: die kwartaal se sleutelterme kry elkeen 'n kort begrip-inskrywing (besluit 1); KABV-gaping: KABV-gaping: kunswerke kom hierdie kwartaal by foto's en regte voorwerpe as stimuli; KABV-gaping: KABV-gaping: jy beskryf jou eie werk en 'n ander se werk met dieselfde woorde
 - **Les 04 - Van liggroen tot donkergroen** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: KABV-gaping: waar die kunselemente in die natuur self voorkom, met een voorbeeld in 'n foto en een in 'n skildery; KABV-gaping: KABV-gaping: jy beskryf jou eie werk en 'n maat s'n met dieselfde woorde; KABV-gaping: Dekking: 'vorm' net vir iets plat of vir wat 'n foto wys, nie vir regte dinge buite nie; KABV-gaping: Feite: 'n sekondêre kleur word as oranje, groen of pers benoem, sodat geelgroen nie as sekondêr gelees word nie; KABV-gaping: Taal: geelgroen en diepgroen as een woord
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Beweging en Energie in 'n stelsel
@@ -62,6 +64,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 ## Graad 4/Natuurwetenskappe en Tegnologie/Die Maan
 
 - **Les 01 - 'n Bal van rots sonder lug** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Feite: die Maan het geen eie suurstof nie (nie 'geen lug' as absolute nie); 'byna oral' en 'die meeste' waar 'n absolute te sterk was; KABV-gaping: Feite: 'n los laag stof en klippe lê oor die rots; kraters is gate wat rotse geslaan het, nie 'niks' nie; KABV-gaping: Feite: die Maan beweeg altyd in die ruimte om die Aarde; hy is die Aarde se naaste groot buurman (satelliete en die ruimtestasie is nader); KABV-gaping: Feite: die pole word aan die draai gekoppel; die ruimtepak is nodig buite in die ruimte of op die Maan; KABV-gaping: Woordelys: oppervlak en ruimte volg die ooreengekome omskrywings; KABV-gaping: Taal: AWS-kommas en klein woordkeuses
+- **Les 03 - Wat mense oor die Maan vertel** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Die planeet Aarde
 
@@ -73,6 +76,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Energie en Energie-oordrag
 
+- **Les 01 - Alles wat jy doen, kos energie** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas
 - **Les 02 - Van die son tot op jou bord** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: Feite: elke skakel gee net 'n DEEL van die energie aan, VERAL omdat elke plant of dier self daarvan gebruik om te lewe (beweeg, warm bly; dit gaan as hitte weg), nie 'om te groei' nie; KABV-gaping: Feite: 'n plant het LIG nodig om kos te maak, en buite kom daardie lig van die son; 'n dier wat die plant eet, kry van die gebêre energie (nie elke plant word geëet nie); KABV-gaping: Taal: 'gebêre' met die kappie; 'waarin' vir die energieketting; AWS-kommas; 'na watter kant'
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Energie en klank
@@ -105,11 +109,16 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 ## Graad 4/Natuurwetenskappe en Tegnologie/Sterk raamstrukture
 
 - **Les 01 - Hoekom bouers driehoeke gebruik** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: Feitetoets: kragmaste vernou ('baie'), 'stabiel' en 'gewrig' reggestel, onsekere bewerings oor driehoeke in 'n geraamte, 'n dop en of 'n dakkap gesien word geskrap; KABV-gaping: Egte rame is nou 'dun dele' (nie elke deel is 'n stut nie); die geraamtesin beskryf 'n dier met 'n ruggraat
+- **Les 02 - Takke wat 'n huis regop hou** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Strukture van plante en diere
 
 - **Les 01 - Die dele van 'n plant** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: Feitetoets: onsekere bewering oor varings se stingels geskrap
 - **Les 02 - Hoe 'n dier se liggaam gebou is** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV-gaping: KABV se assesseringsriglyn: die hond se ses buitedele (kop, oë, ore, bek, pote, stert) en wat elkeen doen; KABV-gaping: Feitetoets: vyf oorbreë bewerings vernou (geraamte, werwels, gaatjie, insek se harde laag, 'net een ding in gemeen')
+
+## Graad 4/Natuurwetenskappe en Tegnologie/Strukture vir diere skuilings
+
+- **Les 01 - Neste, skulpe en hondehokke** (goedgekeur 2026-10-29): taalstap: niks verander nie
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Vaste stowwe
 
@@ -142,8 +151,19 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 ## Graad 4/Sosiale Wetenskappe/Kommunikasie oor tyd heen
 
+- **Les 01 - Boodskappe sonder skrif** (goedgekeur 2026-10-29): 4 taalverandering(s) toegepas
 - **Les 10 - Van 'n kamer vol masjien tot kabels onder die see** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; KABV-gaping: Feite: gewone mense kon op die internet kom toe dit vir almal oopgemaak is en makliker geword het om te gebruik (nie omdat rekenaars klein genoeg vir die huis geword het nie); kabels op die seebodem dra inligting as lig en is nie 'dik' nie; 'kabel' is 'n bondel drade of dun glasdrade met 'n sterk laag om hulle; KABV-gaping: Feite: met 'n foon of rekenaar op die internet kan jy enige tyd self soek (nie 'waar jy ook al is'; mense kon nog altyd self in boeke soek); selfs 'n klein besigheid kan nou makliker en goedkoper in ander lande koop en verkoop (handel is eeue oud); KABV-gaping: KABV-dekking: kuns (en musiek) as 'n gebruik van rekenaars; KABV-gaping: Taal: AWS-kommas; 'bewaar'; 'beantwoord'; 'boeke na te slaan'
+- **Les 11 - Alles in een hand** (goedgekeur 2026-10-29): 3 taalverandering(s) toegepas
+- **Les 02 - Merke wat bly staan** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
+- **Les 03 - Toe die nuus met die pos gekom het** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
+- **Les 04 - Stemme sonder drade** (goedgekeur 2026-10-29): 3 taalverandering(s) toegepas
 - **Les 05 - Letters wat slaan** (goedgekeur 2026-10-23): 5 taalverandering(s) toegepas; KABV-gaping: Feite: die letters op die toetsbord staan nog AMPER in dieselfde volgorde (nie 'het gebly' nie: daar was klein veranderinge ná die 1870's); KABV-gaping: Taal: 'daarvandaan kom die naam QWERTY'; 'Ons gebruik die QWERTY-uitleg vandag nog'; koolpapier: 'n dun vel met 'n laag ink aan die een kant
+- **Les 06 - Kolletjies en strepies** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
+- **Les 08 - Die oomblik wat bly** (goedgekeur 2026-10-29): 8 taalverandering(s) toegepas
+
+## Graad 4/Sosiale Wetenskappe/Leer van leiers
+
+- **Les 01 - 'n Inleiding tot leiers** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas
 
 ## Graad 4/Sosiale Wetenskappe/Plekke waar mense woon
 
@@ -155,12 +175,22 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 06 - Wat elke mens nodig het** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Taal: AWS-kommas; 'gesondheidsorg' (die video se woord, nie 'mediese hulp' nie); 'nie almal kom ewe maklik daaraan nie'
 - **Les 07 - Dieselfde behoeftes, verskillende maniere** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: KABV-gaping: die twee stories verskil nou werklik - water (Thabo: net 'n jaartkraan, en op droë dae stap die gesin ver na 'n gemeenskapskraan; Aisha: 'n kraan in die kombuis en 'n watervragmotor as dit droogloop), gesondheidsorg (Thabo se naaste hospitaal is ver in 'n groter dorp; Aisha se dorp het self een) en die pad; elke verskil bly by die gesin; KABV-gaping: Feite: geen dakverskil nie (sinkdak teenoor teeldak het 'n vals dorp-platteland-kontras gemaak; sink is Suid-Afrika se algemeenste dak, ook in dorpe) - albei gesinne het 'n baksteenhuis wat hulle droog en veilig hou; KABV-gaping: Taal: AWS-kommas
 
+## Graad 4/Sosiale Wetenskappe/Vervoer in die lug
+
+- **Les 01 - Ligter as die lug** (goedgekeur 2026-10-29): taalstap: niks verander nie
+- **Les 03 - Wat vandag deur die lug reis** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas
+
 ## Graad 4/Sosiale Wetenskappe/Vervoer op land
 
 - **Les 01 - Diere dra en trek die vrag** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; KABV-gaping: Feite: geen vergelyking meer met 'n dier se looppas nie ('om vinniger te reis'); 'n dier kon 'n swaarder vrag dra as wat 'n mens self kon dra; KABV-gaping: Taal: AWS-kommas; 'n voorraad energie'; 'soos 'n mens met sy hand'
 - **Les 02 - Van die wa tot die fiets** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; KABV-gaping: Taal: 'n koets is 'n voertuig wat DEUR perde of muile getrek word (die koets trek nie die diere nie); so ook die karretjie, die wa en die fiets in die woordelys; AWS-kommas; 'Die voertuig was nuut, maar die dier voor hom was dieselfde'
+- **Les 03 - Stoom trek die trein** (goedgekeur 2026-10-29): 9 taalverandering(s) toegepas
 - **Les 04 - Die motor 'n wa sonder perde** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; KABV-gaping: Taal: 'n motor is 'n padvoertuig WAT 'n paar mense vervoer, met sy eie enjin (die enjin vervoer nie die mense nie), in die studieteks en die woordelys; 'hoefysters'; AWS-kommas
 - **Les 05 - Hoe ons vandag reis en vragte vervoer** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Taal: AWS-kommas; 'Nie elke nuwe soort vervoer het die ou soorte vervang nie'; 'soos in die tyd voordat hulle diere vir vervoer gebruik het' (nie meer 'voor die dae van diere', wat as 'voor daar diere was' gelees kon word nie)
+
+## Graad 4/Sosiale Wetenskappe/Vervoer op water
+
+- **Les 01 - Van spaan tot seil** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas
 
 ## Graad 4/Sosiale Wetenskappe/Voedsel en boerdery in Suid-Afrika
 
@@ -176,6 +206,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 01 - Van jou beker tot 'n hele plaas** (goedgekeur 2026-10-23): 4 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: een konkrete gebruik van water in myne - baie myne spuit water op hulle paaie en waar rots gebreek word, sodat die stof gaan lê; KABV-gaping: Taal: AWS-kommas; 'In swembaddens, in parke en op sportvelde'
 - **Les 02 - Al daardie water, en so min om te drink** (goedgekeur 2026-10-23): 2 taalverandering(s) toegepas; KABV-gaping: Feite: varswater het 'n bietjie sout daarin maar GEWOONLIK te min om dit te proe (water tel tot sowat 1 000 mg sout per liter as vars, en mense proe sout van sowat 200-300 mg); KABV-gaping: Taal: AWS-kommas; 'Daar is twee soorte water'; soutwater: 'Water wat baie sout bevat'
 - **Les 03 - Die pad van een druppel** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Feite: 'n siklus is 'n reeks stappe wat oor en oor in dieselfde volgorde gebeur (nie net 'iets wat oor en oor herhaal' nie, wat ook op reën of hik pas); KABV-gaping: Taal: 'vorm saam 'n wolk'; 'Ander water trek ...'
+- **Les 04 - Varswater wat jy sien, en varswater wat jy nie sien nie** (goedgekeur 2026-10-29): 3 taalverandering(s) toegepas
 - **Les 05 - Water hou vir die dag wanneer dit nie reën nie** (goedgekeur 2026-10-23): 2 taalverandering(s) toegepas; KABV-gaping: KABV-gaping (besluit 2): een probleem uit twee mense se oogpunt - 'n boer en 'n dorpsbewoner wat in 'n droogte uit dieselfde dam water kry; die les kies nie kant nie ('Albei het 'n goeie rede'); KABV-gaping: KABV-gaping (besluit 2): die vak se een uitgewerkte tabel en staafgrafiek - 'n opgemaakte dam wat oor vier maande van vol tot 'n kwart sak, duidelik as voorbeeld gemerk; 'staafgrafiek' in die woordelys ('n langer staaf wys meer); KABV-gaping: Feite: 'ons kan nie SEKER weet wanneer of hoeveel dit gaan reën nie' (die weerdiens voorspel 'n paar dae vooruit); die volstruiseierdop-storie korter; KABV-gaping: Taal: 'die omliggende plase'; 'stoor water vooruit en gebruik dit versigtig'
 - **Les 06 - Wanneer jy self jou water moet gaan haal** (goedgekeur 2026-10-23): 6 taalverandering(s) toegepas; KABV-gaping: Taal: AWS-kommas; 'waterbron'; 'waterhouer'; 'waar ons dit nie kan sien nie'
 - **Les 07 - Van die dam tot by die kraan** (goedgekeur 2026-10-23): 3 taalverandering(s) toegepas; KABV-gaping: Taal: 'vanself'; 'laastens'; die herhaalde 'en stoor dit' uit
@@ -196,6 +227,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 06 - Die week toe die snoepie toe was** (goedgekeur 2026-10-23): 13 taalverandering(s) toegepas; KABV-gaping: Veiligheid (feitetoets): die kos gaan saam met 'n bevrore bottel water in die koelsak, sodat dit koel bly tot die eerste pouse; KABV-gaping: Taal: 'sal' in plaas van 'sou'; ''n bord vol'; twee 'en'-kettings is nou gewone lyste; 'vir die eerste keer'; AWS-kommas
 - **Les 07 - Twee siektes wat deur die lug loop** (goedgekeur 2026-10-22): 3 taalverandering(s) toegepas; KABV-gaping: Verwysings na les 8 (diarree en malaria) in die kern bygevoeg vir KABV se lys siektes
 - **Les 08 - Vuil water en 'n muskietbyt** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: Veiligheid (feitetoets): 'n grootmens smeer die muskietafweermiddel aan, weg van die kind se hande, oë en mond; drinkwater word uitgeskink, nooit met 'n hand of beker uitgeskep nie; KABV-gaping: Feitetoets: die vals geloof is MINDER drink; die raad is MEER as gewoonlik drink
+- **Les 09 - Die hoes wat nie wou weggaan nie** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
 
 ## Graad 5/Lewensvaardighede/Ontwikkeling van self
 
@@ -225,6 +257,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 ## Graad 5/Lewensvaardighede/Uitvoerende Kunste
 
 - **Les 01 - Instrumente op sig en op gehoor** (goedgekeur 2026-10-23): 2 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: hoorbare kenmerke van elke instrumentfamilie; die timbila is slag- EN melodiese instrumente; sleutelterme as begrip-inskrywings; KABV-gaping: Feite: die blokfluit het 'geen riet of blaasgat nie'; 'Hierdie kwartaal voer julle ritmes en musiekfrases uit' (die ou verlede tyd het beweer die optrede het al plaasgevind, maar KABV laat die onderwerpe in enige volgorde toe); 'watter klank die stemming skep'; KABV-gaping: Ingekort vir die hek se perk op lang woorde: 'houtblaas', 'koperblaas', 'ritmes', 'verdeel', 'meestal'; KABV-gaping: Taal: 'stilbly'; 'die vel of die latte'; AWS-kommas
+- **Les 02 - Kwaito en klassieke musiek** (goedgekeur 2026-10-29): 5 taalverandering(s) toegepas
 - **Les 03 - Gumboot-dans en ballet** (goedgekeur 2026-10-23): 3 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: begrippe notebalk, G-sleutel, C-majeur toonaard, rolspel, warm sitplek, roep-en-antwoord, eggo, lei-en-volg en spieëlbeeld bygevoeg; KABV-gaping: Feite (feitetoetse): 'C-majeur toonaard' is nou die majeur-toonaard op C, met die wit note op 'n klavier (die ou bewoording het C-mineur ook beskryf); die onbevestigde hoë skoppe in gumboot-dans en die bewering dat die span die musikante se maat volg, is uit; balletdansers 'hou hulle rug regop en strek hulle liggaam na bo' (balletbene word nie altyd gelig nie); KABV-gaping: Duideliker: 'doel' is 'Die rede waarom mense dans, soos om te vermaak of saam iets te vier'; KABV-gaping: Taal: 'ontwikkel' in plaas van 'gegroei'; 'In die meeste ballette'; 'Gumboot-dansers' en 'Balletdansers'; 'gumboots' tussen aanhalingstekens; 'sou doen'; AWS-kommas
 - **Les 04 - Kyk 'n drama met oop oë** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: sleutelterme as begrip-inskrywings, onder meer C-majeur toonaard, intervalle, sopraan, alt, tenoor en bas; KABV-gaping: Feite: 'C-majeur toonaard' is nou 'die majeur-toonaard wat op die noot C gebou is; op 'n klavier speel jy sy toonleer net op die wit note' (die ou bewoording het C-mineur ook beskryf); hoofmomente is 'die belangrike oomblikke in 'n drama, soos wanneer die storie draai' (die ou omskrywing was te eng); KABV-gaping: Duideliker: 'Lag gerus vir die drama se grappe, maar nie vir 'n kultuur nie'; ''n deur wat toeklap' (’n klankeffek is 'n klank); 'leefwyse'; 'tweedehoogste/tweedelaagste'; KABV-gaping: Taal: 'wanneer Sipho die fiets stukkend maak'; 'voordat hy'; 'geld vir'; AWS-kommas
 
@@ -357,6 +390,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 - **Les 01 - Lofdig en kinderteater** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping (besluit 1): al 13 sleutelterme kry 'n kort omskrywing; KABV-gaping: Taal: die geëerde leier, familie of mens word duidelik genoem
 - **Les 02 - Pantsula en Indiese dans** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: sleutelterme; kwaito is ook 'n dans (besluit 18); KABV-gaping: Feite: die bewering oor volksdanse by troues is uit; pantsula-dansers beweeg 'dikwels' presies saam; Bharatanatyam se hande maak 'dikwels' gebare wat iets beteken; KABV-gaping: Gedeelde bewoording: kwaito op 'n herhaalde elektroniese 'ritme' (soos Graad 5)
+- **Les 03 - Isicathamiya en maskandi** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
 - **Les 04 - Patrone in 'n seremonie** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-gaping: KABV-gaping: een benoemde Suid-Afrikaanse ritueel (mehndi by sommige Indiese gesinne), net die openbare deel (besluit 17); die klas se proses; sleutelterme; KABV-gaping: Nuwe gedeelde bewoordings: 'ruimte' in dans, 'seremonie'
 
 ## Graad 6/Lewensvaardighede/Visuele Kunste
@@ -466,6 +500,8 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 02 - Die hoogste wet en die howe wat daaroor wag hou** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: 'wet' se gedeelde omskrywing: 'reëls' in plaas van 'regte'
 - **Les 03 - Waar wette gemaak word, en vir wie hulle geld** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feitetoets: die hou-links-reël is 'n regulasie onder 'n wet, nie 'n wet nie; 'n party OF 'n onafhanklike kandidaat was 'n vals keuse
 - **Les 04 - Sommige regte vra ook werk van jou** (goedgekeur 2026-10-28): 8 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: 'n slotblok oor goeie burgerskap by die naam, met 'n begrip-inskrywing
+- **Les 05 - Twee mense wat die demokrasie help bou het** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
+- **Les 06 - Wat kinders gevra het en wat elke kind toekom** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas; KABV-gaping: Misbruik-omskrywing: die grootmens wat weet en toelaat, is nie self die misbruik nie
 - **Les 07 - 'n Wapen, 'n vlag en 'n lied** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas; KABV-gaping: Feitetoets: die Engelse slotstrofe van die volkslied is nie 'nuut geskryf' nie (aangepas uit Die Stem se amptelike Engelse weergawe); die les sê nou net dat dit nie 'n vertaling van die Afrikaanse strofe is nie
 - **Les 08 - Hoe jy iemand se lewensverhaal uitvind** (goedgekeur 2026-10-28): taalstap: niks verander nie; KABV-gaping: Feitetoets: 'n boek of artikel kan self 'n primêre bron wees; die gedeelde omskrywing van 'sekondêre bron' se voorbeelde is nou 'n geskiedenisboek of 'n dokumentêr
 

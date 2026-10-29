@@ -1,0 +1,83 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Vragskepe van vandag",
+      "voor": "Olietenkers dra weer olie",
+      "na": "Olietenkers dra olie",
+      "soort": "woordkeuse",
+      "rede_vinder": "A Grade 4 reader easily takes contrastive 'weer' as 'again', suggesting the tankers carry oil a second time; the sentence reads clearly without it.",
+      "fout": "Contrastive 'weer' straight after the verb reads to a Grade 4 learner as 'again', so the sentence can be taken to say the tankers carry oil a second time.",
+      "rede_keurder": "Removing 'weer' takes away the ambiguity and costs no fact; the contrast with the container ships still comes through from the paragraph, and the protected word 'olietenkers' is left as it is."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "houerskip",
+      "teks": "'n Vragskip wat baie groot houers vol goedere oor die see dra.",
+      "rede": "'baie groot houers' reads most naturally as 'very big containers', while the study text says 'duisende groot houers' (many big containers); which meaning is intended cannot be settled without guessing, so it is flagged, not changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 450,
+  "woorde_na": 449,
+  "wanneer": "2026-10-29T13:28:22+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Wat is 'n stoomskip?",
+      "voor": "Toe begin mense om",
+      "na": "Toe het mense begin om",
+      "soort": "grammatika",
+      "rede_vinder": "The surrounding sentences are in the past tense; the past form keeps the narrative consistent for a Grade 4 reader.",
+      "fout": "none",
+      "rede_keurder": "Present tense after 'toe' is normal Afrikaans narration, so this is a lateral tense change rather than a grammar fix."
+    },
+    {
+      "nr": 3,
+      "blok": "Robert Fulton se boot",
+      "voor": "het hout gebrand",
+      "na": "het hout gestook",
+      "soort": "idioom",
+      "rede_vinder": "For fuel burned in a boiler or stove, 'hout stook' is the idiomatic Afrikaans verb.",
+      "fout": "none",
+      "rede_keurder": "'Hout brand' is ordinary, correct Afrikaans for using wood as fuel, and 'stook' is a less familiar word for a Grade 4 reader with no gain in meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat verander het en wat dieselfde gebly het",
+      "voor": "stadig maar seker vervang en nie oornag nie",
+      "na": "stadig maar seker vervang, nie oornag nie",
+      "soort": "sinsbou",
+      "rede_vinder": "The contrast reads more naturally as an appended phrase than joined with 'en'; meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "'X en nie Y nie' is a natural Afrikaans construction, so the comma version is only a lateral move."
+    },
+    {
+      "nr": 3,
+      "blok": "Vragskepe van vandag",
+      "voor": "vat die houers dan verder die land in",
+      "na": "neem die houers dan verder die land in",
+      "soort": "register",
+      "rede_vinder": "'neem' is the more suitable written register than colloquial 'vat' in study text.",
+      "fout": "none",
+      "rede_keurder": "'vat' is ordinary written Afrikaans and plain for a Grade 4 reader; swapping it for 'neem' is lateral."
+    },
+    {
+      "nr": 4,
+      "blok": "Skepe wat mense dra",
+      "voor": "vat mense op lang reise",
+      "na": "neem mense op lang reise",
+      "soort": "register",
+      "rede_vinder": "'neem' is the more suitable written register than colloquial 'vat'; the protected wording before it is untouched.",
+      "fout": "none",
+      "rede_keurder": "As with change 3, 'vat mense op lang reise' already reads naturally and 'neem' is only a different word."
+    }
+  ],
+  "konsep_hash_voor": "sha256:eda726ba9abe40cbbf9bf83c6191b449",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:ae60108d6020524242b95016f6ffea34"
+}

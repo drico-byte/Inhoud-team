@@ -1,7 +1,7 @@
 {
   "les": "gr4/sosiale-wetenskappe/kommunikasie-oor-tyd-heen/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:cba4eb555a70843c180cf9efb12c4cf5",
+  "konsep_hash": "sha256:06e95699955dffa7c94a21e8ddebcfb0",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -35,11 +35,173 @@
       "woorde": 428,
       "begroting": 400,
       "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T11:44:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4a5d34f3247ea38cecd024fc3df89ecc",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-29T11:44:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 428,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T11:44:13+00:00",
+      "gebeurtenis": "taal_geforseer",
+      "konsep_hash": "sha256:4a5d34f3247ea38cecd024fc3df89ecc",
+      "rede": "--met-taal: run the language step on a draft that predates it"
+    },
+    {
+      "wanneer": "2026-10-29T11:49:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 428,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T11:59:07+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 12,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 428,
+      "woorde_na": 432,
+      "konsep_hash": "sha256:fde2993959c1ed2aed027f9cdcfcd8ff"
+    },
+    {
+      "wanneer": "2026-10-29T11:59:08+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 432,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T11:59:08+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Baie mense dink SOS staan vir 'Save Our Souls' of 'Save Our Ship'.': 'Staan vir' is an anglicism, but the natural fix ('beteken') would reproduce the NIE wording 'SOS beteken Save Our Souls', so it is left for a person; this is not a safety matter.",
+        "check (the language finder raised this; it may not be a fault): ''n Kode wat elke letter as kolletjies en strepies skryf.': 'Skryf' is odd for a code that is mostly sent as sounds or signals; a better verb may be wanted, but choosing one touches what the definition says, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-10-29T12:13:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:50339e827be3fba6b44454adac9057fd",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-29T12:13:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 432,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:35:44+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 432,
+      "woorde_na": 432
+    },
+    {
+      "wanneer": "2026-10-29T13:10:57+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5cb766612ee0579fbeab6e3cbb73c750",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-10-29T13:10:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 454,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:16:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 454,
+      "woorde_na": 454,
+      "konsep_hash": "sha256:06e95699955dffa7c94a21e8ddebcfb0"
+    },
+    {
+      "wanneer": "2026-10-29T13:16:55+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 454,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:25:41+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:25:42+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:25:42+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:25:42+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:25:43+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\kommunikasie-oor-tyd-heen\\les-6.json",
+      "konsep_hash": "sha256:06e95699955dffa7c94a21e8ddebcfb0",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:ae192c019cf5ee0b11a32ce731e0227b",
+  "spek_hash": "sha256:9393889b295c7c121a60410b36432930",
   "hek_konteks": {
     "graad": 4,
-    "begroting": 400
-  }
+    "begroting": 400,
+    "afgelewerde_lengte": true
+  },
+  "taal_vir_skrywer": [],
+  "taal_geforseer_vir": "sha256:4a5d34f3247ea38cecd024fc3df89ecc",
+  "taal_rondte_vir": "sha256:06e95699955dffa7c94a21e8ddebcfb0",
+  "taal_keurder_vir": "278ee22f21b2b68b7888846c1dcf0bc5",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:06e95699955dffa7c94a21e8ddebcfb0",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:fde2993959c1ed2aed027f9cdcfcd8ff",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "effb9d11b475e6d85dcdfd9068ca15f6"
 }

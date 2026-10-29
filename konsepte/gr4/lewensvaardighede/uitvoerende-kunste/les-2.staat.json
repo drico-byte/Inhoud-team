@@ -1,7 +1,7 @@
 {
   "les": "gr4/lewensvaardighede/uitvoerende-kunste/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:8db2bf911afa4a0789328f795ad2156d",
+  "konsep_hash": "sha256:86d2845a724fe560ce2735524fbebd71",
   "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:a5ffbcadccc2649cf12c9d1afa53ca72"
@@ -419,21 +419,79 @@
       "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\uitvoerende-kunste\\les-2.json",
       "konsep_hash": "sha256:8db2bf911afa4a0789328f795ad2156d",
       "vervang": false
+    },
+    {
+      "wanneer": "2026-10-29T13:00:56+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:531f6bdd1949d6a6dc88e0e09e6b1930",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-29T13:00:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 461,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:20:07+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 461,
+      "woorde_na": 465,
+      "konsep_hash": "sha256:86d2845a724fe560ce2735524fbebd71"
+    },
+    {
+      "wanneer": "2026-10-29T13:20:08+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 465,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:27:53+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:27:53+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 38,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T13:27:53+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\lewensvaardighede\\uitvoerende-kunste\\les-2.json",
+      "konsep_hash": "sha256:86d2845a724fe560ce2735524fbebd71",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:1354016df407728b879542fcd37ed6d8",
+  "spek_hash": "sha256:9b2eb0f09aa973a2a0a4c993591f4b03",
   "hek_konteks": {
     "graad": 4,
     "begroting": 400
   },
   "taal_vir_skrywer": [
-    "check (the language finder raised this; it may not be a fault): 'Spelers hou een hosho in elke hand en skud die twee saam.': 'skud die twee saam' can be read as knocking the two together rather than shaking both at the same time; which is meant cannot be decided without the intended content, so not changed."
+    "check (the language finder raised this; it may not be a fault): 'Een persoon of groep sing of speel 'n kort deel en 'n ander herhaal di': By the AWS rule a comma belongs before 'en' here, because ''n ander herhaal' has its own subject and verb. The protected sibling definition of roep-en-antwoord has the same structure without the comma, so adding it to this one alone would make the two parallel definitions differ; left unchanged for a person to decide both together."
   ],
-  "taal_rondte_vir": "sha256:8db2bf911afa4a0789328f795ad2156d",
-  "taal_keurder_vir": "ae97e5d2c8c38a3d31df18ed8eb57a46",
+  "taal_rondte_vir": "sha256:86d2845a724fe560ce2735524fbebd71",
+  "taal_keurder_vir": "faa50d857127a9110089baff281340d0",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:8db2bf911afa4a0789328f795ad2156d",
-  "taal_vir_mens": [],
+  "taal_klaar_vir": "sha256:86d2845a724fe560ce2735524fbebd71",
+  "taal_vir_mens": [
+    "[taal, protected word] 'roep-en-antwoord': The protected definition 'Een persoon of groep sing of speel 'n kort deel en 'n ander antwoord daarop.' joins two clauses that each have their own subject and verb, so the AWS 2017 rule calls for a comma before 'en'. The same applies to the unprotected 'roep en eggo' definition, which mirrors it."
+  ],
   "taal_bons_vir": "sha256:6ca037ec07469eeaeda70309f09ca9d2",
   "taal_bons_siklus": 2,
   "taal_bons_nota": "ab3e848e99524226a664c3d5062bc6cf"

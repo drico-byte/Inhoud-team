@@ -338,7 +338,16 @@ def besliste_omskrywings(les, vak, graad):
     """
     myne = {b["term"]: b.get("teks", "")
             for b in les.get("blokke", []) if b.get("tipe") == "begrip"}
-    if not myne or not vak or not graad:
+    # A spec may order a decided wording into the STUDY TEXT rather than a
+    # glossary entry (Gr 4 SW plaaslike-geskiedenis les 1 defines 'geskiedenis' in
+    # a study block). On 29 October 2026 the language step changed "vanuit" to "uit"
+    # inside exactly such a sentence, because this function only looked at glossary
+    # entries. So the whole lesson text is read too, and a decided wording that
+    # stands in it verbatim is protected wherever it stands.
+    alles = " ".join(" ".join([str(b.get("teks") or "")] + [x if isinstance(x, str) else ""
+                                                             for x in (b.get("items") or [])])
+                     for b in les.get("blokke", [])).lower()
+    if not vak or not graad:
         return []
     try:
         import paaie as P                                    # noqa: E402
@@ -354,7 +363,14 @@ def besliste_omskrywings(les, vak, graad):
 
     uit = []
     for term, inskrywing in (lys.get("terme") or {}).items():
-        if term not in myne or not isinstance(inskrywing, dict):
+        if not isinstance(inskrywing, dict):
+            continue
+        if term not in myne:
+            for kandidaat, sin in besliste_bewoordings(inskrywing):
+                if sin and len(sin) > 20 and sin.strip().lower() in alles:
+                    rede = (inskrywing.get("rede") or inskrywing.get("nota") or "").strip()
+                    uit.append((term, sin.strip(), rede, (inskrywing.get("let_op") or "").strip(), kandidaat))
+                    break
             continue
         # Only where the lesson really carries one of this term's settled
         # wordings. Where it does not, the mismatch is a coverage problem and not

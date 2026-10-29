@@ -1,0 +1,132 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat die woord beteken",
+      "voor": "woord maar dit",
+      "na": "woord, maar dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'maar' joining two clauses that each have a subject and verb.",
+      "fout": "Missing AWS comma before 'maar' joining two clauses with their own subject and verb.",
+      "rede_keurder": "Both halves are full clauses, so AWS 2017 requires the comma; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat die woord beteken",
+      "voor": "is eintlik twee ou woorde",
+      "na": "bestaan eintlik uit twee ou woorde",
+      "soort": "woordkeuse",
+      "rede_vinder": "A word is not two words; it consists of two, which is the intended meaning.",
+      "fout": "'is eintlik twee ou woorde' is loose: the word is made of two parts, it is not two words.",
+      "rede_keurder": "'bestaan eintlik uit' says precisely what is meant, keeps the one-versus-two contrast and adds nothing."
+    },
+    {
+      "nr": 3,
+      "blok": "Wat die woord beteken",
+      "voor": "is tele en daardie",
+      "na": "is tele, en daardie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Die eerste deel is tele' and 'daardie deel beteken ver' each have subject and verb."
+    },
+    {
+      "nr": 4,
+      "blok": "Wat die woord beteken",
+      "voor": "is visie en daardie",
+      "na": "is visie, en daardie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "Same structure as the previous sentence; the comma is required and matches it."
+    },
+    {
+      "nr": 5,
+      "blok": "Wat die woord beteken",
+      "voor": "sitkamer sit en jy",
+      "na": "sitkamer sit, en jy",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Jy bly ... sit' and 'jy sien iets' are separate clauses with their own subject and verb."
+    },
+    {
+      "nr": 6,
+      "blok": "Die eerste televisies",
+      "voor": "groot swaar bokse",
+      "na": "groot, swaar bokse",
+      "soort": "leestekens",
+      "rede_vinder": "Two coordinate adjectives before a noun are separated by a comma.",
+      "fout": "Coordinate adjectives 'groot swaar' not separated.",
+      "rede_keurder": "'groot' and 'swaar' are of equal rank before the noun, so a comma belongs between them; meaning unchanged."
+    },
+    {
+      "nr": 7,
+      "blok": "Die eerste televisies",
+      "voor": "gesien het was swart-en-wit",
+      "na": "gesien het, was swart-en-wit",
+      "soort": "leestekens",
+      "rede_vinder": "A comma separates the relative clause's final verb from the main verb that follows.",
+      "fout": "No comma after the long relative-clause subject, so 'gesien het was' runs two verbs together.",
+      "rede_keurder": "The comma marks where the subject clause ends and makes the sentence easier to read at first sight."
+    },
+    {
+      "nr": 8,
+      "blok": "Sien terwyl dit gebeur",
+      "voor": "met 'n leer afklim",
+      "na": "teen 'n leer afklim",
+      "soort": "idioom",
+      "rede_vinder": "In Afrikaans one climbs down 'teen' a ladder; 'met 'n leer' suggests carrying one.",
+      "fout": "'met 'n leer afklim' is not the Afrikaans expression and can read as climbing down while carrying a ladder.",
+      "rede_keurder": "'teen 'n leer afklim' is the fixed expression for the same action; the protected 'in lande met televisie' stays intact."
+    },
+    {
+      "nr": 9,
+      "blok": "Balans",
+      "voor": "manier van kommunikeer",
+      "na": "manier om te kommunikeer",
+      "soort": "sinsbou",
+      "rede_vinder": "'Manier om te' plus infinitive is the natural Afrikaans construction.",
+      "fout": "'manier van kommunikeer' is a stiff construction copied from English 'way of communicating'.",
+      "rede_keurder": "'manier om te kommunikeer' is the natural Afrikaans form with the same meaning."
+    },
+    {
+      "nr": 10,
+      "blok": "Balans",
+      "voor": "nuus vinnig en dit",
+      "na": "nuus vinnig, en dit",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma before 'en' joining two full clauses.",
+      "fout": "Missing AWS comma before 'en' joining two full clauses.",
+      "rede_keurder": "'Televisie bring nuus vinnig' and 'dit bring opvoedkundige programme' each have subject and verb."
+    },
+    {
+      "nr": 11,
+      "blok": "Balans",
+      "voor": "albei kante pas is balans",
+      "na": "albei kante pas, is balans",
+      "soort": "leestekens",
+      "rede_vinder": "A comma separates the relative clause's final verb from the main verb that follows.",
+      "fout": "No comma after the relative-clause subject, so 'pas is' runs two verbs together.",
+      "rede_keurder": "The comma separates the subject clause from the main verb and helps a first reading; meaning unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Sien terwyl dit gebeur",
+      "teks": "Hulle kon later 'n foto daarvan sien maar nie terwyl dit gebeur nie.",
+      "rede": "'daarvan' points back to 'nuus', but a photo is of the event, not of the news; fixing it means choosing the referent, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 467,
+  "woorde_na": 469,
+  "wanneer": "2026-10-29T13:26:40+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:84c148b4dc80cdb9f0b5b88ce5ec6898",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b9a3337dc2715816f8f52a391a7d1526"
+}

@@ -1,0 +1,48 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Toe onthou nie meer genoeg was nie",
+      "voor": "hoeveel graan in die skuur is",
+      "na": "hoeveel graan daar in die skuur is",
+      "soort": "sinsbou",
+      "rede_vinder": "Afrikaans normally uses existential 'daar' in a clause stating how much of something is somewhere; without it the clause reads stiff.",
+      "fout": "The indirect clause stating a quantity in a place lacks the existential 'daar', which reads stiff in Afrikaans.",
+      "rede_keurder": "Adding 'daar' is what a fluent writer would naturally write here and changes nothing in the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Hierogliewe in klip",
+      "voor": "voor en ander 'n klank",
+      "na": "voor, en ander stel 'n klank voor",
+      "soort": "sinsbou",
+      "rede_vinder": "The elided verb makes the second half hard for a Grade 4 reader to parse; repeating it gives two full clauses, which then take the AWS comma before 'en'.",
+      "fout": "none",
+      "rede_keurder": "The ellipsis 'en ander 'n klank' is natural Afrikaans that a Grade 4 reader follows easily, and repeating 'stel ... voor' only makes the sentence longer and heavier."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 252,
+  "woorde_na": 253,
+  "wanneer": "2026-10-29T12:15:55+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Wigskrif in nat klei",
+      "voor": "handel bestuur",
+      "na": "rekord hou van handel",
+      "soort": "anglisisme",
+      "rede_vinder": "'Handel bestuur' reads like English 'manage trade'; keeping a record of trade is the natural Afrikaans for what clay records did.",
+      "fout": "none",
+      "rede_keurder": "'Handel bestuur' is acceptable Afrikaans, and 'rekord hou van handel' narrows managing trade to record-keeping, moving the meaning and repeating the paragraph's opening idea."
+    }
+  ],
+  "konsep_hash_voor": "sha256:ac69f59d9b434d13360792112523d31b",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:055bfbb5471663177672ae97bc43e696"
+}

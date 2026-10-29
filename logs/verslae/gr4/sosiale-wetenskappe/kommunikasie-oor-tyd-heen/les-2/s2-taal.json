@@ -1,0 +1,49 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wigskrif in nat klei",
+      "voor": "hard geword en die merke",
+      "na": "hard geword, en die merke",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two clauses that each have their own subject and verb.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb ('Die nat kleitablet het hard geword' / 'die merke het bly staan').",
+      "rede_keurder": "Both halves are full clauses, so the AWS 2017 requires the comma; meaning is unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Wigskrif in nat klei",
+      "voor": "handel bestuur",
+      "na": "rekord hou van handel",
+      "soort": "anglisisme",
+      "rede_vinder": "'Handel bestuur' reads like English 'manage trade'; keeping a record of trade is the natural Afrikaans for what clay records did.",
+      "fout": "none",
+      "rede_keurder": "'Handel bestuur' is acceptable Afrikaans, and 'rekord hou van handel' narrows managing trade to record-keeping, moving the meaning and repeating the paragraph's opening idea."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "kleitablet",
+      "voor": "voordat dit hard word",
+      "na": "voordat dit hard geword het",
+      "soort": "grammatika",
+      "rede_vinder": "Tense agreement: the main clause is past ('geskryf het'), so the subordinate clause should be past too.",
+      "fout": "The definition mixes a past main clause ('geskryf het') with a present subordinate clause ('voordat dit hard word'), which a careful reader may notice.",
+      "rede_keurder": "This is a shared glossary definition and the tense mix is not a plain grammar error, so any change belongs to the writer for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 252,
+  "woorde_na": 252,
+  "wanneer": "2026-10-29T12:05:22+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:d53417e3505331a526af81617857212f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:819b30c4269dc36e1e2bdef0327a3e89"
+}

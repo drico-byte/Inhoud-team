@@ -1,8 +1,8 @@
 {
   "les": "gr4/sosiale-wetenskappe/kommunikasie-oor-tyd-heen/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:d53417e3505331a526af81617857212f",
-  "hek": "FAIL",
+  "konsep_hash": "sha256:055bfbb5471663177672ae97bc43e696",
+  "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:d53417e3505331a526af81617857212f"
   ],
@@ -63,12 +63,127 @@
       "punte": [
         "Study text 252 words, and the budget 250 is a HARD CEILING for this subject and grade — Drico, 29 September 2026. There is no tolerance above it. Cut 2 words. Never drop a requirement to get there: tighten sentences, cut an example, cut anything the video already carries. If it genuinely cannot be done without losing a requirement, say so and stop rather than trimming the requirement away."
       ]
+    },
+    {
+      "wanneer": "2026-10-29T11:48:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 252,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:05:22+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 252,
+      "woorde_na": 252,
+      "konsep_hash": "sha256:819b30c4269dc36e1e2bdef0327a3e89"
+    },
+    {
+      "wanneer": "2026-10-29T12:05:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 252,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:05:23+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'voordat dit hard word': The definition mixes a past main clause ('geskryf het') with a present subordinate clause ('voordat dit hard word'), which a careful reader may notice."
+      ]
+    },
+    {
+      "wanneer": "2026-10-29T12:11:31+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ac69f59d9b434d13360792112523d31b",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-10-29T12:11:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 252,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:15:55+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 252,
+      "woorde_na": 253,
+      "konsep_hash": "sha256:055bfbb5471663177672ae97bc43e696"
+    },
+    {
+      "wanneer": "2026-10-29T12:15:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 253,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:19:25+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:19:25+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 25,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:19:42+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:19:43+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 25,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-10-29T12:19:43+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\kommunikasie-oor-tyd-heen\\les-2.json",
+      "konsep_hash": "sha256:055bfbb5471663177672ae97bc43e696",
+      "vervang": false
     }
   ],
   "spek_hash": "sha256:da03897e54840327ca10afc2c0a491cb",
   "hek_konteks": {
     "graad": 4,
-    "begroting": 250
+    "begroting": 250,
+    "afgelewerde_lengte": true
   },
-  "taal_vir_skrywer": []
+  "taal_vir_skrywer": [],
+  "taal_rondte_vir": "sha256:055bfbb5471663177672ae97bc43e696",
+  "taal_keurder_vir": "403513ea78f24200cd56d76a95096aa1",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:055bfbb5471663177672ae97bc43e696",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:819b30c4269dc36e1e2bdef0327a3e89",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "cad413e5925cb2d6e6b27604a84ba3bb"
 }

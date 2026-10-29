@@ -1,0 +1,54 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Twee broers en hul winkel",
+      "voor": "Hulle het daar fietse herstel, verhuur en verkoop, en later self fietse gebou.",
+      "na": "Hulle het daar fietse herstel, verhuur en verkoop. Later het hulle self fietse gebou.",
+      "soort": "leestekens",
+      "rede_vinder": "The comma before 'en' joins two parts of one sentence with a shared subject, which the AWS rule forbids; splitting the sentence keeps the list clear without it.",
+      "fout": "A comma before 'en' joins two parts of one sentence with a shared subject, against the AWS rule the house follows; simply removing it would run the next verb into the list.",
+      "rede_keurder": "Splitting into two sentences removes the comma without merging 'later self fietse gebou' into the list, and keeps the same actions in the same order with 'later' intact."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n enjin verander het",
+      "voor": "Hy moet dus eers hoog kom voordat hy kan gly.",
+      "na": "Hy moet dus eers hoogte kry voordat hy kan gly.",
+      "soort": "idioom",
+      "rede_vinder": "'Hoogte kry' is the natural Afrikaans expression and links directly to 'daardie hoogte' later in the block.",
+      "fout": "'eers hoog kom' is a loose, slightly flat phrasing for gaining altitude.",
+      "rede_keurder": "'Hoogte kry' is the natural fixed expression, says the same thing, and links cleanly to 'daardie hoogte' later in the block without touching the protected neighbouring sentence."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "sweeftuig",
+      "voor": "'n Vliegtuig sonder 'n enjin wat deur die lug om hom afgly.",
+      "na": "'n Vliegtuig wat sonder 'n enjin deur die lug om hom afgly.",
+      "soort": "verwysing",
+      "rede_vinder": "With 'wat' straight after 'enjin' the clause can be read as describing the engine; moving it after 'Vliegtuig' fixes the reference and leaves the protected phrase intact.",
+      "fout": "The relative clause 'wat deur die lug om hom afgly' follows 'enjin' and can briefly be read as describing the engine.",
+      "rede_keurder": "This rewords a glossary definition beyond a spelling or grammar fix, and such definitions change only through the writer for every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Hul eerste poging was 'n sweeftuig",
+      "teks": "'n Sweeftuig het niks wat dit vorentoe stoot nie. Dit gly stadig al laer deur die lug om hom.",
+      "rede": "The glider is 'dit' in this block but 'hy' in 'Wat 'n enjin verander het', and the protected phrase 'om hom' sits beside 'Dit'; the pronoun is mixed, but the protected wording prevents a language-only fix here."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 449,
+  "woorde_na": 450,
+  "wanneer": "2026-10-29T12:08:06+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:56ae63d460bb55595004d0a23a63de1f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:f79eedf72f9823b84f76e16456620310"
+}
