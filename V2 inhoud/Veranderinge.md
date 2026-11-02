@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-328 lesse.
+334 lesse.
 
 
 ## Graad 4/Lewensvaardighede/Gesondheids- en omgewingsverantwoordelikheid
@@ -160,16 +160,22 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 04 - Stemme sonder drade** (goedgekeur 2026-10-29): 3 taalverandering(s) toegepas; KABV-gaping: Tesla word as uitvinder voorgestel; die Nobel-inskrywing is nie meer dubbelsinnig nie
 - **Les 05 - Letters wat slaan** (goedgekeur 2026-10-23): 5 taalverandering(s) toegepas; KABV-gaping: Feite: die letters op die toetsbord staan nog AMPER in dieselfde volgorde (nie 'het gebly' nie: daar was klein veranderinge ná die 1870's); KABV-gaping: Taal: 'daarvandaan kom die naam QWERTY'; 'Ons gebruik die QWERTY-uitleg vandag nog'; koolpapier: 'n dun vel met 'n laag ink aan die een kant
 - **Les 06 - Kolletjies en strepies** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas; KABV-gaping: Feitetoets: die operateur lees letters uit die patroon van kort en lang seine (nie een klik per letter nie); die eerste boodskap het binne minute aangekom; SOS se patroon is maklik (geen motief nie); 'een van' morsekode se bekendste boodskappe; KABV-gaping: Gedeelde 'operateur' verbreed
+- **Les 07 - Jou stem oor 'n draad** (goedgekeur 2026-11-02): 2 taalverandering(s) toegepas; KABV-gaping: Feitetoets: die telefoon stuur die stem as seine (die draad dra nie die stem self nie); die eerste pare het DIKWELS in 'n huis en werk gestaan, of in 'n kantoor en 'n fabriek; die draaiskyf word beskryf in plaas van 'draaiknop'; KABV-gaping: Gedeelde 'operateur' verbreed
 - **Les 08 - Die oomblik wat bly** (goedgekeur 2026-10-29): 8 taalverandering(s) toegepas; KABV-gaping: Gedeelde 'geskiedenis' verbreed (verandering oor tyd en bronne)
 
 ## Graad 4/Sosiale Wetenskappe/Leer van leiers
 
 - **Les 01 - 'n Inleiding tot leiers** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: 'toegewyd aan ander' in KABV se wye vorm verduidelik; '- 2 uur' uit die KABV-lyn
 - **Les 02 - Mahatma Gandhi** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: Gandhi se eie woorde as 'n bron wat een mens se kant wys
+- **Les 03 - Martin Luther King Jr** (goedgekeur 2026-11-02): 4 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: King se bekendste toespraak as 'n bron wat net sy eie kant vertel
 
 ## Graad 4/Sosiale Wetenskappe/Plaaslike geskiedenis
 
+- **Les 01 - Die speurder van die verlede** (goedgekeur 2026-11-02): taalstap: niks verander nie; KABV-gaping: KABV-oudit: 'bewys' omskryf (gedeelde bewoording) en twee geskiedkundiges wat dieselfde leidrade anders lees (die ou pot); KABV-gaping: Gedeelde 'geskiedenis' verbreed
 - **Les 02 - Vier belangrike soorte bronne** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: wie 'n bron gemaak het en hoekom; 'n bron wys dikwels net een kant; webwerwe as geskrewe bronne, met dieselfde toets
+- **Les 03 - Leidrade wat saam 'n storie vertel** (goedgekeur 2026-11-02): 4 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: 'n moontlike antwoord voorstel en dit teen die leidrade toets; inligting kies wat by die vraag pas; KABV-gaping: 'n Gevolgtrekking staan nie vas nie (nie 'nie 'n bewys nie')
+- **Les 04 - Tydlyne en die woorde van geskiedenis** (goedgekeur 2026-11-02): 1 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: een sin oor konteks; KABV-gaping: Gedeelde 'geskiedenis' verbreed
+- **Les 05 - Wat die verlede ons leer** (goedgekeur 2026-11-02): 1 taalverandering(s) toegepas; KABV-gaping: KABV-oudit: openbare herdenking - 'n seremonie (Jeugdag in Soweto), 'n feesviering (Erfenisdag), 'n museum (die Groot Gat) en 'n monument (Mandela-standbeeld by die Uniegebou); wat ons vandag doen, vorm die toekoms
 
 ## Graad 4/Sosiale Wetenskappe/Plekke waar mense woon
 

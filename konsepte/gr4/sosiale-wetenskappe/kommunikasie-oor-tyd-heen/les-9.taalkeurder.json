@@ -1,4 +1,15 @@
 {"prompt_weergawe": "taalkeurder-v1.3",
- "besluite": [{"nr": 1, "besluit": "LAAT VAAR",
+ "besluite": [
+  {"nr": 1, "besluit": "HOU",
+   "fout": "'gemaak' is vague in a block about who invented something",
+   "rede": "'uitgevind' is the exact verb for an inventor, matches the next sentence, and leaves the protected sentence untouched."},
+  {"nr": 2, "besluit": "HOU",
+   "fout": "'klink na een woord' is illogical, since televisie is one word that only appears to be a single unit",
+   "rede": "'lyk soos een woord' says clearly that it appears to be one word but has two parts, with no change to what is claimed."},
+  {"nr": 3, "besluit": "LAAT VAAR",
    "fout": "none",
-   "rede": "Here 'maar nie terwyl dit gebeur nie' is a shortened contrast inside one sentence, not a second sentence with its own subject and verb, so the house AWS rule does not call for a comma; the short original already reads clearly and the comma would be a lateral change."}]}
+   "rede": "'nie geskik vir kinders nie' is already natural Afrikaans, so moving the phrase is a lateral change."},
+  {"nr": 4, "besluit": "NA SKRYWER",
+   "fout": "under the house AWS rule a comma before 'en' joining parts of one sentence is not allowed, though it can be defended as a contrast comma",
+   "rede": "This is a glossary definition that may be shared, and a defensible contrast comma is not a plain error, so the writer has to change it in every lesson at once."}
+ ]}

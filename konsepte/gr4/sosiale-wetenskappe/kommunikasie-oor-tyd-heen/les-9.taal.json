@@ -1,7 +1,58 @@
 {
-  "toegepas": [],
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Nie een uitvinder nie",
+      "voor": "wat dit gemaak het",
+      "na": "wat dit uitgevind het",
+      "soort": "woordkeuse",
+      "rede_vinder": "The block is about inventors, and 'gemaak' (made) is vaguer than 'uitgevind', which the next sentences use.",
+      "fout": "'gemaak' is vague in a block about who invented something",
+      "rede_keurder": "'uitgevind' is the exact verb for an inventor, matches the next sentence, and leaves the protected sentence untouched."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat die woord beteken",
+      "voor": "klink na een woord",
+      "na": "lyk soos een woord",
+      "soort": "woordkeuse",
+      "rede_vinder": "Televisie is one word, so saying it 'sounds like' one word is illogical; the point is that it looks like a single word but has two parts.",
+      "fout": "'klink na een woord' is illogical, since televisie is one word that only appears to be a single unit",
+      "rede_keurder": "'lyk soos een woord' says clearly that it appears to be one word but has two parts, with no change to what is claimed."
+    }
+  ],
   "nie_toegepas": [],
   "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Balans",
+      "voor": "nie geskik vir kinders nie",
+      "na": "nie vir kinders geskik nie",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans the prepositional phrase normally comes before the predicate adjective: 'nie vir kinders geskik nie'.",
+      "fout": "none",
+      "rede_keurder": "'nie geskik vir kinders nie' is already natural Afrikaans, so moving the phrase is a lateral change."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 4,
+      "blok": "uitsaai",
+      "voor": "uit te stuur, en nie na gekose mense nie",
+      "na": "uit te stuur en nie na gekose mense nie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS: no comma before 'en' between parts of one sentence; the clause has no own subject and verb, and the kleurtelevisie entry already writes the same pattern without one.",
+      "fout": "under the house AWS rule a comma before 'en' joining parts of one sentence is not allowed, though it can be defended as a contrast comma",
+      "rede_keurder": "This is a glossary definition that may be shared, and a defensible contrast comma is not a plain error, so the writer has to change it in every lesson at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 472,
+  "woorde_na": 472,
+  "wanneer": "2026-11-02T07:56:38+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 1,
       "blok": "Sien terwyl dit gebeur",
@@ -13,14 +64,7 @@
       "rede_keurder": "Here 'maar nie terwyl dit gebeur nie' is a shortened contrast inside one sentence, not a second sentence with its own subject and verb, so the house AWS rule does not call for a comma; the short original already reads clearly and the comma would be a lateral change."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 471,
-  "woorde_na": 471,
-  "wanneer": "2026-10-29T13:52:07+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:af89691e983859bb59b5ec691545c37f",
+  "konsep_hash_voor": "sha256:2dba6bdcc2eb4f1dfdef6e59747c6477",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:af89691e983859bb59b5ec691545c37f"
+  "konsep_hash_na": "sha256:89e889adf0eb08486c34f1412d53cbf4"
 }
