@@ -1,57 +1,24 @@
 {
-  "toegepas": [
-    {
-      "nr": 1,
-      "blok": "Waarvoor hy gestaan het",
-      "voor": "Hy het in 1944 by die ANC",
-      "na": "Mandela het in 1944 by die ANC",
-      "soort": "verwysing",
-      "rede_vinder": "The block opens with 'Hy' right after a block whose subjects are the government and the groups, so naming Mandela makes the reference clear.",
-      "fout": "The block opens with 'Hy' straight after a block whose last subjects are the government (referred to as 'Sy plan') and the groups; Mandela is not named anywhere in that block.",
-      "rede_keurder": "Naming Mandela at the start of the block removes a first-reading stumble over who 'Hy' is, without changing the claim or touching a protected word."
-    },
-    {
-      "nr": 2,
-      "blok": "Waarvoor hy gestaan het",
-      "voor": "met protes gehelp",
-      "na": "met proteste gehelp",
-      "soort": "woordkeuse",
-      "rede_vinder": "'Met protes help' reads wooden; helping with protests takes the countable plural in natural Afrikaans.",
-      "fout": "'met protes gehelp' is wooden, and 'met protes' is also a fixed expression for 'under protest', so the phrase can be misread as 'helped reluctantly'.",
-      "rede_keurder": "'met proteste gehelp' is the natural countable form and removes the misreading while saying the same thing."
-    }
-  ],
+  "toegepas": [],
   "nie_toegepas": [],
   "laat_vaar": [
     {
-      "nr": 3,
-      "blok": "Die hof en die 27 jaar",
-      "voor": "'n ander hofsaak",
-      "na": "nog 'n hofsaak",
-      "soort": "anglisisme",
-      "rede_vinder": "'n Ander' means 'a different' one; the sense of 'another, a further' trial is 'nog 'n' in Afrikaans.",
+      "nr": 1,
+      "blok": "Apartheid het mense geskei",
+      "voor": "Sy plan om mense te skei",
+      "na": "Die regering se plan om mense te skei",
+      "soort": "verwysing",
+      "rede_vinder": "A block that opens on Mandela's story can lead a Grade 4 reader to take 'Sy plan' as Mandela's plan; naming the government removes the doubt about whose plan it was.",
       "fout": "none",
-      "rede_keurder": "'n Ander hofsaak' (a different case) is natural Afrikaans and accurate here; switching the determiner to 'nog 'n' changes the nuance to 'one more' without a fault to fix."
+      "rede_keurder": "'Sy' follows directly on ''n nuwe regering' in the same paragraph, the only possible antecedent there, and the proposal makes two consecutive sentences open on 'Die regering se', a wooden repetition that disturbs the neighbour."
     }
   ],
-  "na_skrywer": [
-    {
-      "nr": 4,
-      "blok": "onderhandel",
-      "voor": "om te probeer saamstem",
-      "na": "om te probeer ooreenkom",
-      "soort": "idioom",
-      "rede_vinder": "Reaching an agreement in negotiation is 'ooreenkom'; 'saamstem' means sharing an opinion.",
-      "fout": "In the [begrip] definition 'saamstem' (share an opinion) is imprecise for the outcome of negotiating, which is reaching an agreement; it also sits close to the protected 'saam stem' (vote together) in the lesson, which a Grade 4 reader may confuse.",
-      "rede_keurder": "The point is real, but it rewords a glossary definition, which only the writer may change.",
-      "waarom": "the reviewer sent it to the writer"
-    }
-  ],
+  "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 515,
-  "woorde_na": 515,
-  "wanneer": "2026-11-02T07:56:37+00:00",
+  "woorde_voor": 528,
+  "woorde_na": 528,
+  "wanneer": "2026-11-03T08:15:03+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 3,
@@ -82,9 +49,29 @@
       "rede_vinder": "After 'manier' a verb takes the 'om te' infinitive; 'manier van regeer' is colloquial.",
       "fout": "none",
       "rede_keurder": "'n manier van regeer' is an established Afrikaans construction (like 'manier van doen'), and the change to a glossary definition would put 'regeer' twice in quick succession."
+    },
+    {
+      "nr": 3,
+      "blok": "Die hof en die 27 jaar",
+      "voor": "'n ander hofsaak",
+      "na": "nog 'n hofsaak",
+      "soort": "anglisisme",
+      "rede_vinder": "'n Ander' means 'a different' one; the sense of 'another, a further' trial is 'nog 'n' in Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'n Ander hofsaak' (a different case) is natural Afrikaans and accurate here; switching the determiner to 'nog 'n' changes the nuance to 'one more' without a fault to fix."
+    },
+    {
+      "nr": 1,
+      "blok": "Die seun wat geluister het",
+      "voor": "gepraat en die hoofman heel laaste.",
+      "na": "gepraat. Die hoofman het heel laaste gepraat.",
+      "soort": "sinsbou",
+      "rede_vinder": "The elliptical clause without a verb is hard for a Grade 4 reader to complete; a full sentence is clearer and leaves the protected wording intact.",
+      "fout": "none",
+      "rede_keurder": "The ellipsis 'en die hoofman heel laaste' is natural, compact Afrikaans that a Grade 4 reader completes easily; the proposal is a lateral move that adds a third 'gepraat' in two sentences."
     }
   ],
-  "konsep_hash_voor": "sha256:c3457f24acda90d74c381c38568fb6a0",
+  "konsep_hash_voor": "sha256:639e6917b82b66f05fc47d082636c0c1",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:148b9a9d03cb51dc54146a443bc9643f"
+  "konsep_hash_na": "sha256:639e6917b82b66f05fc47d082636c0c1"
 }

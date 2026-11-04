@@ -1,0 +1,54 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 1,
+      "blok": "uitsaai",
+      "voor": "uit te stuur, en nie na gekose mense nie",
+      "na": "uit te stuur en nie na gekose mense nie",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: no comma before 'en' when it joins a phrase within one sentence rather than two clauses with their own subject and verb.",
+      "fout": "Comma before 'en' joining a phrase without its own subject and verb, against the AWS 2017 rule the project follows.",
+      "rede_keurder": "The comma fault is real, but it sits in the glossary definition of 'uitsaai', which is shared word for word across lessons, so the writer must change it everywhere at once.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Nie een uitvinder nie",
+      "teks": "Verskillende boeke noem verskillende mense as die uitvinder van televisie, want baie mense het oor jare daaraan gewerk.",
+      "rede": "The reason clause repeats almost word for word the earlier sentence 'Baie mense in verskillende lande het oor jare gehelp om dit te ontwikkel', so the block says the same thing twice; trimming it is a content decision for the writer, not a language fix."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 467,
+  "woorde_na": 467,
+  "wanneer": "2026-11-02T11:01:28+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Sien terwyl dit gebeur",
+      "voor": "sien maar nie terwyl dit gebeur nie",
+      "na": "sien, maar nie terwyl dit gebeur nie",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before the contrasting 'maar nie ...' element makes the contrast easier for a Grade 4 reader to follow; AWS permits it here.",
+      "fout": "none",
+      "rede_keurder": "Here 'maar nie terwyl dit gebeur nie' is a shortened contrast inside one sentence, not a second sentence with its own subject and verb, so the house AWS rule does not call for a comma; the short original already reads clearly and the comma would be a lateral change."
+    },
+    {
+      "nr": 3,
+      "blok": "Balans",
+      "voor": "nie geskik vir kinders nie",
+      "na": "nie vir kinders geskik nie",
+      "soort": "woordorde",
+      "rede_vinder": "In Afrikaans the prepositional phrase normally comes before the predicate adjective: 'nie vir kinders geskik nie'.",
+      "fout": "none",
+      "rede_keurder": "'nie geskik vir kinders nie' is already natural Afrikaans, so moving the phrase is a lateral change."
+    }
+  ],
+  "konsep_hash_voor": "sha256:4919e8a55012a498f4036a30da9dcb84",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4919e8a55012a498f4036a30da9dcb84"
+}

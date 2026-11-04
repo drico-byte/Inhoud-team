@@ -1,0 +1,83 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die hof en die 27 jaar",
+      "voor": "Daar het hy in April 1964",
+      "na": "In hierdie saak het hy in April 1964",
+      "soort": "verwysing",
+      "rede_vinder": "'Daar' points to a place, but the antecedent is a court case, so name the case to make the reference clear.",
+      "fout": "'Daar' reads as a place, but no place is named; its antecedent is the court case 'n ander hofsaak', so a Grade 4 reader has to work out what it points to.",
+      "rede_keurder": "Naming the case makes the reference clear without moving the meaning (he spoke in that 1963 case, in April 1964), touches no protected wording, and links naturally to 'Die saak het nog weke lank geduur'."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Die hof en die 27 jaar",
+      "teks": "Hierdie deel van sy verhaal gaan oor twee hofsake. Hy is in 1962 gearresteer. In 1963 het 'n ander hofsaak teen hom begin.",
+      "rede": "The block announces two court cases, but only the arrest is mentioned before 'n ander hofsaak', so the first case is never stated and 'ander' has nothing explicit to contrast with; fixing it means stating the 1962 case, which is content, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 519,
+  "woorde_na": 521,
+  "wanneer": "2026-11-02T13:33:39+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Waarvoor hy gestaan het",
+      "voor": "werk tot voordeel van ander en nie van homself nie",
+      "na": "werk tot voordeel van ander en nie tot sy eie voordeel nie",
+      "soort": "idioom",
+      "rede_vinder": "'Tot voordeel ... nie van homself nie' is an incomplete parallel; the idiom needs 'tot sy eie voordeel'.",
+      "fout": "none",
+      "rede_keurder": "The original is a clear, grammatical ellipsis ('nie [tot voordeel] van homself nie'); the proposal only makes it longer."
+    },
+    {
+      "nr": 7,
+      "blok": "Gewone mense kan dit ook doen",
+      "voor": "Hulle stories behoort aan mense oral en nie net aan hulle eie lande nie",
+      "na": "Hulle stories behoort aan die hele wêreld en nie net aan hulle eie lande nie",
+      "soort": "sinsbou",
+      "rede_vinder": "'Aan mense oral' is awkward and does not parallel 'lande'; 'die hele wêreld' keeps the meaning and balances the contrast.",
+      "fout": "none",
+      "rede_keurder": "'aan mense oral' is natural Afrikaans and was written to a curriculum order for a value statement; 'aan die hele wêreld' can read as a claim of reach, so the meaning would move."
+    },
+    {
+      "nr": 11,
+      "blok": "demokrasie",
+      "voor": "'n Manier van regeer",
+      "na": "'n Manier om te regeer",
+      "soort": "grammatika",
+      "rede_vinder": "After 'manier' a verb takes the 'om te' infinitive; 'manier van regeer' is colloquial.",
+      "fout": "none",
+      "rede_keurder": "'n manier van regeer' is an established Afrikaans construction (like 'manier van doen'), and the change to a glossary definition would put 'regeer' twice in quick succession."
+    },
+    {
+      "nr": 3,
+      "blok": "Die hof en die 27 jaar",
+      "voor": "'n ander hofsaak",
+      "na": "nog 'n hofsaak",
+      "soort": "anglisisme",
+      "rede_vinder": "'n Ander' means 'a different' one; the sense of 'another, a further' trial is 'nog 'n' in Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'n Ander hofsaak' (a different case) is natural Afrikaans and accurate here; switching the determiner to 'nog 'n' changes the nuance to 'one more' without a fault to fix."
+    },
+    {
+      "nr": 1,
+      "blok": "Die seun wat geluister het",
+      "voor": "gepraat en die hoofman heel laaste.",
+      "na": "gepraat. Die hoofman het heel laaste gepraat.",
+      "soort": "sinsbou",
+      "rede_vinder": "The elliptical clause without a verb is hard for a Grade 4 reader to complete; a full sentence is clearer and leaves the protected wording intact.",
+      "fout": "none",
+      "rede_keurder": "The ellipsis 'en die hoofman heel laaste' is natural, compact Afrikaans that a Grade 4 reader completes easily; the proposal is a lateral move that adds a third 'gepraat' in two sentences."
+    }
+  ],
+  "konsep_hash_voor": "sha256:8a9f781fcbac622475ac521023842010",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5a84689a3d94e0c9598f73b95ad9696a"
+}

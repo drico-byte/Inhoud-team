@@ -2,34 +2,34 @@
   "toegepas": [
     {
       "nr": 2,
-      "blok": "Die Aarde se wentelbaan",
-      "voor": "Die Aarde beweeg nooit terug nie",
-      "na": "Dit beweeg nooit terug nie",
-      "soort": "sinsbou",
-      "rede_vinder": "The repeated subject 'Die Aarde beweeg' in back-to-back sentences reads wooden; the pronoun 'dit' is already used for the Earth earlier in this block.",
-      "fout": "Two back-to-back sentences open with 'Die Aarde beweeg', which reads wooden.",
-      "rede_keurder": "'Dit' clearly points to the Earth, as it does earlier in the block (a path cannot move), so the repetition goes and the meaning stays exactly the same."
+      "blok": "Wat lewende dinge by die son kry",
+      "voor": "kan net lewe waar",
+      "na": "kan net leef waar",
+      "soort": "woordkeuse",
+      "rede_vinder": "'leef' is the usual verb form; 'lewe' as a verb is formal and also reads like the noun used two sentences later.",
+      "fout": "'lewe' as a verb is the formal form and reads like the noun 'lewe' used two sentences later.",
+      "rede_keurder": "'kan net leef waar' is the natural everyday verb for a Grade 4 reader, and the meaning and the qualifier 'net' are unchanged."
     }
   ],
   "nie_toegepas": [],
   "laat_vaar": [
     {
       "nr": 1,
-      "blok": "Die Aarde se wentelbaan",
-      "voor": "Die Aarde beweeg altyd in dieselfde rigting op hierdie pad.",
-      "na": "Op hierdie pad beweeg die Aarde altyd in dieselfde rigting.",
-      "soort": "woordorde",
-      "rede_vinder": "Fronting 'op hierdie pad' links the sentence to the previous one and avoids three consecutive sentences opening with 'Die Aarde'.",
+      "blok": "Agt planete, en die Aarde is een",
+      "voor": "in volgorde vanaf die son",
+      "na": "in volgorde van die son af",
+      "soort": "woordkeuse",
+      "rede_vinder": "'van die son af' is the more natural everyday Afrikaans form for a Grade 4 reader than the formal 'vanaf'.",
       "fout": "none",
-      "rede_keurder": "The original word order is natural Afrikaans and the reorder is a lateral move; the repetition it targets is already fixed by change 2."
+      "rede_keurder": "'in volgorde vanaf die son' is plain, correct Afrikaans, so the swap is lateral, and it would make the sentence differ from the list heading directly below it ('vanaf die son getel')."
     }
   ],
   "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 462,
-  "woorde_na": 461,
-  "wanneer": "2026-10-29T14:15:55+00:00",
+  "woorde_voor": 460,
+  "woorde_na": 460,
+  "wanneer": "2026-11-02T11:01:26+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 1,
@@ -100,9 +100,19 @@
       "rede_vinder": "'om hul eie kos te maak' reads more naturally than 'om self kos te maak' with the same meaning.",
       "fout": "none",
       "rede_keurder": "'self kos maak' is natural and stresses that plants make food by themselves, the point of the sentence; 'hul eie kos' shifts that emphasis and is at best lateral."
+    },
+    {
+      "nr": 1,
+      "blok": "Die Aarde se wentelbaan",
+      "voor": "Die Aarde beweeg altyd in dieselfde rigting op hierdie pad.",
+      "na": "Op hierdie pad beweeg die Aarde altyd in dieselfde rigting.",
+      "soort": "woordorde",
+      "rede_vinder": "Fronting 'op hierdie pad' links the sentence to the previous one and avoids three consecutive sentences opening with 'Die Aarde'.",
+      "fout": "none",
+      "rede_keurder": "The original word order is natural Afrikaans and the reorder is a lateral move; the repetition it targets is already fixed by change 2."
     }
   ],
-  "konsep_hash_voor": "sha256:d33a832cbea6927cd44f1b9e3a34a921",
+  "konsep_hash_voor": "sha256:29d3790b1d1405f6caec2db71967f0e6",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:d052bec079d842ca5444b02d81026927"
+  "konsep_hash_na": "sha256:beef071d3267a16115aaf0a60fb3cf81"
 }

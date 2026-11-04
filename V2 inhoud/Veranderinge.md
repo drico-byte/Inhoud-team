@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-334 lesse.
+337 lesse.
 
 
 ## Graad 4/Lewensvaardighede/Gesondheids- en omgewingsverantwoordelikheid
@@ -61,9 +61,14 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 - **Les 01 - Blaas, klop en pluk** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: KABV-oudit: die uhadi se kalbas en 'n tweede inheemse instrument is NIE bygevoeg nie (KABV het dit net in die aktiwiteitekolom); KABV-gaping: Feite: die rekkieproef is reggestel: pluk die rekkie en raak dit aan terwyl dit nog beweeg; die rekkie oor die opening van 'n boks sonder deksel (geen blik met 'n skerp rand nie); 'byna geen klank' (nie 'uitset'); KABV-gaping: Feite: klank is die uitset waarvoor die instrument GEMAAK is (die meeste energie word hitte); 'n gewone radio teenoor instrumente soos die kitaar, drom en panfluit; 'n deel van die instrument beweeg (nie altyd 'binne-in' nie); 'Net soos 'n masjien' as vergelyking; KABV-gaping: Woordelys: inset en stelsel volg die ooreengekome omskrywings; KABV-gaping: Taal: AWS-kommas; 'vanself'; 'doel'; 'muurprop'; 'hou aan speel'; 'droogblaas'
 
+## Graad 4/Natuurwetenskappe en Tegnologie/Die Aarde en die Son
+
+- **Les 01 - Die Aarde se pad om die son** (goedgekeur 2026-11-02): 1 taalverandering(s) toegepas
+
 ## Graad 4/Natuurwetenskappe en Tegnologie/Die Maan
 
 - **Les 01 - 'n Bal van rots sonder lug** (goedgekeur 2026-10-23): taalstap: niks verander nie; KABV-gaping: Feite: die Maan het geen eie suurstof nie (nie 'geen lug' as absolute nie); 'byna oral' en 'die meeste' waar 'n absolute te sterk was; KABV-gaping: Feite: 'n los laag stof en klippe lê oor die rots; kraters is gate wat rotse geslaan het, nie 'niks' nie; KABV-gaping: Feite: die Maan beweeg altyd in die ruimte om die Aarde; hy is die Aarde se naaste groot buurman (satelliete en die ruimtestasie is nader); KABV-gaping: Feite: die pole word aan die draai gekoppel; die ruimtepak is nodig buite in die ruimte of op die Maan; KABV-gaping: Woordelys: oppervlak en ruimte volg die ooreengekome omskrywings; KABV-gaping: Taal: AWS-kommas en klein woordkeuses
+- **Les 02 - Hoekom lyk die Maan elke aand anders** (goedgekeur 2026-11-02): 1 taalverandering(s) toegepas
 - **Les 03 - Wat mense oor die Maan vertel** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas
 
 ## Graad 4/Natuurwetenskappe en Tegnologie/Die planeet Aarde
@@ -162,6 +167,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **Les 06 - Kolletjies en strepies** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas; KABV-gaping: Feitetoets: die operateur lees letters uit die patroon van kort en lang seine (nie een klik per letter nie); die eerste boodskap het binne minute aangekom; SOS se patroon is maklik (geen motief nie); 'een van' morsekode se bekendste boodskappe; KABV-gaping: Gedeelde 'operateur' verbreed
 - **Les 07 - Jou stem oor 'n draad** (goedgekeur 2026-11-02): 2 taalverandering(s) toegepas; KABV-gaping: Feitetoets: die telefoon stuur die stem as seine (die draad dra nie die stem self nie); die eerste pare het DIKWELS in 'n huis en werk gestaan, of in 'n kantoor en 'n fabriek; die draaiskyf word beskryf in plaas van 'draaiknop'; KABV-gaping: Gedeelde 'operateur' verbreed
 - **Les 08 - Die oomblik wat bly** (goedgekeur 2026-10-29): 8 taalverandering(s) toegepas; KABV-gaping: Gedeelde 'geskiedenis' verbreed (verandering oor tyd en bronne)
+- **Les 09 - Die wêreld in die sitkamer** (goedgekeur 2026-11-02): taalstap: niks verander nie
 
 ## Graad 4/Sosiale Wetenskappe/Leer van leiers
 

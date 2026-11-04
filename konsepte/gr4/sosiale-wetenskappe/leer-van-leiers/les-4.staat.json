@@ -1,11 +1,15 @@
 {
   "les": "gr4/sosiale-wetenskappe/leer-van-leiers/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:148b9a9d03cb51dc54146a443bc9643f",
+  "konsep_hash": "sha256:639e6917b82b66f05fc47d082636c0c1",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:604627560255bd32cb913b4624112c44"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "die hof en die 27 jaar": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -396,24 +400,287 @@
       "woorde": 515,
       "begroting": 445,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-02T10:58:42+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:908ac41ac8e63c2fcf6a52358975b11d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-02T10:58:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 510,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-02T11:16:42+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 510,
+      "woorde_na": 510,
+      "konsep_hash": "sha256:0140d05aea8235fa20b0b09807fba1c1"
+    },
+    {
+      "wanneer": "2026-11-02T11:16:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 510,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-02T13:28:23+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-02T13:28:23+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 42,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-02T13:28:23+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die hof en die 27 jaar"
+      ],
+      "tally": {
+        "die hof en die 27 jaar": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-02T13:28:23+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "dekking",
+      "siklus": 1,
+      "punte": [
+        "[dekking] DIE HOF EN DIE 27 JAAR ... (4) GEEN AANKLAG, GEEN REDE EN GE — gedeeltelik: Die arrestasie se buurman breek kern[3] se reël. Die sin direk voor 'Hy is in 1962 gearresteer' is ''n Dienaar van die mense werk tot voordeel van ander en nie van homself nie' — 'n eienskap wat die les aan hom toeskryf, en die laaste sin van 'n blok met die kop 'Waarvoor hy gestaan het'. 'n Leerder lees dus 'hy is gearresteer omdat hy vir ander gewerk het / weens waarvoor hy gestaan het', en dit is presies die vals oorsaak en die oortuigings-lesing wat die spek verbied (kern[3](4); feiterisiko[7]). Herrangskik sodat die sin direk voor die arrestasie geen daad, woord, oortuiging of eienskap van hom noem nie. Let op dat elke sin in 'Waarvoor hy gestaan het' so 'n daad, oortuiging of eienskap is, dus help dit nie om net daardie blok se sinne te skuif nie — die oplossing moet by die oorgang na die hofblok lê. Moenie 'n rede of aanklag vir die arrestasie gee nie, en koppel niks met 'Daarom' of 'Toe' nie. Behou die jaar 1944, die Manifes-sin, die dienaar-sin, die regsgeleerde-sin, 'Die saak het nog weke lank geduur' voor die vonnis, en die twee aparte verhore."
+      ]
+    },
+    {
+      "wanneer": "2026-11-02T13:31:20+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8a9f781fcbac622475ac521023842010",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-02T13:31:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 519,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-02T13:33:39+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 519,
+      "woorde_na": 521,
+      "konsep_hash": "sha256:5a84689a3d94e0c9598f73b95ad9696a"
+    },
+    {
+      "wanneer": "2026-11-02T13:33:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 521,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-02T13:33:40+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Hierdie deel van sy verhaal gaan oor twee hofsake. Hy is in 1962 gearr': The block announces two court cases, but only the arrest is mentioned before 'n ander hofsaak', so the first case is never stated and 'ander' has nothing explicit to contrast with; fixing it means stating the 1962 case, which is content, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-11-02T21:22:00+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:604627560255bd32cb913b4624112c44",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-02T21:22:02+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 529,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-02T21:23:28+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 529,
+      "woorde_na": 529
+    },
+    {
+      "wanneer": "2026-11-03T08:05:42+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-03T08:05:42+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 40,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-03T08:05:42+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die hof en die 27 jaar"
+      ],
+      "tally": {
+        "die hof en die 27 jaar": 2
+      }
+    },
+    {
+      "wanneer": "2026-11-03T08:05:42+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "blok_bly_faal",
+      "blok": "die hof en die 27 jaar",
+      "rondtes": 2
+    },
+    {
+      "wanneer": "2026-11-03T08:06:13+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "die hof en die 27 jaar": 2
+      }
+    },
+    {
+      "wanneer": "2026-11-03T08:06:14+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-03T08:06:14+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 40,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-03T08:06:14+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die hof en die 27 jaar"
+      ],
+      "tally": {
+        "die hof en die 27 jaar": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-03T08:06:15+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Hierdie deel van sy verhaal gaan oor twee hofsake. Hy is in  — corrected: Die 1962-saak was Mandela se derde hofsaak, nie sy eerste nie (ook 1952, en die Hoogverraadsaak van 1956-1961). Die sin moet nie se dit was die eerste hofsaak teen hom nie: beperk 'eerste' uitdruklik tot die twee hofsake van hierdie blok (die eerste van die twee), of laat 'eerste' weg sodat die sin net se dat 'n hofsaak teen hom begin het nadat hy in 1962 gearresteer is."
+      ]
+    },
+    {
+      "wanneer": "2026-11-03T08:08:11+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:dfe2cadd2b0774b6643b2965b75b872d",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-03T08:08:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 528,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-03T08:10:51+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 528,
+      "woorde_na": 528
+    },
+    {
+      "wanneer": "2026-11-03T08:10:51+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'om te probeer saamstem': In the glossary definition of 'onderhandel', 'saamstem' (agree) sits in the same lesson as the protected 'vir die eerste keer saam stem' (vote together), and a Grade 4 reader can mix up the two; 'ooreenkom' is also the more usual verb for the outcome of a negotiation."
+      ]
+    },
+    {
+      "wanneer": "2026-11-03T08:12:59+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:639e6917b82b66f05fc47d082636c0c1",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-03T08:13:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 528,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-03T08:15:03+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 528,
+      "woorde_na": 528
     }
   ],
-  "spek_hash": "sha256:2f567d3cef7b39e17a4eafb1ead219a6",
+  "spek_hash": "sha256:7d5d70c89bc3590550f3740011cc992e",
   "hek_konteks": {
     "graad": 4,
     "begroting": 445,
     "afgelewerde_lengte": true
   },
-  "taal_vir_skrywer": [
-    "fix: [taal] in 'om te probeer saamstem': In the [begrip] definition 'saamstem' (share an opinion) is imprecise for the outcome of negotiating, which is reaching an agreement; it also sits close to the protected 'saam stem' (vote together) in the lesson, which a Grade 4 reader may confuse."
-  ],
+  "taal_vir_skrywer": [],
   "taal_geforseer_vir": "sha256:a10bf5ae0d40df757a36af30be541643",
-  "taal_rondte_vir": "sha256:148b9a9d03cb51dc54146a443bc9643f",
-  "taal_keurder_vir": "eae223ef3706c44bbf227e402824c933",
+  "taal_rondte_vir": "sha256:639e6917b82b66f05fc47d082636c0c1",
+  "taal_keurder_vir": "92e83abc213d54fcdd800804c67c6ba2",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:148b9a9d03cb51dc54146a443bc9643f",
+  "taal_klaar_vir": "sha256:639e6917b82b66f05fc47d082636c0c1",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:6e777c7d4e3b2d3ccd586a3a7336c9ef",
-  "taal_bons_siklus": 1,
-  "taal_bons_nota": "0c300fd92332bbbdf6838c0374fa34ae"
+  "taal_bons_vir": "sha256:dfe2cadd2b0774b6643b2965b75b872d",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "cb9be79e754420396670205cfbc2ee20"
 }
