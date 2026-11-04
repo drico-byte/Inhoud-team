@@ -33,8 +33,11 @@ and this script merges them into the list.
 """
 
 import glob
+import hashlib
+import html
 import json
 import os
+import re
 import shutil
 import sys
 
@@ -46,6 +49,10 @@ from hardloop import TAALSTAP_SEDERT  # noqa: E402
 V2 = os.path.join(P.REPO, "V2 inhoud")
 GAPINGS = os.path.join(V2, "gapings.json")
 LYS = os.path.join(V2, "Veranderinge.md")
+MANIFES = os.path.join(V2, "manifest.json")
+# {"<lesson path>": "why"}: a lesson listed here is delivered but marked 'held', so
+# the HTML team sees the hold in data instead of in a chat message.
+TERUGGEHOU = os.path.join(V2, "teruggehou.json")
 
 
 # The Grade 4 Mathematics lesson was a test and is not part of the delivery (Lampies).
@@ -140,7 +147,7 @@ def doel_pad(les, plek):
 
 
 def _ruim_op(behou):
-    """Remove every PDF under a grade folder that is not one of this run's deliveries.
+    """Remove every PDF and data file under a grade folder that is not one of this run's deliveries.
 
     The old layout's sub-topic folders, and a copy whose number or title has moved,
     would otherwise sit beside the new copies looking just as current. Empty folders
@@ -151,7 +158,7 @@ def _ruim_op(behou):
         for wortel, _, lêers in os.walk(g):
             for naam in lêers:
                 f = os.path.join(wortel, naam)
-                if naam.lower().endswith(".pdf") and os.path.normcase(os.path.abspath(f)) not in behou:
+                if naam.lower().endswith((".pdf", ".json")) and os.path.normcase(os.path.abspath(f)) not in behou:
                     os.remove(f)
         for wortel, _, _ in sorted(os.walk(g), key=lambda t: -len(t[0])):
             if wortel != g and not os.listdir(wortel):
@@ -187,9 +194,129 @@ def stand(pad):
     return True, max(goed)[:10], verslag
 
 
+SKEMA = "wolkskool-v2-les-1"
+
+
+def _norm(t):
+    """Text as the PDF's text layer gives it back, so the two can be compared."""
+    t = html.unescape(str(t))
+    t = t.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
+    t = t.replace("\xad", "").replace("\xa0", " ")
+    t = re.sub(r"\s+", " ", t).strip()
+    # The browser breaks a line after a hyphen ("twee-en-|dertig", "v.C.-|jare"), and
+    # the text layer gives that back as a hyphen and a space.
+    return re.sub(r"(?<=\S)- (?=\w)", "-", t)
+
+
+def lesdata(les, plek, rel, datum):
+    """The approved lesson as the HTML team needs it: learner text, in page order.
+
+    Built from the same approved file the PDF is printed from, and in the PDF's own
+    order: the body blocks as they fall, then the Woordelys (every begrip), then the
+    Vrae (only lessons older than the no-questions rule have any). `rol` says who a
+    block is for: `leerder` is text the learner reads, word for word; `vir_html_span`
+    is an instruction to the builder (what a map must show), never printed as it is.
+    The reading copy's furniture (subject line, CAPS quotation, status stamp, footer)
+    sits under `produksie`, so nothing a learner should not see is mixed in with
+    what they should. The provenance note and every internal field are left out.
+    """
+    (graad, vak), n = plek
+    lyf, woordelys, vrae = [], [], []
+    for b in les.get("blokke", []):
+        t = b.get("tipe")
+        if t in ("studie", "leesstuk"):
+            lyf.append({"afdeling": "lyf", "tipe": t, "rol": "leerder",
+                        "kop": b.get("kop") or "", "teks": b.get("teks") or ""})
+        elif t == "lys":
+            lyf.append({"afdeling": "lyf", "tipe": t, "rol": "leerder",
+                        "kop": b.get("kop") or "", "items": list(b.get("items") or [])})
+        elif t == "kaart":
+            lyf.append({"afdeling": "lyf", "tipe": t, "rol": "vir_html_span",
+                        "vir": b.get("vir") or "", "teks": b.get("teks") or ""})
+        elif t == "begrip":
+            woordelys.append({"afdeling": "woordelys", "tipe": t, "rol": "leerder",
+                              "term": b.get("term") or "", "teks": b.get("teks") or ""})
+        elif t == "vraag":
+            vrae.append({"afdeling": "vrae", "tipe": t, "rol": "leerder", "teks": b.get("teks") or ""})
+        else:
+            # Never drop a block: a type this tool does not know is exactly what the
+            # HTML team must not lose without anyone noticing.
+            raise SystemExit(f"{rel}: block type {t!r} has no place in the V2 data")
+    return {
+        "skema": SKEMA,
+        "graad": graad, "vak": vak, "nommer": n, "titel": les.get("titel") or "",
+        "goedgekeur": datum, "bron": rel,
+        "blokke": lyf + woordelys + vrae,
+        "produksie": {
+            "nota": "Furniture on the reading copy, not for the learner page.",
+            "plek": " · ".join(str(x) for x in (f"Graad {les.get('graad')}", les.get("vak"),
+                                                les.get("kaps_onderwerp")) if x),
+            "kaps_punt": les.get("kaps_punt") or "",
+        },
+    }
+
+
+def pdf_ooreenstem(pdf, data):
+    """Every learner string of the data, found in the PDF's text layer. [] when all are.
+
+    The JSON and the PDF come from one approved file, but "can never differ" is a
+    claim, and this is what makes it a check: a PDF printed before a later edit to
+    the lesson file would otherwise ship beside data that no longer matches it.
+    """
+    import pymupdf
+    doc = pymupdf.open(pdf)
+    teks = _norm(" ".join(p.get_text() for p in doc))
+    doc.close()
+    stukke = [data["titel"]]
+    for b in data["blokke"]:
+        for k in ("kop", "term", "teks"):
+            if b.get(k):
+                stukke += [x for x in b[k].split("\n") if x.strip()]
+        stukke += b.get("items") or []
+    return [s for s in stukke if _norm(s) not in teks]
+
+
+def _sha(pad):
+    h = hashlib.sha256()
+    with open(pad, "rb") as fh:
+        for stuk in iter(lambda: fh.read(1 << 16), b""):
+            h.update(stuk)
+    return h.hexdigest()
+
+
+def skryf_manifes(inskrywings):
+    """V2 inhoud/manifest.json, keeping each lesson's earlier issues.
+
+    A lesson whose data fingerprint changed since the last run gets its previous
+    issue appended to `uitgawes`, so a reissue can be seen in the data and not only
+    in a chat message a new session never reads. The PDF's fingerprint can change
+    when the PDF is printed again with the text unchanged, so the JSON's is the one
+    that says whether the content moved.
+    """
+    oud = {}
+    if os.path.exists(MANIFES):
+        for e in (P.lees_json(MANIFES).get("lesse") or []):
+            oud[e.get("bron")] = e
+    for e in inskrywings:
+        vorige = oud.get(e["bron"])
+        uitgawes = list((vorige or {}).get("uitgawes") or [])
+        if vorige and vorige.get("json_sha256") != e["json_sha256"]:
+            uitgawes.append({k: vorige.get(k) for k in ("goedgekeur", "json_sha256", "pdf_sha256", "pdf")})
+        e["uitgawes"] = uitgawes
+    with open(MANIFES, "w", encoding="utf-8", newline="\n") as fh:
+        json.dump({"skema": "wolkskool-v2-manifes-1",
+                   "nota": ("One entry per lesson in V2 inhoud. status 'final' may be built; "
+                            "'held' may not (see 'rede'). json_sha256 is the content "
+                            "fingerprint: when it changes, the lesson was reissued and the "
+                            "previous issue is listed under 'uitgawes'."),
+                   "lesse": inskrywings}, fh, ensure_ascii=False, indent=1)
+        fh.write("\n")
+
+
 def main():
     gapings = P.lees_json(GAPINGS) if os.path.exists(GAPINGS) else {}
-    rye, sonder_pdf = [], []
+    hou = P.lees_json(TERUGGEHOU) if os.path.exists(TERUGGEHOU) else {}
+    rye, sonder_pdf, verskil, manifes = [], [], [], []
     alles = [p for p in sorted(glob.glob(os.path.join(P.KONSEPTE, "gr[456]", "*", "*", "les-*.json")))
              if P.is_les_konsep(p) and P.lees_json(p).get("vak") in OOR]
     plek = jaarvolgorde(alles)
@@ -203,13 +330,33 @@ def main():
         if not os.path.exists(bron):
             sonder_pdf.append(pad)
             continue
+        rel = os.path.relpath(pad, P.REPO).replace(os.sep, "/")
+        data = lesdata(les, plek[pad], rel, datum)
+        mis = pdf_ooreenstem(bron, data)
+        if mis:
+            # Ship neither: a PDF and data that disagree are worse than a gap.
+            verskil.append((rel, mis))
+            continue
         os.makedirs(os.path.dirname(doel), exist_ok=True)
         shutil.copy2(bron, doel)
-        rel = os.path.relpath(pad, P.REPO).replace(os.sep, "/")
-        rye.append((os.path.relpath(doel, V2).replace(os.sep, "/"), rel, datum,
-                    len(verslag.get("toegepas") or []), gapings.get(rel) or []))
+        doel_json = doel[:-4] + ".json"
+        with open(doel_json, "w", encoding="utf-8", newline="\n") as fh:
+            json.dump(data, fh, ensure_ascii=False, indent=1)
+            fh.write("\n")
+        v2 = lambda p: os.path.relpath(p, V2).replace(os.sep, "/")  # noqa: E731
+        manifes.append({
+            "graad": data["graad"], "vak": data["vak"], "nommer": data["nommer"],
+            "titel": data["titel"], "pdf": v2(doel), "json": v2(doel_json),
+            "status": "held" if rel in hou else "final",
+            **({"rede": hou[rel]} if rel in hou else {}),
+            "goedgekeur": datum, "pdf_sha256": _sha(doel), "json_sha256": _sha(doel_json),
+            "bron": rel,
+        })
+        rye.append((v2(doel), rel, datum, len(verslag.get("toegepas") or []), gapings.get(rel) or []))
 
-    _ruim_op([os.path.join(V2, r[0]) for r in rye])
+    _ruim_op([os.path.join(V2, r[0]) for r in rye] + [os.path.join(V2, e["json"]) for e in manifes])
+    manifes.sort(key=lambda e: (e["graad"], e["vak"], e["nommer"]))
+    skryf_manifes(manifes)
     rye.sort(key=lambda r: _rang(r[0]))
     reëls = ["# V2 inhoud: wat verander het en hoekom", "",
              "Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek "
@@ -230,11 +377,18 @@ def main():
         fh.write("\n".join(reëls) + "\n")
 
     print(f"{len(rye)} lesse in '{os.path.relpath(V2, P.REPO)}', lys: {os.path.relpath(LYS, P.REPO)}")
+    print(f"manifes: {os.path.relpath(MANIFES, P.REPO)} "
+          f"({sum(e['status'] == 'held' for e in manifes)} teruggehou)")
     if sonder_pdf:
         print(f"{len(sonder_pdf)} goedgekeurde lesse het nog geen PDF nie:")
         for p in sonder_pdf:
             print("  " + os.path.relpath(p, P.REPO))
-    return 1 if sonder_pdf else 0
+    if verskil:
+        print(f"{len(verskil)} lesse NIE afgelewer nie: die PDF stem nie met die les ooreen nie "
+              f"(druk die PDF weer met bin/leeskopie.py):")
+        for rel, mis in verskil:
+            print(f"  {rel}: {mis[0][:100]}")
+    return 1 if sonder_pdf or verskil else 0
 
 
 if __name__ == "__main__":

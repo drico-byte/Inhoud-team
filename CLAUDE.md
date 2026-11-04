@@ -555,6 +555,16 @@ nothing re-checked that step.
 python bin/htmlnasien.py --html "<folder of built lessons>"
 ```
 
+**For the V2 rebuild** (since 4 November 2026), give `--vak` as a V2 folder name
+(PSW, Kuns, NW en Teg, Geskiedenis, Geografie). The tool then reads
+`V2 inhoud/manifest.json` and any file name containing "Les NN". In this mode it
+first checks every approved sentence word for word. It reads the protected words
+only on a page that already differs, and only in the text that differs: run over
+whole pages, they fired on 300 of 326 pages built straight from approved text.
+`bin/v2_inhoud.py` writes each lesson's data beside its PDF, but only after
+checking every learner string against the PDF, and it writes the manifest; see
+`V2 inhoud/LEESMY.md`.
+
 Run it over built lessons to compare them against the repository and the agreed
 wordings. It reports three things:
 
