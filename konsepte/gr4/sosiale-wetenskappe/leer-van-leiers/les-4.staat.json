@@ -1,10 +1,11 @@
 {
   "les": "gr4/sosiale-wetenskappe/leer-van-leiers/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:639e6917b82b66f05fc47d082636c0c1",
+  "konsep_hash": "sha256:65aa0389170c692fea185adb1a9f0c54",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:604627560255bd32cb913b4624112c44"
+    "sha256:604627560255bd32cb913b4624112c44",
+    "sha256:1c35c5ed930806825d7358c4dcd017b9"
   ],
   "eskalasie": null,
   "blok_faalrondtes": {
@@ -665,9 +666,130 @@
       "nie_toegepas": 0,
       "woorde_voor": 528,
       "woorde_na": 528
+    },
+    {
+      "wanneer": "2026-11-04T08:01:37+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:15850381ddba5ef674158899f5fdfcfa",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-04T08:01:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 529,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-04T08:02:34+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 529,
+      "woorde_na": 529
+    },
+    {
+      "wanneer": "2026-11-04T08:13:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a19ac4eace722b850a60b3838fb0af78",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-04T08:13:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 529,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-04T08:14:35+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 529,
+      "woorde_na": 529
+    },
+    {
+      "wanneer": "2026-11-04T08:26:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1c35c5ed930806825d7358c4dcd017b9",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-04T08:26:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 537,
+      "begroting": 445,
+      "failures": [
+        "Study text 537 words, above budget ceiling 512 (target 445) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-11-04T08:26:47+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 2,
+      "punte": [
+        "Study text 537 words, above budget ceiling 512 (target 445) — learners will revise the textbook instead"
+      ]
+    },
+    {
+      "wanneer": "2026-11-04T08:29:10+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:65aa0389170c692fea185adb1a9f0c54",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-04T08:29:11+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 531,
+      "begroting": 445,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-04T08:30:43+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 531,
+      "woorde_na": 531
+    },
+    {
+      "wanneer": "2026-11-04T08:39:51+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-04T08:39:51+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 46,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-04T08:39:51+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr4\\sosiale-wetenskappe\\leer-van-leiers\\les-4.json",
+      "konsep_hash": "sha256:65aa0389170c692fea185adb1a9f0c54",
+      "vervang": false
     }
   ],
-  "spek_hash": "sha256:7d5d70c89bc3590550f3740011cc992e",
+  "spek_hash": "sha256:f5b9a690dcc005eaf3669d1fc9540a75",
   "hek_konteks": {
     "graad": 4,
     "begroting": 445,
@@ -675,10 +797,10 @@
   },
   "taal_vir_skrywer": [],
   "taal_geforseer_vir": "sha256:a10bf5ae0d40df757a36af30be541643",
-  "taal_rondte_vir": "sha256:639e6917b82b66f05fc47d082636c0c1",
-  "taal_keurder_vir": "92e83abc213d54fcdd800804c67c6ba2",
+  "taal_rondte_vir": "sha256:65aa0389170c692fea185adb1a9f0c54",
+  "taal_keurder_vir": "2ae8ad4a69ba98f22025106a07225793",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:639e6917b82b66f05fc47d082636c0c1",
+  "taal_klaar_vir": "sha256:65aa0389170c692fea185adb1a9f0c54",
   "taal_vir_mens": [],
   "taal_bons_vir": "sha256:dfe2cadd2b0774b6643b2965b75b872d",
   "taal_bons_siklus": 2,

@@ -167,3 +167,5 @@ is a reason to shorten the lesson, never a reason to prefer a weaker argument.
 
 Related: [[n-bewoording-wat-drie-rondes-vat-is-die-verkeerde-vorm]],
 [[spesifikasies-word-nooit-nagegaan]], [[n-plafon-kan-n-regstelling-onbekostigbaar-maak]].
+
+Again on 4 Nov 2026 (Gr 4 Mandela, 1994 vote): I narrowed "almal kon saam stem" to "grootmense van elke ras kon vir die eerste keer saam stem" without checking it. The next fact check refuted it, because the Cape had a non-racial roll from 1853 to 1936. When a quantifier is narrowed, the newness claim ("vir die eerste keer") can move onto a different subject. Check which noun "eerste" attaches to before ordering it.
