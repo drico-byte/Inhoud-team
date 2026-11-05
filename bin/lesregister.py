@@ -10,7 +10,12 @@ The register is kept here, in `kaps/lesregister/<G4_PSW>.csv`, so every PC has i
 git and every delivery script reads one source. Beside the rule's four columns
 (id, titel, tipe, ou_naam) it carries `bron`, the lesson draft the ID belongs to,
 because that is how a script knows which lesson it is holding. `--publiseer` writes
-the rule's four columns to SharePoint's `Lesregister/`.
+the rule's four columns to SharePoint's `Lesregister/`, every row included.
+
+A row of `tipe` `video` (a video-only lesson, e.g. the Gr 4 Nedersettings case studies
+G4_GEO_07b-07e) has no draft, so its `bron` is empty. Such a row is published and kept
+like any other; no delivery script looks it up, because there is nothing of ours to
+deliver for it.
 
     python bin/lesregister.py --publiseer         # copy every register to SharePoint
     python bin/lesregister.py --wys gr5           # print one grade's IDs and labels
@@ -37,10 +42,13 @@ _cache = None
 def _laai():
     global _cache
     if _cache is None:
-        _cache = {}
+        _cache, ids = {}, set()
         for f in sorted(glob.glob(os.path.join(REGISTER, "G*.csv"))):
             with open(f, encoding="utf-8", newline="") as fh:
                 for r in csv.DictReader(fh):
+                    if r["id"] in ids:
+                        raise SystemExit(f"{os.path.basename(f)}: the ID {r['id']} appears twice")
+                    ids.add(r["id"])
                     bron = (r.get("bron") or "").replace("\\", "/")
                     if bron:
                         if bron in _cache:
