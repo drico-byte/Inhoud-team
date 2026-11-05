@@ -1,6 +1,6 @@
 ---
 name: v2-uitleg-plat-per-vak
-description: "V2 inhoud is laid out Graad N / PSW|Kuns|NW en Teg|Geskiedenis|Geografie / Les NN, numbered 1-x through the year, no sub-topic folders."
+description: "V2 inhoud is laid out Graad N / PSW|Kuns|NW en Teg|Geskiedenis|Geografie / <ID> - label (Les NN before 5 Nov 2026), numbered 1-x through the year, no sub-topic folders."
 metadata:
   node_type: memory
   type: project
@@ -10,7 +10,9 @@ metadata:
 
 Lampies, 4 November 2026: `V2 inhoud/` is laid out for the HTML team as
 `Graad N/<PSW|Kuns|NW en Teg|Geskiedenis|Geografie>/Les NN - titel.pdf`, with no
-sub-topic folders.
+sub-topic folders. Since 5 November 2026 the file name is `G4_PSW_07 - <label>.pdf`,
+taken from the lesson register, and the register's number wins over the computed
+order. See [[lesnaam-reel-en-lesregister]].
 
 - Lewensvaardighede splits two ways. PSW covers ontwikkeling van self, sosiale verantwoordelikheid and gesondheids- en omgewingsverantwoordelikheid. Kuns covers uitvoerende and visuele kunste.
 - Sosiale Wetenskappe splits into Geskiedenis and Geografie by the spec's `dissipline` field.

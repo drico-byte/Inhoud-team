@@ -557,7 +557,8 @@ python bin/htmlnasien.py --html "<folder of built lessons>"
 
 **For the V2 rebuild** (since 4 November 2026), give `--vak` as a V2 folder name
 (PSW, Kuns, NW en Teg, Geskiedenis, Geografie). The tool then reads
-`V2 inhoud/manifest.json` and any file name containing "Les NN". In this mode it
+`V2 inhoud/manifest.json` and any file name containing the lesson ID (`G4_GEO_07`) or
+the older "Les NN". In this mode it
 first checks every approved sentence word for word. It reads the protected words
 only on a page that already differs, and only in the text that differs: run over
 whole pages, they fired on 300 of 326 pages built straight from approved text.
@@ -581,7 +582,8 @@ adopts it**, through the writer, not the other way round.
 ## Finished lessons go to `Voltooide lesse/`
 
 **Lampies, 22 September 2026.** Every approved lesson's PDF is also delivered to
-`Voltooide lesse/Graad N/<Vak>/<Subonderwerp>/Les NN - <titel>.pdf`. Sign-off does
+`Voltooide lesse/Graad N/<Vak>/<Subonderwerp>/<ID> - <label>.pdf` (see the naming rule
+below). Sign-off does
 this automatically (`hardloop.py` and `keur-goed-na-handnasien.py` both print a
 `Delivered:` line). The PDF beside the lesson stays the pipeline's copy. To backfill
 or refresh:
@@ -590,11 +592,58 @@ or refresh:
 python bin/voltooide_lesse.py --vak "<subject>" --graad 5 --graad 6
 ```
 
+## Delivered files are named by the Wolkskool naming rule
+
+**Drico's rule for every team, from 5 November 2026.** Every file we deliver is named
+the way `LESNAAM-REEL.md` says. That file is the only copy of the rule: read it there,
+and never copy it into this repository, so a change to it reaches us too. It lives in
+SharePoint at `Innovasie - Documents/0000NUWE LESSE/LESNAAM-REEL.md`; on this PC that
+folder syncs as `Skoleondersteuningsentrum/Innovasie - 0000HTML wolkskool lesse/`.
+
+What it means for us in particular:
+
+- **We give the numbers.** The lesson register, one CSV per grade and subject in
+  `0000NUWE LESSE/Lesregister/`, is ours to write, and every other team copies the
+  lesson ID from it. A new subject-year gets its register as soon as its year layout
+  is agreed (step 1 of "Write the whole year" above), before any lesson is drafted.
+- **The register is kept in this repository**, in `kaps/lesregister/`, so every PC
+  has it. Beside the rule's four columns it carries `bron`, the draft each ID belongs
+  to, which is how the scripts know which lesson they hold. Edit it there, never in
+  SharePoint, and then publish the rule's four columns:
+
+  ```bash
+  python bin/lesregister.py --publiseer
+  ```
+
+  The label (`titel`) is a short name for people, two to four words and at most about
+  25 characters, made from the lesson's own title. The lesson keeps its full title.
+- **The number is the lesson's place in the year, in teaching order, across the whole
+  subject**, and it is the same number `V2 inhoud` gives the lesson. For PSW and Kuns
+  that is one running number across the strands, in CAPS's term order: not a number
+  per strand, and not the alphabetical order of the sub-topic folders, which is how
+  the first Grade 5 and 6 PSW deliveries were numbered.
+- **Never renumber.** A lesson added or split later gets the suffix the rule
+  describes, and the lessons after it keep their numbers. A spec change that moves a
+  lesson in the year does not move its ID.
+- **Internal working files keep their names**: drafts, specs, extracts, reports and
+  logs. Scripts depend on them. Only what leaves the repository follows the rule.
+
+**Every delivery script names files from the register** (since 5 November 2026):
+`bin/v2_inhoud.py` (V2 inhoud), `bin/voltooide_lesse.py` (Voltooide lesse),
+`bin/uitbak.py` and `bin/leeskopie.py` (lees/). Don't rename their output by hand,
+because the next run writes it again. A lesson with no row in the register keeps its
+old name in the last three, and **V2 refuses to deliver it** and names it, so add the
+row first. V2 also reports a lesson whose place in the year no longer matches its ID,
+and keeps the ID: a person decides, and the rule says never renumber. The manifest
+keeps each file's name from before the rule (`ou_pdf`, `ou_json`), so the HTML team's
+records still match.
+
 ## Where the rest lives
 
 | | |
 |---|---|
 | `README.md` | setup, profiling a new subject-grade, the four human approval points, the HTML team boundary |
+| `LESNAAM-REEL.md` (SharePoint, `0000NUWE LESSE/`) | how every delivered file is named, and the lesson register we write |
 | `skills/wolkskool-inhoudstandaard/` | the content standard: schema, register bands, budgets, gate |
 | `prompts/` | versioned agent prompts — always use the newest `*-v1.x.md` and say which |
 | `geheue/` | accumulated rulings and mistakes worth not repeating |

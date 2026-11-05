@@ -336,6 +336,13 @@ rewritten.
 year. Those are for reading and reviewing, not for the pipeline to consume, and
 they are gitignored.
 
+Every file that leaves this repository for another team is named by the Wolkskool
+naming rule, `LESNAAM-REEL.md` in SharePoint's `0000NUWE LESSE/`, with the lesson ID
+from the register this team writes there. See "Delivered files are named by the
+Wolkskool naming rule" in `CLAUDE.md`; the rule itself is kept only in SharePoint.
+The register lives in `kaps/lesregister/`, and `bin/lesregister.py --publiseer`
+copies it to SharePoint.
+
 ## Layout
 
 ```

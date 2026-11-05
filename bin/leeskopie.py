@@ -35,6 +35,7 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paaie as P  # noqa: E402
+import lesregister as LR  # noqa: E402
 
 LEES = os.path.join(P.REPO, "lees")
 
@@ -542,7 +543,12 @@ def uitvoer_pad(les, pad):
     except ValueError:
         pass
     inskrywing = indeks.get((sub, nommer))
-    if inskrywing:
+    ry = LR.vir(pad)
+    if ry:
+        # Drico's naming rule (LESNAAM-REEL.md, 5 November 2026): the register's ID
+        # and label, for every lesson that has one.
+        naam = _veilig_naam(LR.lêernaam(ry, "")) + ".pdf"
+    elif inskrywing:
         # The shape comes from the index, so one subject can carry Drico's
         # "Les 08 - <titel>" while another keeps the older "8_<etiket>". Added
         # 12 October 2026: Geography's copies had the sub-topic's own number

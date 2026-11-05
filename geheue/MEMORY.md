@@ -473,4 +473,5 @@
 - [A caution in kern becomes an order](n-waarskuwing-in-kern-word-n-bestelling.md) — coverage demands every kern sentence; narrow the order itself, put 'don't say' in feiterisiko.
 - [BLY GELD below the marker](bly-geld-onder-die-merker.md) — old fields hide the live order under the record marker; grep a subject's specs for it before its pass.
 - [Protecting before the fact check locks in an error](beskerming-voor-feitetoets-sluit-n-fout-in.md) — twice on 28 Oct a writer's new protected phrase was the one the fact check rejected.
-- [V2 is flat per subject-year](v2-uitleg-plat-per-vak.md) — Graad/PSW|Kuns|NW en Teg|Geskiedenis|Geografie/Les NN, numbered 1-x through the year.
+- [V2 is flat per subject-year](v2-uitleg-plat-per-vak.md) — Graad/PSW|Kuns|NW en Teg|Geskiedenis|Geografie/<ID> - label, numbered 1-x through the year.
+- [File naming rule and lesson register](lesnaam-reel-en-lesregister.md) — IDs like G4_PSW_07 from our register in kaps/lesregister; short labels; never renumber.

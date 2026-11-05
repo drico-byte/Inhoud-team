@@ -17,8 +17,9 @@ first is what anyone set out to look for:
 
 Since 4 November 2026 it also reads the V2 delivery. Give --vak as a V2 folder name
 (PSW, Kuns, NW en Teg, Geskiedenis, Geografie) and the lessons are found through
-'V2 inhoud/manifest.json', whose year numbers are the ones in the V2 file names. Any
-file name carrying "Les NN" is read, so the HTML team's own names work as they are:
+'V2 inhoud/manifest.json', whose year numbers are the ones in the V2 file names. A
+file name carrying the lesson ID (`G4_GEO_07 - ...`, Drico's naming rule of 5 November
+2026) or the older "Les NN" is read, so pages named either way work as they are:
 
     python bin/htmlnasien.py --html "<folder>" --vak Geografie --graad 4
 
@@ -240,8 +241,11 @@ def main():
     for naam in os.listdir(a.html):
         if not naam.lower().endswith(".html"):
             continue
-        # "Les 07 - <titel>.html", "Gr4 Geografie Les 07 - ...", or the old "7_<etiket>".
-        m = re.search(r"\bLes\s*0*(\d+)\b", naam) or re.match(r"(\d+)_", naam)
+        # "G4_GEO_07 - <label>.html" (the naming rule), "Les 07 - <titel>.html",
+        # "Gr4 Geografie Les 07 - ...", or the old "7_<etiket>". An ID's "_00" file is
+        # not a lesson, and is skipped by the same test as a `0_` file below.
+        m = (re.search(r"\bG\d+_[A-Z]+_0*(\d+)[a-z]?\b", naam)
+             or re.search(r"\bLes\s*0*(\d+)\b", naam) or re.match(r"(\d+)_", naam))
         # Lesson numbers start at 1. A `0_` file is an errata sheet dropped in the
         # same folder for the layout team, and reading it as a lesson reports the
         # protected words it QUOTES as words the built pages got wrong.

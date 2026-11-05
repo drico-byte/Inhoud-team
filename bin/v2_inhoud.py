@@ -7,7 +7,13 @@ Grade 4-6 lesson, and the CAPS audit's gaps are filled in the same pass. Every
 lesson that comes through it is delivered again, into one flat folder per grade and
 subject, the way the HTML team works (Lampies, 4 November 2026):
 
-    V2 inhoud/Graad 4/PSW/Les 03 - <titel>.pdf
+    V2 inhoud/Graad 4/PSW/G4_PSW_03 - <label>.pdf
+
+Since 5 November 2026 the file name follows Drico's naming rule (LESNAAM-REEL.md in
+SharePoint): the lesson's ID and label from the lesson register (bin/lesregister.py).
+The register is the authority for the number. The year order below is still worked
+out, and a lesson whose place in it no longer matches its ID is reported, never
+renumbered. A lesson with no ID in the register is not delivered.
 
 Lewensvaardighede splits into PSW (Persoonlike en Sosiale Welstand: ontwikkeling van
 self, sosiale verantwoordelikheid, gesondheids- en omgewingsverantwoordelikheid) and
@@ -43,6 +49,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paaie as P  # noqa: E402
+import lesregister as LR  # noqa: E402
 import voltooide_lesse as V  # noqa: E402
 from hardloop import TAALSTAP_SEDERT  # noqa: E402
 
@@ -139,11 +146,14 @@ def jaarvolgorde(paaie):
     return uit
 
 
-def doel_pad(les, plek):
-    (graad, vak), n = plek
-    titel = les.get("titel") or ""
-    naam = V._veilig(f"Les {n:02d} - {titel}" if titel else f"Les {n:02d}") + ".pdf"
-    return os.path.join(V2, f"Graad {graad}", vak, naam)
+def register_nommer(ry):
+    """The lesson number inside an ID: 7 for G4_PSW_07 (and for G4_PSW_07b)."""
+    return int(re.match(r"\d+", ry["id"].split("_")[-1]).group(0))
+
+
+def doel_pad(les, plek, ry):
+    (graad, vak), _ = plek
+    return os.path.join(V2, f"Graad {graad}", vak, V._veilig(LR.lêernaam(ry, "")) + ".pdf")
 
 
 def _ruim_op(behou):
@@ -167,10 +177,9 @@ def _ruim_op(behou):
 
 def _rang(rel):
     gids, naam = os.path.split(rel)
-    try:
-        return gids, int(naam.split(" - ")[0].split()[-1])
-    except ValueError:
-        return gids, 0
+    voor = naam.split(" - ")[0]           # "G4_PSW_07" (or the old "Les 07")
+    m = re.search(r"(\d+)([a-z]?)$", voor)
+    return (gids, int(m.group(1)), m.group(2)) if m else (gids, 0, "")
 
 
 def stand(pad):
@@ -303,6 +312,12 @@ def skryf_manifes(inskrywings):
         if vorige and vorige.get("json_sha256") != e["json_sha256"]:
             uitgawes.append({k: vorige.get(k) for k in ("goedgekeur", "json_sha256", "pdf_sha256", "pdf")})
         e["uitgawes"] = uitgawes
+        # The names before Drico's naming rule, so the HTML team's records (keyed on
+        # the old V2 paths) can still be matched to the lesson.
+        for k in ("pdf", "json"):
+            ou = (vorige or {}).get(f"ou_{k}") or (vorige or {}).get(k)
+            if ou and ou != e[k]:
+                e[f"ou_{k}"] = ou
     with open(MANIFES, "w", encoding="utf-8", newline="\n") as fh:
         json.dump({"skema": "wolkskool-v2-manifes-1",
                    "nota": ("One entry per lesson in V2 inhoud. status 'final' may be built; "
@@ -316,7 +331,7 @@ def skryf_manifes(inskrywings):
 def main():
     gapings = P.lees_json(GAPINGS) if os.path.exists(GAPINGS) else {}
     hou = P.lees_json(TERUGGEHOU) if os.path.exists(TERUGGEHOU) else {}
-    rye, sonder_pdf, verskil, manifes = [], [], [], []
+    rye, sonder_pdf, verskil, manifes, sonder_id, skuif = [], [], [], [], [], []
     alles = [p for p in sorted(glob.glob(os.path.join(P.KONSEPTE, "gr[456]", "*", "*", "les-*.json")))
              if P.is_les_konsep(p) and P.lees_json(p).get("vak") in OOR]
     plek = jaarvolgorde(alles)
@@ -326,7 +341,16 @@ def main():
             continue
         les = P.lees_json(pad)
         bron = pad[:-len(".json")] + ".pdf"
-        doel = doel_pad(les, plek[pad])
+        ry = LR.vir(pad)
+        if not ry:
+            sonder_id.append(pad)
+            continue
+        (groep, rang) = plek[pad]
+        if register_nommer(ry) != rang:
+            # Never renumber (LESNAAM-REEL.md): the ID stands, and a person decides.
+            skuif.append((ry["id"], rang, pad))
+        plek[pad] = (groep, register_nommer(ry))
+        doel = doel_pad(les, plek[pad], ry)
         if not os.path.exists(bron):
             sonder_pdf.append(pad)
             continue
@@ -345,6 +369,7 @@ def main():
             fh.write("\n")
         v2 = lambda p: os.path.relpath(p, V2).replace(os.sep, "/")  # noqa: E731
         manifes.append({
+            "id": ry["id"],
             "graad": data["graad"], "vak": data["vak"], "nommer": data["nommer"],
             "titel": data["titel"], "pdf": v2(doel), "json": v2(doel_json),
             "status": "held" if rel in hou else "final",
@@ -383,12 +408,22 @@ def main():
         print(f"{len(sonder_pdf)} goedgekeurde lesse het nog geen PDF nie:")
         for p in sonder_pdf:
             print("  " + os.path.relpath(p, P.REPO))
+    if sonder_id:
+        print(f"{len(sonder_id)} goedgekeurde lesse NIE afgelewer nie: hulle het nog geen ID in "
+              f"die lesregister nie (kaps/lesregister/, dan bin/lesregister.py --publiseer):")
+        for p in sonder_id:
+            print("  " + os.path.relpath(p, P.REPO))
+    if skuif:
+        print(f"{len(skuif)} lesse se plek in die jaar stem nie meer met hul ID nie. Die ID bly "
+              f"(LESNAAM-REEL.md: moet nooit hernommer nie); 'n mens besluit:")
+        for lid, rang, p in skuif:
+            print(f"  {lid}: nou plek {rang} in die jaar ({os.path.relpath(p, P.REPO)})")
     if verskil:
         print(f"{len(verskil)} lesse NIE afgelewer nie: die PDF stem nie met die les ooreen nie "
               f"(druk die PDF weer met bin/leeskopie.py):")
         for rel, mis in verskil:
             print(f"  {rel}: {mis[0][:100]}")
-    return 1 if sonder_pdf or verskil else 0
+    return 1 if sonder_pdf or verskil or sonder_id else 0
 
 
 if __name__ == "__main__":

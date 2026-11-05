@@ -4,9 +4,13 @@ Every file here is written by `bin/v2_inhoud.py`. Do not edit anything here exce
 what is under `Terugvoer/`. The next run deletes any PDF or JSON in a grade folder
 that is not a current delivery, and rewrites the manifest.
 
-- **`Graad N/<vak>/Les NN - <titel>.pdf`** is the approved lesson, and the PDF is
+- **`Graad N/<vak>/G4_PSW_07 - <label>.pdf`** is the approved lesson, and the PDF is
   the authority. `<vak>` is one of PSW, Kuns, NW en Teg, Geskiedenis or Geografie.
-  NN is the lesson's number through the year for that subject.
+  Since 5 November 2026 the name follows Drico's naming rule (`LESNAAM-REEL.md` in
+  SharePoint's `0000NUWE LESSE/`): `G4_PSW_07` is the lesson ID from the lesson
+  register in `0000NUWE LESSE/Lesregister/`, and it never changes. Its number is the
+  lesson's place in the year for that subject. The label after it is a short name
+  for people and may be reworded; the lesson's own title is in the JSON.
 - **`... .json` beside it** holds the same lesson as data, built from the same
   approved file. Each run checks that every learner string in it appears in the
   PDF, and if one doesn't, it delivers neither file.
@@ -22,6 +26,10 @@ that is not a current delivery, and rewrites the manifest.
   - `json_sha256` is the content fingerprint. When it changes, the lesson was
     reissued, and the previous issue is listed under `uitgawes`.
   - `pdf_sha256` can change when the PDF is printed again with the text unchanged.
+  - `id` is the lesson ID. `ou_pdf` and `ou_json` are the file names before the
+    naming rule (`Graad 4/PSW/Les 07 - <titel>.pdf`), so a record keyed on the old
+    names can be matched to the lesson. Renaming changed no lesson's content or
+    fingerprint.
 - **`Veranderinge.md`** says, per lesson, what changed and why.
 - **`teruggehou.json`** is where the content team puts a hold:
   `{"<bron>": "rede"}`.
@@ -35,7 +43,7 @@ To check built pages against the repository:
 python bin/htmlnasien.py --html "<folder>" --vak Geografie --graad 4
 ```
 
-Any file name containing "Les NN" is read. The check reports four things:
+Any file name containing the lesson ID (`G4_GEO_07`) or the older "Les NN" is read. The check reports four things:
 
 - every approved sentence that is not on the page word for word;
 - shared definitions that differ;

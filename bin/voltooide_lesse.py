@@ -5,7 +5,11 @@ and sub-topic.
 Lampies, 22 September 2026: finished lessons are output to one folder that people
 browse, ordered into sensible folders:
 
-    Voltooide lesse/Graad 6/Lewensvaardighede/Ontwikkeling van self/Les 03 - <titel>.pdf
+    Voltooide lesse/Graad 6/Lewensvaardighede/Ontwikkeling van self/G6_PSW_03 - <label>.pdf
+
+The file name is the lesson's ID and label from the lesson register (bin/lesregister.py),
+as Drico's naming rule asks (LESNAAM-REEL.md, 5 November 2026). A lesson that has no
+ID yet keeps the old `Les NN - <titel>` name, with NN its number in the sub-topic.
 
 The PDF beside the lesson stays where it is: that one is the pipeline's copy. This
 folder is a delivery copy, and it is rebuilt by copying, never by editing. The sign-
@@ -30,6 +34,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paaie as P  # noqa: E402
+import lesregister as LR  # noqa: E402
 
 VOLTOOI = os.path.join(P.REPO, "Voltooide lesse")
 
@@ -58,15 +63,23 @@ def _subonderwerp_naam(les_json_pad, les):
     return gids.replace("-", " ").capitalize()
 
 
-def doel_pad(les, les_json_pad):
+def _ou_voor(les_json_pad):
+    """The pre-rule name's lesson part: 'Les 03' (the number in its sub-topic)."""
     stam = os.path.splitext(os.path.basename(les_json_pad))[0]
     try:
-        nommer = int(stam.split("-")[-1])
-        voor = f"Les {nommer:02d}"
+        return f"Les {int(stam.split('-')[-1]):02d}"
     except ValueError:
-        voor = stam
-    titel = les.get("titel") or ""
-    lêer = _veilig(f"{voor} - {titel}" if titel else voor) + ".pdf"
+        return stam
+
+
+def doel_pad(les, les_json_pad):
+    ry = LR.vir(les_json_pad)
+    if ry:
+        lêer = _veilig(LR.lêernaam(ry, "")) + ".pdf"
+    else:
+        voor = _ou_voor(les_json_pad)
+        titel = les.get("titel") or ""
+        lêer = _veilig(f"{voor} - {titel}" if titel else voor) + ".pdf"
     return os.path.join(
         VOLTOOI,
         f"Graad {les.get('graad')}",
@@ -76,11 +89,13 @@ def doel_pad(les, les_json_pad):
     )
 
 
-def _ou_kopieë(doel):
-    """Other files for the same lesson number (the title may have changed)."""
+def _ou_kopieë(doel, les_json_pad):
+    """Other files for the same lesson: its label may have changed, and a copy may
+    still carry the name from before the naming rule."""
     gids, naam = os.path.split(doel)
-    voor = naam.split(" - ")[0]
-    return [p for p in glob.glob(os.path.join(gids, voor + "*.pdf")) if os.path.abspath(p) != os.path.abspath(doel)]
+    voor = {naam.split(" - ")[0], _ou_voor(les_json_pad)}
+    return [p for v in voor for p in glob.glob(os.path.join(gids, glob.escape(v) + " - *.pdf"))
+            if os.path.abspath(p) != os.path.abspath(doel)]
 
 
 def kopieer(les, les_json_pad, pdf_pad=None):
@@ -88,14 +103,14 @@ def kopieer(les, les_json_pad, pdf_pad=None):
     pdf_pad = pdf_pad or les_json_pad[:-len(".json")] + ".pdf"
     doel = doel_pad(les, les_json_pad)
     if les.get("status") != "goedgekeur":
-        for p in [doel] + _ou_kopieë(doel):
+        for p in [doel] + _ou_kopieë(doel, les_json_pad):
             if os.path.exists(p):
                 os.remove(p)
         return None
     if not os.path.exists(pdf_pad):
         return None
     os.makedirs(os.path.dirname(doel), exist_ok=True)
-    for p in _ou_kopieë(doel):
+    for p in _ou_kopieë(doel, les_json_pad):
         os.remove(p)
     shutil.copy2(pdf_pad, doel)
     return doel
@@ -116,7 +131,7 @@ def verwyder_verouderd(les, les_json_pad):
         return []
     doel = doel_pad(les, les_json_pad)
     weg = []
-    for p in [doel] + _ou_kopieë(doel):
+    for p in [doel] + _ou_kopieë(doel, les_json_pad):
         if os.path.exists(p):
             os.remove(p)
             weg.append(os.path.relpath(p, P.REPO))

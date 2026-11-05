@@ -2,7 +2,7 @@
 """Assemble the outbox: every approved lesson's PDF plus its sub-topic's protected-
 words page.
 
-    lees/gr6/sosiale-wetenskappe/demokrasie-en-burgerskap/Les 01 - <titel>.pdf
+    lees/gr6/sosiale-wetenskappe/demokrasie-en-burgerskap/G6_GES_20 - <label>.pdf
     lees/gr6/sosiale-wetenskappe/demokrasie-en-burgerskap/BESKERMDE-WOORDE.md
 
 `lees/` is Drico's outbox, not an archive: he moves what is in it out to the Afrikaans
@@ -38,6 +38,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paaie as P  # noqa: E402
 import taalnasien as T  # noqa: E402
+import lesregister as LR  # noqa: E402
 import voltooide_lesse as V  # noqa: E402
 
 LEES = os.path.join(P.REPO, "lees")
@@ -137,22 +138,34 @@ def jaarnommer(les, les_pad):
     return binne, False
 
 
+def _ou_voor(les, les_pad):
+    n, _ = jaarnommer(les, les_pad)
+    return f"Les {n:02d}" if isinstance(n, int) else os.path.basename(les_pad)[:-5]
+
+
 def doel_pad(les, les_pad):
-    n, uit_spek = jaarnommer(les, les_pad)
-    voor = f"Les {n:02d}" if isinstance(n, int) else os.path.basename(les_pad)[:-5]
-    titel = les.get("titel") or ""
-    naam = V._veilig(f"{voor} - {titel}" if titel else voor) + ".pdf"
+    """The outbox file: the register's `<ID> - <label>.pdf` (LESNAAM-REEL.md), or the
+    old `Les NN - <titel>.pdf` for a lesson the register does not have yet."""
+    _, uit_spek = jaarnommer(les, les_pad)
+    ry = LR.vir(les_pad)
+    if ry:
+        naam = V._veilig(LR.lêernaam(ry, "")) + ".pdf"
+    else:
+        voor = _ou_voor(les, les_pad)
+        titel = les.get("titel") or ""
+        naam = V._veilig(f"{voor} - {titel}" if titel else voor) + ".pdf"
     return os.path.join(uitbak_gids(les, les_pad), naam), uit_spek
 
 
-def _ou_kopiee(doel):
-    """Other files for the same lesson number: the title may have changed."""
+def _ou_kopiee(doel, les, les_pad):
+    """Other files for the same lesson: its label may have changed, and a copy may
+    still carry the name from before the naming rule (`Les NN - <titel>.pdf`)."""
     gids, naam = os.path.split(doel)
-    voor = naam.split(" - ")[0]
+    voor = {naam.split(" - ")[0], _ou_voor(les, les_pad)}
     if not os.path.isdir(gids):
         return []
     return [os.path.join(gids, n) for n in os.listdir(gids)
-            if n.startswith(voor + " - ") and n.lower().endswith(".pdf")
+            if any(n.startswith(v + " - ") for v in voor) and n.lower().endswith(".pdf")
             and os.path.abspath(os.path.join(gids, n)) != os.path.abspath(doel)]
 
 
@@ -439,12 +452,12 @@ def lewer_een(les, les_pad, pdf_pad=None):
               "hold two lessons under one number, so neither is copied."
               % (P.rel(les_pad), myne, ander))
         return None, None
-    if not uit_spek:
+    if not uit_spek and not LR.vir(les_pad):
         print("Outbox: %s has no jaarnommer in its approved spec, so the number in "
               "its name is the sub-topic's and not the year's." % P.rel(les_pad))
 
     os.makedirs(gids, exist_ok=True)
-    for ou in _ou_kopiee(doel) + _plat_kopie(les, les_pad):
+    for ou in _ou_kopiee(doel, les, les_pad) + _plat_kopie(les, les_pad):
         os.remove(ou)
     ruim_ou_uitleg([ou_uitleg_gids(les, les_pad)])
     shutil.copy2(pdf_pad, doel)
@@ -501,10 +514,10 @@ def main():
             if voor in bots:
                 geblokkeer.add((voor, tuple(bots[voor])))
                 continue
-            if not uit_spek:
+            if not uit_spek and not LR.vir(pad):
                 sonder_jaar.append(pad)
             ou_gidse.add(ou_uitleg_gids(les, pad))
-            for ou in _ou_kopiee(doel) + _plat_kopie(les, pad):
+            for ou in _ou_kopiee(doel, les, pad) + _plat_kopie(les, pad):
                 opgeruim += 1
                 if not a.droog:
                     os.remove(ou)
