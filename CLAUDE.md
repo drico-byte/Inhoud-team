@@ -638,12 +638,46 @@ and keeps the ID: a person decides, and the rule says never renumber. The manife
 keeps each file's name from before the rule (`ou_pdf`, `ou_json`), so the HTML team's
 records still match.
 
+## Finished lessons also go into the content library
+
+**Drico's delivery rule for every team, from 5 November 2026.** Read
+`AFLEWERING-REEL.md`, beside the naming rule in `0000NUWE LESSE/`; it is the only copy
+of the rule, so don't copy it here. The library is SharePoint's "Wolkskool Nuwe Inhoud
+V3", synced as `Skoleondersteuningsentrum/Wolkskool Nuwe Inhoud V3 - Documents`. It is
+the one place where finished work lives, and other teams will read their input from it.
+
+Our product there is each subject's `Graad N/<code>/Inhoud/` folder: every lesson's
+`.json` (downstream builds from it) and `.pdf` (the check and the record), named by
+the register, plus the subject's `manifest.json`. **It is a mirror of `V2 inhoud`,
+subject by subject, byte for byte**, so what other teams build from is exactly what
+`bin/v2_inhoud.py` checked.
+
+**Sign-off delivers it in the same step as the other deliveries.** It rebuilds V2,
+which takes about 15 seconds, and then mirrors the lesson's subject into the library.
+`hardloop.py` and `keur-goed-na-handnasien.py` both print a `Library:` line. A redone
+lesson replaces its files, and a file of ours that is no longer current is removed, so
+there is never more than one file per ID. `bin/biblioteek.py` touches nothing in the
+library but our own files in `Inhoud/`. To fill or check it by hand:
+
+```bash
+python bin/biblioteek.py --alles --droog
+python bin/biblioteek.py --tel
+```
+
+Only finished lessons go in: language-check pages, review notes, drafts and outbox
+files stay out. **Only Grades 4-6 are finished**, all 338 lessons through the post-audit
+pass. Grade 7 Lewensoriëntering was never part of the audit and will be redone, so it
+has no register and stays out. Grade 5 Sosiale Wetenskappe is not in this repository.
+**Until Drico completes the switch, we keep delivering to `0000NUWE LESSE` as
+before**, and the register stays published there.
+
 ## Where the rest lives
 
 | | |
 |---|---|
 | `README.md` | setup, profiling a new subject-grade, the four human approval points, the HTML team boundary |
 | `LESNAAM-REEL.md` (SharePoint, `0000NUWE LESSE/`) | how every delivered file is named, and the lesson register we write |
+| `AFLEWERING-REEL.md` (SharePoint, `0000NUWE LESSE/`) | the content library: where finished work goes, and who reads what |
 | `skills/wolkskool-inhoudstandaard/` | the content standard: schema, register bands, budgets, gate |
 | `prompts/` | versioned agent prompts — always use the newest `*-v1.x.md` and say which |
 | `geheue/` | accumulated rulings and mistakes worth not repeating |

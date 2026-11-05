@@ -240,8 +240,9 @@ def main():
     goedgekeur = [reel for reel in r.stdout.splitlines() if "Approved in place" in reel]
     if goedgekeur:
         print(goedgekeur[0])
-        for merk in ("Readable copy", "Delivered", "Outbox", "Beskermde woorde",
-                     "could not be copied", "could not be put in the outbox"):
+        for merk in ("Readable copy", "Delivered", "Outbox", "Beskermde woorde", "Library",
+                     "could not be copied", "could not be put in the outbox",
+                     "could not be put in the content library"):
             reels = [reel for reel in r.stdout.splitlines() if merk in reel]
             if reels:
                 print(reels[0])

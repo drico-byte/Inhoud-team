@@ -842,6 +842,18 @@ def pdf_langs_les(les, les_json_pad):
         except Exception as ex:                  # noqa: BLE001 - never block approval
             print(f"\nThe lesson is approved, but could not be put in the "
                   f"outbox: {type(ex).__name__}: {str(ex)[:200]}")
+        # Drico's delivery rule (AFLEWERING-REEL.md, 5 November 2026): every finished
+        # lesson also goes into the shared content library, in this same step.
+        try:
+            import biblioteek
+            bib, rede = biblioteek.lewer(les, les_json_pad, pdf or doel)
+            if bib:
+                print(f"Library:        {bib}")
+            else:
+                print(f"Library:        not delivered ({rede})")
+        except Exception as ex:                  # noqa: BLE001 - never block approval
+            print(f"\nThe lesson is approved, but could not be put in the content "
+                  f"library: {type(ex).__name__}: {str(ex)[:200]}")
         return pdf
     except Exception as ex:                      # noqa: BLE001 — never block approval
         print(f"\nThe lesson is approved. The readable PDF could not be made: "

@@ -343,6 +343,12 @@ Wolkskool naming rule" in `CLAUDE.md`; the rule itself is kept only in SharePoin
 The register lives in `kaps/lesregister/`, and `bin/lesregister.py --publiseer`
 copies it to SharePoint.
 
+Every finished lesson also goes into the shared content library ("Wolkskool Nuwe
+Inhoud V3"), under Drico's delivery rule, `AFLEWERING-REEL.md` in the same SharePoint
+folder: its `.json` and `.pdf` and the subject's `manifest.json`, mirrored from
+`V2 inhoud`. Sign-off does it through `bin/biblioteek.py`. See "Finished lessons also go
+into the content library" in `CLAUDE.md`.
+
 ## Layout
 
 ```

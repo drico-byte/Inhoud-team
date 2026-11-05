@@ -1,6 +1,9 @@
 # V2 inhoud: for the HTML team
 
-Every file here is written by `bin/v2_inhoud.py`. Do not edit anything here except
+Every file here is written by `bin/v2_inhoud.py`, which sign-off now runs too. Each
+subject is mirrored, byte for byte, into the content library ("Wolkskool Nuwe Inhoud
+V3", `Graad N/<code>/Inhoud/`, with a `manifest.json` per subject); see
+`AFLEWERING-REEL.md`. Do not edit anything here except
 what is under `Terugvoer/`. The next run deletes any PDF or JSON in a grade folder
 that is not a current delivery, and rewrites the manifest.
 
