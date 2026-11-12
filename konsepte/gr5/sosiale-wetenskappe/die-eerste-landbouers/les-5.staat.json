@@ -1,0 +1,61 @@
+{
+  "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-5",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:bb46f0a9b31ce91202d7136dcaf1ca85",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:78a446b07a1fa2ab4fd6d2c347bfeaa0"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-12T21:19:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:78a446b07a1fa2ab4fd6d2c347bfeaa0",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T21:19:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 225,
+      "begroting": 200,
+      "failures": [
+        "Study text 225 words, above budget ceiling 224 (planned 200 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:19:52+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 225 words, above budget ceiling 224 (planned 200 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:34:21+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:bb46f0a9b31ce91202d7136dcaf1ca85",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T21:34:22+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 221,
+      "begroting": 200,
+      "failures": []
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:d9c117abed1249d34c107426fee12fc1",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 200
+  },
+  "taal_rondte_vir": "sha256:bb46f0a9b31ce91202d7136dcaf1ca85"
+}

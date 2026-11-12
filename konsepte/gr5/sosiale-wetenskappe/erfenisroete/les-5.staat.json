@@ -1,0 +1,50 @@
+{
+  "les": "gr5/sosiale-wetenskappe/erfenisroete/les-5",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:f41cc77ef650cb94dc08bce1c35751be",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:f41cc77ef650cb94dc08bce1c35751be"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-12T21:22:01+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f41cc77ef650cb94dc08bce1c35751be",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T21:22:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 238,
+      "begroting": 200,
+      "failures": [
+        "Study text 238 words, above budget ceiling 224 (planned 200 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters.",
+        "Study text: syllables per word 1.65 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 18.5% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:22:04+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 238 words, above budget ceiling 224 (planned 200 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters.",
+        "Study text: syllables per word 1.65 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 18.5% above maximum 13.0%"
+      ]
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:bea5f6d3f057b1c7d7a4c37d7fa55a9d",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 200
+  }
+}

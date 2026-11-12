@@ -1,0 +1,63 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die Steentydperk in drie dele",
+      "voor": "het sy naam omdat",
+      "na": "het sy naam gekry omdat",
+      "soort": "idioom",
+      "rede_vinder": "A name is 'gekry' (received) for a reason; 'het sy naam omdat' reads slightly clipped and unidiomatic.",
+      "fout": "'het sy naam omdat' is clipped; Afrikaans says a thing 'het sy naam gekry' for a reason",
+      "rede_keurder": "The fixed expression 'sy naam gekry' is the natural Afrikaans, and the sentence still says the same thing."
+    },
+    {
+      "nr": 2,
+      "blok": "Die Steentydperk in drie dele",
+      "voor": "is sy drie dele",
+      "na": "is die drie dele",
+      "soort": "verwysing",
+      "rede_vinder": "The sentence before has 'Klip' as subject, so 'sy' could be read as referring to the stone rather than the Stone Age; 'die' removes the ambiguity under a heading that already names the Stone Age.",
+      "fout": "'sy' follows a sentence whose subject is 'Klip', so it can point to two antecedents",
+      "rede_keurder": "'die drie dele' removes the pronoun ambiguity under a heading that already names the Stone Age, without moving the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Klip, brons en yster / Die Steentydperk in drie dele",
+      "teks": "In Suider-Afrika was daar egter nie 'n aparte Bronstydperk nie. ... In Suid-Afrika het die Vroeë Steentydperk sowat twee miljoen jaar gelede begin.",
+      "rede": "The lesson uses 'Suider-Afrika' in one block and 'Suid-Afrika' in the next; probably deliberate (different regions), but a person or the fact check should confirm, since a language agent cannot choose without guessing the content."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 218,
+  "woorde_na": 219,
+  "wanneer": "2026-11-12T21:31:30+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Die Steentydperk in drie dele",
+      "voor": "Van oudste na jongste",
+      "na": "Van die oudste tot die jongste",
+      "soort": "idioom",
+      "rede_vinder": "'van ... tot' with the articles is the natural Afrikaans form; 'van oudste na jongste' echoes English 'from oldest to youngest'.",
+      "fout": "none",
+      "rede_keurder": "'Van oudste na jongste' follows the natural Afrikaans ordering pattern (cf. 'van klein na groot'), so the change is lateral."
+    },
+    {
+      "nr": 4,
+      "blok": "Die mense van hierdie kwartaal",
+      "voor": "die koms van boere met yster",
+      "na": "die koms van boere wat yster gebruik het",
+      "soort": "sinsbou",
+      "rede_vinder": "'boere met yster' is compressed and can attach to the wrong phrase; a short relative clause is clearer for Grade 5.",
+      "fout": "none",
+      "rede_keurder": "Embedding 'wat yster gebruik het' before 'op hul eie manier bly leef' stacks verbs mid-sentence and makes it harder for a Grade 5 reader."
+    }
+  ],
+  "konsep_hash_voor": "sha256:a999934a5046064a77668eae7636f42d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e28ea36b52b56a54e7341bf17fa53238"
+}

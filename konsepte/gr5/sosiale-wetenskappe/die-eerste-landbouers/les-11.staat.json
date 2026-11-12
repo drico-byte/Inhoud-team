@@ -1,0 +1,65 @@
+{
+  "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-11",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:7d91f5eaab8aa7bdda25394c67ef37c0",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:503cb9204ed637bf643198625998ec31"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-12T21:20:26+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:503cb9204ed637bf643198625998ec31",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T21:20:27+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 236,
+      "begroting": 225,
+      "failures": [
+        "Study text: mean sentence length 9.9 below band minimum 11.0 — sentences are choppier than the grade expects",
+        "Study text: syllables per word 1.72 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 18.2% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:20:28+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: mean sentence length 9.9 below band minimum 11.0 — sentences are choppier than the grade expects",
+        "Study text: syllables per word 1.72 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 18.2% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:43:05+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:7d91f5eaab8aa7bdda25394c67ef37c0",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T21:43:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 238,
+      "begroting": 225,
+      "failures": []
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:2f19b216cfa743246549a1a6ea760ac4",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 225
+  },
+  "taal_rondte_vir": "sha256:7d91f5eaab8aa7bdda25394c67ef37c0"
+}

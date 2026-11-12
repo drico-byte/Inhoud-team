@@ -1,0 +1,48 @@
+{
+  "les": "gr5/sosiale-wetenskappe/egipte/les-9",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:f956a3a194659da36592f492927a2e7a",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:f956a3a194659da36592f492927a2e7a"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-12T21:21:27+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f956a3a194659da36592f492927a2e7a",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T21:21:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 266,
+      "begroting": 250,
+      "failures": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 13.9% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:21:29+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 13.9% above maximum 13.0%"
+      ]
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:4e329e72a923714f003846fd5b8a6366",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 250
+  }
+}

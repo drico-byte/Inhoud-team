@@ -1,0 +1,63 @@
+{
+  "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-10",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:bc9b2ae3a80b0e33550eb91756295a6d",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:5e0cd6a013e6cbad8eb6d4d97023687f"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-12T21:20:18+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5e0cd6a013e6cbad8eb6d4d97023687f",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T21:20:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 198,
+      "begroting": 200,
+      "failures": [
+        "Study text: syllables per word 1.69 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 0.41 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:20:22+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: syllables per word 1.69 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 0.41 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:41:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:bc9b2ae3a80b0e33550eb91756295a6d",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T21:41:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 215,
+      "begroting": 200,
+      "failures": []
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:dffd65c8fedfa2153b6c23504c7eece9",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 200
+  },
+  "taal_rondte_vir": "sha256:bc9b2ae3a80b0e33550eb91756295a6d"
+}

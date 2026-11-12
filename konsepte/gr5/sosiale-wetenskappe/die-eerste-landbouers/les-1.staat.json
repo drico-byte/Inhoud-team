@@ -1,0 +1,108 @@
+{
+  "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-1",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:df853b9ef7802a77002e36449d71c20a",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:5327674b5ea5beb2ed74650353d1886d"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-12T21:19:16+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5327674b5ea5beb2ed74650353d1886d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T21:19:18+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 450,
+      "begroting": 400,
+      "failures": [
+        "Study text 450 words, above budget ceiling 448 (planned 400 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:19:18+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 450 words, above budget ceiling 448 (planned 400 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:26:43+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:160a0bdcd3e946492065cb3c323e1a06",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T21:26:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 438,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T21:32:15+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 8,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 438,
+      "woorde_na": 439,
+      "konsep_hash": "sha256:4c0853bab0eccb756f3a2f3ff9ef8438"
+    },
+    {
+      "wanneer": "2026-11-12T21:32:17+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 439,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T21:32:17+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Iemand wat plante kweek, diere aanhou of albei doen vir kos.': 'vir kos' hangs loosely at the end of the definition."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:33:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:df853b9ef7802a77002e36449d71c20a",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T21:33:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 439,
+      "begroting": 400,
+      "failures": []
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:bc22191a806846e742c8446dd05ba47e",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 400
+  },
+  "taal_rondte_vir": "sha256:df853b9ef7802a77002e36449d71c20a",
+  "taal_keurder_vir": "bc70a1ef58408422e8b824c6f86a3022",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:4c0853bab0eccb756f3a2f3ff9ef8438",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:4c0853bab0eccb756f3a2f3ff9ef8438",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "2eeee0cc5b27ad24c88b4300432e4d99"
+}

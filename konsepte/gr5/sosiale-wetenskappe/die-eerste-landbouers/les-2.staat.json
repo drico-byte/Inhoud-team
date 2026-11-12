@@ -1,0 +1,98 @@
+{
+  "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-2",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:c1dafffe492a19e0e12fd0b8f0e4ca45",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:005639897c681e2755e774a92c8c6122"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-12T21:19:22+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:005639897c681e2755e774a92c8c6122",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T21:19:24+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 304,
+      "begroting": 250,
+      "failures": [
+        "Study text 304 words, above budget ceiling 280 (planned 250 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:19:24+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 304 words, above budget ceiling 280 (planned 250 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:28:00+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5a64e630b656defa345bfa5730a74dc9",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T21:28:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 263,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T21:32:00+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 263,
+      "woorde_na": 266,
+      "konsep_hash": "sha256:a43b5166f3947dca0946337d012fdb4d"
+    },
+    {
+      "wanneer": "2026-11-12T21:32:01+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 266,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T21:42:59+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c1dafffe492a19e0e12fd0b8f0e4ca45",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T21:43:01+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 282,
+      "begroting": 250,
+      "failures": []
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:efa07950fb9c7e1e2d2a9bc4bbbcefeb",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 250
+  },
+  "taal_rondte_vir": "sha256:c1dafffe492a19e0e12fd0b8f0e4ca45",
+  "taal_keurder_vir": "29efba5d979f5662a0ebfe5f8418eae5",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:a43b5166f3947dca0946337d012fdb4d",
+  "taal_vir_mens": []
+}

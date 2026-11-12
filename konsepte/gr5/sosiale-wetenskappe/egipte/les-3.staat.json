@@ -1,0 +1,50 @@
+{
+  "les": "gr5/sosiale-wetenskappe/egipte/les-3",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:da4eb360da304af5d29c3a487cf32f04",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:da4eb360da304af5d29c3a487cf32f04"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-12T21:20:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:da4eb360da304af5d29c3a487cf32f04",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T21:20:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 265,
+      "begroting": 250,
+      "failures": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 16.6% above maximum 13.0%",
+        "Study text: 0.48 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T21:20:52+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 16.6% above maximum 13.0%",
+        "Study text: 0.48 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:3efa04b6c90843aa98a015b864a42367",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 250
+  }
+}
