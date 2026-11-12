@@ -1,24 +1,35 @@
 {
   "toegepas": [
     {
-      "nr": 1,
-      "blok": "Saam is die gemeenskap sterk",
-      "voor": "kon 'n nuweling begin boer en het die gemeenskap sterk gebly",
-      "na": "kon 'n nuweling begin boer, en het die gemeenskap sterk gebly",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017 comma before 'en' joining two clauses that each have their own subject and verb (a nuweling kon begin boer / die gemeenskap het sterk gebly); reviewer should confirm the comma does not seem to detach the second clause from the shared 'Omdat'.",
-      "fout": "Missing AWS 2017 comma before 'en' joining two main clauses that each have their own subject and verb ('n nuweling kon begin boer / het die gemeenskap sterk gebly).",
-      "rede_keurder": "The comma is required by AWS 2017; the inverted 'het die gemeenskap' still ties the second clause to the fronted 'Omdat', so the meaning does not move and no protected wording is touched."
+      "nr": 2,
+      "blok": "Beeste vir 'n nuweling",
+      "voor": "Wie die beeste opgepas het, kon die melk gebruik",
+      "na": "Die mense wat die beeste opgepas het, kon die melk gebruik",
+      "soort": "verwysing",
+      "rede_vinder": "Singular 'wie' is later picked up by plural 'hulself'; a plural subject makes the pronoun agree.",
+      "fout": "Singular generic 'wie' is picked up by plural 'hulself', an agreement mismatch.",
+      "rede_keurder": "A plural subject agrees with 'hulself' and still means whoever looked after the cattle, single person or family, so the meaning does not move and no protected word is touched."
     }
   ],
   "nie_toegepas": [],
-  "laat_vaar": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Beeste vir 'n nuweling",
+      "voor": "of 'n arm familie leen om op te pas",
+      "na": "of 'n arm familie uitleen om op te pas",
+      "soort": "woordkeuse",
+      "rede_vinder": "A Grade 5 reader usually takes 'leen' as 'borrow'; 'uitleen' makes clear the owner is lending the cattle out.",
+      "fout": "none",
+      "rede_keurder": "'aan so 'n nuweling ... leen' already means lend, because 'aan' settles the direction, so 'uitleen' only reads differently and is a lateral move."
+    }
+  ],
   "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 216,
-  "woorde_na": 216,
-  "wanneer": "2026-11-12T22:59:14+00:00",
+  "woorde_voor": 207,
+  "woorde_na": 209,
+  "wanneer": "2026-11-12T23:08:53+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 2,
@@ -61,7 +72,7 @@
       "rede_keurder": "'Daardie hulp' is natural, plain Afrikaans that a Grade 5 reader follows easily, so swapping it for 'Dié' is a lateral move."
     }
   ],
-  "konsep_hash_voor": "sha256:c3bb2709126033e834d9df894d7ea971",
+  "konsep_hash_voor": "sha256:b60e44714c7de99847641ed3fe309450",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:aa886a251ffa55052a4e3313c227d1fe"
+  "konsep_hash_na": "sha256:c115843eaf28b796bc084064781c9557"
 }

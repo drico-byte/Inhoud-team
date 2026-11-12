@@ -1,11 +1,9 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-9",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:f956a3a194659da36592f492927a2e7a",
-  "hek": "FAIL",
-  "teruggestuur_vir": [
-    "sha256:f956a3a194659da36592f492927a2e7a"
-  ],
+  "konsep_hash": "sha256:495548d7afb64b54ba8504717bdb5067",
+  "hek": "PASS",
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -37,12 +35,108 @@
         "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents",
         "Study text: 3+ syllable words 13.9% above maximum 13.0%"
       ]
+    },
+    {
+      "wanneer": "2026-11-12T23:11:09+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:32388b59c088fecbf79fd24619a63465",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T23:11:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 269,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:13:04+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 4,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 269,
+      "woorde_na": 269
+    },
+    {
+      "wanneer": "2026-11-12T23:17:20+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:17:20+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:17:20+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "wie het die piramides gebou?"
+      ],
+      "tally": {
+        "wie het die piramides gebou?": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T23:17:20+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:17:54+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "wie het die piramides gebou?": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T23:19:19+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:495548d7afb64b54ba8504717bdb5067",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T23:19:20+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 268,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:20:48+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 268,
+      "woorde_na": 268
     }
   ],
   "taal_vir_skrywer": [],
-  "spek_hash": "sha256:4e329e72a923714f003846fd5b8a6366",
+  "spek_hash": "sha256:a62fc8abbf5581255aff8dfbfa647b30",
   "hek_konteks": {
     "graad": 5,
     "begroting": 250
-  }
+  },
+  "taal_rondte_vir": "sha256:495548d7afb64b54ba8504717bdb5067",
+  "taal_keurder_vir": "f810b313cf9508d4528cc89ce3d16bf5",
+  "taal_klaar_vir": "sha256:495548d7afb64b54ba8504717bdb5067",
+  "taal_vir_mens": [],
+  "taal_bons_siklus": null,
+  "taal_bons_vir": null
 }

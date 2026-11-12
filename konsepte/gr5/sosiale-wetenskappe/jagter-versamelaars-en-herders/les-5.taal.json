@@ -1,30 +1,34 @@
 {
-  "toegepas": [],
-  "nie_toegepas": [],
-  "laat_vaar": [
+  "toegepas": [
     {
       "nr": 1,
-      "blok": "San-kuns op ons landswapen",
-      "voor": "wat alle Suid-Afrikaners gemeen het",
-      "na": "wat alle Suid-Afrikaners deel",
-      "soort": "woordkeuse",
-      "rede_vinder": "Without an explicit object, 'gemeen het' can be misread by a Grade 5 learner as the past tense of 'meen' (thought/meant); 'deel' says the same thing plainly.",
-      "fout": "none",
-      "rede_keurder": "'Gemeen het' is the standard Afrikaans idiom 'iets gemeen he' and reads correctly in context, while the proposal puts 'deel' twice in one sentence in two senses ('as deel van 'n erfenis wat alle Suid-Afrikaners deel'), which is clumsier than the original."
-    }
-  ],
-  "na_skrywer": [],
-  "vlae": [
+      "blok": "Wat is rotskuns?",
+      "voor": "met verf op 'n rots aangebring is",
+      "na": "met verf op 'n rots geskilder is",
+      "soort": "register",
+      "rede_vinder": "'Aangebring' is formal for Grade 5; 'geskilder' is plainer and matches the glossary definition of rotsskildery.",
+      "fout": "'met verf op 'n rots aangebring' is stiff, formal wording for a Grade 5 reader",
+      "rede_keurder": "'Geskilder' is the plain word for applying paint, keeps the meaning, touches no protected word and matches the lesson's own glossary entry for rotsskildery."
+    },
     {
-      "blok": "Wat dink navorsers vandag?",
-      "teks": "Tydens hierdie dans het genesers probeer om siek mense gesond te maak.",
-      "rede": "The body uses the past tense, while the decided glossary definition of 'genesingsdans' is deliberately in the present tense because San communities still perform the dance. In context (old paintings) the past tense reads naturally, so I did not change it, because changing the tense would change what the sentence claims; a person or the writer may want the two to match."
+      "nr": 2,
+      "blok": "Hoe is die verf gemaak?",
+      "voor": "wat hulle fyn gemaal het",
+      "na": "wat hulle fyngemaal het",
+      "soort": "spelling",
+      "rede_vinder": "'Fynmaal' is a compound verb and is written as one word (AWS/HAT), so the past participle is 'fyngemaal'.",
+      "fout": "the compound verb 'fynmaal' is split, so the participle is written as two words",
+      "rede_keurder": "AWS and HAT write the separable compound 'fynmaal' as one word, so the participle is 'fyngemaal'; a pure spelling fix with no change in meaning."
     }
   ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
   "beskerm_bedenkings": [],
   "woorde_voor": 599,
-  "woorde_na": 599,
-  "wanneer": "2026-11-12T23:00:51+00:00",
+  "woorde_na": 598,
+  "wanneer": "2026-11-12T23:15:25+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 1,
@@ -135,9 +139,19 @@
       "rede_vinder": "'Geeneen' is the natural Afrikaans form here and reads more smoothly than 'nie een ... nie'.",
       "fout": "none",
       "rede_keurder": "'Nie een van hulle ... nie' is natural, emphatic Afrikaans and plain for Grade 5; 'geeneen' is a lateral swap."
+    },
+    {
+      "nr": 1,
+      "blok": "San-kuns op ons landswapen",
+      "voor": "wat alle Suid-Afrikaners gemeen het",
+      "na": "wat alle Suid-Afrikaners deel",
+      "soort": "woordkeuse",
+      "rede_vinder": "Without an explicit object, 'gemeen het' can be misread by a Grade 5 learner as the past tense of 'meen' (thought/meant); 'deel' says the same thing plainly.",
+      "fout": "none",
+      "rede_keurder": "'Gemeen het' is the standard Afrikaans idiom 'iets gemeen he' and reads correctly in context, while the proposal puts 'deel' twice in one sentence in two senses ('as deel van 'n erfenis wat alle Suid-Afrikaners deel'), which is clumsier than the original."
     }
   ],
-  "konsep_hash_voor": "sha256:23c310b6c43d58ab4f301abe23ec0e88",
+  "konsep_hash_voor": "sha256:e73311c9ab88fc2cc885b56636106549",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:23c310b6c43d58ab4f301abe23ec0e88"
+  "konsep_hash_na": "sha256:2052716d65c0a6b8f3edccdc94186da6"
 }

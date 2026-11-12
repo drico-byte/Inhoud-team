@@ -1,8 +1,8 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-10",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:6e12f13da849bd835fbad729947a4364",
-  "hek": "FAIL",
+  "konsep_hash": "sha256:2a32a1cd9492846fee4fdf6e9f5d382f",
+  "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:6e12f13da849bd835fbad729947a4364"
   ],
@@ -35,6 +35,80 @@
       "punte": [
         "Study text: 0.38 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
       ]
+    },
+    {
+      "wanneer": "2026-11-12T23:14:25+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a53063677728e2354aa3647a66cb190f",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T23:14:26+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 257,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:16:58+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 257,
+      "woorde_na": 256,
+      "konsep_hash": "sha256:84b87c34e72b5c114478184e5217b123"
+    },
+    {
+      "wanneer": "2026-11-12T23:16:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 256,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:16:59+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'bordspeletjies soos die Egiptenare': 'bordspeletjies soos die Egiptenare' can first be read as 'board games such as the Egyptians', because 'soos' after a plural noun introduces examples elsewhere in this lesson; in a then-and-now block 'die Egiptenare' can also be read as Egyptians today.",
+        "check (the language finder raised this; it may not be a fault): 'Vis uit die Nyl was vir hulle belangrik.': 'hulle' could refer to the farmer's family or to both the farmer's family and the rich family in the previous sentence; naming the intended group would mean guessing the content, so the writer should decide."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:18:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c2dad95e429b5687db4703d5c1c00f32",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T23:18:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 267,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:19:38+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 267,
+      "woorde_na": 268,
+      "konsep_hash": "sha256:2a32a1cd9492846fee4fdf6e9f5d382f"
+    },
+    {
+      "wanneer": "2026-11-12T23:19:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 268,
+      "begroting": 250,
+      "failures": []
     }
   ],
   "taal_vir_skrywer": [],
@@ -42,5 +116,13 @@
   "hek_konteks": {
     "graad": 5,
     "begroting": 250
-  }
+  },
+  "taal_rondte_vir": "sha256:2a32a1cd9492846fee4fdf6e9f5d382f",
+  "taal_keurder_vir": "ddfbce61542b32e7b6eaecd4591d64d9",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:2a32a1cd9492846fee4fdf6e9f5d382f",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:84b87c34e72b5c114478184e5217b123",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "5b6c0e3ba20ed0b85d1f01aa48017329"
 }
