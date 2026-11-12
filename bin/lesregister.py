@@ -12,6 +12,11 @@ git and every delivery script reads one source. Beside the rule's four columns
 because that is how a script knows which lesson it is holding. `--publiseer` writes
 the rule's four columns to SharePoint's `Lesregister/`, every row included.
 
+A register may also carry `ekstra`, our own note on a lesson or video that covers
+things CAPS does not ask for (Lampies, 12 November 2026; first used in G5_GES, e.g.
+the Shaka lessons). Like `bron` it stays in this repository: `--publiseer` writes only
+the rule's four columns.
+
 A row of `tipe` `video` (a video-only lesson, e.g. the Gr 4 Nedersettings case studies
 G4_GEO_07b-07e) has no draft, so its `bron` is empty. Such a row is published and kept
 like any other; no delivery script looks it up, because there is nothing of ours to
