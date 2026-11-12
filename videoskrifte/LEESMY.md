@@ -213,5 +213,10 @@ Videos outside CAPS still get a text (Shaka H2 12-20, Egypt's end H3 19-21), mar
 in the spec and `ekstra` in the register; H1 07 (world heritage sites) is a video-only row.
 Egyptian names: Afrikaans form first, then once "(in Engels: Tutankhamun)".
 
-**For the video owner**, not the text: H1 video 4 uses an offensive old name for the praying
-mantis; the false or misleading claims per video are listed in the four check files.
+The praying mantis is "hottentotsgot", the name Afrikaans speakers use, with "bidsprinkaan" once in
+brackets the first time (Lampies, 12 November 2026). The claim check had flagged the video's word as
+offensive; that finding is overruled and kept on record in `gr5-nagaan/h1-san.json`. It is protected
+in `kaps/beskermde-woorde.json` so no language check "corrects" it.
+
+**For the video owner**, not the text: the false or misleading claims per video are listed in the
+four check files.

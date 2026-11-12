@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: d95fe96a-fd23-4e23-b797-43758caad297
-  modified: 2026-11-12T17:51:30.332Z
+  modified: 2026-11-12T17:58:27.386Z
 ---
 
 **12 November 2026 — layout proposed, not yet approved.** This PC does layouts only
@@ -106,7 +106,11 @@ spelling once in brackets introduced with "in Engels:", e.g. Toetankamen (in Eng
 launch when a planner slot frees (max 3 at once). Was: (video:
 Tutankhamun/Akhenaten/Khafre/Menkaure; Afrikaans: Toetankamen/Achenaten/Chafra/Menkaoere; CAPS: Tutankhamen).
 Briefs in the session scratchpad; brief template rules: approved division fixed, no textbook, lean <40KB.
-H1 video 4 (finished, consultant-made) says "hottentotsgod" - a slur IN A VIDEO; Lampies' call.
+MANTIS NAME, RULED by Lampies 12 Nov 2026: "hottentotsgot", the name Afrikaans speakers use - "it's not
+considered a racist name for an animal"; "no one uses bidsprinkaan". First mention "hottentotsgot
+(bidsprinkaan)", then "hottentotsgot". Applied to the T1 spec (lesson 4), its video_naat, the check record
+(finding overruled, kept), and kaps/beskermde-woorde.json per_subonderwerp. Do not raise it again. The guard
+that stays: the text must not say the San worshipped the insect as a god.
 
 **Specs, 12 Nov 2026 night:** T1, T2, T4 written to spesifikasies/konsep/gr5/sosiale-wetenskappe/, all PASS
 (T2 warns 27% extras, expected). T3 Egypt planner running. Settled by me: drietydperkestelsel leads;
