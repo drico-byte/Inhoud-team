@@ -132,7 +132,7 @@
 - [Gr 4 Geography: the rulings](gr4-geografie-besluite.md) — 30 lessons, 400 words, videos already made; hunting and urban farming carried briefly by our text.
 - [A writer's predicted risk goes nowhere](n-skrywer-se-voorspelde-risiko-gaan-verlore.md) — it lives in the provenance note, which is stripped before the fact check.
 - [A video phrase lands in four places](n-videofrase-beland-in-vier-plekke.md) — where the video came first, one wrong phrase reaches the seam, kern, the shared wordings and the draft.
-- [Three lessons at a time on this machine](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Drico: this account has far fewer tokens than the other two; a rate, not a discount.
+- [Writer cap on this PC: lifted](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Lampies 12 Nov 2026: this PC now has the heavy-hitter account; ~6 writers at a time.
 - [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks like an item-level one; CAPS marks a binding list by omitting "soos".
 - [Test a parallel set as a set](toets-n-parallelle-stel-as-n-stel.md) — say so in the fact brief; reading four blocks together found five faults where sentence-by-sentence found one.
 - [A note that freezes a state goes stale](n-nota-wat-n-toestand-vasvries-verouder.md) — my fix for stale spec notes hard-coded the count and went stale within the hour.
@@ -367,7 +367,7 @@
 - [Gr 4 Geography: the rulings](gr4-geografie-besluite.md) — 30 lessons, 400 words, videos already made...
 - [A writer's predicted risk goes nowhere](n-skrywer-se-voorspelde-risiko-gaan-verlore.md) — it lives in the provenance note, which is...
 - [A video phrase lands in four places](n-videofrase-beland-in-vier-plekke.md) — one wrong phrase reaches four places at...
-- [Three lessons at a time on this machine](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Drico: this account has far fewer tokens...
+- [Writer cap on this PC: lifted](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Lampies 12 Nov 2026: this PC now has the heavy-hitter account; ~6 writers at a time.
 - [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks exactly...
 - [Test a parallel set as a set](toets-n-parallelle-stel-as-n-stel.md) — say so in the fact brief; reading four...
 - [A note that freezes a state goes stale](n-nota-wat-n-toestand-vasvries-verouder.md) — my fix for stale spec notes hard-coded the...
@@ -441,7 +441,7 @@
 - [Gr 4 Geography: the rulings](gr4-geografie-besluite.md) — 30 lessons, 400 words, videos already made; hunting and urban farming carried briefly by our text; map-skills lesson 1 may run light.
 - [A writer's predicted risk goes nowhere](n-skrywer-se-voorspelde-risiko-gaan-verlore.md) — it lives in the provenance note, which is stripped before the fact checker; carry it into the brief by hand.
 - [A video phrase lands in four places](n-videofrase-beland-in-vier-plekke.md) — one wrong phrase reaches four places at once, and a false video claim filed only as a fact-risk reaches nobody.
-- [Three lessons at a time on this machine](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Drico: this account has far fewer tokens than the other two; a rate, not a discount.
+- [Writer cap on this PC: lifted](drie-lesse-op-n-slag-op-hierdie-rekenaar.md) — Lampies 12 Nov 2026: this PC now has the heavy-hitter account; ~6 writers at a time.
 - [A ticked bullet is not a counted list](n-strepie-afgemerk-is-nie-sy-items-getel-nie.md) — a bullet-level coverage map looks exactly like an item-level one; and CAPS marks a binding list by leaving out the word soos.
 - [Test a parallel set as a set](toets-n-parallelle-stel-as-n-stel.md) — say so in the fact brief; reading four blocks together found five faults where sentence-by-sentence found one.
 - [A note saying it is not a fault](n-nota-wat-se-dit-is-nie-n-fout-nie.md) — twice in one day; a closing verdict turns the next round away, so record the observation without it.
@@ -460,7 +460,7 @@
 - [A flat ceiling allocates per lesson, not per topic](n-plat-plafon-verdeel-volgens-les-nie-onderwerp.md) — I said old and new matched on totals; Gr 6 NWT had six long topics at half their hours. Compare per topic; science = 150/teaching hour.
 - [Content column only, then cover the assessment list](inhoud-kolom-plus-assessering.md) — activities are not content; an assessed item found only in activities is pulled in by the assessment list.
 - [Too little is the risk, not too much](te-min-is-die-risiko-nie-te-veel.md) — more than a textbook is fine; err generous, and hunt shortfall by depth per CAPS point, not by word count.
-- [This PC does layouts only](hierdie-rekenaar-doen-net-uitlegte.md) — the other PCs write content from the layouts we push; starting with Grade 7 SW.
+- [This PC writes content now](hierdie-rekenaar-doen-net-uitlegte.md) — Lampies 12 Nov 2026 lifted Drico's layouts-only rule; heavy-hitter account here.
 - [Gr 7 SW layout: where we are](gr7-sw-uitleg-waar-ons-is.md) — History 280/h from Drico's Term 1 count; Geography awaiting its count; four open questions.
 - [A map needed means a note in the lesson](kaart-nodig-maak-n-nota.md) — the HTML team builds it; was never recorded and the writer prompt said the opposite.
 - [CAPS audit of all Gr 4-6 content](caps-oudit-gr4-6.md) — all 13 subject-grades audited 22 Oct 2026; report links, decisions waiting, what is owed; changes only after all audits.

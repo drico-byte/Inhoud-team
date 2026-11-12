@@ -475,7 +475,10 @@ trade, the road.
 
 **3. Every subject has its own words-per-hour rate**, and the rate is not transferable.
 Sosiale Wetenskappe is **250 words per CAPS hour**, taken from Grade 4 SW's own
-delivered lessons (~270/hour). Natuurwetenskappe sits near **125**, because it has far
+delivered lessons (~270/hour). **Grade 5 History is the exception: 200 words per CAPS
+hour** (Lampies, 12 November 2026), because its videos are short clips and a hand count of
+a Grade 5 textbook came to about 157 words per hour; 200 stays above both.
+Natuurwetenskappe sits near **125**, because it has far
 more hours per lesson. A new subject's rate comes from our own delivered work in it, or
 from the nearest grade of the same subject — never from another subject.
 

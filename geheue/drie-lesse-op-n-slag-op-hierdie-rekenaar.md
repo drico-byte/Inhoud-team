@@ -1,9 +1,11 @@
 ---
 name: drie-lesse-op-n-slag-op-hierdie-rekenaar
-description: "Drico, 29 Sep 2026: on THIS account, dispatch at most three lesson writers at a time — it has far fewer tokens than the other machines."
+description: "SUPERSEDED 12 Nov 2026: this PC now has the heavy-hitter account (Lampies). Was Drico, 29 Sep 2026: on THIS account, dispatch at most three lesson writers at a time — it has far fewer tokens than the other machines."
 metadata:
   type: feedback
 ---
+
+**SUPERSEDED, Lampies 12 November 2026:** this PC now carries the heavy-hitter account, so the reason for the cap is gone. Still keep fan-outs sensible (about six writers at a time) rather than firing everything at once.
 
 **Drico, 29 September 2026: "Do 3 lessons max at a time."**
 

@@ -1,12 +1,14 @@
 ---
 name: hierdie-rekenaar-doen-net-uitlegte
-description: "Drico, 7 Oct 2026: this PC does lesson LAYOUTS only; the other PCs (more tokens) write content from the layouts we push. Starting with Grade 7, first Grade 7 Sosiale Wetenskappe."
+description: "SUPERSEDED 12 Nov 2026 (Lampies: this PC now has the heavy-hitter account and writes content). Was Drico, 7 Oct 2026: this PC does lesson LAYOUTS only; the other PCs (more tokens) write content from the layouts we push. Starting with Grade 7, first Grade 7 Sosiale Wetenskappe."
 metadata:
   node_type: memory
   type: project
   originSessionId: 4a63836f-eef5-4d4d-9ed6-3a4c0720c09a
   modified: 2026-10-07T13:05:39.695Z
 ---
+
+**SUPERSEDED, Lampies 12 November 2026:** "This pc has the heavy hitter account. So we can do it" - this PC now writes lessons too, starting with Grade 5 History. The rest of this note is history.
 
 **Drico, 7 October 2026:** "on this pc we will only do the lesson layouts. The other pc's has more
 tokens and will focus on the creation of the content based on the layout we provide. We have to
