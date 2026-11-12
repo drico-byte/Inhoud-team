@@ -4,21 +4,27 @@
   "laat_vaar": [
     {
       "nr": 1,
-      "blok": "Lewende hawe: beeste, skape en bokke",
-      "voor": "Die diere het vir die familie melk",
-      "na": "Die diere het vir die families melk",
+      "blok": "Die opstal: 'n familie se tuiste",
+      "voor": "Snags was die diere veilig",
+      "na": "Snags was hulle diere veilig",
       "soort": "verwysing",
-      "rede_vinder": "The block opens with 'die boere' (plural) and no single family has been introduced in it, so 'die familie' has no clear referent; the plural matches the subject.",
+      "rede_vinder": "No animals have been mentioned yet in this block, so 'die diere' has no antecedent; 'hulle' ties the animals to the family just named.",
       "fout": "none",
-      "rede_keurder": "The lesson is built around one family introduced in the first block, so 'die familie' has a clear referent and reads naturally; the plural is a lateral move that shifts the picture from one family to many."
+      "rede_keurder": "'Die diere' on a farm homestead reads naturally in Afrikaans without a prior mention, while 'hulle' after a singular 'die familie' and a plural 'hutte' adds a number mismatch and a possible second referent, so the proposal is not clearly better."
     }
   ],
   "na_skrywer": [],
-  "vlae": [],
+  "vlae": [
+    {
+      "blok": "Gesaaides: sorghum, giers en boontjies",
+      "teks": "Die eerste boere se hoofgewasse was sorghum en giers.",
+      "rede": "The protected entry for 'in Suider-Afrika' quotes this very sentence as the one that must stay bounded, but in this block it stands without the bound (only the first block says 'in Suider-Afrika'); read alone it may sound like a worldwide claim. Adding the bound is a content decision, so it is flagged, not changed."
+    }
+  ],
   "beskerm_bedenkings": [],
-  "woorde_voor": 276,
-  "woorde_na": 276,
-  "wanneer": "2026-11-12T22:19:11+00:00",
+  "woorde_voor": 278,
+  "woorde_na": 278,
+  "wanneer": "2026-11-12T22:37:49+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 1,
@@ -69,9 +75,29 @@
       "rede_vinder": "'Vars grond' calques English 'fresh ground'; 'nuwe grond' is the natural Afrikaans for land not yet farmed, with the same meaning.",
       "fout": "none",
       "rede_keurder": "'Vars grond' contrasts naturally with 'uitgeboer', and 'nuwe grond' would put 'nuwe' twice in one clause before 'n nuwe dorpie'."
+    },
+    {
+      "nr": 1,
+      "blok": "Lewende hawe: beeste, skape en bokke",
+      "voor": "Die diere het vir die familie melk",
+      "na": "Die diere het vir die families melk",
+      "soort": "verwysing",
+      "rede_vinder": "The block opens with 'die boere' (plural) and no single family has been introduced in it, so 'die familie' has no clear referent; the plural matches the subject.",
+      "fout": "none",
+      "rede_keurder": "The lesson is built around one family introduced in the first block, so 'die familie' has a clear referent and reads naturally; the plural is a lateral move that shifts the picture from one family to many."
+    },
+    {
+      "nr": 1,
+      "blok": "Lewende hawe: beeste, skape en bokke",
+      "voor": "Van die diere se velle",
+      "na": "Van die velle",
+      "soort": "sinsbou",
+      "rede_vinder": "The previous sentence already opens with 'Die diere', so repeating 'die diere se' is heavy; 'die velle' clearly refers back to the same animals and the protected word 'velle' stays.",
+      "fout": "none",
+      "rede_keurder": "The repetition of 'die diere' is mild and the original reads naturally; dropping 'die diere se' loses the explicit link to whose skins they were, which helps a Grade 5 reader, so this is a lateral move at best."
     }
   ],
-  "konsep_hash_voor": "sha256:b4ff2b8c6bf8e8ed0474156e379228ff",
+  "konsep_hash_voor": "sha256:68a5064c3ce095bec9f5b7ede2d504e5",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:b4ff2b8c6bf8e8ed0474156e379228ff"
+  "konsep_hash_na": "sha256:68a5064c3ce095bec9f5b7ede2d504e5"
 }

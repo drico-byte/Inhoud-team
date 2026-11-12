@@ -3,44 +3,22 @@
   "nie_toegepas": [],
   "laat_vaar": [
     {
-      "nr": 2,
-      "blok": "Wie het die metaal bewerk?",
-      "voor": "metaalwerk was mans se werk",
-      "na": "metaalwerk was die mans se taak",
-      "soort": "woordkeuse",
-      "rede_vinder": "Avoids 'werk' three times in one sentence (werk, metaalwerk, werk) without changing the meaning.",
-      "fout": "none",
-      "rede_keurder": "'mans se werk' is natural Afrikaans in deliberate parallel with 'die werk ... verdeel', and 'die mans se taak' is a lateral swap that nudges toward all the men, against the next sentence's 'nie elke man ... net sekere mans'."
-    },
-    {
-      "nr": 3,
-      "blok": "Koper en waardevolle yster",
-      "voor": "is in ruilhandel gebruik",
-      "na": "is vir ruilhandel gebruik",
-      "soort": "idioom",
-      "rede_vinder": "'vir ruilhandel gebruik' is the more natural preposition with 'gebruik'; the protected word stays.",
-      "fout": "none",
-      "rede_keurder": "'in ruilhandel gebruik' (used in barter) is correct and natural, while 'vir' shifts toward purpose (made or used for barter), so the preposition swap is lateral at best."
-    }
-  ],
-  "na_skrywer": [
-    {
       "nr": 1,
-      "blok": "Die ystersmid aan die werk",
-      "voor": "Vir wapens het hy spiespunte vir spiese gemaak.",
-      "na": "Vir wapens soos spiese het hy spiespunte gemaak.",
+      "blok": "Koper en waardevolle yster",
+      "voor": "Die boere het ook koper bewerk, 'n rooibruin metaal wat sagter as yster is.",
+      "na": "Die boere het ook koper bewerk. Koper is 'n rooibruin metaal wat sagter as yster is.",
       "soort": "sinsbou",
-      "rede_vinder": "The double 'vir ... vir' is clumsy; this order reads naturally and keeps both protected words and the meaning.",
-      "fout": "The double 'vir ... vir' ('Vir wapens ... spiespunte vir spiese') reads clumsily.",
-      "rede_keurder": "The fault is real, but 'wapens soos spiese' adds an open list implying other weapons took spearheads, so the writer should fix the clumsiness another way, keeping 'spiespunte' and 'spiese'.",
-      "waarom": "the reviewer sent it to the writer"
+      "rede_vinder": "The apposition is separated from 'koper' by the verb, which reads awkwardly for Grade 5; two short sentences say the same thing more clearly.",
+      "fout": "none",
+      "rede_keurder": "An apposition after the verb is normal Afrikaans word order and reads clearly, so the split is a lateral move, and it puts 'koper' in three sentences running and leaves the next sentence's 'hulle' further from 'Die boere'."
     }
   ],
+  "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 275,
-  "woorde_na": 275,
-  "wanneer": "2026-11-12T22:25:29+00:00",
+  "woorde_voor": 282,
+  "woorde_na": 282,
+  "wanneer": "2026-11-12T22:36:29+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 2,
@@ -71,9 +49,29 @@
       "rede_vinder": "The repeated 'en ook van' is wooden; 'Van koper en yster' says the same thing more smoothly.",
       "fout": "none",
       "rede_keurder": "'en ook van yster' deliberately stresses that iron, not only copper, was used for ornaments; the original reads acceptably and the cut loses that emphasis."
+    },
+    {
+      "nr": 2,
+      "blok": "Wie het die metaal bewerk?",
+      "voor": "metaalwerk was mans se werk",
+      "na": "metaalwerk was die mans se taak",
+      "soort": "woordkeuse",
+      "rede_vinder": "Avoids 'werk' three times in one sentence (werk, metaalwerk, werk) without changing the meaning.",
+      "fout": "none",
+      "rede_keurder": "'mans se werk' is natural Afrikaans in deliberate parallel with 'die werk ... verdeel', and 'die mans se taak' is a lateral swap that nudges toward all the men, against the next sentence's 'nie elke man ... net sekere mans'."
+    },
+    {
+      "nr": 3,
+      "blok": "Koper en waardevolle yster",
+      "voor": "is in ruilhandel gebruik",
+      "na": "is vir ruilhandel gebruik",
+      "soort": "idioom",
+      "rede_vinder": "'vir ruilhandel gebruik' is the more natural preposition with 'gebruik'; the protected word stays.",
+      "fout": "none",
+      "rede_keurder": "'in ruilhandel gebruik' (used in barter) is correct and natural, while 'vir' shifts toward purpose (made or used for barter), so the preposition swap is lateral at best."
     }
   ],
-  "konsep_hash_voor": "sha256:39d606d4f535ca8ada67b38ed3086f75",
+  "konsep_hash_voor": "sha256:ccdab503ff05d8873b9b43fd058ce6c3",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:39d606d4f535ca8ada67b38ed3086f75"
+  "konsep_hash_na": "sha256:ccdab503ff05d8873b9b43fd058ce6c3"
 }

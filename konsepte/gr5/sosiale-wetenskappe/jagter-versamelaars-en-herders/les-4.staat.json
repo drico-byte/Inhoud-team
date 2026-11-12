@@ -1,15 +1,11 @@
 {
   "les": "gr5/sosiale-wetenskappe/jagter-versamelaars-en-herders/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:05bf39540e643add07f8f5122b334d86",
+  "konsep_hash": "sha256:9af4248931120b848e9b9136bb9dd507",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:f8109d1a0d05c769bf219d663ede5f2b"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
-  "blok_faalrondtes": {
-    "geen koning of hoofman nie": 1
-  },
+  "blok_faalrondtes": {},
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -221,21 +217,126 @@
       "woorde": 420,
       "begroting": 450,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:36:49+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:36:50+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:36:51+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "klein groepe wat saam trek"
+      ],
+      "tally": {
+        "geen koning of hoofman nie": 1,
+        "klein groepe wat saam trek": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:36:51+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:37:14+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "geen koning of hoofman nie": 1,
+        "klein groepe wat saam trek": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:38:30+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:79035409428b7ebd3eeab2756d774886",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T22:38:32+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 419,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:40:14+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 419,
+      "woorde_na": 419,
+      "konsep_hash": "sha256:9af4248931120b848e9b9136bb9dd507"
+    },
+    {
+      "wanneer": "2026-11-12T22:40:15+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 419,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:48:35+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:48:35+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:48:36+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:49:01+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {}
     }
   ],
   "taal_vir_skrywer": [],
-  "spek_hash": "sha256:1bd41857f170eab5121426db4c96da1c",
+  "spek_hash": "sha256:10c3dc180814e855f058a8a231d6a341",
   "hek_konteks": {
     "graad": 5,
     "begroting": 450
   },
-  "taal_rondte_vir": "sha256:05bf39540e643add07f8f5122b334d86",
-  "taal_keurder_vir": "c7e389dcfd7064d654f3e6d6029876e3",
+  "taal_rondte_vir": "sha256:9af4248931120b848e9b9136bb9dd507",
+  "taal_keurder_vir": "fd16f7f3d11c410353b80bf05712ad77",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:05bf39540e643add07f8f5122b334d86",
-  "taal_vir_mens": [
-    "[taal, protected word] 'hottentotsgot': The ruling is clear and I have left it alone, but the name contains 'hottentot', which many South Africans consider a slur, and it stands in a lesson about the San and Khoikhoi; a person may want to confirm that it was weighed against that risk."
-  ],
+  "taal_klaar_vir": "sha256:9af4248931120b848e9b9136bb9dd507",
+  "taal_vir_mens": [],
   "taal_bons_siklus": null,
   "taal_bons_vir": null
 }

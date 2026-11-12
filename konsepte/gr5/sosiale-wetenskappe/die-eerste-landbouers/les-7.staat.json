@@ -1,11 +1,9 @@
 {
   "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-7",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:39d606d4f535ca8ada67b38ed3086f75",
+  "konsep_hash": "sha256:ccdab503ff05d8873b9b43fd058ce6c3",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:0636f7ed3a3ac5284f44356532538260"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -100,22 +98,125 @@
       "nie_toegepas": 0,
       "woorde_voor": 275,
       "woorde_na": 275
+    },
+    {
+      "wanneer": "2026-11-12T22:32:33+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:32:34+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:32:35+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "wie het die metaal bewerk?"
+      ],
+      "tally": {
+        "wie het die metaal bewerk?": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:32:35+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:33:17+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "wie het die metaal bewerk?": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:34:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ccdab503ff05d8873b9b43fd058ce6c3",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T22:34:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 282,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:36:29+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 282,
+      "woorde_na": 282
+    },
+    {
+      "wanneer": "2026-11-12T22:41:21+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:41:21+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:41:25+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:41:26+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:41:26+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\die-eerste-landbouers\\les-7.json",
+      "konsep_hash": "sha256:ccdab503ff05d8873b9b43fd058ce6c3",
+      "vervang": false
     }
   ],
-  "taal_vir_skrywer": [
-    "fix: [taal] in 'Vir wapens het hy spiespunte vir spiese gemaak.': The double 'vir ... vir' ('Vir wapens ... spiespunte vir spiese') reads clumsily."
-  ],
-  "spek_hash": "sha256:26af5448e6118b39dad41b0043f57ac8",
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:6f5295ac47e7330dd6e1779976d75f9d",
   "hek_konteks": {
     "graad": 5,
     "begroting": 250
   },
-  "taal_rondte_vir": "sha256:39d606d4f535ca8ada67b38ed3086f75",
-  "taal_keurder_vir": "7f6e20d6355b5dd635fd171a0492b8a2",
+  "taal_rondte_vir": "sha256:ccdab503ff05d8873b9b43fd058ce6c3",
+  "taal_keurder_vir": "ec5e8b196b4dd535a1fa767559a614ce",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:39d606d4f535ca8ada67b38ed3086f75",
+  "taal_klaar_vir": "sha256:ccdab503ff05d8873b9b43fd058ce6c3",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:23b1fd983f000ccaa5f087a64226f5ec",
-  "taal_bons_siklus": 2,
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
   "taal_bons_nota": "45d7494da77c39f09185df7b4db5e56e"
 }

@@ -1,9 +1,11 @@
 {
   "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-9",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:04428fd2c6f937a5618ad28eb378b249",
-  "hek": "PASS",
-  "teruggestuur_vir": [],
+  "konsep_hash": "sha256:7afbbcec8e1ce6935e845f852a811df3",
+  "hek": "FAIL",
+  "teruggestuur_vir": [
+    "sha256:7afbbcec8e1ce6935e845f852a811df3"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -21,6 +23,37 @@
       "woorde": 197,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:47:24+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 197,
+      "woorde_na": 198,
+      "konsep_hash": "sha256:7afbbcec8e1ce6935e845f852a811df3"
+    },
+    {
+      "wanneer": "2026-11-12T22:47:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 198,
+      "begroting": 200,
+      "failures": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:47:25+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: syllables per word 1.62 above maximum 1.52 — replace long words with plainer equivalents"
+      ]
     }
   ],
   "taal_vir_skrywer": [],
@@ -29,5 +62,9 @@
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:04428fd2c6f937a5618ad28eb378b249"
+  "taal_rondte_vir": "sha256:7afbbcec8e1ce6935e845f852a811df3",
+  "taal_keurder_vir": "8bb16a0eb7f1879d68e7ff5409e5ad58",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:7afbbcec8e1ce6935e845f852a811df3",
+  "taal_vir_mens": []
 }

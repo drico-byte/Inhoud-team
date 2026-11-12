@@ -1,9 +1,11 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:ea301480178f3c170fb491278374f452",
+  "konsep_hash": "sha256:c56be7c64620f5df2c72eb874ccd5439",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:fb6acfbc090a249c7fd72f2d71f7ac85"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -71,22 +73,140 @@
       "nie_toegepas": 0,
       "woorde_voor": 224,
       "woorde_na": 224
+    },
+    {
+      "wanneer": "2026-11-12T22:32:08+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:fb6acfbc090a249c7fd72f2d71f7ac85",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T22:32:10+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 254,
+      "begroting": 200,
+      "failures": [
+        "Study text 254 words, above budget ceiling 224 (planned 200 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:32:11+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text 254 words, above budget ceiling 224 (planned 200 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:34:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b67f001ef77ad48ce4a80404feff87ba",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:34:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 214,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:37:05+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 214,
+      "woorde_na": 214
+    },
+    {
+      "wanneer": "2026-11-12T22:37:05+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in ''n swaar gewig waarmee boere': In the shared definition of 'sjadoef', 'waarmee boere water oplig' can attach to 'gewig' alone, as if the weight lifts the water."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:38:00+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c56be7c64620f5df2c72eb874ccd5439",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:38:01+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 214,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:39:15+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 214,
+      "woorde_na": 214
+    },
+    {
+      "wanneer": "2026-11-12T22:45:49+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:45:49+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 23,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:45:54+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:45:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 23,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:45:55+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\egipte\\les-2.json",
+      "konsep_hash": "sha256:c56be7c64620f5df2c72eb874ccd5439",
+      "vervang": false
     }
   ],
-  "taal_vir_skrywer": [
-    "fix: [taal] in 'met walle van grond rondom wat water vashou': 'rondom wat water vashou' can first be misread as 'around that which holds water'"
-  ],
+  "taal_vir_skrywer": [],
   "spek_hash": "sha256:2598ea96b4cd6a3029166d928ce926be",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:ea301480178f3c170fb491278374f452",
-  "taal_keurder_vir": "64548be9b4b565ed484b9e6babf07428",
+  "taal_rondte_vir": "sha256:c56be7c64620f5df2c72eb874ccd5439",
+  "taal_keurder_vir": "3447fc36078e34afafb67fa00d0c5f74",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:ea301480178f3c170fb491278374f452",
+  "taal_klaar_vir": "sha256:c56be7c64620f5df2c72eb874ccd5439",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:5d4d2faebfab2325fdb767554e448f38",
-  "taal_bons_siklus": 1,
-  "taal_bons_nota": "69c3d5331dc385f482855014d93ea635"
+  "taal_bons_vir": "sha256:b67f001ef77ad48ce4a80404feff87ba",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "c83acf3a649f1feb0903cf437494485f"
 }

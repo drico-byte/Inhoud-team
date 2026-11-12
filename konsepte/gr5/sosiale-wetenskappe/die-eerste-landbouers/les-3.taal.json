@@ -1,30 +1,46 @@
 {
-  "toegepas": [
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
     {
       "nr": 1,
-      "blok": "By wie het jy gehoort?",
-      "voor": "Net soos jy, het elke kind van die eerste boere by 'n gesin gehoort.",
-      "na": "Elke kind van die eerste boere het, net soos jy, by 'n gesin gehoort.",
-      "soort": "sinsbou",
-      "rede_vinder": "The fronted comparison with a comma before the inverted verb reads stiffly; placing it after the verb is the natural Afrikaans order and keeps the meaning.",
-      "fout": "A comma separates the fronted comparison from the inverted verb ('Net soos jy, het'), an English-style construction that reads stiffly in Afrikaans.",
-      "rede_keurder": "The proposal gives natural Afrikaans word order with the same people, comparison and meaning, and touches no protected word."
-    }
-  ],
-  "nie_toegepas": [],
-  "laat_vaar": [],
-  "na_skrywer": [],
-  "vlae": [
+      "blok": "Wie het besluit?",
+      "voor": "By latere boeregemeenskappe",
+      "na": "In latere boeregemeenskappe",
+      "soort": "woordkeuse",
+      "rede_vinder": "'In' reads more naturally than 'by' for 'among/within' communities here; meaning unchanged.",
+      "fout": "none",
+      "rede_keurder": "'By latere boeregemeenskappe' (among those communities) is natural Afrikaans; 'in' is only a different preposition, so this is a lateral move that also risks a shade of meaning."
+    },
     {
-      "blok": "By wie het jy gehoort?",
-      "teks": "By wie het jy gehoort?",
-      "rede": "The heading asks the learner in the past tense whom they belonged to, while the block is about the first farmers' children; it may be meant as 'imagine you lived then', so it is flagged rather than changed (for example 'By wie hoort jy?' or a heading about the farmers' children)."
+      "nr": 2,
+      "blok": "Kos en beeste",
+      "voor": "hoe mense aan kos en rykdom gekom het",
+      "na": "hoe mense aan kos en rykdom kom",
+      "soort": "sinsbou",
+      "rede_vinder": "Matches the timeless label form of the parallel endings 'by wie jy hoort' and 'wie besluit' in the other blocks.",
+      "fout": "none",
+      "rede_keurder": "The past tense matches 'Dit was die ekonomiese deel van hulle lewe' in the same sentence, so switching to the present only changes the tense without fixing a fault."
     }
   ],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "opperhoof",
+      "voor": "Die leier van 'n opperhoofskap, wat besluite vir sy mense neem.",
+      "na": "Die leier van 'n opperhoofskap. Hy neem besluite vir sy mense.",
+      "soort": "verwysing",
+      "rede_vinder": "'wat' can be read as referring to 'opperhoofskap' rather than 'leier'; a separate sentence with 'hy' removes the ambiguity.",
+      "fout": "the relative 'wat' after a comma sits next to 'opperhoofskap', so it can be read as the chiefdom making decisions rather than the leader",
+      "rede_keurder": "The ambiguity is real but slight, and this is a glossary definition, so the writer should reword it rather than a language agent.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 241,
-  "woorde_na": 241,
-  "wanneer": "2026-11-12T22:05:35+00:00",
+  "woorde_voor": 232,
+  "woorde_na": 232,
+  "wanneer": "2026-11-12T22:42:53+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 5,
@@ -67,7 +83,7 @@
       "rede_keurder": "The present-tense 'jy' label echoes the heading and opening and matches the parallel 'wie besluit' line, so the proposal is a lateral move that also loses the link to the learner."
     }
   ],
-  "konsep_hash_voor": "sha256:845fd766fde5460324f6672b826406e5",
+  "konsep_hash_voor": "sha256:b1f27a55607dec7eef11985ad12c4f69",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:105b05efe1635a39674e38fef585ebd0"
+  "konsep_hash_na": "sha256:b1f27a55607dec7eef11985ad12c4f69"
 }
