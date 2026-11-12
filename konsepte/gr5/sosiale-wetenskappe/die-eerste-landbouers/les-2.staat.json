@@ -1,11 +1,9 @@
 {
   "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:c1dafffe492a19e0e12fd0b8f0e4ca45",
+  "konsep_hash": "sha256:019ef8763a34787a0a182f875f79f837",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:005639897c681e2755e774a92c8c6122"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -82,17 +80,124 @@
       "woorde": 282,
       "begroting": 250,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T21:50:11+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 282,
+      "woorde_na": 283,
+      "konsep_hash": "sha256:b57db67a3c483d08e30ec5d116c2997e"
+    },
+    {
+      "wanneer": "2026-11-12T21:50:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 283,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:09:06+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b4ff2b8c6bf8e8ed0474156e379228ff",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:09:11+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 276,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:19:11+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 276,
+      "woorde_na": 276
+    },
+    {
+      "wanneer": "2026-11-12T22:28:22+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:28:23+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:28:23+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "'n dorpie van opstalle",
+        "die opstal",
+        "gesaaides"
+      ],
+      "tally": {
+        "gesaaides": 1,
+        "die opstal": 1,
+        "'n dorpie van opstalle": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:28:24+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:29:23+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "gesaaides": 1,
+        "die opstal": 1,
+        "'n dorpie van opstalle": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:31:35+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:019ef8763a34787a0a182f875f79f837",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T22:31:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 278,
+      "begroting": 250,
+      "failures": []
     }
   ],
   "taal_vir_skrywer": [],
-  "spek_hash": "sha256:efa07950fb9c7e1e2d2a9bc4bbbcefeb",
+  "spek_hash": "sha256:a7ea046b4fcad0658f810e3f0bb07e5b",
   "hek_konteks": {
     "graad": 5,
     "begroting": 250
   },
-  "taal_rondte_vir": "sha256:c1dafffe492a19e0e12fd0b8f0e4ca45",
-  "taal_keurder_vir": "29efba5d979f5662a0ebfe5f8418eae5",
+  "taal_rondte_vir": "sha256:019ef8763a34787a0a182f875f79f837",
+  "taal_keurder_vir": "8fa3bf8c1988e96bea5653cc9b5399a9",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:a43b5166f3947dca0946337d012fdb4d",
-  "taal_vir_mens": []
+  "taal_klaar_vir": "sha256:b4ff2b8c6bf8e8ed0474156e379228ff",
+  "taal_vir_mens": [],
+  "taal_bons_siklus": null,
+  "taal_bons_vir": null
 }

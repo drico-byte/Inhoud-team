@@ -1,28 +1,25 @@
 {
-  "toegepas": [
-    {
-      "nr": 1,
-      "blok": "Hoe 'n kleipot gemaak is",
-      "voor": "Daarna het die pot gedroog en is dit in 'n vuur gebak.",
-      "na": "Daarna het die pot gedroog, en toe is dit in 'n vuur gebak.",
-      "soort": "sinsbou",
-      "rede_vinder": "The bare 'en is dit' leans on the fronted 'Daarna' and reads stiffly; 'toe' marks the next step, and the second clause then needs the AWS comma before 'en'.",
-      "fout": "Two clauses with their own subject and verb ('die pot ... gedroog', 'is dit ... gebak') are joined by 'en' without the AWS comma, and the carried-over inversion 'en is dit' reads stiffly.",
-      "rede_keurder": "Adds the required AWS comma and makes the next step explicit with 'toe', with the same actions in the same order."
-    },
-    {
-      "nr": 3,
-      "blok": "Wat die hoofde ons vertel",
-      "voor": "Hulle dink ook dat",
-      "na": "Argeoloë dink ook dat",
-      "soort": "verwysing",
-      "rede_vinder": "In the previous sentence 'hulle' means the heads, so this 'Hulle' (the archaeologists) briefly points to the wrong noun.",
-      "fout": "'Hulle' follows a clause where 'hulle' means the heads, so the reader briefly attaches it to the wrong noun.",
-      "rede_keurder": "Naming the archaeologists removes the pronoun stumble without changing who thinks what, and leaves the protected word 'argeoloë' intact."
-    }
-  ],
+  "toegepas": [],
   "nie_toegepas": [],
   "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Wat die hoofde ons vertel",
+      "voor": "kan argeoloë net sê",
+      "na": "kan argeoloë slegs sê",
+      "soort": "woordkeuse",
+      "rede_vinder": "'net sê' can be read as 'just say' (casually claim); 'slegs' makes the intended 'only' unambiguous, as the previous round did with 'net gedroog'.",
+      "fout": "none",
+      "rede_keurder": "After 'kan', 'net sê' reads naturally as 'can only say' and is not ambiguous the way 'net gedroog' was, so 'slegs' is a lateral, more formal swap."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 206,
+  "woorde_na": 206,
+  "wanneer": "2026-11-12T22:19:22+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 2,
       "blok": "Hoe 'n kleipot gemaak is",
@@ -32,16 +29,19 @@
       "rede_vinder": "In natural Afrikaans the place phrase comes before the predicate adjective.",
       "fout": "none",
       "rede_keurder": "'word weer pap in water' is natural Afrikaans with the place phrase moved to the end, so the proposal only changes the word order."
+    },
+    {
+      "nr": 1,
+      "blok": "Hoe 'n kleipot gemaak is",
+      "voor": "Hulle het die sagte klei met patrone",
+      "na": "Terwyl die klei nog sag was, het hulle die pot met patrone",
+      "soort": "sinsbou",
+      "rede_vinder": "One decorates the pot, not 'the soft clay'; this also breaks the run of two sentences opening with 'Hulle het' while keeping that the decorating happened before drying.",
+      "fout": "none",
+      "rede_keurder": "Decorating the soft clay with patterns is natural Afrikaans and already places it before drying; the proposal is a longer lateral rewrite."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 198,
-  "woorde_na": 199,
-  "wanneer": "2026-11-12T21:32:04+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:15552736d9fa13d4383bde2aff057553",
+  "konsep_hash_voor": "sha256:5314371ab5efb6c3d8be4a11877fbb95",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:bfe7a309183e53bcadce3f51072bad83"
+  "konsep_hash_na": "sha256:5314371ab5efb6c3d8be4a11877fbb95"
 }

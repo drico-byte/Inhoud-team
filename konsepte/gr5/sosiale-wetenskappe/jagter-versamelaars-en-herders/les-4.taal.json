@@ -1,58 +1,51 @@
 {
   "toegepas": [
     {
-      "nr": 1,
-      "blok": "Die vleis word met almal gedeel",
-      "voor": "ook op dae wat 'n jagter niks kry nie",
-      "na": "ook op dae waarop 'n jagter niks gekry het nie",
-      "soort": "grammatika",
-      "rede_vinder": "A time reference takes 'waarop', not 'wat', and the verb should match the past tense of the main clause.",
-      "fout": "'dae wat' where a time reference needs 'waarop', and a present-tense 'kry' inside a past-tense sentence",
-      "rede_keurder": "Standard relative for a time reference and consistent past tense, with the same people, action and meaning."
-    },
-    {
-      "nr": 3,
-      "blok": "Geen koning of hoofman nie",
-      "voor": "Belangrike besluite het die groep saam bespreek, soos waarheen hulle volgende moet trek",
-      "na": "Die groep het belangrike besluite saam bespreek, soos waarheen hulle volgende moes trek",
-      "soort": "woordorde",
-      "rede_vinder": "Putting the subject first reads more naturally, and 'moes' keeps the clause in the past tense of the rest of the block.",
-      "fout": "object-first order makes it unclear at first reading which noun is the subject; 'moet' sits oddly in a past-tense block",
-      "rede_keurder": "Subject-first order removes the stumble for a Grade 5 reader and 'moes' matches the past tense, with nothing added or lost."
-    },
-    {
-      "nr": 4,
-      "blok": "Kragte in die natuur",
-      "voor": "'n Reuse bok",
-      "na": "'n Reusagtige bok",
-      "soort": "spelling",
-      "rede_vinder": "'Reuse' is a prefix written together with its noun, so as a separate adjective it must be 'reusagtige'.",
-      "fout": "'reuse' written as a separate word before a noun is a spelling error",
-      "rede_keurder": "'Reusagtige' is the correct separate adjective with the same meaning and touches no protected word."
-    },
-    {
-      "nr": 5,
+      "nr": 2,
       "blok": "Die genesingsdans",
-      "voor": "in 'n trance gegaan",
-      "na": "in 'n trance geraak",
-      "soort": "anglisisme",
-      "rede_vinder": "'In 'n trance gaan' copies English 'go into a trance'; Afrikaans says 'in 'n trance raak'.",
-      "fout": "'in 'n trance gaan' copies English 'go into a trance'",
-      "rede_keurder": "'In 'n trance raak' is the natural Afrikaans expression, and the protected word 'trance' stays unchanged."
-    },
-    {
-      "nr": 6,
-      "blok": "Die genesingsdans",
-      "voor": "wat neergeskryf is, en uit rotskuns",
-      "na": "wat neergeskryf is en uit rotskuns",
-      "soort": "leestekens",
-      "rede_vinder": "Under AWS 2017 there is no comma before 'en' joining two parts of one sentence.",
-      "fout": "comma before 'en' joining two prepositional phrases of one sentence, against AWS 2017",
-      "rede_keurder": "The 'en' joins 'uit San-stories' and 'uit rotskuns', not two clauses, so the comma goes."
+      "voor": "Ons weet van hierdie geloof uit",
+      "na": "Ons ken hierdie geloof uit",
+      "soort": "idioom",
+      "rede_vinder": "'Iets ken uit' is the idiomatic way to say where knowledge comes from; 'weet van ... uit' is a clumsy combination of prepositions.",
+      "fout": "'Weet van ... uit' stacks two prepositions and makes the reader stumble.",
+      "rede_keurder": "'Ons ken hierdie geloof uit' is the natural Afrikaans idiom and keeps the meaning (we know of the belief from these sources)."
     }
   ],
   "nie_toegepas": [],
   "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Kragte in die natuur",
+      "voor": "lyk baie verskillend",
+      "na": "lyk baie anders",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Lyk baie anders' is the more natural everyday phrasing for a Grade 5 reader; 'verskillend' as a predicate after 'lyk' reads slightly stiff.",
+      "fout": "none",
+      "rede_keurder": "'Lyk baie verskillend' is natural and correct when comparing two things; 'lyk baie anders' is a lateral swap."
+    },
+    {
+      "nr": 3,
+      "blok": "Die vleis word met almal gedeel",
+      "voor": "Elke gesin het 'n stuk gekry.",
+      "na": "Elke gesin het 'n stuk ontvang.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Gekry' appears four times in this short block in two senses (catching an animal, receiving a share); varying this one keeps the hunting sense of 'gekry' clear.",
+      "fout": "none",
+      "rede_keurder": "'Gekry' is the plain, natural word for a Grade 5 reader and its sense is clear in context; 'ontvang' only raises the register."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "hottentotsgot",
+      "rede": "The ruling is clear and I have left it alone, but the name contains 'hottentot', which many South Africans consider a slur, and it stands in a lesson about the San and Khoikhoi; a person may want to confirm that it was weighed against that risk."
+    }
+  ],
+  "woorde_voor": 421,
+  "woorde_na": 420,
+  "wanneer": "2026-11-12T22:29:16+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 2,
       "blok": "Die vleis word met almal gedeel",
@@ -62,16 +55,39 @@
       "rede_vinder": "The passive infinitive construction is wooden; a dat-clause says the same thing more naturally.",
       "fout": "none",
       "rede_keurder": "'Vir die San' (in the San's view) becomes 'By die San' (among the San), a preposition change that shifts the framing. The original is a little stiff but grammatical."
+    },
+    {
+      "nr": 1,
+      "blok": "Geen koning of hoofman nie",
+      "voor": "wat vir almal besluit nie",
+      "na": "wat vir almal besluit het nie",
+      "soort": "grammatika",
+      "rede_vinder": "The relative clause should stay in the past tense, like the main clause and the rest of the block.",
+      "fout": "none",
+      "rede_keurder": "The present-tense relative clause describes the kind of ruler, matching the generic 'Waar 'n koning regeer' just before it; the past form is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Geen koning of hoofman nie",
+      "voor": "Die groep het belangrike besluite saam bespreek",
+      "na": "Die groep het belangrike sake saam bespreek",
+      "soort": "woordkeuse",
+      "rede_vinder": "In Afrikaans one discusses matters ('sake') and takes decisions; 'besluite bespreek' is an awkward collocation, and 'sake' keeps the meaning.",
+      "fout": "none",
+      "rede_keurder": "'Sake' loses the point that the group made its decisions together, which the paragraph contrasts with a king deciding for all and which the example 'waarheen hulle moes trek' illustrates."
+    },
+    {
+      "nr": 3,
+      "blok": "Kragte in die natuur",
+      "voor": "Die San het geglo daar is geestelike kragte in die natuur",
+      "na": "Die San het geglo dat daar geestelike kragte in die natuur is",
+      "soort": "sinsbou",
+      "rede_vinder": "Written Afrikaans for this grade prefers the full 'dat' clause with the verb at the end; the protected 'geestelike kragte' stays intact.",
+      "fout": "none",
+      "rede_keurder": "'Het geglo daar is' is correct, natural Afrikaans; the 'dat' clause is a lateral move that only reads differently."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 421,
-  "woorde_na": 422,
-  "wanneer": "2026-11-12T21:27:22+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:ea75a653c5d6e9a13adf4b8e2fdc5dc9",
+  "konsep_hash_voor": "sha256:f3d718023368366c35f9613ebec00b45",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:c2f9f61102ebd8606ce6dca5a98caee8"
+  "konsep_hash_na": "sha256:05bf39540e643add07f8f5122b334d86"
 }

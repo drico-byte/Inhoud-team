@@ -1,8 +1,8 @@
 {
   "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-7",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:0636f7ed3a3ac5284f44356532538260",
-  "hek": "FAIL",
+  "konsep_hash": "sha256:39d606d4f535ca8ada67b38ed3086f75",
+  "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:0636f7ed3a3ac5284f44356532538260"
   ],
@@ -35,12 +35,87 @@
       "punte": [
         "Study text 300 words, above budget ceiling 280 (planned 250 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
       ]
+    },
+    {
+      "wanneer": "2026-11-12T22:19:43+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:23746feb7a0bb00d8fee0126c13c4868",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:19:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 269,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:22:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 5,
+      "laat_vaar": 3,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 269,
+      "woorde_na": 275,
+      "konsep_hash": "sha256:23b1fd983f000ccaa5f087a64226f5ec"
+    },
+    {
+      "wanneer": "2026-11-12T22:22:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 275,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:22:58+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'waarin daar yster vasgevang sit': 'waarin daar yster vasgevang sit' is clumsy, with a redundant 'daar'.",
+        "check (the language finder raised this; it may not be a fault): 'Vir wapens het hy spiespunte vir spiese gemaak.': The double 'vir ... vir' reads slightly awkwardly, but every rewrite either says the spear points themselves were weapons or adds how they were fixed to the spears, so it is left for a person or the writer."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:24:04+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:39d606d4f535ca8ada67b38ed3086f75",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:24:05+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 275,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:25:29+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 275,
+      "woorde_na": 275
     }
   ],
-  "taal_vir_skrywer": [],
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'Vir wapens het hy spiespunte vir spiese gemaak.': The double 'vir ... vir' ('Vir wapens ... spiespunte vir spiese') reads clumsily."
+  ],
   "spek_hash": "sha256:26af5448e6118b39dad41b0043f57ac8",
   "hek_konteks": {
     "graad": 5,
     "begroting": 250
-  }
+  },
+  "taal_rondte_vir": "sha256:39d606d4f535ca8ada67b38ed3086f75",
+  "taal_keurder_vir": "7f6e20d6355b5dd635fd171a0492b8a2",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:39d606d4f535ca8ada67b38ed3086f75",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:23b1fd983f000ccaa5f087a64226f5ec",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "45d7494da77c39f09185df7b4db5e56e"
 }

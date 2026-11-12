@@ -1,7 +1,7 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:a25fac8610056b0be0f02199eff256ce",
+  "konsep_hash": "sha256:1de74e2e28a4b06e6d7be09c4c7dee9c",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -21,13 +21,50 @@
       "woorde": 209,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:19:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 7,
+      "laat_vaar": 2,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 209,
+      "woorde_na": 210,
+      "konsep_hash": "sha256:1de74e2e28a4b06e6d7be09c4c7dee9c"
+    },
+    {
+      "wanneer": "2026-11-12T22:19:47+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 210,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:19:48+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'groot eer en respek te gee': 'respek gee' copies English 'give respect'; Afrikaans says 'eer en respek bewys'",
+        "fix: [taal] in 'die rituele vir die gode doen': 'rituele doen' is a flat verb where 'uitvoer' is the collocation"
+      ]
     }
   ],
-  "taal_vir_skrywer": [],
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'groot eer en respek te gee': 'respek gee' copies English 'give respect'; Afrikaans says 'eer en respek bewys'",
+    "fix: [taal] in 'die rituele vir die gode doen': 'rituele doen' is a flat verb where 'uitvoer' is the collocation"
+  ],
   "spek_hash": "sha256:0e871a9dfda6fc9607d2528b417624b1",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:a25fac8610056b0be0f02199eff256ce"
+  "taal_rondte_vir": "sha256:1de74e2e28a4b06e6d7be09c4c7dee9c",
+  "taal_keurder_vir": "e0a9b6c8a179e195406c7e20ba63a8b2",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:1de74e2e28a4b06e6d7be09c4c7dee9c",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:1de74e2e28a4b06e6d7be09c4c7dee9c",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "3d821986a070279cb77cc61ecb78309d"
 }

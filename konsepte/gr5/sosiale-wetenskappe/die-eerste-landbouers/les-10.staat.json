@@ -1,11 +1,9 @@
 {
   "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-10",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:bc9b2ae3a80b0e33550eb91756295a6d",
+  "konsep_hash": "sha256:bc11ffbcc9c17b82c7321a1c8328c8df",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:5e0cd6a013e6cbad8eb6d4d97023687f"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -51,13 +49,126 @@
       "woorde": 215,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T21:52:09+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 6,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 215,
+      "woorde_na": 214,
+      "konsep_hash": "sha256:606dfafc2c59d85ecaab2224fc9e0f2d"
+    },
+    {
+      "wanneer": "2026-11-12T21:52:29+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 214,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T21:52:30+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Hulle het ook ander middels uit die natuur gebruik.': Vague: 'ander middels' does not say what kind of remedies; making it concrete would need content, so it is flagged rather than changed.",
+        "check (the language finder raised this; it may not be a fault): ''n Sangoma het geestelike leiding gegee. Hy of sy het die voorouers om': 'leiding' appears in two consecutive sentences with different givers; avoiding it would shift the meaning or the glossary-matched wording, so it is left for the reviewer or writer."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:16:51+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:4987eff4b2a44a7f67e6eabbf82d031f",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:16:57+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 220,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:20:19+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 3,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 220,
+      "woorde_na": 220,
+      "konsep_hash": "sha256:bc11ffbcc9c17b82c7321a1c8328c8df"
+    },
+    {
+      "wanneer": "2026-11-12T22:20:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 220,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:30:10+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:30:11+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 25,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:30:12+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "die boere jag steeds"
+      ],
+      "tally": {
+        "die boere jag steeds": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:30:13+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:30:56+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "die boere jag steeds": 1
+      }
     }
   ],
-  "taal_vir_skrywer": [],
-  "spek_hash": "sha256:dffd65c8fedfa2153b6c23504c7eece9",
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): ''n Sangoma gee geestelike leiding. Hy of sy vra die voorouers om leidi': 'leiding' is repeated in two consecutive sentences, which reads slightly wooden; the second sentence matches the sangoma glossary entry, so changing either wording risks the definition or the content, and is left for the reviewer or writer to judge."
+  ],
+  "spek_hash": "sha256:e11c93046224b0693a069df3a5389271",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:bc9b2ae3a80b0e33550eb91756295a6d"
+  "taal_rondte_vir": "sha256:bc11ffbcc9c17b82c7321a1c8328c8df",
+  "taal_keurder_vir": "db6fc628fd21ba468af094c5917c34d8",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:bc11ffbcc9c17b82c7321a1c8328c8df",
+  "taal_vir_mens": [
+    "[taal, protected word] 'nyanga': The protected list keeps 'nyanga', but the lesson and its glossary headword use 'inyanga' throughout (the isiZulu form with the noun prefix, beside 'In isiZulu'). Nothing was changed; a person should confirm which spelling is decided, because the protection as written does not match any whole word in the lesson."
+  ],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "a6c01db22b778f41e84c9bf4bced9844"
 }

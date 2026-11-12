@@ -2,17 +2,55 @@
   "toegepas": [
     {
       "nr": 2,
-      "blok": "Mense wat vandag leef",
-      "voor": "Hierdie manier van navorsing noem ons etnografie.",
-      "na": "Hierdie soort navorsing noem ons etnografie.",
-      "soort": "idioom",
-      "rede_vinder": "'Hierdie soort navorsing' is the natural Afrikaans phrasing; 'manier van navorsing' reads as a translation of 'way of research'.",
-      "fout": "'Hierdie manier van navorsing' is slightly stiff and translation-like.",
-      "rede_keurder": "'Hierdie soort navorsing' is the natural Afrikaans phrasing and names the same thing without moving the meaning."
+      "blok": "Rotskuns",
+      "voor": "Baie daarvan wys mense wat dans en diere soos die eland",
+      "na": "Baie daarvan wys diere soos die eland en mense wat dans",
+      "soort": "sinsbou",
+      "rede_vinder": "As written, 'mense wat dans en diere' can be misread as both people and animals dancing; reordering removes the ambiguity without changing the content.",
+      "fout": "After 'mense wat dans en' a reader can briefly expect a second verb for the relative clause, so the sentence stumbles on a first reading.",
+      "rede_keurder": "Putting the animals first and ending on 'mense wat dans' removes the stumble with the same two items and no change in meaning."
     }
   ],
   "nie_toegepas": [],
   "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Stories",
+      "voor": "is oor baie geslagte heen oorvertel, van ouers na kinders",
+      "na": "is oor baie geslagte heen van ouers na kinders oorvertel",
+      "soort": "woordorde",
+      "rede_vinder": "The trailing phrase after the verb reads as an afterthought; placing it before the final verb is the natural Afrikaans order.",
+      "fout": "none",
+      "rede_keurder": "Placing the prepositional phrase after the verb is normal, natural Afrikaans; the proposal only stacks three phrases in the middle field, which is a lateral move that is no easier for a Grade 5 reader."
+    },
+    {
+      "nr": 3,
+      "blok": "Rotskuns",
+      "voor": "baie van die kuns gaan oor wat die mense geglo het",
+      "na": "baie van die kuns oor die mense se geloof gaan",
+      "soort": "woordorde",
+      "rede_vinder": "In a 'dat' clause the finite verb belongs at the end; the extraposed 'gaan oor wat...' is colloquial rather than standard written Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "Extraposing the heavy 'oor wat...' phrase after 'gaan' is standard Afrikaans, and 'die mense se geloof' narrows 'wat die mense geglo het' towards religion and breaks the parallel with the Stories block."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 224,
+  "woorde_na": 224,
+  "wanneer": "2026-11-12T22:11:05+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 4,
+      "blok": "Mense wat vandag leef",
+      "voor": "Navorsers leer ook deur mense wat vandag leef dop te hou",
+      "na": "Navorsers leer ook meer deur mense wat vandag leef, dop te hou",
+      "soort": "sinsbou",
+      "rede_vinder": "'leer ook' needs an object to read naturally, and a comma after the embedded relative clause helps a Grade 5 reader find the verb.",
+      "fout": "none",
+      "rede_keurder": "'leer' needs no object, 'meer' adds a comparison the original does not make, and the comma splits the 'deur ... dop te hou' construction."
+    },
     {
       "nr": 1,
       "blok": "Rotskuns",
@@ -24,31 +62,7 @@
       "rede_keurder": "The original reads naturally and 'in die klip' echoes the decided rotskuns definition; 'daarin ingekerf' is a lateral and slightly clumsier move."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [
-    {
-      "blok": "Rotskuns",
-      "teks": "kuns wat mense op rotse geskilder of in die klip ingekerf het",
-      "rede": "The body uses 'geskilder' and 'ingekerf' while the decided glossary definition uses 'verf' and 'inkap' for the same two actions; not a language fault I may fix, but a learner meets two verbs for one thing in one lesson."
-    }
-  ],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 217,
-  "woorde_na": 216,
-  "wanneer": "2026-11-12T21:33:13+00:00",
-  "laat_vaar_vorige": [
-    {
-      "nr": 4,
-      "blok": "Mense wat vandag leef",
-      "voor": "Navorsers leer ook deur mense wat vandag leef dop te hou",
-      "na": "Navorsers leer ook meer deur mense wat vandag leef, dop te hou",
-      "soort": "sinsbou",
-      "rede_vinder": "'leer ook' needs an object to read naturally, and a comma after the embedded relative clause helps a Grade 5 reader find the verb.",
-      "fout": "none",
-      "rede_keurder": "'leer' needs no object, 'meer' adds a comparison the original does not make, and the comma splits the 'deur ... dop te hou' construction."
-    }
-  ],
-  "konsep_hash_voor": "sha256:aadcb3791d733ec792a682bd06a158d5",
+  "konsep_hash_voor": "sha256:823ef1aed56edded6bc6f4eea623bf41",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:ff8f1a2db0dc65989246a14133c05f2c"
+  "konsep_hash_na": "sha256:70764ce110e43b4886256ff570cf1e8d"
 }

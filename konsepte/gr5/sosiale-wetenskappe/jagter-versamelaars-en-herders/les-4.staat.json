@@ -1,11 +1,15 @@
 {
   "les": "gr5/sosiale-wetenskappe/jagter-versamelaars-en-herders/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:77f251a382f7eef072242b521877c22d",
+  "konsep_hash": "sha256:05bf39540e643add07f8f5122b334d86",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:f8109d1a0d05c769bf219d663ede5f2b"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "geen koning of hoofman nie": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -96,19 +100,142 @@
       "woorde": 422,
       "begroting": 450,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T21:48:26+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 422,
+      "woorde_na": 422,
+      "konsep_hash": "sha256:8d9c3f6ee09ca7ae72e0434b21ef28c5"
+    },
+    {
+      "wanneer": "2026-11-12T21:48:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 422,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:07:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8495df70cad268ec1c072059eb26c377",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T22:07:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 421,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:19:05+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 421,
+      "woorde_na": 421,
+      "konsep_hash": "sha256:f8109d1a0d05c769bf219d663ede5f2b"
+    },
+    {
+      "wanneer": "2026-11-12T22:19:09+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 421,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:26:50+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:26:50+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:26:51+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "geen koning of hoofman nie"
+      ],
+      "tally": {
+        "geen koning of hoofman nie": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:26:51+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Geen koning of hoofman nie — corrected: Vernou die opskrif sodat dit oor mag gaan en nie oor die bestaan van 'n hoofman nie, byvoorbeeld 'Geen heerser met groot mag nie' of 'Niemand het vir almal besluit nie'. Die liggaamsteks kan bly soos dit is."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:27:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f3d718023368366c35f9613ebec00b45",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:27:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 421,
+      "begroting": 450,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:29:16+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 421,
+      "woorde_na": 420,
+      "konsep_hash": "sha256:05bf39540e643add07f8f5122b334d86"
+    },
+    {
+      "wanneer": "2026-11-12T22:29:18+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 420,
+      "begroting": 450,
+      "failures": []
     }
   ],
   "taal_vir_skrywer": [],
-  "spek_hash": "sha256:60078e15846287d06ea2389af6a830c2",
+  "spek_hash": "sha256:1bd41857f170eab5121426db4c96da1c",
   "hek_konteks": {
     "graad": 5,
     "begroting": 450
   },
-  "taal_rondte_vir": "sha256:77f251a382f7eef072242b521877c22d",
-  "taal_keurder_vir": "89b71683c6ec1a20744705eec8aa70a7",
+  "taal_rondte_vir": "sha256:05bf39540e643add07f8f5122b334d86",
+  "taal_keurder_vir": "c7e389dcfd7064d654f3e6d6029876e3",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:c2f9f61102ebd8606ce6dca5a98caee8",
-  "taal_vir_mens": [],
+  "taal_klaar_vir": "sha256:05bf39540e643add07f8f5122b334d86",
+  "taal_vir_mens": [
+    "[taal, protected word] 'hottentotsgot': The ruling is clear and I have left it alone, but the name contains 'hottentot', which many South Africans consider a slur, and it stands in a lesson about the San and Khoikhoi; a person may want to confirm that it was weighed against that risk."
+  ],
   "taal_bons_siklus": null,
   "taal_bons_vir": null
 }

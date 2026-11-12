@@ -1,7 +1,7 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:459acf472caafe8f8efbaa85fd22ed13",
+  "konsep_hash": "sha256:ea301480178f3c170fb491278374f452",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -21,13 +21,72 @@
       "woorde": 222,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:11:53+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 222,
+      "woorde_na": 224,
+      "konsep_hash": "sha256:5d4d2faebfab2325fdb767554e448f38"
+    },
+    {
+      "wanneer": "2026-11-12T22:12:03+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 224,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:12:04+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Om gewasse met water nat te lei wanneer daar te min reën val.': 'gewasse met water nat te lei' is not idiomatic Afrikaans; water is led to crops, not crops led wet."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:19:41+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ea301480178f3c170fb491278374f452",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T22:19:46+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 224,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:22:27+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 224,
+      "woorde_na": 224
     }
   ],
-  "taal_vir_skrywer": [],
-  "spek_hash": "sha256:7fe92c1c294662eb8f1d123f6a929ebb",
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'met walle van grond rondom wat water vashou': 'rondom wat water vashou' can first be misread as 'around that which holds water'"
+  ],
+  "spek_hash": "sha256:2598ea96b4cd6a3029166d928ce926be",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:459acf472caafe8f8efbaa85fd22ed13"
+  "taal_rondte_vir": "sha256:ea301480178f3c170fb491278374f452",
+  "taal_keurder_vir": "64548be9b4b565ed484b9e6babf07428",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:ea301480178f3c170fb491278374f452",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:5d4d2faebfab2325fdb767554e448f38",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "69c3d5331dc385f482855014d93ea635"
 }
