@@ -1,28 +1,24 @@
 {
-  "toegepas": [
-    {
-      "nr": 4,
-      "blok": "Die soektog na Toetankamen",
-      "voor": "Sy graf het nog niemand gevind nie.",
-      "na": "Maar sy graf was nog nie gevind nie.",
-      "soort": "sinsbou",
-      "rede_vinder": "With the object first, a child can read it as 'his grave had not yet found anyone'; the passive is unambiguous and fits the past narrative.",
-      "fout": "With the object first, 'Sy graf het nog niemand gevind nie' can first be read as the grave not having found anyone.",
-      "rede_keurder": "The passive removes the misreading, says the same thing (the grave had not yet been found), and 'Maar' only makes explicit the contrast already there with the objects found."
-    },
-    {
-      "nr": 6,
-      "blok": "Waarom die graf oorleef het",
-      "voor": "Daarom het rowers dit gemis",
-      "na": "Daarom het rowers die graf gemis",
-      "soort": "verwysing",
-      "rede_vinder": "The nearest antecedent of 'dit' is 'ingang', not the grave; naming the grave makes the reference clear and matches the lesson title.",
-      "fout": "'dit' follows 'die klein graf se ingang' and could point to the entrance or to the grave.",
-      "rede_keurder": "Naming the grave fixes the ambiguous pronoun without changing the meaning, and the later 'dit' in the same sentence then clearly refers to the grave too."
-    }
-  ],
+  "toegepas": [],
   "nie_toegepas": [],
-  "laat_vaar": [
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 217,
+  "woorde_na": 217,
+  "wanneer": "2026-11-12T23:46:03+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 9,
+      "blok": "Waarom die graf oorleef het",
+      "voor": "gemis tot Carter",
+      "na": "gemis totdat Carter",
+      "soort": "grammatika",
+      "rede_vinder": "In written Afrikaans the subordinating conjunction is 'totdat'; 'tot' as a conjunction is colloquial.",
+      "fout": "none",
+      "rede_keurder": "'tot' is standard Afrikaans as a conjunction and reads naturally here, so 'totdat' is a lateral move."
+    },
     {
       "nr": 1,
       "blok": "Piramides wat rowers gelok het",
@@ -62,27 +58,19 @@
       "rede_vinder": "'Hul' is the usual written possessive form; 'hulle' as possessive is more spoken.",
       "fout": "none",
       "rede_keurder": "Possessive 'hulle' is standard written Afrikaans, so swapping it for 'hul' is a lateral move."
-    }
-  ],
-  "na_skrywer": [],
-  "vlae": [],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 217,
-  "woorde_na": 219,
-  "wanneer": "2026-11-12T23:23:51+00:00",
-  "laat_vaar_vorige": [
+    },
     {
-      "nr": 9,
-      "blok": "Waarom die graf oorleef het",
-      "voor": "gemis tot Carter",
-      "na": "gemis totdat Carter",
-      "soort": "grammatika",
-      "rede_vinder": "In written Afrikaans the subordinating conjunction is 'totdat'; 'tot' as a conjunction is colloquial.",
+      "nr": 2,
+      "blok": "grafrower",
+      "voor": "om die kosbare goed te steel",
+      "na": "om die kosbare goed daarin te steel",
+      "soort": "verwysing",
+      "rede_vinder": "The definite 'die kosbare goed' has nothing to refer back to when the entry is read alone; 'daarin' ties it to the grave, as 'daaruit' does in the plunder entry.",
       "fout": "none",
-      "rede_keurder": "'tot' is standard Afrikaans as a conjunction and reads naturally here, so 'totdat' is a lateral move."
+      "rede_keurder": "The grave is named in the same sentence, so 'die kosbare goed' already refers clearly even read alone; 'daarin' only lengthens a glossary definition that should change only through the writer."
     }
   ],
-  "konsep_hash_voor": "sha256:9417640b12cdb22977d041c6f8a12d47",
-  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:411cfef6423df5dc0df11b2f597c3dc2"
+  "konsep_hash_voor": "sha256:88967e1b64df4c8a04a5f59e2f6bedab",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:88967e1b64df4c8a04a5f59e2f6bedab"
 }

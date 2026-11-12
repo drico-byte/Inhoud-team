@@ -1,38 +1,46 @@
 {
   "toegepas": [
     {
-      "nr": 2,
+      "nr": 1,
       "blok": "Plekke vir die hele mensdom",
-      "voor": "UNESCO erken plekke van waarde vir die hele mensdom as wêrelderfenisterreine.",
-      "na": "UNESCO erken plekke wat vir die hele mensdom waardevol is, as wêrelderfenisterreine.",
+      "voor": "UNESCO erken plekke wat vir die hele mensdom waardevol is, as wêrelderfenisterreine.",
+      "na": "Plekke wat vir die hele mensdom waardevol is, word deur UNESCO as wêrelderfenisterreine erken.",
       "soort": "sinsbou",
-      "rede_vinder": "'Plekke van waarde vir' is stiff and nominal; a relative clause is more natural, echoes the glossary wording, and the comma stops 'waardevol is as' being misread.",
-      "fout": "The long noun phrase 'plekke van waarde vir die hele mensdom' between 'erken' and 'as' is stiff and makes the 'erken X as Y' structure hard to follow on a first reading.",
-      "rede_keurder": "The relative clause is more natural, keeps the meaning and the protected words, and matches the glossary definition's wording."
-    },
-    {
-      "nr": 4,
-      "blok": "Natuurlik, kultureel of gemeng",
-      "voor": "Robbeneiland is ook kultureel omdat dit ons laat dink aan belangrike mense en wat daar gebeur het.",
-      "na": "Robbeneiland is ook kultureel, want dit laat ons dink aan belangrike mense en aan wat daar gebeur het.",
-      "soort": "sinsbou",
-      "rede_vinder": "Matches the 'X is ..., want ...' pattern of the neighbouring sentences, fixes the subordinate-clause word order ('dit ons laat dink aan'), and repeats 'aan' so both objects attach clearly to 'dink'.",
-      "fout": "'dink aan belangrike mense en wat daar gebeur het' leaves the second object hanging without its 'aan', which makes the reader stumble.",
-      "rede_keurder": "Repeating 'aan' ties both objects to 'dink', and 'want' with its AWS comma keeps the same causal meaning while matching the neighbouring sentences."
-    },
-    {
-      "nr": 5,
-      "blok": "Goud van Mapungubwe",
-      "voor": "dun plaatjies goud",
-      "na": "dun goudplaatjies",
-      "soort": "woordkeuse",
-      "rede_vinder": "The compound 'goudplaatjies' is the natural Afrikaans form; 'plaatjies goud' reads like a translation.",
-      "fout": "'dun plaatjies goud' copies English 'thin sheets of gold'.",
-      "rede_keurder": "The compound 'goudplaatjies' is the natural Afrikaans form, parallels 'houtvorm' in the same phrase, and changes nothing in the meaning."
+      "rede_vinder": "The dangling 'as' after the comma can be misread by a Grade 5 learner as conditional 'if'; this order keeps the meaning and both protected words.",
+      "fout": "The 'as' standing alone after the comma reads first as conditional 'if', so the reader stumbles before reaching 'wêrelderfenisterreine'.",
+      "rede_keurder": "The passive order puts 'as' straight after its verb, keeps the same actor, the same places and the same claim, and leaves both protected words intact."
     }
   ],
   "nie_toegepas": [],
   "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Goud van Mapungubwe",
+      "voor": "'n renoster van dun goudplaatjies om 'n houtvorm",
+      "na": "'n renoster wat van dun goudplaatjies om 'n houtvorm gemaak is",
+      "soort": "sinsbou",
+      "rede_vinder": "The phrase is telegraphic without a verb; 'wat ... gemaak is' makes the construction clear without adding content.",
+      "fout": "none",
+      "rede_keurder": "'n renoster van dun goudplaatjies om 'n houtvorm' is a natural Afrikaans noun phrase; the proposal is longer and repeats 'gemaak' from two sentences earlier."
+    },
+    {
+      "nr": 3,
+      "blok": "getuienis",
+      "voor": "Wat 'n bron vir ons wys oor wat in die verlede gebeur het.",
+      "na": "Dit wat 'n bron ons wys oor wat in die verlede gebeur het.",
+      "soort": "sinsbou",
+      "rede_vinder": "A definition opening on bare 'Wat' reads as a question, and standard written Afrikaans prefers 'wys ons' to 'vir ons wys'; the reviewer should check whether this definition is shared across lessons before applying it.",
+      "fout": "none",
+      "rede_keurder": "A glossary definition opening with a headless 'Wat' clause and 'vir ons wys' are both acceptable Afrikaans, and 'Dit wat ... ons wys oor wat' is stiffer and stacks two 'wat' clauses, so there is no fault to send to the writer."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 219,
+  "woorde_na": 221,
+  "wanneer": "2026-11-12T23:48:34+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 1,
       "blok": "Tasbaar of nie-tasbaar",
@@ -54,20 +62,7 @@
       "rede_keurder": "It touches a number, and the numeral reads fine for Grade 5; a lateral change."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [
-    {
-      "blok": "Tasbaar of nie-tasbaar",
-      "teks": "Musiek, feeste en jou gesin se stories is nie-tasbaar. Jy kan dit nie vashou nie.",
-      "rede": "The study text defines tangible with 'sien en aanraak' and the glossary defines intangible with 'nie kan aanraak nie', but this sentence uses 'vashou'. Not a language fault and not changed, because aligning the verb may touch a shared definition pair; noting it in case the writer wants the study text to use the same verb as the glossary."
-    }
-  ],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 216,
-  "woorde_na": 217,
-  "wanneer": "2026-11-12T23:37:43+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:41a8307a800566e05e687d5c62ed249c",
+  "konsep_hash_voor": "sha256:6469d3871d5d2b6fddaeb5a259659b0f",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:dec2a7b5cff010dd6cf228fcaba2f96b"
+  "konsep_hash_na": "sha256:b0b092dd7a265cce414878522eedcd1e"
 }

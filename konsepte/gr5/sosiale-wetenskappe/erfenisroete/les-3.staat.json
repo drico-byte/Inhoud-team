@@ -1,8 +1,8 @@
 {
   "les": "gr5/sosiale-wetenskappe/erfenisroete/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:18c8d3d733dc267b0d0e5df463095aab",
-  "hek": "FAIL",
+  "konsep_hash": "sha256:cc4c386d32c568afcd8127f36c945935",
+  "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:18c8d3d733dc267b0d0e5df463095aab"
   ],
@@ -35,12 +35,101 @@
       "punte": [
         "Study text 225 words, above budget ceiling 224 (planned 200 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters."
       ]
+    },
+    {
+      "wanneer": "2026-11-12T23:39:10+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5bf5ac619156398a03191bcfb2d1b1a4",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T23:39:11+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 221,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:41:15+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 221,
+      "woorde_na": 223,
+      "konsep_hash": "sha256:cc4c386d32c568afcd8127f36c945935"
+    },
+    {
+      "wanneer": "2026-11-12T23:41:16+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 223,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:41:16+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Daarom is dit erfenis van die hele mensdom en nie net van Suid-Afrika ': 'dit' follows a sentence about 'Die fossiele' (plural), so it is unclear whether the fossils or the site is meant; it reads acceptably as a general 'dit', but choosing a noun would mean guessing the intent, so this is flagged and not changed."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:46:58+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:46:58+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:47:02+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:47:02+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:47:03+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\erfenisroete\\les-3.json",
+      "konsep_hash": "sha256:cc4c386d32c568afcd8127f36c945935",
+      "vervang": false
     }
   ],
-  "taal_vir_skrywer": [],
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Daarom is dit erfenis van die hele mensdom en nie net van Suid-Afrika ': 'dit' follows a sentence about 'Die fossiele' (plural), so it is unclear whether the fossils or the site is meant; it reads acceptably as a general 'dit', but choosing a noun would mean guessing the intent, so this is flagged and not changed."
+  ],
   "spek_hash": "sha256:83cbffe1f44d67fcbe6cbb1cd6b7b536",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
-  }
+  },
+  "taal_rondte_vir": "sha256:cc4c386d32c568afcd8127f36c945935",
+  "taal_keurder_vir": "49520078cbbed21d5f3d81b66c258820",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:cc4c386d32c568afcd8127f36c945935",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:cc4c386d32c568afcd8127f36c945935",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "840842f3029c0097e772c9a2a8018966"
 }

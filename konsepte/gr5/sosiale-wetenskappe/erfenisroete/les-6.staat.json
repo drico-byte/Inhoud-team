@@ -1,7 +1,7 @@
 {
   "les": "gr5/sosiale-wetenskappe/erfenisroete/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:fe150a86bcc5d6b64a58a6308c3c7a9c",
+  "konsep_hash": "sha256:db64b5f89b9b1fe2c89212bb336a4077",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -21,13 +21,111 @@
       "woorde": 194,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:44:49+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 194,
+      "woorde_na": 195,
+      "konsep_hash": "sha256:5f8d72d5986e5b3c65ec542a511a0887"
+    },
+    {
+      "wanneer": "2026-11-12T23:44:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 195,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:44:53+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): ''n Groep mense wat saam stap om te wys hulle is teen iets.': The definition says a protest march IS a group of people, while a 'protesoptog' is the march (the event) itself; fixing this changes what the definition says, so it is flagged for the reviewer or writer rather than rewritten here."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:45:52+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:db64b5f89b9b1fe2c89212bb336a4077",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T23:45:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 195,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:47:05+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 195,
+      "woorde_na": 195
+    },
+    {
+      "wanneer": "2026-11-12T23:52:05+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:52:06+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 26,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:52:08+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:52:09+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 26,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:52:09+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\erfenisroete\\les-6.json",
+      "konsep_hash": "sha256:db64b5f89b9b1fe2c89212bb336a4077",
+      "vervang": false
     }
   ],
-  "taal_vir_skrywer": [],
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'Wanneer 'n groep mense saam stap': The glossary entry for the noun 'protesoptog' is defined with a 'wanneer' clause instead of a noun phrase, which is weak dictionary style."
+  ],
   "spek_hash": "sha256:914bbc57ac22b653efaab4e153205843",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:fe150a86bcc5d6b64a58a6308c3c7a9c"
+  "taal_rondte_vir": "sha256:db64b5f89b9b1fe2c89212bb336a4077",
+  "taal_keurder_vir": "7fb223032d937d3d9df8247f7a19ee8f",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:db64b5f89b9b1fe2c89212bb336a4077",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:5f8d72d5986e5b3c65ec542a511a0887",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "1931673cf99f066f40a283c85a0545c0"
 }
