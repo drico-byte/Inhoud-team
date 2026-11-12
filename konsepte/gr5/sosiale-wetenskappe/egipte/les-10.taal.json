@@ -2,17 +2,24 @@
   "toegepas": [
     {
       "nr": 1,
-      "blok": "Toe en nou",
-      "voor": "brood en speel hulle bordspeletjies",
-      "na": "brood, en hulle speel nog bordspeletjies",
+      "blok": "Baie gode",
+      "voor": "soos die songod Ra en Anubis, die god van mummifisering",
+      "na": "soos Ra, die songod, en Anubis, die god van mummifisering",
       "soort": "sinsbou",
-      "rede_vinder": "In the original, 'hulle' can be read as 'their' (families play their board games) and 'elke dag' seems to cover the games too; a separate clause with its own subject fixes both and takes the AWS comma before 'en'.",
-      "fout": "After 'en', 'speel hulle bordspeletjies' reads first as 'play their board games' with no subject, and 'elke dag' seems to cover the games as well as the bread.",
-      "rede_keurder": "A separate clause with its own subject and the AWS comma removes the stumble, keeps 'elke dag' on the bread where it belongs, and leaves every protected word and qualifier intact."
+      "rede_vinder": "Puts both gods in the same name-then-description pattern, so 'die songod' cannot be read as describing both Ra and Anubis; the comma before 'en' closes the inserted phrase, it is not a list comma, and every protected word stays.",
+      "fout": "The two gods are introduced in mismatched patterns (title before Ra, appositive after Anubis), so 'die songod Ra en Anubis' can be read on first pass as both being sun gods.",
+      "rede_keurder": "Same words, same gods and same descriptions in a parallel name-then-description pattern that a Grade 5 reader cannot misparse; protected words Ra, songod, Anubis and mummifisering are untouched, and the comma before 'en' closes an inserted phrase rather than sitting in a list."
     }
   ],
   "nie_toegepas": [],
-  "laat_vaar": [
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 276,
+  "woorde_na": 276,
+  "wanneer": "2026-11-12T23:29:57+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 2,
       "blok": "'n Boer en 'n ryk familie",
@@ -24,14 +31,7 @@
       "rede_keurder": "'n Ryk familie' is natural Afrikaans and matches the block heading and the lesson's 'ryk families', so the swap is a lateral move that would break that consistency."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 267,
-  "woorde_na": 268,
-  "wanneer": "2026-11-12T23:19:38+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:c2dad95e429b5687db4703d5c1c00f32",
+  "konsep_hash_voor": "sha256:ec8c7f16af74ddd9be25f77a9f7f2e62",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:2a32a1cd9492846fee4fdf6e9f5d382f"
+  "konsep_hash_na": "sha256:ec4c8fcfd043e91350220dfe08c3e944"
 }

@@ -1,11 +1,17 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-9",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:495548d7afb64b54ba8504717bdb5067",
+  "konsep_hash": "sha256:d35e3a51c661f5f239f0823b5bd17fa4",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:495548d7afb64b54ba8504717bdb5067",
+    "sha256:fa8b240928bbada829dd65f83945a8e8"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "sosiale struktuur": 1,
+    "amptenaar": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -125,6 +131,145 @@
       "nie_toegepas": 0,
       "woorde_voor": 268,
       "woorde_na": 268
+    },
+    {
+      "wanneer": "2026-11-12T23:25:50+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:25:50+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:25:51+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "sosiale struktuur"
+      ],
+      "tally": {
+        "sosiale struktuur": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T23:25:51+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] sosiale struktuur: Die manier waarop 'n samelewing in groepe — corrected: Haal die rangorde uit die definisie self en hou dit as die gewone geval, byvoorbeeld: 'Die manier waarop 'n samelewing in groepe ingedeel is, dikwels van hoog tot laag.' As dit 'n gedeelde omskrywing vir die vak is, moet dit op die vakvlak verander word en nie net in hierdie les nie."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:26:45+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:e2b176c3ac76fedcce14d2c0c69802b0",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T23:26:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 268,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:27:43+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 268,
+      "woorde_na": 268,
+      "konsep_hash": "sha256:fa8b240928bbada829dd65f83945a8e8"
+    },
+    {
+      "wanneer": "2026-11-12T23:27:44+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 268,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:34:02+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:34:03+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 27,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:34:03+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "amptenaar"
+      ],
+      "tally": {
+        "sosiale struktuur": 1,
+        "amptenaar": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T23:34:03+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 2,
+      "punte": [
+        "[feite] amptenaar: Iemand wat namens die heerser help om die land te — corrected: Verbreed die omskrywing sodat dit ook buite antieke Egipte waar is, byvoorbeeld deur die regering naas die heerser te noem en die werk as die land se of die staat se werk te beskryf, in plaas van net 'namens die heerser'. Die Egipte-betekenis moet steeds pas."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:34:57+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ec0fff66dc1a1aee496f1baa80adbc1b",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-12T23:34:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 268,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:36:05+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 268,
+      "woorde_na": 267,
+      "konsep_hash": "sha256:d35e3a51c661f5f239f0823b5bd17fa4"
+    },
+    {
+      "wanneer": "2026-11-12T23:36:06+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 267,
+      "begroting": 250,
+      "failures": []
     }
   ],
   "taal_vir_skrywer": [],
@@ -133,10 +278,11 @@
     "graad": 5,
     "begroting": 250
   },
-  "taal_rondte_vir": "sha256:495548d7afb64b54ba8504717bdb5067",
-  "taal_keurder_vir": "f810b313cf9508d4528cc89ce3d16bf5",
-  "taal_klaar_vir": "sha256:495548d7afb64b54ba8504717bdb5067",
+  "taal_rondte_vir": "sha256:d35e3a51c661f5f239f0823b5bd17fa4",
+  "taal_keurder_vir": "92d4a200e8a4e84c5e73bca277cdc4c0",
+  "taal_klaar_vir": "sha256:d35e3a51c661f5f239f0823b5bd17fa4",
   "taal_vir_mens": [],
   "taal_bons_siklus": null,
-  "taal_bons_vir": null
+  "taal_bons_vir": null,
+  "taal_ooit_toegepas": true
 }

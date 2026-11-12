@@ -1,42 +1,34 @@
 {
-  "toegepas": [
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
     {
       "nr": 1,
-      "blok": "Alles nog waar dit gelaat is",
-      "voor": "Sy graf was egter",
-      "na": "Toetankamen se graf was egter",
-      "soort": "verwysing",
-      "rede_vinder": "The block never names Toetankamen and the nearest possessor is 'ander konings', so 'Sy' has no clear referent when the block is read on its own.",
-      "fout": "'Sy graf' has no referent inside its block: the only possessor nearby is the plural 'ander konings', and Toetankamen is not named in the block.",
-      "rede_keurder": "Naming Toetankamen fixes a pronoun with no clear referent without adding information, and leaves the protected 'byna ongeskonde' intact."
-    }
-  ],
-  "nie_toegepas": [],
-  "laat_vaar": [],
-  "na_skrywer": [
+      "blok": "Voorwerpe waar hulle gevind is",
+      "voor": "Kenners kon voorwerpe bestudeer",
+      "na": "Kenners kon die voorwerpe bestudeer",
+      "soort": "grammatika",
+      "rede_vinder": "The sentence refers to the tomb's own objects, so the definite article reads more naturally than the bare plural.",
+      "fout": "none",
+      "rede_keurder": "The bare plural 'voorwerpe' is natural Afrikaans here and the article only reads differently, while nudging the claim toward all of the tomb's objects."
+    },
     {
       "nr": 2,
-      "blok": "historiese bron",
-      "voor": "wat ons vertel hoe",
-      "na": "wat vir ons vertel hoe",
+      "blok": "doodsmasker",
+      "voor": "wat oor die gesig van 'n dooie mens gesit is",
+      "na": "wat oor die gesig van 'n dooie mens gesit word",
       "soort": "grammatika",
-      "rede_vinder": "'wat ons vertel' can be read as 'which we tell'; 'vir ons' makes 'ons' the indirect object, so the definition reads unambiguously as 'that tells us'.",
-      "fout": "'wat ons vertel' can be read as 'which we tell' as well as 'that tells us'.",
-      "rede_keurder": "The ambiguity is real, but this is a glossary definition that may be shared across lessons and the fix is a clarification rather than a plain grammar error, so the writer should make it for every lesson at once.",
-      "waarom": "the reviewer sent it to the writer"
+      "rede_vinder": "A definition describes what the thing generally is, so the present passive 'gesit word' fits better than the completed 'gesit is'.",
+      "fout": "none",
+      "rede_keurder": "'gesit is' is grammatical and suits a historical practice, so this is a tense preference rather than a grammar error, and a glossary definition is not reworded by a language agent for that."
     }
   ],
-  "vlae": [
-    {
-      "blok": "Nuwe bewyse oor 'n ou mens",
-      "teks": "Nuwe bewyse oor 'n ou mens",
-      "rede": "In Afrikaans ''n ou mens' normally means an elderly person, but Toetankamen died at about 19; the heading probably means someone from long ago. A heading may not be changeable by script, and choosing a replacement word risks content, so the writer should choose the wording."
-    }
-  ],
+  "na_skrywer": [],
+  "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 214,
-  "woorde_na": 215,
-  "wanneer": "2026-11-12T23:17:56+00:00",
+  "woorde_voor": 213,
+  "woorde_na": 213,
+  "wanneer": "2026-11-12T23:33:02+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 1,
@@ -79,7 +71,7 @@
       "rede_keurder": "The comma list ('Egypt, its people, writings and objects') reads correctly as it stands, and a language agent should not change punctuation in a glossary definition when nothing is wrong."
     }
   ],
-  "konsep_hash_voor": "sha256:ee2f10fe58aed9f1cc08b5b3d98d8241",
+  "konsep_hash_voor": "sha256:52b0dbefbac785c23430f18140e80f59",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:5490dc945559f86156c7d9bdc815f9a1"
+  "konsep_hash_na": "sha256:52b0dbefbac785c23430f18140e80f59"
 }

@@ -1,8 +1,8 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-12",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:00a6d526e75c4d0e50be8debafc93a8d",
-  "hek": "FAIL",
+  "konsep_hash": "sha256:9780df4117942d7866231048341b4821",
+  "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:cb6d9b640a2a25a6e178d5e4f9307be7",
     "sha256:00a6d526e75c4d0e50be8debafc93a8d"
@@ -66,12 +66,150 @@
       "punte": [
         "Study text: 3+ syllable words 14.3% above maximum 13.0%"
       ]
+    },
+    {
+      "wanneer": "2026-11-12T23:25:42+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:b366ff4b054475fa13a30e0d98b03f17",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-12T23:25:43+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 243,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:28:39+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 243,
+      "woorde_na": 246,
+      "konsep_hash": "sha256:0dc208509ded2c7cebd3d29256a71c53"
+    },
+    {
+      "wanneer": "2026-11-12T23:28:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 246,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:28:40+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Kleopatra (in Engels: Cleopatra) was deel van dié familie.': 'dié familie' points back to Ptolemeus and his descendants in an earlier block, with the map block in between, so the reference is distant for a learner. Naming Ptolemeus would fix it but adds a three-syllable word against a tight long-word limit, so it is left for a person or the writer to decide."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:29:52+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0977e293015861ad4f471911c95c1145",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-12T23:29:53+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 245,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:31:12+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 245,
+      "woorde_na": 246,
+      "konsep_hash": "sha256:9780df4117942d7866231048341b4821"
+    },
+    {
+      "wanneer": "2026-11-12T23:31:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 246,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:35:44+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:35:45+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:35:48+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:35:48+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:35:52+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:35:52+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:35:52+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\egipte\\les-12.json",
+      "konsep_hash": "sha256:9780df4117942d7866231048341b4821",
+      "vervang": false
     }
   ],
-  "taal_vir_skrywer": [],
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Sy en Antonius is albei in 30 v.C. dood.': The pronoun 'Sy' points back past 'hy' (Octavianus) to Kleopatra, named two sentences earlier, so a learner revising this block may stumble; 'Kleopatra en Antonius' would be clearer, but it adds a four-syllable word while the long-word share sits at 12.8% against a 13% limit, so it is flagged rather than proposed. The protected wording 'is albei in 30 v.C. dood' would stay untouched either way."
+  ],
   "spek_hash": "sha256:7e2d8b8d6fcaa5ef0d5a89902143c436",
   "hek_konteks": {
     "graad": 5,
     "begroting": 225
-  }
+  },
+  "taal_rondte_vir": "sha256:9780df4117942d7866231048341b4821",
+  "taal_keurder_vir": "e4c43976523264d4bafecb7ecca3a2c8",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:9780df4117942d7866231048341b4821",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:0dc208509ded2c7cebd3d29256a71c53",
+  "taal_bons_siklus": 3,
+  "taal_bons_nota": "74ba22a834e581f2c76cc47ea7d5eb9b"
 }

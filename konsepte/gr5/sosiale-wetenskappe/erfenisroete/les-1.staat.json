@@ -1,8 +1,8 @@
 {
   "les": "gr5/sosiale-wetenskappe/erfenisroete/les-1",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:af9e54248f7247780acebc6cdae33716",
-  "hek": "FAIL",
+  "konsep_hash": "sha256:dec2a7b5cff010dd6cf228fcaba2f96b",
+  "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:af9e54248f7247780acebc6cdae33716"
   ],
@@ -41,12 +41,62 @@
         "Study text: 3+ syllable words 21.2% above maximum 13.0%",
         "Study text: 0.63 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
       ]
+    },
+    {
+      "wanneer": "2026-11-12T23:35:39+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:41a8307a800566e05e687d5c62ed249c",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T23:35:39+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 216,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:43+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 3,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 216,
+      "woorde_na": 217,
+      "konsep_hash": "sha256:dec2a7b5cff010dd6cf228fcaba2f96b"
+    },
+    {
+      "wanneer": "2026-11-12T23:37:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 217,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:45+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Musiek, feeste en jou gesin se stories is nie-tasbaar. Jy kan dit nie ': The study text defines tangible with 'sien en aanraak' and the glossary defines intangible with 'nie kan aanraak nie', but this sentence uses 'vashou'. Not a language fault and not changed, because aligning the verb may touch a shared definition pair; noting it in case the writer wants the study text to use the same verb as the glossary."
+      ]
     }
   ],
-  "taal_vir_skrywer": [],
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Musiek, feeste en jou gesin se stories is nie-tasbaar. Jy kan dit nie ': The study text defines tangible with 'sien en aanraak' and the glossary defines intangible with 'nie kan aanraak nie', but this sentence uses 'vashou'. Not a language fault and not changed, because aligning the verb may touch a shared definition pair; noting it in case the writer wants the study text to use the same verb as the glossary."
+  ],
   "spek_hash": "sha256:19b556ac177104fe0215f1953a06e798",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
-  }
+  },
+  "taal_rondte_vir": "sha256:dec2a7b5cff010dd6cf228fcaba2f96b",
+  "taal_keurder_vir": "cb7b67f4c26ab2e43741e618012e9715",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:dec2a7b5cff010dd6cf228fcaba2f96b",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:dec2a7b5cff010dd6cf228fcaba2f96b",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "e06fa704b22eeb2c63000f4c57c9c51d"
 }

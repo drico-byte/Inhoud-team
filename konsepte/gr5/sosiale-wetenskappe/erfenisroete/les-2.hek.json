@@ -6,19 +6,19 @@
   "budget": 200,
   "begrotingsreel": "CAPS-hours: 200 planned, ceiling 224 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "na_taal": false,
-  "checked_at": "2026-11-12T21:21:53+00:00",
+  "na_taal": true,
+  "checked_at": "2026-11-12T23:32:08+00:00",
   "study": {
-    "words": 205,
+    "words": 214,
     "sentences": 9,
-    "mean_sentence_len": 12.9,
+    "mean_sentence_len": 13.8,
     "median_sentence_len": 14,
-    "longest_sentence": 15,
-    "mean_syllables": 1.54,
-    "pct_polysyllabic": 8.5,
-    "pct_long_words": 2.5,
-    "commas_per_sentence": 0.33,
-    "list_words": 87
+    "longest_sentence": 21,
+    "mean_syllables": 1.52,
+    "pct_polysyllabic": 7.9,
+    "pct_long_words": 2.4,
+    "commas_per_sentence": 0.44,
+    "list_words": 88
   },
   "eli10": null,
   "block_counts": {
@@ -31,7 +31,7 @@
   "failures": [],
   "warnings": [
     "Study block 1 ('Nege provinsies en hul hoofstede') only 26 words (guide 30–110)",
-    "Study text: syllables per word 1.54 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Study text: 0.44 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
     "Long words in study text with no 'begrip' entry: erfenisroete"
   ],
   "notes": [

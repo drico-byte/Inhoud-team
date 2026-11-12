@@ -1,34 +1,24 @@
 {
-  "toegepas": [],
-  "nie_toegepas": [],
-  "laat_vaar": [
+  "toegepas": [
     {
       "nr": 1,
-      "blok": "Die heerser van Egipte",
-      "voor": "Meestal was dit 'n man",
-      "na": "Gewoonlik was dit 'n man",
-      "soort": "woordkeuse",
-      "rede_vinder": "Same meaning, but matches the decided glossary definition of farao ('gewoonlik 'n man en soms 'n vrou'), so the learner meets one wording for one idea.",
-      "fout": "none",
-      "rede_keurder": "'Meestal was dit 'n man' is natural Afrikaans; swapping one qualifier for another is a lateral move that touches a quantifier, and the study text need not echo the glossary sentence word for word."
-    },
-    {
-      "nr": 2,
-      "blok": "Wie het die piramides gebou?",
-      "voor": "Hulle het ook daar naby 'n begraafplaas vir die werkers gevind.",
-      "na": "Naby die dorp het hulle ook 'n begraafplaas vir die werkers gevind.",
-      "soort": "verwysing",
-      "rede_vinder": "'Daar naby' leaves the learner to work out near what; naming the village makes the reference clear and the word order flows better.",
-      "fout": "none",
-      "rede_keurder": "'Daar naby' reads naturally after 'By Giza ... werkersdorp'; the proposal narrows the location from the Giza site to 'the village' (a new spatial claim) and shortens the protected 'werkersdorp' to 'die dorp'."
+      "blok": "Die sosiale groepe",
+      "voor": "met die farao bo-aan",
+      "na": "met die farao boaan",
+      "soort": "spelling",
+      "rede_vinder": "The AWS writes 'boaan' as one word without a hyphen, because 'oa' cannot be misread as one vowel sound (unlike 'bo-op').",
+      "fout": "'bo-aan' is written with a hyphen where the AWS word list writes 'boaan' as one word, since 'oa' cannot be misread as one vowel sound.",
+      "rede_keurder": "This is a plain spelling fix with no change in meaning, outside any glossary definition, and it touches no protected word."
     }
   ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
   "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
   "woorde_voor": 268,
-  "woorde_na": 268,
-  "wanneer": "2026-11-12T23:20:48+00:00",
+  "woorde_na": 267,
+  "wanneer": "2026-11-12T23:36:05+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 1,
@@ -69,9 +59,29 @@
       "rede_vinder": "'Mense in elke groep ... anders' can read as people within one group differing; the intended contrast is between groups.",
       "fout": "none",
       "rede_keurder": "The original says people in each group lived differently and can carry both senses (between groups and within them), so the proposal narrows the meaning to one of them and makes the subject more abstract."
+    },
+    {
+      "nr": 1,
+      "blok": "Die heerser van Egipte",
+      "voor": "Meestal was dit 'n man",
+      "na": "Gewoonlik was dit 'n man",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same meaning, but matches the decided glossary definition of farao ('gewoonlik 'n man en soms 'n vrou'), so the learner meets one wording for one idea.",
+      "fout": "none",
+      "rede_keurder": "'Meestal was dit 'n man' is natural Afrikaans; swapping one qualifier for another is a lateral move that touches a quantifier, and the study text need not echo the glossary sentence word for word."
+    },
+    {
+      "nr": 2,
+      "blok": "Wie het die piramides gebou?",
+      "voor": "Hulle het ook daar naby 'n begraafplaas vir die werkers gevind.",
+      "na": "Naby die dorp het hulle ook 'n begraafplaas vir die werkers gevind.",
+      "soort": "verwysing",
+      "rede_vinder": "'Daar naby' leaves the learner to work out near what; naming the village makes the reference clear and the word order flows better.",
+      "fout": "none",
+      "rede_keurder": "'Daar naby' reads naturally after 'By Giza ... werkersdorp'; the proposal narrows the location from the Giza site to 'the village' (a new spatial claim) and shortens the protected 'werkersdorp' to 'die dorp'."
     }
   ],
-  "konsep_hash_voor": "sha256:495548d7afb64b54ba8504717bdb5067",
+  "konsep_hash_voor": "sha256:ec0fff66dc1a1aee496f1baa80adbc1b",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:495548d7afb64b54ba8504717bdb5067"
+  "konsep_hash_na": "sha256:d35e3a51c661f5f239f0823b5bd17fa4"
 }

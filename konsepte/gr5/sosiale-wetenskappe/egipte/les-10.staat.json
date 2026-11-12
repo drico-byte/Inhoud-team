@@ -1,13 +1,17 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-10",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:2a32a1cd9492846fee4fdf6e9f5d382f",
+  "konsep_hash": "sha256:ec4c8fcfd043e91350220dfe08c3e944",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:6e12f13da849bd835fbad729947a4364"
+    "sha256:6e12f13da849bd835fbad729947a4364",
+    "sha256:2a32a1cd9492846fee4fdf6e9f5d382f"
   ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "begrip": 1,
+    "toe en nou": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -109,6 +113,157 @@
       "woorde": 268,
       "begroting": 250,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:25:02+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:25:02+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:25:03+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "begrip",
+        "toe en nou"
+      ],
+      "tally": {
+        "begrip": 1,
+        "toe en nou": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T23:25:03+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "dekking, feite",
+      "siklus": 2,
+      "punte": [
+        "[dekking] historiese_konsepte: Verandering en kontinuïteit: toe en nou — gedeeltelik: In 'Toe en nou' ontbreek die derde voorbeeld wat die spesifikasie noem: gesinswerk teenoor vandag. Die blok vergelyk brood en bordspeletjies (wat gebly het) en skool en lees (wat verander het), maar sê nêrens hoe kinders toe hulle ouers se werk by die huis geleer het teenoor hoe dit vandag is nie. Voeg dié vergelyking by, kort, en bou dit by voorkeur aan die skoolsin wat reeds daar staan. Hou die rolle as 'hoe dit toe was' (feiterisiko), nie as hoe dit moet wees nie, en moenie die bestaande brood- en bordspeletjiesinne verloor nie.",
+        "[feite] stapelvoedsel: Die gewone kos wat mense byna elke dag eet of — corrected: The definition must carry the defining element: a staple is the main food that makes up most of what people eat, not simply something they eat or drink every day. Something in the sense of 'Die hoofkos wat mense byna elke dag eet en wat die grootste deel van hulle kos uitmaak.' Because the lesson calls beer a staple, the writer may keep 'of drink' as long as the 'main part of the diet' element is present; beer counted as a staple in ancient Egypt because it was a primary source of nourishment, not because it was drunk daily."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:26:22+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:701f6957865a14861d648951ca1c2182",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-12T23:26:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 277,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:27:51+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 277,
+      "woorde_na": 276,
+      "konsep_hash": "sha256:a94e3c17a77f4ac3c622c78d1a838537"
+    },
+    {
+      "wanneer": "2026-11-12T23:27:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 276,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:27:52+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'die grootste deel is van wat mense eet en drink': 'die grootste deel is van wat mense eet en drink' is stiff; idiomatic Afrikaans says 'die grootste deel uitmaak van'."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:28:40+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ec8c7f16af74ddd9be25f77a9f7f2e62",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-12T23:28:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 276,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:29:57+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 276,
+      "woorde_na": 276,
+      "konsep_hash": "sha256:ec4c8fcfd043e91350220dfe08c3e944"
+    },
+    {
+      "wanneer": "2026-11-12T23:29:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 276,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:09+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:09+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:13+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:13+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 34,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:13+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\egipte\\les-10.json",
+      "konsep_hash": "sha256:ec4c8fcfd043e91350220dfe08c3e944",
+      "vervang": false
     }
   ],
   "taal_vir_skrywer": [],
@@ -117,12 +272,12 @@
     "graad": 5,
     "begroting": 250
   },
-  "taal_rondte_vir": "sha256:2a32a1cd9492846fee4fdf6e9f5d382f",
-  "taal_keurder_vir": "ddfbce61542b32e7b6eaecd4591d64d9",
+  "taal_rondte_vir": "sha256:ec4c8fcfd043e91350220dfe08c3e944",
+  "taal_keurder_vir": "67f75e631c21e4752f13c7666462833e",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:2a32a1cd9492846fee4fdf6e9f5d382f",
+  "taal_klaar_vir": "sha256:ec4c8fcfd043e91350220dfe08c3e944",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:84b87c34e72b5c114478184e5217b123",
-  "taal_bons_siklus": 2,
-  "taal_bons_nota": "5b6c0e3ba20ed0b85d1f01aa48017329"
+  "taal_bons_vir": "sha256:a94e3c17a77f4ac3c622c78d1a838537",
+  "taal_bons_siklus": 3,
+  "taal_bons_nota": "c943e0127ce5b63d09ba53aa4b2fa42d"
 }

@@ -1,10 +1,14 @@
 {
   "les": "gr5/sosiale-wetenskappe/erfenisroete/les-2",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:5a1de99fef53a90bf3bf90f281f0c577",
+  "konsep_hash": "sha256:3c7ef6efe7beb0e47187c68e7230da0a",
   "hek": "PASS",
   "teruggestuur_vir": [],
-  "eskalasie": null,
+  "eskalasie": {
+    "soort": "mens_nodig",
+    "wanneer": "2026-11-12T23:38:00+00:00",
+    "rede": "dekking returned MENS_NODIG — a writer handed a defect it cannot fix will invent one or strip the content"
+  },
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
   "geskiedenis": [
@@ -21,6 +25,121 @@
       "woorde": 205,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:27:21+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 205,
+      "woorde_na": 210,
+      "konsep_hash": "sha256:610485a7ee293aee745333e435e2076a"
+    },
+    {
+      "wanneer": "2026-11-12T23:27:22+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 210,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:27:22+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'ǂKhomani-kulturele landskap': 'ǂKhomani-kulturele landskap' hyphenates a name to an adjective, which is not a valid Afrikaans compound.",
+        "check (the language finder raised this; it may not be a fault): 'Makapan-vallei': The established Afrikaans name is usually written 'Makapansvallei' (as in Makapansgat); it is a place name, appears twice, and was not changed here, so a person or the writer should confirm the intended spelling.",
+        "check (the language finder raised this; it may not be a fault): ''n Wêrelderfenisterrein wat op die lys is vir mense se verlede daar. /': The decided-definition note for 'gemengde wêrelderfenisterrein' says 'mense se verlede' is too narrow because the ǂKhomani site is listed for the ǂKhomani-San's living culture, yet this lesson defines a cultural site by 'mense se verlede' and puts the ǂKhomani site in that list; fixing it needs a content decision, not a language edit."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:30:42+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:96e99c5f9a8d95aa44e5fd5cfad217ef",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T23:30:42+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 211,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:32:07+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 211,
+      "woorde_na": 214,
+      "konsep_hash": "sha256:3c7ef6efe7beb0e47187c68e7230da0a"
+    },
+    {
+      "wanneer": "2026-11-12T23:32:08+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 214,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:38+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:39+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 37,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:37:39+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:37:59+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {}
+    },
+    {
+      "wanneer": "2026-11-12T23:37:59+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:38:00+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 37,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:38:00+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
     }
   ],
   "taal_vir_skrywer": [],
@@ -29,5 +148,12 @@
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:5a1de99fef53a90bf3bf90f281f0c577"
+  "taal_rondte_vir": "sha256:3c7ef6efe7beb0e47187c68e7230da0a",
+  "taal_keurder_vir": "0de55f1f86f58e57d838b5dcc370b09f",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:3c7ef6efe7beb0e47187c68e7230da0a",
+  "taal_vir_mens": [],
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "8f9ba84dcdd1af17e67832aa2fc433d5"
 }

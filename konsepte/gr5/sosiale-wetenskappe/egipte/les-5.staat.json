@@ -1,13 +1,16 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:0fc71e52769a345d8fd55d23553db577",
+  "konsep_hash": "sha256:c0a2f5a167f429c154d937ea8d6ec0cb",
   "hek": "PASS",
   "teruggestuur_vir": [
-    "sha256:6138133cc627957687a3b11ca78ea13f"
+    "sha256:6138133cc627957687a3b11ca78ea13f",
+    "sha256:0fc71e52769a345d8fd55d23553db577"
   ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "spalk": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -204,20 +207,89 @@
       "nie_toegepas": 0,
       "woorde_voor": 267,
       "woorde_na": 267
+    },
+    {
+      "wanneer": "2026-11-12T23:28:31+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:28:31+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 27,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:28:31+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "spalk"
+      ],
+      "tally": {
+        "spalk": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T23:28:31+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 2,
+      "punte": [
+        "[feite] spalk: Om 'n gebreekte been styf teen 'n stuk hout of 'n pla — corrected: Die omskrywing maak hout deel van die betekenis, en dit is te nou: 'n spalk hoef nie van hout te wees nie, en die Egiptiese dokters van hierdie les het juis ook spalke van linne en bas gebruik. 'n Leerder wat later 'n plastiek- of metaalspalk sien, sou volgens hierdie omskrywing dink dit is nie 'n spalk nie. Die omskrywing moet se die been word styf vasgebind teen iets wat hard of styf is, en hout mag hoogstens as voorbeeld genoem word, nie as die enigste materiaal nie. Die woorde 'n stuk hout' en 'n plank' noem ook net twee keer dieselfde stof."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:29:36+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c0a2f5a167f429c154d937ea8d6ec0cb",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-12T23:29:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 267,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:30:54+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 267,
+      "woorde_na": 267
+    },
+    {
+      "wanneer": "2026-11-12T23:30:54+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Om 'n gebreekte been stewig vas te bind teen hout of iets anders wat s': The headword 'spalk' reads as a noun (the stiff support), but the definition defines the verb (to splint); the lesson body uses the verb 'gespalk'. Fixing this would change what the definition says, so it is flagged, not changed."
+      ]
     }
   ],
-  "taal_vir_skrywer": [],
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): 'Om 'n gebreekte been stewig vas te bind teen hout of iets anders wat s': The headword 'spalk' reads as a noun (the stiff support), but the definition defines the verb (to splint); the lesson body uses the verb 'gespalk'. Fixing this would change what the definition says, so it is flagged, not changed."
+  ],
   "spek_hash": "sha256:1a0dd2bd2086ad7f5e873fa75e8e7e07",
   "hek_konteks": {
     "graad": 5,
     "begroting": 250
   },
-  "taal_rondte_vir": "sha256:0fc71e52769a345d8fd55d23553db577",
-  "taal_keurder_vir": "62de9c239e0cfdf21b8750ed88eb9f7a",
+  "taal_rondte_vir": "sha256:c0a2f5a167f429c154d937ea8d6ec0cb",
+  "taal_keurder_vir": "ec6b38cf26eee8d4fadfe63e08fb37ff",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:0fc71e52769a345d8fd55d23553db577",
+  "taal_klaar_vir": "sha256:c0a2f5a167f429c154d937ea8d6ec0cb",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:160a6362680221d3c1fa348db778c64f",
-  "taal_bons_siklus": 2,
-  "taal_bons_nota": "6ffccabbeeb09d34adc855572a46ca63"
+  "taal_bons_vir": "sha256:c0a2f5a167f429c154d937ea8d6ec0cb",
+  "taal_bons_siklus": 3,
+  "taal_bons_nota": "d757a0cb314785536b6b2b90fadbd936"
 }
