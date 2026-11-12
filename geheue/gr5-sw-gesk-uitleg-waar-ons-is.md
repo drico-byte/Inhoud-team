@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: d95fe96a-fd23-4e23-b797-43758caad297
-  modified: 2026-11-12T16:48:11.001Z
+  modified: 2026-11-12T17:51:30.332Z
 ---
 
 **12 November 2026 — layout proposed, not yet approved.** This PC does layouts only
@@ -88,6 +88,39 @@ the register's 46 IDs stand. The V3 library's copy of that script is the older, 
 
 **Whole year approved by Lampies, 12 Nov 2026** (Term 4 "looks good" was the last). Next:
 confirm the H1 split, publish the register, then script claims -> video_naat -> specs.
+
+**Specs groundwork, 12 Nov 2026 evening:** committed+pushed the register (95dbf09a). Uncommitted:
+`kaps/gedeelde-omskrywings-sosiale-wetenskappe-gr5.json` (empty terme), `profiele/gr5-sw-geskiedenis-profiel.json`
+(clusters, envelopes, every lesson's videos and budget), and a spec_check.py exception: `buite_kaps: true` +
+`buite_kaps_rede` puts a lesson outside every cluster (Shaka 18-21, Egypt's end 33), documented in
+references/lesspesifikasie.md; all 8 existing kaps-ure specs still pass. Extras budgeted 225 so the
+gate's x1.12 ceiling lands at 252 (Lampies: ceiling 250). Year = 10 925 words. Three agents are
+checking the script claims into `videoskrifte/gr5-nagaan/h1..h4*.json`; next is video_naat per lesson,
+then four planners (max 3 at a time on this PC), then a spec fact-check.
+
+**Claim checks done 12 Nov 2026:** 325 claims over 67 videos, files in videoskrifte/gr5-nagaan/;
+51 problem claims routed into `video_naat-per-les.json` (keyed G5_GES_NN; built by a script from the
+four checks; inject into each spec lesson AFTER the planner writes it - planners told not to copy it).
+Planners for T1, T2, T4 launched; T3 (Egypt) waited on the name spellings - RULED by Lampies 12 Nov: Afrikaans leads, video's
+spelling once in brackets introduced with "in Engels:", e.g. Toetankamen (in Engels: Tutankhamun); CAPS's Tutankhamen not used. Brief-T3 written;
+launch when a planner slot frees (max 3 at once). Was: (video:
+Tutankhamun/Akhenaten/Khafre/Menkaure; Afrikaans: Toetankamen/Achenaten/Chafra/Menkaoere; CAPS: Tutankhamen).
+Briefs in the session scratchpad; brief template rules: approved division fixed, no textbook, lean <40KB.
+H1 video 4 (finished, consultant-made) says "hottentotsgod" - a slur IN A VIDEO; Lampies' call.
+
+**Specs, 12 Nov 2026 night:** T1, T2, T4 written to spesifikasies/konsep/gr5/sosiale-wetenskappe/, all PASS
+(T2 warns 27% extras, expected). T3 Egypt planner running. Settled by me: drietydperkestelsel leads;
+rotskuns leads with rotstekeninge once; sjamane cut; gold objects carried in T4 lesson 1 (coverage only, no
+words move); spelling-only differences get no bracket; 'ploegseisoen' -> planting time with hoes (CAPS wrong
+on a mechanism); register label 19 -> "Die Zoeloekoninkryk" (repo only, republish with the specs).
+Spec fact-checks: orders-only copies (no video_naat) in scratchpad; reports to
+logs/verslae/gr5/sosiale-wetenskappe/<slug>/spek-feite.json; T1 and T2 running, T4 and T3 next.
+DONE by end of 12 Nov: all four spec fact-checks run (T1 2 false/5 unsure of 62; T2 7/15 of 85; T3 5/3 of
+91; T4 4/1 of 55), every item repaired at source by the planner that wrote it (order sentence amended, swept
+by me - old forms survive only as prohibitions), then video_naat injected; all four PASS. Egypt: skriba
+withdrawn -> video's "skrifgeleerdes"; sjadoef kept; Rosetta cut. APPROVED by Lampies 12 Nov 2026; moved to
+spesifikasies/goedgekeur/gr5/sosiale-wetenskappe/, committed and pushed, register republished. The runner
+names wolkskool-skrywer for T1 les 1 (checked). Writing happens on the other PCs, not here.
 
 **Video gaps the text must fill:** T1 books and ethnography as sources; T2 initiation, lending
 calves; T4 provinces and capitals on a map, heritage in objects (Mapungubwe gold).

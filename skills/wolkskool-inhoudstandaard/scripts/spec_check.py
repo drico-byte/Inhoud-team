@@ -126,6 +126,32 @@ def _kaps_ure_klusters(spec, lesse, fails, warns, notes):
                      "be stated and sourced in begroting_basis_nota.")
         return
 
+    # A LESSON OUTSIDE CAPS. Lampies, 12 November 2026, Gr 5 Geskiedenis: where a
+    # video made before the text covers what CAPS does not (Shaka; how ancient Egypt
+    # ended), the text still supports it -- "give it all text". CAPS's hours pay for
+    # none of it, so such a lesson belongs to NO cluster: it declares buite_kaps and
+    # says why in buite_kaps_rede, and its words sit on top of the envelopes rather
+    # than being shaved off a sibling (the same reasoning as a floor top-up). It is
+    # never silent: its share of the spec is reported every time, so the extras can
+    # be seen against the ~25% Aanvulling cap.
+    buite = [L for L in lesse if L.get("buite_kaps")]
+    for L in buite:
+        if not str(L.get("buite_kaps_rede") or "").strip():
+            fails.append(f"Lesson {L['nommer']}: declares buite_kaps but gives no "
+                         f"buite_kaps_rede. A lesson outside CAPS's hours must say what it "
+                         f"covers that CAPS does not, and whose decision it was.")
+        if L.get("kaps_kluster"):
+            fails.append(f"Lesson {L['nommer']}: declares buite_kaps but also names "
+                         f"kaps_kluster '{str(L['kaps_kluster'])[:40]}'. A lesson outside CAPS "
+                         f"belongs to no cluster; drop one of the two.")
+    if buite:
+        b = sum(L["begroting"] for L in buite)
+        totaal = sum(L["begroting"] for L in lesse) or 1
+        (warns if b / totaal > 0.25 else notes).append(
+            f"{len(buite)} lesson(s) outside CAPS ({[L['nommer'] for L in buite]}), {b} words: "
+            f"{b / totaal:.0%} of this spec's {totaal}. The Aanvulling guide is ~25%.")
+    lesse = [L for L in lesse if not L.get("buite_kaps")]
+
     klusters = {}
     for L in lesse:
         naam = (L.get("kaps_kluster") or "").strip()

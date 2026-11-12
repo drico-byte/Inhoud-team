@@ -197,3 +197,21 @@ the 1963 March on Washington; the 1964 Nobel Peace Prize at age 35; his murder i
 at 39. Mandela born 18 July 1918 in the Eastern Cape; 27 years imprisoned; released
 1990; first black democratic president. Dates and named people are the highest-risk
 category in a fact check, and this topic is almost entirely dates and named people.
+
+## Gr 5 Geskiedenis — the four chapter scripts (12 November 2026)
+
+`gr5-sw-gesk-hfstk1-san.txt` to `-hfstk4-erfenis.txt`, 67 videos (H1 7, H2 20, H3 23, H4 17).
+H1 has no headings: Lampies numbered its seven videos in the source document. Every claim in
+all four was checked on 12 November 2026 against sources outside any textbook; the results are
+in `gr5-nagaan/h1..h4*.json`, and `gr5-nagaan/video_naat-per-les.json` is the distillate per
+lesson (keyed by register ID), injected into each approved spec only AFTER that spec's own fact
+check, so no fact checker ever sees what a video said.
+
+Lampies' rules for this year: 200 words per CAPS teaching hour; one text per video, unless a video
+is too short to carry 200 words, then one text supports consecutive videos; a video is never split.
+Videos outside CAPS still get a text (Shaka H2 12-20, Egypt's end H3 19-21), marked `buite_kaps`
+in the spec and `ekstra` in the register; H1 07 (world heritage sites) is a video-only row.
+Egyptian names: Afrikaans form first, then once "(in Engels: Tutankhamun)".
+
+**For the video owner**, not the text: H1 video 4 uses an offensive old name for the praying
+mantis; the false or misleading claims per video are listed in the four check files.

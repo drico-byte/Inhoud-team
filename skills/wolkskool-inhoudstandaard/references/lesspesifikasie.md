@@ -123,6 +123,15 @@ and the planner distributes inside that envelope. The floor is 200 words ("up to
 or merge it"), a lifted lesson declares `vloer_optel`, and the gate's ceiling is
 planned + 12%. See the standard's "Budgets from CAPS hours" for the whole rule.
 
+**One kind of lesson sits outside every cluster** (Lampies, 12 November 2026, Gr 5
+Geskiedenis): a text that supports an existing video whose subject CAPS does not name at
+all — Shaka, how ancient Egypt ended. CAPS's hours pay for none of it, so it declares
+`buite_kaps: true` and `buite_kaps_rede` (what it covers that CAPS does not, and whose
+decision it was) instead of `kaps_kluster`, and its words sit on top of the envelopes.
+The validator reports its share of the spec every time against the ~25% Aanvulling guide.
+This is not a way to fund extra words for CAPS content: a lesson that serves a CAPS
+cluster at all belongs to that cluster.
+
 **CAPS contact hours are not used UNDER THE OLD METHOD.** WITHDRAWN 29 September 2026
 for new work. The objection was that classroom time holds discussion, drawing and group
 work as well as text, so treating hours as a words-per-hour rate confuses teaching time

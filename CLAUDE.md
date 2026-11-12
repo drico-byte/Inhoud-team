@@ -667,7 +667,7 @@ python bin/biblioteek.py --tel
 Only finished lessons go in: language-check pages, review notes, drafts and outbox
 files stay out. **Only Grades 4-6 are finished**, all 338 lessons through the post-audit
 pass. Grade 7 Lewensoriëntering was never part of the audit and will be redone, so it
-has no register and stays out. Grade 5 Sosiale Wetenskappe is not in this repository.
+has no register and stays out. Grade 5 Sosiale Wetenskappe Geography is not in this repository; its History was laid out here on 12 November 2026 and is not finished.
 **Until Drico completes the switch, we keep delivering to `0000NUWE LESSE` as
 before**, and the register stays published there.
 
