@@ -1,11 +1,15 @@
 {
   "les": "gr5/sosiale-wetenskappe/jagter-versamelaars-en-herders/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:25651eb77a77b0c0ac86d0d545ba46d6",
+  "konsep_hash": "sha256:1a37849ac9bf670348761c825893cad1",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:25651eb77a77b0c0ac86d0d545ba46d6"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "vee was rykdom": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -231,6 +235,137 @@
       "nie_toegepas": 0,
       "woorde_voor": 455,
       "woorde_na": 455
+    },
+    {
+      "wanneer": "2026-11-12T22:54:14+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:54:14+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 30,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:54:14+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "vee was rykdom"
+      ],
+      "tally": {
+        "vee was rykdom": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:54:15+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Elke gesin het sy eie vee gehad. — corrected: Vernou die kwantor, nie die onderwerp nie. Sê dat vee aan gesinne of persone behoort het en nie aan die hele groep nie (iets soos 'Vee het aan 'n gesin of 'n persoon self behoort, nie aan die hele groep nie'). Moenie beweer dat elke gesin vee gehad het nie. Die kontras met die San, wat vleis met die hele groep gedeel het, bly dan staan."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:55:14+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1a37849ac9bf670348761c825893cad1",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:55:15+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 465,
+      "begroting": 400,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:56:30+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 465,
+      "woorde_na": 465
+    },
+    {
+      "wanneer": "2026-11-12T23:04:00+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:00+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 33,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:03+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:04+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 33,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:07+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:08+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 33,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:08+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\jagter-versamelaars-en-herders\\les-6.json",
+      "konsep_hash": "sha256:1a37849ac9bf670348761c825893cad1",
+      "vervang": false
+    },
+    {
+      "wanneer": "2026-11-12T23:04:30+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:30+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 33,
+      "failures": []
     }
   ],
   "taal_vir_skrywer": [],
@@ -239,10 +374,10 @@
     "graad": 5,
     "begroting": 400
   },
-  "taal_rondte_vir": "sha256:25651eb77a77b0c0ac86d0d545ba46d6",
-  "taal_keurder_vir": "2e7f010ee969b74ee72eb865a1d90b94",
+  "taal_rondte_vir": "sha256:1a37849ac9bf670348761c825893cad1",
+  "taal_keurder_vir": "fd59feadebb05f50fb8e7e3c3394e1e0",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:25651eb77a77b0c0ac86d0d545ba46d6",
+  "taal_klaar_vir": "sha256:1a37849ac9bf670348761c825893cad1",
   "taal_vir_mens": [],
   "taal_bons_siklus": null,
   "taal_bons_vir": null

@@ -1,9 +1,11 @@
 {
   "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:b1f27a55607dec7eef11985ad12c4f69",
+  "konsep_hash": "sha256:1b75321094bb60a149c8d17a1a2639a0",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:1cd06c43691c6b2c3fb8476bbccc530f"
+  ],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -138,22 +140,163 @@
       "nie_toegepas": 0,
       "woorde_voor": 232,
       "woorde_na": 232
+    },
+    {
+      "wanneer": "2026-11-12T22:50:36+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:50:36+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 19,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:50:36+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "baie opstalle, een leier",
+        "begrip opstal"
+      ],
+      "tally": {
+        "begrip opstal": 1,
+        "baie opstalle, een leier": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:50:37+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:50:58+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {
+        "begrip opstal": 1,
+        "baie opstalle, een leier": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:53:06+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1cd06c43691c6b2c3fb8476bbccc530f",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T22:53:07+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 252,
+      "begroting": 250,
+      "failures": [
+        "Study text: 3+ syllable words 14.3% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:53:07+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 3+ syllable words 14.3% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:54:44+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:7cee07e90ca2ff3baffb0d768f896e71",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:54:45+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 262,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:56:57+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 262,
+      "woorde_na": 262,
+      "konsep_hash": "sha256:1b75321094bb60a149c8d17a1a2639a0"
+    },
+    {
+      "wanneer": "2026-11-12T22:56:58+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 262,
+      "begroting": 250,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:43+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:43+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:47+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:48+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:04:48+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\die-eerste-landbouers\\les-3.json",
+      "konsep_hash": "sha256:1b75321094bb60a149c8d17a1a2639a0",
+      "vervang": false
     }
   ],
-  "taal_vir_skrywer": [
-    "fix: [taal] in 'Die leier van 'n opperhoofskap, wat besluite vir sy mense neem.': the relative 'wat' after a comma sits next to 'opperhoofskap', so it can be read as the chiefdom making decisions rather than the leader"
-  ],
-  "spek_hash": "sha256:6e11645813e4f8e35e7d5e1f56cfda3b",
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:e3b43fa8abb5fb6dc13c7cb7582437b2",
   "hek_konteks": {
     "graad": 5,
     "begroting": 250
   },
-  "taal_rondte_vir": "sha256:b1f27a55607dec7eef11985ad12c4f69",
-  "taal_keurder_vir": "878bc326ca27544a0051bde6be28d063",
+  "taal_rondte_vir": "sha256:1b75321094bb60a149c8d17a1a2639a0",
+  "taal_keurder_vir": "cfd2b5a99d4792f4ac185f319323cf25",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:b1f27a55607dec7eef11985ad12c4f69",
+  "taal_klaar_vir": "sha256:1b75321094bb60a149c8d17a1a2639a0",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:92eecd7f88491f2b6c57f755ffba0986",
-  "taal_bons_siklus": 1,
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
   "taal_bons_nota": "30ec7fbd6f5a0f21f5c1527ddcd0f4ed"
 }

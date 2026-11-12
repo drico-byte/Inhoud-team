@@ -1,23 +1,23 @@
 {
-  "verdict": "FAIL",
+  "verdict": "PASS",
   "titel": "Die dokters van antieke Egipte",
   "graad": 5,
   "vak": "Sosiale Wetenskappe",
   "budget": 250,
   "begrotingsreel": "CAPS-hours: 250 planned, ceiling 280 (+12%), under-run warns",
   "begroting_basis": "kaps-ure",
-  "na_taal": false,
-  "checked_at": "2026-11-12T21:21:04+00:00",
+  "na_taal": true,
+  "checked_at": "2026-11-12T23:04:54+00:00",
   "study": {
-    "words": 253,
+    "words": 257,
     "sentences": 22,
-    "mean_sentence_len": 11.6,
-    "median_sentence_len": 11.0,
-    "longest_sentence": 18,
-    "mean_syllables": 1.57,
-    "pct_polysyllabic": 14.2,
-    "pct_long_words": 2.0,
-    "commas_per_sentence": 0.27
+    "mean_sentence_len": 11.8,
+    "median_sentence_len": 11.5,
+    "longest_sentence": 17,
+    "mean_syllables": 1.47,
+    "pct_polysyllabic": 8.6,
+    "pct_long_words": 0.4,
+    "commas_per_sentence": 0.23
   },
   "eli10": null,
   "block_counts": {
@@ -25,12 +25,9 @@
     "begrip": 6
   },
   "misspelled": [],
-  "failures": [
-    "Study text: 3+ syllable words 14.2% above maximum 13.0%"
-  ],
+  "failures": [],
   "warnings": [
-    "Study text: syllables per word 1.57 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
-    "Long words in study text with no 'begrip' entry: behandelings, kopbesering, towerspreuk, vloeistowwe"
+    "Long words in study text with no 'begrip' entry: towerspreuk"
   ],
   "notes": [
     "Afrikaans dictionary not installed — spelling not checked"

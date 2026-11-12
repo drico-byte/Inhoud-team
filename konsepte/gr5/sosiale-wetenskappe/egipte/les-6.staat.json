@@ -1,8 +1,8 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-6",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:ecdcdc8485ce2d0757b73eb44948da39",
-  "hek": "FAIL",
+  "konsep_hash": "sha256:94035c8d43e072842673d7c5ad596d75",
+  "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:ecdcdc8485ce2d0757b73eb44948da39"
   ],
@@ -35,6 +35,39 @@
       "punte": [
         "Study text: 0.39 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
       ]
+    },
+    {
+      "wanneer": "2026-11-12T23:00:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:1589fa53c4a319ac61d751870cd832b2",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T23:00:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 220,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:02:38+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 4,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 220,
+      "woorde_na": 223,
+      "konsep_hash": "sha256:94035c8d43e072842673d7c5ad596d75"
+    },
+    {
+      "wanneer": "2026-11-12T23:02:40+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 223,
+      "begroting": 200,
+      "failures": []
     }
   ],
   "taal_vir_skrywer": [],
@@ -42,5 +75,10 @@
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
-  }
+  },
+  "taal_rondte_vir": "sha256:94035c8d43e072842673d7c5ad596d75",
+  "taal_keurder_vir": "00a5ef45a3111ebd5078994a178789f5",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:94035c8d43e072842673d7c5ad596d75",
+  "taal_vir_mens": []
 }

@@ -3,9 +3,7 @@
   "skema_weergawe": "1.0",
   "konsep_hash": "sha256:f40b3047e8f8386ded018c62367a943d",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:5e3981c0564e2b78a80ae1f9cae02e57"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -147,10 +145,91 @@
       "woorde": 253,
       "begroting": 225,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:56:07+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:56:07+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:56:07+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "opstalle en amakhanda; gewasse en vee; 'n groot "
+      ],
+      "tally": {
+        "opstalle en amakhanda; gewasse en vee; 'n groot ": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:56:07+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:56:31+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "opstalle en amakhanda; gewasse en vee; 'n groot ": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:59:02+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:59:02+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:59:05+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:59:06+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 29,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:59:06+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\die-eerste-landbouers\\les-12.json",
+      "konsep_hash": "sha256:f40b3047e8f8386ded018c62367a943d",
+      "vervang": false
     }
   ],
   "taal_vir_skrywer": [],
-  "spek_hash": "sha256:ed933ade01046412f5f7bd7c543a1443",
+  "spek_hash": "sha256:8114b0774882dfb992bc2c74d9f053b8",
   "hek_konteks": {
     "graad": 5,
     "begroting": 225
@@ -160,7 +239,7 @@
   "taal_ooit_toegepas": true,
   "taal_klaar_vir": "sha256:f40b3047e8f8386ded018c62367a943d",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:7e9690473d9880716f3b94f3bf1ae37f",
-  "taal_bons_siklus": 2,
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
   "taal_bons_nota": "fbf177c2c0816bd917da005576e43550"
 }

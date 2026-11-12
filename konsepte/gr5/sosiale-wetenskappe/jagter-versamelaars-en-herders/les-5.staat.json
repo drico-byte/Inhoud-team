@@ -1,11 +1,15 @@
 {
   "les": "gr5/sosiale-wetenskappe/jagter-versamelaars-en-herders/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:46f9fafc0a59654f8d8a9d912588f32c",
+  "konsep_hash": "sha256:23c310b6c43d58ab4f301abe23ec0e88",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:823d5427279cc2e20c239deffb52821b"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "begrip": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -153,23 +157,113 @@
       "nie_toegepas": 0,
       "woorde_voor": 591,
       "woorde_na": 591
+    },
+    {
+      "wanneer": "2026-11-12T22:50:49+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:823d5427279cc2e20c239deffb52821b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T22:50:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 599,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:53:12+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 599,
+      "woorde_na": 599
+    },
+    {
+      "wanneer": "2026-11-12T22:57:58+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:57:59+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 46,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:57:59+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "begrip"
+      ],
+      "tally": {
+        "begrip": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:57:59+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] landswapen: 'n Land se amptelike teken, met prente en 'n leu — corrected: Maak die leuse 'n gewone deel van 'n landswapen, nie 'n verpligte deel nie, byvoorbeeld 'n Land se amptelike teken, met prente en dikwels 'n leuse. Of laat die leuse uit die omskrywing weg. Die studieblok oor Suid-Afrika se wapen hoef nie te verander nie."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:59:12+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:23c310b6c43d58ab4f301abe23ec0e88",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:59:13+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 599,
+      "begroting": 550,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:00:51+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 599,
+      "woorde_na": 599
+    },
+    {
+      "wanneer": "2026-11-12T23:00:51+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): 'Tydens hierdie dans het genesers probeer om siek mense gesond te maak.': The body uses the past tense, while the decided glossary definition of 'genesingsdans' is deliberately in the present tense because San communities still perform the dance. In context (old paintings) the past tense reads naturally, so I did not change it, because changing the tense would change what the sentence claims; a person or the writer may want the two to match."
+      ]
     }
   ],
   "taal_vir_skrywer": [
-    "fix: [taal] in ''n Prent wat in die rots self gekrap': Read alone, the glossary entry's 'die rots' has no antecedent and differs from the rotsskildery entry's 'op 'n rots'.",
-    "check (the language finder raised this; it may not be a fault): 'Tydens hierdie dans het genesers probeer om siek mense gesond te maak.': The body puts the healing dance in the past tense, while the shared definition of genesingsdans uses the present because San communities still dance it; changing the tense would change the claim, so this is left for the writer or a person to judge."
+    "check (the language finder raised this; it may not be a fault): 'Tydens hierdie dans het genesers probeer om siek mense gesond te maak.': The body uses the past tense, while the decided glossary definition of 'genesingsdans' is deliberately in the present tense because San communities still perform the dance. In context (old paintings) the past tense reads naturally, so I did not change it, because changing the tense would change what the sentence claims; a person or the writer may want the two to match."
   ],
-  "spek_hash": "sha256:4a76c45d850cee5e277be8501dbabeb2",
+  "spek_hash": "sha256:8e18ecfa5a7fc16ef5ca3c32b54eee70",
   "hek_konteks": {
     "graad": 5,
     "begroting": 550
   },
-  "taal_rondte_vir": "sha256:46f9fafc0a59654f8d8a9d912588f32c",
-  "taal_keurder_vir": "d4edd75a1e9161414605e62e6e4fa6b6",
+  "taal_rondte_vir": "sha256:23c310b6c43d58ab4f301abe23ec0e88",
+  "taal_keurder_vir": "46fa1326aef5e80c68288fa6ce262eee",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:46f9fafc0a59654f8d8a9d912588f32c",
+  "taal_klaar_vir": "sha256:23c310b6c43d58ab4f301abe23ec0e88",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:2339a3f603b725564813cf7287f78a96",
-  "taal_bons_siklus": 1,
-  "taal_bons_nota": "3dbf528c75392d811af7134bba195c1b"
+  "taal_bons_vir": "sha256:23c310b6c43d58ab4f301abe23ec0e88",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "56df59f5365c791d3334b202c9959556"
 }

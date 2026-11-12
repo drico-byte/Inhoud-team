@@ -1,30 +1,44 @@
 {
-  "toegepas": [],
-  "nie_toegepas": [],
-  "laat_vaar": [
+  "toegepas": [
     {
       "nr": 1,
-      "blok": "Shaka se dood en sy nalatenskap",
-      "voor": "Mbopha (Shaka se lyfwag) was",
-      "na": "Mbopha, Shaka se lyfwag, was",
-      "soort": "leestekens",
-      "rede_vinder": "An apposition in running prose reads more naturally between commas than in brackets.",
-      "fout": "none",
-      "rede_keurder": "Brackets around a short apposition are correct and clear for a Grade 5 reader, so swapping them for commas is a lateral punctuation move."
-    }
-  ],
-  "na_skrywer": [],
-  "vlae": [
-    {
       "blok": "Nandi se dood en die rou",
-      "teks": "wat tot 'n kostekort sou lei",
-      "rede": "'sou lei' can mean either that it did lead to a shortage or that it would/was expected to; the intended certainty cannot be chosen without guessing the content, so it is flagged rather than changed."
+      "voor": "mense vir 'n tyd niks plant",
+      "na": "mense 'n tyd lank niks plant",
+      "soort": "anglisisme",
+      "rede_vinder": "'vir 'n tyd' follows English 'for a time'; ''n tyd lank' is the idiomatic Afrikaans form with the same meaning.",
+      "fout": "'vir 'n tyd' copies English 'for a time'.",
+      "rede_keurder": "''n tyd lank' is the natural Afrikaans form, the meaning is unchanged, and the protected 'Volgens een verslag' and 'sou lei' are untouched."
+    },
+    {
+      "nr": 2,
+      "blok": "Nandi se dood en die rou",
+      "voor": "lang routydperk beveel",
+      "na": "lang routydperk afgekondig",
+      "soort": "idioom",
+      "rede_vinder": "One 'kondig' a period of mourning 'af'; 'beveel' takes a command or a person as object, not a period, so the collocation reads stiffly.",
+      "fout": "'beveel' with a period as its object is a loose collocation.",
+      "rede_keurder": "A ruler 'kondig' a mourning period 'af'; it is still his authoritative act, the protected 'routydperk' stays, and the next sentence carries the enforcement."
+    },
+    {
+      "nr": 3,
+      "blok": "Shaka se dood en sy nalatenskap",
+      "voor": "Sy halfbroers Dingane",
+      "na": "Shaka se halfbroers Dingane",
+      "soort": "verwysing",
+      "rede_vinder": "The preceding sentence has the town KwaDukuza as subject, so 'Sy' reaches back two sentences; naming Shaka makes the reference (and the later 'sy leërs') clear.",
+      "fout": "'Sy' follows a sentence whose subject is the town KwaDukuza, so it reaches back two sentences and could point to the town.",
+      "rede_keurder": "Naming Shaka fixes the reference without changing the meaning, the protected 'halfbroers', 'Dingane' and 'Mhlangana' stay, and it is not the earlier rejected 'sy leërs' change."
     }
   ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 251,
-  "woorde_na": 251,
-  "wanneer": "2026-11-12T22:11:39+00:00",
+  "woorde_voor": 256,
+  "woorde_na": 257,
+  "wanneer": "2026-11-12T23:00:35+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 4,
@@ -55,9 +69,19 @@
       "rede_vinder": "'Hul eie huis opsit' is the natural form of the idiom.",
       "fout": "none",
       "rede_keurder": "''n eie huis opsit' is already natural Afrikaans; the proposal is a lateral move."
+    },
+    {
+      "nr": 1,
+      "blok": "Shaka se dood en sy nalatenskap",
+      "voor": "Mbopha (Shaka se lyfwag) was",
+      "na": "Mbopha, Shaka se lyfwag, was",
+      "soort": "leestekens",
+      "rede_vinder": "An apposition in running prose reads more naturally between commas than in brackets.",
+      "fout": "none",
+      "rede_keurder": "Brackets around a short apposition are correct and clear for a Grade 5 reader, so swapping them for commas is a lateral punctuation move."
     }
   ],
-  "konsep_hash_voor": "sha256:020d3c2f9b4357a42ebf291d02661cc8",
+  "konsep_hash_voor": "sha256:b4889d0c70457bfeac9fe57a88bd2ab0",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:020d3c2f9b4357a42ebf291d02661cc8"
+  "konsep_hash_na": "sha256:9d162be6d9b4a47293b42c27bba22551"
 }

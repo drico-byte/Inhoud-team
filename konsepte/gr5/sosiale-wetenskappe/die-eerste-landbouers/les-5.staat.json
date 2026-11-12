@@ -1,11 +1,15 @@
 {
   "les": "gr5/sosiale-wetenskappe/die-eerste-landbouers/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:2950a2853ad439c52f40a4f8fe0baf07",
+  "konsep_hash": "sha256:aa886a251ffa55052a4e3313c227d1fe",
   "hek": "PASS",
-  "teruggestuur_vir": [],
+  "teruggestuur_vir": [
+    "sha256:2950a2853ad439c52f40a4f8fe0baf07"
+  ],
   "eskalasie": null,
-  "blok_faalrondtes": {},
+  "blok_faalrondtes": {
+    "saam is die gemeenskap sterk": 1
+  },
   "eli10_voorkyk": null,
   "geskiedenis": [
     {
@@ -248,18 +252,87 @@
       "nie_toegepas": 0,
       "woorde_voor": 216,
       "woorde_na": 216
+    },
+    {
+      "wanneer": "2026-11-12T22:56:39+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 6,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:56:39+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 19,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:56:40+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "saam is die gemeenskap sterk"
+      ],
+      "tally": {
+        "saam is die gemeenskap sterk": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:56:40+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] Wie hulp gekry het, het later self weer ander gehelp. — corrected: Vernou die kwantor, nie die onderwerp nie: wederkerigheid was die gewoonte, nie iets wat van elkeen geld nie, byvoorbeeld 'Wie hulp gekry het, het gewoonlik later self weer ander gehelp.' Die res van die blok kan bly soos dit is."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:57:34+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:c3bb2709126033e834d9df894d7ea971",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:57:35+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 216,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:59:14+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 216,
+      "woorde_na": 216,
+      "konsep_hash": "sha256:aa886a251ffa55052a4e3313c227d1fe"
+    },
+    {
+      "wanneer": "2026-11-12T22:59:15+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 216,
+      "begroting": 200,
+      "failures": []
     }
   ],
   "taal_vir_skrywer": [],
-  "spek_hash": "sha256:bbc68b18a2cc2e9e66e8a94075bfeb8d",
+  "spek_hash": "sha256:978c574d5f7524bdde0031154f26e7a7",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:2950a2853ad439c52f40a4f8fe0baf07",
-  "taal_keurder_vir": "e72f21411b0782ff5cbfd761a4da9153",
+  "taal_rondte_vir": "sha256:aa886a251ffa55052a4e3313c227d1fe",
+  "taal_keurder_vir": "86838432e7c3c3d420b13e37e1ef0925",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:2950a2853ad439c52f40a4f8fe0baf07",
+  "taal_klaar_vir": "sha256:aa886a251ffa55052a4e3313c227d1fe",
   "taal_vir_mens": [],
   "taal_bons_vir": "sha256:d8ea4a4d15826784c9096a2313b2c2dc",
   "taal_bons_siklus": 1,

@@ -1,19 +1,15 @@
 {
   "les": "gr5/sosiale-wetenskappe/egipte/les-4",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:161898540cbcd64d6098bb6bc7abef7a",
+  "konsep_hash": "sha256:34f4e05b5f92a728b670cedf992230b2",
   "hek": "PASS",
   "teruggestuur_vir": [
     "sha256:161898540cbcd64d6098bb6bc7abef7a"
   ],
-  "eskalasie": {
-    "soort": "blok_bly_faal",
-    "wanneer": "2026-11-12T22:49:21+00:00",
-    "rede": "the block 'priester' has now failed in 2 separate rounds"
-  },
+  "eskalasie": null,
   "blok_faalrondtes": {
-    "priester": 2,
-    "piramide": 2
+    "piramide": 1,
+    "priester": 1
   },
   "eli10_voorkyk": null,
   "geskiedenis": [
@@ -247,18 +243,123 @@
       "soort": "blok_bly_faal",
       "blok": "priester",
       "rondtes": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:49:44+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "priester": 2,
+        "piramide": 2
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:49:44+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 7,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:49:45+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 26,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:49:45+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "piramide",
+        "priester"
+      ],
+      "tally": {
+        "piramide": 1,
+        "priester": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T22:49:45+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 1,
+      "punte": [
+        "[feite] piramide: 'n Reusagtige graf van klipblokke, gebou vir 'n fa — corrected: Tie the entry to ancient Egypt instead of defining the word as such, so it says that in ancient Egypt a pyramid was a huge tomb, usually of stone blocks, built for a pharaoh or another important person. A shape clause (square base, four sloping sides that meet at a point) would also make it true on its own. Do not change the study text, which is already about Egypt and is correct.",
+        "[feite] priester: Iemand wat in 'n tempel werk en die rituele vir di — corrected: Either tie the entry to ancient Egypt, so it says that in ancient Egypt a priest was someone who worked in a temple and performed the rituals for the gods, or widen it to a general definition (someone who performs religious rituals and services for a faith) followed by the Egyptian case. Do not keep a general-looking definition that rules out a church priest."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T22:50:54+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:af9fe00ec33f4582e1c4bbcb0bf1ee73",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T22:50:54+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 209,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T22:52:36+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 209,
+      "woorde_na": 209,
+      "konsep_hash": "sha256:b3143468507273402c34a3167b574938"
+    },
+    {
+      "wanneer": "2026-11-12T22:52:37+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 209,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:00:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:34f4e05b5f92a728b670cedf992230b2",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-12T23:00:50+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 221,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:02:46+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 221,
+      "woorde_na": 221
     }
   ],
   "taal_vir_skrywer": [],
-  "spek_hash": "sha256:0e871a9dfda6fc9607d2528b417624b1",
+  "spek_hash": "sha256:a856ae3ba0f6d506b540368464ed87e2",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:161898540cbcd64d6098bb6bc7abef7a",
-  "taal_keurder_vir": "5b30748e8925ceb9ec52e18d64257721",
+  "taal_rondte_vir": "sha256:34f4e05b5f92a728b670cedf992230b2",
+  "taal_keurder_vir": "77af4bc8f0ada9cea1e23bc124f1f8b8",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:161898540cbcd64d6098bb6bc7abef7a",
+  "taal_klaar_vir": "sha256:34f4e05b5f92a728b670cedf992230b2",
   "taal_vir_mens": [],
   "taal_bons_vir": null,
   "taal_bons_siklus": null,
