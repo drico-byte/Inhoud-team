@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-338 lesse.
+381 lesse.
 
 
 ## Graad 4/Geografie
@@ -149,6 +149,52 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G4_PSW_27 - Die skoon hoek** (goedgekeur 2026-10-23): taalstap: niks verander nie; Taal: AWS-kommas; 'Elke kind het sy hande ingeseep, en 'n maat het die water daaroor gegooi'; die glas-en-naald-reël onveranderd
 - **G4_PSW_28 - Wat MIV is** (goedgekeur 2026-10-23): taalstap: niks verander nie; Taal: AWS-kommas; 'saam uit een pot eet'; 'n meisie wat die medisyne elke dag drink, kan baie jare gesond bly; Feite: MIV maak die afweer teen siekte stadig swakker (begrip); VIGS is wat gebeur wanneer die afweer baie swak gemaak is; die sin 'Jy hardloop nooit weg ...' uitgehaal
 - **G4_PSW_29 - Suster Nomsa oor MIV** (goedgekeur 2026-10-23): 3 taalverandering(s) toegepas; Feite: die medisyne-slot bly binne les 9 se bewerings: iemand wat die medisyne elke dag drink, KAN skool toe gaan, werk en 'n lang lewe lei; nie meer 'by die kliniek' nie; 'en dit is genoeg' en 'n mens draai nooit weg' uitgehaal; slot: 'jy is veilig naby iemand wat met MIV leef'; Taal: AWS-kommas; 'Jy kry MIV nie van ...'; 'naby hom of haar'
+
+## Graad 5/Geskiedenis
+
+- **G5_GES_01 - Die Steentydperk** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
+- **G5_GES_02 - Hoe weet ons** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_04 - Saam deel en saam glo** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_05 - Rotskuns** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
+- **G5_GES_06 - Die Khoikhoi** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_09 - Opstalle en boerdery** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_10 - Die opperhoof** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_11 - Elkeen se rol** (goedgekeur 2026-11-12): 5 taalverandering(s) toegepas
+- **G5_GES_12 - Saamwerk** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_13 - Beeste** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_14 - Yster en koper** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_15 - Kleipotte** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_16 - Handel** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_17 - Jag en genesing** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_18 - Shaka word koning** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
+- **G5_GES_19 - Die Zoeloekoninkryk** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_20 - Shaka se bestuur** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_21 - Shaka se einde** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_22 - Die geskenk van die Nyl** (goedgekeur 2026-11-12): 4 taalverandering(s) toegepas
+- **G5_GES_23 - Besproeiing** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_24 - Skrif, syfers en sterre** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_25 - Piramides en tempels** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_26 - Dokters en medisyne** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_27 - Mummies** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_28 - Die graf ontdek** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_29 - Wat die graf vertel** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_30 - Farao en samelewing** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_31 - Elke dag in Egipte** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_32 - Bekende farao's** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_33 - Die einde van Egipte** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_34 - Egipte se kennis versprei** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
+- **G5_GES_35 - Wat is erfenis** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_36 - Provinsies en hoofstede** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_37 - Die Wieg van die Mensdom** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
+- **G5_GES_38 - San-erfenis** (goedgekeur 2026-11-12): 3 taalverandering(s) toegepas
+- **G5_GES_39 - Robbeneiland en Mandela** (goedgekeur 2026-11-13): taalstap: niks verander nie
+- **G5_GES_40 - Frances Baard** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_41 - Plekname** (goedgekeur 2026-11-13): 1 taalverandering(s) toegepas
+- **G5_GES_42 - Die Kasteel** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
+- **G5_GES_43 - Die aalwyn** (goedgekeur 2026-11-13): taalstap: niks verander nie
+- **G5_GES_44 - Klip en kleur** (goedgekeur 2026-11-13): 3 taalverandering(s) toegepas
+- **G5_GES_45 - Natuurlike erfenis** (goedgekeur 2026-11-13): taalstap: niks verander nie
+- **G5_GES_46 - My erfenis** (goedgekeur 2026-11-13): 2 taalverandering(s) toegepas
 
 ## Graad 5/Kuns
 

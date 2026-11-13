@@ -1,0 +1,37 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Baie gode",
+      "voor": "soos die songod Ra en Anubis, die god van mummifisering",
+      "na": "soos Ra, die songod, en Anubis, die god van mummifisering",
+      "soort": "sinsbou",
+      "rede_vinder": "Puts both gods in the same name-then-description pattern, so 'die songod' cannot be read as describing both Ra and Anubis; the comma before 'en' closes the inserted phrase, it is not a list comma, and every protected word stays.",
+      "fout": "The two gods are introduced in mismatched patterns (title before Ra, appositive after Anubis), so 'die songod Ra en Anubis' can be read on first pass as both being sun gods.",
+      "rede_keurder": "Same words, same gods and same descriptions in a parallel name-then-description pattern that a Grade 5 reader cannot misparse; protected words Ra, songod, Anubis and mummifisering are untouched, and the comma before 'en' closes an inserted phrase rather than sitting in a list."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 276,
+  "woorde_na": 276,
+  "wanneer": "2026-11-12T23:29:57+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "'n Boer en 'n ryk familie",
+      "voor": "geëet as 'n ryk familie",
+      "na": "geëet as 'n ryk gesin",
+      "soort": "woordkeuse",
+      "rede_vinder": "The sentence compares a farmer's 'gesin' (household) with a rich 'familie' (extended family); 'gesin' on both sides makes the comparison parallel (the block heading would then still say 'familie', so the reviewer may prefer to leave this).",
+      "fout": "none",
+      "rede_keurder": "'n Ryk familie' is natural Afrikaans and matches the block heading and the lesson's 'ryk families', so the swap is a lateral move that would break that consistency."
+    }
+  ],
+  "konsep_hash_voor": "sha256:ec8c7f16af74ddd9be25f77a9f7f2e62",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:ec4c8fcfd043e91350220dfe08c3e944"
+}

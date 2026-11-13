@@ -1,0 +1,87 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Tussen die gode en die mense",
+      "voor": "'n rol in die godsdiens gehad",
+      "na": "'n rol in die godsdiens gespeel",
+      "soort": "idioom",
+      "rede_vinder": "The Afrikaans idiom is ''n rol speel'; ''n rol hê' is weaker and reads as translated.",
+      "fout": "''n rol in die godsdiens gehad' copies English 'have a role'; the fixed Afrikaans expression is ''n rol speel'.",
+      "rede_keurder": "Restores the fixed idiom without moving the meaning, and the protected word 'godsdiens' stays intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 268,
+  "woorde_na": 268,
+  "wanneer": "2026-11-12T23:27:43+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Die heerser van Egipte",
+      "voor": "piramides laat bou",
+      "na": "piramides laat uitvoer",
+      "soort": "woordkeuse",
+      "rede_vinder": "'bouprojekte ... laat bou' repeats 'bou'; 'laat uitvoer' keeps the causative meaning and the protected 'bouprojekte'.",
+      "fout": "none",
+      "rede_keurder": "'laat uitvoer' is more abstract and bookish for a Grade 5 reader and does not fit 'tempels en piramides'; the light repetition of 'bou' does not make the original fall short."
+    },
+    {
+      "nr": 2,
+      "blok": "Tussen die gode en die mense",
+      "voor": "gawes aan die gode bring",
+      "na": "geskenke aan die gode bring",
+      "soort": "register",
+      "rede_vinder": "'gawes' is bookish and can also mean talents; 'geskenke' is clearer for Grade 5 with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'gawes aan die gode' is the natural, idiomatic phrase for offerings in a religious context, so swapping it for 'geskenke' is a lateral move that also loses the offering sense."
+    },
+    {
+      "nr": 3,
+      "blok": "Wie het die piramides gebou?",
+      "voor": "Baie mense dink slawe het die piramides gebou",
+      "na": "Baie mense dink dat slawe die piramides gebou het",
+      "soort": "sinsbou",
+      "rede_vinder": "In written text the full subordinate clause with 'dat' and verb-final word order is the standard, clearer form.",
+      "fout": "none",
+      "rede_keurder": "Leaving out 'dat' after 'dink' is standard written Afrikaans and reads well, so the proposal is only a different form and makes the sentence longer."
+    },
+    {
+      "nr": 4,
+      "blok": "Boere en slawe",
+      "voor": "Mense in elke groep het die lewe anders beleef.",
+      "na": "Elke groep het die lewe anders beleef.",
+      "soort": "sinsbou",
+      "rede_vinder": "'Mense in elke groep ... anders' can read as people within one group differing; the intended contrast is between groups.",
+      "fout": "none",
+      "rede_keurder": "The original says people in each group lived differently and can carry both senses (between groups and within them), so the proposal narrows the meaning to one of them and makes the subject more abstract."
+    },
+    {
+      "nr": 1,
+      "blok": "Die heerser van Egipte",
+      "voor": "Meestal was dit 'n man",
+      "na": "Gewoonlik was dit 'n man",
+      "soort": "woordkeuse",
+      "rede_vinder": "Same meaning, but matches the decided glossary definition of farao ('gewoonlik 'n man en soms 'n vrou'), so the learner meets one wording for one idea.",
+      "fout": "none",
+      "rede_keurder": "'Meestal was dit 'n man' is natural Afrikaans; swapping one qualifier for another is a lateral move that touches a quantifier, and the study text need not echo the glossary sentence word for word."
+    },
+    {
+      "nr": 2,
+      "blok": "Wie het die piramides gebou?",
+      "voor": "Hulle het ook daar naby 'n begraafplaas vir die werkers gevind.",
+      "na": "Naby die dorp het hulle ook 'n begraafplaas vir die werkers gevind.",
+      "soort": "verwysing",
+      "rede_vinder": "'Daar naby' leaves the learner to work out near what; naming the village makes the reference clear and the word order flows better.",
+      "fout": "none",
+      "rede_keurder": "'Daar naby' reads naturally after 'By Giza ... werkersdorp'; the proposal narrows the location from the Giza site to 'the village' (a new spatial claim) and shortens the protected 'werkersdorp' to 'die dorp'."
+    }
+  ],
+  "konsep_hash_voor": "sha256:e2b176c3ac76fedcce14d2c0c69802b0",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:fa8b240928bbada829dd65f83945a8e8"
+}

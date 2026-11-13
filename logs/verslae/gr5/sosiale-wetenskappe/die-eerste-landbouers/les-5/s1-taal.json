@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Beeste vir 'n nuweling",
+      "voor": "kon hulle melk gebruik",
+      "na": "kon die melk gebruik",
+      "soort": "verwysing",
+      "rede_vinder": "After 'Wie ... opgepas het', 'hulle melk' can be misread as the caretakers' own milk; 'die melk' points clearly to the cattle's milk.",
+      "fout": "'hulle melk' right after 'Wie die beeste opgepas het' can be read as the caretakers' own milk rather than the cattle's.",
+      "rede_keurder": "'die melk' points unambiguously to the lent cattle's milk, matches 'die kalwers' later in the sentence, and keeps the meaning."
+    },
+    {
+      "nr": 2,
+      "blok": "Beeste vir 'n nuweling",
+      "voor": "kon van hulle aan so 'n nuweling",
+      "na": "kon van sy beeste aan so 'n nuweling",
+      "soort": "verwysing",
+      "rede_vinder": "The bare partitive 'van hulle' reads loosely; naming the owner's cattle makes clear what is lent and whose they are.",
+      "fout": "'kon van hulle aan so 'n nuweling ... leen' lets 'van hulle ... leen' read on first pass as 'borrow from them', so the reader stumbles over who lends to whom.",
+      "rede_keurder": "'van sy beeste' keeps the same lender, receiver and partitive sense while removing the borrow-from misreading; no fact is added."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 214,
+  "woorde_na": 215,
+  "wanneer": "2026-11-12T22:34:27+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Kalwers vir 'n nuweling",
+      "voor": "kon so 'n nuweling kalwers vir 'n jaar of twee leen",
+      "na": "kon vir 'n jaar of twee kalwers aan so 'n nuweling leen",
+      "soort": "sinsbou",
+      "rede_vinder": "'Leen' can mean lend or borrow; 'aan' makes it unambiguous that the community member lends to the newcomer.",
+      "fout": "none",
+      "rede_keurder": "The original double-object 'iemand iemand iets leen' already means lend, not borrow (community member to newcomer); the reordering places 'n jaar of twee' directly before 'kalwers', which a Grade 5 reader can misread as 'one or two calves'."
+    },
+    {
+      "nr": 4,
+      "blok": "Saam is die gemeenskap sterk",
+      "voor": "goed gaan, nie net",
+      "na": "goed gegaan het, nie net",
+      "soort": "grammatika",
+      "rede_vinder": "Matches the past tense of the main clause and of the next sentence ('gehad het').",
+      "fout": "none",
+      "rede_keurder": "Afrikaans has no sequence-of-tenses rule, so 'het gesorg dat dit goed gaan' is natural and correct; changing the tense is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:2a35565b3b59fa2e6404cc18e1fac7f2",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:237f2a5d34080a57386b0fa2071227b0"
+}

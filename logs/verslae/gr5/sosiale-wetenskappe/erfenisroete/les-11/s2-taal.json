@@ -1,0 +1,104 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Hoe lank 'n miljard jaar is",
+      "voor": "Om al die rotse se jare te tel",
+      "na": "Om al die jare van die rotse te tel",
+      "soort": "sinsbou",
+      "rede_vinder": "In the original 'al' attaches to 'rotse', which can read as adding up every rock's age; attaching it to 'jare' says what is meant.",
+      "fout": "'al die rotse se jare' puts 'al' on 'rotse', so it can read as adding up the ages of every rock.",
+      "rede_keurder": "Moving 'al' onto 'jare' says plainly that the learner counts one age's years, with no new content and no long words."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe lank 'n miljard jaar is",
+      "voor": "'n klein stukkie daarvan",
+      "na": "'n klein stukkie van al daardie jare",
+      "soort": "verwysing",
+      "rede_vinder": "'daarvan' could point to the rocks' age or to the 100 years of counting; naming the referent removes the doubt without adding content.",
+      "fout": "'daarvan' sits right after '100 jaar lank' and can be read as pointing to the 100 years of counting, which gives a false picture.",
+      "rede_keurder": "Naming the referent removes a misreading a Grade 5 reader could easily make, without adding a fact."
+    },
+    {
+      "nr": 4,
+      "blok": "Kennis van geslag tot geslag",
+      "voor": "natuur soos berge en mere met",
+      "na": "natuur, soos berge en mere, met",
+      "soort": "leestekens",
+      "rede_vinder": "Commas around the inserted examples make the long sentence easier to parse; the protected 'plekke in die natuur' stays intact.",
+      "fout": "The long sentence runs 'mere met die voorouers' together and makes a reader stumble.",
+      "rede_keurder": "Commas around the inserted examples are allowed by the AWS and make the sentence easy to parse; the protected 'plekke in die natuur' stays intact."
+    },
+    {
+      "nr": 5,
+      "blok": "Die Fundudzimeer",
+      "voor": "is die meer met hulle voorouers verbind",
+      "na": "word die meer met hulle voorouers verbind",
+      "soort": "grammatika",
+      "rede_vinder": "The present passive 'word ... verbind' describes a living tradition and matches 'verbind word' in the previous block; 'is ... verbind' reads as a completed past act.",
+      "fout": "'is ... verbind' is the perfect passive and reads as a completed past act, not a living tradition.",
+      "rede_keurder": "'word ... verbind' is the correct present passive for an ongoing belief and matches 'verbind word' in the block before; same people, same link."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Van die oudste rotse op aarde",
+      "voor": "3,6 tot 3,25",
+      "na": "3,25 tot 3,6",
+      "soort": "woordorde",
+      "rede_vinder": "A range is normally given from the smaller to the larger number; same span, same meaning.",
+      "fout": "none",
+      "rede_keurder": "It reorders a number range, and numbers are not a language agent's to touch; oldest-to-youngest is also an ordinary way to give a geological age range."
+    },
+    {
+      "nr": 7,
+      "blok": "Een plek, twee soorte waarde",
+      "voor": "kan daardie plek ook heilig wees",
+      "na": "kan dieselfde plek ook heilig wees",
+      "soort": "woordkeuse",
+      "rede_vinder": "The block's point is one place with two values, and 'dieselfde' says so; note it adds a three-syllable word where the gate's syllable limit is reportedly tight.",
+      "fout": "none",
+      "rede_keurder": "'daardie plek ook' already ties back to 'daar' and the heading says 'Een plek', so this is a lateral move that adds a three-syllable word where the gate's syllable limit is tight."
+    },
+    {
+      "nr": 8,
+      "blok": "miljard",
+      "voor": "wat geskryf word as 'n 1 met nege nulle",
+      "na": "wat as 'n 1 met nege nulle geskryf word",
+      "soort": "woordorde",
+      "rede_vinder": "In an Afrikaans subordinate clause the verb cluster goes to the end; the original follows English word order.",
+      "fout": "none",
+      "rede_keurder": "It rewords a glossary definition for style only, and putting the 'as' phrase after the verb is normal, grammatical Afrikaans (compare 'wat bekend staan as')."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 6,
+      "blok": "Een plek, twee soorte waarde",
+      "voor": "bewyse oor die jong aarde",
+      "na": "bewyse van die jong aarde",
+      "soort": "anglisisme",
+      "rede_vinder": "'bewyse oor' calques 'evidence about'; Afrikaans says 'bewyse van'.",
+      "fout": "'bewyse oor' is a mild calque of 'evidence about'; Afrikaans would normally phrase this differently.",
+      "rede_keurder": "The preposition swap moves the meaning: 'bewyse van die jong aarde' can read as proof that the earth is young, so the writer should fix the phrase another way and keep the protected 'jong aarde'.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [
+    {
+      "woord": "oudste goed bewaarde rotse",
+      "rede": "Not proposing a change: AWS practice usually writes adverb plus participle used attributively as one word ('goedbewaarde'); a person may want to confirm the spelling, keeping the full wording that must not be shortened."
+    }
+  ],
+  "woorde_voor": 213,
+  "woorde_na": 217,
+  "wanneer": "2026-11-12T23:59:19+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:c90fcea43e5b42410c54e4ded5274ec1",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:4b2016c56b8446a5e3103b691788311f"
+}

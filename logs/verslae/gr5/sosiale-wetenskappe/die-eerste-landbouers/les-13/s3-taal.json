@@ -1,0 +1,104 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waarop sy mag gerus het",
+      "voor": "Die mense onder sy beheer",
+      "na": "Die mense onder Shaka se beheer",
+      "soort": "verwysing",
+      "rede_vinder": "The block opens with a pronoun whose referent is only in the previous block; naming Shaka makes the block clear on its own.",
+      "fout": "The block opens with 'sy' whose referent stands only in the previous block.",
+      "rede_keurder": "Naming Shaka anchors the block on its own without adding information, since Shaka is the referent the pronoun already meant."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Waarop sy mag gerus het",
+      "voor": "Dit het ook op beeste, eerbetoon en die handel gerus.",
+      "na": "Dit het ook op beeste, eerbetoon en die handel berus.",
+      "soort": "woordkeuse",
+      "rede_vinder": "The previous sentence says 'berus'; using the same verb in the paired sentence reads more smoothly and avoids a needless switch.",
+      "fout": "none",
+      "rede_keurder": "'Rus op' and 'berus op' are equally correct and natural, and 'gerus' echoes the block heading; this is a lateral move (the reverse swap was already rejected)."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe weet ons van Shaka?",
+      "voor": "Hulle weerspreek mekaar soms en oordryf dinge.",
+      "na": "Hulle het mekaar soms weerspreek en dinge oordryf.",
+      "soort": "grammatika",
+      "rede_vinder": "The traders are historical people described in the past tense in the surrounding sentences; the past tense keeps the tense consistent.",
+      "fout": "none",
+      "rede_keurder": "The present tense describes what the written accounts still do today for the historians reading them; the past tense moves that meaning to the writers' own time."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Waarop sy mag gerus het",
+      "teks": "Lank voor Shaka het 'n vroeë opperhoof mag gehad as mense hom wou volg.",
+      "rede": "'as' can be read as 'when' or 'if', and the sentence does not make clear that the point is that the chief's power depended on people choosing to follow him; clarifying it (e.g. with 'net' or 'solank') would add a qualifier, so the writer should decide the intended meaning."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 249,
+  "woorde_na": 250,
+  "wanneer": "2026-11-12T22:19:36+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Die koning, sy izinduna en sy krygers",
+      "voor": "gedra, dus was baie beeste nodig",
+      "na": "gedra, en daarom was baie beeste nodig",
+      "soort": "sinsbou",
+      "rede_vinder": "'Dus' after a bare comma is a run-on; 'en daarom' links the two clauses properly, with the AWS comma before 'en'.",
+      "fout": "none",
+      "rede_keurder": "', dus was' is accepted Afrikaans for a consequence; 'en daarom' only reads differently."
+    },
+    {
+      "nr": 4,
+      "blok": "Waarop sy mag gerus het",
+      "voor": "Lank voor Shaka het 'n vroeë opperhoof",
+      "na": "Lank voor Shaka se tyd het 'n opperhoof",
+      "soort": "idioom",
+      "rede_vinder": "'Lank voor Shaka se tyd' is the natural phrase, and 'vroeë' then only repeats 'lank voor'.",
+      "fout": "none",
+      "rede_keurder": "'Lank voor Shaka' already reads well, and dropping 'vroeë' loses a word that carries information about the kind of leader."
+    },
+    {
+      "nr": 5,
+      "blok": "Waarop sy mag gerus het",
+      "voor": "veral op sy weermag berus",
+      "na": "veral op sy weermag gerus",
+      "soort": "woordkeuse",
+      "rede_vinder": "The next sentence and the block heading use 'gerus'; one verb throughout avoids suggesting two different ideas.",
+      "fout": "none",
+      "rede_keurder": "'Berus op' is the exact, natural verb; swapping it for 'gerus' is lateral and only adds repetition with the next sentence."
+    },
+    {
+      "nr": 6,
+      "blok": "Handel met Britse en Portugese handelaars (kaart)",
+      "voor": "Op albei plekke is met handelaars handel gedryf.",
+      "na": "Op albei plekke is daar met handelaars handel gedryf.",
+      "soort": "sinsbou",
+      "rede_vinder": "An impersonal passive reads more naturally with 'daar'.",
+      "fout": "none",
+      "rede_keurder": "With 'Op albei plekke' in first position 'daar' is optional, so the change is lateral."
+    },
+    {
+      "nr": 9,
+      "blok": "ivoor",
+      "voor": "waarvan 'n olifant se slagtande gemaak is",
+      "na": "waaruit 'n olifant se slagtande bestaan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Gemaak is' suggests someone made the tusks; 'bestaan uit' is the natural way to say what something consists of.",
+      "fout": "none",
+      "rede_keurder": "'Waarvan ... gemaak is' is the normal Afrikaans for 'made of' and implies no maker; this is a glossary definition and the original has no real fault."
+    }
+  ],
+  "konsep_hash_voor": "sha256:cbee38c829e9986beabb77819560294d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:bb227b22e46251f0c69c115fcb9b3f78"
+}

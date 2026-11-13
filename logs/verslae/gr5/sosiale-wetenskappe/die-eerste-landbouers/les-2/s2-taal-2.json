@@ -1,0 +1,78 @@
+{
+  "toegepas": [
+    {
+      "nr": 4,
+      "blok": "Gesaaides: sorghum, giers en boontjies",
+      "voor": "Hulle het ook boontjies geplant.",
+      "na": "Die boere het ook boontjies geplant.",
+      "soort": "verwysing",
+      "rede_vinder": "The nearest plural subject is sorghum and millet ('albei'), so 'Hulle' grammatically points to the grains; naming the farmers removes the ambiguity.",
+      "fout": "'Hulle' follows two sentences about sorghum and millet ('albei') and so first points to the grains.",
+      "rede_keurder": "Naming the farmers fixes an ambiguous pronoun without changing the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die opstal: 'n familie se tuiste",
+      "voor": "het op 'n opstal gewoon, wat ook 'n plaasopstal genoem word.",
+      "na": "het op 'n opstal gewoon. Dit word ook 'n plaasopstal genoem.",
+      "soort": "verwysing",
+      "rede_vinder": "The relative clause stands after the verb, far from 'opstal', so 'wat' can be read as referring to the whole clause; a separate sentence makes the reference clear and is easier for Grade 5.",
+      "fout": "none",
+      "rede_keurder": "A relative clause placed after the verb is normal Afrikaans and here can only refer to 'opstal'; splitting it is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "'n Dorpie van opstalle",
+      "voor": "het saam 'n dorpie gevorm, wat ook 'n boeredorpie genoem word.",
+      "na": "het saam 'n dorpie gevorm. So 'n dorpie word ook 'n boeredorpie genoem.",
+      "soort": "verwysing",
+      "rede_vinder": "Same loose 'wat' after the verb; a separate sentence ties the alternative name clearly to 'dorpie'.",
+      "fout": "none",
+      "rede_keurder": "Same standard extraposed relative clause, clearly tied to 'dorpie'; the split only reads differently and repeats 'dorpie'."
+    },
+    {
+      "nr": 3,
+      "blok": "'n Dorpie van opstalle",
+      "voor": "op vars grond",
+      "na": "op nuwe grond",
+      "soort": "anglisisme",
+      "rede_vinder": "'Vars grond' calques English 'fresh ground'; 'nuwe grond' is the natural Afrikaans for land not yet farmed, with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'Vars grond' contrasts naturally with 'uitgeboer', and 'nuwe grond' would put 'nuwe' twice in one clause before 'n nuwe dorpie'."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 282,
+  "woorde_na": 283,
+  "wanneer": "2026-11-12T21:50:09+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Hutte van hout, klei en gras",
+      "voor": "gebou van wat naby te kry was",
+      "na": "gebou met wat hulle naby kon kry",
+      "soort": "sinsbou",
+      "rede_vinder": "'gebou van wat naby te kry was' reads wooden; 'met wat hulle naby kon kry' is the natural construction with the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'gebou van wat naby te kry was' is natural idiomatic Afrikaans; the proposal is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Hoe weet ons dit?",
+      "voor": "potskerwe, wat stukke van gebreekte kleipotte is",
+      "na": "potskerwe, stukkies van gebreekte kleipotte",
+      "soort": "sinsbou",
+      "rede_vinder": "A plain apposition is smoother than the relative clause ending in 'is', and 'stukkies' matches the glossary definition of potskerf.",
+      "fout": "none",
+      "rede_keurder": "The relative clause is standard Afrikaans and states the definition plainly for a Grade 5 reader; the apposition is only different."
+    }
+  ],
+  "konsep_hash_voor": "sha256:c1dafffe492a19e0e12fd0b8f0e4ca45",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:b57db67a3c483d08e30ec5d116c2997e"
+}

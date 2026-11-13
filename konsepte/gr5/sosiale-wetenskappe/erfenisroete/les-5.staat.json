@@ -1,11 +1,9 @@
 {
   "les": "gr5/sosiale-wetenskappe/erfenisroete/les-5",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:ac58b2455a7aa75fcec6aa57248430bd",
+  "konsep_hash": "sha256:328d8355144c7ba0028e51727a264774",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:f41cc77ef650cb94dc08bce1c35751be"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -94,20 +92,221 @@
       "woorde": 219,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:53:49+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 219,
+      "woorde_na": 219
+    },
+    {
+      "wanneer": "2026-11-12T23:58:41+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:58:42+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "HERSIEN",
+      "sound": true,
+      "items": 27,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:58:42+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "mandela se stryd",
+        "sabotasie"
+      ],
+      "tally": {
+        "mandela se stryd": 1,
+        "sabotasie": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-12T23:58:42+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "HERSIEN",
+      "bron": "feite",
+      "siklus": 2,
+      "punte": [
+        "[feite] Sabotasie beteken om dinge soos kragmaste stukkend te maak o — corrected: Verbind die doel met hierdie geval, nie met die woord se betekenis nie. Sê byvoorbeeld dat sabotasie beteken om dinge doelbewus stukkend te maak, en dat die ANC dinge soos kragmaste wou stukkend maak om die regering onder druk te plaas. Die begrip-inskrywing 'sabotasie' het dieselfde fout en moet saam reggemaak word, sodat die twee steeds ooreenstem.",
+        "[feite] sabotasie: Om eiendom doelbewus te beskadig om druk op 'n re — corrected: Moenie die doel net tot 'n regering beperk nie: maak die gekose doel 'n voorbeeld en nie die betekenis nie. Sê byvoorbeeld 'om eiendom doelbewus te beskadig, dikwels om druk op 'n regering te plaas'. Hou dit in pas met die sin in die studieblok 'Mandela se stryd', wat dieselfde fout het."
+      ]
+    },
+    {
+      "wanneer": "2026-11-13T00:00:26+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5fba8991b88ac39e3457869b175b8786",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-13T00:00:28+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 221,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:02:02+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 221,
+      "woorde_na": 221
+    },
+    {
+      "wanneer": "2026-11-13T00:02:02+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in ''n Vonnis om vir die res van jou lewe opgesluit te wees.': 'n Vonnis om vir die res van jou lewe opgesluit te wees' follows the English 'a sentence to be locked up' and reads slightly stiff in Afrikaans.",
+        "check (the language finder raised this; it may not be a fault): ''n Stelsel waarin alle volwasse burgers stem om hul regering te kies.': Read literally, this says every adult citizen actually votes; 'mag stem' (may vote) would be more exact, but that is a content choice, so it is flagged rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-11-13T00:03:07+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:cbfbad4a0122bd2faf61bc6931d8f5ed",
+      "siklus": 3
+    },
+    {
+      "wanneer": "2026-11-13T00:03:08+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 221,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:04:33+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 221,
+      "woorde_na": 221
+    },
+    {
+      "wanneer": "2026-11-13T00:07:54+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 10,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:07:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:07:55+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "dekking"
+      ]
+    },
+    {
+      "wanneer": "2026-11-13T00:08:18+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 2,
+      "vorige_blok_faalrondtes": {
+        "mandela se stryd": 1,
+        "sabotasie": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-13T00:11:59+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:328d8355144c7ba0028e51727a264774",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-13T00:12:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 221,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:13:28+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 221,
+      "woorde_na": 221
+    },
+    {
+      "wanneer": "2026-11-13T00:16:59+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:16:59+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:17:04+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 11,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:17:05+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:17:05+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\erfenisroete\\les-5.json",
+      "konsep_hash": "sha256:328d8355144c7ba0028e51727a264774",
+      "vervang": false
     }
   ],
   "taal_vir_skrywer": [],
-  "spek_hash": "sha256:bea5f6d3f057b1c7d7a4c37d7fa55a9d",
+  "spek_hash": "sha256:ed2d18c31a93bf83b19bc5a62a7aae9d",
   "hek_konteks": {
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:ac58b2455a7aa75fcec6aa57248430bd",
-  "taal_keurder_vir": "4ce596170a8480f1d1ca927d5b77b5a3",
+  "taal_rondte_vir": "sha256:328d8355144c7ba0028e51727a264774",
+  "taal_keurder_vir": "312869548bf306e6af9e4711135d2f5c",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:3d0b12f29ed32df82fff1ca5e969a479",
+  "taal_klaar_vir": "sha256:328d8355144c7ba0028e51727a264774",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:3d0b12f29ed32df82fff1ca5e969a479",
-  "taal_bons_siklus": 2,
-  "taal_bons_nota": "c210b081b621fe7914f65940a6a3cc49"
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "ad1c184426c4962a06267deb58e181b5"
 }

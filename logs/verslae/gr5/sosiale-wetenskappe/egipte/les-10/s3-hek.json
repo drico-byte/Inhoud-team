@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "titel": "Elke dag in antieke Egipte",
+  "graad": 5,
+  "vak": "Sosiale Wetenskappe",
+  "budget": 250,
+  "begrotingsreel": "CAPS-hours: 250 planned, ceiling 280 (+12%), under-run warns",
+  "begroting_basis": "kaps-ure",
+  "na_taal": true,
+  "checked_at": "2026-11-12T23:29:58+00:00",
+  "study": {
+    "words": 276,
+    "sentences": 24,
+    "mean_sentence_len": 11.1,
+    "median_sentence_len": 11.0,
+    "longest_sentence": 17,
+    "mean_syllables": 1.49,
+    "pct_polysyllabic": 7.5,
+    "pct_long_words": 2.6,
+    "commas_per_sentence": 0.5,
+    "list_words": 10
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 7,
+    "lys": 1,
+    "begrip": 8
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study block 1 ('Kos van die landerye') only 22 words (guide 30–110)",
+    "Study text: 0.5 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: bordspeletjie, bordspeletjies, skoolgegaan"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

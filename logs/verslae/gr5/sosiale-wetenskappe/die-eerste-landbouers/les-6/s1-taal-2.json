@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Wat beeste vir die boere gegee het",
+      "voor": "vir hulle vleis geslag",
+      "na": "vir die vleis geslag",
+      "soort": "verwysing",
+      "rede_vinder": "'hulle vleis' can be read as the farmers' own meat; 'die vleis' refers plainly to the cattle's meat.",
+      "fout": "'hulle' in 'vir hulle vleis' can point to the farmers or the cattle, in a paragraph already full of 'hulle'.",
+      "rede_keurder": "'die vleis' removes the ambiguous pronoun without changing who slaughtered what or why."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Beeste tussen families",
+      "voor": "'n gebruik van gemeenskappe",
+      "na": "'n gebruik by gemeenskappe",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans speaks of a custom 'by' a people or community; 'van' reads woodenly here.",
+      "fout": "none",
+      "rede_keurder": "'n gebruik van gemeenskappe' is natural Afrikaans; 'by' only reads differently, so this is a lateral move."
+    },
+    {
+      "nr": 3,
+      "blok": "Beeste tussen families",
+      "voor": "Ons weet nie seker of",
+      "na": "Ons is nie seker of",
+      "soort": "idioom",
+      "rede_vinder": "'nie seker weet nie' is colloquial; 'nie seker wees of ... nie' is the standard idiom and keeps the same meaning.",
+      "fout": "none",
+      "rede_keurder": "'Ons weet nie seker of ... nie' is plain, natural Afrikaans for a Grade 5 reader; the proposal is merely different."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 209,
+  "woorde_na": 209,
+  "wanneer": "2026-11-12T21:34:53+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Wat beeste vir die boere gegee het",
+      "voor": "beeste aangehou wat hulle op baie maniere gehelp het",
+      "na": "beeste aangehou, en die beeste het hulle op baie maniere gehelp",
+      "soort": "verwysing",
+      "rede_vinder": "With 'wat hulle' a young reader can briefly take 'wat' as object (the farmers helped the cattle); naming the subject removes the ambiguity, and the AWS comma is required between the two clauses.",
+      "fout": "none",
+      "rede_keurder": "The heading and the paragraph make 'the cattle helped the farmers' the only sensible reading, and the proposal adds a clumsy repeat of 'beeste' in a paragraph already full of it."
+    },
+    {
+      "nr": 3,
+      "blok": "Beeste was rykdom",
+      "voor": "Ons sê so 'n gesin het hoë status gehad",
+      "na": "Ons sê dat so 'n gesin hoë status gehad het",
+      "soort": "sinsbou",
+      "rede_vinder": "Written study text reads better with the full 'dat' clause and verb-final order than with the spoken form without 'dat'.",
+      "fout": "none",
+      "rede_keurder": "Leaving out 'dat' after 'sê' is normal, natural Afrikaans, so this is a sideways change rather than a fix."
+    }
+  ],
+  "konsep_hash_voor": "sha256:a919dc7b64d34ffba432ec29e4c47ca2",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e082f34880783315dc398082a0c4af4a"
+}

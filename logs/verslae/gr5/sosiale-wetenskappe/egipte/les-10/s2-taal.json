@@ -1,0 +1,54 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Baie gode",
+      "voor": "soos Ra die songod en Anubis",
+      "na": "soos die songod Ra en Anubis",
+      "soort": "leestekens",
+      "rede_vinder": "'Ra die songod' is an apposition without its commas, unlike 'Anubis, die god van mummifisering'; putting the title first is natural and needs no extra commas before 'en'.",
+      "fout": "'Ra die songod en Anubis, die god van mummifisering' has an uncommaed apposition next to a commaed one, so a reader can stumble and read 'Ra, die songod en Anubis' as three items.",
+      "rede_keurder": "Putting the title first removes the stumble and keeps the two gods parallel without changing meaning; the protected words 'Ra' and 'songod' stay intact."
+    },
+    {
+      "nr": 2,
+      "blok": "Leer by die huis en op skool",
+      "voor": "skool gegaan, veral",
+      "na": "skoolgegaan, veral",
+      "soort": "spelling",
+      "rede_vinder": "'Skoolgaan' is one verb (AWS), so its past participle is written 'skoolgegaan'; 'Net sommige kinders' and 'veral uit ryk families' stay untouched.",
+      "fout": "'skoolgaan' is written as one word by the AWS, so the past participle is 'skoolgegaan', not 'skool gegaan'.",
+      "rede_keurder": "A plain spelling fix that leaves the protected quantifiers 'Net sommige kinders' and 'veral uit ryk families' untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "Toe en nou",
+      "voor": "bordspeletjies soos die Egiptenare",
+      "na": "bordspeletjies, net soos die antieke Egiptenare",
+      "soort": "sinsbou",
+      "rede_vinder": "'bordspeletjies soos die Egiptenare' can be misread as 'board games such as the Egyptians'; 'net soos' with a comma makes the comparison cover both clauses, and 'antieke' separates them from Egyptians today in a then-and-now block.",
+      "fout": "'bordspeletjies soos die Egiptenare' can first be read as 'board games such as the Egyptians', because 'soos' after a plural noun introduces examples elsewhere in this lesson; in a then-and-now block 'die Egiptenare' can also be read as Egyptians today.",
+      "rede_keurder": "The ambiguity is real, but the proposal adds 'antieke' and strengthens the comparison to 'net soos' across both clauses, which moves the claim, so the writer should choose the fix.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "'n Boer en 'n ryk familie",
+      "teks": "Vis uit die Nyl was vir hulle belangrik.",
+      "rede": "'hulle' could refer to the farmer's family or to both the farmer's family and the rich family in the previous sentence; naming the intended group would mean guessing the content, so the writer should decide."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 257,
+  "woorde_na": 256,
+  "wanneer": "2026-11-12T23:16:58+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:a53063677728e2354aa3647a66cb190f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:84b87c34e72b5c114478184e5217b123"
+}

@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "titel": "Wat ons van ons voorouers erf",
+  "graad": 5,
+  "vak": "Sosiale Wetenskappe",
+  "budget": 200,
+  "begrotingsreel": "CAPS-hours: 200 planned, ceiling 224 (+12%), under-run warns",
+  "begroting_basis": "kaps-ure",
+  "na_taal": true,
+  "checked_at": "2026-11-12T23:48:35+00:00",
+  "study": {
+    "words": 221,
+    "sentences": 19,
+    "mean_sentence_len": 11.5,
+    "median_sentence_len": 12,
+    "longest_sentence": 18,
+    "mean_syllables": 1.55,
+    "pct_polysyllabic": 13.1,
+    "pct_long_words": 2.3,
+    "commas_per_sentence": 0.42
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 5,
+    "begrip": 6
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study block 3 ('Plekke vir die hele mensdom') only 29 words (guide 30–110)",
+    "Study text: syllables per word 1.55 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Study text: 3+ syllable words 13.1% above maximum 13.0%  [marginal — within tolerance, not blocking]",
+    "Study text: 0.42 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: goudplaatjies, toekomstige"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

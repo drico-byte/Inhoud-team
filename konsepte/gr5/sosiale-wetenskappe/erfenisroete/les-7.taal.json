@@ -1,28 +1,31 @@
 {
   "toegepas": [
     {
-      "nr": 3,
-      "blok": "Bloemfontein",
-      "voor": "is gebou uit die woorde",
-      "na": "bestaan uit die woorde",
-      "soort": "anglisisme",
-      "rede_vinder": "'gebou uit' calques English 'built from'; a word 'bestaan uit' other words.",
-      "fout": "'gebou uit' copies English 'built from' for the make-up of a word",
-      "rede_keurder": "A compound name 'bestaan uit' its parts in natural Afrikaans, and the meaning is unchanged."
-    },
-    {
-      "nr": 4,
+      "nr": 1,
       "blok": "'n Dam kry 'n nuwe naam",
-      "voor": "op die grens van die Vrystaat",
-      "na": "op die grens tussen die Vrystaat",
+      "voor": "lê op die Oranjerivier",
+      "na": "lê in die Oranjerivier",
       "soort": "idioom",
-      "rede_vinder": "A border lies 'tussen' two provinces; 'die grens van ... en ...' is unidiomatic.",
-      "fout": "'die grens van X en Y' is a loose construction for a border shared by two provinces",
-      "rede_keurder": "'Die grens tussen X en Y' is the fixed Afrikaans form and says exactly the same thing."
+      "rede_vinder": "In Afrikaans a dam is usually said to lie 'in' a river ('n dam in die rivier); 'op die rivier' follows English 'on the river'.",
+      "fout": "'lê op die Oranjerivier' copies English 'on the river'; Afrikaans normally places a dam 'in' the river it dams, and the original also stacks two 'op' phrases ('op die Oranjerivier, op die grens').",
+      "rede_keurder": "Checked the preposition: both versions say the same place (the dam sits in the river's course), the protected word Oranjerivier is untouched, and 'in' is the natural Afrikaans idiom that also removes the doubled 'op'."
     }
   ],
   "nie_toegepas": [],
-  "laat_vaar": [
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "'n Dam kry 'n nuwe naam",
+      "teks": "Die rivier het dieselfde gebly, maar die dam se naam het verander.",
+      "rede": "The contrast is between the river and the dam's name, so a learner may wonder whether the river itself or the river's name stayed the same; making it 'die rivier se naam' would need the intended content, so it is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 209,
+  "woorde_na": 209,
+  "wanneer": "2026-11-13T00:01:19+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 1,
       "blok": "Een rivier met twee name",
@@ -72,16 +75,29 @@
       "rede_vinder": "'soos' for temporal English 'as' is ambiguous (it reads as 'like'); 'wanneer' is clear at Grade 5.",
       "fout": "none",
       "rede_keurder": "Progressive 'soos' (names change along with a country) is accepted Afrikaans, and 'wanneer' narrows that sense to a single point in time."
+    },
+    {
+      "nr": 2,
+      "blok": "Name vertel 'n storie",
+      "voor": "iets van die gebied se geskiedenis",
+      "na": "iets oor die gebied se geskiedenis",
+      "soort": "idioom",
+      "rede_vinder": "'iets oor ... vertel' is the natural Afrikaans preposition with 'vertel' here.",
+      "fout": "none",
+      "rede_keurder": "'iets vertel van' is natural, standard Afrikaans; swapping to 'oor' is a lateral preposition move with no gain."
+    },
+    {
+      "nr": 3,
+      "blok": "'n Dam kry 'n nuwe naam",
+      "voor": "iets van wie ons vandag is",
+      "na": "iets oor wie ons vandag is",
+      "soort": "idioom",
+      "rede_vinder": "'vertel iets oor' reads more naturally than 'vertel iets van'.",
+      "fout": "none",
+      "rede_keurder": "Same lateral 'van' to 'oor' swap as change 2; the original reads well."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 208,
-  "woorde_na": 207,
-  "wanneer": "2026-11-12T23:50:55+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:34ff15caf0b5e9c48a968d39de974d5c",
+  "konsep_hash_voor": "sha256:af6b405042e9cac9da106235d9446e9d",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:76227f62a39f155472e59f5efa48d580"
+  "konsep_hash_na": "sha256:2c946d8f349b19bde2c6127539350811"
 }

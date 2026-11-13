@@ -1,0 +1,40 @@
+{
+  "verdict": "FAIL",
+  "titel": "Die einde van 'n koninkryk",
+  "graad": 5,
+  "vak": "Sosiale Wetenskappe",
+  "budget": 225,
+  "begrotingsreel": "CAPS-hours: 225 planned, ceiling 252 (+12%), under-run warns",
+  "begroting_basis": "kaps-ure",
+  "na_taal": false,
+  "checked_at": "2026-11-12T21:21:42+00:00",
+  "study": {
+    "words": 256,
+    "sentences": 22,
+    "mean_sentence_len": 11.7,
+    "median_sentence_len": 11.0,
+    "longest_sentence": 19,
+    "mean_syllables": 1.64,
+    "pct_polysyllabic": 16.0,
+    "pct_long_words": 2.7,
+    "commas_per_sentence": 0.23
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 5,
+    "kaart": 1,
+    "begrip": 10
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text 256 words, above budget ceiling 252 (planned 225 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters.",
+    "Study text: syllables per word 1.64 above maximum 1.52 — replace long words with plainer equivalents",
+    "Study text: 3+ syllable words 16.0% above maximum 13.0%"
+  ],
+  "warnings": [
+    "Long words in study text with no 'begrip' entry: voortbestaan"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

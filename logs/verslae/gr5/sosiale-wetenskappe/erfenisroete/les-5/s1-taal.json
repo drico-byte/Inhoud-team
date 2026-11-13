@@ -1,0 +1,56 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 221,
+  "woorde_na": 221,
+  "wanneer": "2026-11-13T00:13:28+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Agtien jaar op die eiland",
+      "voor": "Van sy 27 jaar as politieke gevangene",
+      "na": "Van Mandela se 27 jaar as politieke gevangene",
+      "soort": "verwysing",
+      "rede_vinder": "The block opens under a new heading with a bare 'sy', so the referent is named once for a reader who starts here.",
+      "fout": "none",
+      "rede_keurder": "'sy' can only refer to Mandela, who is the subject of the block just before it, and the next block opens with a bare 'hy' too, so naming him here alone is a lateral move."
+    },
+    {
+      "nr": 5,
+      "blok": "Van gevangene tot president",
+      "voor": "van 18 en ouer",
+      "na": "van 18 jaar en ouer",
+      "soort": "woordkeuse",
+      "rede_vinder": "A bare '18' after 'mense van' reads incomplete; 'jaar' makes clear it is an age.",
+      "fout": "none",
+      "rede_keurder": "'mense van 18 en ouer' is ordinary, clear Afrikaans for an age in a voting sentence, so adding 'jaar' only reads differently."
+    },
+    {
+      "nr": 1,
+      "blok": "Agtien jaar op die eiland",
+      "voor": "swaar werk doen soos klip breek",
+      "na": "swaar werk doen, soos klip breek",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before the examples stops 'swaar werk doen soos klip breek' being read as 'work as hard as breaking stone' and marks the examples clearly.",
+      "fout": "none",
+      "rede_keurder": "The AWS 2017 does not require a comma before 'soos' introducing examples, the sentence reads clearly in context, and the lesson already writes 'dinge soos kragmaste' without one, so this is a lateral move that would make the lesson inconsistent."
+    },
+    {
+      "nr": 1,
+      "blok": "Mandela se stryd",
+      "voor": "te beplan om die regering onder druk te plaas",
+      "na": "te beplan wat die regering onder druk moes plaas",
+      "soort": "sinsbou",
+      "rede_vinder": "Two stacked 'om ... te' clauses in one sentence read heavily; a relative clause on 'sabotasie' keeps the purpose and flows better.",
+      "fout": "none",
+      "rede_keurder": "The original purpose clause correctly ties the aim to Mandela's act of planning; the proposal makes the sabotage itself the agent, adds the modal 'moes' (had to / was meant to), and leaves the relative clause separated from 'sabotasie' by 'te beplan', so it is no clearer and shifts the meaning."
+    }
+  ],
+  "konsep_hash_voor": "sha256:328d8355144c7ba0028e51727a264774",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:328d8355144c7ba0028e51727a264774"
+}

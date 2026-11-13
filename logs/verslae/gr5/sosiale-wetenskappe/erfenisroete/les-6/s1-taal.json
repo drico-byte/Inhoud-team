@@ -1,0 +1,63 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die optog na die Uniegebou",
+      "voor": "die rede vir hierdie vroue-protesoptog",
+      "na": "die rede vir hierdie protesoptog",
+      "soort": "woordkeuse",
+      "rede_vinder": "The sentence already says 'vroue' twice; the extra hyphenated 'vroue-' is repetitive and clumsy, and the protected 'protesoptog' stays intact.",
+      "fout": "The sentence already says 'vroue' twice ('paswette vir vroue', and the paragraph's 'duisende vroue'), so 'vroue-protesoptog' is a clumsy third repetition.",
+      "rede_keurder": "Dropping the redundant prefix reads more naturally, loses no information the paragraph does not already carry, and leaves the protected word 'protesoptog' intact in its plain form."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoe die Noord-Kaap haar onthou",
+      "voor": "in die 1960's jare in die tronk gesit",
+      "na": "in die 1960's jare lank in die tronk gesit",
+      "soort": "idioom",
+      "rede_vinder": "'1960's jare' reads as one phrase; 'jare lank' is the natural idiom for duration and removes the stumble.",
+      "fout": "'in die 1960's jare' makes a reader stumble, because '1960's jare' first reads as one phrase.",
+      "rede_keurder": "'jare lank' is the natural Afrikaans idiom for duration and removes the stumble without changing who, what or when."
+    },
+    {
+      "nr": 3,
+      "blok": "Hoe die Noord-Kaap haar onthou",
+      "voor": "is 'n openbare manier om haar te herdenk",
+      "na": "is 'n openbare manier om daardie persoon te herdenk",
+      "soort": "verwysing",
+      "rede_vinder": "The sentence is general ('na iemand'), so 'haar' has no clear antecedent; 'daardie persoon' matches 'iemand' without changing the meaning.",
+      "fout": "The sentence is general ('na iemand te vernoem'), but 'haar' points back to a specific woman, so the pronoun does not match its antecedent.",
+      "rede_keurder": "'daardie persoon' agrees with 'iemand' and keeps the meaning; the paragraph still makes clear the person here is Frances Baard."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 4,
+      "blok": "protesoptog",
+      "voor": "om te wys hulle is teen iets",
+      "na": "om te wys dat hulle teen iets is",
+      "soort": "grammatika",
+      "rede_vinder": "In written standard Afrikaans the object clause after 'wys' takes 'dat' with verb-final order, which is clearer for a learner.",
+      "fout": "none",
+      "rede_keurder": "Leaving out 'dat' with main-clause order after 'wys' is correct Afrikaans, so this is no grammar error, and a glossary definition is not reworded by a language agent for a lateral preference."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "protesoptog",
+      "teks": "'n Groep mense wat saam stap om te wys hulle is teen iets.",
+      "rede": "The definition says a protest march IS a group of people, while a 'protesoptog' is the march (the event) itself; fixing this changes what the definition says, so it is flagged for the reviewer or writer rather than rewritten here."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 194,
+  "woorde_na": 195,
+  "wanneer": "2026-11-12T23:44:49+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:fe150a86bcc5d6b64a58a6308c3c7a9c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5f8d72d5986e5b3c65ec542a511a0887"
+}

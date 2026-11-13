@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Saam is die gemeenskap sterk",
+      "voor": "kon 'n nuweling begin boer en het die gemeenskap sterk gebly",
+      "na": "kon 'n nuweling begin boer, en het die gemeenskap sterk gebly",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017 comma before 'en' joining two clauses that each have their own subject and verb (a nuweling kon begin boer / die gemeenskap het sterk gebly); reviewer should confirm the comma does not seem to detach the second clause from the shared 'Omdat'.",
+      "fout": "Missing AWS 2017 comma before 'en' joining two main clauses that each have their own subject and verb ('n nuweling kon begin boer / het die gemeenskap sterk gebly).",
+      "rede_keurder": "The comma is required by AWS 2017; the inverted 'het die gemeenskap' still ties the second clause to the fronted 'Omdat', so the meaning does not move and no protected wording is touched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 216,
+  "woorde_na": 216,
+  "wanneer": "2026-11-12T22:59:14+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Kalwers vir 'n nuweling",
+      "voor": "kon so 'n nuweling kalwers vir 'n jaar of twee leen",
+      "na": "kon vir 'n jaar of twee kalwers aan so 'n nuweling leen",
+      "soort": "sinsbou",
+      "rede_vinder": "'Leen' can mean lend or borrow; 'aan' makes it unambiguous that the community member lends to the newcomer.",
+      "fout": "none",
+      "rede_keurder": "The original double-object 'iemand iemand iets leen' already means lend, not borrow (community member to newcomer); the reordering places 'n jaar of twee' directly before 'kalwers', which a Grade 5 reader can misread as 'one or two calves'."
+    },
+    {
+      "nr": 4,
+      "blok": "Saam is die gemeenskap sterk",
+      "voor": "goed gaan, nie net",
+      "na": "goed gegaan het, nie net",
+      "soort": "grammatika",
+      "rede_vinder": "Matches the past tense of the main clause and of the next sentence ('gehad het').",
+      "fout": "none",
+      "rede_keurder": "Afrikaans has no sequence-of-tenses rule, so 'het gesorg dat dit goed gaan' is natural and correct; changing the tense is a lateral move."
+    },
+    {
+      "nr": 2,
+      "blok": "Werkspartye",
+      "voor": "Met so baie hande",
+      "na": "Met soveel hande",
+      "soort": "woordkeuse",
+      "rede_vinder": "'soveel' is the more standard written form than 'so baie' in this construction.",
+      "fout": "none",
+      "rede_keurder": "'so baie hande' is natural plain Afrikaans and deliberately echoes the lesson title 'Baie hande maak ligte werk', so 'soveel' is a lateral move that loses the echo."
+    },
+    {
+      "nr": 1,
+      "blok": "Beeste vir 'n nuweling",
+      "voor": "Daardie hulp het die nuweling",
+      "na": "Dié hulp het die nuweling",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Dié' is the more natural written form when pointing back to help just described; 'daardie' reads slightly distant and spoken.",
+      "fout": "none",
+      "rede_keurder": "'Daardie hulp' is natural, plain Afrikaans that a Grade 5 reader follows easily, so swapping it for 'Dié' is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:c3bb2709126033e834d9df894d7ea971",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:aa886a251ffa55052a4e3313c227d1fe"
+}

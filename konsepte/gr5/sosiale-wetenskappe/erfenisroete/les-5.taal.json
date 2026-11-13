@@ -1,38 +1,14 @@
 {
-  "toegepas": [
-    {
-      "nr": 1,
-      "blok": "Wat was apartheid?",
-      "voor": "Wie nie as wit ingedeel is nie, is baie van hul regte ontneem, veral swart mense.",
-      "na": "Mense wat nie as wit ingedeel is nie, veral swart mense, is baie van hul regte ontneem.",
-      "soort": "sinsbou",
-      "rede_vinder": "Singular 'wie' clashes with plural 'hul', and 'veral swart mense' dangles at the end; the qualifier now sits beside the group it narrows, with meaning and 'ingedeel' unchanged.",
-      "fout": "'veral swart mense' dangles at the end of the sentence, away from the group it narrows, and generic 'wie' sits awkwardly with plural 'hul'.",
-      "rede_keurder": "The qualifier now sits beside the group it narrows; same people, same deprivation, 'veral' and the protected 'ingedeel' intact."
-    },
-    {
-      "nr": 2,
-      "blok": "Mandela se stryd",
-      "voor": "Dit is om dinge soos kragmaste stukkend te maak om die regering onder druk te sit.",
-      "na": "Sabotasie beteken om dinge soos kragmaste stukkend te maak om die regering onder druk te plaas.",
-      "soort": "verwysing",
-      "rede_vinder": "'Dit is om' could point back to the planning rather than to sabotage, so the term is named as the subject; 'onder druk plaas' is the standard idiom and matches the glossary's 'druk ... plaas'.",
-      "fout": "'Dit is om' is a vague, stiff link that could point back to the planning rather than to sabotage.",
-      "rede_keurder": "Naming sabotage as the subject makes the inline explanation unambiguous without changing what it says, and 'onder druk plaas' matches the glossary entry."
-    },
-    {
-      "nr": 4,
-      "blok": "Agtien jaar op die eiland",
-      "voor": "harde werk doen",
-      "na": "swaar werk doen",
-      "soort": "idioom",
-      "rede_vinder": "For heavy physical labour such as breaking stone, 'swaar werk' is the natural Afrikaans collocation; 'harde werk' leans towards working diligently.",
-      "fout": "'harde werk' leans towards diligent work; for breaking stone and digging lime the natural collocation is 'swaar werk'.",
-      "rede_keurder": "A more exact collocation for heavy physical labour, with the protected 'kalk grawe' and the examples untouched."
-    }
-  ],
+  "toegepas": [],
   "nie_toegepas": [],
-  "laat_vaar": [
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 221,
+  "woorde_na": 221,
+  "wanneer": "2026-11-13T00:13:28+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 3,
       "blok": "Agtien jaar op die eiland",
@@ -52,34 +28,29 @@
       "rede_vinder": "A bare '18' after 'mense van' reads incomplete; 'jaar' makes clear it is an age.",
       "fout": "none",
       "rede_keurder": "'mense van 18 en ouer' is ordinary, clear Afrikaans for an age in a voting sentence, so adding 'jaar' only reads differently."
-    }
-  ],
-  "na_skrywer": [
+    },
     {
-      "nr": 6,
-      "blok": "versoening",
-      "voor": "teen mekaar was",
-      "na": "teen mekaar gestaan het",
-      "soort": "idioom",
-      "rede_vinder": "'Teen mekaar was' is loose and colloquial; 'teen mekaar gestaan het' is the idiomatic way to say people were opposed.",
-      "fout": "'teen mekaar was' in the glossary definition is loose; 'teen mekaar gestaan het' is the idiomatic way to say people were opposed.",
-      "rede_keurder": "The point is fair, but this is a [begrip] definition that may be shared across lessons, so only the writer may reword it.",
-      "waarom": "the reviewer sent it to the writer"
-    }
-  ],
-  "vlae": [
+      "nr": 1,
+      "blok": "Agtien jaar op die eiland",
+      "voor": "swaar werk doen soos klip breek",
+      "na": "swaar werk doen, soos klip breek",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before the examples stops 'swaar werk doen soos klip breek' being read as 'work as hard as breaking stone' and marks the examples clearly.",
+      "fout": "none",
+      "rede_keurder": "The AWS 2017 does not require a comma before 'soos' introducing examples, the sentence reads clearly in context, and the lesson already writes 'dinge soos kragmaste' without one, so this is a lateral move that would make the lesson inconsistent."
+    },
     {
-      "blok": "Van gevangene tot president",
-      "teks": "vir die eerste keer saam stem",
-      "rede": "Correctly written as two words (vote together), but a Grade 5 reader may read it as 'saamstem' (agree); not changed because any rewording risks altering the meaning, so the reviewer may want to consider it."
+      "nr": 1,
+      "blok": "Mandela se stryd",
+      "voor": "te beplan om die regering onder druk te plaas",
+      "na": "te beplan wat die regering onder druk moes plaas",
+      "soort": "sinsbou",
+      "rede_vinder": "Two stacked 'om ... te' clauses in one sentence read heavily; a relative clause on 'sabotasie' keeps the purpose and flows better.",
+      "fout": "none",
+      "rede_keurder": "The original purpose clause correctly ties the aim to Mandela's act of planning; the proposal makes the sabotage itself the agent, adds the modal 'moes' (had to / was meant to), and leaves the relative clause separated from 'sabotasie' by 'te beplan', so it is no clearer and shifts the meaning."
     }
   ],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 218,
-  "woorde_na": 219,
-  "wanneer": "2026-11-12T23:50:52+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:f9f4b058aa2a6202f621ad3047c591d9",
-  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:3d0b12f29ed32df82fff1ca5e969a479"
+  "konsep_hash_voor": "sha256:328d8355144c7ba0028e51727a264774",
+  "prompts": "taalvinder-v1.1 + -",
+  "konsep_hash_na": "sha256:328d8355144c7ba0028e51727a264774"
 }

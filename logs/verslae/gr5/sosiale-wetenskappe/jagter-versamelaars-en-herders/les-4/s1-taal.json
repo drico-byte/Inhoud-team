@@ -1,0 +1,77 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die vleis word met almal gedeel",
+      "voor": "ook op dae wat 'n jagter niks kry nie",
+      "na": "ook op dae waarop 'n jagter niks gekry het nie",
+      "soort": "grammatika",
+      "rede_vinder": "A time reference takes 'waarop', not 'wat', and the verb should match the past tense of the main clause.",
+      "fout": "'dae wat' where a time reference needs 'waarop', and a present-tense 'kry' inside a past-tense sentence",
+      "rede_keurder": "Standard relative for a time reference and consistent past tense, with the same people, action and meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Geen koning of hoofman nie",
+      "voor": "Belangrike besluite het die groep saam bespreek, soos waarheen hulle volgende moet trek",
+      "na": "Die groep het belangrike besluite saam bespreek, soos waarheen hulle volgende moes trek",
+      "soort": "woordorde",
+      "rede_vinder": "Putting the subject first reads more naturally, and 'moes' keeps the clause in the past tense of the rest of the block.",
+      "fout": "object-first order makes it unclear at first reading which noun is the subject; 'moet' sits oddly in a past-tense block",
+      "rede_keurder": "Subject-first order removes the stumble for a Grade 5 reader and 'moes' matches the past tense, with nothing added or lost."
+    },
+    {
+      "nr": 4,
+      "blok": "Kragte in die natuur",
+      "voor": "'n Reuse bok",
+      "na": "'n Reusagtige bok",
+      "soort": "spelling",
+      "rede_vinder": "'Reuse' is a prefix written together with its noun, so as a separate adjective it must be 'reusagtige'.",
+      "fout": "'reuse' written as a separate word before a noun is a spelling error",
+      "rede_keurder": "'Reusagtige' is the correct separate adjective with the same meaning and touches no protected word."
+    },
+    {
+      "nr": 5,
+      "blok": "Die genesingsdans",
+      "voor": "in 'n trance gegaan",
+      "na": "in 'n trance geraak",
+      "soort": "anglisisme",
+      "rede_vinder": "'In 'n trance gaan' copies English 'go into a trance'; Afrikaans says 'in 'n trance raak'.",
+      "fout": "'in 'n trance gaan' copies English 'go into a trance'",
+      "rede_keurder": "'In 'n trance raak' is the natural Afrikaans expression, and the protected word 'trance' stays unchanged."
+    },
+    {
+      "nr": 6,
+      "blok": "Die genesingsdans",
+      "voor": "wat neergeskryf is, en uit rotskuns",
+      "na": "wat neergeskryf is en uit rotskuns",
+      "soort": "leestekens",
+      "rede_vinder": "Under AWS 2017 there is no comma before 'en' joining two parts of one sentence.",
+      "fout": "comma before 'en' joining two prepositional phrases of one sentence, against AWS 2017",
+      "rede_keurder": "The 'en' joins 'uit San-stories' and 'uit rotskuns', not two clauses, so the comma goes."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die vleis word met almal gedeel",
+      "voor": "Vir die San was alles bedoel om gelykop binne die groep verdeel te word",
+      "na": "By die San was die bedoeling dat alles gelykop in die groep verdeel word",
+      "soort": "sinsbou",
+      "rede_vinder": "The passive infinitive construction is wooden; a dat-clause says the same thing more naturally.",
+      "fout": "none",
+      "rede_keurder": "'Vir die San' (in the San's view) becomes 'By die San' (among the San), a preposition change that shifts the framing. The original is a little stiff but grammatical."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 421,
+  "woorde_na": 422,
+  "wanneer": "2026-11-12T21:27:22+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ea75a653c5d6e9a13adf4b8e2fdc5dc9",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c2f9f61102ebd8606ce6dca5a98caee8"
+}

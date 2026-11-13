@@ -1,0 +1,38 @@
+{
+  "verdict": "PASS",
+  "titel": "'n Graf wat die rowers gemis het",
+  "graad": 5,
+  "vak": "Sosiale Wetenskappe",
+  "budget": 200,
+  "begrotingsreel": "CAPS-hours: 200 planned, ceiling 224 (+12%), under-run warns",
+  "begroting_basis": "kaps-ure",
+  "na_taal": true,
+  "checked_at": "2026-11-12T23:21:53+00:00",
+  "study": {
+    "words": 217,
+    "sentences": 18,
+    "mean_sentence_len": 12.3,
+    "median_sentence_len": 12.5,
+    "longest_sentence": 18,
+    "mean_syllables": 1.56,
+    "pct_polysyllabic": 11.5,
+    "pct_long_words": 1.4,
+    "commas_per_sentence": 0.39
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 4,
+    "kaart": 1,
+    "begrip": 6
+  },
+  "misspelled": [],
+  "failures": [],
+  "warnings": [
+    "Study text: syllables per word 1.56 above maximum 1.52 — replace long words with plainer equivalents  [marginal — within tolerance, not blocking]",
+    "Study text: 0.39 commas per sentence above maximum 0.35 -- not blocking: this text carries language-step edits, and the AWS comma before en/maar/want/of between two sentences is required, not subordination",
+    "Long words in study text with no 'begrip' entry: waarskynlik"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

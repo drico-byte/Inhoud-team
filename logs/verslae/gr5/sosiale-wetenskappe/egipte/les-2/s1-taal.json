@@ -1,0 +1,69 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Kanale en komme",
+      "voor": "walle van grond om stukke land gebou",
+      "na": "walle van grond rondom stukke land gebou",
+      "soort": "woordkeuse",
+      "rede_vinder": "'om' can be misread as 'in order to'; 'rondom' is unambiguous and matches the next sentence.",
+      "fout": "'walle van grond om stukke land' briefly reads as the start of an 'om ... te' clause, so a reader stumbles.",
+      "rede_keurder": "'rondom' means the same thing, removes the stumble and matches 'met walle rondom' in the next sentence."
+    },
+    {
+      "nr": 3,
+      "blok": "Die sjadoef lig water op",
+      "voor": "Die boer trek die houer af in die water, en die gewig help om dit vol op te lig.",
+      "na": "Die boer trek die houer tot in die water af, en die gewig help om die vol houer op te lig.",
+      "soort": "woordorde",
+      "rede_vinder": "The separable verb 'aftrek' needs its particle at the end, and 'dit vol' is unclear where 'die vol houer' is plain.",
+      "fout": "'trek die houer af in die water' is wooden word order, and 'dit vol op te lig' is unclear about what is lifted.",
+      "rede_keurder": "'tot in die water af' is the natural Afrikaans form and 'die vol houer' says plainly what is lifted; same action and order, protected words intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Kanale en komme",
+      "voor": "landerye verder van die rivier te lei",
+      "na": "landerye verder van die rivier af te lei",
+      "soort": "idioom",
+      "rede_vinder": "Afrikaans says 'ver van die rivier af' for distance away from something.",
+      "fout": "none",
+      "rede_keurder": "'verder van die rivier' is already natural, and 'af te lei' next to 'lei' invites a misreading as 'aflei' (divert or derive)."
+    },
+    {
+      "nr": 4,
+      "blok": "Die sjadoef lig water op",
+      "voor": "oor na die kanaal of land.",
+      "na": "oor na die kanaal of die land.",
+      "soort": "grammatika",
+      "rede_vinder": "Both nouns need the article; without it 'land' reads as the country rather than the field.",
+      "fout": "none",
+      "rede_keurder": "The shared article already covers both nouns, and repeating 'die' does not make 'land' any less ambiguous; a lateral move."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 5,
+      "blok": "besproeiing",
+      "voor": "Om gewasse met water nat te lei wanneer daar te min reën val.",
+      "na": "Om water na gewasse te lei wanneer daar te min reën val.",
+      "soort": "idioom",
+      "rede_vinder": "'nat te lei' is not idiomatic Afrikaans; one leads water to crops, matching the study text's 'water na hulle landerye lei'.",
+      "fout": "'gewasse met water nat te lei' is not idiomatic Afrikaans; water is led to crops, not crops led wet.",
+      "rede_keurder": "A real fault, but it rewords a shared glossary definition, which only the writer may change across lessons.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 222,
+  "woorde_na": 224,
+  "wanneer": "2026-11-12T22:11:52+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:459acf472caafe8f8efbaa85fd22ed13",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5d4d2faebfab2325fdb767554e448f38"
+}

@@ -1,0 +1,64 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Beeste vir 'n nuweling",
+      "voor": "soms van die kalwers hou",
+      "na": "soms van die kalwers vir hulself hou",
+      "soort": "sinsbou",
+      "rede_vinder": "'van die kalwers hou' can be misread as the separable verb 'hou van' (to like the calves); 'vir hulself' makes 'keep some of the calves' unambiguous without changing the meaning.",
+      "fout": "'kon soms van die kalwers hou' reads first as the separable verb 'hou van' (could like the calves), so a Grade 5 reader stumbles.",
+      "rede_keurder": "'vir hulself hou' makes it plainly 'keep some of the calves' with the same people, qualifier 'soms' and meaning, and adds no fact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Werkspartye",
+      "voor": "Met so baie hande",
+      "na": "Met soveel hande",
+      "soort": "woordkeuse",
+      "rede_vinder": "'soveel' is the more standard written form than 'so baie' in this construction.",
+      "fout": "none",
+      "rede_keurder": "'so baie hande' is natural plain Afrikaans and deliberately echoes the lesson title 'Baie hande maak ligte werk', so 'soveel' is a lateral move that loses the echo."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Werk te groot vir een gesin",
+      "teks": "Die grond van 'n hele land moes met skoffels van yster losgekap word",
+      "rede": "'n hele land' can be read by a Grade 5 learner as 'a whole country' rather than 'a whole field'; the later 'op die lande' suggests a field is meant, but a clearer word would need the writer to choose what size of field is intended, so this is flagged rather than changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 214,
+  "woorde_na": 216,
+  "wanneer": "2026-11-12T22:45:13+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Kalwers vir 'n nuweling",
+      "voor": "kon so 'n nuweling kalwers vir 'n jaar of twee leen",
+      "na": "kon vir 'n jaar of twee kalwers aan so 'n nuweling leen",
+      "soort": "sinsbou",
+      "rede_vinder": "'Leen' can mean lend or borrow; 'aan' makes it unambiguous that the community member lends to the newcomer.",
+      "fout": "none",
+      "rede_keurder": "The original double-object 'iemand iemand iets leen' already means lend, not borrow (community member to newcomer); the reordering places 'n jaar of twee' directly before 'kalwers', which a Grade 5 reader can misread as 'one or two calves'."
+    },
+    {
+      "nr": 4,
+      "blok": "Saam is die gemeenskap sterk",
+      "voor": "goed gaan, nie net",
+      "na": "goed gegaan het, nie net",
+      "soort": "grammatika",
+      "rede_vinder": "Matches the past tense of the main clause and of the next sentence ('gehad het').",
+      "fout": "none",
+      "rede_keurder": "Afrikaans has no sequence-of-tenses rule, so 'het gesorg dat dit goed gaan' is natural and correct; changing the tense is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:07b3a204bb14a8bce7c0bee07628f90c",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:d8ea4a4d15826784c9096a2313b2c2dc"
+}

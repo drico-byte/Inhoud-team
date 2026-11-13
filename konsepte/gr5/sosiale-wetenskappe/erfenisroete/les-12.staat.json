@@ -1,7 +1,7 @@
 {
   "les": "gr5/sosiale-wetenskappe/erfenisroete/les-12",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:5d13d8e890b5261f9ccc8e167bb1f051",
+  "konsep_hash": "sha256:40d9ab3bfa63c2f25939ea119e2dbcde",
   "hek": "PASS",
   "teruggestuur_vir": [],
   "eskalasie": null,
@@ -21,6 +21,106 @@
       "woorde": 196,
       "begroting": 200,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:57:24+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 2,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 196,
+      "woorde_na": 198,
+      "konsep_hash": "sha256:7c0c08781d59a2774ffee4a6e29fe3ec"
+    },
+    {
+      "wanneer": "2026-11-12T23:57:25+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 198,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-12T23:57:26+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Gedigte wat iemand, soos 'n leier, se dade en eienskappe prys.': The inserted 'soos 'n leier' splits the possessive 'iemand ... se', which is clumsy to read.",
+        "fix: [taal] in 'oor baie jare aan': 'oor baie jare' can be read as 'in many years from now' (as in 'oor twee jaar'), so the time span is ambiguous.",
+        "check (the language finder raised this; it may not be a fault): 'Erfenis wat jy nie kan vashou nie': The block heading says 'vashou' while the decided definition of nie-tasbare erfenis deliberately uses 'aanraak' (chosen over 'vashou' to mirror tasbare erfenis); a learner sees two verbs for one idea. Whether the heading should follow the definition is a writer's choice, so it is flagged, not changed."
+      ]
+    },
+    {
+      "wanneer": "2026-11-12T23:58:48+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:0230ca9d788fc7ba154f7e61270a40d1",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-12T23:58:49+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 198,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:00:04+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 198,
+      "woorde_na": 204,
+      "konsep_hash": "sha256:40d9ab3bfa63c2f25939ea119e2dbcde"
+    },
+    {
+      "wanneer": "2026-11-13T00:00:05+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 204,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:04:50+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:04:50+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 19,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:04:55+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:04:55+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 19,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:04:56+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\erfenisroete\\les-12.json",
+      "konsep_hash": "sha256:40d9ab3bfa63c2f25939ea119e2dbcde",
+      "vervang": false
     }
   ],
   "taal_vir_skrywer": [],
@@ -29,5 +129,12 @@
     "graad": 5,
     "begroting": 200
   },
-  "taal_rondte_vir": "sha256:5d13d8e890b5261f9ccc8e167bb1f051"
+  "taal_rondte_vir": "sha256:40d9ab3bfa63c2f25939ea119e2dbcde",
+  "taal_keurder_vir": "cab42b086e1efd1b638845bbba0324df",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:40d9ab3bfa63c2f25939ea119e2dbcde",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:7c0c08781d59a2774ffee4a6e29fe3ec",
+  "taal_bons_siklus": 1,
+  "taal_bons_nota": "70b21ca256492ffe7bd832fadb6bccc5"
 }

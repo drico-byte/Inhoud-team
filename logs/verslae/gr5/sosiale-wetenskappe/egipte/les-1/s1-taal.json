@@ -1,0 +1,77 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Egipte en die Nyl",
+      "voor": "Die meeste van die land is",
+      "na": "Die grootste deel van die land is",
+      "soort": "anglisisme",
+      "rede_vinder": "'Die meeste van die land' follows English 'most of the country'; 'die grootste deel' is the idiomatic Afrikaans for a portion of one area.",
+      "fout": "'Die meeste van die land' copies English 'most of the country' for a portion of one area.",
+      "rede_keurder": "'Die grootste deel van die land' is the idiomatic Afrikaans and keeps the same quantity, so the meaning is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Lewe langs die rivier",
+      "voor": "Daar het nedersettings gegroei:",
+      "na": "In hierdie strook het nedersettings gegroei:",
+      "soort": "verwysing",
+      "rede_vinder": "'Daar' follows a sentence about the desert, so it can be read as pointing to the desert instead of the strip along the river.",
+      "fout": "'Daar' follows a sentence about the desert, so a reader can take it to mean the settlements grew in the desert.",
+      "rede_keurder": "'In hierdie strook' points unambiguously back to the strip along the Nile, which is what the original meant."
+    },
+    {
+      "nr": 4,
+      "blok": "Lewe langs die rivier",
+      "voor": "Daardie bote het handel",
+      "na": "Die bote het handel",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Daardie' is stiff and distancing for boats just mentioned; the plain article reads more naturally.",
+      "fout": "'Daardie' is stiff and distancing for boats named in the sentence just before.",
+      "rede_keurder": "The plain article reads naturally and refers to the same boats, so nothing moves."
+    },
+    {
+      "nr": 5,
+      "blok": "Van boere tot 'n beskawing",
+      "voor": "'n groot en georganiseerde samelewing met landbou en handel en ook 'n regering en godsdiens",
+      "na": "'n groot, georganiseerde samelewing met landbou, handel, 'n regering en godsdiens",
+      "soort": "sinsbou",
+      "rede_vinder": "The chain of 'en ... en ook ... en' is clumsy; a plain list reads better and matches the glossary definition of beskawing word for word.",
+      "fout": "The chain 'groot en georganiseerde ... landbou en handel en ook 'n regering en godsdiens' is clumsy.",
+      "rede_keurder": "A plain list with the same four items reads better, loses nothing, and matches the shared glossary definition of beskawing."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die Nyl het elke jaar oorstroom",
+      "voor": "Die Aswan-hoogdam beheer sedert 1970 die rivier.",
+      "na": "Sedert 1970 beheer die Aswan-hoogdam die rivier.",
+      "soort": "woordorde",
+      "rede_vinder": "Putting the time phrase first reads more naturally and links better to the next sentence starting with 'Vandag'.",
+      "fout": "none",
+      "rede_keurder": "The original word order is natural Afrikaans; moving the time phrase first is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "oorstroom",
+      "voor": "en die land rondom bedek",
+      "na": "en die land rondom die rivier bedek",
+      "soort": "sinsbou",
+      "rede_vinder": "'Rondom' left without an object reads as incomplete; naming the river makes the definition clear when read on its own.",
+      "fout": "none",
+      "rede_keurder": "This is a glossary definition and 'die land rondom' is acceptable Afrikaans that is clear on its own, so there is no error a language agent may fix."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 204,
+  "woorde_na": 203,
+  "wanneer": "2026-11-12T22:11:29+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:77ba1acaa60d1c099ed448919be79e21",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:ba481052f5aef4ee12be4ef601209356"
+}

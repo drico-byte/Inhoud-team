@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Skrif van prente en simbole",
+      "voor": "vir die klank m",
+      "na": "vir die m-klank",
+      "soort": "woordkeuse",
+      "rede_vinder": "A bare letter 'm' before the full stop reads awkwardly; 'die m-klank' is the natural Afrikaans form and keeps the meaning.",
+      "fout": "A bare letter 'm' at the end of the sentence reads awkwardly ('vir die klank m.').",
+      "rede_keurder": "'die m-klank' is the natural Afrikaans compound, and the meaning and the protected words are unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Die tyd in die dag",
+      "voor": "Hulle het sonwysers gebruik",
+      "na": "Die Egiptenare het sonwysers gebruik",
+      "soort": "verwysing",
+      "rede_vinder": "The block opens with 'Hulle', whose referent sits in the previous block; naming the Egyptians makes the block clear when read on its own.",
+      "fout": "The block opens with 'Hulle', whose referent is only in an earlier block, and the nearest plural noun before it is 'seisoene'.",
+      "rede_keurder": "Naming the Egyptians makes the block clear on its own and adds no new fact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 274,
+  "woorde_na": 275,
+  "wanneer": "2026-11-12T22:57:16+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Op mure en op papirus",
+      "voor": "Papirus is gemaak van 'n plant wat soos riet langs die Nyl groei",
+      "na": "Papirus is van 'n plant gemaak wat soos riet langs die Nyl groei",
+      "soort": "woordorde",
+      "rede_vinder": "The past participle belongs before the relative clause in standard Afrikaans word order; the protected wording stays intact.",
+      "fout": "none",
+      "rede_keurder": "The original order is natural Afrikaans, and moving 'gemaak' splits the protected wording ''n plant wat soos riet', so the protected string no longer stands intact."
+    },
+    {
+      "nr": 6,
+      "blok": "Die sterre en die kalender",
+      "voor": "Die Egiptenare het in hul sterrekunde die son, maan en sterre fyn dopgehou.",
+      "na": "Die Egiptenare het die son, maan en sterre fyn dopgehou en so aan sterrekunde gedoen.",
+      "soort": "idioom",
+      "rede_vinder": "'In hul sterrekunde ... dopgehou' is wooden; 'aan sterrekunde doen' is the natural idiom and keeps the term and protected wording.",
+      "fout": "none",
+      "rede_keurder": "The proposal is longer and recasts astronomy as a consequence of watching the sky ('en so'), which shifts the relation rather than only smoothing it."
+    },
+    {
+      "nr": 8,
+      "blok": "Die tyd in die dag",
+      "voor": "om die tyd in die dag te meet",
+      "na": "om die tyd van die dag te meet",
+      "soort": "idioom",
+      "rede_vinder": "The idiomatic phrase is 'die tyd van die dag'.",
+      "fout": "none",
+      "rede_keurder": "The preposition swap changes meaning: 'in die dag' also carries 'during daytime' (true of sundials) and matches the block heading, while 'van die dag' keeps only 'time of day'."
+    }
+  ],
+  "konsep_hash_voor": "sha256:61ee53e83a30dcc1d0e0b3642414a9a0",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:c0e4bb7d13b46b99a36766724c360b0c"
+}

@@ -1,0 +1,68 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Hoe 'n kleipot gemaak is",
+      "voor": "'n Pot wat net gedroog het",
+      "na": "'n Pot wat slegs gedroog het",
+      "soort": "woordkeuse",
+      "rede_vinder": "'net gedroog' can be read as 'has just dried'; 'slegs' makes clear it means a pot that was dried but not baked.",
+      "fout": "'net gedroog het' can be read as 'has just dried' rather than 'was only dried, not baked'.",
+      "rede_keurder": "'slegs' removes the ambiguity and keeps the intended contrast with the baked pot, without moving the meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Potte vir elke dag",
+      "voor": "Hulle is van die algemeenste dinge",
+      "na": "Sulke skerwe is van die algemeenste dinge",
+      "soort": "verwysing",
+      "rede_vinder": "'Hulle' directly follows 'kleipotte' and can be read as the whole pots; naming the shards makes the reference clear.",
+      "fout": "'Hulle' follows 'kleipotte' directly and can point to the whole pots or to the shards.",
+      "rede_keurder": "Naming the shards fixes an ambiguous pronoun; the claim stays the same."
+    },
+    {
+      "nr": 4,
+      "blok": "Die Lydenburg-hoofde",
+      "voor": "koppe gevind wat die eerste boere van klei gemaak en gebak het",
+      "na": "koppe gevind wat deur die eerste boere van klei gemaak en gebak is",
+      "soort": "sinsbou",
+      "rede_vinder": "In the active relative clause 'wat' can grammatically be read as the subject (the heads made the farmers); the passive with 'deur' removes the ambiguity.",
+      "fout": "In the active relative clause 'wat' can be read as the subject, so the heads seem to make the farmers.",
+      "rede_keurder": "The passive with 'deur' removes the grammatical ambiguity with the same people, actions and order."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Hoe 'n kleipot gemaak is",
+      "voor": "Hulle het die sagte klei met patrone",
+      "na": "Terwyl die klei nog sag was, het hulle die pot met patrone",
+      "soort": "sinsbou",
+      "rede_vinder": "One decorates the pot, not 'the soft clay'; this also breaks the run of two sentences opening with 'Hulle het' while keeping that the decorating happened before drying.",
+      "fout": "none",
+      "rede_keurder": "Decorating the soft clay with patterns is natural Afrikaans and already places it before drying; the proposal is a longer lateral rewrite."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 200,
+  "woorde_na": 202,
+  "wanneer": "2026-11-12T21:51:25+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Hoe 'n kleipot gemaak is",
+      "voor": "word weer pap in water",
+      "na": "word in water weer pap",
+      "soort": "woordorde",
+      "rede_vinder": "In natural Afrikaans the place phrase comes before the predicate adjective.",
+      "fout": "none",
+      "rede_keurder": "'word weer pap in water' is natural Afrikaans with the place phrase moved to the end, so the proposal only changes the word order."
+    }
+  ],
+  "konsep_hash_voor": "sha256:01b2fff5bab5294d73ebd3c3eedd248f",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:728aa75512d8e287d0524e68caf293ea"
+}

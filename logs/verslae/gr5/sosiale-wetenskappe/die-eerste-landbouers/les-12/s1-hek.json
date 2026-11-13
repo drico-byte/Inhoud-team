@@ -1,0 +1,43 @@
+{
+  "verdict": "FAIL",
+  "titel": "Van opperhoofskap tot koninkryk",
+  "graad": 5,
+  "vak": "Sosiale Wetenskappe",
+  "budget": 225,
+  "begrotingsreel": "CAPS-hours: 225 planned, ceiling 252 (+12%), under-run warns",
+  "begroting_basis": "kaps-ure",
+  "na_taal": false,
+  "checked_at": "2026-11-12T21:20:32+00:00",
+  "study": {
+    "words": 256,
+    "sentences": 24,
+    "mean_sentence_len": 10.6,
+    "median_sentence_len": 10.5,
+    "longest_sentence": 16,
+    "mean_syllables": 1.72,
+    "pct_polysyllabic": 16.4,
+    "pct_long_words": 5.9,
+    "commas_per_sentence": 0.62
+  },
+  "eli10": null,
+  "block_counts": {
+    "studie": 6,
+    "kaart": 1,
+    "begrip": 9
+  },
+  "misspelled": [],
+  "failures": [
+    "Study text 256 words, above budget ceiling 252 (planned 225 + 12%) — the planner judged this lesson's share of its cluster, so cut it back rather than borrowing words. Words may never move between CAPS clusters.",
+    "Study text: syllables per word 1.72 above maximum 1.52 — replace long words with plainer equivalents",
+    "Study text: 3+ syllable words 16.4% above maximum 13.0%",
+    "Study text: 0.62 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+  ],
+  "warnings": [
+    "Study text: mean sentence length 10.6 below band minimum 11.0 — sentences are choppier than the grade expects  [marginal — within tolerance, not blocking]",
+    "Study text: 5.9% of words exceed 10 characters (guide 3.0%)",
+    "Long words in study text with no 'begrip' entry: agternagesit, gemeenskappe, huishouding, nedersettings, oorspronklik, opperhoofskappe, ouderdomsregimente, teruggetrek"
+  ],
+  "notes": [
+    "Afrikaans dictionary not installed — spelling not checked"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "geestelike kragte",
+      "voor": "nie kan sien nie, en waarin",
+      "na": "nie kan sien nie en waarin",
+      "soort": "leestekens",
+      "rede_vinder": "Under AWS 2017 there is no comma before 'en' joining two relative clauses inside one sentence.",
+      "fout": "A comma before 'en' joining two relative clauses inside one noun phrase, against the AWS rule of no comma between parts of one sentence.",
+      "rede_keurder": "Punctuation-only fix to an unshared definition; wording and meaning unchanged and the protected term untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Geen koning of hoofman nie",
+      "voor": "wat vir almal besluit nie",
+      "na": "wat vir almal besluit het nie",
+      "soort": "grammatika",
+      "rede_vinder": "The relative clause should stay in the past tense, like the main clause and the rest of the block.",
+      "fout": "none",
+      "rede_keurder": "The present-tense relative clause describes the kind of ruler, matching the generic 'Waar 'n koning regeer' just before it; the past form is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 422,
+  "woorde_na": 422,
+  "wanneer": "2026-11-12T21:48:25+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Die vleis word met almal gedeel",
+      "voor": "Vir die San was alles bedoel om gelykop binne die groep verdeel te word",
+      "na": "By die San was die bedoeling dat alles gelykop in die groep verdeel word",
+      "soort": "sinsbou",
+      "rede_vinder": "The passive infinitive construction is wooden; a dat-clause says the same thing more naturally.",
+      "fout": "none",
+      "rede_keurder": "'Vir die San' (in the San's view) becomes 'By die San' (among the San), a preposition change that shifts the framing. The original is a little stiff but grammatical."
+    }
+  ],
+  "konsep_hash_voor": "sha256:77f251a382f7eef072242b521877c22d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:8d9c3f6ee09ca7ae72e0434b21ef28c5"
+}
