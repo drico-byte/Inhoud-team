@@ -1,11 +1,9 @@
 {
   "les": "gr5/sosiale-wetenskappe/jagter-versamelaars-en-herders/les-3",
   "skema_weergawe": "1.0",
-  "konsep_hash": "sha256:4228eee2b144d5c469e7abd7681c1589",
+  "konsep_hash": "sha256:9f2c21d1bb4766f86f2711e31ed0ffda",
   "hek": "PASS",
-  "teruggestuur_vir": [
-    "sha256:88696cec2ec2503279dfd3bcefc00228"
-  ],
+  "teruggestuur_vir": [],
   "eskalasie": null,
   "blok_faalrondtes": {},
   "eli10_voorkyk": null,
@@ -213,22 +211,306 @@
       "woorde": 668,
       "begroting": 600,
       "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:06:03+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:06:03+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 51,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:06:03+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "medisyne uit die veld"
+      ],
+      "tally": {
+        "medisyne uit die veld": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-13T00:06:04+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-11-13T00:06:21+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 1,
+      "vorige_blok_faalrondtes": {
+        "medisyne uit die veld": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-13T00:06:21+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:06:22+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 51,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:06:22+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "medisyne uit die veld"
+      ],
+      "tally": {
+        "medisyne uit die veld": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-13T00:06:23+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-11-13T00:07:51+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {
+        "medisyne uit die veld": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-13T00:07:51+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:8d5b264331c5651776b90e7d56dfa94d",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-13T00:07:52+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 667,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:10:16+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 2,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 667,
+      "woorde_na": 667
+    },
+    {
+      "wanneer": "2026-11-13T00:10:16+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Taai, sterk stringe in 'n dier se lyf wat spiere aan bene vasheg.': The relative 'wat' follows 'lyf' and can be read as the body attaching muscles to bones."
+      ]
+    },
+    {
+      "wanneer": "2026-11-13T00:11:20+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:658a368ee185a8884d5dfb1412bca037",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-13T00:11:21+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 667,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:12:58+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 667,
+      "woorde_na": 667,
+      "konsep_hash": "sha256:37c96904ca16c7ea8ee4635be68650bf"
+    },
+    {
+      "wanneer": "2026-11-13T00:13:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 667,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:21:48+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 13,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:21:48+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "MENS_NODIG",
+      "sound": true,
+      "items": 44,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:21:49+00:00",
+      "gebeurtenis": "blok_faalrondtes",
+      "blokke": [
+        "plantkos versamel"
+      ],
+      "tally": {
+        "plantkos versamel": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-13T00:21:49+00:00",
+      "gebeurtenis": "eskalasie",
+      "soort": "mens_nodig",
+      "nasieners": [
+        "feite"
+      ]
+    },
+    {
+      "wanneer": "2026-11-13T00:22:55+00:00",
+      "gebeurtenis": "hervat_deur_mens",
+      "vorige_revisies": 0,
+      "vorige_blok_faalrondtes": {
+        "plantkos versamel": 1
+      }
+    },
+    {
+      "wanneer": "2026-11-13T00:24:25+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:2cd250c724bbc04eb3486d29b7dad9f2",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-13T00:24:27+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 669,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:25:35+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 669,
+      "woorde_na": 669
+    },
+    {
+      "wanneer": "2026-11-13T00:33:58+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:a67ea927a4e49ef9587b9260d685bfc1",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-13T00:33:59+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 679,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:35:51+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 679,
+      "woorde_na": 679,
+      "konsep_hash": "sha256:9f2c21d1bb4766f86f2711e31ed0ffda"
+    },
+    {
+      "wanneer": "2026-11-13T00:35:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 679,
+      "begroting": 600,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:42:49+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:42:49+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 47,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:42:53+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 12,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:42:53+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 47,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-13T00:42:54+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\jagter-versamelaars-en-herders\\les-3.json",
+      "konsep_hash": "sha256:9f2c21d1bb4766f86f2711e31ed0ffda",
+      "vervang": false
     }
   ],
-  "taal_vir_skrywer": [
-    "fix: [taal] in 'Wanneer iets sy werk goed doen sonder om moeite te mors.': The adjective 'doeltreffend' is defined with 'Wanneer', describing a situation rather than a quality of a thing."
-  ],
-  "spek_hash": "sha256:309aae3b7569d9c4d3780caa169d6e96",
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:b990714d558d6c2ab0f2daa351e81cde",
   "hek_konteks": {
     "graad": 5,
     "begroting": 600
   },
-  "taal_rondte_vir": "sha256:4228eee2b144d5c469e7abd7681c1589",
-  "taal_keurder_vir": "cda2e5a28ebf598b8be101e21eb8f73f",
+  "taal_rondte_vir": "sha256:9f2c21d1bb4766f86f2711e31ed0ffda",
+  "taal_keurder_vir": "75891583d9393a5fc854e99a050d1614",
   "taal_ooit_toegepas": true,
-  "taal_klaar_vir": "sha256:4228eee2b144d5c469e7abd7681c1589",
+  "taal_klaar_vir": "sha256:9f2c21d1bb4766f86f2711e31ed0ffda",
   "taal_vir_mens": [],
-  "taal_bons_vir": "sha256:038d61869eab0b1f6d5fc559bf51746a",
-  "taal_bons_siklus": 2,
-  "taal_bons_nota": "2f07d0a9abe53c95d5edd05e8a128c92"
+  "taal_bons_vir": null,
+  "taal_bons_siklus": null,
+  "taal_bons_nota": "24b46a17531331daa81b6ce3ce38f109"
 }

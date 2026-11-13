@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-381 lesse.
+383 lesse.
 
 
 ## Graad 4/Geografie
@@ -154,9 +154,11 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 - **G5_GES_01 - Die Steentydperk** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
 - **G5_GES_02 - Hoe weet ons** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
+- **G5_GES_03 - Lewe van die veld** (goedgekeur 2026-11-13): 1 taalverandering(s) toegepas
 - **G5_GES_04 - Saam deel en saam glo** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
 - **G5_GES_05 - Rotskuns** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
 - **G5_GES_06 - Die Khoikhoi** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_08 - Die eerste boere** (goedgekeur 2026-11-13): 1 taalverandering(s) toegepas
 - **G5_GES_09 - Opstalle en boerdery** (goedgekeur 2026-11-12): taalstap: niks verander nie
 - **G5_GES_10 - Die opperhoof** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
 - **G5_GES_11 - Elkeen se rol** (goedgekeur 2026-11-12): 5 taalverandering(s) toegepas

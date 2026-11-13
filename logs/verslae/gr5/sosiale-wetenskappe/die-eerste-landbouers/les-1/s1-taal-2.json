@@ -1,0 +1,87 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Nuwe bure uit die noorde",
+      "voor": "die oorblyfsels van hulle dorpies is",
+      "na": "die oorblyfsels van dié mense se dorpies is",
+      "soort": "verwysing",
+      "rede_vinder": "The nearest plural noun before 'hulle' is 'argeoloë', so the pronoun can be read as the archaeologists' villages; naming the newcomers removes the ambiguity and also gives the next sentence's 'Hulle' a clear antecedent.",
+      "fout": "The pronoun 'hulle' directly follows 'argeoloë', so 'hulle dorpies' can be read as the archaeologists' villages.",
+      "rede_keurder": "Naming 'dié mense' ties the villages back to the newcomers without changing the claim, and it also gives the next sentence's 'Hulle' a clear antecedent."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 444,
+  "woorde_na": 446,
+  "wanneer": "2026-11-13T00:46:33+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "'n Ander leefwyse",
+      "voor": "dorpies waar mense lank bly.",
+      "na": "dorpies waar mense lank gebly het.",
+      "soort": "grammatika",
+      "rede_vinder": "The rest of the sentence is in the past tense; the apposition should match.",
+      "fout": "none",
+      "rede_keurder": "The apposition glosses the term 'gevestigde nedersettings' in general, so the present tense is right and the past narrows it to these villages."
+    },
+    {
+      "nr": 7,
+      "blok": "Grond van die gemeenskap",
+      "voor": "Ons weet nie seker of die eerste boere ook so gemaak het nie.",
+      "na": "Ons weet nie seker of die eerste boere dit ook so gedoen het nie.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'so gemaak' is colloquial; 'dit so gedoen' is the clearer written form.",
+      "fout": "none",
+      "rede_keurder": "'so gemaak' is natural plain Afrikaans, and the proposal is only a different, slightly longer wording."
+    },
+    {
+      "nr": 12,
+      "blok": "argeologie",
+      "voor": "deur oorblyfsels te ondersoek wat mense agtergelaat het.",
+      "na": "deur oorblyfsels wat mense agtergelaat het, te ondersoek.",
+      "soort": "woordorde",
+      "rede_vinder": "The relative clause is split from its noun 'oorblyfsels'; keeping them together reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "Placing the relative clause after the verb is normal Afrikaans, and the proposal is harder for a Grade 5 reader and rewords a glossary definition."
+    },
+    {
+      "nr": 2,
+      "blok": "Vreemdelinge word welkom",
+      "voor": "en in hulle gemeenskappe opgeneem",
+      "na": "en in die gemeenskap opgeneem",
+      "soort": "verwysing",
+      "rede_vinder": "'hulle' can be read as the strangers' communities, and it repeats 'gemeenskappe' from earlier in the same sentence.",
+      "fout": "none",
+      "rede_keurder": "'hulle' reads naturally as the leaders' communities (the strangers cannot be taken into their own), and the singular 'die gemeenskap' after plural 'Leiers' is a lateral move with a slight number mismatch rather than a clear improvement."
+    },
+    {
+      "nr": 3,
+      "blok": "Grond vir die gesin en die vee",
+      "voor": "Uit latere boeregemeenskappe weet ons",
+      "na": "Van latere boeregemeenskappe weet ons",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Van ... weet ons' is the natural way to say what is known about a group; 'uit' reads as coming out of the communities. The protected phrase stays intact.",
+      "fout": "none",
+      "rede_keurder": "'Uit' marks later communities as the evidence the knowledge comes from, while 'van' reads as knowledge about them, so the preposition swap moves the deliberately limited claim and the original is good Afrikaans."
+    },
+    {
+      "nr": 4,
+      "blok": "Saam in een landskap",
+      "voor": "Taal is self 'n bron wat kontak wys.",
+      "na": "Taal self is 'n bron wat kontak wys.",
+      "soort": "woordorde",
+      "rede_vinder": "Placing 'self' directly after 'Taal' gives the intended emphasis (language itself) more clearly than after the verb.",
+      "fout": "none",
+      "rede_keurder": "'Taal is self 'n bron' already reads naturally as 'language is itself a source'; moving 'self' is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:c69267e6cf380e5047016f63cb193da5",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:0110a730b74414f7fcde432f12eb1968"
+}

@@ -131,3 +131,19 @@ calves; T4 provinces and capitals on a map, heritage in objects (Mapungubwe gold
 **Claims flagged early:** Later Stone Age "30 000 to 2 000 years ago" (CAPS: last 10 000 years;
 LSA lifeways continued after farmers arrived); "hottentotsgod" must not reach the text;
 T2 clip 1 "Bantoetale".
+
+**WRITTEN HERE after all (Lampies 12 Nov 2026: this PC has the heavy-hitter account).** All 45 drafted
+first, then shared terms reconciled (49 agreed wordings in kaps/gedeelde-omskrywings-sosiale-wetenskappe-gr5.json,
+fact-checked: sarkofaag, opstal, hiërogliewe, khoisan, vroeë menslike voorouers corrected). Then each lesson
+through the full pipeline. Status 13 Nov 2026: 44 of 45 signed off and delivered; T2 les 1 in its final checks
+(see git log for the sign-off). Drift sweep: 45 lessons read, 43 shared terms, no drift.
+Fact checks repaired AT SOURCE in the approved specs (dated "feitenasien 12/13 November 2026") - read the spec
+fields, not this note, for the current orders. Recurring traps: herder/farmer "first" claims (tie 'first' to
+crops), communal land ownership (misleading; household held the strongest right), clicks prove contact for
+the ancestors of isiZulu/isiXhosa speakers only, no "Limpopo-vallei" for the first farmers, children did not
+go on gathering trips, bows did not shoot "from far away", Makhonjwa mountains are not sacred.
+CAPS's Afrikaans says "eerste Afrikaanse landbouers" (translation of "African farmers") - never in a lesson.
+Open for a person: hottentotsgot (fact checker cited the WAT marking it offensive; Lampies' ruling stands
+until reviewed); Gr 4 'besproeiing' delivered definition unidiomatic; spelling doubts 'goed bewaarde' vs
+'goedbewaarde' and the capitals in a protected 'Inheemse Kennisstelsels (IKS)' entry; video-owner notes in
+each spec's video_naat.moenie_hierdie_bewerings_herhaal_nie.
