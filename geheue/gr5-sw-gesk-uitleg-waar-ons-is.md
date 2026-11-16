@@ -147,3 +147,9 @@ Open for a person: hottentotsgot (fact checker cited the WAT marking it offensiv
 until reviewed); Gr 4 'besproeiing' delivered definition unidiomatic; spelling doubts 'goed bewaarde' vs
 'goedbewaarde' and the capitals in a protected 'Inheemse Kennisstelsels (IKS)' entry; video-owner notes in
 each spec's video_naat.moenie_hierdie_bewerings_herhaal_nie.
+ANSWERED by Lampies 16 Nov 2026: hottentotsgot ruling KEPT after seeing the WAT evidence (do not raise again);
+IKS video word lower-cased; "meer hande" sentence kept but restructured to Lampies' wording ("Meer mense het
+beteken dat daar meer hande is wat die werk kan doen.") and protected; video claims stay in the specs for now.
+Gr 4 'besproeiing' ("gewasse met water nat te lei") is correct Afrikaans too, Lampies 16 Nov 2026: both
+grades keep their own wording, nothing redelivered; the language finder's 'unidiomatic' flag was wrong.
+Still open: 'goed bewaarde' vs 'goedbewaarde' (not answered).

@@ -158,7 +158,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G5_GES_04 - Saam deel en saam glo** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
 - **G5_GES_05 - Rotskuns** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
 - **G5_GES_06 - Die Khoikhoi** (goedgekeur 2026-11-12): taalstap: niks verander nie
-- **G5_GES_08 - Die eerste boere** (goedgekeur 2026-11-13): 1 taalverandering(s) toegepas
+- **G5_GES_08 - Die eerste boere** (goedgekeur 2026-11-16): taalstap: niks verander nie
 - **G5_GES_09 - Opstalle en boerdery** (goedgekeur 2026-11-12): taalstap: niks verander nie
 - **G5_GES_10 - Die opperhoof** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
 - **G5_GES_11 - Elkeen se rol** (goedgekeur 2026-11-12): 5 taalverandering(s) toegepas
@@ -195,7 +195,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G5_GES_42 - Die Kasteel** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
 - **G5_GES_43 - Die aalwyn** (goedgekeur 2026-11-13): taalstap: niks verander nie
 - **G5_GES_44 - Klip en kleur** (goedgekeur 2026-11-13): 3 taalverandering(s) toegepas
-- **G5_GES_45 - Natuurlike erfenis** (goedgekeur 2026-11-13): taalstap: niks verander nie
+- **G5_GES_45 - Natuurlike erfenis** (goedgekeur 2026-11-16): taalstap: niks verander nie
 - **G5_GES_46 - My erfenis** (goedgekeur 2026-11-13): 2 taalverandering(s) toegepas
 
 ## Graad 5/Kuns
