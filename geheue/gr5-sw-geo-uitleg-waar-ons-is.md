@@ -107,3 +107,13 @@ For a person (not blocking): kruin glossary tautology (T1 les 8) and one more la
 "binneland", "wolkdekking" not found in an online dictionary; reprint re-checks: Johannesburg vs Cape Town size, Cairo
 vs Egypt's new capital, Kilimanjaro ice. Term 4 (mining) waits for its script; IDs from G5_GEO_33.
 Gr 6 SW spek extracts were refreshed locally by vernuwe-uittreksels and left uncommitted (derived; other PCs).
+
+**TERM 4 (Minerale en mynbou), started 17 Nov 2026 in its own session.** Script videoskrifte/gr5-sw-geo-hfstk4-minerale-en-mynbou.txt
+(14 clips; 14 = recap, video only, G5_GEO_44). Register G5_GEO_33-44 + profile committed (5aaf6bbd), label 43 "Die zama-zama's".
+Claim checks h4a (clips 1-7) / h4b (8-13): 21 problems, none false. Spec minerale-en-mynbou (slug free in protected words) fact-checked
+(120 items, 0 false, 6 repaired at source: right to leave a dangerous place is a RIGHT not "mag"; team-leader rule cut; silicosis
+"usually over many years"; coal makes iron from ore, not "only heat"; shaft "often straight down"; gangs take "a lot", not "most").
+Mineral = natural non-living solid in crust rocks, coal excluded BY NAME (shell minerals exist - no universal rule). Mining includes coal.
+Spelling: nie-hernubaar (as Gr 5/6 NWT), oopmynbou/oppervlakmynbou, zama-zama's. APPROVED by Lampies 17 Nov 2026 incl. lesson 37's
+reading of "mynbou-omgewing" (pit/shaft, processing plant, waste heaps, roads). Brief: videoskrifte/gr5-geo-nagaan/BEPLANNER-OPDRAG-KW4.md.
+Drafting started: writers 1-6, then 7-11.
