@@ -1,0 +1,56 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Eers die letter, dan die syfer",
+      "voor": "Vir B3 soek jy eers kolom B",
+      "na": "Om B3 te vind, soek jy eers kolom B",
+      "soort": "sinsbou",
+      "rede_vinder": "'Vir B3' is a compressed, slightly English-sounding opener; 'Om B3 te vind' states the purpose naturally.",
+      "fout": "'Vir B3' is a compressed, English-sounding opener for a purpose.",
+      "rede_keurder": "'Om B3 te vind' states the purpose in natural Afrikaans and adds no fact."
+    },
+    {
+      "nr": 2,
+      "blok": "'n Foto en 'n kaart saam",
+      "voor": "Kyk weer of jy die letter en die syfer reg gesoek het as hulle nie ooreenstem nie.",
+      "na": "As die foto en die kaart nie ooreenstem nie, kyk weer of jy die letter en die syfer reg gesoek het.",
+      "soort": "verwysing",
+      "rede_vinder": "'hulle' sits right after 'die letter en die syfer' and so seems to refer to them; naming the photo and map and putting the condition first removes the ambiguity.",
+      "fout": "'hulle' stands right after 'die letter en die syfer' and can be read as pointing to them instead of the photo and map.",
+      "rede_keurder": "Naming the photo and the map and putting the condition first removes the ambiguous pronoun without changing the instruction."
+    },
+    {
+      "nr": 3,
+      "blok": "Sandduine in die Namib",
+      "voor": "pas by 'n woestyn, so die foto en die kaart stem ooreen",
+      "na": "pas by 'n woestyn, en daarom stem die foto en die kaart ooreen",
+      "soort": "anglisisme",
+      "rede_vinder": "'so' as a conjunction meaning 'therefore' is an anglicism; 'en daarom' with inversion is standard Afrikaans.",
+      "fout": "'so' used as a conjunction meaning 'therefore' with main-clause order is an anglicism.",
+      "rede_keurder": "'en daarom' with inversion is standard Afrikaans and keeps the same conclusion."
+    },
+    {
+      "nr": 4,
+      "blok": "Sandduine in die Namib (kaart)",
+      "voor": "C ...) en die rye het syfers",
+      "na": "C ...), en die rye het syfers",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two sentences that each have their own subject and verb, so a comma goes before it.",
+      "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+      "rede_keurder": "'Die kolomme het ...' and 'die rye het ...' are two full clauses, so AWS 2017 requires the comma."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 314,
+  "woorde_na": 321,
+  "wanneer": "2026-11-17T13:18:52+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:ac1dc0bd6c95b69f986379540d809ebc",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e610c368a4d8375a292f14e01fa17749"
+}

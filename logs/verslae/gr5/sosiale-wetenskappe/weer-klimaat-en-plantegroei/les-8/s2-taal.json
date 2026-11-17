@@ -1,0 +1,46 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Klimaat per seisoen",
+      "voor": "die temperatuur hoër en die dae",
+      "na": "die temperatuur hoër, en die dae",
+      "soort": "leestekens",
+      "rede_vinder": "AWS comma: 'en' joins two sentences that each have their own subject and verb (temperatuur is / dae is).",
+      "fout": "Missing AWS comma before 'en' joining two full clauses (die temperatuur is hoer / die dae is langer).",
+      "rede_keurder": "Both halves have their own subject and verb, so the AWS 2017 requires the comma."
+    },
+    {
+      "nr": 2,
+      "blok": "Jou eie omgewing se klimaat",
+      "voor": "hoeveel reën gewoonlik val",
+      "na": "hoeveel reën daar gewoonlik val",
+      "soort": "sinsbou",
+      "rede_vinder": "Afrikaans normally uses the expletive 'daar' with an indefinite subject like 'reën' in this clause.",
+      "fout": "Indefinite subject 'reen' without the expletive 'daar' reads stiff in the clause.",
+      "rede_keurder": "'hoeveel reen daar gewoonlik val' is the natural Afrikaans form and the meaning is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Dieselfde seisoen, verskillende plekke",
+      "voor": "val reën deur die jaar",
+      "na": "val daar reën deur die jaar",
+      "soort": "sinsbou",
+      "rede_vinder": "The indefinite subject 'reën' after the verb reads more naturally with 'daar'.",
+      "fout": "Inverted indefinite subject 'reen' without 'daar' reads unnatural.",
+      "rede_keurder": "'val daar reen deur die jaar' is the natural construction and says the same thing."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 221,
+  "woorde_na": 223,
+  "wanneer": "2026-11-17T13:25:19+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:01f44a0d1f6f2977901d488d2f3da31d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:37559b1f69646b26dc7b9f2ba0251485"
+}

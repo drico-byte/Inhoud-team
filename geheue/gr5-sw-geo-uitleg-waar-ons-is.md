@@ -52,3 +52,58 @@ Oranjerivier (Gariep), uKhahlamba-Drakensberg then Drakensberg. Three planners l
 sosiale-wetenskappe/<slug>/spek-feite.json: T1 1 false/1 misl/2 unsure of 82; T2 1/3/1 of 82; T3 0/6/1
 of 68; each repaired at source by its own planner. video_naat injected after repair. AWAITING
 Lampies' approval -> then move to goedgekeur/, commit, publish register, then writers.
+**APPROVED + committed 17 Nov 2026 (f1d6edac, pushed), register published.** Lampies at approval:
+"please dont limit the lessons to only 200. So if a lesson is too tight, then expand it a bit."
+Raised: 3, 4, 7 -> 250; 8 -> 350; 9 -> 300; 12 -> 250; 13 -> 275; 22-24 -> 250; 32 -> 275 (clusters
+over envelope declare kluster_uitsondering). T1 2 800, T2 2 525, T3 2 425 = 7 750. Drafting started
+same evening in waves of 6 writers (T1 1-6 first); draft all 32, reconcile shared terms, then pipeline.
+**Drafting notes 17 Nov:** writers cannot run the gate (no shell) - the runner gates later. T1 1,3,4,5,6
+drafted. Fixed at source: les 1 "not on the ground" -> nobody drew the line; video_naat no longer pushes
+wêrelderfenisgebied (rebuilt + reinjected); les 4 Madagascar/Zanzibar requirement sent to T1 planner.
+For reconciliation/language step: oseaan definition (Gr 4 says five oceans; this spec forbids a count);
+T1 les 3 uses "grond" for ground where "land" = country - protect before the language step; Cairo is
+still the capital but Egypt is moving ministries (re-check at reprint); Abuja named in les 6 text, not on map.
+More for reconciliation: "dam" = wall (this spec) vs the stored water (Gr 4 delivered); "reservoir" = Gr 4's town
+storage tank, so T2 les 9 uses "damkom (reservoir)" with no glossary entry; stroomop/stroomaf, mond, hoofrivier,
+rivierstelsel shared by T2 les 6, 7, 9; swaartekrag may exist in Gr 5 NWT; toerisme new; nedersetting and farms.
+**17 Nov late: all 32 drafted; terms reconciled** (55 decided into the Gr 5 SW agreed list; change list in
+videoskrifte/gr5-geo-nagaan/versoening-17nov.json; brief HERSIENING-OPDRAG.md). Key: dam = the water (Gr 4),
+wall = damwal; reservoir widened (kept, my call); hoofrivier = river tributaries flow into that itself flows
+into no other river; klimaat = Gr 4's wording; aanpassing widened to plant or animal; savanne without bioom.
+My call: lesson 32 may give the NWT word (herbivoor/karnivoor) once in brackets. Writers revising in 6 groups;
+still to send: T2 6,7,9 (spec fixed) and T3 10,11 (spec fix pending with T3 planner). Then gate -> language -> checks.
+**17 Nov (night of 17th): all 32 PASS the first gate** (18 needed a writer round: mostly commas from place-name
+lists; failures in videoskrifte/gr5-geo-nagaan/hek-1.md). Drift sweep: no drift, 74 shared terms over 77 lessons.
+Next: three agents add writers' protected wordings to kaps/beskermde-woorde.json (BESKERM-OPDRAG.md), then
+language finder -> reviewer per lesson (runner names them), gate again, then coverage + facts. Nothing new committed
+since f1d6edac (drafts, agreed wordings, protected words all uncommitted).
+Protected words added 17 Nov: T1 46, T2 58, T3 63 entries (+3 hedges by me). Language finders running 3 lessons
+per agent (6 agents: T1 1-11, T2 1-7); T2 8-10 and T3 1-11 next, then reviewers. Pending writer items for
+after the language step: T1 les 10 "Op die platteland" -> landelike gebiede (algemeen rule); T2 les 5
+Tafelberg "plat soos 'n tafel" lacks lesson 3's hedge "amper"; "bouwerkers" kept over video's word (my call).
+17 Nov: language step done for T1 1-11 and T2 1-7 (finder+reviewer, 3 lessons per agent works fine). Ready for
+checkers: T1 1,2,3,5,6,9,11; T2 1,2,3,5,6,7. Writer items (once): T1 4,7,8,10 and T2 4 (one writer, incl.
+platteland fix). Checkers launched: facts T1 1-2, coverage T1 1-3 (facts 2 per agent, coverage 3 per agent).
+Finders running: T2 8-10, T3 1-6; T3 7-11 still to launch.
+**17 Nov progress:** signed off + delivered G5_GEO_01, 02 (V3 library Graad 5/GEO/Inhoud); 03, 05, 06 signing.
+T1 les 9 fact fail (only three well-known waterfalls; Tugela) -> writer + spec fixed. Reprint re-checks: T1 les 6
+Johannesburg vs Cape Town size, Cairo vs new administrative capital. Carried language items for a person at
+sign-off: T1 les 8 kruin glossary "hoogste, boonste" tautology. Pipeline pattern: finder/reviewer 3-5 lessons
+per agent, coverage 4-5 per agent, facts 2 per agent, sign-off via runner --keur-goed (~60 s each, V2 rebuild).
+Signed off by 17 Nov evening: G5_GEO_01,02,03,05,06,11; 04,07,08,10 signing. Coverage clean for all 32 (T1 9 re-check).
+Fact repairs: T1 9 (waterfalls), T2 1 (Karoo: escarpment splits it; spec fixed). Reprint re-check also: Kilimanjaro ice.
+Still to fact-check: T2 2-10, T3 all. T3 9 "savanne veral in die noorde" is unrequested - watch its fact check.
+17 Nov late: 21 signed off (all T1; T2 12,13,14,15,16,18; T3 23,24,25), 26+27 signing. Cleared, waiting to sign:
+T2 8 (G5_GEO_19), T3 7 (G5_GEO_28). In repair: T2 6 (catchment ridge), T2 9 (turbine), T2 10 (tar vs gravel,
+erosion not 'slow'), T3 1 (forms of precipitation, re-check running), T3 8 (winter rain incl. west coast). Facts
+still running: T3 9-11. Spec fixes today at source: Hermanus, Karoo, tar/gravel, winter rain west coast.
+Protected list fixed: Hermanus entry (old 'groter deel' now forbidden).
+
+**DONE 17 Nov 2026: all 32 Terms 1-3 lessons signed off and delivered** (Voltooide lesse + V3 library Graad 5/GEO/Inhoud,
+32 PDFs each). Drift sweep: no drift, 74 shared terms over 77 Gr 5 SW lessons. Fact errors fixed at lesson AND spec:
+waterfalls (only three), Karoo (escarpment splits it), Hermanus 'groter deel', tributaries/ridge, turbine, tar vs gravel,
+erosion 'slow', precipitation forms, clouds all-water, winter rain west coast, small fynbos leaves, savanna map.
+For a person (not blocking): kruin glossary tautology (T1 les 8) and one more language note on T1 les 4; "bedompig",
+"binneland", "wolkdekking" not found in an online dictionary; reprint re-checks: Johannesburg vs Cape Town size, Cairo
+vs Egypt's new capital, Kilimanjaro ice. Term 4 (mining) waits for its script; IDs from G5_GEO_33.
+Gr 6 SW spek extracts were refreshed locally by vernuwe-uittreksels and left uncommitted (derived; other PCs).

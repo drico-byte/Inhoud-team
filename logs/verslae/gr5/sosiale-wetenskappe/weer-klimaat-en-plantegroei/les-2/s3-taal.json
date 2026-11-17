@@ -1,0 +1,109 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die termometer",
+      "voor": "vloeistof hoër wanneer",
+      "na": "vloeistof wanneer",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Styg' already means 'go higher', so 'styg hoër' is doubled; the meaning stays the same without it.",
+      "fout": "'Styg hoër' is a pleonasm.",
+      "rede_keurder": "'Styg' already says it goes higher; dropping 'hoër' keeps the meaning and leaves 'gewone termometer' intact."
+    },
+    {
+      "nr": 4,
+      "blok": "Die reënmeter",
+      "voor": "Na die reën lees",
+      "na": "Ná die reën lees",
+      "soort": "spelling",
+      "rede_vinder": "'Ná' meaning 'after' takes the acute accent so that it is not read as 'na' (towards).",
+      "fout": "Temporal 'na' lacks the accent in a lesson full of directional 'na'.",
+      "rede_keurder": "'Ná' marks 'after' and stops a reader taking it as 'towards'; meaning unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "'n Wind kry sy naam van waar hy vandaan kom",
+      "voor": "Vir die windrigting gebruik ons",
+      "na": "Om die windrigting aan te dui, gebruik ons",
+      "soort": "sinsbou",
+      "rede_vinder": "'Vir die windrigting gebruik ons' is wooden; an om-te clause says clearly what the four directions are used for.",
+      "fout": "'Vir die windrigting gebruik ons' is vague and wooden.",
+      "rede_keurder": "The om-te clause says plainly what the four directions are for, without adding content."
+    },
+    {
+      "nr": 6,
+      "blok": "Die windkous wys waarheen die wind waai",
+      "voor": "aan albei kante oop",
+      "na": "aan albei ente oop",
+      "soort": "woordkeuse",
+      "rede_vinder": "A tube's openings are its 'ente'; 'kante' can be read as its sides.",
+      "fout": "'Kante' of a tube can be read as its sides rather than its openings.",
+      "rede_keurder": "'Ente' is the exact word for a tube's open ends; meaning unchanged."
+    },
+    {
+      "nr": 7,
+      "blok": "Die windkous wys waarheen die wind waai",
+      "voor": "by die wye kant in",
+      "na": "by die wye ent in",
+      "soort": "woordkeuse",
+      "rede_vinder": "Matches 'ente' in the previous sentence: the wind enters at the wide end of the tube.",
+      "fout": "'Wye kant' is imprecise for the open end of the tube.",
+      "rede_keurder": "'Wye ent' is exact and matches the previous sentence."
+    },
+    {
+      "nr": 8,
+      "blok": "Lees 'n windkous",
+      "voor": "en dit kom uit die weste",
+      "na": "en hy kom uit die weste",
+      "soort": "verwysing",
+      "rede_vinder": "The lesson refers to the wind as 'hy' elsewhere ('waaruit hy waai'), so the pronoun should be consistent.",
+      "fout": "'Dit' for the wind breaks the lesson's consistent 'hy' and could be read as the windkous.",
+      "rede_keurder": "'Hy' points clearly to the wind, as the lesson does elsewhere."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die termometer",
+      "voor": "As die streep by 25 stop,",
+      "na": "As die streep by 25 eindig,",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Stop' sounds like speech for a line of liquid that reaches a mark; 'eindig' is the more natural written word.",
+      "fout": "none",
+      "rede_keurder": "'Stop' is plain, natural wording for a Grade 5 reader; 'eindig' is only different."
+    },
+    {
+      "nr": 3,
+      "blok": "Die reënmeter",
+      "voor": "wat buite in die oopte die reën opvang",
+      "na": "wat die reën buite in die oopte opvang",
+      "soort": "woordorde",
+      "rede_vinder": "A definite object usually comes before the adverbials of place in a subordinate clause, so this order reads more naturally.",
+      "fout": "none",
+      "rede_keurder": "The original order reads well and stresses where the gauge stands; the reorder is lateral."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 9,
+      "blok": "reënmeter",
+      "voor": "kan meet hoeveel geval het",
+      "na": "kan meet hoeveel reën geval het",
+      "soort": "sinsbou",
+      "rede_vinder": "'Hoeveel geval het' has no subject and reads incomplete; naming the rain makes the definition clear on its own.",
+      "fout": "The glossary definition 'hoeveel geval het' leaves the subject implicit and reads incomplete on its own.",
+      "rede_keurder": "Adding a word rewords a glossary definition, which only the writer may change.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 252,
+  "woorde_na": 254,
+  "wanneer": "2026-11-17T13:23:15+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:3c8ae3ea53f4eec796131c539e96c080",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:5aebc8bef729c1dc3a0462526ed23d92"
+}

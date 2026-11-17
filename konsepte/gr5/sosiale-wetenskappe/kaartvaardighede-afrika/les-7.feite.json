@@ -1,0 +1,200 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Hoe 'n kaart wys hoe hoog die land is",
+  "kaps_punt": "Verskynsels op 'n fisiese kaart: hoog- en laagliggende gebiede, berge, riviere, mere; Maniere waarop hoogte bo seespieël op 'n kaart aangetoon word (sluit skakering en punthoogtes op kleinskaalkaart in, soos byvoorbeeld 'n kaart van Afrika; moenie kontoere insluit nie)",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "bewering": "'n Politieke kaart wys lande met hulle grense en die name van plekke.",
+      "blok": "Twee soorte kaarte",
+      "status": "bevestig",
+      "bron": "WorldAtlas 'Political and physical maps'; Testbook/Difference-oorsigte: 'n politieke kaart wys internasionale en nasionale grense, hoofstede en ander belangrike stede.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Fisiese kaart wys die natuurlike verskynsels soos berge, riviere en mere. Dit wys ook hoe hoog of laag die land is.",
+      "blok": "Twee soorte kaarte",
+      "status": "bevestig",
+      "bron": "WorldAtlas 'Political and physical maps': 'n fisiese kaart wys die aarde se natuurlike verskynsels - landvorme, riviere, berge - en hoogte word gewoonlik met kleurgradiënte gewys.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Een kaart kan politieke en fisiese inligting saam wys.",
+      "blok": "Twee soorte kaarte",
+      "status": "bevestig",
+      "bron": "WorldAtlas 'Political and physical maps': sommige kaarte bevat elemente van albei.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Ons meet hoogte van die see af, maar die see se water styg en sak heeltyd. Daarom noem ons die gemiddelde hoogte van die see se oppervlak seevlak (seespieël).",
+      "blok": "Seevlak: waar hoogte begin",
+      "status": "bevestig",
+      "bron": "NOAA Tides and Currents, 'Tidal Datums': Mean Sea Level is die rekenkundige gemiddelde van uurlikse waterhoogtes oor 19 jaar, wat getye se hoogtes en laagtes uitgemiddel; Ordnance Survey: hoogtes word in meter bo gemiddelde seevlak gegee. Wiktionary: Afrikaans 'seevlak' = 'sea level'; 'seespieël' is die KABV se eie term en ooreenstem met Nederlands 'zeespiegel' (sea level).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Strand lê omtrent 0 meter bo seevlak.",
+      "blok": "Seevlak: waar hoogte begin",
+      "status": "bevestig",
+      "bron": "Volg uit NOAA se omskrywing: die getye styg en sak rondom gemiddelde seevlak, en 'n strand is die land by die waterlyn (National Geographic Education, 'Coast'). 'Omtrent' dek die paar meter wat 'n strand bo die waterlyn kan lê.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "'n Plek se hoogte bo seevlak is hoeveel meter dit hoër as seevlak lê.",
+      "blok": "Seevlak: waar hoogte begin",
+      "status": "bevestig",
+      "bron": "Ordnance Survey-dokumentasie (docs.os.uk, 'Terrain and height'): hoogtes word gegee in meter bo gemiddelde seevlak (die Newlyn-datum).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Hoogliggende gebiede lê ver bo seevlak.",
+      "blok": "Seevlak: waar hoogte begin",
+      "status": "bevestig",
+      "bron": "Merriam-Webster 'highland': 'elevated or mountainous land'; Wikipedia 'Highland': gebiede van hoë ligging. 'Ver' is relatief, maar die stelling is nie vals nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Laagliggende gebiede lê naby seevlak en dikwels langs die kus.",
+      "blok": "Seevlak: waar hoogte begin",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Upland and lowland': laagland is gewoonlik nie hoër as ongeveer 200 m nie; National Geographic Education, 'Coastal plain': plat, laagliggende land langs die oseaan. 'Dikwels' laat korrek ruimte vir laagtes in die binneland.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Kaart is plat, maar die land is nie plat nie. Daarom gebruik 'n fisiese kaart van Afrika skakering.",
+      "blok": "Kleure wys hoe hoog die land is",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Hypsometric tints' en Patterson & Jenny, Cartographic Perspectives 69 ('The Development and Rationale of Cross-blended Hypsometric Tints'): hoogtekleure word op kleinskaalse fisiese kaarte gebruik om reliëf op 'n plat vlak te wys.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Elke kleur staan vir 'n strook hoogtes, byvoorbeeld 0 tot 200 meter bo seevlak.",
+      "blok": "Kleure wys hoe hoog die land is",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Hypsometric tints': by afsonderlike kleurlae kry elke strook tussen twee hoogtelyne een eenvormige kleur. Die voorbeeldstrook 0-200 m stem ooreen met die gewone laaglandgrens van ongeveer 200 m (Wikipedia 'Upland and lowland').",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "Op baie kaarte is lae land groen en hoër land geel en bruin.",
+      "blok": "Kleure wys hoe hoog die land is",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Hypsometric tints': die konvensionele skema loop van donkergroen op lae hoogtes deur geel en oker na bruin; Patterson & Jenny, Cartographic Perspectives 69: donkergroen is 'the standard hypsometric tint for low elevation'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die hoogste dele is dikwels wit of pers.",
+      "blok": "Kleure wys hoe hoog die land is",
+      "status": "bevestig",
+      "bron": "Patterson & Jenny, Cartographic Perspectives 69: Bartholomew se invloedryke skema (1878) loop 'from delicate greens and tans in the lowlands to rich orange-browns and purples in the highlands' en 'to white on the loftiest peaks'; Wikipedia 'Hypsometric tints': grys en wit op die hoogste hoogtes. Wit is die algemeenste; pers kom in die Bartholomew-tradisie voor, maar NASA se visualisering gebruik pers juis vir die LAAGSTE land. 'Dikwels' (nie 'altyd' nie) en die volgende sin ('Die kleure verskil van kaart tot kaart') hou dit korrek.",
+      "tipe": "superlatief"
+    },
+    {
+      "bewering": "Blou staan gewoonlik vir water en nie vir 'n hoogte nie.",
+      "blok": "Kleure wys hoe hoog die land is",
+      "status": "bevestig",
+      "bron": "National Geographic Education, 'Map': blou word gewoonlik vir water gebruik; Wikipedia 'Hypsometric tints': blou skakerings wys die DIEPTE van water (batimetrie), nie die hoogte van land nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die kleure verskil van kaart tot kaart, en die sleutel sê wat elke kleur beteken.",
+      "blok": "Kleure wys hoe hoog die land is",
+      "status": "bevestig",
+      "bron": "National Geographic Education, 'Map': die sleutel of legende sê wat die simbole beteken; Pearson MapMaster-atlas en NASA SVS 'Visualizing Elevation' gebruik verskillende kleurskemas, en die sleutel van elke kaart beslis.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Kleur wys 'n strook hoogtes, maar 'n punthoogte gee die hoogte van een plek. Dit is 'n kolletjie op die kaart met 'n getal daarby.",
+      "blok": "Punthoogtes",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Spot height': 'n presiese punt op 'n kaart met die hoogte daarlangs aangeteken; Internet Geography (OS-kaartvaardighede): 'n punthoogte word as 'n swart kolletjie met die hoogte daarby gewys.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die getal is daardie plek se hoogte in meter bo seevlak. 'n Kolletjie met 1 200 daarby wys 'n plek wat 1 200 meter bo seevlak lê.",
+      "blok": "Punthoogtes",
+      "status": "bevestig",
+      "bron": "Ordnance Survey-dokumentasie (docs.os.uk): punthoogtes in meter bo gemiddelde seevlak. Op kaarte van Afrika en in Suid-Afrika is hoogtes metries; kaarte in die VSA gebruik voet, maar die les praat van 'n kaart van Afrika en die getalvoorbeeld is intern konsekwent.",
+      "tipe": "getal"
+    },
+    {
+      "bewering": "Jy kry 'n plek se hoogte deur sy kleur in die sleutel op te soek of sy punthoogte te lees.",
+      "blok": "Punthoogtes",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Hypsometric tints' en 'Spot height' (soos hierbo). Die kleur gee net 'n strook, nie 'n presiese hoogte nie, maar die eerste sin van dieselfde blok sê dit uitdruklik, so die leerder word nie mislei nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Kaartblok: 'n Fisiese kaart van Afrika met hoogte in skakering; 'n sleutel gee elke kleur se strook hoogtes in meter bo seevlak, en blou is water; 'n paar punthoogtes as kolletjies met getalle; hoogte word net met kleure en punthoogtes gewys.",
+      "blok": "Kleure wys hoe hoog die land is",
+      "status": "bevestig",
+      "bron": "Die kaartopdrag (blok tipe 'kaart', vir 'Kleure wys hoe hoog die land is') herhaal die bevestigde stellings oor skakering, die sleutel en punthoogtes hierbo (Wikipedia 'Hypsometric tints', 'Spot height', National Geographic 'Map'). 'Net met kleure en punthoogtes' is 'n opdrag oor hierdie kaart, nie 'n bewering dat geen ander metode bestaan nie.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "fisiese kaart: 'n Kaart wat natuurlike verskynsels en die hoogte van die land wys.",
+      "blok": "fisiese kaart",
+      "status": "bevestig",
+      "bron": "WorldAtlas 'Political and physical maps': natuurlike verskynsels, met hoogte in kleurgradiënte.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "politieke kaart: 'n Kaart wat lande, hulle grense en die name van plekke wys.",
+      "blok": "politieke kaart",
+      "status": "bevestig",
+      "bron": "WorldAtlas 'Political and physical maps'; Metsker Maps 'What is a political map?': grense, lande, hoofstede en stede.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "seevlak: Die gemiddelde hoogte van die see se oppervlak, waarvandaan hoogtes gemeet word.",
+      "blok": "seevlak",
+      "status": "bevestig",
+      "bron": "NOAA Tides and Currents, 'Tidal Datums' (Mean Sea Level as gemiddelde waterhoogte); Ordnance Survey: hoogtes gemeet bo gemiddelde seevlak (Newlyn-datum).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "hoogte bo seevlak: Hoeveel meter 'n plek hoër as seevlak lê.",
+      "blok": "hoogte bo seevlak",
+      "status": "bevestig",
+      "bron": "Ordnance Survey-dokumentasie: hoogte in meter bo gemiddelde seevlak.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "hoogliggende gebied: 'n Gebied waar die land ver bo seevlak lê.",
+      "blok": "hoogliggende gebied",
+      "status": "bevestig",
+      "bron": "Merriam-Webster 'highland' ('elevated or mountainous land'); Wikipedia 'Highland'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "laagliggende gebied: 'n Gebied waar die land naby seevlak lê.",
+      "blok": "laagliggende gebied",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Upland and lowland': laagland gewoonlik nie hoër as ongeveer 200 m bo seevlak nie; National Geographic Education, 'Coastal plain'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "skakering: Kleure op 'n kaart wat elkeen 'n strook hoogtes wys.",
+      "blok": "skakering",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Hypsometric tints': elke kleur vul die strook tussen twee hoogtes. 'Skakering' is die KABV se eie term vir hierdie metode (kaps_punt).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "punthoogte: 'n Kolletjie met 'n getal wat een plek se hoogte bo seevlak gee.",
+      "blok": "punthoogte",
+      "status": "bevestig",
+      "bron": "Wikipedia 'Spot height'; Internet Geography (OS-kaartvaardighede): swart kolletjie met die hoogte daarby.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "sleutel: 'n Lys op 'n kaart wat verduidelik wat die simbole en kleure daarop beteken.",
+      "blok": "sleutel",
+      "status": "bevestig",
+      "bron": "National Geographic Education, 'Map': die sleutel of legende sê wat die simbole beteken; Ordnance Survey 'Map legends' (docs.os.uk): verduidelik die simbole, kleure en lyne op die kaart.",
+      "tipe": "algemeen"
+    }
+  ],
+  "opsomming": "Al 27 bewerings, met die superlatief 'die hoogste dele is dikwels wit of pers' ingesluit, is teen NOAA, Ordnance Survey, National Geographic, Cartographic Perspectives en Wikipedia se kartografie-artikels bevestig. Niks hoef reggemaak te word nie. Wit is die algemeenste kleur vir die hoogste land; pers kom uit die Bartholomew-tradisie, en die les se 'dikwels' en 'die kleure verskil van kaart tot kaart' hou die stelling waar."
+}

@@ -1,0 +1,37 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Die binnelandse plato",
+      "voor": "Die Hoëveld lê op hierdie plato in provinsies",
+      "na": "Die Hoëveld lê op hierdie plato, in provinsies",
+      "soort": "leestekens",
+      "rede_vinder": "A comma separates the two place phrases so 'plato in provinsies' is not read as one unit; the protected phrase 'in provinsies soos Gauteng' stays intact.",
+      "fout": "none",
+      "rede_keurder": "The original reads clearly without the comma and no AWS rule requires one, so the change is a lateral move."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 261,
+  "woorde_na": 261,
+  "wanneer": "2026-11-17T13:42:10+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Seevlak: waar ons begin meet",
+      "voor": "en ons meet hoogte van daar af",
+      "na": "en ons meet hoogtes van daar af",
+      "soort": "woordkeuse",
+      "rede_vinder": "The plural matches the glossary's 'waarvandaan hoogtes gemeet word' and reads more naturally for heights of many places.",
+      "fout": "none",
+      "rede_keurder": "'ons meet hoogte van daar af' uses 'hoogte' naturally as a mass noun; the plural is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:6c2fc3531fda990d1882fa5fcfc46a9a",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:6c2fc3531fda990d1882fa5fcfc46a9a"
+}

@@ -1,0 +1,84 @@
+{
+  "toegepas": [
+    {
+      "nr": 3,
+      "blok": "Die Oranjerivier is net op dele 'n grens",
+      "voor": "Sy laaste deel voor die see",
+      "na": "Die rivier se laaste deel voor die see",
+      "soort": "verwysing",
+      "rede_vinder": "After a sentence whose subject is 'n Kort stuk', 'Sy' is a loose reference; naming the river makes it clear.",
+      "fout": "'Sy' could point to 'n kort stuk' or to Suid-Afrika in the sentence before, not just the river.",
+      "rede_keurder": "Naming the river removes the ambiguous pronoun without changing what the sentence says."
+    },
+    {
+      "nr": 4,
+      "blok": "Grense langs riviere en mere (kaart)",
+      "voor": "Augrabieswaterval, en ook die Sahara",
+      "na": "Augrabieswaterval, asook die Sahara",
+      "soort": "leestekens",
+      "rede_vinder": "A comma before 'en' between parts of one sentence breaks the AWS rule; 'asook' keeps the needed pause correctly.",
+      "fout": "There is a comma before 'en' inside one sentence's list, against the house AWS rule.",
+      "rede_keurder": "'Asook' keeps the two groups apart correctly and the meaning is unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Grense langs riviere en mere (kaart)",
+      "voor": "Zambezirivier volg, en die grens",
+      "na": "Zambezirivier volg en die grens",
+      "soort": "leestekens",
+      "rede_vinder": "The 'en' joins two objects of one verb, not two sentences, so no comma goes before it.",
+      "fout": "There is a comma before an 'en' that joins two objects of one verb, not two sentences.",
+      "rede_keurder": "Removing the comma follows the AWS 2017 rule without changing the meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "'n Woestyn is nie net sand nie",
+      "voor": "Mis van die see gee vog aan",
+      "na": "Mis wat van die see af kom, gee vog aan",
+      "soort": "sinsbou",
+      "rede_vinder": "'Mis van die see' reads as mist belonging to the sea; stating where it comes from is clearer and more natural.",
+      "fout": "none",
+      "rede_keurder": "'Mis van die see' is clear, natural Afrikaans; the proposal only makes the sentence longer for a Grade 5 reader."
+    },
+    {
+      "nr": 2,
+      "blok": "Grense langs riviere en mere",
+      "voor": "loop die grenslyn dan saam met die blou lyn",
+      "na": "val die grenslyn dan saam met die blou lyn",
+      "soort": "idioom",
+      "rede_vinder": "'saamval met' is the idiomatic Afrikaans for two lines coinciding; 'loop saam met' suggests walking alongside.",
+      "fout": "none",
+      "rede_keurder": "'Loop saam met' is natural for a line following a river, and 'val saam' brings the verb 'val' into a waterfall lesson, where it is harder for a Grade 5 reader."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "woestyn (begrip) / 'n Woestyn is nie net sand nie",
+      "teks": "'n Plek waar baie min reën in 'n jaar val.",
+      "rede": "The glossary definition adds 'in 'n jaar' while the study text says 'n plek waar baie min reën val'; one lesson gives two slightly different wordings of one term, which is a content decision for the writer, not a language fix."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 317,
+  "woorde_na": 319,
+  "wanneer": "2026-11-17T13:36:43+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Twee watervalle in diep klowe",
+      "voor": "in 'n diep en lang kloof",
+      "na": "in 'n lang, diep kloof",
+      "soort": "sinsbou",
+      "rede_vinder": "Two stacked attributive adjectives are joined by a comma in natural Afrikaans, not by 'en'.",
+      "fout": "none",
+      "rede_keurder": "'n diep en lang kloof' is natural, correct Afrikaans, so the reordered pair with a comma is only a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:dd552e746ae830044a2a9ecfaf651964",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a907b3143d5c8f5e3e1a05897e777274"
+}

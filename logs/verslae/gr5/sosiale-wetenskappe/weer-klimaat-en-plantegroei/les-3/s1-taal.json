@@ -1,0 +1,48 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die weer en jou dag",
+      "voor": "sambreel saam en speel jy",
+      "na": "sambreel saam, en speel jy",
+      "soort": "leestekens",
+      "rede_vinder": "Under the AWS 2017, 'en' joins two sentences that each have their own subject and verb ('neem jy', 'speel jy'), so it takes a comma.",
+      "fout": "'En' joins two sentences each with its own subject and verb ('neem jy', 'speel jy') without the AWS comma.",
+      "rede_keurder": "The comma is required by the AWS 2017 rule the project follows; meaning unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Gevaarlike weer",
+      "voor": "Na swaar reën",
+      "na": "Ná swaar reën",
+      "soort": "spelling",
+      "rede_vinder": "'Ná' meaning 'after' takes the acute accent so that it is not read as 'na' (towards).",
+      "fout": "Temporal 'na' at the start of the sentence lacks the accent.",
+      "rede_keurder": "'Ná' marks 'after' rather than 'towards'; meaning unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [
+    {
+      "nr": 3,
+      "blok": "weerkaart",
+      "voor": "op plekke verwag word",
+      "na": "op verskillende plekke verwag word",
+      "soort": "idioom",
+      "rede_vinder": "'Op plekke' is the idiom for 'here and there', so the definition can be misread; 'op verskillende plekke' says what is meant.",
+      "fout": "'Op plekke' reads as the idiom 'here and there', so the definition can be misread.",
+      "rede_keurder": "The fault is real, but the fix rewords a glossary definition, which only the writer may change.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 258,
+  "woorde_na": 258,
+  "wanneer": "2026-11-17T13:23:17+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:1d27b6beb7a0374d4691d362d3d101e1",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:ffc20cfd8cf4517addf1d2e920380b53"
+}

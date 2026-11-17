@@ -1,0 +1,74 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Die opvanggebied",
+      "voor": "Hoë grond soos 'n bergrug skei",
+      "na": "Hoë grond, soos 'n bergrug, skei",
+      "soort": "leestekens",
+      "rede_vinder": "Commas around the example keep a Grade 5 reader from parsing \"'n bergrug skei\" as the subject and verb, and make the main clause easier to follow.",
+      "fout": "Without commas a Grade 5 reader can parse \"'n bergrug skei\" as its own subject and verb and stumble on the first reading.",
+      "rede_keurder": "Commas set off the example so the main clause reads cleanly; meaning unchanged and the protected 'so 'n bergrug' in the next sentence is untouched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Die opvanggebied",
+      "voor": "Reën aan die een kant van so",
+      "na": "Reënwater aan die een kant van so",
+      "soort": "woordkeuse",
+      "rede_vinder": "It is the rainwater that runs off to a river, not the rain itself; this also matches \"reënwater\" earlier in the block.",
+      "fout": "none",
+      "rede_keurder": "'Reën ... loop' is natural Afrikaans, and changing only the first half breaks the parallel with 'reën aan die ander kant' in the same sentence."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Waar 'n rivier eindig",
+      "teks": "Aan die einde van sy pad kom 'n rivier by sy mond.",
+      "rede": "Read alone this says every river reaches a mouth, while the next two sentences say only most do and some end in a marsh or dry pan; a writer may want to soften it, which is a content decision, not a language one."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 323,
+  "woorde_na": 323,
+  "wanneer": "2026-11-17T13:57:12+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Waar 'n rivier begin",
+      "voor": "wat verder af tot 'n rivier groei",
+      "na": "wat laer af tot 'n rivier groei",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Laer af' says clearly that the stream grows lower down the slope; 'verder af' is vague.",
+      "fout": "none",
+      "rede_keurder": "'Verder af' is natural Afrikaans for further along the course, and 'laer af' narrows it to height only, so it is lateral with a slight shift."
+    },
+    {
+      "nr": 1,
+      "blok": "Van hoog na laag",
+      "voor": "vloei byvoorbeeld wes na die Atlantiese Oseaan",
+      "na": "vloei byvoorbeeld weswaarts na die Atlantiese Oseaan",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Weswaarts' is the natural adverb of direction with 'vloei ... na'; bare 'wes' reads clipped.",
+      "fout": "none",
+      "rede_keurder": "'Die rivier vloei wes' is normal Afrikaans; 'weswaarts' only reads differently and adds a longer word for a Grade 5 reader."
+    },
+    {
+      "nr": 2,
+      "blok": "Riviere wat saamvloei",
+      "voor": "kry 'n rivier ekstra water uit kleiner riviere",
+      "na": "kry 'n rivier ekstra water van kleiner riviere",
+      "soort": "idioom",
+      "rede_vinder": "With 'kry' (receive) the idiomatic preposition is 'van', not 'uit'.",
+      "fout": "none",
+      "rede_keurder": "'Water uit kleiner riviere kry' is correct and means the same as 'van' (water comes from the tributaries), so the preposition swap is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:2e21a48caea17bb6abe1cb74bb0a3df9",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:3fd6b8d74513cc448c3227b4bd8c5b16"
+}

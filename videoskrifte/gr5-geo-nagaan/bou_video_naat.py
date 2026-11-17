@@ -37,6 +37,7 @@ EKSTRA = {
     "G5_GEO_07": ["Video H1 10 leer hoogtelyne (kontoere). KABV sluit kontoere by Graad 5 uit; die teks noem hulle NIE (Lampies, 17 November 2026) en weerspreek die video ook nie. Die teks leer skakering (kleure) en punthoogtes."],
     "G5_GEO_06": ["Die video noem van Afrika se groot stede net Johannesburg. KABV noem ook Kaïro, Lagos en Nairobi: die teks dra al vier (Lampies, 17 November 2026)."],
     "G5_GEO_09": ["Die video het nie die Maletsunyane-waterval nie. KABV noem hom: die teks dra hom (Lampies, 17 November 2026)."],
+    "G5_GEO_16": ["Waar 'n voorstel hieronder 'n betekenis vir 'Gariep' gee of die koning by die naam noem, wen die spesifikasie: die teks gee GEEN betekenis vir Gariep nie (soos Graad 5 Geskiedenis) en skryf net 'die Portugese koning' (spesifikasie-feitetoets, 17 November 2026)."],
     "G5_GEO_05": ["Die video gebruik Eswatini. Die teks skryf die eerste keer 'Eswatini (Swaziland)', daarna net 'Eswatini' (Lampies, 17 November 2026)."],
 }
 
@@ -66,7 +67,7 @@ def main():
                     if w not in woorde:
                         woorde.append(w)
                 for w in v.get("woord_nie_gevestig_nie", []):
-                    if w["video_se_woord"] in OORHEERS:
+                    if any(k in w["video_se_woord"].lower() for k in OORHEERS):
                         continue
                     nie_gevestig.append(w)
                 dek += [f"[{vid}] {x}" for x in v.get("wat_die_video_dek", [])]

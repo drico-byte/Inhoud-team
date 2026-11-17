@@ -1,0 +1,79 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe lees jy 'n kolomgrafiek?",
+      "voor": "Die maande staan onderaan en die millimeter reën teen die kant op.",
+      "na": "Die maande staan onderaan, en die millimeter reën loop teen die kant op.",
+      "soort": "sinsbou",
+      "rede_vinder": "The second clause lacks a verb that fits 'teen die kant op'; with 'loop' it becomes a full clause and takes the AWS comma before 'en'.",
+      "fout": "The gapped verb leaves 'die millimeter reen teen die kant op' without a fitting verb, so a reader stumbles.",
+      "rede_keurder": "'Loop teen die kant op' gives the axis a natural verb, the AWS comma is then correct, and the meaning is unchanged."
+    },
+    {
+      "nr": 2,
+      "blok": "Hoe lees jy 'n kolomgrafiek?",
+      "voor": "'n Hoër kolom wys dat meer reën in daardie maand geval het.",
+      "na": "'n Hoër kolom wys dat daar in daardie maand meer reën geval het.",
+      "soort": "woordorde",
+      "rede_vinder": "With an indefinite subject Afrikaans prefers 'daar' and the time phrase before the subject.",
+      "fout": "'Dat meer reen in daardie maand geval het' follows English word order with an indefinite subject.",
+      "rede_keurder": "'Dat daar in daardie maand meer reen geval het' is the natural Afrikaans construction and says the same thing."
+    },
+    {
+      "nr": 4,
+      "blok": "Durban, Kaapstad en Kimberley",
+      "voor": "en in wanneer dit val",
+      "na": "en in watter tyd van die jaar dit val",
+      "soort": "sinsbou",
+      "rede_vinder": "'Verskil in wanneer' is awkward; 'in watter tyd van die jaar' keeps the meaning and reads naturally.",
+      "fout": "'Verskil in wanneer dit val' is awkward.",
+      "rede_keurder": "'In watter tyd van die jaar dit val' reads naturally and keeps the meaning, which is about the season of the rain."
+    },
+    {
+      "nr": 5,
+      "blok": "Waar val watter reën? (kaart)",
+      "voor": "die kaart laat nie lyk of alles",
+      "na": "die kaart laat dit nie lyk asof alles",
+      "soort": "grammatika",
+      "rede_vinder": "The idiom is 'iets laat dit lyk asof'; the object 'dit' is missing.",
+      "fout": "The fixed expression 'iets laat dit lyk asof' is missing its object 'dit'.",
+      "rede_keurder": "Restores the correct idiom without changing what the map instruction says."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 3,
+      "blok": "Hoe lees jy 'n kolomgrafiek?",
+      "voor": "By ons val Desember",
+      "na": "In ons land val Desember",
+      "soort": "woordkeuse",
+      "rede_vinder": "'By ons' is vague and colloquial; 'in ons land' matches 'Ons land' in the first block.",
+      "fout": "none",
+      "rede_keurder": "'By ons' is plain, natural spoken Afrikaans that is clear in context; the proposal is a lateral move."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 6,
+      "blok": "reën deur die jaar",
+      "voor": "sonder 'n duidelik natste seisoen",
+      "na": "sonder 'n seisoen wat duidelik die natste is",
+      "soort": "grammatika",
+      "rede_vinder": "An adverb before an attributive superlative ('n duidelik natste') is ungrammatical; a relative clause says it correctly.",
+      "fout": "'n Duidelik natste seisoen' places an adverb before an attributive superlative, which is awkward and arguably ungrammatical.",
+      "rede_keurder": "The fault is real, but the fix restructures a glossary definition, which only the writer may reword.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 216,
+  "woorde_na": 222,
+  "wanneer": "2026-11-17T13:23:26+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:7ab3d8b192f165ccf669472415fd3b1b",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:26435e447f4049db488b6ec00bf582f1"
+}

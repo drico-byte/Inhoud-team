@@ -1,0 +1,15 @@
+{"prompt_weergawe": "taalkeurder-v1.3",
+ "besluite": [
+  {"nr": 1, "besluit": "HOU",
+   "fout": "'Vir B3' is a compressed, English-sounding opener for a purpose.",
+   "rede": "'Om B3 te vind' states the purpose in natural Afrikaans and adds no fact."},
+  {"nr": 2, "besluit": "HOU",
+   "fout": "'hulle' stands right after 'die letter en die syfer' and can be read as pointing to them instead of the photo and map.",
+   "rede": "Naming the photo and the map and putting the condition first removes the ambiguous pronoun without changing the instruction."},
+  {"nr": 3, "besluit": "HOU",
+   "fout": "'so' used as a conjunction meaning 'therefore' with main-clause order is an anglicism.",
+   "rede": "'en daarom' with inversion is standard Afrikaans and keeps the same conclusion."},
+  {"nr": 4, "besluit": "HOU",
+   "fout": "Missing AWS comma before 'en' joining two clauses that each have their own subject and verb.",
+   "rede": "'Die kolomme het ...' and 'die rye het ...' are two full clauses, so AWS 2017 requires the comma."}
+ ]}

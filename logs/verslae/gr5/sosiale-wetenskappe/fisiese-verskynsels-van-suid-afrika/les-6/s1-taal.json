@@ -1,0 +1,67 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Waar 'n rivier begin",
+      "voor": "Die water kom van reën en fonteine, en in hoë berge ook van smeltende sneeu.",
+      "na": "Die water kom van reën en fonteine. In hoë berge kom dit ook van smeltende sneeu.",
+      "soort": "leestekens",
+      "rede_vinder": "The comma before 'en' joins a clause without its own verb (not allowed by AWS), and splitting the sentence keeps the list 'reën en fonteine' clear.",
+      "fout": "A comma before 'en' joins a part without its own subject and verb, against AWS 2017, and blurs the list 'reën en fonteine'.",
+      "rede_keurder": "Splitting into two sentences fixes the punctuation and keeps every source and the 'in hoë berge' limit exactly as before."
+    },
+    {
+      "nr": 3,
+      "blok": "Van hoog na laag",
+      "voor": "Hoog na laag beteken egter nie bo na onder op 'n kaart nie.",
+      "na": "Van hoog na laag beteken egter nie van bo na onder op 'n kaart nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "The phrases need 'van' to be natural Afrikaans, and this also echoes the block heading.",
+      "fout": "The bare phrases 'Hoog na laag' and 'bo na onder' read as clipped and unidiomatic without 'van'.",
+      "rede_keurder": "Adding 'van' twice makes natural Afrikaans, echoes the block heading, and keeps 'egter' and the meaning intact."
+    },
+    {
+      "nr": 4,
+      "blok": "Die opvanggebied",
+      "voor": "skei een opvanggebied van die volgende",
+      "na": "skei een opvanggebied van 'n ander",
+      "soort": "anglisisme",
+      "rede_vinder": "'Van die volgende' echoes English 'from the next'; 'van 'n ander' is the natural Afrikaans pairing with 'een'.",
+      "fout": "'Skei een opvanggebied van die volgende' copies English 'from the next' and wrongly implies a sequence of catchments.",
+      "rede_keurder": "'Een ... van 'n ander' is the natural Afrikaans pairing and still says high ground separates neighbouring catchments."
+    },
+    {
+      "nr": 5,
+      "blok": "Die opvanggebied",
+      "voor": "loop na een rivier en reën aan die ander kant na 'n ander rivier",
+      "na": "loop na een rivier, en reën aan die ander kant loop na 'n ander rivier",
+      "soort": "sinsbou",
+      "rede_vinder": "The second clause drops its verb, which makes the long sentence hard to follow; restoring 'loop' makes it two full clauses that take the AWS comma.",
+      "fout": "The second clause drops its verb in a long sentence, which makes a Grade 5 reader stumble.",
+      "rede_keurder": "Restoring 'loop' with the AWS comma makes two clear clauses without changing who goes where."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Waar 'n rivier begin",
+      "voor": "wat verder af tot 'n rivier groei",
+      "na": "wat laer af tot 'n rivier groei",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Laer af' says clearly that the stream grows lower down the slope; 'verder af' is vague.",
+      "fout": "none",
+      "rede_keurder": "'Verder af' is natural Afrikaans for further along the course, and 'laer af' narrows it to height only, so it is lateral with a slight shift."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 309,
+  "woorde_na": 313,
+  "wanneer": "2026-11-17T13:19:00+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:f91a0b8f17ccfeffbbd2998c4a6ec123",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e9474f19480ace60af4204d916900647"
+}

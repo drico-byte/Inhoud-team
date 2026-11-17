@@ -1,0 +1,144 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Ons meet temperatuur, reën en wind",
+  "kaps_punt": "Hoe temperatuur en reën gemeet kan word (instrumente en metingseenhede); en Bepaling en beskrywing van windrigting",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "bewering": "Ons meet met 'n termometer hoe warm of koud die lug is.",
+      "blok": "Die termometer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA GPM education glossary (temperature is how hot or cold something is); Smithsonian SSEC 'Weather Words' (temperature of the atmosphere is usually measured with a thermometer)."
+    },
+    {
+      "bewering": "In 'n gewone termometer styg 'n dun streep vloeistof wanneer dit warmer word.",
+      "blok": "Die termometer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "RS Components 'Glass thermometers guide' (2023) and howeverythingworks.org 'Thermometers and thermostats': in a liquid-in-glass thermometer the liquid (now mostly dyed alcohol) expands more than the glass and rises in the narrow bore as the temperature increases. 'Gewone' reads as the ordinary liquid-in-glass kind, which is the kind described."
+    },
+    {
+      "bewering": "Die getalle langs die streep wys die temperatuur in grade Celsius (°C). As die streep by 25 stop, is dit 25 grade Celsius.",
+      "blok": "Die termometer",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "RS Components glass thermometer guide (scale markings convert column height to temperature, typically Celsius or Fahrenheit); SAWS forecasts as reported by The Citizen give temperatures in °C. The worked reading is a correct illustration of reading a scale."
+    },
+    {
+      "bewering": "Ons meet reën met 'n reënmeter wat buite in die oopte die reën opvang.",
+      "blok": "Die reënmeter",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Australian Bureau of Meteorology 'Observation of rainfall'; FAO T7202E ch. 9 and Victorian Government 'How we measure rainfall': a rain gauge collects rain and must stand in an open area away from buildings and trees (WMO: at least twice the obstacle's height away)."
+    },
+    {
+      "bewering": "Ná die reën lees ons op die reënmeter se skaal af hoeveel millimeter (mm) reën geval het.",
+      "blok": "Die reënmeter",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Australian Bureau of Meteorology and cumuluswiki 'Rain measurement' (rainfall is measured as a depth in millimetres); The Citizen citing SAWS: '121mm of rain falls in Pretoria in 24 hours'; SAEON observations database (rainfall in mm)."
+    },
+    {
+      "bewering": "Ons noem 'n wind na die rigting waaruit hy waai. 'n Noordewind kom dus uit die noorde en waai na die suide toe.",
+      "blok": "'n Wind kry sy naam van waar hy vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Penn State METEO 101 'Watching the Wind' and KPRC/Click2Houston 'Why is wind direction identified as where it is coming from' (a northerly wind blows from the north); Met Office (a westerly blows from the west toward the east); CF standard name 'wind_from_direction'."
+    },
+    {
+      "bewering": "Om die windrigting aan te dui, gebruik ons die vier hoofrigtings: noord, oos, suid en wes.",
+      "blok": "'n Wind kry sy naam van waar hy vandaan kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia 'Wind direction' and Penn State METEO 3 'The Station Model' (wind direction is reported by compass direction or in degrees). True as a description of a method: the four main directions can be used. The sentence does not say only these four may be used; weather services also use in-between directions (e.g. the Cape's south-easter) and degrees. Noted, not a fault, provided nothing elsewhere in the subject says wind can only come from four directions."
+    },
+    {
+      "bewering": "'n Weerhaan (windhaan) het 'n pyl wat vrylik bo-op 'n paal draai. Die pyl het 'n smal punt en 'n breë stert.",
+      "blok": "Die weerhaan wys waarvandaan die wind kom",
+      "status": "bevestig",
+      "tipe": "naam",
+      "bron": "The Henry Ford 'Weathervanes' (a vane pivots on a rod with a short arrow end and a longer, broader tail); Dutch dictionary entries (vocabulary.com, Wiktionary/kaikki.org) give weerhaan and windhaan as synonyms for a weathervane. No Afrikaans dictionary entry could be reached online, so the naming rests on the shared Dutch-Afrikaans lexeme; strictly a weerhaan is rooster-shaped, and such vanes usually carry an arrow as well."
+    },
+    {
+      "bewering": "Die wind stoot die breë stert weg, en die punt draai in die wind in. Die pyl wys dus na die kant waarvandaan die wind kom.",
+      "blok": "Die weerhaan wys waarvandaan die wind kom",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA Glenn Research Center K-12 'Beginner's Guide to Rockets: stability' (weathervane: wind force is greatest on the largest surface; the vane swings until the arrow points directly into the wind); The Henry Ford 'Weathervanes' (tail pushed by the wind, arrow points to where the wind blows from)."
+    },
+    {
+      "bewering": "'n Windkous is 'n lang buis van lap wat aan albei ente oop is. Die wind blaas by die wye ent in, en die kous waai weg van die wind af.",
+      "blok": "Die windkous wys waarheen die wind waai",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia 'Windsock' (tapered conical textile tube; ICAO truncated cone); AOPA Flight Training 'What am I? Windsock' and Sciencing 'How does a windsock work?' (open on both ends, one end wider; wind flows in at the wide end and out of the narrow end)."
+    },
+    {
+      "bewering": "'n Windkous wys dus waarheen die wind waai. Die weerhaan se pyl wys na die teenoorgestelde kant.",
+      "blok": "Die windkous wys waarheen die wind waai",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia 'Windsock' ('Wind direction is opposite the direction in which the windsock is pointing'); Pilot Institute 'How to read a windsock'; NASA GRC weathervane page (vane arrow points into the wind). The two therefore point in opposite directions."
+    },
+    {
+      "bewering": "Stel jou voor dat 'n windkous na die ooste wys. Dan waai die wind na die ooste toe, en hy kom uit die weste. Ons noem dit 'n westewind. Op dieselfde plek sou 'n weerhaan se pyl na die weste wys.",
+      "blok": "Lees 'n windkous",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Pilot Institute 'How to read a windsock' (a sock pointing north means a southerly wind); Penn State METEO 101 (wind named for where it comes from); NASA GRC (vane points into the wind). The worked example follows correctly at every step."
+    },
+    {
+      "bewering": "termometer: 'n Instrument wat meet hoe warm of koud iets is.",
+      "blok": "termometer",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA GPM education glossary; RS Components glass thermometer guide."
+    },
+    {
+      "bewering": "grade Celsius: Die eenheid waarin ons temperatuur meet, kort geskryf as °C.",
+      "blok": "grade Celsius",
+      "status": "bevestig",
+      "tipe": "naam",
+      "bron": "NIST SI reference (degree Celsius, symbol °C, an SI derived unit); SAWS forecasts as reported by The Citizen use °C. 'Ons' reads as South African practice, where °C is the unit in use."
+    },
+    {
+      "bewering": "reënmeter: 'n Houer wat reën opvang sodat ons kan meet hoeveel reën geval het.",
+      "blok": "reënmeter",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Australian Bureau of Meteorology 'Observation of rainfall'; Victorian Government 'How we measure rainfall'."
+    },
+    {
+      "bewering": "millimeter: 'n Baie klein lengtemaat; tien millimeter maak een sentimeter.",
+      "blok": "millimeter",
+      "status": "bevestig",
+      "tipe": "getal",
+      "bron": "NIST SI prefixes (milli = 10^-3, centi = 10^-2); archived NIST metric page: '10 millimeters (mm) = 1 centimeter (cm)'."
+    },
+    {
+      "bewering": "windrigting: Die rigting waaruit die wind waai, soos noord, oos, suid of wes.",
+      "blok": "windrigting",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "CF standard name 'wind_from_direction'; Penn State METEO 101 'Watching the Wind'. 'Soos' keeps the directions open, so the entry is true read alone."
+    },
+    {
+      "bewering": "weerhaan: 'n Instrument met 'n draaiende pyl wat wys waarvandaan die wind kom.",
+      "blok": "weerhaan",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "NASA GRC weathervane page; The Henry Ford 'Weathervanes'; Dutch dictionary entries for weerhaan (see the study block item for the naming caveat)."
+    },
+    {
+      "bewering": "windkous: 'n Lang buis van lap wat wys waarheen die wind waai.",
+      "blok": "windkous",
+      "status": "bevestig",
+      "tipe": "algemeen",
+      "bron": "Wikipedia 'Windsock'; Pilot Institute 'How to read a windsock'."
+    }
+  ],
+  "opsomming": "Every claim checks out, including the weathervane and windsock mechanisms and the worked east-pointing windsock example; there are no superlatives and no analogies, and the only things worth a person's glance are that 'gebruik ons die vier hoofrigtings' is true but not the whole practice (in-between directions such as the south-easter also exist), and that no Afrikaans dictionary could be reached online to confirm 'weerhaan (windhaan)' beyond its Dutch cognate."
+}

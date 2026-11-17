@@ -1,0 +1,58 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Vier elemente van weer",
+      "voor": "kan jy sê: Vandag is 'n warm en bewolkte dag met 'n ligte briesie.",
+      "na": "kan jy sê: \"Vandag is 'n warm en bewolkte dag met 'n ligte briesie.\"",
+      "soort": "leestekens",
+      "rede_vinder": "The quoted example sentence is direct speech and reads more clearly inside quotation marks.",
+      "fout": "The example sentence after the colon is direct speech without quotation marks, so the reader cannot see where the quoted words start and end.",
+      "rede_keurder": "Quotation marks mark the spoken example clearly, add no words and leave the meaning and every protected word unchanged."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "reënval",
+      "voor": "wat op 'n plek in 'n sekere tyd val",
+      "na": "wat in 'n sekere tyd op 'n plek val",
+      "soort": "woordorde",
+      "rede_vinder": "Afrikaans puts time before place (tyd-wyse-plek), so the time phrase reads more naturally first.",
+      "fout": "none",
+      "rede_keurder": "This is a shared glossary definition, and 'op 'n plek in 'n sekere tyd' is acceptable Afrikaans, so moving the time phrase first is only a sideways change and not a grammar fix."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 254,
+  "woorde_na": 254,
+  "wanneer": "2026-11-17T14:06:30+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 2,
+      "blok": "Water wat uit die wolke val",
+      "voor": "Neerslag val in drie vorme:",
+      "na": "Neerslag kom in drie vorme voor:",
+      "soort": "anglisisme",
+      "rede_vinder": "'Val in drie vorme' copies the English 'falls in three forms'; 'kom in drie vorme voor' is the idiomatic Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'Val in drie vorme' is natural Afrikaans and ties to the definition (water that falls) and the next sentence's 'val'; the swap is lateral."
+    },
+    {
+      "nr": 2,
+      "blok": "Hael",
+      "voor": "en duike in motors maak",
+      "na": "en motors duik slaan",
+      "soort": "idioom",
+      "rede_vinder": "'Duik slaan' is the idiomatic Afrikaans expression; 'duike in motors maak' is a calque.",
+      "fout": "none",
+      "rede_keurder": "'Motors duik slaan' is not a natural Afrikaans construction (one says 'duike in motors slaan'), and the plain original reads acceptably."
+    }
+  ],
+  "konsep_hash_voor": "sha256:41ad807adad025d187244874d875f9b6",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:839e7e7e44e1ac0a5f8b854ed116767e"
+}

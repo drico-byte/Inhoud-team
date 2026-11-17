@@ -1,0 +1,153 @@
+{
+  "les": "gr5/sosiale-wetenskappe/kaartvaardighede-afrika/les-8",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:ae3c664b2a45cb931fa76712026b6ede",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:9f74240fc7ff799b0e421a68a2c2bb30"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-17T12:55:10+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:9f74240fc7ff799b0e421a68a2c2bb30",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-17T12:55:12+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 358,
+      "begroting": 350,
+      "failures": [
+        "Study text: 0.38 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-11-17T12:55:12+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 0.38 commas per sentence above maximum 0.35 — too much subordination, split into separate sentences"
+      ]
+    },
+    {
+      "wanneer": "2026-11-17T13:04:20+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f52d1ca722ef2260b472ebeb6d2b01b3",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-17T13:04:22+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 357,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-17T13:18:36+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 357,
+      "woorde_na": 356,
+      "konsep_hash": "sha256:e66f773b044512b8421eb8bf0c0e57d5"
+    },
+    {
+      "wanneer": "2026-11-17T13:18:38+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 356,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-17T13:18:39+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in 'Groot lopende water wat in 'n vaste baan oor die land vloei.': The glossary definition opens with an articleless fragment, 'Groot lopende water'.",
+        "check (the language finder raised this; it may not be a fault): ''n Meer is 'n groot hoeveelheid water wat deur land omring word.': This study sentence defines 'meer' with only the first half of the decided shared wording (it leaves out 'en meestal vanself gevorm het'); not a language fault, so not changed, but a person may want to check it against the shared-definition rule."
+      ]
+    },
+    {
+      "wanneer": "2026-11-17T13:22:55+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:560370cd160042e235c5e9be8988ffc5",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-17T13:22:56+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 361,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-17T13:28:19+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 1,
+      "laat_vaar": 1,
+      "na_skrywer": 1,
+      "nie_toegepas": 0,
+      "woorde_voor": 361,
+      "woorde_na": 363,
+      "konsep_hash": "sha256:ae3c664b2a45cb931fa76712026b6ede"
+    },
+    {
+      "wanneer": "2026-11-17T13:28:23+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 363,
+      "begroting": 350,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-17T13:42:26+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 14,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-17T13:42:27+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 31,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-17T13:42:27+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\kaartvaardighede-afrika\\les-8.json",
+      "konsep_hash": "sha256:ae3c664b2a45cb931fa76712026b6ede",
+      "vervang": false
+    }
+  ],
+  "taal_vir_skrywer": [
+    "fix: [taal] in 'Die hoogste, boonste deel': the definition doubles 'hoogste' and 'boonste', which say the same thing"
+  ],
+  "spek_hash": "sha256:05fb9b1aa0752fc87f354c97f1daaa6c",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 350
+  },
+  "taal_rondte_vir": "sha256:ae3c664b2a45cb931fa76712026b6ede",
+  "taal_keurder_vir": "9d716a23fea702436976bd4b13a8550c",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:ae3c664b2a45cb931fa76712026b6ede",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:e66f773b044512b8421eb8bf0c0e57d5",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "8ba1627106e6ff13ca543106ff88a5f3"
+}

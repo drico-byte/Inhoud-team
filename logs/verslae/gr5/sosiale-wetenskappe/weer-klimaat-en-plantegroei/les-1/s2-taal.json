@@ -1,0 +1,47 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Vier elemente van weer",
+      "voor": "kan jy sê: vandag is",
+      "na": "kan jy sê: Vandag is",
+      "soort": "leestekens",
+      "rede_vinder": "What follows the colon is a full sentence quoted as speech, so under the AWS it starts with a capital.",
+      "fout": "The model sentence after 'kan jy sê:' is direct speech and starts with a lowercase letter.",
+      "rede_keurder": "A colon introducing direct speech takes a capital under the AWS; nothing else changes."
+    },
+    {
+      "nr": 3,
+      "blok": "Hael",
+      "voor": "plat slaan",
+      "na": "platslaan",
+      "soort": "spelling",
+      "rede_vinder": "'Platslaan' is a separable compound verb and is written as one word in the infinitive.",
+      "fout": "The separable compound 'platslaan' is split in the infinitive after 'kan'.",
+      "rede_keurder": "Spelling fix only; the sentence says the same thing."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 2,
+      "blok": "Water wat uit die wolke val",
+      "voor": "Neerslag val in drie vorme:",
+      "na": "Neerslag kom in drie vorme voor:",
+      "soort": "anglisisme",
+      "rede_vinder": "'Val in drie vorme' copies the English 'falls in three forms'; 'kom in drie vorme voor' is the idiomatic Afrikaans.",
+      "fout": "none",
+      "rede_keurder": "'Val in drie vorme' is natural Afrikaans and ties to the definition (water that falls) and the next sentence's 'val'; the swap is lateral."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 256,
+  "woorde_na": 255,
+  "wanneer": "2026-11-17T13:23:11+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:7ca0d5824480c7968b621d58a8594438",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e3e992defa8f8a23fb080a0ed2c12536"
+}

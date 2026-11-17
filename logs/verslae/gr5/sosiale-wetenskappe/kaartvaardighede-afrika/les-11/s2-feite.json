@@ -1,0 +1,130 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "feite",
+  "prompt_weergawe": "feitenasiener-v1.3",
+  "les": "Van 'n foto na 'n blokkie op die kaart",
+  "kaps_punt": "Gebruik ruitverwysings wat op 'n kaart voorsien is om ligging naastenby te bepaal vanwaar foto's geneem is (*** Voorsien ruitverwysings van elke foto van 'n bepaalde kaart)",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "bewering": "Op 'n groot kaart is dit moeilik om vir iemand te sê waar 'n plek lê. Daarom trek mense soms 'n ruitnet oor die kaart: lyne wat dit in blokkies verdeel.",
+      "blok": "Lyne wat 'n kaart in blokkies verdeel",
+      "status": "bevestig",
+      "bron": "Wikipedia, 'Alphanumeric grid' (atlas grid: a simple coordinate system in which each cell is identified by a letter and a number); Esri ArcGIS Pro help, 'Reference grids' (reference grids split a map into squares, each column and row labelled so every square has a unique identifier).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Kolom is 'n strook blokkies wat van bo na onder oor die kaart loop. 'n Ry is 'n strook blokkies wat van links na regs oor die kaart loop.",
+      "blok": "Lyne wat 'n kaart in blokkies verdeel",
+      "status": "bevestig",
+      "bron": "Davis, Goulding & Suggate, 'Graphs and functions' (Taylor & Francis chapter): map divided into squares with rows numbered and columns lettered; Esri ArcGIS Pro help, 'Reference grids'. Column = vertical strip, row = horizontal strip is the standard sense.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Op hierdie kaart kry die kolomme letters wat by A begin. Die rye kry syfers wat by 1 begin.",
+      "blok": "Lyne wat 'n kaart in blokkies verdeel",
+      "status": "bevestig",
+      "bron": "Davis, Goulding & Suggate (Taylor & Francis): 'rows numbered and the columns labelled with letters ... specify any square, for example, B3'; Wikipedia, 'Alphanumeric grid'. Scoped to 'hierdie kaart', and it matches the common atlas convention.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Ruitverwysing soos B3 is 'n letter en 'n syfer saam wat een blokkie noem. Om B3 te vind, soek jy eers kolom B en volg dit met jou vinger. Jou vinger stop waar kolom B en ry 3 kruis: dit is blokkie B3. Onthou dus die volgorde: eers die letter, dan die syfer.",
+      "blok": "Eers die letter, dan die syfer",
+      "status": "bevestig",
+      "bron": "Wikipedia, 'Alphanumeric grid' (cell named by a letter-and-number combination, written letter first as in B3 or chess's e4); Davis, Goulding & Suggate (Taylor & Francis), B3 as the worked example of a lettered column crossing a numbered row.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Ruitverwysing wys 'n hele blokkie en nie 'n presiese punt op die kaart nie. ... Iets in B3 kan dus enige plek binne daardie blokkie lê. Daarom gee 'n ruitverwysing net naastenby die ligging van 'n plek.",
+      "blok": "'n Blokkie, nie 'n kolletjie nie",
+      "status": "bevestig",
+      "bron": "Western Front Association, 'How to find a point on a trench map' (a square reference means the actual location 'could be anywhere within that' square); Digimap/EDINA, 'National Grid References - An introduction' (a short reference names a square, more figures narrow it to a point).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Op 'n kaart van Afrika dek een blokkie 'n groot stuk land.",
+      "blok": "'n Blokkie, nie 'n kolletjie nie",
+      "status": "bevestig",
+      "bron": "Wikipedia, 'Extreme points of Africa': the mainland runs from about 37°21'N to 34°51'S and from about 17°33'W to 51°28'E, roughly 72° by 69°. On a continent-scale map with a handful of lettered columns and numbered rows, each square spans more than ten degrees each way, i.e. well over a million square kilometres.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Foto wys hoe 'n plek lyk, en 'n kaart wys waar dit lê. ... Soek eers die blokkie en kyk wat die kaart daarin wys, soos berge of 'n meer. Vergelyk dit dan met die foto, want die twee moet ooreenstem.",
+      "blok": "'n Foto en 'n kaart saam",
+      "status": "bevestig",
+      "bron": "Esri ArcGIS Pro help, 'Reference grids' (grid used to locate features on a map); physical maps conventionally show relief (mountains) and water bodies (lakes). Procedural statement; consistent with how the grid is defined in the lesson's own earlier blocks.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "As die foto en die kaart nie ooreenstem nie, kyk weer of jy die letter en die syfer reg gesoek het.",
+      "blok": "'n Foto en 'n kaart saam",
+      "status": "bevestig",
+      "bron": "Procedural advice following from the lesson's own definition of a grid reference (Wikipedia, 'Alphanumeric grid'): a mismatch between a square's map features and a photo is most simply explained by reading the wrong cell. Nothing in it claims this is the only possible cause.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "'n Foto wys hoë sandduine waarop baie min plante groei",
+      "blok": "Sandduine in die Namib",
+      "status": "bevestig",
+      "bron": "Wikipedia, 'Sossusvlei' (many dunes over 200 m, Big Daddy about 325 m; Dune 7 near Walvis Bay about 388 m); WWF ecoregion 'Coastal Namibia and Angola' (outer Namib largely barren of vegetation, large areas completely devoid of plants).",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Kolom C en ry 5 kruis in 'n blokkie langs die kus van Namibië. Die fisiese kaart van Afrika wys in daardie blokkie die Namibwoestyn.",
+      "blok": "Sandduine in die Namib",
+      "status": "bevestig",
+      "bron": "Britannica Kids, 'Namib Desert' and WWF ecoregion AT1310: the Namib runs along the Atlantic coast from Namibe in Angola (about 15°S) to the Olifants River in South Africa, with Namibia holding the largest share. Geometry checked against 'Extreme points of Africa' (Wikipedia): the Namibian coast lies about 46% of the way across Africa from west to east and about 75-95% of the way down from north to south. That falls in column C and row 5 on a coarse grid of roughly five or six columns and five or six rows over the continent, which is the kind of grid the lesson describes ('een blokkie dek 'n groot stuk land'). The claim is about the lesson's own map and is realisable as the map block specifies; on a much finer grid the Namib would fall in a different square, so the builder must draw the grid to match the stated C5.",
+      "tipe": "naam"
+    },
+    {
+      "bewering": "Sandduine en min plantegroei pas by 'n woestyn, en daarom stem die foto en die kaart ooreen.",
+      "blok": "Sandduine in die Namib",
+      "status": "bevestig",
+      "bron": "USGS, 'Deserts: Geology and Resources' (deserts have meagre rainfall that supports only sparse vegetation; they may be regions of sand or of rock and gravel); USGS 'Desert features' (sand covers about 20% of the world's deserts). The lesson says dunes and sparse plants 'pas by' a desert, not that every desert has dunes, so it stays true.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "Die Namibwoestyn langs die kus van Namibië lê in blokkie C5, waar kolom C en ry 5 kruis, en die kaart wys die Namib by sy naam as woestyn.",
+      "blok": "Sandduine in die Namib (kaart)",
+      "status": "bevestig",
+      "bron": "Same as the C5 item above: the Namib's position (Britannica Kids, WWF AT1310) is compatible with C5 on a coarse five-to-six-square grid over Africa (Wikipedia, 'Extreme points of Africa'). Physical maps of Africa routinely label the Namib Desert by name. This is an instruction to the map builder, consistent with the study text.",
+      "tipe": "naam"
+    },
+    {
+      "bewering": "ruitnet: 'n Patroon van lyne wat 'n kaart in blokkies verdeel.",
+      "blok": "begrip: ruitnet",
+      "status": "bevestig",
+      "bron": "Esri ArcGIS Pro help, 'Reference grids' (a grid of lines dividing the map into squares); Wikipedia, 'Alphanumeric grid'.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "ruitverwysing: 'n Letter en 'n syfer wat saam een blokkie op 'n kaart noem.",
+      "blok": "begrip: ruitverwysing",
+      "status": "bevestig",
+      "bron": "Wikipedia, 'Alphanumeric grid' (also called atlas grid: each cell identified by a combination of a letter and a number). Accurate for the atlas grid this lesson and its CAPS bullet teach. Note for a person, not a fault: other grid systems (for example Britain's numeric national grid) write grid references with numbers only, so the entry describes the atlas form rather than every possible grid reference.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "kolom: 'n Strook blokkies wat van bo na onder oor 'n kaart loop.",
+      "blok": "begrip: kolom",
+      "status": "bevestig",
+      "bron": "Davis, Goulding & Suggate (Taylor & Francis), lettered columns running down the map; standard sense of 'column' as a vertical strip.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "ry: 'n Strook blokkies wat van links na regs oor 'n kaart loop.",
+      "blok": "begrip: ry",
+      "status": "bevestig",
+      "bron": "Davis, Goulding & Suggate (Taylor & Francis), numbered rows running across the map; standard sense of 'row' as a horizontal strip.",
+      "tipe": "algemeen"
+    },
+    {
+      "bewering": "naastenby: Omtrent reg, maar nie op die presiese plek of getal nie.",
+      "blok": "begrip: naastenby",
+      "status": "bevestig",
+      "bron": "Wiktionary, 'ten naaste bij' (the Dutch form naastenby descends from: 'about, more or less, roughly, approximately', synonym ongeveer); Weiland's dictionary via DBNL gives 'ten naaste bij' = 'omtrent'; SPIL PLUS (journals.ac.za) article uses Afrikaans 'naastenby' in the sense 'approximately'. The online WAT entry sits behind a login and could not be read.",
+      "tipe": "algemeen"
+    }
+  ],
+  "opsomming": "Every checkable claim holds: the grid, column, row and letter-then-number explanations are correct, the Namib really is a coastal desert of high dunes and very sparse plants along Namibia, and the lesson contains no superlatives or comparisons; the one thing for the map builder is that the Namib only lands in C5 on a coarse grid of about five or six squares each way across Africa, which is what the map block asks for."
+}

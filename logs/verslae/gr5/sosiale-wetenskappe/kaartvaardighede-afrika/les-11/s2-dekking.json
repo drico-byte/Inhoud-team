@@ -1,0 +1,54 @@
+{
+  "skema_weergawe": "1.0",
+  "nasiener": "dekking",
+  "prompt_weergawe": "dekkingsnasiener-v1.5",
+  "les": "Van 'n foto na 'n blokkie op die kaart",
+  "kaps_punt": "Gebruik ruitverwysings wat op 'n kaart voorsien is om ligging naastenby te bepaal vanwaar foto's geneem is (*** Voorsien ruitverwysings van elke foto van 'n bepaalde kaart)",
+  "verdict": "GOEDGEKEUR",
+  "items": [
+    {
+      "tipe": "kern",
+      "verwysing": "'n Ruitnet op 'n kaart: lyne verdeel die kaart in blokkies; die kolomme kry letters (A, B, C ...) en die rye kry syfers (1, 2, 3 ...).",
+      "status": "teenwoordig",
+      "bewys": "Lyne wat 'n kaart in blokkies verdeel — ruitnet, kolom en ry omskryf; kolomme letters vanaf A, rye syfers vanaf 1"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "'n Ruitverwysing is 'n letter en 'n syfer saam, soos B3, en noem een blokkie. Soek eers die kolom (die letter), dan die ry (die syfer); die blokkie is waar hulle kruis.",
+      "status": "teenwoordig",
+      "bewys": "Eers die letter, dan die syfer — B3 as voorbeeld, eers kolom B, blokkie waar kolom B en ry 3 kruis"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "'n Ruitverwysing noem 'n blokkie, nie 'n presiese punt nie, en gee dus net naastenby die ligging (KABV se woord).",
+      "status": "teenwoordig",
+      "bewys": "'n Blokkie, nie 'n kolletjie nie — hele blokkie, nie 'n presiese punt nie; net naastenby die ligging"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Met 'n foto: elke foto kom met 'n ruitverwysing op 'n gegewe kaart. Soek die blokkie, kyk wat die kaart daar wys, en vergelyk dit met die foto - hulle moet ooreenstem.",
+      "status": "teenwoordig",
+      "bewys": "'n Foto en 'n kaart saam — soek die blokkie, kyk wat die kaart wys, vergelyk met die foto, hulle moet ooreenstem"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Een uitgewerkte voorbeeld: 'n foto van sandduine in die Namib, met sy ruitverwysing; die blokkie op die fisiese kaart van Afrika lê langs Namibië se kus en wys woestyn, en die foto stem daarmee ooreen.",
+      "status": "teenwoordig",
+      "bewys": "Sandduine in die Namib — foto met C5, blokkie langs Namibië se kus wys die Namibwoestyn, foto en kaart stem ooreen"
+    },
+    {
+      "tipe": "kern",
+      "verwysing": "Deur kruisverwysing inligting uit verskillende bronne gebruik (Afdeling 2.5.3): 'n foto en 'n kaart saam lees.",
+      "status": "teenwoordig",
+      "bewys": "'n Foto en 'n kaart saam — foto wys hoe 'n plek lyk, kaart waar dit lê; die twee vergelyk"
+    },
+    {
+      "tipe": "fokus",
+      "verwysing": "Lewer hoe 'n ruitverwysing 'n foto aan 'n plek op die kaart van Afrika koppel, sodat 'n mens naastenby kan sê waar dit geneem is.",
+      "status": "teenwoordig",
+      "bewys": "'n Foto en 'n kaart saam; Sandduine in die Namib — 'Ons weet nou naastenby waar die foto geneem is'"
+    }
+  ],
+  "oortollig": [],
+  "opsomming": "Al vyf kernitems, die kaartvaardigheid en die fokusskakel is gedek, al vier verwagte begrippe is daar (ruitverwysing woordeliks die beslisde sin), geen veld bestel 'n eli10-blok nie en die rekordhelfte trek geen bestelling terug nie."
+}

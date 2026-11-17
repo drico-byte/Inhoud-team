@@ -1,0 +1,63 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Lande met 'n kuslyn",
+      "voor": "lê baie lande teen die see",
+      "na": "lê baie lande aan die see",
+      "soort": "idioom",
+      "rede_vinder": "A country lies 'aan die see' in idiomatic Afrikaans; 'teen die see' can read as 'against the sea'.",
+      "fout": "'lande lê teen die see' is not the fixed Afrikaans expression for a country on the coast",
+      "rede_keurder": "'aan die see' is the natural fixed expression for a place on the coast, and the location stays the same, so the meaning does not move."
+    },
+    {
+      "nr": 2,
+      "blok": "Zanzibar: eilande wat aan 'n land behoort",
+      "voor": "See skei die eilande",
+      "na": "Die see skei die eilande",
+      "soort": "grammatika",
+      "rede_vinder": "The bare noun 'See' as subject is unnatural; the definite article is needed.",
+      "fout": "bare 'See' as the subject reads unnaturally",
+      "rede_keurder": "'Die see skei die eilande' is what a fluent writer would write, and the meaning is unchanged."
+    },
+    {
+      "nr": 3,
+      "blok": "Zanzibar: eilande wat aan 'n land behoort",
+      "voor": "maar nie altyd een is nie",
+      "na": "maar dit nie altyd is nie",
+      "soort": "sinsbou",
+      "rede_vinder": "'een is nie' is a wooden reference; 'dit nie altyd is nie' is the natural form and gives the clause after the comma its own subject.",
+      "fout": "'nie altyd een is nie' copies the English 'isn't always one'",
+      "rede_keurder": "Afrikaans normally uses 'dit' to refer back to a predicate ('maar dit nie altyd is nie'), and the claim stays exactly the same."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Lande sonder 'n kus",
+      "teks": "Party lande word aan alle kante deur ander lande omring en het geen kus nie.",
+      "rede": "Not a language fault, so not changed: the body says 'deur ander lande' (plural), while the decided definition of landgeslote uses 'deur land' because Lesotho is surrounded by one country, which the next sentence says. A person may want the body to match."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 262,
+  "woorde_na": 263,
+  "wanneer": "2026-11-17T13:28:07+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Madagaskar: 'n eiland en 'n land",
+      "voor": "in die Indiese Oseaan oos van Mosambiek",
+      "na": "in die Indiese Oseaan, oos van Mosambiek",
+      "soort": "leestekens",
+      "rede_vinder": "A comma separates the two place phrases so 'oos van Mosambiek' is not read as part of the ocean's name or location.",
+      "fout": "none",
+      "rede_keurder": "The phrase reads naturally without a comma, AWS does not require one here, and either reading places Madagascar east of Mozambique, so the change is lateral."
+    }
+  ],
+  "konsep_hash_voor": "sha256:e9b19bfde3d3b4e80eb6ea552bac75d4",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:e96348e153c16288bc57a29eac7c1af8"
+}

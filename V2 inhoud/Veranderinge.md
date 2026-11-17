@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-383 lesse.
+415 lesse.
 
 
 ## Graad 4/Geografie
@@ -149,6 +149,41 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G4_PSW_27 - Die skoon hoek** (goedgekeur 2026-10-23): taalstap: niks verander nie; Taal: AWS-kommas; 'Elke kind het sy hande ingeseep, en 'n maat het die water daaroor gegooi'; die glas-en-naald-reël onveranderd
 - **G4_PSW_28 - Wat MIV is** (goedgekeur 2026-10-23): taalstap: niks verander nie; Taal: AWS-kommas; 'saam uit een pot eet'; 'n meisie wat die medisyne elke dag drink, kan baie jare gesond bly; Feite: MIV maak die afweer teen siekte stadig swakker (begrip); VIGS is wat gebeur wanneer die afweer baie swak gemaak is; die sin 'Jy hardloop nooit weg ...' uitgehaal
 - **G4_PSW_29 - Suster Nomsa oor MIV** (goedgekeur 2026-10-23): 3 taalverandering(s) toegepas; Feite: die medisyne-slot bly binne les 9 se bewerings: iemand wat die medisyne elke dag drink, KAN skool toe gaan, werk en 'n lang lewe lei; nie meer 'by die kliniek' nie; 'en dit is genoeg' en 'n mens draai nooit weg' uitgehaal; slot: 'jy is veilig naby iemand wat met MIV leef'; Taal: AWS-kommas; 'Jy kry MIV nie van ...'; 'naby hom of haar'
+
+## Graad 5/Geografie
+
+- **G5_GEO_01 - Ons aardbol** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_02 - Kontinente en kompas** (goedgekeur 2026-11-17): 3 taalverandering(s) toegepas
+- **G5_GEO_03 - Afrika, lande en grense** (goedgekeur 2026-11-17): 4 taalverandering(s) toegepas
+- **G5_GEO_04 - Kuslande en eilande** (goedgekeur 2026-11-17): 3 taalverandering(s) toegepas
+- **G5_GEO_05 - Ons buurlande** (goedgekeur 2026-11-17): 3 taalverandering(s) toegepas
+- **G5_GEO_06 - Hoofstede en groot stede** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_07 - Die fisiese kaart** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_08 - Berge, mere en riviere** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_09 - Watervalle en woestyne** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_10 - Afrika in foto's** (goedgekeur 2026-11-17): 2 taalverandering(s) toegepas
+- **G5_GEO_11 - Ruitverwysings** (goedgekeur 2026-11-17): 4 taalverandering(s) toegepas
+- **G5_GEO_12 - Suid-Afrika van bo** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_13 - Fisiese streke** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_14 - Berge en heuwels** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_15 - Valleie en kuslyne** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_16 - Plekname** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_17 - Rivierstelsels** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_18 - Ons hoofriviere** (goedgekeur 2026-11-17): 2 taalverandering(s) toegepas
+- **G5_GEO_19 - Land en mense** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_20 - Damme** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_21 - Padbou** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_22 - Weer en neerslag** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_23 - Weer meet** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_24 - Weerkaarte en leefwyse** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_25 - Reënval in Suid-Afrika** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_26 - Reënvalgrafieke** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_27 - Weer en klimaat** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_28 - Klimaatstreke** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_29 - Klimaat by jou** (goedgekeur 2026-11-17): 1 taalverandering(s) toegepas
+- **G5_GEO_30 - Natuurlike plantegroei** (goedgekeur 2026-11-17): 2 taalverandering(s) toegepas
+- **G5_GEO_31 - Plante pas aan** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_32 - Die savanne** (goedgekeur 2026-11-17): taalstap: niks verander nie
 
 ## Graad 5/Geskiedenis
 

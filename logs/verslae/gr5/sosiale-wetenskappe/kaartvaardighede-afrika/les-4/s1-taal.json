@@ -1,0 +1,44 @@
+{
+  "toegepas": [],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Madagaskar: 'n eiland en 'n land",
+      "voor": "in die Indiese Oseaan oos van Mosambiek",
+      "na": "in die Indiese Oseaan, oos van Mosambiek",
+      "soort": "leestekens",
+      "rede_vinder": "A comma separates the two place phrases so 'oos van Mosambiek' is not read as part of the ocean's name or location.",
+      "fout": "none",
+      "rede_keurder": "The phrase reads naturally without a comma, AWS does not require one here, and either reading places Madagascar east of Mozambique, so the change is lateral."
+    }
+  ],
+  "na_skrywer": [
+    {
+      "nr": 2,
+      "blok": "Zanzibar: eilande wat aan 'n land behoort",
+      "voor": "Daar lê see tussen hulle, maar",
+      "na": "Daar lê see tussen Zanzibar en die vasteland, maar",
+      "soort": "verwysing",
+      "rede_vinder": "'hulle' could mean the islands among themselves or Zanzibar and Tanzania; naming both sides removes the doubt, and 'vasteland' avoids the odd claim of sea between Zanzibar and the country it belongs to.",
+      "fout": "'hulle' after 'Zanzibar is 'n eilandgroep naby die kus van Tanzanie' can be read as the islands among themselves or as Zanzibar and Tanzania, and sea 'between' Zanzibar and the country it belongs to is loose.",
+      "rede_keurder": "The ambiguous pronoun is a real fault, but the fix swaps the referent from Tanzania to a new term 'vasteland', which shifts what the sentence contrasts with, so the writer should choose the wording.",
+      "waarom": "the reviewer sent it to the writer"
+    }
+  ],
+  "vlae": [
+    {
+      "blok": "Madagaskar: 'n eiland en 'n land",
+      "teks": "'n Eiland is 'n stuk land met water aan alle kante.",
+      "rede": "The study text gives a shorter version of the decided definition of 'eiland' (it omits 'kleiner as die kleinste kontinent'); a person should decide whether this counts as a second definition of the term within the year."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 253,
+  "woorde_na": 253,
+  "wanneer": "2026-11-17T13:17:28+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:90cf9e1f973380ab4382de2192b77cef",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:90cf9e1f973380ab4382de2192b77cef"
+}

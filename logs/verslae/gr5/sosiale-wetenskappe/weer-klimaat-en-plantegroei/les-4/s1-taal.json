@@ -1,0 +1,73 @@
+{
+  "toegepas": [
+    {
+      "nr": 2,
+      "blok": "Die reënvalkaart",
+      "voor": "Elke kleur staan vir hoeveel",
+      "na": "Elke kleur dui aan hoeveel",
+      "soort": "anglisisme",
+      "rede_vinder": "'Staan vir' calques 'stands for'; 'dui aan' is the idiomatic Afrikaans.",
+      "fout": "'Staan vir' copies English 'stands for' and sits awkwardly before an indirect question clause.",
+      "rede_keurder": "'Dui aan hoeveel' is the natural Afrikaans and keeps 'gewoonlik' and the meaning intact."
+    },
+    {
+      "nr": 3,
+      "blok": "'n Patroon en nie 'n reël nie",
+      "voor": "Hierdie patroon is algemeen en nie 'n reël vir elke plek nie.",
+      "na": "Hierdie patroon geld in die algemeen, maar dit is nie 'n reël vir elke plek nie.",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Is algemeen' can be read as 'is common'; 'geld in die algemeen' says the intended 'holds in general' and the contrast reads more clearly with 'maar'.",
+      "fout": "'Is algemeen' reads as 'is common' rather than 'holds in general', which is stiff and vague here.",
+      "rede_keurder": "'Geld in die algemeen, maar' says the intended meaning plainly with a correct AWS comma, and the pattern-versus-rule contrast is unchanged."
+    },
+    {
+      "nr": 5,
+      "blok": "Nat in die ooste, droog in die weste (kaart)",
+      "voor": "met kleure van nat na droog, met 'n sleutel in woorde, van baie reën tot min reën.",
+      "na": "met kleure van nat na droog. Die sleutel is in woorde en gaan van baie reën tot min reën.",
+      "soort": "sinsbou",
+      "rede_vinder": "The doubled 'met' and the dangling 'van baie reën tot min reën' make the sentence hard to follow; splitting it keeps the meaning.",
+      "fout": "The doubled 'met' and the dangling 'van baie reen tot min reen' make the sentence hard to follow on a first reading.",
+      "rede_keurder": "Splitting it into two sentences keeps every element of the map description and reads clearly."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Reën in millimeter",
+      "voor": "Stel jou voor al die reën bly op 'n plat, harde vloer staan.",
+      "na": "Stel jou voor dat al die reën op 'n plat, harde vloer bly staan.",
+      "soort": "sinsbou",
+      "rede_vinder": "The subordinate clause reads more naturally with 'dat' and the verb cluster 'bly staan' kept together; the protected 'plat, harde vloer' is untouched.",
+      "fout": "none",
+      "rede_keurder": "The original is natural spoken Afrikaans after 'stel jou voor' and reads easily; adding 'dat' and moving 'bly' is a lateral move."
+    },
+    {
+      "nr": 4,
+      "blok": "'n Patroon en nie 'n reël nie",
+      "voor": "baie natter as die land om hulle",
+      "na": "baie natter as die land rondom hulle",
+      "soort": "idioom",
+      "rede_vinder": "'Rondom hulle' is the natural form for surrounding land and matches 'rondom Kaapstad' in the next sentence.",
+      "fout": "none",
+      "rede_keurder": "'Die land om hulle' is correct Afrikaans, and 'rondom' would repeat the word in the very next sentence."
+    }
+  ],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Reën in millimeter",
+      "teks": "Reën word in millimeter gemeet, soos die kleinste strepies op 'n liniaal.",
+      "rede": "The comparison is loose: a millimetre is the gap between the smallest marks, not the marks themselves, and rain is not measured 'like' marks; fixing it needs the writer to choose the intended picture."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 198,
+  "woorde_na": 202,
+  "wanneer": "2026-11-17T13:23:21+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:2507acf7c5720038e08d78cd6d362014",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:00c0b6b06eac9c006a821140e35e7590"
+}
