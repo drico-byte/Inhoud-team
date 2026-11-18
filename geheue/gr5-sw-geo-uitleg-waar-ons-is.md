@@ -147,3 +147,11 @@ entry's reason names Gr 7 LO; staal/vlekvrye staal/suurstof differ from Gr 5 NWT
 meeste swart". Video-owner notes: video says coal reserves >100 years, Limpopo for copper only NC, "mag nie sonder toestemming", "almal se
 verantwoordelikheid", De Beers 1947 - all routed around, listed in each spec lesson's video_naat. Reprint re-checks: coal share of SA
 electricity (~78-82%, falling), Venetia restart (~2028), Finsch (business rescue 2026).
+**18 Nov 2026 afternoon - Lampies' answers:** (1) YES to the four protected-wording fixes: les 34 "byna niks hulle kan krap nie",
+les 42 "mettertyd", les 43 "gasse bevat" and "... maar ook in myne wat nog werk. Mense haal ook ander minerale as goud onwettig uit."
+- applied, protected words updated, rechecked, re-signed off and redelivered (34, 42, 43). (2) Cross-subject wording differences
+(coal, steel, oxygen vs Gr 5 NWT): LEAVE them. (3) Text not repeating/correcting the video: confirmed. (4) Venetia: checked 18 Nov -
+NOT restarted (two-year pause announced July 2026, no restart date); keep on the reprint list.
+Recheck also fixed: les 42 matches rule = the miners' OWN matches/lighters underground (mines issue controlled devices; 'niemand' too
+absolute - two fact checks disagreed, this wording passed). Video_naat source text (h4b clip 12, 13) corrected so no stale 'write this'
+suggestion remains (exception for the safety team, right not 'mag', 'baie van die geld', coal not a mineral).

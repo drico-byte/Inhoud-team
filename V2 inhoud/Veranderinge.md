@@ -194,7 +194,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G5_GEO_40 - Plante, diere en afval** (goedgekeur 2026-11-18): 3 taalverandering(s) toegepas
 - **G5_GEO_41 - Werk in 'n goudmyn** (goedgekeur 2026-11-18): taalstap: niks verander nie
 - **G5_GEO_42 - Veiligheid in myne** (goedgekeur 2026-11-18): taalstap: niks verander nie
-- **G5_GEO_43 - Die zama-zama's** (goedgekeur 2026-11-18): 2 taalverandering(s) toegepas
+- **G5_GEO_43 - Die zama-zama's** (goedgekeur 2026-11-18): taalstap: niks verander nie
 
 ## Graad 5/Geskiedenis
 
