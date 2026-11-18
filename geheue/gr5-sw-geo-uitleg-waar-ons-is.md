@@ -117,3 +117,33 @@ Mineral = natural non-living solid in crust rocks, coal excluded BY NAME (shell 
 Spelling: nie-hernubaar (as Gr 5/6 NWT), oopmynbou/oppervlakmynbou, zama-zama's. APPROVED by Lampies 17 Nov 2026 incl. lesson 37's
 reading of "mynbou-omgewing" (pit/shaft, processing plant, waste heaps, roads). Brief: videoskrifte/gr5-geo-nagaan/BEPLANNER-OPDRAG-KW4.md.
 Drafting started: writers 1-6, then 7-11.
+17 Nov: all 11 Term 4 drafted. Spec fixed at source after writers: coal "donker, die meeste swart"; les 9 ice "sommige myne",
+fresh air "nie vanself genoeg", dust from drilling/blasting not depth; les 10 silicosis "kan veroorsaak", right to leave (video_naat
+besluit G5_GEO_42 overrides 'mag'); les 11 dangers quantified (gewoonlik/die meeste/dikwels); video_naat besluit G5_GEO_33 (no
+universal organic rule). Drift: 7 terms; reconciliation agent running (VERSOENING-OPDRAG-KW4.md -> versoening-kw4.json).
+18 Nov (after the usage-limit stop overnight; the 5 revision writers were resumed, nothing half-written): all 11 pass the gate.
+G5_GEO_38 SIGNED OFF + delivered. Fact fixes at source 18 Nov: Venetia (Limpopo diamonds) paused mid-2026 for two years ->
+diamonds "veral Noord-Kaap en Gauteng", not Limpopo (spec kern/kaart/feiterisiko, video_naat besluit G5_GEO_36, protected entry
+removed); eMalahleni is a STAD since 1994; coal-not-mineral reason = made of plant remains, NOT "nie-lewend" (coal isn't alive
+either). Protected: houses-not-services sentence (les 4, the language step had re-merged it) and "bring baie van daardie rots na bo"
+(les 7, a later finder re-proposed the ambiguous 'daarvan'). Lesson 37 pollution order now points to the agreed list.
+18 Nov midday: SIGNED OFF + delivered G5_GEO_33, 35, 38, 39, 40, 41 (6 of 11). Two fact checks disagreed on diamonds in Limpopo
+(Venetia paused mid-2026 vs still SA's biggest source) -> resolved: diamonds "kom veral voor" in Noord-Kaap, Limpopo, Gauteng (where
+found, not mined now; no Venetia/'grootste'/year) - spec, kaart, video_naat besluit. Les 11: "die meeste ... of opleiding" unsupported
+(some zama-zama's are ex-mineworkers) -> "baie werk sonder die regte veiligheidstoerusting". Les 11 video_naat besluit: never 'die meeste
+van die geld'. Reprint re-checks to add: SA electricity from coal ~78-82% (falling; lesson says 'die meeste'); Venetia restart (~2028).
+In flight: les 4 + 11 writer (rev 2), checks for 2, 5, 10.
+
+**DONE 18 Nov 2026: all 11 Term 4 lessons (G5_GEO_33-43) signed off and delivered** (Voltooide lesse + V3 library Graad 5/GEO/Inhoud,
+now 43; G5_GEO_44 is video only). Drift sweep: no drift, 90 shared terms over 88 Gr 5 SW lessons. Fact errors fixed in lesson AND
+spec (all dated 18 Nov): coal-not-mineral reason (made of plant remains, not "non-living"); diamonds "kom voor" in NC/Limpopo/Gauteng
+(two checks disagreed over Venetia's 2026 pause); eMalahleni a stad; deposits not all "lae" (diamonds in pipes); silver/copper not
+"van die belangrikste"; "niemand mag ingaan" + the legal exception for the trained team that makes it safe; matches/lighters banned
+UNDER THE GROUND (not every mine); zama-zama's "baie ... sonder die regte veiligheidstoerusting" (not "die meeste", not training).
+Lesson 4 houses-not-services and lesson 7 'daardie rots' are protected (language rounds kept undoing them).
+For a person (not blocking): protected wordings the language agents doubted - les 2 "byna niks 'n krap" (anglicism), les 10 "oor tyd"
+(mettertyd?), les 11 "die lug kan gevaarlike gasse hê" (bevat?) and "maar ook in myne wat nog werk en vir ander minerale"; les 6 'gewoonlik'
+entry's reason names Gr 7 LO; staal/vlekvrye staal/suurstof differ from Gr 5 NWT wordings; coal: NWT "harde swart klip" vs SW "donker,
+meeste swart". Video-owner notes: video says coal reserves >100 years, Limpopo for copper only NC, "mag nie sonder toestemming", "almal se
+verantwoordelikheid", De Beers 1947 - all routed around, listed in each spec lesson's video_naat. Reprint re-checks: coal share of SA
+electricity (~78-82%, falling), Venetia restart (~2028), Finsch (business rescue 2026).

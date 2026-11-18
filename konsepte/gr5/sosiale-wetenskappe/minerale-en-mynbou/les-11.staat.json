@@ -1,0 +1,180 @@
+{
+  "les": "gr5/sosiale-wetenskappe/minerale-en-mynbou/les-11",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:a1ccf024ebbf8a3ce06a8aacf1634c10",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:ddd103abede5a1fbe8887d8bf9d2d2ae"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-18T08:38:17+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ddd103abede5a1fbe8887d8bf9d2d2ae",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-18T08:38:19+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 222,
+      "begroting": 225,
+      "failures": [
+        "Study text: syllables per word 1.66 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 17.1% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-18T08:38:19+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: syllables per word 1.66 above maximum 1.52 — replace long words with plainer equivalents",
+        "Study text: 3+ syllable words 17.1% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-18T08:42:18+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:ce6a938e58288d716a0b5271fb9c1670",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-18T08:42:22+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 235,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:10:25+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 2,
+      "nie_toegepas": 0,
+      "woorde_voor": 235,
+      "woorde_na": 235,
+      "konsep_hash": "sha256:0965435b203a85d25cf61469a6e6e0fe"
+    },
+    {
+      "wanneer": "2026-11-18T09:10:30+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 235,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:10:30+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "fix: [taal] in ''n Myn waar die eienaars opgehou het om te myn en wat hulle agtergelaa': The definition mixes 'waar' and 'wat' for the same noun and reads awkwardly.",
+        "fix: [taal] in 'met groot krag uitbars': 'uitbars' is a loose verb for an explosive; 'ontplof' is the usual one."
+      ]
+    },
+    {
+      "wanneer": "2026-11-18T09:17:38+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:5145ed6fa751f0053e7261f5cdab00bf",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-18T09:17:41+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 235,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:22:45+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 0,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 235,
+      "woorde_na": 235
+    },
+    {
+      "wanneer": "2026-11-18T09:40:54+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:7dfc7b576546b5091fc3d325e504932a",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-18T09:41:00+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 237,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:43:41+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 237,
+      "woorde_na": 236,
+      "konsep_hash": "sha256:a1ccf024ebbf8a3ce06a8aacf1634c10"
+    },
+    {
+      "wanneer": "2026-11-18T09:43:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 236,
+      "begroting": 225,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:50:07+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 8,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:50:10+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 28,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:50:11+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\minerale-en-mynbou\\les-11.json",
+      "konsep_hash": "sha256:a1ccf024ebbf8a3ce06a8aacf1634c10",
+      "vervang": false
+    }
+  ],
+  "taal_vir_skrywer": [],
+  "spek_hash": "sha256:263e0c64e77b1e78f4f6ce721b1f5154",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 225
+  },
+  "taal_rondte_vir": "sha256:a1ccf024ebbf8a3ce06a8aacf1634c10",
+  "taal_keurder_vir": "fa0abdb1a10634878d55ede4533d20b6",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:a1ccf024ebbf8a3ce06a8aacf1634c10",
+  "taal_vir_mens": [
+    "[taal, protected word] 'die lug kan gevaarlike gasse hê': 'Lug ... gasse hê' is wooden; 'die lug kan gevaarlike gasse bevat' keeps the protected 'kan' and reads more naturally. Left unchanged because the whole phrase is protected.",
+    "[taal, protected word] 'maar ook in myne wat nog werk en vir ander minerale': The phrase joins 'in myne' and 'vir ander minerale' as if they were parallel, which reads awkwardly; something like 'en ook vir ander minerale as goud' would be smoother. Left unchanged because the phrase is protected."
+  ],
+  "taal_bons_vir": "sha256:0965435b203a85d25cf61469a6e6e0fe",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "69d881fccb08185d3ff02195852dcd5b"
+}

@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-415 lesse.
+426 lesse.
 
 
 ## Graad 4/Geografie
@@ -184,6 +184,17 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G5_GEO_30 - Natuurlike plantegroei** (goedgekeur 2026-11-17): 2 taalverandering(s) toegepas
 - **G5_GEO_31 - Plante pas aan** (goedgekeur 2026-11-17): taalstap: niks verander nie
 - **G5_GEO_32 - Die savanne** (goedgekeur 2026-11-17): taalstap: niks verander nie
+- **G5_GEO_33 - Nie-hernubare minerale** (goedgekeur 2026-11-18): 2 taalverandering(s) toegepas
+- **G5_GEO_34 - Belangrike minerale** (goedgekeur 2026-11-18): taalstap: niks verander nie
+- **G5_GEO_35 - Steenkool** (goedgekeur 2026-11-18): taalstap: niks verander nie
+- **G5_GEO_36 - Myne en nedersettings** (goedgekeur 2026-11-18): taalstap: niks verander nie
+- **G5_GEO_37 - Wat mynbou is** (goedgekeur 2026-11-18): 1 taalverandering(s) toegepas
+- **G5_GEO_38 - Oopgroef- en skagmyne** (goedgekeur 2026-11-18): 5 taalverandering(s) toegepas
+- **G5_GEO_39 - Water- en lugbesoedeling** (goedgekeur 2026-11-18): taalstap: niks verander nie
+- **G5_GEO_40 - Plante, diere en afval** (goedgekeur 2026-11-18): 3 taalverandering(s) toegepas
+- **G5_GEO_41 - Werk in 'n goudmyn** (goedgekeur 2026-11-18): taalstap: niks verander nie
+- **G5_GEO_42 - Veiligheid in myne** (goedgekeur 2026-11-18): taalstap: niks verander nie
+- **G5_GEO_43 - Die zama-zama's** (goedgekeur 2026-11-18): 2 taalverandering(s) toegepas
 
 ## Graad 5/Geskiedenis
 

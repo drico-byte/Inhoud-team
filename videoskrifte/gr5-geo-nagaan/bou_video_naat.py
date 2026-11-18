@@ -39,9 +39,12 @@ EKSTRA = {
     "G5_GEO_09": ["Die video het nie die Maletsunyane-waterval nie. KABV noem hom: die teks dra hom (Lampies, 17 November 2026)."],
     "G5_GEO_16": ["Waar 'n voorstel hieronder 'n betekenis vir 'Gariep' gee of die koning by die naam noem, wen die spesifikasie: die teks gee GEEN betekenis vir Gariep nie (soos Graad 5 Geskiedenis) en skryf net 'die Portugese koning' (spesifikasie-feitetoets, 17 November 2026)."],
     "G5_GEO_05": ["Die video gebruik Eswatini. Die teks skryf die eerste keer 'Eswatini (Swaziland)', daarna net 'Eswatini' (Lampies, 17 November 2026)."],
+    "G5_GEO_33": ["Waar 'n voorstel in hierdie naat sê minerale vorm 'nie uit plante of diere' nie, wen die spesifikasie: GEEN algemene reël oor wat uit lewende dinge vorm nie (skulpminerale bestaan); die omskrywing sluit steenkool BY NAAM uit, soos KABV se voetnoot (spesifikasie-feitetoets, 17 November 2026)."],
     "G5_GEO_34": ["KABV noem agt minerale uitdruklik (goud, platinum, diamante, ystererts, chroom, koper, silwer, mangaan): al agt is verpligtend in die teks, elk met sy gebruik (Lampies, 17 November 2026). Die video se verhaal oor 'n diamantadvertensie is buite KABV; die teks hoef dit nie te dra nie."],
     "G5_GEO_35": ["Die video sê nêrens dat steenkool NIE 'n mineraal is nie. KABV se voetnoot sê dit: steenkool vorm uit plantoorblyfsels en is dus nie 'n mineraal nie. Die teks MOET dit sê (Lampies, 17 November 2026)."],
-    "G5_GEO_43": ["Ekstra buite KABV (Lampies, 17 November 2026): waar, niks grafies nie, nooit vals deur weglating nie; begroting 225, plafon 250."],
+    "G5_GEO_36": ["Waar 'n voorstel in hierdie naat Venetia die grootste diamantmyn noem of sê diamante word in Limpopo ontgin, wen die spesifikasie: die teks sê diamante KOM VOOR in die Noord-Kaap, Limpopo en Gauteng, sonder Venetia, 'grootste' of 'n jaartal (Venetia staan vanaf middel 2026 tydelik stil; feitetoetse 18 November 2026). eMalahleni is 'n stad, nie 'n dorp nie."],
+    "G5_GEO_42": ["Waar 'n voorstel in hierdie naat sê 'n mynwerker 'mag' 'n gevaarlike plek verlaat, wen die spesifikasie: dit is 'n REG wat die wet elke mynwerker gee, nooit 'n keuse met 'mag' nie (spesifikasie-feitetoets, 17 November 2026)."],
+    "G5_GEO_43": ["Ekstra buite KABV (Lampies, 17 November 2026): waar, niks grafies nie, nooit vals deur weglating nie; begroting 225, plafon 250.", "Waar 'n voorstel in hierdie naat sê die bendes maak 'die meeste' van die geld, wen die spesifikasie: 'baie van die geld', nooit 'die meeste' nie (geen bron gee 'n deel nie; spesifikasie-feitetoets 17 November 2026, dekkingstoets 18 November 2026)."],
 }
 
 

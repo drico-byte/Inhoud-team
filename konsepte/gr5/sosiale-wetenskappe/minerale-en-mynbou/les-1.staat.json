@@ -1,0 +1,119 @@
+{
+  "les": "gr5/sosiale-wetenskappe/minerale-en-mynbou/les-1",
+  "skema_weergawe": "1.0",
+  "konsep_hash": "sha256:2acba4f0ab8ec181c8af7844adef4f1b",
+  "hek": "PASS",
+  "teruggestuur_vir": [
+    "sha256:f9eea1d50d451eaa2ac1d069b7d2837b"
+  ],
+  "eskalasie": null,
+  "blok_faalrondtes": {},
+  "eli10_voorkyk": null,
+  "geskiedenis": [
+    {
+      "wanneer": "2026-11-18T08:37:46+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:f9eea1d50d451eaa2ac1d069b7d2837b",
+      "siklus": 1
+    },
+    {
+      "wanneer": "2026-11-18T08:37:48+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "FAIL",
+      "woorde": 205,
+      "begroting": 200,
+      "failures": [
+        "Study text: 3+ syllable words 15.1% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-18T08:37:48+00:00",
+      "gebeurtenis": "teruggestuur",
+      "rede": "gate FAIL",
+      "bron": "gate.py",
+      "siklus": 1,
+      "punte": [
+        "Study text: 3+ syllable words 15.1% above maximum 13.0%"
+      ]
+    },
+    {
+      "wanneer": "2026-11-18T08:42:15+00:00",
+      "gebeurtenis": "nuwe_konsep",
+      "konsep_hash": "sha256:52e24a2d4fe08c0f64b56cf070557eaf",
+      "siklus": 2
+    },
+    {
+      "wanneer": "2026-11-18T08:42:17+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 216,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:08:38+00:00",
+      "gebeurtenis": "taal",
+      "toegepas": 2,
+      "laat_vaar": 0,
+      "na_skrywer": 0,
+      "nie_toegepas": 0,
+      "woorde_voor": 216,
+      "woorde_na": 215,
+      "konsep_hash": "sha256:2acba4f0ab8ec181c8af7844adef4f1b"
+    },
+    {
+      "wanneer": "2026-11-18T09:08:51+00:00",
+      "gebeurtenis": "hek",
+      "verdict": "PASS",
+      "woorde": 215,
+      "begroting": 200,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:08:53+00:00",
+      "gebeurtenis": "taal_na_skrywer",
+      "punte": [
+        "check (the language finder raised this; it may not be a fault): ''n Mineraalafsetting is 'n plek waar baie van 'n mineraal bymekaar lê.': The decided definition and the glossary say 'n plek in die aardkors waar'; the study sentence leaves out 'in die aardkors'. Adding it would change content, so it is flagged for the writer rather than changed."
+      ]
+    },
+    {
+      "wanneer": "2026-11-18T09:32:51+00:00",
+      "gebeurtenis": "nasien_dekking",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 9,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:32:54+00:00",
+      "gebeurtenis": "nasien_feite",
+      "verdict": "GOEDGEKEUR",
+      "sound": true,
+      "items": 22,
+      "failures": []
+    },
+    {
+      "wanneer": "2026-11-18T09:32:55+00:00",
+      "gebeurtenis": "goedgekeur",
+      "doel": "C:\\Users\\SOSSpaarPC\\Wolkskool AI\\Wolkskool projekte\\Inhoud-team\\konsepte\\gr5\\sosiale-wetenskappe\\minerale-en-mynbou\\les-1.json",
+      "konsep_hash": "sha256:2acba4f0ab8ec181c8af7844adef4f1b",
+      "vervang": false
+    }
+  ],
+  "taal_vir_skrywer": [
+    "check (the language finder raised this; it may not be a fault): ''n Mineraalafsetting is 'n plek waar baie van 'n mineraal bymekaar lê.': The decided definition and the glossary say 'n plek in die aardkors waar'; the study sentence leaves out 'in die aardkors'. Adding it would change content, so it is flagged for the writer rather than changed."
+  ],
+  "spek_hash": "sha256:7afa74e8f3efe923152c6d80f203d412",
+  "hek_konteks": {
+    "graad": 5,
+    "begroting": 200
+  },
+  "taal_rondte_vir": "sha256:2acba4f0ab8ec181c8af7844adef4f1b",
+  "taal_keurder_vir": "c3deb1c5482617bd8c3d4d9c8a3b4535",
+  "taal_ooit_toegepas": true,
+  "taal_klaar_vir": "sha256:2acba4f0ab8ec181c8af7844adef4f1b",
+  "taal_vir_mens": [],
+  "taal_bons_vir": "sha256:2acba4f0ab8ec181c8af7844adef4f1b",
+  "taal_bons_siklus": 2,
+  "taal_bons_nota": "22264a6629d71efe9d23623313a2d36b"
+}

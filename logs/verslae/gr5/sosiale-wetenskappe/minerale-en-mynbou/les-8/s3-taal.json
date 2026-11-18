@@ -1,0 +1,46 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Kaal grond spoel weg",
+      "voor": "grond weg en waai die wind",
+      "na": "grond weg, en waai die wind",
+      "soort": "leestekens",
+      "rede_vinder": "AWS 2017: 'en' joins two clauses with their own subject and verb (reen spoel / die wind waai), so a comma goes before it; the protected wording stays intact.",
+      "fout": "Missing AWS comma before 'en' joining two clauses with their own subject and verb (reen spoel / die wind waai).",
+      "rede_keurder": "Punctuation fix per AWS 2017; the protected wording 'spoel reen die kaal grond weg' stays intact."
+    },
+    {
+      "nr": 2,
+      "blok": "Vuil water van toilette en storte",
+      "voor": "Die toilette en storte by die myn en by die mynwerkers se huise maak elke dag baie vuil afvalwater.",
+      "na": "Uit die toilette en storte by die myn en by die mynwerkers se huise loop elke dag baie vuil afvalwater.",
+      "soort": "woordkeuse",
+      "rede_vinder": "Toilets and showers do not 'maak' water; water runs out of them, which also matches the glossary's 'wegloop'.",
+      "fout": "'maak' is the wrong verb: toilets and showers do not make water, it runs out of them.",
+      "rede_keurder": "The right verb replaces a loose 'maak' without moving the meaning, and it matches the glossary's 'wegloop'."
+    },
+    {
+      "nr": 3,
+      "blok": "Vuil water van toilette en storte",
+      "voor": "Anders besoedel dit die water vir mense, plante en diere stroomaf.",
+      "na": "Anders besoedel dit die water stroomaf vir mense, plante en diere.",
+      "soort": "woordorde",
+      "rede_vinder": "'stroomaf' belongs to the water, not to the last item of the list, so it reads more naturally right after 'die water'.",
+      "fout": "'stroomaf' at the end of the list reads as if it belongs only to 'diere'.",
+      "rede_keurder": "Placing 'stroomaf' after 'die water' attaches it to the water and removes the stumble, with the same meaning."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 266,
+  "woorde_na": 267,
+  "wanneer": "2026-11-18T09:09:42+00:00",
+  "laat_vaar_vorige": [],
+  "konsep_hash_voor": "sha256:57a7f5a8ae4a76c23d265a87141854ac",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a6ab8fe998edddfc69f8d470e936cefc"
+}
