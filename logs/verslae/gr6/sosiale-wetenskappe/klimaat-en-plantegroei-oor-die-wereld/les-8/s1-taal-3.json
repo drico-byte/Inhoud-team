@@ -1,0 +1,57 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "Hoe hierdie streek van die ander twee verskil",
+      "voor": "somer, waar die reënwoud",
+      "na": "somer, terwyl die reënwoud",
+      "soort": "anglisisme",
+      "rede_vinder": "Contrastive 'waar' (English 'whereas') is an anglicism; the protected entry explicitly allows 'terwyl' here.",
+      "fout": "Contrastive 'waar' after 'n egte somer' first reads as locative ('where'), a stumble for a Grade 6 reader.",
+      "rede_keurder": "'terwyl' is the natural contrastive conjunction, the protected entry explicitly allows it, and the repeat of 'terwyl' from the previous sentence is a small cost against the misreading."
+    },
+    {
+      "nr": 2,
+      "blok": "'n Lang winter en 'n kort somer",
+      "voor": "Die maandelikse gemiddeldes wys",
+      "na": "Die maandelikse gemiddelde temperature wys",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Gemiddeldes' alone does not say of what; the coldest/warmest contrast shows it means temperature.",
+      "fout": "'Die maandelikse gemiddeldes' does not say averages of what.",
+      "rede_keurder": "The coldest/warmest-month contrast already fixes the meaning as temperature, so naming it makes the sentence exact without adding a fact."
+    },
+    {
+      "nr": 3,
+      "blok": "Die natuurlike plantegroei: naalde en keëls",
+      "voor": "Woude van hierdie boom dek",
+      "na": "Woude van hierdie soort boom dek",
+      "soort": "verwysing",
+      "rede_vinder": "The antecedent is 'een soort naaldboom', so 'hierdie boom' wrongly reads as a single tree.",
+      "fout": "'hierdie boom' after 'een soort naaldboom' reads as one single tree.",
+      "rede_keurder": "'hierdie soort boom' matches its antecedent and leaves the protected wording and the meaning intact."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 441,
+  "woorde_na": 443,
+  "wanneer": "2026-11-18T13:58:51+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Wat die kaarte van hierdie band wys",
+      "voor": "Twee kaarte is dus nodig om",
+      "na": "Daar is dus twee kaarte nodig om",
+      "soort": "sinsbou",
+      "rede_vinder": "Afrikaans normally states a need with 'daar is ... nodig'; the bare subject-first form reads like a translation.",
+      "fout": "none",
+      "rede_keurder": "'Twee kaarte is dus nodig' is already natural Afrikaans; the 'daar is' form only reads differently, a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:ca48a01994ce614908f5d20b7bab69bc",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:fc4e0e3dd475ef07768a290c68f52b14"
+}

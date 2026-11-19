@@ -19,6 +19,37 @@ repository.
 You supply your own `bronne/` (textbooks) and `kaps/dokumente/` (CAPS PDFs). Both
 are gitignored and neither travels with the repository.
 
+## Every session: read the HTML team's queries first
+
+**At the start of every session, read `V2 inhoud/Terugvoer/HTML-span-navrae.md`.**
+It is the one channel between this team and the HTML team (operator, 2026-11-18).
+The HTML team builds every V2 lesson into HTML, reproduces the text exactly, and
+writes a row there when a wording, a fact or the change list looks wrong. Before
+this rule nothing pointed at the file, so its queries went unanswered.
+
+For each row with status `oop`:
+
+- **If the V2 text must change:** fix it through the pipeline as usual and
+  **reissue the lesson** (new `json_sha256` in `manifest.json`). Then write in
+  the row's *Antwoord* what changed and that it is reissued, add the date, and
+  set the status to `beantwoord`. A reissue is the only thing that changes the
+  HTML; the HTML team never rewords V2 text.
+- **If the wording is intended:** write "bedoel so" (with a reason if useful),
+  add the date, and set `beantwoord`.
+- **If it needs a person's decision:** say so in *Antwoord*, leave it `oop`, and
+  raise it with the operator.
+
+Never edit the HTML team's own columns or delete a row; they set `toegepas` once
+they have rebuilt or closed it.
+
+If you have something to tell the HTML team, add a row at the bottom of the
+queries table with the next `N` number, written by you, and status `oop`. A
+plain notice ("Les 12 is reissued") is fine. **Anything that would change how
+the HTML team works** — its look, what it draws, a ruling, its process — must be
+marked **`voorstel`** in the *Exact V2 text / place* column. It is a suggestion
+only: the operator decides, and the HTML team acts on it only after he approves
+it (operator, 2026-11-18).
+
 ## The copyright boundary — the one rule that must never bend
 
 **Only `profiler.py` may read a textbook, and it emits numbers only.** The planner

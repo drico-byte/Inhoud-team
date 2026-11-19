@@ -1,15 +1,37 @@
 {
   "toegepas": [],
   "nie_toegepas": [],
-  "laat_vaar": [],
+  "laat_vaar": [
+    {
+      "nr": 1,
+      "blok": "Land en water op die aardbol",
+      "voor": "waterruimtes om die kontinente",
+      "na": "waterruimtes rondom die kontinente",
+      "soort": "woordkeuse",
+      "rede_vinder": "'rondom' states the surrounding position more clearly and naturally than bare 'om' for a Grade 4 reader.",
+      "fout": "none",
+      "rede_keurder": "Lateral move: 'om die kontinente' is already natural Afrikaans with the same meaning, so 'rondom' only reads differently."
+    }
+  ],
   "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 386,
-  "woorde_na": 386,
-  "wanneer": "2026-10-23T12:08:40+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:77d481487b7f11cac42be83cd1ce5d05",
-  "prompts": "taalvinder-v1.1 + -",
-  "konsep_hash_na": "sha256:77d481487b7f11cac42be83cd1ce5d05"
+  "woorde_voor": 390,
+  "woorde_na": 390,
+  "wanneer": "2026-11-18T14:02:54+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 3,
+      "blok": "Waar die Stille Oseaan lê",
+      "voor": "Hy lê tussen",
+      "na": "Dit lê tussen",
+      "soort": "verwysing",
+      "rede_vinder": "In standard written Afrikaans for learners an ocean is referred to as 'dit', not 'hy'.",
+      "fout": "none",
+      "rede_keurder": "'Hy' for a concrete noun such as an ocean is standard Afrikaans, so this is a lateral move."
+    }
+  ],
+  "konsep_hash_voor": "sha256:95bfdff7d87cba0011c89f96fc9fd6a5",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:95bfdff7d87cba0011c89f96fc9fd6a5"
 }

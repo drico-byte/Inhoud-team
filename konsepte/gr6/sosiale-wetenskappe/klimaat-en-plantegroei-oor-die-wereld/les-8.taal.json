@@ -1,38 +1,45 @@
 {
   "toegepas": [
     {
+      "nr": 1,
+      "blok": "Hoe hierdie streek van die ander twee verskil",
+      "voor": "somer, waar die reënwoud",
+      "na": "somer, terwyl die reënwoud",
+      "soort": "anglisisme",
+      "rede_vinder": "Contrastive 'waar' (English 'whereas') is an anglicism; the protected entry explicitly allows 'terwyl' here.",
+      "fout": "Contrastive 'waar' after 'n egte somer' first reads as locative ('where'), a stumble for a Grade 6 reader.",
+      "rede_keurder": "'terwyl' is the natural contrastive conjunction, the protected entry explicitly allows it, and the repeat of 'terwyl' from the previous sentence is a small cost against the misreading."
+    },
+    {
       "nr": 2,
-      "blok": "Die natuurlike plantegroei: naalde en keëls",
-      "voor": "hou hulle naalde die hele jaar.",
-      "na": "hou hulle naalde die hele jaar deur.",
-      "soort": "idioom",
-      "rede_vinder": "The idiomatic time expression is 'die hele jaar deur'; the meaning is unchanged.",
-      "fout": "'die hele jaar' for a duration reads slightly flat where Afrikaans has the fixed expression 'die hele jaar deur'.",
-      "rede_keurder": "The fixed time expression is clearly better, the meaning is unchanged, and the protected 'Die meeste naaldbome' is untouched."
+      "blok": "'n Lang winter en 'n kort somer",
+      "voor": "Die maandelikse gemiddeldes wys",
+      "na": "Die maandelikse gemiddelde temperature wys",
+      "soort": "woordkeuse",
+      "rede_vinder": "'Gemiddeldes' alone does not say of what; the coldest/warmest contrast shows it means temperature.",
+      "fout": "'Die maandelikse gemiddeldes' does not say averages of what.",
+      "rede_keurder": "The coldest/warmest-month contrast already fixes the meaning as temperature, so naming it makes the sentence exact without adding a fact."
     },
     {
       "nr": 3,
-      "blok": "Hoe hierdie streek van die ander twee verskil",
-      "voor": "groei min soorte bome, en in die reënwoud groei baie soorte saam.",
-      "na": "groei min soorte bome, maar in die reënwoud groei baie soorte saam.",
-      "soort": "woordkeuse",
-      "rede_vinder": "The two clauses contrast, so 'maar' marks the contrast that 'en' leaves flat; the AWS comma stays.",
-      "fout": "'en' joins two clauses the paragraph sets against each other, leaving the contrast flat.",
-      "rede_keurder": "Checked as a conjunction change: both versions say few kinds grow here and many in the rainforest; 'maar' only marks the contrast the paragraph is about, and the AWS comma stays."
-    },
-    {
-      "nr": 4,
-      "blok": "korsmos",
-      "voor": "wat saam groei",
-      "na": "wat saamgroei",
-      "soort": "spelling",
-      "rede_vinder": "Saam plus a verb is written as one word in the AWS (saamgaan, saamwoon), so the verb in a subordinate clause is 'saamgroei'.",
-      "fout": "'saam groei' is written as two words where the AWS writes saam plus verb as one word.",
-      "rede_keurder": "A plain spelling fix inside the glossary entry that changes no wording of the definition and leaves 'Die klein lewende ding' unnamed."
+      "blok": "Die natuurlike plantegroei: naalde en keëls",
+      "voor": "Woude van hierdie boom dek",
+      "na": "Woude van hierdie soort boom dek",
+      "soort": "verwysing",
+      "rede_vinder": "The antecedent is 'een soort naaldboom', so 'hierdie boom' wrongly reads as a single tree.",
+      "fout": "'hierdie boom' after 'een soort naaldboom' reads as one single tree.",
+      "rede_keurder": "'hierdie soort boom' matches its antecedent and leaves the protected wording and the meaning intact."
     }
   ],
   "nie_toegepas": [],
-  "laat_vaar": [
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 441,
+  "woorde_na": 443,
+  "wanneer": "2026-11-18T13:58:51+00:00",
+  "laat_vaar_vorige": [
     {
       "nr": 1,
       "blok": "Wat die kaarte van hierdie band wys",
@@ -44,19 +51,7 @@
       "rede_keurder": "'Twee kaarte is dus nodig' is already natural Afrikaans; the 'daar is' form only reads differently, a lateral move."
     }
   ],
-  "na_skrywer": [],
-  "vlae": [],
-  "beskerm_bedenkings": [
-    {
-      "woord": "waar die reënwoud se maande eenders lyk",
-      "rede": "Using 'waar' to mean 'whereas' is often called an anglicism; 'terwyl' is the usual contrastive conjunction. It was left alone because it is protected, but a person may want to look at it. 'terwyl' is already used in the sentence before."
-    }
-  ],
-  "woorde_voor": 440,
-  "woorde_na": 441,
-  "wanneer": "2026-10-28T18:07:30+00:00",
-  "laat_vaar_vorige": [],
-  "konsep_hash_voor": "sha256:c28f2821e7bed46b8f692d3ec1d76770",
+  "konsep_hash_voor": "sha256:ca48a01994ce614908f5d20b7bab69bc",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:4a6f47083dab666dcf99f34d0413bffe"
+  "konsep_hash_na": "sha256:fc4e0e3dd475ef07768a290c68f52b14"
 }

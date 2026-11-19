@@ -49,13 +49,16 @@ def skoon(t):
     t = t.replace("\u2019", "'").replace("\u2018", "'")
     t = t.replace("\u201c", '"').replace("\u201d", '"')
     t = t.replace("\u2013", "-").replace("\u2014", "-").replace("\xa0", " ")
+    # A soft hyphen (&shy;) is a line-break hint, not text (HTML team query T01).
+    t = t.replace("\u00ad", "")
     return re.sub(r"\s+", " ", t).strip()
 
 
 def gloss(pad):
     s = open(pad, encoding="utf-8", errors="replace").read()
     uit = {}
-    for m in re.finditer(r"<dt>(.*?)</dt>\s*<dd>(.*?)</dd>", s, re.S):
+    # dt/dd may carry attributes such as a class (HTML team query T02).
+    for m in re.finditer(r"<dt\b[^>]*>(.*?)</dt>\s*<dd\b[^>]*>(.*?)</dd>", s, re.S):
         uit[skoon(m.group(1))] = skoon(m.group(2))
     # The two machines emit different markup for the same thing. Matching only
     # the first returned an empty word list for half the lessons, which reads as

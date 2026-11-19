@@ -478,3 +478,4 @@
 - [Content library](inhoud-biblioteek.md) — our Inhoud/ folders mirror V2 (json+pdf+manifest per subject); sign-off delivers; only Gr 4-6 are finished, Gr 7 LO stays out.
 - [Gr 5 History layout: where we are](gr5-sw-gesk-uitleg-waar-ons-is.md) — approved 12 Nov 2026: 46 IDs (45 texts), 200/CAPS hour, register G5_GES published; extras marked; specs next.
 - [Gr 5 Geography layout: where we are](gr5-sw-geo-uitleg-waar-ons-is.md) — 17 Nov 2026: T1-T3 scripts only; 32 texts at 200/h proposed, awaiting Lampies.
+- [Register a spec edit before coverage](spek-wysiging-registreer-voor-dekking.md) — call the runner after a spec edit and before briefing coverage, or sign-off archives the report.

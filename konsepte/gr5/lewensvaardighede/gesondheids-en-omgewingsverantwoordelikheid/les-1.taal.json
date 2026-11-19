@@ -1,75 +1,24 @@
 {
-  "toegepas": [
-    {
-      "nr": 2,
-      "blok": "As iemand iets gesluk het",
-      "voor": "Kom iets op iemand se vel",
-      "na": "As iets op iemand se vel kom",
-      "soort": "sinsbou",
-      "rede_vinder": "A Grade 5 reader easily takes a verb-first sentence as a question or command; the 'As' form matches the lesson's own deliberate choice elsewhere.",
-      "fout": "Verb-first conditional that a Grade 5 reader can take as a question or command, in a safety paragraph that elsewhere uses the 'As' form deliberately.",
-      "rede_keurder": "Same condition and same instruction, now read unambiguously as a condition and consistent with the lesson's own 'As' sentences."
-    },
-    {
-      "nr": 3,
-      "blok": "As iemand iets gesluk het",
-      "voor": "Kom iets in iemand se oog",
-      "na": "As iets in iemand se oog kom",
-      "soort": "sinsbou",
-      "rede_vinder": "Same verb-first conditional as above; the 'As' form reads unambiguously as a condition.",
-      "fout": "Same verb-first conditional as in change 2.",
-      "rede_keurder": "The condition is unchanged and the instruction that follows (who to call, what to do) is untouched; the 'As' form reads clearly for Grade 5."
-    },
-    {
-      "nr": 4,
-      "blok": "As iemand iets gesluk het",
-      "voor": "en die water spoel swak daardeur",
-      "na": "en die water spoel nie goed daardeur nie",
-      "soort": "woordkeuse",
-      "rede_vinder": "'spoel swak daardeur' is wooden; 'spoel nie goed daardeur nie' is the natural phrasing with the same meaning.",
-      "fout": "'spoel swak daardeur' is stiff; 'swak' sits awkwardly with the verb.",
-      "rede_keurder": "'spoel nie goed daardeur nie' is the natural phrasing with the same meaning, in an explanation rather than an instruction."
-    },
-    {
-      "nr": 5,
-      "blok": "Buite die huis",
-      "voor": "op straat en op die veld",
-      "na": "op straat en in die veld",
-      "soort": "idioom",
-      "rede_vinder": "Afrikaans says 'in die veld' for open country; 'op die veld' suggests a sports field.",
-      "fout": "'op die veld' is the preposition for a sports field; open country is 'in die veld'.",
-      "rede_keurder": "Fixes the preposition so the sentence means the open veld the paragraph is about, matching 'As die veld brand' later, which is untouched."
-    },
-    {
-      "nr": 6,
-      "blok": "Buite die huis",
-      "voor": "Kry jy daar 'n bottel, 'n blik of pille",
-      "na": "As jy daar 'n bottel, 'n blik of pille kry",
-      "soort": "sinsbou",
-      "rede_vinder": "Verb-first conditional can read as a question or an instruction to find things; the 'As' form is clearer for Grade 5.",
-      "fout": "'Kry jy daar ...' can be read as a question or as an instruction to find things.",
-      "rede_keurder": "The 'As' form keeps the same condition and the same instruction not to pick it up, and reads unambiguously for Grade 5."
-    }
-  ],
+  "toegepas": [],
   "nie_toegepas": [],
   "laat_vaar": [
     {
       "nr": 1,
-      "blok": "Die bottel en die plek",
-      "voor": "Die prentjie en die naam sê steeds koeldrank.",
-      "na": "Die prentjie en die naam op die bottel sê steeds koeldrank.",
-      "soort": "verwysing",
-      "rede_vinder": "Makes clear the picture and name are those on the bottle, which the bare 'die prentjie en die naam' leaves the reader to infer.",
+      "blok": "As iemand iets gesluk het",
+      "voor": "Die goed kom maklik op jou eie hande, en 'n grootmens moet dus help.",
+      "na": "Die goed kom maklik op jou eie hande, daarom moet 'n grootmens help.",
+      "soort": "sinsbou",
+      "rede_vinder": "'en ... dus' is wooden; 'daarom' with inversion states the reason more naturally for Grade 5.",
       "fout": "none",
-      "rede_keurder": "The previous sentence names the koeldrankbottel, so the referent is already clear; adding 'op die bottel' only repeats a word the next sentence uses again."
+      "rede_keurder": "The original 'en ... dus' is natural Afrikaans and reads cleanly in a safety paragraph; the proposal is a lateral move whose bare comma before 'daarom' joining two main clauses is no improvement."
     }
   ],
   "na_skrywer": [],
   "vlae": [],
   "beskerm_bedenkings": [],
-  "woorde_voor": 611,
-  "woorde_na": 616,
-  "wanneer": "2026-10-23T17:33:34+00:00",
+  "woorde_voor": 614,
+  "woorde_na": 614,
+  "wanneer": "2026-11-18T14:03:37+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 1,
@@ -140,9 +89,19 @@
       "rede_vinder": "The contrast 'X, nie Y nie' is the natural Afrikaans pattern, and 'die vuur' refers to the fire just described.",
       "fout": "none",
       "rede_keurder": "'en nie om vuur te blus nie' is correct and clear; the proposal is a lateral rewording of a safety instruction and narrows 'vuur' to 'die vuur'."
+    },
+    {
+      "nr": 1,
+      "blok": "Die bottel en die plek",
+      "voor": "Die prentjie en die naam sê steeds koeldrank.",
+      "na": "Die prentjie en die naam op die bottel sê steeds koeldrank.",
+      "soort": "verwysing",
+      "rede_vinder": "Makes clear the picture and name are those on the bottle, which the bare 'die prentjie en die naam' leaves the reader to infer.",
+      "fout": "none",
+      "rede_keurder": "The previous sentence names the koeldrankbottel, so the referent is already clear; adding 'op die bottel' only repeats a word the next sentence uses again."
     }
   ],
-  "konsep_hash_voor": "sha256:e06b0c0254287a2ed741066609b207ac",
+  "konsep_hash_voor": "sha256:3ac3c1d6843d4eb238bbfbe328a47cc2",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:b10987967f789b056d715b9e5c771254"
+  "konsep_hash_na": "sha256:3ac3c1d6843d4eb238bbfbe328a47cc2"
 }

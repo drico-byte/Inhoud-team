@@ -2,33 +2,48 @@
   "toegepas": [
     {
       "nr": 1,
-      "blok": "Suid-Afrika op dieselfde kaart",
-      "voor": "Kyk na Suid-Afrika self op die reënvalkaart en jy sien",
-      "na": "Kyk na Suid-Afrika self op die reënvalkaart, en jy sien",
-      "soort": "leestekens",
-      "rede_vinder": "AWS 2017: 'en' joins two sentences here (an imperative and 'jy sien'), each with its own verb, so a comma goes before it.",
-      "fout": "Missing AWS comma: 'en' joins two main clauses, the imperative 'Kyk na ...' and 'jy sien ...', which has its own subject and verb.",
-      "rede_keurder": "The comma marks the join between two clauses as the AWS 2017 requires, and the words and meaning stay exactly the same."
+      "blok": "Reënval word in millimeter gemeet",
+      "voor": "is al daardie millimeters bymekaargetel",
+      "na": "is al die millimeters wat in daardie jaar geval het, bymekaargetel",
+      "soort": "verwysing",
+      "rede_vinder": "'daardie millimeters' has no clear antecedent; naming the year makes the reference clear without adding content.",
+      "fout": "'daardie millimeters' points back to nothing specific; the previous sentences speak of one millimetre, not a set of them.",
+      "rede_keurder": "The proposal makes the reference explicit without adding a fact, and the sentence stays short enough for Grade 6."
     },
     {
       "nr": 2,
       "blok": "Twee soorte kaarte langs mekaar",
-      "voor": "om 'n plek se klimaat te ken",
-      "na": "om 'n plek se klimaat te leer ken",
-      "soort": "idioom",
-      "rede_vinder": "'n Klimaat ken' is stiff; 'leer ken' is the natural idiom for getting to know something by studying it, with the same meaning.",
-      "fout": "'n Plek se klimaat te ken' is flat and slightly odd, since reading the maps is a way of coming to know the climate, not a state of knowing it.",
-      "rede_keurder": "'Te leer ken' is the natural Afrikaans idiom for getting to know something by studying it, touches no protected wording and keeps the meaning."
+      "voor": "Soek dieselfde plek op albei kaarte",
+      "na": "Soek dieselfde plek op albei soorte kaarte",
+      "soort": "verwysing",
+      "rede_vinder": "The block names temperature maps (plural) and one rainfall map, so 'albei kaarte' is inexact; 'albei soorte kaarte' matches the heading.",
+      "fout": "'albei kaarte' implies two maps, but the block uses temperature maps in the plural (January and July) plus a rainfall map.",
+      "rede_keurder": "'albei soorte kaarte' matches the block heading and the maps actually used, with no change in meaning."
+    },
+    {
+      "nr": 3,
+      "blok": "Twee soorte kaarte langs mekaar",
+      "voor": "Jy lees dus albei kaarte saam",
+      "na": "Jy lees dus albei soorte kaarte saam",
+      "soort": "verwysing",
+      "rede_vinder": "Same reference problem as above; there are more than two maps, but two kinds.",
+      "fout": "Same inexact 'albei kaarte' as in change 2.",
+      "rede_keurder": "Kept together with change 2 so the block refers to the maps the same way throughout."
     }
   ],
   "nie_toegepas": [],
   "laat_vaar": [],
   "na_skrywer": [],
   "vlae": [],
-  "beskerm_bedenkings": [],
-  "woorde_voor": 373,
-  "woorde_na": 374,
-  "wanneer": "2026-10-28T17:21:48+00:00",
+  "beskerm_bedenkings": [
+    {
+      "woord": "Die Sahara is op die temperatuurkaarte ook warm",
+      "rede": "This protected wording does not occur in the lesson; the sentence now reads 'Die Sahara is in sy somer op die Juliekaart ook warm'. Not changed; noted so a person can check the entry is still current."
+    }
+  ],
+  "woorde_voor": 377,
+  "woorde_na": 385,
+  "wanneer": "2026-11-18T13:59:24+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 2,
@@ -51,7 +66,7 @@
       "rede_keurder": "Only two sentences open with 'Die kaart', the repetition is clear for a Grade 6 reader, and 'Dit' is a lateral move."
     }
   ],
-  "konsep_hash_voor": "sha256:fb083066e72ab76008929566119b0e8f",
+  "konsep_hash_voor": "sha256:1be63495cd8474daa4428454cea57930",
   "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
-  "konsep_hash_na": "sha256:9eeecb756d541bf3b85a1cdcd29939c8"
+  "konsep_hash_na": "sha256:0cd4e3698739e86a712d4cf148fc5d9f"
 }

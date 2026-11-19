@@ -1,15 +1,23 @@
 {"prompt_weergawe": "taalvinder-v1.1",
  "veranderings": [
-  {"blok": "Suid-Afrika op dieselfde kaart",
-   "voor": "Kyk na Suid-Afrika self op die reënvalkaart en jy sien",
-   "na": "Kyk na Suid-Afrika self op die reënvalkaart, en jy sien",
-   "soort": "leestekens",
-   "rede": "AWS 2017: 'en' joins two sentences here (an imperative and 'jy sien'), each with its own verb, so a comma goes before it."},
+  {"blok": "Reënval word in millimeter gemeet",
+   "voor": "is al daardie millimeters bymekaargetel",
+   "na": "is al die millimeters wat in daardie jaar geval het, bymekaargetel",
+   "soort": "verwysing",
+   "rede": "'daardie millimeters' has no clear antecedent; naming the year makes the reference clear without adding content."},
   {"blok": "Twee soorte kaarte langs mekaar",
-   "voor": "om 'n plek se klimaat te ken",
-   "na": "om 'n plek se klimaat te leer ken",
-   "soort": "idioom",
-   "rede": "'n Klimaat ken' is stiff; 'leer ken' is the natural idiom for getting to know something by studying it, with the same meaning."}
+   "voor": "Soek dieselfde plek op albei kaarte",
+   "na": "Soek dieselfde plek op albei soorte kaarte",
+   "soort": "verwysing",
+   "rede": "The block names temperature maps (plural) and one rainfall map, so 'albei kaarte' is inexact; 'albei soorte kaarte' matches the heading."},
+  {"blok": "Twee soorte kaarte langs mekaar",
+   "voor": "Jy lees dus albei kaarte saam",
+   "na": "Jy lees dus albei soorte kaarte saam",
+   "soort": "verwysing",
+   "rede": "Same reference problem as above; there are more than two maps, but two kinds."}
  ],
  "vlae": [],
- "beskerm_bedenkings": []}
+ "beskerm_bedenkings": [
+  {"woord": "Die Sahara is op die temperatuurkaarte ook warm",
+   "rede": "This protected wording does not occur in the lesson; the sentence now reads 'Die Sahara is in sy somer op die Juliekaart ook warm'. Not changed; noted so a person can check the entry is still current."}
+ ]}
