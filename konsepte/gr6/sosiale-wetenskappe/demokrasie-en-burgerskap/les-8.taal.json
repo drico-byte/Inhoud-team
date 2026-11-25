@@ -1,5 +1,26 @@
 {
-  "toegepas": [],
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "As twee bronne verskil",
+      "voor": "dat die bronne verskil of laat die punt uit",
+      "na": "dat die bronne verskil, of laat die punt uit",
+      "soort": "leestekens",
+      "rede_vinder": "Two separate instructions are joined by 'of' (as with the comma before 'maar' in 'Begin met vrae'); without the comma 'laat die punt uit' can be misread as part of what the learner writes.",
+      "fout": "Two separate imperative clauses joined by 'of' without the comma, so 'of laat die punt uit' can be read as part of the dat-clause.",
+      "rede_keurder": "The comma before 'of' joining two main clauses follows the AWS 2017 and removes a misreading without changing the two options."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n biografie is",
+      "voor": "waarom daardie lewe saak maak",
+      "na": "waarom daardie lewe belangrik is",
+      "soort": "anglisisme",
+      "rede_vinder": "Positive 'saak maak' echoes English 'matters'; 'belangrik is' is the more idiomatic Afrikaans with the same meaning.",
+      "fout": "Positive 'saak maak' copies English 'matters'; Afrikaans uses it naturally mainly in the negative.",
+      "rede_keurder": "'Belangrik is' is plainer, idiomatic Afrikaans for a Grade 6 reader and says the same thing; no protected wording or neighbour is touched."
+    }
+  ],
   "nie_toegepas": [],
   "laat_vaar": [],
   "na_skrywer": [],
@@ -7,13 +28,13 @@
     {
       "blok": "Wat 'n biografie is",
       "teks": "Die mens oor wie jy skryf, is 'n Suid-Afrikaner wat ons demokrasie help bou het. Skryf jou biografie in tydsorde van haar vroeë jare af. Leef sy nog, loop dit tot vandag toe.",
-      "rede": "The learner chooses the person, who may be a man, but the lesson refers to that person throughout as 'sy/haar' (also in the list and the next blocks); if a generic feminine is intended it is fine, otherwise the writer should decide, since changing it touches every block and a protected definition."
+      "rede": "'Die mens' is referred to as 'sy/haar' throughout the lesson (also in the list and 'onderhoud met haar'), which reads as if the learner's subject must be a woman; changing it would mean guessing the intent, so it is flagged, not changed."
     }
   ],
   "beskerm_bedenkings": [],
   "woorde_voor": 278,
   "woorde_na": 278,
-  "wanneer": "2026-11-18T13:43:02+00:00",
+  "wanneer": "2026-11-25T08:30:21+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 1,
@@ -56,7 +77,7 @@
       "rede_keurder": "'Sommer alles wat jy kan kry' is already natural Afrikaans and an editor would let it pass; the idiom is a lateral move, and dropping 'kan' shifts the sense slightly from everything you can find to whatever happens to come your way."
     }
   ],
-  "konsep_hash_voor": "sha256:6c0f7b122958b1403e586e90390333b7",
-  "prompts": "taalvinder-v1.1 + -",
-  "konsep_hash_na": "sha256:6c0f7b122958b1403e586e90390333b7"
+  "konsep_hash_voor": "sha256:b187a76ec4fab55674a6f507194f962d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a497dd529f2f8fab1fe0c823b33a34c6"
 }

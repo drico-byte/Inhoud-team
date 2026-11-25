@@ -4,15 +4,10 @@
   "laat_vaar": [],
   "na_skrywer": [],
   "vlae": [],
-  "beskerm_bedenkings": [
-    {
-      "woord": "nyanga",
-      "rede": "The protected entry is 'nyanga', but the lesson writes 'inyanga' everywhere (study text and glossary headword), so as a whole word the protected form never occurs and a whole-word guard may not cover 'inyanga'. 'inyanga' is the correct isiZulu form and is not a fault; the protected entry probably needs to name 'inyanga' (or both forms) so the guard actually protects the word the lesson uses."
-    }
-  ],
+  "beskerm_bedenkings": [],
   "woorde_voor": 226,
   "woorde_na": 226,
-  "wanneer": "2026-11-12T22:47:07+00:00",
+  "wanneer": "2026-11-25T08:55:40+00:00",
   "laat_vaar_vorige": [
     {
       "nr": 2,
@@ -83,9 +78,19 @@
       "rede_vinder": "'vandag nog steeds' doubles up; 'vandag nog' already says it still happens today.",
       "fout": "none",
       "rede_keurder": "'vandag nog steeds' is ordinary, natural emphatic Afrikaans, so trimming 'steeds' is a lateral move."
+    },
+    {
+      "nr": 1,
+      "blok": "Medisyne uit die natuur",
+      "voor": "Net soos ons het die boere",
+      "na": "Net soos ons, het die boere",
+      "soort": "leestekens",
+      "rede_vinder": "Without a comma a Grade 5 reader can first parse 'ons het die boere' as subject-verb-object; the comma closes the fronted comparison and removes the garden path.",
+      "fout": "none",
+      "rede_keurder": "The proposal brings in the exact form the BESKERM list forbids ('Net soos ons, het die boere'); under AWS 2017 a comma may not separate the fronted phrase from its own verb, per HTML query N25."
     }
   ],
-  "konsep_hash_voor": "sha256:f55f6b1c3de0e9e12419aea54e0d7f16",
+  "konsep_hash_voor": "sha256:83c92fdfe1d5e8374efd3438e3ba5813",
   "prompts": "taalvinder-v1.1 + -",
-  "konsep_hash_na": "sha256:f55f6b1c3de0e9e12419aea54e0d7f16"
+  "konsep_hash_na": "sha256:83c92fdfe1d5e8374efd3438e3ba5813"
 }

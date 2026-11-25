@@ -2,7 +2,7 @@
 
 Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, dan die dekking- en feitetoets) en is weer goedgekeur. Waar die KABV-oudit 'n gaping gevind het, is dit in dieselfde rondte gevul.
 
-423 lesse.
+426 lesse.
 
 
 ## Graad 4/Geografie
@@ -84,6 +84,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 
 ## Graad 4/NW en Teg
 
+- **G4_NW_01 - Hoe weet jy iets lewe** (goedgekeur 2026-11-25): taalstap: niks verander nie; KABV-gaping: broodmuf as 'n lewende ding, en wat droë gis in warm suikerwater doen (die borrels as teken van voeding en afval); Feitetoets: 'elke lewende ding word groter / beweeg / maak nuwe lewende dinge' tot die groep vernou; 'al sewe' nou by plante en diere; kuiken word 'n hen of 'n haan; die plant se afvalgas is suurstof; 'baie plante maak sade'; Gedeelde omskrywing 'asemhaling' reggestel: energie uit kos kry, die meeste lewende dinge met suurstof uit die lug of die water
 - **G4_NW_02 - Dood of nooit gelewe nie** (goedgekeur 2026-10-22): taalstap: niks verander nie; KABV-gaping: 'n klip en vuur word teen die sewe lewensprosesse getoets (albei lewe nie), buite die twee sorteervrae; Feitetoets: vuur se rede is dat dit niks opmerk nie (nie 'geen sintuie' nie); die rivier kry nie self kos nie; die droë blaar kry nie meer kos nie en groei nie meer nie; die lepel is 'n lepel van metaal; 'n droë boontjie maak gewoonlik 'n wortel; 'dood' gekoppel aan die lewensprosesse
 - **G4_NW_03 - Die dele van 'n plant** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; Feitetoets: onsekere bewering oor varings se stingels geskrap
 - **G4_NW_04 - 'n Dier se liggaam** (goedgekeur 2026-10-22): 1 taalverandering(s) toegepas; KABV se assesseringsriglyn: die hond se ses buitedele (kop, oë, ore, bek, pote, stert) en wat elkeen doen; Feitetoets: vyf oorbreë bewerings vernou (geraamte, werwels, gaatjie, insek se harde laag, 'net een ding in gemeen')
@@ -212,7 +213,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G5_GES_14 - Yster en koper** (goedgekeur 2026-11-12): taalstap: niks verander nie
 - **G5_GES_15 - Kleipotte** (goedgekeur 2026-11-12): taalstap: niks verander nie
 - **G5_GES_16 - Handel** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
-- **G5_GES_17 - Jag en genesing** (goedgekeur 2026-11-12): taalstap: niks verander nie
+- **G5_GES_17 - Jag en genesing** (goedgekeur 2026-11-25): taalstap: niks verander nie
 - **G5_GES_18 - Shaka word koning** (goedgekeur 2026-11-12): 2 taalverandering(s) toegepas
 - **G5_GES_19 - Die Zoeloekoninkryk** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
 - **G5_GES_20 - Shaka se bestuur** (goedgekeur 2026-11-12): 1 taalverandering(s) toegepas
@@ -307,6 +308,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G5_PSW_17 - Gelowe en feeste, deel 1** (goedgekeur 2026-10-23): 2 taalverandering(s) toegepas; Duideliker: die Pesag-begrip sê dat MENSE onthou; 'aan tafel' uit die seder-begrip; die moskee is ''n Gebou'; 'sien jy gebruike'; Taal: 'wanneer dit in Suid-Afrika herfs is'; 'die gesin en hulle gaste'; 'familie wat ver weg woon'; 'na die moskee om saam te bid'; 'brand op olie'; 'Islamitiese kalender'; 'dienste en besoeke'
 - **G5_PSW_18 - Gelowe en feeste, deel 2** (goedgekeur 2026-10-23): taalstap: niks verander nie; Feite (feitetoets): by Wesak gee party gemeenskappe KOS weg aan mense wat min het (die klere kon nie bevestig word nie); Taal: 'volgens een vaste kalender'; 'In baie huise praat ... 'n ouer familielid'; 'verskil die gebruike'; '21 Maart'; 'lees iemand gebede voor'; 'by elkeen vier mense iets anders'; ''n baba bygekry het'; AWS-kommas
 - **G5_PSW_19 - Die jaar in ons straat** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; Duideliker: 'in die koelte agter die huis' (die ou 'onder die boom in die agterplaas' kon as die Kersboom lees); Taal: 'in Akkerstraat'; 'mev.' binne 'n sin; 'gereedgemaak'; 'soetgoed'; 'opgesit'; 'my pa die lampies'; AWS-kommas
+- **G5_PSW_20 - Die bottel en die vlam** (goedgekeur 2026-11-25): taalstap: niks verander nie; KABV-gaping: nuwe blok 'Buite die huis' - moenie bottels, blikke of pille op straat of in die veld optel nie, moenie buite met vuur speel nie, en as die veld brand: gaan weg en roep 'n grootmens, moenie probeer blus nie; Veiligheid (feitetoets): as die klere nie maklik uitkom nie, knip 'n grootmens hulle af terwyl jy aanhou spoel (die ou sin 'spoel bo-oor die klere' is teruggetrek, want geen bron steun dit nie); Feite: 'etiket' sê nou wat in die houer HOORT, nie wat daarin IS nie ('n hervulde bottel hou sy ou etiket); medisyne 'help om' siekte te behandel; 'meer as WAT die etiket sê'; Ingekort: brandstof, motorolie en plantvoeding is uit die lys, en ook die kragprop-oorlading; 'Gaan nooit terug die huis in' vir iets wat jy vergeet het; Taal: AWS-kommas; 'As iets op/in ... kom' in plaas van 'Kom iets ...'; 'toegemaak en hoog weggebêre'; 'huishoudings ... verwarm'; 'doodslaan' in die woordelys
 - **G5_PSW_21 - Die koeldrankbottel** (goedgekeur 2026-10-23): 7 taalverandering(s) toegepas; KABV-gaping (vuurveiligheid): die paraffien word ver van die stoof se vlam en van vuurhoutjies gehou, want paraffien brand (in die les doen Tannie Ansie dit); Ingekort: hoe Karabo die paraffien uitken, word nou een keer gesê en nie twee keer nie; Taal: 'doppie' in plaas van 'deksel'; 'tree op asof'; 'die toegedraaide bottel'; AWS-kommas; 'Willem' by die naam waar 'hom' onduidelik was
 - **G5_PSW_22 - Waar water begin** (goedgekeur 2026-10-23): 2 taalverandering(s) toegepas; Feite (feitetoets): 'n dam se muur staan DIKWELS (nie altyd nie) oor 'n rivier of stroom; Duideliker: 'Stroomaf drink diere uit daardie rivier, en mense haal ook water daaruit'; die toilet-item is nou 'n stelling (''n Toilet moet ver staan van ...'); eerste opskrif 'Hoekom ons elke dag water nodig het'; Taal: ''n Lekkende kraan drup dag en nag'; 'met 'n tuinslang'; 'in 'n asblik'; 'keer dit in 'n dam op'; 'Die water in die dam sak'; 'Op ander plekke'; 'op die land'; AWS-kommas
 - **G5_PSW_23 - Twee dae sonder kraan** (goedgekeur 2026-10-23): 1 taalverandering(s) toegepas; Duideliker: Ma se reël 'Water gaan eerste na drink en kos, en niemand mors daarmee nie'; Thandi se reël tussen aanhalingstekens; Taal: 'Vir handewas'; 'elke keer het hulle stadiger teruggestap'; 'sy arm tot by die elmboog ingesteek'; 'sy hande met seep ingevryf'; 'die water in 'n leë emmer opgevang'; AWS-kommas
@@ -346,7 +348,7 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G6_GEO_22 - Baie en min reën** (goedgekeur 2026-11-18): 3 taalverandering(s) toegepas
 - **G6_GEO_23 - Die reënwoud** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
 - **G6_GEO_24 - Reënwoud word afgekap** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
-- **G6_GEO_25 - Die warm woestyn** (goedgekeur 2026-11-18): 1 taalverandering(s) toegepas
+- **G6_GEO_25 - Die warm woestyn** (goedgekeur 2026-11-25): taalstap: niks verander nie
 - **G6_GEO_26 - Lewe in die woestyn** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas; Feitetoets: Siwa se klein vensters kon nie bevestig word nie en is gesny
 - **G6_GEO_27 - Die naaldwoud** (goedgekeur 2026-11-18): 3 taalverandering(s) toegepas; KABV-oudit: hoe die jaar se reën en sneeu oor die maande versprei is (die meeste water val in die somer, as reën)
 - **G6_GEO_28 - Wat die naaldwoud gee** (goedgekeur 2026-10-28): 9 taalverandering(s) toegepas
@@ -387,10 +389,11 @@ Elke les hier het deur ons eie taalstap gegaan (vinder, keurder, die hek weer, d
 - **G6_GES_24 - Bouers van die demokrasie** (goedgekeur 2026-10-29): 1 taalverandering(s) toegepas; Vraag 25: 1954 voorop vir Fatima Meer se eerste inperking, met een sin oor 1952; die Defiance Campaign-skakel uitgehaal
 - **G6_GES_25 - Kinderregte** (goedgekeur 2026-10-29): 2 taalverandering(s) toegepas; Misbruik-omskrywing: die grootmens wat weet en toelaat, is nie self die misbruik nie; Vraag 26: armoede alleen is nie 'n rede om 'n kind uit die gesin weg te neem nie
 - **G6_GES_26 - Wapen, vlag en lied** (goedgekeur 2026-10-28): 3 taalverandering(s) toegepas; Feitetoets: die Engelse slotstrofe van die volkslied is nie 'nuut geskryf' nie (aangepas uit Die Stem se amptelike Engelse weergawe); die les sê nou net dat dit nie 'n vertaling van die Afrikaanse strofe is nie
+- **G6_GES_27 - Iemand se lewensverhaal** (goedgekeur 2026-11-25): 2 taalverandering(s) toegepas; Feitetoets: 'n boek of artikel kan self 'n primêre bron wees; die gedeelde omskrywing van 'sekondêre bron' se voorbeelde is nou 'n geskiedenisboek of 'n dokumentêr
 - **G6_GES_28 - Die hele mens** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-oudit: om die pasiënt op sy gemak te stel, as deel van holistiese genesing
 - **G6_GES_29 - Medisyne uit plante** (goedgekeur 2026-10-28): 2 taalverandering(s) toegepas
 - **G6_GES_30 - Die geroepe geneser** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; Feitetoets: die bewering dat 'n kruiedokter die werk binne die familie leer, het geen betroubare bron nie en is gesny
-- **G6_GES_31 - Die melkmeisie se hande** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas; KABV-oudit: 'n blok oor bronne - Jenner se eie verslag as primêre bron, 'n latere geskiedenisboek as sekondêre bron; 'stof' (lees as 'dust') is nou 'etter'; koeipokke is 'n siekte wat koeie en mense kan kry, nie 'van koeie' nie
+- **G6_GES_31 - Die melkmeisie se hande** (goedgekeur 2026-11-25): taalstap: niks verander nie; KABV-oudit: 'n blok oor bronne - Jenner se eie verslag as primêre bron, 'n latere geskiedenisboek as sekondêre bron; 'stof' (lees as 'dust') is nou 'etter'; koeipokke is 'n siekte wat koeie en mense kan kry, nie 'van koeie' nie
 - **G6_GES_32 - Te klein om te sien** (goedgekeur 2026-11-18): 3 taalverandering(s) toegepas; Feitetoets: Pasteur se flesse het die idee dat kieme siekte veroorsaak VERSTERK, nie die verband oortuigend gemaak nie
 - **G6_GES_33 - Koch se mikroskoop** (goedgekeur 2026-10-28): 1 taalverandering(s) toegepas
 - **G6_GES_34 - Fleming se bakkie** (goedgekeur 2026-10-28): taalstap: niks verander nie; Feitetoets: vir die grootste deel van die geskiedenis was daar geen BETROUBARE medisyne teen bakterieë binne die liggaam nie (nie 'niks' nie); 'wat' in die 'eerste antibiotikum'-sin heg nie meer aan die skimmel nie

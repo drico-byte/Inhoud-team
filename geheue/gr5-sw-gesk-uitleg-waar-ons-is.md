@@ -108,7 +108,7 @@ Tutankhamun/Akhenaten/Khafre/Menkaure; Afrikaans: Toetankamen/Achenaten/Chafra/M
 Briefs in the session scratchpad; brief template rules: approved division fixed, no textbook, lean <40KB.
 MANTIS NAME, RULED by Lampies 12 Nov 2026: "hottentotsgot", the name Afrikaans speakers use - "it's not
 considered a racist name for an animal"; "no one uses bidsprinkaan". First mention "hottentotsgot
-(bidsprinkaan)", then "hottentotsgot". Applied to the T1 spec (lesson 4), its video_naat, the check record
+(bidsprinkaan)", then "hottentotsgot". CHANGED by Lampies 25 Nov 2026 (HTML-team query N24): after the first mention, "bidsprinkaan". First mention stays "hottentotsgot (bidsprinkaan)". Lesson 4 names it only once, so its text did not change; spec, video_naat and protected words were rewritten. CHANGED by Lampies 25 Nov 2026 (HTML-team query N24): after the first mention, "bidsprinkaan". First mention stays "hottentotsgot (bidsprinkaan)". Lesson 4 names it only once, so its text did not change; spec, video_naat and protected words were rewritten. Applied to the T1 spec (lesson 4), its video_naat, the check record
 (finding overruled, kept), and kaps/beskermde-woorde.json per_subonderwerp. Do not raise it again. The guard
 that stays: the text must not say the San worshipped the insect as a god.
 

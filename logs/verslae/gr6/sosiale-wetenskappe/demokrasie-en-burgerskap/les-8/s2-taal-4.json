@@ -1,0 +1,83 @@
+{
+  "toegepas": [
+    {
+      "nr": 1,
+      "blok": "As twee bronne verskil",
+      "voor": "dat die bronne verskil of laat die punt uit",
+      "na": "dat die bronne verskil, of laat die punt uit",
+      "soort": "leestekens",
+      "rede_vinder": "Two separate instructions are joined by 'of' (as with the comma before 'maar' in 'Begin met vrae'); without the comma 'laat die punt uit' can be misread as part of what the learner writes.",
+      "fout": "Two separate imperative clauses joined by 'of' without the comma, so 'of laat die punt uit' can be read as part of the dat-clause.",
+      "rede_keurder": "The comma before 'of' joining two main clauses follows the AWS 2017 and removes a misreading without changing the two options."
+    },
+    {
+      "nr": 2,
+      "blok": "Wat 'n biografie is",
+      "voor": "waarom daardie lewe saak maak",
+      "na": "waarom daardie lewe belangrik is",
+      "soort": "anglisisme",
+      "rede_vinder": "Positive 'saak maak' echoes English 'matters'; 'belangrik is' is the more idiomatic Afrikaans with the same meaning.",
+      "fout": "Positive 'saak maak' copies English 'matters'; Afrikaans uses it naturally mainly in the negative.",
+      "rede_keurder": "'Belangrik is' is plainer, idiomatic Afrikaans for a Grade 6 reader and says the same thing; no protected wording or neighbour is touched."
+    }
+  ],
+  "nie_toegepas": [],
+  "laat_vaar": [],
+  "na_skrywer": [],
+  "vlae": [
+    {
+      "blok": "Wat 'n biografie is",
+      "teks": "Die mens oor wie jy skryf, is 'n Suid-Afrikaner wat ons demokrasie help bou het. Skryf jou biografie in tydsorde van haar vroeë jare af. Leef sy nog, loop dit tot vandag toe.",
+      "rede": "'Die mens' is referred to as 'sy/haar' throughout the lesson (also in the list and 'onderhoud met haar'), which reads as if the learner's subject must be a woman; changing it would mean guessing the intent, so it is flagged, not changed."
+    }
+  ],
+  "beskerm_bedenkings": [],
+  "woorde_voor": 278,
+  "woorde_na": 278,
+  "wanneer": "2026-11-25T08:30:21+00:00",
+  "laat_vaar_vorige": [
+    {
+      "nr": 1,
+      "blok": "Wat 'n biografie is",
+      "voor": "Leef sy nog, loop dit tot vandag toe.",
+      "na": "As sy nog leef, loop dit tot vandag toe.",
+      "soort": "sinsbou",
+      "rede_vinder": "The inverted conditional is literary; an explicit 'As' clause is clearer for Grade 6.",
+      "fout": "none",
+      "rede_keurder": "The inverted conditional 'Leef sy nog, ...' is ordinary, natural Afrikaans that a Grade 6 reader handles easily; the 'As' form is a lateral move."
+    },
+    {
+      "nr": 6,
+      "blok": "Twee soorte bronne",
+      "voor": "'n Primêre bron kom van iemand wat self daar was, soos 'n brief, 'n foto of 'n onderhoud met haar.",
+      "na": "'n Primêre bron, soos 'n brief, 'n foto of 'n onderhoud met haar, kom van iemand wat self daar was.",
+      "soort": "sinsbou",
+      "rede_vinder": "After 'iemand wat self daar was', the 'soos' list reads as examples of people; moving it beside 'bron' attaches it to the right noun.",
+      "fout": "none",
+      "rede_keurder": "No reader takes a letter or a photo for a person, so the original flows; the proposal wedges a long list between subject and verb and is harder for Grade 6."
+    },
+    {
+      "nr": 7,
+      "blok": "Twee soorte bronne",
+      "voor": "'n Sekondêre bron kom van iemand wat nie daar was nie, soos 'n boek of 'n dokumentêr.",
+      "na": "'n Sekondêre bron, soos 'n boek of 'n dokumentêr, kom van iemand wat nie daar was nie.",
+      "soort": "sinsbou",
+      "rede_vinder": "Same misattachment as the previous sentence; keeps the parallel pair built the same way.",
+      "fout": "none",
+      "rede_keurder": "Same as the previous change: the original reads naturally and the reorder splits subject from verb without making it clearer."
+    },
+    {
+      "nr": 1,
+      "blok": "Begin met vrae",
+      "voor": "alles wat jy kan kry",
+      "na": "alles wat jy in die hande kry",
+      "soort": "idioom",
+      "rede_vinder": "'In die hande kry' is the idiomatic Afrikaans for coming across material, and it reads more naturally beside 'sommer' than the flat 'kan kry'.",
+      "fout": "none",
+      "rede_keurder": "'Sommer alles wat jy kan kry' is already natural Afrikaans and an editor would let it pass; the idiom is a lateral move, and dropping 'kan' shifts the sense slightly from everything you can find to whatever happens to come your way."
+    }
+  ],
+  "konsep_hash_voor": "sha256:b187a76ec4fab55674a6f507194f962d",
+  "prompts": "taalvinder-v1.1 + taalkeurder-v1.3",
+  "konsep_hash_na": "sha256:a497dd529f2f8fab1fe0c823b33a34c6"
+}
