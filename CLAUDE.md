@@ -646,6 +646,11 @@ What it means for us in particular:
   python bin/lesregister.py --publiseer
   ```
 
+  It writes two copies: `0000NUWE LESSE/Lesregister/`, and the V3 content library's
+  `_Gedeel/Lesregister/` (Lampies, 25 November 2026: the library is where all content
+  work should happen). Both copies are identical; the old one stays until Drico
+  completes the switch.
+
   The label (`titel`) is a short name for people, two to four words and at most about
   25 characters, made from the lesson's own title. The lesson keeps its full title.
 - **The number is the lesson's place in the year, in teaching order, across the whole

@@ -10,7 +10,8 @@ The register is kept here, in `kaps/lesregister/<G4_PSW>.csv`, so every PC has i
 git and every delivery script reads one source. Beside the rule's four columns
 (id, titel, tipe, ou_naam) it carries `bron`, the lesson draft the ID belongs to,
 because that is how a script knows which lesson it is holding. `--publiseer` writes
-the rule's four columns to SharePoint's `Lesregister/`, every row included.
+the rule's four columns to SharePoint's `Lesregister/`, every row included, and to the
+V3 content library's `_Gedeel/Lesregister/` (Lampies, 25 November 2026).
 
 A register may also carry `ekstra`, our own note on a lesson or video that covers
 things CAPS does not ask for (Lampies, 12 November 2026; first used in G5_GES, e.g.
@@ -91,12 +92,19 @@ def sharepoint_gids():
     return None
 
 
-def publiseer():
-    gids = sharepoint_gids()
-    if not gids:
-        raise SystemExit("No folder holding LESNAAM-REEL.md was found under your home folder. "
-                         "Set WOLKSKOOL_NUWE_LESSE to the synced '0000NUWE LESSE' folder.")
-    uit = os.path.join(gids, "Lesregister")
+def biblioteek_lesregister():
+    """The V3 content library's shared register folder, `_Gedeel/Lesregister/`.
+
+    Lampies, 25 November 2026: the library is where all content work should happen, so the
+    register is published there too, in the place AFLEWERING-REEL.md gives it. `0000NUWE LESSE`
+    keeps its copy until Drico completes the switch.
+    """
+    import biblioteek  # local: biblioteek imports nothing from here
+    wortel = biblioteek.biblioteek_gids()
+    return os.path.join(wortel, "_Gedeel", "Lesregister") if wortel else None
+
+
+def _skryf(uit):
     os.makedirs(uit, exist_ok=True)
     n = 0
     for f in sorted(glob.glob(os.path.join(REGISTER, "G*.csv"))):
@@ -108,6 +116,19 @@ def publiseer():
             w.writerows(rye)
         n += 1
     print(f"{n} registers written to {uit}")
+
+
+def publiseer():
+    gids = sharepoint_gids()
+    if not gids:
+        raise SystemExit("No folder holding LESNAAM-REEL.md was found under your home folder. "
+                         "Set WOLKSKOOL_NUWE_LESSE to the synced '0000NUWE LESSE' folder.")
+    lib = biblioteek_lesregister()
+    if not lib:
+        raise SystemExit("The 'Wolkskool Nuwe Inhoud V3 - Documents' library was not found under "
+                         "your home folder. Set WOLKSKOOL_BIBLIOTEEK to the synced library folder.")
+    _skryf(os.path.join(gids, "Lesregister"))
+    _skryf(lib)
 
 
 def main():
